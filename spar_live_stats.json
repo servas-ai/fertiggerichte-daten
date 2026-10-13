@@ -1,0 +1,15 @@
+{
+ "applied": 139,
+ "size_mismatch": [
+  {
+   "name": "Iglo Lasagne al Forno",
+   "size_g": 350,
+   "spar_pack": "700 G"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Gulaschsuppe 370 G",
+   "size_g": 350.0,
+   "spar_pack": "370 G"
+  }
+ ]
+}

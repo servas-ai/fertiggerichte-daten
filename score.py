@@ -1,6 +1,6 @@
 import json,re,statistics as st
 import os
-src=(['expand.json'] if os.path.exists('expand.json') else [])+(['classics.json'] if os.path.exists('classics.json') else [])+(['classics_ext.json'] if os.path.exists('classics_ext.json') else [])+(['brandfam_products.json'] if os.path.exists('brandfam_products.json') else [])+['billa.json','spar.json','spar_live.json','hofer_lidl.json','hofer_goodchoice.json','dm_live.json','frozen_quick.json','other.json','spar_browser_norm.json','more_meals_norm.json']+(['connectors_new.json'] if os.path.exists('connectors_new.json') else [])+(['online_mealprep.json'] if os.path.exists('online_mealprep.json') else [])+(['expand_v5.json'] if os.path.exists('expand_v5.json') else [])+(['ownbrands_meals.json'] if os.path.exists('ownbrands_meals.json') else [])+(['linz_providers_src.json'] if os.path.exists('linz_providers_src.json') else [])
+src=(['expand.json'] if os.path.exists('expand.json') else [])+(['classics.json'] if os.path.exists('classics.json') else [])+(['classics_ext.json'] if os.path.exists('classics_ext.json') else [])+(['brandfam_products.json'] if os.path.exists('brandfam_products.json') else [])+['billa.json','spar.json','spar_live.json','hofer_lidl.json','hofer_goodchoice.json','dm_live.json','frozen_quick.json','other.json','spar_browser_norm.json','more_meals_norm.json']+(['connectors_new.json'] if os.path.exists('connectors_new.json') else [])+(['online_mealprep.json'] if os.path.exists('online_mealprep.json') else [])+(['expand_v5.json'] if os.path.exists('expand_v5.json') else [])+(['hofer_off_meals.json'] if os.path.exists('hofer_off_meals.json') else [])+(['mpreis_new_2026-10-13.json'] if os.path.exists('mpreis_new_2026-10-13.json') else [])+(['ownbrands_meals.json'] if os.path.exists('ownbrands_meals.json') else [])+(['linz_providers_src.json'] if os.path.exists('linz_providers_src.json') else [])
 LIVE=('spar_live.json','dm_live.json')
 items=[]
 for f in src:
@@ -79,6 +79,30 @@ def ean(x):
     m=re.search(r'product/(\d{8,14})',str(x.get('url'))+str(x.get('off_url'))); return x.get('ean') or (m and m.group(1))
 excluded=[x['name'] for x in items if ean(x) in CH]
 items=[x for x in items if ean(x) not in CH]
+# SPAR live overlay (food-connectors spar-shop: public SPAR search API, exact article number; see fertiggerichte-daten/raw/spar_live_*.json)
+if os.path.exists("spar_live_overlay.json"):
+    _SL=json.load(open("spar_live_overlay.json")).get("articles",{})
+    def _g(s):
+        m=re.search(r"(\d+(?:[.,]\d+)?)\s*(G|KG|ML|L)\b",str(s or "").upper())
+        return None if not m else float(m.group(1).replace(",","."))*(1000 if m.group(2) in("KG","L") else 1)
+    _spar_live_stats={"applied":0,"size_mismatch":[]}
+    for x in items:
+        if "spar" not in str(x.get("store") or "").lower(): continue
+        m=re.search(r"/p/(\d{4,})",str(x.get("url") or "")) or re.search(r"articleImage\.dam/at/(\d{4,})/",str(x.get("image_url") or ""))
+        o=_SL.get(m.group(1)) if m else None
+        if not o and not m:
+            o=next((v for v in _SL.values() if re.sub(r"[^a-z0-9]","",(v.get("spar_name") or "").lower())==re.sub(r"[^a-z0-9]","",(x.get("name") or "").lower())),None)
+        if not o or not o.get("price_eur"): continue
+        g=_g(o.get("pack"))
+        if g and x.get("size_g") and abs(g-float(x["size_g"]))/float(x["size_g"])>0.05:
+            _spar_live_stats["size_mismatch"].append({"name":x.get("name"),"size_g":x.get("size_g"),"spar_pack":o.get("pack")}); continue
+        x["price_eur"]=o["price_eur"]; x["price_source"]=o["price_source"].split(", Artikel")[0]+")"; x["price_date"]=o["fetched_at"][:10]
+        x["price_live"]=True; x["spar_article"]=m.group(1) if m else None
+        if o.get("regular_price_eur") and o["regular_price_eur"]!=o["price_eur"]: x["price_regular_eur"]=o["regular_price_eur"]
+        if o.get("unit")=="kg" and o.get("price_per_unit"): x["price_per_kg"]=o["price_per_unit"]
+        if not x.get("size_g") and g: x["size_g"]=g
+        _spar_live_stats["applied"]+=1
+    json.dump(_spar_live_stats,open("spar_live_stats.json","w"),ensure_ascii=False,indent=1)
 # Preise: live vs. alt
 for x in items:
     ps=str(x.get('price_source') or '')+str(x.get('price_date') or '')
