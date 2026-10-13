@@ -1,0 +1,1498 @@
+{
+ "fetched_at": "2026-10-13T19:44:38Z",
+ "source": "https://search-spar.spar-ics.com/fact-finder/rest/v4/search/products_lmos_at",
+ "method": "exact article-number lookup (articleNumberSearch), food-connectors spar-shop",
+ "rows_considered": 167,
+ "probed": [
+  {
+   "name": "BEN’s ORIGINAL Express Risotto Hühnchen Pilze",
+   "article_id": "7833700",
+   "old_price": 2.99,
+   "old_date": "2025-05-14",
+   "old_status": "Preis 2025",
+   "new_price": 2.99,
+   "spar_name": "BEN’s ORIGINAL Express Risotto Hühnchen Pilze",
+   "decision": "live"
+  },
+  {
+   "name": "BEN’s ORIGINAL Express Risotto Tomaten & italienische Kräuter",
+   "article_id": "7833786",
+   "old_price": 2.99,
+   "old_date": "2025-05-14",
+   "old_status": "Preis 2025",
+   "new_price": 2.99,
+   "spar_name": "BEN’s ORIGINAL Express Risotto Tomaten & italienische Kräuter",
+   "decision": "live"
+  },
+  {
+   "name": "Bergkräuter Bio Kräuter-Gemüse Suppe 250g",
+   "article_id": "4995685",
+   "old_price": 11.49,
+   "old_date": "2025-11-14",
+   "old_status": "Preis 2025",
+   "new_price": 11.49,
+   "spar_name": "Bergkräuter Bio Kräuter-Gemüse Suppe 250g",
+   "decision": "live"
+  },
+  {
+   "name": "Gavrilovic Rindergulasch 300 G",
+   "article_id": "2020004433749",
+   "old_price": 3.99,
+   "old_date": "2025-06-12",
+   "old_status": "Preis 2025",
+   "new_price": 3.99,
+   "spar_name": "Gavrilovic Rindergulasch",
+   "decision": "live"
+  },
+  {
+   "name": "Heinrich Kühlmann Nudelsalat Curry Hawaii",
+   "article_id": "2020005825123",
+   "spar_name": "Heinrich Kühlmann Nudelsalat Curry Hawaii",
+   "stock_status": "outOfStock",
+   "decision": "skip: weight/counter product (price per 100 g) → listed, price unchanged"
+  },
+  {
+   "name": "Hilcona Tortellini Bolognese",
+   "article_id": "2020005979116",
+   "old_price": 3.59,
+   "old_date": "2025-10-14",
+   "old_status": "Preis 2025",
+   "new_price": 3.59,
+   "spar_name": "Hilcona Tortellini Bolognese",
+   "decision": "live"
+  },
+  {
+   "name": "Holle Bio-Gemüserisotto",
+   "article_id": "2020002052997",
+   "old_price": 1.49,
+   "old_date": "2025-10-21",
+   "old_status": "Preis 2025",
+   "new_price": 1.49,
+   "spar_name": "Holle Bio-Gemüserisotto",
+   "decision": "live"
+  },
+  {
+   "name": "Hubers Landhendl Suppenhendl",
+   "article_id": "2020003204807",
+   "spar_name": "Hubers Landhendl Suppenhendl",
+   "stock_status": "outOfStock",
+   "decision": "skip: weight/counter product (price per 100 g) → listed, price unchanged"
+  },
+  {
+   "name": "Iglo Hausmannskost Leberknödel 6 Stück",
+   "article_id": "114981",
+   "old_price": 2.99,
+   "old_date": "2025-05-14",
+   "old_status": "Preis 2025",
+   "new_price": 2.99,
+   "spar_name": "Iglo Leberknödel 6 Stück",
+   "decision": "live"
+  },
+  {
+   "name": "Iglo Lasagne al Forno",
+   "article_id": "577052",
+   "old_price": 4.99,
+   "old_date": "2025-05-14",
+   "old_status": "Preis 2025",
+   "new_price": 7.49,
+   "spar_name": "Iglo Lasagne al Forno",
+   "decision": "live"
+  },
+  {
+   "name": "Inzersdorfer Chili con Carne 400 G",
+   "article_id": "2991603",
+   "old_price": 3.49,
+   "old_date": "2025-10-07",
+   "old_status": "Preis 2025",
+   "new_price": 3.49,
+   "spar_name": "Inzersdorfer Chili con Carne",
+   "decision": "live"
+  },
+  {
+   "name": "Inzersdorfer Chili con Carne 2 Portionen",
+   "article_id": "2020000585336",
+   "old_price": 5.49,
+   "old_date": "2025-10-07",
+   "old_status": "Preis 2025",
+   "new_price": 5.49,
+   "spar_name": "Inzersdorfer Chili con Carne 2 Portionen",
+   "decision": "live"
+  },
+  {
+   "name": "Inzersdorfer Erdäpfelgulasch 400 G",
+   "article_id": "786140",
+   "old_price": 3.49,
+   "old_date": "2025-10-07",
+   "old_status": "Preis 2025",
+   "new_price": 3.49,
+   "spar_name": "Inzersdorfer Erdäpfelgulasch",
+   "decision": "live"
+  },
+  {
+   "name": "Inzersdorfer Erdäpfelgulasch 2 Portionen",
+   "article_id": "4092506",
+   "old_price": 5.49,
+   "old_date": "2025-10-07",
+   "old_status": "Preis 2025",
+   "new_price": 5.49,
+   "spar_name": "Inzersdorfer Erdäpfelgulasch 2 Portionen",
+   "decision": "live"
+  },
+  {
+   "name": "Inzersdorfer Gulaschsuppe 4 Portionen",
+   "article_id": "131995",
+   "old_price": 5.79,
+   "old_date": "2025-10-07",
+   "old_status": "Preis 2025",
+   "new_price": 5.79,
+   "spar_name": "Inzersdorfer Gulaschsuppe 4 Portionen",
+   "decision": "live"
+  },
+  {
+   "name": "Inzersdorfer Kräftige Hühnersuppe",
+   "article_id": "2020002311964",
+   "old_price": 2.99,
+   "old_date": "2025-10-07",
+   "old_status": "Preis 2025",
+   "new_price": 2.99,
+   "spar_name": "Inzersdorfer Kräftige Hühnersuppe",
+   "decision": "live"
+  },
+  {
+   "name": "Inzersdorfer Paprikahendlragout mit Nockerln",
+   "article_id": "5442348",
+   "old_price": 5.99,
+   "old_date": "2025-10-07",
+   "old_status": "Preis 2025",
+   "new_price": 5.99,
+   "spar_name": "Inzersdorfer Paprikahendlragout mit Nockerln",
+   "decision": "live"
+  },
+  {
+   "name": "Inzersdorfer Pure Beef Premium Chili con Carne",
+   "article_id": "2020002625801",
+   "old_price": 5.29,
+   "old_date": "2025-10-07",
+   "old_status": "Preis 2025",
+   "new_price": 5.29,
+   "spar_name": "Inzersdorfer Pure Beef Premium Chili con Carne",
+   "decision": "live"
+  },
+  {
+   "name": "Inzersdorfer Riesenbohnengulasch 400 G",
+   "article_id": "412568",
+   "old_price": 3.49,
+   "old_date": "2025-10-07",
+   "old_status": "Preis 2025",
+   "new_price": 3.49,
+   "spar_name": "Inzersdorfer Riesenbohnengulasch",
+   "decision": "live"
+  },
+  {
+   "name": "Inzersdorfer Rindsgulasch 400 G",
+   "article_id": "145664",
+   "old_price": 6.99,
+   "old_date": "2025-10-07",
+   "old_status": "Preis 2025",
+   "new_price": 6.99,
+   "spar_name": "Inzersdorfer Rindsgulasch",
+   "decision": "live"
+  },
+  {
+   "name": "Inzersdorfer Rindsgulasch 2 Portionen",
+   "article_id": "145930",
+   "old_price": 10.49,
+   "old_date": "2025-10-07",
+   "old_status": "Preis 2025",
+   "new_price": 10.49,
+   "spar_name": "Inzersdorfer Rindsgulasch 2 Portionen",
+   "decision": "live"
+  },
+  {
+   "name": "Inzersdorfer Schweinsgulasch 400 G",
+   "article_id": "145701",
+   "old_price": 5.29,
+   "old_date": "2025-10-07",
+   "old_status": "Preis 2025",
+   "new_price": 5.29,
+   "spar_name": "Inzersdorfer Schweinsgulasch",
+   "decision": "live"
+  },
+  {
+   "name": "Inzersdorfer Speckknödelsuppe",
+   "article_id": "2020005546097",
+   "old_price": 2.99,
+   "old_date": "2025-10-07",
+   "old_status": "Preis 2025",
+   "new_price": 2.99,
+   "spar_name": "Inzersdorfer Speckknödelsuppe",
+   "decision": "live"
+  },
+  {
+   "name": "Inzersdorfer Suesskartoffelsuppe Süßkartoffelsuppe",
+   "article_id": "2020002311971",
+   "old_price": 2.99,
+   "old_date": "2025-10-07",
+   "old_status": "Preis 2025",
+   "new_price": 2.99,
+   "spar_name": "Inzersdorfer Suesskartoffelsuppe Süßkartoffelsuppe",
+   "decision": "live"
+  },
+  {
+   "name": "Inzersdorfer Suppentopf Bohnensuppe",
+   "article_id": "624329",
+   "old_price": 4.79,
+   "old_date": "2025-10-07",
+   "decision": "not listed: article number has no hit in SPAR search index → unchanged"
+  },
+  {
+   "name": "Inzersdorfer Suppentopf Bohnensuppe 12 Portionen",
+   "article_id": "4996149",
+   "old_price": 14.99,
+   "old_date": "2025-10-07",
+   "old_status": "Preis 2025",
+   "new_price": 14.99,
+   "spar_name": "Inzersdorfer Bohnensuppe 12 Portionen",
+   "decision": "live"
+  },
+  {
+   "name": "Inzersdorfer Suppentopf Gulaschsuppe",
+   "article_id": "232104",
+   "old_price": 2.99,
+   "old_date": "2025-10-07",
+   "old_status": "Preis 2025",
+   "new_price": 2.99,
+   "spar_name": "Inzersdorfer Gulaschsuppe",
+   "decision": "live"
+  },
+  {
+   "name": "Inzersdorfer Suppentopf Leberknödelsuppe mit 4 Knödeln",
+   "article_id": "234603",
+   "old_price": 2.99,
+   "old_date": "2025-10-07",
+   "old_status": "Preis 2025",
+   "new_price": 2.99,
+   "spar_name": "Inzersdorfer Leberknödelsuppe mit 4 Knödeln",
+   "decision": "live"
+  },
+  {
+   "name": "Inzersdorfer Wiener Suppentopf",
+   "article_id": "2020005546127",
+   "old_price": 2.99,
+   "old_date": "2025-10-07",
+   "old_status": "Preis 2025",
+   "new_price": 2.99,
+   "spar_name": "Inzersdorfer Wiener Suppentopf",
+   "decision": "live"
+  },
+  {
+   "name": "Inzersdorfer gelbes Curry mit Huhn 400 G",
+   "article_id": "2020000961727",
+   "old_price": 5.29,
+   "old_date": "2025-10-07",
+   "old_status": "Preis 2025",
+   "new_price": 5.29,
+   "spar_name": "Inzersdorfer gelbes Curry mit Huhn",
+   "decision": "live"
+  },
+  {
+   "name": "Kiano Curryblätter",
+   "article_id": "2020000488743",
+   "old_price": 2.99,
+   "old_date": "2025-07-29",
+   "old_status": "Preis 2025",
+   "new_price": 2.99,
+   "spar_name": "Kiano Curryblätter",
+   "decision": "live"
+  },
+  {
+   "name": "Knorr Disney Suppe Findet Nemo",
+   "article_id": "2020005388437",
+   "old_price": 0.99,
+   "old_date": "2025-05-14",
+   "old_status": "Preis 2025",
+   "new_price": 0.99,
+   "spar_name": "Knorr Suppe Findet Nemo",
+   "decision": "live"
+  },
+  {
+   "name": "Little Lunch Thai Curry Eintopf asiatische Art",
+   "article_id": "2020005794535",
+   "old_price": 3.49,
+   "old_date": "2025-08-20",
+   "old_status": "Preis 2025",
+   "new_price": 3.49,
+   "spar_name": "Little Lunch Thai Curry Eintopf asiatische Art",
+   "decision": "live"
+  },
+  {
+   "name": "Menes Curry süß",
+   "article_id": "3195413",
+   "old_price": 4.49,
+   "old_date": "2025-08-11",
+   "old_status": "Preis 2025",
+   "new_price": 4.49,
+   "spar_name": "Menes Curry süß",
+   "decision": "live"
+  },
+  {
+   "name": "Nabio Chili sin Carne",
+   "article_id": "2020005809154",
+   "old_price": 2.99,
+   "old_date": "2025-08-15",
+   "old_status": "Preis 2025",
+   "new_price": 2.99,
+   "spar_name": "Nabio Chili sin Carne",
+   "decision": "live"
+  },
+  {
+   "name": "Nabio Erbseneintopf mit Gemüse",
+   "article_id": "2020005809192",
+   "old_price": 2.49,
+   "old_date": "2025-08-15",
+   "old_status": "Preis 2025",
+   "new_price": 2.49,
+   "spar_name": "Nabio Erbseneintopf mit Gemüse",
+   "decision": "live"
+  },
+  {
+   "name": "Nabio Gulaschsuppe Vegan",
+   "article_id": "2020005809215",
+   "old_price": 2.99,
+   "old_date": "2025-08-15",
+   "old_status": "Preis 2025",
+   "new_price": 2.99,
+   "spar_name": "Nabio Gulaschsuppe Vegan",
+   "decision": "live"
+  },
+  {
+   "name": "Nabio Linseneintopf mit Gemüse",
+   "article_id": "2020005809079",
+   "old_price": 2.49,
+   "old_date": "2025-08-15",
+   "old_status": "Preis 2025",
+   "new_price": 2.49,
+   "spar_name": "Nabio Linseneintopf mit Gemüse",
+   "decision": "live"
+  },
+  {
+   "name": "S-BUDGET Grammelknödel nach Innviertler Art 20 Stück à 35g",
+   "article_id": "1816907",
+   "old_price": 4.49,
+   "old_date": "2025-05-14",
+   "old_status": "Preis 2025",
+   "new_price": 4.49,
+   "spar_name": "S-BUDGET Grammelknödel nach Innviertler Art 20 Stück à 35g",
+   "decision": "live"
+  },
+  {
+   "name": "S-BUDGET Hascheeknödel nach Innviertler Art 20 Stück à 35g",
+   "article_id": "1816938",
+   "old_price": 4.49,
+   "old_date": "2025-05-14",
+   "old_status": "Preis 2025",
+   "new_price": 4.49,
+   "spar_name": "S-BUDGET Hascheeknödel nach Innviertler Art 20 Stück à 35g",
+   "decision": "live"
+  },
+  {
+   "name": "S-BUDGET Marillen-Eisknödel 4 Stück",
+   "article_id": "2020005832374",
+   "old_price": 3.49,
+   "old_date": "2025-06-23",
+   "old_status": "Preis 2025",
+   "new_price": 3.49,
+   "spar_name": "S-BUDGET Marillen-Eisknödel 4 Stück",
+   "decision": "live"
+  },
+  {
+   "name": "SPAR ASIA Tom Yum Suppe mit Garnelen-Wonton 202g Suppe + 108g Shrimps",
+   "article_id": "2020005946507",
+   "old_price": 5.49,
+   "old_date": "2025-10-28",
+   "old_status": "Preis 2025",
+   "new_price": 5.49,
+   "spar_name": "SPAR Tom Yum Suppe mit Garnelen-Wonton 202g Suppe + 108g Shrimps",
+   "decision": "live"
+  },
+  {
+   "name": "SPAR Feine Küche Erdäpfelgulasch",
+   "article_id": "2020001378814",
+   "old_price": 3.69,
+   "old_date": "2025-12-17",
+   "old_status": "Preis 2025",
+   "new_price": 3.69,
+   "spar_name": "SPAR Feine Küche Erdäpfelgulasch",
+   "decision": "live"
+  },
+  {
+   "name": "SPAR Feine Küche Lasagne Bolognese",
+   "article_id": "2020005683822",
+   "old_price": 4.49,
+   "old_date": "2025-05-14",
+   "old_status": "Preis 2025",
+   "new_price": 4.49,
+   "spar_name": "SPAR Feine Küche Lasagne Bolognese",
+   "decision": "live"
+  },
+  {
+   "name": "SPAR Feine Küche Schwammerl-Gulasch mit Serviettenknödel",
+   "article_id": "1744248",
+   "old_price": 3.69,
+   "old_date": "2025-12-17",
+   "old_status": "Preis 2025",
+   "new_price": 3.69,
+   "spar_name": "SPAR Feine Küche Schwammerl-Gulasch mit Serviettenknödel",
+   "decision": "live"
+  },
+  {
+   "name": "SPAR Feinstes Geflügel Maishendl Suppenjunges",
+   "article_id": "2020004643575",
+   "old_price": 4.29,
+   "old_date": "2025-05-26",
+   "old_status": "Preis 2025",
+   "new_price": 4.29,
+   "spar_name": "SPAR Feinstes Geflügel Maishendl Suppenjunges",
+   "decision": "live"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Curry 40g",
+   "article_id": "2020004698124",
+   "old_price": 3.49,
+   "old_date": "2025-07-15",
+   "old_status": "Preis 2025",
+   "new_price": 3.49,
+   "spar_name": "SPAR Natur*pur Bio-Curry 40g",
+   "decision": "live"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Gulaschsuppe",
+   "article_id": "2020001891719",
+   "old_price": 3.29,
+   "old_date": "2025-07-01",
+   "old_status": "Preis 2025",
+   "new_price": 3.29,
+   "spar_name": "SPAR Natur*pur Bio-Gulaschsuppe",
+   "decision": "live"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Rinds-Gulasch ca. 300g",
+   "article_id": "6067168",
+   "spar_name": "SPAR Natur*pur Bio-Rinds-Gulasch ca. 300g",
+   "stock_status": "inStock",
+   "decision": "skip: weight/counter product (price per 100 g) → listed, price unchanged"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Rindsgulasch",
+   "article_id": "3484821",
+   "spar_name": "SPAR Natur*pur Bio-Rindsgulasch",
+   "stock_status": "inStock",
+   "decision": "skip: weight/counter product (price per 100 g) → listed, price unchanged"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Steinpilz-Risotto",
+   "article_id": "2020005857407",
+   "old_price": 2.49,
+   "old_date": "2025-08-29",
+   "old_status": "Preis 2025",
+   "new_price": 2.49,
+   "spar_name": "SPAR Natur*pur Bio-Steinpilz-Risotto",
+   "decision": "live"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Tomaten-Risotto",
+   "article_id": "2020005857414",
+   "old_price": 2.49,
+   "old_date": "2025-08-29",
+   "old_status": "Preis 2025",
+   "new_price": 2.49,
+   "spar_name": "SPAR Natur*pur Bio-Tomaten-Risotto",
+   "decision": "live"
+  },
+  {
+   "name": "SPAR Natur*pur Saatgut Bio-Pflücksalat Red Salad Bowl",
+   "article_id": "2020002325855",
+   "old_price": 3.49,
+   "old_date": "2025-12-22",
+   "old_status": "Preis 2025",
+   "new_price": 3.49,
+   "spar_name": "SPAR Natur*pur Saatgut Bio-Pflücksalat Red Salad Bowl",
+   "decision": "live"
+  },
+  {
+   "name": "SPAR PREMIUM Edition Johanna Maier Alt-Wiener Suppentopf",
+   "article_id": "2020001844609",
+   "old_price": 3.99,
+   "old_date": "2025-05-14",
+   "old_status": "Preis 2025",
+   "new_price": 3.99,
+   "spar_name": "SPAR PREMIUM Alt-Wiener Suppentopf",
+   "decision": "live"
+  },
+  {
+   "name": "SPAR PREMIUM Edition Johanna Maier Gulaschsuppe mit Rindfleisch und Kartoffeln",
+   "article_id": "2020003995491",
+   "old_price": 4.99,
+   "old_date": "2025-05-14",
+   "old_status": "Preis 2025",
+   "new_price": 4.99,
+   "spar_name": "SPAR PREMIUM Gulaschsuppe mit Rindfleisch und Kartoffeln",
+   "decision": "live"
+  },
+  {
+   "name": "SPAR PREMIUM Edition Johanna Maier Kürbissuppe",
+   "article_id": "6031305",
+   "old_price": 3.99,
+   "old_date": "2025-05-14",
+   "old_status": "Preis 2025",
+   "new_price": 3.99,
+   "spar_name": "SPAR PREMIUM Kürbissuppe",
+   "decision": "live"
+  },
+  {
+   "name": "SPAR PREMIUM Edition Johanna Maier Mediterrane Tomatensuppe",
+   "article_id": "8197573",
+   "old_price": 3.99,
+   "old_date": "2025-05-14",
+   "old_status": "Preis 2025",
+   "new_price": 3.99,
+   "spar_name": "SPAR PREMIUM Mediterrane Tomatensuppe",
+   "decision": "live"
+  },
+  {
+   "name": "SPAR PREMIUM Edition Johanna Maier Ratatouille Gemüse-Eintopf Vegan",
+   "decision": "skip: no article number and 0 exact name hits"
+  },
+  {
+   "name": "SPAR PREMIUM Edition Johanna Maier Rote Linsen- Suppe",
+   "article_id": "2020004142023",
+   "old_price": 3.99,
+   "old_date": "2025-05-14",
+   "old_status": "Preis 2025",
+   "new_price": 3.99,
+   "spar_name": "SPAR PREMIUM Rote Linsen- Suppe",
+   "decision": "live"
+  },
+  {
+   "name": "SPAR PREMIUM Edition Johanna Maier Süsskartoffel- Eintopf Vegan",
+   "decision": "skip: no article number and 0 exact name hits"
+  },
+  {
+   "name": "SPAR PREMIUM Feine Marillen-Eisknödel mit fruchtiger Marillenfüllung 4 Stück",
+   "article_id": "2020005421271",
+   "old_price": 9.99,
+   "old_date": "2025-08-14",
+   "old_status": "Preis 2025",
+   "new_price": 9.99,
+   "spar_name": "SPAR PREMIUM Feine Marillen-Eisknödel mit fruchtiger Marillenfüllung 4 Stück",
+   "decision": "live"
+  },
+  {
+   "name": "SPAR PREMIUM Risotto Mediterran 200G",
+   "article_id": "2020000919179",
+   "old_price": 2.99,
+   "old_date": "2025-10-16",
+   "old_status": "Preis 2025",
+   "new_price": 2.99,
+   "spar_name": "SPAR PREMIUM Risotto Mediterran 200G",
+   "decision": "live"
+  },
+  {
+   "name": "SPAR PREMIUM Risotto mit Steinpilzen",
+   "article_id": "2020000919186",
+   "old_price": 2.99,
+   "old_date": "2025-10-16",
+   "old_status": "Preis 2025",
+   "new_price": 2.99,
+   "spar_name": "SPAR PREMIUM Risotto mit Steinpilzen",
+   "decision": "live"
+  },
+  {
+   "name": "TANN In Vorarlberg hausgemacht Chili con Carne im Glas",
+   "article_id": "2020004695376",
+   "old_price": 6.99,
+   "old_date": "2025-07-31",
+   "old_status": "Preis 2025",
+   "new_price": 6.99,
+   "spar_name": "TANN Chili con Carne im Glas",
+   "decision": "live"
+  },
+  {
+   "name": "TANN In Vorarlberg hausgemacht Rindsgulasch",
+   "article_id": "2020003986642",
+   "old_price": 8.99,
+   "old_date": "2025-06-05",
+   "old_status": "Preis 2025",
+   "new_price": 8.99,
+   "spar_name": "TANN Rindsgulasch",
+   "decision": "live"
+  },
+  {
+   "name": "TANN In Vorarlberg hausgemacht Rindssuppe",
+   "article_id": "2020003986796",
+   "old_price": 4.99,
+   "old_date": "2025-07-03",
+   "old_status": "Preis 2025",
+   "new_price": 4.99,
+   "spar_name": "TANN Rindssuppe",
+   "decision": "live"
+  },
+  {
+   "name": "TANN Rinds-Bratengulasch",
+   "article_id": "835817",
+   "spar_name": "TANN Rinds-Bratengulasch",
+   "stock_status": "outOfStock",
+   "decision": "skip: weight/counter product (price per 100 g) → listed, price unchanged"
+  },
+  {
+   "name": "TANN Rinds-Gulasch",
+   "article_id": "2316512",
+   "spar_name": "TANN Rinds-Gulasch",
+   "stock_status": "inStock",
+   "decision": "skip: weight/counter product (price per 100 g) → listed, price unchanged"
+  },
+  {
+   "name": "TANN Rinds-Gulaschfleisch",
+   "article_id": "835008",
+   "spar_name": "TANN Rinds-Gulaschfleisch",
+   "stock_status": "inStock",
+   "decision": "skip: weight/counter product (price per 100 g) → listed, price unchanged"
+  },
+  {
+   "name": "efko Pfandl-Kraut zu Bratl & Knödel",
+   "article_id": "2020003175749",
+   "old_price": 2.79,
+   "old_date": "2025-10-14",
+   "old_status": "Preis 2025",
+   "new_price": 2.79,
+   "spar_name": "efko Pfandl-Kraut zu Bratl & Knödel",
+   "decision": "live"
+  },
+  {
+   "name": "Brunner Original Kärntner Kasnudel",
+   "article_id": "4384311",
+   "old_price": 3.99,
+   "old_date": "2025-05-14",
+   "old_status": "Preis 2025",
+   "new_price": 3.99,
+   "spar_name": "Brunner Original Kärntner Kasnudel",
+   "decision": "live"
+  },
+  {
+   "name": "Capricci Tortelloni Prosciutto crudo",
+   "article_id": "2020005791855",
+   "old_price": 0.99,
+   "old_date": "2025-07-12",
+   "old_status": "Preis 2025",
+   "new_price": 0.99,
+   "spar_name": "Capricci Tortelloni Prosciutto crudo",
+   "decision": "live"
+  },
+  {
+   "name": "Capricci Tortelloni Ricotta Spinat",
+   "article_id": "2020005791947",
+   "old_price": 0.99,
+   "old_date": "2025-07-12",
+   "old_status": "Preis 2025",
+   "new_price": 0.99,
+   "spar_name": "Capricci Tortelloni Ricotta Spinat",
+   "decision": "live"
+  },
+  {
+   "name": "Efko Gefüllte Paprika",
+   "article_id": "5528158",
+   "old_price": 3.99,
+   "old_date": "2025-10-14",
+   "old_status": "Preis 2025",
+   "new_price": 3.99,
+   "spar_name": "Efko Gefüllte Paprika",
+   "decision": "live"
+  },
+  {
+   "name": "Greisinger Schweinsbraten",
+   "article_id": "2020003269370",
+   "old_price": 3.29,
+   "old_date": "2025-10-13",
+   "old_status": "Preis 2025",
+   "new_price": 3.29,
+   "spar_name": "Greisinger Schweinsbraten",
+   "decision": "live"
+  },
+  {
+   "name": "Inzersdorfer Gefüllte Paprika 2 Stück",
+   "article_id": "4697800",
+   "old_price": 5.29,
+   "old_date": "2025-10-07",
+   "old_status": "Preis 2025",
+   "new_price": 5.29,
+   "spar_name": "Inzersdorfer Gefüllte Paprika 2 Stück",
+   "decision": "live"
+  },
+  {
+   "name": "Inzersdorfer Gefüllte Paprika mit 4 Paprika",
+   "article_id": "2020003790805",
+   "old_price": 6.29,
+   "old_date": "2025-10-07",
+   "old_status": "Preis 2025",
+   "new_price": 6.29,
+   "spar_name": "Inzersdorfer Gefüllte Paprika mit 4 Paprika",
+   "decision": "live"
+  },
+  {
+   "name": "Inzersdorfer Hühnerfleischbällchen in Paradeissauce mit Penne",
+   "article_id": "2020004566614",
+   "old_price": 5.99,
+   "old_date": "2025-10-07",
+   "old_status": "Preis 2025",
+   "new_price": 5.99,
+   "spar_name": "Inzersdorfer Hühnerfleischbällchen in Paradeissauce mit Penne",
+   "decision": "live"
+  },
+  {
+   "name": "Inzersdorfer Reisfleisch",
+   "article_id": "145794",
+   "old_price": 5.29,
+   "old_date": "2025-10-07",
+   "old_status": "Preis 2025",
+   "new_price": 5.29,
+   "spar_name": "Inzersdorfer Reisfleisch",
+   "decision": "live"
+  },
+  {
+   "name": "Inzersdorfer Weinbeuschel",
+   "article_id": "145855",
+   "old_price": 3.49,
+   "old_date": "2025-10-07",
+   "old_status": "Preis 2025",
+   "new_price": 3.49,
+   "spar_name": "Inzersdorfer Weinbeuschel",
+   "decision": "live"
+  },
+  {
+   "name": "Inzersdorfer Weinbeuschel 2 Portionen",
+   "article_id": "569064",
+   "old_price": 5.49,
+   "old_date": "2025-10-07",
+   "old_status": "Preis 2025",
+   "new_price": 5.49,
+   "spar_name": "Inzersdorfer Weinbeuschel 2 Portionen",
+   "decision": "live"
+  },
+  {
+   "name": "Knorr Kaiser Teller Gulaschsuppe",
+   "article_id": "2020005648449",
+   "old_price": 1.59,
+   "old_date": "2025-05-14",
+   "old_status": "Preis 2025",
+   "new_price": 1.59,
+   "spar_name": "Knorr Gulaschsuppe",
+   "decision": "live"
+  },
+  {
+   "name": "SPAR Feine Küche Faschierte Laibchen mit Kartoffelpürree",
+   "article_id": "2020001361175",
+   "old_price": 3.69,
+   "old_date": "2025-12-17",
+   "old_status": "Preis 2025",
+   "new_price": 3.69,
+   "spar_name": "SPAR Feine Küche Faschierte Laibchen mit Kartoffelpürree",
+   "decision": "live"
+  },
+  {
+   "name": "SPAR Feine Küche Schinkenfleckerl",
+   "article_id": "2020000586739",
+   "old_price": 3.69,
+   "old_date": "2025-12-17",
+   "old_status": "Preis 2025",
+   "new_price": 3.69,
+   "spar_name": "SPAR Feine Küche Schinkenfleckerl",
+   "decision": "live"
+  },
+  {
+   "name": "SPAR PREMIUM Edition Johanna Maier Cappellacci Bolognese",
+   "article_id": "2020006001953",
+   "old_price": 3.49,
+   "old_date": "2025-11-04",
+   "old_status": "Preis 2025",
+   "new_price": 3.49,
+   "spar_name": "SPAR PREMIUM Cappellacci Bolognese",
+   "decision": "live"
+  },
+  {
+   "name": "Youcook Tikka Huhn India Style",
+   "article_id": "2020005555938",
+   "old_price": 4.99,
+   "old_date": "2025-07-31",
+   "old_status": "Preis 2025",
+   "new_price": 4.99,
+   "spar_name": "Youcook Tikka Huhn India Style",
+   "decision": "live"
+  },
+  {
+   "name": "Heinz Baked Beans",
+   "article_id": "6245467",
+   "old_price": 2.99,
+   "old_date": "2024-08-30",
+   "old_status": "Preis 2025",
+   "new_price": 2.99,
+   "spar_name": "Heinz Baked Beans",
+   "decision": "live"
+  },
+  {
+   "name": "Hilcona Ravioli Bolognese",
+   "article_id": "2020005509313",
+   "old_price": 3.59,
+   "old_date": "2024-10-18",
+   "decision": "not listed: article number has no hit in SPAR search index → unchanged"
+  },
+  {
+   "name": "Holzbauer Schweine-Spare Ribs mariniert",
+   "article_id": "4347811",
+   "old_price": 10.99,
+   "old_date": "2023-08-17",
+   "decision": "not listed: article number has no hit in SPAR search index → unchanged"
+  },
+  {
+   "name": "Hubers Landhendl Backhendlstreifen",
+   "article_id": "2020005509542",
+   "old_price": 4.49,
+   "old_date": "2024-10-27",
+   "decision": "not listed: article number has no hit in SPAR search index → unchanged"
+  },
+  {
+   "name": "Iglo Lasagne Spinat",
+   "article_id": "5495313",
+   "old_price": 4.99,
+   "old_date": "2025-05-14",
+   "decision": "not listed: article number has no hit in SPAR search index → unchanged"
+  },
+  {
+   "name": "Inzersdorfer Bohnen mit Speck 2 Portionen",
+   "article_id": "6115227",
+   "old_price": 5.49,
+   "old_date": "2025-10-07",
+   "old_status": "Preis 2025",
+   "new_price": 5.49,
+   "spar_name": "Inzersdorfer Bohnen mit Speck 2 Portionen",
+   "decision": "live"
+  },
+  {
+   "name": "Inzersdorfer Chili con Carne Puten",
+   "article_id": "2020002580766",
+   "old_price": 3.29,
+   "old_date": "2024-02-13",
+   "decision": "not listed: article number has no hit in SPAR search index → unchanged"
+  },
+  {
+   "name": "Inzersdorfer Linsen mit Speck 2 Portionen",
+   "article_id": "6115289",
+   "old_price": 5.49,
+   "old_date": "2025-10-07",
+   "old_status": "Preis 2025",
+   "new_price": 5.49,
+   "spar_name": "Inzersdorfer Linsen mit Speck 2 Portionen",
+   "decision": "live"
+  },
+  {
+   "name": "Inzersdorfer Paprikahendl",
+   "article_id": "6606596",
+   "old_price": 5.29,
+   "old_date": "2025-10-07",
+   "old_status": "Preis 2025",
+   "new_price": 5.29,
+   "spar_name": "Inzersdorfer Paprikahendl",
+   "decision": "live"
+  },
+  {
+   "name": "Inzersdorfer Premium Gulaschsuppe",
+   "article_id": "2020004429155",
+   "old_price": 3.69,
+   "old_date": "2024-05-29",
+   "decision": "not listed: article number has no hit in SPAR search index → unchanged"
+  },
+  {
+   "name": "Inzersdorfer Schweinsgeschnetzeltes mit Risi Pisi",
+   "article_id": "7083334",
+   "old_price": 5.99,
+   "old_date": "2025-10-07",
+   "old_status": "Preis 2025",
+   "new_price": 5.99,
+   "spar_name": "Inzersdorfer Schweinsgeschnetzeltes mit Risi Pisi",
+   "decision": "live"
+  },
+  {
+   "name": "Inzersdorfer Suppentopf Grießnockerlsuppe mit 2 Grießnockerl",
+   "article_id": "6584139",
+   "old_price": 2.99,
+   "old_date": "2025-10-07",
+   "old_status": "Preis 2025",
+   "new_price": 2.99,
+   "spar_name": "Inzersdorfer Grießnockerlsuppe mit 2 Grießnockerl",
+   "decision": "live"
+  },
+  {
+   "name": "Inzersdorfer Szegediner Krautfleisch",
+   "article_id": "3952320",
+   "old_price": 5.29,
+   "old_date": "2025-10-07",
+   "old_status": "Preis 2025",
+   "new_price": 5.29,
+   "spar_name": "Inzersdorfer Szegediner Krautfleisch",
+   "decision": "live"
+  },
+  {
+   "name": "Knorr Spaghetteria Bolognese 2 Portionen",
+   "article_id": "2020002605834",
+   "old_price": 2.99,
+   "old_date": "2025-05-14",
+   "old_status": "Preis 2025",
+   "new_price": 2.99,
+   "spar_name": "Knorr Bolognese 2 Portionen",
+   "decision": "live"
+  },
+  {
+   "name": "S-BUDGET Backhendlkeulen",
+   "article_id": "1946369",
+   "old_price": 5.99,
+   "old_date": "2023-08-01",
+   "decision": "not listed: article number has no hit in SPAR search index → unchanged"
+  },
+  {
+   "name": "S-BUDGET Cevapcici",
+   "article_id": "2020005743991",
+   "old_price": 5.99,
+   "old_date": "2025-05-14",
+   "old_status": "Preis 2025",
+   "new_price": 5.99,
+   "spar_name": "S-BUDGET Cevapcici",
+   "decision": "live"
+  },
+  {
+   "name": "S-BUDGET Kartoffel- Gulasch mit Frankfurterscheiben",
+   "article_id": "2020004632982",
+   "old_price": 2.99,
+   "old_date": "2023-11-14",
+   "decision": "not listed: article number has no hit in SPAR search index → unchanged"
+  },
+  {
+   "name": "S-BUDGET Maccheroni Bolognese",
+   "article_id": "2150994",
+   "old_price": 1.39,
+   "old_date": "2023-06-20",
+   "old_status": "Preis 2025",
+   "new_price": 1.39,
+   "spar_name": "S-BUDGET Maccheroni Bolognese",
+   "decision": "live"
+  },
+  {
+   "name": "S-BUDGET Schweine-Spare Ribs mariniert ca. 1kg",
+   "article_id": "2020004652768",
+   "spar_name": "S-BUDGET Schweine-Spare Ribs mariniert ca. 1kg",
+   "stock_status": "inStock",
+   "decision": "skip: weight/counter product (price per 100 g) → listed, price unchanged"
+  },
+  {
+   "name": "SPAR ASIA Shrimp Suppe Green Curry",
+   "article_id": "2020005946514",
+   "old_price": 5.49,
+   "old_date": "2025-10-28",
+   "old_status": "Preis 2025",
+   "new_price": 5.49,
+   "spar_name": "SPAR Shrimp Suppe Green Curry",
+   "decision": "live"
+  },
+  {
+   "name": "SPAR BBQ Cevapcici",
+   "article_id": "2020001698479",
+   "old_price": 9.99,
+   "old_date": "2024-05-01",
+   "decision": "not listed: article number has no hit in SPAR search index → unchanged"
+  },
+  {
+   "name": "SPAR Backhendl",
+   "article_id": "3782323",
+   "old_price": 3.99,
+   "old_date": "2025-09-02",
+   "old_status": "Preis 2025",
+   "new_price": 3.99,
+   "spar_name": "SPAR Backhendl",
+   "decision": "live"
+  },
+  {
+   "name": "SPAR Feine Küche Chili con Carne",
+   "article_id": "2020004633156",
+   "old_price": 4.49,
+   "old_date": "2024-12-05",
+   "decision": "not listed: article number has no hit in SPAR search index → unchanged"
+  },
+  {
+   "name": "SPAR Feine Küche Reisfleisch",
+   "article_id": "2020001295180",
+   "old_price": 3.69,
+   "old_date": "2025-12-17",
+   "old_status": "Preis 2025",
+   "new_price": 3.69,
+   "spar_name": "SPAR Feine Küche Reisfleisch",
+   "decision": "live"
+  },
+  {
+   "name": "SPAR Feine Küche Spaghetti Bolognese",
+   "article_id": "2020001255061",
+   "old_price": 2.99,
+   "old_date": "2023-07-04",
+   "old_status": "Preis 2025",
+   "new_price": 2.99,
+   "spar_name": "SPAR Feine Küche Spaghetti Bolognese",
+   "decision": "live"
+  },
+  {
+   "name": "SPAR Feine Küche Vegetarische Krautfleckerl",
+   "article_id": "2020000586678",
+   "old_price": 3.69,
+   "old_date": "2025-12-17",
+   "old_status": "Preis 2025",
+   "new_price": 3.69,
+   "spar_name": "SPAR Feine Küche Vegetarische Krautfleckerl",
+   "decision": "live"
+  },
+  {
+   "name": "SPAR Feine Küche vegetarische Käsespätzle",
+   "article_id": "2020004855992",
+   "old_price": 3.69,
+   "old_date": "2025-12-17",
+   "old_status": "Preis 2025",
+   "new_price": 3.69,
+   "spar_name": "SPAR Feine Küche vegetarische Käsespätzle",
+   "decision": "live"
+  },
+  {
+   "name": "SPAR Feinstes Geflügel ASIA Hühner Geschnetzeltes Five Spices",
+   "article_id": "2020005572874",
+   "old_price": 4.69,
+   "old_date": "2024-11-26",
+   "decision": "not listed: article number has no hit in SPAR search index → unchanged"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Rinder-Cevapcici",
+   "article_id": "2020003259654",
+   "old_price": 6.99,
+   "old_date": "2025-09-08",
+   "old_status": "Preis 2025",
+   "new_price": 6.99,
+   "spar_name": "SPAR Natur*pur Bio-Rinder-Cevapcici",
+   "decision": "live"
+  },
+  {
+   "name": "Shan'shi Linsencurry vegan vegan",
+   "article_id": "2020004719041",
+   "old_price": 4.79,
+   "old_date": "2023-06-23",
+   "decision": "not listed: article number has no hit in SPAR search index → unchanged"
+  },
+  {
+   "name": "Shan'shi Thai Green Chicken Curry",
+   "article_id": "2020004719546",
+   "old_price": 4.79,
+   "old_date": "2023-06-23",
+   "decision": "not listed: article number has no hit in SPAR search index → unchanged"
+  },
+  {
+   "name": "TANN Cevapcici per Packung",
+   "article_id": "2020000772651",
+   "old_price": 4.49,
+   "old_date": "2025-08-14",
+   "old_status": "Preis 2025",
+   "new_price": 4.49,
+   "spar_name": "TANN Cevapcici per Packung",
+   "decision": "live"
+  },
+  {
+   "name": "TANN In Vorarlberg hausgemacht Rindsbolognese",
+   "article_id": "2020003986659",
+   "old_price": 6.99,
+   "old_date": "2025-08-28",
+   "old_status": "Preis 2025",
+   "new_price": 6.99,
+   "spar_name": "TANN Rindsbolognese",
+   "decision": "live"
+  },
+  {
+   "name": "Weight Watchers Feinwürzige Linsensuppe mit buntem Gemüse",
+   "article_id": "7871863",
+   "old_price": 3.49,
+   "old_date": "2023-07-18",
+   "decision": "not listed: article number has no hit in SPAR search index → unchanged"
+  },
+  {
+   "name": "Weight Watchers Ungarische Gulaschsuppe mit Rindfleisch",
+   "article_id": "7102844",
+   "old_price": 3.49,
+   "old_date": "2023-07-18",
+   "decision": "not listed: article number has no hit in SPAR search index → unchanged"
+  },
+  {
+   "name": "Wild Bill Baked Beans",
+   "article_id": "2020003882180",
+   "old_price": 1.99,
+   "old_date": "2023-12-19",
+   "old_status": "Preis 2025",
+   "new_price": 1.99,
+   "spar_name": "Wild Bill Baked Beans",
+   "decision": "live"
+  },
+  {
+   "name": "Youcook Indian Style Butter Chicken",
+   "article_id": "2020005555556",
+   "old_price": 4.99,
+   "old_date": "2025-07-31",
+   "old_status": "Preis 2025",
+   "new_price": 4.99,
+   "spar_name": "Youcook Indian Style Butter Chicken",
+   "decision": "live"
+  },
+  {
+   "name": "S-BUDGET Gnocchi di Patate",
+   "article_id": "2020004146854",
+   "old_price": 1.48,
+   "old_date": "2025-05-14",
+   "old_status": "Preis 2025",
+   "new_price": 1.48,
+   "spar_name": "S-BUDGET Gnocchi di Patate",
+   "decision": "live"
+  },
+  {
+   "name": "S-BUDGET Mini-Hühner-Schnitzel",
+   "article_id": "2020003987243",
+   "old_price": 6.49,
+   "old_date": "2025-05-14",
+   "decision": "not listed: article number has no hit in SPAR search index → unchanged"
+  },
+  {
+   "name": "S-BUDGET Pizzaschifferl Salami",
+   "article_id": "2020005585157",
+   "old_price": 1.99,
+   "old_date": "2025-05-14",
+   "old_status": "Preis 2025",
+   "new_price": 1.99,
+   "spar_name": "S-BUDGET Pizzaschifferl Salami",
+   "decision": "live"
+  },
+  {
+   "name": "S-BUDGET Pizzastangerl",
+   "article_id": "2020002972042",
+   "old_price": 1.1,
+   "old_date": "2025-05-14",
+   "old_status": "Preis 2025",
+   "new_price": 1.1,
+   "spar_name": "S-BUDGET Pizzastangerl",
+   "decision": "live"
+  },
+  {
+   "name": "S-BUDGET Rindsschnitzel ca. 400g per Pkg.",
+   "article_id": "2020002710040",
+   "spar_name": "S-BUDGET Rindsschnitzel ca. 400g per Pkg.",
+   "stock_status": "inStock",
+   "decision": "skip: weight/counter product (price per 100 g) → listed, price unchanged"
+  },
+  {
+   "name": "SPAR Feine Küche Spaghetti Carbonara",
+   "article_id": "2020001255108",
+   "old_price": 3.69,
+   "old_date": "2025-12-17",
+   "old_status": "Preis 2025",
+   "new_price": 3.69,
+   "spar_name": "SPAR Feine Küche Spaghetti Carbonara",
+   "decision": "live"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Pizza Salami",
+   "article_id": "2020005719729",
+   "old_price": 3.99,
+   "old_date": "2025-07-01",
+   "old_status": "Preis 2025",
+   "new_price": 3.99,
+   "spar_name": "SPAR Natur*pur Bio-Pizza Salami",
+   "decision": "live"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Rinds-Schnitzel",
+   "article_id": "2020002803605",
+   "spar_name": "SPAR Natur*pur Bio-Rinds-Schnitzel",
+   "stock_status": "inStock",
+   "decision": "skip: weight/counter product (price per 100 g) → listed, price unchanged"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Rinds-Schnitzel ca. 300g",
+   "article_id": "6067113",
+   "spar_name": "SPAR Natur*pur Bio-Rinds-Schnitzel ca. 300g",
+   "stock_status": "inStock",
+   "decision": "skip: weight/counter product (price per 100 g) → listed, price unchanged"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Tellerlinsen",
+   "article_id": "2020003623448",
+   "old_price": 2.99,
+   "old_date": "2025-09-18",
+   "old_status": "Preis 2025",
+   "new_price": 2.99,
+   "spar_name": "SPAR Natur*pur Bio-Tellerlinsen",
+   "decision": "live"
+  },
+  {
+   "name": "SPAR PREMIUM Edition Johanna Maier Topfen-Spätzle",
+   "article_id": "2020003505980",
+   "old_price": 2.19,
+   "old_date": "2025-10-01",
+   "old_status": "Preis 2025",
+   "new_price": 2.19,
+   "spar_name": "SPAR PREMIUM Topfen-Spätzle",
+   "decision": "live"
+  },
+  {
+   "name": "Veganes Bio-Chili sin Carne",
+   "decision": "skip: no article number and 0 exact name hits"
+  },
+  {
+   "name": "Bio Löffel Zeit Kichererbsen Eintopf",
+   "decision": "skip: no article number and 0 exact name hits"
+  },
+  {
+   "name": "Suppe",
+   "decision": "skip: no article number and 0 exact name hits"
+  },
+  {
+   "name": "Kaiser Teller Feinschmecker Suppe",
+   "decision": "skip: no article number and 0 exact name hits"
+  },
+  {
+   "name": "Maggi Guten Appetit! Nudel Suppe",
+   "decision": "skip: no article number and 0 exact name hits"
+  },
+  {
+   "name": "Bio Tomaten Risotto",
+   "decision": "skip: no article number and 0 exact name hits"
+  },
+  {
+   "name": "Backhendlstreifen klassik",
+   "decision": "skip: no article number and 0 exact name hits"
+  },
+  {
+   "name": "Edition Johanna Maier Kürbissuppe",
+   "decision": "skip: no article number and 0 exact name hits"
+  },
+  {
+   "name": "Mediterraner Nudel-Kräuter-Salat",
+   "decision": "skip: no article number and 0 exact name hits"
+  },
+  {
+   "name": "Paprika-Huhn mit Eierspätzle",
+   "decision": "skip: no article number and 0 exact name hits"
+  },
+  {
+   "name": "Bio-Gemüsesuppe Mediteran",
+   "decision": "skip: no article number and 0 exact name hits"
+  },
+  {
+   "name": "Mediterrane Tomatensuppe",
+   "decision": "skip: no article number and 0 exact name hits"
+  },
+  {
+   "name": "Selchfleisch Knödel",
+   "decision": "skip: no article number and 0 exact name hits"
+  },
+  {
+   "name": "Pilzmaultaschen",
+   "decision": "skip: no article number and 0 exact name hits"
+  },
+  {
+   "name": "Fusilli mit Thunfisch und Tomaten",
+   "decision": "skip: no article number and 0 exact name hits"
+  },
+  {
+   "name": "S-BUDGET Chicken Nuggets 750g",
+   "article_id": "6842666",
+   "old_price": 4.99,
+   "old_date": "2025-09-02",
+   "old_status": "Preis 2025",
+   "new_price": 4.99,
+   "spar_name": "S-BUDGET Chicken Nuggets 750g",
+   "decision": "live"
+  },
+  {
+   "name": "SPAR ASIA Shrimp Suppe Yellow Curry",
+   "article_id": "2020005946521",
+   "old_price": 5.49,
+   "old_date": "2025-10-28",
+   "old_status": "Preis 2025",
+   "new_price": 5.49,
+   "spar_name": "SPAR Shrimp Suppe Yellow Curry",
+   "decision": "live"
+  },
+  {
+   "name": "SPAR Bio-Gemüse-Laibchen",
+   "article_id": "2020005394209",
+   "old_price": 4.99,
+   "old_date": "2025-05-14",
+   "old_status": "Preis 2025",
+   "new_price": 4.99,
+   "spar_name": "SPAR Bio-Gemüse-Laibchen",
+   "decision": "live"
+  },
+  {
+   "name": "SPAR Bio-Spinat-Käse Laibchen",
+   "article_id": "2020005394186",
+   "old_price": 4.99,
+   "old_date": "2025-05-14",
+   "old_status": "Preis 2025",
+   "new_price": 4.99,
+   "spar_name": "SPAR Bio-Spinat-Käse Laibchen",
+   "decision": "live"
+  },
+  {
+   "name": "SPAR Chicken Nuggets",
+   "article_id": "3732588",
+   "old_price": 3.99,
+   "old_date": "2025-09-02",
+   "old_status": "Preis 2025",
+   "new_price": 3.99,
+   "spar_name": "SPAR Chicken Nuggets",
+   "decision": "live"
+  },
+  {
+   "name": "SPAR Feine Küche Mini Corden Bleu vom Schwein vom Schwein",
+   "article_id": "2020005643697",
+   "old_price": 6.99,
+   "old_date": "2025-05-14",
+   "old_status": "Preis 2025",
+   "new_price": 6.99,
+   "spar_name": "SPAR Feine Küche Mini Corden Bleu vom Schwein vom Schwein",
+   "decision": "live"
+  },
+  {
+   "name": "SPAR Feine Küche Palatschinken gebacken 6 Stück",
+   "article_id": "2020001677955",
+   "old_price": 1.99,
+   "old_date": "2025-05-14",
+   "old_status": "Preis 2025",
+   "new_price": 1.99,
+   "spar_name": "SPAR Feine Küche Palatschinken gebacken 6 Stück",
+   "decision": "live"
+  },
+  {
+   "name": "SPAR Hütten Back-Brie-Spitzen mit Wildpreiselbeer-Dip",
+   "article_id": "2020003394218",
+   "old_price": 3.79,
+   "old_date": "2025-05-14",
+   "old_status": "Preis 2025",
+   "new_price": 3.79,
+   "spar_name": "SPAR Hütten Back-Brie-Spitzen mit Wildpreiselbeer-Dip",
+   "decision": "live"
+  },
+  {
+   "name": "SPAR Hütten Back-Camembert mit Wildpreiselbeer-Dip 4 Stück",
+   "article_id": "2020001589869",
+   "old_price": 3.79,
+   "old_date": "2025-05-14",
+   "old_status": "Preis 2025",
+   "new_price": 3.79,
+   "spar_name": "SPAR Hütten Back-Camembert mit Wildpreiselbeer-Dip 4 Stück",
+   "decision": "live"
+  },
+  {
+   "name": "SPAR Hütten Back-Emmentaler-Herzen mit Wildpreiselbeer-Dip",
+   "article_id": "2020003137990",
+   "old_price": 3.79,
+   "old_date": "2025-05-14",
+   "old_status": "Preis 2025",
+   "new_price": 3.79,
+   "spar_name": "SPAR Hütten Back-Emmentaler-Herzen mit Wildpreiselbeer-Dip",
+   "decision": "live"
+  },
+  {
+   "name": "SPAR Hütten Back-Mozzarella-Sticks mit Tomaten-Dip",
+   "article_id": "2020002916763",
+   "old_price": 3.79,
+   "old_date": "2025-05-14",
+   "old_status": "Preis 2025",
+   "new_price": 3.79,
+   "spar_name": "SPAR Hütten Back-Mozzarella-Sticks mit Tomaten-Dip",
+   "decision": "live"
+  },
+  {
+   "name": "SPAR Hütten Hühner Sticks Cornflakes-Panade",
+   "article_id": "2020003884108",
+   "old_price": 3.99,
+   "old_date": "2025-09-02",
+   "old_status": "Preis 2025",
+   "new_price": 3.99,
+   "spar_name": "SPAR Hütten Hühner Sticks Cornflakes-Panade",
+   "decision": "live"
+  },
+  {
+   "name": "SPAR Hütten-Teigtascherl Fleischfüllung 10 Stück",
+   "article_id": "2020003191817",
+   "old_price": 4.79,
+   "old_date": "2025-05-14",
+   "old_status": "Preis 2025",
+   "new_price": 4.79,
+   "spar_name": "SPAR Hütten-Teigtascherl Fleischfüllung 10 Stück",
+   "decision": "live"
+  },
+  {
+   "name": "SPAR Hütten-Teigtascherl Steinpilz 10 Stück",
+   "article_id": "2020003191800",
+   "old_price": 4.79,
+   "old_date": "2025-05-14",
+   "old_status": "Preis 2025",
+   "new_price": 4.79,
+   "spar_name": "SPAR Hütten-Teigtascherl Steinpilz 10 Stück",
+   "decision": "live"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Toast-Schinken",
+   "article_id": "2020004276841",
+   "old_price": 2.89,
+   "old_date": "2025-05-14",
+   "old_status": "Preis 2025",
+   "new_price": 2.89,
+   "spar_name": "SPAR Natur*pur Bio-Toast-Schinken",
+   "decision": "live"
+  },
+  {
+   "name": "SPAR enjoy Sandwich Genusssscheiben & Rucola",
+   "article_id": "2020005302716",
+   "old_price": 2.99,
+   "old_date": "2025-10-31",
+   "old_status": "Preis 2025",
+   "new_price": 2.99,
+   "spar_name": "SPAR enjoy Sandwich Genusssscheiben & Rucola",
+   "decision": "live"
+  },
+  {
+   "name": "SPAR enjoy Sesam-Bagel geräucherter Lachs & Tomaten",
+   "article_id": "2020001309313",
+   "old_price": 2.99,
+   "old_date": "2025-12-22",
+   "old_status": "Preis 2025",
+   "new_price": 2.99,
+   "spar_name": "SPAR enjoy Sesam-Bagel geräucherter Lachs & Tomaten",
+   "decision": "live"
+  },
+  {
+   "name": "SPAR free from Bio-Hamburger Buns glutenfrei & laktosefrei 2 Stück",
+   "article_id": "2020003420771",
+   "old_price": 2.39,
+   "old_date": "2025-09-01",
+   "old_status": "Preis 2025",
+   "new_price": 2.39,
+   "spar_name": "SPAR free from Bio-Hamburger Buns glutenfrei & laktosefrei 2 Stück",
+   "decision": "live"
+  }
+ ],
+ "summary": {
+  "live": 122,
+  "not listed": 17,
+  "skip": 28,
+  "error": 0
+ }
+}

@@ -463,18 +463,18 @@
   "chain": "Spar",
   "price_eur": 2.99,
   "price_per_kg_eur": 11.96,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "6d17f6e9e3c5",
   "chain": "Spar",
   "price_eur": 2.99,
   "price_per_kg_eur": 11.96,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "593e4e8cdd20",
@@ -490,9 +490,9 @@
   "chain": "Spar",
   "price_eur": 11.49,
   "price_per_kg_eur": 45.96,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "bada03418290",
@@ -589,9 +589,9 @@
   "chain": "Spar",
   "price_eur": 3.99,
   "price_per_kg_eur": 13.3,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "58fb6ec3cc52",
@@ -625,9 +625,9 @@
   "chain": "Spar",
   "price_eur": 3.59,
   "price_per_kg_eur": 14.36,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "7d9927c57884",
@@ -652,9 +652,9 @@
   "chain": "Spar",
   "price_eur": 1.49,
   "price_per_kg_eur": 6.77,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "57c9ab798052",
@@ -697,9 +697,9 @@
   "chain": "Spar",
   "price_eur": 2.99,
   "price_per_kg_eur": 14.95,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "3a490fb14acf",
@@ -707,8 +707,8 @@
   "price_eur": 4.99,
   "price_per_kg_eur": 14.26,
   "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "80216a140ca8",
@@ -777,116 +777,116 @@
   "product_id": "98e3ddc1020e",
   "chain": "Spar",
   "price_eur": 3.49,
-  "price_per_kg_eur": 8.72,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_per_kg_eur": 8.73,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "e0229347357a",
   "chain": "Spar",
   "price_eur": 5.49,
   "price_per_kg_eur": 6.86,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "60be3cd6237e",
   "chain": "Spar",
   "price_eur": 3.49,
-  "price_per_kg_eur": 8.72,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_per_kg_eur": 8.73,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "7221be91f854",
   "chain": "Spar",
   "price_eur": 5.49,
   "price_per_kg_eur": 6.86,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "f2f2e098b2e5",
   "chain": "Spar",
   "price_eur": 5.79,
   "price_per_kg_eur": 7.24,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "d31b102a260f",
   "chain": "Spar",
   "price_eur": 2.99,
   "price_per_kg_eur": 7.48,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "7a06fe5fa385",
   "chain": "Spar",
   "price_eur": 5.99,
   "price_per_kg_eur": 19.97,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "10b438fd4c03",
   "chain": "Spar",
   "price_eur": 5.29,
   "price_per_kg_eur": 13.23,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "0a5b0f2084c3",
   "chain": "Spar",
   "price_eur": 3.49,
-  "price_per_kg_eur": 8.72,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_per_kg_eur": 8.73,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "455308d65b08",
   "chain": "Spar",
   "price_eur": 6.99,
   "price_per_kg_eur": 17.48,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "af201aebb8d0",
   "chain": "Spar",
   "price_eur": 10.49,
   "price_per_kg_eur": 13.11,
-  "price_status": "Preis 2025",
-  "fetched_at": null,
-  "price_source": "spar_live.json (Preis 2025)"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "3c6ba7be65bc",
   "chain": "Spar",
   "price_eur": 5.29,
   "price_per_kg_eur": 13.23,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "cbd993bd22f9",
   "chain": "Spar",
   "price_eur": 2.99,
   "price_per_kg_eur": 7.48,
-  "price_status": "Preis 2025",
+  "price_status": "live 2026",
   "fetched_at": "2026-10-12",
   "price_source": "heisse-preise.io latest-canonical 2026-10-12"
  },
@@ -895,9 +895,9 @@
   "chain": "Spar",
   "price_eur": 2.99,
   "price_per_kg_eur": 7.48,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "04a13d204e17",
@@ -913,18 +913,18 @@
   "chain": "Spar",
   "price_eur": 14.99,
   "price_per_kg_eur": 5.17,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "33594e27d33b",
   "chain": "Spar",
   "price_eur": 2.99,
   "price_per_kg_eur": 7.48,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "9f5d5fc64c83",
@@ -940,27 +940,27 @@
   "chain": "Spar",
   "price_eur": 2.99,
   "price_per_kg_eur": 7.48,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "61ee5089e2c1",
   "chain": "Spar",
   "price_eur": 2.99,
   "price_per_kg_eur": 7.48,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "1a42e973c9fa",
   "chain": "Spar",
   "price_eur": 5.29,
   "price_per_kg_eur": 13.23,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "8480eb14bf15",
@@ -993,10 +993,10 @@
   "product_id": "832a2b1da46e",
   "chain": "Spar",
   "price_eur": 2.99,
-  "price_per_kg_eur": null,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_per_kg_eur": 299.0,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "e7058a6f3f2a",
@@ -1084,9 +1084,9 @@
   "chain": "Spar",
   "price_eur": 0.99,
   "price_per_kg_eur": null,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "65db7b715110",
@@ -1300,9 +1300,9 @@
   "chain": "Spar",
   "price_eur": 3.49,
   "price_per_kg_eur": 9.97,
-  "price_status": "Preis 2025",
-  "fetched_at": null,
-  "price_source": "spar_live.json (Preis 2025)"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "b8b8e6d50814",
@@ -1399,36 +1399,36 @@
   "chain": "Spar",
   "price_eur": 2.99,
   "price_per_kg_eur": 7.48,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "4bbebfa157b7",
   "chain": "Spar",
   "price_eur": 2.49,
   "price_per_kg_eur": 6.23,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "a406b2b88e02",
   "chain": "Spar",
   "price_eur": 2.99,
   "price_per_kg_eur": 7.48,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "2b7a8646de21",
   "chain": "Spar",
   "price_eur": 2.49,
   "price_per_kg_eur": 6.23,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "12adc5fc5eea",
@@ -1525,9 +1525,9 @@
   "chain": "Spar",
   "price_eur": 4.49,
   "price_per_kg_eur": 6.41,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "7ef37380f343",
@@ -1543,9 +1543,9 @@
   "chain": "Spar",
   "price_eur": 4.49,
   "price_per_kg_eur": 6.41,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "0aa0299c5d19",
@@ -1579,9 +1579,9 @@
   "chain": "Spar",
   "price_eur": 3.49,
   "price_per_kg_eur": 6.71,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "59d65fab0323",
@@ -1651,9 +1651,9 @@
   "chain": "Spar",
   "price_eur": 5.49,
   "price_per_kg_eur": 17.16,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "9ab4d0842229",
@@ -1669,9 +1669,9 @@
   "chain": "Spar",
   "price_eur": 3.69,
   "price_per_kg_eur": 8.2,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "24ec983cc21f",
@@ -1696,9 +1696,9 @@
   "chain": "Spar",
   "price_eur": 4.49,
   "price_per_kg_eur": 11.23,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "cf6012b39f17",
@@ -1741,9 +1741,9 @@
   "chain": "Spar",
   "price_eur": 3.69,
   "price_per_kg_eur": 11.18,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "29657bd30073",
@@ -1786,9 +1786,9 @@
   "chain": "Spar",
   "price_eur": 4.29,
   "price_per_kg_eur": null,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "931e6a4304f0",
@@ -1867,9 +1867,9 @@
   "chain": "Spar",
   "price_eur": 3.49,
   "price_per_kg_eur": 87.25,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "5b7502fa5c65",
@@ -1912,9 +1912,9 @@
   "chain": "Spar",
   "price_eur": 3.29,
   "price_per_kg_eur": 8.89,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "c9ea3d09c17e",
@@ -1984,18 +1984,18 @@
   "chain": "Spar",
   "price_eur": 2.49,
   "price_per_kg_eur": 9.96,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "9719ee66b755",
   "chain": "Spar",
   "price_eur": 2.49,
   "price_per_kg_eur": 12.45,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "e2cdfb744305",
@@ -2074,9 +2074,9 @@
   "chain": "Spar",
   "price_eur": 3.49,
   "price_per_kg_eur": null,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "259727fd721c",
@@ -2092,36 +2092,36 @@
   "chain": "Spar",
   "price_eur": 3.99,
   "price_per_kg_eur": 9.98,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "e291c2ea3608",
   "chain": "Spar",
   "price_eur": 4.99,
   "price_per_kg_eur": 12.47,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "62f258517878",
   "chain": "Spar",
   "price_eur": 3.99,
   "price_per_kg_eur": 9.98,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "01715fd3f6c8",
   "chain": "Spar",
   "price_eur": 3.99,
   "price_per_kg_eur": 9.98,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "938f807a366e",
@@ -2146,9 +2146,9 @@
   "chain": "Spar",
   "price_eur": 3.99,
   "price_per_kg_eur": 9.98,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "833307a71a84",
@@ -2182,27 +2182,27 @@
   "chain": "Spar",
   "price_eur": 9.99,
   "price_per_kg_eur": 21.72,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "630a4f9a7549",
   "chain": "Spar",
   "price_eur": 2.99,
   "price_per_kg_eur": 14.95,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "bae7622dacb5",
   "chain": "Spar",
   "price_eur": 2.99,
   "price_per_kg_eur": 14.95,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "f0a77561623e",
@@ -2353,27 +2353,27 @@
   "chain": "Spar",
   "price_eur": 6.99,
   "price_per_kg_eur": 19.42,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "3a820c7132e0",
   "chain": "Spar",
   "price_eur": 8.99,
   "price_per_kg_eur": 24.97,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "9baf9993b48a",
   "chain": "Spar",
   "price_eur": 4.99,
   "price_per_kg_eur": 9.98,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "4ae4622fd27c",
@@ -2460,10 +2460,10 @@
   "product_id": "041cda0665e5",
   "chain": "Spar",
   "price_eur": 2.79,
-  "price_per_kg_eur": 7.97,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_per_kg_eur": 9.0,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "324edcafd8b5",
@@ -3712,9 +3712,9 @@
   "chain": "Spar",
   "price_eur": 3.99,
   "price_per_kg_eur": 12.47,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "5e89536afcc8",
@@ -3730,18 +3730,18 @@
   "chain": "Spar",
   "price_eur": 0.99,
   "price_per_kg_eur": 3.96,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "c59c85553104",
   "chain": "Spar",
   "price_eur": 0.99,
   "price_per_kg_eur": 3.96,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "c8ed6a8c52ad",
@@ -3765,10 +3765,10 @@
   "product_id": "615468d41451",
   "chain": "Spar",
   "price_eur": 3.99,
-  "price_per_kg_eur": 5.96,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_per_kg_eur": 10.64,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "25c398319409",
@@ -3793,9 +3793,9 @@
   "chain": "Spar",
   "price_eur": 3.29,
   "price_per_kg_eur": 23.5,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "3daebf5674ec",
@@ -3829,63 +3829,63 @@
   "chain": "Spar",
   "price_eur": 5.29,
   "price_per_kg_eur": 13.23,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "253129808ef0",
   "chain": "Spar",
   "price_eur": 6.29,
   "price_per_kg_eur": 7.86,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "49db653c7708",
   "chain": "Spar",
   "price_eur": 5.99,
   "price_per_kg_eur": 17.62,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "19574344b047",
   "chain": "Spar",
   "price_eur": 5.29,
   "price_per_kg_eur": 13.23,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "dd8b4c92967b",
   "chain": "Spar",
   "price_eur": 3.49,
-  "price_per_kg_eur": 8.72,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_per_kg_eur": 8.73,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "7eb2187af4a0",
   "chain": "Spar",
   "price_eur": 5.49,
   "price_per_kg_eur": 6.86,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "c5ee82689411",
   "chain": "Spar",
   "price_eur": 1.59,
   "price_per_kg_eur": null,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "74dc23b2b17d",
@@ -3928,9 +3928,9 @@
   "chain": "Spar",
   "price_eur": 3.69,
   "price_per_kg_eur": 8.2,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "87847bbe740d",
@@ -3955,9 +3955,9 @@
   "chain": "Spar",
   "price_eur": 3.69,
   "price_per_kg_eur": 9.23,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "d1095da522f5",
@@ -4000,9 +4000,9 @@
   "chain": "Spar",
   "price_eur": 3.49,
   "price_per_kg_eur": 13.96,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "7c88a0aec8bf",
@@ -4054,9 +4054,9 @@
   "chain": "Spar",
   "price_eur": 4.99,
   "price_per_kg_eur": 11.88,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "9e6b4fb1a9ea",
@@ -4351,9 +4351,9 @@
   "chain": "Spar",
   "price_eur": 2.99,
   "price_per_kg_eur": 7.2,
-  "price_status": "Preis 2025",
-  "fetched_at": "2024-08-30",
-  "price_source": "heisse-preise.io spar (Preisstand 2024-08-30) – Altpreis, nicht live bestätigt"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "cc0f749998aa",
@@ -4414,9 +4414,9 @@
   "chain": "Spar",
   "price_eur": 5.49,
   "price_per_kg_eur": 6.86,
-  "price_status": "Preis 2025",
-  "fetched_at": "2025-10-07",
-  "price_source": "heisse-preise.io spar (Preisstand 2025-10-07) – Altpreis, nicht live bestätigt"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "50750912a500",
@@ -4432,18 +4432,18 @@
   "chain": "Spar",
   "price_eur": 5.49,
   "price_per_kg_eur": 6.86,
-  "price_status": "Preis 2025",
-  "fetched_at": "2025-10-07",
-  "price_source": "heisse-preise.io spar (Preisstand 2025-10-07) – Altpreis, nicht live bestätigt"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "cf682d6f6a5f",
   "chain": "Spar",
   "price_eur": 5.29,
   "price_per_kg_eur": 13.23,
-  "price_status": "Preis 2025",
-  "fetched_at": "2025-10-07",
-  "price_source": "heisse-preise.io spar (Preisstand 2025-10-07) – Altpreis, nicht live bestätigt"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "062c59051a72",
@@ -4459,27 +4459,27 @@
   "chain": "Spar",
   "price_eur": 5.99,
   "price_per_kg_eur": 15.36,
-  "price_status": "Preis 2025",
-  "fetched_at": "2025-10-07",
-  "price_source": "heisse-preise.io spar (Preisstand 2025-10-07) – Altpreis, nicht live bestätigt"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "a8fdb6b80a42",
   "chain": "Spar",
   "price_eur": 2.99,
   "price_per_kg_eur": 7.48,
-  "price_status": "Preis 2025",
-  "fetched_at": "2025-10-07",
-  "price_source": "heisse-preise.io spar (Preisstand 2025-10-07) – Altpreis, nicht live bestätigt"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "6965806a60d0",
   "chain": "Spar",
   "price_eur": 5.29,
   "price_per_kg_eur": 13.23,
-  "price_status": "Preis 2025",
-  "fetched_at": "2025-10-07",
-  "price_source": "heisse-preise.io spar (Preisstand 2025-10-07) – Altpreis, nicht live bestätigt"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "0c4cf6a9b24b",
@@ -4495,9 +4495,9 @@
   "chain": "Spar",
   "price_eur": 2.99,
   "price_per_kg_eur": 18.69,
-  "price_status": "Preis 2025",
-  "fetched_at": "2025-05-14",
-  "price_source": "heisse-preise.io spar (Preisstand 2025-05-14) – Altpreis, nicht live bestätigt"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "162aa702e7a0",
@@ -4522,9 +4522,9 @@
   "chain": "Spar",
   "price_eur": 5.99,
   "price_per_kg_eur": 7.99,
-  "price_status": "Preis 2025",
-  "fetched_at": "2025-05-14",
-  "price_source": "heisse-preise.io spar (Preisstand 2025-05-14) – Altpreis, nicht live bestätigt"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "35111e7e8b73",
@@ -4540,9 +4540,9 @@
   "chain": "Spar",
   "price_eur": 1.39,
   "price_per_kg_eur": null,
-  "price_status": "Preis 2025",
-  "fetched_at": "2023-06-20",
-  "price_source": "heisse-preise.io spar (Preisstand 2023-06-20) – Altpreis, nicht live bestätigt"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "4c5c1664ef35",
@@ -4558,9 +4558,9 @@
   "chain": "Spar",
   "price_eur": 5.49,
   "price_per_kg_eur": 18.3,
-  "price_status": "Preis 2025",
-  "fetched_at": "2025-10-28",
-  "price_source": "heisse-preise.io spar (Preisstand 2025-10-28) – Altpreis, nicht live bestätigt"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "a4f2839087c2",
@@ -4576,9 +4576,9 @@
   "chain": "Spar",
   "price_eur": 3.99,
   "price_per_kg_eur": 15.96,
-  "price_status": "Preis 2025",
-  "fetched_at": "2025-09-02",
-  "price_source": "heisse-preise.io spar (Preisstand 2025-09-02) – Altpreis, nicht live bestätigt"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "5e6e153b6076",
@@ -4594,36 +4594,36 @@
   "chain": "Spar",
   "price_eur": 3.69,
   "price_per_kg_eur": 8.2,
-  "price_status": "Preis 2025",
-  "fetched_at": "2025-12-17",
-  "price_source": "heisse-preise.io spar (Preisstand 2025-12-17) – Altpreis, nicht live bestätigt"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "03d455ec24f7",
   "chain": "Spar",
   "price_eur": 2.99,
   "price_per_kg_eur": 6.64,
-  "price_status": "Preis 2025",
-  "fetched_at": "2023-07-04",
-  "price_source": "heisse-preise.io spar (Preisstand 2023-07-04) – Altpreis, nicht live bestätigt"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "43258a3d483f",
   "chain": "Spar",
   "price_eur": 3.69,
   "price_per_kg_eur": 9.23,
-  "price_status": "Preis 2025",
-  "fetched_at": "2025-12-17",
-  "price_source": "heisse-preise.io spar (Preisstand 2025-12-17) – Altpreis, nicht live bestätigt"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "fb4cc3821a96",
   "chain": "Spar",
   "price_eur": 3.69,
   "price_per_kg_eur": 11.18,
-  "price_status": "Preis 2025",
-  "fetched_at": "2025-12-17",
-  "price_source": "heisse-preise.io spar (Preisstand 2025-12-17) – Altpreis, nicht live bestätigt"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "3f74c1a8b5e2",
@@ -4639,9 +4639,9 @@
   "chain": "Spar",
   "price_eur": 6.99,
   "price_per_kg_eur": 23.3,
-  "price_status": "Preis 2025",
-  "fetched_at": "2025-09-08",
-  "price_source": "heisse-preise.io spar (Preisstand 2025-09-08) – Altpreis, nicht live bestätigt"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "48b51eb19d5b",
@@ -4666,18 +4666,18 @@
   "chain": "Spar",
   "price_eur": 4.49,
   "price_per_kg_eur": 13.4,
-  "price_status": "Preis 2025",
-  "fetched_at": "2025-08-14",
-  "price_source": "heisse-preise.io spar (Preisstand 2025-08-14) – Altpreis, nicht live bestätigt"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "23bcd4c585e3",
   "chain": "Spar",
   "price_eur": 6.99,
   "price_per_kg_eur": 19.42,
-  "price_status": "Preis 2025",
-  "fetched_at": "2025-08-28",
-  "price_source": "heisse-preise.io spar (Preisstand 2025-08-28) – Altpreis, nicht live bestätigt"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "c553f0b91b72",
@@ -4702,9 +4702,9 @@
   "chain": "Spar",
   "price_eur": 1.99,
   "price_per_kg_eur": 4.74,
-  "price_status": "Preis 2025",
-  "fetched_at": "2023-12-19",
-  "price_source": "heisse-preise.io spar (Preisstand 2023-12-19) – Altpreis, nicht live bestätigt"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "00206946262d",
@@ -4720,9 +4720,9 @@
   "chain": "Spar",
   "price_eur": 4.99,
   "price_per_kg_eur": 11.88,
-  "price_status": "Preis 2025",
-  "fetched_at": "2025-07-31",
-  "price_source": "heisse-preise.io spar (Preisstand 2025-07-31) – Altpreis, nicht live bestätigt"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "ae09f927a47c",
@@ -6403,9 +6403,9 @@
   "chain": "Spar",
   "price_eur": 1.48,
   "price_per_kg_eur": 1.97,
-  "price_status": "Preis 2025",
-  "fetched_at": null,
-  "price_source": "heisse-preise.io latest-canonical"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "8a619bf322a7",
@@ -6493,9 +6493,9 @@
   "chain": "Spar",
   "price_eur": 1.99,
   "price_per_kg_eur": null,
-  "price_status": "Preis 2025",
-  "fetched_at": null,
-  "price_source": "heisse-preise.io latest-canonical"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "35c37494b61a",
@@ -6511,9 +6511,9 @@
   "chain": "Spar",
   "price_eur": 1.1,
   "price_per_kg_eur": null,
-  "price_status": "Preis 2025",
-  "fetched_at": null,
-  "price_source": "heisse-preise.io latest-canonical"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "4dda33b2d4e8",
@@ -6583,9 +6583,9 @@
   "chain": "Spar",
   "price_eur": 3.69,
   "price_per_kg_eur": 8.2,
-  "price_status": "Preis 2025",
-  "fetched_at": null,
-  "price_source": "heisse-preise.io latest-canonical"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "c28daa7bcde5",
@@ -6682,9 +6682,9 @@
   "chain": "Spar",
   "price_eur": 3.99,
   "price_per_kg_eur": 12.13,
-  "price_status": "Preis 2025",
-  "fetched_at": null,
-  "price_source": "heisse-preise.io latest-canonical"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "faee3fcc3ab3",
@@ -6745,9 +6745,9 @@
   "chain": "Spar",
   "price_eur": 2.99,
   "price_per_kg_eur": 5.98,
-  "price_status": "Preis 2025",
-  "fetched_at": null,
-  "price_source": "heisse-preise.io latest-canonical"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "645ad1708af8",
@@ -6772,9 +6772,9 @@
   "chain": "Spar",
   "price_eur": 2.19,
   "price_per_kg_eur": 7.3,
-  "price_status": "Preis 2025",
-  "fetched_at": null,
-  "price_source": "heisse-preise.io latest-canonical"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "2276f70b3751",
@@ -9023,8 +9023,8 @@
   "price_eur": 3.69,
   "price_per_kg_eur": 8.2,
   "price_status": "live 2026",
-  "fetched_at": null,
-  "price_source": "spar.json (live 2026)"
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "6211ee54e43c",
@@ -9032,8 +9032,8 @@
   "price_eur": 4.99,
   "price_per_kg_eur": 12.48,
   "price_status": "live 2026",
-  "fetched_at": null,
-  "price_source": "spar.json (live 2026)"
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "a04b3b3051a6",
@@ -9077,8 +9077,8 @@
   "price_eur": 3.99,
   "price_per_kg_eur": 9.98,
   "price_status": "live 2026",
-  "fetched_at": null,
-  "price_source": "spar.json (live 2026)"
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "b08be387c52d",
@@ -9104,8 +9104,8 @@
   "price_eur": 5.49,
   "price_per_kg_eur": 18.3,
   "price_status": "live 2026",
-  "fetched_at": null,
-  "price_source": "spar.json (live 2026)"
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "9e13de13e110",
@@ -9113,8 +9113,8 @@
   "price_eur": 5.49,
   "price_per_kg_eur": 18.3,
   "price_status": "live 2026",
-  "fetched_at": null,
-  "price_source": "spar.json (live 2026)"
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "bc80a8bdb0d4",
@@ -9185,8 +9185,8 @@
   "price_eur": 3.99,
   "price_per_kg_eur": 9.98,
   "price_status": "live 2026",
-  "fetched_at": null,
-  "price_source": "spar.json (live 2026)"
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "2f9166e92d2a",
@@ -9194,8 +9194,8 @@
   "price_eur": 3.69,
   "price_per_kg_eur": 8.2,
   "price_status": "live 2026",
-  "fetched_at": null,
-  "price_source": "spar.json (live 2026)"
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "e03ad5381b48",
@@ -9221,8 +9221,8 @@
   "price_eur": 1.99,
   "price_per_kg_eur": 5.31,
   "price_status": "live 2026",
-  "fetched_at": null,
-  "price_source": "spar.json (live 2026)"
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "fbc90c17acc0",
@@ -9230,8 +9230,8 @@
   "price_eur": 3.69,
   "price_per_kg_eur": 9.23,
   "price_status": "live 2026",
-  "fetched_at": null,
-  "price_source": "spar.json (live 2026)"
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "48bac58a4e9a",
@@ -9266,8 +9266,8 @@
   "price_eur": 7.49,
   "price_per_kg_eur": 10.7,
   "price_status": "live 2026",
-  "fetched_at": null,
-  "price_source": "spar.json (live 2026)"
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "aca5e5684706",
@@ -9302,8 +9302,8 @@
   "price_eur": 3.29,
   "price_per_kg_eur": 8.89,
   "price_status": "live 2026",
-  "fetched_at": null,
-  "price_source": "spar.json (live 2026)"
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "9e52a13f7e59",
@@ -9383,8 +9383,8 @@
   "price_eur": 1.39,
   "price_per_kg_eur": null,
   "price_status": "live 2026",
-  "fetched_at": null,
-  "price_source": "spar.json (live 2026)"
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "ba1bab2bd080",
@@ -9392,8 +9392,8 @@
   "price_eur": 3.49,
   "price_per_kg_eur": 13.96,
   "price_status": "live 2026",
-  "fetched_at": null,
-  "price_source": "spar.json (live 2026)"
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "b051be1e1f9d",
@@ -9401,8 +9401,8 @@
   "price_eur": 2.99,
   "price_per_kg_eur": 6.64,
   "price_status": "live 2026",
-  "fetched_at": null,
-  "price_source": "spar.json (live 2026)"
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "7a0f99bf0d2b",
@@ -9653,8 +9653,8 @@
   "price_eur": 3.69,
   "price_per_kg_eur": 8.2,
   "price_status": "live 2026",
-  "fetched_at": null,
-  "price_source": "spar.json (live 2026)"
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "a3218082c955",
@@ -9698,8 +9698,8 @@
   "price_eur": 10.49,
   "price_per_kg_eur": 13.11,
   "price_status": "live 2026",
-  "fetched_at": null,
-  "price_source": "spar_live.json (live 2026)"
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "61032a60cfb9",
@@ -9707,8 +9707,8 @@
   "price_eur": 3.49,
   "price_per_kg_eur": 9.97,
   "price_status": "live 2026",
-  "fetched_at": null,
-  "price_source": "spar_live.json (live 2026)"
+  "fetched_at": "2026-10-13",
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "94da0122ac65",
@@ -17928,6 +17928,294 @@
   "price_source": "food-connectors/penny 2026-10-13 (penny.at Online-Sortiment, Listenpreis)"
  },
  {
+  "product_id": "963c54703e72",
+  "chain": "MPreis",
+  "price_eur": 6.99,
+  "price_per_kg_eur": 12.94,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+ },
+ {
+  "product_id": "9577d214f8e7",
+  "chain": "MPreis",
+  "price_eur": 3.99,
+  "price_per_kg_eur": 5.32,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+ },
+ {
+  "product_id": "5e8ed0cd7cbb",
+  "chain": "MPreis",
+  "price_eur": 5.49,
+  "price_per_kg_eur": 6.86,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+ },
+ {
+  "product_id": "6e0c7f1908c8",
+  "chain": "MPreis",
+  "price_eur": 3.49,
+  "price_per_kg_eur": 8.72,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+ },
+ {
+  "product_id": "c5b0dfc77bc8",
+  "chain": "MPreis",
+  "price_eur": 2.99,
+  "price_per_kg_eur": 5.98,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+ },
+ {
+  "product_id": "663e8ad0b794",
+  "chain": "MPreis",
+  "price_eur": 2.79,
+  "price_per_kg_eur": 9.0,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+ },
+ {
+  "product_id": "5269acaefda7",
+  "chain": "MPreis",
+  "price_eur": 3.99,
+  "price_per_kg_eur": 10.64,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+ },
+ {
+  "product_id": "9228a1abc7fc",
+  "chain": "MPreis",
+  "price_eur": 3.99,
+  "price_per_kg_eur": 7.53,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+ },
+ {
+  "product_id": "ef928edf315b",
+  "chain": "MPreis",
+  "price_eur": 4.79,
+  "price_per_kg_eur": 12.95,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+ },
+ {
+  "product_id": "8c335c2cc071",
+  "chain": "MPreis",
+  "price_eur": 2.79,
+  "price_per_kg_eur": 10.33,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+ },
+ {
+  "product_id": "badde28be4ef",
+  "chain": "MPreis",
+  "price_eur": 2.79,
+  "price_per_kg_eur": 10.33,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+ },
+ {
+  "product_id": "51c461be98ed",
+  "chain": "MPreis",
+  "price_eur": 3.99,
+  "price_per_kg_eur": 7.53,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+ },
+ {
+  "product_id": "8a755806e059",
+  "chain": "MPreis",
+  "price_eur": 2.79,
+  "price_per_kg_eur": 10.33,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+ },
+ {
+  "product_id": "5c9cc760e900",
+  "chain": "MPreis",
+  "price_eur": 3.99,
+  "price_per_kg_eur": 9.98,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+ },
+ {
+  "product_id": "7ed3b5681d85",
+  "chain": "MPreis",
+  "price_eur": 4.99,
+  "price_per_kg_eur": 9.98,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+ },
+ {
+  "product_id": "8a12be73c97b",
+  "chain": "MPreis",
+  "price_eur": 3.99,
+  "price_per_kg_eur": 9.07,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+ },
+ {
+  "product_id": "a86c02059a51",
+  "chain": "MPreis",
+  "price_eur": 3.99,
+  "price_per_kg_eur": 7.53,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+ },
+ {
+  "product_id": "c098f831666d",
+  "chain": "MPreis",
+  "price_eur": 1.99,
+  "price_per_kg_eur": 3.32,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+ },
+ {
+  "product_id": "fea18ad680e9",
+  "chain": "MPreis",
+  "price_eur": 3.99,
+  "price_per_kg_eur": 6.65,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+ },
+ {
+  "product_id": "05b16dbdcf33",
+  "chain": "MPreis",
+  "price_eur": 3.49,
+  "price_per_kg_eur": 8.72,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+ },
+ {
+  "product_id": "7933ba6ac115",
+  "chain": "MPreis",
+  "price_eur": 2.39,
+  "price_per_kg_eur": 5.98,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+ },
+ {
+  "product_id": "210fb0c5b8b1",
+  "chain": "MPreis",
+  "price_eur": 4.0,
+  "price_per_kg_eur": 10.9,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+ },
+ {
+  "product_id": "0af24d04416f",
+  "chain": "MPreis",
+  "price_eur": 3.99,
+  "price_per_kg_eur": 12.47,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+ },
+ {
+  "product_id": "60e04b9b1b85",
+  "chain": "MPreis",
+  "price_eur": 2.0,
+  "price_per_kg_eur": 5.56,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+ },
+ {
+  "product_id": "e3a393a0a6f2",
+  "chain": "MPreis",
+  "price_eur": 2.99,
+  "price_per_kg_eur": 18.69,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+ },
+ {
+  "product_id": "74ffb2fd1ff9",
+  "chain": "MPreis",
+  "price_eur": 5.49,
+  "price_per_kg_eur": 5.49,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+ },
+ {
+  "product_id": "1074102070dd",
+  "chain": "Billa",
+  "price_eur": 3.29,
+  "price_per_kg_eur": 17.78,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+ },
+ {
+  "product_id": "7010a3fa450f",
+  "chain": "Billa",
+  "price_eur": 3.29,
+  "price_per_kg_eur": 19.94,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+ },
+ {
+  "product_id": "607a6fa8954c",
+  "chain": "Billa",
+  "price_eur": 3.29,
+  "price_per_kg_eur": 17.78,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+ },
+ {
+  "product_id": "eed4ca19f886",
+  "chain": "Billa",
+  "price_eur": 2.79,
+  "price_per_kg_eur": 14.31,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+ },
+ {
+  "product_id": "69afa19b8bd6",
+  "chain": "Billa",
+  "price_eur": 5.29,
+  "price_per_kg_eur": 13.23,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/billa 2026-10-13 (product-discovery API, Normalpreis; Aktion separat)"
+ },
+ {
+  "product_id": "d8de424ed110",
+  "chain": "Gurkerl",
+  "price_eur": 10.49,
+  "price_per_kg_eur": 23.31,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category walk + search, products/prices/stock API, inStock)"
+ },
+ {
   "product_id": "6415820c4167",
   "chain": "PrepMyMeal",
   "price_eur": 12.48,
@@ -21316,9 +21604,9 @@
   "chain": "Spar",
   "price_eur": 4.99,
   "price_per_kg_eur": 6.65,
-  "price_status": "Preis 2025",
+  "price_status": "live 2026",
   "fetched_at": "2026-10-13",
-  "price_source": "heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)"
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "a64c50f47fc9",
@@ -21361,9 +21649,9 @@
   "chain": "Spar",
   "price_eur": 5.49,
   "price_per_kg_eur": 18.3,
-  "price_status": "Preis 2025",
+  "price_status": "live 2026",
   "fetched_at": "2026-10-13",
-  "price_source": "heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)"
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "611025bd0236",
@@ -21388,18 +21676,18 @@
   "chain": "Spar",
   "price_eur": 4.99,
   "price_per_kg_eur": 15.59,
-  "price_status": "Preis 2025",
+  "price_status": "live 2026",
   "fetched_at": "2026-10-13",
-  "price_source": "heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)"
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "3cc4a32184ff",
   "chain": "Spar",
   "price_eur": 4.99,
   "price_per_kg_eur": 15.59,
-  "price_status": "Preis 2025",
+  "price_status": "live 2026",
   "fetched_at": "2026-10-13",
-  "price_source": "heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)"
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "a6314963de9d",
@@ -21415,9 +21703,9 @@
   "chain": "Spar",
   "price_eur": 3.99,
   "price_per_kg_eur": 15.96,
-  "price_status": "Preis 2025",
+  "price_status": "live 2026",
   "fetched_at": "2026-10-13",
-  "price_source": "heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)"
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "95ba799adb31",
@@ -21532,18 +21820,18 @@
   "chain": "Spar",
   "price_eur": 6.99,
   "price_per_kg_eur": 13.98,
-  "price_status": "Preis 2025",
+  "price_status": "live 2026",
   "fetched_at": "2026-10-13",
-  "price_source": "heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)"
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "d3890bbac4a4",
   "chain": "Spar",
   "price_eur": 1.99,
   "price_per_kg_eur": 5.31,
-  "price_status": "Preis 2025",
+  "price_status": "live 2026",
   "fetched_at": "2026-10-13",
-  "price_source": "heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)"
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "52c59d5d3f0e",
@@ -21595,36 +21883,36 @@
   "chain": "Spar",
   "price_eur": 3.79,
   "price_per_kg_eur": 15.16,
-  "price_status": "Preis 2025",
+  "price_status": "live 2026",
   "fetched_at": "2026-10-13",
-  "price_source": "heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)"
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "9ccf7b8aa957",
   "chain": "Spar",
   "price_eur": 3.79,
   "price_per_kg_eur": 10.83,
-  "price_status": "Preis 2025",
+  "price_status": "live 2026",
   "fetched_at": "2026-10-13",
-  "price_source": "heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)"
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "975d161496fb",
   "chain": "Spar",
   "price_eur": 3.79,
   "price_per_kg_eur": 15.16,
-  "price_status": "Preis 2025",
+  "price_status": "live 2026",
   "fetched_at": "2026-10-13",
-  "price_source": "heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)"
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "c6b532910476",
   "chain": "Spar",
   "price_eur": 3.79,
   "price_per_kg_eur": 15.16,
-  "price_status": "Preis 2025",
+  "price_status": "live 2026",
   "fetched_at": "2026-10-13",
-  "price_source": "heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)"
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "dfd583827f7f",
@@ -21640,27 +21928,27 @@
   "chain": "Spar",
   "price_eur": 3.99,
   "price_per_kg_eur": 15.96,
-  "price_status": "Preis 2025",
+  "price_status": "live 2026",
   "fetched_at": "2026-10-13",
-  "price_source": "heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)"
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "cc299b585e23",
   "chain": "Spar",
   "price_eur": 4.79,
-  "price_per_kg_eur": 11.97,
-  "price_status": "Preis 2025",
+  "price_per_kg_eur": 11.98,
+  "price_status": "live 2026",
   "fetched_at": "2026-10-13",
-  "price_source": "heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)"
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "620996a96ade",
   "chain": "Spar",
   "price_eur": 4.79,
-  "price_per_kg_eur": 11.97,
-  "price_status": "Preis 2025",
+  "price_per_kg_eur": 11.98,
+  "price_status": "live 2026",
   "fetched_at": "2026-10-13",
-  "price_source": "heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)"
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "d1c99d2949f8",
@@ -21703,9 +21991,9 @@
   "chain": "Spar",
   "price_eur": 2.89,
   "price_per_kg_eur": 28.9,
-  "price_status": "Preis 2025",
+  "price_status": "live 2026",
   "fetched_at": "2026-10-13",
-  "price_source": "heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)"
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "020d8438ea20",
@@ -21865,9 +22153,9 @@
   "chain": "Spar",
   "price_eur": 2.99,
   "price_per_kg_eur": 21.36,
-  "price_status": "Preis 2025",
+  "price_status": "live 2026",
   "fetched_at": "2026-10-13",
-  "price_source": "heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)"
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "e6975f646b6e",
@@ -21892,9 +22180,9 @@
   "chain": "Spar",
   "price_eur": 2.39,
   "price_per_kg_eur": 19.12,
-  "price_status": "Preis 2025",
+  "price_status": "live 2026",
   "fetched_at": "2026-10-13",
-  "price_source": "heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)"
+  "price_source": "SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)"
  },
  {
   "product_id": "b4004fa7317e",
@@ -22153,15 +22441,6 @@
   "chain": "MPreis",
   "price_eur": 2.85,
   "price_per_kg_eur": 7.12,
-  "price_status": "live 2026",
-  "fetched_at": "2026-10-13",
-  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
- },
- {
-  "product_id": "7933ba6ac115",
-  "chain": "MPreis",
-  "price_eur": 2.39,
-  "price_per_kg_eur": 5.98,
   "price_status": "live 2026",
   "fetched_at": "2026-10-13",
   "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
@@ -22522,15 +22801,6 @@
   "chain": "MPreis",
   "price_eur": 2.49,
   "price_per_kg_eur": 6.23,
-  "price_status": "live 2026",
-  "fetched_at": "2026-10-13",
-  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
- },
- {
-  "product_id": "05b16dbdcf33",
-  "chain": "MPreis",
-  "price_eur": 3.49,
-  "price_per_kg_eur": 8.72,
   "price_status": "live 2026",
   "fetched_at": "2026-10-13",
   "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
