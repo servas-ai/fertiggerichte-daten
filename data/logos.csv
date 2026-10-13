@@ -1,13 +1,13 @@
 slug,name,category,file,source_url,brands
 billa,Billa,Handelskette,logos/billa.svg,https://upload.wikimedia.org/wikipedia/commons/1/1b/Billa_logo.svg,Billa
-spar,Spar,Handelskette,logos/spar.svg,https://upload.wikimedia.org/wikipedia/commons/7/7c/Spar-logo.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original,Spar|SPAR
+spar,Spar,Handelskette,logos/spar.svg,https://upload.wikimedia.org/wikipedia/commons/7/7c/Spar-logo.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original,Spar|SPAR|Spar Linguine
 hofer,Hofer,Handelskette,logos/hofer.svg,https://upload.wikimedia.org/wikipedia/commons/3/3a/Hofer_Logo_2017.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,Hofer
 lidl,Lidl,Handelskette,logos/lidl.svg,https://upload.wikimedia.org/wikipedia/commons/9/91/Lidl-Logo.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original,Lidl
 penny,Penny,Handelskette,logos/penny.svg,https://upload.wikimedia.org/wikipedia/commons/8/8e/Penny-Logo.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original,Penny
 dm,dm,Handelskette,logos/dm.svg,https://upload.wikimedia.org/wikipedia/commons/5/50/Dm_Logo.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original,dm
 immer-gut,BILLA Immer Gut,Eigenmarke,logos/immer-gut.png,https://assets-eu-01.kc-usercontent.com:443/d5bbd8c1-f776-012f-71ae-f309933a3006/183361d9-fcba-46f6-b8c3-2fad9bc1e6b9/Billa_immer_gut_new_logo.svg,BILLA Immer Gut
 billa-genusswelt,BILLA Genusswelt,Eigenmarke,logos/billa-genusswelt.png,https://assets-eu-01.kc-usercontent.com:443/d5bbd8c1-f776-012f-71ae-f309933a3006/74adb426-e268-4e4c-9f65-b45039d1e04c/billa_genusswelt_logo_new.svg,BILLA Genusswelt
-omis-schmankerl,Omis Schmankerl,Eigenmarke,logos/omis-schmankerl.png,https://assets-eu-01.kc-usercontent.com:443/d5bbd8c1-f776-012f-71ae-f309933a3006/53bdd437-60ae-481d-8970-a6a217116af7/Omis_Logo_new.svg,Omis Schmankerl
+omis-schmankerl,Omis Schmankerl,Eigenmarke,logos/omis-schmankerl.png,https://assets-eu-01.kc-usercontent.com:443/d5bbd8c1-f776-012f-71ae-f309933a3006/53bdd437-60ae-481d-8970-a6a217116af7/Omis_Logo_new.svg,Omis Schmankerl|Omis
 simply-good,Simply Good,Eigenmarke,logos/simply-good.png,https://assets-eu-01.kc-usercontent.com:443/d5bbd8c1-f776-012f-71ae-f309933a3006/fd5aeaef-6eb3-4fda-89b6-b206d42d6467/simply_good_logo_new.svg,Simply Good
 vegavita,Vegavita,Eigenmarke,logos/vegavita.png,https://assets-eu-01.kc-usercontent.com:443/d5bbd8c1-f776-012f-71ae-f309933a3006/b961241e-7b3d-4e9f-b155-5217795a7bc4/Vegavita_Logo.svg,Vegavita|VEGA VITA VON BILLA
 clever,CLEVER,Budget,logos/clever.png,https://assets-eu-01.kc-usercontent.com:443/d5bbd8c1-f776-012f-71ae-f309933a3006/3aafeb92-d2d7-4ff5-b505-9134d124d09f/clever_Logo.svg,CLEVER
@@ -169,7 +169,7 @@ gustavo-gusto,Gustavo Gusto,Markenhersteller,logos/gustavo-gusto.png,https://gus
 morgentau,Morgentau,Markenhersteller,logos/morgentau.svg,https://morgentau.at/media/vector/f3/17/9e/morgentau_logo_claimK4TEwfny90tQV.svg,Morgentau|MORGENTAU|Morgentau Biogemüse
 noem,NÖM,Markenhersteller,logos/noem.png,https://www.noem.at/logo_512x512.png,NÖM|Nöm|nöm|nöm PRO|Nöm PRO|nöm Cremix|NÖM PRO
 zurueck-zum-ursprung,Zurück zum Ursprung,Eigenmarke,logos/zurueck-zum-ursprung.svg,https://www.zurueckzumursprung.at/_assets/4b8eedeac75dabf6c5c55a34303952fc/Images/Logo-2026.svg,Zurück zum Ursprung|ZURÜCK|ZURÜCK ZUM URSPRUNG
-danone,Danone,Markenhersteller,logos/danone.png,https://commons.wikimedia.org/wiki/File%3ADanone_Logo.png,Danone|Danone Belux nv
+danone,Danone,Markenhersteller,logos/danone.png,https://commons.wikimedia.org/wiki/File%3ADanone_Logo.png,Danone|Danone Belux nv|Danny
 bibigo,Bibigo,Markenhersteller,logos/bibigo.svg,https://cdn.sanity.io/images/mf5qmsk4/production/7f117672123d4ebf0ddf23531397fc7129dac375-159x117.svg,Bibigo|bibigo
 berger-schinken,Berger Schinken,Markenhersteller,logos/berger-schinken.svg,https://www.berger-schinken.at/wp-content/uploads/2021/08/bergerschinken-logo-2.svg,Berger Schinken
 buerger,Bürger,Markenhersteller,logos/buerger.svg,https://www.buerger.de/buerger-logo.svg,Bürger|BÜRGER
@@ -241,3 +241,9 @@ delidip,deli dip,Markenhersteller,logos/delidip.png,https://cdn.prod.website-fil
 farniente,Farniente,Markenhersteller,logos/farniente.png,https://static.wixstatic.com/media/90a877_cde4c3f864a84b8499b47a47b73bce94~mv2.png,Farniente
 biogourmet,BioGourmet,Markenhersteller,logos/biogourmet.png,https://bio-gourmet.com/wp-content/uploads/2018/01/bigo_logo_rgb-1.png,BioGourmet|Bio Gourmet
 zum-dorfkrug,Zum Dorfkrug,Markenhersteller,logos/zum-dorfkrug.svg,https://www.zum-dorfkrug.de/assets/zum-dorfkrug-logo.svg,Zum Dorfkrug
+podravka,Podravka,Markenhersteller,logos/podravka.svg,https://commons.wikimedia.org/wiki/File:Podravka_logo_2024.svg,Podravka|PODRAVKA
+heura,Heura,Markenhersteller,logos/heura.png,https://commons.wikimedia.org/wiki/File:Logo_Heura_by_Foods_for_Tomorrow.png,Heura|HEURA|Heura Foods|Foods for Tomorrow
+nordsee,Nordsee,Markenhersteller,logos/nordsee.svg,https://commons.wikimedia.org/wiki/File:Nordsee_Logo_2024.svg,Nordsee|NORDSEE
+mama,Mama,Markenhersteller,logos/mama.png,https://www.mama.co.th/en/images/logo-mama.png,Mama|MAMA
+maza,Maza,Markenhersteller,logos/maza.svg,https://maza.at/wp-content/uploads/2024/07/logo.svg,Maza|MAZA|Maza Mediterranean Delicacies
+englert,Englert,Markenhersteller,logos/englert.png,https://feinkost-englert.de/_astro/responsive-logo-header.DtxL4qem_Z2mh27R.png,Englert|Feinkost Englert|Englert Feinkost

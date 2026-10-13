@@ -17,7 +17,8 @@
   "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Spar-logo.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
   "brands": [
    "Spar",
-   "SPAR"
+   "SPAR",
+   "Spar Linguine"
   ]
  },
  {
@@ -87,7 +88,8 @@
   "file": "logos/omis-schmankerl.png",
   "source_url": "https://assets-eu-01.kc-usercontent.com:443/d5bbd8c1-f776-012f-71ae-f309933a3006/53bdd437-60ae-481d-8970-a6a217116af7/Omis_Logo_new.svg",
   "brands": [
-   "Omis Schmankerl"
+   "Omis Schmankerl",
+   "Omis"
   ]
  },
  {
@@ -1779,7 +1781,8 @@
   "source_url": "https://commons.wikimedia.org/wiki/File%3ADanone_Logo.png",
   "brands": [
    "Danone",
-   "Danone Belux nv"
+   "Danone Belux nv",
+   "Danny"
   ]
  },
  {
@@ -2547,6 +2550,76 @@
   "source_url": "https://www.zum-dorfkrug.de/assets/zum-dorfkrug-logo.svg",
   "brands": [
    "Zum Dorfkrug"
+  ]
+ },
+ {
+  "slug": "podravka",
+  "name": "Podravka",
+  "category": "Markenhersteller",
+  "file": "logos/podravka.svg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Podravka_logo_2024.svg",
+  "brands": [
+   "Podravka",
+   "PODRAVKA"
+  ]
+ },
+ {
+  "slug": "heura",
+  "name": "Heura",
+  "category": "Markenhersteller",
+  "file": "logos/heura.png",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Logo_Heura_by_Foods_for_Tomorrow.png",
+  "brands": [
+   "Heura",
+   "HEURA",
+   "Heura Foods",
+   "Foods for Tomorrow"
+  ]
+ },
+ {
+  "slug": "nordsee",
+  "name": "Nordsee",
+  "category": "Markenhersteller",
+  "file": "logos/nordsee.svg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Nordsee_Logo_2024.svg",
+  "brands": [
+   "Nordsee",
+   "NORDSEE"
+  ]
+ },
+ {
+  "slug": "mama",
+  "name": "Mama",
+  "category": "Markenhersteller",
+  "file": "logos/mama.png",
+  "source_url": "https://www.mama.co.th/en/images/logo-mama.png",
+  "brands": [
+   "Mama",
+   "MAMA"
+  ]
+ },
+ {
+  "slug": "maza",
+  "name": "Maza",
+  "category": "Markenhersteller",
+  "file": "logos/maza.svg",
+  "source_url": "https://maza.at/wp-content/uploads/2024/07/logo.svg",
+  "brands": [
+   "Maza",
+   "MAZA",
+   "Maza Mediterranean Delicacies"
+  ]
+ },
+ {
+  "slug": "englert",
+  "name": "Englert",
+  "category": "Markenhersteller",
+  "file": "logos/englert.png",
+  "source_url": "https://feinkost-englert.de/_astro/responsive-logo-header.DtxL4qem_Z2mh27R.png",
+  "brands": [
+   "Englert",
+   "Feinkost Englert",
+   "Englert Feinkost"
   ]
  }
 ]
