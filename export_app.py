@@ -192,7 +192,62 @@ for m in mains:
         _,v,s,kc,pr,cost=best; used.add(v['id']); s and used.add(s['id'])
         combos.append(dict(main=m['id'],veg=v['id'],side=s['id'] if s else None,kcal=round(kc),prot=round(pr),price=round(cost,2),fib=round(v['fib']+(s['fib'] if s else 0),1)))
     if len(combos)>=24: break
-topPLI=sorted([r for r in R if r['pli'] is not None],key=lambda r:-r['pli'])[:30]
+# --- exact same-store dedupe + light_meal ranking + cross-store collapse in top lists ---
+_BABY=re.compile(r'hipp|beba|aptamil|alete|babylove|ab dem \d|kleinkind|säugling|\bbaby\b|kinder ?menü',re.I)
+_DRYFIX=re.compile(r'\bfix\b|bouillon.?w(?:ü|u)rfel|paradiescreme|maggi.*suppe|knorr basis',re.I)
+_NOISE=re.compile(r'(tiefgekühl\w*|tiefkuehl\w*|\btk\b|\bbio\b|\bdie\b|\bder\b|\bdas\b|\bmit\b|\bund\b|\bpizza\b|\bmenü\b|\bfertiggericht\b)',re.I)
+def _prod_key(r):
+    m=re.search(r'/product/(\d{8,14})',r.get('url') or '')
+    if m: return 'g:'+m.group(1).lstrip('0')
+    b=(r.get('brandN') or r.get('brand') or '').split(',')[0].strip().lower()
+    n=(r.get('name') or '').lower()
+    if b and b in n: n=n.replace(b,'')
+    n=_NOISE.sub(' ',n)
+    n=re.sub(r'[^a-z0-9äöüß]+','',n); b2=re.sub(r'[^a-z0-9äöüß]+','',b)
+    sz=str(int(r['size'])) if r.get('size') else ''
+    return 'n:'+b2+':'+n+':'+sz
+def _exact_key(r):
+    return ((r.get('name') or '').strip().lower(),(r.get('store') or '').strip().lower(),r.get('size'))
+_by_ex={}
+for _r in R: _by_ex.setdefault(_exact_key(_r),[]).append(_r)
+_n_exact=0
+for _vs in _by_ex.values():
+    if len(_vs)<2: continue
+    _vs=sorted(_vs,key=lambda r:(r.get('price') is None,r.get('price') or 999))
+    for _r in _vs[1:]:
+        _r['rankable']=False; _r['pli']=None
+        _r['flags']=(_r.get('flags') or [])+['Duplikat (gleicher Name/Laden/Größe)']
+        _n_exact+=1
+_light=[]
+for _r in R:
+    if _r.get('meal_class')!='light_meal': continue
+    _mc=_r.get('meal_check') or {}; _k,_p=_mc.get('kcal'),_mc.get('protein')
+    if not (_k and 300<=_k<400): continue
+    if _r.get('dry') or _r.get('nutrition_basis')=='dry' or _r.get('gang')=='dessert': continue
+    if _r.get('segment') in ('grocery','meal_kit') or _r.get('component') or _r.get('stage') not in ('meal','stew'): continue
+    if not _r.get('score') or _r['score']<30 or not _r.get('price') or not _r.get('store'): continue
+    if str(_r['store']).startswith('unbekannt') or _r.get('pstat') not in ('live 2026','aktuell'): continue
+    if _BABY.search(_r.get('name') or '') or _DRYFIX.search(_r.get('name') or ''): continue
+    _ep=(_r['price']*_mc['portion']/_r['size']) if _r.get('size') and _mc.get('portion') else _r['price']
+    if not _ep or _p is None: continue
+    _r['pliLight']=round(0.5*_r['score']+0.5*min((_p/_ep)/20,1)*100,1); _light.append(_r)
+def _collapse(cands,score_fn,n=30):
+    ordered=sorted(cands,key=score_fn,reverse=True); seen={}; kept=[]; collapsed=0; also={}
+    for r in ordered:
+        k=_prod_key(r)
+        if k in seen:
+            collapsed+=1; also.setdefault(seen[k]['id'],set()).add(r['store']); continue
+        seen[k]=r; kept.append(r)
+        if len(kept)>=n: break
+    for r in kept:
+        o=sorted(s for s in also.get(r['id'],()) if s and s!=r.get('store'))
+        if o: r['alsoAt']=o
+    return kept,collapsed
+topPLI,_c_pli=_collapse([r for r in R if r.get('rankable') and r.get('pli') is not None],lambda r:r['pli'])
+top_h,_c_h=_collapse([r for r in R if r.get('rankable') and r.get('score') is not None],lambda r:r['score'])
+top_pe,_c_pe=_collapse([r for r in R if r.get('rankable') and r.get('ppe') and r.get('pstat')=='live 2026' and r.get('pack')!='Trocken/Instant'],lambda r:r['ppe'])
+topLight,_c_light=_collapse(_light,lambda r:r['pliLight'])
+print('rankings: light',len(_light),'exact_dup',_n_exact,'collapsed pli/h/pe/light',_c_pli,_c_h,_c_pe,_c_light)
 import os
 qa=json.load(open('qa_stats.json')) if os.path.exists('qa_stats.json') else None
 # Hersteller
@@ -235,7 +290,7 @@ for slug in sorted(set(list(PROF)+[c['slug'] for c in COMP if c['type']=='produc
     p=PROF.get(slug,{}); c=cbyslug.get(slug,{})
     producers.append(dict(legal=c.get('name'),slug=slug,name=p.get('name') or c.get('name'),summary=p.get('summary_de'),facts=p.get('facts'),sources=p.get('sources'),brands=p.get('brands_supplied') or [],website=c.get('website') or (p.get('facts') or {}).get('website'),logo=lp(c) if c else None,plants=c.get('plant_addresses') or [],group=c.get('group'),retail=c.get('retail_brands') or [],ids=[r['id'] for r in R if r['prodSlug']==slug]))
 companyLogos={c['slug']:lp(c) for c in COMP if lp(c)}
-out=dict(producers=producers,companyLogos=companyLogos,qaStats=qa,catIcon=CATICON,catProt=[n for n,_,_ in PROT]+['vegan','vegetarisch'],catDish=[n for n,_,_ in DISH]+['Beilage/Gemüse'],topPLI=[r['id'] for r in topPLI],rows=R,sides=sides,topHealth=[idx[id(r)] for r in top_h],topPE=[idx[id(r)] for r in top_pe],stats=S,
+out=dict(producers=producers,companyLogos=companyLogos,qaStats=qa,catIcon=CATICON,catProt=[n for n,_,_ in PROT]+['vegan','vegetarisch'],catDish=[n for n,_,_ in DISH]+['Beilage/Gemüse'],topPLI=[r['id'] for r in topPLI],topLight=[r['id'] for r in topLight],rows=R,sides=sides,topHealth=[idx[id(r)] for r in top_h],topPE=[idx[id(r)] for r in top_pe],stats=S,
   same=[dict(code=v[0]['pid'],herst=v[0]['herst'],ort=v[0]['ort'],ooe=v[0]['ooe'],ids=[idx[id(r)] for r in v]) for k,v in same],
   ftg=[dict(name=n,n=len(L),price=md(L,'price'),prot=md(L,'protpack'),kcal=md(L,'kcalpack'),ppe=md(L,'ppe'),p100k=md(L,'p100k')) for n,L in cmp],
   combos=combos,generated='2026-10-12')
