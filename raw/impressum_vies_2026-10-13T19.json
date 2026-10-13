@@ -1,0 +1,525 @@
+{
+ "generated_at": "2026-10-13T18:56:00Z",
+ "run": "2026-10-13T19 Daten-Squad (Impressum + live VIES pass for the 27 companies without LEI/UID)",
+ "method": "food-connectors impressum adapter (robots.txt respected) + live EU VIES; directory UID accepted only on exact VIES name; brand→operator accepted only when own brand site names the legal entity; DE ids require full legal name next to USt-IdNr on own imprint",
+ "notes": [
+  "Recheis: re-queried with exact VIES legal name so name_match passes (T17 tip)",
+  "Alimentastic FN already present; printed UID ATU70319525 is VIES-INVALID",
+  "ANDROS/Bonne Maman FR VIES initially rate-limited (MS_MAX_CONCURRENT_REQ), succeeded on retry",
+  "Danone Österreich GmbH already had GLEIF LEI — this run also fills its UID and maps orphan 'Danone GmbH' AT Dany rows to the same entity",
+  "Still open after this pass: Mochi Production, Kasnudl/Stadtküche, Gü (UK), Bauck GmbH (no public UID), Planted Foods AG (CH), Delikatessa (dissolved), Franuí, Gastrotech, Hildegard-Grünkraft, Knödelwerkstatt, Verband MPREIS/Jeden Tag, Unimarkt (legal-form mismatch), Peter Hiel sole trader"
+ ],
+ "results": [
+  {
+   "company": "Recheis Teigwaren GmbH",
+   "domain": "www.recheis.com",
+   "imprint_url": "https://www.recheis.com/impressum",
+   "uids": [
+    {
+     "uid": "ATU31064200",
+     "valid": true,
+     "vies_name": "Josef Recheis Eierteigwarenfabrik und Walzmühle Gesellschaft m.b.H.",
+     "vies_address": "Fassergasse 8/-10\nAT-6060 Hall in Tirol",
+     "checked_at": "2026-10-13T18:50:47.065Z",
+     "name_match": 1.0
+    }
+   ],
+   "fn": [],
+   "hrb": [],
+   "court": null,
+   "best": {
+    "uid": "ATU31064200",
+    "valid": true,
+    "vies_name": "Josef Recheis Eierteigwarenfabrik und Walzmühle Gesellschaft m.b.H.",
+    "vies_address": "Fassergasse 8/-10\nAT-6060 Hall in Tirol",
+    "checked_at": "2026-10-13T18:50:47.065Z",
+    "name_match": 1.0
+   },
+   "legal_name_imprint": "Josef Recheis Eierteigwarenfabrik und Walzmühle Gesellschaft m.b.H.",
+   "uid_source": "imprint",
+   "decision": "own impressum prints ATU31064200; VIES exact as 'Josef Recheis Eierteigwarenfabrik und Walzmühle Gesellschaft m.b.H.', Fassergasse 8-10, Hall in Tirol — record name 'Recheis Teigwaren GmbH' is the brand/short form of the same legal entity (re-queried with exact VIES name so name_match=1.0)",
+   "accepted": true,
+   "source": "public legal notice + EU VIES"
+  },
+  {
+   "company": "Rewe Austria Fleischwaren GmbH",
+   "domain": "rewe-group.jobs",
+   "imprint_url": "https://www.firmenabc.at/rewe-austria-fleischwaren-gmbh_OrLq",
+   "uids": [
+    {
+     "uid": "ATU36273108",
+     "valid": true,
+     "vies_name": "Rewe Austria Fleischwaren GmbH",
+     "vies_address": "IZ NÖ-Süd, Str 3 Obj 16\nAT-2355 Wiener Neudorf",
+     "checked_at": "2026-10-13T18:52:26.837Z",
+     "name_match": 1.0
+    }
+   ],
+   "fn": [
+    "FN 65329y"
+   ],
+   "hrb": [],
+   "court": null,
+   "best": {
+    "uid": "ATU36273108",
+    "valid": true,
+    "vies_name": "Rewe Austria Fleischwaren GmbH",
+    "vies_address": "IZ NÖ-Süd, Str 3 Obj 16\nAT-2355 Wiener Neudorf",
+    "checked_at": "2026-10-13T18:52:26.837Z",
+    "name_match": 1.0
+   },
+   "legal_name_imprint": "Rewe Austria Fleischwaren GmbH",
+   "uid_source": "registry_lookup+vies",
+   "decision": "no UID on rewe-group.jobs plant page (bot/HR content only, not bypassed); directory UID ATU36273108 + FN 65329y VIES-valid with exact legal name and IZ NÖ-Süd address Wiener Neudorf",
+   "accepted": true,
+   "source": "public legal notice + EU VIES"
+  },
+  {
+   "company": "Rewe Austria Genussküche GmbH",
+   "domain": "rewe-group.jobs",
+   "imprint_url": "https://www.firmenabc.at/rewe-austria-genusskueche-gmbh_KNYO",
+   "uids": [
+    {
+     "uid": "ATU51289001",
+     "valid": true,
+     "vies_name": "Rewe Austria Genussküche GmbH",
+     "vies_address": "IZ NÖ-Süd Straße 3 Obj./3/16\nAT-2355 Wiener Neudorf",
+     "checked_at": "2026-10-13T18:53:56.268Z",
+     "name_match": 1.0
+    }
+   ],
+   "fn": [
+    "FN 204764z"
+   ],
+   "hrb": [],
+   "court": null,
+   "best": {
+    "uid": "ATU51289001",
+    "valid": true,
+    "vies_name": "Rewe Austria Genussküche GmbH",
+    "vies_address": "IZ NÖ-Süd Straße 3 Obj./3/16\nAT-2355 Wiener Neudorf",
+    "checked_at": "2026-10-13T18:53:56.268Z",
+    "name_match": 1.0
+   },
+   "legal_name_imprint": "Rewe Austria Genussküche GmbH",
+   "uid_source": "registry_lookup+vies",
+   "decision": "directory UID ATU51289001 + FN 204764z; VIES-valid with exact legal name (distinct from Fleischwaren ATU36273108)",
+   "accepted": true,
+   "source": "public legal notice + EU VIES"
+  },
+  {
+   "company": "Graninger Holding GmbH",
+   "domain": "graninger-lebensmittel.at",
+   "imprint_url": "https://graninger-lebensmittel.at/impressum",
+   "uids": [
+    {
+     "uid": "ATU76281514",
+     "valid": true,
+     "vies_name": "Graninger GmbH",
+     "vies_address": "Schneebertsch-Gasse 3\nAT-6820 Frastanz",
+     "checked_at": "2026-10-13T18:50:45.871Z",
+     "name_match": 0.5
+    }
+   ],
+   "fn": [
+    "FN 546112g"
+   ],
+   "hrb": [],
+   "court": "Landesgericht Feldkirch",
+   "best": {
+    "uid": "ATU76281514",
+    "valid": true,
+    "vies_name": "Graninger GmbH",
+    "vies_address": "Schneebertsch-Gasse 3\nAT-6820 Frastanz",
+    "checked_at": "2026-10-13T18:50:45.871Z",
+    "name_match": 0.5
+   },
+   "legal_name_imprint": "Graninger GmbH",
+   "uid_source": "imprint",
+   "decision": "own imprint: 'Graninger GmbH … FN 546112g … UID ATU76281514'; VIES exact as Graninger GmbH — record 'Holding GmbH' was a mislabel of the same entity on graninger-lebensmittel.at",
+   "accepted": true,
+   "source": "public legal notice + EU VIES"
+  },
+  {
+   "company": "Hochreiter Quality Meat Factory GmbH",
+   "domain": "www.hochreiter-gruppe.at",
+   "imprint_url": "https://www.hochreiter-gruppe.at/impressum/",
+   "uids": [
+    {
+     "uid": "ATU58071589",
+     "valid": true,
+     "vies_name": "Hochreiter Lebensmittelbetriebe GmbH",
+     "vies_address": "Mitterweg 9\nAT-4190 Bad Leonfelden",
+     "checked_at": "2026-10-13T18:50:50.628Z",
+     "name_match": 0.2
+    }
+   ],
+   "fn": [
+    "FN 182215p"
+   ],
+   "hrb": [],
+   "court": null,
+   "best": {
+    "uid": "ATU58071589",
+    "valid": true,
+    "vies_name": "Hochreiter Lebensmittelbetriebe GmbH",
+    "vies_address": "Mitterweg 9\nAT-4190 Bad Leonfelden",
+    "checked_at": "2026-10-13T18:50:50.628Z",
+    "name_match": 0.2
+   },
+   "legal_name_imprint": "Hochreiter Lebensmittelbetriebe GmbH",
+   "uid_source": "imprint",
+   "decision": "Medieninhaber on own hochreiter-gruppe.at impressum is Hochreiter Lebensmittelbetriebe GmbH (FN 182215p, ATU58071589, Mitterweg 9 Bad Leonfelden); VIES exact; 'Quality Meat Factory' is a plant/trade label for the same group (website already on record)",
+   "accepted": true,
+   "source": "public legal notice + EU VIES"
+  },
+  {
+   "company": "Landtmann´s feine Patisserie",
+   "domain": "landtmanns-original.at",
+   "imprint_url": "https://landtmanns-original.at/policies/legal-notice",
+   "uids": [
+    {
+     "uid": "ATU61901400",
+     "valid": true,
+     "vies_name": "Querfeld's Wiener Konditorei GesmbH",
+     "vies_address": "Altmannsdorfer Straße 154\nAT-1230 Wien",
+     "checked_at": "2026-10-13T18:51:49.361Z",
+     "name_match": 1.0
+    }
+   ],
+   "fn": [
+    "FN 266335w"
+   ],
+   "hrb": [],
+   "court": "Handelsgericht Wien",
+   "best": {
+    "uid": "ATU61901400",
+    "valid": true,
+    "vies_name": "Querfeld's Wiener Konditorei GesmbH",
+    "vies_address": "Altmannsdorfer Straße 154\nAT-1230 Wien",
+    "checked_at": "2026-10-13T18:51:49.361Z",
+    "name_match": 1.0
+   },
+   "legal_name_imprint": "Querfeld's Wiener Konditorei GesmbH",
+   "uid_source": "imprint",
+   "decision": "Landtmann's brand pages (landtmanns-original.at + lmo.bgang.at) print operator Querfeld's Wiener Konditorei GmbH/GesmbH, FN 266335w, UID ATU61901400; VIES exact — record was brand-only",
+   "accepted": true,
+   "source": "public legal notice + EU VIES"
+  },
+  {
+   "company": "Inzersdorfer Nahrungsmittelwerke",
+   "domain": "www.inzersdorfer.at",
+   "imprint_url": "https://www.inzersdorfer.at/impressum/",
+   "uids": [
+    {
+     "uid": "ATU61613203",
+     "valid": true,
+     "vies_name": "MARESI Austria GmbH",
+     "vies_address": "Hietzinger Hauptstraße 119 - 121\nAT-1130 Wien",
+     "checked_at": "2026-10-13T18:52:01.703Z",
+     "name_match": 1.0
+    }
+   ],
+   "fn": [
+    "FN 161846i"
+   ],
+   "hrb": [],
+   "court": "Handelsgericht Wien",
+   "best": {
+    "uid": "ATU61613203",
+    "valid": true,
+    "vies_name": "MARESI Austria GmbH",
+    "vies_address": "Hietzinger Hauptstraße 119 - 121\nAT-1130 Wien",
+    "checked_at": "2026-10-13T18:52:01.703Z",
+    "name_match": 1.0
+   },
+   "legal_name_imprint": "MARESI Austria GmbH",
+   "uid_source": "imprint",
+   "decision": "historic Inzersdorfer Nahrungsmittelwerke GmbH dissolved (FN 224819t); brand site inzersdorfer.at impressum is MARESI Austria GmbH FN 161846i ATU61613203 — current brand owner; VIES exact",
+   "accepted": true,
+   "source": "public legal notice + EU VIES"
+  },
+  {
+   "company": "Meica GmbH",
+   "domain": "www.meica.de",
+   "imprint_url": "https://www.meica.de/impressum",
+   "uids": [
+    {
+     "uid": "DE117832698",
+     "valid": true,
+     "vies_name": null,
+     "vies_address": null,
+     "checked_at": "2026-10-13T18:51:12.570Z",
+     "name_match": "on_page"
+    }
+   ],
+   "fn": [],
+   "hrb": [
+    "HRA 120020"
+   ],
+   "court": "Amtsgericht Oldenburg",
+   "best": {
+    "uid": "DE117832698",
+    "valid": true,
+    "vies_name": null,
+    "vies_address": null,
+    "checked_at": "2026-10-13T18:51:12.570Z",
+    "name_match": "on_page"
+   },
+   "legal_name_imprint": "Meica Ammerländische Fleischwarenfabrik Fritz Meinen GmbH & Co. KG",
+   "uid_source": "imprint",
+   "decision": "own impressum: full legal name Meica Ammerländische Fleischwarenfabrik Fritz Meinen GmbH & Co. KG next to USt-IdNr DE 117 832 698 + HRA 120020 Oldenburg; VIES valid (DE: no name); record 'Meica GmbH' was short/wrong legal form",
+   "accepted": true,
+   "source": "public legal notice + EU VIES"
+  },
+  {
+   "company": "Deflorian S.r.l.",
+   "domain": "deflorian.tirol",
+   "imprint_url": "https://deflorian.tirol/policies/legal-notice",
+   "uids": [
+    {
+     "uid": "ATU64259769",
+     "valid": true,
+     "vies_name": "Deflorian Tiefkühlspezialitäten GmbH",
+     "vies_address": "Hnr 35b\nAT-6069 Gnadenwald",
+     "checked_at": "2026-10-13T18:54:19.811Z",
+     "name_match": 1.0
+    }
+   ],
+   "fn": [],
+   "hrb": [],
+   "court": "Landesgericht Innsbruck",
+   "best": {
+    "uid": "ATU64259769",
+    "valid": true,
+    "vies_name": "Deflorian Tiefkühlspezialitäten GmbH",
+    "vies_address": "Hnr 35b\nAT-6069 Gnadenwald",
+    "checked_at": "2026-10-13T18:54:19.811Z",
+    "name_match": 1.0
+   },
+   "legal_name_imprint": "Deflorian Tiefkühlspezialitäten GmbH",
+   "uid_source": "imprint",
+   "decision": "AT producer site deflorian.tirol legal notice: Deflorian Tiefkühlspezialitäten GmbH ATU64259769 Gnadenwald; VIES exact — record 'S.r.l.' was wrong jurisdiction/form (deflorian.it furniture maker unrelated)",
+   "accepted": true,
+   "source": "public legal notice + EU VIES"
+  },
+  {
+   "company": "Strauss GmbH",
+   "domain": "www.straussjosef.it",
+   "imprint_url": "https://www.straussjosef.it/de/impressum",
+   "uids": [
+    {
+     "uid": "IT01438820217",
+     "valid": true,
+     "vies_name": "STRAUSS JOSEF GMBH",
+     "vies_address": "UNTERRAINERSTRASSE 62 \n39057 APPIANO SULLA STRADA DEL VINO .EPPAN AN BZ\n",
+     "checked_at": "2026-10-13T18:54:26.664Z",
+     "name_match": 1.0
+    }
+   ],
+   "fn": [],
+   "hrb": [],
+   "court": null,
+   "best": {
+    "uid": "IT01438820217",
+    "valid": true,
+    "vies_name": "STRAUSS JOSEF GMBH",
+    "vies_address": "UNTERRAINERSTRASSE 62 \n39057 APPIANO SULLA STRADA DEL VINO .EPPAN AN BZ\n",
+    "checked_at": "2026-10-13T18:54:26.664Z",
+    "name_match": 1.0
+   },
+   "legal_name_imprint": "STRAUSS JOSEF GMBH",
+   "uid_source": "imprint",
+   "decision": "Knödel/Schlutzkrapfen producer site straussjosef.it impressum: STRAUSS JOSEF GMBH IT01438820217 Eppan; VIES exact — record 'Strauss GmbH' short form; strauss.at workwear excluded",
+   "accepted": true,
+   "source": "public legal notice + EU VIES"
+  },
+  {
+   "company": "Danone GmbH",
+   "domain": "www.activia.at",
+   "imprint_url": "https://www.activia.at/impressum/",
+   "uids": [
+    {
+     "uid": "ATU34705405",
+     "valid": true,
+     "vies_name": "Danone Österreich GmbH",
+     "vies_address": "Am Tabor 42\nAT-1020 Wien",
+     "checked_at": "2026-10-13T18:55:02.627Z",
+     "name_match": 1.0
+    }
+   ],
+   "fn": [
+    "FN 61045y"
+   ],
+   "hrb": [],
+   "court": null,
+   "best": {
+    "uid": "ATU34705405",
+    "valid": true,
+    "vies_name": "Danone Österreich GmbH",
+    "vies_address": "Am Tabor 42\nAT-1020 Wien",
+    "checked_at": "2026-10-13T18:55:02.627Z",
+    "name_match": 1.0
+   },
+   "legal_name_imprint": "Danone Österreich GmbH",
+   "uid_source": "imprint",
+   "decision": "AT Billa Dany Sahne rows labeled producer 'Danone GmbH'; Danone brand impressum activia.at prints Danone Österreich GmbH FN 61045y ATU34705405 Am Tabor 42 Wien; VIES exact (sibling Danone Deutschland GmbH already separate with own LEI for Alpro DE)",
+   "accepted": true,
+   "source": "public legal notice + EU VIES"
+  },
+  {
+   "company": "BONNE MAMAN",
+   "domain": "www.bonne-maman.com",
+   "imprint_url": "https://www.bonne-maman.com/pages/mentions-legales",
+   "uids": [
+    {
+     "uid": "FR13428682447",
+     "valid": true,
+     "vies_name": "SNC ANDROS",
+     "vies_address": "ZONE INDUSTRIELLE .\nLES LANDES\n46130 BIARS SUR CERE",
+     "checked_at": "2026-10-13T18:55:45.685Z",
+     "name_match": 0.0
+    }
+   ],
+   "fn": [],
+   "hrb": [],
+   "court": null,
+   "best": {
+    "uid": "FR13428682447",
+    "valid": true,
+    "vies_name": "SNC ANDROS",
+    "vies_address": "ZONE INDUSTRIELLE .\nLES LANDES\n46130 BIARS SUR CERE",
+    "checked_at": "2026-10-13T18:55:45.685Z",
+    "name_match": 0.0
+   },
+   "legal_name_imprint": "ANDROS",
+   "uid_source": "imprint",
+   "decision": "Bonne Maman mentions légales: ANDROS SNC, RCS Cahors 428.682.447, TVA FR13428682447, Zone industrielle Biars-sur-Cère; VIES valid as SNC ANDROS same address; brand-only record → brand owner",
+   "accepted": true,
+   "source": "public legal notice + EU VIES"
+  },
+  {
+   "company": "Danone Österreich GmbH",
+   "domain": "www.activia.at",
+   "imprint_url": "https://www.activia.at/impressum/",
+   "uids": [
+    {
+     "uid": "ATU34705405",
+     "valid": true,
+     "vies_name": "Danone Österreich GmbH",
+     "vies_address": "Am Tabor 42\nAT-1020 Wien",
+     "checked_at": "2026-10-13T18:55:02.627Z",
+     "name_match": 1.0
+    }
+   ],
+   "fn": [
+    "FN 61045y"
+   ],
+   "hrb": [],
+   "court": null,
+   "best": {
+    "uid": "ATU34705405",
+    "valid": true,
+    "vies_name": "Danone Österreich GmbH",
+    "vies_address": "Am Tabor 42\nAT-1020 Wien",
+    "checked_at": "2026-10-13T18:55:02.627Z",
+    "name_match": 1.0
+   },
+   "legal_name_imprint": "Danone Österreich GmbH",
+   "uid_source": "imprint",
+   "decision": "own Activia AT impressum UID ATU34705405 + FN 61045y; VIES exact — fills UID on existing GLEIF LEI 213800KX27RXC7IQBF65",
+   "accepted": true,
+   "source": "public legal notice + EU VIES"
+  },
+  {
+   "company": "Alimentastic Food Innovation GmbH",
+   "imprint_url": "https://www.alimentastic.com/impressum",
+   "accepted": false,
+   "decision": "imprint prints UID ATU70319525 next to Alimentastic GmbH + FN 673845z (already stored) but VIES returns INVALID for ATU70319525 — UID not accepted; FN kept"
+  },
+  {
+   "company": "Bauck GmbH",
+   "imprint_url": "https://www.bauck.de/impressum/",
+   "accepted": false,
+   "decision": "bauck.de imprint is BauckOnline GmbH DE313040669 (shop operator) ≠ Bauck GmbH HRB 205474 Rosche; bauckhof.de has Bauckhof GmbH DE266835387 — producer Bauck GmbH UID not printed on a public page"
+  },
+  {
+   "company": "Planted Foods AG",
+   "imprint_url": "https://eatplanted.com/policies/legal-notice",
+   "accepted": false,
+   "decision": "Swiss CHE-398.606.506 printed; not in EU VIES; no GLEIF LEI found for Planted Foods AG (DE subsidiary Planted Foods GmbH already has UID)"
+  },
+  {
+   "company": "Gü Puds",
+   "imprint_url": "https://gudesserts.de/pages/modern-slavery-statement",
+   "accepted": false,
+   "decision": "UK Gu Indulgent Foods Limited (Companies House 07104090 / GB VAT) — no EU VIES verification path"
+  },
+  {
+   "company": "Knödelwerkstatt G.m.b.H",
+   "imprint_url": "https://www.knoedelwerkstatt.at/impressum/",
+   "accepted": false,
+   "decision": "imprint not machine-readable this run (no register/VAT ids found); prior directory ATU56237548 was VIES-INVALID"
+  },
+  {
+   "company": "Mochi Production GmbH",
+   "imprint_url": "https://www.mochi.at/impressum/",
+   "accepted": false,
+   "decision": "unchanged: only restaurant operator Mochi GmbH on imprint/VIES, not Production GmbH"
+  },
+  {
+   "company": "Kasnudl GmbH",
+   "imprint_url": "https://www.kasnudl.com/impressum/",
+   "accepted": false,
+   "decision": "unchanged: imprint UID belongs to Knödelhütte GmbH"
+  },
+  {
+   "company": "Stadtküche",
+   "imprint_url": null,
+   "accepted": false,
+   "decision": "brand-only; products also under Kasnudl GmbH — no separate legal imprint"
+  },
+  {
+   "company": "Delikatessa GmbH",
+   "imprint_url": "https://www.penny.at/sortiment/meine-marken/delikatessa",
+   "accepted": false,
+   "decision": "unchanged: dissolved entity; CLEVER moved to BILLA AG"
+  },
+  {
+   "company": "Franuí Espana SL.",
+   "imprint_url": "https://www.franui.store/he/politica-de-privacidad",
+   "accepted": false,
+   "decision": "unchanged: ES VIES no name and no official page with NIF + full legal name"
+  },
+  {
+   "company": "Gastrotech",
+   "imprint_url": "https://rejstrik-firem.kurzy.cz/06661645/gastrotech-sro/",
+   "accepted": false,
+   "decision": "unchanged: no confirmed link from Sushitime label to CZ GASTROTECH s.r.o."
+  },
+  {
+   "company": "Hildegard-Grünkraft Naturprodukte",
+   "imprint_url": "http://www.xn--hildegard-grnkraft-x6b.at/impressum.html",
+   "accepted": false,
+   "decision": "unchanged: imprint not fetchable; directory UID maps to St. Hildegard-Posch GmbH without on-page confirmation"
+  },
+  {
+   "company": "Verband der MPREIS-Partner / Jeden Tag",
+   "imprint_url": null,
+   "accepted": false,
+   "decision": "partner association / private label construct — no single VIES-verifiable imprint"
+  },
+  {
+   "company": "Unimarkt GmbH",
+   "imprint_url": "https://unigruppe.at/impressum",
+   "accepted": false,
+   "decision": "unchanged: real entity UNIMARKT Handelsgesellschaft m.b.H. & Co. KG — legal form differs from script name"
+  },
+  {
+   "company": "Vegetarische Feinkost Produktion Peter Hiel",
+   "imprint_url": "https://www.hiel.at/impressum",
+   "accepted": false,
+   "decision": "unchanged: Hiel & Co GmbH ≠ sole-trader label name/address"
+  }
+ ]
+}

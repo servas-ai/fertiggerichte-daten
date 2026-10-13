@@ -1,0 +1,37 @@
+{
+ "generated": "2026-10-13T18:56:30Z",
+ "source": "GLEIF API v1 lei-records/{LEI} (api.gleif.org, public, no key); accepted after review against brand legal notice",
+ "accepted": [
+  {
+   "company": "BONNE MAMAN",
+   "lei": "9695006ARZU1PBC9M649",
+   "legal_name": "ANDROS",
+   "address": "ZONE INDUSTRIELLE, 46130 BIARS-SUR-CERE, FR",
+   "country": "FR",
+   "register_id": "428682447",
+   "register_ra": "RA000189",
+   "legal_form": "H1U2",
+   "status": "ACTIVE",
+   "registration_status": "ISSUED",
+   "parent_direct": "ANDROS ET CIE",
+   "parent_ultimate": "ANDROS ET CIE",
+   "parent_ultimate_lei": "969500UZO6890KVVXC24",
+   "match_basis": "Bonne Maman mentions légales name ANDROS SNC + RCS 428.682.447 + Biars-sur-Cère = GLEIF legal name ANDROS / registeredAs 428682447 / address ZONE INDUSTRIELLE BIARS-SUR-CERE; brand Bonne Maman is ANDROS's commercial name",
+   "source": "https://api.gleif.org/api/v1/lei-records/9695006ARZU1PBC9M649"
+  }
+ ],
+ "rejected": [
+  {
+   "company": "Planted Foods AG",
+   "reason": "no GLEIF LEI record for Planted Foods AG (Swiss CHE-398.606.506); DE Planted Foods GmbH already verified separately"
+  },
+  {
+   "company": "Bauck GmbH",
+   "reason": "no GLEIF LEI for Bauck GmbH Rosche; imprint UIDs belong to BauckOnline / Bauckhof entities"
+  },
+  {
+   "company": "Gü Puds",
+   "reason": "UK Gu Indulgent Foods Limited — no GLEIF LEI sought; outside EU VIES path"
+  }
+ ]
+}
