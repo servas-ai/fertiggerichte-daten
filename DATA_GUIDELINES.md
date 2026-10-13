@@ -17,4 +17,7 @@
 - `raw/` keeps the unfiltered connector output a supplemental table was derived from (e.g. `raw/mpreis_shop_crawl_2026-10-13.json`).
 - Stale dump rows are replaced once a live source exists: on 2026-10-13 the 149 MPreis rows from the 2023/2024
   heisse-preise dump were replaced by 101 live-verified MPreis webshop rows (only 52 of the old rows still exist in the shop sitemap).
+- Unimarkt rows (29, heisse-preise 2023/24) are **historic only**: shop.unimarkt.at shows only the closure splash
+  "UNIONLINE hat seinen Service eingestellt" (verified 2026-10-13, evidence `raw/unimarkt_shop_probe_2026-10-13.json`) and
+  Unimarkt left retail in Feb/Mar 2026. Their `price_source` says so; they must never be shown as current prices.
 - Export applies a nutrition plausibility gate (macros ≤ 100 g/100 g, salt ≤ 30 g, kcal ≤ 900); failing rows are dropped, not corrected.

@@ -1,0 +1,77 @@
+{
+ "probed_at": "2026-10-13T03:13Z",
+ "source": "https://shop.unimarkt.at",
+ "result": "closed",
+ "robots_txt": "Allow /, Allow /inc/ajaxGateway.cfm; Disallow /inc, /templates/, /upload/content/documents/",
+ "requests": [
+  {
+   "url": "https://shop.unimarkt.at/",
+   "status": 200,
+   "content": "closure splash: /upload/content/schliessung/info.png = 'UNIONLINE hat seinen Service eingestellt – Vielen Dank für Ihre Treue'; no product cards"
+  },
+  {
+   "url": "https://shop.unimarkt.at/fertiggerichte",
+   "status": 302,
+   "location": "/"
+  },
+  {
+   "url": "https://shop.unimarkt.at/suppen",
+   "status": 302,
+   "location": "/"
+  },
+  {
+   "url": "https://shop.unimarkt.at/snacks-fertiggerichte",
+   "status": 302,
+   "location": "/"
+  },
+  {
+   "url": "https://shop.unimarkt.at/gulaschsuppe",
+   "status": 302,
+   "location": "/"
+  },
+  {
+   "url": "https://shop.unimarkt.at/tiefkuehl",
+   "status": 404
+  },
+  {
+   "url": "https://shop.unimarkt.at/onlineshop",
+   "status": 200,
+   "content": "static legacy info page, no products"
+  },
+  {
+   "url": "https://shop.unimarkt.at/suche/?q=gulasch",
+   "status": 403,
+   "note": "stopped, not retried"
+  },
+  {
+   "url": "https://shop.unimarkt.at/js/core.js?v=307",
+   "status": 200,
+   "content": "ajaxGateway.cfm actions are cart/merkliste/newsletter only (addArticlesToCart, getWklistHtml, showAddToMerkliste, ...); no product list/search action"
+  },
+  {
+   "url": "https://shop.unimarkt.at/google.cfm",
+   "status": 200,
+   "content": "1312 legacy slugs (categories + recipes), all redirect to the splash"
+  }
+ ],
+ "context": [
+  {
+   "url": "https://www.cash.at/handel/news/unigruppe-unimarkt-stellt-onlineshop-ein-30219",
+   "date": "2024-02-23",
+   "fact": "Unimarkt stellt Onlineshop ein"
+  },
+  {
+   "url": "https://ooe.orf.at/stories/3345745/",
+   "date": "2026-03-14",
+   "fact": "Unimarkt-Pleite: ~90 Filialen vor Schließung; REWE (ADEG) übernahm 21, Spar 23, Nah&Frisch 2"
+  },
+  {
+   "url": "https://www.kastner.at/news/ehemaliger-unimarkt-in-loosdorf-wird-zu-kastner-nah-frisch",
+   "date": "2026-03-11",
+   "fact": "Rückzug von Unimarkt aus dem stationären Handel"
+  }
+ ],
+ "products": [],
+ "prices": [],
+ "images": []
+}
