@@ -192,15 +192,15 @@ a8383f581915,Spar,3.99,3.99,live 2026,2026-10-12,heisse-preise.io latest-canonic
 85dbaec95130,Spar,4.99,13.31,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 cbce9b7a652f,Spar,4.99,13.31,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 6fe4fce618bd,Spar,5.49,17.16,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-451ab8799909,Spar,2.99,8.08,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-615e6ffb130a,Spar,3.69,8.2,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+9ab4d0842229,Spar,2.99,8.08,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+8f14a9ea059f,Spar,3.69,8.2,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 24ec983cc21f,Spar,1.99,5.38,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 2cca5ccdfe16,Spar,3.29,8.22,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-a67cd8ec50d3,Spar,4.49,11.23,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+34223efbd552,Spar,4.49,11.23,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 cf6012b39f17,Spar,2.79,9.3,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-1dc4dc042892,Spar,3.99,9.98,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-7d25031f088a,Spar,2.99,8.79,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-224757eaa82c,Spar,4.49,11.23,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+bd42516b4a75,Spar,3.99,9.98,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+04764bc1e3ca,Spar,2.99,8.79,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+1fd46f22b933,Spar,4.49,11.23,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 e41be657c7d9,Spar,3.69,11.18,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 29657bd30073,Spar,3.29,8.22,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 bda7497b6007,Spar,3.29,8.22,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
@@ -214,55 +214,53 @@ ec94470f2215,Spar,3.29,8.22,live 2026,2026-10-12,heisse-preise.io latest-canonic
 eb5c7533418f,Spar,0.99,,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 b90e693ccfbb,Spar,2.99,7.48,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 f78247c17ebd,Spar,1.29,3.23,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-2aa40db6b8f6,Spar,2.85,5.7,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-535eaaa22b40,Spar,3.49,87.25,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-b50e93506f64,Spar,1.35,5.4,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-7f14e4d4d3a3,Spar,1.35,5.4,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-13d09f9b0258,Spar,2.69,7.37,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-9f5d63edd589,Spar,2.29,19.08,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-8c78be074e89,Spar,3.29,8.89,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-c4ead302e50d,Spar,3.49,8.72,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-e12c20f7f54a,Spar,2.69,7.27,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-6b05e3136334,Spar,3.59,14.36,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+97255d8c422c,Spar,2.85,5.7,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+5bf503362590,Spar,3.49,87.25,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+5b7502fa5c65,Spar,1.35,5.4,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+300f54fb7ec6,Spar,1.35,5.4,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+f999ef09b0d5,Spar,2.69,7.37,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+96359d4d1da1,Spar,2.29,19.08,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+6bb25e641eb3,Spar,3.29,8.89,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+c9ea3d09c17e,Spar,3.49,8.72,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+d69a534facd1,Spar,2.69,7.27,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+f984d152f74d,Spar,3.59,14.36,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 9927e9b4dc2e,Spar,7.2,23.99,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 2a7bd95a743d,Spar,23.99,23.99,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-c68a29dedb9e,Spar,2.29,16.36,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+339cfa863366,Spar,2.29,16.36,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 d2a0b0ff3d87,Spar,3.79,14.58,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-e491c4f63bef,Spar,2.49,9.96,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-2b6ed39794c4,Spar,2.46,8.2,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-5bb85bab20db,Spar,2.49,12.45,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-32cb56eacb18,Spar,3.49,8.72,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-851a1bcee683,Spar,0.99,,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-02321345bff2,Spar,0.99,,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-6d6e1eaec899,Spar,0.99,,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-fbeaf215ca67,Spar,0.99,,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-e8446152acbb,Spar,0.99,,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-da7bff0d663f,Spar,0.99,,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-2f0bbfdad5f1,Spar,0.99,,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-149c9e0bc511,Spar,3.49,,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+63c73b4a3cc3,Spar,2.49,9.96,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+9719ee66b755,Spar,2.49,12.45,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+e2cdfb744305,Spar,3.49,8.72,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+0438c157fbd4,Spar,0.99,,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+a1bd56a9bf22,Spar,0.99,,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+91a16be8e726,Spar,0.99,,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+615aed090c8a,Spar,0.99,,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+790b93894d01,Spar,0.99,,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+6dd23b421695,Spar,0.99,,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+da14532b5a32,Spar,0.99,,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+dcb73411b62a,Spar,3.49,,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 259727fd721c,Spar,1.42,5.68,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-d8ade931d878,Spar,3.99,9.98,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-b91de9b7f1b4,Spar,4.99,12.47,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+ec29bd59fabf,Spar,3.99,9.98,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+e291c2ea3608,Spar,4.99,12.47,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 62f258517878,Spar,3.99,9.98,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 01715fd3f6c8,Spar,3.99,9.98,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-6bf317d3c6c9,Spar,3.99,9.98,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+938f807a366e,Spar,3.99,9.98,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 ff91ebd8a470,Spar,3.49,13.96,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-d1e8bf9c4304,Spar,3.99,9.98,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-4f6b5d2f5945,Spar,4.99,12.47,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+67233c63d509,Spar,3.99,9.98,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+833307a71a84,Spar,4.99,12.47,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 863c23d24d69,Spar,3.49,13.96,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-b64f188e082b,Spar,6.99,15.53,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-d4b23c835db3,Spar,9.99,21.72,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-071e73d4da1f,Spar,2.99,14.95,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-1f23294e9666,Spar,2.99,14.95,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+1aa1ddfa21cc,Spar,6.99,15.53,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+7c0367466923,Spar,9.99,21.72,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+630a4f9a7549,Spar,2.99,14.95,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+bae7622dacb5,Spar,2.99,14.95,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 f0a77561623e,Spar,7.99,7.99,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 e9883da1defd,Spar,0.99,,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 4482fc01f825,Spar,2.39,9.56,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 101801556fcd,Spar,1.49,7.45,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 44edf8d20ee1,Spar,1.42,3.55,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 e143944fbdfc,Spar,2.99,7.48,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-b3d3e5ad1914,Spar,2.37,5.27,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-b23012acdd08,Spar,4.49,12.83,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-621bc17781ed,Spar,5.99,17.11,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+d855feb2241d,Spar,4.49,12.83,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+e612ffbbe95d,Spar,5.99,17.11,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 acbfd49cedd1,Spar,4.49,12.83,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 7d359e3e190a,Spar,2.99,14.95,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 c7e3f0915f16,Spar,4.39,10.97,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
@@ -346,14 +344,14 @@ f65e7365d83d,Spar,26.99,,live 2026,2026-10-12,heisse-preise.io latest-canonical 
 e81bcaa7e911,Spar,1.32,2.64,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 02dc3359332f,Spar,1.89,1.89,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 435dab800c67,Spar,1.49,3.73,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-f829193fd512,Spar,2.08,2.77,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+046011a6ce47,Spar,2.08,2.77,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 d7a21e2393d2,Spar,3.99,5.7,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 3d2ad08220cd,Spar,7.89,7.89,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-90eeb79bd7ed,Spar,4.99,14.26,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-18ad4e8f1b2a,Spar,3.69,4.92,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+37325b46c977,Spar,4.99,14.26,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+d4d33d916975,Spar,3.69,4.92,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 c6f81c6a83a1,Spar,1.99,4.42,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 b917c3dec9e7,Spar,7.19,8.99,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-e23466b38e32,Spar,4.89,13.97,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+6d4c92773bc7,Spar,4.89,13.97,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 7f4f2986aed8,Spar,3.29,8.22,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 35e2057e930a,Spar,0.99,3.96,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 e9d4b498440a,Spar,0.99,3.96,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
@@ -364,7 +362,6 @@ a6649e394584,Spar,3.79,4.74,live 2026,2026-10-12,heisse-preise.io latest-canonic
 4656f42a0c9c,Spar,1.51,5.03,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 023aa5f066a8,Spar,3.13,3.13,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 a4f46df9ab63,Spar,4.28,8.56,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-452446717393,Spar,4.99,12.47,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 ee7fa7cc3ba3,Spar,4.39,8.78,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 65b42a3ca199,Spar,5.19,14.83,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 b1603ff08483,Spar,4.99,12.47,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
@@ -393,11 +390,11 @@ ac349ce333ae,Spar,2.49,10.38,live 2026,2026-10-12,heisse-preise.io latest-canoni
 7e772ed0bddb,Spar,0.95,5.0,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 fe58f3705245,Spar,2.08,8.32,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 12de594ae9ae,Spar,1.9,1.9,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-a41ba9cecec1,Spar,0.95,5.0,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+a392d9aea6eb,Spar,0.95,5.0,live 2026,,heisse-preise.io latest-canonical
 0fa533c79c4a,Spar,3.7,4.93,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 bb21a34bd07c,Spar,1.13,2.26,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 e65d305a9f4d,Spar,1.23,6.15,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-dd940a47046e,Spar,2.49,7.11,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+654bf1702f8b,Spar,2.49,7.11,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 3570e1c6a22c,Spar,1.79,4.47,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 579a4dccfe11,Spar,1.89,3.78,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 bc017ab07542,Spar,2.79,12.4,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
@@ -540,109 +537,274 @@ ad8ab8096d68,Spar,1.99,4.74,Preis 2025,2023-12-19,"heisse-preise.io spar (Preiss
 00206946262d,Spar,4.99,11.6,live 2026,2026-06-08,heisse-preise.io spar (Preisstand 2026-06-08)
 65c8ead3f730,Spar,4.99,11.88,Preis 2025,2025-07-31,"heisse-preise.io spar (Preisstand 2025-07-31) – Altpreis, nicht live bestätigt"
 ae09f927a47c,Spar,4.99,11.6,live 2026,2026-07-20,heisse-preise.io spar (Preisstand 2026-07-20)
-0a1b00f7a1d5,Billa,6.99,24.96,live 2026,,billa.json (live 2026)
+3c710ebab0e7,Billa,0.65,2.55,live 2026,,shop.billa.at API
+014964791124,Billa,3.99,3.99,live 2026,,shop.billa.at API
+5d110e60e46f,Billa,3.99,7.98,live 2026,,shop.billa.at API
+3f143714e9eb,Billa,1.43,5.96,live 2026,,shop.billa.at API
+ad1fac17d468,Billa,5.99,8.56,live 2026,,shop.billa.at API
+df1413ad97c2,Billa,0.59,0.59,live 2026,,billa.json (live 2026)
+2ecc8a757447,Billa,0.59,0.59,live 2026,,billa.json (live 2026)
+898241d6679b,Billa,0.49,0.49,live 2026,,billa.json (live 2026)
+19793394c0b8,Billa,0.59,0.59,live 2026,,billa.json (live 2026)
+3048319f4f95,Billa,0.59,0.59,live 2026,,billa.json (live 2026)
+231ff118220e,Billa,0.59,0.59,live 2026,,billa.json (live 2026)
+f03af08bb10e,Billa,1.39,2.62,live 2026,,shop.billa.at API
+85015d486ccc,Billa,1.19,2.25,live 2026,,shop.billa.at API
+ec598f9dab03,Billa,2.49,7.55,live 2026,,shop.billa.at API
+f83011aa1e47,Billa,1.89,5.73,live 2026,,shop.billa.at API
+49367276ded6,Billa,1.75,4.38,live 2026,,shop.billa.at API
+44399c784155,Billa,2.49,3.11,live 2026,,shop.billa.at API
+4c1b7373dbf3,Billa,3.99,3.8,live 2026,,shop.billa.at API
+099c8d5c30c2,Billa,3.79,4.21,live 2026,,shop.billa.at API
+2958df531830,Billa,2.99,7.48,live 2026,,shop.billa.at API
+1555327e6128,Billa,2.49,7.55,live 2026,,shop.billa.at API
+24b95a2f32a6,Billa,2.6,7.88,live 2026,,shop.billa.at API
+b686efe32b1e,Billa,4.59,9.18,live 2026,,shop.billa.at API
+3cd25fa6830a,Billa,3.89,11.11,live 2026,,shop.billa.at API
+6b0615d28e2e,Billa,2.69,6.73,live 2026,,shop.billa.at API
+388bd8876e81,Billa,2.69,6.73,live 2026,,shop.billa.at API
+9f6b408e8604,Billa,2.69,6.73,live 2026,,shop.billa.at API
+1ac1e499b400,Billa,3.89,15.56,live 2026,,shop.billa.at API
+9082ef9f216f,Billa,3.89,15.56,live 2026,,shop.billa.at API
+8701d9c41d77,Billa,5.49,13.73,live 2026,,shop.billa.at API
+4f9ff400df10,Billa,7.99,15.98,live 2026,,shop.billa.at API
+53137d7bc60d,Billa,6.99,13.98,live 2026,,shop.billa.at API
+c1a3c63e10e1,Billa,3.19,7.98,live 2026,,shop.billa.at API
+3f83d534d494,Billa,3.99,9.98,live 2026,,shop.billa.at API
+8a99c8bc825a,Billa,3.99,9.98,live 2026,,shop.billa.at API
+7091f9459e03,Billa,2.69,7.47,live 2026,,shop.billa.at API
+ef60d799b347,Billa,4.89,7.52,live 2026,,shop.billa.at API
+eff983545b6e,Billa,3.89,15.56,live 2026,,shop.billa.at API
+29f58f40f2b7,Billa,5.99,35.24,live 2026,,shop.billa.at API
+9a01763c623d,Billa,5.99,28.52,live 2026,,shop.billa.at API
+8ce2165ff92a,Billa,5.99,28.52,live 2026,,shop.billa.at API
+c454fd43353b,Billa,2.99,16.61,live 2026,,shop.billa.at API
+9a83cfd73607,Billa,3.49,8.51,live 2026,,shop.billa.at API
+3548abdacd21,Billa,2.49,4.79,live 2026,,shop.billa.at API
+f8a4d8887510,Billa,3.79,11.84,live 2026,,shop.billa.at API
+b6b664977f81,Billa,1.99,7.96,live 2026,,shop.billa.at API
+3b4d18a8c0ed,Billa,4.99,11.88,live 2026,,shop.billa.at API
+288d0ecfb259,Billa,3.69,5.2,live 2026,,shop.billa.at API
+ba8b7db91099,Billa,3.69,5.2,live 2026,,shop.billa.at API
+0ccc411460bd,Billa,3.69,5.27,live 2026,,shop.billa.at API
+f1cf693bf839,Billa,1.49,5.62,live 2026,,shop.billa.at API
+0863e3c35c3d,Billa,3.99,8.87,live 2026,,shop.billa.at API
+a9fdfe09a6af,Billa,3.49,8.73,live 2026,,billa.json (live 2026)
+5ce89f2749a4,Billa,1.49,5.23,live 2026,,shop.billa.at API
+190faf0bcd8f,Billa,1.99,7.11,live 2026,,shop.billa.at API
+8d120e637992,Billa,4.99,6.65,live 2026,,shop.billa.at API
+4cf9ea153411,Billa,4.79,7.37,live 2026,,shop.billa.at API
+dd13d88cf8b3,Billa,3.99,8.87,live 2026,,shop.billa.at API
+ff60960d0ba8,Billa,3.69,8.02,live 2026,,shop.billa.at API
+35d64f2ceba6,Billa,3.69,8.02,live 2026,,shop.billa.at API
+e85a7af87499,Billa,3.89,15.56,live 2026,,shop.billa.at API
+46d31022881f,Billa,5.99,23.04,live 2026,,shop.billa.at API
+627f90c93b0b,Billa,1.99,7.96,live 2026,,shop.billa.at API
+03c5aab9993f,Billa,3.49,17.45,live 2026,,shop.billa.at API
+c546e1bb1410,Billa,2.99,14.95,live 2026,,shop.billa.at API
+2c01dfa74f05,Billa,3.59,13.81,live 2026,,shop.billa.at API
+e86cba95dc49,Billa,7.99,22.19,live 2026,,shop.billa.at API
+c1dd7e7af884,Billa,1.49,5.23,live 2026,,shop.billa.at API
+399db7c8e9dc,Billa,1.49,5.23,live 2026,,shop.billa.at API
+8d8b8675b71c,Billa,7.99,23.5,live 2026,,shop.billa.at API
+bc236dd9361b,Billa,3.19,7.98,live 2026,,shop.billa.at API
+5441085de792,Billa,2.79,7.75,live 2026,,shop.billa.at API
+1b91f60fff21,Billa,2.79,7.75,live 2026,,shop.billa.at API
+c0feabb0ec52,Billa,4.99,11.88,live 2026,,shop.billa.at API
+a9a4effa4aa7,Billa,4.99,11.88,live 2026,,shop.billa.at API
+48c9cc15cfb0,Billa,7.99,19.02,live 2026,,shop.billa.at API
+b079a3311b9e,Billa,6.99,18.89,live 2026,,shop.billa.at API
+47f6efdbe2f7,Billa,7.99,19.02,live 2026,,shop.billa.at API
+25d1f145976e,Billa,6.99,19.42,live 2026,,shop.billa.at API
+2a6d0169412c,Billa,3.79,12.63,live 2026,,shop.billa.at API
+941f533e3cbc,Billa,5.29,16.03,live 2026,,shop.billa.at API
+0138747b8a87,Billa,3.99,11.4,live 2026,,shop.billa.at API
+6ff6e8998ceb,Billa,4.69,14.21,live 2026,,shop.billa.at API
+907e7e1d8d19,Billa,2.69,7.47,live 2026,,shop.billa.at API
+ff252d648d0a,Billa,3.13,6.96,live 2026,,shop.billa.at API
+e621a16c6946,Billa,5.29,16.03,live 2026,,shop.billa.at API
+942b97de5566,Billa,3.99,11.4,live 2026,,shop.billa.at API
+e4589b49b22b,Billa,5.29,16.03,live 2026,,shop.billa.at API
+496e5c496912,Billa,4.99,15.12,live 2026,,shop.billa.at API
+eda746e79c3b,Billa,3.99,11.4,live 2026,,shop.billa.at API
+ffe4a8236e55,Billa,4.99,14.26,live 2026,,shop.billa.at API
+2fb60a8142b4,Billa,3.69,11.18,live 2026,,shop.billa.at API
+2fb9aa215d87,Billa,2.39,7.97,live 2026,,shop.billa.at API
+df9d63881cd8,Billa,3.99,15.96,live 2026,,shop.billa.at API
+33cb27025c2b,Billa,4.49,17.96,live 2026,,shop.billa.at API
+7b854a2f5306,Billa,3.29,13.16,live 2026,,shop.billa.at API
+ce709106e526,Billa,3.69,12.3,live 2026,,shop.billa.at API
+d7e50786702d,Billa,3.79,11.49,live 2026,,shop.billa.at API
+45d18b6359e1,Billa,3.69,8.2,live 2026,,shop.billa.at API
+76193cb89a03,Billa,4.99,14.26,live 2026,,shop.billa.at API
+63778476e7a6,Billa,3.99,9.98,live 2026,,shop.billa.at API
+64498159936e,Billa,4.49,9.76,live 2026,,shop.billa.at API
+6a98fd556d51,Billa,3.99,8.87,live 2026,,shop.billa.at API
+bb6c2d031f80,Billa,3.99,9.73,live 2026,,shop.billa.at API
+2a3ddce4dae3,Billa,4.49,12.83,live 2026,,shop.billa.at API
+f173b34e6301,Billa,4.49,13.4,live 2026,,shop.billa.at API
+a3d163f21882,Billa,4.49,13.61,live 2026,,billa.json (live 2026)
+73fae2a3ee8c,Billa,3.99,9.98,live 2026,,shop.billa.at API
+b0379408c31a,Billa,3.99,9.98,live 2026,,shop.billa.at API
+c548790ec05f,Billa,3.49,10.58,live 2026,,shop.billa.at API
+02e86006f861,Billa,4.99,12.48,live 2026,,frozen_quick.json (live 2026)
+d753fbb790a8,Billa,3.39,10.59,live 2026,,shop.billa.at API
+c00ea7630122,Billa,3.99,9.98,live 2026,,shop.billa.at API
+a2a56d8aa6f5,Billa,3.99,9.98,live 2026,,shop.billa.at API
+980715771b33,Billa,1.09,4.54,live 2026,,shop.billa.at API
+b00c3b0aceda,Billa,1.39,5.79,live 2026,,shop.billa.at API
+537e372e2dcc,Billa,3.19,19.94,live 2026,,shop.billa.at API
+310989d2980d,Billa,2.39,5.98,live 2026,,shop.billa.at API
+b30f31e552b7,Billa,2.39,5.98,live 2026,,shop.billa.at API
+03b1b3f10786,Billa,3.19,15.95,live 2026,,shop.billa.at API
+41e5d9d82e48,Billa,3.19,15.95,live 2026,,shop.billa.at API
+caf42e93fa34,Billa,3.49,17.45,live 2026,,shop.billa.at API
+e63bdbb7fd68,Billa,3.99,9.98,live 2026,,shop.billa.at API
+10c2b1024588,Billa,3.99,9.98,live 2026,,shop.billa.at API
+1eb06ea14431,Billa,3.99,9.98,live 2026,,billa.json (live 2026)
+0047663895d8,Billa,3.99,9.98,live 2026,,billa.json (live 2026)
+5fdd298cace1,Billa,3.99,15.35,live 2026,,shop.billa.at API
+f420ed049ec5,Billa,3.49,18.37,live 2026,,shop.billa.at API
+5784c02ec27e,Billa,3.69,18.45,live 2026,,shop.billa.at API
+fc41f75eb8b1,Billa,3.49,18.37,live 2026,,shop.billa.at API
+b0590f1a840c,Billa,2.85,6.33,live 2026,,shop.billa.at API
+f0ccf67a0d4a,Billa,5.49,18.3,live 2026,,shop.billa.at API
+0a1b00f7a1d5,Billa,6.99,24.96,live 2026,,shop.billa.at API
+39ece0275ccb,Billa,36.99,36.99,live 2026,,shop.billa.at API
+a4d61a360c5d,Billa,7.99,22.83,live 2026,,shop.billa.at API
+891c95826944,Billa,12.99,32.48,live 2026,,shop.billa.at API
+abd6210e41de,Billa,2.99,16.61,live 2026,,shop.billa.at API
+16b6dff1a4aa,Billa,2.99,18.69,live 2026,,shop.billa.at API
+b11a7abba992,Billa,2.49,17.79,live 2026,,shop.billa.at API
+ab31bf1b31e4,Billa,2.99,21.36,live 2026,,shop.billa.at API
+e9437111ed45,Hofer,1.99,5.69,Preis 2025,,"heisse-preise.io latest-canonical (Altpreis, evtl. ausgelistet)"
+9ffeac689c73,Hofer,1.99,5.69,Preis 2025,,"heisse-preise.io latest-canonical (Altpreis, evtl. ausgelistet)"
+ed18fd05c11e,Hofer,1.99,1.99,Preis 2025,,"heisse-preise.io latest-canonical (Altpreis, evtl. ausgelistet)"
+4cd7618de9ca,Hofer,2.79,6.49,Preis 2025,,"heisse-preise.io latest-canonical (Altpreis, evtl. ausgelistet)"
+04eae53c968d,Hofer,1.99,1.99,Preis 2025,,"heisse-preise.io latest-canonical (Altpreis, evtl. ausgelistet)"
+25f937e2e122,Hofer,0.99,1.98,Preis 2025,,"heisse-preise.io latest-canonical (Altpreis, evtl. ausgelistet)"
+b9f2c8903ea7,Hofer,2.99,7.48,Preis 2025,,"heisse-preise.io latest-canonical (Altpreis, evtl. ausgelistet)"
+9766c502f32e,Hofer,2.99,7.48,Preis 2025,,"heisse-preise.io latest-canonical (Altpreis, evtl. ausgelistet)"
+cf86c1b0d6c8,Hofer,1.68,3.36,Preis 2025,,"heisse-preise.io latest-canonical (Altpreis, evtl. ausgelistet)"
+84520ad0d1cd,Hofer,1.68,3.36,Preis 2025,,"heisse-preise.io latest-canonical (Altpreis, evtl. ausgelistet)"
+2929a5c29dfc,Hofer,2.29,3.82,Preis 2025,,"heisse-preise.io latest-canonical (Altpreis, evtl. ausgelistet)"
+8d244f322685,Hofer,3.99,7.46,Preis 2025,,"heisse-preise.io latest-canonical (Altpreis, evtl. ausgelistet)"
+321292e01a08,Hofer,2.79,6.49,Preis 2025,,"heisse-preise.io latest-canonical (Altpreis, evtl. ausgelistet)"
+0c77a158bcf1,Hofer,2.79,6.49,Preis 2025,,"heisse-preise.io latest-canonical (Altpreis, evtl. ausgelistet)"
+0b0fc17639da,Hofer,1.99,5.69,Preis 2025,,"heisse-preise.io latest-canonical (Altpreis, evtl. ausgelistet)"
+ed9f33d8369b,Hofer,2.49,4.98,Preis 2025,,"heisse-preise.io latest-canonical (Altpreis, evtl. ausgelistet)"
+3954ff313279,Hofer,2.75,6.4,Preis 2025,,"heisse-preise.io latest-canonical (Altpreis, evtl. ausgelistet)"
+f53099d365cc,Hofer,1.99,3.98,Preis 2025,,"heisse-preise.io latest-canonical (Altpreis, evtl. ausgelistet)"
+4d588cec1a8d,Hofer,2.75,7.24,Preis 2025,,"heisse-preise.io latest-canonical (Altpreis, evtl. ausgelistet)"
+33a99b3b0496,Hofer,2.99,7.48,Preis 2025,,"heisse-preise.io latest-canonical (Altpreis, evtl. ausgelistet)"
+cc1c16af202d,Hofer,2.49,4.98,Preis 2025,,"heisse-preise.io latest-canonical (Altpreis, evtl. ausgelistet)"
+a6ab59f36f90,Hofer,2.49,14.65,Preis 2025,,"heisse-preise.io latest-canonical (Altpreis, evtl. ausgelistet)"
+3250a5b249a6,Hofer,2.49,14.65,Preis 2025,,"heisse-preise.io latest-canonical (Altpreis, evtl. ausgelistet)"
+ce17c7f0f593,Hofer,2.49,14.65,Preis 2025,,"heisse-preise.io latest-canonical (Altpreis, evtl. ausgelistet)"
+38489184cb87,Hofer,2.49,14.65,Preis 2025,,"heisse-preise.io latest-canonical (Altpreis, evtl. ausgelistet)"
+dd3e66bd5169,Hofer,0.59,6.63,Preis 2025,,"heisse-preise.io latest-canonical (Altpreis, evtl. ausgelistet)"
+09ee7311d6da,Hofer,0.79,,Preis 2025,,"heisse-preise.io latest-canonical (Altpreis, evtl. ausgelistet)"
+ac1e45b289a8,Hofer,0.79,12.54,Preis 2025,,"heisse-preise.io latest-canonical (Altpreis, evtl. ausgelistet)"
+bb8a415c5dc2,Hofer,0.79,13.86,Preis 2025,,"heisse-preise.io latest-canonical (Altpreis, evtl. ausgelistet)"
+c42e1bf935db,Hofer,0.85,18.89,Preis 2025,,"heisse-preise.io latest-canonical (Altpreis, evtl. ausgelistet)"
+bb0b3fd5bc12,Hofer,0.49,,Preis 2025,,"heisse-preise.io latest-canonical (Altpreis, evtl. ausgelistet)"
+e641c57c9f71,Hofer,1.77,3.54,Preis 2025,,"heisse-preise.io latest-canonical (Altpreis, evtl. ausgelistet)"
+59b0ef8c2f28,Hofer,0.59,7.28,Preis 2025,,"heisse-preise.io latest-canonical (Altpreis, evtl. ausgelistet)"
+6efc7adc2f92,Hofer,1.99,4.98,Preis 2025,,"heisse-preise.io latest-canonical (Altpreis, evtl. ausgelistet)"
+fa8ca4dd70e9,Hofer,1.35,3.38,Preis 2025,,"heisse-preise.io latest-canonical (Altpreis, evtl. ausgelistet)"
+588923a5a0a4,Hofer,6.99,13.98,Preis 2025,,"heisse-preise.io latest-canonical (Altpreis, evtl. ausgelistet)"
+57d4061956f2,Hofer,1.35,3.38,Preis 2025,,"heisse-preise.io latest-canonical (Altpreis, evtl. ausgelistet)"
+a5517869825e,Hofer,1.99,4.98,Preis 2025,,"heisse-preise.io latest-canonical (Altpreis, evtl. ausgelistet)"
+a06681762ecf,Hofer,1.35,3.38,Preis 2025,,"heisse-preise.io latest-canonical (Altpreis, evtl. ausgelistet)"
+8c3318b5fe12,Hofer,27.99,,Preis 2025,,"heisse-preise.io latest-canonical (Altpreis, evtl. ausgelistet)"
+6b5c174cef24,Hofer,9.99,,Preis 2025,,"heisse-preise.io latest-canonical (Altpreis, evtl. ausgelistet)"
+6466c4290201,Hofer,2.25,11.25,Preis 2025,,"heisse-preise.io latest-canonical (Altpreis, evtl. ausgelistet)"
+67b2cd62e7e2,Hofer,2.98,4.97,Preis 2025,,"heisse-preise.io latest-canonical (Altpreis, evtl. ausgelistet)"
+ebd0656d4ac6,Spar,2.99,5.98,live 2026,,heisse-preise.io latest-canonical
+b001ff01aa31,Spar,1.99,3.98,live 2026,,heisse-preise.io latest-canonical
+159df27b4482,Spar,2.19,2.92,live 2026,,heisse-preise.io latest-canonical
+91b59d7a6f84,Spar,1.48,1.97,Preis 2025,,heisse-preise.io latest-canonical
+8a619bf322a7,Spar,2.19,2.92,live 2026,,heisse-preise.io latest-canonical
+1874c97011b0,Spar,2.99,4.98,live 2026,,heisse-preise.io latest-canonical
+1f2aa178eb43,Spar,1.35,,live 2026,,heisse-preise.io latest-canonical
+0368ffd20c2e,Spar,1.35,,live 2026,,heisse-preise.io latest-canonical
+26a676865192,Spar,6.49,9.27,Preis 2025,,heisse-preise.io latest-canonical
+8b21013c42a7,Spar,5.99,8.56,live 2026,,heisse-preise.io latest-canonical
+e44114c64f72,Spar,1.65,,live 2026,,heisse-preise.io latest-canonical
+6df06386a7d6,Spar,2.39,9.56,live 2026,,heisse-preise.io latest-canonical
+b2b6c489192b,Spar,1.99,7.96,live 2026,,heisse-preise.io latest-canonical
+c87ccd17f80e,Spar,1.99,,Preis 2025,,heisse-preise.io latest-canonical
+35c37494b61a,Spar,1.99,,live 2026,,heisse-preise.io latest-canonical
+a07dfd046089,Spar,1.1,,Preis 2025,,heisse-preise.io latest-canonical
+4dda33b2d4e8,Spar,8.99,13.83,live 2026,,heisse-preise.io latest-canonical
+de56729e5912,Spar,7.99,19.98,Preis 2025,,heisse-preise.io latest-canonical
+e239aa4aeb49,Spar,9.99,9.99,live 2026,,heisse-preise.io latest-canonical
+5b10fbf1379c,Spar,6.79,13.58,live 2026,,heisse-preise.io latest-canonical
+e66695ea5916,Spar,2.99,5.98,live 2026,,heisse-preise.io latest-canonical
+b9ab9f00e1a5,Spar,6.79,13.58,live 2026,,heisse-preise.io latest-canonical
+384ea8281804,Spar,3.99,15.96,live 2026,,heisse-preise.io latest-canonical
+fc9a5ecfcfe6,Spar,3.69,8.2,Preis 2025,,heisse-preise.io latest-canonical
+c28daa7bcde5,Spar,0.99,,live 2026,,heisse-preise.io latest-canonical
+6dea66c60d10,Spar,0.99,,live 2026,,heisse-preise.io latest-canonical
+ec7868d17a7a,Spar,0.99,,live 2026,,heisse-preise.io latest-canonical
+6dba3bc35171,Spar,0.99,,live 2026,,heisse-preise.io latest-canonical
+5f1038d9a75b,Spar,0.99,,live 2026,,heisse-preise.io latest-canonical
+98c4458b41b5,Spar,1.79,7.96,live 2026,,heisse-preise.io latest-canonical
+dfe34ed7d392,Spar,3.19,10.63,live 2026,,heisse-preise.io latest-canonical
+b7d9d003d114,Spar,1.89,4.72,live 2026,,heisse-preise.io latest-canonical
+74e9eeb9f1b3,Spar,0.95,5.0,live 2026,,heisse-preise.io latest-canonical
+5c5f3c7ebea1,Spar,2.46,8.2,live 2026,,heisse-preise.io latest-canonical
+4e99bf6cfb58,Spar,3.99,12.13,Preis 2025,,heisse-preise.io latest-canonical
+faee3fcc3ab3,Spar,3.99,12.28,live 2026,,heisse-preise.io latest-canonical
+25430ed4c854,Spar,1.23,1.23,live 2026,,heisse-preise.io latest-canonical
+6adbad570520,Spar,1.99,4.98,live 2026,,heisse-preise.io latest-canonical
+049e52ea3f12,Spar,30.99,30.99,Preis 2025,,heisse-preise.io latest-canonical
+febef23813dd,Spar,9.6,31.99,Preis 2025,,heisse-preise.io latest-canonical
+e9eaeb02136c,Spar,25.99,25.99,live 2026,,heisse-preise.io latest-canonical
+3fa97514198c,Spar,3.49,9.97,live 2026,,heisse-preise.io latest-canonical
+6ef049b97e07,Spar,2.99,5.98,Preis 2025,,heisse-preise.io latest-canonical
+645ad1708af8,Spar,1.89,4.72,live 2026,,heisse-preise.io latest-canonical
+93e4fb57e685,Spar,1.19,5.41,live 2026,,heisse-preise.io latest-canonical
+74be3bd7fed9,Spar,2.19,7.3,Preis 2025,,heisse-preise.io latest-canonical
+2276f70b3751,Spar,6.99,15.53,live 2026,,heisse-preise.io latest-canonical
+3d21e52ba948,Spar,2.49,7.78,live 2026,,heisse-preise.io latest-canonical
+da7a3f7450c8,Spar,6.49,18.54,live 2026,,heisse-preise.io latest-canonical
+0c7adf322917,Spar,4.29,17.16,live 2026,,heisse-preise.io latest-canonical
+d3a53cd99b48,Spar,3.29,18.28,live 2026,,heisse-preise.io latest-canonical
+484ca8fbf22b,Spar,3.49,19.39,live 2026,,heisse-preise.io latest-canonical
+dd514c019e5b,Spar,2.99,15.74,live 2026,,heisse-preise.io latest-canonical
+195ed4dc2ac8,Spar,3.49,19.39,live 2026,,heisse-preise.io latest-canonical
+cff9aed6c940,Spar,2.99,16.61,live 2026,,heisse-preise.io latest-canonical
+6f01e9ee2376,Spar,3.29,18.28,live 2026,,heisse-preise.io latest-canonical
+baec374bea13,Hofer,3.99,3.99,Preis 2025,,lidl.at (kein Online-Preis)
+d53a10fedead,Spar,1.59,3.98,Preis 2025,2025-07-03,nur Altpreis: heisse-preise.io Stand 2025-07-03 = 1.35 € (kein 2026-Preis gefunden)
+e337d02892d6,Spar,1.49,3.73,Preis 2025,2025-07-03,nur Altpreis: heisse-preise.io Stand 2025-07-03 = 1.35 € (kein 2026-Preis gefunden)
+a0a23c8cd654,Hofer,2.49,8.89,live 2026,,hofer.at Suche live
+f16bcd738eeb,Hofer,1.79,6.17,live 2026,,hofer.at Suche live
+2c1ab76ee029,Hofer,1.99,7.99,live 2026,,hofer.at Suche live
+648604386ac5,Hofer,1.99,7.99,live 2026,,hofer.at Suche live
+3e59dd866088,Hofer,1.99,7.99,live 2026,,hofer.at Suche live
 d8f49686133c,Billa,4.39,10.98,live 2026,,billa.json (live 2026)
 096f0ec211ef,Billa,4.39,10.98,live 2026,,billa.json (live 2026)
 1909a4554c75,Billa,4.39,10.98,live 2026,,billa.json (live 2026)
-014964791124,Billa,3.99,3.99,live 2026,,billa.json (live 2026)
 ad286521b64b,Billa,4.99,11.88,live 2026,,billa.json (live 2026)
 b9bdbdc9b8d2,Billa,17.99,17.99,live 2026,,billa.json (live 2026)
-5d110e60e46f,Billa,3.99,7.98,live 2026,,billa.json (live 2026)
-39ece0275ccb,Billa,36.99,36.99,live 2026,,billa.json (live 2026)
 5c3d86f3d854,Billa,5.99,17.11,live 2026,,billa.json (live 2026)
 2ed7e091dcb1,Billa,3.19,9.67,live 2026,,billa.json (live 2026)
-a4d61a360c5d,Billa,7.99,22.83,live 2026,,billa.json (live 2026)
 7b49130e17a6,Billa,17.99,17.99,live 2026,,frozen_quick.json (live 2026)
 592548ee066b,Billa,12.99,12.99,live 2026,,billa.json (live 2026)
 d8519674ee97,Billa,10.99,21.98,live 2026,,billa.json (live 2026)
 d16d6325dec1,Billa,12.99,39.36,live 2026,,billa.json (live 2026)
 8022ac384582,Billa,7.99,30.73,live 2026,,billa.json (live 2026)
 6a7c4482072c,Billa,7.99,28.54,live 2026,,billa.json (live 2026)
-ec598f9dab03,Billa,2.49,7.55,live 2026,,billa.json (live 2026)
-f83011aa1e47,Billa,1.89,5.73,live 2026,,billa.json (live 2026)
-c0feabb0ec52,Billa,4.99,11.88,live 2026,,billa.json (live 2026)
-a9a4effa4aa7,Billa,4.99,11.88,live 2026,,billa.json (live 2026)
-537e372e2dcc,Billa,3.19,19.94,live 2026,,billa.json (live 2026)
-29f58f40f2b7,Billa,5.99,35.24,live 2026,,billa.json (live 2026)
-9a01763c623d,Billa,5.99,28.52,live 2026,,billa.json (live 2026)
-8ce2165ff92a,Billa,5.99,28.52,live 2026,,billa.json (live 2026)
-abd6210e41de,Billa,2.99,16.61,live 2026,,billa.json (live 2026)
-16b6dff1a4aa,Billa,2.99,18.69,live 2026,,billa.json (live 2026)
-f8a4d8887510,Billa,3.79,11.84,live 2026,,billa.json (live 2026)
-b11a7abba992,Billa,2.49,17.79,live 2026,,billa.json (live 2026)
-b6b664977f81,Billa,1.99,7.96,live 2026,,billa.json (live 2026)
-03b1b3f10786,Billa,3.19,15.95,live 2026,,billa.json (live 2026)
 be0b593b2cee,Billa,13.99,39.97,live 2026,,billa.json (live 2026)
-3b4d18a8c0ed,Billa,4.99,11.88,live 2026,,billa.json (live 2026)
-0863e3c35c3d,Billa,3.99,8.87,live 2026,,billa.json (live 2026)
-41e5d9d82e48,Billa,3.19,15.95,live 2026,,billa.json (live 2026)
-caf42e93fa34,Billa,3.49,17.45,live 2026,,billa.json (live 2026)
-a9fdfe09a6af,Billa,3.49,8.73,live 2026,,billa.json (live 2026)
 7cb61f86afff,Billa,5.49,13.49,live 2026,,billa.json (live 2026)
 b598f3e42e39,Billa,5.49,13.49,live 2026,,billa.json (live 2026)
 4d20c15e73a4,Billa,5.49,13.49,live 2026,,billa.json (live 2026)
-f0ccf67a0d4a,Billa,5.49,18.3,live 2026,,billa.json (live 2026)
-dd13d88cf8b3,Billa,3.99,8.87,live 2026,,billa.json (live 2026)
-ff60960d0ba8,Billa,3.69,8.02,live 2026,,billa.json (live 2026)
-35d64f2ceba6,Billa,3.69,8.02,live 2026,,billa.json (live 2026)
-2a6d0169412c,Billa,3.79,12.63,live 2026,,billa.json (live 2026)
-941f533e3cbc,Billa,5.29,16.03,live 2026,,billa.json (live 2026)
-0138747b8a87,Billa,3.99,11.4,live 2026,,billa.json (live 2026)
-6ff6e8998ceb,Billa,4.69,14.21,live 2026,,billa.json (live 2026)
-907e7e1d8d19,Billa,2.69,7.47,live 2026,,billa.json (live 2026)
-ff252d648d0a,Billa,3.13,6.96,live 2026,,billa.json (live 2026)
-e621a16c6946,Billa,5.29,16.03,live 2026,,billa.json (live 2026)
-942b97de5566,Billa,3.99,11.4,live 2026,,billa.json (live 2026)
-e4589b49b22b,Billa,5.29,16.03,live 2026,,billa.json (live 2026)
-496e5c496912,Billa,4.99,15.12,live 2026,,billa.json (live 2026)
-eda746e79c3b,Billa,3.99,11.4,live 2026,,billa.json (live 2026)
-ffe4a8236e55,Billa,4.99,14.26,live 2026,,billa.json (live 2026)
-2fb60a8142b4,Billa,3.69,11.18,live 2026,,billa.json (live 2026)
-2fb9aa215d87,Billa,2.39,7.97,live 2026,,billa.json (live 2026)
-df9d63881cd8,Billa,3.99,15.96,live 2026,,billa.json (live 2026)
-33cb27025c2b,Billa,4.49,17.96,live 2026,,billa.json (live 2026)
-7b854a2f5306,Billa,3.29,13.16,live 2026,,billa.json (live 2026)
-ce709106e526,Billa,3.69,12.3,live 2026,,billa.json (live 2026)
-d7e50786702d,Billa,3.79,11.49,live 2026,,billa.json (live 2026)
-45d18b6359e1,Billa,3.69,8.2,live 2026,,billa.json (live 2026)
-76193cb89a03,Billa,4.99,14.26,live 2026,,billa.json (live 2026)
-63778476e7a6,Billa,3.99,9.98,live 2026,,billa.json (live 2026)
-64498159936e,Billa,4.49,9.76,live 2026,,billa.json (live 2026)
-6a98fd556d51,Billa,3.99,8.87,live 2026,,billa.json (live 2026)
-bb6c2d031f80,Billa,3.99,9.73,live 2026,,billa.json (live 2026)
-2a3ddce4dae3,Billa,4.49,12.83,live 2026,,billa.json (live 2026)
 09f202ef48de,Billa,4.99,11.88,live 2026,,billa.json (live 2026)
-f173b34e6301,Billa,4.49,13.4,live 2026,,billa.json (live 2026)
-a3d163f21882,Billa,4.49,13.61,live 2026,,billa.json (live 2026)
-1555327e6128,Billa,2.49,7.55,live 2026,,billa.json (live 2026)
-24b95a2f32a6,Billa,2.6,7.88,live 2026,,billa.json (live 2026)
-73fae2a3ee8c,Billa,3.99,9.98,live 2026,,billa.json (live 2026)
-b0379408c31a,Billa,3.99,9.98,live 2026,,billa.json (live 2026)
-02e86006f861,Billa,4.99,12.48,live 2026,,frozen_quick.json (live 2026)
-d753fbb790a8,Billa,3.39,10.59,live 2026,,billa.json (live 2026)
-46d31022881f,Billa,5.99,23.04,live 2026,,billa.json (live 2026)
-c00ea7630122,Billa,3.99,9.98,live 2026,,billa.json (live 2026)
-a2a56d8aa6f5,Billa,3.99,9.98,live 2026,,billa.json (live 2026)
-ab31bf1b31e4,Billa,2.99,21.36,live 2026,,billa.json (live 2026)
-e63bdbb7fd68,Billa,3.99,9.98,live 2026,,billa.json (live 2026)
-10c2b1024588,Billa,3.99,9.98,live 2026,,billa.json (live 2026)
-1eb06ea14431,Billa,3.99,9.98,live 2026,,billa.json (live 2026)
-0047663895d8,Billa,3.99,9.98,live 2026,,billa.json (live 2026)
-627f90c93b0b,Billa,1.99,7.96,live 2026,,billa.json (live 2026)
-03c5aab9993f,Billa,3.49,17.45,live 2026,,billa.json (live 2026)
-c546e1bb1410,Billa,2.99,14.95,live 2026,,billa.json (live 2026)
-48c9cc15cfb0,Billa,7.99,19.02,live 2026,,billa.json (live 2026)
 89f9780283e6,Billa,3.79,10.83,live 2026,,billa.json (live 2026)
-47f6efdbe2f7,Billa,7.99,19.02,live 2026,,billa.json (live 2026)
-2c01dfa74f05,Billa,3.59,13.81,live 2026,,billa.json (live 2026)
-f420ed049ec5,Billa,3.49,18.37,live 2026,,billa.json (live 2026)
-891c95826944,Billa,12.99,32.48,live 2026,,billa.json (live 2026)
-fc41f75eb8b1,Billa,3.49,18.37,live 2026,,billa.json (live 2026)
-e86cba95dc49,Billa,7.99,22.19,live 2026,,billa.json (live 2026)
-25d1f145976e,Billa,6.99,19.42,live 2026,,billa.json (live 2026)
 5c7b489fabfc,Billa,4.99,33.27,live 2026,,billa.json (live 2026)
 811e57bb7f0e,Billa,8.99,36.69,live 2026,,billa.json (live 2026)
-8d8b8675b71c,Billa,7.99,23.5,live 2026,,billa.json (live 2026)
 c65f9fed0dc5,Billa,4.29,13.41,live 2026,,billa.json (live 2026)
 2b6b5d2331eb,Billa,2.99,5.98,live 2026,,billa.json (live 2026)
 403e095db825,Billa,3.49,8.73,live 2026,,billa.json (live 2026)
@@ -745,27 +907,16 @@ a58d369e6f58,Billa,2.99,2.14,live 2026,,billa.json (live 2026)
 4429910b86e2,Billa,3.99,44.33,live 2026,,billa.json (live 2026)
 c1c0d6ae6144,Billa,3.99,42.0,live 2026,,billa.json (live 2026)
 246b981a10aa,Billa,3.99,46.94,live 2026,,billa.json (live 2026)
-df1413ad97c2,Billa,0.59,0.59,live 2026,,billa.json (live 2026)
-2ecc8a757447,Billa,0.59,0.59,live 2026,,billa.json (live 2026)
-898241d6679b,Billa,0.49,0.49,live 2026,,billa.json (live 2026)
-19793394c0b8,Billa,0.59,0.59,live 2026,,billa.json (live 2026)
-3048319f4f95,Billa,0.59,0.59,live 2026,,billa.json (live 2026)
-231ff118220e,Billa,0.59,0.59,live 2026,,billa.json (live 2026)
 7b78d44aa93c,Billa,3.49,8.73,live 2026,,billa.json (live 2026)
 3b667657875d,Billa,3.49,8.73,live 2026,,billa.json (live 2026)
 b25dd19dc2fe,Billa,6.49,8.11,live 2026,,billa.json (live 2026)
-310989d2980d,Billa,2.39,5.98,live 2026,,billa.json (live 2026)
-b30f31e552b7,Billa,2.39,5.98,live 2026,,billa.json (live 2026)
-49367276ded6,Billa,1.75,4.38,live 2026,,billa.json (live 2026)
 1a2a6ea0249c,Billa,1.19,1.19,live 2026,,billa.json (live 2026)
-44399c784155,Billa,2.49,3.11,live 2026,,billa.json (live 2026)
 6b1b6ff0df8d,Billa,1.12,1.12,live 2026,,billa.json (live 2026)
 f4c4c8d76134,Billa,1.12,1.12,live 2026,,billa.json (live 2026)
 f67de830d83a,Billa,1.12,1.12,live 2026,,billa.json (live 2026)
 41d4f4df574f,Billa,3.49,8.73,live 2026,,billa.json (live 2026)
 a87c131e1e79,Billa,1.12,1.12,live 2026,,billa.json (live 2026)
 c85bd2ec9e97,Billa,1.12,1.12,live 2026,,billa.json (live 2026)
-2958df531830,Billa,2.99,7.48,live 2026,,billa.json (live 2026)
 3d5170f501b6,Billa,2.99,5.98,live 2026,,billa.json (live 2026)
 ceec03681596,Billa,1.29,20.81,live 2026,,billa.json (live 2026)
 a46ac6b771a7,Billa,1.29,20.81,live 2026,,billa.json (live 2026)
@@ -781,15 +932,10 @@ f5cdf8fff6a5,Billa,0.99,11.65,live 2026,,billa.json (live 2026)
 8ec82ec40064,Billa,0.99,11.65,live 2026,,billa.json (live 2026)
 4710449db103,Billa,0.99,11.65,live 2026,,billa.json (live 2026)
 65e86d9b5171,Billa,2.99,5.98,live 2026,,billa.json (live 2026)
-f5fa1a1bc853,Billa,4.99,14.68,live 2026,,billa.json (live 2026)
-3480c224047f,Billa,3.99,11.74,live 2026,,billa.json (live 2026)
-f15bf27e69ff,Billa,3.99,11.74,live 2026,,billa.json (live 2026)
-503bc57fdf9e,Billa,3.99,11.74,live 2026,,billa.json (live 2026)
 f6554ae7e7aa,Billa,1.29,23.89,live 2026,,billa.json (live 2026)
 59062ec9a725,Billa,5.99,15.36,live 2026,,billa.json (live 2026)
 d651b9ec1928,Billa,3.49,21.81,live 2026,,billa.json (live 2026)
 f40c9581e045,Billa,3.49,21.81,live 2026,,billa.json (live 2026)
-5fdd298cace1,Billa,3.99,15.35,live 2026,,billa.json (live 2026)
 fead0a8cccf5,Billa,6.49,8.11,live 2026,,billa.json (live 2026)
 2b71274857ea,Billa,1.12,1.12,live 2026,,billa.json (live 2026)
 5fa7476645e8,Billa,5.99,7.49,live 2026,,billa.json (live 2026)
@@ -802,7 +948,6 @@ db1d833580db,Billa,5.99,16.64,live 2026,,billa.json (live 2026)
 783c57d69d80,Billa,1.12,1.12,live 2026,,billa.json (live 2026)
 3d735e196de6,Billa,2.99,18.46,live 2026,,billa.json (live 2026)
 cd9f8e769a1b,Billa,3.49,8.73,live 2026,,billa.json (live 2026)
-4c308584b302,Billa,2.79,9.3,live 2026,,billa.json (live 2026)
 5fb8ac82ca4c,Billa,3.29,10.97,live 2026,,billa.json (live 2026)
 505421f1dc6e,Billa,3.29,11.75,live 2026,,billa.json (live 2026)
 6880fce1d0d2,Billa,3.29,11.75,live 2026,,billa.json (live 2026)
@@ -841,9 +986,6 @@ e8015ae9be2c,Billa,4.49,17.96,live 2026,,billa.json (live 2026)
 3057de55cf0d,Billa,4.49,17.96,live 2026,,billa.json (live 2026)
 56808a10cc76,Billa,4.49,17.96,live 2026,,billa.json (live 2026)
 90621e063556,Billa,4.49,4.49,live 2026,,billa.json (live 2026)
-c548790ec05f,Billa,3.49,10.58,live 2026,,billa.json (live 2026)
-b079a3311b9e,Billa,6.99,18.89,live 2026,,billa.json (live 2026)
-5784c02ec27e,Billa,3.69,18.45,live 2026,,billa.json (live 2026)
 7c601147d378,Billa,3.59,10.26,live 2026,,billa.json (live 2026)
 5659b899de66,Billa,3.59,10.26,live 2026,,billa.json (live 2026)
 f1b5b9da5d69,Billa,3.99,9.98,live 2026,,billa.json (live 2026)
@@ -880,16 +1022,13 @@ fbc90c17acc0,Spar,3.69,9.23,live 2026,,spar.json (live 2026)
 325a7fc7fc1e,Spar,4.99,16.63,live 2026,,spar.json (live 2026)
 497ba42a1770,Spar,4.99,14.26,live 2026,,spar.json (live 2026)
 8b6a3067abb1,Spar,7.49,10.7,live 2026,,spar.json (live 2026)
-aca5e5684706,Spar,3.99,3.99,Preis 2025,,lidl.at (kein Online-Preis)
 3e8eb9102ac7,Spar,2.99,7.48,live 2026,,spar.json (live 2026)
-f928878ca02e,Spar,1.59,3.98,Preis 2025,2025-07-03,nur Altpreis: heisse-preise.io Stand 2025-07-03 = 1.35 € (kein 2026-Preis gefunden)
 d4aad474319f,Spar,3.29,8.89,live 2026,,spar.json (live 2026)
 9e52a13f7e59,Spar,2.99,11.96,live 2026,,spar.json (live 2026)
 d01c36f82c33,Spar,2.99,12.46,live 2026,,spar.json (live 2026)
 97bb9cdd99e3,Spar,2.29,11.45,live 2026,,spar.json (live 2026)
 8b4912b8204c,Spar,2.99,11.96,live 2026,,spar.json (live 2026)
 879a1429b1e9,Spar,3.59,14.36,live 2026,,spar.json (live 2026)
-0303d66bcb09,Spar,2.69,8.97,live 2026,,spar.json (live 2026)
 a72a3ca2290c,Spar,3.59,14.36,live 2026,,spar.json (live 2026)
 885b78e9d11c,Spar,4.99,13.31,live 2026,,spar.json (live 2026)
 cc069d329d75,Spar,2.99,4.98,live 2026,,spar.json (live 2026)
@@ -904,7 +1043,6 @@ c797cf5a81bc,Spar,0.99,,live 2026,,spar.json (live 2026)
 c37e232c0c91,Spar,0.99,,live 2026,,spar.json (live 2026)
 c6db7926de68,Spar,2.69,7.27,live 2026,,spar.json (live 2026)
 ae11ec125d84,Spar,0.99,,live 2026,,spar.json (live 2026)
-3cf08c53382d,Spar,1.49,3.73,Preis 2025,2025-07-03,nur Altpreis: heisse-preise.io Stand 2025-07-03 = 1.35 € (kein 2026-Preis gefunden)
 c163c4b198b1,Spar,2.69,7.37,live 2026,,spar.json (live 2026)
 f9f4c3ebc333,Spar,0.99,,live 2026,,spar.json (live 2026)
 a690724aa139,Spar,0.99,,live 2026,,spar.json (live 2026)
@@ -929,7 +1067,7 @@ c2830d791b50,Spar,0.99,15.0,live 2026,,spar.json (live 2026)
 b2ce84d11578,Spar,3.49,13.96,live 2026,,spar.json (live 2026)
 6334217c5d80,Spar,3.49,13.96,live 2026,,spar.json (live 2026)
 61032a60cfb9,Spar,3.49,9.97,live 2026,,spar_live.json (live 2026)
-5b47c20cc288,Hofer,3.09,8.35,Preis unbestätigt,,frozen_quick.json (Preis unbestätigt)
+5b47c20cc288,Hofer,3.09,8.35,Preis unbestätigt,2026-10-12,"wokostswas.at Kategorie Fertigprodukte (k54/k30), Hofer-Regalpreis, abgerufen 2026-10-12"
 8f63f5c8b3e0,Hofer,1.45,5.8,Preis 2025,2025-03-26,"heisse-preise.io, Stand 2025-03-26 (Hofer-Feed derzeit inaktiv)"
 f3b973430501,Hofer,2.45,9.8,Preis 2025,2025-03-26,"heisse-preise.io, Stand 2025-03-26 (Hofer-Feed derzeit inaktiv)"
 00106783e09b,Hofer,1.65,6.6,Preis 2025,2025-01-15,"heisse-preise.io, Stand 2025-01-15 (Hofer-Feed derzeit inaktiv)"
@@ -937,30 +1075,18 @@ d547625b52b7,Hofer,1.59,4.54,Preis 2025,2025-05-23,"heisse-preise.io, Stand 2025
 bef517dba125,Hofer,1.65,8.25,Preis 2025,2025-01-15,"heisse-preise.io, Stand 2025-01-15 (Hofer-Feed derzeit inaktiv)"
 51e2b184e9dc,Hofer,2.45,9.8,Preis 2025,2025-03-26,"heisse-preise.io, Stand 2025-03-26 (Hofer-Feed derzeit inaktiv)"
 66946171bd9b,Hofer,2.45,9.8,Preis 2025,2025-03-26,"heisse-preise.io, Stand 2025-03-26 (Hofer-Feed derzeit inaktiv)"
-07ee7952f09c,Hofer,1.99,5.69,Preis 2025,2025-06-20,"heisse-preise.io, Stand 2025-06-20 (Hofer-Feed derzeit inaktiv)"
-75547419d0e9,Hofer,1.99,5.69,Preis 2025,2025-06-20,"heisse-preise.io, Stand 2025-06-20 (Hofer-Feed derzeit inaktiv)"
-a7556231cc7a,Hofer,2.99,7.48,Preis 2025,2025-09-11,"heisse-preise.io, Stand 2025-09-11 (Hofer-Feed derzeit inaktiv)"
-8ebff85c3122,Hofer,2.99,7.48,Preis 2025,2025-09-11,"heisse-preise.io, Stand 2025-09-11 (Hofer-Feed derzeit inaktiv)"
-40f9b58963e0,Hofer,1.99,5.69,Preis 2025,2025-09-03,"heisse-preise.io, Stand 2025-09-03 (Hofer-Feed derzeit inaktiv)"
 c269a10e2993,Hofer,19.98,19.98,Preis 2025,2025-10-20,"heisse-preise.io, Stand 2025-10-20 (Hofer-Feed derzeit inaktiv)"
 95b53dace239,Hofer,3.49,11.63,Preis 2025,2025-03-19,"heisse-preise.io, Stand 2025-03-19 (Hofer-Feed derzeit inaktiv)"
 6e1723327b91,Hofer,3.49,10.58,Preis 2025,2025-03-19,"heisse-preise.io, Stand 2025-03-19 (Hofer-Feed derzeit inaktiv)"
 6b94ce8ab7e4,Hofer,3.19,7.97,Preis 2025,2025-11-07,"heisse-preise.io, Stand 2025-11-07 (Hofer-Feed derzeit inaktiv)"
 3865ecc538b3,Hofer,3.19,7.97,Preis 2025,2025-11-07,"heisse-preise.io, Stand 2025-11-07 (Hofer-Feed derzeit inaktiv)"
-41184957b257,Hofer,2.75,7.24,Preis 2025,2025-10-29,"heisse-preise.io, Stand 2025-10-29 (Hofer-Feed derzeit inaktiv)"
-997593ea99a2,Hofer,2.99,7.48,Preis 2025,2025-07-23,"heisse-preise.io, Stand 2025-07-23 (Hofer-Feed derzeit inaktiv)"
 70c915ca1bf3,Hofer,2.75,7.24,Preis 2025,2025-10-29,"heisse-preise.io, Stand 2025-10-29 (Hofer-Feed derzeit inaktiv)"
 30d97a087834,Hofer,2.99,7.48,Preis 2025,2025-02-26,"heisse-preise.io, Stand 2025-02-26 (Hofer-Feed derzeit inaktiv)"
 b3e3f4d1dd4e,Hofer,2.99,8.54,Preis 2025,2025-02-26,"heisse-preise.io, Stand 2025-02-26 (Hofer-Feed derzeit inaktiv)"
 5cf00b89f9d6,Hofer,3.99,4.99,Preis 2025,2025-11-07,"heisse-preise.io, Stand 2025-11-07 (Hofer-Feed derzeit inaktiv)"
 b4a97dc2a116,Hofer,1.13,4.52,Preis 2025,2025-10-31,"heisse-preise.io, Stand 2025-10-31 (Hofer-Feed derzeit inaktiv)"
 164590894145,Hofer,1.13,4.52,Preis 2025,2025-10-31,"heisse-preise.io, Stand 2025-10-31 (Hofer-Feed derzeit inaktiv)"
-f440d92801d6,Hofer,1.99,4.98,Preis 2025,2025-08-15,"heisse-preise.io, Stand 2025-08-15 (Hofer-Feed derzeit inaktiv)"
 37427099ed35,Hofer,4.49,6.41,Preis 2025,2025-09-19,"heisse-preise.io, Stand 2025-09-19 (Hofer-Feed derzeit inaktiv)"
-de3ca2f643ae,Hofer,1.35,3.38,Preis 2025,2025-05-10,"heisse-preise.io, Stand 2025-05-10 (Hofer-Feed derzeit inaktiv)"
-9ba7e127885a,Hofer,1.35,3.38,Preis 2025,2025-05-10,"heisse-preise.io, Stand 2025-05-10 (Hofer-Feed derzeit inaktiv)"
-b6ce0dc2f0ad,Hofer,1.99,4.98,Preis 2025,2025-07-23,"heisse-preise.io, Stand 2025-07-23 (Hofer-Feed derzeit inaktiv)"
-3137daaf7661,Hofer,1.35,3.38,Preis 2025,2025-05-10,"heisse-preise.io, Stand 2025-05-10 (Hofer-Feed derzeit inaktiv)"
 9386f10572e0,Hofer,4.49,6.41,Preis 2025,2025-09-19,"heisse-preise.io, Stand 2025-09-19 (Hofer-Feed derzeit inaktiv)"
 d2f6641a005a,Hofer,2.39,6.83,Preis 2025,2025-10-15,"heisse-preise.io, Stand 2025-10-15 (Hofer-Feed derzeit inaktiv)"
 c23ff0f245e6,Hofer,3.49,9.97,Preis 2025,2025-07-03,"heisse-preise.io, Stand 2025-07-03 (Hofer-Feed derzeit inaktiv)"
@@ -1024,7 +1150,6 @@ cfba6646464d,Billa,8.79,17.58,live 2026,,frozen_quick.json (live 2026)
 a0b8ba3539e5,Billa,7.49,29.96,live 2026,,frozen_quick.json (live 2026)
 1fbbca4627aa,Billa,7.49,29.96,live 2026,,frozen_quick.json (live 2026)
 9c532c42d510,Billa,3.15,10.5,live 2026,,frozen_quick.json (live 2026)
-4f9ff400df10,Billa,7.99,15.98,live 2026,,frozen_quick.json (live 2026)
 d70ccd0d49f7,Billa,2.99,7.48,live 2026,,frozen_quick.json (live 2026)
 9c5303c10932,Billa,2.99,7.48,live 2026,,frozen_quick.json (live 2026)
 7fe7df986d28,Billa,2.49,9.96,live 2026,,frozen_quick.json (live 2026)
@@ -1126,17 +1251,12 @@ e0c9287c4893,Billa,5.99,17.11,live 2026,2026-10-13,BILLA shop API 2026-10-13
 59d00aeea2e2,Billa,7.69,12.82,live 2026,2026-10-13,BILLA shop API 2026-10-13
 0033c9721761,Billa,5.99,11.98,live 2026,2026-10-13,BILLA shop API 2026-10-13
 33291cd0a830,Billa,5.99,11.98,live 2026,2026-10-13,BILLA shop API 2026-10-13
-8701d9c41d77,Billa,5.49,13.73,live 2026,2026-10-13,BILLA shop API 2026-10-13
-c1a3c63e10e1,Billa,3.19,7.97,live 2026,2026-10-13,BILLA shop API 2026-10-13
 bdd22a8654c3,Billa,6.99,17.48,live 2026,2026-10-13,BILLA shop API 2026-10-13
-ef60d799b347,Billa,4.89,7.52,live 2026,2026-10-13,BILLA shop API 2026-10-13
 d0029bb2ce82,Billa,3.49,7.76,live 2026,2026-10-13,BILLA shop API 2026-10-13
 31fdca090801,Billa,5.99,11.98,live 2026,2026-10-13,BILLA shop API 2026-10-13
 dcfd6f587499,Billa,5.99,11.98,live 2026,2026-10-13,BILLA shop API 2026-10-13
 d4e1988f97c0,Billa,5.99,11.98,live 2026,2026-10-13,BILLA shop API 2026-10-13
 787fcd56dec3,Billa,4.79,12.77,live 2026,2026-10-13,BILLA shop API 2026-10-13
-8d120e637992,Billa,4.99,6.65,live 2026,2026-10-13,BILLA shop API 2026-10-13
-4cf9ea153411,Billa,4.79,7.37,live 2026,2026-10-13,BILLA shop API 2026-10-13
 cc3e338cfcb1,Billa,3.49,8.21,live 2026,2026-10-13,BILLA shop API 2026-10-13
 8511de34b0e5,Billa,5.99,11.98,live 2026,2026-10-13,BILLA shop API 2026-10-13
 7ee6e2263063,Billa,7.69,11.83,live 2026,2026-10-13,BILLA shop API 2026-10-13
@@ -1144,158 +1264,649 @@ cc3e338cfcb1,Billa,3.49,8.21,live 2026,2026-10-13,BILLA shop API 2026-10-13
 6157acd49c6c,Billa,6.99,13.98,live 2026,2026-10-13,BILLA shop API 2026-10-13
 7e5c77dce7d7,Billa,6.99,13.98,live 2026,2026-10-13,BILLA shop API 2026-10-13
 b129c4ceefc1,Billa,5.99,11.98,live 2026,2026-10-13,BILLA shop API 2026-10-13
-bc236dd9361b,Billa,3.19,7.97,live 2026,2026-10-13,BILLA shop API 2026-10-13
 554a924d1355,Lidl,6.99,6.99,live 2026,2026-10-13,"lidl.at Such-API (live, Aktionsware) 2026-10-13"
 9d5e121843df,Lidl,4.99,9.98,live 2026,2026-10-13,"lidl.at Such-API (live, Aktionsware) 2026-10-13"
-7f8d5cf06c0b,MPreis,6.5,13.0,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-2224183c1d03,MPreis,2.55,6.38,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-303cf052ba17,MPreis,2.99,7.48,Preis 2023,2023-09-04,"heisse-preise.io mpreis (Preisstand 2023-09-04) – Altpreis, nicht live bestätigt"
-46b6fea17226,MPreis,2.99,7.48,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-080d40b8ee5a,MPreis,2.79,8.58,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-8589d752593b,MPreis,2.75,6.88,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-f3c77be678c8,MPreis,2.99,7.48,Preis 2023,2023-10-02,"heisse-preise.io mpreis (Preisstand 2023-10-02) – Altpreis, nicht live bestätigt"
-020de3f887c4,MPreis,3.99,7.98,Preis 2024,2024-06-03,"heisse-preise.io mpreis (Preisstand 2024-06-03) – Altpreis, nicht live bestätigt"
-75dd3de20de1,MPreis,2.49,7.11,Preis 2024,2024-06-10,"heisse-preise.io mpreis (Preisstand 2024-06-10) – Altpreis, nicht live bestätigt"
-d2adb635ac0f,MPreis,2.6,6.5,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-ddeaea9adf18,MPreis,4.49,11.23,Preis 2024,2024-06-03,"heisse-preise.io mpreis (Preisstand 2024-06-03) – Altpreis, nicht live bestätigt"
-5c03e75cc4de,MPreis,11.79,39.3,Preis 2023,2023-10-09,"heisse-preise.io mpreis (Preisstand 2023-10-09) – Altpreis, nicht live bestätigt"
-1af89cc53832,MPreis,1.99,13.27,Preis 2024,2024-05-06,"heisse-preise.io mpreis (Preisstand 2024-05-06) – Altpreis, nicht live bestätigt"
-77e41f5ae61f,MPreis,2.59,10.36,Preis 2024,2024-06-03,"heisse-preise.io mpreis (Preisstand 2024-06-03) – Altpreis, nicht live bestätigt"
-731267a020fb,MPreis,3.49,13.96,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-f87ae5b87365,MPreis,3.49,13.96,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-dd6765ce94ac,MPreis,8.99,14.38,Preis 2024,2024-01-01,"heisse-preise.io mpreis (Preisstand 2024-01-01) – Altpreis, nicht live bestätigt"
-3fcaae4f7915,MPreis,11.49,14.36,Preis 2024,2024-06-24,"heisse-preise.io mpreis (Preisstand 2024-06-24) – Altpreis, nicht live bestätigt"
-b0c3d99f1079,MPreis,11.49,14.36,Preis 2024,2024-06-24,"heisse-preise.io mpreis (Preisstand 2024-06-24) – Altpreis, nicht live bestätigt"
-0be91b561fa5,MPreis,3.99,3.99,Preis 2023,2023-09-05,"heisse-preise.io mpreis (Preisstand 2023-09-05) – Altpreis, nicht live bestätigt"
-082b9c4b6498,MPreis,1.99,,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-577a946fc85d,MPreis,5.69,14.23,Preis 2024,2024-01-01,"heisse-preise.io mpreis (Preisstand 2024-01-01) – Altpreis, nicht live bestätigt"
-c974b2a55ed1,MPreis,1.99,3.98,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-137a77beac02,MPreis,3.49,16.62,Preis 2023,2023-05-29,"heisse-preise.io mpreis (Preisstand 2023-05-29) – Altpreis, nicht live bestätigt"
-e3302afcd1b5,MPreis,7.49,21.4,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-455af543ce04,MPreis,3.99,4.99,Preis 2024,2024-06-14,"heisse-preise.io mpreis (Preisstand 2024-06-14) – Altpreis, nicht live bestätigt"
-1bd108f7daaa,MPreis,3.99,4.99,Preis 2024,2024-06-14,"heisse-preise.io mpreis (Preisstand 2024-06-14) – Altpreis, nicht live bestätigt"
-81a92bb4684d,MPreis,3.99,4.99,Preis 2024,2024-06-14,"heisse-preise.io mpreis (Preisstand 2024-06-14) – Altpreis, nicht live bestätigt"
-18dc38f2c475,MPreis,1,5.71,Preis 2024,2024-03-13,"heisse-preise.io mpreis (Preisstand 2024-03-13) – Altpreis, nicht live bestätigt"
-6bf86ce86517,MPreis,1,5.71,Preis 2024,2024-03-13,"heisse-preise.io mpreis (Preisstand 2024-03-13) – Altpreis, nicht live bestätigt"
-0769fd2593bc,MPreis,1,5.71,Preis 2024,2024-03-13,"heisse-preise.io mpreis (Preisstand 2024-03-13) – Altpreis, nicht live bestätigt"
-dd5a431752cf,MPreis,3.99,9.98,Preis 2024,2024-05-14,"heisse-preise.io mpreis (Preisstand 2024-05-14) – Altpreis, nicht live bestätigt"
-ff8991a82722,MPreis,4.69,9.77,Preis 2024,2024-01-08,"heisse-preise.io mpreis (Preisstand 2024-01-08) – Altpreis, nicht live bestätigt"
-9569df3e550d,MPreis,4.69,9.77,Preis 2024,2024-01-15,"heisse-preise.io mpreis (Preisstand 2024-01-15) – Altpreis, nicht live bestätigt"
-aca2674f9e82,MPreis,4.69,9.77,Preis 2024,2024-01-15,"heisse-preise.io mpreis (Preisstand 2024-01-15) – Altpreis, nicht live bestätigt"
-12cb6451df26,MPreis,5.99,11.98,Preis 2024,2024-05-27,"heisse-preise.io mpreis (Preisstand 2024-05-27) – Altpreis, nicht live bestätigt"
-6cd70d7c6866,MPreis,5.99,11.98,Preis 2024,2024-05-27,"heisse-preise.io mpreis (Preisstand 2024-05-27) – Altpreis, nicht live bestätigt"
-515a42c51747,MPreis,1,4.76,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-b1f22f8bcbc3,MPreis,1,4.55,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-cb86546b85c7,MPreis,1,4.55,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-73d2284a2c6a,MPreis,3.99,18.14,Preis 2024,2024-06-10,"heisse-preise.io mpreis (Preisstand 2024-06-10) – Altpreis, nicht live bestätigt"
-e23c8a3619b8,MPreis,12.995,25.99,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-1312a6727259,MPreis,20,,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-ef49f5d3a5c0,MPreis,3.29,13.16,Preis 2023,2023-10-02,"heisse-preise.io mpreis (Preisstand 2023-10-02) – Altpreis, nicht live bestätigt"
-23df46fa61ef,MPreis,3.79,10.83,Preis 2024,2024-05-27,"heisse-preise.io mpreis (Preisstand 2024-05-27) – Altpreis, nicht live bestätigt"
-372a32f3d36b,MPreis,5.99,14.97,Preis 2024,2024-02-05,"heisse-preise.io mpreis (Preisstand 2024-02-05) – Altpreis, nicht live bestätigt"
-a5159fcd6ac3,MPreis,2.99,9.97,Preis 2024,2024-06-04,"heisse-preise.io mpreis (Preisstand 2024-06-04) – Altpreis, nicht live bestätigt"
-7709096a30a0,MPreis,3.49,8.95,Preis 2024,2024-05-27,"heisse-preise.io mpreis (Preisstand 2024-05-27) – Altpreis, nicht live bestätigt"
-3103ad4ea59e,MPreis,5.99,14.97,Preis 2024,2024-02-05,"heisse-preise.io mpreis (Preisstand 2024-02-05) – Altpreis, nicht live bestätigt"
-f8b417b1fff0,MPreis,4.99,14.26,Preis 2024,2024-01-01,"heisse-preise.io mpreis (Preisstand 2024-01-01) – Altpreis, nicht live bestätigt"
-21af69e8ade1,MPreis,3.19,6.93,Preis 2024,2024-05-27,"heisse-preise.io mpreis (Preisstand 2024-05-27) – Altpreis, nicht live bestätigt"
-9db3df21fd79,MPreis,4.99,12.47,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-b512f7e84a56,MPreis,4.49,,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-0bb3c936ad37,MPreis,4,20.0,Preis 2024,2024-05-17,"heisse-preise.io mpreis (Preisstand 2024-05-17) – Altpreis, nicht live bestätigt"
-4d3f9a6dfa4b,MPreis,4,20.0,Preis 2024,2024-05-17,"heisse-preise.io mpreis (Preisstand 2024-05-17) – Altpreis, nicht live bestätigt"
-e6bee0d6a96a,MPreis,6.99,27.96,Preis 2024,2024-04-29,"heisse-preise.io mpreis (Preisstand 2024-04-29) – Altpreis, nicht live bestätigt"
-283253a6fec6,MPreis,3,8.57,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-aa5138cb217b,MPreis,5,7.69,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-201e0bf4ab1d,MPreis,6.99,11.65,Preis 2024,2024-06-24,"heisse-preise.io mpreis (Preisstand 2024-06-24) – Altpreis, nicht live bestätigt"
-7c12c41fb3fe,MPreis,6.99,13.98,Preis 2024,2024-06-24,"heisse-preise.io mpreis (Preisstand 2024-06-24) – Altpreis, nicht live bestätigt"
-39054af05f93,MPreis,4,10.0,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-da274cca9f73,MPreis,4,10.53,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-da23b7597cb5,MPreis,4,10.0,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-502336f96509,MPreis,4,10.53,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-ec87d1fb5380,MPreis,4,10.53,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-150a86bd6465,MPreis,4.49,13.61,Preis 2024,2024-04-29,"heisse-preise.io mpreis (Preisstand 2024-04-29) – Altpreis, nicht live bestätigt"
-7fd05b047800,MPreis,6.99,9.99,Preis 2024,2024-06-24,"heisse-preise.io mpreis (Preisstand 2024-06-24) – Altpreis, nicht live bestätigt"
-b9b1f6dceca5,MPreis,6.99,10.75,Preis 2024,2024-06-24,"heisse-preise.io mpreis (Preisstand 2024-06-24) – Altpreis, nicht live bestätigt"
-525c61f752b7,MPreis,5.99,13.31,Preis 2024,2024-04-29,"heisse-preise.io mpreis (Preisstand 2024-04-29) – Altpreis, nicht live bestätigt"
-69d1235b3d9b,MPreis,4.99,14.26,Preis 2023,2023-07-14,"heisse-preise.io mpreis (Preisstand 2023-07-14) – Altpreis, nicht live bestätigt"
-61a3dae1f887,MPreis,4.99,14.26,Preis 2024,2024-04-29,"heisse-preise.io mpreis (Preisstand 2024-04-29) – Altpreis, nicht live bestätigt"
-49440e602073,MPreis,4.49,11.23,Preis 2024,2024-04-29,"heisse-preise.io mpreis (Preisstand 2024-04-29) – Altpreis, nicht live bestätigt"
-bf1736b52d60,MPreis,3.29,8.22,Preis 2024,2024-04-15,"heisse-preise.io mpreis (Preisstand 2024-04-15) – Altpreis, nicht live bestätigt"
-cb42efeeebb7,MPreis,3.29,8.22,Preis 2024,2024-04-15,"heisse-preise.io mpreis (Preisstand 2024-04-15) – Altpreis, nicht live bestätigt"
-2813506445a9,MPreis,2.79,6.98,Preis 2024,2024-03-11,"heisse-preise.io mpreis (Preisstand 2024-03-11) – Altpreis, nicht live bestätigt"
-3e1d49502086,MPreis,2.99,7.48,Preis 2024,2024-04-15,"heisse-preise.io mpreis (Preisstand 2024-04-15) – Altpreis, nicht live bestätigt"
-2aee68418a4d,MPreis,3.99,4.99,Preis 2024,2024-06-24,"heisse-preise.io mpreis (Preisstand 2024-06-24) – Altpreis, nicht live bestätigt"
-a1dcf8077384,MPreis,4.99,12.47,Preis 2024,2024-04-15,"heisse-preise.io mpreis (Preisstand 2024-04-15) – Altpreis, nicht live bestätigt"
-eaf58e918f45,MPreis,5.49,13.73,Preis 2024,2024-04-15,"heisse-preise.io mpreis (Preisstand 2024-04-15) – Altpreis, nicht live bestätigt"
-7fef0c1af839,MPreis,1.99,9.95,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-90e8b49187c5,MPreis,2.99,3.74,Preis 2023,2023-12-04,"heisse-preise.io mpreis (Preisstand 2023-12-04) – Altpreis, nicht live bestätigt"
-11e89dee810a,MPreis,2.25,9.0,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-76fdea7e922c,MPreis,1.69,3.38,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-754b2c00df07,MPreis,1.59,3.98,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-41077c2c5dd4,MPreis,3.99,3.99,Preis 2024,2024-06-08,"heisse-preise.io mpreis (Preisstand 2024-06-08) – Altpreis, nicht live bestätigt"
-c306d4dd8464,MPreis,3.99,3.99,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-d266f03ac76d,MPreis,1.59,,Preis 2024,2024-06-24,"heisse-preise.io mpreis (Preisstand 2024-06-24) – Altpreis, nicht live bestätigt"
-14282b8f58a5,MPreis,1.59,,Preis 2024,2024-06-24,"heisse-preise.io mpreis (Preisstand 2024-06-24) – Altpreis, nicht live bestätigt"
-9d8b098a3e28,MPreis,1.59,,Preis 2024,2024-06-24,"heisse-preise.io mpreis (Preisstand 2024-06-24) – Altpreis, nicht live bestätigt"
-c6f1cf3fe2b2,MPreis,1.39,,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-50b611f755dd,MPreis,3.49,6.98,Preis 2024,2024-02-26,"heisse-preise.io mpreis (Preisstand 2024-02-26) – Altpreis, nicht live bestätigt"
-cd1669352e21,MPreis,3.49,6.98,Preis 2024,2024-06-14,"heisse-preise.io mpreis (Preisstand 2024-06-14) – Altpreis, nicht live bestätigt"
-b64a2f794b8f,MPreis,3.49,6.98,Preis 2024,2024-02-26,"heisse-preise.io mpreis (Preisstand 2024-02-26) – Altpreis, nicht live bestätigt"
-ef583fad1069,MPreis,3.49,6.98,Preis 2024,2024-06-14,"heisse-preise.io mpreis (Preisstand 2024-06-14) – Altpreis, nicht live bestätigt"
-94b8a92cb0ee,MPreis,3.49,4.36,Preis 2024,2024-02-26,"heisse-preise.io mpreis (Preisstand 2024-02-26) – Altpreis, nicht live bestätigt"
-70e3c97fb4dd,MPreis,2.79,,Preis 2024,2024-02-26,"heisse-preise.io mpreis (Preisstand 2024-02-26) – Altpreis, nicht live bestätigt"
-dc600572e7c4,MPreis,39.99,,Preis 2023,2023-09-18,"heisse-preise.io mpreis (Preisstand 2023-09-18) – Altpreis, nicht live bestätigt"
-0907fb55eebe,MPreis,3.79,25.27,Preis 2024,2024-02-26,"heisse-preise.io mpreis (Preisstand 2024-02-26) – Altpreis, nicht live bestätigt"
-fded55a799f9,MPreis,1.99,,Preis 2023,2023-10-16,"heisse-preise.io mpreis (Preisstand 2023-10-16) – Altpreis, nicht live bestätigt"
-5d1d6eae23a9,MPreis,1.49,,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-3c670369d5e0,MPreis,1.99,,Preis 2023,2023-10-16,"heisse-preise.io mpreis (Preisstand 2023-10-16) – Altpreis, nicht live bestätigt"
-f701933808ca,MPreis,5.79,32.17,Preis 2023,2023-07-24,"heisse-preise.io mpreis (Preisstand 2023-07-24) – Altpreis, nicht live bestätigt"
-bfa671b46678,MPreis,2.99,,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-f441a36b87a8,MPreis,5.397,17.99,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-ee84adc2b129,MPreis,1.09,2.18,Preis 2024,2024-04-07,"heisse-preise.io mpreis (Preisstand 2024-04-07) – Altpreis, nicht live bestätigt"
-2b6a24a82c4d,MPreis,2.7,7.2,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-09dcd9ab86f1,MPreis,2.89,7.61,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-359805618b97,MPreis,3.39,22.6,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-8d6614aa8927,MPreis,1.99,11.06,Preis 2024,2024-06-21,"heisse-preise.io mpreis (Preisstand 2024-06-21) – Altpreis, nicht live bestätigt"
-369ed27da763,MPreis,3.99,10.1,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-7d46c973cde7,MPreis,3.69,14.76,Preis 2024,2024-05-16,"heisse-preise.io mpreis (Preisstand 2024-05-16) – Altpreis, nicht live bestätigt"
-4e18e1b0d19f,MPreis,3.69,14.76,Preis 2024,2024-05-16,"heisse-preise.io mpreis (Preisstand 2024-05-16) – Altpreis, nicht live bestätigt"
-f0da75b84cdc,MPreis,3.69,14.76,Preis 2024,2024-05-16,"heisse-preise.io mpreis (Preisstand 2024-05-16) – Altpreis, nicht live bestätigt"
-6d0c23aef7b8,MPreis,3.2,12.8,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-af61d9232fd0,MPreis,3.69,14.76,Preis 2024,2024-05-16,"heisse-preise.io mpreis (Preisstand 2024-05-16) – Altpreis, nicht live bestätigt"
-5beb2053f461,MPreis,3.69,14.76,Preis 2023,2023-10-30,"heisse-preise.io mpreis (Preisstand 2023-10-30) – Altpreis, nicht live bestätigt"
-e3e5b5525c54,MPreis,2.79,5.58,Preis 2024,2024-05-27,"heisse-preise.io mpreis (Preisstand 2024-05-27) – Altpreis, nicht live bestätigt"
-42869d2fed08,MPreis,1.69,6.76,Preis 2024,2024-06-03,"heisse-preise.io mpreis (Preisstand 2024-06-03) – Altpreis, nicht live bestätigt"
-1c6fe8c6a13b,MPreis,1.69,6.76,Preis 2024,2024-06-03,"heisse-preise.io mpreis (Preisstand 2024-06-03) – Altpreis, nicht live bestätigt"
-04e52663b7fe,MPreis,15,,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-2381c862963d,MPreis,5.097,16.99,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-fd4904cd8a6a,MPreis,7.2748,13.99,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-dc7aca1a18bd,MPreis,13.194,21.99,Preis 2024,2024-03-11,"heisse-preise.io mpreis (Preisstand 2024-03-11) – Altpreis, nicht live bestätigt"
-15c1a3dc18b5,MPreis,7.2748,13.99,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-745011d904a7,MPreis,3.69,23.06,Preis 2023,2023-10-03,"heisse-preise.io mpreis (Preisstand 2023-10-03) – Altpreis, nicht live bestätigt"
-236e2f784cfe,MPreis,2.99,5.98,Preis 2023,2023-10-02,"heisse-preise.io mpreis (Preisstand 2023-10-02) – Altpreis, nicht live bestätigt"
-40ed6b258de3,MPreis,2.7,12.86,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-3074f5cab295,MPreis,1.99,3.98,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-28e1effdce89,MPreis,2.39,11.38,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-b21bac28a354,MPreis,2.19,4.38,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-9a0f7f081cbf,MPreis,2.39,11.38,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-d18a0d618b9d,MPreis,1.19,5.67,Preis 2024,2024-05-25,"heisse-preise.io mpreis (Preisstand 2024-05-25) – Altpreis, nicht live bestätigt"
-63b27729645f,MPreis,4.1965,11.99,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-9145b0d7837e,MPreis,4.79,15.97,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-dde62d16a859,MPreis,2.79,12.13,Preis 2023,2023-08-21,"heisse-preise.io mpreis (Preisstand 2023-08-21) – Altpreis, nicht live bestätigt"
-de4571bbd74e,MPreis,11.99,17.13,Preis 2024,2024-01-01,"heisse-preise.io mpreis (Preisstand 2024-01-01) – Altpreis, nicht live bestätigt"
-75ba4447e8e1,MPreis,19.99,,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-854c54e30a75,MPreis,13,,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-75f91ec15b86,MPreis,14.99,,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-1cc1d921d6aa,MPreis,17.99,,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-03bf2cc1bb81,MPreis,12.99,,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-1d128c21f94d,MPreis,16.99,,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-81f59174d290,MPreis,17.99,,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-3376e0998e37,MPreis,14.99,,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-2dc03afaf19f,MPreis,19.99,,Preis 2023,2023-11-27,"heisse-preise.io mpreis (Preisstand 2023-11-27) – Altpreis, nicht live bestätigt"
-594a4fd9d9d9,MPreis,2.59,11.26,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-72d6ec2e84c7,MPreis,5.097,16.99,Preis 2023,2023-10-26,"heisse-preise.io mpreis (Preisstand 2023-10-26) – Altpreis, nicht live bestätigt"
-efc950d70a53,MPreis,2.2,5.64,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
-71832cc4977c,MPreis,18,,Preis 2023,2023-05-26,"heisse-preise.io mpreis (Preisstand 2023-05-26) – Altpreis, nicht live bestätigt"
+297a0cbf0aa5,Gurkerl,11.99,23.98,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+e71caf9b5194,Gurkerl,2.69,8.97,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+d63acaac47f7,Gurkerl,10.02,18.91,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+c2fcda00fc42,Gurkerl,9.61,18.13,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+98321ce9234a,Gurkerl,10.16,18.81,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+b4761a48ed26,Gurkerl,9.57,18.06,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+8823d361fafa,Gurkerl,10.1,19.42,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+71cfe756b567,Gurkerl,12.15,22.92,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+5cd8dcf74348,Gurkerl,12.77,24.56,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+4a097325cf55,Gurkerl,12.49,24.98,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+9d4bdfaf1636,Gurkerl,9.96,19.15,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+5f95a8ed8c5f,Gurkerl,11.47,22.49,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+5d11c78c365d,Gurkerl,15.34,30.08,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+177d1d8a8266,Gurkerl,14.49,28.41,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+d907c7a111a4,Gurkerl,14.49,28.98,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+8cc91d519d55,Gurkerl,14.49,27.6,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+12e8c74c7872,Gurkerl,11.99,23.51,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+1e85ac8a4d77,Gurkerl,11.99,23.51,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+543df45d608a,Gurkerl,11.99,23.51,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+cc0ed086f7d9,Gurkerl,14.49,28.98,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+65d36b7849d1,Gurkerl,15.99,31.35,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+452fa66c33e3,Gurkerl,11.99,23.51,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+8a50d769ce83,Gurkerl,11.99,23.51,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+4cdb1f5198e0,Gurkerl,16.99,33.98,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+416cf908fe1f,Gurkerl,14.49,28.98,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+8e8060ea8aed,Gurkerl,2.29,35.23,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+dbfacbba27b2,Gurkerl,2.49,35.57,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+436e45fc4d32,Gurkerl,2.49,35.57,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+a28205107a82,PrepMyMeal,9.99,,live 2026,2026-10-13,food-connectors/prepmymeal 2026-10-13
+be0b15383cfc,PrepMyMeal,10.49,,live 2026,2026-10-13,food-connectors/prepmymeal 2026-10-13
+275ae02e5e42,PrepMyMeal,10.49,,live 2026,2026-10-13,food-connectors/prepmymeal 2026-10-13
+382eda7ea88d,PrepMyMeal,10.49,,live 2026,2026-10-13,food-connectors/prepmymeal 2026-10-13
+79fa90f4c933,PrepMyMeal,10.49,,live 2026,2026-10-13,food-connectors/prepmymeal 2026-10-13
+61bb5e2cc75e,Penny,4.99,6.24,live 2026,2026-10-13,food-connectors/penny 2026-10-13
+4b277af279e2,Penny,2.49,6.23,live 2026,2026-10-13,food-connectors/penny 2026-10-13
+d81b5713e1dc,Gurkerl,9.79,19.2,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+bcd231cb442d,Gurkerl,10.49,23.31,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+e965b02a91f2,Gurkerl,10.49,23.31,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+7d37fef1fc73,Gurkerl,10.49,26.23,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+120692ce3530,Gurkerl,10.99,21.55,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+965f178ae57e,Gurkerl,11.29,17.92,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+c87e337ff607,Gurkerl,12.49,24.98,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+44c208dbcbc1,Gurkerl,5.49,13.69,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+b85942cab816,Gurkerl,7.49,27.24,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+5d110061b4ba,Gurkerl,7.49,27.24,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+be01a122d8b2,Gurkerl,9.79,35.6,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+7931caa569fe,Gurkerl,8.99,29.97,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+3fa6cf311e0b,Gurkerl,9.99,33.3,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+38e50cbc4787,Gurkerl,9.99,22.2,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+09e28ed3a20b,Gurkerl,12.49,22.71,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+c8b63d6dfd3f,Gurkerl,9.99,26.29,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+1120a34434b0,Gurkerl,3.59,7.8,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+f588a8a3794d,Gurkerl,4.69,13.4,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+bf38c599276b,Gurkerl,4.49,14.25,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+d8fbac2f1c02,Gurkerl,5.29,17.34,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+9ae9bd936f67,Gurkerl,5.89,27.4,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+ab9e49b92935,Gurkerl,5.59,14.71,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+2af73e7686bd,Gurkerl,6.09,15.22,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+1e367c1b4373,Gurkerl,6.59,15.33,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+498c7f88d278,Gurkerl,5.59,13.73,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+85e1a4e7f7a8,Gurkerl,9.99,27.75,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+67428ff29235,Gurkerl,10.99,26.17,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+b9720b571339,Gurkerl,3.29,9.97,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+bfc2d858f5f9,Gurkerl,3.99,11.4,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+4a50e2b23240,Gurkerl,3.99,11.4,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+240edb7550aa,Gurkerl,3.99,11.4,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+a552a62cfe47,Gurkerl,3.79,6.11,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+e6773165507a,Gurkerl,7.69,17.48,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+9ce49cd4d42f,Gurkerl,6.99,18.39,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+e0a6da0f54c2,Gurkerl,5.99,23.04,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+d32ce9e90a2e,Gurkerl,5.49,10.98,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+90e83cfeac24,Gurkerl,6.19,16.51,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+9b920234f8c3,Gurkerl,7.29,13.75,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+3ba778c7df45,Gurkerl,7.29,18.23,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+0500df23ec6b,Gurkerl,7.29,13.75,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+f301a320384a,Gurkerl,9.39,33.54,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+6c6f8dbc6559,Gurkerl,9.89,30.91,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+11421aa02521,Gurkerl,4.99,20.79,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+e00d23aa4903,Gurkerl,2.49,6.64,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+4973045f6fab,Gurkerl,2.99,7.48,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+4a3839bab6ee,Gurkerl,2.99,18.81,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+0bc06a8df31c,Gurkerl,3.39,10.27,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+4b3885090ea9,Gurkerl,1.99,31.59,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+27fa0f66bed4,Gurkerl,1.99,31.59,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+3797a07a9048,Gurkerl,1.99,28.43,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+f5446a129190,Gurkerl,2.89,26.04,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+fda36c84ce1e,Gurkerl,2.99,36.02,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+ac0499b8bf52,Gurkerl,2.79,12.68,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+b1b06d03f3de,Gurkerl,2.79,12.68,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+140ceba03900,Gurkerl,3.19,7.97,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+1e615a155197,Gurkerl,3.19,7.97,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+fcbb958d3dbd,Gurkerl,3.19,7.97,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+ea5f5c82b5b3,Gurkerl,3.19,7.97,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+03bcc0aa497f,Gurkerl,3.19,7.97,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+3671a941e941,Gurkerl,10.99,27.47,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+966c05be9ed4,Gurkerl,14.99,37.48,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+fd2353aeff62,Gurkerl,5.89,19.63,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+69633a38b396,Gurkerl,4.19,46.56,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+18abfa7c119f,Gurkerl,3.99,3.99,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+c41881c97285,Gurkerl,5.59,13.73,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+744bce1e705d,Gurkerl,5.99,28.52,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+ae330db45c1d,Gurkerl,1.99,5.69,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+2cb4f053ba2e,Gurkerl,2.69,8.15,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+9118ea4646d5,Gurkerl,5.99,26.04,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+c2ea252415e2,Gurkerl,6.49,9.27,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+8025de69a7ce,Gurkerl,1.99,5.69,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+757b573e8cdd,Gurkerl,5.99,27.23,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+ba86acef5005,Gurkerl,2.69,8.15,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+da7c5214d46b,Gurkerl,2.69,8.15,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+11d4fe292f33,Gurkerl,2.69,8.15,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+5d9a3c577bbe,Gurkerl,10.49,26.9,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+bf61078e68fa,Gurkerl,4.79,11.97,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+181eaa16ccb0,Gurkerl,5.99,26.04,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+f008aa35f8d8,Gurkerl,5.99,26.04,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+14311d17a9f0,Gurkerl,18.28,16.93,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+43aa606d5435,Gurkerl,3.59,7.98,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+b484f8998a79,Gurkerl,5.99,31.53,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+d996823471ff,Gurkerl,11.52,10.97,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+868560626685,Gurkerl,6.19,12.38,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+b19d0f0eb4ed,Gurkerl,4.39,29.27,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+0a653a2d8269,Gurkerl,8.39,11.99,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+fd0ab0e2ad57,Gurkerl,5.99,26.04,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+013eeb4dd3c8,Gurkerl,3.59,8.97,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+3c96f34ba5b4,Gurkerl,7.99,11.41,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+0d03fe8ccb53,Gurkerl,3.59,7.98,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+1b219634eb90,Gurkerl,2.79,13.95,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+2356120f8f7e,Gurkerl,3.99,10.5,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+7e44dfd76651,Gurkerl,3.59,7.98,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+d19591fda657,Gurkerl,6.19,12.38,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+22249ee82f2f,Gurkerl,18.56,18.56,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+9f1bb03ccb8b,Gurkerl,11.99,29.98,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+645ccd290944,Gurkerl,2.99,7.87,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+8183815e925f,Gurkerl,7.19,22.47,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+4eaeaa9160d9,Gurkerl,10.26,10.47,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+bcd8bb734106,Gurkerl,10.49,23.31,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+ad828d67ff40,Gurkerl,5.59,11.18,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+2dbb06617a52,Gurkerl,14.08,13.54,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+42ee4aaab866,Gurkerl,10.49,20.57,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+4c287ad4f3f3,Gurkerl,1.99,4.98,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+9cf4b47f4e74,Gurkerl,3.99,12.09,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+f5696ee7987d,Gurkerl,10.99,27.47,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+1d01c1b66e6e,Gurkerl,7.89,17.53,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+f195a70cd049,Gurkerl,16.49,32.98,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+95563f8a967a,Gurkerl,12.79,26.65,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+2e3adaab5a91,Gurkerl,19.99,39.98,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+ddea4384c02e,Gurkerl,11.99,29.98,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+2028d479dc65,Gurkerl,10.99,27.47,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+d8f8f05b953a,Gurkerl,3.19,7.97,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+4daba3362a7e,Gurkerl,9.19,20.42,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+5a6fe1fa1cfc,Gurkerl,10.49,23.31,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+2d994c6ca1fa,Gurkerl,4.19,10.48,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+e4733040dd82,Gurkerl,2.29,5.72,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+1f3b480f09c7,Gurkerl,2.29,5.72,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+b1018a886293,Gurkerl,4.39,10.97,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+bdac2cb0ff1b,Gurkerl,4.19,4.93,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+1b677293244f,Gurkerl,2.79,6.98,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+a921fc42a741,Gurkerl,4.69,9.38,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+29078bf98e21,Gurkerl,10.99,22.43,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+374fea51a3b0,Gurkerl,9.69,21.53,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+372f85366c95,Gurkerl,5.39,17.97,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+f3dddbf38d68,Gurkerl,5.19,12.97,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+4dec5c786adf,Gurkerl,5.19,15.73,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+b124ae7b279f,Gurkerl,10.99,24.42,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+54dc56241c59,Gurkerl,7.29,29.16,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+5d104de2081c,Gurkerl,9.19,18.38,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+de11582f8bc8,Gurkerl,9.19,20.42,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+a4ea4583d313,Gurkerl,5.99,27.23,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+0942d60e547e,Gurkerl,20.39,18.54,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+b6544c4fbdf3,Gurkerl,5.69,22.76,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+3040eae6710d,Gurkerl,5.69,22.76,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+a70a071f1bb9,Gurkerl,6.09,24.36,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+717ff90c7cac,Gurkerl,6.29,25.16,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+1cb9c85ebb5d,Gurkerl,9.99,15.14,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+df56320aadce,Gurkerl,6.19,12.38,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+f35a4fd86120,Gurkerl,9.19,15.32,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+85f1c6cfaeee,Gurkerl,6.19,13.76,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+9137d375b7bf,Gurkerl,6.19,13.76,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+fadc9cb7a391,Gurkerl,7.99,12.29,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+e3388039ac64,Gurkerl,6.19,15.48,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+956f2deeab8a,Gurkerl,9.19,15.32,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+58f1aaacd666,Gurkerl,6.19,17.69,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+f0a24057d047,Gurkerl,5.19,17.3,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+e23d71f370ad,Gurkerl,9.19,20.42,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+d734e3efd732,Gurkerl,7.99,12.29,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+831a550a0287,Gurkerl,9.19,20.42,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+1c37227d85a7,Gurkerl,9.19,15.32,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+1d1758b0b5c3,Gurkerl,8.19,13.65,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+e899b3a4cbe2,Gurkerl,7.99,12.29,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+c7ef0b6c5f44,Gurkerl,9.19,18.38,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+bf7814ea1227,Gurkerl,5.59,15.97,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+346cb5950b90,Gurkerl,9.19,20.42,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+5636ae8515a6,Gurkerl,9.19,20.42,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+077d6f950d20,Gurkerl,10.29,20.18,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+53cc53dbf5ea,Gurkerl,10.19,16.44,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+bec671509eca,Gurkerl,5.59,18.63,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+0c340d9ecd4e,Gurkerl,2.99,11.96,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+d60c4eb22447,Gurkerl,3.59,11.22,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+0ee5a3876514,Gurkerl,2.99,11.96,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+1f0a4315da3e,Gurkerl,6.19,12.38,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+6415820c4167,PrepMyMeal,12.48,12.48,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+686d7d17b44d,PrepMyMeal,10.49,20.98,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+96f3aa02ba70,PrepMyMeal,10.49,10.49,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+5e0926ee45fe,PrepMyMeal,10.49,23.31,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+4d744f4e8811,PrepMyMeal,10.49,22.32,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+f9e91c6d75e6,PrepMyMeal,10.49,10.49,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+7c5f88940fa0,PrepMyMeal,12.49,27.15,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+f677ea453c42,PrepMyMeal,12.49,25.23,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+10b3dad1e3de,PrepMyMeal,10.49,24.98,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+7d26595c4f74,PrepMyMeal,10.49,20.98,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+346094a5c3ec,PrepMyMeal,12.48,12.48,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+9c102475c2b0,PrepMyMeal,10.49,23.31,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+a1c4e775774d,PrepMyMeal,9.49,24.33,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+9cfde4287e74,PrepMyMeal,12.48,12.48,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+ffa2cd85cb4e,PrepMyMeal,12.48,12.48,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+a13ae2c0c168,PrepMyMeal,10.49,20.98,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+9bab6d53fe45,PrepMyMeal,10.49,20.98,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+018d17a03d90,PrepMyMeal,10.49,20.98,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+f18f4193620c,PrepMyMeal,10.49,22.32,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+9004373c4ef3,PrepMyMeal,10.49,20.98,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+21e94203f52b,PrepMyMeal,10.98,10.98,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+6071f6919df1,PrepMyMeal,10.49,20.98,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+1c9325a06755,PrepMyMeal,10.49,26.23,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+3101838d5053,PrepMyMeal,10.49,26.23,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+56a203cce5c3,PrepMyMeal,10.49,26.23,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+551c18c40e98,PrepMyMeal,10.49,20.98,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+1cc6a16a4a30,PrepMyMeal,12.48,12.48,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+714376c284c3,PrepMyMeal,10.49,20.98,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+1fdd61d1288a,PrepMyMeal,12.49,24.98,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+99f2f7655abb,PrepMyMeal,10.49,20.98,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+34b4f5941df2,PrepMyMeal,12.49,27.76,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+57dd550c6ee5,PrepMyMeal,18.49,41.55,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+e4051922a263,PrepMyMeal,10.49,23.31,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+64067b5e668d,PrepMyMeal,12.48,12.48,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+be26edc30314,PrepMyMeal,12.48,12.48,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+3e8c65989639,PrepMyMeal,10.49,20.17,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+7330d1740066,PrepMyMeal,10.49,20.98,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+eafc6bfb97ac,PrepMyMeal,10.49,22.8,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+26877b7ef192,PrepMyMeal,12.48,12.48,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+dde00bf4d932,PrepMyMeal,21.25,21.25,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+cc7f4987aece,PrepMyMeal,12.48,12.48,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+650d68a47e67,PrepMyMeal,12.48,12.48,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+f467f85eb04b,PrepMyMeal,10.49,20.98,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+4efd1332ff39,PrepMyMeal,10.49,21.85,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+f356ee77b2e9,PrepMyMeal,10.49,31.79,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+1fc498c330cc,PrepMyMeal,12.48,12.48,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+897cb9bb7333,PrepMyMeal,11.98,11.98,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+fca796db3c91,PrepMyMeal,10.49,21.85,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+2d72466f765d,PrepMyMeal,10.49,22.32,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+ae79bde887a6,PrepMyMeal,10.49,22.8,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+c5c8dabaf6ae,PrepMyMeal,10.49,23.84,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+9b11b52e8c7d,PrepMyMeal,12.48,12.48,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+901b7ea91ab4,PrepMyMeal,10.49,20.57,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+a6aaf26141d5,PrepMyMeal,10.49,20.98,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+740fc376b602,PrepMyMeal,10.49,23.84,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+15f484e9771d,PrepMyMeal,10.49,20.98,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+5a61fe59ac44,PrepMyMeal,10.49,20.98,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+bfac90ef1e34,PrepMyMeal,10.49,26.23,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+5a6c8c7ce2e0,PrepMyMeal,10.49,25.59,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+6d88401fbd31,PrepMyMeal,10.49,21.41,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+25b09af85a70,PrepMyMeal,12.48,12.48,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+d5d741893ea3,PrepMyMeal,10.49,22.8,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+6c700342d73b,PrepMyMeal,10.49,20.98,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+ee5ca9fbf457,PrepMyMeal,11.49,25.53,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+f23aee66c910,PrepMyMeal,12.49,27.76,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+ffe685a61884,PrepMyMeal,12.48,12.48,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+c2eaf79e3d4d,PrepMyMeal,12.48,12.48,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+208be8bf95f3,PrepMyMeal,11.98,11.98,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+2e955f0de38e,PrepMyMeal,12.48,12.48,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+5364202cce0a,PrepMyMeal,8.49,18.06,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+454185be70eb,PrepMyMeal,9.99,22.2,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+f3f3e96eb8ec,PrepMyMeal,10.49,20.98,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+59762b62e3ae,PrepMyMeal,10.49,23.84,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+489203bdd817,PrepMyMeal,10.49,20.98,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+a4c78994b214,PrepMyMeal,10.49,22.08,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+0d1056012ed6,PrepMyMeal,10.49,23.31,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+9fff6fb20ddd,PrepMyMeal,10.49,22.8,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+c0bdfe5f7194,PrepMyMeal,10.49,23.31,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+88a19d335f11,PrepMyMeal,10.49,22.32,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+ef4752558413,PrepMyMeal,10.49,22.8,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+c85cdeae3fb3,PrepMyMeal,10.49,22.8,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+602f033ef4d2,PrepMyMeal,9.99,24.98,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+8e1461d55736,PrepMyMeal,10.49,23.84,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+e76a33e635ef,PrepMyMeal,9.99,24.98,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+0aab7d8d6d72,PrepMyMeal,10.49,26.23,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+e962c4c81cad,LiveFresh,5.99,14.97,live 2026,2026-10-13,livefresh.at/products.json 2026-10-13
+9661d83ecfa1,LiveFresh,5.99,14.97,live 2026,2026-10-13,livefresh.at/products.json 2026-10-13
+dec7ba99e54b,LiveFresh,5.99,14.97,live 2026,2026-10-13,livefresh.at/products.json 2026-10-13
+3066be0ae1d8,LiveFresh,5.99,14.97,live 2026,2026-10-13,livefresh.at/products.json 2026-10-13
+ce04d2e4da83,LiveFresh,5.99,14.97,live 2026,2026-10-13,livefresh.at/products.json 2026-10-13
+74810bd02246,LiveFresh,5.99,14.97,live 2026,2026-10-13,livefresh.at/products.json 2026-10-13
+b4c50eac22a6,LiveFresh,5.99,14.97,live 2026,2026-10-13,livefresh.at/products.json 2026-10-13
+f6d184ed4cf1,LiveFresh,5.99,14.97,live 2026,2026-10-13,livefresh.at/products.json 2026-10-13
+5d166baed8f7,LiveFresh,5.99,14.97,live 2026,2026-10-13,livefresh.at/products.json 2026-10-13
+367e3536caa6,LiveFresh,5.99,14.97,live 2026,2026-10-13,livefresh.at/products.json 2026-10-13
+00adcb0e03bc,Gurkerl,3.69,11.18,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+f19babed6cbf,Gurkerl,2.29,35.23,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+0afc2d36eb86,Gurkerl,3.59,19.94,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+3dfac2aef389,Gurkerl,3.19,7.97,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+f08cc51d7b8f,Gurkerl,3.19,7.97,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+b1e00a30ba11,Gurkerl,11.99,23.51,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+0645aebfc41c,Gurkerl,3.99,11.4,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+ec33e526d417,Gurkerl,2.99,14.95,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+09b5ee79ffdc,Gurkerl,3.39,25.11,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+4cc54fd363dd,Gurkerl,7.89,19.24,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+003d108fc679,Gurkerl,1.79,10.53,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+cc3c77201211,Gurkerl,17.99,17.99,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+0de38856a882,Gurkerl,5.29,14.69,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+05535b22c3a7,Gurkerl,2.99,11.96,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+5c1d3ab9590f,Gurkerl,1.59,7.95,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+9f04e819cd15,Gurkerl,1.59,7.95,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+089a313dcca8,Gurkerl,2.89,7.23,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+2b3701e15e76,Gurkerl,2.89,7.23,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+8baf1da841cb,Gurkerl,1.89,8.04,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+c132129e37f8,Gurkerl,3.69,9.84,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+8dc594634ee5,Gurkerl,3.49,17.45,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+de71070b5458,Gurkerl,2.19,10.95,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+a7df172637f2,Gurkerl,0.85,4.72,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+d3d01c7cb7ec,Gurkerl,1.89,8.04,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+2dc13bdd2964,Gurkerl,2.19,10.95,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+dbb2f3371cf0,Gurkerl,1.89,8.04,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+3bf0d6bd75ac,Gurkerl,0.55,5.5,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+992fd8ceb20c,Gurkerl,0.55,5.5,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+13d40dbc5799,Gurkerl,1.89,8.04,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+c0afbf91401e,Gurkerl,1.89,8.04,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+a5a2503892a9,Gurkerl,0.85,4.72,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+10224a546370,Gurkerl,1.09,6.81,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+204868babd8c,Gurkerl,3.99,16.62,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+d1267dc3dfa4,Gurkerl,4.39,25.82,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+01c3a4b9b0b2,Gurkerl,0.95,6.33,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+207e5f93af17,Gurkerl,4.09,40.9,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+fd67117fdd36,Gurkerl,1.89,8.04,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+62fa808971ae,Gurkerl,3.99,22.93,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+4b6f4524ab93,Gurkerl,3.99,24.94,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+4a513e6cfffb,Gurkerl,3.99,21.68,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+fa4980e02525,Gurkerl,3.99,24.33,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+7cc4ff0362ef,Gurkerl,5.59,55.9,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+38d607d33a27,Gurkerl,6.19,15.48,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+717395c6de9e,Gurkerl,6.19,15.48,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+76d7108e2390,Gurkerl,6.19,15.48,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+d8a299156dfb,Gurkerl,2.99,14.95,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+22eaf350d970,Gurkerl,6.99,14.56,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+33ffaa204b28,Gurkerl,4.59,22.95,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+366d55b8e238,Gurkerl,2.39,17.7,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+850c4f851594,Gurkerl,6.39,14.2,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+0c15947cba47,Gurkerl,2.79,16.41,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+3908c8131464,Gurkerl,3.19,7.97,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+75d25b1a04f2,Gurkerl,5.99,15.76,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+01d8e7b91af0,Gurkerl,6.19,20.63,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+f58f4e786b78,Gurkerl,2.49,11.07,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+6b22561b013a,Gurkerl,3.59,8.97,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+c0073edac2d6,Gurkerl,11.99,23.06,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+10af26904d73,Gurkerl,6.19,15.48,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+d70a62e20263,Gurkerl,6.99,19.42,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+17fce9bbfe17,Gurkerl,6.99,19.42,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+c53fc2870f3a,Gurkerl,7.49,24.97,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+f309e37b66d7,Gurkerl,7.49,24.97,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+7224369d34c2,Gurkerl,7.49,24.97,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+06c1bf0ab3d0,Gurkerl,4.29,9.53,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+b3b767f1f9f4,Gurkerl,4.59,22.95,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+0d54d3b07bc7,Gurkerl,8.29,22.41,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+e7b7f6a74b2d,Gurkerl,10.49,23.31,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+a87dd3329241,Gurkerl,4.19,4.93,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+16fc2ed0df09,Gurkerl,1.99,16.58,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+00c903c26f49,Gurkerl,9.29,34.41,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+80a47f030234,Gurkerl,9.09,22.72,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+cb8d4c5aa217,Gurkerl,2.29,22.9,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+7decb335c1a1,Gurkerl,5.49,13.49,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+49ed38990de4,Gurkerl,1.99,26.53,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+cc27ad004b2d,Gurkerl,2.99,18.57,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+2186208cb5d0,Gurkerl,4.99,11.88,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+331ebff1c252,Gurkerl,2.59,20.23,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+6661c0126f26,Gurkerl,3.69,9.84,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+62e4d4454e5a,Gurkerl,2.99,7.97,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+03376f0e05bc,Gurkerl,3.69,9.84,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+d9913a1633a0,Gurkerl,2.99,7.97,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+ee3b1f6120f4,Gurkerl,4.69,46.9,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+6774a1af39de,Gurkerl,2.79,21.46,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+7d56b6a3fc58,Gurkerl,3.59,17.95,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+d40926abf61e,Gurkerl,3.59,17.95,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+e59a039cc955,Gurkerl,3.59,17.95,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+7c11d71e3224,Gurkerl,10.88,20.15,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+92c6f3ad95a2,Gurkerl,1.29,11.83,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+1d34c1478e65,Gurkerl,4.19,20.95,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+6917177d27f1,Gurkerl,0.79,4.39,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+76731c59b6bd,Gurkerl,2.09,5.22,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+a03121cc0b8a,Gurkerl,3.09,9.36,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+160d923d776f,Gurkerl,3.09,9.36,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+1f3a604411a7,Gurkerl,3.09,9.36,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+c47e279154b3,Gurkerl,5.99,23.96,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+4fca3f46794d,Gurkerl,3.29,13.71,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+36ef57e343ba,Gurkerl,5.99,13.31,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+6d30a20709fa,Gurkerl,3.59,11.22,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+3cc7413f324e,Gurkerl,8.29,41.45,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+7ff35ddd4d5d,Gurkerl,6.39,25.56,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+bf3636becea5,Gurkerl,14.79,25.95,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+4e9411828d2e,Gurkerl,9.99,28.54,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+74fc7d681493,Gurkerl,17.49,41.64,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+ab52cef650fe,Gurkerl,4.59,22.95,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+838f9c7dcc63,Gurkerl,27.92,26.59,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+90d46ee848d2,Gurkerl,9.71,19.04,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+301e3a803520,Gurkerl,11.69,22.92,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+e0109e6bfe39,Gurkerl,4.99,11.88,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+8e982ea24bf1,Gurkerl,4.99,11.88,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+7bf8d18f86d3,Gurkerl,9.99,24.98,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+1c6721940fae,Gurkerl,5.2,22.61,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+b31e707577e2,Gurkerl,1.99,31.59,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+33928c6749c6,Gurkerl,1.39,22.42,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+67cc7f488b48,Gurkerl,2.19,28.08,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+655eda6a859c,Gurkerl,2.49,20.58,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+27c52ab1282c,Gurkerl,0.99,6.6,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+702ad65f65fa,Gurkerl,1.79,3.98,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+ddee0f127ae8,Gurkerl,1.79,3.98,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+e1a4e9162cc7,Gurkerl,1.09,8.26,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+74fb289212c5,Gurkerl,1.79,3.58,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+f308a00afd1e,Gurkerl,1.19,7.93,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+0835293ae823,Gurkerl,1.09,5.19,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+fed96756b79b,Gurkerl,1.79,3.58,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+5c504f933591,Gurkerl,1.79,3.58,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+a6766973698d,Gurkerl,1.79,3.98,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+f074bb657f19,Gurkerl,2.59,6.91,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+34f4e9b94fe7,Gurkerl,2.59,5.18,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+807dc5cbdb70,Gurkerl,4.99,11.88,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+604e0e9e1f80,Gurkerl,4.99,11.88,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+66d7130677c4,Gurkerl,5.59,15.97,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+7e627b3324af,Gurkerl,5.59,15.97,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+a30cf0f6c799,Gurkerl,4.59,30.6,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+e58df8d37119,Gurkerl,4.39,29.27,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+f8fca44bb013,Gurkerl,7.09,19.16,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+3940d70e45bc,Gurkerl,8.29,41.45,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+22b9fa51089d,Gurkerl,2.29,25.44,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+130b8a671707,Gurkerl,3.99,44.33,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+47d1cf93f3c3,Gurkerl,4.39,43.9,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+8865f17b72a1,Gurkerl,3.39,14.12,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+b4a211d1a571,Gurkerl,3.99,44.33,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+8b28da7f9cd7,Gurkerl,1.99,9.95,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+5738d6350a2b,Gurkerl,5.09,25.45,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+69cb99f4da29,Gurkerl,3.49,10.91,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+ce6ffba47532,Gurkerl,3.59,22.44,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+d3ff9badbc43,Gurkerl,3.59,11.22,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+57a93321e4ea,Gurkerl,9.49,21.09,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+b4f6c107377a,Gurkerl,4.99,20.79,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+385997e5dcf0,Gurkerl,6.19,34.39,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+16ad62850031,Gurkerl,5.79,18.09,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+6e1104ee0570,Gurkerl,5.59,13.73,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+2e815c9eb9be,Gurkerl,3.29,20.18,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+bfcc5510c132,Gurkerl,5.59,13.73,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+f449f8ab5207,Gurkerl,8.79,19.53,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+bca5d425a2be,Gurkerl,8.99,19.98,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+7f96452f1d02,Gurkerl,12.59,24.21,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+27d9f5f61378,Gurkerl,3.79,31.58,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+02fd6baf148d,Gurkerl,2.59,20.23,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+71655620b120,Gurkerl,5.19,17.3,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+3428958581a6,Gurkerl,6.29,15.72,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+9e3af27daa83,Gurkerl,4.19,10.48,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+8cff05b110a3,Gurkerl,10.99,26.17,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+179052382797,Gurkerl,3.29,20.56,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+d79c2cf0e9fc,Gurkerl,2.99,16.61,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+0eab5b2d7e2a,Gurkerl,4.19,44.11,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+9b66b402c81e,Billa,1.79,7.62,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+5f0e79d6400a,Billa,2.79,6.98,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+e0f7b08a7e86,Billa,5.19,18.27,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+026867ab07fa,Billa,1.79,7.62,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+47fbb717ff36,Billa,1.49,7.45,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+10d36f1ed544,Billa,1.49,7.45,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+0ee4608ad24e,Billa,5.19,22.57,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+6e02b656224b,Billa,0.99,5.21,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+b297f8bb54bb,Billa,0.99,5.21,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+2be6daf9f70c,Billa,0.75,5.0,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+feff0108a25b,Billa,0.75,5.0,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+8999b3eb696d,Billa,0.99,6.6,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+f32bc9db1876,Billa,1.59,12.72,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+7dcdc74d2a1d,Billa,1.59,12.72,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+874efca61a6e,Billa,0.99,6.6,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+cf45e7bb3d09,Billa,0.99,6.6,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+e1047bc0381c,Billa,3.49,6.98,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+062d1a1c728e,Billa,5.19,14.42,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+6ffd68273933,Billa,0.79,5.27,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+37bb0fe912e1,Billa,0.79,5.27,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+5f49cc2f405f,Billa,1.49,7.45,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+a877addf80df,Billa,1.59,3.18,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+973dff218115,Billa,1.59,12.72,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+4ecfb68e83a7,Billa,2.59,15.24,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+c5a74e55466c,Billa,2.59,15.24,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+eaeced2b5373,Billa,1.99,18.09,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+6b55c47f8735,Billa,0.89,5.93,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+0602ff458d4f,Billa,2.99,16.61,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+fe40944298b5,Billa,1.49,7.45,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+77a1bc58ac47,Billa,1.99,9.95,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+ea0b74d6dce3,Billa,1.99,9.95,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+7dd4b1a28ec9,Billa,4.99,19.96,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+2f43f103832a,Billa,0.59,2.95,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+94c172039170,Billa,4.89,16.3,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+211ed8877854,Billa,4.89,16.3,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+4451e5d8e459,Billa,5.19,17.3,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+313a54320c33,Billa,3.29,8.22,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+6b7c98e8fea5,Billa,1.79,7.62,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+1408a64c4b9a,Billa,2.79,6.98,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+dd5f623ebbf7,Billa,9.9,23.57,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+1b4e2ac685ac,Billa,9.9,26.76,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+f7ad319f2751,Billa,1.59,12.72,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+1b6f17303e01,Billa,1.99,11.06,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+1c2c04b840ea,Billa,1.19,6.26,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+c79c64b00fa9,Billa,1.99,9.95,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+3808bfe8ecac,Billa,1.69,8.45,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+5153ea246584,Billa,1.69,8.45,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+ba27b1981fd5,Billa,7.49,16.64,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+7c51134240b2,Billa,5.19,25.95,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+61c5d57d2e7c,Billa,1.79,7.62,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+a7908ffa4174,Billa,1.79,7.62,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+06e34ddffd04,Billa,3.69,19.42,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+a3a9ae44b65f,Billa,2.69,5.38,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+5d23c4e6a27c,Billa,4.79,12.77,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+e7786643f5c4,Billa,1.09,4.64,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+96f5103c7ff7,Billa,1.09,4.64,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+72563d80475c,Billa,1.49,8.51,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+1a3afbea54ae,Billa,2.99,14.95,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+5a22ea859797,Billa,7.59,18.97,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+4a7e3d0c11db,Billa,6.99,17.48,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+104d6c3f66ec,Billa,1.29,6.45,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+35529ab022a9,Billa,1.99,6.63,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+3b3978b00f9f,Billa,2.49,4.98,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+78542676a9fd,Billa,0.99,14.14,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+736b3b2e4f85,Billa,1.99,9.95,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+253ad2ad65e3,Billa,1.29,13.58,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+6b1477f72310,Billa,2.69,5.38,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+3a8ed2056e0b,Billa,2.69,6.72,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+b8eafcfa3b48,Billa,2.59,16.19,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+c6683617c067,Billa,3.69,19.42,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+a6c0d9f02dc3,Billa,0.81,5.4,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+950a3ba065d4,Billa,1.39,11.58,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+8fe9d19fe33a,Billa,1.39,11.58,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+74ebef97a294,Billa,1.79,7.62,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+bd66b14cee1b,Billa,3.49,18.37,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+bd76e4821c13,Billa,3.49,18.37,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+a4afe718388f,Billa,2.39,7.24,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+1c5897a603bf,Billa,2.79,6.98,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+0d834bdd65c2,Billa,1.19,6.26,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+3efb56b025e0,Billa,1.19,6.26,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+4d52f5e7c327,Billa,1.19,6.26,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+f952ca57a764,Billa,0.99,14.14,live 2026,2026-10-13,food-connectors/billa 2026-10-13
+3a9be0f51b06,MPreis,2.49,10.16,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+ab45f32c40eb,MPreis,4.49,14.97,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+39c7ba9124b9,MPreis,2.55,6.38,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+a600cfc5eafb,MPreis,2.99,7.48,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+ec294fcc68c5,MPreis,2.99,7.48,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+0527438948aa,MPreis,2.85,7.12,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+41b920dcca3f,MPreis,2.99,7.48,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+7933ba6ac115,MPreis,2.39,5.98,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+e3ec9047b161,MPreis,3.19,14.18,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+28bd1449435e,MPreis,3.49,13.96,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+cd56b9c8e846,MPreis,3.49,13.96,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+4f7417ecfdfd,MPreis,3.49,13.96,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+11b410f27c67,MPreis,8.99,14.38,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+a1c8b8a3161b,MPreis,7.99,15.98,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+b51123742279,MPreis,14.99,18.74,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+75e66a01c86a,MPreis,14.99,18.74,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+f0e0db7426fc,MPreis,8.49,21.23,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+2e8450cf9716,MPreis,7.69,17.09,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+323f177a78ee,MPreis,7.69,17.09,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+56ee975b56a4,MPreis,7.69,17.09,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+fb9e97eca919,MPreis,8.29,15.07,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+420324b7eef1,MPreis,2.99,18.69,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+93d337f4ae68,MPreis,5.49,6.86,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+552fe895d94b,MPreis,6.49,8.11,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+442f81b0319a,MPreis,3.49,8.72,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+f46013e71695,MPreis,6.49,8.11,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+2b633a8eb1a2,MPreis,3.49,8.72,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+e23a00ad87da,MPreis,6.49,8.11,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+fed8ae4e1bb0,MPreis,6.49,8.11,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+dc0eb7f6c3ee,MPreis,6.49,8.11,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+ea2e26061064,MPreis,3.49,8.72,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+0be3f5420fb6,MPreis,3.49,8.72,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+ee684daa6be8,MPreis,5.99,11.98,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+23ce49bb5053,MPreis,5.99,13.31,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+856aba382270,MPreis,5.99,11.98,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+7642fbc80b18,MPreis,5.99,13.31,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+c271e300d08f,MPreis,5.99,11.98,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+ef423cd7172a,MPreis,5.99,11.98,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+2f90e63556e7,MPreis,5.99,13.31,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+01ae960c9848,MPreis,5.99,13.31,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+4f73eee7fc4e,MPreis,5.99,11.98,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+04b7bb16151a,MPreis,3.49,8.72,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+3d1171a5aad7,MPreis,8.99,35.96,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+5006b9669d27,MPreis,8.99,44.95,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+a73cd99adc80,MPreis,7.49,12.48,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+1e084bd8f111,MPreis,7.49,12.48,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+63bbceb98134,MPreis,7.49,11.52,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+d7395290a539,MPreis,7.49,11.52,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+88413b662b5c,MPreis,7.49,14.98,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+6abe96184bef,MPreis,7.49,11.52,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+dcd89f3f7a99,MPreis,6.99,15.53,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+c8951c628799,MPreis,2.49,7.11,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+d27bbb67ca9c,MPreis,7.49,10.7,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+d6c7a32fd488,MPreis,2.49,7.55,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+c561a789c02e,MPreis,2.99,14.95,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+4bf64d13b277,MPreis,6.79,19.4,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+e13c088036af,MPreis,5.79,14.47,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+7079852d1de6,MPreis,2.49,6.23,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+05b16dbdcf33,MPreis,3.49,8.72,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+58423828140e,MPreis,3.49,8.72,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+4210f8b4b549,MPreis,2.99,7.48,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+b02968eec992,MPreis,6.99,17.48,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+c028b4031266,MPreis,10.49,13.11,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+4b967d34c845,MPreis,2.99,3.74,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+7053a1f4673c,MPreis,3.99,7.98,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+534226492994,MPreis,3.99,3.99,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+f90ac3f7cb90,MPreis,1.99,4.98,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+3d31a543c6f6,MPreis,2.99,11.96,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+755c332719e6,MPreis,2.79,9.3,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+f4b8570af6f7,MPreis,2.79,9.3,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+7fc7de14cf9c,MPreis,2.99,18.01,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+73c9649d704d,MPreis,2.99,5.98,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+92a13a8649b7,MPreis,2.99,5.98,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+40283008da51,MPreis,3.99,11.08,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+18f64bd6225a,MPreis,3.99,8.87,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+df766f9ae163,MPreis,3.69,11.18,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+0ffdde9c0287,MPreis,3.99,12.09,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+6dcc416165af,MPreis,3.29,7.15,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+bce37ca043d9,MPreis,3.69,8.02,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+b86be2dada12,MPreis,2.69,12.23,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+bf5fba201ac8,MPreis,3.49,21.81,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+44672c9c0a72,MPreis,3.79,15.16,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+2c72020e40a0,MPreis,2.29,8.18,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+8faf09d88fe2,MPreis,3.79,15.16,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+b39798705bee,MPreis,3.79,15.16,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+feb817c3427d,MPreis,3.79,15.16,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+65e663f37421,MPreis,3.79,15.16,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+4a1b97a20be9,MPreis,3.79,15.16,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+9cca6ecf49f4,MPreis,3.79,15.16,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+e124986d9e98,MPreis,2.79,6.98,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+c2ed0153a729,MPreis,2.39,11.38,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+a8927a636e42,MPreis,4.49,14.97,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+57e343109450,MPreis,5.69,11.38,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+66d775222e0b,MPreis,4.49,14.97,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+f2e108ffe37b,MPreis,4.49,14.97,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+df6027dd2e6e,MPreis,4.99,11.88,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+8aa7f1a1efbd,MPreis,4.99,11.88,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+b7e5728c27b3,MPreis,4.99,11.88,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+ce493f3f119f,MPreis,4.99,11.88,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+67a964919a1c,MPreis,4.99,11.88,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
+804230624c65,MPreis,4.99,11.6,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
 9b1b56b1e1ca,Unimarkt,2.79,8.58,Preis 2023,2023-08-28,"heisse-preise.io unimarkt (Preisstand 2023-08-28) – Altpreis, nicht live bestätigt"
 1e34ad423a93,Unimarkt,2.09,8.36,Preis 2023,2023-06-22,"heisse-preise.io unimarkt (Preisstand 2023-06-22) – Altpreis, nicht live bestätigt"
 31f303cdf305,Unimarkt,2.79,8.58,Preis 2023,2023-08-28,"heisse-preise.io unimarkt (Preisstand 2023-08-28) – Altpreis, nicht live bestätigt"

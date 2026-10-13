@@ -1327,5 +1327,152 @@
   "file": "logos/heiploeg.png",
   "source_url": "https://www.heiploeg.com/Portals/10/logoHeiploeg%EF%B9%96ver=gFp07v-mytjmgebzGFz9oQ==.png",
   "brands": []
+ },
+ {
+  "slug": "ehrmann",
+  "name": "Ehrmann",
+  "category": "Marke",
+  "file": "logos/ehrmann.svg",
+  "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ehrmann_Logo.svg",
+  "brands": [
+   "Ehrmann"
+  ]
+ },
+ {
+  "slug": "dr-oetker",
+  "name": "Dr. Oetker",
+  "category": "Marke",
+  "file": "logos/dr-oetker.svg",
+  "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dr._Oetker-Logo.svg",
+  "brands": [
+   "Dr. Oetker",
+   "Paula"
+  ]
+ },
+ {
+  "slug": "zott",
+  "name": "Zott",
+  "category": "Marke",
+  "file": "logos/zott.svg",
+  "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Zott-Logo.svg",
+  "brands": [
+   "Zott"
+  ]
+ },
+ {
+  "slug": "bonne-maman",
+  "name": "Bonne Maman",
+  "category": "Marke",
+  "file": "logos/bonne-maman.png",
+  "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bonne_Maman_logo.png",
+  "brands": [
+   "Bonne Maman"
+  ]
+ },
+ {
+  "slug": "marks-spencer",
+  "name": "Marks & Spencer",
+  "category": "Marke",
+  "file": "logos/marks-spencer.svg",
+  "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/M%26S_logo.svg",
+  "brands": [
+   "Marks & Spencer"
+  ]
+ },
+ {
+  "slug": "followfood",
+  "name": "followfood",
+  "category": "Marke",
+  "file": "logos/followfood.svg",
+  "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Followfood_Logo.svg",
+  "brands": [
+   "followfood"
+  ]
+ },
+ {
+  "slug": "samyang-buldak",
+  "name": "Buldak (Samyang)",
+  "category": "Marke",
+  "file": "logos/samyang-buldak.svg",
+  "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Samyang_Foods_Logo.svg",
+  "brands": [
+   "Buldak"
+  ]
+ },
+ {
+  "slug": "darbo",
+  "name": "Darbo",
+  "category": "Marke",
+  "file": "logos/darbo.svg",
+  "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Adolf_Darbo_AG_Logo.svg",
+  "brands": [
+   "Darbo"
+  ]
+ },
+ {
+  "slug": "mpreis",
+  "name": "MPreis",
+  "category": "Handelskette",
+  "file": "logos/mpreis.svg",
+  "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/MPreis_Logo_2024.svg",
+  "brands": [
+   "MPreis",
+   "MPREIS"
+  ]
+ },
+ {
+  "slug": "unimarkt",
+  "name": "Unimarkt",
+  "category": "Handelskette",
+  "file": "logos/unimarkt.svg",
+  "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Unimarkt_logo.svg",
+  "brands": [
+   "Unimarkt"
+  ]
+ },
+ {
+  "slug": "denns",
+  "name": "denn's BioMarkt",
+  "category": "Handelskette",
+  "file": "logos/denns.svg",
+  "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Denns_Biomarkt_logo.svg",
+  "brands": [
+   "denn's",
+   "denns BioMarkt",
+   "denn's BioMarkt"
+  ]
+ },
+ {
+  "slug": "adeg",
+  "name": "ADEG",
+  "category": "Handelskette",
+  "file": "logos/adeg.svg",
+  "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Adeg.svg",
+  "brands": [
+   "ADEG",
+   "Adeg"
+  ]
+ },
+ {
+  "slug": "billa-plus",
+  "name": "Billa Plus",
+  "category": "Handelskette",
+  "file": "logos/billa-plus.svg",
+  "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Logo_BILLA-Plus.svg",
+  "brands": [
+   "Billa Plus",
+   "BILLA PLUS"
+  ]
+ },
+ {
+  "slug": "nah-frisch",
+  "name": "Nah&Frisch",
+  "category": "Handelskette",
+  "file": "logos/nah-frisch.svg",
+  "source_url": "https://www.nahundfrisch.at/storage//Master/nah-und-frisch-logo-solo.svg",
+  "brands": [
+   "Nah&Frisch",
+   "Nah & Frisch"
+  ]
  }
 ]

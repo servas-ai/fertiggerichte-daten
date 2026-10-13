@@ -36,6 +36,23 @@ def main():
             nut.append({"product_id": i, "kcal_100g": r.get("kcal"), "protein_100g": r.get("p100"), "fat_100g": r.get("fat"),
                 "saturated_fat_100g": r.get("sat"), "carbs_100g": r.get("carbs"), "sugar_100g": r.get("sugar"), "fiber_100g": r.get("fib"),
                 "salt_100g": r.get("salt"), "nutri_score": r.get("ns"), "health_score": r.get("score"), "eur_per_10g_protein": r.get("ppe")})
+    # Supplemental rows not (yet) in the app build (e.g. MPreis live shop, heisse-preise Unimarkt) live in
+    # data/supplemental/{products,prices,nutrition}.json and are re-appended here so refreshes never drop them.
+    sup = os.path.join(OUT, "supplemental")
+    names = {(p["chain"], (p["name"] or "").strip().lower()) for p in prods}
+    if os.path.isdir(sup):
+        sp = json.load(open(f"{sup}/products.json")) if os.path.exists(f"{sup}/products.json") else []
+        keep = {x["product_id"] for x in sp if x["product_id"] not in seen and (x["chain"], x["name"].strip().lower()) not in names}
+        prods += [x for x in sp if x["product_id"] in keep]; seen |= keep
+        for nm, lst in (("prices", prices), ("nutrition", nut)):
+            if os.path.exists(f"{sup}/{nm}.json"): lst += [x for x in json.load(open(f"{sup}/{nm}.json")) if x["product_id"] in keep]
+    # Plausibility gate: drop nutrition rows that cannot be real (macros > 100 g/100 g, salt > 30 g, kcal > 900)
+    # instead of publishing parse errors; they stay in the app build for the app routine to fix.
+    def ok(x):
+        f = lambda k: float(x.get(k) or 0)
+        return f("kcal_100g") <= 900 and f("salt_100g") <= 30 and f("protein_100g") + f("fat_100g") + f("carbs_100g") <= 100.5
+    dropped = [x["product_id"] for x in nut if not ok(x)]; nut[:] = [x for x in nut if ok(x)]
+    if dropped: print("nutrition plausibility gate dropped:", dropped)
     write("products", prods, list(prods[0]))
     write("prices", prices, list(prices[0]))
     write("nutrition", nut, list(nut[0]))

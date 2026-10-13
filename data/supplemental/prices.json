@@ -1,0 +1,1172 @@
+[
+ {
+  "product_id": "3a9be0f51b06",
+  "chain": "MPreis",
+  "price_eur": 2.49,
+  "price_per_kg_eur": 10.16,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "ab45f32c40eb",
+  "chain": "MPreis",
+  "price_eur": 4.49,
+  "price_per_kg_eur": 14.97,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "39c7ba9124b9",
+  "chain": "MPreis",
+  "price_eur": 2.55,
+  "price_per_kg_eur": 6.38,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "a600cfc5eafb",
+  "chain": "MPreis",
+  "price_eur": 2.99,
+  "price_per_kg_eur": 7.48,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "ec294fcc68c5",
+  "chain": "MPreis",
+  "price_eur": 2.99,
+  "price_per_kg_eur": 7.48,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "0527438948aa",
+  "chain": "MPreis",
+  "price_eur": 2.85,
+  "price_per_kg_eur": 7.12,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "41b920dcca3f",
+  "chain": "MPreis",
+  "price_eur": 2.99,
+  "price_per_kg_eur": 7.48,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "7933ba6ac115",
+  "chain": "MPreis",
+  "price_eur": 2.39,
+  "price_per_kg_eur": 5.98,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "e3ec9047b161",
+  "chain": "MPreis",
+  "price_eur": 3.19,
+  "price_per_kg_eur": 14.18,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "28bd1449435e",
+  "chain": "MPreis",
+  "price_eur": 3.49,
+  "price_per_kg_eur": 13.96,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "cd56b9c8e846",
+  "chain": "MPreis",
+  "price_eur": 3.49,
+  "price_per_kg_eur": 13.96,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "4f7417ecfdfd",
+  "chain": "MPreis",
+  "price_eur": 3.49,
+  "price_per_kg_eur": 13.96,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "11b410f27c67",
+  "chain": "MPreis",
+  "price_eur": 8.99,
+  "price_per_kg_eur": 14.38,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "a1c8b8a3161b",
+  "chain": "MPreis",
+  "price_eur": 7.99,
+  "price_per_kg_eur": 15.98,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "b51123742279",
+  "chain": "MPreis",
+  "price_eur": 14.99,
+  "price_per_kg_eur": 18.74,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "75e66a01c86a",
+  "chain": "MPreis",
+  "price_eur": 14.99,
+  "price_per_kg_eur": 18.74,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "f0e0db7426fc",
+  "chain": "MPreis",
+  "price_eur": 8.49,
+  "price_per_kg_eur": 21.23,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "2e8450cf9716",
+  "chain": "MPreis",
+  "price_eur": 7.69,
+  "price_per_kg_eur": 17.09,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "323f177a78ee",
+  "chain": "MPreis",
+  "price_eur": 7.69,
+  "price_per_kg_eur": 17.09,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "56ee975b56a4",
+  "chain": "MPreis",
+  "price_eur": 7.69,
+  "price_per_kg_eur": 17.09,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "fb9e97eca919",
+  "chain": "MPreis",
+  "price_eur": 8.29,
+  "price_per_kg_eur": 15.07,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "420324b7eef1",
+  "chain": "MPreis",
+  "price_eur": 2.99,
+  "price_per_kg_eur": 18.69,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "93d337f4ae68",
+  "chain": "MPreis",
+  "price_eur": 5.49,
+  "price_per_kg_eur": 6.86,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "552fe895d94b",
+  "chain": "MPreis",
+  "price_eur": 6.49,
+  "price_per_kg_eur": 8.11,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "442f81b0319a",
+  "chain": "MPreis",
+  "price_eur": 3.49,
+  "price_per_kg_eur": 8.72,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "f46013e71695",
+  "chain": "MPreis",
+  "price_eur": 6.49,
+  "price_per_kg_eur": 8.11,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "2b633a8eb1a2",
+  "chain": "MPreis",
+  "price_eur": 3.49,
+  "price_per_kg_eur": 8.72,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "e23a00ad87da",
+  "chain": "MPreis",
+  "price_eur": 6.49,
+  "price_per_kg_eur": 8.11,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "fed8ae4e1bb0",
+  "chain": "MPreis",
+  "price_eur": 6.49,
+  "price_per_kg_eur": 8.11,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "dc0eb7f6c3ee",
+  "chain": "MPreis",
+  "price_eur": 6.49,
+  "price_per_kg_eur": 8.11,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "ea2e26061064",
+  "chain": "MPreis",
+  "price_eur": 3.49,
+  "price_per_kg_eur": 8.72,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "0be3f5420fb6",
+  "chain": "MPreis",
+  "price_eur": 3.49,
+  "price_per_kg_eur": 8.72,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "ee684daa6be8",
+  "chain": "MPreis",
+  "price_eur": 5.99,
+  "price_per_kg_eur": 11.98,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "23ce49bb5053",
+  "chain": "MPreis",
+  "price_eur": 5.99,
+  "price_per_kg_eur": 13.31,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "856aba382270",
+  "chain": "MPreis",
+  "price_eur": 5.99,
+  "price_per_kg_eur": 11.98,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "7642fbc80b18",
+  "chain": "MPreis",
+  "price_eur": 5.99,
+  "price_per_kg_eur": 13.31,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "c271e300d08f",
+  "chain": "MPreis",
+  "price_eur": 5.99,
+  "price_per_kg_eur": 11.98,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "ef423cd7172a",
+  "chain": "MPreis",
+  "price_eur": 5.99,
+  "price_per_kg_eur": 11.98,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "2f90e63556e7",
+  "chain": "MPreis",
+  "price_eur": 5.99,
+  "price_per_kg_eur": 13.31,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "01ae960c9848",
+  "chain": "MPreis",
+  "price_eur": 5.99,
+  "price_per_kg_eur": 13.31,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "4f73eee7fc4e",
+  "chain": "MPreis",
+  "price_eur": 5.99,
+  "price_per_kg_eur": 11.98,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "04b7bb16151a",
+  "chain": "MPreis",
+  "price_eur": 3.49,
+  "price_per_kg_eur": 8.72,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "3d1171a5aad7",
+  "chain": "MPreis",
+  "price_eur": 8.99,
+  "price_per_kg_eur": 35.96,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "5006b9669d27",
+  "chain": "MPreis",
+  "price_eur": 8.99,
+  "price_per_kg_eur": 44.95,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "a73cd99adc80",
+  "chain": "MPreis",
+  "price_eur": 7.49,
+  "price_per_kg_eur": 12.48,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "1e084bd8f111",
+  "chain": "MPreis",
+  "price_eur": 7.49,
+  "price_per_kg_eur": 12.48,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "63bbceb98134",
+  "chain": "MPreis",
+  "price_eur": 7.49,
+  "price_per_kg_eur": 11.52,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "d7395290a539",
+  "chain": "MPreis",
+  "price_eur": 7.49,
+  "price_per_kg_eur": 11.52,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "88413b662b5c",
+  "chain": "MPreis",
+  "price_eur": 7.49,
+  "price_per_kg_eur": 14.98,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "6abe96184bef",
+  "chain": "MPreis",
+  "price_eur": 7.49,
+  "price_per_kg_eur": 11.52,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "dcd89f3f7a99",
+  "chain": "MPreis",
+  "price_eur": 6.99,
+  "price_per_kg_eur": 15.53,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "c8951c628799",
+  "chain": "MPreis",
+  "price_eur": 2.49,
+  "price_per_kg_eur": 7.11,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "d27bbb67ca9c",
+  "chain": "MPreis",
+  "price_eur": 7.49,
+  "price_per_kg_eur": 10.7,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "d6c7a32fd488",
+  "chain": "MPreis",
+  "price_eur": 2.49,
+  "price_per_kg_eur": 7.55,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "c561a789c02e",
+  "chain": "MPreis",
+  "price_eur": 2.99,
+  "price_per_kg_eur": 14.95,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "4bf64d13b277",
+  "chain": "MPreis",
+  "price_eur": 6.79,
+  "price_per_kg_eur": 19.4,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "e13c088036af",
+  "chain": "MPreis",
+  "price_eur": 5.79,
+  "price_per_kg_eur": 14.47,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "7079852d1de6",
+  "chain": "MPreis",
+  "price_eur": 2.49,
+  "price_per_kg_eur": 6.23,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "05b16dbdcf33",
+  "chain": "MPreis",
+  "price_eur": 3.49,
+  "price_per_kg_eur": 8.72,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "58423828140e",
+  "chain": "MPreis",
+  "price_eur": 3.49,
+  "price_per_kg_eur": 8.72,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "4210f8b4b549",
+  "chain": "MPreis",
+  "price_eur": 2.99,
+  "price_per_kg_eur": 7.48,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "b02968eec992",
+  "chain": "MPreis",
+  "price_eur": 6.99,
+  "price_per_kg_eur": 17.48,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "c028b4031266",
+  "chain": "MPreis",
+  "price_eur": 10.49,
+  "price_per_kg_eur": 13.11,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "4b967d34c845",
+  "chain": "MPreis",
+  "price_eur": 2.99,
+  "price_per_kg_eur": 3.74,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "7053a1f4673c",
+  "chain": "MPreis",
+  "price_eur": 3.99,
+  "price_per_kg_eur": 7.98,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "534226492994",
+  "chain": "MPreis",
+  "price_eur": 3.99,
+  "price_per_kg_eur": 3.99,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "f90ac3f7cb90",
+  "chain": "MPreis",
+  "price_eur": 1.99,
+  "price_per_kg_eur": 4.98,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "3d31a543c6f6",
+  "chain": "MPreis",
+  "price_eur": 2.99,
+  "price_per_kg_eur": 11.96,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "755c332719e6",
+  "chain": "MPreis",
+  "price_eur": 2.79,
+  "price_per_kg_eur": 9.3,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "f4b8570af6f7",
+  "chain": "MPreis",
+  "price_eur": 2.79,
+  "price_per_kg_eur": 9.3,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "7fc7de14cf9c",
+  "chain": "MPreis",
+  "price_eur": 2.99,
+  "price_per_kg_eur": 18.01,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "73c9649d704d",
+  "chain": "MPreis",
+  "price_eur": 2.99,
+  "price_per_kg_eur": 5.98,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "92a13a8649b7",
+  "chain": "MPreis",
+  "price_eur": 2.99,
+  "price_per_kg_eur": 5.98,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "40283008da51",
+  "chain": "MPreis",
+  "price_eur": 3.99,
+  "price_per_kg_eur": 11.08,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "18f64bd6225a",
+  "chain": "MPreis",
+  "price_eur": 3.99,
+  "price_per_kg_eur": 8.87,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "df766f9ae163",
+  "chain": "MPreis",
+  "price_eur": 3.69,
+  "price_per_kg_eur": 11.18,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "0ffdde9c0287",
+  "chain": "MPreis",
+  "price_eur": 3.99,
+  "price_per_kg_eur": 12.09,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "6dcc416165af",
+  "chain": "MPreis",
+  "price_eur": 3.29,
+  "price_per_kg_eur": 7.15,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "bce37ca043d9",
+  "chain": "MPreis",
+  "price_eur": 3.69,
+  "price_per_kg_eur": 8.02,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "b86be2dada12",
+  "chain": "MPreis",
+  "price_eur": 2.69,
+  "price_per_kg_eur": 12.23,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "bf5fba201ac8",
+  "chain": "MPreis",
+  "price_eur": 3.49,
+  "price_per_kg_eur": 21.81,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "44672c9c0a72",
+  "chain": "MPreis",
+  "price_eur": 3.79,
+  "price_per_kg_eur": 15.16,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "2c72020e40a0",
+  "chain": "MPreis",
+  "price_eur": 2.29,
+  "price_per_kg_eur": 8.18,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "8faf09d88fe2",
+  "chain": "MPreis",
+  "price_eur": 3.79,
+  "price_per_kg_eur": 15.16,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "b39798705bee",
+  "chain": "MPreis",
+  "price_eur": 3.79,
+  "price_per_kg_eur": 15.16,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "feb817c3427d",
+  "chain": "MPreis",
+  "price_eur": 3.79,
+  "price_per_kg_eur": 15.16,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "65e663f37421",
+  "chain": "MPreis",
+  "price_eur": 3.79,
+  "price_per_kg_eur": 15.16,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "4a1b97a20be9",
+  "chain": "MPreis",
+  "price_eur": 3.79,
+  "price_per_kg_eur": 15.16,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "9cca6ecf49f4",
+  "chain": "MPreis",
+  "price_eur": 3.79,
+  "price_per_kg_eur": 15.16,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "e124986d9e98",
+  "chain": "MPreis",
+  "price_eur": 2.79,
+  "price_per_kg_eur": 6.98,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "c2ed0153a729",
+  "chain": "MPreis",
+  "price_eur": 2.39,
+  "price_per_kg_eur": 11.38,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "a8927a636e42",
+  "chain": "MPreis",
+  "price_eur": 4.49,
+  "price_per_kg_eur": 14.97,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "57e343109450",
+  "chain": "MPreis",
+  "price_eur": 5.69,
+  "price_per_kg_eur": 11.38,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "66d775222e0b",
+  "chain": "MPreis",
+  "price_eur": 4.49,
+  "price_per_kg_eur": 14.97,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "f2e108ffe37b",
+  "chain": "MPreis",
+  "price_eur": 4.49,
+  "price_per_kg_eur": 14.97,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "df6027dd2e6e",
+  "chain": "MPreis",
+  "price_eur": 4.99,
+  "price_per_kg_eur": 11.88,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "8aa7f1a1efbd",
+  "chain": "MPreis",
+  "price_eur": 4.99,
+  "price_per_kg_eur": 11.88,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "b7e5728c27b3",
+  "chain": "MPreis",
+  "price_eur": 4.99,
+  "price_per_kg_eur": 11.88,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "ce493f3f119f",
+  "chain": "MPreis",
+  "price_eur": 4.99,
+  "price_per_kg_eur": 11.88,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "67a964919a1c",
+  "chain": "MPreis",
+  "price_eur": 4.99,
+  "price_per_kg_eur": 11.88,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "804230624c65",
+  "chain": "MPreis",
+  "price_eur": 4.99,
+  "price_per_kg_eur": 11.6,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
+ },
+ {
+  "product_id": "9b1b56b1e1ca",
+  "chain": "Unimarkt",
+  "price_eur": 2.79,
+  "price_per_kg_eur": "8.58",
+  "price_status": "Preis 2023",
+  "fetched_at": "2023-08-28",
+  "price_source": "heisse-preise.io unimarkt (Preisstand 2023-08-28) – Altpreis, nicht live bestätigt"
+ },
+ {
+  "product_id": "1e34ad423a93",
+  "chain": "Unimarkt",
+  "price_eur": 2.09,
+  "price_per_kg_eur": "8.36",
+  "price_status": "Preis 2023",
+  "fetched_at": "2023-06-22",
+  "price_source": "heisse-preise.io unimarkt (Preisstand 2023-06-22) – Altpreis, nicht live bestätigt"
+ },
+ {
+  "product_id": "31f303cdf305",
+  "chain": "Unimarkt",
+  "price_eur": 2.79,
+  "price_per_kg_eur": "8.58",
+  "price_status": "Preis 2023",
+  "fetched_at": "2023-08-28",
+  "price_source": "heisse-preise.io unimarkt (Preisstand 2023-08-28) – Altpreis, nicht live bestätigt"
+ },
+ {
+  "product_id": "3f61dcb27d04",
+  "chain": "Unimarkt",
+  "price_eur": 3.59,
+  "price_per_kg_eur": "10.26",
+  "price_status": "Preis 2023",
+  "fetched_at": "2023-08-28",
+  "price_source": "heisse-preise.io unimarkt (Preisstand 2023-08-28) – Altpreis, nicht live bestätigt"
+ },
+ {
+  "product_id": "c56d3a7cbe3e",
+  "chain": "Unimarkt",
+  "price_eur": 5.39,
+  "price_per_kg_eur": "6.74",
+  "price_status": "Preis 2023",
+  "fetched_at": "2023-10-02",
+  "price_source": "heisse-preise.io unimarkt (Preisstand 2023-10-02) – Altpreis, nicht live bestätigt"
+ },
+ {
+  "product_id": "07dba12c0311",
+  "chain": "Unimarkt",
+  "price_eur": 5.39,
+  "price_per_kg_eur": "6.74",
+  "price_status": "Preis 2023",
+  "fetched_at": "2023-10-02",
+  "price_source": "heisse-preise.io unimarkt (Preisstand 2023-10-02) – Altpreis, nicht live bestätigt"
+ },
+ {
+  "product_id": "74541af2adf0",
+  "chain": "Unimarkt",
+  "price_eur": 19.79,
+  "price_per_kg_eur": "6.82",
+  "price_status": "Preis 2023",
+  "fetched_at": "2023-10-23",
+  "price_source": "heisse-preise.io unimarkt (Preisstand 2023-10-23) – Altpreis, nicht live bestätigt"
+ },
+ {
+  "product_id": "c710b7ad1c03",
+  "chain": "Unimarkt",
+  "price_eur": 8.79,
+  "price_per_kg_eur": "22.54",
+  "price_status": "Preis 2023",
+  "fetched_at": "2023-06-22",
+  "price_source": "heisse-preise.io unimarkt (Preisstand 2023-06-22) – Altpreis, nicht live bestätigt"
+ },
+ {
+  "product_id": "1acec4cf0983",
+  "chain": "Unimarkt",
+  "price_eur": 8.79,
+  "price_per_kg_eur": "22.54",
+  "price_status": "Preis 2023",
+  "fetched_at": "2023-06-22",
+  "price_source": "heisse-preise.io unimarkt (Preisstand 2023-06-22) – Altpreis, nicht live bestätigt"
+ },
+ {
+  "product_id": "155bf011f8bc",
+  "chain": "Unimarkt",
+  "price_eur": 5.39,
+  "price_per_kg_eur": "13.47",
+  "price_status": "Preis 2024",
+  "fetched_at": "2024-02-13",
+  "price_source": "heisse-preise.io unimarkt (Preisstand 2024-02-13) – Altpreis, nicht live bestätigt"
+ },
+ {
+  "product_id": "05255a57d043",
+  "chain": "Unimarkt",
+  "price_eur": 5.39,
+  "price_per_kg_eur": "13.47",
+  "price_status": "Preis 2024",
+  "fetched_at": "2024-02-13",
+  "price_source": "heisse-preise.io unimarkt (Preisstand 2024-02-13) – Altpreis, nicht live bestätigt"
+ },
+ {
+  "product_id": "5ea019f901dd",
+  "chain": "Unimarkt",
+  "price_eur": 5.39,
+  "price_per_kg_eur": "13.47",
+  "price_status": "Preis 2024",
+  "fetched_at": "2024-02-13",
+  "price_source": "heisse-preise.io unimarkt (Preisstand 2024-02-13) – Altpreis, nicht live bestätigt"
+ },
+ {
+  "product_id": "72db72c5c4c1",
+  "chain": "Unimarkt",
+  "price_eur": 3.39,
+  "price_per_kg_eur": "8.47",
+  "price_status": "Preis 2024",
+  "fetched_at": "2024-02-13",
+  "price_source": "heisse-preise.io unimarkt (Preisstand 2024-02-13) – Altpreis, nicht live bestätigt"
+ },
+ {
+  "product_id": "ea4afb214507",
+  "chain": "Unimarkt",
+  "price_eur": 8.79,
+  "price_per_kg_eur": "10.99",
+  "price_status": "Preis 2024",
+  "fetched_at": "2024-02-13",
+  "price_source": "heisse-preise.io unimarkt (Preisstand 2024-02-13) – Altpreis, nicht live bestätigt"
+ },
+ {
+  "product_id": "4edfb5e04af1",
+  "chain": "Unimarkt",
+  "price_eur": 2.49,
+  "price_per_kg_eur": "4.98",
+  "price_status": "Preis 2023",
+  "fetched_at": "2023-06-22",
+  "price_source": "heisse-preise.io unimarkt (Preisstand 2023-06-22) – Altpreis, nicht live bestätigt"
+ },
+ {
+  "product_id": "ace2b526b6d2",
+  "chain": "Unimarkt",
+  "price_eur": 3.09,
+  "price_per_kg_eur": "",
+  "price_status": "Preis 2024",
+  "fetched_at": "2024-02-05",
+  "price_source": "heisse-preise.io unimarkt (Preisstand 2024-02-05) – Altpreis, nicht live bestätigt"
+ },
+ {
+  "product_id": "5b4e9fd96034",
+  "chain": "Unimarkt",
+  "price_eur": 5.29,
+  "price_per_kg_eur": "10.58",
+  "price_status": "Preis 2024",
+  "fetched_at": "2024-02-05",
+  "price_source": "heisse-preise.io unimarkt (Preisstand 2024-02-05) – Altpreis, nicht live bestätigt"
+ },
+ {
+  "product_id": "1ee26b49990b",
+  "chain": "Unimarkt",
+  "price_eur": 5.29,
+  "price_per_kg_eur": "10.58",
+  "price_status": "Preis 2024",
+  "fetched_at": "2024-02-05",
+  "price_source": "heisse-preise.io unimarkt (Preisstand 2024-02-05) – Altpreis, nicht live bestätigt"
+ },
+ {
+  "product_id": "60e94dda8c8e",
+  "chain": "Unimarkt",
+  "price_eur": 4.19,
+  "price_per_kg_eur": "8.38",
+  "price_status": "Preis 2023",
+  "fetched_at": "2023-06-22",
+  "price_source": "heisse-preise.io unimarkt (Preisstand 2023-06-22) – Altpreis, nicht live bestätigt"
+ },
+ {
+  "product_id": "74037a0d73c0",
+  "chain": "Unimarkt",
+  "price_eur": 4.19,
+  "price_per_kg_eur": "8.38",
+  "price_status": "Preis 2023",
+  "fetched_at": "2023-06-22",
+  "price_source": "heisse-preise.io unimarkt (Preisstand 2023-06-22) – Altpreis, nicht live bestätigt"
+ },
+ {
+  "product_id": "170ab57d0104",
+  "chain": "Unimarkt",
+  "price_eur": 3.09,
+  "price_per_kg_eur": "",
+  "price_status": "Preis 2023",
+  "fetched_at": "2023-06-22",
+  "price_source": "heisse-preise.io unimarkt (Preisstand 2023-06-22) – Altpreis, nicht live bestätigt"
+ },
+ {
+  "product_id": "f651db7cc6a6",
+  "chain": "Unimarkt",
+  "price_eur": 2.79,
+  "price_per_kg_eur": "",
+  "price_status": "Preis 2023",
+  "fetched_at": "2023-06-22",
+  "price_source": "heisse-preise.io unimarkt (Preisstand 2023-06-22) – Altpreis, nicht live bestätigt"
+ },
+ {
+  "product_id": "123a80563278",
+  "chain": "Unimarkt",
+  "price_eur": 2.79,
+  "price_per_kg_eur": "",
+  "price_status": "Preis 2023",
+  "fetched_at": "2023-06-22",
+  "price_source": "heisse-preise.io unimarkt (Preisstand 2023-06-22) – Altpreis, nicht live bestätigt"
+ },
+ {
+  "product_id": "10e4ac49bed6",
+  "chain": "Unimarkt",
+  "price_eur": 2.49,
+  "price_per_kg_eur": "",
+  "price_status": "Preis 2023",
+  "fetched_at": "2023-06-22",
+  "price_source": "heisse-preise.io unimarkt (Preisstand 2023-06-22) – Altpreis, nicht live bestätigt"
+ },
+ {
+  "product_id": "85b297058091",
+  "chain": "Unimarkt",
+  "price_eur": 2.89,
+  "price_per_kg_eur": "",
+  "price_status": "Preis 2023",
+  "fetched_at": "2023-06-22",
+  "price_source": "heisse-preise.io unimarkt (Preisstand 2023-06-22) – Altpreis, nicht live bestätigt"
+ },
+ {
+  "product_id": "ca508968bbe5",
+  "chain": "Unimarkt",
+  "price_eur": 2.69,
+  "price_per_kg_eur": "",
+  "price_status": "Preis 2023",
+  "fetched_at": "2023-08-08",
+  "price_source": "heisse-preise.io unimarkt (Preisstand 2023-08-08) – Altpreis, nicht live bestätigt"
+ },
+ {
+  "product_id": "ff3fbc6ab080",
+  "chain": "Unimarkt",
+  "price_eur": 1.89,
+  "price_per_kg_eur": "8.04",
+  "price_status": "Preis 2024",
+  "fetched_at": "2024-02-13",
+  "price_source": "heisse-preise.io unimarkt (Preisstand 2024-02-13) – Altpreis, nicht live bestätigt"
+ },
+ {
+  "product_id": "f6db2913ac36",
+  "chain": "Unimarkt",
+  "price_eur": 2.49,
+  "price_per_kg_eur": "4.98",
+  "price_status": "Preis 2023",
+  "fetched_at": "2023-06-22",
+  "price_source": "heisse-preise.io unimarkt (Preisstand 2023-06-22) – Altpreis, nicht live bestätigt"
+ },
+ {
+  "product_id": "873ede438966",
+  "chain": "Unimarkt",
+  "price_eur": 4.29,
+  "price_per_kg_eur": "8.58",
+  "price_status": "Preis 2023",
+  "fetched_at": "2023-06-22",
+  "price_source": "heisse-preise.io unimarkt (Preisstand 2023-06-22) – Altpreis, nicht live bestätigt"
+ }
+]
