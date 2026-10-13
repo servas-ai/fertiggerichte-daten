@@ -1281,7 +1281,10 @@
   "category": "Produzent/Werk",
   "file": "logos/wiesbauer.png",
   "source_url": "https://www.wiesbauer.at/app/uploads/2025/11/logogogo.png",
-  "brands": []
+  "brands": [
+   "Wiesbauer",
+   "Wiesbauer Gourmet"
+  ]
  },
  {
   "slug": "rewe-genusskueche",
