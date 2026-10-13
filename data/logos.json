@@ -568,7 +568,10 @@
   "file": "logos/fit-to-go.png",
   "source_url": "https://cdn.shopify.com/oxygen-v2/60491/177587/362866/4677112/assets/logo-DJtqYc5u.png",
   "brands": [
-   "Fit to Go"
+   "Fit to Go",
+   "fit2go.meals (Fit2go GmbH)",
+   "Fit2go",
+   "fit2go.meals"
   ]
  },
  {
@@ -1473,6 +1476,78 @@
   "brands": [
    "Nah&Frisch",
    "Nah & Frisch"
+  ]
+ },
+ {
+  "slug": "prepmymeal",
+  "name": "PrepMyMeal",
+  "category": "Markenhersteller",
+  "file": "logos/prepmymeal.png",
+  "source_url": "https://prepmymeal.at/cdn/shop/files/prepmymeal-logo-schwarz.png?v=1656685360&width=800",
+  "brands": [
+   "PrepMyMeal",
+   "prepmymeal",
+   "Prep My Meal"
+  ]
+ },
+ {
+  "slug": "gurkerl",
+  "name": "Gurkerl",
+  "category": "Handelskette",
+  "file": "logos/gurkerl.svg",
+  "source_url": "https://cdn.gurkerl.at/images/company/gurkerl-logo.svg",
+  "brands": [
+   "Gurkerl",
+   "gurkerl.at",
+   "Gurkerl.at"
+  ]
+ },
+ {
+  "slug": "livefresh",
+  "name": "LiveFresh",
+  "category": "Markenhersteller",
+  "file": "logos/livefresh.png",
+  "source_url": "https://livefresh.at/cdn/shop/files/logo-green.webp?v=1665215065&width=600",
+  "brands": [
+   "LiveFresh",
+   "livefresh",
+   "Live Fresh"
+  ]
+ },
+ {
+  "slug": "gissinger",
+  "name": "Josef Gissinger Wien",
+  "category": "Markenhersteller",
+  "file": "logos/gissinger.png",
+  "source_url": "https://gissinger.at/wp-content/uploads/2024/10/logo-ohne-rand.png",
+  "brands": [
+   "Gissinger",
+   "Josef Gissinger",
+   "Fleischerei Gissinger"
+  ]
+ },
+ {
+  "slug": "suppito",
+  "name": "Suppito",
+  "category": "Markenhersteller",
+  "file": "logos/suppito.svg",
+  "source_url": "https://www.suppito.at/ (inline-SVG im Header a.brand)",
+  "brands": [
+   "Suppito",
+   "SUPPITO"
+  ]
+ },
+ {
+  "slug": "zatisi",
+  "name": "Zátiší Group",
+  "category": "Produzent/Werk",
+  "file": "logos/zatisi.svg",
+  "source_url": "https://www.zatisigroup.cz/GROUP/img/svg/logo.svg",
+  "brands": [
+   "Zatisi",
+   "Zátiší",
+   "Zátiší Group",
+   "Zátiší Catering Group"
   ]
  }
 ]
