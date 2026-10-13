@@ -12228,16 +12228,16 @@
   "price_per_kg_eur": 6.24,
   "price_status": "live 2026",
   "fetched_at": "2026-10-13",
-  "price_source": "food-connectors/penny 2026-10-13"
+  "price_source": "food-connectors/penny-shop 2026-10-13 (penny.at Online-Sortiment JSON, Artikel 78-780413)"
  },
  {
   "product_id": "4b277af279e2",
   "chain": "Penny",
   "price_eur": 2.49,
-  "price_per_kg_eur": 6.23,
+  "price_per_kg_eur": 6.22,
   "price_status": "live 2026",
   "fetched_at": "2026-10-13",
-  "price_source": "food-connectors/penny 2026-10-13"
+  "price_source": "food-connectors/penny-shop 2026-10-13 (penny.at Online-Sortiment JSON, Artikel 78-267102)"
  },
  {
   "product_id": "d81b5713e1dc",
@@ -17903,11 +17903,11 @@
  {
   "product_id": "ce285d5239a5",
   "chain": "Penny",
-  "price_eur": 3.49,
-  "price_per_kg_eur": 7.27,
+  "price_eur": 6.99,
+  "price_per_kg_eur": 14.56,
   "price_status": "live 2026",
   "fetched_at": "2026-10-13",
-  "price_source": "food-connectors/penny 2026-10-13 (penny.at Online-Sortiment, Listenpreis)"
+  "price_source": "food-connectors/penny-shop 2026-10-13 (penny.at Online-Sortiment JSON, Artikel 78-348973); Mehrfachkauf-Aktion 3.49 € bei 2 Packungen → Einzelpreis = Normalpreis"
  },
  {
   "product_id": "b4452650da8e",
@@ -17916,7 +17916,7 @@
   "price_per_kg_eur": 7.9,
   "price_status": "live 2026",
   "fetched_at": "2026-10-13",
-  "price_source": "food-connectors/penny 2026-10-13 (penny.at Online-Sortiment, Listenpreis)"
+  "price_source": "food-connectors/penny-shop 2026-10-13 (penny.at Online-Sortiment JSON, Artikel 78-538048)"
  },
  {
   "product_id": "23cda9d8a8e1",
@@ -17925,7 +17925,7 @@
   "price_per_kg_eur": 11.56,
   "price_status": "live 2026",
   "fetched_at": "2026-10-13",
-  "price_source": "food-connectors/penny 2026-10-13 (penny.at Online-Sortiment, Listenpreis)"
+  "price_source": "food-connectors/penny-shop 2026-10-13 (penny.at Online-Sortiment JSON, Artikel 78-616589)"
  },
  {
   "product_id": "963c54703e72",
@@ -18268,6 +18268,267 @@
   "price_status": "live 2026",
   "fetched_at": "2026-10-13",
   "price_source": "food-connectors/nah-frisch 2026-10-13 (Nah&Frisch 'Angebote der Woche' KW42, gültig 2026-10-14–2026-10-20, Flugblatt-Kachel ONLINE_KW4142_26_355x455px29): Aktionspreis 1.39 € je Pkg. ('Knorr Kaiserteller Suppen', versch. Sorten); nur in teilnehmenden Märkten"
+ },
+ {
+  "product_id": "486862bca4a6",
+  "chain": "MPreis",
+  "price_eur": 3.99,
+  "price_per_kg_eur": 7.12,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+ },
+ {
+  "product_id": "83760ad37f3b",
+  "chain": "MPreis",
+  "price_eur": 3.99,
+  "price_per_kg_eur": 7.12,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+ },
+ {
+  "product_id": "f61e75f75d68",
+  "chain": "MPreis",
+  "price_eur": 3.99,
+  "price_per_kg_eur": 7.12,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+ },
+ {
+  "product_id": "d2294ebacf42",
+  "chain": "MPreis",
+  "price_eur": 10.99,
+  "price_per_kg_eur": 18.32,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+ },
+ {
+  "product_id": "0a7c0d7781c7",
+  "chain": "MPreis",
+  "price_eur": 11.49,
+  "price_per_kg_eur": 17.15,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+ },
+ {
+  "product_id": "8c1230be9950",
+  "chain": "MPreis",
+  "price_eur": 6.49,
+  "price_per_kg_eur": 27.04,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+ },
+ {
+  "product_id": "3d386725fac3",
+  "chain": "MPreis",
+  "price_eur": 7.99,
+  "price_per_kg_eur": 16.65,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+ },
+ {
+  "product_id": "74e8cea8ed9c",
+  "chain": "MPreis",
+  "price_eur": 2.89,
+  "price_per_kg_eur": 7.23,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+ },
+ {
+  "product_id": "7fa3ee424e80",
+  "chain": "MPreis",
+  "price_eur": 6.49,
+  "price_per_kg_eur": 17.08,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+ },
+ {
+  "product_id": "d5b6bcc55037",
+  "chain": "Gurkerl",
+  "price_eur": 6.69,
+  "price_per_kg_eur": 8.36,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category walk + search, products/prices/stock API, inStock)"
+ },
+ {
+  "product_id": "443764a3222d",
+  "chain": "Gurkerl",
+  "price_eur": 5.69,
+  "price_per_kg_eur": 14.23,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category walk + search, products/prices/stock API, inStock)"
+ },
+ {
+  "product_id": "30f9daf2fc41",
+  "chain": "Gurkerl",
+  "price_eur": 10.99,
+  "price_per_kg_eur": 44.86,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category walk + search, products/prices/stock API, inStock)"
+ },
+ {
+  "product_id": "397ff77fd756",
+  "chain": "Gurkerl",
+  "price_eur": 3.39,
+  "price_per_kg_eur": 12.11,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category walk + search, products/prices/stock API, inStock)"
+ },
+ {
+  "product_id": "ce5da26eadc6",
+  "chain": "Gurkerl",
+  "price_eur": 3.39,
+  "price_per_kg_eur": 12.11,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category walk + search, products/prices/stock API, inStock)"
+ },
+ {
+  "product_id": "118fd2a8a437",
+  "chain": "Gurkerl",
+  "price_eur": 3.39,
+  "price_per_kg_eur": 12.11,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category walk + search, products/prices/stock API, inStock)"
+ },
+ {
+  "product_id": "0d1fa29f7b32",
+  "chain": "Gurkerl",
+  "price_eur": 3.39,
+  "price_per_kg_eur": 11.3,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category walk + search, products/prices/stock API, inStock)"
+ },
+ {
+  "product_id": "a2683b1c6ca7",
+  "chain": "Gurkerl",
+  "price_eur": 10.49,
+  "price_per_kg_eur": 23.31,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category walk + search, products/prices/stock API, inStock)"
+ },
+ {
+  "product_id": "7b417f84852b",
+  "chain": "Gurkerl",
+  "price_eur": 10.49,
+  "price_per_kg_eur": 23.31,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category walk + search, products/prices/stock API, inStock)"
+ },
+ {
+  "product_id": "5725df87ba7c",
+  "chain": "Gurkerl",
+  "price_eur": 10.49,
+  "price_per_kg_eur": 23.31,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category walk + search, products/prices/stock API, inStock)"
+ },
+ {
+  "product_id": "d8ea0a95b0f2",
+  "chain": "Gurkerl",
+  "price_eur": 2.89,
+  "price_per_kg_eur": 8.03,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category walk + search, products/prices/stock API, inStock)"
+ },
+ {
+  "product_id": "f73cf619b6cc",
+  "chain": "Gurkerl",
+  "price_eur": 17.49,
+  "price_per_kg_eur": 29.15,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category walk + search, products/prices/stock API, inStock)"
+ },
+ {
+  "product_id": "c0e01d5ded66",
+  "chain": "Penny",
+  "price_eur": 4.99,
+  "price_per_kg_eur": 12.47,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/penny-shop 2026-10-13 (penny.at Online-Sortiment JSON, Artikel 78-785625)"
+ },
+ {
+  "product_id": "a50fb34f93a6",
+  "chain": "Penny",
+  "price_eur": 4.99,
+  "price_per_kg_eur": 6.65,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/penny-shop 2026-10-13 (penny.at Online-Sortiment JSON, Artikel 78-790129)"
+ },
+ {
+  "product_id": "8aefb0f283b5",
+  "chain": "Penny",
+  "price_eur": 3.49,
+  "price_per_kg_eur": 4.85,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/penny-shop 2026-10-13 (penny.at Online-Sortiment JSON, Artikel 78-913024)"
+ },
+ {
+  "product_id": "c52852895e8d",
+  "chain": "Penny",
+  "price_eur": 2.79,
+  "price_per_kg_eur": 6.2,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/penny-shop 2026-10-13 (penny.at Online-Sortiment JSON, Artikel 78-463664)"
+ },
+ {
+  "product_id": "d67395d951b2",
+  "chain": "Penny",
+  "price_eur": 0.99,
+  "price_per_kg_eur": 15.71,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/penny-shop 2026-10-13 (penny.at Online-Sortiment JSON, Artikel 78-303260)"
+ },
+ {
+  "product_id": "84528481ab64",
+  "chain": "Penny",
+  "price_eur": 3.29,
+  "price_per_kg_eur": 12.65,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/penny-shop 2026-10-13 (penny.at Online-Sortiment JSON, Artikel 78-443582)"
+ },
+ {
+  "product_id": "a564fd06be9a",
+  "chain": "Penny",
+  "price_eur": 2.99,
+  "price_per_kg_eur": 7.2,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/penny-shop 2026-10-13 (penny.at Online-Sortiment JSON, Artikel 78-420861); Mehrfachkauf-Aktion 1.99 € bei 3 Dosen → Einzelpreis = Normalpreis"
+ },
+ {
+  "product_id": "a82fe8a8c3be",
+  "chain": "Penny",
+  "price_eur": 2.99,
+  "price_per_kg_eur": 6.64,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/penny-shop 2026-10-13 (penny.at Online-Sortiment JSON, Artikel 78-619544)"
  },
  {
   "product_id": "6415820c4167",
@@ -22244,8 +22505,8 @@
   "price_eur": 3.39,
   "price_per_kg_eur": 3.39,
   "price_status": "live 2026",
-  "fetched_at": null,
-  "price_source": "penny.at product-discovery API (public, online assortment only)"
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/penny-shop 2026-10-13 (penny.at Online-Sortiment JSON, Artikel 78-107318)"
  },
  {
   "product_id": "1964480d5bd6",
@@ -22253,8 +22514,8 @@
   "price_eur": 2.99,
   "price_per_kg_eur": 6.23,
   "price_status": "live 2026",
-  "fetched_at": null,
-  "price_source": "penny.at product-discovery API (public, online assortment only)"
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/penny-shop 2026-10-13 (penny.at Online-Sortiment JSON, Artikel 78-533698)"
  },
  {
   "product_id": "d214ec241c56",
@@ -22444,6 +22705,843 @@
   "price_status": "live 2026",
   "fetched_at": "2026-10-13",
   "price_source": "food-connectors/fittaste 2026-10-13"
+ },
+ {
+  "product_id": "baa8052ebf30",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 6.28,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "dbaf177fdf1f",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 8.13,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "d3f76d64bb8d",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 7.44,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "6a92d4c3afa8",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 6.64,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "30593efa5722",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 9.08,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "1df61f651191",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 4.61,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "930ae4025c32",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 7.54,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "97294e80a19f",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 8.45,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "d95168f78794",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 5.56,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "b67493c2e656",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 7.12,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "ceb247e5ff94",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 6.07,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "064395005a17",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 8.17,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "a917da9fd6cd",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 6.12,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "aa4e2f57612d",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 5.27,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "c9cfde6f5a9f",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 5.7,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "b18b0ad04d1b",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 5.29,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "b27d36427096",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 4.51,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "ffdd7b684de4",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 7.02,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "d1f1c13781cd",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 6.03,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "9c2b112a3252",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 8.14,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "3c875d58c5cc",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 6.06,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "2ed0dcd659b1",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 5.82,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "9c3612dd7371",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 6.43,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "5b329261e35f",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 6.6,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "f1cc672dae55",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 8.84,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "f236df8ddebb",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 7.67,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "a3996e471103",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 5.79,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "fb5023590b1d",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 6.21,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "ef6fe9db9b02",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 5.96,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "825e5e56bef4",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 7.04,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "f38128b55095",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 7.0,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "c34c39bc9454",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 7.12,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "e66f839ac2ce",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 5.52,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "119ba57aa6d9",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 6.78,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "ad514abb34a5",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 4.88,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "0cba6cca08b1",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 5.77,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "cbc14b3a8fe6",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 6.16,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "5a0ad75c8fa6",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 10.62,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "1571b8c83436",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 4.48,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "f3326ca9ea76",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 6.26,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "e86ceb2bd3ce",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 6.9,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "d8415c12cf3f",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 5.89,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "fdcfa47989db",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 7.46,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "ec0c1427a2ec",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 6.2,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "a8b49dd60cae",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 6.35,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "906b7c4aa993",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 6.0,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "0ea2c56d644b",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 5.83,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "48444ac72c70",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 5.84,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "4047f2859ebc",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 5.46,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "8a03a554788c",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 7.37,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "b84f6d35cc74",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 6.49,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "5bae7ffd3415",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 5.99,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "0bf7a45c94d4",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 5.75,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "b1e3b181f9bf",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 7.18,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "3aecca773d6b",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 6.91,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "ee3300c6c108",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 6.77,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "11f497d0bb05",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 5.77,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "463edbeea89d",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 5.74,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "8acd449d6e61",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 6.59,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "0ed3af54efaa",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 9.44,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "fdbeac32b16e",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 6.53,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "e2de79e1be0c",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 7.46,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "81ea0a9cb982",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 6.19,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "7ed11ecd2dc9",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 6.3,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "d9645ab3c643",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 6.78,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "0a521f7d1d4b",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 5.35,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "0c2fa21105ba",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 5.61,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "82be7edf8a7e",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 5.67,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "05092b76ea26",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 5.47,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "5d291bbb7115",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 3.51,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "f0c3d7999582",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 5.53,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "3d0d818e0736",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 6.39,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "c5e90f31327d",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 7.58,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "21a2a71a42c2",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 4.92,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "693d460a4ec0",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 5.34,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "dbcdb18ba92c",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 7.54,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "8954738f2122",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 5.57,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "e18923ea8606",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 5.46,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "7f02f10813ca",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 5.41,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "8cfcaf44a74b",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 5.65,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "292b25fcb196",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 6.58,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "b46508045f9b",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 6.35,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "815f5a870691",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 5.85,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "376a36c1b1a1",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 5.23,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "aedd18b1b462",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 4.8,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "05fb8b9fa2dd",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 4.79,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "3bf59f218110",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 8.42,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "6edacdb009e4",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 7.86,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "7a257b6bfe3d",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 6.94,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "b36f97bf8708",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 5.27,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "ad0fc923b522",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 9.16,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "b4b995a9d296",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 9.38,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ },
+ {
+  "product_id": "ad1652497b54",
+  "chain": "unbekannt (OFF)",
+  "price_eur": 4.25,
+  "price_per_kg_eur": 6.8,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
  },
  {
   "product_id": "3a9be0f51b06",
