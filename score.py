@@ -133,12 +133,18 @@ if os.path.exists("offonly_store_overlay.json"):
     _OO=json.load(open("offonly_store_overlay.json")).get("articles",{})
     _oo_stats={"applied":0,"dup_dropped":[],"size_mismatch":[]}
     _se={str(ean(x)).lstrip("0") for x in items if x.get("store") and ean(x)}
+    _su={x.get("url"):x for x in items if x.get("store") and x.get("url")}
     _keep=[]
     for x in items:
         if not x.get("store") and ean(x):
             k=str(ean(x)).lstrip("0")
             if k in _se: _oo_stats["dup_dropped"].append(x.get("name")); continue
             o=_OO.get(k)
+            if o and o.get("url") in _su:  # store row for this GTIN already exists (store rows often carry no ean) -> fill gaps, drop OFF twin
+                t=_su[o["url"]]
+                for kk,v in x.items():
+                    if t.get(kk) in (None,"",[]) and v not in (None,"",[]) and kk not in ("store","url","price_eur","price_source","price_date","source_file","name","brand","size_g"): t[kk]=v
+                t["ean"]=t.get("ean") or k; _oo_stats["dup_dropped"].append(x.get("name")+" (=store url)"); continue
             if o and o.get("price_eur"):
                 if o.get("size_g") and x.get("size_g") and abs(float(o["size_g"])-float(x["size_g"]))/float(x["size_g"])>0.05:
                     _oo_stats["size_mismatch"].append({"name":x.get("name"),"size_g":x.get("size_g"),"store_size":o.get("size_g")})
@@ -152,6 +158,26 @@ if os.path.exists("offonly_store_overlay.json"):
                 _oo_stats["applied"]+=1
         _keep.append(x)
     items=_keep
+    json.dump(_oo_stats,open("offonly_store_stats.json","w"),ensure_ascii=False,indent=1)
+# OFF–OFF same-GTIN collapse (two store-less OFF rows, same barcode → keep richest nutrition)
+_oo2={"dropped":[]}
+_seen_ean={}; _keep2=[]
+for x in items:
+    if (not x.get("store") or str(x.get("store")).lower().startswith("unbekannt")) and ean(x):
+        k=str(ean(x)).lstrip("0")
+        if k in _seen_ean:
+            prev=_seen_ean[k]
+            def _rich(z): return sum(z.get(f) is not None for f in ("kcal_100","protein_100","fat_100","size_g","image_url"))
+            if _rich(x)>_rich(prev):
+                _oo2["dropped"].append(prev.get("name")); _keep2=[y for y in _keep2 if y is not prev]; _seen_ean[k]=x; _keep2.append(x)
+            else:
+                _oo2["dropped"].append(x.get("name"))
+            continue
+        _seen_ean[k]=x
+    _keep2.append(x)
+if _oo2["dropped"]:
+    items=_keep2
+    _oo_stats["off_off_dropped"]=_oo2["dropped"]
     json.dump(_oo_stats,open("offonly_store_stats.json","w"),ensure_ascii=False,indent=1)
 # Preise: live vs. alt
 for x in items:
@@ -325,6 +351,7 @@ for x in out:
     if _des: x['gang']='dessert'; x['flags'].append('Dessert – nicht in Rankings')
     if _gro and x.get('segment')!='meal_kit': x['segment']='grocery'; x['flags'].append('Lebensmittel (kein Fertiggericht) – nicht in Rankings')
     _mc=_V2.meal_check(x,r2); x['meal_check']=_mc; x['meal_class']=_mc['cls'] if not _des else 'dessert'
+    if re.search(r'hipp|beba|aptamil|alete|babylove|ab dem \d|kleinkind|säugling|\bbaby\b|kinder ?menü|bio-?gläschen',_nm,re.I): x['meal_class']='baby'; x['segment']='baby_food'; _mc['ok']=False; _mc['reason']='Kindernahrung'
     _nm=x.get('name') or ''
     if not _des and _V2.SNACK.search(_nm): x['meal_class']='snack_side'; _mc['ok']=False; _mc['reason']='Brot/Snack/Instant – keine Mahlzeit'
     x['component']=bool(_V2.COMPONENT.search(_nm)) and not _des

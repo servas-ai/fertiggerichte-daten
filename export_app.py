@@ -9,7 +9,7 @@ for i,r in enumerate(R):
     r['sugar']=f(x.get('sugar_100')); r['fat']=f(x.get('fat_100')); r['carbs']=f(x.get('carbs_100')); r['ns']=x.get('nutriscore'); r['ns_st']=x.get('nutriscore_status'); r['nova']=x.get('nova'); r['additives']=x.get('additives'); r['eco']=x.get('ecoscore')
     r['manuf']=x.get('manufacturer'); r['origin']=x.get('origin'); r['psrc']=x.get('price_source'); r['src']=x.get('source_file'); r['state']=x.get('producer_state')
     r['prep']=x.get('prep')
-    r['segment']=x.get('segment') or 'ready_meal'; r['delivers_4020']=x.get('delivers_4020'); r['delivery_source']=x.get('delivery_source'); r['allergens']=x.get('allergens'); r['availability_level']=x.get('availability_level') or 'chain'; r['price_date']=x.get('price_date'); r['ownbrand']=bool(x.get('ownbrand')); r['rankable_mealkit']=bool(x.get('rankable_mealkit')); r['price_kind']=x.get('price_kind')
+    r['segment']=x.get('segment') or 'ready_meal'; r['delivers_4020']=x.get('delivers_4020'); r['delivery_source']=x.get('delivery_source'); r['allergens']=x.get('allergens'); r['availability_level']=x.get('availability_level') or 'chain'; r['price_date']=x.get('price_date'); r['ownbrand']=bool(x.get('ownbrand')); r['rankable_mealkit']=bool(x.get('rankable_mealkit')); r['price_kind']=x.get('price_kind'); r['ean']=x.get('ean') or x.get('barcode')
     if r.get('ns') is None and x.get('nutriscore_computed'): r['ns']=x['nutriscore_computed']; r['ns_st']='computed'
     r['qa']=x.get('qa_fixes')
     r['priceOnly']=r['p100'] is None and r['kcal'] is None
@@ -140,7 +140,7 @@ for r in R:
     _mc=r.get('meal_check') or {}
     r['rankable']=bool(r['rankable']) and bool(_mc.get('ok')) and 400<=(_mc.get('kcal') or 0)<=900 and (_mc.get('protein') or 0)>=20 \
         and r.get('score') is not None and r['score']>=30 and bool(r.get('price')) and bool(r.get('store')) and not str(r.get('store')).startswith('unbekannt') \
-        and r.get('gang')!='dessert' and r.get('meal_class')!='snack_side' and r.get('segment') not in ('meal_kit','grocery') and not r['component']
+        and r.get('gang')!='dessert' and r.get('meal_class') not in ('snack_side','baby') and r.get('segment') not in ('meal_kit','grocery','baby_food') and not r['component'] and not r.get('nonfood')
     _ppor=(_mc.get('protein') or 0); _epor=(r['price']*_mc['portion']/r['size']) if r['rankable'] and r.get('size') and _mc.get('portion') else (r['price'] if r['rankable'] else None)
     r['pli']=round(0.5*r['score']+0.5*min((_ppor/_epor)/20,1)*100,1) if r['rankable'] and _epor else None
     if r['pli'] is None: r['rankable']=False
@@ -192,39 +192,109 @@ for m in mains:
         _,v,s,kc,pr,cost=best; used.add(v['id']); s and used.add(s['id'])
         combos.append(dict(main=m['id'],veg=v['id'],side=s['id'] if s else None,kcal=round(kc),prot=round(pr),price=round(cost,2),fib=round(v['fib']+(s['fib'] if s else 0),1)))
     if len(combos)>=24: break
-# --- exact same-store dedupe + light_meal ranking + cross-store collapse in top lists ---
-_BABY=re.compile(r'hipp|beba|aptamil|alete|babylove|ab dem \d|kleinkind|säugling|\bbaby\b|kinder ?menü',re.I)
+# --- baby/dry-fix exclusion + exact/GTIN/near dedupe + light_meal + cross-store collapse ---
+_BABY=re.compile(r'hipp|beba|aptamil|alete|babylove|ab dem \d|kleinkind|säugling|\bbaby\b|kinder ?menü|bio-?gläschen',re.I)
 _DRYFIX=re.compile(r'\bfix\b|bouillon.?w(?:ü|u)rfel|paradiescreme|maggi.*suppe|knorr basis',re.I)
-_NOISE=re.compile(r'(tiefgekühl\w*|tiefkuehl\w*|\btk\b|\bbio\b|\bdie\b|\bder\b|\bdas\b|\bmit\b|\bund\b|\bpizza\b|\bmenü\b|\bfertiggericht\b)',re.I)
+_NOISE=re.compile(r'(tiefgekühl\w*|tiefkuehl\w*|\btk\b|\bbio\b|\bdie\b|\bder\b|\bdas\b|\bmit\b|\bund\b|\bpizza\b|\bmenü\b|\bfertiggericht\b|\bveggie\b|\bvegan\b|\bhack\b)',re.I)
+_n_baby=0
+for _r in R:
+    if not _BABY.search(_r.get('name') or ''): continue
+    _r['meal_class']='baby'; _r['segment']='baby_food'; _r['nonfood']=True
+    _r['rankable']=False; _r['pli']=None; _r['pliLight']=None
+    _r['flags']=(_r.get('flags') or [])+['Kindernahrung (kein Fertiggericht-Ranking)']
+    _n_baby+=1
 def _prod_key(r):
+    e=str(r.get('ean') or '').lstrip('0')
+    if e and e.isdigit() and len(e)>=8: return 'e:'+e
     m=re.search(r'/product/(\d{8,14})',r.get('url') or '')
     if m: return 'g:'+m.group(1).lstrip('0')
     b=(r.get('brandN') or r.get('brand') or '').split(',')[0].strip().lower()
     n=(r.get('name') or '').lower()
     if b and b in n: n=n.replace(b,'')
-    n=_NOISE.sub(' ',n)
+    n=_NOISE.sub(' ',n); n=re.sub(r'\d+[.,]?\d*\s*g\b',' ',n)
     n=re.sub(r'[^a-z0-9äöüß]+','',n); b2=re.sub(r'[^a-z0-9äöüß]+','',b)
     sz=str(int(r['size'])) if r.get('size') else ''
     return 'n:'+b2+':'+n+':'+sz
+def _near_key(r):
+    """Brand+core name without size — collapses OFF/store twins like Lotao Chili 320/350 g."""
+    e=str(r.get('ean') or '').lstrip('0')
+    if e and e.isdigit() and len(e)>=8: return 'e:'+e
+    m=re.search(r'/product/(\d{8,14})',r.get('url') or '')
+    if m: return 'g:'+m.group(1).lstrip('0')
+    b=(r.get('brandN') or r.get('brand') or '').split(',')[0].strip().lower()
+    n=(r.get('name') or '').lower()
+    if b and b in n: n=n.replace(b,'')
+    n=_NOISE.sub(' ',n); n=re.sub(r'\d+[.,]?\d*\s*g\b',' ',n)
+    n=re.sub(r'[^a-z0-9äöüß]+','',n); b2=re.sub(r'[^a-z0-9äöüß]+','',b)
+    return 'n:'+b2+':'+n
 def _exact_key(r):
     return ((r.get('name') or '').strip().lower(),(r.get('store') or '').strip().lower(),r.get('size'))
-_by_ex={}
-for _r in R: _by_ex.setdefault(_exact_key(_r),[]).append(_r)
-_n_exact=0
-for _vs in _by_ex.values():
-    if len(_vs)<2: continue
-    _vs=sorted(_vs,key=lambda r:(r.get('price') is None,r.get('price') or 999))
-    for _r in _vs[1:]:
-        _r['rankable']=False; _r['pli']=None
-        _r['flags']=(_r.get('flags') or [])+['Duplikat (gleicher Name/Laden/Größe)']
-        _n_exact+=1
+def _is_off(r):
+    s=str(r.get('store') or '')
+    return (not s) or s.startswith('unbekannt')
+def _size_close(a,b,tol=0.12):
+    if not a or not b: return True
+    a,b=float(a),float(b)
+    return abs(a-b)/max(a,b)<=tol
+def _cluster_by_size(vs):
+    """Group rows whose pack size is missing or within ±12% (Lotao 320/350; not 400/800)."""
+    clusters=[]
+    for r in vs:
+        placed=False
+        for c in clusters:
+            if any(_size_close(r.get('size'),x.get('size')) for x in c):
+                c.append(r); placed=True; break
+        if not placed: clusters.append([r])
+    return [c for c in clusters if len(c)>=2]
+def _demote_dups(groups, flag, prefer, only_off_or_same_store=False, size_gate=False):
+    n=0
+    for vs in groups.values():
+        if len(vs)<2: continue
+        if only_off_or_same_store:
+            offs=[r for r in vs if _is_off(r)]
+            by_store={}
+            for r in vs:
+                if _is_off(r): continue
+                by_store.setdefault((r.get('store') or '').lower(),[]).append(r)
+            buckets=[]
+            if len(offs)>=2: buckets.append(offs)
+            if offs and len(vs)>len(offs):
+                for r in offs:
+                    r['rankable']=False; r['pli']=None; r['pliLight']=None
+                    r['flags']=(r.get('flags') or [])+[flag+' (OFF-twin)']; n+=1
+            for store_vs in by_store.values():
+                if len(store_vs)>=2: buckets.append(store_vs)
+        else:
+            buckets=[vs]
+        for bucket in buckets:
+            parts=_cluster_by_size(bucket) if size_gate else [bucket]
+            for part in parts:
+                part=sorted(part,key=prefer)
+                for r in part[1:]:
+                    r['rankable']=False; r['pli']=None; r['pliLight']=None
+                    r['flags']=(r.get('flags') or [])+[flag]; n+=1
+    return n
+_pref=lambda r:(0 if r.get('kcal') is not None else 1, 0 if r.get('ean') else 1, r.get('price') is None, r.get('price') or 999, 0 if r.get('url') else 1)
+_by_ex={}; _by_ean={}; _by_near={}
+for _r in R:
+    _by_ex.setdefault(_exact_key(_r),[]).append(_r)
+    _e=str(_r.get('ean') or '').lstrip('0')
+    if _e and _e.isdigit() and len(_e)>=8: _by_ean.setdefault('e:'+_e,[]).append(_r)
+    _nk=_near_key(_r)
+    if _nk.startswith('n:') and _nk.count(':')>=2 and len(_nk.split(':')[-1])>=8:
+        _by_near.setdefault(_nk,[]).append(_r)
+_n_exact=_demote_dups(_by_ex,'Duplikat (gleicher Name/Laden/Größe)',_pref,False)
+_n_ean=_demote_dups(_by_ean,'Duplikat (gleiche GTIN/EAN)',_pref,True)
+_n_near=_demote_dups(_by_near,'Duplikat (nahe Name/Marke, Ranking)',_pref,True,True)
 _light=[]
 for _r in R:
+    if _r.get('meal_class') in ('baby','dessert','dry','snack_side'): continue
+    if _r.get('segment')=='baby_food' or _r.get('nonfood'): continue
     if _r.get('meal_class')!='light_meal': continue
     _mc=_r.get('meal_check') or {}; _k,_p=_mc.get('kcal'),_mc.get('protein')
     if not (_k and 300<=_k<400): continue
     if _r.get('dry') or _r.get('nutrition_basis')=='dry' or _r.get('gang')=='dessert': continue
-    if _r.get('segment') in ('grocery','meal_kit') or _r.get('component') or _r.get('stage') not in ('meal','stew'): continue
+    if _r.get('segment') in ('grocery','meal_kit','baby_food') or _r.get('component') or _r.get('stage') not in ('meal','stew'): continue
     if not _r.get('score') or _r['score']<30 or not _r.get('price') or not _r.get('store'): continue
     if str(_r['store']).startswith('unbekannt') or _r.get('pstat') not in ('live 2026','aktuell'): continue
     if _BABY.search(_r.get('name') or '') or _DRYFIX.search(_r.get('name') or ''): continue
@@ -247,7 +317,7 @@ topPLI,_c_pli=_collapse([r for r in R if r.get('rankable') and r.get('pli') is n
 top_h,_c_h=_collapse([r for r in R if r.get('rankable') and r.get('score') is not None],lambda r:r['score'])
 top_pe,_c_pe=_collapse([r for r in R if r.get('rankable') and r.get('ppe') and r.get('pstat')=='live 2026' and r.get('pack')!='Trocken/Instant'],lambda r:r['ppe'])
 topLight,_c_light=_collapse(_light,lambda r:r['pliLight'])
-print('rankings: light',len(_light),'exact_dup',_n_exact,'collapsed pli/h/pe/light',_c_pli,_c_h,_c_pe,_c_light)
+print('rankings: light',len(_light),'baby',_n_baby,'exact_dup',_n_exact,'ean_dup',_n_ean,'near_dup',_n_near,'collapsed pli/h/pe/light',_c_pli,_c_h,_c_pe,_c_light)
 import os
 qa=json.load(open('qa_stats.json')) if os.path.exists('qa_stats.json') else None
 # Hersteller
