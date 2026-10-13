@@ -1,12 +1,16 @@
 {
- "exported_at": "2026-10-13T00:59:23Z",
+ "exported_at": "2026-10-13T02:26:46Z",
  "app_generated": "2026-10-12",
  "counts": {
-  "products": 1293,
-  "prices": 1148,
+  "products": 1471,
+  "prices": 1326,
   "nutrition": 736,
   "producers": 22,
   "establishments": 4706,
-  "logos": 135
- }
+  "logos": 135,
+  "stores": 498,
+  "companies": 83,
+  "online_mealprep": 96
+ },
+ "stores_note": "OpenStreetMap contributors, ODbL; bbox Linz+Linz-Land+Urfahr-Umgebung"
 }

@@ -1,0 +1,499 @@
+osm_type,osm_id,chain,name,street,housenumber,postcode,city,lat,lon,opening_hours,brand_wikidata,source,fetched_at
+node,70375053,Spar,Spar,Gewerbezeile,1,4202,Hellmonsödt,48.436549,14.293003,,Q610492,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,76041610,Supermarkt (sonstige),Winkler-Markt,,,,,48.333444,14.319336,Mo-Fr 07:30-18:30; Sa 07:30-17:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,259239282,Supermarkt (sonstige),Sparmarkt,,,,,48.191418,14.109103,"Mo-Fr 06:50-19:00; Sa 06:50-18:00; Su,PH off",,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,259863252,Billa Plus,Billa Plus,,,,,48.314706,14.283238,Mo-Fr 07:40-20:00; Sa 07:40-18:00,Q115431077,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,259863254,Bipa,Bipa,,,,,48.313729,14.2816,Mo-Fr 08:00-19:00; Sa 08:00-18:00,Q864933,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,259863255,Billa,Billa,Hauptstraße,18,4040,Linz,48.311331,14.283293,Mo-Fr 06:45-19:00; Sa 07:15-18:00,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,259863256,Spar,Spar,,,,,48.313961,14.286256,Mo-Fr 06:50-19:00; Sa 06:50-18:00,Q610492,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,259863261,Billa,Billa,,,,,48.330387,14.287844,Mo-Fr 06:45-19:00; Sa 07:15-18:00,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,259863268,Spar,Spar,,,,,48.332551,14.289398,Mo-Fr 07:15-19:30; Sa 07:15-18:00,Q610492,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,259864408,Spar,Spar,Griesmayrstraße,21,4040,Linz,48.333933,14.299536,Mo-Fr 06:50-19:00; Sa 06:50-18:00,Q610492,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,262960552,Spar,Spar,,,,,48.271312,14.428002,Mo-Fr 07:15-19:30; Sa 07:15-18:00,Q610492,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,262969934,Convenience (sonstige),Turmöl,,,,,48.239589,14.528287,Mo-Su 05:00-23:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,269883939,Billa,Billa,,,,,48.327756,14.324589,Mo-Fr 07:40-20:00; Sa 07:40-18:00; PH off,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,277284858,Hofer,Hofer,,,,,48.321036,14.289369,Mo-Fr 07:40-20:00; Sa 07:40-18:00,Q15815751,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,277289046,dm,dm,Blütenstraße,13-23,4040,Linz,48.314495,14.282785,"Mo-Fr 08:00-19:00, Sa 08:00-18:00",Q266572,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,300566480,Hofer,Hofer,Hopfengasse,23,4020,Linz,48.297894,14.284091,Mo-Fr 07:40-20:00; Sa 07:40-18:00,Q15815751,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,304866374,Spar,Spar,Bahnhofplatz,3,4600,Wels,48.164835,14.026971,Mo-Fr 06:30-21:00,Q610492,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,304866464,Interspar,Interspar,Oberfeldstraße,91,4600,Wels,48.182403,14.012876,Mo-Fr 07:40-20:00; Sa 07:40-18:00; Su off,Q15820339,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,320054651,Spar,Spar,Traunerstraße,82,4050,Traun/Oedt,48.21564,14.209432,"Mo-Fr 07:00-19:00; Sa 07:00-17:00; Su,PH off",Q610492,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,322703044,Spar,Spar,Freistädter Straße,33,4040,Linz,48.31795,14.283653,Mo-Fr 06:50-19:00; Sa 06:50-18:00; PH off,Q610492,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,329581437,Supermarkt (sonstige),Romana Kastner,Landshaager Straße,2,4113,St. Martin im Mühlkreis,48.41537,14.039449,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,329581459,Nah&Frisch,Nah & Frisch,Hostauerstraße,15,4100,Ottensheim,48.332755,14.173429,,Q1963643,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,329587572,Mutter Erde,Mutter Erde Naturkost,Graumannplatz,3,4050,Traun,48.220171,14.239587,"Mo-Th 07:00-12:30,15:00-18:00; Fr 07:00-18:00; Sa 07:00-12:00",,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,360899664,Spar,Spar,Grieskirchner Straße,9,4600,Wels,48.169326,14.024461,Mo-Fr 07:00-19:00; Sa 07:00-18:00,Q610492,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,360921622,Billa,Billa,Kaiser-Josef-Platz,53,4600,Wels,48.160286,14.024692,Mo-Fr 06:45-19:00; Sa 07:15-18:00,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,361044049,Hofer,Hofer,,,,,48.2405,14.530519,,Q15815751,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,370360193,Convenience (sonstige),Wäsche Greta,,,,,48.223094,14.241798,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,414079702,Penny,Penny,,,,,48.355071,14.424984,,Q284688,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,414079704,Billa,Billa,,,,,48.350491,14.410436,Mo-Fr 07:00-19:15; Sa 07:15-18:00,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,422508902,Spar,Spar,Marktplatz,13,4202,Hellmonsödt,48.431925,14.300088,,Q610492,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,455352906,dm,dm Drogerie Markt,Betriebsstraße,9,4213,Unterweitersdorf,48.357393,14.475149,Mo-Fr 08:00-18:30; Sa 08:00-17:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,456359594,Unimarkt,Nah & Frisch,Grieskirchner Straße,17,4600,Wels,48.169998,14.024167,Mo-Fr 07:00-19:00; Sa 07:30-17:00,Q1169599,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,470941034,ADEG,Adeg,,,,,48.380115,14.191253,Mo-Fr 07:00-18:00; Sa 07:00-13:00,Q290211,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,476293913,Convenience (sonstige),Rehberger,,,,,48.199127,14.128756,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,513799812,Billa,Billa,,,,,48.269539,14.28787,Mo-Fr 07:00-19:00; Sa 07:00-18:00,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,524676760,Bipa,BIPA,,,,,48.267567,14.265258,,Q864933,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,527809213,Hofer,Hofer,,,,,48.314318,14.283816,Mo-Fr 07:40-20:00; Sa 07:40-18:00,Q15815751,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,590583995,Convenience (sonstige),K-Loy Asia Shop,Karl-Loy-Straße,14,4600,Wels,48.160703,14.020735,"Mo-Fr 09:00-18:00, Sa 09:00-13:00",,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,617179690,Supermarkt (sonstige),,,,,,48.277675,14.250908,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,620822431,Eurospar,Eurospar,,,4300,Sankt Valentin,48.16703,14.514592,Mo-Fr 07:15-19:00; Sa 07:15-18:00,Q610492,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,625999741,Drogerie (sonstige),Drogerie,,,,,48.191224,14.115669,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,630369059,Billa Plus,Billa Plus,Mozartstraße,7,4020,Linz,48.301677,14.291515,Mo-Fr 07:15-19:30; Sa 07:15-18:00,Q115431077,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,632835546,Billa Plus,Billa Plus,,,,,48.322911,14.289913,Mo-Fr 07:15-19:30; Sa 07:15-18:00; PH off,Q115431077,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,677292579,Drogerie (sonstige),Apotheke Feldkirchen an der Donau,Gewerbeparkstraße,2,4101,Feldkirchen an der Donau,48.3471,14.052835,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,760266866,Penny,Penny,,,,,48.32685,14.284982,Mo-Fr 07:15-19:30; Sa 07:15-18:00,Q284688,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,794102237,Bipa,Bipa,Taubenmarkt,1,4020,Linz,48.304211,14.288012,Mo-Fr 08:00-19:30; Sa 08:00-18:00,Q864933,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,834230871,Bipa,Bipa,,,,,48.327679,14.325188,Mo-Fr 08:00-19:00; Sa 08:00-18:00,Q864933,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,872404394,Billa,Billa,,,,,48.287979,14.299903,Mo-Fr 06:45-19:00; Sa 07:00-18:00,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,872404474,Billa,Billa Corso,Landstraße,44,4020,Linz,48.300552,14.290672,Mo-Fr 07:15-19:30; Sa 07:15-18:00; PH off,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,872404508,Penny,Penny Markt,Hessenplatz,8,4020,Linz,48.300508,14.295319,Mo-Fr 07:15-19:30; Sa 07:15-18:00,Q284688,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,876467454,Müller,Müller,,,,,48.314246,14.282882,"Mo-Fr 08:30-19:00, Sa 08:30-18:00; PH off",Q1958759,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,876499319,Supermarkt (sonstige),Sewa,Hauptstraße,48,4040,Linz,48.313488,14.281715,Mo-Fr 09:00-17:30; Sa 09:00-13:30,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,920080543,Bipa,Bipa,Stadtplatz,13a,4060,Leonding,48.278887,14.248782,Mo-Fr 08:00-19:00; Sa 08:00-18:00; Su off,Q864933,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,920080720,Drogerie (sonstige),Foto Drogerie michel,Stadtplatz,2,4060,Leonding,48.279358,14.248334,"Mo-Tu 08:00-12:00,14:00-18:00, Th-Fr 08:00-12:00,14:00-18:00, Sa 07:30-12:00; PH closed",,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,925370076,dm,dm,Altenbergerstraße,2,4040,,48.330193,14.318016,Mo-Fr 08:00-18:30; Sa 08:00-17:00,Q266572,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,954480312,Convenience (sonstige),Güven Markt,Humboldtstraße,21b,4020,Linz,48.296541,14.296136,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,958683905,Convenience (sonstige),Kay-Sonic,,,,,48.289556,14.296986,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,968583355,Drogerie (sonstige),Caesaro Med,,,,,48.271336,14.246533,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,973829524,Convenience (sonstige),Hang Khang Asia Lebensmittel,,,,,48.319771,14.289422,Mo-Fr 09:00-18:30; Sa 10:00-17:00; Su off,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,985055391,dm,dm,Kornstraße,14a,4060,Leonding,48.257944,14.254613,Mo-Fr 08:00-18:30; Sa 08:00-18:00; Su off,Q266572,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,985075601,Convenience (sonstige),Tante Helga's Geschenkeland,,,,,48.258854,14.255403,Mo-Fr 09:00-19:00; Sa 09:00-17:00; Su off,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,985075661,Norma,Norma,,,,,48.258772,14.255305,Mo-Fr 08:00-19:00; Sa 08:00-17:00; Su off,Q450180,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,1003953381,Maximarkt,Maximarkt,,,,,48.195961,14.246897,Mo-Fr 08:00-19:30; Sa 08:00-18:00,Q55524814,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,1004370279,dm,dm,,,,,48.196164,14.246813,Mo-Fr 09:00-19:00; Sa 09:00-18:00,Q266572,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,1018161943,Spar Express,SPAR express,Linzer Straße,189,4600,Wels,48.172743,14.05285,Mo-Su 05:00-24:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,1032353311,Billa,Billa,,,,,48.292205,14.304904,Mo-Fr 07:00-19:00; Sa 07:00-18:00,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,1088060120,Nah&Frisch,Nah & Frisch,,,,,48.360169,14.258545,,Q1963643,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,1096055523,Billa,Billa,Hostauerstraße,90,4100,Ottensheim,48.340345,14.167433,Mo-Fr 07:15-19:30; Sa 07:15-18:00,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,1104540704,dm,dm,Oberfeldstraße,91,4600,Wels,48.182424,14.013967,Mo-Fr 08:30-19:00; Sa 08:30-18:00,Q266572,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,1147300137,Convenience (sonstige),Trieu Asien Shop,,,,,48.268355,14.266197,Mo-Sa 09:00-18:00; Su off,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,1180818183,Billa Plus,Billa Plus,,,,,48.253703,14.279632,Mo-Fr 07:40-20:00; Sa 07:40-18:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,1277283602,Bipa,Bipa,Ikea Platz,4,4053,Ansfelden,48.196489,14.247701,Mo-Fr 09:00-19:00; Sa 09:00-18:00,Q864933,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,1321505806,Weltladen,Weltladen,Hauptstraße,21,4210,Gallneukirchen,48.353694,14.416671,,Q1640782,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,1324390233,Supermarkt (sonstige),Gottfrieds Obst und Gemüsewelt,,,,,48.301266,14.299984,"Mo,We,Th 08:00-16:00; Tu 08:00-17:30; Fr 07:00-17:30; Sa 07:00-13:00",,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,1335620604,Convenience (sonstige),mein Müli,,,,,48.306016,14.288277,Mo-Fr 09:00-18:00; Sa 08:30-12:30,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,1338388929,Spar Express,Spar Express,Salzburger Straße,226,4600,Wels,48.15337,13.987293,Mo-Su 05:00-24:00,Q610492,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,1346739874,Convenience (sonstige),MiM Market,,,,,48.207995,14.258909,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,1365354812,Convenience (sonstige),,,,,,48.226632,14.525247,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,1374822335,Penny,Penny Markt,,,,,48.287444,14.304679,Mo-Fr 07:15-19:30; Sa 07:15-18:00,Q284688,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,1378471566,Supermarkt (sonstige),Seno markt,,,,,48.288207,14.299196,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,1462984262,Hofer,Hofer,Kaufpark,1,4300,St. Valentin,48.190845,14.520511,Mo-Fr 07:15-19:30; Sa 07:15-18:00,Q15815751,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,1462984263,Billa,Billa,Kaufpark,2,4300,St. Valentin,48.191746,14.520218,Mo-Fr 07:00-19:15; Sa 07:15-18:00,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,1493567826,Bipa,BIPA,,,,,48.249212,14.307962,Mo-Fr 08:00-19:00; Sa 08:00-18:00,Q864933,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,1493567827,Bipa,Bipa,,,,,48.253351,14.309972,Mo-Fr 08:00-19:00; Sa 08:00-18:00,Q864933,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,1493582200,Billa,Billa,,,,,48.249233,14.308737,Mo-Fr 07:15-19:30; Sa 07:15-18:00,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,1493582208,Billa,Billa,,,,,48.253386,14.309564,Mo-Fr 07:15-19:30; Sa 07:15-18:00,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,1493634814,Eurospar,Eurospar,Karl Steiger Str,1,4030,Linz,48.253215,14.311776,Mo-Fr 07:15-19:30; Sa 07:15-18:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,1495696857,Lidl,Lidl,,,,,48.302366,14.027769,Mo-Fr 08:00 - 19:00;Sa 08:00-18:00,Q151954,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,1515446158,Interspar,Interspar,,,,,48.299748,14.319288,Mo-Fr 08:00-20:00; Sa 08:00-18:00,Q15820339,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,1565809530,Billa,Billa,,,,,48.242986,14.337159,Sa 07:15-18:00; Mo-Fr 06:45-19:00,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,1565970451,Billa,Billa,,,,,48.29652,14.291663,Mo-Fr 06:45-19:00; Sa 07:15-18:00,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,1565970459,Interspar,Interspar,,,,,48.256019,14.285533,Mo-Fr 07:40-20:00; Sa 07:40-18:00,Q15820339,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,1566303942,Billa,Billa,,,,,48.30217,14.299765,Mo-Fr 06:45-19:00; Sa 07:15-18:00,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,1572887084,Billa Plus,Billa Plus,Landstraße,2a,4470,Enns,48.215081,14.464171,Mo-Fr 07:15-19:30; Sa 07:15-18:00,Q115431077,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,1665983470,Lidl,Lidl,,,,,48.266107,14.287633,Mo-Fr 07:40-20:00; Sa 07:40-18:00; PH off,Q151954,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,1679744646,Spar,Spar,Hauptplatz,52,4053,Ansfelden,48.204271,14.250332,Mo-Fr 07:15-19:30; Sa 07:15-18:00; PH off,Q610492,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,1680837343,Bio (sonstige),Reformhaus Martin,,,,,48.157233,14.026393,Mo-Sa 09:00-18:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,1687205760,Drogerie (sonstige),Parfümerie,,,,,48.15676,14.025316,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,1725483365,Bipa,Bipa,Kriemhildstraße,20,4300,St. Valentin,48.169042,14.514526,Mo-Fr 08:00-19:00; Sa 08:00-13:00,Q864933,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,1725483653,Penny,PENNY,,,4300,Sankt Valentin,48.169137,14.514419,Mo-Fr 07:30-19:00; Sa 07:30-18:00,Q284688,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,1837838609,Spar,Spar,,,,,48.282174,14.363386,,Q610492,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,1843792121,Penny,Penny,,,,,48.240497,14.535217,,Q284688,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,1861533823,Convenience (sonstige),India Shop,,,,,48.287767,14.300093,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,1874664444,Convenience (sonstige),Heimvorteil,,,,,48.175063,14.529015,24/7,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,1938306423,Billa,Billa,Müller-Guttenbrunn-Straße,2,4020,Linz,48.271143,14.298402,Mo-Fr 07:00-19:00; Sa 07:00-18:00,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,2007972137,Convenience (sonstige),Avanti,,,,,48.203617,14.246959,Mo-Su 05:00-22:00,Q124350461,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,2039152342,Convenience (sonstige),"Biogreißlerei ""Zur Dorfschmiede""",,,,,48.344204,14.440578,Tu 08:00-18:00; We 15:00-18:00; Fr 08:00-18:00; Sa 08:00-12:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,2202208422,Convenience (sonstige),Bioladen,,,,,48.352608,14.416942,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,2292179326,Convenience (sonstige),Cioccolateria Marinello,Ringstraße,29,4600,Wels,48.158501,14.024035,Mo-Fr 09:30-18:00; Sa 09:30-16:30,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,2292579077,Convenience (sonstige),Sewa,Ringstraße,31,4600,Wels,48.158547,14.024275,Mo-Fr 09:00-18:00; Sa 09:00-17:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,2292607040,Convenience (sonstige),Sholami,Ringstraße,19,4600,Wels,48.158226,14.023165,Mo-Sa 09:00-19:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,2302824611,Spar,Spar,,2,4030,Linz,48.258021,14.359965,Mo-Fr 06:50-19:00; Sa 06:50-18:00,Q610492,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,2309636166,Lidl,Lidl,,,,,48.306911,14.294355,Mo-Fr 07:40-20:00; Sa 07:40-18:00,Q151954,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,2325826092,Lidl,Lidl,Hostauerstraße,87,4100,Ottensheim,48.339795,14.166487,Mo-Fr 07:40-20:00; Sa 07:40-18:00,Q151954,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,2346723646,Convenience (sonstige),Shell,,,,,48.204895,14.247797,24/7,Q110716465,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,2346731331,Convenience (sonstige),Eni,,,,,48.187309,14.249542,Mo-Fr 05:30-22:00;Sa 06:00-22:00;Su 07:00-22:00;PH 07:00-22:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,2350015842,Convenience (sonstige),Eni,Welser Straße,8,4060,Leonding,48.274662,14.272456,Mo-Su 06:00-22:00;PH 06:00-22:00,Q565594,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,2355241493,Convenience (sonstige),BP Tankstelle,,,,,48.296226,14.30839,"Mo-Fr 05:30-22:00; PH,Sa,Su 07:00-22:00",Q152057,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,2399200779,Convenience (sonstige),Ernte Land Zauner,Dornacher Straße,,,,48.33152,14.3122,"Mo-Fr 09:00-13:00,14:00-16:00; Sa 09:00-13:00",,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,2399200780,Convenience (sonstige),Gesünder Leben,Volksfeststraße,14,4020,Linz,48.301606,14.296766,"Mo-Th 08:30-12:30,14:00-18:00; Fr 08:30-18:00; Sa 08:30-12:30",,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,2399200785,Bio (sonstige),Martin Reformhaus,Hauptplatz,2,4020,Linz,48.306212,14.286695,Mo-Fr 08:30-18:30; Sa 08:30-18:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,2429858399,Bipa,BIPA,Schmiedstraße,5,4070,Eferding,48.30862,14.022575,Mo-Fr 08:00-18:30; Sa 08:00-17:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,2498930484,Supermarkt (sonstige),Indian,,,,,48.310888,14.281849,Mo-Sa 10:00-18:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,2529238468,Drogerie (sonstige),Roma,,,,,48.2214,14.405616,"Mo-Fr 09:00-12:30,13:00-18:30; Sa 09:00-12:30,13:00-17:00",,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,2529238470,Eurospar,Eurospar,,,,,48.221566,14.405698,Mo-Fr 07:15-19:30; Sa 07:15-18:00,Q12309283,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,2529252085,Müller,Müller,,,,,48.220552,14.405475,Mo-Fr 09:00-18:30; Sa 09:00-17:00,Q1958759,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,2529260128,dm,dm,,,,,48.220062,14.407657,Mo-Fr 09:00-18:30; Sa 09:00-17:00; PH off,Q266572,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,2682342687,Billa,Billa,,,,,48.239907,14.526513,,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,2699954205,Convenience (sonstige),Meeresbrise,,,,,48.297058,14.290254,Mo-Fr 09:00-18:00; Sa 09:00-14:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,2702234523,Spar,Spar,,,,,48.215087,14.473669,,Q610492,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,2706808001,Penny,PENNY,Am Römerfeld,9,4470,Enns,48.216489,14.463879,Mo-Fr 07:15-19:00; Sa 07:15-18:00,Q284688,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,2706808004,dm,dm,Am Römerfeld,9,4470,Enns,48.216311,14.464513,,Q266572,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,2779094042,Bipa,Bipa,Hostauerstraße,62-68,4100,Ottensheim,48.340198,14.168277,Mo-Fr 08:30-19:30; Sa 08:00-18:00,Q864933,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,2779123130,Eurospar,Eurospar,Hostauerstraße,62-68,4100,Ottensheim,48.34036,14.168763,Mo-Fr 07:15-19:30; Sa 07:15-18:00,Q12309283,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,2941511371,Billa,Billa,Stockhofstraße,31,4020,Linz,48.294633,14.286801,Mo-Fr 07:00-19:00; Sa 07:00-18:00,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,3050168028,Supermarkt (sonstige),Lucias Naturladen,,4a,4470,Enns,48.224098,14.47117,"Mo 08:00-12:00,14:00-18:00;Tu 08:00-12:00;We 08:00-12:00, 14:00-18:00;Th 08:00-12:00, 14:00-18:00;Fr 08:00-18:00;Sa 08:00-12:00",,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,3052084548,Convenience (sonstige),Hochis' Laden,,,,,48.234441,14.133529,Mo-Sa 06:00-16:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,3087882635,Billa,Billa,,,,,48.21546,14.279948,"Mo-Fr 07:15-19:30, Sa 07:15-18:00",Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,3150023279,denn's BioMarkt,Denns BioMarkt,,,,,48.307816,14.293723,Mo-Fr 08:30-19:00; Sa 08:30-18:00; Su off,Q48883773,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,3336441367,dm,dm,Bäckergasse,3,4600,Wels,48.158917,14.024533,Mo-Fr 08:00-18:30; Sa 08:00-17:00; Su off,Q266572,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,3336623857,dm,dm,,,,,48.183281,14.025869,,Q266572,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,3389950498,Billa,Billa,Hasnerstraße,29,4020,Linz,48.285263,14.295625,Mo-Fr 07:15-19:30; Sa 07:15-18:00; PH closed,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,3397446076,Supermarkt (sonstige),Delikat ess,,,,,48.182311,14.11397,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,3521134369,dm,dm drogerie markt,Hartheimerstraße,31,4030,Linz,48.240856,14.33368,Mo-Fr 08:00-18:30; Sa 08:00-17:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,3531120231,dm,dm,Stadtplatz,5a,4060,Leonding,48.279979,14.2488,Mo-Fr 08:00-18:30; Sa 08:00-17:00,Q266572,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,3578772349,Supermarkt (sonstige),Thai-Markt,,,4020,,48.292171,14.295981,Mo-Fr 09:30-19:00; Sa 09:00-16:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,3592088908,Spar,Spar,,,,,48.276595,14.29773,Mo-Fr 07:00-19:00; Sa 07:00-18:00,Q610492,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,3633280124,Eurospar,Eurospar,Landstraße,17-25,4020,Linz,48.302943,14.289829,Mo-Fr 07:15-19:30; Sa 07:15-18:00,Q12309283,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,3633280138,dm,dm,,,,,48.303859,14.289052,Mo-Fr 07:30-18:30; Sa 08:00-18:00,Q266572,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,3633359583,dm,dm,,,,,48.300385,14.290767,Mo-Fr 07:30-18:30; Sa 08:00-18:00,Q266572,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,3677955200,denn's BioMarkt,Denns BioMarkt,Landstraße,111,4020,Linz,48.296097,14.292335,Mo-Fr 08:00-19:00; Sa 08:30-18:00,Q48883773,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,3719871863,Sonnentor,Sonnentor,Bäckergasse,11,4600,Wels,48.159629,14.024327,"Mo-Fr 09:00-13:00,14:00-18:00; Sa 09:00-13:00; PH off",,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,3756187885,Convenience (sonstige),Türkische Lebensmittel,,,,,48.288661,14.299262,Mo-Fr 08:00-19:30; Sa 08:00-18:30,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,3803770320,Spar Express,Spar Express,Bockgasse,30,4020,Linz,48.2909,14.277706,,Q610492,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,3812909090,Supermarkt (sonstige),Mirabelle Supermarkt,,,,,48.270499,14.292809,Mo-Fr 08:00-20:00; Sa 08:00-18:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,3843181349,Supermarkt (sonstige),Vorratskammer,Schubertstraße,11,4600,Wels,48.163736,14.023454,Fr 10:00-17:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,3844357411,Penny,Penny Markt,Traunufer Arkade,1,4600,Thalheim bei Wels,48.154141,14.035856,Mo-Fr 07:15-19:00; Sa 07:15-18:00; Su off,Q284688,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,3851911678,Bipa,Bipa,Traunufer Arkade,1,4600,Thalheim bei Wels,48.154037,14.035321,Mo-Fr 08:00-19:00; Sa 08:00-18:00,Q864933,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,3855419861,Convenience (sonstige),So Afro Shop,,,,,48.16327,14.014434,Mo-Fr 14:00-22:00; Sa 10:00-22:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,4024063457,Müller,Müller,,,,,48.242642,14.235609,"Mo-We 09:00-19:00; Th,Fr 09:00-21:00; Sa 09:00-18:00",Q1958759,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,4056952644,Bipa,Bipa,,,,,48.275968,14.298246,Mo-Fr 08:00-19:00; Sa 08:00-18:00,Q864933,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,4082638092,Spar Express,Spar express,,,,,48.243531,14.223047,Mo-Su 05:00-23:00;PH 05:00-23:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,4092102807,Billa,BILLA stop & shop,,,,,48.337349,14.177152,Mo-Sa 05:00-00:00; Su 06:00-24:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,4111707018,Convenience (sonstige),Turmöl Shop,,,,,48.190072,14.099855,Mo-Su 05:00-00:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,4113670493,Billa,Billa,Ehrenfellnerstraße,2,4060,Leonding,48.263189,14.25879,Mo-Fr 07:15-19:30; Sa 07:15-18:00,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,4149593396,Supermarkt (sonstige),MABUHAY 51 Filipino & Asian market,Schillerstraße,51,4020,Linz,48.299091,14.298587,Mo-Sa 09:00-19:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,4194646151,dm,dm,Helmholtzstraße,15,4020,Linz,48.256234,14.28649,Mo-Fr 08:30-19:00; Sa 08:30-18:00,Q266572,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,4209136789,Billa,Billa,Neubauzeile,69-79,4030,Linz,48.244872,14.282949,Mo-Fr 07:00-19:00; Sa 07:00-18:00,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,4225861131,Billa,Billa,,,,,48.253623,14.284017,Mo-Fr 07:15-19:30; Sa 07:15-18:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,4330855092,Bio (sonstige),Ulis Naturkost,Tragweiner Straße,10,4230,Pregarten,48.354529,14.531457,"Mo-Fr 08:00-12:00,14:30-18:00; Sa 08:00-12:00",,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,4362575909,Convenience (sonstige),Güngör Lebensmittel,Hauptplatz,28,4053,Ansfelden,48.204231,14.252202,Mo-Sa 08:00-18:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,4368517970,dm,DM,,,,,48.234762,14.237039,Mo-Fr 08:00-19:00; Sa 08:00-18:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,4406967340,Bipa,Bipa,Eichenstraße,15,4614,Marchtrenk,48.194281,14.115371,Mo-Fr 08:00-19:00; Sa 08:00-18:00,Q864933,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,4509006569,Billa,Billa,,,4300,St. Valentin,48.161067,14.514444,Mo-Fr 07:00-19:00; Sa 07:15-18:00,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,4509404769,Bipa,Bipa,,,,,48.165024,14.011942,,Q864933,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,4539422590,Billa,Billa,Forstbergstraße,3 - 5,4470,Enns,48.209975,14.477733,,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,4605237855,Convenience (sonstige),The Body Shop,,,,,48.244188,14.236489,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,4607430937,Sonnentor,Sonnentor,,,,,48.243471,14.236337,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,4607430938,Convenience (sonstige),reformstark Martin,,,,,48.243382,14.236128,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,4607430940,Convenience (sonstige),Kräuterstube,,,,,48.243384,14.235796,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,4607430942,Convenience (sonstige),Grünzeug,,,,,48.243488,14.235661,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,4607430958,Convenience (sonstige),Schokothek,,,,,48.244109,14.236995,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,4607476748,dm,dm,,,,,48.243171,14.235388,,Q266572,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,4607476749,Convenience (sonstige),Mymuesli,,,,,48.243274,14.235459,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,4607476750,Convenience (sonstige),Eduscho,,,,,48.243269,14.235615,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,4609247995,Convenience (sonstige),Hussel,,,,,48.244061,14.237404,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,4609247999,Convenience (sonstige),Oil & Vinegar,,,,,48.244268,14.237584,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,4646611361,Bipa,Bipa,,,,,48.29219,14.304707,Mo-Fr 08:00-19:00; Sa 08:00-18:00,Q864933,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,4672248634,Spar,Spar,,,,,48.405275,14.418492,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,4691096497,Convenience (sonstige),'s Fachl,Hauptplatz,24,4020,Linz,48.304864,14.286897,Mo-Fr 10:00-18:00; Sa 10:00-17:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,4695286407,Supermarkt (sonstige),ALYA Süpermarket,Kaplanstraße,1,4310,Mauthausen,48.243479,14.549239,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,4718712160,Penny,PENNY,,,,,48.282679,14.365068,Mo-Fr 07:30-19:00; Sa 07:30-18:00,Q284688,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,4740718039,Drogerie (sonstige),Attends,,,,,48.302881,14.28466,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,4796224596,Bipa,Bipa,Linzer Straße,16c,4221,Steyregg,48.282263,14.363574,,Q864933,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,4796242398,Convenience (sonstige),Stadtkern,Stadtplatz,20,4221,Steyregg,48.285753,14.371746,"Fr 11:00-12:00,14:00-16:00",,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,4972231651,Convenience (sonstige),Nicole Baumberger - Keramik und mehr,Stadtplatz,56,4600,Wels,48.1562,14.023274,"Tu 14:00-17:00; We-Fr 10:00-13:00,14:00-17:00",,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,4986783722,Convenience (sonstige),Hofkramerei am Hödlgut,Mitterbachhamerstraße,10,4064,,48.222544,14.132917,Tu 11:00-18:00; Th 17:00-20:00; Fr 09:00-19:00; Sa 09:00-13:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,4987857221,Supermarkt (sonstige),Aslan,,,,,48.265289,14.317546,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,5060906606,Sonnentor,Sonnentor,,,,,48.303243,14.285982,Mo-Fr 09:00-18:30; Sa 09:00-17:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,5128341821,Bipa,Bipa,Geranienstraße,6,4481,Asten,48.217697,14.422296,Mo-Fr 08:00-19:00; Sa 08:00-18:00,Q864933,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,5130170122,Bipa,Bipa,Forstbergstraße,3,4470,Enns,48.209818,14.47773,,Q864933,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,5130251422,Bipa,Bipa,Hauptstraße,14,4210,Gallneukirchen,48.352602,14.415596,Mo-Fr 08:00-18:30; Sa 08:00-17:00,Q864933,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,5130758122,Bipa,Bipa,Pluskaufstraße,7,4061,Pasching,48.243079,14.234799,,Q864933,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,5130861908,Bipa,Bipa,Wegscheider Straße,3,4020,Linz,48.254009,14.280515,Mo-Fr 07:00-19:30; Sa 08:00-19:30,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,5130865326,Bipa,Bipa,Starhembergstraße,12,4020,Linz,48.302224,14.297525,Sa 08:00-18:00; Mo-Fr 08:00-19:00,Q864933,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,5178719935,Convenience (sonstige),Khorasan Market,,,,,48.287864,14.299484,Mo-Sa 08:00-19:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,5230062121,Penny,Penny Markt,Pregartfeld,2,4230,Pregarten,48.351073,14.532015,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,5230132326,Penny,Penny Markt,Rädlerweg,7,4030,Linz,48.252484,14.312594,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,5230236481,Bipa,Bipa,,,,,48.289128,14.29831,Mo-Fr 08:00-19:00;Sa 08:15-18:00;PH closed,Q864933,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,5245574622,Bipa,Bipa,Stadtplatz,18,4230,Pregarten,48.355008,14.530962,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,5493717361,Billa,Billa,,,,,48.153287,14.009003,Mo-Fr 06:45-19:00; Sa 07:15-18:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,5691711511,Convenience (sonstige),Delikatessen Springer,Schmidtgasse,7,4600,Wels,48.157602,14.025435,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,5838674172,Billa,Billa stop & shop,Gewerbestraße,19,4072,Alkoven,48.289561,14.130907,Mo-Sa 05:00-23:00; Su 06:00-23:00,Q117309603,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,5866288821,Convenience (sonstige),Soogut,Langenharterstraße,13,,,48.172546,14.518876,"We, Sa 09:00-12:00",,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,5927001301,dm,dm,,,,,48.215547,14.276056,Mo-Fr 08:00-18:30; Sa 08:00-17:00,Q266572,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,6581925202,Spar Express,Spar Express,,,,,48.311796,14.22883,Mo-Fr 05:30-23:00; Sa 06:00-24:00; Su 06:00-23:00,Q610492,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,6813093179,Supermarkt (sonstige),Obstbau Allerstorfer,Oberndorf,15,4101,Feldkirchen an der Donau,48.360659,14.068791,"Mo 08:00-12:00,13:00-18:00; Th-Fr 08:00-12:00,13:00-18:00; Sa 08:00-12:00",,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,7051949802,Bipa,Bipa,,,,,48.360801,14.004044,,Q864933,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,7091962688,Spar,Spar,,,4040,,48.336814,14.315369,Mo-Th 07:15-20:00; Fr 07:15-18:00,Q610492,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,7305280464,dm,dm,,,,,48.300434,14.319113,Mo-Fr 09:00-19:00; Sa 09:00-18:00,Q266572,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,7317501254,Lidl,Lidl,,,,,48.179869,14.062584,Mo-Fr 07:15-19:30; Sa 07:15-18:00,Q151954,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,7317501261,Bipa,Bipa,,,,,48.180363,14.062062,,Q864933,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,7317501263,Billa Plus,Billa Plus,,,,,48.180808,14.061551,Mo-Fr 07:00-19:15; Sa 07:15-18:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,7481452602,dm,dm,,,,,48.302529,14.031705,,Q266572,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,7569558858,Convenience (sonstige),Merkur,,,,,48.227327,14.234231,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,7616353475,Supermarkt (sonstige),SAM's Lebensmittel,,,,,48.187711,14.258706,"Mo-Fr 06:30-12:00,14:00-19:00; Sa 07:00-14:00",,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,7839408252,dm,dm,,,,,48.298088,14.291701,Mo-Fr 07:30-18:30; Sa 08:00-18:00,Q266572,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,8051162917,Eurospar,Eurospar,Schiffmannstraße,9,4020,Linz,48.265399,14.282001,Mo-Fr 06:50-19:00; Sa 06:50-18:00,Q12309283,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,8062586934,Nah&Frisch,Nah & Frisch punkt,,,,,48.327256,14.303818,Mo-Su 05:30-22:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,8093351520,Weltladen,Weltladen,,,,,48.220101,14.239376,"Mo-Th 09:00-12:30,15:00-18:00; Fr 09:00-18:00; Sa 09:00-12:30",Q1640782,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,8148433300,Bipa,Bipa,,,,,48.265023,14.282345,Mo-Fr 08:00-19:00; Sa 08:00-18:00,Q864933,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,8245756250,Lidl,Lidl,,,4300,St. Valentin,48.182065,14.521398,Mo-Fr 07:40-20:00; Sa 07:40-18:00,Q151954,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,8273916565,Convenience (sonstige),Cakmak Türkische Lebensmittel,Leondingerstraße,34,4050,Traun,48.239982,14.260991,Mo-Sa 06:00-18:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,8307888666,Drogerie (sonstige),Cbd-Store,Dr.-Salzmann-Straße,10,4600,Wels,48.158054,14.020951,Mo-Fr 12:00-18:00; Sa 09:00-13:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,8414620488,Supermarkt (sonstige),Stein-Shop.at,Untere Landstraße,20,4055,Hasenufer,48.193703,14.212577,"Mo-Fr 08:00-12:00,13:00-17:00",,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,8579450381,Norma,Norma,,,,,48.292224,14.305933,Mo-Fr 07:40-20:00; Sa 07:40-18:00; PH off,Q450180,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,8627130032,Convenience (sonstige),,,,,,48.297266,14.295727,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,8627130033,Convenience (sonstige),Ravza Lebensmittel,,,,,48.297113,14.29592,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,8762262032,dm,dm,Viktoria-Weinzierl-Straße,3,4614,Marchtrenk,48.189574,14.107456,,Q266572,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,9041390059,Convenience (sonstige),Supermarket ROMANIA markt,Franckstraße,39,4020,Linz,48.294501,14.311359,"Mo-Sa 09:30-13:00 ,14:00-19:00",,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,9122716790,Convenience (sonstige),Unpackbar,Harrachstraße,46,4020,Linz,48.303244,14.296832,"Mo-Fr 09:00-13:00,14:00-18:00; Sa 09:00-13:00",,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,9193614690,Bipa,Bipa,Kaiser-Josef-Platz,50,4600,Wels,48.160124,14.024237,Mo-Fr 08:00-19:00; Sa 08:00-18:00; PH off,Q864933,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,9248558954,Eurospar,Eurospar,Ansfeldener Straße,1,4052,Ansfelden,48.212244,14.287919,Mo-Fr 06:50-19:00; Sa 06:50-18:00; PH off,Q12309283,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,9447600017,dm,dm Drogerie Markt,,,,,48.240424,14.525853,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,9469550354,Convenience (sonstige),Alsalm Lebensmittelgeschäft,,,,,48.296989,14.295502,Mo-Fr 08:30-19:00; Sa 08:30-18:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,9490432200,Convenience (sonstige),UniBox,,,,,48.258201,14.329638,24/7,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,9546015742,Convenience (sonstige),Mein Müli,Pfarrplatz,16,4020,Linz,48.305993,14.288248,Mo-Fr 08:30-18:00; Sa 08:30-12:30,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,9559121901,Convenience (sonstige),AL QUDS Markt,,,,,48.296317,14.292078,Mo-Fr 08:00-19:00; Sa 08:00-18:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,9705571043,Supermarkt (sonstige),Aboab Alsham,,,,,48.297238,14.287946,Mo-Sa 09:00-20:00; PH closed,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,9887326817,Convenience (sonstige),Familie Market,,,,,48.289406,14.298049,Mo-Sa 09:00-19:30,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,9887326818,Convenience (sonstige),Asia Lebensmittel,,,,,48.289477,14.297975,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,9892444278,Convenience (sonstige),Asian Supermarkt,,,,,48.284881,14.303398,Mo-Fr 09:00-18:30; Sa 09:00-17:00; PH off,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,9892444292,Supermarkt (sonstige),soma Sozialmarkt,,,,,48.286702,14.300348,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,9893073049,Convenience (sonstige),Asia Markt,,,,,48.286369,14.299125,Mo-Fr 09:00-18:30; Sa 09:00-18:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,9910538966,Convenience (sonstige),GenussFAIRteiler,,,,,48.428454,14.484865,Fr 15:00-17:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,9910539553,Nah&Frisch,Nah&Frisch,,,,,48.428477,14.484732,"Mo-Th 07:00-12:30,14:30-18:00; Fr 07:00-18:00; Sa 07:00-12:00",,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,9920619079,Penny,PENNY,,,,,48.233083,14.250151,,Q284688,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,9920619080,Billa,Billa,Weidfeldstraße,117,4050,Traun,48.233119,14.250939,,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,10102699733,Supermarkt (sonstige),Asia Food Market,,,,,48.305998,14.284481,Mo-Sa 10:30-20:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,10102892642,Hofer,Hofer,,,,,48.303027,14.287551,"Mo-Fr 07:40-20:00, Sa 07:40-18:00",Q15815751,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,10103584913,Supermarkt (sonstige),Market Palmen Bagdad,,,,,48.311008,14.282211,Mo-Sa 09:00-20:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,10290260854,Spar,Spar,Krankenhausstraße,5,4020,Linz,48.302433,14.303299,Mo-Fr 06:30-18:30; Sa 06:30-18:00,Q610492,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,10709910946,Convenience (sonstige),Dalaria,,,,,48.305869,14.284831,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,10797692309,Spar,Spar,,,,,48.280317,14.293883,Mo-Fr 06:50-19:00; Sa 06:50-18:00,Q610492,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,10839691328,dm,dm,,,,,48.310192,14.304238,Mo-Fr 08:00-18:30; Sa 08:00-17:00,Q266572,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,10875243156,Convenience (sonstige),Saisonal Regional Bargeldlos Einkaufen,Biberweg,30,4030,Linz,48.250053,14.366117,24/7,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,11143350359,Convenience (sonstige),Taiba Markt,,,,,48.289699,14.2983,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,11250637568,Spar,Spar,,,,,48.243513,14.328973,Mo-Fr 07:00-19:00; Sa 07:00-18:00; PH closed,Q610492,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,11291604137,Billa,Billa Now,,,,,48.331177,14.317189,,Q117309582,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,11397551033,Supermarkt (sonstige),OROS Delikatessen,,,,,48.253977,14.280386,Mo-Fr 09:00-18:30; Sa 09:00-16:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,11733316620,Bipa,Bipa,Weidfeldstraße,117,4050,Traun,48.233338,14.250727,,Q864933,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,11939987268,Lidl,Lidl,Schillerplatz,1,4020,Linz,48.297093,14.291305,Mo-Fr 07:40-20:00; Sa 07:40-18:00,Q151954,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,11940105675,dm,dm,Karl-Steiger-Straße,1,4030,Linz,48.25325,14.311547,,Q266572,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,12015443289,Bipa,Bipa,,,,,48.299584,14.29111,,Q864933,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,12040539592,Supermarkt (sonstige),Abdul Market,,,,,48.275615,14.31191,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,12051514349,Convenience (sonstige),Cheema Indien Store,,,,,48.297458,14.292232,Mo-Fr 09:00-18:00; Sa 09:30-18:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,12058904969,Convenience (sonstige),Caseli Mitnehmküche,,,,,48.277097,14.321334,Mo-Th 09:00-14:00; Fr 09:00-13:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,12138567084,Convenience (sonstige),dalavie,Weissenwolffstraße,14,4221,Steyregg,48.285826,14.369722,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,12211731522,Nah&Frisch,Nah&Frisch Luckeneder,Tungassingerstraße,7A,4020,Linz,48.274688,14.303955,"Mo-Fr 07:30-13:00, Mo-Fr 15:00-18:00",,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,12214176325,Müller,Müller,,,,,48.215434,14.282566,,Q1958759,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,12347753403,Supermarkt (sonstige),Andreas Wolfsteiner,Bad Mühllacken,60,4101,,48.365884,14.065062,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,12607382101,Supermarkt (sonstige),schÖNER Supermarkt,Landwiedstraße,117,4020,,48.266965,14.286538,Mo-Fr 07:00-19:00; Sa 07:00-18:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,12772572555,Convenience (sonstige),Wurzelwerk,,,,,48.327255,14.284456,Fr 09:45-18:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,12880595516,Spar Express,Spar express,,,,,48.156736,14.001048,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,12902052739,Billa,Billa stop & shop,,,,,48.220456,14.50753,"Mo-Sa 05:00-23:00; Su,PH 06:00-23:00",Q117309603,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,12946808101,Convenience (sonstige),Karina Russische Lebensmittel,Karl-Steiger-Straße,4,4020,,48.252929,14.309946,Mo-Sa 10:00-19:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,12947270558,Convenience (sonstige),ROMANIAmarkt,,,,,48.167707,14.020561,"Mo-Th 09:45-13:00,14:00-18:30; Fr 09:45-18:30; Sa 09:30-18:30; Su,PH off",,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,12978450421,Drogerie (sonstige),Lebensquelle,,,,,48.15537,14.026305,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,12982449244,Billa,Billa,,,,,48.281062,14.307413,,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,13108955091,ADEG,ADEG,Dorfplatz,20,4491,Niederneukirchen,48.159657,14.338452,"Mo-Fr 07:00-18:00; Sa 07:00-12:30; Su,PH off",Q290211,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,13109158356,Convenience (sonstige),Damasko,,,,,48.309604,14.277759,"Mo-Sa 09:00-20:00; Su,PH 10:00-20:00",,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,13184645430,Supermarkt (sonstige),Schinagl Ab-Hof Verkauf,,,,,48.323284,14.450688,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,13188471051,Convenience (sonstige),Ecodrom Shop,,,,,48.182462,14.015882,Mo-Sa 06:00-22:00; Su 07:00-22:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,13254374401,Convenience (sonstige),Action,Linzer Straße,16a-c,,,48.282859,14.363763,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,13605825662,Billa,Billa,Gruberstraße,3,4020,Linz,48.312133,14.297708,Mo-Fr 07:15-19:15; Sa 07:15-18:00,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,13730207039,Convenience (sonstige),Mirac Supermarkt,,,,,48.284352,14.304261,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,13742922553,Supermarkt (sonstige),Ali Baba,,,,,48.297957,14.295007,Mo-Fr 08:00-19:00; Sa 08:00-18:00; Su off,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,13918282811,Spar,Spar,,,,,48.158698,14.0246,Mo-Fr 06:50-19:00; Sa 06:50-18:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,13966176899,Müller,Müller,,,,,48.322996,14.287666,Mo-Fr 08:30-18:30; Sa 08:30-17:00; PH off,Q1958759,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,13966179702,dm,dm,,,,,48.322977,14.288466,Mo-Fr 08:00-19:00; Sa 08:00-18:00; PH off,Q266572,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,13966179706,Supermarkt (sonstige),TINGTING Asiamarkt,,,,,48.322937,14.28903,Mo-Fr 09:00-19:00; Sa 09:00-18:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,13966179707,Lidl,Lidl,,,,,48.32292,14.289272,Mo-Fr 07:15-19:30; Sa 07:15-18:00; PH off,Q151954,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,13982296463,Convenience (sonstige),Feinkost Lohn,,,,,48.252845,14.319231,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,13990268792,Supermarkt (sonstige),Damascus Supermarkt,,,,,48.160133,14.025513,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,14030664477,Convenience (sonstige),MARKET ADO,Franckstraße,34,4020,Linz,48.294342,14.310948,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,14072490958,Spar Express,Spar Express,Goethestraße,101,4020,Linz,48.300651,14.308433,Mo-Su 05:00-24:00,Q610492,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,14122230325,Convenience (sonstige),Jet,Ginzkeystraße,58,4600,Wels,48.179306,14.062526,Mo-Su 06:00-22:00,Q568940,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,14128631647,Supermarkt (sonstige),Jasmin Markt,Gruberstraße,15,4020,Linz,48.310516,14.298819,Mo-Fr 09:00-19:00; Sa 08:00-18:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+node,14134029264,Convenience (sonstige),WIGOF,Holzstraße,14,4020,Linz,48.312274,14.301917,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,24823111,Billa,Billa Unterwegs,Freistädter Straße,300,4040,Linz,48.329207,14.31287,"Mo-Sa 06:00-23:45; PH,Su 07:00-23:45",Q115555985,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,24823657,Spar,Spar,Johann-Wilhelm-Klein-Straße,13,4040,Linz,48.331199,14.312641,Mo-Fr 06:50-19:00; Sa 06:50-18:00,Q610492,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,28022059,Hofer,Hofer,Wiener Bundesstraße,117,4050,Traun,48.235497,14.236994,Mo-Fr 07:40-20:00; Sa 07:40-18:00; Su off,Q15815751,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,28047664,Maximarkt,Maximarkt,Bäckermühlweg,61,4030,Linz,48.24307,14.277053,Mo-Fr 07:30-19:30; Sa 07:30-18:00,Q55524814,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,28675461,Convenience (sonstige),Jet,,,,,48.248492,14.241456,Mo-Su 06:00-24:00;PH 06:00-24:00,Q568940,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,29161804,Lidl,Lidl,Salzburger Straße,266,4030,Linz,48.254581,14.283325,Mo-Fr 07:40-20:00; Sa 07:40-18:00,Q151954,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,29574754,Billa Plus,Billa Plus,Poschacherstraße,34,4020,Linz,48.285287,14.311127,Mo-Th 07:20-19:30; Fr 07:20-20:00; Sa 07:20-18:00,Q115431077,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,30382488,Penny,PENNY,Johann-Wilhelm-Klein-Straße,58,4040,Linz,48.335192,14.313118,Mo-Fr 07:15-19:30; Sa 07:15-18:00,Q284688,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,35323433,Billa Plus,Billa Plus,Traunuferstraße,127,4052,Ansfelden,48.211369,14.275751,,Q115431077,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,36872368,Billa,Billa,Carl-Richter-Straße,2,4600,Wels,48.162994,14.015592,,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,36993983,Spar,Spar,Römerstraße,148,4600,Wels,48.165423,14.00184,"Mo-Fr 07:15-19:30, Sa 07:15-18:00",,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,37047178,Lidl,Lidl,Oberfeldstraße,117,4600,Wels,48.183294,14.017888,Mo-Fr 07:40-20:00; Sa 07:40-18:00,Q151954,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,37047180,Billa,Billa,Grieskirchner Straße,121,4600,Wels,48.180062,14.018463,Mo-Fr 07:15-19:30; Sa 07:15-18:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,37144327,Supermarkt (sonstige),Mix Markt,Landwiedstraße,1-3,4020,Linz,48.277321,14.27734,Mo-Fr 09:00-19:00; Sa 09:00-18:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,37419395,Hofer,Hofer,Freistädter Straße,401,4040,Linz,48.328652,14.325174,Mo-Fr 07:40-20:00; Sa 07:40-18:00; PH off,Q15815751,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,37652051,Billa,Billa,Ziegeleistraße,66,4020,Linz,48.290981,14.277012,Mo-Fr 07:15-19:30; Sa 07:15-18:00,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,37655226,Spar,Spar,Holzstraße,13,4020,Linz,48.310763,14.304559,Mo-Fr 06:50-19:00; Sa 06:50-18:00,Q610492,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,38141378,Billa,Billa,,,,,48.152067,14.028246,Mo-Fr 07:00-19:15; Sa 07:15-18:00; Su off,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,38153115,Eurospar,Eurospar,Pater-Bernhard-Rodlberger-Straße,26,4600,Thalheim bei Wels,48.15294,14.033251,Mo-Fr 07:15-19:30; Sa 07:15-18:00; Su off,Q12309283,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,41885634,Billa,Billa,Poststraße,2,4060,Leonding,48.268705,14.264711,,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,42784211,Hofer,Hofer,,,,,48.258197,14.25504,Mo-Fr 07:40-20:00; Sa 07:40-18:00; Su off,Q15815751,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,42990466,Penny,Penny,Welser Straße,17-19,4060,Leonding,48.271279,14.270038,Mo-Fr 07:30-19:00; Sa 07:30-18:00,Q284688,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,48906296,Convenience (sonstige),Viva,Hainzenbachstraße,18,4060,Leonding,48.27874,14.245992,,Q120134542,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,49335261,Billa,Billa,Mayrhansenstraße,28,4060,Leonding,48.276043,14.251905,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,53022161,Nah&Frisch,Nah & Frisch,Nißlstraße,10,4040,Linz,48.314811,14.273461,Mo-Fr 07:30-18:00; Sa 07:30-13:00,Q1963643,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,55533205,Bipa,Bipa,Franz-Keim-Straße,20,4600,Wels,48.169216,14.026894,Mo-Fr 08:00-19:00; Sa 08:00-18:00,Q864933,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,56003376,Convenience (sonstige),Turmöl,Pater-Bernhard-Rodlberger-Straße,39,4600,Thalheim bei Wels,48.153797,14.036788,,Q1473279,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,61283449,Billa,Billa stop & shop,Freistädter Straße,340,4040,Linz,48.328439,14.32165,"Mo-Sa 05:00-23:30; Su,PH 06:00-23:30",Q117309603,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,62280505,Eurospar,Eurospar,Weidfeldstraße,2,4050,Traun,48.225995,14.236058,Mo-Fr 07:15-19:30; Sa 07:15-18:00,Q12309283,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,67647680,Billa,Viva Billa,Hafenstraße,8,4020,Linz,48.315393,14.301732,24/7,Q124305949,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,72822796,Spar,Spar,Reichenauer Straße,9,4203,Altenberg bei Linz,48.373885,14.347429,Mo-Fr 07:15-19:30; Sa 07:15-18:00,Q610492,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,78090017,Convenience (sonstige),Turmöl,Unionstraße,55,4020,Linz,48.284164,14.292473,Mo-Su 05:00-22:00; PH 05:00-22:00,Q1473279,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,81125606,Hofer,Hofer,Betriebsstraße,14,4213,Unterweitersdorf,48.358391,14.479036,Mo-Fr 07:30-19:30; Sa 07:30-18:00; PH off,Q15815751,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,82409895,Billa,Billa,Lederergasse,27,4020,Linz,48.307568,14.295382,Mo-Fr 07:15-19:30; Sa 07:15-18:00; Su off,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,83860960,Supermarkt (sonstige),Öner Supermarkt,Christlgasse,21,4050,Traun,48.222167,14.24336,Mo-Fr 07:30-19:00; Sa 07:30-18:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,84773693,Supermarkt (sonstige),Erciyes Supermarkt,Saporoshjestraße,3a,4030,Linz,48.250392,14.320757,Mo-Fr 08:30-19:00; Sa 08:30-18:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,84866936,Lidl,Lidl,Handelsring,2,4481,Asten,48.222604,14.404407,Mo-Fr 07:15-19:30; Sa 07:15-18:00,Q151954,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,84866986,Penny,PENNY,Handelsring,1,4481,Asten,48.222296,14.405654,Mo-Fr 07:15-19:00; Sa 07:15-18:00,Q284688,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,84866989,Hofer,Hofer,Im Astenfeld,2,4490,St. Florian,48.226842,14.393965,Mo-Fr 07:30-19:30; Sa 07:30-18:00,Q15815751,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,85707557,Spar,Spar,Parkring,1,4312,Ried in der Riedmark,48.270831,14.531174,"Mo-Th,Sa 07:00-19:00; Fr 07:00-19:30",Q610492,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,86343967,Eurospar,Eurospar,Schmierndorferstraße,35,4600,Wels,48.158262,13.999603,"Mo-Fr 07:15-19:30, Sa 07:15-18:00",Q12309283,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,86344019,Unimarkt,Unimarkt,Lindenstraße,9,4600,Wels,48.154059,14.000934,Mo-Fr 07:30-19:00; Sa 07:30-18:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,86554981,Norma,Norma,Salzburger Straße,149,4600,Wels,48.153567,13.992578,,Q450180,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,86923188,Hofer,Hofer,Auweg,2,4052,Ansfelden,48.215342,14.277522,Mo-Fr 07:15-19:30; Sa 07:15-18:00,Q15815751,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,86934987,Nah&Frisch,Nah & Frisch,Obere Theninger Straße,16,4062,Kirchberg-Thening,48.256927,14.161572,"Mo,We-Fr 07:00-18:00; Tu 07:00-13:00; Sa 07:00-12:00",Q1963643,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,87814143,Billa,Billa stop & shop,Friedhofstraße,28,4020,Linz,48.293648,14.300928,Mo-Su 06:00-22:00,Q117309603,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,88119316,Hofer,Hofer,Derfflingerstraße,21,4020,Linz,48.308548,14.309997,Mo-Fr 07:15-19:30; Sa 07:15-18:00,Q15815751,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,88119321,Eurospar,Eurospar,Derfflingerstraße,19,4020,Linz,48.308161,14.309432,Mo-Fr 06:50-19:00; Sa 06:50-18:00,Q12309283,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,88718645,Billa Plus,Billa Plus,Mitterfeldstraße,2,4600,Wels,48.185616,14.026507,Mo-Fr 07:00-19:00; Sa 07:00-18:00,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,88976486,Hofer,Hofer,Hamerlingstraße,33,4020,Linz,48.292571,14.303214,Mo-Fr 07:40-20:00; Sa 07:40-18:00,Q15815751,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,88976497,Eurospar,Eurospar,Friedhofstraße,40,4020,Linz,48.292953,14.303212,Mo-Fr 07:15-19:30; Sa 07:15-18:00,Q12309283,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,89566634,Billa,Billa,Pichlinger Straße,1,4030,Linz,48.243016,14.362247,Mo-Fr 06:45-19:00; Sa 07:15-18:00,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,89655700,Billa,Billa,Wiener Straße,328,4030,Linz,48.262821,14.317603,Mo-Fr 07:15-19:30; Sa 07:15-18:00,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,89970111,Hofer,Hofer,Dauphinestraße,202,4030,Linz,48.253349,14.29041,Mo-Fr 07:40-20:00; Sa 07:40-18:00,Q15815751,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,90630241,Spar,Spar,Hörschinger Straße,15,4061,Pasching,48.257204,14.204556,"Mo,Tu 07:30-12:00, 15:30-18:00; We, Th 07:30-12:00, 16:00-18:00; Fr 07:30-12:00, 15:00-18:00; Sa 07:30-12:00",Q610492,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,91548729,Hofer,Hofer,Dalistraße,2,4600,Wels,48.183748,14.025885,Mo-Fr 07:40-20:00; Sa 07:40-18:00,Q15815751,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,93055919,Lidl,Lidl,Franckstraße,18,4020,Linz,48.295533,14.307705,Mo-Fr 07:40-20:00; Sa 07:40-18:00; PH off,Q151954,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,93098302,Spar,Spar,,,,,48.283913,14.146548,,Q610492,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,96337643,Convenience (sonstige),Hong Kong Shop,Dametzstraße,10,4020,Linz,48.304045,14.290607,"Mo-Fr 10:00-12:00,14:00-17:45",,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,98646367,Supermarkt (sonstige),Transgourmet Wels,Wiesenstraße,60,4600,Wels,48.161772,14.045462,Mo-Fr 06:30-19:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,99162152,Hofer,Hofer,,,,,48.271348,14.267903,Mo-Fr 07:15-19:30; Sa 07:15-18:00; Su off,Q15815751,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,100196029,Convenience (sonstige),SOCAR,,,,,48.271897,14.28169,,Q1622293,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,102419727,Hofer,Hofer,,,4030,Linz,48.249939,14.271671,Mo-Fr 07:40-20:00; Sa 07:40-18:00,Q15815751,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,105660711,Penny,Penny,Unterer Flözerweg,40,4050,Traun,48.24174,14.258663,Mo-Fr 07:30-19:00; Sa 07:30-18:00,Q284688,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,105671969,Spar,Spar,,,,,48.239101,14.261278,Mo-Th 07:00-19:00; Fr 07:00-19:30; Sa 07:00-18:00,Q610492,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,107317771,Convenience (sonstige),Dmotion Cafe,,,,,48.271916,14.281755,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,108156958,Spar,Spar,,,,,48.292289,14.270623,Mo-Fr 07:15-19:30; Sa 07:15-18:00,Q610492,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,108771784,Spar Express,Spar Express,Dinghoferstraße,35-37,4020,Linz,48.300248,14.297497,24/7,Q610492,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,108805592,Convenience (sonstige),AY Markt,Gruberstraße,53,4020,Linz,48.305985,14.300529,Mo-Fr 08:00-19:00; Sa 08:00-18:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,108987062,Billa,Billa,Billrothstraße,58,4600,Wels,48.162062,13.999513,,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,113612603,Hofer,Hofer,Mauthausstraße,2,4614,Marchtrenk,48.188698,14.117883,Mo-Fr 07:30-19:30; Sa 07:30-18:00,Q15815751,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,113612604,Eurospar,Eurospar,Eichenstraße,2,4614,Marchtrenk,48.190968,14.119594,Mo-Fr 07:15-19:30; Sa 07:15-18:00,Q610492,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,114140828,Spar,Spar,,38,4074,Stroheim,48.338108,13.957133,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,116641798,Convenience (sonstige),Turmöl,Goethestraße,101,4020,Linz,48.30056,14.308115,Mo-Su 05:00-24:00,Q1473279,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,118519374,Hofer,Hofer,,,,,48.24421,14.332109,Mo-Fr 07:40-20:00; Sa 07:40-18:00,Q15815751,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,118519390,Billa,Billa Unterwegs,Wiener Straße,529,4030,Linz,48.244285,14.334673,00:05-23:55,Q115555985,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,120667359,Billa,Billa,Schulstraße,15,4053,Ansfelden,48.204307,14.255307,Mo-Fr 07:15-19:30; Sa 07:15-18:00,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,120667365,Penny,PENNY,Schulstraße,17,4053,Ansfelden,48.203774,14.255207,Mo-Fr 07:30-19:00; Sa 07:30-18:00,Q284688,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,121206556,Hofer,Hofer,Wimpassinger Straße,1,4600,Wels,48.156751,14.001716,Mo-Fr 07:40-20:00; Sa 07:40-18:00,Q15815751,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,122996453,Eurospar,Eurospar,Thann Straße,35,4490,St. Florian,48.201295,14.38097,Mo-Sa 07:00-20:00,Q610492,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,122996454,Penny,Penny,Thann Straße,20,4490,St. Florian,48.200713,14.379633,"Mo-Fr 07:15-19:30; Sa 07:15-18:00; Su,PH off",Q284688,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,123096136,Billa,Billa,Schulstraße,4,4050,,48.222976,14.238224,Mo-Fr 07:15-19:30; Sa 07:15-18:00,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,123375659,Lidl,Lidl,Kremstalstraße,92,4050,Traun,48.229779,14.234693,Mo-Fr 07:30-19:30; Sa 07:30-18:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,123631813,Hofer,Hofer,,,,,48.251645,14.323503,Mo-Fr 07:40-20:00; Sa 07:40-18:00,Q15815751,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,124874120,Eurospar,Eurospar,Golfplatzstraße,1b,4048,Puchenau,48.310333,14.234283,Mo-Fr 07:15-19:30; Sa 07:15-18:00,Q610492,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,126470794,Nah&Frisch,Nah&Frisch,Hauptstraße,39,4070,Fraham,48.282766,14.029884,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,127521013,Eurospar,Eurospar,Poststraße,10,4060,Leonding,48.268144,14.261944,Mo-Fr 07:15-19:30; Sa 07:15-18:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,127725358,Supermarkt (sonstige),Biohof Achleitner,Unterm Regenbogen,1,4070,Eferding,48.295864,14.011963,Mo-Fr 08:00-18:00; Sa 08:00-14:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,128176837,Hofer,Hofer,,31,4070,Pupping,48.301766,14.032249,Mo-Fr 07:40-20:00; Sa 07:40-18:00,Q15815751,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,128183392,Billa,Billa,Linzer Straße,10,4070,Eferding,48.30416,14.026801,Mo-Fr 07:15-19:30;Sa 07:15-18:00,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,128276949,Penny,Penny,Schmiedstraße,28,4070,Eferding,48.308968,14.020569,Mo-Fr 07:15-19:00; Sa 07:15-18:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,129971569,Supermarkt (sonstige),Serina,Hans-Sachs-Straße,96,4600,Wels,48.168172,14.043573,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,129979654,Hofer,Hofer,Linzer Straße,99,4600,Wels,48.165605,14.04107,Mo-Fr 07:40-20:00; Sa 07:40-18:00,Q15815751,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,129993069,Spar,Spar,Negrellistraße,27,4600,Wels,48.168126,14.055672,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,130107661,Supermarkt (sonstige),Bäckerei Orex,Flemingstraße,5,4600,Wels,48.160527,13.995681,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,130193817,Convenience (sonstige),Viva,Wiener Straße,1,4481,Asten,48.222543,14.408426,24/7,Q120134542,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,130271534,Supermarkt (sonstige),Alkovner Bauernladen,Prägartnerhofstraße,1,4072,Alkoven,48.287637,14.105832,We-Fr 08:00-13:00;We-Fr 15:00-18:00;Sa 08:00-12:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,130705951,Billa,Billa,Geranienstraße,4,4481,Asten,48.218044,14.421949,Mo-Fr 06:45-19:00; Sa 07:15-18:00,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,131349967,Convenience (sonstige),Avia,Wiener Straße,33,4481,Asten,48.218409,14.424748,"Mo-Sa 06:00-22:00; Su,PH 07:00-22:00",Q300147,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,131349988,Spar,Spar,Ringstraße,1,4481,Asten,48.219167,14.420142,Mo-Fr 07:00-19:00; Sa 07:00-18:00,Q610492,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,132910393,Billa,Billa,,,,,48.274312,14.310836,Mo-Fr 06:45-19:00; Sa 07:15-18:00,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,132912390,Hofer,Hofer,,,,,48.278443,14.312115,"Mo-Fr 07:40-20:00; Sa 07:40-18:00; Su,PH off",Q15815751,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,135179924,Penny,Penny Markt,Welser Heide Straße,2,4063,Hörsching,48.213903,14.182545,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,138233793,Convenience (sonstige),Turmöl,,,,,48.30032,14.320555,Mo-Sa 05:00-23:00; Su 07:00-18:00; PH 07:00-18:00,Q1473279,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,138559286,Lidl,Lidl,,21,4209,Engerwitzdorf,48.347548,14.411172,,Q151954,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,142030392,Billa,Billa,Schaunbergstraße,24,4081,Hartkirchen,48.359928,13.996277,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,142807016,Billa,Billa,Kaufpark,8,4111,Walding,48.344756,14.161814,,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,143735923,Hofer,Hofer,Dr. Karl-Renner-Straße,60,4470,Enns,48.216651,14.458353,Mo-Fr 07:30-19:30; Sa 07:30-18:00,Q15815751,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,144798391,Supermarkt (sonstige),Deniz Lebensmittel - Dostlar,Leonfeldner Straße,54,4040,Linz,48.323286,14.283504,Mo-Sa 07:30-20:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,144905603,Norma,NORMA,Bahnhofstraße,21,4082,Aschach an der Donau,48.36276,14.01066,,Q450180,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,144928869,Spar,Spar,,,,,48.337528,14.368388,Mo-Fr 06:50-19:00; Sa 06:50-18:00,Q610492,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,146122802,Spar,Spar,Dr.-Renner-Straße,1,4210,Gallneukirchen,48.354376,14.421857,Mo-Fr 07:30-19:00; Sa 07:30-17:00,Q610492,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,146893883,Billa,Billa stop & shop,Ginzkeystraße,58,4600,Wels,48.179238,14.062375,Mo-Su 06:00-22:00,Q117309603,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,147593936,Lidl,Lidl,Dr. Renner-Straße,20,4470,Enns,48.216147,14.469613,Mo-Fr 07:15-19:30; Sa 07:15-18:00,Q151954,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,148984870,Hofer,Hofer,,,,,48.32805,14.308444,Mo-Fr 07:15-19:30; Sa 07:15-18:00,Q15815751,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,151215107,Billa,Billa,,,,,48.335594,14.30028,Mo-Fr 07:15-19:30; Sa 07:15-18:00,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,151720319,Nah&Frisch,Nah & Frisch,Kirchschlag,50,4202,Kirchschlag bei Linz,48.412206,14.276294,"Mo,We-Fr 07:00-12:00,15:00-18:00; Tu,Sa 07:00-12:00",Q1963643,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,151989465,Penny,Penny,Vogelweiderstraße,9,4600,Wels,48.161128,14.017015,"Mo-Fr 07:15-19:00, Sa 07:15-18:00",Q284688,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,159694338,Supermarkt (sonstige),Winkler Markt,Gallneukirchner Straße,1,4203,Altenberg bei Linz,48.373965,14.349433,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,162183865,Spar,Spar,Schaunbergstraße,9,4081,Hartkirchen,48.360599,14.002337,"Mo-Fr 06:50-19:00, Sa 06:50-18:00",Q610492,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,163393819,Bipa,Bipa,Hauptplatz,33,4053,Ansfelden,48.204976,14.251439,,Q864933,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,166037283,Billa,Billa,Stadlgasse,2,4470,Enns,48.217036,14.477874,Mo-Fr 07:00-19:00; Sa 07:00-18:00,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,169549358,Convenience (sonstige),,Marktplatz,3,4210,Gallneukirchen,48.352641,14.416204,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,169640265,Spar,Spar Glasau,Untere Gewerbezeile,1,4202,Hellmonsödt,48.436557,14.292972,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,172932166,Convenience (sonstige),Genol - Lagerhaus,Wirtschaftspark Straße 2,2,4482,Ennsdorf,48.219701,14.501512,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,175059495,Nah&Frisch,Nah & Frisch,Krenglbacher Straße,27,4631,Krenglbach,48.202464,13.956154,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,179505233,Hofer,Hofer,Eferdinger Straße,79,4702,Wallern an der Trattnach,48.238587,13.956257,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,192241714,Spar,Spar,Tragweiner Straße,32,4230,Pregarten,48.353233,14.533549,Mo-Fr 06:50-19:00; Sa 06:50-18:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,192241715,Spar,Spar,Bahnhofstraße,31,4230,Pregarten,48.354261,14.526774,Mo-Fr 06:50-19:00; Sa 06:50-18:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,205402552,Billa,Billa,Mauthausener Straße,80,4222,St. Georgen an der Gusen,48.263655,14.453987,Mo-Fr 07:15-19:30; Sa 07:15-18:00; PH off,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,205404170,Penny,Penny,Mauthausener Straße,30,4222,St. Georgen an der Gusen,48.26974,14.452571,,Q284688,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,205445768,Spar,Spar,Wimminger Straße,1,4222,St. Georgen an der Gusen,48.265611,14.452743,Mo-Fr 06:50-19:00; Sa 06:50-18:00,Q610492,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,217396421,Norma,Norma,Salzburger Straße,27,4600,Wels,48.15943,14.017435,Mo-Fr 07:40-20:00; Sa 07:40-18:00,Q450180,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,249900512,Billa,Billa,Am Wimberg,2,4113,Sankt Martin im Mühlkreis,48.415633,14.042116,,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,300889861,Norma,Norma,Oberfeldstraße,58,4600,Wels,48.175229,14.004735,Mo-Fr 07:40-20:00; Sa 07:40-18:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,320565723,Billa,Billa,Hauptstraße,26,4101,Feldkirchen an der Donau,48.346672,14.059172,,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,330913302,Spar,Spar,Gewerbepark,3,4175,Herzogsdorf,48.44035,14.118555,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,342881920,Billa,Billa,Pregartfeld,16,4230,Pregarten,48.348395,14.529398,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,346307684,Billa,Billa,,,,,48.220113,14.190329,Mo-Fr 07:15-19:30; Sa 07:15-18:00,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,347628127,Eurospar,Eurospar,,,,,48.222932,14.178289,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,353651898,Billa,Billa,,,4073,Schönering,48.301513,14.166458,,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,354328261,Billa,Billa,Leondingerstraße,28,4050,Traun,48.241217,14.259747,Mo-Fr 07:15-19:15; Sa 07:15-18:00,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,385865852,Bipa,Bipa,,,,,48.290639,14.291001,Mo-Fr 07:00-20:00; Sa 08:00-19:30,Q864933,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,385865867,Spar,Spar,,,,,48.29036,14.290862,Mo-Su 06:00-23:00,Q610492,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,396088722,Billa,Billa,Eichenstraße,15,4614,Marchtrenk,48.194321,14.115153,"Mo,Tu,Th,Fr 07:15-19:30; We 07:15-20:00; Sa 07:15-18:00",Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,398287556,Lidl,Lidl,Viktoria-Weinzierl-Straße,1,4614,Marchtrenk,48.189569,14.106632,,Q151954,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,429085461,Spar,Spar,Unterer Markt,49,4292,Kefermarkt,48.440375,14.538398,,Q610492,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,443009526,Billa,Billa,Leondinger Straße,12,4061,Pasching,48.258948,14.210856,,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,466041531,Interspar,Interspar,,,,,48.242276,14.234958,Mo-We 08:00-20:00; Th-Fr 08:00-21:00; Sa 08:00-18:00; Su off,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,466044158,Bipa,Bipa,,,,,48.243091,14.234812,,Q864933,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,466717401,Hofer,Hofer,Römerstraße,142,4600,Wels,48.167576,14.005242,Mo-Fr 07:40-20:00; Sa 07:40-18:00,Q15815751,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,481946113,Lidl,Lidl,Auweg,1,4052,Ansfelden,48.214526,14.275599,Mo-Fr 07:15-19:30; Sa 07:15-18:00,Q151954,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,502123776,Convenience (sonstige),SOMA Sozialmarkt Linz-Land Rotes Kreuz,Linzer Straße,12,4490,St. Florian,48.205133,14.377345,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,534151175,Billa,Billa,Wirtschaftspark Straße 3,13,4482,Ennsdorf,48.222432,14.510175,,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,552635804,Billa,Billa,Hauptstraße,1c,4232,Hagenberg im Mühlkreis,48.356872,14.519121,Mo-Fr 07:15-19:30; Sa 07:15-18:00; PH off,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,557263467,Hofer,Hofer,Lederergasse,68-70,4020,Linz,48.311302,14.304185,Mo-Fr 07:40-20:00; Sa 07:40-18:00,Q15815751,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,561159156,Spar,Spar,Abelstraße,8,4082,Aschach an der Donau,48.364005,14.023169,Mo-Fr 06:50-19:00; Sa 06:50-18:00,Q610492,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,616065093,Eurospar,Eurospar Eferding,,30,4070,Pupping,48.302477,14.031103,Mo-Fr 07:15-19:30; Tu 07:15-20:00; Sa 07:15-18:00,Q12309283,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,620537696,Billa,Billa,Randlstraße,7,4061,Pasching,48.243563,14.231936,,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,625876768,Hofer,Hofer,Oberfeldstraße,77,4600,Wels,48.180693,14.009589,,Q15815751,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,625876771,Müller,Müller,Oberfeldstraße,79,4600,Wels,48.181043,14.010216,,Q1958759,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,636938904,Hofer,Hofer,Linzer Straße,53,4421,Steyregg,48.284508,14.354107,Mo-Fr 07:40-20:00; Sa 07:40-18:00,Q15815751,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,653527197,Lidl,Lidl,Wehrgasse,1,4072,Straßham,48.286794,14.14398,"Mo-Fr 07:40-20:00, Sa 07:40-18:00",Q151954,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,663031662,Hofer,Hofer,Alte Straße,2,4210,Gallneukirchen,48.351214,14.41121,Mo-Fr 07:30-19:30; Sa 07:30-18:00,Q15815751,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,663031867,dm,dm,Alte Straße,2,4210,Gallneukirchen,48.351275,14.410383,Mo-Fr 07:30-19:00; Sa 07:30-18:00,Q266572,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,663034523,Eurospar,Eurospar,Linzer Berg,19,4209,Engerwitzdorf,48.350246,14.410804,Mo-Fr 07:15-19:30; Sa 07:15-18:00,Q610492,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,674640943,Spar,Spar,Hitzinger Straße,19,4073,Wilhering,48.272176,14.201426,,Q610492,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,678851266,Spar,Spar,,,,,48.224855,14.028322,,Q610492,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,680712798,Lidl,Lidl,Linzer Straße,71,4310,Mauthausen,48.24659,14.502113,Mo-Fr 07:40-20:00; Sa 07:40-18:00,Q151954,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,723948688,Billa,Billa,Linzer Straße,8,4223,Katsdorf,48.319974,14.469771,"Mo-Fr 06:45-19:00; Sa 07:15-18:00; Su,PH off",Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,727991374,Eurospar,Eurospar,Westbahnstraße,88,4300,Sankt Valentin,48.183096,14.521687,Mo-Fr 07:15-19:00; Sa 07:15-18:00,Q12309283,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,730298855,Billa,Billa,,3a,4221,Steyregg,48.285083,14.353161,,Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,737113284,Eurospar,Eurospar,Traunuferweg,1,4616,Weißkirchen an der Traun,48.165235,14.129165,Mo-Fr 06:50-19:00; Sa 06:50-18:00,Q12309283,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,744101129,Hofer,Hofer,Karlingerstraße,19,4081,Hartkirchen,48.360541,14.003747,Mo-Sa 08:00-18:00,Q15815751,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,748809707,Eurospar,Eurospar,Nußböckstraße,1,4060,Leonding,48.285981,14.255288,"Mo-Fr 07:15-19:30; Sa 07:15-18:00; Su,PH off",,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,749900136,Eurospar,Eurospar,Glaserstraße,6,4072,Alkoven,48.289302,14.126012,Mo-Fr 07:15-19:30; Sa 07:15-18:00; PH off,Q12309283,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,761001532,Spar,Spar,,,,,48.286744,14.276727,Mo-Th 07:30-19:00; Fr 07:30-19:30; Sa 07:30-18:00,Q610492,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,794179189,Hofer,Hofer,Kaufpark,1,4111,Walding,48.345588,14.160256,,Q15815751,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,794179191,dm,dm,Kaufpark,4,4111,Walding,48.34521,14.161406,"Mo-Fr 08:00-18:30; Sa 08:00-17:00; Su,PH off",Q266572,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,817136697,Hofer,Hofer,Linzer Straße,29,4202,Hellmonsödt,48.428763,14.295937,Mo-Fr 07:45-20:00; Sa 07:45-18:00,Q15815751,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,981908948,Spar,Spar Groiß,Brandstatter Straße,28,4070,Eferding,48.3157,14.023702,Mo-Fr 07:15-19:30; Sa 07:15-18:00; PH off,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,989151653,Spar,Spar,Gusenbachstraße,18,4209,Engerwitzdorf,48.3413,14.420718,,,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,1028746111,Eurospar,Eurospar,,,,,48.252022,14.321859,Mo-Fr 07:15-19:30; Sa 07:15-18:00,Q12309283,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,1059902359,Eurospar,Eurospar,Nöbauerstraße,2,4040,Gramastetten,48.330738,14.25502,Mo-Fr 06:50-19:00; Sa 06:50-18:00,Q12309283,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,1131818470,Hofer,Hofer,,,,,48.2753,14.275521,Mo-Fr 07:40-19:00; Sa 07:40-18:00; Su off,Q15815751,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,1232640636,Convenience (sonstige),eni cafe&shop,Am Bäckerberg,1a,4490,St. Florian,48.213688,14.402254,"Mo-Fr 05:00-22:00; Sa,Su,PH 07:00-22:00",Q565594,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,1233428415,Billa,Billa Shop und Stop,Am Römerfeld,1,4470,Enns,48.216141,14.463178,"Mo-Sa 05:00-22:00; Su,PH 06:00-22:00",Q537781,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,1292070004,Lidl,Lidl,,,,,48.248098,14.240468,Mo-Fr 07:40-20:00; Sa 07:40-18:00,Q151954,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z
+way,1484871409,Spar,Spar,Hauptstraße,18a,4111,Walding,48.349455,14.156986,"Mo-Fr 06:50-19:00; Sa 06:50-18:00; Su,PH off",Q610492,"OpenStreetMap contributors, ODbL",2026-10-13T02:25:35Z

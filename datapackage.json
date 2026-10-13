@@ -6,6 +6,11 @@
    "name": "CC-BY-4.0",
    "path": "https://creativecommons.org/licenses/by/4.0/",
    "title": "Eigene Daten"
+  },
+  {
+   "name": "ODbL-1.0",
+   "path": "https://opendatacommons.org/licenses/odbl/1-0/",
+   "title": "Filialdaten (stores) © OpenStreetMap contributors"
   }
  ],
  "sources": [
@@ -28,6 +33,10 @@
   {
    "title": "Händler-Onlineshops (Billa, Spar, Hofer, Lidl, dm)",
    "path": ""
+  },
+  {
+   "title": "OpenStreetMap (ODbL)",
+   "path": "https://www.openstreetmap.org/copyright"
   }
  ],
  "resources": [
@@ -192,6 +201,45 @@
    }
   },
   {
+   "name": "external_datasets",
+   "path": "data/external_datasets.csv",
+   "format": "csv",
+   "encoding": "utf-8",
+   "description": "",
+   "schema": {
+    "fields": [
+     {
+      "name": "id",
+      "type": "string"
+     },
+     {
+      "name": "name",
+      "type": "string"
+     },
+     {
+      "name": "url",
+      "type": "string"
+     },
+     {
+      "name": "license",
+      "type": "string"
+     },
+     {
+      "name": "size",
+      "type": "string"
+     },
+     {
+      "name": "freshness",
+      "type": "string"
+     },
+     {
+      "name": "use",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
    "name": "logos",
    "path": "data/logos.csv",
    "format": "csv",
@@ -291,6 +339,85 @@
        "resource": "products",
        "fields": "product_id"
       }
+     }
+    ]
+   }
+  },
+  {
+   "name": "off_ready_meals_at",
+   "path": "data/off_ready_meals_at.csv",
+   "format": "csv",
+   "encoding": "utf-8",
+   "description": "",
+   "schema": {
+    "fields": [
+     {
+      "name": "ean",
+      "type": "integer"
+     },
+     {
+      "name": "name",
+      "type": "string"
+     },
+     {
+      "name": "brand",
+      "type": "string"
+     },
+     {
+      "name": "category",
+      "type": "string"
+     },
+     {
+      "name": "size_g",
+      "type": "number"
+     },
+     {
+      "name": "kcal",
+      "type": "number"
+     },
+     {
+      "name": "protein",
+      "type": "number"
+     },
+     {
+      "name": "fat",
+      "type": "number"
+     },
+     {
+      "name": "satfat",
+      "type": "number"
+     },
+     {
+      "name": "carbs",
+      "type": "number"
+     },
+     {
+      "name": "sugar",
+      "type": "number"
+     },
+     {
+      "name": "fiber",
+      "type": "number"
+     },
+     {
+      "name": "salt",
+      "type": "number"
+     },
+     {
+      "name": "producer_id",
+      "type": "string"
+     },
+     {
+      "name": "image_url",
+      "type": "string"
+     },
+     {
+      "name": "source_url",
+      "type": "string"
+     },
+     {
+      "name": "fetched_at",
+      "type": "string"
      }
     ]
    }
@@ -679,6 +806,73 @@
      }
     ],
     "primaryKey": "product_id"
+   }
+  },
+  {
+   "name": "stores",
+   "path": "data/stores.csv",
+   "format": "csv",
+   "encoding": "utf-8",
+   "description": "Filialen Linz+Umland aus OpenStreetMap Overpass (ODbL)",
+   "schema": {
+    "fields": [
+     {
+      "name": "osm_type",
+      "type": "string"
+     },
+     {
+      "name": "osm_id",
+      "type": "integer"
+     },
+     {
+      "name": "chain",
+      "type": "string"
+     },
+     {
+      "name": "name",
+      "type": "string"
+     },
+     {
+      "name": "street",
+      "type": "string"
+     },
+     {
+      "name": "housenumber",
+      "type": "string"
+     },
+     {
+      "name": "postcode",
+      "type": "integer"
+     },
+     {
+      "name": "city",
+      "type": "string"
+     },
+     {
+      "name": "lat",
+      "type": "number"
+     },
+     {
+      "name": "lon",
+      "type": "number"
+     },
+     {
+      "name": "opening_hours",
+      "type": "string"
+     },
+     {
+      "name": "brand_wikidata",
+      "type": "string"
+     },
+     {
+      "name": "source",
+      "type": "string"
+     },
+     {
+      "name": "fetched_at",
+      "type": "string"
+     }
+    ]
    }
   }
  ]
