@@ -351,8 +351,8 @@ for x in out:
     if _des: x['gang']='dessert'; x['flags'].append('Dessert – nicht in Rankings')
     if _gro and x.get('segment')!='meal_kit': x['segment']='grocery'; x['flags'].append('Lebensmittel (kein Fertiggericht) – nicht in Rankings')
     _mc=_V2.meal_check(x,r2); x['meal_check']=_mc; x['meal_class']=_mc['cls'] if not _des else 'dessert'
-    if re.search(r'hipp|beba|aptamil|alete|babylove|ab dem \d|kleinkind|säugling|\bbaby\b|kinder ?menü|bio-?gläschen',_nm,re.I): x['meal_class']='baby'; x['segment']='baby_food'; _mc['ok']=False; _mc['reason']='Kindernahrung'
     _nm=x.get('name') or ''
+    if re.search(r'hipp|beba|aptamil|alete|babylove|ab dem \d|kleinkind|säugling|\bbaby\b|kinder ?menü|bio-?gläschen',_nm,re.I): x['meal_class']='baby'; x['segment']='baby_food'; _mc['ok']=False; _mc['reason']='Kindernahrung'
     if not _des and _V2.SNACK.search(_nm): x['meal_class']='snack_side'; _mc['ok']=False; _mc['reason']='Brot/Snack/Instant – keine Mahlzeit'
     x['component']=bool(_V2.COMPONENT.search(_nm)) and not _des
     if x['component']: _mc['ok']=False; _mc['reason']=(_mc.get('reason') or '')+' Proteinkomponente (keine vollständige Mahlzeit)'
