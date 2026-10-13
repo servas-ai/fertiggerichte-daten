@@ -21,3 +21,8 @@
   "UNIONLINE hat seinen Service eingestellt" (verified 2026-10-13, evidence `raw/unimarkt_shop_probe_2026-10-13.json`) and
   Unimarkt left retail in Feb/Mar 2026. Their `price_source` says so; they must never be shown as current prices.
 - Export applies a nutrition plausibility gate (macros ≤ 100 g/100 g, salt ≤ 30 g, kcal ≤ 900); failing rows are dropped, not corrected.
+- Spar product photos (2026-10-13): when a Spar row has no `image_url`, match its name to the
+  heisse-preise.io dump (`store=spar`) and HEAD-verify
+  `https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/{id}/dt_main.jpg`. Evidence:
+  `raw/spar_cdn_images_2026-10-13.json` (228/228 verified). Run `scripts/enrich_spar_images.py`.
+  interspar.at HTML remains behind Cloudflare; only the public CDN host is used.

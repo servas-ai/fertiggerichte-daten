@@ -1,0 +1,2293 @@
+{
+  "fetched_at": "2026-10-13T03:42:33Z",
+  "method": "heisse-preise spar id → cdn1.interspar.at articleImage HEAD verify",
+  "matches": [
+    {
+      "product_id": "31dad2c370e8",
+      "name": "BEN’s ORIGINAL Express Reis Curryreis Indien",
+      "heisse_id": "2020000585251",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020000585251/dt_main.jpg",
+      "bytes": 10289,
+      "content_type": "image/jpeg",
+      "heisse_price": 2.69,
+      "heisse_price_date": "2026-03-03"
+    },
+    {
+      "product_id": "593e4e8cdd20",
+      "name": "Basenbox Bio-Süßkartoffelsuppe",
+      "heisse_id": "2020004168160",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004168160/dt_main.jpg",
+      "bytes": 4737,
+      "content_type": "image/jpeg",
+      "heisse_price": 4.99,
+      "heisse_price_date": "2026-02-10"
+    },
+    {
+      "product_id": "67cbe3025662",
+      "name": "DESPAR klassische Lasagne mit Rindfleisch",
+      "heisse_id": "2020003170034",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003170034/dt_main.jpg",
+      "bytes": 9295,
+      "content_type": "image/jpeg",
+      "heisse_price": 4.79,
+      "heisse_price_date": "2026-07-16"
+    },
+    {
+      "product_id": "1d467fc872b3",
+      "name": "Freche Freunde Baby Bio-Gläschen Gemüse Risotto",
+      "heisse_id": "2020004390349",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004390349/dt_main.jpg",
+      "bytes": 7255,
+      "content_type": "image/jpeg",
+      "heisse_price": 1.55,
+      "heisse_price_date": "2023-03-17"
+    },
+    {
+      "product_id": "58fb6ec3cc52",
+      "name": "Gusto Naturale Risotto Trüffel",
+      "heisse_id": "2020003793332",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003793332/dt_main.jpg",
+      "bytes": 5715,
+      "content_type": "image/jpeg",
+      "heisse_price": 4.39,
+      "heisse_price_date": "2024-03-30"
+    },
+    {
+      "product_id": "1050c737afbf",
+      "name": "Heinrich Kühlmann Nudelsalat Curry Hawaii",
+      "heisse_id": "2020005825123",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005825123/dt_main.jpg",
+      "bytes": 12355,
+      "content_type": "image/jpeg",
+      "heisse_price": 14.9,
+      "heisse_price_date": "2025-08-28"
+    },
+    {
+      "product_id": "8b996a447a37",
+      "name": "Hilcona Ravioli Ricotta di Bufala e Spinacci",
+      "heisse_id": "2020004142054",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004142054/dt_main.jpg",
+      "bytes": 6441,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.59,
+      "heisse_price_date": "2023-01-01"
+    },
+    {
+      "product_id": "d97e7d69ba90",
+      "name": "Hilcona Tortellini Bolognese",
+      "heisse_id": "2020005979116",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005979116/dt_main.jpg",
+      "bytes": 8991,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.59,
+      "heisse_price_date": "2025-10-14"
+    },
+    {
+      "product_id": "88dc290250ee",
+      "name": "Holle Bio-Gemüserisotto",
+      "heisse_id": "2020002052997",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020002052997/dt_main.jpg",
+      "bytes": 7452,
+      "content_type": "image/jpeg",
+      "heisse_price": 1.49,
+      "heisse_price_date": "2025-10-21"
+    },
+    {
+      "product_id": "57c9ab798052",
+      "name": "Hubers Landhendl Suppenhendl",
+      "heisse_id": "2020003204807",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003204807/dt_main.jpg",
+      "bytes": 4193,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.49,
+      "heisse_price_date": "2025-12-22"
+    },
+    {
+      "product_id": "80216a140ca8",
+      "name": "Iglo Mehlspeistraum Erdbeerknödel 8 Stück",
+      "heisse_id": "2020002695033",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020002695033/dt_main.jpg",
+      "bytes": 7796,
+      "content_type": "image/jpeg",
+      "heisse_price": 6.99,
+      "heisse_price_date": "2026-02-26"
+    },
+    {
+      "product_id": "786ddd56156a",
+      "name": "Iglo Mehlspeistraum Riesen-Germknödel 3 Stück",
+      "heisse_id": "2020000674139",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020000674139/dt_main.jpg",
+      "bytes": 8250,
+      "content_type": "image/jpeg",
+      "heisse_price": 4.99,
+      "heisse_price_date": "2023-02-02"
+    },
+    {
+      "product_id": "896deb90e9b6",
+      "name": "Iglo Mehlspeistraum Topfenknödel 8 Stück",
+      "heisse_id": "2020002695026",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020002695026/dt_main.jpg",
+      "bytes": 7401,
+      "content_type": "image/jpeg",
+      "heisse_price": 6.99,
+      "heisse_price_date": "2026-02-26"
+    },
+    {
+      "product_id": "7e583e8e8b79",
+      "name": "Iglo Minestrone Suppengemüse",
+      "heisse_id": "2020005747883",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005747883/dt_main.jpg",
+      "bytes": 13357,
+      "content_type": "image/jpeg",
+      "heisse_price": 4.56,
+      "heisse_price_date": "2026-07-01"
+    },
+    {
+      "product_id": "d31b102a260f",
+      "name": "Inzersdorfer Kräftige Hühnersuppe",
+      "heisse_id": "2020002311964",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020002311964/dt_main.jpg",
+      "bytes": 7989,
+      "content_type": "image/jpeg",
+      "heisse_price": 2.99,
+      "heisse_price_date": "2025-10-07"
+    },
+    {
+      "product_id": "10b438fd4c03",
+      "name": "Inzersdorfer Pure Beef Premium Chili con Carne",
+      "heisse_id": "2020002625801",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020002625801/dt_main.jpg",
+      "bytes": 7004,
+      "content_type": "image/jpeg",
+      "heisse_price": 5.29,
+      "heisse_price_date": "2025-10-07"
+    },
+    {
+      "product_id": "10b87b18c3a6",
+      "name": "Inzersdorfer Suesskartoffelsuppe Süßkartoffelsuppe",
+      "heisse_id": "2020002311971",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020002311971/dt_main.jpg",
+      "bytes": 6207,
+      "content_type": "image/jpeg",
+      "heisse_price": 2.99,
+      "heisse_price_date": "2025-10-07"
+    },
+    {
+      "product_id": "5160e59a3d1b",
+      "name": "Kelomat Suppenlöffel 39,5 x 9,5 x 7,5 cm",
+      "heisse_id": "5038350",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/5038350/dt_main.jpg",
+      "bytes": 2249,
+      "content_type": "image/jpeg",
+      "heisse_price": 16.99,
+      "heisse_price_date": "2026-03-30"
+    },
+    {
+      "product_id": "832a2b1da46e",
+      "name": "Kiano Curryblätter",
+      "heisse_id": "2020000488743",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020000488743/dt_main.jpg",
+      "bytes": 4666,
+      "content_type": "image/jpeg",
+      "heisse_price": 2.99,
+      "heisse_price_date": "2025-07-29"
+    },
+    {
+      "product_id": "4a9112a2d09c",
+      "name": "Knorr Die Schnelle Feine Broccolicreme Suppe mit Croûtons",
+      "heisse_id": "2020002906986",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020002906986/dt_main.jpg",
+      "bytes": 8612,
+      "content_type": "image/jpeg",
+      "heisse_price": 1.59,
+      "heisse_price_date": "2024-04-03"
+    },
+    {
+      "product_id": "1d4799f5c4ad",
+      "name": "Knorr Disney Suppe Findet Nemo",
+      "heisse_id": "2020005388437",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005388437/dt_main.jpg",
+      "bytes": 11657,
+      "content_type": "image/jpeg",
+      "heisse_price": 0.99,
+      "heisse_price_date": "2025-05-14"
+    },
+    {
+      "product_id": "65db7b715110",
+      "name": "Knorr Disney Suppe Frozen",
+      "heisse_id": "2020004655790",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004655790/dt_main.jpg",
+      "bytes": 11848,
+      "content_type": "image/jpeg",
+      "heisse_price": 0.99,
+      "heisse_price_date": "2024-08-13"
+    },
+    {
+      "product_id": "fd17521b0eb6",
+      "name": "Knorr Marvel Suppe Avengers",
+      "heisse_id": "2020004655813",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004655813/dt_main.jpg",
+      "bytes": 12499,
+      "content_type": "image/jpeg",
+      "heisse_price": 0.99,
+      "heisse_price_date": "2024-08-13"
+    },
+    {
+      "product_id": "7e71cd2081aa",
+      "name": "Knorr Meister Kessel Bohnen-Specksuppe Serbische Bohnen",
+      "heisse_id": "2020003571749",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003571749/dt_main.jpg",
+      "bytes": 7619,
+      "content_type": "image/jpeg",
+      "heisse_price": 4.49,
+      "heisse_price_date": "2026-02-10"
+    },
+    {
+      "product_id": "e23cd5657ab7",
+      "name": "Knorr Meister Kessel XL Gulaschsuppe 3 Portionen",
+      "heisse_id": "2020000657040",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020000657040/dt_main.jpg",
+      "bytes": 5513,
+      "content_type": "image/jpeg",
+      "heisse_price": 5.79,
+      "heisse_price_date": "2026-02-10"
+    },
+    {
+      "product_id": "e0c1d0d8f6f0",
+      "name": "Knorr Quick Soup Hühnersuppe mit Nudeln 3x12g",
+      "heisse_id": "2020001345625",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020001345625/dt_main.jpg",
+      "bytes": 10732,
+      "content_type": "image/jpeg",
+      "heisse_price": 1.19,
+      "heisse_price_date": "2026-05-12"
+    },
+    {
+      "product_id": "56c23afc95b2",
+      "name": "Küchenbrüder Frische Bio Tomatensuppe mit Basilikum",
+      "heisse_id": "2020000747109",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020000747109/dt_main.jpg",
+      "bytes": 7114,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.79,
+      "heisse_price_date": "2022-09-30"
+    },
+    {
+      "product_id": "0537ecab3446",
+      "name": "Küchenbrüder Veganer Bio Linseneintopf",
+      "heisse_id": "2020000747239",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020000747239/dt_main.jpg",
+      "bytes": 6643,
+      "content_type": "image/jpeg",
+      "heisse_price": 4.29,
+      "heisse_price_date": "2022-09-30"
+    },
+    {
+      "product_id": "64c1f0789e4e",
+      "name": "La Nova Ravioli mit Ricotta & Spinat",
+      "heisse_id": "2020004230928",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004230928/dt_main.jpg",
+      "bytes": 7332,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.99,
+      "heisse_price_date": "2023-05-05"
+    },
+    {
+      "product_id": "b8b8e6d50814",
+      "name": "Maggi Extra Feine Kürbiscreme Suppe mit Kürbisstückchen 75G",
+      "heisse_id": "5508839",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/5508839/dt_main.jpg",
+      "bytes": 2318,
+      "content_type": "image/jpeg",
+      "heisse_price": 1.29,
+      "heisse_price_date": "2018-01-19"
+    },
+    {
+      "product_id": "e05c6a1a8273",
+      "name": "Maggi Guten Appetit Hochzeitssuppe",
+      "heisse_id": "7472091",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/7472091/dt_main.jpg",
+      "bytes": 11692,
+      "content_type": "image/jpeg",
+      "heisse_price": 0.99,
+      "heisse_price_date": "2022-12-15"
+    },
+    {
+      "product_id": "e5da6b7319c3",
+      "name": "Maggi Magic Asia Instant Nudel Cup Curry 1 Portion",
+      "heisse_id": "2020000573463",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020000573463/dt_main.jpg",
+      "bytes": 10166,
+      "content_type": "image/jpeg",
+      "heisse_price": 1.99,
+      "heisse_price_date": "2023-04-28"
+    },
+    {
+      "product_id": "bfff0f7c0396",
+      "name": "Meica Currywurst",
+      "heisse_id": "2020001404643",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020001404643/dt_main.jpg",
+      "bytes": 6756,
+      "content_type": "image/jpeg",
+      "heisse_price": 5.39,
+      "heisse_price_date": "2024-04-02"
+    },
+    {
+      "product_id": "20f5dada39e3",
+      "name": "Nabio Chili sin Carne",
+      "heisse_id": "2020005809154",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005809154/dt_main.jpg",
+      "bytes": 7996,
+      "content_type": "image/jpeg",
+      "heisse_price": 2.99,
+      "heisse_price_date": "2025-08-15"
+    },
+    {
+      "product_id": "12adc5fc5eea",
+      "name": "Nussyy Bio-Linsen-Curry mit Basmatireis",
+      "heisse_id": "2020004019011",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004019011/dt_main.jpg",
+      "bytes": 6811,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.99,
+      "heisse_price_date": "2023-02-02"
+    },
+    {
+      "product_id": "5dc92bcaf159",
+      "name": "Puro Mundo Curry Englisch 27g",
+      "heisse_id": "2020004716231",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004716231/dt_main.jpg",
+      "bytes": 4692,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.99,
+      "heisse_price_date": "2024-05-29"
+    },
+    {
+      "product_id": "899e722a4650",
+      "name": "Rana Tradizionali Ravioli Ricotta und Spinat",
+      "heisse_id": "2020005042445",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005042445/dt_main.jpg",
+      "bytes": 6512,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.79,
+      "heisse_price_date": "2026-05-26"
+    },
+    {
+      "product_id": "ae82b37c12cf",
+      "name": "Rana Tradizionali Ravioli Tomate Mozzarella",
+      "heisse_id": "2020005042513",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005042513/dt_main.jpg",
+      "bytes": 6831,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.79,
+      "heisse_price_date": "2026-05-26"
+    },
+    {
+      "product_id": "b0ac7215fdfa",
+      "name": "S-BUDGET Leberknödel 12 Stück",
+      "heisse_id": "2020006177016",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020006177016/dt_main.jpg",
+      "bytes": 12402,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.99,
+      "heisse_price_date": "2026-05-25"
+    },
+    {
+      "product_id": "8a588e9bae2c",
+      "name": "S-BUDGET Marillen-Eisknödel 4 Stück",
+      "heisse_id": "2020005832374",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005832374/dt_main.jpg",
+      "bytes": 12990,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.49,
+      "heisse_price_date": "2025-06-23"
+    },
+    {
+      "product_id": "4a13f088bc8d",
+      "name": "S-BUDGET Semmelknödel",
+      "heisse_id": "2020006206082",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020006206082/dt_main.jpg",
+      "bytes": 10981,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.99,
+      "heisse_price_date": "2026-04-27"
+    },
+    {
+      "product_id": "6abdd94d9949",
+      "name": "S-BUDGET Suppengruen",
+      "heisse_id": "2020004271747",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004271747/dt_main.jpg",
+      "bytes": 5668,
+      "content_type": "image/jpeg",
+      "heisse_price": 1.89,
+      "heisse_price_date": "2026-07-01"
+    },
+    {
+      "product_id": "cbce9b7a652f",
+      "name": "SPAR ASIA Massaman Thai Curry mit Kartoffeln & Kichererbsen",
+      "heisse_id": "2020004062383",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004062383/dt_main.jpg",
+      "bytes": 7629,
+      "content_type": "image/jpeg",
+      "heisse_price": 4.99,
+      "heisse_price_date": "2023-01-03"
+    },
+    {
+      "product_id": "6fe4fce618bd",
+      "name": "SPAR ASIA Tom Yum Suppe mit Garnelen-Wonton 202g Suppe + 108g Shrimps",
+      "heisse_id": "2020005946507",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005946507/dt_main.jpg",
+      "bytes": 9428,
+      "content_type": "image/jpeg",
+      "heisse_price": 5.49,
+      "heisse_price_date": "2025-10-28"
+    },
+    {
+      "product_id": "9ab4d0842229",
+      "name": "SPAR Feine Küche Erdbeer-Topfen-Knödel mit Brösel-Zucker-Mischung 6 Stück",
+      "heisse_id": "2020002485399",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020002485399/dt_main.jpg",
+      "bytes": 2318,
+      "content_type": "image/jpeg",
+      "heisse_price": 2.99,
+      "heisse_price_date": "2023-07-04"
+    },
+    {
+      "product_id": "8f14a9ea059f",
+      "name": "SPAR Feine Küche Erdäpfelgulasch",
+      "heisse_id": "2020001378814",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020001378814/dt_main.jpg",
+      "bytes": 8330,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.69,
+      "heisse_price_date": "2025-12-17"
+    },
+    {
+      "product_id": "34223efbd552",
+      "name": "SPAR Feine Küche Lasagne Bolognese",
+      "heisse_id": "2020005683822",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005683822/dt_main.jpg",
+      "bytes": 10491,
+      "content_type": "image/jpeg",
+      "heisse_price": 4.49,
+      "heisse_price_date": "2025-05-14"
+    },
+    {
+      "product_id": "cf6012b39f17",
+      "name": "SPAR Feine Küche Leberknödel 6 Stück",
+      "heisse_id": "2020000585756",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020000585756/dt_main.jpg",
+      "bytes": 12119,
+      "content_type": "image/jpeg",
+      "heisse_price": 2.79,
+      "heisse_price_date": "2022-04-09"
+    },
+    {
+      "product_id": "bd42516b4a75",
+      "name": "SPAR Feine Küche Marillenknödel mit Zuckerherz und Brösel-Zucker-Mischung 5 Stück",
+      "heisse_id": "2020001155675",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020001155675/dt_main.jpg",
+      "bytes": 13381,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.99,
+      "heisse_price_date": "2024-05-02"
+    },
+    {
+      "product_id": "04764bc1e3ca",
+      "name": "SPAR Feine Küche Nougat-Topfenknödel mit Brösel-Zucker-Mischung 6 Stück",
+      "heisse_id": "2020002484040",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020002484040/dt_main.jpg",
+      "bytes": 13665,
+      "content_type": "image/jpeg",
+      "heisse_price": 2.99,
+      "heisse_price_date": "2023-07-04"
+    },
+    {
+      "product_id": "1fd46f22b933",
+      "name": "SPAR Feine Küche Risotto mit Pilzen",
+      "heisse_id": "2020004633217",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004633217/dt_main.jpg",
+      "bytes": 6657,
+      "content_type": "image/jpeg",
+      "heisse_price": 4.49,
+      "heisse_price_date": "2024-12-05"
+    },
+    {
+      "product_id": "001e6f602c81",
+      "name": "SPAR Feinstes Geflügel Maishendl Suppenjunges",
+      "heisse_id": "2020004643575",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004643575/dt_main.jpg",
+      "bytes": 7100,
+      "content_type": "image/jpeg",
+      "heisse_price": 4.29,
+      "heisse_price_date": "2025-05-26"
+    },
+    {
+      "product_id": "931e6a4304f0",
+      "name": "SPAR Gemüse Suppe",
+      "heisse_id": "2020001280742",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020001280742/dt_main.jpg",
+      "bytes": 4605,
+      "content_type": "image/jpeg",
+      "heisse_price": 7.99,
+      "heisse_price_date": "2023-01-20"
+    },
+    {
+      "product_id": "588c3470e1ed",
+      "name": "SPAR Hühner Suppe",
+      "heisse_id": "2020002111434",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020002111434/dt_main.jpg",
+      "bytes": 4074,
+      "content_type": "image/jpeg",
+      "heisse_price": 0.99,
+      "heisse_price_date": "2023-02-28"
+    },
+    {
+      "product_id": "37f975269e20",
+      "name": "SPAR Hütten Kaspressknödel 4 Stück",
+      "heisse_id": "2020002703493",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020002703493/dt_main.jpg",
+      "bytes": 6602,
+      "content_type": "image/jpeg",
+      "heisse_price": 5.49,
+      "heisse_price_date": "2026-01-13"
+    },
+    {
+      "product_id": "51ec947ec2c7",
+      "name": "SPAR Hütten Mini-Germknödel + Powidl & Mohn-Zucker 5 Stück",
+      "heisse_id": "2020003065392",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003065392/dt_main.jpg",
+      "bytes": 5384,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.49,
+      "heisse_price_date": "2023-07-04"
+    },
+    {
+      "product_id": "f78247c17ebd",
+      "name": "SPAR Mini Kartoffel-Knödel",
+      "heisse_id": "2020005364493",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005364493/dt_main.jpg",
+      "bytes": 6474,
+      "content_type": "image/jpeg",
+      "heisse_price": 1.29,
+      "heisse_price_date": "2024-08-13"
+    },
+    {
+      "product_id": "5bf503362590",
+      "name": "SPAR Natur*pur Bio-Curry 40g",
+      "heisse_id": "2020004698124",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004698124/dt_main.jpg",
+      "bytes": 6350,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.49,
+      "heisse_price_date": "2025-07-15"
+    },
+    {
+      "product_id": "5b7502fa5c65",
+      "name": "SPAR Natur*pur Bio-Gemüse-Lasagne",
+      "heisse_id": "2020005324398",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005324398/dt_main.jpg",
+      "bytes": 5608,
+      "content_type": "image/jpeg",
+      "heisse_price": 1.35,
+      "heisse_price_date": "2026-03-10"
+    },
+    {
+      "product_id": "300f54fb7ec6",
+      "name": "SPAR Natur*pur Bio-Gemüse-Risotto",
+      "heisse_id": "2020005500181",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005500181/dt_main.jpg",
+      "bytes": 5698,
+      "content_type": "image/jpeg",
+      "heisse_price": 1.35,
+      "heisse_price_date": "2026-03-10"
+    },
+    {
+      "product_id": "f999ef09b0d5",
+      "name": "SPAR Natur*pur Bio-Gemüsesuppe Mediterran",
+      "heisse_id": "2020001891771",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020001891771/dt_main.jpg",
+      "bytes": 3958,
+      "content_type": "image/jpeg",
+      "heisse_price": 2.69,
+      "heisse_price_date": "2023-03-28"
+    },
+    {
+      "product_id": "96359d4d1da1",
+      "name": "SPAR Natur*pur Bio-Gemüsesuppe ohne Hefe",
+      "heisse_id": "2020001096039",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020001096039/dt_main.jpg",
+      "bytes": 6333,
+      "content_type": "image/jpeg",
+      "heisse_price": 2.29,
+      "heisse_price_date": "2023-04-21"
+    },
+    {
+      "product_id": "6bb25e641eb3",
+      "name": "SPAR Natur*pur Bio-Gulaschsuppe",
+      "heisse_id": "2020001891719",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020001891719/dt_main.jpg",
+      "bytes": 6140,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.29,
+      "heisse_price_date": "2025-07-01"
+    },
+    {
+      "product_id": "c9ea3d09c17e",
+      "name": "SPAR Natur*pur Bio-Kürbissuppe",
+      "heisse_id": "2020005315549",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005315549/dt_main.jpg",
+      "bytes": 8420,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.49,
+      "heisse_price_date": "2024-07-03"
+    },
+    {
+      "product_id": "d69a534facd1",
+      "name": "SPAR Natur*pur Bio-Linsensuppe mit Karotten",
+      "heisse_id": "2020003081767",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003081767/dt_main.jpg",
+      "bytes": 7339,
+      "content_type": "image/jpeg",
+      "heisse_price": 2.69,
+      "heisse_price_date": "2023-03-28"
+    },
+    {
+      "product_id": "f984d152f74d",
+      "name": "SPAR Natur*pur Bio-Ricotta-Spinat-Ravioli 2 Portionen",
+      "heisse_id": "2020000887379",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020000887379/dt_main.jpg",
+      "bytes": 8161,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.59,
+      "heisse_price_date": "2023-01-01"
+    },
+    {
+      "product_id": "339cfa863366",
+      "name": "SPAR Natur*pur Bio-Rindsuppe 140G",
+      "heisse_id": "2020003916687",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003916687/dt_main.jpg",
+      "bytes": 6158,
+      "content_type": "image/jpeg",
+      "heisse_price": 2.29,
+      "heisse_price_date": "2023-04-21"
+    },
+    {
+      "product_id": "d2a0b0ff3d87",
+      "name": "SPAR Natur*pur Bio-Servietten-Knödel SPAR NATUR PUR",
+      "heisse_id": "2020005230231",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005230231/dt_main.jpg",
+      "bytes": 9221,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.79,
+      "heisse_price_date": "2024-05-12"
+    },
+    {
+      "product_id": "63c73b4a3cc3",
+      "name": "SPAR Natur*pur Bio-Steinpilz-Risotto",
+      "heisse_id": "2020005857407",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005857407/dt_main.jpg",
+      "bytes": 7867,
+      "content_type": "image/jpeg",
+      "heisse_price": 2.49,
+      "heisse_price_date": "2025-08-29"
+    },
+    {
+      "product_id": "9719ee66b755",
+      "name": "SPAR Natur*pur Bio-Tomaten-Risotto",
+      "heisse_id": "2020005857414",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005857414/dt_main.jpg",
+      "bytes": 8102,
+      "content_type": "image/jpeg",
+      "heisse_price": 2.49,
+      "heisse_price_date": "2025-08-29"
+    },
+    {
+      "product_id": "e2cdfb744305",
+      "name": "SPAR Natur*pur Bio-Tomatensuppe",
+      "heisse_id": "2020005315440",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005315440/dt_main.jpg",
+      "bytes": 8934,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.49,
+      "heisse_price_date": "2024-07-03"
+    },
+    {
+      "product_id": "0438c157fbd4",
+      "name": "SPAR Natur*pur Feine Bio-Frühlings-Suppe 3 Portionen",
+      "heisse_id": "2020004682635",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004682635/dt_main.jpg",
+      "bytes": 9674,
+      "content_type": "image/jpeg",
+      "heisse_price": 0.99,
+      "heisse_price_date": "2024-06-18"
+    },
+    {
+      "product_id": "a1bd56a9bf22",
+      "name": "SPAR Natur*pur Feine Bio-Gemüsecreme-Suppe 3 Portionen",
+      "heisse_id": "2020004682611",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004682611/dt_main.jpg",
+      "bytes": 9758,
+      "content_type": "image/jpeg",
+      "heisse_price": 0.99,
+      "heisse_price_date": "2024-01-13"
+    },
+    {
+      "product_id": "91a16be8e726",
+      "name": "SPAR Natur*pur Feine Bio-Knoblauchcreme-Suppe 3 Portionen",
+      "heisse_id": "2020004682680",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004682680/dt_main.jpg",
+      "bytes": 9408,
+      "content_type": "image/jpeg",
+      "heisse_price": 0.99,
+      "heisse_price_date": "2024-01-13"
+    },
+    {
+      "product_id": "615aed090c8a",
+      "name": "SPAR Natur*pur Feine Bio-Kürbiscreme-Suppe 3 Portionen",
+      "heisse_id": "2020004682789",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004682789/dt_main.jpg",
+      "bytes": 9245,
+      "content_type": "image/jpeg",
+      "heisse_price": 0.99,
+      "heisse_price_date": "2023-10-20"
+    },
+    {
+      "product_id": "790b93894d01",
+      "name": "SPAR Natur*pur Feine Bio-Nudel-Suppe 3 Portionen",
+      "heisse_id": "2020004682604",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004682604/dt_main.jpg",
+      "bytes": 9517,
+      "content_type": "image/jpeg",
+      "heisse_price": 0.99,
+      "heisse_price_date": "2024-01-13"
+    },
+    {
+      "product_id": "6dd23b421695",
+      "name": "SPAR Natur*pur Feine Bio-Tomatencreme- Suppe",
+      "heisse_id": "2020004682758",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004682758/dt_main.jpg",
+      "bytes": 9439,
+      "content_type": "image/jpeg",
+      "heisse_price": 0.99,
+      "heisse_price_date": "2023-10-20"
+    },
+    {
+      "product_id": "da14532b5a32",
+      "name": "SPAR Natur*pur Feine Bio-Zwiebel-Suppe",
+      "heisse_id": "2020004682666",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004682666/dt_main.jpg",
+      "bytes": 9187,
+      "content_type": "image/jpeg",
+      "heisse_price": 0.99,
+      "heisse_price_date": "2024-08-29"
+    },
+    {
+      "product_id": "dcb73411b62a",
+      "name": "SPAR Natur*pur Saatgut Bio-Pflücksalat Red Salad Bowl",
+      "heisse_id": "2020002325855",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020002325855/dt_main.jpg",
+      "bytes": 8882,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.49,
+      "heisse_price_date": "2025-12-22"
+    },
+    {
+      "product_id": "ec29bd59fabf",
+      "name": "SPAR PREMIUM Edition Johanna Maier Alt-Wiener Suppentopf",
+      "heisse_id": "2020001844609",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020001844609/dt_main.jpg",
+      "bytes": 7036,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.99,
+      "heisse_price_date": "2025-05-14"
+    },
+    {
+      "product_id": "e291c2ea3608",
+      "name": "SPAR PREMIUM Edition Johanna Maier Gulaschsuppe mit Rindfleisch und Kartoffeln",
+      "heisse_id": "2020003995491",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003995491/dt_main.jpg",
+      "bytes": 6942,
+      "content_type": "image/jpeg",
+      "heisse_price": 4.99,
+      "heisse_price_date": "2025-05-14"
+    },
+    {
+      "product_id": "67233c63d509",
+      "name": "SPAR PREMIUM Edition Johanna Maier Rote Linsen- Suppe",
+      "heisse_id": "2020004142023",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004142023/dt_main.jpg",
+      "bytes": 7177,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.99,
+      "heisse_price_date": "2025-05-14"
+    },
+    {
+      "product_id": "1aa1ddfa21cc",
+      "name": "SPAR PREMIUM Edition Paul Ivić Veganes Bio-Kartoffelgulasch",
+      "heisse_id": "2020005724075",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005724075/dt_main.jpg",
+      "bytes": 7870,
+      "content_type": "image/jpeg",
+      "heisse_price": 6.99,
+      "heisse_price_date": "2026-01-08"
+    },
+    {
+      "product_id": "7c0367466923",
+      "name": "SPAR PREMIUM Feine Marillen-Eisknödel mit fruchtiger Marillenfüllung 4 Stück",
+      "heisse_id": "2020005421271",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005421271/dt_main.jpg",
+      "bytes": 8708,
+      "content_type": "image/jpeg",
+      "heisse_price": 9.99,
+      "heisse_price_date": "2025-08-14"
+    },
+    {
+      "product_id": "630a4f9a7549",
+      "name": "SPAR PREMIUM Risotto Mediterran 200G",
+      "heisse_id": "2020000919179",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020000919179/dt_main.jpg",
+      "bytes": 5879,
+      "content_type": "image/jpeg",
+      "heisse_price": 2.99,
+      "heisse_price_date": "2025-10-16"
+    },
+    {
+      "product_id": "bae7622dacb5",
+      "name": "SPAR PREMIUM Risotto mit Steinpilzen",
+      "heisse_id": "2020000919186",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020000919186/dt_main.jpg",
+      "bytes": 5721,
+      "content_type": "image/jpeg",
+      "heisse_price": 2.99,
+      "heisse_price_date": "2025-10-16"
+    },
+    {
+      "product_id": "44edf8d20ee1",
+      "name": "SPAR Suppengruen",
+      "heisse_id": "2020004272157",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004272157/dt_main.jpg",
+      "bytes": 6533,
+      "content_type": "image/jpeg",
+      "heisse_price": 1.42,
+      "heisse_price_date": "2026-07-01"
+    },
+    {
+      "product_id": "d855feb2241d",
+      "name": "SPAR enjoy ASIA Grünes Curry mit Reis",
+      "heisse_id": "2020004975416",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004975416/dt_main.jpg",
+      "bytes": 7182,
+      "content_type": "image/jpeg",
+      "heisse_price": 4.49,
+      "heisse_price_date": "2026-02-12"
+    },
+    {
+      "product_id": "e612ffbbe95d",
+      "name": "SPAR enjoy ASIA Gyoza Bowl",
+      "heisse_id": "2020005993587",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005993587/dt_main.jpg",
+      "bytes": 9401,
+      "content_type": "image/jpeg",
+      "heisse_price": 5.99,
+      "heisse_price_date": "2026-03-23"
+    },
+    {
+      "product_id": "acbfd49cedd1",
+      "name": "SPAR enjoy ASIA Linsendal",
+      "heisse_id": "2020005801691",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005801691/dt_main.jpg",
+      "bytes": 7996,
+      "content_type": "image/jpeg",
+      "heisse_price": 4.49,
+      "heisse_price_date": "2026-04-27"
+    },
+    {
+      "product_id": "c7e3f0915f16",
+      "name": "Schenkel Hummerrahmsuppe",
+      "heisse_id": "2020003243868",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003243868/dt_main.jpg",
+      "bytes": 5511,
+      "content_type": "image/jpeg",
+      "heisse_price": 4.39,
+      "heisse_price_date": "2026-01-13"
+    },
+    {
+      "product_id": "96cc8cb01c57",
+      "name": "Schenkel Steinpilzsuppe",
+      "heisse_id": "2020003501098",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003501098/dt_main.jpg",
+      "bytes": 3691,
+      "content_type": "image/jpeg",
+      "heisse_price": 4.39,
+      "heisse_price_date": "2026-01-13"
+    },
+    {
+      "product_id": "8e98fc4d6007",
+      "name": "Schenkel Zwiebelsuppe",
+      "heisse_id": "2020003243790",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003243790/dt_main.jpg",
+      "bytes": 4685,
+      "content_type": "image/jpeg",
+      "heisse_price": 4.39,
+      "heisse_price_date": "2026-01-13"
+    },
+    {
+      "product_id": "8fe78e81dd66",
+      "name": "Stangl Fertigmischung Semmelknödel glutenfrei",
+      "heisse_id": "2020004252296",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004252296/dt_main.jpg",
+      "bytes": 6405,
+      "content_type": "image/jpeg",
+      "heisse_price": 2.99,
+      "heisse_price_date": "2022-09-30"
+    },
+    {
+      "product_id": "021f0c7c1776",
+      "name": "TANN In Vorarlberg hausgemacht Chili con Carne im Glas",
+      "heisse_id": "2020004695376",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004695376/dt_main.jpg",
+      "bytes": 8411,
+      "content_type": "image/jpeg",
+      "heisse_price": 6.99,
+      "heisse_price_date": "2025-07-31"
+    },
+    {
+      "product_id": "3a820c7132e0",
+      "name": "TANN In Vorarlberg hausgemacht Rindsgulasch",
+      "heisse_id": "2020003986642",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003986642/dt_main.jpg",
+      "bytes": 7617,
+      "content_type": "image/jpeg",
+      "heisse_price": 8.99,
+      "heisse_price_date": "2025-06-05"
+    },
+    {
+      "product_id": "9baf9993b48a",
+      "name": "TANN In Vorarlberg hausgemacht Rindssuppe",
+      "heisse_id": "2020003986796",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003986796/dt_main.jpg",
+      "bytes": 6305,
+      "content_type": "image/jpeg",
+      "heisse_price": 4.99,
+      "heisse_price_date": "2025-07-03"
+    },
+    {
+      "product_id": "ff22d2c90c3b",
+      "name": "Tressbrüder Veganes Bio-Curry Typ Butter Chicken",
+      "heisse_id": "2020004114341",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004114341/dt_main.jpg",
+      "bytes": 9609,
+      "content_type": "image/jpeg",
+      "heisse_price": 4.29,
+      "heisse_price_date": "2022-09-30"
+    },
+    {
+      "product_id": "e39e552c0647",
+      "name": "Tupperware 3-BowlSet(1+1,4+1,9L)",
+      "heisse_id": "2020004987129",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004987129/dt_main.jpg",
+      "bytes": 4769,
+      "content_type": "image/jpeg",
+      "heisse_price": 24.99,
+      "heisse_price_date": "2024-08-15"
+    },
+    {
+      "product_id": "71e4b180e141",
+      "name": "Tupperware Everyday Bowl Set 240ml, 500ml, 800ml",
+      "heisse_id": "2020004912527",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004912527/dt_main.jpg",
+      "bytes": 2783,
+      "content_type": "image/jpeg",
+      "heisse_price": 10,
+      "heisse_price_date": "2026-05-26"
+    },
+    {
+      "product_id": "26af089bcfc7",
+      "name": "Tupperware Wonderlier Bowl Set 775ml, 1,1L, 1,75L",
+      "heisse_id": "2020004921055",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004921055/dt_main.jpg",
+      "bytes": 3673,
+      "content_type": "image/jpeg",
+      "heisse_price": 20,
+      "heisse_price_date": "2026-05-26"
+    },
+    {
+      "product_id": "ce3c204658e5",
+      "name": "Wiberg Curry Maharani 65g",
+      "heisse_id": "2020004521651",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004521651/dt_main.jpg",
+      "bytes": 6711,
+      "content_type": "image/jpeg",
+      "heisse_price": 5.99,
+      "heisse_price_date": "2024-06-04"
+    },
+    {
+      "product_id": "041cda0665e5",
+      "name": "efko Pfandl-Kraut zu Bratl & Knödel",
+      "heisse_id": "2020003175749",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003175749/dt_main.jpg",
+      "bytes": 10253,
+      "content_type": "image/jpeg",
+      "heisse_price": 2.79,
+      "heisse_price_date": "2025-10-14"
+    },
+    {
+      "product_id": "907fecf594ee",
+      "name": "ehrenwort BIO Scharfes Madras Curry 40g",
+      "heisse_id": "2020003503849",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003503849/dt_main.jpg",
+      "bytes": 6201,
+      "content_type": "image/jpeg",
+      "heisse_price": 4.99,
+      "heisse_price_date": "2024-02-13"
+    },
+    {
+      "product_id": "5536bdee24a4",
+      "name": "yebo. Curry Caribbean Style 50g",
+      "heisse_id": "2020004133366",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004133366/dt_main.jpg",
+      "bytes": 4386,
+      "content_type": "image/jpeg",
+      "heisse_price": 1.99,
+      "heisse_price_date": "2023-01-24"
+    },
+    {
+      "product_id": "581cae8b9018",
+      "name": "Arroz Cebolla Sollana Paella Reis",
+      "heisse_id": "2020004426901",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004426901/dt_main.jpg",
+      "bytes": 7130,
+      "content_type": "image/jpeg",
+      "heisse_price": 2.85,
+      "heisse_price_date": "2026-07-01"
+    },
+    {
+      "product_id": "9bc711b3833f",
+      "name": "BEN’s ORIGINAL Express Reis Griechisch",
+      "heisse_id": "2020004650016",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004650016/dt_main.jpg",
+      "bytes": 9539,
+      "content_type": "image/jpeg",
+      "heisse_price": 2.69,
+      "heisse_price_date": "2026-03-03"
+    },
+    {
+      "product_id": "8ad2ffcfff4a",
+      "name": "Basenbox Bio-Kartoffelgulasch",
+      "heisse_id": "2020004168214",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004168214/dt_main.jpg",
+      "bytes": 2318,
+      "content_type": "image/jpeg",
+      "heisse_price": 4.99,
+      "heisse_price_date": "2026-02-10"
+    },
+    {
+      "product_id": "8fe73e566ec7",
+      "name": "Basenbox Bio-ayurvedische Tomatensuppe",
+      "heisse_id": "2020004168122",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004168122/dt_main.jpg",
+      "bytes": 2318,
+      "content_type": "image/jpeg",
+      "heisse_price": 4.99,
+      "heisse_price_date": "2026-02-10"
+    },
+    {
+      "product_id": "9502c73878e1",
+      "name": "DESPAR Gnocchi",
+      "heisse_id": "2020006126380",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020006126380/dt_main.jpg",
+      "bytes": 8807,
+      "content_type": "image/jpeg",
+      "heisse_price": 1.13,
+      "heisse_price_date": "2026-07-01"
+    },
+    {
+      "product_id": "ed6782d935a7",
+      "name": "Di Martino Gnocchi Sardi",
+      "heisse_id": "2020003799525",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003799525/dt_main.jpg",
+      "bytes": 7322,
+      "content_type": "image/jpeg",
+      "heisse_price": 2.08,
+      "heisse_price_date": "2026-07-01"
+    },
+    {
+      "product_id": "58744f7ed58c",
+      "name": "GEFU Spätzlehobel Tradizione lang",
+      "heisse_id": "2020004726391",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004726391/dt_main.jpg",
+      "bytes": 3656,
+      "content_type": "image/jpeg",
+      "heisse_price": 15,
+      "heisse_price_date": "2026-04-20"
+    },
+    {
+      "product_id": "a0d29659212b",
+      "name": "Garden Gourmet Knuspertaschen Cordon-BleuB",
+      "heisse_id": "2020005761445",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005761445/dt_main.jpg",
+      "bytes": 2318,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.49,
+      "heisse_price_date": "2026-02-09"
+    },
+    {
+      "product_id": "4e0e09328a69",
+      "name": "Heinrich Kühlmann Kichererbsensalat Tomate Olive",
+      "heisse_id": "2020005704916",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005704916/dt_main.jpg",
+      "bytes": 14385,
+      "content_type": "image/jpeg",
+      "heisse_price": 16.9,
+      "heisse_price_date": "2026-02-16"
+    },
+    {
+      "product_id": "d7a4426a2b17",
+      "name": "Iglo Blattspinat Zwutschgerl",
+      "heisse_id": "2020004624048",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004624048/dt_main.jpg",
+      "bytes": 10111,
+      "content_type": "image/jpeg",
+      "heisse_price": 4.56,
+      "heisse_price_date": "2026-07-01"
+    },
+    {
+      "product_id": "e1c981726a10",
+      "name": "Iglo Erbsen Karotten Duo aus dem Marchfeld",
+      "heisse_id": "2020005769298",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005769298/dt_main.jpg",
+      "bytes": 9688,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.8,
+      "heisse_price_date": "2026-07-01"
+    },
+    {
+      "product_id": "b986a5a30aa4",
+      "name": "Iglo Frühlingserbsen Frühlingserbsen",
+      "heisse_id": "2020005834460",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005834460/dt_main.jpg",
+      "bytes": 9899,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.8,
+      "heisse_price_date": "2026-07-01"
+    },
+    {
+      "product_id": "eca558d41ab3",
+      "name": "Iglo Genießer Schmankerl Cremespinat Cremespinat mit Mini Rösti",
+      "heisse_id": "2020005831094",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005831094/dt_main.jpg",
+      "bytes": 8056,
+      "content_type": "image/jpeg",
+      "heisse_price": 5.79,
+      "heisse_price_date": "2026-01-15"
+    },
+    {
+      "product_id": "0a3b63d55619",
+      "name": "Iglo Junge Fisolen Junge Fisolen",
+      "heisse_id": "2020005812802",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005812802/dt_main.jpg",
+      "bytes": 9357,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.8,
+      "heisse_price_date": "2026-07-01"
+    },
+    {
+      "product_id": "eb52a6cb9e36",
+      "name": "Iglo Zuckererbsenschoten Zuckererbsenschoten",
+      "heisse_id": "2020005781993",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005781993/dt_main.jpg",
+      "bytes": 8658,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.8,
+      "heisse_price_date": "2026-07-01"
+    },
+    {
+      "product_id": "8a7372f860be",
+      "name": "Kelly's Mikrowellen Popcorn Caramel Geschmack 3x90g",
+      "heisse_id": "2020000571315",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020000571315/dt_main.jpg",
+      "bytes": 11614,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.99,
+      "heisse_price_date": "2026-09-22"
+    },
+    {
+      "product_id": "c929e0cb9e52",
+      "name": "Land-Leben Backerbsen 100% Sonnenblumenöl",
+      "heisse_id": "2020002929619",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020002929619/dt_main.jpg",
+      "bytes": 6118,
+      "content_type": "image/jpeg",
+      "heisse_price": 1.69,
+      "heisse_price_date": "2026-03-24"
+    },
+    {
+      "product_id": "caac7e8042ec",
+      "name": "Miraplast Mikrowellenabdeckhaube",
+      "heisse_id": "5543038",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/5543038/dt_main.jpg",
+      "bytes": 2087,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.99,
+      "heisse_price_date": "2026-06-01"
+    },
+    {
+      "product_id": "80606b83f7f5",
+      "name": "Rana Tradizionali Tortelloni Parmigiano Reggiano",
+      "heisse_id": "2020005038929",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005038929/dt_main.jpg",
+      "bytes": 6292,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.79,
+      "heisse_price_date": "2026-05-26"
+    },
+    {
+      "product_id": "8b6f5ef5ab2c",
+      "name": "Rana Tradizionali Tortelloni Steinpilze",
+      "heisse_id": "2020005042308",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005042308/dt_main.jpg",
+      "bytes": 6582,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.79,
+      "heisse_price_date": "2026-05-26"
+    },
+    {
+      "product_id": "8d42bf5076e2",
+      "name": "Rummo Gnocchi",
+      "heisse_id": "2020006198653",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020006198653/dt_main.jpg",
+      "bytes": 4509,
+      "content_type": "image/jpeg",
+      "heisse_price": 2.99,
+      "heisse_price_date": "2026-04-20"
+    },
+    {
+      "product_id": "02dc3359332f",
+      "name": "S-BUDGET Erbsen tiefgekühlt",
+      "heisse_id": "2020001540457",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020001540457/dt_main.jpg",
+      "bytes": 6247,
+      "content_type": "image/jpeg",
+      "heisse_price": 1.89,
+      "heisse_price_date": "2026-07-01"
+    },
+    {
+      "product_id": "046011a6ce47",
+      "name": "S-BUDGET Gemüsepfanne Mexico-Style",
+      "heisse_id": "2020005257030",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005257030/dt_main.jpg",
+      "bytes": 10452,
+      "content_type": "image/jpeg",
+      "heisse_price": 2.08,
+      "heisse_price_date": "2026-07-01"
+    },
+    {
+      "product_id": "d7a21e2393d2",
+      "name": "S-BUDGET Grießnockerl ca. 20 Stück",
+      "heisse_id": "2020006206150",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020006206150/dt_main.jpg",
+      "bytes": 12734,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.99,
+      "heisse_price_date": "2026-04-27"
+    },
+    {
+      "product_id": "3d2ad08220cd",
+      "name": "S-BUDGET Hendl Keulen Vierteln",
+      "heisse_id": "2020003335303",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003335303/dt_main.jpg",
+      "bytes": 3749,
+      "content_type": "image/jpeg",
+      "heisse_price": 7.89,
+      "heisse_price_date": "2026-08-11"
+    },
+    {
+      "product_id": "37325b46c977",
+      "name": "S-BUDGET Hühner-Geschnetzeltes Frisch",
+      "heisse_id": "2020004910660",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004910660/dt_main.jpg",
+      "bytes": 6727,
+      "content_type": "image/jpeg",
+      "heisse_price": 4.99,
+      "heisse_price_date": "2026-09-17"
+    },
+    {
+      "product_id": "d4d33d916975",
+      "name": "S-BUDGET Kartoffel-Gnocchi Natur",
+      "heisse_id": "2020002660376",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020002660376/dt_main.jpg",
+      "bytes": 6286,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.69,
+      "heisse_price_date": "2026-05-26"
+    },
+    {
+      "product_id": "c6f81c6a83a1",
+      "name": "S-BUDGET Kichererbsen dampfgegart 3 x 150g",
+      "heisse_id": "2020005366886",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005366886/dt_main.jpg",
+      "bytes": 7251,
+      "content_type": "image/jpeg",
+      "heisse_price": 1.99,
+      "heisse_price_date": "2026-03-24"
+    },
+    {
+      "product_id": "b917c3dec9e7",
+      "name": "S-BUDGET Maishendl Unterkeulen",
+      "heisse_id": "2020004580511",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004580511/dt_main.jpg",
+      "bytes": 5302,
+      "content_type": "image/jpeg",
+      "heisse_price": 7.19,
+      "heisse_price_date": "2026-09-03"
+    },
+    {
+      "product_id": "6d4c92773bc7",
+      "name": "S-BUDGET Puten Geschnetzeltes",
+      "heisse_id": "2020004580399",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004580399/dt_main.jpg",
+      "bytes": 6325,
+      "content_type": "image/jpeg",
+      "heisse_price": 4.89,
+      "heisse_price_date": "2026-02-24"
+    },
+    {
+      "product_id": "7f4f2986aed8",
+      "name": "S-BUDGET Schlemmerfilet Brokkoli mit MSC-Alaska-Seelachs",
+      "heisse_id": "2020001493753",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020001493753/dt_main.jpg",
+      "bytes": 6203,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.29,
+      "heisse_price_date": "2026-07-23"
+    },
+    {
+      "product_id": "35e2057e930a",
+      "name": "S-BUDGET Tortelloni Mortadella",
+      "heisse_id": "2020006191883",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020006191883/dt_main.jpg",
+      "bytes": 9216,
+      "content_type": "image/jpeg",
+      "heisse_price": 0.99,
+      "heisse_price_date": "2026-04-06"
+    },
+    {
+      "product_id": "e9d4b498440a",
+      "name": "S-BUDGET Tortelloni Ricotta & Spinat",
+      "heisse_id": "2020006191913",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020006191913/dt_main.jpg",
+      "bytes": 9288,
+      "content_type": "image/jpeg",
+      "heisse_price": 0.99,
+      "heisse_price_date": "2026-04-06"
+    },
+    {
+      "product_id": "ee7fa7cc3ba3",
+      "name": "SPAR Feinstes Geflügel Maishendl Oberkeulen",
+      "heisse_id": "2020004581778",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004581778/dt_main.jpg",
+      "bytes": 5225,
+      "content_type": "image/jpeg",
+      "heisse_price": 4.39,
+      "heisse_price_date": "2026-09-17"
+    },
+    {
+      "product_id": "65b42a3ca199",
+      "name": "SPAR Feinstes Geflügel schaut drauf Maishendl Keulenschnitzerl AMA Hendl Oberkeulenschnitz.",
+      "heisse_id": "2020004956477",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004956477/dt_main.jpg",
+      "bytes": 4992,
+      "content_type": "image/jpeg",
+      "heisse_price": 5.19,
+      "heisse_price_date": "2026-09-03"
+    },
+    {
+      "product_id": "b1603ff08483",
+      "name": "SPAR Feinstes Geflügel schaut drauf Maishendl Oberkeulen AMA Hendl Oberkeulen",
+      "heisse_id": "2020004956521",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004956521/dt_main.jpg",
+      "bytes": 5345,
+      "content_type": "image/jpeg",
+      "heisse_price": 4.99,
+      "heisse_price_date": "2026-09-03"
+    },
+    {
+      "product_id": "85312df3a8fd",
+      "name": "SPAR Hütten Käsespätzle Sticks 9 Stück",
+      "heisse_id": "2020006142212",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020006142212/dt_main.jpg",
+      "bytes": 9080,
+      "content_type": "image/jpeg",
+      "heisse_price": 5.99,
+      "heisse_price_date": "2026-03-30"
+    },
+    {
+      "product_id": "f41f9416b2ce",
+      "name": "SPAR Junger Blattspinat",
+      "heisse_id": "2020002693893",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020002693893/dt_main.jpg",
+      "bytes": 5163,
+      "content_type": "image/jpeg",
+      "heisse_price": 1.7,
+      "heisse_price_date": "2026-07-01"
+    },
+    {
+      "product_id": "accaf1458737",
+      "name": "SPAR Kaisergemüse",
+      "heisse_id": "2020003459221",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003459221/dt_main.jpg",
+      "bytes": 8566,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.13,
+      "heisse_price_date": "2026-07-01"
+    },
+    {
+      "product_id": "4ddc9c01ddd2",
+      "name": "SPAR Kartoffelpüree 2 x 2 Portionen",
+      "heisse_id": "2020006157520",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020006157520/dt_main.jpg",
+      "bytes": 10179,
+      "content_type": "image/jpeg",
+      "heisse_price": 1.39,
+      "heisse_price_date": "2026-04-06"
+    },
+    {
+      "product_id": "cd0b743f2d38",
+      "name": "SPAR Kochbeutel Langkorn Reis 8 Beutel à 125g",
+      "heisse_id": "2020001550388",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020001550388/dt_main.jpg",
+      "bytes": 6454,
+      "content_type": "image/jpeg",
+      "heisse_price": 1.89,
+      "heisse_price_date": "2026-07-01"
+    },
+    {
+      "product_id": "71c819c1f084",
+      "name": "SPAR Marchfelder Erbsen",
+      "heisse_id": "2020001493791",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020001493791/dt_main.jpg",
+      "bytes": 9074,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.13,
+      "heisse_price_date": "2026-07-01"
+    },
+    {
+      "product_id": "f40ef22c217b",
+      "name": "SPAR Marchfelder Gemüsetrilogie Erbsen, Karotten rot & gelb",
+      "heisse_id": "2020001493784",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020001493784/dt_main.jpg",
+      "bytes": 9666,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.13,
+      "heisse_price_date": "2026-07-01"
+    },
+    {
+      "product_id": "75db94784978",
+      "name": "SPAR Marchfelder Zarte Mischung Karotten, Erbsen & Zuckermais",
+      "heisse_id": "2020001493807",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020001493807/dt_main.jpg",
+      "bytes": 9153,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.13,
+      "heisse_price_date": "2026-07-01"
+    },
+    {
+      "product_id": "b91a7fe6536e",
+      "name": "SPAR Natur*pur Bio Hendl Mini Oberkeulen frisch, Handelsklasse A",
+      "heisse_id": "2020005572843",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005572843/dt_main.jpg",
+      "bytes": 6491,
+      "content_type": "image/jpeg",
+      "heisse_price": 9.19,
+      "heisse_price_date": "2026-01-10"
+    },
+    {
+      "product_id": "38c9e890271d",
+      "name": "SPAR Natur*pur Bio-Baby-Blattspinat",
+      "heisse_id": "2020004467034",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004467034/dt_main.jpg",
+      "bytes": 10693,
+      "content_type": "image/jpeg",
+      "heisse_price": 1.89,
+      "heisse_price_date": "2026-07-01"
+    },
+    {
+      "product_id": "e274977add8c",
+      "name": "SPAR Natur*pur Bio-Brokkoli",
+      "heisse_id": "2020003608926",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003608926/dt_main.jpg",
+      "bytes": 12441,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.7,
+      "heisse_price_date": "2026-07-16"
+    },
+    {
+      "product_id": "fe2231a1b466",
+      "name": "SPAR Natur*pur Bio-Brokkoli tiefgekühlt",
+      "heisse_id": "2020006267397",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020006267397/dt_main.jpg",
+      "bytes": 13756,
+      "content_type": "image/jpeg",
+      "heisse_price": 2.46,
+      "heisse_price_date": "2026-07-06"
+    },
+    {
+      "product_id": "82e1834b0648",
+      "name": "SPAR Natur*pur Bio-Dinkel-Nudeln mit Brokkoli",
+      "heisse_id": "2020003844089",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003844089/dt_main.jpg",
+      "bytes": 6872,
+      "content_type": "image/jpeg",
+      "heisse_price": 1.39,
+      "heisse_price_date": "2026-03-10"
+    },
+    {
+      "product_id": "bdf2523fa86e",
+      "name": "SPAR Natur*pur Bio-Fusilli grüne Erbsen",
+      "heisse_id": "2020004053886",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004053886/dt_main.jpg",
+      "bytes": 7898,
+      "content_type": "image/jpeg",
+      "heisse_price": 2.08,
+      "heisse_price_date": "2026-07-01"
+    },
+    {
+      "product_id": "22033f202875",
+      "name": "SPAR Natur*pur Bio-Gemüse-Eintopf",
+      "heisse_id": "2020005324374",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005324374/dt_main.jpg",
+      "bytes": 5719,
+      "content_type": "image/jpeg",
+      "heisse_price": 1.35,
+      "heisse_price_date": "2026-03-10"
+    },
+    {
+      "product_id": "d87391471ef6",
+      "name": "SPAR Natur*pur Bio-Hendl Filet sous-vide vorgegart 2 Filets",
+      "heisse_id": "2020004338518",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004338518/dt_main.jpg",
+      "bytes": 8158,
+      "content_type": "image/jpeg",
+      "heisse_price": 31.99,
+      "heisse_price_date": "2026-01-29"
+    },
+    {
+      "product_id": "ac349ce333ae",
+      "name": "SPAR Natur*pur Bio-Kartoffelpüree 2 x 4 Portionen",
+      "heisse_id": "2020006080200",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020006080200/dt_main.jpg",
+      "bytes": 10552,
+      "content_type": "image/jpeg",
+      "heisse_price": 2.49,
+      "heisse_price_date": "2026-02-09"
+    },
+    {
+      "product_id": "959965f736c8",
+      "name": "SPAR Natur*pur Bio-Makkaroni in Rahmgemüse",
+      "heisse_id": "2020005324411",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005324411/dt_main.jpg",
+      "bytes": 5794,
+      "content_type": "image/jpeg",
+      "heisse_price": 1.35,
+      "heisse_price_date": "2026-03-10"
+    },
+    {
+      "product_id": "7e772ed0bddb",
+      "name": "SPAR Natur*pur Bio-Pastinake Pastinakenpüree",
+      "heisse_id": "2020004830128",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004830128/dt_main.jpg",
+      "bytes": 5029,
+      "content_type": "image/jpeg",
+      "heisse_price": 0.95,
+      "heisse_price_date": "2026-03-10"
+    },
+    {
+      "product_id": "fe58f3705245",
+      "name": "SPAR Natur*pur Bio-Penne Kichererbsen",
+      "heisse_id": "2020004053848",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004053848/dt_main.jpg",
+      "bytes": 7303,
+      "content_type": "image/jpeg",
+      "heisse_price": 2.08,
+      "heisse_price_date": "2026-07-01"
+    },
+    {
+      "product_id": "a392d9aea6eb",
+      "name": "SPAR Natur*pur Bio-Spaghetti Bolognese",
+      "heisse_id": "2020004894687",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004894687/dt_main.jpg",
+      "bytes": 6760,
+      "content_type": "image/jpeg",
+      "heisse_price": 0.95,
+      "heisse_price_date": "2026-03-10"
+    },
+    {
+      "product_id": "0fa533c79c4a",
+      "name": "SPAR Natur*pur Junge Bio-Erbsen aus dem Marchfeld",
+      "heisse_id": "2020002622954",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020002622954/dt_main.jpg",
+      "bytes": 11284,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.7,
+      "heisse_price_date": "2026-07-16"
+    },
+    {
+      "product_id": "654bf1702f8b",
+      "name": "SPAR Veggie veganes Bio-Sugo Bolognese",
+      "heisse_id": "1806854",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/1806854/dt_main.jpg",
+      "bytes": 8241,
+      "content_type": "image/jpeg",
+      "heisse_price": 2.19,
+      "heisse_price_date": "2023-02-09"
+    },
+    {
+      "product_id": "bc017ab07542",
+      "name": "SPAR enjoy by NENI Kichererbsensalat mit Tahina",
+      "heisse_id": "2020003293467",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003293467/dt_main.jpg",
+      "bytes": 8205,
+      "content_type": "image/jpeg",
+      "heisse_price": 2.79,
+      "heisse_price_date": "2026-09-10"
+    },
+    {
+      "product_id": "56c1c7e0a3ca",
+      "name": "SPAR free from Gnocchi glutenfrei",
+      "heisse_id": "2020003941900",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003941900/dt_main.jpg",
+      "bytes": 5571,
+      "content_type": "image/jpeg",
+      "heisse_price": 2.39,
+      "heisse_price_date": "2026-03-12"
+    },
+    {
+      "product_id": "ace03698a2b5",
+      "name": "Suntat Kichererbsen",
+      "heisse_id": "2020000541301",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020000541301/dt_main.jpg",
+      "bytes": 4374,
+      "content_type": "image/jpeg",
+      "heisse_price": 2.89,
+      "heisse_price_date": "2026-05-19"
+    },
+    {
+      "product_id": "81ae4b084e71",
+      "name": "Südobst Bio Kichererbsen",
+      "heisse_id": "2020005564596",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005564596/dt_main.jpg",
+      "bytes": 6598,
+      "content_type": "image/jpeg",
+      "heisse_price": 1.79,
+      "heisse_price_date": "2026-01-29"
+    },
+    {
+      "product_id": "027eb4b0e183",
+      "name": "Basenbox Bio-Gemüsecurry",
+      "heisse_id": "2020004168184",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004168184/dt_main.jpg",
+      "bytes": 2318,
+      "content_type": "image/jpeg",
+      "heisse_price": 4.99,
+      "heisse_price_date": "2026-02-10"
+    },
+    {
+      "product_id": "cc0f749998aa",
+      "name": "Hilcona Ravioli Bolognese",
+      "heisse_id": "2020005509313",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005509313/dt_main.jpg",
+      "bytes": 2318,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.59,
+      "heisse_price_date": "2024-10-18"
+    },
+    {
+      "product_id": "c553f0b91b72",
+      "name": "Weight Watchers Feinwürzige Linsensuppe mit buntem Gemüse",
+      "heisse_id": "7871863",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/7871863/dt_main.jpg",
+      "bytes": 2318,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.49,
+      "heisse_price_date": "2023-07-18"
+    },
+    {
+      "product_id": "7075c99a8b56",
+      "name": "Weight Watchers Ungarische Gulaschsuppe mit Rindfleisch",
+      "heisse_id": "7102844",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/7102844/dt_main.jpg",
+      "bytes": 2318,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.49,
+      "heisse_price_date": "2023-07-18"
+    },
+    {
+      "product_id": "ebd0656d4ac6",
+      "name": "DESPAR PREMIUM Gnocchi",
+      "heisse_id": "2020003995330",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003995330/dt_main.jpg",
+      "bytes": 6272,
+      "content_type": "image/jpeg",
+      "heisse_price": 2.99,
+      "heisse_price_date": "2024-04-04"
+    },
+    {
+      "product_id": "b001ff01aa31",
+      "name": "DESPAR PREMIUM Gnocchi al tartufo",
+      "heisse_id": "2020004353856",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004353856/dt_main.jpg",
+      "bytes": 4981,
+      "content_type": "image/jpeg",
+      "heisse_price": 1.99,
+      "heisse_price_date": "2023-01-13"
+    },
+    {
+      "product_id": "159df27b4482",
+      "name": "S-BUDGET ASIA Pfannengemüse Asia-Art",
+      "heisse_id": "2020003737510",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003737510/dt_main.jpg",
+      "bytes": 10120,
+      "content_type": "image/jpeg",
+      "heisse_price": 2.19,
+      "heisse_price_date": "2023-01-27"
+    },
+    {
+      "product_id": "91b59d7a6f84",
+      "name": "S-BUDGET Gnocchi di Patate",
+      "heisse_id": "2020004146854",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004146854/dt_main.jpg",
+      "bytes": 8646,
+      "content_type": "image/jpeg",
+      "heisse_price": 1.48,
+      "heisse_price_date": "2025-05-14"
+    },
+    {
+      "product_id": "8a619bf322a7",
+      "name": "S-BUDGET Gourmet-Mix Pfannengemüse",
+      "heisse_id": "2020003737503",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003737503/dt_main.jpg",
+      "bytes": 10267,
+      "content_type": "image/jpeg",
+      "heisse_price": 2.19,
+      "heisse_price_date": "2023-01-27"
+    },
+    {
+      "product_id": "1874c97011b0",
+      "name": "S-BUDGET Kaiserschmarrn ohne Rosinen",
+      "heisse_id": "2020004943989",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004943989/dt_main.jpg",
+      "bytes": 9344,
+      "content_type": "image/jpeg",
+      "heisse_price": 2.99,
+      "heisse_price_date": "2024-10-21"
+    },
+    {
+      "product_id": "1f2aa178eb43",
+      "name": "S-BUDGET Mini Pizza Margherita",
+      "heisse_id": "2020002097196",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020002097196/dt_main.jpg",
+      "bytes": 5947,
+      "content_type": "image/jpeg",
+      "heisse_price": 1.35,
+      "heisse_price_date": "2026-08-04"
+    },
+    {
+      "product_id": "0368ffd20c2e",
+      "name": "S-BUDGET Mini Pizza Salami",
+      "heisse_id": "7894329",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/7894329/dt_main.jpg",
+      "bytes": 4141,
+      "content_type": "image/jpeg",
+      "heisse_price": 1.35,
+      "heisse_price_date": "2026-08-04"
+    },
+    {
+      "product_id": "26a676865192",
+      "name": "S-BUDGET Mini-Hühner-Schnitzel",
+      "heisse_id": "2020003987243",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003987243/dt_main.jpg",
+      "bytes": 4998,
+      "content_type": "image/jpeg",
+      "heisse_price": 6.49,
+      "heisse_price_date": "2024-05-02"
+    },
+    {
+      "product_id": "8b21013c42a7",
+      "name": "S-BUDGET Mini-Schnitzel aus Österreich tiefgekühlt",
+      "heisse_id": "2020002798413",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020002798413/dt_main.jpg",
+      "bytes": 11572,
+      "content_type": "image/jpeg",
+      "heisse_price": 5.99,
+      "heisse_price_date": "2023-01-10"
+    },
+    {
+      "product_id": "e44114c64f72",
+      "name": "S-BUDGET Pizza Donut Jalapeno-Cheddar",
+      "heisse_id": "2020005831018",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005831018/dt_main.jpg",
+      "bytes": 9686,
+      "content_type": "image/jpeg",
+      "heisse_price": 1.65,
+      "heisse_price_date": "2026-09-03"
+    },
+    {
+      "product_id": "6df06386a7d6",
+      "name": "S-BUDGET Pizza-Käse gerieben, leicht*",
+      "heisse_id": "2020001607440",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020001607440/dt_main.jpg",
+      "bytes": 2478,
+      "content_type": "image/jpeg",
+      "heisse_price": 2.39,
+      "heisse_price_date": "2024-07-11"
+    },
+    {
+      "product_id": "b2b6c489192b",
+      "name": "S-BUDGET Pizzakäse gerieben",
+      "heisse_id": "2020001607464",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020001607464/dt_main.jpg",
+      "bytes": 2478,
+      "content_type": "image/jpeg",
+      "heisse_price": 1.99,
+      "heisse_price_date": "2026-06-02"
+    },
+    {
+      "product_id": "c87ccd17f80e",
+      "name": "S-BUDGET Pizzaschifferl Salami",
+      "heisse_id": "2020005585157",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005585157/dt_main.jpg",
+      "bytes": 4237,
+      "content_type": "image/jpeg",
+      "heisse_price": 1.99,
+      "heisse_price_date": "2025-05-14"
+    },
+    {
+      "product_id": "35c37494b61a",
+      "name": "S-BUDGET Pizzaschifferl Tomaten-Mozzarella",
+      "heisse_id": "2020004822789",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004822789/dt_main.jpg",
+      "bytes": 4423,
+      "content_type": "image/jpeg",
+      "heisse_price": 1.99,
+      "heisse_price_date": "2023-10-15"
+    },
+    {
+      "product_id": "a07dfd046089",
+      "name": "S-BUDGET Pizzastangerl",
+      "heisse_id": "2020002972042",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020002972042/dt_main.jpg",
+      "bytes": 4280,
+      "content_type": "image/jpeg",
+      "heisse_price": 1.1,
+      "heisse_price_date": "2025-05-14"
+    },
+    {
+      "product_id": "4dda33b2d4e8",
+      "name": "S-BUDGET Putenschnitzel frisch",
+      "heisse_id": "2020004480439",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004480439/dt_main.jpg",
+      "bytes": 5498,
+      "content_type": "image/jpeg",
+      "heisse_price": 8.99,
+      "heisse_price_date": "2026-02-24"
+    },
+    {
+      "product_id": "de56729e5912",
+      "name": "S-BUDGET Rindsschnitzel ca. 400g per Pkg.",
+      "heisse_id": "2020002710040",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020002710040/dt_main.jpg",
+      "bytes": 6998,
+      "content_type": "image/jpeg",
+      "heisse_price": 19.98,
+      "heisse_price_date": "2025-10-24"
+    },
+    {
+      "product_id": "e239aa4aeb49",
+      "name": "S-BUDGET Schweins-Schnitzel",
+      "heisse_id": "2020002627287",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020002627287/dt_main.jpg",
+      "bytes": 5562,
+      "content_type": "image/jpeg",
+      "heisse_price": 9.99,
+      "heisse_price_date": "2024-06-05"
+    },
+    {
+      "product_id": "5b10fbf1379c",
+      "name": "SPAR Feine Küche 4 Hühner-Schnitzel",
+      "heisse_id": "2020006170963",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020006170963/dt_main.jpg",
+      "bytes": 9620,
+      "content_type": "image/jpeg",
+      "heisse_price": 6.79,
+      "heisse_price_date": "2026-04-13"
+    },
+    {
+      "product_id": "e66695ea5916",
+      "name": "SPAR Feine Küche Gnocchi 2 Portionen",
+      "heisse_id": "8168689",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/8168689/dt_main.jpg",
+      "bytes": 6657,
+      "content_type": "image/jpeg",
+      "heisse_price": 2.99,
+      "heisse_price_date": "2023-01-01"
+    },
+    {
+      "product_id": "b9ab9f00e1a5",
+      "name": "SPAR Feine Küche Schnitzel Wiener Art",
+      "heisse_id": "2020002087463",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020002087463/dt_main.jpg",
+      "bytes": 10758,
+      "content_type": "image/jpeg",
+      "heisse_price": 6.79,
+      "heisse_price_date": "2026-03-03"
+    },
+    {
+      "product_id": "384ea8281804",
+      "name": "SPAR Feine Küche Schnitzel vom Schwein 2 Stück",
+      "heisse_id": "2020003539978",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003539978/dt_main.jpg",
+      "bytes": 10830,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.99,
+      "heisse_price_date": "2023-01-01"
+    },
+    {
+      "product_id": "fc9a5ecfcfe6",
+      "name": "SPAR Feine Küche Spaghetti Carbonara",
+      "heisse_id": "2020001255108",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020001255108/dt_main.jpg",
+      "bytes": 8453,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.69,
+      "heisse_price_date": "2025-12-17"
+    },
+    {
+      "product_id": "c28daa7bcde5",
+      "name": "SPAR Natur*pur Bio-Basis für Chili con Carne 3 Portionen",
+      "heisse_id": "2020004806765",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004806765/dt_main.jpg",
+      "bytes": 10416,
+      "content_type": "image/jpeg",
+      "heisse_price": 0.99,
+      "heisse_price_date": "2024-08-11"
+    },
+    {
+      "product_id": "6dea66c60d10",
+      "name": "SPAR Natur*pur Bio-Basis für Kartoffel-Gulasch 3 Portionen",
+      "heisse_id": "2020004805119",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004805119/dt_main.jpg",
+      "bytes": 10122,
+      "content_type": "image/jpeg",
+      "heisse_price": 0.99,
+      "heisse_price_date": "2024-02-01"
+    },
+    {
+      "product_id": "ec7868d17a7a",
+      "name": "SPAR Natur*pur Bio-Basis für Kräuter-Schnitzel 3 Portionen",
+      "heisse_id": "2020004805096",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004805096/dt_main.jpg",
+      "bytes": 9951,
+      "content_type": "image/jpeg",
+      "heisse_price": 0.99,
+      "heisse_price_date": "2024-02-01"
+    },
+    {
+      "product_id": "6dba3bc35171",
+      "name": "SPAR Natur*pur Bio-Basis für Putenrahm-Geschnetzeltes 3 Portionen",
+      "heisse_id": "2020004806734",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004806734/dt_main.jpg",
+      "bytes": 9667,
+      "content_type": "image/jpeg",
+      "heisse_price": 0.99,
+      "heisse_price_date": "2024-08-11"
+    },
+    {
+      "product_id": "5f1038d9a75b",
+      "name": "SPAR Natur*pur Bio-Basis für Spaghetti Carbonara 3 Portionen",
+      "heisse_id": "2020004806888",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004806888/dt_main.jpg",
+      "bytes": 9830,
+      "content_type": "image/jpeg",
+      "heisse_price": 0.99,
+      "heisse_price_date": "2024-06-18"
+    },
+    {
+      "product_id": "98c4458b41b5",
+      "name": "SPAR Natur*pur Bio-Dinkel-Wraps 3 Stück",
+      "heisse_id": "2020004492319",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004492319/dt_main.jpg",
+      "bytes": 8793,
+      "content_type": "image/jpeg",
+      "heisse_price": 1.79,
+      "heisse_price_date": "2023-02-15"
+    },
+    {
+      "product_id": "dfe34ed7d392",
+      "name": "SPAR Natur*pur Bio-Gnocchi 1 Portion",
+      "heisse_id": "6394691",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/6394691/dt_main.jpg",
+      "bytes": 5706,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.19,
+      "heisse_price_date": "2023-01-01"
+    },
+    {
+      "product_id": "b7d9d003d114",
+      "name": "SPAR Natur*pur Bio-Mini-Gnocchi",
+      "heisse_id": "2020003864223",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003864223/dt_main.jpg",
+      "bytes": 7495,
+      "content_type": "image/jpeg",
+      "heisse_price": 1.89,
+      "heisse_price_date": "2023-05-05"
+    },
+    {
+      "product_id": "74e9eeb9f1b3",
+      "name": "SPAR Natur*pur Bio-Pastinaken mit Kartoffeln & Rind",
+      "heisse_id": "2020005014305",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005014305/dt_main.jpg",
+      "bytes": 5607,
+      "content_type": "image/jpeg",
+      "heisse_price": 0.95,
+      "heisse_price_date": "2026-03-10"
+    },
+    {
+      "product_id": "5c5f3c7ebea1",
+      "name": "SPAR Natur*pur Bio-Pfannengemüse",
+      "heisse_id": "2020003736285",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003736285/dt_main.jpg",
+      "bytes": 9087,
+      "content_type": "image/jpeg",
+      "heisse_price": 2.46,
+      "heisse_price_date": "2026-07-01"
+    },
+    {
+      "product_id": "4e99bf6cfb58",
+      "name": "SPAR Natur*pur Bio-Pizza Salami",
+      "heisse_id": "2020005719729",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005719729/dt_main.jpg",
+      "bytes": 11841,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.99,
+      "heisse_price_date": "2025-07-01"
+    },
+    {
+      "product_id": "faee3fcc3ab3",
+      "name": "SPAR Natur*pur Bio-Pizza Tomate-Mozzarella",
+      "heisse_id": "2020004806314",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004806314/dt_main.jpg",
+      "bytes": 12504,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.99,
+      "heisse_price_date": "2023-11-16"
+    },
+    {
+      "product_id": "25430ed4c854",
+      "name": "SPAR Natur*pur Bio-Pizzamehl",
+      "heisse_id": "2020003499593",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003499593/dt_main.jpg",
+      "bytes": 7543,
+      "content_type": "image/jpeg",
+      "heisse_price": 1.23,
+      "heisse_price_date": "2026-07-01"
+    },
+    {
+      "product_id": "6adbad570520",
+      "name": "SPAR Natur*pur Bio-Pizzasauce mit Oregano",
+      "heisse_id": "1602425",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/1602425/dt_main.jpg",
+      "bytes": 10809,
+      "content_type": "image/jpeg",
+      "heisse_price": 1.99,
+      "heisse_price_date": "2024-11-12"
+    },
+    {
+      "product_id": "049e52ea3f12",
+      "name": "SPAR Natur*pur Bio-Rinds-Schnitzel",
+      "heisse_id": "2020002803605",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020002803605/dt_main.jpg",
+      "bytes": 4194,
+      "content_type": "image/jpeg",
+      "heisse_price": 30.99,
+      "heisse_price_date": "2025-09-08"
+    },
+    {
+      "product_id": "febef23813dd",
+      "name": "SPAR Natur*pur Bio-Rinds-Schnitzel ca. 300g",
+      "heisse_id": "6067113",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/6067113/dt_main.jpg",
+      "bytes": 3817,
+      "content_type": "image/jpeg",
+      "heisse_price": 31.99,
+      "heisse_price_date": "2025-09-08"
+    },
+    {
+      "product_id": "e9eaeb02136c",
+      "name": "SPAR Natur*pur Bio-Schweins-Schnitzel",
+      "heisse_id": "6278694",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/6278694/dt_main.jpg",
+      "bytes": 6120,
+      "content_type": "image/jpeg",
+      "heisse_price": 25.99,
+      "heisse_price_date": "2022-03-24"
+    },
+    {
+      "product_id": "3fa97514198c",
+      "name": "SPAR Natur*pur Bio-Sugo Bolognese",
+      "heisse_id": "2020002911591",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020002911591/dt_main.jpg",
+      "bytes": 6922,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.49,
+      "heisse_price_date": "2024-01-16"
+    },
+    {
+      "product_id": "6ef049b97e07",
+      "name": "SPAR Natur*pur Bio-Tellerlinsen",
+      "heisse_id": "2020003623448",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003623448/dt_main.jpg",
+      "bytes": 7946,
+      "content_type": "image/jpeg",
+      "heisse_price": 2.99,
+      "heisse_price_date": "2025-09-18"
+    },
+    {
+      "product_id": "645ad1708af8",
+      "name": "SPAR Natur*pur Bio-Vollkorn Gnocchi",
+      "heisse_id": "2020004078216",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004078216/dt_main.jpg",
+      "bytes": 8905,
+      "content_type": "image/jpeg",
+      "heisse_price": 1.89,
+      "heisse_price_date": "2023-05-05"
+    },
+    {
+      "product_id": "93e4fb57e685",
+      "name": "SPAR Natur*pur Mediterrane Bio-Kartoffelpfanne",
+      "heisse_id": "2020004830180",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004830180/dt_main.jpg",
+      "bytes": 5831,
+      "content_type": "image/jpeg",
+      "heisse_price": 1.19,
+      "heisse_price_date": "2024-05-28"
+    },
+    {
+      "product_id": "2276f70b3751",
+      "name": "SPAR PREMIUM Edition Paul Ivić Veganes Bio-Kichererbsenragout",
+      "heisse_id": "2020005724037",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005724037/dt_main.jpg",
+      "bytes": 7899,
+      "content_type": "image/jpeg",
+      "heisse_price": 6.99,
+      "heisse_price_date": "2026-01-08"
+    },
+    {
+      "product_id": "3d21e52ba948",
+      "name": "SPAR Vital Wraps High Protein",
+      "heisse_id": "2020005588035",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005588035/dt_main.jpg",
+      "bytes": 8574,
+      "content_type": "image/jpeg",
+      "heisse_price": 2.49,
+      "heisse_price_date": "2026-05-13"
+    },
+    {
+      "product_id": "da7a3f7450c8",
+      "name": "SPAR enjoy ASIA Korean Beef mit Reis",
+      "heisse_id": "2020006122627",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020006122627/dt_main.jpg",
+      "bytes": 11666,
+      "content_type": "image/jpeg",
+      "heisse_price": 6.49,
+      "heisse_price_date": "2026-03-23"
+    },
+    {
+      "product_id": "0c7adf322917",
+      "name": "SPAR enjoy Ei Avocado Wrap",
+      "heisse_id": "2020006122801",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020006122801/dt_main.jpg",
+      "bytes": 7012,
+      "content_type": "image/jpeg",
+      "heisse_price": 4.29,
+      "heisse_price_date": "2026-09-03"
+    },
+    {
+      "product_id": "d3a53cd99b48",
+      "name": "SPAR enjoy Kebab-Style Wrap Made with planted.",
+      "heisse_id": "2020006215923",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020006215923/dt_main.jpg",
+      "bytes": 6834,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.29,
+      "heisse_price_date": "2026-05-25"
+    },
+    {
+      "product_id": "484ca8fbf22b",
+      "name": "SPAR enjoy Orientalischer Protein Wrap",
+      "heisse_id": "2020006354585",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020006354585/dt_main.jpg",
+      "bytes": 7752,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.49,
+      "heisse_price_date": "2026-09-07"
+    },
+    {
+      "product_id": "dd514c019e5b",
+      "name": "SPAR enjoy Pizza-Roll mit Salami & Mais",
+      "heisse_id": "2020003929229",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003929229/dt_main.jpg",
+      "bytes": 4030,
+      "content_type": "image/jpeg",
+      "heisse_price": 2.99,
+      "heisse_price_date": "2024-04-02"
+    },
+    {
+      "product_id": "195ed4dc2ac8",
+      "name": "SPAR enjoy Schinken Protein Wrap",
+      "heisse_id": "2020006354455",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020006354455/dt_main.jpg",
+      "bytes": 7780,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.49,
+      "heisse_price_date": "2026-09-07"
+    },
+    {
+      "product_id": "cff9aed6c940",
+      "name": "SPAR enjoy Thunfisch-Vollkornwrap",
+      "heisse_id": "2020000406891",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020000406891/dt_main.jpg",
+      "bytes": 7293,
+      "content_type": "image/jpeg",
+      "heisse_price": 2.99,
+      "heisse_price_date": "2026-09-17"
+    },
+    {
+      "product_id": "6f01e9ee2376",
+      "name": "SPAR enjoy by NENI Jerusalem Style Wrap",
+      "heisse_id": "2020004878045",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004878045/dt_main.jpg",
+      "bytes": 7027,
+      "content_type": "image/jpeg",
+      "heisse_price": 3.29,
+      "heisse_price_date": "2024-03-09"
+    },
+    {
+      "product_id": "74be3bd7fed9",
+      "name": "SPAR PREMIUM Edition Johanna Maier Topfen-Spätzle",
+      "heisse_id": "2020003505980",
+      "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003505980/dt_main.jpg",
+      "bytes": 7847,
+      "content_type": "image/jpeg",
+      "retried": true
+    }
+  ],
+  "unmatched": [],
+  "failed_head": [],
+  "summary": {
+    "checked": 228,
+    "matched_ok": 228,
+    "failed_head": 0,
+    "unmatched": 0
+  }
+}
