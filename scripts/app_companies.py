@@ -6,6 +6,8 @@ sys.path.insert(0, R)
 from food_connectors.company.registries import match_score
 cs = json.load(open(f"{R}/data/companies.json"))
 logos = json.load(open(f"{SRC}/analysis/logos.json")); comp = json.load(open(f"{SRC}/analysis/companies.json"))
+# explicit company → group logo (verified parent/brand identity, see raw/logos_companies_2026-10-13T13.json)
+COMPANY_LOGO = {"rewe-international-ag": "rewe-group", "mars-austria-og": "mars"}
 def num(s):
     return float(s.replace(".", "").replace(",", "."))
 for c in cs:
@@ -16,6 +18,13 @@ for c in cs:
         for k, v in logos.items():
             if v.get("file") and (match_score(v.get("name"), c["name"]) >= .5 or any(b.lower() == k for b in c["brands"]) or (c.get("legal_name") or c["name"]).lower().startswith(k.replace("-", " "))):
                 lg = "analysis/" + v["file"] if not v["file"].startswith("analysis") else v["file"]; break
+    if not lg:  # brand-alias fallback: a company's own brand has a file-backed logo (name or alias), e.g. Kasnudl GmbH → Stadtküche
+        bl = {b.lower() for b in c["brands"] if b}
+        for k, v in logos.items():
+            if v.get("file") and os.path.exists(f"{SRC}/analysis/{v['file']}") and bl & {a.lower() for a in (v.get("brands") or []) + [v.get("name") or "", k] if a}:
+                lg = "analysis/" + v["file"]; break
+    if not lg and COMPANY_LOGO.get(c["slug"]) in logos and logos[COMPANY_LOGO[c["slug"]]].get("file"):
+        lg = "analysis/" + logos[COMPANY_LOGO[c["slug"]]]["file"]
     c["logo"] = lg
     if c["name"] in ("BILLA AG",) and "retailer" not in c["role"]: c["role"] = "retailer+producer"
     for k in ("revenue", "employees", "founded"):

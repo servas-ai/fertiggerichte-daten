@@ -1,0 +1,626 @@
+[
+ {
+  "slug": "mochi",
+  "url": "https://www.mochi.at/",
+  "cands": [
+   {
+    "kind": "img",
+    "url": "https://www.mochi.at/bf_2020/mochi/wp-content/themes/mochi/images/logo_mochi_yellow.svg",
+    "file": "cand/mochi_0.svg",
+    "bytes": 151805
+   },
+   {
+    "kind": "img",
+    "url": "https://www.mochi.at/bf_2020/mochi/wp-content/themes/mochi/images/logo_mochi_black.svg",
+    "file": "cand/mochi_1.svg",
+    "bytes": 185104
+   },
+   {
+    "kind": "img",
+    "url": "https://www.mochi.at/bf_2020/mochi/wp-content/themes/mochi/images/slider/dogenhof_logo.svg",
+    "file": "cand/mochi_2.svg",
+    "bytes": 13424
+   },
+   {
+    "kind": "img",
+    "url": "https://www.mochi.at/bf_2020/mochi/wp-content/themes/mochi/images/logo_mochi.svg",
+    "file": "cand/mochi_3.svg",
+    "bytes": 184414
+   },
+   {
+    "kind": "img",
+    "url": "https://www.mochi.at/bf_2020/mochi/wp-content/themes/mochi/images/logo_kobo-white.svg",
+    "file": "cand/mochi_4.svg",
+    "bytes": 1310
+   },
+   {
+    "kind": "img",
+    "url": "https://www.mochi.at/bf_2020/mochi/wp-content/themes/mochi/images/slider/logo_cucina.svg",
+    "file": "cand/mochi_5.svg",
+    "bytes": 48885
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.mochi.at/"
+ },
+ {
+  "slug": "heiderbeck",
+  "url": "https://www.heiderbeck.de/",
+  "cands": [
+   {
+    "kind": "img",
+    "url": "https://www.heiderbeck.com/wp-content/themes/heiderbeck/images/Heiderbeck_Logo.svg",
+    "file": "cand/heiderbeck_0.svg",
+    "bytes": 3874
+   },
+   {
+    "kind": "img",
+    "url": "https://www.heiderbeck.com/wp-content/themes/heiderbeck/images/logo_facebook.svg",
+    "file": "cand/heiderbeck_1.svg",
+    "bytes": 1017
+   },
+   {
+    "kind": "img",
+    "url": "https://www.heiderbeck.com/wp-content/themes/heiderbeck/images/logo_linkedin.svg",
+    "file": "cand/heiderbeck_2.svg",
+    "bytes": 1294
+   },
+   {
+    "kind": "img",
+    "url": "https://www.heiderbeck.com/wp-content/themes/heiderbeck/images/logo_instagram.svg",
+    "file": "cand/heiderbeck_3.svg",
+    "bytes": 3538
+   },
+   {
+    "kind": "img",
+    "url": "https://www.heiderbeck.com/wp-content/themes/heiderbeck/images/logo_appstore.svg",
+    "file": "cand/heiderbeck_4.svg",
+    "bytes": 12985
+   },
+   {
+    "kind": "img",
+    "url": "https://www.heiderbeck.com/wp-content/themes/heiderbeck/images/logo_googleplay.svg",
+    "file": "cand/heiderbeck_5.svg",
+    "bytes": 13344
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.heiderbeck.com/"
+ },
+ {
+  "slug": "tops-foods",
+  "url": "https://www.topsfoods.com/",
+  "cands": [
+   {
+    "kind": "icon",
+    "url": "https://www.topsfoods.com/bundles/webcreator/Themes/tops-foods/images/favicons/apple-icon-57x57.png?v4.0.6",
+    "file": "cand/tops-foods_0.png",
+    "bytes": 3550
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.topsfoods.com/bundles/webcreator/Themes/tops-foods/images/favicons/apple-icon-60x60.png?v4.0.6",
+    "file": "cand/tops-foods_1.png",
+    "bytes": 3688
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.topsfoods.com/bundles/webcreator/Themes/tops-foods/images/favicons/apple-icon-72x72.png?v4.0.6",
+    "file": "cand/tops-foods_2.png",
+    "bytes": 4418
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.topsfoods.com/bundles/webcreator/Themes/tops-foods/images/favicons/apple-icon-76x76.png?v4.0.6",
+    "file": "cand/tops-foods_3.png",
+    "bytes": 4634
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.topsfoods.com/bundles/webcreator/Themes/tops-foods/images/favicons/apple-icon-114x114.png?v4.0.6",
+    "file": "cand/tops-foods_4.png",
+    "bytes": 7029
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.topsfoods.com/bundles/webcreator/Themes/tops-foods/images/favicons/apple-icon-120x120.png?v4.0.6",
+    "file": "cand/tops-foods_5.png",
+    "bytes": 7393
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.topsfoods.com/"
+ },
+ {
+  "slug": "greisinger",
+  "url": "https://www.greisinger.com/",
+  "cands": [
+   {
+    "kind": "img",
+    "url": "https://www.greisinger.com/wp-content/uploads/2022/01/logo_greisinger-200x200-c-default.png",
+    "file": "cand/greisinger_0.png",
+    "bytes": 4737
+   },
+   {
+    "kind": "img",
+    "url": "https://www.greisinger.com/wp-content/uploads/2022/01/logo_greisinger-200x0-c-default.png",
+    "file": "cand/greisinger_1.png",
+    "bytes": 4737
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.greisinger.com/wp-content/themes/rup/favicon/apple-icon-57x57.png",
+    "file": "cand/greisinger_2.png",
+    "bytes": 5464
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.greisinger.com/wp-content/themes/rup/favicon/apple-icon-60x60.png",
+    "file": "cand/greisinger_3.png",
+    "bytes": 5550
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.greisinger.com/wp-content/themes/rup/favicon/apple-icon-72x72.png",
+    "file": "cand/greisinger_4.png",
+    "bytes": 6626
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.greisinger.com/wp-content/themes/rup/favicon/apple-icon-76x76.png",
+    "file": "cand/greisinger_5.png",
+    "bytes": 7398
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.greisinger.com/"
+ },
+ {
+  "slug": "hamker",
+  "url": "https://www.hamker.de/",
+  "cands": [
+   {
+    "kind": "img",
+    "url": "https://www.hamker.de/_assets/c10be5dfbeeb651361b989cc8e511cff/Frontend/Images/logo.png",
+    "file": "cand/hamker_0.png",
+    "bytes": 7673
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.hamker.de/_assets/c10be5dfbeeb651361b989cc8e511cff/Frontend/Images/favicon.ico",
+    "file": "cand/hamker_1.x-icon",
+    "bytes": 2235
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.hamker.de/"
+ },
+ {
+  "slug": "bauck",
+  "url": "https://www.bauck.de/",
+  "cands": [
+   {
+    "kind": "img",
+    "url": "https://www.bauck.de/fileadmin/templates/logo.png",
+    "file": "cand/bauck_0.png",
+    "bytes": 21121
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.bauck.de/favicons/favicon-48x48.png",
+    "file": "cand/bauck_1.png",
+    "bytes": 3631
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.bauck.de/favicons/favicon.svg",
+    "file": "cand/bauck_2.svg",
+    "bytes": 28571
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.bauck.de/favicons/apple-touch-icon.png",
+    "file": "cand/bauck_3.png",
+    "bytes": 9820
+   },
+   {
+    "kind": "ref",
+    "url": "https://www.bauck.de/fileadmin/configuration/skin/logo-bauck-muehle.png",
+    "file": "cand/bauck_4.png",
+    "bytes": 21121
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.bauck.de/"
+ },
+ {
+  "slug": "ehrenwort",
+  "url": "https://www.ehrenwort.at/",
+  "cands": [
+   {
+    "kind": "og",
+    "url": "https://www.ehrenwort.at/cdn/shop/files/logo_ehrenwort_schwarz_b9609e13-f80c-469b-aeb0-b4afdb259bef.png?v=1678561683&width=480",
+    "file": "cand/ehrenwort_0.png",
+    "bytes": 42680
+   },
+   {
+    "kind": "og",
+    "url": "https://cdn.shopify.com/s/files/1/0555/8013/1667/files/logo_ehrenwort_schwarz_b9609e13-f80c-469b-aeb0-b4afdb259bef.png?height=628&pad_color=fff&v=1678561683&width=1200",
+    "file": "cand/ehrenwort_1.png",
+    "bytes": 110063
+   },
+   {
+    "kind": "img",
+    "url": "https://www.ehrenwort.at/cdn/shop/files/logo_ehrenwort_schwarz_b9609e13-f80c-469b-aeb0-b4afdb259bef.png?v=1678561683&width=404",
+    "file": "cand/ehrenwort_2.png",
+    "bytes": 35075
+   },
+   {
+    "kind": "img",
+    "url": "https://www.ehrenwort.at/cdn/shop/files/Gault-Millau-Logo_500d7665-b69c-4cc3-a2d1-dd7010af6cb4.png?v=1678562932",
+    "file": "cand/ehrenwort_3.png",
+    "bytes": 12534
+   },
+   {
+    "kind": "img",
+    "url": "https://www.ehrenwort.at/cdn/shop/files/Der-Feinschmecker-Logo_5e935c4d-9484-483e-bb9b-bfb218916324.svg?v=1678562970",
+    "file": "cand/ehrenwort_4.svg",
+    "bytes": 14637
+   },
+   {
+    "kind": "img",
+    "url": "https://www.ehrenwort.at/cdn/shop/files/Falstaff-Logo_7f09491a-d6b7-4c9a-b443-7ad5431f9bb4.png?v=1678563009",
+    "file": "cand/ehrenwort_5.png",
+    "bytes": 25772
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.ehrenwort.at/"
+ },
+ {
+  "slug": "franui",
+  "url": "https://www.franui.com/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occur",
+  "err": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)>"
+ },
+ {
+  "slug": "galana",
+  "url": "https://www.galana.be/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a HTTP Error 406: Not Acceptable",
+  "err": "HTTP Error 406: Not Acceptable"
+ },
+ {
+  "slug": "rila",
+  "url": "https://www.rila.de/",
+  "cands": [
+   {
+    "kind": "og",
+    "url": "https://rila.de/media/92/55/21/1686721855/Logo-Rila-Genussentdecker.png?ts=1686740742",
+    "file": "cand/rila_0.png",
+    "bytes": 45414
+   },
+   {
+    "kind": "img",
+    "url": "https://rila.de/bundles/rilatheme/storefront/img/logo.svg?1790331437",
+    "file": "cand/rila_1.svg",
+    "bytes": 64165
+   },
+   {
+    "kind": "img",
+    "url": "https://rila.de/media/5f/7a/6e/1787058150/Teaser_Cholula_Desktop.jpg?ts=1787058627",
+    "file": "cand/rila_2.jpeg",
+    "bytes": 2086943
+   },
+   {
+    "kind": "img",
+    "url": "https://rila.de/media/bc/c9/ba/1787058203/Teaser_Cholula_Mobil.jpg?ts=1787058623",
+    "file": "cand/rila_3.jpeg",
+    "bytes": 711989
+   },
+   {
+    "kind": "img",
+    "url": "https://rila.de/bundles/rilatheme/storefront/img/organic-logo.svg?1790331437",
+    "file": "cand/rila_4.svg",
+    "bytes": 2444
+   },
+   {
+    "kind": "img",
+    "url": "https://rila.de/bundles/rilatheme/storefront/img/footer_ssl_logo.png?1790331437",
+    "file": "cand/rila_5.png",
+    "bytes": 245375
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://rila.de/"
+ },
+ {
+  "slug": "ruegenwalder",
+  "url": "https://www.ruegenwalder.de/",
+  "cands": [
+   {
+    "kind": "og",
+    "url": "https://www.ruegenwalder.de/dist/assets/images/layout/sharing-image.png",
+    "file": "cand/ruegenwalder_0.png",
+    "bytes": 16897
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.ruegenwalder.de/dist/assets/images/favicon/favicon.ico",
+    "file": "cand/ruegenwalder_1.x-icon",
+    "bytes": 10990
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.ruegenwalder.de/dist/assets/images/favicon/favicon-32x32.png",
+    "file": "cand/ruegenwalder_2.png",
+    "bytes": 1715
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.ruegenwalder.de/dist/assets/images/favicon/favicon-16x16.png",
+    "file": "cand/ruegenwalder_3.png",
+    "bytes": 965
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.ruegenwalder.de/dist/assets/images/favicon/apple-touch-icon.png",
+    "file": "cand/ruegenwalder_4.png",
+    "bytes": 34350
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.ruegenwalder.de/de"
+ },
+ {
+  "slug": "hiel",
+  "url": "https://www.hiel.at/",
+  "cands": [
+   {
+    "kind": "og",
+    "url": "https://www.hiel.at/web/image/11300-1044edc8/900%20ppi%20Logo%20Gru%CC%88n%20mit%20Rand%20%236ba20a.png",
+    "file": "cand/hiel_0.png",
+    "bytes": 662081
+   },
+   {
+    "kind": "img",
+    "url": "https://www.hiel.at/web/image/website/1/logo/Hiel%20und%20Co?unique=8790741",
+    "file": "cand/hiel_1.png",
+    "bytes": 4896
+   },
+   {
+    "kind": "img",
+    "url": "https://www.hiel.at/web/image/1345-d2e4898d/Logo%20ohne%20Rand%20%28gru%CC%88n%20%236ba20a%29.webp",
+    "file": "cand/hiel_2.webp",
+    "bytes": 75387
+   },
+   {
+    "kind": "img",
+    "url": "https://www.hiel.at/web/static/img/odoo_logo_tiny.png",
+    "file": "cand/hiel_3.png",
+    "bytes": 627
+   },
+   {
+    "kind": "ref",
+    "url": "https://www.hiel.at/web/image/1342-2c564c65/Logo%20ohne%20Rand%20%28gru%CC%88n%20%236ba20a%29.png",
+    "file": "cand/hiel_4.png",
+    "bytes": 186247
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.hiel.at/"
+ },
+ {
+  "slug": "whollees",
+  "url": "https://www.whollees.com/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate ",
+  "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+ },
+ {
+  "slug": "winkelbauer",
+  "url": "https://www.winkelbauer.at/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate ",
+  "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+ },
+ {
+  "slug": "zum-dorfkrug",
+  "url": "https://www.zumdorfkrug.de/",
+  "cands": [
+   {
+    "kind": "og",
+    "url": "https://elitedomains.de/static/images/brand/open-graph.jpg",
+    "file": "cand/zum-dorfkrug_0.jpeg",
+    "bytes": 33978
+   },
+   {
+    "kind": "icon",
+    "url": "https://zumdorfkrug.de/assets/favicon/sale/apple-touch-icon.png",
+    "file": "cand/zum-dorfkrug_1.png",
+    "bytes": 7014
+   },
+   {
+    "kind": "icon",
+    "url": "https://zumdorfkrug.de/assets/favicon/sale/favicon-32x32.png",
+    "file": "cand/zum-dorfkrug_2.png",
+    "bytes": 1394
+   },
+   {
+    "kind": "icon",
+    "url": "https://zumdorfkrug.de/assets/favicon/sale/favicon-16x16.png",
+    "file": "cand/zum-dorfkrug_3.png",
+    "bytes": 907
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://zumdorfkrug.de/de"
+ },
+ {
+  "slug": "deli-gourmet",
+  "url": "https://www.deligourmet.at/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [Errno -2] Name or service not known>",
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "slug": "alimentastic",
+  "url": "https://www.alimentastic.com/",
+  "cands": [
+   {
+    "kind": "og",
+    "url": "https://framerusercontent.com/assets/czFB8kgQwMxPBsOnXC5KcjBpo.png",
+    "file": "cand/alimentastic_0.png",
+    "bytes": 9656
+   },
+   {
+    "kind": "icon",
+    "url": "https://framerusercontent.com/images/SIR17UqA51bwEFTj3ayKWrB6Rl0.png",
+    "file": "cand/alimentastic_1.png",
+    "bytes": 18080
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://alimentastic.com/"
+ },
+ {
+  "slug": "glatz",
+  "url": "https://www.glatz.at/",
+  "cands": [
+   {
+    "kind": "icon",
+    "url": "https://www.glatz.at/files/cto_layout/img/favicon/apple-touch-icon.png",
+    "file": "cand/glatz_0.png",
+    "bytes": 3029
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.glatz.at/files/cto_layout/img/favicon/favicon-32x32.png",
+    "file": "cand/glatz_1.png",
+    "bytes": 1128
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.glatz.at/files/cto_layout/img/favicon/favicon-16x16.png",
+    "file": "cand/glatz_2.png",
+    "bytes": 797
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.glatz.at/"
+ },
+ {
+  "slug": "stangl",
+  "url": "https://www.stangl-nudeln.at/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [Errno -2] Name or service not known>",
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "slug": "ablinger",
+  "url": "https://www.ablinger.at/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [Errno -2] Name or service not known>",
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "slug": "cecchin",
+  "url": "https://www.pastacecchin.it/",
+  "cands": [
+   {
+    "kind": "og",
+    "url": "http://static1.squarespace.com/static/623868eb996f462e58173d32/t/688b72769fbc474bff2a48c2/1753969270328/ESEC++LOGO+CECCHIN+2025-009-OK-OK.png?format=1500w",
+    "file": "cand/cecchin_0.png",
+    "bytes": 137550
+   },
+   {
+    "kind": "img",
+    "url": "https://images.squarespace-cdn.com/content/v1/623868eb996f462e58173d32/708a9592-d7b4-4958-9781-c0d40d6edc8b/ESEC++LOGO+CECCHIN+2025-009-OK-OK.png?format=1500w",
+    "file": "cand/cecchin_1.png",
+    "bytes": 137550
+   },
+   {
+    "kind": "icon",
+    "url": "https://images.squarespace-cdn.com/content/v1/623868eb996f462e58173d32/cdaff5cb-3d95-442a-ad9c-b6497c091063/favicon.ico?format=100w",
+    "file": "cand/cecchin_2.png",
+    "bytes": 2889
+   },
+   {
+    "kind": "ref",
+    "url": "https://images.squarespace-cdn.com/content/v1/623868eb996f462e58173d32/708a9592-d7b4-4958-9781-c0d40d6edc8b/ESEC++LOGO+CECCHIN+2025-009-OK-OK.png",
+    "file": "cand/cecchin_3.png",
+    "bytes": 137550
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.pastacecchin.it/"
+ },
+ {
+  "slug": "rewe-int",
+  "url": "https://www.rewe-group.at/",
+  "cands": [
+   {
+    "kind": "og",
+    "url": "https://rewe-group.at/wp-content/uploads/2026/06/rewe-group-zentrale-header-1024x259.webp",
+    "file": "cand/rewe-int_0.webp",
+    "bytes": 38428
+   },
+   {
+    "kind": "img",
+    "url": "https://rewe-group.at/wp-content/uploads/2026/09/REWE-GROUP_Logo_RGB_White.png",
+    "file": "cand/rewe-int_1.png",
+    "bytes": 19806
+   },
+   {
+    "kind": "img",
+    "url": "https://rewe-group.at/wp-content/uploads/2026/09/98_2609_Logo_BILLA.png",
+    "file": "cand/rewe-int_2.png",
+    "bytes": 24749
+   },
+   {
+    "kind": "img",
+    "url": "https://rewe-group.at/wp-content/uploads/2026/09/98_2609_Logo_BIPA.png",
+    "file": "cand/rewe-int_3.png",
+    "bytes": 37947
+   },
+   {
+    "kind": "img",
+    "url": "https://rewe-group.at/wp-content/uploads/2026/09/98_2609_Logo_PENNY.jpg",
+    "file": "cand/rewe-int_4.jpeg",
+    "bytes": 153409
+   },
+   {
+    "kind": "img",
+    "url": "https://rewe-group.at/wp-content/uploads/2026/09/98_2609_Logo_iki.png",
+    "file": "cand/rewe-int_5.png",
+    "bytes": 149439
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://rewe-group.at/de/"
+ },
+ {
+  "slug": "biogourmet",
+  "url": "https://www.biogourmet.at/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate ",
+  "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+ },
+ {
+  "slug": "ager",
+  "url": "https://www.ager.at/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [Errno -2] Name or service not known>",
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ }
+]

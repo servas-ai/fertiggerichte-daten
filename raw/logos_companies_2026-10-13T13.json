@@ -1,0 +1,33 @@
+{
+ "run": "2026-10-13T12:44 Daten-Squad (Firmen-/Herstellerlogos)",
+ "added": {
+  "alimentastic": "Vision gate 2026-10-13T12:44 (Daten-Squad, Firmenlogos): visuell geprüft (korrekte Firma/Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · offizielles og:image alimentastic.com (Alimentastic GmbH, 'House of Brands'; Feelfood-Vertrieb) – Firmenlogo, nicht Feelfood-Markenlogo",
+  "bauck": "Vision gate 2026-10-13T12:44 (Daten-Squad, Firmenlogos): visuell geprüft (korrekte Firma/Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · offizielles Logo bauck.de (Bauck GmbH, 'Bauck Mühle seit 1969')",
+  "ehrenwort": "Vision gate 2026-10-13T12:44 (Daten-Squad, Firmenlogos): visuell geprüft (korrekte Firma/Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · offizielles og:image ehrenwort.at (Ehrenwort GmbH, Bio-Gewürze; Website laut companies.csv)",
+  "hamker": "Vision gate 2026-10-13T12:44 (Daten-Squad, Firmenlogos): visuell geprüft (korrekte Firma/Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · offizielles Header-Logo hamker.de (Impressum: Hamker Vertriebsgesellschaft mbH) – Firmenlogo, nicht Marinus-Markenlogo",
+  "heiderbeck": "Vision gate 2026-10-13T12:44 (Daten-Squad, Firmenlogos): visuell geprüft (korrekte Firma/Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · offizielles Header-Logo heiderbeck.de (Impressum: Heiderbeck GmbH) – Firmenlogo, nicht Casa-di-Pietro-Markenlogo",
+  "hiel": "Vision gate 2026-10-13T12:44 (Daten-Squad, Firmenlogos): visuell geprüft (korrekte Firma/Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · offizielles og:image hiel.at (Hiel & Co GmbH / Peter Hiel, vegetarische Bio-Genussmanufaktur seit 1988)",
+  "mochi": "Vision gate 2026-10-13T12:44 (Daten-Squad, Firmenlogos): visuell geprüft (korrekte Firma/Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · offizielles Wortmarken-Logo mochi.at (Mochi Wien; Produkte 'Mochi Production GmbH, 1020 Wien' bei Gurkerl)",
+  "rila": "Vision gate 2026-10-13T12:44 (Daten-Squad, Firmenlogos): visuell geprüft (korrekte Firma/Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · offizielles Header-Logo rila.de (Impressum: RILA Feinkost-Importe GmbH & Co. KG) – Firmenlogo, nicht Jürgen-Langbein-Markenlogo",
+  "tops-foods": "Vision gate 2026-10-13T12:44 (Daten-Squad, Firmenlogos): visuell geprüft (korrekte Firma/Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · offizielles Site-Icon topsfoods.com (TOPS FOODS NV, Olen BE, VAT BE0451.053.4) – Firmenlogo, nicht Pure-Markenlogo",
+  "rewe-group": "Vision gate 2026-10-13T12:44 (Daten-Squad, Firmenlogos): visuell geprüft (korrekte Firma/Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · Wikimedia Commons (Public domain) File:REWE GROUP Logo 10-2026–.svg – Konzernlogo für REWE International AG",
+  "mars": "Vision gate 2026-10-13T12:44 (Daten-Squad, Firmenlogos): visuell geprüft (korrekte Firma/Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · Wikimedia Commons (Public domain) File:Mars Incorporated 2019 logo.svg – Konzernlogo für Mars Austria OG (nicht Ben's-Original-Markenlogo)"
+ },
+ "filled_fileless": {
+  "cecchin": "Vision gate 2026-10-13T12:44 (Daten-Squad, Firmenlogos): visuell geprüft (korrekte Firma/Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · offizielles og:image pastacecchin.it (Laboratorio Alimentare Cecchin Andrea e Carlo srl, Pastafresca)",
+  "greisinger": "Vision gate 2026-10-13T12:44 (Daten-Squad, Firmenlogos): visuell geprüft (korrekte Firma/Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · offizielles Header-Logo greisinger.com (Impressum: Greisinger GmbH – Fleisch-, Wurst- und Selchwaren)"
+ },
+ "app_companies_matcher": "scripts/app_companies.py: brand-alias fallback (company brand == any file-backed logo name/alias) + explicit REWE International→REWE Group, Mars Austria→Mars",
+ "rejected": {
+  "Rügenwalder Mühle": "ruegenwalder.de only exposes the windmill icon without wordmark (shape-only, same policy as Findus); no Commons hit",
+  "Glatz GmbH (Njami)": "glatz.at shows only a red 'G' favicon; entity link to Njami unverified",
+  "REWE International (rewe-group.at)": "page assets are BILLA/BIPA/PENNY/IKI chain logos + building photo, no REWE International logo → Commons REWE GROUP 10-2026 logo used",
+  "Zum Dorfkrug": "zumdorfkrug.de is a domain-for-sale page (EliteDomains)",
+  "Franuí": "franui.com SSL EOF",
+  "Galana": "galana.be HTTP 406",
+  "Whollees / Winkelbauer / BioGourmet": "TLS hostname mismatch (not bypassed)",
+  "deli gourmet / Stangl / Ablinger / Ager": "guessed domains NXDOMAIN (no verified official site)",
+  "Staudinger / Amlacher": "unrelated redirect / parking page (T12)"
+ },
+ "generated": "2026-10-13T12:50:46+00:00"
+}

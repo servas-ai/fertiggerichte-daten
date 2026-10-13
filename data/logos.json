@@ -966,8 +966,8 @@
   "slug": "greisinger",
   "name": "Greisinger",
   "category": "Produzent/Werk",
-  "file": null,
-  "source_url": null,
+  "file": "logos/greisinger.png",
+  "source_url": "https://www.greisinger.com/wp-content/uploads/2022/01/logo_greisinger-200x200-c-default.png",
   "brands": [
    "Greisinger"
   ]
@@ -976,10 +976,11 @@
   "slug": "cecchin",
   "name": "Cecchin",
   "category": "Markenhersteller",
-  "file": null,
-  "source_url": null,
+  "file": "logos/cecchin.png",
+  "source_url": "http://static1.squarespace.com/static/623868eb996f462e58173d32/t/688b72769fbc474bff2a48c2/1753969270328/ESEC++LOGO+CECCHIN+2025-009-OK-OK.png?format=1500w",
   "brands": [
-   "Cecchin"
+   "Cecchin",
+   "Fratelli Cecchin"
   ]
  },
  {
@@ -2206,5 +2207,104 @@
   "brands": [
    "Galbani"
   ]
+ },
+ {
+  "slug": "alimentastic",
+  "name": "Alimentastic",
+  "category": "Markenhersteller",
+  "file": "logos/alimentastic.png",
+  "source_url": "https://framerusercontent.com/assets/czFB8kgQwMxPBsOnXC5KcjBpo.png",
+  "brands": []
+ },
+ {
+  "slug": "bauck",
+  "name": "Bauck Mühle",
+  "category": "Bio",
+  "file": "logos/bauck.png",
+  "source_url": "https://www.bauck.de/favicons/favicon.svg",
+  "brands": [
+   "Bauck Mühle",
+   "Bauck",
+   "Bauckhof"
+  ]
+ },
+ {
+  "slug": "ehrenwort",
+  "name": "ehrenwort",
+  "category": "Bio",
+  "file": "logos/ehrenwort.png",
+  "source_url": "https://cdn.shopify.com/s/files/1/0555/8013/1667/files/logo_ehrenwort_schwarz_b9609e13-f80c-469b-aeb0-b4afdb259bef.png?height=628&pad_color=fff&v=1678561683&width=1200",
+  "brands": [
+   "ehrenwort",
+   "Ehrenwort"
+  ]
+ },
+ {
+  "slug": "hamker",
+  "name": "Hamker",
+  "category": "Markenhersteller",
+  "file": "logos/hamker.png",
+  "source_url": "https://www.hamker.de/_assets/c10be5dfbeeb651361b989cc8e511cff/Frontend/Images/logo.png",
+  "brands": []
+ },
+ {
+  "slug": "heiderbeck",
+  "name": "Heiderbeck",
+  "category": "Markenhersteller",
+  "file": "logos/heiderbeck.png",
+  "source_url": "https://www.heiderbeck.com/wp-content/themes/heiderbeck/images/Heiderbeck_Logo.svg",
+  "brands": []
+ },
+ {
+  "slug": "hiel",
+  "name": "Hiel",
+  "category": "Bio",
+  "file": "logos/hiel.png",
+  "source_url": "https://www.hiel.at/web/image/11300-1044edc8/900%20ppi%20Logo%20Gru%CC%88n%20mit%20Rand%20%236ba20a.png",
+  "brands": [
+   "Hiel"
+  ]
+ },
+ {
+  "slug": "mochi",
+  "name": "Mochi",
+  "category": "Markenhersteller",
+  "file": "logos/mochi.png",
+  "source_url": "https://www.mochi.at/bf_2020/mochi/wp-content/themes/mochi/images/logo_mochi_black.svg",
+  "brands": [
+   "Mochi"
+  ]
+ },
+ {
+  "slug": "rila",
+  "name": "Rila",
+  "category": "Markenhersteller",
+  "file": "logos/rila.png",
+  "source_url": "https://rila.de/bundles/rilatheme/storefront/img/logo.svg?1790331437",
+  "brands": []
+ },
+ {
+  "slug": "tops-foods",
+  "name": "Tops Foods",
+  "category": "Markenhersteller",
+  "file": "logos/tops-foods.png",
+  "source_url": "https://www.topsfoods.com/bundles/webcreator/Themes/tops-foods/images/favicons/apple-icon-120x120.png?v4.0.6",
+  "brands": []
+ },
+ {
+  "slug": "rewe-group",
+  "name": "REWE Group",
+  "category": "Handelskette",
+  "file": "logos/rewe-group.png",
+  "source_url": "https://commons.wikimedia.org/wiki/File%3AREWE_GROUP_Logo_10-2026%E2%80%93.svg",
+  "brands": []
+ },
+ {
+  "slug": "mars",
+  "name": "Mars",
+  "category": "Markenhersteller",
+  "file": "logos/mars.png",
+  "source_url": "https://commons.wikimedia.org/wiki/File%3AMars_Incorporated_2019_logo.svg",
+  "brands": []
  }
 ]
