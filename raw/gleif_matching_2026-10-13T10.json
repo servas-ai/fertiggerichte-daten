@@ -1,0 +1,337 @@
+{
+ "run": "2026-10-13T10:32Z Daten-Squad",
+ "method": "food-connectors company(): GLEIF exact legalName + fulltext over spelling variants (original / ASCII / ö→oe / legal-form-stripped); accept only token-Jaccard ≥0.85 on legal-form-agnostic diacritic-folded names, same legal-form family, legal-address country = hint",
+ "companies_total": 133,
+ "with_lei_before": 25,
+ "with_lei_after": 50,
+ "fn_after": 27,
+ "new_lei": [
+  {
+   "name": "BILLA AG",
+   "legal_name": "Billa Aktiengesellschaft",
+   "lei": "5299003P9WXG9T2P5Y25",
+   "fn": "FN 118556y",
+   "country": "AT",
+   "entity_status": "ACTIVE",
+   "parent_ultimate": null,
+   "gleif_match_score": 1.0,
+   "fetched_at": "2026-10-13T10:54:30Z",
+   "source": "https://api.gleif.org/api/v1/lei-records/5299003P9WXG9T2P5Y25"
+  },
+  {
+   "name": "Nestlé Österreich GmbH",
+   "legal_name": "Nestle Österreich GmbH",
+   "lei": "549300GUV737JK7Y5C77",
+   "fn": "FN 105870t",
+   "country": "AT",
+   "entity_status": "ACTIVE",
+   "parent_ultimate": null,
+   "gleif_match_score": 1.0,
+   "fetched_at": "2026-10-13T10:57:12Z",
+   "source": "https://api.gleif.org/api/v1/lei-records/549300GUV737JK7Y5C77"
+  },
+  {
+   "name": "FELIX Austria GmbH",
+   "legal_name": "FELIX AUSTRIA Gesellschaft m.b.H.",
+   "lei": "549300VS403KYQOOUC10",
+   "fn": "FN 110213d",
+   "country": "AT",
+   "entity_status": "ACTIVE",
+   "parent_ultimate": "ORKLA ASA",
+   "gleif_match_score": 1.0,
+   "fetched_at": "2026-10-13T10:55:32Z",
+   "source": "https://api.gleif.org/api/v1/lei-records/549300VS403KYQOOUC10"
+  },
+  {
+   "name": "dm-drogerie markt GmbH + Co. KG",
+   "legal_name": "dm-drogerie markt GmbH + Co. KG",
+   "lei": "391200BJDTMV65NJ7G34",
+   "fn": null,
+   "country": "DE",
+   "entity_status": "ACTIVE",
+   "parent_ultimate": null,
+   "gleif_match_score": 1.0,
+   "fetched_at": "2026-10-13T10:57:41Z",
+   "source": "https://api.gleif.org/api/v1/lei-records/391200BJDTMV65NJ7G34"
+  },
+  {
+   "name": "Berglandmilch eGen",
+   "legal_name": "Berglandmilch eGen",
+   "lei": "529900IX3JFWBU805S14",
+   "fn": "FN 116533y",
+   "country": "AT",
+   "entity_status": "ACTIVE",
+   "parent_ultimate": null,
+   "gleif_match_score": 1.0,
+   "fetched_at": "2026-10-13T11:01:15Z",
+   "source": "https://api.gleif.org/api/v1/lei-records/529900IX3JFWBU805S14"
+  },
+  {
+   "name": "Molkerei Alois Müller GmbH & Co. KG",
+   "legal_name": "Molkerei Alois Müller GmbH & Co. KG",
+   "lei": "529900ASH0JL6PAY8526",
+   "fn": null,
+   "country": "DE",
+   "entity_status": "ACTIVE",
+   "parent_ultimate": "Unternehmensgruppe Theo Müller S.e.c.s.",
+   "gleif_match_score": 1.0,
+   "fetched_at": "2026-10-13T11:01:12Z",
+   "source": "https://api.gleif.org/api/v1/lei-records/529900ASH0JL6PAY8526"
+  },
+  {
+   "name": "NÖM AG",
+   "legal_name": "NÖM AG",
+   "lei": "529900JOHLZA5944OY29",
+   "fn": "FN 114782y",
+   "country": "AT",
+   "entity_status": "ACTIVE",
+   "parent_ultimate": null,
+   "gleif_match_score": 1.0,
+   "fetched_at": "2026-10-13T11:01:41Z",
+   "source": "https://api.gleif.org/api/v1/lei-records/529900JOHLZA5944OY29"
+  },
+  {
+   "name": "Radatz - Feine Wiener Fleischwaren GmbH",
+   "legal_name": "Radatz - Feine Wiener Fleischwaren Gesellschaft m.b.H.",
+   "lei": "529900ZC59O869RH9I95",
+   "fn": "FN 109045k",
+   "country": "AT",
+   "entity_status": "ACTIVE",
+   "parent_ultimate": null,
+   "gleif_match_score": 1.0,
+   "fetched_at": "2026-10-13T10:56:47Z",
+   "source": "https://api.gleif.org/api/v1/lei-records/529900ZC59O869RH9I95"
+  },
+  {
+   "name": "DR. OETKER GMBH",
+   "legal_name": "Dr. Oetker GmbH",
+   "lei": "5299002J58F8I9465C12",
+   "fn": "FN 115931m",
+   "country": "AT",
+   "entity_status": "ACTIVE",
+   "parent_ultimate": null,
+   "gleif_match_score": 1.0,
+   "fetched_at": "2026-10-13T11:01:59Z",
+   "source": "https://api.gleif.org/api/v1/lei-records/5299002J58F8I9465C12"
+  },
+  {
+   "name": "Danone Österreich GmbH",
+   "legal_name": "DANONE ÖSTERREICH GMBH",
+   "lei": "213800KX27RXC7IQBF65",
+   "fn": "FN 61045y",
+   "country": "AT",
+   "entity_status": "ACTIVE",
+   "parent_ultimate": null,
+   "gleif_match_score": 1.0,
+   "fetched_at": "2026-10-13T11:02:06Z",
+   "source": "https://api.gleif.org/api/v1/lei-records/213800KX27RXC7IQBF65"
+  },
+  {
+   "name": "Kreyenhop & Kluge GmbH & Co. KG",
+   "legal_name": "Kreyenhop & Kluge GmbH & Co.KG",
+   "lei": "529900ZH3GAR1JU6HQ34",
+   "fn": null,
+   "country": "DE",
+   "entity_status": "ACTIVE",
+   "parent_ultimate": null,
+   "gleif_match_score": 1.0,
+   "fetched_at": "2026-10-13T10:59:30Z",
+   "source": "https://api.gleif.org/api/v1/lei-records/529900ZH3GAR1JU6HQ34"
+  },
+  {
+   "name": "Alnatura Produktions- und Handels GmbH",
+   "legal_name": "AlnaturA Produktions- und Handels GmbH",
+   "lei": "96760063YASRHVRSR697",
+   "fn": null,
+   "country": "DE",
+   "entity_status": "ACTIVE",
+   "parent_ultimate": null,
+   "gleif_match_score": 1.0,
+   "fetched_at": "2026-10-13T11:00:07Z",
+   "source": "https://api.gleif.org/api/v1/lei-records/96760063YASRHVRSR697"
+  },
+  {
+   "name": "Marks and Spencer Services",
+   "legal_name": "MARKS AND SPENCER SERVICES S.R.O.",
+   "lei": "213800T85Z9RNQFF5W93",
+   "fn": null,
+   "country": "CZ",
+   "entity_status": "ACTIVE",
+   "parent_ultimate": "MARKS AND SPENCER P.L.C.",
+   "gleif_match_score": 1.0,
+   "fetched_at": "2026-10-13T10:59:18Z",
+   "source": "https://api.gleif.org/api/v1/lei-records/213800T85Z9RNQFF5W93"
+  },
+  {
+   "name": "Zott",
+   "legal_name": "Zott SE & Co. KG",
+   "lei": "529900OEMWTCZKJMYE61",
+   "fn": null,
+   "country": "DE",
+   "entity_status": "ACTIVE",
+   "parent_ultimate": null,
+   "gleif_match_score": 1.0,
+   "fetched_at": "2026-10-13T11:01:45Z",
+   "source": "https://api.gleif.org/api/v1/lei-records/529900OEMWTCZKJMYE61"
+  },
+  {
+   "name": "Bertagni 1882 S.p.A.",
+   "legal_name": "BERTAGNI 1882 S.P.A.",
+   "lei": "815600B5C62307B12E60",
+   "fn": null,
+   "country": "IT",
+   "entity_status": "ACTIVE",
+   "parent_ultimate": null,
+   "gleif_match_score": 1.0,
+   "fetched_at": "2026-10-13T11:00:10Z",
+   "source": "https://api.gleif.org/api/v1/lei-records/815600B5C62307B12E60"
+  },
+  {
+   "name": "Tops Foods NV",
+   "legal_name": "TOPS FOODS",
+   "lei": "549300SQTH5OQZJD6B75",
+   "fn": null,
+   "country": "BE",
+   "entity_status": "ACTIVE",
+   "parent_ultimate": null,
+   "gleif_match_score": 1.0,
+   "fetched_at": "2026-10-13T10:56:37Z",
+   "source": "https://api.gleif.org/api/v1/lei-records/549300SQTH5OQZJD6B75"
+  },
+  {
+   "name": "Dr. Schär AG",
+   "legal_name": "DR. SCHAER SPA",
+   "lei": "8156007EFCC74E27AB09",
+   "fn": null,
+   "country": "IT",
+   "entity_status": "ACTIVE",
+   "parent_ultimate": null,
+   "gleif_match_score": 1.0,
+   "fetched_at": "2026-10-13T10:55:19Z",
+   "source": "https://api.gleif.org/api/v1/lei-records/8156007EFCC74E27AB09"
+  },
+  {
+   "name": "Tress Lebensmittel GmbH & Co. KG",
+   "legal_name": "Tress Lebensmittel GmbH & Co. KG",
+   "lei": "391200MC0M0SGKVN4318",
+   "fn": null,
+   "country": "DE",
+   "entity_status": "ACTIVE",
+   "parent_ultimate": null,
+   "gleif_match_score": 1.0,
+   "fetched_at": "2026-10-13T10:57:45Z",
+   "source": "https://api.gleif.org/api/v1/lei-records/391200MC0M0SGKVN4318"
+  },
+  {
+   "name": "Andros Deutschland GmbH",
+   "legal_name": "Andros Deutschland GmbH",
+   "lei": "529900B04CNPB6E7MO40",
+   "fn": null,
+   "country": "DE",
+   "entity_status": "ACTIVE",
+   "parent_ultimate": null,
+   "gleif_match_score": 1.0,
+   "fetched_at": "2026-10-13T10:59:43Z",
+   "source": "https://api.gleif.org/api/v1/lei-records/529900B04CNPB6E7MO40"
+  },
+  {
+   "name": "Danone Deutschland GmbH",
+   "legal_name": "DANONE DEUTSCHLAND GMBH",
+   "lei": "2138001ZZP25K3WV7T37",
+   "fn": null,
+   "country": "DE",
+   "entity_status": "ACTIVE",
+   "parent_ultimate": "DANONE",
+   "gleif_match_score": 1.0,
+   "fetched_at": "2026-10-13T11:02:22Z",
+   "source": "https://api.gleif.org/api/v1/lei-records/2138001ZZP25K3WV7T37"
+  },
+  {
+   "name": "Franz Ablinger & Co Fleischhauereibetrieb GmbH",
+   "legal_name": "Franz Ablinger & Co. Fleischhauereibetrieb Gesellschaft m.b.H.",
+   "lei": "529900I9B0UN7I6KWB59",
+   "fn": "FN 67371a",
+   "country": "AT",
+   "entity_status": "ACTIVE",
+   "parent_ultimate": null,
+   "gleif_match_score": 1.0,
+   "fetched_at": "2026-10-13T10:58:09Z",
+   "source": "https://api.gleif.org/api/v1/lei-records/529900I9B0UN7I6KWB59"
+  },
+  {
+   "name": "GREENFORCE FUTURE FOOD AG",
+   "legal_name": "GREENFORCE FUTURE FOOD AG",
+   "lei": "894500XJAOZKM5ACGD13",
+   "fn": null,
+   "country": "DE",
+   "entity_status": "ACTIVE",
+   "parent_ultimate": null,
+   "gleif_match_score": 1.0,
+   "fetched_at": "2026-10-13T11:01:05Z",
+   "source": "https://api.gleif.org/api/v1/lei-records/894500XJAOZKM5ACGD13"
+  },
+  {
+   "name": "Riso Scotti S.p.A.",
+   "legal_name": "RISO SCOTTI S.P.A.",
+   "lei": "815600FD694EBCF44005",
+   "fn": null,
+   "country": "IT",
+   "entity_status": "ACTIVE",
+   "parent_ultimate": null,
+   "gleif_match_score": 1.0,
+   "fetched_at": "2026-10-13T11:00:54Z",
+   "source": "https://api.gleif.org/api/v1/lei-records/815600FD694EBCF44005"
+  },
+  {
+   "name": "Rügenwalder Mühle Carl Müller GmbH & Co. KG",
+   "legal_name": "Rügenwalder Mühle Carl Müller GmbH & Co. KG",
+   "lei": "5299003YOGW9AD7K4H05",
+   "fn": null,
+   "country": "DE",
+   "entity_status": "ACTIVE",
+   "parent_ultimate": null,
+   "gleif_match_score": 1.0,
+   "fetched_at": "2026-10-13T10:58:44Z",
+   "source": "https://api.gleif.org/api/v1/lei-records/5299003YOGW9AD7K4H05"
+  },
+  {
+   "name": "followfood GmbH",
+   "legal_name": "followfood GmbH",
+   "lei": "529900BHG8J8LULWXG88",
+   "fn": null,
+   "country": "DE",
+   "entity_status": "ACTIVE",
+   "parent_ultimate": null,
+   "gleif_match_score": 1.0,
+   "fetched_at": "2026-10-13T10:57:51Z",
+   "source": "https://api.gleif.org/api/v1/lei-records/529900BHG8J8LULWXG88"
+  }
+ ],
+ "rejected_candidates": [
+  {
+   "name": "Lidl Österreich GmbH",
+   "candidate": "Lidl Österreich GmbH (529900S48LZ8W7TFT444)",
+   "reason": "legal address Neckarsulm DE, HRB 105671 (RA000351) — German entity, not the Austrian retailer"
+  },
+  {
+   "name": "dm drogerie markt GmbH",
+   "candidate": "dm drogerie markt Verwaltungsgesellschaft m.b.H. (39120058SKTJYFI6QZ66)",
+   "reason": "different entity (Verwaltungsgesellschaft), score 0.75 < 0.85"
+  },
+  {
+   "name": "Ehrmann GmbH",
+   "candidate": "Ehrmann SE (529900I908Z6QAW3K065)",
+   "reason": "legal-form family mismatch GmbH vs SE"
+  },
+  {
+   "name": "Unimarkt GmbH",
+   "candidate": "UNIMARKT Handelsgesellschaft m.b.H. & Co. KG (529900X5GBP4KNVUYQ35)",
+   "reason": "different legal name/form, score 0.33"
+  },
+  {
+   "name": "Alnatura GmbH",
+   "candidate": "AlnaturA Produktions- und Handels GmbH",
+   "reason": "name differs (score 0.33); rows labelled exactly “Alnatura Produktions- und Handels GmbH” are matched separately"
+  }
+ ]
+}

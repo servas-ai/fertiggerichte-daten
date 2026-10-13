@@ -1,17 +1,17 @@
 [
  {
-  "slug": "billa-ag",
+  "slug": "billa-aktiengesellschaft",
   "name": "BILLA AG",
   "role": "producer",
-  "legal_name": null,
-  "lei": null,
-  "register_id": null,
-  "register_authority": null,
-  "fn": null,
-  "legal_form_code": null,
+  "legal_name": "Billa Aktiengesellschaft",
+  "lei": "5299003P9WXG9T2P5Y25",
+  "register_id": "118556y",
+  "register_authority": "RA000017",
+  "fn": "FN 118556y",
+  "legal_form_code": "EQOV",
   "country": "AT",
-  "address": null,
-  "entity_status": null,
+  "address": "Industriezentrum NÖ-Süd, Str 3, 2355 Wiener Neudorf, AT",
+  "entity_status": "ACTIVE",
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
@@ -39,15 +39,17 @@
   "chains": [
    "Billa"
   ],
-  "product_count": 210,
-  "median_price_eur": 3.79,
+  "product_count": 226,
+  "median_price_eur": 3.69,
   "median_eur_per_10g_protein": 6.6,
   "nace": null,
-  "sources": [],
-  "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:30:02Z",
-  "chain_product_count": 539,
-  "registry_status": "not_found_in_gleif"
+  "sources": [
+   "https://api.gleif.org/api/v1/lei-records/5299003P9WXG9T2P5Y25"
+  ],
+  "gleif_match_score": 1.0,
+  "fetched_at": "2026-10-13T10:54:30Z",
+  "chain_product_count": 632,
+  "registry_status": "verified_gleif"
  },
  {
   "slug": "unilever-austria-gmbh",
@@ -79,16 +81,17 @@
   ],
   "chains": [
    "Billa",
-   "Spar",
-   "unbekannt (OFF)"
+   "Gurkerl",
+   "MPreis",
+   "Spar"
   ],
-  "product_count": 93,
+  "product_count": 97,
   "median_price_eur": 2.19,
-  "median_eur_per_10g_protein": 5.4,
+  "median_eur_per_10g_protein": 5.5,
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:30:52Z",
+  "fetched_at": "2026-10-13T10:55:43Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -116,19 +119,21 @@
   "plants": [],
   "approval_codes": null,
   "brands": [
+   "Iglo",
    "iglo"
   ],
   "chains": [
    "Billa",
+   "MPreis",
    "Spar"
   ],
-  "product_count": 35,
-  "median_price_eur": 6.99,
-  "median_eur_per_10g_protein": 4.8,
+  "product_count": 50,
+  "median_price_eur": 6.89,
+  "median_eur_per_10g_protein": 5.15,
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:30:20Z",
+  "fetched_at": "2026-10-13T10:54:55Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -161,17 +166,18 @@
   ],
   "chains": [
    "Billa",
+   "Gurkerl",
    "Spar"
   ],
-  "product_count": 25,
-  "median_price_eur": 5.49,
-  "median_eur_per_10g_protein": 4.4,
+  "product_count": 26,
+  "median_price_eur": 5.74,
+  "median_eur_per_10g_protein": 4.3,
   "nace": null,
   "sources": [
    "https://api.gleif.org/api/v1/lei-records/529900JLDYJZIRXRD379"
   ],
   "gleif_match_score": 1.0,
-  "fetched_at": "2026-10-13T01:30:50Z",
+  "fetched_at": "2026-10-13T10:55:39Z",
   "registry_status": "verified_gleif"
  },
  {
@@ -210,8 +216,94 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:32:41Z",
+  "fetched_at": "2026-10-13T10:58:57Z",
   "registry_status": "not_found_in_gleif"
+ },
+ {
+  "slug": "pastificio-rana-spa",
+  "name": "Pastificio RANA S.p.A.",
+  "role": "producer",
+  "legal_name": "PASTIFICIO RANA S.P.A.",
+  "lei": "815600530D7A6B12BC38",
+  "register_id": "01397480235",
+  "register_authority": "RA000407",
+  "fn": null,
+  "legal_form_code": "P418",
+  "country": "IT",
+  "address": "VIA PACINOTTI, 25, 37057 SAN GIOVANNI LUPATOTO, IT",
+  "entity_status": "ACTIVE",
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Rana",
+   "rana"
+  ],
+  "chains": [
+   "Billa",
+   "MPreis"
+  ],
+  "product_count": 23,
+  "median_price_eur": 3.79,
+  "median_eur_per_10g_protein": 5.7,
+  "nace": null,
+  "sources": [
+   "https://api.gleif.org/api/v1/lei-records/815600530D7A6B12BC38"
+  ],
+  "gleif_match_score": 1.0,
+  "fetched_at": "2026-10-13T10:56:56Z",
+  "registry_status": "verified_gleif"
+ },
+ {
+  "slug": "nestle-oesterreich-gmbh",
+  "name": "Nestlé Österreich GmbH",
+  "role": "producer",
+  "legal_name": "Nestle Österreich GmbH",
+  "lei": "549300GUV737JK7Y5C77",
+  "register_id": "105870t",
+  "register_authority": "RA000017",
+  "fn": "FN 105870t",
+  "legal_form_code": "AXSB",
+  "country": "AT",
+  "address": "Wiedner Gürtel 9, 1100 Wien, AT",
+  "entity_status": "ACTIVE",
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Maggi",
+   "maggi"
+  ],
+  "chains": [
+   "Billa",
+   "Gurkerl"
+  ],
+  "product_count": 22,
+  "median_price_eur": 1.35,
+  "median_eur_per_10g_protein": 1.25,
+  "nace": null,
+  "sources": [
+   "https://api.gleif.org/api/v1/lei-records/549300GUV737JK7Y5C77"
+  ],
+  "gleif_match_score": 1.0,
+  "fetched_at": "2026-10-13T10:57:12Z",
+  "registry_status": "verified_gleif"
  },
  {
   "slug": "landgenossenschaft-ennstal-landena-kg",
@@ -247,6 +339,7 @@
   "approval_codes": "AT 62028 EG",
   "brands": [
    "CLEVER",
+   "Iglo",
    "Inzersdorfer",
    "PRIMANA",
    "Primana",
@@ -259,7 +352,7 @@
    "Spar",
    "unbekannt (OFF)"
   ],
-  "product_count": 20,
+  "product_count": 21,
   "median_price_eur": 3.49,
   "median_eur_per_10g_protein": 4.9,
   "nace": null,
@@ -271,7 +364,7 @@
    "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf"
   ],
   "gleif_match_score": 1.0,
-  "fetched_at": "2026-10-13T01:30:46Z",
+  "fetched_at": "2026-10-13T10:55:36Z",
   "registry_status": "verified_gleif"
  },
  {
@@ -304,115 +397,33 @@
   ],
   "chains": [
    "Billa",
-   "unbekannt (OFF)"
+   "Gurkerl"
   ],
-  "product_count": 19,
+  "product_count": 20,
   "median_price_eur": 5.99,
-  "median_eur_per_10g_protein": 4.7,
+  "median_eur_per_10g_protein": 4.65,
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:30:17Z",
+  "fetched_at": "2026-10-13T10:54:52Z",
   "registry_status": "not_found_in_gleif"
  },
  {
-  "slug": "nestl-oesterreich-gmbh",
-  "name": "Nestlé Österreich GmbH",
-  "role": "producer",
-  "legal_name": null,
-  "lei": null,
-  "register_id": null,
-  "register_authority": null,
-  "fn": null,
-  "legal_form_code": null,
-  "country": "AT",
-  "address": null,
-  "entity_status": null,
-  "parent_direct": null,
-  "parent_ultimate": null,
-  "parent_ultimate_lei": null,
-  "founded": null,
-  "owners": null,
-  "management": null,
-  "employees": null,
-  "revenue": null,
-  "website": null,
-  "plants": [],
-  "approval_codes": null,
-  "brands": [
-   "Maggi",
-   "maggi"
-  ],
-  "chains": [
-   "Billa"
-  ],
-  "product_count": 15,
-  "median_price_eur": 1.32,
-  "median_eur_per_10g_protein": 3.1,
-  "nace": null,
-  "sources": [],
-  "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:31:42Z",
-  "registry_status": "not_found_in_gleif"
- },
- {
-  "slug": "pastificio-rana-spa",
-  "name": "Pastificio RANA S.p.A.",
-  "role": "producer+brand_owner",
-  "legal_name": "PASTIFICIO RANA S.P.A.",
-  "lei": "815600530D7A6B12BC38",
-  "register_id": "01397480235",
-  "register_authority": "RA000407",
-  "fn": null,
-  "legal_form_code": "P418",
-  "country": "IT",
-  "address": "VIA PACINOTTI, 25, 37057 SAN GIOVANNI LUPATOTO, IT",
-  "entity_status": "ACTIVE",
-  "parent_direct": null,
-  "parent_ultimate": null,
-  "parent_ultimate_lei": null,
-  "founded": null,
-  "owners": null,
-  "management": null,
-  "employees": null,
-  "revenue": null,
-  "website": null,
-  "plants": [],
-  "approval_codes": null,
-  "brands": [
-   "Rana",
-   "rana"
-  ],
-  "chains": [
-   "Billa"
-  ],
-  "product_count": 15,
-  "median_price_eur": 3.79,
-  "median_eur_per_10g_protein": 5.7,
-  "nace": null,
-  "sources": [
-   "https://api.gleif.org/api/v1/lei-records/815600530D7A6B12BC38"
-  ],
-  "gleif_match_score": 1.0,
-  "fetched_at": "2026-10-13T01:31:33Z",
-  "registry_status": "verified_gleif"
- },
- {
-  "slug": "felix-austria-gmbh",
+  "slug": "felix-austria-gesellschaft-mbh",
   "name": "FELIX Austria GmbH",
   "role": "producer",
-  "legal_name": null,
-  "lei": null,
-  "register_id": null,
-  "register_authority": null,
-  "fn": null,
-  "legal_form_code": null,
+  "legal_name": "FELIX AUSTRIA Gesellschaft m.b.H.",
+  "lei": "549300VS403KYQOOUC10",
+  "register_id": "110213d",
+  "register_authority": "RA000017",
+  "fn": "FN 110213d",
+  "legal_form_code": "AXSB",
   "country": "AT",
-  "address": null,
-  "entity_status": null,
-  "parent_direct": null,
-  "parent_ultimate": null,
-  "parent_ultimate_lei": null,
+  "address": "Felixstraße 24, 7210 Mattersburg, AT",
+  "entity_status": "ACTIVE",
+  "parent_direct": "ORKLA ASA",
+  "parent_ultimate": "ORKLA ASA",
+  "parent_ultimate_lei": "549300PZS8G8RG6RVZ52",
   "founded": null,
   "owners": null,
   "management": null,
@@ -427,57 +438,18 @@
   ],
   "chains": [
    "Billa",
+   "MPreis",
    "Spar"
   ],
-  "product_count": 11,
+  "product_count": 15,
   "median_price_eur": 6.49,
   "median_eur_per_10g_protein": 4.2,
   "nace": null,
-  "sources": [],
-  "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:30:42Z",
-  "registry_status": "not_found_in_gleif"
- },
- {
-  "slug": "weinbergmaier-gmbh",
-  "name": "Weinbergmaier GmbH",
-  "role": "producer",
-  "legal_name": "WEINBERGMAIER GmbH",
-  "lei": "529900PNAKPBLDOF8724",
-  "register_id": "122164d",
-  "register_authority": "RA000017",
-  "fn": "FN 122164d",
-  "legal_form_code": "AXSB",
-  "country": "AT",
-  "address": "Leopold-Werndl-Str. 1, 4493 Wolfern, AT",
-  "entity_status": "ACTIVE",
-  "parent_direct": null,
-  "parent_ultimate": null,
-  "parent_ultimate_lei": null,
-  "founded": null,
-  "owners": null,
-  "management": null,
-  "employees": null,
-  "revenue": null,
-  "website": null,
-  "plants": [],
-  "approval_codes": null,
-  "brands": [
-   "Ackerl",
-   "Toni Kaiser"
-  ],
-  "chains": [
-   "Billa"
-  ],
-  "product_count": 7,
-  "median_price_eur": 4.79,
-  "median_eur_per_10g_protein": 7.1,
-  "nace": null,
   "sources": [
-   "https://api.gleif.org/api/v1/lei-records/529900PNAKPBLDOF8724"
+   "https://api.gleif.org/api/v1/lei-records/549300VS403KYQOOUC10"
   ],
   "gleif_match_score": 1.0,
-  "fetched_at": "2026-10-13T01:30:40Z",
+  "fetched_at": "2026-10-13T10:55:32Z",
   "registry_status": "verified_gleif"
  },
  {
@@ -509,20 +481,20 @@
   ],
   "chains": [
    "Billa",
-   "unbekannt (OFF)"
+   "Gurkerl"
   ],
-  "product_count": 6,
-  "median_price_eur": 2.54,
-  "median_eur_per_10g_protein": 5.05,
+  "product_count": 12,
+  "median_price_eur": 2.89,
+  "median_eur_per_10g_protein": 3.55,
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:29:59Z",
+  "fetched_at": "2026-10-13T10:54:09Z",
   "registry_status": "not_found_in_gleif"
  },
  {
-  "slug": "everygmbh",
-  "name": "Every.GmbH",
+  "slug": "ehrmann-gmbh",
+  "name": "Ehrmann GmbH",
   "role": "producer",
   "legal_name": null,
   "lei": null,
@@ -545,57 +517,142 @@
   "plants": [],
   "approval_codes": null,
   "brands": [
-   "Every."
-  ],
-  "chains": [
-   "unbekannt (OFF)"
-  ],
-  "product_count": 6,
-  "median_price_eur": 9.19,
-  "median_eur_per_10g_protein": 1.95,
-  "nace": null,
-  "sources": [],
-  "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:32:58Z",
-  "registry_status": "not_found_in_gleif"
- },
- {
-  "slug": "ja-natuerlich-naturprodukte-gesellschaft-mbh",
-  "name": "Ja! Natürlich Naturprodukte Gesellschaft m.b.H.",
-  "role": "producer",
-  "legal_name": null,
-  "lei": null,
-  "register_id": null,
-  "register_authority": null,
-  "fn": null,
-  "legal_form_code": null,
-  "country": null,
-  "address": null,
-  "entity_status": null,
-  "parent_direct": null,
-  "parent_ultimate": null,
-  "parent_ultimate_lei": null,
-  "founded": null,
-  "owners": null,
-  "management": null,
-  "employees": null,
-  "revenue": null,
-  "website": null,
-  "plants": [],
-  "approval_codes": null,
-  "brands": [
-   "Ja! Natürlich"
+   "Ehrmann"
   ],
   "chains": [
    "Billa"
   ],
-  "product_count": 6,
-  "median_price_eur": 3.49,
-  "median_eur_per_10g_protein": 6.9,
+  "product_count": 11,
+  "median_price_eur": 1.49,
+  "median_eur_per_10g_protein": 10.1,
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:31:16Z",
+  "fetched_at": "2026-10-13T11:01:48Z",
+  "registry_status": "not_found_in_gleif"
+ },
+ {
+  "slug": "dm-drogerie-markt-gmbh-co-kg",
+  "name": "dm-drogerie markt GmbH + Co. KG",
+  "role": "producer",
+  "legal_name": "dm-drogerie markt GmbH + Co. KG",
+  "lei": "391200BJDTMV65NJ7G34",
+  "register_id": "HRA 102711",
+  "register_authority": "RA000296",
+  "fn": null,
+  "legal_form_code": "8Z6G",
+  "country": "DE",
+  "address": "Am dm-Platz 1, 76227 Karlsruhe, DE",
+  "entity_status": "ACTIVE",
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "dmBio"
+  ],
+  "chains": [
+   "dm"
+  ],
+  "product_count": 11,
+  "median_price_eur": 2.35,
+  "median_eur_per_10g_protein": 5.6,
+  "nace": null,
+  "sources": [
+   "https://api.gleif.org/api/v1/lei-records/391200BJDTMV65NJ7G34"
+  ],
+  "gleif_match_score": 1.0,
+  "fetched_at": "2026-10-13T10:57:41Z",
+  "registry_status": "verified_gleif"
+ },
+ {
+  "slug": "weinbergmaier-gmbh",
+  "name": "Weinbergmaier GmbH",
+  "role": "producer",
+  "legal_name": "WEINBERGMAIER GmbH",
+  "lei": "529900PNAKPBLDOF8724",
+  "register_id": "122164d",
+  "register_authority": "RA000017",
+  "fn": "FN 122164d",
+  "legal_form_code": "AXSB",
+  "country": "AT",
+  "address": "Leopold-Werndl-Str. 1, 4493 Wolfern, AT",
+  "entity_status": "ACTIVE",
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Ackerl",
+   "Bauernland",
+   "Toni Kaiser"
+  ],
+  "chains": [
+   "Billa"
+  ],
+  "product_count": 10,
+  "median_price_eur": 4.89,
+  "median_eur_per_10g_protein": 6.15,
+  "nace": null,
+  "sources": [
+   "https://api.gleif.org/api/v1/lei-records/529900PNAKPBLDOF8724"
+  ],
+  "gleif_match_score": 1.0,
+  "fetched_at": "2026-10-13T10:55:26Z",
+  "registry_status": "verified_gleif"
+ },
+ {
+  "slug": "allos-hof-manufaktur-gmbh",
+  "name": "Allos Hof-Manufaktur GmbH",
+  "role": "producer",
+  "legal_name": null,
+  "lei": null,
+  "register_id": null,
+  "register_authority": null,
+  "fn": null,
+  "legal_form_code": null,
+  "country": null,
+  "address": null,
+  "entity_status": null,
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Little Lunch"
+  ],
+  "chains": [
+   "Billa",
+   "dm"
+  ],
+  "product_count": 9,
+  "median_price_eur": 3.55,
+  "median_eur_per_10g_protein": 1.1,
+  "nace": null,
+  "sources": [],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-13T10:56:14Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -633,12 +690,14 @@
   "brands": [
    "BILLA Immer Gut",
    "Ja! Natürlich",
+   "Karnerta",
    "Omis Schmankerl"
   ],
   "chains": [
-   "Billa"
+   "Billa",
+   "MPreis"
   ],
-  "product_count": 6,
+  "product_count": 9,
   "median_price_eur": 3.89,
   "median_eur_per_10g_protein": 9.55,
   "nace": null,
@@ -651,12 +710,12 @@
    "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf"
   ],
   "gleif_match_score": 1.0,
-  "fetched_at": "2026-10-13T01:31:04Z",
+  "fetched_at": "2026-10-13T10:56:04Z",
   "registry_status": "verified_gleif"
  },
  {
-  "slug": "radatz-feine-wiener-fleischwaren-gmbh",
-  "name": "Radatz - Feine Wiener Fleischwaren GmbH",
+  "slug": "frosta-ag",
+  "name": "FRoSTA AG",
   "role": "producer",
   "legal_name": null,
   "lei": null,
@@ -667,6 +726,452 @@
   "country": null,
   "address": null,
   "entity_status": null,
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Frosta"
+  ],
+  "chains": [
+   "MPreis"
+  ],
+  "product_count": 8,
+  "median_price_eur": 5.99,
+  "median_eur_per_10g_protein": 4.4,
+  "nace": null,
+  "sources": [],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-13T11:00:31Z",
+  "registry_status": "not_found_in_gleif"
+ },
+ {
+  "slug": "youcook-gmbh",
+  "name": "YOUCOOK GmbH",
+  "role": "producer",
+  "legal_name": null,
+  "lei": null,
+  "register_id": null,
+  "register_authority": null,
+  "fn": null,
+  "legal_form_code": null,
+  "country": null,
+  "address": null,
+  "entity_status": null,
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Youcook"
+  ],
+  "chains": [
+   "Billa",
+   "MPreis"
+  ],
+  "product_count": 8,
+  "median_price_eur": 4.99,
+  "median_eur_per_10g_protein": 4.25,
+  "nace": null,
+  "sources": [],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-13T10:56:41Z",
+  "registry_status": "not_found_in_gleif"
+ },
+ {
+  "slug": "hofmann-menue-manufaktur-gmbh",
+  "name": "Hofmann Menü-Manufaktur GmbH",
+  "role": "producer",
+  "legal_name": "Hofmann Menü-Manufaktur GmbH",
+  "lei": "529900AQZT30CV86TF72",
+  "register_id": "HRB 560522",
+  "register_authority": "RA000296",
+  "fn": null,
+  "legal_form_code": "2HBR",
+  "country": "DE",
+  "address": "Adelbert-Hofmann-Straße 6, 97944 Boxberg, DE",
+  "entity_status": "ACTIVE",
+  "parent_direct": "Hofmann-Menü Holdings GmbH",
+  "parent_ultimate": "PARTNERS GROUP STARFROST LIMITED",
+  "parent_ultimate_lei": "549300J0KXBTDLOB5L43",
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "HOFMANNs"
+  ],
+  "chains": [
+   "Gurkerl"
+  ],
+  "product_count": 7,
+  "median_price_eur": 10.29,
+  "median_eur_per_10g_protein": 3.1,
+  "nace": null,
+  "sources": [
+   "https://api.gleif.org/api/v1/lei-records/529900AQZT30CV86TF72"
+  ],
+  "gleif_match_score": 1.0,
+  "fetched_at": "2026-10-13T10:59:25Z",
+  "registry_status": "verified_gleif"
+ },
+ {
+  "slug": "mochi-production-gmbh",
+  "name": "Mochi Production GmbH",
+  "role": "producer",
+  "legal_name": null,
+  "lei": null,
+  "register_id": null,
+  "register_authority": null,
+  "fn": null,
+  "legal_form_code": null,
+  "country": null,
+  "address": null,
+  "entity_status": null,
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Mochi"
+  ],
+  "chains": [
+   "Gurkerl"
+  ],
+  "product_count": 7,
+  "median_price_eur": 11.49,
+  "median_eur_per_10g_protein": 2.3,
+  "nace": null,
+  "sources": [],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-13T10:59:09Z",
+  "registry_status": "not_found_in_gleif"
+ },
+ {
+  "slug": "berglandmilch-egen",
+  "name": "Berglandmilch eGen",
+  "role": "producer",
+  "legal_name": "Berglandmilch eGen",
+  "lei": "529900IX3JFWBU805S14",
+  "register_id": "116533y",
+  "register_authority": "RA000017",
+  "fn": "FN 116533y",
+  "legal_form_code": "NIJH",
+  "country": "AT",
+  "address": "Schubertstraße 30, 4600 Wels, AT",
+  "entity_status": "ACTIVE",
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Schärdinger"
+  ],
+  "chains": [
+   "Billa",
+   "Gurkerl"
+  ],
+  "product_count": 6,
+  "median_price_eur": 0.85,
+  "median_eur_per_10g_protein": 5.8,
+  "nace": null,
+  "sources": [
+   "https://api.gleif.org/api/v1/lei-records/529900IX3JFWBU805S14"
+  ],
+  "gleif_match_score": 1.0,
+  "fetched_at": "2026-10-13T11:01:15Z",
+  "registry_status": "verified_gleif"
+ },
+ {
+  "slug": "everygmbh",
+  "name": "Every.GmbH",
+  "role": "producer",
+  "legal_name": null,
+  "lei": null,
+  "register_id": null,
+  "register_authority": null,
+  "fn": null,
+  "legal_form_code": null,
+  "country": null,
+  "address": null,
+  "entity_status": null,
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Every."
+  ],
+  "chains": [
+   "Gurkerl"
+  ],
+  "product_count": 6,
+  "median_price_eur": 9.19,
+  "median_eur_per_10g_protein": 1.95,
+  "nace": null,
+  "sources": [],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-13T10:59:56Z",
+  "registry_status": "not_found_in_gleif"
+ },
+ {
+  "slug": "ja-natuerlich-naturprodukte-gesellschaft-mbh",
+  "name": "Ja! Natürlich Naturprodukte Gesellschaft m.b.H.",
+  "role": "producer",
+  "legal_name": null,
+  "lei": null,
+  "register_id": null,
+  "register_authority": null,
+  "fn": null,
+  "legal_form_code": null,
+  "country": null,
+  "address": null,
+  "entity_status": null,
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": "https://www.janatuerlich.at/",
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Ja! Natürlich"
+  ],
+  "chains": [
+   "Billa"
+  ],
+  "product_count": 6,
+  "median_price_eur": 3.49,
+  "median_eur_per_10g_protein": 6.9,
+  "nace": null,
+  "sources": [],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-13T10:56:25Z",
+  "registry_status": "not_found_in_gleif"
+ },
+ {
+  "slug": "mpreis-warenvertriebs-gmbh",
+  "name": "MPREIS Warenvertriebs GmbH",
+  "role": "producer",
+  "legal_name": "MPREIS Warenvertriebs GmbH",
+  "lei": "5299007HKZK4RSU17874",
+  "register_id": "43603y",
+  "register_authority": "RA000017",
+  "fn": "FN 43603y",
+  "legal_form_code": "AXSB",
+  "country": "AT",
+  "address": "Landesstraße 16, 6176 Völs, AT",
+  "entity_status": "ACTIVE",
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "M"
+  ],
+  "chains": [
+   "MPreis"
+  ],
+  "product_count": 6,
+  "median_price_eur": 3.84,
+  "median_eur_per_10g_protein": null,
+  "nace": null,
+  "sources": [
+   "https://api.gleif.org/api/v1/lei-records/5299007HKZK4RSU17874"
+  ],
+  "gleif_match_score": 1.0,
+  "fetched_at": "2026-10-13T11:00:41Z",
+  "chain_product_count": 82,
+  "registry_status": "verified_gleif"
+ },
+ {
+  "slug": "mars-austria-og",
+  "name": "Mars Austria OG",
+  "role": "producer",
+  "legal_name": "MARS AUSTRIA OG",
+  "lei": "5493006K9J3OVPXZW688",
+  "register_id": "213022v",
+  "register_authority": "RA000017",
+  "fn": "FN 213022v",
+  "legal_form_code": "JTAV",
+  "country": "AT",
+  "address": "INDUSTRIESTRAßE 20, 2460 BRUCK AN DER LEITHA, AT",
+  "entity_status": "ACTIVE",
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Ben's Original"
+  ],
+  "chains": [
+   "Billa",
+   "Gurkerl"
+  ],
+  "product_count": 6,
+  "median_price_eur": 2.79,
+  "median_eur_per_10g_protein": 2.5,
+  "nace": null,
+  "sources": [
+   "https://api.gleif.org/api/v1/lei-records/5493006K9J3OVPXZW688"
+  ],
+  "gleif_match_score": 1.0,
+  "fetched_at": "2026-10-13T10:54:37Z",
+  "registry_status": "verified_gleif"
+ },
+ {
+  "slug": "molkerei-alois-mueller-gmbh-co-kg",
+  "name": "Molkerei Alois Müller GmbH & Co. KG",
+  "role": "producer",
+  "legal_name": "Molkerei Alois Müller GmbH & Co. KG",
+  "lei": "529900ASH0JL6PAY8526",
+  "register_id": "HRA 10968",
+  "register_authority": "RA000206",
+  "fn": null,
+  "legal_form_code": "8Z6G",
+  "country": "DE",
+  "address": "Zollerstraße 7, 86850 Fischach, DE",
+  "entity_status": "ACTIVE",
+  "parent_direct": "Unternehmensgruppe Theo Müller S.e.c.s.",
+  "parent_ultimate": "Unternehmensgruppe Theo Müller S.e.c.s.",
+  "parent_ultimate_lei": "529900DQ8JP1LS3K2A47",
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Landliebe",
+   "Müller"
+  ],
+  "chains": [
+   "Gurkerl"
+  ],
+  "product_count": 6,
+  "median_price_eur": 1.69,
+  "median_eur_per_10g_protein": 5.8,
+  "nace": null,
+  "sources": [
+   "https://api.gleif.org/api/v1/lei-records/529900ASH0JL6PAY8526"
+  ],
+  "gleif_match_score": 1.0,
+  "fetched_at": "2026-10-13T11:01:12Z",
+  "registry_status": "verified_gleif"
+ },
+ {
+  "slug": "noem-ag",
+  "name": "NÖM AG",
+  "role": "producer",
+  "legal_name": "NÖM AG",
+  "lei": "529900JOHLZA5944OY29",
+  "register_id": "114782y",
+  "register_authority": "RA000017",
+  "fn": "FN 114782y",
+  "legal_form_code": "EQOV",
+  "country": "AT",
+  "address": "Vöslauer Straße 109, 2500 Baden bei Wien, AT",
+  "entity_status": "ACTIVE",
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Nöm"
+  ],
+  "chains": [
+   "Billa"
+  ],
+  "product_count": 6,
+  "median_price_eur": 1.79,
+  "median_eur_per_10g_protein": 11.0,
+  "nace": null,
+  "sources": [
+   "https://api.gleif.org/api/v1/lei-records/529900JOHLZA5944OY29"
+  ],
+  "gleif_match_score": 1.0,
+  "fetched_at": "2026-10-13T11:01:41Z",
+  "registry_status": "verified_gleif"
+ },
+ {
+  "slug": "radatz-feine-wiener-fleischwaren-gesellschaft-mbh",
+  "name": "Radatz - Feine Wiener Fleischwaren GmbH",
+  "role": "producer",
+  "legal_name": "Radatz - Feine Wiener Fleischwaren Gesellschaft m.b.H.",
+  "lei": "529900ZC59O869RH9I95",
+  "register_id": "109045k",
+  "register_authority": "RA000017",
+  "fn": "FN 109045k",
+  "legal_form_code": "AXSB",
+  "country": "AT",
+  "address": "Erlaaerstraße 187, 1230 Wien, AT",
+  "entity_status": "ACTIVE",
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
@@ -698,14 +1203,217 @@
   "median_eur_per_10g_protein": 5.4,
   "nace": null,
   "sources": [
+   "https://api.gleif.org/api/v1/lei-records/529900ZC59O869RH9I95",
    "https://www.radatz.at/medien/presse",
    "https://www.wirtschaft.at/u/109045k",
    "https://www.leadersnet.at/news/98831,so-behauptet-sich-die-fleischbranche-in-einem-schwierigen.html",
    "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf"
   ],
+  "gleif_match_score": 1.0,
+  "fetched_at": "2026-10-13T10:56:47Z",
+  "registry_status": "verified_gleif"
+ },
+ {
+  "slug": "dr-oetker-gmbh",
+  "name": "DR. OETKER GMBH",
+  "role": "producer",
+  "legal_name": "Dr. Oetker GmbH",
+  "lei": "5299002J58F8I9465C12",
+  "register_id": "115931m",
+  "register_authority": "RA000017",
+  "fn": "FN 115931m",
+  "legal_form_code": "AXSB",
+  "country": "AT",
+  "address": "Ringmauergasse 9/1, 9500 Villach, AT",
+  "entity_status": "ACTIVE",
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Dr. Oetker"
+  ],
+  "chains": [
+   "Billa"
+  ],
+  "product_count": 5,
+  "median_price_eur": 2.49,
+  "median_eur_per_10g_protein": 2.4,
+  "nace": null,
+  "sources": [
+   "https://api.gleif.org/api/v1/lei-records/5299002J58F8I9465C12"
+  ],
+  "gleif_match_score": 1.0,
+  "fetched_at": "2026-10-13T11:01:59Z",
+  "registry_status": "verified_gleif"
+ },
+ {
+  "slug": "danone-oesterreich-gmbh",
+  "name": "Danone Österreich GmbH",
+  "role": "producer",
+  "legal_name": "DANONE ÖSTERREICH GMBH",
+  "lei": "213800KX27RXC7IQBF65",
+  "register_id": "61045y",
+  "register_authority": "RA000017",
+  "fn": "FN 61045y",
+  "legal_form_code": "AXSB",
+  "country": "AT",
+  "address": "HALLEIN STATE ROAD 58 PUCH BEI HALLEIN, 5412 HALLEIN, AT",
+  "entity_status": "ACTIVE",
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Alpro"
+  ],
+  "chains": [
+   "Billa"
+  ],
+  "product_count": 5,
+  "median_price_eur": 1.69,
+  "median_eur_per_10g_protein": 5.9,
+  "nace": null,
+  "sources": [
+   "https://api.gleif.org/api/v1/lei-records/213800KX27RXC7IQBF65"
+  ],
+  "gleif_match_score": 1.0,
+  "fetched_at": "2026-10-13T11:02:06Z",
+  "registry_status": "verified_gleif"
+ },
+ {
+  "slug": "deflorian-srl",
+  "name": "Deflorian S.r.l.",
+  "role": "producer",
+  "legal_name": null,
+  "lei": null,
+  "register_id": null,
+  "register_authority": null,
+  "fn": null,
+  "legal_form_code": null,
+  "country": null,
+  "address": null,
+  "entity_status": null,
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Deflorian"
+  ],
+  "chains": [
+   "MPreis"
+  ],
+  "product_count": 5,
+  "median_price_eur": 7.69,
+  "median_eur_per_10g_protein": 5.5,
+  "nace": null,
+  "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:31:26Z",
+  "fetched_at": "2026-10-13T11:00:17Z",
   "registry_status": "not_found_in_gleif"
+ },
+ {
+  "slug": "kasnudl-gmbh",
+  "name": "Kasnudl GmbH",
+  "role": "producer",
+  "legal_name": null,
+  "lei": null,
+  "register_id": null,
+  "register_authority": null,
+  "fn": null,
+  "legal_form_code": null,
+  "country": null,
+  "address": null,
+  "entity_status": null,
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Stadtküche"
+  ],
+  "chains": [
+   "Billa"
+  ],
+  "product_count": 5,
+  "median_price_eur": 7.59,
+  "median_eur_per_10g_protein": 2.3,
+  "nace": null,
+  "sources": [],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-13T10:59:02Z",
+  "registry_status": "not_found_in_gleif"
+ },
+ {
+  "slug": "kreyenhop-kluge-gmbh-cokg",
+  "name": "Kreyenhop & Kluge GmbH & Co. KG",
+  "role": "producer",
+  "legal_name": "Kreyenhop & Kluge GmbH & Co.KG",
+  "lei": "529900ZH3GAR1JU6HQ34",
+  "register_id": "HRA 120220",
+  "register_authority": "RA000358",
+  "fn": null,
+  "legal_form_code": "8Z6G",
+  "country": "DE",
+  "address": "Industriestraße 40/42, 28876 Oyten, DE",
+  "entity_status": "ACTIVE",
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Bibigo",
+   "Diamond"
+  ],
+  "chains": [
+   "Gurkerl"
+  ],
+  "product_count": 5,
+  "median_price_eur": 8.19,
+  "median_eur_per_10g_protein": 5.9,
+  "nace": null,
+  "sources": [
+   "https://api.gleif.org/api/v1/lei-records/529900ZH3GAR1JU6HQ34"
+  ],
+  "gleif_match_score": 1.0,
+  "fetched_at": "2026-10-13T10:59:30Z",
+  "registry_status": "verified_gleif"
  },
  {
   "slug": "laboratorio-alimentare-cecchin-andrea-e-carlo-srl",
@@ -743,7 +1451,7 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:30:15Z",
+  "fetched_at": "2026-10-13T10:54:45Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -782,7 +1490,167 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:31:00Z",
+  "fetched_at": "2026-10-13T10:56:01Z",
+  "registry_status": "not_found_in_gleif"
+ },
+ {
+  "slug": "a-darbo-ag",
+  "name": "A. Darbo AG",
+  "role": "producer",
+  "legal_name": null,
+  "lei": null,
+  "register_id": null,
+  "register_authority": null,
+  "fn": null,
+  "legal_form_code": null,
+  "country": null,
+  "address": null,
+  "entity_status": null,
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Darbo"
+  ],
+  "chains": [
+   "Billa"
+  ],
+  "product_count": 4,
+  "median_price_eur": 1.59,
+  "median_eur_per_10g_protein": 0.55,
+  "nace": null,
+  "sources": [],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-13T11:01:56Z",
+  "registry_status": "not_found_in_gleif"
+ },
+ {
+  "slug": "alnatura-produktions-und-handels-gmbh",
+  "name": "Alnatura Produktions- und Handels GmbH",
+  "role": "producer",
+  "legal_name": "AlnaturA Produktions- und Handels GmbH",
+  "lei": "96760063YASRHVRSR697",
+  "register_id": "HRB 4407",
+  "register_authority": "RA000228",
+  "fn": null,
+  "legal_form_code": "2HBR",
+  "country": "DE",
+  "address": "Mahatma-Gandhi-Str. 7, 64295 Darmstadt, DE",
+  "entity_status": "ACTIVE",
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Alnatura"
+  ],
+  "chains": [
+   "MPreis"
+  ],
+  "product_count": 4,
+  "median_price_eur": 2.92,
+  "median_eur_per_10g_protein": 4.0,
+  "nace": null,
+  "sources": [
+   "https://api.gleif.org/api/v1/lei-records/96760063YASRHVRSR697"
+  ],
+  "gleif_match_score": 1.0,
+  "fetched_at": "2026-10-13T11:00:07Z",
+  "registry_status": "verified_gleif"
+ },
+ {
+  "slug": "andros-austria-gmbh",
+  "name": "Andros Austria GmbH",
+  "role": "producer",
+  "legal_name": null,
+  "lei": null,
+  "register_id": null,
+  "register_authority": null,
+  "fn": null,
+  "legal_form_code": null,
+  "country": null,
+  "address": null,
+  "entity_status": null,
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Andros",
+   "Bonne Maman"
+  ],
+  "chains": [
+   "Billa",
+   "Gurkerl"
+  ],
+  "product_count": 4,
+  "median_price_eur": 2.64,
+  "median_eur_per_10g_protein": 2.3,
+  "nace": null,
+  "sources": [],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-13T11:01:38Z",
+  "registry_status": "not_found_in_gleif"
+ },
+ {
+  "slug": "bs-gastro-event-services-gmbh",
+  "name": "BS Gastro & Event Services GmbH",
+  "role": "producer",
+  "legal_name": null,
+  "lei": null,
+  "register_id": null,
+  "register_authority": null,
+  "fn": null,
+  "legal_form_code": null,
+  "country": null,
+  "address": null,
+  "entity_status": null,
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Wiener Virtshaus"
+  ],
+  "chains": [
+   "Gurkerl"
+  ],
+  "product_count": 4,
+  "median_price_eur": 9.54,
+  "median_eur_per_10g_protein": 3.0,
+  "nace": null,
+  "sources": [],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-13T10:59:05Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -835,7 +1703,87 @@
    "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf"
   ],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:31:19Z",
+  "fetched_at": "2026-10-13T10:56:32Z",
+  "registry_status": "not_found_in_gleif"
+ },
+ {
+  "slug": "marks-and-spencer-services-sro",
+  "name": "Marks and Spencer Services",
+  "role": "producer",
+  "legal_name": "MARKS AND SPENCER SERVICES S.R.O.",
+  "lei": "213800T85Z9RNQFF5W93",
+  "register_id": "28234910",
+  "register_authority": "RA000163",
+  "fn": null,
+  "legal_form_code": "9HLU",
+  "country": "CZ",
+  "address": "JEMNICKÁ 1138/1, 140 00 MICHLE, CZ",
+  "entity_status": "ACTIVE",
+  "parent_direct": "MARKS AND SPENCER CZECH REPUBLIC, A.S.",
+  "parent_ultimate": "MARKS AND SPENCER P.L.C.",
+  "parent_ultimate_lei": "213800CN1RI3UCIZWB95",
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Marks & Spencer"
+  ],
+  "chains": [
+   "Gurkerl"
+  ],
+  "product_count": 4,
+  "median_price_eur": 3.19,
+  "median_eur_per_10g_protein": 1.1,
+  "nace": null,
+  "sources": [
+   "https://api.gleif.org/api/v1/lei-records/213800T85Z9RNQFF5W93"
+  ],
+  "gleif_match_score": 1.0,
+  "fetched_at": "2026-10-13T10:59:18Z",
+  "registry_status": "verified_gleif"
+ },
+ {
+  "slug": "molkerei-alois-mueller-gmbh-co-kg-zollerstra-e-7",
+  "name": "Molkerei Alois Müller GmbH & Co. KG Zollerstraße 7",
+  "role": "producer",
+  "legal_name": null,
+  "lei": null,
+  "register_id": null,
+  "register_authority": null,
+  "fn": null,
+  "legal_form_code": null,
+  "country": null,
+  "address": null,
+  "entity_status": null,
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Müller"
+  ],
+  "chains": [
+   "Gurkerl"
+  ],
+  "product_count": 4,
+  "median_price_eur": 1.79,
+  "median_eur_per_10g_protein": 7.0,
+  "nace": null,
+  "sources": [],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-13T11:01:30Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -886,7 +1834,7 @@
    "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf"
   ],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:32:14Z",
+  "fetched_at": "2026-10-13T10:58:16Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -925,7 +1873,46 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:30:36Z",
+  "fetched_at": "2026-10-13T10:55:23Z",
+  "registry_status": "not_found_in_gleif"
+ },
+ {
+  "slug": "strauss-gmbh",
+  "name": "Strauss GmbH",
+  "role": "producer",
+  "legal_name": null,
+  "lei": null,
+  "register_id": null,
+  "register_authority": null,
+  "fn": null,
+  "legal_form_code": null,
+  "country": null,
+  "address": null,
+  "entity_status": null,
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Strauss"
+  ],
+  "chains": [
+   "MPreis"
+  ],
+  "product_count": 4,
+  "median_price_eur": 4.49,
+  "median_eur_per_10g_protein": 6.55,
+  "nace": null,
+  "sources": [],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-13T11:00:58Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -980,8 +1967,49 @@
    "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf"
   ],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:31:18Z",
+  "fetched_at": "2026-10-13T10:56:28Z",
   "registry_status": "not_found_in_gleif"
+ },
+ {
+  "slug": "zott-se-co-kg",
+  "name": "Zott",
+  "role": "producer",
+  "legal_name": "Zott SE & Co. KG",
+  "lei": "529900OEMWTCZKJMYE61",
+  "register_id": "HRA 1376",
+  "register_authority": "RA000206",
+  "fn": null,
+  "legal_form_code": "8Z6G",
+  "country": "DE",
+  "address": "Georg-Zott-Straße 1, 86690 Mertingen, DE",
+  "entity_status": "ACTIVE",
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Zott"
+  ],
+  "chains": [
+   "Billa"
+  ],
+  "product_count": 4,
+  "median_price_eur": 2.79,
+  "median_eur_per_10g_protein": 3.7,
+  "nace": null,
+  "sources": [
+   "https://api.gleif.org/api/v1/lei-records/529900OEMWTCZKJMYE61"
+  ],
+  "gleif_match_score": 1.0,
+  "fetched_at": "2026-10-13T11:01:45Z",
+  "registry_status": "verified_gleif"
  },
  {
   "slug": "alimentastic-food-innovation-gmbh",
@@ -1019,8 +2047,49 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:31:44Z",
+  "fetched_at": "2026-10-13T10:57:15Z",
   "registry_status": "not_found_in_gleif"
+ },
+ {
+  "slug": "bertagni-1882-spa",
+  "name": "Bertagni 1882 S.p.A.",
+  "role": "producer",
+  "legal_name": "BERTAGNI 1882 S.P.A.",
+  "lei": "815600B5C62307B12E60",
+  "register_id": "03719720249",
+  "register_authority": "RA000407",
+  "fn": null,
+  "legal_form_code": "P418",
+  "country": "IT",
+  "address": "LOCALITA' CAMPAGNOLE, 1 (BORGHETTO ALL'ADIGE), 38063 AVIO, IT",
+  "entity_status": "ACTIVE",
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Bertagni"
+  ],
+  "chains": [
+   "MPreis"
+  ],
+  "product_count": 3,
+  "median_price_eur": 3.49,
+  "median_eur_per_10g_protein": 6.6,
+  "nace": null,
+  "sources": [
+   "https://api.gleif.org/api/v1/lei-records/815600B5C62307B12E60"
+  ],
+  "gleif_match_score": 1.0,
+  "fetched_at": "2026-10-13T11:00:10Z",
+  "registry_status": "verified_gleif"
  },
  {
   "slug": "caro-fratello-gmbh",
@@ -1058,53 +2127,12 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:31:54Z",
+  "fetched_at": "2026-10-13T10:57:25Z",
   "registry_status": "not_found_in_gleif"
  },
  {
-  "slug": "hofmann-menue-manufaktur-gmbh",
-  "name": "Hofmann Menü-Manufaktur GmbH",
-  "role": "producer",
-  "legal_name": "Hofmann Menü-Manufaktur GmbH",
-  "lei": "529900AQZT30CV86TF72",
-  "register_id": "HRB 560522",
-  "register_authority": "RA000296",
-  "fn": null,
-  "legal_form_code": "2HBR",
-  "country": "DE",
-  "address": "Adelbert-Hofmann-Straße 6, 97944 Boxberg, DE",
-  "entity_status": "ACTIVE",
-  "parent_direct": "Hofmann-Menü Holdings GmbH",
-  "parent_ultimate": "PARTNERS GROUP STARFROST LIMITED",
-  "parent_ultimate_lei": "549300J0KXBTDLOB5L43",
-  "founded": null,
-  "owners": null,
-  "management": null,
-  "employees": null,
-  "revenue": null,
-  "website": null,
-  "plants": [],
-  "approval_codes": null,
-  "brands": [
-   "HOFMANNs"
-  ],
-  "chains": [
-   "unbekannt (OFF)"
-  ],
-  "product_count": 3,
-  "median_price_eur": 10.29,
-  "median_eur_per_10g_protein": 3.4,
-  "nace": null,
-  "sources": [
-   "https://api.gleif.org/api/v1/lei-records/529900AQZT30CV86TF72"
-  ],
-  "gleif_match_score": 1.0,
-  "fetched_at": "2026-10-13T01:32:55Z",
-  "registry_status": "verified_gleif"
- },
- {
-  "slug": "kreyenhop-kluge-gmbh-co-kg",
-  "name": "Kreyenhop & Kluge GmbH & Co. KG",
+  "slug": "gue-puds",
+  "name": "Gü Puds",
   "role": "producer",
   "legal_name": null,
   "lei": null,
@@ -1127,33 +2155,33 @@
   "plants": [],
   "approval_codes": null,
   "brands": [
-   "Bibigo"
+   "GÜ"
   ],
   "chains": [
-   "unbekannt (OFF)"
+   "Gurkerl"
   ],
   "product_count": 3,
-  "median_price_eur": 9.19,
-  "median_eur_per_10g_protein": 5.2,
+  "median_price_eur": 3.99,
+  "median_eur_per_10g_protein": 1.6,
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:33:00Z",
+  "fetched_at": "2026-10-13T11:01:19Z",
   "registry_status": "not_found_in_gleif"
  },
  {
-  "slug": "mars-austria-og",
-  "name": "Mars Austria OG",
+  "slug": "heiderbeck",
+  "name": "Heiderbeck",
   "role": "producer",
-  "legal_name": "MARS AUSTRIA OG",
-  "lei": "5493006K9J3OVPXZW688",
-  "register_id": "213022v",
-  "register_authority": "RA000017",
-  "fn": "FN 213022v",
-  "legal_form_code": "JTAV",
-  "country": "AT",
-  "address": "INDUSTRIESTRAßE 20, 2460 BRUCK AN DER LEITHA, AT",
-  "entity_status": "ACTIVE",
+  "legal_name": null,
+  "lei": null,
+  "register_id": null,
+  "register_authority": null,
+  "fn": null,
+  "legal_form_code": null,
+  "country": null,
+  "address": null,
+  "entity_status": null,
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
@@ -1166,21 +2194,97 @@
   "plants": [],
   "approval_codes": null,
   "brands": [
-   "Ben's Original"
+   "Casa di Pietro"
+  ],
+  "chains": [
+   "Gurkerl"
+  ],
+  "product_count": 3,
+  "median_price_eur": 6.09,
+  "median_eur_per_10g_protein": 8.2,
+  "nace": null,
+  "sources": [],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-13T10:59:11Z",
+  "registry_status": "not_found_in_gleif"
+ },
+ {
+  "slug": "landliebe-gmbh",
+  "name": "Landliebe GmbH",
+  "role": "producer",
+  "legal_name": null,
+  "lei": null,
+  "register_id": null,
+  "register_authority": null,
+  "fn": null,
+  "legal_form_code": null,
+  "country": null,
+  "address": null,
+  "entity_status": null,
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Landliebe"
   ],
   "chains": [
    "Billa"
   ],
   "product_count": 3,
-  "median_price_eur": 2.99,
-  "median_eur_per_10g_protein": 2.7,
+  "median_price_eur": 0.99,
+  "median_eur_per_10g_protein": 5.3,
   "nace": null,
-  "sources": [
-   "https://api.gleif.org/api/v1/lei-records/5493006K9J3OVPXZW688"
+  "sources": [],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-13T11:01:53Z",
+  "registry_status": "not_found_in_gleif"
+ },
+ {
+  "slug": "morgentau-biogemuese-gmbh",
+  "name": "MORGENTAU Biogemüse GmbH",
+  "role": "producer",
+  "legal_name": null,
+  "lei": null,
+  "register_id": null,
+  "register_authority": null,
+  "fn": null,
+  "legal_form_code": null,
+  "country": null,
+  "address": null,
+  "entity_status": null,
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Morgentau"
   ],
-  "gleif_match_score": 1.0,
-  "fetched_at": "2026-10-13T01:30:09Z",
-  "registry_status": "verified_gleif"
+  "chains": [
+   "Gurkerl"
+  ],
+  "product_count": 3,
+  "median_price_eur": 4.59,
+  "median_eur_per_10g_protein": 6.0,
+  "nace": null,
+  "sources": [],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-13T10:59:39Z",
+  "registry_status": "not_found_in_gleif"
  },
  {
   "slug": "princes-foods-bv",
@@ -1220,7 +2324,7 @@
    "https://api.gleif.org/api/v1/lei-records/213800S75WRICRU1WM83"
   ],
   "gleif_match_score": 1.0,
-  "fetched_at": "2026-10-13T01:31:48Z",
+  "fetched_at": "2026-10-13T10:57:18Z",
   "registry_status": "verified_gleif"
  },
  {
@@ -1261,22 +2365,22 @@
    "https://api.gleif.org/api/v1/lei-records/5299007YW7YPUBPNPB21"
   ],
   "gleif_match_score": 1.0,
-  "fetched_at": "2026-10-13T01:32:23Z",
+  "fetched_at": "2026-10-13T10:58:26Z",
   "registry_status": "verified_gleif"
  },
  {
-  "slug": "tops-foods-nv",
+  "slug": "tops-foods",
   "name": "Tops Foods NV",
   "role": "producer",
-  "legal_name": null,
-  "lei": null,
-  "register_id": null,
-  "register_authority": null,
+  "legal_name": "TOPS FOODS",
+  "lei": "549300SQTH5OQZJD6B75",
+  "register_id": "0451053463",
+  "register_authority": "RA000025",
   "fn": null,
-  "legal_form_code": null,
-  "country": null,
-  "address": null,
-  "entity_status": null,
+  "legal_form_code": "R85P",
+  "country": "BE",
+  "address": "Lammerdries-Oost 26, 2250 Olen, BE",
+  "entity_status": "ACTIVE",
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
@@ -1298,10 +2402,12 @@
   "median_price_eur": 4.39,
   "median_eur_per_10g_protein": 4.5,
   "nace": null,
-  "sources": [],
-  "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:31:22Z",
-  "registry_status": "not_found_in_gleif"
+  "sources": [
+   "https://api.gleif.org/api/v1/lei-records/549300SQTH5OQZJD6B75"
+  ],
+  "gleif_match_score": 1.0,
+  "fetched_at": "2026-10-13T10:56:37Z",
+  "registry_status": "verified_gleif"
  },
  {
   "slug": "adriatic-group-gmbh",
@@ -1341,7 +2447,7 @@
    "https://api.gleif.org/api/v1/lei-records/52990090AITYIP340F59"
   ],
   "gleif_match_score": 1.0,
-  "fetched_at": "2026-10-13T01:30:23Z",
+  "fetched_at": "2026-10-13T10:54:59Z",
   "registry_status": "verified_gleif"
  },
  {
@@ -1380,46 +2486,7 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:29:58Z",
-  "registry_status": "not_found_in_gleif"
- },
- {
-  "slug": "allos-hof-manufaktur-gmbh",
-  "name": "Allos Hof-Manufaktur GmbH",
-  "role": "producer",
-  "legal_name": null,
-  "lei": null,
-  "register_id": null,
-  "register_authority": null,
-  "fn": null,
-  "legal_form_code": null,
-  "country": null,
-  "address": null,
-  "entity_status": null,
-  "parent_direct": null,
-  "parent_ultimate": null,
-  "parent_ultimate_lei": null,
-  "founded": null,
-  "owners": null,
-  "management": null,
-  "employees": null,
-  "revenue": null,
-  "website": null,
-  "plants": [],
-  "approval_codes": null,
-  "brands": [
-   "Little Lunch"
-  ],
-  "chains": [
-   "Billa"
-  ],
-  "product_count": 2,
-  "median_price_eur": 3.59,
-  "median_eur_per_10g_protein": 0.7,
-  "nace": null,
-  "sources": [],
-  "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:31:56Z",
+  "fetched_at": "2026-10-13T10:53:49Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -1458,7 +2525,7 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:32:43Z",
+  "fetched_at": "2026-10-13T10:58:59Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -1498,8 +2565,8 @@
   "sources": [
    "https://api.gleif.org/api/v1/lei-records/529900HWBYCO8M2UN457"
   ],
-  "gleif_match_score": 0.78,
-  "fetched_at": "2026-10-13T01:30:05Z",
+  "gleif_match_score": 1.0,
+  "fetched_at": "2026-10-13T10:54:34Z",
   "registry_status": "verified_gleif"
  },
  {
@@ -1540,12 +2607,12 @@
    "https://api.gleif.org/api/v1/lei-records/529900OYBF0IQCUQ4E29"
   ],
   "gleif_match_score": 1.0,
-  "fetched_at": "2026-10-13T01:31:41Z",
+  "fetched_at": "2026-10-13T10:57:08Z",
   "registry_status": "verified_gleif"
  },
  {
-  "slug": "dr-schaer-ag",
-  "name": "Dr. Schär AG",
+  "slug": "brajlovic-gmbh",
+  "name": "Brajlovic GmbH",
   "role": "producer",
   "legal_name": null,
   "lei": null,
@@ -1568,6 +2635,84 @@
   "plants": [],
   "approval_codes": null,
   "brands": [
+   "Brajlovic"
+  ],
+  "chains": [
+   "MPreis"
+  ],
+  "product_count": 2,
+  "median_price_eur": 14.99,
+  "median_eur_per_10g_protein": 8.5,
+  "nace": null,
+  "sources": [],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-13T11:00:13Z",
+  "registry_status": "not_found_in_gleif"
+ },
+ {
+  "slug": "danone-gmbh",
+  "name": "Danone GmbH",
+  "role": "producer",
+  "legal_name": null,
+  "lei": null,
+  "register_id": null,
+  "register_authority": null,
+  "fn": null,
+  "legal_form_code": null,
+  "country": null,
+  "address": null,
+  "entity_status": null,
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Danone"
+  ],
+  "chains": [
+   "Billa"
+  ],
+  "product_count": 2,
+  "median_price_eur": 0.99,
+  "median_eur_per_10g_protein": 4.8,
+  "nace": null,
+  "sources": [],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-13T11:01:50Z",
+  "registry_status": "not_found_in_gleif"
+ },
+ {
+  "slug": "dr-schaer-spa",
+  "name": "Dr. Schär AG",
+  "role": "producer",
+  "legal_name": "DR. SCHAER SPA",
+  "lei": "8156007EFCC74E27AB09",
+  "register_id": "00605750215",
+  "register_authority": "RA000407",
+  "fn": null,
+  "legal_form_code": "P418",
+  "country": "IT",
+  "address": "ZONA DI PRODUZIONE WINKELAU, 9, 39014 POSTAL, IT",
+  "entity_status": "ACTIVE",
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
    "Schär"
   ],
   "chains": [
@@ -1577,10 +2722,12 @@
   "median_price_eur": 5.79,
   "median_eur_per_10g_protein": 4.1,
   "nace": null,
-  "sources": [],
-  "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:30:34Z",
-  "registry_status": "not_found_in_gleif"
+  "sources": [
+   "https://api.gleif.org/api/v1/lei-records/8156007EFCC74E27AB09"
+  ],
+  "gleif_match_score": 1.0,
+  "fetched_at": "2026-10-13T10:55:19Z",
+  "registry_status": "verified_gleif"
  },
  {
   "slug": "gms-gourmet-gmbh",
@@ -1634,7 +2781,7 @@
    "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf"
   ],
   "gleif_match_score": 1.0,
-  "fetched_at": "2026-10-13T01:32:07Z",
+  "fetched_at": "2026-10-13T10:57:37Z",
   "registry_status": "verified_gleif"
  },
  {
@@ -1675,7 +2822,7 @@
    "https://api.gleif.org/api/v1/lei-records/98450010EDCCFFF5CF87"
   ],
   "gleif_match_score": 1.0,
-  "fetched_at": "2026-10-13T01:31:52Z",
+  "fetched_at": "2026-10-13T10:57:22Z",
   "registry_status": "verified_gleif"
  },
  {
@@ -1727,7 +2874,7 @@
    "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf"
   ],
   "gleif_match_score": 1.0,
-  "fetched_at": "2026-10-13T01:32:39Z",
+  "fetched_at": "2026-10-13T10:58:53Z",
   "registry_status": "verified_gleif"
  },
  {
@@ -1766,7 +2913,7 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:32:30Z",
+  "fetched_at": "2026-10-13T10:58:41Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -1805,7 +2952,7 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:30:58Z",
+  "fetched_at": "2026-10-13T10:55:57Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -1858,8 +3005,179 @@
    "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf"
   ],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:30:54Z",
+  "fetched_at": "2026-10-13T10:55:46Z",
   "registry_status": "not_found_in_gleif"
+ },
+ {
+  "slug": "landtmann-s-feine-patisserie",
+  "name": "Landtmann´s feine Patisserie",
+  "role": "producer",
+  "legal_name": null,
+  "lei": null,
+  "register_id": null,
+  "register_authority": null,
+  "fn": null,
+  "legal_form_code": null,
+  "country": null,
+  "address": null,
+  "entity_status": null,
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Landtmann's"
+  ],
+  "chains": [
+   "Gurkerl"
+  ],
+  "product_count": 2,
+  "median_price_eur": 9.64,
+  "median_eur_per_10g_protein": 0.6,
+  "nace": null,
+  "sources": [],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-13T10:59:14Z",
+  "registry_status": "not_found_in_gleif"
+ },
+ {
+  "slug": "plant-based-power-gmbh",
+  "name": "PLANT BASED POWER GmbH",
+  "role": "producer",
+  "legal_name": null,
+  "lei": null,
+  "register_id": null,
+  "register_authority": null,
+  "fn": null,
+  "legal_form_code": null,
+  "country": null,
+  "address": null,
+  "entity_status": null,
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "feelfood"
+  ],
+  "chains": [
+   "Gurkerl"
+  ],
+  "product_count": 2,
+  "median_price_eur": 4.19,
+  "median_eur_per_10g_protein": 3.85,
+  "nace": null,
+  "sources": [],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-13T10:59:21Z",
+  "registry_status": "not_found_in_gleif"
+ },
+ {
+  "slug": "rewe-austria-genusskueche-gmbh",
+  "name": "Rewe Austria Genussküche GmbH",
+  "role": "producer",
+  "legal_name": null,
+  "lei": null,
+  "register_id": null,
+  "register_authority": null,
+  "fn": null,
+  "legal_form_code": null,
+  "country": null,
+  "address": null,
+  "entity_status": null,
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": "2002; Traiskirchen seit 2017",
+  "owners": "REWE Group",
+  "management": null,
+  "employees": "ca. 120",
+  "revenue": "nicht öffentlich gefunden",
+  "website": "https://rewe-group.jobs/de/wir-als-arbeitgeber/fachbereiche/fleischwaren/genusskueche",
+  "plants": [
+   {
+    "address": "Betriebsstraße 2, 2512 Traiskirchen",
+    "approval_code": "AT 32629 EG",
+    "lat": 47.9834508,
+    "lon": 16.2817004,
+    "source": "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf"
+   }
+  ],
+  "approval_codes": "AT 32629 EG",
+  "brands": [
+   "Billa"
+  ],
+  "chains": [
+   "unbekannt (OFF)"
+  ],
+  "product_count": 2,
+  "median_price_eur": null,
+  "median_eur_per_10g_protein": null,
+  "nace": null,
+  "sources": [
+   "https://rewe-group.jobs/de/wir-als-arbeitgeber/fachbereiche/fleischwaren/genusskueche",
+   "https://www.noen.at/baden/traiskirchen-grosskueche-schafft-60-neue-arbeitsplaetze-top-13414514",
+   "https://www.evi.gv.at/f/204764z",
+   "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf"
+  ],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-13T11:02:32Z",
+  "registry_status": "not_found_in_gleif"
+ },
+ {
+  "slug": "tress-lebensmittel-gmbh-co-kg",
+  "name": "Tress Lebensmittel GmbH & Co. KG",
+  "role": "producer",
+  "legal_name": "Tress Lebensmittel GmbH & Co. KG",
+  "lei": "391200MC0M0SGKVN4318",
+  "register_id": "HRA 726441",
+  "register_authority": "RA000351",
+  "fn": null,
+  "legal_form_code": "8Z6G",
+  "country": "DE",
+  "address": "Aichelauer Straße 6, 72534 Hayingen-Ehestetten, DE",
+  "entity_status": "ACTIVE",
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Tressbrüder"
+  ],
+  "chains": [
+   "dm"
+  ],
+  "product_count": 2,
+  "median_price_eur": 2.95,
+  "median_eur_per_10g_protein": 5.65,
+  "nace": null,
+  "sources": [
+   "https://api.gleif.org/api/v1/lei-records/391200MC0M0SGKVN4318"
+  ],
+  "gleif_match_score": 1.0,
+  "fetched_at": "2026-10-13T10:57:45Z",
+  "registry_status": "verified_gleif"
  },
  {
   "slug": "wilhelm-blasko-convenience-fertiggerichte-gmbh",
@@ -1912,12 +3230,12 @@
    "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf"
   ],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:31:29Z",
+  "fetched_at": "2026-10-13T10:56:50Z",
   "registry_status": "not_found_in_gleif"
  },
  {
-  "slug": "youcook-gmbh",
-  "name": "YOUCOOK GmbH",
+  "slug": "aia-spa",
+  "name": "AIA S.p.A.",
   "role": "producer",
   "legal_name": null,
   "lei": null,
@@ -1940,23 +3258,103 @@
   "plants": [],
   "approval_codes": null,
   "brands": [
-   "Youcook"
+   "AIA"
+  ],
+  "chains": [
+   "MPreis"
+  ],
+  "product_count": 1,
+  "median_price_eur": 4.49,
+  "median_eur_per_10g_protein": null,
+  "nace": null,
+  "sources": [],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-13T11:00:03Z",
+  "registry_status": "not_found_in_gleif"
+ },
+ {
+  "slug": "andros-deutschland-gmbh",
+  "name": "Andros Deutschland GmbH",
+  "role": "producer",
+  "legal_name": "Andros Deutschland GmbH",
+  "lei": "529900B04CNPB6E7MO40",
+  "register_id": "HRB 70104",
+  "register_authority": "RA000228",
+  "fn": null,
+  "legal_form_code": "2HBR",
+  "country": "DE",
+  "address": "Bahnhofstraße 31, 64747 Breuberg, DE",
+  "entity_status": "ACTIVE",
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Gourmand&Vegetal"
+  ],
+  "chains": [
+   "Gurkerl"
+  ],
+  "product_count": 1,
+  "median_price_eur": 3.39,
+  "median_eur_per_10g_protein": 1.4,
+  "nace": null,
+  "sources": [
+   "https://api.gleif.org/api/v1/lei-records/529900B04CNPB6E7MO40"
+  ],
+  "gleif_match_score": 1.0,
+  "fetched_at": "2026-10-13T10:59:43Z",
+  "registry_status": "verified_gleif"
+ },
+ {
+  "slug": "bonne-maman",
+  "name": "BONNE MAMAN",
+  "role": "producer",
+  "legal_name": null,
+  "lei": null,
+  "register_id": null,
+  "register_authority": null,
+  "fn": null,
+  "legal_form_code": null,
+  "country": null,
+  "address": null,
+  "entity_status": null,
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Bonne Maman"
   ],
   "chains": [
    "Billa"
   ],
-  "product_count": 2,
-  "median_price_eur": 4.99,
-  "median_eur_per_10g_protein": 4.25,
+  "product_count": 1,
+  "median_price_eur": 1.99,
+  "median_eur_per_10g_protein": 4.5,
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:31:24Z",
+  "fetched_at": "2026-10-13T11:02:15Z",
   "registry_status": "not_found_in_gleif"
  },
  {
-  "slug": "bs-gastro-event-services-gmbh",
-  "name": "BS Gastro & Event Services GmbH",
+  "slug": "bauck-gmbh",
+  "name": "Bauck GmbH",
   "role": "producer",
   "legal_name": null,
   "lei": null,
@@ -1979,18 +3377,176 @@
   "plants": [],
   "approval_codes": null,
   "brands": [
-   "Wiener Virtshaus"
+   "Bauck Mühle"
   ],
   "chains": [
-   "unbekannt (OFF)"
+   "dm"
   ],
   "product_count": 1,
-  "median_price_eur": 10.49,
-  "median_eur_per_10g_protein": 4.6,
+  "median_price_eur": 2.95,
+  "median_eur_per_10g_protein": 1.6,
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:32:52Z",
+  "fetched_at": "2026-10-13T10:58:03Z",
+  "registry_status": "not_found_in_gleif"
+ },
+ {
+  "slug": "biogourmet-gmbh",
+  "name": "BioGourmet GmbH",
+  "role": "producer",
+  "legal_name": null,
+  "lei": null,
+  "register_id": null,
+  "register_authority": null,
+  "fn": null,
+  "legal_form_code": null,
+  "country": null,
+  "address": null,
+  "entity_status": null,
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "BioGourmet"
+  ],
+  "chains": [
+   "dm"
+  ],
+  "product_count": 1,
+  "median_price_eur": 1.6,
+  "median_eur_per_10g_protein": null,
+  "nace": null,
+  "sources": [],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-13T10:58:00Z",
+  "registry_status": "not_found_in_gleif"
+ },
+ {
+  "slug": "dairy-4-fun-sro",
+  "name": "Dairy 4 Fun sro",
+  "role": "producer",
+  "legal_name": null,
+  "lei": null,
+  "register_id": null,
+  "register_authority": null,
+  "fn": null,
+  "legal_form_code": null,
+  "country": null,
+  "address": null,
+  "entity_status": null,
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Kidsworld"
+  ],
+  "chains": [
+   "Billa"
+  ],
+  "product_count": 1,
+  "median_price_eur": 0.99,
+  "median_eur_per_10g_protein": 2.2,
+  "nace": null,
+  "sources": [],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-13T11:02:13Z",
+  "registry_status": "not_found_in_gleif"
+ },
+ {
+  "slug": "danone-deutschland-gmbh",
+  "name": "Danone Deutschland GmbH",
+  "role": "producer",
+  "legal_name": "DANONE DEUTSCHLAND GMBH",
+  "lei": "2138001ZZP25K3WV7T37",
+  "register_id": "HRB 112989",
+  "register_authority": "RA000242",
+  "fn": null,
+  "legal_form_code": "2HBR",
+  "country": "DE",
+  "address": "AM HAUPTBAHNHOF 18, 60329 FRANKFURT AM MAIN, DE",
+  "entity_status": "ACTIVE",
+  "parent_direct": "DANONE",
+  "parent_ultimate": "DANONE",
+  "parent_ultimate_lei": "969500KMUQ2B6CBAF162",
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Alpro"
+  ],
+  "chains": [
+   "Billa"
+  ],
+  "product_count": 1,
+  "median_price_eur": 1.39,
+  "median_eur_per_10g_protein": 0.4,
+  "nace": null,
+  "sources": [
+   "https://api.gleif.org/api/v1/lei-records/2138001ZZP25K3WV7T37"
+  ],
+  "gleif_match_score": 1.0,
+  "fetched_at": "2026-10-13T11:02:22Z",
+  "registry_status": "verified_gleif"
+ },
+ {
+  "slug": "delamaris-doo",
+  "name": "Delamaris d.o.o.",
+  "role": "producer",
+  "legal_name": null,
+  "lei": null,
+  "register_id": null,
+  "register_authority": null,
+  "fn": null,
+  "legal_form_code": null,
+  "country": null,
+  "address": null,
+  "entity_status": null,
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Delamaris"
+  ],
+  "chains": [
+   "MPreis"
+  ],
+  "product_count": 1,
+  "median_price_eur": 2.99,
+  "median_eur_per_10g_protein": 4.7,
+  "nace": null,
+  "sources": [],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-13T11:00:21Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -2029,7 +3585,7 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:31:14Z",
+  "fetched_at": "2026-10-13T10:56:18Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -2068,7 +3624,7 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:31:38Z",
+  "fetched_at": "2026-10-13T10:57:04Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -2107,7 +3663,7 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:30:56Z",
+  "fetched_at": "2026-10-13T10:55:50Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -2148,7 +3704,7 @@
    "https://api.gleif.org/api/v1/lei-records/529900TSU1ECVJ0FYL45"
   ],
   "gleif_match_score": 1.0,
-  "fetched_at": "2026-10-13T01:31:59Z",
+  "fetched_at": "2026-10-13T10:57:28Z",
   "registry_status": "verified_gleif"
  },
  {
@@ -2189,7 +3745,7 @@
    "https://api.gleif.org/api/v1/lei-records/52990035MITUYUCR8F03"
   ],
   "gleif_match_score": 1.0,
-  "fetched_at": "2026-10-13T01:30:31Z",
+  "fetched_at": "2026-10-13T10:55:10Z",
   "registry_status": "verified_gleif"
  },
  {
@@ -2228,12 +3784,94 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:31:35Z",
+  "fetched_at": "2026-10-13T10:57:01Z",
   "registry_status": "not_found_in_gleif"
  },
  {
-  "slug": "franz-ablinger-co-fleischhauereibetrieb-gmbh",
+  "slug": "franz-ablinger-co-fleischhauereibetrieb-gesellschaft-mbh",
   "name": "Franz Ablinger & Co Fleischhauereibetrieb GmbH",
+  "role": "producer",
+  "legal_name": "Franz Ablinger & Co. Fleischhauereibetrieb Gesellschaft m.b.H.",
+  "lei": "529900I9B0UN7I6KWB59",
+  "register_id": "67371a",
+  "register_authority": "RA000017",
+  "fn": "FN 67371a",
+  "legal_form_code": "AXSB",
+  "country": "AT",
+  "address": "Franz Xaver Grimm-Str. 3, 5110 Oberndorf bei Salzburg, AT",
+  "entity_status": "ACTIVE",
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Ablinger"
+  ],
+  "chains": [
+   "Billa"
+  ],
+  "product_count": 1,
+  "median_price_eur": 4.69,
+  "median_eur_per_10g_protein": 7.7,
+  "nace": null,
+  "sources": [
+   "https://api.gleif.org/api/v1/lei-records/529900I9B0UN7I6KWB59"
+  ],
+  "gleif_match_score": 1.0,
+  "fetched_at": "2026-10-13T10:58:09Z",
+  "registry_status": "verified_gleif"
+ },
+ {
+  "slug": "greenforce-future-food-ag",
+  "name": "GREENFORCE FUTURE FOOD AG",
+  "role": "producer",
+  "legal_name": "GREENFORCE FUTURE FOOD AG",
+  "lei": "894500XJAOZKM5ACGD13",
+  "register_id": "HRB 269298",
+  "register_authority": "RA000304",
+  "fn": null,
+  "legal_form_code": "6QQB",
+  "country": "DE",
+  "address": "Streitfeldstraße 25c, 81673 München, DE",
+  "entity_status": "ACTIVE",
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "GREENFORCE"
+  ],
+  "chains": [
+   "Gurkerl"
+  ],
+  "product_count": 1,
+  "median_price_eur": 3.59,
+  "median_eur_per_10g_protein": 8.0,
+  "nace": null,
+  "sources": [
+   "https://api.gleif.org/api/v1/lei-records/894500XJAOZKM5ACGD13"
+  ],
+  "gleif_match_score": 1.0,
+  "fetched_at": "2026-10-13T11:01:05Z",
+  "registry_status": "verified_gleif"
+ },
+ {
+  "slug": "galana-nv-beldessert",
+  "name": "Galana NV / Beldessert",
   "role": "producer",
   "legal_name": null,
   "lei": null,
@@ -2256,18 +3894,18 @@
   "plants": [],
   "approval_codes": null,
   "brands": [
-   "Ablinger"
+   "Galana"
   ],
   "chains": [
    "Billa"
   ],
   "product_count": 1,
-  "median_price_eur": 4.69,
-  "median_eur_per_10g_protein": 7.7,
+  "median_price_eur": 2.99,
+  "median_eur_per_10g_protein": 1.6,
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:32:10Z",
+  "fetched_at": "2026-10-13T11:02:03Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -2306,7 +3944,7 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:31:30Z",
+  "fetched_at": "2026-10-13T10:56:52Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -2358,7 +3996,7 @@
    "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf"
   ],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:32:12Z",
+  "fetched_at": "2026-10-13T10:58:12Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -2409,7 +4047,46 @@
    "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf"
   ],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:32:16Z",
+  "fetched_at": "2026-10-13T10:58:19Z",
+  "registry_status": "not_found_in_gleif"
+ },
+ {
+  "slug": "hildegard-gruenkraft-naturprodukte",
+  "name": "Hildegard-Grünkraft Naturprodukte",
+  "role": "producer",
+  "legal_name": null,
+  "lei": null,
+  "register_id": null,
+  "register_authority": null,
+  "fn": null,
+  "legal_form_code": null,
+  "country": null,
+  "address": null,
+  "entity_status": null,
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Hildegard Grünkraft"
+  ],
+  "chains": [
+   "dm"
+  ],
+  "product_count": 1,
+  "median_price_eur": 7.95,
+  "median_eur_per_10g_protein": null,
+  "nace": null,
+  "sources": [],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-13T10:57:56Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -2461,7 +4138,7 @@
    "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf"
   ],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:32:04Z",
+  "fetched_at": "2026-10-13T10:57:34Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -2500,46 +4177,7 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:30:26Z",
-  "registry_status": "not_found_in_gleif"
- },
- {
-  "slug": "kasnudl-gmbh",
-  "name": "Kasnudl GmbH",
-  "role": "producer",
-  "legal_name": null,
-  "lei": null,
-  "register_id": null,
-  "register_authority": null,
-  "fn": null,
-  "legal_form_code": null,
-  "country": null,
-  "address": null,
-  "entity_status": null,
-  "parent_direct": null,
-  "parent_ultimate": null,
-  "parent_ultimate_lei": null,
-  "founded": null,
-  "owners": null,
-  "management": null,
-  "employees": null,
-  "revenue": null,
-  "website": null,
-  "plants": [],
-  "approval_codes": null,
-  "brands": [
-   "Stadtküche"
-  ],
-  "chains": [
-   "Billa"
-  ],
-  "product_count": 1,
-  "median_price_eur": 6.99,
-  "median_eur_per_10g_protein": 2.3,
-  "nace": null,
-  "sources": [],
-  "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:32:45Z",
+  "fetched_at": "2026-10-13T10:55:03Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -2578,7 +4216,7 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:32:27Z",
+  "fetched_at": "2026-10-13T10:58:38Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -2609,7 +4247,7 @@
    "Every."
   ],
   "chains": [
-   "unbekannt (OFF)"
+   "Gurkerl"
   ],
   "product_count": 1,
   "median_price_eur": 9.19,
@@ -2617,7 +4255,85 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:33:02Z",
+  "fetched_at": "2026-10-13T10:59:59Z",
+  "registry_status": "not_found_in_gleif"
+ },
+ {
+  "slug": "la-crepe-de-broceliande-8-rue-pierre-legaultboisgervilly3536",
+  "name": "LA CREPE DE BROCELIANDE 8 RUE PIERRE LEGAULTBOISGERVILLY35360",
+  "role": "producer",
+  "legal_name": null,
+  "lei": null,
+  "register_id": null,
+  "register_authority": null,
+  "fn": null,
+  "legal_form_code": null,
+  "country": null,
+  "address": null,
+  "entity_status": null,
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "IDS"
+  ],
+  "chains": [
+   "Gurkerl"
+  ],
+  "product_count": 1,
+  "median_price_eur": 3.29,
+  "median_eur_per_10g_protein": 5.9,
+  "nace": null,
+  "sources": [],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-13T11:01:24Z",
+  "registry_status": "not_found_in_gleif"
+ },
+ {
+  "slug": "lpp-lotao-gmbh",
+  "name": "LPP Lotao GmbH",
+  "role": "producer",
+  "legal_name": null,
+  "lei": null,
+  "register_id": null,
+  "register_authority": null,
+  "fn": null,
+  "legal_form_code": null,
+  "country": null,
+  "address": null,
+  "entity_status": null,
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Lotao"
+  ],
+  "chains": [
+   "dm"
+  ],
+  "product_count": 1,
+  "median_price_eur": 3.45,
+  "median_eur_per_10g_protein": 3.9,
+  "nace": null,
+  "sources": [],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-13T10:57:48Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -2648,7 +4364,7 @@
    "Elsässer"
   ],
   "chains": [
-   "unbekannt (OFF)"
+   "Gurkerl"
   ],
   "product_count": 1,
   "median_price_eur": 4.39,
@@ -2656,7 +4372,125 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:32:50Z",
+  "fetched_at": "2026-10-13T10:59:52Z",
+  "registry_status": "not_found_in_gleif"
+ },
+ {
+  "slug": "meica-gmbh",
+  "name": "Meica GmbH",
+  "role": "producer",
+  "legal_name": null,
+  "lei": null,
+  "register_id": null,
+  "register_authority": null,
+  "fn": null,
+  "legal_form_code": null,
+  "country": null,
+  "address": null,
+  "entity_status": null,
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Meica"
+  ],
+  "chains": [
+   "MPreis"
+  ],
+  "product_count": 1,
+  "median_price_eur": 2.69,
+  "median_eur_per_10g_protein": 6.5,
+  "nace": null,
+  "sources": [],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-13T11:00:44Z",
+  "registry_status": "not_found_in_gleif"
+ },
+ {
+  "slug": "pastificio-rana-spa-via-pacinotti",
+  "name": "Pastificio RANA S.p.A. - Via Pacinotti",
+  "role": "producer",
+  "legal_name": null,
+  "lei": null,
+  "register_id": null,
+  "register_authority": null,
+  "fn": null,
+  "legal_form_code": null,
+  "country": null,
+  "address": null,
+  "entity_status": null,
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Rana"
+  ],
+  "chains": [
+   "Gurkerl"
+  ],
+  "product_count": 1,
+  "median_price_eur": 3.89,
+  "median_eur_per_10g_protein": 5.6,
+  "nace": null,
+  "sources": [],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-13T10:59:33Z",
+  "registry_status": "not_found_in_gleif"
+ },
+ {
+  "slug": "planted-foods-ag",
+  "name": "Planted Foods AG",
+  "role": "producer",
+  "legal_name": null,
+  "lei": null,
+  "register_id": null,
+  "register_authority": null,
+  "fn": null,
+  "legal_form_code": null,
+  "country": "CH",
+  "address": null,
+  "entity_status": null,
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Planted.",
+   "planted"
+  ],
+  "chains": [
+   "MPreis"
+  ],
+  "product_count": 1,
+  "median_price_eur": 3.49,
+  "median_eur_per_10g_protein": 9.6,
+  "nace": null,
+  "sources": [],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-13T11:00:48Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -2695,7 +4529,7 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:32:33Z",
+  "fetched_at": "2026-10-13T10:58:48Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -2734,7 +4568,7 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:30:28Z",
+  "fetched_at": "2026-10-13T10:55:06Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -2773,7 +4607,7 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:32:35Z",
+  "fetched_at": "2026-10-13T10:58:50Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -2812,7 +4646,7 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:32:02Z",
+  "fetched_at": "2026-10-13T10:57:31Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -2853,12 +4687,94 @@
    "https://api.gleif.org/api/v1/lei-records/815600DABDA3F47A6A19"
   ],
   "gleif_match_score": 1.0,
-  "fetched_at": "2026-10-13T01:31:07Z",
+  "fetched_at": "2026-10-13T10:56:08Z",
   "registry_status": "verified_gleif"
  },
  {
-  "slug": "ruegenwalder-muehle",
-  "name": "Rügenwalder Mühle",
+  "slug": "riso-scotti-spa",
+  "name": "Riso Scotti S.p.A.",
+  "role": "producer",
+  "legal_name": "RISO SCOTTI S.P.A.",
+  "lei": "815600FD694EBCF44005",
+  "register_id": "00164240186",
+  "register_authority": "RA000407",
+  "fn": null,
+  "legal_form_code": "P418",
+  "country": "IT",
+  "address": "VIA PRIVATA CESARE BATTISTI, 2, 20122 MILANO, IT",
+  "entity_status": "ACTIVE",
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Riso Scotti"
+  ],
+  "chains": [
+   "MPreis"
+  ],
+  "product_count": 1,
+  "median_price_eur": 2.39,
+  "median_eur_per_10g_protein": null,
+  "nace": null,
+  "sources": [
+   "https://api.gleif.org/api/v1/lei-records/815600FD694EBCF44005"
+  ],
+  "gleif_match_score": 1.0,
+  "fetched_at": "2026-10-13T11:00:54Z",
+  "registry_status": "verified_gleif"
+ },
+ {
+  "slug": "ruegenwalder-muehle-carl-mueller-gmbh-co-kg",
+  "name": "Rügenwalder Mühle Carl Müller GmbH & Co. KG",
+  "role": "producer",
+  "legal_name": "Rügenwalder Mühle Carl Müller GmbH & Co. KG",
+  "lei": "5299003YOGW9AD7K4H05",
+  "register_id": "HRA 120467",
+  "register_authority": "RA000314",
+  "fn": null,
+  "legal_form_code": "8Z6G",
+  "country": "DE",
+  "address": "Industriestr. 5, 26160 Bad Zwischenahn, DE",
+  "entity_status": "ACTIVE",
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Mühlen"
+  ],
+  "chains": [
+   "Billa"
+  ],
+  "product_count": 1,
+  "median_price_eur": 3.99,
+  "median_eur_per_10g_protein": 8.0,
+  "nace": null,
+  "sources": [
+   "https://api.gleif.org/api/v1/lei-records/5299003YOGW9AD7K4H05"
+  ],
+  "gleif_match_score": 1.0,
+  "fetched_at": "2026-10-13T10:58:44Z",
+  "registry_status": "verified_gleif"
+ },
+ {
+  "slug": "stadtkueche",
+  "name": "Stadtküche",
   "role": "producer",
   "legal_name": null,
   "lei": null,
@@ -2881,18 +4797,96 @@
   "plants": [],
   "approval_codes": null,
   "brands": [
-   "Mühlen"
+   "Stadtküche"
   ],
   "chains": [
    "Billa"
   ],
   "product_count": 1,
-  "median_price_eur": 3.99,
-  "median_eur_per_10g_protein": 8.0,
+  "median_price_eur": 7.49,
+  "median_eur_per_10g_protein": 4.5,
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:32:31Z",
+  "fetched_at": "2026-10-13T11:02:11Z",
+  "registry_status": "not_found_in_gleif"
+ },
+ {
+  "slug": "vegetarische-feinkost-produktion-peter-hiel",
+  "name": "Vegetarische Feinkost Produktion Peter Hiel",
+  "role": "producer",
+  "legal_name": null,
+  "lei": null,
+  "register_id": null,
+  "register_authority": null,
+  "fn": null,
+  "legal_form_code": null,
+  "country": null,
+  "address": null,
+  "entity_status": null,
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Hiel"
+  ],
+  "chains": [
+   "Gurkerl"
+  ],
+  "product_count": 1,
+  "median_price_eur": 4.19,
+  "median_eur_per_10g_protein": 1.7,
+  "nace": null,
+  "sources": [],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-13T11:01:22Z",
+  "registry_status": "not_found_in_gleif"
+ },
+ {
+  "slug": "verband-der-mpreis-partner-jeden-tag",
+  "name": "Verband der MPREIS-Partner / Jeden Tag",
+  "role": "producer",
+  "legal_name": null,
+  "lei": null,
+  "register_id": null,
+  "register_authority": null,
+  "fn": null,
+  "legal_form_code": null,
+  "country": null,
+  "address": null,
+  "entity_status": null,
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Jeden Tag"
+  ],
+  "chains": [
+   "MPreis"
+  ],
+  "product_count": 1,
+  "median_price_eur": 3.99,
+  "median_eur_per_10g_protein": 17.5,
+  "nace": null,
+  "sources": [],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-13T11:00:34Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -2944,7 +4938,46 @@
    "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf"
   ],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:32:25Z",
+  "fetched_at": "2026-10-13T10:58:33Z",
+  "registry_status": "not_found_in_gleif"
+ },
+ {
+  "slug": "whollees-gmbh",
+  "name": "Whollees GmbH",
+  "role": "producer",
+  "legal_name": null,
+  "lei": null,
+  "register_id": null,
+  "register_authority": null,
+  "fn": null,
+  "legal_form_code": null,
+  "country": null,
+  "address": null,
+  "entity_status": null,
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Harvest"
+  ],
+  "chains": [
+   "Billa"
+  ],
+  "product_count": 1,
+  "median_price_eur": 2.59,
+  "median_eur_per_10g_protein": 0.8,
+  "nace": null,
+  "sources": [],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-13T11:02:18Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -2997,7 +5030,7 @@
    "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf"
   ],
   "gleif_match_score": 1.0,
-  "fetched_at": "2026-10-13T01:31:11Z",
+  "fetched_at": "2026-10-13T10:56:11Z",
   "registry_status": "verified_gleif"
  },
  {
@@ -3038,8 +5071,86 @@
    "https://api.gleif.org/api/v1/lei-records/529900YH6DT4UAGNHL65"
   ],
   "gleif_match_score": 1.0,
-  "fetched_at": "2026-10-13T01:30:13Z",
+  "fetched_at": "2026-10-13T10:54:41Z",
   "registry_status": "verified_gleif"
+ },
+ {
+  "slug": "zum-dorfkrug-produktions-und-handelsgesellschaft-mbh-co-kg",
+  "name": "Zum Dorfkrug Produktions- und Handelsgesellschaft mbH & Co. KG",
+  "role": "producer",
+  "legal_name": null,
+  "lei": null,
+  "register_id": null,
+  "register_authority": null,
+  "fn": null,
+  "legal_form_code": null,
+  "country": null,
+  "address": null,
+  "entity_status": null,
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Zum Dorfkrug"
+  ],
+  "chains": [
+   "Gurkerl"
+  ],
+  "product_count": 1,
+  "median_price_eur": 2.59,
+  "median_eur_per_10g_protein": 4.1,
+  "nace": null,
+  "sources": [],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-13T11:01:35Z",
+  "registry_status": "not_found_in_gleif"
+ },
+ {
+  "slug": "deli-gourmet-gmbh",
+  "name": "deli gourmet GmbH",
+  "role": "producer",
+  "legal_name": null,
+  "lei": null,
+  "register_id": null,
+  "register_authority": null,
+  "fn": null,
+  "legal_form_code": null,
+  "country": null,
+  "address": null,
+  "entity_status": null,
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Deli Dip"
+  ],
+  "chains": [
+   "Gurkerl"
+  ],
+  "product_count": 1,
+  "median_price_eur": 3.39,
+  "median_eur_per_10g_protein": 3.3,
+  "nace": null,
+  "sources": [],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-13T11:01:08Z",
+  "registry_status": "not_found_in_gleif"
  },
  {
   "slug": "efko-frischfrucht-und-delikatessen-gmbh",
@@ -3079,7 +5190,48 @@
    "https://api.gleif.org/api/v1/lei-records/52990092YPC9C4JYBN76"
   ],
   "gleif_match_score": 1.0,
-  "fetched_at": "2026-10-13T01:32:20Z",
+  "fetched_at": "2026-10-13T10:58:23Z",
+  "registry_status": "verified_gleif"
+ },
+ {
+  "slug": "followfood-gmbh",
+  "name": "followfood GmbH",
+  "role": "producer",
+  "legal_name": "followfood GmbH",
+  "lei": "529900BHG8J8LULWXG88",
+  "register_id": "HRB 631854",
+  "register_authority": "RA000355",
+  "fn": null,
+  "legal_form_code": "2HBR",
+  "country": "DE",
+  "address": "Metzstr. 2, 88045 Friedrichshafen, DE",
+  "entity_status": "ACTIVE",
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "followfood"
+  ],
+  "chains": [
+   "dm"
+  ],
+  "product_count": 1,
+  "median_price_eur": 2.95,
+  "median_eur_per_10g_protein": 1.9,
+  "nace": null,
+  "sources": [
+   "https://api.gleif.org/api/v1/lei-records/529900BHG8J8LULWXG88"
+  ],
+  "gleif_match_score": 1.0,
+  "fetched_at": "2026-10-13T10:57:51Z",
   "registry_status": "verified_gleif"
  },
  {
@@ -3116,8 +5268,8 @@
    "https://api.gleif.org/api/v1/lei-records/529900MNT8H6TLU4WK98"
   ],
   "gleif_match_score": 1.0,
-  "fetched_at": "2026-10-13T01:33:09Z",
-  "chain_product_count": 218,
+  "fetched_at": "2026-10-13T11:02:40Z",
+  "chain_product_count": 224,
   "registry_status": "verified_gleif"
  },
  {
@@ -3154,7 +5306,7 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:33:30Z",
+  "fetched_at": "2026-10-13T11:03:02Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -3189,47 +5341,9 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:33:10Z",
-  "chain_product_count": 35,
+  "fetched_at": "2026-10-13T11:02:46Z",
+  "chain_product_count": 40,
   "registry_status": "not_found_in_gleif"
- },
- {
-  "slug": "mpreis-warenvertriebs-gmbh",
-  "name": "MPREIS Warenvertriebs GmbH",
-  "role": "retailer",
-  "legal_name": "MPREIS Warenvertriebs GmbH",
-  "lei": "5299007HKZK4RSU17874",
-  "register_id": "43603y",
-  "register_authority": "RA000017",
-  "fn": "FN 43603y",
-  "legal_form_code": "AXSB",
-  "country": "AT",
-  "address": "Landesstraße 16, 6176 Völs, AT",
-  "entity_status": "ACTIVE",
-  "parent_direct": null,
-  "parent_ultimate": null,
-  "parent_ultimate_lei": null,
-  "founded": null,
-  "owners": null,
-  "management": null,
-  "employees": null,
-  "revenue": null,
-  "website": null,
-  "plants": [],
-  "approval_codes": null,
-  "brands": [],
-  "chains": [],
-  "product_count": 0,
-  "median_price_eur": null,
-  "median_eur_per_10g_protein": null,
-  "nace": null,
-  "sources": [
-   "https://api.gleif.org/api/v1/lei-records/5299007HKZK4RSU17874"
-  ],
-  "gleif_match_score": 1.0,
-  "fetched_at": "2026-10-13T01:33:22Z",
-  "chain_product_count": 0,
-  "registry_status": "verified_gleif"
  },
  {
   "slug": "penny-gmbh",
@@ -3263,45 +5377,8 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:33:12Z",
-  "chain_product_count": 12,
-  "registry_status": "not_found_in_gleif"
- },
- {
-  "slug": "planted-foods-ag",
-  "name": "Planted Foods AG",
-  "role": "brand_owner",
-  "legal_name": null,
-  "lei": null,
-  "register_id": null,
-  "register_authority": null,
-  "fn": null,
-  "legal_form_code": null,
-  "country": "CH",
-  "address": null,
-  "entity_status": null,
-  "parent_direct": null,
-  "parent_ultimate": null,
-  "parent_ultimate_lei": null,
-  "founded": null,
-  "owners": null,
-  "management": null,
-  "employees": null,
-  "revenue": null,
-  "website": null,
-  "plants": [],
-  "approval_codes": null,
-  "brands": [
-   "planted"
-  ],
-  "chains": [],
-  "product_count": 0,
-  "median_price_eur": null,
-  "median_eur_per_10g_protein": null,
-  "nace": null,
-  "sources": [],
-  "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:33:25Z",
+  "fetched_at": "2026-10-13T11:02:49Z",
+  "chain_product_count": 17,
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -3338,57 +5415,9 @@
    "https://api.gleif.org/api/v1/lei-records/529900VPZ1K9QECCLM53"
   ],
   "gleif_match_score": 1.0,
-  "fetched_at": "2026-10-13T01:33:17Z",
+  "fetched_at": "2026-10-13T11:02:56Z",
   "chain_product_count": 0,
   "registry_status": "verified_gleif"
- },
- {
-  "slug": "rewe-austria-genusskueche-gmbh",
-  "name": "Rewe Austria Genussküche GmbH",
-  "role": "producer",
-  "legal_name": null,
-  "lei": null,
-  "register_id": null,
-  "register_authority": null,
-  "fn": null,
-  "legal_form_code": null,
-  "country": null,
-  "address": null,
-  "entity_status": null,
-  "parent_direct": null,
-  "parent_ultimate": null,
-  "parent_ultimate_lei": null,
-  "founded": "2002; Traiskirchen seit 2017",
-  "owners": "REWE Group",
-  "management": null,
-  "employees": "ca. 120",
-  "revenue": "nicht öffentlich gefunden",
-  "website": "https://rewe-group.jobs/de/wir-als-arbeitgeber/fachbereiche/fleischwaren/genusskueche",
-  "plants": [
-   {
-    "address": "Betriebsstraße 2, 2512 Traiskirchen",
-    "approval_code": "AT 32629 EG",
-    "lat": 47.9834508,
-    "lon": 16.2817004,
-    "source": "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf"
-   }
-  ],
-  "approval_codes": "AT 32629 EG",
-  "brands": [],
-  "chains": [],
-  "product_count": 0,
-  "median_price_eur": null,
-  "median_eur_per_10g_protein": null,
-  "nace": null,
-  "sources": [
-   "https://rewe-group.jobs/de/wir-als-arbeitgeber/fachbereiche/fleischwaren/genusskueche",
-   "https://www.noen.at/baden/traiskirchen-grosskueche-schafft-60-neue-arbeitsplaetze-top-13414514",
-   "https://www.evi.gv.at/f/204764z",
-   "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf"
-  ],
-  "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:33:36Z",
-  "registry_status": "not_found_in_gleif"
  },
  {
   "slug": "spar-oesterreichische-warenhandels-aktiengesellschaft",
@@ -3424,8 +5453,8 @@
    "https://api.gleif.org/api/v1/lei-records/529900Y9ZL3RKKWV4276"
   ],
   "gleif_match_score": 1.0,
-  "fetched_at": "2026-10-13T01:33:06Z",
-  "chain_product_count": 587,
+  "fetched_at": "2026-10-13T11:02:36Z",
+  "chain_product_count": 596,
   "registry_status": "verified_gleif"
  },
  {
@@ -3460,7 +5489,7 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:33:19Z",
+  "fetched_at": "2026-10-13T11:02:59Z",
   "chain_product_count": 0,
   "registry_status": "not_found_in_gleif"
  },
@@ -3496,8 +5525,8 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:33:14Z",
-  "chain_product_count": 23,
+  "fetched_at": "2026-10-13T11:02:53Z",
+  "chain_product_count": 33,
   "registry_status": "not_found_in_gleif"
  }
 ]

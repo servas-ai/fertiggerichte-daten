@@ -14,7 +14,8 @@ ALIAS = {"billa": "BILLA AG", "unilever austria": "Unilever Austria GmbH", "iglo
  "mars austria": "Mars Austria OG", "radatz": "Radatz - Feine Wiener Fleischwaren GmbH",
  "ja natuerlich": "Ja! Natürlich Naturprodukte Gesellschaft m.b.H.", "efko": "efko Frischfrucht und Delikatessen GmbH",
  "amlacher nudeln": "Amlacher Nudeln", "josef recheis": "Recheis Teigwaren GmbH", "hamkervertriebsgesellschaftmbh": "Hamker Vertriebsgesellschaft mbH",
- "lab alimentare cecchin": "Laboratorio Alimentare Cecchin Andrea e Carlo srl", "dr schaer": "Dr. Schär AG"}
+ "lab alimentare cecchin": "Laboratorio Alimentare Cecchin Andrea e Carlo srl", "dr schaer": "Dr. Schär AG",
+ "ruegenwalder muehle": "Rügenwalder Mühle Carl Müller GmbH & Co. KG"}
 RETAIL = [("billa","BILLA AG","AT"),("spar","SPAR Österreichische Warenhandels-Aktiengesellschaft","AT"),("hofer","HOFER KG","AT"),
  ("lidl","Lidl Österreich GmbH","AT"),("penny","PENNY GmbH","AT"),("dm","dm drogerie markt GmbH","AT"),
  ("rewe-international","REWE International AG","AT"),("unimarkt","Unimarkt GmbH","AT"),("mpreis","MPREIS Warenvertriebs GmbH","AT")]
