@@ -1,0 +1,2911 @@
+{
+ "generated_at": "2026-10-13T21:38:13+00:00",
+ "run": "Daten-Squad 2026-10-13T21b",
+ "rows_checked": 167,
+ "matched": 19,
+ "note": "Store-less Open Food Facts rows matched only on exact GTIN. BILLA/SPAR/PENNY public JSON has no GTIN -> not used (no name-only guessing). Unmatched rows stay OFF-only.",
+ "evidence": [
+  {
+   "ean": "9003903430203",
+   "name": "Puten-Knacker",
+   "brand": "Greisinger",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Berger Puten-Frankfurter",
+     "ean": "9001455001414"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Reiter Knacker",
+     "ean": "9012100020551"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Radatz Putenknacker",
+     "ean": "9001369002026"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "4061459832143",
+   "name": "Veganer Eintopf | Linsen",
+   "brand": "My Vay",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Alnatura BIO Linseneintopf",
+     "ean": "4104420256712"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Suppito Linseneintopf mediterran",
+     "ean": "9002235925272"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Alnatura BIO Linseneintopf mit Gemüse und Rind",
+     "ean": "4104420145467"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9017100001456",
+   "name": "Gulasch Suppe",
+   "brand": null,
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Pappudia Gulaschsuppe",
+     "ean": "8595643816016"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Radatz Gulaschsuppe",
+     "ean": "9001426028426"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Knorr Meisterkessel Gulaschsuppe",
+     "ean": "16338003"
+    },
+    {
+     "store": "MPreis",
+     "name": "Meister Kessel Gulaschsuppe",
+     "ean": "9000275633812"
+    },
+    {
+     "store": "MPreis",
+     "name": "Gulaschsuppe",
+     "ean": "9017100002897"
+    },
+    {
+     "store": "MPreis",
+     "name": "Gulaschsuppe",
+     "ean": "9000295831168"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "4056489309345",
+   "name": "Nudel suppe",
+   "brand": "Kania",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Pappudia Rindssuppe mit Fleisch und Nudeln",
+     "ean": "8595643816023"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Knorr Bitte zu Tisch ABC Buchstaben Suppe",
+     "ean": "9000275772115"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Knorr Meisterkessel XL Leberknödelsuppe",
+     "ean": "8717163804377"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "8720182940285",
+   "name": "Steinpilz Creme Suppe",
+   "brand": "Knorr",
+   "checked": [
+    {
+     "store": "MPreis",
+     "name": "Kaiser Teller Tomatencreme Suppe",
+     "ean": "8720182174765"
+    },
+    {
+     "store": "MPreis",
+     "name": "Kaiser Teller Kürbiscremesuppe",
+     "ean": "8720182937070"
+    },
+    {
+     "store": "MPreis",
+     "name": "Kaiser Teller Knoblauchcremesuppe",
+     "ean": "9000275650611"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "24085403",
+   "name": "Klare Suppe ",
+   "brand": "Le Gusto",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Knorr Bitte zu Tisch ABC Buchstaben Suppe",
+     "ean": "9000275772115"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Knorr Klare Suppenwürfel",
+     "ean": "8720182370761"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9000275497612",
+   "name": "Hühner Suppe",
+   "brand": "Knorr",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Radatz Hühnersuppe",
+     "ean": "9001426128553"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Knorr Goldaugen Rindfleischsuppe",
+     "ean": "8720182371171"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Alnatura BIO Hühnerbouillon Würfel",
+     "ean": "4104420030947"
+    },
+    {
+     "store": "MPreis",
+     "name": "Hühnersuppe Würfel",
+     "ean": "8721497015774"
+    },
+    {
+     "store": "MPreis",
+     "name": "Bitte zu Tisch Hühnersuppe",
+     "ean": "8720182940827"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9000275603518",
+   "name": "Eierschwammerl Suppe",
+   "brand": "Knorr, Kaiser Teller",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Knorr Meisterkessel Serbische Bohnensuppe",
+     "ean": "9000275633911"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Knorr Meisterkessel Kartoffelsuppe mit Pilzen",
+     "ean": "9000275637216"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Knorr Meisterkessel Gulaschsuppe",
+     "ean": "16338003"
+    },
+    {
+     "store": "MPreis",
+     "name": "Kaiser Teller Eierschwammerlsuppe",
+     "ean": "8720182937995"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9009865009297",
+   "name": "Rote Linsen Suppe mit Kokosmilch",
+   "brand": "Simply Good",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Followfood BIO Rote Linsen Suppe",
+     "ean": "4260655551203"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9002682104336",
+   "name": "Klare Suppe Mit Rind",
+   "brand": "Delikatessa",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Radatz Rindssuppe",
+     "ean": "9001426009258"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Pappudia Rindssuppe mit Fleisch und Nudeln",
+     "ean": "8595643816023"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Knorr Goldaugen Rindfleischsuppe",
+     "ean": "8720182371171"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9009865009266",
+   "name": "Susskartoffel suppe",
+   "brand": "Simply good",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Frank Soup BIO Süsskartoffelsuppe mit Curry - gekühlt",
+     "ean": "4260434440803"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "8720182937070",
+   "name": "Kürbiscreme Suppe mit Kürbisstückchen",
+   "brand": "Knorr",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Radatz Kürbiscremesuppe",
+     "ean": "9001426028525"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Suppito Kürbiscreme Suppe",
+     "ean": "9002235921311"
+    },
+    {
+     "store": "MPreis",
+     "name": "Kaiser Teller Kürbiscremesuppe",
+     "ean": "8720182937070"
+    }
+   ],
+   "match": {
+    "store": "MPreis",
+    "name": "Kaiser Teller Kürbiscremesuppe",
+    "brand": "Knorr",
+    "price_eur": 1.59,
+    "size_g": null,
+    "url": "https://www.mpreis.at/shop/p/knorr-kaiser-teller-kuerbiscremesuppe-281210",
+    "image_url": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1783973087/api/281210_front.jpg",
+    "store_ean": "8720182937070",
+    "method": "gtin-exact"
+   }
+  },
+  {
+   "ean": "9002668542237",
+   "name": "Pastrami",
+   "brand": "Wiesbauer",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "4260189684125",
+   "name": "Veganes Curry typ Butter Chicken",
+   "brand": "Tress Brüder",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "HOFMANNs Gelbes Curry \"Butter Chicken Style\" (tiefgekühlt)",
+     "ean": "4046149267061"
+    },
+    {
+     "store": "dm",
+     "name": "TRESSBRÜDER Fertiggericht Typ Butter Chicken Curry",
+     "ean": "4260189683630"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9001414040928",
+   "name": "Curry-Madras Pikant",
+   "brand": "Kotanyi",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Stay Spiced! Madras Curry, kräftig & elegant",
+     "ean": "9010084031990"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9002674018740",
+   "name": "Erdnuss Thai Curry",
+   "brand": "Gourmet",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Alnatura BIO Rote Thai Curry Paste",
+     "ean": "4104420028647"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Blue Elephant Thai Yellow Curry Paste",
+     "ean": "8854404000225"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Alnatura BIO Kokos Curry thailändische Art",
+     "ean": "4104420212794"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "7610071221056",
+   "name": "Curry mild",
+   "brand": "McCormick",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Kotányi Curry Powder Gewürzzubereitung Glas klein",
+     "ean": "9001414040119"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "TRS Curry Powder Madras mild",
+     "ean": "5017689002732"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Geeta´s Korma Curry Paste",
+     "ean": "5021185832021"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9002600632279",
+   "name": "Curry Madras - Pure Beef",
+   "brand": "inzersdorfer",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Inzersdorfer Pure Beef Sugo Bolognese",
+     "ean": "9002600655025"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9004145073326",
+   "name": "Curry süß",
+   "brand": "Sonnentor",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Kotányi Curry Powder Gewürzzubereitung Glas klein",
+     "ean": "9001414040119"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Soletti Wilde Brezel Oriental Curry Style",
+     "ean": "9000159162360"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Alnatura BIO Curry",
+     "ean": "4104420028265"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9120115110430",
+   "name": "Bio Hühnercurry mit roten Linsen",
+   "brand": "Limoni's",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "20985028",
+   "name": "Mango chicken curry",
+   "brand": null,
+   "checked": [
+    {
+     "store": "MPreis",
+     "name": "Indian Style Mango Chicken",
+     "ean": "4260334166162"
+    },
+    {
+     "store": "MPreis",
+     "name": "Butter Chicken Currypaste",
+     "ean": "5021185833783"
+    },
+    {
+     "store": "MPreis",
+     "name": "Hummus Curry Mango",
+     "ean": "90417481"
+    },
+    {
+     "store": "dm",
+     "name": "dmBio Veganes No-Chicken Curry",
+     "ean": "4070765057560"
+    },
+    {
+     "store": "dm",
+     "name": "ALLOS Brotaufstrich aufs Brot Mango Curry",
+     "ean": "4016249150358"
+    },
+    {
+     "store": "dm",
+     "name": "TRESSBRÜDER Fertiggericht Typ Butter Chicken Curry",
+     "ean": "4260189683630"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9010437000925",
+   "name": "BILLA Risotto allo zafferano",
+   "brand": "Billa",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "8008481808490",
+   "name": "Risotto mit Steinpilze",
+   "brand": "Ben Fatto",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Ben Fatto Steinpilz Risotto",
+     "ean": "8008481808490"
+    }
+   ],
+   "match": {
+    "store": "Gurkerl.at",
+    "name": "Ben Fatto Steinpilz Risotto",
+    "brand": "Golfera",
+    "price_eur": 5.69,
+    "size_g": 250.0,
+    "url": "https://www.gurkerl.at/32481-ben-fatto-steinpilz-risotto",
+    "image_url": "https://cdn.gurkerl.at/images/grocery/products/32481/32481-1729233104755.jpg",
+    "store_ean": "8008481808490",
+    "method": "gtin-exact"
+   }
+  },
+  {
+   "ean": "4099200211404",
+   "name": "Rauchkartee geschnitten",
+   "brand": "Hutthaler",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Warhanek Räucherlachs geschnitten",
+     "ean": "9006382982546"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Handl Tyrol AMA Feines Karree Leicht geschnitten",
+     "ean": "9001745055974"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Hütthaler Puten-Extrawurst geschnitten",
+     "ean": "9005298064360"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9000275639012",
+   "name": "Gulasch",
+   "brand": "Knorr",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Knorr Meisterkessel Gulaschsuppe",
+     "ean": "16338003"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Knorr Meisterkessel Feurige Gulaschsuppe",
+     "ean": "9000275493713"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Knorr Basis Gulasch",
+     "ean": "8710604740784"
+    },
+    {
+     "store": "MPreis",
+     "name": "Meister Kessel Gulaschsuppe",
+     "ean": "9000275633812"
+    },
+    {
+     "store": "MPreis",
+     "name": "Gulaschsaft Würfel",
+     "ean": "8720182347275"
+    },
+    {
+     "store": "MPreis",
+     "name": "Feinschmeckersauce Gulaschsaft",
+     "ean": "9000275661914"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9009865004353",
+   "name": "Bohnen Gulasch Xxl",
+   "brand": "Chef Menü",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Inzersdorfer Bohnengulasch",
+     "ean": "9017100001319"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9120118928834",
+   "name": "Edelpilz Gulasch",
+   "brand": "Goldblatt",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Knorr Meisterkessel Gulaschsuppe",
+     "ean": "16338003"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Hut & Stiel BIO Wiener Schwammerl Gulasch",
+     "ean": "9120087450084"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "4000345046486",
+   "name": "Natur Compagnie Feine Suppe Kürbiscreme",
+   "brand": "Natur Compagnie",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "9010437031059",
+   "name": "Tuna-Salat Mexiko-Art Vegan",
+   "brand": "VEGA VITA VON BILLA",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "9000275487712",
+   "name": "Serbisches Reisfleisch",
+   "brand": "Knorr",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Gissinger Reisfleisch",
+     "ean": null
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Inzersdorfer Reisfleisch",
+     "ean": "9017100001159"
+    },
+    {
+     "store": "MPreis",
+     "name": "Basis Serbisches Reisfleisch",
+     "ean": "9000275487712"
+    }
+   ],
+   "match": {
+    "store": "MPreis",
+    "name": "Basis Serbisches Reisfleisch",
+    "brand": "Knorr",
+    "price_eur": 1.39,
+    "size_g": null,
+    "url": "https://www.mpreis.at/shop/p/knorr-basis-serbisches-reisfleisch-282030",
+    "image_url": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1783973598/api/282030_front.jpg",
+    "store_ean": "9000275487712",
+    "method": "gtin-exact"
+   }
+  },
+  {
+   "ean": "4260237451068",
+   "name": "veggie Chili sin Carne",
+   "brand": "Lotao",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Lotao BIO Chili sin Carne mit Veggie Hack vegan",
+     "ean": "4260237451068"
+    }
+   ],
+   "match": {
+    "store": "Gurkerl.at",
+    "name": "Lotao BIO Chili sin Carne mit Veggie Hack vegan",
+    "brand": "Lotao",
+    "price_eur": 3.59,
+    "size_g": 320.0,
+    "url": "https://www.gurkerl.at/26639-lotao-bio-chili-sin-carne-mit-veggie-hack-vegan",
+    "image_url": "https://cdn.gurkerl.at/images/grocery/products/26639/26639-1674741726391.jpg",
+    "store_ean": "4260237451068",
+    "method": "gtin-exact"
+   }
+  },
+  {
+   "ean": "4061459062830",
+   "name": "Bohneneintopf",
+   "brand": "Rettenswert",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Radatz Bohneneintopf mit Selchfleisch",
+     "ean": null
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9010437014854",
+   "name": "Thunfischsalat",
+   "brand": "Billa",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Wojnar Thunfischsalat",
+     "ean": "9011600001107"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9000275637216",
+   "name": "Kartoffelsuppe mit Pilzen",
+   "brand": "Knorr",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Knorr Meisterkessel Kartoffelsuppe mit Pilzen",
+     "ean": "9000275637216"
+    }
+   ],
+   "match": {
+    "store": "Gurkerl.at",
+    "name": "Knorr Meisterkessel Kartoffelsuppe mit Pilzen",
+    "brand": "Knorr",
+    "price_eur": 4.69,
+    "size_g": 500.0,
+    "url": "https://www.gurkerl.at/9723-knorr-meisterkessel-kartoffelsuppe-mit-pilzen",
+    "image_url": "https://cdn.gurkerl.at/images/grocery/products/9723/9723-1706798300947.jpg",
+    "store_ean": "9000275637216",
+    "method": "gtin-exact"
+   }
+  },
+  {
+   "ean": "9000275626814",
+   "name": "Knorr Kaiserteller Gourmet Tomatensuppe",
+   "brand": "Knorr",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "5760466878333",
+   "name": "Thaisoppa",
+   "brand": "Arla",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "5038862131193",
+   "name": "Gaspacho tomate, paprika et concombre",
+   "brand": "innocent",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "9010437028196",
+   "name": "Buchstabensuppe",
+   "brand": "Clever",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "4061458278928",
+   "name": "Grießpudding High-Protein - Pur/Classic",
+   "brand": "Milsani",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "4061458153805",
+   "name": "High Protein Pudding Vanilla Flavour",
+   "brand": "Crane",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Müller High Protein Vanille Pudding",
+     "ean": "4025500294366"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9035000007293",
+   "name": "Danone Dany Sahne Schoko 190g",
+   "brand": "Danny",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Danone Dany Sahne Schokolade",
+     "ean": "9035000007293"
+    }
+   ],
+   "match": {
+    "store": "Gurkerl.at",
+    "name": "Danone Dany Sahne Schokolade",
+    "brand": "Danone",
+    "price_eur": 0.99,
+    "size_g": 190.0,
+    "url": "https://www.gurkerl.at/2055-danone-dany-sahne-schokolade",
+    "image_url": "https://cdn.gurkerl.at/images/grocery/products/2055/2055-1603115370722.jpg",
+    "store_ean": "9035000007293",
+    "method": "gtin-exact"
+   }
+  },
+  {
+   "ean": "4001724819905",
+   "name": "Ristorante Pizza Vegetar 370g",
+   "brand": "DR.OETKER RISTORANTE",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Dr. Oetker Ristorante Pizza Salame (tiefgekühlt)",
+     "ean": "4001724038900"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Dr. Oetker Ristorante Pizza Mozzarella (tiefgekühlt)",
+     "ean": "4001724039112"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Dr. Oetker Ristorante Pizza Tonno (tiefgekühlt)",
+     "ean": "4001724038993"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9000295836866",
+   "name": "American Style Macaroni & Cheese",
+   "brand": "Felix",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "9100000714684",
+   "name": "Makkaroni al forno",
+   "brand": null,
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "9100000987408",
+   "name": "Linguine mit Meeresfrüchten",
+   "brand": "Spar Linguine",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "9009865009099",
+   "name": "Venecia Fusilli Bowl",
+   "brand": "Simply Good",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "9100000450278",
+   "name": "pizza",
+   "brand": "despar",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "9002235301519",
+   "name": "Pulled chicken masala bowl",
+   "brand": null,
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Freshery Tikka Masala Bowl mit Hühnerfleisch",
+     "ean": "8588010562173"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "5411188137863",
+   "name": "Danone ALPRO® Dessert Soja Schokolade High Protein 200g",
+   "brand": "alpro",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Alpro® Soja-Dessert Dunkle Schokolade Feinherb 4x125g",
+     "ean": "5411188091622"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Alpro® Soja-Dessert Schokolade 4x125g",
+     "ean": "5411188128137"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9100000772028",
+   "name": "Schoki Pudding",
+   "brand": "S-Budget",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Landliebe Sahnepudding Schoko",
+     "ean": "4067517001759"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Müller High Protein Schoko Pudding",
+     "ean": "4025500294342"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Landliebe Sahnepudding Vanille",
+     "ean": "4067517001766"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "4040600015406",
+   "name": "Sahne Pudding Vanille",
+   "brand": "Landliebe",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Landliebe Sahnepudding Vanille",
+     "ean": "4067517001766"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Landliebe Sahnepudding Schoko",
+     "ean": "4067517001759"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Müller High Protein Vanille Pudding",
+     "ean": "4025500294366"
+    },
+    {
+     "store": "MPreis",
+     "name": "Sahnepudding Vanille",
+     "ean": "4067517001766"
+    },
+    {
+     "store": "MPreis",
+     "name": "Sahnepudding Schoko",
+     "ean": "4067517001759"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "4040600026266",
+   "name": "Grießpudding Schokolade",
+   "brand": "LANDLIEBE",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Landliebe Grießpudding Schokolade",
+     "ean": "4067517001308"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Landliebe Grießpudding Traditionell",
+     "ean": "4067517001735"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Landliebe Grießpudding Zimt",
+     "ean": "4067517001315"
+    },
+    {
+     "store": "MPreis",
+     "name": "Grießpudding Schokolade",
+     "ean": "4067517001308"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9010437025645",
+   "name": "Protein Schokopudding",
+   "brand": "BILLA",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Müller High Protein Schoko Pudding",
+     "ean": "4025500294342"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Müller High Protein Vanille Pudding",
+     "ean": "4025500294366"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Müller High Protein Mousse Schoko",
+     "ean": "4025500272999"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "4040600067511",
+   "name": "Sahne Pudding Bourbon Vanille",
+   "brand": "Landliebe",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Landliebe Sahnepudding Schoko",
+     "ean": "4067517001759"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Landliebe Sahnepudding Vanille",
+     "ean": "4067517001766"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Müller High Protein Vanille Pudding",
+     "ean": "4025500294366"
+    },
+    {
+     "store": "MPreis",
+     "name": "Sahnepudding Vanille",
+     "ean": "4067517001766"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "40463650",
+   "name": "Pudding zuckerreduziert",
+   "brand": "Rottaler",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Landliebe Sahnepudding Schoko",
+     "ean": "4067517001759"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Müller High Protein Vanille Pudding",
+     "ean": "4025500294366"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Landliebe Sahnepudding Vanille",
+     "ean": "4067517001766"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "4250519666587",
+   "name": "Designer Rice Pudding",
+   "brand": "ESN",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "2308325005020",
+   "name": "Rindsgulaschfleisch",
+   "brand": "Greisinger",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "4008391033009",
+   "name": "Brühe - Klare Suppe",
+   "brand": "Seitenbacher",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Knorr Klare Suppenwürfel",
+     "ean": "8720182370761"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "8714100760895",
+   "name": "Waldpilzcreme Suppe 2Port. a 250g",
+   "brand": "Knorr",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "4006040271130",
+   "name": "Gemüsebrühe",
+   "brand": "Rapunzel",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "9010437032780",
+   "name": "Pho Suppe mit Huhn",
+   "brand": "Billa",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Steirerhuhn AMA Suppenfleisch (Rücken mit Knochen)",
+     "ean": null
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9000275770623",
+   "name": "Fleischklößchen Suppe",
+   "brand": "Knorr",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Knorr Goldaugen Rindfleischsuppe",
+     "ean": "8720182371171"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Knorr Bitte zu Tisch ABC Buchstaben Suppe",
+     "ean": "9000275772115"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Knorr Bitte zu Tisch Grießnockerlsuppe",
+     "ean": "8711200430000"
+    },
+    {
+     "store": "MPreis",
+     "name": "Bitte zu Tisch Fleischklößchensuppe",
+     "ean": "8720182143631"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9002682103117",
+   "name": "Leberknödel Suppe",
+   "brand": null,
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Radatz Leberknödel 4 Stück",
+     "ean": "9001426005274"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Gissinger Leberknödel",
+     "ean": "9048130046438"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Knorr Meisterkessel XL Leberknödelsuppe",
+     "ean": "8717163804377"
+    },
+    {
+     "store": "MPreis",
+     "name": "Meister Kessel Leberknödelsuppe",
+     "ean": "9000275634314"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9000275769016",
+   "name": "Knorr Sonntags Suppe",
+   "brand": "Knorr",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Knorr Goldaugen Rindfleischsuppe",
+     "ean": "8720182371171"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Knorr Gemüsesuppenwürfel",
+     "ean": "8720182372420"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Knorr Bitte zu Tisch ABC Buchstaben Suppe",
+     "ean": "9000275772115"
+    },
+    {
+     "store": "MPreis",
+     "name": "Meister Kessel Südtiroler Bauernsuppe",
+     "ean": "9000275637315"
+    },
+    {
+     "store": "MPreis",
+     "name": "Meister Kessel Serbische Bohnensuppe",
+     "ean": "9000275633911"
+    },
+    {
+     "store": "MPreis",
+     "name": "Meister Kessel Rindsuppe",
+     "ean": "9000275637810"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "4061462153587",
+   "name": "Knoblauchcreme Suppe",
+   "brand": "Le Gusto",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Radatz Knoblauchcremesuppe",
+     "ean": "9001426028464"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Knorr Meisterkessel Kartoffelsuppe mit Pilzen",
+     "ean": "9000275637216"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "4260559942992",
+   "name": "Süßkartoffel-Lauch Suppe",
+   "brand": "Fit Taste",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Followfood BIO Suppe Kartoffel mit Lauch",
+     "ean": "4280001516670"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Frank Soup BIO Süsskartoffelsuppe mit Curry - gekühlt",
+     "ean": "4260434440803"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9120113491784",
+   "name": "Fenchel Kartoffel Suppe",
+   "brand": "Flotte Lotte",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Followfood BIO Suppe Kartoffel mit Lauch",
+     "ean": "4280001516670"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9002668541018",
+   "name": "Bersteiger",
+   "brand": "Wiesbauer",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "9002668514517",
+   "name": "Scharfe Knacker XXL",
+   "brand": "Wiesbauer",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "4069384000019",
+   "name": "Onigiri Salmon Curry",
+   "brand": "Mowi",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "7640161876828",
+   "name": "Veggie curry",
+   "brand": "Holle",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Holle BIO Veggie Bunny - Pouchy Karotte, Süsskartoffel, Erbsen",
+     "ean": "7640161877061"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "4002359632099",
+   "name": "Uncle Bens Rotes Cremiges Curry",
+   "brand": "Uncle Ben's",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "9000295834169",
+   "name": "Curry Linsen u Melanzanie",
+   "brand": "Felix",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Bonduelle Linsen Curry",
+     "ean": "3083681165296"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9009865009129",
+   "name": "Thai Red Chicken Curry",
+   "brand": "Simply Good",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "24090483",
+   "name": "Nudelsalat Curry",
+   "brand": null,
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Freshery Red Curry Bowl mit geräuchertem Tofu",
+     "ean": "8588010562180"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Every. Green Curry Noodles (tiefgekühlt)",
+     "ean": "4260753371406"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Pappudia Yellow Chickencurry mit Reis",
+     "ean": "8595643816221"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "8717163927779",
+   "name": "Curry Couscous",
+   "brand": "Knorr",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "8001420003413",
+   "name": "Risotto carnaroli",
+   "brand": "Gallo",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Kitchin Risottoreis Arborio",
+     "ean": "8595643819253"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Campanini Carnaroli Reis",
+     "ean": "8000193000490"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9066053371109",
+   "name": "Risotto verde",
+   "brand": "Every",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Casale Paradiso Risotto mit grünem Spargel",
+     "ean": "8018370001789"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "7099740013404",
+   "name": "Steinpilz Risotto",
+   "brand": "Bio Natura",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Alnatura BIO Risotto Reis Ribe",
+     "ean": "4104420247659"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Ben Fatto Steinpilz Risotto",
+     "ean": "8008481808490"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Ben's Original Express Risotto Hühnchen & Pilze",
+     "ean": "3487400005359"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9000295833322",
+   "name": "Zuppa di Gulasch",
+   "brand": "Felix",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Pappudia Gulaschsuppe",
+     "ean": "8595643816016"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Radatz Gulaschsuppe",
+     "ean": "9001426028426"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Pappudia Ungarisches Gulasch mit Knödel",
+     "ean": "8595643815972"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9120087450084",
+   "name": "Wiener Schwammerl Gulasch",
+   "brand": "Hut&Stiel",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Hut & Stiel BIO Wiener Schwammerl Gulasch",
+     "ean": "9120087450084"
+    }
+   ],
+   "match": {
+    "store": "Gurkerl.at",
+    "name": "Hut & Stiel BIO Wiener Schwammerl Gulasch",
+    "brand": "Hut & Stiel",
+    "price_eur": 7.19,
+    "size_g": 320.0,
+    "url": "https://www.gurkerl.at/35433-hut-stiel-bio-wiener-schwammerl-gulasch",
+    "image_url": "https://cdn.gurkerl.at/images/grocery/products/35433/35433-1727182240017.jpg",
+    "store_ean": "9120087450084",
+    "method": "gtin-exact"
+   }
+  },
+  {
+   "ean": "9003980042795",
+   "name": "Gulasch",
+   "brand": "Ströck",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Gissinger Erdäpfelgulasch",
+     "ean": null
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Rinder Gulaschfleisch am Stück",
+     "ean": null
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Pappudia Gulaschsuppe",
+     "ean": "8595643816016"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "2724528010003",
+   "name": "Kalbs Gulasch",
+   "brand": "Radatz",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Radatz Kalbsleber Streichwurst Bits",
+     "ean": "9001369000640"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "8712100805431",
+   "name": "XL Gulaschsuppe",
+   "brand": "Knorr",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Pappudia Gulaschsuppe",
+     "ean": "8595643816016"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Radatz Gulaschsuppe",
+     "ean": "9001426028426"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Knorr Meisterkessel Gulaschsuppe",
+     "ean": "16338003"
+    },
+    {
+     "store": "MPreis",
+     "name": "Meister Kessel Gulaschsuppe",
+     "ean": "9000275633812"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9010437047494",
+   "name": "Chili Sin Carne",
+   "brand": "Billa",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Every. Chili sin Carne (tiefgekühlt)",
+     "ean": "4260753371895"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Feel Food BIO Chili Sin Carne",
+     "ean": "4262407680131"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Bonduelle Chili sin Carne",
+     "ean": "3083681040609"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9100000837246",
+   "name": "Caesars Salat",
+   "brand": "Spar Enjoy",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "9002890019071",
+   "name": "American Pulled Chicken",
+   "brand": "Wech",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Wech \"Pulled Chicken\"",
+     "ean": "9002890019071"
+    }
+   ],
+   "match": {
+    "store": "Gurkerl.at",
+    "name": "Wech \"Pulled Chicken\"",
+    "brand": "Wech Geflügel",
+    "price_eur": 7.59,
+    "size_g": 440.0,
+    "url": "https://www.gurkerl.at/32793-wech-pulled-chicken",
+    "image_url": "https://cdn.gurkerl.at/images/grocery/products/32793/32793-1713863705776.jpg",
+    "store_ean": "9002890019071",
+    "method": "gtin-exact"
+   }
+  },
+  {
+   "ean": "4056489862710",
+   "name": "Chicken Tikka Masala",
+   "brand": "Chef Select",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Hähnchen Tikka Masala mit Safranreis von Mahavira Kanswala",
+     "ean": "8595643803054"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9010437037631",
+   "name": "Karotten Cremesuppe mit Ingwer",
+   "brand": "Billa",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Radatz Karotten Ingwer Suppe",
+     "ean": "9001426028341"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9002600645118",
+   "name": "Kräftige Hühnersuppe",
+   "brand": "Inzersdorfer",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Radatz Hühnersuppe",
+     "ean": "9001426128553"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Podravka Hühnersuppe mit Nudeln",
+     "ean": "3850104003189"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Knorr Hühnersuppenwürfel",
+     "ean": "9000275600913"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "4002473843456",
+   "name": "Mediterrane Tomatensuppe mit Basilikum",
+   "brand": "weight watchers",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "8711200340521",
+   "name": "Suppen Snack Tomate",
+   "brand": "Knorr",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "9000275611612",
+   "name": "Linsensuppe mit Speck",
+   "brand": "Knorr",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Inzersdorfer Linsen mit Speck",
+     "ean": "9017100001135"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Felix Linsen mit Speck",
+     "ean": "9000295832486"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Felix Linsen mit Speck",
+     "ean": "9000295832349"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9054818225323",
+   "name": "Zuppa del Casale",
+   "brand": "Findus",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "5411188091622",
+   "name": "Dessert Dark Chocolate",
+   "brand": "Danone Belux nv",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "5411188137887",
+   "name": "Danone ALPRO® Dessert Soja Vanille High Protein 200g",
+   "brand": "alpro",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Miil High Protein Vanille Topfendessert",
+     "ean": "8595643815606"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Alpro® Soja-Dessert Feine Vanille 4x125g",
+     "ean": "5411188128113"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9010437033909",
+   "name": "Topfencreme Vanille Schoko",
+   "brand": "BILLA",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "nöm PRO Protein Topfencreme Vanille",
+     "ean": "9019100655608"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "nöm PRO Protein Topfencreme Schoko Banane",
+     "ean": "9019100656605"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "nöm PRO Protein Topfencreme Kokos-Schoko",
+     "ean": "9019100656704"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "4008366007011",
+   "name": "Gemüsepfanne Sommergarten",
+   "brand": "FRoSTA",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Alnatura BIO Gemüsepfanne Toskana (tiefgekühlt)",
+     "ean": "4104420173057"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Alnatura BIO Gemüsepfanne Provence (tiefgekühlt)",
+     "ean": "4104420173026"
+    },
+    {
+     "store": "MPreis",
+     "name": "Gemüsepfanne Sommergarten",
+     "ean": "4008366007011"
+    }
+   ],
+   "match": {
+    "store": "MPreis",
+    "name": "Gemüsepfanne Sommergarten",
+    "brand": "Frosta",
+    "price_eur": 4.79,
+    "size_g": 480.0,
+    "url": "https://www.mpreis.at/shop/p/frosta-gemuesepfanne-sommergarten-174508",
+    "image_url": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1783968548/api/174508_front.jpg",
+    "store_ean": "4008366007011",
+    "method": "gtin-exact"
+   }
+  },
+  {
+   "ean": "9000295836859",
+   "name": "THAI STYLE",
+   "brand": "Felix",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "9009865004315",
+   "name": "Lasagne mit Soja, Biologisch ohne Palmöl",
+   "brand": null,
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "5995417009676",
+   "name": "Bauernfleckerl mit Selchfleisch und Champignon",
+   "brand": "Thallo Feinkost",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "4099200078403",
+   "name": "Spaghetti tailandesi",
+   "brand": "Asia",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "4059699055941",
+   "name": "Nudel-Hühnchenpfanne",
+   "brand": "Eismann",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Hähnchen in Paprikasauce mit Nudeln von Jan Bureš",
+     "ean": "8595643802965"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Leitgeb´s Italienischer Nudelteller",
+     "ean": "9120071330262"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Gissinger Pikante Hühner-Nudelpfanne",
+     "ean": null
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "90244308",
+   "name": "Nems de porc",
+   "brand": "Thiriet",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "9044400042001",
+   "name": "Vanille Pudding",
+   "brand": "Haas",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Haas Pudding Vanille Geschmack 3 x 37g",
+     "ean": "9044400042001"
+    }
+   ],
+   "match": {
+    "store": "Gurkerl.at",
+    "name": "Haas Pudding Vanille Geschmack 3 x 37g",
+    "brand": "Haas",
+    "price_eur": 1.29,
+    "size_g": 111.0,
+    "url": "https://www.gurkerl.at/35070-haas-pudding-vanille-geschmack-3-x-37g",
+    "image_url": "https://cdn.gurkerl.at/images/grocery/products/35070/35070-1726494946385.jpg",
+    "store_ean": "9044400042001",
+    "method": "gtin-exact"
+   }
+  },
+  {
+   "ean": "4056489946038",
+   "name": "High Protein Cashew Pudding | Schoko-Karamell-Geschmack",
+   "brand": "Vemondo",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Müller High Protein Schoko Pudding",
+     "ean": "4025500294342"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9019100512208",
+   "name": "PRO High Protein Schokopudding",
+   "brand": "nöm",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Müller High Protein Schoko Pudding",
+     "ean": "4025500294342"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "nöm PRO Protein Topfencreme Stracciatella",
+     "ean": "9019100656100"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "nöm PRO Protein Topfencreme Vanille",
+     "ean": "9019100655608"
+    },
+    {
+     "store": "MPreis",
+     "name": "PRO Topfencreme Stracciatella high Protein",
+     "ean": "9019100656100"
+    },
+    {
+     "store": "MPreis",
+     "name": "PRO High Proteincreme Vanille",
+     "ean": "9019100655608"
+    },
+    {
+     "store": "MPreis",
+     "name": "PRO High Proteincreme Himbeere",
+     "ean": "9019100655509"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "4104060025631",
+   "name": "Bio-Sahne Pudding - Vanille",
+   "brand": "Andechser Natur",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Landliebe Sahnepudding Schoko",
+     "ean": "4067517001759"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Landliebe Sahnepudding Vanille",
+     "ean": "4067517001766"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Müller High Protein Vanille Pudding",
+     "ean": "4025500294366"
+    },
+    {
+     "store": "MPreis",
+     "name": "Bio Pudding Bourbon-Vanille 3er-Packung",
+     "ean": "4104420140608"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9004584016779",
+   "name": "Pudding-Genuss Vanille",
+   "brand": "SalzburgMilch",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Landliebe Sahnepudding Vanille",
+     "ean": "4067517001766"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Müller High Protein Vanille Pudding",
+     "ean": "4025500294366"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Dr. Oetker Pudding Pulver Vanille",
+     "ean": "9008200008483"
+    },
+    {
+     "store": "MPreis",
+     "name": "Pudding-Genuss Vanille",
+     "ean": "9004584016779"
+    }
+   ],
+   "match": {
+    "store": "MPreis",
+    "name": "Pudding-Genuss Vanille",
+    "brand": "SalzburgMilch",
+    "price_eur": 1.79,
+    "size_g": 400.0,
+    "url": "https://www.mpreis.at/shop/p/salzburgmilch-pudding-genuss-vanille-808572",
+    "image_url": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1779633747/api/808572_angle.jpg",
+    "store_ean": "9004584016779",
+    "method": "gtin-exact"
+   }
+  },
+  {
+   "ean": "9021700188004",
+   "name": "Ländle Pudding Schokolade",
+   "brand": "Vorarlberg Milch",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Landliebe Grießpudding Schokolade",
+     "ean": "4067517001308"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9015461000538",
+   "name": "Vanilla pudding",
+   "brand": "Kozyshack",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Zum Dorfkrug Vanille-Pudding",
+     "ean": "4260054653621"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "4009700052384",
+   "name": "Yopro Pudding Schokolade- Haselnuss-Geschmack",
+   "brand": "Danone",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "9061177960246",
+   "name": "Kirchererbsen Eintopf",
+   "brand": "DM",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Alnatura BIO Linseneintopf",
+     "ean": "4104420256712"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Alnatura BIO Erbseneintopf",
+     "ean": "4104420256750"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Alnatura BIO Kichererbsen-Kokos-Eintopf",
+     "ean": "4104420142282"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "4061462164569",
+   "name": "Suppe Kürbiscreme",
+   "brand": "Le Gusto",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Radatz Kürbiscremesuppe",
+     "ean": "9001426028525"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Followfood BIO Kürbis Suppe",
+     "ean": "4280001516625"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "DimmidiSi Kürbis Karotten Cremesuppe",
+     "ean": "8014190008045"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9000275618116",
+   "name": "Spargelcreme Suppe",
+   "brand": "Knorr",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Knorr Bitte zu Tisch ABC Buchstaben Suppe",
+     "ean": "9000275772115"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Knorr Bitte zu Tisch Grießnockerlsuppe",
+     "ean": "8711200430000"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Knorr Meisterkessel Serbische Bohnensuppe",
+     "ean": "9000275633911"
+    },
+    {
+     "store": "MPreis",
+     "name": "Die Schnelle Feine Spargelcremesuppe",
+     "ean": "9000275618116"
+    }
+   ],
+   "match": {
+    "store": "MPreis",
+    "name": "Die Schnelle Feine Spargelcremesuppe",
+    "brand": "Knorr",
+    "price_eur": 1.59,
+    "size_g": null,
+    "url": "https://www.mpreis.at/shop/p/knorr-die-schnelle-feine-spargelcremesuppe-287592",
+    "image_url": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1783973610/api/287592_front.jpg",
+    "store_ean": "9000275618116",
+    "method": "gtin-exact"
+   }
+  },
+  {
+   "ean": "9010437028202",
+   "name": "Eiermuschel Suppe",
+   "brand": "Clever",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Knorr Bitte zu Tisch ABC Buchstaben Suppe",
+     "ean": "9000275772115"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Knorr Meisterkessel Serbische Bohnensuppe",
+     "ean": "9000275633911"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Knorr Meisterkessel Kartoffelsuppe mit Pilzen",
+     "ean": "9000275637216"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "8720182936325",
+   "name": "Spargekcreme Suppe",
+   "brand": "Knorr",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Knorr Meisterkessel Kartoffelsuppe mit Pilzen",
+     "ean": "9000275637216"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Knorr Bitte zu Tisch Frühlingssuppe",
+     "ean": "8720182948441"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9120004490049",
+   "name": "Klare Suppe",
+   "brand": "Auinger",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Knorr Bitte zu Tisch ABC Buchstaben Suppe",
+     "ean": "9000275772115"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Knorr Klare Suppenwürfel",
+     "ean": "8720182370761"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Berger Oma´s Altwiener Suppentopf",
+     "ean": "9001455023560"
+    },
+    {
+     "store": "MPreis",
+     "name": "Klare Suppe",
+     "ean": "9120004490049"
+    }
+   ],
+   "match": {
+    "store": "MPreis",
+    "name": "Klare Suppe",
+    "brand": "Auinger",
+    "price_eur": 16.99,
+    "size_g": 900.0,
+    "url": "https://www.mpreis.at/shop/p/auinger-klare-suppe-259422",
+    "image_url": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1779641847/api/259422_front.jpg",
+    "store_ean": "9120004490049",
+    "method": "gtin-exact"
+   }
+  },
+  {
+   "ean": "4049162022976",
+   "name": "Suppe Thai Chili",
+   "brand": null,
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "9002100017934",
+   "name": "Grießnockerl Suppe",
+   "brand": "Maggi",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Iglo Grießnockerl (tiefgekühlt)",
+     "ean": "8722700079958"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Pappudia Rindssuppe mit Fleisch und Nudeln",
+     "ean": "8595643816023"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Bürger Grießnockerl",
+     "ean": "4075600120188"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "8720182152237",
+   "name": "Tomate suppe",
+   "brand": "Knorr",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Knorr Goldaugen Rindfleischsuppe",
+     "ean": "8720182371171"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Knorr Bitte zu Tisch ABC Buchstaben Suppe",
+     "ean": "9000275772115"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Knorr Bitte zu Tisch Grießnockerlsuppe",
+     "ean": "8711200430000"
+    },
+    {
+     "store": "MPreis",
+     "name": "Kaiser Teller Tomatencreme Suppe",
+     "ean": "8720182174765"
+    },
+    {
+     "store": "MPreis",
+     "name": "Die Schnelle Feine Tomatencremesuppe",
+     "ean": "9000275619014"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "4061463794222",
+   "name": "Spargel Suppe",
+   "brand": "Rettenswert",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Marks & Spencer Erbsen-Minze-Suppe",
+     "ean": "00057981"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9100000031644",
+   "name": "Bio Tomaten Suppe",
+   "brand": "Spar",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Oro di Parma BIO Tomatenmark",
+     "ean": "4008100169326"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Oro di Parma BIO passierte Tomaten",
+     "ean": "4008100169340"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Kitchin BIO geschälte Tomaten",
+     "ean": "8595643809933"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9002668002144",
+   "name": "Gebratene Polnische Spetzial",
+   "brand": "Wiesbauer",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "9009825070213",
+   "name": "Puten Käsekrainer",
+   "brand": "Wiesbauer",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Radatz Original Wiener Käsekrainer",
+     "ean": "9001426004659"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "meineWeideGans Gänse Käsekrainer",
+     "ean": "9120071450403"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Berger Wachauer Käsekrainer",
+     "ean": "9001455031824"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "4061463369697",
+   "name": "Curry Bowl Linsen & Mandeln",
+   "brand": "Rettenswert",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Freshery Red Curry Bowl mit geräuchertem Tofu",
+     "ean": "8588010562180"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Freshery Yellow Curry Bowl mit Hühnerfleisch",
+     "ean": "8588010562197"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "4061459443974",
+   "name": "Thai Curry",
+   "brand": "Primana",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "4002359636004",
+   "name": "Cremiges Curry",
+   "brand": "Uncle Bens",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Ben's Original Express Curryreis",
+     "ean": "3487400006356"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Ben's Original™ Gelbes Thai Curry",
+     "ean": "4002359015168"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "4099200146348",
+   "name": "Pikantes Erdnuss Curry",
+   "brand": "GMS Gourmet",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "4061459387766",
+   "name": "Sauerkraut Curry Mango",
+   "brand": "BBQ Express Hofer, BBQ Zeit zum Grillen",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Heinz Curry Mango Sauce",
+     "ean": "8410066145331"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Byodo BIO Curry-Mango Sauce",
+     "ean": "4018462193006"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9120068110112",
+   "name": "Bio Rote-Rüben Kokos Curry",
+   "brand": "Iss mich!",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "BIO rote Rüben",
+     "ean": null
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Lutz BIO Rote Rüben Salat",
+     "ean": "9120009120323"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Alnatura BIO Kokos Curry thailändische Art",
+     "ean": "4104420212794"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9010437010948",
+   "name": "Magic Steam Chicken Curry",
+   "brand": "Simply Good",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "4006040125891",
+   "name": "Risotto Spitzenreis",
+   "brand": "Rapunzel",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Alnatura BIO Risotto Reis Ribe",
+     "ean": "4104420247659"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Kitchin Risottoreis Arborio",
+     "ean": "8595643819253"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Ben Fatto Spinat Risotto",
+     "ean": "8008481808544"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9010290021471",
+   "name": "Risotto alla zucca",
+   "brand": null,
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "9120132001575",
+   "name": "Melt Chili Nuggets",
+   "brand": "Vegini",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "McCain Pickers Chili Cheese Nuggets (tiefgekühlt)",
+     "ean": "8710438128642"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "4062300463196",
+   "name": "Spätzle mit Gulasch",
+   "brand": "Hipp",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "HiPP Spätzle mit Gulasch, ab dem 8. Monat",
+     "ean": "4062300463103"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Pappudia Gulaschsuppe",
+     "ean": "8595643816016"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Pappudia Ungarisches Gulasch mit Knödel",
+     "ean": "8595643815972"
+    },
+    {
+     "store": "MPreis",
+     "name": "Spätzle mit Gulasch",
+     "ean": "4062300463103"
+    },
+    {
+     "store": "dm",
+     "name": "HiPP Menü Spätzle mit Gulasch ab dem 12. Monat",
+     "ean": "4062300463196"
+    }
+   ],
+   "match": {
+    "store": "dm",
+    "name": "HiPP Menü Spätzle mit Gulasch ab dem 12. Monat",
+    "brand": "HiPP",
+    "price_eur": 1.75,
+    "size_g": 250.0,
+    "url": "https://www.dm.at/p/d/2977228/hipp-menue-spaetzle-mit-gulasch-ab-dem-12-monat",
+    "image_url": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1747473869/assets/pas/images/e3a0da6a-7566-4a7b-9b2f-703b3a5ec934/hipp-menue-spaetzle-mit-gulasch-ab-dem-12-monat",
+    "store_ean": "4062300463196",
+    "method": "gtin-exact"
+   }
+  },
+  {
+   "ean": "9005015034362",
+   "name": "Gulasch mit knödel",
+   "brand": null,
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Pappudia Ungarisches Gulasch mit Knödel",
+     "ean": "8595643815972"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Wiener Virtshaus Gulasch mit Serviettenknödel VEGAN",
+     "ean": "9180007360015"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Gissinger Erdäpfelgulasch",
+     "ean": null
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9010437050456",
+   "name": "Gulasch Vom Almo Rind",
+   "brand": "Omis",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Rinder Gulaschfleisch am Stück",
+     "ean": null
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Iglo Rindsgulasch (tiefgekühlt)",
+     "ean": "9000143068029"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Berger AMA Rind Gulasch gewürfelt",
+     "ean": null
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9001426068576",
+   "name": "Rinds Gulasch",
+   "brand": "Radatz",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Radatz Rindsgulasch",
+     "ean": "9001426009463"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Radatz Rindssuppe",
+     "ean": "9001426009258"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Rinder Gulaschfleisch am Stück",
+     "ean": null
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9010437028486",
+   "name": "Rigatoni caprese",
+   "brand": "Simply good",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "9002100056735",
+   "name": "Gemüsesuppe",
+   "brand": "Maggi",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Maggi Gemüsesuppe Bouillon 12 Würfel",
+     "ean": "9002100056735"
+    }
+   ],
+   "match": {
+    "store": "Gurkerl.at",
+    "name": "Maggi Gemüsesuppe Bouillon 12 Würfel",
+    "brand": "Maggi",
+    "price_eur": 1.79,
+    "size_g": 120.0,
+    "url": "https://www.gurkerl.at/5089-maggi-gemuesesuppe-bouillon-12-wuerfel",
+    "image_url": "https://cdn.gurkerl.at/images/grocery/products/5089/5089-1698059337994.jpg",
+    "store_ean": "9002100056735",
+    "method": "gtin-exact"
+   }
+  },
+  {
+   "ean": "4099200146287",
+   "name": "Cevepcici",
+   "brand": "Le Gourmet",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "9009504000593",
+   "name": "Haschee Hörnchen mit Kräutern",
+   "brand": "Billa",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "9010437013901",
+   "name": "Thunfischsalat Toskana Art",
+   "brand": "Billa",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Wojnar Thunfischsalat",
+     "ean": "9011600001107"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "8711200369331",
+   "name": "Tomaten Cremesuppe",
+   "brand": "Knorr",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Radatz Knoblauchcremesuppe",
+     "ean": "9001426028464"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Suppito Tomaten Kokos Suppe",
+     "ean": "9002235921397"
+    },
+    {
+     "store": "MPreis",
+     "name": "Die Schnelle Feine Tomatencremesuppe",
+     "ean": "9000275619014"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9000275771712",
+   "name": "Wiener Festtagssuppe",
+   "brand": "Knorr",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "4058172469572",
+   "name": "Cremesuppe Rote Linse Aprikose & Kokos",
+   "brand": "dmBio",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "9000275636912",
+   "name": "Meister Kessel Fiesta Mexicana",
+   "brand": "Knorr",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Knorr Meisterkessel Serbische Bohnensuppe",
+     "ean": "9000275633911"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Knorr Meisterkessel Kartoffelsuppe mit Pilzen",
+     "ean": "9000275637216"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Knorr Meisterkessel Gulaschsuppe",
+     "ean": "16338003"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "4058172469596",
+   "name": "Cremesuppe Tomate & Cranberry",
+   "brand": "dm",
+   "checked": [
+    {
+     "store": "MPreis",
+     "name": "Die Schnelle Feine Tomatencremesuppe",
+     "ean": "9000275619014"
+    },
+    {
+     "store": "MPreis",
+     "name": "Bio Tomaten Cremesuppe",
+     "ean": "4104420016644"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9010437058759",
+   "name": "Bio Kürbis-Kokos-Suppe",
+   "brand": "billa bio",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Radatz Kürbiscremesuppe",
+     "ean": "9001426028525"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Followfood BIO Kürbis Suppe",
+     "ean": "4280001516625"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "4056489216162",
+   "name": "high Protein Pudding",
+   "brand": "LIDL",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Müller High Protein Schoko Pudding",
+     "ean": "4025500294342"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Müller High Protein Vanille Pudding",
+     "ean": "4025500294366"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Müller High Protein Mousse Schoko",
+     "ean": "4025500272999"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9019100655608",
+   "name": "High Protein Vanille Pudding",
+   "brand": "now",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Müller High Protein Schoko Pudding",
+     "ean": "4025500294342"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Müller High Protein Vanille Pudding",
+     "ean": "4025500294366"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "nöm PRO Protein Topfencreme Vanille",
+     "ean": "9019100655608"
+    }
+   ],
+   "match": {
+    "store": "Gurkerl.at",
+    "name": "nöm PRO Protein Topfencreme Vanille",
+    "brand": "nöm PRO",
+    "price_eur": 1.89,
+    "size_g": 235.0,
+    "url": "https://www.gurkerl.at/4628-noem-pro-protein-topfencreme-vanille",
+    "image_url": "https://cdn.gurkerl.at/images/grocery/products/4628/4628-1603472222260.jpg",
+    "store_ean": "9019100655608",
+    "method": "gtin-exact"
+   }
+  },
+  {
+   "ean": "4031829251409",
+   "name": "Schupfnudel Pfanne",
+   "brand": "Ökoland",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Henglein Schupfnudeln",
+     "ean": "4001163000599"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Iglo Genießer Pfanne Tortellini Pfanne (tiefgekühlt)",
+     "ean": "9008695951325"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "4260131325014",
+   "name": "Beef Bolognese With Lentil Fusilli",
+   "brand": "PrepMyMeal",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "5000171050656",
+   "name": "Tuna Pasta salad",
+   "brand": "John West",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "9120087841868",
+   "name": "Deli's Vegan & Bio Tofu",
+   "brand": "Delitaly's Foodies",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "4075600055305",
+   "name": "Maultaschen geschnitten",
+   "brand": "Bürger",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Bürger Maultaschen traditionell schwäbisch",
+     "ean": "4075600055039"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9011374723151",
+   "name": "Shawarma Huhn-Hummus mit Pekanüssen und Datteln",
+   "brand": "Habibi & Hawara",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "8262062748128",
+   "name": "La Pizza Premium - Prosciutto Fatta a mano",
+   "brand": "La Pizza Premium",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "0405197907430",
+   "name": "Nasi Goreng",
+   "brand": "eismann",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "4000521464400",
+   "name": "Paradies Creme Vanille",
+   "brand": "Dr. Oetker",
+   "checked": [
+    {
+     "store": "MPreis",
+     "name": "Paradiescreme Vanille",
+     "ean": "4000521464400"
+    }
+   ],
+   "match": {
+    "store": "MPreis",
+    "name": "Paradiescreme Vanille",
+    "brand": "Dr. Oetker",
+    "price_eur": 1.19,
+    "size_g": 60.0,
+    "url": "https://www.mpreis.at/shop/p/dr-oetker-paradiescreme-vanille-187101",
+    "image_url": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1773040533/api/187101_front.jpg",
+    "store_ean": "4000521464400",
+    "method": "gtin-exact"
+   }
+  },
+  {
+   "ean": "4002971244007",
+   "name": "Columbian Coffee Pudding",
+   "brand": "Ehrmann",
+   "checked": [],
+   "match": null
+  },
+  {
+   "ean": "4000521465407",
+   "name": "Paradies Creme Schoko",
+   "brand": "Dr. Oetker",
+   "checked": [
+    {
+     "store": "MPreis",
+     "name": "Paradiescreme Schokolade",
+     "ean": "4000521465407"
+    }
+   ],
+   "match": {
+    "store": "MPreis",
+    "name": "Paradiescreme Schokolade",
+    "brand": "Dr. Oetker",
+    "price_eur": 1.19,
+    "size_g": 74.0,
+    "url": "https://www.mpreis.at/shop/p/dr-oetker-paradiescreme-schokolade-187201",
+    "image_url": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1775743849/api/187201_angle.jpg",
+    "store_ean": "4000521465407",
+    "method": "gtin-exact"
+   }
+  },
+  {
+   "ean": "4040600119739",
+   "name": "Sahne puding",
+   "brand": "Landliebe",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Landliebe Sahnepudding Schoko",
+     "ean": "4067517001759"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Landliebe Sahnepudding Vanille",
+     "ean": "4067517001766"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "9044400050006",
+   "name": "schoko Pudding",
+   "brand": "Haas",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Landliebe Sahnepudding Schoko",
+     "ean": "4067517001759"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Müller High Protein Schoko Pudding",
+     "ean": "4025500294342"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Müller Schokopudding + Vanillesoße",
+     "ean": "4025500143312"
+    },
+    {
+     "store": "MPreis",
+     "name": "Schokopudding 3er-Packung",
+     "ean": "9044400050006"
+    }
+   ],
+   "match": {
+    "store": "MPreis",
+    "name": "Schokopudding 3er-Packung",
+    "brand": "Haas",
+    "price_eur": 1.19,
+    "size_g": 132.0,
+    "url": "https://www.mpreis.at/shop/p/haas-schokopudding-3er-packung-179207",
+    "image_url": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1773914471/api/179207_front.jpg",
+    "store_ean": "9044400050006",
+    "method": "gtin-exact"
+   }
+  },
+  {
+   "ean": "4009700040152",
+   "name": "Danone Dany pflanzlich Schoko-Haselnuss 375g",
+   "brand": "Danone",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Danone Dany Sahne Schokolade",
+     "ean": "9035000007293"
+    }
+   ],
+   "match": null
+  },
+  {
+   "ean": "4009700037206",
+   "name": "Danone Dany Sahne Karamell 200g",
+   "brand": "Danone",
+   "checked": [
+    {
+     "store": "Gurkerl.at",
+     "name": "Danone Dany Sahne Schokolade",
+     "ean": "9035000007293"
+    },
+    {
+     "store": "Gurkerl.at",
+     "name": "Danone Dany Sahne Vanille",
+     "ean": "9035000007316"
+    },
+    {
+     "store": "MPreis",
+     "name": "Dany Sahne Vanille-Geschmack",
+     "ean": "9035000007316"
+    },
+    {
+     "store": "MPreis",
+     "name": "Dany Sahne Schoko",
+     "ean": "9035000007293"
+    }
+   ],
+   "match": null
+  }
+ ]
+}

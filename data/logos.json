@@ -2645,5 +2645,17 @@
    "ALPENHAIN",
    "Alpenhain Back"
   ]
+ },
+ {
+  "slug": "hellofresh",
+  "name": "HelloFresh",
+  "category": "Online-Mealprep",
+  "file": "logos/hellofresh.svg",
+  "source_url": "https://cdn.hellofresh.com/logo/HelloFresh_Logo_Horizontal_V2.svg",
+  "brands": [
+   "HelloFresh",
+   "Hello Fresh",
+   "HelloFresh SE"
+  ]
  }
 ]

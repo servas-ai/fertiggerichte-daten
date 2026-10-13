@@ -1,0 +1,36 @@
+{
+ "run": "2026-10-13T22 Daten-Squad",
+ "generated_at": "2026-10-13T22:47:14.340169+00:00",
+ "added": [
+  {
+   "hellofresh": "Vision gate 2026-10-13T22 (Daten-Squad): visuell geprüft (korrekte Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · offizielles CDN-Asset HelloFresh_Logo_Horizontal_V2.svg",
+   "source": "https://cdn.hellofresh.com/logo/HelloFresh_Logo_Horizontal_V2.svg",
+   "bytes": 13746,
+   "sha256": "e5492388b7d5d5f8a59410f37392ef35887a91e9b67e1778b21a995a89701b82",
+   "robots": "hellofresh.de/.com robots.txt: Disallow list does not include /logo/ or CDN; asset fetched HTTP 200 image/svg+xml without login/JS",
+   "products_impacted": 93,
+   "aliases": [
+    "HelloFresh",
+    "Hello Fresh",
+    "HelloFresh SE"
+   ],
+   "rejected_alternatives": {
+    "Wikimedia Commons Category:HelloFresh": "no logo file (only photos + stock-price PDF); File:HelloFresh_Logo.svg 404",
+    "de.wikipedia Datei:HelloFresh_Logo_2020.png": "Bild-LogoSH / fair-use only — not Commons-compatible; not used",
+    "cdn.hellofresh.com/logo/HelloFresh_Logo.svg": "HTTP 403"
+   }
+  }
+ ],
+ "updated_fileless": [],
+ "aliases_producer_fallback": [],
+ "rejected": {},
+ "offonly_store_overlay_sync": {
+  "overlay_file": "/workspace/fertig/offonly_store_overlay.json",
+  "generated_at": "2026-10-13T21:38:13+00:00",
+  "matched": 19,
+  "applied_in_score_py": 13,
+  "dup_dropped": 13,
+  "size_mismatch": 1,
+  "note": "score.py loads offonly_store_overlay.json at app build (deploy.sh). products.csv has no EAN column and stays chain=unbekannt (OFF) for all 205 rows until a separate export path; COVERAGE next-gap notes app-side reduction (≈179 OFF after apply+dup drop) vs daten CSV 205."
+ }
+}
