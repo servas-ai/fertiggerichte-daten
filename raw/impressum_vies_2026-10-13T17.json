@@ -1,0 +1,952 @@
+{
+ "generated_at": "2026-10-13T17:30Z",
+ "run": "2026-10-13T17 Daten-Squad (Impressum + live VIES pass for the 53 companies without LEI/UID)",
+ "method": "food-connectors impressum adapter (robots.txt respected, no cookies/JS/login) on the companies' own sites; real domains located via web search where guessed domains were dead; every UID checked live in EU VIES REST. uid_source=imprint: id printed on the company's own legal notice; uid_source=registry_lookup+vies: own legal notice names the entity/address but prints no UID, so a directory UID was accepted only when VIES returned the exact legal name (and matching address). DE VIES returns no name: accepted only with the full legal name next to the id on the own imprint.",
+ "notes": [
+  "Fit2go/YOUCOOK/Stangl/Caro Fratello/Ager/Whollees/Grünkraft/Kikkoman/Andros .at guessed domains: box egress TLS EOF – real domains found via web search instead",
+  "Unilever/iglo .at: HTTP 403 for the box (bot protection, not bypassed) – read via public fetch only",
+  "Not attempted / still open: Rewe Austria Fleischwaren + Genussküche, Hochreiter, Graninger, Landtmann's, Inzersdorfer, Meica, BONNE MAMAN (brand), Verband der MPREIS-Partner, Gü Puds (UK, no VIES), Stadtküche (brand)"
+ ],
+ "results": [
+  {
+   "company": "deli gourmet GmbH",
+   "domain": "www.delidip.com",
+   "imprint_url": "https://www.delidip.com/impressum",
+   "uids": [
+    {
+     "uid": "ATU68013179",
+     "valid": true,
+     "vies_name": "deli gourmet GmbH",
+     "vies_address": "Am Brigittenauer Sporn 5\nAT-1200 Wien",
+     "checked_at": "2026-10-13T17:05:55.428Z",
+     "name_match": 1.0
+    }
+   ],
+   "fn": [
+    "FN 396515k"
+   ],
+   "hrb": [],
+   "court": "Handelsgericht Wien",
+   "best": {
+    "uid": "ATU68013179",
+    "valid": true,
+    "vies_name": "deli gourmet GmbH",
+    "vies_address": "Am Brigittenauer Sporn 5\nAT-1200 Wien",
+    "checked_at": "2026-10-13T17:05:55.428Z",
+    "name_match": 1.0
+   },
+   "legal_name_imprint": "deli gourmet GmbH",
+   "uid_source": "imprint",
+   "source": "public legal notice + EU VIES",
+   "accepted": true,
+   "decision": "UID+FN printed on own imprint; VIES name exact; VIES/label address Nußdorferplatz 5/9, 1190 Wien"
+  },
+  {
+   "company": "Kontakt: Every.GmbH",
+   "domain": "every-foods.com",
+   "imprint_url": "https://every-foods.com/de/impressum",
+   "uids": [
+    {
+     "uid": "DE335586517",
+     "valid": true,
+     "vies_name": null,
+     "vies_address": null,
+     "checked_at": "2026-10-13T17:06:28.820Z",
+     "name_match": "on_page"
+    }
+   ],
+   "fn": [],
+   "hrb": [
+    "HRB 221768 B"
+   ],
+   "court": "Amtsgericht Charlottenburg",
+   "best": {
+    "uid": "DE335586517",
+    "valid": true,
+    "vies_name": null,
+    "vies_address": null,
+    "checked_at": "2026-10-13T17:06:28.820Z",
+    "name_match": "on_page"
+   },
+   "legal_name_imprint": "Every. GmbH",
+   "uid_source": "imprint",
+   "source": "public legal notice + EU VIES",
+   "accepted": true,
+   "decision": "label string is a parse artifact of 'Every.GmbH' (accepted 2026-10-13 run); 'Every. GmbH … HRB 221768 B … USt-IdNr DE 335 586 517' on own imprint; VIES valid (DE: no name)"
+  },
+  {
+   "company": "BioGourmet GmbH",
+   "domain": "bio-gourmet.com",
+   "imprint_url": "https://bio-gourmet.com/impressum/",
+   "uids": [
+    {
+     "uid": "DE275549398",
+     "valid": true,
+     "vies_name": null,
+     "vies_address": null,
+     "checked_at": "2026-10-13T17:01:20.161Z",
+     "name_match": "on_page"
+    }
+   ],
+   "fn": [],
+   "hrb": [
+    "HRB 736632"
+   ],
+   "court": "Stuttgart",
+   "best": {
+    "uid": "DE275549398",
+    "valid": true,
+    "vies_name": null,
+    "vies_address": null,
+    "checked_at": "2026-10-13T17:01:20.161Z",
+    "name_match": "on_page"
+   },
+   "legal_name_imprint": "BioGourmet GmbH",
+   "uid_source": "imprint",
+   "source": "public legal notice + EU VIES",
+   "accepted": true,
+   "decision": "full legal name next to USt-IdNr + HRB 736632 (Registergericht Stuttgart) on own imprint; VIES valid"
+  },
+  {
+   "company": "Hammermühle GmbH",
+   "domain": "www.hammermuehle-shop.de",
+   "imprint_url": "https://www.hammermuehle-shop.de/impressum/",
+   "uids": [
+    {
+     "uid": "DE815027088",
+     "valid": true,
+     "vies_name": null,
+     "vies_address": null,
+     "checked_at": "2026-10-13T17:00:45.027Z",
+     "name_match": "on_page"
+    }
+   ],
+   "fn": [],
+   "hrb": [
+    "HRB 30469"
+   ],
+   "court": "Landau",
+   "best": {
+    "uid": "DE815027088",
+    "valid": true,
+    "vies_name": null,
+    "vies_address": null,
+    "checked_at": "2026-10-13T17:00:45.027Z",
+    "name_match": "on_page"
+   },
+   "legal_name_imprint": "Hammermühle GmbH",
+   "uid_source": "imprint",
+   "source": "public legal notice + EU VIES",
+   "accepted": true,
+   "decision": "'Hammermühle GmbH, Hauptstrasse 181, 67489 Kirrweiler … HRB Landau 30469, Ust.ID-Nr DE 815027088' on own shop imprint (hammermuehle.de itself unreachable); VIES valid"
+  },
+  {
+   "company": "Zum Dorfkrug Produktions- und Handelsgesellschaft mbH & Co. KG",
+   "domain": "www.zum-dorfkrug.de",
+   "imprint_url": "https://www.zum-dorfkrug.de/impressum",
+   "uids": [
+    {
+     "uid": "DE261196812",
+     "valid": true,
+     "vies_name": null,
+     "vies_address": null,
+     "checked_at": "2026-10-13T17:05:53.996Z",
+     "name_match": "on_page"
+    }
+   ],
+   "fn": [],
+   "hrb": [
+    "HRA 200878"
+   ],
+   "court": "Tostedt",
+   "best": {
+    "uid": "DE261196812",
+    "valid": true,
+    "vies_name": null,
+    "vies_address": null,
+    "checked_at": "2026-10-13T17:05:53.996Z",
+    "name_match": "on_page"
+   },
+   "legal_name_imprint": "Zum Dorfkrug Produktions- und Handelsgesellschaft mbH & Co. KG",
+   "uid_source": "imprint",
+   "source": "public legal notice + EU VIES",
+   "accepted": true,
+   "decision": "exact label entity directly above USt-IdNr DE261196812 / HRA 200878 (AG Tostedt); other 2 UIDs on page belong to the Restaurant KG / Verwaltungs GmbH and were not used"
+  },
+  {
+   "company": "Fit2go GmbH",
+   "domain": "fittogo.at",
+   "imprint_url": "https://fittogo.at/pages/impressum",
+   "uids": [
+    {
+     "uid": "ATU80022878",
+     "valid": true,
+     "vies_name": "Fit2go GmbH",
+     "vies_address": "Piccoloweg 4\nAT-4055 Pucking",
+     "checked_at": "2026-10-13T17:14:14.715Z",
+     "name_match": 1.0
+    }
+   ],
+   "fn": [
+    "FN 615822x"
+   ],
+   "hrb": [],
+   "court": null,
+   "best": {
+    "uid": "ATU80022878",
+    "valid": true,
+    "vies_name": "Fit2go GmbH",
+    "vies_address": "Piccoloweg 4\nAT-4055 Pucking",
+    "checked_at": "2026-10-13T17:14:14.715Z",
+    "name_match": 1.0
+   },
+   "legal_name_imprint": "Fit2go GmbH",
+   "uid_source": "imprint",
+   "source": "public legal notice + EU VIES",
+   "accepted": true,
+   "decision": "UID+FN on own imprint (fittogo.at); VIES name exact, VIES address Piccoloweg 4, 4055 Pucking = label 'Pucking'"
+  },
+  {
+   "company": "Stangl Teigwaren GmbH",
+   "domain": "stanglnudeln.at",
+   "imprint_url": "https://stanglnudeln.at/pages/impressum",
+   "uids": [
+    {
+     "uid": "ATU68093234",
+     "valid": true,
+     "vies_name": "Stangl Teigwaren GmbH",
+     "vies_address": "Grazerstraße 27\nAT-8403 Lebring-St.Margarethen",
+     "checked_at": "2026-10-13T17:14:14.607Z",
+     "name_match": 1.0
+    }
+   ],
+   "fn": [
+    "FN 400694g"
+   ],
+   "hrb": [],
+   "court": null,
+   "best": {
+    "uid": "ATU68093234",
+    "valid": true,
+    "vies_name": "Stangl Teigwaren GmbH",
+    "vies_address": "Grazerstraße 27\nAT-8403 Lebring-St.Margarethen",
+    "checked_at": "2026-10-13T17:14:14.607Z",
+    "name_match": 1.0
+   },
+   "legal_name_imprint": "Stangl Teigwaren GmbH",
+   "uid_source": "imprint",
+   "source": "public legal notice + EU VIES",
+   "accepted": true,
+   "decision": "UID on own imprint; VIES name exact (Grazerstraße 27, Lebring); page lists 2 FNs: FN 400694g kept (= Stangl Teigwaren GmbH per evi.gv.at), FN 288167a + ATU62285066 belong to the web agency (Bruchmann) and were dropped"
+  },
+  {
+   "company": "YOUCOOK GmbH",
+   "domain": "www.youcook-food.com",
+   "imprint_url": "https://www.youcook-food.com/impressum/",
+   "uids": [
+    {
+     "uid": "DE118545567",
+     "valid": true,
+     "vies_name": null,
+     "vies_address": null,
+     "checked_at": "2026-10-13T17:21:18.348Z",
+     "name_match": "on_page"
+    }
+   ],
+   "fn": [],
+   "hrb": [
+    "HRB 111731"
+   ],
+   "court": "Köln",
+   "best": {
+    "uid": "DE118545567",
+    "valid": true,
+    "vies_name": null,
+    "vies_address": null,
+    "checked_at": "2026-10-13T17:21:18.348Z",
+    "name_match": "on_page"
+   },
+   "legal_name_imprint": "YOUCOOK GmbH",
+   "uid_source": "imprint",
+   "source": "public legal notice + EU VIES",
+   "accepted": true,
+   "decision": "own imprint prints the USt-IdNr in tax-number style 'DE 118 / 5455 / 67' (= DE118545567, same digits) next to 'YOUCOOK GmbH … Handelsregister Köln HRB 111731'; VIES valid"
+  },
+  {
+   "company": "Ager GesmbH",
+   "domain": "www.ager.cc",
+   "imprint_url": "https://www.ager.cc/unternehmen/kontakt/impressum",
+   "uids": [
+    {
+     "uid": "ATU48672002",
+     "valid": true,
+     "vies_name": "Ager Gesellschaft m.b.H.",
+     "vies_address": "Am Steinerbach 20\nAT-6306 Söll",
+     "checked_at": "2026-10-13T17:20:25.189Z",
+     "name_match": 1.0
+    }
+   ],
+   "fn": [
+    "FN 43270h"
+   ],
+   "hrb": [],
+   "court": "Innsbruck",
+   "best": {
+    "uid": "ATU48672002",
+    "valid": true,
+    "vies_name": "Ager Gesellschaft m.b.H.",
+    "vies_address": "Am Steinerbach 20\nAT-6306 Söll",
+    "checked_at": "2026-10-13T17:20:25.189Z",
+    "name_match": 1.0
+   },
+   "legal_name_imprint": "Ager Gesellschaft m.b.H.",
+   "uid_source": "imprint",
+   "source": "public legal notice + EU VIES",
+   "accepted": true,
+   "decision": "UID+FN on own imprint (ager.cc – Speck/Wild + Fertiggerichte, Söll); VIES name 'Ager Gesellschaft m.b.H.' = label 'Ager GesmbH'"
+  },
+  {
+   "company": "Amlacher Nudeln",
+   "domain": "amlachernudel.com",
+   "imprint_url": "https://amlachernudel.com/impressum/",
+   "uids": [
+    {
+     "uid": "ATU77134316",
+     "valid": true,
+     "vies_name": "Amlacher Nudel GmbH",
+     "vies_address": "Millstätterstraße 42\nAT-9541 Treffen/Ossiacher See",
+     "checked_at": "2026-10-13T17:20:30.355Z",
+     "name_match": 0.33
+    }
+   ],
+   "fn": [],
+   "hrb": [],
+   "court": null,
+   "best": {
+    "uid": "ATU77134316",
+    "valid": true,
+    "vies_name": "Amlacher Nudel GmbH",
+    "vies_address": "Millstätterstraße 42\nAT-9541 Treffen/Ossiacher See",
+    "checked_at": "2026-10-13T17:20:30.355Z",
+    "name_match": 0.33
+   },
+   "legal_name_imprint": "Amlacher Nudel GmbH",
+   "uid_source": "imprint",
+   "source": "public legal notice + EU VIES",
+   "accepted": true,
+   "decision": "label is the trade name without legal form; brand's own imprint: 'Firmenname: Amlacher Nudel GmbH … UID ATU77134316'; VIES name identical to imprint (core 'Amlacher Nudel' = label), reviewed"
+  },
+  {
+   "company": "Andros Austria GmbH",
+   "domain": "andros-fruit.eu",
+   "imprint_url": "https://andros-fruit.eu/impressum/",
+   "uids": [
+    {
+     "uid": "ATU69012506",
+     "valid": true,
+     "vies_name": "Andros Austria GmbH",
+     "vies_address": "Porzellangasse 21/OG 1/Top 1\nAT-1090 Wien",
+     "checked_at": "2026-10-13T17:20:33.502Z",
+     "name_match": 1.0
+    }
+   ],
+   "fn": [
+    "FN 423232a"
+   ],
+   "hrb": [],
+   "court": null,
+   "best": {
+    "uid": "ATU69012506",
+    "valid": true,
+    "vies_name": "Andros Austria GmbH",
+    "vies_address": "Porzellangasse 21/OG 1/Top 1\nAT-1090 Wien",
+    "checked_at": "2026-10-13T17:20:33.502Z",
+    "name_match": 1.0
+   },
+   "legal_name_imprint": "Andros Austria GmbH",
+   "uid_source": "imprint",
+   "source": "public legal notice + EU VIES",
+   "accepted": true,
+   "decision": "UID+FN on Andros imprint (same on at.bonne-maman.com); VIES name exact; VIES address Porzellangasse 21/OG 1/Top 1 = label address"
+  },
+  {
+   "company": "PLANT BASED POWER GmbH",
+   "domain": "feel-food.com",
+   "imprint_url": "https://feel-food.com/de-de/policies/legal-notice",
+   "uids": [
+    {
+     "uid": "DE332011030",
+     "valid": true,
+     "vies_name": null,
+     "vies_address": null,
+     "checked_at": "2026-10-13T17:20:42.644Z",
+     "name_match": "on_page"
+    }
+   ],
+   "fn": [],
+   "hrb": [
+    "HRB 33283"
+   ],
+   "court": "Traunstein",
+   "best": {
+    "uid": "DE332011030",
+    "valid": true,
+    "vies_name": null,
+    "vies_address": null,
+    "checked_at": "2026-10-13T17:20:42.644Z",
+    "name_match": "on_page"
+   },
+   "legal_name_imprint": "PLANT BASED POWER GmbH",
+   "uid_source": "imprint",
+   "source": "public legal notice + EU VIES",
+   "accepted": true,
+   "decision": "feelfood imprint: 'PLANT BASED POWER GmbH, Hauptstraße 41, 83395 Freilassing … HRB 33283 Traunstein, Ust-ID DE332011030' (label shows former Köln address); VIES valid"
+  },
+  {
+   "company": "Laboratorio Alimentare Cecchin Andrea e Carlo srl",
+   "domain": "www.pastacecchin.it",
+   "imprint_url": "https://www.pastacecchin.it/contatti",
+   "uids": [
+    {
+     "uid": "IT03248880282",
+     "valid": true,
+     "vies_name": "LABORATORIO ALIMENTARE CECCHIN S.R.L.",
+     "vies_address": "VIA TAGLIAMENTO 10 \n36056 TEZZE SUL BRENTA VI\n",
+     "checked_at": "2026-10-13T17:21:21.680Z",
+     "name_match": 0.5
+    }
+   ],
+   "fn": [],
+   "hrb": [],
+   "court": null,
+   "best": {
+    "uid": "IT03248880282",
+    "valid": true,
+    "vies_name": "LABORATORIO ALIMENTARE CECCHIN S.R.L.",
+    "vies_address": "VIA TAGLIAMENTO 10 \n36056 TEZZE SUL BRENTA VI\n",
+    "checked_at": "2026-10-13T17:21:21.680Z",
+    "name_match": 0.5
+   },
+   "legal_name_imprint": "Laboratorio Alimentare Cecchin S.r.l.",
+   "uid_source": "registry_lookup+vies",
+   "source": "public legal notice + EU VIES",
+   "accepted": true,
+   "decision": "official site names 'Laboratorio Alimentare Cecchin srl a socio unico, Via Tagliamento 10, 36056 Tezze sul Brenta' but prints no P.IVA; P.IVA 03248880282 (aziende.it) verified live in VIES: 'LABORATORIO ALIMENTARE CECCHIN S.R.L., VIA TAGLIAMENTO 10, TEZZE SUL BRENTA' = site sede legale"
+  },
+  {
+   "company": "Whollees GmbH",
+   "domain": "harvestmoon.de",
+   "imprint_url": "https://harvestmoon.de/de/credits",
+   "uids": [
+    {
+     "uid": "DE272636352",
+     "valid": true,
+     "vies_name": null,
+     "vies_address": null,
+     "checked_at": "2026-10-13T17:14:22.483Z",
+     "name_match": "on_page"
+    }
+   ],
+   "fn": [],
+   "hrb": [
+    "HRB 117168"
+   ],
+   "court": "Hamburg",
+   "best": {
+    "uid": "DE272636352",
+    "valid": true,
+    "vies_name": null,
+    "vies_address": null,
+    "checked_at": "2026-10-13T17:14:22.483Z",
+    "name_match": "on_page"
+   },
+   "legal_name_imprint": "Whollees GmbH",
+   "uid_source": "imprint",
+   "source": "public legal notice + EU VIES",
+   "accepted": true,
+   "decision": "Harvest Moon imprint: 'Whollees GmbH, Lippmannstr. 8, Hamburg … USt-IdNr DE 272636352 / HRB 117168'; VIES valid"
+  },
+  {
+   "company": "Lamercantile Scardovi GmbH",
+   "domain": "www.lamercantile.com",
+   "imprint_url": "https://www.lamercantile.com/impressum/",
+   "uids": [
+    {
+     "uid": "ATU48041202",
+     "valid": true,
+     "vies_name": "La Mercantile Scardovi GmbH",
+     "vies_address": "Baumgasse 70\nAT-1030 Wien",
+     "checked_at": "2026-10-13T17:22:58.066Z",
+     "name_match": 0.25
+    }
+   ],
+   "fn": [
+    "FN 187561a"
+   ],
+   "hrb": [],
+   "court": "HG Wien",
+   "best": {
+    "uid": "ATU48041202",
+    "valid": true,
+    "vies_name": "La Mercantile Scardovi GmbH",
+    "vies_address": "Baumgasse 70\nAT-1030 Wien",
+    "checked_at": "2026-10-13T17:22:58.066Z",
+    "name_match": 0.25
+   },
+   "legal_name_imprint": "La Mercantile Scardovi GmbH",
+   "uid_source": "registry_lookup+vies",
+   "source": "public legal notice + EU VIES",
+   "accepted": true,
+   "decision": "own imprint: 'Lamercantile Scardovi GmbH, Baumgasse 70, 1030 Wien, FN 187561a, HG Wien' (no UID printed); UID ATU48041202 (directory) VIES-valid as 'La Mercantile Scardovi GmbH', Baumgasse 70, 1030 Wien = label + imprint address (low token score only due to 'La Mercantile' spacing)"
+  },
+  {
+   "company": "Caro Fratello GmbH",
+   "domain": "www.fratelli-barbaro.at",
+   "imprint_url": "https://www.fratelli-barbaro.at/impressum",
+   "uids": [
+    {
+     "uid": "ATU76992079",
+     "valid": true,
+     "vies_name": "Caro Fratello GmbH",
+     "vies_address": "Gersthofer Straße 100/C/5\nAT-1180 Wien",
+     "checked_at": "2026-10-13T17:22:59.381Z",
+     "name_match": 1.0
+    }
+   ],
+   "fn": [],
+   "hrb": [],
+   "court": null,
+   "best": {
+    "uid": "ATU76992079",
+    "valid": true,
+    "vies_name": "Caro Fratello GmbH",
+    "vies_address": "Gersthofer Straße 100/C/5\nAT-1180 Wien",
+    "checked_at": "2026-10-13T17:22:59.381Z",
+    "name_match": 1.0
+   },
+   "legal_name_imprint": "Caro Fratello GmbH",
+   "uid_source": "registry_lookup+vies",
+   "source": "public legal notice + EU VIES",
+   "accepted": true,
+   "decision": "brand imprint names 'Caro Fratello GmbH, Gersthofer Straße 100/C, 1180 Wien' without UID; UID ATU76992079 (directory) VIES-valid with exact name + same address; NOT the shop legal notice (/policies/legal-notice → Degiuseppe GmbH, rejected)"
+  },
+  {
+   "company": "BS Gastro & Event Services GmbH",
+   "domain": "xn--brtchen-boutique-nwb.at",
+   "imprint_url": "https://xn--brtchen-boutique-nwb.at/policies/legal-notice",
+   "uids": [
+    {
+     "uid": "ATU69553039",
+     "valid": true,
+     "vies_name": "BS Gastro & Event Services GmbH",
+     "vies_address": "Möhringgasse 2\nAT-2320 Schwechat",
+     "checked_at": "2026-10-13T17:23:01.503Z",
+     "name_match": 1.0
+    }
+   ],
+   "fn": [],
+   "hrb": [],
+   "court": null,
+   "best": {
+    "uid": "ATU69553039",
+    "valid": true,
+    "vies_name": "BS Gastro & Event Services GmbH",
+    "vies_address": "Möhringgasse 2\nAT-2320 Schwechat",
+    "checked_at": "2026-10-13T17:23:01.503Z",
+    "name_match": 1.0
+   },
+   "legal_name_imprint": "BS Gastro & Event Services GmbH",
+   "uid_source": "registry_lookup+vies",
+   "source": "public legal notice + EU VIES",
+   "accepted": true,
+   "decision": "group shop imprint names 'BS Gastro & Event Services GmbH, Möhringgasse 2-4, 2320 Schwechat' (= label) without UID; UID ATU69553039 (directory) VIES-valid with exact name + address"
+  },
+  {
+   "company": "KIKKOMAN TRADING EUROPE GmbH",
+   "domain": "www.kikkoman.de",
+   "imprint_url": "https://www.kikkoman.de/impressum",
+   "uids": [
+    {
+     "uid": "DE812404191",
+     "valid": true,
+     "vies_name": null,
+     "vies_address": null,
+     "checked_at": "2026-10-13T17:23:02.697Z",
+     "name_match": "on_page"
+    }
+   ],
+   "fn": [],
+   "hrb": [
+    "HRB 35856"
+   ],
+   "court": "Düsseldorf",
+   "best": {
+    "uid": "DE812404191",
+    "valid": true,
+    "vies_name": null,
+    "vies_address": null,
+    "checked_at": "2026-10-13T17:23:02.697Z",
+    "name_match": "on_page"
+   },
+   "legal_name_imprint": "Kikkoman Trading Europe GmbH",
+   "uid_source": "imprint",
+   "source": "public legal notice + EU VIES",
+   "accepted": true,
+   "decision": "own imprint (read via public fetch; box egress to kikkoman.de failed): 'Kikkoman Trading Europe GmbH … AG Düsseldorf HRB 35856 … USt-ID DE 812404191'; VIES valid"
+  },
+  {
+   "company": "Planted Foods GmbH",
+   "domain": "planted-foods-de.myshopify.com",
+   "imprint_url": "https://planted-foods-de.myshopify.com/policies/legal-notice",
+   "uids": [
+    {
+     "uid": "DE329702020",
+     "valid": true,
+     "vies_name": null,
+     "vies_address": null,
+     "checked_at": "2026-10-13T17:23:33.791Z",
+     "name_match": "on_page"
+    }
+   ],
+   "fn": [],
+   "hrb": [
+    "HRB 721853"
+   ],
+   "court": "Freiburg",
+   "best": {
+    "uid": "DE329702020",
+    "valid": true,
+    "vies_name": null,
+    "vies_address": null,
+    "checked_at": "2026-10-13T17:23:33.791Z",
+    "name_match": "on_page"
+   },
+   "legal_name_imprint": "Planted Foods GmbH",
+   "uid_source": "imprint",
+   "source": "public legal notice + EU VIES",
+   "accepted": true,
+   "decision": "planted DE/AT shop imprint: 'Planted Foods GmbH, Birkenstr. 22, 10559 Berlin (= label) … HRB 721853 AG Freiburg … USt-IdNr DE329702020'; VIES valid"
+  },
+  {
+   "company": "Unilever Austria GmbH",
+   "domain": "www.unilever.at",
+   "imprint_url": "https://www.unilever.at/rechtliche-ressourcen/impressum/",
+   "uids": [
+    {
+     "uid": "ATU49997507",
+     "valid": true,
+     "vies_name": "Unilever Austria GmbH",
+     "vies_address": "Jakov-Lind-Straße 5\nAT-1020 Wien",
+     "checked_at": "2026-10-13T17:22:54.944Z",
+     "name_match": 1.0
+    }
+   ],
+   "fn": [
+    "FN 197801i"
+   ],
+   "hrb": [],
+   "court": "Handelsgericht Wien",
+   "best": {
+    "uid": "ATU49997507",
+    "valid": true,
+    "vies_name": "Unilever Austria GmbH",
+    "vies_address": "Jakov-Lind-Straße 5\nAT-1020 Wien",
+    "checked_at": "2026-10-13T17:22:54.944Z",
+    "name_match": 1.0
+   },
+   "legal_name_imprint": "Unilever Austria GmbH",
+   "uid_source": "imprint",
+   "source": "public legal notice + EU VIES",
+   "accepted": true,
+   "decision": "own imprint (read via public fetch; box gets HTTP 403 – not bypassed): 'Unilever Austria GmbH … FN 197801i … UID-Nummer: 49997507'; VIES name exact (Jakov-Lind-Straße 5, 1020 Wien)"
+  },
+  {
+   "company": "iglo Austria GmbH",
+   "domain": "www.iglo.at",
+   "imprint_url": "https://www.iglo.at/wir-sind-iglo/impressum",
+   "uids": [
+    {
+     "uid": "ATU62784838",
+     "valid": true,
+     "vies_name": "Iglo Austria GmbH",
+     "vies_address": "Clemens-Holzmeister-Straße 6/4\nAT-1100 Wien",
+     "checked_at": "2026-10-13T17:22:56.062Z",
+     "name_match": 1.0
+    }
+   ],
+   "fn": [
+    "FN 279637g"
+   ],
+   "hrb": [],
+   "court": "Handelsgericht Wien",
+   "best": {
+    "uid": "ATU62784838",
+    "valid": true,
+    "vies_name": "Iglo Austria GmbH",
+    "vies_address": "Clemens-Holzmeister-Straße 6/4\nAT-1100 Wien",
+    "checked_at": "2026-10-13T17:22:56.062Z",
+    "name_match": 1.0
+   },
+   "legal_name_imprint": "Iglo Austria GmbH",
+   "uid_source": "registry_lookup+vies",
+   "source": "public legal notice + EU VIES",
+   "accepted": true,
+   "decision": "own imprint (public fetch; box 403 not bypassed): 'Iglo Austria GmbH, Clemens-Holzmeister-Straße 6, 1100 Wien, Handelsgericht Wien FB Nr. 279637 g' (no UID printed); UID ATU62784838 (directory) VIES-valid with exact name + same address"
+  },
+  {
+   "company": "PENNY GmbH",
+   "domain": "www.penny.at",
+   "imprint_url": "https://www.penny.at/impressum",
+   "uids": [
+    {
+     "uid": "ATU43203403",
+     "valid": true,
+     "vies_name": "Penny GmbH",
+     "vies_address": "Iz Noe-Süd Str 3 Obj 16\nAT-2355 Wiener Neudorf",
+     "checked_at": "2026-10-13T17:23:37.431Z",
+     "name_match": 1.0
+    }
+   ],
+   "fn": [
+    "FN 160330f"
+   ],
+   "hrb": [],
+   "court": "Landesgericht Wiener Neustadt",
+   "best": {
+    "uid": "ATU43203403",
+    "valid": true,
+    "vies_name": "Penny GmbH",
+    "vies_address": "Iz Noe-Süd Str 3 Obj 16\nAT-2355 Wiener Neudorf",
+    "checked_at": "2026-10-13T17:23:37.431Z",
+    "name_match": 1.0
+   },
+   "legal_name_imprint": "PENNY GmbH",
+   "uid_source": "imprint",
+   "source": "public legal notice + EU VIES",
+   "accepted": true,
+   "decision": "own imprint prints 'UID-Nummer: ATU 43 20 34 03' (grouped digits – adapter regex fixed this run); VIES name exact"
+  },
+  {
+   "company": "dm drogerie markt GmbH",
+   "domain": "www.dm.at",
+   "imprint_url": "https://www.dm.at/impressum-218894",
+   "uids": [
+    {
+     "uid": "ATU35195908",
+     "valid": true,
+     "vies_name": "dm drogerie markt GmbH",
+     "vies_address": "Günter-Bauer-Straße 1\nAT-5071 Wals",
+     "checked_at": "2026-10-13T17:23:56.471Z",
+     "name_match": 1.0
+    }
+   ],
+   "fn": [],
+   "hrb": [],
+   "court": null,
+   "best": {
+    "uid": "ATU35195908",
+    "valid": true,
+    "vies_name": "dm drogerie markt GmbH",
+    "vies_address": "Günter-Bauer-Straße 1\nAT-5071 Wals",
+    "checked_at": "2026-10-13T17:23:56.471Z",
+    "name_match": 1.0
+   },
+   "legal_name_imprint": "dm drogerie markt GmbH",
+   "uid_source": "registry_lookup+vies",
+   "source": "public legal notice + EU VIES",
+   "accepted": true,
+   "decision": "dm.at imprint is JS-rendered (not machine-readable, not bypassed); UID ATU35195908 (directory) VIES-valid with exact name, Günter-Bauer-Straße 1, 5071 Wals"
+  },
+  {
+   "company": "Wilhelm Blasko CONVENIENCE-Fertiggerichte GmbH",
+   "domain": "www.blasko.at",
+   "imprint_url": "https://www.blasko.at/impressum",
+   "uids": [
+    {
+     "uid": "ATU27179709",
+     "valid": true,
+     "vies_name": "Wilhelm Blasko CONVENIENCE- Fertiggerichte GmbH",
+     "vies_address": "Leobner Straße 78\nAT-8600 Bruck/Mur",
+     "checked_at": "2026-10-13T17:23:57.559Z",
+     "name_match": 1.0
+    }
+   ],
+   "fn": [
+    "FN 74665b"
+   ],
+   "hrb": [],
+   "court": "Leoben",
+   "best": {
+    "uid": "ATU27179709",
+    "valid": true,
+    "vies_name": "Wilhelm Blasko CONVENIENCE- Fertiggerichte GmbH",
+    "vies_address": "Leobner Straße 78\nAT-8600 Bruck/Mur",
+    "checked_at": "2026-10-13T17:23:57.559Z",
+    "name_match": 1.0
+   },
+   "legal_name_imprint": "Wilhelm Blasko CONVENIENCE-Fertiggerichte GmbH",
+   "uid_source": "registry_lookup+vies",
+   "source": "public legal notice + EU VIES",
+   "accepted": true,
+   "decision": "own imprint has FN 74665b (no UID); UID ATU27179709 (directory) VIES-valid as 'Wilhelm Blasko CONVENIENCE- Fertiggerichte GmbH', Leobner Straße 78, Bruck/Mur"
+  },
+  {
+   "company": "Heiploeg International B.V.",
+   "domain": "heiploeg.com",
+   "imprint_url": "https://heiploeg.com/nl-nl/colofon",
+   "uids": [
+    {
+     "uid": "NL853640804B01",
+     "valid": true,
+     "vies_name": "HEIPLOEG INTERNATIONAL B.V.",
+     "vies_address": "\nPANSERWEG 00014\n9974SL ZOUTKAMP\n",
+     "checked_at": "2026-10-13T17:24:29.344Z",
+     "name_match": 1.0
+    }
+   ],
+   "fn": [],
+   "hrb": [],
+   "court": null,
+   "best": {
+    "uid": "NL853640804B01",
+    "valid": true,
+    "vies_name": "HEIPLOEG INTERNATIONAL B.V.",
+    "vies_address": "\nPANSERWEG 00014\n9974SL ZOUTKAMP\n",
+    "checked_at": "2026-10-13T17:24:29.344Z",
+    "name_match": 1.0
+   },
+   "legal_name_imprint": "Heiploeg International B.V.",
+   "uid_source": "imprint",
+   "source": "public legal notice + EU VIES",
+   "accepted": true,
+   "decision": "own colofon: 'Heiploeg International B.V. … BTW nr.: NL 853 640 804 B 01'; VIES name exact (Panserweg 14, Zoutkamp)"
+  },
+  {
+   "company": "AIA S.p.A.",
+   "domain": "www.aiafood.com",
+   "imprint_url": "https://www.aiafood.com/it/",
+   "uids": [
+    {
+     "uid": "IT00233470236",
+     "valid": true,
+     "vies_name": "A.I.A. AGRICOLA ITALIANA ALIMENTARE S.P.A.",
+     "vies_address": "PIAZZALE APOLLINARE VERONESI 1 \n37036 SAN MARTINO BUON ALBERGO VR\n",
+     "checked_at": "2026-10-13T17:24:34.518Z",
+     "name_match": 0.5
+    }
+   ],
+   "fn": [],
+   "hrb": [],
+   "court": null,
+   "best": {
+    "uid": "IT00233470236",
+    "valid": true,
+    "vies_name": "A.I.A. AGRICOLA ITALIANA ALIMENTARE S.P.A.",
+    "vies_address": "PIAZZALE APOLLINARE VERONESI 1 \n37036 SAN MARTINO BUON ALBERGO VR\n",
+    "checked_at": "2026-10-13T17:24:34.518Z",
+    "name_match": 0.5
+   },
+   "legal_name_imprint": "AIA - Agricola Italiana Alimentare S.p.A.",
+   "uid_source": "imprint",
+   "source": "public legal notice + EU VIES",
+   "accepted": true,
+   "decision": "official site footer: 'AIA - Agricola Italiana Alimentare S.p.A. - Unipersonale … C.F. e P.IVA 00233470236'; VIES 'A.I.A. AGRICOLA ITALIANA ALIMENTARE S.P.A.' (label 'AIA S.p.A.' = short form)"
+  },
+  {
+   "company": "Bauck GmbH",
+   "imprint_url": "https://www.bauck.de/impressum/",
+   "accepted": false,
+   "decision": "rejected: imprint entity is 'BauckOnline GmbH' (website operator, DE313040669) ≠ label 'Bauck GmbH'"
+  },
+  {
+   "company": "Strauss GmbH",
+   "imprint_url": "https://www.straussjosef.it/de",
+   "accepted": false,
+   "decision": "rejected: probable producer (same Knödel/Schlutzkrapfen range), IT01438820217 VIES-valid as 'STRAUSS JOSEF GMBH' – label legal name 'Strauss GmbH' differs and has no address → not assigned; strauss.at = Strauss Österreich GmbH (workwear) also rejected"
+  },
+  {
+   "company": "Vegetarische Feinkost Produktion Peter Hiel",
+   "imprint_url": "https://www.hiel.at/impressum",
+   "accepted": false,
+   "decision": "rejected: imprint/VIES entity 'Hiel & Co GmbH' (Korneuburg) ≠ label sole-trader name + address Marchfeldstraße 4, 1200 Wien"
+  },
+  {
+   "company": "Recheis Teigwaren GmbH",
+   "imprint_url": "https://www.recheis.com/impressum",
+   "accepted": false,
+   "decision": "rejected: VIES 'Josef Recheis Eierteigwarenfabrik und Walzmühle Gesellschaft m.b.H.' ≠ record name 'Recheis Teigwaren GmbH'; label herst string not available to confirm → not assigned"
+  },
+  {
+   "company": "Knödelwerkstatt G.m.b.H",
+   "imprint_url": "https://www.knoedelwerkstatt.at/impressum/",
+   "accepted": false,
+   "decision": "rejected: imprint prints an empty 'UID-Nr: ATU'; directory UID ATU56237548 is INVALID in VIES"
+  },
+  {
+   "company": "Mochi Production GmbH",
+   "imprint_url": "https://www.mochi.at/impressum/",
+   "accepted": false,
+   "decision": "rejected: still only 'Mochi GmbH' (restaurant operator) on imprint/VIES"
+  },
+  {
+   "company": "Hildegard-Grünkraft Naturprodukte",
+   "imprint_url": "http://www.xn--hildegard-grnkraft-x6b.at/impressum.html",
+   "accepted": false,
+   "decision": "rejected: imprint not fetchable; directory UID ATU61930557 = 'St. Hildegard-Posch GmbH' (brand-only label, operator link not confirmed on page)"
+  },
+  {
+   "company": "Unimarkt GmbH",
+   "imprint_url": "https://unigruppe.at/impressum",
+   "accepted": false,
+   "decision": "rejected: record name is script-constructed; real retailer entity is 'UNIMARKT Handelsgesellschaft m.b.H. & Co. KG' (ATU22795704, VIES-valid) / group UNIGRUPPE GmbH – legal form differs, not assigned"
+  },
+  {
+   "company": "Franuí Espana SL.",
+   "imprint_url": "https://www.franui.store/he/politica-de-privacidad",
+   "accepted": false,
+   "decision": "rejected: NIF ESB40502403 VIES-valid but ES VIES returns no name and no official page prints NIF + full legal name"
+  },
+  {
+   "company": "Gastrotech",
+   "imprint_url": "https://rejstrik-firem.kurzy.cz/06661645/gastrotech-sro/",
+   "accepted": false,
+   "decision": "rejected: CZ06661645 VIES-valid as 'GASTROTECH, s.r.o.' but label has no address and no link to the Sushitime brand is established (name not unique across CZ/SK)"
+  },
+  {
+   "company": "Deflorian S.r.l.",
+   "imprint_url": "https://deflorian.tirol/",
+   "accepted": false,
+   "decision": "rejected: products come from Deflorian Tiefkühlspezialitäten GmbH (Gnadenwald, AT) – label says 'S.r.l.'; deflorian.it is an unrelated furniture maker"
+  },
+  {
+   "company": "Caro Fratello GmbH (shop legal notice)",
+   "imprint_url": "https://www.fratelli-barbaro.at/policies/legal-notice",
+   "accepted": false,
+   "decision": "rejected: ATU15763305/FN 96940i belong to 'Degiuseppe Gesellschaft m.b.H.' (shop operator) – not used"
+  },
+  {
+   "company": "Delikatessa GmbH",
+   "imprint_url": "https://www.penny.at/sortiment/meine-marken/delikatessa",
+   "accepted": false,
+   "decision": "rejected: Delikatessa Lebensmittel-Handels- und Erzeugungs-GmbH (FN 125012t) dissolved; CLEVER brand moved to BILLA AG – no live UID"
+  },
+  {
+   "company": "Danone GmbH",
+   "imprint_url": "https://www.danone.com/at/de/legal-pages/allgemeine-informationen.html",
+   "accepted": false,
+   "decision": "rejected: legal page has no ids; label 'Danone GmbH' ambiguous (Danone Österreich / Deutschland)"
+  },
+  {
+   "company": "Kasnudl GmbH",
+   "imprint_url": "https://www.kasnudl.com/impressum/",
+   "accepted": false,
+   "decision": "rejected: unchanged: imprint UID ATU83103945 belongs to 'Knödelhütte GmbH'"
+  },
+  {
+   "company": "Planted Foods AG",
+   "imprint_url": "https://eatplanted.com/policies/legal-notice",
+   "accepted": false,
+   "decision": "rejected: Swiss UID CHE-398.606.506 printed but not verifiable in EU VIES"
+  }
+ ]
+}
