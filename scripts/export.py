@@ -24,10 +24,11 @@ def main():
         i = pid(r)
         if i in seen: continue
         seen.add(i)
+        ean = r.get("ean") or r.get("barcode")
         prods.append({"product_id": i, "name": r["name"], "brand": r.get("brand"), "chain": r["store"], "dish": r.get("dish"),
             "storage": r.get("pack"), "pack_size_g": r.get("size"), "producer": (r.get("herst") or "").split("\n")[0] or None,
             "origin": r.get("origin"), "bio": r.get("bio"), "vegan": r.get("vegan"), "url": r.get("url"), "image_url": r.get("img"),
-            "source": r.get("src")})
+            "source": r.get("src"), "ean": ean})
         if r.get("price") is not None:
             prices.append({"product_id": i, "chain": r["store"], "price_eur": r["price"], "price_per_kg_eur": r.get("ppk"),
                 "price_status": r.get("pstat"), "fetched_at": date_of(r.get("psrc")) or date_of(" ".join(q.get("new") or "" for q in r.get("qa") or [] if isinstance(q.get("new"), str))),

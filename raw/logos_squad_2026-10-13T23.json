@@ -1,0 +1,114 @@
+{
+ "run": "2026-10-13T23 Daten-Squad",
+ "generated_at": "2026-10-13T23:18:44.655392+00:00",
+ "added": [
+  {
+   "slug": "dmbio",
+   "note": "Vision gate 2026-10-13T23 (Daten-Squad): visuell geprüft (korrekte Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · Packshot-Ausschnitt offizielles dm-Produktfoto (grünes dmBio-Siegel mit dm-Untermarke); Commons nur dm-Hauptlogo, kein dmBio; dm.de/marken/dmbio JS-only ohne freigestelltes Asset",
+   "source": "dm-static packshot dmBio Gulasch vegan (products.dm-static.com …/dmbio-gulasch-vegan) — Ausschnitt Markenlogo",
+   "sha256": "585de7613a54a4d9fa40f47144bc97f6bb4649538584547b13fdaddcc2b6b01c",
+   "products_impacted": 16,
+   "aliases": [
+    "dmBio"
+   ]
+  },
+  {
+   "slug": "namdong",
+   "note": "Vision gate 2026-10-13T23 (Daten-Squad): visuell geprüft (korrekte Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · Packshot-Ausschnitt Unilever-Marke namdong + Hangul-Badge; namdong.com / unilever.co.uk Akamai 403 (nicht umgangen); Commons nur Namdong-gu Geo, kein Noodle-Logo",
+   "source": "Gurkerl CDN packshot Namdong Beef Instant Noodle Pot (cdn.gurkerl.at …/44153-…) — Ausschnitt Markenlogo",
+   "sha256": "0db09f7b27ea4c8bc23e6723f106f735b1829b562859ab19500d4a3288828c8d",
+   "products_impacted": 11,
+   "aliases": [
+    "Namdong"
+   ]
+  },
+  {
+   "slug": "pappudia",
+   "note": "Vision gate 2026-10-13T23 (Daten-Squad): visuell geprüft (korrekte Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · Packshot-Ausschnitt Lidl Eigenmarke PAPPUDIA (gestapeltes Wordmark + Check-Pin auf Senf-Kreis); Gurkerl-Fertiggericht-Fotos ohne Verpackungslogo; Commons kein Treffer",
+   "source": "OFF packshot GTIN 8595643805690 front_cs.12 (Pappudia Hummus) — Ausschnitt Markenlogo",
+   "sha256": "85700d8a2fc01a7e2ad7477c19721c266491e375b7e1489efeefd0e898152e1b",
+   "products_impacted": 25,
+   "aliases": [
+    "Pappudia",
+    "Pappudia Handgemacht"
+   ]
+  }
+ ],
+ "updated_fileless": [
+  {
+   "slug": "good-choice",
+   "note": "Vision gate 2026-10-13T23 (Daten-Squad): visuell geprüft (korrekte Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · Packshot-Ausschnitt offizielles Hofer/OFF-Produktfoto (GOOD Choice Wordmark im handgezeichneten Oval); Aldi-CDN Brandpage-Logo_* bewusst nicht erneut geprobt (T09 alle 403); Commons kein Treffer",
+   "source": "OFF packshot GTIN 4099200146256 front_de.15 (GOOD CHOICE Faschierte Laibchen) — Ausschnitt Markenlogo",
+   "sha256": "0d5c928bd0baaf366e4701a3417a028c36e7b5fbdaebc6d605771a5558c00d8d",
+   "products_impacted": 59,
+   "aliases": [
+    "Good Choice",
+    "GOOD CHOICE",
+    "good choice",
+    "Good Choice (Hofer Eigenmarke)",
+    "GOOD"
+   ]
+  },
+  {
+   "slug": "spar-enjoy",
+   "note": "Vision gate 2026-10-13T23 (Daten-Squad): visuell geprüft (korrekte Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · Packshot-Ausschnitt SPAR enjoy. Wordmark + SPAR-Baum (weißer Druck auf Karton-Sleeve); spar.at weisses-auf-transparent vorher abgelehnt (T12) — dieser Crop ist auf braunem Karton lesbar; Spar enjoy + SPAR enjoy als Alias gemerged",
+   "source": "OFF packshot GTIN 9100000702797 front_de.6 (SPAR enjoy Mediterraner Nudel-Kräuter-Salat) — Ausschnitt Markenlogo",
+   "sha256": "02543a2be328e8743434c19d28c49a22556e583279374020649e16107a09e673",
+   "products_impacted": 20,
+   "aliases": [
+    "SPAR enjoy",
+    "Spar enjoy",
+    "Spar Enjoy"
+   ]
+  },
+  {
+   "slug": "chef-select",
+   "note": "Vision gate 2026-10-13T23 (Daten-Squad): visuell geprüft (korrekte Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · Packshot-Ausschnitt Lidl Eigenmarke CHEF SELECT (weiße Kapitälchen auf rosa Header); Commons nur Lidl-Hauptlogo / Produktfotos, kein freigestelltes Chef-Select-Asset",
+   "source": "OFF packshot GTIN 4056489009214 front_en.94 (Chef Select Smoked Ham Tortellini) — Ausschnitt Markenlogo",
+   "sha256": "e7cff8c6d1bcd96914824b33a2a88f6caefbb1fb0258ee3f656ba80e6b16e37e",
+   "products_impacted": 15,
+   "aliases": [
+    "Chef Select",
+    "CHEF SELECT"
+   ]
+  },
+  {
+   "slug": "chef-menue",
+   "note": "Vision gate 2026-10-13T23 (Daten-Squad): visuell geprüft (korrekte Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · Packshot-Ausschnitt REWE-AT Eigenmarke Chef Menü (weißes Wordmark auf grünem Blatt + Wirt z'Haus); kein Commons-/CDN-Freisteller",
+   "source": "OFF packshot GTIN 9010158009856 front_en.4 (Chef Menü Schweinsbraten) — Ausschnitt Markenlogo",
+   "sha256": "2f9a6b8d6b2a8418dd559380f18707d30a650a02107ce75afa53a963ad59d62f",
+   "products_impacted": 11,
+   "aliases": [
+    "Chef Menü",
+    "Chef Menu",
+    "chef menü"
+   ]
+  }
+ ],
+ "aliases_producer_fallback": [],
+ "rejected": {
+  "Good Choice Aldi CDN Brandpage-Logo_*": "not re-probed — T09 616 GET variants all 403 (policy)",
+  "namdong.com / unilever.co.uk brands page": "Akamai Access Denied HTTP 403 — not bypassed",
+  "Wikimedia Commons (dmBio/Good Choice/Pappudia/Chef Select/SPAR enjoy/Namdong/Chef Menü)": "no usable logo file (only unrelated / Lidl-main / SPAR-main / Namdong-gu geo)",
+  "dm.de/marken/dmbio freigestelltes Logo": "page JS-rendered, no static logo asset URL found",
+  "Pappudia Gurkerl Fertiggericht-Fotos": "prepared-meal photos without packaging logo — used OFF Hummus packshot of same brand instead",
+  "SPAR enjoy spar.at white-on-transparent": "previously rejected (T12, invisible on light UI) — pack crop on cardboard used instead",
+  "interspar.at hd_main/xl_main SPAR enjoy": "HTTP 404; only 180px dt_main available from SPAR CDN for these SKUs"
+ },
+ "counts": {
+  "added": 3,
+  "updated_fileless": 4,
+  "total_rows": 254,
+  "with_file": 219,
+  "products_impacted_total": 152
+ },
+ "sha256": {
+  "good-choice": "0d5c928bd0baaf366e4701a3417a028c36e7b5fbdaebc6d605771a5558c00d8d",
+  "spar-enjoy": "02543a2be328e8743434c19d28c49a22556e583279374020649e16107a09e673",
+  "dmbio": "585de7613a54a4d9fa40f47144bc97f6bb4649538584547b13fdaddcc2b6b01c",
+  "chef-select": "e7cff8c6d1bcd96914824b33a2a88f6caefbb1fb0258ee3f656ba80e6b16e37e",
+  "chef-menue": "2f9a6b8d6b2a8418dd559380f18707d30a650a02107ce75afa53a963ad59d62f",
+  "namdong": "0db09f7b27ea4c8bc23e6723f106f735b1829b562859ab19500d4a3288828c8d",
+  "pappudia": "85700d8a2fc01a7e2ad7477c19721c266491e375b7e1489efeefd0e898152e1b"
+ }
+}

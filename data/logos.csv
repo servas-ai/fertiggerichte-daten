@@ -20,14 +20,14 @@ spar-veggie,SPAR Veggie,Eigenmarke,logos/spar-veggie.png,https://www.spar.at/con
 spar-vital,SPAR Vital,Eigenmarke,logos/spar-vital.png,https://www.spar.at/content/dam/spardam/at/spar-website/eigenmarken/logos/spar-vital-logo-web-variant-1.png,SPAR Vital
 spar-natur-pur,SPAR Natur*pur,Bio,logos/spar-natur-pur.png,https://www.spar.at/content/dam/spardam/at/spar-website/eigenmarken/lebensmittel/spar-natur-pur/snp-logo-color-pantone-gru-n.png,SPAR Natur*pur|Spar Natur Pur
 despar,DESPAR,Eigenmarke,logos/despar.png,https://www.spar.at/content/dam/sparatwebsite/brands/DESPAR-Logo.jpg,DESPAR
-spar-enjoy,SPAR enjoy,Eigenmarke,,,SPAR enjoy
+spar-enjoy,SPAR enjoy,Eigenmarke,logos/spar-enjoy.png,OFF packshot GTIN 9100000702797 front_de.6 (SPAR enjoy Mediterraner Nudel-Kräuter-Salat) — Ausschnitt Markenlogo,SPAR enjoy|Spar enjoy|Spar Enjoy
 le-gusto,Le Gusto,Eigenmarke,logos/le-gusto.png,https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/2026_MA_Brandpage-Logo_Le-Gusto:1-1?wid=800&fit=constrain,Le Gusto
 cucina,Cucina,Eigenmarke,logos/cucina.png,https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/2026_MA_Brandpage-Logo_Cucina:1-1?wid=800&fit=constrain,"Cucina|Cucina Nobile|Cucina, Girone & Sohn Nahrungsmittel"
 almare,Almare,Eigenmarke,logos/almare.png,https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/2026_MA_Brandpage-Logo_ALMARE:1-1?wid=800&fit=constrain,Almare
 hofer-gourmet,GOURMET FINEST CUISINE,Eigenmarke,logos/hofer-gourmet.png,https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/2026_MA_Brandpage-Logo_GOURMET:1-1?wid=800&fit=constrain,GOURMET FINEST CUISINE
 sonnhof,SONNHOF,Eigenmarke,logos/sonnhof.png,https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/Brandpage-Logo_Sonnhof_386x386px:1-1?wid=800&fit=constrain,SONNHOF
 fairhof,FairHOF,Eigenmarke,logos/fairhof.png,https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/2026_MA_Brandpage-Logo_Fairhof:1-1?wid=800&fit=constrain,FairHOF
-good-choice,Good Choice,Eigenmarke,,,Good Choice
+good-choice,Good Choice,Eigenmarke,logos/good-choice.png,OFF packshot GTIN 4099200146256 front_de.15 (GOOD CHOICE Faschierte Laibchen) — Ausschnitt Markenlogo,Good Choice|GOOD CHOICE|good choice|Good Choice (Hofer Eigenmarke)|GOOD
 primana,Primana,Eigenmarke,logos/primana.png,"hofer.at Produktfoto Primana Frühstücksfleisch (Aldi CDN dm.emea.cms.aldi.cx, Ausschnitt)",Primana|PRIMANA
 asia,Asia,Eigenmarke,,,Asia
 green-garden,Asia Green Garden,Eigenmarke,logos/asia-green-garden.png,"hofer.at Produktfoto Asia Green Garden Pilztopf (Aldi CDN dm.emea.cms.aldi.cx, Ausschnitt)",Asia Green Garden|Green Garden
@@ -37,7 +37,7 @@ leibspeis,Leibspeis',Eigenmarke,,,Leibspeis'
 natur-aktiv,Natur Aktiv,Bio,,,Natur Aktiv
 rettenswert,Rettenswert,Eigenmarke,,,Rettenswert
 wonnemeyer,Wonnemeyer,Eigenmarke,,,Wonnemeyer
-chef-select,Chef Select,Eigenmarke,,,Chef Select
+chef-select,Chef Select,Eigenmarke,logos/chef-select.png,OFF packshot GTIN 4056489009214 front_en.94 (Chef Select Smoked Ham Tortellini) — Ausschnitt Markenlogo,Chef Select|CHEF SELECT
 vemondo,Vemondo,Eigenmarke,,,Vemondo
 deluxe,Deluxe,Eigenmarke,,,Deluxe
 vitasia,Vitasia,Eigenmarke,,,Vitasia
@@ -48,7 +48,7 @@ trattoria-alfredo,Trattoria Alfredo,Eigenmarke,,,Trattoria Alfredo
 kania,Kania,Eigenmarke,,,Kania
 food-for-future,Food for Future,Eigenmarke,logos/food-for-future.svg,https://assets-eu-01.kc-usercontent.com:443/1d32d597-5ed5-0129-acbb-0e3925686fcc/2f2e48b1-b6da-4c09-a80f-623b2c5ce926/Food_for_Future_Logo_4c.svg,"Food for Future|Food for Future, Penny"
 delikatessa,Delikatessa,Eigenmarke,,,Delikatessa
-chef-menue,Chef Menü,Eigenmarke,,,Chef Menü
+chef-menue,Chef Menü,Eigenmarke,logos/chef-menue.png,OFF packshot GTIN 9010158009856 front_en.4 (Chef Menü Schweinsbraten) — Ausschnitt Markenlogo,Chef Menü|Chef Menu|chef menü
 knorr,Knorr,Markenhersteller,logos/knorr.svg,https://upload.wikimedia.org/wikipedia/commons/d/dc/Knorr_Logo_2020.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,"Knorr|Knorr, Kaiser Teller|Knorr Kaiser Teller"
 maggi,Maggi,Markenhersteller,logos/maggi.svg,https://upload.wikimedia.org/wikipedia/commons/8/83/Maggi_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,"Maggi|Maggi, Nestlé"
 iglo,iglo,Markenhersteller,logos/iglo.png,https://upload.wikimedia.org/wikipedia/en/3/3f/Iglo_logo.png,iglo|Iglo|IGLO
@@ -250,3 +250,6 @@ englert,Englert,Markenhersteller,logos/englert.png,https://feinkost-englert.de/_
 subway,Subway,Handelskette,logos/subway.svg,https://commons.wikimedia.org/wiki/File:Subway_2016_logo.svg,Subway|SUBWAY|Subway®
 alpenhain,Alpenhain,Markenhersteller,logos/alpenhain.png,https://commons.wikimedia.org/wiki/File:Alpenhain_Logo.png,Alpenhain|ALPENHAIN|Alpenhain Back
 hellofresh,HelloFresh,Online-Mealprep,logos/hellofresh.svg,https://cdn.hellofresh.com/logo/HelloFresh_Logo_Horizontal_V2.svg,HelloFresh|Hello Fresh|HelloFresh SE
+dmbio,dmBio,Eigenmarke,logos/dmbio.png,dm-static packshot dmBio Gulasch vegan (products.dm-static.com …/dmbio-gulasch-vegan) — Ausschnitt Markenlogo,dmBio
+namdong,Namdong,Markenhersteller,logos/namdong.png,Gurkerl CDN packshot Namdong Beef Instant Noodle Pot (cdn.gurkerl.at …/44153-…) — Ausschnitt Markenlogo,Namdong
+pappudia,Pappudia,Eigenmarke,logos/pappudia.png,OFF packshot GTIN 8595643805690 front_cs.12 (Pappudia Hummus) — Ausschnitt Markenlogo,Pappudia|Pappudia Handgemacht

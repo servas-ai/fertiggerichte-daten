@@ -1,0 +1,99 @@
+{
+ "run": "2026-10-13T23 Daten-Squad EAN-aware overlay export",
+ "generated_at": "2026-10-13T23:20:16.630592+00:00",
+ "overlay_file": "2026-10-13T21:38:13+00:00",
+ "stats": {
+  "matched": 13,
+  "applied": 9,
+  "dup_dropped": 4,
+  "size_mismatch": 1,
+  "ean_filled": 967,
+  "off_with_ean": 112
+ },
+ "overlay_gtins_found": [
+  "4000521465407",
+  "4008366007011",
+  "4062300463196",
+  "4260237451068",
+  "8008481808490",
+  "8720182937070",
+  "9000275487712",
+  "9000275618116",
+  "9000275637216",
+  "9002100056735",
+  "9002890019071",
+  "9035000007293",
+  "9120087450084"
+ ],
+ "overlay_gtins_missing_in_csv": [
+  "9044400042001",
+  "9004584016779",
+  "9120004490049",
+  "9019100655608",
+  "4000521464400",
+  "9044400050006"
+ ],
+ "applied_rows": [
+  {
+   "name": "Spargelcreme Suppe",
+   "ean": "9000275618116",
+   "store": "MPreis",
+   "price": 1.59
+  },
+  {
+   "name": "Kürbiscreme Suppe mit Kürbisstückchen",
+   "ean": "8720182937070",
+   "store": "MPreis",
+   "price": 1.59
+  },
+  {
+   "name": "Spätzle mit Gulasch",
+   "ean": "4062300463196",
+   "store": "dm",
+   "price": 1.75
+  },
+  {
+   "name": "Gemüsesuppe",
+   "ean": "9002100056735",
+   "store": "Gurkerl",
+   "price": 1.79
+  },
+  {
+   "name": "Serbisches Reisfleisch",
+   "ean": "9000275487712",
+   "store": "MPreis",
+   "price": 1.39
+  },
+  {
+   "name": "American Pulled Chicken",
+   "ean": "9002890019071",
+   "store": "Gurkerl",
+   "price": 7.59
+  },
+  {
+   "name": "Danone Dany Sahne Schoko 190g",
+   "ean": "9035000007293",
+   "store": "Gurkerl",
+   "price": 0.99
+  },
+  {
+   "name": "Gemüsepfanne Sommergarten",
+   "ean": "4008366007011",
+   "store": "MPreis",
+   "price": 4.79
+  },
+  {
+   "name": "Paradies Creme Schoko",
+   "ean": "4000521465407",
+   "store": "MPreis",
+   "price": 1.19
+  }
+ ],
+ "products_before": 3079,
+ "products_after": 3075,
+ "off_unbekannt_before": 205,
+ "off_unbekannt_after": 192,
+ "prices_after": 2734,
+ "ean_column": true,
+ "note": "Conservative EAN: scored.json barcode + OFF product URL + OFF image path only (no BILLA article-number scrape). export.py patched to emit ean on future exports."
+}

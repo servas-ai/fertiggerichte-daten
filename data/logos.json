@@ -219,10 +219,12 @@
   "slug": "spar-enjoy",
   "name": "SPAR enjoy",
   "category": "Eigenmarke",
-  "file": null,
-  "source_url": null,
+  "file": "logos/spar-enjoy.png",
+  "source_url": "OFF packshot GTIN 9100000702797 front_de.6 (SPAR enjoy Mediterraner Nudel-Kräuter-Salat) — Ausschnitt Markenlogo",
   "brands": [
-   "SPAR enjoy"
+   "SPAR enjoy",
+   "Spar enjoy",
+   "Spar Enjoy"
   ]
  },
  {
@@ -291,10 +293,14 @@
   "slug": "good-choice",
   "name": "Good Choice",
   "category": "Eigenmarke",
-  "file": null,
-  "source_url": null,
+  "file": "logos/good-choice.png",
+  "source_url": "OFF packshot GTIN 4099200146256 front_de.15 (GOOD CHOICE Faschierte Laibchen) — Ausschnitt Markenlogo",
   "brands": [
-   "Good Choice"
+   "Good Choice",
+   "GOOD CHOICE",
+   "good choice",
+   "Good Choice (Hofer Eigenmarke)",
+   "GOOD"
   ]
  },
  {
@@ -393,10 +399,11 @@
   "slug": "chef-select",
   "name": "Chef Select",
   "category": "Eigenmarke",
-  "file": null,
-  "source_url": null,
+  "file": "logos/chef-select.png",
+  "source_url": "OFF packshot GTIN 4056489009214 front_en.94 (Chef Select Smoked Ham Tortellini) — Ausschnitt Markenlogo",
   "brands": [
-   "Chef Select"
+   "Chef Select",
+   "CHEF SELECT"
   ]
  },
  {
@@ -504,10 +511,12 @@
   "slug": "chef-menue",
   "name": "Chef Menü",
   "category": "Eigenmarke",
-  "file": null,
-  "source_url": null,
+  "file": "logos/chef-menue.png",
+  "source_url": "OFF packshot GTIN 9010158009856 front_en.4 (Chef Menü Schweinsbraten) — Ausschnitt Markenlogo",
   "brands": [
-   "Chef Menü"
+   "Chef Menü",
+   "Chef Menu",
+   "chef menü"
   ]
  },
  {
@@ -2656,6 +2665,37 @@
    "HelloFresh",
    "Hello Fresh",
    "HelloFresh SE"
+  ]
+ },
+ {
+  "slug": "dmbio",
+  "name": "dmBio",
+  "category": "Eigenmarke",
+  "file": "logos/dmbio.png",
+  "source_url": "dm-static packshot dmBio Gulasch vegan (products.dm-static.com …/dmbio-gulasch-vegan) — Ausschnitt Markenlogo",
+  "brands": [
+   "dmBio"
+  ]
+ },
+ {
+  "slug": "namdong",
+  "name": "Namdong",
+  "category": "Markenhersteller",
+  "file": "logos/namdong.png",
+  "source_url": "Gurkerl CDN packshot Namdong Beef Instant Noodle Pot (cdn.gurkerl.at …/44153-…) — Ausschnitt Markenlogo",
+  "brands": [
+   "Namdong"
+  ]
+ },
+ {
+  "slug": "pappudia",
+  "name": "Pappudia",
+  "category": "Eigenmarke",
+  "file": "logos/pappudia.png",
+  "source_url": "OFF packshot GTIN 8595643805690 front_cs.12 (Pappudia Hummus) — Ausschnitt Markenlogo",
+  "brands": [
+   "Pappudia",
+   "Pappudia Handgemacht"
   ]
  }
 ]
