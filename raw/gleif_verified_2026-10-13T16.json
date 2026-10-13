@@ -1,0 +1,409 @@
+{
+ "generated": "2026-10-13T16:28:30Z",
+ "source": "GLEIF API v1 lei-records filter[fulltext] + lei-records/{LEI} (api.gleif.org, public, no key); every accepted record reviewed manually against the product label address/legal name",
+ "accepted": [
+  {
+   "company": "Alnatura GmbH",
+   "lei": "96760063YASRHVRSR697",
+   "legal_name": "AlnaturA Produktions- und Handels GmbH",
+   "address": "Mahatma-Gandhi-Str. 7, 64295 Darmstadt, DE",
+   "country": "DE",
+   "register_id": "HRB 4407",
+   "register_ra": "RA000228",
+   "legal_form": "2HBR",
+   "status": "ACTIVE",
+   "registration_status": "ISSUED",
+   "parent_direct": null,
+   "parent_ultimate": null,
+   "parent_ultimate_lei": null,
+   "match_basis": "label address \"Mahatma-Gandhi-Straße 7, 64295 Darmstadt\" = GLEIF legal address; app labels also print \"Alnatura Produktions- und Handels GmbH\"",
+   "source": "https://api.gleif.org/api/v1/lei-records/96760063YASRHVRSR697"
+  },
+  {
+   "company": "Molkerei Alois Müller GmbH & Co. KG Zollerstraße 7",
+   "lei": "529900ASH0JL6PAY8526",
+   "legal_name": "Molkerei Alois Müller GmbH & Co. KG",
+   "address": "Zollerstraße 7, 86850 Fischach, DE",
+   "country": "DE",
+   "register_id": "HRA 10968",
+   "register_ra": "RA000206",
+   "legal_form": "8Z6G",
+   "status": "ACTIVE",
+   "registration_status": "ISSUED",
+   "parent_direct": "Unternehmensgruppe Theo Müller S.e.c.s.",
+   "parent_ultimate": "Unternehmensgruppe Theo Müller S.e.c.s.",
+   "parent_ultimate_lei": "529900DQ8JP1LS3K2A47",
+   "match_basis": "exact legal name + label street Zollerstraße 7 (D-86850 Aretsried = Fischach) = GLEIF legal address",
+   "source": "https://api.gleif.org/api/v1/lei-records/529900ASH0JL6PAY8526"
+  },
+  {
+   "company": "Pastificio RANA S.p.A. - Via Pacinotti",
+   "lei": "815600530D7A6B12BC38",
+   "legal_name": "PASTIFICIO RANA S.P.A.",
+   "address": "VIA PACINOTTI, 25, 37057 SAN GIOVANNI LUPATOTO, IT",
+   "country": "IT",
+   "register_id": "01397480235",
+   "register_ra": "RA000407",
+   "legal_form": "P418",
+   "status": "ACTIVE",
+   "registration_status": "ISSUED",
+   "parent_direct": null,
+   "parent_ultimate": null,
+   "parent_ultimate_lei": null,
+   "match_basis": "exact legal name + label address Via Pacinotti 25, 37057 San Giovanni Lupatoto = GLEIF legal address",
+   "source": "https://api.gleif.org/api/v1/lei-records/815600530D7A6B12BC38"
+  },
+  {
+   "company": "LA CREPE DE BROCELIANDE 8 RUE PIERRE LEGAULTBOISGERVILLY35360",
+   "lei": "9695008S54YQL1E0KN19",
+   "legal_name": "LA CREPE DE BROCELIANDE",
+   "address": "8B RUE PIERRE LEGAULT, 35360 BOISGERVILLY, FR",
+   "country": "FR",
+   "register_id": "349871525",
+   "register_ra": "RA000189",
+   "legal_form": "6CHY",
+   "status": "ACTIVE",
+   "registration_status": "LAPSED",
+   "parent_direct": "FINANCIERE RT",
+   "parent_ultimate": "FINANCIERE RT",
+   "parent_ultimate_lei": "969500UQT1DQ236LGB34",
+   "match_basis": "exact legal name + label address 8 rue Pierre Legault, 35360 Boisgervilly = GLEIF legal address (8B)",
+   "source": "https://api.gleif.org/api/v1/lei-records/9695008S54YQL1E0KN19"
+  },
+  {
+   "company": "Galana NV / Beldessert",
+   "lei": "549300XYU1SL27MVSQ48",
+   "legal_name": "GALANA NV",
+   "address": "VICHTSEWEG 109, 8790 WAREGEM, BE",
+   "country": "BE",
+   "register_id": "0423.072.923",
+   "register_ra": "RA000025",
+   "legal_form": "R85P",
+   "status": "ACTIVE",
+   "registration_status": "LAPSED",
+   "parent_direct": null,
+   "parent_ultimate": null,
+   "parent_ultimate_lei": null,
+   "match_basis": "exact legal name GALANA NV (label \"Galana NV / Beldessert\"); only Galana NV in GLEIF",
+   "source": "https://api.gleif.org/api/v1/lei-records/549300XYU1SL27MVSQ48"
+  },
+  {
+   "company": "Doppelt Sp. z o.o.",
+   "lei": "2594008R9U26N8O08Z15",
+   "legal_name": "Doppelt Spółka z Ograniczoną Odpowiedzialnością",
+   "address": "Poznań Ostrowska 380D, 61-312 Poznań, PL",
+   "country": "PL",
+   "register_id": "0001169963",
+   "register_ra": "RA000484",
+   "legal_form": "O7XB",
+   "status": "ACTIVE",
+   "registration_status": "ISSUED",
+   "parent_direct": null,
+   "parent_ultimate": null,
+   "parent_ultimate_lei": null,
+   "match_basis": "exact legal name (Sp. z o.o. = Spółka z ograniczoną odpowiedzialnością); only Doppelt entity in GLEIF",
+   "source": "https://api.gleif.org/api/v1/lei-records/2594008R9U26N8O08Z15"
+  },
+  {
+   "company": "Dairy 4 Fun sro",
+   "lei": "315700X0LM9LA33FCG61",
+   "legal_name": "DAIRY 4 FUN s.r.o.",
+   "address": "č.p. 100, 743 01 Bílov, CZ",
+   "country": "CZ",
+   "register_id": "28627695",
+   "register_ra": "RA000163",
+   "legal_form": "9HLU",
+   "status": "ACTIVE",
+   "registration_status": "ISSUED",
+   "parent_direct": null,
+   "parent_ultimate": null,
+   "parent_ultimate_lei": null,
+   "match_basis": "exact legal name DAIRY 4 FUN s.r.o.; only match in GLEIF",
+   "source": "https://api.gleif.org/api/v1/lei-records/315700X0LM9LA33FCG61"
+  },
+  {
+   "company": "Delamaris d.o.o.",
+   "lei": "315700070TKBY0UVE318",
+   "legal_name": "DELAMARIS konzervna industrija d.o.o.",
+   "address": "Tovarniška ulica 13, 6310 Izola - Isola, SI",
+   "country": "SI",
+   "register_id": "3375790000",
+   "register_ra": "RA000529",
+   "legal_form": "KBKD",
+   "status": "ACTIVE",
+   "registration_status": "LAPSED",
+   "parent_direct": null,
+   "parent_ultimate": null,
+   "parent_ultimate_lei": null,
+   "match_basis": "Delamaris d.o.o. = DELAMARIS konzervna industrija d.o.o., Izola (only Delamaris entity in GLEIF, same legal form)",
+   "source": "https://api.gleif.org/api/v1/lei-records/315700070TKBY0UVE318"
+  },
+  {
+   "company": "Ehrmann GmbH",
+   "lei": "529900C76ISEAIYH2E65",
+   "legal_name": "Ehrmann GmbH Oberschönegg im Allgäu",
+   "address": "A.-Ehrmann-Straße 2, 87770 Oberschönegg, DE",
+   "country": "DE",
+   "register_id": "HRB 16632",
+   "register_ra": "RA000299",
+   "legal_form": "2HBR",
+   "status": "ACTIVE",
+   "registration_status": "ISSUED",
+   "parent_direct": null,
+   "parent_ultimate": null,
+   "parent_ultimate_lei": null,
+   "match_basis": "GLEIF legal name \"Ehrmann GmbH Oberschönegg im Allgäu\" (GmbH, A.-Ehrmann-Straße 2, Oberschönegg) — the only Ehrmann GmbH; Ehrmann SE (holding) stays rejected",
+   "source": "https://api.gleif.org/api/v1/lei-records/529900C76ISEAIYH2E65"
+  }
+ ],
+ "rejected": [
+  {
+   "company": "Danone GmbH",
+   "reason": "label string ambiguous (Danone GmbH vs Danone Deutschland/Österreich GmbH); DANONE GMBH Haar is RETIRED"
+  },
+  {
+   "company": "Ager GesmbH",
+   "reason": "only \"Gas Ager GesmbH\" (gas supplier, Kramsach) — different company"
+  },
+  {
+   "company": "Hochreiter Quality Meat Factory GmbH",
+   "reason": "only Hochreiter Lebensmittelbetriebe/Fleischwaren GmbH — different legal names"
+  },
+  {
+   "company": "Recheis Teigwaren GmbH",
+   "reason": "only Recheis Holding GmbH / Privatstiftung — not the producer entity"
+  },
+  {
+   "company": "Hammermühle GmbH",
+   "reason": "only \"Hammermühle Diät GmbH\" (LAPSED) — legal name differs, not verified"
+  },
+  {
+   "company": "Gastrotech",
+   "reason": "label \"Gastrotech, s.r.o.\" vs GLEIF Gastrotech UG (DE) — different"
+  },
+  {
+   "company": "BONNE MAMAN",
+   "reason": "brand, not a legal entity (ANDROS is brand owner; not assigned)"
+  },
+  {
+   "company": "Andros Austria GmbH",
+   "reason": "no Andros Austria entity in GLEIF"
+  },
+  {
+   "company": "Verband der MPREIS-Partner / Jeden Tag",
+   "reason": "MPREIS Warenvertriebs GmbH is a different entity"
+  },
+  {
+   "company": "Unimarkt GmbH",
+   "reason": "only UNIMARKT Handelsgesellschaft m.b.H. & Co KG (rejected earlier)"
+  },
+  {
+   "company": "dm drogerie markt GmbH",
+   "reason": "only dm Verwaltungsgesellschaft / DE GmbH + Co. KG (rejected earlier)"
+  },
+  {
+   "company": "Meica GmbH",
+   "reason": "only MEICA CONSTRUCTION SYSTEMS (GB) — different"
+  },
+  {
+   "company": "Strauss GmbH",
+   "reason": "no matching entity"
+  },
+  {
+   "company": "Stangl Teigwaren GmbH",
+   "reason": "no matching entity"
+  },
+  {
+   "company": "Deflorian S.r.l.",
+   "reason": "only DEFLORIAN INVEST & TRADE (VG, retired) — different"
+  },
+  {
+   "company": "Wilhelm Blasko CONVENIENCE-Fertiggerichte GmbH",
+   "reason": "only Blaško s.r.o. (SK) — different"
+  },
+  {
+   "company": "Heiploeg International B.V.",
+   "reason": "only Heiploeg Holding B.V. (ANNULLED)"
+  },
+  {
+   "company": "PENNY GmbH",
+   "reason": "only PENNY Hungary — different country"
+  },
+  {
+   "company": "Vegetarische Feinkost Produktion Peter Hiel",
+   "reason": "no match"
+  }
+ ],
+ "no_candidates": [
+  {
+   "company": "Unilever Austria GmbH",
+   "query": "Unilever Austria",
+   "n_candidates": 0
+  },
+  {
+   "company": "iglo Austria GmbH",
+   "query": "iglo Austria",
+   "n_candidates": 0
+  },
+  {
+   "company": "Fit2go GmbH",
+   "query": "Fit2go GmbH",
+   "n_candidates": 0
+  },
+  {
+   "company": "YOUCOOK GmbH",
+   "query": "YOUCOOK GmbH",
+   "n_candidates": 0
+  },
+  {
+   "company": "Mochi Production GmbH",
+   "query": "Mochi Production GmbH",
+   "n_candidates": 0
+  },
+  {
+   "company": "Kasnudl GmbH",
+   "query": "Kasnudl GmbH",
+   "n_candidates": 0
+  },
+  {
+   "company": "Laboratorio Alimentare Cecchin Andrea e Carlo srl",
+   "query": "Laboratorio Alimentare Cecchin Andrea e Carlo srl",
+   "n_candidates": 0
+  },
+  {
+   "company": "BS Gastro & Event Services GmbH",
+   "query": "BS Gastro & Event Services GmbH",
+   "n_candidates": 0
+  },
+  {
+   "company": "Rewe Austria Fleischwaren GmbH",
+   "query": "Rewe Austria Fleischwaren",
+   "n_candidates": 0
+  },
+  {
+   "company": "Alimentastic Food Innovation GmbH",
+   "query": "Alimentastic Food Innovation GmbH",
+   "n_candidates": 0
+  },
+  {
+   "company": "Caro Fratello GmbH",
+   "query": "Caro Fratello GmbH",
+   "n_candidates": 0
+  },
+  {
+   "company": "Gü Puds",
+   "query": "Gu Chocolate Puds",
+   "n_candidates": 0
+  },
+  {
+   "company": "Amlacher Nudeln",
+   "query": "Amlacher Nudeln",
+   "n_candidates": 0
+  },
+  {
+   "company": "Landtmann´s feine Patisserie",
+   "query": "Landtmann",
+   "n_candidates": 0
+  },
+  {
+   "company": "PLANT BASED POWER GmbH",
+   "query": "PLANT BASED POWER GmbH",
+   "n_candidates": 0
+  },
+  {
+   "company": "Rewe Austria Genussküche GmbH",
+   "query": "Genussküche",
+   "n_candidates": 0
+  },
+  {
+   "company": "AIA S.p.A.",
+   "query": "AIA Agricola Italiana Alimentare",
+   "n_candidates": 0
+  },
+  {
+   "company": "Bauck GmbH",
+   "query": "Bauck",
+   "n_candidates": 0
+  },
+  {
+   "company": "BioGourmet GmbH",
+   "query": "BioGourmet GmbH",
+   "n_candidates": 0
+  },
+  {
+   "company": "Delikatessa GmbH",
+   "query": "Delikatessa GmbH",
+   "n_candidates": 0
+  },
+  {
+   "company": "Franuí Espana SL.",
+   "query": "Franui",
+   "n_candidates": 0
+  },
+  {
+   "company": "Graninger Holding GmbH",
+   "query": "Graninger",
+   "n_candidates": 0
+  },
+  {
+   "company": "Hildegard-Grünkraft Naturprodukte",
+   "query": "Hildegard-Grünkraft Naturprodukte",
+   "n_candidates": 0
+  },
+  {
+   "company": "KIKKOMAN TRADING EUROPE GmbH",
+   "query": "KIKKOMAN TRADING EUROPE GmbH",
+   "n_candidates": 0
+  },
+  {
+   "company": "Knödelwerkstatt G.m.b.H",
+   "query": "Knödelwerkstatt G.m.b.H",
+   "n_candidates": 0
+  },
+  {
+   "company": "Kontakt: Every.GmbH",
+   "query": "Every GmbH",
+   "n_candidates": 0
+  },
+  {
+   "company": "Lamercantile Scardovi GmbH",
+   "query": "Lamercantile Scardovi GmbH",
+   "n_candidates": 0
+  },
+  {
+   "company": "Planted Foods AG",
+   "query": "Planted Foods",
+   "n_candidates": 0
+  },
+  {
+   "company": "Planted Foods GmbH",
+   "query": "Planted Foods",
+   "n_candidates": 0
+  },
+  {
+   "company": "Stadtküche",
+   "query": "Stadtküche",
+   "n_candidates": 0
+  },
+  {
+   "company": "Whollees GmbH",
+   "query": "Whollees GmbH",
+   "n_candidates": 0
+  },
+  {
+   "company": "Zum Dorfkrug Produktions- und Handelsgesellschaft mbH & Co. KG",
+   "query": "Zum Dorfkrug",
+   "n_candidates": 0
+  },
+  {
+   "company": "deli gourmet GmbH",
+   "query": "deli gourmet GmbH",
+   "n_candidates": 0
+  },
+  {
+   "company": "Inzersdorfer Nahrungsmittelwerke",
+   "query": "Inzersdorfer",
+   "n_candidates": 0
+  }
+ ]
+}
