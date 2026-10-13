@@ -14,7 +14,7 @@
   "unknown": "kein belastbarer Beleg gefunden"
  },
  "coverage": {
-  "products_with_producer": 580,
+  "products_with_producer": 647,
   "confirmed_code": 134,
   "retailer_only": 109
  },
@@ -23,40 +23,6 @@
    "konzern": "Unabhängig / unbekannt",
    "flag": "🏳️",
    "producers": [
-    {
-     "name": "Alnatura GmbH",
-     "role": "Hersteller",
-     "logo": null,
-     "codes": [],
-     "plants": [],
-     "confidence": "label-address",
-     "stores": [
-      "Billa",
-      "Gurkerl"
-     ],
-     "brands": [
-      {
-       "brand": "Alnatura",
-       "stores": [
-        "Billa",
-        "Gurkerl"
-       ],
-       "ids": [
-        3,
-        915,
-        1575,
-        1576,
-        1648,
-        1649,
-        1652,
-        1798,
-        1801,
-        1811,
-        1934
-       ]
-      }
-     ]
-    },
     {
      "name": "Weinbergmaier GmbH",
      "role": "Hersteller",
@@ -77,7 +43,7 @@
         54,
         55,
         56,
-        1986
+        2060
        ]
       },
       {
@@ -98,8 +64,8 @@
         "Billa"
        ],
        "ids": [
-        1988,
-        1989
+        2062,
+        2063
        ]
       }
      ]
@@ -121,16 +87,16 @@
         "Billa"
        ],
        "ids": [
-        1959,
-        1960,
-        1975,
-        1983,
-        1985,
-        1998,
-        1999,
         2033,
         2034,
-        2035
+        2049,
+        2057,
+        2059,
+        2072,
+        2073,
+        2107,
+        2108,
+        2109
        ]
       }
      ]
@@ -159,8 +125,8 @@
         "unbekannt (OFF)"
        ],
        "ids": [
-        2091,
-        2130
+        2165,
+        2204
        ]
       },
       {
@@ -178,7 +144,7 @@
         "Lidl"
        ],
        "ids": [
-        2087
+        2161
        ]
       },
       {
@@ -187,7 +153,7 @@
         "unbekannt (OFF)"
        ],
        "ids": [
-        2089
+        2163
        ]
       },
       {
@@ -196,7 +162,7 @@
         "Lidl"
        ],
        "ids": [
-        2097
+        2171
        ]
       },
       {
@@ -205,7 +171,7 @@
         "Spar"
        ],
        "ids": [
-        2109
+        2183
        ]
       },
       {
@@ -214,7 +180,7 @@
         "unbekannt (OFF)"
        ],
        "ids": [
-        2114
+        2188
        ]
       }
      ]
@@ -263,11 +229,11 @@
         "Gurkerl"
        ],
        "ids": [
-        1805,
-        1812,
-        1912,
-        1913,
-        1914
+        1879,
+        1886,
+        1986,
+        1987,
+        1988
        ]
       },
       {
@@ -276,7 +242,7 @@
         "Gurkerl"
        ],
        "ids": [
-        1906
+        1980
        ]
       }
      ]
@@ -300,12 +266,12 @@
         "Gurkerl"
        ],
        "ids": [
-        1825,
-        1964,
-        1965,
-        1981,
-        2011,
-        2025
+        1899,
+        2038,
+        2039,
+        2055,
+        2085,
+        2099
        ]
       }
      ]
@@ -328,10 +294,10 @@
        ],
        "ids": [
         1478,
-        1994,
-        1995,
-        2013,
-        2014
+        2068,
+        2069,
+        2087,
+        2088
        ]
       }
      ]
@@ -353,11 +319,11 @@
         "Billa"
        ],
        "ids": [
-        1958,
-        1992,
-        2004,
-        2005,
-        2028
+        2032,
+        2066,
+        2078,
+        2079,
+        2102
        ]
       }
      ]
@@ -379,11 +345,11 @@
         "Billa"
        ],
        "ids": [
-        1973,
-        1974,
-        1993,
-        2017,
-        2022
+        2047,
+        2048,
+        2067,
+        2091,
+        2096
        ]
       }
      ]
@@ -405,11 +371,11 @@
         "Billa"
        ],
        "ids": [
-        2000,
-        2001,
-        2007,
-        2021,
-        2027
+        2074,
+        2075,
+        2081,
+        2095,
+        2101
        ]
       }
      ]
@@ -459,7 +425,32 @@
         1586,
         1588,
         1590,
-        1794
+        1868
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Strauss GmbH",
+     "role": "Hersteller",
+     "logo": null,
+     "codes": [],
+     "plants": [],
+     "confidence": "label-address",
+     "stores": [
+      "MPreis"
+     ],
+     "brands": [
+      {
+       "brand": "Strauss",
+       "stores": [
+        "MPreis"
+       ],
+       "ids": [
+        1760,
+        1761,
+        1762,
+        1763
        ]
       }
      ]
@@ -481,10 +472,10 @@
         "Gurkerl"
        ],
        "ids": [
-        1907,
-        1908,
-        1910,
-        1915
+        1981,
+        1982,
+        1984,
+        1989
        ]
       }
      ]
@@ -616,7 +607,7 @@
        "ids": [
         1532,
         1634,
-        1860
+        1934
        ]
       }
      ]
@@ -688,7 +679,7 @@
        "ids": [
         1640,
         1689,
-        1891
+        1965
        ]
       }
      ]
@@ -734,9 +725,9 @@
         "Gurkerl"
        ],
        "ids": [
-        1829,
-        1830,
-        1831
+        1903,
+        1904,
+        1905
        ]
       }
      ]
@@ -759,8 +750,8 @@
         "Billa"
        ],
        "ids": [
-        1980,
-        1991
+        2054,
+        2065
        ]
       },
       {
@@ -769,7 +760,7 @@
         "Gurkerl"
        ],
        "ids": [
-        1931
+        2005
        ]
       }
      ]
@@ -791,9 +782,9 @@
         "Billa"
        ],
        "ids": [
-        1956,
-        2031,
-        2032
+        2030,
+        2105,
+        2106
        ]
       }
      ]
@@ -815,9 +806,9 @@
         "Billa"
        ],
        "ids": [
-        1966,
-        1969,
-        1970
+        2040,
+        2043,
+        2044
        ]
       }
      ]
@@ -839,9 +830,9 @@
         "Billa"
        ],
        "ids": [
-        1967,
-        1968,
-        1996
+        2041,
+        2042,
+        2070
        ]
       }
      ]
@@ -915,29 +906,6 @@
        "ids": [
         652,
         1344
-       ]
-      }
-     ]
-    },
-    {
-     "name": "YOUCOOK GmbH",
-     "role": "Hersteller",
-     "logo": null,
-     "codes": [],
-     "plants": [],
-     "confidence": "label-address",
-     "stores": [
-      "Billa"
-     ],
-     "brands": [
-      {
-       "brand": "Youcook",
-       "stores": [
-        "Billa"
-       ],
-       "ids": [
-        880,
-        895
        ]
       }
      ]
@@ -1197,32 +1165,6 @@
        ],
        "ids": [
         41
-       ]
-      }
-     ]
-    },
-    {
-     "name": "Meica Ammerländische Fleischwarenfabrik Fritz Meinen GmbH & Co. KG (Markeninhaber, Code lt. Etikett)",
-     "role": "Hersteller",
-     "logo": null,
-     "codes": [
-      "DE NE 34000 EU"
-     ],
-     "plants": [
-      "Edewecht"
-     ],
-     "confidence": "confirmed-code",
-     "stores": [
-      "Spar"
-     ],
-     "brands": [
-      {
-       "brand": "(ohne Marke)",
-       "stores": [
-        "Spar"
-       ],
-       "ids": [
-        164
        ]
       }
      ]
@@ -1536,28 +1478,6 @@
      ]
     },
     {
-     "name": "Planted Foods GmbH",
-     "role": "Hersteller",
-     "logo": null,
-     "codes": [],
-     "plants": [],
-     "confidence": "label-address",
-     "stores": [
-      "Billa"
-     ],
-     "brands": [
-      {
-       "brand": "Planted",
-       "stores": [
-        "Billa"
-       ],
-       "ids": [
-        1345
-       ]
-      }
-     ]
-    },
-    {
      "name": "Lamercantile Scardovi GmbH",
      "role": "Hersteller",
      "logo": null,
@@ -1618,7 +1538,7 @@
         "Gurkerl"
        ],
        "ids": [
-        1793
+        1867
        ]
       }
      ]
@@ -1640,7 +1560,7 @@
         "Gurkerl"
        ],
        "ids": [
-        1879
+        1953
        ]
       }
      ]
@@ -1662,7 +1582,7 @@
         "Gurkerl"
        ],
        "ids": [
-        1886
+        1960
        ]
       }
      ]
@@ -1684,7 +1604,7 @@
         "Gurkerl"
        ],
        "ids": [
-        1916
+        1990
        ]
       }
      ]
@@ -1706,7 +1626,7 @@
         "Gurkerl"
        ],
        "ids": [
-        1954
+        2028
        ]
       }
      ]
@@ -1728,7 +1648,7 @@
         "Billa"
        ],
        "ids": [
-        1963
+        2037
        ]
       }
      ]
@@ -1750,7 +1670,7 @@
         "Billa"
        ],
        "ids": [
-        1982
+        2056
        ]
       }
      ]
@@ -1772,7 +1692,7 @@
         "Billa"
        ],
        "ids": [
-        2002
+        2076
        ]
       }
      ]
@@ -1794,7 +1714,7 @@
         "Billa"
        ],
        "ids": [
-        2018
+        2092
        ]
       }
      ]
@@ -1816,7 +1736,7 @@
         "Billa"
        ],
        "ids": [
-        2019
+        2093
        ]
       }
      ]
@@ -1838,7 +1758,7 @@
         "Billa"
        ],
        "ids": [
-        2023
+        2097
        ]
       }
      ]
@@ -1860,7 +1780,7 @@
         "Billa"
        ],
        "ids": [
-        2026
+        2100
        ]
       }
      ]
@@ -1882,13 +1802,13 @@
         "Billa"
        ],
        "ids": [
-        2036
+        2110
        ]
       }
      ]
     }
    ],
-   "n": 185
+   "n": 174
   },
   {
    "konzern": "REWE Group",
@@ -1973,17 +1893,17 @@
         1294,
         1295,
         1296,
-        1971,
-        1976,
-        1978,
-        1979,
-        1997,
-        2006,
-        2009,
-        2012,
-        2015,
-        2016,
-        2024
+        2045,
+        2050,
+        2052,
+        2053,
+        2071,
+        2080,
+        2083,
+        2086,
+        2089,
+        2090,
+        2098
        ]
       },
       {
@@ -2056,7 +1976,7 @@
         1303,
         1312,
         1315,
-        1987
+        2061
        ]
       },
       {
@@ -2074,7 +1994,7 @@
         49,
         618,
         620,
-        2030
+        2104
        ]
       },
       {
@@ -2090,7 +2010,7 @@
         680,
         681,
         1350,
-        2020
+        2094
        ]
       },
       {
@@ -2141,7 +2061,7 @@
         "unbekannt (OFF)"
        ],
        "ids": [
-        2141
+        2215
        ]
       }
      ]
@@ -2218,8 +2138,8 @@
         "unbekannt (OFF)"
        ],
        "ids": [
-        2042,
-        2057
+        2116,
+        2131
        ]
       }
      ]
@@ -2329,7 +2249,7 @@
         1042,
         1047,
         1050,
-        1844
+        1918
        ]
       }
      ]
@@ -2508,6 +2428,30 @@
      ]
     },
     {
+     "name": "Karnerta GmbH",
+     "role": "Hersteller",
+     "logo": null,
+     "codes": [],
+     "plants": [],
+     "confidence": "label-address",
+     "stores": [
+      "MPreis"
+     ],
+     "brands": [
+      {
+       "brand": "Karnerta",
+       "stores": [
+        "MPreis"
+       ],
+       "ids": [
+        1736,
+        1737,
+        1738
+       ]
+      }
+     ]
+    },
+    {
      "name": "deli gourmet GmbH",
      "role": "Hersteller",
      "logo": null,
@@ -2524,13 +2468,13 @@
         "Gurkerl"
        ],
        "ids": [
-        1799
+        1873
        ]
       }
      ]
     }
    ],
-   "n": 52
+   "n": 55
   },
   {
    "konzern": "Nomad Foods",
@@ -2545,6 +2489,7 @@
      "confidence": "label-address",
      "stores": [
       "Billa",
+      "MPreis",
       "Spar"
      ],
      "brands": [
@@ -2552,6 +2497,7 @@
        "brand": "iglo",
        "stores": [
         "Billa",
+        "MPreis",
         "Spar"
        ],
        "ids": [
@@ -2592,16 +2538,98 @@
         1484,
         1486,
         1487,
-        1957,
-        1972,
-        1990,
-        2003
+        1725,
+        1726,
+        1727,
+        1728,
+        1729,
+        1730,
+        1731,
+        1733,
+        2031,
+        2046,
+        2064,
+        2077
        ]
       }
      ]
     }
    ],
-   "n": 41
+   "n": 49
+  },
+  {
+   "konzern": "Unilever",
+   "flag": "🇬🇧",
+   "producers": [
+    {
+     "name": "Unilever Austria",
+     "role": "Hersteller",
+     "logo": null,
+     "codes": [],
+     "plants": [],
+     "confidence": "label-address",
+     "stores": [
+      "Billa",
+      "Spar"
+     ],
+     "brands": [
+      {
+       "brand": "Knorr",
+       "stores": [
+        "Billa",
+        "Spar"
+       ],
+       "ids": [
+        147,
+        903,
+        916,
+        919,
+        920,
+        921,
+        931,
+        934,
+        940,
+        942,
+        947,
+        967,
+        995,
+        1020,
+        1025,
+        1026,
+        1027,
+        1029,
+        1030,
+        1034
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Unilever Austria GmbH",
+     "role": "Hersteller",
+     "logo": null,
+     "codes": [],
+     "plants": [],
+     "confidence": "label-address",
+     "stores": [
+      "MPreis"
+     ],
+     "brands": [
+      {
+       "brand": "Knorr",
+       "stores": [
+        "MPreis"
+       ],
+       "ids": [
+        1739,
+        1740,
+        1741
+       ]
+      }
+     ]
+    }
+   ],
+   "n": 23
   },
   {
    "konzern": "Fit2go GmbH",
@@ -2653,6 +2681,169 @@
     }
    ],
    "n": 23
+  },
+  {
+   "konzern": "FRoSTA AG",
+   "flag": "🇩🇪",
+   "producers": [
+    {
+     "name": "FRoSTA Tiefkühlkost GmbH",
+     "role": "Hersteller",
+     "logo": null,
+     "codes": [],
+     "plants": [],
+     "confidence": "label-address",
+     "stores": [
+      "Billa"
+     ],
+     "brands": [
+      {
+       "brand": "Frosta",
+       "stores": [
+        "Billa"
+       ],
+       "ids": [
+        23,
+        1319,
+        1465,
+        1466,
+        1476,
+        1477,
+        1480,
+        1481,
+        1482,
+        1485,
+        1488,
+        1489,
+        1490,
+        2082
+       ]
+      }
+     ]
+    },
+    {
+     "name": "FRoSTA AG",
+     "role": "Hersteller",
+     "logo": null,
+     "codes": [],
+     "plants": [],
+     "confidence": "label-address",
+     "stores": [
+      "MPreis"
+     ],
+     "brands": [
+      {
+       "brand": "Frosta",
+       "stores": [
+        "MPreis"
+       ],
+       "ids": [
+        1717,
+        1719,
+        1720,
+        1721,
+        1724
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Frosta Tiefkühlkost GmbH",
+     "role": "Hersteller",
+     "logo": null,
+     "codes": [],
+     "plants": [],
+     "confidence": "label-address",
+     "stores": [
+      "Gurkerl"
+     ],
+     "brands": [
+      {
+       "brand": "Frosta",
+       "stores": [
+        "Gurkerl"
+       ],
+       "ids": [
+        1615,
+        1625,
+        1673
+       ]
+      }
+     ]
+    }
+   ],
+   "n": 22
+  },
+  {
+   "konzern": "Pastificio Rana",
+   "flag": "🇮🇹",
+   "producers": [
+    {
+     "name": "Pastificio RANA S.p.A.",
+     "role": "Hersteller",
+     "logo": null,
+     "codes": [],
+     "plants": [],
+     "confidence": "label-address",
+     "stores": [
+      "Billa"
+     ],
+     "brands": [
+      {
+       "brand": "Rana",
+       "stores": [
+        "Billa"
+       ],
+       "ids": [
+        892,
+        893,
+        894,
+        1051,
+        1052,
+        1053,
+        1060,
+        1061,
+        1065,
+        1066,
+        1067,
+        1068,
+        1069,
+        1072
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Pastificio Rana S.p.A.",
+     "role": "Hersteller",
+     "logo": null,
+     "codes": [],
+     "plants": [],
+     "confidence": "label-address",
+     "stores": [
+      "MPreis"
+     ],
+     "brands": [
+      {
+       "brand": "Rana",
+       "stores": [
+        "MPreis"
+       ],
+       "ids": [
+        1750,
+        1751,
+        1752,
+        1753,
+        1754,
+        1755,
+        1756,
+        1757
+       ]
+      }
+     ]
+    }
+   ],
+   "n": 22
   },
   {
    "konzern": "Landgenossenschaft Ennstal (Genossenschaft)",
@@ -2749,7 +2940,7 @@
         "Billa"
        ],
        "ids": [
-        2062
+        2136
        ]
       }
      ]
@@ -2758,11 +2949,11 @@
    "n": 20
   },
   {
-   "konzern": "Unilever",
-   "flag": "🇬🇧",
+   "konzern": "Alnatura",
+   "flag": "🇩🇪",
    "producers": [
     {
-     "name": "Unilever Austria",
+     "name": "Alnatura GmbH",
      "role": "Hersteller",
      "logo": null,
      "codes": [],
@@ -2770,150 +2961,58 @@
      "confidence": "label-address",
      "stores": [
       "Billa",
-      "Spar"
+      "Gurkerl"
      ],
      "brands": [
       {
-       "brand": "Knorr",
+       "brand": "Alnatura",
        "stores": [
         "Billa",
-        "Spar"
+        "Gurkerl"
        ],
        "ids": [
-        147,
-        903,
-        916,
-        919,
-        920,
-        921,
-        931,
-        934,
-        940,
-        942,
-        947,
-        967,
-        995,
-        1020,
-        1025,
-        1026,
-        1027,
-        1029,
-        1030,
-        1034
-       ]
-      }
-     ]
-    }
-   ],
-   "n": 20
-  },
-  {
-   "konzern": "FRoSTA AG",
-   "flag": "🇩🇪",
-   "producers": [
-    {
-     "name": "FRoSTA Tiefkühlkost GmbH",
-     "role": "Hersteller",
-     "logo": null,
-     "codes": [],
-     "plants": [],
-     "confidence": "label-address",
-     "stores": [
-      "Billa"
-     ],
-     "brands": [
-      {
-       "brand": "Frosta",
-       "stores": [
-        "Billa"
-       ],
-       "ids": [
-        23,
-        1319,
-        1465,
-        1466,
-        1476,
-        1477,
-        1480,
-        1481,
-        1482,
-        1485,
-        1488,
-        1489,
-        1490,
+        3,
+        915,
+        1575,
+        1576,
+        1648,
+        1649,
+        1652,
+        1872,
+        1875,
+        1885,
         2008
        ]
       }
      ]
     },
     {
-     "name": "Frosta Tiefkühlkost GmbH",
+     "name": "Alnatura Produktions- und Handels GmbH",
      "role": "Hersteller",
      "logo": null,
      "codes": [],
      "plants": [],
      "confidence": "label-address",
      "stores": [
-      "Gurkerl"
+      "MPreis"
      ],
      "brands": [
       {
-       "brand": "Frosta",
+       "brand": "Alnatura",
        "stores": [
-        "Gurkerl"
+        "MPreis"
        ],
        "ids": [
-        1615,
-        1625,
-        1673
+        1697,
+        1698,
+        1699,
+        1700
        ]
       }
      ]
     }
    ],
-   "n": 17
-  },
-  {
-   "konzern": "Pastificio Rana",
-   "flag": "🇮🇹",
-   "producers": [
-    {
-     "name": "Pastificio RANA S.p.A.",
-     "role": "Hersteller",
-     "logo": null,
-     "codes": [],
-     "plants": [],
-     "confidence": "label-address",
-     "stores": [
-      "Billa"
-     ],
-     "brands": [
-      {
-       "brand": "Rana",
-       "stores": [
-        "Billa"
-       ],
-       "ids": [
-        892,
-        893,
-        894,
-        1051,
-        1052,
-        1053,
-        1060,
-        1061,
-        1065,
-        1066,
-        1067,
-        1068,
-        1069,
-        1072
-       ]
-      }
-     ]
-    }
-   ],
-   "n": 14
+   "n": 15
   },
   {
    "konzern": "Felix Austria (Orkla)",
@@ -2952,9 +3051,34 @@
        ]
       }
      ]
+    },
+    {
+     "name": "Felix Austria GmbH",
+     "role": "Hersteller",
+     "logo": null,
+     "codes": [],
+     "plants": [],
+     "confidence": "label-address",
+     "stores": [
+      "MPreis"
+     ],
+     "brands": [
+      {
+       "brand": "Felix",
+       "stores": [
+        "MPreis"
+       ],
+       "ids": [
+        1712,
+        1713,
+        1714,
+        1715
+       ]
+      }
+     ]
     }
    ],
-   "n": 11
+   "n": 15
   },
   {
    "konzern": "Nestlé",
@@ -2993,6 +3117,119 @@
     }
    ],
    "n": 10
+  },
+  {
+   "konzern": "Youcook GmbH",
+   "flag": "🇩🇪",
+   "producers": [
+    {
+     "name": "Youcook GmbH",
+     "role": "Hersteller",
+     "logo": null,
+     "codes": [],
+     "plants": [],
+     "confidence": "label-address",
+     "stores": [
+      "MPreis"
+     ],
+     "brands": [
+      {
+       "brand": "Youcook",
+       "stores": [
+        "MPreis"
+       ],
+       "ids": [
+        1764,
+        1765,
+        1766,
+        1767,
+        1768,
+        1769
+       ]
+      }
+     ]
+    },
+    {
+     "name": "YOUCOOK GmbH",
+     "role": "Hersteller",
+     "logo": null,
+     "codes": [],
+     "plants": [],
+     "confidence": "label-address",
+     "stores": [
+      "Billa"
+     ],
+     "brands": [
+      {
+       "brand": "Youcook",
+       "stores": [
+        "Billa"
+       ],
+       "ids": [
+        880,
+        895
+       ]
+      }
+     ]
+    }
+   ],
+   "n": 8
+  },
+  {
+   "konzern": "MPREIS (EMP)",
+   "flag": "🇦🇹",
+   "producers": [
+    {
+     "name": "MPREIS Warenvertriebs GmbH",
+     "role": "Hersteller",
+     "logo": null,
+     "codes": [],
+     "plants": [],
+     "confidence": "label-address",
+     "stores": [
+      "MPreis"
+     ],
+     "brands": [
+      {
+       "brand": "M",
+       "stores": [
+        "MPreis"
+       ],
+       "ids": [
+        1742,
+        1743,
+        1744,
+        1745,
+        1746,
+        1747
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Verband der MPREIS-Partner / Jeden Tag",
+     "role": "Hersteller",
+     "logo": null,
+     "codes": [],
+     "plants": [],
+     "confidence": "label-address",
+     "stores": [
+      "MPreis"
+     ],
+     "brands": [
+      {
+       "brand": "Jeden Tag",
+       "stores": [
+        "MPreis"
+       ],
+       "ids": [
+        1735
+       ]
+      }
+     ]
+    }
+   ],
+   "n": 7
   },
   {
    "konzern": "Mars Inc.",
@@ -3055,6 +3292,39 @@
         885,
         902,
         1346
+       ]
+      }
+     ]
+    }
+   ],
+   "n": 5
+  },
+  {
+   "konzern": "Deflorian S.r.l.",
+   "flag": "🇮🇹",
+   "producers": [
+    {
+     "name": "Deflorian S.r.l.",
+     "role": "Hersteller",
+     "logo": null,
+     "codes": [],
+     "plants": [],
+     "confidence": "label-address",
+     "stores": [
+      "MPreis"
+     ],
+     "brands": [
+      {
+       "brand": "Deflorian",
+       "stores": [
+        "MPreis"
+       ],
+       "ids": [
+        1706,
+        1707,
+        1708,
+        1709,
+        1710
        ]
       }
      ]
@@ -3212,6 +3482,173 @@
    "n": 3
   },
   {
+   "konzern": "Bertagni 1882",
+   "flag": "🇮🇹",
+   "producers": [
+    {
+     "name": "Bertagni 1882 S.p.A.",
+     "role": "Hersteller",
+     "logo": null,
+     "codes": [],
+     "plants": [],
+     "confidence": "label-address",
+     "stores": [
+      "MPreis"
+     ],
+     "brands": [
+      {
+       "brand": "Bertagni",
+       "stores": [
+        "MPreis"
+       ],
+       "ids": [
+        1701,
+        1702,
+        1703
+       ]
+      }
+     ]
+    }
+   ],
+   "n": 3
+  },
+  {
+   "konzern": "Meica GmbH",
+   "flag": "🇩🇪",
+   "producers": [
+    {
+     "name": "Meica Ammerländische Fleischwarenfabrik Fritz Meinen GmbH & Co. KG (Markeninhaber, Code lt. Etikett)",
+     "role": "Hersteller",
+     "logo": null,
+     "codes": [
+      "DE NE 34000 EU"
+     ],
+     "plants": [
+      "Edewecht"
+     ],
+     "confidence": "confirmed-code",
+     "stores": [
+      "Spar"
+     ],
+     "brands": [
+      {
+       "brand": "(ohne Marke)",
+       "stores": [
+        "Spar"
+       ],
+       "ids": [
+        164
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Meica GmbH",
+     "role": "Hersteller",
+     "logo": null,
+     "codes": [],
+     "plants": [],
+     "confidence": "label-address",
+     "stores": [
+      "MPreis"
+     ],
+     "brands": [
+      {
+       "brand": "Meica",
+       "stores": [
+        "MPreis"
+       ],
+       "ids": [
+        1748
+       ]
+      }
+     ]
+    }
+   ],
+   "n": 2
+  },
+  {
+   "konzern": "Planted Foods AG",
+   "flag": "🇨🇭",
+   "producers": [
+    {
+     "name": "Planted Foods GmbH",
+     "role": "Hersteller",
+     "logo": null,
+     "codes": [],
+     "plants": [],
+     "confidence": "label-address",
+     "stores": [
+      "Billa"
+     ],
+     "brands": [
+      {
+       "brand": "Planted",
+       "stores": [
+        "Billa"
+       ],
+       "ids": [
+        1345
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Planted Foods AG",
+     "role": "Hersteller",
+     "logo": null,
+     "codes": [],
+     "plants": [],
+     "confidence": "label-address",
+     "stores": [
+      "MPreis"
+     ],
+     "brands": [
+      {
+       "brand": "Planted.",
+       "stores": [
+        "MPreis"
+       ],
+       "ids": [
+        1749
+       ]
+      }
+     ]
+    }
+   ],
+   "n": 2
+  },
+  {
+   "konzern": "Brajlovic GmbH",
+   "flag": "🇦🇹",
+   "producers": [
+    {
+     "name": "Brajlovic GmbH",
+     "role": "Hersteller",
+     "logo": null,
+     "codes": [],
+     "plants": [],
+     "confidence": "label-address",
+     "stores": [
+      "MPreis"
+     ],
+     "brands": [
+      {
+       "brand": "Brajlovic",
+       "stores": [
+        "MPreis"
+       ],
+       "ids": [
+        1704,
+        1705
+       ]
+      }
+     ]
+    }
+   ],
+   "n": 2
+  },
+  {
    "konzern": "Wiesbauer Gruppe",
    "flag": "🇦🇹",
    "producers": [
@@ -3233,6 +3670,93 @@
        ],
        "ids": [
         421
+       ]
+      }
+     ]
+    }
+   ],
+   "n": 1
+  },
+  {
+   "konzern": "Gruppo Veronesi",
+   "flag": "🇮🇹",
+   "producers": [
+    {
+     "name": "AIA S.p.A.",
+     "role": "Hersteller",
+     "logo": null,
+     "codes": [],
+     "plants": [],
+     "confidence": "label-address",
+     "stores": [
+      "MPreis"
+     ],
+     "brands": [
+      {
+       "brand": "AIA",
+       "stores": [
+        "MPreis"
+       ],
+       "ids": [
+        1696
+       ]
+      }
+     ]
+    }
+   ],
+   "n": 1
+  },
+  {
+   "konzern": "Delamaris",
+   "flag": "🇸🇮",
+   "producers": [
+    {
+     "name": "Delamaris d.o.o.",
+     "role": "Hersteller",
+     "logo": null,
+     "codes": [],
+     "plants": [],
+     "confidence": "label-address",
+     "stores": [
+      "MPreis"
+     ],
+     "brands": [
+      {
+       "brand": "Delamaris",
+       "stores": [
+        "MPreis"
+       ],
+       "ids": [
+        1711
+       ]
+      }
+     ]
+    }
+   ],
+   "n": 1
+  },
+  {
+   "konzern": "Riso Scotti",
+   "flag": "🇮🇹",
+   "producers": [
+    {
+     "name": "Riso Scotti S.p.A.",
+     "role": "Hersteller",
+     "logo": null,
+     "codes": [],
+     "plants": [],
+     "confidence": "label-address",
+     "stores": [
+      "MPreis"
+     ],
+     "brands": [
+      {
+       "brand": "Riso Scotti",
+       "stores": [
+        "MPreis"
+       ],
+       "ids": [
+        1759
        ]
       }
      ]
@@ -3271,7 +3795,7 @@
     107,
     561,
     835,
-    2062
+    2136
    ],
    "cheapest": 561,
    "price_spread_pct": 133,
@@ -3414,6 +3938,31 @@
   {
    "producer": "Iglo Austria",
    "konzern": "Nomad Foods",
+   "dishKey": "tortellini",
+   "dish": "Tortellini",
+   "kind": "gleiche Marke, andere Kette",
+   "labels": [
+    {
+     "brand": "iglo",
+     "store": "Billa"
+    },
+    {
+     "brand": "iglo",
+     "store": "MPreis"
+    }
+   ],
+   "ids": [
+    26,
+    1474,
+    1730
+   ],
+   "cheapest": 1730,
+   "price_spread_pct": 49,
+   "confidence": "label-address"
+  },
+  {
+   "producer": "Iglo Austria",
+   "konzern": "Nomad Foods",
    "dishKey": "paprikahuhn",
    "dish": "Paprikahuhn",
    "kind": "gleiche Marke, andere Kette",
@@ -3424,12 +3973,17 @@
     },
     {
      "brand": "iglo",
+     "store": "MPreis"
+    },
+    {
+     "brand": "iglo",
      "store": "Spar"
     }
    ],
    "ids": [
     434,
-    882
+    882,
+    1728
    ],
    "cheapest": 434,
    "price_spread_pct": 49,
@@ -3457,6 +4011,30 @@
    ],
    "cheapest": 931,
    "price_spread_pct": 20,
+   "confidence": "label-address"
+  },
+  {
+   "producer": "Iglo Austria",
+   "konzern": "Nomad Foods",
+   "dishKey": "rindsgulasch",
+   "dish": "Rindsgulasch",
+   "kind": "gleiche Marke, andere Kette",
+   "labels": [
+    {
+     "brand": "iglo",
+     "store": "Billa"
+    },
+    {
+     "brand": "iglo",
+     "store": "MPreis"
+    }
+   ],
+   "ids": [
+    1327,
+    1731
+   ],
+   "cheapest": 1731,
+   "price_spread_pct": 9,
    "confidence": "label-address"
   },
   {
@@ -3528,15 +4106,63 @@
    ],
    "ids": [
     968,
-    1844
+    1918
    ],
    "cheapest": 968,
    "price_spread_pct": 3,
    "confidence": "label-address"
   },
   {
+   "producer": "Iglo Austria",
+   "konzern": "Nomad Foods",
+   "dishKey": "ravioli",
+   "dish": "Ravioli",
+   "kind": "gleiche Marke, andere Kette",
+   "labels": [
+    {
+     "brand": "iglo",
+     "store": "Billa"
+    },
+    {
+     "brand": "iglo",
+     "store": "MPreis"
+    }
+   ],
+   "ids": [
+    25,
+    1725
+   ],
+   "cheapest": 1725,
+   "price_spread_pct": 2,
+   "confidence": "label-address"
+  },
+  {
+   "producer": "Iglo Austria",
+   "konzern": "Nomad Foods",
+   "dishKey": "stroganoff",
+   "dish": "Stroganoff",
+   "kind": "gleiche Marke, andere Kette",
+   "labels": [
+    {
+     "brand": "iglo",
+     "store": "MPreis"
+    },
+    {
+     "brand": "iglo",
+     "store": "Spar"
+    }
+   ],
+   "ids": [
+    435,
+    1729
+   ],
+   "cheapest": 435,
+   "price_spread_pct": 0,
+   "confidence": "label-address"
+  },
+  {
    "producer": "Alnatura GmbH",
-   "konzern": "Unabhängig / unbekannt",
+   "konzern": "Alnatura",
    "dishKey": "ravioli",
    "dish": "Ravioli",
    "kind": "gleiche Marke, andere Kette",
@@ -3585,12 +4211,13 @@
   {
    "dishKey": "rindsgulasch",
    "dish": "Rindsgulasch",
-   "n": 44,
+   "n": 45,
    "brands": 29,
    "stores": [
     "Billa",
     "Gurkerl",
     "Hofer",
+    "MPreis",
     "Penny",
     "Spar",
     "dm",
@@ -3607,40 +4234,43 @@
     "Unilever Austria",
     "Wiesbauer Gourmet Gastro GmbH"
    ],
-   "unknown_share": 68,
+   "unknown_share": 67,
    "p100g_min": 0.7,
    "p100g_max": 2.85
   },
   {
    "dishKey": "risotto",
    "dish": "Risotto",
-   "n": 34,
-   "brands": 14,
+   "n": 35,
+   "brands": 15,
    "stores": [
     "Billa",
     "Gurkerl",
     "Hofer",
+    "MPreis",
     "Spar",
     "dm",
     "unbekannt (OFF)"
    ],
    "producers_known": [
-    "Mars Austria OG"
+    "Mars Austria OG",
+    "Riso Scotti S.p.A."
    ],
-   "unknown_share": 94,
+   "unknown_share": 91,
    "p100g_min": 0.45,
    "p100g_max": 2.52
   },
   {
    "dishKey": "spaghetti-bolognese",
    "dish": "Spaghetti Bolognese",
-   "n": 34,
-   "brands": 24,
+   "n": 35,
+   "brands": 25,
    "stores": [
     "Billa",
     "Gurkerl",
     "Hofer",
     "Lidl",
+    "MPreis",
     "Penny",
     "PrepMyMeal",
     "Spar",
@@ -3649,24 +4279,51 @@
    "producers_known": [
     "BILLA AG",
     "Every.GmbH",
+    "MPREIS Warenvertriebs GmbH",
     "Rewe Austria Genussküche GmbH",
     "Tops Foods NV"
    ],
-   "unknown_share": 88,
+   "unknown_share": 86,
    "p100g_min": 0.4,
    "p100g_max": 3.4
   },
   {
+   "dishKey": "gulaschsuppe",
+   "dish": "Gulaschsuppe",
+   "n": 28,
+   "brands": 14,
+   "stores": [
+    "Billa",
+    "Gurkerl",
+    "Hofer",
+    "MPreis",
+    "Spar",
+    "unbekannt (OFF)"
+   ],
+   "producers_known": [
+    "Amiata Feinkost GmbH",
+    "FELIX Austria GmbH",
+    "Felix Austria GmbH",
+    "Landgenossenschaft Ennstal LANDENA KG",
+    "Unilever Austria",
+    "Unilever Austria GmbH"
+   ],
+   "unknown_share": 50,
+   "p100g_min": 0.34,
+   "p100g_max": 1.25
+  },
+  {
    "dishKey": "huhn-curry",
    "dish": "Huhn Curry",
-   "n": 26,
-   "brands": 20,
+   "n": 27,
+   "brands": 21,
    "stores": [
     "Billa",
     "Gurkerl",
     "Hofer",
     "Lidl",
     "LiveFresh",
+    "MPreis",
     "PrepMyMeal",
     "Spar",
     "unbekannt (OFF)"
@@ -3674,16 +4331,17 @@
    "producers_known": [
     "Maresi Austria GmbH",
     "Rewe Austria Genussküche GmbH",
-    "Tops Foods NV"
+    "Tops Foods NV",
+    "Youcook GmbH"
    ],
-   "unknown_share": 85,
+   "unknown_share": 81,
    "p100g_min": 0.72,
    "p100g_max": 3.15
   },
   {
    "dishKey": "gemuesecurry",
    "dish": "Gemüsecurry",
-   "n": 25,
+   "n": 26,
    "brands": 22,
    "stores": [
     "Billa",
@@ -3691,6 +4349,7 @@
     "FitTaste",
     "Gurkerl",
     "Hofer",
+    "MPreis",
     "PrepMyMeal",
     "Spar",
     "dm",
@@ -3701,45 +4360,25 @@
     "Ehrenwort GmbH",
     "Fit2go GmbH",
     "GMS GOURMET GmbH",
-    "Iglo Austria"
+    "Iglo Austria",
+    "Youcook GmbH"
    ],
-   "unknown_share": 80,
+   "unknown_share": 77,
    "p100g_min": 0.55,
    "p100g_max": 14.26
   },
   {
-   "dishKey": "gulaschsuppe",
-   "dish": "Gulaschsuppe",
-   "n": 25,
-   "brands": 14,
-   "stores": [
-    "Billa",
-    "Gurkerl",
-    "Hofer",
-    "Spar",
-    "unbekannt (OFF)"
-   ],
-   "producers_known": [
-    "Amiata Feinkost GmbH",
-    "FELIX Austria GmbH",
-    "Landgenossenschaft Ennstal LANDENA KG",
-    "Unilever Austria"
-   ],
-   "unknown_share": 56,
-   "p100g_min": 0.34,
-   "p100g_max": 1.25
-  },
-  {
    "dishKey": "chili-con-carne",
    "dish": "Chili con carne",
-   "n": 23,
-   "brands": 13,
+   "n": 24,
+   "brands": 14,
    "stores": [
     "Billa",
     "Fit to Go",
     "Gurkerl",
     "Hofer",
     "Lidl",
+    "MPreis",
     "PrepMyMeal",
     "Spar"
    ],
@@ -3748,32 +4387,82 @@
     "FELIX Austria GmbH",
     "Fit2go GmbH",
     "Landgenossenschaft Ennstal LANDENA KG",
+    "MPREIS Warenvertriebs GmbH",
     "Maresi Austria GmbH",
     "Unilever Austria"
    ],
-   "unknown_share": 48,
+   "unknown_share": 46,
    "p100g_min": 0.5,
    "p100g_max": 2.9
   },
   {
    "dishKey": "linseneintopf",
    "dish": "Linseneintopf",
-   "n": 17,
-   "brands": 14,
+   "n": 18,
+   "brands": 15,
    "stores": [
     "Billa",
     "FitTaste",
     "Gurkerl",
     "Hofer",
+    "MPreis",
     "Spar",
     "dm"
    ],
    "producers_known": [
-    "Alnatura GmbH"
+    "Alnatura GmbH",
+    "Youcook GmbH"
    ],
-   "unknown_share": 94,
+   "unknown_share": 89,
    "p100g_min": 0.25,
    "p100g_max": 2.9
+  },
+  {
+   "dishKey": "eintopf-sonstige",
+   "dish": "Eintopf (sonstige)",
+   "n": 15,
+   "brands": 8,
+   "stores": [
+    "Gurkerl",
+    "MPreis",
+    "PrepMyMeal",
+    "Spar",
+    "dm",
+    "unbekannt (OFF)"
+   ],
+   "producers_known": [
+    "Alnatura GmbH",
+    "Alnatura Produktions- und Handels GmbH"
+   ],
+   "unknown_share": 87,
+   "p100g_min": 0.54,
+   "p100g_max": 2.5
+  },
+  {
+   "dishKey": "butter-chicken",
+   "dish": "Butter Chicken",
+   "n": 15,
+   "brands": 11,
+   "stores": [
+    "Billa",
+    "Gurkerl",
+    "Lidl",
+    "MPreis",
+    "PrepMyMeal",
+    "Spar",
+    "dm",
+    "unbekannt (OFF)"
+   ],
+   "producers_known": [
+    "FRoSTA AG",
+    "FRoSTA Tiefkühlkost GmbH",
+    "Hofmann Menü-Manufaktur GmbH",
+    "Rewe Austria Genussküche GmbH",
+    "Youcook GmbH"
+   ],
+   "unknown_share": 60,
+   "p100g_min": 0.79,
+   "p100g_max": 2.02
   },
   {
    "dishKey": "wiener-suppentopf",
@@ -3796,25 +4485,6 @@
    "p100g_max": 2.15
   },
   {
-   "dishKey": "eintopf-sonstige",
-   "dish": "Eintopf (sonstige)",
-   "n": 14,
-   "brands": 8,
-   "stores": [
-    "Gurkerl",
-    "PrepMyMeal",
-    "Spar",
-    "dm",
-    "unbekannt (OFF)"
-   ],
-   "producers_known": [
-    "Alnatura GmbH"
-   ],
-   "unknown_share": 93,
-   "p100g_min": 0.54,
-   "p100g_max": 2.5
-  },
-  {
    "dishKey": "chili-sin-carne",
    "dish": "Chili sin carne",
    "n": 14,
@@ -3835,27 +4505,25 @@
    "p100g_max": 2.04
   },
   {
-   "dishKey": "butter-chicken",
-   "dish": "Butter Chicken",
+   "dishKey": "erdaepfelgulasch",
+   "dish": "Erdäpfelgulasch",
    "n": 13,
-   "brands": 11,
+   "brands": 10,
    "stores": [
     "Billa",
     "Gurkerl",
-    "Lidl",
-    "PrepMyMeal",
-    "Spar",
-    "dm",
-    "unbekannt (OFF)"
+    "MPreis",
+    "Spar"
    ],
    "producers_known": [
-    "FRoSTA Tiefkühlkost GmbH",
-    "Hofmann Menü-Manufaktur GmbH",
-    "Rewe Austria Genussküche GmbH"
+    "BILLA AG",
+    "FELIX Austria GmbH",
+    "Felix Austria GmbH",
+    "Maresi Austria GmbH"
    ],
    "unknown_share": 69,
-   "p100g_min": 0.79,
-   "p100g_max": 2.02
+   "p100g_min": 0.69,
+   "p100g_max": 2.84
   },
   {
    "dishKey": "kohlroulade",
@@ -3877,62 +4545,68 @@
    "p100g_max": 2.01
   },
   {
-   "dishKey": "erdaepfelgulasch",
-   "dish": "Erdäpfelgulasch",
+   "dishKey": "kasnocken",
+   "dish": "Kärntner Kasnudeln",
    "n": 12,
-   "brands": 10,
+   "brands": 8,
    "stores": [
     "Billa",
-    "Gurkerl",
+    "Hofer",
+    "Lidl",
+    "MPreis",
     "Spar"
    ],
    "producers_known": [
-    "BILLA AG",
-    "FELIX Austria GmbH",
-    "Maresi Austria GmbH"
+    "Deflorian S.r.l.",
+    "KARNERTA GmbH",
+    "Karnerta GmbH"
    ],
-   "unknown_share": 75,
-   "p100g_min": 0.69,
-   "p100g_max": 2.84
-  },
-  {
-   "dishKey": "bohneneintopf",
-   "dish": "Bohneneintopf",
-   "n": 10,
-   "brands": 6,
-   "stores": [
-    "Billa",
-    "Gurkerl",
-    "Hofer",
-    "Spar",
-    "unbekannt (OFF)"
-   ],
-   "producers_known": [
-    "Estyria Naturprodukte GmbH",
-    "Unilever Austria"
-   ],
-   "unknown_share": 70,
-   "p100g_min": 0.34,
-   "p100g_max": 1.35
+   "unknown_share": 58,
+   "p100g_min": 0.8,
+   "p100g_max": 1.76
   },
   {
    "dishKey": "paprikahuhn",
    "dish": "Paprikahuhn",
-   "n": 9,
-   "brands": 5,
+   "n": 11,
+   "brands": 6,
    "stores": [
     "Billa",
     "Gurkerl",
+    "MPreis",
     "Spar"
    ],
    "producers_known": [
     "BS Gastro & Event Services GmbH",
     "Iglo Austria",
+    "MPREIS Warenvertriebs GmbH",
     "Maresi Austria GmbH"
    ],
-   "unknown_share": 44,
+   "unknown_share": 36,
    "p100g_min": 1.15,
    "p100g_max": 2.06
+  },
+  {
+   "dishKey": "bohneneintopf",
+   "dish": "Bohneneintopf",
+   "n": 11,
+   "brands": 6,
+   "stores": [
+    "Billa",
+    "Gurkerl",
+    "Hofer",
+    "MPreis",
+    "Spar",
+    "unbekannt (OFF)"
+   ],
+   "producers_known": [
+    "Estyria Naturprodukte GmbH",
+    "Unilever Austria",
+    "Unilever Austria GmbH"
+   ],
+   "unknown_share": 64,
+   "p100g_min": 0.34,
+   "p100g_max": 1.35
   },
   {
    "dishKey": "faschierter-braten",
@@ -3952,24 +4626,6 @@
    "unknown_share": 75,
    "p100g_min": 0.82,
    "p100g_max": 2.5
-  },
-  {
-   "dishKey": "kasnocken",
-   "dish": "Kärntner Kasnudeln",
-   "n": 8,
-   "brands": 6,
-   "stores": [
-    "Billa",
-    "Hofer",
-    "Lidl",
-    "Spar"
-   ],
-   "producers_known": [
-    "KARNERTA GmbH"
-   ],
-   "unknown_share": 88,
-   "p100g_min": 0.8,
-   "p100g_max": 1.76
   },
   {
    "dishKey": "kartoffelsuppe",
@@ -4038,6 +4694,45 @@
    "unknown_share": 67,
    "p100g_min": 0.84,
    "p100g_max": 4.41
+  },
+  {
+   "dishKey": "ravioli",
+   "dish": "Ravioli",
+   "n": 5,
+   "brands": 4,
+   "stores": [
+    "Billa",
+    "MPreis",
+    "Spar",
+    "dm"
+   ],
+   "producers_known": [
+    "Iglo Austria",
+    "Laboratorio Alimentare Cecchin Andrea e Carlo srl"
+   ],
+   "unknown_share": 40,
+   "p100g_min": 1.02,
+   "p100g_max": 1.66
+  },
+  {
+   "dishKey": "erbsensuppe",
+   "dish": "Erbsensuppe/-eintopf",
+   "n": 5,
+   "brands": 4,
+   "stores": [
+    "Billa",
+    "Gurkerl",
+    "MPreis",
+    "Spar",
+    "unbekannt (OFF)"
+   ],
+   "producers_known": [
+    "Alnatura GmbH",
+    "Alnatura Produktions- und Handels GmbH"
+   ],
+   "unknown_share": 60,
+   "p100g_min": 0.57,
+   "p100g_max": 0.64
   },
   {
    "dishKey": "schweinsbraten",
@@ -4151,8 +4846,8 @@
    "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-317759-54243681-k_fs10zH.jpg",
    "producer": "Alnatura GmbH",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Alnatura",
+   "flag": "🇩🇪",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -5390,8 +6085,8 @@
    "img": "https://images.openfoodfacts.org/images/products/400/050/330/3109/front_de.28.400.jpg",
    "producer": "Meica Ammerländische Fleischwarenfabrik Fritz Meinen GmbH & Co. KG (Markeninhaber, Code lt. Etikett)",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Meica GmbH",
+   "flag": "🇩🇪",
    "code": "DE NE 34000 EU",
    "plant": "Edewecht",
    "confidence": "confirmed-code",
@@ -8288,8 +8983,8 @@
    "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-468303-0125368287-Q3LPKoKe.jpg",
    "producer": "YOUCOOK GmbH",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Youcook GmbH",
+   "flag": "🇩🇪",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -8540,8 +9235,8 @@
    "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-869960-2095131129-PgDs_Ty-.jpg",
    "producer": "YOUCOOK GmbH",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Youcook GmbH",
+   "flag": "🇩🇪",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -8792,8 +9487,8 @@
    "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-317720-0110556093-KnbFcDCD.jpg",
    "producer": "Alnatura GmbH",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Alnatura",
+   "flag": "🇩🇪",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -11921,8 +12616,8 @@
    "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-745527-561216948-r_eFOekz.jpg",
    "producer": "Planted Foods GmbH",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Planted Foods AG",
+   "flag": "🇨🇭",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -13307,8 +14002,8 @@
    "img": "https://cdn.gurkerl.at/images/grocery/products/10669/10669-1606223983.jpg",
    "producer": "Alnatura GmbH",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Alnatura",
+   "flag": "🇩🇪",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -13328,8 +14023,8 @@
    "img": "https://cdn.gurkerl.at/images/grocery/products/10723/10723-1606224896.jpg",
    "producer": "Alnatura GmbH",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Alnatura",
+   "flag": "🇩🇪",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -13559,8 +14254,8 @@
    "img": "https://cdn.gurkerl.at/images/grocery/products/10627/10627-1661783003955.jpg",
    "producer": "Alnatura GmbH",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Alnatura",
+   "flag": "🇩🇪",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -13580,8 +14275,8 @@
    "img": "https://cdn.gurkerl.at/images/grocery/products/10600/10600-1606224303.jpg",
    "producer": "Alnatura GmbH",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Alnatura",
+   "flag": "🇩🇪",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -13601,8 +14296,8 @@
    "img": "https://cdn.gurkerl.at/images/grocery/products/19752/19752-1626363869003.jpg",
    "producer": "Alnatura GmbH",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Alnatura",
+   "flag": "🇩🇪",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -13862,7 +14557,1414 @@
    "slug": null
   },
   {
-   "id": 1793,
+   "id": 1696,
+   "name": "Hähnchen Kebab",
+   "brand": "AIA",
+   "store": "MPreis",
+   "dishKey": null,
+   "dish": null,
+   "price": 4.49,
+   "p100g": 1.5,
+   "pPor": 2.25,
+   "img": null,
+   "producer": "AIA S.p.A.",
+   "role": "Hersteller",
+   "konzern": "Gruppo Veronesi",
+   "flag": "🇮🇹",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/aia-haehnchen-kebab-673853",
+   "slug": null
+  },
+  {
+   "id": 1697,
+   "name": "Bio Erbseneintopf",
+   "brand": "Alnatura",
+   "store": "MPreis",
+   "dishKey": "erbsensuppe",
+   "dish": "Erbsensuppe/-eintopf",
+   "price": 2.55,
+   "p100g": 0.64,
+   "pPor": 2.55,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1790990085/api/365656_angle.jpg",
+   "producer": "Alnatura Produktions- und Handels GmbH",
+   "role": "Hersteller",
+   "konzern": "Alnatura",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/alnatura-bio-erbseneintopf-365656",
+   "slug": null
+  },
+  {
+   "id": 1698,
+   "name": "Bio Gemüse Ravioli",
+   "brand": "Alnatura",
+   "store": "MPreis",
+   "dishKey": "ravioli",
+   "dish": "Ravioli",
+   "price": 2.99,
+   "p100g": 0.75,
+   "pPor": 1.5,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1790990089/api/365190_angle.jpg",
+   "producer": "Alnatura Produktions- und Handels GmbH",
+   "role": "Hersteller",
+   "konzern": "Alnatura",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/alnatura-bio-gemuese-ravioli-365190",
+   "slug": null
+  },
+  {
+   "id": 1699,
+   "name": "Bio Hühner-Nudel-Eintopf",
+   "brand": "Alnatura",
+   "store": "MPreis",
+   "dishKey": "nudeleintopf",
+   "dish": "Nudeleintopf",
+   "price": 2.99,
+   "p100g": 0.75,
+   "pPor": 2.99,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1790298143/api/366297_angle.jpg",
+   "producer": "Alnatura Produktions- und Handels GmbH",
+   "role": "Hersteller",
+   "konzern": "Alnatura",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/alnatura-bio-huehner-nudel-eintopf-366297",
+   "slug": null
+  },
+  {
+   "id": 1700,
+   "name": "Bio Kichererbsen-Kokos-Eintopf",
+   "brand": "Alnatura",
+   "store": "MPreis",
+   "dishKey": "eintopf-sonstige",
+   "dish": "Eintopf (sonstige)",
+   "price": 2.85,
+   "p100g": 0.71,
+   "pPor": 2.85,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1790989871/api/365486_angle.jpg",
+   "producer": "Alnatura Produktions- und Handels GmbH",
+   "role": "Hersteller",
+   "konzern": "Alnatura",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/alnatura-bio-kichererbsen-kokos-eintopf-365486",
+   "slug": null
+  },
+  {
+   "id": 1701,
+   "name": "Ravioli con Pomodoro grigliato Mozzarella e Basilico",
+   "brand": "Bertagni",
+   "store": "MPreis",
+   "dishKey": "ravioli",
+   "dish": "Ravioli",
+   "price": 3.49,
+   "p100g": 1.4,
+   "pPor": 2.79,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1779628731/api/611305_front.jpg",
+   "producer": "Bertagni 1882 S.p.A.",
+   "role": "Hersteller",
+   "konzern": "Bertagni 1882",
+   "flag": "🇮🇹",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/bertagni-ravioli-con-pomodoro-grigliato-mozzarella-e-basilico-611305",
+   "slug": null
+  },
+  {
+   "id": 1702,
+   "name": "Ravioli con Ricotta e Spinaci",
+   "brand": "Bertagni",
+   "store": "MPreis",
+   "dishKey": "ravioli",
+   "dish": "Ravioli",
+   "price": 3.49,
+   "p100g": 1.4,
+   "pPor": 2.79,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1768483193/api/611306_angle.jpg",
+   "producer": "Bertagni 1882 S.p.A.",
+   "role": "Hersteller",
+   "konzern": "Bertagni 1882",
+   "flag": "🇮🇹",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/bertagni-ravioli-con-ricotta-e-spinaci-611306",
+   "slug": null
+  },
+  {
+   "id": 1703,
+   "name": "Tortellini Funghi",
+   "brand": "Bertagni",
+   "store": "MPreis",
+   "dishKey": "tortellini",
+   "dish": "Tortellini",
+   "price": 3.49,
+   "p100g": 1.4,
+   "pPor": 2.79,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1779628727/api/611309_front.jpg",
+   "producer": "Bertagni 1882 S.p.A.",
+   "role": "Hersteller",
+   "konzern": "Bertagni 1882",
+   "flag": "🇮🇹",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/bertagni-tortellini-funghi-611309",
+   "slug": null
+  },
+  {
+   "id": 1704,
+   "name": "Cevapcici",
+   "brand": "Brajlovic",
+   "store": "MPreis",
+   "dishKey": null,
+   "dish": null,
+   "price": 14.99,
+   "p100g": 1.87,
+   "pPor": 2.81,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1779642032/api/815040_front.jpg",
+   "producer": "Brajlovic GmbH",
+   "role": "Hersteller",
+   "konzern": "Brajlovic GmbH",
+   "flag": "🇦🇹",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/brajlovic-cevapcici-815040",
+   "slug": null
+  },
+  {
+   "id": 1705,
+   "name": "Cevapcici Banja Luka",
+   "brand": "Brajlovic",
+   "store": "MPreis",
+   "dishKey": null,
+   "dish": null,
+   "price": 14.99,
+   "p100g": 1.87,
+   "pPor": 2.81,
+   "img": null,
+   "producer": "Brajlovic GmbH",
+   "role": "Hersteller",
+   "konzern": "Brajlovic GmbH",
+   "flag": "🇦🇹",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/brajlovic-cevapcici-banja-luka-817105",
+   "slug": null
+  },
+  {
+   "id": 1706,
+   "name": "Kaspressknödel 4er-Packung",
+   "brand": "Deflorian",
+   "store": "MPreis",
+   "dishKey": null,
+   "dish": null,
+   "price": 8.49,
+   "p100g": 2.12,
+   "pPor": 4.25,
+   "img": null,
+   "producer": "Deflorian S.r.l.",
+   "role": "Hersteller",
+   "konzern": "Deflorian S.r.l.",
+   "flag": "🇮🇹",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/deflorian-kaspressknoedel-4er-packung-611637",
+   "slug": null
+  },
+  {
+   "id": 1707,
+   "name": "Schlutzkrapfen mit Graukas",
+   "brand": "Deflorian",
+   "store": "MPreis",
+   "dishKey": "kasnocken",
+   "dish": "Kärntner Kasnudeln",
+   "price": 7.69,
+   "p100g": 1.71,
+   "pPor": 7.69,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1768490521/api/611250_angle.jpg",
+   "producer": "Deflorian S.r.l.",
+   "role": "Hersteller",
+   "konzern": "Deflorian S.r.l.",
+   "flag": "🇮🇹",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/deflorian-schlutzkrapfen-mit-graukas-611250",
+   "slug": null
+  },
+  {
+   "id": 1708,
+   "name": "Schlutzkrapfen mit Spinatfülle",
+   "brand": "Deflorian",
+   "store": "MPreis",
+   "dishKey": "kasnocken",
+   "dish": "Kärntner Kasnudeln",
+   "price": 7.69,
+   "p100g": 1.71,
+   "pPor": 7.69,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1768490518/api/611251_angle.jpg",
+   "producer": "Deflorian S.r.l.",
+   "role": "Hersteller",
+   "konzern": "Deflorian S.r.l.",
+   "flag": "🇮🇹",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/deflorian-schlutzkrapfen-mit-spinatfuelle-611251",
+   "slug": null
+  },
+  {
+   "id": 1709,
+   "name": "Schlutzkrapfen mit Topfenfülle",
+   "brand": "Deflorian",
+   "store": "MPreis",
+   "dishKey": "kasnocken",
+   "dish": "Kärntner Kasnudeln",
+   "price": 7.69,
+   "p100g": 1.71,
+   "pPor": 7.69,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1768490524/api/611258_angle.jpg",
+   "producer": "Deflorian S.r.l.",
+   "role": "Hersteller",
+   "konzern": "Deflorian S.r.l.",
+   "flag": "🇮🇹",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/deflorian-schlutzkrapfen-mit-topfenfuelle-611258",
+   "slug": null
+  },
+  {
+   "id": 1710,
+   "name": "Tiroler Tris",
+   "brand": "Deflorian",
+   "store": "MPreis",
+   "dishKey": null,
+   "dish": null,
+   "price": 8.29,
+   "p100g": 1.51,
+   "pPor": 8.29,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1768490527/api/611238_angle.jpg",
+   "producer": "Deflorian S.r.l.",
+   "role": "Hersteller",
+   "konzern": "Deflorian S.r.l.",
+   "flag": "🇮🇹",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/deflorian-tiroler-tris-611238",
+   "slug": null
+  },
+  {
+   "id": 1711,
+   "name": "Chicken Bowl Curry",
+   "brand": "Delamaris",
+   "store": "MPreis",
+   "dishKey": null,
+   "dish": null,
+   "price": 2.99,
+   "p100g": 1.87,
+   "pPor": 2.99,
+   "img": null,
+   "producer": "Delamaris d.o.o.",
+   "role": "Hersteller",
+   "konzern": "Delamaris",
+   "flag": "🇸🇮",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/delamaris-chicken-bowl-curry-268407",
+   "slug": null
+  },
+  {
+   "id": 1712,
+   "name": "Erdäpfelgulasch DS",
+   "brand": "Felix",
+   "store": "MPreis",
+   "dishKey": "erdaepfelgulasch",
+   "dish": "Erdäpfelgulasch",
+   "price": 3.49,
+   "p100g": 0.87,
+   "pPor": 3.49,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1768789747/api/227530_angle.jpg",
+   "producer": "Felix Austria GmbH",
+   "role": "Hersteller",
+   "konzern": "Felix Austria (Orkla)",
+   "flag": "🇳🇴",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/felix-erdaepfelgulasch-ds-227530",
+   "slug": null
+  },
+  {
+   "id": 1713,
+   "name": "Höllenfeuer Gulaschsuppe",
+   "brand": "Felix",
+   "store": "MPreis",
+   "dishKey": "gulaschsuppe",
+   "dish": "Gulaschsuppe",
+   "price": 6.49,
+   "p100g": 0.81,
+   "pPor": 3.25,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1768846990/api/225811_angle.jpg",
+   "producer": "Felix Austria GmbH",
+   "role": "Hersteller",
+   "konzern": "Felix Austria (Orkla)",
+   "flag": "🇳🇴",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/felix-hoellenfeuer-gulaschsuppe-225811",
+   "slug": null
+  },
+  {
+   "id": 1714,
+   "name": "Linsen mit Speck",
+   "brand": "Felix",
+   "store": "MPreis",
+   "dishKey": null,
+   "dish": null,
+   "price": 6.49,
+   "p100g": 0.81,
+   "pPor": 3.25,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1768846976/api/158320_angle.jpg",
+   "producer": "Felix Austria GmbH",
+   "role": "Hersteller",
+   "konzern": "Felix Austria (Orkla)",
+   "flag": "🇳🇴",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/felix-linsen-mit-speck-158320",
+   "slug": null
+  },
+  {
+   "id": 1715,
+   "name": "Vegane Gulaschsuppe",
+   "brand": "Felix",
+   "store": "MPreis",
+   "dishKey": "gulaschsuppe",
+   "dish": "Gulaschsuppe",
+   "price": 3.49,
+   "p100g": 0.87,
+   "pPor": 3.49,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1768846961/api/227531_angle.jpg",
+   "producer": "Felix Austria GmbH",
+   "role": "Hersteller",
+   "konzern": "Felix Austria (Orkla)",
+   "flag": "🇳🇴",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/felix-vegane-gulaschsuppe-227531",
+   "slug": null
+  },
+  {
+   "id": 1717,
+   "name": "Butter Chicken",
+   "brand": "Frosta",
+   "store": "MPreis",
+   "dishKey": "butter-chicken",
+   "dish": "Butter Chicken",
+   "price": 5.99,
+   "p100g": 1.2,
+   "pPor": 5.99,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1768826634/api/174473_front.jpg",
+   "producer": "FRoSTA AG",
+   "role": "Hersteller",
+   "konzern": "FRoSTA AG",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/frosta-butter-chicken-174473",
+   "slug": null
+  },
+  {
+   "id": 1719,
+   "name": "Paella MSC",
+   "brand": "Frosta",
+   "store": "MPreis",
+   "dishKey": null,
+   "dish": null,
+   "price": 5.99,
+   "p100g": 1.33,
+   "pPor": 5.99,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1790211719/api/174461_front.jpg",
+   "producer": "FRoSTA AG",
+   "role": "Hersteller",
+   "konzern": "FRoSTA AG",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/frosta-paella-msc-174461",
+   "slug": null
+  },
+  {
+   "id": 1720,
+   "name": "Pappardelle Creme Spinaci",
+   "brand": "Frosta",
+   "store": "MPreis",
+   "dishKey": null,
+   "dish": null,
+   "price": 5.99,
+   "p100g": 1.2,
+   "pPor": 5.99,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1768826689/api/174278_front.jpg",
+   "producer": "FRoSTA AG",
+   "role": "Hersteller",
+   "konzern": "FRoSTA AG",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/frosta-pappardelle-creme-spinaci-174278",
+   "slug": null
+  },
+  {
+   "id": 1721,
+   "name": "Rustikale Hendlpfanne",
+   "brand": "Frosta",
+   "store": "MPreis",
+   "dishKey": null,
+   "dish": null,
+   "price": 5.99,
+   "p100g": 1.2,
+   "pPor": 5.99,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1779620200/api/174448_angle.jpg",
+   "producer": "FRoSTA AG",
+   "role": "Hersteller",
+   "konzern": "FRoSTA AG",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/frosta-rustikale-hendlpfanne-174448",
+   "slug": null
+  },
+  {
+   "id": 1724,
+   "name": "Wokpfanne Bami Goreng",
+   "brand": "Frosta",
+   "store": "MPreis",
+   "dishKey": null,
+   "dish": null,
+   "price": 5.99,
+   "p100g": 1.2,
+   "pPor": 5.99,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1779620175/api/174427_front.jpg",
+   "producer": "FRoSTA AG",
+   "role": "Hersteller",
+   "konzern": "FRoSTA AG",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/frosta-wokpfanne-bami-goreng-174427",
+   "slug": null
+  },
+  {
+   "id": 1725,
+   "name": "Genießer Pfanne Ravioli Mediterran",
+   "brand": "iglo",
+   "store": "MPreis",
+   "dishKey": "ravioli",
+   "dish": "Ravioli",
+   "price": 7.49,
+   "p100g": 1.25,
+   "pPor": 7.49,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1768488689/api/812298_angle.jpg",
+   "producer": "Iglo Austria",
+   "role": "Hersteller",
+   "konzern": "Nomad Foods",
+   "flag": "🇬🇧",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/iglo-geniesser-pfanne-ravioli-mediterran-812298",
+   "slug": null
+  },
+  {
+   "id": 1726,
+   "name": "Genießer Pfanne Tagliatelle Funghi",
+   "brand": "iglo",
+   "store": "MPreis",
+   "dishKey": null,
+   "dish": null,
+   "price": 7.49,
+   "p100g": 1.25,
+   "pPor": 7.49,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1768488686/api/812297_angle.jpg",
+   "producer": "Iglo Austria",
+   "role": "Hersteller",
+   "konzern": "Nomad Foods",
+   "flag": "🇬🇧",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/iglo-geniesser-pfanne-tagliatelle-funghi-812297",
+   "slug": null
+  },
+  {
+   "id": 1727,
+   "name": "Genießerpfanne Gnocchi-Spinat",
+   "brand": "iglo",
+   "store": "MPreis",
+   "dishKey": null,
+   "dish": null,
+   "price": 7.49,
+   "p100g": 1.15,
+   "pPor": 7.49,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1768488606/api/810528_angle.jpg",
+   "producer": "Iglo Austria",
+   "role": "Hersteller",
+   "konzern": "Nomad Foods",
+   "flag": "🇬🇧",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/iglo-geniesserpfanne-gnocchi-spinat-810528",
+   "slug": null
+  },
+  {
+   "id": 1728,
+   "name": "Genießerpfanne Paprika-Huhn",
+   "brand": "iglo",
+   "store": "MPreis",
+   "dishKey": "paprikahuhn",
+   "dish": "Paprikahuhn",
+   "price": 7.49,
+   "p100g": 1.15,
+   "pPor": 7.49,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1768488593/api/810529_angle.jpg",
+   "producer": "Iglo Austria",
+   "role": "Hersteller",
+   "konzern": "Nomad Foods",
+   "flag": "🇬🇧",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/iglo-geniesserpfanne-paprika-huhn-810529",
+   "slug": null
+  },
+  {
+   "id": 1729,
+   "name": "Genießerpfanne Stroganoff",
+   "brand": "iglo",
+   "store": "MPreis",
+   "dishKey": "stroganoff",
+   "dish": "Stroganoff",
+   "price": 7.49,
+   "p100g": 1.5,
+   "pPor": 7.49,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1768484372/api/805308_angle.jpg",
+   "producer": "Iglo Austria",
+   "role": "Hersteller",
+   "konzern": "Nomad Foods",
+   "flag": "🇬🇧",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/iglo-geniesserpfanne-stroganoff-805308",
+   "slug": null
+  },
+  {
+   "id": 1730,
+   "name": "Genießerpfanne Tortellini di Carne",
+   "brand": "iglo",
+   "store": "MPreis",
+   "dishKey": "tortellini",
+   "dish": "Tortellini",
+   "price": 7.49,
+   "p100g": 1.15,
+   "pPor": 7.49,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1768488627/api/810521_angle.jpg",
+   "producer": "Iglo Austria",
+   "role": "Hersteller",
+   "konzern": "Nomad Foods",
+   "flag": "🇬🇧",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/iglo-geniesserpfanne-tortellini-di-carne-810521",
+   "slug": null
+  },
+  {
+   "id": 1731,
+   "name": "Hausmannskost Rindsgulasch",
+   "brand": "iglo",
+   "store": "MPreis",
+   "dishKey": "rindsgulasch",
+   "dish": "Rindsgulasch",
+   "price": 6.99,
+   "p100g": 1.55,
+   "pPor": 6.99,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1783973511/api/805850_angle.jpg",
+   "producer": "Iglo Austria",
+   "role": "Hersteller",
+   "konzern": "Nomad Foods",
+   "flag": "🇬🇧",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/iglo-hausmannskost-rindsgulasch-805850",
+   "slug": null
+  },
+  {
+   "id": 1733,
+   "name": "Schmankerl Zwiebelbraten",
+   "brand": "iglo",
+   "store": "MPreis",
+   "dishKey": null,
+   "dish": null,
+   "price": 6.79,
+   "p100g": 1.94,
+   "pPor": 6.79,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1768846059/api/807004_front.jpg",
+   "producer": "Iglo Austria",
+   "role": "Hersteller",
+   "konzern": "Nomad Foods",
+   "flag": "🇬🇧",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/iglo-schmankerl-zwiebelbraten-807004",
+   "slug": null
+  },
+  {
+   "id": 1735,
+   "name": "Frikadellen",
+   "brand": "Jeden Tag",
+   "store": "MPreis",
+   "dishKey": "faschierter-braten",
+   "dish": "Faschierter Braten",
+   "price": 3.99,
+   "p100g": 0.8,
+   "pPor": 1.2,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1784682265/api/611694_front.jpg",
+   "producer": "Verband der MPREIS-Partner / Jeden Tag",
+   "role": "Hersteller",
+   "konzern": "MPREIS (EMP)",
+   "flag": "🇦🇹",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/jeden-tag-frikadellen-611694",
+   "slug": null
+  },
+  {
+   "id": 1736,
+   "name": "Fiori Spinat mit Pinienkernen",
+   "brand": "Karnerta",
+   "store": "MPreis",
+   "dishKey": null,
+   "dish": null,
+   "price": 2.99,
+   "p100g": 1.2,
+   "pPor": 2.99,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1769443931/api/811910_front.jpg",
+   "producer": "Karnerta GmbH",
+   "role": "Hersteller",
+   "konzern": "VIVATIS Holding (RLB OÖ)",
+   "flag": "🇦🇹",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/karnerta-fiori-spinat-mit-pinienkernen-811910",
+   "slug": null
+  },
+  {
+   "id": 1737,
+   "name": "Gaumenschmaus Kärntner Kasnudeln",
+   "brand": "Karnerta",
+   "store": "MPreis",
+   "dishKey": "kasnocken",
+   "dish": "Kärntner Kasnudeln",
+   "price": 2.79,
+   "p100g": 0.93,
+   "pPor": 2.79,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1768489363/api/811855_front.jpg",
+   "producer": "Karnerta GmbH",
+   "role": "Hersteller",
+   "konzern": "VIVATIS Holding (RLB OÖ)",
+   "flag": "🇦🇹",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/karnerta-gaumenschmaus-kaerntner-kasnudeln-811855",
+   "slug": null
+  },
+  {
+   "id": 1738,
+   "name": "Gaumenschmaus Tiroler Schlutzkrapferl",
+   "brand": "Karnerta",
+   "store": "MPreis",
+   "dishKey": null,
+   "dish": null,
+   "price": 2.79,
+   "p100g": 0.93,
+   "pPor": 2.79,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1779641289/api/811856_angle.jpg",
+   "producer": "Karnerta GmbH",
+   "role": "Hersteller",
+   "konzern": "VIVATIS Holding (RLB OÖ)",
+   "flag": "🇦🇹",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/karnerta-gaumenschmaus-tiroler-schlutzkrapferl-811856",
+   "slug": null
+  },
+  {
+   "id": 1739,
+   "name": "Hüttenschmaus Käsespätzle",
+   "brand": "Knorr",
+   "store": "MPreis",
+   "dishKey": "kaesespaetzle",
+   "dish": "Käsespätzle",
+   "price": 2.99,
+   "p100g": 1.8,
+   "pPor": 2.99,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1790989618/api/292101_angle.jpg",
+   "producer": "Unilever Austria GmbH",
+   "role": "Hersteller",
+   "konzern": "Unilever",
+   "flag": "🇬🇧",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/knorr-huettenschmaus-kaesespaetzle-292101",
+   "slug": null
+  },
+  {
+   "id": 1740,
+   "name": "Meister Kessel Gulaschsuppe",
+   "brand": "Knorr",
+   "store": "MPreis",
+   "dishKey": "gulaschsuppe",
+   "dish": "Gulaschsuppe",
+   "price": 2.99,
+   "p100g": 0.6,
+   "pPor": 2.39,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1790039021/api/286000_front.jpg",
+   "producer": "Unilever Austria GmbH",
+   "role": "Hersteller",
+   "konzern": "Unilever",
+   "flag": "🇬🇧",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/knorr-meister-kessel-gulaschsuppe-286000",
+   "slug": null
+  },
+  {
+   "id": 1741,
+   "name": "Meister Kessel Serbische Bohnensuppe",
+   "brand": "Knorr",
+   "store": "MPreis",
+   "dishKey": "bohneneintopf",
+   "dish": "Bohneneintopf",
+   "price": 2.99,
+   "p100g": 0.6,
+   "pPor": 2.39,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1783973620/api/286500_front.jpg",
+   "producer": "Unilever Austria GmbH",
+   "role": "Hersteller",
+   "konzern": "Unilever",
+   "flag": "🇬🇧",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/knorr-meister-kessel-serbische-bohnensuppe-286500",
+   "slug": null
+  },
+  {
+   "id": 1742,
+   "name": "Cevapcici mit Letscho",
+   "brand": "M",
+   "store": "MPreis",
+   "dishKey": null,
+   "dish": null,
+   "price": 3.99,
+   "p100g": 1.11,
+   "pPor": 3.99,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1762780855/mpreis/media/6911e6b6338d4f4d15672714",
+   "producer": "MPREIS Warenvertriebs GmbH",
+   "role": "Hersteller",
+   "konzern": "MPREIS (EMP)",
+   "flag": "🇦🇹",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/m-cevapcici-mit-letscho-770169",
+   "slug": null
+  },
+  {
+   "id": 1743,
+   "name": "Chili con Carne XXL",
+   "brand": "M",
+   "store": "MPreis",
+   "dishKey": "chili-con-carne",
+   "dish": "Chili con carne",
+   "price": 3.99,
+   "p100g": 0.89,
+   "pPor": 3.55,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1779371099/api/custom/770164_front.png",
+   "producer": "MPREIS Warenvertriebs GmbH",
+   "role": "Hersteller",
+   "konzern": "MPREIS (EMP)",
+   "flag": "🇦🇹",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/m-chili-con-carne-xxl-770164",
+   "slug": null
+  },
+  {
+   "id": 1744,
+   "name": "Käsespätzle",
+   "brand": "M",
+   "store": "MPreis",
+   "dishKey": "kaesespaetzle",
+   "dish": "Käsespätzle",
+   "price": 3.69,
+   "p100g": 1.12,
+   "pPor": 2.24,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1762780588/mpreis/media/6911e5ab11a9126533abbb9a",
+   "producer": "MPREIS Warenvertriebs GmbH",
+   "role": "Hersteller",
+   "konzern": "MPREIS (EMP)",
+   "flag": "🇦🇹",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/m-kaesespaetzle-770160",
+   "slug": null
+  },
+  {
+   "id": 1745,
+   "name": "Paprikahendl mit Eierspätzle",
+   "brand": "M",
+   "store": "MPreis",
+   "dishKey": "paprikahuhn",
+   "dish": "Paprikahuhn",
+   "price": 3.99,
+   "p100g": 1.21,
+   "pPor": 3.99,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1762780544/mpreis/media/6911e57e11a9126533abbb99",
+   "producer": "MPREIS Warenvertriebs GmbH",
+   "role": "Hersteller",
+   "konzern": "MPREIS (EMP)",
+   "flag": "🇦🇹",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/m-paprikahendl-mit-eierspaetzle-770168",
+   "slug": null
+  },
+  {
+   "id": 1746,
+   "name": "Spaghetti Bolognese XXL",
+   "brand": "M",
+   "store": "MPreis",
+   "dishKey": "spaghetti-bolognese",
+   "dish": "Spaghetti Bolognese",
+   "price": 3.29,
+   "p100g": 0.72,
+   "pPor": 3.29,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1761134305/mpreis/media/68f8c6e079a05d33d44cc3d4",
+   "producer": "MPREIS Warenvertriebs GmbH",
+   "role": "Hersteller",
+   "konzern": "MPREIS (EMP)",
+   "flag": "🇦🇹",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/m-spaghetti-bolognese-xxl-770162",
+   "slug": null
+  },
+  {
+   "id": 1747,
+   "name": "Spaghetti Carbonara XXL",
+   "brand": "M",
+   "store": "MPreis",
+   "dishKey": null,
+   "dish": null,
+   "price": 3.69,
+   "p100g": 0.8,
+   "pPor": 3.69,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1762779583/mpreis/media/6911e1be09ffd068e5dcd3a1",
+   "producer": "MPREIS Warenvertriebs GmbH",
+   "role": "Hersteller",
+   "konzern": "MPREIS (EMP)",
+   "flag": "🇦🇹",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/m-spaghetti-carbonara-xxl-770165",
+   "slug": null
+  },
+  {
+   "id": 1748,
+   "name": "Curry King",
+   "brand": "Meica",
+   "store": "MPreis",
+   "dishKey": null,
+   "dish": null,
+   "price": 2.69,
+   "p100g": 1.22,
+   "pPor": 1.83,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1779618869/api/226950_angle.jpg",
+   "producer": "Meica GmbH",
+   "role": "Hersteller",
+   "konzern": "Meica GmbH",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/meica-curry-king-226950",
+   "slug": null
+  },
+  {
+   "id": 1749,
+   "name": "Chicken Kräuter & Zitrone",
+   "brand": "Planted.",
+   "store": "MPreis",
+   "dishKey": null,
+   "dish": null,
+   "price": 3.49,
+   "p100g": 2.18,
+   "pPor": 3.49,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1779628450/api/611619_angle.jpg",
+   "producer": "Planted Foods AG",
+   "role": "Hersteller",
+   "konzern": "Planted Foods AG",
+   "flag": "🇨🇭",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/planted-chicken-kraeuter-zitrone-611619",
+   "slug": null
+  },
+  {
+   "id": 1750,
+   "name": "Cappelletti mit Parmaschinken",
+   "brand": "Rana",
+   "store": "MPreis",
+   "dishKey": null,
+   "dish": null,
+   "price": 3.79,
+   "p100g": 1.52,
+   "pPor": 3.03,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1772463859/api/611581_front.jpg",
+   "producer": "Pastificio Rana S.p.A.",
+   "role": "Hersteller",
+   "konzern": "Pastificio Rana",
+   "flag": "🇮🇹",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/rana-cappelletti-mit-parmaschinken-611581",
+   "slug": null
+  },
+  {
+   "id": 1751,
+   "name": "Pfannen-Gnocchi Spinat-Mozzarella",
+   "brand": "Rana",
+   "store": "MPreis",
+   "dishKey": null,
+   "dish": null,
+   "price": 2.29,
+   "p100g": 0.82,
+   "pPor": 2.29,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1773041022/api/611187_front.jpg",
+   "producer": "Pastificio Rana S.p.A.",
+   "role": "Hersteller",
+   "konzern": "Pastificio Rana",
+   "flag": "🇮🇹",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/rana-pfannen-gnocchi-spinat-mozzarella-611187",
+   "slug": null
+  },
+  {
+   "id": 1752,
+   "name": "Ravioli Pesto Genovese",
+   "brand": "Rana",
+   "store": "MPreis",
+   "dishKey": "ravioli",
+   "dish": "Ravioli",
+   "price": 3.79,
+   "p100g": 1.52,
+   "pPor": 3.03,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1772463867/api/611582_front.jpg",
+   "producer": "Pastificio Rana S.p.A.",
+   "role": "Hersteller",
+   "konzern": "Pastificio Rana",
+   "flag": "🇮🇹",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/rana-ravioli-pesto-genovese-611582",
+   "slug": null
+  },
+  {
+   "id": 1753,
+   "name": "Ravioli Ricotta und Spinat",
+   "brand": "Rana",
+   "store": "MPreis",
+   "dishKey": "ravioli",
+   "dish": "Ravioli",
+   "price": 3.79,
+   "p100g": 1.52,
+   "pPor": 3.03,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1772463852/api/611585_front.jpg",
+   "producer": "Pastificio Rana S.p.A.",
+   "role": "Hersteller",
+   "konzern": "Pastificio Rana",
+   "flag": "🇮🇹",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/rana-ravioli-ricotta-und-spinat-611585",
+   "slug": null
+  },
+  {
+   "id": 1754,
+   "name": "Ravioli Tomate und Mozarella",
+   "brand": "Rana",
+   "store": "MPreis",
+   "dishKey": "ravioli",
+   "dish": "Ravioli",
+   "price": 3.79,
+   "p100g": 1.52,
+   "pPor": 3.03,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1772463856/api/611584_front.jpg",
+   "producer": "Pastificio Rana S.p.A.",
+   "role": "Hersteller",
+   "konzern": "Pastificio Rana",
+   "flag": "🇮🇹",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/rana-ravioli-tomate-und-mozarella-611584",
+   "slug": null
+  },
+  {
+   "id": 1755,
+   "name": "Tortelloni mit Parmesan",
+   "brand": "Rana",
+   "store": "MPreis",
+   "dishKey": "tortellini",
+   "dish": "Tortellini",
+   "price": 3.79,
+   "p100g": 1.52,
+   "pPor": 3.03,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1772463863/api/611580_front.jpg",
+   "producer": "Pastificio Rana S.p.A.",
+   "role": "Hersteller",
+   "konzern": "Pastificio Rana",
+   "flag": "🇮🇹",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/rana-tortelloni-mit-parmesan-611580",
+   "slug": null
+  },
+  {
+   "id": 1756,
+   "name": "Tortelloni Schinken Mozzarella",
+   "brand": "Rana",
+   "store": "MPreis",
+   "dishKey": "tortellini",
+   "dish": "Tortellini",
+   "price": 3.79,
+   "p100g": 1.52,
+   "pPor": 3.03,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1779628865/api/611679_front.jpg",
+   "producer": "Pastificio Rana S.p.A.",
+   "role": "Hersteller",
+   "konzern": "Pastificio Rana",
+   "flag": "🇮🇹",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/rana-tortelloni-schinken-mozzarella-611679",
+   "slug": null
+  },
+  {
+   "id": 1757,
+   "name": "Tortelloni Steinpilze",
+   "brand": "Rana",
+   "store": "MPreis",
+   "dishKey": "tortellini",
+   "dish": "Tortellini",
+   "price": 3.79,
+   "p100g": 1.52,
+   "pPor": 3.03,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1772463848/api/611586_front.jpg",
+   "producer": "Pastificio Rana S.p.A.",
+   "role": "Hersteller",
+   "konzern": "Pastificio Rana",
+   "flag": "🇮🇹",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/rana-tortelloni-steinpilze-611586",
+   "slug": null
+  },
+  {
+   "id": 1759,
+   "name": "Risotto Milanese",
+   "brand": "Riso Scotti",
+   "store": "MPreis",
+   "dishKey": "risotto",
+   "dish": "Risotto",
+   "price": 2.39,
+   "p100g": 1.14,
+   "pPor": 2.39,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1594026827/mpreis/products/18adda73-bf55-403b-bcea-f3a539eaeec1.jpg",
+   "producer": "Riso Scotti S.p.A.",
+   "role": "Hersteller",
+   "konzern": "Riso Scotti",
+   "flag": "🇮🇹",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/riso-scotti-risotto-milanese-297540",
+   "slug": null
+  },
+  {
+   "id": 1760,
+   "name": "Käseknödel 4er-Packung",
+   "brand": "Strauss",
+   "store": "MPreis",
+   "dishKey": null,
+   "dish": null,
+   "price": 4.49,
+   "p100g": 1.5,
+   "pPor": 2.99,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1768483406/api/611153_angle.jpg",
+   "producer": "Strauss GmbH",
+   "role": "Hersteller",
+   "konzern": "Unabhängig / unbekannt",
+   "flag": "🏳️",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/strauss-kaeseknoedel-4er-packung-611153",
+   "slug": null
+  },
+  {
+   "id": 1761,
+   "name": "Schlutzkrapfen Spinat",
+   "brand": "Strauss",
+   "store": "MPreis",
+   "dishKey": "kasnocken",
+   "dish": "Kärntner Kasnudeln",
+   "price": 5.69,
+   "p100g": 1.14,
+   "pPor": 1.71,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1779629111/api/611162_angle.jpg",
+   "producer": "Strauss GmbH",
+   "role": "Hersteller",
+   "konzern": "Unabhängig / unbekannt",
+   "flag": "🏳️",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/strauss-schlutzkrapfen-spinat-611162",
+   "slug": null
+  },
+  {
+   "id": 1762,
+   "name": "Speckknödel 4er-Packung",
+   "brand": "Strauss",
+   "store": "MPreis",
+   "dishKey": "fleischknoedel",
+   "dish": "Fleisch-/Grammelknödel",
+   "price": 4.49,
+   "p100g": 1.5,
+   "pPor": 2.25,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1768483401/api/611155_angle.jpg",
+   "producer": "Strauss GmbH",
+   "role": "Hersteller",
+   "konzern": "Unabhängig / unbekannt",
+   "flag": "🏳️",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/strauss-speckknoedel-4er-packung-611155",
+   "slug": null
+  },
+  {
+   "id": 1763,
+   "name": "Spinatknödel 4er-Packung",
+   "brand": "Strauss",
+   "store": "MPreis",
+   "dishKey": null,
+   "dish": null,
+   "price": 4.49,
+   "p100g": 1.5,
+   "pPor": 2.99,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1768483404/api/611154_angle.jpg",
+   "producer": "Strauss GmbH",
+   "role": "Hersteller",
+   "konzern": "Unabhängig / unbekannt",
+   "flag": "🏳️",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/strauss-spinatknoedel-4er-packung-611154",
+   "slug": null
+  },
+  {
+   "id": 1764,
+   "name": "Indian Style Butter Chicken",
+   "brand": "Youcook",
+   "store": "MPreis",
+   "dishKey": "butter-chicken",
+   "dish": "Butter Chicken",
+   "price": 4.99,
+   "p100g": 1.19,
+   "pPor": 4.99,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1779624775/api/226962_angle.jpg",
+   "producer": "Youcook GmbH",
+   "role": "Hersteller",
+   "konzern": "Youcook GmbH",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/youcook-indian-style-butter-chicken-226962",
+   "slug": null
+  },
+  {
+   "id": 1765,
+   "name": "Indian Style Chicken Tikka",
+   "brand": "Youcook",
+   "store": "MPreis",
+   "dishKey": "huhn-curry",
+   "dish": "Huhn Curry",
+   "price": 4.99,
+   "p100g": 1.19,
+   "pPor": 4.99,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1779624771/api/226963_angle.jpg",
+   "producer": "Youcook GmbH",
+   "role": "Hersteller",
+   "konzern": "Youcook GmbH",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/youcook-indian-style-chicken-tikka-226963",
+   "slug": null
+  },
+  {
+   "id": 1766,
+   "name": "Indian Style Linsencurry",
+   "brand": "Youcook",
+   "store": "MPreis",
+   "dishKey": "linseneintopf",
+   "dish": "Linseneintopf",
+   "price": 4.99,
+   "p100g": 1.19,
+   "pPor": 4.75,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1773750211/api/custom/226966_front.png",
+   "producer": "Youcook GmbH",
+   "role": "Hersteller",
+   "konzern": "Youcook GmbH",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/youcook-indian-style-linsencurry-226966",
+   "slug": null
+  },
+  {
+   "id": 1767,
+   "name": "Indian Style Mango Chicken",
+   "brand": "Youcook",
+   "store": "MPreis",
+   "dishKey": null,
+   "dish": null,
+   "price": 4.99,
+   "p100g": 1.19,
+   "pPor": 4.99,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1779624779/api/226961_angle.jpg",
+   "producer": "Youcook GmbH",
+   "role": "Hersteller",
+   "konzern": "Youcook GmbH",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/youcook-indian-style-mango-chicken-226961",
+   "slug": null
+  },
+  {
+   "id": 1768,
+   "name": "Pasta Caesar Chicken",
+   "brand": "Youcook",
+   "store": "MPreis",
+   "dishKey": null,
+   "dish": null,
+   "price": 4.99,
+   "p100g": 1.19,
+   "pPor": 4.99,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1780621292/api/226967_front.jpg",
+   "producer": "Youcook GmbH",
+   "role": "Hersteller",
+   "konzern": "Youcook GmbH",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/youcook-pasta-caesar-chicken-226967",
+   "slug": null
+  },
+  {
+   "id": 1769,
+   "name": "Rotes Thai Curry mit Huhn",
+   "brand": "Youcook",
+   "store": "MPreis",
+   "dishKey": "gemuesecurry",
+   "dish": "Gemüsecurry",
+   "price": 4.99,
+   "p100g": 1.16,
+   "pPor": 4.99,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1779624769/api/226964_angle.jpg",
+   "producer": "Youcook GmbH",
+   "role": "Hersteller",
+   "konzern": "Youcook GmbH",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/youcook-rotes-thai-curry-mit-huhn-226964",
+   "slug": null
+  },
+  {
+   "id": 1867,
    "name": "GREENFORCE Frische Mini-Frikadellen VEGAN",
    "brand": "GREENFORCE",
    "store": "Gurkerl",
@@ -13883,7 +15985,7 @@
    "slug": null
   },
   {
-   "id": 1794,
+   "id": 1868,
    "name": "Marks & Spencer Cream Of Tomato Soup",
    "brand": "Marks & Spencer",
    "store": "Gurkerl",
@@ -13904,7 +16006,7 @@
    "slug": null
   },
   {
-   "id": 1798,
+   "id": 1872,
    "name": "Alnatura BIO Falafel VEGAN",
    "brand": "Alnatura",
    "store": "Gurkerl",
@@ -13916,8 +16018,8 @@
    "img": "https://cdn.gurkerl.at/images/grocery/products/10841/10841-1708605501095.jpg",
    "producer": "Alnatura GmbH",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Alnatura",
+   "flag": "🇩🇪",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -13925,7 +16027,7 @@
    "slug": null
   },
   {
-   "id": 1799,
+   "id": 1873,
    "name": "Deli Dip Falafel Kichererbsen-Bällchen VEGAN",
    "brand": "Deli Dip",
    "store": "Gurkerl",
@@ -13946,7 +16048,7 @@
    "slug": null
   },
   {
-   "id": 1801,
+   "id": 1875,
    "name": "Alnatura BIO Falafel Mix",
    "brand": "Alnatura",
    "store": "Gurkerl",
@@ -13958,8 +16060,8 @@
    "img": "https://cdn.gurkerl.at/images/grocery/products/10455/10455-1659970891016.jpg",
    "producer": "Alnatura GmbH",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Alnatura",
+   "flag": "🇩🇪",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -13967,7 +16069,7 @@
    "slug": null
   },
   {
-   "id": 1805,
+   "id": 1879,
    "name": "Müller High Protein Schoko Pudding",
    "brand": "Müller",
    "store": "Gurkerl",
@@ -13988,7 +16090,7 @@
    "slug": null
   },
   {
-   "id": 1811,
+   "id": 1885,
    "name": "Alnatura BIO Mini Frühlingsrollen",
    "brand": "Alnatura",
    "store": "Gurkerl",
@@ -14000,8 +16102,8 @@
    "img": "https://cdn.gurkerl.at/images/grocery/products/10849/10849-1708605449475.jpg",
    "producer": "Alnatura GmbH",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Alnatura",
+   "flag": "🇩🇪",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -14009,7 +16111,7 @@
    "slug": null
   },
   {
-   "id": 1812,
+   "id": 1886,
    "name": "Müller High Protein Mousse Schoko",
    "brand": "Müller",
    "store": "Gurkerl",
@@ -14030,7 +16132,7 @@
    "slug": null
   },
   {
-   "id": 1825,
+   "id": 1899,
    "name": "Schärdinger Dessertcreme Schoko",
    "brand": "Schärdinger",
    "store": "Gurkerl",
@@ -14051,7 +16153,7 @@
    "slug": null
   },
   {
-   "id": 1829,
+   "id": 1903,
    "name": "Gü Cheesecake New York",
    "brand": "GÜ",
    "store": "Gurkerl",
@@ -14072,7 +16174,7 @@
    "slug": null
   },
   {
-   "id": 1830,
+   "id": 1904,
    "name": "Gü Cheesecake Salted Caramel",
    "brand": "GÜ",
    "store": "Gurkerl",
@@ -14093,7 +16195,7 @@
    "slug": null
   },
   {
-   "id": 1831,
+   "id": 1905,
    "name": "Gü Cheesecake Double Chocolate & Vanilla",
    "brand": "GÜ",
    "store": "Gurkerl",
@@ -14114,7 +16216,7 @@
    "slug": null
   },
   {
-   "id": 1844,
+   "id": 1918,
    "name": "Inzersdorfer Paprikahendlragout",
    "brand": "Inzersdorfer",
    "store": "Gurkerl",
@@ -14135,7 +16237,7 @@
    "slug": null
   },
   {
-   "id": 1860,
+   "id": 1934,
    "name": "Wiener Virtshaus Vleischknödel mit Sauerkraut VEGAN",
    "brand": "Wiener Virtshaus",
    "store": "Gurkerl",
@@ -14156,7 +16258,7 @@
    "slug": null
   },
   {
-   "id": 1879,
+   "id": 1953,
    "name": "Hiel BIO Polenta Karotte Burger VEGAN",
    "brand": "Hiel",
    "store": "Gurkerl",
@@ -14177,7 +16279,7 @@
    "slug": null
   },
   {
-   "id": 1886,
+   "id": 1960,
    "name": "Itineraire des Saveurs Crepes",
    "brand": "IDS",
    "store": "Gurkerl",
@@ -14198,7 +16300,7 @@
    "slug": null
   },
   {
-   "id": 1891,
+   "id": 1965,
    "name": "HOFMANNs 2 Rinderrouladen - mit kleinen Holzspießen handgesteckt - (tiefgekühlt)",
    "brand": "HOFMANNs",
    "store": "Gurkerl",
@@ -14219,7 +16321,7 @@
    "slug": null
   },
   {
-   "id": 1906,
+   "id": 1980,
    "name": "Landliebe Sahnepudding Schoko",
    "brand": "Landliebe",
    "store": "Gurkerl",
@@ -14240,7 +16342,7 @@
    "slug": null
   },
   {
-   "id": 1907,
+   "id": 1981,
    "name": "Müller Schokopudding + Vanillesoße",
    "brand": "Müller",
    "store": "Gurkerl",
@@ -14261,7 +16363,7 @@
    "slug": null
   },
   {
-   "id": 1908,
+   "id": 1982,
    "name": "Müller Grießpudding + Kirschsoße",
    "brand": "Müller",
    "store": "Gurkerl",
@@ -14282,7 +16384,7 @@
    "slug": null
   },
   {
-   "id": 1910,
+   "id": 1984,
    "name": "Müller Doppeldecker Schoko + Vanillesoße 4x125g",
    "brand": "Müller",
    "store": "Gurkerl",
@@ -14303,7 +16405,7 @@
    "slug": null
   },
   {
-   "id": 1912,
+   "id": 1986,
    "name": "Müller Grießpudding Traditionell",
    "brand": "Müller",
    "store": "Gurkerl",
@@ -14324,7 +16426,7 @@
    "slug": null
   },
   {
-   "id": 1913,
+   "id": 1987,
    "name": "Müller Wackelpudding Himbeere",
    "brand": "Müller",
    "store": "Gurkerl",
@@ -14345,7 +16447,7 @@
    "slug": null
   },
   {
-   "id": 1914,
+   "id": 1988,
    "name": "Müller Wackelpudding Waldmeister 4x125g",
    "brand": "Müller",
    "store": "Gurkerl",
@@ -14366,7 +16468,7 @@
    "slug": null
   },
   {
-   "id": 1915,
+   "id": 1989,
    "name": "Müller Schokopudding + Schokosoße",
    "brand": "Müller",
    "store": "Gurkerl",
@@ -14387,7 +16489,7 @@
    "slug": null
   },
   {
-   "id": 1916,
+   "id": 1990,
    "name": "Zum Dorfkrug Vanille-Pudding",
    "brand": "Zum Dorfkrug",
    "store": "Gurkerl",
@@ -14408,7 +16510,7 @@
    "slug": null
   },
   {
-   "id": 1931,
+   "id": 2005,
    "name": "Bonne Maman Creme Brulee 2x100g",
    "brand": "Bonne Maman",
    "store": "Gurkerl",
@@ -14429,7 +16531,7 @@
    "slug": null
   },
   {
-   "id": 1934,
+   "id": 2008,
    "name": "Alnatura BIO Black Bean-Cashew Burger",
    "brand": "Alnatura",
    "store": "Gurkerl",
@@ -14441,8 +16543,8 @@
    "img": "https://cdn.gurkerl.at/images/grocery/products/10835/10835-1783606803504.jpg",
    "producer": "Alnatura GmbH",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Alnatura",
+   "flag": "🇩🇪",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -14450,7 +16552,7 @@
    "slug": null
   },
   {
-   "id": 1954,
+   "id": 2028,
    "name": "Feel Food BIO Red Lentil Dal VEGAN",
    "brand": "feelfood",
    "store": "Gurkerl",
@@ -14471,7 +16573,7 @@
    "slug": null
   },
   {
-   "id": 1956,
+   "id": 2030,
    "name": "Zott Monte Mega XXL",
    "brand": "Zott",
    "store": "Billa",
@@ -14492,7 +16594,7 @@
    "slug": null
   },
   {
-   "id": 1957,
+   "id": 2031,
    "name": "Iglo Green Cuisine Spinat Stangerl",
    "brand": "iglo",
    "store": "Billa",
@@ -14513,7 +16615,7 @@
    "slug": null
   },
   {
-   "id": 1958,
+   "id": 2032,
    "name": "nöm PRO Himbeere Protein Topfencreme",
    "brand": "Nöm",
    "store": "Billa",
@@ -14534,7 +16636,7 @@
    "slug": null
   },
   {
-   "id": 1959,
+   "id": 2033,
    "name": "Ehrmann High Protein Vanille Pudding",
    "brand": "Ehrmann",
    "store": "Billa",
@@ -14555,7 +16657,7 @@
    "slug": null
   },
   {
-   "id": 1960,
+   "id": 2034,
    "name": "Ehrmann High Protein Schoko Pudding",
    "brand": "Ehrmann",
    "store": "Billa",
@@ -14576,7 +16678,7 @@
    "slug": null
   },
   {
-   "id": 1963,
+   "id": 2037,
    "name": "Danone Dany Sahne Schoko",
    "brand": "Danone",
    "store": "Billa",
@@ -14597,7 +16699,7 @@
    "slug": null
   },
   {
-   "id": 1964,
+   "id": 2038,
    "name": "Schärdinger Jogurella Kaffee Dessert",
    "brand": "Schärdinger",
    "store": "Billa",
@@ -14618,7 +16720,7 @@
    "slug": null
   },
   {
-   "id": 1965,
+   "id": 2039,
    "name": "Schärdinger Jogurella Vanille Dessert",
    "brand": "Schärdinger",
    "store": "Billa",
@@ -14639,7 +16741,7 @@
    "slug": null
   },
   {
-   "id": 1966,
+   "id": 2040,
    "name": "Landliebe Sahnepudding Bourbon Vanille",
    "brand": "Landliebe",
    "store": "Billa",
@@ -14660,7 +16762,7 @@
    "slug": null
   },
   {
-   "id": 1967,
+   "id": 2041,
    "name": "Darbo Fruchtikus Rote Früchte",
    "brand": "Darbo",
    "store": "Billa",
@@ -14681,7 +16783,7 @@
    "slug": null
   },
   {
-   "id": 1968,
+   "id": 2042,
    "name": "Darbo Fruchtikus Tropic",
    "brand": "Darbo",
    "store": "Billa",
@@ -14702,7 +16804,7 @@
    "slug": null
   },
   {
-   "id": 1969,
+   "id": 2043,
    "name": "Landliebe Griesspudding Zimt",
    "brand": "Landliebe",
    "store": "Billa",
@@ -14723,7 +16825,7 @@
    "slug": null
   },
   {
-   "id": 1970,
+   "id": 2044,
    "name": "Landliebe Griesspudding Natur",
    "brand": "Landliebe",
    "store": "Billa",
@@ -14744,7 +16846,7 @@
    "slug": null
   },
   {
-   "id": 1971,
+   "id": 2045,
    "name": "BILLA Tiramisu",
    "brand": "BILLA Immer Gut",
    "store": "Billa",
@@ -14765,7 +16867,7 @@
    "slug": null
   },
   {
-   "id": 1972,
+   "id": 2046,
    "name": "Iglo Green Cuisine Falafel",
    "brand": "iglo",
    "store": "Billa",
@@ -14786,7 +16888,7 @@
    "slug": null
   },
   {
-   "id": 1973,
+   "id": 2047,
    "name": "Dr. Oetker Götterspeise Himbeer Geschmack",
    "brand": "Dr. Oetker",
    "store": "Billa",
@@ -14807,7 +16909,7 @@
    "slug": null
   },
   {
-   "id": 1974,
+   "id": 2048,
    "name": "Dr. Oetker Götterspeise Waldmeister Geschmack",
    "brand": "Dr. Oetker",
    "store": "Billa",
@@ -14828,7 +16930,7 @@
    "slug": null
   },
   {
-   "id": 1975,
+   "id": 2049,
    "name": "Ehrmann High Protein Haselnuss Pudding",
    "brand": "Ehrmann",
    "store": "Billa",
@@ -14849,7 +16951,7 @@
    "slug": null
   },
   {
-   "id": 1976,
+   "id": 2050,
    "name": "BILLA Sahnepudding Vanille",
    "brand": "BILLA Immer Gut",
    "store": "Billa",
@@ -14870,7 +16972,7 @@
    "slug": null
   },
   {
-   "id": 1978,
+   "id": 2052,
    "name": "BILLA Nudelsalat mit Huhn Caesar",
    "brand": "BILLA Immer Gut",
    "store": "Billa",
@@ -14891,7 +16993,7 @@
    "slug": null
   },
   {
-   "id": 1979,
+   "id": 2053,
    "name": "BILLA Nudel Thunfisch Salat",
    "brand": "BILLA Immer Gut",
    "store": "Billa",
@@ -14912,7 +17014,7 @@
    "slug": null
   },
   {
-   "id": 1980,
+   "id": 2054,
    "name": "Andros Schoko-Mousse",
    "brand": "Andros",
    "store": "Billa",
@@ -14933,7 +17035,7 @@
    "slug": null
   },
   {
-   "id": 1981,
+   "id": 2055,
    "name": "Schärdinger Dessert Creme Vanille",
    "brand": "Schärdinger",
    "store": "Billa",
@@ -14954,7 +17056,7 @@
    "slug": null
   },
   {
-   "id": 1982,
+   "id": 2056,
    "name": "Galana Lavakuchen",
    "brand": "Galana",
    "store": "Billa",
@@ -14975,7 +17077,7 @@
    "slug": null
   },
   {
-   "id": 1983,
+   "id": 2057,
    "name": "Ehrmann High Protein Karamell Pudding",
    "brand": "Ehrmann",
    "store": "Billa",
@@ -14996,7 +17098,7 @@
    "slug": null
   },
   {
-   "id": 1985,
+   "id": 2059,
    "name": "Ehrmann High Protein Chocolate Mousse",
    "brand": "Ehrmann",
    "store": "Billa",
@@ -15017,7 +17119,7 @@
    "slug": null
   },
   {
-   "id": 1986,
+   "id": 2060,
    "name": "Toni Kaiser Wiener Kaiserschmarrn",
    "brand": "Toni Kaiser",
    "store": "Billa",
@@ -15038,7 +17140,7 @@
    "slug": null
   },
   {
-   "id": 1987,
+   "id": 2061,
    "name": "Clever Vanille Pudding mit Sahne",
    "brand": "Clever",
    "store": "Billa",
@@ -15059,7 +17161,7 @@
    "slug": null
   },
   {
-   "id": 1988,
+   "id": 2062,
    "name": "Bauernland Gemüselaibchen",
    "brand": "Bauernland",
    "store": "Billa",
@@ -15080,7 +17182,7 @@
    "slug": null
   },
   {
-   "id": 1989,
+   "id": 2063,
    "name": "Bauernland Käse-Karfiol Laibchen",
    "brand": "Bauernland",
    "store": "Billa",
@@ -15101,7 +17203,7 @@
    "slug": null
   },
   {
-   "id": 1990,
+   "id": 2064,
    "name": "Iglo Green Cuisine Broccoli Laibchen",
    "brand": "iglo",
    "store": "Billa",
@@ -15122,7 +17224,7 @@
    "slug": null
   },
   {
-   "id": 1991,
+   "id": 2065,
    "name": "Andros Milchreis",
    "brand": "Andros",
    "store": "Billa",
@@ -15143,7 +17245,7 @@
    "slug": null
   },
   {
-   "id": 1992,
+   "id": 2066,
    "name": "nöm PRO Stracciatella Protein Topfencreme",
    "brand": "Nöm",
    "store": "Billa",
@@ -15164,7 +17266,7 @@
    "slug": null
   },
   {
-   "id": 1993,
+   "id": 2067,
    "name": "Dr. Oetker High Protein Milchreis",
    "brand": "Dr. Oetker",
    "store": "Billa",
@@ -15185,7 +17287,7 @@
    "slug": null
   },
   {
-   "id": 1994,
+   "id": 2068,
    "name": "Stadtküche Spinat Knödl",
    "brand": "Stadtküche",
    "store": "Billa",
@@ -15206,7 +17308,7 @@
    "slug": null
   },
   {
-   "id": 1995,
+   "id": 2069,
    "name": "Stadtküche Kärntner Kasnudl",
    "brand": "Stadtküche",
    "store": "Billa",
@@ -15227,7 +17329,7 @@
    "slug": null
   },
   {
-   "id": 1996,
+   "id": 2070,
    "name": "Darbo Fruchtikus Mango-Marille",
    "brand": "Darbo",
    "store": "Billa",
@@ -15248,7 +17350,7 @@
    "slug": null
   },
   {
-   "id": 1997,
+   "id": 2071,
    "name": "BILLA Profiteroles",
    "brand": "BILLA Immer Gut",
    "store": "Billa",
@@ -15269,7 +17371,7 @@
    "slug": null
   },
   {
-   "id": 1998,
+   "id": 2072,
    "name": "Ehrmann Grand Dessert Choc Stracciatella",
    "brand": "Ehrmann",
    "store": "Billa",
@@ -15290,7 +17392,7 @@
    "slug": null
   },
   {
-   "id": 1999,
+   "id": 2073,
    "name": "Ehrmann High Protein Mousse Lemon",
    "brand": "Ehrmann",
    "store": "Billa",
@@ -15311,7 +17413,7 @@
    "slug": null
   },
   {
-   "id": 2000,
+   "id": 2074,
    "name": "Alpro Soja Pudding Schoko",
    "brand": "Alpro",
    "store": "Billa",
@@ -15332,7 +17434,7 @@
    "slug": null
   },
   {
-   "id": 2001,
+   "id": 2075,
    "name": "Alpro Soja Pudding Vanille",
    "brand": "Alpro",
    "store": "Billa",
@@ -15353,7 +17455,7 @@
    "slug": null
   },
   {
-   "id": 2002,
+   "id": 2076,
    "name": "Stadtküche Falafel Klassisch",
    "brand": "Stadtküche",
    "store": "Billa",
@@ -15374,7 +17476,7 @@
    "slug": null
   },
   {
-   "id": 2003,
+   "id": 2077,
    "name": "Iglo Green Cuisine Zucchini-Käselaibchen",
    "brand": "iglo",
    "store": "Billa",
@@ -15395,7 +17497,7 @@
    "slug": null
   },
   {
-   "id": 2004,
+   "id": 2078,
    "name": "nöm PRO Schoko-Banane Protein Topfencreme",
    "brand": "Nöm",
    "store": "Billa",
@@ -15416,7 +17518,7 @@
    "slug": null
   },
   {
-   "id": 2005,
+   "id": 2079,
    "name": "nöm PRO Blueberry Cheesecake Protein Topfencreme",
    "brand": "Nöm",
    "store": "Billa",
@@ -15437,7 +17539,7 @@
    "slug": null
   },
   {
-   "id": 2006,
+   "id": 2080,
    "name": "BILLA Bali Mango Chia Pudding",
    "brand": "BILLA Immer Gut",
    "store": "Billa",
@@ -15458,7 +17560,7 @@
    "slug": null
   },
   {
-   "id": 2007,
+   "id": 2081,
    "name": "Alpro Soja Dessert Karamel",
    "brand": "Alpro",
    "store": "Billa",
@@ -15479,7 +17581,7 @@
    "slug": null
   },
   {
-   "id": 2008,
+   "id": 2082,
    "name": "Frosta Rotes Curry",
    "brand": "Frosta",
    "store": "Billa",
@@ -15500,7 +17602,7 @@
    "slug": null
   },
   {
-   "id": 2009,
+   "id": 2083,
    "name": "BILLA Protein Topfencreme Vanille Schoko",
    "brand": "BILLA Immer Gut",
    "store": "Billa",
@@ -15521,7 +17623,7 @@
    "slug": null
   },
   {
-   "id": 2011,
+   "id": 2085,
    "name": "Schärdinger Grieß Pudding Natur",
    "brand": "Schärdinger",
    "store": "Billa",
@@ -15542,7 +17644,7 @@
    "slug": null
   },
   {
-   "id": 2012,
+   "id": 2086,
    "name": "BILLA Belugalinsen Salat",
    "brand": "BILLA Immer Gut",
    "store": "Billa",
@@ -15563,7 +17665,7 @@
    "slug": null
   },
   {
-   "id": 2013,
+   "id": 2087,
    "name": "Stadtküche Bio Laibchen Spinat & Käse",
    "brand": "Stadtküche",
    "store": "Billa",
@@ -15584,7 +17686,7 @@
    "slug": null
   },
   {
-   "id": 2014,
+   "id": 2088,
    "name": "Stadtküche Gemüselaibchen",
    "brand": "Stadtküche",
    "store": "Billa",
@@ -15605,7 +17707,7 @@
    "slug": null
   },
   {
-   "id": 2015,
+   "id": 2089,
    "name": "BILLA Protein Mousse Schoko",
    "brand": "BILLA Immer Gut",
    "store": "Billa",
@@ -15626,7 +17728,7 @@
    "slug": null
   },
   {
-   "id": 2016,
+   "id": 2090,
    "name": "BILLA Palatschinken",
    "brand": "BILLA Immer Gut",
    "store": "Billa",
@@ -15647,7 +17749,7 @@
    "slug": null
   },
   {
-   "id": 2017,
+   "id": 2091,
    "name": "Dr. Oetker Paula Vanille Pudding mit Schokoflecken",
    "brand": "Dr. Oetker",
    "store": "Billa",
@@ -15668,7 +17770,7 @@
    "slug": null
   },
   {
-   "id": 2018,
+   "id": 2092,
    "name": "Kidsworld Dessert",
    "brand": "Kidsworld",
    "store": "Billa",
@@ -15689,7 +17791,7 @@
    "slug": null
   },
   {
-   "id": 2019,
+   "id": 2093,
    "name": "Bonne Maman Creme Brulee",
    "brand": "Bonne Maman",
    "store": "Billa",
@@ -15710,7 +17812,7 @@
    "slug": null
   },
   {
-   "id": 2020,
+   "id": 2094,
    "name": "Vegavita Tiramisu",
    "brand": "Vegavita",
    "store": "Billa",
@@ -15731,7 +17833,7 @@
    "slug": null
   },
   {
-   "id": 2021,
+   "id": 2095,
    "name": "Alpro Sojadessert Vanille",
    "brand": "Alpro",
    "store": "Billa",
@@ -15752,7 +17854,7 @@
    "slug": null
   },
   {
-   "id": 2022,
+   "id": 2096,
    "name": "Dr. Oetker Grütze Apfel-Mango-Orange",
    "brand": "Dr. Oetker",
    "store": "Billa",
@@ -15773,7 +17875,7 @@
    "slug": null
   },
   {
-   "id": 2023,
+   "id": 2097,
    "name": "Harvest Moon Chocolate & salted Caramel",
    "brand": "Harvest",
    "store": "Billa",
@@ -15794,7 +17896,7 @@
    "slug": null
   },
   {
-   "id": 2024,
+   "id": 2098,
    "name": "BILLA Bali Brunch Mango Sticky Rice",
    "brand": "BILLA Immer Gut",
    "store": "Billa",
@@ -15815,7 +17917,7 @@
    "slug": null
   },
   {
-   "id": 2025,
+   "id": 2099,
    "name": "Schärdinger Jogurella Stracciatella",
    "brand": "Schärdinger",
    "store": "Billa",
@@ -15836,7 +17938,7 @@
    "slug": null
   },
   {
-   "id": 2026,
+   "id": 2100,
    "name": "Alpro Kokos Salted Caramel",
    "brand": "Alpro",
    "store": "Billa",
@@ -15857,7 +17959,7 @@
    "slug": null
   },
   {
-   "id": 2027,
+   "id": 2101,
    "name": "Alpro Kokos Stracciatella",
    "brand": "Alpro",
    "store": "Billa",
@@ -15878,7 +17980,7 @@
    "slug": null
   },
   {
-   "id": 2028,
+   "id": 2102,
    "name": "nöm PRO Kokos Schoko Protein Topfencreme",
    "brand": "Nöm",
    "store": "Billa",
@@ -15899,7 +18001,7 @@
    "slug": null
   },
   {
-   "id": 2030,
+   "id": 2104,
    "name": "Simply Good Berry Chia Pod Tonkabohne Waldfrucht",
    "brand": "Simply Good",
    "store": "Billa",
@@ -15920,7 +18022,7 @@
    "slug": null
   },
   {
-   "id": 2031,
+   "id": 2105,
    "name": "Zott Monte Schoko",
    "brand": "Zott",
    "store": "Billa",
@@ -15941,7 +18043,7 @@
    "slug": null
   },
   {
-   "id": 2032,
+   "id": 2106,
    "name": "Zott Monte Maxi Schoko",
    "brand": "Zott",
    "store": "Billa",
@@ -15962,7 +18064,7 @@
    "slug": null
   },
   {
-   "id": 2033,
+   "id": 2107,
    "name": "Ehrmann Grand Dessert Schoko",
    "brand": "Ehrmann",
    "store": "Billa",
@@ -15983,7 +18085,7 @@
    "slug": null
   },
   {
-   "id": 2034,
+   "id": 2108,
    "name": "Ehrmann Grand Dessert Double Coffee",
    "brand": "Ehrmann",
    "store": "Billa",
@@ -16004,7 +18106,7 @@
    "slug": null
   },
   {
-   "id": 2035,
+   "id": 2109,
    "name": "Ehrmann Grand Dessert Double Choc",
    "brand": "Ehrmann",
    "store": "Billa",
@@ -16025,7 +18127,7 @@
    "slug": null
   },
   {
-   "id": 2036,
+   "id": 2110,
    "name": "Zott Monte",
    "brand": "Zott",
    "store": "Billa",
@@ -16046,7 +18148,7 @@
    "slug": null
   },
   {
-   "id": 2042,
+   "id": 2116,
    "name": "Chili Sin Carne",
    "brand": "Billa",
    "store": "unbekannt (OFF)",
@@ -16067,7 +18169,7 @@
    "slug": "rewe-genusskueche"
   },
   {
-   "id": 2057,
+   "id": 2131,
    "name": "Haschee Hörnchen mit Kräutern",
    "brand": "Billa",
    "store": "unbekannt (OFF)",
@@ -16088,7 +18190,7 @@
    "slug": "rewe-genusskueche"
   },
   {
-   "id": 2062,
+   "id": 2136,
    "name": "Rindsgulasch mit Nockerl",
    "brand": "iglo",
    "store": "Billa",
@@ -16109,7 +18211,7 @@
    "slug": "landena"
   },
   {
-   "id": 2087,
+   "id": 2161,
    "name": "High Protein Pudding Grieß",
    "brand": "Dr. Oetker",
    "store": "Lidl",
@@ -16130,7 +18232,7 @@
    "slug": null
   },
   {
-   "id": 2089,
+   "id": 2163,
    "name": "Grießpudding High-Protein - Pur/Classic",
    "brand": "Milsani",
    "store": "unbekannt (OFF)",
@@ -16151,7 +18253,7 @@
    "slug": null
   },
   {
-   "id": 2091,
+   "id": 2165,
    "name": "high Protein Pudding",
    "brand": "LIDL",
    "store": "unbekannt (OFF)",
@@ -16172,7 +18274,7 @@
    "slug": null
   },
   {
-   "id": 2097,
+   "id": 2171,
    "name": "High Protein Grießpudding, Pur",
    "brand": "Lidl",
    "store": "Lidl",
@@ -16193,7 +18295,7 @@
    "slug": null
   },
   {
-   "id": 2109,
+   "id": 2183,
    "name": "Pilzmaultaschen",
    "brand": "SchwabenKrone",
    "store": "Spar",
@@ -16214,7 +18316,7 @@
    "slug": null
   },
   {
-   "id": 2114,
+   "id": 2188,
    "name": "Maultaschen geschnitten",
    "brand": "Bürger",
    "store": "unbekannt (OFF)",
@@ -16235,7 +18337,7 @@
    "slug": null
   },
   {
-   "id": 2130,
+   "id": 2204,
    "name": "High Protein Pudding Haselnuss Geschmack",
    "brand": "LIDL",
    "store": "Lidl",
@@ -16256,7 +18358,7 @@
    "slug": null
   },
   {
-   "id": 2141,
+   "id": 2215,
    "name": "Pudding-Genuss Vanille",
    "brand": "SalzburgMilch",
    "store": "unbekannt (OFF)",
