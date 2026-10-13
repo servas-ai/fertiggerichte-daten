@@ -295,10 +295,11 @@
   "slug": "primana",
   "name": "Primana",
   "category": "Eigenmarke",
-  "file": null,
-  "source_url": null,
+  "file": "logos/primana.png",
+  "source_url": "hofer.at Produktfoto Primana Frühstücksfleisch (Aldi CDN dm.emea.cms.aldi.cx, Ausschnitt)",
   "brands": [
-   "Primana"
+   "Primana",
+   "PRIMANA"
   ]
  },
  {
@@ -313,11 +314,12 @@
  },
  {
   "slug": "green-garden",
-  "name": "Green Garden",
+  "name": "Asia Green Garden",
   "category": "Eigenmarke",
-  "file": null,
-  "source_url": null,
+  "file": "logos/asia-green-garden.png",
+  "source_url": "hofer.at Produktfoto Asia Green Garden Pilztopf (Aldi CDN dm.emea.cms.aldi.cx, Ausschnitt)",
   "brands": [
+   "Asia Green Garden",
    "Green Garden"
   ]
  },
@@ -1551,6 +1553,18 @@
    "Zátiší",
    "Zátiší Group",
    "Zátiší Catering Group"
+  ]
+ },
+ {
+  "slug": "lotao",
+  "name": "Lotao",
+  "category": "Bio",
+  "file": "logos/lotao.png",
+  "source_url": "https://www.lotao.com/cdn/shop/files/Lotao_Logo_2021_sw_pfade_neg.jpg?v=1654779768",
+  "brands": [
+   "Lotao",
+   "LOTAO",
+   "Lotao Green"
   ]
  }
 ]

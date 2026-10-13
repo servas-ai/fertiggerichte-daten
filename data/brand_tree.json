@@ -14,7 +14,7 @@
   "unknown": "kein belastbarer Beleg gefunden"
  },
  "coverage": {
-  "products_with_producer": 647,
+  "products_with_producer": 653,
   "confirmed_code": 134,
   "retailer_only": 109
  },
@@ -43,7 +43,7 @@
         54,
         55,
         56,
-        2060
+        2085
        ]
       },
       {
@@ -64,8 +64,8 @@
         "Billa"
        ],
        "ids": [
-        2062,
-        2063
+        2087,
+        2088
        ]
       }
      ]
@@ -87,16 +87,16 @@
         "Billa"
        ],
        "ids": [
-        2033,
-        2034,
-        2049,
-        2057,
+        2058,
         2059,
-        2072,
-        2073,
-        2107,
-        2108,
-        2109
+        2074,
+        2082,
+        2084,
+        2097,
+        2098,
+        2132,
+        2133,
+        2134
        ]
       }
      ]
@@ -125,8 +125,8 @@
         "unbekannt (OFF)"
        ],
        "ids": [
-        2165,
-        2204
+        2190,
+        2229
        ]
       },
       {
@@ -144,7 +144,7 @@
         "Lidl"
        ],
        "ids": [
-        2161
+        2186
        ]
       },
       {
@@ -153,7 +153,7 @@
         "unbekannt (OFF)"
        ],
        "ids": [
-        2163
+        2188
        ]
       },
       {
@@ -162,7 +162,7 @@
         "Lidl"
        ],
        "ids": [
-        2171
+        2196
        ]
       },
       {
@@ -171,7 +171,7 @@
         "Spar"
        ],
        "ids": [
-        2183
+        2208
        ]
       },
       {
@@ -180,7 +180,34 @@
         "unbekannt (OFF)"
        ],
        "ids": [
-        2188
+        2213
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Mochi Production GmbH",
+     "role": "Hersteller",
+     "logo": null,
+     "codes": [],
+     "plants": [],
+     "confidence": "label-address",
+     "stores": [
+      "Gurkerl"
+     ],
+     "brands": [
+      {
+       "brand": "Mochi",
+       "stores": [
+        "Gurkerl"
+       ],
+       "ids": [
+        1540,
+        1541,
+        1542,
+        1606,
+        1607,
+        1608
        ]
       }
      ]
@@ -202,12 +229,12 @@
         "Gurkerl"
        ],
        "ids": [
-        1661,
-        1662,
-        1679,
-        1681,
-        1685,
-        1687
+        1686,
+        1687,
+        1704,
+        1706,
+        1710,
+        1712
        ]
       }
      ]
@@ -229,11 +256,11 @@
         "Gurkerl"
        ],
        "ids": [
-        1879,
-        1886,
-        1986,
-        1987,
-        1988
+        1904,
+        1911,
+        2011,
+        2012,
+        2013
        ]
       },
       {
@@ -242,7 +269,7 @@
         "Gurkerl"
        ],
        "ids": [
-        1980
+        2005
        ]
       }
      ]
@@ -266,12 +293,12 @@
         "Gurkerl"
        ],
        "ids": [
-        1899,
-        2038,
-        2039,
-        2055,
-        2085,
-        2099
+        1924,
+        2063,
+        2064,
+        2080,
+        2110,
+        2124
        ]
       }
      ]
@@ -294,10 +321,10 @@
        ],
        "ids": [
         1478,
-        2068,
-        2069,
-        2087,
-        2088
+        2093,
+        2094,
+        2112,
+        2113
        ]
       }
      ]
@@ -319,11 +346,11 @@
         "Billa"
        ],
        "ids": [
-        2032,
-        2066,
-        2078,
-        2079,
-        2102
+        2057,
+        2091,
+        2103,
+        2104,
+        2127
        ]
       }
      ]
@@ -345,11 +372,11 @@
         "Billa"
        ],
        "ids": [
-        2047,
-        2048,
-        2067,
-        2091,
-        2096
+        2072,
+        2073,
+        2092,
+        2116,
+        2121
        ]
       }
      ]
@@ -371,11 +398,11 @@
         "Billa"
        ],
        "ids": [
-        2074,
-        2075,
-        2081,
-        2095,
-        2101
+        2099,
+        2100,
+        2106,
+        2120,
+        2126
        ]
       }
      ]
@@ -425,7 +452,7 @@
         1586,
         1588,
         1590,
-        1868
+        1893
        ]
       }
      ]
@@ -447,10 +474,10 @@
         "MPreis"
        ],
        "ids": [
-        1760,
-        1761,
-        1762,
-        1763
+        1785,
+        1786,
+        1787,
+        1788
        ]
       }
      ]
@@ -472,10 +499,10 @@
         "Gurkerl"
        ],
        "ids": [
-        1981,
-        1982,
-        1984,
-        1989
+        2006,
+        2007,
+        2009,
+        2014
        ]
       }
      ]
@@ -606,32 +633,8 @@
        ],
        "ids": [
         1532,
-        1634,
-        1934
-       ]
-      }
-     ]
-    },
-    {
-     "name": "Mochi Production GmbH",
-     "role": "Hersteller",
-     "logo": null,
-     "codes": [],
-     "plants": [],
-     "confidence": "label-address",
-     "stores": [
-      "Gurkerl"
-     ],
-     "brands": [
-      {
-       "brand": "Mochi",
-       "stores": [
-        "Gurkerl"
-       ],
-       "ids": [
-        1540,
-        1541,
-        1542
+        1659,
+        1959
        ]
       }
      ]
@@ -661,30 +664,6 @@
      ]
     },
     {
-     "name": "Hofmann Menü-Manufaktur GmbH",
-     "role": "Hersteller",
-     "logo": null,
-     "codes": [],
-     "plants": [],
-     "confidence": "label-address",
-     "stores": [
-      "Gurkerl"
-     ],
-     "brands": [
-      {
-       "brand": "HOFMANNs",
-       "stores": [
-        "Gurkerl"
-       ],
-       "ids": [
-        1640,
-        1689,
-        1965
-       ]
-      }
-     ]
-    },
-    {
      "name": "Kreyenhop & Kluge GmbH & Co. KG",
      "role": "Hersteller",
      "logo": null,
@@ -701,9 +680,9 @@
         "Gurkerl"
        ],
        "ids": [
-        1671,
-        1682,
-        1683
+        1696,
+        1707,
+        1708
        ]
       }
      ]
@@ -725,9 +704,9 @@
         "Gurkerl"
        ],
        "ids": [
-        1903,
-        1904,
-        1905
+        1928,
+        1929,
+        1930
        ]
       }
      ]
@@ -750,8 +729,8 @@
         "Billa"
        ],
        "ids": [
-        2054,
-        2065
+        2079,
+        2090
        ]
       },
       {
@@ -760,7 +739,7 @@
         "Gurkerl"
        ],
        "ids": [
-        2005
+        2030
        ]
       }
      ]
@@ -782,9 +761,9 @@
         "Billa"
        ],
        "ids": [
-        2030,
-        2105,
-        2106
+        2055,
+        2130,
+        2131
        ]
       }
      ]
@@ -806,9 +785,9 @@
         "Billa"
        ],
        "ids": [
-        2040,
-        2043,
-        2044
+        2065,
+        2068,
+        2069
        ]
       }
      ]
@@ -830,9 +809,9 @@
         "Billa"
        ],
        "ids": [
-        2041,
-        2042,
-        2070
+        2066,
+        2067,
+        2095
        ]
       }
      ]
@@ -1494,7 +1473,7 @@
         "Gurkerl"
        ],
        "ids": [
-        1616
+        1641
        ]
       }
      ]
@@ -1516,7 +1495,7 @@
         "Gurkerl"
        ],
        "ids": [
-        1688
+        1713
        ]
       }
      ]
@@ -1538,7 +1517,7 @@
         "Gurkerl"
        ],
        "ids": [
-        1867
+        1892
        ]
       }
      ]
@@ -1560,7 +1539,7 @@
         "Gurkerl"
        ],
        "ids": [
-        1953
+        1978
        ]
       }
      ]
@@ -1582,7 +1561,7 @@
         "Gurkerl"
        ],
        "ids": [
-        1960
+        1985
        ]
       }
      ]
@@ -1604,7 +1583,7 @@
         "Gurkerl"
        ],
        "ids": [
-        1990
+        2015
        ]
       }
      ]
@@ -1626,7 +1605,7 @@
         "Gurkerl"
        ],
        "ids": [
-        2028
+        2053
        ]
       }
      ]
@@ -1648,7 +1627,7 @@
         "Billa"
        ],
        "ids": [
-        2037
+        2062
        ]
       }
      ]
@@ -1670,7 +1649,7 @@
         "Billa"
        ],
        "ids": [
-        2056
+        2081
        ]
       }
      ]
@@ -1692,7 +1671,7 @@
         "Billa"
        ],
        "ids": [
-        2076
+        2101
        ]
       }
      ]
@@ -1714,7 +1693,7 @@
         "Billa"
        ],
        "ids": [
-        2092
+        2117
        ]
       }
      ]
@@ -1736,7 +1715,7 @@
         "Billa"
        ],
        "ids": [
-        2093
+        2118
        ]
       }
      ]
@@ -1758,7 +1737,7 @@
         "Billa"
        ],
        "ids": [
-        2097
+        2122
        ]
       }
      ]
@@ -1780,7 +1759,7 @@
         "Billa"
        ],
        "ids": [
-        2100
+        2125
        ]
       }
      ]
@@ -1802,7 +1781,7 @@
         "Billa"
        ],
        "ids": [
-        2110
+        2135
        ]
       }
      ]
@@ -1893,17 +1872,17 @@
         1294,
         1295,
         1296,
-        2045,
-        2050,
-        2052,
-        2053,
-        2071,
-        2080,
-        2083,
-        2086,
-        2089,
-        2090,
-        2098
+        2070,
+        2075,
+        2077,
+        2078,
+        2096,
+        2105,
+        2108,
+        2111,
+        2114,
+        2115,
+        2123
        ]
       },
       {
@@ -1976,7 +1955,7 @@
         1303,
         1312,
         1315,
-        2061
+        2086
        ]
       },
       {
@@ -1994,7 +1973,7 @@
         49,
         618,
         620,
-        2104
+        2129
        ]
       },
       {
@@ -2010,7 +1989,7 @@
         680,
         681,
         1350,
-        2094
+        2119
        ]
       },
       {
@@ -2061,7 +2040,7 @@
         "unbekannt (OFF)"
        ],
        "ids": [
-        2215
+        2240
        ]
       }
      ]
@@ -2138,8 +2117,8 @@
         "unbekannt (OFF)"
        ],
        "ids": [
-        2116,
-        2131
+        2141,
+        2156
        ]
       }
      ]
@@ -2249,7 +2228,7 @@
         1042,
         1047,
         1050,
-        1918
+        1943
        ]
       }
      ]
@@ -2444,9 +2423,9 @@
         "MPreis"
        ],
        "ids": [
-        1736,
-        1737,
-        1738
+        1761,
+        1762,
+        1763
        ]
       }
      ]
@@ -2468,7 +2447,7 @@
         "Gurkerl"
        ],
        "ids": [
-        1873
+        1898
        ]
       }
      ]
@@ -2538,18 +2517,18 @@
         1484,
         1486,
         1487,
-        1725,
-        1726,
-        1727,
-        1728,
-        1729,
-        1730,
-        1731,
-        1733,
-        2031,
-        2046,
-        2064,
-        2077
+        1750,
+        1751,
+        1752,
+        1753,
+        1754,
+        1755,
+        1756,
+        1758,
+        2056,
+        2071,
+        2089,
+        2102
        ]
       }
      ]
@@ -2621,9 +2600,9 @@
         "MPreis"
        ],
        "ids": [
-        1739,
-        1740,
-        1741
+        1764,
+        1765,
+        1766
        ]
       }
      ]
@@ -2716,7 +2695,7 @@
         1488,
         1489,
         1490,
-        2082
+        2107
        ]
       }
      ]
@@ -2738,11 +2717,11 @@
         "MPreis"
        ],
        "ids": [
-        1717,
-        1719,
-        1720,
-        1721,
-        1724
+        1742,
+        1744,
+        1745,
+        1746,
+        1749
        ]
       }
      ]
@@ -2764,9 +2743,9 @@
         "Gurkerl"
        ],
        "ids": [
-        1615,
-        1625,
-        1673
+        1640,
+        1650,
+        1698
        ]
       }
      ]
@@ -2830,14 +2809,14 @@
         "MPreis"
        ],
        "ids": [
-        1750,
-        1751,
-        1752,
-        1753,
-        1754,
-        1755,
-        1756,
-        1757
+        1775,
+        1776,
+        1777,
+        1778,
+        1779,
+        1780,
+        1781,
+        1782
        ]
       }
      ]
@@ -2940,7 +2919,7 @@
         "Billa"
        ],
        "ids": [
-        2136
+        2161
        ]
       }
      ]
@@ -2975,13 +2954,13 @@
         915,
         1575,
         1576,
-        1648,
-        1649,
-        1652,
-        1872,
-        1875,
-        1885,
-        2008
+        1673,
+        1674,
+        1677,
+        1897,
+        1900,
+        1910,
+        2033
        ]
       }
      ]
@@ -3003,10 +2982,10 @@
         "MPreis"
        ],
        "ids": [
-        1697,
-        1698,
-        1699,
-        1700
+        1722,
+        1723,
+        1724,
+        1725
        ]
       }
      ]
@@ -3069,10 +3048,10 @@
         "MPreis"
        ],
        "ids": [
-        1712,
-        1713,
-        1714,
-        1715
+        1737,
+        1738,
+        1739,
+        1740
        ]
       }
      ]
@@ -3139,12 +3118,12 @@
         "MPreis"
        ],
        "ids": [
-        1764,
-        1765,
-        1766,
-        1767,
-        1768,
-        1769
+        1789,
+        1790,
+        1791,
+        1792,
+        1793,
+        1794
        ]
       }
      ]
@@ -3196,12 +3175,12 @@
         "MPreis"
        ],
        "ids": [
-        1742,
-        1743,
-        1744,
-        1745,
-        1746,
-        1747
+        1767,
+        1768,
+        1769,
+        1770,
+        1771,
+        1772
        ]
       }
      ]
@@ -3223,13 +3202,47 @@
         "MPreis"
        ],
        "ids": [
-        1735
+        1760
        ]
       }
      ]
     }
    ],
    "n": 7
+  },
+  {
+   "konzern": "Compass Group plc (Hofmann-Menü-Gruppe)",
+   "flag": "🇬🇧",
+   "producers": [
+    {
+     "name": "Hofmann Menü-Manufaktur GmbH",
+     "role": "Hersteller",
+     "logo": null,
+     "codes": [],
+     "plants": [],
+     "confidence": "label-address",
+     "stores": [
+      "Gurkerl"
+     ],
+     "brands": [
+      {
+       "brand": "HOFMANNs",
+       "stores": [
+        "Gurkerl"
+       ],
+       "ids": [
+        1612,
+        1613,
+        1615,
+        1665,
+        1714,
+        1990
+       ]
+      }
+     ]
+    }
+   ],
+   "n": 6
   },
   {
    "konzern": "Mars Inc.",
@@ -3320,11 +3333,11 @@
         "MPreis"
        ],
        "ids": [
-        1706,
-        1707,
-        1708,
-        1709,
-        1710
+        1731,
+        1732,
+        1733,
+        1734,
+        1735
        ]
       }
      ]
@@ -3502,9 +3515,9 @@
         "MPreis"
        ],
        "ids": [
-        1701,
-        1702,
-        1703
+        1726,
+        1727,
+        1728
        ]
       }
      ]
@@ -3559,7 +3572,7 @@
         "MPreis"
        ],
        "ids": [
-        1748
+        1773
        ]
       }
      ]
@@ -3610,7 +3623,7 @@
         "MPreis"
        ],
        "ids": [
-        1749
+        1774
        ]
       }
      ]
@@ -3639,8 +3652,8 @@
         "MPreis"
        ],
        "ids": [
-        1704,
-        1705
+        1729,
+        1730
        ]
       }
      ]
@@ -3698,7 +3711,7 @@
         "MPreis"
        ],
        "ids": [
-        1696
+        1721
        ]
       }
      ]
@@ -3727,7 +3740,7 @@
         "MPreis"
        ],
        "ids": [
-        1711
+        1736
        ]
       }
      ]
@@ -3756,7 +3769,7 @@
         "MPreis"
        ],
        "ids": [
-        1759
+        1784
        ]
       }
      ]
@@ -3795,7 +3808,7 @@
     107,
     561,
     835,
-    2136
+    2161
    ],
    "cheapest": 561,
    "price_spread_pct": 133,
@@ -3954,9 +3967,9 @@
    "ids": [
     26,
     1474,
-    1730
+    1755
    ],
-   "cheapest": 1730,
+   "cheapest": 1755,
    "price_spread_pct": 49,
    "confidence": "label-address"
   },
@@ -3983,7 +3996,7 @@
    "ids": [
     434,
     882,
-    1728
+    1753
    ],
    "cheapest": 434,
    "price_spread_pct": 49,
@@ -4031,9 +4044,9 @@
    ],
    "ids": [
     1327,
-    1731
+    1756
    ],
-   "cheapest": 1731,
+   "cheapest": 1756,
    "price_spread_pct": 9,
    "confidence": "label-address"
   },
@@ -4106,7 +4119,7 @@
    ],
    "ids": [
     968,
-    1918
+    1943
    ],
    "cheapest": 968,
    "price_spread_pct": 3,
@@ -4130,9 +4143,9 @@
    ],
    "ids": [
     25,
-    1725
+    1750
    ],
-   "cheapest": 1725,
+   "cheapest": 1750,
    "price_spread_pct": 2,
    "confidence": "label-address"
   },
@@ -4154,7 +4167,7 @@
    ],
    "ids": [
     435,
-    1729
+    1754
    ],
    "cheapest": 435,
    "price_spread_pct": 0,
@@ -4398,8 +4411,8 @@
   {
    "dishKey": "linseneintopf",
    "dish": "Linseneintopf",
-   "n": 18,
-   "brands": 15,
+   "n": 19,
+   "brands": 16,
    "stores": [
     "Billa",
     "FitTaste",
@@ -4611,8 +4624,8 @@
   {
    "dishKey": "faschierter-braten",
    "dish": "Faschierter Braten",
-   "n": 8,
-   "brands": 6,
+   "n": 9,
+   "brands": 7,
    "stores": [
     "Billa",
     "Fit to Go",
@@ -4623,7 +4636,7 @@
     "BILLA AG",
     "Fit2go GmbH"
    ],
-   "unknown_share": 75,
+   "unknown_share": 78,
    "p100g_min": 0.82,
    "p100g_max": 2.5
   },
@@ -14137,7 +14150,133 @@
    "slug": null
   },
   {
+   "id": 1606,
+   "name": "Mochi Spicy Chicken Ramen - Kit",
+   "brand": "Mochi",
+   "store": "Gurkerl",
+   "dishKey": null,
+   "dish": null,
+   "price": 11.49,
+   "p100g": 1.88,
+   "pPor": 7.53,
+   "img": "https://cdn.gurkerl.at/images/grocery/products/28449/28449-1776239395745.jpg",
+   "producer": "Mochi Production GmbH",
+   "role": "Hersteller",
+   "konzern": "Unabhängig / unbekannt",
+   "flag": "🏳️",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.gurkerl.at/28449-mochi-spicy-chicken-ramen-kit",
+   "slug": null
+  },
+  {
+   "id": 1607,
+   "name": "Mochi Tonkotsu Ramen - Kit",
+   "brand": "Mochi",
+   "store": "Gurkerl",
+   "dishKey": null,
+   "dish": null,
+   "price": 11.49,
+   "p100g": 2.25,
+   "pPor": 9.01,
+   "img": "https://cdn.gurkerl.at/images/grocery/products/28450/28450-1776239370489.jpg",
+   "producer": "Mochi Production GmbH",
+   "role": "Hersteller",
+   "konzern": "Unabhängig / unbekannt",
+   "flag": "🏳️",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.gurkerl.at/28450-mochi-tonkotsu-ramen-kit",
+   "slug": null
+  },
+  {
+   "id": 1608,
+   "name": "Mochi Mushroom Miso Ramen - Kit VEGAN",
+   "brand": "Mochi",
+   "store": "Gurkerl",
+   "dishKey": null,
+   "dish": null,
+   "price": 13.49,
+   "p100g": 2.25,
+   "pPor": 8.99,
+   "img": "https://cdn.gurkerl.at/images/grocery/products/28451/28451-1776239382598.jpg",
+   "producer": "Mochi Production GmbH",
+   "role": "Hersteller",
+   "konzern": "Unabhängig / unbekannt",
+   "flag": "🏳️",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.gurkerl.at/28451-mochi-mushroom-miso-ramen-kit-vegan",
+   "slug": null
+  },
+  {
+   "id": 1612,
+   "name": "HOFMANNs Oma's Fleischpflanzerl (tiefgekühlt)",
+   "brand": "HOFMANNs",
+   "store": "Gurkerl",
+   "dishKey": null,
+   "dish": null,
+   "price": 10.19,
+   "p100g": 1.76,
+   "pPor": 10.19,
+   "img": "https://cdn.gurkerl.at/images/grocery/products/29506/29506-1674050813244.jpg",
+   "producer": "Hofmann Menü-Manufaktur GmbH",
+   "role": "Hersteller",
+   "konzern": "Compass Group plc (Hofmann-Menü-Gruppe)",
+   "flag": "🇬🇧",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.gurkerl.at/29506-hofmanns-oma-s-fleischpflanzerl-tiefgekuehlt",
+   "slug": null
+  },
+  {
+   "id": 1613,
+   "name": "HOFMANNs Asia-Erdnuss-Nudeln (tiefgekühlt)",
+   "brand": "HOFMANNs",
+   "store": "Gurkerl",
+   "dishKey": null,
+   "dish": null,
+   "price": 10.19,
+   "p100g": 1.79,
+   "pPor": 3.58,
+   "img": "https://cdn.gurkerl.at/images/grocery/products/29505/29505-1674049804263.jpg",
+   "producer": "Hofmann Menü-Manufaktur GmbH",
+   "role": "Hersteller",
+   "konzern": "Compass Group plc (Hofmann-Menü-Gruppe)",
+   "flag": "🇬🇧",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.gurkerl.at/29505-hofmanns-asia-erdnuss-nudeln-tiefgekuehlt",
+   "slug": null
+  },
+  {
    "id": 1615,
+   "name": "HOFMANNs Kaiserschmarren (tiefgekühlt)",
+   "brand": "HOFMANNs",
+   "store": "Gurkerl",
+   "dishKey": null,
+   "dish": null,
+   "price": 10.29,
+   "p100g": 2.14,
+   "pPor": 10.29,
+   "img": "https://cdn.gurkerl.at/images/grocery/products/29504/29504-1674046182947.jpg",
+   "producer": "Hofmann Menü-Manufaktur GmbH",
+   "role": "Hersteller",
+   "konzern": "Compass Group plc (Hofmann-Menü-Gruppe)",
+   "flag": "🇬🇧",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.gurkerl.at/29504-hofmanns-kaiserschmarren-tiefgekuehlt",
+   "slug": null
+  },
+  {
+   "id": 1640,
    "name": "Frosta Rustikale Hendlpfanne mit Bratkartoffeln (tiefgekühlt)",
    "brand": "Frosta",
    "store": "Gurkerl",
@@ -14158,7 +14297,7 @@
    "slug": null
   },
   {
-   "id": 1616,
+   "id": 1641,
    "name": "Elsässer Quiche Lorraine",
    "brand": "Elsässer",
    "store": "Gurkerl",
@@ -14179,7 +14318,7 @@
    "slug": null
   },
   {
-   "id": 1625,
+   "id": 1650,
    "name": "Frosta Wokpfanne Bami Goreng (tiefgekühlt)",
    "brand": "Frosta",
    "store": "Gurkerl",
@@ -14200,7 +14339,7 @@
    "slug": null
   },
   {
-   "id": 1634,
+   "id": 1659,
    "name": "Wiener Virtshaus Gulasch mit Serviettenknödel VEGAN",
    "brand": "Wiener Virtshaus",
    "store": "Gurkerl",
@@ -14221,7 +14360,7 @@
    "slug": null
   },
   {
-   "id": 1640,
+   "id": 1665,
    "name": "HOFMANNs Rindsgulasch (tiefgekühlt)",
    "brand": "HOFMANNs",
    "store": "Gurkerl",
@@ -14233,8 +14372,8 @@
    "img": "https://cdn.gurkerl.at/images/grocery/products/29510/29510-1674052737498.jpg",
    "producer": "Hofmann Menü-Manufaktur GmbH",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Compass Group plc (Hofmann-Menü-Gruppe)",
+   "flag": "🇬🇧",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -14242,7 +14381,7 @@
    "slug": null
   },
   {
-   "id": 1648,
+   "id": 1673,
    "name": "Alnatura BIO Linseneintopf",
    "brand": "Alnatura",
    "store": "Gurkerl",
@@ -14263,7 +14402,7 @@
    "slug": null
   },
   {
-   "id": 1649,
+   "id": 1674,
    "name": "Alnatura BIO Erbseneintopf",
    "brand": "Alnatura",
    "store": "Gurkerl",
@@ -14284,7 +14423,7 @@
    "slug": null
   },
   {
-   "id": 1652,
+   "id": 1677,
    "name": "Alnatura BIO Kichererbsen-Kokos-Eintopf",
    "brand": "Alnatura",
    "store": "Gurkerl",
@@ -14305,7 +14444,7 @@
    "slug": null
   },
   {
-   "id": 1661,
+   "id": 1686,
    "name": "Every. Golden Curry (tiefgekühlt)",
    "brand": "Every.",
    "store": "Gurkerl",
@@ -14326,7 +14465,7 @@
    "slug": null
   },
   {
-   "id": 1662,
+   "id": 1687,
    "name": "Every. Green Curry Noodles (tiefgekühlt)",
    "brand": "Every.",
    "store": "Gurkerl",
@@ -14347,7 +14486,7 @@
    "slug": null
   },
   {
-   "id": 1671,
+   "id": 1696,
    "name": "Bibigo Dumpling mit Huhn und Gemüse (tiefgekühlt)",
    "brand": "Bibigo",
    "store": "Gurkerl",
@@ -14368,7 +14507,7 @@
    "slug": null
   },
   {
-   "id": 1673,
+   "id": 1698,
    "name": "Frosta Paella MSC ASC (tiefgekühlt)",
    "brand": "Frosta",
    "store": "Gurkerl",
@@ -14389,7 +14528,7 @@
    "slug": null
   },
   {
-   "id": 1679,
+   "id": 1704,
    "name": "Every. Peas & Love (tiefgekühlt)",
    "brand": "Every.",
    "store": "Gurkerl",
@@ -14410,7 +14549,7 @@
    "slug": null
   },
   {
-   "id": 1681,
+   "id": 1706,
    "name": "Every. Dal Delight (tiefgekühlt)",
    "brand": "Every.",
    "store": "Gurkerl",
@@ -14431,7 +14570,7 @@
    "slug": null
   },
   {
-   "id": 1682,
+   "id": 1707,
    "name": "Bibigo Dumpling mit Schwein und Gemüse (tiefgekühlt)",
    "brand": "Bibigo",
    "store": "Gurkerl",
@@ -14452,7 +14591,7 @@
    "slug": null
   },
   {
-   "id": 1683,
+   "id": 1708,
    "name": "Bibigo Dumpling mit Tofu und Gemüse (tiefgekühlt)",
    "brand": "Bibigo",
    "store": "Gurkerl",
@@ -14473,7 +14612,7 @@
    "slug": null
   },
   {
-   "id": 1685,
+   "id": 1710,
    "name": "Every. Brilliant Bolognese (tiefgekühlt)",
    "brand": "Every.",
    "store": "Gurkerl",
@@ -14494,7 +14633,7 @@
    "slug": null
   },
   {
-   "id": 1687,
+   "id": 1712,
    "name": "Every. Naked Taco (tiefgekühlt)",
    "brand": "Every.",
    "store": "Gurkerl",
@@ -14515,7 +14654,7 @@
    "slug": null
   },
   {
-   "id": 1688,
+   "id": 1713,
    "name": "Every. Bami Goreng (tiefgekühlt)",
    "brand": "Every.",
    "store": "Gurkerl",
@@ -14536,7 +14675,7 @@
    "slug": null
   },
   {
-   "id": 1689,
+   "id": 1714,
    "name": "HOFMANNs Gelbes Curry \"Butter Chicken Style\" (tiefgekühlt)",
    "brand": "HOFMANNs",
    "store": "Gurkerl",
@@ -14548,8 +14687,8 @@
    "img": "https://cdn.gurkerl.at/images/grocery/products/29507/29507-1674051351438.jpg",
    "producer": "Hofmann Menü-Manufaktur GmbH",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Compass Group plc (Hofmann-Menü-Gruppe)",
+   "flag": "🇬🇧",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -14557,7 +14696,7 @@
    "slug": null
   },
   {
-   "id": 1696,
+   "id": 1721,
    "name": "Hähnchen Kebab",
    "brand": "AIA",
    "store": "MPreis",
@@ -14578,7 +14717,7 @@
    "slug": null
   },
   {
-   "id": 1697,
+   "id": 1722,
    "name": "Bio Erbseneintopf",
    "brand": "Alnatura",
    "store": "MPreis",
@@ -14599,7 +14738,7 @@
    "slug": null
   },
   {
-   "id": 1698,
+   "id": 1723,
    "name": "Bio Gemüse Ravioli",
    "brand": "Alnatura",
    "store": "MPreis",
@@ -14620,7 +14759,7 @@
    "slug": null
   },
   {
-   "id": 1699,
+   "id": 1724,
    "name": "Bio Hühner-Nudel-Eintopf",
    "brand": "Alnatura",
    "store": "MPreis",
@@ -14641,7 +14780,7 @@
    "slug": null
   },
   {
-   "id": 1700,
+   "id": 1725,
    "name": "Bio Kichererbsen-Kokos-Eintopf",
    "brand": "Alnatura",
    "store": "MPreis",
@@ -14662,7 +14801,7 @@
    "slug": null
   },
   {
-   "id": 1701,
+   "id": 1726,
    "name": "Ravioli con Pomodoro grigliato Mozzarella e Basilico",
    "brand": "Bertagni",
    "store": "MPreis",
@@ -14683,7 +14822,7 @@
    "slug": null
   },
   {
-   "id": 1702,
+   "id": 1727,
    "name": "Ravioli con Ricotta e Spinaci",
    "brand": "Bertagni",
    "store": "MPreis",
@@ -14704,7 +14843,7 @@
    "slug": null
   },
   {
-   "id": 1703,
+   "id": 1728,
    "name": "Tortellini Funghi",
    "brand": "Bertagni",
    "store": "MPreis",
@@ -14725,7 +14864,7 @@
    "slug": null
   },
   {
-   "id": 1704,
+   "id": 1729,
    "name": "Cevapcici",
    "brand": "Brajlovic",
    "store": "MPreis",
@@ -14746,7 +14885,7 @@
    "slug": null
   },
   {
-   "id": 1705,
+   "id": 1730,
    "name": "Cevapcici Banja Luka",
    "brand": "Brajlovic",
    "store": "MPreis",
@@ -14767,7 +14906,7 @@
    "slug": null
   },
   {
-   "id": 1706,
+   "id": 1731,
    "name": "Kaspressknödel 4er-Packung",
    "brand": "Deflorian",
    "store": "MPreis",
@@ -14788,7 +14927,7 @@
    "slug": null
   },
   {
-   "id": 1707,
+   "id": 1732,
    "name": "Schlutzkrapfen mit Graukas",
    "brand": "Deflorian",
    "store": "MPreis",
@@ -14809,7 +14948,7 @@
    "slug": null
   },
   {
-   "id": 1708,
+   "id": 1733,
    "name": "Schlutzkrapfen mit Spinatfülle",
    "brand": "Deflorian",
    "store": "MPreis",
@@ -14830,7 +14969,7 @@
    "slug": null
   },
   {
-   "id": 1709,
+   "id": 1734,
    "name": "Schlutzkrapfen mit Topfenfülle",
    "brand": "Deflorian",
    "store": "MPreis",
@@ -14851,7 +14990,7 @@
    "slug": null
   },
   {
-   "id": 1710,
+   "id": 1735,
    "name": "Tiroler Tris",
    "brand": "Deflorian",
    "store": "MPreis",
@@ -14872,7 +15011,7 @@
    "slug": null
   },
   {
-   "id": 1711,
+   "id": 1736,
    "name": "Chicken Bowl Curry",
    "brand": "Delamaris",
    "store": "MPreis",
@@ -14893,7 +15032,7 @@
    "slug": null
   },
   {
-   "id": 1712,
+   "id": 1737,
    "name": "Erdäpfelgulasch DS",
    "brand": "Felix",
    "store": "MPreis",
@@ -14914,7 +15053,7 @@
    "slug": null
   },
   {
-   "id": 1713,
+   "id": 1738,
    "name": "Höllenfeuer Gulaschsuppe",
    "brand": "Felix",
    "store": "MPreis",
@@ -14935,7 +15074,7 @@
    "slug": null
   },
   {
-   "id": 1714,
+   "id": 1739,
    "name": "Linsen mit Speck",
    "brand": "Felix",
    "store": "MPreis",
@@ -14956,7 +15095,7 @@
    "slug": null
   },
   {
-   "id": 1715,
+   "id": 1740,
    "name": "Vegane Gulaschsuppe",
    "brand": "Felix",
    "store": "MPreis",
@@ -14977,7 +15116,7 @@
    "slug": null
   },
   {
-   "id": 1717,
+   "id": 1742,
    "name": "Butter Chicken",
    "brand": "Frosta",
    "store": "MPreis",
@@ -14998,7 +15137,7 @@
    "slug": null
   },
   {
-   "id": 1719,
+   "id": 1744,
    "name": "Paella MSC",
    "brand": "Frosta",
    "store": "MPreis",
@@ -15019,7 +15158,7 @@
    "slug": null
   },
   {
-   "id": 1720,
+   "id": 1745,
    "name": "Pappardelle Creme Spinaci",
    "brand": "Frosta",
    "store": "MPreis",
@@ -15040,7 +15179,7 @@
    "slug": null
   },
   {
-   "id": 1721,
+   "id": 1746,
    "name": "Rustikale Hendlpfanne",
    "brand": "Frosta",
    "store": "MPreis",
@@ -15061,7 +15200,7 @@
    "slug": null
   },
   {
-   "id": 1724,
+   "id": 1749,
    "name": "Wokpfanne Bami Goreng",
    "brand": "Frosta",
    "store": "MPreis",
@@ -15082,7 +15221,7 @@
    "slug": null
   },
   {
-   "id": 1725,
+   "id": 1750,
    "name": "Genießer Pfanne Ravioli Mediterran",
    "brand": "iglo",
    "store": "MPreis",
@@ -15103,7 +15242,7 @@
    "slug": null
   },
   {
-   "id": 1726,
+   "id": 1751,
    "name": "Genießer Pfanne Tagliatelle Funghi",
    "brand": "iglo",
    "store": "MPreis",
@@ -15124,7 +15263,7 @@
    "slug": null
   },
   {
-   "id": 1727,
+   "id": 1752,
    "name": "Genießerpfanne Gnocchi-Spinat",
    "brand": "iglo",
    "store": "MPreis",
@@ -15145,7 +15284,7 @@
    "slug": null
   },
   {
-   "id": 1728,
+   "id": 1753,
    "name": "Genießerpfanne Paprika-Huhn",
    "brand": "iglo",
    "store": "MPreis",
@@ -15166,7 +15305,7 @@
    "slug": null
   },
   {
-   "id": 1729,
+   "id": 1754,
    "name": "Genießerpfanne Stroganoff",
    "brand": "iglo",
    "store": "MPreis",
@@ -15187,7 +15326,7 @@
    "slug": null
   },
   {
-   "id": 1730,
+   "id": 1755,
    "name": "Genießerpfanne Tortellini di Carne",
    "brand": "iglo",
    "store": "MPreis",
@@ -15208,7 +15347,7 @@
    "slug": null
   },
   {
-   "id": 1731,
+   "id": 1756,
    "name": "Hausmannskost Rindsgulasch",
    "brand": "iglo",
    "store": "MPreis",
@@ -15229,7 +15368,7 @@
    "slug": null
   },
   {
-   "id": 1733,
+   "id": 1758,
    "name": "Schmankerl Zwiebelbraten",
    "brand": "iglo",
    "store": "MPreis",
@@ -15250,7 +15389,7 @@
    "slug": null
   },
   {
-   "id": 1735,
+   "id": 1760,
    "name": "Frikadellen",
    "brand": "Jeden Tag",
    "store": "MPreis",
@@ -15271,7 +15410,7 @@
    "slug": null
   },
   {
-   "id": 1736,
+   "id": 1761,
    "name": "Fiori Spinat mit Pinienkernen",
    "brand": "Karnerta",
    "store": "MPreis",
@@ -15292,7 +15431,7 @@
    "slug": null
   },
   {
-   "id": 1737,
+   "id": 1762,
    "name": "Gaumenschmaus Kärntner Kasnudeln",
    "brand": "Karnerta",
    "store": "MPreis",
@@ -15313,7 +15452,7 @@
    "slug": null
   },
   {
-   "id": 1738,
+   "id": 1763,
    "name": "Gaumenschmaus Tiroler Schlutzkrapferl",
    "brand": "Karnerta",
    "store": "MPreis",
@@ -15334,7 +15473,7 @@
    "slug": null
   },
   {
-   "id": 1739,
+   "id": 1764,
    "name": "Hüttenschmaus Käsespätzle",
    "brand": "Knorr",
    "store": "MPreis",
@@ -15355,7 +15494,7 @@
    "slug": null
   },
   {
-   "id": 1740,
+   "id": 1765,
    "name": "Meister Kessel Gulaschsuppe",
    "brand": "Knorr",
    "store": "MPreis",
@@ -15376,7 +15515,7 @@
    "slug": null
   },
   {
-   "id": 1741,
+   "id": 1766,
    "name": "Meister Kessel Serbische Bohnensuppe",
    "brand": "Knorr",
    "store": "MPreis",
@@ -15397,7 +15536,7 @@
    "slug": null
   },
   {
-   "id": 1742,
+   "id": 1767,
    "name": "Cevapcici mit Letscho",
    "brand": "M",
    "store": "MPreis",
@@ -15418,7 +15557,7 @@
    "slug": null
   },
   {
-   "id": 1743,
+   "id": 1768,
    "name": "Chili con Carne XXL",
    "brand": "M",
    "store": "MPreis",
@@ -15439,7 +15578,7 @@
    "slug": null
   },
   {
-   "id": 1744,
+   "id": 1769,
    "name": "Käsespätzle",
    "brand": "M",
    "store": "MPreis",
@@ -15460,7 +15599,7 @@
    "slug": null
   },
   {
-   "id": 1745,
+   "id": 1770,
    "name": "Paprikahendl mit Eierspätzle",
    "brand": "M",
    "store": "MPreis",
@@ -15481,7 +15620,7 @@
    "slug": null
   },
   {
-   "id": 1746,
+   "id": 1771,
    "name": "Spaghetti Bolognese XXL",
    "brand": "M",
    "store": "MPreis",
@@ -15502,7 +15641,7 @@
    "slug": null
   },
   {
-   "id": 1747,
+   "id": 1772,
    "name": "Spaghetti Carbonara XXL",
    "brand": "M",
    "store": "MPreis",
@@ -15523,7 +15662,7 @@
    "slug": null
   },
   {
-   "id": 1748,
+   "id": 1773,
    "name": "Curry King",
    "brand": "Meica",
    "store": "MPreis",
@@ -15544,7 +15683,7 @@
    "slug": null
   },
   {
-   "id": 1749,
+   "id": 1774,
    "name": "Chicken Kräuter & Zitrone",
    "brand": "Planted.",
    "store": "MPreis",
@@ -15565,7 +15704,7 @@
    "slug": null
   },
   {
-   "id": 1750,
+   "id": 1775,
    "name": "Cappelletti mit Parmaschinken",
    "brand": "Rana",
    "store": "MPreis",
@@ -15586,7 +15725,7 @@
    "slug": null
   },
   {
-   "id": 1751,
+   "id": 1776,
    "name": "Pfannen-Gnocchi Spinat-Mozzarella",
    "brand": "Rana",
    "store": "MPreis",
@@ -15607,7 +15746,7 @@
    "slug": null
   },
   {
-   "id": 1752,
+   "id": 1777,
    "name": "Ravioli Pesto Genovese",
    "brand": "Rana",
    "store": "MPreis",
@@ -15628,7 +15767,7 @@
    "slug": null
   },
   {
-   "id": 1753,
+   "id": 1778,
    "name": "Ravioli Ricotta und Spinat",
    "brand": "Rana",
    "store": "MPreis",
@@ -15649,7 +15788,7 @@
    "slug": null
   },
   {
-   "id": 1754,
+   "id": 1779,
    "name": "Ravioli Tomate und Mozarella",
    "brand": "Rana",
    "store": "MPreis",
@@ -15670,7 +15809,7 @@
    "slug": null
   },
   {
-   "id": 1755,
+   "id": 1780,
    "name": "Tortelloni mit Parmesan",
    "brand": "Rana",
    "store": "MPreis",
@@ -15691,7 +15830,7 @@
    "slug": null
   },
   {
-   "id": 1756,
+   "id": 1781,
    "name": "Tortelloni Schinken Mozzarella",
    "brand": "Rana",
    "store": "MPreis",
@@ -15712,7 +15851,7 @@
    "slug": null
   },
   {
-   "id": 1757,
+   "id": 1782,
    "name": "Tortelloni Steinpilze",
    "brand": "Rana",
    "store": "MPreis",
@@ -15733,7 +15872,7 @@
    "slug": null
   },
   {
-   "id": 1759,
+   "id": 1784,
    "name": "Risotto Milanese",
    "brand": "Riso Scotti",
    "store": "MPreis",
@@ -15754,7 +15893,7 @@
    "slug": null
   },
   {
-   "id": 1760,
+   "id": 1785,
    "name": "Käseknödel 4er-Packung",
    "brand": "Strauss",
    "store": "MPreis",
@@ -15775,7 +15914,7 @@
    "slug": null
   },
   {
-   "id": 1761,
+   "id": 1786,
    "name": "Schlutzkrapfen Spinat",
    "brand": "Strauss",
    "store": "MPreis",
@@ -15796,7 +15935,7 @@
    "slug": null
   },
   {
-   "id": 1762,
+   "id": 1787,
    "name": "Speckknödel 4er-Packung",
    "brand": "Strauss",
    "store": "MPreis",
@@ -15817,7 +15956,7 @@
    "slug": null
   },
   {
-   "id": 1763,
+   "id": 1788,
    "name": "Spinatknödel 4er-Packung",
    "brand": "Strauss",
    "store": "MPreis",
@@ -15838,7 +15977,7 @@
    "slug": null
   },
   {
-   "id": 1764,
+   "id": 1789,
    "name": "Indian Style Butter Chicken",
    "brand": "Youcook",
    "store": "MPreis",
@@ -15859,7 +15998,7 @@
    "slug": null
   },
   {
-   "id": 1765,
+   "id": 1790,
    "name": "Indian Style Chicken Tikka",
    "brand": "Youcook",
    "store": "MPreis",
@@ -15880,7 +16019,7 @@
    "slug": null
   },
   {
-   "id": 1766,
+   "id": 1791,
    "name": "Indian Style Linsencurry",
    "brand": "Youcook",
    "store": "MPreis",
@@ -15901,7 +16040,7 @@
    "slug": null
   },
   {
-   "id": 1767,
+   "id": 1792,
    "name": "Indian Style Mango Chicken",
    "brand": "Youcook",
    "store": "MPreis",
@@ -15922,7 +16061,7 @@
    "slug": null
   },
   {
-   "id": 1768,
+   "id": 1793,
    "name": "Pasta Caesar Chicken",
    "brand": "Youcook",
    "store": "MPreis",
@@ -15943,7 +16082,7 @@
    "slug": null
   },
   {
-   "id": 1769,
+   "id": 1794,
    "name": "Rotes Thai Curry mit Huhn",
    "brand": "Youcook",
    "store": "MPreis",
@@ -15964,7 +16103,7 @@
    "slug": null
   },
   {
-   "id": 1867,
+   "id": 1892,
    "name": "GREENFORCE Frische Mini-Frikadellen VEGAN",
    "brand": "GREENFORCE",
    "store": "Gurkerl",
@@ -15985,7 +16124,7 @@
    "slug": null
   },
   {
-   "id": 1868,
+   "id": 1893,
    "name": "Marks & Spencer Cream Of Tomato Soup",
    "brand": "Marks & Spencer",
    "store": "Gurkerl",
@@ -16006,7 +16145,7 @@
    "slug": null
   },
   {
-   "id": 1872,
+   "id": 1897,
    "name": "Alnatura BIO Falafel VEGAN",
    "brand": "Alnatura",
    "store": "Gurkerl",
@@ -16027,7 +16166,7 @@
    "slug": null
   },
   {
-   "id": 1873,
+   "id": 1898,
    "name": "Deli Dip Falafel Kichererbsen-Bällchen VEGAN",
    "brand": "Deli Dip",
    "store": "Gurkerl",
@@ -16048,7 +16187,7 @@
    "slug": null
   },
   {
-   "id": 1875,
+   "id": 1900,
    "name": "Alnatura BIO Falafel Mix",
    "brand": "Alnatura",
    "store": "Gurkerl",
@@ -16069,7 +16208,7 @@
    "slug": null
   },
   {
-   "id": 1879,
+   "id": 1904,
    "name": "Müller High Protein Schoko Pudding",
    "brand": "Müller",
    "store": "Gurkerl",
@@ -16090,7 +16229,7 @@
    "slug": null
   },
   {
-   "id": 1885,
+   "id": 1910,
    "name": "Alnatura BIO Mini Frühlingsrollen",
    "brand": "Alnatura",
    "store": "Gurkerl",
@@ -16111,7 +16250,7 @@
    "slug": null
   },
   {
-   "id": 1886,
+   "id": 1911,
    "name": "Müller High Protein Mousse Schoko",
    "brand": "Müller",
    "store": "Gurkerl",
@@ -16132,7 +16271,7 @@
    "slug": null
   },
   {
-   "id": 1899,
+   "id": 1924,
    "name": "Schärdinger Dessertcreme Schoko",
    "brand": "Schärdinger",
    "store": "Gurkerl",
@@ -16153,7 +16292,7 @@
    "slug": null
   },
   {
-   "id": 1903,
+   "id": 1928,
    "name": "Gü Cheesecake New York",
    "brand": "GÜ",
    "store": "Gurkerl",
@@ -16174,7 +16313,7 @@
    "slug": null
   },
   {
-   "id": 1904,
+   "id": 1929,
    "name": "Gü Cheesecake Salted Caramel",
    "brand": "GÜ",
    "store": "Gurkerl",
@@ -16195,7 +16334,7 @@
    "slug": null
   },
   {
-   "id": 1905,
+   "id": 1930,
    "name": "Gü Cheesecake Double Chocolate & Vanilla",
    "brand": "GÜ",
    "store": "Gurkerl",
@@ -16216,7 +16355,7 @@
    "slug": null
   },
   {
-   "id": 1918,
+   "id": 1943,
    "name": "Inzersdorfer Paprikahendlragout",
    "brand": "Inzersdorfer",
    "store": "Gurkerl",
@@ -16237,7 +16376,7 @@
    "slug": null
   },
   {
-   "id": 1934,
+   "id": 1959,
    "name": "Wiener Virtshaus Vleischknödel mit Sauerkraut VEGAN",
    "brand": "Wiener Virtshaus",
    "store": "Gurkerl",
@@ -16258,7 +16397,7 @@
    "slug": null
   },
   {
-   "id": 1953,
+   "id": 1978,
    "name": "Hiel BIO Polenta Karotte Burger VEGAN",
    "brand": "Hiel",
    "store": "Gurkerl",
@@ -16279,7 +16418,7 @@
    "slug": null
   },
   {
-   "id": 1960,
+   "id": 1985,
    "name": "Itineraire des Saveurs Crepes",
    "brand": "IDS",
    "store": "Gurkerl",
@@ -16300,7 +16439,7 @@
    "slug": null
   },
   {
-   "id": 1965,
+   "id": 1990,
    "name": "HOFMANNs 2 Rinderrouladen - mit kleinen Holzspießen handgesteckt - (tiefgekühlt)",
    "brand": "HOFMANNs",
    "store": "Gurkerl",
@@ -16312,8 +16451,8 @@
    "img": "https://cdn.gurkerl.at/images/grocery/products/29512/29512-1674053071282.jpg",
    "producer": "Hofmann Menü-Manufaktur GmbH",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Compass Group plc (Hofmann-Menü-Gruppe)",
+   "flag": "🇬🇧",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -16321,7 +16460,7 @@
    "slug": null
   },
   {
-   "id": 1980,
+   "id": 2005,
    "name": "Landliebe Sahnepudding Schoko",
    "brand": "Landliebe",
    "store": "Gurkerl",
@@ -16342,7 +16481,7 @@
    "slug": null
   },
   {
-   "id": 1981,
+   "id": 2006,
    "name": "Müller Schokopudding + Vanillesoße",
    "brand": "Müller",
    "store": "Gurkerl",
@@ -16363,7 +16502,7 @@
    "slug": null
   },
   {
-   "id": 1982,
+   "id": 2007,
    "name": "Müller Grießpudding + Kirschsoße",
    "brand": "Müller",
    "store": "Gurkerl",
@@ -16384,7 +16523,7 @@
    "slug": null
   },
   {
-   "id": 1984,
+   "id": 2009,
    "name": "Müller Doppeldecker Schoko + Vanillesoße 4x125g",
    "brand": "Müller",
    "store": "Gurkerl",
@@ -16405,7 +16544,7 @@
    "slug": null
   },
   {
-   "id": 1986,
+   "id": 2011,
    "name": "Müller Grießpudding Traditionell",
    "brand": "Müller",
    "store": "Gurkerl",
@@ -16426,7 +16565,7 @@
    "slug": null
   },
   {
-   "id": 1987,
+   "id": 2012,
    "name": "Müller Wackelpudding Himbeere",
    "brand": "Müller",
    "store": "Gurkerl",
@@ -16447,7 +16586,7 @@
    "slug": null
   },
   {
-   "id": 1988,
+   "id": 2013,
    "name": "Müller Wackelpudding Waldmeister 4x125g",
    "brand": "Müller",
    "store": "Gurkerl",
@@ -16468,7 +16607,7 @@
    "slug": null
   },
   {
-   "id": 1989,
+   "id": 2014,
    "name": "Müller Schokopudding + Schokosoße",
    "brand": "Müller",
    "store": "Gurkerl",
@@ -16489,7 +16628,7 @@
    "slug": null
   },
   {
-   "id": 1990,
+   "id": 2015,
    "name": "Zum Dorfkrug Vanille-Pudding",
    "brand": "Zum Dorfkrug",
    "store": "Gurkerl",
@@ -16510,7 +16649,7 @@
    "slug": null
   },
   {
-   "id": 2005,
+   "id": 2030,
    "name": "Bonne Maman Creme Brulee 2x100g",
    "brand": "Bonne Maman",
    "store": "Gurkerl",
@@ -16531,7 +16670,7 @@
    "slug": null
   },
   {
-   "id": 2008,
+   "id": 2033,
    "name": "Alnatura BIO Black Bean-Cashew Burger",
    "brand": "Alnatura",
    "store": "Gurkerl",
@@ -16552,7 +16691,7 @@
    "slug": null
   },
   {
-   "id": 2028,
+   "id": 2053,
    "name": "Feel Food BIO Red Lentil Dal VEGAN",
    "brand": "feelfood",
    "store": "Gurkerl",
@@ -16573,7 +16712,7 @@
    "slug": null
   },
   {
-   "id": 2030,
+   "id": 2055,
    "name": "Zott Monte Mega XXL",
    "brand": "Zott",
    "store": "Billa",
@@ -16594,7 +16733,7 @@
    "slug": null
   },
   {
-   "id": 2031,
+   "id": 2056,
    "name": "Iglo Green Cuisine Spinat Stangerl",
    "brand": "iglo",
    "store": "Billa",
@@ -16615,7 +16754,7 @@
    "slug": null
   },
   {
-   "id": 2032,
+   "id": 2057,
    "name": "nöm PRO Himbeere Protein Topfencreme",
    "brand": "Nöm",
    "store": "Billa",
@@ -16636,7 +16775,7 @@
    "slug": null
   },
   {
-   "id": 2033,
+   "id": 2058,
    "name": "Ehrmann High Protein Vanille Pudding",
    "brand": "Ehrmann",
    "store": "Billa",
@@ -16657,7 +16796,7 @@
    "slug": null
   },
   {
-   "id": 2034,
+   "id": 2059,
    "name": "Ehrmann High Protein Schoko Pudding",
    "brand": "Ehrmann",
    "store": "Billa",
@@ -16678,7 +16817,7 @@
    "slug": null
   },
   {
-   "id": 2037,
+   "id": 2062,
    "name": "Danone Dany Sahne Schoko",
    "brand": "Danone",
    "store": "Billa",
@@ -16699,7 +16838,7 @@
    "slug": null
   },
   {
-   "id": 2038,
+   "id": 2063,
    "name": "Schärdinger Jogurella Kaffee Dessert",
    "brand": "Schärdinger",
    "store": "Billa",
@@ -16720,7 +16859,7 @@
    "slug": null
   },
   {
-   "id": 2039,
+   "id": 2064,
    "name": "Schärdinger Jogurella Vanille Dessert",
    "brand": "Schärdinger",
    "store": "Billa",
@@ -16741,7 +16880,7 @@
    "slug": null
   },
   {
-   "id": 2040,
+   "id": 2065,
    "name": "Landliebe Sahnepudding Bourbon Vanille",
    "brand": "Landliebe",
    "store": "Billa",
@@ -16762,7 +16901,7 @@
    "slug": null
   },
   {
-   "id": 2041,
+   "id": 2066,
    "name": "Darbo Fruchtikus Rote Früchte",
    "brand": "Darbo",
    "store": "Billa",
@@ -16783,7 +16922,7 @@
    "slug": null
   },
   {
-   "id": 2042,
+   "id": 2067,
    "name": "Darbo Fruchtikus Tropic",
    "brand": "Darbo",
    "store": "Billa",
@@ -16804,7 +16943,7 @@
    "slug": null
   },
   {
-   "id": 2043,
+   "id": 2068,
    "name": "Landliebe Griesspudding Zimt",
    "brand": "Landliebe",
    "store": "Billa",
@@ -16825,7 +16964,7 @@
    "slug": null
   },
   {
-   "id": 2044,
+   "id": 2069,
    "name": "Landliebe Griesspudding Natur",
    "brand": "Landliebe",
    "store": "Billa",
@@ -16846,7 +16985,7 @@
    "slug": null
   },
   {
-   "id": 2045,
+   "id": 2070,
    "name": "BILLA Tiramisu",
    "brand": "BILLA Immer Gut",
    "store": "Billa",
@@ -16867,7 +17006,7 @@
    "slug": null
   },
   {
-   "id": 2046,
+   "id": 2071,
    "name": "Iglo Green Cuisine Falafel",
    "brand": "iglo",
    "store": "Billa",
@@ -16888,7 +17027,7 @@
    "slug": null
   },
   {
-   "id": 2047,
+   "id": 2072,
    "name": "Dr. Oetker Götterspeise Himbeer Geschmack",
    "brand": "Dr. Oetker",
    "store": "Billa",
@@ -16909,7 +17048,7 @@
    "slug": null
   },
   {
-   "id": 2048,
+   "id": 2073,
    "name": "Dr. Oetker Götterspeise Waldmeister Geschmack",
    "brand": "Dr. Oetker",
    "store": "Billa",
@@ -16930,7 +17069,7 @@
    "slug": null
   },
   {
-   "id": 2049,
+   "id": 2074,
    "name": "Ehrmann High Protein Haselnuss Pudding",
    "brand": "Ehrmann",
    "store": "Billa",
@@ -16951,7 +17090,7 @@
    "slug": null
   },
   {
-   "id": 2050,
+   "id": 2075,
    "name": "BILLA Sahnepudding Vanille",
    "brand": "BILLA Immer Gut",
    "store": "Billa",
@@ -16972,7 +17111,7 @@
    "slug": null
   },
   {
-   "id": 2052,
+   "id": 2077,
    "name": "BILLA Nudelsalat mit Huhn Caesar",
    "brand": "BILLA Immer Gut",
    "store": "Billa",
@@ -16993,7 +17132,7 @@
    "slug": null
   },
   {
-   "id": 2053,
+   "id": 2078,
    "name": "BILLA Nudel Thunfisch Salat",
    "brand": "BILLA Immer Gut",
    "store": "Billa",
@@ -17014,7 +17153,7 @@
    "slug": null
   },
   {
-   "id": 2054,
+   "id": 2079,
    "name": "Andros Schoko-Mousse",
    "brand": "Andros",
    "store": "Billa",
@@ -17035,7 +17174,7 @@
    "slug": null
   },
   {
-   "id": 2055,
+   "id": 2080,
    "name": "Schärdinger Dessert Creme Vanille",
    "brand": "Schärdinger",
    "store": "Billa",
@@ -17056,7 +17195,7 @@
    "slug": null
   },
   {
-   "id": 2056,
+   "id": 2081,
    "name": "Galana Lavakuchen",
    "brand": "Galana",
    "store": "Billa",
@@ -17077,7 +17216,7 @@
    "slug": null
   },
   {
-   "id": 2057,
+   "id": 2082,
    "name": "Ehrmann High Protein Karamell Pudding",
    "brand": "Ehrmann",
    "store": "Billa",
@@ -17098,7 +17237,7 @@
    "slug": null
   },
   {
-   "id": 2059,
+   "id": 2084,
    "name": "Ehrmann High Protein Chocolate Mousse",
    "brand": "Ehrmann",
    "store": "Billa",
@@ -17119,7 +17258,7 @@
    "slug": null
   },
   {
-   "id": 2060,
+   "id": 2085,
    "name": "Toni Kaiser Wiener Kaiserschmarrn",
    "brand": "Toni Kaiser",
    "store": "Billa",
@@ -17140,7 +17279,7 @@
    "slug": null
   },
   {
-   "id": 2061,
+   "id": 2086,
    "name": "Clever Vanille Pudding mit Sahne",
    "brand": "Clever",
    "store": "Billa",
@@ -17161,7 +17300,7 @@
    "slug": null
   },
   {
-   "id": 2062,
+   "id": 2087,
    "name": "Bauernland Gemüselaibchen",
    "brand": "Bauernland",
    "store": "Billa",
@@ -17182,7 +17321,7 @@
    "slug": null
   },
   {
-   "id": 2063,
+   "id": 2088,
    "name": "Bauernland Käse-Karfiol Laibchen",
    "brand": "Bauernland",
    "store": "Billa",
@@ -17203,7 +17342,7 @@
    "slug": null
   },
   {
-   "id": 2064,
+   "id": 2089,
    "name": "Iglo Green Cuisine Broccoli Laibchen",
    "brand": "iglo",
    "store": "Billa",
@@ -17224,7 +17363,7 @@
    "slug": null
   },
   {
-   "id": 2065,
+   "id": 2090,
    "name": "Andros Milchreis",
    "brand": "Andros",
    "store": "Billa",
@@ -17245,7 +17384,7 @@
    "slug": null
   },
   {
-   "id": 2066,
+   "id": 2091,
    "name": "nöm PRO Stracciatella Protein Topfencreme",
    "brand": "Nöm",
    "store": "Billa",
@@ -17266,7 +17405,7 @@
    "slug": null
   },
   {
-   "id": 2067,
+   "id": 2092,
    "name": "Dr. Oetker High Protein Milchreis",
    "brand": "Dr. Oetker",
    "store": "Billa",
@@ -17287,7 +17426,7 @@
    "slug": null
   },
   {
-   "id": 2068,
+   "id": 2093,
    "name": "Stadtküche Spinat Knödl",
    "brand": "Stadtküche",
    "store": "Billa",
@@ -17308,7 +17447,7 @@
    "slug": null
   },
   {
-   "id": 2069,
+   "id": 2094,
    "name": "Stadtküche Kärntner Kasnudl",
    "brand": "Stadtküche",
    "store": "Billa",
@@ -17329,7 +17468,7 @@
    "slug": null
   },
   {
-   "id": 2070,
+   "id": 2095,
    "name": "Darbo Fruchtikus Mango-Marille",
    "brand": "Darbo",
    "store": "Billa",
@@ -17350,7 +17489,7 @@
    "slug": null
   },
   {
-   "id": 2071,
+   "id": 2096,
    "name": "BILLA Profiteroles",
    "brand": "BILLA Immer Gut",
    "store": "Billa",
@@ -17371,7 +17510,7 @@
    "slug": null
   },
   {
-   "id": 2072,
+   "id": 2097,
    "name": "Ehrmann Grand Dessert Choc Stracciatella",
    "brand": "Ehrmann",
    "store": "Billa",
@@ -17392,7 +17531,7 @@
    "slug": null
   },
   {
-   "id": 2073,
+   "id": 2098,
    "name": "Ehrmann High Protein Mousse Lemon",
    "brand": "Ehrmann",
    "store": "Billa",
@@ -17413,7 +17552,7 @@
    "slug": null
   },
   {
-   "id": 2074,
+   "id": 2099,
    "name": "Alpro Soja Pudding Schoko",
    "brand": "Alpro",
    "store": "Billa",
@@ -17434,7 +17573,7 @@
    "slug": null
   },
   {
-   "id": 2075,
+   "id": 2100,
    "name": "Alpro Soja Pudding Vanille",
    "brand": "Alpro",
    "store": "Billa",
@@ -17455,7 +17594,7 @@
    "slug": null
   },
   {
-   "id": 2076,
+   "id": 2101,
    "name": "Stadtküche Falafel Klassisch",
    "brand": "Stadtküche",
    "store": "Billa",
@@ -17476,7 +17615,7 @@
    "slug": null
   },
   {
-   "id": 2077,
+   "id": 2102,
    "name": "Iglo Green Cuisine Zucchini-Käselaibchen",
    "brand": "iglo",
    "store": "Billa",
@@ -17497,7 +17636,7 @@
    "slug": null
   },
   {
-   "id": 2078,
+   "id": 2103,
    "name": "nöm PRO Schoko-Banane Protein Topfencreme",
    "brand": "Nöm",
    "store": "Billa",
@@ -17518,7 +17657,7 @@
    "slug": null
   },
   {
-   "id": 2079,
+   "id": 2104,
    "name": "nöm PRO Blueberry Cheesecake Protein Topfencreme",
    "brand": "Nöm",
    "store": "Billa",
@@ -17539,7 +17678,7 @@
    "slug": null
   },
   {
-   "id": 2080,
+   "id": 2105,
    "name": "BILLA Bali Mango Chia Pudding",
    "brand": "BILLA Immer Gut",
    "store": "Billa",
@@ -17560,7 +17699,7 @@
    "slug": null
   },
   {
-   "id": 2081,
+   "id": 2106,
    "name": "Alpro Soja Dessert Karamel",
    "brand": "Alpro",
    "store": "Billa",
@@ -17581,7 +17720,7 @@
    "slug": null
   },
   {
-   "id": 2082,
+   "id": 2107,
    "name": "Frosta Rotes Curry",
    "brand": "Frosta",
    "store": "Billa",
@@ -17602,7 +17741,7 @@
    "slug": null
   },
   {
-   "id": 2083,
+   "id": 2108,
    "name": "BILLA Protein Topfencreme Vanille Schoko",
    "brand": "BILLA Immer Gut",
    "store": "Billa",
@@ -17623,7 +17762,7 @@
    "slug": null
   },
   {
-   "id": 2085,
+   "id": 2110,
    "name": "Schärdinger Grieß Pudding Natur",
    "brand": "Schärdinger",
    "store": "Billa",
@@ -17644,7 +17783,7 @@
    "slug": null
   },
   {
-   "id": 2086,
+   "id": 2111,
    "name": "BILLA Belugalinsen Salat",
    "brand": "BILLA Immer Gut",
    "store": "Billa",
@@ -17665,7 +17804,7 @@
    "slug": null
   },
   {
-   "id": 2087,
+   "id": 2112,
    "name": "Stadtküche Bio Laibchen Spinat & Käse",
    "brand": "Stadtküche",
    "store": "Billa",
@@ -17686,7 +17825,7 @@
    "slug": null
   },
   {
-   "id": 2088,
+   "id": 2113,
    "name": "Stadtküche Gemüselaibchen",
    "brand": "Stadtküche",
    "store": "Billa",
@@ -17707,7 +17846,7 @@
    "slug": null
   },
   {
-   "id": 2089,
+   "id": 2114,
    "name": "BILLA Protein Mousse Schoko",
    "brand": "BILLA Immer Gut",
    "store": "Billa",
@@ -17728,7 +17867,7 @@
    "slug": null
   },
   {
-   "id": 2090,
+   "id": 2115,
    "name": "BILLA Palatschinken",
    "brand": "BILLA Immer Gut",
    "store": "Billa",
@@ -17749,7 +17888,7 @@
    "slug": null
   },
   {
-   "id": 2091,
+   "id": 2116,
    "name": "Dr. Oetker Paula Vanille Pudding mit Schokoflecken",
    "brand": "Dr. Oetker",
    "store": "Billa",
@@ -17770,7 +17909,7 @@
    "slug": null
   },
   {
-   "id": 2092,
+   "id": 2117,
    "name": "Kidsworld Dessert",
    "brand": "Kidsworld",
    "store": "Billa",
@@ -17791,7 +17930,7 @@
    "slug": null
   },
   {
-   "id": 2093,
+   "id": 2118,
    "name": "Bonne Maman Creme Brulee",
    "brand": "Bonne Maman",
    "store": "Billa",
@@ -17812,7 +17951,7 @@
    "slug": null
   },
   {
-   "id": 2094,
+   "id": 2119,
    "name": "Vegavita Tiramisu",
    "brand": "Vegavita",
    "store": "Billa",
@@ -17833,7 +17972,7 @@
    "slug": null
   },
   {
-   "id": 2095,
+   "id": 2120,
    "name": "Alpro Sojadessert Vanille",
    "brand": "Alpro",
    "store": "Billa",
@@ -17854,7 +17993,7 @@
    "slug": null
   },
   {
-   "id": 2096,
+   "id": 2121,
    "name": "Dr. Oetker Grütze Apfel-Mango-Orange",
    "brand": "Dr. Oetker",
    "store": "Billa",
@@ -17875,7 +18014,7 @@
    "slug": null
   },
   {
-   "id": 2097,
+   "id": 2122,
    "name": "Harvest Moon Chocolate & salted Caramel",
    "brand": "Harvest",
    "store": "Billa",
@@ -17896,7 +18035,7 @@
    "slug": null
   },
   {
-   "id": 2098,
+   "id": 2123,
    "name": "BILLA Bali Brunch Mango Sticky Rice",
    "brand": "BILLA Immer Gut",
    "store": "Billa",
@@ -17917,7 +18056,7 @@
    "slug": null
   },
   {
-   "id": 2099,
+   "id": 2124,
    "name": "Schärdinger Jogurella Stracciatella",
    "brand": "Schärdinger",
    "store": "Billa",
@@ -17938,7 +18077,7 @@
    "slug": null
   },
   {
-   "id": 2100,
+   "id": 2125,
    "name": "Alpro Kokos Salted Caramel",
    "brand": "Alpro",
    "store": "Billa",
@@ -17959,7 +18098,7 @@
    "slug": null
   },
   {
-   "id": 2101,
+   "id": 2126,
    "name": "Alpro Kokos Stracciatella",
    "brand": "Alpro",
    "store": "Billa",
@@ -17980,7 +18119,7 @@
    "slug": null
   },
   {
-   "id": 2102,
+   "id": 2127,
    "name": "nöm PRO Kokos Schoko Protein Topfencreme",
    "brand": "Nöm",
    "store": "Billa",
@@ -18001,7 +18140,7 @@
    "slug": null
   },
   {
-   "id": 2104,
+   "id": 2129,
    "name": "Simply Good Berry Chia Pod Tonkabohne Waldfrucht",
    "brand": "Simply Good",
    "store": "Billa",
@@ -18022,7 +18161,7 @@
    "slug": null
   },
   {
-   "id": 2105,
+   "id": 2130,
    "name": "Zott Monte Schoko",
    "brand": "Zott",
    "store": "Billa",
@@ -18043,7 +18182,7 @@
    "slug": null
   },
   {
-   "id": 2106,
+   "id": 2131,
    "name": "Zott Monte Maxi Schoko",
    "brand": "Zott",
    "store": "Billa",
@@ -18064,7 +18203,7 @@
    "slug": null
   },
   {
-   "id": 2107,
+   "id": 2132,
    "name": "Ehrmann Grand Dessert Schoko",
    "brand": "Ehrmann",
    "store": "Billa",
@@ -18085,7 +18224,7 @@
    "slug": null
   },
   {
-   "id": 2108,
+   "id": 2133,
    "name": "Ehrmann Grand Dessert Double Coffee",
    "brand": "Ehrmann",
    "store": "Billa",
@@ -18106,7 +18245,7 @@
    "slug": null
   },
   {
-   "id": 2109,
+   "id": 2134,
    "name": "Ehrmann Grand Dessert Double Choc",
    "brand": "Ehrmann",
    "store": "Billa",
@@ -18127,7 +18266,7 @@
    "slug": null
   },
   {
-   "id": 2110,
+   "id": 2135,
    "name": "Zott Monte",
    "brand": "Zott",
    "store": "Billa",
@@ -18148,7 +18287,7 @@
    "slug": null
   },
   {
-   "id": 2116,
+   "id": 2141,
    "name": "Chili Sin Carne",
    "brand": "Billa",
    "store": "unbekannt (OFF)",
@@ -18169,7 +18308,7 @@
    "slug": "rewe-genusskueche"
   },
   {
-   "id": 2131,
+   "id": 2156,
    "name": "Haschee Hörnchen mit Kräutern",
    "brand": "Billa",
    "store": "unbekannt (OFF)",
@@ -18190,7 +18329,7 @@
    "slug": "rewe-genusskueche"
   },
   {
-   "id": 2136,
+   "id": 2161,
    "name": "Rindsgulasch mit Nockerl",
    "brand": "iglo",
    "store": "Billa",
@@ -18211,7 +18350,7 @@
    "slug": "landena"
   },
   {
-   "id": 2161,
+   "id": 2186,
    "name": "High Protein Pudding Grieß",
    "brand": "Dr. Oetker",
    "store": "Lidl",
@@ -18232,7 +18371,7 @@
    "slug": null
   },
   {
-   "id": 2163,
+   "id": 2188,
    "name": "Grießpudding High-Protein - Pur/Classic",
    "brand": "Milsani",
    "store": "unbekannt (OFF)",
@@ -18253,7 +18392,7 @@
    "slug": null
   },
   {
-   "id": 2165,
+   "id": 2190,
    "name": "high Protein Pudding",
    "brand": "LIDL",
    "store": "unbekannt (OFF)",
@@ -18274,7 +18413,7 @@
    "slug": null
   },
   {
-   "id": 2171,
+   "id": 2196,
    "name": "High Protein Grießpudding, Pur",
    "brand": "Lidl",
    "store": "Lidl",
@@ -18295,7 +18434,7 @@
    "slug": null
   },
   {
-   "id": 2183,
+   "id": 2208,
    "name": "Pilzmaultaschen",
    "brand": "SchwabenKrone",
    "store": "Spar",
@@ -18316,7 +18455,7 @@
    "slug": null
   },
   {
-   "id": 2188,
+   "id": 2213,
    "name": "Maultaschen geschnitten",
    "brand": "Bürger",
    "store": "unbekannt (OFF)",
@@ -18337,7 +18476,7 @@
    "slug": null
   },
   {
-   "id": 2204,
+   "id": 2229,
    "name": "High Protein Pudding Haselnuss Geschmack",
    "brand": "LIDL",
    "store": "Lidl",
@@ -18358,7 +18497,7 @@
    "slug": null
   },
   {
-   "id": 2215,
+   "id": 2240,
    "name": "Pudding-Genuss Vanille",
    "brand": "SalzburgMilch",
    "store": "unbekannt (OFF)",

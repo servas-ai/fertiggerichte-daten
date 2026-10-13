@@ -1,0 +1,103 @@
+{
+ "probed_at": "2026-10-13T09:16:44Z",
+ "aldi_cdn": {
+  "method": "GET (HEAD returns 403) on dm.emea.cms.aldi.cx Scene7, name patterns from existing Hofer brand-page logos; control 2026_MA_Brandpage-Logo_Le-Gusto = 200 image/webp",
+  "variants": 616,
+  "status_counts": {
+   "403": 615,
+   "200": 1
+  },
+  "brands_tried": [
+   "asia",
+   "ben-fatto",
+   "bio-natura",
+   "chef-menue",
+   "control-le-gusto",
+   "deluxe",
+   "every",
+   "flotte-lotte",
+   "good-choice",
+   "green-garden",
+   "kuechenbrueder",
+   "leibspeis",
+   "lorado",
+   "mcennedy",
+   "muehlen",
+   "natur-aktiv",
+   "nature-s-gold",
+   "pizz-ah",
+   "primana",
+   "rettenswert",
+   "schwaben-krone",
+   "select-go",
+   "wonnemeyer"
+  ],
+  "hits": [
+   {
+    "slug": "control-le-gusto",
+    "asset": "2026_MA_Brandpage-Logo_Le-Gusto",
+    "status": 200,
+    "ctype": "image/webp",
+    "bytes": 3790,
+    "url": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/2026_MA_Brandpage-Logo_Le-Gusto:1-1?wid=800&fit=constrain"
+   }
+  ],
+  "asset_patterns": [
+   "2026_MA_Brandpage-Logo_{Name}",
+   "2025_MA_Brandpage-Logo_{Name}",
+   "Brandpage-Logo_{Name}_386x386px",
+   "Brandpage-Logo_{Name}",
+   "2026_MA_Brandpage-Logo_{Name}_386x386px"
+  ],
+  "sample": [
+   "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/2026_MA_Brandpage-Logo_GOOD-CHOICE:1-1?wid=800&fit=constrain",
+   "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/2025_MA_Brandpage-Logo_GOOD-CHOICE:1-1?wid=800&fit=constrain",
+   "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/Brandpage-Logo_GOOD-CHOICE_386x386px:1-1?wid=800&fit=constrain",
+   "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/Brandpage-Logo_GOOD-CHOICE:1-1?wid=800&fit=constrain",
+   "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/2026_MA_Brandpage-Logo_GOOD-CHOICE_386x386px:1-1?wid=800&fit=constrain"
+  ]
+ },
+ "hofer_brand_pages": "Earlier Playwright snapshot (fertig/analysis/l3_pw2.json, 2026-10-13): hofer.at/marken/{good-choice,primana,asia,asia-green-garden,natures-gold,pizzah,natur-aktiv,rettenswert,wonnemeyer,...} render without a brand logo (title = slug only); only Le Gusto, Cucina, ALMARE, GOURMET, SONNHOF, FairHOF (+BACKBOX, BIO, CHOCEUR, FLYING POWER, MILSANI, TANDIL, ZZU) have Brandpage-Logo assets. hofer.at itself is Akamai-403 for curl → not scraped.",
+ "wikimedia_commons": {
+  "api": "https://commons.wikimedia.org/w/api.php?action=query&list=search&srnamespace=6",
+  "queries": [
+   "Chef Select logo",
+   "Vemondo logo",
+   "Deluxe Lidl logo",
+   "Vitasia logo",
+   "McEnnedy logo",
+   "Kania logo",
+   "Trattoria Alfredo logo",
+   "Good Choice Hofer",
+   "Primana logo",
+   "Nature's Gold logo",
+   "Rettenswert",
+   "Wonnemeyer",
+   "Schwaben Krone",
+   "Delikatessa logo",
+   "Chef Menü Penny",
+   "Select Go Lidl",
+   "Green Garden Aldi",
+   "SPAR enjoy logo"
+  ],
+  "result": "no matching brand logo (only unrelated files, e.g. Logo Kania Gostyń = Polish company)"
+ },
+ "lidl": {
+  "robots": "https://www.lidl.at/robots.txt allows /c/ pages",
+  "pages_sitemap": "https://www.lidl.at/explore/assets/s/pages_de-AT_at.xml.gz",
+  "brand_pages_found": [
+   "https://www.lidl.at/c/deluxe/s10012969"
+  ],
+  "deluxe_assets": [
+   "https://www.lidl.at/static/assets/FWKV_1198x400_Deluxe-1246588.jpg (photo banner with white script — not a clean logo, not used)"
+  ],
+  "result": "no Chef Select / Vemondo / Vitasia / McEnnedy / Kania brand page in lidl.at pages sitemap"
+ },
+ "wired_from_disk": {
+  "primana": "analysis/logos/primana.png (pack crop, vision_gate pass) → logos.json primana",
+  "green_garden": "analysis/logos/asia-green-garden.png (pack crop, vision_gate pass) → logos.json green-garden (brands Asia Green Garden|Green Garden)",
+  "gissinger": "already wired (logos/gissinger.png, brands Gissinger|Josef Gissinger|Fleischerei Gissinger)",
+  "zatisi": "already wired (logos/zatisi.svg, brands Zatisi|Zátiší|…)",
+  "asia": "NOT mapped: generic brand \"Asia\" also matches non-Hofer rows"
+ }
+}

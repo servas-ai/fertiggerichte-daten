@@ -1,0 +1,630 @@
+{
+ "fetched_at": "2026-10-13T09:23:34Z",
+ "sources": [
+  "https://www.dm.at/product-sitemap.xml",
+  "https://products.dm.de/product/products/detail/AT/dan/{dan}",
+  "https://www.lotao.com/products.json",
+  "https://world.openfoodfacts.org/api/v2/product/{code}"
+ ],
+ "dm_rows": 24,
+ "without_photo_before": 23,
+ "filled": 21,
+ "dm_api_products": [
+  {
+   "dan": 1457487,
+   "url": "https://www.dm.at/p/d/1457487/dmbio-fertiggericht-nudel-tasse-tomatensauce",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1457487",
+   "gtin": 4067796180411,
+   "brand": "dmBio",
+   "title": "Fertiggericht Nudel-Tasse Tomatensauce",
+   "price": "1,55 €",
+   "images": [
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1747488182/assets/pas/images/9ecb81e8-3425-4922-8906-3906dac8e1e8/dmbio-fertiggericht-nudel-tasse-tomatensauce",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1747488182/assets/pas/images/b62bb8cb-64f1-453e-8cb9-732ed710fa63/dmbio-fertiggericht-nudel-tasse-tomatensauce"
+   ]
+  },
+  {
+   "dan": 1488556,
+   "url": "https://www.dm.at/p/d/1488556/dmbio-eintopf-chili-sin-carne-mit-kidneybohnen-und-weizenhack",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1488556",
+   "gtin": 4066447892482,
+   "brand": "dmBio",
+   "title": "Eintopf Chili sin Carne mit Kidneybohnen & Weizenhack, 400 g",
+   "price": "2,35 €",
+   "images": [
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1760132977/assets/pas/images/1e5fa371-01c0-4a64-b591-52b15c7a1654/dmbio-eintopf-chili-sin-carne-mit-kidneybohnen-und-weizenhack",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1760132984/assets/pas/images/715b64c3-2004-45ee-a861-e287f6bca16d/dmbio-eintopf-chili-sin-carne-mit-kidneybohnen-und-weizenhack",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1760132989/assets/pas/images/3e0fc9a3-aba5-41f1-a086-19133b6727ff/dmbio-eintopf-chili-sin-carne-mit-kidneybohnen-und-weizenhack"
+   ]
+  },
+  {
+   "dan": 1488557,
+   "url": "https://www.dm.at/p/d/1488557/dmbio-eintopf-kichererbsen-mit-kokosmilch",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1488557",
+   "gtin": 4066447892505,
+   "brand": "dmBio",
+   "title": "Eintopf Kichererbsen mit Kokosmilch, 400 g",
+   "price": "2,35 €",
+   "images": [
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1764283155/assets/pas/images/4b6c4bfe-c0ae-43ea-bf1f-801c8afbe7b3/dmbio-eintopf-kichererbsen-mit-kokosmilch",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1764283164/assets/pas/images/87113638-7b4c-42ba-a488-780fa3084aa7/dmbio-eintopf-kichererbsen-mit-kokosmilch",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1764283169/assets/pas/images/e14a41ff-c3bf-4367-8bdc-4ccc48947d42/dmbio-eintopf-kichererbsen-mit-kokosmilch"
+   ]
+  },
+  {
+   "dan": 1491032,
+   "url": "https://www.dm.at/p/d/1491032/dmbio-eintopf-linsen-mit-kartoffeln",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1491032",
+   "gtin": 4066447892444,
+   "brand": "dmBio",
+   "title": "Eintopf Linsen mit Kartoffeln, 400 g",
+   "price": "2,35 €",
+   "images": [
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1760133002/assets/pas/images/92d02758-5f2d-4466-951a-ab5b666a026f/dmbio-eintopf-linsen-mit-kartoffeln",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1760132990/assets/pas/images/738d45c6-ed26-4a7c-83ca-b02967a05a8d/dmbio-eintopf-linsen-mit-kartoffeln",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1760132996/assets/pas/images/c4cdffcd-71b6-44c9-8b15-867f1a999805/dmbio-eintopf-linsen-mit-kartoffeln"
+   ]
+  },
+  {
+   "dan": 1515565,
+   "url": "https://www.dm.at/p/d/1515565/dmbio-fertiggericht-gemuese-ravioli",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1515565",
+   "gtin": 4066447889949,
+   "brand": "dmBio",
+   "title": "Fertiggericht Gemüse Ravioli, 270 g",
+   "price": "2,75 €",
+   "images": [
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1763565885/assets/pas/images/0dfc571f-5b77-42e8-85c4-380e191243dc/dmbio-fertiggericht-gemuese-ravioli",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1763565893/assets/pas/images/88d91c82-0537-4d1b-b1ca-a690398a0f93/dmbio-fertiggericht-gemuese-ravioli"
+   ]
+  },
+  {
+   "dan": 1601912,
+   "url": "https://www.dm.at/p/d/1601912/dmbio-eintopf-erbsen-mit-gemuese",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1601912",
+   "gtin": 4066447892468,
+   "brand": "dmBio",
+   "title": "Eintopf Erbsen mit Gemüse, 400 g",
+   "price": "2,35 €",
+   "images": [
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1761166342/assets/pas/images/566b0739-d415-4125-8051-6a9f4e1b72a6/dmbio-eintopf-erbsen-mit-gemuese",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1761166354/assets/pas/images/d5471e37-6551-40f3-a6b0-1277d166109a/dmbio-eintopf-erbsen-mit-gemuese",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1761166348/assets/pas/images/18752ed9-ca10-47ed-984b-18310cdfddd4/dmbio-eintopf-erbsen-mit-gemuese"
+   ]
+  },
+  {
+   "dan": 1712470,
+   "url": "https://www.dm.at/p/d/1712470/tressbrueder-eintopf-kichererbsen-erdnuss-curry",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1712470",
+   "gtin": 4260189683609,
+   "brand": "TRESSBRÜDER",
+   "title": "Eintopf Kichererbsen Erdnuss Curry, 375 ml",
+   "price": "2,95 €",
+   "images": [
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1771974446/assets/pas/images/a0a2bfa3-fb4e-4836-9de8-a56b83268fd4/tressbrueder-eintopf-kichererbsen-erdnuss-curry"
+   ]
+  },
+  {
+   "dan": 1712480,
+   "url": "https://www.dm.at/p/d/1712480/tressbrueder-fertiggericht-typ-butter-chicken-curry",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1712480",
+   "gtin": 4260189683630,
+   "brand": "TRESSBRÜDER",
+   "title": "Fertiggericht Typ Butter Chicken Curry, 375 ml",
+   "price": "2,95 €",
+   "images": [
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1785621910/assets/pas/images/91386823-0c43-4e3b-adca-adac03896100/tressbrueder-fertiggericht-typ-butter-chicken-curry"
+   ]
+  },
+  {
+   "dan": 1716619,
+   "url": "https://www.dm.at/p/d/1716619/little-lunch-tomatensuppe",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1716619",
+   "gtin": 4260614722385,
+   "brand": "Little Lunch",
+   "title": "Tomatensuppe, 350 ml",
+   "price": "3,55 €",
+   "images": [
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1747493474/assets/pas/images/d0a629ec-8a3a-4c52-887b-d9404ccdf127/little-lunch-tomatensuppe",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1787179009/assets/pas/images/e1307ed5-433b-4f2e-9c8a-f7a4b6e268d3/little-lunch-tomatensuppe",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1788556858/assets/pas/images/b48e8c4a-ccd3-4981-9eed-efe7252d1e66/little-lunch-tomatensuppe",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1788556884/assets/pas/images/e0138564-6c47-45de-b441-7dcb4176d0d8/little-lunch-tomatensuppe",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1788556897/assets/pas/images/f3e2f998-c190-403a-b18e-38e4e5df6eff/little-lunch-tomatensuppe",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1788556871/assets/pas/images/fb627c29-00dc-471e-9347-28659164af98/little-lunch-tomatensuppe",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1786752491/assets/pas/images/a1654452-617b-45aa-a54e-c78cb46d03e8/little-lunch-tomatensuppe",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1747493789/assets/pas/images/1f92aa4c-0e69-45ad-9604-af8cfa3430b8/little-lunch-tomatensuppe",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1747493899/assets/pas/images/7d476a9a-dfe4-4470-993b-0408e8a56f30/little-lunch-tomatensuppe",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1747493889/assets/pas/images/568930d2-e189-4db3-84dc-5d7c5f2f88e3/little-lunch-tomatensuppe",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1747493895/assets/pas/images/bcb54f44-47a2-418d-8918-85925b629de2/little-lunch-tomatensuppe",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1747493473/assets/pas/images/9d935025-c5ae-4d54-a91a-c2912c692514/little-lunch-tomatensuppe",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1747493818/assets/pas/images/966aee3e-80d3-4900-baec-614a454ce922/little-lunch-tomatensuppe"
+   ]
+  },
+  {
+   "dan": 1716620,
+   "url": "https://www.dm.at/p/d/1716620/little-lunch-karottensuppe",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1716620",
+   "gtin": 4260614722408,
+   "brand": "Little Lunch",
+   "title": "Karottensuppe, 350 ml",
+   "price": "3,55 €",
+   "images": [
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1788557014/assets/pas/images/7185f095-cf4f-4ff3-b840-8487b33e2533/little-lunch-karottensuppe",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1788557027/assets/pas/images/e2f99c38-eab3-4c3c-bdaf-d158c9a2c8a6/little-lunch-karottensuppe",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1788556962/assets/pas/images/2b827064-ed18-4015-8ab4-0cac02850a81/little-lunch-karottensuppe",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1788557002/assets/pas/images/20a712a4-3f6e-412b-9f59-5a68305b7690/little-lunch-karottensuppe",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1788556976/assets/pas/images/7e74eca5-9187-4daf-bdb8-f3b26c83c55a/little-lunch-karottensuppe",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1788556989/assets/pas/images/ef96c467-0a22-4ff6-81e0-0ffce1807681/little-lunch-karottensuppe"
+   ]
+  },
+  {
+   "dan": 1716629,
+   "url": "https://www.dm.at/p/d/1716629/little-lunch-kuerbissuppe",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1716629",
+   "gtin": 4260614720411,
+   "brand": "Little Lunch",
+   "title": "Kürbissuppe, 350 ml",
+   "price": "3,55 €",
+   "images": [
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1747493815/assets/pas/images/068702df-4851-4715-823a-1ed281863c87/little-lunch-kuerbissuppe",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1788556962/assets/pas/images/b97f9ffd-17b2-4675-ae46-077484e7d6ef/little-lunch-kuerbissuppe",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1787179355/assets/pas/images/371cdacf-9abf-468d-869a-06c6f2834258/little-lunch-kuerbissuppe",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1788556975/assets/pas/images/e8f2ad06-558c-46c6-9f39-45a6b136e17d/little-lunch-kuerbissuppe",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1790027749/assets/pas/images/4178eeea-0a9c-4251-ba22-6f4396b4f028/little-lunch-kuerbissuppe",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1790027734/assets/pas/images/73ddca30-3441-475f-bb35-c500c97202e8/little-lunch-kuerbissuppe",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1787179370/assets/pas/images/51ba001b-1d26-4f65-b86a-c6967935828d/little-lunch-kuerbissuppe",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1747493447/assets/pas/images/ee6fad3d-3d3d-4866-9c22-3b160c612334/little-lunch-kuerbissuppe"
+   ]
+  },
+  {
+   "dan": 1894200,
+   "url": "https://www.dm.at/p/d/1894200/biogourmet-fertiggericht-baked-beans-in-tomatensauce",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1894200",
+   "gtin": 4039057417437,
+   "brand": "BioGourmet",
+   "title": "Fertiggericht Baked Beans in Tomatensauce, 0,4 kg",
+   "price": "1,60 €",
+   "images": [
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1747444506/assets/pas/images/5d1b44ae-497f-4608-bb6c-4074d912084e/biogourmet-fertiggericht-baked-beans-in-tomatensauce",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1747444738/assets/pas/images/84ce292b-9d8c-445f-961f-55d56462bc85/biogourmet-fertiggericht-baked-beans-in-tomatensauce"
+   ]
+  },
+  {
+   "dan": 1917648,
+   "url": "https://www.dm.at/p/d/1917648/lotao-fertiggericht-linsen-dal",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1917648",
+   "gtin": 4260237451709,
+   "brand": "Lotao",
+   "title": "Fertiggericht Linsen Dal, 320 g",
+   "price": "3,45 €",
+   "images": [
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1747491954/assets/pas/images/01aecb98-1b9b-407b-b8cd-bff8b4f50f80/lotao-fertiggericht-linsen-dal"
+   ]
+  },
+  {
+   "dan": 1923461,
+   "url": "https://www.dm.at/p/d/1923461/little-lunch-eintopf-chili-sin-carne-vegan",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1923461",
+   "gtin": 4280000878519,
+   "brand": "Little Lunch",
+   "title": "Eintopf Chili Sin Carne vegan, 350 g",
+   "price": "3,55 €",
+   "images": [
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1788557150/assets/pas/images/7d37d096-f563-483a-aec5-c5b60038ab4e/little-lunch-eintopf-chili-sin-carne-vegan",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1788557136/assets/pas/images/6764e3d6-6eec-4ccb-8bf6-9c72ef9510d5/little-lunch-eintopf-chili-sin-carne-vegan",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1788557108/assets/pas/images/0de37a2c-c02f-4754-8e7d-8822f914990d/little-lunch-eintopf-chili-sin-carne-vegan",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1788557094/assets/pas/images/58411c59-662e-472e-aec9-888079dbd5f6/little-lunch-eintopf-chili-sin-carne-vegan",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1788557121/assets/pas/images/39d4c3eb-a388-492a-8fcc-fbe362151251/little-lunch-eintopf-chili-sin-carne-vegan",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1786748260/assets/pas/images/ac4525d0-cef5-4534-9994-c453e536ef73/little-lunch-eintopf-chili-sin-carne-vegan"
+   ]
+  },
+  {
+   "dan": 1923464,
+   "url": "https://www.dm.at/p/d/1923464/little-lunch-eintopf-protein-bowl-kichererbsen-und-linsen",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1923464",
+   "gtin": 4260614720343,
+   "brand": "Little Lunch",
+   "title": "Eintopf Protein Bowl Kichererbsen & Linsen, 350 g",
+   "price": "3,55 €",
+   "images": [
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1788557042/assets/pas/images/a88c41da-ada0-4e07-b98d-91c8e565d450/little-lunch-eintopf-protein-bowl-kichererbsen-und-linsen",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1788557083/assets/pas/images/d046d67b-849a-4eb9-ab31-328f353aa413/little-lunch-eintopf-protein-bowl-kichererbsen-und-linsen",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1788557098/assets/pas/images/fa34f835-7c9c-4347-8852-15050611f2e3/little-lunch-eintopf-protein-bowl-kichererbsen-und-linsen",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1788557056/assets/pas/images/8d1d0d0a-151d-4b8f-a6e6-120ec746e780/little-lunch-eintopf-protein-bowl-kichererbsen-und-linsen",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1788557070/assets/pas/images/23918d7e-d33d-4a9d-a048-25ce50f38cde/little-lunch-eintopf-protein-bowl-kichererbsen-und-linsen",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1786748532/assets/pas/images/aea73ab1-d014-45d7-bfb8-228274badbc4/little-lunch-eintopf-protein-bowl-kichererbsen-und-linsen"
+   ]
+  },
+  {
+   "dan": 1923477,
+   "url": "https://www.dm.at/p/d/1923477/little-lunch-fertiggericht-ravioli-in-tomatensosse",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1923477",
+   "gtin": 4260614721517,
+   "brand": "Little Lunch",
+   "title": "Fertiggericht Ravioli in Tomatensoße, 350 g",
+   "price": "3,95 €",
+   "images": [
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1754000547/assets/pas/images/cc180f98-3131-48e8-9d74-a3954aa77738/little-lunch-fertiggericht-ravioli-in-tomatensosse",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1754000530/assets/pas/images/fbb3e975-2b20-4800-8b1b-589785dfaee1/little-lunch-fertiggericht-ravioli-in-tomatensosse",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1754000562/assets/pas/images/c83d6207-a61c-4d54-b115-e504e1548e78/little-lunch-fertiggericht-ravioli-in-tomatensosse",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1754000629/assets/pas/images/4b6b3a57-b2be-44bc-8265-1f56934f672a/little-lunch-fertiggericht-ravioli-in-tomatensosse",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1754000596/assets/pas/images/9d1df05f-8d1e-4057-a3c8-92d4fe3ea308/little-lunch-fertiggericht-ravioli-in-tomatensosse",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1754000623/assets/pas/images/0611fccc-b98d-4bbf-87d7-36801c104ff4/little-lunch-fertiggericht-ravioli-in-tomatensosse",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1754000577/assets/pas/images/2b4b2413-8366-4865-bb48-f92e39ecb473/little-lunch-fertiggericht-ravioli-in-tomatensosse",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1747493454/assets/pas/images/fb697609-e918-4ed0-8265-56bca8e1f294/little-lunch-fertiggericht-ravioli-in-tomatensosse"
+   ]
+  },
+  {
+   "dan": 1923478,
+   "url": "https://www.dm.at/p/d/1923478/little-lunch-eintopf-thai-curry",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1923478",
+   "gtin": 4280000878946,
+   "brand": "Little Lunch",
+   "title": "Eintopf Thai Curry, 350 g",
+   "price": "3,55 €",
+   "images": [
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1788989533/assets/pas/images/7fa6432e-5d4c-43b4-a596-d7c2dd1dfcc6/little-lunch-eintopf-thai-curry",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1788989505/assets/pas/images/69213187-1b94-4337-9536-2a3500b70b4c/little-lunch-eintopf-thai-curry",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1788989491/assets/pas/images/2ab556f8-5209-419b-8c0f-d92529b40272/little-lunch-eintopf-thai-curry",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1788989478/assets/pas/images/0c5d4eb4-ff61-4b76-af54-7f27f4fa2682/little-lunch-eintopf-thai-curry",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1788989463/assets/pas/images/f6622321-f591-43a3-b34a-7804deac53bd/little-lunch-eintopf-thai-curry",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1788989519/assets/pas/images/17c83314-425e-4663-8bc4-cb10310d3b20/little-lunch-eintopf-thai-curry"
+   ]
+  },
+  {
+   "dan": 3064090,
+   "url": "https://www.dm.at/p/d/3064090/dmbio-fertiggericht-vegane-currywurst",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/3064090",
+   "gtin": 4067796202915,
+   "brand": "dmBio",
+   "title": "Fertiggericht Vegane Currywurst, 350 g",
+   "price": "2,95 €",
+   "images": [
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1749554434/assets/pas/images/4f83ba3c-8d1a-4ff4-b657-490df704d4db/dmbio-fertiggericht-vegane-currywurst",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1749554473/assets/pas/images/b3cc52cb-eb89-4044-9add-f40dd2d75cd1/dmbio-fertiggericht-vegane-currywurst",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1749554454/assets/pas/images/437a0ec8-bdfc-485c-90e0-a19c5d05bd6f/dmbio-fertiggericht-vegane-currywurst"
+   ]
+  },
+  {
+   "dan": 3102923,
+   "url": "https://www.dm.at/p/d/3102923/dmbio-fertiggericht-mexican-style-bowl",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/3102923",
+   "gtin": 4066447884685,
+   "brand": "dmBio",
+   "title": "Fertiggericht Mexican Style Bowl, 250 g",
+   "price": "2,50 €",
+   "images": [
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1781130606/assets/pas/images/0202da11-40f9-4f8b-8ed9-f2e9317a3b8b/dmbio-fertiggericht-mexican-style-bowl",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1781130599/assets/pas/images/d84c6f54-eb0d-42f5-8d4c-9c9532d330ef/dmbio-fertiggericht-mexican-style-bowl"
+   ]
+  },
+  {
+   "dan": 3127080,
+   "url": "https://www.dm.at/p/d/3127080/dmbio-chili-con-tofu-high-protein",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/3127080",
+   "gtin": 4070765057522,
+   "brand": "dmBio",
+   "title": "Chili con Tofu High Protein, 350 g",
+   "price": "2,75 €",
+   "images": [
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1781130717/assets/pas/images/658805e3-9be6-4780-b1ff-59b977c198c0/dmbio-chili-con-tofu-high-protein",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1774735845/assets/pas/images/ad8abb6c-4d5a-464d-a3dc-a33feda0d13a/dmbio-chili-con-tofu-high-protein",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1781130710/assets/pas/images/5e641ef9-f63a-41c7-b1f6-8a550c9b9bcc/dmbio-chili-con-tofu-high-protein"
+   ]
+  },
+  {
+   "dan": 3127090,
+   "url": "https://www.dm.at/p/d/3127090/dmbio-gulasch-vegan",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/3127090",
+   "gtin": 4070765058246,
+   "brand": "dmBio",
+   "title": "Gulasch vegan, 350 g",
+   "price": "2,45 €",
+   "images": [
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1774484108/assets/pas/images/5adea7b4-bae7-4a5f-86c6-dc69a843071c/dmbio-gulasch-vegan",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1774484114/assets/pas/images/43f8c714-a1b9-49d3-91ee-d2418786db51/dmbio-gulasch-vegan",
+    "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1774484120/assets/pas/images/56822a07-79ef-4a65-bdfa-eeed8fb91d16/dmbio-gulasch-vegan"
+   ]
+  }
+ ],
+ "matches": [
+  {
+   "product_id": "6740b1ce8cf7",
+   "name": "Little Lunch Eintopf Chili Sin Carne vegan, 350 g",
+   "method": "dm.at product JSON (DAN from sitemap) · exact brand+title+size match",
+   "image_url": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1788557150/assets/pas/images/7d37d096-f563-483a-aec5-c5b60038ab4e/little-lunch-eintopf-chili-sin-carne-vegan",
+   "dm_dan": 1923461,
+   "dm_url": "https://www.dm.at/p/d/1923461/little-lunch-eintopf-chili-sin-carne-vegan",
+   "gtin": 4280000878519,
+   "dm_title": "Little Lunch Eintopf Chili Sin Carne vegan, 350 g",
+   "dm_price_live": "3,55 €",
+   "verified": true,
+   "content_type": "image/png",
+   "bytes": 71203
+  },
+  {
+   "product_id": "aea36856db1b",
+   "name": "Little Lunch Eintopf Protein Bowl Kichererbsen & Linsen, 350 g",
+   "method": "dm.at product JSON (DAN from sitemap) · exact brand+title+size match",
+   "image_url": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1788557042/assets/pas/images/a88c41da-ada0-4e07-b98d-91c8e565d450/little-lunch-eintopf-protein-bowl-kichererbsen-und-linsen",
+   "dm_dan": 1923464,
+   "dm_url": "https://www.dm.at/p/d/1923464/little-lunch-eintopf-protein-bowl-kichererbsen-und-linsen",
+   "gtin": 4260614720343,
+   "dm_title": "Little Lunch Eintopf Protein Bowl Kichererbsen & Linsen, 350 g",
+   "dm_price_live": "3,55 €",
+   "verified": true,
+   "content_type": "image/png",
+   "bytes": 76935
+  },
+  {
+   "product_id": "f6a91d569484",
+   "name": "Little Lunch Eintopf Thai Curry, 350 g",
+   "method": "dm.at product JSON (DAN from sitemap) · exact brand+title+size match",
+   "image_url": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1788989533/assets/pas/images/7fa6432e-5d4c-43b4-a596-d7c2dd1dfcc6/little-lunch-eintopf-thai-curry",
+   "dm_dan": 1923478,
+   "dm_url": "https://www.dm.at/p/d/1923478/little-lunch-eintopf-thai-curry",
+   "gtin": 4280000878946,
+   "dm_title": "Little Lunch Eintopf Thai Curry, 350 g",
+   "dm_price_live": "3,55 €",
+   "verified": true,
+   "content_type": "image/png",
+   "bytes": 67011
+  },
+  {
+   "product_id": "2b7827ffd994",
+   "name": "Little Lunch Fertiggericht Pilz Risotto, 350 g",
+   "method": "Open Food Facts product API · brand+name+quantity match",
+   "image_url": "https://images.openfoodfacts.org/images/products/426/061/472/1791/front_de.3.400.jpg",
+   "source": "https://world.openfoodfacts.org/product/4260614721791",
+   "gtin": "4260614721791",
+   "off_name": "Pilz Risotto",
+   "off_quantity": "350 g",
+   "verified": true,
+   "content_type": "image/jpeg",
+   "bytes": 24633
+  },
+  {
+   "product_id": "3b4f63700fb2",
+   "name": "Lotao Chili sin Carne, 350 g",
+   "unmatched": true
+  },
+  {
+   "product_id": "077a3001a810",
+   "name": "Lotao Fertiggericht Linsen Dal, 320 g",
+   "method": "dm.at product JSON (DAN from sitemap) · exact brand+title+size match",
+   "image_url": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1747491954/assets/pas/images/01aecb98-1b9b-407b-b8cd-bff8b4f50f80/lotao-fertiggericht-linsen-dal",
+   "dm_dan": 1917648,
+   "dm_url": "https://www.dm.at/p/d/1917648/lotao-fertiggericht-linsen-dal",
+   "gtin": 4260237451709,
+   "dm_title": "Lotao Fertiggericht Linsen Dal, 320 g",
+   "dm_price_live": "3,45 €",
+   "verified": true,
+   "content_type": "image/png",
+   "bytes": 183173
+  },
+  {
+   "product_id": "92cd233d3525",
+   "name": "Lotao Fertiggericht Veggie Curry, 320 g",
+   "method": "Open Food Facts product API · brand+name+quantity match",
+   "image_url": "https://images.openfoodfacts.org/images/products/426/023/745/1099/front_fr.14.400.jpg",
+   "source": "https://world.openfoodfacts.org/product/4260237451099",
+   "gtin": "4260237451099",
+   "off_name": "Veggie Curry",
+   "off_quantity": "320g",
+   "verified": true,
+   "content_type": "image/jpeg",
+   "bytes": 21265
+  },
+  {
+   "product_id": "047f5ef85cda",
+   "name": "Lotao Fertiggericht veggie Chili sin Carne, 320 g",
+   "method": "Lotao official Shopify products.json · title+pack size match",
+   "image_url": "https://cdn.shopify.com/s/files/1/0644/1045/2202/products/LOTAO_VeggieChilisinCarne_vegan-BIO-lecker-proteinreich_Einzel.webp?v=1707925357",
+   "source": "https://www.lotao.com/products/lotao-chili-sin-carne",
+   "manufacturer_title": "Veggie Chili sin Carne",
+   "verified": true,
+   "content_type": "image/png",
+   "bytes": 1066844
+  },
+  {
+   "product_id": "6248fe160e67",
+   "name": "dmBio Fertiggericht Gemüse Ravioli, 270 g",
+   "method": "dm.at product JSON (DAN from sitemap) · exact brand+title+size match",
+   "image_url": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1763565885/assets/pas/images/0dfc571f-5b77-42e8-85c4-380e191243dc/dmbio-fertiggericht-gemuese-ravioli",
+   "dm_dan": 1515565,
+   "dm_url": "https://www.dm.at/p/d/1515565/dmbio-fertiggericht-gemuese-ravioli",
+   "gtin": 4066447889949,
+   "dm_title": "dmBio Fertiggericht Gemüse Ravioli, 270 g",
+   "dm_price_live": "2,75 €",
+   "verified": true,
+   "content_type": "image/png",
+   "bytes": 211456
+  },
+  {
+   "product_id": "6987f5187ea4",
+   "name": "dmBio Fertiggericht Linsen Dal mit Kartoffeln, 280 g",
+   "method": "Open Food Facts product API · brand+name+quantity match",
+   "image_url": "https://images.openfoodfacts.org/images/products/406/644/744/0881/front_en.3.400.jpg",
+   "source": "https://world.openfoodfacts.org/product/4066447440881",
+   "gtin": "4066447440881",
+   "off_name": "Linsen Dal mit Kartoffeln",
+   "off_quantity": "280g",
+   "verified": true,
+   "content_type": "image/jpeg",
+   "bytes": 22049
+  },
+  {
+   "product_id": "62f08176ebb0",
+   "name": "dmBio Veganuary Chili con Grünkern, 400 g",
+   "unmatched": true
+  },
+  {
+   "product_id": "fbb1017592a4",
+   "name": "dmBio Vegane Currywurst",
+   "method": "dm.at product JSON (DAN from sitemap) · URL DAN match",
+   "image_url": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1749554434/assets/pas/images/4f83ba3c-8d1a-4ff4-b657-490df704d4db/dmbio-fertiggericht-vegane-currywurst",
+   "dm_dan": 3064090,
+   "dm_url": "https://www.dm.at/p/d/3064090/dmbio-fertiggericht-vegane-currywurst",
+   "gtin": 4067796202915,
+   "dm_title": "dmBio Fertiggericht Vegane Currywurst, 350 g",
+   "dm_price_live": "2,95 €",
+   "verified": true,
+   "content_type": "image/png",
+   "bytes": 216812
+  },
+  {
+   "product_id": "84f62b60ddae",
+   "name": "dmBio Gulasch vegan",
+   "method": "dm.at product JSON (DAN from sitemap) · URL DAN match",
+   "image_url": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1774484108/assets/pas/images/5adea7b4-bae7-4a5f-86c6-dc69a843071c/dmbio-gulasch-vegan",
+   "dm_dan": 3127090,
+   "dm_url": "https://www.dm.at/p/d/3127090/dmbio-gulasch-vegan",
+   "gtin": 4070765058246,
+   "dm_title": "dmBio Gulasch vegan, 350 g",
+   "dm_price_live": "2,45 €",
+   "verified": true,
+   "content_type": "image/png",
+   "bytes": 219609
+  },
+  {
+   "product_id": "a44b34ab3aba",
+   "name": "dmBio Chili sin Carne",
+   "method": "dm.at product JSON (DAN from sitemap) · URL DAN match",
+   "image_url": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1760132977/assets/pas/images/1e5fa371-01c0-4a64-b591-52b15c7a1654/dmbio-eintopf-chili-sin-carne-mit-kidneybohnen-und-weizenhack",
+   "dm_dan": 1488556,
+   "dm_url": "https://www.dm.at/p/d/1488556/dmbio-eintopf-chili-sin-carne-mit-kidneybohnen-und-weizenhack",
+   "gtin": 4066447892482,
+   "dm_title": "dmBio Eintopf Chili sin Carne mit Kidneybohnen & Weizenhack, 400 g",
+   "dm_price_live": "2,35 €",
+   "verified": true,
+   "content_type": "image/png",
+   "bytes": 190771
+  },
+  {
+   "product_id": "148d955bee5a",
+   "name": "Little Lunch Protein Bowl Kichererbsen & Linsen",
+   "method": "dm.at product JSON (DAN from sitemap) · URL DAN match",
+   "image_url": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1788557042/assets/pas/images/a88c41da-ada0-4e07-b98d-91c8e565d450/little-lunch-eintopf-protein-bowl-kichererbsen-und-linsen",
+   "dm_dan": 1923464,
+   "dm_url": "https://www.dm.at/p/d/1923464/little-lunch-eintopf-protein-bowl-kichererbsen-und-linsen",
+   "gtin": 4260614720343,
+   "dm_title": "Little Lunch Eintopf Protein Bowl Kichererbsen & Linsen, 350 g",
+   "dm_price_live": "3,55 €",
+   "verified": true,
+   "content_type": "image/png",
+   "bytes": 76935
+  },
+  {
+   "product_id": "4de899c7e257",
+   "name": "Tressbrüder Butter Chicken Curry",
+   "method": "dm.at product JSON (DAN from sitemap) · URL DAN match",
+   "image_url": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1785621910/assets/pas/images/91386823-0c43-4e3b-adca-adac03896100/tressbrueder-fertiggericht-typ-butter-chicken-curry",
+   "dm_dan": 1712480,
+   "dm_url": "https://www.dm.at/p/d/1712480/tressbrueder-fertiggericht-typ-butter-chicken-curry",
+   "gtin": 4260189683630,
+   "dm_title": "TRESSBRÜDER Fertiggericht Typ Butter Chicken Curry, 375 ml",
+   "dm_price_live": "2,95 €",
+   "verified": true,
+   "content_type": "image/png",
+   "bytes": 64393
+  },
+  {
+   "product_id": "06c205192b6f",
+   "name": "Little Lunch Chili Sin Carne",
+   "method": "dm.at product JSON (DAN from sitemap) · URL DAN match",
+   "image_url": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1788557150/assets/pas/images/7d37d096-f563-483a-aec5-c5b60038ab4e/little-lunch-eintopf-chili-sin-carne-vegan",
+   "dm_dan": 1923461,
+   "dm_url": "https://www.dm.at/p/d/1923461/little-lunch-eintopf-chili-sin-carne-vegan",
+   "gtin": 4280000878519,
+   "dm_title": "Little Lunch Eintopf Chili Sin Carne vegan, 350 g",
+   "dm_price_live": "3,55 €",
+   "verified": true,
+   "content_type": "image/png",
+   "bytes": 71203
+  },
+  {
+   "product_id": "14995f0b5901",
+   "name": "Lotao Linsen Dal",
+   "method": "dm.at product JSON (DAN from sitemap) · URL DAN match",
+   "image_url": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1747491954/assets/pas/images/01aecb98-1b9b-407b-b8cd-bff8b4f50f80/lotao-fertiggericht-linsen-dal",
+   "dm_dan": 1917648,
+   "dm_url": "https://www.dm.at/p/d/1917648/lotao-fertiggericht-linsen-dal",
+   "gtin": 4260237451709,
+   "dm_title": "Lotao Fertiggericht Linsen Dal, 320 g",
+   "dm_price_live": "3,45 €",
+   "verified": true,
+   "content_type": "image/png",
+   "bytes": 183173
+  },
+  {
+   "product_id": "3b99bc8cc7c4",
+   "name": "dmBio Mexican Style Bowl",
+   "method": "dm.at product JSON (DAN from sitemap) · URL DAN match",
+   "image_url": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1781130606/assets/pas/images/0202da11-40f9-4f8b-8ed9-f2e9317a3b8b/dmbio-fertiggericht-mexican-style-bowl",
+   "dm_dan": 3102923,
+   "dm_url": "https://www.dm.at/p/d/3102923/dmbio-fertiggericht-mexican-style-bowl",
+   "gtin": 4066447884685,
+   "dm_title": "dmBio Fertiggericht Mexican Style Bowl, 250 g",
+   "dm_price_live": "2,50 €",
+   "verified": true,
+   "content_type": "image/png",
+   "bytes": 252920
+  },
+  {
+   "product_id": "194d07e5130e",
+   "name": "dmBio Eintopf Linsen mit Kartoffeln",
+   "method": "dm.at product JSON (DAN from sitemap) · URL DAN match",
+   "image_url": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1760133002/assets/pas/images/92d02758-5f2d-4466-951a-ab5b666a026f/dmbio-eintopf-linsen-mit-kartoffeln",
+   "dm_dan": 1491032,
+   "dm_url": "https://www.dm.at/p/d/1491032/dmbio-eintopf-linsen-mit-kartoffeln",
+   "gtin": 4066447892444,
+   "dm_title": "dmBio Eintopf Linsen mit Kartoffeln, 400 g",
+   "dm_price_live": "2,35 €",
+   "verified": true,
+   "content_type": "image/png",
+   "bytes": 188433
+  },
+  {
+   "product_id": "00f88ca6fa5d",
+   "name": "dmBio Eintopf Erbsen mit Gemüse",
+   "method": "dm.at product JSON (DAN from sitemap) · URL DAN match",
+   "image_url": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1761166342/assets/pas/images/566b0739-d415-4125-8051-6a9f4e1b72a6/dmbio-eintopf-erbsen-mit-gemuese",
+   "dm_dan": 1601912,
+   "dm_url": "https://www.dm.at/p/d/1601912/dmbio-eintopf-erbsen-mit-gemuese",
+   "gtin": 4066447892468,
+   "dm_title": "dmBio Eintopf Erbsen mit Gemüse, 400 g",
+   "dm_price_live": "2,35 €",
+   "verified": true,
+   "content_type": "image/png",
+   "bytes": 187970
+  },
+  {
+   "product_id": "5694584eaaab",
+   "name": "dmBio Eintopf Kichererbsen Kokos",
+   "method": "dm.at product JSON (DAN from sitemap) · URL DAN match",
+   "image_url": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1764283155/assets/pas/images/4b6c4bfe-c0ae-43ea-bf1f-801c8afbe7b3/dmbio-eintopf-kichererbsen-mit-kokosmilch",
+   "dm_dan": 1488557,
+   "dm_url": "https://www.dm.at/p/d/1488557/dmbio-eintopf-kichererbsen-mit-kokosmilch",
+   "gtin": 4066447892505,
+   "dm_title": "dmBio Eintopf Kichererbsen mit Kokosmilch, 400 g",
+   "dm_price_live": "2,35 €",
+   "verified": true,
+   "content_type": "image/png",
+   "bytes": 196742
+  },
+  {
+   "product_id": "467394d1238e",
+   "name": "dmBio Gemüse Ravioli",
+   "method": "dm.at product JSON (DAN from sitemap) · URL DAN match",
+   "image_url": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1763565885/assets/pas/images/0dfc571f-5b77-42e8-85c4-380e191243dc/dmbio-fertiggericht-gemuese-ravioli",
+   "dm_dan": 1515565,
+   "dm_url": "https://www.dm.at/p/d/1515565/dmbio-fertiggericht-gemuese-ravioli",
+   "gtin": 4066447889949,
+   "dm_title": "dmBio Fertiggericht Gemüse Ravioli, 270 g",
+   "dm_price_live": "2,75 €",
+   "verified": true,
+   "content_type": "image/png",
+   "bytes": 211456
+  }
+ ]
+}
