@@ -715,6 +715,21 @@ def main():
                 r["image_url"] = img_by_pid[r["product_id"]]
         write_csv_json("products", products)
         print("updated data/products.*", len(img_by_pid), "images")
+        # Overlay for fertig/score.py rebuilds (mirrors spar_cdn_overlay.json)
+        ov = {
+            "fetched_at": now,
+            "method": "strict OFF/Aldi match; HEAD-verified",
+            "images": [{"name": m["name"], "image_url": m["image_url"], "product_id": m["product_id"],
+                        "off_code": m.get("off_code")} for m in img_evidence["matches"]],
+        }
+        ov_raw = os.path.join(RAW, "hofer_images_overlay.json")
+        json.dump(ov, open(ov_raw, "w"), ensure_ascii=False, indent=2)
+        fertig_ov = "/workspace/fertig/hofer_images_overlay.json"
+        try:
+            json.dump(ov, open(fertig_ov, "w"), ensure_ascii=False, indent=2)
+            print("wrote overlay", ov_raw, "and", fertig_ov)
+        except Exception as e:
+            print("overlay fertig write skipped", e)
 
     if not args.skip_prices and price_by_pid:
         json.dump(price_evidence, open(price_path, "w"), ensure_ascii=False, indent=2)
