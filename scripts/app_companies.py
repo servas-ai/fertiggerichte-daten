@@ -8,6 +8,9 @@ cs = json.load(open(f"{R}/data/companies.json"))
 logos = json.load(open(f"{SRC}/analysis/logos.json")); comp = json.load(open(f"{SRC}/analysis/companies.json"))
 # explicit company → group logo (verified parent/brand identity, see raw/logos_companies_2026-10-13T13.json)
 COMPANY_LOGO = {"rewe-international-ag": "rewe-group", "mars-austria-og": "mars"}
+# brand aliases that point at a *different* company's logo (producer/distributor fallback for product display only, T13b) must not
+# become the logo of the brand's own legal entity: e.g. Feelfood → Alimentastic logo, but PLANT BASED POWER GmbH ≠ Alimentastic
+NO_BRAND_FALLBACK = {"plant-based-power-gmbh"}
 def num(s):
     return float(s.replace(".", "").replace(",", "."))
 for c in cs:
@@ -18,7 +21,7 @@ for c in cs:
         for k, v in logos.items():
             if v.get("file") and (match_score(v.get("name"), c["name"]) >= .5 or any(b.lower() == k for b in c["brands"]) or (c.get("legal_name") or c["name"]).lower().startswith(k.replace("-", " "))):
                 lg = "analysis/" + v["file"] if not v["file"].startswith("analysis") else v["file"]; break
-    if not lg:  # brand-alias fallback: a company's own brand has a file-backed logo (name or alias), e.g. Kasnudl GmbH → Stadtküche
+    if not lg and c["slug"] not in NO_BRAND_FALLBACK:  # brand-alias fallback: a company's own brand has a file-backed logo (name or alias), e.g. Kasnudl GmbH → Stadtküche
         bl = {b.lower() for b in c["brands"] if b}
         for k, v in logos.items():
             if v.get("file") and os.path.exists(f"{SRC}/analysis/{v['file']}") and bl & {a.lower() for a in (v.get("brands") or []) + [v.get("name") or "", k] if a}:

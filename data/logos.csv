@@ -93,11 +93,11 @@ hofstaedter,Hofstädter,Markenhersteller,logos/hofstaedter.png,https://assets-eu
 radatz,Radatz,Produzent/Werk,logos/radatz.png,https://www.radatz.at/apple-icon-180x180.png,Radatz
 hink,Hink Wien,Produzent/Werk,logos/hink.svg,https://hink.wien/cdn/shop/files/Hink_logo.svg,Hink Wien
 gms-gourmet,GMS Gourmet,Produzent/Werk,logos/gms-gourmet.png,https://www.gourmet.at/typo3temp/assets/_processed_/2/0/csm_Gourmet-Dachmarke-Logo-x2_6143c033c9.webp,GMS Gourmet
-greisinger,Greisinger,Produzent/Werk,logos/greisinger.png,https://www.greisinger.com/wp-content/uploads/2022/01/logo_greisinger-200x200-c-default.png,Greisinger
+greisinger,Greisinger,Produzent/Werk,logos/greisinger.png,https://www.greisinger.com/wp-content/uploads/2022/01/logo_greisinger-200x200-c-default.png,Greisinger|Original Greisinger
 cecchin,Cecchin,Markenhersteller,logos/cecchin.png,http://static1.squarespace.com/static/623868eb996f462e58173d32/t/688b72769fbc474bff2a48c2/1753969270328/ESEC++LOGO+CECCHIN+2025-009-OK-OK.png?format=1500w,Cecchin|Fratelli Cecchin
-stangl,Stangl,Markenhersteller,,,Stangl
-amlacher,Amlacher,Markenhersteller,,,Amlacher
-ackerl,Ackerl,Markenhersteller,,,Ackerl
+stangl,Stangl Nudeln,Markenhersteller,logos/stangl.png,https://stanglnudeln.at/cdn/shop/files/StanglnudelnLogo.png?v=1692648650,Stangl|Stangl Nudeln|Stangl Teigwaren
+amlacher,Amlacher Nudel,Markenhersteller,logos/amlacher.png,https://amlachernudel.com/wp-content/uploads/amlacher-nudel-logo.jpg.jpeg,Amlacher|Amlacher Nudeln|Amlacher Nudel
+ackerl,Ackerl,Markenhersteller,logos/ackerl.png,https://www.weinbergmaier.at/images/ackerl.png,Ackerl|ACKERL
 pure,Pure,Markenhersteller,,,Pure
 ager,Ager,Markenhersteller,,,Ager
 youcook,YOUCOOK,Markenhersteller,logos/youcook.png,https://www.youcook-food.com/wp-content/uploads/2025/11/YOUCOOK_Logo-quer-freigestellt-1.png,Youcook|YOUCOOK|YouCook
@@ -111,11 +111,11 @@ pop-up,Pop-Up,Markenhersteller,,,Pop-Up
 franui,franuí,Markenhersteller,,,franuí
 ablinger,Ablinger,Markenhersteller,,,Ablinger
 indomie,Indomie,Markenhersteller,logos/indomie.png,https://commons.wikimedia.org/wiki/File%3AIndomie_Logo.png,Indomie
-blue-elephant,Blue Elephant,Markenhersteller,,,Blue Elephant
+blue-elephant,Blue Elephant,Markenhersteller,logos/blue-elephant.png,https://blueelephant.com/wp-content/uploads/2024/12/BE-logo-beaten-gold-1.webp,Blue Elephant
 juergen-langbein,Jürgen Langbein,Markenhersteller,,,Jürgen Langbein
 kuechenbrueder,Küchenbrüder,Markenhersteller,,,Küchenbrüder
 lorado,Lorado,Markenhersteller,,,Lorado
-dovgan,DOVGAN,Markenhersteller,,,DOVGAN
+dovgan,Dovgan,Markenhersteller,logos/dovgan.png,https://www.dovgan.de/assets/templates/redesign18/images/logo.png,DOVGAN|Dovgan
 every,Every,Markenhersteller,,,Every
 my-vay,My Vay,Markenhersteller,,,My Vay
 auinger,Auinger,Markenhersteller,,,Auinger
@@ -197,7 +197,7 @@ wiegert,Wiegert,Markenhersteller,logos/wiegert.png,https://www.wiegert.at/wp-con
 andechser-natur,Andechser Natur,Bio,logos/andechser-natur.svg,https://commons.wikimedia.org/wiki/File%3AAndechser_Molkerei_Logo.svg,Andechser Natur|Andechser
 bauernland,Bauernland,Markenhersteller,logos/bauernland.png,https://www.weinbergmaier.at/images/Logo_BL.png,Bauernland
 brajlovic,Brajlović,Markenhersteller,logos/brajlovic.png,https://www.brajlovic.at/,Brajlovic|Brajlović|BRAJLOVIC
-andros,Andros,Markenhersteller,logos/andros.png,https://www.andros.fr/wp-content/uploads/2023/04/Andros-new-logo.svg,Andros
+andros,Andros,Markenhersteller,logos/andros.png,https://www.andros.fr/wp-content/uploads/2023/04/Andros-new-logo.svg,Andros|Gourmand&Vegetal
 deflorian,deFLORiAN,Markenhersteller,logos/deflorian.png,https://deflorian.tirol/cdn/shop/files/deFlorian_logo.svg?height=35&v=1776863303,Deflorian|deFLORiAN|Deflorian S.r.l.
 aia,AIA,Markenhersteller,logos/aia.png,https://backoffice.aiafood.com/uploads/logo_aia_7afa0707fc.svg,AIA
 arla,Arla,Markenhersteller,logos/arla.png,https://www.arlafoods.de/UI/img/arla-logo.a7388293.svg,Arla
@@ -211,14 +211,29 @@ shanshi,Shan'shi,Markenhersteller,logos/shanshi.png,https://shan-shi.com/wp-cont
 riso-gallo,Riso Gallo,Markenhersteller,logos/riso-gallo.png,https://www.risogallo.it/cdn/shop/files/riso_gallo_logo_it.webp?v=1780040526,Riso Gallo
 esterhazy,Esterhazy,Markenhersteller,logos/esterhazy.png,https://esterhazy.at/assets/img/logo/ezy-logo-x1.png,Esterhazy
 galbani,Galbani,Markenhersteller,logos/galbani.png,https://commons.wikimedia.org/wiki/File%3ALogoGalbani-06122021.png,Galbani
-alimentastic,Alimentastic,Markenhersteller,logos/alimentastic.png,https://framerusercontent.com/assets/czFB8kgQwMxPBsOnXC5KcjBpo.png,
+alimentastic,Alimentastic,Markenhersteller,logos/alimentastic.png,https://framerusercontent.com/assets/czFB8kgQwMxPBsOnXC5KcjBpo.png,feelfood|Feelfood|Feel Food
 bauck,Bauck Mühle,Bio,logos/bauck.png,https://www.bauck.de/favicons/favicon.svg,Bauck Mühle|Bauck|Bauckhof
 ehrenwort,ehrenwort,Bio,logos/ehrenwort.png,https://cdn.shopify.com/s/files/1/0555/8013/1667/files/logo_ehrenwort_schwarz_b9609e13-f80c-469b-aeb0-b4afdb259bef.png?height=628&pad_color=fff&v=1678561683&width=1200,ehrenwort|Ehrenwort
-hamker,Hamker,Markenhersteller,logos/hamker.png,https://www.hamker.de/_assets/c10be5dfbeeb651361b989cc8e511cff/Frontend/Images/logo.png,
-heiderbeck,Heiderbeck,Markenhersteller,logos/heiderbeck.png,https://www.heiderbeck.com/wp-content/themes/heiderbeck/images/Heiderbeck_Logo.svg,
+hamker,Hamker,Markenhersteller,logos/hamker.png,https://www.hamker.de/_assets/c10be5dfbeeb651361b989cc8e511cff/Frontend/Images/logo.png,Marinus
+heiderbeck,Heiderbeck,Markenhersteller,logos/heiderbeck.png,https://www.heiderbeck.com/wp-content/themes/heiderbeck/images/Heiderbeck_Logo.svg,Casa di Pietro
 hiel,Hiel,Bio,logos/hiel.png,https://www.hiel.at/web/image/11300-1044edc8/900%20ppi%20Logo%20Gru%CC%88n%20mit%20Rand%20%236ba20a.png,Hiel
 mochi,Mochi,Markenhersteller,logos/mochi.png,https://www.mochi.at/bf_2020/mochi/wp-content/themes/mochi/images/logo_mochi_black.svg,Mochi
-rila,Rila,Markenhersteller,logos/rila.png,https://rila.de/bundles/rilatheme/storefront/img/logo.svg?1790331437,
-tops-foods,Tops Foods,Markenhersteller,logos/tops-foods.png,https://www.topsfoods.com/bundles/webcreator/Themes/tops-foods/images/favicons/apple-icon-120x120.png?v4.0.6,
+rila,Rila,Markenhersteller,logos/rila.png,https://rila.de/bundles/rilatheme/storefront/img/logo.svg?1790331437,Jürgen Langbein
+tops-foods,Tops Foods,Markenhersteller,logos/tops-foods.png,https://www.topsfoods.com/bundles/webcreator/Themes/tops-foods/images/favicons/apple-icon-120x120.png?v4.0.6,Pure|PURE
 rewe-group,REWE Group,Handelskette,logos/rewe-group.png,https://commons.wikimedia.org/wiki/File%3AREWE_GROUP_Logo_10-2026%E2%80%93.svg,
 mars,Mars,Markenhersteller,logos/mars.png,https://commons.wikimedia.org/wiki/File%3AMars_Incorporated_2019_logo.svg,
+wagner,Original Wagner,Markenhersteller,logos/wagner.png,https://www.original-wagner.de/,Wagner|Original Wagner|Nestlé Wagner
+frank-juice,frank.,Markenhersteller,logos/frank.png,https://thefrankjuice.com/cdn/shop/files/frank_logo_schwarz_-_frankjuice_png.png?v=1668438293,Frank Soup|frank|frank juice
+volante,Volante PIZZZA! per casa,Markenhersteller,logos/volante.png,https://static.wixstatic.com/media/406b0d_a7d548fa932046d88068a72fd344612a~mv2.png,Volante PIZZZA per casa|Volante|Pizzza Volante
+coppenrath-wiese,Coppenrath & Wiese,Markenhersteller,logos/coppenrath-wiese.png,https://commons.wikimedia.org/wiki/File:Logo_Conditorei_Coppenrath_%26_Wiese.png,Coppenrath & Wiese|Conditorei Coppenrath & Wiese|Coppenrath und Wiese
+gaon,GAON,Markenhersteller,logos/gaon.png,https://www.gaon-vienna.com/xstorage/1/_cache/20240423/GAON_Logo_black_281_1_5159b4ae78ffa4424552b77e0a315a5e.svg,GAON - Koreanisches Restaurant|GAON|Gaon
+freda,Freda,Markenhersteller,logos/freda.png,https://www.eatfreda.com/,Freda|FREDA
+wojnars,Wojnar's,Markenhersteller,logos/wojnars.png,https://www.wojnar.at/wp-content/uploads/2023/11/Logowojnarclaim-rgb.png,Wojnar's|Wojnar|WOJNAR'S
+kozy-shack,Kozy Shack,Markenhersteller,logos/kozy-shack.png,https://www.kozyshack.com/getmedia/6ffb8a26-e94a-4681-8059-b9d3a9226acb/top-logo.webp?ext=.webp,Kozyshack|Kozy Shack
+della-mamma,Della Mamma,Markenhersteller,logos/della-mamma.png,https://www.della-mamma.de/cdn/shop/files/DOL_DM_Logo_schwarz_1200x1200.png?v=1756479227,Della Mamma|DELLA MAMMA
+oekoland,Ökoland,Markenhersteller,logos/oekoland.png,https://oekoland.de/wp-content/uploads/2023/08/oekoland-logo-1000x819-1.png,Ökoland|Oekoland
+suedtiroler-kochwerk,Südtiroler Kochwerk,Markenhersteller,logos/suedtiroler-kochwerk.png,https://www.pursuedtirol.com/media/image/f4/b3/b3/Logo_S%C3%BCdtiroler_Kochwerk.png,Südtiroler Kochwerk|Kochwerk
+rians,Rians,Markenhersteller,logos/rians.png,https://cremerie.rians.com/app/themes/rians/library/images/logo-rians.svg,Rians|Rians Crémerie
+oyakata,Oyakata,Markenhersteller,logos/oyakata.png,https://oyakata.be/wp-content/themes/oyakata/assets/img/logo-round.svg,Oyakata|OYAKATA
+basenbox,Basenbox,Markenhersteller,logos/basenbox.png,https://www.basenbox.life/,Basenbox|BASENBOX
+john-west,John West,Markenhersteller,logos/john-west.png,https://www.john-west.co.uk/wp-content/uploads/2024/11/logo_320x230_1_transparent.png,John West

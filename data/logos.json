@@ -969,7 +969,8 @@
   "file": "logos/greisinger.png",
   "source_url": "https://www.greisinger.com/wp-content/uploads/2022/01/logo_greisinger-200x200-c-default.png",
   "brands": [
-   "Greisinger"
+   "Greisinger",
+   "Original Greisinger"
   ]
  },
  {
@@ -985,32 +986,37 @@
  },
  {
   "slug": "stangl",
-  "name": "Stangl",
+  "name": "Stangl Nudeln",
   "category": "Markenhersteller",
-  "file": null,
-  "source_url": null,
+  "file": "logos/stangl.png",
+  "source_url": "https://stanglnudeln.at/cdn/shop/files/StanglnudelnLogo.png?v=1692648650",
   "brands": [
-   "Stangl"
+   "Stangl",
+   "Stangl Nudeln",
+   "Stangl Teigwaren"
   ]
  },
  {
   "slug": "amlacher",
-  "name": "Amlacher",
+  "name": "Amlacher Nudel",
   "category": "Markenhersteller",
-  "file": null,
-  "source_url": null,
+  "file": "logos/amlacher.png",
+  "source_url": "https://amlachernudel.com/wp-content/uploads/amlacher-nudel-logo.jpg.jpeg",
   "brands": [
-   "Amlacher"
+   "Amlacher",
+   "Amlacher Nudeln",
+   "Amlacher Nudel"
   ]
  },
  {
   "slug": "ackerl",
   "name": "Ackerl",
   "category": "Markenhersteller",
-  "file": null,
-  "source_url": null,
+  "file": "logos/ackerl.png",
+  "source_url": "https://www.weinbergmaier.at/images/ackerl.png",
   "brands": [
-   "Ackerl"
+   "Ackerl",
+   "ACKERL"
   ]
  },
  {
@@ -1149,8 +1155,8 @@
   "slug": "blue-elephant",
   "name": "Blue Elephant",
   "category": "Markenhersteller",
-  "file": null,
-  "source_url": null,
+  "file": "logos/blue-elephant.png",
+  "source_url": "https://blueelephant.com/wp-content/uploads/2024/12/BE-logo-beaten-gold-1.webp",
   "brands": [
    "Blue Elephant"
   ]
@@ -1187,12 +1193,13 @@
  },
  {
   "slug": "dovgan",
-  "name": "DOVGAN",
+  "name": "Dovgan",
   "category": "Markenhersteller",
-  "file": null,
-  "source_url": null,
+  "file": "logos/dovgan.png",
+  "source_url": "https://www.dovgan.de/assets/templates/redesign18/images/logo.png",
   "brands": [
-   "DOVGAN"
+   "DOVGAN",
+   "Dovgan"
   ]
  },
  {
@@ -2067,7 +2074,8 @@
   "file": "logos/andros.png",
   "source_url": "https://www.andros.fr/wp-content/uploads/2023/04/Andros-new-logo.svg",
   "brands": [
-   "Andros"
+   "Andros",
+   "Gourmand&Vegetal"
   ]
  },
  {
@@ -2214,7 +2222,11 @@
   "category": "Markenhersteller",
   "file": "logos/alimentastic.png",
   "source_url": "https://framerusercontent.com/assets/czFB8kgQwMxPBsOnXC5KcjBpo.png",
-  "brands": []
+  "brands": [
+   "feelfood",
+   "Feelfood",
+   "Feel Food"
+  ]
  },
  {
   "slug": "bauck",
@@ -2245,7 +2257,9 @@
   "category": "Markenhersteller",
   "file": "logos/hamker.png",
   "source_url": "https://www.hamker.de/_assets/c10be5dfbeeb651361b989cc8e511cff/Frontend/Images/logo.png",
-  "brands": []
+  "brands": [
+   "Marinus"
+  ]
  },
  {
   "slug": "heiderbeck",
@@ -2253,7 +2267,9 @@
   "category": "Markenhersteller",
   "file": "logos/heiderbeck.png",
   "source_url": "https://www.heiderbeck.com/wp-content/themes/heiderbeck/images/Heiderbeck_Logo.svg",
-  "brands": []
+  "brands": [
+   "Casa di Pietro"
+  ]
  },
  {
   "slug": "hiel",
@@ -2281,7 +2297,9 @@
   "category": "Markenhersteller",
   "file": "logos/rila.png",
   "source_url": "https://rila.de/bundles/rilatheme/storefront/img/logo.svg?1790331437",
-  "brands": []
+  "brands": [
+   "Jürgen Langbein"
+  ]
  },
  {
   "slug": "tops-foods",
@@ -2289,7 +2307,10 @@
   "category": "Markenhersteller",
   "file": "logos/tops-foods.png",
   "source_url": "https://www.topsfoods.com/bundles/webcreator/Themes/tops-foods/images/favicons/apple-icon-120x120.png?v4.0.6",
-  "brands": []
+  "brands": [
+   "Pure",
+   "PURE"
+  ]
  },
  {
   "slug": "rewe-group",
@@ -2306,5 +2327,175 @@
   "file": "logos/mars.png",
   "source_url": "https://commons.wikimedia.org/wiki/File%3AMars_Incorporated_2019_logo.svg",
   "brands": []
+ },
+ {
+  "slug": "wagner",
+  "name": "Original Wagner",
+  "category": "Markenhersteller",
+  "file": "logos/wagner.png",
+  "source_url": "https://www.original-wagner.de/",
+  "brands": [
+   "Wagner",
+   "Original Wagner",
+   "Nestlé Wagner"
+  ]
+ },
+ {
+  "slug": "frank-juice",
+  "name": "frank.",
+  "category": "Markenhersteller",
+  "file": "logos/frank.png",
+  "source_url": "https://thefrankjuice.com/cdn/shop/files/frank_logo_schwarz_-_frankjuice_png.png?v=1668438293",
+  "brands": [
+   "Frank Soup",
+   "frank",
+   "frank juice"
+  ]
+ },
+ {
+  "slug": "volante",
+  "name": "Volante PIZZZA! per casa",
+  "category": "Markenhersteller",
+  "file": "logos/volante.png",
+  "source_url": "https://static.wixstatic.com/media/406b0d_a7d548fa932046d88068a72fd344612a~mv2.png",
+  "brands": [
+   "Volante PIZZZA per casa",
+   "Volante",
+   "Pizzza Volante"
+  ]
+ },
+ {
+  "slug": "coppenrath-wiese",
+  "name": "Coppenrath & Wiese",
+  "category": "Markenhersteller",
+  "file": "logos/coppenrath-wiese.png",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Logo_Conditorei_Coppenrath_%26_Wiese.png",
+  "brands": [
+   "Coppenrath & Wiese",
+   "Conditorei Coppenrath & Wiese",
+   "Coppenrath und Wiese"
+  ]
+ },
+ {
+  "slug": "gaon",
+  "name": "GAON",
+  "category": "Markenhersteller",
+  "file": "logos/gaon.png",
+  "source_url": "https://www.gaon-vienna.com/xstorage/1/_cache/20240423/GAON_Logo_black_281_1_5159b4ae78ffa4424552b77e0a315a5e.svg",
+  "brands": [
+   "GAON - Koreanisches Restaurant",
+   "GAON",
+   "Gaon"
+  ]
+ },
+ {
+  "slug": "freda",
+  "name": "Freda",
+  "category": "Markenhersteller",
+  "file": "logos/freda.png",
+  "source_url": "https://www.eatfreda.com/",
+  "brands": [
+   "Freda",
+   "FREDA"
+  ]
+ },
+ {
+  "slug": "wojnars",
+  "name": "Wojnar's",
+  "category": "Markenhersteller",
+  "file": "logos/wojnars.png",
+  "source_url": "https://www.wojnar.at/wp-content/uploads/2023/11/Logowojnarclaim-rgb.png",
+  "brands": [
+   "Wojnar's",
+   "Wojnar",
+   "WOJNAR'S"
+  ]
+ },
+ {
+  "slug": "kozy-shack",
+  "name": "Kozy Shack",
+  "category": "Markenhersteller",
+  "file": "logos/kozy-shack.png",
+  "source_url": "https://www.kozyshack.com/getmedia/6ffb8a26-e94a-4681-8059-b9d3a9226acb/top-logo.webp?ext=.webp",
+  "brands": [
+   "Kozyshack",
+   "Kozy Shack"
+  ]
+ },
+ {
+  "slug": "della-mamma",
+  "name": "Della Mamma",
+  "category": "Markenhersteller",
+  "file": "logos/della-mamma.png",
+  "source_url": "https://www.della-mamma.de/cdn/shop/files/DOL_DM_Logo_schwarz_1200x1200.png?v=1756479227",
+  "brands": [
+   "Della Mamma",
+   "DELLA MAMMA"
+  ]
+ },
+ {
+  "slug": "oekoland",
+  "name": "Ökoland",
+  "category": "Markenhersteller",
+  "file": "logos/oekoland.png",
+  "source_url": "https://oekoland.de/wp-content/uploads/2023/08/oekoland-logo-1000x819-1.png",
+  "brands": [
+   "Ökoland",
+   "Oekoland"
+  ]
+ },
+ {
+  "slug": "suedtiroler-kochwerk",
+  "name": "Südtiroler Kochwerk",
+  "category": "Markenhersteller",
+  "file": "logos/suedtiroler-kochwerk.png",
+  "source_url": "https://www.pursuedtirol.com/media/image/f4/b3/b3/Logo_S%C3%BCdtiroler_Kochwerk.png",
+  "brands": [
+   "Südtiroler Kochwerk",
+   "Kochwerk"
+  ]
+ },
+ {
+  "slug": "rians",
+  "name": "Rians",
+  "category": "Markenhersteller",
+  "file": "logos/rians.png",
+  "source_url": "https://cremerie.rians.com/app/themes/rians/library/images/logo-rians.svg",
+  "brands": [
+   "Rians",
+   "Rians Crémerie"
+  ]
+ },
+ {
+  "slug": "oyakata",
+  "name": "Oyakata",
+  "category": "Markenhersteller",
+  "file": "logos/oyakata.png",
+  "source_url": "https://oyakata.be/wp-content/themes/oyakata/assets/img/logo-round.svg",
+  "brands": [
+   "Oyakata",
+   "OYAKATA"
+  ]
+ },
+ {
+  "slug": "basenbox",
+  "name": "Basenbox",
+  "category": "Markenhersteller",
+  "file": "logos/basenbox.png",
+  "source_url": "https://www.basenbox.life/",
+  "brands": [
+   "Basenbox",
+   "BASENBOX"
+  ]
+ },
+ {
+  "slug": "john-west",
+  "name": "John West",
+  "category": "Markenhersteller",
+  "file": "logos/john-west.png",
+  "source_url": "https://www.john-west.co.uk/wp-content/uploads/2024/11/logo_320x230_1_transparent.png",
+  "brands": [
+   "John West"
+  ]
  }
 ]
