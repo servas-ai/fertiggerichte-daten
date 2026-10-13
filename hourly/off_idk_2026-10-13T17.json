@@ -1,0 +1,2102 @@
+{
+ "00600200": {
+  "_error": "HTTP Error 404: Not Found"
+ },
+ "00808910": {
+  "product_name": "Schuursponzen",
+  "brands": "Schuursponzen",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "00816564": {
+  "product_name": "madecwithout wheat 9 cod fish fingers",
+  "brands": "Marks & Spencer",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "16338003": {
+  "_error": "HTTP Error 404: Not Found"
+ },
+ "2079240004640": {
+  "product_name": "Caesar Salad",
+  "brands": "Rohlik.cz",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "29147014": {
+  "product_name": "",
+  "brands": "Marks & Spencer",
+  "emb_codes": "FSC-C012938",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "29147052": {
+  "product_name": "4 Breaded Cod",
+  "brands": "Marks & Spencers",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "3270160434213": {
+  "product_name": "Crêpes au lait entier",
+  "brands": "Picard",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "3270164000551": {
+  "_error": "HTTP Error 404: Not Found"
+ },
+ "3487400005342": {
+  "product_name": "Risotto - Tomaten & Italienische Kräuter",
+  "brands": "Ben's Original",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "3487400005359": {
+  "product_name": "Risotto - Hühnchen & Pilze",
+  "brands": "Ben's Original, Bens, Ebly, Uncle Ben's",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "3487400006356": {
+  "product_name": "Express-Reis - Curryreis Indien",
+  "brands": "Ben's Original, Mars, Ben's Original - Mars Incorporated",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "3608580077572": {
+  "product_name": "Gourmand&vegetal riz au lait",
+  "brands": "Andros",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "3838929620064": {
+  "product_name": "Chicken vibe",
+  "brands": "Delamaris",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "3850104003189": {
+  "product_name": "Podravka Chicken Noodle Soup",
+  "brands": "Podravka",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "Croatia, Koprivnica",
+  "code_strict": null
+ },
+ "4000503280004": {
+  "product_name": "Curryking fix & fertig",
+  "brands": "MEICA",
+  "emb_codes": "DE NI-34000 EG",
+  "brand_owner": null,
+  "manufacturing_places": "německo",
+  "code_strict": "DE NI-34000 EG"
+ },
+ "4001724011057": {
+  "product_name": "Die Ofenfrische Speciale",
+  "brands": "Dr. Oetker",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "Deutschland",
+  "code_strict": null
+ },
+ "4001724011088": {
+  "product_name": "Die Ofenfrische Pepperoni Salami",
+  "brands": "Dr. Oetker",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4001724011170": {
+  "product_name": "Pizza Salami Die Ofenfrische",
+  "brands": "Dr. Oetker",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "33617 Bielefeld, Deutschland",
+  "code_strict": null
+ },
+ "4001724022398": {
+  "product_name": "",
+  "brands": "Dr. Oetker",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "Germany",
+  "code_strict": null
+ },
+ "4001724027195": {
+  "product_name": "La Mia Grande Pizza Margherita",
+  "brands": "Dr. Oetker la Mia Grande",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4001724027256": {
+  "product_name": "la Mia Grande Salame Piccante",
+  "brands": "Dr. Oetker",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4001724030126": {
+  "product_name": "Intermezzo Salami Calabrese",
+  "brands": "Dr. Oetker",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4001724038474": {
+  "product_name": "Salame Romano pizza",
+  "brands": "Dr. Oetker",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4001724038535": {
+  "product_name": "Pizza Diavola Calabrese",
+  "brands": "Dr. Oetker",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4001724038597": {
+  "product_name": "Pizza Tradizionale Margherita",
+  "brands": "Dr. Oetker",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4001724038870": {
+  "product_name": "DR.OETKER RISTORANTE Quattro Form.",
+  "brands": "DR.OETKER RISTORANTE",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4001724038900": {
+  "product_name": "Ristorante PIZZA SALAME",
+  "brands": "Ristorante",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4001724038962": {
+  "product_name": "Ristorante Pizza Prosciutto",
+  "brands": "Dr. Oetker Ristorante",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "4001724038993": {
+  "product_name": "Ristorante PIZZA TONNO",
+  "brands": "Dr. Oetker",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "Europe",
+  "code_strict": null
+ },
+ "4001724039020": {
+  "product_name": "Ristorante Pizza Spinaci",
+  "brands": "Dr. Oetker",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4001724039112": {
+  "product_name": "Pizza",
+  "brands": "Dr. Oetker Ristorante",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4001724039204": {
+  "product_name": "Ristorante PIZZA PEPPERONI-SALAME",
+  "brands": "Dr. Oetker",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4001724039594": {
+  "product_name": "DR.OETKER RISTORANTE Diavola",
+  "brands": "DR.OETKER RISTORANTE",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4001724041573": {
+  "product_name": "Bistrobaguette Provance 2 x 125g",
+  "brands": "Dr. Oetker, Oetker",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "4001724041610": {
+  "product_name": "Baguette Avignon Käse",
+  "brands": "Dr. Oetker",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "4001724041634": {
+  "product_name": "Bistrobaguette Nizza",
+  "brands": "Bistro",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "4001724041658": {
+  "product_name": "Baguette Korsika Schinken",
+  "brands": "Dr. Oetker, Iglo",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4001724046042": {
+  "product_name": "Pizza Margherita",
+  "brands": "Dr. Oetker",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "4001724047261": {
+  "product_name": "Suprema Margherita",
+  "brands": "Dr. Oetker",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "4001724047292": {
+  "product_name": "",
+  "brands": "Original Suprema",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4001724047322": {
+  "product_name": "Suprema Cinque Formaggi",
+  "brands": "Dr. Oetker",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "4001724056041": {
+  "product_name": "Bistro Baguette Bolognese",
+  "brands": "Dr.Oetkar",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "4003011235023": {
+  "product_name": "Französische Zwiebelsuppe",
+  "brands": "Englert",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "4003011240522": {
+  "_error": "HTTP Error 404: Not Found"
+ },
+ "4003011243127": {
+  "product_name": "Steinpilz Rahmsuppe",
+  "brands": "Englert",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "4003751001759": {
+  "product_name": "Back-Camembert, classic",
+  "brands": "Alpenhain",
+  "emb_codes": "DE BY-13062 EG",
+  "brand_owner": null,
+  "manufacturing_places": "Bayern, Deutschland, Pfaffing",
+  "code_strict": "DE BY-13062 EG"
+ },
+ "4003751060152": {
+  "product_name": "Mozzarella Sticks",
+  "brands": "Alpenhain",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "4008100163508": {
+  "product_name": "Bulgur Salat",
+  "brands": "Hengstenberg",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "4008100163515": {
+  "product_name": "Bulgur Salat",
+  "brands": "Hengstenberg",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "4008100163522": {
+  "product_name": "Couscous Salat",
+  "brands": "Hengstenberg",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "4008366001262": {
+  "product_name": "Nasi Goreng",
+  "brands": "Frosta",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "Bydgoszcz",
+  "code_strict": null
+ },
+ "4008366001309": {
+  "product_name": "Bami Goreng",
+  "brands": "Frosta",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "Bremerhaven, Deutschland",
+  "code_strict": null
+ },
+ "4008366003587": {
+  "product_name": "Butter Chicken",
+  "brands": "Frosta",
+  "emb_codes": "L5267S17A",
+  "brand_owner": null,
+  "manufacturing_places": "Bremerhaven, Deutschland",
+  "code_strict": null
+ },
+ "4008366007431": {
+  "product_name": "Paella",
+  "brands": "Frosta",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "4008366007479": {
+  "product_name": "Tagliatelle mit Wildlachs",
+  "brands": "FRoSTA",
+  "emb_codes": "MSC-C-50086",
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "4008366008858": {
+  "product_name": "Pappardelle Crème Spinaci",
+  "brands": "Frosta",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4008366015863": {
+  "product_name": "Frosta à la Carte - Hähnchen alla Caprese mit Rigatoni Giganti",
+  "brands": "Frosta",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4008366017256": {
+  "product_name": "Rustikale Hendlpfanne",
+  "brands": "FRoSTA",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "4008366017607": {
+  "product_name": "Frosta à la Carte - Wildlachs & Garnelen mit Rigatoni Giganti",
+  "brands": "Frosta",
+  "emb_codes": "ASC-C-00045",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4009233000838": {
+  "product_name": "Big Sensation Salami & BBQ",
+  "brands": "Original Wagner",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4009233000869": {
+  "product_name": "Pizza Wagner",
+  "brands": "Original Wagner",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4009233003655": {
+  "product_name": "Steinofen-Pizza - Diavolo",
+  "brands": "Wagner",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4009233003952": {
+  "product_name": "Steinofen-Pizza - Mozzarella",
+  "brands": "Wagner",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4009233004270": {
+  "product_name": "Air Fryer Snack Salami",
+  "brands": "WAGNER, wagner",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4009233004300": {
+  "product_name": "Air Fryer Snack Spinat",
+  "brands": "Original Wagner",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "4009233004331": {
+  "product_name": "Air Fryer Snack Mozzarella",
+  "brands": "WAGNER",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "4009233004546": {
+  "product_name": "Air Fryer Pizza",
+  "brands": "Original Wagner",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4009233005413": {
+  "product_name": "Spinach Cheese",
+  "brands": "Wagner",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "4009233005451": {
+  "product_name": "Spicy Pepperoni Big Sensation",
+  "brands": "Wagner",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "4009233005499": {
+  "product_name": "Big Wagner pizza Salami",
+  "brands": "Wagner",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "4009233006809": {
+  "product_name": "Salami Pizza",
+  "brands": "Original Wagner",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4009233006816": {
+  "product_name": "Pizza Speciale mit Pesto alla Genovese",
+  "brands": "Original Wagner",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4009233006847": {
+  "product_name": "Pizza Die Backfrische Mozzarella",
+  "brands": "Original Wagner",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4009233006854": {
+  "product_name": "Die Backfrische Thunfisch",
+  "brands": "Wagner",
+  "emb_codes": "MSC-C-54896",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4009233008384": {
+  "product_name": "Piccolinis",
+  "brands": "Wagner",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "4009233009237": {
+  "product_name": "Piccolinis Pasta",
+  "brands": "Wagner",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "4009233014002": {
+  "product_name": "WAGNER PICCOLINIS Piccolini salami",
+  "brands": "WAGNER PICCOLINIS",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4009233014026": {
+  "product_name": "Piccolinis Schinken",
+  "brands": "WAGNER PICCOLINIS",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4009233014347": {
+  "product_name": "Piccolinis Drei-Käse Pizza",
+  "brands": "Original Wagner, Wagner",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4009233014446": {
+  "product_name": "Wagner Picolinis mozarella en tomaten",
+  "brands": "Original Wagner, Wagner",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4009233014576": {
+  "product_name": "",
+  "brands": "Original Wagner",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4009233014583": {
+  "product_name": "Picolini salami",
+  "brands": "Original Wagner",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4009233014910": {
+  "product_name": "Piccolinis Thunfisch",
+  "brands": "Nestlé, Original Wagner",
+  "emb_codes": "MSC-C-54896",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4009233015429": {
+  "product_name": "Piccolinis Speciale",
+  "brands": "Nestlé, Original Wagner, Wagner",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4016337915043": {
+  "product_name": "Soy Honey Fried Chicken",
+  "brands": "bibigo",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4016337960128": {
+  "product_name": "bibigo 비비고 biri beinidd Korean Style Fried Chicken with sweet & spicy sauce",
+  "brands": "Bibigo",
+  "emb_codes": "TH-259-DLD-INSP-D-P-S-D",
+  "brand_owner": null,
+  "manufacturing_places": "Thailand",
+  "code_strict": null
+ },
+ "4038700126986": {
+  "product_name": "Käse Spätzle",
+  "brands": "Knorr",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4066447889925": {
+  "product_name": "Fertiggericht, Gemüsepfanne mit Bulgur & Quinoa",
+  "brands": "dmBio",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": "Bulgur und Quinoa aus Nicht-EU, Frankreich\nKarotten, Kürbis, Lauch und Süßkartoffeln aus der EU, Tomaten, Zucchini, Zwiebeln",
+  "code_strict": null
+ },
+ "4104420129702": {
+  "product_name": "Tomatensuppe",
+  "brands": "Alnatura, Alnatura GmbH, Alnatura Origin",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "4104420139749": {
+  "product_name": "Hühner-Nudel-Eintopf",
+  "brands": "Alnatura, Alnatura GmbH",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4104420142282": {
+  "product_name": "Kichererbsen-Kokos-Eintopf",
+  "brands": "Alnatura",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "4104420205444": {
+  "product_name": "Karotten Kokos Suppe",
+  "brands": "Alnatura, Alnatura GmbH",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4104420205482": {
+  "product_name": "Rote Linsen Suppe",
+  "brands": "Alnatura, Alnatura GmbH",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4104420213128": {
+  "product_name": "Indisches Curry",
+  "brands": "Alnatura, Alnatura GmbH",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "Italien",
+  "code_strict": null
+ },
+ "4104420228061": {
+  "product_name": "Spinat-Cashew Taschen",
+  "brands": "Alnatura, Alnatura GmbH",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4104420242722": {
+  "product_name": "Ratatouille mit Kartoffeln",
+  "brands": "Alnatura",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "4104420244160": {
+  "product_name": "Pizza Margherita",
+  "brands": "Alnatura, Alnatura GmbH",
+  "emb_codes": "FSC-C100340",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4104420244191": {
+  "product_name": "Pizza Vegetale",
+  "brands": "Alnatura, Alnatura GmbH",
+  "emb_codes": "FSC-C100340",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4104420244252": {
+  "product_name": "Pizza Salami",
+  "brands": "Alnatura, Alnatura GmbH",
+  "emb_codes": "FSC-C100340",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4104420249189": {
+  "product_name": "Vegetarische Soja Bolo",
+  "brands": "Alnatura, Alnatura GmbH",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4104420256712": {
+  "product_name": "Linseneintopf",
+  "brands": "Alnatura",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "4104420256750": {
+  "product_name": "Erbseneintopf vegetarisch",
+  "brands": "Alnatura",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "4104420256910": {
+  "product_name": "Alnatura Gemüse Ravioli 4104420256910 Bio Gemüseravioli n Tomatensauce mit Gemüsestücken, vegan",
+  "brands": "Alnatura",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "Deutschland",
+  "code_strict": null
+ },
+ "4250073450691": {
+  "product_name": "Kabeljau-Fischstäbchen",
+  "brands": "followfish",
+  "emb_codes": "DE HB-00183 EG, FSC-C101903, MSC-C-50518",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": "DE HB-00183 EG"
+ },
+ "4250073451162": {
+  "product_name": "Schlemmerfilet mit Bio Bordelaise",
+  "brands": "Followfood",
+  "emb_codes": "PL 04611803 WE, PL-EKO-06",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4250073451247": {
+  "product_name": "Schlemmerfilet Bio brokkoli",
+  "brands": "Followfish, followfood",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4250073451377": {
+  "product_name": "Fischstäbchen in Bio-Panade",
+  "brands": "followfood",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4250073453586": {
+  "product_name": "Vegetariana mit Dinkelboden",
+  "brands": "followfood",
+  "emb_codes": "FSC-C100466, FSC-C107777, IT U8681 CE",
+  "brand_owner": null,
+  "manufacturing_places": "Italien",
+  "code_strict": "IT U8681 CE"
+ },
+ "4250073453791": {
+  "product_name": "Margherita Glutenfrei",
+  "brands": "followfood",
+  "emb_codes": "FSC-C100525, IT L086R CE",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": "IT L086R CE"
+ },
+ "4250073456075": {
+  "product_name": "Verdura Vegan",
+  "brands": "Followfood",
+  "emb_codes": "IT U8681 CE",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": "IT U8681 CE"
+ },
+ "4250073460614": {
+  "product_name": "Fish Nuggets",
+  "brands": "Followfood",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "4250073462021": {
+  "product_name": "Pizza Pockets Tomate-Mozzarella",
+  "brands": "followfood",
+  "emb_codes": "FSC-C127988, IT D2D2R CE",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": "IT D2D2R CE"
+ },
+ "4250241207096": {
+  "product_name": "Fischstäbchen glutenfrei",
+  "brands": "Käpt'n Iglu, iglo",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4250241209892": {
+  "product_name": "Filegro Müller Art",
+  "brands": "Iglo",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "4260282175544": {
+  "product_name": "Tiramisu",
+  "brands": "Della Mamma",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4260334162201": {
+  "product_name": "Pasta Caesar Chicken",
+  "brands": "YOUCOOK",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "Deutschland",
+  "code_strict": null
+ },
+ "4260334165028": {
+  "product_name": "Rotes Thai Curry mit Huhn",
+  "brands": "youcook",
+  "emb_codes": "FSC-C100142",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4260334165042": {
+  "product_name": "Indian Style Chicken Tikka",
+  "brands": "Youcook",
+  "emb_codes": "FSC-C100142",
+  "brand_owner": null,
+  "manufacturing_places": "Deutschland",
+  "code_strict": null
+ },
+ "4260334165158": {
+  "product_name": "Indian Style Butter Chicken mit Huhn",
+  "brands": "YOUCOOK",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "Köln",
+  "code_strict": null
+ },
+ "4260334166162": {
+  "product_name": "Indian Style Mango Chicken",
+  "brands": "Youcook",
+  "emb_codes": "FSC-C017110, FSC-C100142",
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "4260414150449": {
+  "product_name": "Pizza Margherita",
+  "brands": "Gustavo Gusto",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "82538-geretsried, bohmerwaldstrasse-55, deutschland, gustave-gusto-gmbh-co-kg",
+  "code_strict": null
+ },
+ "4260414150456": {
+  "product_name": "Pizza Prosciutto e Funghi",
+  "brands": "GUSTAVO GUSTO",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4260414150470": {
+  "product_name": "Pizza Salami",
+  "brands": "Gustavo Gusto",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4260414155215": {
+  "product_name": "Amooore Mozzarella",
+  "brands": "Gustavo Gusto",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "4260414155222": {
+  "product_name": "Pizza Salame",
+  "brands": "Gustavo Gusto",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4260414155239": {
+  "product_name": "Amore Rucola",
+  "brands": "Gustavo Gusto",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "4260414155246": {
+  "product_name": "Pizza Diavola",
+  "brands": "Gustavo Gusto",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "4306188014393": {
+  "product_name": "Frikadellen",
+  "brands": "Jeden Tag",
+  "emb_codes": "DE EV-42 EG",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": "DE EV-42 EG"
+ },
+ "4306188028963": {
+  "product_name": "Frühlingsrollen",
+  "brands": "Jeden Tag",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "4306188028994": {
+  "product_name": "mini Frühlingsrollen",
+  "brands": "Jeden Tag",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "4306188036678": {
+  "product_name": "Chili con carne",
+  "brands": "Jeden Tag",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "4306188049548": {
+  "product_name": "pizza diavolo",
+  "brands": "Jeden Tag",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "4306188050049": {
+  "product_name": "Steinofenpizza Thunfisch",
+  "brands": "Jeden Tag",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "4306188051206": {
+  "product_name": "Lasagne Bolognese",
+  "brands": "Jeden Tag",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "4316734117294": {
+  "product_name": "Mini Frühlingsrollen",
+  "brands": "Diamond",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "5411627104067": {
+  "product_name": "Lasagne bolognaise végétarienne",
+  "brands": null,
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "7613036480505": {
+  "product_name": "Nudel Snack Curry",
+  "brands": "Maggi",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "Deutschland 78221 Singen",
+  "code_strict": null
+ },
+ "7649994063511": {
+  "product_name": "Chicken Kräuter & Zitrone",
+  "brands": "planted",
+  "emb_codes": "FSC-C106875",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "8001020110016": {
+  "product_name": "Ravioli con Ricotta e Spinaci",
+  "brands": "Bertagni",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "8001020110030": {
+  "product_name": "TortelTortelloni Ai Funghi Porcini",
+  "brands": "Bertagni",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "8001020114182": {
+  "product_name": "Bertagni Fire Roasted Tomato, Mozzarella And Basil Ravioli",
+  "brands": "Pertagni",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "8001665708074": {
+  "product_name": "Pfannen-Gnocchi Spinat & Mozzarella",
+  "brands": "Rana",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "Italia, Pastificio Rana S.p.a., Via Pacinotti 25 - 37057 - San Giovanni Lupatoto (VR)",
+  "code_strict": null
+ },
+ "8001665727464": {
+  "product_name": "Funghi Porcini",
+  "brands": "Pastificio RANA S.p.A., RANA",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "Italien",
+  "code_strict": null
+ },
+ "8001665727471": {
+  "product_name": "Ravioli Ricotta und Spinat",
+  "brands": "Giovanni Rana",
+  "emb_codes": "FSC-C115580",
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "8001665727488": {
+  "product_name": "Tortelloni Tomate und Mozzarella",
+  "brands": "Giovanni Rana",
+  "emb_codes": "FSC-C115580",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "8001665727495": {
+  "product_name": "Tortellini Zucca E Cipolla Caramellata - Kürbis mit karamellisierten Zwiebeln",
+  "brands": "Giovanni Rana",
+  "emb_codes": "FSC-C115580",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "8001665727525": {
+  "product_name": "CAPPELLETTI CON PROSCIUTTO DI PARMA",
+  "brands": "Giovanni Rana, Rana",
+  "emb_codes": "FSC-C115580, IT 01-75 CE, IT 528-L CE",
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": "IT 01-75 CE, IT 528-L CE"
+ },
+ "8001665727532": {
+  "product_name": "Tradizionali con Parmegiano Regiano",
+  "brands": "Rana",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "8001665727549": {
+  "product_name": "Ravioli Pesto alla Genovese mit Basilikum und Pinienkernen",
+  "brands": "Rana",
+  "emb_codes": "FSC-C136152",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "8001665727556": {
+  "product_name": "Ravioli Pesto Rosso Alla Siciliana",
+  "brands": "Rana",
+  "emb_codes": "FSC-C136152",
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "8001665727723": {
+  "product_name": "Prosciutto cotto e Mozzarella",
+  "brands": "Rana",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "8004035000457": {
+  "product_name": "Schlutzkrapfen",
+  "brands": "Strauss",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "8004035100119": {
+  "product_name": "Canederli allo Speck",
+  "brands": "Strauss",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "8004035100522": {
+  "product_name": "Spinatknödel",
+  "brands": "Strauss",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "8004035100539": {
+  "product_name": "Canederli formaggio",
+  "brands": "Strauss",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "8008481807837": {
+  "_error": "HTTP Error 404: Not Found"
+ },
+ "8052400950012": {
+  "product_name": "Speckknödel",
+  "brands": "Südtiroler Kochwerk",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "8052400950029": {
+  "product_name": "Käseknödel",
+  "brands": "Südtiroler Kochwerk",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "8052400950036": {
+  "product_name": "Spatzle agli spinaci",
+  "brands": null,
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "8052400950043": {
+  "_error": "HTTP Error 404: Not Found"
+ },
+ "8052400950500": {
+  "_error": "HTTP Error 404: Not Found"
+ },
+ "8052400950517": {
+  "_error": "HTTP Error 404: Not Found"
+ },
+ "8052400950524": {
+  "product_name": "Spinatspatzli",
+  "brands": null,
+  "emb_codes": "IT Z5676 CE",
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": "IT Z5676 CE"
+ },
+ "8052400950722": {
+  "product_name": "Käsepressknödel",
+  "brands": "Südtiroler kochwerk",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "8052400950968": {
+  "_error": "HTTP Error 404: Not Found"
+ },
+ "8052400951095": {
+  "_error": "HTTP Error 404: Not Found"
+ },
+ "8595643806826": {
+  "product_name": "Paneer Makhani s jasmínovou rýží",
+  "brands": "Rohlik Bistro",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "8595643810144": {
+  "product_name": "Caesar salát",
+  "brands": "Rohlík, The green garden",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "8595643816887": {
+  "_error": "HTTP Error 404: Not Found"
+ },
+ "8711200430000": {
+  "product_name": "",
+  "brands": "Knorr",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "8717163804377": {
+  "product_name": "Leberknödel Suppe",
+  "brands": "Knorr",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "8721201919732": {
+  "product_name": "Pasta Bolognese By Knorr",
+  "brands": "Knorr",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "8721201997402": {
+  "product_name": "Kimchi Jjigae",
+  "brands": "Namdong",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "8721201997488": {
+  "product_name": "Chicken Favour K-Noodles",
+  "brands": "namdong",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "8722700039396": {
+  "product_name": "Stroganoff",
+  "brands": "Iglo Genießer Pfanne",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "8722700041146": {
+  "product_name": "Spinatlasagne",
+  "brands": "Iglo",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "8722700049302": {
+  "product_name": "Zwiebelrostbraten vom Rind mit Karoffelrösti",
+  "brands": "Iglo",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "8722700057116": {
+  "product_name": "Gebackene Champignons",
+  "brands": "Iglo",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "8801073116474": {
+  "product_name": "Samyang",
+  "brands": "samyang",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "Korea, South-Korea",
+  "code_strict": null
+ },
+ "8801073144484": {
+  "product_name": "Buldak Carbonara Flavour Hot Chicken Flavour Ramen",
+  "brands": "Buldak, Samyang",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "korea, south-korea",
+  "code_strict": null
+ },
+ "8801073211667": {
+  "product_name": "Carbonara Buldak Spicy Ramen cup",
+  "brands": "Buldak, Samyang",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "Korea, South Korea",
+  "code_strict": null
+ },
+ "8809054403490": {
+  "product_name": "115g 요뽀끼 &quot; YOPOKKI Kimchi Insta Topokki Ice Sticks",
+  "brands": "Yopokki",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "8850987123641": {
+  "product_name": "Mama Pa-Lo Duck Flavour",
+  "brands": "Mama",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "thailande",
+  "code_strict": null
+ },
+ "8850987141508": {
+  "product_name": "Mama Soupe Boeuf",
+  "brands": "Mama",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "8853662002019": {
+  "product_name": "Tom Yum Suppe",
+  "brands": "Exotic Food",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "Thailand",
+  "code_strict": null
+ },
+ "8853662002026": {
+  "product_name": "Tom Kha Suppe",
+  "brands": "Exotic Food",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "8901552005029": {
+  "product_name": "Aloo Matar",
+  "brands": "Ashoka",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "8901552021432": {
+  "product_name": "Delhi Dal Makhani",
+  "brands": "Ashoka",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "8901552021470": {
+  "product_name": "",
+  "brands": "Ashoka",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "Gujarat, Indien",
+  "code_strict": null
+ },
+ "8935311176040": {
+  "product_name": "Vifon Pho noodle chicken",
+  "brands": "Vifon",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "8935311176125": {
+  "product_name": "Vifon Pho bo noodle beef",
+  "brands": "Vifon",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "9000143049622": {
+  "product_name": "Polardorsch Knusperhülle (4 Stück)",
+  "brands": "iglo",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "9000143050024": {
+  "product_name": "Gemüsestangerl",
+  "brands": "iglo",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "9000143050321": {
+  "product_name": "4 Karfiol-Käse-Laibchen",
+  "brands": "Iglo",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "9000143050628": {
+  "product_name": "Lasagne Al Forno",
+  "brands": "iglo",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "9000143066827": {
+  "product_name": "Grammelknödel",
+  "brands": "Iglo",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "9000143067329": {
+  "product_name": "Selchfleischknödel",
+  "brands": "iglo",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "9000143068029": {
+  "_error": "HTTP Error 404: Not Found"
+ },
+ "9000143140329": {
+  "product_name": "Fischstäbchen (15 Stück)",
+  "brands": "iglo",
+  "emb_codes": "DE HB-00145 EG",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": "DE HB-00145 EG"
+ },
+ "9000143149926": {
+  "product_name": "Polar Dorsch paniert",
+  "brands": "iglo",
+  "emb_codes": "MSC-C-50470",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "9000143279326": {
+  "product_name": "Pazifischer Polar-Dorsch Müllerin traditionell verfeinert 100% Filet",
+  "brands": "iglo",
+  "emb_codes": "DE HB-00145 EG",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": "DE HB-00145 EG"
+ },
+ "9000275493713": {
+  "product_name": "",
+  "brands": "Knorr",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "9000275633812": {
+  "product_name": "Gulaschsuppe",
+  "brands": "Knorr",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "9000275633911": {
+  "product_name": "Serbische Bohnensuppe",
+  "brands": "Knorr",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "9000275634314": {
+  "product_name": "Leberknödelsuppe",
+  "brands": "Knorr",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "9000275637216": {
+  "product_name": "Kartoffelsuppe mit Pilzen",
+  "brands": "Knorr",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "9000275637315": {
+  "product_name": "Südtiroler Bauernsuppe",
+  "brands": "Knorr",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "Österreich",
+  "code_strict": null
+ },
+ "9000295672723": {
+  "_error": "HTTP Error 404: Not Found"
+ },
+ "9000295831151": {
+  "product_name": "Vegane Gulaschsuppe",
+  "brands": "Felix",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "9000295832127": {
+  "product_name": "Gulaschsuppe",
+  "brands": "Felix",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "9000295832349": {
+  "product_name": "Linsen essfertig",
+  "brands": "Felix",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "9000295832486": {
+  "product_name": "Linsen mit Speck",
+  "brands": "Felix",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "9000295832493": {
+  "product_name": "Erdäpfelgulasch",
+  "brands": "Felix",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "9000295832509": {
+  "product_name": "Fleischravioli",
+  "brands": "Felix",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "9000295832899": {
+  "product_name": "höklenfeuer",
+  "brands": "Felix",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "9000295832912": {
+  "product_name": "Chili con Carne",
+  "brands": "Felix",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "9000295832943": {
+  "product_name": "Erdäpfelgulasch",
+  "brands": "Felix",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "9001231114253": {
+  "_error": "HTTP Error 404: Not Found"
+ },
+ "9001231114260": {
+  "_error": "HTTP Error 404: Not Found"
+ },
+ "9001231114277": {
+  "_error": "HTTP Error 404: Not Found"
+ },
+ "9001231114284": {
+  "_error": "HTTP Error 404: Not Found"
+ },
+ "9001231114291": {
+  "_error": "HTTP Error 404: Not Found"
+ },
+ "9001231114307": {
+  "_error": "HTTP Error 404: Not Found"
+ },
+ "9001231114314": {
+  "_error": "HTTP Error 404: Not Found"
+ },
+ "9001231114321": {
+  "_error": "HTTP Error 404: Not Found"
+ },
+ "9001426001016": {
+  "product_name": "Serviettenknödel fix und fertig",
+  "brands": "Radatz",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "9001455032654": {
+  "_error": "HTTP Error 404: Not Found"
+ },
+ "9001455032661": {
+  "_error": "HTTP Error 404: Not Found"
+ },
+ "9002233364059": {
+  "_error": "HTTP Error 404: Not Found"
+ },
+ "9002235332513": {
+  "_error": "HTTP Error 404: Not Found"
+ },
+ "9002236332260": {
+  "_error": "HTTP Error 404: Not Found"
+ },
+ "9002600637458": {
+  "product_name": "Wellness Hühnerbruststreifen mit Gemüsereis",
+  "brands": "Inzersdorfer",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "9002600645293": {
+  "product_name": "Inzersdorfer Griessnockerlsuppe",
+  "brands": "inzersdorfer",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "9002931070313": {
+  "_error": "HTTP Error 404: Not Found"
+ },
+ "9004680002614": {
+  "_error": "HTTP Error 404: Not Found"
+ },
+ "9004680002652": {
+  "_error": "HTTP Error 404: Not Found"
+ },
+ "9004680002676": {
+  "product_name": "Bio Gemüse-Semmelrolle",
+  "brands": "Morgentau",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "9008695921922": {
+  "product_name": "Hühnersticks Fleisch",
+  "brands": "Iglo",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "9008695933826": {
+  "product_name": "Broccoli Laibchen",
+  "brands": "Iglo",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "9008695942323": {
+  "product_name": "Fisch’n’rosti",
+  "brands": "Iglo",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "9008695943429": {
+  "product_name": "Erdäpfel-Tascherl, Frischkäse-Kräuter",
+  "brands": "Iglo",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "9008695943528": {
+  "product_name": "",
+  "brands": "iglo",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "9008695943627": {
+  "product_name": "Backfischstäbchen",
+  "brands": "Iglo",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "9008695945621": {
+  "product_name": "Hühnernuggets",
+  "brands": "Iglo",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "9008695946321": {
+  "product_name": "Lachs Spinat Lasagne",
+  "brands": "iglo",
+  "emb_codes": "ASC-C-01007",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "9008695951127": {
+  "product_name": "Genießer-Pfanne Paprika-Huhn",
+  "brands": "Iglo",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "9008695951226": {
+  "product_name": "Gnocchi Spinaci",
+  "brands": "iglo",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "9008695951325": {
+  "product_name": "Genießerpfanne Tortellini di Carne",
+  "brands": "iglo",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "9008695960921": {
+  "product_name": "Ofenbackfisch",
+  "brands": "Iglo",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "9008695964325": {
+  "product_name": "Fischstäbchen 28 Stk",
+  "brands": "Iglo",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "9008695964721": {
+  "product_name": "Iglo Goldschatz Käse-Kräuter",
+  "brands": "iglo",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "Österreich",
+  "code_strict": null
+ },
+ "9008695976113": {
+  "product_name": "Green Cuisine - 10x knusprige Spinat-Stangerl",
+  "brands": "iglo",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "9008695980110": {
+  "product_name": "Vegetarische nuggets",
+  "brands": "Iglo",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "9008695980219": {
+  "product_name": "Genießer Pfanne Tagliatelle Funghi",
+  "brands": "iglo",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "9008695980318": {
+  "product_name": "Ravioli Mediterran",
+  "brands": "iglo",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "9008695989410": {
+  "product_name": "veg. Zucchini Käse Laibchen",
+  "brands": "Iglo",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "9008695990119": {
+  "product_name": "Safari Nuggets",
+  "brands": "iglo",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "9008695992335": {
+  "product_name": "Pepperoni Paradise Pizza",
+  "brands": "Holy Alice Iglo",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "9008695992434": {
+  "product_name": "Four Cheese Heaven",
+  "brands": "Iglo",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "9008695992533": {
+  "product_name": "Holy Slice Ham & Mushroom Miracle",
+  "brands": "iglo",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "9017100001043": {
+  "product_name": "Inzersdorfer Rindsgulasch",
+  "brands": "Inzersdorfer",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "9017100001111": {
+  "product_name": "Bohnen mit Speck",
+  "brands": "Inzersdorfer",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "9017100001135": {
+  "product_name": "Linsen mit Speck",
+  "brands": "INZERSDORFER",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "9017100001159": {
+  "product_name": "Reisfleisch",
+  "brands": "Inzersdorfer",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "9017100001173": {
+  "product_name": "Gefüllte Paprika",
+  "brands": "inzersdorfer",
+  "emb_codes": "AT 62028 EG",
+  "brand_owner": null,
+  "manufacturing_places": "Österreich",
+  "code_strict": "AT 62028 EG"
+ },
+ "9017100001319": {
+  "product_name": "Bohnengulasch",
+  "brands": "Inzersdorfer",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "9017100001401": {
+  "product_name": "Ravioli in Tomatensauce",
+  "brands": "Felix, Inzersdorfer",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "9017100001463": {
+  "product_name": "Chili con carne",
+  "brands": "Inzersdorfer",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "9017100002187": {
+  "product_name": "Szegediner Gulasch",
+  "brands": "Inzersdorfer",
+  "emb_codes": "",
+  "brand_owner": null,
+  "manufacturing_places": "",
+  "code_strict": null
+ },
+ "9017100002897": {
+  "product_name": "Gulaschsuppe",
+  "brands": "Inzersdorfer",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "9017100003061": {
+  "product_name": "Erdäpfel-Gulasch",
+  "brands": "inzersdorfer",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "9018500031623": {
+  "product_name": "Fiori Spinat-Pinienkerne",
+  "brands": "Karnerta",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "9018500085442": {
+  "_error": "HTTP Error 404: Not Found"
+ },
+ "9018500487321": {
+  "product_name": "Gaumenschmaus Tiroler Schlutzkrapferl",
+  "brands": "Karnerta",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "9120018530229": {
+  "product_name": "Ćevapčići",
+  "brands": "Brajlovic",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": "Österreich",
+  "code_strict": null
+ },
+ "9120035590015": {
+  "product_name": "Schlutzkrapfen mit Spinatfülle",
+  "brands": "deFlorian",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "9120035590022": {
+  "_error": "HTTP Error 404: Not Found"
+ },
+ "9120035590084": {
+  "product_name": "Schlutzkrapfen mit Topfenfülle",
+  "brands": "deFlorian",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "9120035591395": {
+  "product_name": "Tiroler Tris",
+  "brands": "deFlorian",
+  "emb_codes": null,
+  "brand_owner": null,
+  "manufacturing_places": null,
+  "code_strict": null
+ },
+ "9120035592651": {
+  "_error": "HTTP Error 404: Not Found"
+ },
+ "9120071330248": {
+  "_error": "HTTP Error 404: Not Found"
+ },
+ "9120071330965": {
+  "_error": "HTTP Error 404: Not Found"
+ },
+ "9120143390132": {
+  "_error": "HTTP Error 404: Not Found"
+ },
+ "9180007360046": {
+  "_error": "HTTP Error 404: Not Found"
+ }
+}

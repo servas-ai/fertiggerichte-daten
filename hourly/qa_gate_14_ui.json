@@ -1,49 +1,10 @@
 {
- "ok": false,
- "errors": [
-  "desktop:ladenprofil NAV locator.innerText: Target crashed \nCall log:\n  - waiting for locator('body')\n",
-  "desktop:marken NAV page.goto: Page crashed\nCall log:\n  - navigating to \"http://127.0.0.1:39675/#tab=marken\", waiting until \"networkidle\"\n",
-  "desktop:familien NAV page.goto: Page crashed\nCall log:\n  - navigating to \"http://127.0.0.1:39675/#tab=familien\", waiting until \"networkidle\"\n",
-  "desktop:dashboard NAV page.goto: Page crashed\nCall log:\n  - navigating to \"http://127.0.0.1:39675/#tab=dashboard\", waiting until \"networkidle\"\n",
-  "desktop:gesundheit NAV page.goto: Page crashed\nCall log:\n  - navigating to \"http://127.0.0.1:39675/#tab=gesundheit\", waiting until \"networkidle\"\n",
-  "desktop:analyse NAV page.goto: Page crashed\nCall log:\n  - navigating to \"http://127.0.0.1:39675/#tab=analyse\", waiting until \"networkidle\"\n",
-  "desktop:scatter NAV page.goto: Page crashed\nCall log:\n  - navigating to \"http://127.0.0.1:39675/#tab=scatter\", waiting until \"networkidle\"\n",
-  "desktop:pack NAV page.goto: Page crashed\nCall log:\n  - navigating to \"http://127.0.0.1:39675/#tab=pack\", waiting until \"networkidle\"\n",
-  "desktop:matrix NAV page.goto: Page crashed\nCall log:\n  - navigating to \"http://127.0.0.1:39675/#tab=matrix\", waiting until \"networkidle\"\n",
-  "desktop:hersteller-seiten NAV page.goto: Page crashed\nCall log:\n  - navigating to \"http://127.0.0.1:39675/#tab=hersteller-seiten\", waiting until \"networkidle\"\n",
-  "desktop:wer NAV page.goto: Page crashed\nCall log:\n  - navigating to \"http://127.0.0.1:39675/#tab=wer\", waiting until \"networkidle\"\n",
-  "desktop:firmen NAV page.goto: Page crashed\nCall log:\n  - navigating to \"http://127.0.0.1:39675/#tab=firmen\", waiting until \"networkidle\"\n",
-  "desktop:qualitaet NAV page.goto: Page crashed\nCall log:\n  - navigating to \"http://127.0.0.1:39675/#tab=qualitaet\", waiting until \"networkidle\"\n",
-  "desktop:logos NAV page.goto: Page crashed\nCall log:\n  - navigating to \"http://127.0.0.1:39675/#tab=logos\", waiting until \"networkidle\"\n",
-  "desktop:netz NAV page.goto: Page crashed\nCall log:\n  - navigating to \"http://127.0.0.1:39675/#tab=netz\", waiting until \"networkidle\"\n",
-  "desktop:hersteller NAV page.goto: Page crashed\nCall log:\n  - navigating to \"http://127.0.0.1:39675/#tab=hersteller\", waiting until \"networkidle\"\n",
-  "desktop:filialen NAV page.goto: Page crashed\nCall log:\n  - navigating to \"http://127.0.0.1:39675/#tab=filialen\", waiting until \"networkidle\"\n",
-  "desktop:online NAV page.goto: Page crashed\nCall log:\n  - navigating to \"http://127.0.0.1:39675/#tab=online\", waiting until \"networkidle\"\n",
-  "desktop:planer NAV page.goto: Page crashed\nCall log:\n  - navigating to \"http://127.0.0.1:39675/#tab=planer\", waiting until \"networkidle\"\n",
-  "desktop:kombi NAV page.goto: Page crashed\nCall log:\n  - navigating to \"http://127.0.0.1:39675/#tab=kombi\", waiting until \"networkidle\"\n",
-  "desktop:ftg NAV page.goto: Page crashed\nCall log:\n  - navigating to \"http://127.0.0.1:39675/#tab=ftg\", waiting until \"networkidle\"\n",
-  "desktop:multipot NAV page.goto: Page crashed\nCall log:\n  - navigating to \"http://127.0.0.1:39675/#tab=multipot\", waiting until \"networkidle\"\n",
-  "desktop:methodik NAV page.goto: Page crashed\nCall log:\n  - navigating to \"http://127.0.0.1:39675/#tab=methodik\", waiting until \"networkidle\"\n",
-  "desktop:abdeckung NAV page.goto: Page crashed\nCall log:\n  - navigating to \"http://127.0.0.1:39675/#tab=abdeckung\", waiting until \"networkidle\"\n",
-  "mobile:wer NAV page.evaluate: Target crashed ",
-  "mobile:firmen NAV page.goto: Page crashed\nCall log:\n  - navigating to \"http://127.0.0.1:39675/#tab=firmen\", waiting until \"networkidle\"\n",
-  "mobile:qualitaet NAV page.goto: Page crashed\nCall log:\n  - navigating to \"http://127.0.0.1:39675/#tab=qualitaet\", waiting until \"networkidle\"\n",
-  "mobile:logos NAV page.goto: Page crashed\nCall log:\n  - navigating to \"http://127.0.0.1:39675/#tab=logos\", waiting until \"networkidle\"\n",
-  "mobile:netz NAV page.goto: Page crashed\nCall log:\n  - navigating to \"http://127.0.0.1:39675/#tab=netz\", waiting until \"networkidle\"\n",
-  "mobile:hersteller NAV page.goto: Page crashed\nCall log:\n  - navigating to \"http://127.0.0.1:39675/#tab=hersteller\", waiting until \"networkidle\"\n",
-  "mobile:filialen NAV page.goto: Page crashed\nCall log:\n  - navigating to \"http://127.0.0.1:39675/#tab=filialen\", waiting until \"networkidle\"\n",
-  "mobile:online NAV page.goto: Page crashed\nCall log:\n  - navigating to \"http://127.0.0.1:39675/#tab=online\", waiting until \"networkidle\"\n",
-  "mobile:planer NAV page.goto: Page crashed\nCall log:\n  - navigating to \"http://127.0.0.1:39675/#tab=planer\", waiting until \"networkidle\"\n",
-  "mobile:kombi NAV page.goto: Page crashed\nCall log:\n  - navigating to \"http://127.0.0.1:39675/#tab=kombi\", waiting until \"networkidle\"\n",
-  "mobile:ftg NAV page.goto: Page crashed\nCall log:\n  - navigating to \"http://127.0.0.1:39675/#tab=ftg\", waiting until \"networkidle\"\n",
-  "mobile:multipot NAV page.goto: Page crashed\nCall log:\n  - navigating to \"http://127.0.0.1:39675/#tab=multipot\", waiting until \"networkidle\"\n",
-  "mobile:methodik NAV page.goto: Page crashed\nCall log:\n  - navigating to \"http://127.0.0.1:39675/#tab=methodik\", waiting until \"networkidle\"\n",
-  "mobile:abdeckung NAV page.goto: Page crashed\nCall log:\n  - navigating to \"http://127.0.0.1:39675/#tab=abdeckung\", waiting until \"networkidle\"\n"
- ],
+ "ok": true,
+ "errors": [],
  "blank": [],
  "overflow": [],
  "brokenImg": 0,
- "totalImg": 2529,
+ "totalImg": 7767,
  "tabs": {
   "desktop:alle": {
    "blank": false,
@@ -113,6 +74,222 @@
    "overflow": false,
    "imgs": {
     "total": 11,
+    "broken": 0
+   },
+   "errs": 0
+  },
+  "desktop:ladenprofil": {
+   "blank": false,
+   "overflow": false,
+   "imgs": {
+    "total": 9,
+    "broken": 0
+   },
+   "errs": 0
+  },
+  "desktop:marken": {
+   "blank": false,
+   "overflow": false,
+   "imgs": {
+    "total": 674,
+    "broken": 0
+   },
+   "errs": 0
+  },
+  "desktop:familien": {
+   "blank": false,
+   "overflow": false,
+   "imgs": {
+    "total": 194,
+    "broken": 0
+   },
+   "errs": 0
+  },
+  "desktop:dashboard": {
+   "blank": false,
+   "overflow": false,
+   "imgs": {
+    "total": 90,
+    "broken": 0
+   },
+   "errs": 0
+  },
+  "desktop:gesundheit": {
+   "blank": false,
+   "overflow": false,
+   "imgs": {
+    "total": 74,
+    "broken": 0
+   },
+   "errs": 0
+  },
+  "desktop:analyse": {
+   "blank": false,
+   "overflow": false,
+   "imgs": {
+    "total": 88,
+    "broken": 0
+   },
+   "errs": 0
+  },
+  "desktop:scatter": {
+   "blank": false,
+   "overflow": false,
+   "imgs": {
+    "total": 0,
+    "broken": 0
+   },
+   "errs": 0
+  },
+  "desktop:pack": {
+   "blank": false,
+   "overflow": false,
+   "imgs": {
+    "total": 32,
+    "broken": 0
+   },
+   "errs": 0
+  },
+  "desktop:matrix": {
+   "blank": false,
+   "overflow": false,
+   "imgs": {
+    "total": 106,
+    "broken": 0
+   },
+   "errs": 0
+  },
+  "desktop:hersteller-seiten": {
+   "blank": false,
+   "overflow": false,
+   "imgs": {
+    "total": 68,
+    "broken": 0
+   },
+   "errs": 0
+  },
+  "desktop:wer": {
+   "blank": false,
+   "overflow": false,
+   "imgs": {
+    "total": 1026,
+    "broken": 0
+   },
+   "errs": 0
+  },
+  "desktop:firmen": {
+   "blank": false,
+   "overflow": false,
+   "imgs": {
+    "total": 15,
+    "broken": 0
+   },
+   "errs": 0
+  },
+  "desktop:qualitaet": {
+   "blank": false,
+   "overflow": false,
+   "imgs": {
+    "total": 0,
+    "broken": 0
+   },
+   "errs": 0
+  },
+  "desktop:logos": {
+   "blank": false,
+   "overflow": false,
+   "imgs": {
+    "total": 234,
+    "broken": 0
+   },
+   "errs": 0
+  },
+  "desktop:netz": {
+   "blank": false,
+   "overflow": false,
+   "imgs": {
+    "total": 0,
+    "broken": 0
+   },
+   "errs": 0
+  },
+  "desktop:hersteller": {
+   "blank": false,
+   "overflow": false,
+   "imgs": {
+    "total": 74,
+    "broken": 0
+   },
+   "errs": 0
+  },
+  "desktop:filialen": {
+   "blank": false,
+   "overflow": false,
+   "imgs": {
+    "total": 60,
+    "broken": 0
+   },
+   "errs": 0
+  },
+  "desktop:online": {
+   "blank": false,
+   "overflow": false,
+   "imgs": {
+    "total": 147,
+    "broken": 0
+   },
+   "errs": 0
+  },
+  "desktop:planer": {
+   "blank": false,
+   "overflow": false,
+   "imgs": {
+    "total": 14,
+    "broken": 0
+   },
+   "errs": 0
+  },
+  "desktop:kombi": {
+   "blank": false,
+   "overflow": false,
+   "imgs": {
+    "total": 272,
+    "broken": 0
+   },
+   "errs": 0
+  },
+  "desktop:ftg": {
+   "blank": false,
+   "overflow": false,
+   "imgs": {
+    "total": 116,
+    "broken": 0
+   },
+   "errs": 0
+  },
+  "desktop:multipot": {
+   "blank": false,
+   "overflow": false,
+   "imgs": {
+    "total": 0,
+    "broken": 0
+   },
+   "errs": 0
+  },
+  "desktop:methodik": {
+   "blank": false,
+   "overflow": false,
+   "imgs": {
+    "total": 0,
+    "broken": 0
+   },
+   "errs": 0
+  },
+  "desktop:abdeckung": {
+   "blank": false,
+   "overflow": false,
+   "imgs": {
+    "total": 0,
     "broken": 0
    },
    "errs": 0
@@ -229,7 +406,7 @@
    "blank": false,
    "overflow": false,
    "imgs": {
-    "total": 74,
+    "total": 70,
     "broken": 0
    },
    "errs": 0
@@ -278,7 +455,134 @@
     "broken": 0
    },
    "errs": 0
+  },
+  "mobile:wer": {
+   "blank": false,
+   "overflow": false,
+   "imgs": {
+    "total": 1026,
+    "broken": 0
+   },
+   "errs": 0
+  },
+  "mobile:firmen": {
+   "blank": false,
+   "overflow": false,
+   "imgs": {
+    "total": 15,
+    "broken": 0
+   },
+   "errs": 0
+  },
+  "mobile:qualitaet": {
+   "blank": false,
+   "overflow": false,
+   "imgs": {
+    "total": 0,
+    "broken": 0
+   },
+   "errs": 0
+  },
+  "mobile:logos": {
+   "blank": false,
+   "overflow": false,
+   "imgs": {
+    "total": 234,
+    "broken": 0
+   },
+   "errs": 0
+  },
+  "mobile:netz": {
+   "blank": false,
+   "overflow": false,
+   "imgs": {
+    "total": 0,
+    "broken": 0
+   },
+   "errs": 0
+  },
+  "mobile:hersteller": {
+   "blank": false,
+   "overflow": false,
+   "imgs": {
+    "total": 74,
+    "broken": 0
+   },
+   "errs": 0
+  },
+  "mobile:filialen": {
+   "blank": false,
+   "overflow": false,
+   "imgs": {
+    "total": 51,
+    "broken": 0
+   },
+   "errs": 0
+  },
+  "mobile:online": {
+   "blank": false,
+   "overflow": false,
+   "imgs": {
+    "total": 147,
+    "broken": 0
+   },
+   "errs": 0
+  },
+  "mobile:planer": {
+   "blank": false,
+   "overflow": false,
+   "imgs": {
+    "total": 14,
+    "broken": 0
+   },
+   "errs": 0
+  },
+  "mobile:kombi": {
+   "blank": false,
+   "overflow": false,
+   "imgs": {
+    "total": 272,
+    "broken": 0
+   },
+   "errs": 0
+  },
+  "mobile:ftg": {
+   "blank": false,
+   "overflow": false,
+   "imgs": {
+    "total": 116,
+    "broken": 0
+   },
+   "errs": 0
+  },
+  "mobile:multipot": {
+   "blank": false,
+   "overflow": false,
+   "imgs": {
+    "total": 0,
+    "broken": 0
+   },
+   "errs": 0
+  },
+  "mobile:methodik": {
+   "blank": false,
+   "overflow": false,
+   "imgs": {
+    "total": 0,
+    "broken": 0
+   },
+   "errs": 0
+  },
+  "mobile:abdeckung": {
+   "blank": false,
+   "overflow": false,
+   "imgs": {
+    "total": 0,
+    "broken": 0
+   },
+   "errs": 0
   }
  },
+ "retries": [],
  "brokenRate": 0
 }

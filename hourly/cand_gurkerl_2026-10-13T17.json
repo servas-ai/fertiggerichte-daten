@@ -1,0 +1,102 @@
+[
+{
+"source": "gurkerl",
+"store": "Gurkerl.at",
+"name": "Gissinger Grammelknödel",
+"brand": "Gissinger",
+"price_eur": 4.49,
+"unit_price_eur": 21.38,
+"unit": "kg",
+"size_g": 210.0,
+"nutrition_100g": {},
+"ean": "9048130046162",
+"image_url": "https://cdn.gurkerl.at/images/grocery/products/22185/22185-1634028506947.jpg",
+"producer": null,
+"producer_id": null,
+"origin": "Österreich",
+"category": "Kühlregal > Schnelle Küche > Frische Pasta, Spätzle & Knödel > Knödel, Spätzle & Co",
+"source_url": "https://www.gurkerl.at/22185-gissinger-grammelknoedel",
+"source_id": "22185",
+"fetched_at": "2026-10-13T17:38:51+00:00",
+"extra": {
+"in_stock": true,
+"archived": false,
+"ingredients": "Zutaten: Kartoffeln, WEIZENMEHL, Grammeln, EI, Zwiebel, Petersilie, Gewürze, Salz"
+}
+},
+{
+"source": "gurkerl",
+"store": "Gurkerl.at",
+"name": "Gissinger Wurstknödel",
+"brand": "Gissinger",
+"price_eur": 3.69,
+"unit_price_eur": 17.57,
+"unit": "kg",
+"size_g": 210.0,
+"nutrition_100g": {},
+"ean": "2114010002324",
+"image_url": "https://cdn.gurkerl.at/images/grocery/products/22186/22186-1634028887521.jpg",
+"producer": null,
+"producer_id": null,
+"origin": "Österreich",
+"category": "Kühlregal > Schnelle Küche > Frische Pasta, Spätzle & Knödel > Knödel, Spätzle & Co",
+"source_url": "https://www.gurkerl.at/22186-gissinger-wurstknoedel",
+"source_id": "22186",
+"fetched_at": "2026-10-13T17:38:51+00:00",
+"extra": {
+"in_stock": true,
+"archived": false,
+"ingredients": "Zutaten: Zutaten: Kartoffelteig (Kartoffel, Stärke (WEIZEN), WEIZENMEHL, Salz), Dürre (Rind- und Schweinefleisch, Trinkwasser, Kochsalz (Konservierungsstoff: Natriumnitrit), Geschmacksverstärker: Mononatriumglutamat, Kartoffelstärke, Gewürze), Speck (Bauchfleisch, Kochsalz (Konservierungsstoff: Natriumnitrit)), Zwiebel, Gewürze"
+}
+},
+{
+"source": "gurkerl",
+"store": "Gurkerl.at",
+"name": "Gissinger Sauerkraut mit Speck",
+"brand": "Gissinger",
+"price_eur": 8.13,
+"unit_price_eur": 15.29,
+"unit": "kg",
+"size_g": 530.0,
+"nutrition_100g": {},
+"ean": null,
+"image_url": "https://cdn.gurkerl.at/images/grocery/products/21866/21866-1633014590773.jpg",
+"producer": null,
+"producer_id": null,
+"origin": "Österreich",
+"category": "Kühlregal > Schnelle Küche > Fertiggerichte > Traditionelle Hausmannskost",
+"source_url": "https://www.gurkerl.at/21866-gissinger-sauerkraut-mit-speck",
+"source_id": "21866",
+"fetched_at": "2026-10-13T17:38:45+00:00",
+"extra": {
+"in_stock": true,
+"archived": false,
+"ingredients": "Zutaten: Sauerkraut, Rauchspeck, Gewürze, Salz, BUTTER, WEIZENMEHL, Bratensaft"
+}
+},
+{
+"source": "gurkerl",
+"store": "Gurkerl.at",
+"name": "Gissinger Rahmfisolen",
+"brand": "Gissinger",
+"price_eur": 10.29,
+"unit_price_eur": 25.73,
+"unit": "kg",
+"size_g": 400.0,
+"nutrition_100g": {},
+"ean": "9048130046513",
+"image_url": "https://cdn.gurkerl.at/images/grocery/products/28394/28394-1669112966771.jpg",
+"producer": null,
+"producer_id": null,
+"origin": "Österreich",
+"category": "Kühlregal > Schnelle Küche > Fertiggerichte > Traditionelle Hausmannskost",
+"source_url": "https://www.gurkerl.at/28394-gissinger-rahmfisolen",
+"source_id": "28394",
+"fetched_at": "2026-10-13T17:38:45+00:00",
+"extra": {
+"in_stock": true,
+"archived": false,
+"ingredients": "Zutaten: Fisolen, SAUERRAHM, BUTTER, MILCH, Dille, Gewürze"
+}
+}
+]
