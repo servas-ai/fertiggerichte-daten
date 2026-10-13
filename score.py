@@ -1,6 +1,6 @@
 import json,re,statistics as st
 import os
-src=(['expand.json'] if os.path.exists('expand.json') else [])+(['classics.json'] if os.path.exists('classics.json') else [])+(['classics_ext.json'] if os.path.exists('classics_ext.json') else [])+(['brandfam_products.json'] if os.path.exists('brandfam_products.json') else [])+['billa.json','spar.json','spar_live.json','hofer_lidl.json','hofer_goodchoice.json','dm_live.json','frozen_quick.json','other.json','spar_browser_norm.json','more_meals_norm.json']+(['connectors_new.json'] if os.path.exists('connectors_new.json') else [])+(['online_mealprep.json'] if os.path.exists('online_mealprep.json') else [])+(['expand_v5.json'] if os.path.exists('expand_v5.json') else [])+(['hofer_off_meals.json'] if os.path.exists('hofer_off_meals.json') else [])+(['mpreis_new_2026-10-13.json'] if os.path.exists('mpreis_new_2026-10-13.json') else [])+(['ownbrands_meals.json'] if os.path.exists('ownbrands_meals.json') else [])+(['linz_providers_src.json'] if os.path.exists('linz_providers_src.json') else [])
+src=(['expand.json'] if os.path.exists('expand.json') else [])+(['classics.json'] if os.path.exists('classics.json') else [])+(['classics_ext.json'] if os.path.exists('classics_ext.json') else [])+(['brandfam_products.json'] if os.path.exists('brandfam_products.json') else [])+['billa.json','spar.json','spar_live.json','hofer_lidl.json','hofer_goodchoice.json','dm_live.json','frozen_quick.json','other.json','spar_browser_norm.json','more_meals_norm.json']+(['connectors_new.json'] if os.path.exists('connectors_new.json') else [])+(['online_mealprep.json'] if os.path.exists('online_mealprep.json') else [])+(['expand_v5.json'] if os.path.exists('expand_v5.json') else [])+(['hofer_off_meals.json'] if os.path.exists('hofer_off_meals.json') else [])+(['mpreis_new_2026-10-13.json'] if os.path.exists('mpreis_new_2026-10-13.json') else [])+(['ownbrands_meals.json'] if os.path.exists('ownbrands_meals.json') else [])+(['linz_providers_src.json'] if os.path.exists('linz_providers_src.json') else [])+(['mealkits_src.json'] if os.path.exists('mealkits_src.json') else [])
 LIVE=('spar_live.json','dm_live.json')
 items=[]
 for f in src:
@@ -272,6 +272,8 @@ for x in out:
     elif x['nutrition_basis']=='prepared': x['dry']=False; x['flags'].append('Nährwerte auf zubereitet umgerechnet ('+(x.get('nutrition_note') or '')+')')
     if x['meal_class'] in ('snack_side','light_meal'): x['flags'].append(f"Mahlzeit-Check: {x['kcal_meal']} kcal/Portion – Snack/Beilage, keine Mahlzeit" if x['meal_class']=='snack_side' else f"Mahlzeit-Check: nur {x['kcal_meal']} kcal – leichte Mahlzeit")
     x['rankable']=bool(x['rankable']) and not x['dry'] and x['health_score'] is not None and x['meal_class'] in ('meal','multi_portion' if x['portion_source']!='unknown' and x['portion_source']!='pack_single' else 'meal')
+for x in out:  # meal kits (cook-yourself boxes) are ranked separately from ready meals
+    if x.get('segment')=='meal_kit': x['rankable_mealkit']=bool(x.get('rankable')); x['rankable']=False
 json.dump(out,open('scored.json','w'),ensure_ascii=False,indent=1)
 meals=[x for x in out if x['is_meal']]
 types=sorted(set(x['packaging'] for x in meals))
