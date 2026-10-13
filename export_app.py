@@ -286,6 +286,18 @@ for _r in R:
 _n_exact=_demote_dups(_by_ex,'Duplikat (gleicher Name/Laden/Größe)',_pref,False)
 _n_ean=_demote_dups(_by_ean,'Duplikat (gleiche GTIN/EAN)',_pref,True)
 _n_near=_demote_dups(_by_near,'Duplikat (nahe Name/Marke, Ranking)',_pref,True,True)
+# same-store GTIN twins (Sensecheck 5): keep the preferred row, hide the twin from listings via dupOf
+_n_samestore=0; _ss={}
+for _r in R:
+    _e=str(_r.get('ean') or '').lstrip('0')
+    if _e and _e.isdigit() and len(_e)>=8: _ss.setdefault(((_r.get('store') or '').lower(),_e),[]).append(_r)
+for _vs in _ss.values():
+    if len(_vs)<2: continue
+    _vs=sorted(_vs,key=_pref)
+    for _r in _vs[1:]:
+        if _r.get('dupOf') is None:
+            _r['dupOf']=_vs[0]['id']; _r['rankable']=False; _r['pli']=None; _r['pliLight']=None; _n_samestore+=1
+print('same-store GTIN twins hidden',_n_samestore)
 _light=[]
 for _r in R:
     if _r.get('meal_class') in ('baby','dessert','dry','snack_side'): continue
