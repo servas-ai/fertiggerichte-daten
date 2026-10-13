@@ -28,6 +28,7 @@
    "BILLA Bio",
    "BILLA Genusswelt",
    "BILLA Immer Gut",
+   "Billa immer gut",
    "CLEVER",
    "Hofstädter",
    "Ja! Natürlich",
@@ -38,14 +39,14 @@
   "chains": [
    "Billa"
   ],
-  "product_count": 168,
-  "median_price_eur": 3.99,
-  "median_eur_per_10g_protein": 6.0,
+  "product_count": 210,
+  "median_price_eur": 3.79,
+  "median_eur_per_10g_protein": 6.6,
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T00:58:48Z",
-  "chain_product_count": 498,
+  "fetched_at": "2026-10-13T01:30:02Z",
+  "chain_product_count": 539,
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -78,15 +79,16 @@
   ],
   "chains": [
    "Billa",
-   "Spar"
+   "Spar",
+   "unbekannt (OFF)"
   ],
-  "product_count": 92,
+  "product_count": 93,
   "median_price_eur": 2.19,
-  "median_eur_per_10g_protein": 5.45,
+  "median_eur_per_10g_protein": 5.4,
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T00:59:36Z",
+  "fetched_at": "2026-10-13T01:30:52Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -126,7 +128,7 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T00:59:06Z",
+  "fetched_at": "2026-10-13T01:30:20Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -169,7 +171,7 @@
    "https://api.gleif.org/api/v1/lei-records/529900JLDYJZIRXRD379"
   ],
   "gleif_match_score": 1.0,
-  "fetched_at": "2026-10-13T00:59:34Z",
+  "fetched_at": "2026-10-13T01:30:50Z",
   "registry_status": "verified_gleif"
  },
  {
@@ -208,7 +210,7 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:01:29Z",
+  "fetched_at": "2026-10-13T01:32:41Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -246,6 +248,7 @@
   "brands": [
    "CLEVER",
    "Inzersdorfer",
+   "PRIMANA",
    "Primana",
    "S-BUDGET",
    "inzersdorfer"
@@ -256,7 +259,7 @@
    "Spar",
    "unbekannt (OFF)"
   ],
-  "product_count": 19,
+  "product_count": 20,
   "median_price_eur": 3.49,
   "median_eur_per_10g_protein": 4.9,
   "nace": null,
@@ -268,7 +271,7 @@
    "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf"
   ],
   "gleif_match_score": 1.0,
-  "fetched_at": "2026-10-13T00:59:30Z",
+  "fetched_at": "2026-10-13T01:30:46Z",
   "registry_status": "verified_gleif"
  },
  {
@@ -300,15 +303,16 @@
    "frosta"
   ],
   "chains": [
-   "Billa"
+   "Billa",
+   "unbekannt (OFF)"
   ],
-  "product_count": 15,
+  "product_count": 19,
   "median_price_eur": 5.99,
   "median_eur_per_10g_protein": 4.7,
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T00:59:03Z",
+  "fetched_at": "2026-10-13T01:30:17Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -348,7 +352,7 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:00:32Z",
+  "fetched_at": "2026-10-13T01:31:42Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -390,7 +394,7 @@
    "https://api.gleif.org/api/v1/lei-records/815600530D7A6B12BC38"
   ],
   "gleif_match_score": 1.0,
-  "fetched_at": "2026-10-13T01:00:18Z",
+  "fetched_at": "2026-10-13T01:31:33Z",
   "registry_status": "verified_gleif"
  },
  {
@@ -431,46 +435,7 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T00:59:27Z",
-  "registry_status": "not_found_in_gleif"
- },
- {
-  "slug": "ja-natuerlich-naturprodukte-gesellschaft-mbh",
-  "name": "Ja! Natürlich Naturprodukte Gesellschaft m.b.H.",
-  "role": "producer",
-  "legal_name": null,
-  "lei": null,
-  "register_id": null,
-  "register_authority": null,
-  "fn": null,
-  "legal_form_code": null,
-  "country": null,
-  "address": null,
-  "entity_status": null,
-  "parent_direct": null,
-  "parent_ultimate": null,
-  "parent_ultimate_lei": null,
-  "founded": null,
-  "owners": null,
-  "management": null,
-  "employees": null,
-  "revenue": null,
-  "website": null,
-  "plants": [],
-  "approval_codes": null,
-  "brands": [
-   "Ja! Natürlich"
-  ],
-  "chains": [
-   "Billa"
-  ],
-  "product_count": 9,
-  "median_price_eur": 3.99,
-  "median_eur_per_10g_protein": 4.7,
-  "nace": null,
-  "sources": [],
-  "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:00:39Z",
+  "fetched_at": "2026-10-13T01:30:42Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -512,8 +477,126 @@
    "https://api.gleif.org/api/v1/lei-records/529900PNAKPBLDOF8724"
   ],
   "gleif_match_score": 1.0,
-  "fetched_at": "2026-10-13T00:59:25Z",
+  "fetched_at": "2026-10-13T01:30:40Z",
   "registry_status": "verified_gleif"
+ },
+ {
+  "slug": "alnatura-gmbh",
+  "name": "Alnatura GmbH",
+  "role": "producer",
+  "legal_name": null,
+  "lei": null,
+  "register_id": null,
+  "register_authority": null,
+  "fn": null,
+  "legal_form_code": null,
+  "country": null,
+  "address": null,
+  "entity_status": null,
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Alnatura"
+  ],
+  "chains": [
+   "Billa",
+   "unbekannt (OFF)"
+  ],
+  "product_count": 6,
+  "median_price_eur": 2.54,
+  "median_eur_per_10g_protein": 5.05,
+  "nace": null,
+  "sources": [],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-13T01:29:59Z",
+  "registry_status": "not_found_in_gleif"
+ },
+ {
+  "slug": "everygmbh",
+  "name": "Every.GmbH",
+  "role": "producer",
+  "legal_name": null,
+  "lei": null,
+  "register_id": null,
+  "register_authority": null,
+  "fn": null,
+  "legal_form_code": null,
+  "country": null,
+  "address": null,
+  "entity_status": null,
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Every."
+  ],
+  "chains": [
+   "unbekannt (OFF)"
+  ],
+  "product_count": 6,
+  "median_price_eur": 9.19,
+  "median_eur_per_10g_protein": 1.95,
+  "nace": null,
+  "sources": [],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-13T01:32:58Z",
+  "registry_status": "not_found_in_gleif"
+ },
+ {
+  "slug": "ja-natuerlich-naturprodukte-gesellschaft-mbh",
+  "name": "Ja! Natürlich Naturprodukte Gesellschaft m.b.H.",
+  "role": "producer",
+  "legal_name": null,
+  "lei": null,
+  "register_id": null,
+  "register_authority": null,
+  "fn": null,
+  "legal_form_code": null,
+  "country": null,
+  "address": null,
+  "entity_status": null,
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Ja! Natürlich"
+  ],
+  "chains": [
+   "Billa"
+  ],
+  "product_count": 6,
+  "median_price_eur": 3.49,
+  "median_eur_per_10g_protein": 6.9,
+  "nace": null,
+  "sources": [],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-13T01:31:16Z",
+  "registry_status": "not_found_in_gleif"
  },
  {
   "slug": "karnerta-gmbh",
@@ -549,14 +632,15 @@
   "approval_codes": "AT 20271 EG",
   "brands": [
    "BILLA Immer Gut",
-   "Ja! Natürlich"
+   "Ja! Natürlich",
+   "Omis Schmankerl"
   ],
   "chains": [
    "Billa"
   ],
   "product_count": 6,
   "median_price_eur": 3.89,
-  "median_eur_per_10g_protein": 8.9,
+  "median_eur_per_10g_protein": 9.55,
   "nace": null,
   "sources": [
    "https://api.gleif.org/api/v1/lei-records/529900ZJN1U2VKYD0T07",
@@ -567,7 +651,7 @@
    "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf"
   ],
   "gleif_match_score": 1.0,
-  "fetched_at": "2026-10-13T00:59:47Z",
+  "fetched_at": "2026-10-13T01:31:04Z",
   "registry_status": "verified_gleif"
  },
  {
@@ -620,7 +704,7 @@
    "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf"
   ],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:00:12Z",
+  "fetched_at": "2026-10-13T01:31:26Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -659,62 +743,7 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T00:59:01Z",
-  "registry_status": "not_found_in_gleif"
- },
- {
-  "slug": "wiesbauer-gourmet-gastro-gmbh",
-  "name": "Wiesbauer Gourmet Gastro GmbH",
-  "role": "producer",
-  "legal_name": null,
-  "lei": null,
-  "register_id": null,
-  "register_authority": null,
-  "fn": null,
-  "legal_form_code": null,
-  "country": null,
-  "address": null,
-  "entity_status": null,
-  "parent_direct": null,
-  "parent_ultimate": null,
-  "parent_ultimate_lei": null,
-  "founded": "1928 / Übernahme durch Wiesbauer 2003",
-  "owners": "Wiesbauer Holding AG (Familie Schmiedbauer)",
-  "management": "Ernst Stocker",
-  "employees": "255 (Unternehmensangabe 2025); 215 Ø lt. JA 2025",
-  "revenue": "112 Mio. € (2025, Unternehmensangabe); 102,05 Mio. € Umsatzerlöse lt. JA 2025",
-  "website": "https://www.wiesbauer-gourmet.at",
-  "plants": [
-   {
-    "address": "Wiesbauer Straße 1, 3454 Sitzenberg-Reidling",
-    "approval_code": "AT 31538 EG",
-    "lat": 48.3295836,
-    "lon": 15.8210697,
-    "source": "https://vis.statistik.at/fileadmin/ovis/pdf/O20.pdf"
-   }
-  ],
-  "approval_codes": "AT 31538 EG",
-  "brands": [
-   "BILLA Genusswelt",
-   "Hofstädter"
-  ],
-  "chains": [
-   "Billa"
-  ],
-  "product_count": 5,
-  "median_price_eur": 7.99,
-  "median_eur_per_10g_protein": 4.6,
-  "nace": null,
-  "sources": [
-   "https://www.wiesbauer-gourmet.at/unternehmensgruppe",
-   "https://www.wiesbauer.at/wiesbauer-holding/",
-   "https://presse.wiesbauer.at/news-wiesbauer-mit-solider-geschaeftsentwicklung?id=229428&l=deutsch&menueid=34285",
-   "https://www.wiesbauer-sousvide.at/",
-   "https://firmenakte.at/business/98447a-wiesbauer-gourmet-gastro-gmbh",
-   "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf"
-  ],
-  "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:00:04Z",
+  "fetched_at": "2026-10-13T01:30:15Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -753,7 +782,7 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T00:59:44Z",
+  "fetched_at": "2026-10-13T01:31:00Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -806,7 +835,7 @@
    "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf"
   ],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:00:23Z",
+  "fetched_at": "2026-10-13T01:31:19Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -857,7 +886,7 @@
    "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf"
   ],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:01:03Z",
+  "fetched_at": "2026-10-13T01:32:14Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -896,7 +925,62 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T00:59:21Z",
+  "fetched_at": "2026-10-13T01:30:36Z",
+  "registry_status": "not_found_in_gleif"
+ },
+ {
+  "slug": "wiesbauer-gourmet-gastro-gmbh",
+  "name": "Wiesbauer Gourmet Gastro GmbH",
+  "role": "producer",
+  "legal_name": null,
+  "lei": null,
+  "register_id": null,
+  "register_authority": null,
+  "fn": null,
+  "legal_form_code": null,
+  "country": null,
+  "address": null,
+  "entity_status": null,
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": "1928 / Übernahme durch Wiesbauer 2003",
+  "owners": "Wiesbauer Holding AG (Familie Schmiedbauer)",
+  "management": "Ernst Stocker",
+  "employees": "255 (Unternehmensangabe 2025); 215 Ø lt. JA 2025",
+  "revenue": "112 Mio. € (2025, Unternehmensangabe); 102,05 Mio. € Umsatzerlöse lt. JA 2025",
+  "website": "https://www.wiesbauer-gourmet.at",
+  "plants": [
+   {
+    "address": "Wiesbauer Straße 1, 3454 Sitzenberg-Reidling",
+    "approval_code": "AT 31538 EG",
+    "lat": 48.3295836,
+    "lon": 15.8210697,
+    "source": "https://vis.statistik.at/fileadmin/ovis/pdf/O20.pdf"
+   }
+  ],
+  "approval_codes": "AT 31538 EG",
+  "brands": [
+   "BILLA Genusswelt",
+   "Hofstädter"
+  ],
+  "chains": [
+   "Billa"
+  ],
+  "product_count": 4,
+  "median_price_eur": 7.99,
+  "median_eur_per_10g_protein": 4.3,
+  "nace": null,
+  "sources": [
+   "https://www.wiesbauer-gourmet.at/unternehmensgruppe",
+   "https://www.wiesbauer.at/wiesbauer-holding/",
+   "https://presse.wiesbauer.at/news-wiesbauer-mit-solider-geschaeftsentwicklung?id=229428&l=deutsch&menueid=34285",
+   "https://www.wiesbauer-sousvide.at/",
+   "https://firmenakte.at/business/98447a-wiesbauer-gourmet-gastro-gmbh",
+   "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf"
+  ],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-13T01:31:18Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -935,46 +1019,7 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:00:34Z",
-  "registry_status": "not_found_in_gleif"
- },
- {
-  "slug": "alnatura-gmbh",
-  "name": "Alnatura GmbH",
-  "role": "producer",
-  "legal_name": null,
-  "lei": null,
-  "register_id": null,
-  "register_authority": null,
-  "fn": null,
-  "legal_form_code": null,
-  "country": null,
-  "address": null,
-  "entity_status": null,
-  "parent_direct": null,
-  "parent_ultimate": null,
-  "parent_ultimate_lei": null,
-  "founded": null,
-  "owners": null,
-  "management": null,
-  "employees": null,
-  "revenue": null,
-  "website": null,
-  "plants": [],
-  "approval_codes": null,
-  "brands": [
-   "Alnatura"
-  ],
-  "chains": [
-   "Billa"
-  ],
-  "product_count": 3,
-  "median_price_eur": 2.99,
-  "median_eur_per_10g_protein": 2.9,
-  "nace": null,
-  "sources": [],
-  "gleif_match_score": null,
-  "fetched_at": "2026-10-13T00:58:46Z",
+  "fetched_at": "2026-10-13T01:31:44Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -1013,65 +1058,88 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:00:45Z",
+  "fetched_at": "2026-10-13T01:31:54Z",
   "registry_status": "not_found_in_gleif"
  },
  {
-  "slug": "gms-gourmet-gmbh",
-  "name": "GMS GOURMET GmbH",
+  "slug": "hofmann-menue-manufaktur-gmbh",
+  "name": "Hofmann Menü-Manufaktur GmbH",
   "role": "producer",
-  "legal_name": "GMS GOURMET GmbH",
-  "lei": "5299003EXF4GJXGELC41",
-  "register_id": "FN 104525p",
-  "register_authority": "RA000017",
-  "fn": "FN 104525p",
-  "legal_form_code": "AXSB",
-  "country": "AT",
-  "address": "Oberlaaer Straße 298, 1230 Wien, AT",
-  "entity_status": "NULL",
+  "legal_name": "Hofmann Menü-Manufaktur GmbH",
+  "lei": "529900AQZT30CV86TF72",
+  "register_id": "HRB 560522",
+  "register_authority": "RA000296",
+  "fn": null,
+  "legal_form_code": "2HBR",
+  "country": "DE",
+  "address": "Adelbert-Hofmann-Straße 6, 97944 Boxberg, DE",
+  "entity_status": "ACTIVE",
+  "parent_direct": "Hofmann-Menü Holdings GmbH",
+  "parent_ultimate": "PARTNERS GROUP STARFROST LIMITED",
+  "parent_ultimate_lei": "549300J0KXBTDLOB5L43",
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "HOFMANNs"
+  ],
+  "chains": [
+   "unbekannt (OFF)"
+  ],
+  "product_count": 3,
+  "median_price_eur": 10.29,
+  "median_eur_per_10g_protein": 3.4,
+  "nace": null,
+  "sources": [
+   "https://api.gleif.org/api/v1/lei-records/529900AQZT30CV86TF72"
+  ],
+  "gleif_match_score": 1.0,
+  "fetched_at": "2026-10-13T01:32:55Z",
+  "registry_status": "verified_gleif"
+ },
+ {
+  "slug": "kreyenhop-kluge-gmbh-co-kg",
+  "name": "Kreyenhop & Kluge GmbH & Co. KG",
+  "role": "producer",
+  "legal_name": null,
+  "lei": null,
+  "register_id": null,
+  "register_authority": null,
+  "fn": null,
+  "legal_form_code": null,
+  "country": null,
+  "address": null,
+  "entity_status": null,
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": "1975 (Gourmet Menü-Service); 2014 Fusion zur GMS GOURMET GmbH",
-  "owners": "VIVATIS Holding AG, Linz (Tochter der Raiffeisenlandesbank OÖ)",
+  "founded": null,
+  "owners": null,
   "management": null,
-  "employees": "ca. 2.100 inkl. Töchter",
-  "revenue": "gut 300 Mio. € (2024, Gruppe lt. Presse); Firmenbuch-Jahresabschluss 2024: 246,8 Mio. €",
-  "website": "https://www.gourmet.at",
-  "plants": [
-   {
-    "address": "Zdarskystraße 3, 3100 St. Pölten",
-    "approval_code": "AT 30733 EG",
-    "lat": 48.1651115,
-    "lon": 15.6204845,
-    "source": "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf"
-   }
-  ],
-  "approval_codes": "AT 30733 EG",
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
   "brands": [
-   "Good Choice",
-   "Good Choice (Hofer Eigenmarke)",
-   "Omis Schmankerl"
+   "Bibigo"
   ],
   "chains": [
-   "Billa",
-   "Hofer"
+   "unbekannt (OFF)"
   ],
   "product_count": 3,
-  "median_price_eur": 3.39,
-  "median_eur_per_10g_protein": 2.6,
+  "median_price_eur": 9.19,
+  "median_eur_per_10g_protein": 5.2,
   "nace": null,
-  "sources": [
-   "https://api.gleif.org/api/v1/lei-records/5299003EXF4GJXGELC41",
-   "https://www.gourmet.at/ueber-uns/das-unternehmen",
-   "https://www.diepresse.com/19563868/gastronomie-und-cateringfirma-gms-gourmet-plant-expansion-in-deutschland",
-   "https://kurier.at/wirtschaft/catering-oesterreich-tschechien-gourmet-maresi-knabbernossi/403030837",
-   "https://www.firmenatlas.com/firma/104525p",
-   "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf"
-  ],
-  "gleif_match_score": 1.0,
-  "fetched_at": "2026-10-13T01:00:22Z",
-  "registry_status": "verified_gleif"
+  "sources": [],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-13T01:33:00Z",
+  "registry_status": "not_found_in_gleif"
  },
  {
   "slug": "mars-austria-og",
@@ -1111,7 +1179,7 @@
    "https://api.gleif.org/api/v1/lei-records/5493006K9J3OVPXZW688"
   ],
   "gleif_match_score": 1.0,
-  "fetched_at": "2026-10-13T00:58:55Z",
+  "fetched_at": "2026-10-13T01:30:09Z",
   "registry_status": "verified_gleif"
  },
  {
@@ -1152,7 +1220,7 @@
    "https://api.gleif.org/api/v1/lei-records/213800S75WRICRU1WM83"
   ],
   "gleif_match_score": 1.0,
-  "fetched_at": "2026-10-13T01:00:37Z",
+  "fetched_at": "2026-10-13T01:31:48Z",
   "registry_status": "verified_gleif"
  },
  {
@@ -1193,7 +1261,7 @@
    "https://api.gleif.org/api/v1/lei-records/5299007YW7YPUBPNPB21"
   ],
   "gleif_match_score": 1.0,
-  "fetched_at": "2026-10-13T01:01:12Z",
+  "fetched_at": "2026-10-13T01:32:23Z",
   "registry_status": "verified_gleif"
  },
  {
@@ -1232,7 +1300,7 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:00:07Z",
+  "fetched_at": "2026-10-13T01:31:22Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -1273,7 +1341,7 @@
    "https://api.gleif.org/api/v1/lei-records/52990090AITYIP340F59"
   ],
   "gleif_match_score": 1.0,
-  "fetched_at": "2026-10-13T00:59:09Z",
+  "fetched_at": "2026-10-13T01:30:23Z",
   "registry_status": "verified_gleif"
  },
  {
@@ -1312,7 +1380,7 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T00:58:45Z",
+  "fetched_at": "2026-10-13T01:29:58Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -1351,7 +1419,7 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:00:47Z",
+  "fetched_at": "2026-10-13T01:31:56Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -1390,7 +1458,7 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:01:32Z",
+  "fetched_at": "2026-10-13T01:32:43Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -1431,7 +1499,7 @@
    "https://api.gleif.org/api/v1/lei-records/529900HWBYCO8M2UN457"
   ],
   "gleif_match_score": 0.78,
-  "fetched_at": "2026-10-13T00:58:52Z",
+  "fetched_at": "2026-10-13T01:30:05Z",
   "registry_status": "verified_gleif"
  },
  {
@@ -1472,7 +1540,7 @@
    "https://api.gleif.org/api/v1/lei-records/529900OYBF0IQCUQ4E29"
   ],
   "gleif_match_score": 1.0,
-  "fetched_at": "2026-10-13T01:00:31Z",
+  "fetched_at": "2026-10-13T01:31:41Z",
   "registry_status": "verified_gleif"
  },
  {
@@ -1511,8 +1579,63 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T00:59:19Z",
+  "fetched_at": "2026-10-13T01:30:34Z",
   "registry_status": "not_found_in_gleif"
+ },
+ {
+  "slug": "gms-gourmet-gmbh",
+  "name": "GMS GOURMET GmbH",
+  "role": "producer",
+  "legal_name": "GMS GOURMET GmbH",
+  "lei": "5299003EXF4GJXGELC41",
+  "register_id": "FN 104525p",
+  "register_authority": "RA000017",
+  "fn": "FN 104525p",
+  "legal_form_code": "AXSB",
+  "country": "AT",
+  "address": "Oberlaaer Straße 298, 1230 Wien, AT",
+  "entity_status": "NULL",
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": "1975 (Gourmet Menü-Service); 2014 Fusion zur GMS GOURMET GmbH",
+  "owners": "VIVATIS Holding AG, Linz (Tochter der Raiffeisenlandesbank OÖ)",
+  "management": null,
+  "employees": "ca. 2.100 inkl. Töchter",
+  "revenue": "gut 300 Mio. € (2024, Gruppe lt. Presse); Firmenbuch-Jahresabschluss 2024: 246,8 Mio. €",
+  "website": "https://www.gourmet.at",
+  "plants": [
+   {
+    "address": "Zdarskystraße 3, 3100 St. Pölten",
+    "approval_code": "AT 30733 EG",
+    "lat": 48.1651115,
+    "lon": 15.6204845,
+    "source": "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf"
+   }
+  ],
+  "approval_codes": "AT 30733 EG",
+  "brands": [
+   "Good Choice",
+   "Good Choice (Hofer Eigenmarke)"
+  ],
+  "chains": [
+   "Hofer"
+  ],
+  "product_count": 2,
+  "median_price_eur": 3.39,
+  "median_eur_per_10g_protein": 2.6,
+  "nace": null,
+  "sources": [
+   "https://api.gleif.org/api/v1/lei-records/5299003EXF4GJXGELC41",
+   "https://www.gourmet.at/ueber-uns/das-unternehmen",
+   "https://www.diepresse.com/19563868/gastronomie-und-cateringfirma-gms-gourmet-plant-expansion-in-deutschland",
+   "https://kurier.at/wirtschaft/catering-oesterreich-tschechien-gourmet-maresi-knabbernossi/403030837",
+   "https://www.firmenatlas.com/firma/104525p",
+   "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf"
+  ],
+  "gleif_match_score": 1.0,
+  "fetched_at": "2026-10-13T01:32:07Z",
+  "registry_status": "verified_gleif"
  },
  {
   "slug": "glatz-gmbh",
@@ -1552,7 +1675,7 @@
    "https://api.gleif.org/api/v1/lei-records/98450010EDCCFFF5CF87"
   ],
   "gleif_match_score": 1.0,
-  "fetched_at": "2026-10-13T01:00:43Z",
+  "fetched_at": "2026-10-13T01:31:52Z",
   "registry_status": "verified_gleif"
  },
  {
@@ -1604,7 +1727,7 @@
    "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf"
   ],
   "gleif_match_score": 1.0,
-  "fetched_at": "2026-10-13T01:01:27Z",
+  "fetched_at": "2026-10-13T01:32:39Z",
   "registry_status": "verified_gleif"
  },
  {
@@ -1643,7 +1766,7 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:01:18Z",
+  "fetched_at": "2026-10-13T01:32:30Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -1682,7 +1805,7 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T00:59:42Z",
+  "fetched_at": "2026-10-13T01:30:58Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -1718,9 +1841,11 @@
   ],
   "approval_codes": "AT 41586 EG",
   "brands": [
-   "S-BUDGET"
+   "Good Choice",
+   "S-Budget"
   ],
   "chains": [
+   "Hofer",
    "Spar"
   ],
   "product_count": 2,
@@ -1733,7 +1858,7 @@
    "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf"
   ],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T00:59:38Z",
+  "fetched_at": "2026-10-13T01:30:54Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -1787,7 +1912,7 @@
    "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf"
   ],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:00:14Z",
+  "fetched_at": "2026-10-13T01:31:29Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -1826,7 +1951,85 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:00:09Z",
+  "fetched_at": "2026-10-13T01:31:24Z",
+  "registry_status": "not_found_in_gleif"
+ },
+ {
+  "slug": "bs-gastro-event-services-gmbh",
+  "name": "BS Gastro & Event Services GmbH",
+  "role": "producer",
+  "legal_name": null,
+  "lei": null,
+  "register_id": null,
+  "register_authority": null,
+  "fn": null,
+  "legal_form_code": null,
+  "country": null,
+  "address": null,
+  "entity_status": null,
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Wiener Virtshaus"
+  ],
+  "chains": [
+   "unbekannt (OFF)"
+  ],
+  "product_count": 1,
+  "median_price_eur": 10.49,
+  "median_eur_per_10g_protein": 4.6,
+  "nace": null,
+  "sources": [],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-13T01:32:52Z",
+  "registry_status": "not_found_in_gleif"
+ },
+ {
+  "slug": "delikatessa-gmbh",
+  "name": "Delikatessa GmbH",
+  "role": "producer",
+  "legal_name": null,
+  "lei": null,
+  "register_id": null,
+  "register_authority": null,
+  "fn": null,
+  "legal_form_code": null,
+  "country": null,
+  "address": null,
+  "entity_status": null,
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "CLEVER"
+  ],
+  "chains": [
+   "Billa"
+  ],
+  "product_count": 1,
+  "median_price_eur": 1.19,
+  "median_eur_per_10g_protein": 41.0,
+  "nace": null,
+  "sources": [],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-13T01:31:14Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -1865,7 +2068,7 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:00:27Z",
+  "fetched_at": "2026-10-13T01:31:38Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -1904,7 +2107,7 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T00:59:40Z",
+  "fetched_at": "2026-10-13T01:30:56Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -1945,7 +2148,7 @@
    "https://api.gleif.org/api/v1/lei-records/529900TSU1ECVJ0FYL45"
   ],
   "gleif_match_score": 1.0,
-  "fetched_at": "2026-10-13T01:00:51Z",
+  "fetched_at": "2026-10-13T01:31:59Z",
   "registry_status": "verified_gleif"
  },
  {
@@ -1986,7 +2189,7 @@
    "https://api.gleif.org/api/v1/lei-records/52990035MITUYUCR8F03"
   ],
   "gleif_match_score": 1.0,
-  "fetched_at": "2026-10-13T00:59:17Z",
+  "fetched_at": "2026-10-13T01:30:31Z",
   "registry_status": "verified_gleif"
  },
  {
@@ -2025,7 +2228,7 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:00:25Z",
+  "fetched_at": "2026-10-13T01:31:35Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -2064,7 +2267,7 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:00:57Z",
+  "fetched_at": "2026-10-13T01:32:10Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -2103,7 +2306,7 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:00:15Z",
+  "fetched_at": "2026-10-13T01:31:30Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -2155,7 +2358,7 @@
    "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf"
   ],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:00:59Z",
+  "fetched_at": "2026-10-13T01:32:12Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -2206,7 +2409,7 @@
    "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf"
   ],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:01:05Z",
+  "fetched_at": "2026-10-13T01:32:16Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -2258,7 +2461,7 @@
    "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf"
   ],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:00:55Z",
+  "fetched_at": "2026-10-13T01:32:04Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -2297,7 +2500,7 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T00:59:12Z",
+  "fetched_at": "2026-10-13T01:30:26Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -2336,7 +2539,7 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:01:34Z",
+  "fetched_at": "2026-10-13T01:32:45Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -2375,7 +2578,85 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:01:16Z",
+  "fetched_at": "2026-10-13T01:32:27Z",
+  "registry_status": "not_found_in_gleif"
+ },
+ {
+  "slug": "kontakt-everygmbh",
+  "name": "Kontakt: Every.GmbH",
+  "role": "producer",
+  "legal_name": null,
+  "lei": null,
+  "register_id": null,
+  "register_authority": null,
+  "fn": null,
+  "legal_form_code": null,
+  "country": null,
+  "address": null,
+  "entity_status": null,
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Every."
+  ],
+  "chains": [
+   "unbekannt (OFF)"
+  ],
+  "product_count": 1,
+  "median_price_eur": 9.19,
+  "median_eur_per_10g_protein": 3.0,
+  "nace": null,
+  "sources": [],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-13T01:33:02Z",
+  "registry_status": "not_found_in_gleif"
+ },
+ {
+  "slug": "lamercantile-scardovi-gmbh",
+  "name": "Lamercantile Scardovi GmbH",
+  "role": "producer",
+  "legal_name": null,
+  "lei": null,
+  "register_id": null,
+  "register_authority": null,
+  "fn": null,
+  "legal_form_code": null,
+  "country": null,
+  "address": null,
+  "entity_status": null,
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": null,
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Elsässer"
+  ],
+  "chains": [
+   "unbekannt (OFF)"
+  ],
+  "product_count": 1,
+  "median_price_eur": 4.39,
+  "median_eur_per_10g_protein": 4.1,
+  "nace": null,
+  "sources": [],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-13T01:32:50Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -2414,7 +2695,7 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:01:22Z",
+  "fetched_at": "2026-10-13T01:32:33Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -2453,7 +2734,7 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T00:59:14Z",
+  "fetched_at": "2026-10-13T01:30:28Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -2492,7 +2773,7 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:01:24Z",
+  "fetched_at": "2026-10-13T01:32:35Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -2531,7 +2812,7 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:00:53Z",
+  "fetched_at": "2026-10-13T01:32:02Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -2572,7 +2853,7 @@
    "https://api.gleif.org/api/v1/lei-records/815600DABDA3F47A6A19"
   ],
   "gleif_match_score": 1.0,
-  "fetched_at": "2026-10-13T00:59:51Z",
+  "fetched_at": "2026-10-13T01:31:07Z",
   "registry_status": "verified_gleif"
  },
  {
@@ -2611,7 +2892,7 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:01:19Z",
+  "fetched_at": "2026-10-13T01:32:31Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -2663,7 +2944,7 @@
    "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf"
   ],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:01:14Z",
+  "fetched_at": "2026-10-13T01:32:25Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -2716,7 +2997,7 @@
    "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf"
   ],
   "gleif_match_score": 1.0,
-  "fetched_at": "2026-10-13T01:00:01Z",
+  "fetched_at": "2026-10-13T01:31:11Z",
   "registry_status": "verified_gleif"
  },
  {
@@ -2757,7 +3038,7 @@
    "https://api.gleif.org/api/v1/lei-records/529900YH6DT4UAGNHL65"
   ],
   "gleif_match_score": 1.0,
-  "fetched_at": "2026-10-13T00:58:59Z",
+  "fetched_at": "2026-10-13T01:30:13Z",
   "registry_status": "verified_gleif"
  },
  {
@@ -2798,7 +3079,7 @@
    "https://api.gleif.org/api/v1/lei-records/52990092YPC9C4JYBN76"
   ],
   "gleif_match_score": 1.0,
-  "fetched_at": "2026-10-13T01:01:08Z",
+  "fetched_at": "2026-10-13T01:32:20Z",
   "registry_status": "verified_gleif"
  },
  {
@@ -2835,8 +3116,8 @@
    "https://api.gleif.org/api/v1/lei-records/529900MNT8H6TLU4WK98"
   ],
   "gleif_match_score": 1.0,
-  "fetched_at": "2026-10-13T01:01:41Z",
-  "chain_product_count": 139,
+  "fetched_at": "2026-10-13T01:33:09Z",
+  "chain_product_count": 218,
   "registry_status": "verified_gleif"
  },
  {
@@ -2873,7 +3154,7 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:02:02Z",
+  "fetched_at": "2026-10-13T01:33:30Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -2908,8 +3189,8 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:01:42Z",
-  "chain_product_count": 18,
+  "fetched_at": "2026-10-13T01:33:10Z",
+  "chain_product_count": 35,
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -2946,7 +3227,7 @@
    "https://api.gleif.org/api/v1/lei-records/5299007HKZK4RSU17874"
   ],
   "gleif_match_score": 1.0,
-  "fetched_at": "2026-10-13T01:01:54Z",
+  "fetched_at": "2026-10-13T01:33:22Z",
   "chain_product_count": 0,
   "registry_status": "verified_gleif"
  },
@@ -2982,8 +3263,8 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:01:44Z",
-  "chain_product_count": 2,
+  "fetched_at": "2026-10-13T01:33:12Z",
+  "chain_product_count": 12,
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -3020,7 +3301,7 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:01:56Z",
+  "fetched_at": "2026-10-13T01:33:25Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -3057,7 +3338,7 @@
    "https://api.gleif.org/api/v1/lei-records/529900VPZ1K9QECCLM53"
   ],
   "gleif_match_score": 1.0,
-  "fetched_at": "2026-10-13T01:01:49Z",
+  "fetched_at": "2026-10-13T01:33:17Z",
   "chain_product_count": 0,
   "registry_status": "verified_gleif"
  },
@@ -3106,7 +3387,7 @@
    "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf"
   ],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:02:08Z",
+  "fetched_at": "2026-10-13T01:33:36Z",
   "registry_status": "not_found_in_gleif"
  },
  {
@@ -3143,8 +3424,8 @@
    "https://api.gleif.org/api/v1/lei-records/529900Y9ZL3RKKWV4276"
   ],
   "gleif_match_score": 1.0,
-  "fetched_at": "2026-10-13T01:01:37Z",
-  "chain_product_count": 533,
+  "fetched_at": "2026-10-13T01:33:06Z",
+  "chain_product_count": 587,
   "registry_status": "verified_gleif"
  },
  {
@@ -3179,7 +3460,7 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:01:51Z",
+  "fetched_at": "2026-10-13T01:33:19Z",
   "chain_product_count": 0,
   "registry_status": "not_found_in_gleif"
  },
@@ -3215,7 +3496,7 @@
   "nace": null,
   "sources": [],
   "gleif_match_score": null,
-  "fetched_at": "2026-10-13T01:01:45Z",
+  "fetched_at": "2026-10-13T01:33:14Z",
   "chain_product_count": 23,
   "registry_status": "not_found_in_gleif"
  }

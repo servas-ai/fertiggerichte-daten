@@ -296,6 +296,169 @@
    }
   },
   {
+   "name": "online_mealprep",
+   "path": "data/online_mealprep.csv",
+   "format": "csv",
+   "encoding": "utf-8",
+   "description": "",
+   "schema": {
+    "fields": [
+     {
+      "name": "name",
+      "type": "string"
+     },
+     {
+      "name": "brand",
+      "type": "string"
+     },
+     {
+      "name": "store",
+      "type": "string"
+     },
+     {
+      "name": "price_eur",
+      "type": "number"
+     },
+     {
+      "name": "size_g",
+      "type": "number"
+     },
+     {
+      "name": "price_per_kg",
+      "type": "number"
+     },
+     {
+      "name": "url",
+      "type": "string"
+     },
+     {
+      "name": "image_url",
+      "type": "string"
+     },
+     {
+      "name": "kcal_100",
+      "type": "number"
+     },
+     {
+      "name": "protein_100",
+      "type": "number"
+     },
+     {
+      "name": "fat_100",
+      "type": "number"
+     },
+     {
+      "name": "satfat_100",
+      "type": "number"
+     },
+     {
+      "name": "carbs_100",
+      "type": "number"
+     },
+     {
+      "name": "sugar_100",
+      "type": "number"
+     },
+     {
+      "name": "fiber_100",
+      "type": "number"
+     },
+     {
+      "name": "salt_100",
+      "type": "number"
+     },
+     {
+      "name": "protein_pack",
+      "type": "number"
+     },
+     {
+      "name": "kcal_pack",
+      "type": "integer"
+     },
+     {
+      "name": "eur_per_10g_protein",
+      "type": "number"
+     },
+     {
+      "name": "nutriscore",
+      "type": "string"
+     },
+     {
+      "name": "manufacturer",
+      "type": "string"
+     },
+     {
+      "name": "producer_id",
+      "type": "string"
+     },
+     {
+      "name": "origin",
+      "type": "string"
+     },
+     {
+      "name": "bio",
+      "type": "boolean"
+     },
+     {
+      "name": "veg",
+      "type": "string"
+     },
+     {
+      "name": "prep",
+      "type": "string"
+     },
+     {
+      "name": "instantpot",
+      "type": "string"
+     },
+     {
+      "name": "category",
+      "type": "string"
+     },
+     {
+      "name": "price_source",
+      "type": "string"
+     },
+     {
+      "name": "price_date",
+      "type": "string"
+     },
+     {
+      "name": "nut_source",
+      "type": "string"
+     },
+     {
+      "name": "packaging",
+      "type": "string"
+     },
+     {
+      "name": "online",
+      "type": "boolean"
+     },
+     {
+      "name": "available",
+      "type": "boolean"
+     },
+     {
+      "name": "storage",
+      "type": "string"
+     },
+     {
+      "name": "shelf_life",
+      "type": "string"
+     },
+     {
+      "name": "shipping_eur",
+      "type": "number"
+     },
+     {
+      "name": "nut_flag",
+      "type": "string"
+     }
+    ]
+   }
+  },
+  {
    "name": "prices",
    "path": "data/prices.csv",
    "format": "csv",
@@ -339,6 +502,69 @@
        "resource": "products",
        "fields": "product_id"
       }
+     }
+    ]
+   }
+  },
+  {
+   "name": "producer_quality",
+   "path": "data/producer_quality.csv",
+   "format": "csv",
+   "encoding": "utf-8",
+   "description": "",
+   "schema": {
+    "fields": [
+     {
+      "name": "slug",
+      "type": "string"
+     },
+     {
+      "name": "name",
+      "type": "string"
+     },
+     {
+      "name": "plant",
+      "type": "string"
+     },
+     {
+      "name": "quality_score",
+      "type": "integer"
+     },
+     {
+      "name": "potential_score",
+      "type": "integer"
+     },
+     {
+      "name": "certification",
+      "type": "string"
+     },
+     {
+      "name": "cert_confidence",
+      "type": "string"
+     },
+     {
+      "name": "other_certs",
+      "type": "string"
+     },
+     {
+      "name": "sourcing",
+      "type": "string"
+     },
+     {
+      "name": "sourcing_confidence",
+      "type": "string"
+     },
+     {
+      "name": "technology",
+      "type": "string"
+     },
+     {
+      "name": "recalls",
+      "type": "string"
+     },
+     {
+      "name": "sources",
+      "type": "string"
      }
     ]
    }
