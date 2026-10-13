@@ -1,0 +1,343 @@
+[
+ {
+  "slug": "blasko",
+  "name": "Wilhelm Blasko CONVENIENCE-Fertiggerichte GmbH",
+  "website": "https://www.blasko.at/",
+  "group": null,
+  "plants": [
+   "Fabriksstraße 18, 2522 Oberwaltersdorf"
+  ],
+  "approval_codes": [
+   "AT 31353 EG"
+  ],
+  "retail_brands": [
+   "Die Grillerei @ Billa",
+   "Hofstädter @ ?",
+   "Hofstädter @ BILLA"
+  ],
+  "logo": "analysis/logos/blasko.png"
+ },
+ {
+  "slug": "blasko-convenience",
+  "name": "Wilhelm Blasko CONVENIENCE-Fertiggerichte GmbH",
+  "website": "https://www.blasko.at",
+  "group": null,
+  "plants": [],
+  "approval_codes": [],
+  "retail_brands": [],
+  "logo": null
+ },
+ {
+  "slug": "gms-gourmet",
+  "name": "GMS GOURMET GmbH",
+  "website": "https://www.gourmet.at/",
+  "group": "GOURMET (GMS Gourmet GmbH)",
+  "plants": [
+   "Zdarskystraße 3, 3100 St. Pölten"
+  ],
+  "approval_codes": [
+   "AT 30733 EG"
+  ],
+  "retail_brands": [
+   "Good Choice (Hofer Eigenmarke) @ Hofer",
+   "Omis Schmankerl @ ?",
+   "Omis Schmankerl @ BILLA",
+   "Omis Schmankerl @ Billa"
+  ],
+  "logo": "analysis/logos/gms-gourmet.png"
+ },
+ {
+  "slug": "graninger",
+  "name": "Graninger Holding GmbH",
+  "website": "https://graninger-lebensmittel.at/",
+  "group": "Graninger (unverified link: site is Graninger GmbH, Frastanz)",
+  "plants": [
+   "Unterkrumbach 209, 6942 Krumbach"
+  ],
+  "approval_codes": [
+   "AT 80368 EG"
+  ],
+  "retail_brands": [
+   "CLEVER @ Billa"
+  ],
+  "logo": "analysis/logos/graninger.png"
+ },
+ {
+  "slug": "greisinger",
+  "name": "Greisinger GmbH",
+  "website": "https://www.greisinger.com",
+  "group": null,
+  "plants": [
+   "Klamer Straße 10, 4323 Münzbach"
+  ],
+  "approval_codes": [
+   "AT 40559 EG"
+  ],
+  "retail_brands": [
+   "Greisinger @ Hofer"
+  ],
+  "logo": null
+ },
+ {
+  "slug": "heiploeg",
+  "name": "Heiploeg International B.V.",
+  "website": "https://www.heiploeg.com/",
+  "group": "Heiploeg Group",
+  "plants": [
+   "Zoutkamp"
+  ],
+  "approval_codes": [
+   "NL 6039 EC"
+  ],
+  "retail_brands": [
+   "Die Grillerei @ Billa"
+  ],
+  "logo": "analysis/logos/heiploeg.png"
+ },
+ {
+  "slug": "hink",
+  "name": "Hink GmbH",
+  "website": "https://hink.wien/",
+  "group": null,
+  "plants": [
+   "Otto-Beyschlag-Gasse 3, 1210 Wien"
+  ],
+  "approval_codes": [
+   "AT 92526 EG"
+  ],
+  "retail_brands": [
+   "BILLA Genusswelt @ ?",
+   "BILLA Genusswelt @ BILLA",
+   "BILLA Genusswelt @ Billa"
+  ],
+  "logo": "analysis/logos/hink.svg"
+ },
+ {
+  "slug": "hochreiter",
+  "name": "Hochreiter Quality Meat Factory GmbH",
+  "website": "https://www.hochreiter-gruppe.at/",
+  "group": "Hochreiter Gruppe",
+  "plants": [
+   "Gewerbepark 1, 4193 Reichenthal"
+  ],
+  "approval_codes": [
+   "AT 41586 EG"
+  ],
+  "retail_brands": [
+   "Good Choice (Hofer Eigenmarke) @ Hofer",
+   "Good Choice @ HOFER",
+   "S-BUDGET @ INTERSPAR/SPAR Online"
+  ],
+  "logo": "analysis/logos/hochreiter.svg"
+ },
+ {
+  "slug": "hubers-landhendl",
+  "name": "Hubers Landhendl GmbH",
+  "website": "https://huberslandhendl.at/",
+  "group": null,
+  "plants": [
+   "Hauptstraße 80, 5223 Pfaffstätt"
+  ],
+  "approval_codes": [
+   "AT 40840 EG"
+  ],
+  "retail_brands": [
+   "FairHOF @ HOFER"
+  ],
+  "logo": "analysis/logos/hubers-landhendl.png"
+ },
+ {
+  "slug": "karnerta",
+  "name": "KARNERTA GmbH",
+  "website": "https://www.karnerta.at/",
+  "group": null,
+  "plants": [
+   "Südring 334, 9020 Klagenfurt"
+  ],
+  "approval_codes": [
+   "AT 20271 EG"
+  ],
+  "retail_brands": [
+   "BILLA Immer Gut @ ?",
+   "BILLA Immer Gut @ BILLA",
+   "Ja! Natürlich @ ?",
+   "Ja! Natürlich @ BILLA"
+  ],
+  "logo": "analysis/logos/karnerta.svg"
+ },
+ {
+  "slug": "landena",
+  "name": "Landgenossenschaft Ennstal LANDENA KG",
+  "website": "https://www.landena.at/de/",
+  "group": "Landgenossenschaft Ennstal",
+  "plants": [
+   "Erzherzog-Johann-Straße 303, 8950 Stainach-Pürgg"
+  ],
+  "approval_codes": [
+   "AT 62028 EG"
+  ],
+  "retail_brands": [
+   "CLEVER @ ?",
+   "CLEVER @ BILLA",
+   "Inzersdorfer @ INTERSPAR/SPAR Online",
+   "PRIMANA @ Hofer",
+   "inzersdorfer @ Billa, tegut..."
+  ],
+  "logo": "analysis/logos/landena.png"
+ },
+ {
+  "slug": "radatz",
+  "name": "Radatz - Feine Wiener Fleischwaren GmbH",
+  "website": "https://www.radatz.at/",
+  "group": null,
+  "plants": [
+   "Erlaaer Straße 187, 1230 Wien"
+  ],
+  "approval_codes": [
+   "AT 92540 EG"
+  ],
+  "retail_brands": [
+   "CLEVER @ Billa"
+  ],
+  "logo": "analysis/logos/radatz.png"
+ },
+ {
+  "slug": "rewe-austria-fleischwaren",
+  "name": "Rewe Austria Fleischwaren GmbH",
+  "website": "https://rewe-group.at/de/",
+  "group": "REWE Group",
+  "plants": [
+   "Solarstraße 8, 4653 Eberstalzell"
+  ],
+  "approval_codes": [
+   "AT 42152 EG"
+  ],
+  "retail_brands": [
+   "CLEVER @ Billa"
+  ],
+  "logo": "analysis/logos/rewe-austria-fleischwaren.svg"
+ },
+ {
+  "slug": "rewe-fleischwaren-eberstalzell",
+  "name": "Rewe Austria Fleischwaren GmbH",
+  "website": "https://rewe-group.jobs/de/wir-als-arbeitgeber/fachbereiche/fleischwaren/eberstalzell",
+  "group": null,
+  "plants": [],
+  "approval_codes": [],
+  "retail_brands": [],
+  "logo": null
+ },
+ {
+  "slug": "rewe-genusskueche",
+  "name": "Rewe Austria Genussküche GmbH",
+  "website": "https://rewe-group.at/de/",
+  "group": "REWE Group",
+  "plants": [
+   "Betriebsstraße 2, 2512 Traiskirchen"
+  ],
+  "approval_codes": [
+   "AT 32629 EG"
+  ],
+  "retail_brands": [
+   "BILLA Immer Gut @ BILLA",
+   "CLEVER @ ?",
+   "CLEVER @ BILLA",
+   "Omis Schmankerl @ ?",
+   "Omis Schmankerl @ BILLA",
+   "Simply Good @ ?",
+   "Simply Good @ BILLA"
+  ],
+  "logo": "analysis/logos/rewe-genusskueche.svg"
+ },
+ {
+  "slug": "unbekannt-at-92584-eg",
+  "name": null,
+  "website": null,
+  "group": null,
+  "plants": [],
+  "approval_codes": [],
+  "retail_brands": [],
+  "logo": null
+ },
+ {
+  "slug": "wech",
+  "name": "Wech-Geflügel GmbH",
+  "website": "https://www.wech.at/",
+  "group": null,
+  "plants": [
+   "Kollegg 8, 9433 St. Andrä"
+  ],
+  "approval_codes": [
+   "AT 20293 EG"
+  ],
+  "retail_brands": [
+   "Ja! Natürlich @ Billa"
+  ],
+  "logo": "analysis/logos/wech.svg"
+ },
+ {
+  "slug": "wech-gefluegel",
+  "name": "Wech-Geflügel GmbH",
+  "website": "https://www.wech.at",
+  "group": null,
+  "plants": [],
+  "approval_codes": [],
+  "retail_brands": [],
+  "logo": null
+ },
+ {
+  "slug": "wiesbauer",
+  "name": "Wiesbauer österreichische Wurstspezialitäten GmbH",
+  "website": "https://www.wiesbauer.at/",
+  "group": "Wiesbauer",
+  "plants": [
+   "Laxenburger Straße 256, 1230 Wien"
+  ],
+  "approval_codes": [
+   "AT 92556 EG"
+  ],
+  "retail_brands": [],
+  "logo": "analysis/logos/wiesbauer.png"
+ },
+ {
+  "slug": "wiesbauer-gourmet",
+  "name": "Wiesbauer Gourmet Gastro GmbH",
+  "website": "https://www.wiesbauer.at/",
+  "group": "Wiesbauer",
+  "plants": [
+   "Wiesbauer Straße 1, 3454 Sitzenberg-Reidling"
+  ],
+  "approval_codes": [
+   "AT 31538 EG"
+  ],
+  "retail_brands": [
+   "BILLA Genusswelt @ ?",
+   "BILLA Genusswelt @ BILLA",
+   "BILLA Genusswelt @ Billa",
+   "Hofstädter @ ?",
+   "Hofstädter @ BILLA",
+   "Hofstädter @ Billa"
+  ],
+  "logo": "analysis/logos/wiesbauer-gourmet.png"
+ },
+ {
+  "slug": "wiesbauer-gourmet-gastro",
+  "name": "Wiesbauer Gourmet Gastro GmbH",
+  "website": "https://www.wiesbauer-gourmet.at",
+  "group": null,
+  "plants": [],
+  "approval_codes": [],
+  "retail_brands": [],
+  "logo": null
+ },
+ {
+  "slug": "wiesbauer-wurstspezialitaeten",
+  "name": "Wiesbauer österreichische Wurstspezialitäten GmbH",
+  "website": "https://www.wiesbauer.at",
+  "group": null,
+  "plants": [],
+  "approval_codes": [],
+  "retail_brands": [],
+  "logo": null
+ }
+]

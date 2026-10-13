@@ -1,0 +1,459 @@
+{
+ "name": "fertiggerichte-daten",
+ "title": "Fertiggerichte Österreich – offener Datensatz",
+ "licenses": [
+  {
+   "name": "CC-BY-4.0",
+   "path": "https://creativecommons.org/licenses/by/4.0/",
+   "title": "Eigene Daten"
+  }
+ ],
+ "sources": [
+  {
+   "title": "Open Food Facts (ODbL)",
+   "path": "https://world.openfoodfacts.org"
+  },
+  {
+   "title": "GLEIF (CC0)",
+   "path": "https://www.gleif.org"
+  },
+  {
+   "title": "Statistik Austria ÖVIS",
+   "path": "https://vis.statistik.at"
+  },
+  {
+   "title": "heisse-preise.io",
+   "path": "https://heisse-preise.io"
+  },
+  {
+   "title": "Händler-Onlineshops (Billa, Spar, Hofer, Lidl, dm)",
+   "path": ""
+  }
+ ],
+ "resources": [
+  {
+   "name": "companies",
+   "path": "data/companies.csv",
+   "format": "csv",
+   "encoding": "utf-8",
+   "description": "Rechtsträger aus GLEIF/Firmenbuch inkl. Konzernmutter",
+   "schema": {
+    "fields": [
+     {
+      "name": "slug",
+      "type": "string"
+     },
+     {
+      "name": "name",
+      "type": "string"
+     },
+     {
+      "name": "role",
+      "type": "string"
+     },
+     {
+      "name": "legal_name",
+      "type": "string"
+     },
+     {
+      "name": "lei",
+      "type": "string"
+     },
+     {
+      "name": "fn",
+      "type": "string"
+     },
+     {
+      "name": "register_id",
+      "type": "string"
+     },
+     {
+      "name": "register_authority",
+      "type": "string"
+     },
+     {
+      "name": "legal_form_code",
+      "type": "string"
+     },
+     {
+      "name": "country",
+      "type": "string"
+     },
+     {
+      "name": "address",
+      "type": "string"
+     },
+     {
+      "name": "entity_status",
+      "type": "string"
+     },
+     {
+      "name": "parent_direct",
+      "type": "string"
+     },
+     {
+      "name": "parent_ultimate",
+      "type": "string"
+     },
+     {
+      "name": "founded",
+      "type": "string"
+     },
+     {
+      "name": "owners",
+      "type": "string"
+     },
+     {
+      "name": "employees",
+      "type": "string"
+     },
+     {
+      "name": "revenue",
+      "type": "string"
+     },
+     {
+      "name": "website",
+      "type": "string"
+     },
+     {
+      "name": "product_count",
+      "type": "integer"
+     },
+     {
+      "name": "median_price_eur",
+      "type": "number"
+     },
+     {
+      "name": "median_eur_per_10g_protein",
+      "type": "number"
+     },
+     {
+      "name": "fetched_at",
+      "type": "string"
+     },
+     {
+      "name": "brands",
+      "type": "string"
+     },
+     {
+      "name": "chains",
+      "type": "string"
+     },
+     {
+      "name": "plants_count",
+      "type": "integer"
+     }
+    ],
+    "primaryKey": "slug"
+   }
+  },
+  {
+   "name": "establishments",
+   "path": "data/establishments.csv",
+   "format": "csv",
+   "encoding": "utf-8",
+   "description": "Statistik Austria / ÖVIS Liste zugelassener Betriebe",
+   "schema": {
+    "fields": [
+     {
+      "name": "approval_code",
+      "type": "string"
+     },
+     {
+      "name": "company",
+      "type": "string"
+     },
+     {
+      "name": "street",
+      "type": "string"
+     },
+     {
+      "name": "postcode",
+      "type": "integer"
+     },
+     {
+      "name": "town",
+      "type": "string"
+     },
+     {
+      "name": "state",
+      "type": "string"
+     },
+     {
+      "name": "list",
+      "type": "string"
+     },
+     {
+      "name": "source",
+      "type": "string"
+     }
+    ],
+    "primaryKey": "approval_code"
+   }
+  },
+  {
+   "name": "logos",
+   "path": "data/logos.csv",
+   "format": "csv",
+   "encoding": "utf-8",
+   "description": "Logo-Index mit Quelle",
+   "schema": {
+    "fields": [
+     {
+      "name": "slug",
+      "type": "string"
+     },
+     {
+      "name": "name",
+      "type": "string"
+     },
+     {
+      "name": "category",
+      "type": "string"
+     },
+     {
+      "name": "file",
+      "type": "string"
+     },
+     {
+      "name": "source_url",
+      "type": "string"
+     },
+     {
+      "name": "brands",
+      "type": "string"
+     }
+    ],
+    "primaryKey": "slug"
+   }
+  },
+  {
+   "name": "nutrition",
+   "path": "data/nutrition.csv",
+   "format": "csv",
+   "encoding": "utf-8",
+   "description": "Nährwerte je 100 g",
+   "schema": {
+    "fields": [
+     {
+      "name": "product_id",
+      "type": "string"
+     },
+     {
+      "name": "kcal_100g",
+      "type": "number"
+     },
+     {
+      "name": "protein_100g",
+      "type": "number"
+     },
+     {
+      "name": "fat_100g",
+      "type": "number"
+     },
+     {
+      "name": "saturated_fat_100g",
+      "type": "number"
+     },
+     {
+      "name": "carbs_100g",
+      "type": "number"
+     },
+     {
+      "name": "sugar_100g",
+      "type": "number"
+     },
+     {
+      "name": "fiber_100g",
+      "type": "number"
+     },
+     {
+      "name": "salt_100g",
+      "type": "number"
+     },
+     {
+      "name": "nutri_score",
+      "type": "string"
+     },
+     {
+      "name": "health_score",
+      "type": "number"
+     },
+     {
+      "name": "eur_per_10g_protein",
+      "type": "number"
+     }
+    ],
+    "foreignKeys": [
+     {
+      "fields": "product_id",
+      "reference": {
+       "resource": "products",
+       "fields": "product_id"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "name": "prices",
+   "path": "data/prices.csv",
+   "format": "csv",
+   "encoding": "utf-8",
+   "description": "Preisbeobachtungen mit fetched_at",
+   "schema": {
+    "fields": [
+     {
+      "name": "product_id",
+      "type": "string"
+     },
+     {
+      "name": "chain",
+      "type": "string"
+     },
+     {
+      "name": "price_eur",
+      "type": "number"
+     },
+     {
+      "name": "price_per_kg_eur",
+      "type": "number"
+     },
+     {
+      "name": "price_status",
+      "type": "string"
+     },
+     {
+      "name": "fetched_at",
+      "type": "string"
+     },
+     {
+      "name": "price_source",
+      "type": "string"
+     }
+    ],
+    "foreignKeys": [
+     {
+      "fields": "product_id",
+      "reference": {
+       "resource": "products",
+       "fields": "product_id"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "name": "producers",
+   "path": "data/producers.csv",
+   "format": "csv",
+   "encoding": "utf-8",
+   "description": "Hersteller mit Werken (ÖVIS-Zulassungscodes)",
+   "schema": {
+    "fields": [
+     {
+      "name": "slug",
+      "type": "string"
+     },
+     {
+      "name": "name",
+      "type": "string"
+     },
+     {
+      "name": "website",
+      "type": "string"
+     },
+     {
+      "name": "group",
+      "type": "string"
+     },
+     {
+      "name": "plants",
+      "type": "string"
+     },
+     {
+      "name": "approval_codes",
+      "type": "string"
+     },
+     {
+      "name": "retail_brands",
+      "type": "string"
+     },
+     {
+      "name": "logo",
+      "type": "string"
+     }
+    ],
+    "primaryKey": "slug"
+   }
+  },
+  {
+   "name": "products",
+   "path": "data/products.csv",
+   "format": "csv",
+   "encoding": "utf-8",
+   "description": "Fertiggerichte im österreichischen Handel",
+   "schema": {
+    "fields": [
+     {
+      "name": "product_id",
+      "type": "string"
+     },
+     {
+      "name": "name",
+      "type": "string"
+     },
+     {
+      "name": "brand",
+      "type": "string"
+     },
+     {
+      "name": "chain",
+      "type": "string"
+     },
+     {
+      "name": "dish",
+      "type": "string"
+     },
+     {
+      "name": "storage",
+      "type": "string"
+     },
+     {
+      "name": "pack_size_g",
+      "type": "number"
+     },
+     {
+      "name": "producer",
+      "type": "string"
+     },
+     {
+      "name": "origin",
+      "type": "string"
+     },
+     {
+      "name": "bio",
+      "type": "boolean"
+     },
+     {
+      "name": "vegan",
+      "type": "boolean"
+     },
+     {
+      "name": "url",
+      "type": "string"
+     },
+     {
+      "name": "image_url",
+      "type": "string"
+     },
+     {
+      "name": "source",
+      "type": "string"
+     }
+    ],
+    "primaryKey": "product_id"
+   }
+  }
+ ]
+}

@@ -1,0 +1,1331 @@
+[
+ {
+  "slug": "billa",
+  "name": "Billa",
+  "category": "Handelskette",
+  "file": "logos/billa.svg",
+  "source_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Billa_logo.svg",
+  "brands": [
+   "Billa"
+  ]
+ },
+ {
+  "slug": "spar",
+  "name": "Spar",
+  "category": "Handelskette",
+  "file": "logos/spar.svg",
+  "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Spar-logo.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+  "brands": [
+   "Spar",
+   "SPAR"
+  ]
+ },
+ {
+  "slug": "hofer",
+  "name": "Hofer",
+  "category": "Handelskette",
+  "file": "logos/hofer.svg",
+  "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Hofer_Logo_2017.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "brands": [
+   "Hofer"
+  ]
+ },
+ {
+  "slug": "lidl",
+  "name": "Lidl",
+  "category": "Handelskette",
+  "file": "logos/lidl.svg",
+  "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Lidl-Logo.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+  "brands": [
+   "Lidl"
+  ]
+ },
+ {
+  "slug": "penny",
+  "name": "Penny",
+  "category": "Handelskette",
+  "file": "logos/penny.svg",
+  "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Penny-Logo.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+  "brands": [
+   "Penny"
+  ]
+ },
+ {
+  "slug": "dm",
+  "name": "dm",
+  "category": "Handelskette",
+  "file": "logos/dm.svg",
+  "source_url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Dm_Logo.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+  "brands": [
+   "dm"
+  ]
+ },
+ {
+  "slug": "immer-gut",
+  "name": "BILLA Immer Gut",
+  "category": "Eigenmarke",
+  "file": "logos/immer-gut.png",
+  "source_url": "https://assets-eu-01.kc-usercontent.com:443/d5bbd8c1-f776-012f-71ae-f309933a3006/183361d9-fcba-46f6-b8c3-2fad9bc1e6b9/Billa_immer_gut_new_logo.svg",
+  "brands": [
+   "BILLA Immer Gut"
+  ]
+ },
+ {
+  "slug": "billa-genusswelt",
+  "name": "BILLA Genusswelt",
+  "category": "Eigenmarke",
+  "file": "logos/billa-genusswelt.png",
+  "source_url": "https://assets-eu-01.kc-usercontent.com:443/d5bbd8c1-f776-012f-71ae-f309933a3006/74adb426-e268-4e4c-9f65-b45039d1e04c/billa_genusswelt_logo_new.svg",
+  "brands": [
+   "BILLA Genusswelt"
+  ]
+ },
+ {
+  "slug": "omis-schmankerl",
+  "name": "Omis Schmankerl",
+  "category": "Eigenmarke",
+  "file": "logos/omis-schmankerl.png",
+  "source_url": "https://assets-eu-01.kc-usercontent.com:443/d5bbd8c1-f776-012f-71ae-f309933a3006/53bdd437-60ae-481d-8970-a6a217116af7/Omis_Logo_new.svg",
+  "brands": [
+   "Omis Schmankerl"
+  ]
+ },
+ {
+  "slug": "simply-good",
+  "name": "Simply Good",
+  "category": "Eigenmarke",
+  "file": "logos/simply-good.png",
+  "source_url": "https://assets-eu-01.kc-usercontent.com:443/d5bbd8c1-f776-012f-71ae-f309933a3006/fd5aeaef-6eb3-4fda-89b6-b206d42d6467/simply_good_logo_new.svg",
+  "brands": [
+   "Simply Good"
+  ]
+ },
+ {
+  "slug": "vegavita",
+  "name": "Vegavita",
+  "category": "Eigenmarke",
+  "file": "logos/vegavita.png",
+  "source_url": "https://assets-eu-01.kc-usercontent.com:443/d5bbd8c1-f776-012f-71ae-f309933a3006/b961241e-7b3d-4e9f-b155-5217795a7bc4/Vegavita_Logo.svg",
+  "brands": [
+   "Vegavita"
+  ]
+ },
+ {
+  "slug": "clever",
+  "name": "CLEVER",
+  "category": "Budget",
+  "file": "logos/clever.png",
+  "source_url": "https://assets-eu-01.kc-usercontent.com:443/d5bbd8c1-f776-012f-71ae-f309933a3006/3aafeb92-d2d7-4ff5-b505-9134d124d09f/clever_Logo.svg",
+  "brands": [
+   "CLEVER"
+  ]
+ },
+ {
+  "slug": "billa-bio",
+  "name": "BILLA Bio",
+  "category": "Bio",
+  "file": "logos/billa-bio.png",
+  "source_url": "https://assets-eu-01.kc-usercontent.com:443/d5bbd8c1-f776-012f-71ae-f309933a3006/5e4de8a9-d343-4cf3-96c9-dcb63e21fb96/Billa_Bio_Logo.svg",
+  "brands": [
+   "BILLA Bio"
+  ]
+ },
+ {
+  "slug": "ja-natuerlich",
+  "name": "Ja! Natürlich",
+  "category": "Bio",
+  "file": "logos/ja-natuerlich.svg",
+  "source_url": "https://upload.wikimedia.org/wikipedia/de/3/38/Ja%21-Nat%C3%BCrlich-Logo.svg",
+  "brands": [
+   "Ja! Natürlich"
+  ]
+ },
+ {
+  "slug": "s-budget",
+  "name": "S-BUDGET",
+  "category": "Budget",
+  "file": "logos/s-budget.png",
+  "source_url": "https://www.spar.at/content/dam/spardam/at/spar-website/eigenmarken/logos/s-budget-logo-mit-tannen.jpg",
+  "brands": [
+   "S-BUDGET"
+  ]
+ },
+ {
+  "slug": "spar-premium",
+  "name": "SPAR PREMIUM",
+  "category": "Eigenmarke",
+  "file": "logos/spar-premium.png",
+  "source_url": "https://www.spar.at/content/dam/spardam/at/spar-website/eigenmarken/spar-premium-logo.png",
+  "brands": [
+   "SPAR PREMIUM"
+  ]
+ },
+ {
+  "slug": "spar-feine-kueche",
+  "name": "SPAR Feine Küche",
+  "category": "Eigenmarke",
+  "file": "logos/spar-feine-kueche.png",
+  "source_url": "https://www.spar.at/content/dam/spardam/at/spar-website/eigenmarken/lebensmittel/spar-feine-kueche/feine-kueche-spar-logo.png",
+  "brands": [
+   "SPAR Feine Küche"
+  ]
+ },
+ {
+  "slug": "spar-veggie",
+  "name": "SPAR Veggie",
+  "category": "Eigenmarke",
+  "file": "logos/spar-veggie.png",
+  "source_url": "https://www.spar.at/content/dam/spardam/at/spar-website/eigenmarken/lebensmittel/spar-veggie/spar-veggie-logo.png",
+  "brands": [
+   "SPAR Veggie"
+  ]
+ },
+ {
+  "slug": "spar-vital",
+  "name": "SPAR Vital",
+  "category": "Eigenmarke",
+  "file": "logos/spar-vital.png",
+  "source_url": "https://www.spar.at/content/dam/spardam/at/spar-website/eigenmarken/logos/spar-vital-logo-web-variant-1.png",
+  "brands": [
+   "SPAR Vital"
+  ]
+ },
+ {
+  "slug": "spar-natur-pur",
+  "name": "SPAR Natur*pur",
+  "category": "Bio",
+  "file": "logos/spar-natur-pur.png",
+  "source_url": "https://www.spar.at/content/dam/spardam/at/spar-website/eigenmarken/lebensmittel/spar-natur-pur/snp-logo-color-pantone-gru-n.png",
+  "brands": [
+   "SPAR Natur*pur"
+  ]
+ },
+ {
+  "slug": "despar",
+  "name": "DESPAR",
+  "category": "Eigenmarke",
+  "file": "logos/despar.png",
+  "source_url": "https://www.spar.at/content/dam/sparatwebsite/brands/DESPAR-Logo.jpg",
+  "brands": [
+   "DESPAR"
+  ]
+ },
+ {
+  "slug": "spar-enjoy",
+  "name": "SPAR enjoy",
+  "category": "Eigenmarke",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "SPAR enjoy"
+  ]
+ },
+ {
+  "slug": "le-gusto",
+  "name": "Le Gusto",
+  "category": "Eigenmarke",
+  "file": "logos/le-gusto.png",
+  "source_url": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/2026_MA_Brandpage-Logo_Le-Gusto:1-1?wid=800&fit=constrain",
+  "brands": [
+   "Le Gusto"
+  ]
+ },
+ {
+  "slug": "cucina",
+  "name": "Cucina",
+  "category": "Eigenmarke",
+  "file": "logos/cucina.png",
+  "source_url": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/2026_MA_Brandpage-Logo_Cucina:1-1?wid=800&fit=constrain",
+  "brands": [
+   "Cucina",
+   "Cucina Nobile"
+  ]
+ },
+ {
+  "slug": "almare",
+  "name": "Almare",
+  "category": "Eigenmarke",
+  "file": "logos/almare.png",
+  "source_url": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/2026_MA_Brandpage-Logo_ALMARE:1-1?wid=800&fit=constrain",
+  "brands": [
+   "Almare"
+  ]
+ },
+ {
+  "slug": "hofer-gourmet",
+  "name": "GOURMET FINEST CUISINE",
+  "category": "Eigenmarke",
+  "file": "logos/hofer-gourmet.png",
+  "source_url": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/2026_MA_Brandpage-Logo_GOURMET:1-1?wid=800&fit=constrain",
+  "brands": [
+   "GOURMET FINEST CUISINE"
+  ]
+ },
+ {
+  "slug": "sonnhof",
+  "name": "SONNHOF",
+  "category": "Eigenmarke",
+  "file": "logos/sonnhof.png",
+  "source_url": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/Brandpage-Logo_Sonnhof_386x386px:1-1?wid=800&fit=constrain",
+  "brands": [
+   "SONNHOF"
+  ]
+ },
+ {
+  "slug": "fairhof",
+  "name": "FairHOF",
+  "category": "Eigenmarke",
+  "file": "logos/fairhof.png",
+  "source_url": "https://dm.emea.cms.aldi.cx/is/image/aldiprodeu/2026_MA_Brandpage-Logo_Fairhof:1-1?wid=800&fit=constrain",
+  "brands": [
+   "FairHOF"
+  ]
+ },
+ {
+  "slug": "good-choice",
+  "name": "Good Choice",
+  "category": "Eigenmarke",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "Good Choice"
+  ]
+ },
+ {
+  "slug": "primana",
+  "name": "Primana",
+  "category": "Eigenmarke",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "Primana"
+  ]
+ },
+ {
+  "slug": "asia",
+  "name": "Asia",
+  "category": "Eigenmarke",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "Asia"
+  ]
+ },
+ {
+  "slug": "green-garden",
+  "name": "Green Garden",
+  "category": "Eigenmarke",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "Green Garden"
+  ]
+ },
+ {
+  "slug": "nature-s-gold",
+  "name": "Nature's Gold",
+  "category": "Eigenmarke",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "Nature's Gold"
+  ]
+ },
+ {
+  "slug": "pizz-ah",
+  "name": "PIZZ'AH",
+  "category": "Eigenmarke",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "PIZZ'AH"
+  ]
+ },
+ {
+  "slug": "leibspeis",
+  "name": "Leibspeis'",
+  "category": "Eigenmarke",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "Leibspeis'"
+  ]
+ },
+ {
+  "slug": "natur-aktiv",
+  "name": "Natur Aktiv",
+  "category": "Bio",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "Natur Aktiv"
+  ]
+ },
+ {
+  "slug": "rettenswert",
+  "name": "Rettenswert",
+  "category": "Eigenmarke",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "Rettenswert"
+  ]
+ },
+ {
+  "slug": "wonnemeyer",
+  "name": "Wonnemeyer",
+  "category": "Eigenmarke",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "Wonnemeyer"
+  ]
+ },
+ {
+  "slug": "chef-select",
+  "name": "Chef Select",
+  "category": "Eigenmarke",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "Chef Select"
+  ]
+ },
+ {
+  "slug": "vemondo",
+  "name": "Vemondo",
+  "category": "Eigenmarke",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "Vemondo"
+  ]
+ },
+ {
+  "slug": "deluxe",
+  "name": "Deluxe",
+  "category": "Eigenmarke",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "Deluxe"
+  ]
+ },
+ {
+  "slug": "vitasia",
+  "name": "Vitasia",
+  "category": "Eigenmarke",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "Vitasia"
+  ]
+ },
+ {
+  "slug": "mcennedy",
+  "name": "MCENNEDY",
+  "category": "Eigenmarke",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "MCENNEDY"
+  ]
+ },
+ {
+  "slug": "schwaben-krone",
+  "name": "Schwaben Krone",
+  "category": "Eigenmarke",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "Schwaben Krone"
+  ]
+ },
+ {
+  "slug": "select-go",
+  "name": "SELECT&GO",
+  "category": "Eigenmarke",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "SELECT&GO"
+  ]
+ },
+ {
+  "slug": "trattoria-alfredo",
+  "name": "Trattoria Alfredo",
+  "category": "Eigenmarke",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "Trattoria Alfredo"
+  ]
+ },
+ {
+  "slug": "kania",
+  "name": "Kania",
+  "category": "Eigenmarke",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "Kania"
+  ]
+ },
+ {
+  "slug": "food-for-future",
+  "name": "Food for Future",
+  "category": "Eigenmarke",
+  "file": "logos/food-for-future.svg",
+  "source_url": "https://assets-eu-01.kc-usercontent.com:443/1d32d597-5ed5-0129-acbb-0e3925686fcc/2f2e48b1-b6da-4c09-a80f-623b2c5ce926/Food_for_Future_Logo_4c.svg",
+  "brands": [
+   "Food for Future"
+  ]
+ },
+ {
+  "slug": "delikatessa",
+  "name": "Delikatessa",
+  "category": "Eigenmarke",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "Delikatessa"
+  ]
+ },
+ {
+  "slug": "chef-menue",
+  "name": "Chef Menü",
+  "category": "Eigenmarke",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "Chef Menü"
+  ]
+ },
+ {
+  "slug": "knorr",
+  "name": "Knorr",
+  "category": "Markenhersteller",
+  "file": "logos/knorr.svg",
+  "source_url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Knorr_Logo_2020.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "brands": [
+   "Knorr"
+  ]
+ },
+ {
+  "slug": "maggi",
+  "name": "Maggi",
+  "category": "Markenhersteller",
+  "file": "logos/maggi.svg",
+  "source_url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Maggi_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "brands": [
+   "Maggi"
+  ]
+ },
+ {
+  "slug": "iglo",
+  "name": "iglo",
+  "category": "Markenhersteller",
+  "file": "logos/iglo.png",
+  "source_url": "https://upload.wikimedia.org/wikipedia/en/3/3f/Iglo_logo.png",
+  "brands": [
+   "iglo"
+  ]
+ },
+ {
+  "slug": "felix",
+  "name": "Felix",
+  "category": "Markenhersteller",
+  "file": "logos/felix.svg",
+  "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Felix_Austria_%28Unternehmen%29_logo.svg",
+  "brands": [
+   "Felix"
+  ]
+ },
+ {
+  "slug": "inzersdorfer",
+  "name": "Inzersdorfer",
+  "category": "Markenhersteller",
+  "file": "logos/inzersdorfer.png",
+  "source_url": "https://www.inzersdorfer.at/wp-content/uploads/2023/12/logo-300x0-c-default.png",
+  "brands": [
+   "Inzersdorfer"
+  ]
+ },
+ {
+  "slug": "rana",
+  "name": "Rana",
+  "category": "Markenhersteller",
+  "file": "logos/rana.png",
+  "source_url": "https://www.giovanniranausa.com/images/layout/logo.png",
+  "brands": [
+   "Rana"
+  ]
+ },
+ {
+  "slug": "fit-to-go",
+  "name": "Fit to Go",
+  "category": "Markenhersteller",
+  "file": "logos/fit-to-go.png",
+  "source_url": "https://cdn.shopify.com/oxygen-v2/60491/177587/362866/4677112/assets/logo-DJtqYc5u.png",
+  "brands": [
+   "Fit to Go"
+  ]
+ },
+ {
+  "slug": "planted",
+  "name": "Planted",
+  "category": "Markenhersteller",
+  "file": "logos/planted.svg",
+  "source_url": "https://eatplanted.com/cdn/shop/t/72/assets/planted-logo-top.svg",
+  "brands": [
+   "Planted"
+  ]
+ },
+ {
+  "slug": "barilla",
+  "name": "Barilla",
+  "category": "Markenhersteller",
+  "file": "logos/barilla.svg",
+  "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Barilla_brand_logo_%282022-present%29.svg",
+  "brands": [
+   "Barilla"
+  ]
+ },
+ {
+  "slug": "frosta",
+  "name": "Frosta",
+  "category": "Markenhersteller",
+  "file": "logos/frosta.svg",
+  "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Frosta_Aktiengesellschaft_logo.svg",
+  "brands": [
+   "Frosta"
+  ]
+ },
+ {
+  "slug": "ben-s-original",
+  "name": "Ben's Original",
+  "category": "Markenhersteller",
+  "file": "logos/ben-s-original.svg",
+  "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/47/BensOriginalLogo.svg",
+  "brands": [
+   "Ben's Original"
+  ]
+ },
+ {
+  "slug": "hipp",
+  "name": "Hipp",
+  "category": "Bio",
+  "file": "logos/hipp.svg",
+  "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/62/HIPP-Logo.svg",
+  "brands": [
+   "Hipp"
+  ]
+ },
+ {
+  "slug": "alnatura",
+  "name": "Alnatura",
+  "category": "Bio",
+  "file": "logos/alnatura.svg",
+  "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Alnatura_Logo.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+  "brands": [
+   "Alnatura"
+  ]
+ },
+ {
+  "slug": "kikkoman",
+  "name": "Kikkoman",
+  "category": "Markenhersteller",
+  "file": "logos/kikkoman.svg",
+  "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Kikkoman-Logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "brands": [
+   "Kikkoman"
+  ]
+ },
+ {
+  "slug": "recheis",
+  "name": "Recheis",
+  "category": "Markenhersteller",
+  "file": "logos/recheis.svg",
+  "source_url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Recheis_Logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "brands": [
+   "Recheis"
+  ]
+ },
+ {
+  "slug": "mowi",
+  "name": "Mowi",
+  "category": "Markenhersteller",
+  "file": "logos/mowi.svg",
+  "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Mowi_ASA_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "brands": [
+   "Mowi"
+  ]
+ },
+ {
+  "slug": "schaer",
+  "name": "Schär",
+  "category": "Markenhersteller",
+  "file": "logos/schaer.svg",
+  "source_url": "https://www.schaer.com/themes/custom/schaer_radix/logo.svg",
+  "brands": [
+   "Schär"
+  ]
+ },
+ {
+  "slug": "toni-kaiser",
+  "name": "Toni Kaiser",
+  "category": "Markenhersteller",
+  "file": "logos/toni-kaiser.svg",
+  "source_url": "https://www.tonikaiser.at/images/Logo_TK.svg",
+  "brands": [
+   "Toni Kaiser"
+  ]
+ },
+ {
+  "slug": "reis-fit",
+  "name": "Reis-Fit",
+  "category": "Markenhersteller",
+  "file": "logos/reis-fit.svg",
+  "source_url": "https://www.reis-fit.de/wp-content/uploads/2025/11/Logo.svg",
+  "brands": [
+   "Reis-Fit"
+  ]
+ },
+ {
+  "slug": "little-lunch",
+  "name": "Little Lunch",
+  "category": "Bio",
+  "file": "logos/little-lunch.svg",
+  "source_url": "https://littlelunch.com/wp-content/uploads/2025/10/LL_Logo_2024_web_rand.svg",
+  "brands": [
+   "Little Lunch"
+  ]
+ },
+ {
+  "slug": "gavrilovic",
+  "name": "Gavrilovic",
+  "category": "Markenhersteller",
+  "file": "logos/gavrilovic.png",
+  "source_url": "https://www.gavrilovic.com/wp-content/uploads/2026/02/gavrilovic-logo-gdpr.png",
+  "brands": [
+   "Gavrilovic"
+  ]
+ },
+ {
+  "slug": "nabio",
+  "name": "Nabio",
+  "category": "Bio",
+  "file": "logos/nabio.svg",
+  "source_url": "https://nabio.de/wp-content/uploads/2022/03/L_Nabio_b.svg",
+  "brands": [
+   "Nabio"
+  ]
+ },
+ {
+  "slug": "aumaerk",
+  "name": "Aumaerk",
+  "category": "Markenhersteller",
+  "file": "logos/aumaerk.svg",
+  "source_url": "https://aumaerk.com/cdn/shop/files/logo_1.svg",
+  "brands": [
+   "Aumaerk"
+  ]
+ },
+ {
+  "slug": "biovegan",
+  "name": "BioVegan",
+  "category": "Bio",
+  "file": "logos/biovegan.png",
+  "source_url": "https://www.biovegan.de/cdn/shop/files/Logo_BIOVEGAN_GmbH.png?width=1180",
+  "brands": [
+   "BioVegan"
+  ]
+ },
+ {
+  "slug": "fratelli-barbaro",
+  "name": "Fratelli Barbaro",
+  "category": "Markenhersteller",
+  "file": "logos/fratelli-barbaro.png",
+  "source_url": "https://www.barbaro-shop.com/cdn/shop/files/logo-barbaro.png?width=1100",
+  "brands": [
+   "Fratelli Barbaro"
+  ]
+ },
+ {
+  "slug": "vier-diamanten",
+  "name": "Vier Diamanten",
+  "category": "Markenhersteller",
+  "file": "logos/vier-diamanten.png",
+  "source_url": "https://vierdiamanten.com/wp-content/uploads/sites/23/2023/03/logo-neu.png",
+  "brands": [
+   "Vier Diamanten"
+  ]
+ },
+ {
+  "slug": "steirerkraft",
+  "name": "Steirerkraft",
+  "category": "Markenhersteller",
+  "file": "logos/steirerkraft.svg",
+  "source_url": "https://www.steirerkraft.com/wp-content/uploads/2026/08/logo-steirerkraft-2026.svg",
+  "brands": [
+   "Steirerkraft"
+  ]
+ },
+ {
+  "slug": "fit-taste",
+  "name": "Fit Taste",
+  "category": "Markenhersteller",
+  "file": "logos/fit-taste.png",
+  "source_url": "https://fittaste.com/cdn/shop/files/Fittaste_Logo_180px_256x256_19a728f7-cbdb-44a5-89bf-cb2fc44b73fe_600x.png?v=1739462961",
+  "brands": [
+   "Fit Taste"
+  ]
+ },
+ {
+  "slug": "natur-compagnie",
+  "name": "Natur Compagnie",
+  "category": "Bio",
+  "file": "logos/natur-compagnie.png",
+  "source_url": "https://www.natur-compagnie.com/de/assets/static-images/logo.png",
+  "brands": [
+   "Natur Compagnie"
+  ]
+ },
+ {
+  "slug": "knoedelwerkstatt",
+  "name": "Knödelwerkstatt",
+  "category": "Markenhersteller",
+  "file": "logos/knoedelwerkstatt.png",
+  "source_url": "https://www.knoedelwerkstatt.at/wp-content/uploads/2023/02/KnoedelwerkstattLogo100px-e1676362466120.png",
+  "brands": [
+   "Knödelwerkstatt"
+  ]
+ },
+ {
+  "slug": "efko",
+  "name": "Efko",
+  "category": "Markenhersteller",
+  "file": "logos/efko.png",
+  "source_url": "https://www.efko.at/wp-content/uploads/2025/03/efko-logo.png",
+  "brands": [
+   "Efko"
+  ]
+ },
+ {
+  "slug": "limonis",
+  "name": "Limoni's",
+  "category": "Bio",
+  "file": "logos/limonis.png",
+  "source_url": "https://limonis.at/wp-content/uploads/2021/08/Limonis-Logo-180x73.png",
+  "brands": [
+   "Limoni's"
+  ]
+ },
+ {
+  "slug": "goldblatt",
+  "name": "Goldblatt",
+  "category": "Bio",
+  "file": "logos/goldblatt.svg",
+  "source_url": "https://goldblatt.at/cdn/shop/files/goldblatt-logo-2026_fuer-Shop.svg?v=1790321040",
+  "brands": [
+   "Goldblatt"
+  ]
+ },
+ {
+  "slug": "hut-und-stiel",
+  "name": "Hut&Stiel",
+  "category": "Markenhersteller",
+  "file": "logos/hut-und-stiel.png",
+  "source_url": "https://www.hutundstiel.at/cdn/shop/files/H_S_logo_font_1.png",
+  "brands": [
+   "Hut&Stiel"
+  ]
+ },
+ {
+  "slug": "tress-brueder",
+  "name": "Tress Brüder",
+  "category": "Bio",
+  "file": "logos/tress-brueder.svg",
+  "source_url": "https://www.tressbrueder.de/tressbrueder-logo.svg",
+  "brands": [
+   "Tress Brüder"
+  ]
+ },
+ {
+  "slug": "iss-mich",
+  "name": "Iss mich!",
+  "category": "Bio",
+  "file": "logos/iss-mich.png",
+  "source_url": "https://www.issmich.at/media/6a/g0/4e/1706898229/logo_issich_132x132_nobg.png",
+  "brands": [
+   "Iss mich!"
+  ]
+ },
+ {
+  "slug": "revo",
+  "name": "Revo",
+  "category": "Markenhersteller",
+  "file": "logos/revo.svg",
+  "source_url": "https://revo-foods.com/wp-content/themes/FoundationPress/dist/assets/images/logo-black.svg",
+  "brands": [
+   "Revo"
+  ]
+ },
+ {
+  "slug": "eden",
+  "name": "Eden",
+  "category": "Bio",
+  "file": "logos/eden.png",
+  "source_url": "https://www.eden.de/wp-content/uploads/2023/11/EDEN-Logo_2023-Kopie-2.gif",
+  "brands": [
+   "Eden"
+  ]
+ },
+ {
+  "slug": "holle",
+  "name": "Holle",
+  "category": "Bio",
+  "file": "logos/holle.svg",
+  "source_url": "https://www.holle.ch/wp-content/uploads/2022/07/HOLLE-Logo-DE.svg",
+  "brands": [
+   "Holle"
+  ]
+ },
+ {
+  "slug": "stroeck",
+  "name": "Ströck",
+  "category": "Markenhersteller",
+  "file": "logos/stroeck.svg",
+  "source_url": "https://stroeck.at/wp-content/themes/stroeck/gfx/strock.svg",
+  "brands": [
+   "Ströck"
+  ]
+ },
+ {
+  "slug": "hofstaedter",
+  "name": "Hofstädter",
+  "category": "Markenhersteller",
+  "file": "logos/hofstaedter.png",
+  "source_url": "https://assets-eu-01.kc-usercontent.com:443/cc0b17b0-a734-010a-8710-f644b7ee1f24/c02a23e1-5ba7-4bff-afb8-3f90ca132e3b/BIL_LP_Zuschnitt_Knotenseiten_400x269px_Hofst%C3%A4dter.jpg?w=400&fm=webp&lossless=0&q=80&dpr=1",
+  "brands": [
+   "Hofstädter",
+   "Die Grillerei"
+  ]
+ },
+ {
+  "slug": "radatz",
+  "name": "Radatz",
+  "category": "Produzent/Werk",
+  "file": "logos/radatz.png",
+  "source_url": "https://www.radatz.at/apple-icon-180x180.png",
+  "brands": [
+   "Radatz"
+  ]
+ },
+ {
+  "slug": "hink",
+  "name": "Hink Wien",
+  "category": "Produzent/Werk",
+  "file": "logos/hink.svg",
+  "source_url": "https://hink.wien/cdn/shop/files/Hink_logo.svg",
+  "brands": [
+   "Hink Wien"
+  ]
+ },
+ {
+  "slug": "gms-gourmet",
+  "name": "GMS Gourmet",
+  "category": "Produzent/Werk",
+  "file": "logos/gms-gourmet.png",
+  "source_url": "https://www.gourmet.at/typo3temp/assets/_processed_/2/0/csm_Gourmet-Dachmarke-Logo-x2_6143c033c9.webp",
+  "brands": [
+   "GMS Gourmet"
+  ]
+ },
+ {
+  "slug": "greisinger",
+  "name": "Greisinger",
+  "category": "Produzent/Werk",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "Greisinger"
+  ]
+ },
+ {
+  "slug": "cecchin",
+  "name": "Cecchin",
+  "category": "Markenhersteller",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "Cecchin"
+  ]
+ },
+ {
+  "slug": "stangl",
+  "name": "Stangl",
+  "category": "Markenhersteller",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "Stangl"
+  ]
+ },
+ {
+  "slug": "amlacher",
+  "name": "Amlacher",
+  "category": "Markenhersteller",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "Amlacher"
+  ]
+ },
+ {
+  "slug": "ackerl",
+  "name": "Ackerl",
+  "category": "Markenhersteller",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "Ackerl"
+  ]
+ },
+ {
+  "slug": "pure",
+  "name": "Pure",
+  "category": "Markenhersteller",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "Pure"
+  ]
+ },
+ {
+  "slug": "ager",
+  "name": "Ager",
+  "category": "Markenhersteller",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "Ager"
+  ]
+ },
+ {
+  "slug": "youcook",
+  "name": "Youcook",
+  "category": "Markenhersteller",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "Youcook"
+  ]
+ },
+ {
+  "slug": "njami",
+  "name": "Njami",
+  "category": "Markenhersteller",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "Njami"
+  ]
+ },
+ {
+  "slug": "feelfood",
+  "name": "Feelfood",
+  "category": "Markenhersteller",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "Feelfood"
+  ]
+ },
+ {
+  "slug": "marinus",
+  "name": "Marinus",
+  "category": "Markenhersteller",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "Marinus"
+  ]
+ },
+ {
+  "slug": "staudinger",
+  "name": "Staudinger",
+  "category": "Markenhersteller",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "Staudinger"
+  ]
+ },
+ {
+  "slug": "muehlen",
+  "name": "Mühlen",
+  "category": "Markenhersteller",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "Mühlen"
+  ]
+ },
+ {
+  "slug": "sushitime",
+  "name": "Sushitime",
+  "category": "Markenhersteller",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "Sushitime"
+  ]
+ },
+ {
+  "slug": "pop-up",
+  "name": "Pop-Up",
+  "category": "Markenhersteller",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "Pop-Up"
+  ]
+ },
+ {
+  "slug": "franui",
+  "name": "franuí",
+  "category": "Markenhersteller",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "franuí"
+  ]
+ },
+ {
+  "slug": "ablinger",
+  "name": "Ablinger",
+  "category": "Markenhersteller",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "Ablinger"
+  ]
+ },
+ {
+  "slug": "indomie",
+  "name": "Indomie",
+  "category": "Markenhersteller",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "Indomie"
+  ]
+ },
+ {
+  "slug": "blue-elephant",
+  "name": "Blue Elephant",
+  "category": "Markenhersteller",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "Blue Elephant"
+  ]
+ },
+ {
+  "slug": "juergen-langbein",
+  "name": "Jürgen Langbein",
+  "category": "Markenhersteller",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "Jürgen Langbein"
+  ]
+ },
+ {
+  "slug": "kuechenbrueder",
+  "name": "Küchenbrüder",
+  "category": "Markenhersteller",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "Küchenbrüder"
+  ]
+ },
+ {
+  "slug": "lorado",
+  "name": "Lorado",
+  "category": "Markenhersteller",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "Lorado"
+  ]
+ },
+ {
+  "slug": "dovgan",
+  "name": "DOVGAN",
+  "category": "Markenhersteller",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "DOVGAN"
+  ]
+ },
+ {
+  "slug": "every",
+  "name": "Every",
+  "category": "Markenhersteller",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "Every"
+  ]
+ },
+ {
+  "slug": "my-vay",
+  "name": "My Vay",
+  "category": "Markenhersteller",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "My Vay"
+  ]
+ },
+ {
+  "slug": "auinger",
+  "name": "Auinger",
+  "category": "Markenhersteller",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "Auinger"
+  ]
+ },
+ {
+  "slug": "flotte-lotte",
+  "name": "Flotte Lotte",
+  "category": "Markenhersteller",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "Flotte Lotte"
+  ]
+ },
+ {
+  "slug": "ben-fatto",
+  "name": "Ben Fatto",
+  "category": "Markenhersteller",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "Ben Fatto"
+  ]
+ },
+ {
+  "slug": "bio-natura",
+  "name": "Bio Natura",
+  "category": "Bio",
+  "file": null,
+  "source_url": null,
+  "brands": [
+   "Bio Natura"
+  ]
+ },
+ {
+  "slug": "rewe-austria-fleischwaren",
+  "name": "Rewe Austria Fleischwaren GmbH",
+  "category": "Produzent/Werk",
+  "file": "logos/rewe-austria-fleischwaren.svg",
+  "source_url": "https://rewe-group.at/wp-content/uploads/2026/09/98_2609_Logo_BILLA.png",
+  "brands": []
+ },
+ {
+  "slug": "wiesbauer-gourmet",
+  "name": "Wiesbauer Gourmet Gastro GmbH",
+  "category": "Produzent/Werk",
+  "file": "logos/wiesbauer-gourmet.png",
+  "source_url": "https://www.wiesbauer.at/app/uploads/2025/11/logogogo.png",
+  "brands": []
+ },
+ {
+  "slug": "blasko",
+  "name": "Wilhelm Blasko CONVENIENCE-Fertiggerichte GmbH",
+  "category": "Produzent/Werk",
+  "file": "logos/blasko.png",
+  "source_url": "https://www.blasko.at/assets/at-blasko/images/favicons/apple-touch-icon.png",
+  "brands": []
+ },
+ {
+  "slug": "karnerta",
+  "name": "KARNERTA GmbH",
+  "category": "Produzent/Werk",
+  "file": "logos/karnerta.svg",
+  "source_url": "https://www.karnerta.at/wp-content/uploads/2025/02/Logo_Karnerta_4c_mSlogan.svg",
+  "brands": []
+ },
+ {
+  "slug": "landena",
+  "name": "Landgenossenschaft Ennstal LANDENA KG",
+  "category": "Produzent/Werk",
+  "file": "logos/landena.png",
+  "source_url": "https://www.landena.at/fileadmin/template/Resources/Public/img/plainicon.png",
+  "brands": []
+ },
+ {
+  "slug": "wiesbauer",
+  "name": "Wiesbauer österreichische Wurstspezialitäten GmbH",
+  "category": "Produzent/Werk",
+  "file": "logos/wiesbauer.png",
+  "source_url": "https://www.wiesbauer.at/app/uploads/2025/11/logogogo.png",
+  "brands": []
+ },
+ {
+  "slug": "rewe-genusskueche",
+  "name": "Rewe Austria Genussküche GmbH",
+  "category": "Produzent/Werk",
+  "file": "logos/rewe-genusskueche.svg",
+  "source_url": "https://rewe-group.at/wp-content/uploads/2026/09/98_2609_Logo_BILLA.png",
+  "brands": []
+ },
+ {
+  "slug": "hochreiter",
+  "name": "Hochreiter Quality Meat Factory GmbH",
+  "category": "Produzent/Werk",
+  "file": "logos/hochreiter.svg",
+  "source_url": "https://www.hochreiter-gruppe.at/wp-content/uploads/2026/03/Logo-Hochreiter-Unternehmensgruppe-1.svg",
+  "brands": []
+ },
+ {
+  "slug": "hubers-landhendl",
+  "name": "Hubers Landhendl GmbH",
+  "category": "Produzent/Werk",
+  "file": "logos/hubers-landhendl.png",
+  "source_url": "https://huberslandhendl.at/wp-content/uploads/2023/01/logo-hubers-r.png",
+  "brands": []
+ },
+ {
+  "slug": "graninger",
+  "name": "Graninger Holding GmbH",
+  "category": "Produzent/Werk",
+  "file": "logos/graninger.png",
+  "source_url": "https://cdn.prod.website-files.com/68595bdb8caa50a08c871bc9/68595e102cb95527432fafb5_GR-Logo-ohneZusatz-V2.png",
+  "brands": []
+ },
+ {
+  "slug": "wech",
+  "name": "Wech-Geflügel GmbH",
+  "category": "Produzent/Werk",
+  "file": "logos/wech.svg",
+  "source_url": "https://www.wech.at/visuals/logo.svg",
+  "brands": []
+ },
+ {
+  "slug": "heiploeg",
+  "name": "Heiploeg International B.V.",
+  "category": "Produzent/Werk",
+  "file": "logos/heiploeg.png",
+  "source_url": "https://www.heiploeg.com/Portals/10/logoHeiploeg%EF%B9%96ver=gFp07v-mytjmgebzGFz9oQ==.png",
+  "brands": []
+ }
+]

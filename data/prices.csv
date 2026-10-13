@@ -1,0 +1,1149 @@
+product_id,chain,price_eur,price_per_kg_eur,price_status,fetched_at,price_source
+b492e38f7f15,Billa,11.99,23.98,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+928f528d07b0,Billa,9.99,30.27,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+5e31e6209e3a,Billa,1.89,7.56,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+0670f3257c36,Billa,2.99,9.06,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+eedf06d1af5c,Billa,2.99,11.96,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+c10c2a58ed8e,Billa,3.59,8.16,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+2bf8772fe18b,Billa,3.19,7.97,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+47c3c99425e5,Billa,11.99,36.33,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+743d33c6b680,Billa,1.09,4.36,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+f2e57d698f75,Billa,4.99,7.13,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+5cd069d2006b,Billa,2.29,6.19,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+38aa52cada0c,Billa,1.7,6.8,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+f7a133d93739,Billa,2.85,5.7,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+cdc5aa3e7678,Billa,2.69,12.23,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+ea9037de644c,Billa,2.49,35.57,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+1bbd180f35b6,Billa,4.99,16.63,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+ba1b05b5edcb,Billa,4.99,16.63,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+6a9657ba68fd,Billa,4.99,16.63,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+93b1c6dc82fb,Billa,4.99,16.63,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+7642f918ccb8,Billa,5.59,18.63,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+1c25fd3847d9,Billa,3.99,4.99,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+5e0974172bb4,Billa,1.6,3.2,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+0d0914dc06f8,Billa,5.99,11.98,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+9731358e12b6,Billa,6.99,13.19,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+e70252ac6930,Billa,7.69,12.82,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+0f7a7589e37f,Billa,7.69,11.83,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+a6cb017268a5,Billa,3.49,10.58,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+69eb622f629d,Billa,3.49,9.97,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+b0097ecdd1f7,Billa,6.99,13.19,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+e575f7a7257e,Billa,6.99,17.48,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+bae635841685,Billa,3.52,7.04,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+3d7eff0849d6,Billa,3.49,8.72,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+bed69b9a5f31,Billa,6.99,15.89,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+3ae96c0652a6,Billa,6.99,13.19,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+4233c3c1d713,Billa,2.99,7.97,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+659516c994e1,Billa,2.99,8.54,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+958b406c81ff,Billa,3.99,133.0,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+f679945c2ee8,Billa,1.7,6.8,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+24e335256687,Billa,2.19,8.76,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+7e84ea7b1b04,Billa,6.39,21.3,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+0517eaaee06d,Billa,5.19,17.3,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+8d80f3fb4f52,Billa,7.99,22.19,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+89106f425f37,Billa,7.99,21.59,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+55c9de1fb427,Billa,7.99,21.59,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+78a57cc842c6,Billa,7.99,22.19,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+45dcdd2bfdb0,Billa,6.49,25.96,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+f1c03a7902a6,Billa,6.49,25.96,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+23f66d9416df,Billa,6.49,25.96,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+21d0df940553,Billa,1.51,6.04,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+fad0cf519157,Billa,1.51,6.04,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+d3d03fbbf19c,Billa,1.51,6.04,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+2e6224da1b39,Billa,1.51,6.04,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+99b666e01810,Billa,5.29,12.6,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+6be605e69a8a,Billa,5.29,12.6,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+0790bfc7bf93,Billa,4.79,8.55,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+d4b51c24c6dd,Billa,3.19,7.97,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+5ecb1129c3f5,Billa,3.79,10.24,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+a4ed517eb1b9,Spar,3.99,,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+55ae47ed0f11,Spar,5.79,5.79,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+f4f914962684,Spar,7.49,7.49,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+31dad2c370e8,Spar,2.69,12.23,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+e5b9c47f3eaf,Spar,2.99,11.96,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+6d17f6e9e3c5,Spar,2.99,11.96,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+593e4e8cdd20,Spar,4.99,12.23,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+c61eb22390df,Spar,11.49,45.96,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+bada03418290,Spar,4.79,7.98,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+67cbe3025662,Spar,4.79,6.84,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+19aee2dba41f,Spar,6.49,8.11,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+c245c10fdc27,Spar,3.49,8.72,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+828432a5d904,Spar,6.49,8.11,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+4f7758493289,Spar,3.49,8.72,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+9a4c176a2756,Spar,3.49,8.72,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+15067bce3e1c,Spar,6.49,8.11,live 2026,,billa.json (live 2026)
+aa3b43364230,Spar,6.49,8.11,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+1d467fc872b3,Spar,1.55,8.16,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+c9593b50d013,Spar,3.99,13.3,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+58fb6ec3cc52,Spar,4.39,14.63,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+1050c737afbf,Spar,14.9,14.9,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+8b996a447a37,Spar,3.59,14.36,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+d97e7d69ba90,Spar,3.59,14.36,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+7d9927c57884,Spar,1.99,7.96,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+fb1e719f1564,Spar,1.99,7.96,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+88dc290250ee,Spar,1.49,6.77,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+57c9ab798052,Spar,3.49,3.49,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+344bf2854fb9,Spar,7.49,11.52,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+ecc2f6808434,Spar,5.79,14.47,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+b1a64e9c1cb5,Spar,5.79,14.47,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+a45751a2ffd5,Spar,2.99,14.95,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+80216a140ca8,Spar,6.99,13.19,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+f50bd4e67875,Spar,6.99,13.19,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+786ddd56156a,Spar,4.99,9.98,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+896deb90e9b6,Spar,6.99,15.89,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+4d5128e56d70,Spar,6.99,13.19,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+7e583e8e8b79,Spar,4.56,6.51,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+060890626753,Spar,5.79,14.47,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+98e3ddc1020e,Spar,3.49,8.72,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+e0229347357a,Spar,5.49,6.86,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+60be3cd6237e,Spar,3.49,8.72,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+7221be91f854,Spar,5.49,6.86,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+f2f2e098b2e5,Spar,5.79,7.24,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+d31b102a260f,Spar,2.99,7.48,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+7a06fe5fa385,Spar,5.99,19.97,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+10b438fd4c03,Spar,5.29,13.23,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+0a5b0f2084c3,Spar,3.49,8.72,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+455308d65b08,Spar,6.99,17.48,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+af201aebb8d0,Spar,10.49,13.11,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+3c6ba7be65bc,Spar,5.29,13.23,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+930bd7212c74,Spar,2.99,7.48,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+10b87b18c3a6,Spar,2.99,7.48,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+04a13d204e17,Spar,4.79,7.48,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+82ecfa08e0ca,Spar,14.99,5.17,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+33594e27d33b,Spar,2.99,7.48,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+9f5d5fc64c83,Spar,19.99,6.89,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+4bc71a6cdf9d,Spar,2.99,7.48,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+0c79ffd4d036,Spar,2.99,7.48,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+1a42e973c9fa,Spar,5.29,13.23,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+8480eb14bf15,Spar,3.99,42.0,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+5b2a26a2e407,Spar,3.99,39.9,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+5160e59a3d1b,Spar,16.99,,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+832a2b1da46e,Spar,2.99,,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+e7058a6f3f2a,Spar,3.99,399.0,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+7295eb83a221,Spar,2.79,13.95,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+02755f0e8b52,Spar,0.99,,live 2026,,billa.json (live 2026)
+19ea99ae97d4,Spar,0.99,,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+8439130d0b07,Spar,0.99,8.84,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+166d8e584745,Spar,0.99,,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+2b3ab2a0c108,Spar,0.99,,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+4a9112a2d09c,Spar,1.59,,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+b01f65b1937c,Spar,1.59,,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+1d4799f5c4ad,Spar,0.99,,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+65db7b715110,Spar,0.99,24.75,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+fd17521b0eb6,Spar,0.99,24.15,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+7e71cd2081aa,Spar,4.49,8.98,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+93fd2c2b9e82,Spar,5.29,10.58,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+c3465d2cc9df,Spar,4.49,8.98,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+cc7b4f7337ce,Spar,4.49,8.98,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+2597ab0cc95f,Spar,4.49,8.98,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+6f65f087f6e5,Spar,4.49,8.98,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+cbeadca5fe2e,Spar,4.49,8.98,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+d53460ca471f,Spar,4.49,8.98,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+d77e43e9133f,Spar,5.29,10.58,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+67cf5fae135d,Spar,4.49,8.98,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+c47143db6db5,Spar,4.49,8.98,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+e23cd5657ab7,Spar,5.79,7.24,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+0699a2272d35,Spar,5.79,7.24,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+eaec2c5385dd,Spar,5.79,7.24,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+052c5bd69a0a,Spar,4.49,8.98,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+d28523e39c9c,Spar,4.49,8.98,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+e0c1d0d8f6f0,Spar,1.19,33.06,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+e47cb8b04398,Spar,1.19,19.83,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+56c23afc95b2,Spar,3.79,8.42,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+0537ecab3446,Spar,4.29,10.72,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+64c1f0789e4e,Spar,3.99,15.96,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+db06e60c0865,Spar,3.49,9.97,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+b8b8e6d50814,Spar,1.29,16.33,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+1070601077c0,Spar,0.99,,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+24b5c34bb5a1,Spar,0.79,,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+e05c6a1a8273,Spar,0.99,,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+074af5c09e61,Spar,0.99,,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+e5da6b7319c3,Spar,1.99,,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+a0a846d46148,Spar,3.39,15.41,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+bfff0f7c0396,Spar,5.39,13.47,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+adf9370320e2,Spar,4.79,11.97,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+8727fdce552e,Spar,5.59,11.18,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+20f5dada39e3,Spar,2.99,7.48,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+4bbebfa157b7,Spar,2.49,6.23,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+a406b2b88e02,Spar,2.99,7.48,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+2b7a8646de21,Spar,2.49,6.23,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+12adc5fc5eea,Spar,3.99,12.09,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+941d2dc87f96,Spar,1.09,,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+b0757242e88e,Spar,1.09,,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+5dc92bcaf159,Spar,3.99,147.78,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+899e722a4650,Spar,3.79,15.16,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+ae82b37c12cf,Spar,3.79,15.16,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+6b10aaf04380,Spar,1.49,5.96,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+a41b6d1dbf67,Spar,1.49,3.73,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+b98fef2afb26,Spar,2.19,5.47,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+29ffe25fbacd,Spar,3.99,3.99,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+079f4946308f,Spar,4.49,6.41,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+7ef37380f343,Spar,1.59,3.98,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+0da0a19e4c4b,Spar,4.49,6.41,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+0aa0299c5d19,Spar,3.99,3.99,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+b0ac7215fdfa,Spar,3.99,5.7,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+c7d6deef0680,Spar,1.49,3.73,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+8a588e9bae2c,Spar,3.49,6.71,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+59d65fab0323,Spar,2.99,7.48,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+4a13f088bc8d,Spar,3.99,3.99,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+8e70c5200bcd,Spar,2.99,7.67,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+6abdd94d9949,Spar,1.89,3.15,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+a8383f581915,Spar,3.99,3.99,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+85dbaec95130,Spar,4.99,13.31,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+cbce9b7a652f,Spar,4.99,13.31,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+6fe4fce618bd,Spar,5.49,17.16,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+451ab8799909,Spar,2.99,8.08,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+615e6ffb130a,Spar,3.69,8.2,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+24ec983cc21f,Spar,1.99,5.38,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+2cca5ccdfe16,Spar,3.29,8.22,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+a67cd8ec50d3,Spar,4.49,11.23,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+cf6012b39f17,Spar,2.79,9.3,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+1dc4dc042892,Spar,3.99,9.98,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+7d25031f088a,Spar,2.99,8.79,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+224757eaa82c,Spar,4.49,11.23,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+e41be657c7d9,Spar,3.69,11.18,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+29657bd30073,Spar,3.29,8.22,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+bda7497b6007,Spar,3.29,8.22,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+b18f5cb54c59,Spar,3.29,8.22,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+ec94470f2215,Spar,3.29,8.22,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+001e6f602c81,Spar,4.29,,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+931e6a4304f0,Spar,7.99,7.99,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+588c3470e1ed,Spar,0.99,8.25,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+37f975269e20,Spar,5.49,15.25,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+51ec947ec2c7,Spar,3.49,10.58,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+eb5c7533418f,Spar,0.99,,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+b90e693ccfbb,Spar,2.99,7.48,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+f78247c17ebd,Spar,1.29,3.23,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+2aa40db6b8f6,Spar,2.85,5.7,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+535eaaa22b40,Spar,3.49,87.25,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+b50e93506f64,Spar,1.35,5.4,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+7f14e4d4d3a3,Spar,1.35,5.4,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+13d09f9b0258,Spar,2.69,7.37,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+9f5d63edd589,Spar,2.29,19.08,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+8c78be074e89,Spar,3.29,8.89,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+c4ead302e50d,Spar,3.49,8.72,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+e12c20f7f54a,Spar,2.69,7.27,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+6b05e3136334,Spar,3.59,14.36,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+9927e9b4dc2e,Spar,7.2,23.99,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+2a7bd95a743d,Spar,23.99,23.99,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+c68a29dedb9e,Spar,2.29,16.36,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+d2a0b0ff3d87,Spar,3.79,14.58,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+e491c4f63bef,Spar,2.49,9.96,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+2b6ed39794c4,Spar,2.46,8.2,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+5bb85bab20db,Spar,2.49,12.45,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+32cb56eacb18,Spar,3.49,8.72,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+851a1bcee683,Spar,0.99,,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+02321345bff2,Spar,0.99,,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+6d6e1eaec899,Spar,0.99,,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+fbeaf215ca67,Spar,0.99,,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+e8446152acbb,Spar,0.99,,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+da7bff0d663f,Spar,0.99,,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+2f0bbfdad5f1,Spar,0.99,,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+149c9e0bc511,Spar,3.49,,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+259727fd721c,Spar,1.42,5.68,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+d8ade931d878,Spar,3.99,9.98,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+b91de9b7f1b4,Spar,4.99,12.47,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+62f258517878,Spar,3.99,9.98,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+01715fd3f6c8,Spar,3.99,9.98,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+6bf317d3c6c9,Spar,3.99,9.98,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+ff91ebd8a470,Spar,3.49,13.96,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+d1e8bf9c4304,Spar,3.99,9.98,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+4f6b5d2f5945,Spar,4.99,12.47,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+863c23d24d69,Spar,3.49,13.96,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+b64f188e082b,Spar,6.99,15.53,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+d4b23c835db3,Spar,9.99,21.72,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+071e73d4da1f,Spar,2.99,14.95,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+1f23294e9666,Spar,2.99,14.95,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+f0a77561623e,Spar,7.99,7.99,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+e9883da1defd,Spar,0.99,,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+4482fc01f825,Spar,2.39,9.56,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+101801556fcd,Spar,1.49,7.45,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+44edf8d20ee1,Spar,1.42,3.55,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+e143944fbdfc,Spar,2.99,7.48,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+b3d3e5ad1914,Spar,2.37,5.27,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+b23012acdd08,Spar,4.49,12.83,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+621bc17781ed,Spar,5.99,17.11,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+acbfd49cedd1,Spar,4.49,12.83,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+7d359e3e190a,Spar,2.99,14.95,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+c7e3f0915f16,Spar,4.39,10.97,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+96cc8cb01c57,Spar,4.39,10.97,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+8e98fc4d6007,Spar,4.39,10.97,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+d55432227eed,Spar,4.99,16.63,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+d97bb00a4a14,Spar,1.49,12.42,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+8fe78e81dd66,Spar,2.99,11.96,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+021f0c7c1776,Spar,6.99,19.42,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+3a820c7132e0,Spar,8.99,24.97,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+9baf9993b48a,Spar,4.99,9.98,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+4ae4622fd27c,Spar,21.99,21.99,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+622399661bcb,Spar,18.99,18.99,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+a54983d4301f,Spar,9.99,9.99,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+ff22d2c90c3b,Spar,4.29,10.09,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+e39e552c0647,Spar,24.99,,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+71e4b180e141,Spar,10.0,12.5,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+26af089bcfc7,Spar,20.0,11.43,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+ce3c204658e5,Spar,5.99,92.15,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+94fa47a7a832,Spar,1.51,6.04,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+041cda0665e5,Spar,2.79,7.97,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+63ac1f199ddc,Spar,4.99,142.57,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+907fecf594ee,Spar,4.99,124.75,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+5536bdee24a4,Spar,1.99,39.8,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+581cae8b9018,Spar,2.85,2.85,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+76114ebd2895,Spar,4.28,8.56,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+d2b8b38d4fb3,Spar,6.95,6.95,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+329d4dfe987c,Spar,2.69,12.23,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+9bc711b3833f,Spar,2.69,12.23,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+873ede642e46,Spar,2.69,12.23,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+c37cc69d3490,Spar,2.69,12.23,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+09034cddd91b,Spar,2.69,12.23,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+db1430ce1198,Spar,3.13,6.26,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+112cea96c7be,Spar,4.75,4.75,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+6962307b3424,Spar,1.89,3.78,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+384452053d15,Spar,2.49,6.23,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+8ad2ffcfff4a,Spar,4.99,12.47,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+8fe73e566ec7,Spar,4.99,12.26,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+9502c73878e1,Spar,1.13,2.26,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+ed6782d935a7,Spar,2.08,4.16,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+df3657bf60b0,Spar,6.0,,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+d61eb52b805f,Spar,1.8,3.6,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+58744f7ed58c,Spar,15.0,,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+a0d29659212b,Spar,3.49,19.39,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+04dc986b00a8,Spar,23.49,33.56,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+4e0e09328a69,Spar,16.9,16.9,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+520621e36526,Spar,1.99,7.96,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+0be1b9bb41ef,Spar,1.99,7.96,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+d7a4426a2b17,Spar,4.56,7.02,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+e1c981726a10,Spar,3.8,9.5,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+ea350ec2f577,Spar,3.8,9.5,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+954a84324223,Spar,4.56,7.02,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+034ed01ece88,Spar,2.27,15.13,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+cf009e787db2,Spar,4.56,7.86,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+b986a5a30aa4,Spar,3.8,8.44,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+eca558d41ab3,Spar,5.79,14.47,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+65a779add26e,Spar,5.79,16.54,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+09d2ffef747f,Spar,7.49,11.52,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+c479244a3afa,Spar,6.99,15.53,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+0a3b63d55619,Spar,3.8,8.44,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+ac6a551d6607,Spar,6.49,21.63,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+9a697c6345fb,Spar,6.79,19.4,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+eb52a6cb9e36,Spar,3.8,11.52,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+87836395d8a1,Spar,3.99,14.78,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+8a7372f860be,Spar,3.99,14.78,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+8e103efe08bd,Spar,3.99,14.78,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+605cea38d268,Spar,21.99,,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+a85de90cd64c,Spar,2.08,10.4,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+d6cc57109d0d,Spar,1.69,8.45,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+c929e0cb9e52,Spar,1.69,9.66,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+deef95e90681,Spar,1.09,10.9,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+28dcaa4931e7,Spar,2.39,5.98,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+caac7e8042ec,Spar,3.99,,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+80606b83f7f5,Spar,3.79,15.16,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+8b6f5ef5ab2c,Spar,3.79,15.16,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+c2cb35d097c7,Spar,0.94,5.88,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+f65e7365d83d,Spar,26.99,,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+8d42bf5076e2,Spar,2.99,5.98,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+0acb087e8795,Spar,0.63,2.86,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+199170c9458a,Spar,2.08,2.77,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+e81bcaa7e911,Spar,1.32,2.64,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+02dc3359332f,Spar,1.89,1.89,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+435dab800c67,Spar,1.49,3.73,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+f829193fd512,Spar,2.08,2.77,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+d7a21e2393d2,Spar,3.99,5.7,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+3d2ad08220cd,Spar,7.89,7.89,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+90eeb79bd7ed,Spar,4.99,14.26,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+18ad4e8f1b2a,Spar,3.69,4.92,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+c6f81c6a83a1,Spar,1.99,4.42,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+b917c3dec9e7,Spar,7.19,8.99,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+e23466b38e32,Spar,4.89,13.97,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+7f4f2986aed8,Spar,3.29,8.22,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+35e2057e930a,Spar,0.99,3.96,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+e9d4b498440a,Spar,0.99,3.96,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+a6649e394584,Spar,3.79,4.74,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+996ccdf80678,Spar,2.99,3.74,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+094d40dceb0b,Spar,3.13,4.17,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+8fed4b970eb4,Spar,2.49,9.96,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+4656f42a0c9c,Spar,1.51,5.03,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+023aa5f066a8,Spar,3.13,3.13,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+a4f46df9ab63,Spar,4.28,8.56,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+452446717393,Spar,4.99,12.47,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+ee7fa7cc3ba3,Spar,4.39,8.78,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+65b42a3ca199,Spar,5.19,14.83,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+b1603ff08483,Spar,4.99,12.47,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+684f3041980b,Spar,3.13,3.13,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+85312df3a8fd,Spar,5.99,13.31,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+f41f9416b2ce,Spar,1.7,13.6,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+accaf1458737,Spar,3.13,3.13,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+4ddc9c01ddd2,Spar,1.39,6.04,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+cd0b743f2d38,Spar,0.24,1.89,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+71c819c1f084,Spar,3.13,3.13,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+f40ef22c217b,Spar,3.13,3.13,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+75db94784978,Spar,3.13,3.13,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+b91a7fe6536e,Spar,9.19,18.38,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+38c9e890271d,Spar,1.89,18.9,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+3df0058cb7bd,Spar,1.79,10.23,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+a53da6cc4caa,Spar,2.46,8.2,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+e274977add8c,Spar,3.7,6.85,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+fe2231a1b466,Spar,2.46,8.2,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+82e1834b0648,Spar,1.39,6.32,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+2cc9d441acb8,Spar,2.85,11.4,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+bdf2523fa86e,Spar,2.08,8.32,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+22033f202875,Spar,1.35,5.4,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+d87391471ef6,Spar,31.99,31.99,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+ac349ce333ae,Spar,2.49,10.38,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+959965f736c8,Spar,1.35,5.4,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+7e772ed0bddb,Spar,0.95,5.0,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+fe58f3705245,Spar,2.08,8.32,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+12de594ae9ae,Spar,1.9,1.9,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+a41ba9cecec1,Spar,0.95,5.0,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+0fa533c79c4a,Spar,3.7,4.93,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+bb21a34bd07c,Spar,1.13,2.26,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+e65d305a9f4d,Spar,1.23,6.15,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+dd940a47046e,Spar,2.49,7.11,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+3570e1c6a22c,Spar,1.79,4.47,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+579a4dccfe11,Spar,1.89,3.78,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+bc017ab07542,Spar,2.79,12.4,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+56c1c7e0a3ca,Spar,2.39,4.78,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+d2b11cdbd9c4,Spar,3.19,15.95,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+ace03698a2b5,Spar,2.89,5.78,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+81ae4b084e71,Spar,1.79,4.47,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+79dbbd98e833,Spar,1.89,1.89,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+89164da80e7c,Spar,1.51,6.04,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+055bf9cd8f96,Billa,1.99,5.69,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+304804baaa16,Billa,2.99,11.96,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+fb47d8e08ea6,Billa,2.99,11.96,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+67f67c864c17,Billa,3.49,11.63,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+595ae2efd82d,Billa,0.99,3.96,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+e8b355aaa106,Billa,0.99,3.96,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+f9ad73f6a8cd,Billa,4.79,19.16,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+a90edd17950b,Billa,4.79,19.16,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+c028900aefb7,Billa,7.19,20.54,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+cd0d8b2e5042,Billa,2.66,6.65,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+a9b616eed13b,Spar,10.49,13.11,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+ed87eda20c7a,Billa,3.79,15.16,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+565664210d1b,Billa,2.19,12.51,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+a254eb94a709,Billa,2.59,25.9,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+034d3201321c,Spar,3.99,22.17,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+12e8714a2769,Spar,3.99,12.47,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+5e89536afcc8,Spar,4.99,10.4,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+6dce118c85b1,Spar,0.99,3.96,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+c59c85553104,Spar,0.99,3.96,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+c8ed6a8c52ad,Spar,2.49,6.38,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+d5341f413d87,Spar,4.79,7.98,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+615468d41451,Spar,3.99,5.96,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+25c398319409,Spar,6.49,8.11,live 2026,,billa.json (live 2026)
+82b0a22386af,Spar,3.69,5.68,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+8ffc58f05bee,Spar,3.29,23.5,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+3daebf5674ec,Spar,3.59,14.36,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+175def974535,Spar,7.49,11.52,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+a2e3978c674f,Spar,7.49,14.98,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+ceb3baba9a77,Spar,5.29,13.23,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+253129808ef0,Spar,6.29,7.86,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+49db653c7708,Spar,5.99,17.62,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+19574344b047,Spar,5.29,13.23,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+dd8b4c92967b,Spar,3.49,8.72,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+7eb2187af4a0,Spar,5.49,6.86,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+c5ee82689411,Spar,1.59,,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+74dc23b2b17d,Spar,5.29,10.58,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+b83679e611cf,Spar,3.99,15.96,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+553283825688,Spar,4.29,3.3,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+d7448006115b,Spar,2.49,9.96,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+a88f6e2389ed,Spar,3.69,8.2,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+87847bbe740d,Spar,2.99,9.06,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+072e3e6c9331,Spar,2.99,9.97,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+dc7ab21ba485,Spar,3.69,9.23,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+d1095da522f5,Spar,2.99,9.97,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+7f613dc13ee2,Spar,3.89,7.78,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+0362d37f3429,Spar,2.19,8.76,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+1e234db7c1d5,Spar,3.89,7.78,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+78d99f0545f9,Spar,3.49,13.96,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+7c88a0aec8bf,Spar,5.99,17.62,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+e891dae968fd,Spar,1.99,13.27,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+c36440aef573,Spar,5.49,15.69,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+e804ac01f0f2,Spar,4.49,12.83,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+64ccd83d6126,Spar,2.39,23.9,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+411ec196a1e8,Spar,4.99,11.88,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+9e6b4fb1a9ea,Billa,6.89,17.23,live 2026,2026-10-13,BILLA shop API 2026-10-13
+d73e9c103023,Billa,14.99,18.74,live 2026,2026-10-13,BILLA shop API 2026-10-13
+6740b1ce8cf7,dm,3.55,10.14,Preis 2025,2024-04-23,"heisse-preise.io dm (Preisstand 2024-04-23) – Altpreis, nicht live bestätigt"
+aea36856db1b,dm,3.55,10.14,Preis 2025,2024-04-23,"heisse-preise.io dm (Preisstand 2024-04-23) – Altpreis, nicht live bestätigt"
+f6a91d569484,dm,3.55,10.14,Preis 2025,2024-04-23,"heisse-preise.io dm (Preisstand 2024-04-23) – Altpreis, nicht live bestätigt"
+2b7827ffd994,dm,3.95,11.29,Preis 2025,2024-04-23,"heisse-preise.io dm (Preisstand 2024-04-23) – Altpreis, nicht live bestätigt"
+3b4f63700fb2,dm,1.85,5.29,Preis 2025,2023-06-21,"heisse-preise.io dm (Preisstand 2023-06-21) – Altpreis, nicht live bestätigt"
+077a3001a810,dm,3.45,10.78,Preis 2025,2024-03-24,"heisse-preise.io dm (Preisstand 2024-03-24) – Altpreis, nicht live bestätigt"
+92cd233d3525,dm,1.75,5.47,Preis 2025,2024-07-18,"heisse-preise.io dm (Preisstand 2024-07-18) – Altpreis, nicht live bestätigt"
+047f5ef85cda,dm,3.45,10.78,Preis 2025,2024-03-02,"heisse-preise.io dm (Preisstand 2024-03-02) – Altpreis, nicht live bestätigt"
+6248fe160e67,dm,2.75,10.19,Preis 2025,2025-02-01,"heisse-preise.io dm (Preisstand 2025-02-01) – Altpreis, nicht live bestätigt"
+6987f5187ea4,dm,2.35,8.39,Preis 2025,2024-01-11,"heisse-preise.io dm (Preisstand 2024-01-11) – Altpreis, nicht live bestätigt"
+62f08176ebb0,dm,1.55,3.88,Preis 2025,2025-01-29,"heisse-preise.io dm (Preisstand 2025-01-29) – Altpreis, nicht live bestätigt"
+2faf3609fedc,Hofer,2.59,6.47,Preis 2025,2023-10-03,"heisse-preise.io hofer (Preisstand 2023-10-03) – Altpreis, nicht live bestätigt"
+be0de76b26fc,Hofer,4.49,16.04,Preis 2025,2025-05-23,"heisse-preise.io hofer (Preisstand 2025-05-23) – Altpreis, nicht live bestätigt"
+92d3ea75fc5e,Hofer,12.99,,Preis 2025,2025-06-06,"heisse-preise.io hofer (Preisstand 2025-06-06) – Altpreis, nicht live bestätigt"
+9d40f7254d1b,Hofer,3.49,13.96,Preis 2025,2024-11-26,"heisse-preise.io hofer (Preisstand 2024-11-26) – Altpreis, nicht live bestätigt"
+29d6ea267fdb,Hofer,2.89,7.23,Preis 2025,2024-10-31,"heisse-preise.io hofer (Preisstand 2024-10-31) – Altpreis, nicht live bestätigt"
+d7f631141622,Hofer,2.99,7.48,Preis 2025,2024-08-28,"heisse-preise.io hofer (Preisstand 2024-08-28) – Altpreis, nicht live bestätigt"
+73e5c46c925a,Hofer,3.99,3.99,Preis 2025,2025-03-26,"heisse-preise.io hofer (Preisstand 2025-03-26) – Altpreis, nicht live bestätigt"
+83da24f3c38d,Hofer,2.99,7.48,Preis 2025,2024-11-26,"heisse-preise.io hofer (Preisstand 2024-11-26) – Altpreis, nicht live bestätigt"
+03ffbd5418c6,Hofer,2.99,7.48,Preis 2025,2024-11-26,"heisse-preise.io hofer (Preisstand 2024-11-26) – Altpreis, nicht live bestätigt"
+2085cb1f8c09,Hofer,5.99,8.56,Preis 2025,2024-11-26,"heisse-preise.io hofer (Preisstand 2024-11-26) – Altpreis, nicht live bestätigt"
+5effef072e62,Hofer,6.49,12.98,Preis 2025,2025-08-28,"heisse-preise.io hofer (Preisstand 2025-08-28) – Altpreis, nicht live bestätigt"
+153addc22feb,Hofer,6.49,12.98,Preis 2025,2025-08-28,"heisse-preise.io hofer (Preisstand 2025-08-28) – Altpreis, nicht live bestätigt"
+ba2911b0ad03,Hofer,9.49,9.49,Preis 2025,2024-10-22,"heisse-preise.io hofer (Preisstand 2024-10-22) – Altpreis, nicht live bestätigt"
+98186b6bb3ba,Hofer,1.99,4.98,Preis 2025,2024-10-22,"heisse-preise.io hofer (Preisstand 2024-10-22) – Altpreis, nicht live bestätigt"
+c845b0088ef6,Hofer,1.99,2.49,Preis 2025,2023-12-01,"heisse-preise.io hofer (Preisstand 2023-12-01) – Altpreis, nicht live bestätigt"
+e020a0819068,Hofer,1.99,2.49,Preis 2025,2023-12-01,"heisse-preise.io hofer (Preisstand 2023-12-01) – Altpreis, nicht live bestätigt"
+3238de21b9d8,Hofer,2.99,3.99,Preis 2025,2023-12-31,"heisse-preise.io hofer (Preisstand 2023-12-31) – Altpreis, nicht live bestätigt"
+6056b6b12320,Hofer,1.99,4.98,Preis 2025,2024-11-13,"heisse-preise.io hofer (Preisstand 2024-11-13) – Altpreis, nicht live bestätigt"
+b1a6e6fa7396,Hofer,2.49,,Preis 2025,2023-10-11,"heisse-preise.io hofer (Preisstand 2023-10-11) – Altpreis, nicht live bestätigt"
+bf9518d9de45,Hofer,9.49,9.49,Preis 2025,2024-10-22,"heisse-preise.io hofer (Preisstand 2024-10-22) – Altpreis, nicht live bestätigt"
+bf369992aa81,Hofer,13.99,13.99,Preis 2025,2023-06-27,"heisse-preise.io hofer (Preisstand 2023-06-27) – Altpreis, nicht live bestätigt"
+027eb4b0e183,Spar,4.99,12.47,live 2026,2026-02-10,heisse-preise.io spar (Preisstand 2026-02-10)
+4398b900f659,Spar,3.79,37.9,live 2026,2026-01-19,heisse-preise.io spar (Preisstand 2026-01-19)
+d9ed8d070b13,Spar,2.99,7.2,Preis 2025,2024-08-30,"heisse-preise.io spar (Preisstand 2024-08-30) – Altpreis, nicht live bestätigt"
+cc0f749998aa,Spar,3.59,14.36,Preis 2025,2024-10-18,"heisse-preise.io spar (Preisstand 2024-10-18) – Altpreis, nicht live bestätigt"
+58970cc9f0a9,Spar,10.99,10.99,Preis 2025,2023-08-17,"heisse-preise.io spar (Preisstand 2023-08-17) – Altpreis, nicht live bestätigt"
+bb3d95f44397,Spar,4.49,14.97,Preis 2025,2024-10-27,"heisse-preise.io spar (Preisstand 2024-10-27) – Altpreis, nicht live bestätigt"
+0d42ef43384e,Spar,8.99,35.96,live 2026,2026-01-08,heisse-preise.io spar (Preisstand 2026-01-08)
+a0c15d2e7d39,Spar,5.79,16.54,live 2026,2026-01-15,heisse-preise.io spar (Preisstand 2026-01-15)
+af60759b9f29,Spar,4.99,12.47,Preis 2025,2025-05-14,"heisse-preise.io spar (Preisstand 2025-05-14) – Altpreis, nicht live bestätigt"
+7c72d3aa5ddb,Spar,5.49,6.86,Preis 2025,2025-10-07,"heisse-preise.io spar (Preisstand 2025-10-07) – Altpreis, nicht live bestätigt"
+50750912a500,Spar,3.29,8.22,Preis 2025,2024-02-13,"heisse-preise.io spar (Preisstand 2024-02-13) – Altpreis, nicht live bestätigt"
+4fd8d6fffaff,Spar,5.49,6.86,Preis 2025,2025-10-07,"heisse-preise.io spar (Preisstand 2025-10-07) – Altpreis, nicht live bestätigt"
+cf682d6f6a5f,Spar,5.29,13.23,Preis 2025,2025-10-07,"heisse-preise.io spar (Preisstand 2025-10-07) – Altpreis, nicht live bestätigt"
+062c59051a72,Spar,3.69,9.23,Preis 2025,2024-05-29,"heisse-preise.io spar (Preisstand 2024-05-29) – Altpreis, nicht live bestätigt"
+a4823fae3b2e,Spar,5.99,15.36,Preis 2025,2025-10-07,"heisse-preise.io spar (Preisstand 2025-10-07) – Altpreis, nicht live bestätigt"
+a8fdb6b80a42,Spar,2.99,7.48,Preis 2025,2025-10-07,"heisse-preise.io spar (Preisstand 2025-10-07) – Altpreis, nicht live bestätigt"
+6965806a60d0,Spar,5.29,13.23,Preis 2025,2025-10-07,"heisse-preise.io spar (Preisstand 2025-10-07) – Altpreis, nicht live bestätigt"
+0c4cf6a9b24b,Spar,5.29,10.58,live 2026,2026-02-10,heisse-preise.io spar (Preisstand 2026-02-10)
+9975669a7395,Spar,2.99,18.69,Preis 2025,2025-05-14,"heisse-preise.io spar (Preisstand 2025-05-14) – Altpreis, nicht live bestätigt"
+162aa702e7a0,Spar,7.99,10.65,live 2026,2026-07-23,heisse-preise.io spar (Preisstand 2026-07-23)
+e51f8dba71f3,Spar,5.99,7.99,Preis 2025,2023-08-01,"heisse-preise.io spar (Preisstand 2023-08-01) – Altpreis, nicht live bestätigt"
+b6e5bf61bd32,Spar,5.99,7.99,Preis 2025,2025-05-14,"heisse-preise.io spar (Preisstand 2025-05-14) – Altpreis, nicht live bestätigt"
+35111e7e8b73,Spar,2.99,7.48,Preis 2025,2023-11-14,"heisse-preise.io spar (Preisstand 2023-11-14) – Altpreis, nicht live bestätigt"
+1133ba8e9704,Spar,1.39,,Preis 2025,2023-06-20,"heisse-preise.io spar (Preisstand 2023-06-20) – Altpreis, nicht live bestätigt"
+4c5c1664ef35,Spar,10.99,10.99,Preis 2025,2025-08-28,"heisse-preise.io spar (Preisstand 2025-08-28) – Altpreis, nicht live bestätigt"
+94adcb32df1f,Spar,5.49,18.3,Preis 2025,2025-10-28,"heisse-preise.io spar (Preisstand 2025-10-28) – Altpreis, nicht live bestätigt"
+a4f2839087c2,Spar,9.99,13.32,Preis 2025,2024-05-01,"heisse-preise.io spar (Preisstand 2024-05-01) – Altpreis, nicht live bestätigt"
+6f85dc04ad70,Spar,3.99,15.96,Preis 2025,2025-09-02,"heisse-preise.io spar (Preisstand 2025-09-02) – Altpreis, nicht live bestätigt"
+5e6e153b6076,Spar,4.49,11.23,Preis 2025,2024-12-05,"heisse-preise.io spar (Preisstand 2024-12-05) – Altpreis, nicht live bestätigt"
+8e89e230b3ff,Spar,3.69,8.2,Preis 2025,2025-12-17,"heisse-preise.io spar (Preisstand 2025-12-17) – Altpreis, nicht live bestätigt"
+03d455ec24f7,Spar,2.99,6.64,Preis 2025,2023-07-04,"heisse-preise.io spar (Preisstand 2023-07-04) – Altpreis, nicht live bestätigt"
+43258a3d483f,Spar,3.69,9.23,Preis 2025,2025-12-17,"heisse-preise.io spar (Preisstand 2025-12-17) – Altpreis, nicht live bestätigt"
+fb4cc3821a96,Spar,3.69,11.18,Preis 2025,2025-12-17,"heisse-preise.io spar (Preisstand 2025-12-17) – Altpreis, nicht live bestätigt"
+3f74c1a8b5e2,Spar,4.69,15.63,Preis 2025,2024-11-26,"heisse-preise.io spar (Preisstand 2024-11-26) – Altpreis, nicht live bestätigt"
+a6fcb44d1078,Spar,6.99,23.3,Preis 2025,2025-09-08,"heisse-preise.io spar (Preisstand 2025-09-08) – Altpreis, nicht live bestätigt"
+48b51eb19d5b,Spar,4.79,11.4,Preis 2025,2023-06-23,"heisse-preise.io spar (Preisstand 2023-06-23) – Altpreis, nicht live bestätigt"
+a52b60d2e451,Spar,4.79,11.97,Preis 2025,2023-06-23,"heisse-preise.io spar (Preisstand 2023-06-23) – Altpreis, nicht live bestätigt"
+fc20e17b68bd,Spar,4.49,13.4,Preis 2025,2025-08-14,"heisse-preise.io spar (Preisstand 2025-08-14) – Altpreis, nicht live bestätigt"
+23bcd4c585e3,Spar,6.99,19.42,Preis 2025,2025-08-28,"heisse-preise.io spar (Preisstand 2025-08-28) – Altpreis, nicht live bestätigt"
+c553f0b91b72,Spar,3.49,8.72,Preis 2025,2023-07-18,"heisse-preise.io spar (Preisstand 2023-07-18) – Altpreis, nicht live bestätigt"
+7075c99a8b56,Spar,3.49,8.72,Preis 2025,2023-07-18,"heisse-preise.io spar (Preisstand 2023-07-18) – Altpreis, nicht live bestätigt"
+ad8ab8096d68,Spar,1.99,4.74,Preis 2025,2023-12-19,"heisse-preise.io spar (Preisstand 2023-12-19) – Altpreis, nicht live bestätigt"
+00206946262d,Spar,4.99,11.6,live 2026,2026-06-08,heisse-preise.io spar (Preisstand 2026-06-08)
+65c8ead3f730,Spar,4.99,11.88,Preis 2025,2025-07-31,"heisse-preise.io spar (Preisstand 2025-07-31) – Altpreis, nicht live bestätigt"
+ae09f927a47c,Spar,4.99,11.6,live 2026,2026-07-20,heisse-preise.io spar (Preisstand 2026-07-20)
+0a1b00f7a1d5,Billa,6.99,24.96,live 2026,,billa.json (live 2026)
+d8f49686133c,Billa,4.39,10.98,live 2026,,billa.json (live 2026)
+096f0ec211ef,Billa,4.39,10.98,live 2026,,billa.json (live 2026)
+1909a4554c75,Billa,4.39,10.98,live 2026,,billa.json (live 2026)
+014964791124,Billa,3.99,3.99,live 2026,,billa.json (live 2026)
+ad286521b64b,Billa,4.99,11.88,live 2026,,billa.json (live 2026)
+b9bdbdc9b8d2,Billa,17.99,17.99,live 2026,,billa.json (live 2026)
+5d110e60e46f,Billa,3.99,7.98,live 2026,,billa.json (live 2026)
+39ece0275ccb,Billa,36.99,36.99,live 2026,,billa.json (live 2026)
+5c3d86f3d854,Billa,5.99,17.11,live 2026,,billa.json (live 2026)
+2ed7e091dcb1,Billa,3.19,9.67,live 2026,,billa.json (live 2026)
+a4d61a360c5d,Billa,7.99,22.83,live 2026,,billa.json (live 2026)
+7b49130e17a6,Billa,17.99,17.99,live 2026,,frozen_quick.json (live 2026)
+592548ee066b,Billa,12.99,12.99,live 2026,,billa.json (live 2026)
+d8519674ee97,Billa,10.99,21.98,live 2026,,billa.json (live 2026)
+d16d6325dec1,Billa,12.99,39.36,live 2026,,billa.json (live 2026)
+8022ac384582,Billa,7.99,30.73,live 2026,,billa.json (live 2026)
+6a7c4482072c,Billa,7.99,28.54,live 2026,,billa.json (live 2026)
+ec598f9dab03,Billa,2.49,7.55,live 2026,,billa.json (live 2026)
+f83011aa1e47,Billa,1.89,5.73,live 2026,,billa.json (live 2026)
+c0feabb0ec52,Billa,4.99,11.88,live 2026,,billa.json (live 2026)
+a9a4effa4aa7,Billa,4.99,11.88,live 2026,,billa.json (live 2026)
+537e372e2dcc,Billa,3.19,19.94,live 2026,,billa.json (live 2026)
+29f58f40f2b7,Billa,5.99,35.24,live 2026,,billa.json (live 2026)
+9a01763c623d,Billa,5.99,28.52,live 2026,,billa.json (live 2026)
+8ce2165ff92a,Billa,5.99,28.52,live 2026,,billa.json (live 2026)
+abd6210e41de,Billa,2.99,16.61,live 2026,,billa.json (live 2026)
+16b6dff1a4aa,Billa,2.99,18.69,live 2026,,billa.json (live 2026)
+f8a4d8887510,Billa,3.79,11.84,live 2026,,billa.json (live 2026)
+b11a7abba992,Billa,2.49,17.79,live 2026,,billa.json (live 2026)
+b6b664977f81,Billa,1.99,7.96,live 2026,,billa.json (live 2026)
+03b1b3f10786,Billa,3.19,15.95,live 2026,,billa.json (live 2026)
+be0b593b2cee,Billa,13.99,39.97,live 2026,,billa.json (live 2026)
+3b4d18a8c0ed,Billa,4.99,11.88,live 2026,,billa.json (live 2026)
+0863e3c35c3d,Billa,3.99,8.87,live 2026,,billa.json (live 2026)
+41e5d9d82e48,Billa,3.19,15.95,live 2026,,billa.json (live 2026)
+caf42e93fa34,Billa,3.49,17.45,live 2026,,billa.json (live 2026)
+a9fdfe09a6af,Billa,3.49,8.73,live 2026,,billa.json (live 2026)
+7cb61f86afff,Billa,5.49,13.49,live 2026,,billa.json (live 2026)
+b598f3e42e39,Billa,5.49,13.49,live 2026,,billa.json (live 2026)
+4d20c15e73a4,Billa,5.49,13.49,live 2026,,billa.json (live 2026)
+f0ccf67a0d4a,Billa,5.49,18.3,live 2026,,billa.json (live 2026)
+dd13d88cf8b3,Billa,3.99,8.87,live 2026,,billa.json (live 2026)
+ff60960d0ba8,Billa,3.69,8.02,live 2026,,billa.json (live 2026)
+35d64f2ceba6,Billa,3.69,8.02,live 2026,,billa.json (live 2026)
+2a6d0169412c,Billa,3.79,12.63,live 2026,,billa.json (live 2026)
+941f533e3cbc,Billa,5.29,16.03,live 2026,,billa.json (live 2026)
+0138747b8a87,Billa,3.99,11.4,live 2026,,billa.json (live 2026)
+6ff6e8998ceb,Billa,4.69,14.21,live 2026,,billa.json (live 2026)
+907e7e1d8d19,Billa,2.69,7.47,live 2026,,billa.json (live 2026)
+ff252d648d0a,Billa,3.13,6.96,live 2026,,billa.json (live 2026)
+e621a16c6946,Billa,5.29,16.03,live 2026,,billa.json (live 2026)
+942b97de5566,Billa,3.99,11.4,live 2026,,billa.json (live 2026)
+e4589b49b22b,Billa,5.29,16.03,live 2026,,billa.json (live 2026)
+496e5c496912,Billa,4.99,15.12,live 2026,,billa.json (live 2026)
+eda746e79c3b,Billa,3.99,11.4,live 2026,,billa.json (live 2026)
+ffe4a8236e55,Billa,4.99,14.26,live 2026,,billa.json (live 2026)
+2fb60a8142b4,Billa,3.69,11.18,live 2026,,billa.json (live 2026)
+2fb9aa215d87,Billa,2.39,7.97,live 2026,,billa.json (live 2026)
+df9d63881cd8,Billa,3.99,15.96,live 2026,,billa.json (live 2026)
+33cb27025c2b,Billa,4.49,17.96,live 2026,,billa.json (live 2026)
+7b854a2f5306,Billa,3.29,13.16,live 2026,,billa.json (live 2026)
+ce709106e526,Billa,3.69,12.3,live 2026,,billa.json (live 2026)
+d7e50786702d,Billa,3.79,11.49,live 2026,,billa.json (live 2026)
+45d18b6359e1,Billa,3.69,8.2,live 2026,,billa.json (live 2026)
+76193cb89a03,Billa,4.99,14.26,live 2026,,billa.json (live 2026)
+63778476e7a6,Billa,3.99,9.98,live 2026,,billa.json (live 2026)
+64498159936e,Billa,4.49,9.76,live 2026,,billa.json (live 2026)
+6a98fd556d51,Billa,3.99,8.87,live 2026,,billa.json (live 2026)
+bb6c2d031f80,Billa,3.99,9.73,live 2026,,billa.json (live 2026)
+2a3ddce4dae3,Billa,4.49,12.83,live 2026,,billa.json (live 2026)
+09f202ef48de,Billa,4.99,11.88,live 2026,,billa.json (live 2026)
+f173b34e6301,Billa,4.49,13.4,live 2026,,billa.json (live 2026)
+a3d163f21882,Billa,4.49,13.61,live 2026,,billa.json (live 2026)
+1555327e6128,Billa,2.49,7.55,live 2026,,billa.json (live 2026)
+24b95a2f32a6,Billa,2.6,7.88,live 2026,,billa.json (live 2026)
+73fae2a3ee8c,Billa,3.99,9.98,live 2026,,billa.json (live 2026)
+b0379408c31a,Billa,3.99,9.98,live 2026,,billa.json (live 2026)
+02e86006f861,Billa,4.99,12.48,live 2026,,frozen_quick.json (live 2026)
+d753fbb790a8,Billa,3.39,10.59,live 2026,,billa.json (live 2026)
+46d31022881f,Billa,5.99,23.04,live 2026,,billa.json (live 2026)
+c00ea7630122,Billa,3.99,9.98,live 2026,,billa.json (live 2026)
+a2a56d8aa6f5,Billa,3.99,9.98,live 2026,,billa.json (live 2026)
+ab31bf1b31e4,Billa,2.99,21.36,live 2026,,billa.json (live 2026)
+e63bdbb7fd68,Billa,3.99,9.98,live 2026,,billa.json (live 2026)
+10c2b1024588,Billa,3.99,9.98,live 2026,,billa.json (live 2026)
+1eb06ea14431,Billa,3.99,9.98,live 2026,,billa.json (live 2026)
+0047663895d8,Billa,3.99,9.98,live 2026,,billa.json (live 2026)
+627f90c93b0b,Billa,1.99,7.96,live 2026,,billa.json (live 2026)
+03c5aab9993f,Billa,3.49,17.45,live 2026,,billa.json (live 2026)
+c546e1bb1410,Billa,2.99,14.95,live 2026,,billa.json (live 2026)
+48c9cc15cfb0,Billa,7.99,19.02,live 2026,,billa.json (live 2026)
+89f9780283e6,Billa,3.79,10.83,live 2026,,billa.json (live 2026)
+47f6efdbe2f7,Billa,7.99,19.02,live 2026,,billa.json (live 2026)
+2c01dfa74f05,Billa,3.59,13.81,live 2026,,billa.json (live 2026)
+f420ed049ec5,Billa,3.49,18.37,live 2026,,billa.json (live 2026)
+891c95826944,Billa,12.99,32.48,live 2026,,billa.json (live 2026)
+fc41f75eb8b1,Billa,3.49,18.37,live 2026,,billa.json (live 2026)
+e86cba95dc49,Billa,7.99,22.19,live 2026,,billa.json (live 2026)
+25d1f145976e,Billa,6.99,19.42,live 2026,,billa.json (live 2026)
+5c7b489fabfc,Billa,4.99,33.27,live 2026,,billa.json (live 2026)
+811e57bb7f0e,Billa,8.99,36.69,live 2026,,billa.json (live 2026)
+8d8b8675b71c,Billa,7.99,23.5,live 2026,,billa.json (live 2026)
+c65f9fed0dc5,Billa,4.29,13.41,live 2026,,billa.json (live 2026)
+2b6b5d2331eb,Billa,2.99,5.98,live 2026,,billa.json (live 2026)
+403e095db825,Billa,3.49,8.73,live 2026,,billa.json (live 2026)
+7af43998f6d9,Billa,2.99,17.38,live 2026,,billa.json (live 2026)
+93391428e56d,Billa,2.99,18.01,live 2026,,billa.json (live 2026)
+6150309b7b0f,Billa,2.99,18.01,live 2026,,billa.json (live 2026)
+9cb5a6585bca,Billa,2.19,34.76,live 2026,,billa.json (live 2026)
+e840e2a177cd,Billa,1.19,1.19,live 2026,,billa.json (live 2026)
+fcd6fd58f2c9,Billa,2.59,51.8,live 2026,,billa.json (live 2026)
+232fedff7eee,Billa,2.59,51.8,live 2026,,billa.json (live 2026)
+132f45f5f4ff,Billa,1.32,20.95,live 2026,,billa.json (live 2026)
+c7071d6bc104,Billa,1.32,20.95,live 2026,,billa.json (live 2026)
+33dfc823efad,Billa,1.32,20.95,live 2026,,billa.json (live 2026)
+d817d35763af,Billa,2.99,7.48,live 2026,,billa.json (live 2026)
+77bc9c0705b9,Billa,5.99,7.49,live 2026,,billa.json (live 2026)
+f10f8143be62,Billa,1.19,1.19,live 2026,,billa.json (live 2026)
+e11e1c87394f,Billa,1.19,1.19,live 2026,,billa.json (live 2026)
+725058c02a88,Billa,2.99,5.98,live 2026,,billa.json (live 2026)
+e3be422134ee,Billa,2.99,5.98,live 2026,,billa.json (live 2026)
+1dac8539e20b,Billa,2.99,5.98,live 2026,,billa.json (live 2026)
+be219da5e489,Billa,1.32,17.6,live 2026,,billa.json (live 2026)
+3781d1b43fae,Billa,1.32,17.6,live 2026,,billa.json (live 2026)
+3c1b1152df15,Billa,1.32,17.6,live 2026,,billa.json (live 2026)
+07ca2ceba952,Billa,2.19,34.76,live 2026,,billa.json (live 2026)
+ac66cf430b26,Billa,2.19,35.9,live 2026,,billa.json (live 2026)
+9628e4392c03,Billa,1.39,19.86,live 2026,,billa.json (live 2026)
+45a647cc4d75,Billa,1.39,19.86,live 2026,,billa.json (live 2026)
+f7bdbb71b9bf,Billa,1.39,19.86,live 2026,,billa.json (live 2026)
+b74d36f764ed,Billa,5.49,13.73,live 2026,,billa.json (live 2026)
+80b9268db12d,Billa,2.99,5.98,live 2026,,billa.json (live 2026)
+863b5cc79fb4,Billa,5.99,15.76,live 2026,,billa.json (live 2026)
+138408a3c2d5,Billa,5.99,15.97,live 2026,,billa.json (live 2026)
+c6b9f6028967,Billa,2.99,5.98,live 2026,,billa.json (live 2026)
+5aafd2c0e5a6,Billa,5.99,15.76,live 2026,,billa.json (live 2026)
+d546c23b114a,Billa,6.39,7.99,live 2026,,billa.json (live 2026)
+397ae7a1f2dd,Billa,2.99,19.17,live 2026,,billa.json (live 2026)
+4faf268258ca,Billa,2.99,18.01,live 2026,,billa.json (live 2026)
+a86ae904fedf,Billa,2.99,14.59,live 2026,,billa.json (live 2026)
+eb74fd773fce,Billa,2.99,14.59,live 2026,,billa.json (live 2026)
+b4a7585abe2b,Billa,1.19,1.19,live 2026,,billa.json (live 2026)
+5d359043547c,Billa,2.99,15.33,live 2026,,billa.json (live 2026)
+3bf5f5e06273,Billa,1.12,1.12,live 2026,,billa.json (live 2026)
+516621a72089,Billa,1.12,1.12,live 2026,,billa.json (live 2026)
+4e2838c835ce,Billa,1.12,1.12,live 2026,,billa.json (live 2026)
+10833123ddd7,Billa,1.12,1.12,live 2026,,billa.json (live 2026)
+ed7bc5bacdb1,Billa,2.99,5.98,live 2026,,billa.json (live 2026)
+c38e9506af09,Billa,5.99,7.49,live 2026,,billa.json (live 2026)
+e17cef853722,Billa,1.19,1.19,live 2026,,billa.json (live 2026)
+1c617ab147ea,Billa,5.99,15.76,live 2026,,billa.json (live 2026)
+77a46c050ceb,Billa,1.19,1.19,live 2026,,billa.json (live 2026)
+54db4a7689ab,Billa,2.99,17.38,live 2026,,billa.json (live 2026)
+bba62b98a8fd,Billa,2.99,16.52,live 2026,,billa.json (live 2026)
+54f4b03318a6,Billa,2.99,18.34,live 2026,,billa.json (live 2026)
+d75956c57643,Billa,2.99,17.9,live 2026,,billa.json (live 2026)
+e8ab01cb7c01,Billa,2.99,19.54,live 2026,,billa.json (live 2026)
+784a27e3ad09,Billa,2.99,16.8,live 2026,,billa.json (live 2026)
+aa48f1b2f500,Billa,5.49,13.73,live 2026,,billa.json (live 2026)
+e7a726e74551,Billa,1.12,1.12,live 2026,,billa.json (live 2026)
+7c9a86bbdefd,Billa,1.12,1.12,live 2026,,billa.json (live 2026)
+d9c3a9e95df4,Billa,2.19,33.18,live 2026,,billa.json (live 2026)
+883cb2560047,Billa,2.19,37.76,live 2026,,billa.json (live 2026)
+04474a9288d5,Billa,1.12,1.12,live 2026,,billa.json (live 2026)
+2468f950f417,Billa,1.12,1.12,live 2026,,billa.json (live 2026)
+4c835f3f287f,Billa,1.12,1.12,live 2026,,billa.json (live 2026)
+b0cdce4b8b1a,Billa,2.99,18.01,live 2026,,billa.json (live 2026)
+d49f687f6d8f,Billa,2.99,5.98,live 2026,,billa.json (live 2026)
+4da426424ea9,Billa,5.99,19.97,live 2026,,billa.json (live 2026)
+7c4ed3378a58,Billa,3.49,8.73,live 2026,,billa.json (live 2026)
+d28e8e385486,Billa,5.49,13.73,live 2026,,billa.json (live 2026)
+994c09edbb5c,Billa,4.29,5.36,live 2026,,billa.json (live 2026)
+a96e94f87bc6,Billa,3.49,8.73,live 2026,,billa.json (live 2026)
+a142a70275ee,Billa,2.19,31.74,live 2026,,billa.json (live 2026)
+6c635b7155b1,Billa,2.19,37.12,live 2026,,billa.json (live 2026)
+405f6d8b3761,Billa,2.19,37.12,live 2026,,billa.json (live 2026)
+f423cf25a0f0,Billa,1.29,22.63,live 2026,,billa.json (live 2026)
+6681e9dc63b2,Billa,1.29,47.78,live 2026,,billa.json (live 2026)
+8c882167bbce,Billa,1.29,25.29,live 2026,,billa.json (live 2026)
+54cd902a55d2,Billa,2.19,33.69,live 2026,,billa.json (live 2026)
+ea7bcc1bbafa,Billa,2.19,32.21,live 2026,,billa.json (live 2026)
+bd6a00693c38,Billa,2.19,34.76,live 2026,,billa.json (live 2026)
+6bd96b78b809,Billa,5.49,13.73,live 2026,,billa.json (live 2026)
+c9616c44fd49,Billa,1.19,1.19,live 2026,,billa.json (live 2026)
+2a4649b39153,Billa,1.19,1.19,live 2026,,billa.json (live 2026)
+a2ee5e39716c,Billa,1.19,1.19,live 2026,,billa.json (live 2026)
+91bd21c38fe8,Billa,1.12,1.12,live 2026,,billa.json (live 2026)
+4acda3c700aa,Billa,1.19,1.19,live 2026,,billa.json (live 2026)
+60087b11d06c,Billa,1.99,16.45,live 2026,,billa.json (live 2026)
+4b83eee9a649,Billa,1.99,16.45,live 2026,,billa.json (live 2026)
+09ec692e586b,Billa,1.99,15.79,live 2026,,billa.json (live 2026)
+771d6818873a,Billa,11.49,28.73,live 2026,,billa.json (live 2026)
+ee425a01c817,Billa,1.32,20.95,live 2026,,billa.json (live 2026)
+2e085fc7cf94,Billa,1.99,16.72,live 2026,,billa.json (live 2026)
+1a9e17154d14,Billa,1.12,1.12,live 2026,,billa.json (live 2026)
+20e15c4e7ab9,Billa,2.99,5.98,live 2026,,billa.json (live 2026)
+a58d369e6f58,Billa,2.99,2.14,live 2026,,billa.json (live 2026)
+978eb2fe0667,Billa,2.99,22.31,live 2026,,billa.json (live 2026)
+245b5b774e8e,Billa,2.99,17.8,live 2026,,billa.json (live 2026)
+4ff073f54de7,Billa,2.19,35.32,live 2026,,billa.json (live 2026)
+20721d6ebb29,Billa,2.19,33.69,live 2026,,billa.json (live 2026)
+4429910b86e2,Billa,3.99,44.33,live 2026,,billa.json (live 2026)
+c1c0d6ae6144,Billa,3.99,42.0,live 2026,,billa.json (live 2026)
+246b981a10aa,Billa,3.99,46.94,live 2026,,billa.json (live 2026)
+df1413ad97c2,Billa,0.59,0.59,live 2026,,billa.json (live 2026)
+2ecc8a757447,Billa,0.59,0.59,live 2026,,billa.json (live 2026)
+898241d6679b,Billa,0.49,0.49,live 2026,,billa.json (live 2026)
+19793394c0b8,Billa,0.59,0.59,live 2026,,billa.json (live 2026)
+3048319f4f95,Billa,0.59,0.59,live 2026,,billa.json (live 2026)
+231ff118220e,Billa,0.59,0.59,live 2026,,billa.json (live 2026)
+7b78d44aa93c,Billa,3.49,8.73,live 2026,,billa.json (live 2026)
+3b667657875d,Billa,3.49,8.73,live 2026,,billa.json (live 2026)
+b25dd19dc2fe,Billa,6.49,8.11,live 2026,,billa.json (live 2026)
+310989d2980d,Billa,2.39,5.98,live 2026,,billa.json (live 2026)
+b30f31e552b7,Billa,2.39,5.98,live 2026,,billa.json (live 2026)
+49367276ded6,Billa,1.75,4.38,live 2026,,billa.json (live 2026)
+1a2a6ea0249c,Billa,1.19,1.19,live 2026,,billa.json (live 2026)
+44399c784155,Billa,2.49,3.11,live 2026,,billa.json (live 2026)
+6b1b6ff0df8d,Billa,1.12,1.12,live 2026,,billa.json (live 2026)
+f4c4c8d76134,Billa,1.12,1.12,live 2026,,billa.json (live 2026)
+f67de830d83a,Billa,1.12,1.12,live 2026,,billa.json (live 2026)
+41d4f4df574f,Billa,3.49,8.73,live 2026,,billa.json (live 2026)
+a87c131e1e79,Billa,1.12,1.12,live 2026,,billa.json (live 2026)
+c85bd2ec9e97,Billa,1.12,1.12,live 2026,,billa.json (live 2026)
+2958df531830,Billa,2.99,7.48,live 2026,,billa.json (live 2026)
+3d5170f501b6,Billa,2.99,5.98,live 2026,,billa.json (live 2026)
+ceec03681596,Billa,1.29,20.81,live 2026,,billa.json (live 2026)
+a46ac6b771a7,Billa,1.29,20.81,live 2026,,billa.json (live 2026)
+0b2828e892cb,Billa,1.29,20.81,live 2026,,billa.json (live 2026)
+92cfd9807e4b,Billa,2.99,16.8,live 2026,,billa.json (live 2026)
+08bb47cce3fb,Billa,5.49,10.98,live 2026,,billa.json (live 2026)
+8bf4158c25d0,Billa,5.49,10.98,live 2026,,billa.json (live 2026)
+6679af2bcd9c,Billa,5.49,10.98,live 2026,,billa.json (live 2026)
+299981756c09,Billa,3.49,8.73,live 2026,,billa.json (live 2026)
+9e78bb89f732,Billa,2.99,16.16,live 2026,,billa.json (live 2026)
+bd99e5e34e3f,Billa,5.49,10.98,live 2026,,billa.json (live 2026)
+f5cdf8fff6a5,Billa,0.99,11.65,live 2026,,billa.json (live 2026)
+8ec82ec40064,Billa,0.99,11.65,live 2026,,billa.json (live 2026)
+4710449db103,Billa,0.99,11.65,live 2026,,billa.json (live 2026)
+65e86d9b5171,Billa,2.99,5.98,live 2026,,billa.json (live 2026)
+f5fa1a1bc853,Billa,4.99,14.68,live 2026,,billa.json (live 2026)
+3480c224047f,Billa,3.99,11.74,live 2026,,billa.json (live 2026)
+f15bf27e69ff,Billa,3.99,11.74,live 2026,,billa.json (live 2026)
+503bc57fdf9e,Billa,3.99,11.74,live 2026,,billa.json (live 2026)
+f6554ae7e7aa,Billa,1.29,23.89,live 2026,,billa.json (live 2026)
+59062ec9a725,Billa,5.99,15.36,live 2026,,billa.json (live 2026)
+d651b9ec1928,Billa,3.49,21.81,live 2026,,billa.json (live 2026)
+f40c9581e045,Billa,3.49,21.81,live 2026,,billa.json (live 2026)
+5fdd298cace1,Billa,3.99,15.35,live 2026,,billa.json (live 2026)
+fead0a8cccf5,Billa,6.49,8.11,live 2026,,billa.json (live 2026)
+2b71274857ea,Billa,1.12,1.12,live 2026,,billa.json (live 2026)
+5fa7476645e8,Billa,5.99,7.49,live 2026,,billa.json (live 2026)
+e8821ac82177,Billa,5.99,7.49,live 2026,,billa.json (live 2026)
+f65045ae3765,Billa,1.29,20.81,live 2026,,billa.json (live 2026)
+b9448574a346,Billa,2.19,36.5,live 2026,,billa.json (live 2026)
+a722403720b0,Billa,11.49,28.73,live 2026,,billa.json (live 2026)
+32fd55b39cea,Billa,10.49,26.23,live 2026,,billa.json (live 2026)
+db1d833580db,Billa,5.99,16.64,live 2026,,billa.json (live 2026)
+783c57d69d80,Billa,1.12,1.12,live 2026,,billa.json (live 2026)
+3d735e196de6,Billa,2.99,18.46,live 2026,,billa.json (live 2026)
+cd9f8e769a1b,Billa,3.49,8.73,live 2026,,billa.json (live 2026)
+4c308584b302,Billa,2.79,9.3,live 2026,,billa.json (live 2026)
+5fb8ac82ca4c,Billa,3.29,10.97,live 2026,,billa.json (live 2026)
+505421f1dc6e,Billa,3.29,11.75,live 2026,,billa.json (live 2026)
+6880fce1d0d2,Billa,3.29,11.75,live 2026,,billa.json (live 2026)
+c8d4b1fb983f,Billa,6.99,17.48,live 2026,,billa.json (live 2026)
+3d947385f03c,Billa,6.99,17.48,live 2026,,billa.json (live 2026)
+da6da961fae3,Billa,8.49,18.87,live 2026,,billa.json (live 2026)
+ea2cab604806,Billa,3.29,10.97,live 2026,,billa.json (live 2026)
+93bf9438b795,Billa,3.79,15.16,live 2026,,billa.json (live 2026)
+68ea754d778c,Billa,3.99,9.98,live 2026,,billa.json (live 2026)
+1aeb805a9097,Billa,3.29,8.23,live 2026,,billa.json (live 2026)
+ee014ba0ba2d,Billa,3.29,11.75,live 2026,,billa.json (live 2026)
+8e292a33d80b,Billa,3.99,18.14,live 2026,,billa.json (live 2026)
+7f1472dddc32,Billa,3.99,18.14,live 2026,,billa.json (live 2026)
+39e14523d9eb,Billa,3.79,15.16,live 2026,,billa.json (live 2026)
+ae06d1ccdf15,Billa,3.79,15.16,live 2026,,billa.json (live 2026)
+5583f5e64990,Billa,3.79,15.16,live 2026,,billa.json (live 2026)
+0a3d6a4b7b0a,Billa,3.79,15.16,live 2026,,billa.json (live 2026)
+e26dfd0f41a7,Billa,3.79,15.16,live 2026,,billa.json (live 2026)
+0ae819f6433b,Billa,3.79,15.16,live 2026,,billa.json (live 2026)
+5f3c388870e4,Billa,3.59,14.36,live 2026,,billa.json (live 2026)
+7d4c0b0458c2,Billa,3.59,14.36,live 2026,,billa.json (live 2026)
+796199b31f1d,Billa,3.79,15.16,live 2026,,billa.json (live 2026)
+e90060f610cf,Billa,3.59,14.36,live 2026,,billa.json (live 2026)
+d159d7c0d387,Billa,3.29,6.58,live 2026,,billa.json (live 2026)
+ed32f11e2876,Billa,3.19,6.38,live 2026,,billa.json (live 2026)
+daa9a445f87d,Billa,3.59,7.98,live 2026,,billa.json (live 2026)
+40281f63013f,Billa,3.49,10.58,live 2026,,billa.json (live 2026)
+e6ad3a342716,Billa,3.69,14.76,live 2026,,billa.json (live 2026)
+51292642a5ab,Billa,3.99,7.98,live 2026,,billa.json (live 2026)
+8bcf2f885277,Billa,3.99,7.98,live 2026,,billa.json (live 2026)
+598b278b993e,Billa,3.99,7.98,live 2026,,billa.json (live 2026)
+bcf96192804e,Billa,3.19,6.38,live 2026,,billa.json (live 2026)
+bb2e717fd304,Billa,3.69,14.76,live 2026,,billa.json (live 2026)
+393a3083e8fc,Billa,4.49,17.96,live 2026,,billa.json (live 2026)
+e8015ae9be2c,Billa,4.49,17.96,live 2026,,billa.json (live 2026)
+3057de55cf0d,Billa,4.49,17.96,live 2026,,billa.json (live 2026)
+56808a10cc76,Billa,4.49,17.96,live 2026,,billa.json (live 2026)
+90621e063556,Billa,4.49,4.49,live 2026,,billa.json (live 2026)
+c548790ec05f,Billa,3.49,10.58,live 2026,,billa.json (live 2026)
+b079a3311b9e,Billa,6.99,18.89,live 2026,,billa.json (live 2026)
+5784c02ec27e,Billa,3.69,18.45,live 2026,,billa.json (live 2026)
+7c601147d378,Billa,3.59,10.26,live 2026,,billa.json (live 2026)
+5659b899de66,Billa,3.59,10.26,live 2026,,billa.json (live 2026)
+f1b5b9da5d69,Billa,3.99,9.98,live 2026,,billa.json (live 2026)
+9d7a1889a379,Billa,2.49,12.45,live 2026,,billa.json (live 2026)
+848ca1597fee,Spar,4.79,7.98,live 2026,,spar.json (live 2026)
+4344342ea0f0,Spar,2.99,7.48,Preis 2025,,lidl.at (kein Online-Preis)
+a7c4c50504fa,Spar,4.79,6.84,live 2026,,spar.json (live 2026)
+54bb13c22f4f,Spar,2.99,7.48,live 2026,,spar.json (live 2026)
+c590e55cc8e7,Spar,3.69,8.2,live 2026,,spar.json (live 2026)
+6211ee54e43c,Spar,4.99,12.48,live 2026,,spar.json (live 2026)
+a04b3b3051a6,Spar,4.99,15.12,live 2026,,spar.json (live 2026)
+68e9a617d59d,Spar,3.29,8.77,live 2026,,spar.json (live 2026)
+c49ef7e7e911,Spar,4.99,12.48,live 2026,,spar.json (live 2026)
+ad6d6d19f9ac,Spar,3.99,9.98,live 2026,,spar.json (live 2026)
+4deec21527e3,Spar,3.99,9.98,live 2026,,spar.json (live 2026)
+b08be387c52d,Spar,3.19,10.63,live 2026,,spar.json (live 2026)
+9e88a22677ac,Spar,2.46,8.2,live 2026,,spar.json (live 2026)
+381f8d85b9a4,Spar,5.49,18.3,live 2026,,spar.json (live 2026)
+9e13de13e110,Spar,5.49,18.3,live 2026,,spar.json (live 2026)
+bc80a8bdb0d4,Spar,4.49,11.23,live 2026,,spar.json (live 2026)
+d500368e7d26,Spar,2.99,9.97,live 2026,,spar.json (live 2026)
+5b01f17972b9,Spar,3.99,9.98,live 2026,,spar.json (live 2026)
+6a52309f265e,Spar,3.69,11.18,live 2026,,spar.json (live 2026)
+6b795def70e1,Spar,2.79,10.33,live 2026,,spar.json (live 2026)
+104beed6cf36,Spar,6.99,15.53,live 2026,,spar.json (live 2026)
+ab3405989c32,Spar,4.29,17.16,live 2026,,spar.json (live 2026)
+f17b1b169e82,Spar,3.99,9.98,live 2026,,"lidl.at Such-API (live, Aktionsware)"
+2f9166e92d2a,Spar,3.69,8.2,live 2026,,spar.json (live 2026)
+e03ad5381b48,Spar,3.49,13.96,live 2026,,spar.json (live 2026)
+d4d94ac7a352,Spar,3.79,7.9,live 2026,,spar.json (live 2026)
+c7fd0056b639,Spar,1.99,5.31,live 2026,,spar.json (live 2026)
+fbc90c17acc0,Spar,3.69,9.23,live 2026,,spar.json (live 2026)
+48bac58a4e9a,Spar,3.99,15.96,live 2026,,spar.json (live 2026)
+325a7fc7fc1e,Spar,4.99,16.63,live 2026,,spar.json (live 2026)
+497ba42a1770,Spar,4.99,14.26,live 2026,,spar.json (live 2026)
+8b6a3067abb1,Spar,7.49,10.7,live 2026,,spar.json (live 2026)
+aca5e5684706,Spar,3.99,3.99,Preis 2025,,lidl.at (kein Online-Preis)
+3e8eb9102ac7,Spar,2.99,7.48,live 2026,,spar.json (live 2026)
+f928878ca02e,Spar,1.59,3.98,Preis 2025,2025-07-03,nur Altpreis: heisse-preise.io Stand 2025-07-03 = 1.35 € (kein 2026-Preis gefunden)
+d4aad474319f,Spar,3.29,8.89,live 2026,,spar.json (live 2026)
+9e52a13f7e59,Spar,2.99,11.96,live 2026,,spar.json (live 2026)
+d01c36f82c33,Spar,2.99,12.46,live 2026,,spar.json (live 2026)
+97bb9cdd99e3,Spar,2.29,11.45,live 2026,,spar.json (live 2026)
+8b4912b8204c,Spar,2.99,11.96,live 2026,,spar.json (live 2026)
+879a1429b1e9,Spar,3.59,14.36,live 2026,,spar.json (live 2026)
+0303d66bcb09,Spar,2.69,8.97,live 2026,,spar.json (live 2026)
+a72a3ca2290c,Spar,3.59,14.36,live 2026,,spar.json (live 2026)
+885b78e9d11c,Spar,4.99,13.31,live 2026,,spar.json (live 2026)
+cc069d329d75,Spar,2.99,4.98,live 2026,,spar.json (live 2026)
+2ffa4b2d78be,Spar,1.39,,live 2026,,spar.json (live 2026)
+ba1bab2bd080,Spar,3.49,13.96,live 2026,,spar.json (live 2026)
+b051be1e1f9d,Spar,2.99,6.64,live 2026,2025-07-03,nur Altpreis: heisse-preise.io Stand 2025-07-03 = 1.99 € (kein 2026-Preis gefunden)
+7a0f99bf0d2b,Spar,0.99,,live 2026,,spar.json (live 2026)
+a8a7e9b370c3,Spar,1.49,3.73,live 2026,,spar.json (live 2026)
+7d93c182b645,Spar,0.99,,live 2026,,spar.json (live 2026)
+c797cf5a81bc,Spar,0.99,,live 2026,,spar.json (live 2026)
+223dff237112,Spar,2.69,7.37,live 2026,,spar.json (live 2026)
+c37e232c0c91,Spar,0.99,,live 2026,,spar.json (live 2026)
+c6db7926de68,Spar,2.69,7.27,live 2026,,spar.json (live 2026)
+ae11ec125d84,Spar,0.99,,live 2026,,spar.json (live 2026)
+3cf08c53382d,Spar,1.49,3.73,Preis 2025,2025-07-03,nur Altpreis: heisse-preise.io Stand 2025-07-03 = 1.35 € (kein 2026-Preis gefunden)
+c163c4b198b1,Spar,2.69,7.37,live 2026,,spar.json (live 2026)
+f9f4c3ebc333,Spar,0.99,,live 2026,,spar.json (live 2026)
+a690724aa139,Spar,0.99,,live 2026,,spar.json (live 2026)
+e6d645fc971a,Spar,0.79,,live 2026,,spar.json (live 2026)
+d809a8a169e4,Spar,0.79,,live 2026,,spar.json (live 2026)
+7fbfe795e1d9,Spar,0.79,,live 2026,,spar.json (live 2026)
+0293676ce0ea,Spar,0.79,,live 2026,,spar.json (live 2026)
+a860418239fe,Spar,0.79,,live 2026,,spar.json (live 2026)
+33c5175332fb,Spar,0.79,,live 2026,,spar.json (live 2026)
+3d73c894974e,Spar,0.79,,live 2026,,spar.json (live 2026)
+eaa5c4ba1b09,Spar,0.79,,live 2026,,spar.json (live 2026)
+54f975c5ff4c,Spar,0.69,7.67,live 2026,,spar.json (live 2026)
+53fb1d5193eb,Spar,3.49,13.96,live 2026,,spar.json (live 2026)
+26023a657424,Spar,2.99,3.74,live 2026,,spar.json (live 2026)
+463e32bbd24a,Spar,2.19,8.76,live 2026,,spar.json (live 2026)
+541390d7c1cc,Spar,3.89,7.78,live 2026,2026-10-12,"wokostswas.at Kategorie Fertigprodukte (k54/k30), Hofer-Regalpreis, abgerufen 2026-10-12"
+aa5cda4c12be,Spar,3.49,13.96,live 2026,,spar.json (live 2026)
+841284574b4e,Spar,0.99,13.75,live 2026,,spar.json (live 2026)
+c15ddb2bf7c7,Spar,3.69,8.2,live 2026,,spar.json (live 2026)
+a3218082c955,Spar,2.49,6.38,live 2026,,spar.json (live 2026)
+c2830d791b50,Spar,0.99,15.0,live 2026,,spar.json (live 2026)
+b2ce84d11578,Spar,3.49,13.96,live 2026,,spar.json (live 2026)
+6334217c5d80,Spar,3.49,13.96,live 2026,,spar.json (live 2026)
+61032a60cfb9,Spar,3.49,9.97,live 2026,,spar_live.json (live 2026)
+5b47c20cc288,Hofer,3.09,8.35,Preis unbestätigt,,frozen_quick.json (Preis unbestätigt)
+8f63f5c8b3e0,Hofer,1.45,5.8,Preis 2025,2025-03-26,"heisse-preise.io, Stand 2025-03-26 (Hofer-Feed derzeit inaktiv)"
+f3b973430501,Hofer,2.45,9.8,Preis 2025,2025-03-26,"heisse-preise.io, Stand 2025-03-26 (Hofer-Feed derzeit inaktiv)"
+00106783e09b,Hofer,1.65,6.6,Preis 2025,2025-01-15,"heisse-preise.io, Stand 2025-01-15 (Hofer-Feed derzeit inaktiv)"
+d547625b52b7,Hofer,1.59,4.54,Preis 2025,2025-05-23,"heisse-preise.io, Stand 2025-05-23 (Hofer-Feed derzeit inaktiv)"
+bef517dba125,Hofer,1.65,8.25,Preis 2025,2025-01-15,"heisse-preise.io, Stand 2025-01-15 (Hofer-Feed derzeit inaktiv)"
+51e2b184e9dc,Hofer,2.45,9.8,Preis 2025,2025-03-26,"heisse-preise.io, Stand 2025-03-26 (Hofer-Feed derzeit inaktiv)"
+66946171bd9b,Hofer,2.45,9.8,Preis 2025,2025-03-26,"heisse-preise.io, Stand 2025-03-26 (Hofer-Feed derzeit inaktiv)"
+07ee7952f09c,Hofer,1.99,5.69,Preis 2025,2025-06-20,"heisse-preise.io, Stand 2025-06-20 (Hofer-Feed derzeit inaktiv)"
+75547419d0e9,Hofer,1.99,5.69,Preis 2025,2025-06-20,"heisse-preise.io, Stand 2025-06-20 (Hofer-Feed derzeit inaktiv)"
+a7556231cc7a,Hofer,2.99,7.48,Preis 2025,2025-09-11,"heisse-preise.io, Stand 2025-09-11 (Hofer-Feed derzeit inaktiv)"
+8ebff85c3122,Hofer,2.99,7.48,Preis 2025,2025-09-11,"heisse-preise.io, Stand 2025-09-11 (Hofer-Feed derzeit inaktiv)"
+40f9b58963e0,Hofer,1.99,5.69,Preis 2025,2025-09-03,"heisse-preise.io, Stand 2025-09-03 (Hofer-Feed derzeit inaktiv)"
+c269a10e2993,Hofer,19.98,19.98,Preis 2025,2025-10-20,"heisse-preise.io, Stand 2025-10-20 (Hofer-Feed derzeit inaktiv)"
+95b53dace239,Hofer,3.49,11.63,Preis 2025,2025-03-19,"heisse-preise.io, Stand 2025-03-19 (Hofer-Feed derzeit inaktiv)"
+6e1723327b91,Hofer,3.49,10.58,Preis 2025,2025-03-19,"heisse-preise.io, Stand 2025-03-19 (Hofer-Feed derzeit inaktiv)"
+6b94ce8ab7e4,Hofer,3.19,7.97,Preis 2025,2025-11-07,"heisse-preise.io, Stand 2025-11-07 (Hofer-Feed derzeit inaktiv)"
+3865ecc538b3,Hofer,3.19,7.97,Preis 2025,2025-11-07,"heisse-preise.io, Stand 2025-11-07 (Hofer-Feed derzeit inaktiv)"
+41184957b257,Hofer,2.75,7.24,Preis 2025,2025-10-29,"heisse-preise.io, Stand 2025-10-29 (Hofer-Feed derzeit inaktiv)"
+997593ea99a2,Hofer,2.99,7.48,Preis 2025,2025-07-23,"heisse-preise.io, Stand 2025-07-23 (Hofer-Feed derzeit inaktiv)"
+70c915ca1bf3,Hofer,2.75,7.24,Preis 2025,2025-10-29,"heisse-preise.io, Stand 2025-10-29 (Hofer-Feed derzeit inaktiv)"
+30d97a087834,Hofer,2.99,7.48,Preis 2025,2025-02-26,"heisse-preise.io, Stand 2025-02-26 (Hofer-Feed derzeit inaktiv)"
+b3e3f4d1dd4e,Hofer,2.99,8.54,Preis 2025,2025-02-26,"heisse-preise.io, Stand 2025-02-26 (Hofer-Feed derzeit inaktiv)"
+5cf00b89f9d6,Hofer,3.99,4.99,Preis 2025,2025-11-07,"heisse-preise.io, Stand 2025-11-07 (Hofer-Feed derzeit inaktiv)"
+b4a97dc2a116,Hofer,1.13,4.52,Preis 2025,2025-10-31,"heisse-preise.io, Stand 2025-10-31 (Hofer-Feed derzeit inaktiv)"
+164590894145,Hofer,1.13,4.52,Preis 2025,2025-10-31,"heisse-preise.io, Stand 2025-10-31 (Hofer-Feed derzeit inaktiv)"
+f440d92801d6,Hofer,1.99,4.98,Preis 2025,2025-08-15,"heisse-preise.io, Stand 2025-08-15 (Hofer-Feed derzeit inaktiv)"
+37427099ed35,Hofer,4.49,6.41,Preis 2025,2025-09-19,"heisse-preise.io, Stand 2025-09-19 (Hofer-Feed derzeit inaktiv)"
+de3ca2f643ae,Hofer,1.35,3.38,Preis 2025,2025-05-10,"heisse-preise.io, Stand 2025-05-10 (Hofer-Feed derzeit inaktiv)"
+9ba7e127885a,Hofer,1.35,3.38,Preis 2025,2025-05-10,"heisse-preise.io, Stand 2025-05-10 (Hofer-Feed derzeit inaktiv)"
+b6ce0dc2f0ad,Hofer,1.99,4.98,Preis 2025,2025-07-23,"heisse-preise.io, Stand 2025-07-23 (Hofer-Feed derzeit inaktiv)"
+3137daaf7661,Hofer,1.35,3.38,Preis 2025,2025-05-10,"heisse-preise.io, Stand 2025-05-10 (Hofer-Feed derzeit inaktiv)"
+9386f10572e0,Hofer,4.49,6.41,Preis 2025,2025-09-19,"heisse-preise.io, Stand 2025-09-19 (Hofer-Feed derzeit inaktiv)"
+d2f6641a005a,Hofer,2.39,6.83,Preis 2025,2025-10-15,"heisse-preise.io, Stand 2025-10-15 (Hofer-Feed derzeit inaktiv)"
+c23ff0f245e6,Hofer,3.49,9.97,Preis 2025,2025-07-03,"heisse-preise.io, Stand 2025-07-03 (Hofer-Feed derzeit inaktiv)"
+594b376ca923,Hofer,2.49,8.89,live 2026,,hofer.at Suche (live)
+0ca6949289b4,Hofer,7.49,,live 2026,,hofer.at Suche (live)
+e0767bfa4193,Hofer,9.49,18.98,live 2026,,hofer.at Suche (live)
+d68d78871b91,Hofer,2.49,,live 2026,,hofer.at Suche (live)
+402e8669fe59,Hofer,2.49,,live 2026,,hofer.at Suche (live)
+16b3b3608271,Lidl,1.99,4.42,live 2026,,"lidl.at Such-API (live, Aktionsware)"
+77357c0e8eb0,Lidl,3.79,3.79,live 2026,,"lidl.at Such-API (live, Aktionsware)"
+b6ccc7f3bc3c,Lidl,5.49,11.87,live 2026,,"lidl.at Such-API (live, Aktionsware)"
+1387f554f1bd,Lidl,1.49,4.26,live 2026,,"lidl.at Such-API (live, Aktionsware)"
+08311db11c58,Hofer,3.06,7.65,live 2026,2026-10-12,"wokostswas.at Kategorie Fertigprodukte (k54/k30), Hofer-Regalpreis, abgerufen 2026-10-12"
+8e6cd67ab695,Hofer,3.06,7.12,live 2026,2026-10-12,"wokostswas.at Kategorie Fertigprodukte (k54/k30), Hofer-Regalpreis, abgerufen 2026-10-12"
+7a66fd53020a,Hofer,3.39,8.47,live 2026,2026-10-12,"wokostswas.at Kategorie Fertigprodukte (k54/k30), Hofer-Regalpreis, abgerufen 2026-10-12"
+9aca1fe94fd6,Hofer,3.06,8.05,live 2026,2026-10-12,"wokostswas.at Kategorie Fertigprodukte (k54/k30), Hofer-Regalpreis, abgerufen 2026-10-12"
+447e45753788,Hofer,3.06,8.05,live 2026,2026-10-12,"wokostswas.at Kategorie Fertigprodukte (k54/k30), Hofer-Regalpreis, abgerufen 2026-10-12"
+310f8e479b66,Hofer,2.29,5.72,live 2026,2026-10-12,"wokostswas.at Kategorie Fertigprodukte (k54/k30), Hofer-Regalpreis, abgerufen 2026-10-12"
+d0707566da8d,Hofer,2.29,5.72,live 2026,2026-10-12,"wokostswas.at Kategorie Fertigprodukte (k54/k30), Hofer-Regalpreis, abgerufen 2026-10-12"
+9f8efcd98d0f,Hofer,2.29,5.72,live 2026,2026-10-12,"wokostswas.at Kategorie Fertigprodukte (k54/k30), Hofer-Regalpreis, abgerufen 2026-10-12"
+5d02e3de5894,Hofer,2.69,8.97,live 2026,2026-10-12,"wokostswas.at Kategorie Fertigprodukte (k54/k30), Hofer-Regalpreis, abgerufen 2026-10-12"
+eac0c079da5b,Hofer,2.69,8.97,live 2026,2026-10-12,"wokostswas.at Kategorie Fertigprodukte (k54/k30), Hofer-Regalpreis, abgerufen 2026-10-12"
+c4c013f12e4c,Hofer,2.29,5.72,live 2026,2026-10-12,"wokostswas.at Kategorie Fertigprodukte (k54/k30), Hofer-Regalpreis, abgerufen 2026-10-12"
+5d2dc3467870,Hofer,2.29,5.72,live 2026,2026-10-12,"wokostswas.at Kategorie Fertigprodukte (k54/k30), Hofer-Regalpreis, abgerufen 2026-10-12"
+d660214227ac,Hofer,3.39,7.88,live 2026,2026-10-12,"wokostswas.at Kategorie Fertigprodukte (k54/k30), Hofer-Regalpreis, abgerufen 2026-10-12"
+6d000b24878d,Hofer,3.39,7.88,live 2026,2026-10-12,"wokostswas.at Kategorie Fertigprodukte (k54/k30), Hofer-Regalpreis, abgerufen 2026-10-12"
+6f454f82f5ba,Hofer,4.49,5.99,live 2026,2026-10-12,"wokostswas.at k30, Hofer-Preis, abgerufen 2026-10-12"
+56caac5a3678,Hofer,4.49,6.41,live 2026,2026-10-12,"wokostswas.at k30, Hofer-Preis, abgerufen 2026-10-12"
+67ef784a705b,Hofer,4.49,6.41,live 2026,2026-10-12,"wokostswas.at k30, Hofer-Preis, abgerufen 2026-10-12"
+1056fbd7e1b4,Hofer,4.49,6.41,live 2026,2026-10-12,"wokostswas.at k30, Hofer-Preis, abgerufen 2026-10-12"
+6c117780ad59,Hofer,2.49,9.96,live 2026,2026-10-12,"wokostswas.at k30, Hofer-Preis, abgerufen 2026-10-12"
+9a3dfa77550d,Hofer,2.49,9.96,live 2026,2026-10-12,"wokostswas.at k30, Hofer-Preis, abgerufen 2026-10-12"
+32251be1ffa7,Hofer,2.49,9.96,live 2026,2026-10-12,"wokostswas.at k30, Hofer-Preis, abgerufen 2026-10-12"
+ec316cab6d20,Hofer,7.49,4.99,live 2026,2026-10-12,"hofer.at Produktsuche live 2026-10-12 (Aktion; Grundpreis 4,99 €/kg → 7,49 € berechnet)"
+43ee25e1aad0,Hofer,2.39,2.39,live 2026,,"Hofer-Flugblatt KW41/2026 S.14 via billiga.at, Aktion gültig bis 10.10.2026 (regulär 3,99 €)"
+fbb1017592a4,dm,2.95,8.43,live 2026,2026-10-12,dm.at live 2026-10-12
+84f62b60ddae,dm,2.45,7.0,live 2026,2026-10-12,dm.at live 2026-10-12
+a44b34ab3aba,dm,2.35,5.88,live 2026,2026-10-12,dm.at live 2026-10-12
+148d955bee5a,dm,3.55,10.14,live 2026,2026-10-12,dm.at live 2026-10-12
+4de899c7e257,dm,2.95,7.87,live 2026,2026-10-12,dm.at live 2026-10-12
+06c205192b6f,dm,3.55,10.14,live 2026,2026-10-12,dm.at live 2026-10-12
+14995f0b5901,dm,3.45,10.78,live 2026,2026-10-12,dm.at live 2026-10-12
+3b99bc8cc7c4,dm,2.5,10.0,live 2026,2026-10-12,dm.at live 2026-10-12
+194d07e5130e,dm,2.35,5.88,live 2026,2026-10-12,dm.at live 2026-10-12
+00f88ca6fa5d,dm,2.35,5.88,live 2026,2026-10-12,dm.at live 2026-10-12
+5694584eaaab,dm,2.35,5.88,live 2026,2026-10-12,dm.at live 2026-10-12
+467394d1238e,dm,2.75,10.19,live 2026,2026-10-12,dm.at live 2026-10-12
+4cb2283a8fd3,Billa,4.69,14.21,live 2026,,frozen_quick.json (live 2026)
+5979cad9d755,Billa,3.59,9.97,live 2026,,frozen_quick.json (live 2026)
+bb256fb097d4,Billa,3.59,9.97,live 2026,,frozen_quick.json (live 2026)
+11f673186a0d,Billa,3.59,9.97,live 2026,,frozen_quick.json (live 2026)
+0b7de110623e,Billa,7.99,7.99,live 2026,,frozen_quick.json (live 2026)
+5a7bd5d08062,Billa,7.49,18.73,live 2026,,frozen_quick.json (live 2026)
+5eaf5fb77b69,Billa,1.49,7.45,live 2026,,frozen_quick.json (live 2026)
+0b1494f7b75f,Billa,3.99,15.96,live 2026,,frozen_quick.json (live 2026)
+bd3757cb3c61,Billa,7.19,35.95,live 2026,,frozen_quick.json (live 2026)
+ccc828104437,Billa,9.99,49.95,live 2026,,frozen_quick.json (live 2026)
+a41790da1ac5,Billa,2.99,7.48,live 2026,,frozen_quick.json (live 2026)
+cfba6646464d,Billa,8.79,17.58,live 2026,,frozen_quick.json (live 2026)
+9b8d571f512f,Billa,5.49,15.25,live 2026,,frozen_quick.json (live 2026)
+a0b8ba3539e5,Billa,7.49,29.96,live 2026,,frozen_quick.json (live 2026)
+1fbbca4627aa,Billa,7.49,29.96,live 2026,,frozen_quick.json (live 2026)
+9c532c42d510,Billa,3.15,10.5,live 2026,,frozen_quick.json (live 2026)
+4f9ff400df10,Billa,7.99,15.98,live 2026,,frozen_quick.json (live 2026)
+d70ccd0d49f7,Billa,2.99,7.48,live 2026,,frozen_quick.json (live 2026)
+9c5303c10932,Billa,2.99,7.48,live 2026,,frozen_quick.json (live 2026)
+7fe7df986d28,Billa,2.49,9.96,live 2026,,frozen_quick.json (live 2026)
+ec5a7f998b9e,Billa,2.29,8.81,live 2026,,frozen_quick.json (live 2026)
+7e46c4372843,Billa,2.99,7.48,live 2026,,frozen_quick.json (live 2026)
+af2cce26c1ad,Billa,6.59,8.24,live 2026,,frozen_quick.json (live 2026)
+64a2ae6116f2,Billa,6.59,6.94,live 2026,,frozen_quick.json (live 2026)
+e10f13c2e85b,Billa,5.29,10.58,live 2026,,frozen_quick.json (live 2026)
+3291d758bbcf,Billa,3.29,8.22,live 2026,,frozen_quick.json (live 2026)
+541bf4aa986e,Billa,3.29,8.22,live 2026,,frozen_quick.json (live 2026)
+a062f2e0ee37,Billa,3.99,3.99,live 2026,,frozen_quick.json (live 2026)
+3a4d47c7fe69,Billa,5.74,11.48,live 2026,,frozen_quick.json (live 2026)
+75100f1fde3d,Billa,9.99,19.98,live 2026,,frozen_quick.json (live 2026)
+1b75154dd3cd,Billa,6.59,21.97,live 2026,,frozen_quick.json (live 2026)
+9d5543d9a0e3,Billa,3.99,5.7,live 2026,,frozen_quick.json (live 2026)
+10df19f94c63,Billa,3.29,8.22,live 2026,,frozen_quick.json (live 2026)
+f562d11f8f1b,Billa,3.29,8.22,live 2026,,frozen_quick.json (live 2026)
+c3dfa8ae7718,Billa,3.99,3.99,live 2026,,frozen_quick.json (live 2026)
+495de183396e,Billa,4.49,17.96,live 2026,,frozen_quick.json (live 2026)
+1e9cf7a3ebfb,Billa,3.99,3.99,live 2026,,frozen_quick.json (live 2026)
+76f95d538b90,Billa,3.99,39.9,live 2026,,frozen_quick.json (live 2026)
+221edaddd726,Billa,4.29,13.0,live 2026,,frozen_quick.json (live 2026)
+05199f3cb798,Billa,4.79,12.77,live 2026,,frozen_quick.json (live 2026)
+6fc3f8caf6b1,Billa,7.59,16.87,live 2026,,frozen_quick.json (live 2026)
+92efa2359f8f,Billa,5.99,14.97,live 2026,,frozen_quick.json (live 2026)
+f1e6dc8e7f99,Billa,5.99,14.97,live 2026,,frozen_quick.json (live 2026)
+d3886c4f4faf,Billa,9.59,38.36,live 2026,,frozen_quick.json (live 2026)
+171628e5a174,Billa,9.59,47.95,live 2026,,frozen_quick.json (live 2026)
+531ace994a7b,Billa,7.59,16.87,live 2026,,frozen_quick.json (live 2026)
+483764af6d57,Billa,6.99,18.39,live 2026,,frozen_quick.json (live 2026)
+5be700f5491d,Billa,6.99,18.39,live 2026,,frozen_quick.json (live 2026)
+f78e8efd6ff1,Billa,5.99,14.97,live 2026,,frozen_quick.json (live 2026)
+90627ebf7b9d,Billa,5.99,14.97,live 2026,,frozen_quick.json (live 2026)
+0c0a0382b0ab,Billa,5.99,14.97,live 2026,,frozen_quick.json (live 2026)
+2eadef67cc49,Billa,7.19,20.54,live 2026,,frozen_quick.json (live 2026)
+bba5c8fdf36a,Billa,1.49,14.9,live 2026,,frozen_quick.json (live 2026)
+008e515aed15,Billa,3.99,9.98,live 2026,,frozen_quick.json (live 2026)
+ee8c8f99736d,Billa,3.99,9.98,live 2026,,frozen_quick.json (live 2026)
+7219673107f2,Billa,2.99,14.95,live 2026,,frozen_quick.json (live 2026)
+541b0e33f520,Billa,2.99,14.95,live 2026,,frozen_quick.json (live 2026)
+a69ca3162d92,Billa,6.99,19.42,live 2026,,frozen_quick.json (live 2026)
+abc696b7344c,Billa,3.29,32.9,live 2026,,frozen_quick.json (live 2026)
+9ebd32c05e84,Billa,3.29,26.32,live 2026,,frozen_quick.json (live 2026)
+32c9d205dc83,Billa,3.99,19.95,live 2026,,frozen_quick.json (live 2026)
+c77f045e5c11,Billa,4.99,24.95,live 2026,,frozen_quick.json (live 2026)
+06db487d0e29,Billa,4.19,41.9,live 2026,,frozen_quick.json (live 2026)
+19107236bd06,Billa,3.29,26.32,live 2026,,frozen_quick.json (live 2026)
+7469b8c5899a,Billa,3.59,17.95,live 2026,,frozen_quick.json (live 2026)
+408f70ef2874,Billa,3.49,21.81,live 2026,,frozen_quick.json (live 2026)
+b2e5a2acac9f,Billa,2.39,15.93,live 2026,,frozen_quick.json (live 2026)
+2c85cdfc7837,Hofer,3.39,8.47,live 2026,,frozen_quick.json (live 2026)
+58574e016ce1,Hofer,3.06,,live 2026,,frozen_quick.json (live 2026)
+b5a717f699fe,Spar,4.99,13.31,live 2026,2026-10-12,"heisse-preise.io latest-canonical (abgerufen 2026-10-12), spar: 'SPAR ASIA Massaman Thai Curry mit Kartoffeln & Kichererbsen' 375g, letzte Preisänderung 2023-01-03, Name-Match 0.88 (bitte prüfen)"
+873d31dcd3ff,Spar,1.59,24.46,live 2026,2026-10-12,"heisse-preise.io latest-canonical (abgerufen 2026-10-12), spar: 'Knorr Die Schnelle Feine Tomatencreme Suppe mit Croûtons' 1stück, letzte Preisänderung 2024-02-26, Name-Match 0.90 (bitte prüfen)"
+0c4ec0de9d1b,Billa,5.99,28.52,live 2026,2026-10-12,"heisse-preise.io latest-canonical (abgerufen 2026-10-12), billa: 'BILLA Tom Kha Gai mit Huhn' 210g, letzte Preisänderung 2026-04-07, Name-Match 1.21 (bitte prüfen)"
+a127901c3055,Billa,1.12,13.33,live 2026,2026-10-12,"heisse-preise.io latest-canonical (abgerufen 2026-10-12), billa: 'Knorr Keiserteller Gemüsecreme Suppe' 1stk, letzte Preisänderung 2026-10-08, Name-Match 0.80 (bitte prüfen)"
+594d47b32566,Fit to Go,9.99,24.98,live 2026,2026-10-12,"fittogo.at/collections/12er-box, abgerufen 2026-10-12: 10,49 €/Meal (6er), 9,99 € (12er), 9,49 € (18er); Werte pro Packung lt. Shop-Karte"
+e7d1e94c7907,Fit to Go,9.99,27.0,live 2026,2026-10-12,"fittogo.at/collections/12er-box, abgerufen 2026-10-12: 10,49 €/Meal (6er), 9,99 € (12er), 9,49 € (18er); Werte pro Packung lt. Shop-Karte"
+582633f74f38,Fit to Go,9.99,24.98,live 2026,2026-10-12,"fittogo.at/collections/12er-box, abgerufen 2026-10-12: 10,49 €/Meal (6er), 9,99 € (12er), 9,49 € (18er); Werte pro Packung lt. Shop-Karte"
+e4961b203b5e,Fit to Go,9.99,23.23,live 2026,2026-10-12,"fittogo.at/collections/12er-box, abgerufen 2026-10-12: 10,49 €/Meal (6er), 9,99 € (12er), 9,49 € (18er); Werte pro Packung lt. Shop-Karte"
+9a0a2e6ed375,Fit to Go,9.99,28.54,live 2026,2026-10-12,"fittogo.at/collections/12er-box, abgerufen 2026-10-12: 10,49 €/Meal (6er), 9,99 € (12er), 9,49 € (18er); Werte pro Packung lt. Shop-Karte"
+1655e3932390,Fit to Go,9.99,22.2,live 2026,2026-10-12,"fittogo.at/collections/12er-box, abgerufen 2026-10-12: 10,49 €/Meal (6er), 9,99 € (12er), 9,49 € (18er); Werte pro Packung lt. Shop-Karte"
+c9a389f228ab,Fit to Go,9.99,23.23,live 2026,2026-10-12,"fittogo.at/collections/12er-box, abgerufen 2026-10-12: 10,49 €/Meal (6er), 9,99 € (12er), 9,49 € (18er); Werte pro Packung lt. Shop-Karte"
+393d1be9b549,Fit to Go,9.99,28.54,live 2026,2026-10-12,"fittogo.at/collections/12er-box, abgerufen 2026-10-12: 10,49 €/Meal (6er), 9,99 € (12er), 9,49 € (18er); Werte pro Packung lt. Shop-Karte"
+3d8e427c68b4,Fit to Go,9.99,24.98,live 2026,2026-10-12,"fittogo.at/collections/12er-box, abgerufen 2026-10-12: 10,49 €/Meal (6er), 9,99 € (12er), 9,49 € (18er); Werte pro Packung lt. Shop-Karte"
+6c22e6b13c27,Fit to Go,9.99,24.98,live 2026,2026-10-12,"fittogo.at/collections/12er-box, abgerufen 2026-10-12: 10,49 €/Meal (6er), 9,99 € (12er), 9,49 € (18er); Werte pro Packung lt. Shop-Karte"
+ecab21a61740,Fit to Go,9.99,24.98,live 2026,2026-10-12,"fittogo.at/collections/12er-box, abgerufen 2026-10-12: 10,49 €/Meal (6er), 9,99 € (12er), 9,49 € (18er); Werte pro Packung lt. Shop-Karte"
+be23044658a3,Fit to Go,9.99,24.98,live 2026,2026-10-12,"fittogo.at/collections/12er-box, abgerufen 2026-10-12: 10,49 €/Meal (6er), 9,99 € (12er), 9,49 € (18er); Werte pro Packung lt. Shop-Karte"
+c58d8f564d09,Fit to Go,9.99,22.2,live 2026,2026-10-12,"fittogo.at/collections/12er-box, abgerufen 2026-10-12: 10,49 €/Meal (6er), 9,99 € (12er), 9,49 € (18er); Werte pro Packung lt. Shop-Karte"
+2dbd33f7af6b,Fit to Go,9.99,19.98,live 2026,2026-10-12,"fittogo.at/collections/12er-box, abgerufen 2026-10-12: 10,49 €/Meal (6er), 9,99 € (12er), 9,49 € (18er); Werte pro Packung lt. Shop-Karte"
+7a763b53fca3,Fit to Go,9.99,22.2,live 2026,2026-10-12,"fittogo.at/collections/12er-box, abgerufen 2026-10-12: 10,49 €/Meal (6er), 9,99 € (12er), 9,49 € (18er); Werte pro Packung lt. Shop-Karte"
+b6518b9f550f,Fit to Go,9.99,24.98,live 2026,2026-10-12,"fittogo.at/collections/12er-box, abgerufen 2026-10-12: 10,49 €/Meal (6er), 9,99 € (12er), 9,49 € (18er); Werte pro Packung lt. Shop-Karte"
+440f689339b3,Fit to Go,9.99,27.75,live 2026,2026-10-12,"fittogo.at/collections/12er-box, abgerufen 2026-10-12: 10,49 €/Meal (6er), 9,99 € (12er), 9,49 € (18er); Werte pro Packung lt. Shop-Karte"
+6cffb106f680,Fit to Go,9.99,19.98,live 2026,2026-10-12,"fittogo.at/collections/12er-box, abgerufen 2026-10-12: 10,49 €/Meal (6er), 9,99 € (12er), 9,49 € (18er); Werte pro Packung lt. Shop-Karte"
+fa325d0acffb,Fit to Go,9.99,24.98,live 2026,2026-10-12,"fittogo.at/collections/12er-box, abgerufen 2026-10-12: 10,49 €/Meal (6er), 9,99 € (12er), 9,49 € (18er); Werte pro Packung lt. Shop-Karte"
+37fd54db2e1f,Fit to Go,9.99,24.98,live 2026,2026-10-12,"fittogo.at/collections/12er-box, abgerufen 2026-10-12: 10,49 €/Meal (6er), 9,99 € (12er), 9,49 € (18er); Werte pro Packung lt. Shop-Karte"
+b3fe14587174,Fit to Go,9.99,23.79,live 2026,2026-10-12,"fittogo.at/collections/12er-box, abgerufen 2026-10-12: 10,49 €/Meal (6er), 9,99 € (12er), 9,49 € (18er); Werte pro Packung lt. Shop-Karte"
+878196d9a538,Fit to Go,9.99,23.79,live 2026,2026-10-12,"fittogo.at/collections/12er-box, abgerufen 2026-10-12: 10,49 €/Meal (6er), 9,99 € (12er), 9,49 € (18er); Werte pro Packung lt. Shop-Karte"
+a9a419f1b20e,Fit to Go,9.99,22.2,live 2026,2026-10-12,"fittogo.at/collections/12er-box, abgerufen 2026-10-12: 10,49 €/Meal (6er), 9,99 € (12er), 9,49 € (18er); Werte pro Packung lt. Shop-Karte"
+d74b45d239fc,Fit to Go,9.99,24.98,live 2026,2026-10-12,"fittogo.at/collections/12er-box, abgerufen 2026-10-12: 10,49 €/Meal (6er), 9,99 € (12er), 9,49 € (18er); Werte pro Packung lt. Shop-Karte"
+cd1d4ce27acf,Spar,5.29,13.23,live 2026,2026-10-12,INTERSPAR Webshop (Browser) 2026-10-12
+f8b75cf6e42a,Spar,2.79,6.98,live 2026,2026-10-12,INTERSPAR Webshop (Browser) 2026-10-12
+18807d72cbc0,Spar,4.29,5.36,live 2026,2026-10-12,INTERSPAR Webshop (Browser) 2026-10-12
+2fe15106cb9d,Spar,2.49,3.11,live 2026,2026-10-12,INTERSPAR Webshop (Browser) 2026-10-12
+8935681cee3d,Spar,4.29,11.29,live 2026,2026-10-12,INTERSPAR Webshop (Browser) 2026-10-12
+d13cf1ab3d3f,Spar,3.29,9.4,live 2026,2026-10-12,INTERSPAR Webshop (Browser) 2026-10-12
+0f801a99790d,Billa,5.19,17.3,live 2026,2026-10-12,BILLA shop API 2026-10-12
+4bd291786df3,Billa,4.99,16.63,live 2026,2026-10-12,BILLA shop API 2026-10-12
+679c726d29fa,Billa,5.99,11.98,live 2026,2026-10-13,BILLA shop API 2026-10-13
+2c0fecb73c92,Billa,5.99,13.31,live 2026,2026-10-13,BILLA shop API 2026-10-13
+4ee115aced2e,Billa,5.99,13.31,live 2026,2026-10-13,BILLA shop API 2026-10-13
+c48e7e8ddc91,Billa,5.99,14.97,live 2026,2026-10-13,BILLA shop API 2026-10-13
+4ee6a52d7ee6,Billa,8.49,14.15,live 2026,2026-10-13,BILLA shop API 2026-10-13
+9f50a9423bfa,Billa,8.49,14.15,live 2026,2026-10-13,BILLA shop API 2026-10-13
+42d628806e27,Billa,8.49,14.15,live 2026,2026-10-13,BILLA shop API 2026-10-13
+58946c667a85,Billa,3.99,12.09,live 2026,2026-10-13,BILLA shop API 2026-10-13
+74232b22c142,Billa,3.99,12.09,live 2026,2026-10-13,BILLA shop API 2026-10-13
+e0c9287c4893,Billa,5.99,17.11,live 2026,2026-10-13,BILLA shop API 2026-10-13
+59d00aeea2e2,Billa,7.69,12.82,live 2026,2026-10-13,BILLA shop API 2026-10-13
+0033c9721761,Billa,5.99,11.98,live 2026,2026-10-13,BILLA shop API 2026-10-13
+33291cd0a830,Billa,5.99,11.98,live 2026,2026-10-13,BILLA shop API 2026-10-13
+8701d9c41d77,Billa,5.49,13.73,live 2026,2026-10-13,BILLA shop API 2026-10-13
+c1a3c63e10e1,Billa,3.19,7.97,live 2026,2026-10-13,BILLA shop API 2026-10-13
+bdd22a8654c3,Billa,6.99,17.48,live 2026,2026-10-13,BILLA shop API 2026-10-13
+ef60d799b347,Billa,4.89,7.52,live 2026,2026-10-13,BILLA shop API 2026-10-13
+d0029bb2ce82,Billa,3.49,7.76,live 2026,2026-10-13,BILLA shop API 2026-10-13
+31fdca090801,Billa,5.99,11.98,live 2026,2026-10-13,BILLA shop API 2026-10-13
+dcfd6f587499,Billa,5.99,11.98,live 2026,2026-10-13,BILLA shop API 2026-10-13
+d4e1988f97c0,Billa,5.99,11.98,live 2026,2026-10-13,BILLA shop API 2026-10-13
+787fcd56dec3,Billa,4.79,12.77,live 2026,2026-10-13,BILLA shop API 2026-10-13
+8d120e637992,Billa,4.99,6.65,live 2026,2026-10-13,BILLA shop API 2026-10-13
+4cf9ea153411,Billa,4.79,7.37,live 2026,2026-10-13,BILLA shop API 2026-10-13
+cc3e338cfcb1,Billa,3.49,8.21,live 2026,2026-10-13,BILLA shop API 2026-10-13
+8511de34b0e5,Billa,5.99,11.98,live 2026,2026-10-13,BILLA shop API 2026-10-13
+7ee6e2263063,Billa,7.69,11.83,live 2026,2026-10-13,BILLA shop API 2026-10-13
+2ea24dd22bdd,Billa,7.69,11.83,live 2026,2026-10-13,BILLA shop API 2026-10-13
+6157acd49c6c,Billa,6.99,13.98,live 2026,2026-10-13,BILLA shop API 2026-10-13
+7e5c77dce7d7,Billa,6.99,13.98,live 2026,2026-10-13,BILLA shop API 2026-10-13
+b129c4ceefc1,Billa,5.99,11.98,live 2026,2026-10-13,BILLA shop API 2026-10-13
+bc236dd9361b,Billa,3.19,7.97,live 2026,2026-10-13,BILLA shop API 2026-10-13
+554a924d1355,Lidl,6.99,6.99,live 2026,2026-10-13,"lidl.at Such-API (live, Aktionsware) 2026-10-13"
+9d5e121843df,Lidl,4.99,9.98,live 2026,2026-10-13,"lidl.at Such-API (live, Aktionsware) 2026-10-13"
