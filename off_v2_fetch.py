@@ -1,7 +1,9 @@
 # OFF fetch for score v2: nova, ingredients, fvl estimate, serving size. 1 req/s (lock /tmp/off-host.ts)
 import json,re,time,urllib.request,os,sys
 d=json.load(open('scored.json'))
-eans=sorted({str(x['ean']) for x in d if x.get('ean') and re.fullmatch(r'\d{8,14}',str(x['ean']))})
+def _ean(x):
+    m=re.search(r'product/(\d{8,14})',str(x.get('url'))+str(x.get('off_url'))); return str(x.get('ean') or (m and m.group(1)) or '')
+eans=sorted({_ean(x) for x in d if re.fullmatch(r'\d{8,14}',_ean(x))})
 C='off_v2_cache.json'; c=json.load(open(C)) if os.path.exists(C) else {}
 F='code,product_name,nova_group,nova_groups_tags,ingredients_text,ingredients_text_de,ingredients,serving_size,serving_quantity,product_quantity,nutriments,additives_tags,nutriscore_grade,preparation,nutrition_data_prepared_per'
 for i,e in enumerate(eans):

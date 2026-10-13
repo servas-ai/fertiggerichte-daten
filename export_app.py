@@ -124,8 +124,26 @@ for r in R:
         for _a,_b,_d in (('protPor','p100',1),('kcalPor','kcal',0),('saltPor','salt',2)):
             r[_a]=round(r[_b]*r['portion']/100,_d) if r.get(_b) is not None else None
         r['saltPct']=round(r['saltPor']/6*100) if r['saltPor'] is not None else None
-    if r.get('dry') or r.get('nutrition_basis')=='dry' or stg not in ('meal','stew') or r.get('gang')=='dessert' or r.get('meal_class') not in ('meal','multi_portion'): r['rankable']=False
-    if not r['rankable']: r['pli']=None
+    r['meal_check']=_x.get('meal_check')
+    if _x.get('gang')=='dessert': r['gang']='dessert'
+    if _x.get('segment')=='grocery': r['segment']='grocery'
+    if r.get('dry') or r.get('nutrition_basis')=='dry' or stg not in ('meal','stew') or r.get('gang')=='dessert' or r.get('segment')=='grocery' or r.get('meal_class')!='meal' or not (_x.get('meal_check') or {}).get('ok'): r['rankable']=False
+    r['component']=bool(_x.get('component')) or stg=='prot'
+    if r.get('segment')=='meal_kit':
+        if not r.get('store') or str(r['store']).startswith('unbekannt'):
+            _b=str(_x.get('brand') or _x.get('store') or r.get('brand') or '')
+            r['store']='HelloFresh' if 'hellofresh' in _b.lower() else ('Marley Spoon' if 'marley' in _b.lower() else r.get('store'))
+    for _k in ('delivers_4020','delivery_source','allergens'):
+        if r.get(_k) is None and _x.get(_k) is not None: r[_k]=_x[_k]
+    if isinstance(r.get('allergens'),str): r['allergens']=[a.strip() for a in re.split(r'[;,]',r['allergens']) if a.strip()]
+    # unified value formula (Connector UI src/app/meal.ts @6b5f97a): w*score+(1-w)*min((prot_portion/eur_portion)/20,1)*100, w=0.5
+    _mc=r.get('meal_check') or {}
+    r['rankable']=bool(r['rankable']) and bool(_mc.get('ok')) and 400<=(_mc.get('kcal') or 0)<=900 and (_mc.get('protein') or 0)>=20 \
+        and r.get('score') is not None and r['score']>=30 and bool(r.get('price')) and bool(r.get('store')) and not str(r.get('store')).startswith('unbekannt') \
+        and r.get('gang')!='dessert' and r.get('meal_class')!='snack_side' and r.get('segment') not in ('meal_kit','grocery') and not r['component']
+    _ppor=(_mc.get('protein') or 0); _epor=(r['price']*_mc['portion']/r['size']) if r['rankable'] and r.get('size') and _mc.get('portion') else (r['price'] if r['rankable'] else None)
+    r['pli']=round(0.5*r['score']+0.5*min((_ppor/_epor)/20,1)*100,1) if r['rankable'] and _epor else None
+    if r['pli'] is None: r['rankable']=False
 CATICON={n:i for n,i,_ in PROT+DISH}; CATICON.update({'vegan':'🌿','vegetarisch':'🥦','Beilage/Gemüse':'🥦'})
 idx={id(r):r['id'] for r in R}
 # sides

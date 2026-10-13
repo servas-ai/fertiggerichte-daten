@@ -103,6 +103,56 @@ if os.path.exists("spar_live_overlay.json"):
         if not x.get("size_g") and g: x["size_g"]=g
         _spar_live_stats["applied"]+=1
     json.dump(_spar_live_stats,open("spar_live_stats.json","w"),ensure_ascii=False,indent=1)
+# PENNY live overlay (food-connectors penny-shop: penny.at public online-assortment JSON; see fertiggerichte-daten/raw/penny_*.json)
+if os.path.exists("penny_live_overlay.json"):
+    _PL=json.load(open("penny_live_overlay.json")).get("articles",{})
+    _penny_live_stats={"applied":0,"size_mismatch":[]}
+    for x in items:
+        if "penny" not in str(x.get("store") or "").lower(): continue
+        m=re.search(r"penny\.at/produkte/[^?#]*-78(\d{5,7})\b",str(x.get("url") or ""))
+        o=_PL.get(m.group(1)) if m else None
+        if not o or not o.get("price_eur"): continue
+        g=parse_g(o.get("pack")) if "parse_g" in globals() else None
+        if g is None:
+            mm=re.search(r"(\d+(?:[.,]\d+)?)\s*(g|kg|ml|l)\b",str(o.get("pack") or "").lower())
+            g=None if not mm else float(mm.group(1).replace(",","."))*(1000 if mm.group(2) in("kg","l") else 1)
+        if g and x.get("size_g") and abs(g-float(x["size_g"]))/float(x["size_g"])>0.05:
+            _penny_live_stats["size_mismatch"].append({"name":x.get("name"),"size_g":x.get("size_g"),"penny_pack":o.get("pack")}); continue
+        x["price_eur"]=o["price_eur"]; x["price_source"]=o["price_source"]; x["price_date"]=o["fetched_at"][:10]; x["price_live"]=True
+        x["penny_article"]=m.group(1)
+        if o.get("price_regular_eur"): x["price_regular_eur"]=o["price_regular_eur"]
+        if o.get("offer_price_eur"): x["offer_price_eur"]=o["offer_price_eur"]; x["offer_text"]=o.get("offer_text")
+        if o.get("price_per_kg"): x["price_per_kg"]=o["price_per_kg"]
+        if not x.get("image_url") and o.get("image_url"): x["image_url"]=o["image_url"]
+        if not x.get("size_g") and g: x["size_g"]=g
+        _penny_live_stats["applied"]+=1
+    json.dump(_penny_live_stats,open("penny_live_stats.json","w"),ensure_ascii=False,indent=1)
+# OFF-only store overlay (exact GTIN = OFF barcode vs. food-connectors gurkerl / mpreis-shop / dm; see fertiggerichte-daten/raw/offonly_match_*.json)
+# + drop store-less OFF rows whose barcode already exists as a store row (same product twice)
+if os.path.exists("offonly_store_overlay.json"):
+    _OO=json.load(open("offonly_store_overlay.json")).get("articles",{})
+    _oo_stats={"applied":0,"dup_dropped":[],"size_mismatch":[]}
+    _se={str(ean(x)).lstrip("0") for x in items if x.get("store") and ean(x)}
+    _keep=[]
+    for x in items:
+        if not x.get("store") and ean(x):
+            k=str(ean(x)).lstrip("0")
+            if k in _se: _oo_stats["dup_dropped"].append(x.get("name")); continue
+            o=_OO.get(k)
+            if o and o.get("price_eur"):
+                if o.get("size_g") and x.get("size_g") and abs(float(o["size_g"])-float(x["size_g"]))/float(x["size_g"])>0.05:
+                    _oo_stats["size_mismatch"].append({"name":x.get("name"),"size_g":x.get("size_g"),"store_size":o.get("size_g")})
+                    x["size_g"]=o["size_g"]  # same GTIN -> store pack size is authoritative (OFF size often per portion)
+                x["store"]=o["store"]; x["price_eur"]=o["price_eur"]; x["price_date"]=o["fetched_at"][:10]; x["price_live"]=True
+                x["price_source"]=f"{o['store']} live {o['fetched_at'][:10]} (food-connectors, GTIN {k})"
+                x["off_url"]=x.get("off_url") or x.get("url"); x["url"]=o["url"]; x["ean"]=x.get("ean") or k; x["store_match"]="gtin-exact"
+                if not x.get("image_url") and o.get("image_url"): x["image_url"]=o["image_url"]
+                if not x.get("size_g") and o.get("size_g"): x["size_g"]=o["size_g"]
+                if x.get("size_g") and x.get("price_eur"): x["price_per_kg"]=round(x["price_eur"]/float(x["size_g"])*1000,2)
+                _oo_stats["applied"]+=1
+        _keep.append(x)
+    items=_keep
+    json.dump(_oo_stats,open("offonly_store_stats.json","w"),ensure_ascii=False,indent=1)
 # Preise: live vs. alt
 for x in items:
     ps=str(x.get('price_source') or '')+str(x.get('price_date') or '')
@@ -120,7 +170,7 @@ for x in items:
         x['producer_company']=p.get('company'); x['producer_town']=p.get('town'); x['producer_state']=p.get('state')
     x['ooe']= bool(p and p.get('state')=='Oberösterreich') or bool(re.search(r'\b4\d{3} ',str(x.get('manufacturer') or '')))
 json.dump(excluded,open('excluded_ch.json','w'),ensure_ascii=False)
-NONMEAL=re.compile(r'topfencreme|protein ?mousse|mousse\b|pudding|dessert|cheesecake|tiramisu|panna cotta|^(?!.*(ravioli|tortell|nudel|pasta|gnocchi|spaghetti|penne|lasagne|\bmit\b)).*\b(pesto|sugo)\b|suppeneinlage|backerbsen|frittaten|suppe-(abc|gerstl|sternderl|mini hörnchen)|leberknödel einlage|^\S+ lasagne$|lasagne hartweizen|teigblätter|lasagne-blätter|lasagneblätter|pasta per lasagne|teig\b|strudelteig|pizzateig|blätterteig|hummus|bruschetta|sandwich|streufertig|paste\b|currypaste|lasagneblätter|lasagne teig|lasagneblätter|bio-dinkel lasagne$|^curry$|drink|tuc|teigbl|lasagneblätter|(?<!fish & )chips|keks|cracker|müsli|joghurt|milch\b|aufstrich|sirup|getränk|schokolade',re.I)
+NONMEAL=re.compile(r'ramyun|instant ?nudel|crème brûlée|brûlée|lavakuchen|toastkäse|protein ?brot|eiweißbrot|wurstsalat|topfencreme|protein ?mousse|mousse\b|pudding|dessert|cheesecake|tiramisu|panna cotta|^(?!.*(ravioli|tortell|nudel|pasta|gnocchi|spaghetti|penne|lasagne|\bmit\b)).*\b(pesto|sugo)\b|suppeneinlage|backerbsen|frittaten|suppe-(abc|gerstl|sternderl|mini hörnchen)|leberknödel einlage|^\S+ lasagne$|lasagne hartweizen|teigblätter|lasagne-blätter|lasagneblätter|pasta per lasagne|teig\b|strudelteig|pizzateig|blätterteig|hummus|bruschetta|sandwich|streufertig|paste\b|currypaste|lasagneblätter|lasagne teig|lasagneblätter|bio-dinkel lasagne$|^curry$|drink|tuc|teigbl|lasagneblätter|(?<!fish & )chips|keks|cracker|müsli|joghurt|milch\b|aufstrich|sirup|getränk|schokolade',re.I)
 def classify(x):
     t=' '.join(str(x.get(k) or '') for k in ['category','name','prep','brand']).lower()
     nm=(x.get('name') or '').lower(); cat=(x.get('category') or '').lower()
@@ -270,8 +320,17 @@ for x in out:
         x['dry']=True
         if not any(f.startswith('Trockenprodukt') for f in x['flags']): x['flags'].append('Trockenprodukt: Nährwerte pro 100 g trocken, nicht in Rankings')
     elif x['nutrition_basis']=='prepared': x['dry']=False; x['flags'].append('Nährwerte auf zubereitet umgerechnet ('+(x.get('nutrition_note') or '')+')')
-    if x['meal_class'] in ('snack_side','light_meal'): x['flags'].append(f"Mahlzeit-Check: {x['kcal_meal']} kcal/Portion – Snack/Beilage, keine Mahlzeit" if x['meal_class']=='snack_side' else f"Mahlzeit-Check: nur {x['kcal_meal']} kcal – leichte Mahlzeit")
-    x['rankable']=bool(x['rankable']) and not x['dry'] and x['health_score'] is not None and x['meal_class'] in ('meal','multi_portion' if x['portion_source']!='unknown' and x['portion_source']!='pack_single' else 'meal')
+    if False: x['flags'].append(f"Mahlzeit-Check: {x['kcal_meal']} kcal/Portion – Snack/Beilage, keine Mahlzeit" if x['meal_class']=='snack_side' else f"Mahlzeit-Check: nur {x['kcal_meal']} kcal – leichte Mahlzeit")
+    _des,_gro=_V2.labels(x)
+    if _des: x['gang']='dessert'; x['flags'].append('Dessert – nicht in Rankings')
+    if _gro and x.get('segment')!='meal_kit': x['segment']='grocery'; x['flags'].append('Lebensmittel (kein Fertiggericht) – nicht in Rankings')
+    _mc=_V2.meal_check(x,r2); x['meal_check']=_mc; x['meal_class']=_mc['cls'] if not _des else 'dessert'
+    _nm=x.get('name') or ''
+    if not _des and _V2.SNACK.search(_nm): x['meal_class']='snack_side'; _mc['ok']=False; _mc['reason']='Brot/Snack/Instant – keine Mahlzeit'
+    x['component']=bool(_V2.COMPONENT.search(_nm)) and not _des
+    if x['component']: _mc['ok']=False; _mc['reason']=(_mc.get('reason') or '')+' Proteinkomponente (keine vollständige Mahlzeit)'
+    if not _mc['ok'] and _mc.get('reason'): x['flags'].append('Mahlzeit-Check: '+_mc['reason'])
+    x['rankable']=bool(x['rankable']) and not x['dry'] and x['health_score'] is not None and _mc['ok'] and not _des and not _gro and x.get('is_meal',True)
 for x in out:  # meal kits (cook-yourself boxes) are ranked separately from ready meals
     if x.get('segment')=='meal_kit': x['rankable_mealkit']=bool(x.get('rankable')); x['rankable']=False
 json.dump(out,open('scored.json','w'),ensure_ascii=False,indent=1)

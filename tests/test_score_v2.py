@@ -29,3 +29,25 @@ def test_portion_never_placeholder():
     assert V.portion(row(size_g=1200),None)==(None,'unknown')
     assert V.portion(row(name='Bowl (2 Portionen)',size_g=800),None)==(400,'name_portions')
     r=V.score_v2(row(kcal_100=150,protein_100=8,salt_100=1,satfat_100=2,size_g=400)); assert r['day_pct']['kcal']==30 and r['per_portion']['protein']==32
+
+
+def test_meal_check_hard_gate():
+    import score_v2 as V
+    toast = dict(name='Ja! Natürlich Toastkäse Scheiben', kcal_100=338, protein_100=26, size_g=175)
+    assert V.labels(toast) == (False, True)
+    ok = V.meal_check(dict(kcal_100=120, protein_100=8, size_g=400), dict(portion_source='pack_single', portion_g=400))
+    assert ok['ok'] and ok['kcal'] == 480
+    lowp = V.meal_check(dict(kcal_100=120, protein_100=3, size_g=400), dict(portion_source='pack_single', portion_g=400))
+    assert not lowp['ok'] and lowp['cls'] == 'light_meal'
+    big = V.meal_check(dict(kcal_100=66, protein_100=10, size_g=1000), dict(portion_source='unknown'))
+    assert not big['ok'] and big['cls'] == 'multi_portion'
+    small = V.meal_check(dict(kcal_100=200, protein_100=10, size_g=100), dict(portion_source='unknown'))
+    assert not small['ok']
+
+
+def test_dessert_labels():
+    import score_v2 as V
+    for nm in ('PICARD 2 Vanille Crème Brûlées', 'Galana Lavakuchen', 'Kaiserschmarrn', 'Schoko Pudding'):
+        assert V.labels(dict(name=nm))[0], nm
+    assert not V.labels(dict(name='Gemüsestrudel'))[0]
+    assert V.labels(dict(name='Shin Ramyun Beutel'))[1]

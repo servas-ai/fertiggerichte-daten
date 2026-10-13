@@ -141,3 +141,42 @@ def score_v2(x, off=None, stage=None):
     out['score_parts'] = {kk: round(v, 1) for kk, v in parts.items()}
     out['health_score'] = round(max(0, min(100, sum(parts.values()))), 1)
     return out
+
+# --- Sensecheck 2: hard meal check, dessert + grocery labels ---
+MEAL_KCAL_MIN, MEAL_KCAL_MAX, MEAL_PROT_MIN = 400, 900, 20
+DESSERT = re.compile(r'dessert|crème brûlée|creme brulee|brûlée|lavakuchen|lava cake|schokokuchen|kuchen\b|torte\b|mousse|pudding|panna cotta|tiramisu|cheesecake|topfencreme|grießbrei|milchreis|kaiserschmarr|germknödel|strudel(?!teig)|marillenknödel|zwetschk|erdbeerknödel|topfenknödel|himbeerknödel|heidelbeerknödel|mohnnudel|buchtel|palatschink|scheiterhaufen|eis\b|eiscreme|sorbet|muffin|brownie|waffel|crêpe|tarte|profiterol|soufflé|fondant',re.I)
+DESSERT_NOT = re.compile(r'apfelstrudel.*?(gemüse|spinat)|gemüsestrudel|spinatstrudel|krautstrudel|fleischstrudel|lachsstrudel|blätterteigstrudel.*(gemüse|spinat|fleisch|lachs)|pizzastrudel',re.I)
+GROCERY = re.compile(r'toastkäse|käse ?scheiben|scheibenkäse|schmelzkäse|streichkäse|frischkäse|\bgouda\b|emmentaler|mozzarella$|\bfeta\b|hartkäse|bergkäse|camembert|\bbrot\b|protein ?brot|eiweißbrot|toastbrot|\btoast\b(?!.*(hawaii|schinken-käse))|vollkornbrot|semmel$|gebäck|brötchen|aufstrich|streichwurst|leberwurst|pastete|\bwurst(aufschnitt)?\b|aufschnitt|salami|schinken ?scheiben|wurstsalat|fleischsalat|eiersalat|thunfischsalat|\bbutter\b|margarine|honig|marmelade|konfitüre|nutella|pesto|sugo|ramyun|ramen nudel|instant ?nudel|nudelsuppe instant|cup noodle|noodle cup|yum yum|mama nudel',re.I)
+
+def labels(x):
+    nm = ' '.join(str(x.get(k) or '') for k in ('name',))
+    dessert = bool(DESSERT.search(nm)) and not DESSERT_NOT.search(nm)
+    grocery = bool(GROCERY.search(nm)) and not dessert
+    return dessert, grocery
+
+def meal_check(x, v2):
+    """Hard ready-meal gate: per portion 400-900 kcal and >=20 g protein.
+    Portion = portion_g (known source); if unknown, the pack counts only when 150-700 g."""
+    k, p = n(x.get('kcal_100')), n(x.get('protein_100'))
+    psrc = v2.get('portion_source') or 'unknown'
+    pg = v2.get('portion_g') if psrc not in ('unknown',) else None
+    sz = n(x.get('size_g'))
+    if v2.get('nutrition_basis') == 'dry': return dict(ok=False, cls='dry', reason='Trockenprodukt')
+    if not pg:
+        if sz and 150 <= sz <= 700: pg = sz
+        elif sz and sz > 700: return dict(ok=False, cls='multi_portion', reason=f'Mehrportionen-Packung ({sz:g} g), Portionszahl nicht angegeben')
+        else: return dict(ok=False, cls='unknown', reason='Portion unbekannt')
+    f = 1.0
+    if v2.get('nutrition_basis') == 'prepared' and k and v2.get('kcal_meal') and v2.get('portion_g'):
+        f = v2['kcal_meal'] / (k * v2['portion_g'] / 100) if pg == v2['portion_g'] else 1.0
+    if k is None or p is None: return dict(ok=False, cls='unknown', reason='Nährwerte fehlen', portion=pg)
+    kp, pp = round(k * f * pg / 100), round(p * f * pg / 100, 1)
+    d = dict(portion=pg, kcal=kp, protein=pp)
+    if kp < 250: return dict(d, ok=False, cls='snack_side', reason=f'{kp} kcal/Portion – Snack/Beilage')
+    if kp < MEAL_KCAL_MIN: return dict(d, ok=False, cls='light_meal', reason=f'{kp} kcal/Portion < {MEAL_KCAL_MIN}')
+    if kp > MEAL_KCAL_MAX: return dict(d, ok=False, cls='multi_portion', reason=f'{kp} kcal/Portion > {MEAL_KCAL_MAX}')
+    if pp < MEAL_PROT_MIN: return dict(d, ok=False, cls='light_meal', reason=f'{pp} g Protein/Portion < {MEAL_PROT_MIN}')
+    return dict(d, ok=True, cls='meal', reason=None)
+
+SNACK = re.compile(r'\bbrot\b|brötchen|semmel|weckerl|sandwich|burger|baguette|\btoast|toastkäse|wurstsalat|ramyun|ramen nudel|instant ?nudel|cup noodle|noodle cup|yum yum|mama nudel|nudelsnack|bistro baguette|piccolini|wrap\b(?!.*bowl)|hot ?dog|pizzaschnitte|leberkässemmel',re.I)
+COMPONENT = re.compile(r'suppenfleisch|lachsfilet|backhendl|keulen?\b|falafel|laibchen|fischstäbchen|nuggets?\b|cordon bleu|schnitzel(?!.*(mit|püree|reis|erdäpfel|kartoffel|pommes))|filet(?!.*(mit|reis|püree|gemüse))|tofu(?!.*(mit|curry|bowl))|tempeh|bratwurst|grillwurst|cevapcici|frikadell',re.I)

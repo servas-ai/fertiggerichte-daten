@@ -1,11 +1,13 @@
 import json,re,csv,sys,collections,unicodedata
 sys.path.insert(0,'/workspace/food-connectors')
 from food_connectors.schema import looks_like_ready_meal
-EXTRA=re.compile(r'salat(?!gurke|kopf|herz|mix\b)|bowl|wrap|sandwich|panini|burger|hot dog|toast|suppe|eintopf|gulasch|lasagne|pizza|nudeln? mit|risotto|curry|knödel|strudel|schnitzel|nuggets|sushi|fertig|instant|cup\b|snack ?box|backbox',re.I)
-NOT=re.compile(r'gewürz|dressing|essig|öl\b|tee\b|saft|wasser|katzen|hunde',re.I)
+RM=re.compile(r'lasagne|gefüllte gnocchi|nuggets|vorgegart|pulled|hot dog|sandwich(?!toast)|wrap\b|bowl|sushi|suppe(?!n?brühe|ngrün|nnudel)|eintopf|gulasch(?!fleisch)|risotto|pizza(?!käse|teig|mehl|sauce)|pizzaweckerl|pizzaschnecke|backhendlteller|strudel|knödel|kaiserschmarrn|curry(?! ?-?sauce|pulver)|chili con|salat(?!-/|gurke|herz|kopf|mix\b|sauce|dressing|schüssel|besteck)|panini|burger(?!scheiben|brötchen| bun|sauce)|fertiggericht|menü|ravioli|tortellini|schupfnudel|kasnudel|leberkäse|cordon|cevapcici.*(gegart|gegrillt)|kebab|dürüm|falafel|frühlingsrolle|quiche|focaccia|toast(?!brot|schinken| vegan|$)',re.I)
+NOTRM=re.compile(r'gewürz|mühle|bratpfanne|teller,|sauce,|grillzeiten|aufschnitt|käse$|brötchen|bun\b|roll\b|natur|roh|teig',re.I)
 def seg(name,cats):
-  s=name+' '+' '.join(cats)
-  return 'ready_meal' if (looks_like_ready_meal(name,' '.join(cats)) or EXTRA.search(name)) and not NOT.search(name) else 'grocery'
+  c=' '.join(cats)
+  if re.search(r'sandwichtoast|toastschinken',name,re.I) or 'Käse' in c: return 'grocery'
+  if 'Fleisch' in c and not re.search(r'vorgegart|pulled|sous vide|backhendlteller|nuggets|gegart',name,re.I): return 'grocery'
+  return 'ready_meal' if RM.search(name) and not NOTRM.search(name) else 'grocery'
 def grams(sz):
   m=re.match(r'\s*([\d.,]+)\s*(kg|g|l|ml)\b',sz or '',re.I)
   if not m: return None
@@ -43,20 +45,37 @@ for fn,L in (('hofer_full_2026-10-13.csv',rm),('hofer_grocery_2026-10-13.csv',gr
   for r in L: w.writerow({k:(json.dumps(v,ensure_ascii=False) if isinstance(v,list) else v) for k,v in r.items()})
 fill=json.load(open('/workspace/fertig/hofer_fill_2026-10-13.json')) if __import__('os').path.exists('/workspace/fertig/hofer_fill_2026-10-13.json') else []
 app=json.load(open('/workspace/fertig-app/public/data.json'))['rows'];h=[r for r in app if r['store']=='Hofer']
-# top30
-def val(r):
-  if r['protein_100g'] and r['price_eur'] and r['size_g']: return ('protein',r['protein_100g']*r['size_g']/100/r['price_eur'])
-  if r['price_per_kg']: return ('g_per_eur',1000/r['price_per_kg'])
-  return (None,None)
+# top30 (ready meals only: app Hofer meal rows + hofer.at ready_meal segment)
+A=json.load(open('/workspace/fertig-app/public/data.json'))['rows'];HM=[r for r in A if r['store']=='Hofer' and r.get('segment') in (None,'ready_meal','meal') and not r.get('nonfood')]
+B=json.load(open('/tmp/data_before_hofer.json'))['rows'] if __import__('os').path.exists('/tmp/data_before_hofer.json') else []
+HB=[r for r in B if r['store']=='Hofer']
+def v(r):
+  # unified value formula (Connector UI meal.ts @6b5f97a) = app pli; only app-rankable rows
+  return (r['pli'],'U') if r.get('pli') is not None and r.get('rankable') else (None,None)
 L=['# Hofer ready meals: value-for-money Top 30 per category (2026-10-13)','',
- f"Source: hofer.at, {len(R)} products crawled ({len(rm)} ready_meal, {len(gr)} grocery). App dataset before: {len(h)} Hofer rows; matched/fillable from hofer.at: {len(fill)} (of which {sum(not f['had_price'] for f in fill)} were missing a price).",'',
- '## Formula','value = protein grams per € (protein_100g × size_g/100 ÷ price) × (1 − 0.1 × max(0, salt_100g − 1.25)/0.25 capped at 0.5). hofer.at publishes no nutrition and no EAN, so where OFF nutrition is missing the fallback is grams per € (1000 ÷ €/kg), marked `g/€`. Grocery items are excluded.','',
- '## Counts per category > subcategory (all segments)','']
-for k,v in sorted(collections.Counter((r['category_path'] or '?',r['segment']) for r in R).items()): L.append(f"- {k[0]} [{k[1]}]: {v}")
-L+=['','## Counts per brand (top 40)','']+[f"- {b}: {n}" for b,n in collections.Counter(r['brand'] for r in R).most_common(40)]
-for cat in sorted({r['category'] for r in rm if r['category']}):
-  xs=[(val(r),r) for r in rm if r['category']==cat and val(r)[1]];xs.sort(key=lambda t:-t[0][1])
-  L+=['',f'## {cat}','','| # | Product | Brand | € | Size | €/kg | value |','|---|---|---|---|---|---|---|']
-  for i,((kind,v),r) in enumerate(xs[:30],1): L.append(f"| {i} | [{r['name']}]({r['url']}) | {r['brand']} | {r['price_eur']} | {r['size']} | {r['price_per_kg']} | {v:.1f} {'g prot/€' if kind=='protein' else 'g/€'} |")
+ f"Ready meals only (grocery excluded, see hofer_grocery_2026-10-13.json). hofer.at crawl: {len(R)} products in sitemap/categories, of which {len(rm)} classified ready_meal, {len(gr)} grocery. App Hofer rows before → after: {len(HB)} → {len([r for r in A if r['store']=='Hofer'])}.",'',
+ '## Formula','- value = 0.5 × health_score + 0.5 × min((protein g per portion ÷ € per portion) / 20, 1) × 100 (same as app pli).',
+ '- rankable only with 400–900 kcal and ≥20 g protein per portion, score ≥30, price and shop; no dessert, snack or meal kit.',
+ '- prices from heisse-preise.io older than 12 months are marked (alt).','',
+ '## Completeness of Hofer rows in the app (before → after)','']
+for k in ['price','size','kcal','score','img','ns']:
+  L.append(f"- {k}: {sum(r.get(k) is not None for r in HB)} → {sum(r.get(k) is not None for r in A if r['store']=='Hofer')}")
+cmp=lambda L_:sum(1 for r in L_ if r.get('price') is not None and r.get('score') is not None and r.get('size') is not None)
+L.append(f"- price+score+size complete: {cmp(HB)} → {cmp([r for r in A if r['store']=='Hofer'])}")
+L+=['','## App Hofer rows per category (pack) before → after','']
+cb=collections.Counter(r.get('pack') for r in HB);ca=collections.Counter(r.get('pack') for r in A if r['store']=='Hofer')
+for k in sorted(set(cb)|set(ca),key=str): L.append(f"- {k}: {cb.get(k,0)} → {ca.get(k,0)}")
+L+=['','## App Hofer rows per brand (top 30) before → after','']
+bb=collections.Counter(r.get('brand') for r in HB);ba=collections.Counter(r.get('brand') for r in A if r['store']=='Hofer')
+for k,n in ba.most_common(30): L.append(f"- {k}: {bb.get(k,0)} → {n}")
+for cat in sorted({r.get('pack') for r in HM},key=str):
+  xs=[(v(r),r) for r in HM if r.get('pack')==cat and v(r)[0]];xs.sort(key=lambda t:-t[0][0])
+  if not xs: continue
+  L+=['',f'## {cat}','','| # | Product | Brand | € | g | score | value |','|---|---|---|---|---|---|---|']
+  for i,((val_,k),r) in enumerate(xs[:30],1): L.append(f"| {i} | {r['name']} | {r['brand']} | {r['price']}{' (alt)' if 'Altpreis' in str(r.get('psrc')) or 'heisse' in str(r.get('psrc')) and str(r.get('price_date') or '')<'2025-10-13' else ''} | {r.get('size')} | {r.get('score')} | {val_:.1f}{k} |")
+L+=['',f"Not rankable (missing price or score): {sum(1 for r in HM if v(r)[0] is None)} of {len(HM)}",'',
+ '## hofer.at crawl: products per category > subcategory (all segments)','']
+for k,n in sorted(collections.Counter((r['category_path'] or '(none)',r['segment']) for r in R).items()): L.append(f"- {k[0]} [{k[1]}]: {n}")
+L+=['','## hofer.at crawl: products per brand (top 40)','']+[f"- {b}: {n}" for b,n in collections.Counter(r['brand'] for r in R).most_common(40)]
 import os;os.makedirs('/workspace/fertig/analysis',exist_ok=True);open('/workspace/fertig/analysis/hofer_top30.md','w').write('\n'.join(L)+'\n')
-print('fill',len(fill),'rm',len(rm))
+print('HM',len(HM))
