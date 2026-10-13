@@ -18243,6 +18243,33 @@
   "price_source": "food-connectors/denns 2026-10-13 (denn's BioMarkt AT Angebote-Feed, Artikel 564131): Normalpreis 3.99 €; Aktionspreis 3.49 € gültig 2026-10-07–2026-10-20 (ab-Preis, mehrere Sorten); Packung 350 g / 380 g"
  },
  {
+  "product_id": "c02cdccdea78",
+  "chain": "Nah&Frisch",
+  "price_eur": 3.99,
+  "price_per_kg_eur": 9.97,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/nah-frisch 2026-10-13 (Nah&Frisch 'Angebote der Woche' KW41, gültig 2026-10-07–2026-10-13, Flugblatt-Kachel ONLINE_KW4142_26_355x455px2): Aktionspreis 3.99 € je Pkg. ('iglo Pikante Knödel', versch. Sorten 350-400 g-Pkg.; 1+1 gratis ab 2 Pkg. je); nur in teilnehmenden Märkten"
+ },
+ {
+  "product_id": "20cb4787bf46",
+  "chain": "Nah&Frisch",
+  "price_eur": 1.39,
+  "price_per_kg_eur": 22.42,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/nah-frisch 2026-10-13 (Nah&Frisch 'Angebote der Woche' KW42, gültig 2026-10-14–2026-10-20, Flugblatt-Kachel ONLINE_KW4142_26_355x455px29): Aktionspreis 1.39 € je Pkg. ('Knorr Kaiserteller Suppen', versch. Sorten); nur in teilnehmenden Märkten"
+ },
+ {
+  "product_id": "3862527f8a4a",
+  "chain": "Nah&Frisch",
+  "price_eur": 1.39,
+  "price_per_kg_eur": 15.27,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/nah-frisch 2026-10-13 (Nah&Frisch 'Angebote der Woche' KW42, gültig 2026-10-14–2026-10-20, Flugblatt-Kachel ONLINE_KW4142_26_355x455px29): Aktionspreis 1.39 € je Pkg. ('Knorr Kaiserteller Suppen', versch. Sorten); nur in teilnehmenden Märkten"
+ },
+ {
   "product_id": "6415820c4167",
   "chain": "PrepMyMeal",
   "price_eur": 12.48,

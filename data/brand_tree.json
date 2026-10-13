@@ -14,95 +14,400 @@
   "unknown": "kein belastbarer Beleg gefunden"
  },
  "coverage": {
-  "products_with_producer": 945,
-  "confirmed_code": 133,
+  "products_with_producer": 949,
+  "confirmed_code": 134,
   "retailer_only": 116
  },
  "tree": [
   {
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "REWE Group",
+   "flag": "🇩🇪",
    "producers": [
     {
-     "name": "Subway",
+     "name": "BILLA AG",
+     "role": "Inverkehrbringer (Handel) – Werk unbekannt",
+     "logo": null,
+     "codes": [
+      "AT 32522 EU",
+      "Unter Schutzatmosphäre verpackt.\nAT-32629-EU",
+      "Vor dem Verzehr sorgfältig durcherhitzen.\nUnter Schutzatmosphäre verpackt.\nAT-61904-EU",
+      "tiefgekühlt\nVor dem Verzehr vollständig erhitzen."
+     ],
+     "plants": [],
+     "confidence": "label-address",
+     "stores": [
+      "Billa"
+     ],
+     "brands": [
+      {
+       "brand": "BILLA Immer Gut",
+       "stores": [
+        "Billa"
+       ],
+       "ids": [
+        4,
+        5,
+        7,
+        8,
+        9,
+        457,
+        555,
+        556,
+        557,
+        558,
+        559,
+        560,
+        561,
+        562,
+        564,
+        565,
+        566,
+        567,
+        568,
+        569,
+        570,
+        571,
+        572,
+        574,
+        577,
+        579,
+        580,
+        581,
+        583,
+        587,
+        589,
+        590,
+        591,
+        592,
+        593,
+        595,
+        596,
+        598,
+        601,
+        602,
+        603,
+        604,
+        1077,
+        1293,
+        1296,
+        1297,
+        1298,
+        1299,
+        1300,
+        1301,
+        1302,
+        1303,
+        1304,
+        1305,
+        1306,
+        2033,
+        2039,
+        2081,
+        2090,
+        2096,
+        2121,
+        2122,
+        2123,
+        2452,
+        2453,
+        2464,
+        2468,
+        2471,
+        2475
+       ]
+      },
+      {
+       "brand": "Omis Schmankerl",
+       "stores": [
+        "Billa"
+       ],
+       "ids": [
+        611,
+        615,
+        616,
+        620,
+        621,
+        626,
+        627,
+        630,
+        631,
+        634,
+        636,
+        637,
+        638,
+        639,
+        640,
+        644,
+        645,
+        1069,
+        1070,
+        1071,
+        2034
+       ]
+      },
+      {
+       "brand": "Clever",
+       "stores": [
+        "Billa"
+       ],
+       "ids": [
+        397,
+        537,
+        539,
+        549,
+        550,
+        552,
+        553,
+        1307,
+        1309,
+        1312,
+        1313,
+        1322,
+        1325,
+        2041,
+        2082,
+        2089,
+        2130,
+        2135
+       ]
+      },
+      {
+       "brand": "BILLA Bio",
+       "stores": [
+        "Billa"
+       ],
+       "ids": [
+        3,
+        648,
+        649,
+        650,
+        651,
+        652,
+        653,
+        654,
+        655,
+        659,
+        660,
+        661,
+        887,
+        888,
+        1295
+       ]
+      },
+      {
+       "brand": "Simply Good",
+       "stores": [
+        "Billa"
+       ],
+       "ids": [
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        608,
+        610,
+        2480
+       ]
+      },
+      {
+       "brand": "BILLA Genusswelt",
+       "stores": [
+        "Billa"
+       ],
+       "ids": [
+        1065,
+        1066,
+        1068,
+        1079,
+        1080,
+        1081,
+        1082
+       ]
+      },
+      {
+       "brand": "Vegavita",
+       "stores": [
+        "Billa"
+       ],
+       "ids": [
+        48,
+        668,
+        669,
+        670,
+        671,
+        1360
+       ]
+      },
+      {
+       "brand": "Ja! Natürlich",
+       "stores": [
+        "Billa"
+       ],
+       "ids": [
+        663
+       ]
+      },
+      {
+       "brand": "BILLA",
+       "stores": [
+        "Billa"
+       ],
+       "ids": [
+        1083
+       ]
+      },
+      {
+       "brand": "Hofstädter",
+       "stores": [
+        "Billa"
+       ],
+       "ids": [
+        1331
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Rewe Austria Genussküche GmbH",
      "role": "Hersteller",
+     "logo": "analysis/logos/rewe-genusskueche.svg",
+     "codes": [
+      "AT 32629 EG",
+      "AT 32629 EU"
+     ],
+     "plants": [
+      "Betriebsstraße 2, 2512 Traiskirchen",
+      "Traiskirchen"
+     ],
+     "confidence": "confirmed-code",
+     "stores": [
+      "Billa",
+      "unbekannt (OFF)"
+     ],
+     "brands": [
+      {
+       "brand": "Omis Schmankerl",
+       "stores": [
+        "Billa"
+       ],
+       "ids": [
+        613,
+        614,
+        618,
+        623,
+        632,
+        633,
+        635,
+        886
+       ]
+      },
+      {
+       "brand": "Simply Good",
+       "stores": [
+        "Billa"
+       ],
+       "ids": [
+        605,
+        606,
+        607,
+        609
+       ]
+      },
+      {
+       "brand": "Clever",
+       "stores": [
+        "Billa"
+       ],
+       "ids": [
+        545,
+        546
+       ]
+      },
+      {
+       "brand": "BILLA Immer Gut",
+       "stores": [
+        "Billa"
+       ],
+       "ids": [
+        578,
+        889
+       ]
+      },
+      {
+       "brand": "Billa",
+       "stores": [
+        "unbekannt (OFF)"
+       ],
+       "ids": [
+        2489,
+        2504
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Rewe Austria Fleischwaren GmbH",
+     "role": "Hersteller",
+     "logo": "analysis/logos/rewe-austria-fleischwaren.svg",
+     "codes": [
+      "AT 42152 EG"
+     ],
+     "plants": [
+      "Solarstraße 8, 4653 Eberstalzell"
+     ],
+     "confidence": "confirmed-code",
+     "stores": [
+      "Billa"
+     ],
+     "brands": [
+      {
+       "brand": "Clever",
+       "stores": [
+        "Billa"
+       ],
+       "ids": [
+        1319,
+        1320,
+        1321,
+        1323
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Ja! Natürlich Naturprodukte Gesellschaft m.b.H.",
+     "role": "Inverkehrbringer (Handel) – Werk unbekannt",
      "logo": null,
      "codes": [],
      "plants": [],
      "confidence": "label-address",
      "stores": [
-      "Subway"
+      "Billa"
      ],
      "brands": [
       {
-       "brand": "Subway",
+       "brand": "Ja! Natürlich",
        "stores": [
-        "Subway"
+        "Billa"
        ],
        "ids": [
-        2802,
-        2803,
-        2804,
-        2805,
-        2806,
-        2807,
-        2808,
-        2809,
-        2810,
-        2811,
-        2812,
-        2813,
-        2814,
-        2815,
-        2816,
-        2817,
-        2818,
-        2819,
-        2820,
-        2821,
-        2822,
-        2823,
-        2824,
-        2825,
-        2826,
-        2827,
-        2828,
-        2829,
-        2830,
-        2831,
-        2832,
-        2833,
-        2834,
-        2835,
-        2836,
-        2837,
-        2838,
-        2839,
-        2840,
-        2841,
-        2842,
-        2843,
-        2844,
-        2845,
-        2846,
-        2847,
-        2848,
-        2849,
-        2850,
-        2851,
-        2852,
-        2853,
-        2854,
-        2855,
-        2856,
-        2857,
-        2858,
-        2859,
-        2860
+        662,
+        1346,
+        1347
        ]
       }
      ]
-    },
+    }
+   ],
+   "n": 174
+  },
+  {
+   "konzern": "Unabhängig / unbekannt",
+   "flag": "🏳️",
+   "producers": [
     {
      "name": "FITTASTE23 GmbH",
      "role": "Hersteller",
@@ -120,49 +425,18 @@
         "FitTaste"
        ],
        "ids": [
-        2747,
-        2749,
-        2751,
-        2752,
-        2753,
         2754,
-        2755,
-        2757,
+        2756,
         2758,
         2759,
+        2760,
         2761,
-        2762
-       ]
-      }
-     ]
-    },
-    {
-     "name": "dm-drogerie markt GmbH + Co. KG",
-     "role": "Hersteller",
-     "logo": null,
-     "codes": [],
-     "plants": [],
-     "confidence": "label-address",
-     "stores": [
-      "dm"
-     ],
-     "brands": [
-      {
-       "brand": "dmBio",
-       "stores": [
-        "dm"
-       ],
-       "ids": [
-        1262,
-        1263,
-        1268,
-        1269,
-        1270,
-        1271,
-        1272,
-        1282,
-        1284,
-        1285
+        2762,
+        2764,
+        2765,
+        2766,
+        2768,
+        2769
        ]
       }
      ]
@@ -221,7 +495,7 @@
         1611,
         2053,
         2061,
-        2319
+        2326
        ]
       }
      ]
@@ -271,10 +545,10 @@
        ],
        "ids": [
         1499,
-        2454,
-        2455,
+        2461,
         2462,
-        2463
+        2469,
+        2470
        ]
       }
      ]
@@ -300,57 +574,6 @@
         15,
         16,
         17
-       ]
-      }
-     ]
-    },
-    {
-     "name": "Weinbergmaier GmbH",
-     "role": "Hersteller",
-     "logo": null,
-     "codes": [],
-     "plants": [],
-     "confidence": "label-address",
-     "stores": [
-      "Billa",
-      "MPreis"
-     ],
-     "brands": [
-      {
-       "brand": "Ackerl",
-       "stores": [
-        "Billa"
-       ],
-       "ids": [
-        1287,
-        1288,
-        1289,
-        1290
-       ]
-      }
-     ]
-    },
-    {
-     "name": "BS Gastro & Event Services GmbH",
-     "role": "Hersteller",
-     "logo": null,
-     "codes": [],
-     "plants": [],
-     "confidence": "label-address",
-     "stores": [
-      "Gurkerl"
-     ],
-     "brands": [
-      {
-       "brand": "Wiener Virtshaus",
-       "stores": [
-        "Gurkerl"
-       ],
-       "ids": [
-        1553,
-        1712,
-        1847,
-        2361
        ]
       }
      ]
@@ -497,7 +720,7 @@
         "Spar"
        ],
        "ids": [
-        2539
+        2546
        ]
       },
       {
@@ -506,7 +729,7 @@
         "unbekannt (OFF)"
        ],
        "ids": [
-        2544
+        2551
        ]
       }
      ]
@@ -552,33 +775,9 @@
         "Billa"
        ],
        "ids": [
-        2434,
-        2474,
-        2475
-       ]
-      }
-     ]
-    },
-    {
-     "name": "A. Darbo AG",
-     "role": "Hersteller",
-     "logo": null,
-     "codes": [],
-     "plants": [],
-     "confidence": "label-address",
-     "stores": [
-      "Billa"
-     ],
-     "brands": [
-      {
-       "brand": "Darbo",
-       "stores": [
-        "Billa"
-       ],
-       "ids": [
-        2439,
-        2440,
-        2456
+        2441,
+        2481,
+        2482
        ]
       }
      ]
@@ -680,29 +879,6 @@
      ]
     },
     {
-     "name": "Princes Foods B.V.",
-     "role": "Hersteller",
-     "logo": null,
-     "codes": [],
-     "plants": [],
-     "confidence": "label-address",
-     "stores": [
-      "Billa"
-     ],
-     "brands": [
-      {
-       "brand": "Vier Diamanten",
-       "stores": [
-        "Billa"
-       ],
-       "ids": [
-        1027,
-        1028
-       ]
-      }
-     ]
-    },
-    {
      "name": "Glatz GmbH",
      "role": "Hersteller",
      "logo": null,
@@ -744,33 +920,6 @@
        "ids": [
         1265,
         1275
-       ]
-      }
-     ]
-    },
-    {
-     "name": "Greisinger GmbH",
-     "role": "Hersteller",
-     "logo": null,
-     "codes": [
-      "AT 40559 EG"
-     ],
-     "plants": [
-      "Klamer Straße 10, 4323 Münzbach"
-     ],
-     "confidence": "confirmed-code",
-     "stores": [
-      "Hofer"
-     ],
-     "brands": [
-      {
-       "brand": "Greisinger",
-       "stores": [
-        "Hofer"
-       ],
-       "ids": [
-        1368,
-        1369
        ]
       }
      ]
@@ -913,28 +1062,6 @@
        ],
        "ids": [
         34
-       ]
-      }
-     ]
-    },
-    {
-     "name": "Euryza GmbH",
-     "role": "Hersteller",
-     "logo": null,
-     "codes": [],
-     "plants": [],
-     "confidence": "label-address",
-     "stores": [
-      "Billa"
-     ],
-     "brands": [
-      {
-       "brand": "Reis-Fit",
-       "stores": [
-        "Billa"
-       ],
-       "ids": [
-        35
        ]
       }
      ]
@@ -1099,6 +1226,28 @@
        ],
        "ids": [
         1267
+       ]
+      }
+     ]
+    },
+    {
+     "name": "BioGourmet GmbH",
+     "role": "Hersteller",
+     "logo": null,
+     "codes": [],
+     "plants": [],
+     "confidence": "label-address",
+     "stores": [
+      "dm"
+     ],
+     "brands": [
+      {
+       "brand": "BioGourmet",
+       "stores": [
+        "dm"
+       ],
+       "ids": [
+        1280
        ]
       }
      ]
@@ -1314,28 +1463,6 @@
      ]
     },
     {
-     "name": "dm-drogerie markt GmbH + Co.KG",
-     "role": "Hersteller",
-     "logo": null,
-     "codes": [],
-     "plants": [],
-     "confidence": "label-address",
-     "stores": [
-      "dm"
-     ],
-     "brands": [
-      {
-       "brand": "dmBio",
-       "stores": [
-        "dm"
-       ],
-       "ids": [
-        2100
-       ]
-      }
-     ]
-    },
-    {
      "name": "Comerandalus S.L. (Marke Arteoliva)",
      "role": "Hersteller",
      "logo": null,
@@ -1374,7 +1501,7 @@
         "Gurkerl"
        ],
        "ids": [
-        2318
+        2325
        ]
       }
      ]
@@ -1396,7 +1523,7 @@
         "Gurkerl"
        ],
        "ids": [
-        2376
+        2383
        ]
       }
      ]
@@ -1418,7 +1545,7 @@
         "Gurkerl"
        ],
        "ids": [
-        2383
+        2390
        ]
       }
      ]
@@ -1440,7 +1567,7 @@
         "Gurkerl"
        ],
        "ids": [
-        2403
+        2410
        ]
       }
      ]
@@ -1462,7 +1589,7 @@
         "Gurkerl"
        ],
        "ids": [
-        2433
+        2440
        ]
       }
      ]
@@ -1484,7 +1611,7 @@
         "Billa"
        ],
        "ids": [
-        2438
+        2445
        ]
       }
      ]
@@ -1506,7 +1633,7 @@
         "Billa"
        ],
        "ids": [
-        2447
+        2454
        ]
       }
      ]
@@ -1528,7 +1655,7 @@
         "Billa"
        ],
        "ids": [
-        2458
+        2465
        ]
       }
      ]
@@ -1550,7 +1677,7 @@
         "Billa"
        ],
        "ids": [
-        2465
+        2472
        ]
       }
      ]
@@ -1572,7 +1699,7 @@
         "Billa"
        ],
        "ids": [
-        2467
+        2474
        ]
       }
      ]
@@ -1594,7 +1721,7 @@
         "Billa"
        ],
        "ids": [
-        2469
+        2476
        ]
       }
      ]
@@ -1616,7 +1743,7 @@
         "Billa"
        ],
        "ids": [
-        2470
+        2477
        ]
       }
      ]
@@ -1638,7 +1765,7 @@
         "Billa"
        ],
        "ids": [
-        2471
+        2478
        ]
       }
      ]
@@ -1660,398 +1787,13 @@
         "Billa"
        ],
        "ids": [
-        2476
+        2483
        ]
       }
      ]
     }
    ],
-   "n": 201
-  },
-  {
-   "konzern": "REWE Group",
-   "flag": "🇩🇪",
-   "producers": [
-    {
-     "name": "BILLA AG",
-     "role": "Inverkehrbringer (Handel) – Werk unbekannt",
-     "logo": null,
-     "codes": [
-      "AT 32522 EU",
-      "Unter Schutzatmosphäre verpackt.\nAT-32629-EU",
-      "Vor dem Verzehr sorgfältig durcherhitzen.\nUnter Schutzatmosphäre verpackt.\nAT-61904-EU",
-      "tiefgekühlt\nVor dem Verzehr vollständig erhitzen."
-     ],
-     "plants": [],
-     "confidence": "label-address",
-     "stores": [
-      "Billa"
-     ],
-     "brands": [
-      {
-       "brand": "BILLA Immer Gut",
-       "stores": [
-        "Billa"
-       ],
-       "ids": [
-        4,
-        5,
-        7,
-        8,
-        9,
-        457,
-        555,
-        556,
-        557,
-        558,
-        559,
-        560,
-        561,
-        562,
-        564,
-        565,
-        566,
-        567,
-        568,
-        569,
-        570,
-        571,
-        572,
-        574,
-        577,
-        579,
-        580,
-        581,
-        583,
-        587,
-        589,
-        590,
-        591,
-        592,
-        593,
-        595,
-        596,
-        598,
-        601,
-        602,
-        603,
-        604,
-        1077,
-        1293,
-        1296,
-        1297,
-        1298,
-        1299,
-        1300,
-        1301,
-        1302,
-        1303,
-        1304,
-        1305,
-        1306,
-        2033,
-        2039,
-        2081,
-        2090,
-        2096,
-        2121,
-        2122,
-        2123,
-        2445,
-        2446,
-        2457,
-        2461,
-        2464,
-        2468
-       ]
-      },
-      {
-       "brand": "Omis Schmankerl",
-       "stores": [
-        "Billa"
-       ],
-       "ids": [
-        611,
-        615,
-        616,
-        620,
-        621,
-        626,
-        627,
-        630,
-        631,
-        634,
-        636,
-        637,
-        638,
-        639,
-        640,
-        644,
-        645,
-        1069,
-        1070,
-        1071,
-        2034
-       ]
-      },
-      {
-       "brand": "Clever",
-       "stores": [
-        "Billa"
-       ],
-       "ids": [
-        397,
-        537,
-        539,
-        549,
-        550,
-        552,
-        553,
-        1307,
-        1309,
-        1312,
-        1313,
-        1322,
-        1325,
-        2041,
-        2082,
-        2089,
-        2130,
-        2135
-       ]
-      },
-      {
-       "brand": "BILLA Bio",
-       "stores": [
-        "Billa"
-       ],
-       "ids": [
-        3,
-        648,
-        649,
-        650,
-        651,
-        652,
-        653,
-        654,
-        655,
-        659,
-        660,
-        661,
-        887,
-        888,
-        1295
-       ]
-      },
-      {
-       "brand": "Simply Good",
-       "stores": [
-        "Billa"
-       ],
-       "ids": [
-        38,
-        39,
-        40,
-        41,
-        42,
-        43,
-        44,
-        608,
-        610,
-        2473
-       ]
-      },
-      {
-       "brand": "BILLA Genusswelt",
-       "stores": [
-        "Billa"
-       ],
-       "ids": [
-        1065,
-        1066,
-        1068,
-        1079,
-        1080,
-        1081,
-        1082
-       ]
-      },
-      {
-       "brand": "Vegavita",
-       "stores": [
-        "Billa"
-       ],
-       "ids": [
-        48,
-        668,
-        669,
-        670,
-        671,
-        1360
-       ]
-      },
-      {
-       "brand": "Ja! Natürlich",
-       "stores": [
-        "Billa"
-       ],
-       "ids": [
-        663
-       ]
-      },
-      {
-       "brand": "BILLA",
-       "stores": [
-        "Billa"
-       ],
-       "ids": [
-        1083
-       ]
-      },
-      {
-       "brand": "Hofstädter",
-       "stores": [
-        "Billa"
-       ],
-       "ids": [
-        1331
-       ]
-      }
-     ]
-    },
-    {
-     "name": "Rewe Austria Genussküche GmbH",
-     "role": "Hersteller",
-     "logo": "analysis/logos/rewe-genusskueche.svg",
-     "codes": [
-      "AT 32629 EG",
-      "AT 32629 EU"
-     ],
-     "plants": [
-      "Betriebsstraße 2, 2512 Traiskirchen",
-      "Traiskirchen"
-     ],
-     "confidence": "confirmed-code",
-     "stores": [
-      "Billa",
-      "unbekannt (OFF)"
-     ],
-     "brands": [
-      {
-       "brand": "Omis Schmankerl",
-       "stores": [
-        "Billa"
-       ],
-       "ids": [
-        613,
-        614,
-        618,
-        623,
-        632,
-        633,
-        635,
-        886
-       ]
-      },
-      {
-       "brand": "Simply Good",
-       "stores": [
-        "Billa"
-       ],
-       "ids": [
-        605,
-        606,
-        607,
-        609
-       ]
-      },
-      {
-       "brand": "Clever",
-       "stores": [
-        "Billa"
-       ],
-       "ids": [
-        545,
-        546
-       ]
-      },
-      {
-       "brand": "BILLA Immer Gut",
-       "stores": [
-        "Billa"
-       ],
-       "ids": [
-        578,
-        889
-       ]
-      },
-      {
-       "brand": "Billa",
-       "stores": [
-        "unbekannt (OFF)"
-       ],
-       "ids": [
-        2482,
-        2497
-       ]
-      }
-     ]
-    },
-    {
-     "name": "Rewe Austria Fleischwaren GmbH",
-     "role": "Hersteller",
-     "logo": "analysis/logos/rewe-austria-fleischwaren.svg",
-     "codes": [
-      "AT 42152 EG"
-     ],
-     "plants": [
-      "Solarstraße 8, 4653 Eberstalzell"
-     ],
-     "confidence": "confirmed-code",
-     "stores": [
-      "Billa"
-     ],
-     "brands": [
-      {
-       "brand": "Clever",
-       "stores": [
-        "Billa"
-       ],
-       "ids": [
-        1319,
-        1320,
-        1321,
-        1323
-       ]
-      }
-     ]
-    },
-    {
-     "name": "Ja! Natürlich Naturprodukte Gesellschaft m.b.H.",
-     "role": "Inverkehrbringer (Handel) – Werk unbekannt",
-     "logo": null,
-     "codes": [],
-     "plants": [],
-     "confidence": "label-address",
-     "stores": [
-      "Billa"
-     ],
-     "brands": [
-      {
-       "brand": "Ja! Natürlich",
-       "stores": [
-        "Billa"
-       ],
-       "ids": [
-        662,
-        1346,
-        1347
-       ]
-      }
-     ]
-    }
-   ],
-   "n": 174
+   "n": 116
   },
   {
    "konzern": "Nomad Foods",
@@ -2161,10 +1903,10 @@
         2200,
         2201,
         2215,
-        2435,
-        2441,
-        2451,
-        2459
+        2442,
+        2448,
+        2458,
+        2466
        ]
       }
      ]
@@ -2186,7 +1928,8 @@
      "stores": [
       "Billa",
       "Gurkerl",
-      "MPreis"
+      "MPreis",
+      "Nah&Frisch"
      ],
      "brands": [
       {
@@ -2194,7 +1937,8 @@
        "stores": [
         "Billa",
         "Gurkerl",
-        "MPreis"
+        "MPreis",
+        "Nah&Frisch"
        ],
        "ids": [
         406,
@@ -2232,7 +1976,60 @@
         2157,
         2187,
         2204,
-        2345
+        2223,
+        2224,
+        2226,
+        2352
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Weinbergmaier GmbH",
+     "role": "Hersteller",
+     "logo": null,
+     "codes": [],
+     "plants": [],
+     "confidence": "label-address",
+     "stores": [
+      "Billa",
+      "MPreis"
+     ],
+     "brands": [
+      {
+       "brand": "Toni Kaiser",
+       "stores": [
+        "Billa",
+        "MPreis"
+       ],
+       "ids": [
+        45,
+        46,
+        47,
+        2193,
+        2455
+       ]
+      },
+      {
+       "brand": "Ackerl",
+       "stores": [
+        "Billa"
+       ],
+       "ids": [
+        1287,
+        1288,
+        1289,
+        1290
+       ]
+      },
+      {
+       "brand": "Bauernland",
+       "stores": [
+        "Billa"
+       ],
+       "ids": [
+        2456,
+        2457
        ]
       }
      ]
@@ -2334,84 +2131,6 @@
      ]
     },
     {
-     "name": "Weinbergmaier GmbH",
-     "role": "Hersteller",
-     "logo": null,
-     "codes": [],
-     "plants": [],
-     "confidence": "label-address",
-     "stores": [
-      "Billa",
-      "MPreis"
-     ],
-     "brands": [
-      {
-       "brand": "Toni Kaiser",
-       "stores": [
-        "Billa",
-        "MPreis"
-       ],
-       "ids": [
-        45,
-        46,
-        47,
-        2193,
-        2448
-       ]
-      },
-      {
-       "brand": "Bauernland",
-       "stores": [
-        "Billa"
-       ],
-       "ids": [
-        2449,
-        2450
-       ]
-      }
-     ]
-    },
-    {
-     "name": "Wiesbauer Gourmet Gastro GmbH",
-     "role": "Hersteller",
-     "logo": "analysis/logos/wiesbauer-gourmet.png",
-     "codes": [
-      "AT 31538 EG",
-      "AT 31538 EU"
-     ],
-     "plants": [
-      "Sitzenberg-Reidling",
-      "Wiesbauer Straße 1, 3454 Sitzenberg-Reidling"
-     ],
-     "confidence": "confirmed-code",
-     "stores": [
-      "Billa"
-     ],
-     "brands": [
-      {
-       "brand": "BILLA Genusswelt",
-       "stores": [
-        "Billa"
-       ],
-       "ids": [
-        664,
-        665,
-        666
-       ]
-      },
-      {
-       "brand": "Hofstädter",
-       "stores": [
-        "Billa"
-       ],
-       "ids": [
-        878,
-        879
-       ]
-      }
-     ]
-    },
-    {
      "name": "Hink GmbH",
      "role": "Hersteller",
      "logo": "analysis/logos/hink.svg",
@@ -2471,53 +2190,96 @@
        ]
       }
      ]
-    },
+    }
+   ],
+   "n": 74
+  },
+  {
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
+   "producers": [
     {
-     "name": "BioGourmet GmbH",
+     "name": "Subway",
      "role": "Hersteller",
      "logo": null,
      "codes": [],
      "plants": [],
      "confidence": "label-address",
      "stores": [
-      "dm"
+      "Subway"
      ],
      "brands": [
       {
-       "brand": "BioGourmet",
+       "brand": "Subway",
        "stores": [
-        "dm"
+        "Subway"
        ],
        "ids": [
-        1280
-       ]
-      }
-     ]
-    },
-    {
-     "name": "deli gourmet GmbH",
-     "role": "Hersteller",
-     "logo": null,
-     "codes": [],
-     "plants": [],
-     "confidence": "label-address",
-     "stores": [
-      "Gurkerl"
-     ],
-     "brands": [
-      {
-       "brand": "Deli Dip",
-       "stores": [
-        "Gurkerl"
-       ],
-       "ids": [
-        2324
+        2809,
+        2810,
+        2811,
+        2812,
+        2813,
+        2814,
+        2815,
+        2816,
+        2817,
+        2818,
+        2819,
+        2820,
+        2821,
+        2822,
+        2823,
+        2824,
+        2825,
+        2826,
+        2827,
+        2828,
+        2829,
+        2830,
+        2831,
+        2832,
+        2833,
+        2834,
+        2835,
+        2836,
+        2837,
+        2838,
+        2839,
+        2840,
+        2841,
+        2842,
+        2843,
+        2844,
+        2845,
+        2846,
+        2847,
+        2848,
+        2849,
+        2850,
+        2851,
+        2852,
+        2853,
+        2854,
+        2855,
+        2856,
+        2857,
+        2858,
+        2859,
+        2860,
+        2861,
+        2862,
+        2863,
+        2864,
+        2865,
+        2866,
+        2867
        ]
       }
      ]
     }
    ],
-   "n": 74
+   "n": 59
   },
   {
    "konzern": "Oetker-Gruppe (Dr. August Oetker KG)",
@@ -2593,10 +2355,10 @@
         2211,
         2212,
         2213,
-        2442,
-        2443,
-        2453,
-        2466
+        2449,
+        2450,
+        2460,
+        2473
        ]
       }
      ]
@@ -2647,39 +2409,39 @@
         "NORDSEE"
        ],
        "ids": [
-        2763,
-        2764,
-        2765,
-        2766,
-        2767,
-        2768,
-        2769,
         2770,
         2771,
         2772,
         2773,
         2774,
         2775,
+        2776,
+        2777,
         2778,
         2779,
         2780,
         2781,
         2782,
-        2783,
-        2784,
+        2785,
         2786,
         2787,
         2788,
         2789,
+        2790,
         2791,
-        2792,
+        2793,
         2794,
         2795,
-        2797,
+        2796,
         2798,
         2799,
-        2800,
-        2801
+        2801,
+        2802,
+        2804,
+        2805,
+        2806,
+        2807,
+        2808
        ]
       }
      ]
@@ -2837,10 +2599,10 @@
         1473,
         1474,
         1475,
-        2742,
-        2743,
-        2745,
-        2746
+        2749,
+        2750,
+        2752,
+        2753
        ]
       }
      ]
@@ -2884,7 +2646,7 @@
         1512,
         1997,
         2042,
-        2460
+        2467
        ]
       }
      ]
@@ -3039,6 +2801,116 @@
     }
    ],
    "n": 24
+  },
+  {
+   "konzern": "Landgenossenschaft Ennstal (Genossenschaft)",
+   "flag": "🇦🇹",
+   "producers": [
+    {
+     "name": "Landgenossenschaft Ennstal LANDENA KG",
+     "role": "Hersteller",
+     "logo": "analysis/logos/landena.png",
+     "codes": [
+      "AT 62028 EG"
+     ],
+     "plants": [
+      "Erzherzog-Johann-Straße 303, 8950 Stainach-Pürgg"
+     ],
+     "confidence": "confirmed-code",
+     "stores": [
+      "Billa",
+      "Gurkerl",
+      "Hofer",
+      "Nah&Frisch",
+      "Spar",
+      "unbekannt (OFF)"
+     ],
+     "brands": [
+      {
+       "brand": "Inzersdorfer",
+       "stores": [
+        "Gurkerl",
+        "Nah&Frisch",
+        "Spar"
+       ],
+       "ids": [
+        89,
+        90,
+        93,
+        98,
+        99,
+        103,
+        105,
+        107,
+        108,
+        109,
+        1477,
+        1479,
+        2020,
+        2225
+       ]
+      },
+      {
+       "brand": "Clever",
+       "stores": [
+        "Billa"
+       ],
+       "ids": [
+        547,
+        551
+       ]
+      },
+      {
+       "brand": "Primana",
+       "stores": [
+        "Hofer"
+       ],
+       "ids": [
+        704,
+        1245
+       ]
+      },
+      {
+       "brand": "PRIMANA",
+       "stores": [
+        "Hofer"
+       ],
+       "ids": [
+        824,
+        1439
+       ]
+      },
+      {
+       "brand": "S-Budget",
+       "stores": [
+        "Spar"
+       ],
+       "ids": [
+        170
+       ]
+      },
+      {
+       "brand": "inzersdorfer",
+       "stores": [
+        "unbekannt (OFF)"
+       ],
+       "ids": [
+        1423
+       ]
+      },
+      {
+       "brand": "iglo",
+       "stores": [
+        "Billa"
+       ],
+       "ids": [
+        2509
+       ]
+      }
+     ]
+    }
+   ],
+   "n": 23
   },
   {
    "konzern": "Felix Austria (Orkla)",
@@ -3218,113 +3090,6 @@
    "n": 23
   },
   {
-   "konzern": "Landgenossenschaft Ennstal (Genossenschaft)",
-   "flag": "🇦🇹",
-   "producers": [
-    {
-     "name": "Landgenossenschaft Ennstal LANDENA KG",
-     "role": "Hersteller",
-     "logo": "analysis/logos/landena.png",
-     "codes": [
-      "AT 62028 EG"
-     ],
-     "plants": [
-      "Erzherzog-Johann-Straße 303, 8950 Stainach-Pürgg"
-     ],
-     "confidence": "confirmed-code",
-     "stores": [
-      "Billa",
-      "Gurkerl",
-      "Hofer",
-      "Spar",
-      "unbekannt (OFF)"
-     ],
-     "brands": [
-      {
-       "brand": "Inzersdorfer",
-       "stores": [
-        "Gurkerl",
-        "Spar"
-       ],
-       "ids": [
-        89,
-        90,
-        93,
-        98,
-        99,
-        103,
-        105,
-        107,
-        108,
-        109,
-        1477,
-        1479,
-        2020
-       ]
-      },
-      {
-       "brand": "Clever",
-       "stores": [
-        "Billa"
-       ],
-       "ids": [
-        547,
-        551
-       ]
-      },
-      {
-       "brand": "Primana",
-       "stores": [
-        "Hofer"
-       ],
-       "ids": [
-        704,
-        1245
-       ]
-      },
-      {
-       "brand": "PRIMANA",
-       "stores": [
-        "Hofer"
-       ],
-       "ids": [
-        824,
-        1439
-       ]
-      },
-      {
-       "brand": "S-Budget",
-       "stores": [
-        "Spar"
-       ],
-       "ids": [
-        170
-       ]
-      },
-      {
-       "brand": "inzersdorfer",
-       "stores": [
-        "unbekannt (OFF)"
-       ],
-       "ids": [
-        1423
-       ]
-      },
-      {
-       "brand": "iglo",
-       "stores": [
-        "Billa"
-       ],
-       "ids": [
-        2502
-       ]
-      }
-     ]
-    }
-   ],
-   "n": 22
-  },
-  {
    "konzern": "Alnatura",
    "flag": "🇩🇪",
    "producers": [
@@ -3362,10 +3127,10 @@
         2115,
         2153,
         2205,
-        2323,
-        2326,
-        2331,
-        2417
+        2330,
+        2333,
+        2338,
+        2424
        ]
       }
      ]
@@ -3397,6 +3162,66 @@
     }
    ],
    "n": 21
+  },
+  {
+   "konzern": "dm-drogerie markt (dm-Werner-Stiftung / Familie Lehmann)",
+   "flag": "🇩🇪",
+   "producers": [
+    {
+     "name": "dm-drogerie markt GmbH + Co. KG",
+     "role": "Hersteller",
+     "logo": null,
+     "codes": [],
+     "plants": [],
+     "confidence": "label-address",
+     "stores": [
+      "dm"
+     ],
+     "brands": [
+      {
+       "brand": "dmBio",
+       "stores": [
+        "dm"
+       ],
+       "ids": [
+        1262,
+        1263,
+        1268,
+        1269,
+        1270,
+        1271,
+        1272,
+        1282,
+        1284,
+        1285
+       ]
+      }
+     ]
+    },
+    {
+     "name": "dm-drogerie markt GmbH + Co.KG",
+     "role": "Hersteller",
+     "logo": null,
+     "codes": [],
+     "plants": [],
+     "confidence": "label-address",
+     "stores": [
+      "dm"
+     ],
+     "brands": [
+      {
+       "brand": "dmBio",
+       "stores": [
+        "dm"
+       ],
+       "ids": [
+        2100
+       ]
+      }
+     ]
+    }
+   ],
+   "n": 11
   },
   {
    "konzern": "Mars Inc.",
@@ -3718,6 +3543,75 @@
    "n": 7
   },
   {
+   "konzern": "Wiesbauer Gruppe",
+   "flag": "🇦🇹",
+   "producers": [
+    {
+     "name": "Wiesbauer Gourmet Gastro GmbH",
+     "role": "Hersteller",
+     "logo": "analysis/logos/wiesbauer-gourmet.png",
+     "codes": [
+      "AT 31538 EG",
+      "AT 31538 EU"
+     ],
+     "plants": [
+      "Sitzenberg-Reidling",
+      "Wiesbauer Straße 1, 3454 Sitzenberg-Reidling"
+     ],
+     "confidence": "confirmed-code",
+     "stores": [
+      "Billa"
+     ],
+     "brands": [
+      {
+       "brand": "BILLA Genusswelt",
+       "stores": [
+        "Billa"
+       ],
+       "ids": [
+        664,
+        665,
+        666
+       ]
+      },
+      {
+       "brand": "Hofstädter",
+       "stores": [
+        "Billa"
+       ],
+       "ids": [
+        878,
+        879
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Wiesbauer Österreichische Wurstspezialitäten GmbH",
+     "role": "Hersteller",
+     "logo": null,
+     "codes": [],
+     "plants": [],
+     "confidence": "label-address",
+     "stores": [
+      "Billa"
+     ],
+     "brands": [
+      {
+       "brand": "Wiesbauer",
+       "stores": [
+        "Billa"
+       ],
+       "ids": [
+        414
+       ]
+      }
+     ]
+    }
+   ],
+   "n": 6
+  },
+  {
    "konzern": "Compass Group plc (Hofmann-Menü-Gruppe)",
    "flag": "🇬🇧",
    "producers": [
@@ -3743,7 +3637,7 @@
         1636,
         1718,
         1766,
-        2388
+        2395
        ]
       }
      ]
@@ -4036,6 +3930,38 @@
    "n": 4
   },
   {
+   "konzern": "BS Gastro & Event Services GmbH (BRoK, Schwechat)",
+   "flag": "🇦🇹",
+   "producers": [
+    {
+     "name": "BS Gastro & Event Services GmbH",
+     "role": "Hersteller",
+     "logo": null,
+     "codes": [],
+     "plants": [],
+     "confidence": "label-address",
+     "stores": [
+      "Gurkerl"
+     ],
+     "brands": [
+      {
+       "brand": "Wiener Virtshaus",
+       "stores": [
+        "Gurkerl"
+       ],
+       "ids": [
+        1553,
+        1712,
+        1847,
+        2368
+       ]
+      }
+     ]
+    }
+   ],
+   "n": 4
+  },
+  {
    "konzern": "Kreyenhop & Kluge (Diamond)",
    "flag": "🇩🇪",
    "producers": [
@@ -4128,7 +4054,7 @@
         "Gurkerl"
        ],
        "ids": [
-        2414
+        2421
        ]
       },
       {
@@ -4137,7 +4063,7 @@
         "Billa"
        ],
        "ids": [
-        2452
+        2459
        ]
       }
      ]
@@ -4292,6 +4218,37 @@
    "n": 3
   },
   {
+   "konzern": "Adolf Darbo AG (Familie Darbo, Stans)",
+   "flag": "🇦🇹",
+   "producers": [
+    {
+     "name": "A. Darbo AG",
+     "role": "Hersteller",
+     "logo": null,
+     "codes": [],
+     "plants": [],
+     "confidence": "label-address",
+     "stores": [
+      "Billa"
+     ],
+     "brands": [
+      {
+       "brand": "Darbo",
+       "stores": [
+        "Billa"
+       ],
+       "ids": [
+        2446,
+        2447,
+        2463
+       ]
+      }
+     ]
+    }
+   ],
+   "n": 3
+  },
+  {
    "konzern": "Meica GmbH",
    "flag": "🇩🇪",
    "producers": [
@@ -4347,6 +4304,36 @@
    "n": 2
   },
   {
+   "konzern": "NewPrinces Group (Princes, ex Newlat Food)",
+   "flag": "🇮🇹",
+   "producers": [
+    {
+     "name": "Princes Foods B.V.",
+     "role": "Hersteller",
+     "logo": null,
+     "codes": [],
+     "plants": [],
+     "confidence": "label-address",
+     "stores": [
+      "Billa"
+     ],
+     "brands": [
+      {
+       "brand": "Vier Diamanten",
+       "stores": [
+        "Billa"
+       ],
+       "ids": [
+        1027,
+        1028
+       ]
+      }
+     ]
+    }
+   ],
+   "n": 2
+  },
+  {
    "konzern": "Planted Foods AG",
    "flag": "🇨🇭",
    "producers": [
@@ -4390,6 +4377,40 @@
        ],
        "ids": [
         1826
+       ]
+      }
+     ]
+    }
+   ],
+   "n": 2
+  },
+  {
+   "konzern": "Greisinger GmbH (Familie Greisinger, Münzbach)",
+   "flag": "🇦🇹",
+   "producers": [
+    {
+     "name": "Greisinger GmbH",
+     "role": "Hersteller",
+     "logo": null,
+     "codes": [
+      "AT 40559 EG"
+     ],
+     "plants": [
+      "Klamer Straße 10, 4323 Münzbach"
+     ],
+     "confidence": "confirmed-code",
+     "stores": [
+      "Hofer"
+     ],
+     "brands": [
+      {
+       "brand": "Greisinger",
+       "stores": [
+        "Hofer"
+       ],
+       "ids": [
+        1368,
+        1369
        ]
       }
      ]
@@ -4556,11 +4577,11 @@
    "n": 2
   },
   {
-   "konzern": "Wiesbauer Gruppe",
-   "flag": "🇦🇹",
+   "konzern": "Ebro Foods (Euryza GmbH)",
+   "flag": "🇪🇸",
    "producers": [
     {
-     "name": "Wiesbauer Österreichische Wurstspezialitäten GmbH",
+     "name": "Euryza GmbH",
      "role": "Hersteller",
      "logo": null,
      "codes": [],
@@ -4571,12 +4592,12 @@
      ],
      "brands": [
       {
-       "brand": "Wiesbauer",
+       "brand": "Reis-Fit",
        "stores": [
         "Billa"
        ],
        "ids": [
-        414
+        35
        ]
       }
      ]
@@ -4757,6 +4778,35 @@
     }
    ],
    "n": 1
+  },
+  {
+   "konzern": "deli gourmet GmbH (Wien)",
+   "flag": "🇦🇹",
+   "producers": [
+    {
+     "name": "deli gourmet GmbH",
+     "role": "Hersteller",
+     "logo": null,
+     "codes": [],
+     "plants": [],
+     "confidence": "label-address",
+     "stores": [
+      "Gurkerl"
+     ],
+     "brands": [
+      {
+       "brand": "Deli Dip",
+       "stores": [
+        "Gurkerl"
+       ],
+       "ids": [
+        2331
+       ]
+      }
+     ]
+    }
+   ],
+   "n": 1
   }
  ],
  "same_product": [
@@ -4774,11 +4824,16 @@
     {
      "brand": "Inzersdorfer",
      "store": "Gurkerl"
+    },
+    {
+     "brand": "Inzersdorfer",
+     "store": "Nah&Frisch"
     }
    ],
    "ids": [
     547,
-    2020
+    2020,
+    2225
    ],
    "cheapest": 547,
    "price_spread_pct": 223,
@@ -4814,7 +4869,7 @@
     551,
     824,
     1439,
-    2502
+    2509
    ],
    "cheapest": 551,
    "price_spread_pct": 133,
@@ -5142,12 +5197,17 @@
     {
      "brand": "Inzersdorfer",
      "store": "MPreis"
+    },
+    {
+     "brand": "Inzersdorfer",
+     "store": "Nah&Frisch"
     }
    ],
    "ids": [
     407,
     408,
-    2139
+    2139,
+    2223
    ],
    "cheapest": 407,
    "price_spread_pct": 34,
@@ -5331,7 +5391,7 @@
    ],
    "ids": [
     959,
-    2345
+    2352
    ],
    "cheapest": 959,
    "price_spread_pct": 3,
@@ -5482,6 +5542,54 @@
    "cheapest": 925,
    "price_spread_pct": 0,
    "confidence": "label-address"
+  },
+  {
+   "producer": "Maresi Austria GmbH",
+   "konzern": "VIVATIS Holding (RLB OÖ)",
+   "dishKey": "beuschel",
+   "dish": "Beuschel",
+   "kind": "gleiche Marke, andere Kette",
+   "labels": [
+    {
+     "brand": "Inzersdorfer",
+     "store": "Billa"
+    },
+    {
+     "brand": "Inzersdorfer",
+     "store": "Nah&Frisch"
+    }
+   ],
+   "ids": [
+    964,
+    2226
+   ],
+   "cheapest": 964,
+   "price_spread_pct": null,
+   "confidence": "label-address"
+  },
+  {
+   "producer": "Maresi Austria GmbH",
+   "konzern": "VIVATIS Holding (RLB OÖ)",
+   "dishKey": "gulaschsuppe",
+   "dish": "Gulaschsuppe",
+   "kind": "gleiche Marke, andere Kette",
+   "labels": [
+    {
+     "brand": "Inzersdorfer",
+     "store": "MPreis"
+    },
+    {
+     "brand": "Inzersdorfer",
+     "store": "Nah&Frisch"
+    }
+   ],
+   "ids": [
+    2152,
+    2224
+   ],
+   "cheapest": 2152,
+   "price_spread_pct": null,
+   "confidence": "label-address"
   }
  ],
  "dishes": [
@@ -5512,7 +5620,7 @@
   {
    "dishKey": "rindsgulasch",
    "dish": "Rindsgulasch",
-   "n": 53,
+   "n": 54,
    "brands": 31,
    "stores": [
     "Billa",
@@ -5520,6 +5628,7 @@
     "Gurkerl",
     "Hofer",
     "MPreis",
+    "Nah&Frisch",
     "Penny",
     "Spar",
     "dm",
@@ -5538,7 +5647,7 @@
     "Wiesbauer Gourmet Gastro GmbH",
     "dm-drogerie markt GmbH + Co. KG"
    ],
-   "unknown_share": 62,
+   "unknown_share": 61,
    "p100g_min": 0.7,
    "p100g_max": 2.85
   },
@@ -5563,6 +5672,33 @@
    "unknown_share": 86,
    "p100g_min": 0.45,
    "p100g_max": 2.52
+  },
+  {
+   "dishKey": "gulaschsuppe",
+   "dish": "Gulaschsuppe",
+   "n": 37,
+   "brands": 14,
+   "stores": [
+    "Billa",
+    "Gurkerl",
+    "Hofer",
+    "MPreis",
+    "Nah&Frisch",
+    "Spar",
+    "unbekannt (OFF)"
+   ],
+   "producers_known": [
+    "Amiata Feinkost GmbH",
+    "FELIX Austria GmbH",
+    "Felix Austria GmbH",
+    "Landgenossenschaft Ennstal LANDENA KG",
+    "Maresi Austria GmbH",
+    "Unilever Austria",
+    "Unilever Austria GmbH"
+   ],
+   "unknown_share": 46,
+   "p100g_min": 0.34,
+   "p100g_max": 1.25
   },
   {
    "dishKey": "spaghetti-bolognese",
@@ -5592,32 +5728,6 @@
    "unknown_share": 84,
    "p100g_min": 0.4,
    "p100g_max": 3.4
-  },
-  {
-   "dishKey": "gulaschsuppe",
-   "dish": "Gulaschsuppe",
-   "n": 36,
-   "brands": 14,
-   "stores": [
-    "Billa",
-    "Gurkerl",
-    "Hofer",
-    "MPreis",
-    "Spar",
-    "unbekannt (OFF)"
-   ],
-   "producers_known": [
-    "Amiata Feinkost GmbH",
-    "FELIX Austria GmbH",
-    "Felix Austria GmbH",
-    "Landgenossenschaft Ennstal LANDENA KG",
-    "Maresi Austria GmbH",
-    "Unilever Austria",
-    "Unilever Austria GmbH"
-   ],
-   "unknown_share": 47,
-   "p100g_min": 0.34,
-   "p100g_max": 1.25
   },
   {
    "dishKey": "chili-con-carne",
@@ -5782,6 +5892,26 @@
    "p100g_max": 2.02
   },
   {
+   "dishKey": "kohlroulade",
+   "dish": "Krautroulade/Gefüllte Paprika",
+   "n": 16,
+   "brands": 5,
+   "stores": [
+    "Billa",
+    "Gurkerl",
+    "Nah&Frisch",
+    "Spar"
+   ],
+   "producers_known": [
+    "FELIX Austria GmbH",
+    "Landgenossenschaft Ennstal LANDENA KG",
+    "Maresi Austria GmbH"
+   ],
+   "unknown_share": 56,
+   "p100g_min": 0.33,
+   "p100g_max": 2.01
+  },
+  {
    "dishKey": "wiener-suppentopf",
    "dish": "Wiener Suppentopf",
    "n": 15,
@@ -5801,25 +5931,6 @@
    "unknown_share": 47,
    "p100g_min": 0.5,
    "p100g_max": 2.15
-  },
-  {
-   "dishKey": "kohlroulade",
-   "dish": "Krautroulade/Gefüllte Paprika",
-   "n": 15,
-   "brands": 5,
-   "stores": [
-    "Billa",
-    "Gurkerl",
-    "Spar"
-   ],
-   "producers_known": [
-    "FELIX Austria GmbH",
-    "Landgenossenschaft Ennstal LANDENA KG",
-    "Maresi Austria GmbH"
-   ],
-   "unknown_share": 60,
-   "p100g_min": 0.33,
-   "p100g_max": 2.01
   },
   {
    "dishKey": "eintopf-sonstige",
@@ -6024,6 +6135,25 @@
    "p100g_max": 4.41
   },
   {
+   "dishKey": "beuschel",
+   "dish": "Beuschel",
+   "n": 6,
+   "brands": 4,
+   "stores": [
+    "Billa",
+    "Gurkerl",
+    "Nah&Frisch",
+    "Spar"
+   ],
+   "producers_known": [
+    "Maresi Austria GmbH",
+    "Unilever Austria"
+   ],
+   "unknown_share": 50,
+   "p100g_min": 0.69,
+   "p100g_max": 2.42
+  },
+  {
    "dishKey": "schinkenfleckerl",
    "dish": "Schinkenfleckerl",
    "n": 6,
@@ -6077,24 +6207,6 @@
    "unknown_share": 80,
    "p100g_min": 1.42,
    "p100g_max": 2.35
-  },
-  {
-   "dishKey": "beuschel",
-   "dish": "Beuschel",
-   "n": 5,
-   "brands": 4,
-   "stores": [
-    "Billa",
-    "Gurkerl",
-    "Spar"
-   ],
-   "producers_known": [
-    "Maresi Austria GmbH",
-    "Unilever Austria"
-   ],
-   "unknown_share": 60,
-   "p100g_min": 0.69,
-   "p100g_max": 2.42
   },
   {
    "dishKey": "geschnetzeltes",
@@ -6777,8 +6889,8 @@
    "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-701253-2102972277-zzPLrFCF.jpg",
    "producer": "Euryza GmbH",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Ebro Foods (Euryza GmbH)",
+   "flag": "🇪🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -9948,7 +10060,7 @@
    "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-346357-0194496744-E5xeANM-.jpg",
    "producer": "Wiesbauer Gourmet Gastro GmbH",
    "role": "Hersteller",
-   "konzern": "VIVATIS Holding (RLB OÖ)",
+   "konzern": "Wiesbauer Gruppe",
    "flag": "🇦🇹",
    "code": "AT 31538 EG",
    "plant": "Wiesbauer Straße 1, 3454 Sitzenberg-Reidling",
@@ -9969,7 +10081,7 @@
    "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-517799-0192659558-p4-DqPF7.jpg",
    "producer": "Wiesbauer Gourmet Gastro GmbH",
    "role": "Hersteller",
-   "konzern": "VIVATIS Holding (RLB OÖ)",
+   "konzern": "Wiesbauer Gruppe",
    "flag": "🇦🇹",
    "code": "AT 31538 EG",
    "plant": "Wiesbauer Straße 1, 3454 Sitzenberg-Reidling",
@@ -9990,7 +10102,7 @@
    "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-718376-642343416-UgIUu9Bh.jpg",
    "producer": "Wiesbauer Gourmet Gastro GmbH",
    "role": "Hersteller",
-   "konzern": "VIVATIS Holding (RLB OÖ)",
+   "konzern": "Wiesbauer Gruppe",
    "flag": "🇦🇹",
    "code": "AT 31538 EU",
    "plant": "Sitzenberg-Reidling",
@@ -10389,7 +10501,7 @@
    "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-739211-195295694--HEaPxTO.jpg",
    "producer": "Wiesbauer Gourmet Gastro GmbH",
    "role": "Hersteller",
-   "konzern": "VIVATIS Holding (RLB OÖ)",
+   "konzern": "Wiesbauer Gruppe",
    "flag": "🇦🇹",
    "code": "AT 31538 EG",
    "plant": "Wiesbauer Straße 1, 3454 Sitzenberg-Reidling",
@@ -10410,7 +10522,7 @@
    "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-739286-1791425859-P0psxUK0.jpg",
    "producer": "Wiesbauer Gourmet Gastro GmbH",
    "role": "Hersteller",
-   "konzern": "VIVATIS Holding (RLB OÖ)",
+   "konzern": "Wiesbauer Gruppe",
    "flag": "🇦🇹",
    "code": "AT 31538 EG",
    "plant": "Wiesbauer Straße 1, 3454 Sitzenberg-Reidling",
@@ -11775,8 +11887,8 @@
    "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-864927-0147721791-0N91UXrS.jpg",
    "producer": "Princes Foods B.V.",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "NewPrinces Group (Princes, ex Newlat Food)",
+   "flag": "🇮🇹",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -11796,8 +11908,8 @@
    "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-864947-0719725218-2NxkMHQm.jpg",
    "producer": "Princes Foods B.V.",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "NewPrinces Group (Princes, ex Newlat Food)",
+   "flag": "🇮🇹",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -12930,8 +13042,8 @@
    "img": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1774484108/assets/pas/images/5adea7b4-bae7-4a5f-86c6-dc69a843071c/dmbio-gulasch-vegan",
    "producer": "dm-drogerie markt GmbH + Co. KG",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "dm-drogerie markt (dm-Werner-Stiftung / Familie Lehmann)",
+   "flag": "🇩🇪",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -12951,8 +13063,8 @@
    "img": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1760132977/assets/pas/images/1e5fa371-01c0-4a64-b591-52b15c7a1654/dmbio-eintopf-chili-sin-carne-mit-kidneybohnen-und-weizenhack",
    "producer": "dm-drogerie markt GmbH + Co. KG",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "dm-drogerie markt (dm-Werner-Stiftung / Familie Lehmann)",
+   "flag": "🇩🇪",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -13056,8 +13168,8 @@
    "img": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1781130606/assets/pas/images/0202da11-40f9-4f8b-8ed9-f2e9317a3b8b/dmbio-fertiggericht-mexican-style-bowl",
    "producer": "dm-drogerie markt GmbH + Co. KG",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "dm-drogerie markt (dm-Werner-Stiftung / Familie Lehmann)",
+   "flag": "🇩🇪",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -13077,8 +13189,8 @@
    "img": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1760133002/assets/pas/images/92d02758-5f2d-4466-951a-ab5b666a026f/dmbio-eintopf-linsen-mit-kartoffeln",
    "producer": "dm-drogerie markt GmbH + Co. KG",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "dm-drogerie markt (dm-Werner-Stiftung / Familie Lehmann)",
+   "flag": "🇩🇪",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -13098,8 +13210,8 @@
    "img": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1761166342/assets/pas/images/566b0739-d415-4125-8051-6a9f4e1b72a6/dmbio-eintopf-erbsen-mit-gemuese",
    "producer": "dm-drogerie markt GmbH + Co. KG",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "dm-drogerie markt (dm-Werner-Stiftung / Familie Lehmann)",
+   "flag": "🇩🇪",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -13119,8 +13231,8 @@
    "img": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1764283155/assets/pas/images/4b6c4bfe-c0ae-43ea-bf1f-801c8afbe7b3/dmbio-eintopf-kichererbsen-mit-kokosmilch",
    "producer": "dm-drogerie markt GmbH + Co. KG",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "dm-drogerie markt (dm-Werner-Stiftung / Familie Lehmann)",
+   "flag": "🇩🇪",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -13140,8 +13252,8 @@
    "img": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1763565885/assets/pas/images/0dfc571f-5b77-42e8-85c4-380e191243dc/dmbio-fertiggericht-gemuese-ravioli",
    "producer": "dm-drogerie markt GmbH + Co. KG",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "dm-drogerie markt (dm-Werner-Stiftung / Familie Lehmann)",
+   "flag": "🇩🇪",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -13266,8 +13378,8 @@
    "img": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1747444506/assets/pas/images/5d1b44ae-497f-4608-bb6c-4074d912084e/biogourmet-fertiggericht-baked-beans-in-tomatensauce",
    "producer": "BioGourmet GmbH",
    "role": "Hersteller",
-   "konzern": "VIVATIS Holding (RLB OÖ)",
-   "flag": "🇦🇹",
+   "konzern": "Unabhängig / unbekannt",
+   "flag": "🏳️",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -13308,8 +13420,8 @@
    "img": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1768083242/assets/pas/images/be176423-9466-4ba8-b0de-64449c310327/dmbio-suppe-peking",
    "producer": "dm-drogerie markt GmbH + Co. KG",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "dm-drogerie markt (dm-Werner-Stiftung / Familie Lehmann)",
+   "flag": "🇩🇪",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -13329,8 +13441,8 @@
    "img": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1781130717/assets/pas/images/658805e3-9be6-4780-b1ff-59b977c198c0/dmbio-chili-con-tofu-high-protein",
    "producer": "dm-drogerie markt GmbH + Co. KG",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "dm-drogerie markt (dm-Werner-Stiftung / Familie Lehmann)",
+   "flag": "🇩🇪",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -13350,8 +13462,8 @@
    "img": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1774484136/assets/pas/images/65c2f8ff-02cf-4498-bc26-fa9ae394dc33/dmbio-veganes-no-chicken-curry",
    "producer": "dm-drogerie markt GmbH + Co. KG",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "dm-drogerie markt (dm-Werner-Stiftung / Familie Lehmann)",
+   "flag": "🇩🇪",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -13392,8 +13504,8 @@
    "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-733573-0114316203-hN6Qp6e5.jpg",
    "producer": "Weinbergmaier GmbH",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "VIVATIS Holding (RLB OÖ)",
+   "flag": "🇦🇹",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -13413,8 +13525,8 @@
    "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-733571-0234071396-nqesYU_C.jpg",
    "producer": "Weinbergmaier GmbH",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "VIVATIS Holding (RLB OÖ)",
+   "flag": "🇦🇹",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -13434,8 +13546,8 @@
    "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-733574-1669136690-8Ch48eKc.jpg",
    "producer": "Weinbergmaier GmbH",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "VIVATIS Holding (RLB OÖ)",
+   "flag": "🇦🇹",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -13455,8 +13567,8 @@
    "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-412318-0574662732-OGVjvFW7.jpg",
    "producer": "Weinbergmaier GmbH",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "VIVATIS Holding (RLB OÖ)",
+   "flag": "🇦🇹",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -14505,8 +14617,8 @@
    "img": "https://images.openfoodfacts.org/images/products/409/920/004/3036/front_de.11.400.jpg",
    "producer": "Greisinger GmbH",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Greisinger GmbH (Familie Greisinger, Münzbach)",
+   "flag": "🇦🇹",
    "code": "AT 40559 EG",
    "plant": "Klamer Straße 10, 4323 Münzbach",
    "confidence": "confirmed-code",
@@ -14526,8 +14638,8 @@
    "img": "https://images.openfoodfacts.org/images/products/409/920/004/3050/front_de.8.400.jpg",
    "producer": "Greisinger GmbH",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Greisinger GmbH (Familie Greisinger, Münzbach)",
+   "flag": "🇦🇹",
    "code": "AT 40559 EG",
    "plant": "Klamer Straße 10, 4323 Münzbach",
    "confidence": "confirmed-code",
@@ -15681,8 +15793,8 @@
    "img": "https://cdn.gurkerl.at/images/grocery/products/30504/30504-1738581864323.jpg",
    "producer": "BS Gastro & Event Services GmbH",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "BS Gastro & Event Services GmbH (BRoK, Schwechat)",
+   "flag": "🇦🇹",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -16332,8 +16444,8 @@
    "img": "https://cdn.gurkerl.at/images/grocery/products/30501/30501-1736769641419.jpg",
    "producer": "BS Gastro & Event Services GmbH",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "BS Gastro & Event Services GmbH (BRoK, Schwechat)",
+   "flag": "🇦🇹",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -18138,8 +18250,8 @@
    "img": "https://cdn.gurkerl.at/images/grocery/products/30503/30503-1736768584378.jpg",
    "producer": "BS Gastro & Event Services GmbH",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "BS Gastro & Event Services GmbH (BRoK, Schwechat)",
+   "flag": "🇦🇹",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -20469,8 +20581,8 @@
    "img": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1764889906/assets/pas/images/0b430d87-5df1-475a-8056-3be59563b95f/dmbio-gemuesepfanne-mit-bulgur-und-quinoa",
    "producer": "dm-drogerie markt GmbH + Co.KG",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "dm-drogerie markt (dm-Werner-Stiftung / Familie Lehmann)",
+   "flag": "🇩🇪",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -22473,7 +22585,91 @@
    "slug": null
   },
   {
-   "id": 2318,
+   "id": 2223,
+   "name": "Inzersdorfer Rindsgulasch",
+   "brand": "Inzersdorfer",
+   "store": "Nah&Frisch",
+   "dishKey": "rindsgulasch",
+   "dish": "Rindsgulasch",
+   "price": null,
+   "p100g": null,
+   "pPor": null,
+   "img": "https://www.nahundfrisch.at/media/cache/resize_w500/Angebote_der_Woche/KW4142/ONLINE_KW4142_26_355x455px28.png",
+   "producer": "Maresi Austria GmbH",
+   "role": "Hersteller",
+   "konzern": "VIVATIS Holding (RLB OÖ)",
+   "flag": "🇦🇹",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.nahundfrisch.at/de/aktuelles/angebote-der-woche#kw42-355x455px28-rindsgulasch",
+   "slug": null
+  },
+  {
+   "id": 2224,
+   "name": "Inzersdorfer Gulaschsuppe",
+   "brand": "Inzersdorfer",
+   "store": "Nah&Frisch",
+   "dishKey": "gulaschsuppe",
+   "dish": "Gulaschsuppe",
+   "price": null,
+   "p100g": null,
+   "pPor": null,
+   "img": "https://www.nahundfrisch.at/media/cache/resize_w500/Angebote_der_Woche/KW4142/ONLINE_KW4142_26_355x455px28.png",
+   "producer": "Maresi Austria GmbH",
+   "role": "Hersteller",
+   "konzern": "VIVATIS Holding (RLB OÖ)",
+   "flag": "🇦🇹",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.nahundfrisch.at/de/aktuelles/angebote-der-woche#kw42-355x455px28-gulaschsuppe",
+   "slug": null
+  },
+  {
+   "id": 2225,
+   "name": "Inzersdorfer Gefüllte Paprika",
+   "brand": "Inzersdorfer",
+   "store": "Nah&Frisch",
+   "dishKey": "kohlroulade",
+   "dish": "Krautroulade/Gefüllte Paprika",
+   "price": null,
+   "p100g": null,
+   "pPor": null,
+   "img": "https://www.nahundfrisch.at/media/cache/resize_w500/Angebote_der_Woche/KW4142/ONLINE_KW4142_26_355x455px28.png",
+   "producer": "Landgenossenschaft Ennstal LANDENA KG",
+   "role": "Hersteller",
+   "konzern": "Landgenossenschaft Ennstal (Genossenschaft)",
+   "flag": "🇦🇹",
+   "code": "AT 62028 EG",
+   "plant": "Erzherzog-Johann-Straße 303, 8950 Stainach-Pürgg",
+   "confidence": "confirmed-code",
+   "source": "https://vis.statistik.at/fileadmin/ovis/pdf/index.html",
+   "slug": "landena"
+  },
+  {
+   "id": 2226,
+   "name": "Inzersdorfer Weinbeuschel",
+   "brand": "Inzersdorfer",
+   "store": "Nah&Frisch",
+   "dishKey": "beuschel",
+   "dish": "Beuschel",
+   "price": null,
+   "p100g": null,
+   "pPor": null,
+   "img": "https://www.nahundfrisch.at/media/cache/resize_w500/Angebote_der_Woche/KW4142/ONLINE_KW4142_26_355x455px28.png",
+   "producer": "Maresi Austria GmbH",
+   "role": "Hersteller",
+   "konzern": "VIVATIS Holding (RLB OÖ)",
+   "flag": "🇦🇹",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.nahundfrisch.at/de/aktuelles/angebote-der-woche#kw42-355x455px28-weinbeuschel",
+   "slug": null
+  },
+  {
+   "id": 2325,
    "name": "GREENFORCE Frische Mini-Frikadellen VEGAN",
    "brand": "GREENFORCE",
    "store": "Gurkerl",
@@ -22494,7 +22690,7 @@
    "slug": null
   },
   {
-   "id": 2319,
+   "id": 2326,
    "name": "Marks & Spencer Cream Of Tomato Soup",
    "brand": "Marks & Spencer",
    "store": "Gurkerl",
@@ -22515,7 +22711,7 @@
    "slug": null
   },
   {
-   "id": 2323,
+   "id": 2330,
    "name": "Alnatura BIO Falafel VEGAN",
    "brand": "Alnatura",
    "store": "Gurkerl",
@@ -22536,7 +22732,7 @@
    "slug": null
   },
   {
-   "id": 2324,
+   "id": 2331,
    "name": "Deli Dip Falafel Kichererbsen-Bällchen VEGAN",
    "brand": "Deli Dip",
    "store": "Gurkerl",
@@ -22548,7 +22744,7 @@
    "img": "https://cdn.gurkerl.at/images/grocery/products/24624/24624-1646042603462.jpg",
    "producer": "deli gourmet GmbH",
    "role": "Hersteller",
-   "konzern": "VIVATIS Holding (RLB OÖ)",
+   "konzern": "deli gourmet GmbH (Wien)",
    "flag": "🇦🇹",
    "code": null,
    "plant": null,
@@ -22557,7 +22753,7 @@
    "slug": null
   },
   {
-   "id": 2326,
+   "id": 2333,
    "name": "Alnatura BIO Falafel Mix",
    "brand": "Alnatura",
    "store": "Gurkerl",
@@ -22578,7 +22774,7 @@
    "slug": null
   },
   {
-   "id": 2331,
+   "id": 2338,
    "name": "Alnatura BIO Mini Frühlingsrollen",
    "brand": "Alnatura",
    "store": "Gurkerl",
@@ -22599,7 +22795,7 @@
    "slug": null
   },
   {
-   "id": 2345,
+   "id": 2352,
    "name": "Inzersdorfer Paprikahendlragout",
    "brand": "Inzersdorfer",
    "store": "Gurkerl",
@@ -22620,7 +22816,7 @@
    "slug": null
   },
   {
-   "id": 2361,
+   "id": 2368,
    "name": "Wiener Virtshaus Vleischknödel mit Sauerkraut VEGAN",
    "brand": "Wiener Virtshaus",
    "store": "Gurkerl",
@@ -22632,8 +22828,8 @@
    "img": "https://cdn.gurkerl.at/images/grocery/products/30506/30506-1738582108155.jpg",
    "producer": "BS Gastro & Event Services GmbH",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "BS Gastro & Event Services GmbH (BRoK, Schwechat)",
+   "flag": "🇦🇹",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -22641,7 +22837,7 @@
    "slug": null
   },
   {
-   "id": 2376,
+   "id": 2383,
    "name": "Hiel BIO Polenta Karotte Burger VEGAN",
    "brand": "Hiel",
    "store": "Gurkerl",
@@ -22662,7 +22858,7 @@
    "slug": null
   },
   {
-   "id": 2383,
+   "id": 2390,
    "name": "Itineraire des Saveurs Crepes",
    "brand": "IDS",
    "store": "Gurkerl",
@@ -22683,7 +22879,7 @@
    "slug": null
   },
   {
-   "id": 2388,
+   "id": 2395,
    "name": "HOFMANNs 2 Rinderrouladen - mit kleinen Holzspießen handgesteckt - (tiefgekühlt)",
    "brand": "HOFMANNs",
    "store": "Gurkerl",
@@ -22704,7 +22900,7 @@
    "slug": null
   },
   {
-   "id": 2403,
+   "id": 2410,
    "name": "Müller Doppeldecker Schoko + Vanillesoße 4x125g",
    "brand": "Müller",
    "store": "Gurkerl",
@@ -22725,7 +22921,7 @@
    "slug": null
   },
   {
-   "id": 2414,
+   "id": 2421,
    "name": "Bonne Maman Creme Brulee 2x100g",
    "brand": "Bonne Maman",
    "store": "Gurkerl",
@@ -22746,7 +22942,7 @@
    "slug": null
   },
   {
-   "id": 2417,
+   "id": 2424,
    "name": "Alnatura BIO Black Bean-Cashew Burger",
    "brand": "Alnatura",
    "store": "Gurkerl",
@@ -22767,7 +22963,7 @@
    "slug": null
   },
   {
-   "id": 2433,
+   "id": 2440,
    "name": "Feel Food BIO Red Lentil Dal VEGAN",
    "brand": "feelfood",
    "store": "Gurkerl",
@@ -22788,7 +22984,7 @@
    "slug": null
   },
   {
-   "id": 2434,
+   "id": 2441,
    "name": "Zott Monte Mega XXL",
    "brand": "Zott",
    "store": "Billa",
@@ -22809,7 +23005,7 @@
    "slug": null
   },
   {
-   "id": 2435,
+   "id": 2442,
    "name": "Iglo Green Cuisine Spinat Stangerl",
    "brand": "iglo",
    "store": "Billa",
@@ -22830,7 +23026,7 @@
    "slug": null
   },
   {
-   "id": 2438,
+   "id": 2445,
    "name": "Danone Dany Sahne Schoko",
    "brand": "Danone",
    "store": "Billa",
@@ -22851,7 +23047,7 @@
    "slug": null
   },
   {
-   "id": 2439,
+   "id": 2446,
    "name": "Darbo Fruchtikus Rote Früchte",
    "brand": "Darbo",
    "store": "Billa",
@@ -22863,8 +23059,8 @@
    "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-410217-0942611029-5AHc2mv5.jpg",
    "producer": "A. Darbo AG",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Adolf Darbo AG (Familie Darbo, Stans)",
+   "flag": "🇦🇹",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -22872,7 +23068,7 @@
    "slug": null
   },
   {
-   "id": 2440,
+   "id": 2447,
    "name": "Darbo Fruchtikus Tropic",
    "brand": "Darbo",
    "store": "Billa",
@@ -22884,8 +23080,8 @@
    "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-411011-1743989392-VDRDP8U3.jpg",
    "producer": "A. Darbo AG",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Adolf Darbo AG (Familie Darbo, Stans)",
+   "flag": "🇦🇹",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -22893,7 +23089,7 @@
    "slug": null
   },
   {
-   "id": 2441,
+   "id": 2448,
    "name": "Iglo Green Cuisine Falafel",
    "brand": "iglo",
    "store": "Billa",
@@ -22914,7 +23110,7 @@
    "slug": null
   },
   {
-   "id": 2442,
+   "id": 2449,
    "name": "Dr. Oetker Götterspeise Himbeer Geschmack",
    "brand": "Dr. Oetker",
    "store": "Billa",
@@ -22935,7 +23131,7 @@
    "slug": null
   },
   {
-   "id": 2443,
+   "id": 2450,
    "name": "Dr. Oetker Götterspeise Waldmeister Geschmack",
    "brand": "Dr. Oetker",
    "store": "Billa",
@@ -22956,7 +23152,7 @@
    "slug": null
   },
   {
-   "id": 2445,
+   "id": 2452,
    "name": "BILLA Nudelsalat mit Huhn Caesar",
    "brand": "BILLA Immer Gut",
    "store": "Billa",
@@ -22977,7 +23173,7 @@
    "slug": null
   },
   {
-   "id": 2446,
+   "id": 2453,
    "name": "BILLA Nudel Thunfisch Salat",
    "brand": "BILLA Immer Gut",
    "store": "Billa",
@@ -22998,7 +23194,7 @@
    "slug": null
   },
   {
-   "id": 2447,
+   "id": 2454,
    "name": "Galana Lavakuchen",
    "brand": "Galana",
    "store": "Billa",
@@ -23019,7 +23215,7 @@
    "slug": null
   },
   {
-   "id": 2448,
+   "id": 2455,
    "name": "Toni Kaiser Wiener Kaiserschmarrn",
    "brand": "Toni Kaiser",
    "store": "Billa",
@@ -23040,7 +23236,7 @@
    "slug": null
   },
   {
-   "id": 2449,
+   "id": 2456,
    "name": "Bauernland Gemüselaibchen",
    "brand": "Bauernland",
    "store": "Billa",
@@ -23061,7 +23257,7 @@
    "slug": null
   },
   {
-   "id": 2450,
+   "id": 2457,
    "name": "Bauernland Käse-Karfiol Laibchen",
    "brand": "Bauernland",
    "store": "Billa",
@@ -23082,7 +23278,7 @@
    "slug": null
   },
   {
-   "id": 2451,
+   "id": 2458,
    "name": "Iglo Green Cuisine Broccoli Laibchen",
    "brand": "iglo",
    "store": "Billa",
@@ -23103,7 +23299,7 @@
    "slug": null
   },
   {
-   "id": 2452,
+   "id": 2459,
    "name": "Andros Milchreis",
    "brand": "Andros",
    "store": "Billa",
@@ -23124,7 +23320,7 @@
    "slug": null
   },
   {
-   "id": 2453,
+   "id": 2460,
    "name": "Dr. Oetker High Protein Milchreis",
    "brand": "Dr. Oetker",
    "store": "Billa",
@@ -23145,7 +23341,7 @@
    "slug": null
   },
   {
-   "id": 2454,
+   "id": 2461,
    "name": "Stadtküche Spinat Knödl",
    "brand": "Stadtküche",
    "store": "Billa",
@@ -23166,7 +23362,7 @@
    "slug": null
   },
   {
-   "id": 2455,
+   "id": 2462,
    "name": "Stadtküche Kärntner Kasnudl",
    "brand": "Stadtküche",
    "store": "Billa",
@@ -23187,7 +23383,7 @@
    "slug": null
   },
   {
-   "id": 2456,
+   "id": 2463,
    "name": "Darbo Fruchtikus Mango-Marille",
    "brand": "Darbo",
    "store": "Billa",
@@ -23199,8 +23395,8 @@
    "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-723076-0110611580-KvqcJHwy.jpg",
    "producer": "A. Darbo AG",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Adolf Darbo AG (Familie Darbo, Stans)",
+   "flag": "🇦🇹",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -23208,7 +23404,7 @@
    "slug": null
   },
   {
-   "id": 2457,
+   "id": 2464,
    "name": "BILLA Profiteroles",
    "brand": "BILLA Immer Gut",
    "store": "Billa",
@@ -23229,7 +23425,7 @@
    "slug": null
   },
   {
-   "id": 2458,
+   "id": 2465,
    "name": "Stadtküche Falafel Klassisch",
    "brand": "Stadtküche",
    "store": "Billa",
@@ -23250,7 +23446,7 @@
    "slug": null
   },
   {
-   "id": 2459,
+   "id": 2466,
    "name": "Iglo Green Cuisine Zucchini-Käselaibchen",
    "brand": "iglo",
    "store": "Billa",
@@ -23271,7 +23467,7 @@
    "slug": null
   },
   {
-   "id": 2460,
+   "id": 2467,
    "name": "Frosta Rotes Curry",
    "brand": "Frosta",
    "store": "Billa",
@@ -23292,7 +23488,7 @@
    "slug": null
   },
   {
-   "id": 2461,
+   "id": 2468,
    "name": "BILLA Belugalinsen Salat",
    "brand": "BILLA Immer Gut",
    "store": "Billa",
@@ -23313,7 +23509,7 @@
    "slug": null
   },
   {
-   "id": 2462,
+   "id": 2469,
    "name": "Stadtküche Bio Laibchen Spinat & Käse",
    "brand": "Stadtküche",
    "store": "Billa",
@@ -23334,7 +23530,7 @@
    "slug": null
   },
   {
-   "id": 2463,
+   "id": 2470,
    "name": "Stadtküche Gemüselaibchen",
    "brand": "Stadtküche",
    "store": "Billa",
@@ -23355,7 +23551,7 @@
    "slug": null
   },
   {
-   "id": 2464,
+   "id": 2471,
    "name": "BILLA Palatschinken",
    "brand": "BILLA Immer Gut",
    "store": "Billa",
@@ -23376,7 +23572,7 @@
    "slug": null
   },
   {
-   "id": 2465,
+   "id": 2472,
    "name": "Bonne Maman Creme Brulee",
    "brand": "Bonne Maman",
    "store": "Billa",
@@ -23397,7 +23593,7 @@
    "slug": null
   },
   {
-   "id": 2466,
+   "id": 2473,
    "name": "Dr. Oetker Grütze Apfel-Mango-Orange",
    "brand": "Dr. Oetker",
    "store": "Billa",
@@ -23418,7 +23614,7 @@
    "slug": null
   },
   {
-   "id": 2467,
+   "id": 2474,
    "name": "Harvest Moon Chocolate & salted Caramel",
    "brand": "Harvest",
    "store": "Billa",
@@ -23439,7 +23635,7 @@
    "slug": null
   },
   {
-   "id": 2468,
+   "id": 2475,
    "name": "BILLA Bali Brunch Mango Sticky Rice",
    "brand": "BILLA Immer Gut",
    "store": "Billa",
@@ -23460,7 +23656,7 @@
    "slug": null
   },
   {
-   "id": 2469,
+   "id": 2476,
    "name": "Schärdinger Jogurella Stracciatella",
    "brand": "Schärdinger",
    "store": "Billa",
@@ -23481,7 +23677,7 @@
    "slug": null
   },
   {
-   "id": 2470,
+   "id": 2477,
    "name": "Alpro Kokos Salted Caramel",
    "brand": "Alpro",
    "store": "Billa",
@@ -23502,7 +23698,7 @@
    "slug": null
   },
   {
-   "id": 2471,
+   "id": 2478,
    "name": "Alpro Kokos Stracciatella",
    "brand": "Alpro",
    "store": "Billa",
@@ -23523,7 +23719,7 @@
    "slug": null
   },
   {
-   "id": 2473,
+   "id": 2480,
    "name": "Simply Good Berry Chia Pod Tonkabohne Waldfrucht",
    "brand": "Simply Good",
    "store": "Billa",
@@ -23544,7 +23740,7 @@
    "slug": null
   },
   {
-   "id": 2474,
+   "id": 2481,
    "name": "Zott Monte Schoko",
    "brand": "Zott",
    "store": "Billa",
@@ -23565,7 +23761,7 @@
    "slug": null
   },
   {
-   "id": 2475,
+   "id": 2482,
    "name": "Zott Monte Maxi Schoko",
    "brand": "Zott",
    "store": "Billa",
@@ -23586,7 +23782,7 @@
    "slug": null
   },
   {
-   "id": 2476,
+   "id": 2483,
    "name": "Zott Monte",
    "brand": "Zott",
    "store": "Billa",
@@ -23607,7 +23803,7 @@
    "slug": null
   },
   {
-   "id": 2482,
+   "id": 2489,
    "name": "Chili Sin Carne",
    "brand": "Billa",
    "store": "unbekannt (OFF)",
@@ -23628,7 +23824,7 @@
    "slug": "rewe-genusskueche"
   },
   {
-   "id": 2497,
+   "id": 2504,
    "name": "Haschee Hörnchen mit Kräutern",
    "brand": "Billa",
    "store": "unbekannt (OFF)",
@@ -23649,7 +23845,7 @@
    "slug": "rewe-genusskueche"
   },
   {
-   "id": 2502,
+   "id": 2509,
    "name": "Rindsgulasch mit Nockerl",
    "brand": "iglo",
    "store": "Billa",
@@ -23670,7 +23866,7 @@
    "slug": "landena"
   },
   {
-   "id": 2539,
+   "id": 2546,
    "name": "Pilzmaultaschen",
    "brand": "SchwabenKrone",
    "store": "Spar",
@@ -23691,7 +23887,7 @@
    "slug": null
   },
   {
-   "id": 2544,
+   "id": 2551,
    "name": "Maultaschen geschnitten",
    "brand": "Bürger",
    "store": "unbekannt (OFF)",
@@ -23712,7 +23908,7 @@
    "slug": null
   },
   {
-   "id": 2742,
+   "id": 2749,
    "name": "Hühnerstreifen mit Wokgemüse und Basmatireis",
    "brand": "Fit to Go",
    "store": "Fit to Go",
@@ -23733,7 +23929,7 @@
    "slug": null
   },
   {
-   "id": 2743,
+   "id": 2750,
    "name": "Kichererbsencurry mit Basmatireis",
    "brand": "Fit to Go",
    "store": "Fit to Go",
@@ -23754,7 +23950,7 @@
    "slug": null
   },
   {
-   "id": 2745,
+   "id": 2752,
    "name": "High Protein Topfenauflauf mit Heidelbeeren",
    "brand": "Fit to Go",
    "store": "Fit to Go",
@@ -23775,7 +23971,7 @@
    "slug": null
   },
   {
-   "id": 2746,
+   "id": 2753,
    "name": "Milchreis mit Zimt und Sauerkirschen",
    "brand": "Fit to Go",
    "store": "Fit to Go",
@@ -23796,7 +23992,7 @@
    "slug": null
   },
   {
-   "id": 2747,
+   "id": 2754,
    "name": "hühnerfrikassee",
    "brand": "FITTASTE",
    "store": "FitTaste",
@@ -23817,7 +24013,7 @@
    "slug": null
   },
   {
-   "id": 2749,
+   "id": 2756,
    "name": "hähnchen mango bowl",
    "brand": "FITTASTE",
    "store": "FitTaste",
@@ -23838,7 +24034,7 @@
    "slug": null
   },
   {
-   "id": 2751,
+   "id": 2758,
    "name": "rind teriyaki style",
    "brand": "FITTASTE",
    "store": "FitTaste",
@@ -23859,7 +24055,7 @@
    "slug": null
   },
   {
-   "id": 2752,
+   "id": 2759,
    "name": "rind greek style",
    "brand": "FITTASTE",
    "store": "FitTaste",
@@ -23880,7 +24076,7 @@
    "slug": null
   },
   {
-   "id": 2753,
+   "id": 2760,
    "name": "rotes hähnchencurry",
    "brand": "FITTASTE",
    "store": "FitTaste",
@@ -23901,7 +24097,7 @@
    "slug": null
   },
   {
-   "id": 2754,
+   "id": 2761,
    "name": "hähnchen in tomatensauce",
    "brand": "FITTASTE",
    "store": "FitTaste",
@@ -23922,7 +24118,7 @@
    "slug": null
   },
   {
-   "id": 2755,
+   "id": 2762,
    "name": "hähnchen spinat-curry",
    "brand": "FITTASTE",
    "store": "FitTaste",
@@ -23943,7 +24139,7 @@
    "slug": null
   },
   {
-   "id": 2757,
+   "id": 2764,
    "name": "rinderbolognese",
    "brand": "FITTASTE",
    "store": "FitTaste",
@@ -23964,7 +24160,7 @@
    "slug": null
   },
   {
-   "id": 2758,
+   "id": 2765,
    "name": "hähnchen süßkartoffel bowl",
    "brand": "FITTASTE",
    "store": "FitTaste",
@@ -23985,7 +24181,7 @@
    "slug": null
   },
   {
-   "id": 2759,
+   "id": 2766,
    "name": "hähnchen grünes curry",
    "brand": "FITTASTE",
    "store": "FitTaste",
@@ -24006,7 +24202,7 @@
    "slug": null
   },
   {
-   "id": 2761,
+   "id": 2768,
    "name": "rindergulasch",
    "brand": "FITTASTE",
    "store": "FitTaste",
@@ -24027,7 +24223,7 @@
    "slug": null
   },
   {
-   "id": 2762,
+   "id": 2769,
    "name": "chili con carne",
    "brand": "FITTASTE",
    "store": "FitTaste",
@@ -24048,7 +24244,7 @@
    "slug": null
   },
   {
-   "id": 2763,
+   "id": 2770,
    "name": "Garnelen-Kimchi Burger",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24069,7 +24265,7 @@
    "slug": null
   },
   {
-   "id": 2764,
+   "id": 2771,
    "name": "Thunfisch-Wrap",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24090,7 +24286,7 @@
    "slug": null
   },
   {
-   "id": 2765,
+   "id": 2772,
    "name": "Garnelen-Wrap",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24111,7 +24307,7 @@
    "slug": null
   },
   {
-   "id": 2766,
+   "id": 2773,
    "name": "Bagel \\u0022Nordlicht\\u0022",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24132,7 +24328,7 @@
    "slug": null
   },
   {
-   "id": 2767,
+   "id": 2774,
    "name": "Crunchy Chicken Burger",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24153,7 +24349,7 @@
    "slug": null
   },
   {
-   "id": 2768,
+   "id": 2775,
    "name": "Classic Fish Burger",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24174,7 +24370,7 @@
    "slug": null
   },
   {
-   "id": 2769,
+   "id": 2776,
    "name": "HEIßER BACKFISCH XXL",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24195,7 +24391,7 @@
    "slug": null
   },
   {
-   "id": 2770,
+   "id": 2777,
    "name": "Mini-Bremer - Der Klassische",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24216,7 +24412,7 @@
    "slug": null
   },
   {
-   "id": 2771,
+   "id": 2778,
    "name": "Mini-Bremer - Der Pikante",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24237,7 +24433,7 @@
    "slug": null
   },
   {
-   "id": 2772,
+   "id": 2779,
    "name": "Mini-Bremer- Der Scharfe",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24258,7 +24454,7 @@
    "slug": null
   },
   {
-   "id": 2773,
+   "id": 2780,
    "name": "Mini-Bremer - Der Süß-Scharfe",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24279,7 +24475,7 @@
    "slug": null
   },
   {
-   "id": 2774,
+   "id": 2781,
    "name": "Räucherlachs-Wrap",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24300,7 +24496,7 @@
    "slug": null
   },
   {
-   "id": 2775,
+   "id": 2782,
    "name": "Bismarck-Baguette",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24321,7 +24517,7 @@
    "slug": null
   },
   {
-   "id": 2778,
+   "id": 2785,
    "name": "Matjes-Baguette",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24342,7 +24538,7 @@
    "slug": null
   },
   {
-   "id": 2779,
+   "id": 2786,
    "name": "Backfisch-Baguette",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24363,7 +24559,7 @@
    "slug": null
   },
   {
-   "id": 2780,
+   "id": 2787,
    "name": "Bremer",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24384,7 +24580,7 @@
    "slug": null
   },
   {
-   "id": 2781,
+   "id": 2788,
    "name": "Plant-based Backvisch-Brötchen",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24405,7 +24601,7 @@
    "slug": null
   },
   {
-   "id": 2782,
+   "id": 2789,
    "name": "Megafrites",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24426,7 +24622,7 @@
    "slug": null
   },
   {
-   "id": 2783,
+   "id": 2790,
    "name": "Kartoffel-Box",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24447,7 +24643,7 @@
    "slug": null
   },
   {
-   "id": 2784,
+   "id": 2791,
    "name": "Mix-Box",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24468,7 +24664,7 @@
    "slug": null
   },
   {
-   "id": 2786,
+   "id": 2793,
    "name": "Fish Nuggets Box",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24489,7 +24685,7 @@
    "slug": null
   },
   {
-   "id": 2787,
+   "id": 2794,
    "name": "Fish & Chips",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24510,7 +24706,7 @@
    "slug": null
   },
   {
-   "id": 2788,
+   "id": 2795,
    "name": "Kinder Menü Chicken Nuggets",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24531,7 +24727,7 @@
    "slug": null
   },
   {
-   "id": 2789,
+   "id": 2796,
    "name": "Gebackene Limanda Aspera",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24552,7 +24748,7 @@
    "slug": null
   },
   {
-   "id": 2791,
+   "id": 2798,
    "name": "Lachs-Pasta mit Blattspinat",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24573,7 +24769,7 @@
    "slug": null
   },
   {
-   "id": 2792,
+   "id": 2799,
    "name": "Bretonische Fischsuppe",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24594,7 +24790,7 @@
    "slug": null
   },
   {
-   "id": 2794,
+   "id": 2801,
    "name": "Seelachsfilet vom Grill",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24615,7 +24811,7 @@
    "slug": null
   },
   {
-   "id": 2795,
+   "id": 2802,
    "name": "Pazifisches Schollenfilet vom Grill",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24636,7 +24832,7 @@
    "slug": null
   },
   {
-   "id": 2797,
+   "id": 2804,
    "name": "Lachsfilet auf der Haut gebraten",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24657,7 +24853,7 @@
    "slug": null
   },
   {
-   "id": 2798,
+   "id": 2805,
    "name": "Salat mit Thunfisch in Tortilla-Bowl",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24678,7 +24874,7 @@
    "slug": null
   },
   {
-   "id": 2799,
+   "id": 2806,
    "name": "Gemischter Salat",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24699,7 +24895,7 @@
    "slug": null
   },
   {
-   "id": 2800,
+   "id": 2807,
    "name": "Salat mit Garnelen in Tortilla-Bowl",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24720,7 +24916,7 @@
    "slug": null
   },
   {
-   "id": 2801,
+   "id": 2808,
    "name": "Salat mit pulled Lachs in Tortilla-Bowl",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24741,7 +24937,7 @@
    "slug": null
   },
   {
-   "id": 2802,
+   "id": 2809,
    "name": "Chicken Teriyaki (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -24753,8 +24949,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -24762,7 +24958,7 @@
    "slug": null
   },
   {
-   "id": 2803,
+   "id": 2810,
    "name": "Plant-based Chicken Teriyaki (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -24774,8 +24970,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -24783,7 +24979,7 @@
    "slug": null
   },
   {
-   "id": 2804,
+   "id": 2811,
    "name": "Chicken Fajita (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -24795,8 +24991,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -24804,7 +25000,7 @@
    "slug": null
   },
   {
-   "id": 2805,
+   "id": 2812,
    "name": "Rotisserie-Style Chicken (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -24816,8 +25012,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -24825,7 +25021,7 @@
    "slug": null
   },
   {
-   "id": 2806,
+   "id": 2813,
    "name": "Chicken Tandoori (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -24837,8 +25033,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -24846,7 +25042,7 @@
    "slug": null
   },
   {
-   "id": 2807,
+   "id": 2814,
    "name": "Dölicious Chicken (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -24858,8 +25054,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -24867,7 +25063,7 @@
    "slug": null
   },
   {
-   "id": 2808,
+   "id": 2815,
    "name": "Tuna (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -24879,8 +25075,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -24888,7 +25084,7 @@
    "slug": null
   },
   {
-   "id": 2809,
+   "id": 2816,
    "name": "Italian B.M.T. (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -24900,8 +25096,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -24909,7 +25105,7 @@
    "slug": null
   },
   {
-   "id": 2810,
+   "id": 2817,
    "name": "BBQ Rib (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -24921,8 +25117,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -24930,7 +25126,7 @@
    "slug": null
   },
   {
-   "id": 2811,
+   "id": 2818,
    "name": "Nacho Chicken (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -24942,8 +25138,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -24951,7 +25147,7 @@
    "slug": null
   },
   {
-   "id": 2812,
+   "id": 2819,
    "name": "Philly Beef & Cheese (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -24963,8 +25159,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -24972,7 +25168,7 @@
    "slug": null
   },
   {
-   "id": 2813,
+   "id": 2820,
    "name": "Salami (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -24984,8 +25180,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -24993,7 +25189,7 @@
    "slug": null
   },
   {
-   "id": 2814,
+   "id": 2821,
    "name": "Ham (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -25005,8 +25201,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -25014,7 +25210,7 @@
    "slug": null
   },
   {
-   "id": 2815,
+   "id": 2822,
    "name": "Spicy Vegan Patty (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -25026,8 +25222,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -25035,7 +25231,7 @@
    "slug": null
   },
   {
-   "id": 2816,
+   "id": 2823,
    "name": "Smashed Falafel (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -25047,8 +25243,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -25056,7 +25252,7 @@
    "slug": null
   },
   {
-   "id": 2817,
+   "id": 2824,
    "name": "Veggie Delite (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -25068,8 +25264,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -25077,7 +25273,7 @@
    "slug": null
   },
   {
-   "id": 2818,
+   "id": 2825,
    "name": "Plant-based Dölicious Chicken (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -25089,8 +25285,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -25098,7 +25294,7 @@
    "slug": null
   },
   {
-   "id": 2819,
+   "id": 2826,
    "name": "Chicken Teriyaki (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -25110,8 +25306,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -25119,7 +25315,7 @@
    "slug": null
   },
   {
-   "id": 2820,
+   "id": 2827,
    "name": "Plant-based Chicken Teriyaki (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -25131,8 +25327,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -25140,7 +25336,7 @@
    "slug": null
   },
   {
-   "id": 2821,
+   "id": 2828,
    "name": "Chicken Fajita (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -25152,8 +25348,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -25161,7 +25357,7 @@
    "slug": null
   },
   {
-   "id": 2822,
+   "id": 2829,
    "name": "Rotisserie-Style Chicken (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -25173,8 +25369,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -25182,7 +25378,7 @@
    "slug": null
   },
   {
-   "id": 2823,
+   "id": 2830,
    "name": "Chicken Tandoori (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -25194,8 +25390,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -25203,7 +25399,7 @@
    "slug": null
   },
   {
-   "id": 2824,
+   "id": 2831,
    "name": "Dölicious Chicken (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -25215,8 +25411,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -25224,7 +25420,7 @@
    "slug": null
   },
   {
-   "id": 2825,
+   "id": 2832,
    "name": "Tuna (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -25236,8 +25432,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -25245,7 +25441,7 @@
    "slug": null
   },
   {
-   "id": 2826,
+   "id": 2833,
    "name": "Italian B.M.T. (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -25257,8 +25453,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -25266,7 +25462,7 @@
    "slug": null
   },
   {
-   "id": 2827,
+   "id": 2834,
    "name": "BBQ Rib (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -25278,8 +25474,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -25287,7 +25483,7 @@
    "slug": null
   },
   {
-   "id": 2828,
+   "id": 2835,
    "name": "Nacho Chicken (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -25299,8 +25495,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -25308,7 +25504,7 @@
    "slug": null
   },
   {
-   "id": 2829,
+   "id": 2836,
    "name": "Philly Beef & Cheese (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -25320,8 +25516,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -25329,7 +25525,7 @@
    "slug": null
   },
   {
-   "id": 2830,
+   "id": 2837,
    "name": "Salami (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -25341,8 +25537,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -25350,7 +25546,7 @@
    "slug": null
   },
   {
-   "id": 2831,
+   "id": 2838,
    "name": "Ham (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -25362,8 +25558,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -25371,7 +25567,7 @@
    "slug": null
   },
   {
-   "id": 2832,
+   "id": 2839,
    "name": "Spicy Vegan Patty (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -25383,8 +25579,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -25392,7 +25588,7 @@
    "slug": null
   },
   {
-   "id": 2833,
+   "id": 2840,
    "name": "Veggie Delite (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -25404,8 +25600,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -25413,7 +25609,7 @@
    "slug": null
   },
   {
-   "id": 2834,
+   "id": 2841,
    "name": "Smashed Falafel (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -25425,8 +25621,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -25434,7 +25630,7 @@
    "slug": null
   },
   {
-   "id": 2835,
+   "id": 2842,
    "name": "Plant-based Dölicious Chicken (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -25446,8 +25642,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -25455,7 +25651,7 @@
    "slug": null
   },
   {
-   "id": 2836,
+   "id": 2843,
    "name": "Chicken Teriyaki (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -25467,8 +25663,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -25476,7 +25672,7 @@
    "slug": null
   },
   {
-   "id": 2837,
+   "id": 2844,
    "name": "Plant-based Chicken Teriyaki (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -25488,8 +25684,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -25497,7 +25693,7 @@
    "slug": null
   },
   {
-   "id": 2838,
+   "id": 2845,
    "name": "Chicken Fajita (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -25509,8 +25705,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -25518,7 +25714,7 @@
    "slug": null
   },
   {
-   "id": 2839,
+   "id": 2846,
    "name": "Rotisserie-Style Chicken (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -25530,8 +25726,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -25539,7 +25735,7 @@
    "slug": null
   },
   {
-   "id": 2840,
+   "id": 2847,
    "name": "Chicken Tandoori (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -25551,8 +25747,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -25560,7 +25756,7 @@
    "slug": null
   },
   {
-   "id": 2841,
+   "id": 2848,
    "name": "Dölicious Chicken (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -25572,8 +25768,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -25581,7 +25777,7 @@
    "slug": null
   },
   {
-   "id": 2842,
+   "id": 2849,
    "name": "Tuna (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -25593,8 +25789,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -25602,7 +25798,7 @@
    "slug": null
   },
   {
-   "id": 2843,
+   "id": 2850,
    "name": "Italian B.M.T. (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -25614,8 +25810,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -25623,7 +25819,7 @@
    "slug": null
   },
   {
-   "id": 2844,
+   "id": 2851,
    "name": "BBQ Rib (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -25635,8 +25831,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -25644,7 +25840,7 @@
    "slug": null
   },
   {
-   "id": 2845,
+   "id": 2852,
    "name": "Nacho Chicken (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -25656,8 +25852,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -25665,7 +25861,7 @@
    "slug": null
   },
   {
-   "id": 2846,
+   "id": 2853,
    "name": "Philly Beef & Cheese (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -25677,8 +25873,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -25686,7 +25882,7 @@
    "slug": null
   },
   {
-   "id": 2847,
+   "id": 2854,
    "name": "Salami (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -25698,8 +25894,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -25707,7 +25903,7 @@
    "slug": null
   },
   {
-   "id": 2848,
+   "id": 2855,
    "name": "Ham (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -25719,8 +25915,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -25728,7 +25924,7 @@
    "slug": null
   },
   {
-   "id": 2849,
+   "id": 2856,
    "name": "Spicy Vegan Patty (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -25740,8 +25936,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -25749,7 +25945,7 @@
    "slug": null
   },
   {
-   "id": 2850,
+   "id": 2857,
    "name": "Veggie Delite (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -25761,8 +25957,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -25770,7 +25966,7 @@
    "slug": null
   },
   {
-   "id": 2851,
+   "id": 2858,
    "name": "Smashed Falafel (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -25782,8 +25978,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -25791,7 +25987,7 @@
    "slug": null
   },
   {
-   "id": 2852,
+   "id": 2859,
    "name": "Plant-based Dölicious Chicken (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -25803,8 +25999,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -25812,7 +26008,7 @@
    "slug": null
   },
   {
-   "id": 2853,
+   "id": 2860,
    "name": "The BBQ Master (Sub 15 cm (Kreation))",
    "brand": "Subway",
    "store": "Subway",
@@ -25824,8 +26020,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -25833,7 +26029,7 @@
    "slug": null
   },
   {
-   "id": 2854,
+   "id": 2861,
    "name": "Furious Chicken (Sub 15 cm (Kreation))",
    "brand": "Subway",
    "store": "Subway",
@@ -25845,8 +26041,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -25854,7 +26050,7 @@
    "slug": null
   },
   {
-   "id": 2855,
+   "id": 2862,
    "name": "Fiesta Fajita (Sub 15 cm (Kreation))",
    "brand": "Subway",
    "store": "Subway",
@@ -25866,8 +26062,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -25875,7 +26071,7 @@
    "slug": null
   },
   {
-   "id": 2856,
+   "id": 2863,
    "name": "Tasty Tandoori (Sub 15 cm (Kreation))",
    "brand": "Subway",
    "store": "Subway",
@@ -25887,8 +26083,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -25896,7 +26092,7 @@
    "slug": null
   },
   {
-   "id": 2857,
+   "id": 2864,
    "name": "Beef Texicana (Sub 15 cm (Kreation))",
    "brand": "Subway",
    "store": "Subway",
@@ -25908,8 +26104,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -25917,7 +26113,7 @@
    "slug": null
   },
   {
-   "id": 2858,
+   "id": 2865,
    "name": "Chick'n'Garlic (Panini)",
    "brand": "Subway",
    "store": "Subway",
@@ -25929,8 +26125,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -25938,7 +26134,7 @@
    "slug": null
   },
   {
-   "id": 2859,
+   "id": 2866,
    "name": "Philly Supreme (Panini)",
    "brand": "Subway",
    "store": "Subway",
@@ -25950,8 +26146,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -25959,7 +26155,7 @@
    "slug": null
   },
   {
-   "id": 2860,
+   "id": 2867,
    "name": "Smoky Beast (Panini)",
    "brand": "Subway",
    "store": "Subway",
@@ -25971,8 +26167,8 @@
    "img": null,
    "producer": "Subway",
    "role": "Hersteller",
-   "konzern": "Unabhängig / unbekannt",
-   "flag": "🏳️",
+   "konzern": "Roark Capital (Private Equity, Atlanta)",
+   "flag": "🇺🇸",
    "code": null,
    "plant": null,
    "confidence": "label-address",
