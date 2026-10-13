@@ -1,0 +1,198 @@
+{
+  "fetched_at": "2026-10-13T04:35:45Z",
+  "method": "strict OFF brand+token match; HEAD-verified; see fertiggerichte-daten/raw/hofer_images_2026-10-13.json",
+  "images": [
+    {
+      "name": "GOOD CHOICE Asia Curry Indisch Kichererbsen 400g",
+      "image_url": "https://images.openfoodfacts.org/images/products/406/146/179/4309/front_de.3.400.jpg",
+      "off_code": "4061461794309",
+      "product_id": "d7f631141622"
+    },
+    {
+      "name": "GOOD CHOICE Lasagne Bolognese 1 kg",
+      "image_url": "https://images.openfoodfacts.org/images/products/409/920/016/3659/front_de.21.400.jpg",
+      "off_code": "4099200163659",
+      "product_id": "73e5c46c925a"
+    },
+    {
+      "name": "PRIMANA Backhendl Streifen Classic 500g",
+      "image_url": "https://images.openfoodfacts.org/images/products/406/146/144/5928/front_de.14.400.jpg",
+      "off_code": "4061461445928",
+      "product_id": "5effef072e62"
+    },
+    {
+      "name": "PRIMANA Backhendlstreifen Kürbiskern 500g",
+      "image_url": "https://images.openfoodfacts.org/images/products/406/146/144/5966/front_de.7.400.jpg",
+      "off_code": "4061461445966",
+      "product_id": "153addc22feb"
+    },
+    {
+      "name": "PRIMANA TK Lasagne mediterran 400g",
+      "image_url": "https://images.openfoodfacts.org/images/products/406/146/493/8656/front_de.3.400.jpg",
+      "off_code": "4061464938656",
+      "product_id": "6056b6b12320"
+    },
+    {
+      "name": "CUCINA Kartoffel-Gnocchi 1kg",
+      "image_url": "https://images.openfoodfacts.org/images/products/406/146/264/8359/front_de.7.400.jpg",
+      "off_code": "4061462648359",
+      "product_id": "ed18fd05c11e"
+    },
+    {
+      "name": "CUCINA NOBILE Lasagne Ricotta-Spinat 400g",
+      "image_url": "https://images.openfoodfacts.org/images/products/406/146/169/1561/front_de.35.400.jpg",
+      "off_code": "4061461691561",
+      "product_id": "9766c502f32e"
+    },
+    {
+      "name": "GOOD CHOICE Faschierte Laibchen mit Kartoffelpüree 430g",
+      "image_url": "https://images.openfoodfacts.org/images/products/409/920/014/6256/front_de.15.400.jpg",
+      "off_code": "4099200146256",
+      "product_id": "3954ff313279"
+    },
+    {
+      "name": "GOOD CHOICE Kartoffel Gnocchi 500g",
+      "image_url": "https://images.openfoodfacts.org/images/products/406/145/947/3674/front_en.3.400.jpg",
+      "off_code": "4061459473674",
+      "product_id": "f53099d365cc"
+    },
+    {
+      "name": "GOOD CHOICE Wrap Hühnerfiletstreifen 170g",
+      "image_url": "https://images.openfoodfacts.org/images/products/409/920/007/5563/front_de.4.400.jpg",
+      "off_code": "4099200075563",
+      "product_id": "3250a5b249a6"
+    },
+    {
+      "name": "GOOD CHOICE Wrap Thunfisch 170g",
+      "image_url": "https://images.openfoodfacts.org/images/products/000/002/409/1725/front_de.4.400.jpg",
+      "off_code": "0000024091725",
+      "product_id": "ce17c7f0f593"
+    },
+    {
+      "name": "LE GUSTO ABC Suppe 89g",
+      "image_url": "https://images.openfoodfacts.org/images/products/406/146/215/3877/front_de.11.400.jpg",
+      "off_code": "4061462153877",
+      "product_id": "dd3e66bd5169"
+    },
+    {
+      "name": "LE GUSTO Basis Chili con Carne",
+      "image_url": "https://images.openfoodfacts.org/images/products/000/002/216/2014/front_de.28.400.jpg",
+      "off_code": "0000022162014",
+      "product_id": "09ee7311d6da"
+    },
+    {
+      "name": "LE GUSTO Sugo Bolognese 500g",
+      "image_url": "https://images.openfoodfacts.org/images/products/406/146/219/0469/front_de.15.400.jpg",
+      "off_code": "4061462190469",
+      "product_id": "e641c57c9f71"
+    },
+    {
+      "name": "ZURÜCK ZUM URSPRUNG Landhendl Filetschnitzel",
+      "image_url": "https://images.openfoodfacts.org/images/products/231/549/001/4009/front_de.3.400.jpg",
+      "off_code": "2315490014009",
+      "product_id": "6b5c174cef24"
+    },
+    {
+      "name": "ZURÜCK ZUM URSPRUNG Pizzakäse gerieben 200g",
+      "image_url": "https://images.openfoodfacts.org/images/products/406/145/972/4578/front_de.4.400.jpg",
+      "off_code": "4061459724578",
+      "product_id": "6466c4290201"
+    },
+    {
+      "name": "ZURÜCK ZUM URSPRUNG Tellerlinsen 600g",
+      "image_url": "https://images.openfoodfacts.org/images/products/409/920/004/8901/front_en.22.400.jpg",
+      "off_code": "4099200048901",
+      "product_id": "67b2cd62e7e2"
+    },
+    {
+      "name": "Klare Gemüsesuppe",
+      "image_url": "https://images.openfoodfacts.org/images/products/409/920/000/8196/front_de.24.400.jpg",
+      "off_code": "4099200008196",
+      "product_id": "2202b315ed2b"
+    },
+    {
+      "name": "Klare Suppe",
+      "image_url": "https://images.openfoodfacts.org/images/products/000/002/408/5403/front_de.6.400.jpg",
+      "off_code": "0000024085403",
+      "product_id": "db3a4eb2f68d"
+    },
+    {
+      "name": "MAMIA BIO Spaghetti Bolognese 250g",
+      "image_url": "https://images.openfoodfacts.org/images/products/406/146/402/1266/front_de.9.400.jpg",
+      "off_code": "4061464021266",
+      "product_id": "164590894145"
+    },
+    {
+      "name": "PRIMANA Speck Knödel Innviertler Art 700g",
+      "image_url": "https://images.openfoodfacts.org/images/products/406/146/317/0880/front_de.3.400.jpg",
+      "off_code": "4061463170880",
+      "product_id": "9386f10572e0"
+    },
+    {
+      "name": "Tortelloni mit Spinat & Ricotta",
+      "image_url": "https://images.openfoodfacts.org/images/products/409/920/040/3373/front_de.4.400.jpg",
+      "off_code": "4099200403373",
+      "product_id": "9f8efcd98d0f"
+    },
+    {
+      "name": "Chicken Nuggets",
+      "image_url": "https://images.openfoodfacts.org/images/products/406/145/935/8636/front_hu.4.400.jpg",
+      "off_code": "4061459358636",
+      "product_id": "6f454f82f5ba"
+    },
+    {
+      "name": "Frittaten Suppeneinlage",
+      "image_url": "https://images.openfoodfacts.org/images/products/409/920/025/9611/front_de.17.400.jpg",
+      "off_code": "4099200259611",
+      "product_id": "56caac5a3678"
+    },
+    {
+      "name": "Grießnockerl",
+      "image_url": "https://images.openfoodfacts.org/images/products/406/145/948/7572/front_de.7.400.jpg",
+      "off_code": "4061459487572",
+      "product_id": "67ef784a705b"
+    },
+    {
+      "name": "Leberknödel",
+      "image_url": "https://images.openfoodfacts.org/images/products/406/146/144/4273/front_de.5.400.jpg",
+      "off_code": "4061461444273",
+      "product_id": "1056fbd7e1b4"
+    },
+    {
+      "name": "Snackbox Crispy Chili Cheese Nuggets",
+      "image_url": "https://images.openfoodfacts.org/images/products/406/146/339/0219/front_en.5.400.jpg",
+      "off_code": "4061463390219",
+      "product_id": "6c117780ad59"
+    },
+    {
+      "name": "Snackbox Crispy Mozzarella Sticks",
+      "image_url": "https://images.openfoodfacts.org/images/products/000/002/212/6184/front_de.11.400.jpg",
+      "off_code": "0000022126184",
+      "product_id": "9a3dfa77550d"
+    },
+    {
+      "name": "Snackbox Frischkäse Jalapenos",
+      "image_url": "https://images.openfoodfacts.org/images/products/406/145/804/1997/front_de.3.400.jpg",
+      "off_code": "4061458041997",
+      "product_id": "32251be1ffa7"
+    },
+    {
+      "name": "XXL Chicken Nuggets",
+      "image_url": "https://images.openfoodfacts.org/images/products/406/145/935/8636/front_hu.4.400.jpg",
+      "off_code": "4061459358636",
+      "product_id": "ec316cab6d20"
+    },
+    {
+      "name": "Lasagne Ricotta-Spinat",
+      "image_url": "https://images.openfoodfacts.org/images/products/406/146/169/1561/front_de.35.400.jpg",
+      "off_code": "4061461691561",
+      "product_id": "802c16b6313c"
+    },
+    {
+      "name": "Speck Knödel Innviertler Art",
+      "image_url": "https://images.openfoodfacts.org/images/products/406/146/317/0880/front_de.3.400.jpg",
+      "off_code": "4061463170880",
+      "product_id": "3729355d2eae"
+    }
+  ]
+}
