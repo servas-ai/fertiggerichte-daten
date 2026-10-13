@@ -1,0 +1,143 @@
+{
+ "run": "2026-10-13T10 Daten-Squad",
+ "logos_added": {
+  "bertagni": {
+   "name": "Bertagni",
+   "brands": [
+    "Bertagni"
+   ],
+   "file": "logos/bertagni.png",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Bertagni-logo.png",
+   "note": "Vision gate 2026-10-13: visuell geprüft (korrekte Marke, scharf, kein Platzhalter) · Wikimedia Commons (CC BY-SA 3.0) · Pastificio Bertagni (Bologna, gegr. 1882); MPreis-Ravioli"
+  },
+  "bonduelle": {
+   "name": "Bonduelle",
+   "brands": [
+    "Bonduelle"
+   ],
+   "file": "logos/bonduelle.svg",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Bonduelle_Logo_Vector_2017_col.svg",
+   "note": "Vision gate 2026-10-13: visuell geprüft (korrekte Marke, scharf, kein Platzhalter) · Wikimedia Commons (Public domain) · Bonduelle SA; Gurkerl-Linsencurry u. a."
+  },
+  "hofmanns": {
+   "name": "HOFMANNs",
+   "brands": [
+    "HOFMANNs",
+    "HOFMANNS",
+    "Hofmanns"
+   ],
+   "file": "logos/hofmanns.png",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/e/ee/HOFMANNS_Logo_sRGB.jpg",
+   "note": "Vision gate 2026-10-13: visuell geprüft (korrekte Marke, scharf, kein Platzhalter) · Wikimedia Commons (CC BY-SA 4.0) · Marke der Hofmann Menü-Manufaktur GmbH (Compass Group); Gurkerl TK"
+  },
+  "landliebe": {
+   "name": "Landliebe",
+   "brands": [
+    "Landliebe"
+   ],
+   "file": "logos/landliebe.svg",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/0/03/Landliebe_Logo.svg",
+   "note": "Vision gate 2026-10-13: visuell geprüft (korrekte Marke, scharf, kein Platzhalter) · Wikimedia Commons (Public domain) · Landliebe (FrieslandCampina); Puddings"
+  },
+  "alpro": {
+   "name": "Alpro",
+   "brands": [
+    "Alpro",
+    "alpro",
+    "ALPRO"
+   ],
+   "file": "logos/alpro.png",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Logo_Alpro.webp",
+   "note": "Vision gate 2026-10-13: visuell geprüft (korrekte Marke, scharf, kein Platzhalter) · Wikimedia Commons (CC BY-SA 4.0) · Alpro (Danone); Soja-Desserts"
+  },
+  "mueller": {
+   "name": "Müller",
+   "brands": [
+    "Müller",
+    "Mueller",
+    "Müllermilch"
+   ],
+   "file": "logos/mueller.svg",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Mueller-logo.svg",
+   "note": "Vision gate 2026-10-13: visuell geprüft (korrekte Marke, scharf, kein Platzhalter) · Wikimedia Commons (Public domain) · Molkerei Alois Müller GmbH & Co. KG (Unternehmensgruppe Theo Müller); High-Protein-Puddings"
+  },
+  "picard": {
+   "name": "Picard",
+   "brands": [
+    "PICARD",
+    "Picard"
+   ],
+   "file": "logos/picard.png",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Picard_Surgel%C3%A9s_Logo26.png",
+   "note": "Vision gate 2026-10-13: visuell geprüft (korrekte Marke, scharf, kein Platzhalter) · Wikimedia Commons (CC0) · Picard Surgelés (FR), Logo 2026; Gurkerl TK"
+  },
+  "schaerdinger": {
+   "name": "Schärdinger",
+   "brands": [
+    "Schärdinger",
+    "Schaerdinger"
+   ],
+   "file": "logos/schaerdinger.png",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Schaerdinger_Logo.jpg",
+   "note": "Vision gate 2026-10-13: visuell geprüft (korrekte Marke, scharf, kein Platzhalter) · Wikimedia Commons (CC BY-SA 4.0) · Schärdinger (Berglandmilch eGen, OÖ); Dessertcremes"
+  },
+  "freshery": {
+   "name": "Freshery",
+   "brands": [
+    "Freshery",
+    "FRESHERY"
+   ],
+   "file": "logos/freshery.svg",
+   "source": "https://cdn.myshoptet.com/usr/www.freshery.sk/user/logos/freshery_logo.svg",
+   "note": "Vision gate 2026-10-13: visuell geprüft (korrekte Marke, scharf, kein Platzhalter) · offizielles Shop-Logo (og:image) freshery.sk; Suppen/Tom Yum + Gyoza, Gurkerl"
+  },
+  "every-foods": {
+   "name": "Every.",
+   "brands": [
+    "Every.",
+    "EVERY."
+   ],
+   "file": "logos/every-foods.svg",
+   "source": "https://a.storyblok.com/f/291086118523370/86x28/c9f09c61bc/every_logo_black-1.svg",
+   "note": "Vision gate 2026-10-13: visuell geprüft (korrekte Marke, scharf, kein Platzhalter) · offizielles Wortlogo aus dem Header von every-foods.com (Every Foods, pflanzliche TK-Gerichte; Gurkerl)"
+  },
+  "karnerta": {
+   "name": "KARNERTA GmbH",
+   "brands": [
+    "KARNERTA",
+    "Karnerta"
+   ],
+   "file": "logos/karnerta.svg",
+   "source": "https://www.karnerta.at/wp-content/uploads/2025/02/Logo_Karnerta_4c_mSlogan.svg",
+   "note": "Vision gate 2026-10-13: visuell geprüft (korrekte Marke, scharf, kein Platzhalter) · offizielles Logo karnerta.at; jetzt auch Marke Karnerta (MPreis-Produkte) zugeordnet"
+  }
+ },
+ "lidl_api": [
+  {
+   "q": "fertiggericht",
+   "http": "401"
+  },
+  {
+   "q": "suppe",
+   "http": "401"
+  },
+  {
+   "q": "eintopf",
+   "http": "401"
+  }
+ ],
+ "lidl_note": "lidl.at /q/api/search (robots-allowed) answered 200 for 4 single probes 10:08-10:14Z, then 401 for every sweep request (3 consecutive at 60 s backoff) -> stopped, no workaround (no cookies/login/fingerprint tricks)",
+ "penny_probe": {
+  "source": "https://www.penny.at/api/product-discovery/products (453 online items, 2026-10-13)",
+  "ready_meal_like": [
+   "Rindergulasch* 400 g (78-785625)",
+   "Wiener Schnitzel* Ich bin Österreich 750 g",
+   "Hühner-Nuggets* Iglo 250 g",
+   "Ofenbackfisch* Iglo 480 g",
+   "Knuspergarnelen* Taste Of Asia 260 g",
+   "Condeli Lasagne* 800 g (already indexed)",
+   "Frühlingsrollen* Taste Of Asia (already indexed)"
+  ],
+  "decision": "not imported: Penny detail JSON has no nutrition/GTIN for these flyer items (nutritionInfos null) -> no health score possible; existing Penny OFF rows (Chef Menü) are not in Penny's online assortment, so no live price"
+ }
+}

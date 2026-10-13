@@ -1267,7 +1267,10 @@
   "category": "Produzent/Werk",
   "file": "logos/karnerta.svg",
   "source_url": "https://www.karnerta.at/wp-content/uploads/2025/02/Logo_Karnerta_4c_mSlogan.svg",
-  "brands": []
+  "brands": [
+   "KARNERTA",
+   "Karnerta"
+  ]
  },
  {
   "slug": "landena",
@@ -1565,6 +1568,116 @@
    "Lotao",
    "LOTAO",
    "Lotao Green"
+  ]
+ },
+ {
+  "slug": "bertagni",
+  "name": "Bertagni",
+  "category": "Markenhersteller",
+  "file": "logos/bertagni.png",
+  "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Bertagni-logo.png",
+  "brands": [
+   "Bertagni"
+  ]
+ },
+ {
+  "slug": "bonduelle",
+  "name": "Bonduelle",
+  "category": "Markenhersteller",
+  "file": "logos/bonduelle.svg",
+  "source_url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Bonduelle_Logo_Vector_2017_col.svg",
+  "brands": [
+   "Bonduelle"
+  ]
+ },
+ {
+  "slug": "hofmanns",
+  "name": "HOFMANNs",
+  "category": "Markenhersteller",
+  "file": "logos/hofmanns.png",
+  "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/HOFMANNS_Logo_sRGB.jpg",
+  "brands": [
+   "HOFMANNs",
+   "HOFMANNS",
+   "Hofmanns"
+  ]
+ },
+ {
+  "slug": "landliebe",
+  "name": "Landliebe",
+  "category": "Markenhersteller",
+  "file": "logos/landliebe.svg",
+  "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Landliebe_Logo.svg",
+  "brands": [
+   "Landliebe"
+  ]
+ },
+ {
+  "slug": "alpro",
+  "name": "Alpro",
+  "category": "Markenhersteller",
+  "file": "logos/alpro.png",
+  "source_url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Logo_Alpro.webp",
+  "brands": [
+   "Alpro",
+   "alpro",
+   "ALPRO"
+  ]
+ },
+ {
+  "slug": "mueller",
+  "name": "Müller",
+  "category": "Markenhersteller",
+  "file": "logos/mueller.svg",
+  "source_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Mueller-logo.svg",
+  "brands": [
+   "Müller",
+   "Mueller",
+   "Müllermilch"
+  ]
+ },
+ {
+  "slug": "picard",
+  "name": "Picard",
+  "category": "Markenhersteller",
+  "file": "logos/picard.png",
+  "source_url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Picard_Surgel%C3%A9s_Logo26.png",
+  "brands": [
+   "PICARD",
+   "Picard"
+  ]
+ },
+ {
+  "slug": "schaerdinger",
+  "name": "Schärdinger",
+  "category": "Markenhersteller",
+  "file": "logos/schaerdinger.png",
+  "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Schaerdinger_Logo.jpg",
+  "brands": [
+   "Schärdinger",
+   "Schaerdinger"
+  ]
+ },
+ {
+  "slug": "freshery",
+  "name": "Freshery",
+  "category": "Markenhersteller",
+  "file": "logos/freshery.svg",
+  "source_url": "https://cdn.myshoptet.com/usr/www.freshery.sk/user/logos/freshery_logo.svg",
+  "brands": [
+   "Freshery",
+   "FRESHERY"
+  ]
+ },
+ {
+  "slug": "every-foods",
+  "name": "Every.",
+  "category": "Markenhersteller",
+  "file": "logos/every-foods.svg",
+  "source_url": "https://a.storyblok.com/f/291086118523370/86x28/c9f09c61bc/every_logo_black-1.svg",
+  "brands": [
+   "Every.",
+   "EVERY."
   ]
  }
 ]
