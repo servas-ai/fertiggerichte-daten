@@ -1,0 +1,96 @@
+{
+ "run": "2026-10-13T2340 Daten-Squad",
+ "generated_at": "2026-10-13T23:43:43.354530+00:00",
+ "added": [
+  {
+   "slug": "yum-yum",
+   "note": "Vision gate 2026-10-13T2340 (Daten-Squad): visuell geprüft (korrekte Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · Packshot-Ausschnitt Wan Thai Foods Marke YumYum® (grün/gelbes Wordmark auf gelbem Pack-Header)",
+   "source": "MPreis Cloudinary packshot (res.cloudinary.com/dit8huoga, Yum Yum Instantnudeln Huhn, GTIN 8852018101024) — Ausschnitt Markenlogo",
+   "sha256": "0bd4fbcaeeebbc8b3bb2b2e91bcd87de946d4edb36d8fe49e808dc19564cf68c",
+   "products_impacted": 5,
+   "aliases": [
+    "Yum Yum",
+    "YumYum"
+   ]
+  },
+  {
+   "slug": "m-mpreis",
+   "note": "Vision gate 2026-10-13T2340 (Daten-Squad): visuell geprüft (korrekte Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · Packshot-Ausschnitt MPreis-Eigenmarke M (weißes M im roten Quadrat, wie auf der Verpackung); eigener Eintrag statt Alias auf mpreis.svg, weil der Pack-Aufdruck das Eigenmarken-Siegel ist",
+   "source": "MPreis Cloudinary packshot (res.cloudinary.com/dit8huoga, M Cevapcici mit Letscho und Reis) — Ausschnitt Eigenmarken-Siegel",
+   "sha256": "ab0090bc598678d640cabad2340675e58f2221ae65854e2bc0520c98c32126ac",
+   "products_impacted": 12,
+   "aliases": [
+    "M (MPreis Eigenmarke)",
+    "M"
+   ]
+  },
+  {
+   "slug": "leitgebs",
+   "note": "Vision gate 2026-10-13T2340 (Daten-Squad): visuell geprüft (korrekte Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · Packshot-Ausschnitt gelber Leitgeb's-Sticker (Handgemachte Nudeln + Nudel-Maskottchen + Script-Wordmark); Quelle nur 637px, Crop hochskaliert, Wordmark lesbar; Leitgeb-Website nicht geprobt in diesem Lauf",
+   "source": "Gurkerl CDN packshot Leitgeb´s Vegetarischer Nudelteller (cdn.gurkerl.at …/40027-1741767351370.jpg, GTIN 9120071330248) — Ausschnitt Etikett-Sticker",
+   "sha256": "20119782e20d0cdf8ed0cf3dc8fb2e18bb6ed4b85c837e040bb2ae78cde39bc7",
+   "products_impacted": 6,
+   "aliases": [
+    "Leitgeb's Nudelspezialitäten",
+    "Leitgeb´s",
+    "Leitgeb's"
+   ]
+  }
+ ],
+ "updated_fileless": [
+  {
+   "slug": "vemondo",
+   "note": "Vision gate 2026-10-13T2340 (Daten-Squad): visuell geprüft (korrekte Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · Packshot-Ausschnitt Lidl-Eigenmarke VEMONDO (weißes Wordmark mit Blatt-V auf hellgrünem Blatt); 3000x4000 OFF-Foto; Commons kein Treffer",
+   "source": "OFF packshot GTIN 4056489848752 front_de.11 (Vemondo veganer Salat nach Art eines Budapester Salates) — Ausschnitt Markenlogo",
+   "sha256": "62108cb27d4a645734b4d3e569ff584508231b560f6a43fde904542708228ee5",
+   "products_impacted": 8,
+   "aliases": [
+    "Vemondo",
+    "Vemondo, Grønvang Food ApS, Lidl"
+   ]
+  },
+  {
+   "slug": "nature-s-gold",
+   "note": "Vision gate 2026-10-13T2340 (Daten-Squad): visuell geprüft (korrekte Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · Packshot-Ausschnitt Hofer-Eigenmarke NATURE'S GOLD (weiße Handschrift auf Kreidetafel-Badge); Aldi-CDN Brandpage-Logo bewusst nicht geprobt (T09 403)",
+   "source": "OFF packshot GTIN 4099200105291 front_de.25 (Nature's Gold Pfannengemüse Feinschmecker Art) — Ausschnitt Markenlogo",
+   "sha256": "f3eea858863cc5663812152e821b31a68a195283783c9f9867b1dc8993fbd2db",
+   "products_impacted": 5,
+   "aliases": [
+    "Nature's Gold",
+    "NATURE'S GOLD"
+   ]
+  },
+  {
+   "slug": "kania",
+   "note": "Vision gate 2026-10-13T2340 (Daten-Squad): visuell geprüft (korrekte Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · Packshot-Ausschnitt Lidl-Eigenmarke Kania (weißes Script-Wordmark mit Smile-Bogen auf rotem Tab); Quelle 1275x1698, Crop auf 300px hochskaliert, lesbar",
+   "source": "OFF packshot GTIN 4335619175334 front_en.3 (Kania India Style Yellow Curry) — Ausschnitt Markenlogo",
+   "sha256": "7d895b4a333f652257c7e7aa107c4fe225f768fba5c2b57e39d16f1fbb21d50b",
+   "products_impacted": 5,
+   "aliases": [
+    "Kania",
+    "Kania (Lidl)"
+   ]
+  }
+ ],
+ "aliases_producer_fallback": [],
+ "rejected": {
+  "The Green Garden (6 products)": "Gurkerl images are plated-meal photos (Gurkerl own-label collab) with no packaging logo; no packshot available — still open",
+  "Vemondo Smoothie Bowl / Geschnetzeltes OFF fronts": "logo absent or 300px only — used 3000x4000 Budapester front instead",
+  "Wikimedia Commons (Vemondo/Nature's Gold/Kania/Yum Yum/Leitgeb's)": "not used — pack crops from dataset packshots"
+ },
+ "counts": {
+  "added": 3,
+  "updated_fileless": 3,
+  "total_rows": 257,
+  "with_file": 225,
+  "products_impacted_total": 41
+ },
+ "sha256": {
+  "vemondo": "62108cb27d4a645734b4d3e569ff584508231b560f6a43fde904542708228ee5",
+  "nature-s-gold": "f3eea858863cc5663812152e821b31a68a195283783c9f9867b1dc8993fbd2db",
+  "yum-yum": "0bd4fbcaeeebbc8b3bb2b2e91bcd87de946d4edb36d8fe49e808dc19564cf68c",
+  "kania": "7d895b4a333f652257c7e7aa107c4fe225f768fba5c2b57e39d16f1fbb21d50b",
+  "m-mpreis": "ab0090bc598678d640cabad2340675e58f2221ae65854e2bc0520c98c32126ac",
+  "leitgebs": "20119782e20d0cdf8ed0cf3dc8fb2e18bb6ed4b85c837e040bb2ae78cde39bc7"
+ }
+}

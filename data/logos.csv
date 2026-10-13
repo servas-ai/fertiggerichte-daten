@@ -31,21 +31,21 @@ good-choice,Good Choice,Eigenmarke,logos/good-choice.png,OFF packshot GTIN 40992
 primana,Primana,Eigenmarke,logos/primana.png,"hofer.at Produktfoto Primana Frühstücksfleisch (Aldi CDN dm.emea.cms.aldi.cx, Ausschnitt)",Primana|PRIMANA
 asia,Asia,Eigenmarke,,,Asia
 green-garden,Asia Green Garden,Eigenmarke,logos/asia-green-garden.png,"hofer.at Produktfoto Asia Green Garden Pilztopf (Aldi CDN dm.emea.cms.aldi.cx, Ausschnitt)",Asia Green Garden|Green Garden
-nature-s-gold,Nature's Gold,Eigenmarke,,,Nature's Gold
+nature-s-gold,Nature's Gold,Eigenmarke,logos/natures-gold.png,OFF packshot GTIN 4099200105291 front_de.25 (Nature's Gold Pfannengemüse Feinschmecker Art) — Ausschnitt Markenlogo,Nature's Gold|NATURE'S GOLD
 pizz-ah,PIZZ'AH,Eigenmarke,,,PIZZ'AH
 leibspeis,Leibspeis',Eigenmarke,,,Leibspeis'
 natur-aktiv,Natur Aktiv,Bio,,,Natur Aktiv
 rettenswert,Rettenswert,Eigenmarke,,,Rettenswert
 wonnemeyer,Wonnemeyer,Eigenmarke,,,Wonnemeyer
 chef-select,Chef Select,Eigenmarke,logos/chef-select.png,OFF packshot GTIN 4056489009214 front_en.94 (Chef Select Smoked Ham Tortellini) — Ausschnitt Markenlogo,Chef Select|CHEF SELECT
-vemondo,Vemondo,Eigenmarke,,,Vemondo
+vemondo,Vemondo,Eigenmarke,logos/vemondo.png,OFF packshot GTIN 4056489848752 front_de.11 (Vemondo veganer Salat nach Art eines Budapester Salates) — Ausschnitt Markenlogo,"Vemondo|Vemondo, Grønvang Food ApS, Lidl"
 deluxe,Deluxe,Eigenmarke,,,Deluxe
 vitasia,Vitasia,Eigenmarke,,,Vitasia
 mcennedy,MCENNEDY,Eigenmarke,,,MCENNEDY
 schwaben-krone,Schwaben Krone,Eigenmarke,,,Schwaben Krone
 select-go,SELECT&GO,Eigenmarke,,,SELECT&GO
 trattoria-alfredo,Trattoria Alfredo,Eigenmarke,,,Trattoria Alfredo
-kania,Kania,Eigenmarke,,,Kania
+kania,Kania,Eigenmarke,logos/kania.png,OFF packshot GTIN 4335619175334 front_en.3 (Kania India Style Yellow Curry) — Ausschnitt Markenlogo,Kania|Kania (Lidl)
 food-for-future,Food for Future,Eigenmarke,logos/food-for-future.svg,https://assets-eu-01.kc-usercontent.com:443/1d32d597-5ed5-0129-acbb-0e3925686fcc/2f2e48b1-b6da-4c09-a80f-623b2c5ce926/Food_for_Future_Logo_4c.svg,"Food for Future|Food for Future, Penny"
 delikatessa,Delikatessa,Eigenmarke,,,Delikatessa
 chef-menue,Chef Menü,Eigenmarke,logos/chef-menue.png,OFF packshot GTIN 9010158009856 front_en.4 (Chef Menü Schweinsbraten) — Ausschnitt Markenlogo,Chef Menü|Chef Menu|chef menü
@@ -253,3 +253,6 @@ hellofresh,HelloFresh,Online-Mealprep,logos/hellofresh.svg,https://cdn.hellofres
 dmbio,dmBio,Eigenmarke,logos/dmbio.png,dm-static packshot dmBio Gulasch vegan (products.dm-static.com …/dmbio-gulasch-vegan) — Ausschnitt Markenlogo,dmBio
 namdong,Namdong,Markenhersteller,logos/namdong.png,Gurkerl CDN packshot Namdong Beef Instant Noodle Pot (cdn.gurkerl.at …/44153-…) — Ausschnitt Markenlogo,Namdong
 pappudia,Pappudia,Eigenmarke,logos/pappudia.png,OFF packshot GTIN 8595643805690 front_cs.12 (Pappudia Hummus) — Ausschnitt Markenlogo,Pappudia|Pappudia Handgemacht
+yum-yum,Yum Yum,Markenhersteller,logos/yum-yum.png,"MPreis Cloudinary packshot (res.cloudinary.com/dit8huoga, Yum Yum Instantnudeln Huhn, GTIN 8852018101024) — Ausschnitt Markenlogo",Yum Yum|YumYum
+m-mpreis,M (MPreis Eigenmarke),Eigenmarke,logos/m-mpreis.png,"MPreis Cloudinary packshot (res.cloudinary.com/dit8huoga, M Cevapcici mit Letscho und Reis) — Ausschnitt Eigenmarken-Siegel",M (MPreis Eigenmarke)|M
+leitgebs,Leitgeb's Nudelspezialitäten,Markenhersteller,logos/leitgebs.png,"Gurkerl CDN packshot Leitgeb´s Vegetarischer Nudelteller (cdn.gurkerl.at …/40027-1741767351370.jpg, GTIN 9120071330248) — Ausschnitt Etikett-Sticker",Leitgeb's Nudelspezialitäten|Leitgeb´s|Leitgeb's

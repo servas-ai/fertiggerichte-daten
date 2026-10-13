@@ -339,10 +339,11 @@
   "slug": "nature-s-gold",
   "name": "Nature's Gold",
   "category": "Eigenmarke",
-  "file": null,
-  "source_url": null,
+  "file": "logos/natures-gold.png",
+  "source_url": "OFF packshot GTIN 4099200105291 front_de.25 (Nature's Gold Pfannengemüse Feinschmecker Art) — Ausschnitt Markenlogo",
   "brands": [
-   "Nature's Gold"
+   "Nature's Gold",
+   "NATURE'S GOLD"
   ]
  },
  {
@@ -410,10 +411,11 @@
   "slug": "vemondo",
   "name": "Vemondo",
   "category": "Eigenmarke",
-  "file": null,
-  "source_url": null,
+  "file": "logos/vemondo.png",
+  "source_url": "OFF packshot GTIN 4056489848752 front_de.11 (Vemondo veganer Salat nach Art eines Budapester Salates) — Ausschnitt Markenlogo",
   "brands": [
-   "Vemondo"
+   "Vemondo",
+   "Vemondo, Grønvang Food ApS, Lidl"
   ]
  },
  {
@@ -480,10 +482,11 @@
   "slug": "kania",
   "name": "Kania",
   "category": "Eigenmarke",
-  "file": null,
-  "source_url": null,
+  "file": "logos/kania.png",
+  "source_url": "OFF packshot GTIN 4335619175334 front_en.3 (Kania India Style Yellow Curry) — Ausschnitt Markenlogo",
   "brands": [
-   "Kania"
+   "Kania",
+   "Kania (Lidl)"
   ]
  },
  {
@@ -2696,6 +2699,40 @@
   "brands": [
    "Pappudia",
    "Pappudia Handgemacht"
+  ]
+ },
+ {
+  "slug": "yum-yum",
+  "name": "Yum Yum",
+  "category": "Markenhersteller",
+  "file": "logos/yum-yum.png",
+  "source_url": "MPreis Cloudinary packshot (res.cloudinary.com/dit8huoga, Yum Yum Instantnudeln Huhn, GTIN 8852018101024) — Ausschnitt Markenlogo",
+  "brands": [
+   "Yum Yum",
+   "YumYum"
+  ]
+ },
+ {
+  "slug": "m-mpreis",
+  "name": "M (MPreis Eigenmarke)",
+  "category": "Eigenmarke",
+  "file": "logos/m-mpreis.png",
+  "source_url": "MPreis Cloudinary packshot (res.cloudinary.com/dit8huoga, M Cevapcici mit Letscho und Reis) — Ausschnitt Eigenmarken-Siegel",
+  "brands": [
+   "M (MPreis Eigenmarke)",
+   "M"
+  ]
+ },
+ {
+  "slug": "leitgebs",
+  "name": "Leitgeb's Nudelspezialitäten",
+  "category": "Markenhersteller",
+  "file": "logos/leitgebs.png",
+  "source_url": "Gurkerl CDN packshot Leitgeb´s Vegetarischer Nudelteller (cdn.gurkerl.at …/40027-1741767351370.jpg, GTIN 9120071330248) — Ausschnitt Etikett-Sticker",
+  "brands": [
+   "Leitgeb's Nudelspezialitäten",
+   "Leitgeb´s",
+   "Leitgeb's"
   ]
  }
 ]
