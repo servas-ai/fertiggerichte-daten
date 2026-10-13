@@ -1,0 +1,194 @@
+{
+ "8052400955840": {
+  "_error": "HTTP Error 404: Not Found"
+ },
+ "8052400954164": {
+  "_error": "HTTP Error 404: Not Found"
+ },
+ "4002359041174": {
+  "product_name": "Japanese Teriyaki Style",
+  "brands": "Ben's",
+  "brand_owner": null,
+  "emb_codes": null,
+  "quantity": "250g",
+  "nutrition_data_per": "100g",
+  "last_modified_t": 1786521782,
+  "code_strict": null,
+  "n100": {
+   "kcal": 207,
+   "fat": 6.8,
+   "satfat": 0.7,
+   "carbs": 30,
+   "sugar": 7.7,
+   "fiber": 0.9,
+   "protein": 5.5,
+   "salt": 0.65
+  }
+ },
+ "4002359041150": {
+  "product_name": "Street Food - Thai Style",
+  "brands": "Ben's Original",
+  "brand_owner": null,
+  "emb_codes": "",
+  "quantity": "250 g",
+  "nutrition_data_per": "100g",
+  "last_modified_t": 1787669796,
+  "code_strict": null,
+  "n100": {
+   "kcal": 221.6,
+   "fat": 7.6,
+   "satfat": 1.2,
+   "carbs": 30.4,
+   "sugar": 5.2,
+   "fiber": 1.44,
+   "protein": 6.8,
+   "salt": 0.68
+  }
+ },
+ "4002359041136": {
+  "product_name": "Street Food - Chinese Style",
+  "brands": "Ben's Original",
+  "brand_owner": null,
+  "emb_codes": "",
+  "quantity": "250 g",
+  "nutrition_data_per": "100g",
+  "last_modified_t": 1781645213,
+  "code_strict": null,
+  "n100": {
+   "kcal": 183.2,
+   "fat": 5.2,
+   "satfat": 0.6,
+   "carbs": 28,
+   "sugar": 4.4,
+   "fiber": 1.24,
+   "protein": 5.6,
+   "salt": 0.8
+  }
+ },
+ "4002359041235": {
+  "_error": "HTTP Error 404: Not Found"
+ },
+ "9002434778860": {
+  "_error": "HTTP Error 404: Not Found"
+ },
+ "9008695979213": {
+  "product_name": "Fischstäbchen Brezel",
+  "brands": "iglo",
+  "brand_owner": null,
+  "emb_codes": "",
+  "quantity": "364 g",
+  "nutrition_data_per": "100g",
+  "last_modified_t": 1774519411,
+  "code_strict": null,
+  "n100": {
+   "kcal": 224,
+   "fat": 10,
+   "satfat": 0.8,
+   "carbs": 20,
+   "sugar": 0.6,
+   "fiber": 1.1,
+   "protein": 13,
+   "salt": 0.91
+  }
+ },
+ "9008695943627": {
+  "product_name": "Backfischstäbchen",
+  "brands": "Iglo",
+  "brand_owner": null,
+  "emb_codes": "",
+  "quantity": "364g",
+  "nutrition_data_per": "100g",
+  "last_modified_t": 1779171216,
+  "code_strict": null,
+  "n100": {
+   "kcal": 230,
+   "fat": 12,
+   "satfat": 0.9,
+   "carbs": 19,
+   "sugar": 0.6,
+   "fiber": 0.8,
+   "protein": 11,
+   "salt": 1.1
+  }
+ },
+ "4104420217188": {
+  "product_name": "Fischstäbchen (TK)",
+  "brands": "Alnatura, Alnatura GmbH",
+  "brand_owner": null,
+  "emb_codes": "",
+  "quantity": "250 g",
+  "nutrition_data_per": "100g",
+  "last_modified_t": 1774458070,
+  "code_strict": null,
+  "n100": {
+   "kcal": 187,
+   "fat": 8.1,
+   "satfat": 1,
+   "carbs": 14,
+   "sugar": 2,
+   "fiber": 0.7,
+   "protein": 14,
+   "salt": 0.57
+  }
+ },
+ "4000405005026": {
+  "product_name": "Veganes Mühlen Cordon Bleu",
+  "brands": "Rügenwalder Mühle",
+  "brand_owner": null,
+  "emb_codes": "",
+  "quantity": "200g",
+  "nutrition_data_per": "100g",
+  "last_modified_t": 1788017164,
+  "code_strict": null,
+  "n100": {
+   "kcal": 209,
+   "fat": 11,
+   "satfat": 0.9,
+   "carbs": 13,
+   "sugar": 0.6,
+   "fiber": 5,
+   "protein": 12,
+   "salt": 1.5
+  }
+ },
+ "7630294505375": {
+  "product_name": "Nuggets",
+  "brands": "planted.",
+  "brand_owner": null,
+  "emb_codes": null,
+  "quantity": null,
+  "nutrition_data_per": "100g",
+  "last_modified_t": 1791217709,
+  "code_strict": null,
+  "n100": {
+   "kcal": 270,
+   "fat": 13,
+   "satfat": 1,
+   "carbs": 22,
+   "sugar": 0.6,
+   "fiber": 2.6,
+   "protein": 14,
+   "salt": 1.5725
+  }
+ },
+ "4104420250277": {
+  "product_name": "Dinkel Tortelloni Ricotta",
+  "brands": "ALNATURA",
+  "brand_owner": null,
+  "emb_codes": null,
+  "quantity": "250 g",
+  "nutrition_data_per": "100g",
+  "last_modified_t": 1777455624,
+  "code_strict": null,
+  "n100": {
+   "kcal": 301,
+   "fat": 6,
+   "satfat": 2.8,
+   "carbs": 49,
+   "sugar": 1.9,
+   "fiber": 3.1,
+   "protein": 13,
+   "salt": 0.845
+  }
+ }
+}
