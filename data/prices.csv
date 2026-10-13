@@ -2023,6 +2023,9 @@ e3a393a0a6f2,MPreis,2.99,18.69,live 2026,2026-10-13,"food-connectors/mpreis-shop
 eed4ca19f886,Billa,2.79,14.31,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
 69afa19b8bd6,Billa,5.29,13.23,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, Normalpreis; Aktion separat)"
 d8de424ed110,Gurkerl,10.49,23.31,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category walk + search, products/prices/stock API, inStock)"
+f786b3a63bb4,Denn's,5.49,27.45,live 2026,2026-10-13,"food-connectors/denns 2026-10-13 (denn's BioMarkt AT Angebote-Feed, Artikel 003115): Normalpreis 5.49 €; Aktionspreis 4.29 € gültig 2026-10-07–2026-10-20; Packung 200 g"
+4b0378c72840,Denn's,3.99,,live 2026,2026-10-13,"food-connectors/denns 2026-10-13 (denn's BioMarkt AT Angebote-Feed, Artikel 004476): Normalpreis 3.99 €; Aktionspreis 3.29 € gültig 2026-10-07–2026-10-20; Packung 185 g - 200 g"
+ce68666362b1,Denn's,3.99,,live 2026,2026-10-13,"food-connectors/denns 2026-10-13 (denn's BioMarkt AT Angebote-Feed, Artikel 564131): Normalpreis 3.99 €; Aktionspreis 3.49 € gültig 2026-10-07–2026-10-20 (ab-Preis, mehrere Sorten); Packung 350 g / 380 g"
 6415820c4167,PrepMyMeal,12.48,12.48,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
 686d7d17b44d,PrepMyMeal,10.49,20.98,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
 96f3aa02ba70,PrepMyMeal,10.49,10.49,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13

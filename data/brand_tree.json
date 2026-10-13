@@ -40,11 +40,6 @@
         "Subway"
        ],
        "ids": [
-        2797,
-        2798,
-        2799,
-        2800,
-        2801,
         2802,
         2803,
         2804,
@@ -98,7 +93,12 @@
         2852,
         2853,
         2854,
-        2855
+        2855,
+        2856,
+        2857,
+        2858,
+        2859,
+        2860
        ]
       }
      ]
@@ -120,18 +120,18 @@
         "FitTaste"
        ],
        "ids": [
-        2742,
-        2744,
-        2746,
         2747,
-        2748,
         2749,
-        2750,
+        2751,
         2752,
         2753,
         2754,
-        2756,
-        2757
+        2755,
+        2757,
+        2758,
+        2759,
+        2761,
+        2762
        ]
       }
      ]
@@ -221,7 +221,7 @@
         1611,
         2053,
         2061,
-        2314
+        2319
        ]
       }
      ]
@@ -271,10 +271,10 @@
        ],
        "ids": [
         1499,
-        2449,
-        2450,
-        2457,
-        2458
+        2454,
+        2455,
+        2462,
+        2463
        ]
       }
      ]
@@ -350,7 +350,7 @@
         1553,
         1712,
         1847,
-        2356
+        2361
        ]
       }
      ]
@@ -497,7 +497,7 @@
         "Spar"
        ],
        "ids": [
-        2534
+        2539
        ]
       },
       {
@@ -506,7 +506,7 @@
         "unbekannt (OFF)"
        ],
        "ids": [
-        2539
+        2544
        ]
       }
      ]
@@ -552,9 +552,9 @@
         "Billa"
        ],
        "ids": [
-        2429,
-        2469,
-        2470
+        2434,
+        2474,
+        2475
        ]
       }
      ]
@@ -576,9 +576,9 @@
         "Billa"
        ],
        "ids": [
-        2434,
-        2435,
-        2451
+        2439,
+        2440,
+        2456
        ]
       }
      ]
@@ -1374,7 +1374,7 @@
         "Gurkerl"
        ],
        "ids": [
-        2313
+        2318
        ]
       }
      ]
@@ -1396,7 +1396,7 @@
         "Gurkerl"
        ],
        "ids": [
-        2371
+        2376
        ]
       }
      ]
@@ -1418,7 +1418,7 @@
         "Gurkerl"
        ],
        "ids": [
-        2378
+        2383
        ]
       }
      ]
@@ -1440,7 +1440,7 @@
         "Gurkerl"
        ],
        "ids": [
-        2398
+        2403
        ]
       }
      ]
@@ -1462,7 +1462,7 @@
         "Gurkerl"
        ],
        "ids": [
-        2428
+        2433
        ]
       }
      ]
@@ -1484,7 +1484,7 @@
         "Billa"
        ],
        "ids": [
-        2433
+        2438
        ]
       }
      ]
@@ -1506,7 +1506,7 @@
         "Billa"
        ],
        "ids": [
-        2442
+        2447
        ]
       }
      ]
@@ -1528,7 +1528,7 @@
         "Billa"
        ],
        "ids": [
-        2453
+        2458
        ]
       }
      ]
@@ -1550,7 +1550,7 @@
         "Billa"
        ],
        "ids": [
-        2460
+        2465
        ]
       }
      ]
@@ -1572,7 +1572,7 @@
         "Billa"
        ],
        "ids": [
-        2462
+        2467
        ]
       }
      ]
@@ -1594,7 +1594,7 @@
         "Billa"
        ],
        "ids": [
-        2464
+        2469
        ]
       }
      ]
@@ -1616,7 +1616,7 @@
         "Billa"
        ],
        "ids": [
-        2465
+        2470
        ]
       }
      ]
@@ -1638,7 +1638,7 @@
         "Billa"
        ],
        "ids": [
-        2466
+        2471
        ]
       }
      ]
@@ -1660,7 +1660,7 @@
         "Billa"
        ],
        "ids": [
-        2471
+        2476
        ]
       }
      ]
@@ -1757,12 +1757,12 @@
         2121,
         2122,
         2123,
-        2440,
-        2441,
-        2452,
-        2456,
-        2459,
-        2463
+        2445,
+        2446,
+        2457,
+        2461,
+        2464,
+        2468
        ]
       },
       {
@@ -1858,7 +1858,7 @@
         44,
         608,
         610,
-        2468
+        2473
        ]
       },
       {
@@ -1991,8 +1991,8 @@
         "unbekannt (OFF)"
        ],
        "ids": [
-        2477,
-        2492
+        2482,
+        2497
        ]
       }
      ]
@@ -2161,10 +2161,10 @@
         2200,
         2201,
         2215,
-        2430,
-        2436,
-        2446,
-        2454
+        2435,
+        2441,
+        2451,
+        2459
        ]
       }
      ]
@@ -2232,7 +2232,7 @@
         2157,
         2187,
         2204,
-        2340
+        2345
        ]
       }
      ]
@@ -2356,7 +2356,7 @@
         46,
         47,
         2193,
-        2443
+        2448
        ]
       },
       {
@@ -2365,8 +2365,8 @@
         "Billa"
        ],
        "ids": [
-        2444,
-        2445
+        2449,
+        2450
        ]
       }
      ]
@@ -2511,7 +2511,7 @@
         "Gurkerl"
        ],
        "ids": [
-        2319
+        2324
        ]
       }
      ]
@@ -2593,10 +2593,10 @@
         2211,
         2212,
         2213,
-        2437,
-        2438,
-        2448,
-        2461
+        2442,
+        2443,
+        2453,
+        2466
        ]
       }
      ]
@@ -2647,11 +2647,6 @@
         "NORDSEE"
        ],
        "ids": [
-        2758,
-        2759,
-        2760,
-        2761,
-        2762,
         2763,
         2764,
         2765,
@@ -2660,26 +2655,31 @@
         2768,
         2769,
         2770,
+        2771,
+        2772,
         2773,
         2774,
         2775,
-        2776,
-        2777,
         2778,
         2779,
+        2780,
         2781,
         2782,
         2783,
         2784,
         2786,
         2787,
+        2788,
         2789,
-        2790,
+        2791,
         2792,
-        2793,
         2794,
         2795,
-        2796
+        2797,
+        2798,
+        2799,
+        2800,
+        2801
        ]
       }
      ]
@@ -2837,10 +2837,10 @@
         1473,
         1474,
         1475,
-        2737,
-        2738,
-        2740,
-        2741
+        2742,
+        2743,
+        2745,
+        2746
        ]
       }
      ]
@@ -2884,7 +2884,7 @@
         1512,
         1997,
         2042,
-        2455
+        2460
        ]
       }
      ]
@@ -3316,7 +3316,7 @@
         "Billa"
        ],
        "ids": [
-        2497
+        2502
        ]
       }
      ]
@@ -3362,10 +3362,10 @@
         2115,
         2153,
         2205,
-        2318,
-        2321,
+        2323,
         2326,
-        2412
+        2331,
+        2417
        ]
       }
      ]
@@ -3743,7 +3743,7 @@
         1636,
         1718,
         1766,
-        2383
+        2388
        ]
       }
      ]
@@ -4128,7 +4128,7 @@
         "Gurkerl"
        ],
        "ids": [
-        2409
+        2414
        ]
       },
       {
@@ -4137,7 +4137,7 @@
         "Billa"
        ],
        "ids": [
-        2447
+        2452
        ]
       }
      ]
@@ -4814,7 +4814,7 @@
     551,
     824,
     1439,
-    2497
+    2502
    ],
    "cheapest": 551,
    "price_spread_pct": 133,
@@ -5331,7 +5331,7 @@
    ],
    "ids": [
     959,
-    2340
+    2345
    ],
    "cheapest": 959,
    "price_spread_pct": 3,
@@ -22473,7 +22473,7 @@
    "slug": null
   },
   {
-   "id": 2313,
+   "id": 2318,
    "name": "GREENFORCE Frische Mini-Frikadellen VEGAN",
    "brand": "GREENFORCE",
    "store": "Gurkerl",
@@ -22494,7 +22494,7 @@
    "slug": null
   },
   {
-   "id": 2314,
+   "id": 2319,
    "name": "Marks & Spencer Cream Of Tomato Soup",
    "brand": "Marks & Spencer",
    "store": "Gurkerl",
@@ -22515,7 +22515,7 @@
    "slug": null
   },
   {
-   "id": 2318,
+   "id": 2323,
    "name": "Alnatura BIO Falafel VEGAN",
    "brand": "Alnatura",
    "store": "Gurkerl",
@@ -22536,7 +22536,7 @@
    "slug": null
   },
   {
-   "id": 2319,
+   "id": 2324,
    "name": "Deli Dip Falafel Kichererbsen-Bällchen VEGAN",
    "brand": "Deli Dip",
    "store": "Gurkerl",
@@ -22557,7 +22557,7 @@
    "slug": null
   },
   {
-   "id": 2321,
+   "id": 2326,
    "name": "Alnatura BIO Falafel Mix",
    "brand": "Alnatura",
    "store": "Gurkerl",
@@ -22578,7 +22578,7 @@
    "slug": null
   },
   {
-   "id": 2326,
+   "id": 2331,
    "name": "Alnatura BIO Mini Frühlingsrollen",
    "brand": "Alnatura",
    "store": "Gurkerl",
@@ -22599,7 +22599,7 @@
    "slug": null
   },
   {
-   "id": 2340,
+   "id": 2345,
    "name": "Inzersdorfer Paprikahendlragout",
    "brand": "Inzersdorfer",
    "store": "Gurkerl",
@@ -22620,7 +22620,7 @@
    "slug": null
   },
   {
-   "id": 2356,
+   "id": 2361,
    "name": "Wiener Virtshaus Vleischknödel mit Sauerkraut VEGAN",
    "brand": "Wiener Virtshaus",
    "store": "Gurkerl",
@@ -22641,7 +22641,7 @@
    "slug": null
   },
   {
-   "id": 2371,
+   "id": 2376,
    "name": "Hiel BIO Polenta Karotte Burger VEGAN",
    "brand": "Hiel",
    "store": "Gurkerl",
@@ -22662,7 +22662,7 @@
    "slug": null
   },
   {
-   "id": 2378,
+   "id": 2383,
    "name": "Itineraire des Saveurs Crepes",
    "brand": "IDS",
    "store": "Gurkerl",
@@ -22683,7 +22683,7 @@
    "slug": null
   },
   {
-   "id": 2383,
+   "id": 2388,
    "name": "HOFMANNs 2 Rinderrouladen - mit kleinen Holzspießen handgesteckt - (tiefgekühlt)",
    "brand": "HOFMANNs",
    "store": "Gurkerl",
@@ -22704,7 +22704,7 @@
    "slug": null
   },
   {
-   "id": 2398,
+   "id": 2403,
    "name": "Müller Doppeldecker Schoko + Vanillesoße 4x125g",
    "brand": "Müller",
    "store": "Gurkerl",
@@ -22725,7 +22725,7 @@
    "slug": null
   },
   {
-   "id": 2409,
+   "id": 2414,
    "name": "Bonne Maman Creme Brulee 2x100g",
    "brand": "Bonne Maman",
    "store": "Gurkerl",
@@ -22746,7 +22746,7 @@
    "slug": null
   },
   {
-   "id": 2412,
+   "id": 2417,
    "name": "Alnatura BIO Black Bean-Cashew Burger",
    "brand": "Alnatura",
    "store": "Gurkerl",
@@ -22767,7 +22767,7 @@
    "slug": null
   },
   {
-   "id": 2428,
+   "id": 2433,
    "name": "Feel Food BIO Red Lentil Dal VEGAN",
    "brand": "feelfood",
    "store": "Gurkerl",
@@ -22788,7 +22788,7 @@
    "slug": null
   },
   {
-   "id": 2429,
+   "id": 2434,
    "name": "Zott Monte Mega XXL",
    "brand": "Zott",
    "store": "Billa",
@@ -22809,7 +22809,7 @@
    "slug": null
   },
   {
-   "id": 2430,
+   "id": 2435,
    "name": "Iglo Green Cuisine Spinat Stangerl",
    "brand": "iglo",
    "store": "Billa",
@@ -22830,7 +22830,7 @@
    "slug": null
   },
   {
-   "id": 2433,
+   "id": 2438,
    "name": "Danone Dany Sahne Schoko",
    "brand": "Danone",
    "store": "Billa",
@@ -22851,7 +22851,7 @@
    "slug": null
   },
   {
-   "id": 2434,
+   "id": 2439,
    "name": "Darbo Fruchtikus Rote Früchte",
    "brand": "Darbo",
    "store": "Billa",
@@ -22872,7 +22872,7 @@
    "slug": null
   },
   {
-   "id": 2435,
+   "id": 2440,
    "name": "Darbo Fruchtikus Tropic",
    "brand": "Darbo",
    "store": "Billa",
@@ -22893,7 +22893,7 @@
    "slug": null
   },
   {
-   "id": 2436,
+   "id": 2441,
    "name": "Iglo Green Cuisine Falafel",
    "brand": "iglo",
    "store": "Billa",
@@ -22914,7 +22914,7 @@
    "slug": null
   },
   {
-   "id": 2437,
+   "id": 2442,
    "name": "Dr. Oetker Götterspeise Himbeer Geschmack",
    "brand": "Dr. Oetker",
    "store": "Billa",
@@ -22935,7 +22935,7 @@
    "slug": null
   },
   {
-   "id": 2438,
+   "id": 2443,
    "name": "Dr. Oetker Götterspeise Waldmeister Geschmack",
    "brand": "Dr. Oetker",
    "store": "Billa",
@@ -22956,7 +22956,7 @@
    "slug": null
   },
   {
-   "id": 2440,
+   "id": 2445,
    "name": "BILLA Nudelsalat mit Huhn Caesar",
    "brand": "BILLA Immer Gut",
    "store": "Billa",
@@ -22977,7 +22977,7 @@
    "slug": null
   },
   {
-   "id": 2441,
+   "id": 2446,
    "name": "BILLA Nudel Thunfisch Salat",
    "brand": "BILLA Immer Gut",
    "store": "Billa",
@@ -22998,7 +22998,7 @@
    "slug": null
   },
   {
-   "id": 2442,
+   "id": 2447,
    "name": "Galana Lavakuchen",
    "brand": "Galana",
    "store": "Billa",
@@ -23019,7 +23019,7 @@
    "slug": null
   },
   {
-   "id": 2443,
+   "id": 2448,
    "name": "Toni Kaiser Wiener Kaiserschmarrn",
    "brand": "Toni Kaiser",
    "store": "Billa",
@@ -23040,7 +23040,7 @@
    "slug": null
   },
   {
-   "id": 2444,
+   "id": 2449,
    "name": "Bauernland Gemüselaibchen",
    "brand": "Bauernland",
    "store": "Billa",
@@ -23061,7 +23061,7 @@
    "slug": null
   },
   {
-   "id": 2445,
+   "id": 2450,
    "name": "Bauernland Käse-Karfiol Laibchen",
    "brand": "Bauernland",
    "store": "Billa",
@@ -23082,7 +23082,7 @@
    "slug": null
   },
   {
-   "id": 2446,
+   "id": 2451,
    "name": "Iglo Green Cuisine Broccoli Laibchen",
    "brand": "iglo",
    "store": "Billa",
@@ -23103,7 +23103,7 @@
    "slug": null
   },
   {
-   "id": 2447,
+   "id": 2452,
    "name": "Andros Milchreis",
    "brand": "Andros",
    "store": "Billa",
@@ -23124,7 +23124,7 @@
    "slug": null
   },
   {
-   "id": 2448,
+   "id": 2453,
    "name": "Dr. Oetker High Protein Milchreis",
    "brand": "Dr. Oetker",
    "store": "Billa",
@@ -23145,7 +23145,7 @@
    "slug": null
   },
   {
-   "id": 2449,
+   "id": 2454,
    "name": "Stadtküche Spinat Knödl",
    "brand": "Stadtküche",
    "store": "Billa",
@@ -23166,7 +23166,7 @@
    "slug": null
   },
   {
-   "id": 2450,
+   "id": 2455,
    "name": "Stadtküche Kärntner Kasnudl",
    "brand": "Stadtküche",
    "store": "Billa",
@@ -23187,7 +23187,7 @@
    "slug": null
   },
   {
-   "id": 2451,
+   "id": 2456,
    "name": "Darbo Fruchtikus Mango-Marille",
    "brand": "Darbo",
    "store": "Billa",
@@ -23208,7 +23208,7 @@
    "slug": null
   },
   {
-   "id": 2452,
+   "id": 2457,
    "name": "BILLA Profiteroles",
    "brand": "BILLA Immer Gut",
    "store": "Billa",
@@ -23229,7 +23229,7 @@
    "slug": null
   },
   {
-   "id": 2453,
+   "id": 2458,
    "name": "Stadtküche Falafel Klassisch",
    "brand": "Stadtküche",
    "store": "Billa",
@@ -23250,7 +23250,7 @@
    "slug": null
   },
   {
-   "id": 2454,
+   "id": 2459,
    "name": "Iglo Green Cuisine Zucchini-Käselaibchen",
    "brand": "iglo",
    "store": "Billa",
@@ -23271,7 +23271,7 @@
    "slug": null
   },
   {
-   "id": 2455,
+   "id": 2460,
    "name": "Frosta Rotes Curry",
    "brand": "Frosta",
    "store": "Billa",
@@ -23292,7 +23292,7 @@
    "slug": null
   },
   {
-   "id": 2456,
+   "id": 2461,
    "name": "BILLA Belugalinsen Salat",
    "brand": "BILLA Immer Gut",
    "store": "Billa",
@@ -23313,7 +23313,7 @@
    "slug": null
   },
   {
-   "id": 2457,
+   "id": 2462,
    "name": "Stadtküche Bio Laibchen Spinat & Käse",
    "brand": "Stadtküche",
    "store": "Billa",
@@ -23334,7 +23334,7 @@
    "slug": null
   },
   {
-   "id": 2458,
+   "id": 2463,
    "name": "Stadtküche Gemüselaibchen",
    "brand": "Stadtküche",
    "store": "Billa",
@@ -23355,7 +23355,7 @@
    "slug": null
   },
   {
-   "id": 2459,
+   "id": 2464,
    "name": "BILLA Palatschinken",
    "brand": "BILLA Immer Gut",
    "store": "Billa",
@@ -23376,7 +23376,7 @@
    "slug": null
   },
   {
-   "id": 2460,
+   "id": 2465,
    "name": "Bonne Maman Creme Brulee",
    "brand": "Bonne Maman",
    "store": "Billa",
@@ -23397,7 +23397,7 @@
    "slug": null
   },
   {
-   "id": 2461,
+   "id": 2466,
    "name": "Dr. Oetker Grütze Apfel-Mango-Orange",
    "brand": "Dr. Oetker",
    "store": "Billa",
@@ -23418,7 +23418,7 @@
    "slug": null
   },
   {
-   "id": 2462,
+   "id": 2467,
    "name": "Harvest Moon Chocolate & salted Caramel",
    "brand": "Harvest",
    "store": "Billa",
@@ -23439,7 +23439,7 @@
    "slug": null
   },
   {
-   "id": 2463,
+   "id": 2468,
    "name": "BILLA Bali Brunch Mango Sticky Rice",
    "brand": "BILLA Immer Gut",
    "store": "Billa",
@@ -23460,7 +23460,7 @@
    "slug": null
   },
   {
-   "id": 2464,
+   "id": 2469,
    "name": "Schärdinger Jogurella Stracciatella",
    "brand": "Schärdinger",
    "store": "Billa",
@@ -23481,7 +23481,7 @@
    "slug": null
   },
   {
-   "id": 2465,
+   "id": 2470,
    "name": "Alpro Kokos Salted Caramel",
    "brand": "Alpro",
    "store": "Billa",
@@ -23502,7 +23502,7 @@
    "slug": null
   },
   {
-   "id": 2466,
+   "id": 2471,
    "name": "Alpro Kokos Stracciatella",
    "brand": "Alpro",
    "store": "Billa",
@@ -23523,7 +23523,7 @@
    "slug": null
   },
   {
-   "id": 2468,
+   "id": 2473,
    "name": "Simply Good Berry Chia Pod Tonkabohne Waldfrucht",
    "brand": "Simply Good",
    "store": "Billa",
@@ -23544,7 +23544,7 @@
    "slug": null
   },
   {
-   "id": 2469,
+   "id": 2474,
    "name": "Zott Monte Schoko",
    "brand": "Zott",
    "store": "Billa",
@@ -23565,7 +23565,7 @@
    "slug": null
   },
   {
-   "id": 2470,
+   "id": 2475,
    "name": "Zott Monte Maxi Schoko",
    "brand": "Zott",
    "store": "Billa",
@@ -23586,7 +23586,7 @@
    "slug": null
   },
   {
-   "id": 2471,
+   "id": 2476,
    "name": "Zott Monte",
    "brand": "Zott",
    "store": "Billa",
@@ -23607,7 +23607,7 @@
    "slug": null
   },
   {
-   "id": 2477,
+   "id": 2482,
    "name": "Chili Sin Carne",
    "brand": "Billa",
    "store": "unbekannt (OFF)",
@@ -23628,7 +23628,7 @@
    "slug": "rewe-genusskueche"
   },
   {
-   "id": 2492,
+   "id": 2497,
    "name": "Haschee Hörnchen mit Kräutern",
    "brand": "Billa",
    "store": "unbekannt (OFF)",
@@ -23649,7 +23649,7 @@
    "slug": "rewe-genusskueche"
   },
   {
-   "id": 2497,
+   "id": 2502,
    "name": "Rindsgulasch mit Nockerl",
    "brand": "iglo",
    "store": "Billa",
@@ -23670,7 +23670,7 @@
    "slug": "landena"
   },
   {
-   "id": 2534,
+   "id": 2539,
    "name": "Pilzmaultaschen",
    "brand": "SchwabenKrone",
    "store": "Spar",
@@ -23691,7 +23691,7 @@
    "slug": null
   },
   {
-   "id": 2539,
+   "id": 2544,
    "name": "Maultaschen geschnitten",
    "brand": "Bürger",
    "store": "unbekannt (OFF)",
@@ -23712,7 +23712,7 @@
    "slug": null
   },
   {
-   "id": 2737,
+   "id": 2742,
    "name": "Hühnerstreifen mit Wokgemüse und Basmatireis",
    "brand": "Fit to Go",
    "store": "Fit to Go",
@@ -23733,7 +23733,7 @@
    "slug": null
   },
   {
-   "id": 2738,
+   "id": 2743,
    "name": "Kichererbsencurry mit Basmatireis",
    "brand": "Fit to Go",
    "store": "Fit to Go",
@@ -23754,7 +23754,7 @@
    "slug": null
   },
   {
-   "id": 2740,
+   "id": 2745,
    "name": "High Protein Topfenauflauf mit Heidelbeeren",
    "brand": "Fit to Go",
    "store": "Fit to Go",
@@ -23775,7 +23775,7 @@
    "slug": null
   },
   {
-   "id": 2741,
+   "id": 2746,
    "name": "Milchreis mit Zimt und Sauerkirschen",
    "brand": "Fit to Go",
    "store": "Fit to Go",
@@ -23796,7 +23796,7 @@
    "slug": null
   },
   {
-   "id": 2742,
+   "id": 2747,
    "name": "hühnerfrikassee",
    "brand": "FITTASTE",
    "store": "FitTaste",
@@ -23817,7 +23817,7 @@
    "slug": null
   },
   {
-   "id": 2744,
+   "id": 2749,
    "name": "hähnchen mango bowl",
    "brand": "FITTASTE",
    "store": "FitTaste",
@@ -23838,7 +23838,7 @@
    "slug": null
   },
   {
-   "id": 2746,
+   "id": 2751,
    "name": "rind teriyaki style",
    "brand": "FITTASTE",
    "store": "FitTaste",
@@ -23859,7 +23859,7 @@
    "slug": null
   },
   {
-   "id": 2747,
+   "id": 2752,
    "name": "rind greek style",
    "brand": "FITTASTE",
    "store": "FitTaste",
@@ -23880,7 +23880,7 @@
    "slug": null
   },
   {
-   "id": 2748,
+   "id": 2753,
    "name": "rotes hähnchencurry",
    "brand": "FITTASTE",
    "store": "FitTaste",
@@ -23901,7 +23901,7 @@
    "slug": null
   },
   {
-   "id": 2749,
+   "id": 2754,
    "name": "hähnchen in tomatensauce",
    "brand": "FITTASTE",
    "store": "FitTaste",
@@ -23922,7 +23922,7 @@
    "slug": null
   },
   {
-   "id": 2750,
+   "id": 2755,
    "name": "hähnchen spinat-curry",
    "brand": "FITTASTE",
    "store": "FitTaste",
@@ -23943,7 +23943,7 @@
    "slug": null
   },
   {
-   "id": 2752,
+   "id": 2757,
    "name": "rinderbolognese",
    "brand": "FITTASTE",
    "store": "FitTaste",
@@ -23964,7 +23964,7 @@
    "slug": null
   },
   {
-   "id": 2753,
+   "id": 2758,
    "name": "hähnchen süßkartoffel bowl",
    "brand": "FITTASTE",
    "store": "FitTaste",
@@ -23985,7 +23985,7 @@
    "slug": null
   },
   {
-   "id": 2754,
+   "id": 2759,
    "name": "hähnchen grünes curry",
    "brand": "FITTASTE",
    "store": "FitTaste",
@@ -24006,7 +24006,7 @@
    "slug": null
   },
   {
-   "id": 2756,
+   "id": 2761,
    "name": "rindergulasch",
    "brand": "FITTASTE",
    "store": "FitTaste",
@@ -24027,7 +24027,7 @@
    "slug": null
   },
   {
-   "id": 2757,
+   "id": 2762,
    "name": "chili con carne",
    "brand": "FITTASTE",
    "store": "FitTaste",
@@ -24048,7 +24048,7 @@
    "slug": null
   },
   {
-   "id": 2758,
+   "id": 2763,
    "name": "Garnelen-Kimchi Burger",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24069,7 +24069,7 @@
    "slug": null
   },
   {
-   "id": 2759,
+   "id": 2764,
    "name": "Thunfisch-Wrap",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24090,7 +24090,7 @@
    "slug": null
   },
   {
-   "id": 2760,
+   "id": 2765,
    "name": "Garnelen-Wrap",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24111,7 +24111,7 @@
    "slug": null
   },
   {
-   "id": 2761,
+   "id": 2766,
    "name": "Bagel \\u0022Nordlicht\\u0022",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24132,7 +24132,7 @@
    "slug": null
   },
   {
-   "id": 2762,
+   "id": 2767,
    "name": "Crunchy Chicken Burger",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24153,7 +24153,7 @@
    "slug": null
   },
   {
-   "id": 2763,
+   "id": 2768,
    "name": "Classic Fish Burger",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24174,7 +24174,7 @@
    "slug": null
   },
   {
-   "id": 2764,
+   "id": 2769,
    "name": "HEIßER BACKFISCH XXL",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24195,7 +24195,7 @@
    "slug": null
   },
   {
-   "id": 2765,
+   "id": 2770,
    "name": "Mini-Bremer - Der Klassische",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24216,7 +24216,7 @@
    "slug": null
   },
   {
-   "id": 2766,
+   "id": 2771,
    "name": "Mini-Bremer - Der Pikante",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24237,7 +24237,7 @@
    "slug": null
   },
   {
-   "id": 2767,
+   "id": 2772,
    "name": "Mini-Bremer- Der Scharfe",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24258,7 +24258,7 @@
    "slug": null
   },
   {
-   "id": 2768,
+   "id": 2773,
    "name": "Mini-Bremer - Der Süß-Scharfe",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24279,7 +24279,7 @@
    "slug": null
   },
   {
-   "id": 2769,
+   "id": 2774,
    "name": "Räucherlachs-Wrap",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24300,7 +24300,7 @@
    "slug": null
   },
   {
-   "id": 2770,
+   "id": 2775,
    "name": "Bismarck-Baguette",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24321,7 +24321,7 @@
    "slug": null
   },
   {
-   "id": 2773,
+   "id": 2778,
    "name": "Matjes-Baguette",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24342,7 +24342,7 @@
    "slug": null
   },
   {
-   "id": 2774,
+   "id": 2779,
    "name": "Backfisch-Baguette",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24363,7 +24363,7 @@
    "slug": null
   },
   {
-   "id": 2775,
+   "id": 2780,
    "name": "Bremer",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24384,7 +24384,7 @@
    "slug": null
   },
   {
-   "id": 2776,
+   "id": 2781,
    "name": "Plant-based Backvisch-Brötchen",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24405,7 +24405,7 @@
    "slug": null
   },
   {
-   "id": 2777,
+   "id": 2782,
    "name": "Megafrites",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24426,7 +24426,7 @@
    "slug": null
   },
   {
-   "id": 2778,
+   "id": 2783,
    "name": "Kartoffel-Box",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24447,7 +24447,7 @@
    "slug": null
   },
   {
-   "id": 2779,
+   "id": 2784,
    "name": "Mix-Box",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24468,7 +24468,7 @@
    "slug": null
   },
   {
-   "id": 2781,
+   "id": 2786,
    "name": "Fish Nuggets Box",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24489,7 +24489,7 @@
    "slug": null
   },
   {
-   "id": 2782,
+   "id": 2787,
    "name": "Fish & Chips",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24510,7 +24510,7 @@
    "slug": null
   },
   {
-   "id": 2783,
+   "id": 2788,
    "name": "Kinder Menü Chicken Nuggets",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24531,7 +24531,7 @@
    "slug": null
   },
   {
-   "id": 2784,
+   "id": 2789,
    "name": "Gebackene Limanda Aspera",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24552,7 +24552,7 @@
    "slug": null
   },
   {
-   "id": 2786,
+   "id": 2791,
    "name": "Lachs-Pasta mit Blattspinat",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24573,7 +24573,7 @@
    "slug": null
   },
   {
-   "id": 2787,
+   "id": 2792,
    "name": "Bretonische Fischsuppe",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24594,7 +24594,7 @@
    "slug": null
   },
   {
-   "id": 2789,
+   "id": 2794,
    "name": "Seelachsfilet vom Grill",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24615,7 +24615,7 @@
    "slug": null
   },
   {
-   "id": 2790,
+   "id": 2795,
    "name": "Pazifisches Schollenfilet vom Grill",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24636,7 +24636,7 @@
    "slug": null
   },
   {
-   "id": 2792,
+   "id": 2797,
    "name": "Lachsfilet auf der Haut gebraten",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24657,7 +24657,7 @@
    "slug": null
   },
   {
-   "id": 2793,
+   "id": 2798,
    "name": "Salat mit Thunfisch in Tortilla-Bowl",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24678,7 +24678,7 @@
    "slug": null
   },
   {
-   "id": 2794,
+   "id": 2799,
    "name": "Gemischter Salat",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24699,7 +24699,7 @@
    "slug": null
   },
   {
-   "id": 2795,
+   "id": 2800,
    "name": "Salat mit Garnelen in Tortilla-Bowl",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24720,7 +24720,7 @@
    "slug": null
   },
   {
-   "id": 2796,
+   "id": 2801,
    "name": "Salat mit pulled Lachs in Tortilla-Bowl",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -24741,7 +24741,7 @@
    "slug": null
   },
   {
-   "id": 2797,
+   "id": 2802,
    "name": "Chicken Teriyaki (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -24762,7 +24762,7 @@
    "slug": null
   },
   {
-   "id": 2798,
+   "id": 2803,
    "name": "Plant-based Chicken Teriyaki (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -24783,7 +24783,7 @@
    "slug": null
   },
   {
-   "id": 2799,
+   "id": 2804,
    "name": "Chicken Fajita (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -24804,7 +24804,7 @@
    "slug": null
   },
   {
-   "id": 2800,
+   "id": 2805,
    "name": "Rotisserie-Style Chicken (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -24825,7 +24825,7 @@
    "slug": null
   },
   {
-   "id": 2801,
+   "id": 2806,
    "name": "Chicken Tandoori (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -24846,7 +24846,7 @@
    "slug": null
   },
   {
-   "id": 2802,
+   "id": 2807,
    "name": "Dölicious Chicken (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -24867,7 +24867,7 @@
    "slug": null
   },
   {
-   "id": 2803,
+   "id": 2808,
    "name": "Tuna (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -24888,7 +24888,7 @@
    "slug": null
   },
   {
-   "id": 2804,
+   "id": 2809,
    "name": "Italian B.M.T. (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -24909,7 +24909,7 @@
    "slug": null
   },
   {
-   "id": 2805,
+   "id": 2810,
    "name": "BBQ Rib (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -24930,7 +24930,7 @@
    "slug": null
   },
   {
-   "id": 2806,
+   "id": 2811,
    "name": "Nacho Chicken (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -24951,7 +24951,7 @@
    "slug": null
   },
   {
-   "id": 2807,
+   "id": 2812,
    "name": "Philly Beef & Cheese (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -24972,7 +24972,7 @@
    "slug": null
   },
   {
-   "id": 2808,
+   "id": 2813,
    "name": "Salami (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -24993,7 +24993,7 @@
    "slug": null
   },
   {
-   "id": 2809,
+   "id": 2814,
    "name": "Ham (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -25014,7 +25014,7 @@
    "slug": null
   },
   {
-   "id": 2810,
+   "id": 2815,
    "name": "Spicy Vegan Patty (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -25035,7 +25035,7 @@
    "slug": null
   },
   {
-   "id": 2811,
+   "id": 2816,
    "name": "Smashed Falafel (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -25056,7 +25056,7 @@
    "slug": null
   },
   {
-   "id": 2812,
+   "id": 2817,
    "name": "Veggie Delite (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -25077,7 +25077,7 @@
    "slug": null
   },
   {
-   "id": 2813,
+   "id": 2818,
    "name": "Plant-based Dölicious Chicken (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -25098,7 +25098,7 @@
    "slug": null
   },
   {
-   "id": 2814,
+   "id": 2819,
    "name": "Chicken Teriyaki (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -25119,7 +25119,7 @@
    "slug": null
   },
   {
-   "id": 2815,
+   "id": 2820,
    "name": "Plant-based Chicken Teriyaki (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -25140,7 +25140,7 @@
    "slug": null
   },
   {
-   "id": 2816,
+   "id": 2821,
    "name": "Chicken Fajita (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -25161,7 +25161,7 @@
    "slug": null
   },
   {
-   "id": 2817,
+   "id": 2822,
    "name": "Rotisserie-Style Chicken (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -25182,7 +25182,7 @@
    "slug": null
   },
   {
-   "id": 2818,
+   "id": 2823,
    "name": "Chicken Tandoori (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -25203,7 +25203,7 @@
    "slug": null
   },
   {
-   "id": 2819,
+   "id": 2824,
    "name": "Dölicious Chicken (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -25224,7 +25224,7 @@
    "slug": null
   },
   {
-   "id": 2820,
+   "id": 2825,
    "name": "Tuna (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -25245,7 +25245,7 @@
    "slug": null
   },
   {
-   "id": 2821,
+   "id": 2826,
    "name": "Italian B.M.T. (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -25266,7 +25266,7 @@
    "slug": null
   },
   {
-   "id": 2822,
+   "id": 2827,
    "name": "BBQ Rib (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -25287,7 +25287,7 @@
    "slug": null
   },
   {
-   "id": 2823,
+   "id": 2828,
    "name": "Nacho Chicken (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -25308,7 +25308,7 @@
    "slug": null
   },
   {
-   "id": 2824,
+   "id": 2829,
    "name": "Philly Beef & Cheese (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -25329,7 +25329,7 @@
    "slug": null
   },
   {
-   "id": 2825,
+   "id": 2830,
    "name": "Salami (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -25350,7 +25350,7 @@
    "slug": null
   },
   {
-   "id": 2826,
+   "id": 2831,
    "name": "Ham (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -25371,7 +25371,7 @@
    "slug": null
   },
   {
-   "id": 2827,
+   "id": 2832,
    "name": "Spicy Vegan Patty (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -25392,7 +25392,7 @@
    "slug": null
   },
   {
-   "id": 2828,
+   "id": 2833,
    "name": "Veggie Delite (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -25413,7 +25413,7 @@
    "slug": null
   },
   {
-   "id": 2829,
+   "id": 2834,
    "name": "Smashed Falafel (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -25434,7 +25434,7 @@
    "slug": null
   },
   {
-   "id": 2830,
+   "id": 2835,
    "name": "Plant-based Dölicious Chicken (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -25455,7 +25455,7 @@
    "slug": null
   },
   {
-   "id": 2831,
+   "id": 2836,
    "name": "Chicken Teriyaki (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -25476,7 +25476,7 @@
    "slug": null
   },
   {
-   "id": 2832,
+   "id": 2837,
    "name": "Plant-based Chicken Teriyaki (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -25497,7 +25497,7 @@
    "slug": null
   },
   {
-   "id": 2833,
+   "id": 2838,
    "name": "Chicken Fajita (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -25518,7 +25518,7 @@
    "slug": null
   },
   {
-   "id": 2834,
+   "id": 2839,
    "name": "Rotisserie-Style Chicken (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -25539,7 +25539,7 @@
    "slug": null
   },
   {
-   "id": 2835,
+   "id": 2840,
    "name": "Chicken Tandoori (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -25560,7 +25560,7 @@
    "slug": null
   },
   {
-   "id": 2836,
+   "id": 2841,
    "name": "Dölicious Chicken (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -25581,7 +25581,7 @@
    "slug": null
   },
   {
-   "id": 2837,
+   "id": 2842,
    "name": "Tuna (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -25602,7 +25602,7 @@
    "slug": null
   },
   {
-   "id": 2838,
+   "id": 2843,
    "name": "Italian B.M.T. (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -25623,7 +25623,7 @@
    "slug": null
   },
   {
-   "id": 2839,
+   "id": 2844,
    "name": "BBQ Rib (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -25644,7 +25644,7 @@
    "slug": null
   },
   {
-   "id": 2840,
+   "id": 2845,
    "name": "Nacho Chicken (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -25665,7 +25665,7 @@
    "slug": null
   },
   {
-   "id": 2841,
+   "id": 2846,
    "name": "Philly Beef & Cheese (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -25686,7 +25686,7 @@
    "slug": null
   },
   {
-   "id": 2842,
+   "id": 2847,
    "name": "Salami (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -25707,7 +25707,7 @@
    "slug": null
   },
   {
-   "id": 2843,
+   "id": 2848,
    "name": "Ham (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -25728,7 +25728,7 @@
    "slug": null
   },
   {
-   "id": 2844,
+   "id": 2849,
    "name": "Spicy Vegan Patty (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -25749,7 +25749,7 @@
    "slug": null
   },
   {
-   "id": 2845,
+   "id": 2850,
    "name": "Veggie Delite (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -25770,7 +25770,7 @@
    "slug": null
   },
   {
-   "id": 2846,
+   "id": 2851,
    "name": "Smashed Falafel (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -25791,7 +25791,7 @@
    "slug": null
   },
   {
-   "id": 2847,
+   "id": 2852,
    "name": "Plant-based Dölicious Chicken (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -25812,7 +25812,7 @@
    "slug": null
   },
   {
-   "id": 2848,
+   "id": 2853,
    "name": "The BBQ Master (Sub 15 cm (Kreation))",
    "brand": "Subway",
    "store": "Subway",
@@ -25833,7 +25833,7 @@
    "slug": null
   },
   {
-   "id": 2849,
+   "id": 2854,
    "name": "Furious Chicken (Sub 15 cm (Kreation))",
    "brand": "Subway",
    "store": "Subway",
@@ -25854,7 +25854,7 @@
    "slug": null
   },
   {
-   "id": 2850,
+   "id": 2855,
    "name": "Fiesta Fajita (Sub 15 cm (Kreation))",
    "brand": "Subway",
    "store": "Subway",
@@ -25875,7 +25875,7 @@
    "slug": null
   },
   {
-   "id": 2851,
+   "id": 2856,
    "name": "Tasty Tandoori (Sub 15 cm (Kreation))",
    "brand": "Subway",
    "store": "Subway",
@@ -25896,7 +25896,7 @@
    "slug": null
   },
   {
-   "id": 2852,
+   "id": 2857,
    "name": "Beef Texicana (Sub 15 cm (Kreation))",
    "brand": "Subway",
    "store": "Subway",
@@ -25917,7 +25917,7 @@
    "slug": null
   },
   {
-   "id": 2853,
+   "id": 2858,
    "name": "Chick'n'Garlic (Panini)",
    "brand": "Subway",
    "store": "Subway",
@@ -25938,7 +25938,7 @@
    "slug": null
   },
   {
-   "id": 2854,
+   "id": 2859,
    "name": "Philly Supreme (Panini)",
    "brand": "Subway",
    "store": "Subway",
@@ -25959,7 +25959,7 @@
    "slug": null
   },
   {
-   "id": 2855,
+   "id": 2860,
    "name": "Smoky Beast (Panini)",
    "brand": "Subway",
    "store": "Subway",

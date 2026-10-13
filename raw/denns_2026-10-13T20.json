@@ -1,0 +1,899 @@
+{
+ "slot": "2026-10-13T20",
+ "feed": "https://www.denns-biomarkt.at/page-data/angebote/page-data.json",
+ "offers": [
+  {
+   "source": "denns",
+   "store": "denn's BioMarkt",
+   "name": "followfood Airfryer Fish Nuggets",
+   "brand": "followfood",
+   "price_eur": 4.29,
+   "unit_price_eur": 21.45,
+   "unit": "kg",
+   "size_g": 200,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://images.dennree.de/fitinto/576x384/003115.top.png",
+   "producer": null,
+   "producer_id": null,
+   "origin": null,
+   "category": "Zum Kühlen",
+   "source_url": "https://www.denns-biomarkt.at/angebote/",
+   "source_id": "003115",
+   "fetched_at": "2026-10-13T20:11:31+00:00",
+   "extra": {
+    "offer_price_eur": 4.29,
+    "regular_price_eur": 5.49,
+    "unit_price_text": "1 kg = 21,45",
+    "pack": "200 g",
+    "valid_from": "2026-10-07",
+    "valid_to": "2026-10-20",
+    "app_price_eur": null,
+    "frozen": true,
+    "vegan": false,
+    "vegetarian": false,
+    "lactosefree": true,
+    "glutenfree": false,
+    "offer_type": "angebot",
+    "price_from": false,
+    "markets_n": 35,
+    "price_basis": "Aktionspreis (offer) in price_eur; regular_price_eur = Normalpreis",
+    "feed": "https://www.denns-biomarkt.at/page-data/angebote/page-data.json"
+   }
+  },
+  {
+   "source": "denns",
+   "store": "denn's BioMarkt",
+   "name": "Harvest Moon Bio-Protein-Pudding",
+   "brand": "Harvest Moon",
+   "price_eur": 1.49,
+   "unit_price_eur": 12.42,
+   "unit": "kg",
+   "size_g": 120,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://images.dennree.de/fitinto/576x384/187749.top.png",
+   "producer": null,
+   "producer_id": null,
+   "origin": null,
+   "category": "Zum Kühlen",
+   "source_url": "https://www.denns-biomarkt.at/angebote/",
+   "source_id": "187749",
+   "fetched_at": "2026-10-13T20:11:31+00:00",
+   "extra": {
+    "offer_price_eur": 1.49,
+    "regular_price_eur": 1.89,
+    "unit_price_text": "1 kg = 12,42",
+    "pack": "120 g",
+    "valid_from": "2026-10-07",
+    "valid_to": "2026-10-20",
+    "app_price_eur": null,
+    "frozen": false,
+    "vegan": true,
+    "vegetarian": true,
+    "lactosefree": true,
+    "glutenfree": false,
+    "offer_type": "angebot",
+    "price_from": false,
+    "markets_n": 35,
+    "price_basis": "Aktionspreis (offer) in price_eur; regular_price_eur = Normalpreis",
+    "feed": "https://www.denns-biomarkt.at/page-data/angebote/page-data.json"
+   }
+  },
+  {
+   "source": "denns",
+   "store": "denn's BioMarkt",
+   "name": "SOTO Veganes / Vegetarisches Bio-Fingerfood",
+   "brand": "SOTO",
+   "price_eur": 3.29,
+   "unit_price_eur": null,
+   "unit": null,
+   "size_g": null,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://images.dennree.de/fitinto/576x384/004476.top.png",
+   "producer": null,
+   "producer_id": null,
+   "origin": null,
+   "category": "Zum Kühlen",
+   "source_url": "https://www.denns-biomarkt.at/angebote/",
+   "source_id": "004476",
+   "fetched_at": "2026-10-13T20:11:31+00:00",
+   "extra": {
+    "offer_price_eur": 3.29,
+    "regular_price_eur": 3.99,
+    "unit_price_text": "1 kg = 17,78 - 14,95",
+    "pack": "185 g - 200 g",
+    "valid_from": "2026-10-07",
+    "valid_to": "2026-10-20",
+    "app_price_eur": null,
+    "frozen": true,
+    "vegan": true,
+    "vegetarian": true,
+    "lactosefree": true,
+    "glutenfree": false,
+    "offer_type": "angebot",
+    "price_from": false,
+    "markets_n": 35,
+    "price_basis": "Aktionspreis (offer) in price_eur; regular_price_eur = Normalpreis",
+    "feed": "https://www.denns-biomarkt.at/page-data/angebote/page-data.json"
+   }
+  },
+  {
+   "source": "denns",
+   "store": "denn's BioMarkt",
+   "name": "MyDeli Bio-Fleischsuppe",
+   "brand": "MyDeli",
+   "price_eur": 3.49,
+   "unit_price_eur": null,
+   "unit": null,
+   "size_g": null,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://images.dennree.de/fitinto/576x384/564131.top.png",
+   "producer": null,
+   "producer_id": null,
+   "origin": null,
+   "category": "Speisekammer",
+   "source_url": "https://www.denns-biomarkt.at/angebote/",
+   "source_id": "564131",
+   "fetched_at": "2026-10-13T20:11:31+00:00",
+   "extra": {
+    "offer_price_eur": 3.49,
+    "regular_price_eur": 3.99,
+    "unit_price_text": "1 kg = 9,97 / 9,18",
+    "pack": "350 g / 380 g",
+    "valid_from": "2026-10-07",
+    "valid_to": "2026-10-20",
+    "app_price_eur": null,
+    "frozen": false,
+    "vegan": false,
+    "vegetarian": false,
+    "lactosefree": true,
+    "glutenfree": false,
+    "offer_type": "angebot",
+    "price_from": true,
+    "markets_n": 35,
+    "price_basis": "Aktionspreis (offer) in price_eur; regular_price_eur = Normalpreis",
+    "feed": "https://www.denns-biomarkt.at/page-data/angebote/page-data.json"
+   }
+  }
+ ],
+ "off": [
+  {
+   "ean": "4000345046486",
+   "brands": "Natur Compagnie",
+   "countries": "Austria, Germany",
+   "image_front_url": "https://images.openfoodfacts.org/images/products/400/034/504/6486/front_de.25.400.jpg",
+   "nutriments": {
+    "added-sugars": 0,
+    "added-sugars_100g": 0,
+    "added-sugars_modifier": "~",
+    "added-sugars_serving": 0,
+    "added-sugars_unit": "g",
+    "added-sugars_value": 0,
+    "carbohydrates": 4.9,
+    "carbohydrates_100g": 4.9,
+    "carbohydrates_serving": 0.98,
+    "carbohydrates_unit": "g",
+    "carbohydrates_value": 4.9,
+    "energy": 109.4,
+    "energy-kcal": 27,
+    "energy-kcal_100g": 27,
+    "energy-kcal_serving": 5.4,
+    "energy-kcal_unit": "kcal",
+    "energy-kcal_value": 27,
+    "energy-kj": 109.4,
+    "energy-kj_100g": 109.4,
+    "energy-kj_modifier": "~",
+    "energy-kj_serving": 21.9,
+    "energy-kj_unit": "kJ",
+    "energy-kj_value": 109.4,
+    "energy_100g": 109.4,
+    "energy_modifier": "~",
+    "energy_serving": 21.9,
+    "energy_unit": "kJ",
+    "energy_value": 109.4,
+    "fat": 0.2,
+    "fat_100g": 0.2,
+    "fat_serving": 0.04,
+    "fat_unit": "g",
+    "fat_value": 0.2,
+    "fruits-vegetables-legumes-estimate-from-ingredients_100g": 14.9,
+    "fruits-vegetables-nuts-estimate-from-ingredients_100g": 14.9,
+    "nova-group": 4,
+    "nova-group_100g": 4,
+    "nova-group_serving": 4,
+    "nova-group_unit": "",
+    "nova-group_value": 4,
+    "proteins": 1.1,
+    "proteins_100g": 1.1,
+    "proteins_serving": 0.22,
+    "proteins_unit": "g",
+    "proteins_value": 1.1,
+    "salt": 0.6,
+    "salt_100g": 0.6,
+    "salt_serving": 0.12,
+    "salt_unit": "g",
+    "salt_value": 0.6,
+    "saturated-fat": 0,
+    "saturated-fat_100g": 0,
+    "saturated-fat_serving": 0,
+    "saturated-fat_unit": "g",
+    "saturated-fat_value": 0,
+    "sodium": 0.24,
+    "sodium_100g": 0.24,
+    "sodium_serving": 0.048,
+    "sodium_unit": "g",
+    "sodium_value": 0.24,
+    "sugars": 1.5,
+    "sugars_100g": 1.5,
+    "sugars_serving": 0.3,
+    "sugars_unit": "g",
+    "sugars_value": 1.5
+   },
+   "nutriments_estimated": {
+    "alcohol_100g": 0,
+    "beta-carotene_100g": 0.000131510833333333,
+    "calcium_100g": 0.281325966666667,
+    "cholesterol_100g": 0.00277438333333333,
+    "copper_100g": 0.000114821816666667,
+    "fiber_100g": 2.28543333333333,
+    "fructose_100g": 0.158626666666667,
+    "galactose_100g": 0.000876666666666667,
+    "glucose_100g": 0.131226666666667,
+    "iodine_100g": 7.29223333333334e-06,
+    "iron_100g": 0.000872032236666667,
+    "lactose_100g": 11.35435,
+    "magnesium_100g": 0.0476957416666667,
+    "maltose_100g": 0.268076666666667,
+    "manganese_100g": 0.000792615,
+    "pantothenic-acid_100g": 0.000908466666666667,
+    "phosphorus_100g": 0.290407783333333,
+    "phylloquinone_100g": 3.93998333333333e-06,
+    "polyols_100g": 0.0015,
+    "potassium_100g": 0.480812783333333,
+    "selenium_100g": 6.4575e-06,
+    "starch_100g": 47.52147,
+    "sucrose_100g": 0.147326666666667,
+    "vitamin-a_100g": 2.1145e-06,
+    "vitamin-b12_100g": 8.5862e-07,
+    "vitamin-b1_100g": 0.000196428333333333,
+    "vitamin-b2_100g": 0.000341945333333333,
+    "vitamin-b6_100g": 0.000143868333333333,
+    "vitamin-b9_100g": 2.17941e-05,
+    "vitamin-c_100g": 0.00396603333333333,
+    "vitamin-d_100g": 3.751e-08,
+    "vitamin-e_100g": 0.000397699,
+    "vitamin-pp_100g": 0.000346758333333333,
+    "water_100g": 20.6716683333333,
+    "zinc_100g": 0.00160097566666667
+   },
+   "nutrition_data": "on",
+   "nutrition_data_per": "100g",
+   "nutrition_data_prepared_per": "100g",
+   "product_name": "Feine Suppe Kürbiscreme",
+   "product_quantity": 40,
+   "product_quantity_unit": "g",
+   "quantity": "40 g",
+   "stores": "Denn's Biomarkt"
+  },
+  {
+   "ean": "4000345045328",
+   "brands": "Natur Compagnie",
+   "countries": "Austria, Germany",
+   "image_front_url": "https://images.openfoodfacts.org/images/products/400/034/504/5328/front_de.35.400.jpg",
+   "nutriments": {
+    "added-sugars": 0,
+    "added-sugars_100g": 0,
+    "added-sugars_modifier": "~",
+    "added-sugars_serving": 0,
+    "added-sugars_unit": "g",
+    "added-sugars_value": 0,
+    "carbohydrates": 3.7,
+    "carbohydrates_100g": 3.7,
+    "carbohydrates_serving": 1.11,
+    "carbohydrates_unit": "g",
+    "carbohydrates_value": 3.7,
+    "energy": 136,
+    "energy-kcal": 34,
+    "energy-kcal_100g": 34,
+    "energy-kcal_serving": 10.2,
+    "energy-kcal_unit": "kcal",
+    "energy-kcal_value": 34,
+    "energy-kj": 136,
+    "energy-kj_100g": 136,
+    "energy-kj_serving": 40.8,
+    "energy-kj_unit": "kJ",
+    "energy-kj_value": 136,
+    "energy_100g": 136,
+    "energy_serving": 40.8,
+    "energy_unit": "kJ",
+    "energy_value": 136,
+    "fat": 0.4,
+    "fat_100g": 0.4,
+    "fat_serving": 0.12,
+    "fat_unit": "g",
+    "fat_value": 0.4,
+    "fruits-vegetables-legumes-estimate-from-ingredients_100g": 75.1234375,
+    "fruits-vegetables-nuts-estimate-from-ingredients_100g": 75.1234375,
+    "nova-group": 3,
+    "nova-group_100g": 3,
+    "nova-group_serving": 3,
+    "nova-group_unit": "",
+    "nova-group_value": 3,
+    "proteins": 2.7,
+    "proteins_100g": 2.7,
+    "proteins_serving": 0.81,
+    "proteins_unit": "g",
+    "proteins_value": 2.7,
+    "salt": 0.9,
+    "salt_100g": 0.9,
+    "salt_serving": 0.27,
+    "salt_unit": "g",
+    "salt_value": 0.9,
+    "saturated-fat": 0.1,
+    "saturated-fat_100g": 0.1,
+    "saturated-fat_serving": 0.03,
+    "saturated-fat_unit": "g",
+    "saturated-fat_value": 0.1,
+    "sodium": 0.36,
+    "sodium_100g": 0.36,
+    "sodium_serving": 0.108,
+    "sodium_unit": "g",
+    "sodium_value": 0.36,
+    "sugars": 0.5,
+    "sugars_100g": 0.5,
+    "sugars_serving": 0.15,
+    "sugars_unit": "g",
+    "sugars_value": 0.5
+   },
+   "nutriments_estimated": {
+    "alcohol_100g": 0,
+    "beta-carotene_100g": 0.0001843684375,
+    "calcium_100g": 0.044183303125,
+    "chloride_100g": 0.055522,
+    "cholesterol_100g": 0,
+    "copper_100g": 0.00067296084375,
+    "fiber_100g": 12.9495209375,
+    "fructose_100g": 0.19630625,
+    "galactose_100g": 0.001725,
+    "glucose_100g": 0.202059375,
+    "iodine_100g": 7.279958125e-05,
+    "iron_100g": 0.0053645396875,
+    "lactose_100g": 0.1588234375,
+    "magnesium_100g": 0.10032953125,
+    "maltose_100g": 0.2471734375,
+    "manganese_100g": 0.001396273125,
+    "pantothenic-acid_100g": 0.00012176390625,
+    "phosphorus_100g": 0.29010855625,
+    "phylloquinone_100g": 2.24120625e-06,
+    "polyols_100g": 0.00681659375,
+    "potassium_100g": 0.6210605625,
+    "selenium_100g": 1.76878e-06,
+    "starch_100g": 40.034496875,
+    "sucrose_100g": 1.1094096875,
+    "vitamin-a_100g": 0,
+    "vitamin-b12_100g": 0,
+    "vitamin-b1_100g": 4.603328125e-05,
+    "vitamin-b2_100g": 4.383046875,
+    "vitamin-b6_100g": 0.0003316328125,
+    "vitamin-b9_100g": 1.173875e-05,
+    "vitamin-c_100g": 0.00077511484375,
+    "vitamin-d_100g": 1.927046875e-08,
+    "vitamin-e_100g": 0.00034741921875,
+    "vitamin-pp_100g": 0.00013690109375,
+    "water_100g": 11.8004015625,
+    "zinc_100g": 0.0032505796875
+   },
+   "nutrition_data": "on",
+   "nutrition_data_per": "100g",
+   "nutrition_data_prepared_per": "100g",
+   "product_name": "Dhal Linsensuppe",
+   "product_quantity": 60,
+   "product_quantity_unit": "g",
+   "quantity": "60 g",
+   "stores": "Alnatura, Denn's Biomarkt"
+  }
+ ],
+ "rejected": [
+  {
+   "itemno": "021677",
+   "name": "Bio Planète Ab 10 % Rabatt* auf ausgewählte Bio Planète-Produkte",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "191711",
+   "name": "dennree Bio-Skyr Natur",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "353717",
+   "name": "Schedel Bio-Laugenstange",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": null,
+   "name": "Weingut Heideboden Bio-Zweigelt",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "280686",
+   "name": "Bio- Granatapfel",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "269994",
+   "name": "Bio- Orangen",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "959555",
+   "name": "Bio-Champignons",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "214480",
+   "name": "Bio-Fisolen",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "958364",
+   "name": "Bio-Porree",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "275052",
+   "name": "Bio-Trauben kernlos",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "215436",
+   "name": "Bio-Zucchini",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "167681",
+   "name": "20 % Rabatt* auf Bio-Joghurt und -Sauerrahm von Die Hoflieferanten",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "954876",
+   "name": "Vöslauer Bio-Flavours",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "010067",
+   "name": "Ökoland Bio-Erdäpfel-Klassiker",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "658844",
+   "name": "MadeGood Bio-Müsliriegel",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "658539",
+   "name": "20 % Rabatt* auf Bio-Butter-Cups von Bett’r",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "655817",
+   "name": "30 % Rabatt* auf Bio-Knusperbrot von Le Pain des fleurs",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "173406",
+   "name": "Alberts Bio-Lupinen- Spezialitäten",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "406653",
+   "name": "Allos Bio-Fruchtaufstrich „Frucht Pur“",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "724206",
+   "name": "Hoyer Nahrungsergänzung",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "163462",
+   "name": "Hooidammer Steinpilz-Trüffel",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "591298",
+   "name": "dennree Bio-Gemüse im Glas",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "123355",
+   "name": "dennree Bio-Käse in Scheiben",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "163574",
+   "name": "Söbbeke Bio-Waldkäse",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "165622",
+   "name": "YOUKON Wilder Lachs Alaska Wildlachs Wild & Red",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "180898",
+   "name": "bio-verde Frische Bio-Tagliatelle",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "076432",
+   "name": "Jouis Nour Bio-Knusperstange",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "129148",
+   "name": "Käserebellen Nuss-Rebell",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "187953",
+   "name": "Bio Wiesenmilch Bio-Bergkäse",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "722463",
+   "name": "Hornberger Lebensquell Mineralwasser",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "183699",
+   "name": "completeorganics Fermentiertes Bio-Gemüse",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "169299",
+   "name": "Allos Bio-Pflanzendrinks",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "639911",
+   "name": "Rapunzel Bio-Schokolade",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "403751",
+   "name": "Rapunzel Süßes Bio-Mus",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "522786",
+   "name": "dennree Bio-Linsen",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "528928",
+   "name": "Bauck Mühle Bio-Backmischung",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "680692",
+   "name": "Riegel Eigenmarke Alkoholfreier Bio-Wein oder -Mousseux",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "670297",
+   "name": "Riedenburger Brauhaus Bio-Bier",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "437848",
+   "name": "Bauck Mühle Bio-Porridge",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "637863",
+   "name": "dennree Bio-Miniwaffeln",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "597341",
+   "name": "dennree Bio-Kokosmilch",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "424506",
+   "name": "JFOODS SA Bio-Keto-Cracker",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "159322",
+   "name": "dennree Bio-Naturjoghurt",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "20227823153",
+   "name": "noan Bio-Olivenöl",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "140016",
+   "name": "Biolust Bio-Schinken",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "752231",
+   "name": "20 % Rabatt* auf ausgewählte Bio-Babynahrung und -pflege",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "187413",
+   "name": "dennree Vegetarische Bio-Würstchen",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "190506",
+   "name": "Züger Frischkäse 20 % Rabatt* auf alle laktosefreien Produkte von Züger Frischkäse",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "06906402065",
+   "name": "Bio-Hofbäckerei Mauracher Bio-Käsestangerl",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "403222",
+   "name": "Brinkers Süßer Bio-Aufstrich",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "950071",
+   "name": "Sonnberg Bio-Rinder-Flanksteak",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "114941",
+   "name": "Andechser Natur Bio-Frischkäse",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "131433",
+   "name": "Andechser Natur Bio-Ziegencamembert",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "202681009562",
+   "name": "Neuners Bio-Tee",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "554444",
+   "name": "Bio Organica Italia Bio-Pesto",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "171235",
+   "name": "Taifun Bio-Tofu",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "182799",
+   "name": "dennree Vegane / Vegetarische Bio-Spezialitäten",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "415451",
+   "name": "Zwergenwiese Veganer Bio-Streich",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "105388",
+   "name": "Bio Wiesenmilch Bio-Teebutter",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "950180",
+   "name": "biofisch Lachsforellenfilet",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "665908",
+   "name": "Lisas Bio Chips Bio-Erdäpfel‑Chips",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "522483",
+   "name": "hanf & natur Bio-Hanfsamen",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "997618",
+   "name": "Living Crafts Geschirrtuch, 3er-Pack",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "670617",
+   "name": "now Bio-Limo oder -Cola",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "786712",
+   "name": "Sodasan Flüssigseife",
+   "reason": "not a ready meal (offer feed)"
+  },
+  {
+   "itemno": "831341",
+   "name": "Sonett Geschirrspülmittel",
+   "reason": "not a ready meal (offer feed)"
+  }
+ ],
+ "rows_added": [
+  {
+   "name": "followfood Airfryer Fish Nuggets",
+   "brand": "followfood",
+   "store": "denn's BioMarkt",
+   "price_eur": 5.49,
+   "size_g": 200,
+   "price_per_kg": 27.45,
+   "url": "https://www.denns-biomarkt.at/angebote/",
+   "image_url": "https://images.dennree.de/fitinto/576x384/003115.top.png",
+   "category": "TK-Fisch",
+   "packaging": "Tiefkühl (TK)",
+   "is_meal": true,
+   "price_source": "food-connectors/denns 2026-10-13 (denn's BioMarkt AT Angebote-Feed, Artikel 003115): Normalpreis 5.49 €; Aktionspreis 4.29 € gültig 2026-10-07–2026-10-20; Packung 200 g",
+   "price_date": "2026-10-13",
+   "offer_price_eur": 4.29,
+   "offer_valid_from": "2026-10-07",
+   "offer_valid_to": "2026-10-20",
+   "pack_text": "200 g",
+   "denns_itemno": "003115",
+   "vegan": false,
+   "vegetarian": false,
+   "nut_source": null,
+   "ean": null,
+   "manufacturer": null,
+   "delivery": "denn's BioMarkt Filialen AT (Linz)",
+   "added_slot": "2026-10-13T20"
+  },
+  {
+   "name": "Harvest Moon Bio-Protein-Pudding",
+   "brand": "Harvest Moon",
+   "store": "denn's BioMarkt",
+   "price_eur": 1.89,
+   "size_g": 120,
+   "price_per_kg": 15.75,
+   "url": "https://www.denns-biomarkt.at/angebote/",
+   "image_url": "https://images.dennree.de/fitinto/576x384/187749.top.png",
+   "category": "Mehlspeisen/Desserts",
+   "packaging": "Kühlregal (Menüschale/frisch)",
+   "is_meal": false,
+   "price_source": "food-connectors/denns 2026-10-13 (denn's BioMarkt AT Angebote-Feed, Artikel 187749): Normalpreis 1.89 €; Aktionspreis 1.49 € gültig 2026-10-07–2026-10-20; Packung 120 g",
+   "price_date": "2026-10-13",
+   "offer_price_eur": 1.49,
+   "offer_valid_from": "2026-10-07",
+   "offer_valid_to": "2026-10-20",
+   "pack_text": "120 g",
+   "denns_itemno": "187749",
+   "vegan": true,
+   "vegetarian": true,
+   "nut_source": null,
+   "ean": null,
+   "manufacturer": null,
+   "delivery": "denn's BioMarkt Filialen AT (Linz)",
+   "added_slot": "2026-10-13T20"
+  },
+  {
+   "name": "SOTO Veganes / Vegetarisches Bio-Fingerfood",
+   "brand": "SOTO",
+   "store": "denn's BioMarkt",
+   "price_eur": 3.99,
+   "size_g": null,
+   "price_per_kg": null,
+   "url": "https://www.denns-biomarkt.at/angebote/",
+   "image_url": "https://images.dennree.de/fitinto/576x384/004476.top.png",
+   "category": "Paniert/Nuggets",
+   "packaging": "Tiefkühl (TK)",
+   "is_meal": true,
+   "price_source": "food-connectors/denns 2026-10-13 (denn's BioMarkt AT Angebote-Feed, Artikel 004476): Normalpreis 3.99 €; Aktionspreis 3.29 € gültig 2026-10-07–2026-10-20; Packung 185 g - 200 g",
+   "price_date": "2026-10-13",
+   "offer_price_eur": 3.29,
+   "offer_valid_from": "2026-10-07",
+   "offer_valid_to": "2026-10-20",
+   "pack_text": "185 g - 200 g",
+   "denns_itemno": "004476",
+   "vegan": true,
+   "vegetarian": true,
+   "nut_source": null,
+   "ean": null,
+   "manufacturer": null,
+   "delivery": "denn's BioMarkt Filialen AT (Linz)",
+   "added_slot": "2026-10-13T20"
+  },
+  {
+   "name": "MyDeli Bio-Fleischsuppe",
+   "brand": "MyDeli",
+   "store": "denn's BioMarkt",
+   "price_eur": 3.99,
+   "size_g": null,
+   "price_per_kg": null,
+   "url": "https://www.denns-biomarkt.at/angebote/",
+   "image_url": "https://images.dennree.de/fitinto/576x384/564131.top.png",
+   "category": "Suppe/Eintopf",
+   "packaging": "Konserve/Dose/Glas",
+   "is_meal": true,
+   "price_source": "food-connectors/denns 2026-10-13 (denn's BioMarkt AT Angebote-Feed, Artikel 564131): Normalpreis 3.99 €; Aktionspreis 3.49 € gültig 2026-10-07–2026-10-20 (ab-Preis, mehrere Sorten); Packung 350 g / 380 g",
+   "price_date": "2026-10-13",
+   "offer_price_eur": 3.49,
+   "offer_valid_from": "2026-10-07",
+   "offer_valid_to": "2026-10-20",
+   "pack_text": "350 g / 380 g",
+   "denns_itemno": "564131",
+   "vegan": false,
+   "vegetarian": false,
+   "nut_source": null,
+   "ean": null,
+   "manufacturer": null,
+   "delivery": "denn's BioMarkt Filialen AT (Linz)",
+   "added_slot": "2026-10-13T20"
+  },
+  {
+   "name": "Natur Compagnie Feine Suppe Kürbiscreme",
+   "brand": "Natur Compagnie",
+   "store": "denn's BioMarkt",
+   "price_eur": null,
+   "size_g": null,
+   "pack_text": "40 g",
+   "url": "https://world.openfoodfacts.org/product/4000345046486",
+   "image_url": "https://images.openfoodfacts.org/images/products/400/034/504/6486/front_de.25.400.jpg",
+   "kcal_100": 27,
+   "protein_100": 1.1,
+   "fat_100": 0.2,
+   "satfat_100": 0,
+   "carbs_100": 4.9,
+   "sugar_100": 1.5,
+   "fiber_100": null,
+   "salt_100": 0.6,
+   "nutrition_basis": "prepared",
+   "nut_source": "Open Food Facts 4000345046486 (Nährwerte je 100 ml zubereitet lt. OFF; Trockensuppe 40 g), 2026-10-13",
+   "category": "Suppe/Eintopf",
+   "packaging": "Trocken/Instant",
+   "is_meal": true,
+   "ean": "4000345046486",
+   "manufacturer": null,
+   "price_source": null,
+   "price_date": null,
+   "delivery": "denn's BioMarkt (OFF stores tag, Austria)",
+   "added_slot": "2026-10-13T20"
+  },
+  {
+   "name": "Natur Compagnie Dhal Linsensuppe",
+   "brand": "Natur Compagnie",
+   "store": "denn's BioMarkt",
+   "price_eur": null,
+   "size_g": null,
+   "pack_text": "60 g",
+   "url": "https://world.openfoodfacts.org/product/4000345045328",
+   "image_url": "https://images.openfoodfacts.org/images/products/400/034/504/5328/front_de.35.400.jpg",
+   "kcal_100": 34,
+   "protein_100": 2.7,
+   "fat_100": 0.4,
+   "satfat_100": 0.1,
+   "carbs_100": 3.7,
+   "sugar_100": 0.5,
+   "fiber_100": null,
+   "salt_100": 0.9,
+   "nutrition_basis": "prepared",
+   "nut_source": "Open Food Facts 4000345045328 (Nährwerte je 100 ml zubereitet lt. OFF; Trockensuppe 60 g), 2026-10-13",
+   "category": "Suppe/Eintopf",
+   "packaging": "Trocken/Instant",
+   "is_meal": true,
+   "ean": "4000345045328",
+   "manufacturer": null,
+   "price_source": null,
+   "price_date": null,
+   "delivery": "denn's BioMarkt (OFF stores tag, Austria)",
+   "added_slot": "2026-10-13T20"
+  }
+ ]
+}
