@@ -1,13 +1,12 @@
 {
- "exported_at": "2026-10-13T10:21:34Z",
+ "exported_at": "2026-10-13T12:37:44Z",
  "app_generated": "2026-10-12",
  "counts": {
-  "products": 2392,
-  "prices": 2066,
-  "nutrition": 1633,
+  "products": 2542,
+  "prices": 2216,
+  "nutrition": 1789,
   "producers": 22,
   "establishments": 4706,
   "logos": 212
- },
- "logos_updated_at": "2026-10-13T12:20:37Z"
+ }
 }
