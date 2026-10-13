@@ -2,7 +2,7 @@ import json,re,html,collections,statistics as st
 d=json.load(open('scored.json')); S=json.load(open('packaging_stats.json'))
 def store(x):
     s=str(x.get('store') or '').lower()
-    for k,v in [('fit to go','Fit to Go'),('fittaste','FitTaste'),('fit taste','FitTaste'),('prepmymeal','PrepMyMeal'),('livefresh','LiveFresh'),('gurkerl','Gurkerl'),('interspar','Spar'),('spar','Spar'),('billa','Billa'),('merkur','Billa'),('hofer','Hofer'),('aldi','Hofer'),('lidl','Lidl'),('penny','Penny'),('dm','dm'),('denn','Denn\'s'),('mpreis','MPreis'),('unimarkt','Unimarkt'),('gourmetfein','Gourmetfein')]:
+    for k,v in [('nordsee','NORDSEE'),('subway','Subway'),('fit to go','Fit to Go'),('fittaste','FitTaste'),('fit taste','FitTaste'),('prepmymeal','PrepMyMeal'),('livefresh','LiveFresh'),('gurkerl','Gurkerl'),('interspar','Spar'),('spar','Spar'),('billa','Billa'),('merkur','Billa'),('hofer','Hofer'),('aldi','Hofer'),('lidl','Lidl'),('penny','Penny'),('dm','dm'),('denn','Denn\'s'),('mpreis','MPreis'),('unimarkt','Unimarkt'),('gourmetfein','Gourmetfein')]:
         if k in s: return v
     return 'unbekannt (OFF)'
 def f(v):

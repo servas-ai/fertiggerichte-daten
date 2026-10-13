@@ -2,9 +2,9 @@
  "meta": {
   "generated": "2026-10-13",
   "source": "hofer.at sitemap_products.xml + category pages (robots.txt respected: no ?q= search), >=1.1 s/host shared lock",
-  "count_total": 1098,
+  "count_total": 1213,
   "count_ready_meal": 88,
-  "count_grocery": 1010
+  "count_grocery": 1125
  },
  "products": [
   {

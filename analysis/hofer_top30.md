@@ -1,13 +1,13 @@
 # Hofer ready meals: value-for-money Top 30 per category (2026-10-13)
 
-Source: hofer.at, 1098 products crawled (88 ready_meal, 1010 grocery). App dataset before: 222 Hofer rows; matched/fillable from hofer.at: 222 (of which 103 were missing a price).
+Source: hofer.at, 1213 products crawled (88 ready_meal, 1125 grocery). App dataset before: 222 Hofer rows; matched/fillable from hofer.at: 222 (of which 103 were missing a price).
 
 ## Formula
 value = protein grams per € (protein_100g × size_g/100 ÷ price) × (1 − 0.1 × max(0, salt_100g − 1.25)/0.25 capped at 0.5). hofer.at publishes no nutrition and no EAN, so where OFF nutrition is missing the fallback is grams per € (1000 ÷ €/kg), marked `g/€`. Grocery items are excluded.
 
 ## Counts per category > subcategory (all segments)
 
-- ? [grocery]: 617
+- ? [grocery]: 732
 - ? [ready_meal]: 37
 - Black Month [grocery]: 1
 - Brot und Backwaren > BACKBOX [grocery]: 39
@@ -41,46 +41,46 @@ value = protein grams per € (protein_100g × size_g/100 ÷ price) × (1 − 0.
 
 ## Counts per brand (top 40)
 
-- None: 74
+- None: 80
 - MONARC: 64
 - GOURMET FINEST CUISINE: 62
 - MILSANI: 47
+- HOME CREATION: 45
 - SONNHOF: 42
 - BACKBOX: 35
 - ZURÜCK ZUM URSPRUNG: 32
 - FAIRHOF: 20
 - BIO: 19
 - ASIA GREEN GARDEN: 19
+- UP2FASHION WOMEN: 19
 - GENUSS 100% AUS ÖSTERREICH: 18
 - FINEST BAKERY: 17
-- HOME CREATION: 17
+- NOVITESSE: 14
 - CHIEFS: 14
+- LILY & DAN: 14
 - CHOCEUR: 13
 - BBQ: 13
 - KNORR: 13
-- UP2FASHION WOMEN: 13
 - AMERICAN: 12
 - COCA-COLA: 11
 - BACK FAMILY: 11
 - SNACK FUN: 11
 - MILFINA: 11
+- UP2FASHION MEN: 11
+- RIDE+GO: 10
 - GARDENLINE: 10
 - STORCK: 10
 - HAPPY HARVEST: 10
+- TOYLINO: 10
+- L&D: 10
 - RIO D' ORO: 9
+- WORKZONE: 9
 - HARIBO: 9
 - GUTES AUS DER REGION: 9
 - DUNKIN': 9
-- UP2FASHION MEN: 9
 - BELLA: 8
 - AQUA+: 8
 - FELIX: 8
-- NOVITESSE: 8
-- HALLOWEEN: 8
-- ALMARE SEAFOOD: 8
-- HANDL TYROL: 8
-- PIZZ‘AH: 7
-- GORENJE: 7
 
 ## Brot und Backwaren
 

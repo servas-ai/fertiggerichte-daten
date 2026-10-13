@@ -12,7 +12,7 @@
   "dup_keys": []
  },
  "all": {
-  "n": 2580,
+  "n": 2699,
   "nonfood": 10,
   "nonfood_ranked": 0,
   "raw_in_meal_rank": [],
@@ -199,7 +199,7 @@
   "dm": 1
  },
  "rows_before": 2382,
- "rows_after": 2580,
- "drop_pct": -8.31,
+ "rows_after": 2699,
+ "drop_pct": -13.31,
  "PASS": true
 }

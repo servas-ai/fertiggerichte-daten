@@ -1,6 +1,6 @@
 import json,re,statistics as st
 import os
-src=(['expand.json'] if os.path.exists('expand.json') else [])+(['classics.json'] if os.path.exists('classics.json') else [])+(['classics_ext.json'] if os.path.exists('classics_ext.json') else [])+(['brandfam_products.json'] if os.path.exists('brandfam_products.json') else [])+['billa.json','spar.json','spar_live.json','hofer_lidl.json','hofer_goodchoice.json','dm_live.json','frozen_quick.json','other.json','spar_browser_norm.json','more_meals_norm.json']+(['connectors_new.json'] if os.path.exists('connectors_new.json') else [])+(['online_mealprep.json'] if os.path.exists('online_mealprep.json') else [])+(['expand_v5.json'] if os.path.exists('expand_v5.json') else [])+(['ownbrands_meals.json'] if os.path.exists('ownbrands_meals.json') else [])
+src=(['expand.json'] if os.path.exists('expand.json') else [])+(['classics.json'] if os.path.exists('classics.json') else [])+(['classics_ext.json'] if os.path.exists('classics_ext.json') else [])+(['brandfam_products.json'] if os.path.exists('brandfam_products.json') else [])+['billa.json','spar.json','spar_live.json','hofer_lidl.json','hofer_goodchoice.json','dm_live.json','frozen_quick.json','other.json','spar_browser_norm.json','more_meals_norm.json']+(['connectors_new.json'] if os.path.exists('connectors_new.json') else [])+(['online_mealprep.json'] if os.path.exists('online_mealprep.json') else [])+(['expand_v5.json'] if os.path.exists('expand_v5.json') else [])+(['ownbrands_meals.json'] if os.path.exists('ownbrands_meals.json') else [])+(['linz_providers_src.json'] if os.path.exists('linz_providers_src.json') else [])
 LIVE=('spar_live.json','dm_live.json')
 items=[]
 for f in src:
@@ -16,7 +16,7 @@ def n(v):
     except: return None
 def _store_key(x):
     s=str(x.get('store') or '').lower()
-    for a,b in (('gurkerl','gurkerl'),('interspar','spar'),('spar','spar'),('billa','billa'),('merkur','billa'),('hofer','hofer'),('aldi','hofer'),('lidl','lidl'),('penny','penny'),('dm','dm'),('mpreis','mpreis'),('prepmymeal','prepmymeal'),('livefresh','livefresh'),('fit to go','fit2go'),('fittaste','fittaste')):
+    for a,b in (('gurkerl','gurkerl'),('interspar','spar'),('spar','spar'),('billa','billa'),('merkur','billa'),('hofer','hofer'),('aldi','hofer'),('lidl','lidl'),('penny','penny'),('dm','dm'),('mpreis','mpreis'),('prepmymeal','prepmymeal'),('livefresh','livefresh'),('fit to go','fit2go'),('fittaste','fittaste'),('nordsee','nordsee'),('subway','subway')):
         if a in s: return b
     return s or 'unk'
 def key(x):

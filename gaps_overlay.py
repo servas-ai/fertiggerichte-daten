@@ -44,8 +44,19 @@ print('price filled',sum(1 for o in ov.values() if o.get('price_status')=='fille
  C.Counter(o.get('price_reason') for o in ov.values() if o.get('price_reason')),
  'shop filled',sum(1 for o in ov.values() if o.get('shop_status')=='filled'),'shop unknown',sum(1 for o in ov.values() if o.get('shop_status')=='unknown'))
 if '--apply' in sys.argv:
+    import os
+    def _ancestor_holds(lock='/tmp/fertig-data.lock'):
+        # 2026-10-13T14: callers often wrap us in `flock /tmp/fertig-data.lock …`; a second flock on a new fd from
+        # this child would wait on our own ancestor forever (seen twice today). Skip locking if an ancestor holds it.
+        pid=os.getppid()
+        while pid>1:
+            try:
+                if any(os.path.realpath(f'/proc/{pid}/fd/{fd}')==lock for fd in os.listdir(f'/proc/{pid}/fd')): return True
+                pid=int(open(f'/proc/{pid}/stat').read().rsplit(')',1)[1].split()[1])
+            except Exception: return False
+        return False
     with open('/tmp/fertig-data.lock','w') as L:
-        fcntl.flock(L,fcntl.LOCK_EX)
+        if not _ancestor_holds(): fcntl.flock(L,fcntl.LOCK_EX)
         D=json.load(open(path))
         for r in D['rows']:
             o=ov.get(r['store']+'|'+r['name'])
