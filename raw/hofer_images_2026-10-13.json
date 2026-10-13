@@ -1,0 +1,901 @@
+{
+  "fetched_at": "2026-10-13T04:32:00Z",
+  "method": "strict OFF brand+token match; HEAD verify; weak false-friends revoked",
+  "matches": [
+    {
+      "product_id": "d7f631141622",
+      "name": "GOOD CHOICE Asia Curry Indisch Kichererbsen 400g",
+      "brand": "GOOD",
+      "source": "openfoodfacts",
+      "off_code": "4061461794309",
+      "image_url": "https://images.openfoodfacts.org/images/products/406/146/179/4309/front_de.3.400.jpg"
+    },
+    {
+      "product_id": "73e5c46c925a",
+      "name": "GOOD CHOICE Lasagne Bolognese 1 kg",
+      "brand": "GOOD",
+      "source": "openfoodfacts",
+      "off_code": "4099200163659",
+      "image_url": "https://images.openfoodfacts.org/images/products/409/920/016/3659/front_de.21.400.jpg"
+    },
+    {
+      "product_id": "5effef072e62",
+      "name": "PRIMANA Backhendl Streifen Classic 500g",
+      "brand": "PRIMANA",
+      "source": "openfoodfacts",
+      "off_code": "4061461445928",
+      "image_url": "https://images.openfoodfacts.org/images/products/406/146/144/5928/front_de.14.400.jpg"
+    },
+    {
+      "product_id": "153addc22feb",
+      "name": "PRIMANA Backhendlstreifen Kürbiskern 500g",
+      "brand": "PRIMANA",
+      "source": "openfoodfacts",
+      "off_code": "4061461445966",
+      "image_url": "https://images.openfoodfacts.org/images/products/406/146/144/5966/front_de.7.400.jpg"
+    },
+    {
+      "product_id": "6056b6b12320",
+      "name": "PRIMANA TK Lasagne mediterran 400g",
+      "brand": "PRIMANA",
+      "source": "openfoodfacts",
+      "off_code": "4061464938656",
+      "image_url": "https://images.openfoodfacts.org/images/products/406/146/493/8656/front_de.3.400.jpg"
+    },
+    {
+      "product_id": "ed18fd05c11e",
+      "name": "CUCINA Kartoffel-Gnocchi 1kg",
+      "brand": "Cucina",
+      "source": "openfoodfacts",
+      "off_code": "4061462648359",
+      "image_url": "https://images.openfoodfacts.org/images/products/406/146/264/8359/front_de.7.400.jpg"
+    },
+    {
+      "product_id": "9766c502f32e",
+      "name": "CUCINA NOBILE Lasagne Ricotta-Spinat 400g",
+      "brand": "Cucina",
+      "source": "openfoodfacts",
+      "off_code": "4061461691561",
+      "image_url": "https://images.openfoodfacts.org/images/products/406/146/169/1561/front_de.35.400.jpg"
+    },
+    {
+      "product_id": "3954ff313279",
+      "name": "GOOD CHOICE Faschierte Laibchen mit Kartoffelpüree 430g",
+      "brand": "Good Choice",
+      "source": "openfoodfacts",
+      "off_code": "4099200146256",
+      "image_url": "https://images.openfoodfacts.org/images/products/409/920/014/6256/front_de.15.400.jpg"
+    },
+    {
+      "product_id": "f53099d365cc",
+      "name": "GOOD CHOICE Kartoffel Gnocchi 500g",
+      "brand": "Good Choice",
+      "source": "openfoodfacts",
+      "off_code": "4061459473674",
+      "image_url": "https://images.openfoodfacts.org/images/products/406/145/947/3674/front_en.3.400.jpg"
+    },
+    {
+      "product_id": "3250a5b249a6",
+      "name": "GOOD CHOICE Wrap Hühnerfiletstreifen 170g",
+      "brand": "Good Choice",
+      "source": "openfoodfacts",
+      "off_code": "4099200075563",
+      "image_url": "https://images.openfoodfacts.org/images/products/409/920/007/5563/front_de.4.400.jpg"
+    },
+    {
+      "product_id": "ce17c7f0f593",
+      "name": "GOOD CHOICE Wrap Thunfisch 170g",
+      "brand": "Good Choice",
+      "source": "openfoodfacts",
+      "off_code": "0000024091725",
+      "image_url": "https://images.openfoodfacts.org/images/products/000/002/409/1725/front_de.4.400.jpg"
+    },
+    {
+      "product_id": "dd3e66bd5169",
+      "name": "LE GUSTO ABC Suppe 89g",
+      "brand": "Le Gusto",
+      "source": "openfoodfacts",
+      "off_code": "4061462153877",
+      "image_url": "https://images.openfoodfacts.org/images/products/406/146/215/3877/front_de.11.400.jpg"
+    },
+    {
+      "product_id": "09ee7311d6da",
+      "name": "LE GUSTO Basis Chili con Carne",
+      "brand": "Le Gusto",
+      "source": "openfoodfacts",
+      "off_code": "0000022162014",
+      "image_url": "https://images.openfoodfacts.org/images/products/000/002/216/2014/front_de.28.400.jpg"
+    },
+    {
+      "product_id": "e641c57c9f71",
+      "name": "LE GUSTO Sugo Bolognese 500g",
+      "brand": "Le Gusto",
+      "source": "openfoodfacts",
+      "off_code": "4061462190469",
+      "image_url": "https://images.openfoodfacts.org/images/products/406/146/219/0469/front_de.15.400.jpg"
+    },
+    {
+      "product_id": "6b5c174cef24",
+      "name": "ZURÜCK ZUM URSPRUNG Landhendl Filetschnitzel",
+      "brand": "Zurück zum Ursprung",
+      "source": "openfoodfacts",
+      "off_code": "2315490014009",
+      "image_url": "https://images.openfoodfacts.org/images/products/231/549/001/4009/front_de.3.400.jpg"
+    },
+    {
+      "product_id": "6466c4290201",
+      "name": "ZURÜCK ZUM URSPRUNG Pizzakäse gerieben 200g",
+      "brand": "Zurück zum Ursprung",
+      "source": "openfoodfacts",
+      "off_code": "4061459724578",
+      "image_url": "https://images.openfoodfacts.org/images/products/406/145/972/4578/front_de.4.400.jpg"
+    },
+    {
+      "product_id": "67b2cd62e7e2",
+      "name": "ZURÜCK ZUM URSPRUNG Tellerlinsen 600g",
+      "brand": "Zurück zum Ursprung",
+      "source": "openfoodfacts",
+      "off_code": "4099200048901",
+      "image_url": "https://images.openfoodfacts.org/images/products/409/920/004/8901/front_en.22.400.jpg"
+    },
+    {
+      "product_id": "2202b315ed2b",
+      "name": "Klare Gemüsesuppe",
+      "brand": "Le Gusto",
+      "source": "openfoodfacts",
+      "off_code": "4099200008196",
+      "image_url": "https://images.openfoodfacts.org/images/products/409/920/000/8196/front_de.24.400.jpg"
+    },
+    {
+      "product_id": "db3a4eb2f68d",
+      "name": "Klare Suppe",
+      "brand": "Le Gusto",
+      "source": "openfoodfacts",
+      "off_code": "0000024085403",
+      "image_url": "https://images.openfoodfacts.org/images/products/000/002/408/5403/front_de.6.400.jpg"
+    },
+    {
+      "product_id": "164590894145",
+      "name": "MAMIA BIO Spaghetti Bolognese 250g",
+      "brand": "",
+      "source": "openfoodfacts",
+      "off_code": "4061464021266",
+      "image_url": "https://images.openfoodfacts.org/images/products/406/146/402/1266/front_de.9.400.jpg"
+    },
+    {
+      "product_id": "9386f10572e0",
+      "name": "PRIMANA Speck Knödel Innviertler Art 700g",
+      "brand": "",
+      "source": "openfoodfacts",
+      "off_code": "4061463170880",
+      "image_url": "https://images.openfoodfacts.org/images/products/406/146/317/0880/front_de.3.400.jpg"
+    },
+    {
+      "product_id": "9f8efcd98d0f",
+      "name": "Tortelloni mit Spinat & Ricotta",
+      "brand": "Good Choice",
+      "source": "openfoodfacts",
+      "off_code": "4099200403373",
+      "image_url": "https://images.openfoodfacts.org/images/products/409/920/040/3373/front_de.4.400.jpg"
+    },
+    {
+      "product_id": "6f454f82f5ba",
+      "name": "Chicken Nuggets",
+      "brand": "Primana",
+      "source": "openfoodfacts",
+      "off_code": "4061459358636",
+      "image_url": "https://images.openfoodfacts.org/images/products/406/145/935/8636/front_hu.4.400.jpg"
+    },
+    {
+      "product_id": "56caac5a3678",
+      "name": "Frittaten Suppeneinlage",
+      "brand": "Primana",
+      "source": "openfoodfacts",
+      "off_code": "4099200259611",
+      "image_url": "https://images.openfoodfacts.org/images/products/409/920/025/9611/front_de.17.400.jpg"
+    },
+    {
+      "product_id": "67ef784a705b",
+      "name": "Grießnockerl",
+      "brand": "Primana",
+      "source": "openfoodfacts",
+      "off_code": "4061459487572",
+      "image_url": "https://images.openfoodfacts.org/images/products/406/145/948/7572/front_de.7.400.jpg"
+    },
+    {
+      "product_id": "1056fbd7e1b4",
+      "name": "Leberknödel",
+      "brand": "Primana",
+      "source": "openfoodfacts",
+      "off_code": "4061461444273",
+      "image_url": "https://images.openfoodfacts.org/images/products/406/146/144/4273/front_de.5.400.jpg"
+    },
+    {
+      "product_id": "6c117780ad59",
+      "name": "Snackbox Crispy Chili Cheese Nuggets",
+      "brand": "Primana",
+      "source": "openfoodfacts",
+      "off_code": "4061463390219",
+      "image_url": "https://images.openfoodfacts.org/images/products/406/146/339/0219/front_en.5.400.jpg"
+    },
+    {
+      "product_id": "9a3dfa77550d",
+      "name": "Snackbox Crispy Mozzarella Sticks",
+      "brand": "Primana",
+      "source": "openfoodfacts",
+      "off_code": "0000022126184",
+      "image_url": "https://images.openfoodfacts.org/images/products/000/002/212/6184/front_de.11.400.jpg"
+    },
+    {
+      "product_id": "32251be1ffa7",
+      "name": "Snackbox Frischkäse Jalapenos",
+      "brand": "Primana",
+      "source": "openfoodfacts",
+      "off_code": "4061458041997",
+      "image_url": "https://images.openfoodfacts.org/images/products/406/145/804/1997/front_de.3.400.jpg"
+    },
+    {
+      "product_id": "ec316cab6d20",
+      "name": "XXL Chicken Nuggets",
+      "brand": "Primana",
+      "source": "openfoodfacts",
+      "off_code": "4061459358636",
+      "image_url": "https://images.openfoodfacts.org/images/products/406/145/935/8636/front_hu.4.400.jpg"
+    },
+    {
+      "product_id": "802c16b6313c",
+      "name": "Lasagne Ricotta-Spinat",
+      "brand": "Cucina Nobile",
+      "source": "openfoodfacts",
+      "off_code": "4061461691561",
+      "image_url": "https://images.openfoodfacts.org/images/products/406/146/169/1561/front_de.35.400.jpg"
+    },
+    {
+      "product_id": "3729355d2eae",
+      "name": "Speck Knödel Innviertler Art",
+      "brand": "Primana",
+      "source": "openfoodfacts",
+      "off_code": "4061463170880",
+      "image_url": "https://images.openfoodfacts.org/images/products/406/146/317/0880/front_de.3.400.jpg"
+    }
+  ],
+  "unmatched": [
+    {
+      "product_id": "2faf3609fedc",
+      "name": "CUCINA NOBILE Spaghetti Bolognese 400g",
+      "brand": "CUCINA",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "be0de76b26fc",
+      "name": "FAIRHOF Hühnergeschnetzeltes 280g",
+      "brand": "FAIRHOF",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "92d3ea75fc5e",
+      "name": "FAIRHOF Tierwohl-Spare Ribs mariniert, Sous VIde",
+      "brand": "FAIRHOF",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "9d40f7254d1b",
+      "name": "GOLDEN SEAFOOD Garnelen Thai Curry 250g",
+      "brand": "GOLDEN",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "29d6ea267fdb",
+      "name": "GOOD CHOICE Asia Curry Chicken Süß-Sauer 400g",
+      "brand": "GOOD",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "83da24f3c38d",
+      "name": "GOOD CHOICE Risotto Pilze 400g",
+      "brand": "GOOD",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "03ffbd5418c6",
+      "name": "GOOD CHOICE Risotto Tomate 400g",
+      "brand": "GOOD",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "ba2911b0ad03",
+      "name": "PRIMANA Cevapcici Pikant 1000g",
+      "brand": "PRIMANA",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "98186b6bb3ba",
+      "name": "PRIMANA Lasagne Bolognese 400g",
+      "brand": "PRIMANA",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "c845b0088ef6",
+      "name": "PRIMANA Linseneintopf mit Fleisch 800g",
+      "brand": "PRIMANA",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "e020a0819068",
+      "name": "PRIMANA Linseneintopf mit Gemüse 800g",
+      "brand": "PRIMANA",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "3238de21b9d8",
+      "name": "PRIMANA Pasta Fertiggerichte Penne Bolognese 750g",
+      "brand": "PRIMANA",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "b1a6e6fa7396",
+      "name": "Pik. Fertiggericht, Schweinsbraten",
+      "brand": "Pik.",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "bf9518d9de45",
+      "name": "Primana Cevapcici Classic 1000g",
+      "brand": "Primana",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "bf369992aa81",
+      "name": "ZURÜCK ZUM URSPRUNG BIO-Spareribs 1kg",
+      "brand": "ZURÜCK",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "e9437111ed45",
+      "name": "CUCINA Italienische Fertiggericht Gnocchie Tomate Mozzarella 350g",
+      "brand": "Cucina",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "9ffeac689c73",
+      "name": "CUCINA Italienische Fertiggericht Spaghetti Carbonara 350g",
+      "brand": "Cucina",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "4cd7618de9ca",
+      "name": "CUCINA MOBILE Steinofenpizza Mozzarella 430g",
+      "brand": "Cucina",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "04eae53c968d",
+      "name": "CUCINA NOBILE Gnocchi 1kg",
+      "brand": "Cucina",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "25f937e2e122",
+      "name": "CUCINA NOBILE Gnocchi 500g",
+      "brand": "Cucina",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "cf86c1b0d6c8",
+      "name": "CUCINA NOBILE Lasagneblaetter Natur 500g",
+      "brand": "Cucina",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "84520ad0d1cd",
+      "name": "CUCINA NOBILE Lasagneblaetter Spinat 500g",
+      "brand": "Cucina",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "2929a5c29dfc",
+      "name": "CUCINA NOBILE Pizza & Pomodoro Classico 600g",
+      "brand": "Cucina",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "8d244f322685",
+      "name": "CUCINA NOBILE Pizza Family Margherita 535g",
+      "brand": "Cucina",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "321292e01a08",
+      "name": "CUCINA NOBILE Steinofenpizza Diavolo 430g",
+      "brand": "Cucina",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "0c77a158bcf1",
+      "name": "CUCINA NOBILE Steinofenpizza Tonno 430g",
+      "brand": "Cucina",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "0b0fc17639da",
+      "name": "CUCINA Spaghetti Bolognese 350g",
+      "brand": "Cucina",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "ed9f33d8369b",
+      "name": "GOOD CHOICE Eier Spätzle 500g",
+      "brand": "Good Choice",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "4d588cec1a8d",
+      "name": "GOOD CHOICE Pinzgauer Käsespätzle 380g",
+      "brand": "Good Choice",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "33a99b3b0496",
+      "name": "GOOD CHOICE Risotto Pilz 400g",
+      "brand": "Good Choice",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "cc1c16af202d",
+      "name": "GOOD CHOICE Spinat Spätzle 500g",
+      "brand": "Good Choice",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "a6ab59f36f90",
+      "name": "GOOD CHOICE Wrap Caeser Chicken 170g",
+      "brand": "Good Choice",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "38489184cb87",
+      "name": "GOOD CHOICE Wraps Thai Couscous 170g",
+      "brand": "Good Choice",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "ac1e45b289a8",
+      "name": "LE GUSTO Basis für Gulasch 63g",
+      "brand": "Le Gusto",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "bb8a415c5dc2",
+      "name": "LE GUSTO Basis für Rahmgeschnetzeltes 57g",
+      "brand": "Le Gusto",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "c42e1bf935db",
+      "name": "LE GUSTO Curry 45g",
+      "brand": "Le Gusto",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "bb0b3fd5bc12",
+      "name": "LE GUSTO Kürbissuppe",
+      "brand": "Le Gusto",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "59b0ef8c2f28",
+      "name": "LE GUSTO Suppe Frühling 81g",
+      "brand": "Le Gusto",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "fa8ca4dd70e9",
+      "name": "PRIMANA Gulasch Suppe 400g",
+      "brand": "Primana",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "588923a5a0a4",
+      "name": "PRIMANA Hühner Schnitzel 500g",
+      "brand": "Primana",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "57d4061956f2",
+      "name": "PRIMANA Leberknödel Suppe 400g",
+      "brand": "Primana",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "a5517869825e",
+      "name": "PRIMANA Pasta Lasagne Bolognese 400g",
+      "brand": "Primana",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "8c3318b5fe12",
+      "name": "ZURÜCK ZUM URSPRUNG Bio Weiderind Schnitzel per kg",
+      "brand": "Zurück zum Ursprung",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "c87e32469097",
+      "name": "Salatschale Schinken/ Käse Nudeln",
+      "brand": "good choice",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "7c961fec7c2f",
+      "name": "Schweinsbraten Mit Kraut Und Knödel",
+      "brand": "Good Choice",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "91e921c11387",
+      "name": "Bärlauch Knödel",
+      "brand": "Good Choice",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "ef3555c7dd88",
+      "name": "spinat nudeln",
+      "brand": "good choice",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "c086558367db",
+      "name": "gefüllte Wurst-Käse Knödel",
+      "brand": "Good Choice",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "169e84810cde",
+      "name": "Poke Bowl Huhn Teriyaki",
+      "brand": "Good Choice",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "2434226b4f18",
+      "name": "Poke Bowl Lachs",
+      "brand": "Good Choice",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "4f7e5f99be0e",
+      "name": "Polenta Speck Nudeln",
+      "brand": "Good Choice",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "23a5fc691ff6",
+      "name": "Poke Bowl Garnele",
+      "brand": "Good Choice",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "7c6179cf4b23",
+      "name": "Erdäpfel Pilz Nudeln",
+      "brand": "Good Choice",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "bcde9dc072f0",
+      "name": "Cevapcici Pikant",
+      "brand": "Primana",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "5edba0cfb625",
+      "name": "Hähnchen Geschnetzeltes Classic",
+      "brand": "Primana",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "08a7b9e6cba2",
+      "name": "Party Box Chili Chees,Emmentaler,Brie-Käse",
+      "brand": "Primana",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "7df85b97222a",
+      "name": "Rehragout",
+      "brand": "Primana",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "24f23bc9f565",
+      "name": "Steinofenpizza Salami",
+      "brand": "Cucina",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "ed4549f1b25f",
+      "name": "Pizza Familia Mozzarella",
+      "brand": "Cucina",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "b055a7920933",
+      "name": "Gnocchi Tomate Mozzarella",
+      "brand": "Cucina",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "fe2b5477e75c",
+      "name": "Nasi Goreng - Pfannengericht",
+      "brand": "Asia Green Garden",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "aab8aff3a68c",
+      "name": "Instantnudeln",
+      "brand": "Asia Green Garden",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "efc16702ce71",
+      "name": "Gemüseschnitzel",
+      "brand": "Nature‘s Gold",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "8f63f5c8b3e0",
+      "name": "BIO MAMIA Bio Gemüse-Lasagne 250g",
+      "brand": "",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "f3b973430501",
+      "name": "BIO Ravioli Käse-Spinat 250g",
+      "brand": "",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "00106783e09b",
+      "name": "BIO Steinpliz Risotto 250g",
+      "brand": "",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "51e2b184e9dc",
+      "name": "BIO Tortellini Gemüse 250g",
+      "brand": "",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "c269a10e2993",
+      "name": "GENUSS 100% AUS ÖSTERREICH Rindsgulasch 1kg",
+      "brand": "",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "95b53dace239",
+      "name": "GOOD CHOICE Fertiggericht Apfelstrude mit Vanillesauce 300g",
+      "brand": "",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "6e1723327b91",
+      "name": "GOOD CHOICE Fertiggericht Topfenködel mit Erdbeersauce 330g",
+      "brand": "",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "6b94ce8ab7e4",
+      "name": "GOOD CHOICE Pasta Fertiggerichte Lachs Spaghettini 400g",
+      "brand": "",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "3865ecc538b3",
+      "name": "GOOD CHOICE Pasta Fertiggerichte Pecorelli in Tomatensauce 400g",
+      "brand": "",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "70c915ca1bf3",
+      "name": "GOOD CHOICE Schwammerlsauce mit Serviettenknödel 380g",
+      "brand": "",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "30d97a087834",
+      "name": "HÜTTHALER Blunzngröstl 400g",
+      "brand": "",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "b3e3f4d1dd4e",
+      "name": "HÜTTHALER Tirolergröstl 350g",
+      "brand": "",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "5cf00b89f9d6",
+      "name": "LANDGUT Hühner Suppentopf 800g",
+      "brand": "",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "b4a97dc2a116",
+      "name": "MAMIA BIO Gemüse Risotto mit Pute 250g",
+      "brand": "",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "37427099ed35",
+      "name": "PRIMANA Grammel Knödel Innviertler Art 700g",
+      "brand": "",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "d2f6641a005a",
+      "name": "RETTENSWERT Suppe im Glas Karotte mit Ingwer 350g",
+      "brand": "",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "c23ff0f245e6",
+      "name": "WONNEMEYER Salat-Menü Linsen Hähnchen 350g",
+      "brand": "",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "08311db11c58",
+      "name": "Cevapcici mit Letscho und Reis",
+      "brand": "Good Choice",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "9aca1fe94fd6",
+      "name": "Pinzgauer Käsespätzle",
+      "brand": "Good Choice",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "447e45753788",
+      "name": "Schwammerlsauce mit Serviettenknödel",
+      "brand": "Good Choice",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "5d02e3de5894",
+      "name": "Burger Cheese",
+      "brand": "Good Choice",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "eac0c079da5b",
+      "name": "Burger Chicken",
+      "brand": "Good Choice",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "c4c013f12e4c",
+      "name": "Eiersalat",
+      "brand": "Good Choice",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "5d2dc3467870",
+      "name": "Nudelsalat",
+      "brand": "Good Choice",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "d660214227ac",
+      "name": "Steinofenpizza Diavolo",
+      "brand": "Cucina Nobile",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "6d000b24878d",
+      "name": "Steinofenpizza Prosciutto",
+      "brand": "Cucina Nobile",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "43ee25e1aad0",
+      "name": "Pikante Knödel",
+      "brand": "Primana",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "d6964984f3c7",
+      "name": "Italienische Fertiggericht Gnocchie Tomate Mozzarella",
+      "brand": "Cucina",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "da4ef6bfbd06",
+      "name": "Italienische Fertiggericht Spaghetti Carbonara",
+      "brand": "Cucina",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "1bec4a355d95",
+      "name": "Spaghetti Bolognese",
+      "brand": "Cucina",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "e0f90bf4fed3",
+      "name": "Fertiggericht Apfelstrude mit Vanillesauce",
+      "brand": "Good Choice",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "ae643f48505b",
+      "name": "Fertiggericht Topfenködel mit Erdbeersauce",
+      "brand": "Good Choice",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "55799e313205",
+      "name": "Pasta Fertiggerichte Lachs Spaghettini",
+      "brand": "Good Choice",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "9cc222f83d6e",
+      "name": "Pasta Fertiggerichte Pecorelli in Tomatensauce",
+      "brand": "Good Choice",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "c4ad67f6468a",
+      "name": "Risotto Pilz",
+      "brand": "Good Choice",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "43e68e18f599",
+      "name": "Grammel Knödel Innviertler Art",
+      "brand": "Primana",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "6496ec66a1aa",
+      "name": "Pasta Lasagne Bolognese",
+      "brand": "Primana",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "58574e016ce1",
+      "name": "Schwammerlsauce",
+      "brand": "Good Choice (Hofer Eigenmarke)",
+      "reason": "no_strict_match"
+    },
+    {
+      "product_id": "7c66f883349e",
+      "name": "Bernerwürstel",
+      "brand": "Original Greisinger",
+      "reason": "no_strict_match"
+    }
+  ],
+  "failed_head": [],
+  "revoked_weak": [
+    {
+      "product_id": "29d6ea267fdb",
+      "name": "GOOD CHOICE Asia Curry Chicken Süß-Sauer 400g",
+      "reason": "Chicken curry missing Süß-Sauer"
+    },
+    {
+      "product_id": "588923a5a0a4",
+      "name": "PRIMANA Hühner Schnitzel 500g",
+      "reason": "Mini-Schnitzel false friend"
+    },
+    {
+      "product_id": "08a7b9e6cba2",
+      "name": "Party Box Chili Chees,Emmentaler,Brie-Käse",
+      "reason": "generic Party-Box only"
+    }
+  ],
+  "summary": {
+    "missing_before": 134,
+    "matched_ok": 32,
+    "unmatched": 102,
+    "revoked_weak": 3,
+    "photos_after": 122
+  }
+}

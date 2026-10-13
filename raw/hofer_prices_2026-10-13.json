@@ -1,0 +1,1149 @@
+{
+  "fetched_at": "2026-10-13T04:30:58Z",
+  "method": "heisse-preise.io store=hofer exact name match → latest priceHistory",
+  "updates": [
+    {
+      "product_id": "2faf3609fedc",
+      "name": "CUCINA NOBILE Spaghetti Bolognese 400g",
+      "old_price": "2.59",
+      "new_price": 2.59,
+      "old_fetched_at": "2023-10-03",
+      "new_fetched_at": "2023-10-03",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2023",
+      "price_source": "heisse-preise.io hofer (Preisstand 2023-10-03) – historisch 2023"
+    },
+    {
+      "product_id": "be0de76b26fc",
+      "name": "FAIRHOF Hühnergeschnetzeltes 280g",
+      "old_price": "4.49",
+      "new_price": 4.49,
+      "old_fetched_at": "2025-05-23",
+      "new_fetched_at": "2025-05-23",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-05-23) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "92d3ea75fc5e",
+      "name": "FAIRHOF Tierwohl-Spare Ribs mariniert, Sous VIde",
+      "old_price": "12.99",
+      "new_price": 12.99,
+      "old_fetched_at": "2025-06-06",
+      "new_fetched_at": "2025-06-06",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-06-06) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "9d40f7254d1b",
+      "name": "GOLDEN SEAFOOD Garnelen Thai Curry 250g",
+      "old_price": "3.49",
+      "new_price": 3.49,
+      "old_fetched_at": "2024-11-26",
+      "new_fetched_at": "2024-11-26",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2024",
+      "price_source": "heisse-preise.io hofer (Preisstand 2024-11-26) – historisch 2024"
+    },
+    {
+      "product_id": "29d6ea267fdb",
+      "name": "GOOD CHOICE Asia Curry Chicken Süß-Sauer 400g",
+      "old_price": "2.89",
+      "new_price": 2.89,
+      "old_fetched_at": "2024-10-31",
+      "new_fetched_at": "2024-10-31",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2024",
+      "price_source": "heisse-preise.io hofer (Preisstand 2024-10-31) – historisch 2024"
+    },
+    {
+      "product_id": "d7f631141622",
+      "name": "GOOD CHOICE Asia Curry Indisch Kichererbsen 400g",
+      "old_price": "2.99",
+      "new_price": 2.99,
+      "old_fetched_at": "2024-08-28",
+      "new_fetched_at": "2024-08-28",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2024",
+      "price_source": "heisse-preise.io hofer (Preisstand 2024-08-28) – historisch 2024"
+    },
+    {
+      "product_id": "73e5c46c925a",
+      "name": "GOOD CHOICE Lasagne Bolognese 1 kg",
+      "old_price": "3.99",
+      "new_price": 3.99,
+      "old_fetched_at": "2025-03-26",
+      "new_fetched_at": "2025-03-26",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-03-26) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "83da24f3c38d",
+      "name": "GOOD CHOICE Risotto Pilze 400g",
+      "old_price": "2.99",
+      "new_price": 2.99,
+      "old_fetched_at": "2024-11-26",
+      "new_fetched_at": "2024-11-26",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2024",
+      "price_source": "heisse-preise.io hofer (Preisstand 2024-11-26) – historisch 2024"
+    },
+    {
+      "product_id": "03ffbd5418c6",
+      "name": "GOOD CHOICE Risotto Tomate 400g",
+      "old_price": "2.99",
+      "new_price": 2.99,
+      "old_fetched_at": "2024-11-26",
+      "new_fetched_at": "2024-11-26",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2024",
+      "price_source": "heisse-preise.io hofer (Preisstand 2024-11-26) – historisch 2024"
+    },
+    {
+      "product_id": "2085cb1f8c09",
+      "name": "IGLO Lasagne 700g",
+      "old_price": "5.99",
+      "new_price": 5.99,
+      "old_fetched_at": "2024-11-26",
+      "new_fetched_at": "2024-11-26",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2024",
+      "price_source": "heisse-preise.io hofer (Preisstand 2024-11-26) – historisch 2024"
+    },
+    {
+      "product_id": "5effef072e62",
+      "name": "PRIMANA Backhendl Streifen Classic 500g",
+      "old_price": "6.49",
+      "new_price": 6.49,
+      "old_fetched_at": "2025-08-28",
+      "new_fetched_at": "2025-08-28",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-08-28) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "153addc22feb",
+      "name": "PRIMANA Backhendlstreifen Kürbiskern 500g",
+      "old_price": "6.49",
+      "new_price": 6.49,
+      "old_fetched_at": "2025-08-28",
+      "new_fetched_at": "2025-08-28",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-08-28) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "ba2911b0ad03",
+      "name": "PRIMANA Cevapcici Pikant 1000g",
+      "old_price": "9.49",
+      "new_price": 9.49,
+      "old_fetched_at": "2024-10-22",
+      "new_fetched_at": "2024-10-22",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2024",
+      "price_source": "heisse-preise.io hofer (Preisstand 2024-10-22) – historisch 2024"
+    },
+    {
+      "product_id": "98186b6bb3ba",
+      "name": "PRIMANA Lasagne Bolognese 400g",
+      "old_price": "1.99",
+      "new_price": 1.99,
+      "old_fetched_at": "2024-10-22",
+      "new_fetched_at": "2024-10-22",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2024",
+      "price_source": "heisse-preise.io hofer (Preisstand 2024-10-22) – historisch 2024"
+    },
+    {
+      "product_id": "c845b0088ef6",
+      "name": "PRIMANA Linseneintopf mit Fleisch 800g",
+      "old_price": "1.99",
+      "new_price": 1.99,
+      "old_fetched_at": "2023-12-01",
+      "new_fetched_at": "2023-12-01",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2023",
+      "price_source": "heisse-preise.io hofer (Preisstand 2023-12-01) – historisch 2023"
+    },
+    {
+      "product_id": "e020a0819068",
+      "name": "PRIMANA Linseneintopf mit Gemüse 800g",
+      "old_price": "1.99",
+      "new_price": 1.99,
+      "old_fetched_at": "2023-12-01",
+      "new_fetched_at": "2023-12-01",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2023",
+      "price_source": "heisse-preise.io hofer (Preisstand 2023-12-01) – historisch 2023"
+    },
+    {
+      "product_id": "3238de21b9d8",
+      "name": "PRIMANA Pasta Fertiggerichte Penne Bolognese 750g",
+      "old_price": "2.99",
+      "new_price": 2.99,
+      "old_fetched_at": "2023-12-31",
+      "new_fetched_at": "2023-12-31",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2023",
+      "price_source": "heisse-preise.io hofer (Preisstand 2023-12-31) – historisch 2023"
+    },
+    {
+      "product_id": "6056b6b12320",
+      "name": "PRIMANA TK Lasagne mediterran 400g",
+      "old_price": "1.99",
+      "new_price": 1.99,
+      "old_fetched_at": "2024-11-13",
+      "new_fetched_at": "2024-11-13",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2024",
+      "price_source": "heisse-preise.io hofer (Preisstand 2024-11-13) – historisch 2024"
+    },
+    {
+      "product_id": "b1a6e6fa7396",
+      "name": "Pik. Fertiggericht, Schweinsbraten",
+      "old_price": "2.49",
+      "new_price": 2.49,
+      "old_fetched_at": "2023-10-11",
+      "new_fetched_at": "2023-10-11",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2023",
+      "price_source": "heisse-preise.io hofer (Preisstand 2023-10-11) – historisch 2023"
+    },
+    {
+      "product_id": "bf9518d9de45",
+      "name": "Primana Cevapcici Classic 1000g",
+      "old_price": "9.49",
+      "new_price": 9.49,
+      "old_fetched_at": "2024-10-22",
+      "new_fetched_at": "2024-10-22",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2024",
+      "price_source": "heisse-preise.io hofer (Preisstand 2024-10-22) – historisch 2024"
+    },
+    {
+      "product_id": "bf369992aa81",
+      "name": "ZURÜCK ZUM URSPRUNG BIO-Spareribs 1kg",
+      "old_price": "13.99",
+      "new_price": 13.99,
+      "old_fetched_at": "2023-06-27",
+      "new_fetched_at": "2023-06-27",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2023",
+      "price_source": "heisse-preise.io hofer (Preisstand 2023-06-27) – historisch 2023"
+    },
+    {
+      "product_id": "e9437111ed45",
+      "name": "CUCINA Italienische Fertiggericht Gnocchie Tomate Mozzarella 350g",
+      "old_price": "1.99",
+      "new_price": 1.99,
+      "old_fetched_at": "",
+      "new_fetched_at": "2025-06-20",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-06-20) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "9ffeac689c73",
+      "name": "CUCINA Italienische Fertiggericht Spaghetti Carbonara 350g",
+      "old_price": "1.99",
+      "new_price": 1.99,
+      "old_fetched_at": "",
+      "new_fetched_at": "2025-06-20",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-06-20) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "ed18fd05c11e",
+      "name": "CUCINA Kartoffel-Gnocchi 1kg",
+      "old_price": "1.99",
+      "new_price": 1.99,
+      "old_fetched_at": "",
+      "new_fetched_at": "2025-10-03",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-10-03) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "4cd7618de9ca",
+      "name": "CUCINA MOBILE Steinofenpizza Mozzarella 430g",
+      "old_price": "2.79",
+      "new_price": 2.79,
+      "old_fetched_at": "",
+      "new_fetched_at": "2025-02-04",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-02-04) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "04eae53c968d",
+      "name": "CUCINA NOBILE Gnocchi 1kg",
+      "old_price": "1.99",
+      "new_price": 1.99,
+      "old_fetched_at": "",
+      "new_fetched_at": "2025-03-19",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-03-19) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "25f937e2e122",
+      "name": "CUCINA NOBILE Gnocchi 500g",
+      "old_price": "0.99",
+      "new_price": 0.99,
+      "old_fetched_at": "",
+      "new_fetched_at": "2025-01-10",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-01-10) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "b9f2c8903ea7",
+      "name": "CUCINA NOBILE Lasagne Bolognese 400g",
+      "old_price": "2.99",
+      "new_price": 2.99,
+      "old_fetched_at": "",
+      "new_fetched_at": "2025-09-11",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-09-11) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "9766c502f32e",
+      "name": "CUCINA NOBILE Lasagne Ricotta-Spinat 400g",
+      "old_price": "2.99",
+      "new_price": 2.99,
+      "old_fetched_at": "",
+      "new_fetched_at": "2025-09-11",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-09-11) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "cf86c1b0d6c8",
+      "name": "CUCINA NOBILE Lasagneblaetter Natur 500g",
+      "old_price": "1.68",
+      "new_price": 1.68,
+      "old_fetched_at": "",
+      "new_fetched_at": "2025-02-19",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-02-19) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "84520ad0d1cd",
+      "name": "CUCINA NOBILE Lasagneblaetter Spinat 500g",
+      "old_price": "1.68",
+      "new_price": 1.68,
+      "old_fetched_at": "",
+      "new_fetched_at": "2025-02-19",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-02-19) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "2929a5c29dfc",
+      "name": "CUCINA NOBILE Pizza & Pomodoro Classico 600g",
+      "old_price": "2.29",
+      "new_price": 2.29,
+      "old_fetched_at": "",
+      "new_fetched_at": "2025-09-11",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-09-11) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "8d244f322685",
+      "name": "CUCINA NOBILE Pizza Family Margherita 535g",
+      "old_price": "3.99",
+      "new_price": 3.99,
+      "old_fetched_at": "",
+      "new_fetched_at": "2025-04-09",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-04-09) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "321292e01a08",
+      "name": "CUCINA NOBILE Steinofenpizza Diavolo 430g",
+      "old_price": "2.79",
+      "new_price": 2.79,
+      "old_fetched_at": "",
+      "new_fetched_at": "2025-02-04",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-02-04) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "0c77a158bcf1",
+      "name": "CUCINA NOBILE Steinofenpizza Tonno 430g",
+      "old_price": "2.79",
+      "new_price": 2.79,
+      "old_fetched_at": "",
+      "new_fetched_at": "2025-02-04",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-02-04) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "0b0fc17639da",
+      "name": "CUCINA Spaghetti Bolognese 350g",
+      "old_price": "1.99",
+      "new_price": 1.99,
+      "old_fetched_at": "",
+      "new_fetched_at": "2025-09-03",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-09-03) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "ed9f33d8369b",
+      "name": "GOOD CHOICE Eier Spätzle 500g",
+      "old_price": "2.49",
+      "new_price": 2.49,
+      "old_fetched_at": "",
+      "new_fetched_at": "2025-10-12",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-10-12) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "3954ff313279",
+      "name": "GOOD CHOICE Faschierte Laibchen mit Kartoffelpüree 430g",
+      "old_price": "2.75",
+      "new_price": 2.75,
+      "old_fetched_at": "",
+      "new_fetched_at": "2025-10-29",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-10-29) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "f53099d365cc",
+      "name": "GOOD CHOICE Kartoffel Gnocchi 500g",
+      "old_price": "1.99",
+      "new_price": 1.99,
+      "old_fetched_at": "",
+      "new_fetched_at": "2025-02-04",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-02-04) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "4d588cec1a8d",
+      "name": "GOOD CHOICE Pinzgauer Käsespätzle 380g",
+      "old_price": "2.75",
+      "new_price": 2.75,
+      "old_fetched_at": "",
+      "new_fetched_at": "2025-10-29",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-10-29) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "33a99b3b0496",
+      "name": "GOOD CHOICE Risotto Pilz 400g",
+      "old_price": "2.99",
+      "new_price": 2.99,
+      "old_fetched_at": "",
+      "new_fetched_at": "2025-07-23",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-07-23) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "cc1c16af202d",
+      "name": "GOOD CHOICE Spinat Spätzle 500g",
+      "old_price": "2.49",
+      "new_price": 2.49,
+      "old_fetched_at": "",
+      "new_fetched_at": "2025-10-12",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-10-12) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "a6ab59f36f90",
+      "name": "GOOD CHOICE Wrap Caeser Chicken 170g",
+      "old_price": "2.49",
+      "new_price": 2.49,
+      "old_fetched_at": "",
+      "new_fetched_at": "2025-07-10",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-07-10) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "3250a5b249a6",
+      "name": "GOOD CHOICE Wrap Hühnerfiletstreifen 170g",
+      "old_price": "2.49",
+      "new_price": 2.49,
+      "old_fetched_at": "",
+      "new_fetched_at": "2025-07-10",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-07-10) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "ce17c7f0f593",
+      "name": "GOOD CHOICE Wrap Thunfisch 170g",
+      "old_price": "2.49",
+      "new_price": 2.49,
+      "old_fetched_at": "",
+      "new_fetched_at": "2025-07-10",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-07-10) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "38489184cb87",
+      "name": "GOOD CHOICE Wraps Thai Couscous 170g",
+      "old_price": "2.49",
+      "new_price": 2.49,
+      "old_fetched_at": "",
+      "new_fetched_at": "2025-07-10",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-07-10) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "dd3e66bd5169",
+      "name": "LE GUSTO ABC Suppe 89g",
+      "old_price": "0.59",
+      "new_price": 0.59,
+      "old_fetched_at": "",
+      "new_fetched_at": "2025-10-14",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-10-14) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "09ee7311d6da",
+      "name": "LE GUSTO Basis Chili con Carne",
+      "old_price": "0.79",
+      "new_price": 0.79,
+      "old_fetched_at": "",
+      "new_fetched_at": "2025-02-19",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-02-19) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "ac1e45b289a8",
+      "name": "LE GUSTO Basis für Gulasch 63g",
+      "old_price": "0.79",
+      "new_price": 0.79,
+      "old_fetched_at": "",
+      "new_fetched_at": "2025-02-19",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-02-19) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "bb8a415c5dc2",
+      "name": "LE GUSTO Basis für Rahmgeschnetzeltes 57g",
+      "old_price": "0.79",
+      "new_price": 0.79,
+      "old_fetched_at": "",
+      "new_fetched_at": "2025-02-19",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-02-19) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "c42e1bf935db",
+      "name": "LE GUSTO Curry 45g",
+      "old_price": "0.85",
+      "new_price": 0.85,
+      "old_fetched_at": "",
+      "new_fetched_at": "2025-07-31",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-07-31) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "bb0b3fd5bc12",
+      "name": "LE GUSTO Kürbissuppe",
+      "old_price": "0.49",
+      "new_price": 0.49,
+      "old_fetched_at": "",
+      "new_fetched_at": "2025-06-01",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-06-01) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "e641c57c9f71",
+      "name": "LE GUSTO Sugo Bolognese 500g",
+      "old_price": "1.77",
+      "new_price": 1.77,
+      "old_fetched_at": "",
+      "new_fetched_at": "2025-07-24",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-07-24) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "59b0ef8c2f28",
+      "name": "LE GUSTO Suppe Frühling 81g",
+      "old_price": "0.59",
+      "new_price": 0.59,
+      "old_fetched_at": "",
+      "new_fetched_at": "2025-10-03",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-10-03) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "6efc7adc2f92",
+      "name": "PRIMANA Chili Con Carne 400g",
+      "old_price": "1.99",
+      "new_price": 1.99,
+      "old_fetched_at": "",
+      "new_fetched_at": "2025-08-15",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-08-15) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "fa8ca4dd70e9",
+      "name": "PRIMANA Gulasch Suppe 400g",
+      "old_price": "1.35",
+      "new_price": 1.35,
+      "old_fetched_at": "",
+      "new_fetched_at": "2025-05-10",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-05-10) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "588923a5a0a4",
+      "name": "PRIMANA Hühner Schnitzel 500g",
+      "old_price": "6.99",
+      "new_price": 6.99,
+      "old_fetched_at": "",
+      "new_fetched_at": "2025-04-09",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-04-09) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "57d4061956f2",
+      "name": "PRIMANA Leberknödel Suppe 400g",
+      "old_price": "1.35",
+      "new_price": 1.35,
+      "old_fetched_at": "",
+      "new_fetched_at": "2025-05-10",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-05-10) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "a5517869825e",
+      "name": "PRIMANA Pasta Lasagne Bolognese 400g",
+      "old_price": "1.99",
+      "new_price": 1.99,
+      "old_fetched_at": "",
+      "new_fetched_at": "2025-07-23",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-07-23) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "a06681762ecf",
+      "name": "PRIMANA Serbische Bohnensuppe 400g",
+      "old_price": "1.35",
+      "new_price": 1.35,
+      "old_fetched_at": "",
+      "new_fetched_at": "2025-05-10",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-05-10) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "8c3318b5fe12",
+      "name": "ZURÜCK ZUM URSPRUNG Bio Weiderind Schnitzel per kg",
+      "old_price": "27.99",
+      "new_price": 27.99,
+      "old_fetched_at": "",
+      "new_fetched_at": "2025-07-30",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-07-30) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "6b5c174cef24",
+      "name": "ZURÜCK ZUM URSPRUNG Landhendl Filetschnitzel",
+      "old_price": "9.99",
+      "new_price": 9.99,
+      "old_fetched_at": "",
+      "new_fetched_at": "2025-02-26",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-02-26) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "6466c4290201",
+      "name": "ZURÜCK ZUM URSPRUNG Pizzakäse gerieben 200g",
+      "old_price": "2.25",
+      "new_price": 2.25,
+      "old_fetched_at": "",
+      "new_fetched_at": "2025-08-15",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-08-15) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "67b2cd62e7e2",
+      "name": "ZURÜCK ZUM URSPRUNG Tellerlinsen 600g",
+      "old_price": "2.98",
+      "new_price": 2.98,
+      "old_fetched_at": "",
+      "new_fetched_at": "2025-03-04",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-03-04) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "8f63f5c8b3e0",
+      "name": "BIO MAMIA Bio Gemüse-Lasagne 250g",
+      "old_price": "1.45",
+      "new_price": 1.45,
+      "old_fetched_at": "2025-03-26",
+      "new_fetched_at": "2025-03-26",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-03-26) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "f3b973430501",
+      "name": "BIO Ravioli Käse-Spinat 250g",
+      "old_price": "2.45",
+      "new_price": 2.45,
+      "old_fetched_at": "2025-03-26",
+      "new_fetched_at": "2025-03-26",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-03-26) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "00106783e09b",
+      "name": "BIO Steinpliz Risotto 250g",
+      "old_price": "1.65",
+      "new_price": 1.65,
+      "old_fetched_at": "2025-01-15",
+      "new_fetched_at": "2025-01-15",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-01-15) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "d547625b52b7",
+      "name": "BIO Sugo Weizenbolognese 350g",
+      "old_price": "1.59",
+      "new_price": 1.59,
+      "old_fetched_at": "2025-05-23",
+      "new_fetched_at": "2025-05-23",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-05-23) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "bef517dba125",
+      "name": "BIO Tomaten Risotto 200g",
+      "old_price": "1.65",
+      "new_price": 1.65,
+      "old_fetched_at": "2025-01-15",
+      "new_fetched_at": "2025-01-15",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-01-15) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "51e2b184e9dc",
+      "name": "BIO Tortellini Gemüse 250g",
+      "old_price": "2.45",
+      "new_price": 2.45,
+      "old_fetched_at": "2025-03-26",
+      "new_fetched_at": "2025-03-26",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-03-26) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "66946171bd9b",
+      "name": "BIO Tortellini Steinpilz 250g",
+      "old_price": "2.45",
+      "new_price": 2.45,
+      "old_fetched_at": "2025-03-26",
+      "new_fetched_at": "2025-03-26",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-03-26) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "c269a10e2993",
+      "name": "GENUSS 100% AUS ÖSTERREICH Rindsgulasch 1kg",
+      "old_price": "19.98",
+      "new_price": 19.98,
+      "old_fetched_at": "2025-10-20",
+      "new_fetched_at": "2025-10-20",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-10-20) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "95b53dace239",
+      "name": "GOOD CHOICE Fertiggericht Apfelstrude mit Vanillesauce 300g",
+      "old_price": "3.49",
+      "new_price": 3.49,
+      "old_fetched_at": "2025-03-19",
+      "new_fetched_at": "2025-03-19",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-03-19) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "6e1723327b91",
+      "name": "GOOD CHOICE Fertiggericht Topfenködel mit Erdbeersauce 330g",
+      "old_price": "3.49",
+      "new_price": 3.49,
+      "old_fetched_at": "2025-03-19",
+      "new_fetched_at": "2025-03-19",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-03-19) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "6b94ce8ab7e4",
+      "name": "GOOD CHOICE Pasta Fertiggerichte Lachs Spaghettini 400g",
+      "old_price": "3.19",
+      "new_price": 3.19,
+      "old_fetched_at": "2025-11-07",
+      "new_fetched_at": "2025-11-07",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-11-07) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "3865ecc538b3",
+      "name": "GOOD CHOICE Pasta Fertiggerichte Pecorelli in Tomatensauce 400g",
+      "old_price": "3.19",
+      "new_price": 3.19,
+      "old_fetched_at": "2025-11-07",
+      "new_fetched_at": "2025-11-07",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-11-07) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "70c915ca1bf3",
+      "name": "GOOD CHOICE Schwammerlsauce mit Serviettenknödel 380g",
+      "old_price": "2.75",
+      "new_price": 2.75,
+      "old_fetched_at": "2025-10-29",
+      "new_fetched_at": "2025-10-29",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-10-29) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "30d97a087834",
+      "name": "HÜTTHALER Blunzngröstl 400g",
+      "old_price": "2.99",
+      "new_price": 2.99,
+      "old_fetched_at": "2025-02-26",
+      "new_fetched_at": "2025-02-26",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-02-26) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "b3e3f4d1dd4e",
+      "name": "HÜTTHALER Tirolergröstl 350g",
+      "old_price": "2.99",
+      "new_price": 2.99,
+      "old_fetched_at": "2025-02-26",
+      "new_fetched_at": "2025-02-26",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-02-26) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "5cf00b89f9d6",
+      "name": "LANDGUT Hühner Suppentopf 800g",
+      "old_price": "3.99",
+      "new_price": 3.99,
+      "old_fetched_at": "2025-11-07",
+      "new_fetched_at": "2025-11-07",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-11-07) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "b4a97dc2a116",
+      "name": "MAMIA BIO Gemüse Risotto mit Pute 250g",
+      "old_price": "1.13",
+      "new_price": 1.13,
+      "old_fetched_at": "2025-10-31",
+      "new_fetched_at": "2025-10-31",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-10-31) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "164590894145",
+      "name": "MAMIA BIO Spaghetti Bolognese 250g",
+      "old_price": "1.13",
+      "new_price": 1.13,
+      "old_fetched_at": "2025-10-31",
+      "new_fetched_at": "2025-10-31",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-10-31) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "37427099ed35",
+      "name": "PRIMANA Grammel Knödel Innviertler Art 700g",
+      "old_price": "4.49",
+      "new_price": 4.49,
+      "old_fetched_at": "2025-09-19",
+      "new_fetched_at": "2025-09-19",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-09-19) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "9386f10572e0",
+      "name": "PRIMANA Speck Knödel Innviertler Art 700g",
+      "old_price": "4.49",
+      "new_price": 4.49,
+      "old_fetched_at": "2025-09-19",
+      "new_fetched_at": "2025-09-19",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-09-19) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "d2f6641a005a",
+      "name": "RETTENSWERT Suppe im Glas Karotte mit Ingwer 350g",
+      "old_price": "2.39",
+      "new_price": 2.39,
+      "old_fetched_at": "2025-10-15",
+      "new_fetched_at": "2025-10-15",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-10-15) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    },
+    {
+      "product_id": "c23ff0f245e6",
+      "name": "WONNEMEYER Salat-Menü Linsen Hähnchen 350g",
+      "old_price": "3.49",
+      "new_price": 3.49,
+      "old_fetched_at": "2025-07-03",
+      "new_fetched_at": "2025-07-03",
+      "old_status": "Preis 2025",
+      "new_status": "Preis 2025",
+      "price_source": "heisse-preise.io hofer (Preisstand 2025-07-03) – Altpreis 2025, nicht live 2026 (hofer.at Akamai-blocked)"
+    }
+  ],
+  "unmatched": [
+    {
+      "product_id": "baec374bea13",
+      "name": "Lasagne Bolognese",
+      "reason": "no_heisse_exact_name"
+    },
+    {
+      "product_id": "a0a23c8cd654",
+      "name": "Good Choice Hot Dog",
+      "reason": "no_heisse_exact_name"
+    },
+    {
+      "product_id": "f16bcd738eeb",
+      "name": "Asia Green Garden Pilztopf",
+      "reason": "no_heisse_exact_name"
+    },
+    {
+      "product_id": "2c1ab76ee029",
+      "name": "Asia Green Garden Udon Nudelschüssel, Sesam-Teriyaki",
+      "reason": "no_heisse_exact_name"
+    },
+    {
+      "product_id": "648604386ac5",
+      "name": "Asia Green Garden Udon Nudelschüssel, Erdnuss-Satay",
+      "reason": "no_heisse_exact_name"
+    },
+    {
+      "product_id": "3e59dd866088",
+      "name": "Asia Green Garden Udon Nudelschüssel, Soja Ingwer",
+      "reason": "no_heisse_exact_name"
+    },
+    {
+      "product_id": "5b47c20cc288",
+      "name": "Kärntner Kasnudeln",
+      "reason": "no_heisse_exact_name"
+    },
+    {
+      "product_id": "594b376ca923",
+      "name": "Hot Dog",
+      "reason": "no_heisse_exact_name"
+    },
+    {
+      "product_id": "0ca6949289b4",
+      "name": "XXL Lasagne",
+      "reason": "no_heisse_exact_name"
+    },
+    {
+      "product_id": "e0767bfa4193",
+      "name": "Rindsgulasch (ca. 0,5 kg)",
+      "reason": "no_heisse_exact_name"
+    },
+    {
+      "product_id": "d68d78871b91",
+      "name": "Gefüllte Gnocchi, Trüffel",
+      "reason": "no_heisse_exact_name"
+    },
+    {
+      "product_id": "402e8669fe59",
+      "name": "Gefüllte Gnocchi, Tomaten und Mozzarella",
+      "reason": "no_heisse_exact_name"
+    },
+    {
+      "product_id": "08311db11c58",
+      "name": "Cevapcici mit Letscho und Reis",
+      "reason": "no_heisse_exact_name"
+    },
+    {
+      "product_id": "8e6cd67ab695",
+      "name": "Faschierte Laibchen mit Kartoffelpüree",
+      "reason": "no_heisse_exact_name"
+    },
+    {
+      "product_id": "7a66fd53020a",
+      "name": "Gelbes Gemüsecurry mit Basmatireis",
+      "reason": "no_heisse_exact_name"
+    },
+    {
+      "product_id": "9aca1fe94fd6",
+      "name": "Pinzgauer Käsespätzle",
+      "reason": "no_heisse_exact_name"
+    },
+    {
+      "product_id": "447e45753788",
+      "name": "Schwammerlsauce mit Serviettenknödel",
+      "reason": "no_heisse_exact_name"
+    },
+    {
+      "product_id": "310f8e479b66",
+      "name": "Tortelloni Carne",
+      "reason": "no_heisse_exact_name"
+    },
+    {
+      "product_id": "d0707566da8d",
+      "name": "Tortelloni mit Käsefüllung",
+      "reason": "no_heisse_exact_name"
+    },
+    {
+      "product_id": "9f8efcd98d0f",
+      "name": "Tortelloni mit Spinat & Ricotta",
+      "reason": "no_heisse_exact_name"
+    },
+    {
+      "product_id": "5d02e3de5894",
+      "name": "Burger Cheese",
+      "reason": "no_heisse_exact_name"
+    },
+    {
+      "product_id": "eac0c079da5b",
+      "name": "Burger Chicken",
+      "reason": "no_heisse_exact_name"
+    },
+    {
+      "product_id": "c4c013f12e4c",
+      "name": "Eiersalat",
+      "reason": "no_heisse_exact_name"
+    },
+    {
+      "product_id": "5d2dc3467870",
+      "name": "Nudelsalat",
+      "reason": "no_heisse_exact_name"
+    },
+    {
+      "product_id": "d660214227ac",
+      "name": "Steinofenpizza Diavolo",
+      "reason": "no_heisse_exact_name"
+    },
+    {
+      "product_id": "6d000b24878d",
+      "name": "Steinofenpizza Prosciutto",
+      "reason": "no_heisse_exact_name"
+    },
+    {
+      "product_id": "6f454f82f5ba",
+      "name": "Chicken Nuggets",
+      "reason": "no_heisse_exact_name"
+    },
+    {
+      "product_id": "56caac5a3678",
+      "name": "Frittaten Suppeneinlage",
+      "reason": "no_heisse_exact_name"
+    },
+    {
+      "product_id": "67ef784a705b",
+      "name": "Grießnockerl",
+      "reason": "no_heisse_exact_name"
+    },
+    {
+      "product_id": "1056fbd7e1b4",
+      "name": "Leberknödel",
+      "reason": "no_heisse_exact_name"
+    },
+    {
+      "product_id": "6c117780ad59",
+      "name": "Snackbox Crispy Chili Cheese Nuggets",
+      "reason": "no_heisse_exact_name"
+    },
+    {
+      "product_id": "9a3dfa77550d",
+      "name": "Snackbox Crispy Mozzarella Sticks",
+      "reason": "no_heisse_exact_name"
+    },
+    {
+      "product_id": "32251be1ffa7",
+      "name": "Snackbox Frischkäse Jalapenos",
+      "reason": "no_heisse_exact_name"
+    },
+    {
+      "product_id": "ec316cab6d20",
+      "name": "XXL Chicken Nuggets",
+      "reason": "no_heisse_exact_name"
+    },
+    {
+      "product_id": "43ee25e1aad0",
+      "name": "Pikante Knödel",
+      "reason": "no_heisse_exact_name"
+    },
+    {
+      "product_id": "2c85cdfc7837",
+      "name": "Gelbes Gemüse Curry Mit Reis",
+      "reason": "no_heisse_exact_name"
+    },
+    {
+      "product_id": "58574e016ce1",
+      "name": "Schwammerlsauce",
+      "reason": "no_heisse_exact_name"
+    }
+  ],
+  "summary": {
+    "price_rows": 123,
+    "updated": 86,
+    "unmatched": 37,
+    "by_new_status": {
+      "Preis 2023": 6,
+      "Preis 2025": 70,
+      "Preis 2024": 10
+    }
+  }
+}
