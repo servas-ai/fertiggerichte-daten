@@ -5,10 +5,10 @@ D = "/workspace/wt-linz-providers/data/linz"
 PUB = "/workspace/fertig-app/public"
 deliv = json.load(open(f"{D}/delivery_4020_2026-10-13.json"))
 dmap = {p["id"]: p for p in deliv["providers"]}
-DEL = {"fit2go": "fit2go", "fittaste": "fittaste", "nordsee": None, "subway": None}
-KIND = {"fit2go": "meal-prep (TK, Linz)", "fittaste": "Glasgerichte (Versand)", "nordsee": "to-go Kette (Filialen)", "subway": "to-go Kette (Filialen)"}
+DEL = {"fit2go": "fit2go", "fittaste": "fittaste", "nordsee": None, "subway": None, "prepmymeal": "prepmymeal", "livefresh": "livefresh"}
+KIND = {"fit2go": "meal-prep (TK, Linz)", "fittaste": "Glasgerichte (Versand)", "nordsee": "to-go Kette (Filialen)", "subway": "to-go Kette (Filialen)", "prepmymeal": "meal-prep (TK, Versand)", "livefresh": "meal-prep (TK, Versand)"}
 rows = []
-for src in ("fit2go", "fittaste", "nordsee", "subway"):
+for src in ("fit2go", "fittaste", "nordsee", "subway", "prepmymeal", "livefresh"):
     for p in json.load(open(sorted(glob.glob(f"{D}/{src}_*.json"))[-1])):
         n = p.get("nutrition_100g") or {}; ex = p.get("extra") or {}; g = p.get("size_g")
         dv = dmap.get(DEL[src]) if DEL[src] else None
@@ -20,6 +20,7 @@ for src in ("fit2go", "fittaste", "nordsee", "subway"):
             "kcalpack": round(n["kcal"] * g / 100) if n.get("kcal") and g else None, "protpack": round(n["protein"] * g / 100, 1) if n.get("protein") and g else None,
             "allergens": ex.get("allergens"), "ingredients": ex.get("ingredients"), "nutriscore": None, "nova": None,
             "delivers_4020": dv["delivers_4020"] if dv else "n/a (Filiale)", "delivery_source": dv["source_url"] if dv else None,
+            "ppp": ex.get("price_per_portion_eur") or (p.get("price_eur") if src in ("fit2go", "fittaste", "prepmymeal", "livefresh") else None), "per_portion": ex.get("per_portion"), "price_variants": ex.get("price_variants_eur"), "traces": ex.get("traces"),
             "nut_basis": ex.get("nutrition_basis") or ("pro 100 g lt. Anbieter"), "fetched_at": p.get("fetched_at")})
 stores = json.load(open(sorted(glob.glob(f"{D}/stores_osm_*.json"))[-1]))
 f2g = json.load(open(sorted(glob.glob(f"{D}/fit2go_*.json"))[-1]))[0]["extra"]["stores"]
