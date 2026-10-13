@@ -1,0 +1,53 @@
+[
+ {
+  "name": "Little Lunch Eintopf Chili Sin Carne vegan, 350 g",
+  "field": "exclude",
+  "new": "__exclude__",
+  "reason": "Duplikat: gleiches dm-Produkt live auf dm.at (DAN 1923461, 3,55 €, 2026-10-13); heisse-preise Altpreis-Zeile ersetzt"
+ },
+ {
+  "name": "Little Lunch Eintopf Protein Bowl Kichererbsen & Linsen, 350 g",
+  "field": "exclude",
+  "new": "__exclude__",
+  "reason": "Duplikat: gleiches dm-Produkt live auf dm.at (DAN 1923464, 3,55 €, 2026-10-13); heisse-preise Altpreis-Zeile ersetzt"
+ },
+ {
+  "name": "Little Lunch Eintopf Thai Curry, 350 g",
+  "field": "exclude",
+  "new": "__exclude__",
+  "reason": "Duplikat: gleiches dm-Produkt live auf dm.at (DAN 1923478, 3,55 €, 2026-10-13); heisse-preise Altpreis-Zeile ersetzt"
+ },
+ {
+  "name": "Lotao Fertiggericht Linsen Dal, 320 g",
+  "field": "exclude",
+  "new": "__exclude__",
+  "reason": "Duplikat: gleiches dm-Produkt live auf dm.at (DAN 1917648, 3,45 €, 2026-10-13); heisse-preise Altpreis-Zeile ersetzt"
+ },
+ {
+  "name": "dmBio Fertiggericht Gemüse Ravioli, 270 g",
+  "field": "exclude",
+  "new": "__exclude__",
+  "reason": "Duplikat: gleiches dm-Produkt live auf dm.at (DAN 1515565, 2,75 €, 2026-10-13); heisse-preise Altpreis-Zeile ersetzt"
+ },
+ {
+  "url": "https://www.dm.at/p/d/1457487/dmbio-fertiggericht-nudel-tasse-tomatensauce",
+  "name": "dmBio Fertiggericht Nudel-Tasse Tomatensauce",
+  "field": "dry",
+  "new": true,
+  "reason": "Instant/Trockenmischung: dm-Nährwerte beziehen sich auf zubereitetes Produkt, Packung = Trockengewicht -> nicht in Rankings"
+ },
+ {
+  "url": "https://www.dm.at/p/d/1892200/hildegard-gruenkraft-suppe-bio-fasten",
+  "name": "Hildegard Grünkraft Suppe Bio Fasten",
+  "field": "dry",
+  "new": true,
+  "reason": "Instant/Trockenmischung: dm-Nährwerte beziehen sich auf zubereitetes Produkt, Packung = Trockengewicht -> nicht in Rankings"
+ },
+ {
+  "url": "https://www.dm.at/p/d/3121154/bauck-muehle-trockenmischung-tomaten-couscous-bowl-mit-basilikum",
+  "name": "Bauck Mühle Trockenmischung Tomaten Couscous Bowl mit Basilikum",
+  "field": "dry",
+  "new": true,
+  "reason": "Instant/Trockenmischung: dm-Nährwerte beziehen sich auf zubereitetes Produkt, Packung = Trockengewicht -> nicht in Rankings"
+ }
+]

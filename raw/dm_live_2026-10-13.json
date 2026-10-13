@@ -1,0 +1,983 @@
+{
+ "fetched_at": "2026-10-13T09:53:12Z",
+ "sources": [
+  "https://www.dm.at/product-sitemap.xml",
+  "https://products.dm.de/product/products/detail/AT/dan/{dan}"
+ ],
+ "sitemap_candidates": 52,
+ "probed": [
+  {
+   "dan": 1000850,
+   "url": "https://www.dm.at/p/d/1000850/erdal-schuhcreme-express-pflegeglanz-schwarz",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1000850",
+   "brand": "Erdal",
+   "title": "Schuhcreme Express Pflegeglanz Schwarz, 75 ml",
+   "breadcrumbs": [
+    "Haushalt",
+    "Haushaltsartikel",
+    "Schuhpflege"
+   ],
+   "gtin": 4001499946561,
+   "price": "2,65 €",
+   "decision": "skip: not a ready meal per dm breadcrumb"
+  },
+  {
+   "dan": 1011244,
+   "url": "https://www.dm.at/p/d/1011244/erdal-lederfett-intensivpflege",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1011244",
+   "brand": "Erdal",
+   "title": "Lederfett Intensivpflege, 150 ml",
+   "breadcrumbs": [
+    "Haushalt",
+    "Haushaltsartikel",
+    "Schuhpflege"
+   ],
+   "gtin": 4001499011665,
+   "price": "3,95 €",
+   "decision": "skip: not a ready meal per dm breadcrumb"
+  },
+  {
+   "dan": 1021640,
+   "url": "https://www.dm.at/p/d/1021640/erdal-schuhcreme-express-1-2-3-glanz-farblos",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1021640",
+   "brand": "Erdal",
+   "title": "Schuhcreme Express 1-2-3 Glanz Farblos, 50 g",
+   "breadcrumbs": [
+    "Haushalt",
+    "Haushaltsartikel",
+    "Schuhpflege"
+   ],
+   "gtin": 4001499014260,
+   "price": "2,85 €",
+   "decision": "skip: not a ready meal per dm breadcrumb"
+  },
+  {
+   "dan": 1077666,
+   "url": "https://www.dm.at/p/d/1077666/erdal-schuhcreme-express-1-2-3-glanz-schwarz",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1077666",
+   "brand": "Erdal",
+   "title": "Schuhcreme Express 1-2-3 Glanz Schwarz, 50 g",
+   "breadcrumbs": [
+    "Haushalt",
+    "Haushaltsartikel",
+    "Schuhpflege"
+   ],
+   "gtin": 4001499143694,
+   "price": "2,85 €",
+   "decision": "skip: not a ready meal per dm breadcrumb"
+  },
+  {
+   "dan": 1457487,
+   "url": "https://www.dm.at/p/d/1457487/dmbio-fertiggericht-nudel-tasse-tomatensauce",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1457487",
+   "brand": "dmBio",
+   "title": "Fertiggericht Nudel-Tasse Tomatensauce",
+   "breadcrumbs": [
+    "Ernährung",
+    "Fertiggerichte & Konserven"
+   ],
+   "gtin": 4067796180411,
+   "price": "1,55 €",
+   "decision": "keep",
+   "image": {
+    "verified": true,
+    "content_type": "image/png",
+    "bytes": 149825
+   },
+   "nutrition_basis": "pro 100 g*"
+  },
+  {
+   "dan": 1488556,
+   "url": "https://www.dm.at/p/d/1488556/dmbio-eintopf-chili-sin-carne-mit-kidneybohnen-und-weizenhack",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1488556",
+   "brand": "dmBio",
+   "title": "Eintopf Chili sin Carne mit Kidneybohnen & Weizenhack, 400 g",
+   "breadcrumbs": [
+    "Ernährung",
+    "Fertiggerichte & Konserven",
+    "Suppen & Eintöpfe"
+   ],
+   "gtin": 4066447892482,
+   "price": "2,35 €",
+   "decision": "keep",
+   "image": {
+    "verified": true,
+    "content_type": "image/png",
+    "bytes": 190771
+   },
+   "nutrition_basis": "pro 100 g"
+  },
+  {
+   "dan": 1488557,
+   "url": "https://www.dm.at/p/d/1488557/dmbio-eintopf-kichererbsen-mit-kokosmilch",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1488557",
+   "brand": "dmBio",
+   "title": "Eintopf Kichererbsen mit Kokosmilch, 400 g",
+   "breadcrumbs": [
+    "Ernährung",
+    "Fertiggerichte & Konserven",
+    "Suppen & Eintöpfe"
+   ],
+   "gtin": 4066447892505,
+   "price": "2,35 €",
+   "decision": "keep",
+   "image": {
+    "verified": true,
+    "content_type": "image/png",
+    "bytes": 196742
+   },
+   "nutrition_basis": "pro 100 g"
+  },
+  {
+   "dan": 1491032,
+   "url": "https://www.dm.at/p/d/1491032/dmbio-eintopf-linsen-mit-kartoffeln",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1491032",
+   "brand": "dmBio",
+   "title": "Eintopf Linsen mit Kartoffeln, 400 g",
+   "breadcrumbs": [
+    "Ernährung",
+    "Fertiggerichte & Konserven",
+    "Suppen & Eintöpfe"
+   ],
+   "gtin": 4066447892444,
+   "price": "2,35 €",
+   "decision": "keep",
+   "image": {
+    "verified": true,
+    "content_type": "image/png",
+    "bytes": 188433
+   },
+   "nutrition_basis": "pro 100 g"
+  },
+  {
+   "dan": 1493494,
+   "url": "https://www.dm.at/p/d/1493494/followfood-suppe-bio-gemuese-marokkanisch",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1493494",
+   "brand": "followfood",
+   "title": "Suppe Bio Gemüse marokkanisch, 375 ml",
+   "breadcrumbs": [
+    "Ernährung",
+    "Fertiggerichte & Konserven",
+    "Suppen & Eintöpfe"
+   ],
+   "gtin": 4260655551241,
+   "price": "2,95 €",
+   "decision": "keep",
+   "image": {
+    "verified": true,
+    "content_type": "image/png",
+    "bytes": 179596
+   },
+   "nutrition_basis": "pro 100 ml"
+  },
+  {
+   "dan": 1515565,
+   "url": "https://www.dm.at/p/d/1515565/dmbio-fertiggericht-gemuese-ravioli",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1515565",
+   "brand": "dmBio",
+   "title": "Fertiggericht Gemüse Ravioli, 270 g",
+   "breadcrumbs": [
+    "Ernährung",
+    "Fertiggerichte & Konserven",
+    "Schnelle Gerichte"
+   ],
+   "gtin": 4066447889949,
+   "price": "2,75 €",
+   "decision": "keep",
+   "image": {
+    "verified": true,
+    "content_type": "image/png",
+    "bytes": 211456
+   },
+   "nutrition_basis": "pro 100 g*"
+  },
+  {
+   "dan": 1601912,
+   "url": "https://www.dm.at/p/d/1601912/dmbio-eintopf-erbsen-mit-gemuese",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1601912",
+   "brand": "dmBio",
+   "title": "Eintopf Erbsen mit Gemüse, 400 g",
+   "breadcrumbs": [
+    "Ernährung",
+    "Fertiggerichte & Konserven",
+    "Suppen & Eintöpfe"
+   ],
+   "gtin": 4066447892468,
+   "price": "2,35 €",
+   "decision": "keep",
+   "image": {
+    "verified": true,
+    "content_type": "image/png",
+    "bytes": 187970
+   },
+   "nutrition_basis": "pro 100 g"
+  },
+  {
+   "dan": 1666804,
+   "url": "https://www.dm.at/p/d/1666804/dmbio-curry-mild",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1666804",
+   "brand": "dmBio",
+   "title": "Curry mild, 60 g",
+   "breadcrumbs": [
+    "Ernährung",
+    "Soße & Gewürze",
+    "Gewürze"
+   ],
+   "gtin": 4066447068184,
+   "price": "1,95 €",
+   "decision": "skip: not a ready meal per dm breadcrumb"
+  },
+  {
+   "dan": 1692920,
+   "url": "https://www.dm.at/p/d/1692920/jean-paul-gaultier-eau-de-parfum-scandal",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1692920",
+   "brand": "Jean-Paul Gaultier",
+   "title": "Eau de Parfum Scandal, 30 ml",
+   "breadcrumbs": [
+    "Pflege & Parfum",
+    "Parfum",
+    "Damen Parfum"
+   ],
+   "gtin": 8435415006439,
+   "price": "54,90 €",
+   "decision": "skip: not a ready meal per dm breadcrumb"
+  },
+  {
+   "dan": 1712470,
+   "url": "https://www.dm.at/p/d/1712470/tressbrueder-eintopf-kichererbsen-erdnuss-curry",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1712470",
+   "brand": "TRESSBRÜDER",
+   "title": "Eintopf Kichererbsen Erdnuss Curry, 375 ml",
+   "breadcrumbs": [
+    "Ernährung",
+    "Fertiggerichte & Konserven"
+   ],
+   "gtin": 4260189683609,
+   "price": "2,95 €",
+   "decision": "keep",
+   "image": {
+    "verified": true,
+    "content_type": "image/png",
+    "bytes": 59245
+   },
+   "nutrition_basis": "pro 100 g"
+  },
+  {
+   "dan": 1712480,
+   "url": "https://www.dm.at/p/d/1712480/tressbrueder-fertiggericht-typ-butter-chicken-curry",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1712480",
+   "brand": "TRESSBRÜDER",
+   "title": "Fertiggericht Typ Butter Chicken Curry, 375 ml",
+   "breadcrumbs": [
+    "Ernährung",
+    "Fertiggerichte & Konserven"
+   ],
+   "gtin": 4260189683630,
+   "price": "2,95 €",
+   "decision": "keep",
+   "image": {
+    "verified": true,
+    "content_type": "image/png",
+    "bytes": 64393
+   },
+   "nutrition_basis": "pro 100 g"
+  },
+  {
+   "dan": 1713492,
+   "url": "https://www.dm.at/p/d/1713492/erdal-schuhcreme-deckweiss",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1713492",
+   "brand": "Erdal",
+   "title": "Schuhcreme Deckweiß, 75 ml",
+   "breadcrumbs": [
+    "Haushalt",
+    "Haushaltsartikel",
+    "Schuhpflege"
+   ],
+   "gtin": 4001499197659,
+   "price": "4,45 €",
+   "decision": "skip: not a ready meal per dm breadcrumb"
+  },
+  {
+   "dan": 1716619,
+   "url": "https://www.dm.at/p/d/1716619/little-lunch-tomatensuppe",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1716619",
+   "brand": "Little Lunch",
+   "title": "Tomatensuppe, 350 ml",
+   "breadcrumbs": [
+    "Ernährung",
+    "Fertiggerichte & Konserven",
+    "Suppen & Eintöpfe"
+   ],
+   "gtin": 4260614722385,
+   "price": "3,55 €",
+   "decision": "keep",
+   "image": {
+    "verified": true,
+    "content_type": "image/png",
+    "bytes": 70532
+   },
+   "nutrition_basis": "pro 100 ml"
+  },
+  {
+   "dan": 1716620,
+   "url": "https://www.dm.at/p/d/1716620/little-lunch-karottensuppe",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1716620",
+   "brand": "Little Lunch",
+   "title": "Karottensuppe, 350 ml",
+   "breadcrumbs": [
+    "Ernährung",
+    "Fertiggerichte & Konserven",
+    "Suppen & Eintöpfe"
+   ],
+   "gtin": 4260614722408,
+   "price": "3,55 €",
+   "decision": "keep",
+   "image": {
+    "verified": true,
+    "content_type": "image/png",
+    "bytes": 66495
+   },
+   "nutrition_basis": "pro 100 ml"
+  },
+  {
+   "dan": 1716629,
+   "url": "https://www.dm.at/p/d/1716629/little-lunch-kuerbissuppe",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1716629",
+   "brand": "Little Lunch",
+   "title": "Kürbissuppe, 350 ml",
+   "breadcrumbs": [
+    "Ernährung",
+    "Fertiggerichte & Konserven",
+    "Suppen & Eintöpfe"
+   ],
+   "gtin": 4260614720411,
+   "price": "3,55 €",
+   "decision": "keep",
+   "image": {
+    "verified": true,
+    "content_type": "image/png",
+    "bytes": 73604
+   },
+   "nutrition_basis": "pro 100 ml"
+  },
+  {
+   "dan": 1738048,
+   "url": "https://www.dm.at/p/d/1738048/vandal-wespenspray",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1738048",
+   "brand": "VANDAL",
+   "title": "Wespenspray, 400 ml",
+   "breadcrumbs": [
+    "Haushalt",
+    "Insektenabwehr & Dünger",
+    "Mittel gegen Silberfischchen & sonstiges Ungeziefer"
+   ],
+   "gtin": 9003200307673,
+   "price": "8,95 €",
+   "decision": "skip: not a ready meal per dm breadcrumb"
+  },
+  {
+   "dan": 1748842,
+   "url": "https://www.dm.at/p/d/1748842/vandal-fliegenfalle-sommerwiese",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1748842",
+   "brand": "VANDAL",
+   "title": "Fliegenfalle Sommerwiese, 6 St",
+   "breadcrumbs": [
+    "Haushalt",
+    "Insektenabwehr & Dünger",
+    "Fliegenfänger & Fliegengitter"
+   ],
+   "gtin": 9003200330251,
+   "price": "3,95 €",
+   "decision": "skip: not a ready meal per dm breadcrumb"
+  },
+  {
+   "dan": 1749172,
+   "url": "https://www.dm.at/p/d/1749172/vandal-kleidermottenfalle",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1749172",
+   "brand": "VANDAL",
+   "title": "Kleidermottenfalle, 1 St",
+   "breadcrumbs": [
+    "Haushalt",
+    "Insektenabwehr & Dünger",
+    "Mottenfallen"
+   ],
+   "gtin": 9003200300322,
+   "price": "5,95 €",
+   "decision": "skip: not a ready meal per dm breadcrumb"
+  },
+  {
+   "dan": 1750965,
+   "url": "https://www.dm.at/p/d/1750965/vandal-mueckenstecker-kombi",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1750965",
+   "brand": "VANDAL",
+   "title": "Mückenstecker Kombi, 1 St",
+   "breadcrumbs": [
+    "Haushalt",
+    "Insektenabwehr & Dünger",
+    "Stechmückenabwehr"
+   ],
+   "gtin": 9003200300575,
+   "price": "10,95 €",
+   "decision": "skip: not a ready meal per dm breadcrumb"
+  },
+  {
+   "dan": 1750966,
+   "url": "https://www.dm.at/p/d/1750966/vandal-mueckenstecker-fluessig-wirkstoff",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1750966",
+   "brand": "VANDAL",
+   "title": "Mückenstecker Flüssig-Wirkstoff, 45 ml",
+   "breadcrumbs": [
+    "Haushalt",
+    "Insektenabwehr & Dünger",
+    "Stechmückenabwehr"
+   ],
+   "gtin": 9003200300582,
+   "price": "6,45 €",
+   "decision": "skip: not a ready meal per dm breadcrumb"
+  },
+  {
+   "dan": 1750973,
+   "url": "https://www.dm.at/p/d/1750973/vandal-insektenspray-langzeit",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1750973",
+   "brand": "VANDAL",
+   "title": "Insektenspray Langzeit, 296 g",
+   "breadcrumbs": [
+    "Haushalt",
+    "Insektenabwehr & Dünger",
+    "Mittel gegen Silberfischchen & sonstiges Ungeziefer"
+   ],
+   "gtin": 9003200900522,
+   "price": "8,95 €",
+   "decision": "skip: not a ready meal per dm breadcrumb"
+  },
+  {
+   "dan": 1751109,
+   "url": "https://www.dm.at/p/d/1751109/vandal-ameisen-power-spray",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1751109",
+   "brand": "VANDAL",
+   "title": "Ameisen-Power-Spray, 500 ml",
+   "breadcrumbs": [
+    "Haushalt",
+    "Insektenabwehr & Dünger",
+    "Ameisenköder"
+   ],
+   "gtin": 9003200330206,
+   "price": "7,95 €",
+   "decision": "skip: not a ready meal per dm breadcrumb"
+  },
+  {
+   "dan": 1751261,
+   "url": "https://www.dm.at/p/d/1751261/vandal-lebensmittel-mottenfalle",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1751261",
+   "brand": "VANDAL",
+   "title": "Lebensmittel Mottenfalle, 1 St",
+   "breadcrumbs": [
+    "Haushalt",
+    "Insektenabwehr & Dünger",
+    "Mottenfallen"
+   ],
+   "gtin": 9003200300407,
+   "price": "5,95 €",
+   "decision": "skip: not a ready meal per dm breadcrumb"
+  },
+  {
+   "dan": 1753718,
+   "url": "https://www.dm.at/p/d/1753718/vandal-fliegenfaenger",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1753718",
+   "brand": "VANDAL",
+   "title": "Fliegenfänger, 4 St",
+   "breadcrumbs": [
+    "Haushalt",
+    "Insektenabwehr & Dünger",
+    "Fliegenfänger & Fliegengitter"
+   ],
+   "gtin": 90032820,
+   "price": "2,25 €",
+   "decision": "skip: not a ready meal per dm breadcrumb"
+  },
+  {
+   "dan": 1755538,
+   "url": "https://www.dm.at/p/d/1755538/vandal-insektenspray-mit-natuerlichem-pyrethrum",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1755538",
+   "brand": "VANDAL",
+   "title": "Insektenspray mit natürlichem Pyrethrum, 324 g",
+   "breadcrumbs": [
+    "Haushalt",
+    "Insektenabwehr & Dünger",
+    "Mittel gegen Silberfischchen & sonstiges Ungeziefer"
+   ],
+   "gtin": 9003200300209,
+   "price": "8,95 €",
+   "decision": "skip: not a ready meal per dm breadcrumb"
+  },
+  {
+   "dan": 1779118,
+   "url": "https://www.dm.at/p/d/1779118/vandal-ungeziefer-koederfalle-box",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1779118",
+   "brand": "VANDAL",
+   "title": "Ungeziefer Köderfalle Box, 3 St",
+   "breadcrumbs": [
+    "Haushalt",
+    "Insektenabwehr & Dünger",
+    "Mittel gegen Silberfischchen & sonstiges Ungeziefer"
+   ],
+   "gtin": 9003200331500,
+   "price": "7,45 €",
+   "decision": "skip: not a ready meal per dm breadcrumb"
+  },
+  {
+   "dan": 1788158,
+   "url": "https://www.dm.at/p/d/1788158/erdal-schuhcreme-all-in-one-farblos",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1788158",
+   "brand": "Erdal",
+   "title": "Schuhcreme All in One Farblos, 50 ml",
+   "breadcrumbs": [
+    "Haushalt",
+    "Haushaltsartikel",
+    "Schuhpflege"
+   ],
+   "gtin": 4001499167768,
+   "price": "3,45 €",
+   "decision": "skip: not a ready meal per dm breadcrumb"
+  },
+  {
+   "dan": 1813704,
+   "url": "https://www.dm.at/p/d/1813704/vandal-fruchtfliegenfalle",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1813704",
+   "brand": "VANDAL",
+   "title": "Fruchtfliegenfalle, 1 St",
+   "breadcrumbs": [
+    "Haushalt",
+    "Insektenabwehr & Dünger",
+    "Fruchtfliegenfallen"
+   ],
+   "gtin": 9003200307420,
+   "price": "3,95 €",
+   "decision": "skip: not a ready meal per dm breadcrumb"
+  },
+  {
+   "dan": 1857521,
+   "url": "https://www.dm.at/p/d/1857521/erdal-impraegnierung-fuer-waschbare-textilien",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1857521",
+   "brand": "Erdal",
+   "title": "Imprägnierung für waschbare Textilien, 500 ml",
+   "breadcrumbs": [
+    "Haushalt",
+    "Waschen",
+    "Waschzusatz"
+   ],
+   "gtin": 9001531927409,
+   "price": "8,95 €",
+   "decision": "skip: not a ready meal per dm breadcrumb"
+  },
+  {
+   "dan": 1892200,
+   "url": "https://www.dm.at/p/d/1892200/hildegard-gruenkraft-suppe-bio-fasten",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1892200",
+   "brand": "Hildegard Grünkraft",
+   "title": "Suppe Bio Fasten, 230 g",
+   "breadcrumbs": [
+    "Ernährung",
+    "Fertiggerichte & Konserven",
+    "Suppen & Eintöpfe"
+   ],
+   "gtin": 9120006529938,
+   "price": "7,95 €",
+   "decision": "keep",
+   "image": {
+    "verified": true,
+    "content_type": "image/png",
+    "bytes": 64712
+   },
+   "nutrition_basis": "pro 100 ml*"
+  },
+  {
+   "dan": 1894200,
+   "url": "https://www.dm.at/p/d/1894200/biogourmet-fertiggericht-baked-beans-in-tomatensauce",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1894200",
+   "brand": "BioGourmet",
+   "title": "Fertiggericht Baked Beans in Tomatensauce, 0,4 kg",
+   "breadcrumbs": [
+    "Ernährung",
+    "Fertiggerichte & Konserven",
+    "Schnelle Gerichte"
+   ],
+   "gtin": 4039057417437,
+   "price": "1,60 €",
+   "decision": "keep",
+   "image": {
+    "verified": true,
+    "content_type": "image/png",
+    "bytes": 66953
+   },
+   "nutrition_basis": "pro 100 g"
+  },
+  {
+   "dan": 1894261,
+   "url": "https://www.dm.at/p/d/1894261/biogourmet-hot-chili-sauce",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1894261",
+   "brand": "BioGourmet",
+   "title": "Hot Chili Sauce, 140 ml",
+   "breadcrumbs": [
+    "Ernährung",
+    "Soße & Gewürze",
+    "Soßen"
+   ],
+   "gtin": 4039057417475,
+   "price": "4,25 €",
+   "decision": "skip: not a ready meal per dm breadcrumb"
+  },
+  {
+   "dan": 1914971,
+   "url": "https://www.dm.at/p/d/1914971/vandal-ameisenkoeder",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1914971",
+   "brand": "VANDAL",
+   "title": "Ameisenköder, 1 St",
+   "breadcrumbs": [
+    "Haushalt",
+    "Insektenabwehr & Dünger",
+    "Ameisenköder"
+   ],
+   "gtin": 9003200331944,
+   "price": "4,95 €",
+   "decision": "skip: not a ready meal per dm breadcrumb"
+  },
+  {
+   "dan": 1917200,
+   "url": "https://www.dm.at/p/d/1917200/erdal-impraegnierspray",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1917200",
+   "brand": "Erdal",
+   "title": "Imprägnierspray, 300 ml",
+   "breadcrumbs": [
+    "Haushalt",
+    "Haushaltsartikel",
+    "Schuhpflege"
+   ],
+   "gtin": 4001499962127,
+   "price": "5,95 €",
+   "decision": "skip: not a ready meal per dm breadcrumb"
+  },
+  {
+   "dan": 1917648,
+   "url": "https://www.dm.at/p/d/1917648/lotao-fertiggericht-linsen-dal",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1917648",
+   "brand": "Lotao",
+   "title": "Fertiggericht Linsen Dal, 320 g",
+   "breadcrumbs": [
+    "Ernährung",
+    "Fertiggerichte & Konserven",
+    "Schnelle Gerichte"
+   ],
+   "gtin": 4260237451709,
+   "price": "3,45 €",
+   "decision": "keep",
+   "image": {
+    "verified": true,
+    "content_type": "image/png",
+    "bytes": 183173
+   },
+   "nutrition_basis": "pro 100 g"
+  },
+  {
+   "dan": 1920012,
+   "url": "https://www.dm.at/p/d/1920012/erdal-waschmittel-fluessig-fuer-sneaker",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1920012",
+   "brand": "Erdal",
+   "title": "Waschmittel Flüssig für Sneaker, 500 ml",
+   "breadcrumbs": [
+    "Haushalt",
+    "Waschen",
+    "Waschmittel"
+   ],
+   "gtin": 9001531965739,
+   "price": "5,95 €",
+   "decision": "skip: not a ready meal per dm breadcrumb"
+  },
+  {
+   "dan": 1923461,
+   "url": "https://www.dm.at/p/d/1923461/little-lunch-eintopf-chili-sin-carne-vegan",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1923461",
+   "brand": "Little Lunch",
+   "title": "Eintopf Chili Sin Carne vegan, 350 g",
+   "breadcrumbs": [
+    "Ernährung",
+    "Fertiggerichte & Konserven",
+    "Suppen & Eintöpfe"
+   ],
+   "gtin": 4280000878519,
+   "price": "3,55 €",
+   "decision": "keep",
+   "image": {
+    "verified": true,
+    "content_type": "image/png",
+    "bytes": 71203
+   },
+   "nutrition_basis": "pro 100 g"
+  },
+  {
+   "dan": 1923464,
+   "url": "https://www.dm.at/p/d/1923464/little-lunch-eintopf-protein-bowl-kichererbsen-und-linsen",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1923464",
+   "brand": "Little Lunch",
+   "title": "Eintopf Protein Bowl Kichererbsen & Linsen, 350 g",
+   "breadcrumbs": [
+    "Ernährung",
+    "Fertiggerichte & Konserven",
+    "Suppen & Eintöpfe"
+   ],
+   "gtin": 4260614720343,
+   "price": "3,55 €",
+   "decision": "keep",
+   "image": {
+    "verified": true,
+    "content_type": "image/png",
+    "bytes": 76935
+   },
+   "nutrition_basis": "pro 100 g"
+  },
+  {
+   "dan": 1923477,
+   "url": "https://www.dm.at/p/d/1923477/little-lunch-fertiggericht-ravioli-in-tomatensosse",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1923477",
+   "brand": "Little Lunch",
+   "title": "Fertiggericht Ravioli in Tomatensoße, 350 g",
+   "breadcrumbs": [
+    "Ernährung",
+    "Fertiggerichte & Konserven",
+    "Suppen & Eintöpfe"
+   ],
+   "gtin": 4260614721517,
+   "price": "3,95 €",
+   "decision": "keep",
+   "image": {
+    "verified": true,
+    "content_type": "image/png",
+    "bytes": 60044
+   },
+   "nutrition_basis": "pro 100 g"
+  },
+  {
+   "dan": 1923478,
+   "url": "https://www.dm.at/p/d/1923478/little-lunch-eintopf-thai-curry",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1923478",
+   "brand": "Little Lunch",
+   "title": "Eintopf Thai Curry, 350 g",
+   "breadcrumbs": [
+    "Ernährung",
+    "Fertiggerichte & Konserven",
+    "Suppen & Eintöpfe"
+   ],
+   "gtin": 4280000878946,
+   "price": "3,55 €",
+   "decision": "keep",
+   "image": {
+    "verified": true,
+    "content_type": "image/png",
+    "bytes": 67011
+   },
+   "nutrition_basis": "pro 100 g"
+  },
+  {
+   "dan": 3064090,
+   "url": "https://www.dm.at/p/d/3064090/dmbio-fertiggericht-vegane-currywurst",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/3064090",
+   "brand": "dmBio",
+   "title": "Fertiggericht Vegane Currywurst, 350 g",
+   "breadcrumbs": [
+    "Ernährung",
+    "Tofu & Fleischersatz"
+   ],
+   "gtin": 4067796202915,
+   "price": "2,95 €",
+   "decision": "skip: not a ready meal per dm breadcrumb"
+  },
+  {
+   "dan": 3081070,
+   "url": "https://www.dm.at/p/d/3081070/dmbio-suppe-peking",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/3081070",
+   "brand": "dmBio",
+   "title": "Suppe Peking, 340 ml",
+   "breadcrumbs": [
+    "Ernährung",
+    "Fertiggerichte & Konserven",
+    "Suppen & Eintöpfe"
+   ],
+   "gtin": 4066447876574,
+   "price": "2,15 €",
+   "decision": "keep",
+   "image": {
+    "verified": true,
+    "content_type": "image/png",
+    "bytes": 228699
+   },
+   "nutrition_basis": "pro 100 ml"
+  },
+  {
+   "dan": 3102923,
+   "url": "https://www.dm.at/p/d/3102923/dmbio-fertiggericht-mexican-style-bowl",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/3102923",
+   "brand": "dmBio",
+   "title": "Fertiggericht Mexican Style Bowl, 250 g",
+   "breadcrumbs": [
+    "Ernährung",
+    "Fertiggerichte & Konserven"
+   ],
+   "gtin": 4066447884685,
+   "price": "2,50 €",
+   "decision": "keep",
+   "image": {
+    "verified": true,
+    "content_type": "image/png",
+    "bytes": 252920
+   },
+   "nutrition_basis": "pro 100 g"
+  },
+  {
+   "dan": 3113586,
+   "url": "https://www.dm.at/p/d/3113586/dmbio-vegane-bolognese",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/3113586",
+   "brand": "dmBio",
+   "title": "Vegane Bolognese, 350 ml",
+   "breadcrumbs": [
+    "Ernährung",
+    "Fertiggerichte & Konserven"
+   ],
+   "gtin": 4070765007824,
+   "price": "1,95 €",
+   "decision": "skip: not a ready meal per dm breadcrumb"
+  },
+  {
+   "dan": 3121154,
+   "url": "https://www.dm.at/p/d/3121154/bauck-muehle-trockenmischung-tomaten-couscous-bowl-mit-basilikum",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/3121154",
+   "brand": "Bauck Mühle",
+   "title": "Trockenmischung Tomaten Couscous Bowl mit Basilikum, 140 g",
+   "breadcrumbs": [
+    "Ernährung",
+    "Fertiggerichte & Konserven",
+    "Schnelle Gerichte"
+   ],
+   "gtin": 4015637026572,
+   "price": "2,95 €",
+   "decision": "keep",
+   "image": {
+    "verified": true,
+    "content_type": "image/png",
+    "bytes": 48915
+   },
+   "nutrition_basis": "pro 100 g"
+  },
+  {
+   "dan": 3127080,
+   "url": "https://www.dm.at/p/d/3127080/dmbio-chili-con-tofu-high-protein",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/3127080",
+   "brand": "dmBio",
+   "title": "Chili con Tofu High Protein, 350 g",
+   "breadcrumbs": [
+    "Ernährung",
+    "Fertiggerichte & Konserven",
+    "Schnelle Gerichte"
+   ],
+   "gtin": 4070765057522,
+   "price": "2,75 €",
+   "decision": "keep",
+   "image": {
+    "verified": true,
+    "content_type": "image/png",
+    "bytes": 218763
+   },
+   "nutrition_basis": "pro 100 g"
+  },
+  {
+   "dan": 3127087,
+   "url": "https://www.dm.at/p/d/3127087/dmbio-veganes-no-chicken-curry",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/3127087",
+   "brand": "dmBio",
+   "title": "Veganes No-Chicken Curry, 330 g",
+   "breadcrumbs": [
+    "Ernährung",
+    "Fertiggerichte & Konserven",
+    "Schnelle Gerichte"
+   ],
+   "gtin": 4070765057560,
+   "price": "2,45 €",
+   "decision": "keep",
+   "image": {
+    "verified": true,
+    "content_type": "image/png",
+    "bytes": 217498
+   },
+   "nutrition_basis": "pro 100 g"
+  },
+  {
+   "dan": 3127090,
+   "url": "https://www.dm.at/p/d/3127090/dmbio-gulasch-vegan",
+   "api": "https://products.dm.de/product/products/detail/AT/dan/3127090",
+   "brand": "dmBio",
+   "title": "Gulasch vegan, 350 g",
+   "breadcrumbs": [
+    "Ernährung",
+    "Fertiggerichte & Konserven",
+    "Schnelle Gerichte"
+   ],
+   "gtin": 4070765058246,
+   "price": "2,45 €",
+   "decision": "keep",
+   "image": {
+    "verified": true,
+    "content_type": "image/png",
+    "bytes": 219609
+   },
+   "nutrition_basis": "pro 100 g"
+  }
+ ],
+ "kept": 25,
+ "added": [
+  "dmBio Fertiggericht Nudel-Tasse Tomatensauce",
+  "followfood Suppe Bio Gemüse marokkanisch",
+  "Tressbrüder Eintopf Kichererbsen Erdnuss Curry",
+  "Little Lunch Tomatensuppe",
+  "Little Lunch Karottensuppe",
+  "Little Lunch Kürbissuppe",
+  "Hildegard Grünkraft Suppe Bio Fasten",
+  "BioGourmet Fertiggericht Baked Beans in Tomatensauce",
+  "Little Lunch Fertiggericht Ravioli in Tomatensoße",
+  "Little Lunch Eintopf Thai Curry",
+  "dmBio Suppe Peking",
+  "Bauck Mühle Trockenmischung Tomaten Couscous Bowl mit Basilikum",
+  "dmBio Chili con Tofu High Protein",
+  "dmBio Veganes No-Chicken Curry"
+ ],
+ "updated": [
+  "dmBio Chili sin Carne",
+  "dmBio Eintopf Kichererbsen Kokos",
+  "dmBio Eintopf Linsen mit Kartoffeln",
+  "dmBio Gemüse Ravioli",
+  "dmBio Eintopf Erbsen mit Gemüse",
+  "Tressbrüder Butter Chicken Curry",
+  "Lotao Linsen Dal",
+  "Little Lunch Chili Sin Carne",
+  "Little Lunch Protein Bowl Kichererbsen & Linsen",
+  "dmBio Mexican Style Bowl",
+  "dmBio Gulasch vegan"
+ ],
+ "heisse_duplicates_excluded": [
+  "Little Lunch Eintopf Chili Sin Carne vegan, 350 g",
+  "Little Lunch Eintopf Protein Bowl Kichererbsen & Linsen, 350 g",
+  "Little Lunch Eintopf Thai Curry, 350 g",
+  "Lotao Fertiggericht Linsen Dal, 320 g",
+  "dmBio Fertiggericht Gemüse Ravioli, 270 g",
+  "dmBio Fertiggericht Nudel-Tasse Tomatensauce",
+  "Hildegard Grünkraft Suppe Bio Fasten",
+  "Bauck Mühle Trockenmischung Tomaten Couscous Bowl mit Basilikum"
+ ],
+ "heisse_rows_not_in_dm_sitemap": [
+  "Little Lunch Fertiggericht Pilz Risotto, 350 g",
+  "Lotao Chili sin Carne, 350 g",
+  "Lotao Fertiggericht Veggie Curry, 320 g",
+  "Lotao Fertiggericht veggie Chili sin Carne, 320 g",
+  "dmBio Fertiggericht Linsen Dal mit Kartoffeln, 280 g",
+  "dmBio Veganuary Chili con Grünkern, 400 g"
+ ],
+ "note": "heisse_rows_not_in_dm_sitemap: no dm.at product page in the 2026 product sitemap -> no live price possible; kept as flagged Altpreis rows"
+}

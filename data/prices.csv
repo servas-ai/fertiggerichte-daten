@@ -460,15 +460,11 @@ e804ac01f0f2,Spar,4.49,12.83,live 2026,2026-10-12,heisse-preise.io latest-canoni
 411ec196a1e8,Spar,4.99,11.88,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 9e6b4fb1a9ea,Billa,6.89,17.23,live 2026,2026-10-13,BILLA shop API 2026-10-13
 d73e9c103023,Billa,14.99,18.74,live 2026,2026-10-13,BILLA shop API 2026-10-13
-6740b1ce8cf7,dm,3.55,10.14,Preis 2025,2024-04-23,"heisse-preise.io dm (Preisstand 2024-04-23) – Altpreis, nicht live bestätigt"
-aea36856db1b,dm,3.55,10.14,Preis 2025,2024-04-23,"heisse-preise.io dm (Preisstand 2024-04-23) – Altpreis, nicht live bestätigt"
-f6a91d569484,dm,3.55,10.14,Preis 2025,2024-04-23,"heisse-preise.io dm (Preisstand 2024-04-23) – Altpreis, nicht live bestätigt"
+91680478929d,dm,3.55,10.14,live 2026,2026-10-13,dm.at live 2026-10-13 (products.dm.de product JSON)
 2b7827ffd994,dm,3.95,11.29,Preis 2025,2024-04-23,"heisse-preise.io dm (Preisstand 2024-04-23) – Altpreis, nicht live bestätigt"
 3b4f63700fb2,dm,1.85,5.29,Preis 2025,2023-06-21,"heisse-preise.io dm (Preisstand 2023-06-21) – Altpreis, nicht live bestätigt"
-077a3001a810,dm,3.45,10.78,Preis 2025,2024-03-24,"heisse-preise.io dm (Preisstand 2024-03-24) – Altpreis, nicht live bestätigt"
 92cd233d3525,dm,1.75,5.47,Preis 2025,2024-07-18,"heisse-preise.io dm (Preisstand 2024-07-18) – Altpreis, nicht live bestätigt"
 047f5ef85cda,dm,3.45,10.78,Preis 2025,2024-03-02,"heisse-preise.io dm (Preisstand 2024-03-02) – Altpreis, nicht live bestätigt"
-6248fe160e67,dm,2.75,10.19,Preis 2025,2025-02-01,"heisse-preise.io dm (Preisstand 2025-02-01) – Altpreis, nicht live bestätigt"
 6987f5187ea4,dm,2.35,8.39,Preis 2025,2024-01-11,"heisse-preise.io dm (Preisstand 2024-01-11) – Altpreis, nicht live bestätigt"
 62f08176ebb0,dm,1.55,3.88,Preis 2025,2025-01-29,"heisse-preise.io dm (Preisstand 2025-01-29) – Altpreis, nicht live bestätigt"
 2faf3609fedc,Hofer,2.59,6.47,Preis 2025,2023-10-03,"heisse-preise.io hofer (Preisstand 2023-10-03) – Altpreis, nicht live bestätigt"
@@ -1123,17 +1119,30 @@ d660214227ac,Hofer,3.39,7.88,live 2026,2026-10-12,"wokostswas.at Kategorie Ferti
 ec316cab6d20,Hofer,7.49,4.99,live 2026,2026-10-12,"hofer.at Produktsuche live 2026-10-12 (Aktion; Grundpreis 4,99 €/kg → 7,49 € berechnet)"
 43ee25e1aad0,Hofer,2.39,2.39,live 2026,,"Hofer-Flugblatt KW41/2026 S.14 via billiga.at, Aktion gültig bis 10.10.2026 (regulär 3,99 €)"
 fbb1017592a4,dm,2.95,8.43,live 2026,2026-10-12,dm.at live 2026-10-12
-84f62b60ddae,dm,2.45,7.0,live 2026,2026-10-12,dm.at live 2026-10-12
-a44b34ab3aba,dm,2.35,5.88,live 2026,2026-10-12,dm.at live 2026-10-12
-148d955bee5a,dm,3.55,10.14,live 2026,2026-10-12,dm.at live 2026-10-12
-4de899c7e257,dm,2.95,7.87,live 2026,2026-10-12,dm.at live 2026-10-12
-06c205192b6f,dm,3.55,10.14,live 2026,2026-10-12,dm.at live 2026-10-12
-14995f0b5901,dm,3.45,10.78,live 2026,2026-10-12,dm.at live 2026-10-12
-3b99bc8cc7c4,dm,2.5,10.0,live 2026,2026-10-12,dm.at live 2026-10-12
-194d07e5130e,dm,2.35,5.88,live 2026,2026-10-12,dm.at live 2026-10-12
-00f88ca6fa5d,dm,2.35,5.88,live 2026,2026-10-12,dm.at live 2026-10-12
-5694584eaaab,dm,2.35,5.88,live 2026,2026-10-12,dm.at live 2026-10-12
-467394d1238e,dm,2.75,10.19,live 2026,2026-10-12,dm.at live 2026-10-12
+84f62b60ddae,dm,2.45,7.0,live 2026,2026-10-13,dm.at live 2026-10-13 (products.dm.de product JSON)
+a44b34ab3aba,dm,2.35,5.88,live 2026,2026-10-13,dm.at live 2026-10-13 (products.dm.de product JSON)
+148d955bee5a,dm,3.55,10.14,live 2026,2026-10-13,dm.at live 2026-10-13 (products.dm.de product JSON)
+4de899c7e257,dm,2.95,7.87,live 2026,2026-10-13,dm.at live 2026-10-13 (products.dm.de product JSON)
+06c205192b6f,dm,3.55,10.14,live 2026,2026-10-13,dm.at live 2026-10-13 (products.dm.de product JSON)
+14995f0b5901,dm,3.45,10.78,live 2026,2026-10-13,dm.at live 2026-10-13 (products.dm.de product JSON)
+3b99bc8cc7c4,dm,2.5,10.0,live 2026,2026-10-13,dm.at live 2026-10-13 (products.dm.de product JSON)
+194d07e5130e,dm,2.35,5.88,live 2026,2026-10-13,dm.at live 2026-10-13 (products.dm.de product JSON)
+00f88ca6fa5d,dm,2.35,5.88,live 2026,2026-10-13,dm.at live 2026-10-13 (products.dm.de product JSON)
+5694584eaaab,dm,2.35,5.88,live 2026,2026-10-13,dm.at live 2026-10-13 (products.dm.de product JSON)
+467394d1238e,dm,2.75,10.19,live 2026,2026-10-13,dm.at live 2026-10-13 (products.dm.de product JSON)
+f8984cdff713,dm,1.55,22.79,live 2026,2026-10-13,dm.at live 2026-10-13 (products.dm.de product JSON)
+7d18ebce1d4c,dm,2.95,7.87,live 2026,2026-10-13,dm.at live 2026-10-13 (products.dm.de product JSON)
+12a7c7a80118,dm,2.95,7.87,live 2026,2026-10-13,dm.at live 2026-10-13 (products.dm.de product JSON)
+1879ce22cb35,dm,3.55,10.14,live 2026,2026-10-13,dm.at live 2026-10-13 (products.dm.de product JSON)
+e787a50e7971,dm,3.55,10.14,live 2026,2026-10-13,dm.at live 2026-10-13 (products.dm.de product JSON)
+d286577eb1a6,dm,3.55,10.14,live 2026,2026-10-13,dm.at live 2026-10-13 (products.dm.de product JSON)
+2ebcab5d1bbd,dm,7.95,34.57,live 2026,2026-10-13,dm.at live 2026-10-13 (products.dm.de product JSON)
+173963579635,dm,1.6,4.0,live 2026,2026-10-13,dm.at live 2026-10-13 (products.dm.de product JSON)
+9e2a84105c35,dm,3.95,11.29,live 2026,2026-10-13,dm.at live 2026-10-13 (products.dm.de product JSON)
+991b3da96b3d,dm,2.15,6.32,live 2026,2026-10-13,dm.at live 2026-10-13 (products.dm.de product JSON)
+475c00ec9f91,dm,2.95,21.07,live 2026,2026-10-13,dm.at live 2026-10-13 (products.dm.de product JSON)
+d400e762f189,dm,2.75,7.86,live 2026,2026-10-13,dm.at live 2026-10-13 (products.dm.de product JSON)
+ea04f652ecbd,dm,2.45,7.42,live 2026,2026-10-13,dm.at live 2026-10-13 (products.dm.de product JSON)
 4cb2283a8fd3,Billa,4.69,14.21,live 2026,,frozen_quick.json (live 2026)
 5979cad9d755,Billa,3.59,9.97,live 2026,,frozen_quick.json (live 2026)
 bb256fb097d4,Billa,3.59,9.97,live 2026,,frozen_quick.json (live 2026)
@@ -1564,6 +1573,29 @@ b2f63ec3b6bb,MPreis,4.99,11.88,live 2026,2026-10-13,food-connectors/mpreis-shop 
 70cfe409a8f5,MPreis,4.99,11.88,live 2026,2026-10-13,food-connectors/mpreis-shop 2026-10-13
 9c8f7718a8c5,MPreis,4.99,11.88,live 2026,2026-10-13,food-connectors/mpreis-shop 2026-10-13
 3cad373e9db7,MPreis,4.99,11.6,live 2026,2026-10-13,food-connectors/mpreis-shop 2026-10-13
+fab89ed89baa,Gurkerl,9.29,22.12,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+ab341d7ee186,Gurkerl,4.49,22.45,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+f73d386de92d,Gurkerl,7.79,31.16,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+2e38c140fffb,Gurkerl,7.99,31.96,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+e29253bd5749,Gurkerl,8.29,15.07,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+12562dadb456,Gurkerl,8.59,34.36,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+89eb4e749d4c,Gurkerl,9.99,26.29,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+871c01752f50,Gurkerl,11.99,59.95,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+fd2399e505a8,Gurkerl,26.99,32.91,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+0f0eaf378229,Gurkerl,9.39,37.56,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+9280543d750b,Gurkerl,9.99,22.2,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+38862fc27172,Gurkerl,5.29,14.69,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+8e3e87d1af93,Gurkerl,7.19,20.54,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+b1632d3e4e06,Gurkerl,7.19,20.54,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+e867a37adea5,Gurkerl,6.69,16.73,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+e7d1c89e8b6a,Gurkerl,2.79,12.68,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+3674f458f7da,Gurkerl,2.89,11.56,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+3132dc2f204a,Gurkerl,2.89,11.56,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+d9d12f94d09d,Gurkerl,2.89,11.56,live 2026,2026-10-13,food-connectors/gurkerl 2026-10-13
+b33bbbb20170,MPreis,2.99,9.2,live 2026,2026-10-13,food-connectors/mpreis-shop 2026-10-13
+bbf2c62d1da1,MPreis,2.59,7.4,live 2026,2026-10-13,food-connectors/mpreis-shop 2026-10-13
+c971a9c96236,MPreis,2.99,7.97,live 2026,2026-10-13,food-connectors/mpreis-shop 2026-10-13
+7df5da9b8d70,MPreis,4.39,10.97,live 2026,2026-10-13,food-connectors/mpreis-shop 2026-10-13
 6415820c4167,PrepMyMeal,12.48,12.48,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
 686d7d17b44d,PrepMyMeal,10.49,20.98,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
 96f3aa02ba70,PrepMyMeal,10.49,10.49,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13

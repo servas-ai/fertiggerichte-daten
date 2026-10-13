@@ -4149,31 +4149,13 @@
   "price_source": "BILLA shop API 2026-10-13"
  },
  {
-  "product_id": "6740b1ce8cf7",
+  "product_id": "91680478929d",
   "chain": "dm",
   "price_eur": 3.55,
   "price_per_kg_eur": 10.14,
-  "price_status": "Preis 2025",
-  "fetched_at": "2024-04-23",
-  "price_source": "heisse-preise.io dm (Preisstand 2024-04-23) – Altpreis, nicht live bestätigt"
- },
- {
-  "product_id": "aea36856db1b",
-  "chain": "dm",
-  "price_eur": 3.55,
-  "price_per_kg_eur": 10.14,
-  "price_status": "Preis 2025",
-  "fetched_at": "2024-04-23",
-  "price_source": "heisse-preise.io dm (Preisstand 2024-04-23) – Altpreis, nicht live bestätigt"
- },
- {
-  "product_id": "f6a91d569484",
-  "chain": "dm",
-  "price_eur": 3.55,
-  "price_per_kg_eur": 10.14,
-  "price_status": "Preis 2025",
-  "fetched_at": "2024-04-23",
-  "price_source": "heisse-preise.io dm (Preisstand 2024-04-23) – Altpreis, nicht live bestätigt"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "dm.at live 2026-10-13 (products.dm.de product JSON)"
  },
  {
   "product_id": "2b7827ffd994",
@@ -4194,15 +4176,6 @@
   "price_source": "heisse-preise.io dm (Preisstand 2023-06-21) – Altpreis, nicht live bestätigt"
  },
  {
-  "product_id": "077a3001a810",
-  "chain": "dm",
-  "price_eur": 3.45,
-  "price_per_kg_eur": 10.78,
-  "price_status": "Preis 2025",
-  "fetched_at": "2024-03-24",
-  "price_source": "heisse-preise.io dm (Preisstand 2024-03-24) – Altpreis, nicht live bestätigt"
- },
- {
   "product_id": "92cd233d3525",
   "chain": "dm",
   "price_eur": 1.75,
@@ -4219,15 +4192,6 @@
   "price_status": "Preis 2025",
   "fetched_at": "2024-03-02",
   "price_source": "heisse-preise.io dm (Preisstand 2024-03-02) – Altpreis, nicht live bestätigt"
- },
- {
-  "product_id": "6248fe160e67",
-  "chain": "dm",
-  "price_eur": 2.75,
-  "price_per_kg_eur": 10.19,
-  "price_status": "Preis 2025",
-  "fetched_at": "2025-02-01",
-  "price_source": "heisse-preise.io dm (Preisstand 2025-02-01) – Altpreis, nicht live bestätigt"
  },
  {
   "product_id": "6987f5187ea4",
@@ -10121,8 +10085,8 @@
   "price_eur": 2.45,
   "price_per_kg_eur": 7.0,
   "price_status": "live 2026",
-  "fetched_at": "2026-10-12",
-  "price_source": "dm.at live 2026-10-12"
+  "fetched_at": "2026-10-13",
+  "price_source": "dm.at live 2026-10-13 (products.dm.de product JSON)"
  },
  {
   "product_id": "a44b34ab3aba",
@@ -10130,8 +10094,8 @@
   "price_eur": 2.35,
   "price_per_kg_eur": 5.88,
   "price_status": "live 2026",
-  "fetched_at": "2026-10-12",
-  "price_source": "dm.at live 2026-10-12"
+  "fetched_at": "2026-10-13",
+  "price_source": "dm.at live 2026-10-13 (products.dm.de product JSON)"
  },
  {
   "product_id": "148d955bee5a",
@@ -10139,8 +10103,8 @@
   "price_eur": 3.55,
   "price_per_kg_eur": 10.14,
   "price_status": "live 2026",
-  "fetched_at": "2026-10-12",
-  "price_source": "dm.at live 2026-10-12"
+  "fetched_at": "2026-10-13",
+  "price_source": "dm.at live 2026-10-13 (products.dm.de product JSON)"
  },
  {
   "product_id": "4de899c7e257",
@@ -10148,8 +10112,8 @@
   "price_eur": 2.95,
   "price_per_kg_eur": 7.87,
   "price_status": "live 2026",
-  "fetched_at": "2026-10-12",
-  "price_source": "dm.at live 2026-10-12"
+  "fetched_at": "2026-10-13",
+  "price_source": "dm.at live 2026-10-13 (products.dm.de product JSON)"
  },
  {
   "product_id": "06c205192b6f",
@@ -10157,8 +10121,8 @@
   "price_eur": 3.55,
   "price_per_kg_eur": 10.14,
   "price_status": "live 2026",
-  "fetched_at": "2026-10-12",
-  "price_source": "dm.at live 2026-10-12"
+  "fetched_at": "2026-10-13",
+  "price_source": "dm.at live 2026-10-13 (products.dm.de product JSON)"
  },
  {
   "product_id": "14995f0b5901",
@@ -10166,8 +10130,8 @@
   "price_eur": 3.45,
   "price_per_kg_eur": 10.78,
   "price_status": "live 2026",
-  "fetched_at": "2026-10-12",
-  "price_source": "dm.at live 2026-10-12"
+  "fetched_at": "2026-10-13",
+  "price_source": "dm.at live 2026-10-13 (products.dm.de product JSON)"
  },
  {
   "product_id": "3b99bc8cc7c4",
@@ -10175,8 +10139,8 @@
   "price_eur": 2.5,
   "price_per_kg_eur": 10.0,
   "price_status": "live 2026",
-  "fetched_at": "2026-10-12",
-  "price_source": "dm.at live 2026-10-12"
+  "fetched_at": "2026-10-13",
+  "price_source": "dm.at live 2026-10-13 (products.dm.de product JSON)"
  },
  {
   "product_id": "194d07e5130e",
@@ -10184,8 +10148,8 @@
   "price_eur": 2.35,
   "price_per_kg_eur": 5.88,
   "price_status": "live 2026",
-  "fetched_at": "2026-10-12",
-  "price_source": "dm.at live 2026-10-12"
+  "fetched_at": "2026-10-13",
+  "price_source": "dm.at live 2026-10-13 (products.dm.de product JSON)"
  },
  {
   "product_id": "00f88ca6fa5d",
@@ -10193,8 +10157,8 @@
   "price_eur": 2.35,
   "price_per_kg_eur": 5.88,
   "price_status": "live 2026",
-  "fetched_at": "2026-10-12",
-  "price_source": "dm.at live 2026-10-12"
+  "fetched_at": "2026-10-13",
+  "price_source": "dm.at live 2026-10-13 (products.dm.de product JSON)"
  },
  {
   "product_id": "5694584eaaab",
@@ -10202,8 +10166,8 @@
   "price_eur": 2.35,
   "price_per_kg_eur": 5.88,
   "price_status": "live 2026",
-  "fetched_at": "2026-10-12",
-  "price_source": "dm.at live 2026-10-12"
+  "fetched_at": "2026-10-13",
+  "price_source": "dm.at live 2026-10-13 (products.dm.de product JSON)"
  },
  {
   "product_id": "467394d1238e",
@@ -10211,8 +10175,125 @@
   "price_eur": 2.75,
   "price_per_kg_eur": 10.19,
   "price_status": "live 2026",
-  "fetched_at": "2026-10-12",
-  "price_source": "dm.at live 2026-10-12"
+  "fetched_at": "2026-10-13",
+  "price_source": "dm.at live 2026-10-13 (products.dm.de product JSON)"
+ },
+ {
+  "product_id": "f8984cdff713",
+  "chain": "dm",
+  "price_eur": 1.55,
+  "price_per_kg_eur": 22.79,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "dm.at live 2026-10-13 (products.dm.de product JSON)"
+ },
+ {
+  "product_id": "7d18ebce1d4c",
+  "chain": "dm",
+  "price_eur": 2.95,
+  "price_per_kg_eur": 7.87,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "dm.at live 2026-10-13 (products.dm.de product JSON)"
+ },
+ {
+  "product_id": "12a7c7a80118",
+  "chain": "dm",
+  "price_eur": 2.95,
+  "price_per_kg_eur": 7.87,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "dm.at live 2026-10-13 (products.dm.de product JSON)"
+ },
+ {
+  "product_id": "1879ce22cb35",
+  "chain": "dm",
+  "price_eur": 3.55,
+  "price_per_kg_eur": 10.14,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "dm.at live 2026-10-13 (products.dm.de product JSON)"
+ },
+ {
+  "product_id": "e787a50e7971",
+  "chain": "dm",
+  "price_eur": 3.55,
+  "price_per_kg_eur": 10.14,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "dm.at live 2026-10-13 (products.dm.de product JSON)"
+ },
+ {
+  "product_id": "d286577eb1a6",
+  "chain": "dm",
+  "price_eur": 3.55,
+  "price_per_kg_eur": 10.14,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "dm.at live 2026-10-13 (products.dm.de product JSON)"
+ },
+ {
+  "product_id": "2ebcab5d1bbd",
+  "chain": "dm",
+  "price_eur": 7.95,
+  "price_per_kg_eur": 34.57,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "dm.at live 2026-10-13 (products.dm.de product JSON)"
+ },
+ {
+  "product_id": "173963579635",
+  "chain": "dm",
+  "price_eur": 1.6,
+  "price_per_kg_eur": 4.0,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "dm.at live 2026-10-13 (products.dm.de product JSON)"
+ },
+ {
+  "product_id": "9e2a84105c35",
+  "chain": "dm",
+  "price_eur": 3.95,
+  "price_per_kg_eur": 11.29,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "dm.at live 2026-10-13 (products.dm.de product JSON)"
+ },
+ {
+  "product_id": "991b3da96b3d",
+  "chain": "dm",
+  "price_eur": 2.15,
+  "price_per_kg_eur": 6.32,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "dm.at live 2026-10-13 (products.dm.de product JSON)"
+ },
+ {
+  "product_id": "475c00ec9f91",
+  "chain": "dm",
+  "price_eur": 2.95,
+  "price_per_kg_eur": 21.07,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "dm.at live 2026-10-13 (products.dm.de product JSON)"
+ },
+ {
+  "product_id": "d400e762f189",
+  "chain": "dm",
+  "price_eur": 2.75,
+  "price_per_kg_eur": 7.86,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "dm.at live 2026-10-13 (products.dm.de product JSON)"
+ },
+ {
+  "product_id": "ea04f652ecbd",
+  "chain": "dm",
+  "price_eur": 2.45,
+  "price_per_kg_eur": 7.42,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "dm.at live 2026-10-13 (products.dm.de product JSON)"
  },
  {
   "product_id": "4cb2283a8fd3",
@@ -14080,6 +14161,213 @@
   "chain": "MPreis",
   "price_eur": 4.99,
   "price_per_kg_eur": 11.6,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13"
+ },
+ {
+  "product_id": "fab89ed89baa",
+  "chain": "Gurkerl",
+  "price_eur": 9.29,
+  "price_per_kg_eur": 22.12,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13"
+ },
+ {
+  "product_id": "ab341d7ee186",
+  "chain": "Gurkerl",
+  "price_eur": 4.49,
+  "price_per_kg_eur": 22.45,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13"
+ },
+ {
+  "product_id": "f73d386de92d",
+  "chain": "Gurkerl",
+  "price_eur": 7.79,
+  "price_per_kg_eur": 31.16,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13"
+ },
+ {
+  "product_id": "2e38c140fffb",
+  "chain": "Gurkerl",
+  "price_eur": 7.99,
+  "price_per_kg_eur": 31.96,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13"
+ },
+ {
+  "product_id": "e29253bd5749",
+  "chain": "Gurkerl",
+  "price_eur": 8.29,
+  "price_per_kg_eur": 15.07,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13"
+ },
+ {
+  "product_id": "12562dadb456",
+  "chain": "Gurkerl",
+  "price_eur": 8.59,
+  "price_per_kg_eur": 34.36,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13"
+ },
+ {
+  "product_id": "89eb4e749d4c",
+  "chain": "Gurkerl",
+  "price_eur": 9.99,
+  "price_per_kg_eur": 26.29,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13"
+ },
+ {
+  "product_id": "871c01752f50",
+  "chain": "Gurkerl",
+  "price_eur": 11.99,
+  "price_per_kg_eur": 59.95,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13"
+ },
+ {
+  "product_id": "fd2399e505a8",
+  "chain": "Gurkerl",
+  "price_eur": 26.99,
+  "price_per_kg_eur": 32.91,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13"
+ },
+ {
+  "product_id": "0f0eaf378229",
+  "chain": "Gurkerl",
+  "price_eur": 9.39,
+  "price_per_kg_eur": 37.56,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13"
+ },
+ {
+  "product_id": "9280543d750b",
+  "chain": "Gurkerl",
+  "price_eur": 9.99,
+  "price_per_kg_eur": 22.2,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13"
+ },
+ {
+  "product_id": "38862fc27172",
+  "chain": "Gurkerl",
+  "price_eur": 5.29,
+  "price_per_kg_eur": 14.69,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13"
+ },
+ {
+  "product_id": "8e3e87d1af93",
+  "chain": "Gurkerl",
+  "price_eur": 7.19,
+  "price_per_kg_eur": 20.54,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13"
+ },
+ {
+  "product_id": "b1632d3e4e06",
+  "chain": "Gurkerl",
+  "price_eur": 7.19,
+  "price_per_kg_eur": 20.54,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13"
+ },
+ {
+  "product_id": "e867a37adea5",
+  "chain": "Gurkerl",
+  "price_eur": 6.69,
+  "price_per_kg_eur": 16.73,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13"
+ },
+ {
+  "product_id": "e7d1c89e8b6a",
+  "chain": "Gurkerl",
+  "price_eur": 2.79,
+  "price_per_kg_eur": 12.68,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13"
+ },
+ {
+  "product_id": "3674f458f7da",
+  "chain": "Gurkerl",
+  "price_eur": 2.89,
+  "price_per_kg_eur": 11.56,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13"
+ },
+ {
+  "product_id": "3132dc2f204a",
+  "chain": "Gurkerl",
+  "price_eur": 2.89,
+  "price_per_kg_eur": 11.56,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13"
+ },
+ {
+  "product_id": "d9d12f94d09d",
+  "chain": "Gurkerl",
+  "price_eur": 2.89,
+  "price_per_kg_eur": 11.56,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13"
+ },
+ {
+  "product_id": "b33bbbb20170",
+  "chain": "MPreis",
+  "price_eur": 2.99,
+  "price_per_kg_eur": 9.2,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13"
+ },
+ {
+  "product_id": "bbf2c62d1da1",
+  "chain": "MPreis",
+  "price_eur": 2.59,
+  "price_per_kg_eur": 7.4,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13"
+ },
+ {
+  "product_id": "c971a9c96236",
+  "chain": "MPreis",
+  "price_eur": 2.99,
+  "price_per_kg_eur": 7.97,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13"
+ },
+ {
+  "product_id": "7df5da9b8d70",
+  "chain": "MPreis",
+  "price_eur": 4.39,
+  "price_per_kg_eur": 10.97,
   "price_status": "live 2026",
   "fetched_at": "2026-10-13",
   "price_source": "food-connectors/mpreis-shop 2026-10-13"
