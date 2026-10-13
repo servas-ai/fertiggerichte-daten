@@ -124,3 +124,12 @@ Fertiggerichte im österreichischen Handel
 | url | string |  |
 | image_url | string |  |
 | source | string |  |
+
+## online_mealprep.csv / .json
+Produkte von Online-Meal-Prep-Shops (Schema wie products, `store` = `Online: <Shop>`). Preise und Nährwerte direkt aus dem Shop (`price_source`, `nut_source`, `price_date`). Zusätzlich: `eur_per_10g_protein`, `storage`, `shelf_life`, `shipping_eur` (Versand pro Bestellung, nicht pro Gericht), `available`, `nut_flag` (Plausibilitätswarnung). Nur Produkte mit veröffentlichten Nährwerten und Gewicht.
+
+## producer_quality.csv / .json
+Qualitätsprofil je Hersteller. JSON: jedes Feld `{value, sources[], confidence: high|medium|low|none}`; `value: null` = nicht gefunden. `quality_score` 0–100 (Kriterien in `method_de`), `potential_score` = Obergrenze bei bestmöglicher Auflösung unbekannter Felder.
+
+## online_providers.json
+Online-Anbieter (Firma, Sitz, Lieferung nach Linz, Versandkosten, Lagerung, Quellen, Kennzahlen).
