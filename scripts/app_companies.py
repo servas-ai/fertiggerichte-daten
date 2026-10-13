@@ -3,7 +3,7 @@ import json, os, re, sys
 R = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.environ.get("FERTIG_SRC", "/workspace/fertig"); APPDIR = os.environ.get("FERTIG_APP", "/workspace/fertig-app/public")
 sys.path.insert(0, R)
-from food_company.registries import match_score
+from food_connectors.company.registries import match_score
 cs = json.load(open(f"{R}/data/companies.json"))
 logos = json.load(open(f"{SRC}/analysis/logos.json")); comp = json.load(open(f"{SRC}/analysis/companies.json"))
 def num(s):

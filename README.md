@@ -19,9 +19,13 @@ Schema: [`datapackage.json`](datapackage.json) (Frictionless). Feldbeschreibung:
 python3 scripts/export.py            # aus der App neu exportieren
 python3 scripts/companies_enrich.py  # Firmendaten (GLEIF, Parents) auffrischen, ~5 min
 python3 scripts/datapackage.py && python3 scripts/validate.py
-python3 -m food_company.cli "GMS GOURMET GmbH"   # Registry-Lookup (CLI); MCP: python -m food_company.mcp_server
+pip install git+https://github.com/servas-ai/food-connectors && food company "GMS GOURMET GmbH"   # Registry-Lookup jetzt in servas-ai/food-connectors (CLI `food company`, MCP `food-mcp`)
 ```
 
 Lizenz: eigene Daten **CC BY 4.0**; Teile aus Open Food Facts unterliegen **ODbL 1.0**, GLEIF-Daten CC0. Siehe DATA_GUIDELINES.md.
 
 Credits: GLEIF API, EU VIES, Statistik Austria ÖVIS, Open Food Facts, heisse-preise.io; Ideen aus [p-meier/northdata-connectors](https://github.com/p-meier/northdata-connectors) und [Lukhers-dev/firmenbuch-HVD](https://github.com/Lukhers-dev/firmenbuch-HVD).
+
+## Externe Datensätze (importiert 2026-10-13)
+- `data/off_ready_meals_at.csv`: Fertiggerichte aus Open Food Facts (Österreich), via `food fetch --store off`. Lizenz ODbL / DbCL, © Open Food Facts contributors. Keine Preise.
+- `data/external_datasets.csv`: kuratierter Katalog offener Datensätze (Hugging Face, Kaggle, Zenodo, data.gv.at, BLS, CIQUAL, USDA, Swiss FCDB) mit Lizenz, Größe und Aktualität. Live-Suche: `food datasets --search "…"`.

@@ -3,7 +3,7 @@ already-researched facts (producer_profiles.json) and plants (companies.json, St
 Writes data/companies.json + data/companies.csv. Only verified registry hits are stored (match_score>=0.5)."""
 import json, re, sys, os, csv, collections, statistics
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from food_company import registries as R
+from food_connectors.company import registries as R
 SRC = os.environ.get("FERTIG_SRC", "/workspace/fertig")
 APP = os.environ.get("FERTIG_APP", "/workspace/fertig-app/public/data.json")
 OUT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")

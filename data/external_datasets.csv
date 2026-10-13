@@ -1,0 +1,12 @@
+id,name,url,license,size,freshness,use
+off-hf,Open Food Facts product-database (Parquet),https://huggingface.co/datasets/openfoodfacts/product-database,ODbL (DB) / DbCL (contents),"~4M products, several GB",daily,"EAN, Nährwerte, Nutri-Score, NOVA; live via `food search --store off` / `food nutri`"
+off-kaggle,Open Food Facts world-food-facts (Kaggle),https://www.kaggle.com/datasets/openfoodfacts/world-food-facts,ODbL,114 MB,stale (2017 snapshot),"historical only, prefer off-hf"
+heisse-preise,"heisse-preise.io daily dump (badlogic/heissepreise, MIT)",https://heisse-preise.io/data/latest-canonical.json,code MIT; prices = retailer data,~200 MB JSON,daily,AT prices Billa/Spar/Hofer/Lidl/Penny/dm/MPreis/Unimarkt; live via `--store heisse-preise`
+heisse-preise-data,falknerdominik/heisse-preise-data,https://github.com/falknerdominik/heisse-preise-data,MIT,Python loader,pushed 2026-10-12,price history loader for heisse-preise
+ciqual,ANSES CIQUAL 2020,https://ciqual.anses.fr,Etalab Open Licence 2.0,"3,185 foods",2020,generic composition; `food nutri --sources ciqual`
+usda-fdc,USDA FoodData Central,https://fdc.nal.usda.gov,CC0,~400k foods,semi-annual 2026,`food nutri --sources usda-fdc` (DEMO_KEY or FDC_API_KEY)
+swiss-fcdb,Swiss Food Composition Database (BLV),https://naehrwertdaten.ch,free use with attribution (BLV terms),"~1,100 generic foods",V7.0 (2024+),catalog; Excel download
+bls,Bundeslebensmittelschlüssel BLS 4.0 (MRI),https://blsdb.de,free since BLS 4.0 (CC BY 4.0 per MRI),"~7,100 foods",2025,catalog; download manually from blsdb.de
+zenodo-nl,Dutch supermarket product data (Zenodo 10.5281/zenodo.19220002),https://doi.org/10.5281/zenodo.19220002,CC BY 4.0,see record,2026-03,"reference schema, not AT"
+kaggle-de-retail,German retail supermarket dataset (Kaggle sanku758),https://www.kaggle.com/datasets/sanku758/german-retail-supermarket-dataset,MIT (stated),1.95 GB,"unknown, likely synthetic",not imported (provenance unclear)
+data-gv-lebensmittelbuch,Österreichisches Lebensmittelbuch (data.gv.at),https://www.data.gv.at/katalog/?q=lebensmittelbuch,CC BY 4.0,PDF/HTML chapters,2021,"legal definitions (Codex B?), no products"
