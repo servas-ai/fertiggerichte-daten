@@ -2621,5 +2621,29 @@
    "Feinkost Englert",
    "Englert Feinkost"
   ]
+ },
+ {
+  "slug": "subway",
+  "name": "Subway",
+  "category": "Handelskette",
+  "file": "logos/subway.svg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Subway_2016_logo.svg",
+  "brands": [
+   "Subway",
+   "SUBWAY",
+   "Subway®"
+  ]
+ },
+ {
+  "slug": "alpenhain",
+  "name": "Alpenhain",
+  "category": "Markenhersteller",
+  "file": "logos/alpenhain.png",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Alpenhain_Logo.png",
+  "brands": [
+   "Alpenhain",
+   "ALPENHAIN",
+   "Alpenhain Back"
+  ]
  }
 ]

@@ -1907,6 +1907,90 @@ bf7a7f29c061,Billa,4.99,16.63,live 2026,2026-10-13,"food-connectors/billa 2026-1
 358c82cd218e,Billa,4.99,16.63,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
 050e55470be2,Billa,5.19,10.38,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
 42ece6be7f0a,dm,2.75,11.0,live 2026,2026-10-13,"food-connectors/dm 2026-10-13 (products.dm.de product JSON, live)"
+81b31c7ff53c,Gurkerl,3.69,9.23,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category walk + search, products/prices/stock API, inStock)"
+2c273ca537ae,Gurkerl,3.69,9.23,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category walk + search, products/prices/stock API, inStock)"
+35cd69a1eed8,Gurkerl,3.69,9.23,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category walk + search, products/prices/stock API, inStock)"
+9a053531462d,Gurkerl,5.69,14.23,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category walk + search, products/prices/stock API, inStock)"
+0f2af5b832a6,Gurkerl,5.69,14.23,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category walk + search, products/prices/stock API, inStock)"
+dca8a37ad309,Gurkerl,3.19,16.36,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category walk + search, products/prices/stock API, inStock)"
+b2085820e431,Gurkerl,3.19,16.36,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category walk + search, products/prices/stock API, inStock)"
+f395661b56a5,Gurkerl,3.19,16.36,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category walk + search, products/prices/stock API, inStock)"
+3c3838038583,Gurkerl,3.19,16.36,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category walk + search, products/prices/stock API, inStock)"
+3a85146379b4,Gurkerl,4.79,19.96,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category walk + search, products/prices/stock API, inStock)"
+558eb3a2a836,Gurkerl,5.99,19.97,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category walk + search, products/prices/stock API, inStock)"
+38d0abdade70,Gurkerl,5.49,21.96,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category walk + search, products/prices/stock API, inStock)"
+912e47d99a85,Gurkerl,10.49,23.31,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category walk + search, products/prices/stock API, inStock)"
+ae2c2e656fb6,Gurkerl,11.99,26.64,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category walk + search, products/prices/stock API, inStock)"
+40dda3ea11a1,Gurkerl,3.49,17.45,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category walk + search, products/prices/stock API, inStock)"
+fd11749baacc,Billa,4.29,14.07,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+4624edb1b690,Billa,4.29,13.41,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+034b69346da6,Billa,3.99,14.78,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+7a5f59fd2d04,Billa,3.99,8.87,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+8d64c60aa131,Billa,4.69,11.3,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+30ea31d431b0,Billa,1.99,7.96,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+4580b4465c16,Billa,1.99,7.96,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+c249f6f897e1,Billa,1.99,7.96,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+50a705f4abe6,Billa,2.99,11.96,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+9afbca2b2a0c,Billa,2.99,11.96,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+0c323c91b093,Billa,2.99,11.96,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+c1db9c74e781,Billa,2.99,11.96,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+e9a9050009c1,Billa,2.99,11.96,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+caad6992e83f,Billa,2.99,11.96,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+a7df76e7beb0,Billa,3.99,5.32,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+340f143293c0,Billa,2.99,11.96,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+514cceb55cf8,Billa,6.49,21.63,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+b592cb185eb1,Billa,6.49,21.63,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+d8fcf94ee229,Billa,9.99,16.65,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+959f3f62e215,Billa,3.29,8.22,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+e23a00ad87da,MPreis,6.49,8.11,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+41b920dcca3f,MPreis,2.99,7.48,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+552fe895d94b,MPreis,6.49,8.11,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+b02968eec992,MPreis,6.99,17.48,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+4b967d34c845,MPreis,2.99,3.74,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+e80136dddfa1,MPreis,2.99,7.48,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+253d9334f440,MPreis,2.99,7.48,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+e9639d47567f,MPreis,2.0,8.0,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+112bebe91c16,MPreis,2.99,11.96,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+08e94c3e9184,MPreis,2.99,11.96,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+49aa6c98efff,MPreis,2.99,11.96,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+1581782f5e54,MPreis,2.99,11.96,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+50b1057b1b0b,MPreis,3.99,14.78,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+e783a9f5b800,MPreis,3.99,14.78,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+f46013e71695,MPreis,6.49,8.11,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+58423828140e,MPreis,3.49,8.72,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+4210f8b4b549,MPreis,2.99,7.48,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+c6ee6304db7b,MPreis,2.99,7.97,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+9d20dc6e416a,MPreis,2.69,8.28,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+f24579690a47,MPreis,4.39,10.97,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+25f0e75a5a6a,MPreis,4.39,10.97,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+24604c66d74b,MPreis,2.99,7.48,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+78b0f4c79b46,MPreis,2.99,5.98,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+158b9e227019,MPreis,2.99,5.98,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+6003e40eddec,MPreis,2.99,5.98,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+142b52e0cf74,MPreis,3.99,9.98,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+f37269d5443f,MPreis,3.99,9.98,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+ee3c224c2565,MPreis,4.99,15.59,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+56f9d347055c,MPreis,4.99,15.59,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+2aa0a564404a,MPreis,4.99,15.59,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+c7de61c74aad,MPreis,5.79,14.47,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+e414f0fe79c9,Billa,16.99,14.16,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+861378666fa0,Billa,3.99,16.42,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+23c4d13cb245,Billa,3.99,16.42,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+e3d29a5a9344,Billa,3.99,14.78,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+fc4d0d51ede6,Billa,3.99,14.78,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+6eee22ad48ea,Billa,4.49,13.82,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+7dc73b9e2aaf,Billa,4.49,14.03,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+f78040dfc46b,Billa,4.49,14.25,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+4fd08c5dcf5d,Billa,5.49,12.92,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+625a6eb512ff,Billa,4.59,13.11,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+7284540b1515,Billa,3.99,9.17,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+25f0ea873839,Billa,3.99,8.87,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+25d5ff8cdd6c,Billa,4.69,11.58,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+011863dbdf7b,Billa,6.99,14.56,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+cb3fde9cff6d,Billa,11.9,29.6,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+ce285d5239a5,Penny,3.49,7.27,live 2026,2026-10-13,"food-connectors/penny 2026-10-13 (penny.at Online-Sortiment, Listenpreis)"
+b4452650da8e,Penny,4.74,7.9,live 2026,2026-10-13,"food-connectors/penny 2026-10-13 (penny.at Online-Sortiment, Listenpreis)"
+23cda9d8a8e1,Penny,2.89,11.56,live 2026,2026-10-13,"food-connectors/penny 2026-10-13 (penny.at Online-Sortiment, Listenpreis)"
 6415820c4167,PrepMyMeal,12.48,12.48,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
 686d7d17b44d,PrepMyMeal,10.49,20.98,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
 96f3aa02ba70,PrepMyMeal,10.49,10.49,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
@@ -2377,7 +2461,6 @@ ab45f32c40eb,MPreis,4.49,14.97,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 20
 a600cfc5eafb,MPreis,2.99,7.48,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
 ec294fcc68c5,MPreis,2.99,7.48,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
 0527438948aa,MPreis,2.85,7.12,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
-41b920dcca3f,MPreis,2.99,7.48,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
 7933ba6ac115,MPreis,2.39,5.98,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
 e3ec9047b161,MPreis,3.19,14.18,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
 28bd1449435e,MPreis,3.49,13.96,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
@@ -2393,11 +2476,7 @@ f0e0db7426fc,MPreis,8.49,21.23,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 20
 fb9e97eca919,MPreis,8.29,15.07,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
 420324b7eef1,MPreis,2.99,18.69,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
 93d337f4ae68,MPreis,5.49,6.86,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
-552fe895d94b,MPreis,6.49,8.11,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
-442f81b0319a,MPreis,3.49,8.72,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
-f46013e71695,MPreis,6.49,8.11,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
 2b633a8eb1a2,MPreis,3.49,8.72,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
-e23a00ad87da,MPreis,6.49,8.11,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
 fed8ae4e1bb0,MPreis,6.49,8.11,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
 dc0eb7f6c3ee,MPreis,6.49,8.11,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
 ea2e26061064,MPreis,3.49,8.72,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
@@ -2424,11 +2503,6 @@ c561a789c02e,MPreis,2.99,14.95,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 20
 4bf64d13b277,MPreis,6.79,19.4,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
 7079852d1de6,MPreis,2.49,6.23,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
 05b16dbdcf33,MPreis,3.49,8.72,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
-58423828140e,MPreis,3.49,8.72,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
-4210f8b4b549,MPreis,2.99,7.48,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
-b02968eec992,MPreis,6.99,17.48,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
-c028b4031266,MPreis,10.49,13.11,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
-4b967d34c845,MPreis,2.99,3.74,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
 7053a1f4673c,MPreis,3.99,7.98,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
 3d31a543c6f6,MPreis,2.99,11.96,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
 755c332719e6,MPreis,2.79,9.3,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)

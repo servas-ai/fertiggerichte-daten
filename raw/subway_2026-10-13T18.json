@@ -1,0 +1,114 @@
+{
+ "run": "2026-10-13T18 Daten-Squad – Subway (59 Produkte, 0 Fotos, kein Logo) + nächste Logo-Lücken",
+ "generated": "2026-10-13T18:27:09+00:00",
+ "logo": {
+  "accepted": [
+   {
+    "slug": "subway",
+    "brand_strings": [
+     "Subway",
+     "SUBWAY",
+     "Subway®"
+    ],
+    "products_covered": 59,
+    "source_page": "https://commons.wikimedia.org/wiki/File:Subway_2016_logo.svg",
+    "file_url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Subway_2016_logo.svg",
+    "licence": "Public domain (Commons: Textlogo; Restriction 'trademarked'; Autor Subway IP LLC; description 'Subway's newest logo, unveiled on August 5, 2016')",
+    "file": "logos/subway.svg",
+    "bytes": 1702,
+    "sha256": "780dfa5b7e140183276a8cd691ede33fbedda90d62577fdedd54e6e2647742a8",
+    "modified": "unverändert",
+    "vision_gate": "PASS – gerendertes PNG (scripts/logo_work_T18/subway_preview.png) per Read geprüft: gelbes 'SUB' + grünes 'WAY' mit Pfeilenden = aktuelle Subway-Wortmarke, scharf, kein Icon-only/Foto, auf hellem Hintergrund lesbar",
+    "company": "Subway nicht in companies.json (133) – keine Firmenzeile zu verknüpfen; Produkte erhalten Logo über analysis/logos.json brands→export_app.py"
+   },
+   {
+    "slug": "alpenhain",
+    "brand_strings": [
+     "Alpenhain",
+     "ALPENHAIN",
+     "Alpenhain Back"
+    ],
+    "products_covered": 2,
+    "source_page": "https://commons.wikimedia.org/wiki/File:Alpenhain_Logo.png",
+    "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Alpenhain_Logo.png",
+    "licence": "CC BY-SA 4.0, Robert Winkelmann (Credit: alpenhain.de) – Namensnennung im logos.json note",
+    "file": "logos/alpenhain.png",
+    "modified": "2016×1142 → 512×290 verkleinert",
+    "sha256": "3b07d4e65689dfe96813e1685690ac9b7e8561c9acae9e03c7e90fd3c43cb36a",
+    "vision_gate": "PASS – ovales Alpenhain-Logo (Berg, goldene Wortmarke), scharf, korrekte Marke (Alpenhain Käsespezialitäten, Brand-Tree-Konzern für Gurkerl 'Alpenhain Back')"
+   }
+  ],
+  "rejected": {
+   "Vifon (vifon.com.vn Logomoi-Chutrang-01.svg / logo-tiengviet-chutdo.svg)": "Asset ist echt (robots.txt erlaubt /vnt_upload/), aber Markenidentität nicht verifiziert: MPreis 'Vifon Garlic/Shrimp and chilli flavour instant soup' und Gurkerl 'VIFON Pho Bowl' können auch die europäische Vifon-Marke (Tan-Viet, PL) sein – ohne Label-Adresse kein Mapping",
+   "Yum Yum (yumyum.co.th)": "Box-Verbindung fehlgeschlagen (robots.txt + Startseite: keine Antwort) – nicht umgangen; kein Commons-Logo",
+   "Staudinger / Schulzi´s Knödel / Chef Select (Commons)": "keine passende Commons-Datei; Chef Select/Chef Menü/Good Choice/Pappudia/dmBio/Spar enjoy = Handels-Eigenmarken (Policy: übersprungen; App zeigt Parent-Kettenlogo)",
+   "Namdong / The Green Garden / Wiener Virtshaus / Pasta Box / Elsässer": "bekannte Sackgassen aus T13b–T15, nicht erneut forciert"
+  }
+ },
+ "photos": {
+  "result": "0/59 – Sackgasse (Bot-Schutz), nichts gemappt, image_url bleibt leer",
+  "sources_checked": [
+   {
+    "url": "https://www.subway.com/robots.txt",
+    "status": "200; User-agent * Disallow nur /sitecore/ und */deliverylocator – Menüseiten erlaubt"
+   },
+   {
+    "url": "https://www.subway.com/v1v2/assets/de-at/nutrition/documents/germany-nutritional-information-full-menu-c2-march-2026-german.pdf",
+    "status": "200 application/pdf 229281 B (Last-Modified 2026-05-07) – enthält nur 3× 86×38 Logo-Grafik, keine Produktfotos (pdfimages -list)"
+   },
+   {
+    "url": "https://www.subway.com/de-AT",
+    "status": "Box curl: HTTP/2 stream reset INTERNAL_ERROR (sofort); HTTP/1.1: 25 s Timeout ohne Bytes → Edge blockt Nicht-Browser-Clients (Bot-Management) – nicht umgangen"
+   },
+   {
+    "url": "https://www.subway.com/de-AT/MenuNutrition/Menu/Sandwiches",
+    "status": "Box curl: HTTP/2 INTERNAL_ERROR; WebFetch (externer Provider): nur Text (Überschriften), keine Bild-URLs"
+   },
+   {
+    "url": "https://www.subway.com/de-AT/MenuNutrition/Menu/Product?MenuCategoryId=238&ProductId=5254",
+    "status": "WebFetch: HTTP 404 (Seite ist laut Suchindex öffentlich → vermutlich Bot-Schutz-Antwort); Box: Verbindungsabbruch"
+   },
+   {
+    "url": "https://www.subway.com/de-AT/MenuNutrition/Menu/All",
+    "status": "WebFetch 404; Box Timeout"
+   },
+   {
+    "url": "https://www.subway.com/de-DE/MenuNutrition/Menu/Sandwiches",
+    "status": "Box: Verbindungsabbruch (000)"
+   },
+   {
+    "url": "https://media.subway.com/robots.txt",
+    "status": "200 'User-Agent: * Disallow: /' → Subway-Medien-CDN robots-gesperrt, nicht verwendet"
+   },
+   {
+    "url": "https://www.subway-sandwiches.de/",
+    "status": "Box: keine Verbindung (000)"
+   },
+   {
+    "url": "https://subway.de/",
+    "status": "200, aber 'SUBWAY Magazin' (Jugendmagazin, nicht die Restaurantkette) – irrelevant"
+   },
+   {
+    "url": "https://subway.at/",
+    "status": "TLS-Fehler (Zertifikat passt nicht zu subway.at) – nicht umgangen"
+   }
+  ],
+  "accepted_matches": [],
+  "rejected_matches": [],
+  "policy": "keine Browser-Automation/Cookie-Tricks gegen Bot-Schutz, keine geratenen URLs; 15 cm/Wrap/Salat-Varianten hätten pro Sub-Name ein Foto geteilt – entfällt"
+ },
+ "connector": "kein neuer Code: Subway-Adapter (Nährwert-PDF-Parser) existiert bereits auf lokalem, ungepushtem Branch squad/linz-providers (/workspace/wt-linz-providers, 9207c2a); Foto-Erweiterung mangels zugänglicher Quelle nicht sinnvoll",
+ "counts": {
+  "strict_logoless_before": {
+   "brands": 101,
+   "products": 356
+  },
+  "strict_logoless_after": {
+   "brands": 99,
+   "products": 295
+  },
+  "subway_photos_before": 0,
+  "subway_photos_after": 0
+ },
+ "method_strict_count": "scripts/logo_work_T18/gaps.py: Markenstring (case-insensitive) nicht in name/slug/brands einer logos.csv-Zeile MIT Datei"
+}

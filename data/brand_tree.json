@@ -14,9 +14,9 @@
   "unknown": "kein belastbarer Beleg gefunden"
  },
  "coverage": {
-  "products_with_producer": 847,
-  "confirmed_code": 129,
-  "retailer_only": 111
+  "products_with_producer": 915,
+  "confirmed_code": 130,
+  "retailer_only": 116
  },
  "tree": [
   {
@@ -40,65 +40,65 @@
         "Subway"
        ],
        "ids": [
-        2681,
-        2682,
-        2683,
-        2684,
-        2685,
-        2686,
-        2687,
-        2688,
-        2689,
-        2690,
-        2691,
-        2692,
-        2693,
-        2694,
-        2695,
-        2696,
-        2697,
-        2698,
-        2699,
-        2700,
-        2701,
-        2702,
-        2703,
-        2704,
-        2705,
-        2706,
-        2707,
-        2708,
-        2709,
-        2710,
-        2711,
-        2712,
-        2713,
-        2714,
-        2715,
-        2716,
-        2717,
-        2718,
-        2719,
-        2720,
-        2721,
-        2722,
-        2723,
-        2724,
-        2725,
-        2726,
-        2727,
-        2728,
-        2729,
-        2730,
-        2731,
-        2732,
-        2733,
-        2734,
-        2735,
-        2736,
-        2737,
-        2738,
-        2739
+        2765,
+        2766,
+        2767,
+        2768,
+        2769,
+        2770,
+        2771,
+        2772,
+        2773,
+        2774,
+        2775,
+        2776,
+        2777,
+        2778,
+        2779,
+        2780,
+        2781,
+        2782,
+        2783,
+        2784,
+        2785,
+        2786,
+        2787,
+        2788,
+        2789,
+        2790,
+        2791,
+        2792,
+        2793,
+        2794,
+        2795,
+        2796,
+        2797,
+        2798,
+        2799,
+        2800,
+        2801,
+        2802,
+        2803,
+        2804,
+        2805,
+        2806,
+        2807,
+        2808,
+        2809,
+        2810,
+        2811,
+        2812,
+        2813,
+        2814,
+        2815,
+        2816,
+        2817,
+        2818,
+        2819,
+        2820,
+        2821,
+        2822,
+        2823
        ]
       }
      ]
@@ -120,18 +120,18 @@
         "FitTaste"
        ],
        "ids": [
-        2626,
-        2628,
-        2630,
-        2631,
-        2632,
-        2633,
-        2634,
-        2636,
-        2637,
-        2638,
-        2640,
-        2641
+        2710,
+        2712,
+        2714,
+        2715,
+        2716,
+        2717,
+        2718,
+        2720,
+        2721,
+        2722,
+        2724,
+        2725
        ]
       }
      ]
@@ -156,7 +156,7 @@
         45,
         46,
         47,
-        2327
+        2411
        ]
       },
       {
@@ -177,8 +177,8 @@
         "Billa"
        ],
        "ids": [
-        2328,
-        2329
+        2412,
+        2413
        ]
       }
      ]
@@ -268,7 +268,7 @@
         1611,
         2053,
         2061,
-        2198
+        2282
        ]
       }
      ]
@@ -318,10 +318,10 @@
        ],
        "ids": [
         1499,
-        2333,
-        2334,
-        2341,
-        2342
+        2417,
+        2418,
+        2425,
+        2426
        ]
       }
      ]
@@ -371,7 +371,7 @@
         1553,
         1712,
         1847,
-        2240
+        2324
        ]
       }
      ]
@@ -515,7 +515,7 @@
         "Spar"
        ],
        "ids": [
-        2418
+        2502
        ]
       },
       {
@@ -524,7 +524,7 @@
         "unbekannt (OFF)"
        ],
        "ids": [
-        2423
+        2507
        ]
       }
      ]
@@ -570,9 +570,9 @@
         "Billa"
        ],
        "ids": [
-        2313,
-        2353,
-        2354
+        2397,
+        2437,
+        2438
        ]
       }
      ]
@@ -594,9 +594,9 @@
         "Billa"
        ],
        "ids": [
-        2318,
-        2319,
-        2335
+        2402,
+        2403,
+        2419
        ]
       }
      ]
@@ -1370,7 +1370,7 @@
         "Gurkerl"
        ],
        "ids": [
-        2197
+        2281
        ]
       }
      ]
@@ -1392,7 +1392,7 @@
         "Gurkerl"
        ],
        "ids": [
-        2255
+        2339
        ]
       }
      ]
@@ -1414,7 +1414,7 @@
         "Gurkerl"
        ],
        "ids": [
-        2262
+        2346
        ]
       }
      ]
@@ -1436,7 +1436,7 @@
         "Gurkerl"
        ],
        "ids": [
-        2282
+        2366
        ]
       }
      ]
@@ -1458,7 +1458,7 @@
         "Gurkerl"
        ],
        "ids": [
-        2312
+        2396
        ]
       }
      ]
@@ -1480,7 +1480,7 @@
         "Billa"
        ],
        "ids": [
-        2317
+        2401
        ]
       }
      ]
@@ -1502,7 +1502,7 @@
         "Billa"
        ],
        "ids": [
-        2326
+        2410
        ]
       }
      ]
@@ -1524,7 +1524,7 @@
         "Billa"
        ],
        "ids": [
-        2337
+        2421
        ]
       }
      ]
@@ -1546,7 +1546,7 @@
         "Billa"
        ],
        "ids": [
-        2344
+        2428
        ]
       }
      ]
@@ -1568,7 +1568,7 @@
         "Billa"
        ],
        "ids": [
-        2346
+        2430
        ]
       }
      ]
@@ -1590,7 +1590,7 @@
         "Billa"
        ],
        "ids": [
-        2348
+        2432
        ]
       }
      ]
@@ -1612,7 +1612,7 @@
         "Billa"
        ],
        "ids": [
-        2349
+        2433
        ]
       }
      ]
@@ -1634,7 +1634,7 @@
         "Billa"
        ],
        "ids": [
-        2350
+        2434
        ]
       }
      ]
@@ -1656,7 +1656,7 @@
         "Billa"
        ],
        "ids": [
-        2355
+        2439
        ]
       }
      ]
@@ -1750,12 +1750,15 @@
         2081,
         2090,
         2096,
-        2324,
-        2325,
-        2336,
-        2340,
-        2343,
-        2347
+        2121,
+        2122,
+        2123,
+        2408,
+        2409,
+        2420,
+        2424,
+        2427,
+        2431
        ]
       },
       {
@@ -1808,7 +1811,9 @@
         1325,
         2041,
         2082,
-        2089
+        2089,
+        2130,
+        2135
        ]
       },
       {
@@ -1849,7 +1854,7 @@
         44,
         608,
         610,
-        2352
+        2436
        ]
       },
       {
@@ -1982,8 +1987,8 @@
         "unbekannt (OFF)"
        ],
        "ids": [
-        2361,
-        2376
+        2445,
+        2460
        ]
       }
      ]
@@ -2042,7 +2047,7 @@
      ]
     }
    ],
-   "n": 169
+   "n": 174
   },
   {
    "konzern": "Nomad Foods",
@@ -2058,7 +2063,8 @@
      "stores": [
       "Billa",
       "Gurkerl",
-      "MPreis"
+      "MPreis",
+      "Penny"
      ],
      "brands": [
       {
@@ -2066,7 +2072,8 @@
        "stores": [
         "Billa",
         "Gurkerl",
-        "MPreis"
+        "MPreis",
+        "Penny"
        ],
        "ids": [
         20,
@@ -2134,16 +2141,24 @@
         2097,
         2098,
         2099,
-        2314,
-        2320,
-        2330,
-        2338
+        2132,
+        2133,
+        2134,
+        2166,
+        2180,
+        2182,
+        2183,
+        2184,
+        2398,
+        2404,
+        2414,
+        2422
        ]
       }
      ]
     }
    ],
-   "n": 69
+   "n": 77
   },
   {
    "konzern": "VIVATIS Holding (RLB OÖ)",
@@ -2158,14 +2173,16 @@
      "confidence": "label-address",
      "stores": [
       "Billa",
-      "Gurkerl"
+      "Gurkerl",
+      "MPreis"
      ],
      "brands": [
       {
        "brand": "Inzersdorfer",
        "stores": [
         "Billa",
-        "Gurkerl"
+        "Gurkerl",
+        "MPreis"
        ],
        "ids": [
         406,
@@ -2195,8 +2212,13 @@
         1038,
         1043,
         1046,
-        2020,
-        2224
+        2102,
+        2103,
+        2139,
+        2151,
+        2152,
+        2157,
+        2308
        ]
       }
      ]
@@ -2437,13 +2459,13 @@
         "Gurkerl"
        ],
        "ids": [
-        2203
+        2287
        ]
       }
      ]
     }
    ],
-   "n": 60
+   "n": 65
   },
   {
    "konzern": "Oetker-Gruppe (Dr. August Oetker KG)",
@@ -2457,13 +2479,15 @@
      "plants": [],
      "confidence": "label-address",
      "stores": [
-      "Billa"
+      "Billa",
+      "MPreis"
      ],
      "brands": [
       {
        "brand": "Dr. Oetker",
        "stores": [
-        "Billa"
+        "Billa",
+        "MPreis"
        ],
        "ids": [
         1952,
@@ -2497,10 +2521,26 @@
         1991,
         1992,
         2083,
-        2321,
-        2322,
-        2332,
-        2345
+        2116,
+        2117,
+        2120,
+        2124,
+        2125,
+        2126,
+        2127,
+        2128,
+        2129,
+        2131,
+        2143,
+        2144,
+        2145,
+        2146,
+        2147,
+        2179,
+        2405,
+        2406,
+        2416,
+        2429
        ]
       }
      ]
@@ -2528,7 +2568,7 @@
      ]
     }
    ],
-   "n": 36
+   "n": 52
   },
   {
    "konzern": "HOMANN Feinkost (Theo Müller, Nordsee-Lizenz)",
@@ -2551,39 +2591,39 @@
         "NORDSEE"
        ],
        "ids": [
-        2642,
-        2643,
-        2644,
-        2645,
-        2646,
-        2647,
-        2648,
-        2649,
-        2650,
-        2651,
-        2652,
-        2653,
-        2654,
-        2657,
-        2658,
-        2659,
-        2660,
-        2661,
-        2662,
-        2663,
-        2665,
-        2666,
-        2667,
-        2668,
-        2670,
-        2671,
-        2673,
-        2674,
-        2676,
-        2677,
-        2678,
-        2679,
-        2680
+        2726,
+        2727,
+        2728,
+        2729,
+        2730,
+        2731,
+        2732,
+        2733,
+        2734,
+        2735,
+        2736,
+        2737,
+        2738,
+        2741,
+        2742,
+        2743,
+        2744,
+        2745,
+        2746,
+        2747,
+        2749,
+        2750,
+        2751,
+        2752,
+        2754,
+        2755,
+        2757,
+        2758,
+        2760,
+        2761,
+        2762,
+        2763,
+        2764
        ]
       }
      ]
@@ -2625,13 +2665,15 @@
      "plants": [],
      "confidence": "label-address",
      "stores": [
-      "Billa"
+      "Billa",
+      "MPreis"
      ],
      "brands": [
       {
        "brand": "Knorr",
        "stores": [
-        "Billa"
+        "Billa",
+        "MPreis"
        ],
        "ids": [
         412,
@@ -2653,7 +2695,10 @@
         1022,
         1025,
         1026,
-        1030
+        1030,
+        2158,
+        2159,
+        2160
        ]
       }
      ]
@@ -2689,7 +2734,7 @@
      ]
     }
    ],
-   "n": 27
+   "n": 30
   },
   {
    "konzern": "Fit2go GmbH",
@@ -2735,10 +2780,10 @@
         1473,
         1474,
         1475,
-        2621,
-        2622,
-        2624,
-        2625
+        2705,
+        2706,
+        2708,
+        2709
        ]
       }
      ]
@@ -2782,7 +2827,7 @@
         1512,
         1997,
         2042,
-        2339
+        2423
        ]
       }
      ]
@@ -2934,6 +2979,103 @@
    "n": 23
   },
   {
+   "konzern": "European Pizza Group (Nestlé/PAI-JV)",
+   "flag": "🇩🇪",
+   "producers": [
+    {
+     "name": "Nestlé Österreich GmbH",
+     "role": "Hersteller",
+     "logo": null,
+     "codes": [],
+     "plants": [],
+     "confidence": "label-address",
+     "stores": [
+      "Billa",
+      "Gurkerl"
+     ],
+     "brands": [
+      {
+       "brand": "Wagner",
+       "stores": [
+        "Billa",
+        "Gurkerl"
+       ],
+       "ids": [
+        1887,
+        1888,
+        1889,
+        1890,
+        1945,
+        1948,
+        1949,
+        1979,
+        1983,
+        2118,
+        2167,
+        2176
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Original Wagner Pizza GmbH",
+     "role": "Hersteller",
+     "logo": null,
+     "codes": [],
+     "plants": [],
+     "confidence": "label-address",
+     "stores": [
+      "Billa",
+      "Gurkerl"
+     ],
+     "brands": [
+      {
+       "brand": "Wagner",
+       "stores": [
+        "Billa",
+        "Gurkerl"
+       ],
+       "ids": [
+        1985,
+        2045,
+        2119,
+        2168,
+        2169,
+        2170,
+        2171,
+        2177,
+        2178
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Nestlé Österreich",
+     "role": "Hersteller",
+     "logo": null,
+     "codes": [],
+     "plants": [],
+     "confidence": "label-address",
+     "stores": [
+      "Gurkerl"
+     ],
+     "brands": [
+      {
+       "brand": "Wagner",
+       "stores": [
+        "Gurkerl"
+       ],
+       "ids": [
+        2029,
+        2043
+       ]
+      }
+     ]
+    }
+   ],
+   "n": 23
+  },
+  {
    "konzern": "Landgenossenschaft Ennstal (Genossenschaft)",
    "flag": "🇦🇹",
    "producers": [
@@ -2950,6 +3092,7 @@
      "confidence": "confirmed-code",
      "stores": [
       "Billa",
+      "Gurkerl",
       "Hofer",
       "Spar",
       "unbekannt (OFF)"
@@ -2958,6 +3101,7 @@
       {
        "brand": "Inzersdorfer",
        "stores": [
+        "Gurkerl",
         "Spar"
        ],
        "ids": [
@@ -2972,7 +3116,8 @@
         108,
         109,
         1477,
-        1479
+        1479,
+        2020
        ]
       },
       {
@@ -3029,82 +3174,13 @@
         "Billa"
        ],
        "ids": [
-        2381
+        2465
        ]
       }
      ]
     }
    ],
-   "n": 21
-  },
-  {
-   "konzern": "Alnatura",
-   "flag": "🇩🇪",
-   "producers": [
-    {
-     "name": "Alnatura GmbH",
-     "role": "Hersteller",
-     "logo": null,
-     "codes": [],
-     "plants": [],
-     "confidence": "label-address",
-     "stores": [
-      "Billa",
-      "Gurkerl"
-     ],
-     "brands": [
-      {
-       "brand": "Alnatura",
-       "stores": [
-        "Billa",
-        "Gurkerl"
-       ],
-       "ids": [
-        2,
-        906,
-        1596,
-        1597,
-        1725,
-        1726,
-        1729,
-        1870,
-        1871,
-        1872,
-        2202,
-        2205,
-        2210,
-        2296
-       ]
-      }
-     ]
-    },
-    {
-     "name": "Alnatura Produktions- und Handels GmbH",
-     "role": "Hersteller",
-     "logo": null,
-     "codes": [],
-     "plants": [],
-     "confidence": "label-address",
-     "stores": [
-      "MPreis"
-     ],
-     "brands": [
-      {
-       "brand": "Alnatura",
-       "stores": [
-        "MPreis"
-       ],
-       "ids": [
-        1774,
-        1775,
-        1776,
-        1777
-       ]
-      }
-     ]
-    }
-   ],
-   "n": 18
+   "n": 22
   },
   {
    "konzern": "Felix Austria (Orkla)",
@@ -3119,14 +3195,16 @@
      "confidence": "label-address",
      "stores": [
       "Billa",
-      "Gurkerl"
+      "Gurkerl",
+      "MPreis"
      ],
      "brands": [
       {
        "brand": "Felix",
        "stores": [
         "Billa",
-        "Gurkerl"
+        "Gurkerl",
+        "MPreis"
        ],
        "ids": [
         398,
@@ -3141,7 +3219,20 @@
         1024,
         1035,
         2019,
-        2022
+        2022,
+        2101,
+        2136,
+        2138,
+        2150
+       ]
+      },
+      {
+       "brand": "(ohne Marke)",
+       "stores": [
+        "MPreis"
+       ],
+       "ids": [
+        1793
        ]
       }
      ]
@@ -3172,14 +3263,14 @@
      ]
     }
    ],
-   "n": 17
+   "n": 22
   },
   {
-   "konzern": "European Pizza Group (Nestlé/PAI-JV)",
+   "konzern": "Alnatura",
    "flag": "🇩🇪",
    "producers": [
     {
-     "name": "Nestlé Österreich GmbH",
+     "name": "Alnatura GmbH",
      "role": "Hersteller",
      "logo": null,
      "codes": [],
@@ -3187,79 +3278,65 @@
      "confidence": "label-address",
      "stores": [
       "Billa",
-      "Gurkerl"
+      "Gurkerl",
+      "MPreis"
      ],
      "brands": [
       {
-       "brand": "Wagner",
+       "brand": "Alnatura",
        "stores": [
         "Billa",
-        "Gurkerl"
+        "Gurkerl",
+        "MPreis"
        ],
        "ids": [
-        1887,
-        1888,
-        1889,
-        1890,
-        1945,
-        1948,
-        1949,
-        1979,
-        1983
+        2,
+        906,
+        1596,
+        1597,
+        1725,
+        1726,
+        1729,
+        1870,
+        1871,
+        1872,
+        2115,
+        2153,
+        2286,
+        2289,
+        2294,
+        2380
        ]
       }
      ]
     },
     {
-     "name": "Original Wagner Pizza GmbH",
+     "name": "Alnatura Produktions- und Handels GmbH",
      "role": "Hersteller",
      "logo": null,
      "codes": [],
      "plants": [],
      "confidence": "label-address",
      "stores": [
-      "Billa",
-      "Gurkerl"
+      "MPreis"
      ],
      "brands": [
       {
-       "brand": "Wagner",
+       "brand": "Alnatura",
        "stores": [
-        "Billa",
-        "Gurkerl"
+        "MPreis"
        ],
        "ids": [
-        1985,
-        2045
-       ]
-      }
-     ]
-    },
-    {
-     "name": "Nestlé Österreich",
-     "role": "Hersteller",
-     "logo": null,
-     "codes": [],
-     "plants": [],
-     "confidence": "label-address",
-     "stores": [
-      "Gurkerl"
-     ],
-     "brands": [
-      {
-       "brand": "Wagner",
-       "stores": [
-        "Gurkerl"
-       ],
-       "ids": [
-        2029,
-        2043
+        1774,
+        1775,
+        1776,
+        1777
        ]
       }
      ]
     }
    ],
-   "n": 13
+   "n": 20
   },
   {
    "konzern": "Mars Inc.",
@@ -3341,6 +3418,86 @@
    "n": 10
   },
   {
+   "konzern": "Gustavo Gusto GmbH & Co. KG",
+   "flag": "🇩🇪",
+   "producers": [
+    {
+     "name": "Gustavo Gusto GmbH & Co. KG",
+     "role": "Hersteller",
+     "logo": null,
+     "codes": [],
+     "plants": [],
+     "confidence": "label-address",
+     "stores": [
+      "Billa"
+     ],
+     "brands": [
+      {
+       "brand": "Gustavo Gusto",
+       "stores": [
+        "Billa"
+       ],
+       "ids": [
+        1972,
+        1975,
+        2172,
+        2173,
+        2174,
+        2175
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Gustavo Gusto GmbH & Co.KG",
+     "role": "Hersteller",
+     "logo": null,
+     "codes": [],
+     "plants": [],
+     "confidence": "label-address",
+     "stores": [
+      "Billa"
+     ],
+     "brands": [
+      {
+       "brand": "Gustavo Gusto",
+       "stores": [
+        "Billa"
+       ],
+       "ids": [
+        1946,
+        1962,
+        1971
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Franco Fresco GmbH",
+     "role": "Hersteller",
+     "logo": null,
+     "codes": [],
+     "plants": [],
+     "confidence": "label-address",
+     "stores": [
+      "Billa"
+     ],
+     "brands": [
+      {
+       "brand": "Gustavo Gusto",
+       "stores": [
+        "Billa"
+       ],
+       "ids": [
+        1947
+       ]
+      }
+     ]
+    }
+   ],
+   "n": 10
+  },
+  {
    "konzern": "Youcook GmbH",
    "flag": "🇩🇪",
    "producers": [
@@ -3352,6 +3509,7 @@
      "plants": [],
      "confidence": "label-address",
      "stores": [
+      "Gurkerl",
       "MPreis"
      ],
      "brands": [
@@ -3367,6 +3525,15 @@
         1844,
         1845,
         1846
+       ]
+      },
+      {
+       "brand": "YOUCOOK",
+       "stores": [
+        "Gurkerl"
+       ],
+       "ids": [
+        2000
        ]
       }
      ]
@@ -3395,7 +3562,7 @@
      ]
     }
    ],
-   "n": 8
+   "n": 9
   },
   {
    "konzern": "Mochi GmbH (Wien)",
@@ -3433,6 +3600,40 @@
    "n": 7
   },
   {
+   "konzern": "Compass Group plc (Hofmann-Menü-Gruppe)",
+   "flag": "🇬🇧",
+   "producers": [
+    {
+     "name": "Hofmann Menü-Manufaktur GmbH",
+     "role": "Hersteller",
+     "logo": null,
+     "codes": [],
+     "plants": [],
+     "confidence": "label-address",
+     "stores": [
+      "Gurkerl"
+     ],
+     "brands": [
+      {
+       "brand": "HOFMANNs",
+       "stores": [
+        "Gurkerl"
+       ],
+       "ids": [
+        1633,
+        1634,
+        1636,
+        1718,
+        1766,
+        2351
+       ]
+      }
+     ]
+    }
+   ],
+   "n": 6
+  },
+  {
    "konzern": "MPREIS (EMP)",
    "flag": "🇦🇹",
    "producers": [
@@ -3459,138 +3660,6 @@
         1822,
         1823,
         1824
-       ]
-      }
-     ]
-    },
-    {
-     "name": "Verband der MPREIS-Partner / Jeden Tag",
-     "role": "Hersteller",
-     "logo": null,
-     "codes": [],
-     "plants": [],
-     "confidence": "label-address",
-     "stores": [
-      "MPreis"
-     ],
-     "brands": [
-      {
-       "brand": "Jeden Tag",
-       "stores": [
-        "MPreis"
-       ],
-       "ids": [
-        1812
-       ]
-      }
-     ]
-    }
-   ],
-   "n": 7
-  },
-  {
-   "konzern": "Compass Group plc (Hofmann-Menü-Gruppe)",
-   "flag": "🇬🇧",
-   "producers": [
-    {
-     "name": "Hofmann Menü-Manufaktur GmbH",
-     "role": "Hersteller",
-     "logo": null,
-     "codes": [],
-     "plants": [],
-     "confidence": "label-address",
-     "stores": [
-      "Gurkerl"
-     ],
-     "brands": [
-      {
-       "brand": "HOFMANNs",
-       "stores": [
-        "Gurkerl"
-       ],
-       "ids": [
-        1633,
-        1634,
-        1636,
-        1718,
-        1766,
-        2267
-       ]
-      }
-     ]
-    }
-   ],
-   "n": 6
-  },
-  {
-   "konzern": "Gustavo Gusto GmbH & Co. KG",
-   "flag": "🇩🇪",
-   "producers": [
-    {
-     "name": "Gustavo Gusto GmbH & Co.KG",
-     "role": "Hersteller",
-     "logo": null,
-     "codes": [],
-     "plants": [],
-     "confidence": "label-address",
-     "stores": [
-      "Billa"
-     ],
-     "brands": [
-      {
-       "brand": "Gustavo Gusto",
-       "stores": [
-        "Billa"
-       ],
-       "ids": [
-        1946,
-        1962,
-        1971
-       ]
-      }
-     ]
-    },
-    {
-     "name": "Gustavo Gusto GmbH & Co. KG",
-     "role": "Hersteller",
-     "logo": null,
-     "codes": [],
-     "plants": [],
-     "confidence": "label-address",
-     "stores": [
-      "Billa"
-     ],
-     "brands": [
-      {
-       "brand": "Gustavo Gusto",
-       "stores": [
-        "Billa"
-       ],
-       "ids": [
-        1972,
-        1975
-       ]
-      }
-     ]
-    },
-    {
-     "name": "Franco Fresco GmbH",
-     "role": "Hersteller",
-     "logo": null,
-     "codes": [],
-     "plants": [],
-     "confidence": "label-address",
-     "stores": [
-      "Billa"
-     ],
-     "brands": [
-      {
-       "brand": "Gustavo Gusto",
-       "stores": [
-        "Billa"
-       ],
-       "ids": [
-        1947
        ]
       }
      ]
@@ -3907,7 +3976,7 @@
         "Gurkerl"
        ],
        "ids": [
-        2293
+        2377
        ]
       },
       {
@@ -3916,7 +3985,7 @@
         "Billa"
        ],
        "ids": [
-        2331
+        2415
        ]
       }
      ]
@@ -4001,6 +4070,37 @@
         1950,
         1951,
         1964
+       ]
+      }
+     ]
+    }
+   ],
+   "n": 3
+  },
+  {
+   "konzern": "WP Fine Food GmbH (Wolfensberger & Pomella, Südtirol)",
+   "flag": "🇮🇹",
+   "producers": [
+    {
+     "name": "WP Fine Food GmbH (Srl)",
+     "role": "Hersteller",
+     "logo": null,
+     "codes": [],
+     "plants": [],
+     "confidence": "label-address",
+     "stores": [
+      "MPreis"
+     ],
+     "brands": [
+      {
+       "brand": "Wolfensberger & Pomella",
+       "stores": [
+        "MPreis"
+       ],
+       "ids": [
+        2163,
+        2164,
+        2165
        ]
       }
      ]
@@ -4175,6 +4275,66 @@
    "n": 2
   },
   {
+   "konzern": "Leitgeb's Nudelspezialitäten aus dem Metnitztal GmbH (Familie Leitgeb/Eder, Friesach)",
+   "flag": "🇦🇹",
+   "producers": [
+    {
+     "name": "Leitgeb's Nudelspezialitäten aus dem Metnitztal GmbH",
+     "role": "Hersteller",
+     "logo": null,
+     "codes": [],
+     "plants": [],
+     "confidence": "label-address",
+     "stores": [
+      "Gurkerl"
+     ],
+     "brands": [
+      {
+       "brand": "Leitgeb's Nudelspezialitäten",
+       "stores": [
+        "Gurkerl"
+       ],
+       "ids": [
+        2113,
+        2114
+       ]
+      }
+     ]
+    }
+   ],
+   "n": 2
+  },
+  {
+   "konzern": "Exotic Food Public Company Limited (Thailand)",
+   "flag": "🇹🇭",
+   "producers": [
+    {
+     "name": "Exotic Food Public Company Limited (Thailand); EU-Importeur Kreyenhop & Kluge Gm",
+     "role": "Hersteller",
+     "logo": null,
+     "codes": [],
+     "plants": [],
+     "confidence": "label-address",
+     "stores": [
+      "MPreis"
+     ],
+     "brands": [
+      {
+       "brand": "Exotic Food",
+       "stores": [
+        "MPreis"
+       ],
+       "ids": [
+        2161,
+        2162
+       ]
+      }
+     ]
+    }
+   ],
+   "n": 2
+  },
+  {
    "konzern": "Wiesbauer Gruppe",
    "flag": "🇦🇹",
    "producers": [
@@ -4291,6 +4451,35 @@
    "n": 1
   },
   {
+   "konzern": "Markant-Gruppe (ZHG Zentrale Handelsgesellschaft, Eigenmarke Jeden Tag)",
+   "flag": "🇩🇪",
+   "producers": [
+    {
+     "name": "Verband der MPREIS-Partner / Jeden Tag",
+     "role": "Hersteller",
+     "logo": null,
+     "codes": [],
+     "plants": [],
+     "confidence": "label-address",
+     "stores": [
+      "MPreis"
+     ],
+     "brands": [
+      {
+       "brand": "Jeden Tag",
+       "stores": [
+        "MPreis"
+       ],
+       "ids": [
+        1812
+       ]
+      }
+     ]
+    }
+   ],
+   "n": 1
+  },
+  {
    "konzern": "Riso Scotti",
    "flag": "🇮🇹",
    "producers": [
@@ -4376,9 +4565,62 @@
     }
    ],
    "n": 1
+  },
+  {
+   "konzern": "Deliciosu Feinkost GmbH (Wien)",
+   "flag": "🇦🇹",
+   "producers": [
+    {
+     "name": "Deliciosu Feinkost GmbH",
+     "role": "Hersteller",
+     "logo": null,
+     "codes": [],
+     "plants": [],
+     "confidence": "label-address",
+     "stores": [
+      "Billa"
+     ],
+     "brands": [
+      {
+       "brand": "Deliciosu",
+       "stores": [
+        "Billa"
+       ],
+       "ids": [
+        2181
+       ]
+      }
+     ]
+    }
+   ],
+   "n": 1
   }
  ],
  "same_product": [
+  {
+   "producer": "Landgenossenschaft Ennstal LANDENA KG",
+   "konzern": "Landgenossenschaft Ennstal (Genossenschaft)",
+   "dishKey": "kohlroulade",
+   "dish": "Krautroulade/Gefüllte Paprika",
+   "kind": "andere Marke/Eigenmarke",
+   "labels": [
+    {
+     "brand": "Clever",
+     "store": "Billa"
+    },
+    {
+     "brand": "Inzersdorfer",
+     "store": "Gurkerl"
+    }
+   ],
+   "ids": [
+    547,
+    2020
+   ],
+   "cheapest": 547,
+   "price_spread_pct": 223,
+   "confidence": "confirmed-code"
+  },
   {
    "producer": "Landgenossenschaft Ennstal LANDENA KG",
    "konzern": "Landgenossenschaft Ennstal (Genossenschaft)",
@@ -4409,7 +4651,7 @@
     551,
     824,
     1439,
-    2381
+    2465
    ],
    "cheapest": 551,
    "price_spread_pct": 133,
@@ -4497,6 +4739,30 @@
    "confidence": "confirmed-code"
   },
   {
+   "producer": "FELIX Austria GmbH",
+   "konzern": "Felix Austria (Orkla)",
+   "dishKey": "ravioli",
+   "dish": "Ravioli",
+   "kind": "andere Marke/Eigenmarke",
+   "labels": [
+    {
+     "brand": "(ohne Marke)",
+     "store": "MPreis"
+    },
+    {
+     "brand": "Felix",
+     "store": "Gurkerl"
+    }
+   ],
+   "ids": [
+    1793,
+    2019
+   ],
+   "cheapest": 1793,
+   "price_spread_pct": 6,
+   "confidence": "label-address"
+  },
+  {
    "producer": "Hochreiter Quality Meat Factory GmbH",
    "konzern": "Hochreiter Gruppe",
    "dishKey": "lasagne",
@@ -4551,6 +4817,30 @@
    "confidence": "confirmed-code"
   },
   {
+   "producer": "Youcook GmbH",
+   "konzern": "Youcook GmbH",
+   "dishKey": "butter-chicken",
+   "dish": "Butter Chicken",
+   "kind": "andere Marke/Eigenmarke",
+   "labels": [
+    {
+     "brand": "YOUCOOK",
+     "store": "Gurkerl"
+    },
+    {
+     "brand": "Youcook",
+     "store": "MPreis"
+    }
+   ],
+   "ids": [
+    1841,
+    2000
+   ],
+   "cheapest": 1841,
+   "price_spread_pct": 0,
+   "confidence": "label-address"
+  },
+  {
    "producer": "Iglo Austria",
    "konzern": "Nomad Foods",
    "dishKey": "lasagne",
@@ -4573,31 +4863,6 @@
     1811
    ],
    "cheapest": 1811,
-   "price_spread_pct": 77,
-   "confidence": "label-address"
-  },
-  {
-   "producer": "Maresi Austria GmbH",
-   "konzern": "VIVATIS Holding (RLB OÖ)",
-   "dishKey": "kohlroulade",
-   "dish": "Krautroulade/Gefüllte Paprika",
-   "kind": "gleiche Marke, andere Kette",
-   "labels": [
-    {
-     "brand": "Inzersdorfer",
-     "store": "Billa"
-    },
-    {
-     "brand": "Inzersdorfer",
-     "store": "Gurkerl"
-    }
-   ],
-   "ids": [
-    927,
-    961,
-    2020
-   ],
-   "cheapest": 927,
    "price_spread_pct": 77,
    "confidence": "label-address"
   },
@@ -4701,6 +4966,31 @@
    "confidence": "label-address"
   },
   {
+   "producer": "Maresi Austria GmbH",
+   "konzern": "VIVATIS Holding (RLB OÖ)",
+   "dishKey": "rindsgulasch",
+   "dish": "Rindsgulasch",
+   "kind": "gleiche Marke, andere Kette",
+   "labels": [
+    {
+     "brand": "Inzersdorfer",
+     "store": "Billa"
+    },
+    {
+     "brand": "Inzersdorfer",
+     "store": "MPreis"
+    }
+   ],
+   "ids": [
+    407,
+    408,
+    2139
+   ],
+   "cheapest": 407,
+   "price_spread_pct": 34,
+   "confidence": "label-address"
+  },
+  {
    "producer": "Mars Austria OG",
    "konzern": "Mars Inc.",
    "dishKey": "risotto",
@@ -4753,6 +5043,34 @@
   {
    "producer": "FELIX Austria GmbH",
    "konzern": "Felix Austria (Orkla)",
+   "dishKey": "gulaschsuppe",
+   "dish": "Gulaschsuppe",
+   "kind": "gleiche Marke, andere Kette",
+   "labels": [
+    {
+     "brand": "Felix",
+     "store": "Billa"
+    },
+    {
+     "brand": "Felix",
+     "store": "MPreis"
+    }
+   ],
+   "ids": [
+    1004,
+    1005,
+    1006,
+    1011,
+    1018,
+    2136
+   ],
+   "cheapest": 1006,
+   "price_spread_pct": 7,
+   "confidence": "label-address"
+  },
+  {
+   "producer": "FELIX Austria GmbH",
+   "konzern": "Felix Austria (Orkla)",
    "dishKey": "chili-con-carne",
    "dish": "Chili con carne",
    "kind": "gleiche Marke, andere Kette",
@@ -4764,12 +5082,17 @@
     {
      "brand": "Felix",
      "store": "Gurkerl"
+    },
+    {
+     "brand": "Felix",
+     "store": "MPreis"
     }
    ],
    "ids": [
     398,
     400,
-    2022
+    2022,
+    2138
    ],
    "cheapest": 398,
    "price_spread_pct": 4,
@@ -4793,9 +5116,35 @@
    ],
    "ids": [
     959,
-    2224
+    2308
    ],
    "cheapest": 959,
+   "price_spread_pct": 3,
+   "confidence": "label-address"
+  },
+  {
+   "producer": "Iglo Austria",
+   "konzern": "Nomad Foods",
+   "dishKey": "fleischknoedel",
+   "dish": "Fleisch-/Grammelknödel",
+   "kind": "gleiche Marke, andere Kette",
+   "labels": [
+    {
+     "brand": "iglo",
+     "store": "Billa"
+    },
+    {
+     "brand": "iglo",
+     "store": "MPreis"
+    }
+   ],
+   "ids": [
+    1333,
+    1334,
+    1340,
+    2166
+   ],
+   "cheapest": 2166,
    "price_spread_pct": 3,
    "confidence": "label-address"
   },
@@ -4848,6 +5197,54 @@
    "confidence": "label-address"
   },
   {
+   "producer": "FELIX Austria GmbH",
+   "konzern": "Felix Austria (Orkla)",
+   "dishKey": "erdaepfelgulasch",
+   "dish": "Erdäpfelgulasch",
+   "kind": "gleiche Marke, andere Kette",
+   "labels": [
+    {
+     "brand": "Felix",
+     "store": "Billa"
+    },
+    {
+     "brand": "Felix",
+     "store": "MPreis"
+    }
+   ],
+   "ids": [
+    399,
+    2150
+   ],
+   "cheapest": 399,
+   "price_spread_pct": 0,
+   "confidence": "label-address"
+  },
+  {
+   "producer": "Maresi Austria GmbH",
+   "konzern": "VIVATIS Holding (RLB OÖ)",
+   "dishKey": "erdaepfelgulasch",
+   "dish": "Erdäpfelgulasch",
+   "kind": "gleiche Marke, andere Kette",
+   "labels": [
+    {
+     "brand": "Inzersdorfer",
+     "store": "Billa"
+    },
+    {
+     "brand": "Inzersdorfer",
+     "store": "MPreis"
+    }
+   ],
+   "ids": [
+    406,
+    2151
+   ],
+   "cheapest": 406,
+   "price_spread_pct": 0,
+   "confidence": "label-address"
+  },
+  {
    "producer": "Alnatura GmbH",
    "konzern": "Alnatura",
    "dishKey": "ravioli",
@@ -4868,6 +5265,30 @@
     1597
    ],
    "cheapest": 906,
+   "price_spread_pct": 0,
+   "confidence": "label-address"
+  },
+  {
+   "producer": "Unilever Austria",
+   "konzern": "Unilever",
+   "dishKey": "kartoffelsuppe",
+   "dish": "Kartoffelsuppe",
+   "kind": "gleiche Marke, andere Kette",
+   "labels": [
+    {
+     "brand": "Knorr",
+     "store": "Billa"
+    },
+    {
+     "brand": "Knorr",
+     "store": "MPreis"
+    }
+   ],
+   "ids": [
+    925,
+    2158
+   ],
+   "cheapest": 925,
    "price_spread_pct": 0,
    "confidence": "label-address"
   }
@@ -4900,7 +5321,7 @@
   {
    "dishKey": "rindsgulasch",
    "dish": "Rindsgulasch",
-   "n": 52,
+   "n": 53,
    "brands": 31,
    "stores": [
     "Billa",
@@ -4926,7 +5347,7 @@
     "Wiesbauer Gourmet Gastro GmbH",
     "dm-drogerie markt GmbH + Co. KG"
    ],
-   "unknown_share": 63,
+   "unknown_share": 62,
    "p100g_min": 0.7,
    "p100g_max": 2.85
   },
@@ -4984,7 +5405,7 @@
   {
    "dishKey": "gulaschsuppe",
    "dish": "Gulaschsuppe",
-   "n": 33,
+   "n": 35,
    "brands": 14,
    "stores": [
     "Billa",
@@ -4999,18 +5420,19 @@
     "FELIX Austria GmbH",
     "Felix Austria GmbH",
     "Landgenossenschaft Ennstal LANDENA KG",
+    "Maresi Austria GmbH",
     "Unilever Austria",
     "Unilever Austria GmbH"
    ],
-   "unknown_share": 52,
+   "unknown_share": 49,
    "p100g_min": 0.34,
    "p100g_max": 1.25
   },
   {
    "dishKey": "chili-con-carne",
    "dish": "Chili con carne",
-   "n": 31,
-   "brands": 16,
+   "n": 33,
+   "brands": 17,
    "stores": [
     "Billa",
     "Fit to Go",
@@ -5035,7 +5457,7 @@
     "dm-drogerie markt GmbH + Co. KG"
    ],
    "unknown_share": 45,
-   "p100g_min": 0.5,
+   "p100g_min": 0.37,
    "p100g_max": 2.9
   },
   {
@@ -5101,7 +5523,7 @@
   {
    "dishKey": "linseneintopf",
    "dish": "Linseneintopf",
-   "n": 20,
+   "n": 21,
    "brands": 16,
    "stores": [
     "Billa",
@@ -5123,7 +5545,7 @@
   {
    "dishKey": "erdaepfelgulasch",
    "dish": "Erdäpfelgulasch",
-   "n": 17,
+   "n": 19,
    "brands": 10,
    "stores": [
     "Billa",
@@ -5137,7 +5559,7 @@
     "Felix Austria GmbH",
     "Maresi Austria GmbH"
    ],
-   "unknown_share": 76,
+   "unknown_share": 68,
    "p100g_min": 0.69,
    "p100g_max": 2.84
   },
@@ -5164,7 +5586,7 @@
     "Tress Lebensmittel GmbH & Co. KG",
     "Youcook GmbH"
    ],
-   "unknown_share": 56,
+   "unknown_share": 50,
    "p100g_min": 0.79,
    "p100g_max": 2.02
   },
@@ -5336,6 +5758,25 @@
    "p100g_max": 2.5
   },
   {
+   "dishKey": "kartoffelsuppe",
+   "dish": "Kartoffelsuppe",
+   "n": 7,
+   "brands": 5,
+   "stores": [
+    "Billa",
+    "Gurkerl",
+    "MPreis",
+    "Spar",
+    "unbekannt (OFF)"
+   ],
+   "producers_known": [
+    "Unilever Austria"
+   ],
+   "unknown_share": 71,
+   "p100g_min": 0.6,
+   "p100g_max": 1.22
+  },
+  {
    "dishKey": "krautfleckerl",
    "dish": "Krautfleckerl",
    "n": 7,
@@ -5351,6 +5792,25 @@
    "unknown_share": 86,
    "p100g_min": 0.92,
    "p100g_max": 1.94
+  },
+  {
+   "dishKey": "reisfleisch",
+   "dish": "Reisfleisch",
+   "n": 7,
+   "brands": 5,
+   "stores": [
+    "Billa",
+    "Gurkerl",
+    "Spar"
+   ],
+   "producers_known": [
+    "BILLA AG",
+    "Maresi Austria GmbH",
+    "Unilever Austria"
+   ],
+   "unknown_share": 57,
+   "p100g_min": 0.82,
+   "p100g_max": 1.81
   },
   {
    "dishKey": "dal",
@@ -5369,43 +5829,6 @@
    "unknown_share": 57,
    "p100g_min": 0.84,
    "p100g_max": 4.41
-  },
-  {
-   "dishKey": "kartoffelsuppe",
-   "dish": "Kartoffelsuppe",
-   "n": 6,
-   "brands": 5,
-   "stores": [
-    "Billa",
-    "Gurkerl",
-    "Spar",
-    "unbekannt (OFF)"
-   ],
-   "producers_known": [
-    "Unilever Austria"
-   ],
-   "unknown_share": 83,
-   "p100g_min": 0.6,
-   "p100g_max": 1.22
-  },
-  {
-   "dishKey": "reisfleisch",
-   "dish": "Reisfleisch",
-   "n": 6,
-   "brands": 5,
-   "stores": [
-    "Billa",
-    "Gurkerl",
-    "Spar"
-   ],
-   "producers_known": [
-    "BILLA AG",
-    "Maresi Austria GmbH",
-    "Unilever Austria"
-   ],
-   "unknown_share": 50,
-   "p100g_min": 0.82,
-   "p100g_max": 1.81
   },
   {
    "dishKey": "schinkenfleckerl",
@@ -16481,6 +16904,27 @@
    "slug": null
   },
   {
+   "id": 1793,
+   "name": "Fleischravioli",
+   "brand": "(ohne Marke)",
+   "store": "MPreis",
+   "dishKey": "ravioli",
+   "dish": "Ravioli",
+   "price": 3.49,
+   "p100g": 0.87,
+   "pPor": 3.49,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1768846986/api/227520_angle.jpg",
+   "producer": "FELIX Austria GmbH",
+   "role": "Hersteller",
+   "konzern": "Felix Austria (Orkla)",
+   "flag": "🇳🇴",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/fleischravioli-227520",
+   "slug": null
+  },
+  {
    "id": 1794,
    "name": "Butter Chicken",
    "brand": "Frosta",
@@ -16787,8 +17231,8 @@
    "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1784682265/api/611694_front.jpg",
    "producer": "Verband der MPREIS-Partner / Jeden Tag",
    "role": "Hersteller",
-   "konzern": "MPREIS (EMP)",
-   "flag": "🇦🇹",
+   "konzern": "Markant-Gruppe (ZHG Zentrale Handelsgesellschaft, Eigenmarke Jeden Tag)",
+   "flag": "🇩🇪",
    "code": null,
    "plant": null,
    "confidence": "label-address",
@@ -18770,6 +19214,27 @@
    "slug": null
   },
   {
+   "id": 2000,
+   "name": "YOUCOOK Indian Style Butter Chicken",
+   "brand": "YOUCOOK",
+   "store": "Gurkerl",
+   "dishKey": "butter-chicken",
+   "dish": "Butter Chicken",
+   "price": 4.99,
+   "p100g": 1.19,
+   "pPor": 4.99,
+   "img": "https://cdn.gurkerl.at/images/grocery/products/40753/40753-1777384002542.jpg",
+   "producer": "Youcook GmbH",
+   "role": "Hersteller",
+   "konzern": "Youcook GmbH",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.gurkerl.at/40753-youcook-indian-style-butter-chicken",
+   "slug": null
+  },
+  {
    "id": 2014,
    "name": "Knorr Meisterkessel Feurige Gulaschsuppe",
    "brand": "Knorr",
@@ -18885,15 +19350,15 @@
    "p100g": 1.42,
    "pPor": 5.69,
    "img": "https://cdn.gurkerl.at/images/grocery/products/5970/5970-1603912648.jpg",
-   "producer": "Maresi Austria GmbH",
+   "producer": "Landgenossenschaft Ennstal LANDENA KG",
    "role": "Hersteller",
-   "konzern": "VIVATIS Holding (RLB OÖ)",
+   "konzern": "Landgenossenschaft Ennstal (Genossenschaft)",
    "flag": "🇦🇹",
-   "code": null,
-   "plant": null,
-   "confidence": "label-address",
-   "source": "https://www.gurkerl.at/5970-inzersdorfer-gefuellte-paprika",
-   "slug": null
+   "code": "AT 62028 EG",
+   "plant": "Erzherzog-Johann-Straße 303, 8950 Stainach-Pürgg",
+   "confidence": "confirmed-code",
+   "source": "https://vis.statistik.at/fileadmin/ovis/pdf/index.html",
+   "slug": "landena"
   },
   {
    "id": 2022,
@@ -19799,7 +20264,1393 @@
    "slug": null
   },
   {
-   "id": 2197,
+   "id": 2101,
+   "name": "Felix Linsen mit Speck",
+   "brand": "Felix",
+   "store": "Gurkerl",
+   "dishKey": null,
+   "dish": null,
+   "price": 3.69,
+   "p100g": 0.92,
+   "pPor": 3.69,
+   "img": "https://cdn.gurkerl.at/images/grocery/products/2500/2500-1604322083.jpg",
+   "producer": "FELIX Austria GmbH",
+   "role": "Hersteller",
+   "konzern": "Felix Austria (Orkla)",
+   "flag": "🇳🇴",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.gurkerl.at/2500-felix-linsen-mit-speck",
+   "slug": null
+  },
+  {
+   "id": 2102,
+   "name": "Inzersdorfer Linsen mit Speck",
+   "brand": "Inzersdorfer",
+   "store": "Gurkerl",
+   "dishKey": null,
+   "dish": null,
+   "price": 3.69,
+   "p100g": 0.92,
+   "pPor": 3.69,
+   "img": "https://cdn.gurkerl.at/images/grocery/products/5977/5977-1603912630.jpg",
+   "producer": "Maresi Austria GmbH",
+   "role": "Hersteller",
+   "konzern": "VIVATIS Holding (RLB OÖ)",
+   "flag": "🇦🇹",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.gurkerl.at/5977-inzersdorfer-linsen-mit-speck",
+   "slug": null
+  },
+  {
+   "id": 2103,
+   "name": "Inzersdorfer Bohnen mit Speck",
+   "brand": "Inzersdorfer",
+   "store": "Gurkerl",
+   "dishKey": null,
+   "dish": null,
+   "price": 3.69,
+   "p100g": 0.92,
+   "pPor": 3.69,
+   "img": "https://cdn.gurkerl.at/images/grocery/products/6164/6164-1603912612.jpg",
+   "producer": "Maresi Austria GmbH",
+   "role": "Hersteller",
+   "konzern": "VIVATIS Holding (RLB OÖ)",
+   "flag": "🇦🇹",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.gurkerl.at/6164-inzersdorfer-bohnen-mit-speck",
+   "slug": null
+  },
+  {
+   "id": 2113,
+   "name": "Leitgeb´s Vegetarischer Nudelteller",
+   "brand": "Leitgeb's Nudelspezialitäten",
+   "store": "Gurkerl",
+   "dishKey": null,
+   "dish": null,
+   "price": 10.49,
+   "p100g": 2.33,
+   "pPor": 10.49,
+   "img": "https://cdn.gurkerl.at/images/grocery/products/40027/40027-1741767351370.jpg",
+   "producer": "Leitgeb's Nudelspezialitäten aus dem Metnitztal GmbH",
+   "role": "Hersteller",
+   "konzern": "Leitgeb's Nudelspezialitäten aus dem Metnitztal GmbH (Familie Leitgeb/Eder, Friesach)",
+   "flag": "🇦🇹",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.gurkerl.at/40027-leitgeb-s-vegetarischer-nudelteller",
+   "slug": null
+  },
+  {
+   "id": 2114,
+   "name": "Leitgeb´s Kärntner Käsnudel VEGAN",
+   "brand": "Leitgeb's Nudelspezialitäten",
+   "store": "Gurkerl",
+   "dishKey": null,
+   "dish": null,
+   "price": 11.99,
+   "p100g": 2.66,
+   "pPor": 11.99,
+   "img": "https://cdn.gurkerl.at/images/grocery/products/40023/40023-1741766172106.jpg",
+   "producer": "Leitgeb's Nudelspezialitäten aus dem Metnitztal GmbH",
+   "role": "Hersteller",
+   "konzern": "Leitgeb's Nudelspezialitäten aus dem Metnitztal GmbH (Familie Leitgeb/Eder, Friesach)",
+   "flag": "🇦🇹",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.gurkerl.at/40023-leitgeb-s-kaerntner-kaesnudel-vegan",
+   "slug": null
+  },
+  {
+   "id": 2115,
+   "name": "Alnatura BIO Spinat Cashew Taschen",
+   "brand": "Alnatura",
+   "store": "Gurkerl",
+   "dishKey": null,
+   "dish": null,
+   "price": 3.49,
+   "p100g": 1.75,
+   "pPor": 3.49,
+   "img": "https://cdn.gurkerl.at/images/grocery/products/10861/10861-1708605422294.jpg",
+   "producer": "Alnatura GmbH",
+   "role": "Hersteller",
+   "konzern": "Alnatura",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.gurkerl.at/10861-alnatura-bio-spinat-cashew-taschen",
+   "slug": null
+  },
+  {
+   "id": 2116,
+   "name": "Dr. Oetker La Mia Pinsa Rindersalami",
+   "brand": "Dr. Oetker",
+   "store": "Billa",
+   "dishKey": null,
+   "dish": null,
+   "price": 4.29,
+   "p100g": 1.41,
+   "pPor": 4.29,
+   "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-578449-0107641250-bx3Vrt2y.jpg",
+   "producer": "DR. OETKER GMBH",
+   "role": "Hersteller",
+   "konzern": "Oetker-Gruppe (Dr. August Oetker KG)",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://shop.billa.at/produkte/dr-oetker-la-mia-pinsa-rindersalami-00578449",
+   "slug": null
+  },
+  {
+   "id": 2117,
+   "name": "Dr. Oetker La Mia Pinsa Spinat",
+   "brand": "Dr. Oetker",
+   "store": "Billa",
+   "dishKey": null,
+   "dish": null,
+   "price": 4.29,
+   "p100g": 1.34,
+   "pPor": 4.29,
+   "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-578451-0619332403-QWyy-S9I.jpg",
+   "producer": "DR. OETKER GMBH",
+   "role": "Hersteller",
+   "konzern": "Oetker-Gruppe (Dr. August Oetker KG)",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://shop.billa.at/produkte/dr-oetker-la-mia-pinsa-spinat-00578451",
+   "slug": null
+  },
+  {
+   "id": 2118,
+   "name": "Wagner Piccolinis Salami",
+   "brand": "Wagner",
+   "store": "Billa",
+   "dishKey": null,
+   "dish": null,
+   "price": 3.99,
+   "p100g": 1.48,
+   "pPor": 3.99,
+   "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-427523-0786767521-iAOy7g9R.jpg",
+   "producer": "Nestlé Österreich GmbH",
+   "role": "Hersteller",
+   "konzern": "European Pizza Group (Nestlé/PAI-JV)",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://shop.billa.at/produkte/wagner-piccolinis-salami-00427523",
+   "slug": null
+  },
+  {
+   "id": 2119,
+   "name": "Wagner Big Sensation Salami & BBQ",
+   "brand": "Wagner",
+   "store": "Billa",
+   "dishKey": null,
+   "dish": null,
+   "price": 3.99,
+   "p100g": 0.89,
+   "pPor": 3.99,
+   "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-774595-1305678203-JgoR8lXx.jpg",
+   "producer": "Original Wagner Pizza GmbH",
+   "role": "Hersteller",
+   "konzern": "European Pizza Group (Nestlé/PAI-JV)",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://shop.billa.at/produkte/wagner-big-sensation-salami-und-bbq-00774595",
+   "slug": null
+  },
+  {
+   "id": 2120,
+   "name": "Dr. Oetker Ofenfrische Pepperoni-Salami",
+   "brand": "Dr. Oetker",
+   "store": "Billa",
+   "dishKey": null,
+   "dish": null,
+   "price": 4.69,
+   "p100g": 1.13,
+   "pPor": 4.69,
+   "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-855042-1006631906-Srn-M7GR.jpg",
+   "producer": "DR. OETKER GMBH",
+   "role": "Hersteller",
+   "konzern": "Oetker-Gruppe (Dr. August Oetker KG)",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://shop.billa.at/produkte/dr-oetker-ofenfrische-pepperonisalami-00855042",
+   "slug": null
+  },
+  {
+   "id": 2121,
+   "name": "BILLA Käse Baguette",
+   "brand": "BILLA Immer Gut",
+   "store": "Billa",
+   "dishKey": null,
+   "dish": null,
+   "price": 1.99,
+   "p100g": 0.8,
+   "pPor": 1.99,
+   "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-693128-027088756-Xd1x1ZC4.jpg",
+   "producer": "BILLA AG",
+   "role": "Inverkehrbringer (Handel) – Werk unbekannt",
+   "konzern": "REWE Group",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://shop.billa.at/produkte/billa-kaese-baguette-00693128",
+   "slug": null
+  },
+  {
+   "id": 2122,
+   "name": "BILLA Schinken Baguette",
+   "brand": "BILLA Immer Gut",
+   "store": "Billa",
+   "dishKey": null,
+   "dish": null,
+   "price": 1.99,
+   "p100g": 0.8,
+   "pPor": 1.99,
+   "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-693125-1047754889-XoMvJf2N.jpg",
+   "producer": "BILLA AG",
+   "role": "Inverkehrbringer (Handel) – Werk unbekannt",
+   "konzern": "REWE Group",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://shop.billa.at/produkte/billa-schinken-baguette-00693125",
+   "slug": null
+  },
+  {
+   "id": 2123,
+   "name": "BILLA Thunfisch Baguette",
+   "brand": "BILLA Immer Gut",
+   "store": "Billa",
+   "dishKey": null,
+   "dish": null,
+   "price": 1.99,
+   "p100g": 0.8,
+   "pPor": 1.99,
+   "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-693126-0933043098-7XGQ4ekK.jpg",
+   "producer": "BILLA AG",
+   "role": "Inverkehrbringer (Handel) – Werk unbekannt",
+   "konzern": "REWE Group",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://shop.billa.at/produkte/billa-thunfisch-baguette-00693126",
+   "slug": null
+  },
+  {
+   "id": 2124,
+   "name": "Dr. Oetker Bistro Baguette Avignon",
+   "brand": "Dr. Oetker",
+   "store": "Billa",
+   "dishKey": null,
+   "dish": null,
+   "price": 2.99,
+   "p100g": 1.2,
+   "pPor": 2.99,
+   "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-19291-01845102384-Al9uTM2A.jpg",
+   "producer": "DR. OETKER GMBH",
+   "role": "Hersteller",
+   "konzern": "Oetker-Gruppe (Dr. August Oetker KG)",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://shop.billa.at/produkte/dr-oetker-bistro-baguette-avignon-0019291",
+   "slug": null
+  },
+  {
+   "id": 2125,
+   "name": "Dr. Oetker Bistro Baguette Camargue",
+   "brand": "Dr. Oetker",
+   "store": "Billa",
+   "dishKey": null,
+   "dish": null,
+   "price": 2.99,
+   "p100g": 1.2,
+   "pPor": 2.99,
+   "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-4932-1445455736-aBgQj7RZ.jpg",
+   "producer": "DR. OETKER GMBH",
+   "role": "Hersteller",
+   "konzern": "Oetker-Gruppe (Dr. August Oetker KG)",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://shop.billa.at/produkte/dr-oetker-bistro-baguette-camargue-004932",
+   "slug": null
+  },
+  {
+   "id": 2126,
+   "name": "Dr. Oetker Bistro Baguette Nizza",
+   "brand": "Dr. Oetker",
+   "store": "Billa",
+   "dishKey": null,
+   "dish": null,
+   "price": 2.99,
+   "p100g": 1.2,
+   "pPor": 2.99,
+   "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-417097-0740611707-c7SWlpvc.jpg",
+   "producer": "DR. OETKER GMBH",
+   "role": "Hersteller",
+   "konzern": "Oetker-Gruppe (Dr. August Oetker KG)",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://shop.billa.at/produkte/dr-oetker-bistro-baguette-nizza-00417097",
+   "slug": null
+  },
+  {
+   "id": 2127,
+   "name": "Dr. Oetker Bistro Baguette Hawaii",
+   "brand": "Dr. Oetker",
+   "store": "Billa",
+   "dishKey": null,
+   "dish": null,
+   "price": 2.99,
+   "p100g": 1.2,
+   "pPor": 2.99,
+   "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-501322-0874703938--ydZMA6W.jpg",
+   "producer": "DR. OETKER GMBH",
+   "role": "Hersteller",
+   "konzern": "Oetker-Gruppe (Dr. August Oetker KG)",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://shop.billa.at/produkte/dr-oetker-bistro-baguette-hawaii-00501322",
+   "slug": null
+  },
+  {
+   "id": 2128,
+   "name": "Dr. Oetker Bistro Baguette Provence",
+   "brand": "Dr. Oetker",
+   "store": "Billa",
+   "dishKey": null,
+   "dish": null,
+   "price": 2.99,
+   "p100g": 1.2,
+   "pPor": 2.99,
+   "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-8224-1339023682--aLJuFX4.jpg",
+   "producer": "DR. OETKER GMBH",
+   "role": "Hersteller",
+   "konzern": "Oetker-Gruppe (Dr. August Oetker KG)",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://shop.billa.at/produkte/dr-oetker-bistro-baguette-provence-008224",
+   "slug": null
+  },
+  {
+   "id": 2129,
+   "name": "Dr. Oetker Bistro Baguette Korsika",
+   "brand": "Dr. Oetker",
+   "store": "Billa",
+   "dishKey": null,
+   "dish": null,
+   "price": 2.99,
+   "p100g": 1.2,
+   "pPor": 2.99,
+   "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-433286-562177603-oPmdA2Fw.jpg",
+   "producer": "DR. OETKER GMBH",
+   "role": "Hersteller",
+   "konzern": "Oetker-Gruppe (Dr. August Oetker KG)",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://shop.billa.at/produkte/dr-oetker-bistro-baguette-korsika-00433286",
+   "slug": null
+  },
+  {
+   "id": 2130,
+   "name": "Clever Baguette Tomate Mozzarella 6er",
+   "brand": "Clever",
+   "store": "Billa",
+   "dishKey": null,
+   "dish": null,
+   "price": 3.99,
+   "p100g": 0.53,
+   "pPor": 3.99,
+   "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-894426-025863171-bgZQyAis.jpg",
+   "producer": "BILLA AG",
+   "role": "Inverkehrbringer (Handel) – Werk unbekannt",
+   "konzern": "REWE Group",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://shop.billa.at/produkte/clever-baguette-tomate-mozzarella-6er-00894426",
+   "slug": null
+  },
+  {
+   "id": 2131,
+   "name": "Dr. Oetker Bistro Baguette Spicy BBQ",
+   "brand": "Dr. Oetker",
+   "store": "Billa",
+   "dishKey": null,
+   "dish": null,
+   "price": 2.99,
+   "p100g": 1.2,
+   "pPor": 2.99,
+   "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-733528-1734364656-YvRGSynD.jpg",
+   "producer": "DR. OETKER GMBH",
+   "role": "Hersteller",
+   "konzern": "Oetker-Gruppe (Dr. August Oetker KG)",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://shop.billa.at/produkte/dr-oetker-bistro-baguette-spicy-bbq-00733528",
+   "slug": null
+  },
+  {
+   "id": 2132,
+   "name": "Iglo Fisch'n\"Rösti",
+   "brand": "iglo",
+   "store": "Billa",
+   "dishKey": null,
+   "dish": null,
+   "price": 6.49,
+   "p100g": 2.16,
+   "pPor": 6.49,
+   "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-741177-1786194883-IqIl5IRu.jpg",
+   "producer": "Iglo Austria",
+   "role": "Hersteller",
+   "konzern": "Nomad Foods",
+   "flag": "🇬🇧",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://shop.billa.at/produkte/iglo-fischnroesti-00741177",
+   "slug": null
+  },
+  {
+   "id": 2133,
+   "name": "Iglo Goldschatz Käse",
+   "brand": "iglo",
+   "store": "Billa",
+   "dishKey": null,
+   "dish": null,
+   "price": 6.49,
+   "p100g": 2.16,
+   "pPor": 6.49,
+   "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-419222-441307173-fI1ZZNMQ.jpg",
+   "producer": "Iglo Austria",
+   "role": "Hersteller",
+   "konzern": "Nomad Foods",
+   "flag": "🇬🇧",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://shop.billa.at/produkte/iglo-goldschatz-kaese-00419222",
+   "slug": null
+  },
+  {
+   "id": 2134,
+   "name": "Iglo Goldschatz Spinat Vorteilspackung",
+   "brand": "iglo",
+   "store": "Billa",
+   "dishKey": null,
+   "dish": null,
+   "price": 9.99,
+   "p100g": 1.67,
+   "pPor": 9.99,
+   "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-538048-922558850-e4C315Yx.jpg",
+   "producer": "Iglo Austria",
+   "role": "Hersteller",
+   "konzern": "Nomad Foods",
+   "flag": "🇬🇧",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://shop.billa.at/produkte/iglo-goldschatz-spinat-vorteilspackung-00538048",
+   "slug": null
+  },
+  {
+   "id": 2135,
+   "name": "Clever Knusperfilet Käse & Kräuter",
+   "brand": "Clever",
+   "store": "Billa",
+   "dishKey": null,
+   "dish": null,
+   "price": 3.29,
+   "p100g": 0.82,
+   "pPor": 3.29,
+   "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-864846-0290173038-gfOyTtV7.jpg",
+   "producer": "BILLA AG",
+   "role": "Inverkehrbringer (Handel) – Werk unbekannt",
+   "konzern": "REWE Group",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://shop.billa.at/produkte/clever-knusperfilet-kaese-und-kraeuter-00864846",
+   "slug": null
+  },
+  {
+   "id": 2136,
+   "name": "Felix Gulaschsuppe",
+   "brand": "Felix",
+   "store": "MPreis",
+   "dishKey": "gulaschsuppe",
+   "dish": "Gulaschsuppe",
+   "price": 6.49,
+   "p100g": 0.81,
+   "pPor": 3.25,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1779631660/api/225801_angle.jpg",
+   "producer": "FELIX Austria GmbH",
+   "role": "Hersteller",
+   "konzern": "Felix Austria (Orkla)",
+   "flag": "🇳🇴",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/felix-gulaschsuppe-225801",
+   "slug": null
+  },
+  {
+   "id": 2138,
+   "name": "Felix Chili con Carne",
+   "brand": "Felix",
+   "store": "MPreis",
+   "dishKey": "chili-con-carne",
+   "dish": "Chili con carne",
+   "price": 6.49,
+   "p100g": 0.81,
+   "pPor": 3.25,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1768846993/api/158310_angle.jpg",
+   "producer": "FELIX Austria GmbH",
+   "role": "Hersteller",
+   "konzern": "Felix Austria (Orkla)",
+   "flag": "🇳🇴",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/felix-chili-con-carne-158310",
+   "slug": null
+  },
+  {
+   "id": 2139,
+   "name": "Inzersdorfer Rindsgulasch",
+   "brand": "Inzersdorfer",
+   "store": "MPreis",
+   "dishKey": "rindsgulasch",
+   "dish": "Rindsgulasch",
+   "price": 6.99,
+   "p100g": 1.75,
+   "pPor": 6.99,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1769443892/api/225400_angle.jpg",
+   "producer": "Maresi Austria GmbH",
+   "role": "Hersteller",
+   "konzern": "VIVATIS Holding (RLB OÖ)",
+   "flag": "🇦🇹",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/inzersdorfer-rindsgulasch-225400",
+   "slug": null
+  },
+  {
+   "id": 2143,
+   "name": "Dr. Oetker Bistro Avignon",
+   "brand": "Dr. Oetker",
+   "store": "MPreis",
+   "dishKey": null,
+   "dish": null,
+   "price": 2.0,
+   "p100g": 0.8,
+   "pPor": 2.0,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1768703402/api/805805_angle.jpg",
+   "producer": "DR. OETKER GMBH",
+   "role": "Hersteller",
+   "konzern": "Oetker-Gruppe (Dr. August Oetker KG)",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/dr-oetker-bistro-avignon-805805",
+   "slug": null
+  },
+  {
+   "id": 2144,
+   "name": "Dr. Oetker Bistro Bolognaise",
+   "brand": "Dr. Oetker",
+   "store": "MPreis",
+   "dishKey": null,
+   "dish": null,
+   "price": 2.99,
+   "p100g": 1.2,
+   "pPor": 2.99,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1783451150/api/805039_angle.jpg",
+   "producer": "DR. OETKER GMBH",
+   "role": "Hersteller",
+   "konzern": "Oetker-Gruppe (Dr. August Oetker KG)",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/dr-oetker-bistro-bolognaise-805039",
+   "slug": null
+  },
+  {
+   "id": 2145,
+   "name": "Dr. Oetker Bistro Korsika",
+   "brand": "Dr. Oetker",
+   "store": "MPreis",
+   "dishKey": null,
+   "dish": null,
+   "price": 2.99,
+   "p100g": 1.2,
+   "pPor": 2.99,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1770202459/api/805806_angle.jpg",
+   "producer": "DR. OETKER GMBH",
+   "role": "Hersteller",
+   "konzern": "Oetker-Gruppe (Dr. August Oetker KG)",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/dr-oetker-bistro-korsika-805806",
+   "slug": null
+  },
+  {
+   "id": 2146,
+   "name": "Dr. Oetker Bistro Nizza",
+   "brand": "Dr. Oetker",
+   "store": "MPreis",
+   "dishKey": null,
+   "dish": null,
+   "price": 2.99,
+   "p100g": 1.2,
+   "pPor": 2.99,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1768822444/api/804999_angle.jpg",
+   "producer": "DR. OETKER GMBH",
+   "role": "Hersteller",
+   "konzern": "Oetker-Gruppe (Dr. August Oetker KG)",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/dr-oetker-bistro-nizza-804999",
+   "slug": null
+  },
+  {
+   "id": 2147,
+   "name": "Dr. Oetker Bistro Provence",
+   "brand": "Dr. Oetker",
+   "store": "MPreis",
+   "dishKey": null,
+   "dish": null,
+   "price": 2.99,
+   "p100g": 1.2,
+   "pPor": 2.99,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1768822426/api/805703_angle.jpg",
+   "producer": "DR. OETKER GMBH",
+   "role": "Hersteller",
+   "konzern": "Oetker-Gruppe (Dr. August Oetker KG)",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/dr-oetker-bistro-provence-805703",
+   "slug": null
+  },
+  {
+   "id": 2150,
+   "name": "Felix Erdäpfelgulasch",
+   "brand": "Felix",
+   "store": "MPreis",
+   "dishKey": "erdaepfelgulasch",
+   "dish": "Erdäpfelgulasch",
+   "price": 6.49,
+   "p100g": 0.81,
+   "pPor": 6.49,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1768847000/api/158321_angle.jpg",
+   "producer": "FELIX Austria GmbH",
+   "role": "Hersteller",
+   "konzern": "Felix Austria (Orkla)",
+   "flag": "🇳🇴",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/felix-erdaepfelgulasch-158321",
+   "slug": null
+  },
+  {
+   "id": 2151,
+   "name": "Inzersdorfer Erdäpfelgulasch",
+   "brand": "Inzersdorfer",
+   "store": "MPreis",
+   "dishKey": "erdaepfelgulasch",
+   "dish": "Erdäpfelgulasch",
+   "price": 3.49,
+   "p100g": 0.87,
+   "pPor": 3.49,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1769443918/api/226503_angle.jpg",
+   "producer": "Maresi Austria GmbH",
+   "role": "Hersteller",
+   "konzern": "VIVATIS Holding (RLB OÖ)",
+   "flag": "🇦🇹",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/inzersdorfer-erdaepfelgulasch-226503",
+   "slug": null
+  },
+  {
+   "id": 2152,
+   "name": "Inzersdorfer Gulaschsuppe",
+   "brand": "Inzersdorfer",
+   "store": "MPreis",
+   "dishKey": "gulaschsuppe",
+   "dish": "Gulaschsuppe",
+   "price": 2.99,
+   "p100g": 0.75,
+   "pPor": 2.99,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1779641274/api/225710_angle.jpg",
+   "producer": "Maresi Austria GmbH",
+   "role": "Hersteller",
+   "konzern": "VIVATIS Holding (RLB OÖ)",
+   "flag": "🇦🇹",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/inzersdorfer-gulaschsuppe-225710",
+   "slug": null
+  },
+  {
+   "id": 2153,
+   "name": "Alnatura Bio Karotten-Kokos-Suppe",
+   "brand": "Alnatura",
+   "store": "MPreis",
+   "dishKey": null,
+   "dish": null,
+   "price": 2.99,
+   "p100g": 0.8,
+   "pPor": 2.99,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1768834793/api/365679_angle.jpg",
+   "producer": "Alnatura GmbH",
+   "role": "Hersteller",
+   "konzern": "Alnatura",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/alnatura-bio-karotten-kokos-suppe-365679",
+   "slug": null
+  },
+  {
+   "id": 2157,
+   "name": "Inzersdorfer Grießnockerlsuppe",
+   "brand": "Inzersdorfer",
+   "store": "MPreis",
+   "dishKey": null,
+   "dish": null,
+   "price": 2.99,
+   "p100g": 0.75,
+   "pPor": 2.99,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1768849821/api/225712_angle.jpg",
+   "producer": "Maresi Austria GmbH",
+   "role": "Hersteller",
+   "konzern": "VIVATIS Holding (RLB OÖ)",
+   "flag": "🇦🇹",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/inzersdorfer-griessnockerlsuppe-225712",
+   "slug": null
+  },
+  {
+   "id": 2158,
+   "name": "Knorr Meister Kessel Kartoffelsuppe",
+   "brand": "Knorr",
+   "store": "MPreis",
+   "dishKey": "kartoffelsuppe",
+   "dish": "Kartoffelsuppe",
+   "price": 2.99,
+   "p100g": 0.6,
+   "pPor": 2.99,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1783973628/api/286630_front.jpg",
+   "producer": "Unilever Austria",
+   "role": "Hersteller",
+   "konzern": "Unilever",
+   "flag": "🇬🇧",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/knorr-meister-kessel-kartoffelsuppe-286630",
+   "slug": null
+  },
+  {
+   "id": 2159,
+   "name": "Knorr Meister Kessel Leberknödelsuppe",
+   "brand": "Knorr",
+   "store": "MPreis",
+   "dishKey": null,
+   "dish": null,
+   "price": 2.99,
+   "p100g": 0.6,
+   "pPor": 2.99,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1783973624/api/286300_front.jpg",
+   "producer": "Unilever Austria",
+   "role": "Hersteller",
+   "konzern": "Unilever",
+   "flag": "🇬🇧",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/knorr-meister-kessel-leberknoedelsuppe-286300",
+   "slug": null
+  },
+  {
+   "id": 2160,
+   "name": "Knorr Meister Kessel Südtiroler Bauernsuppe",
+   "brand": "Knorr",
+   "store": "MPreis",
+   "dishKey": null,
+   "dish": null,
+   "price": 2.99,
+   "p100g": 0.6,
+   "pPor": 2.99,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1776387999/api/286400_front.jpg",
+   "producer": "Unilever Austria",
+   "role": "Hersteller",
+   "konzern": "Unilever",
+   "flag": "🇬🇧",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/knorr-meister-kessel-suedtiroler-bauernsuppe-286400",
+   "slug": null
+  },
+  {
+   "id": 2161,
+   "name": "Exotic Food Tom Kha Suppe",
+   "brand": "Exotic Food",
+   "store": "MPreis",
+   "dishKey": null,
+   "dish": null,
+   "price": 3.99,
+   "p100g": 1.0,
+   "pPor": 3.99,
+   "img": null,
+   "producer": "Exotic Food Public Company Limited (Thailand); EU-Importeur Kreyenhop & Kluge Gm",
+   "role": "Hersteller",
+   "konzern": "Exotic Food Public Company Limited (Thailand)",
+   "flag": "🇹🇭",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/exotic-food-tom-kha-suppe-186168",
+   "slug": null
+  },
+  {
+   "id": 2162,
+   "name": "Exotic Food Tom Yum Suppe",
+   "brand": "Exotic Food",
+   "store": "MPreis",
+   "dishKey": null,
+   "dish": null,
+   "price": 3.99,
+   "p100g": 1.0,
+   "pPor": 3.99,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1783973313/api/186167_angle.jpg",
+   "producer": "Exotic Food Public Company Limited (Thailand); EU-Importeur Kreyenhop & Kluge Gm",
+   "role": "Hersteller",
+   "konzern": "Exotic Food Public Company Limited (Thailand)",
+   "flag": "🇹🇭",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/exotic-food-tom-yum-suppe-186167",
+   "slug": null
+  },
+  {
+   "id": 2163,
+   "name": "Wolfensberger & Pomella Fine Käseknödel 4er",
+   "brand": "Wolfensberger & Pomella",
+   "store": "MPreis",
+   "dishKey": null,
+   "dish": null,
+   "price": 4.99,
+   "p100g": 1.56,
+   "pPor": 4.99,
+   "img": "https://cdn.gurkerl.at/images/grocery/products/37036/37036-1732270840966.jpg",
+   "producer": "WP Fine Food GmbH (Srl)",
+   "role": "Hersteller",
+   "konzern": "WP Fine Food GmbH (Wolfensberger & Pomella, Südtirol)",
+   "flag": "🇮🇹",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/wolfensberger-pomella-fine-kaeseknoedel-4er-233120",
+   "slug": null
+  },
+  {
+   "id": 2164,
+   "name": "Wolfensberger & Pomella Fine Speckknödel 4er",
+   "brand": "Wolfensberger & Pomella",
+   "store": "MPreis",
+   "dishKey": "fleischknoedel",
+   "dish": "Fleisch-/Grammelknödel",
+   "price": 4.99,
+   "p100g": 1.56,
+   "pPor": 4.99,
+   "img": "https://cdn.gurkerl.at/images/grocery/products/37038/37038-1732271052846.jpg",
+   "producer": "WP Fine Food GmbH (Srl)",
+   "role": "Hersteller",
+   "konzern": "WP Fine Food GmbH (Wolfensberger & Pomella, Südtirol)",
+   "flag": "🇮🇹",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/wolfensberger-pomella-fine-speckknoedel-4er-233122",
+   "slug": null
+  },
+  {
+   "id": 2165,
+   "name": "Wolfensberger & Pomella Fine Spinatknödel 4er",
+   "brand": "Wolfensberger & Pomella",
+   "store": "MPreis",
+   "dishKey": null,
+   "dish": null,
+   "price": 4.99,
+   "p100g": 1.56,
+   "pPor": 4.99,
+   "img": "https://cdn.gurkerl.at/images/grocery/products/37039/37039-1732271130853.jpg",
+   "producer": "WP Fine Food GmbH (Srl)",
+   "role": "Hersteller",
+   "konzern": "WP Fine Food GmbH (Wolfensberger & Pomella, Südtirol)",
+   "flag": "🇮🇹",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/wolfensberger-pomella-fine-spinatknoedel-4er-233121",
+   "slug": null
+  },
+  {
+   "id": 2166,
+   "name": "Iglo Grammelknödel",
+   "brand": "iglo",
+   "store": "MPreis",
+   "dishKey": "fleischknoedel",
+   "dish": "Fleisch-/Grammelknödel",
+   "price": 5.79,
+   "p100g": 1.45,
+   "pPor": 5.79,
+   "img": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1768846826/api/805960_angle.jpg",
+   "producer": "Iglo Austria",
+   "role": "Hersteller",
+   "konzern": "Nomad Foods",
+   "flag": "🇬🇧",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.mpreis.at/shop/p/iglo-grammelknoedel-805960",
+   "slug": null
+  },
+  {
+   "id": 2167,
+   "name": "Wagner Piccolinis Salami 40er",
+   "brand": "Wagner",
+   "store": "Billa",
+   "dishKey": null,
+   "dish": null,
+   "price": 16.99,
+   "p100g": 1.42,
+   "pPor": 16.99,
+   "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-692684-1534881819-bO1IJb0z.jpg",
+   "producer": "Nestlé Österreich GmbH",
+   "role": "Hersteller",
+   "konzern": "European Pizza Group (Nestlé/PAI-JV)",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://shop.billa.at/produkte/wagner-piccolinis-salami-40er-00692684",
+   "slug": null
+  },
+  {
+   "id": 2168,
+   "name": "Wagner Piccolinis Pasta",
+   "brand": "Wagner",
+   "store": "Billa",
+   "dishKey": null,
+   "dish": null,
+   "price": 3.99,
+   "p100g": 1.64,
+   "pPor": 3.99,
+   "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-903264-0863756000-F3kkteY1.jpg",
+   "producer": "Original Wagner Pizza GmbH",
+   "role": "Hersteller",
+   "konzern": "European Pizza Group (Nestlé/PAI-JV)",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://shop.billa.at/produkte/wagner-piccolinis-pasta-00903264",
+   "slug": null
+  },
+  {
+   "id": 2169,
+   "name": "Wagner Piccolinis Hot Dog Style",
+   "brand": "Wagner",
+   "store": "Billa",
+   "dishKey": null,
+   "dish": null,
+   "price": 3.99,
+   "p100g": 1.64,
+   "pPor": 3.99,
+   "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-903261-0886154931-FakmdARM.jpg",
+   "producer": "Original Wagner Pizza GmbH",
+   "role": "Hersteller",
+   "konzern": "European Pizza Group (Nestlé/PAI-JV)",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://shop.billa.at/produkte/wagner-piccolinis-hot-dog-style-00903261",
+   "slug": null
+  },
+  {
+   "id": 2170,
+   "name": "Wagner Piccolinis Burger Style",
+   "brand": "Wagner",
+   "store": "Billa",
+   "dishKey": null,
+   "dish": null,
+   "price": 3.99,
+   "p100g": 1.48,
+   "pPor": 3.99,
+   "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-890864-0142145830-ocufOS1i.jpg",
+   "producer": "Original Wagner Pizza GmbH",
+   "role": "Hersteller",
+   "konzern": "European Pizza Group (Nestlé/PAI-JV)",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://shop.billa.at/produkte/wagner-piccolinis-burger-style-00890864",
+   "slug": null
+  },
+  {
+   "id": 2171,
+   "name": "Wagner Piccolinis Mexico Style",
+   "brand": "Wagner",
+   "store": "Billa",
+   "dishKey": null,
+   "dish": null,
+   "price": 3.99,
+   "p100g": 1.48,
+   "pPor": 3.99,
+   "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-890861-517619028-pgs1FiYH.jpg",
+   "producer": "Original Wagner Pizza GmbH",
+   "role": "Hersteller",
+   "konzern": "European Pizza Group (Nestlé/PAI-JV)",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://shop.billa.at/produkte/wagner-piccolinis-mexico-style-00890861",
+   "slug": null
+  },
+  {
+   "id": 2172,
+   "name": "Gustavo Gusto Amore Napoli Diavola",
+   "brand": "Gustavo Gusto",
+   "store": "Billa",
+   "dishKey": null,
+   "dish": null,
+   "price": 4.49,
+   "p100g": 1.38,
+   "pPor": 4.49,
+   "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-871240-2140422096-Z68-ZW4-.jpg",
+   "producer": "Gustavo Gusto GmbH & Co. KG",
+   "role": "Hersteller",
+   "konzern": "Gustavo Gusto GmbH & Co. KG",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://shop.billa.at/produkte/gustavo-gusto-amore-napoli-diavola-00871240",
+   "slug": null
+  },
+  {
+   "id": 2173,
+   "name": "Gustavo Gusto Amore Napoli Mozzarella",
+   "brand": "Gustavo Gusto",
+   "store": "Billa",
+   "dishKey": null,
+   "dish": null,
+   "price": 4.49,
+   "p100g": 1.4,
+   "pPor": 4.49,
+   "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-871241-2114346914-CRbJ-iz1.jpg",
+   "producer": "Gustavo Gusto GmbH & Co. KG",
+   "role": "Hersteller",
+   "konzern": "Gustavo Gusto GmbH & Co. KG",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://shop.billa.at/produkte/gustavo-gusto-amore-napoli-mozzarella-00871241",
+   "slug": null
+  },
+  {
+   "id": 2174,
+   "name": "Gustavo Gusto Amore Napoli Salame",
+   "brand": "Gustavo Gusto",
+   "store": "Billa",
+   "dishKey": null,
+   "dish": null,
+   "price": 4.49,
+   "p100g": 1.43,
+   "pPor": 4.49,
+   "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-871244-0429573252-PNGBxlUH.jpg",
+   "producer": "Gustavo Gusto GmbH & Co. KG",
+   "role": "Hersteller",
+   "konzern": "Gustavo Gusto GmbH & Co. KG",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://shop.billa.at/produkte/gustavo-gusto-amore-napoli-salame-00871244",
+   "slug": null
+  },
+  {
+   "id": 2175,
+   "name": "Gustavo Gusto Pizza Halloween Special",
+   "brand": "Gustavo Gusto",
+   "store": "Billa",
+   "dishKey": null,
+   "dish": null,
+   "price": 5.49,
+   "p100g": 1.29,
+   "pPor": 5.49,
+   "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-905180-0996162-QWQ4oI0J.jpg",
+   "producer": "Gustavo Gusto GmbH & Co. KG",
+   "role": "Hersteller",
+   "konzern": "Gustavo Gusto GmbH & Co. KG",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://shop.billa.at/produkte/gustavo-gusto-pizza-halloween-special-00905180",
+   "slug": null
+  },
+  {
+   "id": 2176,
+   "name": "Wagner Die Backfrische Mozzarella",
+   "brand": "Wagner",
+   "store": "Billa",
+   "dishKey": null,
+   "dish": null,
+   "price": 4.59,
+   "p100g": 1.31,
+   "pPor": 4.59,
+   "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-645050-480300176-NGx97a7p.jpg",
+   "producer": "Nestlé Österreich GmbH",
+   "role": "Hersteller",
+   "konzern": "European Pizza Group (Nestlé/PAI-JV)",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://shop.billa.at/produkte/wagner-die-backfrische-mozzarella-00645050",
+   "slug": null
+  },
+  {
+   "id": 2177,
+   "name": "Wagner Big Sensation Spinat",
+   "brand": "Wagner",
+   "store": "Billa",
+   "dishKey": null,
+   "dish": null,
+   "price": 3.99,
+   "p100g": 0.92,
+   "pPor": 3.99,
+   "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-903231-2051172063-4VBxWBq5.jpg",
+   "producer": "Original Wagner Pizza GmbH",
+   "role": "Hersteller",
+   "konzern": "European Pizza Group (Nestlé/PAI-JV)",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://shop.billa.at/produkte/wagner-big-sensation-spinat-00903231",
+   "slug": null
+  },
+  {
+   "id": 2178,
+   "name": "Wagner Big Sensation Western",
+   "brand": "Wagner",
+   "store": "Billa",
+   "dishKey": null,
+   "dish": null,
+   "price": 3.99,
+   "p100g": 0.89,
+   "pPor": 3.99,
+   "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-774589-1957792765-IkTxIiDk.jpg",
+   "producer": "Original Wagner Pizza GmbH",
+   "role": "Hersteller",
+   "konzern": "European Pizza Group (Nestlé/PAI-JV)",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://shop.billa.at/produkte/wagner-big-sensation-western-00774589",
+   "slug": null
+  },
+  {
+   "id": 2179,
+   "name": "Dr. Oetker Ofenfrische Schinken-Champignon",
+   "brand": "Dr. Oetker",
+   "store": "Billa",
+   "dishKey": null,
+   "dish": null,
+   "price": 4.69,
+   "p100g": 1.16,
+   "pPor": 4.69,
+   "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-855724-0163889046-vbm44bae.jpg",
+   "producer": "DR. OETKER GMBH",
+   "role": "Hersteller",
+   "konzern": "Oetker-Gruppe (Dr. August Oetker KG)",
+   "flag": "🇩🇪",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://shop.billa.at/produkte/dr-oetker-ofenfrische-schinkenchampignon-00855724",
+   "slug": null
+  },
+  {
+   "id": 2180,
+   "name": "Iglo Ofenbackfisch Vorteilspackung",
+   "brand": "iglo",
+   "store": "Billa",
+   "dishKey": null,
+   "dish": null,
+   "price": 6.99,
+   "p100g": 1.46,
+   "pPor": 6.99,
+   "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-348973-1191050345-0IF5Yxrg.jpg",
+   "producer": "Iglo Austria",
+   "role": "Hersteller",
+   "konzern": "Nomad Foods",
+   "flag": "🇬🇧",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://shop.billa.at/produkte/iglo-ofenbackfisch-vorteilspackung-00348973",
+   "slug": null
+  },
+  {
+   "id": 2181,
+   "name": "Deliciosu Poké Bowl Lachs Bowl",
+   "brand": "Deliciosu",
+   "store": "Billa",
+   "dishKey": null,
+   "dish": null,
+   "price": 11.9,
+   "p100g": 2.96,
+   "pPor": 11.9,
+   "img": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-763125-0195716755-SCIoaKQJ.jpg",
+   "producer": "Deliciosu Feinkost GmbH",
+   "role": "Hersteller",
+   "konzern": "Deliciosu Feinkost GmbH (Wien)",
+   "flag": "🇦🇹",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://shop.billa.at/produkte/deliciosu-poke-bowl-lachs-bowl-00763125",
+   "slug": null
+  },
+  {
+   "id": 2182,
+   "name": "Iglo Ofenbackfisch Vorteilspackung",
+   "brand": "iglo",
+   "store": "Penny",
+   "dishKey": null,
+   "dish": null,
+   "price": 3.49,
+   "p100g": 0.73,
+   "pPor": 3.49,
+   "img": "https://images.cdn.europe-west1.gcp.commercetools.com/787b77ab-692c-4e25-91f4-697690dc3c7c/78-348973-616899621-3ssMjsr1.jpg",
+   "producer": "Iglo Austria",
+   "role": "Hersteller",
+   "konzern": "Nomad Foods",
+   "flag": "🇬🇧",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.penny.at/produkte/ofenbackfisch-78348973",
+   "slug": null
+  },
+  {
+   "id": 2183,
+   "name": "Iglo Goldschatz Spinat Vorteilspackung",
+   "brand": "iglo",
+   "store": "Penny",
+   "dishKey": null,
+   "dish": null,
+   "price": 4.74,
+   "p100g": 0.79,
+   "pPor": 4.74,
+   "img": "https://images.cdn.europe-west1.gcp.commercetools.com/787b77ab-692c-4e25-91f4-697690dc3c7c/78-538048-0626465700-JY9Y1xwn.jpg",
+   "producer": "Iglo Austria",
+   "role": "Hersteller",
+   "konzern": "Nomad Foods",
+   "flag": "🇬🇧",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.penny.at/produkte/goldschatz-spinat-78538048",
+   "slug": null
+  },
+  {
+   "id": 2184,
+   "name": "Iglo Hühner Nuggets",
+   "brand": "iglo",
+   "store": "Penny",
+   "dishKey": null,
+   "dish": null,
+   "price": 2.89,
+   "p100g": 1.16,
+   "pPor": 2.89,
+   "img": "https://images.cdn.europe-west1.gcp.commercetools.com/787b77ab-692c-4e25-91f4-697690dc3c7c/78-616589-1295188133-VV--cSNi.jpg",
+   "producer": "Iglo Austria",
+   "role": "Hersteller",
+   "konzern": "Nomad Foods",
+   "flag": "🇬🇧",
+   "code": null,
+   "plant": null,
+   "confidence": "label-address",
+   "source": "https://www.penny.at/produkte/huehnernuggets-78616589",
+   "slug": null
+  },
+  {
+   "id": 2281,
    "name": "GREENFORCE Frische Mini-Frikadellen VEGAN",
    "brand": "GREENFORCE",
    "store": "Gurkerl",
@@ -19820,7 +21671,7 @@
    "slug": null
   },
   {
-   "id": 2198,
+   "id": 2282,
    "name": "Marks & Spencer Cream Of Tomato Soup",
    "brand": "Marks & Spencer",
    "store": "Gurkerl",
@@ -19841,7 +21692,7 @@
    "slug": null
   },
   {
-   "id": 2202,
+   "id": 2286,
    "name": "Alnatura BIO Falafel VEGAN",
    "brand": "Alnatura",
    "store": "Gurkerl",
@@ -19862,7 +21713,7 @@
    "slug": null
   },
   {
-   "id": 2203,
+   "id": 2287,
    "name": "Deli Dip Falafel Kichererbsen-Bällchen VEGAN",
    "brand": "Deli Dip",
    "store": "Gurkerl",
@@ -19883,7 +21734,7 @@
    "slug": null
   },
   {
-   "id": 2205,
+   "id": 2289,
    "name": "Alnatura BIO Falafel Mix",
    "brand": "Alnatura",
    "store": "Gurkerl",
@@ -19904,7 +21755,7 @@
    "slug": null
   },
   {
-   "id": 2210,
+   "id": 2294,
    "name": "Alnatura BIO Mini Frühlingsrollen",
    "brand": "Alnatura",
    "store": "Gurkerl",
@@ -19925,7 +21776,7 @@
    "slug": null
   },
   {
-   "id": 2224,
+   "id": 2308,
    "name": "Inzersdorfer Paprikahendlragout",
    "brand": "Inzersdorfer",
    "store": "Gurkerl",
@@ -19946,7 +21797,7 @@
    "slug": null
   },
   {
-   "id": 2240,
+   "id": 2324,
    "name": "Wiener Virtshaus Vleischknödel mit Sauerkraut VEGAN",
    "brand": "Wiener Virtshaus",
    "store": "Gurkerl",
@@ -19967,7 +21818,7 @@
    "slug": null
   },
   {
-   "id": 2255,
+   "id": 2339,
    "name": "Hiel BIO Polenta Karotte Burger VEGAN",
    "brand": "Hiel",
    "store": "Gurkerl",
@@ -19988,7 +21839,7 @@
    "slug": null
   },
   {
-   "id": 2262,
+   "id": 2346,
    "name": "Itineraire des Saveurs Crepes",
    "brand": "IDS",
    "store": "Gurkerl",
@@ -20009,7 +21860,7 @@
    "slug": null
   },
   {
-   "id": 2267,
+   "id": 2351,
    "name": "HOFMANNs 2 Rinderrouladen - mit kleinen Holzspießen handgesteckt - (tiefgekühlt)",
    "brand": "HOFMANNs",
    "store": "Gurkerl",
@@ -20030,7 +21881,7 @@
    "slug": null
   },
   {
-   "id": 2282,
+   "id": 2366,
    "name": "Müller Doppeldecker Schoko + Vanillesoße 4x125g",
    "brand": "Müller",
    "store": "Gurkerl",
@@ -20051,7 +21902,7 @@
    "slug": null
   },
   {
-   "id": 2293,
+   "id": 2377,
    "name": "Bonne Maman Creme Brulee 2x100g",
    "brand": "Bonne Maman",
    "store": "Gurkerl",
@@ -20072,7 +21923,7 @@
    "slug": null
   },
   {
-   "id": 2296,
+   "id": 2380,
    "name": "Alnatura BIO Black Bean-Cashew Burger",
    "brand": "Alnatura",
    "store": "Gurkerl",
@@ -20093,7 +21944,7 @@
    "slug": null
   },
   {
-   "id": 2312,
+   "id": 2396,
    "name": "Feel Food BIO Red Lentil Dal VEGAN",
    "brand": "feelfood",
    "store": "Gurkerl",
@@ -20114,7 +21965,7 @@
    "slug": null
   },
   {
-   "id": 2313,
+   "id": 2397,
    "name": "Zott Monte Mega XXL",
    "brand": "Zott",
    "store": "Billa",
@@ -20135,7 +21986,7 @@
    "slug": null
   },
   {
-   "id": 2314,
+   "id": 2398,
    "name": "Iglo Green Cuisine Spinat Stangerl",
    "brand": "iglo",
    "store": "Billa",
@@ -20156,7 +22007,7 @@
    "slug": null
   },
   {
-   "id": 2317,
+   "id": 2401,
    "name": "Danone Dany Sahne Schoko",
    "brand": "Danone",
    "store": "Billa",
@@ -20177,7 +22028,7 @@
    "slug": null
   },
   {
-   "id": 2318,
+   "id": 2402,
    "name": "Darbo Fruchtikus Rote Früchte",
    "brand": "Darbo",
    "store": "Billa",
@@ -20198,7 +22049,7 @@
    "slug": null
   },
   {
-   "id": 2319,
+   "id": 2403,
    "name": "Darbo Fruchtikus Tropic",
    "brand": "Darbo",
    "store": "Billa",
@@ -20219,7 +22070,7 @@
    "slug": null
   },
   {
-   "id": 2320,
+   "id": 2404,
    "name": "Iglo Green Cuisine Falafel",
    "brand": "iglo",
    "store": "Billa",
@@ -20240,7 +22091,7 @@
    "slug": null
   },
   {
-   "id": 2321,
+   "id": 2405,
    "name": "Dr. Oetker Götterspeise Himbeer Geschmack",
    "brand": "Dr. Oetker",
    "store": "Billa",
@@ -20261,7 +22112,7 @@
    "slug": null
   },
   {
-   "id": 2322,
+   "id": 2406,
    "name": "Dr. Oetker Götterspeise Waldmeister Geschmack",
    "brand": "Dr. Oetker",
    "store": "Billa",
@@ -20282,7 +22133,7 @@
    "slug": null
   },
   {
-   "id": 2324,
+   "id": 2408,
    "name": "BILLA Nudelsalat mit Huhn Caesar",
    "brand": "BILLA Immer Gut",
    "store": "Billa",
@@ -20303,7 +22154,7 @@
    "slug": null
   },
   {
-   "id": 2325,
+   "id": 2409,
    "name": "BILLA Nudel Thunfisch Salat",
    "brand": "BILLA Immer Gut",
    "store": "Billa",
@@ -20324,7 +22175,7 @@
    "slug": null
   },
   {
-   "id": 2326,
+   "id": 2410,
    "name": "Galana Lavakuchen",
    "brand": "Galana",
    "store": "Billa",
@@ -20345,7 +22196,7 @@
    "slug": null
   },
   {
-   "id": 2327,
+   "id": 2411,
    "name": "Toni Kaiser Wiener Kaiserschmarrn",
    "brand": "Toni Kaiser",
    "store": "Billa",
@@ -20366,7 +22217,7 @@
    "slug": null
   },
   {
-   "id": 2328,
+   "id": 2412,
    "name": "Bauernland Gemüselaibchen",
    "brand": "Bauernland",
    "store": "Billa",
@@ -20387,7 +22238,7 @@
    "slug": null
   },
   {
-   "id": 2329,
+   "id": 2413,
    "name": "Bauernland Käse-Karfiol Laibchen",
    "brand": "Bauernland",
    "store": "Billa",
@@ -20408,7 +22259,7 @@
    "slug": null
   },
   {
-   "id": 2330,
+   "id": 2414,
    "name": "Iglo Green Cuisine Broccoli Laibchen",
    "brand": "iglo",
    "store": "Billa",
@@ -20429,7 +22280,7 @@
    "slug": null
   },
   {
-   "id": 2331,
+   "id": 2415,
    "name": "Andros Milchreis",
    "brand": "Andros",
    "store": "Billa",
@@ -20450,7 +22301,7 @@
    "slug": null
   },
   {
-   "id": 2332,
+   "id": 2416,
    "name": "Dr. Oetker High Protein Milchreis",
    "brand": "Dr. Oetker",
    "store": "Billa",
@@ -20471,7 +22322,7 @@
    "slug": null
   },
   {
-   "id": 2333,
+   "id": 2417,
    "name": "Stadtküche Spinat Knödl",
    "brand": "Stadtküche",
    "store": "Billa",
@@ -20492,7 +22343,7 @@
    "slug": null
   },
   {
-   "id": 2334,
+   "id": 2418,
    "name": "Stadtküche Kärntner Kasnudl",
    "brand": "Stadtküche",
    "store": "Billa",
@@ -20513,7 +22364,7 @@
    "slug": null
   },
   {
-   "id": 2335,
+   "id": 2419,
    "name": "Darbo Fruchtikus Mango-Marille",
    "brand": "Darbo",
    "store": "Billa",
@@ -20534,7 +22385,7 @@
    "slug": null
   },
   {
-   "id": 2336,
+   "id": 2420,
    "name": "BILLA Profiteroles",
    "brand": "BILLA Immer Gut",
    "store": "Billa",
@@ -20555,7 +22406,7 @@
    "slug": null
   },
   {
-   "id": 2337,
+   "id": 2421,
    "name": "Stadtküche Falafel Klassisch",
    "brand": "Stadtküche",
    "store": "Billa",
@@ -20576,7 +22427,7 @@
    "slug": null
   },
   {
-   "id": 2338,
+   "id": 2422,
    "name": "Iglo Green Cuisine Zucchini-Käselaibchen",
    "brand": "iglo",
    "store": "Billa",
@@ -20597,7 +22448,7 @@
    "slug": null
   },
   {
-   "id": 2339,
+   "id": 2423,
    "name": "Frosta Rotes Curry",
    "brand": "Frosta",
    "store": "Billa",
@@ -20618,7 +22469,7 @@
    "slug": null
   },
   {
-   "id": 2340,
+   "id": 2424,
    "name": "BILLA Belugalinsen Salat",
    "brand": "BILLA Immer Gut",
    "store": "Billa",
@@ -20639,7 +22490,7 @@
    "slug": null
   },
   {
-   "id": 2341,
+   "id": 2425,
    "name": "Stadtküche Bio Laibchen Spinat & Käse",
    "brand": "Stadtküche",
    "store": "Billa",
@@ -20660,7 +22511,7 @@
    "slug": null
   },
   {
-   "id": 2342,
+   "id": 2426,
    "name": "Stadtküche Gemüselaibchen",
    "brand": "Stadtküche",
    "store": "Billa",
@@ -20681,7 +22532,7 @@
    "slug": null
   },
   {
-   "id": 2343,
+   "id": 2427,
    "name": "BILLA Palatschinken",
    "brand": "BILLA Immer Gut",
    "store": "Billa",
@@ -20702,7 +22553,7 @@
    "slug": null
   },
   {
-   "id": 2344,
+   "id": 2428,
    "name": "Bonne Maman Creme Brulee",
    "brand": "Bonne Maman",
    "store": "Billa",
@@ -20723,7 +22574,7 @@
    "slug": null
   },
   {
-   "id": 2345,
+   "id": 2429,
    "name": "Dr. Oetker Grütze Apfel-Mango-Orange",
    "brand": "Dr. Oetker",
    "store": "Billa",
@@ -20744,7 +22595,7 @@
    "slug": null
   },
   {
-   "id": 2346,
+   "id": 2430,
    "name": "Harvest Moon Chocolate & salted Caramel",
    "brand": "Harvest",
    "store": "Billa",
@@ -20765,7 +22616,7 @@
    "slug": null
   },
   {
-   "id": 2347,
+   "id": 2431,
    "name": "BILLA Bali Brunch Mango Sticky Rice",
    "brand": "BILLA Immer Gut",
    "store": "Billa",
@@ -20786,7 +22637,7 @@
    "slug": null
   },
   {
-   "id": 2348,
+   "id": 2432,
    "name": "Schärdinger Jogurella Stracciatella",
    "brand": "Schärdinger",
    "store": "Billa",
@@ -20807,7 +22658,7 @@
    "slug": null
   },
   {
-   "id": 2349,
+   "id": 2433,
    "name": "Alpro Kokos Salted Caramel",
    "brand": "Alpro",
    "store": "Billa",
@@ -20828,7 +22679,7 @@
    "slug": null
   },
   {
-   "id": 2350,
+   "id": 2434,
    "name": "Alpro Kokos Stracciatella",
    "brand": "Alpro",
    "store": "Billa",
@@ -20849,7 +22700,7 @@
    "slug": null
   },
   {
-   "id": 2352,
+   "id": 2436,
    "name": "Simply Good Berry Chia Pod Tonkabohne Waldfrucht",
    "brand": "Simply Good",
    "store": "Billa",
@@ -20870,7 +22721,7 @@
    "slug": null
   },
   {
-   "id": 2353,
+   "id": 2437,
    "name": "Zott Monte Schoko",
    "brand": "Zott",
    "store": "Billa",
@@ -20891,7 +22742,7 @@
    "slug": null
   },
   {
-   "id": 2354,
+   "id": 2438,
    "name": "Zott Monte Maxi Schoko",
    "brand": "Zott",
    "store": "Billa",
@@ -20912,7 +22763,7 @@
    "slug": null
   },
   {
-   "id": 2355,
+   "id": 2439,
    "name": "Zott Monte",
    "brand": "Zott",
    "store": "Billa",
@@ -20933,7 +22784,7 @@
    "slug": null
   },
   {
-   "id": 2361,
+   "id": 2445,
    "name": "Chili Sin Carne",
    "brand": "Billa",
    "store": "unbekannt (OFF)",
@@ -20954,7 +22805,7 @@
    "slug": "rewe-genusskueche"
   },
   {
-   "id": 2376,
+   "id": 2460,
    "name": "Haschee Hörnchen mit Kräutern",
    "brand": "Billa",
    "store": "unbekannt (OFF)",
@@ -20975,7 +22826,7 @@
    "slug": "rewe-genusskueche"
   },
   {
-   "id": 2381,
+   "id": 2465,
    "name": "Rindsgulasch mit Nockerl",
    "brand": "iglo",
    "store": "Billa",
@@ -20996,7 +22847,7 @@
    "slug": "landena"
   },
   {
-   "id": 2418,
+   "id": 2502,
    "name": "Pilzmaultaschen",
    "brand": "SchwabenKrone",
    "store": "Spar",
@@ -21017,7 +22868,7 @@
    "slug": null
   },
   {
-   "id": 2423,
+   "id": 2507,
    "name": "Maultaschen geschnitten",
    "brand": "Bürger",
    "store": "unbekannt (OFF)",
@@ -21038,7 +22889,7 @@
    "slug": null
   },
   {
-   "id": 2621,
+   "id": 2705,
    "name": "Hühnerstreifen mit Wokgemüse und Basmatireis",
    "brand": "Fit to Go",
    "store": "Fit to Go",
@@ -21059,7 +22910,7 @@
    "slug": null
   },
   {
-   "id": 2622,
+   "id": 2706,
    "name": "Kichererbsencurry mit Basmatireis",
    "brand": "Fit to Go",
    "store": "Fit to Go",
@@ -21080,7 +22931,7 @@
    "slug": null
   },
   {
-   "id": 2624,
+   "id": 2708,
    "name": "High Protein Topfenauflauf mit Heidelbeeren",
    "brand": "Fit to Go",
    "store": "Fit to Go",
@@ -21101,7 +22952,7 @@
    "slug": null
   },
   {
-   "id": 2625,
+   "id": 2709,
    "name": "Milchreis mit Zimt und Sauerkirschen",
    "brand": "Fit to Go",
    "store": "Fit to Go",
@@ -21122,7 +22973,7 @@
    "slug": null
   },
   {
-   "id": 2626,
+   "id": 2710,
    "name": "hühnerfrikassee",
    "brand": "FITTASTE",
    "store": "FitTaste",
@@ -21143,7 +22994,7 @@
    "slug": null
   },
   {
-   "id": 2628,
+   "id": 2712,
    "name": "hähnchen mango bowl",
    "brand": "FITTASTE",
    "store": "FitTaste",
@@ -21164,7 +23015,7 @@
    "slug": null
   },
   {
-   "id": 2630,
+   "id": 2714,
    "name": "rind teriyaki style",
    "brand": "FITTASTE",
    "store": "FitTaste",
@@ -21185,7 +23036,7 @@
    "slug": null
   },
   {
-   "id": 2631,
+   "id": 2715,
    "name": "rind greek style",
    "brand": "FITTASTE",
    "store": "FitTaste",
@@ -21206,7 +23057,7 @@
    "slug": null
   },
   {
-   "id": 2632,
+   "id": 2716,
    "name": "rotes hähnchencurry",
    "brand": "FITTASTE",
    "store": "FitTaste",
@@ -21227,7 +23078,7 @@
    "slug": null
   },
   {
-   "id": 2633,
+   "id": 2717,
    "name": "hähnchen in tomatensauce",
    "brand": "FITTASTE",
    "store": "FitTaste",
@@ -21248,7 +23099,7 @@
    "slug": null
   },
   {
-   "id": 2634,
+   "id": 2718,
    "name": "hähnchen spinat-curry",
    "brand": "FITTASTE",
    "store": "FitTaste",
@@ -21269,7 +23120,7 @@
    "slug": null
   },
   {
-   "id": 2636,
+   "id": 2720,
    "name": "rinderbolognese",
    "brand": "FITTASTE",
    "store": "FitTaste",
@@ -21290,7 +23141,7 @@
    "slug": null
   },
   {
-   "id": 2637,
+   "id": 2721,
    "name": "hähnchen süßkartoffel bowl",
    "brand": "FITTASTE",
    "store": "FitTaste",
@@ -21311,7 +23162,7 @@
    "slug": null
   },
   {
-   "id": 2638,
+   "id": 2722,
    "name": "hähnchen grünes curry",
    "brand": "FITTASTE",
    "store": "FitTaste",
@@ -21332,7 +23183,7 @@
    "slug": null
   },
   {
-   "id": 2640,
+   "id": 2724,
    "name": "rindergulasch",
    "brand": "FITTASTE",
    "store": "FitTaste",
@@ -21353,7 +23204,7 @@
    "slug": null
   },
   {
-   "id": 2641,
+   "id": 2725,
    "name": "chili con carne",
    "brand": "FITTASTE",
    "store": "FitTaste",
@@ -21374,7 +23225,7 @@
    "slug": null
   },
   {
-   "id": 2642,
+   "id": 2726,
    "name": "Garnelen-Kimchi Burger",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -21395,7 +23246,7 @@
    "slug": null
   },
   {
-   "id": 2643,
+   "id": 2727,
    "name": "Thunfisch-Wrap",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -21416,7 +23267,7 @@
    "slug": null
   },
   {
-   "id": 2644,
+   "id": 2728,
    "name": "Garnelen-Wrap",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -21437,7 +23288,7 @@
    "slug": null
   },
   {
-   "id": 2645,
+   "id": 2729,
    "name": "Bagel \\u0022Nordlicht\\u0022",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -21458,7 +23309,7 @@
    "slug": null
   },
   {
-   "id": 2646,
+   "id": 2730,
    "name": "Crunchy Chicken Burger",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -21479,7 +23330,7 @@
    "slug": null
   },
   {
-   "id": 2647,
+   "id": 2731,
    "name": "Classic Fish Burger",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -21500,7 +23351,7 @@
    "slug": null
   },
   {
-   "id": 2648,
+   "id": 2732,
    "name": "HEIßER BACKFISCH XXL",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -21521,7 +23372,7 @@
    "slug": null
   },
   {
-   "id": 2649,
+   "id": 2733,
    "name": "Mini-Bremer - Der Klassische",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -21542,7 +23393,7 @@
    "slug": null
   },
   {
-   "id": 2650,
+   "id": 2734,
    "name": "Mini-Bremer - Der Pikante",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -21563,7 +23414,7 @@
    "slug": null
   },
   {
-   "id": 2651,
+   "id": 2735,
    "name": "Mini-Bremer- Der Scharfe",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -21584,7 +23435,7 @@
    "slug": null
   },
   {
-   "id": 2652,
+   "id": 2736,
    "name": "Mini-Bremer - Der Süß-Scharfe",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -21605,7 +23456,7 @@
    "slug": null
   },
   {
-   "id": 2653,
+   "id": 2737,
    "name": "Räucherlachs-Wrap",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -21626,7 +23477,7 @@
    "slug": null
   },
   {
-   "id": 2654,
+   "id": 2738,
    "name": "Bismarck-Baguette",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -21647,7 +23498,7 @@
    "slug": null
   },
   {
-   "id": 2657,
+   "id": 2741,
    "name": "Matjes-Baguette",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -21668,7 +23519,7 @@
    "slug": null
   },
   {
-   "id": 2658,
+   "id": 2742,
    "name": "Backfisch-Baguette",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -21689,7 +23540,7 @@
    "slug": null
   },
   {
-   "id": 2659,
+   "id": 2743,
    "name": "Bremer",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -21710,7 +23561,7 @@
    "slug": null
   },
   {
-   "id": 2660,
+   "id": 2744,
    "name": "Plant-based Backvisch-Brötchen",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -21731,7 +23582,7 @@
    "slug": null
   },
   {
-   "id": 2661,
+   "id": 2745,
    "name": "Megafrites",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -21752,7 +23603,7 @@
    "slug": null
   },
   {
-   "id": 2662,
+   "id": 2746,
    "name": "Kartoffel-Box",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -21773,7 +23624,7 @@
    "slug": null
   },
   {
-   "id": 2663,
+   "id": 2747,
    "name": "Mix-Box",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -21794,7 +23645,7 @@
    "slug": null
   },
   {
-   "id": 2665,
+   "id": 2749,
    "name": "Fish Nuggets Box",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -21815,7 +23666,7 @@
    "slug": null
   },
   {
-   "id": 2666,
+   "id": 2750,
    "name": "Fish & Chips",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -21836,7 +23687,7 @@
    "slug": null
   },
   {
-   "id": 2667,
+   "id": 2751,
    "name": "Kinder Menü Chicken Nuggets",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -21857,7 +23708,7 @@
    "slug": null
   },
   {
-   "id": 2668,
+   "id": 2752,
    "name": "Gebackene Limanda Aspera",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -21878,7 +23729,7 @@
    "slug": null
   },
   {
-   "id": 2670,
+   "id": 2754,
    "name": "Lachs-Pasta mit Blattspinat",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -21899,7 +23750,7 @@
    "slug": null
   },
   {
-   "id": 2671,
+   "id": 2755,
    "name": "Bretonische Fischsuppe",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -21920,7 +23771,7 @@
    "slug": null
   },
   {
-   "id": 2673,
+   "id": 2757,
    "name": "Seelachsfilet vom Grill",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -21941,7 +23792,7 @@
    "slug": null
   },
   {
-   "id": 2674,
+   "id": 2758,
    "name": "Pazifisches Schollenfilet vom Grill",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -21962,7 +23813,7 @@
    "slug": null
   },
   {
-   "id": 2676,
+   "id": 2760,
    "name": "Lachsfilet auf der Haut gebraten",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -21983,7 +23834,7 @@
    "slug": null
   },
   {
-   "id": 2677,
+   "id": 2761,
    "name": "Salat mit Thunfisch in Tortilla-Bowl",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -22004,7 +23855,7 @@
    "slug": null
   },
   {
-   "id": 2678,
+   "id": 2762,
    "name": "Gemischter Salat",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -22025,7 +23876,7 @@
    "slug": null
   },
   {
-   "id": 2679,
+   "id": 2763,
    "name": "Salat mit Garnelen in Tortilla-Bowl",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -22046,7 +23897,7 @@
    "slug": null
   },
   {
-   "id": 2680,
+   "id": 2764,
    "name": "Salat mit pulled Lachs in Tortilla-Bowl",
    "brand": "NORDSEE",
    "store": "NORDSEE",
@@ -22067,7 +23918,7 @@
    "slug": null
   },
   {
-   "id": 2681,
+   "id": 2765,
    "name": "Chicken Teriyaki (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -22088,7 +23939,7 @@
    "slug": null
   },
   {
-   "id": 2682,
+   "id": 2766,
    "name": "Plant-based Chicken Teriyaki (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -22109,7 +23960,7 @@
    "slug": null
   },
   {
-   "id": 2683,
+   "id": 2767,
    "name": "Chicken Fajita (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -22130,7 +23981,7 @@
    "slug": null
   },
   {
-   "id": 2684,
+   "id": 2768,
    "name": "Rotisserie-Style Chicken (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -22151,7 +24002,7 @@
    "slug": null
   },
   {
-   "id": 2685,
+   "id": 2769,
    "name": "Chicken Tandoori (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -22172,7 +24023,7 @@
    "slug": null
   },
   {
-   "id": 2686,
+   "id": 2770,
    "name": "Dölicious Chicken (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -22193,7 +24044,7 @@
    "slug": null
   },
   {
-   "id": 2687,
+   "id": 2771,
    "name": "Tuna (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -22214,7 +24065,7 @@
    "slug": null
   },
   {
-   "id": 2688,
+   "id": 2772,
    "name": "Italian B.M.T. (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -22235,7 +24086,7 @@
    "slug": null
   },
   {
-   "id": 2689,
+   "id": 2773,
    "name": "BBQ Rib (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -22256,7 +24107,7 @@
    "slug": null
   },
   {
-   "id": 2690,
+   "id": 2774,
    "name": "Nacho Chicken (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -22277,7 +24128,7 @@
    "slug": null
   },
   {
-   "id": 2691,
+   "id": 2775,
    "name": "Philly Beef & Cheese (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -22298,7 +24149,7 @@
    "slug": null
   },
   {
-   "id": 2692,
+   "id": 2776,
    "name": "Salami (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -22319,7 +24170,7 @@
    "slug": null
   },
   {
-   "id": 2693,
+   "id": 2777,
    "name": "Ham (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -22340,7 +24191,7 @@
    "slug": null
   },
   {
-   "id": 2694,
+   "id": 2778,
    "name": "Spicy Vegan Patty (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -22361,7 +24212,7 @@
    "slug": null
   },
   {
-   "id": 2695,
+   "id": 2779,
    "name": "Smashed Falafel (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -22382,7 +24233,7 @@
    "slug": null
   },
   {
-   "id": 2696,
+   "id": 2780,
    "name": "Veggie Delite (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -22403,7 +24254,7 @@
    "slug": null
   },
   {
-   "id": 2697,
+   "id": 2781,
    "name": "Plant-based Dölicious Chicken (Sub 15 cm)",
    "brand": "Subway",
    "store": "Subway",
@@ -22424,7 +24275,7 @@
    "slug": null
   },
   {
-   "id": 2698,
+   "id": 2782,
    "name": "Chicken Teriyaki (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -22445,7 +24296,7 @@
    "slug": null
   },
   {
-   "id": 2699,
+   "id": 2783,
    "name": "Plant-based Chicken Teriyaki (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -22466,7 +24317,7 @@
    "slug": null
   },
   {
-   "id": 2700,
+   "id": 2784,
    "name": "Chicken Fajita (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -22487,7 +24338,7 @@
    "slug": null
   },
   {
-   "id": 2701,
+   "id": 2785,
    "name": "Rotisserie-Style Chicken (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -22508,7 +24359,7 @@
    "slug": null
   },
   {
-   "id": 2702,
+   "id": 2786,
    "name": "Chicken Tandoori (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -22529,7 +24380,7 @@
    "slug": null
   },
   {
-   "id": 2703,
+   "id": 2787,
    "name": "Dölicious Chicken (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -22550,7 +24401,7 @@
    "slug": null
   },
   {
-   "id": 2704,
+   "id": 2788,
    "name": "Tuna (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -22571,7 +24422,7 @@
    "slug": null
   },
   {
-   "id": 2705,
+   "id": 2789,
    "name": "Italian B.M.T. (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -22592,7 +24443,7 @@
    "slug": null
   },
   {
-   "id": 2706,
+   "id": 2790,
    "name": "BBQ Rib (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -22613,7 +24464,7 @@
    "slug": null
   },
   {
-   "id": 2707,
+   "id": 2791,
    "name": "Nacho Chicken (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -22634,7 +24485,7 @@
    "slug": null
   },
   {
-   "id": 2708,
+   "id": 2792,
    "name": "Philly Beef & Cheese (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -22655,7 +24506,7 @@
    "slug": null
   },
   {
-   "id": 2709,
+   "id": 2793,
    "name": "Salami (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -22676,7 +24527,7 @@
    "slug": null
   },
   {
-   "id": 2710,
+   "id": 2794,
    "name": "Ham (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -22697,7 +24548,7 @@
    "slug": null
   },
   {
-   "id": 2711,
+   "id": 2795,
    "name": "Spicy Vegan Patty (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -22718,7 +24569,7 @@
    "slug": null
   },
   {
-   "id": 2712,
+   "id": 2796,
    "name": "Veggie Delite (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -22739,7 +24590,7 @@
    "slug": null
   },
   {
-   "id": 2713,
+   "id": 2797,
    "name": "Smashed Falafel (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -22760,7 +24611,7 @@
    "slug": null
   },
   {
-   "id": 2714,
+   "id": 2798,
    "name": "Plant-based Dölicious Chicken (Wrap)",
    "brand": "Subway",
    "store": "Subway",
@@ -22781,7 +24632,7 @@
    "slug": null
   },
   {
-   "id": 2715,
+   "id": 2799,
    "name": "Chicken Teriyaki (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -22802,7 +24653,7 @@
    "slug": null
   },
   {
-   "id": 2716,
+   "id": 2800,
    "name": "Plant-based Chicken Teriyaki (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -22823,7 +24674,7 @@
    "slug": null
   },
   {
-   "id": 2717,
+   "id": 2801,
    "name": "Chicken Fajita (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -22844,7 +24695,7 @@
    "slug": null
   },
   {
-   "id": 2718,
+   "id": 2802,
    "name": "Rotisserie-Style Chicken (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -22865,7 +24716,7 @@
    "slug": null
   },
   {
-   "id": 2719,
+   "id": 2803,
    "name": "Chicken Tandoori (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -22886,7 +24737,7 @@
    "slug": null
   },
   {
-   "id": 2720,
+   "id": 2804,
    "name": "Dölicious Chicken (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -22907,7 +24758,7 @@
    "slug": null
   },
   {
-   "id": 2721,
+   "id": 2805,
    "name": "Tuna (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -22928,7 +24779,7 @@
    "slug": null
   },
   {
-   "id": 2722,
+   "id": 2806,
    "name": "Italian B.M.T. (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -22949,7 +24800,7 @@
    "slug": null
   },
   {
-   "id": 2723,
+   "id": 2807,
    "name": "BBQ Rib (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -22970,7 +24821,7 @@
    "slug": null
   },
   {
-   "id": 2724,
+   "id": 2808,
    "name": "Nacho Chicken (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -22991,7 +24842,7 @@
    "slug": null
   },
   {
-   "id": 2725,
+   "id": 2809,
    "name": "Philly Beef & Cheese (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -23012,7 +24863,7 @@
    "slug": null
   },
   {
-   "id": 2726,
+   "id": 2810,
    "name": "Salami (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -23033,7 +24884,7 @@
    "slug": null
   },
   {
-   "id": 2727,
+   "id": 2811,
    "name": "Ham (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -23054,7 +24905,7 @@
    "slug": null
   },
   {
-   "id": 2728,
+   "id": 2812,
    "name": "Spicy Vegan Patty (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -23075,7 +24926,7 @@
    "slug": null
   },
   {
-   "id": 2729,
+   "id": 2813,
    "name": "Veggie Delite (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -23096,7 +24947,7 @@
    "slug": null
   },
   {
-   "id": 2730,
+   "id": 2814,
    "name": "Smashed Falafel (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -23117,7 +24968,7 @@
    "slug": null
   },
   {
-   "id": 2731,
+   "id": 2815,
    "name": "Plant-based Dölicious Chicken (Salat)",
    "brand": "Subway",
    "store": "Subway",
@@ -23138,7 +24989,7 @@
    "slug": null
   },
   {
-   "id": 2732,
+   "id": 2816,
    "name": "The BBQ Master (Sub 15 cm (Kreation))",
    "brand": "Subway",
    "store": "Subway",
@@ -23159,7 +25010,7 @@
    "slug": null
   },
   {
-   "id": 2733,
+   "id": 2817,
    "name": "Furious Chicken (Sub 15 cm (Kreation))",
    "brand": "Subway",
    "store": "Subway",
@@ -23180,7 +25031,7 @@
    "slug": null
   },
   {
-   "id": 2734,
+   "id": 2818,
    "name": "Fiesta Fajita (Sub 15 cm (Kreation))",
    "brand": "Subway",
    "store": "Subway",
@@ -23201,7 +25052,7 @@
    "slug": null
   },
   {
-   "id": 2735,
+   "id": 2819,
    "name": "Tasty Tandoori (Sub 15 cm (Kreation))",
    "brand": "Subway",
    "store": "Subway",
@@ -23222,7 +25073,7 @@
    "slug": null
   },
   {
-   "id": 2736,
+   "id": 2820,
    "name": "Beef Texicana (Sub 15 cm (Kreation))",
    "brand": "Subway",
    "store": "Subway",
@@ -23243,7 +25094,7 @@
    "slug": null
   },
   {
-   "id": 2737,
+   "id": 2821,
    "name": "Chick'n'Garlic (Panini)",
    "brand": "Subway",
    "store": "Subway",
@@ -23264,7 +25115,7 @@
    "slug": null
   },
   {
-   "id": 2738,
+   "id": 2822,
    "name": "Philly Supreme (Panini)",
    "brand": "Subway",
    "store": "Subway",
@@ -23285,7 +25136,7 @@
    "slug": null
   },
   {
-   "id": 2739,
+   "id": 2823,
    "name": "Smoky Beast (Panini)",
    "brand": "Subway",
    "store": "Subway",
