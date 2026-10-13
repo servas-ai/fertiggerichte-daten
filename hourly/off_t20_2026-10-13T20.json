@@ -1,0 +1,437 @@
+{
+ "9000295832936": {
+  "product_name": "Gefüllte Paprika",
+  "brands": "Felix",
+  "brand_owner": null,
+  "emb_codes": null,
+  "quantity": "800g",
+  "nutrition_data_per": "100g",
+  "last_modified_t": 1774454446,
+  "code_strict": null,
+  "n100": {
+   "kcal": 88,
+   "fat": 3.9,
+   "satfat": null,
+   "carbs": 10,
+   "sugar": 5.3,
+   "fiber": null,
+   "protein": 2.6,
+   "salt": null
+  }
+ },
+ "9002600632330": {
+  "product_name": "Chicken curry",
+  "brands": "Inzersdorfer",
+  "brand_owner": null,
+  "emb_codes": null,
+  "quantity": "400g",
+  "nutrition_data_per": "100g",
+  "last_modified_t": 1774516164,
+  "code_strict": null,
+  "n100": {
+   "kcal": 121,
+   "fat": 5.4,
+   "satfat": 1.5,
+   "carbs": 12,
+   "sugar": 6.2,
+   "fiber": null,
+   "protein": 5.3,
+   "salt": null
+  }
+ },
+ "7613035925489": {
+  "product_name": "Steinofen Pizza Salami",
+  "brands": "Aldi, Wagner",
+  "brand_owner": null,
+  "emb_codes": "",
+  "quantity": "320g",
+  "nutrition_data_per": "100g",
+  "last_modified_t": 1791140219,
+  "code_strict": null,
+  "n100": {
+   "kcal": null,
+   "fat": null,
+   "satfat": null,
+   "carbs": null,
+   "sugar": null,
+   "fiber": null,
+   "protein": null,
+   "salt": null
+  }
+ },
+ "9008695979213": {
+  "product_name": "Fischstäbchen Brezel",
+  "brands": "iglo",
+  "brand_owner": null,
+  "emb_codes": "",
+  "quantity": "364 g",
+  "nutrition_data_per": "100g",
+  "last_modified_t": 1774519411,
+  "code_strict": null,
+  "n100": {
+   "kcal": 224,
+   "fat": 10,
+   "satfat": 0.8,
+   "carbs": 20,
+   "sugar": 0.6,
+   "fiber": 1.1,
+   "protein": 13,
+   "salt": 0.91
+  }
+ },
+ "4250073451285": {
+  "product_name": "Kabeljau Filets in Bio-Knusperpanade",
+  "brands": "Followfish",
+  "brand_owner": null,
+  "emb_codes": null,
+  "quantity": "1pcs",
+  "nutrition_data_per": "100g",
+  "last_modified_t": 1789759066,
+  "code_strict": null,
+  "n100": {
+   "kcal": 140,
+   "fat": 1,
+   "satfat": 0,
+   "carbs": 19,
+   "sugar": 1,
+   "fiber": null,
+   "protein": 14,
+   "salt": 1
+  }
+ },
+ "9048130046513": {
+  "_error": "HTTP Error 404: Not Found"
+ },
+ "4260434440452": {
+  "product_name": "frank. Brokkoli & the gang Brokkoli, Cashewnuss, Dattel 4260434440452 Bio Brokkolisuppe mit Cashewnüssen und Datteln",
+  "brands": "frank.",
+  "brand_owner": null,
+  "emb_codes": null,
+  "quantity": null,
+  "nutrition_data_per": "100g",
+  "last_modified_t": 1788454962,
+  "code_strict": null,
+  "n100": {
+   "kcal": 88,
+   "fat": 5.9,
+   "satfat": 0.8,
+   "carbs": 6.3,
+   "sugar": 3.4,
+   "fiber": null,
+   "protein": 1.7,
+   "salt": 0.79
+  }
+ },
+ "4260434440476": {
+  "product_name": "frank soup Karotte kokos",
+  "brands": "frank soup",
+  "brand_owner": null,
+  "emb_codes": null,
+  "quantity": "350ml",
+  "nutrition_data_per": "100ml",
+  "last_modified_t": 1774493494,
+  "code_strict": null,
+  "n100": {
+   "kcal": 71,
+   "fat": 3.2,
+   "satfat": 2.1,
+   "carbs": 9.2,
+   "sugar": 4.8,
+   "fiber": null,
+   "protein": 0.7,
+   "salt": 0.78
+  }
+ },
+ "4260434440803": {
+  "product_name": "Frank. Soup Süßkartoffel KirchererbseMango Curry 4260434440803 Bio Süßkartoffelcremesuppe",
+  "brands": null,
+  "brand_owner": null,
+  "emb_codes": null,
+  "quantity": null,
+  "nutrition_data_per": "100g",
+  "last_modified_t": 1774510565,
+  "code_strict": null,
+  "n100": {
+   "kcal": 59,
+   "fat": 2.2,
+   "satfat": 1.8,
+   "carbs": 8.7,
+   "sugar": 2.7,
+   "fiber": 1.6,
+   "protein": 1.2,
+   "salt": 1.2
+  }
+ },
+ "4260434440469": {
+  "product_name": "Tomate gemuse",
+  "brands": null,
+  "brand_owner": null,
+  "emb_codes": null,
+  "quantity": null,
+  "nutrition_data_per": "100g",
+  "last_modified_t": 1774508556,
+  "code_strict": null,
+  "n100": {
+   "kcal": 48,
+   "fat": 2.7,
+   "satfat": 0.4,
+   "carbs": 5,
+   "sugar": 4.3,
+   "fiber": 1.6,
+   "protein": 0.9,
+   "salt": 0.91
+  }
+ },
+ "00476270": {
+  "product_name": "Chunky breaded cod fillets",
+  "brands": "Marks & spensers",
+  "brand_owner": null,
+  "emb_codes": null,
+  "quantity": null,
+  "nutrition_data_per": "100g",
+  "last_modified_t": 1774651663,
+  "code_strict": null,
+  "n100": {
+   "kcal": 179,
+   "fat": 6.9,
+   "satfat": 0.6,
+   "carbs": 14.2,
+   "sugar": 2.8,
+   "fiber": 1,
+   "protein": 14.4,
+   "salt": 1.525
+  }
+ },
+ "00935791": {
+  "product_name": "Gluten free 2 cod fillets",
+  "brands": "Marks & Spencers",
+  "brand_owner": null,
+  "emb_codes": "GB-GG-268, UK GG268 EC",
+  "quantity": "245g",
+  "nutrition_data_per": "100g",
+  "last_modified_t": 1774622019,
+  "code_strict": null,
+  "n100": {
+   "kcal": 187,
+   "fat": 8.1,
+   "satfat": 0.8,
+   "carbs": 15.5,
+   "sugar": 2.9,
+   "fiber": 1.2,
+   "protein": 12.4,
+   "salt": 0.93
+  }
+ },
+ "4000345045328": {
+  "product_name": "Dhal Linsensuppe",
+  "brands": "Natur Compagnie",
+  "brand_owner": null,
+  "emb_codes": "",
+  "quantity": "60 g",
+  "nutrition_data_per": "100g",
+  "last_modified_t": 1774470413,
+  "code_strict": null,
+  "n100": {
+   "kcal": 34,
+   "fat": 0.4,
+   "satfat": 0.1,
+   "carbs": 3.7,
+   "sugar": 0.5,
+   "fiber": null,
+   "protein": 2.7,
+   "salt": 0.9
+  }
+ },
+ "4000345046486": {
+  "product_name": "Feine Suppe Kürbiscreme",
+  "brands": "Natur Compagnie",
+  "brand_owner": null,
+  "emb_codes": "",
+  "quantity": "40 g",
+  "nutrition_data_per": "100g",
+  "last_modified_t": 1774471447,
+  "code_strict": null,
+  "n100": {
+   "kcal": 27,
+   "fat": 0.2,
+   "satfat": 0,
+   "carbs": 4.9,
+   "sugar": 1.5,
+   "fiber": null,
+   "protein": 1.1,
+   "salt": 0.6
+  }
+ },
+ "4075600055039": {
+  "product_name": "Maultaschen traditionell schwäbisch",
+  "brands": "BÜRGER",
+  "brand_owner": null,
+  "emb_codes": "DE BW-01188 EG",
+  "quantity": "360 g",
+  "nutrition_data_per": "100g",
+  "last_modified_t": 1791919226,
+  "code_strict": "DE BW-01188 EG",
+  "n100": {
+   "kcal": 198,
+   "fat": 9.1,
+   "satfat": 3.3,
+   "carbs": 19,
+   "sugar": 1.8,
+   "fiber": 1.9,
+   "protein": 9.1,
+   "salt": 1.6
+  }
+ },
+ "4306188035435": {
+  "product_name": "Schlemmerfilet Bordelaise",
+  "brands": "Jeden Tag",
+  "brand_owner": null,
+  "emb_codes": "MSC-C-50141",
+  "quantity": null,
+  "nutrition_data_per": "100g",
+  "last_modified_t": 1774544821,
+  "code_strict": null,
+  "n100": {
+   "kcal": 135,
+   "fat": 6.7,
+   "satfat": 0.7,
+   "carbs": 6.2,
+   "sugar": 0.9,
+   "fiber": null,
+   "protein": 12,
+   "salt": 0.88
+  }
+ },
+ "8001665706674": {
+  "product_name": "Pfannen-Gnocchi klassisch",
+  "brands": "Giovanni Rana",
+  "brand_owner": null,
+  "emb_codes": "",
+  "quantity": "300g",
+  "nutrition_data_per": "100g",
+  "last_modified_t": 1773453900,
+  "code_strict": null,
+  "n100": {
+   "kcal": 211,
+   "fat": 0.8,
+   "satfat": 0.3,
+   "carbs": 43,
+   "sugar": 0.5,
+   "fiber": 4.9,
+   "protein": 5.6,
+   "salt": 1.8
+  }
+ },
+ "8001665708081": {
+  "product_name": "Pfannen-Gnocchi gefüllt - Schinken & Mozzarella",
+  "brands": "Giovanni Rana, Rana",
+  "brand_owner": null,
+  "emb_codes": "IT 528-L CE",
+  "quantity": "280g",
+  "nutrition_data_per": "100g",
+  "last_modified_t": 1780249668,
+  "code_strict": "IT 528-L CE",
+  "n100": {
+   "kcal": 229,
+   "fat": 5.4,
+   "satfat": 1.9,
+   "carbs": 36,
+   "sugar": 1.6,
+   "fiber": 3.8,
+   "protein": 7.2,
+   "salt": 0.004
+  }
+ },
+ "8001665708111": {
+  "product_name": "Pfannen-Gnocchi Tomate & Mozarella",
+  "brands": "Rana",
+  "brand_owner": null,
+  "emb_codes": "",
+  "quantity": "280g",
+  "nutrition_data_per": "100g",
+  "last_modified_t": 1789221894,
+  "code_strict": null,
+  "n100": {
+   "kcal": 235,
+   "fat": 4,
+   "satfat": 1.6,
+   "carbs": 40,
+   "sugar": 2.7,
+   "fiber": 4.8,
+   "protein": 7.4,
+   "salt": 1.6
+  }
+ },
+ "9002931072027": {
+  "product_name": "Hühner Cordon Bleu",
+  "brands": "Blasko Convenience",
+  "brand_owner": null,
+  "emb_codes": null,
+  "quantity": null,
+  "nutrition_data_per": null,
+  "last_modified_t": 1756998858,
+  "code_strict": null,
+  "n100": {
+   "kcal": null,
+   "fat": null,
+   "satfat": null,
+   "carbs": null,
+   "sugar": null,
+   "fiber": null,
+   "protein": null,
+   "salt": null
+  }
+ },
+ "9002931072157": {
+  "_error": "HTTP Error 404: Not Found"
+ },
+ "9008695939224": {
+  "product_name": "Poisson Bordelaise",
+  "brands": "Iglo",
+  "brand_owner": null,
+  "emb_codes": null,
+  "quantity": null,
+  "nutrition_data_per": "100g",
+  "last_modified_t": 1775568441,
+  "code_strict": null,
+  "n100": {
+   "kcal": 175,
+   "fat": 10,
+   "satfat": 0.800000011920929,
+   "carbs": 9.80000019073486,
+   "sugar": 0.899999976158142,
+   "fiber": 0.699999988079071,
+   "protein": 11,
+   "salt": null
+  }
+ },
+ "9008695954029": {
+  "product_name": "Backfisch",
+  "brands": "Iglo",
+  "brand_owner": null,
+  "emb_codes": null,
+  "quantity": "240g",
+  "nutrition_data_per": "100g",
+  "last_modified_t": 1774514962,
+  "code_strict": null,
+  "n100": {
+   "kcal": 247,
+   "fat": 14,
+   "satfat": 1.3,
+   "carbs": 19,
+   "sugar": 0.5,
+   "fiber": 0.5,
+   "protein": 11,
+   "salt": 0.87
+  }
+ },
+ "9120071330019": {
+  "_error": "HTTP Error 404: Not Found"
+ },
+ "9120071330255": {
+  "_error": "HTTP Error 404: Not Found"
+ },
+ "9120071330279": {
+  "_error": "HTTP Error 404: Not Found"
+ }
+}

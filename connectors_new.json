@@ -768,7 +768,7 @@
   "salt_100": 1.2,
   "protein_pack": 39.9,
   "kcal_pack": 868,
-  "manufacturer": "",
+  "manufacturer": "Iglo Austria, Marchfelder Str. 2, 2301 Groß-Enzersdorf",
   "producer_id": null,
   "origin": "Italien",
   "category": "Internationales",
@@ -777,7 +777,8 @@
   "nut_source": "Gurkerl.at API",
   "packaging_hint": "Tiefkühl (TK)",
   "ean": null,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 133/138 Etiketten der Marke Iglo im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Pappudia Rinderbraten mit Knödel",
@@ -1308,7 +1309,7 @@
   "salt_100": 1.2,
   "protein_pack": 8.8,
   "kcal_pack": 376,
-  "manufacturer": null,
+  "manufacturer": "Maresi Austria GmbH, Postfach 111, A-1131 Wien",
   "producer_id": null,
   "origin": "Österreich",
   "category": "Menüs & Dosengerichte",
@@ -1317,7 +1318,8 @@
   "nut_source": "Gurkerl.at API",
   "packaging_hint": "Konserve/Dose/Glas",
   "ean": null,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 57/57 Etiketten der Marke Inzersdorfer im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Iglo Rindsgulasch (tiefgekühlt)",
@@ -1338,7 +1340,7 @@
   "salt_100": 0.8,
   "protein_pack": 45.0,
   "kcal_pack": 648,
-  "manufacturer": "",
+  "manufacturer": "Iglo Austria, Marchfelder Str. 2, 2301 Groß-Enzersdorf",
   "producer_id": null,
   "origin": "Österreich",
   "category": "Traditionelles",
@@ -1347,7 +1349,8 @@
   "nut_source": "Gurkerl.at API",
   "packaging_hint": "Tiefkühl (TK)",
   "ean": null,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 133/138 Etiketten der Marke Iglo im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Inzersdorfer Rindsgulasch",
@@ -1368,7 +1371,7 @@
   "salt_100": 1.1,
   "protein_pack": 40.0,
   "kcal_pack": 440,
-  "manufacturer": null,
+  "manufacturer": "Maresi Austria GmbH, Postfach 111, A-1131 Wien",
   "producer_id": null,
   "origin": "Österreich",
   "category": "Menüs & Dosengerichte",
@@ -1377,7 +1380,8 @@
   "nut_source": "Gurkerl.at API",
   "packaging_hint": "Konserve/Dose/Glas",
   "ean": null,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 57/57 Etiketten der Marke Inzersdorfer im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Felix Erdäpfelgulasch",
@@ -1398,7 +1402,7 @@
   "salt_100": 1.2,
   "protein_pack": 24.8,
   "kcal_pack": 832,
-  "manufacturer": null,
+  "manufacturer": "FELIX Austria GmbH, Felixstr. 24, A- 7210 Mattersburg",
   "producer_id": null,
   "origin": "EU",
   "category": "Menüs & Dosengerichte",
@@ -1407,7 +1411,8 @@
   "nut_source": "Gurkerl.at API",
   "packaging_hint": "Konserve/Dose/Glas",
   "ean": null,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 35/35 Etiketten der Marke Felix im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Esterhazy Wild Szegediner",
@@ -1548,7 +1553,7 @@
   "salt_100": 0.7,
   "protein_pack": 35.2,
   "kcal_pack": 484,
-  "manufacturer": null,
+  "manufacturer": "Marks and Spencer Services, Jemnická 1138/1, 14000 Prag, Tschechien",
   "producer_id": null,
   "origin": "Großbritannien",
   "category": "Fertiggerichte",
@@ -1557,7 +1562,8 @@
   "nut_source": "Gurkerl.at API",
   "packaging_hint": null,
   "ean": null,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 9/9 Etiketten der Marke Marks & Spencer im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Marks & Spencer Mexican-Style Chilli & Bean Soup",
@@ -1578,7 +1584,7 @@
   "salt_100": 0.5,
   "protein_pack": 12.8,
   "kcal_pack": 248,
-  "manufacturer": null,
+  "manufacturer": "Marks and Spencer Services, Jemnická 1138/1, 14000 Prag, Tschechien",
   "producer_id": null,
   "origin": "Großbritannien",
   "category": "Fertiggerichte",
@@ -1587,7 +1593,8 @@
   "nut_source": "Gurkerl.at API",
   "packaging_hint": null,
   "ean": null,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 9/9 Etiketten der Marke Marks & Spencer im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Every. Chili sin Carne (tiefgekühlt)",
@@ -1968,7 +1975,7 @@
   "salt_100": 1.0,
   "protein_pack": 21.6,
   "kcal_pack": 488,
-  "manufacturer": "",
+  "manufacturer": "Iglo Austria, Marchfelder Str. 2, 2301 Groß-Enzersdorf",
   "producer_id": null,
   "origin": "EU",
   "category": "Internationales",
@@ -1977,7 +1984,8 @@
   "nut_source": "Gurkerl.at API",
   "packaging_hint": "Tiefkühl (TK)",
   "ean": null,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 133/138 Etiketten der Marke Iglo im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Iglo Lachs-Spinat Lasagne (tiefgekühlt)",
@@ -1998,7 +2006,7 @@
   "salt_100": 1.0,
   "protein_pack": 19.8,
   "kcal_pack": 426,
-  "manufacturer": "",
+  "manufacturer": "Iglo Austria, Marchfelder Str. 2, 2301 Groß-Enzersdorf",
   "producer_id": null,
   "origin": "EU",
   "category": "Internationales",
@@ -2007,7 +2015,8 @@
   "nut_source": "Gurkerl.at API",
   "packaging_hint": "Tiefkühl (TK)",
   "ean": null,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 133/138 Etiketten der Marke Iglo im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Lasagne Bolognese von Gianluca Giardi",
@@ -2478,7 +2487,7 @@
   "salt_100": 0.7,
   "protein_pack": 34.5,
   "kcal_pack": 689,
-  "manufacturer": "",
+  "manufacturer": "Iglo Austria, Marchfelder Str. 2, 2301 Groß-Enzersdorf",
   "producer_id": null,
   "origin": "Deutschland",
   "category": "Traditionelles",
@@ -2487,7 +2496,8 @@
   "nut_source": "Gurkerl.at API",
   "packaging_hint": "Tiefkühl (TK)",
   "ean": null,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 133/138 Etiketten der Marke Iglo im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Iglo Marchfelder Cremespinat mit Mini Rösti (tiefgekühlt)",
@@ -2508,7 +2518,7 @@
   "salt_100": 1.0,
   "protein_pack": 12.8,
   "kcal_pack": 400,
-  "manufacturer": "",
+  "manufacturer": "Iglo Austria, Marchfelder Str. 2, 2301 Groß-Enzersdorf",
   "producer_id": null,
   "origin": "EU",
   "category": "Traditionelles",
@@ -2517,7 +2527,8 @@
   "nut_source": "Gurkerl.at API",
   "packaging_hint": "Tiefkühl (TK)",
   "ean": null,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 133/138 Etiketten der Marke Iglo im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Bibigo Dumpling Beef Bulgogi (tiefgekühlt)",
@@ -2538,7 +2549,7 @@
   "salt_100": 1.2,
   "protein_pack": 50.4,
   "kcal_pack": 1068,
-  "manufacturer": null,
+  "manufacturer": "Kreyenhop & Kluge GmbH & Co. KG, Industriestraße 40-42, 28876 Oyten/Germany",
   "producer_id": null,
   "origin": "Deutschland",
   "category": "Internationales",
@@ -2547,7 +2558,8 @@
   "nut_source": "Gurkerl.at API",
   "packaging_hint": "Tiefkühl (TK)",
   "ean": null,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 8/8 Etiketten der Marke Bibigo im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Iglo Krautfleckerl (tiefgekühlt)",
@@ -2568,7 +2580,7 @@
   "salt_100": 0.9,
   "protein_pack": 12.2,
   "kcal_pack": 472,
-  "manufacturer": "",
+  "manufacturer": "Iglo Austria, Marchfelder Str. 2, 2301 Groß-Enzersdorf",
   "producer_id": null,
   "origin": "Österreich",
   "category": "Traditionelles",
@@ -2577,7 +2589,8 @@
   "nut_source": "Gurkerl.at API",
   "packaging_hint": "Tiefkühl (TK)",
   "ean": null,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 133/138 Etiketten der Marke Iglo im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Bibigo Dumpling mit Kimchi & Huhn Gyoza (tiefgekühlt)",
@@ -2598,7 +2611,7 @@
   "salt_100": 1.5,
   "protein_pack": 25.8,
   "kcal_pack": 480,
-  "manufacturer": null,
+  "manufacturer": "Kreyenhop & Kluge GmbH & Co. KG, Industriestraße 40-42, 28876 Oyten/Germany",
   "producer_id": null,
   "origin": "Deutschland",
   "category": "Internationales",
@@ -2607,7 +2620,8 @@
   "nut_source": "Gurkerl.at API",
   "packaging_hint": "Tiefkühl (TK)",
   "ean": null,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 8/8 Etiketten der Marke Bibigo im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Every. Peas & Love (tiefgekühlt)",
@@ -2658,7 +2672,7 @@
   "salt_100": 1.2,
   "protein_pack": 32.5,
   "kcal_pack": 682,
-  "manufacturer": "",
+  "manufacturer": "Iglo Austria, Marchfelder Str. 2, 2301 Groß-Enzersdorf",
   "producer_id": null,
   "origin": "Deutschland",
   "category": "Internationales",
@@ -2667,7 +2681,8 @@
   "nut_source": "Gurkerl.at API",
   "packaging_hint": "Tiefkühl (TK)",
   "ean": null,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 133/138 Etiketten der Marke Iglo im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Every. Dal Delight (tiefgekühlt)",
@@ -2778,7 +2793,7 @@
   "salt_100": 0.71,
   "protein_pack": 35.1,
   "kcal_pack": 774,
-  "manufacturer": null,
+  "manufacturer": "Iglo Austria, Marchfelder Str. 2, 2301 Groß-Enzersdorf",
   "producer_id": null,
   "origin": "Deutschland",
   "category": "Internationales",
@@ -2787,7 +2802,8 @@
   "nut_source": "Gurkerl.at API",
   "packaging_hint": "Tiefkühl (TK)",
   "ean": null,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 133/138 Etiketten der Marke Iglo im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Every. Brilliant Bolognese (tiefgekühlt)",
@@ -2838,7 +2854,7 @@
   "salt_100": 0.95,
   "protein_pack": 16.8,
   "kcal_pack": 606,
-  "manufacturer": null,
+  "manufacturer": "Kreyenhop & Kluge GmbH & Co. KG, Industriestraße 40-42, 28876 Oyten/Germany",
   "producer_id": null,
   "origin": "Südkorea",
   "category": "Internationales",
@@ -2847,7 +2863,8 @@
   "nut_source": "Gurkerl.at API",
   "packaging_hint": "Tiefkühl (TK)",
   "ean": null,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 8/8 Etiketten der Marke Bibigo im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Every. Naked Taco (tiefgekühlt)",
@@ -2988,7 +3005,7 @@
   "salt_100": 1.0,
   "protein_pack": 22.8,
   "kcal_pack": 453,
-  "manufacturer": null,
+  "manufacturer": "Kreyenhop & Kluge GmbH & Co. KG, Industriestraße 40-42, 28876 Oyten/Germany",
   "producer_id": null,
   "origin": "Deutschland",
   "category": "Internationales",
@@ -2997,7 +3014,8 @@
   "nut_source": "Gurkerl.at API",
   "packaging_hint": "Tiefkühl (TK)",
   "ean": null,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 8/8 Etiketten der Marke Bibigo im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Bonduelle Lunch Bowl Reis",
@@ -5767,7 +5785,7 @@
   "salt_100": 1.5,
   "protein_pack": 15.1,
   "kcal_pack": 763,
-  "manufacturer": null,
+  "manufacturer": "Iglo Austria, Marchfelder Str. 2, 2301 Groß-Enzersdorf",
   "producer_id": null,
   "origin": "EU",
   "category": "Fertiggerichte",
@@ -5778,7 +5796,8 @@
   "ean": "9000143050024",
   "delivery": "Lieferung nach Linz (Gurkerl.at)",
   "packaging": "Tiefkühl (TK)",
-  "is_meal": true
+  "is_meal": true,
+  "manufacturer_source": "Marken-Konsens: 133/138 Etiketten der Marke Iglo im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Bibigo Korean Style Fried Chicken mit Sweet & Spicy Sauce (tiefgekühlt)",
@@ -5831,7 +5850,7 @@
   "salt_100": 1.2,
   "protein_pack": 43.4,
   "kcal_pack": 574,
-  "manufacturer": null,
+  "manufacturer": "Kreyenhop & Kluge GmbH & Co. KG, Industriestraße 40-42, 28876 Oyten/Germany",
   "producer_id": null,
   "origin": "Deutschland",
   "category": "Fertiggerichte",
@@ -5842,7 +5861,8 @@
   "ean": "4016337915043",
   "delivery": "Lieferung nach Linz (Gurkerl.at)",
   "packaging": "Tiefkühl (TK)",
-  "is_meal": true
+  "is_meal": true,
+  "manufacturer_source": "Marken-Konsens: 8/8 Etiketten der Marke Bibigo im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Marks & Spencer Quiche Lorraine (tiefgekühlt)",
@@ -5863,7 +5883,7 @@
   "salt_100": 0.88,
   "protein_pack": 46.4,
   "kcal_pack": 1128,
-  "manufacturer": null,
+  "manufacturer": "Marks and Spencer Services, Jemnická 1138/1, 14000 Prag, Tschechien",
   "producer_id": null,
   "origin": "Großbritannien",
   "category": "Fertiggerichte",
@@ -5874,7 +5894,8 @@
   "ean": "00600200",
   "delivery": "Lieferung nach Linz (Gurkerl.at)",
   "packaging": "Tiefkühl (TK)",
-  "is_meal": true
+  "is_meal": true,
+  "manufacturer_source": "Marken-Konsens: 9/9 Etiketten der Marke Marks & Spencer im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Ben's Original Express Curryreis",
@@ -6632,7 +6653,7 @@
   "salt_100": 1.08,
   "protein_pack": 20.6,
   "kcal_pack": 563,
-  "manufacturer": null,
+  "manufacturer": "WP Fine Food GmbH (Srl), Milla 3, 39040 Kurtatsch/Cortaccia BZ, Italien; Produktion Dürer Straße 26, 39100 Bozen",
   "producer_id": null,
   "origin": "Italien",
   "category": "Knödel, Spätzle & Co",
@@ -6643,7 +6664,8 @@
   "packaging": "Kühlregal (Menüschale/frisch)",
   "packaging_hint": "Kühlregal (Menüschale/frisch)",
   "is_meal": true,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "EAN-Zwilling 8052400950036: Etikett-Herstellerangabe einer anderen Zeile/Kette im Datensatz (2026-10-13T20)"
  },
  {
   "name": "Südtiroler Kochwerk Steinpilzknödel",
@@ -6696,7 +6718,7 @@
   "salt_100": 1.67,
   "protein_pack": 35.1,
   "kcal_pack": 656,
-  "manufacturer": null,
+  "manufacturer": "WP Fine Food GmbH (Srl), Milla 3, 39040 Kurtatsch/Cortaccia BZ, Italien; Produktion Dürer Straße 26, 39100 Bozen",
   "producer_id": null,
   "origin": "Italien",
   "category": "Knödel, Spätzle & Co",
@@ -6707,7 +6729,8 @@
   "packaging": "Kühlregal (Menüschale/frisch)",
   "packaging_hint": "Kühlregal (Menüschale/frisch)",
   "is_meal": true,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "EAN-Zwilling 8052400950012: Etikett-Herstellerangabe einer anderen Zeile/Kette im Datensatz (2026-10-13T20)"
  },
  {
   "name": "Südtiroler Kochwerk Kürbisknödel",
@@ -6824,7 +6847,7 @@
   "salt_100": 1.36,
   "protein_pack": 27.3,
   "kcal_pack": 650,
-  "manufacturer": null,
+  "manufacturer": "WP Fine Food GmbH (Srl), Milla 3, 39040 Kurtatsch/Cortaccia BZ, Italien; Produktion Dürer Straße 26, 39100 Bozen",
   "producer_id": null,
   "origin": "Italien",
   "category": "Knödel, Spätzle & Co",
@@ -6835,7 +6858,8 @@
   "packaging": "Kühlregal (Menüschale/frisch)",
   "packaging_hint": "Kühlregal (Menüschale/frisch)",
   "is_meal": true,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "EAN-Zwilling 8052400950029: Etikett-Herstellerangabe einer anderen Zeile/Kette im Datensatz (2026-10-13T20)"
  },
  {
   "name": "Rana Ravioli Pesto Rosso alla Siciliana - mit getrockneten Tomaten & Pinienkernen",
@@ -7272,7 +7296,7 @@
   "salt_100": 0.98,
   "protein_pack": 35.5,
   "kcal_pack": 806,
-  "manufacturer": null,
+  "manufacturer": "DR. OETKER GMBH, Ringmauergasse 9/1, 9500 Villach, Österreich",
   "producer_id": null,
   "origin": "Deutschland",
   "category": "Pizza",
@@ -7283,7 +7307,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 111/111 Etiketten der Marke Dr. Oetker im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Dr. Oetker Ristorante Pizza Mozzarella (tiefgekühlt)",
@@ -7304,7 +7329,7 @@
   "salt_100": 0.92,
   "protein_pack": 35.5,
   "kcal_pack": 845,
-  "manufacturer": null,
+  "manufacturer": "DR. OETKER GMBH, Ringmauergasse 9/1, 9500 Villach, Österreich",
   "producer_id": null,
   "origin": "Deutschland",
   "category": "Pizza",
@@ -7315,7 +7340,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 111/111 Etiketten der Marke Dr. Oetker im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Dr. Oetker Ristorante Pizza Salame (tiefgekühlt)",
@@ -7336,7 +7362,7 @@
   "salt_100": 1.3,
   "protein_pack": 32.0,
   "kcal_pack": 835,
-  "manufacturer": null,
+  "manufacturer": "DR. OETKER GMBH, Ringmauergasse 9/1, 9500 Villach, Österreich",
   "producer_id": null,
   "origin": "Deutschland",
   "category": "Pizza",
@@ -7347,7 +7373,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 111/111 Etiketten der Marke Dr. Oetker im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Dr. Oetker Ristorante Pizza Prosciutto (tiefgekühlt)",
@@ -7368,7 +7395,7 @@
   "salt_100": 1.2,
   "protein_pack": 34.0,
   "kcal_pack": 762,
-  "manufacturer": null,
+  "manufacturer": "DR. OETKER GMBH, Ringmauergasse 9/1, 9500 Villach, Österreich",
   "producer_id": null,
   "origin": "Deutschland",
   "category": "Pizza",
@@ -7379,7 +7406,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 111/111 Etiketten der Marke Dr. Oetker im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Wagner Big Sensation Western (tiefgekühlt)",
@@ -7432,7 +7460,7 @@
   "salt_100": 0.98,
   "protein_pack": 28.1,
   "kcal_pack": 838,
-  "manufacturer": null,
+  "manufacturer": "DR. OETKER GMBH, Ringmauergasse 9/1, 9500 Villach, Österreich",
   "producer_id": null,
   "origin": "Deutschland",
   "category": "Pizza",
@@ -7443,7 +7471,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 111/111 Etiketten der Marke Dr. Oetker im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Wagner Big Sensation Spinach Cheese (tiefgekühlt)",
@@ -7784,7 +7813,7 @@
   "salt_100": 0.96,
   "protein_pack": 35.2,
   "kcal_pack": 736,
-  "manufacturer": null,
+  "manufacturer": "DR. OETKER GMBH, Ringmauergasse 9/1, 9500 Villach, Österreich",
   "producer_id": null,
   "origin": "Deutschland",
   "category": "Pizza",
@@ -7795,7 +7824,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 111/111 Etiketten der Marke Dr. Oetker im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Dr. Oetker Ofenfrische Peperoni Salami (tiefgekühlt)",
@@ -7816,7 +7846,7 @@
   "salt_100": 1.5,
   "protein_pack": 38.2,
   "kcal_pack": 930,
-  "manufacturer": null,
+  "manufacturer": "DR. OETKER GMBH, Ringmauergasse 9/1, 9500 Villach, Österreich",
   "producer_id": null,
   "origin": "Deutschland",
   "category": "Pizza",
@@ -7827,7 +7857,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 111/111 Etiketten der Marke Dr. Oetker im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "followfood BIO Dinkel-Pizza Vegetariana (tiefgekühlt)",
@@ -7848,7 +7879,7 @@
   "salt_100": 1.0,
   "protein_pack": 24.2,
   "kcal_pack": 653,
-  "manufacturer": null,
+  "manufacturer": "followfood GmbH, Friedrichshafen",
   "producer_id": "IT U8681 CE",
   "origin": "Italien",
   "category": "Pizza",
@@ -7860,7 +7891,8 @@
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
   "delivery": "Lieferung nach Linz (Gurkerl.at)",
-  "producer_id_source": "Open Food Facts emb_codes 'FSC-C100466, FSC-C107777, IT U8681 CE' (EAN 4250073453586), 2026-10-13"
+  "producer_id_source": "Open Food Facts emb_codes 'FSC-C100466, FSC-C107777, IT U8681 CE' (EAN 4250073453586), 2026-10-13",
+  "manufacturer_source": "EAN-Zwilling 4250073453586: Etikett-Herstellerangabe einer anderen Zeile/Kette im Datensatz (2026-10-13T20)"
  },
  {
   "name": "Gustavo Gusto Pizza Prosciutto e Funghi (tiefgekühlt)",
@@ -8010,7 +8042,7 @@
   "salt_100": 0.88,
   "protein_pack": 49.5,
   "kcal_pack": 1238,
-  "manufacturer": null,
+  "manufacturer": "Iglo Austria, Marchfelder Str. 2, 2301 Groß-Enzersdorf",
   "producer_id": null,
   "origin": "EU",
   "category": "Pizza",
@@ -8021,7 +8053,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 133/138 Etiketten der Marke Iglo im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Iglo Holy Slice Pepperoni Paradise (tiefgekühlt)",
@@ -8042,7 +8075,7 @@
   "salt_100": 1.2,
   "protein_pack": 53.2,
   "kcal_pack": 1410,
-  "manufacturer": null,
+  "manufacturer": "Iglo Austria, Marchfelder Str. 2, 2301 Groß-Enzersdorf",
   "producer_id": null,
   "origin": "EU",
   "category": "Pizza",
@@ -8053,7 +8086,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 133/138 Etiketten der Marke Iglo im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Iglo Holy Slice Four Cheese Heaven (tiefgekühlt)",
@@ -8074,7 +8108,7 @@
   "salt_100": 0.95,
   "protein_pack": 58.7,
   "kcal_pack": 1410,
-  "manufacturer": null,
+  "manufacturer": "Iglo Austria, Marchfelder Str. 2, 2301 Groß-Enzersdorf",
   "producer_id": null,
   "origin": "EU",
   "category": "Pizza",
@@ -8085,7 +8119,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 133/138 Etiketten der Marke Iglo im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "The Green Garden & gurkerl.at Veni Vidi Veggie! Caesar Salad VEGAN",
@@ -8170,7 +8205,7 @@
   "salt_100": 1.1,
   "protein_pack": 33.0,
   "kcal_pack": 669,
-  "manufacturer": null,
+  "manufacturer": "Iglo Austria, Marchfelder Str. 2, 2301 Groß-Enzersdorf",
   "producer_id": null,
   "origin": "Deutschland",
   "category": "Schlemmerfilets & Backfisch",
@@ -8181,7 +8216,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 133/138 Etiketten der Marke Iglo im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "followfood MSC Schlemmerfilet BIO-Brokkoli-Käse (tiefgekühlt)",
@@ -8330,7 +8366,7 @@
   "salt_100": 1.2,
   "protein_pack": 48.2,
   "kcal_pack": 1146,
-  "manufacturer": null,
+  "manufacturer": "DR. OETKER GMBH, Ringmauergasse 9/1, 9500 Villach, Österreich",
   "producer_id": null,
   "origin": null,
   "category": "Lebensmittel / Tiefkühl / Pizza & Baguette",
@@ -8341,7 +8377,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung MPreis"
+  "delivery": "Lieferung MPreis",
+  "manufacturer_source": "Marken-Konsens: 111/111 Etiketten der Marke Dr. Oetker im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Dr. Oetker Intermezzo Salami Calabrese",
@@ -8362,7 +8399,7 @@
   "salt_100": 1.1,
   "protein_pack": 17.3,
   "kcal_pack": 422,
-  "manufacturer": null,
+  "manufacturer": "DR. OETKER GMBH, Ringmauergasse 9/1, 9500 Villach, Österreich",
   "producer_id": null,
   "origin": null,
   "category": "Lebensmittel / Tiefkühl / Pizza & Baguette",
@@ -8373,7 +8410,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung MPreis"
+  "delivery": "Lieferung MPreis",
+  "manufacturer_source": "Marken-Konsens: 111/111 Etiketten der Marke Dr. Oetker im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Dr. Oetker La Mia Grande Margherita",
@@ -8394,7 +8432,7 @@
   "salt_100": 1.3,
   "protein_pack": 43.2,
   "kcal_pack": 850,
-  "manufacturer": null,
+  "manufacturer": "DR. OETKER GMBH, Ringmauergasse 9/1, 9500 Villach, Österreich",
   "producer_id": null,
   "origin": null,
   "category": "Lebensmittel / Tiefkühl / Pizza & Baguette",
@@ -8405,7 +8443,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung MPreis"
+  "delivery": "Lieferung MPreis",
+  "manufacturer_source": "Marken-Konsens: 111/111 Etiketten der Marke Dr. Oetker im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Dr. Oetker La Mia Grande Salame Piccante",
@@ -8426,7 +8465,7 @@
   "salt_100": 1.5,
   "protein_pack": 45.6,
   "kcal_pack": 946,
-  "manufacturer": null,
+  "manufacturer": "DR. OETKER GMBH, Ringmauergasse 9/1, 9500 Villach, Österreich",
   "producer_id": null,
   "origin": null,
   "category": "Lebensmittel / Tiefkühl / Pizza & Baguette",
@@ -8437,7 +8476,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung MPreis"
+  "delivery": "Lieferung MPreis",
+  "manufacturer_source": "Marken-Konsens: 111/111 Etiketten der Marke Dr. Oetker im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Dr. Oetker Ofenfrische Pepperoni Salami",
@@ -8458,7 +8498,7 @@
   "salt_100": 1.4,
   "protein_pack": 36.9,
   "kcal_pack": 880,
-  "manufacturer": null,
+  "manufacturer": "DR. OETKER GMBH, Ringmauergasse 9/1, 9500 Villach, Österreich",
   "producer_id": null,
   "origin": null,
   "category": "Lebensmittel / Tiefkühl / Pizza & Baguette",
@@ -8469,7 +8509,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung MPreis"
+  "delivery": "Lieferung MPreis",
+  "manufacturer_source": "Marken-Konsens: 111/111 Etiketten der Marke Dr. Oetker im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Dr. Oetker Ofenfrische Salami",
@@ -8490,7 +8531,7 @@
   "salt_100": 1.4,
   "protein_pack": 37.4,
   "kcal_pack": 885,
-  "manufacturer": null,
+  "manufacturer": "DR. OETKER GMBH, Ringmauergasse 9/1, 9500 Villach, Österreich",
   "producer_id": null,
   "origin": null,
   "category": "Lebensmittel / Tiefkühl / Pizza & Baguette",
@@ -8501,7 +8542,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung MPreis"
+  "delivery": "Lieferung MPreis",
+  "manufacturer_source": "Marken-Konsens: 111/111 Etiketten der Marke Dr. Oetker im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Dr. Oetker Ofenfrische Speciale",
@@ -8522,7 +8564,7 @@
   "salt_100": 1.3,
   "protein_pack": 37.8,
   "kcal_pack": 855,
-  "manufacturer": null,
+  "manufacturer": "DR. OETKER GMBH, Ringmauergasse 9/1, 9500 Villach, Österreich",
   "producer_id": null,
   "origin": null,
   "category": "Lebensmittel / Tiefkühl / Pizza & Baguette",
@@ -8533,7 +8575,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung MPreis"
+  "delivery": "Lieferung MPreis",
+  "manufacturer_source": "Marken-Konsens: 111/111 Etiketten der Marke Dr. Oetker im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Dr. Oetker Pizza Tradizionale Margherita",
@@ -8554,7 +8597,7 @@
   "salt_100": 1.0,
   "protein_pack": 34.6,
   "kcal_pack": 833,
-  "manufacturer": null,
+  "manufacturer": "DR. OETKER GMBH, Ringmauergasse 9/1, 9500 Villach, Österreich",
   "producer_id": null,
   "origin": null,
   "category": "Lebensmittel / Tiefkühl / Pizza & Baguette",
@@ -8565,7 +8608,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung MPreis"
+  "delivery": "Lieferung MPreis",
+  "manufacturer_source": "Marken-Konsens: 111/111 Etiketten der Marke Dr. Oetker im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Dr. Oetker Ristorante Diavola",
@@ -8586,7 +8630,7 @@
   "salt_100": 1.3,
   "protein_pack": 31.1,
   "kcal_pack": 844,
-  "manufacturer": null,
+  "manufacturer": "DR. OETKER GMBH, Ringmauergasse 9/1, 9500 Villach, Österreich",
   "producer_id": null,
   "origin": null,
   "category": "Lebensmittel / Tiefkühl / Pizza & Baguette",
@@ -8597,7 +8641,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung MPreis"
+  "delivery": "Lieferung MPreis",
+  "manufacturer_source": "Marken-Konsens: 111/111 Etiketten der Marke Dr. Oetker im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Dr. Oetker Ristorante Mozzarella",
@@ -8618,7 +8663,7 @@
   "salt_100": 1.0,
   "protein_pack": 35.5,
   "kcal_pack": 866,
-  "manufacturer": null,
+  "manufacturer": "DR. OETKER GMBH, Ringmauergasse 9/1, 9500 Villach, Österreich",
   "producer_id": null,
   "origin": null,
   "category": "Lebensmittel / Tiefkühl / Pizza & Baguette",
@@ -8629,7 +8674,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung MPreis"
+  "delivery": "Lieferung MPreis",
+  "manufacturer_source": "Marken-Konsens: 111/111 Etiketten der Marke Dr. Oetker im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Dr. Oetker Ristorante Mozzarella glutenfrei",
@@ -8650,7 +8696,7 @@
   "salt_100": 0.93,
   "protein_pack": 37.0,
   "kcal_pack": 836,
-  "manufacturer": null,
+  "manufacturer": "DR. OETKER GMBH, Ringmauergasse 9/1, 9500 Villach, Österreich",
   "producer_id": null,
   "origin": null,
   "category": "Lebensmittel / Tiefkühl / Pizza & Baguette",
@@ -8661,7 +8707,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung MPreis"
+  "delivery": "Lieferung MPreis",
+  "manufacturer_source": "Marken-Konsens: 111/111 Etiketten der Marke Dr. Oetker im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Dr. Oetker Ristorante Pepperoni-Salami",
@@ -8682,7 +8729,7 @@
   "salt_100": 1.3,
   "protein_pack": 32.0,
   "kcal_pack": 838,
-  "manufacturer": null,
+  "manufacturer": "DR. OETKER GMBH, Ringmauergasse 9/1, 9500 Villach, Österreich",
   "producer_id": null,
   "origin": null,
   "category": "Lebensmittel / Tiefkühl / Pizza & Baguette",
@@ -8693,7 +8740,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung MPreis"
+  "delivery": "Lieferung MPreis",
+  "manufacturer_source": "Marken-Konsens: 111/111 Etiketten der Marke Dr. Oetker im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Dr. Oetker Ristorante Prosciutto",
@@ -8714,7 +8762,7 @@
   "salt_100": 1.2,
   "protein_pack": 33.7,
   "kcal_pack": 782,
-  "manufacturer": null,
+  "manufacturer": "DR. OETKER GMBH, Ringmauergasse 9/1, 9500 Villach, Österreich",
   "producer_id": null,
   "origin": null,
   "category": "Lebensmittel / Tiefkühl / Pizza & Baguette",
@@ -8725,7 +8773,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung MPreis"
+  "delivery": "Lieferung MPreis",
+  "manufacturer_source": "Marken-Konsens: 111/111 Etiketten der Marke Dr. Oetker im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Dr. Oetker Ristorante Quattro Formaggi",
@@ -8746,7 +8795,7 @@
   "salt_100": 1.0,
   "protein_pack": 37.4,
   "kcal_pack": 874,
-  "manufacturer": null,
+  "manufacturer": "DR. OETKER GMBH, Ringmauergasse 9/1, 9500 Villach, Österreich",
   "producer_id": null,
   "origin": null,
   "category": "Lebensmittel / Tiefkühl / Pizza & Baguette",
@@ -8757,7 +8806,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung MPreis"
+  "delivery": "Lieferung MPreis",
+  "manufacturer_source": "Marken-Konsens: 111/111 Etiketten der Marke Dr. Oetker im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Dr. Oetker Ristorante Salami",
@@ -8778,7 +8828,7 @@
   "salt_100": 1.3,
   "protein_pack": 32.0,
   "kcal_pack": 854,
-  "manufacturer": null,
+  "manufacturer": "DR. OETKER GMBH, Ringmauergasse 9/1, 9500 Villach, Österreich",
   "producer_id": null,
   "origin": null,
   "category": "Lebensmittel / Tiefkühl / Pizza & Baguette",
@@ -8789,7 +8839,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung MPreis"
+  "delivery": "Lieferung MPreis",
+  "manufacturer_source": "Marken-Konsens: 111/111 Etiketten der Marke Dr. Oetker im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Dr. Oetker Ristorante Spinaci",
@@ -8810,7 +8861,7 @@
   "salt_100": 0.98,
   "protein_pack": 27.7,
   "kcal_pack": 862,
-  "manufacturer": null,
+  "manufacturer": "DR. OETKER GMBH, Ringmauergasse 9/1, 9500 Villach, Österreich",
   "producer_id": null,
   "origin": null,
   "category": "Lebensmittel / Tiefkühl / Pizza & Baguette",
@@ -8821,7 +8872,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung MPreis"
+  "delivery": "Lieferung MPreis",
+  "manufacturer_source": "Marken-Konsens: 111/111 Etiketten der Marke Dr. Oetker im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Dr. Oetker Ristorante Tonno",
@@ -8842,7 +8894,7 @@
   "salt_100": 0.94,
   "protein_pack": 35.5,
   "kcal_pack": 824,
-  "manufacturer": null,
+  "manufacturer": "DR. OETKER GMBH, Ringmauergasse 9/1, 9500 Villach, Österreich",
   "producer_id": null,
   "origin": null,
   "category": "Lebensmittel / Tiefkühl / Pizza & Baguette",
@@ -8853,7 +8905,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung MPreis"
+  "delivery": "Lieferung MPreis",
+  "manufacturer_source": "Marken-Konsens: 111/111 Etiketten der Marke Dr. Oetker im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Dr. Oetker Salame Romano",
@@ -8874,7 +8927,7 @@
   "salt_100": 1.4,
   "protein_pack": 48.7,
   "kcal_pack": 1140,
-  "manufacturer": null,
+  "manufacturer": "DR. OETKER GMBH, Ringmauergasse 9/1, 9500 Villach, Österreich",
   "producer_id": null,
   "origin": null,
   "category": "Lebensmittel / Tiefkühl / Pizza & Baguette",
@@ -8885,7 +8938,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung MPreis"
+  "delivery": "Lieferung MPreis",
+  "manufacturer_source": "Marken-Konsens: 111/111 Etiketten der Marke Dr. Oetker im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Dr. Oetker Suprema Margherita",
@@ -8906,7 +8960,7 @@
   "salt_100": 1.2,
   "protein_pack": 47.5,
   "kcal_pack": 1097,
-  "manufacturer": null,
+  "manufacturer": "DR. OETKER GMBH, Ringmauergasse 9/1, 9500 Villach, Österreich",
   "producer_id": null,
   "origin": null,
   "category": "Lebensmittel / Tiefkühl / Pizza & Baguette",
@@ -8917,7 +8971,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung MPreis"
+  "delivery": "Lieferung MPreis",
+  "manufacturer_source": "Marken-Konsens: 111/111 Etiketten der Marke Dr. Oetker im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Dr. Oetker Tradizionale Diavola Calabrese",
@@ -8938,7 +8993,7 @@
   "salt_100": 1.3,
   "protein_pack": 32.0,
   "kcal_pack": 850,
-  "manufacturer": null,
+  "manufacturer": "DR. OETKER GMBH, Ringmauergasse 9/1, 9500 Villach, Österreich",
   "producer_id": null,
   "origin": null,
   "category": "Lebensmittel / Tiefkühl / Pizza & Baguette",
@@ -8949,7 +9004,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung MPreis"
+  "delivery": "Lieferung MPreis",
+  "manufacturer_source": "Marken-Konsens: 111/111 Etiketten der Marke Dr. Oetker im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Dr. Oetker Tradizionale Salame Romano",
@@ -8970,7 +9026,7 @@
   "salt_100": 1.2,
   "protein_pack": 37.0,
   "kcal_pack": 928,
-  "manufacturer": null,
+  "manufacturer": "DR. OETKER GMBH, Ringmauergasse 9/1, 9500 Villach, Österreich",
   "producer_id": null,
   "origin": null,
   "category": "Lebensmittel / Tiefkühl / Pizza & Baguette",
@@ -8981,7 +9037,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung MPreis"
+  "delivery": "Lieferung MPreis",
+  "manufacturer_source": "Marken-Konsens: 111/111 Etiketten der Marke Dr. Oetker im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Gustavo Gusto Amore Napoli Diavola",
@@ -9066,7 +9123,7 @@
   "salt_100": 1.2,
   "protein_pack": 53.2,
   "kcal_pack": 1410,
-  "manufacturer": null,
+  "manufacturer": "Iglo Austria, Marchfelder Str. 2, 2301 Groß-Enzersdorf",
   "producer_id": null,
   "origin": null,
   "category": "Lebensmittel / Tiefkühl / Pizza & Baguette",
@@ -9077,7 +9134,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung MPreis"
+  "delivery": "Lieferung MPreis",
+  "manufacturer_source": "Marken-Konsens: 133/138 Etiketten der Marke Iglo im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Jeden Tag Steinofen Pizza Diavolo 2er-pack",
@@ -9323,7 +9381,7 @@
   "salt_100": 0.87,
   "protein_pack": 24.5,
   "kcal_pack": 560,
-  "manufacturer": null,
+  "manufacturer": "Iglo Austria, Marchfelder Str. 2, 2301 Groß-Enzersdorf",
   "producer_id": null,
   "origin": null,
   "category": "Lebensmittel / Tiefkühl / Fertiggerichte",
@@ -9334,7 +9392,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung MPreis"
+  "delivery": "Lieferung MPreis",
+  "manufacturer_source": "Marken-Konsens: 133/138 Etiketten der Marke Iglo im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Iglo Selchfleischknödel",
@@ -9355,7 +9414,7 @@
   "salt_100": 1.2,
   "protein_pack": 31.2,
   "kcal_pack": 696,
-  "manufacturer": null,
+  "manufacturer": "Iglo Austria, Marchfelder Str. 2, 2301 Groß-Enzersdorf",
   "producer_id": null,
   "origin": null,
   "category": "Lebensmittel / Tiefkühl / Fertiggerichte",
@@ -9366,7 +9425,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung MPreis"
+  "delivery": "Lieferung MPreis",
+  "manufacturer_source": "Marken-Konsens: 133/138 Etiketten der Marke Iglo im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Jeden Tag Lasagne Bolognese",
@@ -11663,7 +11723,7 @@
   "salt_100": 0.54,
   "protein_pack": 5.1,
   "kcal_pack": 155,
-  "manufacturer": null,
+  "manufacturer": "Unilever Austria, Postfach 10, 1023 Wien",
   "producer_id": null,
   "origin": "Deutschland",
   "category": "Instant-Nudeln/Cup",
@@ -11674,7 +11734,8 @@
   "packaging": "Trocken/Instant",
   "packaging_hint": "Trocken/Instant",
   "is_meal": true,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 130/130 Etiketten der Marke Knorr im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Buldak Ramen Cheese",
@@ -11759,7 +11820,7 @@
   "salt_100": 1.2,
   "protein_pack": 15.2,
   "kcal_pack": 376,
-  "manufacturer": null,
+  "manufacturer": "Maresi Austria GmbH, Postfach 111, A-1131 Wien",
   "producer_id": null,
   "origin": "Österreich",
   "category": "Dose/Fertiggericht",
@@ -11770,7 +11831,8 @@
   "packaging": "Dose/Konserve",
   "packaging_hint": "Dose/Konserve",
   "is_meal": true,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "EAN-Zwilling 9017100001463: Etikett-Herstellerangabe einer anderen Zeile/Kette im Datensatz (2026-10-13T20)"
  },
  {
   "name": "Inzersdorfer Bohnengulasch",
@@ -11791,7 +11853,7 @@
   "salt_100": 1.1,
   "protein_pack": 22.8,
   "kcal_pack": 556,
-  "manufacturer": null,
+  "manufacturer": "Maresi Austria GmbH, Postfach 111, A-1131 Wien",
   "producer_id": null,
   "origin": "Österreich",
   "category": "Dose/Fertiggericht",
@@ -11802,7 +11864,8 @@
   "packaging": "Dose/Konserve",
   "packaging_hint": "Dose/Konserve",
   "is_meal": true,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 57/57 Etiketten der Marke Inzersdorfer im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Knorr Meisterkessel Feurige Gulaschsuppe",
@@ -11951,7 +12014,7 @@
   "salt_100": 1.3,
   "protein_pack": 27.2,
   "kcal_pack": 640,
-  "manufacturer": null,
+  "manufacturer": "FELIX Austria GmbH, Felixstr. 24, A- 7210 Mattersburg",
   "producer_id": null,
   "origin": "Österreich",
   "category": "Suppe/Eintopf",
@@ -11962,7 +12025,8 @@
   "packaging": "Dose/Konserve",
   "packaging_hint": "Dose/Konserve",
   "is_meal": true,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "EAN-Zwilling 9000295832127: Etikett-Herstellerangabe einer anderen Zeile/Kette im Datensatz (2026-10-13T20)"
  },
  {
   "name": "Felix Fleischravioli",
@@ -12048,7 +12112,7 @@
   "salt_100": 1.2,
   "protein_pack": 21.6,
   "kcal_pack": 346,
-  "manufacturer": null,
+  "manufacturer": "Maresi Austria GmbH, Postfach 111, A-1131 Wien",
   "producer_id": null,
   "origin": "Österreich",
   "category": "Fertiggericht",
@@ -12059,7 +12123,8 @@
   "packaging": "Dose/Konserve",
   "packaging_hint": "Dose/Konserve",
   "is_meal": true,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 57/57 Etiketten der Marke Inzersdorfer im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Felix Chili con Carne",
@@ -12976,7 +13041,7 @@
   "salt_100": 1.0,
   "protein_pack": 58.5,
   "kcal_pack": 878,
-  "manufacturer": null,
+  "manufacturer": "Iglo Austria, Marchfelder Str. 2, 2301 Groß-Enzersdorf",
   "producer_id": "DE HB-00145 EG",
   "origin": "Deutschland",
   "category": "TK-Fisch",
@@ -12988,7 +13053,8 @@
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
   "delivery": "Lieferung nach Linz (Gurkerl.at)",
-  "producer_id_source": "Open Food Facts emb_codes 'DE HB-00145 EG' (EAN 9000143140329), 2026-10-13"
+  "producer_id_source": "Open Food Facts emb_codes 'DE HB-00145 EG' (EAN 9000143140329), 2026-10-13",
+  "manufacturer_source": "Marken-Konsens: 133/138 Etiketten der Marke iglo im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Iglo MSC 28 Fischstäbchen Vorteilspackung (tiefgekühlt)",
@@ -13009,7 +13075,7 @@
   "salt_100": 1.0,
   "protein_pack": 109.2,
   "kcal_pack": 1638,
-  "manufacturer": null,
+  "manufacturer": "Iglo Austria, Marchfelder Str. 2, 2301 Groß-Enzersdorf",
   "producer_id": null,
   "origin": "Deutschland",
   "category": "TK-Fisch",
@@ -13020,7 +13086,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 133/138 Etiketten der Marke iglo im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Iglo MSC 13 Backfischstäbchen (tiefgekühlt)",
@@ -13041,7 +13108,7 @@
   "salt_100": 1.0,
   "protein_pack": 40.0,
   "kcal_pack": 837,
-  "manufacturer": null,
+  "manufacturer": "Iglo Austria, Marchfelder Str. 2, 2301 Groß-Enzersdorf",
   "producer_id": null,
   "origin": "Deutschland",
   "category": "TK-Fisch",
@@ -13052,7 +13119,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 133/138 Etiketten der Marke iglo im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "followfood MSC 10 Kabeljau Fischstäbchen (tiefgekühlt)",
@@ -13106,7 +13174,7 @@
   "salt_100": 0.96,
   "protein_pack": 46.8,
   "kcal_pack": 734,
-  "manufacturer": null,
+  "manufacturer": "Iglo Austria, Marchfelder Str. 2, 2301 Groß-Enzersdorf",
   "producer_id": null,
   "origin": "Deutschland",
   "category": "TK-Fisch",
@@ -13117,7 +13185,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 133/138 Etiketten der Marke iglo im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Marks & Spencer Made Without 9 Cod Fish Fingers glutenfrei (tiefgekühlt)",
@@ -13138,7 +13207,7 @@
   "salt_100": 0.83,
   "protein_pack": 43.5,
   "kcal_pack": 711,
-  "manufacturer": null,
+  "manufacturer": "Marks and Spencer Services, Jemnická 1138/1, 14000 Prag, Tschechien",
   "producer_id": null,
   "origin": "Großbritannien",
   "category": "TK-Fisch",
@@ -13149,7 +13218,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 9/9 Etiketten der Marke Marks & Spencer im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Marks & Spencer 4 Breaded Haddock Fillets (tiefgekühlt)",
@@ -13170,7 +13240,7 @@
   "salt_100": 0.55,
   "protein_pack": 71.5,
   "kcal_pack": 870,
-  "manufacturer": null,
+  "manufacturer": "Marks and Spencer Services, Jemnická 1138/1, 14000 Prag, Tschechien",
   "producer_id": null,
   "origin": "Großbritannien",
   "category": "TK-Fisch",
@@ -13181,7 +13251,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 9/9 Etiketten der Marke Marks & Spencer im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Marks & Spencer 6 Breaded Jumbo Cod Fish Fingers (tiefgekühlt)",
@@ -13266,7 +13337,7 @@
   "salt_100": 1.2,
   "protein_pack": 36.0,
   "kcal_pack": 510,
-  "manufacturer": null,
+  "manufacturer": "Iglo Austria, Marchfelder Str. 2, 2301 Groß-Enzersdorf",
   "producer_id": null,
   "origin": "Deutschland",
   "category": "TK-Fisch",
@@ -13277,7 +13348,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 133/138 Etiketten der Marke iglo im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "iglo ASC Ofenbackfisch Vorteilspackung (tiefgekühlt)",
@@ -13298,7 +13370,7 @@
   "salt_100": 0.88,
   "protein_pack": 52.8,
   "kcal_pack": 1186,
-  "manufacturer": null,
+  "manufacturer": "Iglo Austria, Marchfelder Str. 2, 2301 Groß-Enzersdorf",
   "producer_id": null,
   "origin": "Deutschland",
   "category": "TK-Fisch",
@@ -13309,7 +13381,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 133/138 Etiketten der Marke iglo im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Iglo MSC Filegro Müllerin XL (tiefgekühlt)",
@@ -13330,7 +13403,7 @@
   "salt_100": 1.1,
   "protein_pack": 75.0,
   "kcal_pack": 500,
-  "manufacturer": null,
+  "manufacturer": "Iglo Austria, Marchfelder Str. 2, 2301 Groß-Enzersdorf",
   "producer_id": null,
   "origin": "Deutschland",
   "category": "TK-Fisch",
@@ -13341,7 +13414,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 133/138 Etiketten der Marke iglo im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Iglo MSC Pazifischer Polar-Dorsch Müllerin (tiefgekühlt)",
@@ -13362,7 +13436,7 @@
   "salt_100": 1.0,
   "protein_pack": 42.0,
   "kcal_pack": 432,
-  "manufacturer": null,
+  "manufacturer": "Iglo Austria, Marchfelder Str. 2, 2301 Groß-Enzersdorf",
   "producer_id": "DE HB-00145 EG",
   "origin": "Deutschland",
   "category": "TK-Fisch",
@@ -13374,7 +13448,8 @@
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
   "delivery": "Lieferung nach Linz (Gurkerl.at)",
-  "producer_id_source": "Open Food Facts emb_codes 'DE HB-00145 EG' (EAN 9000143279326), 2026-10-13"
+  "producer_id_source": "Open Food Facts emb_codes 'DE HB-00145 EG' (EAN 9000143279326), 2026-10-13",
+  "manufacturer_source": "Marken-Konsens: 133/138 Etiketten der Marke iglo im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Iglo MSC Pazifischer Polar-Dorsch, paniert (tiefgekühlt)",
@@ -13395,7 +13470,7 @@
   "salt_100": 1.1,
   "protein_pack": 56.0,
   "kcal_pack": 792,
-  "manufacturer": null,
+  "manufacturer": "Iglo Austria, Marchfelder Str. 2, 2301 Groß-Enzersdorf",
   "producer_id": null,
   "origin": "Deutschland",
   "category": "TK-Fisch",
@@ -13406,7 +13481,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 133/138 Etiketten der Marke iglo im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Iglo ASC Goldschatz Käse-Kräuter Vorteilspackung (tiefgekühlt)",
@@ -13427,7 +13503,7 @@
   "salt_100": 0.81,
   "protein_pack": 78.0,
   "kcal_pack": 1650,
-  "manufacturer": null,
+  "manufacturer": "Iglo Austria, Marchfelder Str. 2, 2301 Groß-Enzersdorf",
   "producer_id": null,
   "origin": "Deutschland",
   "category": "TK-Fisch",
@@ -13438,7 +13514,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 133/138 Etiketten der Marke iglo im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Marks & Spencer 4 Breaded Cod Fillets (tiefgekühlt)",
@@ -13684,7 +13761,7 @@
   "salt_100": 0.84,
   "protein_pack": 26.5,
   "kcal_pack": 970,
-  "manufacturer": null,
+  "manufacturer": "Iglo Austria, Marchfelder Str. 2, 2301 Groß-Enzersdorf",
   "producer_id": null,
   "origin": "Holland",
   "category": "Vorspeise (Gebackenes)",
@@ -13695,7 +13772,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 133/138 Etiketten der Marke iglo im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Iglo Hühner Nuggets Vorteilspackung (tiefgekühlt)",
@@ -13716,7 +13794,7 @@
   "salt_100": 1.0,
   "protein_pack": 81.2,
   "kcal_pack": 1581,
-  "manufacturer": null,
+  "manufacturer": "Iglo Austria, Marchfelder Str. 2, 2301 Groß-Enzersdorf",
   "producer_id": null,
   "origin": "Spanien",
   "category": "Paniert/Nuggets",
@@ -13727,7 +13805,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 133/138 Etiketten der Marke iglo im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Iglo Hühner Sticks (tiefgekühlt)",
@@ -13748,7 +13827,7 @@
   "salt_100": 1.0,
   "protein_pack": 35.0,
   "kcal_pack": 655,
-  "manufacturer": null,
+  "manufacturer": "Iglo Austria, Marchfelder Str. 2, 2301 Groß-Enzersdorf",
   "producer_id": null,
   "origin": "Spanien",
   "category": "Paniert/Nuggets",
@@ -13759,7 +13838,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 133/138 Etiketten der Marke iglo im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Iglo Green Cuisine Vegetarische Nuggets (tiefgekühlt)",
@@ -13780,7 +13860,7 @@
   "salt_100": 1.2,
   "protein_pack": 24.8,
   "kcal_pack": 688,
-  "manufacturer": null,
+  "manufacturer": "Iglo Austria, Marchfelder Str. 2, 2301 Groß-Enzersdorf",
   "producer_id": null,
   "origin": "EU",
   "category": "Paniert/Nuggets",
@@ -13791,7 +13871,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 133/138 Etiketten der Marke iglo im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Iglo Safari Abenteuer (tiefgekühlt)",
@@ -13812,7 +13893,7 @@
   "salt_100": 1.1,
   "protein_pack": 35.0,
   "kcal_pack": 658,
-  "manufacturer": null,
+  "manufacturer": "Iglo Austria, Marchfelder Str. 2, 2301 Groß-Enzersdorf",
   "producer_id": null,
   "origin": "Spanien",
   "category": "Paniert/Nuggets",
@@ -13823,7 +13904,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 133/138 Etiketten der Marke iglo im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Iglo Erdäpfeltascherl Frischkäse-Kräuter (tiefgekühlt)",
@@ -13844,7 +13926,7 @@
   "salt_100": 1.5,
   "protein_pack": 9.3,
   "kcal_pack": 570,
-  "manufacturer": null,
+  "manufacturer": "Iglo Austria, Marchfelder Str. 2, 2301 Groß-Enzersdorf",
   "producer_id": null,
   "origin": "Österreich",
   "category": "TK-Erdäpfeltascherl",
@@ -13855,7 +13937,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 133/138 Etiketten der Marke iglo im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Iglo Erdäpfeltascherl Schinken-Käse (tiefgekühlt)",
@@ -13876,7 +13959,7 @@
   "salt_100": 1.4,
   "protein_pack": 11.7,
   "kcal_pack": 525,
-  "manufacturer": null,
+  "manufacturer": "Iglo Austria, Marchfelder Str. 2, 2301 Groß-Enzersdorf",
   "producer_id": null,
   "origin": "EU",
   "category": "TK-Erdäpfeltascherl",
@@ -13887,7 +13970,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 133/138 Etiketten der Marke iglo im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Iglo Green Cuisine Broccoli-Laibchen (tiefgekühlt)",
@@ -13940,7 +14024,7 @@
   "salt_100": 0.95,
   "protein_pack": 11.4,
   "kcal_pack": 484,
-  "manufacturer": null,
+  "manufacturer": "Iglo Austria, Marchfelder Str. 2, 2301 Groß-Enzersdorf",
   "producer_id": null,
   "origin": "Spanien",
   "category": "TK-Gemüselaibchen",
@@ -13951,7 +14035,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 133/138 Etiketten der Marke iglo im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Iglo Green Cuisine 4 Karfiol-Käse-Laibchen (tiefgekühlt)",
@@ -13972,7 +14057,7 @@
   "salt_100": 1.3,
   "protein_pack": 25.8,
   "kcal_pack": 711,
-  "manufacturer": null,
+  "manufacturer": "Iglo Austria, Marchfelder Str. 2, 2301 Groß-Enzersdorf",
   "producer_id": null,
   "origin": "EU",
   "category": "TK-Gemüselaibchen",
@@ -13983,7 +14068,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 133/138 Etiketten der Marke iglo im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "iglo Green Cuisine Spinatstangerl (tiefgekühlt)",
@@ -14004,7 +14090,7 @@
   "salt_100": 1.0,
   "protein_pack": 17.0,
   "kcal_pack": 679,
-  "manufacturer": null,
+  "manufacturer": "Iglo Austria, Marchfelder Str. 2, 2301 Groß-Enzersdorf",
   "producer_id": null,
   "origin": "Deutschland",
   "category": "TK-Gemüselaibchen",
@@ -14015,7 +14101,8 @@
   "packaging": "Tiefkühl (TK)",
   "packaging_hint": "Tiefkühl (TK)",
   "is_meal": true,
-  "delivery": "Lieferung nach Linz (Gurkerl.at)"
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "manufacturer_source": "Marken-Konsens: 133/138 Etiketten der Marke iglo im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Alpenhain Back - Mozzarella Sticks mit Tomatendip",
@@ -14881,7 +14968,7 @@
   "salt_100": 1.7,
   "protein_pack": 27.2,
   "kcal_pack": 488,
-  "manufacturer": null,
+  "manufacturer": "Maresi Austria GmbH, Postfach 111, A-1131 Wien",
   "producer_id": null,
   "origin": "Österreich",
   "category": "Dosengerichte",
@@ -14893,7 +14980,8 @@
   "packaging_hint": "Konserve/Dose (ungekühlt)",
   "is_meal": true,
   "delivery": "Lieferung nach Linz (Gurkerl.at)",
-  "added_slot": "2026-10-13T16"
+  "added_slot": "2026-10-13T16",
+  "manufacturer_source": "Marken-Konsens: 57/57 Etiketten der Marke Inzersdorfer im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Inzersdorfer Reisfleisch",
@@ -14914,7 +15002,7 @@
   "salt_100": 1.2,
   "protein_pack": 26.8,
   "kcal_pack": 724,
-  "manufacturer": null,
+  "manufacturer": "Maresi Austria GmbH, Postfach 111, A-1131 Wien",
   "producer_id": null,
   "origin": "Österreich",
   "category": "Dosengerichte",
@@ -14926,7 +15014,8 @@
   "packaging_hint": "Konserve/Dose (ungekühlt)",
   "is_meal": true,
   "delivery": "Lieferung nach Linz (Gurkerl.at)",
-  "added_slot": "2026-10-13T16"
+  "added_slot": "2026-10-13T16",
+  "manufacturer_source": "Marken-Konsens: 57/57 Etiketten der Marke Inzersdorfer im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Wagner AirFryer Snack Salami (tiefgekühlt)",
@@ -18831,7 +18920,7 @@
   "packaging": "Tiefkühl (TK)",
   "is_meal": true,
   "ean": null,
-  "manufacturer": null,
+  "manufacturer": "Iglo Austria, Marchfelder Str. 2, 2301 Groß-Enzersdorf",
   "producer_id": null,
   "kcal_100": 188.0,
   "protein_100": 7.9,
@@ -18854,7 +18943,8 @@
   "unit_price_text": "(100 g = 1,00-1,14)",
   "size_source": "packshot on tile",
   "delivery": "Nah&Frisch Märkte AT (teilnehmende Kaufleute)",
-  "added_slot": "2026-10-13T20b"
+  "added_slot": "2026-10-13T20b",
+  "manufacturer_source": "Marken-Konsens: 133/138 Etiketten der Marke iglo im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  },
  {
   "name": "Inzersdorfer Rindsgulasch",
@@ -19083,5 +19173,713 @@
   "size_source": "twin BILLA pack size",
   "delivery": "Nah&Frisch Märkte AT (teilnehmende Kaufleute)",
   "added_slot": "2026-10-13T20b"
+ },
+ {
+  "name": "Frank Juice Bio Brokkoli Suppe",
+  "brand": "Frank Juice",
+  "store": "MPreis",
+  "price_eur": 3.99,
+  "size_g": 560.0,
+  "price_per_kg": 7.12,
+  "url": "https://www.mpreis.at/shop/p/frank-juice-bio-brokkoli-suppe-367103",
+  "image_url": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1769610407/api/custom/367103_front.jpg",
+  "kcal_100": 88.0,
+  "protein_100": 1.7,
+  "fat_100": 5.9,
+  "satfat_100": 0.8,
+  "carbs_100": 6.3,
+  "sugar_100": 3.4,
+  "fiber_100": null,
+  "salt_100": 0.79,
+  "protein_pack": 9.5,
+  "kcal_pack": 493,
+  "manufacturer": null,
+  "producer_id": null,
+  "origin": null,
+  "category": "Suppe/Eintopf",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)",
+  "price_date": "2026-10-13",
+  "nut_source": "Open Food Facts nutriments je 100 g für identische EAN 4260434440452 ('frank. Brokkoli & the gang Brokkoli, Cashewnuss, Dattel 4260434440452 Bio Brokkolisuppe mit Cashewnüssen und Datteln', Menge 'None'); MPreis-Seite ohne Nährwerttabelle 2026-10-13",
+  "ean": "4260434440452",
+  "packaging": null,
+  "packaging_hint": null,
+  "is_meal": true,
+  "delivery": "MPreis Filiale Linz / MPreis Shop (AT)",
+  "added_slot": "2026-10-13T20"
+ },
+ {
+  "name": "Frank Juice Bio Süßkartoffel Suppe",
+  "brand": "Frank Juice",
+  "store": "MPreis",
+  "price_eur": 3.99,
+  "size_g": 560.0,
+  "price_per_kg": 7.12,
+  "url": "https://www.mpreis.at/shop/p/frank-juice-bio-suesskartoffel-suppe-367102",
+  "image_url": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1769610405/api/custom/367102_front.jpg",
+  "kcal_100": 59.0,
+  "protein_100": 1.2,
+  "fat_100": 2.2,
+  "satfat_100": 1.8,
+  "carbs_100": 8.7,
+  "sugar_100": 2.7,
+  "fiber_100": 1.6,
+  "salt_100": 1.2,
+  "protein_pack": 6.7,
+  "kcal_pack": 330,
+  "manufacturer": null,
+  "producer_id": null,
+  "origin": null,
+  "category": "Suppe/Eintopf",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)",
+  "price_date": "2026-10-13",
+  "nut_source": "Open Food Facts nutriments je 100 g für identische EAN 4260434440803 ('Frank. Soup Süßkartoffel KirchererbseMango Curry 4260434440803 Bio Süßkartoffelcremesuppe', Menge 'None'); MPreis-Seite ohne Nährwerttabelle 2026-10-13",
+  "ean": "4260434440803",
+  "packaging": null,
+  "packaging_hint": null,
+  "is_meal": true,
+  "delivery": "MPreis Filiale Linz / MPreis Shop (AT)",
+  "added_slot": "2026-10-13T20"
+ },
+ {
+  "name": "Frank Juice Bio Tomaten Suppe",
+  "brand": "Frank Juice",
+  "store": "MPreis",
+  "price_eur": 3.99,
+  "size_g": 560.0,
+  "price_per_kg": 7.12,
+  "url": "https://www.mpreis.at/shop/p/frank-juice-bio-tomaten-suppe-367101",
+  "image_url": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1769610405/api/custom/367101_front.jpg",
+  "kcal_100": 48.0,
+  "protein_100": 0.9,
+  "fat_100": 2.7,
+  "satfat_100": 0.4,
+  "carbs_100": 5.0,
+  "sugar_100": 4.3,
+  "fiber_100": 1.6,
+  "salt_100": 0.91,
+  "protein_pack": 5.0,
+  "kcal_pack": 269,
+  "manufacturer": null,
+  "producer_id": null,
+  "origin": null,
+  "category": "Suppe/Eintopf",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)",
+  "price_date": "2026-10-13",
+  "nut_source": "Open Food Facts nutriments je 100 g für identische EAN 4260434440469 ('Tomate gemuse', Menge 'None'); MPreis-Seite ohne Nährwerttabelle 2026-10-13",
+  "ean": "4260434440469",
+  "packaging": null,
+  "packaging_hint": null,
+  "is_meal": true,
+  "delivery": "MPreis Filiale Linz / MPreis Shop (AT)",
+  "added_slot": "2026-10-13T20"
+ },
+ {
+  "name": "Blasko Putenschnitzel gebacken",
+  "brand": "Blasko",
+  "store": "MPreis",
+  "price_eur": 10.99,
+  "size_g": 600.0,
+  "price_per_kg": 18.32,
+  "url": "https://www.mpreis.at/shop/p/blasko-putenschnitzel-gebacken-80354",
+  "image_url": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1779633312/api/80354_front.jpg",
+  "kcal_100": 206.0,
+  "protein_100": 17.0,
+  "fat_100": 8.9,
+  "satfat_100": 1.3,
+  "carbs_100": 14.0,
+  "sugar_100": 0.5,
+  "fiber_100": 1.0,
+  "salt_100": 1.0,
+  "protein_pack": 102.0,
+  "kcal_pack": 1236,
+  "manufacturer": null,
+  "producer_id": null,
+  "origin": null,
+  "category": "Paniert/Nuggets",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)",
+  "price_date": "2026-10-13",
+  "nut_source": "MPreis Shop Produktseite, Nährwerte je 100 g (unzubereitet) 2026-10-13",
+  "ean": "9002931072157",
+  "packaging": "Tiefkühl (TK)",
+  "packaging_hint": "Tiefkühl (TK)",
+  "is_meal": true,
+  "delivery": "MPreis Filiale Linz / MPreis Shop (AT)",
+  "added_slot": "2026-10-13T20"
+ },
+ {
+  "name": "Blasko Hühner Cordon Bleu",
+  "brand": "Blasko",
+  "store": "MPreis",
+  "price_eur": 11.49,
+  "size_g": 670.0,
+  "price_per_kg": 17.15,
+  "url": "https://www.mpreis.at/shop/p/blasko-huehner-cordon-bleu-80363",
+  "image_url": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1768486430/api/80363_front.jpg",
+  "kcal_100": 186.0,
+  "protein_100": 18.0,
+  "fat_100": 8.3,
+  "satfat_100": 2.3,
+  "carbs_100": 9.3,
+  "sugar_100": 0.6,
+  "fiber_100": 1.0,
+  "salt_100": 1.5,
+  "protein_pack": 120.6,
+  "kcal_pack": 1246,
+  "manufacturer": null,
+  "producer_id": null,
+  "origin": null,
+  "category": "Paniert/Nuggets",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)",
+  "price_date": "2026-10-13",
+  "nut_source": "MPreis Shop Produktseite, Nährwerte je 100 g (unzubereitet) 2026-10-13",
+  "ean": "9002931072027",
+  "packaging": "Tiefkühl (TK)",
+  "packaging_hint": "Tiefkühl (TK)",
+  "is_meal": true,
+  "delivery": "MPreis Filiale Linz / MPreis Shop (AT)",
+  "added_slot": "2026-10-13T20"
+ },
+ {
+  "name": "Iglo Ofenbackfisch MSC",
+  "brand": "Iglo",
+  "store": "MPreis",
+  "price_eur": 6.49,
+  "size_g": 240.0,
+  "price_per_kg": 27.04,
+  "url": "https://www.mpreis.at/shop/p/iglo-ofenbackfisch-msc-811063",
+  "image_url": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1790384583/api/811063_angle.jpg",
+  "kcal_100": 238.0,
+  "protein_100": 11.0,
+  "fat_100": 13.0,
+  "satfat_100": 1.0,
+  "carbs_100": 19.0,
+  "sugar_100": 0.5,
+  "fiber_100": 0.6,
+  "salt_100": 0.85,
+  "protein_pack": 26.4,
+  "kcal_pack": 571,
+  "manufacturer": "Iglo Austria, Marchfelder Str. 2, 2301 Groß-Enzersdorf",
+  "producer_id": null,
+  "origin": null,
+  "category": "TK-Fisch",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)",
+  "price_date": "2026-10-13",
+  "nut_source": "MPreis Shop Produktseite, Nährwerte je 100 g (unzubereitet) 2026-10-13",
+  "ean": "9008695954029",
+  "packaging": "Tiefkühl (TK)",
+  "packaging_hint": "Tiefkühl (TK)",
+  "is_meal": true,
+  "delivery": "MPreis Filiale Linz / MPreis Shop (AT)",
+  "added_slot": "2026-10-13T20",
+  "manufacturer_source": "Marken-Konsens: 133/138 Etiketten der Marke Iglo im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
+ },
+ {
+  "name": "Iglo Ofenbackfisch Vorteilpackung MSC",
+  "brand": "Iglo",
+  "store": "MPreis",
+  "price_eur": 7.99,
+  "size_g": 480.0,
+  "price_per_kg": 16.65,
+  "url": "https://www.mpreis.at/shop/p/iglo-ofenbackfisch-vorteilpackung-msc-812076",
+  "image_url": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1790384587/api/812076_angle.jpg",
+  "kcal_100": 238.0,
+  "protein_100": 11.0,
+  "fat_100": 13.0,
+  "satfat_100": 1.0,
+  "carbs_100": 19.0,
+  "sugar_100": 0.5,
+  "fiber_100": 0.6,
+  "salt_100": 0.85,
+  "protein_pack": 52.8,
+  "kcal_pack": 1142,
+  "manufacturer": "Iglo Austria, Marchfelder Str. 2, 2301 Groß-Enzersdorf",
+  "producer_id": null,
+  "origin": null,
+  "category": "TK-Fisch",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)",
+  "price_date": "2026-10-13",
+  "nut_source": "MPreis Shop Produktseite, Nährwerte je 100 g (unzubereitet) 2026-10-13",
+  "ean": "9008695960921",
+  "packaging": "Tiefkühl (TK)",
+  "packaging_hint": "Tiefkühl (TK)",
+  "is_meal": true,
+  "delivery": "MPreis Filiale Linz / MPreis Shop (AT)",
+  "added_slot": "2026-10-13T20",
+  "manufacturer_source": "Marken-Konsens: 133/138 Etiketten der Marke Iglo im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
+ },
+ {
+  "name": "Jeden Tag Schlemmerfilet Bordelaise",
+  "brand": "Jeden Tag",
+  "store": "MPreis",
+  "price_eur": 2.89,
+  "size_g": 400.0,
+  "price_per_kg": 7.23,
+  "url": "https://www.mpreis.at/shop/p/jeden-tag-schlemmerfilet-bordelaise-812043",
+  "image_url": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1770208145/api/812043_angle.jpg",
+  "kcal_100": 135.0,
+  "protein_100": 12.0,
+  "fat_100": 6.7,
+  "satfat_100": 0.7,
+  "carbs_100": 6.2,
+  "sugar_100": 0.9,
+  "fiber_100": null,
+  "salt_100": 0.88,
+  "protein_pack": 48.0,
+  "kcal_pack": 540,
+  "manufacturer": null,
+  "producer_id": null,
+  "origin": null,
+  "category": "TK-Fisch",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)",
+  "price_date": "2026-10-13",
+  "nut_source": "MPreis Shop Produktseite, Nährwerte je 100 g (unzubereitet) 2026-10-13",
+  "ean": "4306188035435",
+  "packaging": "Tiefkühl (TK)",
+  "packaging_hint": "Tiefkühl (TK)",
+  "is_meal": true,
+  "delivery": "MPreis Filiale Linz / MPreis Shop (AT)",
+  "added_slot": "2026-10-13T20"
+ },
+ {
+  "name": "Iglo Schlemmerfilet Bordelaise MSC",
+  "brand": "Iglo",
+  "store": "MPreis",
+  "price_eur": 6.49,
+  "size_g": 380.0,
+  "price_per_kg": 17.08,
+  "url": "https://www.mpreis.at/shop/p/iglo-schlemmerfilet-bordelaise-msc-809142",
+  "image_url": "https://res.cloudinary.com/dit8huoga/image/upload/c_limit,w_5000,h_5000/e_trim/w_1200,h_630,b_white,c_pad,q_auto,f_auto/v1768853613/api/809142_angle.jpg",
+  "kcal_100": 175.0,
+  "protein_100": 11.0,
+  "fat_100": 10.0,
+  "satfat_100": 0.8,
+  "carbs_100": 9.8,
+  "sugar_100": 0.9,
+  "fiber_100": 0.7,
+  "salt_100": 1.1,
+  "protein_pack": 41.8,
+  "kcal_pack": 665,
+  "manufacturer": "Iglo Austria, Marchfelder Str. 2, 2301 Groß-Enzersdorf",
+  "producer_id": null,
+  "origin": null,
+  "category": "TK-Fisch",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)",
+  "price_date": "2026-10-13",
+  "nut_source": "MPreis Shop Produktseite, Nährwerte je 100 g (unzubereitet) 2026-10-13",
+  "ean": "9008695939224",
+  "packaging": "Tiefkühl (TK)",
+  "packaging_hint": "Tiefkühl (TK)",
+  "is_meal": true,
+  "delivery": "MPreis Filiale Linz / MPreis Shop (AT)",
+  "added_slot": "2026-10-13T20",
+  "manufacturer_source": "Marken-Konsens: 133/138 Etiketten der Marke Iglo im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
+ },
+ {
+  "name": "Felix gefüllte Paprika",
+  "brand": "Felix",
+  "store": "Gurkerl.at",
+  "price_eur": 6.69,
+  "size_g": 800.0,
+  "price_per_kg": 8.36,
+  "url": "https://www.gurkerl.at/37023-felix-gefuellte-paprika",
+  "image_url": "https://cdn.gurkerl.at/images/grocery/products/37023/37023-1732263259757.jpg",
+  "kcal_100": 88.0,
+  "protein_100": 2.6,
+  "fat_100": 3.9,
+  "satfat_100": 1.3,
+  "carbs_100": 10.0,
+  "sugar_100": 5.3,
+  "fiber_100": null,
+  "salt_100": 1.0,
+  "protein_pack": 20.8,
+  "kcal_pack": 704,
+  "manufacturer": "FELIX Austria GmbH, Felixstr. 24, A- 7210 Mattersburg",
+  "producer_id": null,
+  "origin": "Österreich",
+  "category": "Fertiggerichte",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category walk + search, products/prices/stock API, inStock)",
+  "price_date": "2026-10-13",
+  "nut_source": "Gurkerl.at API (composition) 2026-10-13; Feld 'protein' 26.0→2.6 korrigiert nach Open Food Facts identische EAN 9000295832936 ('Gefüllte Paprika', Menge '800g'; alle übrigen Makros + kcal stimmen überein)",
+  "ean": "9000295832936",
+  "packaging": "Dose/Konserve",
+  "packaging_hint": "Dose/Konserve",
+  "is_meal": true,
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "added_slot": "2026-10-13T20",
+  "manufacturer_source": "Marken-Konsens: 35/35 Etiketten der Marke Felix im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
+ },
+ {
+  "name": "Inzersdorfer Hühnercurry mit Gemüse",
+  "brand": "Inzersdorfer",
+  "store": "Gurkerl.at",
+  "price_eur": 5.69,
+  "size_g": 400.0,
+  "price_per_kg": 14.23,
+  "url": "https://www.gurkerl.at/33405-inzersdorfer-huehnercurry-mit-gemuese",
+  "image_url": "https://cdn.gurkerl.at/images/grocery/products/33405/33405-1722352217278.jpg",
+  "kcal_100": 121.0,
+  "protein_100": 5.3,
+  "fat_100": 5.4,
+  "satfat_100": 1.5,
+  "carbs_100": 12.0,
+  "sugar_100": 6.2,
+  "fiber_100": null,
+  "salt_100": 1.1,
+  "protein_pack": 21.2,
+  "kcal_pack": 484,
+  "manufacturer": "Maresi Austria GmbH, Postfach 111, A-1131 Wien",
+  "producer_id": null,
+  "origin": "Österreich",
+  "category": "Fertiggerichte",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category walk + search, products/prices/stock API, inStock)",
+  "price_date": "2026-10-13",
+  "nut_source": "Gurkerl.at API (composition) 2026-10-13; Feld 'protein' 53.0→5.3 korrigiert nach Open Food Facts identische EAN 9002600632330 ('Chicken curry', Menge '400g'; alle übrigen Makros + kcal stimmen überein)",
+  "ean": "9002600632330",
+  "packaging": "Dose/Konserve",
+  "packaging_hint": "Dose/Konserve",
+  "is_meal": true,
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "added_slot": "2026-10-13T20",
+  "manufacturer_source": "Marken-Konsens: 57/57 Etiketten der Marke Inzersdorfer im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
+ },
+ {
+  "name": "Marks & Spencer 2 Breaded Cod Fillets glutenfrei (tiefgekühlt)",
+  "brand": "Marks & Spencer",
+  "store": "Gurkerl.at",
+  "price_eur": 10.99,
+  "size_g": 245.0,
+  "price_per_kg": 44.86,
+  "url": "https://www.gurkerl.at/13220-marks-spencer-2-breaded-cod-fillets-glutenfrei-tiefgekuehlt",
+  "image_url": "https://cdn.gurkerl.at/images/grocery/products/13220/13220-1611245077571.jpg",
+  "kcal_100": 187.0,
+  "protein_100": 12.4,
+  "fat_100": 8.1,
+  "satfat_100": 0.8,
+  "carbs_100": 15.5,
+  "sugar_100": 2.9,
+  "fiber_100": 1.2,
+  "salt_100": 0.93,
+  "protein_pack": 30.4,
+  "kcal_pack": 458,
+  "manufacturer": "Marks and Spencer Services, Jemnická 1138/1, 14000 Prag, Tschechien",
+  "producer_id": null,
+  "origin": "Großbritannien",
+  "category": "TK-Fisch",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category walk + search, products/prices/stock API, inStock)",
+  "price_date": "2026-10-13",
+  "nut_source": "Gurkerl.at API (composition) 2026-10-13",
+  "ean": "00935791",
+  "packaging": "Tiefkühl (TK)",
+  "packaging_hint": "Tiefkühl (TK)",
+  "is_meal": true,
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "added_slot": "2026-10-13T20"
+ },
+ {
+  "name": "Rana Pfannen Gnocchi Spinat / Mozzarella",
+  "brand": "Rana",
+  "store": "Gurkerl.at",
+  "price_eur": 3.39,
+  "size_g": 280.0,
+  "price_per_kg": 12.11,
+  "url": "https://www.gurkerl.at/12927-rana-pfannen-gnocchi-spinat-mozzarella",
+  "image_url": "https://cdn.gurkerl.at/images/grocery/products/12927/12927-1791809204245676568.png",
+  "kcal_100": 222.0,
+  "protein_100": 6.3,
+  "fat_100": 6.2,
+  "satfat_100": 2.9,
+  "carbs_100": 34.0,
+  "sugar_100": 9.1,
+  "fiber_100": 0.0,
+  "salt_100": 1.8,
+  "protein_pack": 17.6,
+  "kcal_pack": 622,
+  "manufacturer": "Pastificio Rana S.p.A.",
+  "producer_id": null,
+  "origin": "Italien",
+  "category": "Knödel, Spätzle & Co",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category walk + search, products/prices/stock API, inStock)",
+  "price_date": "2026-10-13",
+  "nut_source": "Gurkerl.at API (composition) 2026-10-13",
+  "ean": "8001665708074",
+  "packaging": "Kühlregal (Menüschale/frisch)",
+  "packaging_hint": "Kühlregal (Menüschale/frisch)",
+  "is_meal": true,
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "added_slot": "2026-10-13T20",
+  "manufacturer_source": "EAN-Zwilling 8001665708074: Etikett-Herstellerangabe einer anderen Zeile/Kette im Datensatz (2026-10-13T20)"
+ },
+ {
+  "name": "Rana Pfannen Gnocchi Schinken / Mozzarella",
+  "brand": "Rana",
+  "store": "Gurkerl.at",
+  "price_eur": 3.39,
+  "size_g": 280.0,
+  "price_per_kg": 12.11,
+  "url": "https://www.gurkerl.at/12928-rana-pfannen-gnocchi-schinken-mozzarella",
+  "image_url": "https://cdn.gurkerl.at/images/grocery/products/12928/12928-1791809204610392543.png",
+  "kcal_100": 234.0,
+  "protein_100": 8.1,
+  "fat_100": 7.3,
+  "satfat_100": 3.0,
+  "carbs_100": 33.0,
+  "sugar_100": 8.0,
+  "fiber_100": 0.0,
+  "salt_100": 1.9,
+  "protein_pack": 22.7,
+  "kcal_pack": 655,
+  "manufacturer": "Pastificio RANA S.p.A., Via Pacinotti 25, 37057 San Giovanni Lupatoto (VR), Italien",
+  "producer_id": "IT 528-L CE",
+  "origin": "Italien",
+  "category": "Knödel, Spätzle & Co",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category walk + search, products/prices/stock API, inStock)",
+  "price_date": "2026-10-13",
+  "nut_source": "Gurkerl.at API (composition) 2026-10-13",
+  "ean": "8001665708081",
+  "packaging": "Kühlregal (Menüschale/frisch)",
+  "packaging_hint": "Kühlregal (Menüschale/frisch)",
+  "is_meal": true,
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "added_slot": "2026-10-13T20",
+  "manufacturer_source": "Marken-Konsens: alle 34 Rana-Etiketten im Datensatz nennen Pastificio Rana S.p.A. (Schreibvarianten mit/ohne Adresse), 2026-10-13T20",
+  "producer_id_source": "Open Food Facts emb_codes 'IT 528-L CE' (EAN 8001665708081), 2026-10-13T20"
+ },
+ {
+  "name": "Rana Pfannen Gnocchi Tomate / Mozzarella",
+  "brand": "Rana",
+  "store": "Gurkerl.at",
+  "price_eur": 3.39,
+  "size_g": 280.0,
+  "price_per_kg": 12.11,
+  "url": "https://www.gurkerl.at/17912-rana-pfannen-gnocchi-tomate-mozzarella",
+  "image_url": "https://cdn.gurkerl.at/images/grocery/products/17912/17912-1791809205980897393.png",
+  "kcal_100": 220.0,
+  "protein_100": 4.1,
+  "fat_100": 3.5,
+  "satfat_100": 1.3,
+  "carbs_100": 42.0,
+  "sugar_100": 6.6,
+  "fiber_100": 0.0,
+  "salt_100": 1.5,
+  "protein_pack": 11.5,
+  "kcal_pack": 616,
+  "manufacturer": "Pastificio RANA S.p.A., Via Pacinotti 25, 37057 San Giovanni Lupatoto (VR), Italien",
+  "producer_id": null,
+  "origin": "Italien",
+  "category": "Knödel, Spätzle & Co",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category walk + search, products/prices/stock API, inStock)",
+  "price_date": "2026-10-13",
+  "nut_source": "Gurkerl.at API (composition) 2026-10-13",
+  "ean": "8001665708111",
+  "packaging": "Kühlregal (Menüschale/frisch)",
+  "packaging_hint": "Kühlregal (Menüschale/frisch)",
+  "is_meal": true,
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "added_slot": "2026-10-13T20",
+  "manufacturer_source": "Marken-Konsens: alle 34 Rana-Etiketten im Datensatz nennen Pastificio Rana S.p.A. (Schreibvarianten mit/ohne Adresse), 2026-10-13T20"
+ },
+ {
+  "name": "Rana Pfannen Gnocchi Klassisch",
+  "brand": "Rana",
+  "store": "Gurkerl.at",
+  "price_eur": 3.39,
+  "size_g": 300.0,
+  "price_per_kg": 11.3,
+  "url": "https://www.gurkerl.at/17911-rana-pfannen-gnocchi-klassisch",
+  "image_url": "https://cdn.gurkerl.at/images/grocery/products/17911/17911-1791809973742.jpg",
+  "kcal_100": 209.0,
+  "protein_100": 7.0,
+  "fat_100": 1.9,
+  "satfat_100": 1.0,
+  "carbs_100": 41.0,
+  "sugar_100": 3.4,
+  "fiber_100": 0.0,
+  "salt_100": 1.5,
+  "protein_pack": 21.0,
+  "kcal_pack": 627,
+  "manufacturer": "Pastificio RANA S.p.A., Via Pacinotti 25, 37057 San Giovanni Lupatoto (VR), Italien",
+  "producer_id": null,
+  "origin": "Italien",
+  "category": "Knödel, Spätzle & Co",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category walk + search, products/prices/stock API, inStock)",
+  "price_date": "2026-10-13",
+  "nut_source": "Gurkerl.at API (composition) 2026-10-13",
+  "ean": "8001665706674",
+  "packaging": "Kühlregal (Menüschale/frisch)",
+  "packaging_hint": "Kühlregal (Menüschale/frisch)",
+  "is_meal": true,
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "added_slot": "2026-10-13T20",
+  "manufacturer_source": "Marken-Konsens: alle 34 Rana-Etiketten im Datensatz nennen Pastificio Rana S.p.A. (Schreibvarianten mit/ohne Adresse), 2026-10-13T20"
+ },
+ {
+  "name": "Leitgeb´s Gemischter Nudelteller",
+  "brand": "Leitgeb's Nudelspezialitäten",
+  "store": "Gurkerl.at",
+  "price_eur": 10.49,
+  "size_g": 450.0,
+  "price_per_kg": 23.31,
+  "url": "https://www.gurkerl.at/40026-leitgeb-s-gemischter-nudelteller",
+  "image_url": "https://cdn.gurkerl.at/images/grocery/products/40026/40026-1741767194708.jpg",
+  "kcal_100": 196.0,
+  "protein_100": 7.4,
+  "fat_100": 5.6,
+  "satfat_100": 1.9,
+  "carbs_100": 25.0,
+  "sugar_100": 1.9,
+  "fiber_100": 0.0,
+  "salt_100": 1.6,
+  "protein_pack": 33.3,
+  "kcal_pack": 882,
+  "manufacturer": "Leitgeb's Nudelspezialitäten aus dem Metnitztal GmbH, Industriestraße 18, 9360 Friesach",
+  "producer_id": null,
+  "origin": null,
+  "category": "Frische Pasta",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category walk + search, products/prices/stock API, inStock)",
+  "price_date": "2026-10-13",
+  "nut_source": "Gurkerl.at API (composition) 2026-10-13",
+  "ean": "9120071330255",
+  "packaging": "Kühlregal (Menüschale/frisch)",
+  "packaging_hint": "Kühlregal (Menüschale/frisch)",
+  "is_meal": true,
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "added_slot": "2026-10-13T20",
+  "manufacturer_source": "Marken-Konsens: alle 6 Etiketten der Marke im Datensatz nennen diesen Hersteller; FN 662213v (evi.gv.at), 2026-10-13T20"
+ },
+ {
+  "name": "Leitgeb´s Süßer Nudelteller",
+  "brand": "Leitgeb's Nudelspezialitäten",
+  "store": "Gurkerl.at",
+  "price_eur": 10.49,
+  "size_g": 450.0,
+  "price_per_kg": 23.31,
+  "url": "https://www.gurkerl.at/40025-leitgeb-s-suesser-nudelteller",
+  "image_url": "https://cdn.gurkerl.at/images/grocery/products/40025/40025-1741766905086.jpg",
+  "kcal_100": 258.0,
+  "protein_100": 7.1,
+  "fat_100": 5.0,
+  "satfat_100": 1.9,
+  "carbs_100": 42.0,
+  "sugar_100": 20.0,
+  "fiber_100": 0.0,
+  "salt_100": 0.69,
+  "protein_pack": 31.9,
+  "kcal_pack": 1161,
+  "manufacturer": "Leitgeb's Nudelspezialitäten aus dem Metnitztal GmbH, Industriestraße 18, 9360 Friesach",
+  "producer_id": null,
+  "origin": "Österreich",
+  "category": "Mehlspeisen/Desserts",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category walk + search, products/prices/stock API, inStock)",
+  "price_date": "2026-10-13",
+  "nut_source": "Gurkerl.at API (composition) 2026-10-13",
+  "ean": "9120071330279",
+  "packaging": "Kühlregal (Menüschale/frisch)",
+  "packaging_hint": "Kühlregal (Menüschale/frisch)",
+  "is_meal": true,
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "added_slot": "2026-10-13T20",
+  "manufacturer_source": "Marken-Konsens: alle 6 Etiketten der Marke im Datensatz nennen diesen Hersteller; FN 662213v (evi.gv.at), 2026-10-13T20"
+ },
+ {
+  "name": "Leitgeb´s Kärntner Käsnudel",
+  "brand": "Leitgeb's Nudelspezialitäten",
+  "store": "Gurkerl.at",
+  "price_eur": 10.49,
+  "size_g": 450.0,
+  "price_per_kg": 23.31,
+  "url": "https://www.gurkerl.at/40022-leitgeb-s-kaerntner-kaesnudel",
+  "image_url": "https://cdn.gurkerl.at/images/grocery/products/40022/40022-1741766184735.jpg",
+  "kcal_100": 196.0,
+  "protein_100": 7.4,
+  "fat_100": 4.9,
+  "satfat_100": 2.2,
+  "carbs_100": 29.0,
+  "sugar_100": 2.1,
+  "fiber_100": 0.0,
+  "salt_100": 1.6,
+  "protein_pack": 33.3,
+  "kcal_pack": 882,
+  "manufacturer": "Leitgeb's Nudelspezialitäten aus dem Metnitztal GmbH, Industriestraße 18, 9360 Friesach",
+  "producer_id": null,
+  "origin": "Österreich",
+  "category": "Frische Pasta",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category walk + search, products/prices/stock API, inStock)",
+  "price_date": "2026-10-13",
+  "nut_source": "Gurkerl.at API (composition) 2026-10-13",
+  "ean": "9120071330019",
+  "packaging": "Kühlregal (Menüschale/frisch)",
+  "packaging_hint": "Kühlregal (Menüschale/frisch)",
+  "is_meal": true,
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "added_slot": "2026-10-13T20",
+  "manufacturer_source": "Marken-Konsens: alle 6 Etiketten der Marke im Datensatz nennen diesen Hersteller; FN 662213v (evi.gv.at), 2026-10-13T20"
+ },
+ {
+  "name": "Bürger Maultaschen traditionell schwäbisch",
+  "brand": "Bürger",
+  "store": "Gurkerl.at",
+  "price_eur": 2.89,
+  "size_g": 360.0,
+  "price_per_kg": 8.03,
+  "url": "https://www.gurkerl.at/41326-buerger-maultaschen-traditionell-schwaebisch",
+  "image_url": "https://cdn.gurkerl.at/images/grocery/products/41326/41326-1745914627650.jpg",
+  "kcal_100": 198.0,
+  "protein_100": 9.1,
+  "fat_100": 9.1,
+  "satfat_100": 3.4,
+  "carbs_100": 19.0,
+  "sugar_100": 2.0,
+  "fiber_100": 1.9,
+  "salt_100": 1.6,
+  "protein_pack": 32.8,
+  "kcal_pack": 713,
+  "manufacturer": null,
+  "producer_id": "DE BW-01188 EG",
+  "origin": "Deutschland",
+  "category": "Knödel, Spätzle & Co",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category walk + search, products/prices/stock API, inStock)",
+  "price_date": "2026-10-13",
+  "nut_source": "Gurkerl.at API (composition) 2026-10-13",
+  "ean": "4075600055039",
+  "packaging": "Kühlregal (Menüschale/frisch)",
+  "packaging_hint": "Kühlregal (Menüschale/frisch)",
+  "is_meal": true,
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "added_slot": "2026-10-13T20",
+  "producer_id_source": "Open Food Facts emb_codes 'DE BW-01188 EG' (EAN 4075600055039), 2026-10-13T20"
+ },
+ {
+  "name": "Marks & Spencer Chunky Breaded Cod (tiefgekühlt)",
+  "brand": "Marks & Spencer",
+  "store": "Gurkerl.at",
+  "price_eur": 17.49,
+  "size_g": 600.0,
+  "price_per_kg": 29.15,
+  "url": "https://www.gurkerl.at/40052-marks-spencer-chunky-breaded-cod-tiefgekuehlt",
+  "image_url": "https://cdn.gurkerl.at/images/grocery/products/40052/40052-1741796124204.jpg",
+  "kcal_100": 179.0,
+  "protein_100": 14.4,
+  "fat_100": 6.9,
+  "satfat_100": 0.6,
+  "carbs_100": 14.2,
+  "sugar_100": 2.8,
+  "fiber_100": 1.0,
+  "salt_100": 0.65,
+  "protein_pack": 86.4,
+  "kcal_pack": 1074,
+  "manufacturer": "Marks and Spencer Services, Jemnická 1138/1, 14000 Prag, Tschechien",
+  "producer_id": null,
+  "origin": "Großbritannien",
+  "category": "TK-Fisch",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category walk + search, products/prices/stock API, inStock)",
+  "price_date": "2026-10-13",
+  "nut_source": "Gurkerl.at API (composition) 2026-10-13",
+  "ean": "00476270",
+  "packaging": "Tiefkühl (TK)",
+  "packaging_hint": "Tiefkühl (TK)",
+  "is_meal": true,
+  "delivery": "Lieferung nach Linz (Gurkerl.at)",
+  "added_slot": "2026-10-13T20",
+  "manufacturer_source": "Marken-Konsens: 9/9 Etiketten der Marke Marks & Spencer im Datensatz nennen diesen Inverkehrbringer (2026-10-13T20)"
  }
 ]

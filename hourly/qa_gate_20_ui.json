@@ -1,0 +1,651 @@
+{
+  "ok": true,
+  "errors": [],
+  "blank": [],
+  "overflow": [],
+  "brokenImg": 0,
+  "totalImg": 8310,
+  "tabs": {
+    "desktop:alle": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 74,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "desktop:feed": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 62,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "desktop:galerie": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 142,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "desktop:board": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 11,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "desktop:gerichte": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 41,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "desktop:top": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 112,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "desktop:kategorien": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 89,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "desktop:markenprofil": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 11,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "desktop:ladenprofil": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 9,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "desktop:marken": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 718,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "desktop:familien": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 195,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "desktop:dashboard": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 91,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "desktop:gesundheit": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 63,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "desktop:analyse": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 88,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "desktop:scatter": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 0,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "desktop:pack": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 32,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "desktop:matrix": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 108,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "desktop:hersteller-seiten": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 69,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "desktop:wer": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 1264,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "desktop:firmen": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 12,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "desktop:qualitaet": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 0,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "desktop:logos": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 244,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "desktop:netz": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 0,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "desktop:hersteller": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 80,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "desktop:filialen": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 60,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "desktop:online": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 147,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "desktop:planer": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 14,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "desktop:kombi": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 272,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "desktop:ftg": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 116,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "desktop:multipot": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 0,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "desktop:methodik": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 0,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "desktop:abdeckung": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 0,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "mobile:alle": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 178,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "mobile:feed": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 62,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "mobile:galerie": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 142,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "mobile:board": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 11,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "mobile:gerichte": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 41,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "mobile:top": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 112,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "mobile:kategorien": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 89,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "mobile:markenprofil": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 11,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "mobile:ladenprofil": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 9,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "mobile:marken": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 718,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "mobile:familien": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 195,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "mobile:dashboard": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 91,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 2
+    },
+    "mobile:gesundheit": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 60,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "mobile:analyse": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 88,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "mobile:scatter": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 0,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 3
+    },
+    "mobile:pack": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 32,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "mobile:matrix": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 90,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "mobile:hersteller-seiten": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 57,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "mobile:wer": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 1264,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "mobile:firmen": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 12,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "mobile:qualitaet": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 0,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "mobile:logos": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 244,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 2
+    },
+    "mobile:netz": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 0,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "mobile:hersteller": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 80,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "mobile:filialen": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 51,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "mobile:online": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 147,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "mobile:planer": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 14,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "mobile:kombi": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 272,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "mobile:ftg": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 116,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "mobile:multipot": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 0,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "mobile:methodik": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 0,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    },
+    "mobile:abdeckung": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 0,
+        "broken": 0
+      },
+      "errs": 0,
+      "tries": 1
+    }
+  },
+  "brokenRate": 0
+}
