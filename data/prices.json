@@ -248,8 +248,8 @@
   "price_eur": 3.49,
   "price_per_kg_eur": 9.97,
   "price_status": "live 2026",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13 (JSON-LD, InStock)"
  },
  {
   "product_id": "b0097ecdd1f7",
@@ -608,8 +608,8 @@
   "price_eur": 6.49,
   "price_per_kg_eur": 8.11,
   "price_status": "live 2026",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
  },
  {
   "product_id": "c245c10fdc27",
@@ -644,8 +644,8 @@
   "price_eur": 3.49,
   "price_per_kg_eur": 8.72,
   "price_status": "live 2026",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
  },
  {
   "product_id": "15067bce3e1c",
@@ -653,8 +653,8 @@
   "price_eur": 6.49,
   "price_per_kg_eur": 8.11,
   "price_status": "live 2026",
-  "fetched_at": null,
-  "price_source": "billa.json (live 2026)"
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
  },
  {
   "product_id": "aa3b43364230",
@@ -790,6 +790,15 @@
   "price_status": "Preis 2025",
   "fetched_at": "2026-10-12",
   "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+ },
+ {
+  "product_id": "3a490fb14acf",
+  "chain": "Spar",
+  "price_eur": 4.99,
+  "price_per_kg_eur": 14.26,
+  "price_status": "Preis 2025",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13 (JSON-LD, InStock)"
  },
  {
   "product_id": "80216a140ca8",
@@ -963,7 +972,7 @@
   "price_source": "heisse-preise.io latest-canonical 2026-10-12"
  },
  {
-  "product_id": "930bd7212c74",
+  "product_id": "cbd993bd22f9",
   "chain": "Spar",
   "price_eur": 2.99,
   "price_per_kg_eur": 7.48,
@@ -1026,7 +1035,7 @@
   "price_source": "heisse-preise.io latest-canonical 2026-10-12"
  },
  {
-  "product_id": "0c79ffd4d036",
+  "product_id": "61ee5089e2c1",
   "chain": "Spar",
   "price_eur": 2.99,
   "price_per_kg_eur": 7.48,
@@ -1116,7 +1125,7 @@
   "price_source": "heisse-preise.io latest-canonical 2026-10-12"
  },
  {
-  "product_id": "8439130d0b07",
+  "product_id": "c3db6d1740d1",
   "chain": "Spar",
   "price_eur": 0.99,
   "price_per_kg_eur": 8.84,
@@ -1296,7 +1305,7 @@
   "price_source": "heisse-preise.io latest-canonical 2026-10-12"
  },
  {
-  "product_id": "0699a2272d35",
+  "product_id": "f462f33ecd28",
   "chain": "Spar",
   "price_eur": 5.79,
   "price_per_kg_eur": 7.24,
@@ -1305,7 +1314,7 @@
   "price_source": "heisse-preise.io latest-canonical 2026-10-12"
  },
  {
-  "product_id": "eaec2c5385dd",
+  "product_id": "5f671bb75ae6",
   "chain": "Spar",
   "price_eur": 5.79,
   "price_per_kg_eur": 7.24,
@@ -1526,8 +1535,8 @@
   "price_eur": 1.09,
   "price_per_kg_eur": null,
   "price_status": "live 2026",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
  },
  {
   "product_id": "b0757242e88e",
@@ -2547,7 +2556,7 @@
   "price_source": "heisse-preise.io latest-canonical 2026-10-12"
  },
  {
-  "product_id": "63ac1f199ddc",
+  "product_id": "324edcafd8b5",
   "chain": "Spar",
   "price_eur": 4.99,
   "price_per_kg_eur": 142.57,
@@ -3699,6 +3708,33 @@
   "price_source": "heisse-preise.io latest-canonical 2026-10-12"
  },
  {
+  "product_id": "0820df84d78b",
+  "chain": "Billa",
+  "price_eur": 6.49,
+  "price_per_kg_eur": 8.11,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-12",
+  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+ },
+ {
+  "product_id": "200a32d9d529",
+  "chain": "Billa",
+  "price_eur": 6.49,
+  "price_per_kg_eur": 8.11,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+ },
+ {
+  "product_id": "544e0df5b6f0",
+  "chain": "Billa",
+  "price_eur": 6.49,
+  "price_per_kg_eur": 8.11,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-12",
+  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+ },
+ {
   "product_id": "f9ad73f6a8cd",
   "chain": "Billa",
   "price_eur": 4.79,
@@ -3726,6 +3762,15 @@
   "price_source": "heisse-preise.io latest-canonical 2026-10-12"
  },
  {
+  "product_id": "dc85aa86aa95",
+  "chain": "Billa",
+  "price_eur": 5.99,
+  "price_per_kg_eur": 17.11,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-12",
+  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+ },
+ {
   "product_id": "cd0d8b2e5042",
   "chain": "Billa",
   "price_eur": 2.66,
@@ -3735,11 +3780,38 @@
   "price_source": "heisse-preise.io latest-canonical 2026-10-12"
  },
  {
-  "product_id": "a9b616eed13b",
-  "chain": "Spar",
+  "product_id": "3963fe22725e",
+  "chain": "Billa",
+  "price_eur": 3.49,
+  "price_per_kg_eur": 8.72,
+  "price_status": "Preis 2025",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+ },
+ {
+  "product_id": "3a5a7ce405ed",
+  "chain": "Billa",
   "price_eur": 10.49,
   "price_per_kg_eur": 13.11,
   "price_status": "Preis 2025",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+ },
+ {
+  "product_id": "cddde2bb4b5f",
+  "chain": "Billa",
+  "price_eur": 3.19,
+  "price_per_kg_eur": 7.97,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-12",
+  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+ },
+ {
+  "product_id": "9c5ccf1570c3",
+  "chain": "Billa",
+  "price_eur": 3.19,
+  "price_per_kg_eur": 7.97,
+  "price_status": "live 2026",
   "fetched_at": "2026-10-12",
   "price_source": "heisse-preise.io latest-canonical 2026-10-12"
  },
@@ -3748,6 +3820,15 @@
   "chain": "Billa",
   "price_eur": 3.79,
   "price_per_kg_eur": 15.16,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-12",
+  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+ },
+ {
+  "product_id": "c8ace5991e27",
+  "chain": "Billa",
+  "price_eur": 5.99,
+  "price_per_kg_eur": 7.49,
   "price_status": "live 2026",
   "fetched_at": "2026-10-12",
   "price_source": "heisse-preise.io latest-canonical 2026-10-12"
@@ -3766,6 +3847,15 @@
   "chain": "Billa",
   "price_eur": 2.59,
   "price_per_kg_eur": 25.9,
+  "price_status": "Preis 2025",
+  "fetched_at": "2026-10-12",
+  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+ },
+ {
+  "product_id": "9ea01933b209",
+  "chain": "Billa",
+  "price_eur": 4.99,
+  "price_per_kg_eur": 142.57,
   "price_status": "Preis 2025",
   "fetched_at": "2026-10-12",
   "price_source": "heisse-preise.io latest-canonical 2026-10-12"
@@ -3929,8 +4019,8 @@
   "price_eur": 5.29,
   "price_per_kg_eur": 13.23,
   "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "fetched_at": null,
+  "price_source": "billa.json (Preis 2025)"
  },
  {
   "product_id": "dd8b4c92967b",
@@ -3938,8 +4028,8 @@
   "price_eur": 3.49,
   "price_per_kg_eur": 8.72,
   "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "fetched_at": null,
+  "price_source": "billa.json (Preis 2025)"
  },
  {
   "product_id": "7eb2187af4a0",
@@ -6963,25 +7053,7 @@
   "price_per_kg_eur": 3.99,
   "price_status": "Preis 2025",
   "fetched_at": null,
-  "price_source": "lidl.at (kein Online-Preis)"
- },
- {
-  "product_id": "d53a10fedead",
-  "chain": "Spar",
-  "price_eur": 1.59,
-  "price_per_kg_eur": 3.98,
-  "price_status": "Preis 2025",
-  "fetched_at": "2025-07-03",
-  "price_source": "nur Altpreis: heisse-preise.io Stand 2025-07-03 = 1.35 € (kein 2026-Preis gefunden)"
- },
- {
-  "product_id": "e337d02892d6",
-  "chain": "Spar",
-  "price_eur": 1.49,
-  "price_per_kg_eur": 3.73,
-  "price_status": "Preis 2025",
-  "fetched_at": "2025-07-03",
-  "price_source": "nur Altpreis: heisse-preise.io Stand 2025-07-03 = 1.35 € (kein 2026-Preis gefunden)"
+  "price_source": "kein aktueller 2026-Preis gefunden"
  },
  {
   "product_id": "a0a23c8cd654",
@@ -7106,8 +7178,8 @@
   "price_eur": 12.99,
   "price_per_kg_eur": 12.99,
   "price_status": "live 2026",
-  "fetched_at": null,
-  "price_source": "billa.json (live 2026)"
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
  },
  {
   "product_id": "d8519674ee97",
@@ -7241,8 +7313,8 @@
   "price_eur": 3.49,
   "price_per_kg_eur": 8.73,
   "price_status": "live 2026",
-  "fetched_at": null,
-  "price_source": "billa.json (live 2026)"
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
  },
  {
   "product_id": "7af43998f6d9",
@@ -7272,6 +7344,15 @@
   "price_source": "billa.json (live 2026)"
  },
  {
+  "product_id": "8938ab6cf80e",
+  "chain": "Billa",
+  "price_eur": 5.99,
+  "price_per_kg_eur": 7.49,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+ },
+ {
   "product_id": "9cb5a6585bca",
   "chain": "Billa",
   "price_eur": 2.19,
@@ -7286,8 +7367,8 @@
   "price_eur": 1.19,
   "price_per_kg_eur": 1.19,
   "price_status": "live 2026",
-  "fetched_at": null,
-  "price_source": "billa.json (live 2026)"
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
  },
  {
   "product_id": "fcd6fd58f2c9",
@@ -7376,8 +7457,8 @@
   "price_eur": 2.99,
   "price_per_kg_eur": 5.98,
   "price_status": "live 2026",
-  "fetched_at": null,
-  "price_source": "billa.json (live 2026)"
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
  },
  {
   "product_id": "e3be422134ee",
@@ -7484,8 +7565,8 @@
   "price_eur": 2.99,
   "price_per_kg_eur": 5.98,
   "price_status": "live 2026",
-  "fetched_at": null,
-  "price_source": "billa.json (live 2026)"
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
  },
  {
   "product_id": "863b5cc79fb4",
@@ -7529,8 +7610,8 @@
   "price_eur": 6.39,
   "price_per_kg_eur": 7.99,
   "price_status": "live 2026",
-  "fetched_at": null,
-  "price_source": "billa.json (live 2026)"
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
  },
  {
   "product_id": "397ae7a1f2dd",
@@ -7549,6 +7630,15 @@
   "price_status": "live 2026",
   "fetched_at": null,
   "price_source": "billa.json (live 2026)"
+ },
+ {
+  "product_id": "0f109fb934dd",
+  "chain": "Billa",
+  "price_eur": 3.49,
+  "price_per_kg_eur": 8.73,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
  },
  {
   "product_id": "a86ae904fedf",
@@ -7637,8 +7727,8 @@
   "price_eur": 5.99,
   "price_per_kg_eur": 7.49,
   "price_status": "live 2026",
-  "fetched_at": null,
-  "price_source": "billa.json (live 2026)"
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
  },
  {
   "product_id": "e17cef853722",
@@ -7718,8 +7808,8 @@
   "price_eur": 2.99,
   "price_per_kg_eur": 16.8,
   "price_status": "live 2026",
-  "fetched_at": null,
-  "price_source": "billa.json (live 2026)"
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
  },
  {
   "product_id": "aa48f1b2f500",
@@ -7835,8 +7925,8 @@
   "price_eur": 5.49,
   "price_per_kg_eur": 13.73,
   "price_status": "live 2026",
-  "fetched_at": null,
-  "price_source": "billa.json (live 2026)"
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
  },
  {
   "product_id": "994c09edbb5c",
@@ -7852,6 +7942,24 @@
   "chain": "Billa",
   "price_eur": 3.49,
   "price_per_kg_eur": 8.73,
+  "price_status": "live 2026",
+  "fetched_at": null,
+  "price_source": "billa.json (live 2026)"
+ },
+ {
+  "product_id": "922e2338f4ff",
+  "chain": "Billa",
+  "price_eur": 3.49,
+  "price_per_kg_eur": 8.73,
+  "price_status": "live 2026",
+  "fetched_at": null,
+  "price_source": "billa.json (live 2026)"
+ },
+ {
+  "product_id": "00604080eef3",
+  "chain": "Billa",
+  "price_eur": 5.49,
+  "price_per_kg_eur": 13.73,
   "price_status": "live 2026",
   "fetched_at": null,
   "price_source": "billa.json (live 2026)"
@@ -7879,6 +7987,15 @@
   "chain": "Billa",
   "price_eur": 2.19,
   "price_per_kg_eur": 37.12,
+  "price_status": "live 2026",
+  "fetched_at": null,
+  "price_source": "billa.json (live 2026)"
+ },
+ {
+  "product_id": "1e3365a0c98f",
+  "chain": "Billa",
+  "price_eur": 1.19,
+  "price_per_kg_eur": 1.19,
   "price_status": "live 2026",
   "fetched_at": null,
   "price_source": "billa.json (live 2026)"
@@ -8060,8 +8177,8 @@
   "price_eur": 2.99,
   "price_per_kg_eur": 5.98,
   "price_status": "live 2026",
-  "fetched_at": null,
-  "price_source": "billa.json (live 2026)"
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
  },
  {
   "product_id": "a58d369e6f58",
@@ -8150,8 +8267,8 @@
   "price_eur": 3.49,
   "price_per_kg_eur": 8.73,
   "price_status": "live 2026",
-  "fetched_at": null,
-  "price_source": "billa.json (live 2026)"
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
  },
  {
   "product_id": "b25dd19dc2fe",
@@ -8262,6 +8379,15 @@
   "price_source": "billa.json (live 2026)"
  },
  {
+  "product_id": "600af26cb770",
+  "chain": "Billa",
+  "price_eur": 6.49,
+  "price_per_kg_eur": 8.11,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+ },
+ {
   "product_id": "92cfd9807e4b",
   "chain": "Billa",
   "price_eur": 2.99,
@@ -8302,6 +8428,15 @@
   "chain": "Billa",
   "price_eur": 3.49,
   "price_per_kg_eur": 8.73,
+  "price_status": "live 2026",
+  "fetched_at": null,
+  "price_source": "billa.json (live 2026)"
+ },
+ {
+  "product_id": "70116933d00a",
+  "chain": "Billa",
+  "price_eur": 6.49,
+  "price_per_kg_eur": 8.11,
   "price_status": "live 2026",
   "fetched_at": null,
   "price_source": "billa.json (live 2026)"
@@ -8474,8 +8609,8 @@
   "price_eur": 5.99,
   "price_per_kg_eur": 16.64,
   "price_status": "live 2026",
-  "fetched_at": null,
-  "price_source": "billa.json (live 2026)"
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
  },
  {
   "product_id": "783c57d69d80",
@@ -8896,9 +9031,9 @@
   "chain": "Spar",
   "price_eur": 2.99,
   "price_per_kg_eur": 7.48,
-  "price_status": "Preis 2025",
+  "price_status": "live 2026",
   "fetched_at": null,
-  "price_source": "lidl.at (kein Online-Preis)"
+  "price_source": "kein aktueller 2026-Preis gefunden"
  },
  {
   "product_id": "a7c4c50504fa",
@@ -9171,10 +9306,28 @@
   "price_source": "spar.json (live 2026)"
  },
  {
+  "product_id": "aca5e5684706",
+  "chain": "Spar",
+  "price_eur": 3.99,
+  "price_per_kg_eur": 3.99,
+  "price_status": "live 2026",
+  "fetched_at": null,
+  "price_source": "kein aktueller 2026-Preis gefunden"
+ },
+ {
   "product_id": "3e8eb9102ac7",
   "chain": "Spar",
   "price_eur": 2.99,
   "price_per_kg_eur": 7.48,
+  "price_status": "live 2026",
+  "fetched_at": null,
+  "price_source": "spar.json (live 2026)"
+ },
+ {
+  "product_id": "f928878ca02e",
+  "chain": "Spar",
+  "price_eur": 1.59,
+  "price_per_kg_eur": 3.98,
   "price_status": "live 2026",
   "fetched_at": null,
   "price_source": "spar.json (live 2026)"
@@ -9355,6 +9508,15 @@
   "chain": "Spar",
   "price_eur": 0.99,
   "price_per_kg_eur": null,
+  "price_status": "live 2026",
+  "fetched_at": null,
+  "price_source": "spar.json (live 2026)"
+ },
+ {
+  "product_id": "3cf08c53382d",
+  "chain": "Spar",
+  "price_eur": 1.49,
+  "price_per_kg_eur": 3.73,
   "price_status": "live 2026",
   "fetched_at": null,
   "price_source": "spar.json (live 2026)"
@@ -9565,6 +9727,15 @@
   "price_status": "live 2026",
   "fetched_at": null,
   "price_source": "spar.json (live 2026)"
+ },
+ {
+  "product_id": "a9b616eed13b",
+  "chain": "Spar",
+  "price_eur": 10.49,
+  "price_per_kg_eur": 13.11,
+  "price_status": "live 2026",
+  "fetched_at": null,
+  "price_source": "spar_live.json (live 2026)"
  },
  {
   "product_id": "61032a60cfb9",
@@ -10944,6 +11115,15 @@
   "price_source": "heisse-preise.io latest-canonical (abgerufen 2026-10-12), billa: 'Knorr Keiserteller Gemüsecreme Suppe' 1stk, letzte Preisänderung 2026-10-08, Name-Match 0.80 (bitte prüfen)"
  },
  {
+  "product_id": "0efddae4c91a",
+  "chain": "Spar",
+  "price_eur": 2.49,
+  "price_per_kg_eur": 12.45,
+  "price_status": "Preis 2025",
+  "fetched_at": "2026-10-12",
+  "price_source": "heisse-preise.io latest-canonical (abgerufen 2026-10-12), spar: 'SPAR Natur*pur Bio-Tomaten-Risotto' 200g, letzte Preisänderung 2025-08-29, Name-Match 1.00 (bitte prüfen)"
+ },
+ {
   "product_id": "594d47b32566",
   "chain": "Fit to Go",
   "price_eur": 9.99,
@@ -11160,6 +11340,15 @@
   "price_source": "fittogo.at/collections/12er-box, abgerufen 2026-10-12: 10,49 €/Meal (6er), 9,99 € (12er), 9,49 € (18er); Werte pro Packung lt. Shop-Karte"
  },
  {
+  "product_id": "b9ff43c9fc37",
+  "chain": "Spar",
+  "price_eur": 3.49,
+  "price_per_kg_eur": 8.72,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-12",
+  "price_source": "INTERSPAR Webshop (Browser) 2026-10-12"
+ },
+ {
   "product_id": "cd1d4ce27acf",
   "chain": "Spar",
   "price_eur": 5.29,
@@ -11290,6 +11479,15 @@
   "chain": "Billa",
   "price_eur": 8.49,
   "price_per_kg_eur": 14.15,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "BILLA shop API 2026-10-13"
+ },
+ {
+  "product_id": "7e25c3b062bb",
+  "chain": "Billa",
+  "price_eur": 7.69,
+  "price_per_kg_eur": 15.38,
   "price_status": "live 2026",
   "fetched_at": "2026-10-13",
   "price_source": "BILLA shop API 2026-10-13"
@@ -11431,6 +11629,15 @@
  },
  {
   "product_id": "2ea24dd22bdd",
+  "chain": "Billa",
+  "price_eur": 7.69,
+  "price_per_kg_eur": 11.83,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "BILLA shop API 2026-10-13"
+ },
+ {
+  "product_id": "25a09fd91556",
   "chain": "Billa",
   "price_eur": 7.69,
   "price_per_kg_eur": 11.83,
@@ -12273,7 +12480,7 @@
   "price_per_kg_eur": 12.68,
   "price_status": "live 2026",
   "fetched_at": "2026-10-13",
-  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+  "price_source": "food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
  },
  {
   "product_id": "b1b06d03f3de",
@@ -12282,7 +12489,7 @@
   "price_per_kg_eur": 12.68,
   "price_status": "live 2026",
   "fetched_at": "2026-10-13",
-  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+  "price_source": "food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
  },
  {
   "product_id": "140ceba03900",
@@ -12559,6 +12766,33 @@
   "chain": "Gurkerl",
   "price_eur": 8.99,
   "price_per_kg_eur": 37.46,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+ },
+ {
+  "product_id": "cbf925424321",
+  "chain": "Gurkerl",
+  "price_eur": 3.69,
+  "price_per_kg_eur": 9.23,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+ },
+ {
+  "product_id": "fb35d6311a43",
+  "chain": "Gurkerl",
+  "price_eur": 7.29,
+  "price_per_kg_eur": 18.23,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+ },
+ {
+  "product_id": "49c84b01b5a4",
+  "chain": "Gurkerl",
+  "price_eur": 6.69,
+  "price_per_kg_eur": 8.36,
   "price_status": "live 2026",
   "fetched_at": "2026-10-13",
   "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
@@ -15009,7 +15243,7 @@
   "price_per_kg_eur": 13.86,
   "price_status": "live 2026",
   "fetched_at": "2026-10-13",
-  "price_source": "food-connectors/mpreis-shop 2026-10-13 (JSON-LD, InStock)"
+  "price_source": "food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
  },
  {
   "product_id": "4891970617a8",
@@ -15018,7 +15252,7 @@
   "price_per_kg_eur": 13.13,
   "price_status": "live 2026",
   "fetched_at": "2026-10-13",
-  "price_source": "food-connectors/mpreis-shop 2026-10-13 (JSON-LD, InStock)"
+  "price_source": "food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
  },
  {
   "product_id": "dd3b8cc39023",
@@ -15153,7 +15387,7 @@
   "price_per_kg_eur": 14.72,
   "price_status": "live 2026",
   "fetched_at": "2026-10-13",
-  "price_source": "food-connectors/mpreis-shop 2026-10-13 (JSON-LD, InStock)"
+  "price_source": "food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
  },
  {
   "product_id": "f0f97c8f8fff",
@@ -15264,6 +15498,24 @@
   "price_source": "food-connectors/mpreis-shop 2026-10-13 (JSON-LD, InStock)"
  },
  {
+  "product_id": "c8951c628799",
+  "chain": "MPreis",
+  "price_eur": 2.49,
+  "price_per_kg_eur": 7.11,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13 (JSON-LD, InStock)"
+ },
+ {
+  "product_id": "e13c088036af",
+  "chain": "MPreis",
+  "price_eur": 5.79,
+  "price_per_kg_eur": 14.47,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/mpreis-shop 2026-10-13 (JSON-LD, InStock)"
+ },
+ {
   "product_id": "f90ac3f7cb90",
   "chain": "MPreis",
   "price_eur": 1.99,
@@ -15279,7 +15531,7 @@
   "price_per_kg_eur": 10.02,
   "price_status": "live 2026",
   "fetched_at": "2026-10-13",
-  "price_source": "food-connectors/mpreis-shop 2026-10-13 (JSON-LD, InStock)"
+  "price_source": "food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
  },
  {
   "product_id": "273a2d4c569c",
@@ -15304,6 +15556,15 @@
   "chain": "Billa",
   "price_eur": 4.19,
   "price_per_kg_eur": 13.09,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+ },
+ {
+  "product_id": "2458f364f779",
+  "chain": "Billa",
+  "price_eur": 5.49,
+  "price_per_kg_eur": 13.39,
   "price_status": "live 2026",
   "fetched_at": "2026-10-13",
   "price_source": "food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
@@ -15588,6 +15849,15 @@
   "price_source": "food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
  },
  {
+  "product_id": "b29f14584d69",
+  "chain": "Billa",
+  "price_eur": 5.29,
+  "price_per_kg_eur": 14.69,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+ },
+ {
   "product_id": "e60fe9884104",
   "chain": "Billa",
   "price_eur": 4.69,
@@ -15651,6 +15921,15 @@
   "price_source": "food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
  },
  {
+  "product_id": "02623416ea59",
+  "chain": "Billa",
+  "price_eur": 5.29,
+  "price_per_kg_eur": 13.92,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+ },
+ {
   "product_id": "be181de80b31",
   "chain": "Billa",
   "price_eur": 3.99,
@@ -15664,6 +15943,15 @@
   "chain": "Billa",
   "price_eur": 4.69,
   "price_per_kg_eur": 12.68,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+ },
+ {
+  "product_id": "d129893932c8",
+  "chain": "Billa",
+  "price_eur": 4.99,
+  "price_per_kg_eur": 10.51,
   "price_status": "live 2026",
   "fetched_at": "2026-10-13",
   "price_source": "food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
@@ -15754,6 +16042,411 @@
   "chain": "Billa",
   "price_eur": 4.79,
   "price_per_kg_eur": 9.98,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+ },
+ {
+  "product_id": "b39525b2bad2",
+  "chain": "Gurkerl",
+  "price_eur": 8.02,
+  "price_per_kg_eur": 36.45,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+ },
+ {
+  "product_id": "32ec58977c16",
+  "chain": "Gurkerl",
+  "price_eur": 13.42,
+  "price_per_kg_eur": 13.42,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+ },
+ {
+  "product_id": "9b359a92ca26",
+  "chain": "Gurkerl",
+  "price_eur": 4.99,
+  "price_per_kg_eur": 11.88,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+ },
+ {
+  "product_id": "c9ca5f692c0f",
+  "chain": "Gurkerl",
+  "price_eur": 4.69,
+  "price_per_kg_eur": 11.73,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+ },
+ {
+  "product_id": "6ae6028cb07e",
+  "chain": "Gurkerl",
+  "price_eur": 0.99,
+  "price_per_kg_eur": 16.5,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+ },
+ {
+  "product_id": "6eb6a437f448",
+  "chain": "Gurkerl",
+  "price_eur": 0.99,
+  "price_per_kg_eur": 16.5,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+ },
+ {
+  "product_id": "6a84ed4d347a",
+  "chain": "Gurkerl",
+  "price_eur": 1.19,
+  "price_per_kg_eur": 20.17,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+ },
+ {
+  "product_id": "5d0890a0cd85",
+  "chain": "Gurkerl",
+  "price_eur": 1.19,
+  "price_per_kg_eur": 19.19,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+ },
+ {
+  "product_id": "4842ba9f2b9f",
+  "chain": "Gurkerl",
+  "price_eur": 1.19,
+  "price_per_kg_eur": 21.64,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+ },
+ {
+  "product_id": "cfdc5ddfcda1",
+  "chain": "Gurkerl",
+  "price_eur": 1.29,
+  "price_per_kg_eur": 26.88,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+ },
+ {
+  "product_id": "251460a885ce",
+  "chain": "Gurkerl",
+  "price_eur": 1.29,
+  "price_per_kg_eur": 20.81,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+ },
+ {
+  "product_id": "c5748b6d90a2",
+  "chain": "Gurkerl",
+  "price_eur": 2.79,
+  "price_per_kg_eur": 17.44,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+ },
+ {
+  "product_id": "4526dc186a80",
+  "chain": "Gurkerl",
+  "price_eur": 2.79,
+  "price_per_kg_eur": 19.93,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+ },
+ {
+  "product_id": "91f3009afccb",
+  "chain": "Gurkerl",
+  "price_eur": 3.49,
+  "price_per_kg_eur": 30.35,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+ },
+ {
+  "product_id": "d43f12262e06",
+  "chain": "Gurkerl",
+  "price_eur": 3.59,
+  "price_per_kg_eur": 8.97,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+ },
+ {
+  "product_id": "9e03a4f3af05",
+  "chain": "Gurkerl",
+  "price_eur": 3.69,
+  "price_per_kg_eur": 9.23,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+ },
+ {
+  "product_id": "2e62fae2ce9d",
+  "chain": "Gurkerl",
+  "price_eur": 4.69,
+  "price_per_kg_eur": 9.38,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+ },
+ {
+  "product_id": "3c8e34306d97",
+  "chain": "Gurkerl",
+  "price_eur": 4.69,
+  "price_per_kg_eur": 9.38,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+ },
+ {
+  "product_id": "bf62a3e38aba",
+  "chain": "Gurkerl",
+  "price_eur": 4.69,
+  "price_per_kg_eur": 9.38,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+ },
+ {
+  "product_id": "a84aee2d5b83",
+  "chain": "Gurkerl",
+  "price_eur": 6.19,
+  "price_per_kg_eur": 7.74,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+ },
+ {
+  "product_id": "6ddd5366e5fc",
+  "chain": "Gurkerl",
+  "price_eur": 6.69,
+  "price_per_kg_eur": 8.36,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+ },
+ {
+  "product_id": "a79202a02ec4",
+  "chain": "Gurkerl",
+  "price_eur": 3.69,
+  "price_per_kg_eur": 9.23,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+ },
+ {
+  "product_id": "3741ed6577bf",
+  "chain": "Gurkerl",
+  "price_eur": 5.69,
+  "price_per_kg_eur": 14.23,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+ },
+ {
+  "product_id": "32193dd95394",
+  "chain": "Gurkerl",
+  "price_eur": 5.99,
+  "price_per_kg_eur": 16.64,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+ },
+ {
+  "product_id": "61ef78cf7688",
+  "chain": "Gurkerl",
+  "price_eur": 6.69,
+  "price_per_kg_eur": 8.36,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+ },
+ {
+  "product_id": "ca8c9e19cc9d",
+  "chain": "Gurkerl",
+  "price_eur": 2.99,
+  "price_per_kg_eur": 11.96,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+ },
+ {
+  "product_id": "70299e45870c",
+  "chain": "Gurkerl",
+  "price_eur": 2.99,
+  "price_per_kg_eur": 13.59,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+ },
+ {
+  "product_id": "aa61df96a9e2",
+  "chain": "Gurkerl",
+  "price_eur": 4.19,
+  "price_per_kg_eur": 15.52,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+ },
+ {
+  "product_id": "643086b9b2a5",
+  "chain": "Gurkerl",
+  "price_eur": 4.19,
+  "price_per_kg_eur": 15.52,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+ },
+ {
+  "product_id": "8dee45af03a6",
+  "chain": "Gurkerl",
+  "price_eur": 4.19,
+  "price_per_kg_eur": 15.52,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+ },
+ {
+  "product_id": "cbde2e8b6a77",
+  "chain": "Gurkerl",
+  "price_eur": 4.19,
+  "price_per_kg_eur": 15.52,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+ },
+ {
+  "product_id": "1dd92d7bfc5e",
+  "chain": "Gurkerl",
+  "price_eur": 4.19,
+  "price_per_kg_eur": 15.52,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+ },
+ {
+  "product_id": "6d29676deaf1",
+  "chain": "Gurkerl",
+  "price_eur": 4.19,
+  "price_per_kg_eur": 15.52,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+ },
+ {
+  "product_id": "8ace49f2705b",
+  "chain": "Gurkerl",
+  "price_eur": 4.19,
+  "price_per_kg_eur": 15.52,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/gurkerl 2026-10-13 (category API, inStock)"
+ },
+ {
+  "product_id": "1d0680603cb6",
+  "chain": "Billa",
+  "price_eur": 3.99,
+  "price_per_kg_eur": 18.14,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+ },
+ {
+  "product_id": "82472b775c3b",
+  "chain": "Billa",
+  "price_eur": 3.39,
+  "price_per_kg_eur": 11.3,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+ },
+ {
+  "product_id": "6834077e14fc",
+  "chain": "Billa",
+  "price_eur": 3.79,
+  "price_per_kg_eur": 12.63,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+ },
+ {
+  "product_id": "b2241af7d225",
+  "chain": "Billa",
+  "price_eur": 2.69,
+  "price_per_kg_eur": 12.23,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+ },
+ {
+  "product_id": "d0b128f49b5f",
+  "chain": "Billa",
+  "price_eur": 2.69,
+  "price_per_kg_eur": 12.23,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+ },
+ {
+  "product_id": "bbe833f6bb2e",
+  "chain": "Billa",
+  "price_eur": 4.79,
+  "price_per_kg_eur": 22.81,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+ },
+ {
+  "product_id": "83eb4ed5b438",
+  "chain": "Billa",
+  "price_eur": 5.99,
+  "price_per_kg_eur": 16.46,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+ },
+ {
+  "product_id": "24730885f519",
+  "chain": "Billa",
+  "price_eur": 4.99,
+  "price_per_kg_eur": 11.09,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+ },
+ {
+  "product_id": "1e020d856e4a",
+  "chain": "Billa",
+  "price_eur": 5.29,
+  "price_per_kg_eur": 17.63,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+ },
+ {
+  "product_id": "c2c3224d0562",
+  "chain": "Billa",
+  "price_eur": 2.65,
+  "price_per_kg_eur": 5.89,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-13",
+  "price_source": "food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+ },
+ {
+  "product_id": "8016bdd2d97a",
+  "chain": "Billa",
+  "price_eur": 5.99,
+  "price_per_kg_eur": 13.31,
   "price_status": "live 2026",
   "fetched_at": "2026-10-13",
   "price_source": "food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
@@ -19260,24 +19953,6 @@
   "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
  },
  {
-  "product_id": "c8951c628799",
-  "chain": "MPreis",
-  "price_eur": 2.49,
-  "price_per_kg_eur": 7.11,
-  "price_status": "live 2026",
-  "fetched_at": "2026-10-13",
-  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
- },
- {
-  "product_id": "d27bbb67ca9c",
-  "chain": "MPreis",
-  "price_eur": 7.49,
-  "price_per_kg_eur": 10.7,
-  "price_status": "live 2026",
-  "fetched_at": "2026-10-13",
-  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
- },
- {
   "product_id": "d6c7a32fd488",
   "chain": "MPreis",
   "price_eur": 2.49,
@@ -19300,15 +19975,6 @@
   "chain": "MPreis",
   "price_eur": 6.79,
   "price_per_kg_eur": 19.4,
-  "price_status": "live 2026",
-  "fetched_at": "2026-10-13",
-  "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"
- },
- {
-  "product_id": "e13c088036af",
-  "chain": "MPreis",
-  "price_eur": 5.79,
-  "price_per_kg_eur": 14.47,
   "price_status": "live 2026",
   "fetched_at": "2026-10-13",
   "price_source": "mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)"

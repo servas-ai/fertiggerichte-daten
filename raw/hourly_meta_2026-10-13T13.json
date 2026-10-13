@@ -1,0 +1,47 @@
+{
+ "run": "2026-10-13T13",
+ "brand_tree_additions": [
+  {
+   "brand": "Heura",
+   "owner": "Foods for Tomorrow / Heura Foods",
+   "source": "heurafoods.com; EIB project 20240549 FOODS FOR TOMORROW SLU"
+  },
+  {
+   "brand": "Nordsee",
+   "owner": "HOMANN Feinkost (Theo Müller, Nordsee-Lizenz)",
+   "source": "muellergroup.com fish-deli brands; Lizenz seit 2015"
+  },
+  {
+   "brand": "HOMANN",
+   "owner": "Unternehmensgruppe Theo Müller",
+   "source": "de.wikipedia Homann_Feinkost; muellergroup.com"
+  },
+  {
+   "brand": "Yopokki",
+   "owner": "Young Poong Co., Ltd. (YPFOODS)",
+   "source": "ypfoods.co.kr brand page"
+  },
+  {
+   "brand": "VIFON",
+   "owner": "Vietnam Food Industries (Vifon)",
+   "source": "vifon.com.vn"
+  },
+  {
+   "brand": "Podravka",
+   "owner": "Podravka d.d.",
+   "source": "podravka.com"
+  },
+  {
+   "brand": "Windisch",
+   "owner": "Stefan Windisch GmbH",
+   "source": "windisch-wurst.at"
+  },
+  {
+   "brand": "Farniente",
+   "owner": "Farniente S.A. (Seilles)",
+   "source": "farniente.be / food.be"
+  }
+ ],
+ "improvement": "score.py dedupe key now includes normalized store so cross-store same products stay as separate rows (feeds PriceCompare Dashboard)",
+ "penny_photos_filled": 2
+}
