@@ -1,0 +1,1 @@
+import{I as e,rt as t}from"./BaYLGZzq.js";import{n}from"./CGpJTda_.js";function r(r,i){let a;t(()=>r.value,()=>{a?.disconnect(),r.value&&n()&&(a=new ResizeObserver(i),a.observe(r.value))},{immediate:!0}),e(()=>{a?.disconnect()})}export{r as t};

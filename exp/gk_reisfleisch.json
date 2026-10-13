@@ -1,0 +1,61 @@
+{
+ "count": 2,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Gissinger Reisfleisch",
+   "brand": "Gissinger",
+   "price_eur": 9.61,
+   "unit_price_eur": 17.99,
+   "unit": "kg",
+   "size_g": 530.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/21860/21860-1633011353966.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Traditionelle Hausmannskost",
+   "source_url": "https://www.gurkerl.at/21860-gissinger-reisfleisch",
+   "source_id": "21860",
+   "fetched_at": "2026-10-13T02:14:40+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Schweinefleisch, Reis, Zwiebel, Suppe, Paprika, Salz, Gewürze"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Inzersdorfer Reisfleisch",
+   "brand": "Inzersdorfer",
+   "price_eur": 5.69,
+   "unit_price_eur": 14.23,
+   "unit": "kg",
+   "size_g": 400.0,
+   "nutrition_100g": {
+    "kcal": 181.0,
+    "fat": 7.6,
+    "satfat": 1.9,
+    "carbs": 21.0,
+    "sugar": 1.1,
+    "protein": 6.7,
+    "salt": 1.2,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/33736/33736-1723540595823.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Vorratsschrank > Fertiggerichte > Menüs & Dosengerichte",
+   "source_url": "https://www.gurkerl.at/33736-inzersdorfer-reisfleisch",
+   "source_id": "33736",
+   "fetched_at": "2026-10-13T02:14:40+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Reis (65%), Schweinefleisch (20%), Schweinefett, Schweinebauch geselcht [Schweinebauch, Nitritpökelsalz (Speisesalz, Konservierungsstoff: Natriumnitrit)], gekörnte Brühe (Salz, pflanzliches Eiweißhydrolysat, Maiskeimöl), Tomatenmark zweifach konzentriert, Paprika, Karotten, Zwiebel, WEIZENMEHL, Gewürze, Dextrose, Raucharoma, Rapsöl, Paprikaoleoresin, Speisesalz.\n\nNach dem Öffnen gekühlt lagern und innerhalb von 3 Tagen verbrauchen.\n\nZubereitung: Kochtopf: Inhalt in passenden Topf leeren 5 Min. erhitzen. Zubereitung: Mikrowelle: Inhalt in einen Teller leeren 2-3 Min. 600-750 W erhitzen. Zubereitung: Mikrowelle: Inhalt in einen Teller leeren. 1-2 EL Wasser hinzufügen, 2-3 Min. bei 600-750 W erhitzen."
+   }
+  }
+ ]
+}

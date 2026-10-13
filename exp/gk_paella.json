@@ -1,0 +1,102 @@
+{
+ "count": 3,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Frosta Paella MSC ASC (tiefgekühlt)",
+   "brand": "Frosta",
+   "price_eur": 6.19,
+   "unit_price_eur": 13.76,
+   "unit": "kg",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "kcal": 99.0,
+    "fat": 2.5,
+    "satfat": 1.3,
+    "carbs": 13.5,
+    "sugar": 1.4,
+    "protein": 5.3,
+    "salt": 1.26,
+    "fiber": 0.6
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/28435/28435-1707815664206.jpg",
+   "producer": "Frosta Tiefkühlkost GmbH, Postfach 290364, DE 27533 Bremerhaven",
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Tiefkühlprodukte > Fertiggerichte > Internationales",
+   "source_url": "https://www.gurkerl.at/28435-frosta-paella-msc-asc-tiefgekuehlt",
+   "source_id": "28435",
+   "fetched_at": "2026-10-13T02:10:42+00:00",
+   "extra": {
+    "ingredients": "Reisgericht nach spanischer Art mit Hähnchenbrust, Meeresfrüchten und Alaska-Seelachs-Filetstücken, verfeinert mit Safran. Tiefgefroren.\n\nZutaten: gegarter Reis (Wasser, Reis, Salz, Kurkuma, Sonnenblumenöl, Safran) (42%), Meeresfrüchte (SHRIMPS, gegarte MIESMUSCHELN, Salz) (8%), Tomaten, Erbsen, ALASKA-SEELACHS-FILET (7%), rote Paprika, Zwiebeln, marinierte, gegarte Hühnerbrust Salz, Sojaöl, Dextrose) (4%), Romanobohnen, Wasser, BUTTER, frittierte Zwiebeln (Zwiebeln, Rapsöl), Tomatenmark zweifach konzentriert, Salz, Basilikum, natives Olivenöl extra, Knoblauch, Zucker, Krustentierfond (Wasser, GARNELEN, Tomaten, Karotten), Thymian.\n\nBei -18° lagern, nach dem Auftauen nicht wieder einfrieren.\n\nKontakt: Frosta Tiefkühlkost GmbH, Postfach 290364, DE 27533 Bremerhaven"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Antonio Tomas Paella Reis",
+   "brand": "Antonio Tomas",
+   "price_eur": 2.99,
+   "unit_price_eur": 2.99,
+   "unit": "kg",
+   "size_g": 1000.0,
+   "nutrition_100g": {
+    "kcal": 358.0,
+    "fat": 0.5,
+    "satfat": 0.1,
+    "carbs": 79.2,
+    "sugar": null,
+    "protein": 6.5,
+    "salt": 1.0,
+    "fiber": 2.8
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/1394/1394-1606414325.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Spanien",
+   "category": "Vorratsschrank > Pasta, Reis & Beilagen > Reis",
+   "source_url": "https://www.gurkerl.at/1394-antonio-tomas-paella-reis",
+   "source_id": "1394",
+   "fetched_at": "2026-10-13T02:10:42+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Rundkornreis."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "HiPP Paella mit Bio-Hühnchen und buntem Gemüse , 1+",
+   "brand": "HiPP",
+   "price_eur": 2.69,
+   "unit_price_eur": 10.76,
+   "unit": "kg",
+   "size_g": 250.0,
+   "nutrition_100g": {
+    "kcal": 76.0,
+    "fat": 2.5,
+    "satfat": 0.5,
+    "carbs": 9.7,
+    "sugar": 1.2,
+    "protein": 2.9,
+    "salt": 0.28,
+    "fiber": 0.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/3334/3334-1755757992316.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Baby & Kinder > Baby- und Kindernahrung > Glaskost & Menüs > Fleisch & Fisch-Gläschen",
+   "source_url": "https://www.gurkerl.at/3334-hipp-paella-mit-bio-huehnchen-und-buntem-gemuese-1",
+   "source_id": "3334",
+   "fetched_at": "2026-10-13T02:10:42+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Wasser, Reis* gekocht 21%, Karotten*, Hühnerfleisch* 9,2%, Mais*, Tomaten*, Erbsen*, Paprika*, Zwiebeln*, Sonnenblumenöl*, Stärke*, Zitronensaft* aus Zitronensaftkonzentrat, jodiertes Speisesalz, Gewürze*, Antioxidationsmittel (Ascorbinsäure, stark tocopherolhaltige Extrakte). Hinweis: Glutenfrei. *Aus biologischer Erzeugung. (1)Antioxidationsmittel werden zum Schutz der empfindlichen Nähr- und Geschmacksstoffe eingesetzt. Tocopherolhaltige Extrakte sind natürliche Pflanzeninhaltsstoffe."
+   }
+  }
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "count": 3,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Followfood BIO Rote Linsen Suppe",
+   "brand": "followfood",
+   "price_eur": 2.99,
+   "unit_price_eur": 7.97,
+   "unit": "l",
+   "size_g": 375.0,
+   "nutrition_100g": {
+    "kcal": 65.0,
+    "fat": 1.4,
+    "satfat": 0.7,
+    "carbs": 9.2,
+    "sugar": 2.7,
+    "protein": 2.8,
+    "salt": 1.3,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/23409/23409-1734508300714.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Kühlregal > Schnelle Küche > Suppen & Fonds",
+   "source_url": "https://www.gurkerl.at/23409-followfood-bio-rote-linsen-suppe",
+   "source_id": "23409",
+   "fetched_at": "2026-10-13T02:19:21+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Wasser, Rote Linsen* 18%, Kartoffeln*, Karotten*, Tomaten*, Kokosmilch* (Kokosnussextrakt*, Wasser), Zucchini*, Dattelsirup*, Tomatenmark*, Meersalz, Knoblauch*, Sonnenblumenöl*, Verdickungsmittel: Guarkernmehl*, Kreuzkümmel*, Koriander*, Paprika*, Ingwer*, Curcuma*,\n Bockshornklee*, Pfeffer*.\n \n *aus kontrolliert biologischem Anbau"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Suppito Linseneintopf mediterran",
+   "brand": "Suppito",
+   "price_eur": 14.49,
+   "unit_price_eur": 28.98,
+   "unit": "kg",
+   "size_g": 500.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/44774/44774-1758268186572693718.JPG",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Traditionelle Hausmannskost",
+   "source_url": "https://www.gurkerl.at/44774-suppito-linseneintopf-mediterran",
+   "source_id": "44774",
+   "fetched_at": "2026-10-13T02:19:21+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Wasser, 23% Tomaten, 11% Berglinsen, 7% Karotten, 7% Zwiebel, RÄUCHERTOFU (SOJABOHNEN, Wasser, Nigari, SOJASAUCE (SOJABOHNEN, Wasser, Meersalz) Robinien- und Weißbuchenholzrauch), Oliven, Natursalz, Erdäpfelstärke, Kräuter (Petersilie, Thymian, Oregano), Knoblauch, Apfelessig, Asant, Bockshornkleesamen, Pfeffer schwarz, Hiziki Algen, Lorbeerblätter."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Marks & Spencer Spiced Lentil & Tomato Soup",
+   "brand": "Marks & Spencer",
+   "price_eur": 3.19,
+   "unit_price_eur": 7.98,
+   "unit": "kg",
+   "size_g": 400.0,
+   "nutrition_100g": {
+    "kcal": 56.0,
+    "fat": 1.1,
+    "satfat": 0.6,
+    "carbs": 8.6,
+    "sugar": 2.3,
+    "protein": 1.9,
+    "salt": 0.45,
+    "fiber": 1.8
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/7111/7111-1739789806188.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Großbritannien",
+   "category": "Marks & Spencer > Fertiggerichte",
+   "source_url": "https://www.gurkerl.at/7111-marks-spencer-spiced-lentil-tomato-soup",
+   "source_id": "7111",
+   "fetched_at": "2026-10-13T02:19:21+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Trinkwasser, Brauner Reis 12%, Zwiebel 11%, Kartoffel, Karotten 6%, Rote Paprika 6%, Kichererbsen 4.5 %, Bataten 3%, Chana dal 3%, Tomatenpaste, Tomaten, Getrocknete geriebene Kokosnuss, Koriander, Gemahlene Gewürze, Koriandersamen, Ingwer , Kurkuma, Schwarzer Pfeffer, Samen des römischen Kümmels, Bockshornklee, Speisesalz, Mehl aus roten Linsen, Maisstärke, Konzentrierter Karottensaft, Zitronensaft, Knoblauchmark, Mark aus roten Chilischoten, Gemahlener Chili"
+   }
+  }
+ ]
+}

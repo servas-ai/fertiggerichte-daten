@@ -1,0 +1,242 @@
+{
+ "count": 8,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Bürger Frittaten",
+   "brand": "Bürger",
+   "price_eur": 3.19,
+   "unit_price_eur": 12.76,
+   "unit": "kg",
+   "size_g": 250.0,
+   "nutrition_100g": {
+    "kcal": 326.0,
+    "fat": 21.0,
+    "satfat": 2.3,
+    "carbs": 24.0,
+    "sugar": 1.9,
+    "protein": 9.5,
+    "salt": 0.9,
+    "fiber": 1.6
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/41318/41318-1745909694842.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Kühlregal > Schnelle Küche > Suppen & Fonds",
+   "source_url": "https://www.gurkerl.at/41318-buerger-frittaten",
+   "source_id": "41318",
+   "fetched_at": "2026-10-13T02:08:16+00:00",
+   "extra": {
+    "ingredients": "Suppeneinlagen\n\nZutaten: WEIZENMEHL, Wasser, Rapsöl, VOLLMILCH, 13% VOLLEI**, Eiweißpulver aus Hühnerei**, Magermilchpulver, Speisesalz, Gewürze.\n** Eier aus Bodenhaltung.\n\nBei unter 7°C lagern. Geöffnete Packung innerhalb von 1 bis 2 Tagen aufbrauchen!"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Kelly's Mini Frittis classic",
+   "brand": "Kelly's",
+   "price_eur": 2.39,
+   "unit_price_eur": 29.88,
+   "unit": "kg",
+   "size_g": 80.0,
+   "nutrition_100g": {
+    "kcal": 530.0,
+    "fat": 32.0,
+    "satfat": 2.6,
+    "carbs": 52.0,
+    "sugar": 0.5,
+    "protein": 6.1,
+    "salt": 1.5,
+    "fiber": 4.4
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/5855/5855-1731925941666.jpg",
+   "producer": "Kelly Ges.m.b.H., Hermann-Gebauer-Straße 1, 1220 Wien, Österreich",
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Süßes & Salziges > Chips & Dips > Kartoffelchips",
+   "source_url": "https://www.gurkerl.at/5855-kelly-s-mini-frittis-classic",
+   "source_id": "5855",
+   "fetched_at": "2026-10-13T02:08:16+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Kartoffeln, Sonnenblumenöl, Salz.\n\nLagerung: Kühl und trocken lagern. \n\nProduzent: Kelly Ges.m.b.H., Hermann-Gebauer-Straße 1, 1220 Wien, Österreich"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "LAND-LEBEN Frittaten",
+   "brand": "LAND-LEBEN",
+   "price_eur": 1.79,
+   "unit_price_eur": 10.23,
+   "unit": "kg",
+   "size_g": 175.0,
+   "nutrition_100g": {
+    "kcal": 549.0,
+    "fat": 36.0,
+    "satfat": 18.0,
+    "carbs": 40.0,
+    "sugar": 2.0,
+    "protein": 14.0,
+    "salt": 1.5,
+    "fiber": 4.5
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/5490/5490-1718864200863.jpg",
+   "producer": "LAND-LEBEN Nahrungsmittel GmbH, Gewerbepark 1, 5102 Anthering, Österreich",
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Vorratsschrank > Pasta, Reis & Beilagen > Suppeneinlagen",
+   "source_url": "https://www.gurkerl.at/5490-land-leben-frittaten",
+   "source_id": "5490",
+   "fetched_at": "2026-10-13T02:08:16+00:00",
+   "extra": {
+    "ingredients": "Suppeneinlage\nZutaten: WEIZENmehl, Palmfett, VOLLEIpulver, EIWEIßpulver, Salz, MAGERMILCHpulver, MOLKEpulver, Gewürze\n\nKühl und trocken lagern\n\nProduzent: LAND-LEBEN Nahrungsmittel GmbH, Gewerbepark 1, 5102 Anthering, Österreich"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Kelly's Mini Frittis Paprika",
+   "brand": "Kelly's",
+   "price_eur": 2.39,
+   "unit_price_eur": 29.88,
+   "unit": "kg",
+   "size_g": 80.0,
+   "nutrition_100g": {
+    "kcal": 551.0,
+    "fat": 33.0,
+    "satfat": 2.7,
+    "carbs": 55.0,
+    "sugar": 2.5,
+    "protein": 5.0,
+    "salt": 2.0,
+    "fiber": 4.4
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/5856/5856-1731926012944.jpg",
+   "producer": "Kelly Ges.m.b.H., Hermann-Gebauer-Straße 1, 1220 Wien, Österreich",
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Süßes & Salziges > Chips & Dips > Kartoffelchips",
+   "source_url": "https://www.gurkerl.at/5856-kelly-s-mini-frittis-paprika",
+   "source_id": "5856",
+   "fetched_at": "2026-10-13T02:08:16+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Kartoffeln, Sonnenblumenöl, Aroma, Salz, WEIZENMEHL, Paprikapulver, KÄSEPULVER, Farbstoff (Paprikaextrakt), Säuerungsmittel (Citronensäure), Raucharoma.\n\nLagerung: Kühl und trocken lagern. \n\nProduzent: Kelly Ges.m.b.H., Hermann-Gebauer-Straße 1, 1220 Wien, Österreich"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Urashima Furikake with Yuzu Pepper Flavour",
+   "brand": "Urashima",
+   "price_eur": 4.99,
+   "unit_price_eur": 99.8,
+   "unit": "kg",
+   "size_g": 50.0,
+   "nutrition_100g": {
+    "kcal": 232.0,
+    "fat": 12.25,
+    "satfat": 1.95,
+    "carbs": 25.55,
+    "sugar": 16.67,
+    "protein": 16.67,
+    "salt": 1.1,
+    "fiber": 4.35
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/46429/46429-1767966469852665307.png",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Japan",
+   "category": "Vorratsschrank > Internationale Küche > Japanisch",
+   "source_url": "https://www.gurkerl.at/46429-urashima-furikake-with-yuzu-pepper-flavour",
+   "source_id": "46429",
+   "fetched_at": "2026-10-13T02:08:16+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Granulat mit Spinatgeschmack (Laktose, Salz, Stärke, Spinatpulver usw.), Sesam, Zucker, Yuzu-Pfefferpulver, fermentierte Gewürze, Sojasauce / Gewürze (Aminosäuren usw.), Aroma, Vitamin C (einschließlich Milchprodukte, Weizen, Sesam, Sojabohnen)."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Freka Clyss 120ml",
+   "brand": "Fresenius",
+   "price_eur": 7.45,
+   "unit_price_eur": 7.45,
+   "unit": "Stk",
+   "size_g": null,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/40185/40185-3586868-0195a410ed8c7f11a1b839c6c823e3ec.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": null,
+   "category": "Apotheke > Sortiment > Arzneimittel > Magen, Darm & Stoffwechsel > Magen-Darmtrakt > Verstopfung",
+   "source_url": "https://www.gurkerl.at/40185-freka-clyss-120ml",
+   "source_id": "40185",
+   "fetched_at": "2026-10-13T02:08:16+00:00",
+   "extra": {}
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Gissinger Frittaten",
+   "brand": "Gissinger",
+   "price_eur": 5.39,
+   "unit_price_eur": 44.92,
+   "unit": "kg",
+   "size_g": 120.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/28392/28392-1669112902704.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Schnelle Küche > Suppen & Fonds",
+   "source_url": "https://www.gurkerl.at/28392-gissinger-frittaten",
+   "source_id": "28392",
+   "fetched_at": "2026-10-13T02:08:16+00:00",
+   "extra": {
+    "ingredients": "Zutaten: EIER, MEHL, MILCH, Salz, Petersilie"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Marks & Spencer French Fries (tiefgekühlt)",
+   "brand": "Marks & Spencer",
+   "price_eur": 6.19,
+   "unit_price_eur": 6.19,
+   "unit": "kg",
+   "size_g": 1000.0,
+   "nutrition_100g": {
+    "kcal": 169.0,
+    "fat": 5.8,
+    "satfat": 0.5,
+    "carbs": 25.7,
+    "sugar": 0.5,
+    "protein": 2.4,
+    "salt": 0.48,
+    "fiber": 2.1
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/40109/40109-1741883753131.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Großbritannien",
+   "category": "Marks & Spencer > Tiefgekühlte Produkte",
+   "source_url": "https://www.gurkerl.at/40109-marks-spencer-french-fries-tiefgekuehlt",
+   "source_id": "40109",
+   "fetched_at": "2026-10-13T02:08:16+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Kartoffeln (88%), Pflanzenöl (Raps-/Sonnenblumenöl), Maismehl, Kartoffelstärke, Maisstärke, Reismehl, Ackerbohnenmehl, Speisesalz, Dextrose, Stabilisator: Xanthan"
+   }
+  }
+ ]
+}

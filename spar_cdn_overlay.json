@@ -1,0 +1,1146 @@
+{
+ "fetched_at": "2026-10-13T03:42:33Z",
+ "method": "heisse-preise spar id → cdn1.interspar.at articleImage HEAD verify",
+ "images": [
+  {
+   "name": "BEN’s ORIGINAL Express Reis Curryreis Indien",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020000585251/dt_main.jpg",
+   "heisse_id": "2020000585251"
+  },
+  {
+   "name": "Basenbox Bio-Süßkartoffelsuppe",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004168160/dt_main.jpg",
+   "heisse_id": "2020004168160"
+  },
+  {
+   "name": "DESPAR klassische Lasagne mit Rindfleisch",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003170034/dt_main.jpg",
+   "heisse_id": "2020003170034"
+  },
+  {
+   "name": "Freche Freunde Baby Bio-Gläschen Gemüse Risotto",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004390349/dt_main.jpg",
+   "heisse_id": "2020004390349"
+  },
+  {
+   "name": "Gusto Naturale Risotto Trüffel",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003793332/dt_main.jpg",
+   "heisse_id": "2020003793332"
+  },
+  {
+   "name": "Heinrich Kühlmann Nudelsalat Curry Hawaii",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005825123/dt_main.jpg",
+   "heisse_id": "2020005825123"
+  },
+  {
+   "name": "Hilcona Ravioli Ricotta di Bufala e Spinacci",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004142054/dt_main.jpg",
+   "heisse_id": "2020004142054"
+  },
+  {
+   "name": "Hilcona Tortellini Bolognese",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005979116/dt_main.jpg",
+   "heisse_id": "2020005979116"
+  },
+  {
+   "name": "Holle Bio-Gemüserisotto",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020002052997/dt_main.jpg",
+   "heisse_id": "2020002052997"
+  },
+  {
+   "name": "Hubers Landhendl Suppenhendl",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003204807/dt_main.jpg",
+   "heisse_id": "2020003204807"
+  },
+  {
+   "name": "Iglo Mehlspeistraum Erdbeerknödel 8 Stück",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020002695033/dt_main.jpg",
+   "heisse_id": "2020002695033"
+  },
+  {
+   "name": "Iglo Mehlspeistraum Riesen-Germknödel 3 Stück",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020000674139/dt_main.jpg",
+   "heisse_id": "2020000674139"
+  },
+  {
+   "name": "Iglo Mehlspeistraum Topfenknödel 8 Stück",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020002695026/dt_main.jpg",
+   "heisse_id": "2020002695026"
+  },
+  {
+   "name": "Iglo Minestrone Suppengemüse",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005747883/dt_main.jpg",
+   "heisse_id": "2020005747883"
+  },
+  {
+   "name": "Inzersdorfer Kräftige Hühnersuppe",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020002311964/dt_main.jpg",
+   "heisse_id": "2020002311964"
+  },
+  {
+   "name": "Inzersdorfer Pure Beef Premium Chili con Carne",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020002625801/dt_main.jpg",
+   "heisse_id": "2020002625801"
+  },
+  {
+   "name": "Inzersdorfer Suesskartoffelsuppe Süßkartoffelsuppe",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020002311971/dt_main.jpg",
+   "heisse_id": "2020002311971"
+  },
+  {
+   "name": "Kelomat Suppenlöffel 39,5 x 9,5 x 7,5 cm",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/5038350/dt_main.jpg",
+   "heisse_id": "5038350"
+  },
+  {
+   "name": "Kiano Curryblätter",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020000488743/dt_main.jpg",
+   "heisse_id": "2020000488743"
+  },
+  {
+   "name": "Knorr Die Schnelle Feine Broccolicreme Suppe mit Croûtons",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020002906986/dt_main.jpg",
+   "heisse_id": "2020002906986"
+  },
+  {
+   "name": "Knorr Disney Suppe Findet Nemo",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005388437/dt_main.jpg",
+   "heisse_id": "2020005388437"
+  },
+  {
+   "name": "Knorr Disney Suppe Frozen",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004655790/dt_main.jpg",
+   "heisse_id": "2020004655790"
+  },
+  {
+   "name": "Knorr Marvel Suppe Avengers",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004655813/dt_main.jpg",
+   "heisse_id": "2020004655813"
+  },
+  {
+   "name": "Knorr Meister Kessel Bohnen-Specksuppe Serbische Bohnen",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003571749/dt_main.jpg",
+   "heisse_id": "2020003571749"
+  },
+  {
+   "name": "Knorr Meister Kessel XL Gulaschsuppe 3 Portionen",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020000657040/dt_main.jpg",
+   "heisse_id": "2020000657040"
+  },
+  {
+   "name": "Knorr Quick Soup Hühnersuppe mit Nudeln 3x12g",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020001345625/dt_main.jpg",
+   "heisse_id": "2020001345625"
+  },
+  {
+   "name": "Küchenbrüder Frische Bio Tomatensuppe mit Basilikum",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020000747109/dt_main.jpg",
+   "heisse_id": "2020000747109"
+  },
+  {
+   "name": "Küchenbrüder Veganer Bio Linseneintopf",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020000747239/dt_main.jpg",
+   "heisse_id": "2020000747239"
+  },
+  {
+   "name": "La Nova Ravioli mit Ricotta & Spinat",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004230928/dt_main.jpg",
+   "heisse_id": "2020004230928"
+  },
+  {
+   "name": "Maggi Extra Feine Kürbiscreme Suppe mit Kürbisstückchen 75G",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/5508839/dt_main.jpg",
+   "heisse_id": "5508839"
+  },
+  {
+   "name": "Maggi Guten Appetit Hochzeitssuppe",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/7472091/dt_main.jpg",
+   "heisse_id": "7472091"
+  },
+  {
+   "name": "Maggi Magic Asia Instant Nudel Cup Curry 1 Portion",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020000573463/dt_main.jpg",
+   "heisse_id": "2020000573463"
+  },
+  {
+   "name": "Meica Currywurst",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020001404643/dt_main.jpg",
+   "heisse_id": "2020001404643"
+  },
+  {
+   "name": "Nabio Chili sin Carne",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005809154/dt_main.jpg",
+   "heisse_id": "2020005809154"
+  },
+  {
+   "name": "Nussyy Bio-Linsen-Curry mit Basmatireis",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004019011/dt_main.jpg",
+   "heisse_id": "2020004019011"
+  },
+  {
+   "name": "Puro Mundo Curry Englisch 27g",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004716231/dt_main.jpg",
+   "heisse_id": "2020004716231"
+  },
+  {
+   "name": "Rana Tradizionali Ravioli Ricotta und Spinat",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005042445/dt_main.jpg",
+   "heisse_id": "2020005042445"
+  },
+  {
+   "name": "Rana Tradizionali Ravioli Tomate Mozzarella",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005042513/dt_main.jpg",
+   "heisse_id": "2020005042513"
+  },
+  {
+   "name": "S-BUDGET Leberknödel 12 Stück",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020006177016/dt_main.jpg",
+   "heisse_id": "2020006177016"
+  },
+  {
+   "name": "S-BUDGET Marillen-Eisknödel 4 Stück",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005832374/dt_main.jpg",
+   "heisse_id": "2020005832374"
+  },
+  {
+   "name": "S-BUDGET Semmelknödel",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020006206082/dt_main.jpg",
+   "heisse_id": "2020006206082"
+  },
+  {
+   "name": "S-BUDGET Suppengruen",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004271747/dt_main.jpg",
+   "heisse_id": "2020004271747"
+  },
+  {
+   "name": "SPAR ASIA Massaman Thai Curry mit Kartoffeln & Kichererbsen",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004062383/dt_main.jpg",
+   "heisse_id": "2020004062383"
+  },
+  {
+   "name": "SPAR ASIA Tom Yum Suppe mit Garnelen-Wonton 202g Suppe + 108g Shrimps",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005946507/dt_main.jpg",
+   "heisse_id": "2020005946507"
+  },
+  {
+   "name": "SPAR Feine Küche Erdbeer-Topfen-Knödel mit Brösel-Zucker-Mischung 6 Stück",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020002485399/dt_main.jpg",
+   "heisse_id": "2020002485399"
+  },
+  {
+   "name": "SPAR Feine Küche Erdäpfelgulasch",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020001378814/dt_main.jpg",
+   "heisse_id": "2020001378814"
+  },
+  {
+   "name": "SPAR Feine Küche Lasagne Bolognese",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005683822/dt_main.jpg",
+   "heisse_id": "2020005683822"
+  },
+  {
+   "name": "SPAR Feine Küche Leberknödel 6 Stück",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020000585756/dt_main.jpg",
+   "heisse_id": "2020000585756"
+  },
+  {
+   "name": "SPAR Feine Küche Marillenknödel mit Zuckerherz und Brösel-Zucker-Mischung 5 Stück",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020001155675/dt_main.jpg",
+   "heisse_id": "2020001155675"
+  },
+  {
+   "name": "SPAR Feine Küche Nougat-Topfenknödel mit Brösel-Zucker-Mischung 6 Stück",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020002484040/dt_main.jpg",
+   "heisse_id": "2020002484040"
+  },
+  {
+   "name": "SPAR Feine Küche Risotto mit Pilzen",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004633217/dt_main.jpg",
+   "heisse_id": "2020004633217"
+  },
+  {
+   "name": "SPAR Feinstes Geflügel Maishendl Suppenjunges",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004643575/dt_main.jpg",
+   "heisse_id": "2020004643575"
+  },
+  {
+   "name": "SPAR Gemüse Suppe",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020001280742/dt_main.jpg",
+   "heisse_id": "2020001280742"
+  },
+  {
+   "name": "SPAR Hühner Suppe",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020002111434/dt_main.jpg",
+   "heisse_id": "2020002111434"
+  },
+  {
+   "name": "SPAR Hütten Kaspressknödel 4 Stück",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020002703493/dt_main.jpg",
+   "heisse_id": "2020002703493"
+  },
+  {
+   "name": "SPAR Hütten Mini-Germknödel + Powidl & Mohn-Zucker 5 Stück",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003065392/dt_main.jpg",
+   "heisse_id": "2020003065392"
+  },
+  {
+   "name": "SPAR Mini Kartoffel-Knödel",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005364493/dt_main.jpg",
+   "heisse_id": "2020005364493"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Curry 40g",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004698124/dt_main.jpg",
+   "heisse_id": "2020004698124"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Gemüse-Lasagne",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005324398/dt_main.jpg",
+   "heisse_id": "2020005324398"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Gemüse-Risotto",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005500181/dt_main.jpg",
+   "heisse_id": "2020005500181"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Gemüsesuppe Mediterran",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020001891771/dt_main.jpg",
+   "heisse_id": "2020001891771"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Gemüsesuppe ohne Hefe",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020001096039/dt_main.jpg",
+   "heisse_id": "2020001096039"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Gulaschsuppe",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020001891719/dt_main.jpg",
+   "heisse_id": "2020001891719"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Kürbissuppe",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005315549/dt_main.jpg",
+   "heisse_id": "2020005315549"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Linsensuppe mit Karotten",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003081767/dt_main.jpg",
+   "heisse_id": "2020003081767"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Ricotta-Spinat-Ravioli 2 Portionen",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020000887379/dt_main.jpg",
+   "heisse_id": "2020000887379"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Rindsuppe 140G",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003916687/dt_main.jpg",
+   "heisse_id": "2020003916687"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Servietten-Knödel SPAR NATUR PUR",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005230231/dt_main.jpg",
+   "heisse_id": "2020005230231"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Steinpilz-Risotto",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005857407/dt_main.jpg",
+   "heisse_id": "2020005857407"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Tomaten-Risotto",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005857414/dt_main.jpg",
+   "heisse_id": "2020005857414"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Tomatensuppe",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005315440/dt_main.jpg",
+   "heisse_id": "2020005315440"
+  },
+  {
+   "name": "SPAR Natur*pur Feine Bio-Frühlings-Suppe 3 Portionen",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004682635/dt_main.jpg",
+   "heisse_id": "2020004682635"
+  },
+  {
+   "name": "SPAR Natur*pur Feine Bio-Gemüsecreme-Suppe 3 Portionen",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004682611/dt_main.jpg",
+   "heisse_id": "2020004682611"
+  },
+  {
+   "name": "SPAR Natur*pur Feine Bio-Knoblauchcreme-Suppe 3 Portionen",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004682680/dt_main.jpg",
+   "heisse_id": "2020004682680"
+  },
+  {
+   "name": "SPAR Natur*pur Feine Bio-Kürbiscreme-Suppe 3 Portionen",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004682789/dt_main.jpg",
+   "heisse_id": "2020004682789"
+  },
+  {
+   "name": "SPAR Natur*pur Feine Bio-Nudel-Suppe 3 Portionen",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004682604/dt_main.jpg",
+   "heisse_id": "2020004682604"
+  },
+  {
+   "name": "SPAR Natur*pur Feine Bio-Tomatencreme- Suppe",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004682758/dt_main.jpg",
+   "heisse_id": "2020004682758"
+  },
+  {
+   "name": "SPAR Natur*pur Feine Bio-Zwiebel-Suppe",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004682666/dt_main.jpg",
+   "heisse_id": "2020004682666"
+  },
+  {
+   "name": "SPAR Natur*pur Saatgut Bio-Pflücksalat Red Salad Bowl",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020002325855/dt_main.jpg",
+   "heisse_id": "2020002325855"
+  },
+  {
+   "name": "SPAR PREMIUM Edition Johanna Maier Alt-Wiener Suppentopf",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020001844609/dt_main.jpg",
+   "heisse_id": "2020001844609"
+  },
+  {
+   "name": "SPAR PREMIUM Edition Johanna Maier Gulaschsuppe mit Rindfleisch und Kartoffeln",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003995491/dt_main.jpg",
+   "heisse_id": "2020003995491"
+  },
+  {
+   "name": "SPAR PREMIUM Edition Johanna Maier Rote Linsen- Suppe",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004142023/dt_main.jpg",
+   "heisse_id": "2020004142023"
+  },
+  {
+   "name": "SPAR PREMIUM Edition Paul Ivić Veganes Bio-Kartoffelgulasch",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005724075/dt_main.jpg",
+   "heisse_id": "2020005724075"
+  },
+  {
+   "name": "SPAR PREMIUM Feine Marillen-Eisknödel mit fruchtiger Marillenfüllung 4 Stück",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005421271/dt_main.jpg",
+   "heisse_id": "2020005421271"
+  },
+  {
+   "name": "SPAR PREMIUM Risotto Mediterran 200G",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020000919179/dt_main.jpg",
+   "heisse_id": "2020000919179"
+  },
+  {
+   "name": "SPAR PREMIUM Risotto mit Steinpilzen",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020000919186/dt_main.jpg",
+   "heisse_id": "2020000919186"
+  },
+  {
+   "name": "SPAR Suppengruen",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004272157/dt_main.jpg",
+   "heisse_id": "2020004272157"
+  },
+  {
+   "name": "SPAR enjoy ASIA Grünes Curry mit Reis",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004975416/dt_main.jpg",
+   "heisse_id": "2020004975416"
+  },
+  {
+   "name": "SPAR enjoy ASIA Gyoza Bowl",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005993587/dt_main.jpg",
+   "heisse_id": "2020005993587"
+  },
+  {
+   "name": "SPAR enjoy ASIA Linsendal",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005801691/dt_main.jpg",
+   "heisse_id": "2020005801691"
+  },
+  {
+   "name": "Schenkel Hummerrahmsuppe",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003243868/dt_main.jpg",
+   "heisse_id": "2020003243868"
+  },
+  {
+   "name": "Schenkel Steinpilzsuppe",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003501098/dt_main.jpg",
+   "heisse_id": "2020003501098"
+  },
+  {
+   "name": "Schenkel Zwiebelsuppe",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003243790/dt_main.jpg",
+   "heisse_id": "2020003243790"
+  },
+  {
+   "name": "Stangl Fertigmischung Semmelknödel glutenfrei",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004252296/dt_main.jpg",
+   "heisse_id": "2020004252296"
+  },
+  {
+   "name": "TANN In Vorarlberg hausgemacht Chili con Carne im Glas",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004695376/dt_main.jpg",
+   "heisse_id": "2020004695376"
+  },
+  {
+   "name": "TANN In Vorarlberg hausgemacht Rindsgulasch",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003986642/dt_main.jpg",
+   "heisse_id": "2020003986642"
+  },
+  {
+   "name": "TANN In Vorarlberg hausgemacht Rindssuppe",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003986796/dt_main.jpg",
+   "heisse_id": "2020003986796"
+  },
+  {
+   "name": "Tressbrüder Veganes Bio-Curry Typ Butter Chicken",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004114341/dt_main.jpg",
+   "heisse_id": "2020004114341"
+  },
+  {
+   "name": "Tupperware 3-BowlSet(1+1,4+1,9L)",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004987129/dt_main.jpg",
+   "heisse_id": "2020004987129"
+  },
+  {
+   "name": "Tupperware Everyday Bowl Set 240ml, 500ml, 800ml",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004912527/dt_main.jpg",
+   "heisse_id": "2020004912527"
+  },
+  {
+   "name": "Tupperware Wonderlier Bowl Set 775ml, 1,1L, 1,75L",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004921055/dt_main.jpg",
+   "heisse_id": "2020004921055"
+  },
+  {
+   "name": "Wiberg Curry Maharani 65g",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004521651/dt_main.jpg",
+   "heisse_id": "2020004521651"
+  },
+  {
+   "name": "efko Pfandl-Kraut zu Bratl & Knödel",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003175749/dt_main.jpg",
+   "heisse_id": "2020003175749"
+  },
+  {
+   "name": "ehrenwort BIO Scharfes Madras Curry 40g",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003503849/dt_main.jpg",
+   "heisse_id": "2020003503849"
+  },
+  {
+   "name": "yebo. Curry Caribbean Style 50g",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004133366/dt_main.jpg",
+   "heisse_id": "2020004133366"
+  },
+  {
+   "name": "Arroz Cebolla Sollana Paella Reis",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004426901/dt_main.jpg",
+   "heisse_id": "2020004426901"
+  },
+  {
+   "name": "BEN’s ORIGINAL Express Reis Griechisch",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004650016/dt_main.jpg",
+   "heisse_id": "2020004650016"
+  },
+  {
+   "name": "Basenbox Bio-Kartoffelgulasch",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004168214/dt_main.jpg",
+   "heisse_id": "2020004168214"
+  },
+  {
+   "name": "Basenbox Bio-ayurvedische Tomatensuppe",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004168122/dt_main.jpg",
+   "heisse_id": "2020004168122"
+  },
+  {
+   "name": "DESPAR Gnocchi",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020006126380/dt_main.jpg",
+   "heisse_id": "2020006126380"
+  },
+  {
+   "name": "Di Martino Gnocchi Sardi",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003799525/dt_main.jpg",
+   "heisse_id": "2020003799525"
+  },
+  {
+   "name": "GEFU Spätzlehobel Tradizione lang",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004726391/dt_main.jpg",
+   "heisse_id": "2020004726391"
+  },
+  {
+   "name": "Garden Gourmet Knuspertaschen Cordon-BleuB",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005761445/dt_main.jpg",
+   "heisse_id": "2020005761445"
+  },
+  {
+   "name": "Heinrich Kühlmann Kichererbsensalat Tomate Olive",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005704916/dt_main.jpg",
+   "heisse_id": "2020005704916"
+  },
+  {
+   "name": "Iglo Blattspinat Zwutschgerl",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004624048/dt_main.jpg",
+   "heisse_id": "2020004624048"
+  },
+  {
+   "name": "Iglo Erbsen Karotten Duo aus dem Marchfeld",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005769298/dt_main.jpg",
+   "heisse_id": "2020005769298"
+  },
+  {
+   "name": "Iglo Frühlingserbsen Frühlingserbsen",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005834460/dt_main.jpg",
+   "heisse_id": "2020005834460"
+  },
+  {
+   "name": "Iglo Genießer Schmankerl Cremespinat Cremespinat mit Mini Rösti",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005831094/dt_main.jpg",
+   "heisse_id": "2020005831094"
+  },
+  {
+   "name": "Iglo Junge Fisolen Junge Fisolen",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005812802/dt_main.jpg",
+   "heisse_id": "2020005812802"
+  },
+  {
+   "name": "Iglo Zuckererbsenschoten Zuckererbsenschoten",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005781993/dt_main.jpg",
+   "heisse_id": "2020005781993"
+  },
+  {
+   "name": "Kelly's Mikrowellen Popcorn Caramel Geschmack 3x90g",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020000571315/dt_main.jpg",
+   "heisse_id": "2020000571315"
+  },
+  {
+   "name": "Land-Leben Backerbsen 100% Sonnenblumenöl",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020002929619/dt_main.jpg",
+   "heisse_id": "2020002929619"
+  },
+  {
+   "name": "Miraplast Mikrowellenabdeckhaube",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/5543038/dt_main.jpg",
+   "heisse_id": "5543038"
+  },
+  {
+   "name": "Rana Tradizionali Tortelloni Parmigiano Reggiano",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005038929/dt_main.jpg",
+   "heisse_id": "2020005038929"
+  },
+  {
+   "name": "Rana Tradizionali Tortelloni Steinpilze",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005042308/dt_main.jpg",
+   "heisse_id": "2020005042308"
+  },
+  {
+   "name": "Rummo Gnocchi",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020006198653/dt_main.jpg",
+   "heisse_id": "2020006198653"
+  },
+  {
+   "name": "S-BUDGET Erbsen tiefgekühlt",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020001540457/dt_main.jpg",
+   "heisse_id": "2020001540457"
+  },
+  {
+   "name": "S-BUDGET Gemüsepfanne Mexico-Style",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005257030/dt_main.jpg",
+   "heisse_id": "2020005257030"
+  },
+  {
+   "name": "S-BUDGET Grießnockerl ca. 20 Stück",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020006206150/dt_main.jpg",
+   "heisse_id": "2020006206150"
+  },
+  {
+   "name": "S-BUDGET Hendl Keulen Vierteln",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003335303/dt_main.jpg",
+   "heisse_id": "2020003335303"
+  },
+  {
+   "name": "S-BUDGET Hühner-Geschnetzeltes Frisch",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004910660/dt_main.jpg",
+   "heisse_id": "2020004910660"
+  },
+  {
+   "name": "S-BUDGET Kartoffel-Gnocchi Natur",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020002660376/dt_main.jpg",
+   "heisse_id": "2020002660376"
+  },
+  {
+   "name": "S-BUDGET Kichererbsen dampfgegart 3 x 150g",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005366886/dt_main.jpg",
+   "heisse_id": "2020005366886"
+  },
+  {
+   "name": "S-BUDGET Maishendl Unterkeulen",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004580511/dt_main.jpg",
+   "heisse_id": "2020004580511"
+  },
+  {
+   "name": "S-BUDGET Puten Geschnetzeltes",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004580399/dt_main.jpg",
+   "heisse_id": "2020004580399"
+  },
+  {
+   "name": "S-BUDGET Schlemmerfilet Brokkoli mit MSC-Alaska-Seelachs",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020001493753/dt_main.jpg",
+   "heisse_id": "2020001493753"
+  },
+  {
+   "name": "S-BUDGET Tortelloni Mortadella",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020006191883/dt_main.jpg",
+   "heisse_id": "2020006191883"
+  },
+  {
+   "name": "S-BUDGET Tortelloni Ricotta & Spinat",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020006191913/dt_main.jpg",
+   "heisse_id": "2020006191913"
+  },
+  {
+   "name": "SPAR Feinstes Geflügel Maishendl Oberkeulen",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004581778/dt_main.jpg",
+   "heisse_id": "2020004581778"
+  },
+  {
+   "name": "SPAR Feinstes Geflügel schaut drauf Maishendl Keulenschnitzerl AMA Hendl Oberkeulenschnitz.",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004956477/dt_main.jpg",
+   "heisse_id": "2020004956477"
+  },
+  {
+   "name": "SPAR Feinstes Geflügel schaut drauf Maishendl Oberkeulen AMA Hendl Oberkeulen",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004956521/dt_main.jpg",
+   "heisse_id": "2020004956521"
+  },
+  {
+   "name": "SPAR Hütten Käsespätzle Sticks 9 Stück",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020006142212/dt_main.jpg",
+   "heisse_id": "2020006142212"
+  },
+  {
+   "name": "SPAR Junger Blattspinat",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020002693893/dt_main.jpg",
+   "heisse_id": "2020002693893"
+  },
+  {
+   "name": "SPAR Kaisergemüse",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003459221/dt_main.jpg",
+   "heisse_id": "2020003459221"
+  },
+  {
+   "name": "SPAR Kartoffelpüree 2 x 2 Portionen",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020006157520/dt_main.jpg",
+   "heisse_id": "2020006157520"
+  },
+  {
+   "name": "SPAR Kochbeutel Langkorn Reis 8 Beutel à 125g",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020001550388/dt_main.jpg",
+   "heisse_id": "2020001550388"
+  },
+  {
+   "name": "SPAR Marchfelder Erbsen",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020001493791/dt_main.jpg",
+   "heisse_id": "2020001493791"
+  },
+  {
+   "name": "SPAR Marchfelder Gemüsetrilogie Erbsen, Karotten rot & gelb",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020001493784/dt_main.jpg",
+   "heisse_id": "2020001493784"
+  },
+  {
+   "name": "SPAR Marchfelder Zarte Mischung Karotten, Erbsen & Zuckermais",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020001493807/dt_main.jpg",
+   "heisse_id": "2020001493807"
+  },
+  {
+   "name": "SPAR Natur*pur Bio Hendl Mini Oberkeulen frisch, Handelsklasse A",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005572843/dt_main.jpg",
+   "heisse_id": "2020005572843"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Baby-Blattspinat",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004467034/dt_main.jpg",
+   "heisse_id": "2020004467034"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Brokkoli",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003608926/dt_main.jpg",
+   "heisse_id": "2020003608926"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Brokkoli tiefgekühlt",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020006267397/dt_main.jpg",
+   "heisse_id": "2020006267397"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Dinkel-Nudeln mit Brokkoli",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003844089/dt_main.jpg",
+   "heisse_id": "2020003844089"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Fusilli grüne Erbsen",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004053886/dt_main.jpg",
+   "heisse_id": "2020004053886"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Gemüse-Eintopf",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005324374/dt_main.jpg",
+   "heisse_id": "2020005324374"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Hendl Filet sous-vide vorgegart 2 Filets",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004338518/dt_main.jpg",
+   "heisse_id": "2020004338518"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Kartoffelpüree 2 x 4 Portionen",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020006080200/dt_main.jpg",
+   "heisse_id": "2020006080200"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Makkaroni in Rahmgemüse",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005324411/dt_main.jpg",
+   "heisse_id": "2020005324411"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Pastinake Pastinakenpüree",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004830128/dt_main.jpg",
+   "heisse_id": "2020004830128"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Penne Kichererbsen",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004053848/dt_main.jpg",
+   "heisse_id": "2020004053848"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Spaghetti Bolognese",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004894687/dt_main.jpg",
+   "heisse_id": "2020004894687"
+  },
+  {
+   "name": "SPAR Natur*pur Junge Bio-Erbsen aus dem Marchfeld",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020002622954/dt_main.jpg",
+   "heisse_id": "2020002622954"
+  },
+  {
+   "name": "SPAR Veggie veganes Bio-Sugo Bolognese",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/1806854/dt_main.jpg",
+   "heisse_id": "1806854"
+  },
+  {
+   "name": "SPAR enjoy by NENI Kichererbsensalat mit Tahina",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003293467/dt_main.jpg",
+   "heisse_id": "2020003293467"
+  },
+  {
+   "name": "SPAR free from Gnocchi glutenfrei",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003941900/dt_main.jpg",
+   "heisse_id": "2020003941900"
+  },
+  {
+   "name": "Suntat Kichererbsen",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020000541301/dt_main.jpg",
+   "heisse_id": "2020000541301"
+  },
+  {
+   "name": "Südobst Bio Kichererbsen",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005564596/dt_main.jpg",
+   "heisse_id": "2020005564596"
+  },
+  {
+   "name": "Basenbox Bio-Gemüsecurry",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004168184/dt_main.jpg",
+   "heisse_id": "2020004168184"
+  },
+  {
+   "name": "Hilcona Ravioli Bolognese",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005509313/dt_main.jpg",
+   "heisse_id": "2020005509313"
+  },
+  {
+   "name": "Weight Watchers Feinwürzige Linsensuppe mit buntem Gemüse",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/7871863/dt_main.jpg",
+   "heisse_id": "7871863"
+  },
+  {
+   "name": "Weight Watchers Ungarische Gulaschsuppe mit Rindfleisch",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/7102844/dt_main.jpg",
+   "heisse_id": "7102844"
+  },
+  {
+   "name": "DESPAR PREMIUM Gnocchi",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003995330/dt_main.jpg",
+   "heisse_id": "2020003995330"
+  },
+  {
+   "name": "DESPAR PREMIUM Gnocchi al tartufo",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004353856/dt_main.jpg",
+   "heisse_id": "2020004353856"
+  },
+  {
+   "name": "S-BUDGET ASIA Pfannengemüse Asia-Art",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003737510/dt_main.jpg",
+   "heisse_id": "2020003737510"
+  },
+  {
+   "name": "S-BUDGET Gnocchi di Patate",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004146854/dt_main.jpg",
+   "heisse_id": "2020004146854"
+  },
+  {
+   "name": "S-BUDGET Gourmet-Mix Pfannengemüse",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003737503/dt_main.jpg",
+   "heisse_id": "2020003737503"
+  },
+  {
+   "name": "S-BUDGET Kaiserschmarrn ohne Rosinen",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004943989/dt_main.jpg",
+   "heisse_id": "2020004943989"
+  },
+  {
+   "name": "S-BUDGET Mini Pizza Margherita",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020002097196/dt_main.jpg",
+   "heisse_id": "2020002097196"
+  },
+  {
+   "name": "S-BUDGET Mini Pizza Salami",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/7894329/dt_main.jpg",
+   "heisse_id": "7894329"
+  },
+  {
+   "name": "S-BUDGET Mini-Hühner-Schnitzel",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003987243/dt_main.jpg",
+   "heisse_id": "2020003987243"
+  },
+  {
+   "name": "S-BUDGET Mini-Schnitzel aus Österreich tiefgekühlt",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020002798413/dt_main.jpg",
+   "heisse_id": "2020002798413"
+  },
+  {
+   "name": "S-BUDGET Pizza Donut Jalapeno-Cheddar",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005831018/dt_main.jpg",
+   "heisse_id": "2020005831018"
+  },
+  {
+   "name": "S-BUDGET Pizza-Käse gerieben, leicht*",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020001607440/dt_main.jpg",
+   "heisse_id": "2020001607440"
+  },
+  {
+   "name": "S-BUDGET Pizzakäse gerieben",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020001607464/dt_main.jpg",
+   "heisse_id": "2020001607464"
+  },
+  {
+   "name": "S-BUDGET Pizzaschifferl Salami",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005585157/dt_main.jpg",
+   "heisse_id": "2020005585157"
+  },
+  {
+   "name": "S-BUDGET Pizzaschifferl Tomaten-Mozzarella",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004822789/dt_main.jpg",
+   "heisse_id": "2020004822789"
+  },
+  {
+   "name": "S-BUDGET Pizzastangerl",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020002972042/dt_main.jpg",
+   "heisse_id": "2020002972042"
+  },
+  {
+   "name": "S-BUDGET Putenschnitzel frisch",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004480439/dt_main.jpg",
+   "heisse_id": "2020004480439"
+  },
+  {
+   "name": "S-BUDGET Rindsschnitzel ca. 400g per Pkg.",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020002710040/dt_main.jpg",
+   "heisse_id": "2020002710040"
+  },
+  {
+   "name": "S-BUDGET Schweins-Schnitzel",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020002627287/dt_main.jpg",
+   "heisse_id": "2020002627287"
+  },
+  {
+   "name": "SPAR Feine Küche 4 Hühner-Schnitzel",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020006170963/dt_main.jpg",
+   "heisse_id": "2020006170963"
+  },
+  {
+   "name": "SPAR Feine Küche Gnocchi 2 Portionen",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/8168689/dt_main.jpg",
+   "heisse_id": "8168689"
+  },
+  {
+   "name": "SPAR Feine Küche Schnitzel Wiener Art",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020002087463/dt_main.jpg",
+   "heisse_id": "2020002087463"
+  },
+  {
+   "name": "SPAR Feine Küche Schnitzel vom Schwein 2 Stück",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003539978/dt_main.jpg",
+   "heisse_id": "2020003539978"
+  },
+  {
+   "name": "SPAR Feine Küche Spaghetti Carbonara",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020001255108/dt_main.jpg",
+   "heisse_id": "2020001255108"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Basis für Chili con Carne 3 Portionen",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004806765/dt_main.jpg",
+   "heisse_id": "2020004806765"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Basis für Kartoffel-Gulasch 3 Portionen",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004805119/dt_main.jpg",
+   "heisse_id": "2020004805119"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Basis für Kräuter-Schnitzel 3 Portionen",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004805096/dt_main.jpg",
+   "heisse_id": "2020004805096"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Basis für Putenrahm-Geschnetzeltes 3 Portionen",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004806734/dt_main.jpg",
+   "heisse_id": "2020004806734"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Basis für Spaghetti Carbonara 3 Portionen",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004806888/dt_main.jpg",
+   "heisse_id": "2020004806888"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Dinkel-Wraps 3 Stück",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004492319/dt_main.jpg",
+   "heisse_id": "2020004492319"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Gnocchi 1 Portion",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/6394691/dt_main.jpg",
+   "heisse_id": "6394691"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Mini-Gnocchi",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003864223/dt_main.jpg",
+   "heisse_id": "2020003864223"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Pastinaken mit Kartoffeln & Rind",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005014305/dt_main.jpg",
+   "heisse_id": "2020005014305"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Pfannengemüse",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003736285/dt_main.jpg",
+   "heisse_id": "2020003736285"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Pizza Salami",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005719729/dt_main.jpg",
+   "heisse_id": "2020005719729"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Pizza Tomate-Mozzarella",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004806314/dt_main.jpg",
+   "heisse_id": "2020004806314"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Pizzamehl",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003499593/dt_main.jpg",
+   "heisse_id": "2020003499593"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Pizzasauce mit Oregano",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/1602425/dt_main.jpg",
+   "heisse_id": "1602425"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Rinds-Schnitzel",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020002803605/dt_main.jpg",
+   "heisse_id": "2020002803605"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Rinds-Schnitzel ca. 300g",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/6067113/dt_main.jpg",
+   "heisse_id": "6067113"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Schweins-Schnitzel",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/6278694/dt_main.jpg",
+   "heisse_id": "6278694"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Sugo Bolognese",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020002911591/dt_main.jpg",
+   "heisse_id": "2020002911591"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Tellerlinsen",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003623448/dt_main.jpg",
+   "heisse_id": "2020003623448"
+  },
+  {
+   "name": "SPAR Natur*pur Bio-Vollkorn Gnocchi",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004078216/dt_main.jpg",
+   "heisse_id": "2020004078216"
+  },
+  {
+   "name": "SPAR Natur*pur Mediterrane Bio-Kartoffelpfanne",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004830180/dt_main.jpg",
+   "heisse_id": "2020004830180"
+  },
+  {
+   "name": "SPAR PREMIUM Edition Paul Ivić Veganes Bio-Kichererbsenragout",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005724037/dt_main.jpg",
+   "heisse_id": "2020005724037"
+  },
+  {
+   "name": "SPAR Vital Wraps High Protein",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005588035/dt_main.jpg",
+   "heisse_id": "2020005588035"
+  },
+  {
+   "name": "SPAR enjoy ASIA Korean Beef mit Reis",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020006122627/dt_main.jpg",
+   "heisse_id": "2020006122627"
+  },
+  {
+   "name": "SPAR enjoy Ei Avocado Wrap",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020006122801/dt_main.jpg",
+   "heisse_id": "2020006122801"
+  },
+  {
+   "name": "SPAR enjoy Kebab-Style Wrap Made with planted.",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020006215923/dt_main.jpg",
+   "heisse_id": "2020006215923"
+  },
+  {
+   "name": "SPAR enjoy Orientalischer Protein Wrap",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020006354585/dt_main.jpg",
+   "heisse_id": "2020006354585"
+  },
+  {
+   "name": "SPAR enjoy Pizza-Roll mit Salami & Mais",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003929229/dt_main.jpg",
+   "heisse_id": "2020003929229"
+  },
+  {
+   "name": "SPAR enjoy Schinken Protein Wrap",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020006354455/dt_main.jpg",
+   "heisse_id": "2020006354455"
+  },
+  {
+   "name": "SPAR enjoy Thunfisch-Vollkornwrap",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020000406891/dt_main.jpg",
+   "heisse_id": "2020000406891"
+  },
+  {
+   "name": "SPAR enjoy by NENI Jerusalem Style Wrap",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020004878045/dt_main.jpg",
+   "heisse_id": "2020004878045"
+  },
+  {
+   "name": "SPAR PREMIUM Edition Johanna Maier Topfen-Spätzle",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003505980/dt_main.jpg",
+   "heisse_id": "2020003505980"
+  }
+ ]
+}

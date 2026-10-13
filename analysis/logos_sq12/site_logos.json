@@ -1,0 +1,864 @@
+[
+ {
+  "slug": "noem",
+  "url": "https://www.noem.at/",
+  "cands": [
+   {
+    "kind": "og",
+    "url": "https://noem.imgix.net/Fruehstueckstisch-mit-einem-reichhaltigen-Fruehstuecksangebot.png?auto=compress%2Cformat&w=1200&h=630&fit=crop&fm=jpg",
+    "file": "cand/noem_0.jpeg",
+    "bytes": 66450
+   },
+   {
+    "kind": "img",
+    "url": "https://noem.imgix.net/NOEM_PRO_streukaese-neu.png?auto=compress%2Cformat&w=1400",
+    "file": "cand/noem_1.png",
+    "bytes": 417126
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.noem.at/apple-touch-icon.png",
+    "file": "cand/noem_2.png",
+    "bytes": 10886
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.noem.at/favicon-32x32.png",
+    "file": "cand/noem_3.png",
+    "bytes": 2434
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.noem.at/favicon-16x16.png",
+    "file": "cand/noem_4.png",
+    "bytes": 1267
+   },
+   {
+    "kind": "ref",
+    "url": "https://www.noem.at/logo_512x512.png",
+    "file": "cand/noem_5.png",
+    "bytes": 49967
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.noem.at/"
+ },
+ {
+  "slug": "zurueck-zum-ursprung",
+  "url": "https://www.zurueckzumursprung.at/",
+  "cands": [
+   {
+    "kind": "og",
+    "url": "https://www.zurueckzumursprung.at/fileadmin/_processed_/4/6/csm_Og-image_f042619769.jpg",
+    "file": "cand/zurueck-zum-ursprung_0.jpeg",
+    "bytes": 193040
+   },
+   {
+    "kind": "img",
+    "url": "https://www.zurueckzumursprung.at/_assets/4b8eedeac75dabf6c5c55a34303952fc/Images/Logo-2026.svg",
+    "file": "cand/zurueck-zum-ursprung_1.svg",
+    "bytes": 10514
+   },
+   {
+    "kind": "img",
+    "url": "https://www.zurueckzumursprung.at/typo3temp/assets/_processed_/2/1/csm_20_jahre_small_36b7e94966.png",
+    "file": "cand/zurueck-zum-ursprung_2.png",
+    "bytes": 25123
+   },
+   {
+    "kind": "img",
+    "url": "https://www.zurueckzumursprung.at/typo3temp/assets/_processed_/c/8/csm_HoferLogo_fb9a7afa81.png",
+    "file": "cand/zurueck-zum-ursprung_3.png",
+    "bytes": 9207
+   },
+   {
+    "kind": "img",
+    "url": "https://www.zurueckzumursprung.at/typo3temp/assets/_processed_/c/1/csm_20_jahre_logo_ca922f0b83.png",
+    "file": "cand/zurueck-zum-ursprung_4.png",
+    "bytes": 13963
+   },
+   {
+    "kind": "img",
+    "url": "https://www.zurueckzumursprung.at/typo3temp/assets/_processed_/9/7/csm_ZZU-20-Jahre-2026_0078375c93.png",
+    "file": "cand/zurueck-zum-ursprung_5.png",
+    "bytes": 19775
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.zurueckzumursprung.at/"
+ },
+ {
+  "slug": "meica",
+  "url": "https://www.meica.de/",
+  "cands": [
+   {
+    "kind": "img",
+    "url": "https://www.meica.de/_assets/2463467ec568880360cfe0d0f1852732/Images/Logo.png",
+    "file": "cand/meica_0.png",
+    "bytes": 29036
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.meica.de/_assets/2463467ec568880360cfe0d0f1852732/Icons/favicon.ico",
+    "file": "cand/meica_1.x-icon",
+    "bytes": 1150
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.meica.de/apple-icon-57x57.png",
+    "file": "cand/meica_2.png",
+    "bytes": 3718
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.meica.de/apple-icon-60x60.png",
+    "file": "cand/meica_3.png",
+    "bytes": 4028
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.meica.de/apple-icon-72x72.png",
+    "file": "cand/meica_4.png",
+    "bytes": 5201
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.meica.de/apple-icon-76x76.png",
+    "file": "cand/meica_5.png",
+    "bytes": 5553
+   }
+  ],
+  "robots_ok": true,
+  "robots": "n/a HTTP Error 404: Not Found",
+  "final": "https://www.meica.de/home"
+ },
+ {
+  "slug": "andros",
+  "url": "https://www.andros.at/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occur",
+  "err": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)>"
+ },
+ {
+  "slug": "aia",
+  "url": "https://www.aia-food.it/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [Errno -2] Name or service not known>",
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "slug": "delamaris",
+  "url": "https://www.delamaris.si/",
+  "cands": [
+   {
+    "kind": "img",
+    "url": "https://www.delamaris.si/wp-content/uploads/2021/01/DELAMARIS_logo-napis-bel-02.png",
+    "file": "cand/delamaris_0.png",
+    "bytes": 7263
+   },
+   {
+    "kind": "img",
+    "url": "https://www.delamaris.si/wp-content/uploads/2021/01/Group-161.svg",
+    "file": "cand/delamaris_1.svg",
+    "bytes": 8268
+   },
+   {
+    "kind": "img",
+    "url": "https://www.delamaris.si/wp-content/uploads/2026/10/Pivka-Delamaris-logo_white-02.svg",
+    "file": "cand/delamaris_2.svg",
+    "bytes": 4866
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.delamaris.si/wp-content/uploads/2021/02/cropped-favicon-3-32x32.png",
+    "file": "cand/delamaris_3.png",
+    "bytes": 1212
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.delamaris.si/wp-content/uploads/2021/02/cropped-favicon-3-192x192.png",
+    "file": "cand/delamaris_4.png",
+    "bytes": 10064
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.delamaris.si/wp-content/uploads/2021/02/cropped-favicon-3-180x180.png",
+    "file": "cand/delamaris_5.png",
+    "bytes": 9247
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.delamaris.si/"
+ },
+ {
+  "slug": "la-fermiere",
+  "url": "https://www.lafermiere.com/",
+  "cands": [
+   {
+    "kind": "og",
+    "url": "https://www.lafermiere.com/wp-content/uploads/2022/02/lafermiere-share.jpg",
+    "file": "cand/la-fermiere_0.jpeg",
+    "bytes": 90723
+   },
+   {
+    "kind": "img",
+    "url": "https://www.lafermiere.com/wp-content/uploads/2021/08/logo-la-fermiere.svg",
+    "file": "cand/la-fermiere_1.svg",
+    "bytes": 10541
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.lafermiere.com/wp-content/uploads/2021/08/cropped-favicon-1-150x150.png",
+    "file": "cand/la-fermiere_2.png",
+    "bytes": 4425
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.lafermiere.com/wp-content/uploads/2021/08/cropped-favicon-1-300x300.png",
+    "file": "cand/la-fermiere_3.png",
+    "bytes": 9362
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.lafermiere.com/"
+ },
+ {
+  "slug": "gue",
+  "url": "https://www.gupuds.com/",
+  "cands": [
+   {
+    "kind": "og",
+    "url": "https://cdn.shopify.com/s/files/1/1025/1252/5644/files/SEO_c6330974-1949-4c1d-996c-e874295aa199.png?v=1769701720",
+    "file": "cand/gue_0.png",
+    "bytes": 50227
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://gudesserts.us/?shpxid=72aaf54a-8f23-48be-b200-26fb574dcc2c"
+ },
+ {
+  "slug": "greenforce",
+  "url": "https://www.greenforce.com/",
+  "cands": [
+   {
+    "kind": "og",
+    "url": "https://cdn.shopify.com/s/files/1/0417/0242/4737/files/BBQ_Kampagne_Small_af004033-494b-4c9f-aa40-7bef798eea37.png?v=1760370168",
+    "file": "cand/greenforce_0.png",
+    "bytes": 2047713
+   },
+   {
+    "kind": "img",
+    "url": "https://cdn.shopify.com/s/files/1/0417/0242/4737/files/GREENFORCE_Logo.png?v=1732182654&width=300",
+    "file": "cand/greenforce_1.png",
+    "bytes": 28477
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.greenforce.com/"
+ },
+ {
+  "slug": "heinz",
+  "url": "https://www.heinz.com/",
+  "cands": [
+   {
+    "kind": "og",
+    "url": "https://res.cloudinary.com/kraft-heinz-whats-cooking-ca/dxp-images/heinz/global/heinz-logo-black.png",
+    "file": "cand/heinz_0.png",
+    "bytes": 23990
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.heinz.com/"
+ },
+ {
+  "slug": "findus",
+  "url": "https://www.findus.it/",
+  "cands": [
+   {
+    "kind": "icon",
+    "url": "https://www.findus.it/icons/birdseye/favicon.svg",
+    "file": "cand/findus_0.svg",
+    "bytes": 831
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.findus.it/icons/birdseye/favicon.ico",
+    "file": "cand/findus_1.x-icon",
+    "bytes": 785
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.findus.it/icons/birdseye/apple-icon.png",
+    "file": "cand/findus_2.png",
+    "bytes": 2660
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.findus.it/"
+ },
+ {
+  "slug": "jeden-tag",
+  "url": "https://www.jeden-tag.de/",
+  "cands": [
+   {
+    "kind": "img",
+    "url": "https://www.jeden-tag.de/_assets/e6bf15f02616d4b86dc74f33fda97e9c/Images/logo.svg",
+    "file": "cand/jeden-tag_0.svg",
+    "bytes": 9102
+   },
+   {
+    "kind": "img",
+    "url": "https://www.jeden-tag.de/_assets/e6bf15f02616d4b86dc74f33fda97e9c/Images/JT_Logo_Schmetterling.png",
+    "file": "cand/jeden-tag_1.png",
+    "bytes": 3351
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.jeden-tag.de/_assets/e6bf15f02616d4b86dc74f33fda97e9c/FavIcons/apple-touch-icon.png",
+    "file": "cand/jeden-tag_2.png",
+    "bytes": 4169
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.jeden-tag.de/_assets/e6bf15f02616d4b86dc74f33fda97e9c/FavIcons/favicon-32x32.png",
+    "file": "cand/jeden-tag_3.png",
+    "bytes": 1339
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.jeden-tag.de/_assets/e6bf15f02616d4b86dc74f33fda97e9c/FavIcons/favicon-16x16.png",
+    "file": "cand/jeden-tag_4.png",
+    "bytes": 888
+   }
+  ],
+  "robots_ok": true,
+  "robots": "n/a HTTP Error 404: Not Found",
+  "final": "https://www.jeden-tag.de/de/"
+ },
+ {
+  "slug": "buerger",
+  "url": "https://www.buerger.de/",
+  "cands": [
+   {
+    "kind": "img",
+    "url": "https://www.buerger.de/buerger-logo.svg",
+    "file": "cand/buerger_0.svg",
+    "bytes": 4581
+   },
+   {
+    "kind": "img",
+    "url": "https://www.buerger.de/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fbuerger%2FaMrBN2GNHVfTPU_Q_Teaser_Werksverkauf.webp%3Fauto%3Dformat%2Ccompress&w=3840&q=75",
+    "file": "cand/buerger_1.webp",
+    "bytes": 206336
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.buerger.de/icon.svg",
+    "file": "cand/buerger_2.svg",
+    "bytes": 1277
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.buerger.de/apple-touch-icon.png",
+    "file": "cand/buerger_3.png",
+    "bytes": 1245
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.buerger.de/icon-dark.svg",
+    "file": "cand/buerger_4.svg",
+    "bytes": 1154
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.buerger.de/apple-touch-icon-dark.png",
+    "file": "cand/buerger_5.png",
+    "bytes": 2242
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.buerger.de/"
+ },
+ {
+  "slug": "hammermuehle",
+  "url": "https://www.hammermuehle.at/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [Errno -2] Name or service not known>",
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "slug": "golfera",
+  "url": "https://www.golfera.it/",
+  "cands": [
+   {
+    "kind": "og",
+    "url": "https://golfera.com/wp-content/uploads/2026/06/header-home-page-1.webp",
+    "file": "cand/golfera_0.webp",
+    "bytes": 197524
+   },
+   {
+    "kind": "img",
+    "url": "https://golfera.com/wp-content/uploads/2025/08/LOGO-GOLFERA_2025-2.webp",
+    "file": "cand/golfera_1.webp",
+    "bytes": 7642
+   },
+   {
+    "kind": "img",
+    "url": "https://golfera.com/wp-content/uploads/2025/08/LOGO-GOLFERA_BG_2025.webp",
+    "file": "cand/golfera_2.webp",
+    "bytes": 48532
+   },
+   {
+    "kind": "img",
+    "url": "https://golfera.com/wp-content/uploads/2025/09/LOGO-GOLFERA_2025-VIRGOLA.webp",
+    "file": "cand/golfera_3.webp",
+    "bytes": 10208
+   },
+   {
+    "kind": "img",
+    "url": "https://golfera.com/wp-content/uploads/2025/09/LOGO-GOLFERA_2025_WHITE.webp",
+    "file": "cand/golfera_4.webp",
+    "bytes": 1876
+   },
+   {
+    "kind": "icon",
+    "url": "https://golfera.com/wp-content/uploads/2025/10/cropped-logo-golfera-icon-32x32.webp",
+    "file": "cand/golfera_5.webp",
+    "bytes": 482
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://golfera.com/"
+ },
+ {
+  "slug": "rians",
+  "url": "https://www.rians.com/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate ",
+  "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+ },
+ {
+  "slug": "neni",
+  "url": "https://www.neni.at/",
+  "cands": [
+   {
+    "kind": "og",
+    "url": "https://nenifood.com/application/images/share.png?v=1.0",
+    "file": "cand/neni_0.png",
+    "bytes": 297993
+   },
+   {
+    "kind": "og",
+    "url": "https://nenifood.com/application/images/share_mallorca_colonia.jpg?v=1.0",
+    "file": "cand/neni_1.jpeg",
+    "bytes": 109903
+   },
+   {
+    "kind": "og",
+    "url": "https://nenifood.com/application/images/Image?v=1.0",
+    "file": "cand/neni_2.html",
+    "bytes": 374569
+   },
+   {
+    "kind": "img",
+    "url": "https://nenifood.com/application/images/neni-logo.svg",
+    "file": "cand/neni_3.svg",
+    "bytes": 2553
+   },
+   {
+    "kind": "img",
+    "url": "https://nenifood.com/application/images/650x650-nenimallorca-estrenc-mainlogo-rgb-pos.png",
+    "file": "cand/neni_4.png",
+    "bytes": 146849
+   },
+   {
+    "kind": "img",
+    "url": "https://nenifood.com/application/images/NENI_Logo_Familymade_RGB_Falafel.png",
+    "file": "cand/neni_5.png",
+    "bytes": 490159
+   }
+  ],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [Errno -2] Name or service not known>",
+  "final": "https://nenifood.com/"
+ },
+ {
+  "slug": "berger",
+  "url": "https://www.berger-schinken.at/",
+  "cands": [
+   {
+    "kind": "img",
+    "url": "https://www.berger-schinken.at/wp-content/uploads/2021/08/bergerschinken-logo-2.svg",
+    "file": "cand/berger_0.svg",
+    "bytes": 15362
+   },
+   {
+    "kind": "img",
+    "url": "https://www.berger-schinken.at/wp-content/uploads/2021/11/berger-box-1.svg",
+    "file": "cand/berger_1.svg",
+    "bytes": 40798
+   },
+   {
+    "kind": "img",
+    "url": "https://www.berger-schinken.at/wp-content/uploads/2021/08/berger-schinken-logo.svg",
+    "file": "cand/berger_2.svg",
+    "bytes": 12648
+   },
+   {
+    "kind": "img",
+    "url": "https://www.berger-schinken.at/wp-content/uploads/2024/02/berger-pflanzlich-logo-gruen.svg",
+    "file": "cand/berger_3.svg",
+    "bytes": 58394
+   },
+   {
+    "kind": "img",
+    "url": "https://www.berger-schinken.at/wp-content/uploads/2025/01/b2p-partnerlogo-line-pos-260x82.png.webp",
+    "file": "cand/berger_4.webp",
+    "bytes": 6966
+   },
+   {
+    "kind": "img",
+    "url": "https://www.berger-schinken.at/wp-content/uploads/2024/02/lsl-foerderer25-logotag-rgb-neon-170x146.png.webp",
+    "file": "cand/berger_5.webp",
+    "bytes": 6662
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.berger-schinken.at/"
+ },
+ {
+  "slug": "wiegert",
+  "url": "https://www.wiegert.at/",
+  "cands": [
+   {
+    "kind": "og",
+    "url": "https://www.wiegert.at/wp-content/uploads/2022/01/wiegert_header_frische.png",
+    "file": "cand/wiegert_0.png",
+    "bytes": 378200
+   },
+   {
+    "kind": "img",
+    "url": "https://www.wiegert.at/wp-content/uploads/2022/01/cropped-WIE-logo-11-claim-1024x553.png",
+    "file": "cand/wiegert_1.png",
+    "bytes": 214245
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.wiegert.at/wp-content/uploads/2022/01/cropped-Broccoli.B11.2k-min-32x32.png",
+    "file": "cand/wiegert_2.png",
+    "bytes": 1197
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.wiegert.at/wp-content/uploads/2022/01/cropped-Broccoli.B11.2k-min-192x192.png",
+    "file": "cand/wiegert_3.png",
+    "bytes": 22219
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.wiegert.at/wp-content/uploads/2022/01/cropped-Broccoli.B11.2k-min-180x180.png",
+    "file": "cand/wiegert_4.png",
+    "bytes": 19715
+   },
+   {
+    "kind": "ref",
+    "url": "https://www.wiegert.at/wp-content/uploads/2022/01/cropped-WIE-logo-11-claim.png",
+    "file": "cand/wiegert_5.png",
+    "bytes": 329918
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.wiegert.at/"
+ },
+ {
+  "slug": "brajlovic",
+  "url": "https://www.brajlovic.at/",
+  "cands": [
+   {
+    "kind": "og",
+    "url": "https://static.wixstatic.com/media/cc568a_b283c753f8674190b63aa7fc2aa0d0d2%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/cc568a_b283c753f8674190b63aa7fc2aa0d0d2%7Emv2.jpg",
+    "file": "cand/brajlovic_0.jpeg",
+    "bytes": 49684
+   },
+   {
+    "kind": "icon",
+    "url": "https://static.wixstatic.com/media/cc568a_2acf13c935da4e2a9e533c2992e8b041%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/cc568a_2acf13c935da4e2a9e533c2992e8b041%7Emv2.png",
+    "file": "cand/brajlovic_1.png",
+    "bytes": 40721
+   },
+   {
+    "kind": "icon",
+    "url": "https://static.wixstatic.com/media/cc568a_2acf13c935da4e2a9e533c2992e8b041%7Emv2.png/v1/fill/w_180%2Ch_180%2Clg_1%2Cusm_0.66_1.00_0.01/cc568a_2acf13c935da4e2a9e533c2992e8b041%7Emv2.png",
+    "file": "cand/brajlovic_2.png",
+    "bytes": 38432
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.brajlovic.at/"
+ },
+ {
+  "slug": "stadtkueche",
+  "url": "https://www.kasnudl.at/",
+  "cands": [
+   {
+    "kind": "img",
+    "url": "https://www.kasnudl.com/wp-content/uploads/2024/01/cropped-Design-ohne-Titel3.png",
+    "file": "cand/stadtkueche_0.png",
+    "bytes": 9614
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.kasnudl.com/"
+ },
+ {
+  "slug": "oyakata",
+  "url": "https://www.oyakata.de/",
+  "cands": [
+   {
+    "kind": "img",
+    "url": "https://www.oyakata.de/mt-content/uploads/2017/05/logo-oyakata-neu_59260960394d3.png",
+    "file": "cand/oyakata_0.png",
+    "bytes": 8089
+   },
+   {
+    "kind": "img",
+    "url": "https://www.oyakata.de/mt-content/uploads/2024/03/ikmf-logo_weiss.png",
+    "file": "cand/oyakata_1.png",
+    "bytes": 25427
+   },
+   {
+    "kind": "img",
+    "url": "https://www.oyakata.de/mt-content/uploads/2017/06/logo_tafisa-2.png",
+    "file": "cand/oyakata_2.png",
+    "bytes": 6841
+   }
+  ],
+  "robots_ok": true,
+  "robots": "n/a HTTP Error 404: Not Found",
+  "final": "https://www.oyakata.de/"
+ },
+ {
+  "slug": "miil",
+  "url": "https://www.miil.at/",
+  "cands": [
+   {
+    "kind": "img",
+    "url": "https://www.miil.at/images/gransy-logo.png",
+    "file": "cand/miil_0.png",
+    "bytes": 4780
+   }
+  ],
+  "robots_ok": true,
+  "robots": "n/a HTTP Error 500: Internal Server Error",
+  "final": "https://www.miil.at/"
+ },
+ {
+  "slug": "bibigo",
+  "url": "https://www.bibigo.com/",
+  "cands": [
+   {
+    "kind": "og",
+    "url": "https://www.bibigo.com/images/og/og-default.jpg",
+    "file": "cand/bibigo_0.jpeg",
+    "bytes": 90129
+   },
+   {
+    "kind": "img",
+    "url": "https://cdn.sanity.io/images/mf5qmsk4/production/7f117672123d4ebf0ddf23531397fc7129dac375-159x117.svg",
+    "file": "cand/bibigo_1.svg",
+    "bytes": 8373
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.bibigo.com/favicon.ico",
+    "file": "cand/bibigo_2.x-icon",
+    "bytes": 1791
+   },
+   {
+    "kind": "ref",
+    "url": "https://www.bibigo.com/images/header/logo.svg",
+    "file": "cand/bibigo_3.svg",
+    "bytes": 8277
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.bibigo.com/kr/en"
+ },
+ {
+  "slug": "dimmidisi",
+  "url": "https://www.dimmidisi.it/",
+  "cands": [
+   {
+    "kind": "og",
+    "url": "https://www.dimmidisi.it/wp-content/uploads/2025/03/Immagine-categoria.jpg",
+    "file": "cand/dimmidisi_0.jpeg",
+    "bytes": 73733
+   },
+   {
+    "kind": "img",
+    "url": "https://www.dimmidisi.it/wp-content/uploads/2022/04/logo-dimmidisi-300x81.png",
+    "file": "cand/dimmidisi_1.png",
+    "bytes": 25744
+   },
+   {
+    "kind": "img",
+    "url": "https://www.dimmidisi.it/wp-content/plugins/revslider/sr6/assets/assets/dummy.png",
+    "file": "cand/dimmidisi_2.png",
+    "bytes": 68
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.dimmidisi.it/wp-content/uploads/2022/05/favicon.png",
+    "file": "cand/dimmidisi_3.png",
+    "bytes": 776
+   },
+   {
+    "kind": "ref",
+    "url": "https://www.dimmidisi.it/wp-content/uploads/2022/04/logo-dimmidisi.png",
+    "file": "cand/dimmidisi_4.png",
+    "bytes": 21744
+   },
+   {
+    "kind": "ref",
+    "url": "https://www.dimmidisi.it/wp-content/uploads/2026/03/elemento-Logo-gardaland.png",
+    "file": "cand/dimmidisi_5.png",
+    "bytes": 66910
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.dimmidisi.it/"
+ },
+ {
+  "slug": "bauernland",
+  "url": "https://www.weinbergmaier.at/",
+  "cands": [
+   {
+    "kind": "img",
+    "url": "https://www.weinbergmaier.at/media/yootheme/cache/a3/WBM_mitLogos-a33ec9d9.png?src=images/WBM_mitLogos.png&thumbnail=200",
+    "file": "cand/bauernland_0.png",
+    "bytes": 9685
+   },
+   {
+    "kind": "img",
+    "url": "https://www.weinbergmaier.at/images/bio-haensel-gretel/HG_Logo2.png",
+    "file": "cand/bauernland_1.png",
+    "bytes": 58154
+   },
+   {
+    "kind": "img",
+    "url": "https://www.weinbergmaier.at/images/ackerl/ackerl2.jpg",
+    "file": "cand/bauernland_2.jpeg",
+    "bytes": 107264
+   },
+   {
+    "kind": "img",
+    "url": "https://www.weinbergmaier.at/images/Logo_TK.png",
+    "file": "cand/bauernland_3.png",
+    "bytes": 21049
+   },
+   {
+    "kind": "img",
+    "url": "https://www.weinbergmaier.at/images/Logo_BL.png",
+    "file": "cand/bauernland_4.png",
+    "bytes": 27681
+   },
+   {
+    "kind": "img",
+    "url": "https://www.weinbergmaier.at/media/yootheme/cache/49/WBM_mitLogos-49f8f38b.png?src=images/WBM_mitLogos.png&thumbnail=400",
+    "file": "cand/bauernland_5.png",
+    "bytes": 28698
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.weinbergmaier.at/"
+ },
+ {
+  "slug": "deli-dip",
+  "url": "https://www.deli-gourmet.at/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [Errno -2] Name or service not known>",
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "slug": "landtmanns",
+  "url": "https://www.landtmanns.at/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [Errno -2] Name or service not known>",
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "slug": "della-mamma",
+  "url": "https://www.dellamamma.de/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [Errno -2] Name or service not known>",
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "slug": "elsaesser",
+  "url": "https://www.elsaesser-flammkuchen.de/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a HTTP Error 403: Forbidden",
+  "err": "HTTP Error 403: Forbidden"
+ },
+ {
+  "slug": "basenbox",
+  "url": "https://www.basenbox.at/",
+  "cands": [
+   {
+    "kind": "og",
+    "url": "https://www.basenbox.life/wp-content/uploads/2022/05/basenbox-share.jpg",
+    "file": "cand/basenbox_0.jpeg",
+    "bytes": 139834
+   },
+   {
+    "kind": "img",
+    "url": "https://www.basenbox.life/wp-content/uploads/2021/06/EU_Organic_Logo_Colour_rgb-300x200.jpg",
+    "file": "cand/basenbox_1.jpeg",
+    "bytes": 5766
+   },
+   {
+    "kind": "icon",
+    "url": "https://basenbox.ams3.cdn.digitaloceanspaces.com/2020/01/cropped-200115-Icon-Favicon-17-17-1-192x192.png",
+    "file": "cand/basenbox_2.png",
+    "bytes": 5891
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.basenbox.life/wp-content/uploads/2020/01/cropped-200115-Icon-Favicon-17-17-1-32x32.png",
+    "file": "cand/basenbox_3.png",
+    "bytes": 958
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.basenbox.life/wp-content/uploads/2020/01/cropped-200115-Icon-Favicon-17-17-1-192x192.png",
+    "file": "cand/basenbox_4.png",
+    "bytes": 5353
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.basenbox.life/wp-content/uploads/2020/01/cropped-200115-Icon-Favicon-17-17-1-180x180.png",
+    "file": "cand/basenbox_5.png",
+    "bytes": 4940
+   }
+  ],
+  "robots_ok": true,
+  "robots": "n/a HTTP Error 404: Not Found",
+  "final": "https://www.basenbox.life/"
+ },
+ {
+  "slug": "danke-bauer",
+  "url": "https://www.dankebauer.at/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occur",
+  "err": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)>"
+ }
+]

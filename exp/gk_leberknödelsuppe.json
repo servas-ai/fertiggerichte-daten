@@ -1,0 +1,189 @@
+{
+ "count": 6,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Iglo Leberknödel (tiefgekühlt)",
+   "brand": "Iglo",
+   "price_eur": 2.99,
+   "unit_price_eur": 14.95,
+   "unit": "kg",
+   "size_g": 200.0,
+   "nutrition_100g": {
+    "kcal": 206.0,
+    "fat": 9.9,
+    "satfat": 3.6,
+    "carbs": 17.0,
+    "sugar": 1.4,
+    "protein": 12.0,
+    "salt": 1.9,
+    "fiber": 1.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/6077/6077-1681390127833.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Tiefkühlprodukte > Fertiggerichte > Knödel",
+   "source_url": "https://www.gurkerl.at/6077-iglo-leberknoedel-tiefgekuehlt",
+   "source_id": "6077",
+   "fetched_at": "2026-10-13T02:19:33+00:00",
+   "extra": {
+    "ingredients": "Leberknödel tiefgekühlt.\n\nZutaten: Rinder- und Schweineleber (42%), Semmelwürfel (WEIZENMEHL, Salz, Hefe), Wasser, Speck, Zwiebel, Speisesalz jodiert (Salz, Kaliumjodid), EI, Gewürze."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Radatz Leberknödel 4 Stück",
+   "brand": "Radatz",
+   "price_eur": 4.39,
+   "unit_price_eur": 13.72,
+   "unit": "kg",
+   "size_g": 320.0,
+   "nutrition_100g": {
+    "kcal": 251.0,
+    "fat": 18.0,
+    "satfat": 7.0,
+    "carbs": 7.0,
+    "sugar": 0.8,
+    "protein": 15.0,
+    "salt": 2.0,
+    "fiber": 0.5
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/11755/11755-1677235176643.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Fleisch & Fisch > Schwein > Knochen & Innereien",
+   "source_url": "https://www.gurkerl.at/11755-radatz-leberknoedel-4-stueck",
+   "source_id": "11755",
+   "fetched_at": "2026-10-13T02:19:33+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Schweineleber (49%), Speck, Semmelwürfel ( Weizenmehl, Wasser, Hefe, Speisesalz, Weizenmalzmehl, Weizengluten ), Eier, Milch, Speisesalz, Gewürze (enthält Senf), Dextrose, Würze, Rapsöl, Gewürzextrakt."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Knorr Meisterkessel XL Leberknödelsuppe",
+   "brand": "Knorr",
+   "price_eur": 6.19,
+   "unit_price_eur": 7.74,
+   "unit": "kg",
+   "size_g": 800.0,
+   "nutrition_100g": {
+    "kcal": 45.0,
+    "fat": 2.1,
+    "satfat": 0.9,
+    "carbs": 3.8,
+    "sugar": 0.5,
+    "protein": 2.7,
+    "salt": 1.1,
+    "fiber": 0.5
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/9408/9408-1706798140751.jpg",
+   "producer": "Unilever Austria GmbH, Stella-Klein-Löw-Weg 13, 1020 Wien, Österreich",
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Vorratsschrank > Fertiggerichte > Suppen",
+   "source_url": "https://www.gurkerl.at/9408-knorr-meisterkessel-xl-leberknoedelsuppe",
+   "source_id": "9408",
+   "fetched_at": "2026-10-13T02:19:33+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Trinkwasser, 33% Leberknödel [Trinkwasser, Rinderleber, Schweineleber, Schweinespeck, Semmelwürfel (WEIZENMEHL, Trinkwasser, Hefe), Paniermehl (WEIZENMEHL, Trinkwasser, Speisesalz, Hefe), jodiertes Speisesalz, Zwiebeln, EI, Majoran, Knoblauch, schwarzer Pfeffer], jodiertes Speisesalz, Geschmacksverstärker (Mononatriumglutamat, E635), Stärke, Speisesalz, Hefeextrakt, Rindfleischextrakt, Sonnenblumenöl, Zwiebeln, Aromen, Sojasauce (SOJABOHNEN, WEIZEN, Speisesalz), Gewürze (enthält SELLERIE), Säuerungsmittel Citronensäure, Maltodextrin, Karotten, Kräuter, Knoblauch, Gewürzextrakte. Kann Spuren von Milch enthalten.\n\nZubereitung: Inhalt der Dose und 400ml Wasser in einen passenden Kochtopf geben und erhitzen (nicht kochen). Auf kleine Stufe zurückdrehen und 7 Minuten ziehen lassen. In der Mikrowelle (Angaben für 750 Watt): Doseninhalt und 400ml Wasser in eine mikrowellengeeignete Schüssel geben, zugedeckt 8 Minuten erhitzen.\n\nKühl und trocken lagern. Nach dem Öffnen im Kühlschrank aufbewahren.\n\nKontakt: Unilever Austria GmbH, Stella-Klein-Löw-Weg 13, 1020 Wien, Österreich"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Gissinger Leberknödel",
+   "brand": "Gissinger",
+   "price_eur": 1.99,
+   "unit_price_eur": 16.58,
+   "unit": "kg",
+   "size_g": 120.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/22972/22972-1638373333910.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Schnelle Küche > Suppen & Fonds",
+   "source_url": "https://www.gurkerl.at/22972-gissinger-leberknoedel",
+   "source_id": "22972",
+   "fetched_at": "2026-10-13T02:19:33+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Rinderleber, SEMMELWÜRFEL, Gewürze, Kochsalz"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Steirerhuhn Gourmet Hühnerleberknödel",
+   "brand": "Steirerhuhn",
+   "price_eur": 6.79,
+   "unit_price_eur": 22.63,
+   "unit": "kg",
+   "size_g": 300.0,
+   "nutrition_100g": {
+    "kcal": 215.0,
+    "fat": 11.0,
+    "satfat": 4.6,
+    "carbs": 18.0,
+    "sugar": 1.7,
+    "protein": 10.0,
+    "salt": 2.1,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/12968/12968-1610470483884.JPG",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Fleisch & Fisch > Geflügel > Faschiertes, Burger & Co",
+   "source_url": "https://www.gurkerl.at/12968-steirerhuhn-gourmet-huehnerleberknoedel",
+   "source_id": "12968",
+   "fetched_at": "2026-10-13T02:19:33+00:00",
+   "extra": {
+    "ingredients": "Zutaten: \"Hühnerleber, Speck, Semmeln: (WEIZENMEHL, Trinkwasser,\n Hefe, Speisesalz, WEIZENMALZMEHL, GERSTENMALZEXTRAKT,\n Sonnenblumenöl), EI, Speisesalz, Gewürze,\""
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Rindssuppe mit Leberknödeln von Jan Bureš",
+   "brand": "Zatisi",
+   "price_eur": 5.39,
+   "unit_price_eur": 17.97,
+   "unit": "l",
+   "size_g": 300.0,
+   "nutrition_100g": {
+    "kcal": 106.0,
+    "fat": 5.6,
+    "satfat": 0.8,
+    "carbs": 3.4,
+    "sugar": 1.3,
+    "protein": 3.6,
+    "salt": 0.7,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/44168/44168-1756113069770909905.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "EU",
+   "category": "Kühlregal > Schnelle Küche > Suppen & Fonds",
+   "source_url": "https://www.gurkerl.at/44168-rindssuppe-mit-leberknoedeln-von-jan-bures",
+   "source_id": "44168",
+   "fetched_at": "2026-10-13T02:19:33+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Rinderbrühe 75 % (Rinderschwanz 17%, Rinderschulter 17%, Zwiebeln, Karotten, SELLERIE, Petersilie, Schnittlauch, Liebstöckel, schwarzer Pfeffer, Piment, Trinkwasser, Speisesalz), Leberknödel 25% (Schweine- und Rinderleber min. 33%, Paniermehl [WEIZENMEHL, Trinkwasser, Rapsöl, Hefe, Speisesalz], Schweineschmalz, Trinkwasser, Schweinefleisch, Zwiebeln, WEIZENGRIEB, Knoblauchpaste [Knoblauch, Speisesalz], Speisesalz, WEIZENSTÄRKE, Bambusfaser, modifizierte Kartoffelstärke, Glukosesirup, MILCHEIWEISS, Antioxidationsmittel: Natriumascorbat, Verdickungsmittel: Guarkernmehl, getrocknetes Gemüse, Dextrose, Gewürze)."
+   }
+  }
+ ]
+}

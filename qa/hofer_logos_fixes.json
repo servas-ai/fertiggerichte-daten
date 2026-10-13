@@ -1,0 +1,1625 @@
+{
+ "date": "2026-10-12",
+ "hofer_products_checked": 115,
+ "product_fixes": [
+  {
+   "store": "HOFER",
+   "name": "Rohkost-Salatmix",
+   "url": "https://world.openfoodfacts.org/product/24228664",
+   "action": "remove",
+   "field": null,
+   "old": null,
+   "new": null,
+   "reason": "Rohkost-Salat (Gemüse roh), kein Fertiggericht"
+  },
+  {
+   "store": "HOFER",
+   "name": "Klare Gemüsesuppe",
+   "url": "https://world.openfoodfacts.org/product/4099200008196",
+   "action": "remove",
+   "field": null,
+   "old": null,
+   "new": null,
+   "reason": "Suppenkonzentrat – Werte nicht verzehrfertig"
+  },
+  {
+   "store": "HOFER",
+   "name": "klare Rindsuppe",
+   "url": "https://world.openfoodfacts.org/product/4099200021966",
+   "action": "remove",
+   "field": null,
+   "old": null,
+   "new": null,
+   "reason": "Suppenkonzentrat – 0 kcal unplausibel"
+  },
+  {
+   "store": "HOFER",
+   "name": "Maishendl Ministeaks",
+   "url": "https://world.openfoodfacts.org/product/4099200135892",
+   "action": "fix",
+   "field": "kcal_100",
+   "old": 36.0714285714286,
+   "new": null,
+   "reason": "36 kcal bei 23 g Protein unmöglich (>=92 kcal); OFF-Fehlwert -> null, rankable=false bis Etikett geprüft"
+  },
+  {
+   "store": "HOFER",
+   "name": "All Natural Chips Paprika Geschmack",
+   "url": "https://world.openfoodfacts.org/product/24601221",
+   "action": "remove",
+   "field": null,
+   "old": null,
+   "new": null,
+   "reason": "Chips/Snack"
+  },
+  {
+   "store": "HOFER",
+   "name": "Risotto con asparagi",
+   "url": "https://world.openfoodfacts.org/product/4061459137125",
+   "action": "flag",
+   "field": "salt_100",
+   "old": null,
+   "new": null,
+   "reason": "Salz fehlt"
+  },
+  {
+   "store": "HOFER",
+   "name": "Kärntner Kasnudeln",
+   "url": "https://world.openfoodfacts.org/product/4099200227733",
+   "action": "fix",
+   "field": "producer_id",
+   "old": "FSC-C010395",
+   "new": null,
+   "reason": "FSC-C010395 ist FSC-Verpackungszertifikat, kein Identitätskennzeichen (OFF emb_codes falsch)"
+  },
+  {
+   "store": "HOFER",
+   "name": "Risotto con i funghi Cucina Nobile",
+   "url": "https://world.openfoodfacts.org/product/4061459137095",
+   "action": "flag",
+   "field": "dry",
+   "old": null,
+   "new": true,
+   "reason": "3,1 g Salz/100 g unplausibel für verzehrfertig -> wohl Trockenprodukt; aus Ranking"
+  },
+  {
+   "store": "HOFER",
+   "name": "Mürbteig",
+   "url": "https://world.openfoodfacts.org/product/4099200183145",
+   "action": "remove",
+   "field": null,
+   "old": null,
+   "new": null,
+   "reason": "Mürbteig (Backzutat), kein Gericht"
+  },
+  {
+   "store": "HOFER",
+   "name": "Mürbteig",
+   "url": "https://world.openfoodfacts.org/product/4099200183145",
+   "action": "flag_side",
+   "field": "category",
+   "old": null,
+   "new": "Beilage/Snack",
+   "reason": "kein Hauptgericht – aus Rankings nehmen"
+  },
+  {
+   "store": "HOFER",
+   "name": "XXL Lasagne",
+   "url": "https://www.hofer.at/produkt/primana-xxl-lasagne-000000000000739541",
+   "action": "fix",
+   "field": "size_g",
+   "old": null,
+   "new": "nachtragen",
+   "reason": "size_g fehlt -> €/kg und Protein/€ nicht berechenbar"
+  },
+  {
+   "store": "HOFER",
+   "name": "Mango Curry (Aufstrich?)",
+   "url": "https://www.hofer.at/produkt/brunch-mango-curry-000000000470199004",
+   "action": "remove",
+   "field": null,
+   "old": null,
+   "new": null,
+   "reason": "BRUNCH Mango Curry = Brotaufstrich, kein Gericht"
+  },
+  {
+   "store": "HOFER",
+   "name": "Gefüllte Gnocchi, Trüffel",
+   "url": "https://www.hofer.at/produkt/gourmet-finest-cuisine-gefuellte-gnocchi-trueffel-000000000274088001",
+   "action": "fix",
+   "field": "size_g",
+   "old": null,
+   "new": "nachtragen",
+   "reason": "size_g fehlt -> €/kg und Protein/€ nicht berechenbar"
+  },
+  {
+   "store": "HOFER",
+   "name": "Gefüllte Gnocchi, Tomaten und Mozzarella",
+   "url": "https://www.hofer.at/produkt/gourmet-finest-cuisine-gefuellte-gnocchi-tomaten-und-mozzarella-000000000274088002",
+   "action": "fix",
+   "field": "size_g",
+   "old": null,
+   "new": "nachtragen",
+   "reason": "size_g fehlt -> €/kg und Protein/€ nicht berechenbar"
+  },
+  {
+   "store": "HOFER",
+   "name": "Faschierte Laibchen mit Kartoffelpüree",
+   "url": "https://wokostswas.at/k54/fertigprodukte",
+   "action": "fix",
+   "field": "size_g",
+   "old": 430,
+   "new": 400,
+   "reason": "Packung 400 g (OFF)"
+  },
+  {
+   "store": "HOFER",
+   "name": "Eiersalat",
+   "url": "https://wokostswas.at/k54/fertigprodukte",
+   "action": "flag_side",
+   "field": "category",
+   "old": null,
+   "new": "Beilage/Snack",
+   "reason": "kein Hauptgericht – aus Rankings nehmen"
+  },
+  {
+   "store": "HOFER",
+   "name": "Frittaten Suppeneinlage",
+   "url": "https://wokostswas.at/k30/fertigprodukte",
+   "action": "flag_side",
+   "field": "category",
+   "old": null,
+   "new": "Beilage/Snack",
+   "reason": "kein Hauptgericht – aus Rankings nehmen"
+  },
+  {
+   "store": "HOFER",
+   "name": "Grießnockerl",
+   "url": "https://wokostswas.at/k30/fertigprodukte",
+   "action": "flag_side",
+   "field": "category",
+   "old": null,
+   "new": "Beilage/Snack",
+   "reason": "kein Hauptgericht – aus Rankings nehmen"
+  },
+  {
+   "store": "HOFER",
+   "name": "Snackbox Crispy Chili Cheese Nuggets",
+   "url": "https://wokostswas.at/k30/fertigprodukte",
+   "action": "flag_side",
+   "field": "category",
+   "old": null,
+   "new": "Beilage/Snack",
+   "reason": "kein Hauptgericht – aus Rankings nehmen"
+  },
+  {
+   "store": "HOFER",
+   "name": "Snackbox Crispy Mozzarella Sticks",
+   "url": "https://wokostswas.at/k30/fertigprodukte",
+   "action": "flag_side",
+   "field": "category",
+   "old": null,
+   "new": "Beilage/Snack",
+   "reason": "kein Hauptgericht – aus Rankings nehmen"
+  },
+  {
+   "store": "HOFER",
+   "name": "Snackbox Frischkäse Jalapenos",
+   "url": "https://wokostswas.at/k30/fertigprodukte",
+   "action": "flag_side",
+   "field": "category",
+   "old": null,
+   "new": "Beilage/Snack",
+   "reason": "kein Hauptgericht – aus Rankings nehmen"
+  },
+  {
+   "store": "HOFER",
+   "name": "Pikante Knödel",
+   "url": "https://www.billiga.at/at/angebot/hofer-central-20261009-h42-p14-023",
+   "action": "flag",
+   "field": "price_eur",
+   "old": 2.39,
+   "new": null,
+   "reason": "Preis aus Flugblatt (billiga.at, Aktion ab 09.10.2026) – als Aktionspreis kennzeichnen"
+  },
+  {
+   "store": "HOFER",
+   "name": "Chili con carne",
+   "url": "https://world.openfoodfacts.org/product/4099200121574",
+   "action": "fix",
+   "field": "kcal_100/protein_100/salt_100",
+   "old": [
+    87,
+    5.3,
+    1.4
+   ],
+   "new": [
+    99,
+    4.7,
+    2.8
+   ],
+   "reason": "OFF aktuell 99 kcal / 4,7 g P / 2,8 g Salz"
+  },
+  {
+   "store": "HOFER",
+   "name": "LASAGNE di semola",
+   "url": "https://world.openfoodfacts.org/product/4099200013312",
+   "action": "remove",
+   "field": null,
+   "old": null,
+   "new": null,
+   "reason": "trockene Lasagneblätter (354 kcal = Trockenware)"
+  },
+  {
+   "store": "HOFER",
+   "name": "Curry",
+   "url": "https://world.openfoodfacts.org/product/4099200016252",
+   "action": "remove",
+   "field": null,
+   "old": null,
+   "new": null,
+   "reason": "keine Nährwerte, Name unspezifisch"
+  },
+  {
+   "store": "HOFER",
+   "name": "Hühnersuppe mit Nudeln",
+   "url": "https://world.openfoodfacts.org/product/4099200015729",
+   "action": "remove",
+   "field": null,
+   "old": null,
+   "new": null,
+   "reason": "Instant-Trockensuppe 61 g – Werte trocken (328 kcal)"
+  },
+  {
+   "store": "HOFER",
+   "name": "Faschierte Laibchen mit Kartoffelpüree",
+   "url": "https://world.openfoodfacts.org/product/4099200146256",
+   "action": "remove_duplicate",
+   "field": null,
+   "old": null,
+   "new": null,
+   "reason": "Duplikat von 'Faschierte Laibchen mit Kartoffelpüree' (https://wokostswas.at/k54/fertigprodukte); Preis/Nährwerte/Bild mergen"
+  },
+  {
+   "store": "HOFER",
+   "name": "Italienische Fertiggericht Gnocchie Tomate Mozzarella",
+   "url": "https://www.hofer.at/de/sortiment/CUCINA-Italienische-Fertiggericht-Gnocchie-Tomate-Mozzarella-350g",
+   "action": "remove_duplicate",
+   "field": null,
+   "old": null,
+   "new": null,
+   "reason": "Duplikat von 'CUCINA Italienische Fertiggericht Gnocchie Tomate Mozzarella 350g' (https://www.hofer.at/de/sortiment/CUCINA-Italienische-Fertiggericht-Gn); Preis/Nährwerte/Bild mergen"
+  },
+  {
+   "store": "HOFER",
+   "name": "Italienische Fertiggericht Spaghetti Carbonara",
+   "url": "https://www.hofer.at/de/sortiment/CUCINA-Italienische-Fertiggericht-Spaghetti-Carbonara-350g",
+   "action": "remove_duplicate",
+   "field": null,
+   "old": null,
+   "new": null,
+   "reason": "Duplikat von 'CUCINA Italienische Fertiggericht Spaghetti Carbonara 350g' (https://www.hofer.at/de/sortiment/CUCINA-Italienische-Fertiggericht-Sp); Preis/Nährwerte/Bild mergen"
+  },
+  {
+   "store": "HOFER",
+   "name": "Lasagne Ricotta-Spinat",
+   "url": "https://www.hofer.at/de/sortiment/CUCINA-NOBILE-Lasagne-Ricotta-Spinat-400g",
+   "action": "remove_duplicate",
+   "field": null,
+   "old": null,
+   "new": null,
+   "reason": "Duplikat von 'CUCINA NOBILE Lasagne Ricotta-Spinat 400g' (https://www.hofer.at/de/sortiment/CUCINA-NOBILE-Lasagne-Ricotta-Spinat); Preis/Nährwerte/Bild mergen"
+  },
+  {
+   "store": "HOFER",
+   "name": "Spaghetti Bolognese",
+   "url": "https://www.hofer.at/de/sortiment/CUCINA-Spaghetti-Bolognese-350g",
+   "action": "remove_duplicate",
+   "field": null,
+   "old": null,
+   "new": null,
+   "reason": "Duplikat von 'CUCINA Spaghetti Bolognese 350g' (https://www.hofer.at/de/sortiment/CUCINA-Spaghetti-Bolognese-350g); Preis/Nährwerte/Bild mergen"
+  },
+  {
+   "store": "HOFER",
+   "name": "Fertiggericht Apfelstrude mit Vanillesauce",
+   "url": "https://www.hofer.at/de/sortiment/GOOD-CHOICE-Fertiggericht-Apfelstrude-mit-Vanillesauce-300g",
+   "action": "remove_duplicate",
+   "field": null,
+   "old": null,
+   "new": null,
+   "reason": "Duplikat von 'GOOD CHOICE Fertiggericht Apfelstrude mit Vanillesauce 300g' (https://www.hofer.at/de/sortiment/GOOD-CHOICE-Fertiggericht-Apfelstrud); Preis/Nährwerte/Bild mergen"
+  },
+  {
+   "store": "HOFER",
+   "name": "Fertiggericht Buttermilch Schmarren",
+   "url": "https://www.hofer.at/de/sortiment/GOOD-CHOICE-Fertiggericht-Buttermilch-Schmarren-300g",
+   "action": "remove_duplicate",
+   "field": null,
+   "old": null,
+   "new": null,
+   "reason": "Duplikat von 'GOOD CHOICE Fertiggericht Buttermilch Schmarren 300g' (https://www.hofer.at/de/sortiment/GOOD-CHOICE-Fertiggericht-Buttermilc); Preis/Nährwerte/Bild mergen"
+  },
+  {
+   "store": "HOFER",
+   "name": "Fertiggericht Topfenködel mit Erdbeersauce",
+   "url": "https://www.hofer.at/de/sortiment/GOOD-CHOICE-Fertiggericht-Topfenkodel-mit-Erdbeersauce-330g",
+   "action": "remove_duplicate",
+   "field": null,
+   "old": null,
+   "new": null,
+   "reason": "Duplikat von 'GOOD CHOICE Fertiggericht Topfenködel mit Erdbeersauce 330g' (https://www.hofer.at/de/sortiment/GOOD-CHOICE-Fertiggericht-Topfenkode); Preis/Nährwerte/Bild mergen"
+  },
+  {
+   "store": "HOFER",
+   "name": "Pasta Fertiggerichte Lachs Spaghettini",
+   "url": "https://www.hofer.at/de/sortiment/GOOD-CHOICE-Pasta-Fertiggerichte-Lachs-Spaghettini-400g",
+   "action": "remove_duplicate",
+   "field": null,
+   "old": null,
+   "new": null,
+   "reason": "Duplikat von 'GOOD CHOICE Pasta Fertiggerichte Lachs Spaghettini 400g' (https://www.hofer.at/de/sortiment/GOOD-CHOICE-Pasta-Fertiggerichte-Lac); Preis/Nährwerte/Bild mergen"
+  },
+  {
+   "store": "HOFER",
+   "name": "Pasta Fertiggerichte Pecorelli in Tomatensauce",
+   "url": "https://www.hofer.at/de/sortiment/GOOD-CHOICE-Pasta-Fertiggerichte-Pecorelli-in-Tomatensauce-400g",
+   "action": "remove_duplicate",
+   "field": null,
+   "old": null,
+   "new": null,
+   "reason": "Duplikat von 'GOOD CHOICE Pasta Fertiggerichte Pecorelli in Tomatensauce 400g' (https://www.hofer.at/de/sortiment/GOOD-CHOICE-Pasta-Fertiggerichte-Pec); Preis/Nährwerte/Bild mergen"
+  },
+  {
+   "store": "HOFER",
+   "name": "GOOD CHOICE Pinzgauer Käsespätzle 380g ",
+   "url": "https://www.hofer.at/de/sortiment/GOOD-CHOICE-Hascheehornchen-380-g",
+   "action": "remove_duplicate",
+   "field": null,
+   "old": null,
+   "new": null,
+   "reason": "Duplikat von 'Pinzgauer Käsespätzle' (https://wokostswas.at/p3514/good-choice-pinzgauer-kaesespaetzle-380g); Preis/Nährwerte/Bild mergen"
+  },
+  {
+   "store": "HOFER",
+   "name": "Risotto Pilz",
+   "url": "https://www.hofer.at/de/sortiment/GOOD-CHOICE-Risotto-Pilz-400g",
+   "action": "remove_duplicate",
+   "field": null,
+   "old": null,
+   "new": null,
+   "reason": "Duplikat von 'GOOD CHOICE Risotto Pilz 400g' (https://www.hofer.at/de/sortiment/GOOD-CHOICE-Risotto-Pilz-400g); Preis/Nährwerte/Bild mergen"
+  },
+  {
+   "store": "HOFER",
+   "name": "GOOD CHOICE Schwammerlsauce mit Serviettenknödel 380g ",
+   "url": "https://www.hofer.at/de/sortiment/GOOD-CHOICE-Schwammerlsauce-mit-Serviettenknodel-380-g",
+   "action": "remove_duplicate",
+   "field": null,
+   "old": null,
+   "new": null,
+   "reason": "Duplikat von 'Schwammerlsauce mit Serviettenknödel' (https://wokostswas.at/k54/fertigprodukte); Preis/Nährwerte/Bild mergen"
+  },
+  {
+   "store": "HOFER",
+   "name": "Chili con carne",
+   "url": "https://world.openfoodfacts.org/product/4099200121574",
+   "action": "remove_duplicate",
+   "field": null,
+   "old": null,
+   "new": null,
+   "reason": "Duplikat von 'PRIMANA Chili Con Carne 400g' (https://www.hofer.at/de/sortiment/PRIMANA-Chili-Con-Carne-400-g); Preis/Nährwerte/Bild mergen"
+  },
+  {
+   "store": "HOFER",
+   "name": "Grammel Knödel Innviertler Art",
+   "url": "https://www.hofer.at/de/sortiment/PRIMANA-Grammel-Knodel-Innviertler-Art-700g",
+   "action": "remove_duplicate",
+   "field": null,
+   "old": null,
+   "new": null,
+   "reason": "Duplikat von 'PRIMANA Grammel Knödel Innviertler Art 700g' (https://www.hofer.at/de/sortiment/PRIMANA-Grammel-Knodel-Innviertler-A); Preis/Nährwerte/Bild mergen"
+  },
+  {
+   "store": "HOFER",
+   "name": "Serbische Bohnensuppe",
+   "url": "https://world.openfoodfacts.org/product/4099200121598",
+   "action": "remove_duplicate",
+   "field": null,
+   "old": null,
+   "new": null,
+   "reason": "Duplikat von 'PRIMANA Serbische Bohnensuppe 400g' (https://www.hofer.at/de/sortiment/Suppe-in-der-Dose-Tomatensu--2); Preis/Nährwerte/Bild mergen"
+  },
+  {
+   "store": "HOFER",
+   "name": "Speck Knödel Innviertler Art",
+   "url": "https://www.hofer.at/de/sortiment/PRIMANA-Speck-Knodel-Innviertler-Art-700g",
+   "action": "remove_duplicate",
+   "field": null,
+   "old": null,
+   "new": null,
+   "reason": "Duplikat von 'PRIMANA Speck Knödel Innviertler Art 700g' (https://www.hofer.at/de/sortiment/PRIMANA-Speck-Knodel-Innviertler-Art); Preis/Nährwerte/Bild mergen"
+  },
+  {
+   "store": "HOFER",
+   "name": "Rohkost-Salatmix",
+   "url": "https://world.openfoodfacts.org/product/24228664",
+   "action": "fix",
+   "field": "brand",
+   "old": null,
+   "new": "Rohkost-Salatmix",
+   "reason": "Marke fehlt"
+  },
+  {
+   "store": "HOFER",
+   "name": "Pastasalat Feta",
+   "url": "https://world.openfoodfacts.org/product/4061458251358",
+   "action": "flag",
+   "field": "price_eur",
+   "old": null,
+   "new": null,
+   "reason": "kein Preis (nur OFF) – nicht in Preis-Rankings"
+  },
+  {
+   "store": "HOFER",
+   "name": "Samosas",
+   "url": "https://world.openfoodfacts.org/product/4061464882577",
+   "action": "flag",
+   "field": "price_eur",
+   "old": null,
+   "new": null,
+   "reason": "kein Preis (nur OFF) – nicht in Preis-Rankings"
+  },
+  {
+   "store": "HOFER",
+   "name": "Klare Gemüsesuppe",
+   "url": "https://world.openfoodfacts.org/product/4099200008196",
+   "action": "flag",
+   "field": "price_eur",
+   "old": null,
+   "new": null,
+   "reason": "kein Preis (nur OFF) – nicht in Preis-Rankings"
+  },
+  {
+   "store": "HOFER",
+   "name": "klare Rindsuppe",
+   "url": "https://world.openfoodfacts.org/product/4099200021966",
+   "action": "flag",
+   "field": "price_eur",
+   "old": null,
+   "new": null,
+   "reason": "kein Preis (nur OFF) – nicht in Preis-Rankings"
+  },
+  {
+   "store": "HOFER",
+   "name": "Faschierte Laibchen mit Kartoffelpüree",
+   "url": "https://world.openfoodfacts.org/product/4099200146256",
+   "action": "flag",
+   "field": "price_eur",
+   "old": null,
+   "new": null,
+   "reason": "kein Preis (nur OFF) – nicht in Preis-Rankings"
+  },
+  {
+   "store": "HOFER",
+   "name": "Kartoffeltaschen mit Spinat und Mozzarella",
+   "url": "https://world.openfoodfacts.org/product/4099200016504",
+   "action": "flag",
+   "field": "price_eur",
+   "old": null,
+   "new": null,
+   "reason": "kein Preis (nur OFF) – nicht in Preis-Rankings"
+  },
+  {
+   "store": "HOFER",
+   "name": "Pfannengemüse asiatischer Art",
+   "url": "https://world.openfoodfacts.org/product/4099200105246",
+   "action": "flag",
+   "field": "price_eur",
+   "old": null,
+   "new": null,
+   "reason": "kein Preis (nur OFF) – nicht in Preis-Rankings"
+  },
+  {
+   "store": "HOFER",
+   "name": "Nudelsuppe mit Rindfleisch und Gemüse",
+   "url": "https://world.openfoodfacts.org/product/4099200121611",
+   "action": "flag",
+   "field": "price_eur",
+   "old": null,
+   "new": null,
+   "reason": "kein Preis (nur OFF) – nicht in Preis-Rankings"
+  },
+  {
+   "store": "HOFER",
+   "name": "Wurstknödel",
+   "url": "https://world.openfoodfacts.org/product/4061459607895",
+   "action": "flag",
+   "field": "price_eur",
+   "old": null,
+   "new": null,
+   "reason": "kein Preis (nur OFF) – nicht in Preis-Rankings"
+  },
+  {
+   "store": "HOFER",
+   "name": "Pinsa gegrilltes Gemüse",
+   "url": "https://world.openfoodfacts.org/product/4061464437760",
+   "action": "flag",
+   "field": "price_eur",
+   "old": null,
+   "new": null,
+   "reason": "kein Preis (nur OFF) – nicht in Preis-Rankings"
+  },
+  {
+   "store": "HOFER",
+   "name": "Tomaten-Mozzarella-Nudeln",
+   "url": "https://world.openfoodfacts.org/product/4099200227771",
+   "action": "flag",
+   "field": "price_eur",
+   "old": null,
+   "new": null,
+   "reason": "kein Preis (nur OFF) – nicht in Preis-Rankings"
+  },
+  {
+   "store": "HOFER",
+   "name": "Maishendl Ministeaks",
+   "url": "https://world.openfoodfacts.org/product/4099200135892",
+   "action": "flag",
+   "field": "price_eur",
+   "old": null,
+   "new": null,
+   "reason": "kein Preis (nur OFF) – nicht in Preis-Rankings"
+  },
+  {
+   "store": "HOFER",
+   "name": "Huhn Süß Sauer mit Ananas",
+   "url": "https://world.openfoodfacts.org/product/4061464273078",
+   "action": "flag",
+   "field": "price_eur",
+   "old": null,
+   "new": null,
+   "reason": "kein Preis (nur OFF) – nicht in Preis-Rankings"
+  },
+  {
+   "store": "HOFER",
+   "name": "All Natural Chips Paprika Geschmack",
+   "url": "https://world.openfoodfacts.org/product/24601221",
+   "action": "flag",
+   "field": "price_eur",
+   "old": null,
+   "new": null,
+   "reason": "kein Preis (nur OFF) – nicht in Preis-Rankings"
+  },
+  {
+   "store": "HOFER",
+   "name": "Hühnerfiletstreifen Wrap",
+   "url": "https://world.openfoodfacts.org/product/4099200075563",
+   "action": "flag",
+   "field": "price_eur",
+   "old": null,
+   "new": null,
+   "reason": "kein Preis (nur OFF) – nicht in Preis-Rankings"
+  },
+  {
+   "store": "HOFER",
+   "name": "Risotto con asparagi",
+   "url": "https://world.openfoodfacts.org/product/4061459137125",
+   "action": "flag",
+   "field": "price_eur",
+   "old": null,
+   "new": null,
+   "reason": "kein Preis (nur OFF) – nicht in Preis-Rankings"
+  },
+  {
+   "store": "HOFER",
+   "name": "Kaspressknödel",
+   "url": "https://world.openfoodfacts.org/product/4061459489941",
+   "action": "flag",
+   "field": "price_eur",
+   "old": null,
+   "new": null,
+   "reason": "kein Preis (nur OFF) – nicht in Preis-Rankings"
+  },
+  {
+   "store": "HOFER",
+   "name": "Kürbis-Nudeln",
+   "url": "https://world.openfoodfacts.org/product/4099200227788",
+   "action": "flag",
+   "field": "price_eur",
+   "old": null,
+   "new": null,
+   "reason": "kein Preis (nur OFF) – nicht in Preis-Rankings"
+  },
+  {
+   "store": "HOFER",
+   "name": "Tortelloni Käse-Sahne",
+   "url": "https://world.openfoodfacts.org/product/4061464934535",
+   "action": "flag",
+   "field": "price_eur",
+   "old": null,
+   "new": null,
+   "reason": "kein Preis (nur OFF) – nicht in Preis-Rankings"
+  },
+  {
+   "store": "HOFER",
+   "name": "Linguini mit Hühnerpolpetti und Paprikasauce",
+   "url": "https://world.openfoodfacts.org/product/4061463023094",
+   "action": "flag",
+   "field": "price_eur",
+   "old": null,
+   "new": null,
+   "reason": "kein Preis (nur OFF) – nicht in Preis-Rankings"
+  },
+  {
+   "store": "HOFER",
+   "name": "Risotto con i funghi Cucina Nobile",
+   "url": "https://world.openfoodfacts.org/product/4061459137095",
+   "action": "flag",
+   "field": "price_eur",
+   "old": null,
+   "new": null,
+   "reason": "kein Preis (nur OFF) – nicht in Preis-Rankings"
+  },
+  {
+   "store": "HOFER",
+   "name": "Piadina Prosciutto",
+   "url": "https://world.openfoodfacts.org/product/4061459430608",
+   "action": "flag",
+   "field": "price_eur",
+   "old": null,
+   "new": null,
+   "reason": "kein Preis (nur OFF) – nicht in Preis-Rankings"
+  },
+  {
+   "store": "HOFER",
+   "name": "Mürbteig",
+   "url": "https://world.openfoodfacts.org/product/4099200183145",
+   "action": "flag",
+   "field": "price_eur",
+   "old": null,
+   "new": null,
+   "reason": "kein Preis (nur OFF) – nicht in Preis-Rankings"
+  },
+  {
+   "store": "HOFER",
+   "name": "Premium-Pinsa - Tomate & Mozzarella",
+   "url": "https://world.openfoodfacts.org/product/4061463768162",
+   "action": "flag",
+   "field": "price_eur",
+   "old": null,
+   "new": null,
+   "reason": "kein Preis (nur OFF) – nicht in Preis-Rankings"
+  },
+  {
+   "store": "HOFER",
+   "name": "BIO MAMIA Bio Gemüse-Lasagne 250g",
+   "url": "https://www.hofer.at/de/sortiment/BIO-MAMIA-Bio-Gemuse-Lasagne-250g",
+   "action": "fix",
+   "field": "brand",
+   "old": null,
+   "new": "Bio",
+   "reason": "Marke fehlt"
+  },
+  {
+   "store": "HOFER",
+   "name": "BIO MAMIA Bio Gemüse-Lasagne 250g",
+   "url": "https://www.hofer.at/de/sortiment/BIO-MAMIA-Bio-Gemuse-Lasagne-250g",
+   "action": "flag",
+   "field": "price_status",
+   "old": "alt",
+   "new": null,
+   "reason": "Preis vom 2025-03-26 – veraltet"
+  },
+  {
+   "store": "HOFER",
+   "name": "BIO Ravioli Käse-Spinat 250g",
+   "url": "https://www.hofer.at/de/sortiment/Bio-Teigwaren-gefullt-250g-Steinpilz-2",
+   "action": "fix",
+   "field": "brand",
+   "old": null,
+   "new": "Bio",
+   "reason": "Marke fehlt"
+  },
+  {
+   "store": "HOFER",
+   "name": "BIO Ravioli Käse-Spinat 250g",
+   "url": "https://www.hofer.at/de/sortiment/Bio-Teigwaren-gefullt-250g-Steinpilz-2",
+   "action": "flag",
+   "field": "price_status",
+   "old": "alt",
+   "new": null,
+   "reason": "Preis vom 2025-03-26 – veraltet"
+  },
+  {
+   "store": "HOFER",
+   "name": "BIO Steinpliz Risotto 250g",
+   "url": "https://www.hofer.at/de/sortiment/NATUR-AKTIV-Bio-Steinpliz-Risotto-250-g",
+   "action": "fix",
+   "field": "brand",
+   "old": null,
+   "new": "Bio",
+   "reason": "Marke fehlt"
+  },
+  {
+   "store": "HOFER",
+   "name": "BIO Steinpliz Risotto 250g",
+   "url": "https://www.hofer.at/de/sortiment/NATUR-AKTIV-Bio-Steinpliz-Risotto-250-g",
+   "action": "flag",
+   "field": "price_status",
+   "old": "alt",
+   "new": null,
+   "reason": "Preis vom 2025-01-15 – veraltet"
+  },
+  {
+   "store": "HOFER",
+   "name": "BIO Sugo Weizenbolognese 350g",
+   "url": "https://www.hofer.at/de/sortiment/BIO-NATURA-Sugo-Weizenbolognese-350g",
+   "action": "fix",
+   "field": "brand",
+   "old": null,
+   "new": "Bio",
+   "reason": "Marke fehlt"
+  },
+  {
+   "store": "HOFER",
+   "name": "BIO Sugo Weizenbolognese 350g",
+   "url": "https://www.hofer.at/de/sortiment/BIO-NATURA-Sugo-Weizenbolognese-350g",
+   "action": "flag",
+   "field": "price_status",
+   "old": "alt",
+   "new": null,
+   "reason": "Preis vom 2025-05-23 – veraltet"
+  },
+  {
+   "store": "HOFER",
+   "name": "BIO Tomaten Risotto 200g",
+   "url": "https://www.hofer.at/de/sortiment/NATUR-AKTIV-Bio-Tomaten-Risotto-200-g",
+   "action": "fix",
+   "field": "brand",
+   "old": null,
+   "new": "Bio",
+   "reason": "Marke fehlt"
+  },
+  {
+   "store": "HOFER",
+   "name": "BIO Tomaten Risotto 200g",
+   "url": "https://www.hofer.at/de/sortiment/NATUR-AKTIV-Bio-Tomaten-Risotto-200-g",
+   "action": "flag",
+   "field": "price_status",
+   "old": "alt",
+   "new": null,
+   "reason": "Preis vom 2025-01-15 – veraltet"
+  },
+  {
+   "store": "HOFER",
+   "name": "BIO Tortellini Gemüse 250g",
+   "url": "https://www.hofer.at/de/sortiment/Bio-Teigwaren-gefullt-250g-Steinpilz",
+   "action": "fix",
+   "field": "brand",
+   "old": null,
+   "new": "Bio",
+   "reason": "Marke fehlt"
+  },
+  {
+   "store": "HOFER",
+   "name": "BIO Tortellini Gemüse 250g",
+   "url": "https://www.hofer.at/de/sortiment/Bio-Teigwaren-gefullt-250g-Steinpilz",
+   "action": "flag",
+   "field": "price_status",
+   "old": "alt",
+   "new": null,
+   "reason": "Preis vom 2025-03-26 – veraltet"
+  },
+  {
+   "store": "HOFER",
+   "name": "BIO Tortellini Steinpilz 250g",
+   "url": "https://www.hofer.at/de/sortiment/Bio-Teigwaren-gefullt-250g-Steinpilz-3",
+   "action": "fix",
+   "field": "brand",
+   "old": null,
+   "new": "Bio",
+   "reason": "Marke fehlt"
+  },
+  {
+   "store": "HOFER",
+   "name": "BIO Tortellini Steinpilz 250g",
+   "url": "https://www.hofer.at/de/sortiment/Bio-Teigwaren-gefullt-250g-Steinpilz-3",
+   "action": "flag",
+   "field": "price_status",
+   "old": "alt",
+   "new": null,
+   "reason": "Preis vom 2025-03-26 – veraltet"
+  },
+  {
+   "store": "HOFER",
+   "name": "CUCINA Italienische Fertiggericht Gnocchie Tomate Mozzarella 350g",
+   "url": "https://www.hofer.at/de/sortiment/CUCINA-Italienische-Fertiggericht-Gnocchie-Tomate-Mozzarella-350g",
+   "action": "fix",
+   "field": "brand",
+   "old": null,
+   "new": "Cucina",
+   "reason": "Marke fehlt"
+  },
+  {
+   "store": "HOFER",
+   "name": "CUCINA Italienische Fertiggericht Gnocchie Tomate Mozzarella 350g",
+   "url": "https://www.hofer.at/de/sortiment/CUCINA-Italienische-Fertiggericht-Gnocchie-Tomate-Mozzarella-350g",
+   "action": "flag",
+   "field": "price_status",
+   "old": "alt",
+   "new": null,
+   "reason": "Preis vom 2025-06-20 – veraltet"
+  },
+  {
+   "store": "HOFER",
+   "name": "CUCINA Italienische Fertiggericht Spaghetti Carbonara 350g",
+   "url": "https://www.hofer.at/de/sortiment/CUCINA-Italienische-Fertiggericht-Spaghetti-Carbonara-350g",
+   "action": "fix",
+   "field": "brand",
+   "old": null,
+   "new": "Cucina",
+   "reason": "Marke fehlt"
+  },
+  {
+   "store": "HOFER",
+   "name": "CUCINA Italienische Fertiggericht Spaghetti Carbonara 350g",
+   "url": "https://www.hofer.at/de/sortiment/CUCINA-Italienische-Fertiggericht-Spaghetti-Carbonara-350g",
+   "action": "flag",
+   "field": "price_status",
+   "old": "alt",
+   "new": null,
+   "reason": "Preis vom 2025-06-20 – veraltet"
+  },
+  {
+   "store": "HOFER",
+   "name": "CUCINA NOBILE Lasagne Bolognese 400g",
+   "url": "https://www.hofer.at/de/sortiment/CUCINA-NOBILE-Lasagne-Bolognese-400g",
+   "action": "fix",
+   "field": "brand",
+   "old": null,
+   "new": "Cucina",
+   "reason": "Marke fehlt"
+  },
+  {
+   "store": "HOFER",
+   "name": "CUCINA NOBILE Lasagne Bolognese 400g",
+   "url": "https://www.hofer.at/de/sortiment/CUCINA-NOBILE-Lasagne-Bolognese-400g",
+   "action": "flag",
+   "field": "price_status",
+   "old": "alt",
+   "new": null,
+   "reason": "Preis vom 2025-09-11 – veraltet"
+  },
+  {
+   "store": "HOFER",
+   "name": "CUCINA NOBILE Lasagne Ricotta-Spinat 400g",
+   "url": "https://www.hofer.at/de/sortiment/CUCINA-NOBILE-Lasagne-Ricotta-Spinat-400g",
+   "action": "fix",
+   "field": "brand",
+   "old": null,
+   "new": "Cucina",
+   "reason": "Marke fehlt"
+  },
+  {
+   "store": "HOFER",
+   "name": "CUCINA NOBILE Lasagne Ricotta-Spinat 400g",
+   "url": "https://www.hofer.at/de/sortiment/CUCINA-NOBILE-Lasagne-Ricotta-Spinat-400g",
+   "action": "flag",
+   "field": "price_status",
+   "old": "alt",
+   "new": null,
+   "reason": "Preis vom 2025-09-11 – veraltet"
+  },
+  {
+   "store": "HOFER",
+   "name": "CUCINA Spaghetti Bolognese 350g",
+   "url": "https://www.hofer.at/de/sortiment/CUCINA-Spaghetti-Bolognese-350g",
+   "action": "fix",
+   "field": "brand",
+   "old": null,
+   "new": "Cucina",
+   "reason": "Marke fehlt"
+  },
+  {
+   "store": "HOFER",
+   "name": "CUCINA Spaghetti Bolognese 350g",
+   "url": "https://www.hofer.at/de/sortiment/CUCINA-Spaghetti-Bolognese-350g",
+   "action": "flag",
+   "field": "price_status",
+   "old": "alt",
+   "new": null,
+   "reason": "Preis vom 2025-09-03 – veraltet"
+  },
+  {
+   "store": "HOFER",
+   "name": "GENUSS 100% AUS ÖSTERREICH Rindsgulasch 1kg",
+   "url": "https://www.hofer.at/de/sortiment/GENUSS-100-AUS-OSTERREICH-Rindsgulasch-1kg",
+   "action": "fix",
+   "field": "brand",
+   "old": null,
+   "new": "Genuss",
+   "reason": "Marke fehlt"
+  },
+  {
+   "store": "HOFER",
+   "name": "GENUSS 100% AUS ÖSTERREICH Rindsgulasch 1kg",
+   "url": "https://www.hofer.at/de/sortiment/GENUSS-100-AUS-OSTERREICH-Rindsgulasch-1kg",
+   "action": "flag",
+   "field": "price_status",
+   "old": "alt",
+   "new": null,
+   "reason": "Preis vom 2025-10-20 – veraltet"
+  },
+  {
+   "store": "HOFER",
+   "name": "GOOD CHOICE Fertiggericht Apfelstrude mit Vanillesauce 300g",
+   "url": "https://www.hofer.at/de/sortiment/GOOD-CHOICE-Fertiggericht-Apfelstrude-mit-Vanillesauce-300g",
+   "action": "fix",
+   "field": "brand",
+   "old": null,
+   "new": "Good",
+   "reason": "Marke fehlt"
+  },
+  {
+   "store": "HOFER",
+   "name": "GOOD CHOICE Fertiggericht Apfelstrude mit Vanillesauce 300g",
+   "url": "https://www.hofer.at/de/sortiment/GOOD-CHOICE-Fertiggericht-Apfelstrude-mit-Vanillesauce-300g",
+   "action": "flag",
+   "field": "price_status",
+   "old": "alt",
+   "new": null,
+   "reason": "Preis vom 2025-03-19 – veraltet"
+  },
+  {
+   "store": "HOFER",
+   "name": "GOOD CHOICE Fertiggericht Buttermilch Schmarren 300g",
+   "url": "https://www.hofer.at/de/sortiment/GOOD-CHOICE-Fertiggericht-Buttermilch-Schmarren-300g",
+   "action": "fix",
+   "field": "brand",
+   "old": null,
+   "new": "Good",
+   "reason": "Marke fehlt"
+  },
+  {
+   "store": "HOFER",
+   "name": "GOOD CHOICE Fertiggericht Buttermilch Schmarren 300g",
+   "url": "https://www.hofer.at/de/sortiment/GOOD-CHOICE-Fertiggericht-Buttermilch-Schmarren-300g",
+   "action": "flag",
+   "field": "price_status",
+   "old": "alt",
+   "new": null,
+   "reason": "Preis vom 2025-03-19 – veraltet"
+  },
+  {
+   "store": "HOFER",
+   "name": "GOOD CHOICE Fertiggericht Topfenködel mit Erdbeersauce 330g",
+   "url": "https://www.hofer.at/de/sortiment/GOOD-CHOICE-Fertiggericht-Topfenkodel-mit-Erdbeersauce-330g",
+   "action": "fix",
+   "field": "brand",
+   "old": null,
+   "new": "Good",
+   "reason": "Marke fehlt"
+  },
+  {
+   "store": "HOFER",
+   "name": "GOOD CHOICE Fertiggericht Topfenködel mit Erdbeersauce 330g",
+   "url": "https://www.hofer.at/de/sortiment/GOOD-CHOICE-Fertiggericht-Topfenkodel-mit-Erdbeersauce-330g",
+   "action": "flag",
+   "field": "price_status",
+   "old": "alt",
+   "new": null,
+   "reason": "Preis vom 2025-03-19 – veraltet"
+  },
+  {
+   "store": "HOFER",
+   "name": "GOOD CHOICE Pasta Fertiggerichte Lachs Spaghettini 400g",
+   "url": "https://www.hofer.at/de/sortiment/GOOD-CHOICE-Pasta-Fertiggerichte-Lachs-Spaghettini-400g",
+   "action": "fix",
+   "field": "brand",
+   "old": null,
+   "new": "Good",
+   "reason": "Marke fehlt"
+  },
+  {
+   "store": "HOFER",
+   "name": "GOOD CHOICE Pasta Fertiggerichte Lachs Spaghettini 400g",
+   "url": "https://www.hofer.at/de/sortiment/GOOD-CHOICE-Pasta-Fertiggerichte-Lachs-Spaghettini-400g",
+   "action": "flag",
+   "field": "price_status",
+   "old": "alt",
+   "new": null,
+   "reason": "Preis vom 2025-11-07 – veraltet"
+  },
+  {
+   "store": "HOFER",
+   "name": "GOOD CHOICE Pasta Fertiggerichte Pecorelli in Tomatensauce 400g",
+   "url": "https://www.hofer.at/de/sortiment/GOOD-CHOICE-Pasta-Fertiggerichte-Pecorelli-in-Tomatensauce-400g",
+   "action": "fix",
+   "field": "brand",
+   "old": null,
+   "new": "Good",
+   "reason": "Marke fehlt"
+  },
+  {
+   "store": "HOFER",
+   "name": "GOOD CHOICE Pasta Fertiggerichte Pecorelli in Tomatensauce 400g",
+   "url": "https://www.hofer.at/de/sortiment/GOOD-CHOICE-Pasta-Fertiggerichte-Pecorelli-in-Tomatensauce-400g",
+   "action": "flag",
+   "field": "price_status",
+   "old": "alt",
+   "new": null,
+   "reason": "Preis vom 2025-11-07 – veraltet"
+  },
+  {
+   "store": "HOFER",
+   "name": "GOOD CHOICE Pinzgauer Käsespätzle 380g ",
+   "url": "https://www.hofer.at/de/sortiment/GOOD-CHOICE-Hascheehornchen-380-g",
+   "action": "fix",
+   "field": "brand",
+   "old": null,
+   "new": "Good",
+   "reason": "Marke fehlt"
+  },
+  {
+   "store": "HOFER",
+   "name": "GOOD CHOICE Pinzgauer Käsespätzle 380g ",
+   "url": "https://www.hofer.at/de/sortiment/GOOD-CHOICE-Hascheehornchen-380-g",
+   "action": "flag",
+   "field": "price_status",
+   "old": "alt",
+   "new": null,
+   "reason": "Preis vom 2025-10-29 – veraltet"
+  },
+  {
+   "store": "HOFER",
+   "name": "GOOD CHOICE Risotto Pilz 400g",
+   "url": "https://www.hofer.at/de/sortiment/GOOD-CHOICE-Risotto-Pilz-400g",
+   "action": "fix",
+   "field": "brand",
+   "old": null,
+   "new": "Good",
+   "reason": "Marke fehlt"
+  },
+  {
+   "store": "HOFER",
+   "name": "GOOD CHOICE Risotto Pilz 400g",
+   "url": "https://www.hofer.at/de/sortiment/GOOD-CHOICE-Risotto-Pilz-400g",
+   "action": "flag",
+   "field": "price_status",
+   "old": "alt",
+   "new": null,
+   "reason": "Preis vom 2025-07-23 – veraltet"
+  },
+  {
+   "store": "HOFER",
+   "name": "GOOD CHOICE Schwammerlsauce mit Serviettenknödel 380g ",
+   "url": "https://www.hofer.at/de/sortiment/GOOD-CHOICE-Schwammerlsauce-mit-Serviettenknodel-380-g",
+   "action": "fix",
+   "field": "brand",
+   "old": null,
+   "new": "Good",
+   "reason": "Marke fehlt"
+  },
+  {
+   "store": "HOFER",
+   "name": "GOOD CHOICE Schwammerlsauce mit Serviettenknödel 380g ",
+   "url": "https://www.hofer.at/de/sortiment/GOOD-CHOICE-Schwammerlsauce-mit-Serviettenknodel-380-g",
+   "action": "flag",
+   "field": "price_status",
+   "old": "alt",
+   "new": null,
+   "reason": "Preis vom 2025-10-29 – veraltet"
+  },
+  {
+   "store": "HOFER",
+   "name": "HÜTTHALER Blunzngröstl 400g",
+   "url": "https://www.hofer.at/de/sortiment/HUTTHALER-Blunzngrostl-400g",
+   "action": "fix",
+   "field": "brand",
+   "old": null,
+   "new": "Hütthaler",
+   "reason": "Marke fehlt"
+  },
+  {
+   "store": "HOFER",
+   "name": "HÜTTHALER Blunzngröstl 400g",
+   "url": "https://www.hofer.at/de/sortiment/HUTTHALER-Blunzngrostl-400g",
+   "action": "flag",
+   "field": "price_status",
+   "old": "alt",
+   "new": null,
+   "reason": "Preis vom 2025-02-26 – veraltet"
+  },
+  {
+   "store": "HOFER",
+   "name": "HÜTTHALER Tirolergröstl 350g",
+   "url": "https://www.hofer.at/de/sortiment/HUTTHALER-Tirolergrostl-350g",
+   "action": "fix",
+   "field": "brand",
+   "old": null,
+   "new": "Hütthaler",
+   "reason": "Marke fehlt"
+  },
+  {
+   "store": "HOFER",
+   "name": "HÜTTHALER Tirolergröstl 350g",
+   "url": "https://www.hofer.at/de/sortiment/HUTTHALER-Tirolergrostl-350g",
+   "action": "flag",
+   "field": "price_status",
+   "old": "alt",
+   "new": null,
+   "reason": "Preis vom 2025-02-26 – veraltet"
+  },
+  {
+   "store": "HOFER",
+   "name": "LANDGUT Hühner Suppentopf 800g",
+   "url": "https://www.hofer.at/de/sortiment/LANDGUT-Huhner-Suppentopf-Huhnerrucken-mit-Gemuse-800-g",
+   "action": "fix",
+   "field": "brand",
+   "old": null,
+   "new": "Landgut",
+   "reason": "Marke fehlt"
+  },
+  {
+   "store": "HOFER",
+   "name": "LANDGUT Hühner Suppentopf 800g",
+   "url": "https://www.hofer.at/de/sortiment/LANDGUT-Huhner-Suppentopf-Huhnerrucken-mit-Gemuse-800-g",
+   "action": "flag",
+   "field": "price_status",
+   "old": "alt",
+   "new": null,
+   "reason": "Preis vom 2025-11-07 – veraltet"
+  },
+  {
+   "store": "HOFER",
+   "name": "MAMIA BIO Gemüse Risotto mit Pute 250g",
+   "url": "https://www.hofer.at/de/sortiment/MAMIA-BIO-Gemuse-Risotto-mit-Pute-250g",
+   "action": "fix",
+   "field": "brand",
+   "old": null,
+   "new": "Mamia",
+   "reason": "Marke fehlt"
+  },
+  {
+   "store": "HOFER",
+   "name": "MAMIA BIO Gemüse Risotto mit Pute 250g",
+   "url": "https://www.hofer.at/de/sortiment/MAMIA-BIO-Gemuse-Risotto-mit-Pute-250g",
+   "action": "flag",
+   "field": "price_status",
+   "old": "alt",
+   "new": null,
+   "reason": "Preis vom 2025-10-31 – veraltet"
+  },
+  {
+   "store": "HOFER",
+   "name": "MAMIA BIO Spaghetti Bolognese 250g",
+   "url": "https://www.hofer.at/de/sortiment/MAMIA-BIO-Spaghetti-Bolognese-250g",
+   "action": "fix",
+   "field": "brand",
+   "old": null,
+   "new": "Mamia",
+   "reason": "Marke fehlt"
+  },
+  {
+   "store": "HOFER",
+   "name": "MAMIA BIO Spaghetti Bolognese 250g",
+   "url": "https://www.hofer.at/de/sortiment/MAMIA-BIO-Spaghetti-Bolognese-250g",
+   "action": "flag",
+   "field": "price_status",
+   "old": "alt",
+   "new": null,
+   "reason": "Preis vom 2025-10-31 – veraltet"
+  },
+  {
+   "store": "HOFER",
+   "name": "PRIMANA Chili Con Carne 400g",
+   "url": "https://www.hofer.at/de/sortiment/PRIMANA-Chili-Con-Carne-400-g",
+   "action": "fix",
+   "field": "brand",
+   "old": null,
+   "new": "Primana",
+   "reason": "Marke fehlt"
+  },
+  {
+   "store": "HOFER",
+   "name": "PRIMANA Chili Con Carne 400g",
+   "url": "https://www.hofer.at/de/sortiment/PRIMANA-Chili-Con-Carne-400-g",
+   "action": "flag",
+   "field": "price_status",
+   "old": "alt",
+   "new": null,
+   "reason": "Preis vom 2025-08-15 – veraltet"
+  },
+  {
+   "store": "HOFER",
+   "name": "PRIMANA Grammel Knödel Innviertler Art 700g",
+   "url": "https://www.hofer.at/de/sortiment/PRIMANA-Grammel-Knodel-Innviertler-Art-700g",
+   "action": "fix",
+   "field": "brand",
+   "old": null,
+   "new": "Primana",
+   "reason": "Marke fehlt"
+  },
+  {
+   "store": "HOFER",
+   "name": "PRIMANA Grammel Knödel Innviertler Art 700g",
+   "url": "https://www.hofer.at/de/sortiment/PRIMANA-Grammel-Knodel-Innviertler-Art-700g",
+   "action": "flag",
+   "field": "price_status",
+   "old": "alt",
+   "new": null,
+   "reason": "Preis vom 2025-09-19 – veraltet"
+  },
+  {
+   "store": "HOFER",
+   "name": "PRIMANA Gulasch Suppe 400g",
+   "url": "https://www.hofer.at/de/sortiment/PRIMANA-Gulasch-Suppe-400-g",
+   "action": "fix",
+   "field": "brand",
+   "old": null,
+   "new": "Primana",
+   "reason": "Marke fehlt"
+  },
+  {
+   "store": "HOFER",
+   "name": "PRIMANA Gulasch Suppe 400g",
+   "url": "https://www.hofer.at/de/sortiment/PRIMANA-Gulasch-Suppe-400-g",
+   "action": "flag",
+   "field": "price_status",
+   "old": "alt",
+   "new": null,
+   "reason": "Preis vom 2025-05-10 – veraltet"
+  },
+  {
+   "store": "HOFER",
+   "name": "PRIMANA Leberknödel Suppe 400g",
+   "url": "https://www.hofer.at/de/sortiment/PRIMANA-Leberknodel-Suppe-400-g",
+   "action": "fix",
+   "field": "brand",
+   "old": null,
+   "new": "Primana",
+   "reason": "Marke fehlt"
+  },
+  {
+   "store": "HOFER",
+   "name": "PRIMANA Leberknödel Suppe 400g",
+   "url": "https://www.hofer.at/de/sortiment/PRIMANA-Leberknodel-Suppe-400-g",
+   "action": "flag",
+   "field": "price_status",
+   "old": "alt",
+   "new": null,
+   "reason": "Preis vom 2025-05-10 – veraltet"
+  },
+  {
+   "store": "HOFER",
+   "name": "PRIMANA Pasta Lasagne Bolognese 400g",
+   "url": "https://www.hofer.at/de/sortiment/PRIMANA-Pasta-Lasagne-Bolognese-400g",
+   "action": "fix",
+   "field": "brand",
+   "old": null,
+   "new": "Primana",
+   "reason": "Marke fehlt"
+  },
+  {
+   "store": "HOFER",
+   "name": "PRIMANA Pasta Lasagne Bolognese 400g",
+   "url": "https://www.hofer.at/de/sortiment/PRIMANA-Pasta-Lasagne-Bolognese-400g",
+   "action": "flag",
+   "field": "price_status",
+   "old": "alt",
+   "new": null,
+   "reason": "Preis vom 2025-07-23 – veraltet"
+  },
+  {
+   "store": "HOFER",
+   "name": "PRIMANA Serbische Bohnensuppe 400g",
+   "url": "https://www.hofer.at/de/sortiment/Suppe-in-der-Dose-Tomatensu--2",
+   "action": "fix",
+   "field": "brand",
+   "old": null,
+   "new": "Primana",
+   "reason": "Marke fehlt"
+  },
+  {
+   "store": "HOFER",
+   "name": "PRIMANA Serbische Bohnensuppe 400g",
+   "url": "https://www.hofer.at/de/sortiment/Suppe-in-der-Dose-Tomatensu--2",
+   "action": "flag",
+   "field": "price_status",
+   "old": "alt",
+   "new": null,
+   "reason": "Preis vom 2025-05-10 – veraltet"
+  },
+  {
+   "store": "HOFER",
+   "name": "PRIMANA Speck Knödel Innviertler Art 700g",
+   "url": "https://www.hofer.at/de/sortiment/PRIMANA-Speck-Knodel-Innviertler-Art-700g",
+   "action": "fix",
+   "field": "brand",
+   "old": null,
+   "new": "Primana",
+   "reason": "Marke fehlt"
+  },
+  {
+   "store": "HOFER",
+   "name": "PRIMANA Speck Knödel Innviertler Art 700g",
+   "url": "https://www.hofer.at/de/sortiment/PRIMANA-Speck-Knodel-Innviertler-Art-700g",
+   "action": "flag",
+   "field": "price_status",
+   "old": "alt",
+   "new": null,
+   "reason": "Preis vom 2025-09-19 – veraltet"
+  },
+  {
+   "store": "HOFER",
+   "name": "RETTENSWERT Suppe im Glas Karotte mit Ingwer 350g",
+   "url": "https://www.hofer.at/de/sortiment/RETTENSWERT-Suppe-im-Glas-Karotte-mit-Ingwer-350g",
+   "action": "fix",
+   "field": "brand",
+   "old": null,
+   "new": "Rettenswert",
+   "reason": "Marke fehlt"
+  },
+  {
+   "store": "HOFER",
+   "name": "RETTENSWERT Suppe im Glas Karotte mit Ingwer 350g",
+   "url": "https://www.hofer.at/de/sortiment/RETTENSWERT-Suppe-im-Glas-Karotte-mit-Ingwer-350g",
+   "action": "flag",
+   "field": "price_status",
+   "old": "alt",
+   "new": null,
+   "reason": "Preis vom 2025-10-15 – veraltet"
+  },
+  {
+   "store": "HOFER",
+   "name": "WONNEMEYER Salat-Menü Linsen Hähnchen 350g",
+   "url": "https://www.hofer.at/de/sortiment/WONNEMEYER-Salat-Menu-Linsen-Hahnchen-350g",
+   "action": "fix",
+   "field": "brand",
+   "old": null,
+   "new": "Wonnemeyer",
+   "reason": "Marke fehlt"
+  },
+  {
+   "store": "HOFER",
+   "name": "WONNEMEYER Salat-Menü Linsen Hähnchen 350g",
+   "url": "https://www.hofer.at/de/sortiment/WONNEMEYER-Salat-Menu-Linsen-Hahnchen-350g",
+   "action": "flag",
+   "field": "price_status",
+   "old": "alt",
+   "new": null,
+   "reason": "Preis vom 2025-07-03 – veraltet"
+  },
+  {
+   "store": "HOFER",
+   "name": "Kartoffel Gnocchi",
+   "url": "https://world.openfoodfacts.org/product/4061459473674",
+   "action": "flag",
+   "field": "price_eur",
+   "old": null,
+   "new": null,
+   "reason": "kein Preis (nur OFF) – nicht in Preis-Rankings"
+  },
+  {
+   "store": "HOFER",
+   "name": "Salatschale Schinken/ Käse Nudeln",
+   "url": "https://world.openfoodfacts.org/product/4099200209906",
+   "action": "flag",
+   "field": "price_eur",
+   "old": null,
+   "new": null,
+   "reason": "kein Preis (nur OFF) – nicht in Preis-Rankings"
+  },
+  {
+   "store": "HOFER",
+   "name": "Serbische Bohnensuppe",
+   "url": "https://world.openfoodfacts.org/product/4099200121598",
+   "action": "flag",
+   "field": "price_eur",
+   "old": null,
+   "new": null,
+   "reason": "kein Preis (nur OFF) – nicht in Preis-Rankings"
+  },
+  {
+   "store": "HOFER",
+   "name": "Thai Curry",
+   "url": "https://world.openfoodfacts.org/product/4061459443974",
+   "action": "flag",
+   "field": "price_eur",
+   "old": null,
+   "new": null,
+   "reason": "kein Preis (nur OFF) – nicht in Preis-Rankings"
+  },
+  {
+   "store": "HOFER",
+   "name": "Chili con carne",
+   "url": "https://world.openfoodfacts.org/product/4099200121574",
+   "action": "flag",
+   "field": "price_eur",
+   "old": null,
+   "new": null,
+   "reason": "kein Preis (nur OFF) – nicht in Preis-Rankings"
+  },
+  {
+   "store": "HOFER",
+   "name": "LASAGNE di semola",
+   "url": "https://world.openfoodfacts.org/product/4099200013312",
+   "action": "flag",
+   "field": "price_eur",
+   "old": null,
+   "new": null,
+   "reason": "kein Preis (nur OFF) – nicht in Preis-Rankings"
+  },
+  {
+   "store": "HOFER",
+   "name": "Steinnofenpizza",
+   "url": "https://world.openfoodfacts.org/product/4099200053905",
+   "action": "flag",
+   "field": "price_eur",
+   "old": null,
+   "new": null,
+   "reason": "kein Preis (nur OFF) – nicht in Preis-Rankings"
+  },
+  {
+   "store": "HOFER",
+   "name": "Hühnersuppe mit Nudeln",
+   "url": "https://world.openfoodfacts.org/product/4099200015729",
+   "action": "flag",
+   "field": "price_eur",
+   "old": null,
+   "new": null,
+   "reason": "kein Preis (nur OFF) – nicht in Preis-Rankings"
+  },
+  {
+   "store": "HOFER",
+   "name": "Houmous au curry",
+   "url": "https://world.openfoodfacts.org/product/4099200073149",
+   "action": "flag",
+   "field": "price_eur",
+   "old": null,
+   "new": null,
+   "reason": "kein Preis (nur OFF) – nicht in Preis-Rankings"
+  },
+  {
+   "store": "HOFER",
+   "name": "Curry huhn",
+   "url": "https://world.openfoodfacts.org/product/4099200059396",
+   "action": "flag",
+   "field": "price_eur",
+   "old": null,
+   "new": null,
+   "reason": "kein Preis (nur OFF) – nicht in Preis-Rankings"
+  },
+  {
+   "store": "HOFER",
+   "name": "Risotto bio aux cèpes",
+   "url": "https://world.openfoodfacts.org/product/4099200013404",
+   "action": "flag",
+   "field": "price_eur",
+   "old": null,
+   "new": null,
+   "reason": "kein Preis (nur OFF) – nicht in Preis-Rankings"
+  },
+  {
+   "store": "HOFER",
+   "name": "Pasta Lasagne Bolognese",
+   "url": "https://www.hofer.at/de/sortiment/PRIMANA-Pasta-Lasagne-Bolognese",
+   "action": "remove_duplicate",
+   "reason": "Duplikat von 'PRIMANA Pasta Lasagne Bolognese 400g'; mergen"
+  }
+ ],
+ "missing_in_scored": [
+  {
+   "name": "Good Choice Lasagne Bolognese 1000 g",
+   "ean": "4099200163659",
+   "producer_id": "AT 41586 EG",
+   "reason": "in hofer_goodchoice.json (150 kcal/6,8 g P), fehlt in scored.json; belegt Hochreiter-Zuordnung"
+  },
+  {
+   "name": "Primana Gulaschsuppe",
+   "ean": "4099200121567",
+   "reason": "in hofer_goodchoice.json (83 kcal/5,3 g P), fehlt in scored.json -> Nährwerte in \"PRIMANA Gulasch Suppe 400g\" mergen"
+  },
+  {
+   "name": "Good Choice Lasagne Bolognese 400 g",
+   "ean": "4099200053707",
+   "reason": "in hofer_goodchoice.json (170/5,6) – prüfen ob = CUCINA NOBILE Lasagne 400g (gleiche Werte)"
+  }
+ ],
+ "logo_fixes": [
+  {
+   "file": "analysis/logos/hofer.svg",
+   "status": "replaced",
+   "old": "Aldi_Süd_2017_logo.svg",
+   "new": "https://commons.wikimedia.org/wiki/File:Hofer_Logo_2017.svg",
+   "reason": "Aldi-Süd-Logo statt HOFER; logos.json aktualisiert"
+  },
+  {
+   "file": "analysis/logos/knorr.png",
+   "status": "replaced",
+   "old": "Knorr_logo_old.png",
+   "new": "Commons Knorr_Logo_2020.svg als PNG 300px",
+   "reason": "veraltetes Logo; logos.json aktualisiert"
+  },
+  {
+   "file": "analysis/logos/frosta.svg",
+   "status": "ok_minor",
+   "reason": "Konzern-Wortmarke \"FRoSTA AG\""
+  },
+  {
+   "file": "analysis/logos/gms-gourmet.png",
+   "status": "low_quality",
+   "reason": "nur Kochmützen-Favicon"
+  },
+  {
+   "file": "analysis/logos/graninger.png",
+   "status": "low_quality",
+   "reason": "Favicon \"G\", 1 KB"
+  },
+  {
+   "file": "analysis/logos/hochreiter.png",
+   "status": "low_quality",
+   "reason": "winziges Favicon"
+  },
+  {
+   "file": "analysis/logos/karnerta.png",
+   "status": "low_quality",
+   "reason": "abgeschnitten (\"RNER\")"
+  },
+  {
+   "file": "analysis/logos/wiesbauer.png, wiesbauer-gourmet.png",
+   "status": "low_quality",
+   "reason": "718-B-Favicon \"W\", beide identisch"
+  },
+  {
+   "file": "analysis/logos/rewe-*.svg",
+   "status": "ok_generic",
+   "reason": "REWE-Group-Konzernlogo"
+  },
+  {
+   "file": "restliche 22",
+   "status": "ok",
+   "reason": "rendern, richtige Marke"
+  }
+ ],
+ "producer_issues": [
+  {
+   "code": "AT 92584 EG",
+   "issue": "unaufgelöst (company null)"
+  },
+  {
+   "code": "AT 92556 EG",
+   "issue": "Wiesbauer Wurstspezialitäten: 0 Produkte – Profil ohne Gericht"
+  },
+  {
+   "code": "AT 40559 EG",
+   "issue": "Greisinger: Mini Berner Würstel/Putenknacker sind Wurst, keine Fertiggerichte"
+  },
+  {
+   "code": "AT 41586 EG",
+   "issue": "Hochreiter↔Good Choice Lasagne 1 kg durch OFF emb_codes belegt; ok"
+  },
+  {
+   "code": "AT 62028 EG",
+   "issue": "Landena: \"Curry Madras - Pure Beef\" Marke/Kette unklar, prüfen; Rest konsistent"
+  },
+  {
+   "code": "AT 30733 EG",
+   "issue": "GMS↔Good Choice Gelbes Gemüsecurry konsistent in scored.json"
+  },
+  {
+   "code": "FSC-C010395",
+   "issue": "falsch als producer_id (Kasnudeln) – entfernen"
+  },
+  {
+   "code": "DE NW-20108 EG / DE NW 41110 EG",
+   "issue": "Hofer Pastasalat Feta + Tortelloni Käse von deutschen Betrieben – plausibel, im UI als Herkunft DE zeigen"
+  },
+  {
+   "code": "alle AT-Codes",
+   "issue": "Präfix↔Bundesland für alle 15 AT-Codes konsistent"
+  }
+ ],
+ "country_check": "Alle 35 OFF-EANs unter HOFER haben countries_tags inkl. Austria und stores=Hofer -> keine reinen DE/CH-Artikel. Bilder: 50/50 laden.",
+ "price_check": "wokostswas Good Choice Pinzgauer Käsespätzle 380 g = 3,06 € am 12.10.2026 bestätigt"
+}

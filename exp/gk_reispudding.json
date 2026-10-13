@@ -1,0 +1,38 @@
+{
+ "count": 1,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Yutto Porridge Reis mit Mais",
+   "brand": "Yutto",
+   "price_eur": 2.99,
+   "unit_price_eur": 9.97,
+   "unit": "kg",
+   "size_g": 300.0,
+   "nutrition_100g": {
+    "kcal": 370.0,
+    "fat": 2.0,
+    "satfat": 0.5,
+    "carbs": 80.0,
+    "sugar": 0.35,
+    "protein": 7.0,
+    "salt": 0.01,
+    "fiber": 2.2
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/47902/47902-1777535856568350838.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Tschechische Republik",
+   "category": "Vorratsschrank > Müsli, Cerealien, Porridge & Co. > Haferflocken & Porridge",
+   "source_url": "https://www.gurkerl.at/47902-yutto-porridge-reis-mit-mais",
+   "source_id": "47902",
+   "fetched_at": "2026-10-13T02:18:57+00:00",
+   "extra": {
+    "ingredients": "Reis, Maisgrieß"
+   }
+  }
+ ]
+}

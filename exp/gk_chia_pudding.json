@@ -1,0 +1,198 @@
+{
+ "count": 6,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "The Green Garden & gurkerl.at  Go coconuts for chia pudding! VEGAN",
+   "brand": "The Green Garden",
+   "price_eur": 3.59,
+   "unit_price_eur": 17.95,
+   "unit": "kg",
+   "size_g": 200.0,
+   "nutrition_100g": {
+    "kcal": 170.0,
+    "fat": 10.7,
+    "satfat": 6.0,
+    "carbs": 14.3,
+    "sugar": 12.1,
+    "protein": 3.7,
+    "salt": 0.05,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/38152/38152-1737473837673.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "EU",
+   "category": "Kühlregal > Joghurt & Desserts > Pudding",
+   "source_url": "https://www.gurkerl.at/38152-the-green-garden-gurkerl-at-go-coconuts-for-chia-pudding-vegan",
+   "source_id": "38152",
+   "fetched_at": "2026-10-13T02:19:00+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Kokosdrink 34,5 % (Kokosnussextrakt 71 %, Trinkwasser, Verdickungsmittel: Chiasamen (Salvia hispanica) 9,9 %, Kokosnussscheiben 1,5 %."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Yutto Chia Samen",
+   "brand": "Yutto",
+   "price_eur": 0.79,
+   "unit_price_eur": 7.9,
+   "unit": "kg",
+   "size_g": 100.0,
+   "nutrition_100g": {
+    "kcal": 447.0,
+    "fat": 31.0,
+    "satfat": 4.0,
+    "carbs": 8.0,
+    "sugar": 0.8,
+    "protein": 34.0,
+    "salt": 0.04,
+    "fiber": 17.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/45481/45481-1760702998764846817.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Außerhalb der EU\r",
+   "category": "Vorratsschrank > Nüsse, Trockenfrüchte & Samen > Samen",
+   "source_url": "https://www.gurkerl.at/45481-yutto-chia-samen",
+   "source_id": "45481",
+   "fetched_at": "2026-10-13T02:19:00+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Chia Samen"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "The Green Garden & gurkerl.at Coco-Raspberry Boogie chia pudding VEGAN",
+   "brand": "The Green Garden",
+   "price_eur": 3.59,
+   "unit_price_eur": 17.95,
+   "unit": "kg",
+   "size_g": 200.0,
+   "nutrition_100g": {
+    "kcal": 174.0,
+    "fat": 10.7,
+    "satfat": 6.1,
+    "carbs": 15.4,
+    "sugar": 12.7,
+    "protein": 3.8,
+    "salt": 0.05,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/38143/38143-1737459379589.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "EU",
+   "category": "Kühlregal > Joghurt & Desserts > Pudding",
+   "source_url": "https://www.gurkerl.at/38143-the-green-garden-gurkerl-at-coco-raspberry-boogie-chia-pudding-vegan",
+   "source_id": "38143",
+   "fetched_at": "2026-10-13T02:19:00+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Kokosnussdrink (Kokosnussextrakt 71%, Trinkwasser, Verdickungsmittel: Xanthan; Emulgator: E435), SOY-Drink (Trinkwasser, SOY-Bohnen 13,5%, Meersalz), Agavensirup, Chiasamen 9,9% (Salvia hispanica), Himbeersud 9,9% [Himbeeren 85%, Zucker], Kokosflocken 1,5%."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Ehrenwort BIO Pink Superfood Chia Pudding",
+   "brand": "ehrenwort",
+   "price_eur": 6.39,
+   "unit_price_eur": 25.56,
+   "unit": "kg",
+   "size_g": 250.0,
+   "nutrition_100g": {
+    "kcal": 425.91,
+    "fat": 23.4708,
+    "satfat": 6.1202,
+    "carbs": 27.8186,
+    "sugar": 19.8708,
+    "protein": 24.0656,
+    "salt": 0.076,
+    "fiber": 16.2524
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/43093/43093-1750746994177541431.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Vorratsschrank > Müsli, Cerealien, Porridge & Co. > Haferflocken & Porridge",
+   "source_url": "https://www.gurkerl.at/43093-ehrenwort-bio-pink-superfood-chia-pudding",
+   "source_id": "43093",
+   "fetched_at": "2026-10-13T02:19:00+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Chia Samen*, Dattelpulver*, 10,8% Haferdrinkpulver (Hafervollkornmehl*, Siedesalz)*, 5% Gojibeeren*, Kokosflocken*, 1,2% Pink Superfood Gewürzmischung (45% Rote Bete Pulver*, Cylon-Zimtpulver*, Ingwer*, Gojibeerenpulver*, 5% Acaipulver*, 3% Pinke Drachenfruchtpulver*)*."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "The Green Garden & gurkerl.at Berry-Coconut Cha-Cha chia pudding VEGAN",
+   "brand": "The Green Garden",
+   "price_eur": 3.59,
+   "unit_price_eur": 17.95,
+   "unit": "kg",
+   "size_g": 200.0,
+   "nutrition_100g": {
+    "kcal": 178.0,
+    "fat": 10.7,
+    "satfat": 6.1,
+    "carbs": 16.2,
+    "sugar": 14.0,
+    "protein": 3.7,
+    "salt": 0.05,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/38142/38142-1737458977247.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "EU",
+   "category": "Kühlregal > Joghurt & Desserts > Pudding",
+   "source_url": "https://www.gurkerl.at/38142-the-green-garden-gurkerl-at-berry-coconut-cha-cha-chia-pudding-vegan",
+   "source_id": "38142",
+   "fetched_at": "2026-10-13T02:19:00+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Kokosnussdrink (Kokosnussextrakt 71%, Trinkwasser, Verdickungsmittel: Xanthan; Emulgator: E435), SOY-Drink (Trinkwasser, SOY-Bohnen 13,5%, Meersalz), Agavensirup, Chiasamen 9,9% ( Salvia hispanica), Waldfruchtsud 9,9% [Waldfrüchte 71% (schwarze Johannisbeere 50%, rote Johannisbeere 30%, Erdbeere 10%, Brombeere 5%, Himbeere 5%), Zucker], Kokosflocken 1,5%."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Ehrenwort BIO Pumpkin Spice Chia Pudding",
+   "brand": "ehrenwort",
+   "price_eur": 6.39,
+   "unit_price_eur": 25.56,
+   "unit": "kg",
+   "size_g": 250.0,
+   "nutrition_100g": {
+    "kcal": 423.46,
+    "fat": 23.1248,
+    "satfat": 5.9349,
+    "carbs": 28.1528,
+    "sugar": 21.417,
+    "protein": 23.8936,
+    "salt": 0.0763,
+    "fiber": 15.3017
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/43092/43092-175074699465655792.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Vorratsschrank > Müsli, Cerealien, Porridge & Co. > Haferflocken & Porridge",
+   "source_url": "https://www.gurkerl.at/43092-ehrenwort-bio-pumpkin-spice-chia-pudding",
+   "source_id": "43092",
+   "fetched_at": "2026-10-13T02:19:00+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Chia Samen*, Dattelpulver*, 10,8% Haferdrinkpulver (Hafervollkornmehl*, Siedesalz)*, Apfelstücke*, Kokosflocken*, Kürbisfleischpulver*, 0,7% Kürbisgewürzmischung (Ceylon-Zimtpulver, Ingwer, Muskatnuss, Nelke)*."
+   }
+  }
+ ]
+}

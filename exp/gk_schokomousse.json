@@ -1,0 +1,198 @@
+{
+ "count": 6,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Atelier Délices Schokoladenmousse",
+   "brand": "Atelier Délices",
+   "price_eur": 3.99,
+   "unit_price_eur": 46.94,
+   "unit": "kg",
+   "size_g": 85.0,
+   "nutrition_100g": {
+    "kcal": 370.0,
+    "fat": 28.0,
+    "satfat": 15.0,
+    "carbs": 25.0,
+    "sugar": 24.0,
+    "protein": 4.3,
+    "salt": 0.14,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/37585/37585-1743000067048.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Belgien",
+   "category": "Kühlregal > Joghurt & Desserts > Desserts",
+   "source_url": "https://www.gurkerl.at/37585-atelier-delices-schokoladenmousse",
+   "source_id": "37585",
+   "fetched_at": "2026-10-13T02:18:29+00:00",
+   "extra": {
+    "ingredients": "Dessert Schokoladenmousse. Aufgetaut.\n\nZutaten: SAHNE 40%, Schokolade 27% (Kakaomasse, Zucker, Kakaobutter, Emulgator: E 322 (mit SOJA), natürliches Vanillearoma), EIKLAR, EIGELB, Zucker, Konservierungsstoffe: E 262, E 202, E 211, Stabilisatoren: E 412, E 415, E 407, Säureregulator: E 330.\n\nNicht wieder einfrieren. Nach dem Öffnen gekühlt lagern. Ungeöffnet bei 4°C bis 7°C mindestens haltbar bis: s. Seite"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Atelier Délices Duo Schokoladenmousse",
+   "brand": "Atelier Délices",
+   "price_eur": 4.39,
+   "unit_price_eur": 43.9,
+   "unit": "kg",
+   "size_g": 100.0,
+   "nutrition_100g": {
+    "kcal": 348.0,
+    "fat": 29.0,
+    "satfat": 18.0,
+    "carbs": 17.0,
+    "sugar": 16.0,
+    "protein": 4.0,
+    "salt": 0.07,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/37583/37583-1743000119089.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Belgien",
+   "category": "Kühlregal > Joghurt & Desserts > Desserts",
+   "source_url": "https://www.gurkerl.at/37583-atelier-delices-duo-schokoladenmousse",
+   "source_id": "37583",
+   "fetched_at": "2026-10-13T02:18:29+00:00",
+   "extra": {
+    "ingredients": "Dessert Schokoladenmousse mit Biskuit. Aufgetaut.\n\nZutaten: Mascarpone KÄSE, SAHNE, Schokolade 13% (Kakaomasse, Zucker, Kakaobutter, Emulgator: E 322 (mit SOJA), natürliches Vanillearoma), EIGELB, Zucker, EIKLAR, Biskuit 3% (Zucker, WEIZENmehl, EIER, Backtriebmittel: E 503, E 500(ii)), Konservierungsstoffe: E 262, E 202, E 211, Säureregulatoren: E 330, E 270, Stabilisatoren: E 407, E412, E 415, Antioxidationsmittel: E330.\n\nNicht wieder einfrieren. Nach dem Öffnen gekühlt lagern. Ungeöffnet bei 4°C bis 7°C mindestens haltbar bis: s. Seite"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "La Fermiere Zartbitter Schokoladenmousse 2x70g",
+   "brand": "La Fermiere",
+   "price_eur": 4.49,
+   "unit_price_eur": 32.07,
+   "unit": "kg",
+   "size_g": 140.0,
+   "nutrition_100g": {
+    "kcal": 325.0,
+    "fat": 25.0,
+    "satfat": 16.0,
+    "carbs": 16.0,
+    "sugar": 14.0,
+    "protein": 6.9,
+    "salt": 0.21,
+    "fiber": 3.4
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/27092/27092-1747750514494.jpg",
+   "producer": "",
+   "producer_id": null,
+   "origin": "Frankreich",
+   "category": "Kühlregal > Joghurt & Desserts > Desserts",
+   "source_url": "https://www.gurkerl.at/27092-la-fermiere-zartbitter-schokoladenmousse-2x70g",
+   "source_id": "27092",
+   "fetched_at": "2026-10-13T02:18:29+00:00",
+   "extra": {
+    "ingredients": "Zartbitter Schokoladenmousse.\n\nZutaten: Schokoladenganache 70%: SAHNE - dunkle Schokolade 46% (Kakaomasse, Zucker, Kakaobutter, natürliches Vanillearoma) - Zucker - Salz, 30% EIweiss. \n\nGekühlt lagern bei  +0°C bis +6°C.\n\nKontakt: \nSociete La Fermière, 375 avenue du Passe-temps- F-13400 Aubagne, Frankreich   "
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Andros Vegan Schokoladenmousse 2x55g VEGAN",
+   "brand": "Gourmand&Vegetal",
+   "price_eur": 1.99,
+   "unit_price_eur": 18.09,
+   "unit": "kg",
+   "size_g": 110.0,
+   "nutrition_100g": {
+    "kcal": 160.0,
+    "fat": 8.0,
+    "satfat": 5.2,
+    "carbs": 19.0,
+    "sugar": 15.9,
+    "protein": 2.2,
+    "salt": 0.23,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/16713/16713-1615988157857.jpg",
+   "producer": "Andros Austria GmbH, Porzellangasse 21/OG 1/Top 1, 1092 Wien, Österreich, www.andros-obst.at",
+   "producer_id": null,
+   "origin": "Frankreich",
+   "category": "Kühlregal > Produkte auf Pflanzenbasis > Joghurt & Desserts - Alternativen",
+   "source_url": "https://www.gurkerl.at/16713-andros-vegan-schokoladenmousse-2x55g-vegan",
+   "source_id": "16713",
+   "fetched_at": "2026-10-13T02:18:29+00:00",
+   "extra": {
+    "ingredients": "Schokoladen-Mousse auf Kokosbasis\n\nZutaten: Fettarme Kokosmilch 31,8% (Wasser, Kokosnussextrakt),\nWasser, Schokolade 16,2% (Zucker, Kakaomasse, Kakaobutter, fettarmes\nKakopulver, Emulgator: SOJA-Lecithin, natürliches Vanillearoma), Zucker,\nKokoswasser, Stärke, Kartoffelprotein, Emulgator: Mono- und Diglyceride\nvon Speisefettsäuren (Raps), Verdickungsmittel: Carrageene, Salz. Kann\nSpuren von SCHALENFRÜCHTE enthalten.\n\nBei höchstens +6°C aufbewahren.\n\n\nKontakt: Andros Austria GmbH, Porzellangasse 21/OG 1/Top 1, 1092 Wien, Österreich, www.andros-obst.at\n"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Zotter BIO Handgeschöpfte Schokolade Dunkles Schokomousse",
+   "brand": "Zotter",
+   "price_eur": 5.19,
+   "unit_price_eur": 74.14,
+   "unit": "kg",
+   "size_g": 70.0,
+   "nutrition_100g": {
+    "kcal": 586.0,
+    "fat": 46.0,
+    "satfat": 28.0,
+    "carbs": 33.0,
+    "sugar": 25.0,
+    "protein": 7.4,
+    "salt": 0.22,
+    "fiber": 0.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/1249/1249-1768823278727.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Süßes & Salziges > Schokolade > Tafelschokolade > Dunkle Schokolade",
+   "source_url": "https://www.gurkerl.at/1249-zotter-bio-handgeschoepfte-schokolade-dunkles-schokomousse",
+   "source_id": "1249",
+   "fetched_at": "2026-10-13T02:18:29+00:00",
+   "extra": {
+    "ingredients": "Nobelbitterschokolade° gefüllt mit Schokolademousse°(56%)Zutaten: Kakaomasse°*, Rohrohrzucker°*, BUTTER°, Stärkesirup°, Kakaobutter°*, Chili „Bird's eye”°\nKakao (Kakaomasse und Kakaobutter): 70% mindestens in der Nobelbitterschokolade°\n*aus fairem Handel, Fair-Handelsanteil insgesamt: 78% \n°aus kontrolliert biologischer Landwirtschaft\nKann Spuren von Schalenfrüchten aller Art, Erdnüssen, Eiern, Sesam und Soja enthalten."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "La Fermiere Milchdessert Schokolade 2x120g",
+   "brand": "La Fermiere",
+   "price_eur": 4.19,
+   "unit_price_eur": 17.46,
+   "unit": "kg",
+   "size_g": 240.0,
+   "nutrition_100g": {
+    "kcal": 234.0,
+    "fat": 17.0,
+    "satfat": 12.0,
+    "carbs": 15.0,
+    "sugar": 13.0,
+    "protein": 4.0,
+    "salt": 0.15,
+    "fiber": 1.1
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/27094/27094-1747729299211.jpg",
+   "producer": "",
+   "producer_id": null,
+   "origin": "Frankreich",
+   "category": "Kühlregal > Joghurt & Desserts > Desserts",
+   "source_url": "https://www.gurkerl.at/27094-la-fermiere-milchdessert-schokolade-2x120g",
+   "source_id": "27094",
+   "fetched_at": "2026-10-13T02:18:29+00:00",
+   "extra": {
+    "ingredients": "Milchdessert mit Schokolade.\n\nZutaten: VollMILCH, SAHNE 31,7%, dunkle Schokolade 10%: Kakaomasse (Zucker, Kakaobutter, natürliches Vanillearoma), Zucker, Magermilch (Pulver), Maniokstärke, Stabilisatoren: Carrageen und Xanthangummi, Vanilleschoten- und Tonkabohnenpulveraufguss (MILCH).\n\nGekühlt lagern bei  +0°C bis +6°C.\n\nKontakt: \nSociete La Fermière, 375 avenue du Passe-temps- F-13400 Aubagne, Frankreich  "
+   }
+  }
+ ]
+}

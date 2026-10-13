@@ -1,0 +1,38 @@
+{
+ "count": 1,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "nöm Cremix Hüttenzauber Buchteln",
+   "brand": "nöm",
+   "price_eur": 0.79,
+   "unit_price_eur": 4.39,
+   "unit": "kg",
+   "size_g": 180.0,
+   "nutrition_100g": {
+    "kcal": 111.0,
+    "fat": 3.9,
+    "satfat": 2.3,
+    "carbs": 16.0,
+    "sugar": 15.0,
+    "protein": 2.9,
+    "salt": 0.1,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/49563/49563-1790000066372229632.JPEG",
+   "producer": "",
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Joghurt & Desserts > Desserts",
+   "source_url": "https://www.gurkerl.at/49563-noem-cremix-huettenzauber-buchteln",
+   "source_id": "49563",
+   "fetched_at": "2026-10-13T02:18:45+00:00",
+   "extra": {
+    "ingredients": "Zutaten: JOGHURT, Zucker, 4% Marillenmark, 1,6% Strudelteig (WEIZENMEHL, Wasser, Salz), Karamellzuckersirup, modifizierte Stärke, Stabilisator: Guarkernmehl; Aroma, natürliches Aroma.\n\nGekühlt (bei 3° -9°C) lagern.\n\nKontakt:\nNÖM AG, Vöslauer Straße 109, A-2500 Baden, Austria, +43 800 800 500, konsumenten.service@noem.at"
+   }
+  }
+ ]
+}

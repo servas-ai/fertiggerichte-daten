@@ -1,0 +1,29 @@
+{
+ "count": 1,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Suppito Gemüsecurry mit Cashewnüssen",
+   "brand": "Suppito",
+   "price_eur": 15.99,
+   "unit_price_eur": 31.35,
+   "unit": "kg",
+   "size_g": 510.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/44766/44766-1758268184224028748.JPG",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Asiatisch- / Orientalische Küche",
+   "source_url": "https://www.gurkerl.at/44766-suppito-gemuesecurry-mit-cashewnuessen",
+   "source_id": "44766",
+   "fetched_at": "2026-10-13T02:09:59+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Kokosmilch (70% Kokosnussextrakt, Wasser, Emulgator:E435), Tomaten, Zwiebel, Karotten, Süßkartoffel, Zucchini, Brokkoli, rote & grüne Paprika, rote Linsen, Wasser, Spinat, Rohrohrzucker, 0,7% CASHEWNÜSSE, Natursalz, Kokosöl, Ingwer, Erdäpfelstärke, SCHWARZE SENFSAMEN, Apfelessig, Chilipulver, Knoblauch, Zitronengras, Galgant, Kurkuma, Kreuzkümmel-, Koriander- und Kardamomsamen,\nAsant, Bockshornkleesamen, Zimt, Muskatblüte."
+   }
+  }
+ ]
+}

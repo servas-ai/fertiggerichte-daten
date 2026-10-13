@@ -1,0 +1,50 @@
+{
+ "count": 2,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Gissinger Beuschel",
+   "brand": "Gissinger",
+   "price_eur": 12.59,
+   "unit_price_eur": 23.99,
+   "unit": "kg",
+   "size_g": 520.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/21848/21848-1633685673051.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Traditionelle Hausmannskost",
+   "source_url": "https://www.gurkerl.at/21848-gissinger-beuschel",
+   "source_id": "21848",
+   "fetched_at": "2026-10-13T02:14:49+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Schweinebeuschel, Schweineherz, Zwiebel, Karotte, gelbe Rübe, Suppe, WEIZENMEHL, BUTTER Salz, Gewürze"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Kalbszunge (tiefgekühlt)",
+   "brand": "Astrokalb",
+   "price_eur": 11.64,
+   "unit_price_eur": 13.79,
+   "unit": "kg",
+   "size_g": 840.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/22958/22958-1637915101261.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": null,
+   "category": "Fleisch & Fisch > Kalb > Innereien & Knochen vom Kalb",
+   "source_url": "https://www.gurkerl.at/22958-kalbszunge-tiefgekuehlt",
+   "source_id": "22958",
+   "fetched_at": "2026-10-13T02:14:49+00:00",
+   "extra": {}
+  }
+ ]
+}

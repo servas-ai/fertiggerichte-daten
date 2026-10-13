@@ -1,0 +1,93 @@
+{
+ "count": 3,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Gissinger Krautfleckerl",
+   "brand": "Gissinger",
+   "price_eur": 10.1,
+   "unit_price_eur": 19.49,
+   "unit": "kg",
+   "size_g": 520.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/21855/21855-1633010689534.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Traditionelle Hausmannskost",
+   "source_url": "https://www.gurkerl.at/21855-gissinger-krautfleckerl",
+   "source_id": "21855",
+   "fetched_at": "2026-10-13T02:09:40+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Weißkraut, Fleckerl (HARTWEIZENGRIEß, EI), Zwiebel, Suppe, Salz, Gewürze"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Radatz Krautfleckerl",
+   "brand": "Radatz",
+   "price_eur": 8.39,
+   "unit_price_eur": 11.99,
+   "unit": "kg",
+   "size_g": 700.0,
+   "nutrition_100g": {
+    "kcal": 202.0,
+    "fat": 7.0,
+    "satfat": 2.1,
+    "carbs": 30.0,
+    "sugar": 4.2,
+    "protein": 4.0,
+    "salt": 1.1,
+    "fiber": 1.1
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/4134/4134-1654089056320.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Traditionelle Hausmannskost",
+   "source_url": "https://www.gurkerl.at/4134-radatz-krautfleckerl",
+   "source_id": "4134",
+   "fetched_at": "2026-10-13T02:09:40+00:00",
+   "extra": {
+    "ingredients": "Zutaten: 52% Weisskraut, 36% Fleckerl (HARTWEIZENGRIEß, EIER, Wasser), 5% Zwiebel, Röstzwiebel (Zwiebel, Sonnenblumenöl, Buchweizenmehl, Speisesalz), Rapsöl, Zucker, Speisesalz jodiert (Speisesalz, Kaliumiodid), klare Gemüsebrühe mit Einlage (Meersalz, Glukosesirup, natürliches Aroma, Karotten, Sonnenblumenöl, Zucker, konzentrierter Gemüsesaft (Karotte, Zwiebel), Kräuter, Gewürze, Zwiebeln, Lauch, Kürbis, rote Beete, Säuerungsmittel: Citronensäure; Knoblauch), Gewürze."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Iglo Krautfleckerl (tiefgekühlt)",
+   "brand": "Iglo",
+   "price_eur": 6.19,
+   "unit_price_eur": 17.69,
+   "unit": "kg",
+   "size_g": 350.0,
+   "nutrition_100g": {
+    "kcal": 135.0,
+    "fat": 4.0,
+    "satfat": 0.7,
+    "carbs": 20.0,
+    "sugar": 4.0,
+    "protein": 3.5,
+    "salt": 0.9,
+    "fiber": 2.2
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/6073/6073-1681391890394.jpg",
+   "producer": "",
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Tiefkühlprodukte > Fertiggerichte > Traditionelles",
+   "source_url": "https://www.gurkerl.at/6073-iglo-krautfleckerl-tiefgekuehlt",
+   "source_id": "6073",
+   "fetched_at": "2026-10-13T02:09:40+00:00",
+   "extra": {
+    "ingredients": "Krautfleckerl tiefgekühlt.\n\nZutaten: Fleckerl 53% (Wasser, HARTWEIZENGRIEß, EI), Weißkraut 30%, Röstzwiebel (Zwiebel, Rapsöl), Wasser, Zucker, Sonnenblumenöl, Speisesalz jodiert (Salz, Kaliumjodid), Stärke, Weingeistessig, Karamellzuckersirup (Zucker, Wasser), Kümmel, Pfeffer, Muskatnuss.\n\nHinweise für die Aufbewahrung zu Hause: Entweder sofort zubereiten oder bei -18°C mindestens haltbar bis: siehe Verpackung.\n\nNach dem Auftauen nicht wieder einfrieren!\n\nKontakt:\nIglo Austria GmbH, Clemens-Holzmeister-Straße 6, 1100 Wien, iglo.oesterreich@iglo.com, 0810 300 407\n"
+   }
+  }
+ ]
+}

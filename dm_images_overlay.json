@@ -1,0 +1,111 @@
+{
+ "fetched_at": "2026-10-13T09:23:34Z",
+ "method": "dm.at product JSON / Lotao Shopify / OFF strict match, GET-verified",
+ "images": [
+  {
+   "name": "Little Lunch Eintopf Chili Sin Carne vegan, 350 g",
+   "image_url": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1788557150/assets/pas/images/7d37d096-f563-483a-aec5-c5b60038ab4e/little-lunch-eintopf-chili-sin-carne-vegan",
+   "method": "dm.at product JSON (DAN from sitemap) · exact brand+title+size match"
+  },
+  {
+   "name": "Little Lunch Eintopf Protein Bowl Kichererbsen & Linsen, 350 g",
+   "image_url": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1788557042/assets/pas/images/a88c41da-ada0-4e07-b98d-91c8e565d450/little-lunch-eintopf-protein-bowl-kichererbsen-und-linsen",
+   "method": "dm.at product JSON (DAN from sitemap) · exact brand+title+size match"
+  },
+  {
+   "name": "Little Lunch Eintopf Thai Curry, 350 g",
+   "image_url": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1788989533/assets/pas/images/7fa6432e-5d4c-43b4-a596-d7c2dd1dfcc6/little-lunch-eintopf-thai-curry",
+   "method": "dm.at product JSON (DAN from sitemap) · exact brand+title+size match"
+  },
+  {
+   "name": "Little Lunch Fertiggericht Pilz Risotto, 350 g",
+   "image_url": "https://images.openfoodfacts.org/images/products/426/061/472/1791/front_de.3.400.jpg",
+   "method": "Open Food Facts product API · brand+name+quantity match"
+  },
+  {
+   "name": "Lotao Fertiggericht Linsen Dal, 320 g",
+   "image_url": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1747491954/assets/pas/images/01aecb98-1b9b-407b-b8cd-bff8b4f50f80/lotao-fertiggericht-linsen-dal",
+   "method": "dm.at product JSON (DAN from sitemap) · exact brand+title+size match"
+  },
+  {
+   "name": "Lotao Fertiggericht Veggie Curry, 320 g",
+   "image_url": "https://images.openfoodfacts.org/images/products/426/023/745/1099/front_fr.14.400.jpg",
+   "method": "Open Food Facts product API · brand+name+quantity match"
+  },
+  {
+   "name": "Lotao Fertiggericht veggie Chili sin Carne, 320 g",
+   "image_url": "https://cdn.shopify.com/s/files/1/0644/1045/2202/products/LOTAO_VeggieChilisinCarne_vegan-BIO-lecker-proteinreich_Einzel.webp?v=1707925357",
+   "method": "Lotao official Shopify products.json · title+pack size match"
+  },
+  {
+   "name": "dmBio Fertiggericht Gemüse Ravioli, 270 g",
+   "image_url": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1763565885/assets/pas/images/0dfc571f-5b77-42e8-85c4-380e191243dc/dmbio-fertiggericht-gemuese-ravioli",
+   "method": "dm.at product JSON (DAN from sitemap) · exact brand+title+size match"
+  },
+  {
+   "name": "dmBio Fertiggericht Linsen Dal mit Kartoffeln, 280 g",
+   "image_url": "https://images.openfoodfacts.org/images/products/406/644/744/0881/front_en.3.400.jpg",
+   "method": "Open Food Facts product API · brand+name+quantity match"
+  },
+  {
+   "name": "dmBio Vegane Currywurst",
+   "image_url": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1749554434/assets/pas/images/4f83ba3c-8d1a-4ff4-b657-490df704d4db/dmbio-fertiggericht-vegane-currywurst",
+   "method": "dm.at product JSON (DAN from sitemap) · URL DAN match"
+  },
+  {
+   "name": "dmBio Gulasch vegan",
+   "image_url": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1774484108/assets/pas/images/5adea7b4-bae7-4a5f-86c6-dc69a843071c/dmbio-gulasch-vegan",
+   "method": "dm.at product JSON (DAN from sitemap) · URL DAN match"
+  },
+  {
+   "name": "dmBio Chili sin Carne",
+   "image_url": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1760132977/assets/pas/images/1e5fa371-01c0-4a64-b591-52b15c7a1654/dmbio-eintopf-chili-sin-carne-mit-kidneybohnen-und-weizenhack",
+   "method": "dm.at product JSON (DAN from sitemap) · URL DAN match"
+  },
+  {
+   "name": "Little Lunch Protein Bowl Kichererbsen & Linsen",
+   "image_url": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1788557042/assets/pas/images/a88c41da-ada0-4e07-b98d-91c8e565d450/little-lunch-eintopf-protein-bowl-kichererbsen-und-linsen",
+   "method": "dm.at product JSON (DAN from sitemap) · URL DAN match"
+  },
+  {
+   "name": "Tressbrüder Butter Chicken Curry",
+   "image_url": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1785621910/assets/pas/images/91386823-0c43-4e3b-adca-adac03896100/tressbrueder-fertiggericht-typ-butter-chicken-curry",
+   "method": "dm.at product JSON (DAN from sitemap) · URL DAN match"
+  },
+  {
+   "name": "Little Lunch Chili Sin Carne",
+   "image_url": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1788557150/assets/pas/images/7d37d096-f563-483a-aec5-c5b60038ab4e/little-lunch-eintopf-chili-sin-carne-vegan",
+   "method": "dm.at product JSON (DAN from sitemap) · URL DAN match"
+  },
+  {
+   "name": "Lotao Linsen Dal",
+   "image_url": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1747491954/assets/pas/images/01aecb98-1b9b-407b-b8cd-bff8b4f50f80/lotao-fertiggericht-linsen-dal",
+   "method": "dm.at product JSON (DAN from sitemap) · URL DAN match"
+  },
+  {
+   "name": "dmBio Mexican Style Bowl",
+   "image_url": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1781130606/assets/pas/images/0202da11-40f9-4f8b-8ed9-f2e9317a3b8b/dmbio-fertiggericht-mexican-style-bowl",
+   "method": "dm.at product JSON (DAN from sitemap) · URL DAN match"
+  },
+  {
+   "name": "dmBio Eintopf Linsen mit Kartoffeln",
+   "image_url": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1760133002/assets/pas/images/92d02758-5f2d-4466-951a-ab5b666a026f/dmbio-eintopf-linsen-mit-kartoffeln",
+   "method": "dm.at product JSON (DAN from sitemap) · URL DAN match"
+  },
+  {
+   "name": "dmBio Eintopf Erbsen mit Gemüse",
+   "image_url": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1761166342/assets/pas/images/566b0739-d415-4125-8051-6a9f4e1b72a6/dmbio-eintopf-erbsen-mit-gemuese",
+   "method": "dm.at product JSON (DAN from sitemap) · URL DAN match"
+  },
+  {
+   "name": "dmBio Eintopf Kichererbsen Kokos",
+   "image_url": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1764283155/assets/pas/images/4b6c4bfe-c0ae-43ea-bf1f-801c8afbe7b3/dmbio-eintopf-kichererbsen-mit-kokosmilch",
+   "method": "dm.at product JSON (DAN from sitemap) · URL DAN match"
+  },
+  {
+   "name": "dmBio Gemüse Ravioli",
+   "image_url": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1763565885/assets/pas/images/0dfc571f-5b77-42e8-85c4-380e191243dc/dmbio-fertiggericht-gemuese-ravioli",
+   "method": "dm.at product JSON (DAN from sitemap) · URL DAN match"
+  }
+ ]
+}

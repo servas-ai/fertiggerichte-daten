@@ -1,0 +1,294 @@
+{
+ "count": 9,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Iglo Genießer Pfanne Französische Art (tiefgekühlt)",
+   "brand": "Iglo",
+   "price_eur": 7.99,
+   "unit_price_eur": 12.29,
+   "unit": "kg",
+   "size_g": 650.0,
+   "nutrition_100g": {
+    "kcal": 119.0,
+    "fat": 5.1,
+    "satfat": 0.8,
+    "carbs": 12.0,
+    "sugar": 2.2,
+    "protein": 5.4,
+    "salt": 0.71,
+    "fiber": 1.7
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/36975/36975-1732092676093.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Tiefkühlprodukte > Fertiggerichte > Internationales",
+   "source_url": "https://www.gurkerl.at/36975-iglo-geniesser-pfanne-franzoesische-art-tiefgekuehlt",
+   "source_id": "36975",
+   "fetched_at": "2026-10-13T02:06:38+00:00",
+   "extra": {
+    "ingredients": "Penne, Gemüse & Hühnerfiletstreifen in Weißwein-Sauce, tiefgekühlt\n\nZutaten: Nudeln gekocht 26% (Penne (HARTWEIZENGRIESS, Wasser), Wasser, Rapsöl), Gemüsemischung 25% (Karotten, Broccoli glasiert (Brokkoli, Wasser), Erbsen, Fisolen, Mais, roter Paprika; in veränderlichen Gewichtsanteilen), Hühnerbrustfleisch gegart 10% (Hühnerbrust, Wasser, Sonnenblumenöl, Dextrose, Reismehl, Salz), Wasser, MAGERMILCH, Zwiebel, Sonnenblumenöl, Champignons, Weißwein 1,5%, Petersilie, Reisstärke, Salz, Gemüsebrühe (Dextrose, Salz, Karotte, Zwiebel, Lauch, Schalotte, Tomate, Paprika), WEIZENMEHL, Hühnerbrühe (Hühnerbrühe, Salz), weißer Pfeffer. \n\nKann Spuren von EI und SOJA enthalten."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Kitchin Jasmin Reis",
+   "brand": "Kitchin",
+   "price_eur": 0.95,
+   "unit_price_eur": 1.9,
+   "unit": "kg",
+   "size_g": 500.0,
+   "nutrition_100g": {
+    "kcal": 352.0,
+    "fat": 0.5,
+    "satfat": 0.1,
+    "carbs": 78.0,
+    "sugar": 0.5,
+    "protein": 8.5,
+    "salt": 0.01,
+    "fiber": 0.6
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/31712/31712-1703152707320.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Thailand",
+   "category": "Vorratsschrank > Pasta, Reis & Beilagen > Reis",
+   "source_url": "https://www.gurkerl.at/31712-kitchin-jasmin-reis",
+   "source_id": "31712",
+   "fetched_at": "2026-10-13T02:06:38+00:00",
+   "extra": {
+    "ingredients": "Jasmin Reis"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "HiPP BIO Für kleine Feinschmecker Bulgur-Gemüsepfanne mit Kichererbsen und Bio-Rind, ab dem 12. Monat",
+   "brand": "HiPP",
+   "price_eur": 1.99,
+   "unit_price_eur": 7.96,
+   "unit": "kg",
+   "size_g": 250.0,
+   "nutrition_100g": {
+    "kcal": 74.0,
+    "fat": 2.9,
+    "satfat": 0.6,
+    "carbs": 7.9,
+    "sugar": 2.0,
+    "protein": 2.9,
+    "salt": 0.28,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/19989/19989-1627565454237.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "EU, Außerhalb der EU",
+   "category": "Baby & Kinder > Baby- und Kindernahrung > Glaskost & Menüs > Gemüse-Gläschen",
+   "source_url": "https://www.gurkerl.at/19989-hipp-bio-fuer-kleine-feinschmecker-bulgur-gemuesepfanne-mit-kichererbsen-und-bio-rind-ab-dem-12-monat",
+   "source_id": "19989",
+   "fetched_at": "2026-10-13T02:06:38+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Karotten*, Bulgur* gekocht 24 % (HARTWEIZEN), Tomaten*,\nWasser, Rindfleisch* 8,0 %, Kichererbsen* 5 %, Zwiebeln*, Stärke*, Rapsöl* 1,7%, Gewürze*, jodiertes Speisesalz (Speisesalz, Kaliumjodat). *Aus biologischer Erzeugung.\n"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "HiPP BIO Couscous-Gemüse-Pfanne, ab dem 6. Monat",
+   "brand": "HiPP",
+   "price_eur": 1.79,
+   "unit_price_eur": 9.42,
+   "unit": "kg",
+   "size_g": 190.0,
+   "nutrition_100g": {
+    "kcal": 85.0,
+    "fat": 2.9,
+    "satfat": 0.3,
+    "carbs": 10.5,
+    "sugar": 3.8,
+    "protein": 2.9,
+    "salt": 0.07,
+    "fiber": 2.8
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/43054/43054-1750688254421593005.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Baby & Kinder > Baby- und Kindernahrung > Glaskost & Menüs > Gemüse-Gläschen",
+   "source_url": "https://www.gurkerl.at/43054-hipp-bio-couscous-gemuese-pfanne-ab-dem-6-monat",
+   "source_id": "43054",
+   "fetched_at": "2026-10-13T02:06:38+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Magermilch*, Karotten*, Tomaten*, Amaranthmehl* 7 %, Zucchini*, Couscous* (Hartweizen) 5 %, Auberginen*, Zwiebeln*, Rapsöl* 2,4 %, Reisstärke*, Magermilchpulver*, Zitronensaft* aus Zitronensaft-konzentrat, Gewürze* (Basilikum*, Oregano* )."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Ben's Original Loser Reis 20 Minuten Original Langkornreis",
+   "brand": "Ben's Original",
+   "price_eur": 5.89,
+   "unit_price_eur": 5.89,
+   "unit": "kg",
+   "size_g": 1000.0,
+   "nutrition_100g": {
+    "kcal": 124.0,
+    "fat": 0.5,
+    "satfat": 0.1,
+    "carbs": 25.0,
+    "sugar": 0.5,
+    "protein": 2.7,
+    "salt": 0.01,
+    "fiber": 0.5
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/47423/47423-17743407411864525.png",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Belgien",
+   "category": "Vorratsschrank > Pasta, Reis & Beilagen > Reis",
+   "source_url": "https://www.gurkerl.at/47423-ben-s-original-loser-reis-20-minuten-original-langkornreis",
+   "source_id": "47423",
+   "fetched_at": "2026-10-13T02:06:38+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Parboiled Langkornreis"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Marks & Spencer Plant Kitchen Mushroom No-Meatballs",
+   "brand": "Marks & Spencer",
+   "price_eur": 12.99,
+   "unit_price_eur": 25.77,
+   "unit": "kg",
+   "size_g": 504.0,
+   "nutrition_100g": {
+    "kcal": 133.0,
+    "fat": 5.8,
+    "satfat": 0.6,
+    "carbs": 8.1,
+    "sugar": 1.1,
+    "protein": 9.9,
+    "salt": 0.85,
+    "fiber": 4.5
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/46873/46873-1770640862661841450.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Großbritannien",
+   "category": "Marks & Spencer > Tiefgekühlte Produkte",
+   "source_url": "https://www.gurkerl.at/46873-marks-spencer-plant-kitchen-mushroom-no-meatballs",
+   "source_id": "46873",
+   "fetched_at": "2026-10-13T02:06:38+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Trinkwasser, gekochte Champignons (20 %), Erbsenprotein (10 %), Austernpilze (7 %), Rapsöl, karamellisierte Zwiebeln (4 %) (Zwiebeln, Muscovadozucker, Rapsöl), Stabilisator: Methylcellulose, Reismehl, Erbsenextrakt, Kichererbsenmehl, natürliche Aromen, Zwiebelpüree, Maisstärke, geröstetes Knoblauchpüree, glutenfreier Gerstenmalzextrakt, Speisesalz, geräuchertes Paprikapulver, Weißwein, Rote-Bete-Saftkonzentrat, Sojabohnen, Weißweinessig, grob gemahlener schwarzer Pfeffer, getrocknete Zwiebeln, Champignonsaftkonzentrat, Hefeextrakt, Essig, Zitronensaftkonzentrat, grob gemahlener schwarzer Pfeffer, getrocknete Pastinaken"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Kitchin Jasmin Reis Kochbeutel",
+   "brand": "Kitchin",
+   "price_eur": 0.75,
+   "unit_price_eur": 1.88,
+   "unit": "kg",
+   "size_g": 400.0,
+   "nutrition_100g": {
+    "kcal": 352.0,
+    "fat": 0.5,
+    "satfat": 0.1,
+    "carbs": 78.0,
+    "sugar": 0.5,
+    "protein": 8.5,
+    "salt": 0.01,
+    "fiber": 0.6
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/31713/31713-1703152970690.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Italien",
+   "category": "Vorratsschrank > Pasta, Reis & Beilagen > Reis",
+   "source_url": "https://www.gurkerl.at/31713-kitchin-jasmin-reis-kochbeutel",
+   "source_id": "31713",
+   "fetched_at": "2026-10-13T02:06:38+00:00",
+   "extra": {
+    "ingredients": "Jasmin Reis"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Alnatura BIO Gemüsepfanne Toskana (tiefgekühlt)",
+   "brand": "Alnatura",
+   "price_eur": 3.69,
+   "unit_price_eur": 8.2,
+   "unit": "kg",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "kcal": 47.0,
+    "fat": 2.7,
+    "satfat": 0.4,
+    "carbs": 3.3,
+    "sugar": 2.9,
+    "protein": 1.4,
+    "salt": 1.0,
+    "fiber": 1.7
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/10813/10813-1708600383502.jpg",
+   "producer": "Alnatura GmbH, Mahatma-Gandhi-Straße 7, 64295 Darmstadt.",
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Tiefkühlprodukte > Obst, Gemüse & Kräuter > Gemüse",
+   "source_url": "https://www.gurkerl.at/10813-alnatura-bio-gemuesepfanne-toskana-tiefgekuehlt",
+   "source_id": "10813",
+   "fetched_at": "2026-10-13T02:06:38+00:00",
+   "extra": {
+    "ingredients": "Bio Gemüsemischung mit Cherrytomaten und Oliven,nach italienischer Art gewürzt, tiefgefroren\n\nZutaten: Cherrytomaten* 22%, Brokkoli* 21% glasiert (Brokkoli 95%, Wasser), Zucchini* 19 %, Karotten* 18%, Zwiebeln* 10%, Oliven* schwarz 2% (Oliven* 86%, Wasser, Branntweinessig*, Salz), Olivenöl* 1 %, Basilikum*, Meersalz, Sonnenblumenöl*, Oregano*, Rohrohrzucker*, Pfeffer*, Knoblauchpulver* \n* aus biologischer Landwirtschaft . \nKann Spuren von Gluten, Krebstier, Ei, Fisch, Soja, Milch, Sellerie, Senf und  Weichtier enthalten.\n\n***-Fach (-18 °C): mindestens haltbar bis Ende: siehe Frontlasche\n**-Fach (-12 °C): 3 Wochen\n*-Fach (-6 °C): 4 Tage\nKühlschrank: 1 Tag  \nNach dem Auftauen nicht wieder einfrieren!\n\nBio-Kontrollstellennummer: DE-ÖKO-006\n\nKontakt: Alnatura GmbH, Mahatma-Gandhi-Straße 7, 64295 Darmstadt."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Alnatura BIO Gemüsepfanne Provence (tiefgekühlt)",
+   "brand": "Alnatura",
+   "price_eur": 3.69,
+   "unit_price_eur": 8.2,
+   "unit": "kg",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "kcal": 41.0,
+    "fat": 1.5,
+    "satfat": 0.2,
+    "carbs": 4.2,
+    "sugar": 3.1,
+    "protein": 1.5,
+    "salt": 0.87,
+    "fiber": 2.3
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/10812/10812-1708600362015.jpg",
+   "producer": "Alnatura GmbH, Mahatma-Gandhi-Straße 7, 64295 Darmstadt.",
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Tiefkühlprodukte > Obst, Gemüse & Kräuter > Gemüse",
+   "source_url": "https://www.gurkerl.at/10812-alnatura-bio-gemuesepfanne-provence-tiefgekuehlt",
+   "source_id": "10812",
+   "fetched_at": "2026-10-13T02:06:38+00:00",
+   "extra": {
+    "ingredients": "Bio Gemüsemischung, französisch gewürzt mit Babykarotten, tiefgefroren\n\nZutaten: Babykarotten* 23 %, Paprika* 22 %, Champignons* 20 %, Brechbohnen* 20%, Zwiebeln* rot 10%, Meersalz, Sonnenblumenöl*, Oregano*, Kartoffelstärke*, Olivenöl*, Thymian*, Pfeffer*, Rosmarin* \n* aus biologischer Landwirtschaft. \nKann Spuren von Gluten, Krebstier, Ei, Fisch, Soja, Milch, Sellerie, Senfund Weichtier enthalten.\n\n***-Fach (-18 °C): mindestens haltbar bis Ende: siehe Frontlasche\n**-Fach (-12 °C): 3 Wochen\n*-Fach (-6 °C): 4 Tage\nKühlschrank: 1 Tag  \nNach dem Auftauen nicht wieder einfrieren!\n\nBio-Kontrollstellennummer: DE-ÖKO-006\n\nKontakt: Alnatura GmbH, Mahatma-Gandhi-Straße 7, 64295 Darmstadt."
+   }
+  }
+ ]
+}

@@ -1,0 +1,230 @@
+{
+ "count": 7,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Freshery Tikka Masala Bowl mit Hühnerfleisch",
+   "brand": "Freshery",
+   "price_eur": 5.99,
+   "unit_price_eur": 31.53,
+   "unit": "kg",
+   "size_g": 190.0,
+   "nutrition_100g": {
+    "kcal": 187.0,
+    "fat": 5.5,
+    "satfat": 3.7,
+    "carbs": 22.0,
+    "sugar": 2.8,
+    "protein": 11.0,
+    "salt": 0.5,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/48168/48168-1779966314443355598.png",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Slowakische Republik",
+   "category": "Kühlregal > Schnelle Küche > Kochboxen",
+   "source_url": "https://www.gurkerl.at/48168-freshery-tikka-masala-bowl-mit-huehnerfleisch",
+   "source_id": "48168",
+   "fetched_at": "2026-10-13T02:06:21+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Instantreis 24 %, Hühnerbrust sous-vide 22 % (Hühnerfleisch, Speisesalz), Kokosmilch (Kokosextrakt 86 %, Trinkwasser, Stabilisator: Xanthangummi; Emulgatoren: E435; Cellulosegummi), Tikka Masala Paste 5,5 % [Zwiebel, Tomatenpulver, Knoblauch, Ingwer, Koriander, Kreuzkümmel, Chilli, Garam Masala (Koriander, schwarzer Pfeffer, Zimt, Nelken, Kardamom), Speisesalz], Babyspinat, Gemüsebouillon [Speisesalz, getrocknetes Gemüse (Karotte, Lauch, Pastinake, Petersilienwurzel, SELLERIEWURZEL, Knoblauch, Tomatenpulver, Zwiebel), Geschmacksverstärker: Glutamat; SELLERIESAMEN, Petersilienkraut, Zitronensäure, Hefeextrakt, Palmfett, Kartoffelstärke], Zucker."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "YOUCOOK Indian Style Chicken Tikka",
+   "brand": "YOUCOOK",
+   "price_eur": 4.99,
+   "unit_price_eur": 11.88,
+   "unit": "kg",
+   "size_g": 420.0,
+   "nutrition_100g": {
+    "kcal": 129.0,
+    "fat": 5.4,
+    "satfat": 3.0,
+    "carbs": 12.5,
+    "sugar": 1.8,
+    "protein": 6.9,
+    "salt": 0.78,
+    "fiber": 1.2
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/40755/40755-1777354320128.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Asiatisch- / Orientalische Küche",
+   "source_url": "https://www.gurkerl.at/40755-youcook-indian-style-chicken-tikka",
+   "source_id": "40755",
+   "fetched_at": "2026-10-13T02:06:21+00:00",
+   "extra": {
+    "ingredients": "Hähnchenbrustfilet in einer Tikkasauce mit Tomaten & Kardamom und einer Basmati-Wildreismischung\n\nZutaten: 42% gegarter Reis (Wasser, 31% Basmatireis, Rapsöl, 1% Wildreis), 16% Hähnchenbrustfilet mariniert, gegart (Hähnchenbrustfilet, Stärke, Salz, Dextrose, SOJAÖL und/oder Baumwollsamenöl), 11% Tomaten, Tomatenmark, SAHNE, Paprika, 3,2% Kokosnussmilchpulver (Kokosnussmilch, Maltodextrin, MILCHEIWEIß), Geflügelbrühe (Puten- und Hühnerbrühe, Salz), CRÈME FRAÎCHE, Karotten, Zwiebeln, Gewürze, Kräuter, Hühnerfett, Salz, Stärke, Schwarzkümmel, Paprika geräuchert (Paprika, Rauch), Zucker, Limettensaftkonzentrat, Emulgator Mono- und Diglyceride von Speisefettsäuren, Verdickungsmittel Guarkernmehl, MAGERMILCHPULVER, Dextrose, Kardamom, Branntweinessig. Das Produkt kann Spuren von SOJA, SELLERIE, EI und WEIZEN enthalten! \n\nBei 2°-7° C lagern."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Marks & Spencer Tikka Masala Curry Sauce",
+   "brand": "Marks & Spencer",
+   "price_eur": 5.49,
+   "unit_price_eur": 16.15,
+   "unit": "kg",
+   "size_g": 340.0,
+   "nutrition_100g": {
+    "kcal": 141.0,
+    "fat": 10.8,
+    "satfat": 4.6,
+    "carbs": 7.9,
+    "sugar": 5.8,
+    "protein": 2.3,
+    "salt": 0.68,
+    "fiber": 1.4
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/38832/38832-1739461922741.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Großbritannien",
+   "category": "Marks & Spencer > Saucen, Chutneys & Co.",
+   "source_url": "https://www.gurkerl.at/38832-marks-spencer-tikka-masala-curry-sauce",
+   "source_id": "38832",
+   "fetched_at": "2026-10-13T02:06:21+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Trinkwasser, Tomaten (14%), Joghurt (Milch) (12%), Tomatenpüree, Doppelrahm (Milch (9%), Zwiebeln, Zwiebelpüree, Rapsöl, Knoblauchpüree, gemahlene Gewürze (Koriander, Kreuzkümmel, süßes Paprikapulver, süßer Zimt (Cassia), Kardamom, Gewürznelken, Ingwer, Chilipulver), Zucker, Ingwerpüree, Speisestärke, Butter (Milch), Gemüsebrühe (Hefeextrakt, konzentrierter Karottensaft, konzentrierte Pilze, Aromen, konzentrierter Zwiebelsaft, Speisesalz, getrocknete Tomaten, Trinkwasser, getrocknete Zwiebeln), Speisesalz, grüne Chilischoten, getrocknete Bockshornkleeblätter, Säureregulator: Zitronensäure, Farbstoff: Paprikaextrakt."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Marks & Spencer Vegetable Tikka",
+   "brand": "Marks & Spencer",
+   "price_eur": 6.29,
+   "unit_price_eur": 15.73,
+   "unit": "kg",
+   "size_g": 400.0,
+   "nutrition_100g": {
+    "kcal": 86.0,
+    "fat": 4.6,
+    "satfat": 2.0,
+    "carbs": 8.1,
+    "sugar": 2.9,
+    "protein": 2.0,
+    "salt": 0.53,
+    "fiber": 2.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/46181/46181-1764106858331.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Großbritannien",
+   "category": "Marks & Spencer > Fertiggerichte",
+   "source_url": "https://www.gurkerl.at/46181-marks-spencer-vegetable-tikka",
+   "source_id": "46181",
+   "fetched_at": "2026-10-13T02:06:21+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Tomaten (16%), Kartoffeln (12%), Kokosmilch (11%), Karotten (10%), grüne Bohnen (10%), rote Paprika (10%), Zwiebeln, Kichererbsen (10%), Tomatensaft, Rapsöl, Maisstärke, Knoblauchpüree, Ingwerpüree, gemahlene Gewürze (süßes Paprikapulver, Koriandersamen, Kreuzkümmelsamen, Kurkuma, Chili, Bockshornklee, Kardamom, Zimt, Koriander, schwarzer Pfeffer, Fenchelsamen, weißer Pfeffer, chinesischer Zimt, Nelken, Ingwer), Kokosraspeln (1%), Pilzkonzentrat, rote Chilischoten, Salz, Hefeextrakt, Farbstoff: Paprikaextrakt; konzentrierter Lauchsaft."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "HOFMANNs Hähnchen Erdnuss-Tikka (tiefgekühlt)",
+   "brand": "HOFMANNs",
+   "price_eur": 10.19,
+   "unit_price_eur": 16.44,
+   "unit": "kg",
+   "size_g": 620.0,
+   "nutrition_100g": {
+    "kcal": 144.0,
+    "fat": 6.0,
+    "satfat": 1.0,
+    "carbs": 14.0,
+    "sugar": 3.0,
+    "protein": 8.0,
+    "salt": 0.76,
+    "fiber": 0.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/29508/29508-1674051600819.jpg",
+   "producer": "Hofmann Menü-Manufaktur GmbH, Adelbert-Hofmann-Straße 6, 97944 Boxberg-Schweigern, Deutschland",
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Tiefkühlprodukte > Fertiggerichte > Traditionelles",
+   "source_url": "https://www.gurkerl.at/29508-hofmanns-haehnchen-erdnuss-tikka-tiefgekuehlt",
+   "source_id": "29508",
+   "fetched_at": "2026-10-13T02:06:21+00:00",
+   "extra": {
+    "ingredients": "Curry nach indischer Art, aus zarten Hähnchenbrustfleischstücken, grünen Bohnen, Zwiebeln, Mais und Erdnüssen, in unserer hauseigenen Erdnuss-Currysoße, dazu lockerer Basmati-Reis.\n\nZutaten: Basmati-Reis gegart, Hähnchenbrustfilet (Hähnchenbrustfilet, Stärke, Palmöl, jodiertes Speisesalz, Maisxylose, Dextrose, Maltodextrin, Glucosesirup, Säureregulator Natriumcitrat), Gemüse in veränderlichen Gewichtsanteilen (grüne Bohnen, Zwiebeln, Mais), Erdnussmus (geröstete, gemahlene Erdnusskerne), Tomaten, Tomatensaft, Zuckerrübensirup, Rapsöl, Gemüsefond (Gewürzextrakte, Tomatenmark, Gewürze, Trockenglucosesirup, Karottenextrakt, Tomatenpulver, Speisesalz, Branntweinessig), Kartoffelpüreeflocken (Kartoffeln, Emulgator Mono- und Diglyceride von Speisefettsäuren, Curcumaextrakt), Erdnüsse (Erdnusskerne, Erdnussöl, Speisesalz), jodiertes Speisesalz, Curry-Madras, Orangensaftkonzentrat, Knoblauch, Chili, Ingwer, Sesamkörner, Gewürzmischung Garam Masala (Petersilie, Knoblauch, Chili, Koriander, Cumin, Paprika, Cardamom, Bockshornklee, Muskatnuss, Lorbeerblätter, Nelken, Oregano).\n\nBei -18 °C lagern.\n\nKontakt: Hofmann Menü-Manufaktur GmbH, Adelbert-Hofmann-Straße 6, 97944 Boxberg-Schweigern, Deutschland\n"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Hähnchen Tikka Masala mit Safranreis von Mahavira Kanswala",
+   "brand": "Zatisi",
+   "price_eur": 10.49,
+   "unit_price_eur": 23.31,
+   "unit": "kg",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "kcal": 133.0,
+    "fat": 14.0,
+    "satfat": 8.1,
+    "carbs": 21.0,
+    "sugar": 0.3,
+    "protein": 10.0,
+    "salt": 0.8,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/44174/44174-1756113071567953498.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "EU",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Asiatisch- / Orientalische Küche",
+   "source_url": "https://www.gurkerl.at/44174-haehnchen-tikka-masala-mit-safranreis-von-mahavira-kanswala",
+   "source_id": "44174",
+   "fetched_at": "2026-10-13T02:06:21+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Entbeinte Hähnchenschenkel 47%, Basmati-Reis 22%, Joghurt [MILCH, MILCHEIWEISS, Joghurtkultur, Bifidobacterium BB12- und Lactobacillus acidophilus LA-Kultur (106/g)], gehackte Tomaten (Tomaten, Speisesalz), Tomatenmark, SAHNE, BUTTER, schwarzer Kardamom, Gewürzmischung Garam Masala (Koriandersamen, Kreuzkümmel, grüner Kardamom, schwarzer Kardamom, Sternanis, Lorbeerblatt, Zimt, Rosenblüten, Chili), Gewürzmischung Deggi Mirch (getrocknete Chilischoten), Zucker, Speisesalz, Safran 0,11%."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Feel Food BIO Tikka Masala",
+   "brand": "feelfood",
+   "price_eur": 4.19,
+   "unit_price_eur": 4.93,
+   "unit": "kg",
+   "size_g": 850.0,
+   "nutrition_100g": {
+    "kcal": 353.0,
+    "fat": 3.1,
+    "satfat": 0.5,
+    "carbs": 61.0,
+    "sugar": 8.8,
+    "protein": 16.0,
+    "salt": 2.9,
+    "fiber": 6.6
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/48529/48529-1781856041508757276.png",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Vorratsschrank > Fertiggerichte > Menüs & Dosengerichte",
+   "source_url": "https://www.gurkerl.at/48529-feel-food-bio-tikka-masala",
+   "source_id": "48529",
+   "fetched_at": "2026-10-13T02:06:21+00:00",
+   "extra": {
+    "ingredients": "Reis*, Sonnenblumenprotein-Chunks (18,2%)*, Tomatenpulver* (8,9%; davon 85% Tomatenmarkkonzentrat*, Maisstärke*),\nHaferdrinkpulver*(8,7%), Karottensafterzeugnis*(4,4%), Salz (2,8%), Röstzwiebeln*(1%), Knoblauchpulver*, Curry-Gewürzmischung* (enthält Senf)(Koriander*, Kreuzkümmel*, Kurkuma*, Knoblauch*, Paprika*, Zimt*, Bockshornkleesaat*, Ingwer*, Senfsaat*, Pfeffer*),Zwiebelpulver*, Kokosblütenzucker*, Schwarzkümmel ganz*, Paprikapulver edelsüß*, Garam Masala* (Koriander*, Bockshornkleesaat*, Kreuzkümmel*, Pfeffer*, Nelken*, Zimt*, Ingwer*, Anis*, Kümmel*, Knoblauch*), Ingwerpulver*, Kreuzkümmelpulver*, Chilipulver*, Kurkumapulver* *aus\nbiologischer Landwirtschaft"
+   }
+  }
+ ]
+}

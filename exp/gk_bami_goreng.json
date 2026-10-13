@@ -1,0 +1,70 @@
+{
+ "count": 2,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Frosta Wokpfanne Bami Goreng (tiefgekühlt)",
+   "brand": "Frosta",
+   "price_eur": 6.19,
+   "unit_price_eur": 12.38,
+   "unit": "kg",
+   "size_g": 500.0,
+   "nutrition_100g": {
+    "kcal": 95.0,
+    "fat": 1.7,
+    "satfat": 0.4,
+    "carbs": 12.2,
+    "sugar": 1.5,
+    "protein": 6.6,
+    "salt": 0.93,
+    "fiber": 1.9
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/28433/28433-1751538087531.jpg",
+   "producer": "Frosta Tiefkühlkost GmbH, Postfach 290364, DE 27533 Bremerhaven",
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Tiefkühlprodukte > Fertiggerichte > Internationales",
+   "source_url": "https://www.gurkerl.at/28433-frosta-wokpfanne-bami-goreng-tiefgekuehlt",
+   "source_id": "28433",
+   "fetched_at": "2026-10-13T02:06:06+00:00",
+   "extra": {
+    "ingredients": "Nudelgericht nach indonesischer Art mit marinierter gegarter Hühnerbrust. Tiefgefroren.\n\nZutaten: gegarte Bandnudeln (Wasser, HARTWEIZENGRIESS, HÜHNEREI) (34%), marinierte gegarte Hühnerbrust (Hühnerbrust, Sonnenblumenöl, Dextrose, Salz) (13%), rote Paprika, Champignons, grüne Paprika, Bambussprossen, Zwiebeln, Zuckermais, Jungzwiebeln, Mu-err-Pilze, Sojasauce (Wasser, SOJABOHNEN, WEIZEN, Salz), Sonnenblumenöl, Sambal (Wasser, Tomatenmark 36 % dreifach konzentriert, Salz, Paprika, Weingeistessig, Chili, Cayennepfeffer), Knoblauch, Salz, Koriander, Paprika, Kreuzkümmel, Cayennepfeffer, schwarzer Pfeffer.\n\nBei -18° lagern, nach dem Auftauen nicht wieder einfrieren.\n\nKontakt: Frosta Tiefkühlkost GmbH, Postfach 290364, DE 27533 Bremerhaven\n"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Every. Bami Goreng (tiefgekühlt)",
+   "brand": "Every.",
+   "price_eur": 9.19,
+   "unit_price_eur": 20.42,
+   "unit": "kg",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "kcal": 120.0,
+    "fat": 4.6,
+    "satfat": 0.7,
+    "carbs": 12.4,
+    "sugar": 1.8,
+    "protein": 6.1,
+    "salt": 0.57,
+    "fiber": 2.3
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/31606/31606-1752155975566.jpg",
+   "producer": "Kontakt: Every.GmbH, Paul-Lincke-Ufer 7C, 10999 Berlin",
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Tiefkühlprodukte > Fertiggerichte > Internationales",
+   "source_url": "https://www.gurkerl.at/31606-every-bami-goreng-tiefgekuehlt",
+   "source_id": "31606",
+   "fetched_at": "2026-10-13T02:06:06+00:00",
+   "extra": {
+    "ingredients": "Veganes Nudelgericht nach indonesischer Art. Tiefgefroren.\n\nZutaten: Gegarte Bandnudeln (Wasser, HARTWEIZENGRIEß) (35%), Paprika (für CH: Peperoni), gerupfte Zubereitung auf Basis von Pflanzenproteinen (Wasser, pflanzliches Protein (Erbsen, Sonnenblume, Hafer), Erbsenfasern, Rapsöl, Paprikapulver, Hefepulver, Knoblauchpulver, Zwiebelpulver, Bockshornkleesamen, Vitamin B12) (13%), Mu-err-Pilze (für CH: Vielhaariges Judasohr), Karotten, Pak Choi, Zwiebeln, Sonnenblumenöl, Sojasauce (Wasser, SOJABOHNEN, WEIZEN, Speisesalz), Frühlingszwiebeln, Knoblauch, Stärke (Kartoffel, Reis), Koriander, Paprikapulver, Tomatenmark 36% dreifach konzentriert, Cayennepfeffer, schwarzer Pfeffer, Salz, Branntweinessig (für AT: Weingeistessig, für CH: Alkoholessig), Chili.\n\n\nBei -18°C lagern.\n\nIN DER PFANNE OHNE DECKEL (EMPFOHLEN):\nMit 2-4 EL Öl auf hoher Hitze für 7-9 Minuten garen. Regelmäßig umrühren.\nIN DER MIKROWELLE:\nIn der Mikrowelle für ca. 7-9 Minuten bei 800 Watt mit 2 EL Öl und 2 EL Wasser erhitzen, bis alle Zutaten gar sind. Häufig umrühren.\n\nKontakt: Kontakt: Every.GmbH, Paul-Lincke-Ufer 7C, 10999 Berlin"
+   }
+  }
+ ]
+}

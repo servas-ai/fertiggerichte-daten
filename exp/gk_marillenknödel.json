@@ -1,0 +1,134 @@
+{
+ "count": 4,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Iglo 8 Marillenknödel mit ganzer Marille ohne Kern (tiefgekühlt)",
+   "brand": "Iglo",
+   "price_eur": 7.29,
+   "unit_price_eur": 13.75,
+   "unit": "kg",
+   "size_g": 530.0,
+   "nutrition_100g": {
+    "kcal": 184.0,
+    "fat": 1.3,
+    "satfat": 0.2,
+    "carbs": 35.0,
+    "sugar": 17.0,
+    "protein": 6.2,
+    "salt": 0.41,
+    "fiber": 1.9
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/5899/5899-1681391398253.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "EU",
+   "category": "Tiefkühlprodukte > Mehlspeisen > Warme Mehlspeisen & Süße Knödel",
+   "source_url": "https://www.gurkerl.at/5899-iglo-8-marillenknoedel-mit-ganzer-marille-ohne-kern-tiefgekuehlt",
+   "source_id": "5899",
+   "fetched_at": "2026-10-13T02:06:50+00:00",
+   "extra": {
+    "ingredients": "Marillenknödel aus Topfenteig mit Marillen ohne Kern, mit Brösel-Zucker-Gemisch, tiefgekühlt\n\nZutaten: Teig: davon TOPFEN 46 %, WEIZENMEHL, Wasser, Semmelwürfel (WEIZENMEHL, Wasser, Hefe, Salz, WEIZENMALZMEHL, WEIZENGLUTEN), Zucker, EI, Speisesalz jodiert (Salz, Kaliumjodat). Fülle (Marille mit Zuckerkern 33 %): davon Marille 91 %, Zucker. Brösel-Zucker-Gemisch (15 %): aus WEIZENMEHL, Zucker, Sonnenblumenöl, Salz, Hefe. Kann Spuren von NÜSSEN und SCHALENFRÜCHTEN enthalten.\n"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Eissalon am Schwedenplatz Marillenknödel Eis (tiefgekühlt)",
+   "brand": "Eissalon am Schwedenplatz",
+   "price_eur": 5.19,
+   "unit_price_eur": 18.54,
+   "unit": "kg",
+   "size_g": 280.0,
+   "nutrition_100g": {
+    "kcal": 264.0,
+    "fat": 13.3,
+    "satfat": 9.7,
+    "carbs": 34.0,
+    "sugar": 27.0,
+    "protein": 2.0,
+    "salt": 0.06,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/32254/32254-1707907093572.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Tiefkühlprodukte > Eis > Eisbecher",
+   "source_url": "https://www.gurkerl.at/32254-eissalon-am-schwedenplatz-marillenknoedel-eis-tiefgekuehlt",
+   "source_id": "32254",
+   "fetched_at": "2026-10-13T02:06:50+00:00",
+   "extra": {
+    "ingredients": "Marillenknödel-Eis\n\nZutaten: SAUERRAHM, Zucker, Wasser, Glukosesirup, Marillenkonfitüre (Marillen, Zucker, Zitronensaftkonzentrat, Gliermittel: Pektin), Dextrose, Kokosfett, Haselnusswaffelbrösel (HASELNÜSSE geröstet, WEIZENMEHL, Zucker, Maisstärke, Kokosfett ungehärtet, Emulator: Lecithine, Salz, Trennmittel: E504, Farbstoff: Karamell), Butterkeks (WEICHWEIZENMEHL, Zucker, VOLLMILCH, 4,5% BUTTER, pflanzliche Öle und Fette (Kokosnuss, Sonnenblumen), natürlicher Olivenextrakt), pflanzliche Öle und Fette (Kokosnuss, Sonnenblumenöl mit hohem Fettsäuregehalt, Kakao), Zucker, MAGERMILCHPULVER, MANDELN, Glukosesirup, Aromen, BUTTER, MAGERMILCHPULVER, Stabilisatoren: Johannisbrotkernmehl, Guarkernmehl, Carrageeen, Emulgator: E420, E471; natürliches Orangenaroma."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Polly's Marillen-Eisknödel (tiefgekühlt)",
+   "brand": "Polly´s",
+   "price_eur": 8.29,
+   "unit_price_eur": 18.18,
+   "unit": "kg",
+   "size_g": 456.0,
+   "nutrition_100g": {
+    "kcal": 230.0,
+    "fat": 8.0,
+    "satfat": 2.6,
+    "carbs": 35.0,
+    "sugar": 33.0,
+    "protein": 4.0,
+    "salt": null,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/26092/26092-1653287019140.jpg",
+   "producer": "Erich Polly Speiseeiserzeugung GmbH, 1200 Wien, Friedrich Engels Platz 20",
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Tiefkühlprodukte > Eis > Eisdesserts",
+   "source_url": "https://www.gurkerl.at/26092-polly-s-marillen-eisknoedel-tiefgekuehlt",
+   "source_id": "26092",
+   "fetched_at": "2026-10-13T02:06:50+00:00",
+   "extra": {
+    "ingredients": "Marilleneisknödel in feiner Panade mit nussigem Geschmack.\n\nZutaten: \"Eis: [Wasser, Zucker, Marillenmark (19%), MAGERMILCHPULVER, Kokosfett (ganz gehärtet), pflanzliche Öle (Palm, Raps), Honig, Säuerungsmittel (Citronensäure), Stabilisatoren (Guarkernmehl, Johannisbrotkernmehl, Carrageen), Aroma] Panade: [Paniermehl (WEIZENMEHL, Hefe, Zucker, Speisesalz), geröstetes Paniermehl\n(WEIZENMEHL, Zucker, SÜSSMOLKEPULVER, Speisesalz, geröstete HASELNÜSSE,\nKaramellzucker, natürliches Aroma, Rapsöl)]\"\n\nTiefgekühlt bei mind. -18°C lagern.\n\nKontakt: Erich Polly Speiseeiserzeugung GmbH, 1200 Wien, Friedrich Engels Platz 20\n"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Heindl Marillentaler",
+   "brand": "Heindl",
+   "price_eur": 8.19,
+   "unit_price_eur": 46.8,
+   "unit": "kg",
+   "size_g": 175.0,
+   "nutrition_100g": {
+    "kcal": 451.0,
+    "fat": 21.7,
+    "satfat": 8.8,
+    "carbs": 54.4,
+    "sugar": 53.2,
+    "protein": 6.5,
+    "salt": 0.06,
+    "fiber": 0.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/3197/3197-1603224488647.jpg",
+   "producer": "Walter Heindl GmbH, Willendorfergasse 2-8, 1230 Wien, Österreich",
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Süßes & Salziges > Schokolade > Schoko-Knabber",
+   "source_url": "https://www.gurkerl.at/3197-heindl-marillentaler",
+   "source_id": "3197",
+   "fetched_at": "2026-10-13T02:06:50+00:00",
+   "extra": {
+    "ingredients": "Vollmilch-Schokolade mit Marillenfüllung (19%) auf feinstem Marzipanboden (44%) Zutaten: 28% Vollmilch-Schokolade (Zucker, VOLLMILCHPULVER, Kakaomasse, Kakaobutter, MILCHZUCKER, Emulgator: SOJALECITHINE), Zucker, 15% MANDELN, 12% getrocknete Marillen, Trinkwasser, Glukosesirup, Kakaomasse, Invertzuckersirup, Palm- und Palmkernöl, Marillenbrand 60 %vol., Kakaobutter, Aroma, MILCHZUCKER, Säuerungsmittel: Citronensäure, Säureregulator: Kaliumtartrat, Emulgator: SOJALECITHINE. Kakao: 35% mindestens in der Vollmilch-Schokolade. Milchtrockenmasse: 20% mindestens in der Vollmilch-Schokolade. Kann Spuren von anderen Schalenfrüchten (HASELNÜSSE, WALNÜSSE, PISTAZIEN und CASHEWS), GLUTEN und EI enthalten.\n\nVor Wärme geschützt und trocken lagern.\n\nProduzent: Walter Heindl GmbH, Willendorfergasse 2-8, 1230 Wien, Österreich"
+   }
+  }
+ ]
+}

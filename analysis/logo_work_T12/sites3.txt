@@ -1,0 +1,17 @@
+hammermuehle|https://www.hammermuehle-shop.de/
+hammermuehle2|https://www.hammermuehle-shop.de/ueber-uns/
+strauss|https://www.strauss.tirol/
+amlacher|https://amlacher-nudeln.at/
+amlacher2|https://www.amlacher-nudeln.at/
+cecchin|https://cecchinpasta.it/
+stangl|https://www.stangl.at/
+ackerl|https://www.ackerl.at/
+rias|https://www.riance.com/
+rians2|https://www.riance.fr/
+landtmann|https://www.landtmann.at/
+della-mamma|https://www.heiderbeck.com/
+casa-di-pietro|https://www.heiderbeck.de/
+franksoup|https://www.franksoup.at/
+wiener|https://www.bs-gastro.at/
+suedtiroler|https://www.suedtiroler-kochwerk.com/
+dmbio-press|https://www.dm.de/unternehmen/presse/

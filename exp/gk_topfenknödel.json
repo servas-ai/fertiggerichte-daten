@@ -1,0 +1,102 @@
+{
+ "count": 3,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Iglo Mohn-Topfenknödel (tiefgekühlt)",
+   "brand": "Iglo",
+   "price_eur": 6.19,
+   "unit_price_eur": 16.51,
+   "unit": "kg",
+   "size_g": 375.0,
+   "nutrition_100g": {
+    "kcal": 270.0,
+    "fat": 8.9,
+    "satfat": 3.0,
+    "carbs": 34.0,
+    "sugar": 22.0,
+    "protein": 12.0,
+    "salt": 0.34,
+    "fiber": 2.9
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/36238/36238-1729849766574.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Tiefkühlprodukte > Mehlspeisen > Warme Mehlspeisen & Süße Knödel",
+   "source_url": "https://www.gurkerl.at/36238-iglo-mohn-topfenknoedel-tiefgekuehlt",
+   "source_id": "36238",
+   "fetched_at": "2026-10-13T02:06:53+00:00",
+   "extra": {
+    "ingredients": "Mohn-Topfenknödel mit Mohn-Zucker-Gemisch, 6 Stück, tiefgekühlt\n\nZutaten: Knödelteig (59%): davon MAGERTOPFEN (56%), Semmelbrösel\n(WEIZENMEHL, Hefe, Salz), WEIZENGRIESS, Zucker, Margarine\n(Kokosfett, Wasser, Sonnenblumenöl, Emulgator: Mono- und Diglyceride von Speisefettsäuren, Zitronensaftkonzentrat), EIDOTTERPULVER, Wasser, Stärke, VOLLEIPULVER, Salz, Zitronensaftkonzentrat.\n\nKnödelfüllung (21%): davon MAGERTOPFEN (57%), Mohn (23%), Zucker.\nMohn-Zucker-Gemisch (20%): davon Zucker, Mohn (35%).\n\nHinweise für die Aufbewahrung zu Hause: Entweder sofort zubereiten oder bei -18°C lagern. \nMindestens haltbar bis: siehe Verpackung."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Landtmann's Original flaumige Topfenknödel (tiefgekühlt)",
+   "brand": "Landtmann's",
+   "price_eur": 9.39,
+   "unit_price_eur": 33.54,
+   "unit": "kg",
+   "size_g": 280.0,
+   "nutrition_100g": {
+    "kcal": 171.0,
+    "fat": 0.5,
+    "satfat": 0.18,
+    "carbs": 39.6,
+    "sugar": 16.39,
+    "protein": 1.2,
+    "salt": 0.026,
+    "fiber": 2.8
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/13456/13456-1619070440572.jpg",
+   "producer": "Landtmann´s feine Patisserie, Altmannsdorfer Straße 154-156, 1230 Wien, +43 1 24 100 – 567, patisserie@landtmann.at",
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Tiefkühlprodukte > Mehlspeisen > Warme Mehlspeisen & Süße Knödel",
+   "source_url": "https://www.gurkerl.at/13456-landtmann-s-original-flaumige-topfenknoedel-tiefgekuehlt",
+   "source_id": "13456",
+   "fetched_at": "2026-10-13T02:06:53+00:00",
+   "extra": {
+    "ingredients": "Topfenteig mit Mandel-Bröseln umhüllt und Zwetschkenröster.\n\nZutaten: Zwetschken, Topfen 20% Fett i. Tr., Zucker, Rotwein, SAUERRAHM, Orangensaft, WEIZENGRIEß, SEMMELBRÖSEL (WEIZENMEHL, Wasser, Hefe, Salz), BUTTER, MANDELN, SEMMELWÜRFEL (WEIZENMEHL, Wasser, Hefe, Salz, pflanzliches Öl), Vanillinzucker (Zucker, Vanille), Maisstärke, DOTTER, Cremepulver (Stärke, Vanillin), HÜHNEREIWEIß, Orangenpüree, Zimt, Salz, Bourbon Vanille\n\nTiefgekühlt (bei mindestens -18°C) lagern.\n\nKontakt: Landtmann´s feine Patisserie, Altmannsdorfer Straße 154-156, 1230 Wien, +43 1 24 100 – 567, patisserie@landtmann.at\n"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Misssi Alpeneis EisDessert Marillen-Topfenknödel (tiefgekühlt)",
+   "brand": "Misssi",
+   "price_eur": 6.79,
+   "unit_price_eur": 34.82,
+   "unit": "kg",
+   "size_g": 195.0,
+   "nutrition_100g": {
+    "kcal": 247.0,
+    "fat": 10.19,
+    "satfat": 2.51,
+    "carbs": 33.53,
+    "sugar": 33.47,
+    "protein": 4.97,
+    "salt": 0.1,
+    "fiber": 0.87
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/30262/30262-1683268132762.jpg",
+   "producer": "Misssi Eis GmbH & Co KG, Pfaffing 42, 5760 Saalfelden.",
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Tiefkühlprodukte > Eis > Eisbecher",
+   "source_url": "https://www.gurkerl.at/30262-misssi-alpeneis-eisdessert-marillen-topfenknoedel-tiefgekuehlt",
+   "source_id": "30262",
+   "fetched_at": "2026-10-13T02:06:53+00:00",
+   "extra": {
+    "ingredients": "Misssi EisDessert Marillen-Topfenknödel\n\nZutaten: 27% BIO TOPFEN(20%), Zucker, BIO MILCH mit natürlichem Fettgehalt, 14% Marillen, Traubenzucker, HASELNÜSSE, Weisse Schokolade (Zucker, Kakaobutter, VOLLMILCHPULVER, Emulgator: Lecithine (SOJA), natürliches Vanillearoma), BIO TEEBUTTER, 2% Rum (alc 38% vol), Zitronensaft, Milchschokolade (Zucker, Kakaobutter, VOLLMILCHPULVER, Kakaomasse, Emulgator: Lecithine (SOJA), natürliches Vanillearoma), Geliermittel(Apfelpektin), Verdickungsmittel (Johannisbrotkernmehl, Guarkernmehl), Salz. 43% aus biologischer Landwirtschaft.\n\nBei -18°C lagern.\nFür 100% Genuss ein paar Minuten bei Zimmertemperatur antauen lassen\n\nBio-Kontrollstellennummer: AT-BIO-501\n\nKontakt: Misssi Eis GmbH & Co KG, Pfaffing 42, 5760 Saalfelden.\n"
+   }
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "indomie": {
+  "file": "cand/wd_indomie.jpg",
+  "commons": "Indomie Mie Goreng Iga Penyet 1.JPG",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Indomie_Mie_Goreng_Iga_Penyet_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "license": "CC BY-SA 3.0",
+  "size": [
+   1701,
+   1326
+  ]
+ },
+ "arla": {
+  "file": "cand/wd_arla.jpg",
+  "commons": "Arlaflag ved Arla Friskvareterminal Ish\u00f8j.JPG",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Arlaflag_ved_Arla_Friskvareterminal_Ish%C3%B8j.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "license": "CC BY-SA 3.0",
+  "size": [
+   3264,
+   2448
+  ]
+ },
+ "galbani": {
+  "file": "cand/wd_galbani.png",
+  "commons": "LogoGalbani-06122021.png",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/LogoGalbani-06122021.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "license": "CC BY-SA 4.0",
+  "size": [
+   914,
+   653
+  ]
+ },
+ "findus": {
+  "file": "cand/wd_findus.jpg",
+  "commons": "Mid 20th century Findus Bjuv Sweden orange marmalade 450 g cardboard container.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Mid_20th_century_Findus_Bjuv_Sweden_orange_marmalade_450_g_cardboard_container.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "license": "CC BY 4.0",
+  "size": [
+   1960,
+   3384
+  ]
+ },
+ "thiriet": {
+  "file": "cand/wd_thiriet.pdf",
+  "commons": "Vertebral artery fusiform aneurysm geometry in predicting rupture risk.pdf",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Vertebral_artery_fusiform_aneurysm_geometry_in_predicting_rupture_risk.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "license": "CC BY 4.0",
+  "size": [
+   1085,
+   1575
+  ]
+ }
+}

@@ -1,0 +1,326 @@
+{
+ "count": 10,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Della Mamma Pistazien Tiramisu",
+   "brand": "Della Mamma",
+   "price_eur": 4.69,
+   "unit_price_eur": 46.9,
+   "unit": "kg",
+   "size_g": 100.0,
+   "nutrition_100g": {
+    "kcal": 367.0,
+    "fat": 26.0,
+    "satfat": 13.0,
+    "carbs": 30.0,
+    "sugar": 23.0,
+    "protein": 3.7,
+    "salt": 0.3,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/37609/37609-1733324990355.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Kühlregal > Joghurt & Desserts > Desserts",
+   "source_url": "https://www.gurkerl.at/37609-della-mamma-pistazien-tiramisu",
+   "source_id": "37609",
+   "fetched_at": "2026-10-13T02:07:13+00:00",
+   "extra": {
+    "ingredients": "Dessert mit Mascarponecreme und Pistazien. Aufgetaut.\n\nZutaten: SAHNE, Zucker, VOLLEI, 12% MASCARPONE, Wasser, WEIZENMEHL, Sonnenblumenöl, 4,3% PISTAZIEN, WEIZENSTÄRKE, Kakaobutter, Kakao, Pflanzenfaser, Salz, modifizierte Stärken, SÜSSMOLKENPULVER, Dextrose, MAGERMILCHPULVER, Kokosöl, Emulgator: SOJALECITHIN, Antioxidationsmittel: Tocopherol, Verdickungsmittel: Natriumalginat, Glukosesirup, Stabilisatoren: Sorbit, Calciumsulfat, Diphosphate; Färbendes Lebensmittel: Karottenextrakt, natürliche Aromen, Emulgatoren: Mono-/ Diglyceride und Polyglycerinester von Speisefettsäuren, Säuerungsmittel: Diphosphate, Backtriebmittel: Natriumcarbonate, Maisstärke.\n\nBei +4°C bis +7°C mindestens haltbar bis: siehe Druck seitlich."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Della Mamma Tiramisu klassik",
+   "brand": "Della Mamma",
+   "price_eur": 4.09,
+   "unit_price_eur": 40.9,
+   "unit": "kg",
+   "size_g": 100.0,
+   "nutrition_100g": {
+    "kcal": 268.0,
+    "fat": 16.0,
+    "satfat": 10.0,
+    "carbs": 27.0,
+    "sugar": 20.0,
+    "protein": 2.9,
+    "salt": 0.24,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/37608/37608-1733324888970.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Kühlregal > Joghurt & Desserts > Desserts",
+   "source_url": "https://www.gurkerl.at/37608-della-mamma-tiramisu-klassik",
+   "source_id": "37608",
+   "fetched_at": "2026-10-13T02:07:13+00:00",
+   "extra": {
+    "ingredients": "Dessert nach italienischer Art mit Mascarponecreme. Aufgetaut.\n\nZutaten: SAHNE, Zucker, Wasser, VOLLEI, 10% MASCARPONE, WEIZENMEHL, WEIZENSTÄRKE, 1,5% Kakao, 0,8% Kaffee, modifizierte Stärken, Dextrose, SÜSSMOLKENPULVER, MAGERMILCHPULVER, Geliermittel: Natriumalginat, Glukosesirup, pflanzliches Fett (Palm, Kokos), natürliche Aromen, Salz, Backtriebmittel: Natriumcarbonate, Stabilisatoren: Sorbit, Calciumsulfat, Diphosphate; Emulgatoren: Mono-/Diglyceride und Polyglycerinester von Speisefettsäuren.\n\nBei +4°C bis +7°C mindestens haltbar bis: siehe Druck seitlich."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "The Green Garden & gurkerl.at Amaretto amore tiramisu VEGAN",
+   "brand": "The Green Garden",
+   "price_eur": 3.79,
+   "unit_price_eur": 31.58,
+   "unit": "kg",
+   "size_g": 120.0,
+   "nutrition_100g": {
+    "kcal": 294.0,
+    "fat": 14.6,
+    "satfat": 7.1,
+    "carbs": 36.7,
+    "sugar": 22.5,
+    "protein": 2.7,
+    "salt": 0.0,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/38141/38141-1737458667262.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "EU",
+   "category": "Kühlregal > Joghurt & Desserts > Desserts",
+   "source_url": "https://www.gurkerl.at/38141-the-green-garden-gurkerl-at-amaretto-amore-tiramisu-vegan",
+   "source_id": "38141",
+   "fetched_at": "2026-10-13T02:07:13+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Kekse 53% [Trinkwasser, Weizenmehl, Zucker, Sonnenblumenöl, Vanillezucker (Zucker, Bourbon-Vanilleextrakt), fermentierter alkoholischer Essig (fermentierter alkoholischer Essig, Trinkwasser, Farbstoff: Ammoniak-Karamell), Backnatron (Natriumbicarbonat)], Sahne 42% [pflanzliche Kochsahne (Linseneiweißzubereitung (Trinkwasser, Linseneiweiß 1%), Kokosfett, Rapsöl, Zucker, modifizierte Maisstärke, Emulgatoren: Sonnenblumenlecithin, Zuckerester mit Fettsäuren, Mono- und Diglyceride von Speisefettsäuren; Stabilisatoren: Guarkernmehl, Speisesalz, Farbstoff: Mascarpone 22% (Trinkwasser, gehärtetes Kokosfett 8%, Kartoffelstärke), Maltodextrin, Reispulver (getrockneter Reissirup, Reisstärke), Kartoffeleiweiß, Verdickungsmittel: Johannisbrotmehl; Emulgator: Mono- und Diglyceride von Speisefettsäuren; Aroma, Säuerungsmittel: Zitronensäure], Kaffee mit Likör 5% [Kaffee, Amaretto-Likör 14. 4% (Trinkwasser, Alkohol, Zucker, Aroma, Farbstoff: Ammoniaksulfit-Karamell)]\n\nÜbersetzt mit DeepL.com (kostenlose Version)"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Stabinger Tiramisu Schnitte",
+   "brand": "Stabinger",
+   "price_eur": 2.99,
+   "unit_price_eur": 29.9,
+   "unit": "kg",
+   "size_g": 100.0,
+   "nutrition_100g": {
+    "kcal": 234.0,
+    "fat": 14.0,
+    "satfat": 11.0,
+    "carbs": 23.0,
+    "sugar": 14.0,
+    "protein": 4.1,
+    "salt": 0.15,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/47367/47367-1773320486181483098.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Italien",
+   "category": "Brot & Gebäck > Konditorei, Kuchen & Stollen",
+   "source_url": "https://www.gurkerl.at/47367-stabinger-tiramisu-schnitte",
+   "source_id": "47367",
+   "fetched_at": "2026-10-13T02:07:13+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Wasser, MASCARPONE 13% (EU), VOLLEI, Zucker, WEIZENMEHL, pflanzliche Fette [Palm, Kokos], Kaffee 3,5% (EU), Dextrose, Kakaopulver 1% (EU), Glukose-Fruktose-Sirup, Speisegelatine, MILCHEIWEISS, Stärke, WEIZENSTÄRKE, Emulgatoren: Mono- und Diglyceride von Speisefettsäuren, Mono- und Diacetylweinsäurester von Mono- und Diglyceriden von Speisefettsäuren, Lecithin (SOJA); Stabilisatoren: Sorbit, Hydroxypropylcellulose; Konservierungsstoffe: Sorbinsäure, Kaliumsorbat; Farbstoff: Carotin; Aromen, Salz. Kann Spuren von SCHALENFRÜCHTEN und ERDNÜSSEN enthalten."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Lotus Biscoff Karamellgebäck Kekse",
+   "brand": "Lotus",
+   "price_eur": 2.29,
+   "unit_price_eur": 11.45,
+   "unit": "kg",
+   "size_g": 200.0,
+   "nutrition_100g": {
+    "kcal": 484.0,
+    "fat": 19.0,
+    "satfat": 8.8,
+    "carbs": 72.9,
+    "sugar": 38.1,
+    "protein": 4.9,
+    "salt": 0.92,
+    "fiber": 1.3
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/38022/38022-1737030160016.jpg",
+   "producer": "Lotus Bakeries Austria GmbH, Fleischmarkt 1/6/12, 1010 Wien",
+   "producer_id": null,
+   "origin": "Belgien",
+   "category": "Süßes & Salziges > Kekse & Waffeln > Kekse",
+   "source_url": "https://www.gurkerl.at/38022-lotus-biscoff-karamellgebaeck-kekse",
+   "source_id": "38022",
+   "fetched_at": "2026-10-13T02:07:13+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Weizenmehl - Zucker - pflanzliche Öle (Palm, Raps) - Kandissirup - Backtriebmittel (Natriumhydrogencarbonat) - Sojamehl - Salz - Zimt\n\nKühl und trocken lagern\n\nKontakt: Lotus Bakeries Austria GmbH, Fleischmarkt 1/6/12, 1010 Wien"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Schärdinger Mascarino 85%",
+   "brand": "Schärdinger",
+   "price_eur": 4.39,
+   "unit_price_eur": 8.78,
+   "unit": "kg",
+   "size_g": 500.0,
+   "nutrition_100g": {
+    "kcal": 413.0,
+    "fat": 43.0,
+    "satfat": 28.0,
+    "carbs": 2.5,
+    "sugar": 2.5,
+    "protein": 4.0,
+    "salt": 0.1,
+    "fiber": 0.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/36652/36652-1730962683483.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Milch & Milchprodukte > Rahm, Obers & Topfen",
+   "source_url": "https://www.gurkerl.at/36652-schaerdinger-mascarino-85",
+   "source_id": "36652",
+   "fetched_at": "2026-10-13T02:07:13+00:00",
+   "extra": {
+    "ingredients": "Rahmschotten 85% Fett i.Tr., aus pasteurisierter Milch\n\nZutaten: RAHM, MAGERMILCH, Säuerungsmittel Citronensäure\n\nVor und nach dem Öffnen gekühlt bei 3-6°C lagern. Nach dem Öffnen innerhalb weniger Tage verbrauchen."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Lavazza Cappuccino Tiramisu",
+   "brand": "Müller",
+   "price_eur": 2.89,
+   "unit_price_eur": 13.14,
+   "unit": "l",
+   "size_g": 220.0,
+   "nutrition_100g": {
+    "kcal": 73.0,
+    "fat": 2.8,
+    "satfat": 1.8,
+    "carbs": 8.7,
+    "sugar": 8.1,
+    "protein": 3.1,
+    "salt": 0.2,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/48132/48132-1779871456455546397.JPEG",
+   "producer": "Molkerei Alois Müller GmbH & Co. KG Zollerstraße 7, D-86850 Aretsried, +49 8236 999 8600, www.muellermilch.de",
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Kühlregal > Milch & Milchprodukte > Eiskaffeegetränke",
+   "source_url": "https://www.gurkerl.at/48132-lavazza-cappuccino-tiramisu",
+   "source_id": "48132",
+   "fetched_at": "2026-10-13T02:07:13+00:00",
+   "extra": {
+    "ingredients": "Zutaten: 75% VOLLMILCH, 20% Kaffeezubereitung (Wasser, 2,5%* flüssiger Robusta-Kaffee-Extrakt**, 0,4%* Arabica-Kaffee-Extrakt**), Zucker, 0,2% fettarmer Kakao**, Säureregulator: Natriumphosphate, Stabilisatoren: Carrageen, Gellan; natürliche Aromen. *im Endprodukt **Rainforest Alliance-zertifiziert.\n\nKontakt: Molkerei Alois Müller GmbH & Co. KG Zollerstraße 7, D-86850 Aretsried, +49 8236 999 8600, www.muellermilch.de"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Manner Biskotten",
+   "brand": "Manner",
+   "price_eur": 2.99,
+   "unit_price_eur": 14.95,
+   "unit": "kg",
+   "size_g": 200.0,
+   "nutrition_100g": {
+    "kcal": 392.0,
+    "fat": 4.4,
+    "satfat": 1.6,
+    "carbs": 78.0,
+    "sugar": 48.0,
+    "protein": 9.5,
+    "salt": 0.1,
+    "fiber": 0.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/4801/4801-1604385182.jpg",
+   "producer": "Josef Manner & Comp. AG, Wilhelminenstraße 6, 1170 Wien, Österreich",
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Süßes & Salziges > Kekse & Waffeln",
+   "source_url": "https://www.gurkerl.at/4801-manner-biskotten",
+   "source_id": "4801",
+   "fetched_at": "2026-10-13T02:07:13+00:00",
+   "extra": {
+    "ingredients": "Kühl und trocken lagern\n\nEierbiskotten\nZutaten: Zucker, WEIZENMEHL, VOLLEI (31%), Glukose-Fruktosesirup, natürliches Aroma.\n\nProduzent: Josef Manner & Comp. AG, Wilhelminenstraße 6, 1170 Wien, Österreich"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Schärdinger Mascarino 21% leicht",
+   "brand": "Schärdinger",
+   "price_eur": 4.39,
+   "unit_price_eur": 8.78,
+   "unit": "kg",
+   "size_g": 500.0,
+   "nutrition_100g": {
+    "kcal": 250.0,
+    "fat": 22.0,
+    "satfat": 15.0,
+    "carbs": 7.0,
+    "sugar": 5.0,
+    "protein": 6.0,
+    "salt": 0.15,
+    "fiber": 0.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/3842/3842-1699859922130.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Milch & Milchprodukte > Rahm, Obers & Topfen",
+   "source_url": "https://www.gurkerl.at/3842-schaerdinger-mascarino-21-leicht",
+   "source_id": "3842",
+   "fetched_at": "2026-10-13T02:07:13+00:00",
+   "extra": {
+    "ingredients": "Leichte* Rahmschotten-Zubereitung 60 % Fett im Trockenen, fettreduziert*, aus\npasteurisierter Milch. Dieses Produkt ist zum direkten Verzehr geeignet.\n\nZutaten: MAGERMILCH, RAHM, MAGERMILCHPULVER, MOLKENEIWEISS, Säuerungsmittel Citronensäure, Gelatine, modifizierte\nStärke, Verdickungsmittel Johannisbrotkernmehl, Xanthan. *Enthält um 49 % weniger Fett als herkömmlicher Rahmschotten\nmit 85 % Fett i. Tr.\n"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Miil Mascarpone",
+   "brand": "Miil",
+   "price_eur": 1.99,
+   "unit_price_eur": 7.96,
+   "unit": "kg",
+   "size_g": 250.0,
+   "nutrition_100g": {
+    "kcal": 401.0,
+    "fat": 41.0,
+    "satfat": 28.0,
+    "carbs": 2.5,
+    "sugar": 2.5,
+    "protein": 5.6,
+    "salt": 0.08,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/39980/39980-1741598884761.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "EU",
+   "category": "Kühlregal > Milch & Milchprodukte > Rahm, Obers & Topfen",
+   "source_url": "https://www.gurkerl.at/39980-miil-mascarpone",
+   "source_id": "39980",
+   "fetched_at": "2026-10-13T02:07:13+00:00",
+   "extra": {
+    "ingredients": "Mascarpone - Frischkäse, Doppelrahmstufe. Pasteurisiert.\n\nZutaten: Pasteurisierte SAHNE, Säuerungsmittel: Citronensäure.\n\nBei unter 7°C lagern. Nach dem Öffnen im Kühlschrank aufbewahren und innerhalb von 2 Tagen verbrauchen. "
+   }
+  }
+ ]
+}

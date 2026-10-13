@@ -1,0 +1,21 @@
+{
+ "added": 63,
+ "total_more_meals": 146,
+ "images_ok_new": 63,
+ "new_counts": {
+  "nut_filled": 0,
+  "ean_filled": 0,
+  "pid_filled": 1,
+  "manuf_filled": 0,
+  "img_filled": 0,
+  "nut_rejected": 6
+ },
+ "existing_fills": {
+  "nut_filled": 0,
+  "ean_filled": 18,
+  "pid_filled": 0,
+  "manuf_filled": 0,
+  "img_filled": 0,
+  "nut_rejected": 6
+ }
+}

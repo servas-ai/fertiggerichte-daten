@@ -1,0 +1,1514 @@
+[
+ {
+  "id": "https://www.interspar.at/p/5246021",
+  "name": "Felix Chili con Carne",
+  "field": "price_eur",
+  "old": 6.49,
+  "new": 3.49,
+  "reason": "heisse-preise spar id 5246021 current price (last change 2026-05-19)"
+ },
+ {
+  "id": "https://www.interspar.at/p/5246021",
+  "name": "Felix Chili con Carne",
+  "field": "size_g",
+  "old": 800,
+  "new": 400,
+  "reason": "heisse-preise quantity"
+ },
+ {
+  "id": "https://www.interspar.at/p/7181290",
+  "name": "Felix Erdäpfelgulasch",
+  "field": "price_eur",
+  "old": 6.49,
+  "new": 3.49,
+  "reason": "heisse-preise spar id 7181290 current price (last change 2026-05-19)"
+ },
+ {
+  "id": "https://www.interspar.at/p/7181290",
+  "name": "Felix Erdäpfelgulasch",
+  "field": "size_g",
+  "old": 800,
+  "new": 400,
+  "reason": "heisse-preise quantity"
+ },
+ {
+  "id": "https://www.interspar.at/p/624329",
+  "name": "Inzersdorfer Suppentopf Bohnensuppe",
+  "field": "price_eur",
+  "old": 2.99,
+  "new": 4.79,
+  "reason": "heisse-preise spar id 624329 current price (last change 2024-02-13)"
+ },
+ {
+  "id": "https://www.interspar.at/p/624329",
+  "name": "Inzersdorfer Suppentopf Bohnensuppe",
+  "field": "size_g",
+  "old": 400,
+  "new": 800,
+  "reason": "heisse-preise quantity"
+ },
+ {
+  "id": "https://www.interspar.at/p/3195413",
+  "name": "Menes Curry süß",
+  "field": "is_meal",
+  "old": true,
+  "new": false,
+  "reason": "not a ready meal (drink/sausage/spice/raw ingredient/dip/sweet)"
+ },
+ {
+  "id": "https://www.interspar.at/p/7274879",
+  "name": "SPAR Natur*pur Bio-Kartoffelteig für 2 x 10 Knödel",
+  "field": "price_eur",
+  "old": 2.49,
+  "new": 2.79,
+  "reason": "heisse-preise spar id 7274879 current price (last change 2024-01-23)"
+ },
+ {
+  "id": "SPAR PREMIUM Edition Johanna Maier Ravioli Bufala mit Büffelmilch-Ricotta & Spinat",
+  "name": "SPAR PREMIUM Edition Johanna Maier Ravioli Bufala mit Büffelmilch-Ricotta & Spinat",
+  "field": "is_meal",
+  "old": false,
+  "new": false,
+  "reason": "not a ready meal (drink/sausage/spice/raw ingredient/dip/sweet)"
+ },
+ {
+  "id": "SPAR Veggie by NENI veganer Hummus Curry-Mango",
+  "name": "SPAR Veggie by NENI veganer Hummus Curry-Mango",
+  "field": "is_meal",
+  "old": false,
+  "new": false,
+  "reason": "not a ready meal (drink/sausage/spice/raw ingredient/dip/sweet)"
+ },
+ {
+  "id": "https://www.interspar.at/p/2550008",
+  "name": "SPAR Veggie veganes Hummus-Trio Natur/Curry/Koriander-Limette 3 x 70g",
+  "field": "is_meal",
+  "old": false,
+  "new": false,
+  "reason": "not a ready meal (drink/sausage/spice/raw ingredient/dip/sweet)"
+ },
+ {
+  "id": "https://www.interspar.at/p/835008",
+  "name": "TANN Rinds-Gulaschfleisch",
+  "field": "is_meal",
+  "old": true,
+  "new": false,
+  "reason": "not a ready meal (drink/sausage/spice/raw ingredient/dip/sweet)"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/despar-lasagne-alle-verdure/p/2020004350831",
+  "name": "Lasagne alle verdure",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-lasagne-bolognese/p/4971221",
+  "name": "Lasagne Bolognese",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/despar-klassische-lasagne-mit-rindfleisch/p/2020003170034",
+  "name": "klassische Lasagne mit Rindfleisch",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-veggie-vegetarische-gemuese-lasagne/p/1318180",
+  "name": "vegetarische Gemüse-Lasagne",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-feine-kueche-erdaepfelgulasch/p/2020001378814",
+  "name": "Erdäpfelgulasch",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-premium-edition-johanna-maier-gulaschsuppe-mit-rindfleisch-und-kartoffeln/p/2020003995491",
+  "name": "Gulaschsuppe mit Rindfleisch und Kartoffeln",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-veggie-veganes-cordon-bleu-3-stueck/p/2020004854322",
+  "name": "Veganes Cordon Bleu 3 Stück",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-veggie-by-neni-veganer-hummus-pikant/p/2020004021977",
+  "name": "veganer Hummus pikant",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-veggie-by-neni-veganer-hummus-pikant/p/2020004021977",
+  "name": "veganer Hummus pikant",
+  "field": "is_meal",
+  "old": false,
+  "new": false,
+  "reason": "not a ready meal (drink/sausage/spice/raw ingredient/dip/sweet)"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-veggie-veganes-hummus-trio-naturcurrykoriander-limette-3-x-70g/p/2550008",
+  "name": "veganes Hummus-Trio Natur/Curry/Koriander-Limette 3 x 70g",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-veggie-veganes-hummus-trio-naturcurrykoriander-limette-3-x-70g/p/2550008",
+  "name": "veganes Hummus-Trio Natur/Curry/Koriander-Limette 3 x 70g",
+  "field": "is_meal",
+  "old": false,
+  "new": false,
+  "reason": "not a ready meal (drink/sausage/spice/raw ingredient/dip/sweet)"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-veggie-veganer-gemuesestrudel-3-stueck-125g/p/1125108",
+  "name": "veganer Gemüsestrudel 3 Stück à 125g",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-premium-edition-johanna-maier-suesskartoffel-eintopf-vegan/p/2020003995460",
+  "name": "Süsskartoffel- Eintopf Vegan",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-premium-edition-johanna-maier-ratatouille-gemuese-eintopf-vegan/p/2020003995446",
+  "name": "Ratatouille Gemüse-Eintopf Vegan",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-premium-edition-johanna-maier-alt-wiener-suppentopf/p/2020001844609",
+  "name": "Alt-Wiener Suppentopf",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-bio-gnocchi-1-portion/p/6394691",
+  "name": "Bio-Gnocchi 1 Portion",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-by-neni-bio-hummus-natur/p/2020004891310",
+  "name": "Bio-Hummus natur",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-by-neni-bio-hummus-natur/p/2020004891310",
+  "name": "Bio-Hummus natur",
+  "field": "is_meal",
+  "old": false,
+  "new": false,
+  "reason": "not a ready meal (drink/sausage/spice/raw ingredient/dip/sweet)"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-bio-pfannengemuese/p/2020003736285",
+  "name": "Bio-Pfannengemüse",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-enjoy-huhn-curry-sandwich/p/1457186",
+  "name": "Huhn-Curry Sandwich",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-asia-shrimp-suppe-yellow-curry/p/2020005946521",
+  "name": "Shrimp Suppe Yellow Curry",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-asia-shrimp-suppe-green-curry/p/2020005946514",
+  "name": "Shrimp Suppe Green Curry",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-feine-kueche-risotto-mit-pilzen/p/2020004633217",
+  "name": "Risotto mit Pilzen",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-feine-kueche-tiroler-schlutzkrapfen/p/7605246",
+  "name": "Tiroler Schlutzkrapfen",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-feine-kueche-grenadiermarsch/p/2020005855809",
+  "name": "Grenadiermarsch",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-vital-msc-lachs-spaghettini/p/7022944",
+  "name": "MSC-Lachs & Spaghettini",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-feine-kueche-chicken-burger-2-stueck/p/5077328",
+  "name": "Chicken-Burger 2 Stück",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-premium-edition-paul-ivi-veganes-bio-kichererbsenragout/p/2020005724037",
+  "name": "Veganes Bio-Kichererbsenragout",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-feine-kueche-huehner-filets-paniert-gebacken-2-stueck/p/7407840",
+  "name": "Hühner Filets paniert & gebacken 2 Stück",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-premium-edition-johanna-maier-kuerbissuppe/p/6031305",
+  "name": "Kürbissuppe",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-feine-kueche-faschierte-laibchen-mit-kartoffelpuerree/p/2020001361175",
+  "name": "Faschierte Laibchen mit Kartoffelpürree",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-premium-edition-johanna-maier-mezzelune-mit-speck-brie/p/2020005341142",
+  "name": "Mezzelune mit Speck & Brie",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/s-budget-cheese-burger-4-stueck/p/2020005010796",
+  "name": "Cheese Burger 4 Stück",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-feine-kueche-palatschinken-gebacken-6-stueck/p/2020001677955",
+  "name": "Palatschinken gebacken 6 Stück",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-feine-kueche-vegetarische-krautfleckerl/p/2020000586678",
+  "name": "Vegetarische Krautfleckerl",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-feine-kueche-schnitzel-vom-schwein-2-stueck/p/2020003539978",
+  "name": "Schnitzel vom Schwein 2 Stück",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/schaer-lasagne-glutenfrei/p/2020003990526",
+  "name": "Lasagne glutenfrei",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/iglo-lasagne-al-forno/p/575560",
+  "name": "Lasagne al Forno",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/rana-pasta-per-lasagne/p/2020001806133",
+  "name": "Pasta per Lasagne",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/iglo-lasagne-al-forno/p/577052",
+  "name": "Lasagne al Forno",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-free-from-lasagne-blaetter-glutenfrei/p/2020001465699",
+  "name": "Lasagne-Blätter glutenfrei",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-bio-lasagneblaetter-250g/p/2020004205278",
+  "name": "Bio-Lasagneblätter 250G",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-bio-dinkel-lasagne/p/2020002928780",
+  "name": "Bio-Dinkel Lasagne",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/s-budget-lasagne-bolognese/p/7842306",
+  "name": "Lasagne Bolognese",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/s-budget-rindsgulasch/p/7442025",
+  "name": "Rindsgulasch",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/s-budget-gulaschsuppe/p/7442131",
+  "name": "Gulaschsuppe",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-bio-gulaschsuppe/p/2020001891719",
+  "name": "Bio-Gulaschsuppe",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-veggie-vegane-bio-pasta-steinpilz/p/2020004554680",
+  "name": "vegane Bio-Pasta Steinpilz",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-veggie-vegane-bio-jackfrucht/p/2020002658465",
+  "name": "vegane Bio-Jackfrucht",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-veggie-vegane-bio-laibchen-mediterran-2-stueck/p/3828441",
+  "name": "vegane Bio-Laibchen Mediterran 2 Stück",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-veggie-vegane-bio-pasta-gemuese/p/2020004554864",
+  "name": "vegane Bio-Pasta Gemüse",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-veggie-vegane-bruschetta/p/2020004519382",
+  "name": "vegane Bruschetta",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-bio-koriander-streufertig/p/2020004415493",
+  "name": "Bio-Koriander streufertig",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-bio-petersilie-streufertig/p/5913077",
+  "name": "Bio-Petersilie streufertig",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-bio-schnittlauch-streufertig/p/6117610",
+  "name": "Bio-Schnittlauch streufertig",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-bio-basilikum-streufertig/p/6117597",
+  "name": "Bio-Basilikum streufertig",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-bio-dille-streufertig/p/6117603",
+  "name": "Bio-Dille streufertig",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-bio-5-kraeuter-mischung-streufertig/p/1538106",
+  "name": "Bio-5-Kräuter-Mischung streufertig",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-bio-cappelletti-limone-2-portionen/p/2020003450679",
+  "name": "Bio-Cappelletti Limone 2 Portionen",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-bio-kokosflocken/p/2020000526223",
+  "name": "Bio-Kokosflocken",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-bio-eierspaetzle/p/2020004508782",
+  "name": "Bio-Eierspätzle",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-bio-ricotta-spinat-ravioli-2-portionen/p/2020000887379",
+  "name": "Bio-Ricotta-Spinat-Ravioli 2 Portionen",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-asia-massaman-thai-curry-mit-kartoffeln-kichererbsen/p/2020004062383",
+  "name": "Massaman Thai Curry mit Kartoffeln & Kichererbsen",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-curly-fries/p/2020002738341",
+  "name": "Curly Fries",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/s-budget-maccheroni-bolognese/p/2150994",
+  "name": "Maccheroni Bolognese",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-premium-edition-johanna-maier-cappellacci-bolognese/p/2020006001953",
+  "name": "Cappellacci Bolognese",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-feine-kueche-spaghetti-bolognese/p/2020001255061",
+  "name": "Spaghetti Bolognese",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-feine-bio-zwiebel-suppe/p/2020004682666",
+  "name": "Feine Bio-Zwiebel-Suppe",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/s-budget-bohnensuppe/p/7442070",
+  "name": "Bohnensuppe",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-feine-bio-nudel-suppe-3-portionen/p/2020004682604",
+  "name": "Feine Bio-Nudel-Suppe 3 Portionen",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-feine-bio-gemuesecreme-suppe-3-portionen/p/2020004682611",
+  "name": "Feine Bio-Gemüsecreme-Suppe 3 Portionen",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-bio-gemuesesuppe-mediterran/p/2020001891771",
+  "name": "Bio-Gemüsesuppe Mediterran",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-feine-bio-tomatencreme-suppe/p/2020004682758",
+  "name": "Feine Bio-Tomatencreme- Suppe",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-bio-linsensuppe-mit-karotten/p/2020003081767",
+  "name": "Bio-Linsensuppe mit Karotten",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-feine-bio-kuerbiscreme-suppe-3-portionen/p/2020004682789",
+  "name": "Feine Bio-Kürbiscreme-Suppe 3 Portionen",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/s-budget-leberknoedelsuppe/p/7442148",
+  "name": "Leberknödelsuppe",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-bio-tomatensuppe/p/2020001891801",
+  "name": "Bio-Tomatensuppe",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-feine-bio-knoblauchcreme-suppe-3-portionen/p/2020004682680",
+  "name": "Feine Bio-Knoblauchcreme-Suppe 3 Portionen",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-feine-bio-fruehlings-suppe-3-portionen/p/2020004682635",
+  "name": "Feine Bio-Frühlings-Suppe 3 Portionen",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-feine-eiermuschel-suppe-fuer-4-teller/p/2020002889869",
+  "name": "Feine Eiermuschel-Suppe für 4 Teller",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-feine-griessnockerl-suppe-fuer-3-teller/p/2020002890162",
+  "name": "Feine Grießnockerl-Suppe für 3 Teller",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-feine-gemuesecreme-suppe-gemuesecreme-fuer-4-teller/p/2020002889906",
+  "name": "Feine Gemüsecreme-Suppe Gemüsecreme für 4 Teller",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-feine-fruehlings-suppe-4-teller/p/2020002889784",
+  "name": "Feine Frühlings-Suppe 4 Teller",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-feine-feine-tomatencreme-suppe-tomaten-fuer-3-teller/p/2020002890018",
+  "name": "Feine Tomatencreme-Suppe Tomaten  für 3 Teller",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-feine-fleischkloesschen-suppe-fuer-4-teller/p/2020002887445",
+  "name": "Feine Fleischklößchen-Suppe für 4 Teller",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-feine-nudel-suppe-nudel-fuer-4-teller/p/2020002889500",
+  "name": "Feine Nudel-Suppe Nudel für 4 Teller",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-feine-buchstaben-suppen-buchstaben-fuer-4-teller/p/2020002889623",
+  "name": "Feine Buchstaben-Suppen Buchstaben für 4 Teller",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/s-budget-asia-noodles-chicken-taste/p/2020004858962",
+  "name": "Noodles Chicken Taste",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-premium-edition-johanna-maier-tortellini-mit-prosciutto-di-parma-dop/p/1745153",
+  "name": "Tortellini mit \"Prosciutto di Parma DOP\"",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/s-budget-gefuellte-paprika-4-stueck/p/6705855",
+  "name": "gefüllte Paprika 4 Stück",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-feine-kueche-tortelloni-mit-ricotta-spinatfuellung/p/6343804",
+  "name": "Tortelloni mit Ricotta-Spinatfüllung",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-feine-kueche-tortelloni-mit-kaesefuellung/p/2020001681310",
+  "name": "Tortelloni mit Käsefüllung",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-premium-edition-johanna-maier-ravioli-bufala-mit-bueffelmilch-ricotta-spinat/p/2020001535583",
+  "name": "Ravioli Bufala mit Büffelmilch-Ricotta & Spinat",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-premium-edition-johanna-maier-ravioli-bufala-mit-bueffelmilch-ricotta-spinat/p/2020001535583",
+  "name": "Ravioli Bufala mit Büffelmilch-Ricotta & Spinat",
+  "field": "is_meal",
+  "old": false,
+  "new": false,
+  "reason": "not a ready meal (drink/sausage/spice/raw ingredient/dip/sweet)"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-premium-edition-johanna-maier-cappellacci-funghi-mit-pfifferlingen/p/2020001402823",
+  "name": "Cappellacci Funghi mit Pfifferlingen",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/s-budget-asia-cup-duck-taste/p/2020004859082",
+  "name": "Cup Duck Taste",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-feine-kueche-spaghetti-carbonara/p/2020001255108",
+  "name": "Spaghetti Carbonara",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/despar-gnocchi-pomodoro/p/2020004780300",
+  "name": "Gnocchi Pomodoro",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/s-budget-asia-cup-beef-taste/p/2020004859112",
+  "name": "Cup Beef Taste",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-premium-edition-johanna-maier-triangoli-mit-pilzen-und-trueffeloel/p/1049275",
+  "name": "Triangoli mit Pilzen und Trüffelöl",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-premium-edition-johanna-maier-ravioli-mozzarellatomaten-basilikum/p/1049190",
+  "name": "Ravioli Mozzarella,Tomaten & Basilikum",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/spar-premium-edition-johanna-maier-girasoli-parmigiana-aubergine/p/2020006001960",
+  "name": "Girasoli Parmigiana Aubergine",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/shop/lebensmittel/de-cecco-lasagneblaetter-lasagna-riccia/p/7349638",
+  "name": "Lasagneblätter Lasagna Riccia",
+  "field": "store",
+  "old": "INTERSPAR/SPAR Online",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/p/2020004433749",
+  "name": "Gavrilovic Rindergulasch 300 G",
+  "field": "store",
+  "old": "INTERSPAR (live)",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/p/2020000961727",
+  "name": "Inzersdorfer gelbes Curry mit Huhn 400 G",
+  "field": "store",
+  "old": "INTERSPAR (live)",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/p/2020004975409",
+  "name": "SPAR enjoy ASIA Hühner-Curry 350 G",
+  "field": "store",
+  "old": "INTERSPAR (live)",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/p/5274802",
+  "name": "Felix Erdäpfelgulasch 800 G",
+  "field": "store",
+  "old": "INTERSPAR (live)",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/p/2020005794535",
+  "name": "Little Lunch Thai Curry Eintopf 350 G",
+  "field": "store",
+  "old": "INTERSPAR (live)",
+  "new": "SPAR",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://world.openfoodfacts.org/product/9100000968810",
+  "name": "Veganer Bio-Drink (Reismilch)",
+  "field": "is_meal",
+  "old": false,
+  "new": false,
+  "reason": "not a ready meal (drink/sausage/spice/raw ingredient/dip/sweet)"
+ },
+ {
+  "id": "https://world.openfoodfacts.org/product/9100000771601",
+  "name": "Veggie Reis Drink, Natur",
+  "field": "is_meal",
+  "old": false,
+  "new": false,
+  "reason": "not a ready meal (drink/sausage/spice/raw ingredient/dip/sweet)"
+ },
+ {
+  "id": "https://world.openfoodfacts.org/product/9003903430203",
+  "name": "Puten-Knacker",
+  "field": "is_meal",
+  "old": true,
+  "new": false,
+  "reason": "not a ready meal (drink/sausage/spice/raw ingredient/dip/sweet)"
+ },
+ {
+  "id": "https://world.openfoodfacts.org/product/2308325005020",
+  "name": "Rindsgulaschfleisch",
+  "field": "is_meal",
+  "old": true,
+  "new": false,
+  "reason": "not a ready meal (drink/sausage/spice/raw ingredient/dip/sweet)"
+ },
+ {
+  "id": "https://world.openfoodfacts.org/product/4066447892505",
+  "name": "Eintopf, Kichererbsen mit Kokosmilch",
+  "field": "is_meal",
+  "old": false,
+  "new": false,
+  "reason": "not a ready meal (drink/sausage/spice/raw ingredient/dip/sweet)"
+ },
+ {
+  "id": "https://world.openfoodfacts.org/product/4008391033009",
+  "name": "Brühe - Klare Suppe",
+  "field": "is_meal",
+  "old": true,
+  "new": false,
+  "reason": "not a ready meal (drink/sausage/spice/raw ingredient/dip/sweet)"
+ },
+ {
+  "id": "https://world.openfoodfacts.org/product/4006040271130",
+  "name": "Gemüsebrühe",
+  "field": "store",
+  "old": "Le retour a la terre, biocoop la Marigoule",
+  "new": null,
+  "reason": "OFF \"stores\" field (crowd-sourced, partly foreign shops) – not an Austrian chain assignment"
+ },
+ {
+  "id": "https://world.openfoodfacts.org/product/4006040271130",
+  "name": "Gemüsebrühe",
+  "field": "is_meal",
+  "old": true,
+  "new": false,
+  "reason": "not a ready meal (drink/sausage/spice/raw ingredient/dip/sweet)"
+ },
+ {
+  "id": "https://world.openfoodfacts.org/product/4000345046486",
+  "name": "Feine Suppe Kürbiscreme",
+  "field": "store",
+  "old": "Denn's Biomarkt",
+  "new": null,
+  "reason": "OFF \"stores\" field (crowd-sourced, partly foreign shops) – not an Austrian chain assignment"
+ },
+ {
+  "id": "https://world.openfoodfacts.org/product/9009865009297",
+  "name": "Rote Linsen Suppe mit Kokosmilch",
+  "field": "is_meal",
+  "old": false,
+  "new": false,
+  "reason": "not a ready meal (drink/sausage/spice/raw ingredient/dip/sweet)"
+ },
+ {
+  "id": "https://world.openfoodfacts.org/product/4061462153587",
+  "name": "Knoblauchcreme Suppe",
+  "field": "dry",
+  "old": false,
+  "new": true,
+  "reason": "379 kcal/100g ⇒ values are for dry/powder product, not prepared; exclude from per-100g ranking"
+ },
+ {
+  "id": "https://world.openfoodfacts.org/product/9002668541018",
+  "name": "Bersteiger",
+  "field": "is_meal",
+  "old": true,
+  "new": false,
+  "reason": "not a ready meal (drink/sausage/spice/raw ingredient/dip/sweet)"
+ },
+ {
+  "id": "https://world.openfoodfacts.org/product/9002668002144",
+  "name": "Gebratene Polnische Spetzial",
+  "field": "is_meal",
+  "old": true,
+  "new": false,
+  "reason": "not a ready meal (drink/sausage/spice/raw ingredient/dip/sweet)"
+ },
+ {
+  "id": "https://world.openfoodfacts.org/product/9002668542237",
+  "name": "Pastrami",
+  "field": "is_meal",
+  "old": true,
+  "new": false,
+  "reason": "not a ready meal (drink/sausage/spice/raw ingredient/dip/sweet)"
+ },
+ {
+  "id": "https://world.openfoodfacts.org/product/9002668514517",
+  "name": "Scharfe Knacker XXL",
+  "field": "is_meal",
+  "old": true,
+  "new": false,
+  "reason": "not a ready meal (drink/sausage/spice/raw ingredient/dip/sweet)"
+ },
+ {
+  "id": "https://world.openfoodfacts.org/product/9009825070213",
+  "name": "Puten Käsekrainer",
+  "field": "is_meal",
+  "old": true,
+  "new": false,
+  "reason": "not a ready meal (drink/sausage/spice/raw ingredient/dip/sweet)"
+ },
+ {
+  "id": "https://world.openfoodfacts.org/product/4099200073149",
+  "name": "Houmous au curry",
+  "field": "store",
+  "old": "Aldi",
+  "new": "HOFER",
+  "reason": "Aldi = HOFER in AT (from OFF stores tag)"
+ },
+ {
+  "id": "https://world.openfoodfacts.org/product/4099200073149",
+  "name": "Houmous au curry",
+  "field": "is_meal",
+  "old": true,
+  "new": false,
+  "reason": "not a ready meal (drink/sausage/spice/raw ingredient/dip/sweet)"
+ },
+ {
+  "id": "https://world.openfoodfacts.org/product/9001414040928",
+  "name": "Curry-Madras Pikant",
+  "field": "store",
+  "old": "Merkur",
+  "new": null,
+  "reason": "OFF \"stores\" field (crowd-sourced, partly foreign shops) – not an Austrian chain assignment"
+ },
+ {
+  "id": "https://world.openfoodfacts.org/product/9001414040928",
+  "name": "Curry-Madras Pikant",
+  "field": "is_meal",
+  "old": true,
+  "new": false,
+  "reason": "not a ready meal (drink/sausage/spice/raw ingredient/dip/sweet)"
+ },
+ {
+  "id": "https://world.openfoodfacts.org/product/20196097",
+  "name": "Lebkuchen",
+  "field": "store",
+  "old": "Lidl, NORMA",
+  "new": null,
+  "reason": "OFF \"stores\" field (crowd-sourced, partly foreign shops) – not an Austrian chain assignment"
+ },
+ {
+  "id": "https://world.openfoodfacts.org/product/20196097",
+  "name": "Lebkuchen",
+  "field": "is_meal",
+  "old": true,
+  "new": false,
+  "reason": "not a ready meal (drink/sausage/spice/raw ingredient/dip/sweet)"
+ },
+ {
+  "id": "https://world.openfoodfacts.org/product/7610071221056",
+  "name": "Curry mild",
+  "field": "is_meal",
+  "old": true,
+  "new": false,
+  "reason": "not a ready meal (drink/sausage/spice/raw ingredient/dip/sweet)"
+ },
+ {
+  "id": "https://world.openfoodfacts.org/product/7610071221056",
+  "name": "Curry mild",
+  "field": "dry",
+  "old": false,
+  "new": true,
+  "reason": "324 kcal/100g ⇒ values are for dry/powder product, not prepared; exclude from per-100g ranking"
+ },
+ {
+  "id": "https://world.openfoodfacts.org/product/4099200059396",
+  "name": "Curry huhn",
+  "field": "store",
+  "old": "Aldi",
+  "new": "HOFER",
+  "reason": "Aldi = HOFER in AT (from OFF stores tag)"
+ },
+ {
+  "id": "https://world.openfoodfacts.org/product/9002600632279",
+  "name": "Curry Madras - Pure Beef",
+  "field": "store",
+  "old": "Billa, tegut...",
+  "new": null,
+  "reason": "OFF \"stores\" field (crowd-sourced, partly foreign shops) – not an Austrian chain assignment"
+ },
+ {
+  "id": "https://world.openfoodfacts.org/product/4061459387766",
+  "name": "Sauerkraut Curry Mango",
+  "field": "is_meal",
+  "old": true,
+  "new": false,
+  "reason": "not a ready meal (drink/sausage/spice/raw ingredient/dip/sweet)"
+ },
+ {
+  "id": "https://world.openfoodfacts.org/product/9004145073326",
+  "name": "Curry süß",
+  "field": "is_meal",
+  "old": true,
+  "new": false,
+  "reason": "not a ready meal (drink/sausage/spice/raw ingredient/dip/sweet)"
+ },
+ {
+  "id": "https://world.openfoodfacts.org/product/9004145073326",
+  "name": "Curry süß",
+  "field": "dry",
+  "old": false,
+  "new": true,
+  "reason": "339 kcal/100g ⇒ values are for dry/powder product, not prepared; exclude from per-100g ranking"
+ },
+ {
+  "id": "https://world.openfoodfacts.org/product/9120115110430",
+  "name": "Bio Hühnercurry mit roten Linsen",
+  "field": "store",
+  "old": "Limoni's",
+  "new": null,
+  "reason": "OFF \"stores\" field (crowd-sourced, partly foreign shops) – not an Austrian chain assignment"
+ },
+ {
+  "id": "https://world.openfoodfacts.org/product/8717163927779",
+  "name": "Curry Couscous",
+  "field": "is_meal",
+  "old": true,
+  "new": false,
+  "reason": "not a ready meal (drink/sausage/spice/raw ingredient/dip/sweet)"
+ },
+ {
+  "id": "https://world.openfoodfacts.org/product/8001420003413",
+  "name": "Risotto carnaroli",
+  "field": "store",
+  "old": "Billa, Carrefour, Magasins U, carrefour.fr",
+  "new": null,
+  "reason": "OFF \"stores\" field (crowd-sourced, partly foreign shops) – not an Austrian chain assignment"
+ },
+ {
+  "id": "https://world.openfoodfacts.org/product/8001420003413",
+  "name": "Risotto carnaroli",
+  "field": "is_meal",
+  "old": true,
+  "new": false,
+  "reason": "not a ready meal (drink/sausage/spice/raw ingredient/dip/sweet)"
+ },
+ {
+  "id": "https://world.openfoodfacts.org/product/4099200013404",
+  "name": "Risotto bio aux cèpes",
+  "field": "store",
+  "old": "Aldi",
+  "new": "HOFER",
+  "reason": "Aldi = HOFER in AT (from OFF stores tag)"
+ },
+ {
+  "id": "https://world.openfoodfacts.org/product/4006040125891",
+  "name": "Risotto Spitzenreis",
+  "field": "is_meal",
+  "old": true,
+  "new": false,
+  "reason": "not a ready meal (drink/sausage/spice/raw ingredient/dip/sweet)"
+ },
+ {
+  "id": "https://world.openfoodfacts.org/product/20292720",
+  "name": "Bio Risotto",
+  "field": "is_meal",
+  "old": true,
+  "new": false,
+  "reason": "not a ready meal (drink/sausage/spice/raw ingredient/dip/sweet)"
+ },
+ {
+  "id": "https://world.openfoodfacts.org/product/9120132001575",
+  "name": "Melt Chili Nuggets",
+  "field": "is_meal",
+  "old": true,
+  "new": false,
+  "reason": "not a ready meal (drink/sausage/spice/raw ingredient/dip/sweet)"
+ },
+ {
+  "id": "https://world.openfoodfacts.org/product/4099200211404",
+  "name": "Rauchkartee geschnitten",
+  "field": "is_meal",
+  "old": true,
+  "new": false,
+  "reason": "not a ready meal (drink/sausage/spice/raw ingredient/dip/sweet)"
+ },
+ {
+  "id": "https://fittogo.at/products/chicken-tikka-masala-mit-basmatireis",
+  "name": "Chicken Tikka Masala mit Basmatireis",
+  "field": "store",
+  "old": "Fit to Go online",
+  "new": "Fit to Go",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://fittogo.at/products/mozzarella-huhnchen-mit-erbsenreis",
+  "name": "Mozzarella Hühnchen mit Erbsenreis",
+  "field": "store",
+  "old": "Fit to Go online",
+  "new": "Fit to Go",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://fittogo.at/collections/12er-box",
+  "name": "High Protein BBQ Chicken mit Mac & Cheese",
+  "field": "store",
+  "old": "Fit to Go online",
+  "new": "Fit to Go",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://fittogo.at/products/pollo-picante",
+  "name": "Pollo Picante",
+  "field": "store",
+  "old": "Fit to Go online",
+  "new": "Fit to Go",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://fittogo.at/products/huhnerstreifen-in-paprikasauce-mit-reis",
+  "name": "Hühnerstreifen in Paprikasauce mit Reis",
+  "field": "store",
+  "old": "Fit to Go online",
+  "new": "Fit to Go",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://fittogo.at/products/thunfisch-pasta-mit-uberbackenem-mozzarella",
+  "name": "Thunfisch Pasta mit überbackenem Mozzarella",
+  "field": "store",
+  "old": "Fit to Go online",
+  "new": "Fit to Go",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://fittogo.at/products/creamy-beefpasta-mit-vollkornnudeln",
+  "name": "Creamy Beefpasta mit Vollkornnudeln",
+  "field": "store",
+  "old": "Fit to Go online",
+  "new": "Fit to Go",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://fittogo.at/products/high-protein-kaiserschmarrn",
+  "name": "High Protein Kaiserschmarrn",
+  "field": "store",
+  "old": "Fit to Go online",
+  "new": "Fit to Go",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://fittogo.at/products/teriyaki-huhn-mit-brokkoli-und-basmatireis",
+  "name": "Teriyaki-Huhn mit Brokkoli und Basmatireis",
+  "field": "store",
+  "old": "Fit to Go online",
+  "new": "Fit to Go",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://fittogo.at/products/champignonschnitzel-vom-huhn",
+  "name": "Champignonschnitzel vom Huhn",
+  "field": "store",
+  "old": "Fit to Go online",
+  "new": "Fit to Go",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://fittogo.at/products/pulled-pork-mit-steakgemuse-und-erdapfelgrostl",
+  "name": "Pulled Pork mit Steakgemüse und Erdäpfelgröstl",
+  "field": "store",
+  "old": "Fit to Go online",
+  "new": "Fit to Go",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://fittogo.at/products/faschierte-laibchen-mit-prinzessbohnen-und-kartoffelschmarr-n",
+  "name": "Faschierte Laibchen mit Prinzessbohnen u. Kartoffelschmarr´n",
+  "field": "store",
+  "old": "Fit to Go online",
+  "new": "Fit to Go",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://fittogo.at/products/cremige-ofen-tortellini-mit-rindfleischfullung",
+  "name": "Cremige Ofen-Tortellini mit Rindfleischfüllung und Speck",
+  "field": "store",
+  "old": "Fit to Go online",
+  "new": "Fit to Go",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://fittogo.at/products/huhnerfilet-mit-kichererbsen-und-broccoli",
+  "name": "Linsencurry mit Basmatireis",
+  "field": "store",
+  "old": "Fit to Go online",
+  "new": "Fit to Go",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://fittogo.at/products/susskartoffelauflauf-mit-feta-rind-und-bulgur",
+  "name": "Süßkartoffelauflauf mit Feta, Rind und Bulgur",
+  "field": "store",
+  "old": "Fit to Go online",
+  "new": "Fit to Go",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://fittogo.at/products/gyrospfanne-vom-huhn-mit-gemuse-und-reis",
+  "name": "Gyrospfanne vom Huhn mit Gemüse und Reis",
+  "field": "store",
+  "old": "Fit to Go online",
+  "new": "Fit to Go",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://fittogo.at/products/cheeseburger-bowl-mit-rinderfaschiertem-und-ofenkartoffeln",
+  "name": "Cheeseburger Bowl mit Rinderfaschiertem und Ofenkartoffeln",
+  "field": "store",
+  "old": "Fit to Go online",
+  "new": "Fit to Go",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://fittogo.at/products/veganes-gemusecurry-mit-cashewkernen-und-reis",
+  "name": "Veganes Gemüsecurry mit Cashewkernen und Reis",
+  "field": "store",
+  "old": "Fit to Go online",
+  "new": "Fit to Go",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://fittogo.at/products/schinkenfleckerl-mit-faschiertem",
+  "name": "Schinkenfleckerl mit Faschiertem",
+  "field": "store",
+  "old": "Fit to Go online",
+  "new": "Fit to Go",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://fittogo.at/products/cheesy-orzo-nudelpfanne-mit-faschiertem",
+  "name": "Cheesy Orzo-Nudelpfanne mit Faschiertem",
+  "field": "store",
+  "old": "Fit to Go online",
+  "new": "Fit to Go",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://fittogo.at/products/polenta-gnocchi-mit-huhn-und-mediterranem-gemuse",
+  "name": "Polenta-Gnocchi mit Huhn und mediterranem Gemüse",
+  "field": "store",
+  "old": "Fit to Go online",
+  "new": "Fit to Go",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://fittogo.at/products/erdapfel-grostl-mit-faschiertem-und-kraut",
+  "name": "Erdäpfel-Gröstl mit Faschiertem und Kraut",
+  "field": "store",
+  "old": "Fit to Go online",
+  "new": "Fit to Go",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://fittogo.at/products/orientalische-gemusepfanne-mit-feta",
+  "name": "Orientalische Gemüsepfanne mit Feta",
+  "field": "store",
+  "old": "Fit to Go online",
+  "new": "Fit to Go",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://fittogo.at/products/auberginen-chili-con-carne-mit-kase-uberbacken",
+  "name": "Auberginen-Chili con Carne mit Käse Überbacken",
+  "field": "store",
+  "old": "Fit to Go online",
+  "new": "Fit to Go",
+  "reason": "normalize store label"
+ },
+ {
+  "id": "https://www.interspar.at/p/577052",
+  "name": "Iglo Lasagne al Forno",
+  "field": "price_eur",
+  "old": 4.99,
+  "new": 7.49,
+  "reason": "heisse-preise spar id 577052 current price (last change 2026-01-08)"
+ },
+ {
+  "id": "https://www.interspar.at/p/577052",
+  "name": "Iglo Lasagne al Forno",
+  "field": "size_g",
+  "old": 350,
+  "new": 700,
+  "reason": "heisse-preise quantity"
+ },
+ {
+  "id": "https://fittogo.at/collections/12er-box",
+  "name": "High Protein BBQ Chicken mit Mac & Cheese",
+  "field": "size_g",
+  "old": null,
+  "new": 400,
+  "reason": "fittogo.at: Gesamt-Einwaage 400g"
+ },
+ {
+  "id": "https://fittogo.at/collections/12er-box",
+  "name": "High Protein BBQ Chicken mit Mac & Cheese",
+  "field": "kcal_pack",
+  "old": null,
+  "new": 576,
+  "reason": "fittogo.at per-pack value"
+ },
+ {
+  "id": "https://fittogo.at/collections/12er-box",
+  "name": "High Protein BBQ Chicken mit Mac & Cheese",
+  "field": "kcal_100",
+  "old": null,
+  "new": 144,
+  "reason": "576 kcal / 400 g"
+ },
+ {
+  "id": "https://fittogo.at/collections/12er-box",
+  "name": "High Protein BBQ Chicken mit Mac & Cheese",
+  "field": "image_url",
+  "old": null,
+  "new": "https://cdn.shopify.com/s/files/1/0580/7777/3988/files/11_88ca7890-80e1-4887-8d84-df964ae9414d.png",
+  "reason": "fittogo.at product image"
+ },
+ {
+  "id": "https://fittogo.at/collections/12er-box",
+  "name": "High Protein BBQ Chicken mit Mac & Cheese",
+  "field": "price_per_kg",
+  "old": null,
+  "new": 24.98,
+  "reason": "9.99/0.4kg"
+ }
+]

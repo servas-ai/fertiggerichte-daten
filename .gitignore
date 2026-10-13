@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.log
+*.bak*
+/scored.json
+/brandfam/billa_raw.json
+/exp/billa_all.json
+/det.json
+/qa/vg5/a6bd8c5a4e870675b48baa4ab32fd899.img
+/qa/billa_src.json
+/mm_raw.json
+/hp_cur.json
+/hofer_full/products.jsonl
+/heisse_preise_raw.json
+/hourly/billa_all.json
+/hp.json

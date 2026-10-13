@@ -1,0 +1,587 @@
+{
+  "ok": true,
+  "errors": [],
+  "blank": [],
+  "overflow": [],
+  "brokenImg": 0,
+  "totalImg": 7481,
+  "tabs": {
+    "desktop:alle": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 78,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "desktop:feed": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 58,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "desktop:galerie": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 136,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "desktop:board": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 13,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "desktop:gerichte": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 38,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "desktop:top": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 116,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "desktop:kategorien": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 86,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "desktop:markenprofil": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 11,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "desktop:ladenprofil": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 11,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "desktop:marken": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 669,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "desktop:familien": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 186,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "desktop:dashboard": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 88,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "desktop:gesundheit": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 72,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "desktop:analyse": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 84,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "desktop:scatter": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 0,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "desktop:pack": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 32,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "desktop:matrix": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 103,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "desktop:hersteller-seiten": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 68,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "desktop:wer": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 1003,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "desktop:firmen": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 14,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "desktop:qualitaet": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 0,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "desktop:logos": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 189,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "desktop:netz": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 0,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "desktop:hersteller": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 81,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "desktop:filialen": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 60,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "desktop:online": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 127,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "desktop:planer": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 14,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "desktop:kombi": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 271,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "desktop:ftg": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 96,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "desktop:multipot": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 0,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "desktop:methodik": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 0,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "desktop:abdeckung": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 0,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "mobile:alle": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 194,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "mobile:feed": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 58,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "mobile:galerie": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 136,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "mobile:board": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 13,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "mobile:gerichte": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 38,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "mobile:top": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 116,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "mobile:kategorien": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 86,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "mobile:markenprofil": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 11,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "mobile:ladenprofil": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 11,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "mobile:marken": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 669,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "mobile:familien": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 186,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "mobile:dashboard": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 88,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "mobile:gesundheit": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 68,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "mobile:analyse": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 84,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "mobile:scatter": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 0,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "mobile:pack": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 32,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "mobile:matrix": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 85,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "mobile:hersteller-seiten": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 56,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "mobile:wer": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 1003,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "mobile:firmen": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 14,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "mobile:qualitaet": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 0,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "mobile:logos": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 189,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "mobile:netz": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 0,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "mobile:hersteller": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 81,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "mobile:filialen": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 51,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "mobile:online": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 127,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "mobile:planer": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 14,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "mobile:kombi": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 271,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "mobile:ftg": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 96,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "mobile:multipot": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 0,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "mobile:methodik": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 0,
+        "broken": 0
+      },
+      "errs": 0
+    },
+    "mobile:abdeckung": {
+      "blank": false,
+      "overflow": false,
+      "imgs": {
+        "total": 0,
+        "broken": 0
+      },
+      "errs": 0
+    }
+  },
+  "brokenRate": 0
+}

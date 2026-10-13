@@ -1,0 +1,102 @@
+{
+ "count": 3,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Rians Panna Cotta Mango/Passionsfrucht",
+   "brand": "Rians",
+   "price_eur": 4.99,
+   "unit_price_eur": 20.79,
+   "unit": "kg",
+   "size_g": 240.0,
+   "nutrition_100g": {
+    "kcal": 177.0,
+    "fat": 12.0,
+    "satfat": 8.5,
+    "carbs": 14.0,
+    "sugar": 13.0,
+    "protein": 2.9,
+    "salt": 0.08,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/36316/36316-1730199103725.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Frankreich",
+   "category": "Kühlregal > Joghurt & Desserts > Desserts",
+   "source_url": "https://www.gurkerl.at/36316-rians-panna-cotta-mango-passionsfrucht",
+   "source_id": "36316",
+   "fetched_at": "2026-10-13T02:07:18+00:00",
+   "extra": {
+    "ingredients": "Panna Cotta mit Vanillearoma  und Fruchtcoulis aus Mango und Passionsfrucht \n\nZutaten: SAHNE 36%, MagerMILCH 57.20%, Zucker 5.5%, Geliermittel 0.9% (Gelatine, natürliches Aroma 0.4%), Coulis (Mangofruchtfleisch 10.7%, Zucker, Passionsfruchtsaft 1.9%)\n\nBei 0-7°C lagern."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "The Green Garden & gurkerl.at Fruit-powered Panna Cotta VEGAN",
+   "brand": "The Green Garden",
+   "price_eur": 6.19,
+   "unit_price_eur": 34.39,
+   "unit": "kg",
+   "size_g": 180.0,
+   "nutrition_100g": {
+    "kcal": 170.0,
+    "fat": 7.9,
+    "satfat": 6.6,
+    "carbs": 24.0,
+    "sugar": 20.0,
+    "protein": 0.6,
+    "salt": 0.02,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/38140/38140-1737459221161.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "EU",
+   "category": "Kühlregal > Joghurt & Desserts > Desserts",
+   "source_url": "https://www.gurkerl.at/38140-the-green-garden-gurkerl-at-fruit-powered-panna-cotta-vegan",
+   "source_id": "38140",
+   "fetched_at": "2026-10-13T02:07:18+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Sahne 65% [Kokosnusscreme 59% (Kokosnussextrakt 71%, Trinkwasser, Verdickungsmittel: Xanthan; Emulgator: E435), Zucker, Kokosnussdrink 12% (Kokosnussextrakt 85%, Trinkwasser, Emulgator: E435), Trinkwasser, Maisstärke], Waldfruchtsaft 35% [Waldfruchtmischung 71% (Schwarze Johannisbeere 50%, Rote Johannisbeere 30%, Erdbeere 10%, Brombeere 5%, Himbeere 5%), Zucker 29%]."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Power System Full Power Protein Bar Panna Cotta Krokant",
+   "brand": "Power System",
+   "price_eur": 2.39,
+   "unit_price_eur": 34.14,
+   "unit": "kg",
+   "size_g": 70.0,
+   "nutrition_100g": {
+    "kcal": 412.0,
+    "fat": 14.0,
+    "satfat": 7.5,
+    "carbs": 37.0,
+    "sugar": 19.0,
+    "protein": 40.0,
+    "salt": 0.46,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/34874/34874-1726064160442.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Vorratsschrank > Sport & Nahrungsergänzung > Protein",
+   "source_url": "https://www.gurkerl.at/34874-power-system-full-power-protein-bar-panna-cotta-krokant",
+   "source_id": "34874",
+   "fetched_at": "2026-10-13T02:07:18+00:00",
+   "extra": {
+    "ingredients": "Zutaten: MILCHEIWEIß, Rinderkollagenhydrolysat, 13% VOLLMILCHSCHOKOLADE (Zucker, VOLLMILCHPULVER, Kakaobutter, Kakaomasse, Emulgator: SOJALECITHINE; Aroma), Feuchthaltemittel: Glycerin; Fruktosesirup, SOJAEIWEIßISOLAT, Glukosesirup, Palmfett, 2,3% HASELNUSSKROKANT (Zucker, HASELNÜSSE), Aroma, HAFERFASER, Vitamin C, Vitamin E, Panthotensäure, Vitamin B6, Vitamin B1, Vitamin B2.\nKann Spuren von Gluten, Ei, Erdnüssen und anderen Schalenfrüchten enthalten."
+   }
+  }
+ ]
+}

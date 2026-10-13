@@ -1,0 +1,319 @@
+{
+ "source_index": "https://vis.statistik.at/fileadmin/ovis/pdf/index.html",
+ "list_date": "2026-10-12",
+ "note": "Offizielle Liste führt Suffix 'EU' statt 'EG'; Nummer identisch.",
+ "producers": [
+  {
+   "code": "AT 30733 EG",
+   "company": "GMS GOURMET GmbH",
+   "town": "Zdarskystraße 3, 3100 St. Pölten",
+   "state": "Niederösterreich",
+   "products": [
+    "Gelbes Gemüse Curry Mit Reis",
+    "Omis Schmankerl Knödeltrio mit Paradeiskraut"
+   ],
+   "retail_brands": [
+    "Good Choice (Hofer Eigenmarke) @ Hofer",
+    "Omis Schmankerl @ ?",
+    "Omis Schmankerl @ BILLA",
+    "Omis Schmankerl @ Billa"
+   ],
+   "source": "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf",
+   "note": null
+  },
+  {
+   "code": "AT 42152 EG",
+   "company": "Rewe Austria Fleischwaren GmbH",
+   "town": "Solarstraße 8, 4653 Eberstalzell",
+   "state": "Oberösterreich",
+   "products": [
+    "Clever Schwein-Karreesteak mariniert",
+    "Clever Schweinebauchstreifen mariniert",
+    "Clever Schweinsschopfsteak mariniert",
+    "Clever Spareribs"
+   ],
+   "retail_brands": [
+    "CLEVER @ Billa"
+   ],
+   "source": "https://vis.statistik.at/fileadmin/ovis/pdf/O20.pdf",
+   "note": null
+  },
+  {
+   "code": "AT 31538 EG",
+   "company": "Wiesbauer Gourmet Gastro GmbH",
+   "town": "Wiesbauer Straße 1, 3454 Sitzenberg-Reidling",
+   "state": "Niederösterreich",
+   "products": [
+    "BILLA Genusswelt Kalbsrahmgulasch Sous Vide",
+    "BILLA Genusswelt Rindsbackerl Sous Vide",
+    "BILLA Genusswelt Roastbeef Sous Vide",
+    "Hofstädter Rindsgulasch Sous Vide",
+    "Hofstädter Rindsschnitzel Sous Vide"
+   ],
+   "retail_brands": [
+    "BILLA Genusswelt @ ?",
+    "BILLA Genusswelt @ BILLA",
+    "BILLA Genusswelt @ Billa",
+    "Hofstädter @ ?",
+    "Hofstädter @ BILLA",
+    "Hofstädter @ Billa"
+   ],
+   "source": "https://vis.statistik.at/fileadmin/ovis/pdf/O20.pdf",
+   "note": null
+  },
+  {
+   "code": "AT 31353 EG",
+   "company": "Wilhelm Blasko CONVENIENCE-Fertiggerichte GmbH",
+   "town": "Fabriksstraße 18, 2522 Oberwaltersdorf",
+   "state": "Niederösterreich",
+   "products": [
+    "Die Grillerei Spareribs Sous-Vide BBQ",
+    "Hofstädter Die Grillerei Pulled Beef Sous Vide mit BBQ"
+   ],
+   "retail_brands": [
+    "Die Grillerei @ Billa",
+    "Hofstädter @ ?",
+    "Hofstädter @ BILLA"
+   ],
+   "source": "https://vis.statistik.at/fileadmin/ovis/pdf/O20.pdf",
+   "note": null
+  },
+  {
+   "code": "AT 20271 EG",
+   "company": "KARNERTA GmbH",
+   "town": "Südring 334, 9020 Klagenfurt",
+   "state": "Kärnten",
+   "products": [
+    "BILLA Tortelloni Prosciutto",
+    "BILLA Tortelloni Ricotta Spinat",
+    "Billa Tortelloni Rindfleisch",
+    "Ja! Natürlich Eierspätzle",
+    "Ja! Natürlich Ravioli Schinken"
+   ],
+   "retail_brands": [
+    "BILLA Immer Gut @ ?",
+    "BILLA Immer Gut @ BILLA",
+    "Ja! Natürlich @ ?",
+    "Ja! Natürlich @ BILLA"
+   ],
+   "source": "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf",
+   "note": null
+  },
+  {
+   "code": "AT 62028 EG",
+   "company": "Landgenossenschaft Ennstal LANDENA KG",
+   "town": "Erzherzog-Johann-Straße 303, 8950 Stainach-Pürgg",
+   "state": "Steiermark",
+   "products": [
+    "Clever Rindsgulasch",
+    "Clever gefüllte Paprika 400g",
+    "Curry Madras - Pure Beef",
+    "Rinds Gulasch",
+    "Rindsgulasch"
+   ],
+   "retail_brands": [
+    "CLEVER @ ?",
+    "CLEVER @ BILLA",
+    "Inzersdorfer @ INTERSPAR/SPAR Online",
+    "PRIMANA @ Hofer",
+    "inzersdorfer @ Billa, tegut..."
+   ],
+   "source": "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf",
+   "note": null
+  },
+  {
+   "code": "AT 92526 EG",
+   "company": "Hink GmbH",
+   "town": "Otto-Beyschlag-Gasse 3, 1210 Wien",
+   "state": "Wien",
+   "products": [
+    "BILLA Genusswelt Erdäpfel Gulasch mit Chorizo"
+   ],
+   "retail_brands": [
+    "BILLA Genusswelt @ ?",
+    "BILLA Genusswelt @ BILLA",
+    "BILLA Genusswelt @ Billa"
+   ],
+   "source": "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf",
+   "note": null
+  },
+  {
+   "code": "AT 40559 EG",
+   "company": "Greisinger GmbH",
+   "town": "Klamer Straße 10, 4323 Münzbach",
+   "state": "Oberösterreich",
+   "products": [
+    "Mini Berner Würstel",
+    "Putenknacker"
+   ],
+   "retail_brands": [
+    "Greisinger @ Hofer"
+   ],
+   "source": "https://vis.statistik.at/fileadmin/ovis/pdf/O20.pdf",
+   "note": null
+  },
+  {
+   "code": "AT 92556 EG",
+   "company": "Wiesbauer österreichische Wurstspezialitäten GmbH",
+   "town": "Laxenburger Straße 256, 1230 Wien",
+   "state": "Wien",
+   "products": [],
+   "retail_brands": [],
+   "source": "https://vis.statistik.at/fileadmin/ovis/pdf/V25.pdf",
+   "note": null
+  },
+  {
+   "code": "AT 32629 EG",
+   "company": "Rewe Austria Genussküche GmbH",
+   "town": "Betriebsstraße 2, 2512 Traiskirchen",
+   "state": "Niederösterreich",
+   "products": [
+    "BILLA Butter Chicken mit Reis",
+    "BILLA Chili Con Carne XXL",
+    "BILLA Chili Sin Carne XXL",
+    "BILLA Mac'n Cheese",
+    "BILLA Spaghetti Carbonara XXL",
+    "BILLA XXL Spaghetti Bolognese rein pflanzlich",
+    "Clever Chicken Tikka Masala",
+    "Clever Huhn Süß-Sauer mit Basmatireis",
+    "Clever Käsespätzle mit Bergkäse",
+    "Clever Spaghetti Bolognese",
+    "Omis Schmankerl  Hühnerpfandl mit Spätzle",
+    "Omis Schmankerl Bohnengulasch",
+    "Omis Schmankerl Cevapcici Letscho",
+    "Omis Schmankerl Faschiertes Laibchen mit Püree",
+    "Omis Schmankerl Geschnetzeltes vom Schwein",
+    "Omis Schmankerl Hascheehörnchen",
+    "Omis Schmankerl Kalbsbutterschnitzel",
+    "Omis Schmankerl Knacker mit Rahmfisolen",
+    "Omis Schmankerl Reisfleisch Huhn",
+    "Omis Schmankerl Rindsgulasch",
+    "Omis Schmankerl Schweinsbraten",
+    "Omis Schmankerl Schweinsschnitzel mit Petersilkartoffeln",
+    "Omis Schmankerl Serviettenknödel mit Schwammerlsauce",
+    "Omis Schmankerl Specklinsen Knödel",
+    "Omis Schmankerl Szegediner Krautfleisch",
+    "Omis Schmankerl XXL Grenadiermarsch",
+    "Omis Schmankerl XXL Schinkenfleckel",
+    "Omis Schmankerl Xxl Bratwürstel mit Püree und Sauerkraut",
+    "Omis Schmankerl Xxl Erdäpfelgulasch",
+    "Simply Good Huhn Rosmarin mit Kartoffeln",
+    "Simply Good Indian Style Butter Chicken",
+    "Simply Good Indian Style Chicken Tikka",
+    "Simply Good Lachs ASC Brokkoli mit Fusilli"
+   ],
+   "retail_brands": [
+    "BILLA Immer Gut @ BILLA",
+    "CLEVER @ ?",
+    "CLEVER @ BILLA",
+    "Omis Schmankerl @ ?",
+    "Omis Schmankerl @ BILLA",
+    "Simply Good @ ?",
+    "Simply Good @ BILLA"
+   ],
+   "source": "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf",
+   "note": null
+  },
+  {
+   "code": "AT 41586 EG",
+   "company": "Hochreiter Quality Meat Factory GmbH",
+   "town": "Gewerbepark 1, 4193 Reichenthal",
+   "state": "Oberösterreich",
+   "products": [
+    "Lasagne Bolognese"
+   ],
+   "retail_brands": [
+    "Good Choice (Hofer Eigenmarke) @ Hofer",
+    "Good Choice @ HOFER",
+    "S-BUDGET @ INTERSPAR/SPAR Online"
+   ],
+   "source": "https://vis.statistik.at/fileadmin/ovis/pdf/O20.pdf",
+   "note": null
+  },
+  {
+   "code": "AT 40840 EG",
+   "company": "Hubers Landhendl GmbH",
+   "town": "Hauptstraße 80, 5223 Pfaffstätt",
+   "state": "Oberösterreich",
+   "products": [
+    "Maishendl Ministeaks"
+   ],
+   "retail_brands": [
+    "FairHOF @ HOFER"
+   ],
+   "source": "https://vis.statistik.at/fileadmin/ovis/pdf/O20.pdf",
+   "note": null
+  },
+  {
+   "code": "AT 80368 EG",
+   "company": "Graninger Holding GmbH",
+   "town": "Unterkrumbach 209, 6942 Krumbach",
+   "state": "Vorarlberg",
+   "products": [
+    "Clever Leberknödel"
+   ],
+   "retail_brands": [
+    "CLEVER @ Billa"
+   ],
+   "source": "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf",
+   "note": null
+  },
+  {
+   "code": "AT 92540 EG",
+   "company": "Radatz - Feine Wiener Fleischwaren GmbH",
+   "town": "Erlaaer Straße 187, 1230 Wien",
+   "state": "Wien",
+   "products": [
+    "Clever Backofen-Leberkäse"
+   ],
+   "retail_brands": [
+    "CLEVER @ Billa"
+   ],
+   "source": "https://vis.statistik.at/fileadmin/ovis/pdf/O20.pdf",
+   "note": null
+  },
+  {
+   "code": "AT 20293 EG",
+   "company": "Wech-Geflügel GmbH",
+   "town": "Kollegg 8, 9433 St. Andrä",
+   "state": "Kärnten",
+   "products": [
+    "Ja! Natürlich Backhendlteller"
+   ],
+   "retail_brands": [
+    "Ja! Natürlich @ Billa"
+   ],
+   "source": "https://vis.statistik.at/fileadmin/ovis/pdf/O20.pdf",
+   "note": null
+  },
+  {
+   "code": "NL 6039 EC",
+   "company": "Heiploeg International B.V.",
+   "town": "Zoutkamp",
+   "state": "Niederlande",
+   "products": [
+    "Die Grillerei Torpedospieße Chili"
+   ],
+   "retail_brands": [
+    "Die Grillerei @ Billa"
+   ],
+   "source": "https://www.openbare-inspectieresultaten.nvwa.nl/bedrijfsinspecties/visverwerkende-bedrijven/heiploeg-international-bv-eg-6039",
+   "note": null
+  },
+  {
+   "code": "AT 92584 EG",
+   "company": null,
+   "town": null,
+   "state": null,
+   "products": [
+    "Omis Schmankerl Xxl Bratwürstel mit Püree und Sauerkraut"
+   ],
+   "retail_brands": [
+    "Omis Schmankerl @ ?",
+    "Omis Schmankerl @ BILLA"
+   ],
+   "source": null,
+   "note": "In Statistik-Austria-Listen (Sektionen O,I-X,XII,XIV-XVI, Stand 12.10.2026) nicht gefunden – nicht aufgelöst (evtl. erloschen)."
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "rewe-group": {
+  "file": "cand/cm_rewe-group.svg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/REWE_GROUP_Logo_10-2026%E2%80%93.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page": "https://commons.wikimedia.org/wiki/File%3AREWE_GROUP_Logo_10-2026%E2%80%93.svg",
+  "size": [
+   866,
+   115
+  ],
+  "license": "Public domain",
+  "artist": "REWE GROUP"
+ },
+ "rewe-group2": {
+  "file": "cand/cm_rewe-group2.svg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Rewe-group.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page": "https://commons.wikimedia.org/wiki/File%3ARewe-group.svg",
+  "size": [
+   602,
+   207
+  ],
+  "license": "Public domain",
+  "artist": "Unknown author<span style=\"display: none;\">Unknown author</span>"
+ },
+ "mars": {
+  "file": "cand/cm_mars.svg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Mars_Incorporated_2019_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page": "https://commons.wikimedia.org/wiki/File%3AMars_Incorporated_2019_logo.svg",
+  "size": [
+   1024,
+   302
+  ],
+  "license": "Public domain",
+  "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=Mars_Incorporated&amp;action="
+ }
+}

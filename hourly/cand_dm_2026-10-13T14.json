@@ -1,0 +1,84 @@
+[
+{
+"source": "dm",
+"store": "dm",
+"name": "dmBio Vegetarisches Hack Rote Linsen Bratlinge",
+"brand": "dmBio",
+"price_eur": 1.65,
+"unit_price_eur": 9.43,
+"unit": "kg",
+"size_g": 175.0,
+"nutrition_100g": {
+"kcal": 334.0,
+"fat": 2.0,
+"satfat": 0.3,
+"carbs": 54.0,
+"sugar": 5.7,
+"fiber": 12.0,
+"protein": 19.0,
+"salt": 2.4
+},
+"ean": "4066447580617",
+"image_url": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1747483389/assets/pas/images/d865eae4-77a3-4563-9a57-b0275cd65fe9/dmbio-vegetarisches-hack-rote-linsen-bratlinge",
+"producer": "dm-drogerie markt GmbH + Co.KG",
+"producer_id": null,
+"origin": "Deutschland",
+"category": "Ernährung > Fertiggerichte & Konserven > Schnelle Gerichte",
+"source_url": "https://www.dm.at/p/d/1430747/dmbio-vegetarisches-hack-rote-linsen-bratlinge",
+"source_id": "1430747",
+"fetched_at": "2026-10-13T14:46:54+00:00",
+"extra": {
+"api": "https://products.dm.de/product/products/detail/AT/dan/1430747",
+"nutrition_basis": "pro 100 g",
+"breadcrumbs": [
+"Ernährung",
+"Fertiggerichte & Konserven",
+"Schnelle Gerichte"
+],
+"ingredients": "Genaue Produktbezeichnung: \nBio Trockenmischung zur Zubereitung veganer Linsen Bratlinge\n\n60% Linsenschrot rot*, Maisgrieß*, Zwiebel*, Reisvollkornmehl*, Kartoffelstärke*, Karotte*, Meersalz, Paprika*, Tomate*, Knoblauch*,  Sonnenblumenöl*, Petersilie*, Kreuzkümmel*, Basilikum*, Chili*, Pfeffer (schwarz)*/*aus ökologischer Landwirtschaft; EU/ Nicht EU- Landwirtschaft",
+"prep": "Ergibt ca. 10-13 Stück",
+"price_note": "nicht erhöht seit 15.11.2023"
+}
+},
+{
+"source": "dm",
+"store": "dm",
+"name": "dmBio Gemüsepfanne mit Bulgur & Quinoa",
+"brand": "dmBio",
+"price_eur": 2.75,
+"unit_price_eur": 11.0,
+"unit": "kg",
+"size_g": 250.0,
+"nutrition_100g": {
+"kcal": 113.0,
+"fat": 5.6,
+"satfat": 0.8,
+"carbs": 12.0,
+"sugar": 2.1,
+"fiber": 3.5,
+"protein": 2.8,
+"salt": 1.0
+},
+"ean": "4066447889925",
+"image_url": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1764889906/assets/pas/images/0b430d87-5df1-475a-8056-3be59563b95f/dmbio-gemuesepfanne-mit-bulgur-und-quinoa",
+"producer": "dm-drogerie markt GmbH + Co.KG",
+"producer_id": null,
+"origin": "Frankreich",
+"category": "Ernährung > Fertiggerichte & Konserven > Schnelle Gerichte",
+"source_url": "https://www.dm.at/p/d/1549898/dmbio-gemuesepfanne-mit-bulgur-und-quinoa",
+"source_id": "1549898",
+"fetched_at": "2026-10-13T14:47:07+00:00",
+"extra": {
+"api": "https://products.dm.de/product/products/detail/AT/dan/1549898",
+"nutrition_basis": "pro 100 g*",
+"breadcrumbs": [
+"Ernährung",
+"Fertiggerichte & Konserven",
+"Schnelle Gerichte"
+],
+"ingredients": "Genaue Produktbezeichnung: \nBio Gemüsepfanne mit Bulgur und Quinoa\n\nWasser, 17% Karotten*, 8% Zucchini*, 8% Tomaten*, 7,5% BULGUR* (HARTWEIZEN*), Zwiebeln*, 6% Kürbis*, 5% Lauch*, 5% Tomatenpüree*, 4% Quinoa*, 4% Süßkartoffeln*, Sonnenblumenöl*, DINKELWEIZEN* , natives Olivenöl extra*, 2% grüne Linsen*, Zitronensaft*, Salz, Kraüter* (Schnittlauch*, Thymian*), Gewürze* (Knoblauch*, schwarzer Pfeffer*, rote Chili*). *aus biologischer Landwirtschaft\n\nBitte beachten Sie die Hinweise zu Allergenen.",
+"prep": null,
+"price_note": "nicht erhöht seit 05.06.2024"
+}
+}
+]

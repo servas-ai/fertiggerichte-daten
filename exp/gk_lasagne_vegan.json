@@ -1,0 +1,230 @@
+{
+ "count": 7,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Girolomoni BIO Lasagne Blätter",
+   "brand": "Girolomoni",
+   "price_eur": 3.09,
+   "unit_price_eur": 6.18,
+   "unit": "kg",
+   "size_g": 500.0,
+   "nutrition_100g": {
+    "kcal": 362.0,
+    "fat": 1.4,
+    "satfat": 1.0,
+    "carbs": 74.1,
+    "sugar": 2.0,
+    "protein": 12.0,
+    "salt": 0.03,
+    "fiber": 2.6
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/9331/9331-1653492053515.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Italien",
+   "category": "Vorratsschrank > Pasta, Reis & Beilagen > Pasta",
+   "source_url": "https://www.gurkerl.at/9331-girolomoni-bio-lasagne-blaetter",
+   "source_id": "9331",
+   "fetched_at": "2026-10-13T02:20:20+00:00",
+   "extra": {
+    "ingredients": "Pasta aus Hartweizengrieß\n\nIT-BIO-006"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Garofalo Lasagna Riccia",
+   "brand": "Garofalo",
+   "price_eur": 3.09,
+   "unit_price_eur": 6.18,
+   "unit": "kg",
+   "size_g": 500.0,
+   "nutrition_100g": {
+    "kcal": 351.0,
+    "fat": 1.0,
+    "satfat": 0.2,
+    "carbs": 70.0,
+    "sugar": 3.0,
+    "protein": 14.0,
+    "salt": 0.0,
+    "fiber": 3.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/25918/25918-1651747943443.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Italien",
+   "category": "Vorratsschrank > Pasta, Reis & Beilagen > Pasta",
+   "source_url": "https://www.gurkerl.at/25918-garofalo-lasagna-riccia",
+   "source_id": "25918",
+   "fetched_at": "2026-10-13T02:20:20+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Hartweizengrieß"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Marks & Spencer Plant Kitchen No Beef Mince",
+   "brand": "Marks & Spencer",
+   "price_eur": 11.99,
+   "unit_price_eur": 23.98,
+   "unit": "kg",
+   "size_g": 500.0,
+   "nutrition_100g": {
+    "kcal": 136.0,
+    "fat": 2.9,
+    "satfat": 0.4,
+    "carbs": 4.0,
+    "sugar": 1.7,
+    "protein": 21.5,
+    "salt": 1.2,
+    "fiber": 3.9
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/46872/46872-1770640862383687476.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Großbritannien",
+   "category": "Marks & Spencer > Tiefgekühlte Produkte",
+   "source_url": "https://www.gurkerl.at/46872-marks-spencer-plant-kitchen-no-beef-mince",
+   "source_id": "46872",
+   "fetched_at": "2026-10-13T02:20:20+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Trinkwasser, Erbsenprotein (25 %), karamellisierte Zwiebeln (7 %) (Zwiebeln, Muscovadozucker, Rapsöl), Erbsenextrakt, Rapsöl, natürliche Aromen, Zwiebelpüree, glutenfreier Gerstenmalzextrakt, geröstetes Knoblauchpüree, geräuchertes Paprikapulver, Maisstärke, Weißwein, Speisesalz, Rote-Bete-Saftkonzentrat, Weißweinessig, Sojabohnen, grob gemahlener schwarzer Pfeffer, getrocknete Zwiebeln, Champignonsaftkonzentrat, Hefeextrakt, Stabilisator: E401, Essig, Zitronensaftkonzentrat, grob gemahlener schwarzer Pfeffer, getrocknete Pastinaken"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Kitchin BIO geschälte Tomaten",
+   "brand": "Kitchin",
+   "price_eur": 0.99,
+   "unit_price_eur": 2.48,
+   "unit": "kg",
+   "size_g": 400.0,
+   "nutrition_100g": {
+    "kcal": 19.0,
+    "fat": 0.1,
+    "satfat": 0.0,
+    "carbs": 3.0,
+    "sugar": 3.0,
+    "protein": 1.1,
+    "salt": 0.1,
+    "fiber": 0.8
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/30221/30221-1682512499172.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Italien",
+   "category": "Vorratsschrank > Konserven & Eingelegtes > Tomatenprodukte > Tomaten & Passata",
+   "source_url": "https://www.gurkerl.at/30221-kitchin-bio-geschaelte-tomaten",
+   "source_id": "30221",
+   "fetched_at": "2026-10-13T02:20:20+00:00",
+   "extra": {
+    "ingredients": "BIO ganze, geschälte Tomaten in Tomatensaft. Pasteurisiert. \n\nZutaten: 60% Tomaten*, Tomatensaft*, Säuerungsmittel: Zitronensäure. *aus dem ökologischen Landbau. \n\nTrocken lagern und vor Hitze schützen. Nach dem Öffnen in einem nicht-metallischen Behälter im Kühlschrank aufbewahren und innerhalb von 3 Tagen verbrauchen.\n\nBIO Kontrollnummer: IT-BIO-007\n\nDAVIA SPA, VIA MOTTA CASA DEI MIRI 5, 80054 GRAGNANO (NA) IT"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Byodo BIO Lasagne Blätter Mais-Reis glutenfrei",
+   "brand": "Byodo",
+   "price_eur": 3.49,
+   "unit_price_eur": 13.96,
+   "unit": "kg",
+   "size_g": 250.0,
+   "nutrition_100g": {
+    "kcal": 349.0,
+    "fat": 1.1,
+    "satfat": 0.2,
+    "carbs": 77.0,
+    "sugar": 0.5,
+    "protein": 6.7,
+    "salt": null,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/30691/30691-1740751952156.jpg",
+   "producer": "Byodo Naturkost GmbH, Leisederstraße 2, 84453 Mühldorf a. Inn",
+   "producer_id": null,
+   "origin": "Italien",
+   "category": "Vorratsschrank > Pasta, Reis & Beilagen > Pasta",
+   "source_url": "https://www.gurkerl.at/30691-byodo-bio-lasagne-blaetter-mais-reis-glutenfrei",
+   "source_id": "30691",
+   "fetched_at": "2026-10-13T02:20:20+00:00",
+   "extra": {
+    "ingredients": "Maismehl* (55%), Reismehl* (45%)\n*aus kontrolliert ökologischer Erzeugung\n\nHersteller: Byodo Naturkost GmbH, Leisederstraße 2, 84453 Mühldorf a. Inn\n\nÖko-Kontrollstellennummer: DE-ÖKO-013"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Mutti BIO Gehackte Tomaten",
+   "brand": "Mutti",
+   "price_eur": 2.69,
+   "unit_price_eur": 6.73,
+   "unit": "kg",
+   "size_g": 400.0,
+   "nutrition_100g": {
+    "kcal": 26.0,
+    "fat": 0.2,
+    "satfat": 0.1,
+    "carbs": 3.9,
+    "sugar": 2.8,
+    "protein": 1.2,
+    "salt": 0.1,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/47831/47831-1777032207286231089.png",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Italien",
+   "category": "Vorratsschrank > Konserven & Eingelegtes > Tomatenprodukte > Tomaten & Passata",
+   "source_url": "https://www.gurkerl.at/47831-mutti-bio-gehackte-tomaten",
+   "source_id": "47831",
+   "fetched_at": "2026-10-13T02:20:20+00:00",
+   "extra": {
+    "ingredients": "Zutaten: biologische Tomaten 99,8%, Salz"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Alnatura BIO 100% Hartweizen Lasagne",
+   "brand": "Alnatura",
+   "price_eur": 1.19,
+   "unit_price_eur": 4.76,
+   "unit": "kg",
+   "size_g": 250.0,
+   "nutrition_100g": {
+    "kcal": 349.0,
+    "fat": 1.5,
+    "satfat": 0.3,
+    "carbs": 71.0,
+    "sugar": 3.2,
+    "protein": 11.0,
+    "salt": 0.01,
+    "fiber": 3.5
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/10457/10457-1723450251819.jpg",
+   "producer": "Alnatura GmbH, Mahatma-Gandhi-Straße 7, 64295 Darmstadt.",
+   "producer_id": null,
+   "origin": "Italien",
+   "category": "Vorratsschrank > Pasta, Reis & Beilagen > Pasta",
+   "source_url": "https://www.gurkerl.at/10457-alnatura-bio-100-hartweizen-lasagne",
+   "source_id": "10457",
+   "fetched_at": "2026-10-13T02:20:20+00:00",
+   "extra": {
+    "ingredients": "Bio Teigwaren aus Hartweizengrieß.\n\nZutaten: HARTWEIZENGRIEß*.\n* aus biologischer Landwirtschaft. \nKann Spuren von Soja enthalten.\n\nTrocken & vor Wärme geschützt lagern.\n\nBio-Kontrollstellennummer: DE-ÖKO-006\n\nKontakt: Alnatura GmbH, Mahatma-Gandhi-Straße 7, 64295 Darmstadt."
+   }
+  }
+ ]
+}

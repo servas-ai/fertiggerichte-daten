@@ -1,0 +1,101 @@
+{
+ "aia": {
+  "file": "cand/cm_aia.png",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Logo_aia_2021.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page": "https://commons.wikimedia.org/wiki/File%3ALogo_aia_2021.png",
+  "size": [
+   2000,
+   2000
+  ],
+  "license": "Public domain",
+  "artist": "FM Visual Designer"
+ },
+ "indomie": {
+  "file": "cand/cm_indomie.png",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Indomie_Logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page": "https://commons.wikimedia.org/wiki/File%3AIndomie_Logo.png",
+  "size": [
+   370,
+   244
+  ],
+  "license": "Public domain",
+  "artist": "<a href=\"https://en.wikipedia.org/wiki/Indofood\" class=\"extiw\" title=\"en:Indofood\">Indofood</a>"
+ },
+ "galbani": {
+  "file": "cand/cm_galbani.png",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/LogoGalbani-06122021.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page": "https://commons.wikimedia.org/wiki/File%3ALogoGalbani-06122021.png",
+  "size": [
+   914,
+   653
+  ],
+  "license": "CC BY-SA 4.0",
+  "artist": "Galbani"
+ },
+ "barilla": {
+  "file": "cand/cm_barilla.svg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Barilla_brand_logo_%282022-present%29.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page": "https://commons.wikimedia.org/wiki/File%3ABarilla_brand_logo_%282022-present%29.svg",
+  "size": [
+   567,
+   227
+  ],
+  "license": "Public domain",
+  "artist": "<a href=\"https://it.wikipedia.org/wiki/Barilla\" class=\"extiw\" title=\"it:Barilla\">Barilla</a>"
+ },
+ "iglo": {
+  "file": "cand/cm_iglo.png",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Logo_Iglo_Oesterreich_2015.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page": "https://commons.wikimedia.org/wiki/File%3ALogo_Iglo_Oesterreich_2015.png",
+  "size": [
+   401,
+   322
+  ],
+  "license": "CC BY 3.0",
+  "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Burger_Super&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"U"
+ },
+ "knorr": {
+  "file": "cand/cm_knorr.svg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Knorr_Logo_2020.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page": "https://commons.wikimedia.org/wiki/File%3AKnorr_Logo_2020.svg",
+  "size": [
+   400,
+   333
+  ],
+  "license": "Public domain",
+  "artist": "Unilever"
+ },
+ "maggi": {
+  "file": "cand/cm_maggi.svg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Maggi_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page": "https://commons.wikimedia.org/wiki/File%3AMaggi_logo.svg",
+  "size": [
+   512,
+   322
+  ],
+  "license": "Public domain",
+  "artist": "Maggie"
+ },
+ "thiriet": {
+  "file": "cand/cm_thiriet.jpg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/THIRIET-logo-060521-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page": "https://commons.wikimedia.org/wiki/File%3ATHIRIET-logo-060521-01.jpg",
+  "size": [
+   3242,
+   1635
+  ],
+  "license": "CC BY-SA 4.0",
+  "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Eloyaz&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:El"
+ },
+ "samyang-foods": {
+  "file": "cand/cm_samyang-foods.svg",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Samyang_Foods_Logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "page": "https://commons.wikimedia.org/wiki/File%3ASamyang_Foods_Logo.svg",
+  "size": [
+   300,
+   74
+  ],
+  "license": "Public domain",
+  "artist": "Samyang Foods"
+ }
+}

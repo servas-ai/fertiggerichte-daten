@@ -1,0 +1,390 @@
+{
+ "count": 12,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Schärdinger Reibkäse 45% Gratin",
+   "brand": "Schärdinger",
+   "price_eur": 3.29,
+   "unit_price_eur": 16.45,
+   "unit": "kg",
+   "size_g": 200.0,
+   "nutrition_100g": {
+    "kcal": 359.0,
+    "fat": 28.0,
+    "satfat": 18.0,
+    "carbs": 0.9,
+    "sugar": 0.0,
+    "protein": 27.0,
+    "salt": 1.8,
+    "fiber": 0.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/3854/3854-1603212909332.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Käse > Käse gerieben",
+   "source_url": "https://www.gurkerl.at/3854-schaerdinger-reibkaese-45-gratin",
+   "source_id": "3854",
+   "fetched_at": "2026-10-13T02:08:42+00:00",
+   "extra": {
+    "ingredients": "Käsemischung aus verschiedenen Schnitt- und Hartkäsesorten,\ngeraspelt, aus pasteurisierter Milch. Dieses Produkt ist zum direkten Verzehr geeignet. Der Kohlenhydratgehalt ist auf die Maisstärke\nzurückzuführen.\n\nZutaten: MILCH, Maisstärke, Salz, Lab, Käsereikulturen.\n\nLaktosefrei.\nUnter Schutzatmosphäre verpackt."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Ländle Spätzlekäse gerieben",
+   "brand": "Ländle",
+   "price_eur": 5.29,
+   "unit_price_eur": 26.45,
+   "unit": "kg",
+   "size_g": 200.0,
+   "nutrition_100g": {
+    "kcal": 392.0,
+    "fat": 31.0,
+    "satfat": 20.0,
+    "carbs": 2.4,
+    "sugar": 0.0,
+    "protein": 26.0,
+    "salt": 2.1,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/28507/28507-1669217168919.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Käse > Käse gerieben",
+   "source_url": "https://www.gurkerl.at/28507-laendle-spaetzlekaese-gerieben",
+   "source_id": "28507",
+   "fetched_at": "2026-10-13T02:08:42+00:00",
+   "extra": {
+    "ingredients": "Käsemischung aus österreichischem Hartkäse aus ROHMILCH und österreichischem Schnittkäse aus pasteurisierter MILCH.\n\nZutaten: Österreichischer Hartkäse 45% Fett i. Tr. (33%) mit ROHMILCH hergestellt, österreichischer Schnittkäse 50% Fett i. Tr. (32%) und österreichischer Schnittkäse 45% Fett i. Tr. (32%) aus pasteurisierter MILCH, Trennmittel: Kartoffelstärke."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Maggi Fix für Lachs Sahne Gratin",
+   "brand": "Maggi",
+   "price_eur": 1.59,
+   "unit_price_eur": 61.15,
+   "unit": "kg",
+   "size_g": 26.0,
+   "nutrition_100g": {
+    "kcal": 516.0,
+    "fat": 33.7,
+    "satfat": 18.3,
+    "carbs": 46.2,
+    "sugar": 30.4,
+    "protein": 5.6,
+    "salt": 9.9,
+    "fiber": 1.5
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/33554/33554-1722521108127.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Vorratsschrank > Salz, Gewürze, Kochzutaten & Co. > Basisfixprodukte",
+   "source_url": "https://www.gurkerl.at/33554-maggi-fix-fuer-lachs-sahne-gratin",
+   "source_id": "33554",
+   "fetched_at": "2026-10-13T02:08:42+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Palmfett*, MILCHZUCKER*, Kartoffelstärke*, Jodsalz (Salz, Kaliumjodat), Aroma, 2,8% Dill*, MILCHEIWEISSERZEUGNIS*, Gewürze* (Pfeffer, Knoblauch, Kurkuma), Paprikaextrakt*, Weißweinextrakt, Würze* (aus WEIZEN), natürliche Aromen*, Säuerungsmittel Citronensäure*, Salz*. Kann SELLERIE, EIER, SENF und SOJA enthalten. *Natürliche Zutaten.\n\nMindestens haltbar bis Ende: siehe Aufdruck.\n\nFrisch dazu: 250 g frisches oder tiefgekühltes Lachsfilet (alternativ Seelachs), 250 ml Schlagsahne. Zubereitung: 1. Frischen, aufgetauten oder gefrorenen Fisch in eine Auflaufform legen. 2. Beutelinhalt in 250 ml Sahne einrühren. 3 Sauce über den Fisch gießen und im vorgeheizten Backofen bei 200°C (Umluft 170°C) ca. 25 Min. backen. Tiefgekühlter Lachs benötigt ca. 35 Min. Garzeit. Dazu schmeckt Reis."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Violife Cheddar Geschmack Scheiben",
+   "brand": "Violife",
+   "price_eur": 3.39,
+   "unit_price_eur": 24.21,
+   "unit": "kg",
+   "size_g": 140.0,
+   "nutrition_100g": {
+    "kcal": 285.0,
+    "fat": 23.0,
+    "satfat": 21.0,
+    "carbs": 20.0,
+    "sugar": 0.0,
+    "protein": 0.0,
+    "salt": 2.3,
+    "fiber": 0.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/12774/12774-1713261684264.jpg",
+   "producer": "",
+   "producer_id": null,
+   "origin": "EU",
+   "category": "Kühlregal > Produkte auf Pflanzenbasis > Käse - Alternativen",
+   "source_url": "https://www.gurkerl.at/12774-violife-cheddar-geschmack-scheiben",
+   "source_id": "12774",
+   "fetched_at": "2026-10-13T02:08:42+00:00",
+   "extra": {
+    "ingredients": "Lebensmittelzubereitung mit Kokosöl für Toast, Sandwich und zum Snacken.\n\t\t\t\nZutaten: Wasser, Kokosöl (23%), modifizierte Stärke, Stärke, Meersalz, Mozzarella Aroma, Olivenextrakt, Farbstoff: Beta-Carotin, Vitamin B12.\t\t\t\n\nGekühlt (bei 2°-8°Grad) lagern.\n\nKontakt:\nUpfield Austria GmbH, Gertrude-Fröhlich-Sandner-Straße (Tower 9) 2-4, 1100 Wien, Österreich, 01 20 51 90-7169"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Walchseer BIO Bergkäse gerieben",
+   "brand": "BIO Käse Walchsee",
+   "price_eur": 6.79,
+   "unit_price_eur": 27.16,
+   "unit": "kg",
+   "size_g": 250.0,
+   "nutrition_100g": {
+    "kcal": 418.0,
+    "fat": 32.0,
+    "satfat": 21.0,
+    "carbs": 2.5,
+    "sugar": 0.1,
+    "protein": 30.0,
+    "salt": 1.5,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/45518/45518-1761033313059.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Käse > Käse gerieben",
+   "source_url": "https://www.gurkerl.at/45518-walchseer-bio-bergkaese-gerieben",
+   "source_id": "45518",
+   "fetched_at": "2026-10-13T02:08:42+00:00",
+   "extra": {
+    "ingredients": "Bergkäse gerieben\n\nZutaten: Bio BERGKÄSE, Bio Kartoffelstärke\n\n Bei 4 - 8° C lagern. \n\nBIO-Kontrollstellennummer: AT BIO 301"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Knorr Basis Überbackener Hörnchen-Auflauf",
+   "brand": "Knorr",
+   "price_eur": 1.49,
+   "unit_price_eur": 28.65,
+   "unit": "kg",
+   "size_g": 52.0,
+   "nutrition_100g": {
+    "kcal": 173.0,
+    "fat": 8.0,
+    "satfat": 3.5,
+    "carbs": 14.0,
+    "sugar": 2.5,
+    "protein": 11.0,
+    "salt": 0.74,
+    "fiber": 1.4
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/9512/9512-1674033632871.jpg",
+   "producer": "Unilever Austria GmbH, Stella-Klein-Löw-Weg 13, 1020 Wien, Österreich",
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Vorratsschrank > Salz, Gewürze, Kochzutaten & Co. > Basisfixprodukte",
+   "source_url": "https://www.gurkerl.at/9512-knorr-basis-ueberbackener-hoernchen-auflauf",
+   "source_id": "9512",
+   "fetched_at": "2026-10-13T02:08:42+00:00",
+   "extra": {
+    "ingredients": "Zutaten: 53% Tomatenpulver³, Zucker, Aromen, jodiertes Speisesalz, Stärke, 3,2% Zwiebeln³, Hefeextrakt, Würze, Kochsalzersatz4, Gewürze (Knoblauch³, Pfeffer), Speisesalz, Kräuter (Oregano³, Thymian³), Gemüsesaftkonzentrate (SELLERIE³, Karotten³, Lauch³, Zwiebeln³), Reismehl, Maiskeimöl.³ aus nachhaltigem Anbau4 gewonnen aus natürlichen KaliummineralienKann Spuren von Gluten, Milch, Ei, Soja und Senf enthalten.\n\nZubereitung: Was Sie dazu brauchen: 300 g mageres Faschiertes, 150 g Hörnchen, 100 g Crème fraîche, 50 g geriebenen Käse (16% Fett) und 1 EL Öl 1) Faschiertes in 1 EL heißem Öl kurz anbraten. ½ l kaltes Wasser zugießen, Beutelinhalt einrühren und unter Rühren aufkochen. 2) Ungekochte Hörnchen in eine Auflaufform geben. Sauce in die Auflaufform gießen und gleichmäßig zwischen den Hörnchen verteilen. 3) Crème fraîche und Käse darüber geben. Im vorgeheizten Backofen bei 200°C (Umluft 175°C) ca. 30 Minuten backen. \n\nKühl und trocken lagern. \n\nKontakt: Unilever Austria GmbH, Stella-Klein-Löw-Weg 13, 1020 Wien, Österreich"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Bio vom Berg Tiroler BIO Reibkäse",
+   "brand": "Bio Alpin",
+   "price_eur": 4.99,
+   "unit_price_eur": 24.95,
+   "unit": "kg",
+   "size_g": 200.0,
+   "nutrition_100g": {
+    "kcal": 376.0,
+    "fat": 29.0,
+    "satfat": 20.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "protein": 28.0,
+    "salt": 1.2,
+    "fiber": 0.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/1639/1639-1708516751889.jpg",
+   "producer": "",
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Käse > Käse gerieben",
+   "source_url": "https://www.gurkerl.at/1639-bio-vom-berg-tiroler-bio-reibkaese",
+   "source_id": "1639",
+   "fetched_at": "2026-10-13T02:08:42+00:00",
+   "extra": {
+    "ingredients": "Bio Reibkäse 45% F.i.T. Bio Emmentaler und Bio Bergkäseaus Heumilch g.t.S. mit Rohmilch hergestellt.\n\nGekühlt (bei 2°-6°C) lagern.\nUnter Schutzatmosphäre verpackt.\n\nKontaktdaten:\nInterfood Lebensmittelgroßhandel Ges.m.b.H., Innsbruckerstrasse 77, 6060 Hall in Tirol, +43(0)52 2356808–0, info@interfood.at"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "PICARD Gratin Dauphinois (tiefgekühlt)",
+   "brand": "PICARD",
+   "price_eur": 5.99,
+   "unit_price_eur": 13.31,
+   "unit": "kg",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "kcal": 133.0,
+    "fat": 7.0,
+    "satfat": 4.1,
+    "carbs": 13.0,
+    "sugar": 1.7,
+    "protein": 3.9,
+    "salt": 0.49,
+    "fiber": 1.9
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/49064/49064-178651327750668277.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Frankreich",
+   "category": "Tiefkühlprodukte > Fertiggerichte > Internationales",
+   "source_url": "https://www.gurkerl.at/49064-picard-gratin-dauphinois-tiefgekuehlt",
+   "source_id": "49064",
+   "fetched_at": "2026-10-13T02:08:42+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Vorgegarte Kartoffel 55 %, Wasser, Crème fraîche flüssig 12,6 % (MILCH), geriebener französischer Emmentaler 6,3 % (enthält MILCH), Magermilchpulver (MILCH), Knoblauch, Sonnenblumenöl, Reisstärke, Salz, Knoblauchpüree, Muskatnuss, Pfeffer."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Miil Grana Padano DOP gerieben",
+   "brand": "Miil",
+   "price_eur": 3.29,
+   "unit_price_eur": 21.93,
+   "unit": "kg",
+   "size_g": 150.0,
+   "nutrition_100g": {
+    "kcal": 398.0,
+    "fat": 29.0,
+    "satfat": 18.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "protein": 33.0,
+    "salt": 1.5,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/37659/37659-1733147892616.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Italien",
+   "category": "Kühlregal > Käse > Parmesan, Grana & Co",
+   "source_url": "https://www.gurkerl.at/37659-miil-grana-padano-dop-gerieben",
+   "source_id": "37659",
+   "fetched_at": "2026-10-13T02:08:42+00:00",
+   "extra": {
+    "ingredients": "Grana Padano, geschützte Ursprungsbezeichnung. Italienischer, geriebener Hartkäse. Mindestens 32% i.Tr., Trockenmasse mind. 65%.\n\nZutaten: MILCH, Salz, tierisches Lab, Konservierungsstoff: Lysozym (EIPROTEIN). \n\nBei 2-7°C lagern."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Parmareggio BIO Parmigiano Reggiano DOP gerieben 12 Monate gereift",
+   "brand": "Parmareggio",
+   "price_eur": 2.19,
+   "unit_price_eur": 43.8,
+   "unit": "kg",
+   "size_g": 50.0,
+   "nutrition_100g": {
+    "kcal": 402.0,
+    "fat": 30.0,
+    "satfat": 20.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "protein": 32.0,
+    "salt": 1.6,
+    "fiber": 0.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/47456/47456-1774449973243997230.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Italien",
+   "category": "Kühlregal > Käse > Parmesan, Grana & Co",
+   "source_url": "https://www.gurkerl.at/47456-parmareggio-bio-parmigiano-reggiano-dop-gerieben-12-monate-gereift",
+   "source_id": "47456",
+   "fetched_at": "2026-10-13T02:08:42+00:00",
+   "extra": {
+    "ingredients": "Zutaten: MILCH*, Speisesalz, tierisches Lab\n* aus biologischer Landwirtschaft\n\nItalienischer Hartkäse mind 32% Fett i.Tr.\n\nGekühlt (bei 4°-8°C) lagern.\n"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Agriform Grana Padano DOP gerieben 10 Monate gereift",
+   "brand": "Agriform",
+   "price_eur": 2.29,
+   "unit_price_eur": 22.9,
+   "unit": "kg",
+   "size_g": 100.0,
+   "nutrition_100g": {
+    "kcal": 398.0,
+    "fat": 29.0,
+    "satfat": 18.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "protein": 33.0,
+    "salt": 1.5,
+    "fiber": 0.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/47455/47455-177444997369084434.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Italien",
+   "category": "Kühlregal > Käse > Parmesan, Grana & Co",
+   "source_url": "https://www.gurkerl.at/47455-agriform-grana-padano-dop-gerieben-10-monate-gereift",
+   "source_id": "47455",
+   "fetched_at": "2026-10-13T02:08:42+00:00",
+   "extra": {
+    "ingredients": "Zutaten: MILCH, Salz, tierisches Lab, Konservierungsstoff: Lysozym (EIPROTEIN)\n\nItalienischer Hartkäse mind 32% Fett i.Tr.\n\nGekühlt (bei 4°-8°C) lagern.\n"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "nöm PRO Protein Käse gerieben",
+   "brand": "nöm PRO",
+   "price_eur": 4.59,
+   "unit_price_eur": 22.95,
+   "unit": "kg",
+   "size_g": 200.0,
+   "nutrition_100g": {
+    "kcal": 283.0,
+    "fat": 15.0,
+    "satfat": 10.0,
+    "carbs": 1.1,
+    "sugar": 0.0,
+    "protein": 36.0,
+    "salt": 1.8,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/49302/49302-1788852149985795534.JPEG",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Käse > Käse gerieben",
+   "source_url": "https://www.gurkerl.at/49302-noem-pro-protein-kaese-gerieben",
+   "source_id": "49302",
+   "fetched_at": "2026-10-13T02:08:42+00:00",
+   "extra": {
+    "ingredients": "Zutaten: MILCH, Speisesalz, Mikroorganismenkulturen, Labaustauschstoff, Kartoffelstärke. "
+   }
+  }
+ ]
+}

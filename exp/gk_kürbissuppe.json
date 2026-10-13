@@ -1,0 +1,84 @@
+{
+ "count": 3,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Followfood BIO Kürbis Suppe",
+   "brand": "followfood",
+   "price_eur": 3.69,
+   "unit_price_eur": 9.84,
+   "unit": "l",
+   "size_g": 375.0,
+   "nutrition_100g": {
+    "kcal": 58.0,
+    "fat": 2.5,
+    "satfat": 1.4,
+    "carbs": 7.0,
+    "sugar": 3.7,
+    "protein": 0.8,
+    "salt": 1.2,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/23405/23405-1734508412491.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Kühlregal > Schnelle Küche > Suppen & Fonds",
+   "source_url": "https://www.gurkerl.at/23405-followfood-bio-kuerbis-suppe",
+   "source_id": "23405",
+   "fetched_at": "2026-10-13T02:19:18+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Wasser, Kürbis* 30%, Karotten*, Kokosmilchzubereitung* (Kokosnussextrakt* 3,6 %, Wasser), Kartoffeln*, Zwiebeln*, Maisstärke*, Tomatenmark*, Apfelsaftkonzentrat*, Meersalz, Sonnenblumenöl*, Orangensaftkonzentrat*, Verdickungsmittel (Guarkernmehl*, Johannisbrotkernmehl*), Koriander*, Muskat*, Pfeffer*.\n  \n *aus kontrolliert biologischem Anbau"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Suppito Kürbiscreme Suppe",
+   "brand": "Suppito",
+   "price_eur": 11.99,
+   "unit_price_eur": 23.51,
+   "unit": "kg",
+   "size_g": 510.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/44771/44771-1758268185655406124.JPG",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Schnelle Küche > Suppen & Fonds",
+   "source_url": "https://www.gurkerl.at/44771-suppito-kuerbiscreme-suppe",
+   "source_id": "44771",
+   "fetched_at": "2026-10-13T02:19:18+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Wasser, 23% Hokkaidokürbis, Erdäpfel, Zwiebel, Natursalz, Apfelessig, Tomatenmark, BUTTERSCHMALZ, Kümmel, Paprikapulver edelsüß,\nKardamom, Knoblauch, Pfeffer schwarz, Hiziki Algen."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Suppito Kürbis Kokos Suppe",
+   "brand": "Suppito",
+   "price_eur": 11.99,
+   "unit_price_eur": 23.51,
+   "unit": "kg",
+   "size_g": 510.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/44776/44776-1758268187192100829.JPG",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Schnelle Küche > Suppen & Fonds",
+   "source_url": "https://www.gurkerl.at/44776-suppito-kuerbis-kokos-suppe",
+   "source_id": "44776",
+   "fetched_at": "2026-10-13T02:19:18+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Wasser, 37% Hokkaidokürbis, 16% Kokosmilch (70% Kokosnussextrakt, Wasser, Emulgator: E435), Zwiebel, scharfer Senf (Wasser, GELBSENFSAAT, Branntweinessig, Steinsalz, BRAUNSENFSAAT, Gewürze), Natursalz, Kokosöl, Rohrohrzucker, Ingwer, Zitronensaft, Kardamom gemahlen, Chilipulver, Kreuzkümmel, Hiziki Algen, Zitronenschale"
+   }
+  }
+ ]
+}

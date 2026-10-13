@@ -1,0 +1,102 @@
+{
+ "count": 3,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Iglo Mohnnudeln (tiefgekühlt)",
+   "brand": "Iglo",
+   "price_eur": 5.49,
+   "unit_price_eur": 10.98,
+   "unit": "kg",
+   "size_g": 500.0,
+   "nutrition_100g": {
+    "kcal": 194.0,
+    "fat": 2.5,
+    "satfat": 0.4,
+    "carbs": 37.0,
+    "sugar": 6.6,
+    "protein": 5.3,
+    "salt": 0.7,
+    "fiber": 1.4
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/6081/6081-1678984409677.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "EU",
+   "category": "Tiefkühlprodukte > Mehlspeisen > Warme Mehlspeisen & Süße Knödel",
+   "source_url": "https://www.gurkerl.at/6081-iglo-mohnnudeln-tiefgekuehlt",
+   "source_id": "6081",
+   "fetched_at": "2026-10-13T02:18:52+00:00",
+   "extra": {
+    "ingredients": "Nudeln aus Erdäpfelteig, vorgekocht, mit Mohn-Zuckermischung, tiefgekühlt\n\nZutaten: Erdäpfelnudeln (450g): Erdäpfel (62 %), WEIZENMEHL, WEIZENGRIEß, EI, Speisesalz jodiert (Salz, Kaliumjodid), Gewürzextrakte.\nMohn-Zucker-Gemisch (50 g): Staubzucker (65 %), Mohn (35 %)."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Pappudia Mohnnudeln",
+   "brand": "Pappudia",
+   "price_eur": 2.49,
+   "unit_price_eur": 11.07,
+   "unit": "kg",
+   "size_g": 225.0,
+   "nutrition_100g": {
+    "kcal": 243.0,
+    "fat": 8.5,
+    "satfat": 3.9,
+    "carbs": 33.0,
+    "sugar": 12.0,
+    "protein": 4.1,
+    "salt": 0.7,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/44199/44199-1756119275974519839.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "EU",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Traditionelle Hausmannskost",
+   "source_url": "https://www.gurkerl.at/44199-pappudia-mohnnudeln",
+   "source_id": "44199",
+   "fetched_at": "2026-10-13T02:18:52+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Kartoffelknödel 83 % (Kartoffelteig [WEIZENmehl, getrocknetes Kartoffelpüree 31,6 % [Kartoffeln, Kurkuma], WEIZENgrieß, Maisstärke, jodiertes Speisesalz], Wasser, Backpulver [Backtriebmittel: Diphosphate, Natriumcarbonate, Maisstärke]), Mohnstreusel 13 % (Zucker, gemahlener Mohn 50 %), BUTTER 4 %."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Mohn-Nudeln von Eva Wilhamová",
+   "brand": "Zatisi",
+   "price_eur": 5.79,
+   "unit_price_eur": 18.09,
+   "unit": "kg",
+   "size_g": 320.0,
+   "nutrition_100g": {
+    "kcal": 174.0,
+    "fat": 1.8,
+    "satfat": 0.1,
+    "carbs": 33.5,
+    "sugar": 1.5,
+    "protein": 4.6,
+    "salt": 1.0,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/44178/44178-1756113072988895720.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "EU",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Traditionelle Hausmannskost",
+   "source_url": "https://www.gurkerl.at/44178-mohn-nudeln-von-eva-wilhamova",
+   "source_id": "44178",
+   "fetched_at": "2026-10-13T02:18:52+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Kartoffelteignudeln 97% (gekochte Kartoffeln, WEIZENMEHL, Speisesalz, Trinkwasser), gemahlener Mohn 2%, Puderzucker 1%."
+   }
+  }
+ ]
+}

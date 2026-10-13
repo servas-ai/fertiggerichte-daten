@@ -1,0 +1,390 @@
+{
+ "count": 12,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Rana Cappelletti Prosciutto di Parma",
+   "brand": "Rana",
+   "price_eur": 3.89,
+   "unit_price_eur": 15.56,
+   "unit": "kg",
+   "size_g": 250.0,
+   "nutrition_100g": {
+    "kcal": 282.0,
+    "fat": 7.0,
+    "satfat": 2.6,
+    "carbs": 40.0,
+    "sugar": 3.6,
+    "protein": 13.0,
+    "salt": 0.84,
+    "fiber": 3.5
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/32679/32679-1791809204612093508.png",
+   "producer": "Pastificio RANA S.p.A. - Via Pacinotti, 25 - 37057 San Giovanni Lupatoto - (VR)  -  Italien",
+   "producer_id": null,
+   "origin": "Italien",
+   "category": "Kühlregal > Schnelle Küche > Frische Pasta, Spätzle & Knödel > Frische Pasta & Gnocchi",
+   "source_url": "https://www.gurkerl.at/32679-rana-cappelletti-prosciutto-di-parma",
+   "source_id": "32679",
+   "fetched_at": "2026-10-13T02:05:44+00:00",
+   "extra": {
+    "ingredients": "Frische Eierteigwaren mit einer Füllung aus Parmaschinken.\n\nZutaten: Füllung 36%: Schweinefleisch, Paniermehl (WeichWEIZENmehl, Wasser, Salz, Hefe), Prosciutto di Parma Rohschinken (Schweinefleisch, Meersalz) 16%, MOLKENpulver, Maisfaser, natürliche Aromen, Salz, Muskatnuss, schwarzer Pfeffer. Teigwaren 64%: WeichWEIZENmehl, EIER 30%, HartWEIZENgrieß.\n\nKann Schalenfrüchte (Hartschalenobst), Fisch, Krebstiere, Weichtiere, Senf, Sojabohnen und Sellerie enthalten.\n\nZu verbrauchen bis: siehe Datum auf der Packungsrückseite. \nIm Kühlschrank bei +4°C bis max. +7°C aufbewahren. Nach dem Öffnen innerhalb von 3 Tagen verbrauchen. \nUnter Schutzatmosphäre verpackt. Das Bild dient zur Produktpräsentation.\n\nKontakt: Pastificio RANA S.p.A. - Via Pacinotti, 25 - 37057 San Giovanni Lupatoto - (VR)  -  Italien\t"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Pappudia Tortellini Prosciutto Crudo",
+   "brand": "Pappudia",
+   "price_eur": 2.19,
+   "unit_price_eur": 8.76,
+   "unit": "kg",
+   "size_g": 250.0,
+   "nutrition_100g": {
+    "kcal": 307.0,
+    "fat": 6.7,
+    "satfat": 2.5,
+    "carbs": 50.0,
+    "sugar": 2.1,
+    "protein": 11.0,
+    "salt": 1.3,
+    "fiber": 11.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/46108/46108-1762866714722568769.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Italien",
+   "category": "Kühlregal > Schnelle Küche > Frische Pasta, Spätzle & Knödel > Frische Pasta & Gnocchi",
+   "source_url": "https://www.gurkerl.at/46108-pappudia-tortellini-prosciutto-crudo",
+   "source_id": "46108",
+   "fetched_at": "2026-10-13T02:05:44+00:00",
+   "extra": {
+    "ingredients": "Frische Eiernudeln, gefüllt mit rohem Schinken (Prosciutto Crudo) Pasteurisiert.\n\nZutaten: Teigwaren (66 %): HARWEIZENGRIEß, WEICHWEIZENMEHL, EIER aus Freilandhaltung 20 %, Wasser. Füllung (34 %): gekochtes Schweinefleisch (Schweinefleisch, Salz, Dextrose, Saccharose, Fruktose, Aromen, Gewürze), Semmelbrösel (WEICHWEIZENMEHL, Wasser, Salz, Hefe), Rohschinken 20 % (Schweinefleisch, Salz), MILCHMOLKENPULVER, Sonnenblumenöl, Salz, natürliche Aromen (MILCH), Muskatnuss, schwarzer Pfeffer. Kann Spuren von Fisch, Weichtieren, Krebstieren, Soja, Senf und Nüssen enthalten.\n\n Unter Schutzatmosphäre verpackt. Verpackung nicht durchstechen. Kühl lagern bei max 7°C. Nach dem Öffnen im Kühlschrank aufbewahen und innerhalb von 3 Tagen verbrauchen. Nur durchrerhitzt verzehren."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Garofalo Tortellini Al Prosciutto Crudo",
+   "brand": "Garofalo",
+   "price_eur": 3.79,
+   "unit_price_eur": 15.16,
+   "unit": "kg",
+   "size_g": 250.0,
+   "nutrition_100g": {
+    "kcal": 266.0,
+    "fat": 6.0,
+    "satfat": 2.7,
+    "carbs": 38.0,
+    "sugar": 1.0,
+    "protein": 14.0,
+    "salt": 1.6,
+    "fiber": 1.8
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/47994/47994-1778498065899837154.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Italien",
+   "category": "Kühlregal > Schnelle Küche > Frische Pasta, Spätzle & Knödel > Frische Pasta & Gnocchi",
+   "source_url": "https://www.gurkerl.at/47994-garofalo-tortellini-al-prosciutto-crudo",
+   "source_id": "47994",
+   "fetched_at": "2026-10-13T02:05:44+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Hartweizengrieß, Prosciutto Crudo (Schweinefleisch, Salz) 13 %, Eier aus Freilandhaltung 12 %, Paniermehl (Weichweizenmehl, Hefe, Salz), geschmorter Braten (Rindfleisch, Zwiebeln, Rotwein, Karotten, Butter (Milch), Salz, Kräuter, Gewürze), Wasser, Parmigiano Reggiano g.U. (Milch), Salz, Muskatnuss, schwarzer Pfeffer."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Rana Ravioli Pesto Rosso alla Siciliana - mit getrockneten Tomaten & Pinienkernen",
+   "brand": "Rana",
+   "price_eur": 3.89,
+   "unit_price_eur": 15.56,
+   "unit": "kg",
+   "size_g": 250.0,
+   "nutrition_100g": {
+    "kcal": 282.0,
+    "fat": 13.0,
+    "satfat": 3.4,
+    "carbs": 30.0,
+    "sugar": 4.8,
+    "protein": 4.7,
+    "salt": 1.0,
+    "fiber": 4.7
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/39399/39399-1791809205591098983.png",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Italien",
+   "category": "Kühlregal > Schnelle Küche > Frische Pasta, Spätzle & Knödel > Frische Pasta & Gnocchi",
+   "source_url": "https://www.gurkerl.at/39399-rana-ravioli-pesto-rosso-alla-siciliana-mit-getrockneten-tomaten-pinienkernen",
+   "source_id": "39399",
+   "fetched_at": "2026-10-13T02:05:44+00:00",
+   "extra": {
+    "ingredients": "Frische Eier-Teigwaren mit einer Füllung aus Pecorino Romano Schafskäse und und Pinienkernen.\n\nFüllung 58%: Tomatenpesto 48% (Tomatenfruchtfleisch in Stücken 35%, natives Olivenöl extra, Tomatenmarkkonzentrar 12% MANDELN, Sonnenblumenöl, Pecorino Romano SchafsKÄSE g.U.* 6%, getrocknete Tomaten 5%, Pinienkerne 3%, Salz, Knoblauch), Ricotta-KÄSE (MOLKE, MILCH, Salz), Pflanzenfasern (Zichorie und WEIZEN), MOLKENpulver, BUTTER, Paniermehl (WeichWEIZENmehl, Wasser, Salz, Hefe), Basilikumzubereitung (\"Basilico Genovese\" Basilikum g.U. 60%, Sonnenblumenöl, Salz), Basilikum, natürliche Aromen.\n*g.U.: geschützte Ursprungsbezeichnung.\nTeigwaren 42%: WeichWEIZENmehl, EIER 30%, HartWEIZENgrieß.\n\nZU VERBRAUCHEN BIS: siehe Datum auf der Packungsrückseite. \nIm Kühlschrank bei +4°C bis max +6°C aufbewahren. \nNach dem Öffnen der Verpackung innerhalb von 3 Tagen verbrauchen. "
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Alnatura BIO Gemüse Tortellini",
+   "brand": "Alnatura",
+   "price_eur": 2.89,
+   "unit_price_eur": 11.56,
+   "unit": "kg",
+   "size_g": 250.0,
+   "nutrition_100g": {
+    "kcal": 301.0,
+    "fat": 4.3,
+    "satfat": 0.5,
+    "carbs": 55.0,
+    "sugar": 2.3,
+    "protein": 9.1,
+    "salt": 0.99,
+    "fiber": 2.7
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/10705/10705-1710944030830.jpg",
+   "producer": "Alnatura GmbH, Mahatma-Gandhi-Straße 7, 64295 Darmstadt.",
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Kühlregal > Schnelle Küche > Frische Pasta, Spätzle & Knödel > Frische Pasta & Gnocchi",
+   "source_url": "https://www.gurkerl.at/10705-alnatura-bio-gemuese-tortellini",
+   "source_id": "10705",
+   "fetched_at": "2026-10-13T02:05:44+00:00",
+   "extra": {
+    "ingredients": "Bio Teigwaren mit Gemüsefüllung, semifrisch\n\nZutaten: Teig 74 %: HARTWEIZENGRIEß*, Wasser; Füllung 26 %: Wasser, Paniermehl* (WEIZENMEHL*, Hefe*), Kartoffelflocken*, Sonnenblumenöl*, Gemüse* getrocknet 6,5% (Zwiebeln* getrocknet, Karotten* getrocknet, Lauch* getrocknet, SELLERIE* getrocknet, Spinat* getrocknet), Meersalz, Emulgator: SOJALECITHIN*, Knoblauch*, Bohnenkraut*, Pfeffer* *aus biologischer Landwirtschaft\nKann Spuren von Milch enthalten.\n\nTrocken & vor Wärme geschützt lagern.\n\nZubereitungsanweisung: Alnatura Tortellini Gemüse in leicht siedendem, gesalzenen Wasser (2 TL auf 3 Liter) ca. 12-15 Min. ziehen lassen.\n\nBio-Kontrollstellennummer: DE-ÖKO-006\n\nKontakt: Alnatura GmbH, Mahatma-Gandhi-Straße 7, 64295 Darmstadt."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Rana Tortelloni Funghi Porcini",
+   "brand": "Rana",
+   "price_eur": 3.89,
+   "unit_price_eur": 15.56,
+   "unit": "kg",
+   "size_g": 250.0,
+   "nutrition_100g": {
+    "kcal": 269.0,
+    "fat": 9.6,
+    "satfat": 3.4,
+    "carbs": 33.0,
+    "sugar": 6.3,
+    "protein": 9.5,
+    "salt": 1.4,
+    "fiber": 6.2
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/32669/32669-1791809206675560733.png",
+   "producer": "Pastificio RANA S.p.A. - Via Pacinotti, 25 - 37057 San Giovanni Lupatoto - (VR)  -  Italien",
+   "producer_id": null,
+   "origin": "Italien",
+   "category": "Kühlregal > Schnelle Küche > Frische Pasta, Spätzle & Knödel > Frische Pasta & Gnocchi",
+   "source_url": "https://www.gurkerl.at/32669-rana-tortelloni-funghi-porcini",
+   "source_id": "32669",
+   "fetched_at": "2026-10-13T02:05:44+00:00",
+   "extra": {
+    "ingredients": "Frische Eier-Teigwaren mit einer Füllung aus Steinpilzen.\n\nZutaten: Füllung 53%: Ricotta-KÄSE (MOLKE, MILCH, Salz), Steinpilze 9%, MOLKENpulver, Sonnenblumenöl, Pflanzenfasern (Zichorie und WEIZEN), Paniermehl (WeichWEIZENmehl, Wasser, Salz, Hefe), Sahne (enthält MILCH), Parmigiano Reggiano KÄSE g.U.*, BUTTER, Reismehl, natürliche Aromen, Salz, rehydrierte getrocknete Steinpilze 6% (Wasser, getrocknete Steinpilze 33%), Petersilie, Kartoffelflocken.\nTeigwaren 47%: WeichWEIZENmehl, EIER 30%, HartWEIZENgrieß.\n\n*g.U.: geschützte Ursprungsbezeichnung.\n\nKann Schalenfrüchte (Hartschalenobst), Fisch, Krebstiere, Weichtiere, Senf, Sojabohnen und Sellerie enthalten.\n\nZu verbrauchen bis: siehe Datum auf der Packungsrückseite. \nIm Kühlschrank bei +4°C bis max. +7°C aufbewahren. Nach dem Öffnen innerhalb von 3 Tagen verbrauchen. \nUnter Schutzatmosphäre verpackt. Das Bild dient zur Produktpräsentation.\n\nKontakt: Pastificio RANA S.p.A. - Via Pacinotti, 25 - 37057 San Giovanni Lupatoto - (VR)  -  Italien\t"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Pappudia Tortelloni Ricotta und Spinat",
+   "brand": "Pappudia",
+   "price_eur": 2.19,
+   "unit_price_eur": 8.76,
+   "unit": "kg",
+   "size_g": 250.0,
+   "nutrition_100g": {
+    "kcal": 252.0,
+    "fat": 6.5,
+    "satfat": 2.8,
+    "carbs": 37.9,
+    "sugar": 1.9,
+    "protein": 9.3,
+    "salt": 0.95,
+    "fiber": 2.4
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/46107/46107-1762866714285144525.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Italien",
+   "category": "Kühlregal > Schnelle Küche > Frische Pasta, Spätzle & Knödel > Frische Pasta & Gnocchi",
+   "source_url": "https://www.gurkerl.at/46107-pappudia-tortelloni-ricotta-und-spinat",
+   "source_id": "46107",
+   "fetched_at": "2026-10-13T02:05:44+00:00",
+   "extra": {
+    "ingredients": "Frische Eiernudeln mit Ricotta und Spinatfüllung. Pasteurisiert. \n\nZutaten: Teig (55 %):WEICHWEIZENMEHL, HARTWEIZENGRIEß, EIER 20 %, Wasser. Füllung (45 %): 39 % Ricotta (MOLKE, MILCH, MILCHCREME, Salz), 20 % Spinat, MOLKEPULVER, Sonnenblumenöl, Semmelbrösel (WEICHWEIZENMEHL, Wasser, Salz, Hefe), Mascarpone (MILCHCREME, MILCH, Säureregulator: Zitronensäure), pflanzliche Fasern und Stärken (Kartoffel, Mais), Kartoffelflocken, natürliche Aromen (MILCH), Salz, Knoblauch, Muskatnuss. Kann Spuren von Fisch, Weichtieren, Krebstieren, Soja, Senf und Nüssen enthalten.\n\nUnter Schutzatmosphäre verpackt. Verpackung nicht durchstechen. Kühl lagern bei max 7°C. Nach dem Öffnen im Kühlschrank aufbewahen und innerhalb von 3 Tagen verbrauchen. Nur durchrerhitzt verzehren."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Bertagni Tortellini Prosciutto Crudo di Parma",
+   "brand": "Bertagni",
+   "price_eur": 3.49,
+   "unit_price_eur": 13.96,
+   "unit": "kg",
+   "size_g": 250.0,
+   "nutrition_100g": {
+    "kcal": 285.0,
+    "fat": 9.0,
+    "satfat": 4.0,
+    "carbs": 34.0,
+    "sugar": 1.0,
+    "protein": 16.0,
+    "salt": 1.0,
+    "fiber": 0.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/1596/1596-1603202674781.jpg",
+   "producer": "",
+   "producer_id": null,
+   "origin": "Italien",
+   "category": "Kühlregal > Schnelle Küche > Frische Pasta, Spätzle & Knödel > Frische Pasta & Gnocchi",
+   "source_url": "https://www.gurkerl.at/1596-bertagni-tortellini-prosciutto-crudo-di-parma",
+   "source_id": "1596",
+   "fetched_at": "2026-10-13T02:05:44+00:00",
+   "extra": {
+    "ingredients": "Frischer Eiernudelteig mit Fleisch und Prosciutto di Parma.\n\nZutaten: Teig (55%): WEIZENMEHL, VOLLEI 28,5%,\nHARTWEIZENGRIEß. Füllung (45%): Schweinefleisch 50%,\nProsciutto di Parma DOP 20% (Schweinefleisch, Salz),\nSemmelbrösel (WEIZENMEHL, Speisesalz, Hefe), GRANA\nPADANO-KÄSE DOP 13%, Fleischextrakt, Salz, Gewürze,\nKnoblauch.\n\nGekühlt (bei 2°-7°C) lagern, nach dem Öffnen innerhalb von 3 Tagen verzehren.\nUnter Schutzatmosphäre verpackt.\n\nKontaktdaten:\nInterfood Lebensmittelgroßhandel Ges.m.b.H., Innsbruckerstrasse 77, 6060 Hall in Tirol, +43(0)52 2356808–0, info@interfood.at"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Rana Tortelloni Parmigiano Reggiano",
+   "brand": "Rana",
+   "price_eur": 3.89,
+   "unit_price_eur": 15.56,
+   "unit": "kg",
+   "size_g": 250.0,
+   "nutrition_100g": {
+    "kcal": 283.0,
+    "fat": 12.0,
+    "satfat": 4.6,
+    "carbs": 30.0,
+    "sugar": 6.2,
+    "protein": 11.0,
+    "salt": 1.1,
+    "fiber": 5.7
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/32681/32681-1791809204992420302.png",
+   "producer": "Pastificio RANA S.p.A. - Via Pacinotti, 25 - 37057 San Giovanni Lupatoto - (VR)  -  Italien",
+   "producer_id": null,
+   "origin": "Italien",
+   "category": "Kühlregal > Schnelle Küche > Frische Pasta, Spätzle & Knödel > Frische Pasta & Gnocchi",
+   "source_url": "https://www.gurkerl.at/32681-rana-tortelloni-parmigiano-reggiano",
+   "source_id": "32681",
+   "fetched_at": "2026-10-13T02:05:44+00:00",
+   "extra": {
+    "ingredients": "Frische Eier-Teigwaren mit einer Füllung aus Parmigiano Reggiano Käse.\n\nZutaten: Füllung 53%: Ricotta-KÄSE (MOLKE, MILCH, Salz), Parmigiano Reggiano KÄSE g.U.* 10%, Sonnenblumenöl, MOLKENpulver, Pflanzenfasern (Zichorie und WEIZEN), Paniermehl (WeichWEIZENmehl, Wasser, Salz, Hefe), Sahne (enthält MILCH), BUTTER, natürliche Aromen, Salz, Kartoffelstärke.\nTeigwaren 47%: WeichWEIZENmehl, EIER 30%, HartWEIZENgrieß.\n\n*g.U.: geschützte Ursprungsbezeichnung.\n\nKann Schalenfrüchte (Hartschalenobst), Fisch, Krebstiere, Weichtiere, Senf, Sojabohnen und Sellerie enthalten.\n\nZu verbrauchen bis: siehe Datum auf der Packungsrückseite. \nIm Kühlschrank bei +4°C bis max. +7°C aufbewahren. Nach dem Öffnen innerhalb von 3 Tagen verbrauchen. \nUnter Schutzatmosphäre verpackt. Das Bild dient zur Produktpräsentation.\n\nKontakt: Pastificio RANA S.p.A. - Via Pacinotti, 25 - 37057 San Giovanni Lupatoto - (VR)  -  Italien\t\n"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Iglo Genießer Pfanne Tortellini Pfanne (tiefgekühlt)",
+   "brand": "Iglo",
+   "price_eur": 7.99,
+   "unit_price_eur": 12.29,
+   "unit": "kg",
+   "size_g": 650.0,
+   "nutrition_100g": {
+    "kcal": 105.0,
+    "fat": 2.9,
+    "satfat": 1.5,
+    "carbs": 14.0,
+    "sugar": 2.6,
+    "protein": 5.0,
+    "salt": 1.2,
+    "fiber": 1.3
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/6130/6130-1681459832341.jpg",
+   "producer": "",
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Tiefkühlprodukte > Fertiggerichte > Internationales",
+   "source_url": "https://www.gurkerl.at/6130-iglo-geniesser-pfanne-tortellini-pfanne-tiefgekuehlt",
+   "source_id": "6130",
+   "fetched_at": "2026-10-13T02:05:44+00:00",
+   "extra": {
+    "ingredients": "Tortellini mit Gemüse und Schinken in feiner Kräutersauce, tiefgekühlt\n\nZutaten: Tortellini 33% (Wasser, HARTWEIZENGRIESS, Rindfleisch 8%, Brösel (WEIZENMEHL, Salz, Hefe), EI, DINKELSCHROT, Salz, Tomatenmark, Gewürze, Kräuter), Gemüsemischung 29% (Broccoli, Tomate, roter Paprika; in veränderlichen Gewichtsanteilen), MAGERMILCH, Wasser, Schinken 4% (Schweinefleisch, Pökelsalz (Salz, Konservierungsstoff: Natriumnitrit**), Zucker, Traubenzucker, Antioxidationsmittel: Rosmarinextrakt, Rauch), Zwiebel, pflanzliche Öle (Kokosnussöl, Palmöl***), Petersilie, Stärke, Salz, Rindfleischbrühe (Rindsbouillon, Salz, Zucker, Zwiebel, Rapsöl, Gewürz), Gemüsebrühe (Traubenzucker, Salz, Karotte, Zwiebel, Lauch, Schalotten, Tomate, Paprika), WEIZENMEHL,  PARMESAN, Pfeffer.\nKann Spuren von SOJA enthalten.\n**Natriumnitrit ist eine traditionelle Zutat, die gepökeltem Fleisch seine typische Farbe und den charakteristischen Geschmack verleiht.\n***enthält zertifiziert nachhaltiges Palmöl\n\nHinweise für die Aufbewahrung zu Hause: Entweder sofort zubereiten oder bei -18°C mindestens haltbar bis: siehe Verpackung.\n\nNach dem Auftauen nicht wieder einfrieren!\n\nKontakt:\nIglo Austria GmbH, Clemens-Holzmeister-Straße 6, 1100 Wien, iglo.oesterreich@iglo.com, 0810 300 407"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "De Angelis frische Tortelli Ricotta Spinat glutenfrei",
+   "brand": "De Angelis",
+   "price_eur": 4.29,
+   "unit_price_eur": 17.16,
+   "unit": "kg",
+   "size_g": 250.0,
+   "nutrition_100g": {
+    "kcal": 252.0,
+    "fat": 5.3,
+    "satfat": 2.9,
+    "carbs": 42.4,
+    "sugar": 3.7,
+    "protein": 6.6,
+    "salt": 1.3,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/34801/34801-1726048896763.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Italien",
+   "category": "Kühlregal > Schnelle Küche > Frische Pasta, Spätzle & Knödel > Frische Pasta & Gnocchi",
+   "source_url": "https://www.gurkerl.at/34801-de-angelis-frische-tortelli-ricotta-spinat-glutenfrei",
+   "source_id": "34801",
+   "fetched_at": "2026-10-13T02:05:44+00:00",
+   "extra": {
+    "ingredients": "Zutaten: ZUTATEN: Zubereitung für Nudeln [Maisstärke, Maismehl 12,8 %**, Kartoffelstärke, Reismehl 3,8 %**, Linsenmehl, pflanzliche Fasern (Psyllium, Zitrusfrüchte), Verdickungsmittel: Guarkernmehl, Xanthangummi], 20 % Ricotta (Molkenmilch, Milchrahm, Salz), Eier* 12,5 %, Hühnereiweiß*, dehydrierte Kartoffeln, Spinat 5 %, Butter, Molkenmilchpulver, Wasser, geriebener Käse (Milch, Salz, Lab), Salz, Olivenöl, Pflanzenfasern (Bambus), Muskatnuss, Aromen. *Gemahlene Eier. **Prozentangaben bezogen auf das fertige Produkt. Kann Spuren von Soja und Senf enthalten"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Frosta Tortellini Käse - Sahne (tiefgekühlt)",
+   "brand": "Frosta",
+   "price_eur": 6.19,
+   "unit_price_eur": 12.38,
+   "unit": "kg",
+   "size_g": 500.0,
+   "nutrition_100g": {
+    "kcal": 135.0,
+    "fat": 7.7,
+    "satfat": 4.5,
+    "carbs": 11.4,
+    "sugar": 1.9,
+    "protein": 4.3,
+    "salt": 0.93,
+    "fiber": 1.4
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/44458/44458-1756990522795556624.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Tiefkühlprodukte > Fertiggerichte > Internationales",
+   "source_url": "https://www.gurkerl.at/44458-frosta-tortellini-kaese-sahne-tiefgekuehlt",
+   "source_id": "44458",
+   "fetched_at": "2026-10-13T02:05:44+00:00",
+   "extra": {
+    "ingredients": "Vegetarisches Gericht nach italienischer Art mit Tortellini-Nudeln in Käse-Sahne-Sauce. Tiefgefroren.\n\nZutaten: gegarte Tortellini (29%) (Wasser, HARTWEIZENGRIESS, Paniermehl (WEIZENMEHL, Salz, Hefe), HÜHNEREI, FRISCHKÄSE, Spinat, Sonnenblumenöl, Salz, Muskatnuss), Wasser, Brokkoli, VOLLMILCH, Karotten, SAHNE (10%) (für AT: RAHM), EDAMER (3%), Mehlschwitze (WEIZENMEHL, Sonnenblumenöl), BUTTER, SPEISEQUARK (für AT: SPEISETOPFEN), Salz, Reismehl, Kartoffelstärke, schwarzer Pfeffer.\n\n Bei -18°C lagern."
+   }
+  }
+ ]
+}

@@ -1,0 +1,230 @@
+{
+ "count": 7,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Steirerkraft Steirische 1-Minuten-Polenta fein",
+   "brand": "Steirerkraft",
+   "price_eur": 3.79,
+   "unit_price_eur": 6.32,
+   "unit": "kg",
+   "size_g": 600.0,
+   "nutrition_100g": {
+    "kcal": 344.0,
+    "fat": 1.5,
+    "satfat": 0.2,
+    "carbs": 72.0,
+    "sugar": 0.7,
+    "protein": 8.1,
+    "salt": 0.01,
+    "fiber": 5.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/6495/6495-1603469909799.jpg",
+   "producer": "Estyria Naturprodukte GmbH, Wollsdorf 75 8181 St. Ruprecht/Raab",
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Vorratsschrank > Pasta, Reis & Beilagen > Getreideprodukte",
+   "source_url": "https://www.gurkerl.at/6495-steirerkraft-steirische-1-minuten-polenta-fein",
+   "source_id": "6495",
+   "fetched_at": "2026-10-13T02:10:38+00:00",
+   "extra": {
+    "ingredients": "Das Produkt kann Spuren von glutenhaltigem Getreide und Soja enthalten.\n\nDie Polenta 10 min in Salzwasser köcheln lassen. Dabei öfters umrühren.\n\nKühl und trocken lagern\n\nKontakt: Estyria Naturprodukte GmbH, Wollsdorf 75 8181 St. Ruprecht/Raab \n"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Casale Paradiso Polenta Classica",
+   "brand": null,
+   "price_eur": 4.29,
+   "unit_price_eur": 14.3,
+   "unit": "kg",
+   "size_g": 300.0,
+   "nutrition_100g": {
+    "kcal": 372.0,
+    "fat": 3.4,
+    "satfat": 0.5,
+    "carbs": 73.9,
+    "sugar": 0.7,
+    "protein": 7.8,
+    "salt": 0.08,
+    "fiber": 7.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/43014/43014-1750679851891020991.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Italien",
+   "category": "Vorratsschrank > Pasta, Reis & Beilagen > Getreideprodukte",
+   "source_url": "https://www.gurkerl.at/43014-casale-paradiso-polenta-classica",
+   "source_id": "43014",
+   "fetched_at": "2026-10-13T02:10:38+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Maismehl"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Hiel BIO Polenta Karotte Burger VEGAN",
+   "brand": "Hiel",
+   "price_eur": 4.19,
+   "unit_price_eur": 20.95,
+   "unit": "kg",
+   "size_g": 200.0,
+   "nutrition_100g": {
+    "kcal": 199.0,
+    "fat": 7.1,
+    "satfat": 0.9,
+    "carbs": 29.0,
+    "sugar": 2.6,
+    "protein": 3.6,
+    "salt": 1.4,
+    "fiber": 0.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/20943/20943-1719467695844.jpg",
+   "producer": "Vegetarische Feinkost Produktion Peter Hiel, Marchfeldstraße 4, 1200 Wien, +43 1/3330128, office@hiel.at",
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Mediterrane Köstlichkeiten",
+   "source_url": "https://www.gurkerl.at/20943-hiel-bio-polenta-karotte-burger-vegan",
+   "source_id": "20943",
+   "fetched_at": "2026-10-13T02:10:38+00:00",
+   "extra": {
+    "ingredients": "Polenta Karotte Laibchen (Bratling).\n\nZutaten: Wasser, Polenta* 20%, Karotte* 12%, Reismehl*, Mais*, Sonnenblumenöl*, Zwiebeln*, Gewürze*, Salz, Kräuter*.\n*=aus biologischem Anbau FRITTIERT\n\nGekühlt lagern bei +2° bis +7°C.\nZum Rohrverzehr geeignet, ideal gewärmt.\n\nBio Kontrollnummer: AT-BIO-402\n\nKontakt: Vegetarische Feinkost Produktion Peter Hiel, Marchfeldstraße 4, 1200 Wien, +43 1/3330128, office@hiel.at"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Pfisterhof BIO Shiitake-Polenta Laibchen",
+   "brand": "Pfisterhof",
+   "price_eur": 5.19,
+   "unit_price_eur": 28.83,
+   "unit": "kg",
+   "size_g": 180.0,
+   "nutrition_100g": {
+    "kcal": 131.0,
+    "fat": 4.6,
+    "satfat": 0.6,
+    "carbs": 20.0,
+    "sugar": 1.2,
+    "protein": 3.4,
+    "salt": 1.3,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/18421/18421-1720003381220.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Produkte auf Pflanzenbasis > Fleisch - Alternativen",
+   "source_url": "https://www.gurkerl.at/18421-pfisterhof-bio-shiitake-polenta-laibchen",
+   "source_id": "18421",
+   "fetched_at": "2026-10-13T02:10:38+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Maisgries 44% gekocht, Shiitakepilze 42%, Reismehl, Zwiebeln, Sonnenblumenöl, Gewürze,"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Yutto Porridge Buchweizen",
+   "brand": "Yutto",
+   "price_eur": 2.99,
+   "unit_price_eur": 9.97,
+   "unit": "kg",
+   "size_g": 300.0,
+   "nutrition_100g": {
+    "kcal": 370.0,
+    "fat": 2.6,
+    "satfat": 0.6,
+    "carbs": 70.0,
+    "sugar": 0.6,
+    "protein": 14.0,
+    "salt": 0.01,
+    "fiber": 4.9
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/47903/47903-1777535854178905084.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Tschechische Republik",
+   "category": "Vorratsschrank > Müsli, Cerealien, Porridge & Co. > Haferflocken & Porridge",
+   "source_url": "https://www.gurkerl.at/47903-yutto-porridge-buchweizen",
+   "source_id": "47903",
+   "fetched_at": "2026-10-13T02:10:38+00:00",
+   "extra": {
+    "ingredients": "Vollkorn-Buchweizen"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Alnatura BIO Polenta",
+   "brand": "Alnatura",
+   "price_eur": 2.29,
+   "unit_price_eur": 4.58,
+   "unit": "kg",
+   "size_g": 500.0,
+   "nutrition_100g": {
+    "kcal": 344.0,
+    "fat": 0.8,
+    "satfat": 0.2,
+    "carbs": 74.0,
+    "sugar": 1.5,
+    "protein": 7.7,
+    "salt": 0.01,
+    "fiber": 4.8
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/10573/10573-1723445364586.jpg",
+   "producer": "Alnatura GmbH, Mahatma-Gandhi-Straße 7, 64295 Darmstadt.",
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Vorratsschrank > Zucker, Mehl & Backen > Grieß & Stärke",
+   "source_url": "https://www.gurkerl.at/10573-alnatura-bio-polenta",
+   "source_id": "10573",
+   "fetched_at": "2026-10-13T02:10:38+00:00",
+   "extra": {
+    "ingredients": "Bio Maisgrieß, glutenfrei\n\nZutaten: Maisgrieß* \n*aus Demeter Bio-Landbau. \nKann Spuren von Soja und Lupinen enthalten.\n\nTrocken & vor Wärme geschützt lagern.\n\nZubereitungsempfehlung:\nPolenta Grundrezept: Zutaten (4 Portionen): 1 l Wasser, 1 TL Meersalz, 20 g Butter oder Margarine, 250 g Polenta Zubereitung: Wasser, Meersalz und Butter/ Margarine zum Kochen bringen. Polenta mit dem Schneebesen einrühren und bei geringer Hitze unter gelegentlichem Rühren 10 Minuten quellen lassen. Die Masse auf eine Platte streichen, erkalten lassen und in Rauten schneiden. Tipp: Verfeinern Sie die Polenta nach Belieben mit geriebenem Parmesan, frischen Kräutern oder Gewürzen.\n\nBio-Kontrollstellennummer: DE-ÖKO-006\n\nKontakt: Alnatura GmbH, Mahatma-Gandhi-Straße 7, 64295 Darmstadt."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Gabelkönig Polentarolle mit Milch",
+   "brand": "Gabelkönig",
+   "price_eur": 2.99,
+   "unit_price_eur": 5.98,
+   "unit": "kg",
+   "size_g": 500.0,
+   "nutrition_100g": {
+    "kcal": 173.0,
+    "fat": 8.64,
+    "satfat": 2.18,
+    "carbs": 18.89,
+    "sugar": 3.55,
+    "protein": 4.01,
+    "salt": 0.78,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/40840/40840-1744119534078.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Schnelle Küche > Frische Pasta, Spätzle & Knödel > Knödel, Spätzle & Co",
+   "source_url": "https://www.gurkerl.at/40840-gabelkoenig-polentarolle-mit-milch",
+   "source_id": "40840",
+   "fetched_at": "2026-10-13T02:10:38+00:00",
+   "extra": {
+    "ingredients": "Polenta zum Braten oder Backen\n\nZutaten: MILCH(72%), MAISGRIEß(18%), Öl, Quellstärke, Salz\n\nBei 2°C-7°C lagern, geöffnetes Produkt kühl lagern und innerhalb von 2 Tagen aufbrauchen"
+   }
+  }
+ ]
+}

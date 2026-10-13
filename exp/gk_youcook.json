@@ -1,0 +1,262 @@
+{
+ "count": 8,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "YOUCOOK Indian Style Butter Chicken",
+   "brand": "YOUCOOK",
+   "price_eur": 4.99,
+   "unit_price_eur": 11.88,
+   "unit": "kg",
+   "size_g": 420.0,
+   "nutrition_100g": {
+    "kcal": 144.0,
+    "fat": 7.1,
+    "satfat": 3.9,
+    "carbs": 14.1,
+    "sugar": 1.7,
+    "protein": 5.3,
+    "salt": 0.55,
+    "fiber": 1.2
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/40753/40753-1777384002542.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Asiatisch- / Orientalische Küche",
+   "source_url": "https://www.gurkerl.at/40753-youcook-indian-style-butter-chicken",
+   "source_id": "40753",
+   "fetched_at": "2026-10-13T02:16:41+00:00",
+   "extra": {
+    "ingredients": "Hähnchenbrustfilet in einer cremigen Tomatensauce und einer Basmati-Jasminreismischung\n\nZutaten: 42% gegarter Reis (Wasser, Basmati-, Jasminreismischung, Rapsöl), 14% Hähnchenbrustfilet mariniert, gegart (Hähnchenbrustfilet, Stärke, Salz, Dextrose, SOJAÖL und/oder Baumwollsamenöl), 10% Tomaten, Tomatenmark, Paprika, Zwiebeln, SAHNE, Kokosnussmilchpulver (Kokosnussmilch, Maltodextrin, MILCHEIWEIß), BUTTER, CRÈME FRAÎCHE, Geflügelbrühe (Puten- und Hühnerbrühe, Salz), Hühnerfett, Gewürze, Zucker, Stärke, Salz, Kräuter, Limettensaftkonzentrat, Emulgator Mono- und Diglyceride von Speisefettsäuren, Verdickungsmittel Guarkernmehl, MAGERMILCHPULVER, Dextrose, Branntweinessig, Paprikaextrakt. Das Produkt kann Spuren von WEIZEN, SELLERIE, EI und SOJA enthalten!: \n\n\nBei 2°-7° C lagern."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "YOUCOOK Pasta Toscana Style",
+   "brand": "YOUCOOK",
+   "price_eur": 4.99,
+   "unit_price_eur": 11.88,
+   "unit": "kg",
+   "size_g": 420.0,
+   "nutrition_100g": {
+    "kcal": 133.0,
+    "fat": 4.8,
+    "satfat": 1.9,
+    "carbs": 15.9,
+    "sugar": 2.1,
+    "protein": 5.9,
+    "salt": 0.88,
+    "fiber": 1.5
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/40759/40759-1777354359340.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Mediterrane Köstlichkeiten",
+   "source_url": "https://www.gurkerl.at/40759-youcook-pasta-toscana-style",
+   "source_id": "40759",
+   "fetched_at": "2026-10-13T02:16:41+00:00",
+   "extra": {
+    "ingredients": "Hähnchenbrustfilet undNudeln in einer cremigen Tomaten-Mascarponesauce\n\nZutaten: 42% gegarte Nudeln (Wasser, HARTWEIZENGRIEß, Rapsöl), 18% Tomaten, Wasser, 9% Hähnchenbrustfilet mariniert, gegart (Hähnchenbrustfilet, Stärke, Salz, Dextrose, SOJAÖL und/oder Baumwollsamenöl), SAHNE, 3% Mascarpone FRISCHKÄSE, Tomatenmark, Rapsöl, Zucker, geriebener Grana Padano KÄSE (enthält EI), Salz, modifizierte Stärke, Kräuter, Gewürze, Würze. Das Produkt kann Spuren von SOJA und SELLERIE enthalten! \n\nBei 2°-7° C lagern."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "YOUCOOK Indian Style Mango Chicken",
+   "brand": "YOUCOOK",
+   "price_eur": 4.99,
+   "unit_price_eur": 11.88,
+   "unit": "kg",
+   "size_g": 420.0,
+   "nutrition_100g": {
+    "kcal": 153.0,
+    "fat": 6.6,
+    "satfat": 3.4,
+    "carbs": 17.1,
+    "sugar": 4.6,
+    "protein": 5.7,
+    "salt": 1.13,
+    "fiber": 1.3
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/40754/40754-1777354529337.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Asiatisch- / Orientalische Küche",
+   "source_url": "https://www.gurkerl.at/40754-youcook-indian-style-mango-chicken",
+   "source_id": "40754",
+   "fetched_at": "2026-10-13T02:16:41+00:00",
+   "extra": {
+    "ingredients": "Hähnchenbrustfilet in pikanter Manosauce, nach indischer Art, gewürzt mit Reis\n\nZutaten: 42% gegarter Reis (Wasser, Basmati-, Jasminreismischung, Rapsöl), SAHNE, 12% Hähnchenbrustfilet mariniert, gegart (Hähnchenbrustfilet, Stärke, Salz, Dextrose, SOJAÖL und/oder Baumwollsamenöl), 11,5% Mango, JOGHURT, Tomatenmark, Zucker, Ingwerpaste (Ingwer, Branntweinessig), Gewürze, Rapsöl, Salz, modifizierte Stärke, Kokosnussmilchpulver (Kokosnussmilch, Maltodextrin, MILCHEIWEIß), Zitronensaftkonzentrat, Paprikaextrakt.  Das Produkt kann Spuren von EI, SELLERIE, SOJA und WEIZEN enthalten! \n\nBei 2°-7° C lagern."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "YOUCOOK Pasta Caesar Chicken",
+   "brand": "YOUCOOK",
+   "price_eur": 4.99,
+   "unit_price_eur": 11.88,
+   "unit": "kg",
+   "size_g": 420.0,
+   "nutrition_100g": {
+    "kcal": 148.0,
+    "fat": 6.9,
+    "satfat": 3.2,
+    "carbs": 14.2,
+    "sugar": 0.9,
+    "protein": 6.6,
+    "salt": 0.75,
+    "fiber": 1.4
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/40758/40758-1777354385426.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Mediterrane Köstlichkeiten",
+   "source_url": "https://www.gurkerl.at/40758-youcook-pasta-caesar-chicken",
+   "source_id": "40758",
+   "fetched_at": "2026-10-13T02:16:41+00:00",
+   "extra": {
+    "ingredients": "Hähnchenbrustfilet und Nudeln in einer würzigen Sahnesauce\n\nZutaten: 42% gegarte Nudeln (Wasser, HARTWEIZENGRIEß, Rapsöl), 9% Hähnchenbrustfilet mariniert, gegart (Hähnchenbrustfilet, Stärke, Salz, Dextrose, SOJAÖL und/oder Baumwollsamenöl), 9% SAHNE, Wasser, CRÈME FRAÎCHE, Tomaten, Champignons, Geflügelbrühe (Puten- und Hühnerbrühe, Salz), geriebener Grana Padano KÄSE (enthält EI), Zwiebeln, Rapsöl, Bauchspeck geräuchert (Schweinebauch, Salz, Stabilisator Natriumnitrit, Rauch), modifizierte Stärke, Kräuter, Salz, Zwiebelpulver geräuchert (Zwiebeln, Rauch), Worcestersauce (Wasser, Zucker, GERTSENMALZEXTRAKT, Tomatenmark, Weinessig, Salz, Speisewürze, Wein, Gewürzextrakt), Gewürze, Senf (Wasser, SENFSAAT, Branntweinessig, Salz, Gewürze), Zitronensaftkonzentrat. Das Produkt kann Spuren von SOJA und SELLERIE enthalten! \n\nBei 2°-7° C lagern."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "YOUCOOK Indian Style Chicken Tikka",
+   "brand": "YOUCOOK",
+   "price_eur": 4.99,
+   "unit_price_eur": 11.88,
+   "unit": "kg",
+   "size_g": 420.0,
+   "nutrition_100g": {
+    "kcal": 129.0,
+    "fat": 5.4,
+    "satfat": 3.0,
+    "carbs": 12.5,
+    "sugar": 1.8,
+    "protein": 6.9,
+    "salt": 0.78,
+    "fiber": 1.2
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/40755/40755-1777354320128.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Asiatisch- / Orientalische Küche",
+   "source_url": "https://www.gurkerl.at/40755-youcook-indian-style-chicken-tikka",
+   "source_id": "40755",
+   "fetched_at": "2026-10-13T02:16:41+00:00",
+   "extra": {
+    "ingredients": "Hähnchenbrustfilet in einer Tikkasauce mit Tomaten & Kardamom und einer Basmati-Wildreismischung\n\nZutaten: 42% gegarter Reis (Wasser, 31% Basmatireis, Rapsöl, 1% Wildreis), 16% Hähnchenbrustfilet mariniert, gegart (Hähnchenbrustfilet, Stärke, Salz, Dextrose, SOJAÖL und/oder Baumwollsamenöl), 11% Tomaten, Tomatenmark, SAHNE, Paprika, 3,2% Kokosnussmilchpulver (Kokosnussmilch, Maltodextrin, MILCHEIWEIß), Geflügelbrühe (Puten- und Hühnerbrühe, Salz), CRÈME FRAÎCHE, Karotten, Zwiebeln, Gewürze, Kräuter, Hühnerfett, Salz, Stärke, Schwarzkümmel, Paprika geräuchert (Paprika, Rauch), Zucker, Limettensaftkonzentrat, Emulgator Mono- und Diglyceride von Speisefettsäuren, Verdickungsmittel Guarkernmehl, MAGERMILCHPULVER, Dextrose, Kardamom, Branntweinessig. Das Produkt kann Spuren von SOJA, SELLERIE, EI und WEIZEN enthalten! \n\nBei 2°-7° C lagern."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "YOUCOOK Japanese Style Chicken Teriyaki",
+   "brand": "YOUCOOK",
+   "price_eur": 4.99,
+   "unit_price_eur": 11.88,
+   "unit": "kg",
+   "size_g": 420.0,
+   "nutrition_100g": {
+    "kcal": 130.0,
+    "fat": 3.9,
+    "satfat": 0.5,
+    "carbs": 16.3,
+    "sugar": 5.9,
+    "protein": 6.4,
+    "salt": 1.23,
+    "fiber": 2.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/40757/40757-1777384030079.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Asiatisch- / Orientalische Küche",
+   "source_url": "https://www.gurkerl.at/40757-youcook-japanese-style-chicken-teriyaki",
+   "source_id": "40757",
+   "fetched_at": "2026-10-13T02:16:41+00:00",
+   "extra": {
+    "ingredients": "Hähnhenbrustfilet mit Gemüse in einer Teriyakisauce und Mie-Nudeln\n\nZutaten: 42% gegarte Nudeln (Wasser, HARTWEIZENGRIEß, HÜHNEREIEIWEIß, Rapsöl), 14% Hähnchenbrustfilet mariniert, gegart (Hähnchenbrustfilet, Stärke, Salz, Dextrose, SOJAÖL und/oder Baumwollsamenöl), Paprika, Sojasauce (Wasser, SOJABOHNEN, WEIZEN, Salz), Zwiebeln, Zucker, Apfelmus (Äpfel, Zucker), alkoholisches Reisgetränk (Wasser, Reis, WEIZEN), Gewürze (Ingwer, Knoblauch, Schwarzkümmel, Zitronengras), Rapsöl, Balsamessig (Weinessig, Traubenmostkonzentrat), Stärke, Karamellzuckersirup, Branntweinessig, Salz, Verdickungsmittel Xanthan, Aroma. Das Produkt kann Spuren von SELLERIE und MILCH enthalten! \n\nBei 2°-7° C lagern."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "YOUCOOK Spicy Beef Ramen",
+   "brand": "YOUCOOK",
+   "price_eur": 5.59,
+   "unit_price_eur": 15.97,
+   "unit": "kg",
+   "size_g": 350.0,
+   "nutrition_100g": {
+    "kcal": 115.0,
+    "fat": 5.2,
+    "satfat": 1.2,
+    "carbs": 10.0,
+    "sugar": 2.7,
+    "protein": 6.4,
+    "salt": 1.4,
+    "fiber": 1.1
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/49222/49222-178816083472904469.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Asiatisch- / Orientalische Küche",
+   "source_url": "https://www.gurkerl.at/49222-youcook-spicy-beef-ramen",
+   "source_id": "49222",
+   "fetched_at": "2026-10-13T02:16:41+00:00",
+   "extra": {
+    "ingredients": "Pikante Nudelsuppe mit Rinderhackfleisch & Gemüse. Das Produkt kann Spuren von EI, SELLERIE enthalten!MAGERMILCHPULVER, Geflügelbrühe (Puten- und Hühnerbrühe, Salz), Rapsöl, Shiitakepilze, Sojasauce (Wasser, SOJABOHNEN, WEIZEN, Salz), Zucker, Salz, Apfelessig, fermentierte Misopaste (Wasser, SOJABOHNEN, Reis, Salz), gekörnte Brühe (Würze, Salz), Verdickungsmittel: Guarkernmehl; Aroma, modifizierte Stärke, Paprikaextrakt, Branntweinessig. Das Produkt kann Spuren von EI, SELLERIE enthalten!"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "YOUCOOK Coconut Chicken Ramen",
+   "brand": "YOUCOOK",
+   "price_eur": 5.59,
+   "unit_price_eur": 15.97,
+   "unit": "kg",
+   "size_g": 350.0,
+   "nutrition_100g": {
+    "kcal": 131.0,
+    "fat": 6.4,
+    "satfat": 3.2,
+    "carbs": 11.0,
+    "sugar": 3.7,
+    "protein": 6.7,
+    "salt": 1.2,
+    "fiber": 1.2
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/49221/49221-1788160833336636830.png",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Asiatisch- / Orientalische Küche",
+   "source_url": "https://www.gurkerl.at/49221-youcook-coconut-chicken-ramen",
+   "source_id": "49221",
+   "fetched_at": "2026-10-13T02:16:41+00:00",
+   "extra": {
+    "ingredients": "Pikante Kokos-Curry-Nudelsuppe mit Hähnchenbrustfilet & Gemüse, nach asiatischer Art gewürzt\n\nZutaten: 27 % gegarte Nudeln (Wasser, HARTWEIZENGRIESS, WEIZENGLUTEN, Sonnenblumenöl, Salz, Kurkuma), 20 % Gemüse in veränderlichen Gewichtsanteilen (grüne Bohnen, SOJABOHNENKERNE, Karotten, Paprika, Zwiebeln, Schalotten, Chilis, Knoblauch), 14 % Kokosmilch (Kokosmilch-Extrakt, Wasser), 11 % Hähnchenbrustfilet mariniert, gegart (Hähnchenbrustfilet, Stärke, Salz, Dextrose, enthält Sojaöl und/oder Rapsöl), Wasser, 4 % Kokosnussmilchpulver (Kokosnussmilch, Maltodextrin, MILCHEIWEISS), Zucker, Gewürze, Limettenschalen, Sojasauce (Wasser, SOJABOHNEN, WEIZEN, Salz), Rapsöl, modifizierte Stärke, Zitronengras, Salz, Fischsauce (SARDELLEN, Salz, Zucker), Röstzwiebeln (Zwiebeln, Sonnenblumenöl, Stärke, Salz), Kräuter, Geflügelbrühe (Puten- und Hühnerbrühe, Salz), Austernsauce [AUSTERNEXTRAKT, Sojasauce (Wasser, Salz, SOJABOHNEN, WEIZENMEHL, Zucker), Wasser, modifizierte Stärke, Zucker, jodiertes Salz (Salz, Kaliumjodat)], Limettensaftkonzentrat, Paprikaextrakt, Branntweinessig. Das Produkt kann Spuren von EI, SELLERIE enthalten!"
+   }
+  }
+ ]
+}

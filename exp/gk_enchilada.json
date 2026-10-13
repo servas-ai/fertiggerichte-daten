@@ -1,0 +1,70 @@
+{
+ "count": 2,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Yutto Salsa Dip Medium Hot",
+   "brand": "Yutto",
+   "price_eur": 1.99,
+   "unit_price_eur": 6.42,
+   "unit": "kg",
+   "size_g": 310.0,
+   "nutrition_100g": {
+    "kcal": 52.0,
+    "fat": 0.2,
+    "satfat": 0.1,
+    "carbs": 11.0,
+    "sugar": 6.5,
+    "protein": 1.0,
+    "salt": 1.6,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/46534/46534-1770757829717.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Belgien",
+   "category": "Süßes & Salziges > Chips & Dips > Nachos & Dips",
+   "source_url": "https://www.gurkerl.at/46534-yutto-salsa-dip-medium-hot",
+   "source_id": "46534",
+   "fetched_at": "2026-10-13T02:10:55+00:00",
+   "extra": {
+    "ingredients": "Tomaten (56%), Wasser, Zwiebeln (9,5%), Tomatenmark, Zucker, modifizierte Maisstärke, roter Gemüsepaprika (2,5%), Branntweinessig, Salz, Jalapeño-Chilis (1,2%), grüner Gemüsepaprika (0,8%), Gewürze, Antioxidationsmittel: E300 (Ascorbinsäure), Petersilie, Oregano, natürliches Aroma."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Yutto Salsa Dip Cheese",
+   "brand": "Yutto",
+   "price_eur": 2.19,
+   "unit_price_eur": 7.3,
+   "unit": "kg",
+   "size_g": 300.0,
+   "nutrition_100g": {
+    "kcal": 133.0,
+    "fat": 10.0,
+    "satfat": 2.8,
+    "carbs": 7.0,
+    "sugar": 2.2,
+    "protein": 3.5,
+    "salt": 1.9,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/46535/46535-1770757970169.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Belgien",
+   "category": "Süßes & Salziges > Chips & Dips > Nachos & Dips",
+   "source_url": "https://www.gurkerl.at/46535-yutto-salsa-dip-cheese",
+   "source_id": "46535",
+   "fetched_at": "2026-10-13T02:10:55+00:00",
+   "extra": {
+    "ingredients": "Wasser, Edamer (MILCH) (10,5%), Rapsöl, modifizierte Stärke, Tomatenmark, roter Gemüsepaprika, Zwiebeln, MILCHEIWEISS, Jalapeño-Chilis (1,7%), grüne Chilischoten, Salz, Zucker, Emulgatoren: E452 (Polyphosphate), E472e (Mono- und Diacetylweinsäureester von Mono- und Diglyceriden von Speisefettsäuren); Aromen (MILCH), Kokosöl, Stabilisatoren: E415 (Xanthan), E412 (Guarkernmehl); Gewürze, Säureregulator: E339 (Natriumphosphate); Kräuterextrakt, Paprikaextrakt"
+   }
+  }
+ ]
+}

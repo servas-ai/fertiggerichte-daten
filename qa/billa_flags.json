@@ -1,0 +1,907 @@
+[
+ {
+  "id": "BILLA Marillenknödel",
+  "name": "BILLA Marillenknödel",
+  "issue": "keine BILLA-Shop-URL – nicht verifizierbar (nur heisse-preise.io)"
+ },
+ {
+  "id": "BILLA Nougatknödel",
+  "name": "BILLA Nougatknödel",
+  "issue": "keine BILLA-Shop-URL – nicht verifizierbar (nur heisse-preise.io)"
+ },
+ {
+  "id": "Ben's Original Risotto-Reis",
+  "name": "Ben's Original Risotto-Reis",
+  "issue": "keine BILLA-Shop-URL – nicht verifizierbar (nur heisse-preise.io)"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/blue-elephant-tom-kha-suppenpasta-00703476",
+  "name": "Blue Elephant Tom Kha Suppenpasta",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/blue-elephant-tom-kha-suppenpasta-00703476",
+  "name": "Blue Elephant Tom Kha Suppenpasta",
+  "issue": "nur Trockenwerte (Pulver) in Quelle, keine Werte für zubereitetes Gericht – /100g nicht vergleichbar, aus Ranking nehmen"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/blue-elephant-tom-kha-suppenpasta-00703476",
+  "name": "Blue Elephant Tom Kha Suppenpasta",
+  "issue": "Nährwert unplausibel: Salz>=5 g/100g"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/carissa-klare-gemuesesuppe-00768809",
+  "name": "Carissa Klare Gemüsesuppe",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/germknoedeldonut-00445057",
+  "name": "Germknödeldonut",
+  "issue": "Packungsgröße 280.0 passt nicht zum Grundpreis (3.99€ / 3.99€/kg, impliziert 1000)"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/iglo-lachsspinatlasagne-00789336",
+  "name": "Iglo Lachs-Spinat-Lasagne",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/iglo-riesengermknoedel-00349612",
+  "name": "Iglo Riesen-Germknödel",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/iglo-spinatlasagne-00440785",
+  "name": "Iglo Spinatlasagne",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/indomie-instant-nudelsuppe-gemuese-00279758",
+  "name": "Indomie Instant Nudelsuppe Gemüse",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/indomie-instant-nudelsuppe-huhn-00279760",
+  "name": "Indomie Instant Nudelsuppe Huhn",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/indomie-instant-nudelsuppe-huhn-00279760",
+  "name": "Indomie Instant Nudelsuppe Huhn",
+  "issue": "Nährwert unplausibel: kcal 321.0 vs Makro-Rechnung 466"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-goldaugen-rindfleischsuppe-0056234",
+  "name": "Knorr Goldaugen Rindfleischsuppe",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-goldaugen-rindfleischsuppe-0056234",
+  "name": "Knorr Goldaugen Rindfleischsuppe",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-klare-suppe-pflanzlich-0017013",
+  "name": "Knorr Klare Suppe Pflanzlich",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-klare-suppe-pflanzlich-0017013",
+  "name": "Knorr Klare Suppe Pflanzlich",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/suppengemuese-00737608",
+  "name": "Suppengemüse",
+  "issue": "keine Nährwerte in API; App-Wert aus Open Food Facts 4337256545266 Suppengemüse (1.00) beibehalten"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/rana-teriyaki-style-noodels-huehnchen-00773584",
+  "name": "Rana Teriyaki Style Noodels Hühnchen",
+  "issue": "Nährwert unplausibel: kcal 113.0 vs Makro-Rechnung 155"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/billa-balsamico-olivenoel-dressing-00797586",
+  "name": "BILLA Balsamico Olivenöl Dressing",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/popup-sushi-lachs-mild-00897874",
+  "name": "Pop-Up Sushi Lachs mild",
+  "issue": "Nährwert unplausibel: kcal 153.0 vs Makro-Rechnung 206"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-meisterkessel-suedtiroler-bauernsuppe-0016395",
+  "name": "Knorr Meisterkessel Südtiroler Bauernsuppe",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-veggie-muschelnudeln-mit-fruehlingsgemuese-00243648",
+  "name": "Knorr Veggie Muschelnudeln mit Frühlingsgemüse",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-veggie-penne-in-paprika-rahm-sauce-00244330",
+  "name": "Knorr Veggie Penne in Paprika Rahm Sauce",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-spaghetteria-maccaroni-mit-kaese-00245464",
+  "name": "Knorr Spaghetteria Maccaroni mit Käse",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-pasta-snack-tomate-mozzarella-00287748",
+  "name": "Knorr Pasta Snack Tomate- Mozzarella",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-bitte-zu-tisch-griessnockerlsuppe-002935",
+  "name": "Knorr Bitte zu Tisch Grießnockerlsuppe",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/biovegan-pasta-topping-klassisch-00295340",
+  "name": "BioVegan Pasta Topping Klassisch",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/biovegan-pasta-topping-chili-knoblauch-00295344",
+  "name": "BioVegan Pasta Topping Chili Knoblauch",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/maggi-magic-asia-noodle-cup-chicken-taste-00303260",
+  "name": "MAGGI Magic Asia Noodle Cup Chicken Taste",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/maggi-magic-asia-noodle-cup-curry-00303278",
+  "name": "MAGGI Magic Asia Noodle Cup Curry",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/maggi-magic-asia-noodle-cup-duck-taste-00303315",
+  "name": "MAGGI Magic Asia Noodle Cup Duck Taste",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-disney-suppe-avengers-tomate-00345074",
+  "name": "Knorr Disney Suppe Avengers Tomate",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-disney-suppe-frozen-gemuese-00345102",
+  "name": "Knorr Disney Suppe Frozen Gemüse",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-meisterkessel-gulaschsuppe-003459",
+  "name": "Knorr Meisterkessel Gulaschsuppe",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-meisterkessel-leberknoedelsuppe-003496",
+  "name": "Knorr Meisterkessel Leberknödelsuppe",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-meisterkessel-debreziner-wuerstelsuppe-00358440",
+  "name": "Knorr Meisterkessel Debreziner Würstelsuppe",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/maggi-magic-asia-saucy-noodls-teriyaki-cup-00381674",
+  "name": "MAGGI Magic Asia Saucy Noodls Teriyaki Cup",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/maggi-magic-asia-saucy-noodles-sweet-chili-cup-00381679",
+  "name": "MAGGI Magic Asia Saucy Noodles Sweet Chili Cup",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/maggi-magic-asia-saucy-noodles-sesame-chicken-cup-00381684",
+  "name": "MAGGI Magic Asia Saucy Noodles Sesame Chicken Cup",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-asia-noodles-becher-rind-00383697",
+  "name": "Knorr Asia Noodles Becher Rind",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-asia-noodles-becher-ente-00383699",
+  "name": "Knorr Asia Noodles Becher Ente",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-asia-noodles-huhn-00383963",
+  "name": "Knorr Asia Noodles Huhn",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-asia-noodles-curry-00384001",
+  "name": "Knorr Asia Noodles Curry",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-asia-noodles-rind-00384027",
+  "name": "Knorr Asia Noodles Rind",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-meisterkessel-serbische-bohnensuppe-003881",
+  "name": "Knorr Meisterkessel Serbische Bohnensuppe",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-meisterkessel-kartoffelsuppe-00402708",
+  "name": "Knorr Meisterkessel Kartoffelsuppe",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-huettensnack-schinken-hoernli-00406434",
+  "name": "Knorr Hüttensnack Schinken Hörnli",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-huettensnack-kaes-spaetzle-00406437",
+  "name": "Knorr Hüttensnack Käs Spätzle",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-sweety-griessschmarrn-00409269",
+  "name": "Knorr Sweety Grießschmarrn",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-sweety-kaiserschmarrn-00409271",
+  "name": "Knorr Sweety Kaiserschmarrn",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-bitte-zu-tisch-knoblauchsuppe-00409870",
+  "name": "Knorr Bitte zu Tisch Knoblauchsuppe",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-sweety-milchreis-00410779",
+  "name": "Knorr Sweety Milchreis",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-die-schnelle-feine-broccolicremesuppe-00412220",
+  "name": "Knorr Die Schnelle Feine Broccolicremesuppe",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-die-schnelle-feine-broccolicremesuppe-00412220",
+  "name": "Knorr Die Schnelle Feine Broccolicremesuppe",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-kaiserteller-zwiebelsuppe-00412222",
+  "name": "Knorr Kaiserteller Zwiebelsuppe",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-kaiserteller-zwiebelsuppe-00412222",
+  "name": "Knorr Kaiserteller Zwiebelsuppe",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-die-schnelle-feine-tomatencremesuppe-00412232",
+  "name": "Knorr Die Schnelle Feine Tomatencremesuppe",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-die-schnelle-feine-tomatencremesuppe-00412232",
+  "name": "Knorr Die Schnelle Feine Tomatencremesuppe",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-die-schnelle-feine-spargelcremesuppe-00412233",
+  "name": "Knorr Die Schnelle Feine Spargelcremesuppe",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-die-schnelle-feine-spargelcremesuppe-00412233",
+  "name": "Knorr Die Schnelle Feine Spargelcremesuppe",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-meisterkessel-bohnenspeck-suppe-00414166",
+  "name": "Knorr Meisterkessel Bohnen-Speck Suppe",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-bitte-zu-tisch-abc-suppe-00414514",
+  "name": "Knorr Bitte zu Tisch ABC Suppe",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-bitte-zu-tisch-eiermuschelsuppe-00416360",
+  "name": "Knorr Bitte zu Tisch Eiermuschelsuppe",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-spaghetteria-carbonara-00418395",
+  "name": "Knorr Spaghetteria Carbonara",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-spaghetteria-pomodoro-mozzarella-00418397",
+  "name": "Knorr Spaghetteria Pomodoro Mozzarella",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-spaghetteria-parmesana-00418398",
+  "name": "Knorr Spaghetteria Parmesana",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-spaghetteria-funghi-00418399",
+  "name": "Knorr Spaghetteria Funghi",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-spaghetteria-panna-00418400",
+  "name": "Knorr Spaghetteria Panna",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-spaghetteria-bolognese-00418402",
+  "name": "Knorr Spaghetteria Bolognese",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-die-schnelle-feine-knoblauchrahmsuppe-00423164",
+  "name": "Knorr Die Schnelle Feine Knoblauch-Rahmsuppe",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-die-schnelle-feine-knoblauchrahmsuppe-00423164",
+  "name": "Knorr Die Schnelle Feine Knoblauch-Rahmsuppe",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-kaiserteller-frittatensuppe-00423194",
+  "name": "Knorr Kaiserteller Frittatensuppe",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-kaiserteller-frittatensuppe-00423194",
+  "name": "Knorr Kaiserteller Frittatensuppe",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-pasta-snack-arrabiata-00430901",
+  "name": "Knorr Pasta Snack Arrabiata",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-kartoffel-snack-speck-und-zwiebeln-00430910",
+  "name": "Knorr Kartoffel Snack Speck & Zwiebeln",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-kaiserteller-kartoffelcreme-suppe-00431939",
+  "name": "Knorr Kaiserteller Kartoffelcreme Suppe",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-kaiserteller-kartoffelcreme-suppe-00431939",
+  "name": "Knorr Kaiserteller Kartoffelcreme Suppe",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-kartoffellauchsuppe-mit-speck-00437683",
+  "name": "Knorr Kartoffel-Lauchsuppe mit Speck",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-kartoffellauchsuppe-mit-speck-00437683",
+  "name": "Knorr Kartoffel-Lauchsuppe mit Speck",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-kaiserteller-kuerbiscremesuppe-00437684",
+  "name": "Knorr Kaiserteller Kürbiscremesuppe",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-kaiserteller-kuerbiscremesuppe-00437684",
+  "name": "Knorr Kaiserteller Kürbiscremesuppe",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-spaghetteria-panna-e-prosciutto-00439460",
+  "name": "Knorr Spaghetteria Panna e Prosciutto",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-meisterkessel-kraeftige-rindsuppe-00439465",
+  "name": "Knorr Meisterkessel Kräftige Rindsuppe",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-pasta-snack-brokkoli-kaese-sauce-00468639",
+  "name": "Knorr Pasta Snack Brokkoli Käse Sauce",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-pasta-snack-pilz-rahm-sauce-00469617",
+  "name": "Knorr Pasta Snack Pilz Rahm Sauce",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-pasta-snack-kaese-kraeuter-sauce-00471928",
+  "name": "Knorr Pasta Snack Käse Kräuter Sauce",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-cup-a-soup-tomatensuppe-00527022",
+  "name": "Knorr Cup a Soup Tomatensuppe",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-cup-a-soup-tomatensuppe-00527022",
+  "name": "Knorr Cup a Soup Tomatensuppe",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-cup-a-soup-instant-huhn-00527028",
+  "name": "Knorr Cup a Soup Instant Huhn",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-cup-a-soup-instant-huhn-00527028",
+  "name": "Knorr Cup a Soup Instant Huhn",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-cup-a-soup-gemuesesuppe-00527060",
+  "name": "Knorr Cup a Soup Gemüsesuppe",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-cup-a-soup-gemuesesuppe-00527060",
+  "name": "Knorr Cup a Soup Gemüsesuppe",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-asia-noodles-becher-huhn-00538707",
+  "name": "Knorr Asia Noodles Becher Huhn",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-pasta-snack-bolognese-00538948",
+  "name": "Knorr Pasta Snack Bolognese",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-pasta-snack-kaese-sahne-sauce-00539014",
+  "name": "Knorr Pasta Snack Käse Sahne Sauce",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-bitte-zu-tisch-fleischkloesschensuppe-0056203",
+  "name": "Knorr Bitte zu Tisch Fleischklößchensuppe",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-bitte-zu-tisch-nudelsuppe-0056205",
+  "name": "Knorr Bitte zu Tisch Nudelsuppe",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-bitte-zu-tisch-fruehlingssuppe-0056207",
+  "name": "Knorr Bitte zu Tisch Frühlingssuppe",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-kaiserteller-griessnockerlsuppe-0056224",
+  "name": "Knorr Kaiserteller Grießnockerlsuppe",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-kaiserteller-griessnockerlsuppe-0056224",
+  "name": "Knorr Kaiserteller Grießnockerlsuppe",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-bitte-zu-tisch-huehnersuppe-0056251",
+  "name": "Knorr Bitte zu Tisch Hühnersuppe",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/maggi-magic-asia-gebratene-nudeln-huhn-00586341",
+  "name": "MAGGI Magic Asia Gebratene Nudeln Huhn",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/maggi-magic-asia-gebratene-nudeln-huhn-00586341",
+  "name": "MAGGI Magic Asia Gebratene Nudeln Huhn",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/maggi-magic-asia-gebratene-nudeln-gemuese-00586456",
+  "name": "MAGGI Magic Asia Gebratene Nudeln Gemüse",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/maggi-magic-asia-gebratene-nudeln-teriyaki-00586482",
+  "name": "MAGGI Magic Asia Gebratene Nudeln Teriyaki",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/maggi-magic-asia-noodle-cup-chili-00599253",
+  "name": "MAGGI Magic Asia Noodle Cup Chili",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/maggi-magic-asia-gebratene-nudeln-ente-00601151",
+  "name": "MAGGI Magic Asia Gebratene Nudeln Ente",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-kaiserteller-knoblauchcremesuppe-006191",
+  "name": "Knorr Kaiserteller Knoblauchcremesuppe",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-kaiserteller-knoblauchcremesuppe-006191",
+  "name": "Knorr Kaiserteller Knoblauchcremesuppe",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-meisterkessel-feurige-gulaschsuppe-00705631",
+  "name": "Knorr Meisterkessel Feurige Gulaschsuppe",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-asia-gebratene-nudeln-gemuese-00706465",
+  "name": "Knorr Asia Gebratene Nudeln Gemüse",
+  "issue": "API-Daten inkonsistent: Nettogehalt 139.0 g vs. Menge 1396.0 (Grundpreis basiert vermutlich auf Tippfehler) – Nettogehalt behalten"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-asia-gebratene-nudeln-gemuese-00706465",
+  "name": "Knorr Asia Gebratene Nudeln Gemüse",
+  "issue": "Packungsgröße 139.0 passt nicht zum Grundpreis (2.99€ / 2.14€/kg, impliziert 1397)"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-asia-gebratene-nudeln-gemuese-00706465",
+  "name": "Knorr Asia Gebratene Nudeln Gemüse",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-asia-gebratene-nudeln-huhn-00706469",
+  "name": "Knorr Asia Gebratene Nudeln Huhn",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-huettenschmaus-emmentaler-makkaroni-00713173",
+  "name": "Knorr Hüttenschmaus Emmentaler Makkaroni",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-pasta-snack-mac-und-cheese-jalapeno-00713191",
+  "name": "Knorr Pasta Snack Mac & Cheese Jalapeno",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-asia-noodles-becher-vegetable-taste-00713192",
+  "name": "Knorr Asia Noodles Becher Vegetable Taste",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-basis-gebratene-nudeln-00718517",
+  "name": "Knorr Basis Gebratene Nudeln",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/feelfood-instant-lunch-pasta-bolo-00731827",
+  "name": "Feelfood Instant Lunch Pasta Bolo",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/feelfood-instant-lunch-red-lentil-dal-00731829",
+  "name": "Feelfood Instant Lunch Red Lentil Dal",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/feelfood-instant-lunch-chili-sin-carne-00731832",
+  "name": "Feelfood Instant Lunch Chili Sin Carne",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/clever-griessnockerlsuppe-00736482",
+  "name": "Clever Grießnockerlsuppe",
+  "issue": "Nährwert unplausibel: Salz>=5 g/100g"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/clever-eiermuschelsuppe-00736488",
+  "name": "Clever Eiermuschelsuppe",
+  "issue": "Nährwert unplausibel: Salz>=5 g/100g"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/clever-kuerbiscremesuppe-00736490",
+  "name": "Clever Kürbiscremesuppe",
+  "issue": "Nährwert unplausibel: Salz>=5 g/100g"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/clever-nudelsuppe-00736494",
+  "name": "Clever Nudelsuppe",
+  "issue": "nur Trockenwerte (Pulver) in Quelle, keine Werte für zubereitetes Gericht – /100g nicht vergleichbar, aus Ranking nehmen"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/clever-nudelsuppe-00736494",
+  "name": "Clever Nudelsuppe",
+  "issue": "Nährwert unplausibel: Salz>=5 g/100g"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/clever-knoblauchcremesuppe-00736497",
+  "name": "Clever Knoblauchcremesuppe",
+  "issue": "Nährwert unplausibel: Salz>=5 g/100g"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/clever-buchstabensuppe-00736499",
+  "name": "Clever Buchstabensuppe",
+  "issue": "nur Trockenwerte (Pulver) in Quelle, keine Werte für zubereitetes Gericht – /100g nicht vergleichbar, aus Ranking nehmen"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/clever-buchstabensuppe-00736499",
+  "name": "Clever Buchstabensuppe",
+  "issue": "Nährwert unplausibel: Salz>=5 g/100g"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-bitte-zu-tisch-nemo-suppe-00755169",
+  "name": "Knorr Bitte Zu Tisch Nemo Suppe",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-keiserteller-steinpilzcremesuppe-00762665",
+  "name": "Knorr Keiserteller Steinpilzcremesuppe",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-keiserteller-steinpilzcremesuppe-00762665",
+  "name": "Knorr Keiserteller Steinpilzcremesuppe",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-keiserteller-gemuesecreme-suppe-00762666",
+  "name": "Knorr Keiserteller Gemüsecreme Suppe",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-keiserteller-gemuesecreme-suppe-00762666",
+  "name": "Knorr Keiserteller Gemüsecreme Suppe",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-kaiserteller-spargelcremesuppe-00762667",
+  "name": "Knorr Kaiserteller Spargelcremesuppe",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-kaiserteller-spargelcremesuppe-00762667",
+  "name": "Knorr Kaiserteller Spargelcremesuppe",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-keiserteller-gulasch-suppe-00772450",
+  "name": "Knorr Keiserteller Gulasch Suppe",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-keiserteller-gulasch-suppe-00772450",
+  "name": "Knorr Keiserteller Gulasch Suppe",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-keiserteller-kartoffeltopf-00773471",
+  "name": "Knorr Keiserteller Kartoffeltopf",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-keiserteller-kartoffeltopf-00773471",
+  "name": "Knorr Keiserteller Kartoffeltopf",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-meisterkessel-deftige-gemuesesuppe-mit-kartoffeln-und-speck-00777936",
+  "name": "Knorr Meisterkessel Deftige Gemüsesuppe mit Kartoffeln und Speck",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/maggi-magic-asia-nudel-snack-curry-00791008",
+  "name": "MAGGI Magic Asia Nudel Snack Curry",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/maggi-magic-asia-nudel-snack-curry-00791008",
+  "name": "MAGGI Magic Asia Nudel Snack Curry",
+  "issue": "Nährwert unplausibel: Salz>=5 g/100g"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/maggi-magic-asia-nudel-snack-huhn-00791010",
+  "name": "MAGGI Magic Asia Nudel Snack Huhn",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/maggi-magic-asia-nudel-snack-huhn-00791010",
+  "name": "MAGGI Magic Asia Nudel Snack Huhn",
+  "issue": "Nährwert unplausibel: Salz>=5 g/100g"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/maggi-magic-asia-nudel-snack-duck-taste-00791012",
+  "name": "MAGGI Magic Asia Nudel Snack Duck Taste",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/maggi-magic-asia-nudel-snack-duck-taste-00791012",
+  "name": "MAGGI Magic Asia Nudel Snack Duck Taste",
+  "issue": "Nährwert unplausibel: Salz>=5 g/100g"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-spaghetteria-spinaci-00823996",
+  "name": "Knorr Spaghetteria Spinaci",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-sweety-kaiserschmarrn-ohne-rosinen-00832794",
+  "name": "Knorr Sweety Kaiserschmarrn ohne Rosinen",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/4-diamanten-thunfisch-getrocknete-tomaten-und-kraeuter-00864927",
+  "name": "4 Diamanten Thunfisch Getrocknete Tomaten & Kräuter",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/4-diamanten-thunfisch-getrocknete-tomaten-und-kraeuter-00864927",
+  "name": "4 Diamanten Thunfisch Getrocknete Tomaten & Kräuter",
+  "issue": "Thunfisch-Konserve – eher Zutat als Fertiggericht"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/4-diamanten-thunfisch-red-curry-00864947",
+  "name": "4 Diamanten Thunfisch Red Curry",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/4-diamanten-thunfisch-red-curry-00864947",
+  "name": "4 Diamanten Thunfisch Red Curry",
+  "issue": "Thunfisch-Konserve – eher Zutat als Fertiggericht"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/4-diamanten-thunfisch-puttanesca-00864955",
+  "name": "4 Diamanten Thunfisch Puttanesca",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/4-diamanten-thunfisch-puttanesca-00864955",
+  "name": "4 Diamanten Thunfisch Puttanesca",
+  "issue": "Thunfisch-Konserve – eher Zutat als Fertiggericht"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/4-diamanten-thunfisch-french-dressing-00864957",
+  "name": "4 Diamanten Thunfisch French Dressing",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/4-diamanten-thunfisch-french-dressing-00864957",
+  "name": "4 Diamanten Thunfisch French Dressing",
+  "issue": "Thunfisch-Konserve – eher Zutat als Fertiggericht"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-meisterkessel-huehnersuppe-00867874",
+  "name": "Knorr Meisterkessel Hühnersuppe",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-cup-a-soup-mushroom-00875374",
+  "name": "Knorr Cup a Soup Mushroom",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-cup-a-soup-mushroom-00875374",
+  "name": "Knorr Cup a Soup Mushroom",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-kaiserteller-eierschwammerlsuppe-00906851",
+  "name": "Knorr Kaiserteller Eierschwammerlsuppe",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-kaiserteller-eierschwammerlsuppe-00906851",
+  "name": "Knorr Kaiserteller Eierschwammerlsuppe",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/maggi-magic-asia-instant-nudeln-chili-00916835",
+  "name": "MAGGI Magic Asia Instant Nudeln Chili",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-pasta-snack-gulasch-sauce-00923559",
+  "name": "Knorr Pasta Snack Gulasch Sauce",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-kaiserteller-minestrone-00963120",
+  "name": "Knorr Kaiserteller Minestrone",
+  "issue": "aktuell in Aktion; Regalpreis verwendet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-kaiserteller-minestrone-00963120",
+  "name": "Knorr Kaiserteller Minestrone",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-veggie-penne-mit-broccoli-00965501",
+  "name": "Knorr Veggie Penne mit Broccoli",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/fratelli-barbaro-gnocchi-mit-kuerbis-00715254",
+  "name": "Fratelli Barbaro Gnocchi mit Kürbis",
+  "issue": "Quelle hat kJ im kcal-Feld; umgerechnet"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-kraftbouillon-gemuese-00284507",
+  "name": "Knorr Kraftbouillon Gemüse",
+  "issue": "Nährwert unplausibel: Salz>=5 g/100g"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/maggi-fix-ofenspirelli-alla-mamma-00381632",
+  "name": "MAGGI Fix Ofen-Spirelli alla Mamma",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/maggi-fix-ofenspirelli-alla-mamma-00381632",
+  "name": "MAGGI Fix Ofen-Spirelli alla Mamma",
+  "issue": "Nährwert unplausibel: Salz>=5 g/100g"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-kraeuterlinge-fruehlingskraeuter-00423176",
+  "name": "Knorr Kräuterlinge Frühlingskräuter",
+  "issue": "nur Trockenwerte (Pulver) in Quelle, keine Werte für zubereitetes Gericht – /100g nicht vergleichbar, aus Ranking nehmen"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-kraeuterlinge-fruehlingskraeuter-00423176",
+  "name": "Knorr Kräuterlinge Frühlingskräuter",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-kraeuterlinge-fruehlingskraeuter-00423176",
+  "name": "Knorr Kräuterlinge Frühlingskräuter",
+  "issue": "Nährwert unplausibel: Salz>=5 g/100g"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/auinger-klare-suppe-00639588",
+  "name": "Auinger Klare Suppe",
+  "issue": "nur Trockenwerte (Pulver) in Quelle, keine Werte für zubereitetes Gericht – /100g nicht vergleichbar, aus Ranking nehmen"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/auinger-klare-suppe-00639588",
+  "name": "Auinger Klare Suppe",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/auinger-klare-suppe-00639588",
+  "name": "Auinger Klare Suppe",
+  "issue": "Nährwert unplausibel: Salz>=5 g/100g"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-basis-fuer-pasta-asciutta-pomodoro-00683580",
+  "name": "Knorr Basis für Pasta Asciutta Pomodoro",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ },
+ {
+  "id": "https://shop.billa.at/produkte/knorr-basis-fuer-geschnetzeltes-toskana-00789873",
+  "name": "Knorr Basis für Geschnetzeltes Toskana",
+  "issue": "Trockenprodukt: protein_pack basiert auf Trockengewicht – Portionswert unsicher"
+ }
+]

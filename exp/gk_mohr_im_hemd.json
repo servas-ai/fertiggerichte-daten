@@ -1,0 +1,125 @@
+{
+ "count": 4,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Landliebe Fruchtjoghurt Heidelbeere im Mehrwegglas",
+   "brand": "Landliebe",
+   "price_eur": 2.39,
+   "unit_price_eur": 4.78,
+   "unit": "kg",
+   "size_g": 500.0,
+   "nutrition_100g": {
+    "kcal": 98.0,
+    "fat": 3.2,
+    "satfat": 2.2,
+    "carbs": 13.0,
+    "sugar": 12.0,
+    "protein": 4.2,
+    "salt": 0.12,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/19258/19258-1624877483235.jpg",
+   "producer": "FrieslandCampina Germany GmbH, 74078 Heilbronn DEUTSCHLAND",
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Kühlregal > Joghurt & Desserts > Fruchtjoghurt",
+   "source_url": "https://www.gurkerl.at/19258-landliebe-fruchtjoghurt-heidelbeere-im-mehrwegglas",
+   "source_id": "19258",
+   "fetched_at": "2026-10-13T02:18:22+00:00",
+   "extra": {
+    "ingredients": "Der ausgewiesene Verkaufspreis versteht sich inkl. MwSt, exkl. Pfand.\n\nJoghurt mit 13,5 % Heidelbeerzubereitung, 3,8 % Fett im Milchanteil.\n\nZutaten: JOGHURT, Zucker, Heidelbeeren*, modifizierte Stärke, natürliches\nAroma, Verdickungsmittel Pektine. *Frucht im Endprodukt: 8 %\n\nUngeöffnet bei +8 °C mindestens haltbar bis:\n\nKontakt: FrieslandCampina Germany GmbH, 74078 Heilbronn DEUTSCHLAND"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Schärdinger Bergbauern Fruchtjoghurt Heidelbeere im Mehrwegglas",
+   "brand": "Schärdinger",
+   "price_eur": 2.39,
+   "unit_price_eur": 4.78,
+   "unit": "kg",
+   "size_g": 500.0,
+   "nutrition_100g": {
+    "kcal": 88.0,
+    "fat": 3.1,
+    "satfat": 2.1,
+    "carbs": 12.0,
+    "sugar": 11.0,
+    "protein": 3.2,
+    "salt": 0.12,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/47908/47908-1777548721564604570.JPEG",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Joghurt & Desserts > Fruchtjoghurt",
+   "source_url": "https://www.gurkerl.at/47908-schaerdinger-bergbauern-fruchtjoghurt-heidelbeere-im-mehrwegglas",
+   "source_id": "47908",
+   "fetched_at": "2026-10-13T02:18:22+00:00",
+   "extra": {
+    "ingredients": "Der ausgewiesene Verkaufspreis versteht sich inkl. MwSt, exkl. Pfand. \n\nNaturreines Bergbauern Fruchtjoghurt mit 12% Fruchtanteil (6,4% Heidelbeeren), aus pasteurisierter Milch mit natürlichen Fettgehalt\n\nZutaten: JOGHURT, Zucker, 3,9% Heidelbeeren, Schwarze Johannisbeeren, 2,5% Heidelbeerpüree, Schwarzer Johannisbeersaft aus Schwarzen Johannisbeersaftkonzentrat, Stabilisator Pektine, Zitronensaftkonzentrat. Heidelbeeren stammen aus der EU und Nicht-EU. Schwarze Johannisbeeren aus der EU.\n\nUngeöffnet, gekühlt bei max.3-7°C lagern."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Mattigtaler BIO Heidi Heidelbeer Jogurt Mehrwegglas",
+   "brand": "Mattigtaler",
+   "price_eur": 1.59,
+   "unit_price_eur": 6.36,
+   "unit": "kg",
+   "size_g": 250.0,
+   "nutrition_100g": {
+    "kcal": 94.4,
+    "fat": 3.5,
+    "satfat": 2.58,
+    "carbs": 12.46,
+    "sugar": 12.46,
+    "protein": 3.02,
+    "salt": 0.11,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/30023/30023-1679407735942.jpg",
+   "producer": "Mattigtaler Käse GmbH, Kraiham 9, 5201 Seekirchen",
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Joghurt & Desserts > Fruchtjoghurt",
+   "source_url": "https://www.gurkerl.at/30023-mattigtaler-bio-heidi-heidelbeer-jogurt-mehrwegglas",
+   "source_id": "30023",
+   "fetched_at": "2026-10-13T02:18:22+00:00",
+   "extra": {
+    "ingredients": "Der ausgewiesene Verkaufspreis versteht sich inkl. MwSt, exkl. Pfand.\n\nBIO- Heidi Heidelbeer Jogurt 250g\n\nZutaten: Jogurt  mit natürl. Fettgehalt (Bio-MILCH, Jogurtkulturen), Bio Zucker*, 43% Heidelbeere*, Wasser, natürliches Heidelbeer Aroma*, Pektin,  Zitronensaftkonzentrat*\n\nGekühlt bei + 4-6°C lagern.\n\nBio Kontrollnummer: AT-Bio-301\n\nKontakt: Mattigtaler Käse GmbH, Kraiham 9, 5201 Seekirchen\n"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Kurz ums Eck BIO Joghurt auf Heidelbeer-Pfirsich Mehrwegglas",
+   "brand": "Kurz ums Eck",
+   "price_eur": 2.79,
+   "unit_price_eur": 14.68,
+   "unit": "kg",
+   "size_g": 190.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/30837/30837-1694075329962.jpg",
+   "producer": "Kurz ums Eck KG, Marktstraße 8, 3383 Hürm",
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Joghurt & Desserts > Fruchtjoghurt",
+   "source_url": "https://www.gurkerl.at/30837-kurz-ums-eck-bio-joghurt-auf-heidelbeer-pfirsich-mehrwegglas",
+   "source_id": "30837",
+   "fetched_at": "2026-10-13T02:18:22+00:00",
+   "extra": {
+    "ingredients": "Der ausgewiesene Verkaufspreis versteht sich inkl. MwSt, exkl. Pfand. \n\nNatur-Joghurt gerührt, mit natürlichem Fettgehalt, auf Heidelbeer-Pfirsich-Marmelade, pasteurisiert\n\nZutaten: JOGHURT*  (Bio-Milch aus muttergebundener Haltung), Heidelbeeren* (6%), Pfirsich* (4%), Rüben-Zucker*, Geliermittel: Pektin *aus biologischer Landwirtschaft\n\n\nGekühlt lagern, bei max. 6°C, nach dem Öffnen innerhalb weniger Tage genießen. \n\nBIO - Kontrollstellennummer: AT-BIO-301\n\nKontakt: Kurz ums Eck KG, Marktstraße 8, 3383 Hürm"
+   }
+  }
+ ]
+}

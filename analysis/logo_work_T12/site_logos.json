@@ -1,0 +1,584 @@
+[
+ {
+  "slug": "deflorian",
+  "url": "https://deflorian.tirol/",
+  "cands": [
+   {
+    "kind": "og",
+    "url": "http://deflorian.tirol/cdn/shop/files/dfl_packaging2.png?v=1777030213",
+    "file": "cand/deflorian_0.png",
+    "bytes": 5000000
+   },
+   {
+    "kind": "img",
+    "url": "https://deflorian.tirol/cdn/shop/files/deFlorian_logo.svg?height=35&v=1776863303",
+    "file": "cand/deflorian_1.svg",
+    "bytes": 1474
+   },
+   {
+    "kind": "img",
+    "url": "https://deflorian.tirol/cdn/shop/files/deFlorian_logo_white.svg?height=35&v=1776863303",
+    "file": "cand/deflorian_2.svg",
+    "bytes": 1840
+   },
+   {
+    "kind": "img",
+    "url": "https://deflorian.tirol/cdn/shop/files/deFlorian_logo_white.svg?v=1776863303&width=3840",
+    "file": "cand/deflorian_3.svg",
+    "bytes": 1840
+   },
+   {
+    "kind": "icon",
+    "url": "https://deflorian.tirol/cdn/shop/files/favicon-32x32.png?crop=center&height=32&v=1774257360&width=32",
+    "file": "cand/deflorian_4.png",
+    "bytes": 1196
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://deflorian.tirol/"
+ },
+ {
+  "slug": "aiafood",
+  "url": "https://www.aiafood.com/it/",
+  "cands": [
+   {
+    "kind": "og",
+    "url": "https://backoffice.aiafood.com/uploads/logo_aia_7afa0707fc.svg",
+    "file": "cand/aiafood_0.svg",
+    "bytes": 112670
+   },
+   {
+    "kind": "img",
+    "url": "https://backoffice.aiafood.com/uploads/logo_gruppo_veronesi_eefa15e474.svg",
+    "file": "cand/aiafood_1.svg",
+    "bytes": 39379
+   },
+   {
+    "kind": "img",
+    "url": "https://www.aiafood.com/_next/image/?url=%2Fimages%2Flogo-aia.png&w=280&q=75",
+    "file": "cand/aiafood_2.png",
+    "bytes": 51882
+   },
+   {
+    "kind": "img",
+    "url": "https://backoffice.aiafood.com/uploads/logo_wudy_fef554e12d.svg",
+    "file": "cand/aiafood_3.svg",
+    "bytes": 118505
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.aiafood.com/favicon.ico",
+    "file": "cand/aiafood_4.x-icon",
+    "bytes": 5430
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.aiafood.com/logo.png",
+    "file": "cand/aiafood_5.png",
+    "bytes": 18678
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.aiafood.com/it/"
+ },
+ {
+  "slug": "aiafood-en",
+  "url": "https://www.aiafood.com/en/",
+  "cands": [
+   {
+    "kind": "og",
+    "url": "https://backoffice.aiafood.com/uploads/logo_aia_7afa0707fc.svg",
+    "file": "cand/aiafood-en_0.svg",
+    "bytes": 112670
+   },
+   {
+    "kind": "img",
+    "url": "https://backoffice.aiafood.com/uploads/logo_gruppo_veronesi_eefa15e474.svg",
+    "file": "cand/aiafood-en_1.svg",
+    "bytes": 39379
+   },
+   {
+    "kind": "img",
+    "url": "https://www.aiafood.com/_next/image/?url=%2Fimages%2Flogo-aia.png&w=280&q=75",
+    "file": "cand/aiafood-en_2.png",
+    "bytes": 51882
+   },
+   {
+    "kind": "img",
+    "url": "https://backoffice.aiafood.com/uploads/logo_wudy_fef554e12d.svg",
+    "file": "cand/aiafood-en_3.svg",
+    "bytes": 118505
+   },
+   {
+    "kind": "img",
+    "url": "https://www.aiafood.com/_next/image/?url=https%3A%2F%2Fbackoffice.aiafood.com%2Fuploads%2Fthumbnail_Logo_aequilibrium_corretto_4_62f49e5216.png&w=1920&q=80",
+    "file": "cand/aiafood-en_4.png",
+    "bytes": 11326
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.aiafood.com/favicon.ico",
+    "file": "cand/aiafood-en_5.x-icon",
+    "bytes": 5430
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.aiafood.com/en/"
+ },
+ {
+  "slug": "hammermuehle",
+  "url": "https://www.hammermuehle-glutenfrei.de/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [Errno -2] Name or service not known>",
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "slug": "hammermuehle2",
+  "url": "https://hammermuehle.de/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert",
+  "err": "<urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1029)>"
+ },
+ {
+  "slug": "strauss",
+  "url": "https://www.strauss-tirol.at/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [Errno -2] Name or service not known>",
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "slug": "strauss2",
+  "url": "https://strauss.tirol/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate ",
+  "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1029)>"
+ },
+ {
+  "slug": "feelfood",
+  "url": "https://www.feelfood.de/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a HTTP Error 401: Unauthorized",
+  "err": "HTTP Error 401: Unauthorized"
+ },
+ {
+  "slug": "feelfood2",
+  "url": "https://feelfood.shop/",
+  "cands": [
+   {
+    "kind": "og",
+    "url": "https://feelfood.shop/opengraph-image.jpg?443c03a007878a5d",
+    "file": "cand/feelfood2_0.jpeg",
+    "bytes": 234193
+   },
+   {
+    "kind": "og",
+    "url": "https://feelfood.shop/twitter-image.jpg?443c03a007878a5d",
+    "file": "cand/feelfood2_1.jpeg",
+    "bytes": 234193
+   },
+   {
+    "kind": "img",
+    "url": "https://feelfood.shop/images/feelfood.shop/images/branding/logo-black.png",
+    "file": "cand/feelfood2_2.png",
+    "bytes": 27182
+   },
+   {
+    "kind": "icon",
+    "url": "https://feelfood.shop/images/feelfood.shop/images/branding/logo-black-reformed.png",
+    "file": "cand/feelfood2_3.png",
+    "bytes": 1368
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://feelfood.shop/"
+ },
+ {
+  "slug": "mochi",
+  "url": "https://www.mochikitchen.at/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [Errno -2] Name or service not known>",
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "slug": "mochi2",
+  "url": "https://mochi.at/",
+  "cands": [
+   {
+    "kind": "img",
+    "url": "https://www.mochi.at/bf_2020/mochi/wp-content/themes/mochi/images/logo_mochi_yellow.svg",
+    "file": "cand/mochi2_0.svg",
+    "bytes": 151805
+   },
+   {
+    "kind": "img",
+    "url": "https://www.mochi.at/bf_2020/mochi/wp-content/themes/mochi/images/logo_mochi_black.svg",
+    "file": "cand/mochi2_1.svg",
+    "bytes": 185104
+   },
+   {
+    "kind": "img",
+    "url": "https://www.mochi.at/bf_2020/mochi/wp-content/themes/mochi/images/slider/dogenhof_logo.svg",
+    "file": "cand/mochi2_2.svg",
+    "bytes": 13424
+   },
+   {
+    "kind": "img",
+    "url": "https://www.mochi.at/bf_2020/mochi/wp-content/themes/mochi/images/logo_mochi.svg",
+    "file": "cand/mochi2_3.svg",
+    "bytes": 184414
+   },
+   {
+    "kind": "img",
+    "url": "https://www.mochi.at/bf_2020/mochi/wp-content/themes/mochi/images/logo_kobo-white.svg",
+    "file": "cand/mochi2_4.svg",
+    "bytes": 1310
+   },
+   {
+    "kind": "img",
+    "url": "https://www.mochi.at/bf_2020/mochi/wp-content/themes/mochi/images/slider/logo_cucina.svg",
+    "file": "cand/mochi2_5.svg",
+    "bytes": 48885
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.mochi.at/"
+ },
+ {
+  "slug": "amlacher",
+  "url": "https://www.amlacher.at/",
+  "cands": [],
+  "robots_ok": true,
+  "final": "https://amlacher.at/"
+ },
+ {
+  "slug": "cecchin",
+  "url": "https://www.cecchin.it/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate ",
+  "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+ },
+ {
+  "slug": "landtmanns",
+  "url": "https://www.landtmanns-patisserie.at/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [Errno -2] Name or service not known>",
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "slug": "landtmanns2",
+  "url": "https://www.cafe-landtmann.at/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [Errno -2] Name or service not known>",
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "slug": "rians",
+  "url": "https://www.rians.fr/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecogn",
+  "err": "<urlopen error [SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1029)>"
+ },
+ {
+  "slug": "franksoup",
+  "url": "https://www.frank-soup.at/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [Errno -2] Name or service not known>",
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "slug": "franksoup2",
+  "url": "https://franksoup.com/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [Errno -2] Name or service not known>",
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "slug": "dankebauer",
+  "url": "https://dankebauer.at/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occur",
+  "err": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)>"
+ },
+ {
+  "slug": "wienerwirtshaus",
+  "url": "https://www.wienerwirtshaus.com/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [Errno -2] Name or service not known>",
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "slug": "pastabox",
+  "url": "https://pastabox.at/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [Errno -2] Name or service not known>",
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "slug": "galbani",
+  "url": "https://www.galbani.de/",
+  "cands": [
+   {
+    "kind": "img",
+    "url": "https://images.ctfassets.net/mecfjpayjw46/60oDMrSue91EVrrvDk6uA7/bcc0342f7eb5685d9d3b3c87d59ff0ee/LOGO-galbani-DE.webp?w=336&h=328&fm=webp&q=100&fit=pad&f=center",
+    "file": "cand/galbani_0.webp",
+    "bytes": 70076
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.galbani.de/assets/template/galbani/icons/favicon/apple-icon-57x57-477bc13790c779c85d49064cbd4db701.png",
+    "file": "cand/galbani_1.png",
+    "bytes": 2557
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.galbani.de/assets/template/galbani/icons/favicon/apple-icon-60x60-abfa577a1f68dc14859c1e8b2765908b.png",
+    "file": "cand/galbani_2.png",
+    "bytes": 2773
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.galbani.de/assets/template/galbani/icons/favicon/apple-icon-72x72-60783640fe63c892961864bef514021c.png",
+    "file": "cand/galbani_3.png",
+    "bytes": 3678
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.galbani.de/assets/template/galbani/icons/favicon/apple-icon-76x76-1ad025c7a3d646d647dafc7e7ca018db.png",
+    "file": "cand/galbani_4.png",
+    "bytes": 4021
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.galbani.de/assets/template/galbani/icons/favicon/apple-icon-114x114-c1c7215c7b62cf137dfa3d30ff790827.png",
+    "file": "cand/galbani_5.png",
+    "bytes": 7572
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.galbani.de/"
+ },
+ {
+  "slug": "thiriet",
+  "url": "https://www.thiriet.com/",
+  "cands": [
+   {
+    "kind": "og",
+    "url": "https://static.thiriet.com/source/common_public/theme/theme_front_1/image/header/logo/logo.svg",
+    "file": "cand/thiriet_0.svg",
+    "bytes": 418810
+   },
+   {
+    "kind": "img",
+    "url": "https://static.thiriet.com/source/common_public/theme/theme_front_1/image/header/logo-maison-thiriet.svg",
+    "file": "cand/thiriet_1.svg",
+    "bytes": 66352
+   },
+   {
+    "kind": "icon",
+    "url": "https://static.thiriet.com/source/common_public/theme/theme_front_1/image/touch-icon-apple-72x72.png",
+    "file": "cand/thiriet_2.png",
+    "bytes": 831
+   },
+   {
+    "kind": "icon",
+    "url": "https://static.thiriet.com/source/common_public/theme/theme_front_1/image/touch-icon-apple-16x16.png",
+    "file": "cand/thiriet_3.png",
+    "bytes": 338
+   },
+   {
+    "kind": "icon",
+    "url": "https://static.thiriet.com/source/common_public/theme/theme_front_1/image/touch-icon-apple-32x32.png",
+    "file": "cand/thiriet_4.png",
+    "bytes": 472
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.thiriet.com/"
+ },
+ {
+  "slug": "findus",
+  "url": "https://www.findus.de/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occur",
+  "err": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)>"
+ },
+ {
+  "slug": "arla",
+  "url": "https://www.arla.de/",
+  "cands": [
+   {
+    "kind": "og",
+    "url": "https://www.arlafoods.de/4a4ae5/globalassets/z_demo-pages/de_01_buko_joyful-cooking_pumpkin-spice-lto-activation_stills_16x9_amn_de_v1_91b483-1.jpg",
+    "file": "cand/arla_0.jpeg",
+    "bytes": 5000000
+   },
+   {
+    "kind": "img",
+    "url": "https://www.arlafoods.de/UI/img/arla-logo.a7388293.svg",
+    "file": "cand/arla_1.svg",
+    "bytes": 6355
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.arlafoods.de/arla-touch-icon-144x144-precomposed.png",
+    "file": "cand/arla_2.png",
+    "bytes": 8212
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.arlafoods.de/arla-touch-icon-114x114-precomposed.png",
+    "file": "cand/arla_3.png",
+    "bytes": 6511
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.arlafoods.de/arla-touch-icon-72x72-precomposed.png",
+    "file": "cand/arla_4.png",
+    "bytes": 4051
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.arlafoods.de/arla-touch-icon-57x57-precomposed.png",
+    "file": "cand/arla_5.png",
+    "bytes": 3162
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.arlafoods.de/"
+ },
+ {
+  "slug": "dmbio",
+  "url": "https://www.dm.de/marken/dmbio-10001001.html",
+  "cands": [
+   {
+    "kind": "icon",
+    "url": "https://www.dm.de/favicon-32x32.png",
+    "file": "cand/dmbio_0.png",
+    "bytes": 1407
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.dm.de/favicon-16x16.png",
+    "file": "cand/dmbio_1.png",
+    "bytes": 776
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.dm.de/apple-touch-icon.png",
+    "file": "cand/dmbio_2.png",
+    "bytes": 2980
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.dm.de/marken/dmbio-10001001.html"
+ },
+ {
+  "slug": "dmbio2",
+  "url": "https://www.dm.at/marken/dmbio",
+  "cands": [
+   {
+    "kind": "icon",
+    "url": "https://www.dm.at/favicon-32x32.png",
+    "file": "cand/dmbio2_0.png",
+    "bytes": 1407
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.dm.at/favicon-16x16.png",
+    "file": "cand/dmbio2_1.png",
+    "bytes": 776
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.dm.at/apple-touch-icon.png",
+    "file": "cand/dmbio2_2.png",
+    "bytes": 2980
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.dm.at/marken/dmbio"
+ },
+ {
+  "slug": "spar-enjoy",
+  "url": "https://www.spar.at/markenwelten/spar-enjoy",
+  "cands": [],
+  "robots_ok": true,
+  "err": "HTTP Error 403: Forbidden"
+ },
+ {
+  "slug": "good-choice",
+  "url": "https://www.hofer.at/",
+  "cands": [
+   {
+    "kind": "img",
+    "url": "https://dm.emea.cms.aldi.cx/is/content/aldiprodeu/hofer_logo-2",
+    "file": "cand/good-choice_0.svg",
+    "bytes": 6117
+   },
+   {
+    "kind": "img",
+    "url": "https://www.hofer.at/_nuxt/aldi_logo_animation.BFzzbf5F.gif",
+    "file": "cand/good-choice_1.gif",
+    "bytes": 16394
+   },
+   {
+    "kind": "img",
+    "url": "https://dm.emea.cms.aldi.cx/is/content/aldiprodeu/app-store-apple-logo-3",
+    "file": "cand/good-choice_2.svg",
+    "bytes": 8001
+   },
+   {
+    "kind": "img",
+    "url": "https://dm.emea.cms.aldi.cx/is/content/aldiprodeu/app-store-google-logo-3",
+    "file": "cand/good-choice_3.svg",
+    "bytes": 4951
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.hofer.at/favicon.ico",
+    "file": "cand/good-choice_4.vnd.microsoft.icon",
+    "bytes": 4286
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.hofer.at/favicon.svg",
+    "file": "cand/good-choice_5.svg",
+    "bytes": 1067
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.hofer.at/"
+ },
+ {
+  "slug": "chef-select",
+  "url": "https://www.lidl.de/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occur",
+  "err": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)>"
+ },
+ {
+  "slug": "vemondo",
+  "url": "https://www.lidl.de/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occur",
+  "err": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)>"
+ }
+]

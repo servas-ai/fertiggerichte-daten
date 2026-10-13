@@ -1,0 +1,390 @@
+{
+ "count": 12,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Bibigo Dumpling mit Huhn und Gemüse (tiefgekühlt)",
+   "brand": "Bibigo",
+   "price_eur": 9.19,
+   "unit_price_eur": 15.32,
+   "unit": "kg",
+   "size_g": 600.0,
+   "nutrition_100g": {
+    "kcal": 135.0,
+    "fat": 3.5,
+    "satfat": 0.4,
+    "carbs": 15.0,
+    "sugar": 2.9,
+    "protein": 9.1,
+    "salt": 0.96,
+    "fiber": 2.9
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/31817/31817-1761811630175.jpg",
+   "producer": "Kreyenhop & Kluge GmbH & Co. KG, Industriestraße 40-42, 28876 Oyten/Germany",
+   "producer_id": null,
+   "origin": "EU, Außerhalb der EU\r",
+   "category": "Tiefkühlprodukte > Fertiggerichte > Internationales",
+   "source_url": "https://www.gurkerl.at/31817-bibigo-dumpling-mit-huhn-und-gemuese-tiefgekuehlt",
+   "source_id": "31817",
+   "fetched_at": "2026-10-13T02:11:07+00:00",
+   "extra": {
+    "ingredients": "Tiefgekühlte Teigtaschen gefüllt mit Hähnchenfleisch und Gemüse\n\nZutaten: Gemüse 33% (Weißkohl 44%, Zwiebeln 31%, Schnittknoblauch 16%, \nFrühlingszwiebeln 7%, Knoblauch 2%), WEIZENmehl, Hühnerbrust 16%, Geliermittel [Wasser, Maissirup, SOJAsauce (Wasser, entfettete SOJA, Salz, WEIZEN, destillierter Alkohol), Gelatine aus Karpfen und Tilapia (FISCH), Salz, Hefeextraktpulver], Wasser, Rapsöl, texturiertes SOJAprotein, Reispulver, SOJAsauce (Wasser, entfettete SOJA, Salz, WEIZEN, destillierter Alkohol), Hefeextraktpulver, Ingwer, SESAMöl, WEIZENgluten, Salz, natürliches Aroma, Zucker, schwarzes Pfefferpulver, SOJApulver.\n\nKann Spuren von EIERN, MILCH und KREBSTIEREN enthalten\n\nBei mindestens -18°C lagern. Nach dem Auftauen nicht wieder einfrieren.\n\nKontakt: Kreyenhop & Kluge GmbH & Co. KG, Industriestraße 40-42, 28876 Oyten/Germany"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Bibigo Dumpling mit Tofu und Gemüse (tiefgekühlt)",
+   "brand": "Bibigo",
+   "price_eur": 8.19,
+   "unit_price_eur": 13.65,
+   "unit": "kg",
+   "size_g": 600.0,
+   "nutrition_100g": {
+    "kcal": 197.0,
+    "fat": 4.0,
+    "satfat": 0.5,
+    "carbs": 33.6,
+    "sugar": 14.0,
+    "protein": 6.7,
+    "salt": 0.86,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/31818/31818-1761811657223.jpg",
+   "producer": "Kreyenhop & Kluge GmbH & Co. KG, Industriestraße 40-42, 28876 Oyten/Germany",
+   "producer_id": null,
+   "origin": "EU, Außerhalb der EU\r",
+   "category": "Tiefkühlprodukte > Fertiggerichte > Internationales",
+   "source_url": "https://www.gurkerl.at/31818-bibigo-dumpling-mit-tofu-und-gemuese-tiefgekuehlt",
+   "source_id": "31818",
+   "fetched_at": "2026-10-13T02:11:07+00:00",
+   "extra": {
+    "ingredients": "Tiefgekühlte Teigtaschen gefüllt mit Tofu und Gemüse \n\nZutaten: Gemüse* (46%) (Kohl (59%), Karotten (17%), Zwiebeln (9%), Spinat (8%), Frühlingszwiebeln (7%)), WEIZENmehl, Wasser, Tofu* (4%) (SOJAbohnen, Wasser, Festigungsmittel: Magnesiumchlorid (E511); Sojasauce (Wasser, SOJAbohnen, WEIZEN, Salz)), Tapiokastärke, Zucker, Glasnudeln (Erbsenstärke, Maisstärke, Wasser, Mungobohnenstärke), SOJAprotein Isolat, SESAMöl, Hefeextrakt, Rapsöl, Jodsalz (Salz, Kaliumjodat), WEIZENgluten, Verdickungsmittel: Methylcellulose (E461); Knoblauch, schwarzes Pfefferpulver, *Produziert in Deutschland. Gemüse und Tofu sind aus EU und Nicht-EU Ländern.\n\nBei mindestens -18°C lagern. Nach dem Auftauen nicht wieder einfrieren.\n\nKontakt: Kreyenhop & Kluge GmbH & Co. KG, Industriestraße 40-42, 28876 Oyten/Germany"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Bibigo Dumpling mit Kimchi & Huhn Gyoza (tiefgekühlt)",
+   "brand": "Bibigo",
+   "price_eur": 5.19,
+   "unit_price_eur": 17.3,
+   "unit": "kg",
+   "size_g": 300.0,
+   "nutrition_100g": {
+    "kcal": 160.0,
+    "fat": 3.3,
+    "satfat": 0.9,
+    "carbs": 22.5,
+    "sugar": 3.0,
+    "protein": 8.6,
+    "salt": 1.5,
+    "fiber": 3.2
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/36431/36431-1730193375442.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Tiefkühlprodukte > Fertiggerichte > Internationales",
+   "source_url": "https://www.gurkerl.at/36431-bibigo-dumpling-mit-kimchi-huhn-gyoza-tiefgekuehlt",
+   "source_id": "36431",
+   "fetched_at": "2026-10-13T02:11:07+00:00",
+   "extra": {
+    "ingredients": "Tiefgekühlte Teigtaschen gefüllt mit Hühnerfleisch, Kimchi und Gemüse\n\nZutaten: Gemüse (24%)* [Weißkohl {44%}, Zwiebeln {36%}, Frühlingszwiebeln {17%}, Knoblauch {3%}] WEIZENmehl, Hühnerfleisch (18%)*, Kimchi (14%) [Kimchi Sauce (Wasser, Knoblauch, Chilipulver, Fruktose, Salz, Ingwer, Natürliches Aroma, Starterkultur (Wasser, Dextrin, Glucose, Leuconostoc Mesenteroides, Trehalose, Maisstärke), Verdickungsmittel: Xanthan), Chinakohl {3%}*], Wasser, Texturiertes SOJAprotein, Hühnerhaut (3%)*, Tapiokastärke, Hefeextrakt, Branntweinessig [Farbstoff: Ammoniok-Zuckerkulör], Erbsenfaser, WEIZENgluten, Zucker, Salz, SESAMöl, SOJAsaucenpulver [SOJAsauce (SOJAbohnen, WEIZEN, Salz), Maltodextrin, Salz], Fischsauce [SARDELLEN (FISCH), Salz, Zucker], Rapsöl, Schwarzer Pfeffer, Ingwer. *Hühnerfleisch, Hühnerhaut und Gemüse kommen aus EU und Nicht-EU Ländern.\n\nBei -18°C lagern. Nach dem Auftauen nicht wieder einfrieren."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Bibigo Dumpling Beef Bulgogi (tiefgekühlt)",
+   "brand": "Bibigo",
+   "price_eur": 9.19,
+   "unit_price_eur": 15.32,
+   "unit": "kg",
+   "size_g": 600.0,
+   "nutrition_100g": {
+    "kcal": 178.0,
+    "fat": 5.0,
+    "satfat": 1.9,
+    "carbs": 23.6,
+    "sugar": 4.5,
+    "protein": 8.4,
+    "salt": 1.2,
+    "fiber": 2.6
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/36434/36434-1730194070471.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Tiefkühlprodukte > Fertiggerichte > Internationales",
+   "source_url": "https://www.gurkerl.at/36434-bibigo-dumpling-beef-bulgogi-tiefgekuehlt",
+   "source_id": "36434",
+   "fetched_at": "2026-10-13T02:11:07+00:00",
+   "extra": {
+    "ingredients": "Tiefgekühlte Teigtaschen gefüllt mit Rindfleisch und Gemüse\n\nZutaten: Gemüse (30%)* [Weißkohl {29%}, Frühlingszwiebeln {26%}, Zwiebeln {25%}, Karotten {20%}], WEIZENmehl, Rindfleisch (19%)* , Wasser, SOJAsauce [Wasser, SOJAbohnen, WEIZEN, Salz], Apfelmus [Äpfel, Glucose-Fructose-Sirup, Zucker, Säureregulator: Citronensäure, Antioxidationsmittel: Ascorbinsäure], Zucker, texturiertes SOJAprotein, Knoblauch, Tapiokastärke, Maisstärke, SESAMöl, Hefeextrakt, SOJAprotein Isolat, Salz, WEIZENgluten, Rapsöl, schwarzer Pfeffer, Ingwer *Gemüse und Rindfleisch kommen aus EU und Nicht-EU Ländern.\n\nBei -18°C lagern. Nach dem Auftauen nicht wieder einfrieren."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Bibigo Dumpling mit Schwein und Gemüse (tiefgekühlt)",
+   "brand": "Bibigo",
+   "price_eur": 9.19,
+   "unit_price_eur": 15.32,
+   "unit": "kg",
+   "size_g": 600.0,
+   "nutrition_100g": {
+    "kcal": 167.0,
+    "fat": 6.5,
+    "satfat": 2.6,
+    "carbs": 19.0,
+    "sugar": 2.6,
+    "protein": 8.0,
+    "salt": 0.8,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/31816/31816-1761809817029.jpg",
+   "producer": "Kreyenhop & Kluge GmbH & Co. KG, Industriestraße 40-42, 28876 Oyten/Germany",
+   "producer_id": null,
+   "origin": "EU, Außerhalb der EU\r",
+   "category": "Tiefkühlprodukte > Fertiggerichte > Internationales",
+   "source_url": "https://www.gurkerl.at/31816-bibigo-dumpling-mit-schwein-und-gemuese-tiefgekuehlt",
+   "source_id": "31816",
+   "fetched_at": "2026-10-13T02:11:07+00:00",
+   "extra": {
+    "ingredients": "Tiefgekühlte Teigtaschen gefüllt mit Schweinefleisch und Gemüse\n\nZutaten: Kohl* (27%), Schweinefleisch und -fett* (22%), WEIZENmehl, Wasser, Zwiebel* (7%), Frühlingszwiebel* (2%), Sojasauce* (2%) (Wasser, SOJAbohnen, WEIZEN, Salz), Knoblauch* (2%), Tofu (SOJAbohnen, Wasser, Festigungsmittel: Magnesiumchlorid (E511)) \nTapiokastärke, Hefeextrakt, Strukturierte SOJAproteine, WEIZENgluten, Salz, Zucker, Gewürze, SESAMöl, Rapssamenöl. *Produziert in Deutschland. Schweinefleisch, Gemüse und Sojasauce sind aus der EU und Nicht-EU.\nKann Spuren von KREBSTIEREN, EIER, FISCH und WEICHTIEREN enthalten.\n\nBei mindestens -18°C lagern. Nach dem Auftauen nicht wieder einfrieren.\n\nKontakt: Kreyenhop & Kluge GmbH & Co. KG, Industriestraße 40-42, 28876 Oyten/Germany"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Ourhome Gyoza Teigblätter (gefroren)",
+   "brand": "Ourhome",
+   "price_eur": 2.39,
+   "unit_price_eur": 13.28,
+   "unit": "kg",
+   "size_g": 180.0,
+   "nutrition_100g": {
+    "kcal": 282.0,
+    "fat": 2.3,
+    "satfat": 0.6,
+    "carbs": 58.0,
+    "sugar": 0.0,
+    "protein": 7.6,
+    "salt": 1.1,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/46434/46434-1767966471585259468.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Holland",
+   "category": "Tiefkühlprodukte > Fertiggerichte > Internationales",
+   "source_url": "https://www.gurkerl.at/46434-ourhome-gyoza-teigblaetter-gefroren",
+   "source_id": "46434",
+   "fetched_at": "2026-10-13T02:11:07+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Weizenmehl, Wasser, Maisstärke, Salz, Ethanol, Säureregulatoren: E262, E325."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Bibigo Dumpling Japchae, Mandu VEGAN (tiefgekühlt)",
+   "brand": "Bibigo",
+   "price_eur": 5.59,
+   "unit_price_eur": 15.97,
+   "unit": "kg",
+   "size_g": 350.0,
+   "nutrition_100g": {
+    "kcal": 173.0,
+    "fat": 6.6,
+    "satfat": 0.8,
+    "carbs": 20.0,
+    "sugar": 1.5,
+    "protein": 4.8,
+    "salt": 0.95,
+    "fiber": 6.4
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/36432/36432-1761811801298.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Südkorea",
+   "category": "Tiefkühlprodukte > Fertiggerichte > Internationales",
+   "source_url": "https://www.gurkerl.at/36432-bibigo-dumpling-japchae-mandu-vegan-tiefgekuehlt",
+   "source_id": "36432",
+   "fetched_at": "2026-10-13T02:11:07+00:00",
+   "extra": {
+    "ingredients": "Tiefgekühlte Teigtaschen gefüllt mit Glasnudeln und Gemüse\n\nZutaten: Gemüse 31% [Kohl, Zwiebel, Karotte, Schnittlauch, Kräuterseitlinge, Judasohr, Shiitake-Pilz [Shiitake-Pilz, Wasser, Salz, Säureregulator (Citronensäure)], Knoblauch], Wasser, WEIZENmehl, Rapsöl, Glasnudeln 4% [Süßkartoffelstärke, Tapiocastärke, Verdickungsmittel (Natriumalginat), Antioxidationsmittel (Ascorbinsäure)], modifizierte Tapiokastärke [modifizierte Stärke (Hydroxypropyldistärkephosphat), WEIZENgluten, Maltodextrin, WEIZENmehl], SOJAsauce (entfettete SOJAbohnen, WEIZEN, Wasser, Salz, Alkohol), texturiertes SOJAprotein, Zucker, SESAMöl, Natürliches Aroma, WEIZENfaser, Verdickungsmittel (Methylcellulose), Salz, WEIZENgluten, Hefeextraktpulver, Schwarzes Pfefferpulver, Ingwerpulver.\n\nBei -18°C lagern. Nach dem Auftauen nicht wieder einfrieren."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Bibigo Dumpling mit Kimchi Geschmack, Mandu VEGAN (tiefgekühlt)",
+   "brand": "Bibigo",
+   "price_eur": 5.59,
+   "unit_price_eur": 18.63,
+   "unit": "kg",
+   "size_g": 300.0,
+   "nutrition_100g": {
+    "kcal": 151.0,
+    "fat": 4.3,
+    "satfat": 0.6,
+    "carbs": 17.0,
+    "sugar": 1.4,
+    "protein": 7.6,
+    "salt": 1.0,
+    "fiber": 4.6
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/36433/36433-1761811772583.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Tiefkühlprodukte > Fertiggerichte > Internationales",
+   "source_url": "https://www.gurkerl.at/36433-bibigo-dumpling-mit-kimchi-geschmack-mandu-vegan-tiefgekuehlt",
+   "source_id": "36433",
+   "fetched_at": "2026-10-13T02:11:07+00:00",
+   "extra": {
+    "ingredients": "Tiefgekühlte Teigtaschen gefüllt mit Kimchi Geschmack und Gemüse\n\nZutaten: Gemüse 38% (Kohl, gesalzener Napa-Kohl 8% (Napa-Kohl, Salz), Zwiebel, Schnittlauch, Frühlingszwiebel, getrockneter Rettich, Knoblauch, Peperoni), Wasser, WEIZENmehl, dehydrierter Tofu [SOJABOHNEN, Geliermittel (Calciumsulfat)], texturiertes SOJAprotein, modifizierte Tapiokastärke [modifizierte Stärke (Hydroxypropyldistärkephosphat), WEIZENgluten, Maltodextrin, WEIZENmehl], Rapsöl, Paprikapulver 1%, natürliches Aroma, SOJAsauce (enthält SOJABOHNEN, WEIZEN), Essig, SESAMÖL, Salz, WEIZENfaser, WEIZENgluten, Zucker, Gewürze (enthält SOJABOHNEN, WEIZEN), Verdickungsmittel (Methylcellulose), Ingwerpulver, Pulver aus schwarzem Pfeffer, Geschmacksverstärker (Dinatriuminosinat, Dinatriumguanylat).\n\nBei -18°C lagern. Nach dem Auftauen nicht wieder einfrieren."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Diamond Wantan Teig (tiefgekühlt)",
+   "brand": "Diamond",
+   "price_eur": 3.99,
+   "unit_price_eur": 15.96,
+   "unit": "kg",
+   "size_g": 250.0,
+   "nutrition_100g": {
+    "kcal": 257.0,
+    "fat": 1.5,
+    "satfat": 0.6,
+    "carbs": 51.0,
+    "sugar": 1.3,
+    "protein": 9.2,
+    "salt": 2.0,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/31877/31877-1705321012648.jpg",
+   "producer": "Kreyenhop & Kluge GmbH & Co. KG, Industriestraße 40-42, 28876 Oyten/Germany",
+   "producer_id": null,
+   "origin": "Singapur",
+   "category": "Tiefkühlprodukte > Fertiggerichte > Internationales",
+   "source_url": "https://www.gurkerl.at/31877-diamond-wantan-teig-tiefgekuehlt",
+   "source_id": "31877",
+   "fetched_at": "2026-10-13T02:11:07+00:00",
+   "extra": {
+    "ingredients": "Teigplatten für Teigtaschen (Wantan), extra dünn, tiefgefroren, 9,5 x 9 cm \n\nZutaten: WEIZENmehl (75%), Wasser, Salz, Kokosfett.\n\nBei mindestens -18°C lagern. Nach dem Auftauen nicht wieder einfrieren.\n\nKontakt: Kreyenhop & Kluge GmbH & Co. KG, Industriestraße 40-42, 28876 Oyten/Germany\n"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Freshery Gyoza Ramen mit geräuchertem Tofu",
+   "brand": "Freshery",
+   "price_eur": 5.99,
+   "unit_price_eur": 27.23,
+   "unit": "kg",
+   "size_g": 220.0,
+   "nutrition_100g": {
+    "kcal": 128.0,
+    "fat": 2.2,
+    "satfat": 0.3,
+    "carbs": 23.0,
+    "sugar": 1.9,
+    "protein": 4.2,
+    "salt": 0.9,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/48165/48165-1779966314942832540.png",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Slowakische Republik",
+   "category": "Kühlregal > Schnelle Küche > Kochboxen",
+   "source_url": "https://www.gurkerl.at/48165-freshery-gyoza-ramen-mit-geraeuchertem-tofu",
+   "source_id": "48165",
+   "fetched_at": "2026-10-13T02:11:07+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Geräuchertes Tofu 18 % (SOJABOHNEN ohne GVO, natürliches Gerinnungsmittel Nigari), Reisnudeln 18 % (Reismehl, Tapiokastärke, Zucker, Speisesalz), vegetarische Gyoza 10 % gefüllt mit Tofu und Gemüse (Gemüse 48 % (Kohl 59 %, Karotte 17 %, Zwiebel 9 %, Spinat 8 %, Frühlingszwiebel 7 %), WEIZENMEHL, Wasser, Tofu (SOJABOHNEN, Festigungsmittel: Magnesiumchlorid), Sojasoße (Wasser, SOJABOHNEN, WEIZEN, Salz), Tapiokastärke, Zucker, Glasnudeln (Maisstärke, Wasser, Mungobohnenstärke), SOJAPROTEINISOLAT, SESAMÖL, Hefeextrakt, Rapsöl, Salz, Weizen-GLUTEN, Verdickungsmittel: Methylcellulose, Knoblauch, schwarzer Pfeffer), Bouillon 7 % (Speisesalz, Zucker, Gewürze (Zwiebel, Knoblauch, Chili, Zitronengras), Geschmacksverstärker: Glutamat-Natrium, Farbstoff: Annatto, Bixin, Norbixin), Pak Choi, Kirschtomaten, Dill, Koriander, gebratener Knoblauch, Frühlingszwiebel, SOJASPROSSEN."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Freshery Tom Yum mit Shiitake-Pilzen und Gyoza mit Garnelen",
+   "brand": "Freshery",
+   "price_eur": 5.99,
+   "unit_price_eur": 27.23,
+   "unit": "kg",
+   "size_g": 220.0,
+   "nutrition_100g": {
+    "kcal": 197.0,
+    "fat": 7.4,
+    "satfat": 6.3,
+    "carbs": 28.0,
+    "sugar": 6.2,
+    "protein": 4.9,
+    "salt": 2.8,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/48164/48164-1779966314455846353.png",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Slowakische Republik",
+   "category": "Kühlregal > Schnelle Küche > Kochboxen",
+   "source_url": "https://www.gurkerl.at/48164-freshery-tom-yum-mit-shiitake-pilzen-und-gyoza-mit-garnelen",
+   "source_id": "48164",
+   "fetched_at": "2026-10-13T02:11:07+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Reisnudeln (Reismehl, Tapiokastärke, Zucker, Speisesalz), gefrorene Knödel gefüllt mit GARNELEN und Gemüse (Gemüse 48 % (Kohl 59 %, Karotte 17 %, Zwiebel 9 %, Spinat 8 %, Frühlingszwiebel 7 %), WEIZENMEHL, Wasser, GARNELEN, Sojasoße (Wasser, SOJABOHNEN, WEIZEN, Salz), Tapiokastärke, Zucker, Glasnudeln (Maisstärke, Wasser, Mungobohnenstärke), SOJAPROTEINISOLAT, Sesamöl, Hefeextrakt, Rapsöl, Salz, Weizen-GLUTEN, Verdickungsmittel: Methylcellulose, Knoblauch, schwarzer Pfeffer), Tom Yum Paste (Salz, Zucker, Palmöl, Zitronengras, Säureregulator: Zitronensäure, Geschmacksverstärker: Glutamat-Natrium, Chilipulver, Tamarindenpaste (Tamarind, Wasser), Schalotte, Galangal, Limettensaft, Kokosmilch (Kokosextrakt 77 %, Wasser, Verdickungsmittel E466; E415, Emulgator E435, Antioxidationsmittel E306, E304)), Gemüsebouillon (jodiertes Salz, Geschmacksverstärker: Glutamat-Natrium, Inosinat-Natrium; Gemüsemischung 4 % (Karotte, Zwiebel, Lauch), Pflanzenfett (Palme, Shea), Glucose, Kartoffelstärke, Petersilienkraut, Kurkuma, Aroma, Farbstoffe: Ammonsulfitkaramel, Riboflavin), getrocknete GARNELEN, Pak Choi, Shiitake-Pilze, Kirschtomaten, Koriander, SOJASPROSSEN, getrocknete Wakame-Algen."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Happy Belly Wonton Teig (gefroren)",
+   "brand": "Happy Belly",
+   "price_eur": 3.99,
+   "unit_price_eur": 13.3,
+   "unit": "kg",
+   "size_g": 300.0,
+   "nutrition_100g": {
+    "kcal": 253.0,
+    "fat": 1.6,
+    "satfat": 0.3,
+    "carbs": 50.0,
+    "sugar": 0.0,
+    "protein": 9.8,
+    "salt": 1.52,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/46433/46433-1767966471334679031.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Holland",
+   "category": "Tiefkühlprodukte > Fertiggerichte > Internationales",
+   "source_url": "https://www.gurkerl.at/46433-happy-belly-wonton-teig-gefroren",
+   "source_id": "46433",
+   "fetched_at": "2026-10-13T02:11:07+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Weizenmehl (65%), Wasser, Stärke, hydrolysiertes Weizenprotein, Salz, Säureregulator (E501, E500), Sojaöl, Sojaprotein."
+   }
+  }
+ ]
+}

@@ -1,0 +1,358 @@
+{
+ "count": 11,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Alnatura BIO Falafel VEGAN",
+   "brand": "Alnatura",
+   "price_eur": 2.99,
+   "unit_price_eur": 14.95,
+   "unit": "kg",
+   "size_g": 200.0,
+   "nutrition_100g": {
+    "kcal": 201.0,
+    "fat": 8.1,
+    "satfat": 1.0,
+    "carbs": 19.0,
+    "sugar": 0.5,
+    "protein": 8.8,
+    "salt": 1.2,
+    "fiber": 8.2
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/10841/10841-1708605501095.jpg",
+   "producer": "Alnatura GmbH, Mahatma-Gandhi-Straße 7, 64295 Darmstadt.",
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Asiatisch- / Orientalische Küche",
+   "source_url": "https://www.gurkerl.at/10841-alnatura-bio-falafel-vegan",
+   "source_id": "10841",
+   "fetched_at": "2026-10-13T02:08:04+00:00",
+   "extra": {
+    "ingredients": "Bio Kichererbsen-Gemüse-Bällchen, vegan, frittiert.\n\nZutaten: Kichererbsen* 42 %, Gemüse* 37 % (Zucchini*, Zwiebeln*), Kichererbsenmehl* 16 %, Sonnenblumenöl*, Petersilie*, Meersalz, Gewürze*, Koriander*  \n*aus biologischer Landwirtschaft. \nKann Spuren von Gluten, Soja, Mandel, Cashewnuss, Senf und Sesam enthalten.\n\nGekühlt bei max. +7° C lagern.\nMindestens haltbar bis: siehe Deckelaufdruck\n\nBio-Kontrollstellennummer: DE-ÖKO-006\n\nKontakt: Alnatura GmbH, Mahatma-Gandhi-Straße 7, 64295 Darmstadt."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "NENI Falafelbällchen",
+   "brand": "Neni",
+   "price_eur": 2.69,
+   "unit_price_eur": 26.9,
+   "unit": "kg",
+   "size_g": 100.0,
+   "nutrition_100g": {
+    "kcal": 206.0,
+    "fat": 7.1,
+    "satfat": 0.7,
+    "carbs": 20.0,
+    "sugar": 0.5,
+    "protein": 11.0,
+    "salt": 3.5,
+    "fiber": 9.7
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/36520/36520-1730388652127.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Aufstriche > Hummus",
+   "source_url": "https://www.gurkerl.at/36520-neni-falafelbaellchen",
+   "source_id": "36520",
+   "fetched_at": "2026-10-13T02:08:04+00:00",
+   "extra": {
+    "ingredients": "Frittierte Bällchen aus Kichererbsen\n\nZutaten: 66 % Kichererbsen eingeweicht (Kichererbsen, Wasser), Paprika, Petersilie, Koriander, Zwiebel, Knoblauch, Säureregulator: Natriumacetat, Jungzwiebel, Flohsamenschalen geschrotet, Kreuzkümmelpulver, Spinatpulver, Chilipulver, Salz jodiert (Salz, Kaliumjodid), Rapsöl.\n\nBis zum Verzehr gekühlt bei 2-7°C lagern. Nach dem Öffnen alsbald verbrauchen. "
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Deli Dip Falafel Kichererbsen-Bällchen VEGAN",
+   "brand": "Deli Dip",
+   "price_eur": 3.39,
+   "unit_price_eur": 25.11,
+   "unit": "kg",
+   "size_g": 135.0,
+   "nutrition_100g": {
+    "kcal": 293.0,
+    "fat": 18.0,
+    "satfat": 1.8,
+    "carbs": 21.6,
+    "sugar": 5.0,
+    "protein": 8.4,
+    "salt": 1.67,
+    "fiber": 5.4
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/24624/24624-1646042603462.jpg",
+   "producer": "deli gourmet GmbH, Nußdorferplatz 5/9 - 1190 Wien - Austria | Mail: office@delidip.com |",
+   "producer_id": null,
+   "origin": "EU",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Asiatisch- / Orientalische Küche",
+   "source_url": "https://www.gurkerl.at/24624-deli-dip-falafel-kichererbsen-baellchen-vegan",
+   "source_id": "24624",
+   "fetched_at": "2026-10-13T02:08:04+00:00",
+   "extra": {
+    "ingredients": "Kichererbsen-Bällchen\n\nZutaten: 39% Kichererbsen, wasser, Zwiebel, Sonnenblumenöl, 3% Pertersilie, 3% Koriander, Salz, Knoblauch, grüner Paprika, Gewürze.\n\nGekühlt lagern bei: 2 bis 7 °C, Nach dem Öffnen gekühlt lagern und innerhalb von 2 Tagen verbrauchen.\n\nKontakt: deli gourmet GmbH, Nußdorferplatz 5/9 - 1190 Wien - Austria | Mail: office@delidip.com |"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Bowl \"Falafel\"",
+   "brand": "Wiegert",
+   "price_eur": 7.89,
+   "unit_price_eur": 19.24,
+   "unit": "kg",
+   "size_g": 410.0,
+   "nutrition_100g": {
+    "kcal": 122.34,
+    "fat": 1.95,
+    "satfat": 0.4,
+    "carbs": 20.05,
+    "sugar": 4.48,
+    "protein": 3.58,
+    "salt": 1.22,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/46338/46338-1765547255168.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Schnelle Küche > Salate & Bowls",
+   "source_url": "https://www.gurkerl.at/46338-bowl-falafel",
+   "source_id": "46338",
+   "fetched_at": "2026-10-13T02:08:04+00:00",
+   "extra": {
+    "ingredients": "42% Curryreis gegart (Rundkornreis, Wasser, Speisesalz unjodiert, Currypulver (Curcuma, Koriander, \nBockshornklee, Ingwer, Mutterkümmel, Speisesalz jodiert (Speisesalz, Kaliumjodid), Maisstärke, \nCayennepfeffer)), De Luxe Mix (Endivien, Radicchio, Frisée, Zuckerhut), 13% Falafel (Kichererbsen 32%, \nWasser, Rapsöl, Spinat, Zwiebeln, Kartoffelflocken, Petersilie, Knoblauch, Zwiebelpulver, Koriander, Stärke, \nZitronensaftkonzentrat, Speisesalz jodiert (Salz,Kaliumjodid),VOLLEIPULVER, Kreuzkümmel, Chili,\nPaprikapulver,Oregano,Pfeffer, Cayennepfeffer, Gewürzextrakt, Zitronenschale, Zitronenöl, natürliches Aroma,\nVerdickungsmittel Carrageen, Säuerungsmittel Natriumcitrate, Backtriebmittel Dinatriumdiphosphat und \nNatriumbicarbonat) Gurke, Rotkraut, Karotten, Minz-Knoblauch-Dip (JOGHURT 3,5%, Zitronensaft, Minze, \nWEINESSIG, Knoblauch, Rapsöl, Salz, Pfeffer) Cranberries getrocknet (Cranberries, Zucker, \nSonnenblumenöl), Minze. \n\nGekühlt (+2°C bis +6°C) und trocken lagern."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Alnatura BIO Falafel Mix",
+   "brand": "Alnatura",
+   "price_eur": 1.79,
+   "unit_price_eur": 10.53,
+   "unit": "kg",
+   "size_g": 170.0,
+   "nutrition_100g": {
+    "kcal": 129.0,
+    "fat": 2.3,
+    "satfat": 0.4,
+    "carbs": 17.0,
+    "sugar": 1.8,
+    "protein": 7.1,
+    "salt": 0.91,
+    "fiber": 6.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/10455/10455-1659970891016.jpg",
+   "producer": "Alnatura GmbH, Mahatma-Gandhi-Straße 7, 64295 Darmstadt.",
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Vorratsschrank > Fertiggerichte > Menüs & Dosengerichte",
+   "source_url": "https://www.gurkerl.at/10455-alnatura-bio-falafel-mix",
+   "source_id": "10455",
+   "fetched_at": "2026-10-13T02:08:04+00:00",
+   "extra": {
+    "ingredients": "Bio Trockenmischung mit Kichererbsenschrot zur Zubereitung von Falafel.\n\nZutaten: Kichererbsenschrot* 56 %, Kichererbsenmehl* 35 %, Zwiebeln*, Meersalz, Petersilie*, Koriander*, Kreuzkümmel*, Weißer Pfeffer*, Knoblauchpulver*.\n*aus biologischer Landwirtschaft. \nKann Spuren von Nüssen und Sesam enthalten.\n\nTrocken & vor Wärme geschützt lagern.\n\nZubereitsungsempfehlung:\n1. Packungsinhalt in einer Schüssel mit 260 ml kochendem Wasser aufgießen, anrühren und 15 Minuten quellen lassen. \n2. Aus dem Teig mit angefeuchteten Händen, je nach gewünschter Größe, ca. 16 teelöffelgroße Bällchen formen. \n3. In einer beschichteten Pfanne reichlich Öl erhitzen und die Falafel von allen Seiten goldbraun braten.\n\nBio-Kontrollstellennummer: DE-ÖKO-006\n\nKontakt: Alnatura GmbH, Mahatma-Gandhi-Straße 7, 64295 Darmstadt."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Deli Dip Falafel  (tiefgekühlt)",
+   "brand": "Deli Dip",
+   "price_eur": 17.99,
+   "unit_price_eur": 17.99,
+   "unit": "kg",
+   "size_g": 1000.0,
+   "nutrition_100g": {
+    "kcal": 295.0,
+    "fat": 18.2,
+    "satfat": 1.8,
+    "carbs": 21.6,
+    "sugar": 4.9,
+    "protein": 8.4,
+    "salt": 1.8,
+    "fiber": 5.4
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/34602/34602-1725544811548.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "EU",
+   "category": "Tiefkühlprodukte > Fertiggerichte > Internationales",
+   "source_url": "https://www.gurkerl.at/34602-deli-dip-falafel-tiefgekuehlt",
+   "source_id": "34602",
+   "fetched_at": "2026-10-13T02:08:04+00:00",
+   "extra": {
+    "ingredients": "Kichererbsen Bällchen mit Kräuter und Gewürzen\n\nZutaten: Kichererbsen 39%, Wasser,  Zwiebel,  Sonnenblumenöl, Petersilie, Koriander 3%, Salz, Knoblauch, Gewürze.\nKann Spuren von Sesamsamen enthalten."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Deli Dip Hummus nach orientalischer Art",
+   "brand": "Deli Dip",
+   "price_eur": 3.39,
+   "unit_price_eur": 13.56,
+   "unit": "kg",
+   "size_g": 250.0,
+   "nutrition_100g": {
+    "kcal": 244.0,
+    "fat": 18.9,
+    "satfat": 2.8,
+    "carbs": 9.4,
+    "sugar": 0.7,
+    "protein": 7.0,
+    "salt": 1.4,
+    "fiber": 5.9
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/47789/47789-1782292080262.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Ungarn",
+   "category": "Kühlregal > Aufstriche > Hummus",
+   "source_url": "https://www.gurkerl.at/47789-deli-dip-hummus-nach-orientalischer-art",
+   "source_id": "47789",
+   "fetched_at": "2026-10-13T02:08:04+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Hummus 84%: (gekochte Kichererbsen 69%  [Kichererbsen, Wasser], SESAMPASTE 15,5%, Sonnenblumenöl, Salz, Knoblauch, Pfeffer, Zitronensaftkonzentrat, Säuerungsmittel: Citronensäure). Orientalische Kichererbsen 16%: gekochte Kichererbsen 77% [Kichererbsen, Wasser], Sonnenblumenöl, Korianderblätter, Minze, Petersilie, Gewürze, Knoblauch, Säuerungsmittel: Citronensäure. Konservierungstoffe: Kaliumsorbat, Natriumbenzoat."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Iglo Green Cuisine Falafel (tiefgekühlt)",
+   "brand": "Iglo",
+   "price_eur": 5.29,
+   "unit_price_eur": 14.97,
+   "unit": "kg",
+   "size_g": 360.0,
+   "nutrition_100g": {
+    "kcal": 228.0,
+    "fat": 12.0,
+    "satfat": 0.8,
+    "carbs": 21.0,
+    "sugar": 1.8,
+    "protein": 6.9,
+    "salt": 1.2,
+    "fiber": 4.1
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/28306/28306-1667905153825.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Spanien",
+   "category": "Tiefkühlprodukte > Fertiggerichte > Internationales",
+   "source_url": "https://www.gurkerl.at/28306-iglo-green-cuisine-falafel-tiefgekuehlt",
+   "source_id": "28306",
+   "fetched_at": "2026-10-13T02:08:04+00:00",
+   "extra": {
+    "ingredients": "Kichererbsenbällchen mit Kräutern und Gewürzen verfeinert,vorgebraten, tiefgefroren.\n\nZutaten: Kichererbsen (63 %), Röstzwiebel (Zwiebeln, Rapsöl), HARTWEIZENGRIESS, Rapsöl, Petersilie, Zwiebel, Knoblauch, Backpulver (Backtriebmittel: Dinatrium-Diphosphat und Natriumbicarbonat, Maisstärke), Salz, Kreuzkümmel, Stabilisator: Methylcellulose*, Korianderextrakt, natürliches Aroma. Kann Spuren von SELLERIE enthalten.\n"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Deli Dip Hummus Natur",
+   "brand": "Deli Dip",
+   "price_eur": 5.99,
+   "unit_price_eur": 11.98,
+   "unit": "kg",
+   "size_g": 500.0,
+   "nutrition_100g": {
+    "kcal": 248.0,
+    "fat": 19.0,
+    "satfat": 2.9,
+    "carbs": 8.8,
+    "sugar": 0.7,
+    "protein": 7.0,
+    "salt": 1.2,
+    "fiber": 7.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/47797/47797-1776942158207003150.JPEG",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Ungarn",
+   "category": "Kühlregal > Aufstriche > Hummus",
+   "source_url": "https://www.gurkerl.at/47797-deli-dip-hummus-natur",
+   "source_id": "47797",
+   "fetched_at": "2026-10-13T02:08:04+00:00",
+   "extra": {
+    "ingredients": "Zutaten: 73% gekochte Kichererbsen (Kichererbsen, Wasser), 12,5 % SESAMPASTE, Sonnenblumenöl, Salz, Knoblauch, Pfeffer, Zitronensaftkonzentrat, Säuerungsmittel: Citronensäure, Konservierungsstoffe: Kaliumsorbat, Natriumbenzoat, Paprika."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Hiel BIO Falafel-Lauch Burger VEGAN",
+   "brand": "Hiel",
+   "price_eur": 4.59,
+   "unit_price_eur": 22.95,
+   "unit": "kg",
+   "size_g": 200.0,
+   "nutrition_100g": {
+    "kcal": 188.0,
+    "fat": 7.5,
+    "satfat": 1.1,
+    "carbs": 20.0,
+    "sugar": 2.1,
+    "protein": 3.9,
+    "salt": 1.02,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/36726/36726-1731511531293.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Fleisch & Fisch > Fleischlose Alternativen",
+   "source_url": "https://www.gurkerl.at/36726-hiel-bio-falafel-lauch-burger-vegan",
+   "source_id": "36726",
+   "fetched_at": "2026-10-13T02:08:04+00:00",
+   "extra": {
+    "ingredients": "Falafel-Lauch Laibchen\n\nZutaten: Wasser, Kichererbsen* 34%, Lauch* 13%, Zwiebeln*, Sonnenblumenöl*, Gewürze*, Salz, Petersilie*. *=aus biologischem Anbau\nFRITTIERT\n\nGekühlt lagern bei +2° bis +8°C.\nNach dem Öffnen innerhalb von 3 Tagen aufbrauchen.\nDämpfen oder im Backrohr aufwärmen"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Maza BIO Falafel",
+   "brand": "Maza",
+   "price_eur": 2.99,
+   "unit_price_eur": 11.96,
+   "unit": "kg",
+   "size_g": 250.0,
+   "nutrition_100g": {
+    "kcal": 237.0,
+    "fat": 11.8,
+    "satfat": 1.1,
+    "carbs": 19.5,
+    "sugar": 13.2,
+    "protein": 9.4,
+    "salt": 1.2,
+    "fiber": 7.6
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/4851/4851-1759303267177.jpg",
+   "producer": "",
+   "producer_id": null,
+   "origin": "Holland",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Asiatisch- / Orientalische Küche",
+   "source_url": "https://www.gurkerl.at/4851-maza-bio-falafel",
+   "source_id": "4851",
+   "fetched_at": "2026-10-13T02:08:04+00:00",
+   "extra": {
+    "ingredients": "Falafel.\n\nZutaten: 69 % Kichererbsen*, Zwiebeln*, Sonnenblumenöl*, Spinat*, Knoblauch*, Petersilie*, Meersalz, Kreuzkümmel*, Koriander*, weißer Pfeffer*, Säuerungsmittel: Zitronensäure.*aus kontrolliert biologischem Anbau.\n\nGekühlt (bei 2°-7°C) lagern, nach dem Öffnen nur begrenzt haltbar.\n\nBio-Kontrollstellennummer: NL-BIO-01\n\nKontaktdaten:\nInterfood Lebensmittelgroßhandel Ges.m.b.H., Innsbruckerstrasse 77, 6060 Hall in Tirol, +43(0)52 2356808–0, info@interfood.at"
+   }
+  }
+ ]
+}

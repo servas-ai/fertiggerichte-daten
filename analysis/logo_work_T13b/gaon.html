@@ -1,0 +1,595 @@
+
+
+<!DOCTYPE html>
+<html lang="DE">
+    
+    
+    
+
+<head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1">
+   
+    <!-- PRELOAD -->
+    <link rel="preload" href="https://www.gaon-vienna.com/xassets/static/563.css?ts=8db8afc39a407dc2600fb5b26dff51d2" as="style">
+    <link rel="preload" href="https://www.gaon-vienna.com/xassets/static/562.js?ts=ec6138e43f46f734c1f243b081068c2d" as="script">
+    <link rel="preload" href="https://www.gaon-vienna.com/xstorage/1/xs_system/fonts/barlow-v12-latin-300.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="https://www.gaon-vienna.com/xstorage/1/xs_system/fonts/barlow-v12-latin-300italic.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="https://www.gaon-vienna.com/xstorage/1/xs_system/fonts/barlow-v12-latin-regular.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="https://www.gaon-vienna.com/xstorage/1/xs_system/fonts/barlow-v12-latin-italic.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="https://www.gaon-vienna.com/xstorage/1/xs_system/fonts/barlow-v12-latin-500.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="https://www.gaon-vienna.com/xstorage/1/xs_system/fonts/barlow-v12-latin-500italic.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="https://www.gaon-vienna.com/xstorage/1/xs_system/fonts/barlow-v12-latin-600.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="https://www.gaon-vienna.com/xstorage/1/xs_system/fonts/barlow-v12-latin-600italic.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="https://www.gaon-vienna.com/xstorage/1/xs_system/fonts/barlow-v12-latin-700.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="https://www.gaon-vienna.com/xstorage/1/xs_system/fonts/barlow-v12-latin-700italic.woff2" as="font" type="font/woff2" crossorigin><style type="text/css">@font-face{font-family:"videojs";src:url('https://www.gaon-vienna.com/xstorage/1/template/fonts/VideoJS/VideoJS.ttf') format('truetype'),url('https://www.gaon-vienna.com/xstorage/1/template/fonts/VideoJS/VideoJS.woff') format('woff');font-weight: 400;font-style: normal;font-display: swap;}@font-face{font-family:"barlow";src:url('https://www.gaon-vienna.com/xstorage/1/xs_system/fonts/barlow-v12-latin-300.woff2') format('woff2');font-weight: 300;font-style: normal;font-display: swap;}@font-face{font-family:"barlow";src:url('https://www.gaon-vienna.com/xstorage/1/xs_system/fonts/barlow-v12-latin-300italic.woff2') format('woff2');font-weight: 300;font-style: italic;font-display: swap;}@font-face{font-family:"barlow";src:url('https://www.gaon-vienna.com/xstorage/1/xs_system/fonts/barlow-v12-latin-regular.woff2') format('woff2');font-weight: 400;font-style: normal;font-display: swap;}@font-face{font-family:"barlow";src:url('https://www.gaon-vienna.com/xstorage/1/xs_system/fonts/barlow-v12-latin-italic.woff2') format('woff2');font-weight: 400;font-style: italic;font-display: swap;}@font-face{font-family:"barlow";src:url('https://www.gaon-vienna.com/xstorage/1/xs_system/fonts/barlow-v12-latin-500.woff2') format('woff2');font-weight: 500;font-style: normal;font-display: swap;}@font-face{font-family:"barlow";src:url('https://www.gaon-vienna.com/xstorage/1/xs_system/fonts/barlow-v12-latin-500italic.woff2') format('woff2');font-weight: 500;font-style: italic;font-display: swap;}@font-face{font-family:"barlow";src:url('https://www.gaon-vienna.com/xstorage/1/xs_system/fonts/barlow-v12-latin-600.woff2') format('woff2');font-weight: 600;font-style: normal;font-display: swap;}@font-face{font-family:"barlow";src:url('https://www.gaon-vienna.com/xstorage/1/xs_system/fonts/barlow-v12-latin-600italic.woff2') format('woff2');font-weight: 600;font-style: italic;font-display: swap;}@font-face{font-family:"barlow";src:url('https://www.gaon-vienna.com/xstorage/1/xs_system/fonts/barlow-v12-latin-700.woff2') format('woff2');font-weight: 700;font-style: normal;font-display: swap;}@font-face{font-family:"barlow";src:url('https://www.gaon-vienna.com/xstorage/1/xs_system/fonts/barlow-v12-latin-700italic.woff2') format('woff2');font-weight: 700;font-style: italic;font-display: swap;}</style>
+    <!-- /PRELOAD -->
+ 
+    <!-- CCSS -->
+    <style>header,main,section{display:block}input{margin:0;font-family:inherit;font-size:inherit;line-height:inherit}input{overflow:visible}p{font-weight:500;line-height:1.4;font-family:var(--font-secondary);color:var(--color-primary);font-size:20px}p:last-child{margin-bottom:0!important}@media (max-width:767px){p{font-size:20px}}:root{--blue:#007bff;--indigo:#6610f2;--purple:#6f42c1;--pink:#e83e8c;--red:#dc3545;--orange:#fd7e14;--yellow:#ffc107;--green:#28a745;--teal:#20c997;--cyan:#17a2b8;--white:#fff;--gray:#6c757d;--gray-dark:#343a40;--primary:#007bff;--secondary:#6c757d;--success:#28a745;--info:#17a2b8;--warning:#ffc107;--danger:#dc3545;--light:#f8f9fa;--dark:#343a40;--font-family-sans-serif:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";--font-family-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace}*,::after,::before{box-sizing:border-box}html{font-family:sans-serif;line-height:1.15;-webkit-text-size-adjust:100%}footer,header,main,section{display:block}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";font-size:1rem;font-weight:400;line-height:1.5;color:#212529;text-align:left;background-color:#fff}h2{margin-top:0;margin-bottom:.5rem}p{margin-top:0;margin-bottom:1rem}ul{margin-top:0;margin-bottom:1rem}a{color:#007bff;text-decoration:none;background-color:#fff0}img{vertical-align:middle;border-style:none}svg{overflow:hidden;vertical-align:middle}button{border-radius:0}button,input{margin:0;font-family:inherit;font-size:inherit;line-height:inherit}button,input{overflow:visible}button{text-transform:none}[type=button],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,button::-moz-focus-inner{padding:0;border-style:none}input[type=checkbox]{box-sizing:border-box;padding:0}::-webkit-file-upload-button{font:inherit;-webkit-appearance:button}h2{margin-bottom:.5rem;font-weight:500;line-height:1.2}h2{font-size:2rem}.container{width:100%;padding-right:var(--utility-layout-gap);padding-left:var(--utility-layout-gap);margin-right:auto;margin-left:auto}@media (min-width:768px){.container{max-width:var(--utility-container-sm)}}@media (min-width:992px){.container{max-width:var(--utility-container-md)}}@media (min-width:1200px){.container{max-width:var(--utility-container-lg)}}@media (min-width:1400px){.container{max-width:var(--utility-container-xl)}}@media (min-width:1600px){.container{max-width:var(--utility-container-xxl)}}h2{font-family:var(--font-primary);font-weight:400;line-height:1.2;margin-bottom:.9rem;color:var(--color-primary)}h2{font-weight:500;font-size:36px;letter-spacing:-.01em}@media (max-width:1799px){h2{font-size:36px;font-size:1.875vw}}@media (max-width:1399px){h2{font-size:46px;font-size:2.39583333vw}}@media (max-width:767px){h2{font-size:25px}li,p{font-size:20px}}li,p{font-weight:500;line-height:1.4;font-family:var(--font-secondary);color:var(--color-primary);font-size:20px}li:last-child,p:last-child{margin-bottom:0!important}a{line-height:1.4;font-family:var(--font-secondary);color:inherit;font-size:20px}.is-hidden{visibility:hidden;position:absolute}.icon{fill:#fff0;stroke:currentColor}.icon-fill{fill:currentColor;stroke:#fff0}.wrapper{padding:30px 60px}@media (max-width:1399px){.wrapper{padding:20px 40px}}@media (max-width:767px){a{font-size:20px}.wrapper{padding:20px}body{font-size:20px}}.container{max-width:1920px;width:100%;margin:0 auto;display:grid;overflow-x:hidden;padding:0;min-height:100vh;grid-template-rows:auto 1fr auto}.container.home{grid-template-columns:360px repeat(2,1fr);grid-auto-rows:auto;grid-template-areas:"header top top" "header main main" "footer footer footer"}html{scroll-behavior:smooth}html::-webkit-scrollbar-track{background-color:var(--color-body)}html::-webkit-scrollbar{width:7px;height:7px}html::-webkit-scrollbar-thumb{background-color:var(--color-primary)}@-moz-document url-prefix(){html{scrollbar-width:thin;scrollbar-color:var(--color-primary) var(--color-primary)}}body{overflow-x:hidden;width:100%;line-height:1.2;background-color:var(--color-body);color:var(--color-primary);font-family:var(--font-primary);height:auto;font-size:20px}body.no-transition{animation:none!important}body.no-transition *{animation:none!important}main{grid-area:main;max-width:100%;overflow:hidden;display:grid}@media (max-width:575px){main{max-width:100%;-moz-hyphens:auto;-webkit-hyphens:auto;hyphens:auto;word-break:break-word;hyphenate-limit-chars:11 5 6;-webkit-hyphenate-limit-before:5;-webkit-hyphenate-limit-after:6;-ms-hyphenate-limit-chars:11 5 6}}main.home{grid-template-columns:1fr 1fr}footer li,footer ul{list-style:none;margin:0;padding:0}img:not(.autosize){display:block;max-width:100%;height:100%;width:100%;object-fit:cover}button{padding:0;color:var(--color-primary);outline:0;background-color:#fff0;border:none}section{width:100%}[id]{scroll-margin-top:var(--utility-header-height-dynamic)}footer{grid-area:footer}footer .footer-boxes{box-shadow:2px 0 0 0 var(--color-primary),0 0 0 0 transparent,2px 2px 0 0 var(--color-primary),0 0 0 0 #fff0 inset,0 2px 0 0 var(--color-primary) inset;display:grid;grid-template-columns:360px repeat(2,1fr);grid-template-areas:"socials lang menu"}@media (max-width:1599px){.container.home{grid-template-columns:265px repeat(2,1fr)}footer .footer-boxes{grid-template-columns:265px repeat(2,1fr)}}footer .footer-boxes .footer-box{padding:30px 60px 25px;box-shadow:2px 0 0 0 var(--color-primary),0 0 0 0 transparent,2px 2px 0 0 var(--color-primary),2px 0 0 0 var(--color-primary) inset,0 2px 0 0 var(--color-primary) inset}@media (max-width:1399px){.container.home{grid-template-columns:1fr 1fr;grid-template-areas:"header top" "main main" "footer footer"}footer .footer-boxes{display:flex;justify-content:space-between}footer .footer-boxes .footer-box{padding:20px 40px;box-shadow:2px 0 0 0 transparent,0 2px 0 0 transparent,2px 2px 0 0 transparent,2px 0 0 0 #fff0 inset,0 2px 0 0 #fff0 inset}}@media (max-width:767px){footer .footer-boxes{flex-wrap:wrap;flex-direction:row;padding:20px;row-gap:24px}footer .footer-boxes .footer-box{padding:0}}footer .footer-boxes .socials{grid-area:socials;box-shadow:2px 0 0 0 var(--color-primary),0 0 0 0 transparent,0 0 0 0 transparent,0 0 0 0 #fff0 inset,0 2px 0 0 var(--color-primary) inset}footer .footer-boxes .socials .socials-list{display:flex;gap:19px;align-items:center}@media (max-width:1599px){footer .footer-boxes .socials .socials-list{gap:15px}}footer .footer-boxes .socials .socials-list a{display:block;font-size:0}footer .footer-boxes .book{display:none;grid-area:book}footer .footer-boxes .lang{grid-area:lang}footer .footer-boxes .footer-menu{grid-area:menu;padding:30px 25px 25px 60px}@media (max-width:1399px){footer .footer-boxes .socials{box-shadow:0 0 0 0 transparent,0 0 0 0 transparent,0 0 0 0 transparent,0 0 0 0 #fff0 inset,0 0 0 0 #fff0 inset}footer .footer-boxes .footer-menu{padding:30px 25px 25px 40px}}@media (max-width:767px){footer .footer-boxes .lang{flex-basis:auto}footer .footer-boxes .footer-menu{flex-basis:100%;padding:0}}footer .footer-boxes .footer-menu .footer-nav-list{display:flex;column-gap:28px;row-gap:8px;height:100%;align-items:flex-end}footer .footer-boxes .footer-menu .footer-nav-list .footer-nav-link{font-weight:500;font-size:18px}@media (max-width:767px){footer .footer-boxes .footer-menu .footer-nav-list{justify-content:flex-start;flex-wrap:wrap}footer .footer-boxes .footer-menu .footer-nav-list .footer-nav-link{font-size:16px}}@media (max-width:1399px){footer .footer-boxes .footer-menu .footer-nav-list{column-gap:18px}footer.home .footer-boxes{display:flex;flex-wrap:wrap;justify-content:space-between}footer.home .footer-boxes .footer-box{flex-basis:auto;box-shadow:0 0 0 0 transparent,0 0 0 0 transparent,0 0 0 0 transparent,0 0 0 0 #fff0 inset,0 0 0 0 #fff0 inset}footer.home .footer-boxes .lang{padding-inline:0}}.language-list{display:inline-flex;background-color:var(--color-primary);color:#fff2e2;border-radius:70px}.language-list li{display:flex}.language-list li a{color:#fff2e2;font-weight:500;font-size:16px;line-height:1.25;padding:5px 7px;display:inline-block;margin:2px;border-radius:20px}@media (max-width:767px){footer.home .footer-boxes .socials{flex-basis:auto}footer.home .footer-boxes .footer-menu{flex-basis:100%}.language-list li a{font-size:13px}}.language-list li a.active{color:var(--color-primary);background-color:var(--color-body)}.top{position:relative;grid-area:top;display:grid;grid-template-columns:repeat(2,1fr);height:160px}.top .box{padding:60px 60px 30px;box-shadow:2px 0 0 0 var(--color-primary),0 2px 0 0 var(--color-primary),2px 2px 0 0 var(--color-primary),2px 0 0 0 var(--color-primary) inset,0 0 0 0 #fff0 inset;min-height:160px;display:flex;align-items:flex-end}.top p{font-size:16px;font-weight:500;max-width:130px;margin-bottom:0;text-transform:uppercase}header{grid-area:header;position:relative}header .wrapper{padding:40px}header .main-nav{display:flex;flex-direction:column;row-gap:60px}header .main-nav .logo{align-self:center}header .main-nav .logo img{max-width:200px;width:200px;height:auto;object-fit:contain}@media (max-width:1399px){.top{grid-template-columns:1fr;height:auto}.top .box{padding:20px 40px;min-height:unset}.top p{max-width:140px}header .wrapper{padding:20px 40px}header .main-nav{flex-direction:row;justify-content:space-between;align-items:center}header .main-nav .logo{align-self:flex-start}header .main-nav .logo img{max-width:108px;width:108px}}@media (max-width:767px){.top .box{padding:25px 20px 20px 0;box-shadow:0 0 0 0 transparent,0 0 0 0 transparent,0 0 0 0 transparent,0 0 0 0 #fff0 inset,0 0 0 0 #fff0 inset}.top p{font-size:14px}header .wrapper{padding:20px}header .main-nav .logo img{max-width:104px;width:104px}}.image-text{box-shadow:2px 0 0 0 var(--color-primary),0 2px 0 0 var(--color-primary),2px 2px 0 0 var(--color-primary),2px 0 0 0 var(--color-primary) inset,0 2px 0 0 var(--color-primary) inset}.image-text .wrapper{padding:45px 60px;border-bottom:2px solid var(--color-primary)}@media (max-width:1399px){.image-text{box-shadow:2px 0 0 0 var(--color-primary),0 0 0 0 transparent,2px 2px 0 0 var(--color-primary),0 0 0 0 #fff0 inset,0 2px 0 0 var(--color-primary) inset}.image-text .wrapper{padding:28px 40px}}@media (max-width:767px){.image-text .wrapper{padding:20px}}.image-text .image-text-link{height:100%;display:flex;flex-direction:column;text-decoration:none}.image-text .image-text-link .image-box{position:relative;height:100%}.image-text .image-text-link .image-box img{position:relative;z-index:-1;aspect-ratio:5/6}.image-text .image-text-link .image-box .arrow{display:none}.image-text .image-text-link h2{margin-bottom:0}@media (max-width:1399px){.image-text .image-text-link{padding:0;row-gap:0}.image-text .image-text-link .image-box img{aspect-ratio:unset;height:80vh}.image-text .image-text-link h2{font-size:40px}}@media (max-width:767px){.image-text .image-text-link .image-box img{height:70vh;min-height:300px}.image-text .image-text-link .image-box .arrow{display:flex;align-items:center;justify-content:center;position:absolute;bottom:0;left:0;right:0;padding:17px;box-shadow:2px 0 0 0 var(--color-primary),0 0 0 0 transparent,2px 2px 0 0 var(--color-primary),0 0 0 0 #fff0 inset,0 2px 0 0 var(--color-primary) inset}.image-text .image-text-link h2{font-size:25px}.image-text .image-text-link h2 .icon{display:none}}.image-text .image-text-link h2 .icon{margin-left:10px;stroke:currentColor;fill:#fff0}@media (max-width:1399px){.image-text .image-text-link h2 .icon{width:83px;height:auto}}</style>
+    <!-- /CCSS -->
+   
+    <!-- XR-HEAD -->
+    <!--[if lt IE 11]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+
+<base href="https://www.gaon-vienna.com/">
+
+<link rel="canonical" href="https://www.gaon-vienna.com">
+<link rel="alternate" hreflang="en" href="https://www.gaon-vienna.com/en/startseite.html"/>
+
+
+<!-- FAVICONS -->
+
+<link rel="icon" type="image/png" href="https://www.gaon-vienna.com/xstorage/1/_cache/20240314/Favicon_Gaon_155_1_18a3ea03a995ff500459f0ee1232e5a7.png" sizes="196x196" />
+
+<link rel="icon" type="image/png" href="https://www.gaon-vienna.com/xstorage/1/_cache/20240314/Favicon_Gaon_155_1_981ecaa0c8a9f4588794154077562d40.png" sizes="96x96" />
+
+<link rel="icon" type="image/png" href="https://www.gaon-vienna.com/xstorage/1/_cache/20240314/Favicon_Gaon_155_1_976de19bedf1e6a756b389486c6db907.png" sizes="32x32" />
+
+<link rel="icon" type="image/png" href="https://www.gaon-vienna.com/xstorage/1/_cache/20240314/Favicon_Gaon_155_1_fa24d6f4975e4e8058482979ec6809c9.png" sizes="16x16" />
+
+<link rel="icon" type="image/png" href="https://www.gaon-vienna.com/xstorage/1/_cache/20240314/Favicon_Gaon_155_1_b10249c437b60e738a6691ffa2933926.png" sizes="128x128" />
+
+
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://www.gaon-vienna.com/xstorage/1/_cache/20240314/Favicon_Gaon_155_1_6ea4e9ffc4b655580d3146fdbe6d960b.png" />
+
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://www.gaon-vienna.com/xstorage/1/_cache/20240314/Favicon_Gaon_155_1_43810274a308295294989bce8b2e950e.png" />
+
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://www.gaon-vienna.com/xstorage/1/_cache/20240314/Favicon_Gaon_155_1_090478b2b52a9da98f2fe487f402de97.png" />
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.gaon-vienna.com/xstorage/1/_cache/20240314/Favicon_Gaon_155_1_191bca1d36cb91dd77dc4cadf98e903c.png" />
+
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="https://www.gaon-vienna.com/xstorage/1/_cache/20240314/Favicon_Gaon_155_1_ff17a879b609e9f2358cd6407c37ad7c.png" />
+
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://www.gaon-vienna.com/xstorage/1/_cache/20240314/Favicon_Gaon_155_1_07317cb372814ea47fe885c1e29ae07d.png" />
+
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://www.gaon-vienna.com/xstorage/1/_cache/20240314/Favicon_Gaon_155_1_01a762a6897c011713c914cb20e8d7b2.png" />
+
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://www.gaon-vienna.com/xstorage/1/_cache/20240314/Favicon_Gaon_155_1_8d08f54336ee44ed5f432cff94e8ae22.png" />
+
+<meta name="application-name" content="GAON Koreanisches Restaurant - gaon vienna"/>
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+
+<meta name="msapplication-TileImage" content="https://www.gaon-vienna.com/xstorage/1/_cache/20240314/Favicon_Gaon_155_1_191bca1d36cb91dd77dc4cadf98e903c.png" />
+
+<meta name="msapplication-square70x70logo" content="https://www.gaon-vienna.com/xstorage/1/_cache/20240314/Favicon_Gaon_155_1_0b6a2ab273342511ae6d57ea17ac4d3d.png" />
+
+<meta name="msapplication-square150x150logo" content="https://www.gaon-vienna.com/xstorage/1/_cache/20240314/Favicon_Gaon_155_1_aadd84023df27aa414092387c8bb0b48.png" />
+
+<meta name="msapplication-wide310x150logo" content="https://www.gaon-vienna.com/xstorage/1/_cache/20240314/Favicon_Gaon_155_1_59f72a710341ace3a3674590dd5875e0.png" />
+
+<meta name="msapplication-square310x310logo" content="https://www.gaon-vienna.com/xstorage/1/_cache/20240314/Favicon_Gaon_155_1_007e6f284508e230deae12149497995c.png" />
+
+<!-- META -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GAON Koreanisches Restaurant - gaon vienna</title>
+<meta name="description" content="Nur eine Gasse weiter von der Mariahilferstraße, in der Apollogasse 20 befindet sich unser Lokal, wo wir unsere Gäste mit den feinsten koreanischen Speisen bedienen.">
+<meta name="keywords" content="">
+<meta name="robots" content="index, follow">
+
+<!-- OG -->
+
+<meta property="og:type" content="0">
+<meta property="og:url" content="/de/startseite.html">
+<meta property="og:image" content="https://www.gaon-vienna.com/xstorage/1/_cache/20240227/Bildschirmfoto-2024-02-05-um-15.39-3_135_1_ace3abd7b3a9d0b0547ff57c706d9e91.jpg">
+<meta property="og:image:secure_url" content="https://www.gaon-vienna.com/xstorage/1/_cache/20240227/Bildschirmfoto-2024-02-05-um-15.39-3_135_1_ace3abd7b3a9d0b0547ff57c706d9e91.jpg">
+<meta property="og:title" content="GAON Koreanisches Restaurant">
+<meta property="og:description" content="Nur eine Gasse weiter von der Mariahilferstraße, in der Apollogasse 20 befindet sich unser Lokal, wo wir unsere Gäste mit den feinsten koreanischen Speisen bedienen.">
+
+<!-- TWITTER -->
+	
+<meta name="twitter:title" content="GAON Koreanisches Restaurant">
+<meta name="twitter:description" content="Nur eine Gasse weiter von der Mariahilferstraße, in der Apollogasse 20 befindet sich unser Lokal, wo wir unsere Gäste mit den feinsten koreanischen Speisen bedienen.">
+
+
+
+<!-- GEO -->
+<meta name="geo.region" content="">
+<meta name="geo.placename" content="">
+<meta name="geo.position" content="0;0">
+<meta name="ICBM" content="0;0">
+
+ 
+	<script type="application/ld+json">{"@context":"http:\/\/schema.org","@type":"Website","name":"gaon.dev-004.dievima.at","url":"https:\/\/gaon.dev-004.dievima.at","sameAs":[]}</script>
+
+
+<script type="text/javascript">
+	document.P_LANG='DE';
+	document.P_ID ='1';
+	document.P_TITLE_SUFFIX ='gaon vienna';
+	document.P_STATIC ='Y';
+	document.XR_EAS = {"GOOGLE_TAG_MANAGER_KEY":"GTM-MRFJDML5","GOOGLE_ANALYTICS_KEY":"","GOOGLE_MAPS_KEY":"","GOOGLE_EEC":"","GOOGLE_RECAPTCHA_SITE_KEY":""};
+	document.PROJECT = 1;
+	document.PROJECT_ID = 1;
+	document.O_ID = 0;
+	document.R_ID = 0;
+	document.XGO_ATOMS_JS_CODE = [];
+	</script>
+
+<!-- OLD BROWSER FALLBACK -->
+<script>
+   
+   (function() {
+        var method;
+        var noop = function () {};
+        var methods = [
+            'assert', 'clear', 'count', 'debug', 'dir', 'dirxml', 'error',
+            'exception', 'group', 'groupCollapsed', 'groupEnd', 'info', 'log',
+            'markTimeline', 'profile', 'profileEnd', 'table', 'time', 'timeEnd',
+            'timeStamp', 'trace', 'warn'
+        ];
+        var length = methods.length;
+        var console = (window.console = window.console || {});
+    
+        while (length--) {
+            method = methods[length];
+    
+            // Only stub undefined methods.
+            if (!console[method]) {
+                console[method] = noop;
+            }
+        }
+    }());
+</script>
+
+
+    <!-- /XR-HEAD -->
+    
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+
+<style>
+    :root{
+        /* BASE */
+        --color-primary: #cc2e3b;
+        --color-secondary: #fff2e3;
+        --color-accent: #FFFFFF;
+        
+        --font-primary: Barlow, Helvetica, Calibri, Sans-Serif;
+        --font-secondary: Barlow, Helvetica, Calibri, Sans-Serif;
+        
+        /* COMPONENTS */
+        --color-body: var(--color-secondary);
+        --color-font: var(--color-primary);
+        
+        /* THEME */
+        --color-1: red;
+        --color-2: red;
+        --color-3: red;
+        --color-4: red;
+        --color-5: red;
+        --color-6: red;
+        --color-7: red;
+        --color-8: red;
+        --color-9: red;
+        --color-10: red;
+        
+        --color-shop-green: #8CC63F;
+        --color-shop-yellow: #EAAA45;
+        --color-shop-red: #D02949;
+        
+        /* UTILS */
+        --utility-defaults-transition: 300ms;
+        
+        --utility-header-height-xs: 153px;
+        --utility-header-height-sm: 153px;
+        --utility-header-height-md: 200px;
+        --utility-header-height-lg: 200px;
+        --utility-header-height-xl: 200px;
+        --utility-header-height-xxl: 200px;
+        
+        --utility-footer-height-xs: 40px;
+        --utility-footer-height-sm: 40px;
+        --utility-footer-height-md: 80px;
+        --utility-footer-height-lg: 80px;
+        --utility-footer-height-xl: 80px;
+        --utility-footer-height-xxl: 80px;
+        
+        --utility-layout-section-spacing-xs: 40px;
+        --utility-layout-section-spacing-sm: 48px;
+        --utility-layout-section-spacing-md: 56px;
+        --utility-layout-section-spacing-lg: 64px;
+        --utility-layout-section-spacing-xl: 72px;
+        --utility-layout-section-spacing-xxl: 80px;
+        
+        --utility-container-xs: 540px;
+        --utility-container-sm: 720px;
+        --utility-container-md: 960px;
+        --utility-container-lg: 1140px;
+        --utility-container-xl: 1320px;
+        --utility-container-xxl: 1520px;
+        
+        --utility-layout-gap: 15px;
+        
+        --utility-layout-16-9: 56.25%;
+        --utility-layout-9-16: 177.77777777778%;
+        --utility-layout-4-3: 75%;
+        --utility-layout-3-2: 66.666666666667%;
+        --utility-layout-1-1: 100%;
+    }
+</style>
+    
+    
+    
+    
+
+    
+
+</head>
+    
+        
+    <body class="body container home  no-transition" data-p-id="1" data-template-name="xs_defaults_page_start">
+        
+        
+        
+
+
+
+
+
+
+
+
+
+<header class="home"
+    data-class="Atom"
+    data-template-name="xs_defaults_atom_header"
+    id="id-6ace30c146d9e"
+    >
+    <input id="burger-menu" type="checkbox" name="burger-menu" class="is-hidden">
+    <div class="wrapper">
+        <div class="main-nav">
+            <a href="https://www.gaon-vienna.com/de/startseite.html" class="logo" aria-label="logo">
+                <img  alt="logo"  src="https://www.gaon-vienna.com/xstorage/1/_cache/20240423/GAON_Logo_black_281_1_5159b4ae78ffa4424552b77e0a315a5e.svg"  width="200"  height="83"  />
+            </a>
+
+            
+                    </div>
+        
+            </div>
+    
+        
+    </header>
+        
+
+<section class="top home "
+    data-class="Atom"
+    data-template-name="xs_defaults_atom_top"
+    id="id-6ace30c148e72"
+    >
+    <div class="box">
+                    <p>Offering Korean foods since 2019</p>
+            </div>
+
+    
+    </section>
+        
+                
+        
+        <main class="home">
+            
+
+
+
+
+
+<section class="image-text"
+    data-class="Atom"
+    data-template-name="xs_defaults_atom_imagetext"
+    id="id-6ace30c1299ea"
+    >
+    <a href="https://www.gaon-vienna.com/de/restaurant.html" class="image-text-link">
+        <div class="wrapper">
+                            <h2>
+                    <span>Restaurant</span>
+                    <svg class="icon" width="117" height="40">
+                        <use href="/xstorage/1/template/images.svg#arrow-left" />
+                    </svg>
+                </h2>
+                    </div>
+
+        <div class="image-box">
+                            <!-- IP:5 -->
+	
+		
+		
+	<picture class="xr-sizes" data-unique="6ace30c130123">
+		<!--[if IE 9]><video style="display: none;><![endif]-->
+		
+					<source src="" data-srcset="https://www.gaon-vienna.com/xstorage/1/_cache/20240919/Bildschirmfoto-2024-02-05-um-15.40.14_693_1_791665f6d691440f4814c40dc3e82450.webp" media="(max-width: 767px)" type="image/webp" />
+			<source src="" data-srcset="https://www.gaon-vienna.com/xstorage/1/_cache/20240919/Bildschirmfoto-2024-02-05-um-15.40.14_693_1_791665f6d691440f4814c40dc3e82450.png" media="(max-width: 767px)" type="image/png" />
+			 	
+	 		 		<source src="" data-srcset="https://www.gaon-vienna.com/xstorage/1/_cache/20240919/Bildschirmfoto-2024-02-05-um-15.40.14_693_1_bb7494824be522b5de8383f89d38f127.webp" media="(min-width: 768px) and (max-width: 991px)" type="image/webp" />
+	 		<source src="" data-srcset="https://www.gaon-vienna.com/xstorage/1/_cache/20240919/Bildschirmfoto-2024-02-05-um-15.40.14_693_1_bb7494824be522b5de8383f89d38f127.png" media="(min-width: 768px) and (max-width: 991px)" type="image/png" />
+	 		
+        
+                	<source src="" data-srcset="https://www.gaon-vienna.com/xstorage/1/_cache/20240919/Bildschirmfoto-2024-02-05-um-15.40.14_693_1_fa9ce8546a5235378ba19cde165157e2.webp" media="(min-width: 992px) and (max-width: 1199px)" type="image/webp" />
+        	<source src="" data-srcset="https://www.gaon-vienna.com/xstorage/1/_cache/20240919/Bildschirmfoto-2024-02-05-um-15.40.14_693_1_fa9ce8546a5235378ba19cde165157e2.png" media="(min-width: 992px) and (max-width: 1199px)" type="image/png" />
+                
+            		<source src="" data-srcset="https://www.gaon-vienna.com/xstorage/1/_cache/20240919/Bildschirmfoto-2024-02-05-um-15.40.14_693_1_c0bca934c17b6b738f44aa29474e028b.webp" media="(min-width: 1200px) and (max-width: 1399px)" type="image/webp" />
+    		<source src="" data-srcset="https://www.gaon-vienna.com/xstorage/1/_cache/20240919/Bildschirmfoto-2024-02-05-um-15.40.14_693_1_c0bca934c17b6b738f44aa29474e028b.png" media="(min-width: 1200px) and (max-width: 1399px)" type="image/png" />
+    	    	
+    		
+    		    			<source src="" data-srcset="https://www.gaon-vienna.com/xstorage/1/_cache/20240919/Bildschirmfoto-2024-02-05-um-15.40.14_693_1_6ba8f5917c07bd020c83d0e9e286595b.webp" media="(min-width: 1400px) and (max-width: 1599px)" type="image/webp" />
+    			<source src="" data-srcset="https://www.gaon-vienna.com/xstorage/1/_cache/20240919/Bildschirmfoto-2024-02-05-um-15.40.14_693_1_6ba8f5917c07bd020c83d0e9e286595b.png" media="(min-width: 1400px) and (max-width: 1599px)" type="image/png" />
+    						
+		    		
+    		    			<source src="" data-srcset="https://www.gaon-vienna.com/xstorage/1/_cache/20240919/Bildschirmfoto-2024-02-05-um-15.40.14_693_1_06533c19efe57c49bd53a798d38e6d1c.webp" media="(min-width: 1600px) and (max-width: 9999px)" type="image/webp" />
+    			<source src="" data-srcset="https://www.gaon-vienna.com/xstorage/1/_cache/20240919/Bildschirmfoto-2024-02-05-um-15.40.14_693_1_06533c19efe57c49bd53a798d38e6d1c.png" media="(min-width: 1600px) and (max-width: 9999px)" type="image/png" />
+    		    		
+					
+	    <!--[if IE 9]></video><![endif]-->
+	    
+							<img src="" data-srcset="https://www.gaon-vienna.com/xstorage/1/_cache/20240919/Bildschirmfoto-2024-02-05-um-15.40.14_693_1_c0bca934c17b6b738f44aa29474e028b.webp" alt="" title="" data-autotune-id="Image Text Section" height="626" width="384" class="xrd_img_s lazyload xr-sizes">
+			
+	    	</picture>
+	
+
+            
+            <div class="arrow">
+                <svg class="icon" width="117" height="40">
+                    <use href="/xstorage/1/template/images.svg#arrow-left" />
+                </svg>
+            </div>
+        </div>
+    </a>
+</section>
+
+
+
+
+
+<section class="image-text"
+    data-class="Atom"
+    data-template-name="xs_defaults_atom_imagetext"
+    id="id-6ace30c1325fe"
+    >
+    <a href="https://www.gaon-vienna.com/de/shop.html" class="image-text-link">
+        <div class="wrapper">
+                            <h2>
+                    <span>Shop</span>
+                    <svg class="icon" width="117" height="40">
+                        <use href="/xstorage/1/template/images.svg#arrow-left" />
+                    </svg>
+                </h2>
+                    </div>
+
+        <div class="image-box">
+                            <!-- IP:5 -->
+	
+		
+		
+	<picture class="xr-sizes" data-unique="6ace30c132fa1">
+		<!--[if IE 9]><video style="display: none;><![endif]-->
+		
+					<source src="" data-srcset="https://www.gaon-vienna.com/xstorage/1/_cache/20241003/Rectangle-36-(1)_731_1_f8a093d24d702d9a73bec75114d13cc3.webp" media="(max-width: 767px)" type="image/webp" />
+			<source src="" data-srcset="https://www.gaon-vienna.com/xstorage/1/_cache/20241003/Rectangle-36-(1)_731_1_f8a093d24d702d9a73bec75114d13cc3.jpg" media="(max-width: 767px)" type="image/png" />
+			 	
+	 		 		<source src="" data-srcset="https://www.gaon-vienna.com/xstorage/1/_cache/20241003/Rectangle-36-(1)_731_1_f0f6747f811ad0f03baee0829aa22a01.webp" media="(min-width: 768px) and (max-width: 991px)" type="image/webp" />
+	 		<source src="" data-srcset="https://www.gaon-vienna.com/xstorage/1/_cache/20241003/Rectangle-36-(1)_731_1_f0f6747f811ad0f03baee0829aa22a01.jpg" media="(min-width: 768px) and (max-width: 991px)" type="image/png" />
+	 		
+        
+                	<source src="" data-srcset="https://www.gaon-vienna.com/xstorage/1/_cache/20241003/Rectangle-36-(1)_731_1_650e4de29e32ed272d2d60e22076e244.webp" media="(min-width: 992px) and (max-width: 1199px)" type="image/webp" />
+        	<source src="" data-srcset="https://www.gaon-vienna.com/xstorage/1/_cache/20241003/Rectangle-36-(1)_731_1_650e4de29e32ed272d2d60e22076e244.jpg" media="(min-width: 992px) and (max-width: 1199px)" type="image/png" />
+                
+            		<source src="" data-srcset="https://www.gaon-vienna.com/xstorage/1/_cache/20241003/Rectangle-36-(1)_731_1_1ffbb8e16b44e4e419fc6ac1e7818381.webp" media="(min-width: 1200px) and (max-width: 1399px)" type="image/webp" />
+    		<source src="" data-srcset="https://www.gaon-vienna.com/xstorage/1/_cache/20241003/Rectangle-36-(1)_731_1_1ffbb8e16b44e4e419fc6ac1e7818381.jpg" media="(min-width: 1200px) and (max-width: 1399px)" type="image/png" />
+    	    	
+    		
+    		    			<source src="" data-srcset="https://www.gaon-vienna.com/xstorage/1/_cache/20241003/Rectangle-36-(1)_731_1_5c5cfe747cffbe2ee64f91e4b036645b.webp" media="(min-width: 1400px) and (max-width: 1599px)" type="image/webp" />
+    			<source src="" data-srcset="https://www.gaon-vienna.com/xstorage/1/_cache/20241003/Rectangle-36-(1)_731_1_5c5cfe747cffbe2ee64f91e4b036645b.jpg" media="(min-width: 1400px) and (max-width: 1599px)" type="image/png" />
+    						
+		    		
+    		    			<source src="" data-srcset="https://www.gaon-vienna.com/xstorage/1/_cache/20241003/Rectangle-36-(1)_731_1_00dc491985737aad606265c131f65295.webp" media="(min-width: 1600px) and (max-width: 9999px)" type="image/webp" />
+    			<source src="" data-srcset="https://www.gaon-vienna.com/xstorage/1/_cache/20241003/Rectangle-36-(1)_731_1_00dc491985737aad606265c131f65295.jpg" media="(min-width: 1600px) and (max-width: 9999px)" type="image/png" />
+    		    		
+					
+	    <!--[if IE 9]></video><![endif]-->
+	    
+							<img src="" data-srcset="https://www.gaon-vienna.com/xstorage/1/_cache/20241003/Rectangle-36-(1)_731_1_1ffbb8e16b44e4e419fc6ac1e7818381.webp" alt="" title="" data-autotune-id="Image Text Section" height="626" width="384" class="xrd_img_s lazyload xr-sizes">
+			
+	    	</picture>
+	
+
+            
+            <div class="arrow">
+                <svg class="icon" width="117" height="40">
+                    <use href="/xstorage/1/template/images.svg#arrow-left" />
+                </svg>
+            </div>
+        </div>
+    </a>
+</section>
+        </main>
+        
+        
+        
+
+
+
+
+
+<footer class="home "
+    data-class="Atom"
+    data-template-name="xs_defaults_atom_footer"
+    id="id-6ace30c14be90"
+    >
+
+    <div class="footer-boxes">
+        <div class="socials footer-box">
+            <ul class="socials-list">
+
+                                
+
+                                    <li>
+                        <a href="https://www.instagram.com/gaon_kfood_vienna/" target="_blank" rel="noopener noreferrer" aria-label="instagram icon">
+                            <svg class="icon-fill social-icon" width="28" height="28">
+                                <use href="/xstorage/1/template/images.svg#instagram" />
+                            </svg>
+                        </a>
+                    </li>
+                
+                
+                            </ul>
+        </div>
+
+        
+                    <div class="lang footer-box">
+                <ul class="language-list">
+    <li><a class="active" href="https://www.gaon-vienna.com/de/startseite.html">DE</a></li>
+    <li><a class=" " href="https://www.gaon-vienna.com/en/startseite.html">EN</a></li>
+</ul>
+            </div>
+        
+        <div class="footer-menu footer-box">
+            
+            <ul class="footer-nav-list">
+                                    <li>
+                        <a href="https://www.gaon-vienna.com/de/kontakt.html" class="footer-nav-link">
+                                		                    Kontakt
+    		                     
+                        </a>
+                    </li>
+                                                                            <li>
+                            <a href="https://www.gaon-vienna.com/de/impressum.html" class="footer-nav-link">Impressum</a>
+                        </li>
+                                            <li>
+                            <a href="https://www.gaon-vienna.com/de/datenschutz.html" class="footer-nav-link">Datenschutz</a>
+                        </li>
+                    
+                                <li>
+                    <button type="button" class="footer-nav-link" onclick=cookieconsent.cc_settings()>Cookies</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+        
+        <script>
+            window.addEventListener("xr_fe_final_fire", xr_fe_final_fire_fn, false);
+            
+            function xr_fe_final_fire_fn() {
+                try{
+                    document.xr_waitForFinalEvent = function() {
+                        var b = {};
+                        return function(c, d, a) {
+                            a || (a = "");
+                            b[a] && clearTimeout(b[a]);
+                            b[a] = setTimeout(c, d)
+                        }
+                    }();
+                    document.xr_waitForFinalEvent(function() {
+                        console.log("FINAL FIRED");
+                    }, 250, "");    
+                }
+                catch(e){}
+            };
+        </script>        
+        
+        
+                
+        <script>!function(e){"use strict"
+            var n=function(n,t,o){function i(e){return f.body?e():void setTimeout(function(){i(e)})}var d,r,a,l,f=e.document,s=f.createElement("link"),u=o||"all"
+                return t?d=t:(r=(f.body||f.getElementsByTagName("head")[0]).childNodes,d=r[r.length-1]),a=f.styleSheets,s.rel="stylesheet",s.href=n,s.media="only x",i(function(){d.parentNode.insertBefore(s,t?d:d.nextSibling)}),l=function(e){for(var n=s.href,t=a.length;t--;)if(a[t].href===n)return e()
+                setTimeout(function(){l(e)})},s.addEventListener&&s.addEventListener("load",function(){this.media=u}),s.onloadcssdefined=l,l(function(){s.media!==u&&(s.media=u)}),s}
+                "undefined"!=typeof exports?exports.xr_loadCSS=n:e.xr_loadCSS=n}("undefined"!=typeof global?global:this)
+                function onloadXrLoadedCSS( xr_loadedCSS, callback ){var called;function newcb(){if( !called && callback ){called = true;callback.call( xr_loadedCSS );}}	if( xr_loadedCSS.addEventListener ){xr_loadedCSS.addEventListener( "load", newcb );}if( xr_loadedCSS.attachEvent ){xr_loadedCSS.attachEvent( "onload", newcb );}if( "isApplicationInstalled" in navigator && "onloadcxr_loadedCSSdefined" in xr_loadedCSS ) {xr_loadedCSS.onloadcxr_loadedCSSdefined( newcb );}}</script>
+<!-- xr_loadCSS("deprecated") --><link rel="stylesheet" href="https://www.gaon-vienna.com/xassets/static/563.css?ts=8db8afc39a407dc2600fb5b26dff51d2" media="all"><script>try{document.XR_ASSETS="{\"dumper_ids\":[],\"uncompressed\":[]}";}catch(e){}</script>
+        <!-- ASSETS:JS -->        
+<script>(function( w ){
+    	var xr_loadJS = function( src, cb ){
+    		"use strict";
+    		var ref = w.document.getElementsByTagName( "script" )[ 0 ];
+    		var script = w.document.createElement( "script" );
+    		script.src = src;
+    		script.async = true;
+    		ref.parentNode.insertBefore( script, ref );
+    		if (cb && typeof(cb) === "function") {
+    			script.onload = cb;
+    		}
+    		return script;
+    	};
+    	// commonjs
+    	if( typeof module !== "undefined" ){
+    		module.exports = xr_loadJS;
+    	}
+    	else {
+    		w.xr_loadJS = xr_loadJS;
+    	}
+    }( typeof global !== "undefined" ? global : this ));</script>
+    <script async src="https://www.gaon-vienna.com/xassets/static/562.js?ts=ec6138e43f46f734c1f243b081068c2d"></script>
+        
+        
+        
+        
+        
+        
+        
+        <script class="dd">
+            document.ATOM_JS_SETTINGS = "";
+        </script>
+    </body>
+</html>

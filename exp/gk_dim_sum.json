@@ -1,0 +1,102 @@
+{
+ "count": 3,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Ourhome Gyoza Teigblätter (gefroren)",
+   "brand": "Ourhome",
+   "price_eur": 2.39,
+   "unit_price_eur": 13.28,
+   "unit": "kg",
+   "size_g": 180.0,
+   "nutrition_100g": {
+    "kcal": 282.0,
+    "fat": 2.3,
+    "satfat": 0.6,
+    "carbs": 58.0,
+    "sugar": 0.0,
+    "protein": 7.6,
+    "salt": 1.1,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/46434/46434-1767966471585259468.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Holland",
+   "category": "Tiefkühlprodukte > Fertiggerichte > Internationales",
+   "source_url": "https://www.gurkerl.at/46434-ourhome-gyoza-teigblaetter-gefroren",
+   "source_id": "46434",
+   "fetched_at": "2026-10-13T02:11:04+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Weizenmehl, Wasser, Maisstärke, Salz, Ethanol, Säureregulatoren: E262, E325."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Happy Belly Wonton Teig (gefroren)",
+   "brand": "Happy Belly",
+   "price_eur": 3.99,
+   "unit_price_eur": 13.3,
+   "unit": "kg",
+   "size_g": 300.0,
+   "nutrition_100g": {
+    "kcal": 253.0,
+    "fat": 1.6,
+    "satfat": 0.3,
+    "carbs": 50.0,
+    "sugar": 0.0,
+    "protein": 9.8,
+    "salt": 1.52,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/46433/46433-1767966471334679031.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Holland",
+   "category": "Tiefkühlprodukte > Fertiggerichte > Internationales",
+   "source_url": "https://www.gurkerl.at/46433-happy-belly-wonton-teig-gefroren",
+   "source_id": "46433",
+   "fetched_at": "2026-10-13T02:11:04+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Weizenmehl (65%), Wasser, Stärke, hydrolysiertes Weizenprotein, Salz, Säureregulator (E501, E500), Sojaöl, Sojaprotein."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Everest Bao Buns",
+   "brand": "Everest",
+   "price_eur": 3.99,
+   "unit_price_eur": 19.95,
+   "unit": "kg",
+   "size_g": 200.0,
+   "nutrition_100g": {
+    "kcal": 271.0,
+    "fat": 3.3,
+    "satfat": 0.6,
+    "carbs": 51.3,
+    "sugar": 7.5,
+    "protein": 7.9,
+    "salt": 1.0,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/47781/47781-1776942157981395547.JPEG",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Israel",
+   "category": "Kühlregal > Schnelle Küche > Frische Teige",
+   "source_url": "https://www.gurkerl.at/47781-everest-bao-buns",
+   "source_id": "47781",
+   "fetched_at": "2026-10-13T02:11:04+00:00",
+   "extra": {
+    "ingredients": "Zutaten: WEIZENMEHL, Wasser, Zucker, SOJAÖL, Hefe, Weingeistessig, Salz, Backtriebmittel (E500, E450i), Emulgatoren (E471, E481), Säureregulator (E170), Antioxidationsmittel (E300), SOJAMEHL. Kann Spuren enthalten von: EI, SESAM."
+   }
+  }
+ ]
+}

@@ -1,0 +1,298 @@
+[
+ {
+  "slug": "landtmanns",
+  "url": "https://landtmanns-original.at/",
+  "cands": [
+   {
+    "kind": "og",
+    "url": "https://landtmanns-original.at/cdn/shop/files/Guglhupf_Packung_Papier_b7f17098-45c7-40ad-851a-11adfe90ef31.jpg?v=1761042973",
+    "file": "cand/landtmanns_0.jpeg",
+    "bytes": 246113
+   },
+   {
+    "kind": "img",
+    "url": "https://landtmanns-original.at/cdn/shop/files/LMO_LOGO_RGB_23_63b5bf60-94f7-499a-8528-a685280fd3b5.png?v=1695284467",
+    "file": "cand/landtmanns_1.png",
+    "bytes": 19613
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://landtmanns-original.at/"
+ },
+ {
+  "slug": "landtmanns2",
+  "url": "https://landtmanns-original.at/en/pages/uber-uns",
+  "cands": [
+   {
+    "kind": "og",
+    "url": "https://landtmanns-original.at/cdn/shop/files/Guglhupf_Packung_Papier_b7f17098-45c7-40ad-851a-11adfe90ef31.jpg?v=1761042973",
+    "file": "cand/landtmanns2_0.jpeg",
+    "bytes": 246113
+   },
+   {
+    "kind": "img",
+    "url": "https://landtmanns-original.at/cdn/shop/files/LMO_LOGO_RGB_23_63b5bf60-94f7-499a-8528-a685280fd3b5.png?v=1695284467",
+    "file": "cand/landtmanns2_1.png",
+    "bytes": 19613
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://landtmanns-original.at/en/pages/uber-uns"
+ },
+ {
+  "slug": "findus",
+  "url": "https://www.findus.com/",
+  "cands": [
+   {
+    "kind": "img",
+    "url": "https://www.birdseye.co.uk/_/media/project/bluesteel/shared/logos/logo-birdseye-2023.png",
+    "file": "cand/findus_0.png",
+    "bytes": 6148
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.birdseye.co.uk/"
+ },
+ {
+  "slug": "findus-it",
+  "url": "https://www.findus.it/",
+  "cands": [
+   {
+    "kind": "icon",
+    "url": "https://www.findus.it/icons/birdseye/favicon.svg",
+    "file": "cand/findus-it_0.svg",
+    "bytes": 831
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.findus.it/icons/birdseye/favicon.ico",
+    "file": "cand/findus-it_1.x-icon",
+    "bytes": 785
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.findus.it/icons/birdseye/apple-icon.png",
+    "file": "cand/findus-it_2.png",
+    "bytes": 2660
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.findus.it/"
+ },
+ {
+  "slug": "findus-se",
+  "url": "https://www.findus.se/",
+  "cands": [
+   {
+    "kind": "icon",
+    "url": "https://www.findus.se/icons/findus/favicon.svg",
+    "file": "cand/findus-se_0.svg",
+    "bytes": 1165
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.findus.se/icons/findus/favicon.ico",
+    "file": "cand/findus-se_1.x-icon",
+    "bytes": 565
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.findus.se/icons/findus/apple-icon.png",
+    "file": "cand/findus-se_2.png",
+    "bytes": 1460
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.findus.se/"
+ },
+ {
+  "slug": "strauss",
+  "url": "https://www.straussknoedel.at/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [Errno -2] Name or service not known>",
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "slug": "strauss2",
+  "url": "https://strauss-knoedel.at/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [Errno -2] Name or service not known>",
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "slug": "strauss3",
+  "url": "https://www.strauss-online.at/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [Errno -2] Name or service not known>",
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "slug": "basenbox",
+  "url": "https://www.basenbox.at/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a HTTP Error 404: Not Found",
+  "err": "The read operation timed out"
+ },
+ {
+  "slug": "volante",
+  "url": "https://www.volante.at/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [Errno -2] Name or service not known>",
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "slug": "pastabox",
+  "url": "https://www.pasta-box.at/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [Errno -2] Name or service not known>",
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "slug": "gaon",
+  "url": "https://gaon-restaurant.at/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [Errno -2] Name or service not known>",
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "slug": "gaon2",
+  "url": "https://www.gaon.wien/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [Errno -2] Name or service not known>",
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "slug": "thegreengarden",
+  "url": "https://thegreengarden.at/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate ",
+  "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+ },
+ {
+  "slug": "greengarden2",
+  "url": "https://www.greengarden.at/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occur",
+  "err": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)>"
+ },
+ {
+  "slug": "mochi-prod",
+  "url": "https://www.mochikitchen.com/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [Errno -2] Name or service not known>",
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "slug": "mochi-prod2",
+  "url": "https://mochiproduction.at/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [Errno -2] Name or service not known>",
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "slug": "feelfood3",
+  "url": "https://www.feelfood.eu/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occur",
+  "err": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)>"
+ },
+ {
+  "slug": "feelfood4",
+  "url": "https://feelfood.at/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a HTTP Error 404: Not Found",
+  "err": "HTTP Error 404: Not Found"
+ },
+ {
+  "slug": "dmbio-brand",
+  "url": "https://www.dm.de/marken/eigenmarken/",
+  "cands": [
+   {
+    "kind": "icon",
+    "url": "https://www.dm.de/favicon-32x32.png",
+    "file": "cand/dmbio-brand_0.png",
+    "bytes": 1407
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.dm.de/favicon-16x16.png",
+    "file": "cand/dmbio-brand_1.png",
+    "bytes": 776
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.dm.de/apple-touch-icon.png",
+    "file": "cand/dmbio-brand_2.png",
+    "bytes": 2980
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.dm.de/marken/eigenmarken/"
+ },
+ {
+  "slug": "spar",
+  "url": "https://www.spar.at/",
+  "cands": [
+   {
+    "kind": "og",
+    "url": "https://www.spar.at/content/dam/sparatwebsite/SPAR-OG-Image.jpg",
+    "file": "cand/spar_0.jpeg",
+    "bytes": 42113
+   },
+   {
+    "kind": "img",
+    "url": "https://www.spar.at/etc.clientlibs/spar-corecomponents/clientlibs/clientlib-site/resources/images/logos/spar-logo_1x.png",
+    "file": "cand/spar_1.png",
+    "bytes": 3925
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.spar.at/etc.clientlibs/spar-corecomponents/clientlibs/clientlib-site/resources/favicon/apple-touch-icon-180x180.png",
+    "file": "cand/spar_2.png",
+    "bytes": 8988
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.spar.at/etc.clientlibs/spar-corecomponents/clientlibs/clientlib-site/resources/favicon/favicon-32x32.png",
+    "file": "cand/spar_3.png",
+    "bytes": 1629
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.spar.at/etc.clientlibs/spar-corecomponents/clientlibs/clientlib-site/resources/favicon/favicon-16x16.png",
+    "file": "cand/spar_4.png",
+    "bytes": 748
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.spar.at/"
+ },
+ {
+  "slug": "iglo-at",
+  "url": "https://www.iglo.at/",
+  "cands": [
+   {
+    "kind": "img",
+    "url": "https://www.iglo.at/_/media/project/bluesteel/shared/logos/logo-iglo-leaf-2023.png",
+    "file": "cand/iglo-at_0.png",
+    "bytes": 3458
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.iglo.at/"
+ }
+]

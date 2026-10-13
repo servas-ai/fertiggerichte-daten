@@ -1,0 +1,437 @@
+[
+ {
+  "slug": "strauss",
+  "url": "https://www.straussjosef.it/",
+  "cands": [
+   {
+    "kind": "og",
+    "url": "https://www.straussjosef.it/themes/custom/whtheme/social-strauss.png",
+    "file": "cand/strauss_0.png",
+    "bytes": 639788
+   },
+   {
+    "kind": "img",
+    "url": "https://www.straussjosef.it/themes/custom/whtheme/logo2025.svg",
+    "file": "cand/strauss_1.svg",
+    "bytes": 271708
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.straussjosef.it/themes/custom/whtheme/images/favicon/favicon.ico",
+    "file": "cand/strauss_2.x-icon",
+    "bytes": 15086
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.straussjosef.it/themes/custom/whtheme/images/favicon/favicon-96x96.png",
+    "file": "cand/strauss_3.png",
+    "bytes": 4712
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.straussjosef.it/themes/custom/whtheme/images/favicon/favicon.svg",
+    "file": "cand/strauss_4.svg",
+    "bytes": 23116
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.straussjosef.it/themes/custom/whtheme/images/favicon/apple-touch-icon.png",
+    "file": "cand/strauss_5.png",
+    "bytes": 9083
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.straussjosef.it/de"
+ },
+ {
+  "slug": "strauss-de",
+  "url": "https://www.straussjosef.it/de/",
+  "cands": [
+   {
+    "kind": "og",
+    "url": "https://www.straussjosef.it/themes/custom/whtheme/social-strauss.png",
+    "file": "cand/strauss-de_0.png",
+    "bytes": 639788
+   },
+   {
+    "kind": "img",
+    "url": "https://www.straussjosef.it/themes/custom/whtheme/logo2025.svg",
+    "file": "cand/strauss-de_1.svg",
+    "bytes": 271708
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.straussjosef.it/themes/custom/whtheme/images/favicon/favicon.ico",
+    "file": "cand/strauss-de_2.x-icon",
+    "bytes": 15086
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.straussjosef.it/themes/custom/whtheme/images/favicon/favicon-96x96.png",
+    "file": "cand/strauss-de_3.png",
+    "bytes": 4712
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.straussjosef.it/themes/custom/whtheme/images/favicon/favicon.svg",
+    "file": "cand/strauss-de_4.svg",
+    "bytes": 23116
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.straussjosef.it/themes/custom/whtheme/images/favicon/apple-touch-icon.png",
+    "file": "cand/strauss-de_5.png",
+    "bytes": 9083
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.straussjosef.it/de"
+ },
+ {
+  "slug": "shanshi",
+  "url": "https://www.shanshi.at/",
+  "cands": [
+   {
+    "kind": "img",
+    "url": "https://shan-shi.com/wp-content/uploads/2020/04/logo.png",
+    "file": "cand/shanshi_0.png",
+    "bytes": 7835
+   },
+   {
+    "kind": "img",
+    "url": "https://shan-shi.com/wp-content/uploads/2020/11/ShanShi-Logo.jpg",
+    "file": "cand/shanshi_1.jpeg",
+    "bytes": 98198
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://shan-shi.com/"
+ },
+ {
+  "slug": "shanshi2",
+  "url": "https://www.shan-shi.com/",
+  "cands": [
+   {
+    "kind": "img",
+    "url": "https://shan-shi.com/wp-content/uploads/2020/04/logo.png",
+    "file": "cand/shanshi2_0.png",
+    "bytes": 7835
+   },
+   {
+    "kind": "img",
+    "url": "https://shan-shi.com/wp-content/uploads/2020/11/ShanShi-Logo.jpg",
+    "file": "cand/shanshi2_1.jpeg",
+    "bytes": 98198
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://shan-shi.com/"
+ },
+ {
+  "slug": "shanshi3",
+  "url": "https://www.nestle.at/marken/shanshi",
+  "cands": [],
+  "robots_ok": true,
+  "err": "HTTP Error 403: Forbidden"
+ },
+ {
+  "slug": "haas",
+  "url": "https://www.haas.co.at/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate ",
+  "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+ },
+ {
+  "slug": "haas2",
+  "url": "https://www.haas.at/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a HTTP Error 404: Not Found",
+  "err": "HTTP Error 404: Not Found"
+ },
+ {
+  "slug": "esterhazy",
+  "url": "https://www.esterhazy.at/",
+  "cands": [
+   {
+    "kind": "img",
+    "url": "https://esterhazy.at/assets/img/logo/ezy-logo-x1.png",
+    "file": "cand/esterhazy_0.png",
+    "bytes": 12140
+   },
+   {
+    "kind": "img",
+    "url": "https://www-cdn.esterhazy.at/user/images//a-Schloss-Esterhazy/Veranstaltungen/231010_Pianofestival-LogoHG.jpg?width=540&height=324&crop=fp%2C0.5%2C0.5",
+    "file": "cand/esterhazy_1.jpeg",
+    "bytes": 26515
+   },
+   {
+    "kind": "icon",
+    "url": "https://esterhazy.at/assets/favicon/apple-touch-icon.png",
+    "file": "cand/esterhazy_2.png",
+    "bytes": 5111
+   },
+   {
+    "kind": "icon",
+    "url": "https://esterhazy.at/assets/favicon/favicon-32x32.png",
+    "file": "cand/esterhazy_3.png",
+    "bytes": 1122
+   },
+   {
+    "kind": "icon",
+    "url": "https://esterhazy.at/assets/favicon/favicon-16x16.png",
+    "file": "cand/esterhazy_4.png",
+    "bytes": 907
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://esterhazy.at/"
+ },
+ {
+  "slug": "esterhazy2",
+  "url": "https://manufaktur.esterhazy.at/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [Errno -2] Name or service not known>",
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "slug": "tann",
+  "url": "https://www.tann.at/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a HTTP Error 403: Forbidden",
+  "err": "HTTP Error 403: Forbidden"
+ },
+ {
+  "slug": "riso-gallo",
+  "url": "https://www.risogallo.it/",
+  "cands": [
+   {
+    "kind": "og",
+    "url": "http://www.risogallo.it/cdn/shop/files/4558bf63a9ec1f1221923883de232b52daa8b55c_f86c62c8-04d4-4ad7-abb2-40a151a8104e.png?v=1767615899",
+    "file": "cand/riso-gallo_0.png",
+    "bytes": 217306
+   },
+   {
+    "kind": "img",
+    "url": "https://www.risogallo.it/cdn/shop/files/riso_gallo_logo_it.webp?v=1780040526",
+    "file": "cand/riso-gallo_1.png",
+    "bytes": 229173
+   },
+   {
+    "kind": "img",
+    "url": "https://www.risogallo.it/cdn/shop/files/riso_gallo_logo_it.webp?v=1780040526&width=100",
+    "file": "cand/riso-gallo_2.png",
+    "bytes": 15544
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.risogallo.it/cdn/shop/files/4558bf63a9ec1f1221923883de232b52daa8b55c_f86c62c8-04d4-4ad7-abb2-40a151a8104e.png?crop=center&height=32&v=1767615899&width=32",
+    "file": "cand/riso-gallo_3.png",
+    "bytes": 3092
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.risogallo.it/"
+ },
+ {
+  "slug": "riso-gallo2",
+  "url": "https://www.risogallo.com/",
+  "cands": [
+   {
+    "kind": "og",
+    "url": "https://www.risogallo.com/src/logo.png",
+    "file": "cand/riso-gallo2_0.png",
+    "bytes": 30454
+   },
+   {
+    "kind": "img",
+    "url": "https://www.risogallo.com/src/images/logo_multisite.png",
+    "file": "cand/riso-gallo2_1.png",
+    "bytes": 11999
+   }
+  ],
+  "robots_ok": true,
+  "robots": "n/a HTTP Error 404: Not Found",
+  "final": "https://www.risogallo.com/"
+ },
+ {
+  "slug": "njami",
+  "url": "https://www.njami.at/",
+  "cands": [],
+  "robots_ok": true,
+  "final": "https://njami.at/"
+ },
+ {
+  "slug": "marinus",
+  "url": "https://www.marinus.at/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [Errno -2] Name or service not known>",
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "slug": "staudinger",
+  "url": "https://www.staudinger.at/",
+  "cands": [
+   {
+    "kind": "og",
+    "url": "https://static.wixstatic.com/media/bd4388_2895a5689a2241c4a81d88ae4cc74deb%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/bd4388_2895a5689a2241c4a81d88ae4cc74deb%7Emv2.jpg",
+    "file": "cand/staudinger_0.jpeg",
+    "bytes": 231568
+   },
+   {
+    "kind": "icon",
+    "url": "https://static.wixstatic.com/media/bd4388_8b7417a73dab460199c609ad86f254cc%7Emv2.png/v1/fill/w_192%2Ch_192%2Clg_1%2Cusm_0.66_1.00_0.01/bd4388_8b7417a73dab460199c609ad86f254cc%7Emv2.png",
+    "file": "cand/staudinger_1.png",
+    "bytes": 73153
+   },
+   {
+    "kind": "icon",
+    "url": "https://static.wixstatic.com/media/bd4388_8b7417a73dab460199c609ad86f254cc%7Emv2.png/v1/fill/w_180%2Ch_180%2Clg_1%2Cusm_0.66_1.00_0.01/bd4388_8b7417a73dab460199c609ad86f254cc%7Emv2.png",
+    "file": "cand/staudinger_2.png",
+    "bytes": 66222
+   },
+   {
+    "kind": "ref",
+    "url": "https://static.wixstatic.com/media/bd4388_5770fe4fd5474d2d8306ef4af20ae99c~mv2.png/v1/fill/w_355,h_95,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/logo_stoellnberger.png",
+    "file": "cand/staudinger_3.png",
+    "bytes": 26595
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.stoellnberger.com/"
+ },
+ {
+  "slug": "ager",
+  "url": "https://www.ager.at/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [Errno -2] Name or service not known>",
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "slug": "cecchin",
+  "url": "https://www.cecchin.it/en/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate ",
+  "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+ },
+ {
+  "slug": "cecchin2",
+  "url": "https://cecchin.it/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate ",
+  "err": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f"
+ },
+ {
+  "slug": "amlacher",
+  "url": "https://www.amlacher.com/",
+  "cands": [
+   {
+    "kind": "og",
+    "url": "https://static.aftermarket.com/static/img/aftermarket-social-poster.png",
+    "file": "cand/amlacher_0.png",
+    "bytes": 473469
+   },
+   {
+    "kind": "icon",
+    "url": "https://static.aftermarket.com/favicon.svg?v=2",
+    "file": "cand/amlacher_1.svg",
+    "bytes": 2104
+   }
+  ],
+  "robots_ok": true,
+  "robots": "n/a HTTP Error 404: Not Found",
+  "final": "https://amlacher.com/"
+ },
+ {
+  "slug": "stangl",
+  "url": "https://stangl-tirol.at/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [Errno -2] Name or service not known>",
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "slug": "elsasser",
+  "url": "https://www.elsaesser.de/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert",
+  "err": "<urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1029)>"
+ },
+ {
+  "slug": "elsasser2",
+  "url": "https://elsaesser-flammkuchen.com/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [Errno -2] Name or service not known>",
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "slug": "rians",
+  "url": "https://www.riance.com/en/",
+  "cands": [],
+  "robots_ok": true,
+  "final": "https://www.riance.com/en/"
+ },
+ {
+  "slug": "rians2",
+  "url": "https://www.riance.fr/en/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [Errno -2] Name or service not known>",
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "slug": "deli-dip",
+  "url": "https://www.deli-dip.at/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [Errno -2] Name or service not known>",
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "slug": "danke-bauer",
+  "url": "https://dankebauer.com/",
+  "cands": [
+   {
+    "kind": "og",
+    "url": "https://dankebauer.com/wp-content/uploads/2026/10/danke-bauer-unternehmenslogo.png",
+    "file": "cand/danke-bauer_0.png",
+    "bytes": 808861
+   },
+   {
+    "kind": "img",
+    "url": "https://dankebauer.com/wp-content/themes/danke-bauer/assets/danke-bauer-logo-v6-perf.svg",
+    "file": "cand/danke-bauer_1.svg",
+    "bytes": 260882
+   },
+   {
+    "kind": "icon",
+    "url": "https://dankebauer.com/wp-content/uploads/2026/10/itv-original-icon161-c82430/cropped-favicon-2019-32x32.png",
+    "file": "cand/danke-bauer_2.png",
+    "bytes": 501
+   },
+   {
+    "kind": "icon",
+    "url": "https://dankebauer.com/wp-content/uploads/2026/10/itv-original-icon161-c82430/cropped-favicon-2019-192x192.png",
+    "file": "cand/danke-bauer_3.png",
+    "bytes": 4018
+   },
+   {
+    "kind": "icon",
+    "url": "https://dankebauer.com/wp-content/uploads/2026/10/itv-original-icon161-c82430/cropped-favicon-2019-180x180.png",
+    "file": "cand/danke-bauer_4.png",
+    "bytes": 3734
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://dankebauer.com/"
+ }
+]

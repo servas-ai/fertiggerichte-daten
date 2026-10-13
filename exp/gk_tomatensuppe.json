@@ -1,0 +1,180 @@
+{
+ "count": 6,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "HiPP BIO Tomatensuppe mit Hühnchen ab dem 8. Monat",
+   "brand": "HiPP",
+   "price_eur": 1.89,
+   "unit_price_eur": 9.95,
+   "unit": "kg",
+   "size_g": 190.0,
+   "nutrition_100g": {
+    "kcal": 65.0,
+    "fat": 2.5,
+    "satfat": 0.9,
+    "carbs": 7.6,
+    "sugar": 1.5,
+    "protein": 2.6,
+    "salt": 0.05,
+    "fiber": 1.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/43061/43061-1750688255347784435.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Baby & Kinder > Baby- und Kindernahrung > Glaskost & Menüs > Fleisch & Fisch-Gläschen",
+   "source_url": "https://www.gurkerl.at/43061-hipp-bio-tomatensuppe-mit-huehnchen-ab-dem-8-monat",
+   "source_id": "43061",
+   "fetched_at": "2026-10-13T02:19:28+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Wasser, Tomaten* 22 %, Karotten*, Hühnerfleisch* 8 %, Nudeln* (Hartweizen) 3 %, Reismehl*, Sahne*, Zwiebeln*, Reisstärke*, Rapsöl* 0,9 %, Gewürz* (Petersilie*)."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Suppito Tomaten Kokos Suppe",
+   "brand": "Suppito",
+   "price_eur": 11.99,
+   "unit_price_eur": 23.51,
+   "unit": "kg",
+   "size_g": 510.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/44763/44763-1758268183338587799.JPG",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Schnelle Küche > Suppen & Fonds",
+   "source_url": "https://www.gurkerl.at/44763-suppito-tomaten-kokos-suppe",
+   "source_id": "44763",
+   "fetched_at": "2026-10-13T02:19:28+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Wasser, 34% Tomaten, 16% Kokosmilch (70% Kokosnussextrakt, Wasser, Emulgator:E435), Zwiebel, STANGEN- und KNOLLENSELLERIE, Karotten, Rohrohrzucer, Natursalz, Kokosöl, Apfelessig, Ingwer, Zitronengras, Chilipulver, Kreuzkümmel, Kaffirblätter, Hiziki Algen, Kardamom, Piment, Zitronenschale."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Marks & Spencer Cream Of Tomato Soup",
+   "brand": "Marks & Spencer",
+   "price_eur": 3.19,
+   "unit_price_eur": 7.98,
+   "unit": "kg",
+   "size_g": 400.0,
+   "nutrition_100g": {
+    "kcal": 65.0,
+    "fat": 3.6,
+    "satfat": 1.1,
+    "carbs": 6.7,
+    "sugar": 5.4,
+    "protein": 1.0,
+    "salt": 0.45,
+    "fiber": 0.7
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/6907/6907-1783690951551.jpg",
+   "producer": "Marks and Spencer Services, Jemnická 1138/1, 14000 Prag, Tschechien",
+   "producer_id": null,
+   "origin": "Großbritannien",
+   "category": "Marks & Spencer > Fertiggerichte",
+   "source_url": "https://www.gurkerl.at/6907-marks-spencer-cream-of-tomato-soup",
+   "source_id": "6907",
+   "fetched_at": "2026-10-13T02:19:28+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Trinkwasser, Tomatenpaste (14 %), Zucker, Rapsöl, BUTTER (MILCH), Maisstärke, fettreiche SAHNE (MILCH) (1 %), Kartoffelstärke, MAGERMILCHPULVER, Speisesalz, getrocknete Zwiebel, gemahlener weißer Pfeffer, Säureregulator: Zitronensäure.\n\nKontakt: Marks and Spencer Services, Jemnická 1138/1, 14000 Prag, Tschechien"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Marks & Spencer Spiced Lentil & Tomato Soup",
+   "brand": "Marks & Spencer",
+   "price_eur": 3.19,
+   "unit_price_eur": 7.98,
+   "unit": "kg",
+   "size_g": 400.0,
+   "nutrition_100g": {
+    "kcal": 56.0,
+    "fat": 1.1,
+    "satfat": 0.6,
+    "carbs": 8.6,
+    "sugar": 2.3,
+    "protein": 1.9,
+    "salt": 0.45,
+    "fiber": 1.8
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/7111/7111-1739789806188.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Großbritannien",
+   "category": "Marks & Spencer > Fertiggerichte",
+   "source_url": "https://www.gurkerl.at/7111-marks-spencer-spiced-lentil-tomato-soup",
+   "source_id": "7111",
+   "fetched_at": "2026-10-13T02:19:28+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Trinkwasser, Brauner Reis 12%, Zwiebel 11%, Kartoffel, Karotten 6%, Rote Paprika 6%, Kichererbsen 4.5 %, Bataten 3%, Chana dal 3%, Tomatenpaste, Tomaten, Getrocknete geriebene Kokosnuss, Koriander, Gemahlene Gewürze, Koriandersamen, Ingwer , Kurkuma, Schwarzer Pfeffer, Samen des römischen Kümmels, Bockshornklee, Speisesalz, Mehl aus roten Linsen, Maisstärke, Konzentrierter Karottensaft, Zitronensaft, Knoblauchmark, Mark aus roten Chilischoten, Gemahlener Chili"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Suppito Gazpacho",
+   "brand": "Suppito",
+   "price_eur": 11.99,
+   "unit_price_eur": 23.51,
+   "unit": "kg",
+   "size_g": 510.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/48186/48186-1780641180758.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Schnelle Küche > Suppen & Fonds",
+   "source_url": "https://www.gurkerl.at/48186-suppito-gazpacho",
+   "source_id": "48186",
+   "fetched_at": "2026-10-13T02:19:28+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Wasser, 36% Tomaten, 5% Salatgurken, 5% rote, gelbe & grüne Paprika, 4% weiße Zwiebel, KNOLLENSELLERIE, Karotten, Olivenöl, RohrohrzuckerNatursalz, Basilikum, Knoblauch, Apfelessig, Pfeffer schwarz."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Frank Soup BIO Tomatensuppe mit Meersalz - gekühlt",
+   "brand": "Frank Soup",
+   "price_eur": 3.99,
+   "unit_price_eur": 11.4,
+   "unit": "l",
+   "size_g": 350.0,
+   "nutrition_100g": {
+    "kcal": 51.0,
+    "fat": 2.1,
+    "satfat": 0.4,
+    "carbs": 5.0,
+    "sugar": 4.3,
+    "protein": 0.9,
+    "salt": 0.91,
+    "fiber": 1.6
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/13778/13778-1704198472631.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Kühlregal > Schnelle Küche > Suppen & Fonds",
+   "source_url": "https://www.gurkerl.at/13778-frank-soup-bio-tomatensuppe-mit-meersalz-gekuehlt",
+   "source_id": "13778",
+   "fetched_at": "2026-10-13T02:19:28+00:00",
+   "extra": {
+    "ingredients": "Bio Tomatensuppe mit 14% Gemüse\n\nZutaten: Tomaten* (45%), Wasser, Gemüse* (Zwiebel*, Karotten*, Sellerie* , Tomatenmark* 10%, Olivenöl*, Agavendicksaft*, Meersalz, Knoblauch*, Pfeffer*. *kontrolliert biologischer Anbau.\n\nBio Kontrollnummer: DE-ÖKO-003\n\nTrocken lagern. Nach dem Öffnen im Kühlschrank aufbewahren und bald aufbrauchen.\n\nFrankJuice GmbH, Grüntal 34, 81925 München, +49 (0)89 20965326, info@thefrankjuice.com"
+   }
+  }
+ ]
+}

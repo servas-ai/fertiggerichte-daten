@@ -1,0 +1,70 @@
+{
+ "count": 2,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Berger Oma´s Altwiener Suppentopf",
+   "brand": "Berger Schinken",
+   "price_eur": 9.69,
+   "unit_price_eur": 21.53,
+   "unit": "kg",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "kcal": 42.0,
+    "fat": 0.9,
+    "satfat": 0.3,
+    "carbs": 3.5,
+    "sugar": 0.5,
+    "protein": 4.9,
+    "salt": 1.0,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/39471/39471-1741070884215.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Schnelle Küche > Suppen & Fonds",
+   "source_url": "https://www.gurkerl.at/39471-berger-oma-s-altwiener-suppentopf",
+   "source_id": "39471",
+   "fetched_at": "2026-10-13T02:04:15+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Wasser, 12% Rindfleisch, Teigwaren (HARTWEIZEN-\nGRIESS, EI), gelbe Rüben, Karotten, Gewürze (enthält\nSELLERIE), Speisesalz, Schnittlauch."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Rindssuppe mit Leberknödeln von Jan Bureš",
+   "brand": "Zatisi",
+   "price_eur": 5.39,
+   "unit_price_eur": 17.97,
+   "unit": "l",
+   "size_g": 300.0,
+   "nutrition_100g": {
+    "kcal": 106.0,
+    "fat": 5.6,
+    "satfat": 0.8,
+    "carbs": 3.4,
+    "sugar": 1.3,
+    "protein": 3.6,
+    "salt": 0.7,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/44168/44168-1756113069770909905.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "EU",
+   "category": "Kühlregal > Schnelle Küche > Suppen & Fonds",
+   "source_url": "https://www.gurkerl.at/44168-rindssuppe-mit-leberknoedeln-von-jan-bures",
+   "source_id": "44168",
+   "fetched_at": "2026-10-13T02:04:15+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Rinderbrühe 75 % (Rinderschwanz 17%, Rinderschulter 17%, Zwiebeln, Karotten, SELLERIE, Petersilie, Schnittlauch, Liebstöckel, schwarzer Pfeffer, Piment, Trinkwasser, Speisesalz), Leberknödel 25% (Schweine- und Rinderleber min. 33%, Paniermehl [WEIZENMEHL, Trinkwasser, Rapsöl, Hefe, Speisesalz], Schweineschmalz, Trinkwasser, Schweinefleisch, Zwiebeln, WEIZENGRIEB, Knoblauchpaste [Knoblauch, Speisesalz], Speisesalz, WEIZENSTÄRKE, Bambusfaser, modifizierte Kartoffelstärke, Glukosesirup, MILCHEIWEISS, Antioxidationsmittel: Natriumascorbat, Verdickungsmittel: Guarkernmehl, getrocknetes Gemüse, Dextrose, Gewürze)."
+   }
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "count": 1,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Ölz Topfen Strudel",
+   "brand": "Ölz",
+   "price_eur": 5.79,
+   "unit_price_eur": 14.48,
+   "unit": "kg",
+   "size_g": 400.0,
+   "nutrition_100g": {
+    "kcal": 270.0,
+    "fat": 5.0,
+    "satfat": 2.1,
+    "carbs": 47.0,
+    "sugar": 15.0,
+    "protein": 8.0,
+    "salt": 0.67,
+    "fiber": 2.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/4508/4508-1603988227301.jpg",
+   "producer": "",
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Brot & Gebäck > Haltbares Brot & Gebäck",
+   "source_url": "https://www.gurkerl.at/4508-oelz-topfen-strudel",
+   "source_id": "4508",
+   "fetched_at": "2026-10-13T02:18:41+00:00",
+   "extra": {
+    "ingredients": "Zutaten: WEIZENMEHL, SPEISEQUARK Magerstufe 21%, Zucker, Wasser, VOLLEI, Palmfett, Glukosesirup, Rapsöl, modifizierte Stärke, Hefe, WEIZENKLEBER, Speisesalz, Emulgatoren (Mono- und Diglyceride von Speisefettsäuren, Natriumstearoyl-2-lactylat), Glukose-Fruktose-Sirup, Oligofruktose, VOLLMILCHPULVER, Konservierungsstoff: Sorbinsäure, Farbstoff: Carotin, Säuerungsmittel: Kaliumcitrate, Säureregulator: Citronensäure, Geliermittel: Pektine. Kann Spuren von MANDELN, HASELNÜSSEN, WALNÜSSEN und SOJAMEHL enthalten. Mehl aus der EU.\n\nKontaktdaten:\nRudolf Ölz Meisterbäcker GmbH & Co KG, Achstraße 9, 6850 Dornbirn, Österreich, +43 5572 / 3840-0, info@oelz.com "
+   }
+  }
+ ]
+}

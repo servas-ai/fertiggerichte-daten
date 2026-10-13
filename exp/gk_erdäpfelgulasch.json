@@ -1,0 +1,276 @@
+{
+ "count": 9,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Gissinger Erdäpfelgulasch",
+   "brand": "Gissinger",
+   "price_eur": 10.02,
+   "unit_price_eur": 18.99,
+   "unit": "kg",
+   "size_g": 530.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/21854/21854-1633010493479.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Traditionelle Hausmannskost",
+   "source_url": "https://www.gurkerl.at/21854-gissinger-erdaepfelgulasch",
+   "source_id": "21854",
+   "fetched_at": "2026-10-13T02:09:54+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Erdäpfel, Dürre, Budapester, Zwiebel, Suppe, Gewürze, Paprika, PFLANZLICHE STÄRKE"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Radatz Debreziner",
+   "brand": "Radatz",
+   "price_eur": 4.59,
+   "unit_price_eur": 19.13,
+   "unit": "kg",
+   "size_g": 240.0,
+   "nutrition_100g": {
+    "kcal": 341.0,
+    "fat": 31.0,
+    "satfat": 13.0,
+    "carbs": 0.6,
+    "sugar": 0.6,
+    "protein": 15.0,
+    "salt": 2.3,
+    "fiber": 0.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/4112/4112-1654087653173.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Wurst & Schinken > Würstel > zum Kochen",
+   "source_url": "https://www.gurkerl.at/4112-radatz-debreziner",
+   "source_id": "4112",
+   "fetched_at": "2026-10-13T02:09:54+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Schweine-und Rindfleisch (82%), Wasser, Speisesalz, Gewürze, Dextrose, Antioxidationsmittel: E 300; Stabilisator: E 451; Knoblauch, Konservierungsstoff: E 250; Geschmacksverstärker: E 621; Gewürzextrakte, Natursaitling, Buchenrauch. Das Produkt kann Spuren von Senf und Sellerie enthalten."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Radatz Erdäpfelgulasch",
+   "brand": "Radatz",
+   "price_eur": 11.52,
+   "unit_price_eur": 10.99,
+   "unit": "kg",
+   "size_g": 1050.0,
+   "nutrition_100g": {
+    "kcal": 97.0,
+    "fat": 4.0,
+    "satfat": 1.6,
+    "carbs": 12.0,
+    "sugar": 0.5,
+    "protein": 2.5,
+    "salt": 1.0,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/34301/34301-1725354933393.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Traditionelle Hausmannskost",
+   "source_url": "https://www.gurkerl.at/34301-radatz-erdaepfelgulasch",
+   "source_id": "34301",
+   "fetched_at": "2026-10-13T02:09:54+00:00",
+   "extra": {
+    "ingredients": "Zutaten: 44% Erdäpfel, Wasser, 15% Wienerwurst ( Schweine- und Rindfleisch,  Speisesalz, Gewürze, Stabilisatoren: E 451; Dextrose, Maltodextrin,  Knoblauch, Geschmacksverstärker: E 621; Konservierungsstoff: E 250 ;  Antioxidationsmittel: E 300;  Gewürzextrakte, Aroma, Buchenrauch.), 4,5% Sauerrahm, Einbrenn (Weizenmehl, Palmfett), Röstzwiebel, Sonnenblumenöl, Erbsenmehl, Speisesalz, Knoblauch, Zucker, Gemüsepaprika, Tomatenmark, Zwiebeln, Reisstärke, Maisstärke, Gewürze, Maltodextrin, jodiertes Salz (Salz, Kaliumjodat), Aromen, Gemüse (Karotten, Röstzwiebeln, Lauch, Pastinaken), Zitronensaftpulver. \nKann Spuren von Senf und Sellerie enthalten."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Inzersdorfer Erdäpfelgulasch",
+   "brand": "Inzersdorfer",
+   "price_eur": 3.69,
+   "unit_price_eur": 9.23,
+   "unit": "kg",
+   "size_g": 400.0,
+   "nutrition_100g": {
+    "kcal": 94.0,
+    "fat": 5.8,
+    "satfat": 1.9,
+    "carbs": 7.7,
+    "sugar": 1.2,
+    "protein": 2.2,
+    "salt": 1.2,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/33735/33735-1723539952452.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Vorratsschrank > Fertiggerichte > Menüs & Dosengerichte",
+   "source_url": "https://www.gurkerl.at/33735-inzersdorfer-erdaepfelgulasch",
+   "source_id": "33735",
+   "fetched_at": "2026-10-13T02:09:54+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Wasser, Kartoffel 26%, Wiener Wurst 10% [Schweinespeck, Schweinefleisch, Rindfleisch, Wasser, Nitritpökelsalz (Speisesalz, Konservierungsstoff: Natriumnitrit), Gewürze, Stabilisator: Diphosphate, Dextrose, Antioxidationsmittel: Ascorbinsäure, Gewürzextrakt, Speisesalz, Rauch], Zwiebel, Tomatenmark zweifach konzentriert, Sonnenblumenöl, Speisesalz jodiert (Speisesalz, Kaliumiodid), Gewürze, WEIZENMEHL, modifizierte Stärke, MAGERMILCHPULVER, Verdickungsmittel: Xanthan, Zwiebelpulver.\n\nNach dem Öffnen gekühlt lagern und innerhalb von 3 Tagen verbrauchen.\n\nZubereitung: Kochtopf: Inhalt in passenden Topf leeren 5 Min. erhitzen. Zubereitung: Mikrowelle: Inhalt in einen Teller leeren 2-3 Min. 600-750 W erhitzen."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Radatz Frankfurter",
+   "brand": "Radatz",
+   "price_eur": 4.49,
+   "unit_price_eur": 18.71,
+   "unit": "kg",
+   "size_g": 240.0,
+   "nutrition_100g": {
+    "kcal": 241.0,
+    "fat": 21.0,
+    "satfat": 8.4,
+    "carbs": 1.0,
+    "sugar": 0.5,
+    "protein": 12.0,
+    "salt": 2.0,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/4118/4118-1654088298218.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Wurst & Schinken > Würstel > zum Kochen",
+   "source_url": "https://www.gurkerl.at/4118-radatz-frankfurter",
+   "source_id": "4118",
+   "fetched_at": "2026-10-13T02:09:54+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Schweine- und Rindfleisch (84%), Wasser, Speisesalz, Kartoffelstärke, Dextrose, Gewürzextrakte , Stabilisator: E 451; Konservierungsstoff: E 250; Maltodextrin, Geschmacksverstärker: E 621; Gewürze, Knoblauch, Antioxidationsmittel: E 300; Aroma, Schafsaitling, Buchenrauch. Das Produkt kann Spuren von Senf und Sellerie enthalten."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Felix Erdäpfelgulasch",
+   "brand": "Felix",
+   "price_eur": 6.69,
+   "unit_price_eur": 8.36,
+   "unit": "kg",
+   "size_g": 800.0,
+   "nutrition_100g": {
+    "kcal": 104.0,
+    "fat": 6.2,
+    "satfat": 1.5,
+    "carbs": 8.6,
+    "sugar": 1.3,
+    "protein": 3.1,
+    "salt": 1.2,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/37031/37031-1732266048337.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "EU",
+   "category": "Vorratsschrank > Fertiggerichte > Menüs & Dosengerichte",
+   "source_url": "https://www.gurkerl.at/37031-felix-erdaepfelgulasch",
+   "source_id": "37031",
+   "fetched_at": "2026-10-13T02:09:54+00:00",
+   "extra": {
+    "ingredients": "Kartoffeln 40%, Wasser, Braunschweiger 10% \n(Schweinefleisch, Rindfleisch, Speck, Wasser, Stärke, \nSalz, Gewürze, Glukose, Zucker, Gewürzextrakte, \nStabilisator Di- und Triphosphate), Zwiebeln, \nFrankfurter 5% (Schweine- und Rindfleisch 65%, \nSpeck, Wasser, Salz, Glukose, Maltodextrin, Stärke, \nGewürze, Gewürzextrakte, Stabilisator Diphosphate, \nZucker, essbare Wursthülle), Tomaten, Rapsöl, \nmodifizierte Stärke, Salz, Weingeistessig, Kräuter, \nGewürze."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Radatz Frankfurter",
+   "brand": "Radatz",
+   "price_eur": 8.79,
+   "unit_price_eur": 12.21,
+   "unit": "kg",
+   "size_g": 720.0,
+   "nutrition_100g": {
+    "kcal": 241.0,
+    "fat": 21.0,
+    "satfat": 8.4,
+    "carbs": 1.0,
+    "sugar": 0.4,
+    "protein": 12.0,
+    "salt": 2.0,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/20929/20929-1631015129598.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Wurst & Schinken > Würstel > zum Kochen",
+   "source_url": "https://www.gurkerl.at/20929-radatz-frankfurter",
+   "source_id": "20929",
+   "fetched_at": "2026-10-13T02:09:54+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Schweine- und Rindfleisch (84%), Wasser, Speisesalz, Kartoffelstärke, Dextrose, Gewürzextrakte , Stabilisator: E 451; Konservierungsstoff: E 250; Maltodextrin, Geschmacksverstärker: E 621; Gewürze, Knoblauch, Antioxidationsmittel: E 300; Aroma, Schafsaitling, Buchenrauch.\nDas Produkt kann Spuren von Senf und Sellerie enthalten."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Suppito Erdäpfelgulasch mit Räuchertofu",
+   "brand": "Suppito",
+   "price_eur": 14.49,
+   "unit_price_eur": 28.41,
+   "unit": "kg",
+   "size_g": 510.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/44775/44775-1758268186887329002.JPG",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Traditionelle Hausmannskost",
+   "source_url": "https://www.gurkerl.at/44775-suppito-erdaepfelgulasch-mit-raeuchertofu",
+   "source_id": "44775",
+   "fetched_at": "2026-10-13T02:09:54+00:00",
+   "extra": {
+    "ingredients": "Zutaten: 42 % Erdäpfel, Wasser, Zwiebel, Salatgurke, 3% RÄUCHERTOFU (SOJABOHNEN, Wasser, Nigari, SOJASAUCE (SOJABOHNEN,\nWasser, Meersalz), Robinien- und Weißbuchenholzrauch), Olivenöl, Natursalz, Apfelessig, edelsüsses Paprikapulver, Tomatenmark,\nErdäpfelstärke, Kümmel, Knoblauch, Majoran, Paprikapulver scharf."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Radatz Burenwurst",
+   "brand": "Radatz",
+   "price_eur": 5.29,
+   "unit_price_eur": 16.03,
+   "unit": "kg",
+   "size_g": 330.0,
+   "nutrition_100g": {
+    "kcal": 309.0,
+    "fat": 26.0,
+    "satfat": 11.0,
+    "carbs": 4.7,
+    "sugar": 0.5,
+    "protein": 14.0,
+    "salt": 2.3,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/40646/40646-1743519662286.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Wurst & Schinken > Würstel > zum Kochen",
+   "source_url": "https://www.gurkerl.at/40646-radatz-burenwurst",
+   "source_id": "40646",
+   "fetched_at": "2026-10-13T02:09:54+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Schweine- und Rindfleisch ( 83%), Wasser, Kartoffelstärke, Speisesalz, Gewürze (enthält Senf, Sellerie), Antioxidationsmittel: E 300; Dextrose, Knoblauch, Konservierungsstoff: E 250; Stabilisatoren: E 451; Geschmacksverstärker: E 621; Gewürzextrakte, Aroma, Schweinesaitling, Buchenrauch."
+   }
+  }
+ ]
+}

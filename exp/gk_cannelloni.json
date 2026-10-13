@@ -1,0 +1,70 @@
+{
+ "count": 2,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Barilla Collezzione Cannelloni semola",
+   "brand": "Barilla",
+   "price_eur": 2.39,
+   "unit_price_eur": 9.56,
+   "unit": "kg",
+   "size_g": 250.0,
+   "nutrition_100g": {
+    "kcal": 359.0,
+    "fat": 2.0,
+    "satfat": 0.5,
+    "carbs": 71.2,
+    "sugar": 3.5,
+    "protein": 12.5,
+    "salt": 0.01,
+    "fiber": 3.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/39195/39195-1740053520009.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Italien",
+   "category": "Vorratsschrank > Pasta, Reis & Beilagen > Pasta",
+   "source_url": "https://www.gurkerl.at/39195-barilla-collezzione-cannelloni-semola",
+   "source_id": "39195",
+   "fetched_at": "2026-10-13T02:10:46+00:00",
+   "extra": {
+    "ingredients": "Zutaten: HARTWEIZENGRIESS, Wasser"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Ben Fatto Cannelloni Ricotta Spinat",
+   "brand": "Golfera",
+   "price_eur": 6.39,
+   "unit_price_eur": 25.56,
+   "unit": "kg",
+   "size_g": 250.0,
+   "nutrition_100g": {
+    "kcal": 159.0,
+    "fat": 8.5,
+    "satfat": 5.8,
+    "carbs": 12.0,
+    "sugar": 1.7,
+    "protein": 6.0,
+    "salt": 0.95,
+    "fiber": 5.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/32487/32487-1710150130859.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Italien",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Mediterrane Köstlichkeiten",
+   "source_url": "https://www.gurkerl.at/32487-ben-fatto-cannelloni-ricotta-spinat",
+   "source_id": "32487",
+   "fetched_at": "2026-10-13T02:10:46+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Füllung 50% (Ricotta Käse 30% (MOLKE, MILCH, Salz), mikrofiltrierter MILCH, Spinat 17%, Zwiebel, Kartoffelflocken, Parmigiano Reggiano g.U Käse (MILCH, Salz, Lab), EIER, Butter (MILCH), natives Olivenöl Extra, Salz, Muskatnus, schwarzer Pfeffer), grüne EierNudeln 18,5% (HartWEIZENgrieß, EIER 20,5%, Spinatmehl, Wasser), Béchamelsoße 15% (mikrofiltrierter MILCH, Butter (MILCH), Maisstärke, WeichWEIZENmehl, Salz, Zitrusfaser, Verdickungsmittel: Johannisbrotkernmehl, Muskatnuss), Arrabbiata Soße 15% (geschälte Tomaten, natives Olivenöl Extra, Basilikum, Maisstärke, Salz, Chilischote, Zitrusfaser, Verdickungsmittel: Johannisbrotkernmehl, Knoblauch), Parmigiano Reggiano g.U Käse 1,5% (MILCH, Salz, Lab)."
+   }
+  }
+ ]
+}

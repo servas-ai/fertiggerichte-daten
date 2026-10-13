@@ -1,0 +1,288 @@
+[
+ {
+  "url": "https://www.interspar.at/shop/lebensmittel/search/?q=SPAR%20Feine%20K%C3%BCche%20Erd%C3%A4pfelgulasch",
+  "field": "image_url",
+  "old": "https://images.openfoodfacts.org/images/products/910/000/071/4547/front_de.4.400.jpg",
+  "new": null,
+  "reason": "Vision Gate: falsches Bild (zeigt anderes, frittiertes XXL-Produkt statt Erdäpfelgulasch)",
+  "name": "SPAR Feine Küche Erdäpfelgulasch"
+ },
+ {
+  "url": "https://www.interspar.at/shop/lebensmittel/search/?q=S-BUDGET%20Kartoffel-Gnocchi%20Natur",
+  "field": "image_url",
+  "old": "https://images.openfoodfacts.org/images/products/910/000/015/8952/front_en.3.400.jpg",
+  "new": null,
+  "reason": "Vision Gate: unscharfer Ausschnitt, Produkt/Packung nicht erkennbar",
+  "name": "S-BUDGET Kartoffel-Gnocchi Natur"
+ },
+ {
+  "url": "https://world.openfoodfacts.org/product/4061461184797",
+  "field": "image_url",
+  "old": "https://images.openfoodfacts.org/images/products/406/146/118/4797/front_en.3.400.jpg",
+  "new": null,
+  "reason": "Vision Gate: ausgepackte Pizza, Marke/Packung nicht erkennbar",
+  "name": "Steinofenpizza Salami"
+ },
+ {
+  "url": "https://world.openfoodfacts.org/product/24085403",
+  "field": "image_url",
+  "old": "https://images.openfoodfacts.org/images/products/000/002/408/5403/front_de.6.400.jpg",
+  "new": null,
+  "reason": "Vision Gate: nur Rückseite/Nährwerttabelle, keine Marke erkennbar",
+  "name": "Klare Suppe "
+ },
+ {
+  "url": "https://world.openfoodfacts.org/product/20196097",
+  "field": "image_url",
+  "old": "https://images.openfoodfacts.org/images/products/000/002/019/6097/front_de.48.400.jpg",
+  "new": null,
+  "reason": "Vision Gate: Produkt (Lebkuchen) passt nicht zur Marke Vitasia",
+  "name": "Lebkuchen"
+ },
+ {
+  "url": "https://shop.billa.at/produkte/clever-cornichons-mit-chili-00756004",
+  "name": "Clever Cornichons mit Chili",
+  "field": "exclude",
+  "new": "__exclude__",
+  "reason": "kein Fertiggericht (Markenfamilien-QA)"
+ },
+ {
+  "url": "https://shop.billa.at/produkte/billa-balsamico-olivenoel-dressing-00797586",
+  "name": "BILLA Balsamico Olivenöl Dressing",
+  "field": "exclude",
+  "new": "__exclude__",
+  "reason": "kein Fertiggericht (Markenfamilien-QA)"
+ },
+ {
+  "url": "https://shop.billa.at/produkte/ja-natuerlich-biorinderfond-00871619",
+  "name": "Ja! Natürlich Bio-Rinderfond",
+  "field": "exclude",
+  "new": "__exclude__",
+  "reason": "kein Fertiggericht (Markenfamilien-QA)"
+ },
+ {
+  "url": "https://shop.billa.at/produkte/ja-natuerlich-biohuehnerfond-00871633",
+  "name": "Ja! Natürlich Bio-Hühnerfond",
+  "field": "exclude",
+  "new": "__exclude__",
+  "reason": "kein Fertiggericht (Markenfamilien-QA)"
+ },
+ {
+  "url": "https://shop.billa.at/produkte/ja-natuerlich-biofischfond-00871643",
+  "name": "Ja! Natürlich Bio-Fischfond",
+  "field": "exclude",
+  "new": "__exclude__",
+  "reason": "kein Fertiggericht (Markenfamilien-QA)"
+ },
+ {
+  "url": "https://shop.billa.at/produkte/ja-natuerlich-biogemuesefond-00871647",
+  "name": "Ja! Natürlich Bio-Gemüsefond",
+  "field": "exclude",
+  "new": "__exclude__",
+  "reason": "kein Fertiggericht (Markenfamilien-QA)"
+ },
+ {
+  "url": "https://world.openfoodfacts.org/product/4099200183145",
+  "name": "Mürbteig",
+  "field": "exclude",
+  "new": "__exclude__",
+  "reason": "kein Fertiggericht (Markenfamilien-QA)"
+ },
+ {
+  "url": "https://world.openfoodfacts.org/product/9100000968810",
+  "name": "Veganer Bio-Drink (Reismilch)",
+  "field": "exclude",
+  "new": "__exclude__",
+  "reason": "kein Fertiggericht (Markenfamilien-QA)"
+ },
+ {
+  "url": "https://world.openfoodfacts.org/product/9100000771601",
+  "name": "Veggie Reis Drink, Natur",
+  "field": "exclude",
+  "new": "__exclude__",
+  "reason": "kein Fertiggericht (Markenfamilien-QA)"
+ },
+ {
+  "url": "https://world.openfoodfacts.org/product/20196097",
+  "name": "Lebkuchen",
+  "field": "exclude",
+  "new": "__exclude__",
+  "reason": "kein Fertiggericht (Markenfamilien-QA)"
+ },
+ {
+  "url": "https://world.openfoodfacts.org/product/20196950",
+  "name": "Pizza Kombi Dinkelweizen-Vollkornteig",
+  "field": "image_url",
+  "old": "https://images.openfoodfacts.org/images/products/000/002/019/6950/front_fi.38.400.jpg",
+  "new": null,
+  "reason": "Vision Gate: Bild nur schmaler Streifen, Produkt nicht erkennbar"
+ },
+ {
+  "url": "https://shop.billa.at/produkte/billa-suppengemuese-00529314",
+  "name": "BILLA Suppengemüse",
+  "field": "exclude",
+  "new": "__exclude__",
+  "reason": "kein Fertiggericht (Markenfamilien-QA)"
+ },
+ {
+  "url": "https://shop.billa.at/produkte/clever-suppengemuese-00737606",
+  "name": "Clever Suppengemüse",
+  "field": "exclude",
+  "new": "__exclude__",
+  "reason": "kein Fertiggericht (Markenfamilien-QA)"
+ },
+ {
+  "url": null,
+  "name": "SPAR Natur*pur Bio-Suppengemüse aus dem Marchfeld",
+  "field": "exclude",
+  "new": "__exclude__",
+  "reason": "kein Fertiggericht (Markenfamilien-QA)"
+ },
+ {
+  "url": null,
+  "name": "SPAR Vital Suppengemüse für Minestrone",
+  "field": "exclude",
+  "new": "__exclude__",
+  "reason": "kein Fertiggericht (Markenfamilien-QA)"
+ },
+ {
+  "url": "https://www.interspar.at/shop/lebensmittel/search/?q=SPAR%20Feine%20K%C3%BCche%20Paprika-Huhn%20mit%20Eiersp%C3%A4tzle",
+  "name": "SPAR Feine Küche Paprika-Huhn mit Eierspätzle",
+  "field": "exclude",
+  "new": "__exclude__",
+  "reason": "kein Fertiggericht (Markenfamilien-QA)"
+ },
+ {
+  "url": "https://www.hofer.at/suchergebnisse?q=GOOD%20CHOICE%20Pizzateig%20American%20Style",
+  "name": "GOOD CHOICE Pizzateig American Style",
+  "field": "exclude",
+  "new": "__exclude__",
+  "reason": "kein Fertiggericht (Markenfamilien-QA)"
+ },
+ {
+  "url": "https://www.interspar.at/shop/lebensmittel/search/?q=SPAR%20Natur%2Apur%20Bio-Eiersp%C3%A4tzle",
+  "name": "SPAR Natur*pur Bio-Eierspätzle",
+  "field": "exclude",
+  "new": "__exclude__",
+  "reason": "kein Fertiggericht (Markenfamilien-QA)"
+ },
+ {
+  "url": "https://www.interspar.at/shop/lebensmittel/search/?q=SPAR%20Natur%2Apur%20Bio-Hefe-Pizzateig",
+  "name": "SPAR Natur*pur Bio-Hefe-Pizzateig",
+  "field": "exclude",
+  "new": "__exclude__",
+  "reason": "kein Fertiggericht (Markenfamilien-QA)"
+ },
+ {
+  "url": "https://world.openfoodfacts.org/product/4056489367130",
+  "name": "Grüne Currypaste",
+  "field": "exclude",
+  "new": "__exclude__",
+  "reason": "kein Fertiggericht (Markenfamilien-QA)"
+ },
+ {
+  "url": "https://world.openfoodfacts.org/product/4056489367147",
+  "name": "Rote Currypaste",
+  "field": "exclude",
+  "new": "__exclude__",
+  "reason": "kein Fertiggericht (Markenfamilien-QA)"
+ },
+ {
+  "url": "https://world.openfoodfacts.org/product/20185299",
+  "name": "Wok Noodles",
+  "field": "exclude",
+  "new": "__exclude__",
+  "reason": "kein Fertiggericht (Markenfamilien-QA)"
+ },
+ {
+  "url": "https://world.openfoodfacts.org/product/4056489181286",
+  "name": "Udon Nudeln",
+  "field": "exclude",
+  "new": "__exclude__",
+  "reason": "kein Fertiggericht (Markenfamilien-QA)"
+ },
+ {
+  "url": "https://world.openfoodfacts.org/product/4099200231792",
+  "name": "Eierspätzle",
+  "field": "exclude",
+  "new": "__exclude__",
+  "reason": "kein Fertiggericht (Markenfamilien-QA)"
+ },
+ {
+  "url": "https://world.openfoodfacts.org/product/4099200183152",
+  "name": "Pizzateig rund",
+  "field": "exclude",
+  "new": "__exclude__",
+  "reason": "kein Fertiggericht (Markenfamilien-QA)"
+ },
+ {
+  "url": "https://world.openfoodfacts.org/product/4061459476545",
+  "name": "Suppengemüse geschnitten",
+  "field": "exclude",
+  "new": "__exclude__",
+  "reason": "kein Fertiggericht (Markenfamilien-QA)"
+ },
+ {
+  "url": "https://world.openfoodfacts.org/product/4061463186799",
+  "name": "Mie Nudeln",
+  "field": "exclude",
+  "new": "__exclude__",
+  "reason": "kein Fertiggericht (Markenfamilien-QA)"
+ },
+ {
+  "url": "https://world.openfoodfacts.org/product/4061463568045",
+  "name": "Sweet Chili Sauce",
+  "field": "exclude",
+  "new": "__exclude__",
+  "reason": "kein Fertiggericht (Markenfamilien-QA)"
+ },
+ {
+  "url": "https://world.openfoodfacts.org/product/4061462404283",
+  "name": "Gelbe Currypaste",
+  "field": "exclude",
+  "new": "__exclude__",
+  "reason": "kein Fertiggericht (Markenfamilien-QA)"
+ },
+ {
+  "url": "https://world.openfoodfacts.org/product/4061459434361",
+  "name": "Seet chili Sauce",
+  "field": "exclude",
+  "new": "__exclude__",
+  "reason": "kein Fertiggericht (Markenfamilien-QA)"
+ },
+ {
+  "url": "https://world.openfoodfacts.org/product/4061461951856",
+  "name": "Suppenwürfel (Rind)",
+  "field": "exclude",
+  "new": "__exclude__",
+  "reason": "kein Fertiggericht (Markenfamilien-QA)"
+ },
+ {
+  "url": "https://world.openfoodfacts.org/product/4061461951894",
+  "name": "Hühnersuppenwürfel",
+  "field": "exclude",
+  "new": "__exclude__",
+  "reason": "kein Fertiggericht (Markenfamilien-QA)"
+ },
+ {
+  "url": "https://world.openfoodfacts.org/product/4061461286309",
+  "name": "Suppenwürfel (Gemüse)",
+  "field": "exclude",
+  "new": "__exclude__",
+  "reason": "kein Fertiggericht (Markenfamilien-QA)"
+ },
+ {
+  "url": "https://shop.billa.at/produkte/ja-natuerlich-eierspaetzle-00261892",
+  "name": "Ja! Natürlich Eierspätzle",
+  "field": "exclude",
+  "new": "__exclude__",
+  "reason": "kein Fertiggericht (Markenfamilien-QA)"
+ },
+ {
+  "url": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-bio-eierspaetzle/p/2020004508782",
+  "name": "Bio-Eierspätzle",
+  "field": "exclude",
+  "new": "__exclude__",
+  "reason": "kein Fertiggericht (Markenfamilien-QA)"
+ }
+]

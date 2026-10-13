@@ -1,0 +1,422 @@
+{
+ "count": 13,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Kitchin Couscous",
+   "brand": "Kitchin",
+   "price_eur": 1.49,
+   "unit_price_eur": 2.98,
+   "unit": "kg",
+   "size_g": 500.0,
+   "nutrition_100g": {
+    "kcal": 358.0,
+    "fat": 1.1,
+    "satfat": 0.5,
+    "carbs": 72.0,
+    "sugar": 2.8,
+    "protein": 13.0,
+    "salt": 0.01,
+    "fiber": 1.8
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/31719/31719-1703165985664.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Italien",
+   "category": "Vorratsschrank > Pasta, Reis & Beilagen > Getreideprodukte",
+   "source_url": "https://www.gurkerl.at/31719-kitchin-couscous",
+   "source_id": "31719",
+   "fetched_at": "2026-10-13T02:07:58+00:00",
+   "extra": {
+    "ingredients": "CousCous"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Tipiak Couscous",
+   "brand": "Tipiak",
+   "price_eur": 2.59,
+   "unit_price_eur": 5.18,
+   "unit": "kg",
+   "size_g": 500.0,
+   "nutrition_100g": {
+    "kcal": 361.0,
+    "fat": 1.8,
+    "satfat": 0.3,
+    "carbs": 72.0,
+    "sugar": 3.4,
+    "protein": 13.0,
+    "salt": 0.0,
+    "fiber": 3.7
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/33114/33114-1724686568717.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Frankreich",
+   "category": "Vorratsschrank > Pasta, Reis & Beilagen > Getreideprodukte",
+   "source_url": "https://www.gurkerl.at/33114-tipiak-couscous",
+   "source_id": "33114",
+   "fetched_at": "2026-10-13T02:07:58+00:00",
+   "extra": {
+    "ingredients": "Zutaten: HARTWEIZENGRIESS (GLUTEN). Kann\nSpuren enthalten von: Soja, Senf, Schalenfrüchten,\nSellerie und Lupinen enthalten.\n\nKühl und trocken lagern. Vor Wärme schützen.\n"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Alnatura BIO Couscous",
+   "brand": "Alnatura",
+   "price_eur": 1.59,
+   "unit_price_eur": 3.18,
+   "unit": "kg",
+   "size_g": 500.0,
+   "nutrition_100g": {
+    "kcal": 351.0,
+    "fat": 2.4,
+    "satfat": 0.5,
+    "carbs": 66.0,
+    "sugar": 1.9,
+    "protein": 12.0,
+    "salt": 0.01,
+    "fiber": 8.8
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/10553/10553-1606222389.jpg",
+   "producer": "Alnatura GmbH, Mahatma-Gandhi-Straße 7, 64295 Darmstadt.",
+   "producer_id": null,
+   "origin": "Italien",
+   "category": "Vorratsschrank > Pasta, Reis & Beilagen > Getreideprodukte",
+   "source_url": "https://www.gurkerl.at/10553-alnatura-bio-couscous",
+   "source_id": "10553",
+   "fetched_at": "2026-10-13T02:07:58+00:00",
+   "extra": {
+    "ingredients": "Bio Vollkorn Couscous.\n\nZutaten: COUSCOUS* (HARTWEIZENVOLLKORNGRIEß*) \n*aus biologischer Landwirtschaft.\n\nTrocken & vor Wärme geschützt lagern.\n\nZubereitungsempfehlung:\n150 g Couscous mit der 2-fachen Menge kochendem Salzwasser aufgießen und ca. 5-10 Minuten quellen lassen.\n\nBio-Kontrollstellennummer: DE-ÖKO-006\n\nKontakt: Alnatura GmbH, Mahatma-Gandhi-Straße 7, 64295 Darmstadt."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Alnatura BIO Dinkel Couscous",
+   "brand": "Alnatura",
+   "price_eur": 2.79,
+   "unit_price_eur": 6.98,
+   "unit": "kg",
+   "size_g": 400.0,
+   "nutrition_100g": {
+    "kcal": 344.0,
+    "fat": 2.8,
+    "satfat": 0.6,
+    "carbs": 62.0,
+    "sugar": 2.3,
+    "protein": 13.0,
+    "salt": 0.01,
+    "fiber": 9.2
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/10759/10759-1606217117.jpg",
+   "producer": "Alnatura GmbH, Mahatma-Gandhi-Straße 7, 64295 Darmstadt.",
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Vorratsschrank > Pasta, Reis & Beilagen > Getreideprodukte",
+   "source_url": "https://www.gurkerl.at/10759-alnatura-bio-dinkel-couscous",
+   "source_id": "10759",
+   "fetched_at": "2026-10-13T02:07:58+00:00",
+   "extra": {
+    "ingredients": "Bio Dinkel Couscous.\n\nZutaten: DINKELVOLLKORNMEHL*¹\n*aus biologischer Landwirtschaft\n¹Dinkel ist eine Urweizenart.\n\nTrocken & vor Wärme geschützt lagern.\n\nBio-Kontrollstellennummer: DE-ÖKO-006\n\nKontakt: Alnatura GmbH, Mahatma-Gandhi-Straße 7, 64295 Darmstadt."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Alnatura BIO Kichererbsen Couscous",
+   "brand": "Alnatura",
+   "price_eur": 3.99,
+   "unit_price_eur": 9.98,
+   "unit": "kg",
+   "size_g": 400.0,
+   "nutrition_100g": {
+    "kcal": 367.0,
+    "fat": 6.3,
+    "satfat": 1.1,
+    "carbs": 52.0,
+    "sugar": 3.3,
+    "protein": 21.0,
+    "salt": 0.02,
+    "fiber": 9.1
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/10882/10882-1723451039745.jpg",
+   "producer": "Alnatura GmbH, Mahatma-Gandhi-Straße 7, 64295 Darmstadt.",
+   "producer_id": null,
+   "origin": "Italien",
+   "category": "Vorratsschrank > Pasta, Reis & Beilagen > Getreideprodukte",
+   "source_url": "https://www.gurkerl.at/10882-alnatura-bio-kichererbsen-couscous",
+   "source_id": "10882",
+   "fetched_at": "2026-10-13T02:07:58+00:00",
+   "extra": {
+    "ingredients": "Bio Kichererbsen Couscous\n\nZutaten: Kichererbsenmehl*. \n*aus kontrolliert, biologischem Anbau.\nKann Spuren von Gluten und Soja enthalten.\n\nTrocken & vor Wärme geschützt lagern.\n\nZubereitungsempfehlung: 150 g Kichererbsen Couscous mit der 1,5-fachen Menge kochendem Salzwasser aufgießen und ca. 5–10 Min. quellen lassen.\n\nBio-Kontrollstellennummer: DE-ÖKO-006\n\nKontakt: Alnatura GmbH, Mahatma-Gandhi-Straße 7, 64295 Darmstadt."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Rio Mare Insalatissime CousCous",
+   "brand": "Rio Mare",
+   "price_eur": 3.99,
+   "unit_price_eur": 24.94,
+   "unit": "kg",
+   "size_g": 160.0,
+   "nutrition_100g": {
+    "kcal": 238.0,
+    "fat": 15.0,
+    "satfat": 2.0,
+    "carbs": 15.0,
+    "sugar": 1.5,
+    "protein": 10.0,
+    "salt": 1.0,
+    "fiber": 0.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/4029/4029-1790594530641.jpg",
+   "producer": "Bolton Austria GmbH, Trabrennstraße 5, 1020 Wien, Österreich",
+   "producer_id": null,
+   "origin": "Italien",
+   "category": "Vorratsschrank > Konserven & Eingelegtes > Fischkonserven",
+   "source_url": "https://www.gurkerl.at/4029-rio-mare-insalatissime-couscous",
+   "source_id": "4029",
+   "fetched_at": "2026-10-13T02:07:58+00:00",
+   "extra": {
+    "ingredients": "Couscous Salat mit Thunfischstücken und Gemüse \nZutaten: Cous Cous 35% (HARTWEIZENGRIES), Thunfisch (Euthynnus (Katsuwonus) pelamis) 23%, Maiskeimöl, Kichererbsen 6%, Karotten 5%, Erbsen 5%, Paprika, Cherrytomaten 3%, Zwiebeln, Aroma, Salz, Glucose Sirup\n\nKühl und trocken lagern. Nach dem Öffnen im Kühlschrank aufbewahren.\n\nProduzent: Bolton Austria GmbH, Trabrennstraße 5, 1020 Wien, Österreich"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "NENI Perl-Couscous Salat",
+   "brand": "Neni",
+   "price_eur": 4.59,
+   "unit_price_eur": 22.95,
+   "unit": "kg",
+   "size_g": 200.0,
+   "nutrition_100g": {
+    "kcal": 157.0,
+    "fat": 77.0,
+    "satfat": 7.0,
+    "carbs": 17.0,
+    "sugar": 58.0,
+    "protein": 41.0,
+    "salt": 15.0,
+    "fiber": 15.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/49002/49002-1785921644987928690.png",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Schnelle Küche > Salate & Bowls",
+   "source_url": "https://www.gurkerl.at/49002-neni-perl-couscous-salat",
+   "source_id": "49002",
+   "fetched_at": "2026-10-13T02:07:58+00:00",
+   "extra": {
+    "ingredients": "Zutaten: 41 % Perl-Couscous gekocht (HARTWEIZENGRIESS, Wasser), Zucchini, 7 % Süßkartoffeln, Peperoni gegrillt, Rapsöl, 5 % Tofu geräuchert (Wasser, SOJABOHNEN, Speisesalz, Gerinnungsmittel: Calciumsulfat, Buchenholzrauch), Zwiebel frittiert (Zwiebel, Rapsöl, Sonnenblumenöl), Apfelsaftkonzentrat, Tomatenzubereitung (Tomaten, Speisesalz, Antioxidationsmittel: Citronensäure, Konservierungsstoff: Kaliumsorbat), Wasser, Kräuter, Knoblauch, Gewürzzubereitung (Salz jodiert, Gewürze (mit SENF), Säuerungsmittel: Citronensäure, Konservierungsstoff: Kaliumsorbat, Kräuter, Verdickungsmittel: Xanthan)."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Rio Mare Insalatissime Cous Cous e Tonno 2x160g",
+   "brand": "Rio Mare",
+   "price_eur": 6.49,
+   "unit_price_eur": 20.28,
+   "unit": "kg",
+   "size_g": 320.0,
+   "nutrition_100g": {
+    "kcal": 238.0,
+    "fat": 15.0,
+    "satfat": 2.0,
+    "carbs": 15.0,
+    "sugar": 1.5,
+    "protein": 10.0,
+    "salt": 1.0,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/48986/48986-1785759920586010065.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Italien",
+   "category": "Vorratsschrank > Konserven & Eingelegtes > Fischkonserven",
+   "source_url": "https://www.gurkerl.at/48986-rio-mare-insalatissime-cous-cous-e-tonno-2x160g",
+   "source_id": "48986",
+   "fetched_at": "2026-10-13T02:07:58+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Cous Cous 35% (HARTWEIZENGRIES), Thunfisch (Euthynnus (Katsuwonus) pelamis) 23%, Maiskeimöl, Kichererbsen 6%, Karotten 5%, Erbsen 5%, Paprika, Cherrytomaten 3%, Zwiebel, Aroma, Salz, Glucose Sirup"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Hengstenberg Couscous Salat mit Pflaume, Paprika & Ingwer",
+   "brand": "Hengstenberg",
+   "price_eur": 2.89,
+   "unit_price_eur": 11.56,
+   "unit": "kg",
+   "size_g": 250.0,
+   "nutrition_100g": {
+    "kcal": 177.0,
+    "fat": 4.6,
+    "satfat": 0.4,
+    "carbs": 28.0,
+    "sugar": 8.6,
+    "protein": 3.8,
+    "salt": 1.2,
+    "fiber": 2.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/49327/49327-1788954291499439900.JPEG",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Vorratsschrank > Konserven & Eingelegtes > Gemüsekonserven & Salate > Salate & Kraut",
+   "source_url": "https://www.gurkerl.at/49327-hengstenberg-couscous-salat-mit-pflaume-paprika-ingwer",
+   "source_id": "49327",
+   "fetched_at": "2026-10-13T02:07:58+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Wasser, Couscous (HARTWEIZEN) (29%),\nBranntweinessig, Zucker, Rapsöl, Pflaumenwürfel\ngetrocknet (1%), Paprikaflocken (1%), Zwiebel, Salz,\nKurkuma, Ingwer getrocknet (0,1%), Chili, natürliches\nSENF-AROMA, natürliche Gewürz-Aromen, natürliche\nAromen (enthält SOJA und SELLERIE), Antioxidationsmittel:\nAscorbinsäure und Citronensäure.\nKann Spuren von LUPINE enthalten."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Su Guttiau Fregola Sarda tostata",
+   "brand": "Su Guttiau",
+   "price_eur": 4.09,
+   "unit_price_eur": 8.18,
+   "unit": "kg",
+   "size_g": 500.0,
+   "nutrition_100g": {
+    "kcal": 345.0,
+    "fat": 1.5,
+    "satfat": 0.4,
+    "carbs": 71.0,
+    "sugar": 3.4,
+    "protein": 13.0,
+    "salt": 0.01,
+    "fiber": 3.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/49084/49084-1786696699332452776.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Italien",
+   "category": "Vorratsschrank > Pasta, Reis & Beilagen > Pasta",
+   "source_url": "https://www.gurkerl.at/49084-su-guttiau-fregola-sarda-tostata",
+   "source_id": "49084",
+   "fetched_at": "2026-10-13T02:07:58+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Hartweizengrieß, Wasser, Kann Spuren enthalten von, Soja, Senf"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "HiPP BIO Couscous-Gemüse-Pfanne, ab dem 6. Monat",
+   "brand": "HiPP",
+   "price_eur": 1.79,
+   "unit_price_eur": 9.42,
+   "unit": "kg",
+   "size_g": 190.0,
+   "nutrition_100g": {
+    "kcal": 85.0,
+    "fat": 2.9,
+    "satfat": 0.3,
+    "carbs": 10.5,
+    "sugar": 3.8,
+    "protein": 2.9,
+    "salt": 0.07,
+    "fiber": 2.8
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/43054/43054-1750688254421593005.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Baby & Kinder > Baby- und Kindernahrung > Glaskost & Menüs > Gemüse-Gläschen",
+   "source_url": "https://www.gurkerl.at/43054-hipp-bio-couscous-gemuese-pfanne-ab-dem-6-monat",
+   "source_id": "43054",
+   "fetched_at": "2026-10-13T02:07:58+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Magermilch*, Karotten*, Tomaten*, Amaranthmehl* 7 %, Zucchini*, Couscous* (Hartweizen) 5 %, Auberginen*, Zwiebeln*, Rapsöl* 2,4 %, Reisstärke*, Magermilchpulver*, Zitronensaft* aus Zitronensaft-konzentrat, Gewürze* (Basilikum*, Oregano* )."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Alnatura BIO Buttergemüse mit Coucous und Huhn",
+   "brand": "Alnatura",
+   "price_eur": 2.09,
+   "unit_price_eur": 9.5,
+   "unit": "kg",
+   "size_g": 220.0,
+   "nutrition_100g": {
+    "kcal": 56.0,
+    "fat": 2.2,
+    "satfat": 1.0,
+    "carbs": 5.8,
+    "sugar": 2.2,
+    "protein": 2.6,
+    "salt": 0.05,
+    "fiber": 1.4
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/34611/34611-1739184804385.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Baby & Kinder > Baby- und Kindernahrung > Glaskost & Menüs > Fleisch & Fisch-Gläschen",
+   "source_url": "https://www.gurkerl.at/34611-alnatura-bio-buttergemuese-mit-coucous-und-huhn",
+   "source_id": "34611",
+   "fetched_at": "2026-10-13T02:07:58+00:00",
+   "extra": {
+    "ingredients": "Zutaten:COUSCOUS** (HARTWEIZENGRIEß**) gekocht 28 %, Karotten* 27 %, Wasser, Hühnchenfleisch** 8 %, Pastinaken* 7 %, Tomatenmark** 2-fach konzentriert 4 %, rote Paprika** 3 %, BUTTER* 1,4 % *aus Demeter-Landbau **aus biologischer Landwirtschaft\n\nNicht erwärmte Restmenge verschlossen im Kühlschrank aufbewahren und am nächsten Tag verbrauchen.\n\nGeöffnetes Glas bzw. gewünschte Portion im Wasserbad erwärmen, umrühren und Temperatur prüfen. Nicht erwärmte Restmenge verschlossen im Kühlschrank aufbewahren und am nächsten Tag verbrauchen.\n\nBio-Kontrollstellennummer: DE-ÖKO-007"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Kotányi Harissa",
+   "brand": "Kotanyi",
+   "price_eur": 2.99,
+   "unit_price_eur": 119.6,
+   "unit": "kg",
+   "size_g": 25.0,
+   "nutrition_100g": {
+    "kcal": 285.0,
+    "fat": 11.0,
+    "satfat": 1.1,
+    "carbs": 18.0,
+    "sugar": 4.5,
+    "protein": 14.0,
+    "salt": 14.0,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/48247/48247-1780399821905909771.JPEG",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Vorratsschrank > Salz, Gewürze, Kochzutaten & Co. > Gewürzmischungen",
+   "source_url": "https://www.gurkerl.at/48247-kotanyi-harissa",
+   "source_id": "48247",
+   "fetched_at": "2026-10-13T02:07:58+00:00",
+   "extra": {
+    "ingredients": "Zutaten: (24%) Chili, Knoblauch, Koriander, Paprika, Meersalz jodiert (Meersalz, Kaliumjodat), Mutterkümmel. Kann Spuren von glutenhaltigem Getreide, Ei, Soja, Sellerie, Sesam, Milch (Laktose) und Senf enthalten."
+   }
+  }
+ ]
+}

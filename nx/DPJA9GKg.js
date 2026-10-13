@@ -1,0 +1,1 @@
+import{h as e}from"./BFQGZh7u.js";var t=e();export{t};

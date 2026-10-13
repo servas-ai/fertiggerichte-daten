@@ -1,0 +1,308 @@
+{
+ "count": 10,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Recheis Goldmarke Fleckerl",
+   "brand": "Recheis",
+   "price_eur": 2.49,
+   "unit_price_eur": 4.98,
+   "unit": "kg",
+   "size_g": 500.0,
+   "nutrition_100g": {
+    "kcal": 355.0,
+    "fat": 3.2,
+    "satfat": 1.0,
+    "carbs": 66.0,
+    "sugar": 1.2,
+    "protein": 14.0,
+    "salt": 0.06,
+    "fiber": 3.3
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/3971/3971-1750247072261.jpg",
+   "producer": "Josef Recheis Eierteigwarenfabrik und Walzmühle GmbH, Fassergasse 8-10, 6060 Hall i. T., Österreich",
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Vorratsschrank > Pasta, Reis & Beilagen > Pasta",
+   "source_url": "https://www.gurkerl.at/3971-recheis-goldmarke-fleckerl",
+   "source_id": "3971",
+   "fetched_at": "2026-10-13T02:14:43+00:00",
+   "extra": {
+    "ingredients": "Fleckerl aus Hartweizengrieß und Eiern\nZutaten: HARTWEIZENGRIEß, EIER (15%) (3 Eier je kg Hartweizengrieß)\n\nLagerung: trocken, vor Sonnenlicht geschützt\n\nProduzent: Josef Recheis Eierteigwarenfabrik und Walzmühle GmbH, Fassergasse 8-10, 6060 Hall i. T., Österreich"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Recheis Vollkorn Fleckerl",
+   "brand": "Recheis",
+   "price_eur": 2.49,
+   "unit_price_eur": 4.98,
+   "unit": "kg",
+   "size_g": 500.0,
+   "nutrition_100g": {
+    "kcal": 352.0,
+    "fat": 2.1,
+    "satfat": 0.6,
+    "carbs": 66.0,
+    "sugar": 3.3,
+    "protein": 15.0,
+    "salt": 0.005,
+    "fiber": 4.7
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/3980/3980-1750247632171.jpg",
+   "producer": "Josef Recheis Eierteigwarenfabrik und Walzmühle GmbH, Fassergasse 8-10, 6060 Hall i. T., Österreich",
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Vorratsschrank > Pasta, Reis & Beilagen > Pasta",
+   "source_url": "https://www.gurkerl.at/3980-recheis-vollkorn-fleckerl",
+   "source_id": "3980",
+   "fetched_at": "2026-10-13T02:14:43+00:00",
+   "extra": {
+    "ingredients": "Zutaten: VOLLKORNHARTWEIZENGRIEß(100%)\n\nLagerung: trocken, vor Sonnenlicht geschützt\n\nProduzent: Josef Recheis Eierteigwarenfabrik und Walzmühle GmbH, Fassergasse 8-10, 6060 Hall i. T., Österreich"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Wolf Eigold Fleckerl",
+   "brand": "Wolf",
+   "price_eur": 2.49,
+   "unit_price_eur": 4.98,
+   "unit": "kg",
+   "size_g": 500.0,
+   "nutrition_100g": {
+    "kcal": 357.0,
+    "fat": 3.1,
+    "satfat": 2.1,
+    "carbs": 66.0,
+    "sugar": 1.1,
+    "protein": 14.0,
+    "salt": 0.06,
+    "fiber": 0.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/6634/6634-1603986217208.jpg",
+   "producer": "Wolf Nudeln GmbH, Wienerstraße 37, 7540 Güssing, Österreich",
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Vorratsschrank > Pasta, Reis & Beilagen > Pasta",
+   "source_url": "https://www.gurkerl.at/6634-wolf-eigold-fleckerl",
+   "source_id": "6634",
+   "fetched_at": "2026-10-13T02:14:43+00:00",
+   "extra": {
+    "ingredients": "Fleckerl aus Hartweizengrieß und Eiern\nZutaten: HARTWEIZENGRIEß,15% EIER aus Bodenhaltung (3 Eier je 1 kg Hartweizengrieß)\n\nKühl und trocken lagern.\n\nProduzent: Wolf Nudeln GmbH, Wienerstraße 37, 7540 Güssing, Österreich"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Recheis Familie Fleckerl",
+   "brand": "Recheis",
+   "price_eur": 3.99,
+   "unit_price_eur": 3.99,
+   "unit": "kg",
+   "size_g": 1000.0,
+   "nutrition_100g": {
+    "kcal": 363.0,
+    "fat": 2.4,
+    "satfat": 0.6,
+    "carbs": 70.0,
+    "sugar": 1.1,
+    "protein": 13.0,
+    "salt": 0.04,
+    "fiber": 3.1
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/45262/45262-1759841378975292769.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Vorratsschrank > Pasta, Reis & Beilagen > Pasta",
+   "source_url": "https://www.gurkerl.at/45262-recheis-familie-fleckerl",
+   "source_id": "45262",
+   "fetched_at": "2026-10-13T02:14:43+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Hartweizengrieß, Vollei"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Recheis Tyroler Teigwaren Fleckerl",
+   "brand": "Recheis",
+   "price_eur": 2.39,
+   "unit_price_eur": 4.78,
+   "unit": "kg",
+   "size_g": 500.0,
+   "nutrition_100g": {
+    "kcal": 358.0,
+    "fat": 1.7,
+    "satfat": 0.3,
+    "carbs": 69.0,
+    "sugar": 1.3,
+    "protein": 14.0,
+    "salt": 0.01,
+    "fiber": 3.8
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/49129/49129-1787226916668492619.JPEG",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Vorratsschrank > Pasta, Reis & Beilagen > Pasta",
+   "source_url": "https://www.gurkerl.at/49129-recheis-tyroler-teigwaren-fleckerl",
+   "source_id": "49129",
+   "fetched_at": "2026-10-13T02:14:43+00:00",
+   "extra": {
+    "ingredients": "Zutaten: 100 % HARTWEIZENGRIESS\nKann Spuren von Eiern und Soja enthalten."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Gissinger Schinkenfleckerl",
+   "brand": "Gissinger",
+   "price_eur": 9.57,
+   "unit_price_eur": 17.99,
+   "unit": "kg",
+   "size_g": 530.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/26147/26147-1767772892392.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Traditionelle Hausmannskost",
+   "source_url": "https://www.gurkerl.at/26147-gissinger-schinkenfleckerl",
+   "source_id": "26147",
+   "fetched_at": "2026-10-13T02:14:43+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Fleckerl, Beinschinken, Zwiebel, Salz, Gewürze"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Recheis Naturgenuss Dinkel Fleckerln gerippt",
+   "brand": "Recheis",
+   "price_eur": 2.49,
+   "unit_price_eur": 6.23,
+   "unit": "kg",
+   "size_g": 400.0,
+   "nutrition_100g": {
+    "kcal": 365.0,
+    "fat": 2.5,
+    "satfat": 0.6,
+    "carbs": 71.0,
+    "sugar": 3.4,
+    "protein": 14.0,
+    "salt": 0.04,
+    "fiber": 2.9
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/20587/20587-1750247671431.jpg",
+   "producer": "Josef Recheis Eierteigwarenfabrik und Walzmühle GmbH, Fassergasse 8-10, 6060 Hall i. T., Österreich",
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Vorratsschrank > Pasta, Reis & Beilagen > Pasta",
+   "source_url": "https://www.gurkerl.at/20587-recheis-naturgenuss-dinkel-fleckerln-gerippt",
+   "source_id": "20587",
+   "fetched_at": "2026-10-13T02:14:43+00:00",
+   "extra": {
+    "ingredients": "Zutaten: DINKELGRIESS, EIER (10 %). 2 Freilandeier je kg Dinkelgrieß.\n\nLagerung: trocken, vor Sonnenlicht geschützt\n\nProduzent: Josef Recheis Eierteigwarenfabrik und Walzmühle GmbH, Fassergasse 8-10, 6060 Hall i. T., Österreich"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Recheis Fleckerln glutenfrei",
+   "brand": "Recheis",
+   "price_eur": 2.99,
+   "unit_price_eur": 7.48,
+   "unit": "kg",
+   "size_g": 400.0,
+   "nutrition_100g": {
+    "kcal": 359.0,
+    "fat": 1.5,
+    "satfat": 0.3,
+    "carbs": 79.0,
+    "sugar": 0.6,
+    "protein": 6.5,
+    "salt": 0.02,
+    "fiber": 2.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/36062/36062-1760698679877.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Italien",
+   "category": "Vorratsschrank > Pasta, Reis & Beilagen > Pasta",
+   "source_url": "https://www.gurkerl.at/36062-recheis-fleckerln-glutenfrei",
+   "source_id": "36062",
+   "fetched_at": "2026-10-13T02:14:43+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Maismehl 94,9%, Reismehl 4,8%, Emulgator: E471."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Pappudia überbackene Schinkenfleckerl",
+   "brand": "Pappudia",
+   "price_eur": 6.49,
+   "unit_price_eur": 9.27,
+   "unit": "kg",
+   "size_g": 700.0,
+   "nutrition_100g": {
+    "kcal": 197.0,
+    "fat": 6.3,
+    "satfat": 1.2,
+    "carbs": 25.0,
+    "sugar": 3.8,
+    "protein": 9.4,
+    "salt": 1.9,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/44202/44202-1756119276834841011.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "EU",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Traditionelle Hausmannskost",
+   "source_url": "https://www.gurkerl.at/44202-pappudia-ueberbackene-schinkenfleckerl",
+   "source_id": "44202",
+   "fetched_at": "2026-10-13T02:14:43+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Nudeln 32 % (WEIZENmehl, Wasser), MILCH, geräuchertes Schweinefleisch 18 % (Schweinefleisch 95 %, Trinkwasser, Speisesalz, Knoblauch, Maltodextrin, Hämoglobin, Stabilisatoren: Diphosphat, Natrium- und Kaliumtriphosphate, Verdickungsmittel: Eucheumagummi, Zucker, Antioxidationsmittel: Natriumerythorbat, Aroma, Farbstoff: Ammoniumkaramell, Konservierungsstoff: Natriumnitrit, Raucharoma), Wasser, EIERMELANGE 10 % (EIER, Säureregulator: Zitronensäure), Rapsöl, Speisesalz, Gewürze."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Gissinger Getrüffelte Rahmschinkenfleckerl",
+   "brand": "Gissinger",
+   "price_eur": 11.69,
+   "unit_price_eur": 22.99,
+   "unit": "kg",
+   "size_g": 510.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/21850/21850-1633009815374.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Traditionelle Hausmannskost",
+   "source_url": "https://www.gurkerl.at/21850-gissinger-getrueffelte-rahmschinkenfleckerl",
+   "source_id": "21850",
+   "fetched_at": "2026-10-13T02:14:43+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Fleckerl, Trüffelbeinschinken, Zwiebel, SCHLAGOBERS, Zucchini, BUTTER, Gewürze"
+   }
+  }
+ ]
+}

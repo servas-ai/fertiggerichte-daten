@@ -1,0 +1,413 @@
+{
+ "count": 13,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Felix gefüllte Paprika",
+   "brand": "Felix",
+   "price_eur": 6.69,
+   "unit_price_eur": 8.36,
+   "unit": "kg",
+   "size_g": 800.0,
+   "nutrition_100g": {
+    "kcal": 88.0,
+    "fat": 3.9,
+    "satfat": 1.3,
+    "carbs": 10.0,
+    "sugar": 5.3,
+    "protein": 26.0,
+    "salt": 1.0,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/37023/37023-1732263259757.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Vorratsschrank > Fertiggerichte > Menüs & Dosengerichte",
+   "source_url": "https://www.gurkerl.at/37023-felix-gefuellte-paprika",
+   "source_id": "37023",
+   "fetched_at": "2026-10-13T02:09:15+00:00",
+   "extra": {
+    "ingredients": "Tomaten 46%, Paprika 23%, Schweine- und Rindfleisch \n10%, Wasser, Reis, Zucker, Maismehl, Zwiebeln, Salz, \nRapsöl, modifizierte Stärke, Kräuter, Gewürze."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Inzersdorfer Gefüllte Paprika",
+   "brand": "Inzersdorfer",
+   "price_eur": 5.69,
+   "unit_price_eur": 14.23,
+   "unit": "kg",
+   "size_g": 400.0,
+   "nutrition_100g": {
+    "kcal": 116.0,
+    "fat": 6.1,
+    "satfat": 2.3,
+    "carbs": 11.0,
+    "sugar": 4.5,
+    "protein": 3.8,
+    "salt": 1.4,
+    "fiber": 0.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/5970/5970-1603912648.jpg",
+   "producer": "Maresi Austria GmbH, Hietzinger Hauptstrasse 119-121, 1130 Wien, Österreich",
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Vorratsschrank > Fertiggerichte > Menüs & Dosengerichte",
+   "source_url": "https://www.gurkerl.at/5970-inzersdorfer-gefuellte-paprika",
+   "source_id": "5970",
+   "fetched_at": "2026-10-13T02:09:15+00:00",
+   "extra": {
+    "ingredients": "Gefüllte Paprika\nZutaten: Tomatensauce: Wasser, Tomatenpulpe, Zucker, WEIZENMEHL, Sonnenblumenöl, Tomatenmark, modifi zierte Stärke, Gewürze, MAGERMILCHPULVER, Speisesalz, Aroma, Verdickungsmittel: Carrageen, Guarkernmehl, Traubenzucker, Geschmacksverstärker: Mononatriumglutamat, Gefüllte Paprikaschoten: Paprikaschoten 22%, Schweine- und Rindfl eisch 16%, Reis, Wasser, Semmelbrösel (WEIZENMEHL, Speisesalz, Hefe), Zwiebel, Speisesalz, Knoblauch, Gewürze, Traubenzucker, Gewürzextrakt, Aroma.\n\nKühl und trocken lagern\n\nProduzent: Maresi Austria GmbH, Hietzinger Hauptstrasse 119-121, 1130 Wien, Österreich"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Die Käsemacher Peppersweet gefüllt mit Frischkäse",
+   "brand": "Die Käsemacher",
+   "price_eur": 4.29,
+   "unit_price_eur": 30.64,
+   "unit": "kg",
+   "size_g": 140.0,
+   "nutrition_100g": {
+    "kcal": 232.0,
+    "fat": 16.0,
+    "satfat": 6.8,
+    "carbs": 13.0,
+    "sugar": 13.0,
+    "protein": 7.4,
+    "salt": 0.84,
+    "fiber": 0.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/5783/5783-1603223342968.jpg",
+   "producer": "",
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Antipasti & Co. > Tomaten & Paprika",
+   "source_url": "https://www.gurkerl.at/5783-die-kaesemacher-peppersweet-gefuellt-mit-frischkaese",
+   "source_id": "5783",
+   "fetched_at": "2026-10-13T02:09:15+00:00",
+   "extra": {
+    "ingredients": "Kirschpaprika (Peppersweet) gefüllt mit Frischkäsezubereitung mind. 5% Fett i. Tr. in Rapsöl.\n\nGekühlt (bei 4-7 °C) lagern, nach dem Öffnen alsbaldigst verbrauchen.\n\nZutaten: 44% Rapsöl, 30% Kirschpaprika (Peppersweet), 26% Frischkäsezubereitung mind. 45% Fett i. Tr. (Frischkäse aus pasteurisierter KUH- und SCHAFMILCH, Speisesalz, Gewürze, Verdickungsmittel: Guarkernmehl, Konservierungsstoff: Kaliumsorbat).\n\nGlutenfrei.\nUnter Schutzatmosphäre verpackt.\n\nKontaktdaten:\nDie Käsemacher GmbH, Europastraße 5, 3902 Vitis, Österreich, +43 2841 80045, office@kaesemacher.at"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Die Käsemacher Peppersweet gefüllt mit Frischkäse",
+   "brand": "Die Käsemacher",
+   "price_eur": 15.99,
+   "unit_price_eur": 22.84,
+   "unit": "kg",
+   "size_g": 700.0,
+   "nutrition_100g": {
+    "kcal": 232.0,
+    "fat": 16.0,
+    "satfat": 6.8,
+    "carbs": 13.0,
+    "sugar": 13.0,
+    "protein": 7.4,
+    "salt": 0.84,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/47843/47843-1777296877742788556.jpg",
+   "producer": "",
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Antipasti & Co. > Tomaten & Paprika",
+   "source_url": "https://www.gurkerl.at/47843-die-kaesemacher-peppersweet-gefuellt-mit-frischkaese",
+   "source_id": "47843",
+   "fetched_at": "2026-10-13T02:09:15+00:00",
+   "extra": {
+    "ingredients": "Kirschpaprika (Peppersweet) gefüllt mit Frischkäsezubereitung mind. 5% Fett i. Tr. in Rapsöl.\n\nGekühlt (bei 4-7 °C) lagern, nach dem Öffnen alsbaldigst verbrauchen.\n\nZutaten: 43% Rapsöl, 29% Kirschpaprika, 28% Frischkäsezubereitung mindestens 45% Fett i. Tr. (Frischkäse aus pasteurisierter KUH- und SCHAFMILCH, Speisesalz, Gewürze, Verdickungsmittel: Guarkernmehl, Konservierungsstoff: Kaliumsorbat).\n\nGlutenfrei.\nUnter Schutzatmosphäre verpackt.\n\nKontaktdaten:\nDie Käsemacher GmbH, Europastraße 5, 3902 Vitis, Österreich, +43 2841 80045, office@kaesemacher.at"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Pappudia Kirschpaprika gefüllt mit Käse",
+   "brand": "Pappudia Handgemacht",
+   "price_eur": 5.89,
+   "unit_price_eur": 39.27,
+   "unit": "kg",
+   "size_g": 150.0,
+   "nutrition_100g": {
+    "kcal": 160.0,
+    "fat": 13.0,
+    "satfat": 4.1,
+    "carbs": 7.0,
+    "sugar": 4.2,
+    "protein": 4.1,
+    "salt": 1.2,
+    "fiber": 0.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/42207/42207-1748356672169832829.png",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Tschechische Republik",
+   "category": "Kühlregal > Antipasti & Co. > Tomaten & Paprika",
+   "source_url": "https://www.gurkerl.at/42207-pappudia-kirschpaprika-gefuellt-mit-kaese",
+   "source_id": "42207",
+   "fetched_at": "2026-10-13T02:09:15+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Paprika 50 %, Käse 43 % (Milch, Sahne, Tapiokastärke, Speisesalz, Käsekulturen), Rapsöl, Petersilie, Zucker, Säureregulatoren (Essigsäure, Zitronensäure), Speisesalz, Festigungsmittel: Calciumchlorid, Konservierungsstoffe (Kaliumsorbat, Natriumbenzoat).\nMindestens haltbar bis: siehe Verpackung.\nLagerung bei 0 bis +7°C. Nach dem Öffnen direkt verbrauchen. \nDurchschnittliche Nährwerte pro 100 g:\nBrennwert: 669 kJ/160 kcal; Fett: 13 g; davon gesättigte Fettsäuren: 4,1 g; Kohlenhydrate: 7 g; davon Zucker: 4,2  g; Eiweiß: 4,1 g; Salz: 1,2 g."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Die Käsemacher Scharfe Pfefferoni gefüllt mit Frischkäse",
+   "brand": "Die Käsemacher",
+   "price_eur": 3.99,
+   "unit_price_eur": 28.5,
+   "unit": "kg",
+   "size_g": 140.0,
+   "nutrition_100g": {
+    "kcal": 194.0,
+    "fat": 16.0,
+    "satfat": 7.1,
+    "carbs": 3.4,
+    "sugar": 3.1,
+    "protein": 7.7,
+    "salt": 0.88,
+    "fiber": 0.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/5798/5798-1603224431833.jpg",
+   "producer": "",
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Antipasti & Co. > Tomaten & Paprika",
+   "source_url": "https://www.gurkerl.at/5798-die-kaesemacher-scharfe-pfefferoni-gefuellt-mit-frischkaese",
+   "source_id": "5798",
+   "fetched_at": "2026-10-13T02:09:15+00:00",
+   "extra": {
+    "ingredients": "Scharfe Pfefferoni gefüllt mit Frischkäsezubereitung mind. 45% Fett i. Tr. in Rapsöl.\n\nGekühlt (bei 4-7 °C) lagern, nach dem Öffnen alsbaldigst verbrauchen.\n\nZutaten: 44% Rapsöl, 29% scharfe Pfefferoni, 27% Frischkäsezubereitung mind. 45% Fett i. Tr. (Frischkäse aus pasteurisierter KUH- und SCHAFMILCH, Speisesalz, Gewürze, Verdickungsmittel: Guarkernmehl, Konservierungsstoff: Kaliumsorbat).\n\nGlutenfrei.\nUnter Schutzatmosphäre verpackt.\n\nKontaktdaten:\nDie Käsemacher GmbH, Europastraße 5, 3902 Vitis, Österreich, +43 2841 80045, office@kaesemacher.at"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "GOYA Manzanilla Oliven gefüllt mit Paprikapaste",
+   "brand": "Dobble",
+   "price_eur": 3.39,
+   "unit_price_eur": 9.85,
+   "unit": "kg",
+   "size_g": 344.0,
+   "nutrition_100g": {
+    "kcal": 144.0,
+    "fat": 15.0,
+    "satfat": 3.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "protein": 0.9,
+    "salt": 4.5,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/48670/48670-1782310792604890589.JPEG",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Spanien",
+   "category": "Vorratsschrank > Konserven & Eingelegtes > Oliven, Antipasti & Co. > Oliven",
+   "source_url": "https://www.gurkerl.at/48670-goya-manzanilla-oliven-gefuellt-mit-paprikapaste",
+   "source_id": "48670",
+   "fetched_at": "2026-10-13T02:09:15+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Grüne Manzanilla Oliven, Wasser, 11% Paprikapaste (Paprika, Wasser, Verdickungsmittel: Natriumalginat, Guarkernmehl), Salz, Säuerungsmittel Milchsäure."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Die Käsemacher Antipasti Selection Mediteraner Mix",
+   "brand": "Die Käsemacher",
+   "price_eur": 7.59,
+   "unit_price_eur": 34.5,
+   "unit": "kg",
+   "size_g": 220.0,
+   "nutrition_100g": {
+    "kcal": 239.0,
+    "fat": 19.0,
+    "satfat": 6.9,
+    "carbs": 8.4,
+    "sugar": 7.0,
+    "protein": 7.1,
+    "salt": 3.4,
+    "fiber": 0.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/6063/6063-1603227802224.jpg",
+   "producer": "",
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Antipasti & Co. > Tomaten & Paprika",
+   "source_url": "https://www.gurkerl.at/6063-die-kaesemacher-antipasti-selection-mediteraner-mix",
+   "source_id": "6063",
+   "fetched_at": "2026-10-13T02:09:15+00:00",
+   "extra": {
+    "ingredients": "Kirschpaprika mit Frischkäsefüllung mindesten 45% Fett i. Tr., getrockene Tomaten, Oliven und Schafschnittkäse in Rapsöl.\n\nGekühlt (bei 4-7 °C) lagern, nach dem Öffnen alsbaldigst verbrauchen.\n\nZutaten: 39% Rapsöl, 19% Kirschpaprika gefüllt mit Frischkäsezubereitung mind. 45% Fett i. Tr. (Frischkäse aus past. KUH- und SCHAFMILCH, Gewürze, Speisesalz, Verdickungsmittel: Guarkernmehl, Konservierungsstoff: Kaliumsorbat), 19% Oliven mariniert (Oliven, Kapern,Knoblauch, Konservierungsstoff: Kaliumsorbat ), 11% getrocknete Tomaten (Tomaten, Konservierungsstoff: SCHWEFELDIOXID, Gewürze), 11% SCHAFSCHNITTKÄSE mind. 45% Fett i. Tr., Kräuter.\n\nGlutenfrei.\nUnter Schutzatmosphäre verpackt.\n\nKontaktdaten:\nDie Käsemacher GmbH, Europastraße 5, 3902 Vitis, Österreich, +43 2841 80045, office@kaesemacher.at"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Die Käsemacher Peppersweet gefüllt mit Frischkäse",
+   "brand": "Die Käsemacher",
+   "price_eur": 4.79,
+   "unit_price_eur": 19.16,
+   "unit": "kg",
+   "size_g": 250.0,
+   "nutrition_100g": {
+    "kcal": 236.0,
+    "fat": 16.0,
+    "satfat": 5.7,
+    "carbs": 18.0,
+    "sugar": 16.0,
+    "protein": 4.4,
+    "salt": 0.43,
+    "fiber": 1.8
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/31669/31669-1702310744592.jpg",
+   "producer": "Die Käsemacher GmbH, Europastraße 5, 3902 Vitis, Österreich, +43 2841 80045, office@kaesemacher.at",
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Vorratsschrank > Konserven & Eingelegtes > Oliven, Antipasti & Co. > Antipasti & Co.",
+   "source_url": "https://www.gurkerl.at/31669-die-kaesemacher-peppersweet-gefuellt-mit-frischkaese",
+   "source_id": "31669",
+   "fetched_at": "2026-10-13T02:09:15+00:00",
+   "extra": {
+    "ingredients": "Zutaten: 44% Rapsöl, 30% Kirschpaprika (Peppersweet),  26% Frischkäsezubereitung mind. 40% Fett i. Tr. (FRISCHKÄSE, Speisesalz, Gewürze, Verdickungsmittel: Guarkernmehl, modifizierte Stärke)\n\nvon +2°C bis +25°C lagern; nach dem Öffnen: gekühlt lagern, innerhalb von 3 Tagen aufbrauchen\n\nKontaktdaten: Die Käsemacher GmbH, Europastraße 5, 3902 Vitis, Österreich, +43 2841 80045, office@kaesemacher.at"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Hengstenberg Smoky Burger Relish",
+   "brand": "Hengstenberg",
+   "price_eur": 2.79,
+   "unit_price_eur": 11.16,
+   "unit": "kg",
+   "size_g": 250.0,
+   "nutrition_100g": {
+    "kcal": 52.0,
+    "fat": 0.5,
+    "satfat": 0.1,
+    "carbs": 9.9,
+    "sugar": 7.5,
+    "protein": 1.5,
+    "salt": 1.4,
+    "fiber": 1.8
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/48668/48668-1782310792459909691.JPEG",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Vorratsschrank > Ketchup, Senf & Saucen > Fleisch & Grillsaucen",
+   "source_url": "https://www.gurkerl.at/48668-hengstenberg-smoky-burger-relish",
+   "source_id": "48668",
+   "fetched_at": "2026-10-13T02:09:15+00:00",
+   "extra": {
+    "ingredients": "Zutaten: 50 % Sauerkraut (Weißkohl, Speisesalz), Wasser, Tomatenmark 2-fach konzentriert, Zucker, Speisesalz, Speisewürze, Gemüseextrakte (Karotte, SELLERIE, Lauch), Chilipulver, natürliche Aromen, geräuchertes Speisesalz (Speisesalz, Rauch), modifizierte Stärke, Antioxidationsmittel Ascorbinsäure, Farbstoff Ammonsulfit-Zuckerkulör."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Die Käsemacher Sunnypepp gefüllt mit Frischkäse",
+   "brand": "Die Käsemacher",
+   "price_eur": 4.99,
+   "unit_price_eur": 19.96,
+   "unit": "kg",
+   "size_g": 250.0,
+   "nutrition_100g": {
+    "kcal": 220.0,
+    "fat": 16.0,
+    "satfat": 5.7,
+    "carbs": 14.0,
+    "sugar": 12.0,
+    "protein": 4.4,
+    "salt": 0.43,
+    "fiber": 1.8
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/31671/31671-1702311201981.jpg",
+   "producer": "Die Käsemacher GmbH, Europastraße 5, 3902 Vitis, Österreich, +43 2841 80045, office@kaesemacher.at",
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Vorratsschrank > Konserven & Eingelegtes > Oliven, Antipasti & Co. > Antipasti & Co.",
+   "source_url": "https://www.gurkerl.at/31671-die-kaesemacher-sunnypepp-gefuellt-mit-frischkaese",
+   "source_id": "31671",
+   "fetched_at": "2026-10-13T02:09:15+00:00",
+   "extra": {
+    "ingredients": "Kirschpaprika (Sunnypepp) gefüllt mit Frischkäsezubereitung \n\nZutaten: 44% Rapsöl, 30% Kirschpaprika (Sunnypepp),  26% Frischkäsezubereitung mind. 40% Fett i. Tr. (FRISCHKÄSE, Speisesalz, Gewürze, Verdickungsmittel: Guarkernmehl, modifizierte Stärke).\n\nvon +2°C bis +25°C lagern; nach dem Öffnen: gekühlt lagern, innerhalb von 3 Tagen aufbrauchen\n\nKontaktdaten: Die Käsemacher GmbH, Europastraße 5, 3902 Vitis, Österreich, +43 2841 80045, office@kaesemacher.at"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Hengstenberg Hot Taco Relish",
+   "brand": "Hengstenberg",
+   "price_eur": 2.79,
+   "unit_price_eur": 11.16,
+   "unit": "kg",
+   "size_g": 250.0,
+   "nutrition_100g": {
+    "kcal": 54.0,
+    "fat": 0.5,
+    "satfat": 0.1,
+    "carbs": 10.0,
+    "sugar": 8.2,
+    "protein": 1.4,
+    "salt": 1.4,
+    "fiber": 1.7
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/48669/48669-1782310793567521785.JPEG",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Vorratsschrank > Ketchup, Senf & Saucen > Fleisch & Grillsaucen",
+   "source_url": "https://www.gurkerl.at/48669-hengstenberg-hot-taco-relish",
+   "source_id": "48669",
+   "fetched_at": "2026-10-13T02:09:15+00:00",
+   "extra": {
+    "ingredients": "Zutaten: 44 % Sauerkraut (Weißkohl, Speisesalz), Wasser, Tomatenmark 2-fach konzentriert, 6 % Jalapeñoringe (Jalapeñoringe (milchsauer vergoren), Wasser, Branntweinessig, Speisesalz, Konservierungsstoff NATRIUMMETABISULFIT), Zucker, Speisesalz, Speisewürze, Gemüseextrakte (Karotte, SELLERIE, Lauch), Chilipulver, natürliche Aromen, Kurkuma, modifizierte Stärke, Antioxidationsmittel Ascorbinsäure."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Gissinger Gefüllte Paprika",
+   "brand": "Gissinger",
+   "price_eur": 10.88,
+   "unit_price_eur": 19.99,
+   "unit": "kg",
+   "size_g": 540.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/21849/21849-1633686320939.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Traditionelle Hausmannskost",
+   "source_url": "https://www.gurkerl.at/21849-gissinger-gefuellte-paprika",
+   "source_id": "21849",
+   "fetched_at": "2026-10-13T02:09:15+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Faschiertes, Paprika, Reis, Tomatensauce, WEIZENMEHL, BUTTER, Suppe, Salz, Gewürze"
+   }
+  }
+ ]
+}

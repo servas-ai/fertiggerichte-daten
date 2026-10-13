@@ -1,0 +1,674 @@
+[
+{
+"i": 0,
+"file": "cand/basenbox_0.jpeg",
+"w": 1200,
+"h": 799
+},
+{
+"i": 1,
+"file": "cand/basenbox_1.jpeg",
+"w": 300,
+"h": 200
+},
+{
+"i": 2,
+"file": "cand/basenbox_2.png",
+"w": 192,
+"h": 192
+},
+{
+"i": 3,
+"file": "cand/basenbox_3.png",
+"w": 32,
+"h": 32
+},
+{
+"i": 4,
+"file": "cand/basenbox_4.png",
+"w": 192,
+"h": 192
+},
+{
+"i": 5,
+"file": "cand/basenbox_5.png",
+"w": 180,
+"h": 180
+},
+{
+"i": 6,
+"file": "cand/bauernland_0.png",
+"w": 200,
+"h": 68
+},
+{
+"i": 7,
+"file": "cand/bauernland_1.png",
+"w": 500,
+"h": 622
+},
+{
+"i": 8,
+"file": "cand/bauernland_2.jpeg",
+"w": 1181,
+"h": 703
+},
+{
+"i": 9,
+"file": "cand/bauernland_3.png",
+"w": 300,
+"h": 215
+},
+{
+"i": 10,
+"file": "cand/bauernland_4.png",
+"w": 300,
+"h": 202
+},
+{
+"i": 11,
+"file": "cand/bauernland_5.png",
+"w": 400,
+"h": 135
+},
+{
+"i": 12,
+"file": "cand/berger_0.svg",
+"w": 400,
+"h": 283
+},
+{
+"i": 13,
+"file": "cand/berger_1.svg",
+"w": 400,
+"h": 436
+},
+{
+"i": 14,
+"file": "cand/berger_2.svg",
+"w": 400,
+"h": 276
+},
+{
+"i": 15,
+"file": "cand/berger_3.svg",
+"w": 400,
+"h": 150
+},
+{
+"i": 16,
+"file": "cand/berger_4.webp",
+"w": 260,
+"h": 82
+},
+{
+"i": 17,
+"file": "cand/berger_5.webp",
+"w": 170,
+"h": 146
+},
+{
+"i": 18,
+"file": "cand/bibigo_0.jpeg",
+"w": 1200,
+"h": 630
+},
+{
+"i": 19,
+"file": "cand/bibigo_1.svg",
+"w": 400,
+"h": 294
+},
+{
+"i": 20,
+"file": "cand/bibigo_3.svg",
+"w": 400,
+"h": 294
+},
+{
+"i": 21,
+"file": "cand/brajlovic_0.jpeg",
+"w": 1200,
+"h": 630
+},
+{
+"i": 22,
+"file": "cand/brajlovic_1.png",
+"w": 192,
+"h": 192
+},
+{
+"i": 23,
+"file": "cand/brajlovic_2.png",
+"w": 180,
+"h": 180
+},
+{
+"i": 24,
+"file": "cand/buerger_0.svg",
+"w": 400,
+"h": 83
+},
+{
+"i": 25,
+"file": "cand/buerger_1.webp",
+"w": 1600,
+"h": 1200
+},
+{
+"i": 26,
+"file": "cand/buerger_2.svg",
+"w": 400,
+"h": 400
+},
+{
+"i": 27,
+"file": "cand/buerger_3.png",
+"w": 0,
+"h": 0
+},
+{
+"i": 28,
+"file": "cand/buerger_4.svg",
+"w": 400,
+"h": 400
+},
+{
+"i": 29,
+"file": "cand/buerger_5.png",
+"w": 140,
+"h": 140
+},
+{
+"i": 30,
+"file": "cand/cm_andechser.svg",
+"w": 400,
+"h": 167
+},
+{
+"i": 31,
+"file": "cand/cm_danone.png",
+"w": 605,
+"h": 131
+},
+{
+"i": 32,
+"file": "cand/cm_danone2.png",
+"w": 604,
+"h": 202
+},
+{
+"i": 33,
+"file": "cand/cm_eismann.svg",
+"w": 400,
+"h": 83
+},
+{
+"i": 34,
+"file": "cand/cm_galbani.png",
+"w": 914,
+"h": 653
+},
+{
+"i": 35,
+"file": "cand/cm_heinz.svg",
+"w": 400,
+"h": 164
+},
+{
+"i": 36,
+"file": "cand/cm_heinz2.svg",
+"w": 400,
+"h": 179
+},
+{
+"i": 37,
+"file": "cand/cm_hengstenberg.tif",
+"w": 0,
+"h": 0
+},
+{
+"i": 38,
+"file": "cand/cm_hilcona.svg",
+"w": 400,
+"h": 308
+},
+{
+"i": 39,
+"file": "cand/cm_kotanyi.svg",
+"w": 400,
+"h": 135
+},
+{
+"i": 40,
+"file": "cand/cm_nongshim.svg",
+"w": 400,
+"h": 129
+},
+{
+"i": 41,
+"file": "cand/cm_perutnina.svg",
+"w": 400,
+"h": 400
+},
+{
+"i": 42,
+"file": "cand/cm_riso-scotti.jpg",
+"w": 2536,
+"h": 1706
+},
+{
+"i": 43,
+"file": "cand/cm_salzburgmilch.jpeg",
+"w": 2974,
+"h": 1047
+},
+{
+"i": 44,
+"file": "cand/cm_uncle-bens.svg",
+"w": 400,
+"h": 110
+},
+{
+"i": 45,
+"file": "cand/cm_weight-watchers.svg",
+"w": 400,
+"h": 77
+},
+{
+"i": 46,
+"file": "cand/delamaris_0.png",
+"w": 236,
+"h": 65
+},
+{
+"i": 47,
+"file": "cand/delamaris_1.svg",
+"w": 400,
+"h": 106
+},
+{
+"i": 48,
+"file": "cand/delamaris_2.svg",
+"w": 400,
+"h": 125
+},
+{
+"i": 49,
+"file": "cand/delamaris_3.png",
+"w": 32,
+"h": 32
+},
+{
+"i": 50,
+"file": "cand/delamaris_4.png",
+"w": 192,
+"h": 192
+},
+{
+"i": 51,
+"file": "cand/delamaris_5.png",
+"w": 180,
+"h": 180
+},
+{
+"i": 52,
+"file": "cand/dimmidisi_0.jpeg",
+"w": 300,
+"h": 300
+},
+{
+"i": 53,
+"file": "cand/dimmidisi_1.png",
+"w": 300,
+"h": 81
+},
+{
+"i": 54,
+"file": "cand/dimmidisi_2.png",
+"w": 1,
+"h": 1
+},
+{
+"i": 55,
+"file": "cand/dimmidisi_3.png",
+"w": 16,
+"h": 16
+},
+{
+"i": 56,
+"file": "cand/dimmidisi_4.png",
+"w": 599,
+"h": 162
+},
+{
+"i": 57,
+"file": "cand/dimmidisi_5.png",
+"w": 318,
+"h": 118
+},
+{
+"i": 58,
+"file": "cand/findus_0.svg",
+"w": 0,
+"h": 0
+},
+{
+"i": 59,
+"file": "cand/findus_2.png",
+"w": 180,
+"h": 180
+},
+{
+"i": 60,
+"file": "cand/golfera_0.webp",
+"w": 1920,
+"h": 928
+},
+{
+"i": 61,
+"file": "cand/golfera_1.webp",
+"w": 223,
+"h": 75
+},
+{
+"i": 62,
+"file": "cand/golfera_2.webp",
+"w": 1919,
+"h": 649
+},
+{
+"i": 63,
+"file": "cand/golfera_3.webp",
+"w": 810,
+"h": 343
+},
+{
+"i": 64,
+"file": "cand/golfera_4.webp",
+"w": 246,
+"h": 83
+},
+{
+"i": 65,
+"file": "cand/golfera_5.webp",
+"w": 32,
+"h": 32
+},
+{
+"i": 66,
+"file": "cand/greenforce_0.png",
+"w": 1500,
+"h": 685
+},
+{
+"i": 67,
+"file": "cand/greenforce_1.png",
+"w": 300,
+"h": 150
+},
+{
+"i": 68,
+"file": "cand/gue_0.png",
+"w": 2400,
+"h": 1256
+},
+{
+"i": 69,
+"file": "cand/heinz_0.png",
+"w": 2000,
+"h": 839
+},
+{
+"i": 70,
+"file": "cand/jeden-tag_0.svg",
+"w": 400,
+"h": 130
+},
+{
+"i": 71,
+"file": "cand/jeden-tag_1.png",
+"w": 200,
+"h": 182
+},
+{
+"i": 72,
+"file": "cand/jeden-tag_2.png",
+"w": 180,
+"h": 180
+},
+{
+"i": 73,
+"file": "cand/jeden-tag_3.png",
+"w": 32,
+"h": 32
+},
+{
+"i": 74,
+"file": "cand/jeden-tag_4.png",
+"w": 16,
+"h": 16
+},
+{
+"i": 75,
+"file": "cand/la-fermiere_0.jpeg",
+"w": 1200,
+"h": 630
+},
+{
+"i": 76,
+"file": "cand/la-fermiere_1.svg",
+"w": 400,
+"h": 203
+},
+{
+"i": 77,
+"file": "cand/la-fermiere_2.png",
+"w": 150,
+"h": 150
+},
+{
+"i": 78,
+"file": "cand/la-fermiere_3.png",
+"w": 300,
+"h": 300
+},
+{
+"i": 79,
+"file": "cand/meica_0.png",
+"w": 209,
+"h": 133
+},
+{
+"i": 80,
+"file": "cand/meica_2.png",
+"w": 57,
+"h": 57
+},
+{
+"i": 81,
+"file": "cand/meica_3.png",
+"w": 60,
+"h": 60
+},
+{
+"i": 82,
+"file": "cand/meica_4.png",
+"w": 72,
+"h": 72
+},
+{
+"i": 83,
+"file": "cand/meica_5.png",
+"w": 76,
+"h": 76
+},
+{
+"i": 84,
+"file": "cand/miil_0.png",
+"w": 143,
+"h": 45
+},
+{
+"i": 85,
+"file": "cand/neni_0.png",
+"w": 990,
+"h": 630
+},
+{
+"i": 86,
+"file": "cand/neni_1.jpeg",
+"w": 1200,
+"h": 630
+},
+{
+"i": 87,
+"file": "cand/neni_3.svg",
+"w": 400,
+"h": 112
+},
+{
+"i": 88,
+"file": "cand/neni_4.png",
+"w": 650,
+"h": 650
+},
+{
+"i": 89,
+"file": "cand/neni_5.png",
+"w": 12934,
+"h": 5418
+},
+{
+"i": 90,
+"file": "cand/noem_0.jpeg",
+"w": 1200,
+"h": 630
+},
+{
+"i": 91,
+"file": "cand/noem_1.png",
+"w": 1400,
+"h": 1284
+},
+{
+"i": 92,
+"file": "cand/noem_2.png",
+"w": 180,
+"h": 180
+},
+{
+"i": 93,
+"file": "cand/noem_3.png",
+"w": 32,
+"h": 32
+},
+{
+"i": 94,
+"file": "cand/noem_4.png",
+"w": 16,
+"h": 16
+},
+{
+"i": 95,
+"file": "cand/noem_5.png",
+"w": 512,
+"h": 512
+},
+{
+"i": 96,
+"file": "cand/oyakata_0.png",
+"w": 308,
+"h": 124
+},
+{
+"i": 97,
+"file": "cand/oyakata_1.png",
+"w": 624,
+"h": 350
+},
+{
+"i": 98,
+"file": "cand/oyakata_2.png",
+"w": 155,
+"h": 65
+},
+{
+"i": 99,
+"file": "cand/stadtkueche_0.png",
+"w": 180,
+"h": 60
+},
+{
+"i": 100,
+"file": "cand/wiegert_0.png",
+"w": 1920,
+"h": 1080
+},
+{
+"i": 101,
+"file": "cand/wiegert_1.png",
+"w": 1024,
+"h": 553
+},
+{
+"i": 102,
+"file": "cand/wiegert_2.png",
+"w": 32,
+"h": 32
+},
+{
+"i": 103,
+"file": "cand/wiegert_3.png",
+"w": 192,
+"h": 192
+},
+{
+"i": 104,
+"file": "cand/wiegert_4.png",
+"w": 180,
+"h": 180
+},
+{
+"i": 105,
+"file": "cand/wiegert_5.png",
+"w": 2272,
+"h": 1227
+},
+{
+"i": 106,
+"file": "cand/zurueck-zum-ursprung_0.jpeg",
+"w": 1200,
+"h": 628
+},
+{
+"i": 107,
+"file": "cand/zurueck-zum-ursprung_1.svg",
+"w": 400,
+"h": 238
+},
+{
+"i": 108,
+"file": "cand/zurueck-zum-ursprung_2.png",
+"w": 111,
+"h": 97
+},
+{
+"i": 109,
+"file": "cand/zurueck-zum-ursprung_3.png",
+"w": 89,
+"h": 107
+},
+{
+"i": 110,
+"file": "cand/zurueck-zum-ursprung_4.png",
+"w": 84,
+"h": 74
+},
+{
+"i": 111,
+"file": "cand/zurueck-zum-ursprung_5.png",
+"w": 120,
+"h": 105
+}
+]

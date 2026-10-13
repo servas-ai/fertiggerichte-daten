@@ -1,0 +1,38 @@
+{
+ "count": 1,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Henglein Schupfnudeln",
+   "brand": "Henglein",
+   "price_eur": 2.79,
+   "unit_price_eur": 5.58,
+   "unit": "kg",
+   "size_g": 500.0,
+   "nutrition_100g": {
+    "kcal": 148.0,
+    "fat": 1.2,
+    "satfat": 0.2,
+    "carbs": 30.0,
+    "sugar": 2.5,
+    "protein": 3.0,
+    "salt": 1.1,
+    "fiber": 2.4
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/20142/20142-1628256720632.jpg",
+   "producer": "Hans Henglein & Sohn GmbH, Beerbachstraße 19, 91183 Abenberg / Wassermungenau, Tel:  +49 9873 18700, Fax: +49 9873 1850, Mail: info@henglein.de",
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Kühlregal > Schnelle Küche > Frische Pasta, Spätzle & Knödel > Knödel, Spätzle & Co",
+   "source_url": "https://www.gurkerl.at/20142-henglein-schupfnudeln",
+   "source_id": "20142",
+   "fetched_at": "2026-10-13T02:05:33+00:00",
+   "extra": {
+    "ingredients": "Schupfnudeln.\n\nZutaten: Speisekartoffeln 64%, Kartoffelstärke, WEIZENMEHL, VOLLEI*, \n Speisesalz, Rapsöl, Verdickungsmittel: Guarkernmehl, Säuerungsmittel: \n Citronensäure, Ascorbinsäure; Gewürzextrakte (mit SELLERIE).\n  * Eier aus Bodenhaltung\n\nGekühlt bei max. + 8 °C lagern. Nach dem Öffnen kühl und verschlossen lagern und innerhalb von 1-2 Tagen verbrauchen.\n\nKontakt: Hans Henglein & Sohn GmbH, Beerbachstraße 19, 91183 Abenberg / Wassermungenau, Tel:  +49 9873 18700, Fax: +49 9873 1850, Mail: info@henglein.de"
+   }
+  }
+ ]
+}

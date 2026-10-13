@@ -1,0 +1,194 @@
+{
+ "count": 7,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Berger Faschiertes gemischt",
+   "brand": "Berger",
+   "price_eur": 6.99,
+   "unit_price_eur": 13.98,
+   "unit": "kg",
+   "size_g": 500.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/9361/9361-1646489209608.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Fleisch & Fisch > Schwein > Faschiertes, Burger & Co",
+   "source_url": "https://www.gurkerl.at/9361-berger-faschiertes-gemischt",
+   "source_id": "9361",
+   "fetched_at": "2026-10-13T02:09:36+00:00",
+   "extra": {
+    "ingredients": "Zutaten: 60% Schweinefleisch, 40% Rindfleisch"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Billie Green Vegane Frikadellen",
+   "brand": "Billie Green",
+   "price_eur": 3.99,
+   "unit_price_eur": 22.17,
+   "unit": "kg",
+   "size_g": 180.0,
+   "nutrition_100g": {
+    "kcal": 234.0,
+    "fat": 11.0,
+    "satfat": 0.8,
+    "carbs": 6.8,
+    "sugar": 3.8,
+    "protein": 26.0,
+    "salt": 2.5,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/46789/46789-1770208718458167917.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Fleisch & Fisch > Fleischlose Alternativen",
+   "source_url": "https://www.gurkerl.at/46789-billie-green-vegane-frikadellen",
+   "source_id": "46789",
+   "fetched_at": "2026-10-13T02:09:36+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Rehydriertes WEIZENPROTEIN (Trinkwasser 36,5%, WEIZENPROTEIN 18,6%), Würzmittel (Weißbrotgranulat (WEIZENMEHL, Speisesalz, Hefe); Zwiebeln; Hefeextrakt; Reismehl; Speisesalz; Zucker; natürliches Aroma; Gewürze), Zwiebeln, Texturiertes WEIZENPROTEIN (WEIZENPROTEIN, WEIZENMEHL, Erbsenfaser), Rapsöl, natürliches Aroma, Knoblauchpaste, Zwiebelpaste (Zwiebeln, Speisesalz), Petersilie, gerösteter Maisextrakt, Speisesalz. Kann Spuren von EI, SOJA, MILCH und SENF enthalten."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "GREENFORCE Frische Mini-Frikadellen VEGAN",
+   "brand": "GREENFORCE",
+   "price_eur": 3.59,
+   "unit_price_eur": 19.94,
+   "unit": "kg",
+   "size_g": 180.0,
+   "nutrition_100g": {
+    "kcal": 221.0,
+    "fat": 14.0,
+    "satfat": 1.1,
+    "carbs": 4.9,
+    "sugar": 0.7,
+    "protein": 16.0,
+    "salt": 1.5,
+    "fiber": 5.7
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/26414/26414-1777383836494.jpg",
+   "producer": "GREENFORCE FUTURE FOOD AG, Tal 12, 80331 München, +49 89 413259088, service@greenforce.com",
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Traditionelle Hausmannskost",
+   "source_url": "https://www.gurkerl.at/26414-greenforce-frische-mini-frikadellen-vegan",
+   "source_id": "26414",
+   "fetched_at": "2026-10-13T02:09:36+00:00",
+   "extra": {
+    "ingredients": "Vegane Mini-Frikadellen auf Erbsen-Basis.\n\nZutaten: Trinkwasser, 16% Sojaprotein, Zwiebel, Rapsöl, Erbsenfaser, Verdickungsmittel: Methylcellulose; Kartoffelstärke, Salz, Maisgranulat, natürliche Aromen, Säureregulatoren: Kaliumlactat, Natriumacetate; Petersilie, Gewürze, Karamellzuckersirup, Kräuter. \nGekühlt bei max 7°C lagern.\n\nKontakt: GREENFORCE FUTURE FOOD AG, Tal 12, 80331 München, +49 89 413259088, service@greenforce.com"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "meineWeideGans Gänse Butterschnitzel",
+   "brand": "meineWeideGans",
+   "price_eur": 14.99,
+   "unit_price_eur": 74.95,
+   "unit": "kg",
+   "size_g": 200.0,
+   "nutrition_100g": {
+    "kcal": 263.0,
+    "fat": 11.0,
+    "satfat": 3.5,
+    "carbs": 10.0,
+    "sugar": 2.0,
+    "protein": 19.0,
+    "salt": 1.1,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/45608/45608-1761044496935.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Fleisch & Fisch > Geflügel > Schnitzel & Co",
+   "source_url": "https://www.gurkerl.at/45608-meineweidegans-gaense-butterschnitzel",
+   "source_id": "45608",
+   "fetched_at": "2026-10-13T02:09:36+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Gänsefleisch (74%), MILCH, Knödelbrot (WEIZENMEHL, Hefe, Speisesalz), VOLLEI (HUHNVOLLEI, Säuerungsmittel: Citronensäure), SENFSAAT (Weingeistessig, Zucker, Salz), Gewürze, naturliches Aroma"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Gissinger Faschierte Laibchen",
+   "brand": "Gissinger",
+   "price_eur": 5.2,
+   "unit_price_eur": 22.49,
+   "unit": "kg",
+   "size_g": 230.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/45895/45895-1762334597405.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Traditionelle Hausmannskost",
+   "source_url": "https://www.gurkerl.at/45895-gissinger-faschierte-laibchen",
+   "source_id": "45895",
+   "fetched_at": "2026-10-13T02:09:36+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Schweinefleisch, Wasser, Paniermehl (WEIZENMEHL, Salz), Salz, Gewürze"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "BIO Faschiertes gemischt",
+   "brand": "Berger",
+   "price_eur": 7.29,
+   "unit_price_eur": 22.09,
+   "unit": "kg",
+   "size_g": 330.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/17561/17561-1646487557035.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Fleisch & Fisch > Schwein > Faschiertes, Burger & Co",
+   "source_url": "https://www.gurkerl.at/17561-bio-faschiertes-gemischt",
+   "source_id": "17561",
+   "fetched_at": "2026-10-13T02:09:36+00:00",
+   "extra": {
+    "ingredients": "Zutaten: 60% Schweinefleisch*, 40% Rindfleisch*\n*= aus kontrolliert biologischer Landwirtschaft"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Faschiertes vom Rind",
+   "brand": "Grossfurtner",
+   "price_eur": 7.59,
+   "unit_price_eur": 18.98,
+   "unit": "kg",
+   "size_g": 400.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/41363/41363-1745990824769.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Fleisch & Fisch > Rind > Faschiertes, Burger & Co",
+   "source_url": "https://www.gurkerl.at/41363-faschiertes-vom-rind",
+   "source_id": "41363",
+   "fetched_at": "2026-10-13T02:09:36+00:00",
+   "extra": {
+    "ingredients": "Zutaten: 100% Rindfleisch aus Östereich"
+   }
+  }
+ ]
+}

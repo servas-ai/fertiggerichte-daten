@@ -1,0 +1,102 @@
+{
+ "count": 3,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Iglo 3 Riesen-Germknödel (tiefgekühlt)",
+   "brand": "Iglo",
+   "price_eur": 5.49,
+   "unit_price_eur": 10.98,
+   "unit": "kg",
+   "size_g": 500.0,
+   "nutrition_100g": {
+    "kcal": 256.0,
+    "fat": 4.0,
+    "satfat": 0.4,
+    "carbs": 47.0,
+    "sugar": 17.0,
+    "protein": 6.4,
+    "salt": 0.8,
+    "fiber": 3.8
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/5895/5895-1681460310418.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "EU",
+   "category": "Tiefkühlprodukte > Mehlspeisen > Warme Mehlspeisen & Süße Knödel",
+   "source_url": "https://www.gurkerl.at/5895-iglo-3-riesen-germknoedel-tiefgekuehlt",
+   "source_id": "5895",
+   "fetched_at": "2026-10-13T02:06:46+00:00",
+   "extra": {
+    "ingredients": "Riesen Germknödel mit Powidlfüllung, vorgekocht, mit Mohn und Zucker, tiefgekühlt.\n\nZutaten: Germknödel (450g): WEIZENMEHL, Wasser, Powidl 14% (Pflaumen, Zucker), Zucker, Hefe, VOLLMILCH, EI, HÜHNEREIWEIß, Rapsöl, Speisesalz, Vanillin, Zitronenextrakt.\nMohn-Zucker-Gemisch (50g): Staubzucker, Mohn 35%.\n"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "nöm Cremix Hüttenzauber Germknödel",
+   "brand": "nöm Cremix",
+   "price_eur": 0.79,
+   "unit_price_eur": 4.39,
+   "unit": "kg",
+   "size_g": 180.0,
+   "nutrition_100g": {
+    "kcal": 122.0,
+    "fat": 4.8,
+    "satfat": 2.9,
+    "carbs": 16.0,
+    "sugar": 15.0,
+    "protein": 3.3,
+    "salt": 0.1,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/49562/49562-1790000065678536474.JPEG",
+   "producer": "",
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Joghurt & Desserts > Fruchtjoghurt",
+   "source_url": "https://www.gurkerl.at/49562-noem-cremix-huettenzauber-germknoedel",
+   "source_id": "49562",
+   "fetched_at": "2026-10-13T02:06:46+00:00",
+   "extra": {
+    "ingredients": "Zutaten: JOGHURT, Zucker, 4,0% Dörrpflaumenmark, 2,0% Mohn, 0,5% WEIZENVOLLKORNMEHL, Stabilisatoren: Pektin, Guarkernmehl; Säureregulator: Citronensäure; Aroma, natürliches Aroma.\n\nGekühlt (bei 3° -9°C) lagern.\n\nKontakt:\nNÖM AG, Vöslauer Straße 109, A-2500 Baden, Austria, +43 800 800 500, konsumenten.service@noem.at"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Germknödel mit Erdbeeren von Roman Kučera",
+   "brand": "Zatisi",
+   "price_eur": 9.09,
+   "unit_price_eur": 22.73,
+   "unit": "kg",
+   "size_g": 400.0,
+   "nutrition_100g": {
+    "kcal": 233.0,
+    "fat": 1.8,
+    "satfat": 0.5,
+    "carbs": 49.0,
+    "sugar": 10.0,
+    "protein": 6.2,
+    "salt": 0.3,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/44194/44194-1756113077728959404.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "EU",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Traditionelle Hausmannskost",
+   "source_url": "https://www.gurkerl.at/44194-germknoedel-mit-erdbeeren-von-roman-kucera",
+   "source_id": "44194",
+   "fetched_at": "2026-10-13T02:06:46+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Hefeknödel mit Erdbeeren 85% (WEIZENMEHL, gefrorene Erdbeeren 25%, Trinkwasser, Backhefe, Zucker, Speisesalz, Kurkuma), geriebener Quark 15% (MILCH, MILCHKULTUREN)."
+   }
+  }
+ ]
+}

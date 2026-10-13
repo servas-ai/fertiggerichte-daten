@@ -1,0 +1,390 @@
+{
+ "count": 12,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Wojnar Nudel Pesto Salat",
+   "brand": "Wojnar's",
+   "price_eur": 2.89,
+   "unit_price_eur": 17.0,
+   "unit": "kg",
+   "size_g": 170.0,
+   "nutrition_100g": {
+    "kcal": 188.0,
+    "fat": 7.9,
+    "satfat": 1.6,
+    "carbs": 23.0,
+    "sugar": 2.0,
+    "protein": 5.6,
+    "salt": 1.4,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/38529/38529-1738914123721.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Schnelle Küche > Salate & Bowls",
+   "source_url": "https://www.gurkerl.at/38529-wojnar-nudel-pesto-salat",
+   "source_id": "38529",
+   "fetched_at": "2026-10-13T02:14:53+00:00",
+   "extra": {
+    "ingredients": "Feinkostsalat mit Nudeln, Tomatensauce, Basilikumpesto und Mozzarella.\n\nZutaten: 58% Teigwaren gekocht (HARTWEIZENGRIESS, Wasser), 15% Tomatensauce (Tomaten, modifizierte Stärke, Speisesalz, Glukosesirup, Zucker, Kräuter, Gewürze, Knoblauch, Rapsöl, Verdickungsmittel: Guarkernmehl; Konservierungsstoff: Kaliumsorbat), 9% Basilikumpesto (Basilikum, Rapsöl, Olivenöl, Zitronensaftkonzentrat), Cherrytomaten mariniert und getrocknet (Cherrytomaten, Sonnenblumenöl, Speisesalz, Knoblauch, Oregano), 8% Mozzarella (MILCH, Speisesalz, mikrobielles Lab, Säuerungsmittel: Citronensäure), Rapsöl, Speisesalz, Weingeistessig, Konservierungsstoff: Kaliumsorbat. Kann Spuren von Ei, Fisch, Krebstieren, Schalenfrüchten, Senf, Sesam, Soja und Sellerie enthalten.\n\nGekühlt lagern bei + 2 °C bis + 6 °C. Nach dem Öffnen sofort verzehren!"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "NENI Mediterraner Nudelsalat",
+   "brand": "Neni",
+   "price_eur": 4.59,
+   "unit_price_eur": 22.95,
+   "unit": "kg",
+   "size_g": 200.0,
+   "nutrition_100g": {
+    "kcal": 180.0,
+    "fat": 86.0,
+    "satfat": 7.0,
+    "carbs": 20.0,
+    "sugar": 10.0,
+    "protein": 44.0,
+    "salt": 10.0,
+    "fiber": 24.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/49001/49001-1785921644463067901.png",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Schnelle Küche > Salate & Bowls",
+   "source_url": "https://www.gurkerl.at/49001-neni-mediterraner-nudelsalat",
+   "source_id": "49001",
+   "fetched_at": "2026-10-13T02:14:53+00:00",
+   "extra": {
+    "ingredients": "Zutaten: 73 % Teigware gekocht (HARTWEIZENGRIESS, Wasser), 7 % Tomaten, Rapsöl, 4 % Kräuterzubereitung (2 % Basilikum, Petersilie, Koriander, Speisesalz), 3 % Tomatenzubereitung (Tomaten, Speisesalz, Antioxidationsmittel: Citronensäure, Konservierungsstoff: Kaliumsorbat), eingelegte Oliven (Oliven, Speisesalz, Rotweinessig, Olivenöl), Gewürzmischung [Speisesalz jodiert (Salz, Kaliumjodid), Gewürze (enthält: SENF), Konservierungsstoff: Kaliumsorbat, Säuerungsmittel: Citronensäure, Speisewürze Raps-/Maishydrolysat), Zucker, Kräuter, Gewürzextrakt], Säureregulator: Natriumacetat."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Feinkost Leitinger Nudelsalat",
+   "brand": "Feinkost",
+   "price_eur": 2.39,
+   "unit_price_eur": 17.7,
+   "unit": "kg",
+   "size_g": 135.0,
+   "nutrition_100g": {
+    "kcal": 227.0,
+    "fat": 16.8,
+    "satfat": 2.0,
+    "carbs": 15.4,
+    "sugar": 5.8,
+    "protein": 2.7,
+    "salt": 1.65,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/40688/40688-1744051240758.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Schnelle Küche > Salate & Bowls",
+   "source_url": "https://www.gurkerl.at/40688-feinkost-leitinger-nudelsalat",
+   "source_id": "40688",
+   "fetched_at": "2026-10-13T02:14:53+00:00",
+   "extra": {
+    "ingredients": "Zutaten: 45% Nudeln gekocht (HARTWEIZENGRIESS, Wasser, Salz), Rapsöl, Wasser, 5% Fleischbrät (Schweinefleisch, Speck, Wasser, Salz jodiert (Speisesalz, Kaliumjodat), Kartoffelstärke, Traubenzucker, Gewürze (enthält SENF), Hefeextrakt, Glukosesirup, Stabilisatoren: Natriumcitrate, Diphosphate; Antioxidationsmittel: Natriumisoascorbat; Konservierungsstoff: Natriumnitrit; Aroma), 5% Paprika, 5% Erbsen, 5% Zwiebeln, JOGHURTERZEUGNIS, Zucker, EIGELB*, Gewürze, Salz, Maisstärke, WEIZENSTÄRKE, Branntweinessig, Säureregulator: Natriumacetate; Traubenzucker, Maltodextrine, Eiweißhydrolysat (enthält SOJA), Verdickungsmittel: Guarkernmehl, Xanthan, Johannisbrotkernmehl; Gelatine (Schwein), Konservierungsstoff: Kaliumsorbat, Natriumbenzoat; Aroma. *aus Bodenhaltung"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "The Green Garden & gurkerl.at  Pasta la Vista Veggie Salad VEGAN",
+   "brand": "The Green Garden",
+   "price_eur": 6.39,
+   "unit_price_eur": 14.2,
+   "unit": "kg",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "kcal": 155.0,
+    "fat": 5.2,
+    "satfat": 0.9,
+    "carbs": 21.6,
+    "sugar": 2.4,
+    "protein": 5.0,
+    "salt": 0.7,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/38155/38155-1737473193079.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "EU",
+   "category": "Kühlregal > Schnelle Küche > Salate & Bowls",
+   "source_url": "https://www.gurkerl.at/38155-the-green-garden-gurkerl-at-pasta-la-vista-veggie-salad-vegan",
+   "source_id": "38155",
+   "fetched_at": "2026-10-13T02:14:53+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Weizennudeln mit Gemüse 75,7 % [Weizennudeln 46 % (Weizenmehl 68,7 %, Trinkwasser, Salz, Backtriebmittel: Natriumcarbonate, Kartoffelstärke, Kurkuma), rote Paprika, Rotkohl, Karotte, rote Chilischote, rote Zwiebel], Erdnusssauce 15, 5 % [Erdnussbutter 30 %, Orangensaft, Ahornsirup, Sesamgewürzöl (Sojaöl, Sesamöl), Sojasauce (Trinkwasser, entfettete Sojabohnen 30 %, Weizen, Salz), Limettensaft, Knoblauch, Ingwer, Salz, Cayennepfeffer], geröstete Erdnüsse 4 %, Limette, frischer Koriander."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Garofalo Fusilli High Protein",
+   "brand": "Garofalo",
+   "price_eur": 2.59,
+   "unit_price_eur": 5.18,
+   "unit": "kg",
+   "size_g": 500.0,
+   "nutrition_100g": {
+    "kcal": 340.0,
+    "fat": 2.3,
+    "satfat": 0.6,
+    "carbs": 56.0,
+    "sugar": 3.6,
+    "protein": 18.0,
+    "salt": 0.03,
+    "fiber": 12.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/47987/47987-1778498065409972789.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Italien",
+   "category": "Vorratsschrank > Pasta, Reis & Beilagen > Pasta",
+   "source_url": "https://www.gurkerl.at/47987-garofalo-fusilli-high-protein",
+   "source_id": "47987",
+   "fetched_at": "2026-10-13T02:14:53+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Hartweizengrieß, entfettete Hartweizenkeime"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Vier Diamanten Thunfisch Naturell",
+   "brand": "Vier Diamanten",
+   "price_eur": 3.69,
+   "unit_price_eur": 18.92,
+   "unit": "kg",
+   "size_g": 195.0,
+   "nutrition_100g": {
+    "kcal": 97.0,
+    "fat": 0.1,
+    "satfat": 0.1,
+    "carbs": 0.1,
+    "sugar": 0.1,
+    "protein": 24.0,
+    "salt": 1.1,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/47468/47468-1774522896900640259.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Holland",
+   "category": "Vorratsschrank > Konserven & Eingelegtes > Fischkonserven",
+   "source_url": "https://www.gurkerl.at/47468-vier-diamanten-thunfisch-naturell",
+   "source_id": "47468",
+   "fetched_at": "2026-10-13T02:14:53+00:00",
+   "extra": {
+    "ingredients": "Zutaten: THUNFISCH*, Wasser, Kochsalz.*Skipjack (Katsuwonus pelamis)"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Vier Diamanten Thunfisch in Sonnenblumenöl",
+   "brand": "Vier Diamanten",
+   "price_eur": 3.69,
+   "unit_price_eur": 18.92,
+   "unit": "kg",
+   "size_g": 195.0,
+   "nutrition_100g": {
+    "kcal": 190.0,
+    "fat": 9.5,
+    "satfat": 1.0,
+    "carbs": 0.1,
+    "sugar": 0.1,
+    "protein": 26.0,
+    "salt": 1.1,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/47467/47467-1774522896481536509.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Holland",
+   "category": "Vorratsschrank > Konserven & Eingelegtes > Fischkonserven",
+   "source_url": "https://www.gurkerl.at/47467-vier-diamanten-thunfisch-in-sonnenblumenoel",
+   "source_id": "47467",
+   "fetched_at": "2026-10-13T02:14:53+00:00",
+   "extra": {
+    "ingredients": "Zutaten: THUNFISCH* (77%), Sonnenblumenöl,Kochsalz.* Skipjack (Katsuwonus pelamis)"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Vier Diamanten Thunfisch in Rapsöl",
+   "brand": "Vier Diamanten",
+   "price_eur": 3.69,
+   "unit_price_eur": 18.92,
+   "unit": "kg",
+   "size_g": 195.0,
+   "nutrition_100g": {
+    "kcal": 190.0,
+    "fat": 9.5,
+    "satfat": 0.6,
+    "carbs": 0.1,
+    "sugar": 0.1,
+    "protein": 26.0,
+    "salt": 1.1,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/47469/47469-1774522897292496893.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Holland",
+   "category": "Vorratsschrank > Konserven & Eingelegtes > Fischkonserven",
+   "source_url": "https://www.gurkerl.at/47469-vier-diamanten-thunfisch-in-rapsoel",
+   "source_id": "47469",
+   "fetched_at": "2026-10-13T02:14:53+00:00",
+   "extra": {
+    "ingredients": "Zutaten: THUNFISCH* (77%), Rapsöl, Kochsalz.*Skipjack (Katsuwonus pelamis)"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Wojnar Huhn Caesar Salat",
+   "brand": "Wojnar's",
+   "price_eur": 2.79,
+   "unit_price_eur": 16.41,
+   "unit": "kg",
+   "size_g": 170.0,
+   "nutrition_100g": {
+    "kcal": 192.0,
+    "fat": 8.7,
+    "satfat": 2.3,
+    "carbs": 21.0,
+    "sugar": 2.7,
+    "protein": 7.0,
+    "salt": 1.5,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/38528/38528-1738914093743.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Schnelle Küche > Salate & Bowls",
+   "source_url": "https://www.gurkerl.at/38528-wojnar-huhn-caesar-salat",
+   "source_id": "38528",
+   "fetched_at": "2026-10-13T02:14:53+00:00",
+   "extra": {
+    "ingredients": "Feinkostsalat mit Nudeln und Hühnerfiletstreifen.\n\nZutaten: 52% Teigwaren (HARTWEIZENGRIESS, Wasser), SAUERRAHM, 12% Hühnerfiletstreifen gebraten {Hühnerfleisch, Gewürzzubereitung [Speisesalz jodiert (Speisesalz, Kaliumjodid), Gewürze, Kräuter, Zucker, Zitronensaftkonzentrat, Rapsöl], Speisesalz, Dextrose, Antioxidationsmittel: Ascorbinsäure}, Wasser, Rapsöl, Grana Padano (MILCH, Speisesalz, Lab, Konservierungsstoff: Lysozym aus HÜHNEREI), Lauch, Dijon Senf (Wasser, SENFKORN, Weingeistessig, Speisesalz, Säuerungsmittel: Citronensäure; Antioxidationsmittel: KALIUMMETABISULFIT), Speisesalz, Zucker, Weingeistessig, SENFKORN gemahlen, MAGERMILCHJOGHURTPULVER, Knoblauch, Kapern, EIGELBPULVER, Gewürze, Säureregulatoren: Natriumacetat, Natriumcarbonat; natürliches Bitterorangen-Aroma, Antioxidationsmittel: Ascorbinsäure; Konservierungsstoff: Kaliumsorbat; Säuerungsmittel: Milchsäure; Verdickungsmittel: Xanthan, Guarkernmehl, Johannisbrotkernmehl; Dextrose.\n\nGekühlt lagern bei + 2 °C bis + 6 °C. Nach dem Öffnen sofort verzehren!"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Garofalo Mezze Maniche Rigate High Protein",
+   "brand": "Garofalo",
+   "price_eur": 2.59,
+   "unit_price_eur": 5.18,
+   "unit": "kg",
+   "size_g": 500.0,
+   "nutrition_100g": {
+    "kcal": 340.0,
+    "fat": 2.3,
+    "satfat": 0.6,
+    "carbs": 56.0,
+    "sugar": 3.6,
+    "protein": 18.0,
+    "salt": 0.03,
+    "fiber": 12.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/47986/47986-1778498065163165222.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Italien",
+   "category": "Vorratsschrank > Pasta, Reis & Beilagen > Pasta",
+   "source_url": "https://www.gurkerl.at/47986-garofalo-mezze-maniche-rigate-high-protein",
+   "source_id": "47986",
+   "fetched_at": "2026-10-13T02:14:53+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Hartweizengrieß, entfettete Hartweizenkeime"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Garofalo Penne Rigate High Protein",
+   "brand": "Garofalo",
+   "price_eur": 2.59,
+   "unit_price_eur": 5.18,
+   "unit": "kg",
+   "size_g": 500.0,
+   "nutrition_100g": {
+    "kcal": 340.0,
+    "fat": 2.3,
+    "satfat": 0.6,
+    "carbs": 56.0,
+    "sugar": 3.6,
+    "protein": 18.0,
+    "salt": 0.03,
+    "fiber": 12.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/47985/47985-1778498064692784771.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Italien",
+   "category": "Vorratsschrank > Pasta, Reis & Beilagen > Pasta",
+   "source_url": "https://www.gurkerl.at/47985-garofalo-penne-rigate-high-protein",
+   "source_id": "47985",
+   "fetched_at": "2026-10-13T02:14:53+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Hartweizengrieß, entfettete Hartweizenkeime"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Byodo BIO Protein PLUS Trottole",
+   "brand": "Byodo",
+   "price_eur": 4.19,
+   "unit_price_eur": 10.48,
+   "unit": "kg",
+   "size_g": 400.0,
+   "nutrition_100g": {
+    "kcal": 359.0,
+    "fat": 2.3,
+    "satfat": 0.5,
+    "carbs": 63.0,
+    "sugar": 3.2,
+    "protein": 20.0,
+    "salt": 0.08,
+    "fiber": 2.9
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/47510/47510-1774873355218860359.png",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Italien",
+   "category": "Vorratsschrank > Pasta, Reis & Beilagen > Pasta",
+   "source_url": "https://www.gurkerl.at/47510-byodo-bio-protein-plus-trottole",
+   "source_id": "47510",
+   "fetched_at": "2026-10-13T02:14:53+00:00",
+   "extra": {
+    "ingredients": "Zutaten: HartWEIZENgrieß* (83%), WEIZENGLUTEN* (12%), geröstetes Kürbiskernmehl* (5%) (Kürbiskerne* (99%), Salz). *aus kontrolliert ökologischem Anbau"
+   }
+  }
+ ]
+}

@@ -1,0 +1,2002 @@
+{
+ "NÖM": [
+  {
+   "id": "Q131105",
+   "label": "Nominativ",
+   "desc": "Fall",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q112111570",
+   "label": "nomenclature d’activités française rév.2",
+   "desc": "Version einer französischen Standardnomenklatur",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q1084",
+   "label": "Substantiv",
+   "desc": "Wort, das typischerweise Objekte benennt und referenziert",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q101352",
+   "label": "Familienname",
+   "desc": "Ergänzung zum Vornamen zur besseren Unterscheidbarkeit von Personen",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q147276",
+   "label": "Eigenname",
+   "desc": "Benennung einzelner Wesen oder Dinge",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q3760158",
+   "label": "Nomen",
+   "desc": "römischer Personenname",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q941227",
+   "label": "nomen conservandum",
+   "desc": "conserved name (a protected scientific name)",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q1714895",
+   "label": "Nomada",
+   "desc": "genus of kleptoparasitic \"cuckoo bees\"",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q618536",
+   "label": "candidate",
+   "desc": "prospective recipient of a specific award or position",
+   "logo": [],
+   "web": [],
+   "country": []
+  }
+ ],
+ "Danone": [
+  {
+   "id": "Q329426",
+   "label": "Danone",
+   "desc": "französischer Getränke- und Lebensmittelkonzern",
+   "logo": [],
+   "web": [
+    "https://www.danone.com/fr.html"
+   ],
+   "country": [
+    "Q29"
+   ]
+  },
+  {
+   "id": "Q36878622",
+   "label": "Danone",
+   "desc": "company in Prague, Czechia",
+   "logo": [],
+   "web": [
+    "http://www.danone.cz/"
+   ],
+   "country": [
+    "Q213"
+   ]
+  },
+  {
+   "id": "Q3015341",
+   "label": "Danone",
+   "desc": "Spain company",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q29"
+   ]
+  },
+  {
+   "id": "Q28971350",
+   "label": "Danone",
+   "desc": "British company",
+   "logo": [],
+   "web": [
+    "http://corporate.danone.co.uk/en/"
+   ],
+   "country": [
+    "Q145"
+   ]
+  },
+  {
+   "id": "Q13221792",
+   "label": "Danone Hardcourt Championships",
+   "desc": "Damen-Tennisturnier in Brisbane, Australien",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q408"
+   ]
+  },
+  {
+   "id": "Q3353419",
+   "label": "Danone Hardcourt Championships 1994",
+   "desc": "Tennis-Hartplatzturnier für Frauen in Brisbane",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q408"
+   ]
+  },
+  {
+   "id": "Q3015366",
+   "label": "Danone Nations Cup",
+   "desc": "international association football national teams competition",
+   "logo": [],
+   "web": [
+    "http://danonenationscup.com"
+   ],
+   "country": []
+  },
+  {
+   "id": "Q28971348",
+   "label": "Danone (France)",
+   "desc": "",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q142"
+   ]
+  }
+ ],
+ "Bibigo": [
+  {
+   "id": "Q1984402",
+   "label": "Bibigon",
+   "desc": "Fernsehkanal",
+   "logo": [
+    "Bibigon TV Logo.svg"
+   ],
+   "web": [
+    "http://www.bibigon.ru/"
+   ],
+   "country": [
+    "Q159"
+   ]
+  },
+  {
+   "id": "Q4086224",
+   "label": "Bibigon",
+   "desc": "fiktive Figur",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q636141",
+   "label": "Bibiyergou",
+   "desc": "Landgemeinde in Tillabéri, Niger",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q1032"
+   ]
+  },
+  {
+   "id": "Q18236548",
+   "label": "Bibigon",
+   "desc": "1981 Soviet animated short film by Boris Ablynin and Sergey Olifirenko",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q4465112",
+   "label": "Bibigul Tulegenowa",
+   "desc": "Soviet-Kazakh opera singer, actress, and educator",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q4447610",
+   "label": "Bibigul Aktan Sujunschalina",
+   "desc": "russische Schauspielerin",
+   "logo": [],
+   "web": [
+    "http://www.bibigul.webs.com"
+   ],
+   "country": []
+  }
+ ],
+ "Zurück zum Ursprung": [],
+ "Meica": [
+  {
+   "id": "Q39631",
+   "label": "Arzt",
+   "desc": "Heilberuf",
+   "logo": [
+    "P medicina.svg"
+   ],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q1917657",
+   "label": "Meica",
+   "desc": "Fleischwarenunternehmen",
+   "logo": [],
+   "web": [
+    "http://www.meica.de"
+   ],
+   "country": [
+    "Q183"
+   ]
+  },
+  {
+   "id": "Q21388418",
+   "label": "Meicai Wei",
+   "desc": "Forscher",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q24192243",
+   "label": "Aachener Dom",
+   "desc": "Rosensorte",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q107443795",
+   "label": "Meica",
+   "desc": "Familienname",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q18042003",
+   "label": "C1orf112",
+   "desc": "Gen der Spezies Homo sapiens",
+   "logo": [],
+   "web": [],
+   "country": []
+  }
+ ],
+ "Hengstenberg": [
+  {
+   "id": "Q36937121",
+   "label": "Hengstenberg",
+   "desc": "Familienname",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q1605202",
+   "label": "Hengstenberg",
+   "desc": "deutscher Essig- und Sauerkrauthersteller",
+   "logo": [
+    "Hengstenberg Logo aktuell.tif"
+   ],
+   "web": [
+    "http://www.hengstenberg.de/"
+   ],
+   "country": [
+    "Q183"
+   ]
+  },
+  {
+   "id": "Q653677",
+   "label": "Ernst Wilhelm Hengstenberg",
+   "desc": "deutscher Theologe",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q14930473",
+   "label": "Mostowoje",
+   "desc": "Ort in der russischen Oblast Kaliningrad",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q159"
+   ]
+  },
+  {
+   "id": "Q1605203",
+   "label": "Hengstenberg",
+   "desc": "Ortsteil von Wiehl",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q183"
+   ]
+  },
+  {
+   "id": "Q104052928",
+   "label": "Löbbeckenkopf",
+   "desc": "Berg in Iserlohn, Nordrhein-Westfalen",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q183"
+   ]
+  },
+  {
+   "id": "Q27582539",
+   "label": "Hengstenberg, Ernst Wilhelm (ADB)",
+   "desc": "entry in the Allgemeine Deutsche Biographie",
+   "logo": [],
+   "web": [],
+   "country": []
+  }
+ ],
+ "Perutnina Ptuj": [
+  {
+   "id": "Q1476036",
+   "label": "Perutnina Ptuj",
+   "desc": "slowenisches Radrennsportteam (1985-2011)",
+   "logo": [],
+   "web": [
+    "http://www.perutnina.si/sl/domov/"
+   ],
+   "country": [
+    "Q215"
+   ]
+  },
+  {
+   "id": "Q48638103",
+   "label": "Perutnina Ptuj",
+   "desc": "slowenisches Unternehmen",
+   "logo": [
+    "Perutnina Ptuj Logo.svg"
+   ],
+   "web": [
+    "https://www.perutnina.com/"
+   ],
+   "country": [
+    "Q215"
+   ]
+  },
+  {
+   "id": "Q2554935",
+   "label": "Perutnina Ptuj 2007",
+   "desc": "Saison eines Radsportteams",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q215"
+   ]
+  },
+  {
+   "id": "Q2380384",
+   "label": "Perutnina Ptuj 2006",
+   "desc": "Saison eines Radsportteams",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q215"
+   ]
+  },
+  {
+   "id": "Q17761108",
+   "label": "Perutnina Ptuj želi srpski Agroživ",
+   "desc": "Artikel bei Wikinews",
+   "logo": [],
+   "web": [],
+   "country": []
+  }
+ ],
+ "AIA Agricola Italiana Alimentare": [],
+ "Riso Gallo": [
+  {
+   "id": "Q3937025",
+   "label": "Riso Gallo",
+   "desc": "",
+   "logo": [
+    "Targa con il logo Riso Gallo.JPG"
+   ],
+   "web": [
+    "http://www.risogallo.it"
+   ],
+   "country": [
+    "Q38"
+   ]
+  },
+  {
+   "id": "Q132068171",
+   "label": "Riso Gallo France",
+   "desc": "",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q142"
+   ]
+  },
+  {
+   "id": "Q132068172",
+   "label": "Riso Gallo International",
+   "desc": "",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q142"
+   ]
+  }
+ ],
+ "Riso Scotti": [
+  {
+   "id": "Q2154801",
+   "label": "Riso Scotti",
+   "desc": "italienischer Nahrungsmittelhersteller",
+   "logo": [
+    "Logo Riso Scotti S.p.a..jpg"
+   ],
+   "web": [
+    "http://www.risoscotti.it"
+   ],
+   "country": [
+    "Q38"
+   ]
+  },
+  {
+   "id": "Q680853",
+   "label": "GB-MG Maglificio",
+   "desc": "italienisches Radrennteam (1992-1998)",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q38"
+   ]
+  },
+  {
+   "id": "Q107598744",
+   "label": "Riso Scotti",
+   "desc": "",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q38"
+   ]
+  },
+  {
+   "id": "Q3589485",
+   "label": "Asics-CGA",
+   "desc": "italienisches Radrennsportteam (1997–1999)",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q38"
+   ]
+  },
+  {
+   "id": "Q27514864",
+   "label": "Riso Scotti-MG Maglificio 1998",
+   "desc": "Saison eines Radsportteams",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q38"
+   ]
+  },
+  {
+   "id": "Q62487301",
+   "label": "Riso Scotti-Vinavil 1999",
+   "desc": "",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q38"
+   ]
+  }
+ ],
+ "Andros": [
+  {
+   "id": "Q175741",
+   "label": "Andros",
+   "desc": "griechische Insel der Kykladen",
+   "logo": [],
+   "web": [
+    "http://www.andros.gr/"
+   ],
+   "country": [
+    "Q41"
+   ]
+  },
+  {
+   "id": "Q23305665",
+   "label": "Andros",
+   "desc": "männlicher Vorname",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q18018042",
+   "label": "Andros",
+   "desc": "Gemeinde in Griechenland",
+   "logo": [],
+   "web": [
+    "https://andros.gr/"
+   ],
+   "country": [
+    "Q41"
+   ]
+  },
+  {
+   "id": "Q1223923",
+   "label": "Andros",
+   "desc": "Kleinstadt in Griechenland",
+   "logo": [],
+   "web": [
+    "http://www.andros.gr"
+   ],
+   "country": [
+    "Q41"
+   ]
+  },
+  {
+   "id": "Q97619053",
+   "label": "Andros",
+   "desc": "männlicher Vorname (Άνδρος)",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q514070",
+   "label": "Andros",
+   "desc": "Insel der Bahamas",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q778"
+   ]
+  },
+  {
+   "id": "Q1318776",
+   "label": "testosterone",
+   "desc": "primary male sex hormone",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q157361",
+   "label": "Androsace",
+   "desc": "genus of plants",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q164120",
+   "label": "Androsace septentrionalis",
+   "desc": "species of plant",
+   "logo": [],
+   "web": [],
+   "country": []
+  }
+ ],
+ "Heinz": [
+  {
+   "id": "Q11682369",
+   "label": "Heinz",
+   "desc": "männlicher Vorname",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q1158284",
+   "label": "Heinz",
+   "desc": "Familienname",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q1517116",
+   "label": "Heinz-Erich Wichmann",
+   "desc": "deutscher Epidemiologe sowie Professor",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q16908439",
+   "label": "Heinz",
+   "desc": "Name: Vorname und Familienname",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q101385190",
+   "label": "Heinz-Peter Schlemmer",
+   "desc": "deutscher Mediziner und Hochschullehrer",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q1600636",
+   "label": "Heinz Mehlhorn",
+   "desc": "deutscher Zoologe und Parasitologe",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q113680082",
+   "label": "Heinz-Georg Sander",
+   "desc": "German particle physicist",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q66107",
+   "label": "Henry Kissinger",
+   "desc": "American diplomat and geopolitical advisor, served as U.S. Secretary of State from 1973 to 1977 (1923–2023)",
+   "logo": [],
+   "web": [
+    "https://www.henryakissinger.com/"
+   ],
+   "country": []
+  },
+  {
+   "id": "Q60059378",
+   "label": "Heinz Feldmann",
+   "desc": "German-American virologist",
+   "logo": [],
+   "web": [],
+   "country": []
+  }
+ ],
+ "Hilcona": [
+  {
+   "id": "Q1618169",
+   "label": "Hilcona",
+   "desc": "international tätiger Lebensmittelhersteller aus Liechtenstein",
+   "logo": [
+    "Hilcona Logo 2015.svg"
+   ],
+   "web": [
+    "http://www.hilcona.com/"
+   ],
+   "country": [
+    "Q347"
+   ]
+  },
+  {
+   "id": "Q132066724",
+   "label": "Hilcona France",
+   "desc": "",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q142"
+   ]
+  },
+  {
+   "id": "Q132025133",
+   "label": "Hilcona Aktiengesellschaft",
+   "desc": "",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q142"
+   ]
+  }
+ ],
+ "Delamaris": [
+  {
+   "id": "Q102336641",
+   "label": "DELAMARIS konzervna industrija",
+   "desc": "Slovenian company",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q215"
+   ]
+  }
+ ],
+ "La Fermière": [
+  {
+   "id": "Q117830321",
+   "label": "La Fermière",
+   "desc": "Bildnis von Jean-Louis de Marne",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q77504703",
+   "label": "La Fermière",
+   "desc": "Gemälde von Fernand Léger",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q133262495",
+   "label": "La Fermière",
+   "desc": "painting by Pablo Picasso",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q18719626",
+   "label": "Interior",
+   "desc": "Gemälde von Joan Miró",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q142"
+   ]
+  },
+  {
+   "id": "Q5444412",
+   "label": "Fermière Monument",
+   "desc": "Skulptur in Kanada",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q16"
+   ]
+  },
+  {
+   "id": "Q19183373",
+   "label": "La Fermière",
+   "desc": "",
+   "logo": [],
+   "web": [],
+   "country": []
+  }
+ ],
+ "Milsani": [],
+ "dmBio": [],
+ "WW International": [
+  {
+   "id": "Q1929466",
+   "label": "Weight Watchers",
+   "desc": "amerikanisches Unternehmen",
+   "logo": [
+    "WW (rebrand) logo 2018.png",
+    "WeightWatchers2026.svg"
+   ],
+   "web": [
+    "https://www.weightwatchers.com/"
+   ],
+   "country": [
+    "Q30"
+   ]
+  }
+ ],
+ "Nongshim": [
+  {
+   "id": "Q483018",
+   "label": "Nongshim",
+   "desc": "südkoreanisches Lebensmittel- und Getränkeunternehmen",
+   "logo": [
+    "Nongshim Logo.svg"
+   ],
+   "web": [
+    "https://www.nongshim.com"
+   ],
+   "country": [
+    "Q884"
+   ]
+  },
+  {
+   "id": "Q851302",
+   "label": "Nongshim Cup",
+   "desc": "international Go tournament",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q624358",
+   "label": "Nongshim Group",
+   "desc": "",
+   "logo": [],
+   "web": [
+    "http://www.nongshim.com"
+   ],
+   "country": [
+    "Q884"
+   ]
+  },
+  {
+   "id": "Q16219468",
+   "label": "Nongshim Holdings",
+   "desc": "holding society of Nongshim",
+   "logo": [],
+   "web": [
+    "http://www.nongshim.com/introduction/list_holdings_notice"
+   ],
+   "country": [
+    "Q884"
+   ]
+  },
+  {
+   "id": "Q97210257",
+   "label": "Nongshim RedForce",
+   "desc": "South Korean League of Legends team",
+   "logo": [],
+   "web": [
+    "https://www.ns-esports.com/"
+   ],
+   "country": [
+    "Q884"
+   ]
+  },
+  {
+   "id": "Q111865397",
+   "label": "Nongshim Hotel",
+   "desc": "hotel in Busan, South Korea",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q884"
+   ]
+  }
+ ],
+ "Mama noodles": [],
+ "Findus": [
+  {
+   "id": "Q869728",
+   "label": "Findus",
+   "desc": "Unternehmen",
+   "logo": [],
+   "web": [
+    "http://www.findus.com"
+   ],
+   "country": [
+    "Q34"
+   ]
+  },
+  {
+   "id": "Q106622782",
+   "label": "Findus",
+   "desc": "fiktive Katze aus den Petterson&Findus-Serien",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q15809684",
+   "label": "Findus",
+   "desc": "deutsche Post-Punk-Band",
+   "logo": [],
+   "web": [
+    "http://www.findusmusik.de"
+   ],
+   "country": []
+  },
+  {
+   "id": "Q96972222",
+   "label": "Ansgar Lorenz",
+   "desc": "deutscher Illustrator und Comicautor",
+   "logo": [],
+   "web": [
+    "https://ansgarlorenz.de/"
+   ],
+   "country": []
+  },
+  {
+   "id": "Q56575383",
+   "label": "Pettersson und Findus – Findus zieht um",
+   "desc": "Film von Ali Samadi Ahadi (2018)",
+   "logo": [],
+   "web": [
+    "https://www.pettersson-und-findus-derfilm.de/#/home"
+   ],
+   "country": []
+  },
+  {
+   "id": "Q65202483",
+   "label": "Findus wartet auf Weihnachten",
+   "desc": "Computerspiel aus dem Jahr 1997",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q113676553",
+   "label": "Findus Moves Out",
+   "desc": "2012 children's book by Sven Nordqvist",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q30338764",
+   "label": "Findus (Norway)",
+   "desc": "",
+   "logo": [],
+   "web": [
+    "http://www.findus.no/"
+   ],
+   "country": [
+    "Q20"
+   ]
+  }
+ ],
+ "Arla Foods": [
+  {
+   "id": "Q674575",
+   "label": "Arla Foods",
+   "desc": "dänisch-schwedische Molkereigenossenschaft",
+   "logo": [],
+   "web": [
+    "https://www.arla.com"
+   ],
+   "country": [
+    "Q35"
+   ]
+  },
+  {
+   "id": "Q4792083",
+   "label": "Arla Foods UK",
+   "desc": "British dairy products subsidiary",
+   "logo": [],
+   "web": [
+    "https://www.arlafoods.co.uk/"
+   ],
+   "country": []
+  },
+  {
+   "id": "Q132049562",
+   "label": "Arla Foods Ingredients Group P/S",
+   "desc": "",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q142"
+   ]
+  },
+  {
+   "id": "Q113466095",
+   "label": "Arla Foods Energy",
+   "desc": "Danish company",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q35"
+   ]
+  },
+  {
+   "id": "Q138095033",
+   "label": "Arla Foods B.V.",
+   "desc": "Dutch food business",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q55"
+   ]
+  },
+  {
+   "id": "Q137040985",
+   "label": "Arla Foods AB",
+   "desc": "",
+   "logo": [],
+   "web": [
+    "https://arla.se"
+   ],
+   "country": [
+    "Q34"
+   ]
+  },
+  {
+   "id": "Q132049555",
+   "label": "Arla Foods France",
+   "desc": "",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q142"
+   ]
+  }
+ ],
+ "innocent drinks": [
+  {
+   "id": "Q1664118",
+   "label": "Innocent",
+   "desc": "britischer Getränkehersteller",
+   "logo": [],
+   "web": [
+    "https://www.innocentdrinks.co.uk/"
+   ],
+   "country": [
+    "Q145"
+   ]
+  }
+ ],
+ "John West Foods": [
+  {
+   "id": "Q6263648",
+   "label": "John West Foods",
+   "desc": "brand of canned fish",
+   "logo": [],
+   "web": [
+    "http://www.john-west.co.uk"
+   ],
+   "country": []
+  }
+ ],
+ "Kotányi": [
+  {
+   "id": "Q1785539",
+   "label": "Kotányi (Unternehmen)",
+   "desc": "österreichischer Gewürzhändler mit Sitz in Wolkersdorf im Weinviertel in Niederösterreich",
+   "logo": [
+    "Kotanyi-logo-color.svg"
+   ],
+   "web": [
+    "http://www.kotanyi.com/at/"
+   ],
+   "country": [
+    "Q40"
+   ]
+  },
+  {
+   "id": "Q113285103",
+   "label": "Kotányi",
+   "desc": "Familienname",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q315836",
+   "label": "Attila Kotányi",
+   "desc": "ungarischer Schriftsteller und Architekt",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q95187857",
+   "label": "Sophie Kotanyi",
+   "desc": "",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q1119888",
+   "label": "János Kotányi",
+   "desc": "ungarischer jüdischer Unternehmer",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q20480781",
+   "label": "Magda Kotányi-Huszár",
+   "desc": "ungarische Autorin, seit 2007 bis zu ihrem Tod in Berlin",
+   "logo": [],
+   "web": [],
+   "country": []
+  }
+ ],
+ "SalzburgMilch": [
+  {
+   "id": "Q15843849",
+   "label": "SalzburgMilch",
+   "desc": "Molkerei in Salzburg",
+   "logo": [
+    "SalzburgMilch.jpeg"
+   ],
+   "web": [
+    "http://www.milch.com/"
+   ],
+   "country": [
+    "Q40"
+   ]
+  }
+ ],
+ "Eismann": [
+  {
+   "id": "Q37322278",
+   "label": "Eismann",
+   "desc": "Familienname",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q1319382",
+   "label": "Eismann Tiefkühl-Heimservice GmbH",
+   "desc": "Lebensmittel-Versandhandel",
+   "logo": [
+    "Eismann-logo-2019.svg"
+   ],
+   "web": [
+    "http://www.eismann.de"
+   ],
+   "country": [
+    "Q183"
+   ]
+  },
+  {
+   "id": "Q6215588",
+   "label": "Johann Anton Eismann",
+   "desc": "Austrian artist (1604-1698)",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q1319376",
+   "label": "Eishändler",
+   "desc": "Verkäufer von Wassereis an private Haushalte und die Gastronomie",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q1317611",
+   "label": "Eismann",
+   "desc": "fahrender Verkäufer von Speiseeis",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q1319391",
+   "label": "Eismannsberg",
+   "desc": "Ortsteil von Altdorf bei Nürnberg",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q183"
+   ]
+  },
+  {
+   "id": "Q16831187",
+   "label": "Eismannsberg",
+   "desc": "human settlement in Germany",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q183"
+   ]
+  },
+  {
+   "id": "Q140539390",
+   "label": "Eismannsberg-Püscheldorfer Flächenalb",
+   "desc": "German natural area (code 081.00) in the Western Flächenalb",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q183"
+   ]
+  }
+ ],
+ "Thiriet": [
+  {
+   "id": "Q55190124",
+   "label": "Thiriet",
+   "desc": "Familienname",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q107478261",
+   "label": "Thiriet",
+   "desc": "French gymnast",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q3524695",
+   "label": "Thiriet",
+   "desc": "French frozen food chain",
+   "logo": [
+    "Vertebral artery fusiform aneurysm geometry in predicting rupture risk.pdf"
+   ],
+   "web": [
+    "https://www.thiriet.com"
+   ],
+   "country": [
+    "Q142"
+   ]
+  },
+  {
+   "id": "Q1019375",
+   "label": "Béatrice Thiriet",
+   "desc": "französische Filmkomponistin (geb. 1960)",
+   "logo": [],
+   "web": [
+    "http://beatricethiriet.com"
+   ],
+   "country": []
+  },
+  {
+   "id": "Q41781305",
+   "label": "Saint-Baussan",
+   "desc": "apple cultivar",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q132069718",
+   "label": "Thiriet Lg",
+   "desc": "",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q142"
+   ]
+  },
+  {
+   "id": "Q17354943",
+   "label": "Thiriet",
+   "desc": "Wikimedia disambiguation page",
+   "logo": [],
+   "web": [],
+   "country": []
+  }
+ ],
+ "Greenforce": [],
+ "Gü Puds": [],
+ "Kozy Shack": [],
+ "Andechser Molkerei Scheitz": [],
+ "Ökoland": [
+  {
+   "id": "Q165647",
+   "label": "ökologische Landwirtschaft",
+   "desc": "Produktionsmethode zur umweltschonenden Urproduktion",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q294908",
+   "label": "Ökolandbau-Forschung",
+   "desc": "",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q135266300",
+   "label": "Ökolandbau-Museum Schloss Heynitz e.V.",
+   "desc": "Verein zur Aufarbeitung der Geschichte des ökologischen Landbaus in Sachsen sowie Aufbau eines Online-Archivs und Rundwege zu historischen Orten",
+   "logo": [],
+   "web": [
+    "https://www.oekolandbaumuseum.de"
+   ],
+   "country": [
+    "Q183"
+   ]
+  },
+  {
+   "id": "Q140187617",
+   "label": "Feldtage",
+   "desc": "Pflanzenbau-Fachmessen",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q295472",
+   "label": "Ökosiedlung",
+   "desc": "Dorf oder Stadtteil, das bzw. der an ökologischen Kriterien ausgerichtet ist",
+   "logo": [],
+   "web": [],
+   "country": []
+  }
+ ],
+ "Jeden Tag": [
+  {
+   "id": "Q15270932",
+   "label": "Jeden Tag aufs Neue",
+   "desc": "Fernsehfilm von Jeff Bleckner (2013)",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q79870240",
+   "label": "Jeden Tag – Jede Nacht",
+   "desc": "1996 album by Extrabreit",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q21036449",
+   "label": "Jeden Tag Silvester",
+   "desc": "deutschsprachige Pop-Band aus Bad Oldesloe",
+   "logo": [],
+   "web": [
+    "http://www.jedentagsilvester.de/"
+   ],
+   "country": []
+  },
+  {
+   "id": "Q127222458",
+   "label": "Jeden Tag ein wenig näher",
+   "desc": "Christian hymn text",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q127157798",
+   "label": "Jeden Tag, jede Stund'",
+   "desc": "Christian hymn text",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q127158541",
+   "label": "Jeden Tag, jede Nacht, jeden Augenblick",
+   "desc": "Christian hymn text",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q127157797",
+   "label": "Jeden Tag, jede Stund' zeige mir den Kreuzesbund",
+   "desc": "Christian hymn text",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q134475469",
+   "label": "JEDEN TAG IM MUSEUM. Aufsichten präsentieren ihre Lieblingswerke",
+   "desc": "",
+   "logo": [],
+   "web": [
+    "https://ausstellungen.deutsche-digitale-bibliothek.de/jeden-tag-im-museum/"
+   ],
+   "country": [
+    "Q183"
+   ]
+  }
+ ],
+ "Bürger GmbH": [
+  {
+   "id": "Q141083294",
+   "label": "Bürger GmbH & Co. KG",
+   "desc": "Lebensmittelhersteller aus Ditzingen",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q183"
+   ]
+  }
+ ],
+ "Deflorian": [
+  {
+   "id": "Q99908191",
+   "label": "Deflorian",
+   "desc": "Familienname",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q70865531",
+   "label": "Deflorian",
+   "desc": "Wikimedia-Begriffsklärungsseite",
+   "logo": [],
+   "web": [],
+   "country": []
+  }
+ ],
+ "Strauss": [
+  {
+   "id": "Q10450274",
+   "label": "Strauss",
+   "desc": "Familienname",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q15731389",
+   "label": "Strauß",
+   "desc": "Familienname",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q1187930",
+   "label": "Blumenstrauß",
+   "desc": "Blumengebinde mit einer Bindestelle, das mobil ist und damit bequem transportiert werden kann",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q17592",
+   "label": "Afrikanischer Strauß",
+   "desc": "Art der Gattung Strauße (Struthio)",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q1341990",
+   "label": "Strauss",
+   "desc": "Markenhersteller, Versand- und Einzelhandelsunternehmen für Berufsbekleidung und Arbeitsschutz",
+   "logo": [
+    "Logo of Engelbert Strauss.svg"
+   ],
+   "web": [
+    "https://www.strauss.com/de/de"
+   ],
+   "country": [
+    "Q183"
+   ]
+  },
+  {
+   "id": "Q21609942",
+   "label": "Heinrich Christian Strauss",
+   "desc": "botanist (1850-1922)",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q56669860",
+   "label": "Strauss",
+   "desc": "given name",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q105459255",
+   "label": "Strauss",
+   "desc": "holocaust victim, b. 1876-04-23",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q154449",
+   "label": "4559 Strauss",
+   "desc": "asteroid",
+   "logo": [],
+   "web": [],
+   "country": []
+  }
+ ],
+ "Esterhazy": [
+  {
+   "id": "Q26868923",
+   "label": "Esterházy",
+   "desc": "Familienname",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q727984",
+   "label": "Esterhazy",
+   "desc": "Kleinstadt in Saskatchewan, Kanada",
+   "logo": [],
+   "web": [
+    "http://www.townofesterhazy.ca/"
+   ],
+   "country": [
+    "Q16"
+   ]
+  },
+  {
+   "id": "Q1369980",
+   "label": "Esterházy",
+   "desc": "Adelsgeschlecht ungarischen Ursprungs",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q66741592",
+   "label": "Esterhazy",
+   "desc": "Familienname",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q1369915",
+   "label": "Esterhazy",
+   "desc": "Film von Izabela Plucińska (2009)",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q8843239",
+   "label": "Esterhazya",
+   "desc": "genus of plants",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q15321240",
+   "label": "Esterhazya splendida",
+   "desc": "species of plant",
+   "logo": [],
+   "web": [],
+   "country": []
+  }
+ ],
+ "Galana": [
+  {
+   "id": "Q223044",
+   "label": "Schildkröten",
+   "desc": "gepanzerte Kriechtiere aus der Ordnung der Sauropsida",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q152475",
+   "label": "Nachttopf",
+   "desc": "historisches Gefäß zur Aufnahme von Urin",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q182719",
+   "label": "Turkana-See",
+   "desc": "das größte Binnengewässer Kenias",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q114"
+   ]
+  },
+  {
+   "id": "Q111974179",
+   "label": "Galana River School Project e.V.",
+   "desc": "gemeinnütziger Verein der in Kenia in einer Dorfgemeinschaft eine Schule und eine Krankenstation baut und betreibt",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q183"
+   ]
+  },
+  {
+   "id": "Q1508817",
+   "label": "Sabaki",
+   "desc": "Fluss in Kenia",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q114"
+   ]
+  },
+  {
+   "id": "Q834103",
+   "label": "Irineos Galanakis",
+   "desc": "griechischer Bischof",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q15944821",
+   "label": "Galanaiika",
+   "desc": "village in Achaea, Greece",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q41"
+   ]
+  },
+  {
+   "id": "Q5517932",
+   "label": "Galanageia",
+   "desc": "genus of insects",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q12064253",
+   "label": "Galanarla",
+   "desc": "genus of arboreal marsupials (fossil)",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q83011065",
+   "label": "Galanal B",
+   "desc": "chemical compound",
+   "logo": [],
+   "web": [],
+   "country": []
+  }
+ ],
+ "Milfina": [],
+ "Golfera": [
+  {
+   "id": "Q99945562",
+   "label": "Golfera",
+   "desc": "Familienname",
+   "logo": [],
+   "web": [],
+   "country": []
+  }
+ ],
+ "Berger Schinken": [],
+ "Oyakata": [
+  {
+   "id": "Q106478461",
+   "label": "Oyakatakun",
+   "desc": "Japanese owarai tarento",
+   "logo": [],
+   "web": [
+    "https://profile.yoshimoto.co.jp/talent/detail?id=6885"
+   ],
+   "country": []
+  },
+  {
+   "id": "Q28007389",
+   "label": "Takeda Izumo II",
+   "desc": "Japanese playwright (1691-1756)",
+   "logo": [],
+   "web": [],
+   "country": []
+  }
+ ],
+ "Uncle Ben's": [
+  {
+   "id": "Q566095",
+   "label": "Ben's Original",
+   "desc": "Marke der Mars Germany GmbH",
+   "logo": [
+    "Unclebens-logo.svg",
+    "BensOriginalLogo.svg"
+   ],
+   "web": [
+    "https://www.bensoriginal.com/"
+   ],
+   "country": []
+  }
+ ],
+ "Weight Watchers": [
+  {
+   "id": "Q1929466",
+   "label": "Weight Watchers",
+   "desc": "amerikanisches Unternehmen",
+   "logo": [
+    "WW (rebrand) logo 2018.png",
+    "WeightWatchers2026.svg"
+   ],
+   "web": [
+    "https://www.weightwatchers.com/"
+   ],
+   "country": [
+    "Q30"
+   ]
+  },
+  {
+   "id": "Q84763014",
+   "label": "Weight Watchers diet",
+   "desc": "commercial diet and program for weight loss and healthier diet",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q155"
+   ]
+  },
+  {
+   "id": "Q64396073",
+   "label": "Weight Watchers Online 2015",
+   "desc": "clinical trial",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q30"
+   ]
+  },
+  {
+   "id": "Q66074521",
+   "label": "Weight Watchers and Families",
+   "desc": "clinical trial",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q65361220",
+   "label": "Weight Watchers Online",
+   "desc": "clinical trial",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q30"
+   ]
+  },
+  {
+   "id": "Q33924496",
+   "label": "Weight Watchers on prescription: an observational study of weight change among adults referred to Weight Watchers by the NHS",
+   "desc": "wissenschaftlicher Artikel",
+   "logo": [],
+   "web": [],
+   "country": []
+  }
+ ],
+ "Kidsworld": [
+  {
+   "id": "Q6404888",
+   "label": "KidsWorld",
+   "desc": "Zeitschrift",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q16"
+   ]
+  },
+  {
+   "id": "Q6404889",
+   "label": "KidsWorld Sports",
+   "desc": "French TV series or program",
+   "logo": [],
+   "web": [],
+   "country": []
+  }
+ ],
+ "Rottaler": [
+  {
+   "id": "Q2168973",
+   "label": "Rottaler Pferd",
+   "desc": "Pferderasse",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q896978",
+   "label": "Passauer Neue Presse",
+   "desc": "Passauer Regionalzeitung",
+   "logo": [
+    "Passauer Neue Presse Logo.svg"
+   ],
+   "web": [
+    "http://www.pnp.de"
+   ],
+   "country": []
+  },
+  {
+   "id": "Q68431631",
+   "label": "Rottaler",
+   "desc": "type of cheese",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q41385636",
+   "label": "Rottaler Bauernhaus",
+   "desc": "rottaler Bauernhaus, Blockbau mit Giebelschroten, Ende 18. Jahrhundert; Traidkasten, Blockbau (Obergeschoss), bez. 1739; Stadel mit Blockbau-Oberteil; zugehörig zu Vierseithof.",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q183"
+   ]
+  },
+  {
+   "id": "Q41383424",
+   "label": "Rottaler Bauernhaus des Vierseithofes",
+   "desc": "Blockbau mit Flachdach und hofseitigem Schrot, auf hohem massivem Untergeschoss, spätes 18. Jahrhundert",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q183"
+   ]
+  },
+  {
+   "id": "Q41409569",
+   "label": "Rottaler Bauernhaus eines stattlichen Vierseithofes",
+   "desc": "mit Blockbau-Obergeschoss, flach geneigtem Satteldach und Giebelschrot, um 1820/40",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q183"
+   ]
+  },
+  {
+   "id": "Q21865273",
+   "label": "Rottaler Forst",
+   "desc": "forest in Lower Austria",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q40"
+   ]
+  },
+  {
+   "id": "Q18630300",
+   "label": "Rottaler Bauernhaus",
+   "desc": "",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q183"
+   ]
+  },
+  {
+   "id": "Q116484411",
+   "label": "Rottalerstraße",
+   "desc": "street in Ingolstadt, Bavaria, Germany",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q183"
+   ]
+  }
+ ],
+ "Englert": [
+  {
+   "id": "Q21510300",
+   "label": "Englert",
+   "desc": "Familienname",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q1566128",
+   "label": "István Englert",
+   "desc": "ungarischer Badmintonspieler",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q37268237",
+   "label": "Englerth",
+   "desc": "Familienname",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q27571370",
+   "label": "Englert, Johann Matthäus",
+   "desc": "Artikel in der Allgemeinen Deutschen Biographie",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q61982966",
+   "label": "Wendelsmühle",
+   "desc": "Wohnplatz auf der Gemarkung der Kernstadt Grünsfeld",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q183"
+   ]
+  },
+  {
+   "id": "Q135855255",
+   "label": "Englerts",
+   "desc": "Weiler in Bad Waldsee, Deutschland",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q183"
+   ]
+  },
+  {
+   "id": "Q54839217",
+   "label": "Englertshofen",
+   "desc": "hamlet in the municipality of Egenhofen, Germany",
+   "logo": [],
+   "web": [],
+   "country": [
+    "Q183"
+   ]
+  },
+  {
+   "id": "Q21260239",
+   "label": "Barbara G. U. Englert",
+   "desc": "patent attorney",
+   "logo": [],
+   "web": [],
+   "country": []
+  }
+ ],
+ "Hiel": [
+  {
+   "id": "Q5412157",
+   "label": "Europe PubMed Central",
+   "desc": "Datenbank",
+   "logo": [],
+   "web": [
+    "http://europepmc.org/"
+   ],
+   "country": []
+  },
+  {
+   "id": "Q37261157",
+   "label": "Hiel",
+   "desc": "Familienname",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q35509",
+   "label": "Höhle",
+   "desc": "natürlich entstandener unterirdischer Hohlraum",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q1334711",
+   "label": "Emanuel Hiel",
+   "desc": "flämischer Dichter",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q21492369",
+   "label": "Hielscher",
+   "desc": "Familienname",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q20925029",
+   "label": "Hielke",
+   "desc": "männlicher Vorname",
+   "logo": [],
+   "web": [],
+   "country": []
+  },
+  {
+   "id": "Q65176077",
+   "label": "Ahiel",
+   "desc": "human biblical figure",
+   "logo": [],
+   "web": [],
+   "country": []
+  }
+ ]
+}

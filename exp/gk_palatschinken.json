@@ -1,0 +1,326 @@
+{
+ "count": 10,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Bürger Palatschinken",
+   "brand": "Bürger",
+   "price_eur": 2.69,
+   "unit_price_eur": 8.97,
+   "unit": "kg",
+   "size_g": 300.0,
+   "nutrition_100g": {
+    "kcal": 178.0,
+    "fat": 5.0,
+    "satfat": 0.8,
+    "carbs": 27.0,
+    "sugar": 4.3,
+    "protein": 5.3,
+    "salt": 0.83,
+    "fiber": 1.7
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/41311/41311-1745907523752.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Traditionelle Hausmannskost",
+   "source_url": "https://www.gurkerl.at/41311-buerger-palatschinken",
+   "source_id": "41311",
+   "fetched_at": "2026-10-13T02:08:53+00:00",
+   "extra": {
+    "ingredients": "Teigware\n\nZutaten: Wasser, WEIZENMEHL, 18% VOLLEI**, MILCH, Rapsöl, Zucker, Speisesalz, Backtriebmittel: (Diphosphate, Natriumcarbonate). ** Eier aus Bodenhaltung\n\nBei unter 7°C lagern. Geöffnete Packung innerhalb von 1 bis 2 Tagen aufbrauchen!"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Vantastic foods BIO Vantastic Pancakes",
+   "brand": "Vantastic foods",
+   "price_eur": 3.19,
+   "unit_price_eur": 17.72,
+   "unit": "kg",
+   "size_g": 180.0,
+   "nutrition_100g": {
+    "kcal": 347.0,
+    "fat": 1.2,
+    "satfat": 0.2,
+    "carbs": 71.0,
+    "sugar": 11.0,
+    "protein": 11.0,
+    "salt": 1.27,
+    "fiber": 0.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/29123/29123-1740673257025.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Vorratsschrank > Zucker, Mehl & Backen > Backmischungen",
+   "source_url": "https://www.gurkerl.at/29123-vantastic-foods-bio-vantastic-pancakes",
+   "source_id": "29123",
+   "fetched_at": "2026-10-13T02:08:53+00:00",
+   "extra": {
+    "ingredients": "Vantastic foods VANTASTIC PANCAKES, BIO, 180g\nBIO-FERTIGMISCHUNG ZUR ZUBEREITUNG VON PANCAKES\n\nZUTATEN: Weizenmehl* Typ 550, Rohrohrzucker*, Hirsevollkornmehl*, Backpulver (Backtriebmittel: Natriumhydrogencarbonat; Säuerungsmittel: Monokaliumtartrat; Maisstärke*), Weizenprotein*, Meersalz.\n(* = aus kontrolliert biologischem Anbau)\n\nALLERGIEHINWEIS: Enthält Weizen und Gluten. Kann Spuren von anderem glutenhaltigen Getreide, Schalenfrüchten und Sesam enthalten.\n\nZUBEREITUNG: Backmischung mit 270ml Sojadrink in einer Schüssel gut vermischen. Teig in eine leicht gefettete Pfanne geben und bei mittlerer Hitze backen."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "STEINER's Lower Carb Pfannkuchen Backmischung",
+   "brand": "Steiner's",
+   "price_eur": 4.19,
+   "unit_price_eur": 27.93,
+   "unit": "kg",
+   "size_g": 150.0,
+   "nutrition_100g": {
+    "kcal": 83.0,
+    "fat": 3.2,
+    "satfat": 0.4,
+    "carbs": 0.8,
+    "sugar": 0.0,
+    "protein": 7.8,
+    "salt": 1.4,
+    "fiber": 10.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/36166/36166-1729521042846.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Vorratsschrank > Zucker, Mehl & Backen > Backmischungen",
+   "source_url": "https://www.gurkerl.at/36166-steiner-s-lower-carb-pfannkuchen-backmischung",
+   "source_id": "36166",
+   "fetched_at": "2026-10-13T02:08:53+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Füllstoff: Polydextrose, HÜHNEREIklarpulver, SOJAmehl, Zitrusfaser, Stabilisator: Gellan, HAFERfaser, MOLKENprotein, Backtriebmittel (Diphosphate, Natriumcarbonate, Maisstärke), Emulgator: Lecithine, Speisesalz"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Atelier Délices Mini Vanille Krapfen",
+   "brand": "Atelier Délices",
+   "price_eur": 6.59,
+   "unit_price_eur": 31.38,
+   "unit": "kg",
+   "size_g": 210.0,
+   "nutrition_100g": {
+    "kcal": 248.0,
+    "fat": 9.0,
+    "satfat": 3.1,
+    "carbs": 37.0,
+    "sugar": 15.0,
+    "protein": 4.1,
+    "salt": 0.59,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/48934/48934-1785228722236413392.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Belgien",
+   "category": "Brot & Gebäck > Süßgebäck",
+   "source_url": "https://www.gurkerl.at/48934-atelier-delices-mini-vanille-krapfen",
+   "source_id": "48934",
+   "fetched_at": "2026-10-13T02:08:53+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Teig 50%: WEIZENMEHL, MALZMEHL, Wasser, EIER, pflanzliche Öle (Sonnenblumen, Raps, Palm), Zucker, Palmfett, Hefe, Salz, Dextrose, Emulgatoren (E471 Mono- und Diglyceride von Speisefettsäuren, E481 Natriumstearoyl-2-lactylat), Säuerungsmittel (E330 Citronensäure), Farbstoff (E160a Carotin), Enzyme (enthalten WEIZEN), Aromen, Antioxidationsmittel (E300 Ascorbinsäure), Honigzubereitung [Honig, Maltodextrin], Creme Vanillegeschmack [Wasser, Zucker, modifizierte Stärke, Palmöl, MILCHEIWEISS, färbender Ebereschenbeerenextrakt, Säureregulator (E575 Glucono-delta-Lacton)], färbendes Rotalgenpulver, Creme Vanillegeschmack [Salz, Farbstoff (E160A' Carotin), Aroma], Zucker, Stärke, pflanzliche Fette (Palm, Palmkern), Glukosesirup."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Bett'r BIO Pancake Mix vegan, glutenfrei",
+   "brand": "Bettr",
+   "price_eur": 4.99,
+   "unit_price_eur": 12.48,
+   "unit": "kg",
+   "size_g": 400.0,
+   "nutrition_100g": {
+    "kcal": 396.0,
+    "fat": 6.1,
+    "satfat": 1.4,
+    "carbs": 55.0,
+    "sugar": 2.5,
+    "protein": 26.0,
+    "salt": 0.87,
+    "fiber": 8.6
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/28664/28664-1670339019602.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Bulgarien",
+   "category": "Vorratsschrank > Zucker, Mehl & Backen > Backmischungen",
+   "source_url": "https://www.gurkerl.at/28664-bett-r-bio-pancake-mix-vegan-glutenfrei",
+   "source_id": "28664",
+   "fetched_at": "2026-10-13T02:08:53+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Buchweizenmehl*, Quinoamehl*, Hafermehl* glutenfrei, Reisprotein*, Leinsamenmehl*, Tapiokastärke*, Backpulver* (Maisstärke*, Säuerungsmittel: Sahne\nStärke *, Säuerungsmittel: Weinstein, Backtriebmittel: Natriumhydrogencarbonat ), Salz * aus biologischem Anbau"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "PICARD 2 Buchweizen-Galettes mit Schinken & Emmentaler (tiefgekühlt)",
+   "brand": "PICARD",
+   "price_eur": 5.99,
+   "unit_price_eur": 23.96,
+   "unit": "kg",
+   "size_g": 250.0,
+   "nutrition_100g": {
+    "kcal": 181.0,
+    "fat": 8.8,
+    "satfat": 5.4,
+    "carbs": 14.0,
+    "sugar": 1.7,
+    "protein": 10.0,
+    "salt": 0.77,
+    "fiber": 1.5
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/49056/49056-1786513275743416425.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Frankreich",
+   "category": "Tiefkühlprodukte > Fertiggerichte > Internationales",
+   "source_url": "https://www.gurkerl.at/49056-picard-2-buchweizen-galettes-mit-schinken-emmentaler-tiefgekuehlt",
+   "source_id": "49056",
+   "fetched_at": "2026-10-13T02:08:53+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Wasser, Buchweizenmehl 17,3 %, geriebener französischer Emmentaler 15,6 % (enthält MILCH), Kochschinken 14,3 % [Schweineschinken (Herkunft: Frankreich), Wasser, Salz, Dextrose, Schweinegelatine, Brühe (Mangold, Acerola, Karotte), Fermente], WEIZENMEHL (GLUTEN) 8,2 %, Crème fraîche flüssig (MILCH), ganzes EI 5,2 % (flüssig, pasteurisiert), LAKTOSE (MILCH), Reisstärke, Salz, Sonnenblumenöl, Cayennepfeffer, Pfeffer."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Wiener Miso Miso Karamell",
+   "brand": "Wiener Miso",
+   "price_eur": 8.59,
+   "unit_price_eur": 47.72,
+   "unit": "kg",
+   "size_g": 180.0,
+   "nutrition_100g": {
+    "kcal": 317.0,
+    "fat": 25.0,
+    "satfat": 24.0,
+    "carbs": 32.0,
+    "sugar": 30.0,
+    "protein": 2.6,
+    "salt": 0.2,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/47620/47620-1776178017504739595.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Schnelle Küche > Dressings, Pestos & Soßen",
+   "source_url": "https://www.gurkerl.at/47620-wiener-miso-miso-karamell",
+   "source_id": "47620",
+   "fetched_at": "2026-10-13T02:08:53+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Kokosmilch* (Kokosnussfleisch mind. 70 % Wasser),\nVollrohrzucker*, Miso* 5% (Sojabohne*, Reis*, Meersalz*,\nAspergillus flavus var. oryzae)"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Fandler Bio Mohnöl",
+   "brand": "Ölmühle Fandler",
+   "price_eur": 10.49,
+   "unit_price_eur": 104.9,
+   "unit": "l",
+   "size_g": 100.0,
+   "nutrition_100g": {
+    "kcal": 900.0,
+    "fat": 100.0,
+    "satfat": 13.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "protein": 0.0,
+    "salt": 0.0,
+    "fiber": 0.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/44706/44706-1758106099497224539.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "EU",
+   "category": "Vorratsschrank > Öl, Essig & Balsamico > Ölspezialitäten",
+   "source_url": "https://www.gurkerl.at/44706-fandler-bio-mohnoel",
+   "source_id": "44706",
+   "fetched_at": "2026-10-13T02:08:53+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Mohn"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Itineraire des Saveurs Crepes",
+   "brand": "IDS",
+   "price_eur": 3.29,
+   "unit_price_eur": 13.71,
+   "unit": "kg",
+   "size_g": 240.0,
+   "nutrition_100g": {
+    "kcal": 309.0,
+    "fat": 11.2,
+    "satfat": 2.6,
+    "carbs": 0.0,
+    "sugar": 60.96,
+    "protein": 8.1,
+    "salt": 0.65,
+    "fiber": 1.5
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/28807/28807-1672921926249.jpg",
+   "producer": "LA CREPE DE BROCELIANDE 8 RUE PIERRE LEGAULTBOISGERVILLY35360",
+   "producer_id": null,
+   "origin": "Frankreich",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Traditionelle Hausmannskost",
+   "source_url": "https://www.gurkerl.at/28807-itineraire-des-saveurs-crepes",
+   "source_id": "28807",
+   "fetched_at": "2026-10-13T02:08:53+00:00",
+   "extra": {
+    "ingredients": "Pfannkuchen 6Stk.\n\nZutaten: WEIZENMEHL 34%, VOLLMILCH, Rohrzucker, VOLLEI, Sonnenblumenöl, Aroma, natürliche Vanille, Salz. \n\nZwischen 0°C und +4°C lagern. Nach dem Öffnen innerhalb von 24 Stunden verbrauchen. Verpackt unter Schutzatmosphäre.\n\nKontakt: LA CREPE DE BROCELIANDE 8 RUE PIERRE LEGAULTBOISGERVILLY35360"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "PICARD 6 Crêpes (tiefgekühlt)",
+   "brand": "PICARD",
+   "price_eur": 6.49,
+   "unit_price_eur": 15.45,
+   "unit": "kg",
+   "size_g": 420.0,
+   "nutrition_100g": {
+    "kcal": 209.0,
+    "fat": 9.2,
+    "satfat": 6.0,
+    "carbs": 27.0,
+    "sugar": 8.5,
+    "protein": 6.3,
+    "salt": 0.53,
+    "fiber": 1.4
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/49070/49070-1786513277852753592.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Frankreich",
+   "category": "Tiefkühlprodukte > Mehlspeisen > Warme Mehlspeisen & Süße Knödel",
+   "source_url": "https://www.gurkerl.at/49070-picard-6-crepes-tiefgekuehlt",
+   "source_id": "49070",
+   "fetched_at": "2026-10-13T02:08:53+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Rehydrierte VOLLMILCH 64,3 %, WEIZENMEHL (GLUTEN), frisches EI (flüssig, pasteurisiert), Butterschmalz (MILCH), Zucker, Salz, Backtriebmittel: Natriumcarbonat."
+   }
+  }
+ ]
+}

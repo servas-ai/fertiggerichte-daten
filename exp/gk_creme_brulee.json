@@ -1,0 +1,102 @@
+{
+ "count": 3,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Bonne Maman Creme Brulee 2x100g",
+   "brand": "Bonne Maman",
+   "price_eur": 1.99,
+   "unit_price_eur": 9.95,
+   "unit": "kg",
+   "size_g": 200.0,
+   "nutrition_100g": {
+    "kcal": 237.0,
+    "fat": 15.0,
+    "satfat": 8.5,
+    "carbs": 21.0,
+    "sugar": 19.0,
+    "protein": 4.5,
+    "salt": 0.13,
+    "fiber": 0.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/31648/31648-1701967488174.jpg",
+   "producer": "Andros Austria GmbH, Porzellangasse 21/OG 1/Top 1, 1092 Wien, Österreich, www.andros-obst.at",
+   "producer_id": null,
+   "origin": "Frankreich",
+   "category": "Kühlregal > Joghurt & Desserts > Desserts",
+   "source_url": "https://www.gurkerl.at/31648-bonne-maman-creme-brulee-2x100g",
+   "source_id": "31648",
+   "fetched_at": "2026-10-13T02:18:26+00:00",
+   "extra": {
+    "ingredients": "Milchdessert mit Eiern.\n\nZutaten : SAHNE 38%, MagerMILCH, Zucker, EIgelb, VollEI 7%, natürliches Vanillearoma, extrahierte gemahlene Vanilleschoten. Beilage 4%: Karamell (Zucker, Glukosesirup). Kann Spuren von Getreide (GLUTEN) enthalten.\n\nZwischen + 4°C und + 8°C aufbewahren.\n\nKontakt: Andros Austria GmbH, Porzellangasse 21/OG 1/Top 1, 1092 Wien, Österreich, www.andros-obst.at"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Rians Crème Brulée mit Bourbon Vanille",
+   "brand": "Rians",
+   "price_eur": 5.09,
+   "unit_price_eur": 25.45,
+   "unit": "kg",
+   "size_g": 200.0,
+   "nutrition_100g": {
+    "kcal": 247.0,
+    "fat": 18.0,
+    "satfat": 12.0,
+    "carbs": 18.0,
+    "sugar": 17.0,
+    "protein": 3.9,
+    "salt": 0.11,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/36314/36314-1730198762998.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Frankreich",
+   "category": "Kühlregal > Joghurt & Desserts > Desserts",
+   "source_url": "https://www.gurkerl.at/36314-rians-creme-brulee-mit-bourbon-vanille",
+   "source_id": "36314",
+   "fetched_at": "2026-10-13T02:18:26+00:00",
+   "extra": {
+    "ingredients": "Crème Brûlée mit Vanillemark\n\nZutaten: SAHNE 51%, MagerMILCH, EIER 13%, Zucker, EIGELB, natürliches Vanillearoma 0.5%, Gemahlene Vanilleschoten, Beilage 4% (Karamellsplittern (Glukosesirup, Zucker))\n\nBei 0-7°C lagern."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "PICARD 2 Vanille Crème Brûlées (tiefgekühlt)",
+   "brand": "PICARD",
+   "price_eur": 8.99,
+   "unit_price_eur": 37.46,
+   "unit": "kg",
+   "size_g": 240.0,
+   "nutrition_100g": {
+    "kcal": 307.0,
+    "fat": 23.0,
+    "satfat": 15.0,
+    "carbs": 21.0,
+    "sugar": 16.0,
+    "protein": 2.8,
+    "salt": 0.07,
+    "fiber": 0.5
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/49057/49057-178651327727685375.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Italien",
+   "category": "Tiefkühlprodukte > Mehlspeisen > Torten, Kuchen & Co.",
+   "source_url": "https://www.gurkerl.at/49057-picard-2-vanille-creme-brulees-tiefgekuehlt",
+   "source_id": "49057",
+   "fetched_at": "2026-10-13T02:18:26+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Vanillecreme 95,2 %: Crème fraîche flüssig (MILCH) 59 %, VOLLMILCH, Zucker, gezuckerte Kondensmilch (MILCH, Zucker), Tapiokastärke, Freiland-EIGELB (flüssig, pasteurisiert), natürliches Vanillearoma 0,1 %, gemahlene ausgelaugte Vanilleschoten. Karamellstreusel 4,8 %: Zucker, Glukosesirup, Wasser."
+   }
+  }
+ ]
+}

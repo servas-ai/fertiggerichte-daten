@@ -1,0 +1,291 @@
+{
+ "version": "2026-10-13",
+ "note": "Markenfamilien: Kette -> Eigen-/Untermarken. Logos nur nach Vision Gate (qa/vision_gate.json). logo_type: offiziell oder aus Packung.",
+ "families": [
+  {
+   "id": "hofer",
+   "name": "HOFER",
+   "chain": "HOFER",
+   "logo": "logos/hofer.svg",
+   "sub_brands": [
+    {
+     "name": "Good Choice",
+     "pattern": "good choice",
+     "logo": null,
+     "logo_type": null,
+     "logo_source": null
+    },
+    {
+     "name": "Primana",
+     "pattern": "primana",
+     "logo": "logos/primana.png",
+     "logo_type": "aus Packung",
+     "logo_source": "hofer.at Produktfoto Primana Frühstücksfleisch"
+    },
+    {
+     "name": "Leibspeis'",
+     "pattern": "leibspeis",
+     "logo": null,
+     "logo_type": null,
+     "logo_source": null
+    },
+    {
+     "name": "Cucina",
+     "pattern": "cucina",
+     "logo": "logos/cucina.png",
+     "logo_type": "offiziell (Markenseite)",
+     "logo_source": "hofer.at/marken/cucina"
+    },
+    {
+     "name": "Asia Green Garden",
+     "pattern": "asia green garden",
+     "logo": "logos/asia-green-garden.png",
+     "logo_type": "aus Packung",
+     "logo_source": "hofer.at Produktfoto Asia Green Garden Pilztopf"
+    },
+    {
+     "name": "Gourmet",
+     "pattern": "^gourmet|gourmet finest",
+     "logo": "logos/hofer-gourmet.png",
+     "logo_type": "offiziell (Markenseite)",
+     "logo_source": "hofer.at Markenlogo GOURMET"
+    },
+    {
+     "name": "Le Gusto",
+     "pattern": "le gusto",
+     "logo": "logos/le-gusto.png",
+     "logo_type": "offiziell (Markenseite)",
+     "logo_source": "hofer.at Markenlogo"
+    },
+    {
+     "name": "Nature's Gold",
+     "pattern": "nature.?s gold",
+     "logo": null,
+     "logo_type": null,
+     "logo_source": null
+    },
+    {
+     "name": "Zurück zum Ursprung",
+     "pattern": "zurück zum ursprung",
+     "logo": "logos/zurueck-zum-ursprung.png",
+     "logo_type": "aus Packung",
+     "logo_source": "hofer.at Produktfoto ZZU Käferbohnen"
+    },
+    {
+     "name": "Just Veg",
+     "pattern": "just veg",
+     "logo": null,
+     "logo_type": null,
+     "logo_source": null
+    },
+    {
+     "name": "Enjoy Free",
+     "pattern": "enjoy free",
+     "logo": null,
+     "logo_type": null,
+     "logo_source": null
+    }
+   ]
+  },
+  {
+   "id": "billa",
+   "name": "BILLA (REWE)",
+   "chain": "BILLA",
+   "logo": "logos/billa.svg",
+   "sub_brands": [
+    {
+     "name": "Clever",
+     "pattern": "^clever",
+     "logo": "logos/clever.png",
+     "logo_type": "offiziell (Markenseite)",
+     "logo_source": "billa.at Eigenmarken"
+    },
+    {
+     "name": "Billa Immer Gut",
+     "pattern": "immer gut",
+     "logo": "logos/immer-gut.png",
+     "logo_type": "offiziell (Markenseite)",
+     "logo_source": "billa.at Eigenmarken"
+    },
+    {
+     "name": "Simply Good",
+     "pattern": "simply good",
+     "logo": "logos/simply-good.png",
+     "logo_type": "offiziell (Markenseite)",
+     "logo_source": "billa.at Eigenmarken"
+    },
+    {
+     "name": "Omis Schmankerl",
+     "pattern": "omis",
+     "logo": "logos/omis-schmankerl.png",
+     "logo_type": "offiziell (Markenseite)",
+     "logo_source": "billa.at Eigenmarken"
+    },
+    {
+     "name": "Billa Bio",
+     "pattern": "billa bio",
+     "logo": "logos/billa-bio.png",
+     "logo_type": "offiziell (Markenseite)",
+     "logo_source": "billa.at Eigenmarken"
+    },
+    {
+     "name": "Ja! Natürlich",
+     "pattern": "ja!? ?nat",
+     "logo": "logos/ja-natuerlich.svg",
+     "logo_type": "offiziell (Markenseite)",
+     "logo_source": "Wikimedia/ja-natuerlich.at"
+    },
+    {
+     "name": "Billa Genusswelt",
+     "pattern": "genusswelt",
+     "logo": "logos/billa-genusswelt.png",
+     "logo_type": "offiziell (Markenseite)",
+     "logo_source": "billa.at Eigenmarken"
+    },
+    {
+     "name": "Vegavita",
+     "pattern": "vegavita",
+     "logo": "logos/vegavita.png",
+     "logo_type": "offiziell (Markenseite)",
+     "logo_source": "billa.at Eigenmarken"
+    },
+    {
+     "name": "Corso",
+     "pattern": "^corso",
+     "logo": null,
+     "logo_type": null,
+     "logo_source": null
+    }
+   ]
+  },
+  {
+   "id": "spar",
+   "name": "SPAR",
+   "chain": "SPAR",
+   "logo": "logos/spar.svg",
+   "sub_brands": [
+    {
+     "name": "S-Budget",
+     "pattern": "s-budget",
+     "logo": "logos/s-budget.png",
+     "logo_type": "offiziell (Markenseite)",
+     "logo_source": "spar.at Eigenmarken"
+    },
+    {
+     "name": "Spar Feine Küche",
+     "pattern": "feine küche",
+     "logo": "logos/spar-feine-kueche.png",
+     "logo_type": "offiziell (Markenseite)",
+     "logo_source": "spar.at Eigenmarken"
+    },
+    {
+     "name": "Spar Premium",
+     "pattern": "spar premium",
+     "logo": "logos/spar-premium.png",
+     "logo_type": "offiziell (Markenseite)",
+     "logo_source": "spar.at Eigenmarken"
+    },
+    {
+     "name": "Spar Natur*pur",
+     "pattern": "natur\\*?pur",
+     "logo": "logos/spar-natur-pur.png",
+     "logo_type": "offiziell (Markenseite)",
+     "logo_source": "spar.at Eigenmarken"
+    },
+    {
+     "name": "Spar Veggie",
+     "pattern": "spar veggie",
+     "logo": "logos/spar-veggie.png",
+     "logo_type": "offiziell (Markenseite)",
+     "logo_source": "spar.at Eigenmarken"
+    },
+    {
+     "name": "Spar enjoy",
+     "pattern": "spar enjoy",
+     "logo": null,
+     "logo_type": null,
+     "logo_source": null
+    },
+    {
+     "name": "Spar Vital",
+     "pattern": "spar vital",
+     "logo": "logos/spar-vital.png",
+     "logo_type": "offiziell (Markenseite)",
+     "logo_source": "spar.at Eigenmarken"
+    },
+    {
+     "name": "Despar",
+     "pattern": "despar",
+     "logo": "logos/despar.png",
+     "logo_type": "offiziell (Markenseite)",
+     "logo_source": "spar.at"
+    }
+   ]
+  },
+  {
+   "id": "lidl",
+   "name": "LIDL",
+   "chain": "LIDL",
+   "logo": "logos/lidl.svg",
+   "sub_brands": [
+    {
+     "name": "Chef Select",
+     "pattern": "chef select",
+     "logo": null,
+     "logo_type": null,
+     "logo_source": null
+    },
+    {
+     "name": "Vemondo",
+     "pattern": "vemondo",
+     "logo": null,
+     "logo_type": null,
+     "logo_source": null
+    },
+    {
+     "name": "Deluxe",
+     "pattern": "deluxe",
+     "logo": null,
+     "logo_type": null,
+     "logo_source": null
+    },
+    {
+     "name": "Vitasia",
+     "pattern": "vitasia",
+     "logo": null,
+     "logo_type": null,
+     "logo_source": null
+    },
+    {
+     "name": "Kania",
+     "pattern": "kania",
+     "logo": null,
+     "logo_type": null,
+     "logo_source": null
+    }
+   ]
+  },
+  {
+   "id": "penny",
+   "name": "PENNY (REWE)",
+   "chain": "PENNY",
+   "logo": "logos/penny.svg",
+   "sub_brands": [
+    {
+     "name": "Chef Menü",
+     "pattern": "chef men",
+     "logo": null,
+     "logo_type": null,
+     "logo_source": null
+    },
+    {
+     "name": "Food for Future",
+     "pattern": "food for future",
+     "logo": "logos/food-for-future.svg",
+     "logo_type": "offiziell (Markenseite)",
+     "logo_source": "penny.at"
+    }
+   ]
+  }
+ ]
+}

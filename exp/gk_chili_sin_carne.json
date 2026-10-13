@@ -1,0 +1,189 @@
+{
+ "count": 6,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Every. Chili sin Carne (tiefgekühlt)",
+   "brand": "Every.",
+   "price_eur": 9.19,
+   "unit_price_eur": 20.42,
+   "unit": "kg",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "kcal": 102.0,
+    "fat": 3.0,
+    "satfat": 0.6,
+    "carbs": 11.4,
+    "sugar": 3.8,
+    "protein": 5.6,
+    "salt": 0.87,
+    "fiber": 3.5
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/41209/41209-1752156030797.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Tiefkühlprodukte > Fertiggerichte > Internationales",
+   "source_url": "https://www.gurkerl.at/41209-every-chili-sin-carne-tiefgekuehlt",
+   "source_id": "41209",
+   "fetched_at": "2026-10-13T02:09:11+00:00",
+   "extra": {
+    "ingredients": "Herzhaftes veganes Chili mit Bohnen und Pulled-Veggie-Protein\n\nZutaten: Bratkartoffeln (Kartoffeln, Sonnenblumenöl, Dextrose) (15%), Tomaten, Pflückzubereitung auf Basis pflanzlicher Proteine (Wasser, pflanzliches Protein (Erbsen, Sonnenblumen, HAFER), Erbsenfasern, Rapsöl, Paprika, Hefe, Knoblauchpulver, Zwiebelpulver, Vitamin B12, Bockshornkleesamen) (11%), gekochte Kidneybohnen (Wasser, Kidneybohnen, Salz) (10%), gekochte schwarze Bohnen (Wasser, schwarze Bohnen) (10%), gelbe Paprika, rote Paprika, Wasser, Zuckermais, Zwiebeln, Tomatenmark, Tomatensaft, natives Olivenöl extra, Salz, Agavendicksaft, Korianderblätter, Knoblauch, Chilis, Paprika, Kreuzkümmel, Kartoffelstärke, SENFSAAT, Cayennepfeffer, Oregano, Reisstärke, Piment, Kardamom.\n\nBei -18°C lagern."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Lotao BIO Chili sin Carne mit Veggie Hack vegan",
+   "brand": "Lotao",
+   "price_eur": 3.59,
+   "unit_price_eur": 11.22,
+   "unit": "kg",
+   "size_g": 320.0,
+   "nutrition_100g": {
+    "kcal": 85.0,
+    "fat": 1.7,
+    "satfat": 0.2,
+    "carbs": 9.4,
+    "sugar": 2.6,
+    "protein": 6.6,
+    "salt": 1.12,
+    "fiber": 2.7
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/26639/26639-1674741726391.jpg",
+   "producer": "",
+   "producer_id": null,
+   "origin": "Litauen",
+   "category": "Vorratsschrank > Fertiggerichte > Menüs & Dosengerichte",
+   "source_url": "https://www.gurkerl.at/26639-lotao-bio-chili-sin-carne-mit-veggie-hack-vegan",
+   "source_id": "26639",
+   "fetched_at": "2026-10-13T02:09:11+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Wasser, Tomaten* gehackt (29 %), Kidneybohnen* rot (15 %), Mais* (9 %), Tomatenmark* doppelt konzentriert, Erbsenprotein-Jackfrucht- Granulat* (Erbsenproteinpulver*, Jackfruchtpulver*) (4 %), Zwiebeln*, Meersalz, Rapsöl*, Rohrzucker*, Paprikapulver* scharf (0,4 %), Paprikapulver* mild, Basilikum*, Oregano*, Majoran*, Pfeffer*.\n\nTrocken und vor Wärme und Licht geschützt lagern.\n\nHersteller: \nLpp Lotao Pack- und Produktions GmbH, Brauereistraße 31-33, 19306 Neustadt-Glewe\n\n"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Feel Food BIO Chili Sin Carne",
+   "brand": "feelfood",
+   "price_eur": 4.19,
+   "unit_price_eur": 4.93,
+   "unit": "kg",
+   "size_g": 850.0,
+   "nutrition_100g": {
+    "kcal": 332.0,
+    "fat": 2.9,
+    "satfat": 0.6,
+    "carbs": 54.0,
+    "sugar": 8.2,
+    "protein": 17.0,
+    "salt": 2.8,
+    "fiber": 9.8
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/48530/48530-1781856042100153799.png",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Vorratsschrank > Fertiggerichte > Menüs & Dosengerichte",
+   "source_url": "https://www.gurkerl.at/48530-feel-food-bio-chili-sin-carne",
+   "source_id": "48530",
+   "fetched_at": "2026-10-13T02:09:11+00:00",
+   "extra": {
+    "ingredients": "Reis* (33,5%), Adzukibohnen*(14,8%), Sonnenblumenprotein*(14,5%), Tomatenpulver* (12,5%), Haferkleie*, Gemüsemischung*(Karotten*, Sellerie*, Lauch*, Sellerieknolle*), Karottenpulver* (Karottensaftkonzentrat*, Maisstärke*), Salz, Zuckermaiskörner* gefriergetrocknet, Leinmehl*gold, Knoblauchpulver*, Zwiebelpulver*, Chili gemahlen* (0,99%), Kreuzkümmel* gemahlen, Paprikapulver* geräuchert (Paprika*, Rauch), Ceylon Zimtpulver* gemahlen, Oregano* gerebelt, schwarzer Pfeffer* gemahlen. \n*Aus kontrolliert ökologischem Anbau. \n\"\n"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Suppito Chili con Soja",
+   "brand": "Suppito",
+   "price_eur": 14.49,
+   "unit_price_eur": 28.98,
+   "unit": "kg",
+   "size_g": 500.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/44767/44767-1758268184534494814.JPG",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Traditionelle Hausmannskost",
+   "source_url": "https://www.gurkerl.at/44767-suppito-chili-con-soja",
+   "source_id": "44767",
+   "fetched_at": "2026-10-13T02:09:11+00:00",
+   "extra": {
+    "ingredients": "Zutaten: 30% Gemüse (Tomaten, Karotten, grüne Paprika, Zwiebel, rote Paprika), Wasser, Zuckermais, 6% Kidneybohnen, 5% SOJAGRANULAT, Rohrohrzucker, Olivenöl, Natursalz, Tomatenmark, Kümmel, Apfelessig, Knoblauch, Chilipulver, Asant, Bockshornkleesamen, Hiziki Algen."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Marks & Spencer Plant Kitchen No Beef Mince",
+   "brand": "Marks & Spencer",
+   "price_eur": 11.99,
+   "unit_price_eur": 23.98,
+   "unit": "kg",
+   "size_g": 500.0,
+   "nutrition_100g": {
+    "kcal": 136.0,
+    "fat": 2.9,
+    "satfat": 0.4,
+    "carbs": 4.0,
+    "sugar": 1.7,
+    "protein": 21.5,
+    "salt": 1.2,
+    "fiber": 3.9
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/46872/46872-1770640862383687476.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Großbritannien",
+   "category": "Marks & Spencer > Tiefgekühlte Produkte",
+   "source_url": "https://www.gurkerl.at/46872-marks-spencer-plant-kitchen-no-beef-mince",
+   "source_id": "46872",
+   "fetched_at": "2026-10-13T02:09:11+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Trinkwasser, Erbsenprotein (25 %), karamellisierte Zwiebeln (7 %) (Zwiebeln, Muscovadozucker, Rapsöl), Erbsenextrakt, Rapsöl, natürliche Aromen, Zwiebelpüree, glutenfreier Gerstenmalzextrakt, geröstetes Knoblauchpüree, geräuchertes Paprikapulver, Maisstärke, Weißwein, Speisesalz, Rote-Bete-Saftkonzentrat, Weißweinessig, Sojabohnen, grob gemahlener schwarzer Pfeffer, getrocknete Zwiebeln, Champignonsaftkonzentrat, Hefeextrakt, Stabilisator: E401, Essig, Zitronensaftkonzentrat, grob gemahlener schwarzer Pfeffer, getrocknete Pastinaken"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Bonduelle Chili sin Carne",
+   "brand": "Bonduelle",
+   "price_eur": 4.19,
+   "unit_price_eur": 10.48,
+   "unit": "kg",
+   "size_g": 400.0,
+   "nutrition_100g": {
+    "kcal": 69.0,
+    "fat": 0.6,
+    "satfat": 0.1,
+    "carbs": 9.9,
+    "sugar": 2.0,
+    "protein": 4.4,
+    "salt": 1.0,
+    "fiber": 3.3
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/42404/42404-1781014939832.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "EU",
+   "category": "Vorratsschrank > Fertiggerichte > Menüs & Dosengerichte",
+   "source_url": "https://www.gurkerl.at/42404-bonduelle-chili-sin-carne",
+   "source_id": "42404",
+   "fetched_at": "2026-10-13T02:09:11+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Wasser, 38,4% Kidneybohnen,\n8,6% Gemüsemais, 4,3% rote Paprika, 2,7% Zwiebeln,\nTomatenmark, Salz, 0,5% SENF (Wasser, SENFsamen, Branntweinessig, Speisesalz), 0,3% Kreuzkümmel,\n0,1% Zwiebelpulver, Tomatenpulver, 0,1% Paprika,\nKnoblauchpulver, 0,09% geräucherte Paprika, 0,04% Chilischote.\nKann Spuren von GLUTEN und SOJA enthalten."
+   }
+  }
+ ]
+}

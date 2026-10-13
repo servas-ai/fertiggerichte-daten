@@ -1,0 +1,1 @@
+import{A as e,l as t,p as n}from"./UpTRTvzs.js";var r=t(()=>{let t=e().public.FEATURE_IS_CORPORATE?`corporate`:`default`;n(t)});export{r as default};

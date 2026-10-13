@@ -1,0 +1,134 @@
+{
+ "run": "2026-10-13T12 Daten-Squad",
+ "added": [
+  {
+   "andros": "Vision gate 2026-10-13T12 (Daten-Squad): visuell geprüft (korrekte Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · offizielles Logo andros.fr (Andros Austria GmbH Produkte)"
+  },
+  {
+   "deflorian": "Vision gate 2026-10-13T12 (Daten-Squad): visuell geprüft (korrekte Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · offizielles Header-Logo deflorian.tirol (Deflorian Tiefkühlspezialitäten, Gnadenwald; NICHT deflorian.it Interior)"
+  },
+  {
+   "aia": "Vision gate 2026-10-13T12 (Daten-Squad): visuell geprüft (korrekte Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · offizielles Logo aiafood.com (AIA Agricola Italiana Alimentare S.p.A.; Veronesi)"
+  },
+  {
+   "arla": "Vision gate 2026-10-13T12 (Daten-Squad): visuell geprüft (korrekte Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · offizielles Header-Logo arlafoods.de"
+  },
+  {
+   "thiriet": "Vision gate 2026-10-13T12 (Daten-Squad): visuell geprüft (korrekte Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · offizielles Header-Logo thiriet.com"
+  },
+  {
+   "hammermuehle": "Vision gate 2026-10-13T12 (Daten-Squad): visuell geprüft (korrekte Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · offizielles Logo hammermuehle-shop.de (Hammermühle GmbH, glutenfrei seit 1967)"
+  },
+  {
+   "landtmanns": "Vision gate 2026-10-13T12 (Daten-Squad): visuell geprüft (korrekte Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · offizielles Logo landtmanns-original.at (Landtmann's Feine Patisserie)"
+  },
+  {
+   "ashoka": "Vision gate 2026-10-13T12 (Daten-Squad): visuell geprüft (korrekte Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · offizielles Logo ashokafoods.com (ADF Foods)"
+  },
+  {
+   "strauss": "Vision gate 2026-10-13T12 (Daten-Squad): visuell geprüft (korrekte Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · offizielles Logo straussjosef.it (Strauss Josef GmbH, Südtirol Knödel)"
+  },
+  {
+   "danke-bauer": "Vision gate 2026-10-13T12 (Daten-Squad): visuell geprüft (korrekte Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · offizielles Logo dankebauer.com (Kärntner Spezialitäten)"
+  },
+  {
+   "shanshi": "Vision gate 2026-10-13T12 (Daten-Squad): visuell geprüft (korrekte Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · offizielles Logo shan-shi.com"
+  },
+  {
+   "riso-gallo": "Vision gate 2026-10-13T12 (Daten-Squad): visuell geprüft (korrekte Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · offizielles Logo risogallo.it (Riso Gallo S.p.A.)"
+  },
+  {
+   "esterhazy": "Vision gate 2026-10-13T12 (Daten-Squad): visuell geprüft (korrekte Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · offizielles Wortmarke esterhazy.at (Esterhazy Wild-Gerichte bei Gurkerl)"
+  },
+  {
+   "galbani": "Vision gate 2026-10-13T12 (Daten-Squad): visuell geprüft (korrekte Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · Wikimedia Commons (CC BY-SA 4.0) File:LogoGalbani-06122021.png"
+  }
+ ],
+ "updated_fileless": [
+  {
+   "youcook": "Vision gate 2026-10-13T12 (Daten-Squad): visuell geprüft (korrekte Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · offizielles Header-Logo youcook-food.com (YOUCOOK GmbH, Köln; schwarzer BG entfernt)"
+  },
+  {
+   "indomie": "Vision gate 2026-10-13T12 (Daten-Squad): visuell geprüft (korrekte Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · Wikimedia Commons (Public domain) File:Indomie Logo.png"
+  }
+ ],
+ "aliases": [
+  [
+   "iglo",
+   [
+    "Iglo",
+    "IGLO"
+   ]
+  ]
+ ],
+ "rejected": {
+  "Good Choice / Aldi CDN": "Aldi CDN 403; hofer.at only yields Aldi chain logos, not Good Choice wordmark; Commons empty",
+  "Pappudia": "Rohlik/Gurkerl Eigenmarke; gurkerl.at only exposes Gurkerl logo; no Commons / no dedicated brand page logo",
+  "dmBio": "dm.at/dm.de brand pages only yield dm chain favicons; no dmBio wordmark asset; Commons empty",
+  "Chef Select / Vemondo / Chef Menü": "Lidl Eigenmarken; no freigestelltes Logo; Commons only product photos",
+  "SPAR enjoy": "file-less row notes white-on-transparent only; spar.at 403 on brand page; not aliased to SPAR (distinct sub-brand)",
+  "GAON / The Green Garden / Mochi": "official domains NXDOMAIN / SSL fail / robots disallow; The Green Garden ≠ Asia Green Garden",
+  "La Fermière": "official SVG is predominantly white fills → invisible on light bg (same as T11 reject)",
+  "Feelfood": "feelfood.shop asset is abstract brush mark without wordmark; broken alpha",
+  "Della Mamma / Casa di Pietro": "heiderbeck.com only exposes Heiderbeck producer logo, not brand wordmark",
+  "Deflorian.it": "wrong entity (interior design); food brand is deflorian.tirol (accepted)",
+  "AIA Commons / aia.it": "wrong entities (referees association / Associazione Italiana Allevatori); food logo from aiafood.com accepted",
+  "Amlacher": "amlacher.com is aftermarket parking page",
+  "Staudinger": "staudinger.at redirects to unrelated stoellnberger.com",
+  "Findus": "findus.com redirects to Birds Eye UK; no clean Commons logo",
+  "Milsani": "aldi-sued.de only yields Aldi logos",
+  "Strauss Eis / Hammermühle wrong domains": "NXDOMAIN; resolved via straussjosef.it / hammermuehle-shop.de",
+  "alias to file-less rows (Good Choice, Chef Menü, Nature's Gold, etc.)": "no logo file → no alias (T11 policy)"
+ },
+ "checked_unresolved": [
+  "Good Choice",
+  "Pappudia",
+  "dmBio",
+  "Chef Select",
+  "SPAR enjoy",
+  "GAON - Koreanisches Restaurant",
+  "The Green Garden",
+  "Vemondo",
+  "Chef Menü",
+  "Amlacher",
+  "Mochi",
+  "M / MPreis Eigenmarke",
+  "Cecchin",
+  "Stangl",
+  "Ackerl",
+  "Wiener Virtshaus",
+  "Volante PIZZZA per casa",
+  "Frank Soup",
+  "feelfood",
+  "Kania",
+  "Pure",
+  "Greisinger",
+  "Rettenswert",
+  "Pasta Box",
+  "Casa di Pietro",
+  "Elsässer",
+  "La Fermiere",
+  "Atelier Délices",
+  "Della Mamma",
+  "Rians",
+  "Milsani",
+  "Deli Dip",
+  "Njami",
+  "PIZZ'AH",
+  "Leibspeis'",
+  "MCENNEDY",
+  "Marinus",
+  "TANN",
+  "Haas",
+  "Go",
+  "Ager",
+  "Asia"
+ ],
+ "counts": {
+  "added": 14,
+  "updated_fileless": 2,
+  "aliased": 1,
+  "total_rows": 212
+ },
+ "generated": "2026-10-13T12:20:28+00:00"
+}

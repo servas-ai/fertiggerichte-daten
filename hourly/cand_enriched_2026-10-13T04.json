@@ -1,0 +1,1210 @@
+[
+ {
+  "p": {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Pappudia Gebackener Käse mit Kartoffeln und Sauce Tartar",
+   "brand": "Pappudia",
+   "price_eur": 3.59,
+   "unit_price_eur": 7.48,
+   "unit": "kg",
+   "size_g": 480.0,
+   "nutrition_100g": {
+    "kcal": 137.0,
+    "fat": 4.4,
+    "satfat": 2.7,
+    "carbs": 15.0,
+    "sugar": 1.0,
+    "protein": 8.8,
+    "salt": 0.52
+   },
+   "ean": "8595643815989",
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/43474/43474-1752145189985372969.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "EU",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Traditionelle Hausmannskost",
+   "source_url": "https://www.gurkerl.at/43474-pappudia-gebackener-kaese-mit-kartoffeln-und-sauce-tartar",
+   "source_id": "43474",
+   "fetched_at": "2026-10-13T04:21:27+00:00",
+   "extra": {
+    "in_stock": true,
+    "archived": false,
+    "ingredients": "Zutaten: \"Salzkartoffeln 60%, Bratkäse im Dreifachmantel 40% [58% Eidam-Käse (30% Fett i.Tr.)\n(Milch, Salz, Milchkulturen, Lab), Stabilisierungsmittel (Trinkwasser, Milch, Weizenstärke,\nStabilisator E 461, E 464, Milcharoma), Überzugsmasse (Trinkwasser, Glukosesirup, Zucker,\nWeizenmehl, Dextrose, Stabilisator E 466, Salz, Weizeneiweiß), Paniermehl (Weizenmehl\n, Trinkwasser, Backhefe, Salz). \""
+   }
+  },
+  "cat": "Komplettmahlzeit",
+  "pack": "Kühlregal (Menüschale/frisch)"
+ },
+ {
+  "p": {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Pappudia Rindfleisch in Paradeisersauce und Nudeln",
+   "brand": "Pappudia",
+   "price_eur": 3.59,
+   "unit_price_eur": 7.98,
+   "unit": "kg",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "kcal": 91.0,
+    "fat": 1.1,
+    "satfat": 0.2,
+    "carbs": 14.0,
+    "sugar": 1.6,
+    "protein": 5.8,
+    "salt": 0.57
+   },
+   "ean": "8595643816009",
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/43472/43472-1752145189519117426.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "EU",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Traditionelle Hausmannskost",
+   "source_url": "https://www.gurkerl.at/43472-pappudia-rindfleisch-in-paradeisersauce-und-nudeln",
+   "source_id": "43472",
+   "fetched_at": "2026-10-13T04:21:27+00:00",
+   "extra": {
+    "in_stock": true,
+    "archived": false,
+    "ingredients": "Zutaten: Nudeln 45% (Weizengrieß Triticum durum, Trinkwasser), Tomatensauce 44% [Trinkwasser\nWasser, frischer Sellerie, frische Karotten, Tomatenpüree (160g Tomaten pro 100g), Wasser, Verdickungsmittel:\nmodifizierte Stärke; Zucker, Salz), Weizenmehl, Zwiebel, Zucker, Petersilie, Rapsöl, Salz,\nFleischbrühe (Salz bis zu 62%, Rinderfett 15,3%, Geschmacksverstärker: E621;\nRibonukleotide, Hefeextrakt, Karamellfarbe, Zucker, Kartoffelstärke, Zwiebel, Konzentrat von Aromastoffen\n(Milch), Petersilienblatt, Säureregulator: E330), Branntweinessig, Piment, Lorbeer\nBlatt, ganzer Pfeffer, Zimt], Rindfleisch 11%."
+   }
+  },
+  "cat": "Komplettmahlzeit",
+  "pack": "Kühlregal (Menüschale/frisch)"
+ },
+ {
+  "p": {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Meica Curry King Fix & Fertig",
+   "brand": "Meica",
+   "price_eur": 3.69,
+   "unit_price_eur": 16.77,
+   "unit": "kg",
+   "size_g": 220.0,
+   "nutrition_100g": {
+    "kcal": 215.0,
+    "fat": 15.0,
+    "satfat": 5.5,
+    "carbs": 12.0,
+    "sugar": 12.0,
+    "protein": 8.0,
+    "salt": 1.6,
+    "fiber": 0.0
+   },
+   "ean": "4000503280004",
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/4984/4984-1603205011725.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Traditionelle Hausmannskost",
+   "source_url": "https://www.gurkerl.at/4984-meica-curry-king-fix-fertig",
+   "source_id": "4984",
+   "fetched_at": "2026-10-13T04:21:27+00:00",
+   "extra": {
+    "in_stock": true,
+    "archived": false,
+    "ingredients": "Curry-Bockwurst mit Curry-Sauce.\n\nZutaten: 55 % Bockwurst [Schweinefleisch, Trinkwasser,\nSpeck, Speisesalz, Gewürze, Gewürzextrakte (mit SELLERIE),\nDextrose, Antioxidationsmittel: Ascorbinsäure,\nKonservierungsstoff: Natriumnitrit, Rauch], Curry-Sauce\n[Trinkwasser, Tomatenmark, Zucker, Branntweinessig,\nApfelmark, modifizierte Stärke, Salz, Gewürze,\nVerdickungsmittel: Guarkernmehl, Johannisbrotkernmehl],\nCurrypulver (extra Tütchen). Kann Spuren von MILCHEIWEIß,\nSENF enthalten.\n\nGekühlt (bei 2°-7°C) lagern, nach dem Öffnen nur begrenzt haltbar.\n\nKontaktdaten:\nInterfood Lebensmittelgroßhandel Ges.m.b.H., Innsbruckerstrasse 77, 6060 Hall in Tirol, +43(0)52 2356808–0, info@interfood.at"
+   }
+  },
+  "cat": "Komplettmahlzeit",
+  "pack": "Kühlregal (Menüschale/frisch)"
+ },
+ {
+  "p": {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Hühnerfilet in Pilzsauce mit Reis",
+   "brand": "Perutnina",
+   "price_eur": 3.99,
+   "unit_price_eur": 12.09,
+   "unit": "kg",
+   "size_g": 330.0,
+   "nutrition_100g": {
+    "kcal": 127.0,
+    "fat": 3.7,
+    "satfat": 1.4,
+    "carbs": 15.1,
+    "sugar": 0.5,
+    "protein": 8.0,
+    "salt": 0.97
+   },
+   "ean": "3838977051704",
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/49016/49016-1786020690407065688.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Slowenien",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Traditionelle Hausmannskost",
+   "source_url": "https://www.gurkerl.at/49016-huehnerfilet-in-pilzsauce-mit-reis",
+   "source_id": "49016",
+   "fetched_at": "2026-10-13T04:21:27+00:00",
+   "extra": {
+    "in_stock": true,
+    "archived": false,
+    "ingredients": "Zutaten: Hühnerfilet in Pilzsauce 60 %: Hähnchenfleisch 39 %, Wasser, Zwiebeln, Champignons 8 % (Champignons, Wasser, Salz), SAHNE (sauer und frisch), jodiertes Salz, BUTTER, Sonnenblumenöl, Verdickungsmittel: acetyliertes Distärkeadipat, MILCHPROTEINE, Xanthan, modifizierte Stärke, Dextrose, MILCHPULVER, Gewürze, Aromastoffe. Gekochter Reis 40 %: Wasser, Reis, jodiertes Salz, Sonnenblumenöl, Säureregulator: gepufferter Essig, Zitronensaft, Petersilie "
+   }
+  },
+  "cat": "Komplettmahlzeit",
+  "pack": "Kühlregal (Menüschale/frisch)"
+ },
+ {
+  "p": {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Radatz Salonbeuschl mit Rahm",
+   "brand": "Radatz",
+   "price_eur": 4.49,
+   "unit_price_eur": 13.61,
+   "unit": "kg",
+   "size_g": 330.0,
+   "nutrition_100g": {
+    "kcal": 111.4,
+    "fat": 7.0,
+    "satfat": 2.9,
+    "carbs": 4.0,
+    "sugar": 0.2,
+    "protein": 8.0,
+    "salt": 1.3
+   },
+   "ean": "9001426010612",
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/17746/17746-1654089622447.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Traditionelle Hausmannskost",
+   "source_url": "https://www.gurkerl.at/17746-radatz-salonbeuschl-mit-rahm",
+   "source_id": "17746",
+   "fetched_at": "2026-10-13T04:21:27+00:00",
+   "extra": {
+    "in_stock": true,
+    "archived": false,
+    "ingredients": "Zutaten: 32% Kalbsbeuschel (Lunge, Herz), Wasser, 8% SAUERRAHM, SCHLAGOBERS, Gewürze (enthält SENFMEHL), SELLERIE, Karotten, gelbe Rübe, Einbrenn (WEIZENMEHL, Palmfett), Gurken, Kapern, Weinessig, Röstzwiebel, Speisesalz jodiert (Speisesalz, Kaliumiodid), Sonnenblumenöl, Buchweizenmehl, SENFSAAT, Weingeistessig, Zucker, Speisesalz, natürliche Aromen, Petersilie, Knoblauch, Apfelpulver."
+   }
+  },
+  "cat": "Komplettmahlzeit",
+  "pack": "Kühlregal (Menüschale/frisch)"
+ },
+ {
+  "p": {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Gissinger Fledermaus mit Kümmelsafterl",
+   "brand": "Gissinger",
+   "price_eur": 11.37,
+   "unit_price_eur": 21.99,
+   "unit": "kg",
+   "size_g": 520.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/45894/45894-1762255354572117209.png",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Traditionelle Hausmannskost",
+   "source_url": "https://www.gurkerl.at/45894-gissinger-fledermaus-mit-kuemmelsafterl",
+   "source_id": "45894",
+   "fetched_at": "2026-10-13T04:21:29+00:00",
+   "extra": {
+    "in_stock": true,
+    "archived": false,
+    "ingredients": "Zutaten: Schweinefleisch, Wasser, Suppe (Wasser, Rindfleisch, Rindsknochen, Salz, Karotten, gelbe Rübe, SELLERIE), Zwiebel, SCHLAGOBERS, Gewürze, WEIZENMEHL, Kümmel"
+   }
+  },
+  "cat": "Komplettmahlzeit",
+  "pack": "Kühlregal (Menüschale/frisch)"
+ },
+ {
+  "p": {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Gissinger Gansl gebraten",
+   "brand": "Gissinger",
+   "price_eur": 29.99,
+   "unit_price_eur": 39.99,
+   "unit": "kg",
+   "size_g": 750.0,
+   "nutrition_100g": {},
+   "ean": "9048130046742",
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/45859/45859-1761897476143821055.png",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Traditionelle Hausmannskost",
+   "source_url": "https://www.gurkerl.at/45859-gissinger-gansl-gebraten",
+   "source_id": "45859",
+   "fetched_at": "2026-10-13T04:21:31+00:00",
+   "extra": {
+    "in_stock": false,
+    "archived": false,
+    "ingredients": "Zutaten: Weidegans aus Österreich, Salz, Gewürze"
+   }
+  },
+  "cat": "Komplettmahlzeit",
+  "pack": "Kühlregal (Menüschale/frisch)"
+ },
+ {
+  "p": {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Wiener Virtshaus Linsen mit Serviettenknödel VEGAN",
+   "brand": "Wiener Virtshaus",
+   "price_eur": 9.29,
+   "unit_price_eur": 22.12,
+   "unit": "kg",
+   "size_g": 420.0,
+   "nutrition_100g": {
+    "kcal": 96.0,
+    "fat": 5.8,
+    "satfat": 0.6,
+    "carbs": 24.0,
+    "sugar": 8.5,
+    "protein": 3.5,
+    "salt": 1.7,
+    "fiber": 2.5
+   },
+   "ean": "9180007360046",
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/30503/30503-1736768584378.jpg",
+   "producer": "BS Gastro & Event Services GmbH, Möhringgasse 2-4, 2320 Schwechat.",
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Traditionelle Hausmannskost",
+   "source_url": "https://www.gurkerl.at/30503-wiener-virtshaus-linsen-mit-serviettenknoedel-vegan",
+   "source_id": "30503",
+   "fetched_at": "2026-10-13T04:21:29+00:00",
+   "extra": {
+    "in_stock": false,
+    "archived": false,
+    "ingredients": "Würzige Linsen mit Serviettenknödel, VEGAN.\n\nZutaten Linsen: Linsen, Schalotte, Knoblauch, Ingwer, Öl, Koriander, Kreuzkümmel, Tomatenmark, Gemüsefond (Karotten, Sellerie, Lauch, Muskatnuss, Zwiebeln, Lorbeer, Wacholder), Kokosmilch, Koriander, Essig, Salz, Pfeffer\n\nZutaten Serviettenknödel: Semmelwürfel, Sojamilch, Eipulver vegan, Zwiebel, Petersilie, Salz, Pfeffer, Muskatnuss, Margarine\n\nGekühlt bei  +2°C bis +6°C lagern.\nNach dem Öffnen innerhalb von 3 Tagen aufbrauchen.\n\nZubereitungsempfehlung: \nAufwärmen in Mikrowelle, Backofen oder am Herd und direkt genießen.\n\nKontakt: BS Gastro & Event Services GmbH, Möhringgasse 2-4, 2320 Schwechat."
+   }
+  },
+  "cat": "Komplettmahlzeit",
+  "pack": "Kühlregal (Menüschale/frisch)"
+ },
+ {
+  "p": {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "High Protein Pasta mit Hähnchen in Paprikasauce",
+   "brand": "Zatisi",
+   "price_eur": 10.99,
+   "unit_price_eur": 22.9,
+   "unit": "kg",
+   "size_g": 480.0,
+   "nutrition_100g": {
+    "kcal": 151.0,
+    "fat": 3.8,
+    "satfat": 1.0,
+    "carbs": 14.6,
+    "sugar": 1.4,
+    "protein": 13.2,
+    "salt": 0.5,
+    "fiber": 3.9
+   },
+   "ean": "8595643818867",
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/49045/49045-1786365975361971328.png",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Tschechische Republik",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Traditionelle Hausmannskost",
+   "source_url": "https://www.gurkerl.at/49045-high-protein-pasta-mit-haehnchen-in-paprikasauce",
+   "source_id": "49045",
+   "fetched_at": "2026-10-13T04:21:31+00:00",
+   "extra": {
+    "in_stock": false,
+    "archived": false,
+    "ingredients": "Zutaten: Soße 41,6 % (Hühnerbrühe [Hühnerknochen, Wasser, Salz], Hüttenkäse [Milch, Sahne, Starterkultur, Salz], Zwiebeln, gemahlener Paprika, Mehlschwitze [Butter, Weizenmehl], Zichoriensirup [Zichorienwurzelextrakt (mind. 98 %), Feuchthaltemittel: Glycerin, Karamell, Sucralose], Salz, Avocadoöl); Hähnchen 31,2 % (Hähnchenbrust ohne Haut, Salz, Avocadoöl, gemahlener Paprika); frische eifreie Nudeln (ungekocht) 27,2 % (Vollkornweizenmehl, Wasser, Salz)."
+   }
+  },
+  "cat": "Komplettmahlzeit",
+  "pack": "Kühlregal (Menüschale/frisch)"
+ },
+ {
+  "p": {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Paneer Makhani mit Jasminreis von Mahavira Kanswala",
+   "brand": "Zatisi",
+   "price_eur": 9.99,
+   "unit_price_eur": 22.2,
+   "unit": "kg",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "kcal": 418.0,
+    "fat": 28.0,
+    "satfat": 18.0,
+    "carbs": 21.0,
+    "sugar": 0.7,
+    "protein": 21.0,
+    "salt": 1.0
+   },
+   "ean": "8595643806826",
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/44180/44180-1756113073565755612.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "EU",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Asiatisch- / Orientalische Küche",
+   "source_url": "https://www.gurkerl.at/44180-paneer-makhani-mit-jasminreis-von-mahavira-kanswala",
+   "source_id": "44180",
+   "fetched_at": "2026-10-13T04:21:37+00:00",
+   "extra": {
+    "in_stock": false,
+    "archived": false,
+    "ingredients": "Zutaten: Paneer Makhani 55% (Paneer 24% [MILCH, Säureregulator: Citronensäure], Tomaten 15%, Blumenkohl 15%, Paprika 15%, Trinkwasser, Zwiebeln, SAHNE, Gewürzmischung Masala 1% (schwarzer Kardamom, Kreuzkümmel, getrocknete Bockshornkleeblätter, Koriandersamen, Kurkuma, Chili), BUTTER, Speisesalz, schwarzer Pfeffer), gekochter Jasminreis 45% (Jasminreis, Trinkwasser, Speisesalz)."
+   }
+  },
+  "cat": "Komplettmahlzeit",
+  "pack": "Kühlregal (Menüschale/frisch)"
+ },
+ {
+  "p": {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Hähnchencurry mit Grünen Bohnen und Basmati-Reis von Mahavira Kanswala",
+   "brand": "Zatisi",
+   "price_eur": 10.49,
+   "unit_price_eur": 23.31,
+   "unit": "kg",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "kcal": 201.0,
+    "fat": 9.2,
+    "satfat": 3.6,
+    "carbs": 17.0,
+    "sugar": 2.3,
+    "protein": 11.1,
+    "salt": 0.8
+   },
+   "ean": "8595643806802",
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/44175/44175-1756113071890888784.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "EU",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Asiatisch- / Orientalische Küche",
+   "source_url": "https://www.gurkerl.at/44175-haehnchencurry-mit-gruenen-bohnen-und-basmati-reis-von-mahavira-kanswala",
+   "source_id": "44175",
+   "fetched_at": "2026-10-13T04:21:37+00:00",
+   "extra": {
+    "in_stock": false,
+    "archived": false,
+    "ingredients": "Zutaten: Hähnchencurry 90% (Hähnchenschenkel 33%, grüne Bohnen 33%, SAHNE, Tomaten, Gewürzmischung Deggi Mirch (rote Chili), Garam Masala 3,3% (Koriander, Kreuzkümmel, grüner Kardamom, Sternanis, Zimt, Chili), Zwiebeln, SENF, Olivenöl, Kreuzkümmel, Koriander, Kurkuma, Knoblauch, Ingwer), Lorbeerblatt, Basmati-Reis 10%."
+   }
+  },
+  "cat": "Komplettmahlzeit",
+  "pack": "Kühlregal (Menüschale/frisch)"
+ },
+ {
+  "p": {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Butter Chicken mit Naan Brot von Mahavir Kanswal",
+   "brand": "Zatisi",
+   "price_eur": 10.49,
+   "unit_price_eur": 23.31,
+   "unit": "kg",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "kcal": 168.0,
+    "fat": 8.0,
+    "satfat": 5.0,
+    "carbs": 17.0,
+    "sugar": 3.0,
+    "protein": 6.0,
+    "salt": 0.8
+   },
+   "ean": "8595643803672",
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/44169/44169-175611307083445798.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "EU",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Asiatisch- / Orientalische Küche",
+   "source_url": "https://www.gurkerl.at/44169-butter-chicken-mit-naan-brot-von-mahavir-kanswal",
+   "source_id": "44169",
+   "fetched_at": "2026-10-13T04:21:37+00:00",
+   "extra": {
+    "in_stock": false,
+    "archived": false,
+    "ingredients": "Zutaten: Naan Brot 50% (WEIZENMEHL, MILCH, EIER, Sonnenblumenöl, Speisesalz, Backtriebmittel [Dihydrogendifosfat, Natriumhydrogencarbonat, Maisstärke]), Hähnchenschenkel 30%, SAHNE, Naturjoghurt (MILCH, MILCHEIWEISS, Joghurtkulturen, Bifidobacterium BB12 und Lactobacillus acidophilus LA [106/g]), Tomatenmark, Tomaten, BUTTER 1,1%, Ingwer, Knoblauch, Kardamom, Zucker, Speisesalz, Gewürzmischung Garam Masala (Koriandersamen, Kreuzkümmel, Grüner Kardamom, Schwarzer Kardamom, Sternanis, Lorbeerblatt, Zimt, Rosenblüten, Chili), Gewürzmischung Deggi Mirch (getrocknete Chilis)."
+   }
+  },
+  "cat": "Komplettmahlzeit",
+  "pack": "Kühlregal (Menüschale/frisch)"
+ },
+ {
+  "p": {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Fleischbällchen in Tomatensauce mit Tarhonya von Petr Bureš",
+   "brand": "Zatisi",
+   "price_eur": 9.29,
+   "unit_price_eur": 20.64,
+   "unit": "kg",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "kcal": 132.0,
+    "fat": 4.2,
+    "satfat": 0.6,
+    "carbs": 19.8,
+    "sugar": 2.5,
+    "protein": 9.4,
+    "salt": 0.4
+   },
+   "ean": "8595643804037",
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/44171/44171-1756113070630491328.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "EU",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Mediterrane Köstlichkeiten",
+   "source_url": "https://www.gurkerl.at/44171-fleischbaellchen-in-tomatensauce-mit-tarhonya-von-petr-bures",
+   "source_id": "44171",
+   "fetched_at": "2026-10-13T04:21:44+00:00",
+   "extra": {
+    "in_stock": false,
+    "archived": false,
+    "ingredients": "Zutaten: Tarhonya 45 % (WEIZENMEHL, Trinkwasser), Fleischbällchen 35% (Schweinefleisch 40,5%, Rindfleisch 40,5%, El, WEIZENMEHL, Speisesalz, schwarzer Pfeffer), Tomatensauce 20% (Tomaten 55%, Gemüsebrühe (Trinkwasser, Gemüse: Zwiebeln, Karotten, SELLERIE, Petersilie), Zucker, BUTTER, Tomatenmark 10%, helle Mehlschwitze (WEIZENMEHL, Sonnenblumenöl), Zitronensaft, Speisesalz, schwarzer Pfeffer, Zitronenschale, Piment, Nelken, Zimt, Thymian)."
+   }
+  },
+  "cat": "Komplettmahlzeit",
+  "pack": "Kühlregal (Menüschale/frisch)"
+ },
+ {
+  "p": {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Wiesbauer Mediterrane Schweinebacken sous vide",
+   "brand": "Wiesbauer",
+   "price_eur": 8.99,
+   "unit_price_eur": 29.97,
+   "unit": "kg",
+   "size_g": 300.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/46402/46402-1767793923024.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Asiatisch- / Orientalische Küche",
+   "source_url": "https://www.gurkerl.at/46402-wiesbauer-mediterrane-schweinebacken-sous-vide",
+   "source_id": "46402",
+   "fetched_at": "2026-10-13T04:21:35+00:00",
+   "extra": {
+    "in_stock": true,
+    "archived": false
+   }
+  },
+  "cat": "Komplettmahlzeit",
+  "pack": "Sous-vide (vakuum)"
+ },
+ {
+  "p": {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Freshery Tom Yum mit Shiitake-Pilzen und Gyoza mit Garnelen",
+   "brand": "Freshery",
+   "price_eur": 5.99,
+   "unit_price_eur": 27.23,
+   "unit": "kg",
+   "size_g": 220.0,
+   "nutrition_100g": {
+    "kcal": 197.0,
+    "fat": 7.4,
+    "satfat": 6.3,
+    "carbs": 28.0,
+    "sugar": 6.2,
+    "protein": 4.9,
+    "salt": 2.8
+   },
+   "ean": "8588010562135",
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/48164/48164-1779966314455846353.png",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Slowakische Republik",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Asiatisch- / Orientalische Küche",
+   "source_url": "https://www.gurkerl.at/48164-freshery-tom-yum-mit-shiitake-pilzen-und-gyoza-mit-garnelen",
+   "source_id": "48164",
+   "fetched_at": "2026-10-13T04:21:35+00:00",
+   "extra": {
+    "in_stock": true,
+    "archived": false,
+    "ingredients": "Zutaten: Reisnudeln (Reismehl, Tapiokastärke, Zucker, Speisesalz), gefrorene Knödel gefüllt mit GARNELEN und Gemüse (Gemüse 48 % (Kohl 59 %, Karotte 17 %, Zwiebel 9 %, Spinat 8 %, Frühlingszwiebel 7 %), WEIZENMEHL, Wasser, GARNELEN, Sojasoße (Wasser, SOJABOHNEN, WEIZEN, Salz), Tapiokastärke, Zucker, Glasnudeln (Maisstärke, Wasser, Mungobohnenstärke), SOJAPROTEINISOLAT, Sesamöl, Hefeextrakt, Rapsöl, Salz, Weizen-GLUTEN, Verdickungsmittel: Methylcellulose, Knoblauch, schwarzer Pfeffer), Tom Yum Paste (Salz, Zucker, Palmöl, Zitronengras, Säureregulator: Zitronensäure, Geschmacksverstärker: Glutamat-Natrium, Chilipulver, Tamarindenpaste (Tamarind, Wasser), Schalotte, Galangal, Limettensaft, Kokosmilch (Kokosextrakt 77 %, Wasser, Verdickungsmittel E466; E415, Emulgator E435, Antioxidationsmittel E306, E304)), Gemüsebouillon (jodiertes Salz, Geschmacksverstärker: Glutamat-Natrium, Inosinat-Natrium; Gemüsemischung 4 % (Karotte, Zwiebel, Lauch), Pflanzenfett (Palme, Shea), Glucose, Kartoffelstärke, Petersilienkraut, Kurkuma, Aroma, Farbstoffe: Ammonsulfitkaramel, Riboflavin), getrocknete GARNELEN, Pak Choi, Shiitake-Pilze, Kirschtomaten, Koriander, SOJASPROSSEN, getrocknete Wakame-Algen."
+   }
+  },
+  "cat": "Suppe/Eintopf",
+  "pack": "Kühlregal (Menüschale/frisch)"
+ },
+ {
+  "p": {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Freshery Pho mit Hühnerfleisch",
+   "brand": "Freshery",
+   "price_eur": 5.99,
+   "unit_price_eur": 39.93,
+   "unit": "kg",
+   "size_g": 150.0,
+   "nutrition_100g": {
+    "kcal": 136.0,
+    "fat": 0.7,
+    "satfat": 0.2,
+    "carbs": 24.0,
+    "sugar": 1.6,
+    "protein": 5.1,
+    "salt": 0.56
+   },
+   "ean": "8588010562111",
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/48162/48162-1779966313407484341.png",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Slowakische Republik",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Asiatisch- / Orientalische Küche",
+   "source_url": "https://www.gurkerl.at/48162-freshery-pho-mit-huehnerfleisch",
+   "source_id": "48162",
+   "fetched_at": "2026-10-13T04:21:35+00:00",
+   "extra": {
+    "in_stock": true,
+    "archived": false,
+    "ingredients": "Zutaten: Hühnerbrust sous-vide 33 %, Reisnudeln 26 % (Reismehl, Tapiokastärke, Zucker, Speisesalz), Bouillon (Speisesalz, Zucker, Gewürze (Sternanis, Zimt, Nelken, schwarzer Pfeffer, Zwiebel, Ingwer), Geschmacksverstärker: Glutamat-Natrium), Zimt, Sternanis, Koriandersamen, Frühlingszwiebel, SOJASPROSSEN, Chili, Koriander."
+   }
+  },
+  "cat": "Suppe/Eintopf",
+  "pack": "Kühlregal (Menüschale/frisch)"
+ },
+ {
+  "p": {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Mochi Spicy Chicken Ramen - Kit",
+   "brand": "Mochi",
+   "price_eur": 11.49,
+   "unit_price_eur": 18.84,
+   "unit": "kg",
+   "size_g": 610.0,
+   "nutrition_100g": {
+    "kcal": 145.0,
+    "fat": 6.9,
+    "satfat": 1.9,
+    "carbs": 13.0,
+    "sugar": 1.5,
+    "protein": 7.1,
+    "salt": 1.1
+   },
+   "ean": "2020001000142",
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/28449/28449-1776239395745.jpg",
+   "producer": "Mochi Production GmbH, Ferdinandstraße 13, 1020 Wien",
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Schnelle Küche > Suppen & Fonds",
+   "source_url": "https://www.gurkerl.at/28449-mochi-spicy-chicken-ramen-kit",
+   "source_id": "28449",
+   "fetched_at": "2026-10-13T04:21:48+00:00",
+   "extra": {
+    "in_stock": true,
+    "archived": false,
+    "ingredients": "Mochi Spicy Chicken Ramenkit\n\nZutaten: \nSuppe: Wasser, Hühnerkarkassen, Zwiebel, Knoblauch, Ingwer, Jungzwiebel, Apfel, getrocknete Shiitakepilze, Hidaka Kombu (getrocknete Meeresalgen „Kombu-Tang\" (Laminaria Angustata)); \nTare: Shiro Miso (Wasser, SOJABOHNEN, Reis, Salz), Sake (japanischer Reiswein 14,5%), Aka Miso (Wasser, SOJABOHNEN (31,8%), Reis, Salz), Salkyo Miso (SOJABOHNEN (22%), Saltosesirup, Alkohol), Zwiebel, Karotten, Ingwer, SESAMÖL, Mirin (Wasser, Dextrose, Reis (Reis-Kojl), fester Maissirup), Sojasauce (Wasser, SOJABOHNEN, WEIZEN, Salz), Salz, Pfeffer,SELLERIE, SESAMSAMEN, Mononatriumglutamat (E621), Apfel, Knoblauch; \nChicken Tan Tan: Hühnerfleisch, Zwiebel, Knoblauch, Zucker, Sonnenblumenöl, Sojasauce (Wasser, SOJABOHNEN, WEIZEN, Salz), Scharfe Bohnensauce (Gesalzene Chilischoten 48% (Chilischoten 80%, Salz), Wasser, Zucker, modifizierte Maisstärke, Chiffpulver 1%, getrockneter Knoblauch 1%, SOJAOL, Sauerungsmittel (Milchsäure), Geschmacksverstärker (Dinatriuminosinat, Dinatriumguanylat), Chill-Knoblauch-Sauce (gesalzene Chilischoten 59% (Chilischoten 80%, Salz), Wasser, Zucker, Betrackneter Knoblauch 5%, Reisessig, modifizierte Maisstärke, Säuerungsmittel (Essigsäure); \nNudeln: WEIZENMEHL, Wasser, Roggenmehl, EIWEISS, Kansui (Alkalische Lösung (Kallumcar-bonate E501), Natriumcarbonate (E500), Dinatrfumphosphat (E339), Natriumpolyphosphat (E452), Salz; Zutaten Chiliol: Sonnenblumenöl, Paprikapulver, Shichimi Togarashi (Chill 38%, geröstete Orangenschale, schwarzer SESAM, goldener SESAM, grüner Seetang, Ingwer, Szechuanpfeffer).\n\nGekühlt bei 2-6°C lagern.\n\nKontakt: Mochi Production GmbH, Ferdinandstraße 13, 1020 Wien"
+   }
+  },
+  "cat": "Suppe/Eintopf",
+  "pack": "Kühlregal (Menüschale/frisch)"
+ },
+ {
+  "p": {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Mochi Tonkotsu Ramen - Kit",
+   "brand": "Mochi",
+   "price_eur": 11.49,
+   "unit_price_eur": 22.53,
+   "unit": "kg",
+   "size_g": 510.0,
+   "nutrition_100g": {
+    "kcal": 155.0,
+    "fat": 9.9,
+    "satfat": 2.9,
+    "carbs": 11.0,
+    "sugar": 1.2,
+    "protein": 5.1,
+    "salt": 1.0
+   },
+   "ean": "9120143390033",
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/28450/28450-1776239370489.jpg",
+   "producer": "Mochi Production GmbH, Ferdinandstraße 13, 1020 Wien",
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Schnelle Küche > Suppen & Fonds",
+   "source_url": "https://www.gurkerl.at/28450-mochi-tonkotsu-ramen-kit",
+   "source_id": "28450",
+   "fetched_at": "2026-10-13T04:21:48+00:00",
+   "extra": {
+    "in_stock": true,
+    "archived": false,
+    "ingredients": "Mochi Tonkotsu Ramenkit\n\nZutaten:\nTonkotsu: Wasser, Schweineknochen, Hühnerkarkassen, Rückenspeck, Zwiebel, Knoblauch, Ingwer, Jungzwiebel; \nTare: HERZMUSCHELN, Sake (japanischer Reis wein 14,5%), Mirin (Wasser, Dextrose, Reis (Reis-Koji), fester Maissirup), Weißwein, Salz, Zucker, Monoatriumglutamat (E621), getrocknete SARDINEN, Hidaka Kombu (getrocknete Meeresalgen „Kombu-Tang\" (Laminaria Angustata));  \nChashu: Schweinebauch, Wasser, Sojasauce (Wasser, SOJABOHNEN, WEIZEN, Salz), Sake (apanischer Reiswein 14,5%), Mirin (Wasser, Dextrose, Reis (Reis-Koji), fester Maissirup), Zucker, Salz, Knoblauch, Ingwer, Sonnenblumenöl;  \nNudeln: WEIZENMEHL, Wasser, Roggenmehl, EIWEISS, Kansui (Alkalische Lösung (Kaliumcarbonate E501),Natriumcarbonate (E500), Dinatriumphosphat (E339), Natriumpolyphosphat (E452), Salz;  \nKnoblauchöl: Sonnenblumenöl, Knoblauch, Schweinefett\n\nGekühlt bei 2-6°C lagern.\n\nKontakt: Mochi Production GmbH, Ferdinandstraße 13, 1020 Wien"
+   }
+  },
+  "cat": "Suppe/Eintopf",
+  "pack": "Kühlregal (Menüschale/frisch)"
+ },
+ {
+  "p": {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Mochi Mushroom Miso Ramen - Kit VEGAN",
+   "brand": "Mochi",
+   "price_eur": 13.49,
+   "unit_price_eur": 22.48,
+   "unit": "kg",
+   "size_g": 600.0,
+   "nutrition_100g": {
+    "kcal": 107.0,
+    "fat": 2.9,
+    "satfat": 0.4,
+    "carbs": 15.0,
+    "sugar": 2.3,
+    "protein": 3.5,
+    "salt": 1.6
+   },
+   "ean": "9120143390019",
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/28451/28451-1776239382598.jpg",
+   "producer": "Mochi Production GmbH, Ferdinandstraße 13, 1020 Wien",
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Schnelle Küche > Fertiggerichte > Asiatisch- / Orientalische Küche",
+   "source_url": "https://www.gurkerl.at/28451-mochi-mushroom-miso-ramen-kit-vegan",
+   "source_id": "28451",
+   "fetched_at": "2026-10-13T04:21:37+00:00",
+   "extra": {
+    "in_stock": true,
+    "archived": false,
+    "ingredients": "Mochi Kinoko Ramenkit\n\nZutaten Suppe: Wasser, KNOLLENSELLERIE, Rettich, Knoblauch, Champignon, Steinpilze getrocknet, getrocknete Meeresalge „Wakame“, getrockneter Seetang (Kombu Tang), Kombudashi Karyu (Geschmacksverstärker E621, Speisesalz, Traubenzucker, Seetangpulver, Zucker, Geschmacksverstärker: E635, Seetangextrakt (Dextrin, Seetangextrakt, Geschmacksverstärker: E621, Speisesalz);\nZutaten Tare: Shiro Miso (Wasser, SOJABOHNEN, Reis, Salz), Sake (japanischer Reiswein 14,5%), Aka Miso (Wasser, SOJABOHNEN (31,8%),Reis, Salz), Sayko Miso (SOJABOHNEN (22%), Saltosesirup, Alkohol), Zwiebel, Karotten, Ingwer, Sesamöl, Mirin (Wasser, Dextrose, Reis (Reis-Koji), fester Maissirup) SOJASAUCE (Wasser, SOJABOHNEN, WEIZEN, Salz), Salz, Pfeffer, Sellerie, Sesamsamen, Glutamat, Apfel, Knoblauch,\nMenma: Bambussprossen (90%), SOJASAUCE (SOJABOHNEN, WEIZEN, Salz, Wasser), Zucker, Salz, Geschmacksverstärker: EE621, E627, E631, Säurungsmittel: E330, Konservierungsstoff: E202; \nBlack Mushrooms: Black Fungus, Wasser, SOJASAUCE (Wasser, SOJABOHNEN, WEIZEN, Salz), Sake (japanischer Reiswein 14,5%), Mirin (Wasser, Dextrose, Reis (Reis-Koji), fester Maissirup), Zucker, Ingwer, \nNudeln: WEIZENMEHL, Wasser, Roggenmehl, Kansui (Alkalische Lösung (Kaliumcarbonate E501), Natriumcarbonate (E500), Dinatriumphophat (E339), Natriumpolyphosphat (E452), Salz, \nZutaten Öl: Sonnenblumenöl, Steinpilze getrocknet, Lauch, Zwiebel, Pfeffer\n\nGekühlt bei 2-6°C lagern.\n\nKontakt: Mochi Production GmbH, Ferdinandstraße 13, 1020 Wien"
+   }
+  },
+  "cat": "Suppe/Eintopf",
+  "pack": "Kühlregal (Menüschale/frisch)"
+ },
+ {
+  "p": {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Pappudia Kuttelsuppe",
+   "brand": "Pappudia",
+   "price_eur": 1.99,
+   "unit_price_eur": 4.98,
+   "unit": "kg",
+   "size_g": 400.0,
+   "nutrition_100g": {
+    "kcal": 42.0,
+    "fat": 1.1,
+    "satfat": 0.0,
+    "carbs": 5.1,
+    "sugar": 0.2,
+    "protein": 2.4,
+    "salt": 1.0
+   },
+   "ean": "8595643816030",
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/43467/43467-1752145187998168040.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "EU",
+   "category": "Kühlregal > Schnelle Küche > Suppen & Fonds",
+   "source_url": "https://www.gurkerl.at/43467-pappudia-kuttelsuppe",
+   "source_id": "43467",
+   "fetched_at": "2026-10-13T04:21:50+00:00",
+   "extra": {
+    "in_stock": false,
+    "archived": false,
+    "ingredients": "Zutaten: \"Trinkwasser, Rinderkutteln 8%, Zwiebel, Weizenmehl, Masox [Salz, Zucker, Hefe\nextract, Maismaltodextrin, Geschmacksverstärker: E621, E631, E627; Aromastoffe (enthält\nSellerie), Palm- und Rapsöl, Rindfleischextrakt 2% (Salz, Beef Jerky 0,94%,\nRapsöl), Trockengemüse (Zwiebel, Petersilie), Gewürzmischung (Muskatblüte, schwarzer Pfeffer\ngemahlen), Farbstoff Curcumin], Paprika gemahlen, Rapsöl, Knoblauch, Salz, Majoran, schwarzer Pfeffer\ngemahlen, Kümmel gemahlen. \""
+   }
+  },
+  "cat": "Suppe/Eintopf",
+  "pack": "Kühlregal (Menüschale/frisch)"
+ },
+ {
+  "p": {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "DimmidiSi Kürbis Karotten Cremesuppe",
+   "brand": "DimmidiSì",
+   "price_eur": 3.79,
+   "unit_price_eur": 6.11,
+   "unit": "kg",
+   "size_g": 620.0,
+   "nutrition_100g": {
+    "kcal": 49.0,
+    "fat": 2.6,
+    "satfat": 0.4,
+    "carbs": 5.4,
+    "sugar": 2.0,
+    "protein": 0.5,
+    "salt": 0.32,
+    "fiber": 1.2
+   },
+   "ean": "8014190008045",
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/42674/42674-1750670435165643203.png",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Italien",
+   "category": "Kühlregal > Schnelle Küche > Suppen & Fonds",
+   "source_url": "https://www.gurkerl.at/42674-dimmidisi-kuerbis-karotten-cremesuppe",
+   "source_id": "42674",
+   "fetched_at": "2026-10-13T04:21:50+00:00",
+   "extra": {
+    "in_stock": false,
+    "archived": false,
+    "ingredients": "Zutaten: Wasser, Kürbis 24 %, Karotten 17 %, Kartoffeln, Lauch, Sojagetränk (Wasser, gentechnikfreie Sojabohnen, Salz), Olivenöl, Zucker, Salz, Gewürze, natürliches Aroma."
+   }
+  },
+  "cat": "Suppe/Eintopf",
+  "pack": "Kühlregal (Menüschale/frisch)"
+ },
+ {
+  "p": {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "La Cocina de Lola Gazpacho",
+   "brand": "La Cocina de Lola",
+   "price_eur": 6.19,
+   "unit_price_eur": 8.6,
+   "unit": "l",
+   "size_g": 720.0,
+   "nutrition_100g": {
+    "kcal": 34.0,
+    "fat": 2.4,
+    "satfat": 0.4,
+    "carbs": 2.6,
+    "sugar": 1.8,
+    "protein": 0.6,
+    "salt": 0.88
+   },
+   "ean": "4052667902865",
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/35450/35450-1726822312042.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Spanien",
+   "category": "Vorratsschrank > Fertiggerichte",
+   "source_url": "https://www.gurkerl.at/35450-la-cocina-de-lola-gazpacho",
+   "source_id": "35450",
+   "fetched_at": "2026-10-13T04:22:23+00:00",
+   "extra": {
+    "in_stock": true,
+    "archived": false,
+    "ingredients": "Zutaten: Wasser, Gemüse 34%, (Tomate, rote Paprika, geröstete Zwiebeln, Gurke), Olivenöl 3%, Weißweinessig, Knoblauch, Sonnenblumenöl, Salz, Stabilisator: Xanthan"
+   }
+  },
+  "cat": "Suppe/Eintopf",
+  "pack": null
+ },
+ {
+  "p": {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "HOFMANNs Oma's Fleischpflanzerl (tiefgekühlt)",
+   "brand": "HOFMANNs",
+   "price_eur": 10.19,
+   "unit_price_eur": 17.57,
+   "unit": "kg",
+   "size_g": 580.0,
+   "nutrition_100g": {
+    "kcal": 114.0,
+    "fat": 6.0,
+    "satfat": 2.0,
+    "carbs": 8.0,
+    "sugar": 2.0,
+    "protein": 6.0,
+    "salt": 1.12,
+    "fiber": 0.0
+   },
+   "ean": "4046149267054",
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/29506/29506-1674050813244.jpg",
+   "producer": "Hofmann Menü-Manufaktur GmbH, Adelbert-Hofmann-Straße 6, 97944 Boxberg-Schweigern, Deutschland",
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Tiefkühlprodukte > Fertiggerichte",
+   "source_url": "https://www.gurkerl.at/29506-hofmanns-oma-s-fleischpflanzerl-tiefgekuehlt",
+   "source_id": "29506",
+   "fetched_at": "2026-10-13T04:22:00+00:00",
+   "extra": {
+    "in_stock": false,
+    "archived": false,
+    "ingredients": "Unsere hausgemachten Hacksteaks mit rauchigem Speck, in einer dunklen Bier-Zwiebelsoße, dazu knackiges Gemüse und Salzkartoffeln.\n\nZutaten: Kartoffeln, Speck-Hacksteak (Schweinefleisch, Rindfleisch, Schweinespeck, Konservierungsstoff Natriumnitrit), Hühnerei, Semmelbrösel (Weizenmehl, Hefe, Speisesalz), Zwiebeln, Senf (Senfsaat, Branntweinessig, Speisesalz, Gewürze, Gewürzextrakt), Petersilie, jodiertes Speisesalz, Gewürze), Gemüse in veränderlichen Gewichstanteilen (Karotten, Broccoli, Romanesco), Zwiebeln, Distelhäuser-Landbier (Gerstenmalz, Hopfen), Rapsöl, jodiertes Speisesalz, modifizierte Stärke, Zuckerrübensirup, Fleischfond (Schweinefleisch, Glucosesirup, Speisesalz, Zucker, Gewürze), Rinderfond (Rindfleisch, Rinderbratensaft, Speisesalz), Tomatenmark, Gemüsefond (Gewürzextrakte, Tomatenmark, Trockenglucosesirup, Karottenextrakt, Tomatenpulver, Speisesalz, Branntweinessig), Karamellzuckersirup, Zucker, Gewürze, Dextrose.\n\nBei -18 °C lagern.\n\nKontakt: Hofmann Menü-Manufaktur GmbH, Adelbert-Hofmann-Straße 6, 97944 Boxberg-Schweigern, Deutschland"
+   }
+  },
+  "cat": "Komplettmahlzeit",
+  "pack": "TK (Tiefkühl)"
+ },
+ {
+  "p": {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "HOFMANNs Asia-Erdnuss-Nudeln (tiefgekühlt)",
+   "brand": "HOFMANNs",
+   "price_eur": 10.19,
+   "unit_price_eur": 17.88,
+   "unit": "kg",
+   "size_g": 570.0,
+   "nutrition_100g": {
+    "kcal": 141.0,
+    "fat": 7.0,
+    "satfat": 1.0,
+    "carbs": 15.0,
+    "sugar": 3.0,
+    "protein": 4.0,
+    "salt": 0.76,
+    "fiber": 0.0
+   },
+   "ean": "4046149267030",
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/29505/29505-1674049804263.jpg",
+   "producer": "Hofmann Menü-Manufaktur GmbH, Adelbert-Hofmann-Straße 6, 97944 Boxberg-Schweigern, Deutschland",
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Tiefkühlprodukte > Fertiggerichte",
+   "source_url": "https://www.gurkerl.at/29505-hofmanns-asia-erdnuss-nudeln-tiefgekuehlt",
+   "source_id": "29505",
+   "fetched_at": "2026-10-13T04:22:00+00:00",
+   "extra": {
+    "in_stock": false,
+    "archived": false,
+    "ingredients": "Asia-Nudeln mit knackigem Wok-Gemüse, in pikant-würziger Erdnusssoße mit Ingwer.\n\nZutaten: Asiatische Nudeln gegart (Weizenmehl, Speisesalz), Gemüse in veränderlichen Gewichtsanteilen (20%) (Karotten, Gemüsepaprika, Bambussprossen, rote Zwiebelstreifen), Shiitakepilze (7%), Erdnussmus (5%) (geröstete, gemahlene Erdnusskerne), Zwiebeln, Tomaten, Tomatensaft, Erdnüsse (3%), Rapsöl, Zuckerrübensirup, Gemüsefond (Gewürzextrakte, Tomatenmark, Gewürze, Trockenglucosesirup, Karottenextrakt, Tomatenpulver, Speisesalz, Branntweinessig), Kartoffelpüreeflocken (Kartoffeln, Emulgator Mono- und Diglyceride von Speisefettsäuren, Curcumaextrakt), jodiertes Speisesalz, Gewürze, Orangensaftkonzentrat, Knoblauch, Ingwer, Sesamöl, Gewürzmischung Garam Masala (Bockshornklee, Fenchel, Cardamom, Knoblauch, Koriander, Kreuzkümmel, Nelke, Pfeffer, Zwiebel, Zimt).\n\nBei -18 °C lagern.\n\nKontakt: Hofmann Menü-Manufaktur GmbH, Adelbert-Hofmann-Straße 6, 97944 Boxberg-Schweigern, Deutschland"
+   }
+  },
+  "cat": "Komplettmahlzeit",
+  "pack": "TK (Tiefkühl)"
+ },
+ {
+  "p": {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Iglo 3 Riesen-Germknödel (tiefgekühlt)",
+   "brand": "Iglo",
+   "price_eur": 5.49,
+   "unit_price_eur": 10.98,
+   "unit": "kg",
+   "size_g": 500.0,
+   "nutrition_100g": {
+    "kcal": 256.0,
+    "fat": 4.0,
+    "satfat": 0.4,
+    "carbs": 47.0,
+    "sugar": 17.0,
+    "protein": 6.4,
+    "salt": 0.8,
+    "fiber": 3.8
+   },
+   "ean": "9008695959321",
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/5895/5895-1681460310418.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "EU",
+   "category": "Tiefkühlprodukte > Mehlspeisen > Warme Mehlspeisen & Süße Knödel",
+   "source_url": "https://www.gurkerl.at/5895-iglo-3-riesen-germknoedel-tiefgekuehlt",
+   "source_id": "5895",
+   "fetched_at": "2026-10-13T04:22:04+00:00",
+   "extra": {
+    "in_stock": true,
+    "archived": false,
+    "ingredients": "Riesen Germknödel mit Powidlfüllung, vorgekocht, mit Mohn und Zucker, tiefgekühlt.\n\nZutaten: Germknödel (450g): WEIZENMEHL, Wasser, Powidl 14% (Pflaumen, Zucker), Zucker, Hefe, VOLLMILCH, EI, HÜHNEREIWEIß, Rapsöl, Speisesalz, Vanillin, Zitronenextrakt.\nMohn-Zucker-Gemisch (50g): Staubzucker, Mohn 35%.\n"
+   }
+  },
+  "cat": "Nachspeise",
+  "pack": "TK (Tiefkühl)"
+ },
+ {
+  "p": {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "HOFMANNs Kaiserschmarren (tiefgekühlt)",
+   "brand": "HOFMANNs",
+   "price_eur": 10.29,
+   "unit_price_eur": 21.44,
+   "unit": "kg",
+   "size_g": 480.0,
+   "nutrition_100g": {
+    "kcal": 167.0,
+    "fat": 5.0,
+    "satfat": 1.0,
+    "carbs": 25.0,
+    "sugar": 18.0,
+    "protein": 5.0,
+    "salt": 0.36,
+    "fiber": 0.0
+   },
+   "ean": "4046149267023",
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/29504/29504-1674046182947.jpg",
+   "producer": "Hofmann Menü-Manufaktur GmbH, Adelbert-Hofmann-Straße 6, 97944 Boxberg-Schweigern, Deutschland",
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Tiefkühlprodukte > Mehlspeisen > Warme Mehlspeisen & Süße Knödel",
+   "source_url": "https://www.gurkerl.at/29504-hofmanns-kaiserschmarren-tiefgekuehlt",
+   "source_id": "29504",
+   "fetched_at": "2026-10-13T04:22:04+00:00",
+   "extra": {
+    "in_stock": false,
+    "archived": false,
+    "ingredients": "Unser Klassiker: Hausgemachter Kaiserschmarren mit fruchtigem Zwetschkenröster.\n\nZutaten: Zwetschken, Hühnerei, teilentrahmte Milch 1,5% Fett, Weizenmehl, Zucker, Puderzucker, Rapsöl, modifizierte Stärke, jodiertes Speisesalz, Backpulver (Säuerungsmittel Diphosphate, Backtriebmittel Natriumhydrogencarbonat, Stärke), Zimt, Dextrose, Vanilleextrakt, Vanillesamen, natürliches Zitronen-Aroma, Gewürze.\n\nBei -18 °C lagern.\n\nKontakt: Hofmann Menü-Manufaktur GmbH, Adelbert-Hofmann-Straße 6, 97944 Boxberg-Schweigern, Deutschland"
+   }
+  },
+  "cat": "Nachspeise",
+  "pack": "TK (Tiefkühl)"
+ },
+ {
+  "p": {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "PICARD 2 Vanille Crème Brûlées (tiefgekühlt)",
+   "brand": "PICARD",
+   "price_eur": 8.99,
+   "unit_price_eur": 37.46,
+   "unit": "kg",
+   "size_g": 240.0,
+   "nutrition_100g": {
+    "kcal": 307.0,
+    "fat": 23.0,
+    "satfat": 15.0,
+    "carbs": 21.0,
+    "sugar": 16.0,
+    "protein": 2.8,
+    "salt": 0.07,
+    "fiber": 0.5
+   },
+   "ean": "3270160825097",
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/49057/49057-178651327727685375.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Italien",
+   "category": "Tiefkühlprodukte > Mehlspeisen > Warme Mehlspeisen & Süße Knödel",
+   "source_url": "https://www.gurkerl.at/49057-picard-2-vanille-creme-brulees-tiefgekuehlt",
+   "source_id": "49057",
+   "fetched_at": "2026-10-13T04:22:04+00:00",
+   "extra": {
+    "in_stock": true,
+    "archived": false,
+    "ingredients": "Zutaten: Vanillecreme 95,2 %: Crème fraîche flüssig (MILCH) 59 %, VOLLMILCH, Zucker, gezuckerte Kondensmilch (MILCH, Zucker), Tapiokastärke, Freiland-EIGELB (flüssig, pasteurisiert), natürliches Vanillearoma 0,1 %, gemahlene ausgelaugte Vanilleschoten. Karamellstreusel 4,8 %: Zucker, Glukosesirup, Wasser."
+   }
+  },
+  "cat": "Nachspeise",
+  "pack": "TK (Tiefkühl)"
+ },
+ {
+  "p": {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Inzersdorfer Erdäpfelgulasch",
+   "brand": "Inzersdorfer",
+   "price_eur": 3.69,
+   "unit_price_eur": 9.23,
+   "unit": "kg",
+   "size_g": 400.0,
+   "nutrition_100g": {
+    "kcal": 94.0,
+    "fat": 5.8,
+    "satfat": 1.9,
+    "carbs": 7.7,
+    "sugar": 1.2,
+    "protein": 2.2,
+    "salt": 1.2
+   },
+   "ean": "9017100003061",
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/33735/33735-1723539952452.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Vorratsschrank > Fertiggerichte",
+   "source_url": "https://www.gurkerl.at/33735-inzersdorfer-erdaepfelgulasch",
+   "source_id": "33735",
+   "fetched_at": "2026-10-13T04:22:23+00:00",
+   "extra": {
+    "in_stock": true,
+    "archived": false,
+    "ingredients": "Zutaten: Wasser, Kartoffel 26%, Wiener Wurst 10% [Schweinespeck, Schweinefleisch, Rindfleisch, Wasser, Nitritpökelsalz (Speisesalz, Konservierungsstoff: Natriumnitrit), Gewürze, Stabilisator: Diphosphate, Dextrose, Antioxidationsmittel: Ascorbinsäure, Gewürzextrakt, Speisesalz, Rauch], Zwiebel, Tomatenmark zweifach konzentriert, Sonnenblumenöl, Speisesalz jodiert (Speisesalz, Kaliumiodid), Gewürze, WEIZENMEHL, modifizierte Stärke, MAGERMILCHPULVER, Verdickungsmittel: Xanthan, Zwiebelpulver.\n\nNach dem Öffnen gekühlt lagern und innerhalb von 3 Tagen verbrauchen.\n\nZubereitung: Kochtopf: Inhalt in passenden Topf leeren 5 Min. erhitzen. Zubereitung: Mikrowelle: Inhalt in einen Teller leeren 2-3 Min. 600-750 W erhitzen."
+   }
+  },
+  "cat": "Suppe/Eintopf",
+  "pack": "Dose"
+ },
+ {
+  "p": {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Inzersdorfer Rindsgulasch",
+   "brand": "Inzersdorfer",
+   "price_eur": 7.29,
+   "unit_price_eur": 18.23,
+   "unit": "kg",
+   "size_g": 400.0,
+   "nutrition_100g": {
+    "kcal": 110.0,
+    "fat": 5.5,
+    "satfat": 1.6,
+    "carbs": 4.0,
+    "sugar": 0.9,
+    "protein": 10.0,
+    "salt": 1.1
+   },
+   "ean": "9017100001043",
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/33404/33404-1722351871358.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Vorratsschrank > Fertiggerichte",
+   "source_url": "https://www.gurkerl.at/33404-inzersdorfer-rindsgulasch",
+   "source_id": "33404",
+   "fetched_at": "2026-10-13T04:22:23+00:00",
+   "extra": {
+    "in_stock": true,
+    "archived": false,
+    "ingredients": "Zutaten: Rindfleisch (45%), Wasser, Zwiebeln, Gewürze, Speisesalz jodiert (Speisesalz, Kaliumiodid),WEIZENMEHL, modifizierte Stärke, Sonnenblumenöl, Eiweißhydrolysat aus Raps und Mais, Maiskeimöl, natürliches Aroma.\n\nNach dem Öffnen gekühlt lagern und innerhalb von 3 Tagen verbrauchen.\n\nZubereitung: Kochtopf: Inhalt in passenden Topf leeren 5 Min. erhitzen. \n\nZubereitung: Mikrowelle: Inhalt in einen Teller leeren 2-3 Min. 600-750 W erhitzen."
+   }
+  },
+  "cat": "Komplettmahlzeit",
+  "pack": "Dose"
+ },
+ {
+  "p": {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Felix Erdäpfelgulasch",
+   "brand": "Felix",
+   "price_eur": 6.69,
+   "unit_price_eur": 8.36,
+   "unit": "kg",
+   "size_g": 800.0,
+   "nutrition_100g": {
+    "kcal": 104.0,
+    "fat": 6.2,
+    "satfat": 1.5,
+    "carbs": 8.6,
+    "sugar": 1.3,
+    "protein": 3.1,
+    "salt": 1.2
+   },
+   "ean": "9000295832943",
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/37031/37031-1732266048337.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "EU",
+   "category": "Vorratsschrank > Fertiggerichte",
+   "source_url": "https://www.gurkerl.at/37031-felix-erdaepfelgulasch",
+   "source_id": "37031",
+   "fetched_at": "2026-10-13T04:22:23+00:00",
+   "extra": {
+    "in_stock": true,
+    "archived": false,
+    "ingredients": "Kartoffeln 40%, Wasser, Braunschweiger 10% \n(Schweinefleisch, Rindfleisch, Speck, Wasser, Stärke, \nSalz, Gewürze, Glukose, Zucker, Gewürzextrakte, \nStabilisator Di- und Triphosphate), Zwiebeln, \nFrankfurter 5% (Schweine- und Rindfleisch 65%, \nSpeck, Wasser, Salz, Glukose, Maltodextrin, Stärke, \nGewürze, Gewürzextrakte, Stabilisator Diphosphate, \nZucker, essbare Wursthülle), Tomaten, Rapsöl, \nmodifizierte Stärke, Salz, Weingeistessig, Kräuter, \nGewürze."
+   }
+  },
+  "cat": "Suppe/Eintopf",
+  "pack": "Dose"
+ },
+ {
+  "p": {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Bonduelle Linsen Curry",
+   "brand": "Bonduelle",
+   "price_eur": 4.19,
+   "unit_price_eur": 10.48,
+   "unit": "kg",
+   "size_g": 400.0,
+   "nutrition_100g": {
+    "kcal": 91.0,
+    "fat": 3.2,
+    "satfat": 1.1,
+    "carbs": 9.6,
+    "sugar": 0.7,
+    "protein": 2.8,
+    "salt": 0.64,
+    "fiber": 2.5
+   },
+   "ean": "3083681165296",
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/42407/42407-1781016119517.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "EU",
+   "category": "Vorratsschrank > Fertiggerichte",
+   "source_url": "https://www.gurkerl.at/42407-bonduelle-linsen-curry",
+   "source_id": "42407",
+   "fetched_at": "2026-10-13T04:22:25+00:00",
+   "extra": {
+    "in_stock": false,
+    "archived": false,
+    "ingredients": "Zutaten: 39% Linsen, Wasser, Kokosmilch, 6,2% vorfrittierte Auberginen (5,8% Auberginen, Sonnenblumenöl), passierte Tomaten, 4,9% rote Paprika, 3,1% Butternuss-Kürbis, Sonnenblumenöl, Salz, 0,5% Curry-Gewürzmischnung, 0,38% Knob-lauchpulver, 0,22% Ingwerpulver, Leinsamen, Maisstärke, Zucker, Fenchel, 0,05% scharfes Chilipulver, 0,04% Kurkuma. Kann Spuren von GLUTEN, SELLERIE, SENF und SOJA enthalten."
+   }
+  },
+  "cat": "Komplettmahlzeit",
+  "pack": "Dose"
+ },
+ {
+  "p": {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Bonduelle Linseneintop Classic Style",
+   "brand": "Bonduelle",
+   "price_eur": 4.19,
+   "unit_price_eur": 10.48,
+   "unit": "kg",
+   "size_g": 400.0,
+   "nutrition_100g": {
+    "kcal": 63.0,
+    "fat": 0.3,
+    "satfat": 0.1,
+    "carbs": 8.4,
+    "sugar": 0.4,
+    "protein": 4.9,
+    "salt": 0.86,
+    "fiber": 3.3
+   },
+   "ean": "3083681040517",
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/42403/42403-1781016155270.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "EU",
+   "category": "Vorratsschrank > Fertiggerichte",
+   "source_url": "https://www.gurkerl.at/42403-bonduelle-linseneintop-classic-style",
+   "source_id": "42403",
+   "fetched_at": "2026-10-13T04:22:25+00:00",
+   "extra": {
+    "in_stock": false,
+    "archived": false,
+    "ingredients": "Zutaten: Wasser, 31% Linsen, 5% Karotten, 2,7% Zwiebeln, natürliche Aromen, Maisstärke, Salz, Hefeextrakt, süßes geräuchertes Chili, nätürlichesThymianaroma, natürliches Lorbeeraroma, Festigungsmittel: Calciumchlorid. Kann Spuren von GLUTEN und SOJA enthalten."
+   }
+  },
+  "cat": "Suppe/Eintopf",
+  "pack": "Dose"
+ },
+ {
+  "p": {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Marks & Spencer Spaghetti Loops",
+   "brand": "Marks & Spencer",
+   "price_eur": 2.69,
+   "unit_price_eur": 6.56,
+   "unit": "kg",
+   "size_g": 410.0,
+   "nutrition_100g": {
+    "kcal": 58.0,
+    "fat": 0.2,
+    "satfat": 0.1,
+    "carbs": 12.0,
+    "sugar": 4.0,
+    "protein": 1.7,
+    "salt": 0.35,
+    "fiber": 0.8
+   },
+   "ean": "029062164",
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/39876/39876-1741874056693.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Großbritannien",
+   "category": "Vorratsschrank > Fertiggerichte",
+   "source_url": "https://www.gurkerl.at/39876-marks-spencer-spaghetti-loops",
+   "source_id": "39876",
+   "fetched_at": "2026-10-13T04:22:25+00:00",
+   "extra": {
+    "in_stock": false,
+    "archived": false,
+    "ingredients": "Zutaten: gekochte Pasta (44%) (Trinkwasser, HARTWEIZENGRIE (enthält GLUTEN)), Tomaten (44%), Trinkwasser, Zucker, Maisstärke, Essig, Speisesalz, getrocknete Zwiebeln, Paprika, Farbstoff: Paprikaextrakt, Aroma, Knoblauchextrakt, Zwiebelöl"
+   }
+  },
+  "cat": "Komplettmahlzeit",
+  "pack": "Dose"
+ }
+]

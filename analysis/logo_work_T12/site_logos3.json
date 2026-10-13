@@ -1,0 +1,310 @@
+[
+ {
+  "slug": "hammermuehle",
+  "url": "https://www.hammermuehle-shop.de/",
+  "cands": [
+   {
+    "kind": "og",
+    "url": "https://www.hammermuehle-shop.de/media/54/03/d3/1739868317/Hammermuehle-Logo_(11).svg?ts=1739868318",
+    "file": "cand/hammermuehle_0.svg",
+    "bytes": 30032
+   },
+   {
+    "kind": "img",
+    "url": "https://www.hammermuehle-shop.de/media/54/03/d3/1739868317/Hammermuehle-Logo_%2811%29.svg?ts=1739868318",
+    "file": "cand/hammermuehle_1.svg",
+    "bytes": 30032
+   },
+   {
+    "kind": "img",
+    "url": "https://hammermuehle-shop.de/media/icons/dhl-logo.svg",
+    "file": "cand/hammermuehle_2.svg",
+    "bytes": 2598
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.hammermuehle-shop.de/media/6d/2e/2f/1739868318/favicon_(11).ico?ts=1739868318",
+    "file": "cand/hammermuehle_3.x-icon",
+    "bytes": 5430
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.hammermuehle-shop.de/"
+ },
+ {
+  "slug": "hammermuehle2",
+  "url": "https://www.hammermuehle-shop.de/ueber-uns/",
+  "cands": [
+   {
+    "kind": "og",
+    "url": "https://www.hammermuehle-shop.de/media/54/03/d3/1739868317/Hammermuehle-Logo_(11).svg?ts=1739868318",
+    "file": "cand/hammermuehle2_0.svg",
+    "bytes": 30032
+   },
+   {
+    "kind": "img",
+    "url": "https://www.hammermuehle-shop.de/media/54/03/d3/1739868317/Hammermuehle-Logo_%2811%29.svg?ts=1739868318",
+    "file": "cand/hammermuehle2_1.svg",
+    "bytes": 30032
+   },
+   {
+    "kind": "img",
+    "url": "https://hammermuehle-shop.de/media/icons/dhl-logo.svg",
+    "file": "cand/hammermuehle2_2.svg",
+    "bytes": 2598
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.hammermuehle-shop.de/media/6d/2e/2f/1739868318/favicon_(11).ico?ts=1739868318",
+    "file": "cand/hammermuehle2_3.x-icon",
+    "bytes": 5430
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.hammermuehle-shop.de/ueber-uns/"
+ },
+ {
+  "slug": "strauss",
+  "url": "https://www.strauss.tirol/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [Errno 101] Network is unreachable>",
+  "err": "<urlopen error [Errno 101] Network is unreachable>"
+ },
+ {
+  "slug": "amlacher",
+  "url": "https://amlacher-nudeln.at/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [Errno -2] Name or service not known>",
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "slug": "amlacher2",
+  "url": "https://www.amlacher-nudeln.at/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [Errno -2] Name or service not known>",
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "slug": "cecchin",
+  "url": "https://cecchinpasta.it/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [Errno -2] Name or service not known>",
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "slug": "stangl",
+  "url": "https://www.stangl.at/",
+  "cands": [],
+  "robots_ok": true,
+  "final": "https://www.stangl.at/de"
+ },
+ {
+  "slug": "ackerl",
+  "url": "https://www.ackerl.at/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a HTTP Error 404: Not Found",
+  "final": "https://www.ackerl.at/"
+ },
+ {
+  "slug": "rias",
+  "url": "https://www.riance.com/",
+  "cands": [],
+  "robots_ok": true,
+  "final": "https://www.riance.com/"
+ },
+ {
+  "slug": "rians2",
+  "url": "https://www.riance.fr/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [Errno -2] Name or service not known>",
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "slug": "landtmann",
+  "url": "https://www.landtmann.at/",
+  "cands": [
+   {
+    "kind": "img",
+    "url": "https://www.landtmann.at/app/uploads/2026/07/falstaff_2.jpg",
+    "file": "cand/landtmann_0.jpeg",
+    "bytes": 81303
+   },
+   {
+    "kind": "img",
+    "url": "https://www.landtmann.at/app/uploads/2026/06/Logo_betriebe_MUS.png",
+    "file": "cand/landtmann_1.png",
+    "bytes": 3590
+   },
+   {
+    "kind": "img",
+    "url": "https://www.landtmann.at/app/uploads/2026/06/Logo_betriebe_MOZ.png",
+    "file": "cand/landtmann_2.png",
+    "bytes": 9178
+   },
+   {
+    "kind": "img",
+    "url": "https://www.landtmann.at/app/uploads/2026/06/Logo_betriebe_CF.png",
+    "file": "cand/landtmann_3.png",
+    "bytes": 8530
+   },
+   {
+    "kind": "img",
+    "url": "https://www.landtmann.at/app/uploads/2026/06/BH_Logo_primary_white.png",
+    "file": "cand/landtmann_4.png",
+    "bytes": 24691
+   },
+   {
+    "kind": "img",
+    "url": "https://www.landtmann.at/app/uploads/2026/07/Napoleon_secundary_Logo_white_SPACERSS.png",
+    "file": "cand/landtmann_5.png",
+    "bytes": 12222
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.landtmann.at/"
+ },
+ {
+  "slug": "della-mamma",
+  "url": "https://www.heiderbeck.com/",
+  "cands": [
+   {
+    "kind": "img",
+    "url": "https://www.heiderbeck.com/wp-content/themes/heiderbeck/images/Heiderbeck_Logo.svg",
+    "file": "cand/della-mamma_0.svg",
+    "bytes": 3874
+   },
+   {
+    "kind": "img",
+    "url": "https://www.heiderbeck.com/wp-content/themes/heiderbeck/images/logo_facebook.svg",
+    "file": "cand/della-mamma_1.svg",
+    "bytes": 1017
+   },
+   {
+    "kind": "img",
+    "url": "https://www.heiderbeck.com/wp-content/themes/heiderbeck/images/logo_linkedin.svg",
+    "file": "cand/della-mamma_2.svg",
+    "bytes": 1294
+   },
+   {
+    "kind": "img",
+    "url": "https://www.heiderbeck.com/wp-content/themes/heiderbeck/images/logo_instagram.svg",
+    "file": "cand/della-mamma_3.svg",
+    "bytes": 3538
+   },
+   {
+    "kind": "img",
+    "url": "https://www.heiderbeck.com/wp-content/themes/heiderbeck/images/logo_appstore.svg",
+    "file": "cand/della-mamma_4.svg",
+    "bytes": 12985
+   },
+   {
+    "kind": "img",
+    "url": "https://www.heiderbeck.com/wp-content/themes/heiderbeck/images/logo_googleplay.svg",
+    "file": "cand/della-mamma_5.svg",
+    "bytes": 13344
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.heiderbeck.com/"
+ },
+ {
+  "slug": "casa-di-pietro",
+  "url": "https://www.heiderbeck.de/",
+  "cands": [
+   {
+    "kind": "img",
+    "url": "https://www.heiderbeck.com/wp-content/themes/heiderbeck/images/Heiderbeck_Logo.svg",
+    "file": "cand/casa-di-pietro_0.svg",
+    "bytes": 3874
+   },
+   {
+    "kind": "img",
+    "url": "https://www.heiderbeck.com/wp-content/themes/heiderbeck/images/logo_facebook.svg",
+    "file": "cand/casa-di-pietro_1.svg",
+    "bytes": 1017
+   },
+   {
+    "kind": "img",
+    "url": "https://www.heiderbeck.com/wp-content/themes/heiderbeck/images/logo_linkedin.svg",
+    "file": "cand/casa-di-pietro_2.svg",
+    "bytes": 1294
+   },
+   {
+    "kind": "img",
+    "url": "https://www.heiderbeck.com/wp-content/themes/heiderbeck/images/logo_instagram.svg",
+    "file": "cand/casa-di-pietro_3.svg",
+    "bytes": 3538
+   },
+   {
+    "kind": "img",
+    "url": "https://www.heiderbeck.com/wp-content/themes/heiderbeck/images/logo_appstore.svg",
+    "file": "cand/casa-di-pietro_4.svg",
+    "bytes": 12985
+   },
+   {
+    "kind": "img",
+    "url": "https://www.heiderbeck.com/wp-content/themes/heiderbeck/images/logo_googleplay.svg",
+    "file": "cand/casa-di-pietro_5.svg",
+    "bytes": 13344
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.heiderbeck.com/"
+ },
+ {
+  "slug": "franksoup",
+  "url": "https://www.franksoup.at/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [Errno -2] Name or service not known>",
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "slug": "wiener",
+  "url": "https://www.bs-gastro.at/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [Errno -2] Name or service not known>",
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "slug": "suedtiroler",
+  "url": "https://www.suedtiroler-kochwerk.com/",
+  "cands": [],
+  "robots_ok": true,
+  "robots": "n/a <urlopen error [Errno -2] Name or service not known>",
+  "err": "<urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "slug": "dmbio-press",
+  "url": "https://www.dm.de/unternehmen/presse/",
+  "cands": [
+   {
+    "kind": "icon",
+    "url": "https://www.dm.de/favicon-32x32.png",
+    "file": "cand/dmbio-press_0.png",
+    "bytes": 1407
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.dm.de/favicon-16x16.png",
+    "file": "cand/dmbio-press_1.png",
+    "bytes": 776
+   },
+   {
+    "kind": "icon",
+    "url": "https://www.dm.de/apple-touch-icon.png",
+    "file": "cand/dmbio-press_2.png",
+    "bytes": 2980
+   }
+  ],
+  "robots_ok": true,
+  "final": "https://www.dm.de/unternehmen/presse/"
+ }
+]

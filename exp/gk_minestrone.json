@@ -1,0 +1,93 @@
+{
+ "count": 3,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Suppito Minestrone",
+   "brand": "Suppito",
+   "price_eur": 11.99,
+   "unit_price_eur": 23.51,
+   "unit": "kg",
+   "size_g": 510.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/44770/44770-1758268185440215361.JPG",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Schnelle Küche > Suppen & Fonds",
+   "source_url": "https://www.gurkerl.at/44770-suppito-minestrone",
+   "source_id": "44770",
+   "fetched_at": "2026-10-13T02:19:25+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Wasser, 45% Gemüse (Tomaten, Zucchini, Kohlrabi, Karotten, speckige Erdäpfel, Kohl), Natursalz, Olivenöl, Rohrohrzucker, Erdäpfelstärke,\nBasilikum, Liebstöckl, Ingwer, Asant, Bockshornkleesamen, Lorbeerblätter, Pfeffer schwarz, Zitronenschale."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Knorr Kaiserteller Minestrone",
+   "brand": "Knorr",
+   "price_eur": 1.79,
+   "unit_price_eur": 30.34,
+   "unit": "kg",
+   "size_g": 59.0,
+   "nutrition_100g": {
+    "kcal": 36.0,
+    "fat": 0.5,
+    "satfat": 0.2,
+    "carbs": 5.9,
+    "sugar": 1.5,
+    "protein": 1.4,
+    "salt": 0.98,
+    "fiber": 0.9
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/7627/7627-1674029399385.jpg",
+   "producer": "Unilever Austria GmbH, Stella-Klein-Löw-Weg 13, 1020 Wien, Österreich",
+   "producer_id": null,
+   "origin": null,
+   "category": "Vorratsschrank > Fertiggerichte > Suppen",
+   "source_url": "https://www.gurkerl.at/7627-knorr-kaiserteller-minestrone",
+   "source_id": "7627",
+   "fetched_at": "2026-10-13T02:19:25+00:00",
+   "extra": {
+    "ingredients": "Zutaten: 34% Teigwaren (HARTWEIZENGRIESS), 8,5% Tomatenpulver¹, Stärke, 5% Karotten¹, jodiertes Speisesalz, Hefeextrakt, Speisesalz, 3,5% Erbsen¹, 3,5% Fisolen¹, Palmöl, SELLERIE¹, 2,5% Zucchini¹, Knoblauch¹, 2,5% Lauch¹, Zucker, Weißkohl¹, Karfiol¹, Zwiebeln¹, Aromen, Kräuter (Basilikum¹, Petersilie¹, Thymian¹), Maltodextrin, Kochsalzersatz², Sojasauce (SOJABOHNEN, WEIZEN), Fruktose, Zwiebelsaftkonzentrat¹, Sonnenblumenöl. Kann Spuren von Milch, Ei und Senf enthalten. ¹ Aus nachhaltigem Anbau. ² Gewonnen aus natürlichen Kaliummineralien.\n\nZubereitung: 1) Beutelinhalt in 550 ml kochendes Wasser einrühren. 2) 10 Minuten halb zugedeckt köcheln lassen, ab und zu umrühren.\n\nKühl und trocken lagern. \n\nKontakt: Unilever Austria GmbH, Stella-Klein-Löw-Weg 13, 1020 Wien, Österreich"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Marks & Spencer Minestrone Soup",
+   "brand": "Marks & Spencer",
+   "price_eur": 3.19,
+   "unit_price_eur": 7.98,
+   "unit": "kg",
+   "size_g": 400.0,
+   "nutrition_100g": {
+    "kcal": 51.0,
+    "fat": 1.0,
+    "satfat": 0.1,
+    "carbs": 7.5,
+    "sugar": 2.2,
+    "protein": 2.1,
+    "salt": 0.45,
+    "fiber": 1.6
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/6909/6909-1717748894797.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Großbritannien",
+   "category": "Marks & Spencer > Fertiggerichte",
+   "source_url": "https://www.gurkerl.at/6909-marks-spencer-minestrone-soup",
+   "source_id": "6909",
+   "fetched_at": "2026-10-13T02:19:25+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Tomaten (32%), Trinkwasser, gekochte Nudeln (8%) (Trinkwasser, Hartweizengrieß (enthält Gluten)), Borlotti-Bohnen (6%), grüne Bohnen (6%), Zwiebeln (5%), Karotten (5%), Sellerie (3,5%), Lauch, konzentrierte Tomaten, Maismehl, Tomatensaft, Gemüsebrühe (Pilzextrakt, Speisesalz, Hefeextrakt, Lauch, gemahlener weißer Pfeffer), Rapsöl, Speisesalz, Knoblauchpüree, gemahlener Oregano, gemahlener schwarzer Pfeffer, Thymian, Basilikum."
+   }
+  }
+ ]
+}

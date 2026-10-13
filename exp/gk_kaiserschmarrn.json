@@ -1,0 +1,166 @@
+{
+ "count": 5,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Landtmann's Original Kaiserschmarrn (tiefgekühlt)",
+   "brand": "Landtmann's",
+   "price_eur": 9.89,
+   "unit_price_eur": 30.91,
+   "unit": "kg",
+   "size_g": 320.0,
+   "nutrition_100g": {
+    "kcal": 125.0,
+    "fat": 1.7,
+    "satfat": 0.65,
+    "carbs": 29.4,
+    "sugar": 12.38,
+    "protein": 2.5,
+    "salt": 0.1222,
+    "fiber": 1.6
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/13442/13442-1619085017984.jpg",
+   "producer": "Landtmann´s feine Patisserie, Altmannsdorfer Straße 154-156, 1230 Wien, +43 1 24 100 – 567, patisserie@landtmann.at",
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Tiefkühlprodukte > Mehlspeisen > Warme Mehlspeisen & Süße Knödel",
+   "source_url": "https://www.gurkerl.at/13442-landtmann-s-original-kaiserschmarrn-tiefgekuehlt",
+   "source_id": "13442",
+   "fetched_at": "2026-10-13T02:18:33+00:00",
+   "extra": {
+    "ingredients": "flaumiger Kaiserschmarren mit Rumrosinen und Zwetschkenröster und Apfelmus.\n\nZutaten: Zwetschken, HühnereEIweiß, VollMILCH, WEIZENmehl, Zucker, Dotter, Apfel, Rotwein, Rosinen, Orangensaft, Vanillinzucker (Zucker, Vanille), Rum (38%), BUTTER, Orangenpüree, Cremepulver (Stärke, Vanillin), Zimt, Salz, Bourbon Vanille\n\nTiefgekühlt (bei mindestens -18°C) lagern.\n\nKontakt: Landtmann´s feine Patisserie, Altmannsdorfer Straße 154-156, 1230 Wien, +43 1 24 100 – 567, patisserie@landtmann.at\n"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Eissalon am Schwedenplatz Kaiserschmarrn Eis (tiefgekühlt)",
+   "brand": "Eissalon am Schwedenplatz",
+   "price_eur": 5.19,
+   "unit_price_eur": 18.54,
+   "unit": "kg",
+   "size_g": 280.0,
+   "nutrition_100g": {
+    "kcal": 245.0,
+    "fat": 10.4,
+    "satfat": 6.7,
+    "carbs": 35.0,
+    "sugar": 28.0,
+    "protein": 3.3,
+    "salt": 0.11,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/32255/32255-1707907570215.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Tiefkühlprodukte > Eis > Eisbecher",
+   "source_url": "https://www.gurkerl.at/32255-eissalon-am-schwedenplatz-kaiserschmarrn-eis-tiefgekuehlt",
+   "source_id": "32255",
+   "fetched_at": "2026-10-13T02:18:33+00:00",
+   "extra": {
+    "ingredients": "Kaiserschmarrn-Eis\n\nZutaten: SAUERRAHM, MILCH, Zucker, Wasser, 7,2% Muffinkuchen (Zucker, WEIZENMEHL, pflanzliches Fett (Sonnenblumen, Rapsöl), Wasser, VOLLEIPULVER, EIGELBPULVER, modifizierte Stärke, Backtriebmittel: Dinatrium Diphosphat, Kaliumbicarbonat, Elmulgator: E471, MAGERMILCHPULVER, WEIZENGLUTEN, Salz, natürliches Aroma), 7,2% Powidl (Zwetschken, Zucker, Geliermittel: Pektin, Konservierungsstoff: Sorbinsäure), Glukosesirup, Dextrose, Kokosfett, EIGELB, MAGERMILCHPULVER, BUTTER, Vanille, Stabilisatoren: Johannisbrotkernmehl, Guarkernmehl, Carrageen; Emulgator: Sorbit, E471; natürliches Orangenaroma. "
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "HiPP BIO Dessert Kaiserschmarrn in Apfelmus, ab dem 10. Monat",
+   "brand": "HiPP",
+   "price_eur": 1.89,
+   "unit_price_eur": 9.45,
+   "unit": "kg",
+   "size_g": 200.0,
+   "nutrition_100g": {
+    "kcal": 74.0,
+    "fat": 1.4,
+    "satfat": 0.3,
+    "carbs": 13.5,
+    "sugar": 8.4,
+    "protein": 1.0,
+    "salt": 0.05,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/19701/19701-1626265138014.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "EU, Außerhalb der EU",
+   "category": "Baby & Kinder > Baby- und Kindernahrung > Glaskost & Menüs > Obst-Gläschen",
+   "source_url": "https://www.gurkerl.at/19701-hipp-bio-dessert-kaiserschmarrn-in-apfelmus-ab-dem-10-monat",
+   "source_id": "19701",
+   "fetched_at": "2026-10-13T02:18:33+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Äpfel* 75 %, Pfannkuchen* 11 % (VOLLMILCH*,\nWEIZENMEHL*, VOLLEI*, Sonnenblumenöl*, Zitronensaftkonzentrat*),\nWasser, WEIZENMEHL*, Maisstärke*, Reisstärke*, Zitronensaft*,\nAntioxidationsmittel Ascorbinsäure. *Aus biologischer Erzeugung"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Fandler Bio Mohnöl",
+   "brand": "Ölmühle Fandler",
+   "price_eur": 10.49,
+   "unit_price_eur": 104.9,
+   "unit": "l",
+   "size_g": 100.0,
+   "nutrition_100g": {
+    "kcal": 900.0,
+    "fat": 100.0,
+    "satfat": 13.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "protein": 0.0,
+    "salt": 0.0,
+    "fiber": 0.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/44706/44706-1758106099497224539.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "EU",
+   "category": "Vorratsschrank > Öl, Essig & Balsamico > Ölspezialitäten",
+   "source_url": "https://www.gurkerl.at/44706-fandler-bio-mohnoel",
+   "source_id": "44706",
+   "fetched_at": "2026-10-13T02:18:33+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Mohn"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "HOFMANNs Kaiserschmarren (tiefgekühlt)",
+   "brand": "HOFMANNs",
+   "price_eur": 10.29,
+   "unit_price_eur": 21.44,
+   "unit": "kg",
+   "size_g": 480.0,
+   "nutrition_100g": {
+    "kcal": 167.0,
+    "fat": 5.0,
+    "satfat": 1.0,
+    "carbs": 25.0,
+    "sugar": 18.0,
+    "protein": 5.0,
+    "salt": 0.36,
+    "fiber": 0.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/29504/29504-1674046182947.jpg",
+   "producer": "Hofmann Menü-Manufaktur GmbH, Adelbert-Hofmann-Straße 6, 97944 Boxberg-Schweigern, Deutschland",
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Tiefkühlprodukte > Mehlspeisen > Warme Mehlspeisen & Süße Knödel",
+   "source_url": "https://www.gurkerl.at/29504-hofmanns-kaiserschmarren-tiefgekuehlt",
+   "source_id": "29504",
+   "fetched_at": "2026-10-13T02:18:33+00:00",
+   "extra": {
+    "ingredients": "Unser Klassiker: Hausgemachter Kaiserschmarren mit fruchtigem Zwetschkenröster.\n\nZutaten: Zwetschken, Hühnerei, teilentrahmte Milch 1,5% Fett, Weizenmehl, Zucker, Puderzucker, Rapsöl, modifizierte Stärke, jodiertes Speisesalz, Backpulver (Säuerungsmittel Diphosphate, Backtriebmittel Natriumhydrogencarbonat, Stärke), Zimt, Dextrose, Vanilleextrakt, Vanillesamen, natürliches Zitronen-Aroma, Gewürze.\n\nBei -18 °C lagern.\n\nKontakt: Hofmann Menü-Manufaktur GmbH, Adelbert-Hofmann-Straße 6, 97944 Boxberg-Schweigern, Deutschland"
+   }
+  }
+ ]
+}

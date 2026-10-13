@@ -1,0 +1,53 @@
+{
+ "files": 6,
+ "fixes": 1501,
+ "applied": 1490,
+ "by_field": {
+  "price_date": 162,
+  "price_status": 162,
+  "dry": 69,
+  "is_meal": 95,
+  "price_eur": 9,
+  "price_per_kg": 11,
+  "size_g": 23,
+  "protein_pack": 8,
+  "kcal_pack": 12,
+  "kcal_100": 81,
+  "protein_100": 78,
+  "fat_100": 79,
+  "satfat_100": 77,
+  "carbs_100": 79,
+  "sugar_100": 78,
+  "fiber_100": 78,
+  "salt_100": 78,
+  "image_url": 145,
+  "exclude": 38,
+  "store": 128
+ },
+ "by_file": {
+  "billa_fixes.json": {
+   "fixes": 1126,
+   "applied": 1126
+  },
+  "brandfam_fixes.json": {
+   "fixes": 40,
+   "applied": 40
+  },
+  "dm_live_fixes.json": {
+   "fixes": 8,
+   "applied": 7
+  },
+  "hofer_logos_fixes.json": {
+   "fixes": 0,
+   "applied": 0
+  },
+  "hourly_spar_img_fixes.json": {
+   "fixes": 138,
+   "applied": 138
+  },
+  "other_fixes.json": {
+   "fixes": 189,
+   "applied": 179
+  }
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "count": 2,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Knorr Basis für Mac 'n Cheese",
+   "brand": "Knorr",
+   "price_eur": 1.49,
+   "unit_price_eur": 41.39,
+   "unit": "kg",
+   "size_g": 36.0,
+   "nutrition_100g": {
+    "kcal": 160.0,
+    "fat": 6.9,
+    "satfat": 3.5,
+    "carbs": 18.0,
+    "sugar": 0.7,
+    "protein": 6.3,
+    "salt": 0.52,
+    "fiber": 1.2
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/44151/44151-1760698564834.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Rumänien",
+   "category": "Vorratsschrank > Salz, Gewürze, Kochzutaten & Co. > Basisfixprodukte",
+   "source_url": "https://www.gurkerl.at/44151-knorr-basis-fuer-mac-n-cheese",
+   "source_id": "44151",
+   "fetched_at": "2026-10-13T02:20:16+00:00",
+   "extra": {
+    "ingredients": "Zutaten: 29% Schmelzkäsepulver (21% KÄSE, 6,1% EMMENTALER, MOLKENERZEUGNIS), WEIZENMEHL, Maltodextrin, Stärke, Palmöl, Speisesalz, Aromen, Hefeextrakt, Zwiebeln, MILCHZUCKER, MILCHEIWEISS, Gewürze (Pfeffer, Kurkuma), Zitronensaftpulver, Weißweinaroma. Kann ROGGEN, GERSTE, HAFER, EI, SOJA, SELLERIE, SENF enthalten."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "New Roots BIO La Mac´n´Sauce vegan",
+   "brand": "New Roots",
+   "price_eur": 4.99,
+   "unit_price_eur": 27.72,
+   "unit": "kg",
+   "size_g": 180.0,
+   "nutrition_100g": {
+    "kcal": 295.0,
+    "fat": 25.0,
+    "satfat": 10.0,
+    "carbs": 8.0,
+    "sugar": 1.0,
+    "protein": 6.7,
+    "salt": 1.4,
+    "fiber": 0.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/30351/30351-1770728826387.jpg",
+   "producer": "Heiderbeck GmbH, Gewerbering 4, 82140 Olching, +49 8142 44567-0",
+   "producer_id": null,
+   "origin": "Schweiz",
+   "category": "Kühlregal > Produkte auf Pflanzenbasis > Aufstriche, Butter- & Frischkäse - Alternativen",
+   "source_url": "https://www.gurkerl.at/30351-new-roots-bio-la-mac-n-sauce-vegan",
+   "source_id": "30351",
+   "fetched_at": "2026-10-13T02:20:16+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Zutaten: Lupinendrink 47% (Wasser, LUPINEN*), Cashewdrink fermentiert 21% (Wasser, CASHEWKERNE*), Kokosfett*°, Sonnenblumenöl High Oleic*, Tapiokastärke*, Hefeextrakt, Salz, Ebereschenextrakt* [pasteurisiert]. * aus kontrolliert biologischem Anbau °Aus fairem Handel\n\nBei max. 5°C lagern.\n\nKontakt: Heiderbeck GmbH, Gewerbering 4, 82140 Olching, +49 8142 44567-0"
+   }
+  }
+ ]
+}

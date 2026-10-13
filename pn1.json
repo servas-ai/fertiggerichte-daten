@@ -1,0 +1,12 @@
+{
+  "error": true,
+  "url": "https://www.penny.at/api/products?q=fertiggericht&page=0&pageSize=50",
+  "statusCode": 404,
+  "statusMessage": "Not Found",
+  "message": "Not Found",
+  "data": {
+    "requestId": "1d9cb547-ccfc-4099-9dc0-281df5593d25-1791845392748",
+    "message": "404 NOT_FOUND \"api/products\"",
+    "errorCode": 0
+  }
+}

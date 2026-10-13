@@ -1,0 +1,75 @@
+{
+ "run": "2026-10-13T14 Daten-Squad (non-Eigenmarke brand + company logos)",
+ "added": [
+  {
+   "delidip": "Vision gate 2026-10-13T14 (Daten-Squad): visuell geprüft (korrekte Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · offizielles Webclip/Logo delidip.com (Webflow CDN; deli gourmet GmbH, Nußdorferplatz 5/9, 1190 Wien – Impressum geprüft); Kreis-Badge freigestellt",
+   "source": "https://cdn.prod.website-files.com/67390534eec8342a659fdf85/6746d27b797228be2c2a4363_delidip-webclip.png"
+  },
+  {
+   "farniente": "Vision gate 2026-10-13T14 (Daten-Squad): visuell geprüft (korrekte Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · offizielles Logo farniente.be (Farniente S.A., Seilles/Andenne, Belgien = Hersteller lt. Gurkerl); schwarzer BG freigestellt",
+   "source": "https://static.wixstatic.com/media/90a877_cde4c3f864a84b8499b47a47b73bce94~mv2.png"
+  },
+  {
+   "biogourmet": "Vision gate 2026-10-13T14 (Daten-Squad): visuell geprüft (korrekte Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · offizielles Logo bio-gourmet.com (BioGourmet GmbH, Erdmannhausen – Impressum geprüft)",
+   "source": "https://bio-gourmet.com/wp-content/uploads/2018/01/bigo_logo_rgb-1.png"
+  },
+  {
+   "zum-dorfkrug": "Vision gate 2026-10-13T14 (Daten-Squad): visuell geprüft (korrekte Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · offizielles Header-Logo zum-dorfkrug.de (Waldgrün #005e39 auf transparent – helles UI ok)",
+   "source": "https://www.zum-dorfkrug.de/assets/zum-dorfkrug-logo.svg"
+  }
+ ],
+ "updated_fileless": [
+  {
+   "ablinger": "Vision gate 2026-10-13T14 (Daten-Squad): visuell geprüft (korrekte Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · offizielles Logo ablinger.co.at (Franz Ablinger & Co Fleischhauereibetrieb GmbH, Oberndorf – Impressum geprüft); aus SVG-eingebettetem PNG übernommen",
+   "source": "https://www.ablinger.co.at/wp-content/uploads/2025/06/ABL_Logo.svg"
+  }
+ ],
+ "aliases_producer_fallback": [
+  [
+   "blasko",
+   [
+    "Blasko",
+    "BLASKO"
+   ]
+  ],
+  [
+   "hink",
+   [
+    "Hink"
+   ]
+  ],
+  [
+   "tress-brueder",
+   [
+    "Küchenbrüder",
+    "Kuechenbrueder",
+    "Küchenbrueder"
+   ]
+  ],
+  [
+   "every-foods",
+   [
+    "Every"
+   ]
+  ]
+ ],
+ "rejected": {
+  "The Green Garden (onobox.at/images/logo.png)": "Asset is the 'Ono' Onobox mark (green circle), not The Green Garden restaurant brand — wrong brand, rejected",
+  "Mama / Thai President Foods Commons SVG": "File:Thai President Foods Logo.svg is the parent-company green mark, not the red MAMA wordmark — not assigned as Mama brand logo",
+  "Namdong (Unilever)": "still HTTP 403 Akamai on Unilever brand pages — not bypassed; Commons has no Namdong noodle logo",
+  "Wiener Virtshaus / BS Gastro": "no own website (known); not retried aggressively",
+  "Pasta Box / Elsässer / Holzbauer / Just Veg! / Sushitime / Gastrotech": "no clean official logo asset found this run (sites missing, ambiguous entity, or Eigenmarke)",
+  "Whollees / Hildegard-Grünkraft / Dairy 4 Fun / La Crêpe de Brocéliande": "TLS hostname mismatch or handshake fail — not bypassed (policy)",
+  "Galana / Beldessert": "emmidesserts.com brands page HTTP 406; no clean Commons asset",
+  "Eigenmarken (Good Choice, Pappudia, Chef Select, SPAR enjoy, dmBio, Vemondo, Nature's Gold, PIZZ'AH, M/MPreis, Kania, MCENNEDY, Chef Menü, Deluxe, Rettenswert, TANN, …)": "skipped by policy",
+  "Staudinger / Ager / Njami-Glatz / Rügenwalder Mühle": "known dead ends (white lettering / icon-font / favicon-only / windmill icon)",
+  "delidip.svg cream (#f2e8dc) footer SVG": "cream on transparent invisible on light bg — used webclip circle badge instead"
+ },
+ "counts": {
+  "added": 4,
+  "updated_fileless": 1,
+  "aliased": 4,
+  "total_rows": 242
+ },
+ "generated": "2026-10-13T14:35:51+00:00"
+}

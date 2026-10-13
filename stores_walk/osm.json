@@ -1,0 +1,2811 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-06-01T08:52:28Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 259863252,
+  "lat": 48.3147064,
+  "lon": 14.2832382,
+  "tags": {
+    "brand": "Billa Plus",
+    "brand:wikidata": "Q115431077",
+    "brand:wikipedia": "de:Billa",
+    "contact:phone": "+43 732 733375",
+    "layer": "0",
+    "level": "0",
+    "name": "Billa Plus",
+    "old_name": "Merkur",
+    "opening_hours": "Mo-Fr 07:40-20:00; Sa 07:40-18:00",
+    "shop": "supermarket",
+    "website": "https://www.billa.at",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 259863253,
+  "lat": 48.3153345,
+  "lon": 14.2803538,
+  "tags": {
+    "shop": "kiosk"
+  }
+},
+{
+  "type": "node",
+  "id": 259863254,
+  "lat": 48.3137291,
+  "lon": 14.2816004,
+  "tags": {
+    "brand": "Bipa",
+    "brand:wikidata": "Q864933",
+    "brand:wikipedia": "de:Bipa",
+    "check_date": "2026-04-30",
+    "check_date:opening_hours": "2022-09-06",
+    "name": "Bipa",
+    "opening_hours": "Mo-Fr 08:00-19:00; Sa 08:00-18:00",
+    "shop": "chemist",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 259863255,
+  "lat": 48.3113309,
+  "lon": 14.2832929,
+  "tags": {
+    "addr:city": "Linz",
+    "addr:country": "AT",
+    "addr:housenumber": "18",
+    "addr:postcode": "4040",
+    "addr:street": "Hauptstraße",
+    "brand": "Billa",
+    "brand:wikidata": "Q537781",
+    "brand:wikipedia": "en:Billa (supermarket)",
+    "check_date:opening_hours": "2024-06-18",
+    "contact:phone": "+43 732 715915",
+    "contact:website": "http://www.billa.at",
+    "name": "Billa",
+    "opening_hours": "Mo-Fr 06:45-19:00; Sa 07:15-18:00",
+    "shop": "supermarket",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 259863256,
+  "lat": 48.3139607,
+  "lon": 14.2862564,
+  "tags": {
+    "brand": "Spar",
+    "brand:wikidata": "Q610492",
+    "brand:wikipedia": "en:Spar (retailer)",
+    "check_date": "2026-04-29",
+    "name": "Spar",
+    "shop": "supermarket",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 277284858,
+  "lat": 48.3210356,
+  "lon": 14.2893695,
+  "tags": {
+    "brand": "Hofer",
+    "brand:wikidata": "Q15815751",
+    "brand:wikipedia": "de:Hofer KG",
+    "check_date": "2025-09-28",
+    "check_date:opening_hours": "2025-09-28",
+    "contact:phone": "+43 732 710701",
+    "contact:website": "http://www.hofer.at",
+    "name": "Hofer",
+    "opening_hours": "Mo-Fr 07:40-20:00; Sa 07:40-18:00",
+    "shop": "supermarket",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 277289046,
+  "lat": 48.3144947,
+  "lon": 14.2827851,
+  "tags": {
+    "addr:city": "Linz",
+    "addr:country": "AT",
+    "addr:housenumber": "13-23",
+    "addr:postcode": "4040",
+    "addr:street": "Blütenstraße",
+    "brand": "dm",
+    "brand:wikidata": "Q266572",
+    "brand:wikipedia": "en:Dm-drogerie markt",
+    "check_date:opening_hours": "2025-11-12",
+    "layer": "1",
+    "level": "1",
+    "name": "dm",
+    "opening_hours": "Mo-Fr 08:00-19:00, Sa 08:00-18:00",
+    "phone": "+43 732 739717",
+    "shop": "chemist",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 300566480,
+  "lat": 48.2978944,
+  "lon": 14.2840910,
+  "tags": {
+    "addr:city": "Linz",
+    "addr:housenumber": "23",
+    "addr:postcode": "4020",
+    "addr:street": "Hopfengasse",
+    "brand": "Hofer",
+    "brand:wikidata": "Q15815751",
+    "name": "Hofer",
+    "opening_hours": "Mo-FR 07:40-20:00; SA 07:40-18:00",
+    "payment:cards": "yes",
+    "payment:cash": "yes",
+    "payment:contactless": "yes",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 322703044,
+  "lat": 48.3179500,
+  "lon": 14.2836535,
+  "tags": {
+    "addr:city": "Linz",
+    "addr:country": "AT",
+    "addr:housenumber": "33",
+    "addr:postcode": "4040",
+    "addr:street": "Freistädter Straße",
+    "brand": "Spar",
+    "brand:wikidata": "Q610492",
+    "brand:wikipedia": "en:Spar (retailer)",
+    "contact:phone": "+43 732 731356",
+    "name": "Spar",
+    "opening_hours": "Mo-Fr 06:50-19:00; Sa 06:50-18:00; PH off",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 322704869,
+  "lat": 48.3212446,
+  "lon": 14.2829006,
+  "tags": {
+    "name": "Trafik Ernst Glasner",
+    "opening_hours": "Mo-Fr 07:30-18:00; Sa 07:30-13:00",
+    "shop": "kiosk"
+  }
+},
+{
+  "type": "node",
+  "id": 411256221,
+  "lat": 48.3062594,
+  "lon": 14.3076968,
+  "tags": {
+    "addr:city": "Linz",
+    "addr:housenumber": "4",
+    "addr:postcode": "4020",
+    "addr:street": "Derfflingerstraße",
+    "shop": "kiosk"
+  }
+},
+{
+  "type": "node",
+  "id": 495564411,
+  "lat": 48.3121396,
+  "lon": 14.2821926,
+  "tags": {
+    "check_date": "2022-10-15",
+    "name": "Winkler",
+    "shop": "bakery",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 527809213,
+  "lat": 48.3143185,
+  "lon": 14.2838160,
+  "tags": {
+    "brand": "Hofer",
+    "brand:wikidata": "Q15815751",
+    "brand:wikipedia": "de:Hofer KG",
+    "check_date:opening_hours": "2025-11-12",
+    "contact:phone": "+43 732 731425",
+    "contact:website": "http://www.hofer.at/",
+    "layer": "0",
+    "level": "0",
+    "name": "Hofer",
+    "opening_hours": "Mo-Fr 07:40-20:00; Sa 07:40-18:00",
+    "shop": "supermarket",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 630369059,
+  "lat": 48.3016771,
+  "lon": 14.2915146,
+  "tags": {
+    "addr:city": "Linz",
+    "addr:housenumber": "7",
+    "addr:postcode": "4020",
+    "addr:street": "Mozartstraße",
+    "brand": "Billa Plus",
+    "brand:wikidata": "Q115431077",
+    "brand:wikipedia": "de:Billa",
+    "check_date:opening_hours": "2024-06-24",
+    "contact:phone": "+43 599 1504545",
+    "diet:halal": "no",
+    "internet_access": "wlan",
+    "name": "Billa Plus",
+    "old_name": "Merkur",
+    "opening_hours": "Mo-Fr 07:15-19:30; Sa 07:15-18:00",
+    "operator": "ATRIUM Vermögensverwaltungs-GmbH",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "shop": "supermarket",
+    "website": "https://www.billa.at",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 636038299,
+  "lat": 48.3111557,
+  "lon": 14.2827050,
+  "tags": {
+    "layer": "-1",
+    "shop": "kiosk"
+  }
+},
+{
+  "type": "node",
+  "id": 736662138,
+  "lat": 48.3016482,
+  "lon": 14.3000525,
+  "tags": {
+    "addr:housenumber": "48",
+    "addr:street": "Eisenhandstraße",
+    "check_date:opening_hours": "2023-09-11",
+    "name": "Tabak-Trafik SABITZER",
+    "opening_hours": "Mo-Fr 06:00-18:00; Sa 07:00-13:00; PH closed",
+    "phone": "+43 660 9401196",
+    "shop": "kiosk",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 737157872,
+  "lat": 48.3032134,
+  "lon": 14.3001652,
+  "tags": {
+    "name": "Tabak Trafik Zeitlhofer Michael",
+    "opening_hours": "Mo-Fr 06:00-18:00; Sa 07:00-12:00",
+    "shop": "kiosk"
+  }
+},
+{
+  "type": "node",
+  "id": 778129729,
+  "lat": 48.3058338,
+  "lon": 14.2883815,
+  "tags": {
+    "addr:city": "Linz",
+    "addr:housenumber": "17",
+    "addr:postcode": "4020",
+    "addr:street": "Pfarrgasse",
+    "diet:vegan": "yes",
+    "diet:vegetarian": "yes",
+    "email": "office@kuk-hofbaeckerei.at",
+    "indoor_seating": "yes",
+    "name": "k.u.k. Hofbäckerei",
+    "old_name": "Bäckerei Rath",
+    "opening_hours": "Mo-Fr 06:30-18:30; Sa 07:00-12:30",
+    "operator": "Dal Michael",
+    "outdoor_seating": "yes",
+    "phone": "+43 732 78 41 10",
+    "shop": "bakery",
+    "website": "https://www.kuk-hofbaeckerei.at"
+  }
+},
+{
+  "type": "node",
+  "id": 778130170,
+  "lat": 48.3063973,
+  "lon": 14.2879596,
+  "tags": {
+    "amenity": "cafe",
+    "contact:email": "zentrale@honeder.cc",
+    "contact:fax": "+43 732 771514",
+    "contact:phone": "+43 732 242401",
+    "contact:website": "http://www.naturbackstube.at",
+    "indoor_seating": "yes",
+    "name": "Honeder Naturbackstube",
+    "opening_hours": "Mo-Fr 06:00-18:30; Sa 06:00-12:30; PH off",
+    "operator": "Margarethe Reiter",
+    "outdoor_seating": "no",
+    "shop": "bakery",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 791236550,
+  "lat": 48.3017756,
+  "lon": 14.2869712,
+  "tags": {
+    "entrance": "yes",
+    "name": "Trafik am Dom e.U.",
+    "shop": "kiosk"
+  }
+},
+{
+  "type": "node",
+  "id": 791236567,
+  "lat": 48.2998264,
+  "lon": 14.2912934,
+  "tags": {
+    "check_date": "2024-06-27",
+    "name": "Tabak Trafik",
+    "shop": "kiosk"
+  }
+},
+{
+  "type": "node",
+  "id": 794102237,
+  "lat": 48.3042110,
+  "lon": 14.2880122,
+  "tags": {
+    "addr:city": "Linz",
+    "addr:country": "AT",
+    "addr:housenumber": "1",
+    "addr:postcode": "4020",
+    "addr:street": "Taubenmarkt",
+    "brand": "Bipa",
+    "brand:wikidata": "Q864933",
+    "check_date": "2025-07-07",
+    "check_date:opening_hours": "2025-07-07",
+    "entrance": "yes",
+    "name": "Bipa",
+    "opening_hours": "Mo-Fr 08:00-19:30; Sa 08:00-18:00",
+    "shop": "chemist",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 872404474,
+  "lat": 48.3005518,
+  "lon": 14.2906717,
+  "tags": {
+    "addr:city": "Linz",
+    "addr:housenumber": "44",
+    "addr:postcode": "4020",
+    "addr:street": "Landstraße",
+    "brand": "Billa",
+    "contact:phone": "+43 599 1504500",
+    "diet:halal": "no",
+    "name": "Billa Corso",
+    "not:brand:wikidata": "Q537781",
+    "opening_hours": "Mo-Fr 07:15-19:30; Sa 07:15-18:00; PH off",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "shop": "supermarket",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 872404508,
+  "lat": 48.3005084,
+  "lon": 14.2953185,
+  "tags": {
+    "addr:city": "Linz",
+    "addr:country": "AT",
+    "addr:housenumber": "8",
+    "addr:postcode": "4020",
+    "addr:street": "Hessenplatz",
+    "brand": "Penny",
+    "brand:wikidata": "Q284688",
+    "check_date:opening_hours": "2022-06-28",
+    "contact:phone": "+43 59 917 700",
+    "entrance": "yes",
+    "name": "Penny Markt",
+    "opening_hours": "Mo-Fr 07:15-19:30; Sa 07:15-18:00",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "shop": "supermarket",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 876467454,
+  "lat": 48.3142458,
+  "lon": 14.2828822,
+  "tags": {
+    "brand": "Müller",
+    "brand:wikidata": "Q1958759",
+    "brand:wikipedia": "en:Müller (German trade company)",
+    "check_date:opening_hours": "2025-11-12",
+    "contact:phone": "+43 732 908810",
+    "layer": "0",
+    "level": "0;1",
+    "name": "Müller",
+    "opening_hours": "Mo-Fr 08:30-19:00, Sa 08:30-18:00; PH off",
+    "shop": "chemist",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 876467492,
+  "lat": 48.3138075,
+  "lon": 14.2815556,
+  "tags": {
+    "addr:city": "Linz",
+    "addr:housenumber": "52",
+    "addr:postcode": "4040",
+    "addr:street": "Hauptstraße",
+    "check_date": "2026-04-30",
+    "name": "Fenzl",
+    "opening_hours": "Mo-Fr 06:30-18:00; Sa 06:30-12:00",
+    "phone": "+43 732 947297",
+    "shop": "bakery",
+    "website": "https://www.baeckereifenzl.at/filialen/filiale-lentia.html"
+  }
+},
+{
+  "type": "node",
+  "id": 876467501,
+  "lat": 48.3145342,
+  "lon": 14.2830418,
+  "tags": {
+    "layer": "0",
+    "level": "0",
+    "name": "Gastro Alimentari GmbH",
+    "shop": "food"
+  }
+},
+{
+  "type": "node",
+  "id": 876467516,
+  "lat": 48.3146734,
+  "lon": 14.2828505,
+  "tags": {
+    "layer": "0",
+    "level": "0",
+    "name": "Honeder",
+    "shop": "bakery",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 876499319,
+  "lat": 48.3134880,
+  "lon": 14.2817148,
+  "tags": {
+    "addr:city": "Linz",
+    "addr:country": "AT",
+    "addr:housenumber": "48",
+    "addr:postcode": "4040",
+    "addr:street": "Hauptstraße",
+    "name": "Sewa",
+    "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-17:00",
+    "shop": "supermarket",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 954480312,
+  "lat": 48.2965413,
+  "lon": 14.2961356,
+  "tags": {
+    "addr:city": "Linz",
+    "addr:housenumber": "21b",
+    "addr:postcode": "4020",
+    "addr:street": "Humboldtstraße",
+    "name": "Güven Markt",
+    "shop": "convenience",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 973829524,
+  "lat": 48.3197714,
+  "lon": 14.2894223,
+  "tags": {
+    "check_date:opening_hours": "2025-11-12",
+    "contact:email": "maria.nguyen@reinet.at",
+    "contact:phone": "+43 699 17110497",
+    "contact:website": "http://www.asiamarkt-linz.at",
+    "name": "Hang Khang Asia Lebensmittel",
+    "opening_hours": "Mo-Fr 09:00-18:30; Sa 10:00-17:00; Su off",
+    "origin": "asian",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 973829533,
+  "lat": 48.3196526,
+  "lon": 14.2896588,
+  "tags": {
+    "amenity": "cafe",
+    "contact:email": "zentrale@honeder.cc",
+    "contact:fax": "+43 732 718307",
+    "contact:phone": "+43 732 242404",
+    "contact:website": "http://www.naturbackstube.at",
+    "indoor_seating": "yes",
+    "name": "Honeder Naturbackstube",
+    "opening_hours": "Mo-Fr 06:00-18:00; Sa 06:00-12:00; Su 07:00-12:00",
+    "operator": "Christa Hölzl",
+    "outdoor_seating": "no",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 986059963,
+  "lat": 48.3148296,
+  "lon": 14.2828849,
+  "tags": {
+    "contact:phone": "+43 732 737354",
+    "contact:website": "http://www.wegschaider.com/",
+    "layer": "0",
+    "level": "0",
+    "name": "Wegschaider",
+    "opening_hours": "Mo-Fr 08:00-19:00; Sa 08:00-17:00",
+    "shop": "butcher",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 986821880,
+  "lat": 48.3147108,
+  "lon": 14.2827982,
+  "tags": {
+    "layer": "0",
+    "level": "0",
+    "name": "Tabak Trafik Undeßer",
+    "opening_hours": "Mo-Fr 08:00-19:00; Sa 08:00-18:00",
+    "shop": "kiosk"
+  }
+},
+{
+  "type": "node",
+  "id": 1039243098,
+  "lat": 48.2994022,
+  "lon": 14.2920323,
+  "tags": {
+    "check_date:opening_hours": "2023-09-16",
+    "email": "office@baeckerei-brandl.at",
+    "name": "Brandl",
+    "opening_hours": "Mo-Fr 05:30-18:00; Sa 05:30-12:00",
+    "phone": "+43 732 773635-2",
+    "shop": "bakery",
+    "toilets:wheelchair": "no",
+    "website": "https://www.baeckerei-brandl.at/",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 1238412589,
+  "lat": 48.3103999,
+  "lon": 14.2989142,
+  "tags": {
+    "amenity": "cafe",
+    "contact:fax": "+43 732 995460",
+    "contact:phone": "+43 732 242407",
+    "contact:website": "https://www.naturbackstube.at/",
+    "cuisine": "coffee_shop",
+    "diet:vegan": "yes",
+    "diet:vegetarian": "yes",
+    "entrance": "yes",
+    "name": "Honeder Naturbackstube",
+    "opening_hours": "Mo-Fr 06:00-18:30; Sa 06:00-17:00; Su 07:00-12:30",
+    "shop": "bakery",
+    "toilets:wheelchair": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1308502059,
+  "lat": 48.3211755,
+  "lon": 14.2829077,
+  "tags": {
+    "addr:city": "Linz",
+    "addr:housenumber": "35",
+    "addr:postcode": "4040",
+    "addr:street": "Leonfeldner Straße",
+    "check_date:opening_hours": "2025-11-13",
+    "name": "Tauber Bäckerei",
+    "opening_hours": "Mo-Fr 05:45-18:00; Sa 05:45-12:00",
+    "operator": "Tauber",
+    "phone": "+43 732 701564",
+    "shop": "bakery",
+    "website": "https://www.baeckerei-tauber.at/standorte/linz/",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 1324390147,
+  "lat": 48.2999786,
+  "lon": 14.3009437,
+  "tags": {
+    "contact:email": "huang.wq@aon.at",
+    "contact:phone": "+43 732 601222",
+    "name": "Asiatische Küche",
+    "opening_hours": "Nov-Apr Mo-Sa 10:00-18:00; May-Oct Mo-Sa 10:00-20:00",
+    "shop": "deli"
+  }
+},
+{
+  "type": "node",
+  "id": 1324390228,
+  "lat": 48.3002483,
+  "lon": 14.3006574,
+  "tags": {
+    "contact:email": "huemerkeg@hotmail.com",
+    "contact:phone": "+43 732 661622",
+    "contact:website": "http://www.feine-kost.at",
+    "name": "Huemer - Feine Kost",
+    "opening_hours": "Tu-Th 08:00-14:00; Mo off; Fr 08:00-17:00; Sa 07:30-13:30",
+    "shop": "deli",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1324390233,
+  "lat": 48.3012660,
+  "lon": 14.2999838,
+  "tags": {
+    "name": "Gottfrieds Obst und Gemüsewelt",
+    "opening_hours": "Mo,We,Th 08:00-16:00; Tu 08:00-17:30; Fr 07:00-17:30; Sa 07:00-13:00",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 1324390279,
+  "lat": 48.3010040,
+  "lon": 14.3002623,
+  "tags": {
+    "name": "Der Genussladen",
+    "opening_hours": "Tu-Th 08:00-14:00; Fr 07:00-17:00; Sa 07:00-12:30",
+    "shop": "deli"
+  }
+},
+{
+  "type": "node",
+  "id": 1324390581,
+  "lat": 48.3002897,
+  "lon": 14.3008310,
+  "tags": {
+    "check_date:opening_hours": "2023-09-11",
+    "contact:email": "norberteder@aon.at",
+    "contact:phone": "+43 699 18829527",
+    "contact:website": "http://www.mosteria.at",
+    "name": "Mosteria",
+    "opening_hours": "Tu,Fr,Sa 10:00-14:00",
+    "operator": "Norbert Eder",
+    "shop": "deli"
+  }
+},
+{
+  "type": "node",
+  "id": 1324390590,
+  "lat": 48.3004680,
+  "lon": 14.3004087,
+  "tags": {
+    "contact:email": "e.rado@gmx.at",
+    "contact:phone": "+43 699 11199333",
+    "name": "Prima Hungaria - Ungarische Spezialitäten",
+    "opening_hours": "Tu,Fr 07:00-17:00; We 07:00-14:00; Sa 07:00-13:00",
+    "shop": "deli"
+  }
+},
+{
+  "type": "node",
+  "id": 1324390641,
+  "lat": 48.3009131,
+  "lon": 14.3001679,
+  "tags": {
+    "contact:email": "kraeuterpaul@gmx.at",
+    "contact:phone": "+43 732 781258",
+    "name": "Kräuter Paul",
+    "opening_hours": "Tu-Sa 07:45-13:00",
+    "shop": "greengrocer"
+  }
+},
+{
+  "type": "node",
+  "id": 1335620604,
+  "lat": 48.3060155,
+  "lon": 14.2882770,
+  "tags": {
+    "contact:email": "bauernmarkt@mueli.at",
+    "contact:phone": "+43 732 775688",
+    "contact:website": "http://www.meinmueli.at",
+    "entrance": "shop",
+    "name": "mein Müli",
+    "opening_hours": "Mo-Fr 09:00-18:00; Sa 08:30-12:30",
+    "organic": "yes",
+    "shop": "convenience",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1373618321,
+  "lat": 48.3122258,
+  "lon": 14.2823886,
+  "tags": {
+    "name": "Kandur",
+    "shop": "bakery",
+    "toilets:wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 1515446158,
+  "lat": 48.2997481,
+  "lon": 14.3192881,
+  "tags": {
+    "brand": "Interspar",
+    "brand:wikidata": "Q15820339",
+    "brand:wikipedia": "de:Interspar (Österreich)",
+    "check_date:opening_hours": "2022-09-10",
+    "name": "Interspar",
+    "opening_hours": "Mo-Fr 08:00-20:00; Sa 08:00-18:00",
+    "phone": "+43 732 654124",
+    "shop": "supermarket",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1565970451,
+  "lat": 48.2965199,
+  "lon": 14.2916627,
+  "tags": {
+    "brand": "Billa",
+    "brand:wikidata": "Q537781",
+    "check_date:opening_hours": "2025-02-10",
+    "contact:phone": "+43 732 610798",
+    "contact:website": "http://www.billa.at",
+    "name": "Billa",
+    "opening_hours": "Mo-Fr 06:45-19:00; Sa 07:15-18:00",
+    "shop": "supermarket",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 1566303942,
+  "lat": 48.3021701,
+  "lon": 14.2997645,
+  "tags": {
+    "brand": "Billa",
+    "brand:wikidata": "Q537781",
+    "contact:phone": "+43 732 781241",
+    "contact:website": "https://www.billa.at",
+    "diet:halal": "no",
+    "internet_access": "wlan",
+    "name": "Billa",
+    "opening_hours": "Mo-Fr 06:45-19:00; Sa 07:15-18:00",
+    "shop": "supermarket",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 1573031548,
+  "lat": 48.3032258,
+  "lon": 14.2991718,
+  "tags": {
+    "check_date": "2025-12-19",
+    "name": "Haubis",
+    "shop": "bakery",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 1697846123,
+  "lat": 48.2986509,
+  "lon": 14.2912053,
+  "tags": {
+    "addr:postcode": "4020",
+    "air_conditioning": "no",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "diet:halal": "no",
+    "diet:kosher": "no",
+    "diet:vegetarian": "no",
+    "indoor_seating": "yes",
+    "name": "Resch & Frisch",
+    "opening_hours": "Mo-Fr 06:15-18:00; Sa 07:00-17:00; Su 07:30-17:00",
+    "outdoor_seating": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "shop": "bakery",
+    "smoking": "no",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2309636166,
+  "lat": 48.3069113,
+  "lon": 14.2943546,
+  "tags": {
+    "branch": "Kaisergasse",
+    "brand": "Lidl",
+    "brand:wikidata": "Q151954",
+    "entrance": "yes",
+    "name": "Lidl",
+    "opening_hours": "Mo-Fr 07:40-20:00; Sa 07:40-18:00",
+    "shop": "supermarket",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2355241493,
+  "lat": 48.2962264,
+  "lon": 14.3083899,
+  "tags": {
+    "amenity": "fuel",
+    "brand": "BP",
+    "brand:wikidata": "Q152057",
+    "contact:fax": "+43 732 6545624",
+    "contact:phone": "+43 732 654562",
+    "fuel:diesel": "yes",
+    "fuel:octane_91": "yes",
+    "fuel:octane_95": "yes",
+    "name": "BP Tankstelle",
+    "opening_hours": "Mo-Fr 05:30-22:00; PH,Sa,Su 07:00-22:00",
+    "payment:american_express": "yes",
+    "payment:cash": "yes",
+    "payment:diners_club": "yes",
+    "payment:discover_card": "no",
+    "payment:maestro": "yes",
+    "payment:mastercard": "yes",
+    "payment:uta": "yes",
+    "payment:visa": "yes",
+    "shop": "convenience",
+    "tendant": "FINK GMBH"
+  }
+},
+{
+  "type": "node",
+  "id": 2399200780,
+  "lat": 48.3016065,
+  "lon": 14.2967660,
+  "tags": {
+    "addr:city": "Linz",
+    "addr:country": "AT",
+    "addr:housenumber": "14",
+    "addr:postcode": "4020",
+    "addr:street": "Volksfeststraße",
+    "contact:email": "gesuender_leben@aon.at",
+    "contact:phone": "+43 732 771146",
+    "contact:website": "https://www.gesuender-leben.at",
+    "diet:halal": "no",
+    "diet:kosher": "no",
+    "name": "Gesünder Leben",
+    "opening_hours": "Mo-Th 08:30-12:30,14:00-18:00; Fr 08:30-18:00; Sa 08:30-12:30",
+    "organic": "yes",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 2399200783,
+  "lat": 48.2963601,
+  "lon": 14.2924155,
+  "tags": {
+    "contact:email": "hannes.rauth@aon.at",
+    "contact:phone": "+43 732 652873",
+    "contact:website": "http://www.natur-reform.com",
+    "name": "Natur & Reform",
+    "opening_hours": "Mo-Fr 08:30-18:00; Sa 08:30-12:30",
+    "organic": "yes",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 2399200785,
+  "lat": 48.3062120,
+  "lon": 14.2866954,
+  "tags": {
+    "addr:city": "Linz",
+    "addr:country": "AT",
+    "addr:housenumber": "2",
+    "addr:postcode": "4020",
+    "addr:street": "Hauptplatz",
+    "check_date": "2025-01-07",
+    "check_date:opening_hours": "2024-06-25",
+    "contact:email": "office@reformhas-martin.at",
+    "contact:phone": "+43 732 773472",
+    "contact:website": "http://www.reformhas-martin.at",
+    "entrance": "yes",
+    "name": "Martin Reformhaus",
+    "opening_hours": "Mo-Fr 08:30-18:30; Sa 08:30-18:00",
+    "organic": "yes",
+    "shop": "convenience",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2498930484,
+  "lat": 48.3108883,
+  "lon": 14.2818492,
+  "tags": {
+    "check_date:opening_hours": "2024-07-28",
+    "name": "Indian",
+    "opening_hours": "Mo-Sa 10:00-18:00",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 2699954205,
+  "lat": 48.2970579,
+  "lon": 14.2902543,
+  "tags": {
+    "amenity": "restaurant",
+    "contact:email": "office@meeresbrise.at",
+    "contact:phone": "+43 732 600602",
+    "contact:website": "http://www.meeresbrise.at",
+    "cuisine": "fish",
+    "entrance": "yes",
+    "name": "Meeresbrise",
+    "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-14:00",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 2941511371,
+  "lat": 48.2946330,
+  "lon": 14.2868012,
+  "tags": {
+    "addr:city": "Linz",
+    "addr:housenumber": "31",
+    "addr:postcode": "4020",
+    "addr:street": "Stockhofstraße",
+    "brand": "Billa",
+    "brand:wikidata": "Q537781",
+    "brand:wikipedia": "de:Billa",
+    "name": "Billa",
+    "opening_hours": "Mo-Fr 07:00-19:00; Sa 07:00-18:00",
+    "operator": "BILLA",
+    "shop": "supermarket",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3000435117,
+  "lat": 48.3002893,
+  "lon": 14.2908216,
+  "tags": {
+    "check_date": "2026-04-30",
+    "email": "office@baeckerei-brandl.at",
+    "indoor_seating": "yes",
+    "name": "Brandl",
+    "opening_hours": "Mo-Fr 07:00-18:00; Sa 08:00-17:00",
+    "outdoor_seating": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "phone": "+43 732 773635-5",
+    "shop": "bakery",
+    "smoking": "no",
+    "website": "https://www.baeckerei-brandl.at/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3150023279,
+  "lat": 48.3078161,
+  "lon": 14.2937230,
+  "tags": {
+    "brand": "Denns BioMarkt",
+    "brand:wikidata": "Q48883773",
+    "check_date:opening_hours": "2025-11-25",
+    "entrance": "yes",
+    "fair_trade": "yes",
+    "name": "Denns BioMarkt",
+    "opening_hours": "Mo-Fr 08:30-19:00; Sa 08:30-18:00; Su off",
+    "operator": "Dennree GmbH",
+    "operator:wikidata": "Q1189641",
+    "organic": "only",
+    "shop": "supermarket",
+    "website": "https://www.denns-biomarkt.at/linz-kaisergasse-17/marktseite/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3611199625,
+  "lat": 48.2967417,
+  "lon": 14.2871753,
+  "tags": {
+    "amenity": "cafe",
+    "contact:email": "zentrale@honeder.cc",
+    "contact:fax": "+43 732 664865",
+    "contact:phone": "+43 732 242403",
+    "contact:website": "http://www.naturbackstube.at",
+    "entrance": "yes",
+    "name": "Honeder Naturbackstube",
+    "opening_hours": "Mo-Fr 06:30-18:00; Sa,Su 07:00-12:00",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 3611199626,
+  "lat": 48.2975612,
+  "lon": 14.2917961,
+  "tags": {
+    "amenity": "cafe",
+    "contact:email": "zentrale@honeder.cc",
+    "contact:fax": "+43 732 995333",
+    "contact:phone": "+43 732 242406",
+    "contact:website": "http://www.naturbackstube.at",
+    "cuisine": "pastry",
+    "diet:vegetarian": "yes",
+    "name": "Honeder Naturbackstube",
+    "opening_hours": "Mo-Fr 06:00-19:00; Sa 06:00-17:00",
+    "operator": "Adelheid Kaiser",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 3611199627,
+  "lat": 48.3007251,
+  "lon": 14.2908790,
+  "tags": {
+    "air_conditioning": "yes",
+    "amenity": "cafe",
+    "check_date": "2026-04-21",
+    "contact:email": "zentrale@honeder.cc",
+    "contact:fax": "+43 732 776856",
+    "contact:phone": "+43 732 242402",
+    "contact:website": "http://www.naturbackstube.at",
+    "diet:halal": "no",
+    "diet:kosher": "no",
+    "diet:vegan": "no",
+    "diet:vegetarian": "yes",
+    "indoor_seating": "yes",
+    "name": "Honeder Naturbackstube",
+    "opening_hours": "Mo-Fr 06:00-18:30; Sa 06:00-17:00",
+    "operator": "Ursula Enenkel",
+    "outdoor_seating": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "shop": "bakery",
+    "smoking": "no",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3611199628,
+  "lat": 48.3020586,
+  "lon": 14.2868103,
+  "tags": {
+    "amenity": "cafe",
+    "contact:email": "zentrale@honeder.cc",
+    "contact:fax": "+43 732 922836",
+    "contact:phone": "+43 732 242408",
+    "contact:website": "http://www.naturbackstube.at",
+    "entrance": "yes",
+    "indoor_seating": "yes",
+    "name": "Honeder Naturbackstube",
+    "opening_hours": "Mo-Fr 06:30-18:30; Sa 06:30-17:00",
+    "operator": "Brigitte Ramberger",
+    "outdoor_seating": "no",
+    "shop": "bakery",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3633280124,
+  "lat": 48.3029428,
+  "lon": 14.2898289,
+  "tags": {
+    "addr:city": "Linz",
+    "addr:housenumber": "17-25",
+    "addr:postcode": "4020",
+    "addr:street": "Landstraße",
+    "brand": "Eurospar",
+    "brand:wikidata": "Q12309283",
+    "brand:wikipedia": "da:Eurospar",
+    "name": "Eurospar",
+    "opening_hours": "Mo-Fr 07:15-19:30; Sa 07:15-18:00",
+    "phone": "+43 732 773749",
+    "shop": "supermarket",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3633280138,
+  "lat": 48.3038591,
+  "lon": 14.2890516,
+  "tags": {
+    "brand": "dm",
+    "brand:wikidata": "Q266572",
+    "brand:wikipedia": "en:Dm-drogerie markt",
+    "check_date": "2026-05-13",
+    "check_date:opening_hours": "2026-05-17",
+    "contact:phone": "+43 732 774385",
+    "name": "dm",
+    "opening_hours": "Mo-Fr 07:30-18:30; Sa 08:00-18:00",
+    "shop": "chemist",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3633359583,
+  "lat": 48.3003853,
+  "lon": 14.2907671,
+  "tags": {
+    "brand": "dm",
+    "brand:wikidata": "Q266572",
+    "name": "dm",
+    "opening_hours": "Mo-Fr 07:30-18:30, Sa 08:00-18:00",
+    "shop": "chemist",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3677955200,
+  "lat": 48.2960974,
+  "lon": 14.2923353,
+  "tags": {
+    "addr:city": "Linz",
+    "addr:country": "AT",
+    "addr:housenumber": "111",
+    "addr:postcode": "4020",
+    "addr:street": "Landstraße",
+    "brand": "Denns BioMarkt",
+    "brand:wikidata": "Q48883773",
+    "level": "0",
+    "name": "Denns BioMarkt",
+    "opening_hours": "Mo-Fr 08:00-19:00; Sa 08:30-18:00",
+    "operator": "Dennree GmbH",
+    "operator:wikidata": "Q1189641",
+    "organic": "only",
+    "shop": "supermarket",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 3684755944,
+  "lat": 48.2991425,
+  "lon": 14.2994119,
+  "tags": {
+    "addr:city": "Linz",
+    "addr:country": "AT",
+    "addr:housenumber": "58",
+    "addr:postcode": "4020",
+    "addr:street": "Schillerstraße",
+    "name": "Prima la Pasta",
+    "old_name": "Cafe Johann Strauss",
+    "operator": "Judith Goetzloff",
+    "shop": "deli",
+    "start_date": "2020-11",
+    "website": "https://primalapasta.at/"
+  }
+},
+{
+  "type": "node",
+  "id": 3697943606,
+  "lat": 48.2960859,
+  "lon": 14.2871934,
+  "tags": {
+    "entrance": "yes",
+    "shop": "kiosk"
+  }
+},
+{
+  "type": "node",
+  "id": 3699101050,
+  "lat": 48.2992071,
+  "lon": 14.2874081,
+  "tags": {
+    "contact:phone": "+43 732 26464",
+    "name": "Knott",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 4102497463,
+  "lat": 48.3143773,
+  "lon": 14.2825412,
+  "tags": {
+    "addr:city": "Linz",
+    "addr:housenumber": "13-23",
+    "addr:postcode": "4040",
+    "addr:street": "Blütenstraße",
+    "brand": "Bipa",
+    "brand:wikidata": "Q864933",
+    "brand:wikipedia": "de:Bipa",
+    "layer": "0",
+    "level": "1",
+    "name": "Bipa",
+    "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-18:00",
+    "shop": "chemist",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4149167246,
+  "lat": 48.2999381,
+  "lon": 14.3006480,
+  "tags": {
+    "name": "Knott",
+    "opening_hours": "Mo-Fr 06:30-13:30; Sa 07:00-12:00",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 4149167256,
+  "lat": 48.2994240,
+  "lon": 14.3029508,
+  "tags": {
+    "name": "Trafik Anita Ludwig",
+    "opening_hours": "Mo-Fr 06:00-18:00; Sa 07:00-12:00",
+    "shop": "kiosk"
+  }
+},
+{
+  "type": "node",
+  "id": 4149581454,
+  "lat": 48.3003444,
+  "lon": 14.3008014,
+  "tags": {
+    "check_date:opening_hours": "2023-10-03",
+    "name": "Alois Röbl",
+    "opening_hours:signed": "no",
+    "shop": "greengrocer"
+  }
+},
+{
+  "type": "node",
+  "id": 4149581456,
+  "lat": 48.3010226,
+  "lon": 14.3001057,
+  "tags": {
+    "check_date:opening_hours": "2023-10-03",
+    "name": "Christine's Bio-Eck",
+    "opening_hours:signed": "no",
+    "shop": "deli"
+  }
+},
+{
+  "type": "node",
+  "id": 4149581457,
+  "lat": 48.3006476,
+  "lon": 14.3003048,
+  "tags": {
+    "addr:city": "Linz",
+    "addr:housenumber": "12",
+    "addr:postcode": "4020",
+    "addr:street": "Marktplatz",
+    "image": "https://srm.intermaps.com/admin/imgupload/2023_04_06_15_36_01_671_0.jpg",
+    "name": "Wegschaider Imbiss",
+    "opening_hours": "Monday: 08:00-16:00 Tuesday: 08:00-16:00 Wednesday: 08:00-16:00 Thursday: 08:00-16:00 Friday: 08:00-16:00 Saturday: 08:00-13:00 Sunday: 08:00-16:00",
+    "operator": "Wegschaider",
+    "phone": "+43 732 606 562",
+    "shop": "butcher",
+    "source": "https://www.suedbahnhofmarkt.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 4149581458,
+  "lat": 48.3011781,
+  "lon": 14.3000156,
+  "tags": {
+    "name": "Hartl's Kulinnrikum",
+    "shop": "butcher"
+  }
+},
+{
+  "type": "node",
+  "id": 4149581460,
+  "lat": 48.3010073,
+  "lon": 14.3004955,
+  "tags": {
+    "name": "Honeder Naturbackstube",
+    "opening_hours": "Mo-Fr 06:00-14:00; Sa 06:00-13:00",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 4149581463,
+  "lat": 48.3001444,
+  "lon": 14.3005803,
+  "tags": {
+    "addr:city": "Linz",
+    "addr:housenumber": "22",
+    "addr:postcode": "4020",
+    "addr:street": "Marktplatz",
+    "image": "https://srm.intermaps.com/admin/imgupload/2023_04_24_13_57_31_642_0.jpg",
+    "name": "Hendl Spezi",
+    "opening_hours": "Mo 07:30-14:00; Tu-Th 07:30-16:00; Fr 07:00-17:00; Sa 07:00-13:00",
+    "shop": "butcher",
+    "source": "https://www.suedbahnhofmarkt.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 4149581464,
+  "lat": 48.3002162,
+  "lon": 14.3009020,
+  "tags": {
+    "check_date:opening_hours": "2023-09-11",
+    "name": "Lackinger",
+    "opening_hours": "Mo 07:30-13:00; Sa 07:00-12:30; Tu-Th 07:30-17:00; Fr 07:00-17:00",
+    "shop": "butcher"
+  }
+},
+{
+  "type": "node",
+  "id": 4149581467,
+  "lat": 48.3011258,
+  "lon": 14.3004336,
+  "tags": {
+    "name": "Maria Silber",
+    "opening_hours": "Tu-Th 07:15-16:00; Fr 07:15-16:30; Sa 08:00-13:00",
+    "shop": "greengrocer"
+  }
+},
+{
+  "type": "node",
+  "id": 4149581468,
+  "lat": 48.3004894,
+  "lon": 14.3007595,
+  "tags": {
+    "name": "Brotglocke",
+    "opening_hours": "Mo-Fr 06:00-17:30; Sa 06:00-13:00",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 4149581469,
+  "lat": 48.3010694,
+  "lon": 14.3000816,
+  "tags": {
+    "name": "Mei Greisslerei",
+    "opening_hours": "Tu,Th,Sa 09:00-14:00; Fr 09:00-17:00",
+    "shop": "greengrocer"
+  }
+},
+{
+  "type": "node",
+  "id": 4209082303,
+  "lat": 48.3027231,
+  "lon": 14.2861168,
+  "tags": {
+    "email": "office@brotsuechtig.at",
+    "indoor_seating": "yes",
+    "name": "Brotsüchtig",
+    "opening_hours": "Mo-Fr 07:00-18:30; Sa 07:00-13:30",
+    "outdoor_seating": "no",
+    "shop": "bakery",
+    "website": "https://www.brotsuechtig.at/",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4271321832,
+  "lat": 48.2950110,
+  "lon": 14.3104429,
+  "tags": {
+    "check_date:opening_hours": "2026-03-16",
+    "name": "Bäckerei Fenzl",
+    "opening_hours": "Mo-Fr 05:00-11:00",
+    "operator": "Fenzl",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 4391377291,
+  "lat": 48.3013169,
+  "lon": 14.2901894,
+  "tags": {
+    "name": "Dunkelschwarz Bäckerei",
+    "opening_hours": "Mo-Fr 07:00-18:00; Sa 08:00-13:00; PH off",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 4395764695,
+  "lat": 48.3038002,
+  "lon": 14.2882036,
+  "tags": {
+    "check_date": "2026-04-21",
+    "indoor_seating": "no",
+    "name": "Haubis Genussbackstube",
+    "opening_hours": "Mo-Fr 06:00-18:30; Sa 06:00-18:00; Su 07:00-13:00; PH 07:00-13:00",
+    "outdoor_seating": "no",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "shop": "bakery",
+    "takeaway": "only",
+    "website": "https://www.haubis.com",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 4691096497,
+  "lat": 48.3048637,
+  "lon": 14.2868969,
+  "tags": {
+    "addr:city": "Linz",
+    "addr:housenumber": "24",
+    "addr:postcode": "4020",
+    "addr:street": "Hauptplatz",
+    "alt_name": "sfachl",
+    "alt_name2": "fachl",
+    "check_date": "2022-10-15",
+    "email": "linz@fachl.at",
+    "name": "'s Fachl",
+    "opening_hours": "Mo-Fr 10:00-18:00; Sa 10:00-17:00",
+    "phone": "+43 699 18081973",
+    "shop": "convenience",
+    "website": "https://www.fachl.at/",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 4740718039,
+  "lat": 48.3028812,
+  "lon": 14.2846603,
+  "tags": {
+    "name": "Attends",
+    "shop": "chemist",
+    "website": "https://www.attends.at/"
+  }
+},
+{
+  "type": "node",
+  "id": 4743399697,
+  "lat": 48.3007743,
+  "lon": 14.2850741,
+  "tags": {
+    "name": "Fenzl",
+    "opening_hours": "Mo-Fr 06:00-12:30",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 4869382661,
+  "lat": 48.3008022,
+  "lon": 14.3005675,
+  "tags": {
+    "addr:city": "Linz",
+    "addr:housenumber": "11",
+    "addr:postcode": "4020",
+    "addr:street": "Marktplatz",
+    "image": "https://srm.intermaps.com/admin/imgupload/2023_05_22_12_58_49_207_0.jpg",
+    "name": "Wegschaider der Fleischermeister",
+    "opening_hours": "Tu,Th 07:30-15:00; Mo,We 08:00-15:00; Fr 07:00-16:00; Sa 07:00-13:00",
+    "operator": "Wegschaider",
+    "shop": "butcher",
+    "source": "https://www.suedbahnhofmarkt.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 5060906606,
+  "lat": 48.3032425,
+  "lon": 14.2859818,
+  "tags": {
+    "check_date:opening_hours": "2023-04-26",
+    "level": "0",
+    "name": "Sonnentor",
+    "opening_hours": "Mo-Fr 09:00-18:30; Sa 09:00-17:00",
+    "shop": "convenience",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5130865326,
+  "lat": 48.3022242,
+  "lon": 14.2975248,
+  "tags": {
+    "addr:city": "Linz",
+    "addr:housenumber": "12",
+    "addr:postcode": "4020",
+    "addr:street": "Starhembergstraße",
+    "brand": "Bipa",
+    "brand:wikidata": "Q864933",
+    "brand:wikipedia": "de:Bipa",
+    "contact:phone": "+43 59 9130 4440",
+    "name": "Bipa",
+    "opening_hours": "Sa 08:00-18:00; Mo-Fr 08:00-19:00",
+    "shop": "chemist",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5502123667,
+  "lat": 48.3127816,
+  "lon": 14.2821240,
+  "tags": {
+    "name": "Brotsüchtig",
+    "opening_hours": "Mo-Fr 07:00-18:00; Sa 07:30-12:30",
+    "organic": "only",
+    "shop": "bakery",
+    "website": "https://www.brotsuechtig.at/"
+  }
+},
+{
+  "type": "node",
+  "id": 5576621294,
+  "lat": 48.3013365,
+  "lon": 14.3002215,
+  "tags": {
+    "addr:city": "Linz",
+    "addr:housenumber": "1",
+    "addr:postcode": "4020",
+    "addr:street": "Marktplatz",
+    "image": "https://srm.intermaps.com/admin/imgupload/2023_04_06_15_19_08_656_0.jpg",
+    "name": "Fleischwaren Daneder",
+    "opening_hours": "Mo-Fr 07:30-14:00; Sa 07:00-13:00",
+    "operator": "Stefan Daneder",
+    "payment:cash": "yes",
+    "payment:coins": "yes",
+    "payment:notes": "yes",
+    "shop": "butcher",
+    "start_date": "2017",
+    "website": "https://www.suedbahnhofmarkt.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 5577200734,
+  "lat": 48.3026457,
+  "lon": 14.2895363,
+  "tags": {
+    "indoor_seating": "yes",
+    "internet_access": "wlan",
+    "name": "Johann's",
+    "outdoor_seating": "no",
+    "shop": "bakery",
+    "toilets:wheelchair": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5916584983,
+  "lat": 48.3046879,
+  "lon": 14.2873014,
+  "tags": {
+    "brand": "vomFASS",
+    "brand:wikidata": "Q2533008",
+    "check_date": "2025-12-22",
+    "name": "vomFASS",
+    "opening_hours": "Mo-Fr 09:30-18:00; Sa 09:30-17:00",
+    "shop": "deli",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 5916697702,
+  "lat": 48.3055989,
+  "lon": 14.2861868,
+  "tags": {
+    "check_date": "2022-10-15",
+    "name": "Zimmer Kuchl Kabinett",
+    "opening_hours": "Mo-Fr 10:00-18:00; Sa 10:00-17:00",
+    "shop": "deli",
+    "website": "https://www.zimmerkuchlkabinett.at",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 7141364608,
+  "lat": 48.3087918,
+  "lon": 14.2932183,
+  "tags": {
+    "addr:city": "Linz",
+    "addr:country": "AT",
+    "addr:housenumber": "24",
+    "addr:postcode": "4020",
+    "addr:street": "Fabrikstraße",
+    "amenity": "cafe",
+    "contact:phone": "+43 732 995029",
+    "contact:website": "http://www.naturbackstube.at",
+    "indoor_seating": "yes",
+    "name": "Honeder Naturbackstube",
+    "opening_hours": "Mo-Fr 06:00-18:00; Sa 06:00-12:00; Su,PH 07:00-12:00; Jan 01,easter +1 day,Dec 25-26 off",
+    "operator": "Honeder Naturbackstube GmbH",
+    "outdoor_seating": "yes",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 7305280464,
+  "lat": 48.3004342,
+  "lon": 14.3191128,
+  "tags": {
+    "brand": "dm",
+    "brand:wikidata": "Q266572",
+    "brand:wikipedia": "en:Dm-drogerie markt",
+    "name": "dm",
+    "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-18:00",
+    "shop": "chemist"
+  }
+},
+{
+  "type": "node",
+  "id": 7752796385,
+  "lat": 48.3187400,
+  "lon": 14.2870051,
+  "tags": {
+    "addr:postcode": "4040",
+    "name": "Volkshilfe",
+    "opening_hours": "Mo-Fr 09:00-17:00",
+    "shop": "convenience",
+    "website": "https://www.volkshilfe-ooe.at/volkshilfe-shop-urfahr/"
+  }
+},
+{
+  "type": "node",
+  "id": 7839408252,
+  "lat": 48.2980877,
+  "lon": 14.2917013,
+  "tags": {
+    "brand": "dm",
+    "brand:wikidata": "Q266572",
+    "brand:wikipedia": "en:Dm-drogerie markt",
+    "name": "dm",
+    "opening_hours": "Mo-Fr 07:30-18:30; Sa 08:00-17:00",
+    "shop": "chemist"
+  }
+},
+{
+  "type": "node",
+  "id": 7935498194,
+  "lat": 48.3013231,
+  "lon": 14.2872579,
+  "tags": {
+    "check_date:opening_hours": "2025-11-26",
+    "contact:email": "office@nonsolovino.at",
+    "contact:fax": "+43 732 779914",
+    "contact:phone": "+43 732 797788",
+    "contact:website": "http://www.nonsolovino.co.at",
+    "cuisine": "italian",
+    "name": "Non Solo Vino",
+    "opening_hours": "Sa 09:00-13:00; Tu 10:00-15:00; We-Fr 10:00-18:00",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "shop": "deli",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 8062586934,
+  "lat": 48.3272559,
+  "lon": 14.3038181,
+  "tags": {
+    "check_date:opening_hours": "2024-05-28",
+    "name": "Nah & Frisch punkt",
+    "opening_hours": "Mo-Su 05:30-22:00",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 8627130032,
+  "lat": 48.2972662,
+  "lon": 14.2957275,
+  "tags": {
+    "cuisine": "arab",
+    "shop": "convenience",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 8627130033,
+  "lat": 48.2971133,
+  "lon": 14.2959200,
+  "tags": {
+    "cuisine": "arab",
+    "name": "Ravza Lebensmittel",
+    "shop": "convenience",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 9028729197,
+  "lat": 48.2955460,
+  "lon": 14.2871118,
+  "tags": {
+    "name": "Wegscheider",
+    "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-13:00",
+    "shop": "butcher"
+  }
+},
+{
+  "type": "node",
+  "id": 9041390059,
+  "lat": 48.2945132,
+  "lon": 14.3113908,
+  "tags": {
+    "addr:city": "Linz",
+    "addr:country": "AT",
+    "addr:housenumber": "39",
+    "addr:postcode": "4020",
+    "addr:street": "Franckstraße",
+    "name": "Supermarket România",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 9122716790,
+  "lat": 48.3032442,
+  "lon": 14.2968320,
+  "tags": {
+    "addr:city": "Linz",
+    "addr:housenumber": "46",
+    "addr:postcode": "4020",
+    "addr:street": "Harrachstraße",
+    "bulk_purchase": "yes",
+    "check_date": "2026-03-07",
+    "name": "Unpackbar",
+    "opening_hours": "Mo-Fr 09:00-13:00,14:00-18:00; Sa 09:00-13:00",
+    "phone": "+43 660 1291332",
+    "shop": "convenience",
+    "website": "https://unpackbar-laden.at/"
+  }
+},
+{
+  "type": "node",
+  "id": 9165826912,
+  "lat": 48.3024944,
+  "lon": 14.3029460,
+  "tags": {
+    "name": "Honeder Naturbackstube",
+    "opening_hours": "Mo-Fr 06:00-13:30",
+    "operator": "Honeder",
+    "payment:cards": "yes",
+    "payment:cash": "no",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 9469550354,
+  "lat": 48.2969892,
+  "lon": 14.2955019,
+  "tags": {
+    "cuisine": "arab",
+    "name": "Alsalm Lebensmittelgeschäft",
+    "opening_hours": "Mo-Fr 08:30-19:00; Sa 08:30-18:00",
+    "shop": "convenience",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 9546015742,
+  "lat": 48.3059935,
+  "lon": 14.2882480,
+  "tags": {
+    "addr:city": "Linz",
+    "addr:housenumber": "16",
+    "addr:postcode": "4020",
+    "addr:street": "Pfarrplatz",
+    "contact:email": "bauernmarkt@mueli.at",
+    "contact:website": "https://meinmueli.wordpress.com/",
+    "name": "Mein Müli",
+    "opening_hours": "Mo-Fr 08:30-18:00; Sa 08:30-12:30",
+    "organic": "only",
+    "phone": "+43 732 775688",
+    "shop": "convenience",
+    "website": "https://meinmueli.wordpress.com/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9559121901,
+  "lat": 48.2963168,
+  "lon": 14.2920778,
+  "tags": {
+    "cuisine": "mediterranean",
+    "name": "AL QUDS Markt",
+    "shop": "convenience",
+    "source": "survey",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 9641354949,
+  "lat": 48.3123144,
+  "lon": 14.3043171,
+  "tags": {
+    "addr:city": "Linz",
+    "addr:housenumber": "59",
+    "addr:postcode": "4020",
+    "addr:street": "Lederergasse",
+    "name": "Landhof Fabriksverkauf",
+    "shop": "butcher"
+  }
+},
+{
+  "type": "node",
+  "id": 9677960317,
+  "lat": 48.3102501,
+  "lon": 14.2837605,
+  "tags": {
+    "addr:housenumber": "4",
+    "addr:postcode": "4040",
+    "addr:street": "Hauptstraße",
+    "name": "Fenzl",
+    "opening_hours": "Mo-Th 06:00-18:00; Fr 06:00-14:00",
+    "phone": "+43 732 220551",
+    "shop": "bakery",
+    "website": "https://www.baeckereifenzl.at/filialen/filiale-donautor.html"
+  }
+},
+{
+  "type": "node",
+  "id": 9705571043,
+  "lat": 48.2972380,
+  "lon": 14.2879464,
+  "tags": {
+    "name": "Aboab Alsham",
+    "opening_hours": "Mo-Sa 09:00-20:00; PH closed",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 10065862260,
+  "lat": 48.2984981,
+  "lon": 14.2918476,
+  "tags": {
+    "name": "Wegscheider",
+    "opening_hours": "Mo-Fr 07:30-18:00; Sa 07:30-13:00",
+    "shop": "butcher"
+  }
+},
+{
+  "type": "node",
+  "id": 10102699733,
+  "lat": 48.3059979,
+  "lon": 14.2844805,
+  "tags": {
+    "check_date": "2022-10-15",
+    "name": "Asia Food Market",
+    "opening_hours": "Mo-Sa 10:30-20:00",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 10102892642,
+  "lat": 48.3030268,
+  "lon": 14.2875513,
+  "tags": {
+    "brand": "Hofer",
+    "brand:wikidata": "Q15815751",
+    "level": "0",
+    "name": "Hofer",
+    "opening_hours": "Mo-Fr: 07:40-20:00, Sa: 07:40-18:00",
+    "shop": "supermarket",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10102892643,
+  "lat": 48.3032042,
+  "lon": 14.2874399,
+  "tags": {
+    "name": "Lili Design & Genussladen",
+    "opening_hours": "Mo - Fr: 09:30 - 18:00 ,Sa: 09:30 - 17:00",
+    "shop": "deli",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 10102892646,
+  "lat": 48.3033686,
+  "lon": 14.2877083,
+  "tags": {
+    "indoor_seating": "yes",
+    "name": "Mühlviertler Landbäckerei",
+    "opening_hours": "Mo - Fr: 07:00 - 18:00 ,Sa: 07:00 - 17:00",
+    "outdoor_seating": "no",
+    "shop": "bakery",
+    "website": "https://mlb.at/"
+  }
+},
+{
+  "type": "node",
+  "id": 10102892655,
+  "lat": 48.3034109,
+  "lon": 14.2873802,
+  "tags": {
+    "email": "info@trueffelhang.at",
+    "name": "Trüffelhang",
+    "opening_hours": "Mo-Fr 09:00-18:00, Sa 09:00-17:00",
+    "phone": "+4367762248035",
+    "shop": "deli",
+    "website": "https://www.trueffelhang.at/",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10102892656,
+  "lat": 48.3034695,
+  "lon": 14.2873174,
+  "tags": {
+    "description": "Obst- und Gemüsedelikatessen",
+    "email": "office@firma-strauss.at",
+    "name": "Spezialitäten Strauss",
+    "opening_hours": "Mo-Fr 09:00-18:00, Sa 09:00-17:00",
+    "phone": "+4369913323168",
+    "shop": "deli",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10102892657,
+  "lat": 48.3035589,
+  "lon": 14.2874545,
+  "tags": {
+    "description": "Italienische Delikatessen",
+    "email": "office@firma-strauss.at",
+    "name": "Spezialitäten Strauss",
+    "opening_hours": "Mo-Fr 09:00-18:00, Sa 09:00-17:00",
+    "phone": "+4369913323168",
+    "shop": "deli",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10103584913,
+  "lat": 48.3110083,
+  "lon": 14.2822114,
+  "tags": {
+    "name": "Market Palmen Bagdad",
+    "opening_hours": "Mo-Sa 09:00-20:00",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 10103584916,
+  "lat": 48.3108774,
+  "lon": 14.2826786,
+  "tags": {
+    "check_date": "2026-03-18",
+    "name": "E-Kiosk",
+    "opening_hours": "24/7",
+    "shop": "kiosk"
+  }
+},
+{
+  "type": "node",
+  "id": 10201983115,
+  "lat": 48.3056596,
+  "lon": 14.2861535,
+  "tags": {
+    "addr:housenumber": "14",
+    "addr:street": "Hauptplatz",
+    "check_date": "2025-09-06",
+    "email": "office@joseph.co.at",
+    "name": "Joseph Brot",
+    "opening_hours": "Tu-Fr 07:00-17:30; Sa 07:30-17:00",
+    "shop": "bakery",
+    "website": "https://www.joseph.co.at",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10257995690,
+  "lat": 48.3097782,
+  "lon": 14.2994140,
+  "tags": {
+    "addr:city": "Linz",
+    "addr:housenumber": "44",
+    "addr:postcode": "4020",
+    "addr:street": "Lederergasse",
+    "name": "Bäckerei Inpek",
+    "opening_hours": "Mo-Fr 06:00-20:00; Sa,Su 07:00-20:00",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 10290260854,
+  "lat": 48.3024684,
+  "lon": 14.3033725,
+  "tags": {
+    "addr:city": "Linz",
+    "addr:housenumber": "5",
+    "addr:postcode": "4020",
+    "addr:street": "Krankenhausstraße",
+    "brand": "Spar",
+    "brand:wikidata": "Q610492",
+    "brand:wikipedia": "en:SPAR (retailer)",
+    "building": "retail",
+    "name": "Spar",
+    "opening_hours": "Mo-Fr 06:30-18:30; Sa 06:30-18:00",
+    "payment:cash": "yes",
+    "payment:credit_cards": "yes",
+    "payment:maestro": "yes",
+    "shop": "supermarket",
+    "website": "https://www.spar.at/"
+  }
+},
+{
+  "type": "node",
+  "id": 10709910946,
+  "lat": 48.3058691,
+  "lon": 14.2848313,
+  "tags": {
+    "name": "Dalaria",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 10839691328,
+  "lat": 48.3101918,
+  "lon": 14.3042381,
+  "tags": {
+    "brand": "dm",
+    "brand:wikidata": "Q266572",
+    "name": "dm",
+    "opening_hours": "Mo-Fr 08:00-18:30; Sa 08:00-17:00",
+    "shop": "chemist"
+  }
+},
+{
+  "type": "node",
+  "id": 10982202693,
+  "lat": 48.3015481,
+  "lon": 14.3108379,
+  "tags": {
+    "brand": "Haubis",
+    "check_date": "2025-08-30",
+    "name": "Haubis",
+    "opening_hours": "Mo-Fr 05:00-18:00; Sa-Su 05:00-14:00;",
+    "shop": "bakery",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11904549071,
+  "lat": 48.3014093,
+  "lon": 14.3004831,
+  "tags": {
+    "addr:city": "Linz",
+    "addr:postcode": "4020",
+    "addr:street": "Marktplatz",
+    "image": "https://srm.intermaps.com/admin/imgupload/2023_05_22_13_25_26_343_0.jpg",
+    "name": "Junglammhof Fam. Pühringer",
+    "operator": "Familie Pühringer",
+    "shop": "butcher",
+    "source": "https://www.suedbahnhofmarkt.com",
+    "website": "https://www.junglammhof.at/"
+  }
+},
+{
+  "type": "node",
+  "id": 11904549073,
+  "lat": 48.3004053,
+  "lon": 14.3005676,
+  "tags": {
+    "addr:city": "Linz",
+    "addr:postcode": "4020",
+    "addr:street": "Marktplatz",
+    "name": "Gemüse Slipcevic",
+    "note": "Obst · Gemüse · Wurst und Käse aus Kroatien",
+    "opening_hours": "Friday: 07:00-12:30 Saturday: 07:00-12:30",
+    "operator": "Slipcevic",
+    "shop": "greengrocer"
+  }
+},
+{
+  "type": "node",
+  "id": 11904549074,
+  "lat": 48.3001575,
+  "lon": 14.3011709,
+  "tags": {
+    "addr:city": "Linz",
+    "addr:postcode": "4020",
+    "addr:street": "Marktplatz",
+    "image": "https://srm.intermaps.com/admin/imgupload/2023_05_22_16_00_58_280_0.jpg",
+    "name": "Bauernladen Forstinger",
+    "shop": "butcher",
+    "source": "https://www.suedbahnhofmarkt.com"
+  }
+},
+{
+  "type": "node",
+  "id": 11939987268,
+  "lat": 48.2970927,
+  "lon": 14.2913052,
+  "tags": {
+    "addr:city": "Linz",
+    "addr:housenumber": "1",
+    "addr:postcode": "4020",
+    "addr:street": "Schillerplatz",
+    "brand": "Lidl",
+    "brand:wikidata": "Q151954",
+    "name": "Lidl",
+    "opening_hours": "Mo-Fr 07:40-20:00; Sa 07:40-18:00",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 12015429914,
+  "lat": 48.3011539,
+  "lon": 14.2906240,
+  "tags": {
+    "disused:amenity": "cafe",
+    "name": "Brotsüchtig",
+    "old_name": "Starbucks",
+    "opening_hours": "Mo-Fr 06:45-18:00; Sa 07:30-15:00; PH off",
+    "phone": "+43 660 2525 259",
+    "shop": "bakery",
+    "website": "https://www.brotsuechtig.at/"
+  }
+},
+{
+  "type": "node",
+  "id": 12015443289,
+  "lat": 48.2995839,
+  "lon": 14.2911101,
+  "tags": {
+    "brand": "Bipa",
+    "brand:wikidata": "Q864933",
+    "name": "Bipa",
+    "shop": "chemist"
+  }
+},
+{
+  "type": "node",
+  "id": 12015455497,
+  "lat": 48.3035827,
+  "lon": 14.2887965,
+  "tags": {
+    "indoor_seating": "yes",
+    "name": "Mühlviertler Landbäckerei",
+    "opening_hours": "Mo-Fr 06:30-18:00; Sa 07:00-18:00",
+    "outdoor_seating": "yes",
+    "payment:credit_cards": "yes",
+    "payment:debit_cards": "yes",
+    "shop": "bakery",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12051514349,
+  "lat": 48.2974581,
+  "lon": 14.2922322,
+  "tags": {
+    "name": "Chema Indien Store",
+    "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:30-18:00",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 12070409948,
+  "lat": 48.3011590,
+  "lon": 14.2912254,
+  "tags": {
+    "name": "Hackl Linz",
+    "shop": "butcher"
+  }
+},
+{
+  "type": "node",
+  "id": 12879296507,
+  "lat": 48.3138730,
+  "lon": 14.2777127,
+  "tags": {
+    "addr:city": "Linz",
+    "addr:housenumber": "25",
+    "addr:postcode": "4040",
+    "addr:street": "Parzhofstraße",
+    "name": "Eichler",
+    "shop": "bakery",
+    "start_date": "2025-06-02"
+  }
+},
+{
+  "type": "node",
+  "id": 13109158356,
+  "lat": 48.3096038,
+  "lon": 14.2777592,
+  "tags": {
+    "diet:halal": "yes",
+    "name": "Damasko",
+    "opening_hours": "Mo-Sa 09:00-20:00; Su,PH 10:00-20:00",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "node",
+  "id": 13481536901,
+  "lat": 48.3015899,
+  "lon": 14.2882254,
+  "tags": {
+    "addr:housenumber": "9",
+    "addr:street": "Bischofstraße",
+    "name": "Tortenmehr",
+    "shop": "bakery",
+    "website": "https://www.tortenmehr.at/"
+  }
+},
+{
+  "type": "node",
+  "id": 13605825661,
+  "lat": 48.3116256,
+  "lon": 14.2976889,
+  "tags": {
+    "addr:city": "Linz",
+    "addr:housenumber": "5",
+    "addr:postcode": "4020",
+    "addr:street": "Gruberstraße",
+    "name": "Brotstudio",
+    "opening_hours": "Mo-Fr 07:00-19:00",
+    "shop": "bakery",
+    "website": "https://www.brotstudio.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 13605825662,
+  "lat": 48.3121332,
+  "lon": 14.2977082,
+  "tags": {
+    "addr:city": "Linz",
+    "addr:housenumber": "3",
+    "addr:postcode": "4020",
+    "addr:street": "Gruberstraße",
+    "brand": "Billa",
+    "brand:wikidata": "Q537781",
+    "name": "Billa",
+    "opening_hours": "Mo-Fr 07:15-19:15; Sa 07:15-18:00",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 13742922553,
+  "lat": 48.2979572,
+  "lon": 14.2950073,
+  "tags": {
+    "name": "Ali Baba",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "way",
+  "id": 37655226,
+  "center": {
+    "lat": 48.3107636,
+    "lon": 14.3045743
+  },
+  "tags": {
+    "addr:city": "Linz",
+    "addr:country": "AT",
+    "addr:housenumber": "13",
+    "addr:postcode": "4020",
+    "addr:street": "Holzstraße",
+    "brand": "Spar",
+    "brand:wikidata": "Q610492",
+    "building": "retail",
+    "building:levels": "1",
+    "check_date:opening_hours": "2024-12-12",
+    "diet:halal": "no",
+    "diet:kosher": "no",
+    "name": "Spar",
+    "opening_hours": "Mo-Fr 07:15-19:30; Sa 07:15-18:00",
+    "roof:shape": "flat",
+    "shop": "supermarket",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 53022161,
+  "center": {
+    "lat": 48.3148106,
+    "lon": 14.2734613
+  },
+  "tags": {
+    "addr:city": "Linz",
+    "addr:country": "AT",
+    "addr:housenumber": "10",
+    "addr:postcode": "4040",
+    "addr:street": "Nißlstraße",
+    "brand": "Unimarkt",
+    "brand:wikidata": "Q1169599",
+    "brand:wikipedia": "de:Unimarkt",
+    "building": "yes",
+    "name": "Unimarkt",
+    "shop": "supermarket",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 82409895,
+  "center": {
+    "lat": 48.3075680,
+    "lon": 14.2953823
+  },
+  "tags": {
+    "addr:city": "Linz",
+    "addr:country": "AT",
+    "addr:housenumber": "27",
+    "addr:postcode": "4020",
+    "addr:street": "Lederergasse",
+    "brand": "Billa",
+    "brand:wikidata": "Q537781",
+    "building": "yes",
+    "contact:phone": "+43 732 779130",
+    "contact:website": "http://www.billa.at",
+    "name": "Billa",
+    "opening_hours": "Mo-Fr 07:15-19:30; Sa 07:15-18:00; Su off",
+    "shop": "supermarket",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 87814143,
+  "center": {
+    "lat": 48.2936478,
+    "lon": 14.3009276
+  },
+  "tags": {
+    "addr:city": "Linz",
+    "addr:country": "AT",
+    "addr:housenumber": "28",
+    "addr:postcode": "4020",
+    "addr:street": "Friedhofstraße",
+    "alt_name": "Jet Tankstelle",
+    "brand": "Billa stop & shop",
+    "brand:wikidata": "Q117309603",
+    "building": "retail",
+    "name": "Billa stop & shop",
+    "opening_hours": "Mo-Su 06:00-22:00",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "way",
+  "id": 88119316,
+  "center": {
+    "lat": 48.3085286,
+    "lon": 14.3100233
+  },
+  "tags": {
+    "addr:city": "Linz",
+    "addr:country": "AT",
+    "addr:housenumber": "21",
+    "addr:postcode": "4020",
+    "addr:street": "Derfflingerstraße",
+    "brand": "Hofer",
+    "brand:wikidata": "Q15815751",
+    "brand:wikipedia": "de:Hofer KG",
+    "building": "yes",
+    "check_date:opening_hours": "2024-08-20",
+    "contact:phone": "+43 732 781630",
+    "contact:website": "http://hofer.at",
+    "name": "Hofer",
+    "opening_hours": "Mo-Fr 07:40-20:00; Sa 07:40-18:00",
+    "payment:american_express": "no",
+    "payment:cash": "yes",
+    "payment:maestro": "yes",
+    "payment:mastercard": "no",
+    "payment:visa": "no",
+    "shop": "supermarket",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 88119321,
+  "center": {
+    "lat": 48.3081612,
+    "lon": 14.3093861
+  },
+  "tags": {
+    "addr:city": "Linz",
+    "addr:country": "AT",
+    "addr:housenumber": "19",
+    "addr:postcode": "4020",
+    "addr:street": "Derfflingerstraße",
+    "brand": "Eurospar",
+    "brand:wikidata": "Q12309283",
+    "brand:wikipedia": "da:Eurospar",
+    "building": "yes",
+    "check_date:opening_hours": "2025-08-30",
+    "contact:fax": "+43 732 77405120",
+    "contact:phone": "+43 732 774051",
+    "contact:website": "http://spar.at/de_AT/index/standorte/40/linz_derfflingerstrasse2683.html",
+    "name": "Eurospar",
+    "opening_hours": "Mo-Fr 06:50-19:00; Sa 06:50-18:00",
+    "payment:cash": "yes",
+    "payment:maestro": "yes",
+    "shop": "supermarket",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 88976486,
+  "center": {
+    "lat": 48.2925708,
+    "lon": 14.3032141
+  },
+  "tags": {
+    "addr:city": "Linz",
+    "addr:country": "AT",
+    "addr:housenumber": "33",
+    "addr:postcode": "4020",
+    "addr:street": "Hamerlingstraße",
+    "brand": "Hofer",
+    "brand:wikidata": "Q15815751",
+    "brand:wikipedia": "de:Aldi#Österreich",
+    "building": "retail",
+    "building:levels": "1",
+    "check_date:opening_hours": "2026-03-22",
+    "contact:phone": "+43 732 666662",
+    "contact:website": "http://www.hofer.at",
+    "name": "Hofer",
+    "opening_hours": "Mo-Fr 07:40-20:00; Sa 07:40-18:00",
+    "roof:shape": "flat",
+    "shop": "supermarket",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 88976497,
+  "center": {
+    "lat": 48.2929534,
+    "lon": 14.3032117
+  },
+  "tags": {
+    "addr:city": "Linz",
+    "addr:country": "AT",
+    "addr:housenumber": "40",
+    "addr:postcode": "4020",
+    "addr:street": "Friedhofstraße",
+    "brand": "Eurospar",
+    "brand:wikidata": "Q12309283",
+    "building": "retail",
+    "building:levels": "2",
+    "check_date:opening_hours": "2024-01-04",
+    "contact:fax": "+43 732 60458017",
+    "contact:phone": "+43 732 604580",
+    "contact:website": "http://www.spar.at",
+    "name": "Eurospar",
+    "opening_hours": "Mo-Fr 07:15-19:30; Sa 07:15-18:00",
+    "shop": "supermarket",
+    "tenant": "Gayer Sabine",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 96337643,
+  "center": {
+    "lat": 48.3040448,
+    "lon": 14.2906074
+  },
+  "tags": {
+    "addr:city": "Linz",
+    "addr:country": "AT",
+    "addr:housenumber": "10",
+    "addr:postcode": "4020",
+    "addr:street": "Dametzstraße",
+    "building": "retail",
+    "building:levels": "1",
+    "check_date": "2025-07-17",
+    "contact:email": "chang@hongkongshop.at",
+    "contact:fax": "+43 732 773143",
+    "contact:phone": "+43 732 771511",
+    "contact:website": "http://www.hongkongshop.at",
+    "name": "Hong Kong Shop",
+    "opening_hours": "Mo-Fr 10:00-12:00,14:00-17:45",
+    "roof:levels": "1",
+    "roof:shape": "flat",
+    "shop": "convenience",
+    "source": "bing, geoimage.at",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "way",
+  "id": 108771784,
+  "center": {
+    "lat": 48.3002478,
+    "lon": 14.2974966
+  },
+  "tags": {
+    "addr:city": "Linz",
+    "addr:country": "AT",
+    "addr:housenumber": "35-37",
+    "addr:postcode": "4020",
+    "addr:street": "Dinghoferstraße",
+    "brand": "Spar",
+    "brand:wikidata": "Q610492",
+    "building": "retail",
+    "name": "Spar Express",
+    "opening_hours": "24/7",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "way",
+  "id": 108805592,
+  "center": {
+    "lat": 48.3059820,
+    "lon": 14.3005313
+  },
+  "tags": {
+    "addr:city": "Linz",
+    "addr:country": "AT",
+    "addr:housenumber": "53",
+    "addr:postcode": "4020",
+    "addr:street": "Gruberstraße",
+    "building": "retail",
+    "building:levels": "1",
+    "check_date:opening_hours": "2025-02-10",
+    "name": "Burak",
+    "opening_hours": "Mo-Fr 08:00-19:00; Sa 08:00-18:00",
+    "shop": "convenience"
+  }
+},
+{
+  "type": "way",
+  "id": 112573309,
+  "center": {
+    "lat": 48.3106611,
+    "lon": 14.3042802
+  },
+  "tags": {
+    "brand": "Spar",
+    "brand:wikidata": "Q610492",
+    "check_date:opening_hours": "2024-12-12",
+    "diet:halal": "no",
+    "diet:kosher": "no",
+    "landuse": "retail",
+    "name": "Spar",
+    "opening_hours": "Mo-Fr 07:15-19:30; Sa 07:15-18:00",
+    "shop": "supermarket",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 116641798,
+  "center": {
+    "lat": 48.3005614,
+    "lon": 14.3081191
+  },
+  "tags": {
+    "amenity": "fuel",
+    "brand": "Turmöl",
+    "brand:wikidata": "Q1473279",
+    "compressed_air": "yes",
+    "contact:fax": "+43 732 600415",
+    "contact:phone": "+43 732 654163",
+    "contact:website": "https://www.turmöl.at/",
+    "landuse": "retail",
+    "name": "Turmöl",
+    "opening_hours": "Mo-Su 05:00-24:00",
+    "payment:cash": "yes",
+    "payment:maestro": "yes",
+    "payment:visa": "yes",
+    "shop": "convenience",
+    "tendant": "Jaksic Indira"
+  }
+},
+{
+  "type": "way",
+  "id": 116935280,
+  "center": {
+    "lat": 48.2956278,
+    "lon": 14.3077667
+  },
+  "tags": {
+    "brand": "Lidl",
+    "brand:wikidata": "Q151954",
+    "check_date:opening_hours": "2025-03-23",
+    "landuse": "retail",
+    "name": "Lidl",
+    "opening_hours": "Mo-Fr 07:40-20:00; Sa 07:40-18:00; PH off",
+    "operator": "Lidl Österreich GmbH",
+    "shop": "supermarket",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 117398353,
+  "center": {
+    "lat": 48.2953459,
+    "lon": 14.3106967
+  },
+  "tags": {
+    "brand": "Spar",
+    "brand:wikidata": "Q610492",
+    "contact:fax": "+43 732 651925",
+    "contact:phone": "+43 732 651925",
+    "contact:website": "http://www.spar.at",
+    "landuse": "retail",
+    "name": "Spar",
+    "opening_hours": "Mo-Th 07:30-19:00; Fr 07:30-19:30; Sa 07:30-18:00",
+    "payment:cash": "yes",
+    "payment:maestro": "yes",
+    "shop": "supermarket",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "way",
+  "id": 138233793,
+  "center": {
+    "lat": 48.3003201,
+    "lon": 14.3205550
+  },
+  "tags": {
+    "amenity": "fuel",
+    "brand": "Turmöl",
+    "brand:wikidata": "Q1473279",
+    "compressed_air": "yes",
+    "contact:fax": "+43 732 600859",
+    "contact:phone": "+43 732 600859",
+    "fuel:adblue": "yes",
+    "fuel:cng": "yes",
+    "fuel:diesel": "yes",
+    "fuel:lpg": "yes",
+    "fuel:octane_95": "yes",
+    "landuse": "retail",
+    "name": "Turmöl",
+    "opening_hours": "Mo-Sa 05:00-23:00; Su 07:00-18:00; PH 07:00-18:00",
+    "operator": "Doppler Mineralöle GmbH",
+    "payment:american_express": "yes",
+    "payment:cash": "yes",
+    "payment:diners_club": "yes",
+    "payment:dkv": "yes",
+    "payment:maestro": "yes",
+    "payment:visa": "yes",
+    "shop": "convenience",
+    "website": "https://turmöl.at/"
+  }
+},
+{
+  "type": "way",
+  "id": 144798391,
+  "center": {
+    "lat": 48.3232864,
+    "lon": 14.2835035
+  },
+  "tags": {
+    "addr:city": "Linz",
+    "addr:country": "AT",
+    "addr:housenumber": "54",
+    "addr:postcode": "4040",
+    "addr:street": "Leonfeldner Straße",
+    "building": "yes",
+    "name": "Deniz Lebensmittel - Dostlar",
+    "opening_hours": "Mo-Sa 07:30-20:00",
+    "phone": "+43 732 701443",
+    "shop": "supermarket",
+    "toilets:wheelchair": "limited",
+    "website": "http://www.dostlar-supermarkt.at/"
+  }
+},
+{
+  "type": "way",
+  "id": 557263467,
+  "center": {
+    "lat": 48.3112802,
+    "lon": 14.3041913
+  },
+  "tags": {
+    "addr:city": "Linz",
+    "addr:country": "AT",
+    "addr:housenumber": "68-70",
+    "addr:postcode": "4020",
+    "addr:street": "Lederergasse",
+    "brand": "Hofer",
+    "brand:wikidata": "Q15815751",
+    "building": "retail",
+    "building:levels": "1",
+    "check_date:opening_hours": "2024-12-12",
+    "diet:halal": "no",
+    "diet:kosher": "no",
+    "name": "Hofer",
+    "opening_hours": "Mo-Fr 07:40-20:00; Sa 07:40-18:00",
+    "roof:shape": "flat",
+    "shop": "supermarket",
+    "wheelchair": "yes"
+  }
+}
+
+  ]
+}

@@ -1,0 +1,1 @@
+import{U as e,Yt as t,g as n,h as r,w as i}from"./BaYLGZzq.js";import{kt as a}from"./SCEl3m1f.js";var o={key:0,class:`special-buy-disclaimer`},s=Object.assign(a(i({__name:`SuperscriptDisclaimer`,props:{disclaimer:{}},setup(i){return(a,s)=>i.disclaimer?(e(),n(`p`,o,t(i.disclaimer),1)):r(``,!0)}}),[[`__scopeId`,`data-v-10d9001b`]]),{__name:`SuperscriptDisclaimer`});export{s as t};

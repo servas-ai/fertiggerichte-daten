@@ -1,0 +1,230 @@
+{
+ "count": 7,
+ "errors": {},
+ "products": [
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Müller High Protein Schoko Pudding",
+   "brand": "Müller",
+   "price_eur": 1.59,
+   "unit_price_eur": 7.95,
+   "unit": "kg",
+   "size_g": 200.0,
+   "nutrition_100g": {
+    "kcal": 86.0,
+    "fat": 2.0,
+    "satfat": 1.3,
+    "carbs": 6.0,
+    "sugar": 3.9,
+    "protein": 10.0,
+    "salt": 0.47,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/34787/34787-1725979471293.jpg",
+   "producer": "Molkerei Alois Müller GmbH & Co. KG, Zollerstraße 7, 86850 Aretsried Deutschland",
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Kühlregal > Joghurt & Desserts > Pudding",
+   "source_url": "https://www.gurkerl.at/34787-mueller-high-protein-schoko-pudding",
+   "source_id": "34787",
+   "fetched_at": "2026-10-13T02:19:04+00:00",
+   "extra": {
+    "ingredients": "Protein Schokoladenpudding, mit Süßungsmitteln. Ultrahocherhitzt. 1,7% Fett im Milchanteil.\n\nZutaten: MILCHEIWEIßERZEUGNIS, SAHNE, modifizierte Stärke, 2,3% Kakao, Säureregulator Natriumphosphate, Süßungsmittel (Acesulfam K, Sucralose), Stabilisator Carrageen. KANN SPUREN VON SOJA ENTHALTEN.\n\nbei max. +8 °C mindestens haltbar bis: siehe Aufdruck Deckel\n\nKontakt: Molkerei Alois Müller GmbH & Co. KG, Zollerstraße 7, 86850 Aretsried Deutschland"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Müller High Protein Vanille Pudding",
+   "brand": "Müller",
+   "price_eur": 1.59,
+   "unit_price_eur": 7.95,
+   "unit": "kg",
+   "size_g": 200.0,
+   "nutrition_100g": {
+    "kcal": 86.0,
+    "fat": 1.7,
+    "satfat": 1.1,
+    "carbs": 7.0,
+    "sugar": 4.0,
+    "protein": 10.0,
+    "salt": 0.48,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/34788/34788-1725979710428.jpg",
+   "producer": "",
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Kühlregal > Joghurt & Desserts > Pudding",
+   "source_url": "https://www.gurkerl.at/34788-mueller-high-protein-vanille-pudding",
+   "source_id": "34788",
+   "fetched_at": "2026-10-13T02:19:04+00:00",
+   "extra": {
+    "ingredients": "Protein Pudding mit Vanillegeschmack, mit Süßungsmitteln. Ultrahocherhitzt. 1,8% Fett im Milchanteil.\n\nZutaten: MILCHEIWEIßERZEUGNIS, SAHNE, modifizierte Stärke, Säureregulator Natriumphosphate, Süßungsmittel (Acesulfam K,\nSucralose), Stabilisator Carrageen, Farbstoff Carotin, natürliches Aroma.\nKANN SPUREN VON SOJA ENTHALTEN.\n\nbei max. +8 °C mindestens haltbar bis: siehe Aufdruck Deckel\n\nMolkerei Alois Müller GmbH & Co. KG, Zollerstraße 7, 86850 Aretsried Deutschland\nKontakt: "
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Dr. Oetker High Protein Pudding Grieß",
+   "brand": "Dr. Oetker",
+   "price_eur": 2.89,
+   "unit_price_eur": 7.23,
+   "unit": "kg",
+   "size_g": 400.0,
+   "nutrition_100g": {
+    "kcal": 79.0,
+    "fat": 1.5,
+    "satfat": 0.9,
+    "carbs": 8.7,
+    "sugar": 4.6,
+    "protein": 7.5,
+    "salt": 0.19,
+    "fiber": 0.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/17106/17106-1616861787917.jpeg",
+   "producer": "",
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Kühlregal > Joghurt & Desserts > Pudding",
+   "source_url": "https://www.gurkerl.at/17106-dr-oetker-high-protein-pudding-griess",
+   "source_id": "17106",
+   "fetched_at": "2026-10-13T02:19:04+00:00",
+   "extra": {
+    "ingredients": "Protein Grieß-Pudding. Mit Süßungsmitteln\n\nZutaten: MAGERMILCH, 5,3% HARTWEIZENGRIESS, 4,7% MILCHEIWEISS, SCHLAGSAHNE, modifizierte Stärke (Mais), Verdickungsmittel (Xanthan), Maisstärke, Süßungsmittel (Cyclamat, Acesulfam K, Saccharin), Aroma (enthält MILCH), Farbstoff (Carotin), Stabilisator (Natriumphosphate).\n\nGekühlt (bei 4-8 °C) lagern, nach dem Öffnen umgehend verbrauchen.\n\nKontaktdaten:\nDr. Oetker GmbH, Ringmauergasse 9/1, 9500 Villach, Österreich, +43 (0) 4242 55 4 54-0, office@oetker.at"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Dr. Oetker High Protein Pudding Grieß Schoko",
+   "brand": "Dr. Oetker",
+   "price_eur": 2.89,
+   "unit_price_eur": 7.23,
+   "unit": "kg",
+   "size_g": 400.0,
+   "nutrition_100g": {
+    "kcal": 81.0,
+    "fat": 1.6,
+    "satfat": 1.0,
+    "carbs": 8.6,
+    "sugar": 4.6,
+    "protein": 7.5,
+    "salt": 0.2,
+    "fiber": 0.9
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/17107/17107-1748854881367.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Deutschland",
+   "category": "Kühlregal > Joghurt & Desserts > Pudding",
+   "source_url": "https://www.gurkerl.at/17107-dr-oetker-high-protein-pudding-griess-schoko",
+   "source_id": "17107",
+   "fetched_at": "2026-10-13T02:19:04+00:00",
+   "extra": {
+    "ingredients": "Protein Schoko-Grießpudding. Mit Süßungsmitteln.\n\nZutaten: MAGERMILCH, 5,3% HARTWEIZENGRIESS, 4,2% MILCHEIWEISSERZEUGNIS, SCHLAGSAHNE, 1,6% fettarmer Kakao, modifizierte Stärke, Stärke, Verdickungsmittel (Xanthan), Aroma, Stabilisator (Natriumphosphate), Süßungsmittel (Acesulfam K, Cyclamat, Saccharin).\n\nNach dem Öffnen zügig genießen. Bei +8 °C lagern."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "nöm PRO Protein Topfencreme Vanille",
+   "brand": "nöm PRO",
+   "price_eur": 1.89,
+   "unit_price_eur": 8.04,
+   "unit": "kg",
+   "size_g": 235.0,
+   "nutrition_100g": {
+    "kcal": 48.0,
+    "fat": 0.5,
+    "satfat": 0.1,
+    "carbs": 3.4,
+    "sugar": 3.0,
+    "protein": 8.4,
+    "salt": 0.1,
+    "fiber": 0.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/4628/4628-1603472222260.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Joghurt & Desserts > Desserts",
+   "source_url": "https://www.gurkerl.at/4628-noem-pro-protein-topfencreme-vanille",
+   "source_id": "4628",
+   "fetched_at": "2026-10-13T02:19:04+00:00",
+   "extra": {
+    "ingredients": "Vanille-Topfencreme mit Süßungsmitteln, mit Joghurt, mager.\n\nZutaten: SPEISETOPFEN¹ mager, Wasser, 8% JOGHURT¹ aus MAGERMILCH, modifizierte Stärke, Stabilisator: Johannisbrotkernmehl, natürliches Vanillearoma, Karottenkonzentrat, Vanillepulver, Süßungsmittel: Sucralose, Acesulfam K. ¹Aus Gentechnik-freier Milch laut Definition des Österreichischen Lebensmittelcodex für gentechnikfreie Produktion; Kontrolle durch agroVet GmbH."
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "MILK fit High Protein Vanilledrink",
+   "brand": "Kärntner Milch",
+   "price_eur": 1.99,
+   "unit_price_eur": 6.03,
+   "unit": "kg",
+   "size_g": 330.0,
+   "nutrition_100g": {
+    "kcal": 85.0,
+    "fat": 1.6,
+    "satfat": 1.1,
+    "carbs": 6.8,
+    "sugar": 6.7,
+    "protein": 11.0,
+    "salt": 0.24,
+    "fiber": null
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/47557/47557-1775637468634993685.jpg",
+   "producer": "KÄRNTNERMILCH reg. Gen.m.b.H, Villacher Straße 92, 9800 Spittal / Drau, AUSTRIA",
+   "producer_id": null,
+   "origin": "Österreich",
+   "category": "Kühlregal > Milch & Milchprodukte > Milch- & Joghurtdrinks",
+   "source_url": "https://www.gurkerl.at/47557-milk-fit-high-protein-vanilledrink",
+   "source_id": "47557",
+   "fetched_at": "2026-10-13T02:19:04+00:00",
+   "extra": {
+    "ingredients": "Laktosefreies* Milchmischgetränk mit 1,5% Fett im Milchanteil, mit Vanillegeschmack, hocherhitzt , *Laktosegehalt <0,1g / 100g; ohne Zuckerzusatz, ohne künstliche Süßstoffe - enthält von Natur aus Zucker\n\nZutaten: 96,3% teilentrahmtes Milchkonzentrat, 3,7% Vanillezubereitung (Molken- und Trockenmilcherzeugnis, Aroma, Säureregulator: Natriumphosphat; natürliches Aroma, Stabilisator: Carrageen), Lactase.\n\nBei +4°C bis +6°C lagern. Nach dem Öffnen gekühlt lagern und innerhalb von 2 Tagen konsumieren.\n\nKontakt: KÄRNTNERMILCH reg. Gen.m.b.H, Villacher Straße 92, 9800 Spittal / Drau, AUSTRIA"
+   }
+  },
+  {
+   "source": "gurkerl",
+   "store": "Gurkerl.at",
+   "name": "Yutto Chia Samen",
+   "brand": "Yutto",
+   "price_eur": 0.79,
+   "unit_price_eur": 7.9,
+   "unit": "kg",
+   "size_g": 100.0,
+   "nutrition_100g": {
+    "kcal": 447.0,
+    "fat": 31.0,
+    "satfat": 4.0,
+    "carbs": 8.0,
+    "sugar": 0.8,
+    "protein": 34.0,
+    "salt": 0.04,
+    "fiber": 17.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.gurkerl.at/images/grocery/products/45481/45481-1760702998764846817.jpg",
+   "producer": null,
+   "producer_id": null,
+   "origin": "Außerhalb der EU\r",
+   "category": "Vorratsschrank > Nüsse, Trockenfrüchte & Samen > Samen",
+   "source_url": "https://www.gurkerl.at/45481-yutto-chia-samen",
+   "source_id": "45481",
+   "fetched_at": "2026-10-13T02:19:04+00:00",
+   "extra": {
+    "ingredients": "Zutaten: Chia Samen"
+   }
+  }
+ ]
+}

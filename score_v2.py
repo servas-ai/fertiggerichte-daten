@@ -1,0 +1,143 @@
+"""Good Choice health score v2 (see analysis/score_v2.md). Pure functions, no I/O except load_off()."""
+import re, json, os
+DAY = dict(kcal=2000, protein=50, salt=6, satfat=20, sugar=90, fiber=30)   # EU RI (Reg. 1169/2011 Anh. XIII), fiber 30 g DGE
+SUGAR_PTS = [3.4,6.8,10,14,17,20,24,27,31,34,37,41,44,48,51]                # Nutri-Score 2023 sugar thresholds (g/100 g)
+MEAL_MIN, MEAL_MAX, SNACK_MAX = 300, 1000, 250
+NOVA4 = re.compile(r'isolat|protein-?isolat|hydrolys|modifizierte stärke|maltodextrin|dextrose|glukose-?sirup|glucose-?sirup|fruktose-?sirup|invertzucker|aroma(?!tisch)|geschmacksverstärker|mononatriumglutamat|glutamat|emulgator|verdickungsmittel|stabilisator|farbstoff|süßungsmittel|sucralose|acesulfam|aspartam|carrageen|xanthan|guarkernmehl|phosphat|\be ?\d{3}[a-z]?\b|isolate|flavou?ring|modified starch|emulsifier|thickener|sweetener|hydrolysed',re.I)
+VEG_ING = re.compile(r'gemüse|tomate|karotte|möhre|zwiebel|paprika|zucchini|spinat|brokkoli|broccoli|kohl|kraut|erbse|bohne|linse|kichererbse|kürbis|aubergine|pilz|champignon|lauch|sellerie|mais|kartoffel(?!stärke)|süßkartoffel|rote rübe|rote bete|fenchel|blumenkohl|karfiol|mangold|rucola|salat|gurke|vegetable|tomato|carrot|onion|pepper|lentil|bean|chickpea|pea\b|spinach|mushroom',re.I)
+NOT_VEG = re.compile(r'pulver|extrakt|stärke|aroma|fett|öl\b|mehl|eiweiß|protein|sirup',re.I)
+PREP_WATER = re.compile(r'(\d{2,4})\s*ml\s*(\w+\s+)?(wasser|milch)',re.I)
+DRY_NAME = re.compile(r'lasagne(blätter|platten|-?platten)?$|lasagne hartweizen|suppe-(abc|gerstl|sternderl|mini hörnchen|hörnchen)|suppeneinlage|backerbsen|risottoreis|pulver|terrine|bouillon|\bfix\b|instant|cup\b|5 ?min|sojaschnetzel|soja geschnetzel|sojagranulat',re.I)
+
+def n(v):
+    try: return float(v)
+    except (TypeError, ValueError): return None
+
+def load_off(path='off_v2_cache.json', legacy='nutri_off_cache.json'):
+    c = {}
+    if os.path.exists(legacy):
+        for e, v in json.load(open(legacy)).items():
+            if isinstance(v, dict): c[e] = {'nova_group': v.get('nova'), 'fvl_pct': v.get('fvl_pct')}
+    if os.path.exists(path):
+        for e, v in json.load(open(path)).items():
+            if isinstance(v, dict) and not v.get('_error') and not v.get('_missing'): c[e] = {**c.get(e, {}), **v}
+    return c
+
+def ingredients_text(x, off):
+    t = x.get('ingredients') or (off or {}).get('ingredients_text_de') or (off or {}).get('ingredients_text')
+    if isinstance(t, list): t = ', '.join(str(i.get('text') if isinstance(i, dict) else i) for i in t)
+    return t or None
+
+def nova_of(x, off):
+    """(nova, source). No packaging-based guess."""
+    if off and off.get('nova_group'): return int(off['nova_group']), 'off'
+    if x.get('nova') and x.get('nova_source'): return int(x['nova']), 'off'  # nutri_enrich (OFF)
+    t = ingredients_text(x, off)
+    if t:
+        return (4 if NOVA4.search(t) else 3), 'ingredients_markers'
+    return None, 'unknown'
+
+def veg_share(x, off):
+    """(pct, source) of vegetables/legumes in ingredients."""
+    if n((off or {}).get('fvl_pct')) is not None: return round(n(off['fvl_pct']), 1), 'off_fvl'
+    ing = (off or {}).get('ingredients') or []
+    if ing:
+        tot = 0.0
+        for g in ing:
+            txt = str(g.get('text') or g.get('id') or '')
+            pct = n(g.get('percent')) or n(g.get('percent_estimate'))
+            if pct and (g.get('vegetable') == 'yes' or VEG_ING.search(txt)) and not NOT_VEG.search(txt): tot += pct
+        return round(min(tot, 100), 1), 'off_percent'
+    t = ingredients_text(x, off)
+    if not t: return None, 'unknown'
+    parts = [p.strip() for p in re.split(r',(?![^()]*\))', t) if p.strip()]
+    tot = 0.0
+    for i, p in enumerate(parts[:12]):
+        m = re.search(r'(\d+(?:[.,]\d+)?)\s*%', p)
+        if VEG_ING.search(p) and not NOT_VEG.search(p):
+            tot += float(m.group(1).replace(',', '.')) if m else max(30 - 6 * i, 3)  # order-based estimate
+    return round(min(tot, 100), 1), 'ingredients_order'
+
+def nutrition_basis(x, off):
+    """Return (basis, factor, note). factor converts as-sold /100 g into prepared /100 g."""
+    k, fat = n(x.get('kcal_100')), n(x.get('fat_100')) or 0
+    tk = x.get('packaging') == 'Tiefkühl (TK)'
+    dryish = bool(k and ((k >= 300 and fat < 10 and not tk) or (x.get('packaging') == 'Trocken/Instant' and k >= 250)
+              or (k >= 300 and DRY_NAME.search(x.get('name') or ''))))
+    if not dryish: return 'as_sold', 1.0, None
+    nm = (off or {}).get('nutriments') or {}
+    if n(nm.get('energy-kcal_prepared_100g')):
+        return 'prepared', n(nm['energy-kcal_prepared_100g']) / k, 'OFF prepared values'
+    m = PREP_WATER.search(str(x.get('prep') or '') + ' ' + str(x.get('prep_hint') or ''))
+    sz = n(x.get('size_g'))
+    if m and sz:
+        f = sz / (sz + float(m.group(1)))
+        return 'prepared', f, f'preparation ratio {sz:g} g + {m.group(1)} ml'
+    return 'dry', None, None
+
+def portion(x, off, stage=None):
+    """(portion_g, source). Never 100 g placeholder."""
+    sz = n(x.get('size_g')); nm = (x.get('name') or '').lower()
+    m = re.search(r'(\d+)\s*(portionen|port\.|portions)', nm)
+    if m and sz and int(m.group(1)) > 1: return round(sz / int(m.group(1))), 'name_portions'
+    sq = n((off or {}).get('serving_quantity'))
+    if sq and 50 <= sq <= 1000 and not (sq == 100 and not (off or {}).get('serving_size')): return round(sq), 'off_serving'
+    if sz and 150 <= sz <= 700 and stage in (None, 'meal', 'stew'): return round(sz), 'pack_single'
+    return None, 'unknown'
+
+def sugar_points(s):
+    return 0 if s is None else sum(s > t for t in SUGAR_PTS)
+
+def meal_class(kcal_meal):
+    if kcal_meal is None: return 'unknown'
+    if kcal_meal < SNACK_MAX: return 'snack_side'
+    if kcal_meal < MEAL_MIN: return 'light_meal'
+    if kcal_meal <= MEAL_MAX: return 'meal'
+    return 'multi_portion'
+
+def score_v2(x, off=None, stage=None):
+    """Returns dict of new fields incl. health_score (0-100) or None."""
+    out = {}
+    basis, fac, note = nutrition_basis(x, off)
+    out.update(nutrition_basis=basis, nutrition_note=note)
+    f = fac or 1.0
+    g = lambda a: (n(x.get(a)) * f) if n(x.get(a)) is not None else None
+    p, k, s, sf, fi, su = g('protein_100'), g('kcal_100'), g('salt_100'), g('satfat_100'), g('fiber_100'), g('sugar_100')
+    nova, nsrc = nova_of(x, off); out.update(nova=nova, nova_source=nsrc)
+    vp, vsrc = veg_share(x, off); out.update(veg_pct=vp, veg_source=vsrc)
+    pg, psrc = portion(x, off, stage)
+    sz = n(x.get('size_g'))
+    if basis == 'prepared' and pg and fac: pg = round(pg / fac); psrc += '+prepared'
+    out.update(portion_g=pg, portion_source=psrc)
+    ref = pg or sz
+    kmeal = round(k * ref / 100) if k is not None and ref else None
+    out['kcal_meal'] = kmeal
+    out['meal_class'] = meal_class(kmeal) if basis != 'dry' else 'dry'
+    if pg:
+        out['per_portion'] = {kk: (round(v * pg / 100, 2) if v is not None else None) for kk, v in
+                              dict(kcal=k, protein=p, salt=s, satfat=sf, sugar=su, fiber=fi).items()}
+        out['day_pct'] = {kk: (round(v / DAY[kk] * 100) if v is not None else None) for kk, v in out['per_portion'].items()}
+    else:
+        out['per_portion'] = None; out['day_pct'] = None
+    if basis == 'dry' or p is None or not k or k <= 0:
+        out['health_score'] = None; out['score_parts'] = None; return out
+    pd = p / k * 100
+    sp = sugar_points(su)
+    parts = {
+        'base': 30.0,
+        'protein': min(pd / 10, 1) * 35 * (0.5 if sp >= 3 else 1),         # sweet products: protein bonus halved
+        'salt': 0 if s is None else -min(max(s - 0.6, 0) / 1.4, 1) * 20,
+        'satfat': 0 if sf is None else -min(max(sf - 1.5, 0) / 4.5, 1) * 15,
+        'sugar': -min(sp, 10) * 2.0,                                        # up to -20 (≥34 g)
+        'fiber': 0 if fi is None else min(fi / 6, 1) * 10,
+        'veg': 0 if vp is None else min(vp / 40, 1) * 10,
+        'nova': {4: -10, 3: 0, 2: 3, 1: 5}.get(nova, -3),                  # unknown NOVA: small uncertainty malus
+    }
+    pp = out['day_pct']
+    if pp:   # portion vs. daily target
+        if pp.get('salt') and pp['salt'] > 40: parts['portion_salt'] = -min((pp['salt'] - 40) / 30, 1) * 8
+        if pp.get('satfat') and pp['satfat'] > 40: parts['portion_satfat'] = -min((pp['satfat'] - 40) / 30, 1) * 5
+        if pp.get('protein') and pp['protein'] >= 40 and sp < 3: parts['portion_protein'] = 5
+    out['score_parts'] = {kk: round(v, 1) for kk, v in parts.items()}
+    out['health_score'] = round(max(0, min(100, sum(parts.values()))), 1)
+    return out

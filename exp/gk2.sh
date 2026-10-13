@@ -1,0 +1,5 @@
+cd /workspace/food-connectors
+for t in reisfleisch fleckerl beuschel "nudelsalat" "gefüllt" menü gericht "vegan fertig" indisch thai mexikanisch "hausmannskost" "dosengericht" "tiefkühl gericht" "picard" "marks spencer" "iglo" "youcook" "rana" "felix" "inzersdorfer" "hink" "berger" "radatz" "followfood" "bonduelle" "maggi" "knorr" "erasco" "sonnen bassermann" "frosta" "gnocchi pfanne" "mohr im hemd" "creme brulee" "schokomousse" "kaiserschmarrn" "apfelstrudel" "topfenstrudel" "buchteln" "dampfnudel" "zwetschkenknödel" "mohnnudeln" "griesschmarrn" "reispudding" "chia pudding" "protein pudding" "hühnersuppe" "gulaschsuppe" "kürbissuppe" "linsensuppe" "minestrone" "tomatensuppe" "frittatensuppe" "leberknödelsuppe" "hendl" "schweinsbraten" "rindfleisch" "fisch gericht" "lachs" "pasta gericht" "mac and cheese" "lasagne vegan" "curry vegan" "bowl vegan"; do
+ python3 -m food_connectors.cli search "$t" --store gurkerl --enrich > "/workspace/fertig/exp/gk_$(echo $t|tr ' ' _).json" 2>/dev/null; sleep 1
+done
+echo DONE
