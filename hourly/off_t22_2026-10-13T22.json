@@ -1,0 +1,214 @@
+{
+ "4306188009917": {
+  "product_name": "Hähnchen",
+  "brands": "JedenTag",
+  "brand_owner": null,
+  "emb_codes": null,
+  "quantity": "1pcs",
+  "nutrition_data_per": "100g",
+  "last_modified_t": 1774504267,
+  "code_strict": null,
+  "n100": {
+   "kcal": 205,
+   "fat": 8,
+   "satfat": 1.5,
+   "carbs": 17,
+   "sugar": 1,
+   "fiber": null,
+   "protein": 16,
+   "salt": 1.3
+  }
+ },
+ "4306188009948": {
+  "product_name": "Nuggets",
+  "brands": "Jeden Tag",
+  "brand_owner": null,
+  "emb_codes": null,
+  "quantity": "500g",
+  "nutrition_data_per": "100g",
+  "last_modified_t": 1776875653,
+  "code_strict": null,
+  "n100": {
+   "kcal": 136,
+   "fat": 1.2,
+   "satfat": 0.5,
+   "carbs": 14,
+   "sugar": 1,
+   "fiber": null,
+   "protein": 17,
+   "salt": 1.3
+  }
+ },
+ "4306188424598": {
+  "product_name": "Pizza Margherita 3 St.",
+  "brands": "Jeden Tag",
+  "brand_owner": null,
+  "emb_codes": null,
+  "quantity": "900g",
+  "nutrition_data_per": "100g",
+  "last_modified_t": 1782402312,
+  "code_strict": null,
+  "n100": {
+   "kcal": 217,
+   "fat": 4.4,
+   "satfat": 2,
+   "carbs": 34,
+   "sugar": 4,
+   "fiber": null,
+   "protein": 9,
+   "salt": null
+  }
+ },
+ "4306188424628": {
+  "product_name": "Pizza Salami",
+  "brands": "Jeden Tag",
+  "brand_owner": null,
+  "emb_codes": "",
+  "quantity": "1050 g (3 × 350 g)",
+  "nutrition_data_per": "100g",
+  "last_modified_t": 1776536075,
+  "code_strict": null,
+  "n100": {
+   "kcal": 230,
+   "fat": 7,
+   "satfat": 3,
+   "carbs": 31,
+   "sugar": 3,
+   "fiber": 2.3,
+   "protein": 9.5,
+   "salt": 1.1
+  }
+ },
+ "5941905400678": {
+  "product_name": "Vegetable cream soup",
+  "brands": "DOZZ",
+  "brand_owner": null,
+  "emb_codes": null,
+  "quantity": null,
+  "nutrition_data_per": null,
+  "last_modified_t": 1757229975,
+  "code_strict": null,
+  "n100": {
+   "kcal": null,
+   "fat": null,
+   "satfat": null,
+   "carbs": null,
+   "sugar": null,
+   "fiber": null,
+   "protein": null,
+   "salt": null
+  }
+ },
+ "4002473905291": {
+  "_error": "HTTP Error 404: Not Found"
+ },
+ "4260434440476": {
+  "product_name": "frank soup Karotte kokos",
+  "brands": "frank soup",
+  "brand_owner": null,
+  "emb_codes": null,
+  "quantity": "350ml",
+  "nutrition_data_per": "100ml",
+  "last_modified_t": 1774493494,
+  "code_strict": null,
+  "n100": {
+   "kcal": 71,
+   "fat": 3.2,
+   "satfat": 2.1,
+   "carbs": 9.2,
+   "sugar": 4.8,
+   "fiber": null,
+   "protein": 0.7,
+   "salt": 0.78
+  }
+ },
+ "5941905400692": {
+  "product_name": "5941905400692",
+  "brands": "dozz",
+  "brand_owner": null,
+  "emb_codes": null,
+  "quantity": "310ml",
+  "nutrition_data_per": "100g",
+  "last_modified_t": 1790347942,
+  "code_strict": null,
+  "n100": {
+   "kcal": 48,
+   "fat": 4,
+   "satfat": 1.19,
+   "carbs": 2.1,
+   "sugar": 2.04,
+   "fiber": 0.72,
+   "protein": 0.62,
+   "salt": 0.59
+  }
+ },
+ "4306188347293": {
+  "product_name": "Fischstäbchen",
+  "brands": "Jeden Tag",
+  "brand_owner": null,
+  "emb_codes": "MSC-C-52512",
+  "quantity": "450g",
+  "nutrition_data_per": "100g",
+  "last_modified_t": 1788071201,
+  "code_strict": null,
+  "n100": {
+   "kcal": 181,
+   "fat": 7.9,
+   "satfat": 1,
+   "carbs": 15,
+   "sugar": 1,
+   "fiber": 0.9,
+   "protein": 12,
+   "salt": 0.99
+  }
+ },
+ "9048130046162": {
+  "_error": "HTTP Error 404: Not Found"
+ },
+ "9048130046315": {
+  "_error": "HTTP Error 404: Not Found"
+ },
+ "9001231115069": {
+  "_error": "HTTP Error 404: Not Found"
+ },
+ "9008695921823": {
+  "product_name": "Hühner Nuggets",
+  "brands": "iglo",
+  "brand_owner": null,
+  "emb_codes": "",
+  "quantity": "250g",
+  "nutrition_data_per": "100g",
+  "last_modified_t": 1790912401,
+  "code_strict": null,
+  "n100": {
+   "kcal": 253,
+   "fat": 11,
+   "satfat": 1.4,
+   "carbs": 25,
+   "sugar": 0.6,
+   "fiber": 1.2,
+   "protein": 13,
+   "salt": 0.98
+  }
+ },
+ "8722700143956": {
+  "product_name": "Backhendlstreifen klassik",
+  "brands": "iglo",
+  "brand_owner": null,
+  "emb_codes": "",
+  "quantity": "250 g",
+  "nutrition_data_per": "100g",
+  "last_modified_t": 1788454214,
+  "code_strict": null,
+  "n100": {
+   "kcal": 174,
+   "fat": 7.3,
+   "satfat": 0.9,
+   "carbs": 7.7,
+   "sugar": 0.5,
+   "fiber": 0.5,
+   "protein": 19,
+   "salt": 1.1
+  }
+ }
+}
