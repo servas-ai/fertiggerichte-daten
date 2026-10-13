@@ -1,0 +1,1526 @@
+{
+ "generated_at": "2026-10-13T11:50:00Z",
+ "method": "food-connectors `food company NAME --impressum DOMAIN`: public legal notice (robots.txt respected, no cookies/JS/login), ids extracted by regex, every UID checked live via EU VIES REST API; candidate domains are the companies' own sites, accepted only after manual review of the page context",
+ "results": [
+  {
+   "domain": "www.darbo.at",
+   "imprint_url": "https://www.darbo.at/impressum",
+   "fetched_at": "2026-10-13T11:15:21Z",
+   "uids": [
+    {
+     "uid": "ATU31800708",
+     "valid": true,
+     "vies_name": "Adolf Darbo Aktiengesellschaft",
+     "vies_address": "Dornau 18\nAT-6135 Stans",
+     "checked_at": "2026-10-13T11:15:22.228Z",
+     "name_match": 0.5
+    }
+   ],
+   "fn": [
+    "FN 46033x"
+   ],
+   "hrb": [],
+   "court": "Innsbruck",
+   "best": {
+    "uid": "ATU31800708",
+    "valid": true,
+    "vies_name": "Adolf Darbo Aktiengesellschaft",
+    "vies_address": "Dornau 18\nAT-6135 Stans",
+    "checked_at": "2026-10-13T11:15:22.228Z",
+    "name_match": 0.5
+   },
+   "source": "public legal notice + EU VIES",
+   "company": "A. Darbo AG",
+   "accepted": true,
+   "decision": "uid verified (VIES valid + name match / DE: full legal name next to UID on page, reviewed)"
+  },
+  {
+   "domain": "www.aia-spa.it",
+   "imprint_url": null,
+   "fetched_at": "2026-10-13T11:17:13Z",
+   "uids": [],
+   "fn": [],
+   "hrb": [],
+   "court": null,
+   "best": null,
+   "error": "no imprint page with register/VAT ids found (or robots-disallowed / JS-only)",
+   "company": "AIA S.p.A.",
+   "accepted": false,
+   "decision": "no usable legal notice found (none / JS-only / robots / no ids)"
+  },
+  {
+   "domain": "www.ager.at",
+   "imprint_url": null,
+   "fetched_at": "2026-10-13T11:20:26Z",
+   "uids": [],
+   "fn": [],
+   "hrb": [],
+   "court": null,
+   "best": null,
+   "error": "no imprint page with register/VAT ids found (or robots-disallowed / JS-only)",
+   "company": "Ager GesmbH",
+   "accepted": false,
+   "decision": "no usable legal notice found (none / JS-only / robots / no ids)"
+  },
+  {
+   "domain": "www.alimentastic.com",
+   "imprint_url": "https://www.alimentastic.com/impressum",
+   "fetched_at": "2026-10-13T11:15:53Z",
+   "uids": [
+    {
+     "uid": "ATU70319525",
+     "valid": false,
+     "vies_name": null,
+     "vies_address": null,
+     "checked_at": "2026-10-13T11:15:54.553Z"
+    }
+   ],
+   "fn": [
+    "FN 673845z"
+   ],
+   "hrb": [],
+   "court": null,
+   "best": null,
+   "source": "public legal notice + EU VIES",
+   "company": "Alimentastic Food Innovation GmbH",
+   "accepted": true,
+   "fn_only": true,
+   "decision": "fn from own legal notice: FN 673845z, Landesgericht Salzburg on page; printed UID ATU70319525 is INVALID in VIES (2026-10-13) -> UID not stored"
+  },
+  {
+   "domain": "www.allos.de",
+   "imprint_url": "https://www.allos.de/impressum/",
+   "fetched_at": "2026-10-13T11:14:36Z",
+   "uids": [
+    {
+     "uid": "DE284733525",
+     "valid": true,
+     "vies_name": null,
+     "vies_address": null,
+     "checked_at": "2026-10-13T11:14:38.868Z",
+     "name_match": "on_page"
+    }
+   ],
+   "fn": [],
+   "hrb": [
+    "HRB 27982 HB"
+   ],
+   "court": "Bremen",
+   "best": {
+    "uid": "DE284733525",
+    "valid": true,
+    "vies_name": null,
+    "vies_address": null,
+    "checked_at": "2026-10-13T11:14:38.868Z",
+    "name_match": "on_page"
+   },
+   "source": "public legal notice + EU VIES",
+   "company": "Allos Hof-Manufaktur GmbH",
+   "accepted": true,
+   "decision": "uid verified (VIES valid + name match / DE: full legal name next to UID on page, reviewed)",
+   "legal_name_imprint": "Allos Hof-Manufaktur GmbH"
+  },
+  {
+   "domain": "www.alnatura.de",
+   "imprint_url": "https://www.alnatura.de/impressum",
+   "fetched_at": "2026-10-13T11:14:24Z",
+   "uids": [
+    {
+     "uid": "DE111615161",
+     "valid": true,
+     "vies_name": null,
+     "vies_address": null,
+     "checked_at": "2026-10-13T11:14:27.060Z",
+     "name_match": "on_page"
+    }
+   ],
+   "fn": [],
+   "hrb": [
+    "HRB 4407"
+   ],
+   "court": null,
+   "best": {
+    "uid": "DE111615161",
+    "valid": true,
+    "vies_name": null,
+    "vies_address": null,
+    "checked_at": "2026-10-13T11:14:27.060Z",
+    "name_match": "on_page"
+   },
+   "source": "public legal notice + EU VIES",
+   "company": "Alnatura GmbH",
+   "accepted": false,
+   "decision": "rejected: imprint entity is 'Alnatura Produktions- und Handels GmbH' ≠ label 'Alnatura GmbH'"
+  },
+  {
+   "domain": "www.amlacher.at",
+   "imprint_url": null,
+   "fetched_at": "2026-10-13T11:17:22Z",
+   "uids": [],
+   "fn": [],
+   "hrb": [],
+   "court": null,
+   "best": null,
+   "error": "no imprint page with register/VAT ids found (or robots-disallowed / JS-only)",
+   "company": "Amlacher Nudeln",
+   "accepted": false,
+   "decision": "no usable legal notice found (none / JS-only / robots / no ids)"
+  },
+  {
+   "domain": "www.andros.de",
+   "imprint_url": "https://andros.de/impressum/",
+   "fetched_at": "2026-10-13T11:26:34Z",
+   "uids": [
+    {
+     "uid": "DE111651973",
+     "valid": true,
+     "vies_name": null,
+     "vies_address": null,
+     "checked_at": "2026-10-13T11:26:37.675Z"
+    }
+   ],
+   "fn": [],
+   "hrb": [
+    "HRB 70104 US"
+   ],
+   "court": null,
+   "best": null,
+   "source": "public legal notice + EU VIES",
+   "company": "Andros Austria GmbH",
+   "accepted": false,
+   "decision": "no usable legal notice found (none / JS-only / robots / no ids)"
+  },
+  {
+   "domain": "www.bs-gastro.at",
+   "imprint_url": null,
+   "fetched_at": "2026-10-13T11:15:59Z",
+   "uids": [],
+   "fn": [],
+   "hrb": [],
+   "court": null,
+   "best": null,
+   "error": "no imprint page with register/VAT ids found (or robots-disallowed / JS-only)",
+   "company": "BS Gastro & Event Services GmbH",
+   "accepted": false,
+   "decision": "no usable legal notice found (none / JS-only / robots / no ids)"
+  },
+  {
+   "domain": "www.bauckhof.de",
+   "imprint_url": "https://www.bauckhof.de/impressum/",
+   "fetched_at": "2026-10-13T11:21:28Z",
+   "uids": [
+    {
+     "uid": "DE266835387",
+     "valid": true,
+     "vies_name": null,
+     "vies_address": null,
+     "checked_at": "2026-10-13T11:21:30.412Z",
+     "name_match": "on_page"
+    },
+    {
+     "uid": "DE269578802",
+     "valid": true,
+     "vies_name": null,
+     "vies_address": null,
+     "checked_at": "2026-10-13T11:21:32.605Z",
+     "name_match": "on_page"
+    }
+   ],
+   "fn": [],
+   "hrb": [
+    "HRB 202179",
+    "HRB 544"
+   ],
+   "court": "Bochum",
+   "best": {
+    "uid": "DE266835387",
+    "valid": true,
+    "vies_name": null,
+    "vies_address": null,
+    "checked_at": "2026-10-13T11:21:30.412Z",
+    "name_match": "on_page"
+   },
+   "source": "public legal notice + EU VIES",
+   "company": "Bauck GmbH",
+   "accepted": false,
+   "decision": "rejected: bauckhof.de imprint entity is 'Bauckhof GmbH' ≠ 'Bauck GmbH'"
+  },
+  {
+   "domain": "www.biogourmet.de",
+   "imprint_url": null,
+   "fetched_at": "2026-10-13T11:18:10Z",
+   "uids": [],
+   "fn": [],
+   "hrb": [],
+   "court": null,
+   "best": null,
+   "error": "no imprint page with register/VAT ids found (or robots-disallowed / JS-only)",
+   "company": "BioGourmet GmbH",
+   "accepted": false,
+   "decision": "no usable legal notice found (none / JS-only / robots / no ids)"
+  },
+  {
+   "domain": "www.brajlovic.at",
+   "imprint_url": "https://www.brajlovic.at/imprint",
+   "fetched_at": "2026-10-13T11:16:11Z",
+   "uids": [
+    {
+     "uid": "ATU57005537",
+     "valid": true,
+     "vies_name": "BRAJLOVIC GmbH",
+     "vies_address": "Laxenburger Straße 254\nAT-1230 Wien",
+     "checked_at": "2026-10-13T11:16:13.100Z",
+     "name_match": 1.0
+    }
+   ],
+   "fn": [
+    "FN 227894p"
+   ],
+   "hrb": [],
+   "court": null,
+   "best": {
+    "uid": "ATU57005537",
+    "valid": true,
+    "vies_name": "BRAJLOVIC GmbH",
+    "vies_address": "Laxenburger Straße 254\nAT-1230 Wien",
+    "checked_at": "2026-10-13T11:16:13.100Z",
+    "name_match": 1.0
+   },
+   "source": "public legal notice + EU VIES",
+   "company": "Brajlovic GmbH",
+   "accepted": true,
+   "decision": "uid verified (VIES valid + name match / DE: full legal name next to UID on page, reviewed)"
+  },
+  {
+   "domain": "www.carofratello.at",
+   "imprint_url": null,
+   "fetched_at": "2026-10-13T11:20:06Z",
+   "uids": [],
+   "fn": [],
+   "hrb": [],
+   "court": null,
+   "best": null,
+   "error": "no imprint page with register/VAT ids found (or robots-disallowed / JS-only)",
+   "company": "Caro Fratello GmbH",
+   "accepted": false,
+   "decision": "no usable legal notice found (none / JS-only / robots / no ids)"
+  },
+  {
+   "domain": "www.danone.at",
+   "imprint_url": null,
+   "fetched_at": "2026-10-13T11:20:57Z",
+   "uids": [],
+   "fn": [],
+   "hrb": [],
+   "court": null,
+   "best": null,
+   "error": "no imprint page with register/VAT ids found (or robots-disallowed / JS-only)",
+   "company": "Danone GmbH",
+   "accepted": false,
+   "decision": "no usable legal notice found (none / JS-only / robots / no ids)"
+  },
+  {
+   "domain": "www.deflorian.it",
+   "imprint_url": null,
+   "fetched_at": "2026-10-13T11:15:33Z",
+   "uids": [],
+   "fn": [],
+   "hrb": [],
+   "court": null,
+   "best": null,
+   "error": "no imprint page with register/VAT ids found (or robots-disallowed / JS-only)",
+   "company": "Deflorian S.r.l.",
+   "accepted": false,
+   "decision": "no usable legal notice found (none / JS-only / robots / no ids)"
+  },
+  {
+   "domain": "www.delamaris.si",
+   "imprint_url": null,
+   "fetched_at": "2026-10-13T11:17:43Z",
+   "uids": [],
+   "fn": [],
+   "hrb": [],
+   "court": null,
+   "best": null,
+   "error": "no imprint page with register/VAT ids found (or robots-disallowed / JS-only)",
+   "company": "Delamaris d.o.o.",
+   "accepted": false,
+   "decision": "no usable legal notice found (none / JS-only / robots / no ids)"
+  },
+  {
+   "domain": "www.delikatessa.at",
+   "imprint_url": null,
+   "fetched_at": "2026-10-13T11:22:12Z",
+   "uids": [],
+   "fn": [],
+   "hrb": [],
+   "court": null,
+   "best": null,
+   "error": "no imprint page with register/VAT ids found (or robots-disallowed / JS-only)",
+   "company": "Delikatessa GmbH",
+   "accepted": false,
+   "decision": "no usable legal notice found (none / JS-only / robots / no ids)"
+  },
+  {
+   "domain": "www.ehrenwort.at",
+   "imprint_url": "https://www.ehrenwort.at/pages/impressum",
+   "fetched_at": "2026-10-13T11:18:15Z",
+   "uids": [
+    {
+     "uid": "ATU71918856",
+     "valid": true,
+     "vies_name": "Ehrenwort GmbH",
+     "vies_address": "Stiftgasse 25/22\nAT-1070 Wien",
+     "checked_at": "2026-10-13T11:18:16.077Z",
+     "name_match": 1.0
+    }
+   ],
+   "fn": [
+    "FN 466066t"
+   ],
+   "hrb": [],
+   "court": null,
+   "best": {
+    "uid": "ATU71918856",
+    "valid": true,
+    "vies_name": "Ehrenwort GmbH",
+    "vies_address": "Stiftgasse 25/22\nAT-1070 Wien",
+    "checked_at": "2026-10-13T11:18:16.077Z",
+    "name_match": 1.0
+   },
+   "source": "public legal notice + EU VIES",
+   "company": "Ehrenwort GmbH",
+   "accepted": true,
+   "decision": "uid verified (VIES valid + name match / DE: full legal name next to UID on page, reviewed)"
+  },
+  {
+   "domain": "www.ehrmann.de",
+   "imprint_url": "https://www.ehrmann.de/impressum/",
+   "fetched_at": "2026-10-13T11:26:15Z",
+   "uids": [
+    {
+     "uid": "DE811249984",
+     "valid": true,
+     "vies_name": null,
+     "vies_address": null,
+     "checked_at": "2026-10-13T11:26:21.291Z",
+     "name_match": "on_page"
+    }
+   ],
+   "fn": [],
+   "hrb": [
+    "HRB 18947"
+   ],
+   "court": "Memmingen",
+   "best": {
+    "uid": "DE811249984",
+    "valid": true,
+    "vies_name": null,
+    "vies_address": null,
+    "checked_at": "2026-10-13T11:26:21.291Z",
+    "name_match": "on_page"
+   },
+   "source": "public legal notice + EU VIES",
+   "company": "Ehrmann GmbH",
+   "accepted": false,
+   "decision": "rejected: ehrmann.de imprint is an Aktiengesellschaft (HRB 18947 Memmingen), not 'Ehrmann GmbH'"
+  },
+  {
+   "domain": "every-foods.com",
+   "imprint_url": "https://every-foods.com/de/impressum",
+   "fetched_at": "2026-10-13T11:14:40Z",
+   "uids": [
+    {
+     "uid": "DE335586517",
+     "valid": true,
+     "vies_name": null,
+     "vies_address": null,
+     "checked_at": "2026-10-13T11:14:42.753Z",
+     "name_match": "on_page"
+    }
+   ],
+   "fn": [],
+   "hrb": [
+    "HRB 221768 B"
+   ],
+   "court": null,
+   "best": {
+    "uid": "DE335586517",
+    "valid": true,
+    "vies_name": null,
+    "vies_address": null,
+    "checked_at": "2026-10-13T11:14:42.753Z",
+    "name_match": "on_page"
+   },
+   "source": "public legal notice + EU VIES",
+   "company": "Every.GmbH",
+   "accepted": true,
+   "decision": "uid verified (VIES valid + name match / DE: full legal name next to UID on page, reviewed)",
+   "legal_name_imprint": "Every. GmbH"
+  },
+  {
+   "domain": "www.frosta-ag.com",
+   "imprint_url": "https://www.frosta-ag.com/service/impressum/",
+   "fetched_at": "2026-10-13T11:14:32Z",
+   "uids": [
+    {
+     "uid": "DE114703650",
+     "valid": true,
+     "vies_name": null,
+     "vies_address": null,
+     "checked_at": "2026-10-13T11:14:35.176Z",
+     "name_match": "on_page"
+    }
+   ],
+   "fn": [],
+   "hrb": [
+    "HRB 1100 BHV"
+   ],
+   "court": "Bremen",
+   "best": {
+    "uid": "DE114703650",
+    "valid": true,
+    "vies_name": null,
+    "vies_address": null,
+    "checked_at": "2026-10-13T11:14:35.176Z",
+    "name_match": "on_page"
+   },
+   "source": "public legal notice + EU VIES",
+   "company": "FRoSTA AG",
+   "accepted": true,
+   "decision": "uid verified (VIES valid + name match / DE: full legal name next to UID on page, reviewed)",
+   "legal_name_imprint": "FRoSTA AG"
+  },
+  {
+   "domain": "www.frosta.de",
+   "imprint_url": "https://www.frosta.de/impressum/",
+   "fetched_at": "2026-10-13T11:14:24Z",
+   "uids": [
+    {
+     "uid": "DE812378525",
+     "valid": true,
+     "vies_name": null,
+     "vies_address": null,
+     "checked_at": "2026-10-13T11:14:26.427Z",
+     "name_match": "on_page"
+    }
+   ],
+   "fn": [],
+   "hrb": [
+    "HRB 1845 BHV"
+   ],
+   "court": "Bremen",
+   "best": {
+    "uid": "DE812378525",
+    "valid": true,
+    "vies_name": null,
+    "vies_address": null,
+    "checked_at": "2026-10-13T11:14:26.427Z",
+    "name_match": "on_page"
+   },
+   "source": "public legal notice + EU VIES",
+   "company": "FRoSTA Tiefkühlkost GmbH",
+   "accepted": true,
+   "decision": "uid verified (VIES valid + name match / DE: full legal name next to UID on page, reviewed)",
+   "legal_name_imprint": "FRoSTA Tiefkühlkost GmbH"
+  },
+  {
+   "domain": "www.fit2go.at",
+   "imprint_url": null,
+   "fetched_at": "2026-10-13T11:14:16Z",
+   "uids": [],
+   "fn": [],
+   "hrb": [],
+   "court": null,
+   "best": null,
+   "error": "no imprint page with register/VAT ids found (or robots-disallowed / JS-only)",
+   "company": "Fit2go GmbH",
+   "accepted": false,
+   "decision": "no usable legal notice found (none / JS-only / robots / no ids)"
+  },
+  {
+   "domain": "www.galana.be",
+   "imprint_url": null,
+   "fetched_at": "2026-10-13T11:20:18Z",
+   "uids": [],
+   "fn": [],
+   "hrb": [],
+   "court": null,
+   "best": null,
+   "error": "no imprint page with register/VAT ids found (or robots-disallowed / JS-only)",
+   "company": "Galana NV / Beldessert",
+   "accepted": false,
+   "decision": "no usable legal notice found (none / JS-only / robots / no ids)"
+  },
+  {
+   "domain": "graninger-lebensmittel.at",
+   "imprint_url": "https://graninger-lebensmittel.at/impressum",
+   "fetched_at": "2026-10-13T11:17:48Z",
+   "uids": [
+    {
+     "uid": "ATU76281514",
+     "valid": true,
+     "vies_name": "Graninger GmbH",
+     "vies_address": "Schneebertsch-Gasse 3\nAT-6820 Frastanz",
+     "checked_at": "2026-10-13T11:17:49.494Z",
+     "name_match": 0.5
+    }
+   ],
+   "fn": [
+    "FN 546112g"
+   ],
+   "hrb": [],
+   "court": "Feldkirch",
+   "best": {
+    "uid": "ATU76281514",
+    "valid": true,
+    "vies_name": "Graninger GmbH",
+    "vies_address": "Schneebertsch-Gasse 3\nAT-6820 Frastanz",
+    "checked_at": "2026-10-13T11:17:49.494Z",
+    "name_match": 0.5
+   },
+   "source": "public legal notice + EU VIES",
+   "company": "Graninger Holding GmbH",
+   "accepted": false,
+   "decision": "rejected: VIES name 'Graninger GmbH' ≠ 'Graninger Holding GmbH'"
+  },
+  {
+   "domain": "gupuds.com",
+   "imprint_url": null,
+   "fetched_at": "2026-10-13T11:20:31Z",
+   "uids": [],
+   "fn": [],
+   "hrb": [],
+   "court": null,
+   "best": null,
+   "error": "no imprint page with register/VAT ids found (or robots-disallowed / JS-only)",
+   "company": "Gü Puds",
+   "accepted": false,
+   "decision": "no usable legal notice found (none / JS-only / robots / no ids)"
+  },
+  {
+   "domain": "www.hamker.de",
+   "imprint_url": "https://www.hamker.de/impressum",
+   "fetched_at": "2026-10-13T11:17:28Z",
+   "uids": [
+    {
+     "uid": "DE266009267",
+     "valid": true,
+     "vies_name": null,
+     "vies_address": null,
+     "checked_at": "2026-10-13T11:17:30.248Z",
+     "name_match": "on_page"
+    }
+   ],
+   "fn": [],
+   "hrb": [
+    "HRB 1747"
+   ],
+   "court": "Osnabrück",
+   "best": {
+    "uid": "DE266009267",
+    "valid": true,
+    "vies_name": null,
+    "vies_address": null,
+    "checked_at": "2026-10-13T11:17:30.248Z",
+    "name_match": "on_page"
+   },
+   "source": "public legal notice + EU VIES",
+   "company": "Hamker Vertriebsgesellschaft mbH",
+   "accepted": true,
+   "decision": "uid verified (VIES valid + name match / DE: full legal name next to UID on page, reviewed)",
+   "legal_name_imprint": "Hamker Vertriebsgesellschaft mbH"
+  },
+  {
+   "domain": "www.hammermuehle.de",
+   "imprint_url": null,
+   "fetched_at": "2026-10-13T11:16:32Z",
+   "uids": [],
+   "fn": [],
+   "hrb": [],
+   "court": null,
+   "best": null,
+   "error": "no imprint page with register/VAT ids found (or robots-disallowed / JS-only)",
+   "company": "Hammermühle GmbH",
+   "accepted": false,
+   "decision": "no usable legal notice found (none / JS-only / robots / no ids)"
+  },
+  {
+   "domain": "www.heiderbeck.de",
+   "imprint_url": "https://www.heiderbeck.de/impressum",
+   "fetched_at": "2026-10-13T11:20:34Z",
+   "uids": [
+    {
+     "uid": "DE128216097",
+     "valid": true,
+     "vies_name": null,
+     "vies_address": null,
+     "checked_at": "2026-10-13T11:20:37.129Z",
+     "name_match": "on_page"
+    }
+   ],
+   "fn": [],
+   "hrb": [
+    "HRB 49425"
+   ],
+   "court": "München",
+   "best": {
+    "uid": "DE128216097",
+    "valid": true,
+    "vies_name": null,
+    "vies_address": null,
+    "checked_at": "2026-10-13T11:20:37.129Z",
+    "name_match": "on_page"
+   },
+   "source": "public legal notice + EU VIES",
+   "company": "Heiderbeck",
+   "accepted": true,
+   "decision": "uid verified (VIES valid + name match / DE: full legal name next to UID on page, reviewed)",
+   "legal_name_imprint": "Heiderbeck GmbH"
+  },
+  {
+   "domain": "heiploeg.com",
+   "imprint_url": null,
+   "fetched_at": "2026-10-13T11:22:34Z",
+   "uids": [],
+   "fn": [],
+   "hrb": [],
+   "court": null,
+   "best": null,
+   "error": "no imprint page with register/VAT ids found (or robots-disallowed / JS-only)",
+   "company": "Heiploeg International B.V.",
+   "accepted": false,
+   "decision": "no usable legal notice found (none / JS-only / robots / no ids)"
+  },
+  {
+   "domain": "www.gruenkraft.at",
+   "imprint_url": null,
+   "fetched_at": "2026-10-13T11:18:38Z",
+   "uids": [],
+   "fn": [],
+   "hrb": [],
+   "court": null,
+   "best": null,
+   "error": "no imprint page with register/VAT ids found (or robots-disallowed / JS-only)",
+   "company": "Hildegard-Grünkraft Naturprodukte",
+   "accepted": false,
+   "decision": "no usable legal notice found (none / JS-only / robots / no ids)"
+  },
+  {
+   "domain": "hink.wien",
+   "imprint_url": "https://hink.wien/policies/legal-notice",
+   "fetched_at": "2026-10-13T11:15:26Z",
+   "uids": [
+    {
+     "uid": "ATU63304846",
+     "valid": true,
+     "vies_name": "Hink GmbH",
+     "vies_address": "Otto Beyschlag-Gasse 3\nAT-1210 Wien",
+     "checked_at": "2026-10-13T11:15:27.735Z",
+     "name_match": 1.0
+    }
+   ],
+   "fn": [
+    "FN 290492w"
+   ],
+   "hrb": [],
+   "court": null,
+   "best": {
+    "uid": "ATU63304846",
+    "valid": true,
+    "vies_name": "Hink GmbH",
+    "vies_address": "Otto Beyschlag-Gasse 3\nAT-1210 Wien",
+    "checked_at": "2026-10-13T11:15:27.735Z",
+    "name_match": 1.0
+   },
+   "source": "public legal notice + EU VIES",
+   "company": "Hink GmbH",
+   "accepted": true,
+   "decision": "uid verified (VIES valid + name match / DE: full legal name next to UID on page, reviewed)"
+  },
+  {
+   "domain": "www.hochreiter-gruppe.at",
+   "imprint_url": "https://www.hochreiter-gruppe.at/impressum/",
+   "fetched_at": "2026-10-13T11:21:08Z",
+   "uids": [
+    {
+     "uid": "ATU58071589",
+     "valid": true,
+     "vies_name": "Hochreiter Lebensmittelbetriebe GmbH",
+     "vies_address": "Mitterweg 9\nAT-4190 Bad Leonfelden",
+     "checked_at": "2026-10-13T11:21:10.061Z",
+     "name_match": 0.2
+    }
+   ],
+   "fn": [
+    "FN 182215p"
+   ],
+   "hrb": [],
+   "court": null,
+   "best": null,
+   "source": "public legal notice + EU VIES",
+   "company": "Hochreiter Quality Meat Factory GmbH",
+   "accepted": false,
+   "decision": "rejected: imprint UID belongs to Hochreiter Lebensmittelbetriebe GmbH"
+  },
+  {
+   "domain": "huberslandhendl.at",
+   "imprint_url": "https://huberslandhendl.at/impressum",
+   "fetched_at": "2026-10-13T11:18:08Z",
+   "uids": [
+    {
+     "uid": "ATU64592934",
+     "valid": true,
+     "vies_name": "Hubers Landhendl GmbH",
+     "vies_address": "Hauptstraße 80\nAT-5223 Pfaffstätt",
+     "checked_at": "2026-10-13T11:18:09.510Z",
+     "name_match": 1.0
+    }
+   ],
+   "fn": [
+    "FN 320698s"
+   ],
+   "hrb": [],
+   "court": "Ried im Innkreis",
+   "best": {
+    "uid": "ATU64592934",
+    "valid": true,
+    "vies_name": "Hubers Landhendl GmbH",
+    "vies_address": "Hauptstraße 80\nAT-5223 Pfaffstätt",
+    "checked_at": "2026-10-13T11:18:09.510Z",
+    "name_match": 1.0
+   },
+   "source": "public legal notice + EU VIES",
+   "company": "Hubers Landhendl GmbH",
+   "accepted": true,
+   "decision": "uid verified (VIES valid + name match / DE: full legal name next to UID on page, reviewed)"
+  },
+  {
+   "domain": "www.inzersdorfer.at",
+   "imprint_url": "https://www.inzersdorfer.at/impressum/",
+   "fetched_at": "2026-10-13T11:19:54Z",
+   "uids": [
+    {
+     "uid": "ATU61613203",
+     "valid": true,
+     "vies_name": "MARESI Austria GmbH",
+     "vies_address": "Hietzinger Hauptstraße 119 - 121\nAT-1130 Wien",
+     "checked_at": "2026-10-13T11:19:55.179Z",
+     "name_match": 0.0
+    }
+   ],
+   "fn": [
+    "FN 161846i"
+   ],
+   "hrb": [],
+   "court": "Wien",
+   "best": null,
+   "source": "public legal notice + EU VIES",
+   "company": "Inzersdorfer Nahrungsmittelwerke",
+   "accepted": false,
+   "decision": "rejected: imprint UID belongs to MARESI Austria GmbH (brand owner, already listed)"
+  },
+  {
+   "domain": "www.janatuerlich.at",
+   "imprint_url": "https://www.janatuerlich.at/impressum/",
+   "fetched_at": "2026-10-13T11:15:04Z",
+   "uids": [
+    {
+     "uid": "ATU43248507",
+     "valid": true,
+     "vies_name": "\"JA! NATÜRLICH\" Naturprodukte Gesellschaft m.b.H.",
+     "vies_address": "IZ NÖ-Süd Str 3 Obj 16\nAT-2355 Wiener Neudorf",
+     "checked_at": "2026-10-13T11:15:05.064Z",
+     "name_match": 1.0
+    }
+   ],
+   "fn": [
+    "FN 113231t"
+   ],
+   "hrb": [],
+   "court": "Wiener Neustadt",
+   "best": {
+    "uid": "ATU43248507",
+    "valid": true,
+    "vies_name": "\"JA! NATÜRLICH\" Naturprodukte Gesellschaft m.b.H.",
+    "vies_address": "IZ NÖ-Süd Str 3 Obj 16\nAT-2355 Wiener Neudorf",
+    "checked_at": "2026-10-13T11:15:05.064Z",
+    "name_match": 1.0
+   },
+   "source": "public legal notice + EU VIES",
+   "company": "Ja! Natürlich Naturprodukte Gesellschaft m.b.H.",
+   "accepted": true,
+   "decision": "uid verified (VIES valid + name match / DE: full legal name next to UID on page, reviewed)"
+  },
+  {
+   "domain": "www.kasnudl.at",
+   "imprint_url": "https://www.kasnudl.at/impressum",
+   "fetched_at": "2026-10-13T11:15:00Z",
+   "uids": [
+    {
+     "uid": "ATU83103945",
+     "valid": true,
+     "vies_name": "Knödelhütte GmbH",
+     "vies_address": "Barbara-Prammer-Allee 15/1/1A\nAT-1220 Wien",
+     "checked_at": "2026-10-13T11:15:05.498Z",
+     "name_match": 0.0
+    }
+   ],
+   "fn": [
+    "FN 675365i"
+   ],
+   "hrb": [],
+   "court": "Wien",
+   "best": null,
+   "source": "public legal notice + EU VIES",
+   "company": "Kasnudl GmbH",
+   "accepted": false,
+   "decision": "rejected: imprint UID belongs to Knödelhütte GmbH"
+  },
+  {
+   "domain": "www.knoedelwerkstatt.at",
+   "imprint_url": null,
+   "fetched_at": "2026-10-13T11:19:21Z",
+   "uids": [],
+   "fn": [],
+   "hrb": [],
+   "court": null,
+   "best": null,
+   "error": "no imprint page with register/VAT ids found (or robots-disallowed / JS-only)",
+   "company": "Knödelwerkstatt G.m.b.H",
+   "accepted": false,
+   "decision": "no usable legal notice found (none / JS-only / robots / no ids)"
+  },
+  {
+   "domain": "lotao.com",
+   "imprint_url": "https://lotao.com/policies/legal-notice",
+   "fetched_at": "2026-10-13T11:18:15Z",
+   "uids": [
+    {
+     "uid": "DE274183260",
+     "valid": true,
+     "vies_name": null,
+     "vies_address": null,
+     "checked_at": "2026-10-13T11:18:18.071Z",
+     "name_match": "on_page"
+    }
+   ],
+   "fn": [],
+   "hrb": [
+    "HRB 129814 B"
+   ],
+   "court": "Berlin-Charlottenburg",
+   "best": {
+    "uid": "DE274183260",
+    "valid": true,
+    "vies_name": null,
+    "vies_address": null,
+    "checked_at": "2026-10-13T11:18:18.071Z",
+    "name_match": "on_page"
+   },
+   "source": "public legal notice + EU VIES",
+   "company": "LPP Lotao GmbH",
+   "accepted": true,
+   "decision": "uid verified (VIES valid + name match / DE: full legal name next to UID on page, reviewed)",
+   "legal_name_imprint": "LPP Lotao Pack- und Produktions GmbH"
+  },
+  {
+   "domain": "www.cecchin.it",
+   "imprint_url": null,
+   "fetched_at": "2026-10-13T11:15:30Z",
+   "uids": [],
+   "fn": [],
+   "hrb": [],
+   "court": null,
+   "best": null,
+   "error": "no imprint page with register/VAT ids found (or robots-disallowed / JS-only)",
+   "company": "Laboratorio Alimentare Cecchin Andrea e Carlo srl",
+   "accepted": false,
+   "decision": "no usable legal notice found (none / JS-only / robots / no ids)"
+  },
+  {
+   "domain": "www.landliebe.de",
+   "imprint_url": "https://www.landliebe.de/impressum/",
+   "fetched_at": "2026-10-13T11:16:26Z",
+   "uids": [
+    {
+     "uid": "DE354065580",
+     "valid": true,
+     "vies_name": null,
+     "vies_address": null,
+     "checked_at": "2026-10-13T11:16:28.824Z",
+     "name_match": "on_page"
+    }
+   ],
+   "fn": [],
+   "hrb": [
+    "HRB 37578"
+   ],
+   "court": "Augsburg",
+   "best": {
+    "uid": "DE354065580",
+    "valid": true,
+    "vies_name": null,
+    "vies_address": null,
+    "checked_at": "2026-10-13T11:16:28.824Z",
+    "name_match": "on_page"
+   },
+   "source": "public legal notice + EU VIES",
+   "company": "Landliebe GmbH",
+   "accepted": true,
+   "decision": "uid verified (VIES valid + name match / DE: full legal name next to UID on page, reviewed)",
+   "legal_name_imprint": "Landliebe GmbH"
+  },
+  {
+   "domain": "www.landtmann.at",
+   "imprint_url": "http://www.landtmann.at/impressum/",
+   "fetched_at": "2026-10-13T11:17:38Z",
+   "uids": [
+    {
+     "uid": "ATU15679709",
+     "valid": true,
+     "vies_name": "Querfeld's Wiener Kaffeehaus Ges.m.b.H",
+     "vies_address": "Universitätsring 4\nAT-1010 Wien",
+     "checked_at": "2026-10-13T11:17:39.186Z",
+     "name_match": 0.0
+    }
+   ],
+   "fn": [
+    "FN 111709d"
+   ],
+   "hrb": [],
+   "court": null,
+   "best": null,
+   "source": "public legal notice + EU VIES",
+   "company": "Landtmann´s feine Patisserie",
+   "accepted": false,
+   "decision": "rejected: imprint UID/FN belong to Querfeld's Wiener Kaffeehaus Ges.m.b.H"
+  },
+  {
+   "domain": "www.lidl.at",
+   "imprint_url": "https://www.lidl.at/c/impressum/s10011983",
+   "fetched_at": "2026-10-13T11:20:01Z",
+   "uids": [
+    {
+     "uid": "ATU37893801",
+     "valid": true,
+     "vies_name": "Lidl Österreich GmbH",
+     "vies_address": "Unter der Leiten 11\nAT-5020 Salzburg",
+     "checked_at": "2026-10-13T11:20:02.939Z",
+     "name_match": 1.0
+    },
+    {
+     "uid": "DE145803808",
+     "valid": true,
+     "vies_name": null,
+     "vies_address": null,
+     "checked_at": "2026-10-13T11:20:05.978Z"
+    }
+   ],
+   "fn": [
+    "FN 131556s"
+   ],
+   "hrb": [
+    "HRA 102314",
+    "HRB 105671"
+   ],
+   "court": null,
+   "best": {
+    "uid": "ATU37893801",
+    "valid": true,
+    "vies_name": "Lidl Österreich GmbH",
+    "vies_address": "Unter der Leiten 11\nAT-5020 Salzburg",
+    "checked_at": "2026-10-13T11:20:02.939Z",
+    "name_match": 1.0
+   },
+   "source": "public legal notice + EU VIES",
+   "company": "Lidl Österreich GmbH",
+   "accepted": true,
+   "decision": "uid verified (VIES valid + name match / DE: full legal name next to UID on page, reviewed); court regex hit 'Stuttgart' (German group entity on same page) -> not stored"
+  },
+  {
+   "domain": "www.morgentau.at",
+   "imprint_url": "https://morgentau.at/impressum",
+   "fetched_at": "2026-10-13T11:16:06Z",
+   "uids": [
+    {
+     "uid": "ATU38485402",
+     "valid": true,
+     "vies_name": "MORGENTAU Biogemüse GmbH",
+     "vies_address": "Winkling 2\nAT-4492 Hofkirchen/Traunkreis",
+     "checked_at": "2026-10-13T11:16:07.510Z",
+     "name_match": 1.0
+    }
+   ],
+   "fn": [],
+   "hrb": [],
+   "court": null,
+   "best": {
+    "uid": "ATU38485402",
+    "valid": true,
+    "vies_name": "MORGENTAU Biogemüse GmbH",
+    "vies_address": "Winkling 2\nAT-4492 Hofkirchen/Traunkreis",
+    "checked_at": "2026-10-13T11:16:07.510Z",
+    "name_match": 1.0
+   },
+   "source": "public legal notice + EU VIES",
+   "company": "MORGENTAU Biogemüse GmbH",
+   "accepted": true,
+   "decision": "uid verified (VIES valid + name match / DE: full legal name next to UID on page, reviewed)"
+  },
+  {
+   "domain": "www.meica.de",
+   "imprint_url": "https://www.meica.de/impressum",
+   "fetched_at": "2026-10-13T11:19:29Z",
+   "uids": [
+    {
+     "uid": "DE117832698",
+     "valid": true,
+     "vies_name": null,
+     "vies_address": null,
+     "checked_at": "2026-10-13T11:19:31.408Z",
+     "name_match": "on_page"
+    }
+   ],
+   "fn": [],
+   "hrb": [],
+   "court": "Oldenburg",
+   "best": {
+    "uid": "DE117832698",
+    "valid": true,
+    "vies_name": null,
+    "vies_address": null,
+    "checked_at": "2026-10-13T11:19:31.408Z",
+    "name_match": "on_page"
+   },
+   "source": "public legal notice + EU VIES",
+   "company": "Meica GmbH",
+   "accepted": false,
+   "decision": "rejected: imprint entity is 'Meica Ammerländische Fleischwarenfabrik Fritz Meinen GmbH & Co. KG' (legal form differs from label)"
+  },
+  {
+   "domain": "www.mochi.at",
+   "imprint_url": "https://www.mochi.at/impressum/",
+   "fetched_at": "2026-10-13T11:14:46Z",
+   "uids": [
+    {
+     "uid": "ATU68127902",
+     "valid": true,
+     "vies_name": "Mochi GmbH",
+     "vies_address": "Praterstraße 16/5\nAT-1020 Wien",
+     "checked_at": "2026-10-13T11:14:47.408Z",
+     "name_match": 0.5
+    }
+   ],
+   "fn": [
+    "FN 400338h"
+   ],
+   "hrb": [],
+   "court": "WIEN",
+   "best": {
+    "uid": "ATU68127902",
+    "valid": true,
+    "vies_name": "Mochi GmbH",
+    "vies_address": "Praterstraße 16/5\nAT-1020 Wien",
+    "checked_at": "2026-10-13T11:14:47.408Z",
+    "name_match": 0.5
+   },
+   "source": "public legal notice + EU VIES",
+   "company": "Mochi Production GmbH",
+   "accepted": false,
+   "decision": "rejected: VIES name 'Mochi GmbH' (restaurant operator) ≠ label entity 'Mochi Production GmbH'"
+  },
+  {
+   "domain": "www.muellermilch.de",
+   "imprint_url": null,
+   "fetched_at": "2026-10-13T11:19:27Z",
+   "uids": [],
+   "fn": [],
+   "hrb": [],
+   "court": null,
+   "best": null,
+   "error": "no imprint page with register/VAT ids found (or robots-disallowed / JS-only)",
+   "company": "Molkerei Alois Müller GmbH & Co. KG",
+   "accepted": false,
+   "decision": "no usable legal notice found (none / JS-only / robots / no ids)"
+  },
+  {
+   "domain": "www.penny.at",
+   "imprint_url": "https://www.penny.at/impressum",
+   "fetched_at": "2026-10-13T11:19:10Z",
+   "uids": [],
+   "fn": [
+    "FN 160330f"
+   ],
+   "hrb": [],
+   "court": "Wiener Neustadt",
+   "best": null,
+   "source": "public legal notice + EU VIES",
+   "company": "PENNY GmbH",
+   "accepted": true,
+   "fn_only": true,
+   "decision": "fn from own legal notice: 'PENNY GmbH … Firmenbuchnummer: FN 160330f, Firmenbuchgericht: Landesgericht Wiener Neustadt' on page; no UID printed"
+  },
+  {
+   "domain": "www.plantbasedpower.at",
+   "imprint_url": null,
+   "fetched_at": "2026-10-13T11:16:52Z",
+   "uids": [],
+   "fn": [],
+   "hrb": [],
+   "court": null,
+   "best": null,
+   "error": "no imprint page with register/VAT ids found (or robots-disallowed / JS-only)",
+   "company": "PLANT BASED POWER GmbH",
+   "accepted": false,
+   "decision": "no usable legal notice found (none / JS-only / robots / no ids)"
+  },
+  {
+   "domain": "www.planted.de",
+   "imprint_url": null,
+   "fetched_at": "2026-10-13T11:18:36Z",
+   "uids": [],
+   "fn": [],
+   "hrb": [],
+   "court": null,
+   "best": null,
+   "error": "no imprint page with register/VAT ids found (or robots-disallowed / JS-only)",
+   "company": "Planted Foods GmbH",
+   "accepted": false,
+   "decision": "no usable legal notice found (none / JS-only / robots / no ids)"
+  },
+  {
+   "domain": "revo-foods.com",
+   "imprint_url": "https://revo-foods.com/imprint/",
+   "fetched_at": "2026-10-13T11:19:37Z",
+   "uids": [
+    {
+     "uid": "ATU76495712",
+     "valid": true,
+     "vies_name": "Revo Foods GmbH",
+     "vies_address": "Neudeggergasse 13\nAT-1080 Wien",
+     "checked_at": "2026-10-13T11:19:38.236Z",
+     "name_match": 1.0
+    }
+   ],
+   "fn": [
+    "FN 550473w"
+   ],
+   "hrb": [],
+   "court": null,
+   "best": {
+    "uid": "ATU76495712",
+    "valid": true,
+    "vies_name": "Revo Foods GmbH",
+    "vies_address": "Neudeggergasse 13\nAT-1080 Wien",
+    "checked_at": "2026-10-13T11:19:38.236Z",
+    "name_match": 1.0
+   },
+   "source": "public legal notice + EU VIES",
+   "company": "Revo Foods",
+   "accepted": true,
+   "decision": "uid verified (VIES valid + name match / DE: full legal name next to UID on page, reviewed)"
+  },
+  {
+   "domain": "www.rewe-group.at",
+   "imprint_url": "https://rewe-group.at/de/impressum/",
+   "fetched_at": "2026-10-13T11:16:10Z",
+   "uids": [
+    {
+     "uid": "ATU41898906",
+     "valid": true,
+     "vies_name": "REWE International AG",
+     "vies_address": "Industriezentrum NÖ-Süd,Str 3\nAT-2355 Wiener Neudorf",
+     "checked_at": "2026-10-13T11:16:11.757Z",
+     "name_match": 0.25
+    }
+   ],
+   "fn": [
+    "FN 82769w"
+   ],
+   "hrb": [],
+   "court": "Wiener Neustadt",
+   "best": null,
+   "source": "public legal notice + EU VIES",
+   "company": "Rewe Austria Fleischwaren GmbH",
+   "accepted": false,
+   "decision": "rejected: rewe-group.at imprint = REWE International AG (FN 82769w), not the subsidiary"
+  },
+  {
+   "domain": "www.rewe-group.at",
+   "imprint_url": "https://rewe-group.at/de/impressum/",
+   "fetched_at": "2026-10-13T11:21:20Z",
+   "uids": [
+    {
+     "uid": "ATU41898906",
+     "valid": true,
+     "vies_name": "REWE International AG",
+     "vies_address": "Industriezentrum NÖ-Süd,Str 3\nAT-2355 Wiener Neudorf",
+     "checked_at": "2026-10-13T11:21:21.474Z",
+     "name_match": 0.25
+    }
+   ],
+   "fn": [
+    "FN 82769w"
+   ],
+   "hrb": [],
+   "court": "Wiener Neustadt",
+   "best": null,
+   "source": "public legal notice + EU VIES",
+   "company": "Rewe Austria Genussküche GmbH",
+   "accepted": false,
+   "decision": "rejected: rewe-group.at imprint = REWE International AG (FN 82769w), not the subsidiary"
+  },
+  {
+   "domain": "www.rila.de",
+   "imprint_url": "https://rila.de/bequem-einkaufen/impressum/",
+   "fetched_at": "2026-10-13T11:18:42Z",
+   "uids": [
+    {
+     "uid": "DE125751033",
+     "valid": true,
+     "vies_name": null,
+     "vies_address": null,
+     "checked_at": "2026-10-13T11:18:44.643Z",
+     "name_match": "on_page"
+    }
+   ],
+   "fn": [],
+   "hrb": [
+    "HRA 5874"
+   ],
+   "court": "Bad Oeynhausen",
+   "best": {
+    "uid": "DE125751033",
+    "valid": true,
+    "vies_name": null,
+    "vies_address": null,
+    "checked_at": "2026-10-13T11:18:44.643Z",
+    "name_match": "on_page"
+   },
+   "source": "public legal notice + EU VIES",
+   "company": "Rila. Die Genussentdecker.®",
+   "accepted": true,
+   "decision": "uid verified (VIES valid + name match / DE: full legal name next to UID on page, reviewed)",
+   "legal_name_imprint": "RILA Feinkost-Importe GmbH & Co. KG"
+  },
+  {
+   "domain": "www.stangl-nudeln.at",
+   "imprint_url": null,
+   "fetched_at": "2026-10-13T11:15:47Z",
+   "uids": [],
+   "fn": [],
+   "hrb": [],
+   "court": null,
+   "best": null,
+   "error": "no imprint page with register/VAT ids found (or robots-disallowed / JS-only)",
+   "company": "Stangl Teigwaren GmbH",
+   "accepted": false,
+   "decision": "no usable legal notice found (none / JS-only / robots / no ids)"
+  },
+  {
+   "domain": "www.strauss-gmbh.at",
+   "imprint_url": null,
+   "fetched_at": "2026-10-13T11:19:46Z",
+   "uids": [],
+   "fn": [],
+   "hrb": [],
+   "court": null,
+   "best": null,
+   "error": "no imprint page with register/VAT ids found (or robots-disallowed / JS-only)",
+   "company": "Strauss GmbH",
+   "accepted": false,
+   "decision": "no usable legal notice found (none / JS-only / robots / no ids)"
+  },
+  {
+   "domain": "www.unilever.at",
+   "imprint_url": null,
+   "fetched_at": "2026-10-13T11:14:16Z",
+   "uids": [],
+   "fn": [],
+   "hrb": [],
+   "court": null,
+   "best": null,
+   "error": "no imprint page with register/VAT ids found (or robots-disallowed / JS-only)",
+   "company": "Unilever Austria GmbH",
+   "accepted": false,
+   "decision": "no usable legal notice found (none / JS-only / robots / no ids)"
+  },
+  {
+   "domain": "www.wech.at",
+   "imprint_url": "https://www.wech.at/impressum",
+   "fetched_at": "2026-10-13T11:19:44Z",
+   "uids": [
+    {
+     "uid": "ATU47685303",
+     "valid": true,
+     "vies_name": "Wech-Geflügel Gesellschaft m.b.H.",
+     "vies_address": "Kollegg 8\nAT-9433 St.Andrä",
+     "checked_at": "2026-10-13T11:19:45.845Z",
+     "name_match": 1.0
+    },
+    {
+     "uid": "ATU39786102",
+     "valid": true,
+     "vies_name": "Wech-Kärntner Truthahnverarbeitung GmbH",
+     "vies_address": "Glanegg 7\nAT-9555 Glanegg",
+     "checked_at": "2026-10-13T11:19:47.014Z",
+     "name_match": 0.25
+    }
+   ],
+   "fn": [],
+   "hrb": [],
+   "court": "Klagenfurt",
+   "best": {
+    "uid": "ATU47685303",
+    "valid": true,
+    "vies_name": "Wech-Geflügel Gesellschaft m.b.H.",
+    "vies_address": "Kollegg 8\nAT-9433 St.Andrä",
+    "checked_at": "2026-10-13T11:19:45.845Z",
+    "name_match": 1.0
+   },
+   "source": "public legal notice + EU VIES",
+   "company": "Wech-Geflügel GmbH",
+   "accepted": true,
+   "decision": "uid verified (VIES valid + name match / DE: full legal name next to UID on page, reviewed)"
+  },
+  {
+   "domain": "www.whollees.com",
+   "imprint_url": null,
+   "fetched_at": "2026-10-13T11:19:04Z",
+   "uids": [],
+   "fn": [],
+   "hrb": [],
+   "court": null,
+   "best": null,
+   "error": "no imprint page with register/VAT ids found (or robots-disallowed / JS-only)",
+   "company": "Whollees GmbH",
+   "accepted": false,
+   "decision": "no usable legal notice found (none / JS-only / robots / no ids)"
+  },
+  {
+   "domain": "www.wiesbauer-gourmet.at",
+   "imprint_url": "https://www.wiesbauer-gourmet.at/impressum",
+   "fetched_at": "2026-10-13T11:16:18Z",
+   "uids": [
+    {
+     "uid": "ATU20162703",
+     "valid": true,
+     "vies_name": "Wiesbauer Gourmet Gastro GmbH",
+     "vies_address": "Wiesbauer Straße 1\nAT-3454 Sitzenberg-Reidling",
+     "checked_at": "2026-10-13T11:16:19.859Z",
+     "name_match": 1.0
+    }
+   ],
+   "fn": [
+    "FN 98447a"
+   ],
+   "hrb": [],
+   "court": "Wien",
+   "best": {
+    "uid": "ATU20162703",
+    "valid": true,
+    "vies_name": "Wiesbauer Gourmet Gastro GmbH",
+    "vies_address": "Wiesbauer Straße 1\nAT-3454 Sitzenberg-Reidling",
+    "checked_at": "2026-10-13T11:16:19.859Z",
+    "name_match": 1.0
+   },
+   "source": "public legal notice + EU VIES",
+   "company": "Wiesbauer Gourmet Gastro GmbH",
+   "accepted": true,
+   "decision": "uid verified (VIES valid + name match / DE: full legal name next to UID on page, reviewed)"
+  },
+  {
+   "domain": "www.blasko.at",
+   "imprint_url": "https://www.blasko.at/impressum",
+   "fetched_at": "2026-10-13T11:17:43Z",
+   "uids": [],
+   "fn": [
+    "FN 74665b"
+   ],
+   "hrb": [],
+   "court": "Leoben",
+   "best": null,
+   "source": "public legal notice + EU VIES",
+   "company": "Wilhelm Blasko CONVENIENCE-Fertiggerichte GmbH",
+   "accepted": true,
+   "fn_only": true,
+   "decision": "fn from own legal notice: 'Wilhelm Blasko Convenience Fertiggerichte GmbH … Firmenbuchnummer: FN74665b, Firmenbuchgericht: Leoben' on page; no UID printed"
+  },
+  {
+   "domain": "www.youcook.at",
+   "imprint_url": null,
+   "fetched_at": "2026-10-13T11:14:56Z",
+   "uids": [],
+   "fn": [],
+   "hrb": [],
+   "court": null,
+   "best": null,
+   "error": "no imprint page with register/VAT ids found (or robots-disallowed / JS-only)",
+   "company": "YOUCOOK GmbH",
+   "accepted": false,
+   "decision": "no usable legal notice found (none / JS-only / robots / no ids)"
+  },
+  {
+   "domain": "www.zumdorfkrug.de",
+   "imprint_url": null,
+   "fetched_at": "2026-10-13T11:21:36Z",
+   "uids": [],
+   "fn": [],
+   "hrb": [],
+   "court": null,
+   "best": null,
+   "error": "no imprint page with register/VAT ids found (or robots-disallowed / JS-only)",
+   "company": "Zum Dorfkrug Produktions- und Handelsgesellschaft mbH & Co. KG",
+   "accepted": false,
+   "decision": "no usable legal notice found (none / JS-only / robots / no ids)"
+  },
+  {
+   "domain": "www.iglo.at/impressum",
+   "imprint_url": null,
+   "fetched_at": "2026-10-13T11:14:18Z",
+   "uids": [],
+   "fn": [],
+   "hrb": [],
+   "court": null,
+   "best": null,
+   "error": "no imprint page with register/VAT ids found (or robots-disallowed / JS-only)",
+   "company": "iglo Austria GmbH",
+   "accepted": false,
+   "decision": "no usable legal notice found (none / JS-only / robots / no ids)"
+  },
+  {
+   "domain": "www.iglo.de",
+   "imprint_url": "https://www.iglo.de/impressum/index.html",
+   "fetched_at": "2026-10-13T11:15:37Z",
+   "uids": [
+    {
+     "uid": "DE174931757",
+     "valid": true,
+     "vies_name": null,
+     "vies_address": null,
+     "checked_at": "2026-10-13T11:15:39.771Z",
+     "name_match": "on_page"
+    }
+   ],
+   "fn": [],
+   "hrb": [
+    "HRB 97746"
+   ],
+   "court": null,
+   "best": {
+    "uid": "DE174931757",
+    "valid": true,
+    "vies_name": null,
+    "vies_address": null,
+    "checked_at": "2026-10-13T11:15:39.771Z",
+    "name_match": "on_page"
+   },
+   "source": "public legal notice + EU VIES",
+   "company": "iglo GmbH",
+   "accepted": true,
+   "decision": "uid verified (VIES valid + name match / DE: full legal name next to UID on page, reviewed)",
+   "legal_name_imprint": "iglo GmbH"
+  }
+ ]
+}

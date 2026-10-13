@@ -1,5 +1,5 @@
 """CI-free validation. Uses `frictionless validate datapackage.json` if installed, plus own plausibility rules. Exit 1 on error."""
-import csv, json, os, sys, shutil, subprocess
+import re, csv, json, os, sys, shutil, subprocess
 R = os.path.dirname(os.path.dirname(os.path.abspath(__file__))); err = []; warn = []
 pkg = json.load(open(f"{R}/datapackage.json"))
 tab = {r["name"]: list(csv.DictReader(open(f"{R}/{r['path']}"))) for r in pkg["resources"]}
@@ -22,6 +22,8 @@ for x in tab["nutrition"]:
         if x[k] and not (0 <= float(x[k]) <= hi): err.append(f"nutrition {k} implausible {x['product_id']}={x[k]}")
 for x in tab.get("companies", []):
     if x["lei"] and len(x["lei"]) != 20: err.append(f"bad LEI {x['slug']}")
+    if x.get("uid") and not re.fullmatch(r"(ATU\d{8}|DE\d{9}|IT\d{11}|[A-Z]{2}[0-9A-Z]{8,12})", x["uid"]): err.append(f"bad UID {x['slug']}")
+    if x.get("fn") and not re.fullmatch(r"FN \d{1,6}[a-z]", x["fn"]): err.append(f"bad FN {x['slug']} {x['fn']}")
 if shutil.which("frictionless"):
     p = subprocess.run(["frictionless", "validate", f"{R}/datapackage.json"], capture_output=True, text=True)
     if p.returncode: err.append("frictionless: " + p.stdout[-800:])

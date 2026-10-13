@@ -142,6 +142,38 @@
      {
       "name": "plants_count",
       "type": "integer"
+     },
+     {
+      "name": "uid",
+      "type": "string"
+     },
+     {
+      "name": "uid_vies_name",
+      "type": "string"
+     },
+     {
+      "name": "uid_vies_address",
+      "type": "string"
+     },
+     {
+      "name": "uid_checked_at",
+      "type": "string"
+     },
+     {
+      "name": "imprint_url",
+      "type": "string"
+     },
+     {
+      "name": "register_court",
+      "type": "string"
+     },
+     {
+      "name": "hrb",
+      "type": "string"
+     },
+     {
+      "name": "registry_status",
+      "type": "string"
      }
     ],
     "primaryKey": "slug"

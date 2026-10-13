@@ -3,7 +3,7 @@
 Automatisch aus `datapackage.json` + Beschreibungen. Leere Felder = nicht verifiziert.
 
 ## companies
-Rechtsträger aus GLEIF/Firmenbuch inkl. Konzernmutter
+Rechtsträger aus GLEIF/Firmenbuch inkl. Konzernmutter; ergänzt um FN/UID aus öffentlichen Impressen (UID via EU VIES geprüft, Evidenz `raw/impressum_vies_*.json`)
 
 | Feld | Typ | Beschreibung |
 |---|---|---|
@@ -33,6 +33,14 @@ Rechtsträger aus GLEIF/Firmenbuch inkl. Konzernmutter
 | brands | string |  |
 | chains | string |  |
 | plants_count | integer |  |
+| uid | string | EU-UID/VAT-Nr. aus dem Impressum, live via EU VIES geprüft (gültig + Name passt) |
+| uid_vies_name | string | In VIES registrierter Name (AT; DE liefert keinen Namen) |
+| uid_vies_address | string | In VIES registrierte Adresse |
+| uid_checked_at | string | Zeitpunkt der VIES-Prüfung |
+| imprint_url | string | Quelle: Impressum/Offenlegung der Firma |
+| register_court | string | Firmenbuch-/Registergericht laut Impressum |
+| hrb | string | Deutsche Handelsregisternummer laut Impressum |
+| registry_status | string | verified_gleif | verified_gleif+vies | verified_vies_imprint | fn_from_imprint | not_found_in_gleif |
 
 ## establishments
 Statistik Austria / ÖVIS Liste zugelassener Betriebe

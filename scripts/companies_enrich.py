@@ -2,7 +2,7 @@
 already-researched facts (producer_profiles.json) and plants (companies.json, Statistik Austria approval list).
 Writes data/companies.json + data/companies.csv. Only verified registry hits are stored (match_score>=0.5)."""
 import json, re, sys, os, csv, collections, statistics
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__)))); sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from food_connectors.company import registries as R
 SRC = os.environ.get("FERTIG_SRC", "/workspace/fertig")
 APP = os.environ.get("FERTIG_APP", "/workspace/fertig-app/public/data.json")
@@ -103,6 +103,9 @@ def main():
         while r["slug"] in used: r["slug"] = f"{b}-{n}"; n += 1
         used.add(r["slug"])
     os.makedirs(OUT, exist_ok=True)
+    import enrich_companies_impressum as IMP  # verified Impressum/VIES overlay (keeps UID/FN on GLEIF reruns)
+    IMP.apply(out); IMP.write(out)
+    print(len(out), "companies;", sum(1 for r in out if r["lei"]), "with LEI"); return
     json.dump(out, open(f"{OUT}/companies.json", "w"), ensure_ascii=False, indent=1)
     flat = ["slug","name","role","legal_name","lei","fn","register_id","register_authority","legal_form_code","country","address","entity_status","parent_direct","parent_ultimate","founded","owners","employees","revenue","website","product_count","median_price_eur","median_eur_per_10g_protein","fetched_at"]
     with open(f"{OUT}/companies.csv","w",newline="") as fh:
