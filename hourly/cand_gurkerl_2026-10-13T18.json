@@ -1,0 +1,161 @@
+[
+{
+"source": "gurkerl",
+"store": "Gurkerl.at",
+"name": "Leitgeb´s Italienischer Nudelteller",
+"brand": "Leitgeb's Nudelspezialitäten",
+"price_eur": 10.49,
+"unit_price_eur": 23.31,
+"unit": "kg",
+"size_g": 450.0,
+"nutrition_100g": {
+"kcal": 197.0,
+"fat": 6.8,
+"satfat": 3.2,
+"carbs": 24.0,
+"sugar": 1.5,
+"protein": 8.7,
+"salt": 1.7,
+"fiber": 0.0
+},
+"ean": "9120071330262",
+"image_url": "https://cdn.gurkerl.at/images/grocery/products/40024/40024-1741766749113.jpg",
+"producer": null,
+"producer_id": null,
+"origin": "Österreich",
+"category": "Kühlregal > Schnelle Küche > Frische Pasta, Spätzle & Knödel > Frische Pasta & Gnocchi",
+"source_url": "https://www.gurkerl.at/40024-leitgeb-s-italienischer-nudelteller",
+"source_id": "40024",
+"fetched_at": "2026-10-13T18:42:36+00:00",
+"extra": {
+"in_stock": true,
+"archived": false,
+"ingredients": "Italienischer Nudelteller vorgekocht\nTeigtaschen mit gemischten Füllungen: Spinatfüllung, Tomaten-Mozzarellafüllung, Paresanfüllung, Rucolafüllung, Lasagnefüllung\n\nZutaten: WEIZENMEHL, EIER, Speisesalz jodiert, Wasser, Pflanzenöl (Sonnenblumenöl und Rapsöl in veränderlichen Gewichtsanteilen), Spinat Nudel: 40% Kartoffel, BRÖSELTOPFEN, Spinat, Knoblauch, Gewürze Tomaten Mozzarella Nudel: 40% Kartoffel, Tomaten, MOZZARELLA, Pizzagewürz Parmesannudel: 40% Kartoffel, BRÖSELTOPFEN, PARMESAN, SAUERRAHM, Gewürze Rucolanudel: 40% BRÖSELTOPFEN, Kartoffel, SAUERRAHM, Rucola, PARMESAN, Salz Lasagnenudel: 30% Putenfaschiertes, Tomatensauce (Tomaten, Karotten, SELLERIE, Zwiebel, Knoblauch), Bechamelsauce (MILCH, WEIZENMEHL, SELLERIE), Teigblätter (HARTWEIZENGRIESS), PARMESAN, Gewürze\n\nLagern bei -2°C bis 6°C.\nInnerhalb von 2-3 Tagen nach Öffnen verbrauchen."
+}
+},
+{
+"source": "gurkerl",
+"store": "Gurkerl.at",
+"name": "Wagner Pizza Steinofen Salami (tiefgekühlt)",
+"brand": "Wagner",
+"price_eur": 4.39,
+"unit_price_eur": 13.72,
+"unit": "kg",
+"size_g": 320.0,
+"nutrition_100g": {
+"kcal": 812.0,
+"fat": 10.8,
+"satfat": 4.5,
+"carbs": 27.0,
+"sugar": 3.9,
+"protein": 11.1,
+"salt": 1.3,
+"fiber": 2.1
+},
+"ean": "7613035925489",
+"image_url": "https://cdn.gurkerl.at/images/grocery/products/25925/25925-1671179477489.jpg",
+"producer": "Nestlé Österreich, Wiedner Gürtel 9, 1100 Wien",
+"producer_id": null,
+"origin": "Deutschland",
+"category": "Tiefkühlprodukte > Pizza, Baguettes & Flammkuchen > Pizza",
+"source_url": "https://www.gurkerl.at/25925-wagner-pizza-steinofen-salami-tiefgekuehlt",
+"source_id": "25925",
+"fetched_at": "2026-10-13T18:42:36+00:00",
+"extra": {
+"in_stock": true,
+"archived": false,
+"ingredients": "Wagner Pizza Steinofen Salami 320g\n\nZutaten: WEIZENMEHL, zerkleinerte Schältomaten (25%), EDAMER (17%), Salami (12%) [Schweinefleisch, Speck, Speisesalz, Konservierungsstoff: Natriumnitrit, Dextrose, Maltodextrin, Antioxidationsmittel: Extrakt aus Rosmarin, Natriumascorbat; Gewürze (enthält SENF), Gewürzextrakte, Rauch], Wasser, pflanzliches Öl (Raps), Hefe, Zucker, Kräuter und Gewürze, WEIZENSAUERTEIG getrocknet, Speisesalz. Kann enthalten: EI, FISCH, LUPINE, SELLERIE und SOJA.\n\nTiefgekühlt bei mind. -18 °C lagern.\n\nKontakt: Nestlé Österreich, Wiedner Gürtel 9, 1100 Wien"
+}
+},
+{
+"source": "gurkerl",
+"store": "Gurkerl.at",
+"name": "Inzersdorfer Hühnercurry mit Gemüse",
+"brand": "Inzersdorfer",
+"price_eur": 5.69,
+"unit_price_eur": 14.23,
+"unit": "kg",
+"size_g": 400.0,
+"nutrition_100g": {
+"kcal": 121.0,
+"fat": 5.4,
+"satfat": 1.5,
+"carbs": 12.0,
+"sugar": 6.2,
+"protein": 53.0,
+"salt": 1.1
+},
+"ean": "9002600632330",
+"image_url": "https://cdn.gurkerl.at/images/grocery/products/33405/33405-1722352217278.jpg",
+"producer": null,
+"producer_id": null,
+"origin": "Österreich",
+"category": "Vorratsschrank > Fertiggerichte",
+"source_url": "https://www.gurkerl.at/33405-inzersdorfer-huehnercurry-mit-gemuese",
+"source_id": "33405",
+"fetched_at": "2026-10-13T18:42:36+00:00",
+"extra": {
+"in_stock": true,
+"archived": false,
+"ingredients": "Zutaten: Wasser, Gemüse in veränderlichen Gewichtsanteilen 28 % [Kichererbsen gekocht (Kichererbsen, Wasser), Zwiebeln, Karotten, rote Paprika], Hühnerfleisch gegart 15 % (Hühnerbrust, Wasser, Sojaöl, Dextrose, Reismehl, Speisesalz), Ananas 6,7 %, Kokosmilchpulver (Kokosmilch, Maltodextrin), Zucker, Sonnenblumenöl, WEIZENMEHL, modifizierte Stärke, Ananassaftkonzentrat, Speisesalz jodiert (Speisesalz, Kaliumiodid), Curry-Gewürzmischung 0,6%, Glukosesirup, Knoblauch, Gewürze, Zitronensaftkonzentrat.\n\nNach dem Öffnen gekühlt lagern und innerhalb von 3 Tagen verbrauchen.\n\nZubereitung: Kochtopf: Inhalt in passenden Topf leeren 5 Min. erhitzen. \n\nZubereitung: Mikrowelle: Inhalt in einen Teller leeren 2-3 Min. 600-750 W erhitzen."
+}
+},
+{
+"source": "gurkerl",
+"store": "Gurkerl.at",
+"name": "Felix gefüllte Paprika",
+"brand": "Felix",
+"price_eur": 6.69,
+"unit_price_eur": 8.36,
+"unit": "kg",
+"size_g": 800.0,
+"nutrition_100g": {
+"kcal": 88.0,
+"fat": 3.9,
+"satfat": 1.3,
+"carbs": 10.0,
+"sugar": 5.3,
+"protein": 26.0,
+"salt": 1.0
+},
+"ean": "9000295832936",
+"image_url": "https://cdn.gurkerl.at/images/grocery/products/37023/37023-1732263259757.jpg",
+"producer": null,
+"producer_id": null,
+"origin": "Österreich",
+"category": "Vorratsschrank > Fertiggerichte",
+"source_url": "https://www.gurkerl.at/37023-felix-gefuellte-paprika",
+"source_id": "37023",
+"fetched_at": "2026-10-13T18:42:36+00:00",
+"extra": {
+"in_stock": true,
+"archived": false,
+"ingredients": "Tomaten 46%, Paprika 23%, Schweine- und Rindfleisch \n10%, Wasser, Reis, Zucker, Maismehl, Zwiebeln, Salz, \nRapsöl, modifizierte Stärke, Kräuter, Gewürze."
+}
+},
+{
+"source": "gurkerl",
+"store": "Gurkerl.at",
+"name": "Gissinger Sauerkraut mit Speck",
+"brand": "Gissinger",
+"price_eur": 8.13,
+"unit_price_eur": 15.29,
+"unit": "kg",
+"size_g": 530.0,
+"nutrition_100g": {},
+"ean": null,
+"image_url": "https://cdn.gurkerl.at/images/grocery/products/21866/21866-1633014590773.jpg",
+"producer": null,
+"producer_id": null,
+"origin": "Österreich",
+"category": "Kühlregal > Schnelle Küche > Fertiggerichte > Traditionelle Hausmannskost",
+"source_url": "https://www.gurkerl.at/21866-gissinger-sauerkraut-mit-speck",
+"source_id": "21866",
+"fetched_at": "2026-10-13T18:42:34+00:00",
+"extra": {
+"in_stock": true,
+"archived": false,
+"ingredients": "Zutaten: Sauerkraut, Rauchspeck, Gewürze, Salz, BUTTER, WEIZENMEHL, Bratensaft"
+}
+}
+]
