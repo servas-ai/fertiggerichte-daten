@@ -868,7 +868,10 @@
   "source_url": "https://www.tressbrueder.de/tressbrueder-logo.svg",
   "brands": [
    "Tress Brüder",
-   "Tressbrüder"
+   "Tressbrüder",
+   "Küchenbrüder",
+   "Kuechenbrueder",
+   "Küchenbrueder"
   ]
  },
  {
@@ -949,7 +952,8 @@
   "file": "logos/hink.svg",
   "source_url": "https://hink.wien/cdn/shop/files/Hink_logo.svg",
   "brands": [
-   "Hink Wien"
+   "Hink Wien",
+   "Hink"
   ]
  },
  {
@@ -1135,8 +1139,8 @@
   "slug": "ablinger",
   "name": "Ablinger",
   "category": "Markenhersteller",
-  "file": null,
-  "source_url": null,
+  "file": "logos/ablinger.png",
+  "source_url": "https://www.ablinger.co.at/wp-content/uploads/2025/06/ABL_Logo.svg",
   "brands": [
    "Ablinger"
   ]
@@ -1284,7 +1288,10 @@
   "category": "Produzent/Werk",
   "file": "logos/blasko.png",
   "source_url": "https://www.blasko.at/assets/at-blasko/images/favicons/apple-touch-icon.png",
-  "brands": []
+  "brands": [
+   "Blasko",
+   "BLASKO"
+  ]
  },
  {
   "slug": "karnerta",
@@ -1709,7 +1716,8 @@
   "source_url": "https://a.storyblok.com/f/291086118523370/86x28/c9f09c61bc/every_logo_black-1.svg",
   "brands": [
    "Every.",
-   "EVERY."
+   "EVERY.",
+   "Every"
   ]
  },
  {
@@ -2496,6 +2504,49 @@
   "source_url": "https://www.john-west.co.uk/wp-content/uploads/2024/11/logo_320x230_1_transparent.png",
   "brands": [
    "John West"
+  ]
+ },
+ {
+  "slug": "delidip",
+  "name": "deli dip",
+  "category": "Markenhersteller",
+  "file": "logos/delidip.png",
+  "source_url": "https://cdn.prod.website-files.com/67390534eec8342a659fdf85/6746d27b797228be2c2a4363_delidip-webclip.png",
+  "brands": [
+   "Deli Dip",
+   "deli dip",
+   "DeliDip"
+  ]
+ },
+ {
+  "slug": "farniente",
+  "name": "Farniente",
+  "category": "Markenhersteller",
+  "file": "logos/farniente.png",
+  "source_url": "https://static.wixstatic.com/media/90a877_cde4c3f864a84b8499b47a47b73bce94~mv2.png",
+  "brands": [
+   "Farniente"
+  ]
+ },
+ {
+  "slug": "biogourmet",
+  "name": "BioGourmet",
+  "category": "Markenhersteller",
+  "file": "logos/biogourmet.png",
+  "source_url": "https://bio-gourmet.com/wp-content/uploads/2018/01/bigo_logo_rgb-1.png",
+  "brands": [
+   "BioGourmet",
+   "Bio Gourmet"
+  ]
+ },
+ {
+  "slug": "zum-dorfkrug",
+  "name": "Zum Dorfkrug",
+  "category": "Markenhersteller",
+  "file": "logos/zum-dorfkrug.svg",
+  "source_url": "https://www.zum-dorfkrug.de/assets/zum-dorfkrug-logo.svg",
+  "brands": [
+   "Zum Dorfkrug"
   ]
  }
 ]
