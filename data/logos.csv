@@ -39,10 +39,10 @@ rettenswert,Rettenswert,Eigenmarke,logos/rettenswert.png,"OFF packshot GTIN 4061
 wonnemeyer,Wonnemeyer,Eigenmarke,,,Wonnemeyer
 chef-select,Chef Select,Eigenmarke,logos/chef-select.png,OFF packshot GTIN 4056489009214 front_en.94 (Chef Select Smoked Ham Tortellini) — Ausschnitt Markenlogo,Chef Select|CHEF SELECT
 vemondo,Vemondo,Eigenmarke,logos/vemondo.png,OFF packshot GTIN 4056489848752 front_de.11 (Vemondo veganer Salat nach Art eines Budapester Salates) — Ausschnitt Markenlogo,"Vemondo|Vemondo, Grønvang Food ApS, Lidl"
-deluxe,Deluxe,Eigenmarke,,,Deluxe
-vitasia,Vitasia,Eigenmarke,,,Vitasia
+deluxe,Deluxe,Eigenmarke,logos/deluxe.png,https://images.openfoodfacts.org/images/products/000/002/015/9689/front_de.14.full.jpg (OFF Medaglioni Mushrooms & Truffle) — Ausschnitt Wordmark-Band,Deluxe|DELUXE
+vitasia,Vitasia,Eigenmarke,logos/vitasia.png,https://images.openfoodfacts.org/images/products/433/561/912/7579/front_en.11.full.jpg (OFF Lentil and Chickpea Curry) — Ausschnitt Markenbanner,Vitasia|VITASIA
 mcennedy,MCENNEDY,Eigenmarke,logos/mcennedy.png,https://www.lidl.at/p/mcennedy-nudelauflauf-mac-cheese/p10056595 (robots: /p/ erlaubt) — imgproxy-retcat.assets.schwarz …/w:1500/h:1125/… (Packshot Nudelauflauf Mac & Cheese) — Ausschnitt Markenlogo,MCENNEDY|McEnnedy|Mcennedy
-schwaben-krone,Schwaben Krone,Eigenmarke,,,Schwaben Krone
+schwaben-krone,Schwaben Krone,Markenhersteller,logos/schwaben-krone.png,https://images.openfoodfacts.org/images/products/407/560/039/8891/front_de.8.full.jpg (OFF Wildmaultaschen) — Ausschnitt Markenband,Schwaben Krone|SchwabenKrone|SCHWABEN KRONE
 select-go,SELECT&GO,Eigenmarke,,,SELECT&GO
 trattoria-alfredo,Trattoria Alfredo,Eigenmarke,,,Trattoria Alfredo
 kania,Kania,Eigenmarke,logos/kania.png,OFF packshot GTIN 4335619175334 front_en.3 (Kania India Style Yellow Curry) — Ausschnitt Markenlogo,Kania|Kania (Lidl)
@@ -105,21 +105,21 @@ njami,Njami,Markenhersteller,logos/njami.png,"https://images.cdn.europe-west1.gc
 feelfood,Feelfood,Markenhersteller,,,Feelfood
 marinus,Marinus,Markenhersteller,,,Marinus
 staudinger,Staudinger,Markenhersteller,logos/staudinger.png,"https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-698017-707306118-J1-9R-AF.jpg (BILLA Packshot Staudinger Holzofen Leberkäs geschnitten, 1600x1600) — Ausschnitt Markenlogo",Staudinger|Staudinger's|STAUDINGER'S|Staudinger´s
-muehlen,Mühlen,Markenhersteller,,,Mühlen
-sushitime,Sushitime,Markenhersteller,,,Sushitime
+muehlen,Mühlen,Markenhersteller,logos/muehlen.png,https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-323146-1399185890-gMYl8TcU.jpg (BILLA Vegane Mühlen Cordon Bleu) — Ausschnitt Windmühlen-Icon + Wordmark,Mühlen|Rügenwalder Mühle|Rügenwalder|Ruegenwalder Mühle
+sushitime,Sushitime,Markenhersteller,logos/sushitime.png,https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-731600-0165537535-Dts1bHw3.jpg (BILLA Lachs Picknick) — Ausschnitt Markenlogo,Sushitime|sushitime|Sushi Time
 pop-up,Pop-Up,Markenhersteller,,,Pop-Up
-franui,franuí,Markenhersteller,,,franuí
+franui,franuí,Markenhersteller,logos/franui.png,https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-895905-0112815057-XPoOinJA.jpg (BILLA franuí Raspberry) — Ausschnitt Deckel-Wordmark,franuí|franui|Franui
 ablinger,Ablinger,Markenhersteller,logos/ablinger.png,https://www.ablinger.co.at/wp-content/uploads/2025/06/ABL_Logo.svg,Ablinger
 indomie,Indomie,Markenhersteller,logos/indomie.png,https://commons.wikimedia.org/wiki/File%3AIndomie_Logo.png,Indomie
 blue-elephant,Blue Elephant,Markenhersteller,logos/blue-elephant.png,https://blueelephant.com/wp-content/uploads/2024/12/BE-logo-beaten-gold-1.webp,Blue Elephant
 juergen-langbein,Jürgen Langbein,Markenhersteller,,,Jürgen Langbein
 kuechenbrueder,Küchenbrüder,Markenhersteller,,,Küchenbrüder
-lorado,Lorado,Markenhersteller,,,Lorado
+lorado,Lorado,Eigenmarke,logos/lorado.png,https://www.interspar.at/media/a5/37/b5/1789340689/A_2020004338648_HB.jpg (Interspar Lorado Ravioli) — Ausschnitt Markenlogo,Lorado|LORADO
 dovgan,Dovgan,Markenhersteller,logos/dovgan.png,https://www.dovgan.de/assets/templates/redesign18/images/logo.png,DOVGAN|Dovgan
 every,Every,Markenhersteller,,,Every
 my-vay,My Vay,Markenhersteller,,,My Vay
-auinger,Auinger,Markenhersteller,,,Auinger
-flotte-lotte,Flotte Lotte,Markenhersteller,,,Flotte Lotte
+auinger,Auinger,Markenhersteller,logos/auinger.png,https://images.openfoodfacts.org/images/products/912/000/449/0049/front_de.4.full.jpg (OFF Klare Suppe) — Ausschnitt Oval-Badge,Auinger|AUINGER
+flotte-lotte,Flotte Lotte,Markenhersteller,logos/flotte-lotte.png,https://images.openfoodfacts.org/images/products/912/011/349/1784/front_de.8.full.jpg (OFF Fenchel Kartoffel Suppe) — Ausschnitt Wordmark,Flotte Lotte|FLOTTE LOTTE
 ben-fatto,Ben Fatto,Markenhersteller,,,Ben Fatto
 bio-natura,Bio Natura,Bio,,,Bio Natura
 rewe-austria-fleischwaren,Rewe Austria Fleischwaren GmbH,Produzent/Werk,logos/rewe-austria-fleischwaren.svg,https://rewe-group.at/wp-content/uploads/2026/09/98_2609_Logo_BILLA.png,
@@ -264,3 +264,22 @@ exotic-food,Exotic Food,Markenhersteller,logos/exotic-food.png,https://www.exoti
 taste-of-asia,Taste Of Asia,Eigenmarke,logos/taste-of-asia.png,"https://images.cdn.europe-west1.gcp.commercetools.com/787b77ab-692c-4e25-91f4-697690dc3c7c/78-267102-427881130-amxyBx8i.jpg (Penny Packshot Taste of Asia Mini-Frühlingsrollen, 1400x1400) — Ausschnitt Markenlogo",Taste Of Asia|Taste of Asia|TASTE OF ASIA
 fryzza,Fryzza,Markenhersteller,logos/fryzza.png,"https://res.cloudinary.com/dit8huoga/image/upload/v1781744491/api/813756_angle.jpg (MPreis Packshot Fryzza Salami Pizza, EAN 4262548740046, 1333x1333) — Ausschnitt Wordmark",Fryzza|FRYZZA
 schenkel,Schenkel,Markenhersteller,logos/schenkel.png,"https://res.cloudinary.com/dit8huoga/image/upload/v1779619454/api/187011_angle.jpg (MPreis Packshot Schenkel Hummerrahmsuppe, EAN 4003011240522, 10439x11585) — Ausschnitt Wordmark-Band",Schenkel|SCHENKEL
+henglein,Henglein,Markenhersteller,logos/henglein.png,https://www.henglein.de/wp-content/uploads/2024/01/Henglein_Logo_waagrecht.svg (robots Allow /; Disallow only wpo-plugins-tables-list.json),Henglein|HENGLEIN
+rebel-meat,Rebel Meat,Markenhersteller,logos/rebel-meat.png,https://static.wixstatic.com/media/5d34d3_050cf047bf554c238092f01e9eede5a4~mv2.png (rebel-meat.com robots Allow /),Rebel Meat|REBEL MEAT|Rebel Kids
+just-veg,Just Veg!,Markenhersteller,logos/just-veg.png,"https://images.openfoodfacts.org/images/products/406/146/301/2364/front_en.4.full.jpg (OFF Pizza Toona, GTIN 4061463012364) — Ausschnitt Marken-Badge",Just Veg!|Just Veg|JUST VEG!
+findus,Findus,Markenhersteller,logos/findus.png,https://images.openfoodfacts.org/images/products/905/481/822/5323/front_en.3.full.jpg (OFF Zuppa del Casale) — Ausschnitt rotes Findus-Banner,Findus|FINDUS
+diamond,Diamond,Markenhersteller,logos/diamond.png,https://cdn.gurkerl.at/images/grocery/products/31821/31821-1704787131028.jpg (Gurkerl Mini-Frühlingsrollen Tsingtao) — Ausschnitt Markenbanner,Diamond|DIAMOND
+harvest-moon,Harvest Moon,Markenhersteller,logos/harvest-moon.png,https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-876568-162362339-AUslsecq.jpg (BILLA Harvest Moon Chocolate & salted Caramel) — Ausschnitt Mond-Badge,Harvest Moon|HARVEST MOON|Harvest
+yopokki,Yopokki,Markenhersteller,logos/yopokki.png,https://cdn.gurkerl.at/images/grocery/products/38273/38273-1738164067006.jpg (Gurkerl Instant Topokki Kimchi) — Ausschnitt Markenlogo,Yopokki|YOPOKKI|요뽀끼
+pan,Pan,Markenhersteller,logos/pan.png,"https://res.cloudinary.com/dit8huoga/image/upload/v1768841982/api/803545_angle.jpg (MPreis Pan Südtiroler Topfenstrudel, EAN 8000460011174) — Ausschnitt Markenlogo",Pan|PAN|Pan Südtiroler
+spar-bbq,SPAR BBQ,Eigenmarke,logos/spar-bbq.png,https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020001842452/dt_zoom.jpg (Interspar Grill-Gemüse-Trilogie) — Ausschnitt Sub-Brand-Lockup,SPAR BBQ|Spar BBQ|SPAR BBQ Grill
+thai-delight,Thai Delight,Markenhersteller,logos/thai-delight.png,https://cdn.gurkerl.at/images/grocery/products/38498/38498-1738673865144.jpg (Gurkerl Hokkien Noodles) — Ausschnitt Marken-Crest,Thai Delight|THAI DELIGHT
+dozz,Dozz,Markenhersteller,logos/dozz.png,"https://res.cloudinary.com/dit8huoga/image/upload/v1783731750/api/585631_angle.png (MPreis Dozz Spinatsuppe, EAN 5941905400814) — Ausschnitt Wordmark",Dozz|DOZZ
+hildegard-gruenkraft,Hildegard Grünkraft,Markenhersteller,logos/hildegard-gruenkraft.png,"https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_1200,w_1200/v1747539433/assets/pas/images/2575ab79-d644-46e2-8cd4-3bb91c86a091/hildegard-gruenkraft-suppe-bio-fasten (dm Bio Fasten Suppe) — Ausschnitt Marken-Badge",Hildegard Grünkraft|HILDEGARD GRÜNKRAFT
+deliciosu,Deliciosu,Markenhersteller,logos/deliciosu.png,https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-763125-0195716755-SCIoaKQJ.jpg (BILLA Deliciosu Poké Bowl Lachs) — Ausschnitt Deckel-Logo,Deliciosu|DELICIOSU
+alpenstrudel,Alpenstrudel,Markenhersteller,logos/alpenstrudel.png,"https://res.cloudinary.com/dit8huoga/image/upload/v1768841976/api/813093_angle.jpg (MPreis Südtiroler Apfelstrudel, EAN 8000460010207) — Ausschnitt Wordmark",Alpenstrudel|Alpen Strudel|Alpenstrudel delle Alpi
+ich-bin-oesterreich,Ich bin Österreich,Eigenmarke,logos/ich-bin-oesterreich.png,https://images.cdn.europe-west1.gcp.commercetools.com/787b77ab-692c-4e25-91f4-697690dc3c7c/78-790129-2110285495-Yqixh0-3.jpg (Penny Wiener Schnitzel) — Ausschnitt Holzschild-Badge,Ich bin Österreich|Ich bin ÖSTERREICH
+big-snack,Big Snack,Markenhersteller,logos/big-snack.png,"https://res.cloudinary.com/dit8huoga/image/upload/v1779633301/api/80368_angle.jpg (MPreis Cheeseburger 2er, EAN 9002931030737) — Ausschnitt Markenbadge",Big Snack|BIG SNACK
+ocean-sea,Ocean Sea,Eigenmarke,logos/ocean-sea.png,Lidl imgproxy 427×320 Fish & Chips packshot (products.csv image_url; größere /w:1500 Rendition 403 — nicht umgangen) — Ausschnitt rotes Kreislogo,Ocean Sea|OCEAN SEA|ocean sea
+arteoliva,Arteoliva,Markenhersteller,logos/arteoliva.png,"https://res.cloudinary.com/dit8huoga/image/upload/v1779630025/api/186837_angle.jpg (MPreis Arteoliva Gazpacho Andaluz, EAN 8437001133147) — Ausschnitt Markenlockup",Arteoliva|ARTEOLIVA
+penny-ready,Penny Ready,Eigenmarke,logos/penny-ready.png,https://images.openfoodfacts.org/images/products/433/725/637/2008/front_de.6.full.jpg (OFF Lasagne alla Bolognese) — Ausschnitt Wordmark,Penny Ready|PENNY READY|PennyReady

@@ -428,20 +428,22 @@
   "slug": "deluxe",
   "name": "Deluxe",
   "category": "Eigenmarke",
-  "file": null,
-  "source_url": null,
+  "file": "logos/deluxe.png",
+  "source_url": "https://images.openfoodfacts.org/images/products/000/002/015/9689/front_de.14.full.jpg (OFF Medaglioni Mushrooms & Truffle) — Ausschnitt Wordmark-Band",
   "brands": [
-   "Deluxe"
+   "Deluxe",
+   "DELUXE"
   ]
  },
  {
   "slug": "vitasia",
   "name": "Vitasia",
   "category": "Eigenmarke",
-  "file": null,
-  "source_url": null,
+  "file": "logos/vitasia.png",
+  "source_url": "https://images.openfoodfacts.org/images/products/433/561/912/7579/front_en.11.full.jpg (OFF Lentil and Chickpea Curry) — Ausschnitt Markenbanner",
   "brands": [
-   "Vitasia"
+   "Vitasia",
+   "VITASIA"
   ]
  },
  {
@@ -459,11 +461,13 @@
  {
   "slug": "schwaben-krone",
   "name": "Schwaben Krone",
-  "category": "Eigenmarke",
-  "file": null,
-  "source_url": null,
+  "category": "Markenhersteller",
+  "file": "logos/schwaben-krone.png",
+  "source_url": "https://images.openfoodfacts.org/images/products/407/560/039/8891/front_de.8.full.jpg (OFF Wildmaultaschen) — Ausschnitt Markenband",
   "brands": [
-   "Schwaben Krone"
+   "Schwaben Krone",
+   "SchwabenKrone",
+   "SCHWABEN KRONE"
   ]
  },
  {
@@ -1129,20 +1133,25 @@
   "slug": "muehlen",
   "name": "Mühlen",
   "category": "Markenhersteller",
-  "file": null,
-  "source_url": null,
+  "file": "logos/muehlen.png",
+  "source_url": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-323146-1399185890-gMYl8TcU.jpg (BILLA Vegane Mühlen Cordon Bleu) — Ausschnitt Windmühlen-Icon + Wordmark",
   "brands": [
-   "Mühlen"
+   "Mühlen",
+   "Rügenwalder Mühle",
+   "Rügenwalder",
+   "Ruegenwalder Mühle"
   ]
  },
  {
   "slug": "sushitime",
   "name": "Sushitime",
   "category": "Markenhersteller",
-  "file": null,
-  "source_url": null,
+  "file": "logos/sushitime.png",
+  "source_url": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-731600-0165537535-Dts1bHw3.jpg (BILLA Lachs Picknick) — Ausschnitt Markenlogo",
   "brands": [
-   "Sushitime"
+   "Sushitime",
+   "sushitime",
+   "Sushi Time"
   ]
  },
  {
@@ -1159,10 +1168,12 @@
   "slug": "franui",
   "name": "franuí",
   "category": "Markenhersteller",
-  "file": null,
-  "source_url": null,
+  "file": "logos/franui.png",
+  "source_url": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-895905-0112815057-XPoOinJA.jpg (BILLA franuí Raspberry) — Ausschnitt Deckel-Wordmark",
   "brands": [
-   "franuí"
+   "franuí",
+   "franui",
+   "Franui"
   ]
  },
  {
@@ -1218,11 +1229,12 @@
  {
   "slug": "lorado",
   "name": "Lorado",
-  "category": "Markenhersteller",
-  "file": null,
-  "source_url": null,
+  "category": "Eigenmarke",
+  "file": "logos/lorado.png",
+  "source_url": "https://www.interspar.at/media/a5/37/b5/1789340689/A_2020004338648_HB.jpg (Interspar Lorado Ravioli) — Ausschnitt Markenlogo",
   "brands": [
-   "Lorado"
+   "Lorado",
+   "LORADO"
   ]
  },
  {
@@ -1260,20 +1272,22 @@
   "slug": "auinger",
   "name": "Auinger",
   "category": "Markenhersteller",
-  "file": null,
-  "source_url": null,
+  "file": "logos/auinger.png",
+  "source_url": "https://images.openfoodfacts.org/images/products/912/000/449/0049/front_de.4.full.jpg (OFF Klare Suppe) — Ausschnitt Oval-Badge",
   "brands": [
-   "Auinger"
+   "Auinger",
+   "AUINGER"
   ]
  },
  {
   "slug": "flotte-lotte",
   "name": "Flotte Lotte",
   "category": "Markenhersteller",
-  "file": null,
-  "source_url": null,
+  "file": "logos/flotte-lotte.png",
+  "source_url": "https://images.openfoodfacts.org/images/products/912/011/349/1784/front_de.8.full.jpg (OFF Fenchel Kartoffel Suppe) — Ausschnitt Wordmark",
   "brands": [
-   "Flotte Lotte"
+   "Flotte Lotte",
+   "FLOTTE LOTTE"
   ]
  },
  {
@@ -2847,6 +2861,224 @@
   "brands": [
    "Schenkel",
    "SCHENKEL"
+  ]
+ },
+ {
+  "slug": "henglein",
+  "name": "Henglein",
+  "category": "Markenhersteller",
+  "file": "logos/henglein.png",
+  "source_url": "https://www.henglein.de/wp-content/uploads/2024/01/Henglein_Logo_waagrecht.svg (robots Allow /; Disallow only wpo-plugins-tables-list.json)",
+  "brands": [
+   "Henglein",
+   "HENGLEIN"
+  ]
+ },
+ {
+  "slug": "rebel-meat",
+  "name": "Rebel Meat",
+  "category": "Markenhersteller",
+  "file": "logos/rebel-meat.png",
+  "source_url": "https://static.wixstatic.com/media/5d34d3_050cf047bf554c238092f01e9eede5a4~mv2.png (rebel-meat.com robots Allow /)",
+  "brands": [
+   "Rebel Meat",
+   "REBEL MEAT",
+   "Rebel Kids"
+  ]
+ },
+ {
+  "slug": "just-veg",
+  "name": "Just Veg!",
+  "category": "Markenhersteller",
+  "file": "logos/just-veg.png",
+  "source_url": "https://images.openfoodfacts.org/images/products/406/146/301/2364/front_en.4.full.jpg (OFF Pizza Toona, GTIN 4061463012364) — Ausschnitt Marken-Badge",
+  "brands": [
+   "Just Veg!",
+   "Just Veg",
+   "JUST VEG!"
+  ]
+ },
+ {
+  "slug": "findus",
+  "name": "Findus",
+  "category": "Markenhersteller",
+  "file": "logos/findus.png",
+  "source_url": "https://images.openfoodfacts.org/images/products/905/481/822/5323/front_en.3.full.jpg (OFF Zuppa del Casale) — Ausschnitt rotes Findus-Banner",
+  "brands": [
+   "Findus",
+   "FINDUS"
+  ]
+ },
+ {
+  "slug": "diamond",
+  "name": "Diamond",
+  "category": "Markenhersteller",
+  "file": "logos/diamond.png",
+  "source_url": "https://cdn.gurkerl.at/images/grocery/products/31821/31821-1704787131028.jpg (Gurkerl Mini-Frühlingsrollen Tsingtao) — Ausschnitt Markenbanner",
+  "brands": [
+   "Diamond",
+   "DIAMOND"
+  ]
+ },
+ {
+  "slug": "harvest-moon",
+  "name": "Harvest Moon",
+  "category": "Markenhersteller",
+  "file": "logos/harvest-moon.png",
+  "source_url": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-876568-162362339-AUslsecq.jpg (BILLA Harvest Moon Chocolate & salted Caramel) — Ausschnitt Mond-Badge",
+  "brands": [
+   "Harvest Moon",
+   "HARVEST MOON",
+   "Harvest"
+  ]
+ },
+ {
+  "slug": "yopokki",
+  "name": "Yopokki",
+  "category": "Markenhersteller",
+  "file": "logos/yopokki.png",
+  "source_url": "https://cdn.gurkerl.at/images/grocery/products/38273/38273-1738164067006.jpg (Gurkerl Instant Topokki Kimchi) — Ausschnitt Markenlogo",
+  "brands": [
+   "Yopokki",
+   "YOPOKKI",
+   "요뽀끼"
+  ]
+ },
+ {
+  "slug": "pan",
+  "name": "Pan",
+  "category": "Markenhersteller",
+  "file": "logos/pan.png",
+  "source_url": "https://res.cloudinary.com/dit8huoga/image/upload/v1768841982/api/803545_angle.jpg (MPreis Pan Südtiroler Topfenstrudel, EAN 8000460011174) — Ausschnitt Markenlogo",
+  "brands": [
+   "Pan",
+   "PAN",
+   "Pan Südtiroler"
+  ]
+ },
+ {
+  "slug": "spar-bbq",
+  "name": "SPAR BBQ",
+  "category": "Eigenmarke",
+  "file": "logos/spar-bbq.png",
+  "source_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020001842452/dt_zoom.jpg (Interspar Grill-Gemüse-Trilogie) — Ausschnitt Sub-Brand-Lockup",
+  "brands": [
+   "SPAR BBQ",
+   "Spar BBQ",
+   "SPAR BBQ Grill"
+  ]
+ },
+ {
+  "slug": "thai-delight",
+  "name": "Thai Delight",
+  "category": "Markenhersteller",
+  "file": "logos/thai-delight.png",
+  "source_url": "https://cdn.gurkerl.at/images/grocery/products/38498/38498-1738673865144.jpg (Gurkerl Hokkien Noodles) — Ausschnitt Marken-Crest",
+  "brands": [
+   "Thai Delight",
+   "THAI DELIGHT"
+  ]
+ },
+ {
+  "slug": "dozz",
+  "name": "Dozz",
+  "category": "Markenhersteller",
+  "file": "logos/dozz.png",
+  "source_url": "https://res.cloudinary.com/dit8huoga/image/upload/v1783731750/api/585631_angle.png (MPreis Dozz Spinatsuppe, EAN 5941905400814) — Ausschnitt Wordmark",
+  "brands": [
+   "Dozz",
+   "DOZZ"
+  ]
+ },
+ {
+  "slug": "hildegard-gruenkraft",
+  "name": "Hildegard Grünkraft",
+  "category": "Markenhersteller",
+  "file": "logos/hildegard-gruenkraft.png",
+  "source_url": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_1200,w_1200/v1747539433/assets/pas/images/2575ab79-d644-46e2-8cd4-3bb91c86a091/hildegard-gruenkraft-suppe-bio-fasten (dm Bio Fasten Suppe) — Ausschnitt Marken-Badge",
+  "brands": [
+   "Hildegard Grünkraft",
+   "HILDEGARD GRÜNKRAFT"
+  ]
+ },
+ {
+  "slug": "deliciosu",
+  "name": "Deliciosu",
+  "category": "Markenhersteller",
+  "file": "logos/deliciosu.png",
+  "source_url": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-763125-0195716755-SCIoaKQJ.jpg (BILLA Deliciosu Poké Bowl Lachs) — Ausschnitt Deckel-Logo",
+  "brands": [
+   "Deliciosu",
+   "DELICIOSU"
+  ]
+ },
+ {
+  "slug": "alpenstrudel",
+  "name": "Alpenstrudel",
+  "category": "Markenhersteller",
+  "file": "logos/alpenstrudel.png",
+  "source_url": "https://res.cloudinary.com/dit8huoga/image/upload/v1768841976/api/813093_angle.jpg (MPreis Südtiroler Apfelstrudel, EAN 8000460010207) — Ausschnitt Wordmark",
+  "brands": [
+   "Alpenstrudel",
+   "Alpen Strudel",
+   "Alpenstrudel delle Alpi"
+  ]
+ },
+ {
+  "slug": "ich-bin-oesterreich",
+  "name": "Ich bin Österreich",
+  "category": "Eigenmarke",
+  "file": "logos/ich-bin-oesterreich.png",
+  "source_url": "https://images.cdn.europe-west1.gcp.commercetools.com/787b77ab-692c-4e25-91f4-697690dc3c7c/78-790129-2110285495-Yqixh0-3.jpg (Penny Wiener Schnitzel) — Ausschnitt Holzschild-Badge",
+  "brands": [
+   "Ich bin Österreich",
+   "Ich bin ÖSTERREICH"
+  ]
+ },
+ {
+  "slug": "big-snack",
+  "name": "Big Snack",
+  "category": "Markenhersteller",
+  "file": "logos/big-snack.png",
+  "source_url": "https://res.cloudinary.com/dit8huoga/image/upload/v1779633301/api/80368_angle.jpg (MPreis Cheeseburger 2er, EAN 9002931030737) — Ausschnitt Markenbadge",
+  "brands": [
+   "Big Snack",
+   "BIG SNACK"
+  ]
+ },
+ {
+  "slug": "ocean-sea",
+  "name": "Ocean Sea",
+  "category": "Eigenmarke",
+  "file": "logos/ocean-sea.png",
+  "source_url": "Lidl imgproxy 427×320 Fish & Chips packshot (products.csv image_url; größere /w:1500 Rendition 403 — nicht umgangen) — Ausschnitt rotes Kreislogo",
+  "brands": [
+   "Ocean Sea",
+   "OCEAN SEA",
+   "ocean sea"
+  ]
+ },
+ {
+  "slug": "arteoliva",
+  "name": "Arteoliva",
+  "category": "Markenhersteller",
+  "file": "logos/arteoliva.png",
+  "source_url": "https://res.cloudinary.com/dit8huoga/image/upload/v1779630025/api/186837_angle.jpg (MPreis Arteoliva Gazpacho Andaluz, EAN 8437001133147) — Ausschnitt Markenlockup",
+  "brands": [
+   "Arteoliva",
+   "ARTEOLIVA"
+  ]
+ },
+ {
+  "slug": "penny-ready",
+  "name": "Penny Ready",
+  "category": "Eigenmarke",
+  "file": "logos/penny-ready.png",
+  "source_url": "https://images.openfoodfacts.org/images/products/433/725/637/2008/front_de.6.full.jpg (OFF Lasagne alla Bolognese) — Ausschnitt Wordmark",
+  "brands": [
+   "Penny Ready",
+   "PENNY READY",
+   "PennyReady"
   ]
  }
 ]
