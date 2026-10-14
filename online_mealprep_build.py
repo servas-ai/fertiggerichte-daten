@@ -29,3 +29,4 @@ json.dump(rows, open('online_mealprep.json', 'w'), ensure_ascii=False, indent=1)
 from collections import Counter; print(len(rows), Counter(r['store'] for r in rows))
 import juit_build; print("juit", juit_build.merge())  # Juit (juit.com) dishes, idempotent
 import bofrost_build; print("bofrost", bofrost_build.merge())  # bofrost* Austria ready meals from the newest daten snapshot, idempotent
+import every_build; print("every", every_build.merge())  # every. (every-foods.com) frozen ready meals from the newest daten snapshot, idempotent
