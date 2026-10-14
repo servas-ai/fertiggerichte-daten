@@ -25,7 +25,7 @@ def rows(path=None):
         pp = round(n["protein"] * size / 100, 1)
         ing = re.split(r"(?:^|[.\n])\s*Kann\s", x.get("ingredients") or "")[0]  # 'Kann … enthalten' trace notes are not ingredients
         # every. labels its range plant-based; veg from the shop's 'Vegan' tag, else from the ingredient list, else None
-        veg = True if x.get("vegan") else ((False if MEAT_ING.search(ing) else True) if ing else None)
+        veg = "vegan" if x.get("vegan") else ((False if MEAT_ING.search(ing) else "vegan") if ing else None)  # 'vegan' string like other sources so export_app sets r.vegan (sensecheck 8)
         out.append({"name": p["name"], "brand": "every.", "store": STORE, "price_eur": p["price_eur"], "size_g": size,
             "price_per_kg": p["unit_price_eur"] or round(p["price_eur"] / size * 1000, 2), "url": p["source_url"], "image_url": p["image_url"], "ean": None,
             **{f"{k}_100": n.get(k) for k in ("kcal", "protein", "fat", "satfat", "carbs", "sugar", "fiber", "salt")},

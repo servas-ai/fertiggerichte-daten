@@ -206,6 +206,9 @@ def classify(x):
         if pk.startswith('dose'): return 'Dose/Konserve'
         if pk.startswith('trocken'): return 'Trocken/Instant'
         if pk.startswith('kühl'): return 'Kühlregal (Menüschale/frisch)'
+    # sensecheck 8: online providers state storage explicitly (every./Juit/PrepMyMeal/bofrost/LiveFresh/Fit2go all 'Tiefkühl (TK)');
+    #  without this, name words like 'Noodles'/'Ramen'/'Eintopf' mis-classified frozen meals as Trocken/Instant (→ dry, unrankable) or Dose
+    if re.match(r'(tiefk|tk\b)',(x.get('storage') or '').lower()): return 'Tiefkühl (TK)'
     if 'sous' in t and 'vide' in t: return 'Sous-vide (vakuum)'
     if cat.startswith('frozen') or re.search(r'iglo|curly fries|nuggets|cordon bleu|tiefk|\btk\b|gefror|frozen|tiefgek',t) or x.get('source_file')=='ftg_items.json': return 'Tiefkühl (TK)'
     if re.search(r'\bglas\b|im glas|einmach',t): return 'Glas'
