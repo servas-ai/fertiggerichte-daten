@@ -1,0 +1,101 @@
+{
+ "run": "2026-10-14T0404 Daten-Squad",
+ "generated_at": "2026-10-14T04:15:30.157216+00:00",
+ "added": [
+  {
+   "slug": "yuun-mee",
+   "note": "Vision gate 2026-10-14T0404 (Daten-Squad): visuell geprüft (korrekte Marke, lesbar, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · Offizielles Header-Logo-SVG von yuu-n-mee.at, unverändert: rote Karte mit weißem 'YUU'N MEE'-Wordmark (grünes 'n') + Slogan 'finest Seafood – enjoy the Difference'; Betreiber Yuu'n Mee fine foods Vertriebs-GmbH, McDonald's Strasse 4, 2100 Korneuburg = Producer in products.csv",
+   "source": "https://www.yuu-n-mee.at/wp-content/themes/ynm-theme/Logo_YNM_0109_V4.svg (yuu-n-mee.at robots: Disallow only /wp-admin/)",
+   "sha256": "c7d6d4f3c99b87945a40d477cc0ede2f0cc5734d49909b41dd650bd43c063812",
+   "products_impacted": 7,
+   "aliases": [
+    "Yuu'n Mee",
+    "Yuu'n mee",
+    "Yuu´n Mee",
+    "Yuu’n Mee",
+    "YUU'N MEE",
+    "Yuu'n Mee fine foods Vertriebs-GmbH"
+   ]
+  },
+  {
+   "slug": "allgroo",
+   "note": "Vision gate 2026-10-14T0404 (Daten-Squad): visuell geprüft (korrekte Marke, lesbar, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · Offizielles rotes 'allgroo'-Wordmark (Blatt + Smile) von allgroo.com, nur transparenter Rand beschnitten; allgroo.com Kontakt nennt 56-34 Simyo-gil, Namwon-si, Jeollabuk-do = GMF Co., Ltd. (Producer in products.csv)",
+   "source": "https://static.wixstatic.com/media/447e6e_dc2ee3d31ba94898956a184b37dd622b~mv2.png (allgroo_logo_2.png, Header von allgroo.com; robots Allow /)",
+   "sha256": "5d60e5427dea42c0f0baf6b35784fabcb78f15150c9f035762cb157793302e94",
+   "products_impacted": 4,
+   "aliases": [
+    "Allgroo",
+    "allgroo",
+    "ALLGROO"
+   ]
+  },
+  {
+   "slug": "bedford",
+   "note": "Vision gate 2026-10-14T0404 (Daten-Squad): visuell geprüft (korrekte Marke, lesbar, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · Offizielles Bedford-Script-Logo + Swoosh + 'Delikat essen' von bedford.de; Original weiß-auf-transparent → Füllfarbe #1f1f1f für helle UI (Alpha unverändert); Impressum Bedford GmbH + Co. KG, Traiteur-Platz 1, 49090 Osnabrück, HRA 2736 AG Osnabrück = Producer in products.csv",
+   "source": "https://bedford.de/wp-content/uploads/2018/06/bf_logo_white.png (Header von bedford.de; robots Disallow nur wc-logs/transients/add-to-cart/wp-admin)",
+   "sha256": "262c399b8ad875f97230777b196e2ea939b838c3456789327a21b1bf78b9f3e3",
+   "products_impacted": 3,
+   "aliases": [
+    "Bedford",
+    "BEDFORD",
+    "Bedford GmbH + Co. KG"
+   ]
+  },
+  {
+   "slug": "costa",
+   "note": "Vision gate 2026-10-14T0404 (Daten-Squad): visuell geprüft (korrekte Marke, lesbar, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · Offizielles 'COSTA'-Wordmark (blau, Garnele im O) auf weißem Pinselstrich aus dem costa.de-Footer, unverändert (304×121, klein aber scharf); Impressum COSTA Meeresspezialitäten GmbH & Co. KG, Stedinger Strasse 25, 26723 Emden, HRA 100513 AG Aurich, USt-ID DE214671468 = Producer in products.csv",
+   "source": "https://www.costa.de/_assets/639468b5d67b471e16952a11b4231513/Standard/Images/Footer/footer_logo_costa.png (costa.de robots Allow /)",
+   "sha256": "65bc9556066ca239c4139d25fa3480c69145294607415ebe9e794fe4c9461dba",
+   "products_impacted": 3,
+   "aliases": [
+    "Costa",
+    "COSTA",
+    "COSTA Meeresspezialitäten"
+   ]
+  },
+  {
+   "slug": "beyond-meat",
+   "note": "Vision gate 2026-10-14T0404 (Daten-Squad): visuell geprüft (korrekte Marke, lesbar, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · Beyond-Meat-Wordmark 2022 (schwarz) von Wikimedia Commons, unverändert; Lizenz laut Commons: Public domain (Text-Logo)",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Beyond_Meat_2022_logo.svg (Wikimedia Commons File:Beyond Meat 2022 logo.svg, Public domain / textlogo)",
+   "sha256": "28d7c709303f513bf741495a18cfecba71843d7d6de1ff6048e17d050e090421",
+   "products_impacted": 3,
+   "aliases": [
+    "Beyond Meat",
+    "BEYOND MEAT",
+    "Beyond Meat EU B.V."
+   ]
+  }
+ ],
+ "updated_fileless": [],
+ "aliases_added": {},
+ "rejected": {
+  "Little Lunch (online provider)": "own littlelunch.com shop closed 30.09.2025 ('Shop zu und nu?'); product pages only link to DE retailers Amazon/Flink/Picnic/Rewe/Rossmann — no own sale/AT delivery; existing little-lunch logo row unchanged",
+  "Yuu'n Mee YuunMee_Logo_Loader.png": "loader animation frame — the header SVG is used instead",
+  "Allgroo ALLGROO_LOGOS.png": "multi-brand strip (allgroo classics / 한국밥상 / hangroo / みんなの和食) — single allgroo wordmark used instead",
+  "Bedford B_logo.png": "101×64 monogram 'B' only — full wordmark used instead",
+  "Costa costa-garnele.svg": "decoration shrimp icon only, no wordmark",
+  "Pierre Baguette": "pierrebaguette.sk homepage exposes only banner/product images (no logo asset URL; logo inline in SPA) — not scraped further, deferred",
+  "The Green Garden / Wiener Virtshaus / Pasta Box / Elsässer": "known rejects from earlier runs — not re-probed"
+ },
+ "vision_gate": {
+  "yuun-mee": "PASS — official red card, white YUU'N MEE wordmark + slogan (SVG 869x521 viewBox)",
+  "allgroo": "PASS — red allgroo leaf+smile wordmark on transparent (706x340)",
+  "bedford": "PASS — Bedford script + swoosh + 'Delikat essen', recoloured dark (501x184)",
+  "costa": "PASS (small) — blue COSTA with shrimp-O on white brush (304x121)",
+  "beyond-meat": "PASS — black BEYOND MEAT 2022 wordmark (SVG 1024x123)"
+ },
+ "counts": {
+  "added": 5,
+  "updated_fileless": 0,
+  "total_rows": 291,
+  "with_file": 276,
+  "products_impacted_total": 20
+ },
+ "sha256": {
+  "yuun-mee": "c7d6d4f3c99b87945a40d477cc0ede2f0cc5734d49909b41dd650bd43c063812",
+  "allgroo": "5d60e5427dea42c0f0baf6b35784fabcb78f15150c9f035762cb157793302e94",
+  "bedford": "262c399b8ad875f97230777b196e2ea939b838c3456789327a21b1bf78b9f3e3",
+  "costa": "65bc9556066ca239c4139d25fa3480c69145294607415ebe9e794fe4c9461dba",
+  "beyond-meat": "28d7c709303f513bf741495a18cfecba71843d7d6de1ff6048e17d050e090421"
+ }
+}

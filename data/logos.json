@@ -3108,5 +3108,68 @@
    "Bofrost",
    "bofrost* Austria GmbH"
   ]
+ },
+ {
+  "slug": "yuun-mee",
+  "name": "Yuu'n Mee",
+  "category": "Markenhersteller",
+  "file": "logos/yuun-mee.svg",
+  "source_url": "https://www.yuu-n-mee.at/wp-content/themes/ynm-theme/Logo_YNM_0109_V4.svg (yuu-n-mee.at robots: Disallow only /wp-admin/)",
+  "brands": [
+   "Yuu'n Mee",
+   "Yuu'n mee",
+   "Yuu´n Mee",
+   "Yuu’n Mee",
+   "YUU'N MEE",
+   "Yuu'n Mee fine foods Vertriebs-GmbH"
+  ]
+ },
+ {
+  "slug": "allgroo",
+  "name": "Allgroo",
+  "category": "Markenhersteller",
+  "file": "logos/allgroo.png",
+  "source_url": "https://static.wixstatic.com/media/447e6e_dc2ee3d31ba94898956a184b37dd622b~mv2.png (allgroo_logo_2.png, Header von allgroo.com; robots Allow /)",
+  "brands": [
+   "Allgroo",
+   "allgroo",
+   "ALLGROO"
+  ]
+ },
+ {
+  "slug": "bedford",
+  "name": "Bedford",
+  "category": "Markenhersteller",
+  "file": "logos/bedford.png",
+  "source_url": "https://bedford.de/wp-content/uploads/2018/06/bf_logo_white.png (Header von bedford.de; robots Disallow nur wc-logs/transients/add-to-cart/wp-admin)",
+  "brands": [
+   "Bedford",
+   "BEDFORD",
+   "Bedford GmbH + Co. KG"
+  ]
+ },
+ {
+  "slug": "costa",
+  "name": "Costa",
+  "category": "Markenhersteller",
+  "file": "logos/costa.png",
+  "source_url": "https://www.costa.de/_assets/639468b5d67b471e16952a11b4231513/Standard/Images/Footer/footer_logo_costa.png (costa.de robots Allow /)",
+  "brands": [
+   "Costa",
+   "COSTA",
+   "COSTA Meeresspezialitäten"
+  ]
+ },
+ {
+  "slug": "beyond-meat",
+  "name": "Beyond Meat",
+  "category": "Markenhersteller",
+  "file": "logos/beyond-meat.svg",
+  "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Beyond_Meat_2022_logo.svg (Wikimedia Commons File:Beyond Meat 2022 logo.svg, Public domain / textlogo)",
+  "brands": [
+   "Beyond Meat",
+   "BEYOND MEAT",
+   "Beyond Meat EU B.V."
+  ]
  }
 ]

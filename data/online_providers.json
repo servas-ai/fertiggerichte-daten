@@ -230,8 +230,11 @@
   "Marley Spoon Ready-to-heat": "public menu without prices/nutrition (login wall) — unchanged"
  },
  "dead_ends_verified_2026-10-14T0341": {
-  "Little Lunch": "littlelunch.com = WordPress (Rank Math) with produkt-sitemap.xml; no Shopify /products.json (404), no WooCommerce Store API (/wp-json/wc/store 404) — online sale + AT delivery not verified yet (candidate for a later run, not a dead end)",
+  "Little Lunch": "littlelunch.com = WordPress (Rank Math) with produkt-sitemap.xml; no Shopify /products.json (404), no WooCommerce Store API (/wp-json/wc/store 404) — online sale + AT delivery not verified yet (candidate for a later run, not a dead end) → re-probed 2026-10-14T0404: DEAD END (see dead_ends_verified_2026-10-14T0404)",
   "Dinnerly": "dinnerly.at 301 → dinnerly.com (meal-kit, not finished meals)",
   "every. AGB conflict": "AGB §6 says DE-only, shipping policy lists Österreich (DPD) — shipping policy (newer, explicit) used; conflict documented"
+ },
+ "dead_ends_verified_2026-10-14T0404": {
+  "Little Lunch": "own littlelunch.com online shop closed 30.09.2025 ('Shop zu und nu?' page); product pages (23 in produkt-sitemap) show ingredients + nutrition only and link to DE retailers (Amazon.de, Flink, Picnic, REWE, Rossmann) — no own sale, no AT delivery; brand stays covered via AT grocery rows (dm/Billa/Spar). Evidence raw/littlelunch_2026-10-14T0404.json"
  }
 }

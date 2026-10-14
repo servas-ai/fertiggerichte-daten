@@ -1,0 +1,97 @@
+{
+ "run": "2026-10-14T0404 Daten-Squad",
+ "generated_at": "2026-10-14T04:16:14.675486+00:00",
+ "provider": "Little Lunch",
+ "domain": "littlelunch.com",
+ "outcome": "DEAD_END (no own shop since 30.09.2025, no AT delivery from brand site)",
+ "robots": {
+  "url": "https://littlelunch.com/robots.txt",
+  "disallow": [
+   "/wp-admin/"
+  ],
+  "sitemap": "https://littlelunch.com/sitemap_index.xml"
+ },
+ "sitemaps": {
+  "index": "Rank Math (post, page, produkt, category, collections)",
+  "produkt_sitemap_lastmod": "2026-04-07T07:25:01+00:00",
+  "product_urls": [
+   "https://littlelunch.com/products/high-protein-linsen-dal-bio-520g/",
+   "https://littlelunch.com/products/high-protein-tikka-masala-bio-520g/",
+   "https://littlelunch.com/products/high-protein-mango-curry-bio-520g/",
+   "https://littlelunch.com/products/thai-curry-bio/",
+   "https://littlelunch.com/products/suesskartoffel-curry-bio/",
+   "https://littlelunch.com/products/tomatensuppe-bio/",
+   "https://littlelunch.com/products/spaetzlegulasch-bio/",
+   "https://littlelunch.com/products/rote-linsensuppe-bio/",
+   "https://littlelunch.com/products/ravioli-bio/",
+   "https://littlelunch.com/products/protein-bowl-bio/",
+   "https://littlelunch.com/products/little-marokko-bio/",
+   "https://littlelunch.com/products/little-italy-bio/",
+   "https://littlelunch.com/products/linseneintopf-bio/",
+   "https://littlelunch.com/products/kuerbisuppe-bio/",
+   "https://littlelunch.com/products/kartoffelsuppe-bio/",
+   "https://littlelunch.com/products/karotte-orange-bio/",
+   "https://littlelunch.com/products/chili-sin-carne-bio/",
+   "https://littlelunch.com/products/gulaschsuppe-bio/",
+   "https://littlelunch.com/products/chili-con-carne-bio/",
+   "https://littlelunch.com/products/gemuesebruehe-klassik-420-g-bio/",
+   "https://littlelunch.com/products/lieblingssauce-bolognese-bio/",
+   "https://littlelunch.com/products/lieblingssauce-tomate-klassik-bio/",
+   "https://littlelunch.com/products/lieblingssauce-dal-masala-bio/"
+  ],
+  "product_count": 23,
+  "page_sitemap_shop_pages": [
+   "https://littlelunch.com/shop/",
+   "https://littlelunch.com/warenkorb/",
+   "https://littlelunch.com/kasse/",
+   "https://littlelunch.com/mein-konto/",
+   "https://littlelunch.com/shop-zu-und-nu/"
+  ]
+ },
+ "shop_closure": {
+  "url": "https://littlelunch.com/shop-zu-und-nu/",
+  "http": 200,
+  "quote": "Daher haben wir uns entschlossen unseren eigenen Onlineshop leider zum 30. September 2025 zu schließen. Ihr findet uns weiterhin je nach Region bei diesen Händlern oder online",
+  "shop_page": "https://littlelunch.com/shop/ = 200 but empty (newsletter only), warenkorb/kasse empty shells; no WooCommerce markup, no add-to-cart, no prices"
+ },
+ "product_page_sample": {
+  "url": "https://littlelunch.com/products/thai-curry-bio/",
+  "title": "Thai Curry Bio 350g",
+  "has": [
+   "ingredients",
+   "nutrition per 100 g (58 kcal, Fett 1,9, ges. 0,4, KH 7,5, Zucker 3,0, Eiweiß 1,5, Salz 1,0)"
+  ],
+  "missing": [
+   "price",
+   "GTIN/EAN",
+   "JSON-LD Product/Offer",
+   "own cart"
+  ],
+  "buy_links": "'Entdecke dieses Produkt in den unten aufgelisteten Onlineshops': Amazon.de brand store, Flink, Picnic (picnic.app/de), REWE.de search, Rossmann.de — all German retailers"
+ },
+ "prior_probe_T0341": {
+  "shopify_products_json": 404,
+  "woocommerce_store_api": 404
+ },
+ "operator": {
+  "impressum_url": "https://littlelunch.com/impressum/",
+  "publisher": "Allos Hof-Manufaktur GmbH",
+  "address": "Hoerneckestraße 39, 28217 Bremen",
+  "register": "HRB 27982 HB (AG Bremen)",
+  "vat": "DE284733525",
+  "responsible": "Eike Mehlhop",
+  "eco_control": "DE-ÖKO-001",
+  "host": "Mittwald CM Service GmbH & Co. KG",
+  "footer": "© 2026 Little Lunch GmbH.",
+  "matches_companies_csv": "allos-hof-manufaktur-gmbh (Little Lunch brand, VIES/imprint verified) — unchanged"
+ },
+ "at_presence": "Little Lunch is already covered via AT grocery rows (12 in products.csv: dm 8, Billa 2, Spar 2); 3 of them without nutrition (Spar Thai Curry ×2, dm Pilz Risotto)",
+ "follow_up": "Brand product pages publish official nutrition/ingredients for 23 products (no price/GTIN) — usable as manufacturer nutrition source for the 2 Spar Thai Curry rows in an hourly twin-nutrition pass (Pilz Risotto no longer listed). Not applied in this run.",
+ "files_sha256": {
+  "shop-zu-und-nu.html": "640045bc44f6e94e04385c40dac56730be8acd6985626264e8f04196313ad1ee",
+  "products_thai-curry-bio.html": "5c5655955103103ea3041441534a41e56a7a68e3baf846fe010147546585bf01",
+  "impressum.html": "c5a77f2ad93ab4506958a39ef36f126f00ae804a184432ba39216b7abed601cf",
+  "produkt.xml": "6e0dc003a07775834d73834c4bd811dfb687aea7520fa37367c0ff782c260247"
+ },
+ "rate": "sequential, ~1 req/s, UA servas-food-connectors/1.0, no login/cookies"
+}
