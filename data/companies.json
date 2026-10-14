@@ -6253,5 +6253,55 @@
   "imprint_url": "https://kernbeisser.at/impressum/",
   "register_court": "Handelsgericht Wien",
   "hrb": null
+ },
+ {
+  "slug": "golden-veggies-gmbh",
+  "name": "Golden Veggies GmbH",
+  "role": "producer",
+  "legal_name": "Golden Veggies GmbH",
+  "lei": null,
+  "register_id": "FN 550344f",
+  "register_authority": "Landesgericht Graz",
+  "fn": "FN 550344f",
+  "legal_form_code": null,
+  "country": "AT",
+  "address": "Wagerberg 37, 8271 Bad Waltersdorf, AT",
+  "entity_status": null,
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": "Matthias Wiesenhofer, MSc. (Geschäftsführer lt. Impressum)",
+  "employees": null,
+  "revenue": null,
+  "website": "https://goldblatt.at",
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Goldblatt"
+  ],
+  "chains": [
+   "Online: Goldblatt"
+  ],
+  "product_count": 8,
+  "median_price_eur": 11.99,
+  "median_eur_per_10g_protein": 4.11,
+  "nace": null,
+  "sources": [
+   "https://goldblatt.at/policies/legal-notice",
+   "https://ec.europa.eu/taxation_customs/vies/"
+  ],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-14T05:41:28Z",
+  "chain_product_count": 8,
+  "registry_status": "verified_vies_impressum",
+  "uid": "ATU76525048",
+  "uid_vies_name": "Golden Veggies GmbH",
+  "uid_vies_address": "Wagerberg 37, AT-8271 Bad Waltersdorf",
+  "uid_checked_at": "2026-10-14T05:41:28Z",
+  "imprint_url": "https://goldblatt.at/policies/legal-notice",
+  "register_court": "Landesgericht Graz",
+  "hrb": null
  }
 ]
