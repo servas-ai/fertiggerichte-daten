@@ -1,0 +1,495 @@
+{
+ "run": "2026-10-14T0202 Daten-Squad",
+ "source": "https://api.gleif.org/api/v1/lei-records/{lei}/(direct|ultimate)-parent[-reporting-exception]",
+ "unique_leis": 57,
+ "summary_ultimate": {
+  "parent": 10,
+  "NON_CONSOLIDATING": 13,
+  "NATURAL_PERSONS": 11,
+  "NO_KNOWN_PERSON": 12,
+  "NON_PUBLIC": 6,
+  "none": 2,
+  "NO_LEI": 3
+ },
+ "records": [
+  {
+   "lei": "2138001ZZP25K3WV7T37",
+   "direct-parent": {
+    "lei": "969500KMUQ2B6CBAF162",
+    "legal_name": "DANONE",
+    "country": "FR"
+   },
+   "ultimate-parent": {
+    "lei": "969500KMUQ2B6CBAF162",
+    "legal_name": "DANONE",
+    "country": "FR"
+   },
+   "self": "DANONE DEUTSCHLAND GMBH",
+   "reg": "ISSUED"
+  },
+  {
+   "lei": "213800KX27RXC7IQBF65",
+   "direct-parent-exception": "NON_CONSOLIDATING",
+   "ultimate-parent-exception": "NON_CONSOLIDATING",
+   "self": "DANONE ÖSTERREICH GMBH",
+   "reg": "ISSUED"
+  },
+  {
+   "lei": "213800S75WRICRU1WM83",
+   "direct-parent-exception": "NON_CONSOLIDATING",
+   "ultimate-parent-exception": "NON_CONSOLIDATING",
+   "self": "PRINCES FOODS B.V.",
+   "reg": "ISSUED"
+  },
+  {
+   "lei": "213800T85Z9RNQFF5W93",
+   "direct-parent": {
+    "lei": "213800759TAMO4LXIL19",
+    "legal_name": "MARKS AND SPENCER CZECH REPUBLIC, A.S.",
+    "country": "CZ"
+   },
+   "ultimate-parent": {
+    "lei": "213800CN1RI3UCIZWB95",
+    "legal_name": "MARKS AND SPENCER P.L.C.",
+    "country": "GB"
+   },
+   "self": "MARKS AND SPENCER SERVICES S.R.O.",
+   "reg": "LAPSED"
+  },
+  {
+   "lei": "2594008R9U26N8O08Z15",
+   "direct-parent-exception": "NATURAL_PERSONS",
+   "ultimate-parent-exception": "NATURAL_PERSONS",
+   "self": "Doppelt Spółka z Ograniczoną Odpowiedzialnością",
+   "reg": "ISSUED"
+  },
+  {
+   "lei": "315700070TKBY0UVE318",
+   "direct-parent-exception": "NO_KNOWN_PERSON",
+   "ultimate-parent-exception": "NO_KNOWN_PERSON",
+   "self": "DELAMARIS konzervna industrija d.o.o.",
+   "reg": "LAPSED"
+  },
+  {
+   "lei": "315700X0LM9LA33FCG61",
+   "direct-parent-exception": "NATURAL_PERSONS",
+   "ultimate-parent-exception": "NATURAL_PERSONS",
+   "self": "DAIRY 4 FUN s.r.o.",
+   "reg": "ISSUED"
+  },
+  {
+   "lei": "391200BJDTMV65NJ7G34",
+   "direct-parent-exception": "NO_KNOWN_PERSON",
+   "ultimate-parent-exception": "NO_KNOWN_PERSON",
+   "self": "dm-drogerie markt GmbH + Co. KG",
+   "reg": "ISSUED"
+  },
+  {
+   "lei": "391200MC0M0SGKVN4318",
+   "direct-parent-exception": "NON_CONSOLIDATING",
+   "ultimate-parent-exception": "NON_CONSOLIDATING",
+   "self": "Tress Lebensmittel GmbH & Co. KG",
+   "reg": "ISSUED"
+  },
+  {
+   "lei": "52990014M4S00CNSOO81",
+   "direct-parent": {
+    "lei": "529900XPZJ6XSOZ86I34",
+    "legal_name": "Landgenossenschaft Ennstal eGen",
+    "country": "AT"
+   },
+   "ultimate-parent": {
+    "lei": "529900XPZJ6XSOZ86I34",
+    "legal_name": "Landgenossenschaft Ennstal eGen",
+    "country": "AT"
+   },
+   "self": "Landgenossenschaft Ennstal LANDENA KG",
+   "reg": "ISSUED"
+  },
+  {
+   "lei": "5299002J58F8I9465C12",
+   "direct-parent-exception": "NON_PUBLIC",
+   "ultimate-parent-exception": "NON_PUBLIC",
+   "self": "Dr. Oetker GmbH",
+   "reg": "ISSUED"
+  },
+  {
+   "lei": "52990035MITUYUCR8F03",
+   "direct-parent": {
+    "lei": "959800NW6DLQT89M3240",
+    "legal_name": "EBRO FOODS, S.A.",
+    "country": "ES"
+   },
+   "ultimate-parent": {
+    "lei": "959800NW6DLQT89M3240",
+    "legal_name": "EBRO FOODS, S.A.",
+    "country": "ES"
+   },
+   "self": "Euryza GmbH",
+   "reg": "LAPSED"
+  },
+  {
+   "lei": "5299003EXF4GJXGELC41",
+   "direct-parent": null,
+   "ultimate-parent": null,
+   "self": "GMS GOURMET GmbH",
+   "reg": "DUPLICATE"
+  },
+  {
+   "lei": "5299003P9WXG9T2P5Y25",
+   "direct-parent-exception": "NON_PUBLIC",
+   "ultimate-parent-exception": "NON_PUBLIC",
+   "self": "Billa Aktiengesellschaft",
+   "reg": "LAPSED"
+  },
+  {
+   "lei": "5299003WXPQZV0HCD860",
+   "direct-parent-exception": "NATURAL_PERSONS",
+   "ultimate-parent-exception": "NATURAL_PERSONS",
+   "self": "Greisinger GmbH",
+   "reg": "ISSUED"
+  },
+  {
+   "lei": "5299003YOGW9AD7K4H05",
+   "direct-parent-exception": "NO_KNOWN_PERSON",
+   "ultimate-parent-exception": "NO_KNOWN_PERSON",
+   "self": "Rügenwalder Mühle Carl Müller GmbH & Co. KG",
+   "reg": "LAPSED"
+  },
+  {
+   "lei": "5299007HKZK4RSU17874",
+   "direct-parent-exception": "NON_CONSOLIDATING",
+   "ultimate-parent-exception": "NON_CONSOLIDATING",
+   "self": "MPREIS Warenvertriebs GmbH",
+   "reg": "LAPSED"
+  },
+  {
+   "lei": "5299007YW7YPUBPNPB21",
+   "direct-parent-exception": "NON_CONSOLIDATING",
+   "ultimate-parent-exception": "NON_CONSOLIDATING",
+   "self": "Staudinger Delikatessen GmbH",
+   "reg": "ISSUED"
+  },
+  {
+   "lei": "52990090AITYIP340F59",
+   "direct-parent-exception": "NATURAL_PERSONS",
+   "ultimate-parent-exception": "NATURAL_PERSONS",
+   "self": "ADRIATIC GROUP GmbH",
+   "reg": "ISSUED"
+  },
+  {
+   "lei": "52990092YPC9C4JYBN76",
+   "direct-parent-exception": "NON_CONSOLIDATING",
+   "ultimate-parent-exception": "NON_CONSOLIDATING",
+   "self": "efko Frischfrucht und Delikatessen GmbH",
+   "reg": "ISSUED"
+  },
+  {
+   "lei": "529900AQZT30CV86TF72",
+   "direct-parent": {
+    "lei": "529900PAZEG157741862",
+    "legal_name": "Hofmann-Menü Holdings GmbH",
+    "country": "DE"
+   },
+   "ultimate-parent": {
+    "lei": "549300J0KXBTDLOB5L43",
+    "legal_name": "PARTNERS GROUP STARFROST LIMITED",
+    "country": "GG"
+   },
+   "self": "Hofmann Menü-Manufaktur GmbH",
+   "reg": "LAPSED"
+  },
+  {
+   "lei": "529900ASH0JL6PAY8526",
+   "direct-parent": {
+    "lei": "529900DQ8JP1LS3K2A47",
+    "legal_name": "Unternehmensgruppe Theo Müller S.e.c.s.",
+    "country": "LU"
+   },
+   "ultimate-parent": {
+    "lei": "529900DQ8JP1LS3K2A47",
+    "legal_name": "Unternehmensgruppe Theo Müller S.e.c.s.",
+    "country": "LU"
+   },
+   "self": "Molkerei Alois Müller GmbH & Co. KG",
+   "reg": "ISSUED"
+  },
+  {
+   "lei": "529900B04CNPB6E7MO40",
+   "direct-parent-exception": "NON_PUBLIC",
+   "ultimate-parent-exception": "NON_PUBLIC",
+   "self": "Andros Deutschland GmbH",
+   "reg": "ISSUED"
+  },
+  {
+   "lei": "529900BHG8J8LULWXG88",
+   "direct-parent-exception": "NO_KNOWN_PERSON",
+   "ultimate-parent-exception": "NO_KNOWN_PERSON",
+   "self": "followfood GmbH",
+   "reg": "ISSUED"
+  },
+  {
+   "lei": "529900C76ISEAIYH2E65",
+   "direct-parent-exception": "NO_KNOWN_PERSON",
+   "ultimate-parent-exception": "NO_KNOWN_PERSON",
+   "self": "Ehrmann GmbH Oberschönegg im Allgäu",
+   "reg": "ISSUED"
+  },
+  {
+   "lei": "529900HWBYCO8M2UN457",
+   "direct-parent-exception": "NON_CONSOLIDATING",
+   "ultimate-parent-exception": "NON_CONSOLIDATING",
+   "self": "BARILLA G. E R. FRATELLI - SOCIETA' PER AZIONI",
+   "reg": "ISSUED"
+  },
+  {
+   "lei": "529900HY3M5ZWDH7S465",
+   "direct-parent": null,
+   "ultimate-parent": null,
+   "self": "Wiesbauer österreichische Wurstspezialitäten GmbH",
+   "reg": "LAPSED"
+  },
+  {
+   "lei": "529900I9B0UN7I6KWB59",
+   "direct-parent-exception": "NON_CONSOLIDATING",
+   "ultimate-parent-exception": "NON_CONSOLIDATING",
+   "self": "Franz Ablinger & Co. Fleischhauereibetrieb Gesellschaft m.b.H.",
+   "reg": "ISSUED"
+  },
+  {
+   "lei": "529900IX3JFWBU805S14",
+   "direct-parent-exception": "NO_KNOWN_PERSON",
+   "ultimate-parent-exception": "NO_KNOWN_PERSON",
+   "self": "Berglandmilch eGen",
+   "reg": "ISSUED"
+  },
+  {
+   "lei": "529900JLDYJZIRXRD379",
+   "direct-parent": {
+    "lei": "529900XSTAE561178282",
+    "legal_name": "Raiffeisenbankengruppe OÖ Verbund eGen",
+    "country": "AT"
+   },
+   "ultimate-parent": {
+    "lei": "529900XSTAE561178282",
+    "legal_name": "Raiffeisenbankengruppe OÖ Verbund eGen",
+    "country": "AT"
+   },
+   "self": "MARESI Austria GmbH",
+   "reg": "ISSUED"
+  },
+  {
+   "lei": "529900JOHLZA5944OY29",
+   "direct-parent-exception": "NATURAL_PERSONS",
+   "ultimate-parent-exception": "NATURAL_PERSONS",
+   "self": "NÖM AG",
+   "reg": "ISSUED"
+  },
+  {
+   "lei": "529900MNT8H6TLU4WK98",
+   "direct-parent-exception": "NO_KNOWN_PERSON",
+   "ultimate-parent-exception": "NO_KNOWN_PERSON",
+   "self": "Hofer KG.",
+   "reg": "LAPSED"
+  },
+  {
+   "lei": "529900OEMWTCZKJMYE61",
+   "direct-parent-exception": "NO_KNOWN_PERSON",
+   "ultimate-parent-exception": "NO_KNOWN_PERSON",
+   "self": "Zott SE & Co. KG",
+   "reg": "ISSUED"
+  },
+  {
+   "lei": "529900OYBF0IQCUQ4E29",
+   "direct-parent-exception": "NO_KNOWN_PERSON",
+   "ultimate-parent-exception": "NO_KNOWN_PERSON",
+   "self": "Biovegan GmbH",
+   "reg": "LAPSED"
+  },
+  {
+   "lei": "529900PNAKPBLDOF8724",
+   "direct-parent-exception": "NO_KNOWN_PERSON",
+   "ultimate-parent-exception": "NO_KNOWN_PERSON",
+   "self": "WEINBERGMAIER GmbH",
+   "reg": "ISSUED"
+  },
+  {
+   "lei": "529900TSU1ECVJ0FYL45",
+   "direct-parent-exception": "NO_LEI",
+   "ultimate-parent-exception": "NO_LEI",
+   "self": "Estyria Naturprodukte GmbH",
+   "reg": "ISSUED"
+  },
+  {
+   "lei": "529900VPZ1K9QECCLM53",
+   "direct-parent-exception": "NON_PUBLIC",
+   "ultimate-parent-exception": "NON_PUBLIC",
+   "self": "REWE International AG",
+   "reg": "ISSUED"
+  },
+  {
+   "lei": "529900Y9ZL3RKKWV4276",
+   "direct-parent-exception": "NO_LEI",
+   "ultimate-parent-exception": "NO_LEI",
+   "self": "SPAR Österreichische Warenhandels-Aktiengesellschaft",
+   "reg": "ISSUED"
+  },
+  {
+   "lei": "529900YH6DT4UAGNHL65",
+   "direct-parent-exception": "NATURAL_PERSONS",
+   "ultimate-parent-exception": "NATURAL_PERSONS",
+   "self": "Winkelbauer GmbH",
+   "reg": "ISSUED"
+  },
+  {
+   "lei": "529900ZC59O869RH9I95",
+   "direct-parent-exception": "NON_CONSOLIDATING",
+   "ultimate-parent-exception": "NON_CONSOLIDATING",
+   "self": "Radatz - Feine Wiener Fleischwaren Gesellschaft m.b.H.",
+   "reg": "ISSUED"
+  },
+  {
+   "lei": "529900ZH3GAR1JU6HQ34",
+   "direct-parent-exception": "NON_CONSOLIDATING",
+   "ultimate-parent-exception": "NON_CONSOLIDATING",
+   "self": "Kreyenhop & Kluge GmbH & Co.KG",
+   "reg": "ISSUED"
+  },
+  {
+   "lei": "529900ZJN1U2VKYD0T07",
+   "direct-parent-exception": "NO_KNOWN_PERSON",
+   "ultimate-parent-exception": "NO_KNOWN_PERSON",
+   "self": "KARNERTA GmbH",
+   "reg": "ISSUED"
+  },
+  {
+   "lei": "5493006K9J3OVPXZW688",
+   "direct-parent-exception": "NON_CONSOLIDATING",
+   "ultimate-parent-exception": "NON_CONSOLIDATING",
+   "self": "MARS AUSTRIA OG",
+   "reg": "LAPSED"
+  },
+  {
+   "lei": "549300GUV737JK7Y5C77",
+   "direct-parent-exception": "NATURAL_PERSONS",
+   "ultimate-parent-exception": "NATURAL_PERSONS",
+   "self": "Nestle Österreich GmbH",
+   "reg": "ISSUED"
+  },
+  {
+   "lei": "549300SQTH5OQZJD6B75",
+   "direct-parent-exception": "NON_PUBLIC",
+   "ultimate-parent-exception": "NON_PUBLIC",
+   "self": "TOPS FOODS",
+   "reg": "ISSUED"
+  },
+  {
+   "lei": "549300VS403KYQOOUC10",
+   "direct-parent": {
+    "lei": "549300PZS8G8RG6RVZ52",
+    "legal_name": "ORKLA ASA",
+    "country": "NO"
+   },
+   "ultimate-parent": {
+    "lei": "549300PZS8G8RG6RVZ52",
+    "legal_name": "ORKLA ASA",
+    "country": "NO"
+   },
+   "self": "FELIX AUSTRIA Gesellschaft m.b.H.",
+   "reg": "LAPSED"
+  },
+  {
+   "lei": "549300XYU1SL27MVSQ48",
+   "direct-parent-exception": "NON_PUBLIC",
+   "ultimate-parent-exception": "NON_PUBLIC",
+   "self": "GALANA NV",
+   "reg": "LAPSED"
+  },
+  {
+   "lei": "815600530D7A6B12BC38",
+   "direct-parent-exception": "NATURAL_PERSONS",
+   "ultimate-parent-exception": "NATURAL_PERSONS",
+   "self": "PASTIFICIO RANA S.P.A.",
+   "reg": "ISSUED"
+  },
+  {
+   "lei": "8156007EFCC74E27AB09",
+   "direct-parent-exception": "NATURAL_PERSONS",
+   "ultimate-parent-exception": "NATURAL_PERSONS",
+   "self": "DR. SCHAER SPA",
+   "reg": "ISSUED"
+  },
+  {
+   "lei": "815600B5C62307B12E60",
+   "direct-parent-exception": "NON_CONSOLIDATING",
+   "ultimate-parent-exception": "NON_CONSOLIDATING",
+   "self": "BERTAGNI 1882 S.P.A.",
+   "reg": "ISSUED"
+  },
+  {
+   "lei": "815600DABDA3F47A6A19",
+   "direct-parent-exception": "NATURAL_PERSONS",
+   "ultimate-parent-exception": "NATURAL_PERSONS",
+   "self": "RISO GALLO S.P.A.",
+   "reg": "ISSUED"
+  },
+  {
+   "lei": "815600FD694EBCF44005",
+   "direct-parent-exception": "NON_CONSOLIDATING",
+   "ultimate-parent-exception": "NON_CONSOLIDATING",
+   "self": "RISO SCOTTI S.P.A.",
+   "reg": "ISSUED"
+  },
+  {
+   "lei": "894500XJAOZKM5ACGD13",
+   "direct-parent-exception": "NO_KNOWN_PERSON",
+   "ultimate-parent-exception": "NO_KNOWN_PERSON",
+   "self": "GREENFORCE FUTURE FOOD AG",
+   "reg": "ISSUED"
+  },
+  {
+   "lei": "96760063YASRHVRSR697",
+   "direct-parent-exception": "NO_LEI",
+   "ultimate-parent-exception": "NO_LEI",
+   "self": "AlnaturA Produktions- und Handels GmbH",
+   "reg": "ISSUED"
+  },
+  {
+   "lei": "9695006ARZU1PBC9M649",
+   "direct-parent": {
+    "lei": "969500UZO6890KVVXC24",
+    "legal_name": "ANDROS ET CIE",
+    "country": "FR"
+   },
+   "ultimate-parent": {
+    "lei": "969500UZO6890KVVXC24",
+    "legal_name": "ANDROS ET CIE",
+    "country": "FR"
+   },
+   "self": "ANDROS",
+   "reg": "ISSUED"
+  },
+  {
+   "lei": "9695008S54YQL1E0KN19",
+   "direct-parent": {
+    "lei": "969500UQT1DQ236LGB34",
+    "legal_name": "FINANCIERE RT",
+    "country": "FR"
+   },
+   "ultimate-parent": {
+    "lei": "969500UQT1DQ236LGB34",
+    "legal_name": "FINANCIERE RT",
+    "country": "FR"
+   },
+   "self": "LA CREPE DE BROCELIANDE",
+   "reg": "LAPSED"
+  },
+  {
+   "lei": "98450010EDCCFFF5CF87",
+   "direct-parent-exception": "NATURAL_PERSONS",
+   "ultimate-parent-exception": "NATURAL_PERSONS",
+   "self": "Glatz GmbH",
+   "reg": "ISSUED"
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "run": "2026-10-14T0202 Daten-Squad",
+ "generated_at": "2026-10-14T02:10:22.016599+00:00",
+ "added": [
+  {
+   "slug": "juit",
+   "source": "https://www.juit.com/favicon/transparent.svg",
+   "sha256": "6cf61dcfb7b65d2a5633a2b86d43cb247b696d15d1c0dd9fb5e7355c831c4354",
+   "note": "Vision gate 2026-10-14T0202 (Daten-Squad): visuell geprüft (korrekte Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · offizielles juit.com Favicon-SVG = JUIT-Wordmark (#1C1C1C), Pfade unverändert, nur viewBox auf die Wortmarke zugeschnitten"
+  }
+ ],
+ "vision_gate": {
+  "juit": "PASS — black JUIT block wordmark on white (630x300 render)"
+ },
+ "counts": {
+  "total_rows": 285,
+  "with_file": 270
+ }
+}

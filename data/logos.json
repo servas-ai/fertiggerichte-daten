@@ -3080,5 +3080,17 @@
    "PENNY READY",
    "PennyReady"
   ]
+ },
+ {
+  "slug": "juit",
+  "name": "Juit",
+  "category": "Online-Mealprep",
+  "file": "logos/juit.svg",
+  "source_url": "https://www.juit.com/favicon/transparent.svg",
+  "brands": [
+   "Juit",
+   "JUIT",
+   "Juit GmbH"
+  ]
  }
 ]

@@ -1,0 +1,948 @@
+{
+ "run": "2026-10-14T0202 Daten-Squad",
+ "generated_at": "2026-10-14T02:11:10.482197+00:00",
+ "source": "https://cdn.juit.gmbh/content-de.json",
+ "source_sha256": "d5247d3b50c9e91a11dfd812b95578ae1e07a88f274b92ebdace6d3a317747ae",
+ "source_bytes": 2157859,
+ "robots": {
+  "www.juit.com/robots.txt": "Disallow only /order /profile /checkout /thankyou /more-time-for-you (de/en)",
+  "cdn.juit.gmbh/robots.txt": "Cloudflare content-signal header only, no Disallow"
+ },
+ "dish_entries": 116,
+ "sellable": 50,
+ "imported": 50,
+ "images_head": {
+  "200": 50
+ },
+ "prices": "not public: api.juitnow.com /prices/v1/pricelists, /locations/v1 → HTTP 401 'Authentication required' (2026-10-14T02:06Z) — not bypassed; price_eur None",
+ "shipping_at": "Juit FAQ (same bundle): 'Lieferung nach Österreich … Express Standard (8,99 €): Lieferung dienstags, mittwochs und freitags' (DHL)",
+ "operator": {
+  "name": "Juit GmbH",
+  "address": "Lutterstraße 14, 33617 Bielefeld, DE",
+  "register": "HRB 42921, Handelsregister Bielefeld",
+  "uid": "DE316648632",
+  "vies": "valid=True 2026-10-14T02:09Z (DE returns no name/address)",
+  "gleif": "no LEI record for 'Juit GmbH'",
+  "source": "Impressum entry in content-de.json / https://www.juit.com/de/impressum"
+ },
+ "not_imported_unsellable": [
+  "Asia Glasnudelbowl",
+  "Aubergine-Lentilcurry",
+  "Auberginen Tajine",
+  "Bandnudeln mit Bärlauchpesto",
+  "Barbarie-Festtagsente",
+  "Barbarie-Festtagsente “Fusion”",
+  "Black Rice & Veggies",
+  "Blumenkohlcurry Aloo Gobi",
+  "Chicken Tajine",
+  "Chicken Tikka Masala",
+  "Chickpea-Onepot",
+  "Frühlingspasta mit grünem Spargel",
+  "Getrüffelte Pasta",
+  "Glasnudeln mit Sesam-Hähnchen",
+  "Glass noodles with salmon and pak choi",
+  "Gnocchi in Champignon-Cremesauce",
+  "Golden Protein Bowl",
+  "Hackbällchen mit Feta",
+  "Hähnchen mit Bulgur Tabouleh-Style",
+  "Hähnchen-Geschnetzeltes XL",
+  "Hähnchenbrust mit Risotto",
+  "Hähnchenwürfel mit Mais-Frischkäsemash",
+  "Kräuterhähnchen",
+  "Lachs Mojo Rojo",
+  "Lachs mit Mandel-Dill-Pesto",
+  "Lachs mit Petersilien-Limettenpesto",
+  "Lachsfilet & Bandnudeln",
+  "Lammragout",
+  "Linguini Spargel-Bärlauch",
+  "Linguini mit Kräutergarnelen",
+  "Linguini mit Kräutergarnelen",
+  "Linguini mit Schweine-Medaillons",
+  "Linsenbolognese",
+  "Mac&Cheese Cauliflower",
+  "Nasi Goreng",
+  "No Chicken Tikka Masala",
+  "Pappardelle mit Seehecht",
+  "Pasta mit Feta und Tomatenvinaigrette",
+  "Penne mit Tomatensugo und Mozzarella",
+  "Pennette Walnuss-Pesto",
+  "Pennette con Pollo",
+  "Pilz-Risotto mit Kräuterlachs",
+  "Pink Pasta",
+  "Planted Protein Rainbowl",
+  "Planted Thai-Curry",
+  "Protein Pilz Pasta",
+  "Pulled Lachs Teriyaki-Style",
+  "Rigatoni alla Diavola",
+  "Rinderragout Brasato",
+  "Rinderragout mit Preiselbeeren",
+  "Rotes Kokoscurry mit Rindfleisch",
+  "Schweinerücken-Steak in Champignon-Sauce",
+  "Seelachs & Kräutergemüse",
+  "Seelachs mit Kokos-Spinat",
+  "Shrimp-Curry mit Zitronengras",
+  "Sommer-Bolognese",
+  "Spargel-Liebe",
+  "Spicy Pepper Beef",
+  "Spinat-Curry Veggie Palak",
+  "Sweet Potato Thai-Curry",
+  "Tex-Mex Chicken",
+  "Winterragout mit Apfelrotkohl",
+  "Zitronen-Risotto",
+  "Zitronenhähnchen XL",
+  "Zitronenlachs",
+  "Zitronenlachs mit Kartoffel-Bärlauchstampf"
+ ],
+ "products": [
+  {
+   "name": "High Protein Tuna Bolognese",
+   "ean": "4063587710027",
+   "size_g": 500.0,
+   "nutrition_100g": {
+    "kcal": 109.0,
+    "protein": 9.4,
+    "fat": 1.8,
+    "satfat": 0.3,
+    "carbs": 13.0,
+    "sugar": 2.6,
+    "fiber": 1.0,
+    "salt": 0.79
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/2UNuX6Blo2PwtfpHN0GnAF/ac73087c3451daa9b50e1610c036f13a/High_Protein_Tuna_Pasta_-_BL002.jpeg",
+   "source_url": "https://www.juit.com/de/gerichte/high-protein-tuna-pasta"
+  },
+  {
+   "name": "High Protein Tandoori Hähnchen Bowl",
+   "ean": "4063587710058",
+   "size_g": 500.0,
+   "nutrition_100g": {
+    "kcal": 99.0,
+    "protein": 9.3,
+    "fat": 3.8,
+    "satfat": 0.7,
+    "carbs": 6.3,
+    "sugar": 1.6,
+    "fiber": 1.6,
+    "salt": 0.86
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/2EBbC1geObELs2LYgju5I0/cc1e63ff07dbd28c267448f7189e543d/53661613-8051-449c-991c-9ee2d581020d.jpeg",
+   "source_url": "https://www.juit.com/de/gerichte/high-protein-tandoori-haehnchen"
+  },
+  {
+   "name": "Käsespätzle mit Hähnchen",
+   "ean": "4063587101740",
+   "size_g": 500.0,
+   "nutrition_100g": {
+    "kcal": 155.0,
+    "protein": 10.0,
+    "fat": 7.1,
+    "satfat": 3.6,
+    "carbs": 11.0,
+    "sugar": 1.6,
+    "fiber": 1.0,
+    "salt": 0.72
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/7bkTheGrWWJUvRxU4NMqlX/21eec466b268ef1a14a4fa5d2bf4171f/ef529510-635a-4178-9445-084141769074.png",
+   "source_url": "https://www.juit.com/de/gerichte/kaesespaetzle-mit-haehnchen"
+  },
+  {
+   "name": "High Protein Bolognese",
+   "ean": "4063587710010",
+   "size_g": 500.0,
+   "nutrition_100g": {
+    "kcal": 123.0,
+    "protein": 9.2,
+    "fat": 2.2,
+    "satfat": 0.5,
+    "carbs": 15.0,
+    "sugar": 2.4,
+    "fiber": 1.0,
+    "salt": 0.63
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/2jSrxhO7hjRRVD0g1pr9kR/8ca292ea8c1a46e1f60dc4c5b2a069d5/High_Protein_Bolognese_-_BL001-2.jpeg",
+   "source_url": "https://www.juit.com/de/gerichte/high-protein-bolognese"
+  },
+  {
+   "name": "Hackbällchen à la Siziliana",
+   "ean": "4063587100781",
+   "size_g": 475.0,
+   "nutrition_100g": {
+    "kcal": 115.0,
+    "protein": 5.8,
+    "fat": 3.0,
+    "satfat": 1.0,
+    "carbs": 13.0,
+    "sugar": 2.2,
+    "fiber": 1.4,
+    "salt": 1.0
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/1ImpXJ9UpE9ALTx4JtXbai/61e1f3701c28de51255a0fb217b7205a/OS078_new_Meatballs-Siciliana_Center_v2.jpg",
+   "source_url": "https://www.juit.com/de/gerichte/sizilianische-hackbaellchen"
+  },
+  {
+   "name": "99 Laps Tomaten-Spargel-Pasta",
+   "ean": "4063587710041",
+   "size_g": 550.0,
+   "nutrition_100g": {
+    "kcal": 118.0,
+    "protein": 4.1,
+    "fat": 2.6,
+    "satfat": 0.3,
+    "carbs": 18.0,
+    "sugar": 2.0,
+    "fiber": 1.8,
+    "salt": 0.63
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/2FoWHA3KptevHuo8OHzWaI/02eda0b59d8e2b950475e0d73158821f/BL004_99_Laps_Tomaten-Spargel-Pasta.png",
+   "source_url": "https://www.juit.com/de/gerichte/99-laps-tomaten-spargel-pasta"
+  },
+  {
+   "name": "Joghurt-Kräuter-Huhn",
+   "ean": "4063587100897",
+   "size_g": 470.0,
+   "nutrition_100g": {
+    "kcal": 110.0,
+    "protein": 6.5,
+    "fat": 4.2,
+    "satfat": 2.6,
+    "carbs": 11.0,
+    "sugar": 1.4,
+    "fiber": 1.0,
+    "salt": 0.88
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/3zLvjkoVj8XXboQp3nPbJX/0dd6707158423b17765bfe0b9fb647d8/OS089_Joghurt-Krauter-Huhn_Center.jpg",
+   "source_url": "https://www.juit.com/de/gerichte/joghurt-haehnchen-high-protein"
+  },
+  {
+   "name": "Pasta Tonno e Verdure",
+   "ean": "4063587101726",
+   "size_g": 500.0,
+   "nutrition_100g": {
+    "kcal": 109.0,
+    "protein": 8.7,
+    "fat": 2.8,
+    "satfat": 0.4,
+    "carbs": 11.0,
+    "sugar": 2.8,
+    "fiber": 1.0,
+    "salt": 0.94
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/1QkSl4asyO8vBdNpTvbizS/a7b3c410d32b365d74f0c45f635590ef/OS172_Pasta_Tonno_e_Verdure_09_b.jpeg",
+   "source_url": "https://www.juit.com/de/gerichte/pasta-tonno-e-verdure"
+  },
+  {
+   "name": "Lachsfilet Toscana",
+   "ean": "4063587101405",
+   "size_g": 490.0,
+   "nutrition_100g": {
+    "kcal": 90.0,
+    "protein": 5.4,
+    "fat": 2.8,
+    "satfat": 0.6,
+    "carbs": 10.0,
+    "sugar": 1.6,
+    "fiber": 0.6,
+    "salt": 0.85
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/5XY9kKp7iCygPx3MWSECpQ/2f48ed42e10dd44df4e91d4eb8e6ae05/OS140_Lachsfilet-Toscana_Center.jpg",
+   "source_url": "https://www.juit.com/de/gerichte/lachsfilet-toscana"
+  },
+  {
+   "name": "Peanut-Chicken",
+   "ean": "4063587101436",
+   "size_g": 480.0,
+   "nutrition_100g": {
+    "kcal": 118.0,
+    "protein": 6.9,
+    "fat": 4.9,
+    "satfat": 1.8,
+    "carbs": 10.0,
+    "sugar": 1.6,
+    "fiber": 1.3,
+    "salt": 0.56
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/5BN92RKrFTSwbMU5ZXeKXK/eaef984a2704ba4a8fa4494ba7cd8401/OS143_Peanut-Chicken_center.png",
+   "source_url": "https://www.juit.com/de/gerichte/peanut-chicken"
+  },
+  {
+   "name": "Tandoori Chicken",
+   "ean": "4063587100552",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "kcal": 108.0,
+    "protein": 8.3,
+    "fat": 3.2,
+    "satfat": 1.5,
+    "carbs": 10.0,
+    "sugar": 1.5,
+    "fiber": 1.3,
+    "salt": 1.0
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/486A2kBggQEXGnnmKcFpkp/c608f3ca95bb7bfece0e167a7da6624e/OS055_Tandoori-Chicken_Center.jpg",
+   "source_url": "https://www.juit.com/de/gerichte/tandoori-chicken-high-protein"
+  },
+  {
+   "name": "Beef-Chili",
+   "ean": "4063587100323",
+   "size_g": 480.0,
+   "nutrition_100g": {
+    "kcal": 112.0,
+    "protein": 5.9,
+    "fat": 3.0,
+    "satfat": 1.1,
+    "carbs": 14.0,
+    "sugar": 1.5,
+    "fiber": 1.7,
+    "salt": 0.77
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/4WjDCYm5XGtGiubkAbClzD/dfb6c88a205895bd2ad2ea02be3696b4/OS032_Chilli-con-carne_center.jpg",
+   "source_url": "https://www.juit.com/de/gerichte/beef-chili-high-protein"
+  },
+  {
+   "name": "Sweet & Spicy Mango Chicken",
+   "ean": "4063587101207",
+   "size_g": 470.0,
+   "nutrition_100g": {
+    "kcal": 116.0,
+    "protein": 5.9,
+    "fat": 3.9,
+    "satfat": 0.5,
+    "carbs": 13.0,
+    "sugar": 3.2,
+    "fiber": 1.1,
+    "salt": 0.75
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/4XKybbxiedBOwx3nA02CLz/8fb427751cfb4af764a4dc0934278ea4/OS120_Sweet-Spicy-Mango-Chicken_Center.v2.jpg",
+   "source_url": "https://www.juit.com/de/gerichte/sweet-and-spicy-mango-chicken"
+  },
+  {
+   "name": "99 Laps Erdnuss-Sesam-Noodles",
+   "ean": "4063587101733",
+   "size_g": 550.0,
+   "nutrition_100g": {
+    "kcal": 159.0,
+    "protein": 8.0,
+    "fat": 5.3,
+    "satfat": 1.4,
+    "carbs": 18.0,
+    "sugar": 2.7,
+    "fiber": 1.9,
+    "salt": 0.88
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/2PEH07PFBaJgSw7yutc6Tn/be1ac5c04711611f0b2bb053ad19eb48/OS173_99_Laps_Erdnuss-Sesam-Noodles_Center.jpg",
+   "source_url": "https://www.juit.com/de/gerichte/99-laps-erdnuss-sesam-noodles"
+  },
+  {
+   "name": "Hähnchen-Curry mit Ananas",
+   "ean": "4063587101641",
+   "size_g": 495.0,
+   "nutrition_100g": {
+    "kcal": 121.0,
+    "protein": 5.7,
+    "fat": 4.7,
+    "satfat": 2.6,
+    "carbs": 13.0,
+    "sugar": 2.3,
+    "fiber": 0.8,
+    "salt": 0.7
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/7rO7hz468HtwXSAFxFq5MS/dffe334e24d32143b6354f1b5c96743a/OS164_HA_hnchen-Curry_mit_Ananas_Center_08__1_.png",
+   "source_url": "https://www.juit.com/de/gerichte/haehnchen-curry-mit-ananas"
+  },
+  {
+   "name": "Rinderragout mit Karotten",
+   "ean": "4063587101634",
+   "size_g": 525.0,
+   "nutrition_100g": {
+    "kcal": 101.0,
+    "protein": 6.2,
+    "fat": 1.1,
+    "satfat": 0.3,
+    "carbs": 15.0,
+    "sugar": 1.1,
+    "fiber": 1.4,
+    "salt": 0.87
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/3ReOShce3F8gCptWdNIIiY/d665a07e8362f24d9f8a0a1c6235324b/OS163_Rinderragout_mit_Karotten_new.png",
+   "source_url": "https://www.juit.com/de/gerichte/rinderragout-mit-karotten"
+  },
+  {
+   "name": "Caprese Chicken",
+   "ean": "4063587100460",
+   "size_g": 495.0,
+   "nutrition_100g": {
+    "kcal": 105.0,
+    "protein": 7.8,
+    "fat": 2.0,
+    "satfat": 0.2,
+    "carbs": 12.0,
+    "sugar": 2.1,
+    "fiber": 1.1,
+    "salt": 0.93
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/1ExsOfabCQ8EzpWpGSqUj9/2f7f80e041ceba210a115257971fb79e/OS046_Caprese-Chicken_Center.jpg",
+   "source_url": "https://www.juit.com/de/gerichte/caprese-chicken-high-protein"
+  },
+  {
+   "name": "Rindergulasch mit gegrillter Paprika",
+   "ean": "4063587101061",
+   "size_g": 470.0,
+   "nutrition_100g": {
+    "kcal": 108.0,
+    "protein": 8.2,
+    "fat": 3.5,
+    "satfat": 1.7,
+    "carbs": 10.0,
+    "sugar": 2.0,
+    "fiber": 1.8,
+    "salt": 0.6
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/3huwNQCNl3tKDf7FkJpuH1/62a805c51b823a7809c866afa6e3d59c/OS106_Rindergulasch_Spetzler_center_new.png",
+   "source_url": "https://www.juit.com/de/gerichte/rindergulasch-mit-paprika"
+  },
+  {
+   "name": "Butter Chicken",
+   "ean": "4063587101535",
+   "size_g": 500.0,
+   "nutrition_100g": {
+    "kcal": 130.0,
+    "protein": 6.2,
+    "fat": 5.7,
+    "satfat": 2.7,
+    "carbs": 12.0,
+    "sugar": 2.0,
+    "fiber": 0.5,
+    "salt": 1.0
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/6BU6lcyAD4hPSSVELM9uwQ/c9410ec5b9b375e410977a7ba1a8a394/os153.png",
+   "source_url": "https://www.juit.com/de/gerichte/butter-chicken"
+  },
+  {
+   "name": "Spaghetti al Salmone",
+   "ean": "4063587101191",
+   "size_g": 510.0,
+   "nutrition_100g": {
+    "kcal": 135.0,
+    "protein": 6.3,
+    "fat": 6.3,
+    "satfat": 2.0,
+    "carbs": 15.0,
+    "sugar": 1.5,
+    "fiber": 1.4,
+    "salt": 0.8
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/6wJhE8lODIKXFF1ucwVKCG/3a84c2b267156c761468084fd713d27f/os119.jpg",
+   "source_url": "https://www.juit.com/de/gerichte/spaghetti-al-salmone"
+  },
+  {
+   "name": "Pennette Feta",
+   "ean": "4063587100859",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "kcal": 180.0,
+    "protein": 6.2,
+    "fat": 9.9,
+    "satfat": 2.9,
+    "carbs": 15.0,
+    "sugar": 2.0,
+    "fiber": 2.8,
+    "salt": 1.1
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/31iMVzDNYfmjtoQu16lbQq/49627d15c3ab6a53f6ed02ee1dcdf5c2/OS085_Pennete-Feta_Center.jpg",
+   "source_url": "https://www.juit.com/de/gerichte/pennette-feta-vegetarisch"
+  },
+  {
+   "name": "Hackbällchen Siziliana XL",
+   "ean": "4063587101504",
+   "size_g": 600.0,
+   "nutrition_100g": {
+    "kcal": 118.0,
+    "protein": 8.7,
+    "fat": 4.0,
+    "satfat": 1.0,
+    "carbs": 10.0,
+    "sugar": 2.0,
+    "fiber": 1.1,
+    "salt": 0.77
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/7mrdu70fEQRGXTbhBijIaF/d5cfb7ad84b165ce6170083310f67826/0S150_Hackb_llchen_XL_Center_white.png",
+   "source_url": "https://www.juit.com/de/gerichte/hackbaellchen-siziliana-xl"
+  },
+  {
+   "name": "Spaghetti alla Bologna",
+   "ean": "4063587101474",
+   "size_g": 490.0,
+   "nutrition_100g": {
+    "kcal": 136.0,
+    "protein": 7.2,
+    "fat": 4.3,
+    "satfat": 0.7,
+    "carbs": 16.0,
+    "sugar": 2.4,
+    "fiber": 1.4,
+    "salt": 1.0
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/3MsRr7ywq5fceHsX7d40Uq/97db2abaa9cb179fede623bb54d560cf/image__16_.png",
+   "source_url": "https://www.juit.com/de/gerichte/spaghetti-alla-bologna"
+  },
+  {
+   "name": "Linguini Avocado-Limette",
+   "ean": "4063587101030",
+   "size_g": 460.0,
+   "nutrition_100g": {
+    "kcal": 197.0,
+    "protein": 8.7,
+    "fat": 9.9,
+    "satfat": 1.6,
+    "carbs": 16.0,
+    "sugar": 1.2,
+    "fiber": 1.3,
+    "salt": 0.8
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/76DwSaEdC7eOuctY8mzmEl/e0c97daa3d30a51753ca4fcf6d0c6312/OS103_Linguini-mit-Basilikum-Hahnchen-und-Avocado_Center__1_.jpg",
+   "source_url": "https://www.juit.com/de/gerichte/pasta-avocado-limette"
+  },
+  {
+   "name": "Lachsfilet Sesam-Teriyaki",
+   "ean": "4063587101566",
+   "size_g": 470.0,
+   "nutrition_100g": {
+    "kcal": 106.0,
+    "protein": 6.5,
+    "fat": 5.0,
+    "satfat": 0.9,
+    "carbs": 7.7,
+    "sugar": 1.7,
+    "fiber": 1.7,
+    "salt": 0.89
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/6AF5Tmj9Lsf2ripAmVbGA7/8d6903c237d1de3d57ea0d98a958f8fd/OS156_Lachsfillet_Sesam-Teriyaki_Center_new__1_.png",
+   "source_url": "https://www.juit.com/de/gerichte/lachsfilet-sesam-teriyaki"
+  },
+  {
+   "name": "Risotto Mediterran mit Garnelen",
+   "ean": "4063587101306",
+   "size_g": 510.0,
+   "nutrition_100g": {
+    "kcal": 107.0,
+    "protein": 4.2,
+    "fat": 4.8,
+    "satfat": 2.1,
+    "carbs": 11.0,
+    "sugar": 3.4,
+    "fiber": 0.6,
+    "salt": 1.0
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/evxe7fsdO3xxDnoeBPVhJ/83093d02f95986016f8b15a3cde5ac75/0S130_Risotto_Mediterran_mit_Garnelen_16__2_.png",
+   "source_url": "https://www.juit.com/de/gerichte/risotto-mediterran-mit-garnelen"
+  },
+  {
+   "name": "Linguini con Pollo",
+   "ean": "4063587100828",
+   "size_g": 490.0,
+   "nutrition_100g": {
+    "kcal": 108.0,
+    "protein": 8.3,
+    "fat": 2.2,
+    "satfat": 0.8,
+    "carbs": 12.0,
+    "sugar": 1.6,
+    "fiber": 1.3,
+    "salt": 0.81
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/UILKbnmuynbzBZdWLZoi5/b7f147ce28629b7ce1e68b2c4ad4b1de/OS082_Linguine-Pollo_Center.jpg",
+   "source_url": "https://www.juit.com/de/gerichte/pasta-con-pollo-high-protein"
+  },
+  {
+   "name": "Wagyu Meatballs Sesam-Teriyaki",
+   "ean": "4063587101382",
+   "size_g": 500.0,
+   "nutrition_100g": {
+    "kcal": 112.0,
+    "protein": 4.0,
+    "fat": 5.4,
+    "satfat": 1.6,
+    "carbs": 10.0,
+    "sugar": 3.1,
+    "fiber": 1.7,
+    "salt": 1.1
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/6fuqxsXea2lJJv4kWFGIwU/681b503d696554a40e0bfd5b88fbaf12/OS138_Wagyu-Meatballsa_Center.jpg",
+   "source_url": "https://www.juit.com/de/gerichte/wagyu-meatballs-sesam-teriyaki"
+  },
+  {
+   "name": "Hähnchen-Geschnetzeltes",
+   "ean": "4063587101337",
+   "size_g": 500.0,
+   "nutrition_100g": {
+    "kcal": 101.0,
+    "protein": 6.9,
+    "fat": 2.9,
+    "satfat": 1.3,
+    "carbs": 10.0,
+    "sugar": 1.7,
+    "fiber": 1.1,
+    "salt": 0.78
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/6990nNgdkovjhydjkbSqs9/c77d72a088c2bc1349b6ce0dc67518b0/OS133_Chicken-Ragout_Center.v2.jpg",
+   "source_url": "https://www.juit.com/de/gerichte/haehnchen-geschnetzeltes"
+  },
+  {
+   "name": "Honig-Limettenhuhn",
+   "ean": "4063587101153",
+   "size_g": 495.0,
+   "nutrition_100g": {
+    "kcal": 91.0,
+    "protein": 8.1,
+    "fat": 2.4,
+    "satfat": 1.2,
+    "carbs": 6.4,
+    "sugar": 2.9,
+    "fiber": 1.2,
+    "salt": 0.87
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/DuHfCqBIAUfIkdbv6BQ0o/fa2ef59ed865d29dd24a10b7c9ce3adc/OS115_Honig-Limettenhuhn_Center_v2.jpg",
+   "source_url": "https://www.juit.com/de/gerichte/honig-haehnchen-high-protein"
+  },
+  {
+   "name": "Protein Pesto Chicken",
+   "ean": "4063587101573",
+   "size_g": 490.0,
+   "nutrition_100g": {
+    "kcal": 100.0,
+    "protein": 7.0,
+    "fat": 2.6,
+    "satfat": 0.4,
+    "carbs": 12.0,
+    "sugar": 1.8,
+    "fiber": 0.8,
+    "salt": 0.93
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/69xwk61OqSxTqwVKEdJ6ty/f181d76e13af07cd4f7f829620291bf2/OS157_Protein_Pesto_Chicken_Center_06.png",
+   "source_url": "https://www.juit.com/de/gerichte/protein-pesto-chicken"
+  },
+  {
+   "name": "Cajun Chicken Louisiana",
+   "ean": "4063587101016",
+   "size_g": 460.0,
+   "nutrition_100g": {
+    "kcal": 129.0,
+    "protein": 7.4,
+    "fat": 5.0,
+    "satfat": 0.53,
+    "carbs": 12.0,
+    "sugar": 2.7,
+    "fiber": 1.9,
+    "salt": 0.8
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/5A56EPMAL2v4GQ1JdMnqDp/5e767d6af1b827d3baf3b934702bcda7/OS101_Cajun-Chicken_Center.jpg",
+   "source_url": "https://www.juit.com/de/gerichte/cajun-chicken-louisiana"
+  },
+  {
+   "name": "Bami Goreng",
+   "ean": "4063587101719",
+   "size_g": 540.0,
+   "nutrition_100g": {
+    "kcal": 126.0,
+    "protein": 7.0,
+    "fat": 4.0,
+    "satfat": 0.6,
+    "carbs": 14.0,
+    "sugar": 1.6,
+    "fiber": 1.2,
+    "salt": 0.83
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/2XH9hpfUSvYlY1hw9P3KmQ/5db38479d13c67c366fab143c722a824/OS171_Bami_Goreng_Center_09.png",
+   "source_url": "https://www.juit.com/de/gerichte/bami-goreng"
+  },
+  {
+   "name": "Chicken mit Pumpkin-Mash",
+   "ean": "4063587100774",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "kcal": 95.0,
+    "protein": 7.4,
+    "fat": 3.8,
+    "satfat": 0.8,
+    "carbs": 6.7,
+    "sugar": 1.3,
+    "fiber": 0.9,
+    "salt": 0.86
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/41kdYfjyi9NgvHczFp11PC/caf9c3fd1e7af5cc34d6b117bc972778/OS077_Chicken_Pumpkin-Mash.jpg",
+   "source_url": "https://www.juit.com/de/gerichte/chicken-kuerbisstampf-spinat"
+  },
+  {
+   "name": "Zitronenhähnchen mit geröstetem Brokkoli",
+   "ean": "4063587100408",
+   "size_g": 470.0,
+   "nutrition_100g": {
+    "kcal": 87.0,
+    "protein": 8.2,
+    "fat": 2.3,
+    "satfat": 0.4,
+    "carbs": 6.9,
+    "sugar": 1.5,
+    "fiber": 2.0,
+    "salt": 0.89
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/4aADMqQDc9aLiEG7pKUzqR/281ac8c7ba2b53f93e79c767b1fdc855/OS040_Zitronenha__hnchen_center.jpg",
+   "source_url": "https://www.juit.com/de/gerichte/zitronenhaehnchen-mit-brokkoli"
+  },
+  {
+   "name": "Planted Chicken BBQ",
+   "ean": "4063587100545",
+   "size_g": 500.0,
+   "nutrition_100g": {
+    "kcal": 89.0,
+    "protein": 4.3,
+    "fat": 3.6,
+    "satfat": 0.3,
+    "carbs": 8.4,
+    "sugar": 2.2,
+    "fiber": 1.7,
+    "salt": 0.92
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/77IG3dndIRwiz2JmyHpJYI/2cbca3dcbf1af00c69ab535c43aa0d8e/OS054_Planted_Chicken_BBQ_04.png",
+   "source_url": "https://www.juit.com/de/gerichte/bbq-haehnchen-high-protein-vegan"
+  },
+  {
+   "name": "Waldpilz-Geschnetzeltes",
+   "ean": "4063587101542",
+   "size_g": 530.0,
+   "nutrition_100g": {
+    "kcal": 124.0,
+    "protein": 2.8,
+    "fat": 6.8,
+    "satfat": 0.9,
+    "carbs": 12.0,
+    "sugar": 2.1,
+    "fiber": 1.3,
+    "salt": 0.9
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/4fYA9ciSrQnkCo9PrEEtcb/050e975a7560de34d110180dfbd5ef9c/OS154_Pilzragout_mit_Reis_Center_05.jpg",
+   "source_url": "https://www.juit.com/de/gerichte/waldpilz-geschnetzeltes"
+  },
+  {
+   "name": "Rotes Kokoscurry",
+   "ean": "4063587100224",
+   "size_g": 470.0,
+   "nutrition_100g": {
+    "kcal": 115.0,
+    "protein": 8.3,
+    "fat": 4.6,
+    "satfat": 2.0,
+    "carbs": 8.8,
+    "sugar": 1.9,
+    "fiber": 1.7,
+    "salt": 0.8
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/5nKqyt7aNaybmT4Q5jLP1F/1c934addeb967605fac58ebdb7a8e29e/OS022_Rotes_Kokoscurry_center.jpg",
+   "source_url": "https://www.juit.com/de/gerichte/rotes-kokoscurry-high-protein"
+  },
+  {
+   "name": "Pulled Chicken",
+   "ean": "4063587100248",
+   "size_g": 480.0,
+   "nutrition_100g": {
+    "kcal": 92.0,
+    "protein": 5.5,
+    "fat": 3.5,
+    "satfat": 0.7,
+    "carbs": 8.5,
+    "sugar": 3.0,
+    "fiber": 1.5,
+    "salt": 0.84
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/2RyKAIMs6mWdhULU0o2fVJ/d46fd25b995d63599be4e0d473289ffc/OS024_Pulled-chicken_v2_center.jpg",
+   "source_url": "https://www.juit.com/de/gerichte/pulled-chicken-high-protein"
+  },
+  {
+   "name": "Soba Bowl Erdnuss-Teriyaki",
+   "ean": "4063587101344",
+   "size_g": 480.0,
+   "nutrition_100g": {
+    "kcal": 159.0,
+    "protein": 6.0,
+    "fat": 5.8,
+    "satfat": 1.7,
+    "carbs": 18.0,
+    "sugar": 3.4,
+    "fiber": 2.7,
+    "salt": 1.0
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/7dGECd457LRTY47iU5wNBc/125da21b6e55131183f5e316f5317d2e/OS134_Soba-bowl-peanut-teriyaki_Center.jpg",
+   "source_url": "https://www.juit.com/de/gerichte/soba-bowl-erdnuss-teriyaki"
+  },
+  {
+   "name": "High Protein Pumpkin Pasta",
+   "ean": "4063587101665",
+   "size_g": 520.0,
+   "nutrition_100g": {
+    "kcal": 145.0,
+    "protein": 12.0,
+    "fat": 4.8,
+    "satfat": 1.4,
+    "carbs": 12.0,
+    "sugar": 1.4,
+    "fiber": 0.9,
+    "salt": 0.76
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/6zjTa3kw0UKM8GzdgMvBHO/e6bb19b10e8511befae5d4513dda4c7b/OS166_High_Protein_Pumpkin_Pasta_new_02.png",
+   "source_url": "https://www.juit.com/de/gerichte/high-protein-pumpkin-pasta"
+  },
+  {
+   "name": "Mac and Cheese",
+   "ean": "4063587101245",
+   "size_g": 490.0,
+   "nutrition_100g": {
+    "kcal": 184.0,
+    "protein": 8.8,
+    "fat": 9.7,
+    "satfat": 5.6,
+    "carbs": 14.0,
+    "sugar": 1.1,
+    "fiber": 1.6,
+    "salt": 0.83
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/2KZSKDHIVV2iIvVczv23Bc/30415af4420cf172013cca0b378fd6f7/OS124_Mac-and-chicken_Center.jpg",
+   "source_url": "https://www.juit.com/de/gerichte/mac-and-cheese-vegetarisch"
+  },
+  {
+   "name": "Mac and Chicken",
+   "ean": "4063587101238",
+   "size_g": 490.0,
+   "nutrition_100g": {
+    "kcal": 171.0,
+    "protein": 9.1,
+    "fat": 8.1,
+    "satfat": 4.5,
+    "carbs": 14.0,
+    "sugar": 1.0,
+    "fiber": 1.6,
+    "salt": 0.77
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/2iigjzEcjbFaKjl4krM0DO/3151a301f2dc04859ea686b3e1a1c155/OS123_Mac-and-Chicken_Center.jpg",
+   "source_url": "https://www.juit.com/de/gerichte/chicken-mac-and-cheese"
+  },
+  {
+   "name": "Linguini mit Hokkaido-Kürbis",
+   "ean": "4063587100750",
+   "size_g": 490.0,
+   "nutrition_100g": {
+    "kcal": 115.0,
+    "protein": 3.7,
+    "fat": 3.3,
+    "satfat": 1.4,
+    "carbs": 16.0,
+    "sugar": 2.4,
+    "fiber": 1.4,
+    "salt": 0.84
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/7E3eEPaD2IF1LTNsXkcNlj/a4ebe97d00ae27674ddac7e62c6b5a47/OS075_Linguine_-hokkaido.jpg",
+   "source_url": "https://www.juit.com/de/gerichte/kuerbis-pasta-vegetarisch"
+  },
+  {
+   "name": "Hähnchen-Spargel Pasta",
+   "ean": "4063587101368",
+   "size_g": 505.0,
+   "nutrition_100g": {
+    "kcal": 161.0,
+    "protein": 8.0,
+    "fat": 7.3,
+    "satfat": 2.5,
+    "carbs": 14.0,
+    "sugar": 1.4,
+    "fiber": 1.4,
+    "salt": 0.92
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/7e6rwuIlQlDQMbNGutc42t/37dcaacf7dc0cc52fd2921be089c526c/OS136_Fruhlingspasta_mit_Hahnchen_Center_02__1_.png",
+   "source_url": "https://www.juit.com/de/gerichte/fruehlingspasta-mit-haehnchen"
+  },
+  {
+   "name": "Köttbullar mit Preiselbeersoße",
+   "ean": "4063587101122",
+   "size_g": 495.0,
+   "nutrition_100g": {
+    "kcal": 118.0,
+    "protein": 5.7,
+    "fat": 5.7,
+    "satfat": 2.3,
+    "carbs": 9.7,
+    "sugar": 3.0,
+    "fiber": 1.5,
+    "salt": 0.9
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/4V48uJq3LudnNZ4s0pMkkC/96e3836c0932f459a6558d66c57e29ce/OS112_Kottbullar-Preiselbeersosse_Center_v1.jpg",
+   "source_url": "https://www.juit.com/de/gerichte/koettbullar-mit-preiselbeeren"
+  },
+  {
+   "name": "Sauerbraten-Ragout",
+   "ean": "4063587101320",
+   "size_g": 495.0,
+   "nutrition_100g": {
+    "kcal": 107.0,
+    "protein": 6.9,
+    "fat": 2.7,
+    "satfat": 0.9,
+    "carbs": 12.0,
+    "sugar": 4.2,
+    "fiber": 0.6,
+    "salt": 0.9
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/5jvjm0BlBzZ647aMINrE6p/5901a25cbf022e8216446e545193b6e2/OS132_Sauerbraten-Ragout_Center.jpg",
+   "source_url": "https://www.juit.com/de/gerichte/sauerbraten-ragout"
+  },
+  {
+   "name": "Spaghetti mit Avocado-Pesto",
+   "ean": "4063587101597",
+   "size_g": 525.0,
+   "nutrition_100g": {
+    "kcal": 208.0,
+    "protein": 5.9,
+    "fat": 11.0,
+    "satfat": 1.9,
+    "carbs": 19.0,
+    "sugar": 1.7,
+    "fiber": 1.5,
+    "salt": 0.89
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/4ltqTKZ4JPq5dUo7mwqaj7/7c9ee89a48ba7187849920c6efc12048/OS159_Spaghetti_mit_Avocado-Pesto_02_NEW.png",
+   "source_url": "https://www.juit.com/de/gerichte/spaghetti-mit-avocado-pesto"
+  },
+  {
+   "name": "Gnocchi Gorgonzola-Parmigiano",
+   "ean": "4063587101658",
+   "size_g": 500.0,
+   "nutrition_100g": {
+    "kcal": 169.0,
+    "protein": 4.6,
+    "fat": 8.7,
+    "satfat": 2.5,
+    "carbs": 17.0,
+    "sugar": 1.5,
+    "fiber": 0.4,
+    "salt": 1.0
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/6iMzEX8yHdzT7MUBMjqvEc/9922dd8b59dbdbea57ed040471633536/OS165_Gnocchi_Gorgonzola-Parmigiano_center_02__3_.png",
+   "source_url": "https://www.juit.com/de/gerichte/gnocchi-gorgonzola-parmigiano"
+  },
+  {
+   "name": "Chicken Tikka Masala",
+   "ean": "4063587101689",
+   "size_g": 490.0,
+   "nutrition_100g": {
+    "kcal": 112.0,
+    "protein": 6.9,
+    "fat": 6.3,
+    "satfat": 1.6,
+    "carbs": 6.3,
+    "sugar": 3.0,
+    "fiber": 0.8,
+    "salt": 0.92
+   },
+   "image_url": "https://cdn.juit.gmbh/a4btwfkreom2/2Wxas6WKKBs1kVveWrtFpV/8828c6d5bf6f06c5bbed3c1cd605ecd9/OS168_Chicken_Tikka_Masala_04.png",
+   "source_url": "https://www.juit.com/de/gerichte/chicken-tikka-masala-indisch"
+  }
+ ]
+}
