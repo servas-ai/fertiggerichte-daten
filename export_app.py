@@ -175,6 +175,13 @@ sides=[s for s in sides if s['cost'] and s['kcal']>0]
 _BABY_SIDE=re.compile(r'\b(hipp|alete|bebivita|beba|aptamil|babylove|freche freunde)\b|babynahrung|beikost|gläschen|kleinkind|säugling|ab dem \d+\.? ?monat|\bbaby\b',re.I)
 _n_side_baby=len(sides); sides=[s for s in sides if not _BABY_SIDE.search((s.get('name') or '')+' '+(s.get('brand') or ''))]; _n_side_baby-=len(sides)
 print('sides: baby-food excluded',_n_side_baby)
+# sensecheck 6b: dry Knorr/Maggi Kochbeutel / instant mixes never as sides (ready-meal sides only)
+_DRY_SIDE=re.compile(
+    r'\b(knorr|maggi)\b.*(kochbeutel|semmelknödel|knödel halb|spaghetteria|pasta snack|cup[- ]?a[- ]?soup|asia noodles|bitte zu tisch|quick soup|hüttensnack|instant)|'
+    r'kochbeutel.*\b(knorr|maggi)\b',
+    re.I)
+_n_side_dry=len(sides); sides=[s for s in sides if not _DRY_SIDE.search((s.get('name') or '')+' '+(s.get('brand') or ''))]; _n_side_dry-=len(sides)
+print('sides: dry Knorr/Maggi excluded',_n_side_dry)
 veg=[s for s in sides if s['role']=='veg' and s['k100']<130]
 sal=[s for s in sides if s['role']=='salad']
 sd=[s for s in sides if s['role']=='side']
