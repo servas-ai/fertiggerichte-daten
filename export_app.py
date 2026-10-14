@@ -182,12 +182,43 @@ _DRY_SIDE=re.compile(
     re.I)
 _n_side_dry=len(sides); sides=[s for s in sides if not _DRY_SIDE.search((s.get('name') or '')+' '+(s.get('brand') or ''))]; _n_side_dry-=len(sides)
 print('sides: dry Knorr/Maggi excluded',_n_side_dry)
+# sensecheck 7: sides = ready-to-combine Beilagen only — no desserts, no main meals / soup inserts,
+# no dry staples (flakes, bread cubes, dry pasta, croutons; plain rice stays at 75 g dry portion), no duplicates
+_RICE_SIDE=re.compile(r'reis|basmati|jasmin',re.I)
+for _s in sides:  # dry rice whose name lacks 'reis' (e.g. 'Basmati Weiss') got the 150 g default portion
+    if _s['role']=='side' and (_s['k100'] or 0)>300 and _RICE_SIDE.search(_s['name'] or '') and _s['portion']!=75:
+        _g=75; _s['portion']=_g; _s['kcal']=round(_s['k100']*_g/100); _s['prot']=round((_s['p100'] or 0)*_g/100,1)
+        _s['cost']=round(_s['price']*_g/_s['size'],2) if _s['size'] else _s['cost']
+_DESSERT_SIDE=re.compile(r'milchreis|germknödel|kaiserschmarrn|marillen|zwetschk|topfenknödel|mohn|nougat|schoko|palatschink|strudel',re.I)
+_MAIN_SIDE=re.compile(r'(wurst|fleisch|selchfleisch|grammel|kaspress|leber|spinat[- ]?(feta|käse)?|käse)[- ]?knödel|knödl\b|kasnudl|pizza|suprema|ristorante|tonno|feine küche|paprika-?huhn|simply good\b.*\bbowl\b',re.I)
+_DRYSTAPLE_SIDE=re.compile(r'knödelbrot|backerbsen|gnocchi n\.? ?\d|gnocchi sardi|my risotto|erdäpfelteig|püree',re.I)
+def _side_bad(_s):
+    t=(_s.get('name') or '')+' '+(_s.get('brand') or '')
+    if _DESSERT_SIDE.search(t): return 'dessert'
+    if _MAIN_SIDE.search(t): return 'main'
+    k=_s.get('k100') or 0
+    if (_DRYSTAPLE_SIDE.search(t) and k>=250) or (k>=300 and not _RICE_SIDE.search(_s.get('name') or '')): return 'dry'
+    if (_s.get('kcal') or 0)>450: return 'dry'
+    return None
+from collections import Counter as _C
+_why=_C(); _keep=[]
+for _s in sides:
+    _b=_side_bad(_s)
+    if _b: _why[_b]+=1
+    else: _keep.append(_s)
+_best={}
+for _s in _keep:
+    _k=re.sub(r'\s+',' ',(_s['name'] or '').lower().replace('’',"'")).strip()
+    if _k not in _best or (_s['cost'] or 9e9)<(_best[_k]['cost'] or 9e9): _best[_k]=_s
+_why['dup']=len(_keep)-len(_best)
+sides=[_s for _s in _keep if _best.get(re.sub(r'\s+',' ',(_s['name'] or '').lower().replace('’',"'")).strip()) is _s]
+print('sides: sensecheck7 excluded',dict(_why),'->',len(sides))
 veg=[s for s in sides if s['role']=='veg' and s['k100']<130]
 sal=[s for s in sides if s['role']=='salad']
 sd=[s for s in sides if s['role']=='side']
 combos=[]
 mains=sorted([r for r in R if r['rankable'] and r['protpack'] and 25<=r['protpack']<=80 and r['kcalpack'] and r['kcalpack']<=750 and r['price'] and r['pstat']=='live 2026' and r['score']],key=lambda r:-r['score'])
-used=set()
+used=_C()
 for m in mains:
     hascarb=bool(re.search(r'reis|kartoffel|erdäpfel|püree|nudel|pasta|spätzle|knödel|gnocchi|lasagne|tortell|bowl',m['name'],re.I))
     best=None
@@ -197,10 +228,11 @@ for m in mains:
             if not 500<=kc<=900: continue
             pr=m['protpack']+v['prot']+(s['prot'] if s else 0)
             cost=m['price']+v['cost']+(s['cost'] if s else 0)
-            sc=pr/kc*100*3 + v['fib']*2 - cost*0.5 - (2 if v['id'] in used else 0) - (2 if s and s['id'] in used else 0)
+            sc=pr/kc*100*3 + v['fib']*2 - cost*0.5 - 3*used[v['id']] - (3*used[s['id']] if s else 0)  # sensecheck 7: count-based reuse penalty (was flat 2 -> 22/24 combos 'Iglo Erbsen')
             if not best or sc>best[0]: best=(sc,v,s,kc,pr,cost)
     if best:
-        _,v,s,kc,pr,cost=best; used.add(v['id']); s and used.add(s['id'])
+        _,v,s,kc,pr,cost=best; used[v['id']]+=1
+        if s: used[s['id']]+=1
         combos.append(dict(main=m['id'],veg=v['id'],side=s['id'] if s else None,kcal=round(kc),prot=round(pr),price=round(cost,2),fib=round(v['fib']+(s['fib'] if s else 0),1)))
     if len(combos)>=24: break
 # --- baby/dry-fix exclusion + exact/GTIN/near dedupe + light_meal + cross-store collapse ---
