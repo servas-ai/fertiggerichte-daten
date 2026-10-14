@@ -1,0 +1,112 @@
+{
+ "fetched": "2026-10-14T02:12Z",
+ "api": "https://world.openfoodfacts.org/api/v2/product/<ean>.json",
+ "user_agent": "GoodChoice-fertig/1.0",
+ "products": {
+  "4099200075556": {
+   "status": 1,
+   "product_name": "Wrap Caesar Chicken",
+   "brands": null,
+   "quantity": null,
+   "stores": null,
+   "countries_tags": [
+    "en:austria"
+   ],
+   "nutriscore_grade": "d",
+   "nutriments_100g": {
+    "carbohydrates_100g": 25,
+    "energy-kcal_100g": 266,
+    "energy-kj_100g": 1093,
+    "energy_100g": 1093,
+    "fat_100g": 13,
+    "proteins_100g": 11,
+    "salt_100g": 1.6,
+    "saturated-fat_100g": 3.4,
+    "sodium_100g": 0.64,
+    "sugars_100g": 4.3
+   },
+   "image_front_url": "https://images.openfoodfacts.org/images/products/409/920/007/5556/front_fr.3.400.jpg",
+   "image_nutrition_url": "https://images.openfoodfacts.org/images/products/409/920/007/5556/nutrition_fr.5.400.jpg",
+   "photo_check": "front_fr.3 + nutrition_fr.5 (GOOD Choice, 170 g, AT label; panel 266 kcal/11 P/13 F/3.4 sat/25 C/4.3 sugar/1.6 salt)"
+  },
+  "4099200075570": {
+   "status": 1,
+   "product_name": "Wrap Thai Couscous",
+   "brands": null,
+   "quantity": null,
+   "stores": null,
+   "countries_tags": [
+    "en:austria"
+   ],
+   "nutriscore_grade": "c",
+   "nutriments_100g": {
+    "carbohydrates_100g": 32,
+    "energy-kcal_100g": 220,
+    "energy-kj_100g": 913.3,
+    "energy_100g": 913.3,
+    "fat_100g": 7.5,
+    "proteins_100g": 5.4,
+    "salt_100g": 1.5,
+    "saturated-fat_100g": 0.9,
+    "sodium_100g": 0.6,
+    "sugars_100g": 3.5
+   },
+   "image_front_url": "https://images.openfoodfacts.org/images/products/409/920/007/5570/front_fr.3.400.jpg",
+   "image_nutrition_url": "https://images.openfoodfacts.org/images/products/409/920/007/5570/nutrition_fr.5.400.jpg",
+   "photo_check": "front_fr.3 + nutrition_fr.5 (GOOD Choice, 170 g, AT label; panel 220 kcal/5.4 P/7.5 F/0.9 sat/32 C/3.5 sugar/1.5 salt)"
+  },
+  "4061463022950": {
+   "status": 1,
+   "product_name": "Pecorelli mit mediterranem Gemüse in Tomatensauce",
+   "brands": "Good Choice",
+   "quantity": "400 g",
+   "stores": "Hofer",
+   "countries_tags": [
+    "en:austria"
+   ],
+   "nutriscore_grade": "unknown",
+   "nutriments_100g": {
+    "carbohydrates_100g": 18,
+    "energy-kcal_100g": 113,
+    "energy-kj_100g": 458.3,
+    "energy_100g": 458.3,
+    "fat_100g": 2.6,
+    "fiber_100g": 0,
+    "proteins_100g": 3.3,
+    "salt_100g": 0.84,
+    "saturated-fat_100g": 0.3,
+    "sodium_100g": 0.336,
+    "sugars_100g": 1.6
+   },
+   "image_front_url": "https://images.openfoodfacts.org/images/products/406/146/302/2950/front_de.3.400.jpg",
+   "image_nutrition_url": "https://images.openfoodfacts.org/images/products/406/146/302/2950/nutrition_de.7.400.jpg",
+   "photo_check": "front_de.3 + nutrition_de.7 (GOOD Choice, 400 g; panel 113 kcal/3.3 P/2.6 F/0.3 sat/18 C/1.6 sugar/0.84 salt)"
+  },
+  "4061463023018": {
+   "status": 1,
+   "product_name": "Spaghettiini in Räucherlachssoße",
+   "brands": "GOOD Choice",
+   "quantity": "1pcs",
+   "stores": null,
+   "countries_tags": [
+    "en:germany"
+   ],
+   "nutriscore_grade": "unknown",
+   "nutriments_100g": {
+    "carbohydrates_100g": 13,
+    "energy-kcal_100g": 119,
+    "energy-kj_100g": 488.8,
+    "energy_100g": 488.8,
+    "fat_100g": 5.4,
+    "proteins_100g": 4,
+    "salt_100g": 1.0025,
+    "saturated-fat_100g": 1.8,
+    "sodium_100g": 0.401,
+    "sugars_100g": 0.9
+   },
+   "image_front_url": "https://images.openfoodfacts.org/images/products/406/146/302/3018/front_de.7.400.jpg",
+   "image_nutrition_url": "https://images.openfoodfacts.org/images/products/406/146/302/3018/nutrition_de.9.400.jpg",
+   "photo_check": "front_de.7 + nutrition_de.9 (GOOD Choice, 400 g; panel 119 kcal/4.0 P/5.4 F/1.8 sat/13 C/0.9 sugar/1.02 salt)"
+  }
+ }
+}
