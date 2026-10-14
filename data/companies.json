@@ -1001,14 +1001,14 @@
   "fn": null,
   "legal_form_code": null,
   "country": "DE",
-  "address": null,
+  "address": "Ritterstraße 9–10, 10969 Berlin, DE",
   "entity_status": null,
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
   "founded": null,
   "owners": null,
-  "management": null,
+  "management": "Casimir Rob, Benjamin Ahlers (Geschäftsführung lt. Impressum 2026-10-14)",
   "employees": null,
   "revenue": null,
   "website": "https://every-foods.com",
@@ -1018,7 +1018,8 @@
    "Every."
   ],
   "chains": [
-   "Gurkerl"
+   "Gurkerl",
+   "Online: every."
   ],
   "product_count": 6,
   "median_price_eur": 9.19,
@@ -1026,7 +1027,8 @@
   "nace": null,
   "sources": [
    "https://every-foods.com/de/impressum",
-   "EU VIES DE335586517"
+   "EU VIES DE335586517",
+   "https://every-foods.com/impressum"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T10:59:56Z",
@@ -1036,7 +1038,7 @@
   "uid_vies_address": null,
   "uid_checked_at": "2026-10-13T11:14:42.753Z",
   "imprint_url": "https://every-foods.com/de/impressum",
-  "register_court": null,
+  "register_court": "Amtsgericht Charlottenburg",
   "hrb": "HRB 221768 B"
  },
  {
