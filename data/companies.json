@@ -6356,5 +6356,57 @@
   "imprint_url": "https://www.issmich.at/impressum",
   "register_court": "Handelsgericht Wien",
   "hrb": null
+ },
+ {
+  "slug": "alfies-gmbh",
+  "name": "Alfie's GmbH",
+  "role": "retailer",
+  "legal_name": "Alfie's GmbH",
+  "lei": "984500B8Z9EOKFE27580",
+  "register_id": "FN 352065v",
+  "register_authority": "Handelsgericht Wien",
+  "fn": "FN 352065v",
+  "legal_form_code": null,
+  "country": "AT",
+  "address": "Mariahilfer Straße 37-39/4. Stock, 1060 Wien, AT",
+  "entity_status": "ACTIVE (GLEIF, LEI ISSUED, next renewal 2027-07-10)",
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": "https://www.alfies.at",
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Alfies"
+  ],
+  "chains": [
+   "Alfies"
+  ],
+  "product_count": 178,
+  "median_price_eur": 4.99,
+  "median_eur_per_10g_protein": null,
+  "nace": "Online-Lebensmittelhandel (Lieferdienst Wien/Graz)",
+  "sources": [
+   "https://www.alfies.at/impressum",
+   "https://ec.europa.eu/taxation_customs/vies/",
+   "https://api.gleif.org/api/v1/lei-records/984500B8Z9EOKFE27580"
+  ],
+  "gleif_match_score": 1.0,
+  "fetched_at": "2026-10-14T07:16:18Z",
+  "chain_product_count": 178,
+  "registry_status": "verified_gleif_vies",
+  "uid": "ATU68436258",
+  "uid_vies_name": "Alfie's GmbH",
+  "uid_vies_address": "Mariahilfer Straße 37-39/4. Stock, AT-1060 Wien",
+  "uid_checked_at": "2026-10-14T07:16:18Z",
+  "imprint_url": "https://www.alfies.at/impressum",
+  "register_court": "Handelsgericht Wien",
+  "hrb": null,
+  "gleif_ultimate_parent_exception": "NO_KNOWN_PERSON"
  }
 ]

@@ -3204,5 +3204,18 @@
    "Online: Kernbeißer",
    "Kernbeißer OG"
   ]
+ },
+ {
+  "slug": "alfies",
+  "name": "Alfies",
+  "category": "Handelskette",
+  "file": "logos/alfies.svg",
+  "source_url": "https://www.alfies.at/svg/alfies-logo-dark.svg",
+  "brands": [
+   "Alfies",
+   "Alfie's",
+   "alfies.at",
+   "Alfie's GmbH"
+  ]
  }
 ]

@@ -1,0 +1,16 @@
+{
+ "run": "T0740",
+ "fetched": "2026-10-14T0740",
+ "added": [
+  {
+   "slug": "alfies",
+   "file": "alfies.svg",
+   "source": "https://www.alfies.at/svg/alfies-logo-dark.svg (alfies.at shop header img; robots: all allowed)",
+   "vision": "PASS — official 'Alfies' wordmark, dark grey (#302b2b-ish) with green dot over the i, 347×183 SVG, crisp; low contrast on dark backgrounds (dark variant)"
+  }
+ ],
+ "rejected": {
+  "https://www.alfies.at/static/svg/alfies-logo-dark.svg": "404 (path referenced in category index image fields only)"
+ },
+ "note": "Primary win this run = new retail chain Alfies (Wien/Graz online supermarket, 178 ready meals); logo for the new chain."
+}

@@ -320,6 +320,24 @@
     "https://www.m-mealprep.at/bestellung/"
    ],
    "stats": null
+  },
+  {
+   "name": "Alfies",
+   "company": "Alfie's GmbH (FN 352065v, LEI 984500B8Z9EOKFE27580)",
+   "seat": "Wien",
+   "delivers_linz": false,
+   "shipping": "3,99 €, ab 45 € frei, Mindestbestellwert 25 €; Lieferung in 60/120 Min oder Wunschzeit",
+   "products_in_app": "Alfies-Connector (178 Fertiggerichte, Daten-Squad T0740)",
+   "products_note": "Liefergebiet fast ganz Wien + Teile NÖ, Graz und Umgebung – nicht Linz (/api/get-warehouse → null)",
+   "store": "Alfies",
+   "sources": [
+    "https://www.alfies.at/faq",
+    "https://www.alfies.at/impressum"
+   ],
+   "stats": {
+    "meals": 178,
+    "median_price_eur": 4.99
+   }
   }
  ],
  "not_found_de": "VERIFIED dead ends 2026-10-14T0307: Foodist (foodist.de 301 → morenutrition.de/collections/foodist, snack/Abo-Boxen no ready meals); Kochzauber (kochzauber.de / www DNS fail / NXDOMAIN); Mealprep.at (mealprep.at + www → parked /lander); eismann.at 301 → eismann.de (DE only, not AT); Gourmetfein = Fleisch-/Grillwurst only (75 Shopify products, 0 ready meals). Marianne's Mealprep Aspach = 5 km radius only (not Linz). Marley Spoon Ready-to-heat = login wall for prices/nutrition. Frischepost/Alnatura unchecked. T0441: Foodpunk = PDF meal plans only (no ready meals). Kernbeißer now live (T0504, 6 meals)."
