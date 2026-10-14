@@ -4219,6 +4219,25 @@
        "producer_id": null
       },
       {
+       "name": "Clever Back-Mozzarella Sticks",
+       "store": "BILLA",
+       "url": "https://shop.billa.at/produkte/clever-backmozzarella-sticks-00868682",
+       "source_url": "https://shop.billa.at/produkte/clever-backmozzarella-sticks-00868682",
+       "img": null,
+       "vision": null,
+       "price": 2.99,
+       "size_g": 300.0,
+       "price_status": "live 2026",
+       "protein_100": 11.0,
+       "kcal_100": 298.0,
+       "protein_per_euro": 11.04,
+       "health_score": 2.1,
+       "nutriscore": null,
+       "packaging": "Tiefkühl (TK)",
+       "manufacturer": "BILLA AG, Billa AG, IZ NÖ Süd, Straße 3, Objekt 16, 2355 Wr. Neudorf",
+       "producer_id": null
+      },
+      {
        "name": "Clever Lachsfilet",
        "store": "Billa",
        "url": "https://shop.billa.at/produkte/clever-lachsfilet-00738040",
@@ -4713,7 +4732,7 @@
        "producer_id": null
       }
      ],
-     "count": 59
+     "count": 60
     },
     {
      "name": "Billa Immer Gut",
@@ -5438,7 +5457,7 @@
        "protein_100": 6.3,
        "kcal_100": 137.0,
        "protein_per_euro": 8.84,
-       "health_score": 27.8,
+       "health_score": 37.2,
        "nutriscore": "C",
        "packaging": "Unklar (keine Lagerangabe)",
        "manufacturer": "BILLA AG",
@@ -8202,6 +8221,25 @@
      "logo_source": "Wikimedia/ja-natuerlich.at",
      "products": [
       {
+       "name": "Ja! Natürlich Sous Vide Pulled Duck",
+       "store": "BILLA",
+       "url": "https://shop.billa.at/produkte/ja-natuerlich-sous-vide-pulled-duck-00756535",
+       "source_url": "https://shop.billa.at/produkte/ja-natuerlich-sous-vide-pulled-duck-00756535",
+       "img": null,
+       "vision": null,
+       "price": 9.99,
+       "size_g": 400.0,
+       "price_status": "live 2026",
+       "protein_100": 22.0,
+       "kcal_100": 120.0,
+       "protein_per_euro": 8.81,
+       "health_score": 49.0,
+       "nutriscore": null,
+       "packaging": "Sous-vide (vakuum)",
+       "manufacturer": "Ja! Natürlich Naturprodukte Gesellschaft m.b.H., Postfach 2000, A-2355 Wr. Neudorf",
+       "producer_id": null
+      },
+      {
        "name": "Ja! Natürlich Spinat-Käseknödel",
        "store": "Billa",
        "url": "https://shop.billa.at/produkte/ja-natuerlich-spinatkaeseknoedel-00736910",
@@ -8354,6 +8392,25 @@
        "producer_id": null
       },
       {
+       "name": "Ja! Natürlich Entenfilet Sous-Vide",
+       "store": "BILLA",
+       "url": "https://shop.billa.at/produkte/ja-natuerlich-entenfilet-sousvide-00721752",
+       "source_url": "https://shop.billa.at/produkte/ja-natuerlich-entenfilet-sousvide-00721752",
+       "img": null,
+       "vision": null,
+       "price": 9.99,
+       "size_g": 240.0,
+       "price_status": "live 2026",
+       "protein_100": 19.0,
+       "kcal_100": 229.0,
+       "protein_per_euro": 4.56,
+       "health_score": 27.8,
+       "nutriscore": null,
+       "packaging": "Sous-vide (vakuum)",
+       "manufacturer": "Ja! Natürlich Naturprodukte Gesellschaft m.b.H., Postfach 2000, A-2355 Wr. Neudorf",
+       "producer_id": "AT-42117-EG"
+      },
+      {
        "name": "Ja! Natürlich Backhendlteller",
        "store": "Billa",
        "url": "https://shop.billa.at/produkte/ja-natuerlich-backhendlteller-00257781",
@@ -8392,7 +8449,7 @@
        "producer_id": null
       }
      ],
-     "count": 10
+     "count": 12
     },
     {
      "name": "Billa Genusswelt",
@@ -8861,7 +8918,7 @@
      "count": 0
     }
    ],
-   "count": 273
+   "count": 276
   },
   {
    "id": "spar",
@@ -15482,7 +15539,7 @@
    "count": 11
   }
  ],
- "total": 794,
+ "total": 797,
  "vision_gate": {
   "checked": 528,
   "fail": 8,
