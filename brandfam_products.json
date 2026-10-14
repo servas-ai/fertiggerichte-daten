@@ -4523,8 +4523,8 @@
     "protein_pack": 10.5,
     "nutriscore": "c",
     "ean": "4061459473674",
-    "nut_source": "OFF name-match",
-    "nutrition_source": "OFF name-match"
+    "nut_source": "GTIN-confirmed",
+    "nutrition_source": "GTIN-confirmed"
   },
   {
     "name": "GOOD CHOICE Lasagne Bolognese 1 kg",
@@ -4553,8 +4553,8 @@
     "protein_pack": 68.0,
     "nutriscore": "c",
     "ean": "4099200163659",
-    "nut_source": "OFF name-match",
-    "nutrition_source": "OFF name-match"
+    "nut_source": "GTIN-confirmed",
+    "nutrition_source": "GTIN-confirmed"
   },
   {
     "name": "GOOD CHOICE Pinzgauer Käsespätzle 380g",
@@ -4663,8 +4663,8 @@
     "protein_pack": 14.6,
     "nutriscore": "d",
     "ean": "4099200075563",
-    "nut_source": "OFF name-match",
-    "nutrition_source": "OFF name-match"
+    "nut_source": "GTIN-confirmed",
+    "nutrition_source": "GTIN-confirmed"
   },
   {
     "name": "GOOD CHOICE Wrap Thunfisch 170g",
@@ -4693,8 +4693,8 @@
     "protein_pack": 15.6,
     "nutriscore": "c",
     "ean": "24091725",
-    "nut_source": "OFF name-match",
-    "nutrition_source": "OFF name-match"
+    "nut_source": "GTIN-confirmed",
+    "nutrition_source": "GTIN-confirmed"
   },
   {
     "name": "GOOD CHOICE Wraps Thai Couscous 170g",

@@ -675,11 +675,11 @@
     "category": "Klassiker",
     "price_source": "heisse-preise.io hofer (Preisstand 2025-03-26) – Altpreis, nicht live bestätigt",
     "price_date": "2025-03-26",
-    "nut_source": "OFF name-match",
+    "nut_source": "GTIN-confirmed",
     "packaging": null,
     "fertigstufe": "Komplettmahlzeit",
     "ean": "4099200163659",
-    "nutrition_source": "OFF name-match"
+    "nutrition_source": "GTIN-confirmed"
   },
   {
     "name": "GOOD CHOICE Risotto Pilze 400g",
