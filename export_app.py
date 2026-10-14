@@ -360,13 +360,29 @@ for _r in R:
     _ep=(_r['price']*_mc['portion']/_r['size']) if _r.get('size') and _mc.get('portion') else _r['price']
     if not _ep or _p is None: continue
     _r['pliLight']=round(0.5*_r['score']+0.5*min((_p/_ep)/20,1)*100,1); _light.append(_r)
+_TWIN_NOISE=re.compile(r"\bmsc\b|\basc\b|pazifisch\w*|käpt'?n|\b\d+\s*(stück|stk)\b|\b\d+er[- ]?(packung|pack)\b|\(tiefgekühlt\)",re.I)
+def _twin_keys(r):
+    """Sensecheck 9: one product = one top-list slot across stores. The EAN key alone misses twins where only one
+    store row carries the GTIN (MPreis 'Ristorante Tonno' w/ EAN vs Billa 'Ristorante Pizza Tonno' w/o), so a
+    brand+core-name+size key (MSC/'Pazifischer'/'4 Stück' stripped: Iglo Polar-Dorsch ×3 stores) is checked too."""
+    ks={_prod_key(r)}
+    b=(r.get('brandN') or r.get('brand') or '').split(',')[0].strip().lower()
+    nm=(r.get('name') or '').lower()
+    if b and b in nm: nm=nm.replace(b,'')
+    nm=_TWIN_NOISE.sub(' ',_NOISE.sub(' ',nm)); nm=re.sub(r'\d+[.,]?\d*\s*g\b',' ',nm)
+    nm=re.sub(r'[^a-z0-9äöüß]+','',nm); b2=re.sub(r'[^a-z0-9äöüß]+','',b)
+    if b2 and len(nm)>=8: ks.add('t:'+b2+':'+nm+':'+(str(int(r['size'])) if r.get('size') else ''))
+    return ks
 def _collapse(cands,score_fn,n=30):
     ordered=sorted(cands,key=score_fn,reverse=True); seen={}; kept=[]; collapsed=0; also={}
     for r in ordered:
-        k=_prod_key(r)
-        if k in seen:
-            collapsed+=1; also.setdefault(seen[k]['id'],set()).add(r['store']); continue
-        seen[k]=r; kept.append(r)
+        ks=_twin_keys(r); hit=next((seen[k] for k in ks if k in seen),None)
+        if hit is not None:
+            collapsed+=1; also.setdefault(hit['id'],set()).add(r['store'])
+            for k in ks: seen.setdefault(k,hit)
+            continue
+        for k in ks: seen[k]=r
+        kept.append(r)
         if len(kept)>=n: break
     for r in kept:
         o=sorted(s for s in also.get(r['id'],()) if s and s!=r.get('store'))

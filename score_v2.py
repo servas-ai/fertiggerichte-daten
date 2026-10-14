@@ -80,8 +80,17 @@ def portion(x, off, stage=None):
     sz = n(x.get('size_g')); nm = (x.get('name') or '').lower()
     m = re.search(r'(\d+)\s*(portionen|port\.|portions)', nm)
     if m and sz and int(m.group(1)) > 1: return round(sz / int(m.group(1))), 'name_portions'
+    # Sensecheck 9: bofrost* publishes the portion count per pack ('2 x 250 g' → portions 2) → per-portion
+    # price/kcal/protein instead of the whole 500 g pack (Tafelspitz 22.99 €/855 kcal 'per portion' was 2 portions).
+    # Limited to bofrost* (verified grammage line); other providers' 'portions' fields are not verified yet.
+    pv = n(x.get('portions'))
+    if pv and pv > 1 and sz and 'bofrost' in str(x.get('store') or '').lower(): return round(sz / pv), 'provider_portions'
     sq = n((off or {}).get('serving_quantity'))
-    if sq and 50 <= sq <= 1000 and not (sq == 100 and not (off or {}).get('serving_size')): return round(sq), 'off_serving'
+    # an OFF serving larger than the pack is impossible for a ready-to-eat pack (followfood pizza 300 g, serving 339 g
+    # → pPor > pack price) → ignore it. Instant/dry packs (serving = prepared weight with water, >300 kcal/100 g) keep it.
+    k100 = n(x.get('kcal_100'))
+    big = bool(sz and sq and sq > sz * 1.05 and x.get('packaging') != 'Trocken/Instant' and k100 is not None and k100 <= 300)
+    if sq and 50 <= sq <= 1000 and not big and not (sq == 100 and not (off or {}).get('serving_size')): return round(sq), 'off_serving'
     if sz and 150 <= sz <= 700 and stage in (None, 'meal', 'stew'): return round(sz), 'pack_single'
     return None, 'unknown'
 
