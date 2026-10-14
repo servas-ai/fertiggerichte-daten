@@ -1,0 +1,14 @@
+{
+ "run": "T0504",
+ "fetched": "2026-10-14T0504",
+ "added": [
+  {
+   "slug": "kernbeisser",
+   "file": "kernbeisser.png",
+   "source": "https://kernbeisser.at/wp-content/uploads/2024/04/logo-kernbeisser-2024-schwarz.png (schema.org Organization.logo on kernbeisser.at; robots allows /wp-content/uploads/)",
+   "vision": "PASS — handwritten script wordmark 'kernbeißer', black on transparent 1398×286, legible, no placeholder/product photo; low contrast on dark background expected for a black mark"
+  }
+ ],
+ "rejected": {},
+ "note": "Primary win this run = new Kernbeißer connector (6 vegan Vollkorn glass-jar meals, AT-only); logo for the new brand."
+}

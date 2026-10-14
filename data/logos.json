@@ -3185,5 +3185,19 @@
    "Online: Löwenanteil",
    "Löwenanteil GmbH"
   ]
+ },
+ {
+  "slug": "kernbeisser",
+  "name": "Kernbeißer",
+  "category": "Online Meal-Prep",
+  "file": "logos/kernbeisser.png",
+  "source_url": "https://kernbeisser.at/wp-content/uploads/2024/04/logo-kernbeisser-2024-schwarz.png (offizielles Logo lt. schema.org Organization.logo der öffentlichen Website; robots erlaubt /wp-content/uploads/)",
+  "brands": [
+   "Kernbeißer",
+   "Kernbeisser",
+   "kernbeißer",
+   "Online: Kernbeißer",
+   "Kernbeißer OG"
+  ]
  }
 ]

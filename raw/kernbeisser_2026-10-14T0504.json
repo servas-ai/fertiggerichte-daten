@@ -1,0 +1,370 @@
+{
+ "source": "kernbeisser.at/wp-json/wc/store/v1/products + product JSON-LD (food-connectors kernbeisser adapter)",
+ "fetched": "2026-10-14T0504",
+ "robots": "User-agent: * Disallow: /wp-content/uploads/wc-logs/ /wp-content/uploads/woocommerce_transient_files/ /wp-content/uploads/woocommerce_uploads/ /*?add-to-cart= /wp-admin/ (Store API + product pages allowed)",
+ "operator": {
+  "name": "Kernbeißer OG",
+  "seat": "Jheringgasse 33/2/8, 1150 Wien (AT)",
+  "register": "FN 622470y (Handelsgericht Wien)",
+  "vat": "ATU80744456",
+  "management": "Polina Polynova (Geschäftsführerin lt. Impressum)",
+  "vies": {
+   "valid": true,
+   "name": "Kernbeißer OG",
+   "address": "Jheringgasse 33/2/8, AT-1150 Wien",
+   "checked": "2026-10-14T05:07:01Z"
+  },
+  "gleif": null,
+  "source": "https://kernbeisser.at/impressum/"
+ },
+ "shipping_at": {
+  "evidence": "site header on every page: 'Kostenloser Versand (zurzeit erfolgt Lieferung nur innerhalb Österreichs)'; 'Die zulässigen Bestellmengen sind 6, 12, 18, 24 oder 30 Gläser'",
+  "fee": 0.0,
+  "min_order": "6 Gläser (54 €); Probierpaket 6 Gerichte 50 €"
+ },
+ "shop_products": 7,
+ "meal_candidates": 6,
+ "kept": 6,
+ "dropped": [],
+ "excluded": [
+  {
+   "slug": "kernbeisser-probierpaket",
+   "name": "Kernbeißer Probierpaket",
+   "sku": "24PK2",
+   "reason": "bundle (Probierpaket), not a single meal"
+  }
+ ],
+ "products": [
+  {
+   "source": "kernbeisser",
+   "store": "Online: Kernbeißer",
+   "name": "Maghreb-Hirse mit Artischocken",
+   "brand": "Kernbeißer",
+   "price_eur": 9.0,
+   "unit_price_eur": 20.0,
+   "unit": "kg",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "kcal": 116.0,
+    "satfat": 0.5,
+    "fat": 3.9,
+    "sugar": 4.3,
+    "carbs": 15.4,
+    "fiber": 4.2,
+    "protein": 4.1,
+    "salt": 0.8
+   },
+   "ean": "9180025580068",
+   "image_url": "https://kernbeisser.at/wp-content/uploads/2024/11/produktbild-03-2025-hirse.jpg",
+   "producer": "Kernbeißer OG, Jheringgasse 33/2/8, 1150 Wien, FN 622470y",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://kernbeisser.at/produkt/maghreb-hirse-mit-artischocken/",
+   "source_id": "24HI002",
+   "fetched_at": "2026-10-14T05:09:19+00:00",
+   "extra": {
+    "wc_id": 1411,
+    "slug": "maghreb-hirse-mit-artischocken",
+    "in_stock": true,
+    "kcal_jar": 522.0,
+    "ingredients": "Artischocken (22%), Gemüsebrühe (Wasser, Sellerie , Karotte, Porree, Peterwurze, Petersilie, Pastinake, Nelke, Lorbeer), Hirse (15%), Karotte, Zwiebel, Tomatenmark, Sonnenblumenkerne, Apfelessig, Knoblauch, Rapsöl, Salz, Chiliflocken, Koriandersamen, Pfeffer",
+    "preparation": "Inhalt kurz im Topf/Pfanne (evtl. mit etwas Wasser) erwärmen oder in der Mikrowelle ca.",
+    "tags": [
+     "glutenfrei",
+     "ohne Zusatzstoffe",
+     "vegan",
+     "vollkorn Getreide"
+    ],
+    "vegan": true,
+    "glutenfrei": true,
+    "images": [
+     "https://kernbeisser.at/wp-content/uploads/2024/11/produktbild-03-2025-hirse.jpg",
+     "https://kernbeisser.at/wp-content/uploads/2024/11/Produkt-Hirse-Mood-2-2024.jpg",
+     "https://kernbeisser.at/wp-content/uploads/2024/11/Produkt-Hirse-Mood-3-2024.jpg",
+     "https://kernbeisser.at/wp-content/uploads/2024/11/Produkt-Hirse-Mood-4-2024.jpg"
+    ],
+    "price_note": "Einzelpreis je Glas inkl. MwSt. lt. WooCommerce Store API (Mindestbestellung 6 Gläser)",
+    "shipping_note": "Kostenloser Versand, Lieferung nur innerhalb Österreichs; Mindestbestellmenge 6 Gläser (6/12/18/24/30) lt. kernbeisser.at",
+    "portions": "1–2 (FAQ: 'Ein Glas enthält ein bis zwei Portionen')",
+    "image_head": 200
+   }
+  },
+  {
+   "source": "kernbeisser",
+   "store": "Online: Kernbeißer",
+   "name": "Frühstück-Buchweizen mit Äpfeln",
+   "brand": "Kernbeißer",
+   "price_eur": 9.0,
+   "unit_price_eur": 20.0,
+   "unit": "kg",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "kcal": 129.0,
+    "satfat": 0.6,
+    "fat": 3.7,
+    "sugar": 9.9,
+    "carbs": 18.3,
+    "fiber": 2.1,
+    "protein": 4.8,
+    "salt": 0.02
+   },
+   "ean": "9180025580051",
+   "image_url": "https://kernbeisser.at/wp-content/uploads/2024/11/produktbild-03-2025-buchweizen.jpg",
+   "producer": "Kernbeißer OG, Jheringgasse 33/2/8, 1150 Wien, FN 622470y",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://kernbeisser.at/produkt/fruehstueck-buchweizen-mit-aepfeln/",
+   "source_id": "24BU002",
+   "fetched_at": "2026-10-14T05:09:21+00:00",
+   "extra": {
+    "wc_id": 1410,
+    "slug": "fruehstueck-buchweizen-mit-aepfeln",
+    "in_stock": true,
+    "kcal_jar": 580.0,
+    "ingredients": "Sojamilch ( Sojabohnen , Wasser), Apfel (28%), Buchweizen (11%), Rosinen (Rosinen, Sonnenblumenöl), Erdnüsse , Ceylon Zimt, Kardamom",
+    "preparation": "Inhalt kurz im Topf erwärmen oder in der Mikrowelle ca. 3 Minuten erhitzen.",
+    "tags": [
+     "glutenfrei",
+     "ohne Zusatzstoffe",
+     "vegan",
+     "vollkorn Getreide"
+    ],
+    "vegan": true,
+    "glutenfrei": true,
+    "images": [
+     "https://kernbeisser.at/wp-content/uploads/2024/11/produktbild-03-2025-buchweizen.jpg",
+     "https://kernbeisser.at/wp-content/uploads/2024/11/Produkt-Buchweizen-Mood-2-2024.jpg",
+     "https://kernbeisser.at/wp-content/uploads/2024/11/Produkt-Buchweizen-Mood-3-2024.jpg",
+     "https://kernbeisser.at/wp-content/uploads/2024/11/Produkt-Buchweizen-Mood-4-2024.jpg"
+    ],
+    "price_note": "Einzelpreis je Glas inkl. MwSt. lt. WooCommerce Store API (Mindestbestellung 6 Gläser)",
+    "shipping_note": "Kostenloser Versand, Lieferung nur innerhalb Österreichs; Mindestbestellmenge 6 Gläser (6/12/18/24/30) lt. kernbeisser.at",
+    "portions": "1–2 (FAQ: 'Ein Glas enthält ein bis zwei Portionen')",
+    "image_head": 200
+   }
+  },
+  {
+   "source": "kernbeisser",
+   "store": "Online: Kernbeißer",
+   "name": "Tex-Mex-Quinoa mit Mais",
+   "brand": "Kernbeißer",
+   "price_eur": 9.0,
+   "unit_price_eur": 20.0,
+   "unit": "kg",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "kcal": 67.0,
+    "satfat": 0.2,
+    "fat": 1.2,
+    "sugar": 1.8,
+    "carbs": 10.6,
+    "fiber": 1.9,
+    "protein": 2.7,
+    "salt": 0.7
+   },
+   "ean": "9180025580044",
+   "image_url": "https://kernbeisser.at/wp-content/uploads/2024/11/produktbild-03-2025-quinoa.jpg",
+   "producer": "Kernbeißer OG, Jheringgasse 33/2/8, 1150 Wien, FN 622470y",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://kernbeisser.at/produkt/tex-mex-quinoa-mit-mais/",
+   "source_id": "24QU001",
+   "fetched_at": "2026-10-14T05:09:24+00:00",
+   "extra": {
+    "wc_id": 1409,
+    "slug": "tex-mex-quinoa-mit-mais",
+    "in_stock": false,
+    "kcal_jar": 301.0,
+    "ingredients": "junger Spinat, Kartoffel (19%), Zwiebel, Wasser, Quinoa (8%), Mais (7%), marinierte getrocknete Tomaten (Tomaten, Wasser, Weinessig, Kapern, Salz, Kräuter, Gewürze, Sonnenblumenöl), Knoblauch, Salz, Paprikapulver, Pfeffer",
+    "preparation": "Inhalt kurz im Topf/Pfanne erwärmen oder in der Mikrowelle ca. 3 Minuten erhitzen.",
+    "tags": [
+     "glutenfrei",
+     "kalorienarm",
+     "ohne Zusatzstoffe",
+     "vegan",
+     "vollkorn Getreide"
+    ],
+    "vegan": true,
+    "glutenfrei": true,
+    "images": [
+     "https://kernbeisser.at/wp-content/uploads/2024/11/produktbild-03-2025-quinoa.jpg",
+     "https://kernbeisser.at/wp-content/uploads/2024/11/Produkt-Quinoa-Mood-2-2024.jpg",
+     "https://kernbeisser.at/wp-content/uploads/2024/11/Produkt-Quinoa-Mood-3-2024.jpg",
+     "https://kernbeisser.at/wp-content/uploads/2024/11/Produkt-Quinoa-Mood-4-2024.jpg"
+    ],
+    "price_note": "Einzelpreis je Glas inkl. MwSt. lt. WooCommerce Store API (Mindestbestellung 6 Gläser)",
+    "shipping_note": "Kostenloser Versand, Lieferung nur innerhalb Österreichs; Mindestbestellmenge 6 Gläser (6/12/18/24/30) lt. kernbeisser.at",
+    "portions": "1–2 (FAQ: 'Ein Glas enthält ein bis zwei Portionen')",
+    "image_head": 200
+   }
+  },
+  {
+   "source": "kernbeisser",
+   "store": "Online: Kernbeißer",
+   "name": "Heimat-Hafer mit Pilzen",
+   "brand": "Kernbeißer",
+   "price_eur": 9.0,
+   "unit_price_eur": 20.0,
+   "unit": "kg",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "kcal": 86.0,
+    "satfat": 0.2,
+    "fat": 1.5,
+    "sugar": 0.9,
+    "carbs": 11.7,
+    "fiber": 3.7,
+    "protein": 4.5,
+    "salt": 0.6
+   },
+   "ean": "9180025580037",
+   "image_url": "https://kernbeisser.at/wp-content/uploads/2024/04/produktbild-03-2025-hafer.jpg",
+   "producer": "Kernbeißer OG, Jheringgasse 33/2/8, 1150 Wien, FN 622470y",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://kernbeisser.at/produkt/heimat-hafer-mit-pilzen/",
+   "source_id": "24HA001",
+   "fetched_at": "2026-10-14T05:09:27+00:00",
+   "extra": {
+    "wc_id": 391,
+    "slug": "heimat-hafer-mit-pilzen",
+    "in_stock": true,
+    "kcal_jar": 387.0,
+    "ingredients": "Gemüsebrühe (Wasser, Sellerie , Karotte, Porree, Peterwurze, Petersilie, Pastinake, Nelke, Lorbeer), Pilze (16%), Hafer (12%), Brokkoli, Zwiebel, Berglinsen (8%), marinierte getrocknete Tomaten (Tomaten, Wasser, Weinessig, Kapern, Salz, Kräuter, Gewürze, Sonnenblumenöl), Salz, Rosmarin, Pfeffer",
+    "preparation": "Inhalt kurz im Topf/Pfanne (evtl. mit etwas Wasser) erwärmen oder in der Mikrowelle ca.",
+    "tags": [
+     "kalorienarm",
+     "ohne Zusatzstoffe",
+     "vegan",
+     "vollkorn Getreide"
+    ],
+    "vegan": true,
+    "glutenfrei": false,
+    "images": [
+     "https://kernbeisser.at/wp-content/uploads/2024/04/produktbild-03-2025-hafer.jpg",
+     "https://kernbeisser.at/wp-content/uploads/2024/04/Produkt-Grass-24-Hafer.jpg",
+     "https://kernbeisser.at/wp-content/uploads/2024/04/Produkt-Hafer-Mood-4-2024.jpg",
+     "https://kernbeisser.at/wp-content/uploads/2024/04/Produkt-Buch-24-Hafer.jpg"
+    ],
+    "price_note": "Einzelpreis je Glas inkl. MwSt. lt. WooCommerce Store API (Mindestbestellung 6 Gläser)",
+    "shipping_note": "Kostenloser Versand, Lieferung nur innerhalb Österreichs; Mindestbestellmenge 6 Gläser (6/12/18/24/30) lt. kernbeisser.at",
+    "portions": "1–2 (FAQ: 'Ein Glas enthält ein bis zwei Portionen')",
+    "image_head": 200
+   }
+  },
+  {
+   "source": "kernbeisser",
+   "store": "Online: Kernbeißer",
+   "name": "Thai-Naturreis mit Kichererbsen",
+   "brand": "Kernbeißer",
+   "price_eur": 9.0,
+   "unit_price_eur": 20.0,
+   "unit": "kg",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "kcal": 152.0,
+    "satfat": 2.9,
+    "fat": 4.4,
+    "sugar": 2.5,
+    "carbs": 23.0,
+    "fiber": 2.9,
+    "protein": 4.2,
+    "salt": 0.4
+   },
+   "ean": "9180025580020",
+   "image_url": "https://kernbeisser.at/wp-content/uploads/2024/04/produktbild-03-2025-naturreis.jpg",
+   "producer": "Kernbeißer OG, Jheringgasse 33/2/8, 1150 Wien, FN 622470y",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://kernbeisser.at/produkt/thai-naturreis-mit-kichererbsen/",
+   "source_id": "24NA001",
+   "fetched_at": "2026-10-14T05:09:29+00:00",
+   "extra": {
+    "wc_id": 385,
+    "slug": "thai-naturreis-mit-kichererbsen",
+    "in_stock": true,
+    "kcal_jar": 685.0,
+    "ingredients": "Wasser, Naturreis (20%), Kokosmilch (Kokosnussextrakt, Wasser), Paprika, Kichererbsen (10%), Apfel, Erbsen, Currypaste (getrocknete rote Chili, Zitronengras, Knoblauch, Schalotten, Salz, Kaffernlimettenschale, Galgant, Koriandersamen, Kreuzkümmel), Limettenblätter",
+    "preparation": "Inhalt kurz im Topf/Pfanne (evtl. mit etwas Wasser) erwärmen oder in der Mikrowelle ca.",
+    "tags": [
+     "glutenfrei",
+     "ohne Zusatzstoffe",
+     "vegan",
+     "vollkorn Getreide"
+    ],
+    "vegan": true,
+    "glutenfrei": true,
+    "images": [
+     "https://kernbeisser.at/wp-content/uploads/2024/04/produktbild-03-2025-naturreis.jpg",
+     "https://kernbeisser.at/wp-content/uploads/2024/04/Produkt-Grass-24-Naturreis.jpg",
+     "https://kernbeisser.at/wp-content/uploads/2024/04/Produkt-Naturreis-Mood-4-2024.jpg",
+     "https://kernbeisser.at/wp-content/uploads/2024/04/Produkt-Buch-24-Naturreis.jpg"
+    ],
+    "price_note": "Einzelpreis je Glas inkl. MwSt. lt. WooCommerce Store API (Mindestbestellung 6 Gläser)",
+    "shipping_note": "Kostenloser Versand, Lieferung nur innerhalb Österreichs; Mindestbestellmenge 6 Gläser (6/12/18/24/30) lt. kernbeisser.at",
+    "portions": "1–2 (FAQ: 'Ein Glas enthält ein bis zwei Portionen')",
+    "image_head": 200
+   }
+  },
+  {
+   "source": "kernbeisser",
+   "store": "Online: Kernbeißer",
+   "name": "Mediterran-Roggen mit Bohnen",
+   "brand": "Kernbeißer",
+   "price_eur": 9.0,
+   "unit_price_eur": 20.0,
+   "unit": "kg",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "kcal": 85.0,
+    "satfat": 0.08,
+    "fat": 0.6,
+    "sugar": 2.0,
+    "carbs": 14.5,
+    "fiber": 4.1,
+    "protein": 3.6,
+    "salt": 0.7
+   },
+   "ean": "9180025580013",
+   "image_url": "https://kernbeisser.at/wp-content/uploads/2024/04/produktbild-03-2025-roggen.jpg",
+   "producer": "Kernbeißer OG, Jheringgasse 33/2/8, 1150 Wien, FN 622470y",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://kernbeisser.at/produkt/mediterran-roggen-mit-bohnen/",
+   "source_id": "24RO001",
+   "fetched_at": "2026-10-14T05:09:32+00:00",
+   "extra": {
+    "wc_id": 277,
+    "slug": "mediterran-roggen-mit-bohnen",
+    "in_stock": true,
+    "kcal_jar": 383.0,
+    "ingredients": "gehackte Tomaten (geschälte gehackte Tomaten, Tomatensaft), Wasser, Roggen (15%), Zucchini, Paprika, Zwiebel, weiße Bohnen (8%), Knoblauch, Salz, Paprikapulver, Thymian, Pfeffer",
+    "preparation": "Inhalt kurz im Topf mit etwas Wasser erwärmen oder in der Mikrowelle ca. 3 Minuten erhitzen.",
+    "tags": [
+     "kalorienarm",
+     "ohne Zusatzstoffe",
+     "vegan",
+     "vollkorn Getreide"
+    ],
+    "vegan": true,
+    "glutenfrei": false,
+    "images": [
+     "https://kernbeisser.at/wp-content/uploads/2024/04/produktbild-03-2025-roggen.jpg",
+     "https://kernbeisser.at/wp-content/uploads/2024/04/Produkt-Grass-24-Roggen.jpg",
+     "https://kernbeisser.at/wp-content/uploads/2024/04/Produkt-Set-24-Roggen.jpg",
+     "https://kernbeisser.at/wp-content/uploads/2024/04/Produkt-Buch-24-Roggen.jpg"
+    ],
+    "price_note": "Einzelpreis je Glas inkl. MwSt. lt. WooCommerce Store API (Mindestbestellung 6 Gläser)",
+    "shipping_note": "Kostenloser Versand, Lieferung nur innerhalb Österreichs; Mindestbestellmenge 6 Gläser (6/12/18/24/30) lt. kernbeisser.at",
+    "portions": "1–2 (FAQ: 'Ein Glas enthält ein bis zwei Portionen')",
+    "image_head": 200
+   }
+  }
+ ]
+}

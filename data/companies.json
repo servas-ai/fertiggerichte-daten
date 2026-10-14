@@ -6203,5 +6203,55 @@
   "imprint_url": null,
   "register_court": "Amtsgericht Oldenburg",
   "hrb": "HRB 212808"
+ },
+ {
+  "slug": "kernbeisser-og",
+  "name": "Kernbeißer OG",
+  "role": "producer",
+  "legal_name": "Kernbeißer OG",
+  "lei": null,
+  "register_id": "FN 622470y",
+  "register_authority": "Handelsgericht Wien",
+  "fn": "FN 622470y",
+  "legal_form_code": null,
+  "country": "AT",
+  "address": "Jheringgasse 33/2/8, 1150 Wien, AT",
+  "entity_status": null,
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": null,
+  "management": "Polina Polynova (Geschäftsführerin lt. Impressum)",
+  "employees": null,
+  "revenue": null,
+  "website": "https://kernbeisser.at",
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Kernbeißer"
+  ],
+  "chains": [
+   "Online: Kernbeißer"
+  ],
+  "product_count": 6,
+  "median_price_eur": 9.0,
+  "median_eur_per_10g_protein": 4.82,
+  "nace": null,
+  "sources": [
+   "https://kernbeisser.at/impressum/",
+   "https://ec.europa.eu/taxation_customs/vies/"
+  ],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-14T05:07:01Z",
+  "chain_product_count": 6,
+  "registry_status": "verified_vies_impressum",
+  "uid": "ATU80744456",
+  "uid_vies_name": "Kernbeißer OG",
+  "uid_vies_address": "Jheringgasse 33/2/8, AT-1150 Wien",
+  "uid_checked_at": "2026-10-14T05:07:01Z",
+  "imprint_url": "https://kernbeisser.at/impressum/",
+  "register_court": "Handelsgericht Wien",
+  "hrb": null
  }
 ]
