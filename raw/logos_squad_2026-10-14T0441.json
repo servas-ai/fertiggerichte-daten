@@ -1,0 +1,19 @@
+{
+ "run": "T0441",
+ "fetched": "2026-10-14T0441",
+ "added": [
+  {
+   "slug": "loewenanteil",
+   "file": "loewenanteil.png",
+   "sha256": "ac31b86d6b4669ef2fd277f4d2a6711cbc1c14e53bcd53aeed15fb61e49923cf",
+   "source": "https://www.loewenanteil.com/cdn/shop/files/LowenanteilLogo1.png?v=1613610178 (Header-Logo des öffentlichen Shops; robots Allow product/CDN assets)",
+   "vision": "PASS — circular seal LÖWENANTEIL + crowned lion + 'JETZT BIN ICH SATT' / ESTD 2017 on white; dark-bg low contrast expected for black mark"
+  }
+ ],
+ "rejected": {},
+ "deferred": {
+  "Pierre Baguette": "SPA, no logo asset URL (unchanged)",
+  "The Green Garden / Wiener Virtshaus / Pasta Box / Elsässer": "known rejects"
+ },
+ "note": "Primary win this run = new Löwenanteil connector (17 meals); logo for the new brand. Logo long-tail brands not re-probed beyond known rejects."
+}

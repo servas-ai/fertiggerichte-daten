@@ -6152,5 +6152,56 @@
   "imprint_url": "https://www.dm.at/impressum-218894",
   "register_court": null,
   "hrb": null
+ },
+ {
+  "slug": "loewenanteil-gmbh",
+  "name": "Löwenanteil GmbH",
+  "role": "producer",
+  "legal_name": "Löwenanteil GmbH",
+  "lei": null,
+  "register_id": "HRB 212808",
+  "register_authority": "Amtsgericht Oldenburg",
+  "fn": null,
+  "legal_form_code": null,
+  "country": "DE",
+  "address": "Heiligengeiststraße 6–8, 26121 Oldenburg, DE",
+  "entity_status": null,
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": "2017",
+  "owners": null,
+  "management": "Robin Redelfs, Thomas Kley (lt. North Data / Handelsregisterauszug)",
+  "employees": null,
+  "revenue": null,
+  "website": "https://www.loewenanteil.com",
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Löwenanteil"
+  ],
+  "chains": [
+   "Online: Löwenanteil"
+  ],
+  "product_count": 17,
+  "median_price_eur": 9.99,
+  "median_eur_per_10g_protein": 2.5,
+  "nace": null,
+  "sources": [
+   "https://www.loewenanteil.com/",
+   "https://www.northdata.com/L%C3%B6wenanteil%20GmbH,%20Oldenburg/HRB%20212808",
+   "https://www.online-handelsregister.de/handelsregisterauszug/ni/Oldenburg/HRB/212808/Loewenanteil-GmbH"
+  ],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-14T04:51:15Z",
+  "chain_product_count": 17,
+  "registry_status": "verified_vies_public_register",
+  "uid": "DE316057151",
+  "uid_vies_name": null,
+  "uid_vies_address": null,
+  "uid_checked_at": "2026-10-14T04:51:04Z",
+  "imprint_url": null,
+  "register_court": "Amtsgericht Oldenburg",
+  "hrb": "HRB 212808"
  }
 ]

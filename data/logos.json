@@ -3171,5 +3171,19 @@
    "BEYOND MEAT",
    "Beyond Meat EU B.V."
   ]
+ },
+ {
+  "slug": "loewenanteil",
+  "name": "Löwenanteil",
+  "category": "Online Meal-Prep",
+  "file": "logos/loewenanteil.png",
+  "source_url": "https://www.loewenanteil.com/cdn/shop/files/LowenanteilLogo1.png?v=1613610178 (Header-Logo des öffentlichen Shops; robots Allow product/CDN assets)",
+  "brands": [
+   "Löwenanteil",
+   "Loewenanteil",
+   "LÖWENANTEIL",
+   "Online: Löwenanteil",
+   "Löwenanteil GmbH"
+  ]
  }
 ]
