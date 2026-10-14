@@ -1,0 +1,95 @@
+{
+ "run": "2026-10-14T0006 Daten-Squad",
+ "generated_at": "2026-10-14T00:40:40.038600+00:00",
+ "added": [
+  {
+   "slug": "wolfensberger-pomella",
+   "note": "Vision gate 2026-10-14T0006 (Daten-Squad): visuell geprüft (korrekte Marke, lesbar, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · Offizielles Header-Logo der WP Fine Food GmbH (Kurtatsch, Südtirol; Marke Wolfensberger & Pomella), unverändert 235x88 PNG, weißes Wordmark auf grünem Block; robots.txt 404 (keine Einschränkung), Plain-curl ohne Cookies. Hinweis: die Gurkerl-/MPreis-Packshots tragen das Etikett 'Südtiroler Kochwerk' (eigener Logo-Eintrag suedtiroler-kochwerk), daher offizielles Markenlogo statt Pack-Crop",
+   "source": "https://www.wp-finefood.com/img/logowp.png",
+   "sha256": "ebc352fb0dc5b085e625e9e719a69be0d0fff99bcbd7902ce0654dcc50b982cc",
+   "products_impacted": 3,
+   "aliases": [
+    "Wolfensberger & Pomella",
+    "WP Fine Food",
+    "Wolfensberger&Pomella"
+   ]
+  },
+  {
+   "slug": "schulzis-knoedel",
+   "note": "Vision gate 2026-10-14T0006 (Daten-Squad): visuell geprüft (korrekte Marke, lesbar, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · Ausschnitt des runden Marken-Badges 'SCHULZI'S KNÖDEL · FRISCH · REGIONAL · BRoK.at' aus dem offiziellen Hersteller-Artikelbild (Video-Still); Kreis+Banner-Maske, Hintergrund weiß, ×2 hochskaliert, Wordmark lesbar; robots.txt erlaubt (Crawl-Delay 5 eingehalten); Gurkerl-Packshots zeigen nur Knödel ohne Etikett",
+   "source": "https://www.brok.at/schulzisknoedel/ (BRoK Catering, Hersteller) — Artikelbild image.jimcdn.com/…/iad700e45d140b2aa/version/1730893318/image.jpg (1005x503) — Ausschnitt Marken-Badge",
+   "sha256": "a40b08d7c1aeba542589f657b5cd2ea40c39c19366faa0f60875c81de3e08c7a",
+   "products_impacted": 3,
+   "aliases": [
+    "Schulzi´s Knödel",
+    "Schulzi's Knödel",
+    "Schulzi´s",
+    "Schulzi's"
+   ]
+  }
+ ],
+ "updated_fileless": [
+  {
+   "slug": "delikatessa",
+   "note": "Vision gate 2026-10-14T0006 (Daten-Squad): visuell geprüft (korrekte Marke, lesbar, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · Packshot-Ausschnitt Penny-Eigenmarke Delikatessa (grünes Wordmark mit Swoosh + 'exklusiv bei PENNY.' auf weißem Badge); Quelle 1400x1400, Crop 276x130 ×1.5 + weißer Rand · vorher (file-less): no logo found · Probe 2026-10-13: Wikimedia Commons ohne Treffer; lidl.at hat keine Markenseite (nur /c/deluxe mit Foto-Banner, kein freigestelltes Logo)",
+   "source": "Penny commercetools packshot (images.cdn.europe-west1.gcp.commercetools.com/787b77ab-…/78-107318-1907479627-eMBE3-2y.jpg, penny.at/produkte/knoedel-78107318, Delikatessa Wurstknödel 10 Stück) — Ausschnitt Markenlogo",
+   "sha256": "26c88cad2c8303521c652d167a3c3bbce891244f1abb7532e5a1613a1a18b560",
+   "products_impacted": 3,
+   "aliases": [
+    "Delikatessa",
+    "Delikatessa (Penny)"
+   ]
+  },
+  {
+   "slug": "rettenswert",
+   "note": "Vision gate 2026-10-14T0006 (Daten-Squad): visuell geprüft (korrekte Marke, lesbar, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · Packshot-Ausschnitt Hofer-Eigenmarke Rettenswert (dunkles Handschrift-Wordmark + 'VON UNVERSCHWENDET' auf hellem Glas-Etikett); Aldi-CDN nicht erneut geprobt (T09 403) · vorher (file-less): Hofer private label: no logo published on hofer.at brand pages · Probe 2026-10-13: Aldi-CDN 2026_MA_/2025_MA_/Brandpage-Logo_* (616 GET-Varianten) → 403; Wikimedia Commons ohne Treffer (fertiggerichte-daten/raw/hofer_lidl_logo_probe_2026-10-13.json)",
+   "source": "OFF packshot GTIN 4061463369697 front_de.6.full (Rettenswert Curry Bowl Linsen & Mandeln, 2222x4060) — Ausschnitt Markenlogo",
+   "sha256": "61061e976e5256880e54053ee43a590b9b85833547cd3d77e0e785b3727840db",
+   "products_impacted": 3,
+   "aliases": [
+    "Rettenswert",
+    "Rettenswert von Unverschwendet"
+   ]
+  }
+ ],
+ "aliases_producer_fallback": [],
+ "rejected": {
+  "The Green Garden (6 products)": "all 6 Gurkerl images are plated-meal photos (Gurkerl own-label collab) without packaging/logo; no producer site identified — not re-probed (T2340 same result), still open",
+  "Wiener Virtshaus (4 products)": "Gurkerl images are plated-meal photos (368x254 plate, no packaging); BS Gastro has no website (T13) — still open",
+  "Pasta Box (3 products)": "Gurkerl packshots show open black meal trays without any label; producer Čerstvá pasta – Jan Blažek (Karlovy Vary) has no identifiable official site/logo asset — still open (Sodebo 'PastaBox' is a different French brand, not used)",
+  "Elsässer (3 products)": "Gurkerl label reads 'Original frische Elsässer* Quiche … FOOD MAKES FUN' — 'Elsässer' is a product descriptor, not a brand wordmark; brand owner unverified — not cropped",
+  "Wolfensberger & Pomella Gurkerl pack crop": "pack label shows 'Südtiroler Kochwerk' (different wordmark, already its own row) — used official wp-finefood.com header logo instead",
+  "Delikatessa OFF 9002682104336 front": "400px, no visible Delikatessa logo on the photographed side — used Penny packshot instead"
+ },
+ "counts": {
+  "added": 2,
+  "updated_fileless": 2,
+  "total_rows": 259,
+  "with_file": 229,
+  "products_impacted_total": 12
+ },
+ "sha256": {
+  "delikatessa": "26c88cad2c8303521c652d167a3c3bbce891244f1abb7532e5a1613a1a18b560",
+  "rettenswert": "61061e976e5256880e54053ee43a590b9b85833547cd3d77e0e785b3727840db",
+  "wolfensberger-pomella": "ebc352fb0dc5b085e625e9e719a69be0d0fff99bcbd7902ce0654dcc50b982cc",
+  "schulzis-knoedel": "a40b08d7c1aeba542589f657b5cd2ea40c39c19366faa0f60875c81de3e08c7a"
+ },
+ "source_urls_full": {
+  "delikatessa": "https://images.cdn.europe-west1.gcp.commercetools.com/787b77ab-692c-4e25-91f4-697690dc3c7c/78-107318-1907479627-eMBE3-2y.jpg",
+  "rettenswert": "https://images.openfoodfacts.org/images/products/406/146/336/9697/front_de.6.full.jpg",
+  "wolfensberger-pomella": "https://www.wp-finefood.com/img/logowp.png",
+  "schulzis-knoedel": "https://image.jimcdn.com/app/cms/image/transf/dimension=1005x10000:format=jpg/path/sbdb71c58a087b9f8/image/iad700e45d140b2aa/version/1730893318/image.jpg"
+ },
+ "strict_logo_less": {
+  "before": {
+   "brands": 87,
+   "products": 124
+  },
+  "after": {
+   "brands": 83,
+   "products": 112
+  },
+  "method": "fertiggerichte-hub/scripts/coverage.py logic (file-backed logo rows only), scripts/logo_work_T0006/strict_count.py"
+ },
+ "validator": "scripts/validate.py: OK (0 errors)"
+}

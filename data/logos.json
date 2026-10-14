@@ -380,10 +380,11 @@
   "slug": "rettenswert",
   "name": "Rettenswert",
   "category": "Eigenmarke",
-  "file": null,
-  "source_url": null,
+  "file": "logos/rettenswert.png",
+  "source_url": "OFF packshot GTIN 4061463369697 front_de.6.full (Rettenswert Curry Bowl Linsen & Mandeln, 2222x4060) — Ausschnitt Markenlogo",
   "brands": [
-   "Rettenswert"
+   "Rettenswert",
+   "Rettenswert von Unverschwendet"
   ]
  },
  {
@@ -504,10 +505,11 @@
   "slug": "delikatessa",
   "name": "Delikatessa",
   "category": "Eigenmarke",
-  "file": null,
-  "source_url": null,
+  "file": "logos/delikatessa.png",
+  "source_url": "Penny commercetools packshot (images.cdn.europe-west1.gcp.commercetools.com/787b77ab-…/78-107318-1907479627-eMBE3-2y.jpg, penny.at/produkte/knoedel-78107318, Delikatessa Wurstknödel 10 Stück) — Ausschnitt Markenlogo",
   "brands": [
-   "Delikatessa"
+   "Delikatessa",
+   "Delikatessa (Penny)"
   ]
  },
  {
@@ -2733,6 +2735,31 @@
    "Leitgeb's Nudelspezialitäten",
    "Leitgeb´s",
    "Leitgeb's"
+  ]
+ },
+ {
+  "slug": "wolfensberger-pomella",
+  "name": "Wolfensberger & Pomella",
+  "category": "Markenhersteller",
+  "file": "logos/wolfensberger-pomella.png",
+  "source_url": "https://www.wp-finefood.com/img/logowp.png",
+  "brands": [
+   "Wolfensberger & Pomella",
+   "WP Fine Food",
+   "Wolfensberger&Pomella"
+  ]
+ },
+ {
+  "slug": "schulzis-knoedel",
+  "name": "Schulzi´s Knödel",
+  "category": "Markenhersteller",
+  "file": "logos/schulzis-knoedel.png",
+  "source_url": "https://www.brok.at/schulzisknoedel/ (BRoK Catering, Hersteller) — Artikelbild image.jimcdn.com/…/iad700e45d140b2aa/version/1730893318/image.jpg (1005x503) — Ausschnitt Marken-Badge",
+  "brands": [
+   "Schulzi´s Knödel",
+   "Schulzi's Knödel",
+   "Schulzi´s",
+   "Schulzi's"
   ]
  }
 ]

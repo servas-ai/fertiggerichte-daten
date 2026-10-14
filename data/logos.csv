@@ -35,7 +35,7 @@ nature-s-gold,Nature's Gold,Eigenmarke,logos/natures-gold.png,OFF packshot GTIN 
 pizz-ah,PIZZ'AH,Eigenmarke,,,PIZZ'AH
 leibspeis,Leibspeis',Eigenmarke,,,Leibspeis'
 natur-aktiv,Natur Aktiv,Bio,,,Natur Aktiv
-rettenswert,Rettenswert,Eigenmarke,,,Rettenswert
+rettenswert,Rettenswert,Eigenmarke,logos/rettenswert.png,"OFF packshot GTIN 4061463369697 front_de.6.full (Rettenswert Curry Bowl Linsen & Mandeln, 2222x4060) — Ausschnitt Markenlogo",Rettenswert|Rettenswert von Unverschwendet
 wonnemeyer,Wonnemeyer,Eigenmarke,,,Wonnemeyer
 chef-select,Chef Select,Eigenmarke,logos/chef-select.png,OFF packshot GTIN 4056489009214 front_en.94 (Chef Select Smoked Ham Tortellini) — Ausschnitt Markenlogo,Chef Select|CHEF SELECT
 vemondo,Vemondo,Eigenmarke,logos/vemondo.png,OFF packshot GTIN 4056489848752 front_de.11 (Vemondo veganer Salat nach Art eines Budapester Salates) — Ausschnitt Markenlogo,"Vemondo|Vemondo, Grønvang Food ApS, Lidl"
@@ -47,7 +47,7 @@ select-go,SELECT&GO,Eigenmarke,,,SELECT&GO
 trattoria-alfredo,Trattoria Alfredo,Eigenmarke,,,Trattoria Alfredo
 kania,Kania,Eigenmarke,logos/kania.png,OFF packshot GTIN 4335619175334 front_en.3 (Kania India Style Yellow Curry) — Ausschnitt Markenlogo,Kania|Kania (Lidl)
 food-for-future,Food for Future,Eigenmarke,logos/food-for-future.svg,https://assets-eu-01.kc-usercontent.com:443/1d32d597-5ed5-0129-acbb-0e3925686fcc/2f2e48b1-b6da-4c09-a80f-623b2c5ce926/Food_for_Future_Logo_4c.svg,"Food for Future|Food for Future, Penny"
-delikatessa,Delikatessa,Eigenmarke,,,Delikatessa
+delikatessa,Delikatessa,Eigenmarke,logos/delikatessa.png,"Penny commercetools packshot (images.cdn.europe-west1.gcp.commercetools.com/787b77ab-…/78-107318-1907479627-eMBE3-2y.jpg, penny.at/produkte/knoedel-78107318, Delikatessa Wurstknödel 10 Stück) — Ausschnitt Markenlogo",Delikatessa|Delikatessa (Penny)
 chef-menue,Chef Menü,Eigenmarke,logos/chef-menue.png,OFF packshot GTIN 9010158009856 front_en.4 (Chef Menü Schweinsbraten) — Ausschnitt Markenlogo,Chef Menü|Chef Menu|chef menü
 knorr,Knorr,Markenhersteller,logos/knorr.svg,https://upload.wikimedia.org/wikipedia/commons/d/dc/Knorr_Logo_2020.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,"Knorr|Knorr, Kaiser Teller|Knorr Kaiser Teller"
 maggi,Maggi,Markenhersteller,logos/maggi.svg,https://upload.wikimedia.org/wikipedia/commons/8/83/Maggi_logo.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original,"Maggi|Maggi, Nestlé"
@@ -256,3 +256,5 @@ pappudia,Pappudia,Eigenmarke,logos/pappudia.png,OFF packshot GTIN 8595643805690 
 yum-yum,Yum Yum,Markenhersteller,logos/yum-yum.png,"MPreis Cloudinary packshot (res.cloudinary.com/dit8huoga, Yum Yum Instantnudeln Huhn, GTIN 8852018101024) — Ausschnitt Markenlogo",Yum Yum|YumYum
 m-mpreis,M (MPreis Eigenmarke),Eigenmarke,logos/m-mpreis.png,"MPreis Cloudinary packshot (res.cloudinary.com/dit8huoga, M Cevapcici mit Letscho und Reis) — Ausschnitt Eigenmarken-Siegel",M (MPreis Eigenmarke)|M
 leitgebs,Leitgeb's Nudelspezialitäten,Markenhersteller,logos/leitgebs.png,"Gurkerl CDN packshot Leitgeb´s Vegetarischer Nudelteller (cdn.gurkerl.at …/40027-1741767351370.jpg, GTIN 9120071330248) — Ausschnitt Etikett-Sticker",Leitgeb's Nudelspezialitäten|Leitgeb´s|Leitgeb's
+wolfensberger-pomella,Wolfensberger & Pomella,Markenhersteller,logos/wolfensberger-pomella.png,https://www.wp-finefood.com/img/logowp.png,Wolfensberger & Pomella|WP Fine Food|Wolfensberger&Pomella
+schulzis-knoedel,Schulzi´s Knödel,Markenhersteller,logos/schulzis-knoedel.png,"https://www.brok.at/schulzisknoedel/ (BRoK Catering, Hersteller) — Artikelbild image.jimcdn.com/…/iad700e45d140b2aa/version/1730893318/image.jpg (1005x503) — Ausschnitt Marken-Badge",Schulzi´s Knödel|Schulzi's Knödel|Schulzi´s|Schulzi's
