@@ -194,7 +194,7 @@ def meal_check(x, v2):
 
 SNACK = re.compile(r'\bbrot\b|brötchen|semmel|weckerl|sandwich|burger|baguette|\btoast|toastkäse|wurstsalat|ramyun|ramen nudel|instant ?nudel|cup noodle|noodle cup|yum yum|mama nudel|nudelsnack|bistro baguette|piccolini|wrap\b(?!.*bowl)|hot ?dog|pizzaschnitte|leberkässemmel',re.I)
 # Sensecheck 11: breaded/fried protein without a side-dish word is a component ('Zum Kombinieren'), not a main-ranking meal
-BREADED = re.compile(r'paniert|panade|\bcrispy\b|knusper|\bcrunch\b|backfisch|backhendl|nuggets?\b|\bsticks?\b|stäbchen|schnitzel|cordon bleu|gebacken\w*\s+(hendl|huhn|hühner|fisch|champignon)',re.I)
+BREADED = re.compile(r'paniert|panade|\bcrispy\b|knusper|\bcrunch\b|\bbreaded\b|backfisch|backhendl|nuggets?\b|\bsticks?\b|stäbchen|schnitzel|cordon bleu|gebacken\w*\s+(hendl|huhn|hühner|fisch|champignon)',re.I)
 SIDE_WORD = re.compile(r'reis\b|naturreis|kartoffel|erdäpfel|püree|pueree|nudel|pasta|spaghetti|penne|gemüse|pommes|fritten|wedges|rösti|kroketten|salat|salad|spätzle|knödel|bowl|couscous|bulgur|quinoa|\bmit\b|pizza|burger|wrap|sandwich|toast|baguette|menü|teller',re.I)
 def breaded_component(nm): return bool(BREADED.search(nm or '')) and not SIDE_WORD.search(nm or '')
 BREAKFAST = re.compile(r'frühstück|porridge|overnight ?oats|\bmüsli|\bmuesli|haferbrei|\bbrei\b',re.I)

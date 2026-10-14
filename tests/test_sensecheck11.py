@@ -2,18 +2,18 @@
 import json, sys, os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 import score_v2 as V
-P='/workspace/fertig-app/public/data.json'
+P=os.environ.get('GOOD_CHOICE_DATA','/workspace/fertig-app/public/data.json')
 def _d(): return json.load(open(P))
 
 def test_breaded_rule():
-    for n in ['BILLA Pazifischer Polardorsch paniert','Iglo Crispy Chicken Rosmarin-Meersalz','Iglo Knusper Abenteuer','Hühner Nuggets']:
+    for n in ['BILLA Pazifischer Polardorsch paniert','Iglo Crispy Chicken Rosmarin-Meersalz','Iglo Knusper Abenteuer','Hühner Nuggets','Marks & Spencer 4 Breaded Haddock Fillets','Marks & Spencer 2 Breaded Cod Fillets glutenfrei']:
         assert V.breaded_component(n), n
     for n in ['Backhendl mit Kartoffelsalat','Schnitzel mit Pommes','Dr. Oetker Ristorante Pizza Tonno','Fischstäbchen mit Püree']:
         assert not V.breaded_component(n), n
 
 def test_breaded_rows_are_components_not_ranked():
     for r in _d()['rows']:
-        if any(k in r['name'] for k in ('Polardorsch paniert','Crispy Chicken Rosmarin','Knusper Abenteuer')):
+        if any(k in r['name'] for k in ('Polardorsch paniert','Crispy Chicken Rosmarin','Knusper Abenteuer','Breaded Haddock','Breaded Cod Fillets')):
             assert r['component'] and r['stage']=='prot' and not r['rankable'], r['name']
 
 def test_kernbeisser_breakfast_and_thai_rice():
