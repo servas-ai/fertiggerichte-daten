@@ -1,0 +1,69 @@
+[
+{
+"source": "gurkerl",
+"store": "Gurkerl.at",
+"name": "Marks & Spencer 4 Wild Icelandic Cod Fillets (tiefgekühlt)",
+"brand": "Marks & Spencer",
+"price_eur": 14.99,
+"unit_price_eur": 39.45,
+"unit": "kg",
+"size_g": 380.0,
+"nutrition_100g": {
+"kcal": 76.0,
+"fat": 1.2,
+"satfat": 0.3,
+"carbs": 0.1,
+"sugar": 0.1,
+"protein": 16.2,
+"salt": 0.35,
+"fiber": 0.1
+},
+"ean": "0029144686",
+"image_url": "https://cdn.gurkerl.at/images/grocery/products/17149/17149-1629122488557.jpg",
+"producer": "Marks and Spencer Services, Jemnická 1138/1, 14000 Prag, Tschechien",
+"producer_id": null,
+"origin": "Island",
+"category": "Marks & Spencer > Tiefgekühlte Produkte",
+"source_url": "https://www.gurkerl.at/17149-marks-spencer-4-wild-icelandic-cod-fillets-tiefgekuehlt",
+"source_id": "17149",
+"fetched_at": "2026-10-14T01:32:14+00:00",
+"extra": {
+"in_stock": true,
+"archived": false,
+"ingredients": "Zutaten: Schellfisch (Fisch)\n\nKontakt: Marks and Spencer Services, Jemnická 1138/1, 14000 Prag, Tschechien"
+}
+},
+{
+"source": "gurkerl",
+"store": "Gurkerl.at",
+"name": "Everest Bao Buns",
+"brand": "Everest",
+"price_eur": 3.99,
+"unit_price_eur": 19.95,
+"unit": "kg",
+"size_g": 200.0,
+"nutrition_100g": {
+"kcal": 271.0,
+"fat": 3.3,
+"satfat": 0.6,
+"carbs": 51.3,
+"sugar": 7.5,
+"protein": 7.9,
+"salt": 1.0
+},
+"ean": "9004355531104",
+"image_url": "https://cdn.gurkerl.at/images/grocery/products/47781/47781-1776942157981395547.JPEG",
+"producer": null,
+"producer_id": null,
+"origin": "Israel",
+"category": "Kühlregal > Schnelle Küche > Frische Teige",
+"source_url": "https://www.gurkerl.at/47781-everest-bao-buns",
+"source_id": "47781",
+"fetched_at": "2026-10-14T01:32:14+00:00",
+"extra": {
+"in_stock": true,
+"archived": false,
+"ingredients": "Zutaten: WEIZENMEHL, Wasser, Zucker, SOJAÖL, Hefe, Weingeistessig, Salz, Backtriebmittel (E500, E450i), Emulgatoren (E471, E481), Säureregulator (E170), Antioxidationsmittel (E300), SOJAMEHL. Kann Spuren enthalten von: EI, SESAM."
+}
+}
+]
