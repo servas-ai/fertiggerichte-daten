@@ -197,5 +197,8 @@ SNACK = re.compile(r'\bbrot\b|brötchen|semmel|weckerl|sandwich|burger|baguette|
 BREADED = re.compile(r'paniert|panade|\bcrispy\b|knusper|\bcrunch\b|\bbreaded\b|backfisch|backhendl|nuggets?\b|\bsticks?\b|stäbchen|schnitzel|cordon bleu|gebacken\w*\s+(hendl|huhn|hühner|fisch|champignon)',re.I)
 SIDE_WORD = re.compile(r'reis\b|naturreis|kartoffel|erdäpfel|püree|pueree|nudel|pasta|spaghetti|penne|gemüse|pommes|fritten|wedges|rösti|kroketten|salat|salad|spätzle|knödel|bowl|couscous|bulgur|quinoa|\bmit\b|pizza|burger|wrap|sandwich|toast|baguette|menü|teller',re.I)
 def breaded_component(nm): return bool(BREADED.search(nm or '')) and not SIDE_WORD.search(nm or '')
+# hourly T06: plain sous-vide meat pieces (no sauce dish like Gulasch, no side) and plain vegan Köttbullar are protein components, not complete meals
+SOUSVIDE_PIECE = re.compile(r'^(?!.*\b(gulasch|curry|asia|mit|und|dazu|auf)\b).*\b(entenbrust|rinderbacken|backerl|roastbeef|ribs|keule|huhn|hendl|beef\b.*)\b.*sous.?vide|^(?!.*\b(mit|dazu|auf|sauce|soße|püree|reis)\b).*köttbullar',re.I)
+def plain_component(nm): return bool(SOUSVIDE_PIECE.search(nm or ''))
 BREAKFAST = re.compile(r'frühstück|porridge|overnight ?oats|\bmüsli|\bmuesli|haferbrei|\bbrei\b',re.I)
 COMPONENT = re.compile(r'suppenfleisch|lachsfilet|backhendl|keulen?\b|falafel|laibchen|fischstäbchen|nuggets?\b|cordon bleu|schnitzel(?!.*(mit|püree|reis|erdäpfel|kartoffel|pommes))|filet(?!.*(mit|reis|püree|gemüse))|tofu(?!.*(mit|curry|bowl))|tempeh|bratwurst|grillwurst|cevapcici|frikadell',re.I)

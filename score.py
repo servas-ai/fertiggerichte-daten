@@ -367,6 +367,7 @@ for x in out:
     if not _des and _V2.SNACK.search(_nm): x['meal_class']='snack_side'; _mc['ok']=False; _mc['reason']='Brot/Snack/Instant – keine Mahlzeit'
     x['component']=bool(_V2.COMPONENT.search(_nm)) and not _des
     if not _des and _V2.breaded_component(_nm): x['component']=True; x['component_kind']='breaded'  # sensecheck 11
+    if not _des and not x['component'] and getattr(_V2,'plain_component',lambda n:False)(_nm): x['component']=True; x['component_kind']='plain_piece'  # hourly T06
     if not _des and _V2.BREAKFAST.search(_nm): x['gang']='frühstück'; _mc['ok']=False; _mc['reason']=(_mc.get('reason') or '')+' Frühstück (kein Hauptgericht)'; x['flags'].append('Frühstück – nicht im Hauptranking')
     if x['component']: _mc['ok']=False; _mc['reason']=(_mc.get('reason') or '')+' Proteinkomponente (keine vollständige Mahlzeit)'
     if not _mc['ok'] and _mc.get('reason'): x['flags'].append('Mahlzeit-Check: '+_mc['reason'])
