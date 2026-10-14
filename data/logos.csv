@@ -31,9 +31,9 @@ good-choice,Good Choice,Eigenmarke,logos/good-choice.png,OFF packshot GTIN 40992
 primana,Primana,Eigenmarke,logos/primana.png,"hofer.at Produktfoto Primana Frühstücksfleisch (Aldi CDN dm.emea.cms.aldi.cx, Ausschnitt)",Primana|PRIMANA
 asia,Asia,Eigenmarke,,,Asia
 green-garden,Asia Green Garden,Eigenmarke,logos/asia-green-garden.png,"hofer.at Produktfoto Asia Green Garden Pilztopf (Aldi CDN dm.emea.cms.aldi.cx, Ausschnitt)",Asia Green Garden|Green Garden
-nature-s-gold,Nature's Gold,Eigenmarke,logos/natures-gold.png,OFF packshot GTIN 4099200105291 front_de.25 (Nature's Gold Pfannengemüse Feinschmecker Art) — Ausschnitt Markenlogo,Nature's Gold|NATURE'S GOLD
-pizz-ah,PIZZ'AH,Eigenmarke,,,PIZZ'AH
-leibspeis,Leibspeis',Eigenmarke,,,Leibspeis'
+nature-s-gold,Nature's Gold,Eigenmarke,logos/natures-gold.png,OFF packshot GTIN 4099200105291 front_de.25 (Nature's Gold Pfannengemüse Feinschmecker Art) — Ausschnitt Markenlogo,Nature's Gold|NATURE'S GOLD|Nature‘s Gold
+pizz-ah,PIZZ'AH,Eigenmarke,logos/pizz-ah.png,"OFF packshot GTIN 4061463587275 front_de.17.full (PIZZ'AH Steinofenpizza Diavola, 2560x2544) — Ausschnitt Markenlogo",PIZZ'AH|PIZZ’AH|Pizz'ah
+leibspeis,Leibspeis',Eigenmarke,logos/leibspeis.png,"OFF packshot GTIN 4099200227771 front_de.3.full (Leibspeis' Tomaten-Mozzarella-Nudeln, 2281x3751) — Ausschnitt Markenlogo",Leibspeis'|Leibspeis|Leibspeis’
 natur-aktiv,Natur Aktiv,Bio,,,Natur Aktiv
 rettenswert,Rettenswert,Eigenmarke,logos/rettenswert.png,"OFF packshot GTIN 4061463369697 front_de.6.full (Rettenswert Curry Bowl Linsen & Mandeln, 2222x4060) — Ausschnitt Markenlogo",Rettenswert|Rettenswert von Unverschwendet
 wonnemeyer,Wonnemeyer,Eigenmarke,,,Wonnemeyer
@@ -41,7 +41,7 @@ chef-select,Chef Select,Eigenmarke,logos/chef-select.png,OFF packshot GTIN 40564
 vemondo,Vemondo,Eigenmarke,logos/vemondo.png,OFF packshot GTIN 4056489848752 front_de.11 (Vemondo veganer Salat nach Art eines Budapester Salates) — Ausschnitt Markenlogo,"Vemondo|Vemondo, Grønvang Food ApS, Lidl"
 deluxe,Deluxe,Eigenmarke,,,Deluxe
 vitasia,Vitasia,Eigenmarke,,,Vitasia
-mcennedy,MCENNEDY,Eigenmarke,,,MCENNEDY
+mcennedy,MCENNEDY,Eigenmarke,logos/mcennedy.png,https://www.lidl.at/p/mcennedy-nudelauflauf-mac-cheese/p10056595 (robots: /p/ erlaubt) — imgproxy-retcat.assets.schwarz …/w:1500/h:1125/… (Packshot Nudelauflauf Mac & Cheese) — Ausschnitt Markenlogo,MCENNEDY|McEnnedy|Mcennedy
 schwaben-krone,Schwaben Krone,Eigenmarke,,,Schwaben Krone
 select-go,SELECT&GO,Eigenmarke,,,SELECT&GO
 trattoria-alfredo,Trattoria Alfredo,Eigenmarke,,,Trattoria Alfredo
@@ -99,12 +99,12 @@ stangl,Stangl Nudeln,Markenhersteller,logos/stangl.png,https://stanglnudeln.at/c
 amlacher,Amlacher Nudel,Markenhersteller,logos/amlacher.png,https://amlachernudel.com/wp-content/uploads/amlacher-nudel-logo.jpg.jpeg,Amlacher|Amlacher Nudeln|Amlacher Nudel
 ackerl,Ackerl,Markenhersteller,logos/ackerl.png,https://www.weinbergmaier.at/images/ackerl.png,Ackerl|ACKERL
 pure,Pure,Markenhersteller,,,Pure
-ager,Ager,Markenhersteller,,,Ager
+ager,Ager,Markenhersteller,logos/ager.png,"https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-730656-0432126918-r8rI-sGc.jpg (BILLA Packshot Ager Rehragout geschnitten, 1200x1309) — Ausschnitt Markenlogo",Ager|AGER|Qualität Ager
 youcook,YOUCOOK,Markenhersteller,logos/youcook.png,https://www.youcook-food.com/wp-content/uploads/2025/11/YOUCOOK_Logo-quer-freigestellt-1.png,Youcook|YOUCOOK|YouCook
-njami,Njami,Markenhersteller,,,Njami
+njami,Njami,Markenhersteller,logos/njami.png,"https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-885825-438096192-9NY20Ilx.jpg (BILLA Packshot Njami Chicken Bowl Mexicana, 3277x3277) — Ausschnitt Marken-Lockup",Njami|NJAMI|Njami by Delamaris
 feelfood,Feelfood,Markenhersteller,,,Feelfood
 marinus,Marinus,Markenhersteller,,,Marinus
-staudinger,Staudinger,Markenhersteller,,,Staudinger
+staudinger,Staudinger,Markenhersteller,logos/staudinger.png,"https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-698017-707306118-J1-9R-AF.jpg (BILLA Packshot Staudinger Holzofen Leberkäs geschnitten, 1600x1600) — Ausschnitt Markenlogo",Staudinger|Staudinger's|STAUDINGER'S|Staudinger´s
 muehlen,Mühlen,Markenhersteller,,,Mühlen
 sushitime,Sushitime,Markenhersteller,,,Sushitime
 pop-up,Pop-Up,Markenhersteller,,,Pop-Up
@@ -132,7 +132,7 @@ rewe-genusskueche,Rewe Austria Genussküche GmbH,Produzent/Werk,logos/rewe-genus
 hochreiter,Hochreiter Quality Meat Factory GmbH,Produzent/Werk,logos/hochreiter.svg,https://www.hochreiter-gruppe.at/wp-content/uploads/2026/03/Logo-Hochreiter-Unternehmensgruppe-1.svg,
 hubers-landhendl,Hubers Landhendl GmbH,Produzent/Werk,logos/hubers-landhendl.png,https://huberslandhendl.at/wp-content/uploads/2023/01/logo-hubers-r.png,Hubers Landhendl|Hubers
 graninger,Graninger Holding GmbH,Produzent/Werk,logos/graninger.png,https://cdn.prod.website-files.com/68595bdb8caa50a08c871bc9/68595e102cb95527432fafb5_GR-Logo-ohneZusatz-V2.png,
-wech,Wech-Geflügel GmbH,Produzent/Werk,logos/wech.svg,https://www.wech.at/visuals/logo.svg,
+wech,Wech-Geflügel GmbH,Produzent/Werk,logos/wech.svg,https://www.wech.at/visuals/logo.svg,Wech|WECH
 heiploeg,Heiploeg International B.V.,Produzent/Werk,logos/heiploeg.png,https://www.heiploeg.com/Portals/10/logoHeiploeg%EF%B9%96ver=gFp07v-mytjmgebzGFz9oQ==.png,
 ehrmann,Ehrmann,Marke,logos/ehrmann.svg,https://commons.wikimedia.org/wiki/Special:FilePath/Ehrmann_Logo.svg,Ehrmann
 dr-oetker,Dr. Oetker,Marke,logos/dr-oetker.svg,https://commons.wikimedia.org/wiki/Special:FilePath/Dr._Oetker-Logo.svg,Dr. Oetker|Paula|DR.OETKER RISTORANTE
@@ -258,3 +258,9 @@ m-mpreis,M (MPreis Eigenmarke),Eigenmarke,logos/m-mpreis.png,"MPreis Cloudinary 
 leitgebs,Leitgeb's Nudelspezialitäten,Markenhersteller,logos/leitgebs.png,"Gurkerl CDN packshot Leitgeb´s Vegetarischer Nudelteller (cdn.gurkerl.at …/40027-1741767351370.jpg, GTIN 9120071330248) — Ausschnitt Etikett-Sticker",Leitgeb's Nudelspezialitäten|Leitgeb´s|Leitgeb's
 wolfensberger-pomella,Wolfensberger & Pomella,Markenhersteller,logos/wolfensberger-pomella.png,https://www.wp-finefood.com/img/logowp.png,Wolfensberger & Pomella|WP Fine Food|Wolfensberger&Pomella
 schulzis-knoedel,Schulzi´s Knödel,Markenhersteller,logos/schulzis-knoedel.png,"https://www.brok.at/schulzisknoedel/ (BRoK Catering, Hersteller) — Artikelbild image.jimcdn.com/…/iad700e45d140b2aa/version/1730893318/image.jpg (1005x503) — Ausschnitt Marken-Badge",Schulzi´s Knödel|Schulzi's Knödel|Schulzi´s|Schulzi's
+therese-moelk,Therese Mölk,Eigenmarke,logos/therese-moelk.png,"https://res.cloudinary.com/dit8huoga/image/upload/v1768288563/api/custom/844735_front.jpg (MPreis Packshot Therese Mölk Himbeerknödel 4er, EAN 9005015055459, 2480x2437) — Ausschnitt Marken-Badge",Therese Mölk|Bäckerei Therese Mölk|THERESE MÖLK
+tann,TANN,Eigenmarke,logos/tann.png,"https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020000772651/dt_zoom.jpg (Interspar Packshot TANN Cevapcici, 1001x1001) — Ausschnitt Markenlogo",TANN|Tann|TANN (Spar)
+exotic-food,Exotic Food,Markenhersteller,logos/exotic-food.png,https://www.exoticfoodthailand.com/wp-content/uploads/2020/08/Exotic-Logo-1.png,Exotic Food|EXOTIC FOOD|Exotic Food Thailand
+taste-of-asia,Taste Of Asia,Eigenmarke,logos/taste-of-asia.png,"https://images.cdn.europe-west1.gcp.commercetools.com/787b77ab-692c-4e25-91f4-697690dc3c7c/78-267102-427881130-amxyBx8i.jpg (Penny Packshot Taste of Asia Mini-Frühlingsrollen, 1400x1400) — Ausschnitt Markenlogo",Taste Of Asia|Taste of Asia|TASTE OF ASIA
+fryzza,Fryzza,Markenhersteller,logos/fryzza.png,"https://res.cloudinary.com/dit8huoga/image/upload/v1781744491/api/813756_angle.jpg (MPreis Packshot Fryzza Salami Pizza, EAN 4262548740046, 1333x1333) — Ausschnitt Wordmark",Fryzza|FRYZZA
+schenkel,Schenkel,Markenhersteller,logos/schenkel.png,"https://res.cloudinary.com/dit8huoga/image/upload/v1779619454/api/187011_angle.jpg (MPreis Packshot Schenkel Hummerrahmsuppe, EAN 4003011240522, 10439x11585) — Ausschnitt Wordmark-Band",Schenkel|SCHENKEL

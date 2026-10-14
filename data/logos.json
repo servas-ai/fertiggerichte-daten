@@ -343,27 +343,32 @@
   "source_url": "OFF packshot GTIN 4099200105291 front_de.25 (Nature's Gold Pfannengemüse Feinschmecker Art) — Ausschnitt Markenlogo",
   "brands": [
    "Nature's Gold",
-   "NATURE'S GOLD"
+   "NATURE'S GOLD",
+   "Nature‘s Gold"
   ]
  },
  {
   "slug": "pizz-ah",
   "name": "PIZZ'AH",
   "category": "Eigenmarke",
-  "file": null,
-  "source_url": null,
+  "file": "logos/pizz-ah.png",
+  "source_url": "OFF packshot GTIN 4061463587275 front_de.17.full (PIZZ'AH Steinofenpizza Diavola, 2560x2544) — Ausschnitt Markenlogo",
   "brands": [
-   "PIZZ'AH"
+   "PIZZ'AH",
+   "PIZZ’AH",
+   "Pizz'ah"
   ]
  },
  {
   "slug": "leibspeis",
   "name": "Leibspeis'",
   "category": "Eigenmarke",
-  "file": null,
-  "source_url": null,
+  "file": "logos/leibspeis.png",
+  "source_url": "OFF packshot GTIN 4099200227771 front_de.3.full (Leibspeis' Tomaten-Mozzarella-Nudeln, 2281x3751) — Ausschnitt Markenlogo",
   "brands": [
-   "Leibspeis'"
+   "Leibspeis'",
+   "Leibspeis",
+   "Leibspeis’"
   ]
  },
  {
@@ -443,10 +448,12 @@
   "slug": "mcennedy",
   "name": "MCENNEDY",
   "category": "Eigenmarke",
-  "file": null,
-  "source_url": null,
+  "file": "logos/mcennedy.png",
+  "source_url": "https://www.lidl.at/p/mcennedy-nudelauflauf-mac-cheese/p10056595 (robots: /p/ erlaubt) — imgproxy-retcat.assets.schwarz …/w:1500/h:1125/… (Packshot Nudelauflauf Mac & Cheese) — Ausschnitt Markenlogo",
   "brands": [
-   "MCENNEDY"
+   "MCENNEDY",
+   "McEnnedy",
+   "Mcennedy"
   ]
  },
  {
@@ -1053,10 +1060,12 @@
   "slug": "ager",
   "name": "Ager",
   "category": "Markenhersteller",
-  "file": null,
-  "source_url": null,
+  "file": "logos/ager.png",
+  "source_url": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-730656-0432126918-r8rI-sGc.jpg (BILLA Packshot Ager Rehragout geschnitten, 1200x1309) — Ausschnitt Markenlogo",
   "brands": [
-   "Ager"
+   "Ager",
+   "AGER",
+   "Qualität Ager"
   ]
  },
  {
@@ -1075,10 +1084,12 @@
   "slug": "njami",
   "name": "Njami",
   "category": "Markenhersteller",
-  "file": null,
-  "source_url": null,
+  "file": "logos/njami.png",
+  "source_url": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-885825-438096192-9NY20Ilx.jpg (BILLA Packshot Njami Chicken Bowl Mexicana, 3277x3277) — Ausschnitt Marken-Lockup",
   "brands": [
-   "Njami"
+   "Njami",
+   "NJAMI",
+   "Njami by Delamaris"
   ]
  },
  {
@@ -1105,10 +1116,13 @@
   "slug": "staudinger",
   "name": "Staudinger",
   "category": "Markenhersteller",
-  "file": null,
-  "source_url": null,
+  "file": "logos/staudinger.png",
+  "source_url": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-698017-707306118-J1-9R-AF.jpg (BILLA Packshot Staudinger Holzofen Leberkäs geschnitten, 1600x1600) — Ausschnitt Markenlogo",
   "brands": [
-   "Staudinger"
+   "Staudinger",
+   "Staudinger's",
+   "STAUDINGER'S",
+   "Staudinger´s"
   ]
  },
  {
@@ -1380,7 +1394,10 @@
   "category": "Produzent/Werk",
   "file": "logos/wech.svg",
   "source_url": "https://www.wech.at/visuals/logo.svg",
-  "brands": []
+  "brands": [
+   "Wech",
+   "WECH"
+  ]
  },
  {
   "slug": "heiploeg",
@@ -2760,6 +2777,76 @@
    "Schulzi's Knödel",
    "Schulzi´s",
    "Schulzi's"
+  ]
+ },
+ {
+  "slug": "therese-moelk",
+  "name": "Therese Mölk",
+  "category": "Eigenmarke",
+  "file": "logos/therese-moelk.png",
+  "source_url": "https://res.cloudinary.com/dit8huoga/image/upload/v1768288563/api/custom/844735_front.jpg (MPreis Packshot Therese Mölk Himbeerknödel 4er, EAN 9005015055459, 2480x2437) — Ausschnitt Marken-Badge",
+  "brands": [
+   "Therese Mölk",
+   "Bäckerei Therese Mölk",
+   "THERESE MÖLK"
+  ]
+ },
+ {
+  "slug": "tann",
+  "name": "TANN",
+  "category": "Eigenmarke",
+  "file": "logos/tann.png",
+  "source_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020000772651/dt_zoom.jpg (Interspar Packshot TANN Cevapcici, 1001x1001) — Ausschnitt Markenlogo",
+  "brands": [
+   "TANN",
+   "Tann",
+   "TANN (Spar)"
+  ]
+ },
+ {
+  "slug": "exotic-food",
+  "name": "Exotic Food",
+  "category": "Markenhersteller",
+  "file": "logos/exotic-food.png",
+  "source_url": "https://www.exoticfoodthailand.com/wp-content/uploads/2020/08/Exotic-Logo-1.png",
+  "brands": [
+   "Exotic Food",
+   "EXOTIC FOOD",
+   "Exotic Food Thailand"
+  ]
+ },
+ {
+  "slug": "taste-of-asia",
+  "name": "Taste Of Asia",
+  "category": "Eigenmarke",
+  "file": "logos/taste-of-asia.png",
+  "source_url": "https://images.cdn.europe-west1.gcp.commercetools.com/787b77ab-692c-4e25-91f4-697690dc3c7c/78-267102-427881130-amxyBx8i.jpg (Penny Packshot Taste of Asia Mini-Frühlingsrollen, 1400x1400) — Ausschnitt Markenlogo",
+  "brands": [
+   "Taste Of Asia",
+   "Taste of Asia",
+   "TASTE OF ASIA"
+  ]
+ },
+ {
+  "slug": "fryzza",
+  "name": "Fryzza",
+  "category": "Markenhersteller",
+  "file": "logos/fryzza.png",
+  "source_url": "https://res.cloudinary.com/dit8huoga/image/upload/v1781744491/api/813756_angle.jpg (MPreis Packshot Fryzza Salami Pizza, EAN 4262548740046, 1333x1333) — Ausschnitt Wordmark",
+  "brands": [
+   "Fryzza",
+   "FRYZZA"
+  ]
+ },
+ {
+  "slug": "schenkel",
+  "name": "Schenkel",
+  "category": "Markenhersteller",
+  "file": "logos/schenkel.png",
+  "source_url": "https://res.cloudinary.com/dit8huoga/image/upload/v1779619454/api/187011_angle.jpg (MPreis Packshot Schenkel Hummerrahmsuppe, EAN 4003011240522, 10439x11585) — Ausschnitt Wordmark-Band",
+  "brands": [
+   "Schenkel",
+   "SCHENKEL"
   ]
  }
 ]
