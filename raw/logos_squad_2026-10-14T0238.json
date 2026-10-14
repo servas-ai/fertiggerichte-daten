@@ -1,0 +1,19 @@
+{
+ "run": "2026-10-14T0238 Daten-Squad",
+ "generated_at": "2026-10-14T02:59:23.455573+00:00",
+ "added": [
+  {
+   "slug": "bofrost",
+   "source": "https://www.bofrost.at/_ui/responsive/theme-main/css/images/bofrost_logo.svg",
+   "sha256": "30ebee675c82196f8cb5b822111872cec362d65d6e78d0b8d7ae8ac2b91d03d0",
+   "note": "Vision gate 2026-10-14T0238 (Daten-Squad): visuell geprüft (korrekte Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · offizielles bofrost.at Logo-SVG (aus dem Organization-JSON-LD der Website), Pfade unverändert, Füllfarbe weiß → #1f1f1f für helle UI"
+  }
+ ],
+ "vision_gate": {
+  "bofrost": "PASS — dark bofrost* wordmark on white (800 px render)"
+ },
+ "counts": {
+  "total_rows": 286,
+  "with_file": 271
+ }
+}
