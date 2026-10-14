@@ -12,5 +12,12 @@
  "rejected": {
   "https://www.alfies.at/static/svg/alfies-logo-dark.svg": "404 (path referenced in category index image fields only)"
  },
- "note": "Primary win this run = new retail chain Alfies (Wien/Graz online supermarket, 178 ready meals); logo for the new chain."
+ "note": "Primary win this run = new retail chain Alfies (Wien/Graz online supermarket, 178 ready meals); logo for the new chain.",
+ "aliases": [
+  {
+   "slug": "every-foods",
+   "alias": "Every Foods",
+   "why": "Alfies lists every. (Every. GmbH) meals as brand 'Every Foods' (9 rows); same brand, existing vision-gated logo"
+  }
+ ]
 }
