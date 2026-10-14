@@ -32,3 +32,4 @@ import bofrost_build; print("bofrost", bofrost_build.merge())  # bofrost* Austri
 import every_build; print("every", every_build.merge())  # every. (every-foods.com) frozen ready meals from the newest daten snapshot, idempotent
 import loewenanteil_build; print("loewenanteil", loewenanteil_build.merge())  # Löwenanteil Bio glass-jar meals from newest daten snapshot, idempotent
 import kernbeisser_build; print("kernbeisser", kernbeisser_build.merge())  # Kernbeißer vegan Vollkorn glass-jar meals (Wien) from newest daten snapshot, idempotent
+import goldblatt_build; print("goldblatt", goldblatt_build.merge())  # Goldblatt High Protein Bio glass-jar meals (Golden Veggies GmbH, Bad Waltersdorf) from newest daten snapshot, idempotent
