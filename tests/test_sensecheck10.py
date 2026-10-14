@@ -43,3 +43,10 @@ def test_top_lists_skip_vorspeise():
     assert "gang')!='vorspeise'" in src or 'gang")!=\'vorspeise\'' in src or "get('gang')!='vorspeise'" in src
     # all three main tops filter vorspeise
     assert src.count("get('gang')!='vorspeise'")>=3
+
+def test_loewenanteil_glas_not_unklar():
+    C=_classify()
+    x=dict(name='Gelbes Thai Curry',brand='Löwenanteil',packaging='Glas',packaging_raw='Glas',storage='Ungekühlt (Glas, steril)',category='Online Meal-Prep',prep='Mikrowelle 2–3 Min.')
+    assert C(x)=='Glas'
+    # name contains Eintopf must not override explicit Glas packaging_raw/storage
+    assert C(dict(name='Berglinseneintopf',brand='Löwenanteil',packaging='Glas',packaging_raw='Glas',storage='Ungekühlt (Glas, steril)',category='Online Meal-Prep'))=='Glas'
