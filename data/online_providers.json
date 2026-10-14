@@ -88,7 +88,7 @@
    "packaging": "plastikfreie Bio-Pap-Schalen",
    "price_from": "9,49 €/Meal (18er) – 10,49 € (6er), bis 65 g Protein",
    "products_in_app": true,
-   "products_note": "Produkte aus früherer Erfassung (other.json); Hydrogen-Shop ohne öffentliche Produkt-API",
+   "products_note": "30 Fertiggerichte live via food-connectors `fittogo` (public sitemap + product HTML; /products.json 404 on Hydrogen). price_eur = 12er-Box 9,99 €/Meal; Einzel-SKU 0,00 €. Evidence raw/fittogo_2026-10-14T0307.json",
    "store": "Online: Fit to Go",
    "sources": [
     "https://fittogo.at/",
@@ -192,5 +192,14 @@
    "stats": null
   }
  ],
- "not_found_de": "Foodist, Kochzauber, Mealprep.at, Frischepost, Alnatura: in dieser Runde kein lieferbares Fertiggericht-Angebot für Linz verifiziert (nicht geprüft = nicht ausgeschlossen)."
+ "not_found_de": "Foodist, Kochzauber, Mealprep.at, Frischepost, Alnatura: in dieser Runde kein lieferbares Fertiggericht-Angebot für Linz verifiziert (nicht geprüft = nicht ausgeschlossen).",
+ "dead_ends_verified_2026-10-14T0307": {
+  "Foodist": "foodist.de 301 → morenutrition.de/collections/foodist (snack/Abo-Boxen, no ready meals)",
+  "Kochzauber": "kochzauber.de / www DNS fail (NXDOMAIN)",
+  "Mealprep.at": "mealprep.at + www → parked /lander redirect",
+  "eismann.at": "301 → eismann.de (DE only, not AT) — reconfirmed",
+  "Gourmetfein": "Shopify /products.json live but 75 Fleisch-/Grillwurst items, 0 ready meals (connector kept, not imported)",
+  "Marianne's Mealprep": "Aspach OÖ, 5 km delivery radius only — not Linz",
+  "Marley Spoon Ready-to-heat": "public menu without prices/nutrition (login wall) — unchanged"
+ }
 }
