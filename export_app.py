@@ -130,8 +130,10 @@ for r in R:
         r['saltPct']=round(r['saltPor']/6*100) if r['saltPor'] is not None else None
     r['meal_check']=_x.get('meal_check')
     if _x.get('gang')=='dessert': r['gang']='dessert'
+    if _x.get('gang')=='frühstück': r['gang']='frühstück'; r['rankable']=False
     if _x.get('segment')=='grocery': r['segment']='grocery'
     if r.get('dry') or r.get('nutrition_basis')=='dry' or stg not in ('meal','stew') or r.get('gang')=='dessert' or r.get('segment')=='grocery' or r.get('meal_class')!='meal' or not (_x.get('meal_check') or {}).get('ok'): r['rankable']=False
+    if _x.get('component_kind')=='breaded': stg='prot'; r['stage']='prot'  # sensecheck 11: 'Zum Kombinieren'
     r['component']=bool(_x.get('component')) or stg=='prot'
     if r.get('segment')=='meal_kit':
         if not r.get('store') or str(r['store']).startswith('unbekannt'):
@@ -239,6 +241,33 @@ for m in mains:
         if s: used[s['id']]+=1
         combos.append(dict(main=m['id'],veg=v['id'],side=s['id'] if s else None,kcal=round(kc),prot=round(pr),price=round(cost,2),fib=round(v['fib']+(s['fib'] if s else 0),1)))
     if len(combos)>=24: break
+# --- pizza line names (Orchestrator 2026-10-14): one product name across stores. MPreis lists 'Dr. Oetker Ristorante Tonno',
+#  Billa/Spar/Gurkerl 'Dr. Oetker Ristorante Pizza Tonno' (same GTIN 4001724038993) → canonical '<Brand> <Line> Pizza <Variant>';
+#  then a missing EAN/photo/nutrition is filled from a same-brand twin with identical core name + size (each store keeps its own price).
+_PZ_LINE=re.compile(r'^(dr\.? ?oetker (?:ristorante|tradizionale|suprema|die ofenfrische|la mia grande|bistro))\s+(?!pizza\b|flammkuchen|baguette|calzone|piccola)(.+)$',re.I)
+_n_pzname=0
+for _r in R:
+    _nm=re.sub(r'\s*\(tiefgekühlt\)\s*$','',_r.get('name') or '',flags=re.I); _nm=re.sub(r'\bQuatro\b','Quattro',_nm)
+    _mm=_PZ_LINE.match(_nm)
+    if _mm: _nm=f"{_mm.group(1)} Pizza {_mm.group(2)}"
+    if _nm!=_r.get('name'): _r.setdefault('name_raw',_r.get('name')); _r['name']=_nm; _n_pzname+=1
+def _pz_key(r):
+    b=(r.get('brandN') or r.get('brand') or '').split(',')[0].strip().lower(); nm=(r.get('name') or '').lower()
+    if not b or not re.search(r'\bpizza\b|ristorante|suprema|ofenfrische',nm): return None
+    nm=re.sub(r'[^a-z0-9äöüß]+','',nm.replace(b,'')); return (b,nm,int(r['size']) if r.get('size') else None)
+_pz={}
+for _r in R:
+    k=_pz_key(_r)
+    if k and k[2]: _pz.setdefault(k,[]).append(_r)
+_n_pzfill=0
+for k,grp in _pz.items():
+    eans={g.get('ean') for g in grp if g.get('ean')}
+    if len(eans)!=1 or len(grp)<2: continue
+    e=next(iter(eans)); donor=next(g for g in grp if g.get('ean')==e)
+    for g in grp:
+        if not g.get('ean'): g['ean']=e; g['ean_source']='twin '+str(donor.get('store')); _n_pzfill+=1
+        if not g.get('img') and donor.get('img'): g['img']=donor['img']
+print('pizza names canonical',_n_pzname,'ean filled from twin',_n_pzfill)
 # --- baby/dry-fix exclusion + exact/GTIN/near dedupe + light_meal + cross-store collapse ---
 _BABY=re.compile(r'hipp|beba|aptamil|alete|babylove|ab dem \d|kleinkind|säugling|\bbaby\b|kinder ?menü|bio-?gläschen',re.I)
 _DRYFIX=re.compile(r'\bfix\b|bouillon.?w(?:ü|u)rfel|paradiescreme|maggi.*suppe|knorr basis',re.I)
@@ -352,7 +381,7 @@ for _r in R:
     if _r.get('meal_class')!='light_meal': continue
     _mc=_r.get('meal_check') or {}; _k,_p=_mc.get('kcal'),_mc.get('protein')
     if not (_k and 300<=_k<400): continue
-    if _r.get('dry') or _r.get('nutrition_basis')=='dry' or _r.get('gang')=='dessert': continue
+    if _r.get('dry') or _r.get('nutrition_basis')=='dry' or _r.get('gang') in ('dessert','vorspeise','frühstück'): continue  # sensecheck 11: no starters in topLight
     if _r.get('segment') in ('grocery','meal_kit','baby_food') or _r.get('component') or _r.get('stage') not in ('meal','stew'): continue
     if not _r.get('score') or _r['score']<30 or not _r.get('price') or not _r.get('store'): continue
     if str(_r['store']).startswith('unbekannt') or _r.get('pstat') not in ('live 2026','aktuell'): continue

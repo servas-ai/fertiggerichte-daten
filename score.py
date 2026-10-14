@@ -366,6 +366,8 @@ for x in out:
     if re.search(r'hipp|beba|aptamil|alete|babylove|ab dem \d|kleinkind|säugling|\bbaby\b|kinder ?menü|bio-?gläschen',_nm,re.I) or re.search(r'\b(hipp|alete|bebivita|beba|aptamil|babylove|freche freunde)\b',str(x.get('brand') or ''),re.I): x['meal_class']='baby'; x['segment']='baby_food'; _mc['ok']=False; _mc['reason']='Kindernahrung'
     if not _des and _V2.SNACK.search(_nm): x['meal_class']='snack_side'; _mc['ok']=False; _mc['reason']='Brot/Snack/Instant – keine Mahlzeit'
     x['component']=bool(_V2.COMPONENT.search(_nm)) and not _des
+    if not _des and _V2.breaded_component(_nm): x['component']=True; x['component_kind']='breaded'  # sensecheck 11
+    if not _des and _V2.BREAKFAST.search(_nm): x['gang']='frühstück'; _mc['ok']=False; _mc['reason']=(_mc.get('reason') or '')+' Frühstück (kein Hauptgericht)'; x['flags'].append('Frühstück – nicht im Hauptranking')
     if x['component']: _mc['ok']=False; _mc['reason']=(_mc.get('reason') or '')+' Proteinkomponente (keine vollständige Mahlzeit)'
     if not _mc['ok'] and _mc.get('reason'): x['flags'].append('Mahlzeit-Check: '+_mc['reason'])
     x['rankable']=bool(x['rankable']) and not x['dry'] and x['health_score'] is not None and _mc['ok'] and not _des and not _gro and x.get('is_meal',True)

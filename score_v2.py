@@ -82,7 +82,8 @@ def portion(x, off, stage=None):
     if m and sz and int(m.group(1)) > 1: return round(sz / int(m.group(1))), 'name_portions'
     # Sensecheck 10: family-size packs that apps treated as 1 portion (Gurkerl Iglo Lasagne 700 g → 868 kcal;
     # M&S 4 Breaded Haddock Fillets 500 g → 870 kcal). Split into 2 portions when size matches.
-    if sz and sz >= 650 and re.search(r'lasagne al forno', nm): return round(sz / 2), 'family_pack'
+    # Sensecheck 11: any 650–800 g lasagne (Hofer 'IGLO Lasagne 700g' had OFF serving 400 g) = 2 portions, before off_serving
+    if sz and (sz >= 650 and re.search(r'lasagne al forno', nm) or 650 <= sz <= 800 and re.search(r'\blasagne\b(?!bl|-?platt)', nm)): return round(sz / 2), 'family_pack'
     if sz and 450 <= sz <= 550 and re.search(r'\d+\s*breaded haddock', nm): return round(sz / 2), 'family_pack'
     # Sensecheck 9: bofrost* publishes the portion count per pack ('2 x 250 g' → portions 2) → per-portion
     # price/kcal/protein instead of the whole 500 g pack (Tafelspitz 22.99 €/855 kcal 'per portion' was 2 portions).
@@ -157,7 +158,7 @@ def score_v2(x, off=None, stage=None):
 
 # --- Sensecheck 2: hard meal check, dessert + grocery labels ---
 MEAL_KCAL_MIN, MEAL_KCAL_MAX, MEAL_PROT_MIN = 400, 900, 20
-DESSERT = re.compile(r'dessert|crème brûlée|creme brulee|brûlée|lavakuchen|lava cake|schokokuchen|kuchen\b|torte\b|mousse|pudding|panna cotta|tiramisu|cheesecake|topfencreme|grießbrei|milchreis|kaiserschmarr|germknödel|strudel(?!teig)|marillenknödel|zwetschk|erdbeerknödel|topfenknödel|himbeerknödel|heidelbeerknödel|mohnnudel|buchtel|palatschink|scheiterhaufen|eis\b|eiscreme|sorbet|muffin|brownie|waffel|crêpe|tarte|profiterol|soufflé|fondant',re.I)
+DESSERT = re.compile(r'dessert|crème brûlée|creme brulee|brûlée|lavakuchen|lava cake|schokokuchen|kuchen\b|torte\b|mousse|pudding|panna cotta|tiramisu|cheesecake|topfencreme|grießbrei|milchreis|kaiserschmarr|germknödel|strudel(?!teig)|marillenknödel|zwetschk|erdbeerknödel|topfenknödel|himbeerknödel|heidelbeerknödel|mohnnudel|buchtel|palatschink|scheiterhaufen|\beis\b|eiscreme|sorbet|muffin|brownie|waffel|crêpe|tarte|profiterol|soufflé|fondant',re.I)
 DESSERT_NOT = re.compile(r'apfelstrudel.*?(gemüse|spinat)|gemüsestrudel|spinatstrudel|krautstrudel|fleischstrudel|lachsstrudel|blätterteigstrudel.*(gemüse|spinat|fleisch|lachs)|pizzastrudel',re.I)
 GROCERY = re.compile(r'toastkäse|käse ?scheiben|scheibenkäse|schmelzkäse|streichkäse|frischkäse|\bgouda\b|emmentaler|mozzarella$|\bfeta\b|hartkäse|bergkäse|camembert|\bbrot\b|protein ?brot|eiweißbrot|toastbrot|\btoast\b(?!.*(hawaii|schinken-käse))|vollkornbrot|semmel$|gebäck|brötchen|aufstrich|streichwurst|leberwurst|pastete|\bwurst(aufschnitt)?\b|aufschnitt|salami|schinken ?scheiben|wurstsalat|fleischsalat|eiersalat|thunfischsalat|\bbutter\b|margarine|honig|marmelade|konfitüre|nutella|pesto|sugo|ramyun|ramen nudel|instant ?nudel|nudelsuppe instant|cup noodle|noodle cup|yum yum|mama nudel',re.I)
 
@@ -192,4 +193,9 @@ def meal_check(x, v2):
     return dict(d, ok=True, cls='meal', reason=None)
 
 SNACK = re.compile(r'\bbrot\b|brötchen|semmel|weckerl|sandwich|burger|baguette|\btoast|toastkäse|wurstsalat|ramyun|ramen nudel|instant ?nudel|cup noodle|noodle cup|yum yum|mama nudel|nudelsnack|bistro baguette|piccolini|wrap\b(?!.*bowl)|hot ?dog|pizzaschnitte|leberkässemmel',re.I)
+# Sensecheck 11: breaded/fried protein without a side-dish word is a component ('Zum Kombinieren'), not a main-ranking meal
+BREADED = re.compile(r'paniert|panade|\bcrispy\b|knusper|\bcrunch\b|backfisch|backhendl|nuggets?\b|\bsticks?\b|stäbchen|schnitzel|cordon bleu|gebacken\w*\s+(hendl|huhn|hühner|fisch|champignon)',re.I)
+SIDE_WORD = re.compile(r'reis\b|naturreis|kartoffel|erdäpfel|püree|pueree|nudel|pasta|spaghetti|penne|gemüse|pommes|fritten|wedges|rösti|kroketten|salat|salad|spätzle|knödel|bowl|couscous|bulgur|quinoa|\bmit\b|pizza|burger|wrap|sandwich|toast|baguette|menü|teller',re.I)
+def breaded_component(nm): return bool(BREADED.search(nm or '')) and not SIDE_WORD.search(nm or '')
+BREAKFAST = re.compile(r'frühstück|porridge|overnight ?oats|\bmüsli|\bmuesli|haferbrei|\bbrei\b',re.I)
 COMPONENT = re.compile(r'suppenfleisch|lachsfilet|backhendl|keulen?\b|falafel|laibchen|fischstäbchen|nuggets?\b|cordon bleu|schnitzel(?!.*(mit|püree|reis|erdäpfel|kartoffel|pommes))|filet(?!.*(mit|reis|püree|gemüse))|tofu(?!.*(mit|curry|bowl))|tempeh|bratwurst|grillwurst|cevapcici|frikadell',re.I)
