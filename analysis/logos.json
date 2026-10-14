@@ -4122,5 +4122,20 @@
   "size": "png",
   "note": "Vision gate 2026-10-14T0136 (Daten-Squad): visuell geprüft (korrekte Marke, lesbar, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · Packshot-Ausschnitt blaues 'PENNY READY'-Wordmark auf Kartontextur; leicht angeschnitten, aber lesbar",
   "hq": true
+ },
+ "juit": {
+  "slug": "juit",
+  "name": "Juit",
+  "brands": [
+   "Juit",
+   "JUIT",
+   "Juit GmbH"
+  ],
+  "logo_category": "Online-Mealprep",
+  "file": "logos/juit.svg",
+  "source": "https://www.juit.com/favicon/transparent.svg",
+  "size": "svg",
+  "hq": true,
+  "note": "Vision gate 2026-10-14T0202 (Daten-Squad): visuell geprüft (korrekte Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · offizielles juit.com Favicon-SVG = JUIT-Wordmark (#1C1C1C), Pfade unverändert, nur viewBox auf die Wortmarke zugeschnitten"
  }
 }

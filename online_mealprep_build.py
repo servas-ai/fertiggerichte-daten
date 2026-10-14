@@ -27,3 +27,4 @@ for A in (PrepMyMeal(), LiveFresh()):
 for x in rows: x["storage"]="Tiefkühl (TK)"; x["shelf_life"]="≥3 Monate TK / 3–4 Tage gekühlt" if "Prep" in x["store"] else "TK (−18 °C)"; x["shipping_eur"]=5.99 if "Prep" in x["store"] else 9.95
 json.dump(rows, open('online_mealprep.json', 'w'), ensure_ascii=False, indent=1)
 from collections import Counter; print(len(rows), Counter(r['store'] for r in rows))
+import juit_build; print("juit", juit_build.merge())  # Juit (juit.com) dishes, idempotent
