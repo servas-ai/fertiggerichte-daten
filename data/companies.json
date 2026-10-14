@@ -6303,5 +6303,58 @@
   "imprint_url": "https://goldblatt.at/policies/legal-notice",
   "register_court": "Landesgericht Graz",
   "hrb": null
+ },
+ {
+  "slug": "iss-mich-gmbh",
+  "name": "iss mich! GmbH",
+  "role": "producer",
+  "legal_name": "iss mich! GmbH",
+  "lei": null,
+  "register_id": "FN 471722i",
+  "register_authority": "Handelsgericht Wien",
+  "fn": "FN 471722i",
+  "legal_form_code": null,
+  "country": "AT",
+  "address": "Erlafstraße 7, 1020 Wien, AT",
+  "entity_status": "aktiv (Sanierungsverfahren 6 S 177/25h eröffnet 19.12.2025, Sanierungsplan angenommen 24.02.2026, aufgehoben 18.03.2026)",
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": "2017-05-23",
+  "owners": "Tobias Judmaier, MSc (100 % lt. Firmenbuch)",
+  "management": "Tobias Judmaier, MSc (Geschäftsführer seit 23.05.2017 lt. Firmenbuch/evi.gv.at)",
+  "employees": null,
+  "revenue": null,
+  "website": "https://www.issmich.at",
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "iss mich!",
+   "Iss mich!"
+  ],
+  "chains": [
+   "Online: iss mich!"
+  ],
+  "product_count": 35,
+  "median_price_eur": 8.6,
+  "median_eur_per_10g_protein": 9.09,
+  "nace": "I 56.21 Event-Caterer (Firmenmonitor); Geschäftszweig Handel mit Biolebensmittel",
+  "sources": [
+   "https://www.issmich.at/impressum",
+   "https://www.evi.gv.at/f/471722i",
+   "https://ec.europa.eu/taxation_customs/vies/",
+   "https://www.ra-jahn.at/insolvenz-iss-mich-gmbh-471722i/"
+  ],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-14T06:52:31Z",
+  "chain_product_count": 35,
+  "registry_status": "verified_vies_firmenbuch",
+  "uid": "ATU72305301",
+  "uid_vies_name": "iss mich! GmbH",
+  "uid_vies_address": "Erlafstraße 7, AT-1020 Wien",
+  "uid_checked_at": "2026-10-14T06:52:31Z",
+  "imprint_url": "https://www.issmich.at/impressum",
+  "register_court": "Handelsgericht Wien",
+  "hrb": null
  }
 ]
