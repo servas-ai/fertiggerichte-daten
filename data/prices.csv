@@ -29,8 +29,6 @@ bae635841685,Billa,3.52,7.04,live 2026,2026-10-12,heisse-preise.io latest-canoni
 3d7eff0849d6,Billa,3.49,8.72,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 bed69b9a5f31,Billa,6.99,15.89,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 3ae96c0652a6,Billa,6.99,13.19,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-4233c3c1d713,Billa,2.99,7.97,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-659516c994e1,Billa,2.99,8.54,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 958b406c81ff,Billa,3.99,133.0,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 24e335256687,Billa,2.19,8.76,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 7e84ea7b1b04,Billa,6.39,21.3,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
@@ -149,7 +147,6 @@ b8b8e6d50814,Spar,1.29,16.33,live 2026,2026-10-12,heisse-preise.io latest-canoni
 24b5c34bb5a1,Spar,0.79,,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 e05c6a1a8273,Spar,0.99,,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 074af5c09e61,Spar,0.99,,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-e5da6b7319c3,Spar,1.99,,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 a0a846d46148,Spar,3.39,15.41,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 bfff0f7c0396,Spar,5.39,13.47,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 adf9370320e2,Spar,4.79,11.97,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
@@ -775,10 +772,10 @@ b047d0613b0f,Hofer,1.35,3.38,Preis 2025,2025-07-03,nur Altpreis: heisse-preise.i
 8331d9060659,Hofer,3.99,3.99,Preis 2025,,kein aktueller 2026-Preis gefunden
 dee2da3db885,Hofer,2.59,6.47,Preis 2025,2023-10-03,heisse-preise.io Hofer 2023-10-03 Altpreis >12 Monate
 a2483be7d20e,Hofer,0.59,12.83,Preis 2025,2024-09-10,heisse-preise.io Hofer 2024-09-10 Altpreis >12 Monate
-4bae7028ef85,Hofer,0.49,6.45,Preis 2025,,other.json (Preis 2025)
+4bae7028ef85,Hofer,0.49,6.45,Preis 2025,2023-05-18,heisse-preise.io Hofer 2023-05-18 Altpreis >12 Monate
 2202b315ed2b,Hofer,0.75,,Preis 2025,2025-04-09,heisse-preise.io Hofer 2025-04-09 Altpreis >12 Monate
 cd1a48889f98,Hofer,0.75,5.36,Preis 2025,2025-04-09,heisse-preise.io Hofer 2025-04-09 Altpreis >12 Monate
-db3a4eb2f68d,Hofer,0.75,6.25,Preis 2025,,other.json (Preis 2025)
+db3a4eb2f68d,Hofer,0.75,6.25,Preis 2025,2025-04-09,heisse-preise.io Hofer 2025-04-09 Altpreis >12 Monate
 762136d22219,Hofer,0.59,9.67,Preis 2025,,kein aktueller 2026-Preis gefunden
 063d4b2b4741,Hofer,1.99,2.65,Preis 2025,2023-11-03,heisse-preise.io Hofer 2023-11-03 Altpreis >12 Monate
 a0a23c8cd654,Hofer,2.49,8.89,live 2026,,hofer.at Suche (live)
@@ -948,7 +945,6 @@ fead0a8cccf5,Billa,6.49,8.11,live 2026,,billa.json (live 2026)
 2b71274857ea,Billa,1.12,1.12,live 2026,,billa.json (live 2026)
 5fa7476645e8,Billa,5.99,7.49,live 2026,,billa.json (live 2026)
 e8821ac82177,Billa,5.99,7.49,live 2026,,billa.json (live 2026)
-f65045ae3765,Billa,1.29,20.81,live 2026,,billa.json (live 2026)
 b9448574a346,Billa,2.19,36.5,live 2026,,billa.json (live 2026)
 a722403720b0,Billa,11.49,28.73,live 2026,,billa.json (live 2026)
 32fd55b39cea,Billa,10.49,26.23,live 2026,,billa.json (live 2026)
@@ -1127,7 +1123,7 @@ b6ccc7f3bc3c,Lidl,5.49,11.87,live 2026,,"lidl.at Such-API (live, Aktionsware)"
 d0707566da8d,Hofer,2.29,5.72,live 2026,2026-10-12,"wokostswas.at Kategorie Fertigprodukte (k54/k30), Hofer-Regalpreis, abgerufen 2026-10-12"
 9f8efcd98d0f,Hofer,2.29,5.72,live 2026,2026-10-12,"wokostswas.at Kategorie Fertigprodukte (k54/k30), Hofer-Regalpreis, abgerufen 2026-10-12"
 5d02e3de5894,Hofer,2.69,8.97,live 2026,2026-10-12,"wokostswas.at Kategorie Fertigprodukte (k54/k30), Hofer-Regalpreis, abgerufen 2026-10-12"
-eac0c079da5b,Hofer,2.69,8.97,live 2026,2026-10-12,"wokostswas.at Kategorie Fertigprodukte (k54/k30), Hofer-Regalpreis, abgerufen 2026-10-12"
+5d889e2bc42f,Hofer,2.69,8.97,live 2026,2026-10-12,"wokostswas.at Kategorie Fertigprodukte (k54/k30), Hofer-Regalpreis, abgerufen 2026-10-12"
 c4c013f12e4c,Hofer,2.29,5.72,live 2026,2026-10-12,"wokostswas.at Kategorie Fertigprodukte (k54/k30), Hofer-Regalpreis, abgerufen 2026-10-12"
 5d2dc3467870,Hofer,2.29,5.72,live 2026,2026-10-12,"wokostswas.at Kategorie Fertigprodukte (k54/k30), Hofer-Regalpreis, abgerufen 2026-10-12"
 d660214227ac,Hofer,3.39,7.88,Preis unbestätigt,2026-10-12,"wokostswas.at Kategorie Fertigprodukte (k54/k30), Hofer-Regalpreis, abgerufen 2026-10-12"
@@ -1257,11 +1253,15 @@ b2e5a2acac9f,Billa,2.39,15.93,live 2026,,frozen_quick.json (live 2026)
 2c85cdfc7837,Hofer,3.39,8.47,live 2026,,frozen_quick.json (live 2026)
 58574e016ce1,Hofer,3.06,7.24,Preis 2025,2025-10-29,heisse-preise.io Hofer 2025-10-29
 47624541a389,Hofer,8.49,,Preis 2025,2023-11-02,heisse-preise.io Hofer 2023-11-02 Altpreis >12 Monate
+687748cda261,MPreis,1.59,,live 2026,2026-10-13,"MPreis live 2026-10-13 (food-connectors, GTIN 9000275618116)"
 b5a717f699fe,Spar,4.99,13.31,live 2026,2026-10-12,"heisse-preise.io latest-canonical (abgerufen 2026-10-12), spar: 'SPAR ASIA Massaman Thai Curry mit Kartoffeln & Kichererbsen' 375g, letzte Preisänderung 2023-01-03, Name-Match 0.88 (bitte prüfen)"
 873d31dcd3ff,Spar,1.59,24.46,live 2026,2026-10-12,"heisse-preise.io latest-canonical (abgerufen 2026-10-12), spar: 'Knorr Die Schnelle Feine Tomatencreme Suppe mit Croûtons' 1stück, letzte Preisänderung 2024-02-26, Name-Match 0.90 (bitte prüfen)"
+557d6c44c6c1,MPreis,16.99,18.88,live 2026,2026-10-13,"MPreis live 2026-10-13 (food-connectors, GTIN 9120004490049)"
 0c4ec0de9d1b,Billa,5.99,28.52,live 2026,2026-10-12,"heisse-preise.io latest-canonical (abgerufen 2026-10-12), billa: 'BILLA Tom Kha Gai mit Huhn' 210g, letzte Preisänderung 2026-04-07, Name-Match 1.21 (bitte prüfen)"
+8b282b38bcaf,MPreis,1.59,,live 2026,2026-10-13,"MPreis live 2026-10-13 (food-connectors, GTIN 8720182937070)"
 a127901c3055,Billa,1.12,13.33,live 2026,2026-10-12,"heisse-preise.io latest-canonical (abgerufen 2026-10-12), billa: 'Knorr Keiserteller Gemüsecreme Suppe' 1stk, letzte Preisänderung 2026-10-08, Name-Match 0.80 (bitte prüfen)"
 0efddae4c91a,Spar,2.49,12.45,Preis 2025,2026-10-12,"heisse-preise.io latest-canonical (abgerufen 2026-10-12), spar: 'SPAR Natur*pur Bio-Tomaten-Risotto' 200g, letzte Preisänderung 2025-08-29, Name-Match 1.00 (bitte prüfen)"
+63a92215ed7e,dm,1.75,7.0,live 2026,2026-10-13,"dm live 2026-10-13 (food-connectors, GTIN 4062300463196)"
 594d47b32566,Fit to Go,9.99,24.98,live 2026,2026-10-12,"fittogo.at/collections/12er-box, abgerufen 2026-10-12: 10,49 €/Meal (6er), 9,99 € (12er), 9,49 € (18er); Werte pro Packung lt. Shop-Karte"
 e7d1e94c7907,Fit to Go,9.99,27.0,live 2026,2026-10-12,"fittogo.at/collections/12er-box, abgerufen 2026-10-12: 10,49 €/Meal (6er), 9,99 € (12er), 9,49 € (18er); Werte pro Packung lt. Shop-Karte"
 582633f74f38,Fit to Go,9.99,24.98,live 2026,2026-10-12,"fittogo.at/collections/12er-box, abgerufen 2026-10-12: 10,49 €/Meal (6er), 9,99 € (12er), 9,49 € (18er); Werte pro Packung lt. Shop-Karte"
@@ -1443,7 +1443,6 @@ cc9ee27d9b0b,Gurkerl,10.19,17.57,live 2026,2026-10-13,"food-connectors/gurkerl 2
 73def28b6a9c,Gurkerl,10.19,17.88,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
 818ec492f45c,Gurkerl,5.49,10.98,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
 5ad16231947b,Gurkerl,10.29,21.44,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
-88a091d9c769,Gurkerl,8.99,37.46,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
 cbf925424321,Gurkerl,3.69,9.23,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
 fb35d6311a43,Gurkerl,7.29,18.23,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
 49c84b01b5a4,Gurkerl,6.69,8.36,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
@@ -1810,9 +1809,7 @@ b39525b2bad2,Gurkerl,8.02,36.45,live 2026,2026-10-13,"food-connectors/gurkerl 20
 c9ca5f692c0f,Gurkerl,4.69,11.73,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
 6ae6028cb07e,Gurkerl,0.99,16.5,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
 6eb6a437f448,Gurkerl,0.99,16.5,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
-6a84ed4d347a,Gurkerl,1.19,20.17,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
 5d0890a0cd85,Gurkerl,1.19,19.19,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
-4842ba9f2b9f,Gurkerl,1.19,21.64,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
 cfdc5ddfcda1,Gurkerl,1.29,26.88,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
 251460a885ce,Gurkerl,1.29,20.81,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
 c5748b6d90a2,Gurkerl,2.79,17.44,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category API, inStock)"
@@ -1899,6 +1896,7 @@ a1c6d4358be9,Billa,5.89,23.56,live 2026,2026-10-13,"food-connectors/billa 2026-1
 261a6411e4bc,Billa,3.99,9.98,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
 81cc334364d3,Billa,10.49,16.78,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
 a6aeab9cce87,Billa,5.89,23.56,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, Normalpreis; Aktion separat)"
+baf198e5aa19,Billa,5.89,26.77,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, Normalpreis; Aktion separat)"
 9fda1156c361,Billa,5.19,20.76,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
 6f5271397b12,Billa,5.19,20.76,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
 d163cc97769c,Billa,4.99,22.68,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
@@ -2054,10 +2052,210 @@ c0e01d5ded66,Penny,4.99,12.47,live 2026,2026-10-13,"food-connectors/penny-shop 2
 a50fb34f93a6,Penny,4.99,6.65,live 2026,2026-10-13,"food-connectors/penny-shop 2026-10-13 (penny.at Online-Sortiment JSON, Artikel 78-790129)"
 8aefb0f283b5,Penny,3.49,4.85,live 2026,2026-10-13,"food-connectors/penny-shop 2026-10-13 (penny.at Online-Sortiment JSON, Artikel 78-913024)"
 c52852895e8d,Penny,2.79,6.2,live 2026,2026-10-13,"food-connectors/penny-shop 2026-10-13 (penny.at Online-Sortiment JSON, Artikel 78-463664)"
-d67395d951b2,Penny,0.99,15.71,live 2026,2026-10-13,"food-connectors/penny-shop 2026-10-13 (penny.at Online-Sortiment JSON, Artikel 78-303260)"
 84528481ab64,Penny,3.29,12.65,live 2026,2026-10-13,"food-connectors/penny-shop 2026-10-13 (penny.at Online-Sortiment JSON, Artikel 78-443582)"
 a564fd06be9a,Penny,2.99,7.2,live 2026,2026-10-13,"food-connectors/penny-shop 2026-10-13 (penny.at Online-Sortiment JSON, Artikel 78-420861); Mehrfachkauf-Aktion 1.99 € bei 3 Dosen → Einzelpreis = Normalpreis"
 a82fe8a8c3be,Penny,2.99,6.64,live 2026,2026-10-13,"food-connectors/penny-shop 2026-10-13 (penny.at Online-Sortiment JSON, Artikel 78-619544)"
+705193aed56d,Spar,5.49,5.49,live 2026,2026-10-13,"food-connectors/spar-shop 2026-10-13 (SPAR public search API search-spar.spar-ics.com, article 6573836, inStock)"
+bae98d86af21,Spar,6.99,15.89,live 2026,2026-10-13,"food-connectors/spar-shop 2026-10-13 (SPAR public search API search-spar.spar-ics.com, article 2020002695026, inStock)"
+c7c725ef0f5e,Spar,6.99,13.19,live 2026,2026-10-13,"food-connectors/spar-shop 2026-10-13 (SPAR public search API search-spar.spar-ics.com, article 2020002695033, inStock)"
+76e9ae350615,Spar,3.99,14.78,live 2026,2026-10-13,"food-connectors/spar-shop 2026-10-13 (SPAR public search API search-spar.spar-ics.com, article 5305964, inStock)"
+cb3249ac23a1,Spar,6.99,14.35,live 2026,2026-10-13,"food-connectors/spar-shop 2026-10-13 (SPAR public search API search-spar.spar-ics.com, article 2020005391710, inStock)"
+9c7d00df1da2,Spar,6.99,14.21,live 2026,2026-10-13,"food-connectors/spar-shop 2026-10-13 (SPAR public search API search-spar.spar-ics.com, article 2020005391765, inStock)"
+8ae92aecdee6,Spar,3.99,14.78,live 2026,2026-10-13,"food-connectors/spar-shop 2026-10-13 (SPAR public search API search-spar.spar-ics.com, article 4047803, inStock)"
+34b12d647f62,Spar,4.99,12.47,live 2026,2026-10-13,"food-connectors/spar-shop 2026-10-13 (SPAR public search API search-spar.spar-ics.com, article 2020003736155, inStock)"
+f2fe8cd0b303,Spar,5.79,23.16,live 2026,2026-10-13,"food-connectors/spar-shop 2026-10-13 (SPAR public search API search-spar.spar-ics.com, article 6751043, inStock)"
+e1d8cd75f80e,Spar,5.79,23.16,live 2026,2026-10-13,"food-connectors/spar-shop 2026-10-13 (SPAR public search API search-spar.spar-ics.com, article 7222580, inStock)"
+6a9216f588ee,Spar,4.99,9.98,live 2026,2026-10-13,"food-connectors/spar-shop 2026-10-13 (SPAR public search API search-spar.spar-ics.com, article 3238356, inStock)"
+8a33989ccbaa,Spar,5.99,15.76,live 2026,2026-10-13,"food-connectors/spar-shop 2026-10-13 (SPAR public search API search-spar.spar-ics.com, article 3061275, inStock)"
+d4c22b0b9953,Spar,5.29,13.23,live 2026,2026-10-13,"food-connectors/spar-shop 2026-10-13 (SPAR public search API search-spar.spar-ics.com, article 2020001310036, inStock)"
+bc0149317bf5,Spar,3.49,8.72,live 2026,2026-10-13,"food-connectors/spar-shop 2026-10-13 (SPAR public search API search-spar.spar-ics.com, article 145893, inStock)"
+59cd2cdf3e40,Spar,6.49,8.11,live 2026,2026-10-13,"food-connectors/spar-shop 2026-10-13 (SPAR public search API search-spar.spar-ics.com, article 5897278, inStock)"
+ac05a999ffbc,Spar,6.49,21.63,live 2026,2026-10-13,"food-connectors/spar-shop 2026-10-13 (SPAR public search API search-spar.spar-ics.com, article 68451, inStock)"
+5d3598c95de9,Spar,5.79,23.16,live 2026,2026-10-13,"food-connectors/spar-shop 2026-10-13 (SPAR public search API search-spar.spar-ics.com, article 6750954, inStock)"
+dc31b1a4ad45,Spar,4.99,11.88,live 2026,2026-10-13,"food-connectors/spar-shop 2026-10-13 (SPAR public search API search-spar.spar-ics.com, article 2020005860711, inStock)"
+0e80ccd2affa,Spar,4.99,11.88,live 2026,2026-10-13,"food-connectors/spar-shop 2026-10-13 (SPAR public search API search-spar.spar-ics.com, article 2020006248624, inStock)"
+a4f3b57029e7,Spar,4.99,11.88,live 2026,2026-10-13,"food-connectors/spar-shop 2026-10-13 (SPAR public search API search-spar.spar-ics.com, article 2020005555815, inStock)"
+8021fb5f3951,MPreis,3.99,19.95,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+8f06d2b13177,MPreis,6.49,17.83,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+7b5ba9061bc4,MPreis,4.99,19.96,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+8c8264e03b1a,MPreis,6.49,17.83,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+1148d5246b5b,MPreis,3.49,19.39,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+3669d3819ef7,MPreis,4.49,17.96,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+533f2fcf28c9,MPreis,4.49,17.96,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (category pages + sitemap, product JSON-LD offer price, InStock)"
+d617567066eb,Gurkerl,8.39,18.64,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (category walk + search, products/prices/stock API, inStock)"
+913660c7e7fd,Billa,16.99,42.48,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, Normalpreis; Aktion separat)"
+281bab228868,Billa,16.99,35.4,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, Normalpreis; Aktion separat)"
+1c49e0d45ba5,Billa,6.49,18.44,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+0408fd7f453e,Billa,10.49,41.96,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, Normalpreis; Aktion separat)"
+ba638f9be7ba,Billa,10.49,41.96,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, Normalpreis; Aktion separat)"
+1576063ac6e7,Billa,6.49,21.63,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+e1b2b083ccc1,Billa,10.49,29.14,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, Normalpreis; Aktion separat)"
+8801adf14825,Billa,12.99,51.96,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+7474f6fe9e88,Billa,6.19,30.95,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+07d10f88efd2,Billa,4.99,24.95,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+b2c6feb7da3e,Billa,6.99,12.94,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, Normalpreis; Aktion separat)"
+1b76127a5025,MPreis,2.99,8.54,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (product page JSON-LD offer price, InStock)"
+36a32c0bc6a8,MPreis,3.59,17.95,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (product page JSON-LD offer price, InStock)"
+457f5771cd20,MPreis,3.59,17.95,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (product page JSON-LD offer price, InStock)"
+940991c7214f,MPreis,4.79,9.58,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (product page JSON-LD offer price, InStock)"
+1704ebe02250,MPreis,2.49,9.96,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (product page JSON-LD offer price, InStock)"
+1ecdf9d23358,MPreis,2.89,11.56,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (product page JSON-LD offer price, InStock)"
+eb713082365f,MPreis,9.99,15.98,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (product page JSON-LD offer price, InStock)"
+520c65ed818e,MPreis,2.89,11.56,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (product page JSON-LD offer price, InStock)"
+a999c0086e93,MPreis,9.49,13.04,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (product page JSON-LD offer price, InStock)"
+9ce18886606b,MPreis,6.49,18.03,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (product page JSON-LD offer price, InStock)"
+3d7f9df54c4b,MPreis,6.49,14.42,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (product page JSON-LD offer price, InStock)"
+f7a63e406435,MPreis,9.49,11.3,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (product page JSON-LD offer price, InStock)"
+bdddd3ea07ff,MPreis,2.99,16.61,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (product page JSON-LD offer price, InStock)"
+7d65eca679d2,MPreis,4.64,9.28,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (product page JSON-LD offer price, InStock)"
+87492c4c7cbc,MPreis,3.99,14.78,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (product page JSON-LD offer price, InStock)"
+1b3a2ccd3771,MPreis,3.99,14.78,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (product page JSON-LD offer price, InStock)"
+7a51b07772d1,MPreis,3.99,12.47,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (product page JSON-LD offer price, InStock)"
+bad2c5961a36,MPreis,3.99,11.4,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (product page JSON-LD offer price, InStock)"
+598d73a634b6,MPreis,2.79,9.0,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (product page JSON-LD offer price, InStock)"
+044c49d79251,MPreis,2.79,6.2,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (product page JSON-LD offer price, InStock)"
+78619c64c171,Gurkerl,9.89,39.56,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (T20 walk ids, fresh products/prices/stock API 2026-10-13, inStock)"
+461741b0b150,Gurkerl,5.99,23.96,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (T20 walk ids, fresh products/prices/stock API 2026-10-13, inStock)"
+395a1946eb31,Gurkerl,5.29,21.16,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (T20 walk ids, fresh products/prices/stock API 2026-10-13, inStock)"
+138b61675f58,Gurkerl,4.59,32.79,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (T20 walk ids, fresh products/prices/stock API 2026-10-13, inStock)"
+35d3f31e95d6,Gurkerl,3.99,39.9,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (T20 walk ids, fresh products/prices/stock API 2026-10-13, inStock)"
+ac512fe98223,Gurkerl,4.19,41.9,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (T20 walk ids, fresh products/prices/stock API 2026-10-13, inStock)"
+17e0502d56c0,Gurkerl,9.59,47.95,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (T20 walk ids, fresh products/prices/stock API 2026-10-13, inStock)"
+68f097413fac,Gurkerl,19.99,49.98,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (T20 walk ids, fresh products/prices/stock API 2026-10-13, inStock)"
+5a389953acf6,Gurkerl,3.59,17.95,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (T22 category walk, products/prices/stock API, inStock)"
+1d97d854a396,MPreis,2.99,11.96,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (product page JSON-LD offer price, InStock)"
+793a39239edc,MPreis,2.99,11.96,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (product page JSON-LD offer price, InStock)"
+eba4dac5e957,MPreis,2.89,13.14,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (product page JSON-LD offer price, InStock)"
+842724678e02,MPreis,6.99,25.42,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (product page JSON-LD offer price, InStock)"
+c5c13c4ecce1,MPreis,11.99,47.96,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (product page JSON-LD offer price, InStock)"
+4a03dd25bf08,MPreis,3.99,9.98,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (product page JSON-LD offer price, InStock)"
+bf493a3017d0,MPreis,3.99,9.98,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (product page JSON-LD offer price, InStock)"
+e03fe56ee57c,MPreis,2.99,11.96,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (product page JSON-LD offer price, InStock)"
+ce95193e52fe,MPreis,2.19,8.76,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (product page JSON-LD offer price, InStock)"
+99da7afbc8e2,MPreis,13.99,18.65,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (product page JSON-LD offer price, InStock)"
+c98675b82688,MPreis,9.69,12.92,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (product page JSON-LD offer price, InStock)"
+1317d27ad804,MPreis,2.49,10.83,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (product page JSON-LD offer price, InStock)"
+3df6bf88a7d9,MPreis,2.49,10.38,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (product page JSON-LD offer price, InStock)"
+0e0da73b96b0,MPreis,2.49,11.86,live 2026,2026-10-13,"food-connectors/mpreis-shop 2026-10-13 (product page JSON-LD offer price, InStock)"
+19d03e4384de,Gurkerl,5.99,27.23,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (T23 search-metadata walk, products/prices/stock API, inStock)"
+4ef796704ee4,Gurkerl,10.99,18.95,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (T23 search-metadata walk, products/prices/stock API, inStock)"
+23efbcd62454,Gurkerl,3.39,13.56,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (T23 search-metadata walk, products/prices/stock API, inStock)"
+00ea878b672f,Gurkerl,11.49,24.45,live 2026,2026-10-13,"food-connectors/gurkerl 2026-10-13 (T23 search-metadata walk, products/prices/stock API, inStock)"
+68e47c0bcc86,Billa,12.99,47.24,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+2d92c10d1e20,Billa,3.99,15.96,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+c1b6ca1eb343,Billa,5.99,23.96,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+2898e4cf55c3,Billa,4.99,16.63,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+8b0fdc9bfbc9,Billa,7.59,20.24,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+df21ca98106c,Billa,4.99,9.98,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+0dcfe135fedf,Billa,12.99,39.36,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, regulärer Preis)"
+674916cb93aa,Billa,12.99,39.36,live 2026,2026-10-13,"food-connectors/billa 2026-10-13 (product-discovery API, Normalpreis; Aktion separat)"
+8ef5da7060d2,MPreis,4.99,9.24,live 2026,2026-10-14,"food-connectors/mpreis-shop 2026-10-14 (product page JSON-LD offer price, InStock)"
+b47ff9e03e17,MPreis,2.99,5.98,live 2026,2026-10-14,"food-connectors/mpreis-shop 2026-10-14 (product page JSON-LD offer price, InStock)"
+412beb41f315,MPreis,4.99,9.98,live 2026,2026-10-14,"food-connectors/mpreis-shop 2026-10-14 (product page JSON-LD offer price, InStock)"
+8892ee45caf8,MPreis,4.49,14.03,live 2026,2026-10-14,"food-connectors/mpreis-shop 2026-10-14 (product page JSON-LD offer price, InStock)"
+6ee99e82f61d,MPreis,2.49,3.11,live 2026,2026-10-14,"food-connectors/mpreis-shop 2026-10-14 (product page JSON-LD offer price, InStock)"
+9046488ca289,MPreis,3.59,17.95,live 2026,2026-10-14,"food-connectors/mpreis-shop 2026-10-14 (product page JSON-LD offer price, InStock)"
+55a991637f67,Gurkerl,13.49,49.05,live 2026,2026-10-14,"food-connectors/gurkerl 2026-10-14 (T00 search walk, products/prices/stock API, inStock)"
+30bde60faf0e,Gurkerl,13.49,59.96,live 2026,2026-10-14,"food-connectors/gurkerl 2026-10-14 (T00 search walk, products/prices/stock API, inStock)"
+ea708a883209,Gurkerl,13.49,40.88,live 2026,2026-10-14,"food-connectors/gurkerl 2026-10-14 (T00 search walk, products/prices/stock API, inStock)"
+02e106309eae,Gurkerl,13.49,40.88,live 2026,2026-10-14,"food-connectors/gurkerl 2026-10-14 (T00 search walk, products/prices/stock API, inStock)"
+71ecff6f7e16,Gurkerl,13.49,38.54,live 2026,2026-10-14,"food-connectors/gurkerl 2026-10-14 (T00 search walk, products/prices/stock API, inStock)"
+549d499d0f1b,Billa,5.89,23.56,live 2026,2026-10-14,"food-connectors/billa 2026-10-14 (product-discovery API, Normalpreis; Aktion separat)"
+f97b449f629f,Billa,5.89,23.56,live 2026,2026-10-14,"food-connectors/billa 2026-10-14 (product-discovery API, Normalpreis; Aktion separat)"
+e5273adcb84a,Billa,4.99,22.68,live 2026,2026-10-14,"food-connectors/billa 2026-10-14 (product-discovery API, regulärer Preis)"
+ea8dc2344946,Billa,4.99,19.96,live 2026,2026-10-14,"food-connectors/billa 2026-10-14 (product-discovery API, regulärer Preis)"
+049ad5e287d5,Billa,1.99,14.21,live 2026,2026-10-14,"food-connectors/billa 2026-10-14 (product-discovery API, regulärer Preis)"
+5cc006ed83a4,Billa,8.99,39.96,live 2026,2026-10-14,"food-connectors/billa 2026-10-14 (product-discovery API, regulärer Preis)"
+cd29d3ec06e3,Billa,6.49,16.23,live 2026,2026-10-14,"food-connectors/billa 2026-10-14 (product-discovery API, regulärer Preis)"
+c1c51a0f91be,Spar,6.49,18.03,live 2026,2026-10-14,"food-connectors/spar-shop 2026-10-14 (SPAR public search API search-spar.spar-ics.com, article 2020002186449, inStock)"
+b9304447bd9c,Spar,4.99,16.63,live 2026,2026-10-14,"food-connectors/spar-shop 2026-10-14 (SPAR public search API search-spar.spar-ics.com, article 1570830, inStock)"
+7e6309f4a702,Spar,4.99,9.98,live 2026,2026-10-14,"food-connectors/spar-shop 2026-10-14 (SPAR public search API search-spar.spar-ics.com, article 2020005391253, inStock)"
+b2b6fb3626c5,Spar,9.99,27.75,live 2026,2026-10-14,"food-connectors/spar-shop 2026-10-14 (SPAR public search API search-spar.spar-ics.com, article 2020006182355, inStock)"
+25717d7ae729,Spar,11.99,47.96,live 2026,2026-10-14,"food-connectors/spar-shop 2026-10-14 (SPAR public search API search-spar.spar-ics.com, article 2020002364823, inStock)"
+3d1171a5aad7,MPreis,8.99,35.96,live 2026,2026-10-14,"food-connectors/mpreis-shop 2026-10-14 (product page JSON-LD offer price, InStock)"
+5006b9669d27,MPreis,8.99,44.95,live 2026,2026-10-14,"food-connectors/mpreis-shop 2026-10-14 (product page JSON-LD offer price, InStock)"
+72f0541151a3,MPreis,4.99,19.96,live 2026,2026-10-14,"food-connectors/mpreis-shop 2026-10-14 (product page JSON-LD offer price, InStock)"
+2c9cf530ba55,MPreis,3.99,11.24,live 2026,2026-10-14,"food-connectors/mpreis-shop 2026-10-14 (product page JSON-LD offer price, InStock)"
+7e756fda1c28,MPreis,5.79,14.85,live 2026,2026-10-14,"food-connectors/mpreis-shop 2026-10-14 (product page JSON-LD offer price, InStock)"
+26dbbff60323,MPreis,8.49,21.23,live 2026,2026-10-14,"food-connectors/mpreis-shop 2026-10-14 (product page JSON-LD offer price, InStock)"
+a2a9d929c6a0,MPreis,8.49,17.69,live 2026,2026-10-14,"food-connectors/mpreis-shop 2026-10-14 (product page JSON-LD offer price, InStock)"
+00302f7e309f,MPreis,9.99,24.98,live 2026,2026-10-14,"food-connectors/mpreis-shop 2026-10-14 (product page JSON-LD offer price, InStock)"
+3fc518965225,MPreis,9.99,33.3,live 2026,2026-10-14,"food-connectors/mpreis-shop 2026-10-14 (product page JSON-LD offer price, InStock)"
+cebe143ed38e,MPreis,9.99,33.3,live 2026,2026-10-14,"food-connectors/mpreis-shop 2026-10-14 (product page JSON-LD offer price, InStock)"
+d08acd814ea0,MPreis,9.99,33.3,live 2026,2026-10-14,"food-connectors/mpreis-shop 2026-10-14 (product page JSON-LD offer price, InStock)"
+a99fc41aae7d,MPreis,9.99,39.96,live 2026,2026-10-14,"food-connectors/mpreis-shop 2026-10-14 (product page JSON-LD offer price, InStock)"
+690a6fe87780,MPreis,9.99,39.96,live 2026,2026-10-14,"food-connectors/mpreis-shop 2026-10-14 (product page JSON-LD offer price, InStock)"
+c9cb6cfb1094,MPreis,2.99,23.92,live 2026,2026-10-14,"food-connectors/mpreis-shop 2026-10-14 (product page JSON-LD offer price, InStock)"
+8f9585b7f756,MPreis,2.99,14.17,live 2026,2026-10-14,"food-connectors/mpreis-shop 2026-10-14 (product page JSON-LD offer price, InStock)"
+114e9927de62,MPreis,2.99,16.52,live 2026,2026-10-14,"food-connectors/mpreis-shop 2026-10-14 (product page JSON-LD offer price, InStock)"
+5b94e9ba9e45,MPreis,2.99,16.8,live 2026,2026-10-14,"food-connectors/mpreis-shop 2026-10-14 (product page JSON-LD offer price, InStock)"
+91c8be7c9ddf,MPreis,2.79,14.31,live 2026,2026-10-14,"food-connectors/mpreis-shop 2026-10-14 (product page JSON-LD offer price, InStock)"
+dfec7360e311,MPreis,5.99,8.68,live 2026,2026-10-14,"food-connectors/mpreis-shop 2026-10-14 (product page JSON-LD offer price, InStock)"
+be481e3037b4,MPreis,5.99,8.68,live 2026,2026-10-14,"food-connectors/mpreis-shop 2026-10-14 (product page JSON-LD offer price, InStock)"
+2a231a4cafed,MPreis,5.99,8.68,live 2026,2026-10-14,"food-connectors/mpreis-shop 2026-10-14 (product page JSON-LD offer price, InStock)"
+d48ab3dfb944,MPreis,2.19,8.76,live 2026,2026-10-14,"food-connectors/mpreis-shop 2026-10-14 (product page JSON-LD offer price, InStock)"
+bf91149df1f5,Billa,8.99,22.48,live 2026,2026-10-14,"food-connectors/billa 2026-10-14 (product-discovery API, Normalpreis; Aktion separat)"
+ad12d9639968,Billa,3.49,8.72,live 2026,2026-10-14,"food-connectors/billa 2026-10-14 (product-discovery API, regulärer Preis)"
+eecf447c5196,Billa,5.89,26.77,live 2026,2026-10-14,"food-connectors/billa 2026-10-14 (product-discovery API, Normalpreis; Aktion separat)"
+d117cea9aa34,Billa,4.99,24.95,live 2026,2026-10-14,"food-connectors/billa 2026-10-14 (product-discovery API, regulärer Preis)"
+615018cc310f,Billa,4.99,27.72,live 2026,2026-10-14,"food-connectors/billa 2026-10-14 (product-discovery API, regulärer Preis)"
+2e945db9777b,Billa,4.99,22.08,live 2026,2026-10-14,"food-connectors/billa 2026-10-14 (product-discovery API, regulärer Preis)"
+da5f4a2b6afe,Billa,8.99,29.97,live 2026,2026-10-14,"food-connectors/billa 2026-10-14 (product-discovery API, Normalpreis; Aktion separat)"
+4704bcc1364b,Billa,8.99,29.97,live 2026,2026-10-14,"food-connectors/billa 2026-10-14 (product-discovery API, Normalpreis; Aktion separat)"
+8c97511b8249,Billa,8.99,29.97,live 2026,2026-10-14,"food-connectors/billa 2026-10-14 (product-discovery API, Normalpreis; Aktion separat)"
+8890e55ace95,Billa,4.99,27.72,live 2026,2026-10-14,"food-connectors/billa 2026-10-14 (product-discovery API, regulärer Preis)"
+1621c048e6ff,Billa,3.29,8.22,live 2026,2026-10-14,"food-connectors/billa 2026-10-14 (product-discovery API, regulärer Preis)"
+033c89252f70,Billa,4.79,6.39,live 2026,2026-10-14,"food-connectors/billa 2026-10-14 (product-discovery API, regulärer Preis)"
+e29954041262,Spar,16.99,42.48,live 2026,2026-10-14,"food-connectors/spar-shop 2026-10-14 (SPAR public search API search-spar.spar-ics.com, article 111607, inStock)"
+c9ddbd840231,Spar,9.99,24.98,live 2026,2026-10-14,"food-connectors/spar-shop 2026-10-14 (SPAR public search API search-spar.spar-ics.com, article 482332, inStock)"
+5019fc1887db,Spar,9.99,33.3,live 2026,2026-10-14,"food-connectors/spar-shop 2026-10-14 (SPAR public search API search-spar.spar-ics.com, article 3545034, inStock)"
+a74e78539779,Spar,16.99,35.4,live 2026,2026-10-14,"food-connectors/spar-shop 2026-10-14 (SPAR public search API search-spar.spar-ics.com, article 2020002185862, inStock)"
+429457931135,MPreis,6.49,8.11,live 2026,2026-10-14,"food-connectors/mpreis-shop 2026-10-14 (product page JSON-LD offer price, InStock)"
+dfb7f9d23ae1,MPreis,6.29,7.86,live 2026,2026-10-14,"food-connectors/mpreis-shop 2026-10-14 (product page JSON-LD offer price, InStock)"
+072c073f3089,MPreis,5.29,13.23,live 2026,2026-10-14,"food-connectors/mpreis-shop 2026-10-14 (product page JSON-LD offer price, InStock)"
+07f320bbfe25,MPreis,2.89,11.56,live 2026,2026-10-14,"food-connectors/mpreis-shop 2026-10-14 (product page JSON-LD offer price, InStock)"
+163d0fef89cc,MPreis,17.99,44.97,live 2026,2026-10-14,"food-connectors/mpreis-shop 2026-10-14 (product page JSON-LD offer price, InStock)"
+11b410f27c67,MPreis,8.99,14.38,live 2026,2026-10-14,"food-connectors/mpreis-shop 2026-10-14 (product page JSON-LD offer price, InStock)"
+51a3c73d768b,MPreis,4.49,14.97,live 2026,2026-10-14,"food-connectors/mpreis-shop 2026-10-14 (product page JSON-LD offer price, InStock)"
+f2c5a7b5a835,MPreis,4.49,14.97,live 2026,2026-10-14,"food-connectors/mpreis-shop 2026-10-14 (product page JSON-LD offer price, InStock)"
+885c3ff69e14,MPreis,9.49,15.82,live 2026,2026-10-14,"food-connectors/mpreis-shop 2026-10-14 (product page JSON-LD offer price, InStock)"
+4dd2cb3eccfd,MPreis,4.49,14.97,live 2026,2026-10-14,"food-connectors/mpreis-shop 2026-10-14 (product page JSON-LD offer price, InStock)"
+cf5f8c25ce4e,MPreis,4.49,14.97,live 2026,2026-10-14,"food-connectors/mpreis-shop 2026-10-14 (product page JSON-LD offer price, InStock)"
+ca72fc359f59,MPreis,4.49,12.76,live 2026,2026-10-14,"food-connectors/mpreis-shop 2026-10-14 (product page JSON-LD offer price, InStock)"
+74d4090ed590,MPreis,9.99,27.75,live 2026,2026-10-14,"food-connectors/mpreis-shop 2026-10-14 (product page JSON-LD offer price, InStock)"
+a906d8ce31da,MPreis,5.99,9.98,live 2026,2026-10-14,"food-connectors/mpreis-shop 2026-10-14 (product page JSON-LD offer price, InStock)"
+c27ac873331d,Spar,4.99,19.96,live 2026,2026-10-14,"food-connectors/spar-shop 2026-10-14 (SPAR public search API search-spar.spar-ics.com, article 2020003928321, inStock)"
+a5e4b1417b4e,Spar,4.99,19.96,live 2026,2026-10-14,"food-connectors/spar-shop 2026-10-14 (SPAR public search API search-spar.spar-ics.com, article 2020004624857, inStock)"
+5cbddf3f6c20,Spar,4.49,10.82,live 2026,2026-10-14,"food-connectors/spar-shop 2026-10-14 (SPAR public search API search-spar.spar-ics.com, article 2946092, inStock)"
+8f34c8d8d7ea,Spar,3.99,12.47,live 2026,2026-10-14,"food-connectors/spar-shop 2026-10-14 (SPAR public search API search-spar.spar-ics.com, article 359740, inStock)"
+b6f6a550147b,Spar,3.99,11.24,live 2026,2026-10-14,"food-connectors/spar-shop 2026-10-14 (SPAR public search API search-spar.spar-ics.com, article 945233, inStock)"
+e283c8a1f109,Spar,4.49,14.03,live 2026,2026-10-14,"food-connectors/spar-shop 2026-10-14 (SPAR public search API search-spar.spar-ics.com, article 2020004740632, inStock)"
+ef35f0cfb943,Spar,3.99,11.4,live 2026,2026-10-14,"food-connectors/spar-shop 2026-10-14 (SPAR public search API search-spar.spar-ics.com, article 4795292, inStock)"
+4cbb07f62ac3,Spar,3.99,10.23,live 2026,2026-10-14,"food-connectors/spar-shop 2026-10-14 (SPAR public search API search-spar.spar-ics.com, article 82679, inStock)"
+294879e63f59,Spar,2.99,11.96,live 2026,2026-10-14,"food-connectors/spar-shop 2026-10-14 (SPAR public search API search-spar.spar-ics.com, article 3612033, inStock)"
+544acc06af22,Spar,3.99,12.09,live 2026,2026-10-14,"food-connectors/spar-shop 2026-10-14 (SPAR public search API search-spar.spar-ics.com, article 6184773, inStock)"
+473ebb35a8f5,Spar,4.99,12.47,live 2026,2026-10-14,"food-connectors/spar-shop 2026-10-14 (SPAR public search API search-spar.spar-ics.com, article 2020004650009, inStock)"
+a32608f45f02,Spar,3.99,12.28,live 2026,2026-10-14,"food-connectors/spar-shop 2026-10-14 (SPAR public search API search-spar.spar-ics.com, article 2020004680037, inStock)"
+8858f0337d8d,Spar,2.99,11.96,live 2026,2026-10-14,"food-connectors/spar-shop 2026-10-14 (SPAR public search API search-spar.spar-ics.com, article 3140000, inStock)"
+a0f96d6fe0d2,Spar,4.49,11.51,live 2026,2026-10-14,"food-connectors/spar-shop 2026-10-14 (SPAR public search API search-spar.spar-ics.com, article 2020002292720, inStock)"
+53ff126df667,Spar,4.99,13.13,live 2026,2026-10-14,"food-connectors/spar-shop 2026-10-14 (SPAR public search API search-spar.spar-ics.com, article 2020003155710, inStock)"
+c5ead1e7c962,Spar,3.99,12.47,live 2026,2026-10-14,"food-connectors/spar-shop 2026-10-14 (SPAR public search API search-spar.spar-ics.com, article 945226, inStock)"
+80e368d84523,Spar,3.99,12.09,live 2026,2026-10-14,"food-connectors/spar-shop 2026-10-14 (SPAR public search API search-spar.spar-ics.com, article 6184797, inStock)"
+0c0752d2bb46,Spar,3.99,11.74,live 2026,2026-10-14,"food-connectors/spar-shop 2026-10-14 (SPAR public search API search-spar.spar-ics.com, article 3198902, inStock)"
+40fcc13a7b66,Spar,2.99,11.96,live 2026,2026-10-14,"food-connectors/spar-shop 2026-10-14 (SPAR public search API search-spar.spar-ics.com, article 5109487, inStock)"
+867745d5a22e,Spar,4.49,12.14,live 2026,2026-10-14,"food-connectors/spar-shop 2026-10-14 (SPAR public search API search-spar.spar-ics.com, article 2020001902002, inStock)"
+9101ac6b4117,Spar,3.99,12.09,live 2026,2026-10-14,"food-connectors/spar-shop 2026-10-14 (SPAR public search API search-spar.spar-ics.com, article 2718026, inStock)"
+e308f6401318,Spar,4.49,10.82,live 2026,2026-10-14,"food-connectors/spar-shop 2026-10-14 (SPAR public search API search-spar.spar-ics.com, article 2948003, inStock)"
+48eb16d7f0f4,Spar,3.99,11.24,live 2026,2026-10-14,"food-connectors/spar-shop 2026-10-14 (SPAR public search API search-spar.spar-ics.com, article 6184766, inStock)"
+9ba8106bbe4c,Spar,6.99,14.72,live 2026,2026-10-14,"food-connectors/spar-shop 2026-10-14 (SPAR public search API search-spar.spar-ics.com, article 2020005391666, inStock)"
+f0e647bd08ca,Spar,4.99,13.86,live 2026,2026-10-14,"food-connectors/spar-shop 2026-10-14 (SPAR public search API search-spar.spar-ics.com, article 2020003154119, inStock)"
+e293d029c63b,Spar,2.99,11.96,live 2026,2026-10-14,"food-connectors/spar-shop 2026-10-14 (SPAR public search API search-spar.spar-ics.com, article 3140048, inStock)"
+e0159686a076,Spar,4.99,12.02,live 2026,2026-10-14,"food-connectors/spar-shop 2026-10-14 (SPAR public search API search-spar.spar-ics.com, article 2020003736186, inStock)"
+08d85455e40e,Spar,4.99,24.95,live 2026,2026-10-14,"food-connectors/spar-shop 2026-10-14 (SPAR public search API search-spar.spar-ics.com, article 2020005006140, inStock)"
+fa9a05b42c4e,Spar,8.99,44.95,live 2026,2026-10-14,"food-connectors/spar-shop 2026-10-14 (SPAR public search API search-spar.spar-ics.com, article 8121646, inStock)"
+f8cafe228391,Spar,9.99,15.98,live 2026,2026-10-14,"food-connectors/spar-shop 2026-10-14 (SPAR public search API search-spar.spar-ics.com, article 1937275, inStock)"
+855e26bf7cea,Spar,6.99,18.64,live 2026,2026-10-14,"food-connectors/spar-shop 2026-10-14 (SPAR public search API search-spar.spar-ics.com, article 2020005513327, inStock)"
+da0ce772cbc6,Spar,4.99,16.63,live 2026,2026-10-14,"food-connectors/spar-shop 2026-10-14 (SPAR public search API search-spar.spar-ics.com, article 372916, inStock)"
 6415820c4167,PrepMyMeal,12.48,12.48,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
 686d7d17b44d,PrepMyMeal,10.49,20.98,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
 96f3aa02ba70,PrepMyMeal,10.49,10.49,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
@@ -2100,6 +2298,7 @@ eafc6bfb97ac,PrepMyMeal,10.49,22.8,live 2026,2026-10-13,prepmymeal.at/products.j
 dde00bf4d932,PrepMyMeal,21.25,21.25,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
 cc7f4987aece,PrepMyMeal,12.48,12.48,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
 650d68a47e67,PrepMyMeal,12.48,12.48,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+f467f85eb04b,PrepMyMeal,10.49,20.98,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
 4efd1332ff39,PrepMyMeal,10.49,21.85,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
 f356ee77b2e9,PrepMyMeal,10.49,31.79,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
 1fc498c330cc,PrepMyMeal,12.48,12.48,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
@@ -2120,6 +2319,7 @@ bfac90ef1e34,PrepMyMeal,10.49,26.23,live 2026,2026-10-13,prepmymeal.at/products.
 25b09af85a70,PrepMyMeal,12.48,12.48,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
 d5d741893ea3,PrepMyMeal,10.49,22.8,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
 6c700342d73b,PrepMyMeal,10.49,20.98,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
+9b9d1d75b2f8,PrepMyMeal,10.49,21.41,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
 ee5ca9fbf457,PrepMyMeal,11.49,25.53,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
 f23aee66c910,PrepMyMeal,12.49,27.76,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
 ffe685a61884,PrepMyMeal,12.48,12.48,live 2026,2026-10-13,prepmymeal.at/products.json 2026-10-13
@@ -2283,7 +2483,6 @@ f32bc9db1876,Billa,1.59,12.72,live 2026,2026-10-13,food-connectors/billa 2026-10
 973dff218115,Billa,1.59,12.72,live 2026,2026-10-13,food-connectors/billa 2026-10-13
 4ecfb68e83a7,Billa,2.59,15.24,live 2026,2026-10-13,food-connectors/billa 2026-10-13
 c5a74e55466c,Billa,2.59,15.24,live 2026,2026-10-13,food-connectors/billa 2026-10-13
-0602ff458d4f,Billa,2.99,16.61,live 2026,2026-10-13,food-connectors/billa 2026-10-13
 7dd4b1a28ec9,Billa,4.99,19.96,live 2026,2026-10-13,food-connectors/billa 2026-10-13
 94c172039170,Billa,4.89,16.3,live 2026,2026-10-13,food-connectors/billa 2026-10-13
 211ed8877854,Billa,4.89,16.3,live 2026,2026-10-13,food-connectors/billa 2026-10-13
@@ -2315,18 +2514,22 @@ a4afe718388f,Billa,2.39,7.24,live 2026,2026-10-13,food-connectors/billa 2026-10-
 f952ca57a764,Billa,0.99,14.14,live 2026,2026-10-13,food-connectors/billa 2026-10-13
 c9be2b4c468b,Billa,6.99,,,2026-04-16,heisse-preise raw exact-name match Billa 2026-04-16
 5aa873963beb,Spar,8.99,,,2026-01-08,heisse-preise raw exact-name match Spar 2026-01-08
+e92598dc0d9f,Gurkerl,1.79,14.92,live 2026,2026-10-13,"Gurkerl.at live 2026-10-13 (food-connectors, GTIN 9002100056735)"
+16d8d0cac119,MPreis,1.39,34.75,live 2026,2026-10-13,"MPreis live 2026-10-13 (food-connectors, GTIN 9000275487712)"
+a5f7d0a0a190,Gurkerl,7.59,17.25,live 2026,2026-10-13,"Gurkerl.at live 2026-10-13 (food-connectors, GTIN 9002890019071)"
 2229d87a3a24,Spar,4.99,,,2026-02-10,heisse-preise raw exact-name match Spar 2026-02-10
 36b19349359a,Billa,2.69,,,2026-09-24,heisse-preise raw exact-name match Billa 2026-09-24
 7c534dab449d,Spar,2.99,,,2025-10-07,heisse-preise raw exact-name match Spar 2025-10-07
 d142be122c0a,Billa,0.59,,,2026-04-12,heisse-preise raw exact-name match Billa 2026-04-12
-e87ca0dec3c7,Spar,1.19,,,2026-03-05,heisse-preise raw exact-name match Spar 2026-03-05
+c711d249433d,MPreis,4.79,9.98,live 2026,2026-10-13,"MPreis live 2026-10-13 (food-connectors, GTIN 4008366007011)"
+23cc5df800e1,MPreis,1.19,19.83,live 2026,2026-10-13,"MPreis live 2026-10-13 (food-connectors, GTIN 4000521464400)"
+d7161fa09f25,MPreis,1.19,16.08,live 2026,2026-10-13,"MPreis live 2026-10-13 (food-connectors, GTIN 4000521465407)"
 981165a5a55b,Hofer,0.73,1.46,Preis 2025,2023-10-04,heisse-preise.io Hofer 2023-10-04 Altpreis >12 Monate
 25bdcca87467,Hofer,1.99,4.98,Preis 2025,2023-07-27,heisse-preise.io Hofer 2023-07-27 Altpreis >12 Monate
 c74dc9116c5a,MPreis,2.69,10.76,live 2026,2026-10-13,food-connectors/mpreis-shop 2026-10-13
 3e6c2d9018d6,MPreis,3.19,6.38,live 2026,2026-10-13,food-connectors/mpreis-shop 2026-10-13
 10006fcee4c9,MPreis,2.19,33.69,live 2026,2026-10-13,food-connectors/mpreis-shop 2026-10-13
 8c2aa25bb2e0,MPreis,2.99,21.36,live 2026,2026-10-13,food-connectors/mpreis-shop 2026-10-13
-d71002c710e7,MPreis,1.29,21.5,live 2026,2026-10-13,food-connectors/mpreis-shop 2026-10-13
 e2881c1cadc5,MPreis,2.29,16.36,live 2026,2026-10-13,food-connectors/mpreis-shop 2026-10-13
 708c4279a783,MPreis,1.99,12.06,live 2026,2026-10-13,food-connectors/mpreis-shop 2026-10-13
 8251f6a63371,MPreis,1.99,15.92,live 2026,2026-10-13,food-connectors/mpreis-shop 2026-10-13
@@ -2347,21 +2550,14 @@ fb33a46daafa,MPreis,2.99,36.02,live 2026,2026-10-13,food-connectors/mpreis-shop 
 0d8a69f20da5,MPreis,2.99,24.92,live 2026,2026-10-13,food-connectors/mpreis-shop 2026-10-13
 2ea9d4ff13df,MPreis,2.99,35.6,live 2026,2026-10-13,food-connectors/mpreis-shop 2026-10-13
 198f144f3f85,MPreis,2.99,24.92,live 2026,2026-10-13,food-connectors/mpreis-shop 2026-10-13
-64fb35c54bd0,MPreis,2.29,19.08,live 2026,2026-10-13,food-connectors/mpreis-shop 2026-10-13
-0b8eabb0aa28,MPreis,2.29,19.08,live 2026,2026-10-13,food-connectors/mpreis-shop 2026-10-13
 940172fe9681,MPreis,2.99,42.71,live 2026,2026-10-13,food-connectors/mpreis-shop 2026-10-13
 c32fe4812dfc,MPreis,2.99,21.36,live 2026,2026-10-13,food-connectors/mpreis-shop 2026-10-13
 7a2742f07ea0,MPreis,0.79,11.29,live 2026,2026-10-13,food-connectors/mpreis-shop 2026-10-13
 3c8c8f87247f,MPreis,0.79,11.29,live 2026,2026-10-13,food-connectors/mpreis-shop 2026-10-13
-25decf763292,MPreis,1.29,21.5,live 2026,2026-10-13,food-connectors/mpreis-shop 2026-10-13
-c71e4f4bc0e9,MPreis,1.29,21.5,live 2026,2026-10-13,food-connectors/mpreis-shop 2026-10-13
-7bf45a72754a,MPreis,1.99,28.43,live 2026,2026-10-13,food-connectors/mpreis-shop 2026-10-13
-64a25b294b9e,MPreis,1.29,21.5,live 2026,2026-10-13,food-connectors/mpreis-shop 2026-10-13
 8d8c4044f5b2,MPreis,2.49,8.3,live 2026,2026-10-13,food-connectors/mpreis-shop 2026-10-13
 adb35c710790,MPreis,2.49,6.92,live 2026,2026-10-13,food-connectors/mpreis-shop 2026-10-13
 c1c0d8f1285a,MPreis,2.49,6.92,live 2026,2026-10-13,food-connectors/mpreis-shop 2026-10-13
 fcd260f1cdf1,MPreis,2.49,8.3,live 2026,2026-10-13,food-connectors/mpreis-shop 2026-10-13
-ccc9fd7846ad,Billa,2.69,8.15,live 2026,2026-10-13,heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)
 fae85cbbd45f,Billa,3.49,17.02,live 2026,2026-10-13,heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)
 27089f078c6c,Billa,3.49,16.23,live 2026,2026-10-13,heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)
 7cf5e1762016,Billa,3.49,14.54,live 2026,2026-10-13,heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)
@@ -2384,15 +2580,11 @@ e529d3a31809,Billa,3.99,30.69,live 2026,2026-10-13,heisse-preise.io latest-canon
 4fa6819fa727,Billa,3.49,15.17,live 2026,2026-10-13,heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)
 da1c46797288,Billa,2.99,1.76,live 2026,2026-10-13,heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)
 2a8d00bd0258,Billa,7.79,15.58,live 2026,2026-10-13,heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)
-5e702001c4cc,Billa,0.49,0.49,live 2026,2026-10-13,heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)
-24e9c1e2d689,Billa,0.49,0.49,live 2026,2026-10-13,heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)
 8ea63dcc2aa2,Billa,2.49,9.96,live 2026,2026-10-13,heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)
 6b4528944048,Billa,2.49,9.96,live 2026,2026-10-13,heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)
 c4126b6f5548,Billa,2.99,13.29,live 2026,2026-10-13,heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)
 ac9d9ef9f1c7,Billa,2.49,9.96,live 2026,2026-10-13,heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)
 d31b83770f71,Billa,3.29,18.8,live 2026,2026-10-13,heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)
-0aea11b0ec8e,Billa,2.99,16.61,live 2026,2026-10-13,heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)
-8e7667824cba,Billa,2.99,17.59,live 2026,2026-10-13,heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)
 cecd43adedf3,Billa,3.49,19.39,live 2026,2026-10-13,heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)
 2a8d2f0ddece,Billa,2.79,13.95,live 2026,2026-10-13,heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)
 0a976d6483d4,Billa,2.79,13.95,live 2026,2026-10-13,heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)
@@ -2412,15 +2604,12 @@ cce7732a0020,Billa,3.19,3.19,live 2026,2026-10-13,heisse-preise.io latest-canoni
 9dbcea4debd4,Billa,3.19,3.19,live 2026,2026-10-13,heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)
 69492edf8132,Billa,17.99,17.99,live 2026,2026-10-13,heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)
 13ef4b7b10ac,Billa,2.49,1.0,live 2026,2026-10-13,heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)
-808c7e134708,Billa,2.69,8.97,live 2026,2026-10-13,heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)
-48065894d5f2,Billa,2.69,8.97,live 2026,2026-10-13,heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)
 e45b84d5bb2c,Billa,4.99,4.99,live 2026,2026-10-13,heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)
 d323ec7ec598,Billa,3.99,3.99,live 2026,2026-10-13,heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)
 23052c015015,Billa,15.99,15.99,live 2026,2026-10-13,heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)
 6e44ac1da81b,Billa,19.99,19.99,live 2026,2026-10-13,heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)
 b782d7e638c7,Billa,12.99,12.99,live 2026,2026-10-13,heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)
 6f7915087f9b,Billa,1.51,1.51,live 2026,2026-10-13,heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)
-d054b373a5ca,Billa,2.79,1.59,live 2026,2026-10-13,heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)
 2d702b50d021,Billa,3.19,21.27,live 2026,2026-10-13,heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)
 2c1caafffe92,Billa,3.19,21.27,live 2026,2026-10-13,heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)
 62c2ca7406de,Billa,3.19,22.79,live 2026,2026-10-13,heisse-preise.io latest-canonical (cache 2026-10-13T01:20Z)
@@ -2522,99 +2711,99 @@ b4124bf9ef37,FitTaste,8.99,23.66,live 2026,2026-10-13,food-connectors/fittaste 2
 e8f7da4ee768,FitTaste,8.99,23.66,live 2026,2026-10-13,food-connectors/fittaste 2026-10-13
 32cd40fbb2af,FitTaste,8.99,23.66,live 2026,2026-10-13,food-connectors/fittaste 2026-10-13
 b710bccf99c2,FitTaste,8.99,23.66,live 2026,2026-10-13,food-connectors/fittaste 2026-10-13
-baa8052ebf30,unbekannt (OFF),4.25,6.28,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-dbaf177fdf1f,unbekannt (OFF),4.25,8.13,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-d3f76d64bb8d,unbekannt (OFF),4.25,7.44,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-6a92d4c3afa8,unbekannt (OFF),4.25,6.64,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-30593efa5722,unbekannt (OFF),4.25,9.08,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-1df61f651191,unbekannt (OFF),4.25,4.61,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-930ae4025c32,unbekannt (OFF),4.25,7.54,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-97294e80a19f,unbekannt (OFF),4.25,8.45,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-d95168f78794,unbekannt (OFF),4.25,5.56,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-b67493c2e656,unbekannt (OFF),4.25,7.12,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-ceb247e5ff94,unbekannt (OFF),4.25,6.07,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-064395005a17,unbekannt (OFF),4.25,8.17,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-a917da9fd6cd,unbekannt (OFF),4.25,6.12,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-aa4e2f57612d,unbekannt (OFF),4.25,5.27,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-c9cfde6f5a9f,unbekannt (OFF),4.25,5.7,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-b18b0ad04d1b,unbekannt (OFF),4.25,5.29,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-b27d36427096,unbekannt (OFF),4.25,4.51,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-ffdd7b684de4,unbekannt (OFF),4.25,7.02,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-d1f1c13781cd,unbekannt (OFF),4.25,6.03,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-9c2b112a3252,unbekannt (OFF),4.25,8.14,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-3c875d58c5cc,unbekannt (OFF),4.25,6.06,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-2ed0dcd659b1,unbekannt (OFF),4.25,5.82,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-9c3612dd7371,unbekannt (OFF),4.25,6.43,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-5b329261e35f,unbekannt (OFF),4.25,6.6,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-f1cc672dae55,unbekannt (OFF),4.25,8.84,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-f236df8ddebb,unbekannt (OFF),4.25,7.67,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-a3996e471103,unbekannt (OFF),4.25,5.79,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-fb5023590b1d,unbekannt (OFF),4.25,6.21,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-ef6fe9db9b02,unbekannt (OFF),4.25,5.96,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-825e5e56bef4,unbekannt (OFF),4.25,7.04,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-f38128b55095,unbekannt (OFF),4.25,7.0,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-c34c39bc9454,unbekannt (OFF),4.25,7.12,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-e66f839ac2ce,unbekannt (OFF),4.25,5.52,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-119ba57aa6d9,unbekannt (OFF),4.25,6.78,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-ad514abb34a5,unbekannt (OFF),4.25,4.88,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-0cba6cca08b1,unbekannt (OFF),4.25,5.77,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-cbc14b3a8fe6,unbekannt (OFF),4.25,6.16,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-5a0ad75c8fa6,unbekannt (OFF),4.25,10.62,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-1571b8c83436,unbekannt (OFF),4.25,4.48,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-f3326ca9ea76,unbekannt (OFF),4.25,6.26,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-e86ceb2bd3ce,unbekannt (OFF),4.25,6.9,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-d8415c12cf3f,unbekannt (OFF),4.25,5.89,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-fdcfa47989db,unbekannt (OFF),4.25,7.46,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-ec0c1427a2ec,unbekannt (OFF),4.25,6.2,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-a8b49dd60cae,unbekannt (OFF),4.25,6.35,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-906b7c4aa993,unbekannt (OFF),4.25,6.0,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-0ea2c56d644b,unbekannt (OFF),4.25,5.83,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-48444ac72c70,unbekannt (OFF),4.25,5.84,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-4047f2859ebc,unbekannt (OFF),4.25,5.46,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-8a03a554788c,unbekannt (OFF),4.25,7.37,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-b84f6d35cc74,unbekannt (OFF),4.25,6.49,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-5bae7ffd3415,unbekannt (OFF),4.25,5.99,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-0bf7a45c94d4,unbekannt (OFF),4.25,5.75,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-b1e3b181f9bf,unbekannt (OFF),4.25,7.18,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-3aecca773d6b,unbekannt (OFF),4.25,6.91,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-ee3300c6c108,unbekannt (OFF),4.25,6.77,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-11f497d0bb05,unbekannt (OFF),4.25,5.77,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-463edbeea89d,unbekannt (OFF),4.25,5.74,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-8acd449d6e61,unbekannt (OFF),4.25,6.59,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-0ed3af54efaa,unbekannt (OFF),4.25,9.44,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-fdbeac32b16e,unbekannt (OFF),4.25,6.53,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-e2de79e1be0c,unbekannt (OFF),4.25,7.46,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-81ea0a9cb982,unbekannt (OFF),4.25,6.19,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-7ed11ecd2dc9,unbekannt (OFF),4.25,6.3,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-d9645ab3c643,unbekannt (OFF),4.25,6.78,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-0a521f7d1d4b,unbekannt (OFF),4.25,5.35,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-0c2fa21105ba,unbekannt (OFF),4.25,5.61,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-82be7edf8a7e,unbekannt (OFF),4.25,5.67,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-05092b76ea26,unbekannt (OFF),4.25,5.47,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-5d291bbb7115,unbekannt (OFF),4.25,3.51,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-f0c3d7999582,unbekannt (OFF),4.25,5.53,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-3d0d818e0736,unbekannt (OFF),4.25,6.39,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-c5e90f31327d,unbekannt (OFF),4.25,7.58,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-21a2a71a42c2,unbekannt (OFF),4.25,4.92,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-693d460a4ec0,unbekannt (OFF),4.25,5.34,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-dbcdb18ba92c,unbekannt (OFF),4.25,7.54,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-8954738f2122,unbekannt (OFF),4.25,5.57,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-e18923ea8606,unbekannt (OFF),4.25,5.46,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-7f02f10813ca,unbekannt (OFF),4.25,5.41,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-8cfcaf44a74b,unbekannt (OFF),4.25,5.65,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-292b25fcb196,unbekannt (OFF),4.25,6.58,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-b46508045f9b,unbekannt (OFF),4.25,6.35,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-815f5a870691,unbekannt (OFF),4.25,5.85,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-376a36c1b1a1,unbekannt (OFF),4.25,5.23,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-aedd18b1b462,unbekannt (OFF),4.25,4.8,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-05fb8b9fa2dd,unbekannt (OFF),4.25,4.79,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-3bf59f218110,unbekannt (OFF),4.25,8.42,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-6edacdb009e4,unbekannt (OFF),4.25,7.86,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-7a257b6bfe3d,unbekannt (OFF),4.25,6.94,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-b36f97bf8708,unbekannt (OFF),4.25,5.27,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-ad0fc923b522,unbekannt (OFF),4.25,9.16,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-b4b995a9d296,unbekannt (OFF),4.25,9.38,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
-ad1652497b54,unbekannt (OFF),4.25,6.8,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ec9e51755c63,HelloFresh,4.25,6.28,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+3d9d73bcedf2,HelloFresh,4.25,8.13,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+7b96097fdf74,HelloFresh,4.25,7.44,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+a192530b9d55,HelloFresh,4.25,6.64,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+642b64609dee,HelloFresh,4.25,9.08,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+43128c5d83fd,HelloFresh,4.25,4.61,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ce75661cb237,HelloFresh,4.25,7.54,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+9edf013bd87a,HelloFresh,4.25,8.45,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ae09a0ae4754,HelloFresh,4.25,5.56,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+ab623097a0ff,HelloFresh,4.25,7.12,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+08316b7ec76f,HelloFresh,4.25,6.07,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+36eaeeff6ba5,HelloFresh,4.25,8.17,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+4c5388b1014f,HelloFresh,4.25,6.12,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+c3cdd5272ad3,HelloFresh,4.25,5.27,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+b4dafac59b55,HelloFresh,4.25,5.7,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+0ef0415a6b0d,HelloFresh,4.25,5.29,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+26b0efa59b45,HelloFresh,4.25,4.51,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+b68f13ac87f8,HelloFresh,4.25,7.02,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+2f2a47e00cd7,HelloFresh,4.25,6.03,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+5b8f1c17f68a,HelloFresh,4.25,8.14,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+40fbd1eb8970,HelloFresh,4.25,6.06,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+bc449366ca04,HelloFresh,4.25,5.82,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+541cd6772f1d,HelloFresh,4.25,6.43,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+833d86a13b57,HelloFresh,4.25,6.6,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+c2f6c02e6d7a,HelloFresh,4.25,8.84,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+356d12077bc3,HelloFresh,4.25,7.67,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+c5d5c1db9020,HelloFresh,4.25,5.79,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+23c64df1a434,HelloFresh,4.25,6.21,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+a17b400e7aa1,HelloFresh,4.25,5.96,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+d95716a7d5d2,HelloFresh,4.25,7.04,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+0fa2e25ed9e4,HelloFresh,4.25,7.0,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+af82d5a7ab14,HelloFresh,4.25,7.12,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+fcb3b25a1d71,HelloFresh,4.25,5.52,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+d102a9d7437d,HelloFresh,4.25,6.78,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+fd7cadf16973,HelloFresh,4.25,4.88,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+8ba7e6d251c4,HelloFresh,4.25,5.77,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+1617087310d4,HelloFresh,4.25,6.16,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+7d6241093117,HelloFresh,4.25,10.62,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+47d0e514476f,HelloFresh,4.25,4.48,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+c99fd0c6ee54,HelloFresh,4.25,6.26,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+a08c8be6e5f3,HelloFresh,4.25,6.9,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+b41ea4fed152,HelloFresh,4.25,5.89,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+0a8079b0063a,HelloFresh,4.25,7.46,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+fa889236b013,HelloFresh,4.25,6.2,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+24faa4874cd2,HelloFresh,4.25,6.35,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+83df8740d992,HelloFresh,4.25,6.0,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+244c28c8b040,HelloFresh,4.25,5.83,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+3c1707bff948,HelloFresh,4.25,5.84,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+a3c2ade24027,HelloFresh,4.25,5.46,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+8f7cf203c4df,HelloFresh,4.25,7.37,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+dcac08c41836,HelloFresh,4.25,6.49,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+67ddddec97a5,HelloFresh,4.25,5.99,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+92e32544c595,HelloFresh,4.25,5.75,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+8188c8bcfd5e,HelloFresh,4.25,7.18,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+33d14652923c,HelloFresh,4.25,6.91,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+2b0237699d5f,HelloFresh,4.25,6.77,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+f4e7052f2c2b,HelloFresh,4.25,5.77,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+4bd05b5dcaf9,HelloFresh,4.25,5.74,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+b588b76c976f,HelloFresh,4.25,6.59,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+4328c8a5b044,HelloFresh,4.25,9.44,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+3723b94fbaab,HelloFresh,4.25,6.53,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+499e344df292,HelloFresh,4.25,7.46,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+922a858a2951,HelloFresh,4.25,6.19,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+4ca743cb8059,HelloFresh,4.25,6.3,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+e4896b6c68c7,HelloFresh,4.25,6.78,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+7751c31a1246,HelloFresh,4.25,5.35,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+95c664ee3212,HelloFresh,4.25,5.61,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+d353f086ff72,HelloFresh,4.25,5.67,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+9d321bbd0113,HelloFresh,4.25,5.47,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+9a576b57ab05,HelloFresh,4.25,3.51,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+727355e6bd54,HelloFresh,4.25,5.53,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+0007877daecb,HelloFresh,4.25,6.39,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+5c2788a579d4,HelloFresh,4.25,7.58,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+8356860db294,HelloFresh,4.25,4.92,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+74b33c81f92d,HelloFresh,4.25,5.34,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+9a44c5a33957,HelloFresh,4.25,7.54,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+6aa44d4a4386,HelloFresh,4.25,5.57,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+dfa3034a3c57,HelloFresh,4.25,5.46,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+45274344be15,HelloFresh,4.25,5.41,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+41684282d809,HelloFresh,4.25,5.65,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+1fb4081444c3,HelloFresh,4.25,6.58,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+8d9636a62341,HelloFresh,4.25,6.35,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+e06f5015701d,HelloFresh,4.25,5.85,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+a65886913b04,HelloFresh,4.25,5.23,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+2527b9c0ec8e,HelloFresh,4.25,4.8,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+2ddb4c088401,HelloFresh,4.25,4.79,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+bfdbc371770f,HelloFresh,4.25,8.42,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+f7c1df516245,HelloFresh,4.25,7.86,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+b67b7983aa52,HelloFresh,4.25,6.94,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+58df70fefad3,HelloFresh,4.25,5.27,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+42508cdd9414,HelloFresh,4.25,9.16,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+04c776b8e12f,HelloFresh,4.25,9.38,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
+01bcc007d1ea,HelloFresh,4.25,6.8,live 2026,2026-10-13,"https://www.hellofresh.at/plans 2026-10-13 (ab-Preis (günstigste Boxgröße, ohne Versand))"
 3a9be0f51b06,MPreis,2.49,10.16,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
 ab45f32c40eb,MPreis,4.49,14.97,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
 39c7ba9124b9,MPreis,2.55,6.38,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
@@ -2625,7 +2814,6 @@ e3ec9047b161,MPreis,3.19,14.18,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 20
 28bd1449435e,MPreis,3.49,13.96,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
 cd56b9c8e846,MPreis,3.49,13.96,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
 4f7417ecfdfd,MPreis,3.49,13.96,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
-11b410f27c67,MPreis,8.99,14.38,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
 b51123742279,MPreis,14.99,18.74,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
 75e66a01c86a,MPreis,14.99,18.74,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
 f0e0db7426fc,MPreis,8.49,21.23,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
@@ -2648,8 +2836,6 @@ ef423cd7172a,MPreis,5.99,11.98,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 20
 01ae960c9848,MPreis,5.99,13.31,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
 4f73eee7fc4e,MPreis,5.99,11.98,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
 04b7bb16151a,MPreis,3.49,8.72,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
-3d1171a5aad7,MPreis,8.99,35.96,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
-5006b9669d27,MPreis,8.99,44.95,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
 a73cd99adc80,MPreis,7.49,12.48,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
 1e084bd8f111,MPreis,7.49,12.48,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
 63bbceb98134,MPreis,7.49,11.52,live 2026,2026-10-13,mpreis.at Webshop JSON-LD 2026-10-13 (food-connectors mpreis-shop)
@@ -2724,12 +2910,3 @@ ca508968bbe5,Unimarkt,2.69,,Preis 2023,2023-08-08,"heisse-preise.io unimarkt (Pr
 ff3fbc6ab080,Unimarkt,1.89,8.04,Preis 2024,2024-02-13,"heisse-preise.io unimarkt (Preisstand 2024-02-13) – Altpreis, nicht live bestätigt – Unimarkt-Onlineshop seit 02/2024 eingestellt, Kette 2026 aus dem Einzelhandel ausgestiegen: kein Live-Preis möglich (geprüft 2026-10-13)"
 f6db2913ac36,Unimarkt,2.49,4.98,Preis 2023,2023-06-22,"heisse-preise.io unimarkt (Preisstand 2023-06-22) – Altpreis, nicht live bestätigt – Unimarkt-Onlineshop seit 02/2024 eingestellt, Kette 2026 aus dem Einzelhandel ausgestiegen: kein Live-Preis möglich (geprüft 2026-10-13)"
 873ede438966,Unimarkt,4.29,8.58,Preis 2023,2023-06-22,"heisse-preise.io unimarkt (Preisstand 2023-06-22) – Altpreis, nicht live bestätigt – Unimarkt-Onlineshop seit 02/2024 eingestellt, Kette 2026 aus dem Einzelhandel ausgestiegen: kein Live-Preis möglich (geprüft 2026-10-13)"
-13f435f9be19,MPreis,1.59,,live 2026,2026-10-13,"MPreis live 2026-10-13 (food-connectors, GTIN 9000275618116)"
-1fcc6e1428bd,MPreis,1.59,,live 2026,2026-10-13,"MPreis live 2026-10-13 (food-connectors, GTIN 8720182937070)"
-4f56fafeb395,dm,1.75,,live 2026,2026-10-13,"dm live 2026-10-13 (food-connectors, GTIN 4062300463196)"
-469ce3b2ac2b,Gurkerl,1.79,,live 2026,2026-10-13,"Gurkerl.at live 2026-10-13 (food-connectors, GTIN 9002100056735)"
-86c94c236203,MPreis,1.39,,live 2026,2026-10-13,"MPreis live 2026-10-13 (food-connectors, GTIN 9000275487712)"
-99f260862469,Gurkerl,7.59,,live 2026,2026-10-13,"Gurkerl.at live 2026-10-13 (food-connectors, GTIN 9002890019071)"
-26855ffb8967,Gurkerl,0.99,,live 2026,2026-10-13,"Gurkerl.at live 2026-10-13 (food-connectors, GTIN 9035000007293)"
-054e7fc939c6,MPreis,4.79,,live 2026,2026-10-13,"MPreis live 2026-10-13 (food-connectors, GTIN 4008366007011)"
-9fbc76092fa7,MPreis,1.19,,live 2026,2026-10-13,"MPreis live 2026-10-13 (food-connectors, GTIN 4000521465407)"

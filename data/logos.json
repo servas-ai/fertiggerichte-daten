@@ -3092,5 +3092,18 @@
    "JUIT",
    "Juit GmbH"
   ]
+ },
+ {
+  "slug": "bofrost",
+  "name": "bofrost*",
+  "category": "Online-Mealprep",
+  "file": "logos/bofrost.svg",
+  "source_url": "https://www.bofrost.at/_ui/responsive/theme-main/css/images/bofrost_logo.svg",
+  "brands": [
+   "bofrost*",
+   "bofrost",
+   "Bofrost",
+   "bofrost* Austria GmbH"
+  ]
  }
 ]
