@@ -240,7 +240,7 @@ out=[]
 for x in items:
     if x.get('packaging') and 'packaging_raw' not in x: x['packaging_raw']=x['packaging']
     x['packaging']=classify(x)
-    x['is_meal']=not NONMEAL.search(x.get('name') or '')
+    x['is_meal']=x.get('category')=='Online Meal-Prep' or not NONMEAL.search(x.get('name') or '')  # 2026-10-14T02: meal-prep providers (PrepMyMeal/Juit/LiveFresh) sell only finished meals; name words like Joghurt/Pesto/Butter must not drop them
     flags=[]
     kc0=n(x.get('kcal_100'))
     x['dry']= x['packaging']=='Trocken/Instant' or bool(kc0 and kc0>300 and re.search(r'soja geschnetzel|sojaschnetzel|pulver|terrine|fix\b|bouillon',x.get('name') or '',re.I))
@@ -349,7 +349,7 @@ for x in out:
     if False: x['flags'].append(f"Mahlzeit-Check: {x['kcal_meal']} kcal/Portion – Snack/Beilage, keine Mahlzeit" if x['meal_class']=='snack_side' else f"Mahlzeit-Check: nur {x['kcal_meal']} kcal – leichte Mahlzeit")
     _des,_gro=_V2.labels(x)
     if _des: x['gang']='dessert'; x['flags'].append('Dessert – nicht in Rankings')
-    if _gro and x.get('segment')!='meal_kit': x['segment']='grocery'; x['flags'].append('Lebensmittel (kein Fertiggericht) – nicht in Rankings')
+    if _gro and x.get('segment')!='meal_kit' and x.get('category')!='Online Meal-Prep': x['segment']='grocery'; x['flags'].append('Lebensmittel (kein Fertiggericht) – nicht in Rankings')
     _mc=_V2.meal_check(x,r2); x['meal_check']=_mc; x['meal_class']=_mc['cls'] if not _des else 'dessert'
     _nm=x.get('name') or ''
     if re.search(r'hipp|beba|aptamil|alete|babylove|ab dem \d|kleinkind|säugling|\bbaby\b|kinder ?menü|bio-?gläschen',_nm,re.I) or re.search(r'\b(hipp|alete|bebivita|beba|aptamil|babylove|freche freunde)\b',str(x.get('brand') or ''),re.I): x['meal_class']='baby'; x['segment']='baby_food'; _mc['ok']=False; _mc['reason']='Kindernahrung'

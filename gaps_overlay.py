@@ -26,7 +26,8 @@ for r in R:
         if st and hit and st in hit and hit[st][1] and hit[st][1]>='2025-10-01':
             p,dt,u=hit[st];o.update(price=p,price_status='filled',psrc=f'heisse-preise raw exact-name match {r["store"]} {dt}',price_date=dt)
         else:
-            why=('Kette ohne offene Preisquelle (Lidl 401 / kein Penny-Feed)' if r['store'] in('Lidl','Penny') else
+            why=('Online-Shop: Einzelpreise nur nach Login (kein öffentlicher Preis)' if 'eingeloggt' in str(r.get('psrc') or '') else
+                 'Kette ohne offene Preisquelle (Lidl 401 / kein Penny-Feed)' if r['store'] in('Lidl','Penny') else
                  'kein Laden bekannt (OFF)' if r['store'].startswith('unbekannt') else
                  'kein exakter Namenstreffer im heisse-preise-Dump' if not(hit and st and st in hit) else 'nur Preis älter als 12 Monate')
             o.update(price_status='unknown',price_reason=why)
