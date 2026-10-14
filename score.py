@@ -215,10 +215,15 @@ def classify(x):
     if re.search(r'instant|5 ?min|terrine|cup|becher|pulver|trocken|beutelsuppe|fix für|nudelsnack|ramen|noodle',nm) or 'instant' in cat: return 'Trocken/Instant'
     if re.search(r'little lunch|langbein|steirerkraft|auinger|im glas',t): return 'Glas'
     if re.search(r'mikrowell|pouch',nm): return 'Beutel ungekühlt (Retort-Pouch)'
-    if cat=='beutel' or re.search(r'knorr|maggi|kochbeutel|bouillon|\bfix\b|clever (nudel|buchstaben)suppe|vorratsschrank',t): return 'Trocken/Instant'
+    # sensecheck 10: BILLA category 'Beutel' = retort pouch (wet ready meal: Inzersdorfer/Hink), NOT dry bag soup.
+    # Blanket knorr|maggi mis-labeled Knorr Meisterkessel (Dose) as Trocken/Instant → topPE excluded the 4 rankable ones.
+    # Dry Knorr/Maggi still hit via name patterns above (beutelsuppe/fix/instant/cup/...) or the dry-signals below.
+    if re.search(r'kochbeutel|bouillon|\bfix\b|clever (nudel|buchstaben)suppe|vorratsschrank',t): return 'Trocken/Instant'
+    if re.search(r'\b(knorr|maggi)\b',t) and not re.search(r'meister\s*kessel',nm): return 'Trocken/Instant'
     if re.search(r'dosensuppe|konserv|\bdose\b',t): return 'Dose/Konserve'
-    if cat=='dose' or re.search(r'\bdose\b|konserve|inzersdorfer|eintopf|ravioli in|s-budget rindsgulasch|chili con carne|erasco|sonnen bassermann',t): return 'Dose/Konserve'
+    # Prefer category Beutel (retort pouch) over brand→Dose for Inzersdorfer pouch meals
     if cat=='beutel' or 'ungekühlt' in cat or re.search(r'beutel|pouch|mikrowellen',t): return 'Beutel ungekühlt (Retort-Pouch)'
+    if cat=='dose' or re.search(r'\bdose\b|konserve|inzersdorfer|eintopf|ravioli in|s-budget rindsgulasch|chili con carne|erasco|sonnen bassermann',t): return 'Dose/Konserve'
     if cat.startswith('fertiggerichte gek') or cat in ('menüschalen','frische pasta & beilagen','asien','suppen') or re.search(r'good choice|omis|menü|schale|gekühlt|frisch|kühl',t) or cat in('ready_meal','dumpling','fish','leberkaese','breaded','marinated','skewer','ribs','sausage','raw_meat'):
         return 'Kühlregal (Menüschale/frisch)'
     if x.get('source_file') in ('frozen_quick.json',): return 'Kühlregal (Menüschale/frisch)'

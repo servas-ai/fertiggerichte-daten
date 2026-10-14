@@ -388,9 +388,10 @@ def _collapse(cands,score_fn,n=30):
         o=sorted(s for s in also.get(r['id'],()) if s and s!=r.get('store'))
         if o: r['alsoAt']=o
     return kept,collapsed
-topPLI,_c_pli=_collapse([r for r in R if r.get('rankable') and r.get('pli') is not None],lambda r:r['pli'])
-top_h,_c_h=_collapse([r for r in R if r.get('rankable') and r.get('score') is not None],lambda r:r['score'])
-top_pe,_c_pe=_collapse([r for r in R if r.get('rankable') and r.get('ppe') and r.get('pstat')=='live 2026' and r.get('pack')!='Trocken/Instant'],lambda r:r['ppe'])
+# sensecheck 10: vorspeise (e.g. Knorr Meisterkessel Bohnen-Speck-Suppe) is a starter, not a main-meal top-list winner
+topPLI,_c_pli=_collapse([r for r in R if r.get('rankable') and r.get('pli') is not None and r.get('gang')!='vorspeise'],lambda r:r['pli'])
+top_h,_c_h=_collapse([r for r in R if r.get('rankable') and r.get('score') is not None and r.get('gang')!='vorspeise'],lambda r:r['score'])
+top_pe,_c_pe=_collapse([r for r in R if r.get('rankable') and r.get('ppe') and r.get('pstat')=='live 2026' and r.get('pack')!='Trocken/Instant' and r.get('gang')!='vorspeise'],lambda r:r['ppe'])
 topLight,_c_light=_collapse(_light,lambda r:r['pliLight'])
 print('rankings: light',len(_light),'baby',_n_baby,'exact_dup',_n_exact,'ean_dup',_n_ean,'near_dup',_n_near,'collapsed pli/h/pe/light',_c_pli,_c_h,_c_pe,_c_light)
 import os

@@ -80,6 +80,10 @@ def portion(x, off, stage=None):
     sz = n(x.get('size_g')); nm = (x.get('name') or '').lower()
     m = re.search(r'(\d+)\s*(portionen|port\.|portions)', nm)
     if m and sz and int(m.group(1)) > 1: return round(sz / int(m.group(1))), 'name_portions'
+    # Sensecheck 10: family-size packs that apps treated as 1 portion (Gurkerl Iglo Lasagne 700 g → 868 kcal;
+    # M&S 4 Breaded Haddock Fillets 500 g → 870 kcal). Split into 2 portions when size matches.
+    if sz and sz >= 650 and re.search(r'lasagne al forno', nm): return round(sz / 2), 'family_pack'
+    if sz and 450 <= sz <= 550 and re.search(r'\d+\s*breaded haddock', nm): return round(sz / 2), 'family_pack'
     # Sensecheck 9: bofrost* publishes the portion count per pack ('2 x 250 g' → portions 2) → per-portion
     # price/kcal/protein instead of the whole 500 g pack (Tafelspitz 22.99 €/855 kcal 'per portion' was 2 portions).
     # Limited to bofrost* (verified grammage line); other providers' 'portions' fields are not verified yet.

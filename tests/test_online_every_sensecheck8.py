@@ -15,9 +15,12 @@ def test_every_rows_present_and_consistent():
     assert sum(bool(r.get('rankable')) for r in E)>=10
 
 def test_online_storage_tk_not_dry():
+    # Frozen online meal-prep is TK; Löwenanteil ships shelf-stable glass jars (pack=Glas).
     R=[r for r in _rows() if r.get('src')=='online_mealprep.json']
-    bad=[(r['store'],r['name'],r['pack']) for r in R if r.get('pack')!='Tiefkühl (TK)']
+    ok={'Tiefkühl (TK)','Glas'}
+    bad=[(r['store'],r['name'],r['pack']) for r in R if r.get('pack') not in ok]
     assert not bad, bad[:10]
+    assert all(r.get('pack')=='Glas' for r in R if r.get('store')=='Löwenanteil')
 
 def test_mealprep_providers_are_meals():
     bad=[(r['store'],r['name'],r['stage']) for r in _rows() if r.get('src')=='online_mealprep.json' and r.get('store') in MEALPREP_ONLY and r.get('stage') not in ('meal','stew')]
