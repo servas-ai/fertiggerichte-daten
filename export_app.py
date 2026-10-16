@@ -68,6 +68,28 @@ for r in R:
 PROT=[('Ripperl/Spareribs','🍖',r'ripperl|spare ?ribs|rippchen'),('Huhn','🐔',r'huhn|hühn|hähn|chicken|hendl|pollo|geflügel'),('Pute','🦃',r'pute|truthahn|turkey'),('Rind','🐄',r'rind|beef|kalb|tafelspitz|roastbeef'),('Schwein','🐖',r'schwein|schinken|speck|leberk|wurst|würst|knacker|cevapcici|grammel|kassler|selch|bratwurst|carne|bolognese|faschiert|fleischlaib|frankfurter|hot dog|leber'),('Lamm','🐑',r'lamm'),('Wild','🦌',r'wild|hirsch|reh'),('Fisch','🐟',r'fisch|lachs|seelachs|thunfisch|forelle|kabeljau|dorsch|schlemmerfilet|hering|makrele|pangasius|zander|tuna'),('Meeresfrüchte','🦐',r'garnele|shrimp|scampi|meeresfr|muschel|tintenfisch|calamar'),('Ei','🥚',r'\bei\b|eier(?!spätzle|nudel)|omelett|frittata'),('Käse/Milch','🧀',r'käse|kas|mozzarella|ricotta|topfen|feta|parmesan|cheese|gorgonzola|rahm'),('Tofu/Soja','🫘',r'tofu|soja|tempeh|edamame'),('Hülsenfrüchte','🥜',r'linsen|kichererb|bohnen|erbsen|dal\b|falafel|hummus'),('Seitan/Fleischersatz','🌱',r'seitan|vegavita|planted|like meat|veggie|fleischersatz|vegan.*(burger|nugget|schnitzel|cordon|wurst)|beyond')]
 DISH=[('Gulasch','🥘',r'gulasch|goulash|paprikash|letscho'),('Curry','🍛',r'curry|tikka|masala|korma|dal\b'),('Lasagne','🍝',r'lasagne'),('Pasta','🍝',r'pasta|nudel|spaghetti|penne|tortell|ravioli|maccaroni|makkaroni|linguin|gnocchi|cappellet|fusilli|tagliatelle|spätzle|spirelli|hörnli|fleckerl|kasnudel'),('Risotto','🍚',r'risotto'),('Knödel','🥟',r'knödel|nockerl|dumpling'),('Suppe','🍲',r'suppe|soup|bouillon|brühe|consommé|ramen|pho\b'),('Eintopf','🫕',r'eintopf|topf|ragout|chili|stew|schmorr|geschnetzel'),('Bowl','🥗',r'bowl|salat'),('Asia','🥢',r'asia|teriyaki|thai|wok|süß ?sauer|sweet|nasi|bami|noodle|sushi|gyoza|pad\b|chinese|japan|korea|indisch|ente'),('Mexikanisch','🌮',r'mexi|burrito|tortilla|wrap|chili con|enchilada|taco|quesadilla'),('Österreichisch','🇦🇹',r'schmankerl|omis|wiener|tiroler|kärntner|steir|pinzgauer|schwammerl|kaiserschmarr|grammel|beuschel|tafelspitz|leberkäs|eiernockerl|krautfleckerl|serviettenknödel|alt.?wiener|backhendl|schweinsbraten|stelze|bauernschmaus|erdäpfel'),('Paniert','🍗',r'panier|cordon|schnitzel|nugget|backhendl|backfisch|knusper|crispy|bordelaise|stäbchen|sticks'),('Grill/mariniert','🔥',r'grill|marinier|bbq|spieß|spiess|steak|ripperl|spare|pulled|sous ?vide'),('Pizza/Snack','🍕',r'pizza|flammkuchen|burger|hot dog|sandwich|toast|strudel|baguette')]
 PLAIN_PASTA=re.compile(r"\b(tagliatelle|tagliolini|pappardelle|linguine|fettuccine|bandnudeln|eiernudeln|spaghetti|spaghettini|rigatoni|tortiglioni|penne|fusilli|farfalle|orecchiette|trofie|strozzapreti|paccheri|bucatini|maccheroni|makkaroni)(\s+(all.?uovo|fresche?|frisch|nester|nidi))?\s*(\((frische )?pasta\)|\(frisch\))?\s*$",re.I)
+# review 13 G: verified pack corrections (mpreis.at 16.10.: Nettofüllmenge 710 g = 2 × 355 g) and app-only price labels
+SIZE_FIX={('MPreis','Jeden Tag Steinofenpizza Thunfisch 2er-Packung'):(700,710)}
+PRICE_COND={('MPreis','Jeden Tag Steinofenpizza Thunfisch 2er-Packung'):'NUR MIT APP'}
+for r in R:
+    _k=(r.get('store'),r.get('name'))
+    if _k in SIZE_FIX and r.get('size')==SIZE_FIX[_k][0]:
+        r['size']=float(SIZE_FIX[_k][1])
+        if r.get('p100') is not None: r['protpack']=round(r['p100']*r['size']/100,1)
+        if r.get('kcal') is not None: r['kcalpack']=round(r['kcal']*r['size']/100)
+        if r.get('price'): r['ppk']=round(r['price']/r['size']*1000,2); r['ppe']=round(r['protpack']/r['price'],1) if r.get('protpack') else r.get('ppe')
+    _txt=' '.join([str(r.get('name') or ''),str(r.get('price_kind') or '')]+[str(f) for f in (r.get('flags') or [])])
+    if _k in PRICE_COND or re.search(r'nur mit (der )?app',_txt,re.I): r['price_condition']=PRICE_COND.get(_k,'NUR MIT APP')
+# review 13 F(b): delivery services → shipping per box of 6 dishes on top of the portion price (online_mealprep.json shipping_eur)
+SHIP_BOX=6
+SHIP={}
+try:
+    for _o in json.load(open('online_mealprep.json')):
+        _s=str(_o.get('store') or '').replace('Online: ','').replace('bofrost*','bofrost')
+        if _o.get('shipping_eur') is not None: SHIP.setdefault(_s,float(_o['shipping_eur']))
+except Exception as _e: print('shipping load failed',_e)
+SHIP.setdefault('PrepMyMeal',5.99)
+_NOSHIP=set()
 MEALPREP_ONLY={'PrepMyMeal','Juit','every.','LiveFresh','FitTaste','Fit to Go','Löwenanteil','Kernbeißer','Goldblatt','iss mich!'}
 for r in R:
     t=(r['name']+' '+r['brand']).lower()
@@ -142,8 +164,9 @@ for r in R:
     if _x.get('gang')=='dessert': r['gang']='dessert'
     if _x.get('gang')=='frühstück': r['gang']='frühstück'; r['rankable']=False
     if _x.get('segment')=='grocery': r['segment']='grocery'
+    if _x.get('segment')=='baby_food': r['segment']='baby_food'; r['rankable']=False  # review 13 E
     if r.get('dry') or r.get('nutrition_basis')=='dry' or stg not in ('meal','stew') or r.get('gang')=='dessert' or r.get('segment')=='grocery' or r.get('meal_class')!='meal' or not (_x.get('meal_check') or {}).get('ok'): r['rankable']=False
-    if _x.get('component_kind') in ('breaded','topped_fish','meat_sub'): stg='prot'; r['stage']='prot'  # sensecheck 11/13: 'Zum Kombinieren'
+    if _x.get('component_kind') in ('breaded','topped_fish','meat_sub','meat_piece'): stg='prot'; r['stage']='prot'  # sensecheck 11/13: 'Zum Kombinieren'
     r['component']=bool(_x.get('component')) or stg=='prot'
     if r.get('segment')=='meal_kit':
         if not r.get('store') or str(r['store']).startswith('unbekannt'):
@@ -158,8 +181,13 @@ for r in R:
         and r.get('score') is not None and r['score']>=30 and bool(r.get('price')) and bool(r.get('store')) and not str(r.get('store')).startswith('unbekannt') \
         and r.get('gang')!='dessert' and r.get('meal_class') not in ('snack_side','baby') and r.get('segment') not in ('meal_kit','grocery','baby_food') and not r['component'] and not r.get('nonfood')
     _ppor=(_mc.get('protein') or 0); _epor=(r['price']*_mc['portion']/r['size']) if r['rankable'] and r.get('size') and _mc.get('portion') else (r['price'] if r['rankable'] else None)
+    if r.get('store') in SHIP and r.get('pPor') is not None:
+        r['shipPor']=round(SHIP[r['store']]/SHIP_BOX,2); r['pPorEff']=round(r['pPor']+r['shipPor'],2)
+    elif r.get('store') in MEALPREP_ONLY|{'bofrost','Alfies'} and r.get('store') not in SHIP: _NOSHIP.add(r.get('store'))
+    if _epor and r.get('shipPor'): _epor=_epor+r['shipPor']
     r['pli']=round(0.5*r['score']+0.5*min((_ppor/_epor)/20,1)*100,1) if r['rankable'] and _epor else None
     if r['pli'] is None: r['rankable']=False
+    if r['rankable'] and r['score']<50 and _ppor/_epor>=20: r['badge']='Preis-Sieger, Gesundheit mittel'  # review 13 G
 CATICON={n:i for n,i,_ in PROT+DISH}; CATICON.update({'vegan':'🌿','vegetarisch':'🥦','Beilage/Gemüse':'🥦'})
 idx={id(r):r['id'] for r in R}
 # sides
@@ -443,6 +471,7 @@ for _r in R:
     if _BABY.search(_r.get('name') or '') or _DRYFIX.search(_r.get('name') or ''): continue
     _ep=(_r['price']*_mc['portion']/_r['size']) if _r.get('size') and _mc.get('portion') else _r['price']
     if not _ep or _p is None: continue
+    if _r.get('shipPor'): _ep=_ep+_r['shipPor']  # review 13 F(b)
     _r['pliLight']=round(0.5*_r['score']+0.5*min((_p/_ep)/20,1)*100,1); _light.append(_r)
 _TWIN_NOISE=re.compile(r"\bmsc\b|\basc\b|pazifisch\w*|käpt'?n|\b\d+\s*(stück|stk)\b|\b\d+er[- ]?(packung|pack)\b|\(tiefgekühlt\)",re.I)
 def _twin_keys(r):
@@ -457,27 +486,48 @@ def _twin_keys(r):
     nm=re.sub(r'[^a-z0-9äöüß]+','',nm); b2=re.sub(r'[^a-z0-9äöüß]+','',b)
     if b2 and len(nm)>=8: ks.add('t:'+b2+':'+nm+':'+(str(int(r['size'])) if r.get('size') else ''))
     return ks
-def _collapse(cands,score_fn,n=30):
-    ordered=sorted(cands,key=score_fn,reverse=True); seen={}; kept=[]; collapsed=0; also={}
+_XL=re.compile(r'\(\s*xl[^)]*\)|\bxl\b|\(\s*\d+[.,]?\d*\s*(g|kg)\s*\)|\(\s*\d+\s*portion(en)?\s*\)',re.I)
+def _variant_key(r):
+    """review 13 F(a): provider + name without '(XL, 2 Portionen)' / '(500 g)' → one slot per dish."""
+    return (r.get('store'),re.sub(r'[^a-z0-9äöüß]+','',_XL.sub(' ',(r.get('name') or '').lower())))
+PROVIDER_CAP=10
+def _collapse(cands,score_fn,n=30,cap=PROVIDER_CAP):
+    """returns (capped top-n, collapsed count, uncapped top-n). Twins across stores and XL/single variants share one slot;
+    at most `cap` slots per provider in the capped list (review 13 F(c)); uncapped list feeds the UI 'ohne Limit' toggle."""
+    ordered=sorted(cands,key=score_fn,reverse=True); seen={}; vseen={}; ded=[]; collapsed=0; also={}
     for r in ordered:
         ks=_twin_keys(r); hit=next((seen[k] for k in ks if k in seen),None)
         if hit is not None:
             collapsed+=1; also.setdefault(hit['id'],set()).add(r['store'])
             for k in ks: seen.setdefault(k,hit)
             continue
+        vk=_variant_key(r)
+        if vk in vseen:
+            collapsed+=1; kv=vseen[vk]
+            kv['variant_note']='auch als XL' if _XL.search(r.get('name') or '') and 'xl' in (r.get('name') or '').lower() else 'auch als Einzelportion'
+            kv.setdefault('variantIds',[]).append(r['id'])
+            continue
+        vseen[vk]=r
         for k in ks: seen[k]=r
-        kept.append(r)
-        if len(kept)>=n: break
-    for r in kept:
+        ded.append(r)
+        if len(ded)>=n*4: break
+    cnt={}; capped=[]
+    for r in ded:
+        if cnt.get(r.get('store'),0)>=cap: continue
+        cnt[r.get('store')]=cnt.get(r.get('store'),0)+1; capped.append(r)
+        if len(capped)>=n: break
+    unc=ded[:n]
+    for r in set(map(id,capped))|set(map(id,unc)): pass
+    for r in capped+unc:
         o=sorted(s for s in also.get(r['id'],()) if s and s!=r.get('store'))
         if o: r['alsoAt']=o
-    return kept,collapsed
+    return capped,collapsed,unc
 # sensecheck 10: vorspeise (e.g. Knorr Meisterkessel Bohnen-Speck-Suppe) is a starter, not a main-meal top-list winner
-topPLI,_c_pli=_collapse([r for r in R if r.get('rankable') and r.get('pli') is not None and r.get('gang')!='vorspeise'],lambda r:r['pli'])
-top_h,_c_h=_collapse([r for r in R if r.get('rankable') and r.get('score') is not None and r.get('gang')!='vorspeise'],lambda r:r['score'])
-top_pe,_c_pe=_collapse([r for r in R if r.get('rankable') and r.get('ppe') and r.get('pstat')=='live 2026' and r.get('pack')!='Trocken/Instant' and r.get('gang')!='vorspeise'],lambda r:r['ppe'])
-topLight,_c_light=_collapse(_light,lambda r:r['pliLight'])
-print('rankings: light',len(_light),'baby',_n_baby,'exact_dup',_n_exact,'ean_dup',_n_ean,'near_dup',_n_near,'collapsed pli/h/pe/light',_c_pli,_c_h,_c_pe,_c_light)
+topPLI,_c_pli,_utopPLI=_collapse([r for r in R if r.get('rankable') and r.get('pli') is not None and r.get('gang')!='vorspeise'],lambda r:r['pli'])
+top_h,_c_h,_utop_h=_collapse([r for r in R if r.get('rankable') and r.get('score') is not None and r.get('gang')!='vorspeise'],lambda r:r['score'])
+top_pe,_c_pe,_utop_pe=_collapse([r for r in R if r.get('rankable') and r.get('ppe') and r.get('pstat')=='live 2026' and r.get('pack')!='Trocken/Instant' and r.get('gang')!='vorspeise'],lambda r:r['ppe'])
+topLight,_c_light,_utopLight=_collapse(_light,lambda r:r['pliLight'])
+print('review13 no shipping known (left as is):',sorted(x for x in _NOSHIP if x)); print('rankings: light',len(_light),'baby',_n_baby,'exact_dup',_n_exact,'ean_dup',_n_ean,'near_dup',_n_near,'collapsed pli/h/pe/light',_c_pli,_c_h,_c_pe,_c_light)
 import os
 qa=json.load(open('qa_stats.json')) if os.path.exists('qa_stats.json') else None
 # Hersteller
@@ -520,7 +570,7 @@ for slug in sorted(set(list(PROF)+[c['slug'] for c in COMP if c['type']=='produc
     p=PROF.get(slug,{}); c=cbyslug.get(slug,{})
     producers.append(dict(legal=c.get('name'),slug=slug,name=p.get('name') or c.get('name'),summary=p.get('summary_de'),facts=p.get('facts'),sources=p.get('sources'),brands=p.get('brands_supplied') or [],website=c.get('website') or (p.get('facts') or {}).get('website'),logo=lp(c) if c else None,plants=c.get('plant_addresses') or [],group=c.get('group'),retail=c.get('retail_brands') or [],ids=[r['id'] for r in R if r['prodSlug']==slug]))
 companyLogos={c['slug']:lp(c) for c in COMP if lp(c)}
-out=dict(producers=producers,companyLogos=companyLogos,qaStats=qa,catIcon=CATICON,catProt=[n for n,_,_ in PROT]+['vegan','vegetarisch'],catDish=[n for n,_,_ in DISH]+['Beilage/Gemüse'],topPLI=[r['id'] for r in topPLI],topLight=[r['id'] for r in topLight],rows=R,sides=sides,topHealth=[idx[id(r)] for r in top_h],topPE=[idx[id(r)] for r in top_pe],stats=S,
+out=dict(producers=producers,companyLogos=companyLogos,qaStats=qa,catIcon=CATICON,catProt=[n for n,_,_ in PROT]+['vegan','vegetarisch'],catDish=[n for n,_,_ in DISH]+['Beilage/Gemüse'],topPLI=[r['id'] for r in topPLI],topLight=[r['id'] for r in topLight],topPLIUncapped=[r['id'] for r in _utopPLI],topLightUncapped=[r['id'] for r in _utopLight],topHealthUncapped=[r['id'] for r in _utop_h],topPEUncapped=[r['id'] for r in _utop_pe],topCap=dict(perProvider=PROVIDER_CAP,n=30,shipBox=SHIP_BOX),rows=R,sides=sides,topHealth=[idx[id(r)] for r in top_h],topPE=[idx[id(r)] for r in top_pe],stats=S,
   same=[dict(code=v[0]['pid'],herst=v[0]['herst'],ort=v[0]['ort'],ooe=v[0]['ooe'],ids=[idx[id(r)] for r in v]) for k,v in same],
   ftg=[dict(name=n,n=len(L),price=md(L,'price'),prot=md(L,'protpack'),kcal=md(L,'kcalpack'),ppe=md(L,'ppe'),p100k=md(L,'p100k')) for n,L in cmp],
   combos=combos,generated='2026-10-12')

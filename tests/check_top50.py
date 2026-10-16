@@ -14,6 +14,7 @@ for key,rev in (('pli',True),('eur10p',False)):
         if key=='pli':
             if (r.get('score') or 0)<30 or not r.get('price') or not r.get('store'): bad.append((key,r['name'],'score<30/no price/shop'))
             mc=r.get('meal_check') or {}; ep=r['price']*mc['portion']/r['size'] if r.get('size') and mc.get('portion') else r['price']
+            ep=ep+(r.get('shipPor') or 0)  # review 13 F(b): delivery shipping per box of 6
             exp=round(0.5*r['score']+0.5*min((mc['protein']/ep)/20,1)*100,1)
             if abs(exp-r['pli'])>0.15: bad.append((key,r['name'],'pli formula',r['pli'],exp))
 # regress_top50.mjs parity: same NONMEAL list

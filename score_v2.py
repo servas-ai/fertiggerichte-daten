@@ -90,6 +90,8 @@ def portion(x, off, stage=None):
     # Limited to bofrost* (verified grammage line); other providers' 'portions' fields are not verified yet.
     pv = n(x.get('portions'))
     if pv and pv > 1 and sz and 'bofrost' in str(x.get('store') or '').lower(): return round(sz / pv), 'provider_portions'
+    _pp = piece_portion(nm, sz)  # review 13 B: before off_serving (Goldschatz 600 g had OFF 100 g)
+    if _pp: return _pp, 'piece_x2'
     sq = n((off or {}).get('serving_quantity'))
     # an OFF serving larger than the pack is impossible for a ready-to-eat pack (followfood pizza 300 g, serving 339 g
     # → pPor > pack price) → ignore it. Instant/dry packs (serving = prepared weight with water, >300 kcal/100 g) keep it.
@@ -194,7 +196,7 @@ def meal_check(x, v2):
 
 SNACK = re.compile(r'\bbrot\b|brötchen|semmel|weckerl|sandwich|burger|baguette|\btoast|toastkäse|wurstsalat|ramyun|ramen nudel|instant ?nudel|cup noodle|noodle cup|yum yum|mama nudel|nudelsnack|bistro baguette|piccolini|wrap\b(?!.*bowl)|hot ?dog|pizzaschnitte|leberkässemmel',re.I)
 # Sensecheck 11: breaded/fried protein without a side-dish word is a component ('Zum Kombinieren'), not a main-ranking meal
-BREADED = re.compile(r'paniert|panade|\bcrispy\b|knusper|\bcrunch\b|\bbreaded\b|backfisch|backhendl|nuggets?\b|\bsticks?\b|stäbchen|schnitzel|cordon bleu|gebacken\w*\s+(hendl|huhn|hühner|fisch|champignon)',re.I)
+BREADED = re.compile(r'paniert|panade|\bcrispy\b|crispy|knusper|karaage|tempura|katsu|popcorn.?chicken|\bcrunch\b|\bbreaded\b|backfisch|backhendl|nuggets?\b|\bsticks?\b|stäbchen|schnitzel|cordon bleu|gebacken\w*\s+(hendl|huhn|hühner|fisch|champignon)',re.I)
 SIDE_WORD = re.compile(r'reis\b|naturreis|kartoffel|erdäpfel|püree|pueree|nudel|pasta|spaghetti|penne|gemüse|pommes|fritten|wedges|rösti|kroketten|salat|salad|spätzle|knödel|bowl|couscous|bulgur|quinoa|\bmit\b|pizza|burger|wrap|sandwich|toast|baguette|menü|teller',re.I)
 def breaded_component(nm): return bool(BREADED.search(nm or '')) and not SIDE_WORD.search(nm or '')
 # hourly T06: plain sous-vide meat pieces (no sauce dish like Gulasch, no side) and plain vegan Köttbullar are protein components, not complete meals
@@ -228,3 +230,34 @@ def meat_sub_piece(nm, brand='', size=None):
     try: sz=float(size) if size not in (None,'') else None
     except (TypeError,ValueError): sz=None
     return sz is None or sz<=300
+
+# Sensecheck 13 review (D/A): plain meat/fish pieces without own carb word are components ('Zum Kombinieren'), also as word part
+#  ('Rindsbackerl Sous Vide', 'Schweinsbraten', 'Spareripperl'); Iglo Goldschatz = overbaked fish fillet line.
+MEAT_PIECE = re.compile(r'sous.?vide|braten(?!wurst|sauce|soße|saft)|backerl|wangerl|ripperl|stelze|filet|steak|medaillon|goldschatz',re.I)
+MEAT_PIECE_DISH = re.compile(r'gulasch|curry|chili|ragout|ragù|eintopf|geschnetzel|frikassee|tajine|stroganoff|teriyaki|süß.?sauer|tikka|masala|pfanne|knödel|semmel|nudel|reis|kartoffel|erdäpfel|tarhonya|spiralen|\bdazu\b',re.I)
+def meat_piece(nm):
+    nm=nm or ''
+    if not MEAT_PIECE.search(nm) or re.search(r'\bgebraten',nm,re.I) and not re.search(r'braten\b',nm,re.I): return False
+    return not CARB_WORD.search(nm) and not NOT_COMPONENT_DISH.search(nm) and not MEAT_PIECE_DISH.search(nm)
+# Review 13 (B): multi-piece fillet packs → portion = piece weight × 2, same for every size of the line.
+PIECE_LINE = {'goldschatz': 100}
+def piece_portion(nm, sz):
+    nm=(nm or '').lower()
+    for k,w in PIECE_LINE.items():
+        if k in nm: return 2*w
+    m=re.search(r'(\d+)\s*(stück|stk)\b',nm)
+    if m and sz and int(m.group(1))>=3 and re.search(r'filet|schlemmer|dorsch|schnitzel|cordon|goldschatz|laibchen',nm): return round(sz/int(m.group(1))*2)
+    return None
+# Review 13 (E): age statement / OFF baby category → baby_food
+AGE = re.compile(r'\bab\s+(dem\s+)?\d{1,2}\.?\s*(monat|monate|monaten)\b|altersstufe',re.I)
+def baby_age(text, off_cats=''):
+    return bool(AGE.search(text or '')) or 'en:baby-food' in (off_cats or '')
+def naturpur_baby(nm, sz, price):
+    """(is_baby, verified). Bolognese 190/220/250 g verified on interspar.at (ab 5/8 Monate); other ≤250 g / ≤1.50 € jars = suspect.
+    Risotto excluded (orch 17:41)."""
+    nm=nm or ''
+    if not re.search(r'natur\*?\s?pur bio-',nm,re.I) or re.search(r'risotto',nm,re.I): return (False,False)
+    try: sz=float(sz); price=float(price)
+    except (TypeError,ValueError): return (False,False)
+    if not (sz<=250 and price<=1.50): return (False,False)
+    return (True, bool(re.search(r'spaghetti bolognese',nm,re.I)))

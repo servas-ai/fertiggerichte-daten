@@ -364,11 +364,16 @@ for x in out:
     _mc=_V2.meal_check(x,r2); x['meal_check']=_mc; x['meal_class']=_mc['cls'] if not _des else 'dessert'
     _nm=x.get('name') or ''
     if re.search(r'hipp|beba|aptamil|alete|babylove|ab dem \d|kleinkind|säugling|\bbaby\b|kinder ?menü|bio-?gläschen',_nm,re.I) or re.search(r'\b(hipp|alete|bebivita|beba|aptamil|babylove|freche freunde)\b',str(x.get('brand') or ''),re.I): x['meal_class']='baby'; x['segment']='baby_food'; _mc['ok']=False; _mc['reason']='Kindernahrung'
+    _offc=str((_OFF.get(_e) or {}).get('categories_tags') or (_OFF.get(_e) or {}).get('categories') or '')
+    if _V2.baby_age(_nm+' '+str(x.get('description') or ''),_offc): x['meal_class']='baby'; x['segment']='baby_food'; _mc['ok']=False; _mc['reason']='Kindernahrung (Altersangabe/OFF)'  # review 13 E
+    _bb,_bv=_V2.naturpur_baby(_nm,x.get('size_g'),x.get('price_eur'))
+    if _bb: x['meal_class']='baby'; x['segment']='baby_food'; _mc['ok']=False; _mc['reason']='Kindernahrung'; x['flags'].append('Babynahrung (SPAR Natur*pur Gläschen, interspar.at ab 5/8 Monate)' if _bv else 'Babynahrung (Verdacht: Natur*pur Gläschen ≤250 g/≤1,50 €)')
     if not _des and _V2.SNACK.search(_nm): x['meal_class']='snack_side'; _mc['ok']=False; _mc['reason']='Brot/Snack/Instant – keine Mahlzeit'
     x['component']=_V2.component_name(_nm) and not _des  # sensecheck 13: carb word next to 'filet'/'laibchen' → dish
     if not _des and _V2.breaded_component(_nm): x['component']=True; x['component_kind']='breaded'  # sensecheck 11
     if not _des and not x['component'] and getattr(_V2,'plain_component',lambda n:False)(_nm): x['component']=True; x['component_kind']='plain_piece'  # hourly T06
     if not _des and not x['component'] and _V2.topped_fish(_nm): x['component']=True; x['component_kind']='topped_fish'  # sensecheck 13
+    if not _des and not x['component'] and _V2.meat_piece(_nm): x['component']=True; x['component_kind']='meat_piece'  # review 13 D/A
     if not _des and not x['component'] and _V2.meat_sub_piece(_nm,x.get('brand'),x.get('size_g')): x['component']=True; x['component_kind']='meat_sub'  # sensecheck 13
     if not _des and _V2.BREAKFAST.search(_nm): x['gang']='frühstück'; _mc['ok']=False; _mc['reason']=(_mc.get('reason') or '')+' Frühstück (kein Hauptgericht)'; x['flags'].append('Frühstück – nicht im Hauptranking')
     if x['component']: _mc['ok']=False; _mc['reason']=(_mc.get('reason') or '')+' Proteinkomponente (keine vollständige Mahlzeit)'

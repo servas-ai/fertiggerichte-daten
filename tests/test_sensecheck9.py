@@ -51,6 +51,6 @@ def test_top_list_collapses_cross_store_twins():
        dict(id=6,store='Billa',name='Iglo Polar-Dorsch Mediterrane Art',brandN='iglo',size=300.0,ean=None,s=48),
        dict(id=7,store='Billa',name='Iglo Lasagne al Forno',brandN='iglo',size=350.0,ean=None,s=47),
        dict(id=8,store='Gurkerl',name='Iglo Lasagne al Forno (tiefgekühlt)',brandN='iglo',size=700.0,ean=None,s=46)]
-    kept,col=ns['_collapse'](R,lambda r:r['s'])
+    kept,col,_unc=ns['_collapse'](R,lambda r:r['s'])
     assert [r['id'] for r in kept]==[1,4,6,7,8], [r['id'] for r in kept]  # different size (350 vs 700 g) stays separate
     assert col==3 and kept[0]['alsoAt']==['Billa','Spar'] and kept[1]['alsoAt']==['Billa']
