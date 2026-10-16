@@ -1,0 +1,1247 @@
+{
+ "run": "Daten-Squad T1938",
+ "generated_at": "2026-10-16T20:13:59Z",
+ "rules": "Daten-Squad 2026-10-16T1938: company employees / revenue / founding from VERIFIED public statements.\nProbe passes (scripts/facts_T1938/): crawl.py (company-owned about/history/facts/careers/press pages on the row's verified\nwebsite; robots.txt respected, no cookies/JS/login, <=1 req/s per host, 4 hosts in parallel), wikidata.py (items matched by\nLEI P1278 or official website P856 == row website only), wikipedia.py (de/en/it infobox of those items).\nThis script re-fetches every accepted source, requires every listed phrase to be present verbatim on that page (whitespace\nnormalised) and only then writes the value into an EMPTY field (never overwrites). Evidence: raw/companies_facts_2026-10-16T1938.json.\nScope rules: entity vs group is spelled out in the value ('Gruppe', 'weltweit', 'dm Österreich'); founding statements are\nlabelled as company/brand statements ('Unternehmensangabe', 'Marke', 'Gruppe') — they are not legal-entity dates.\nThird-party figures only with outlet named (Die Presse paid advertorial = company-supplied, labelled 'Anzeige').",
+ "before": {
+  "employees": 17,
+  "revenue": 16,
+  "founded": 88
+ },
+ "after": {
+  "employees": 46,
+  "revenue": 31,
+  "founded": 106
+ },
+ "by_source": {
+  "employees": {
+   "own site": 27,
+   "Wikipedia": 2
+  },
+  "revenue": {
+   "own site": 11,
+   "Wikipedia": 2,
+   "third-party outlet (Die Presse, paid advertorial)": 1,
+   "own site (PDF)": 1
+  },
+  "founded": {
+   "own site": 15,
+   "Wikipedia": 1,
+   "Wikidata": 2
+  }
+ },
+ "evidence": [
+  {
+   "slug": "alnatura-gmbh",
+   "field": "employees",
+   "value": "3.730 (Unternehmensangabe GJ 2024/25, Alnatura gesamt; davon 200 Lehrlinge/Studierende)",
+   "kind": "web",
+   "source": "https://www.alnatura.de/presse/daten-und-fakten",
+   "must": [
+    "Mitarbeiter/ -innen",
+    "3.730",
+    "davon 200 Lehrlinge und Studierende"
+   ],
+   "scope": "company (Alnatura, operating entity = Alnatura Produktions- und Handels GmbH per legal notice)",
+   "fetched_at": "2026-10-16T20:13:59Z",
+   "url": "https://www.alnatura.de/presse/daten-und-fakten",
+   "quote": [
+    "atz GJ 2024/25: 1,274 Mrd. Euro netto (Geschäftsjahr: 1.10.2024 - 30.09.2025) + 6,6 % zum vorangegangenen Geschäftsjahr Mitarbeiter/ -innen : 3.730 , davon 200 Lehrlinge und Studierende Alnatura Super Natur Märkte: 157 Märkte in 73 Städten in 13 Bundesländern",
+    "Mrd. Euro netto (Geschäftsjahr: 1.10.2024 - 30.09.2025) + 6,6 % zum vorangegangenen Geschäftsjahr Mitarbeiter/ -innen : 3.730 , davon 200 Lehrlinge und Studierende Alnatura Super Natur Märkte: 157 Märkte in 73 Städten in 13 Bundesländern Baden-W",
+    "o netto (Geschäftsjahr: 1.10.2024 - 30.09.2025) + 6,6 % zum vorangegangenen Geschäftsjahr Mitarbeiter/ -innen : 3.730 , davon 200 Lehrlinge und Studierende Alnatura Super Natur Märkte: 157 Märkte in 73 Städten in 13 Bundesländern Baden-Württemberg (39), Bayern (24), Hessen ("
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "alnatura-gmbh",
+   "field": "revenue",
+   "value": "1,274 Mrd. € netto (GJ 2024/25, Unternehmensangabe)",
+   "kind": "web",
+   "source": "https://www.alnatura.de/presse/daten-und-fakten",
+   "must": [
+    "Umsatz GJ 2024/25: 1,274 Mrd. Euro netto"
+   ],
+   "scope": "company",
+   "fetched_at": "2026-10-16T20:14:01Z",
+   "url": "https://www.alnatura.de/presse/daten-und-fakten",
+   "quote": [
+    "tsführung : Prof. Dr. Götz E. Rehn (Gründer), Rüdiger Kasch, Kirsten Keller, Lucas Rehn, Petra Schäfer, Jessica Schwarz Umsatz GJ 2024/25: 1,274 Mrd. Euro netto (Geschäftsjahr: 1.10.2024 - 30.09.2025) + 6,6 % zum vorangegangenen Geschäftsjahr Mitarbeiter/ -innen : 3.730 , davon 2"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "alnatura-gmbh",
+   "field": "founded",
+   "value": "1984 (Unternehmensangabe: Gründungsjahr Alnatura; Rechtsträger GmbH lt. GLEIF 1987)",
+   "kind": "web",
+   "source": "https://www.alnatura.de/presse/daten-und-fakten",
+   "must": [
+    "Gründungsjahr",
+    "re:Gründungsjahr\\W{0,5}1984"
+   ],
+   "scope": "company founding (not legal-entity date)",
+   "fetched_at": "2026-10-16T20:14:01Z",
+   "url": "https://www.alnatura.de/presse/daten-und-fakten",
+   "quote": [
+    "rkte Rezepte Wissenswertes Zurück Produkte Märkte Rezepte Wissenswertes Daten und Fakten zu Alnatura Alnatura in Zahlen Gründungsjahr : 1984 Geschäftsführung : Prof. Dr. Götz E. Rehn (Gründer), Rüdiger Kasch, Kirsten Keller, Lucas Rehn, Petra Schäfer, J",
+    "rkte Rezepte Wissenswertes Zurück Produkte Märkte Rezepte Wissenswertes Daten und Fakten zu Alnatura Alnatura in Zahlen Gründungsjahr : 1984 Geschäftsführung : Prof. Dr. Götz E. Rehn (Gründer), Rüdiger Kasch, Kirsten Keller, Lucas Rehn, Petra Schäfer, Jessica "
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "alnatura-produktions-und-handels-gmbh",
+   "field": "employees",
+   "value": "3.730 (Unternehmensangabe GJ 2024/25, Alnatura gesamt; davon 200 Lehrlinge/Studierende)",
+   "kind": "web",
+   "source": "https://www.alnatura.de/presse/daten-und-fakten",
+   "must": [
+    "3.730",
+    "davon 200 Lehrlinge und Studierende"
+   ],
+   "scope": "company",
+   "fetched_at": "2026-10-16T20:14:01Z",
+   "url": "https://www.alnatura.de/presse/daten-und-fakten",
+   "quote": [
+    "Mrd. Euro netto (Geschäftsjahr: 1.10.2024 - 30.09.2025) + 6,6 % zum vorangegangenen Geschäftsjahr Mitarbeiter/ -innen : 3.730 , davon 200 Lehrlinge und Studierende Alnatura Super Natur Märkte: 157 Märkte in 73 Städten in 13 Bundesländern Baden-W",
+    "o netto (Geschäftsjahr: 1.10.2024 - 30.09.2025) + 6,6 % zum vorangegangenen Geschäftsjahr Mitarbeiter/ -innen : 3.730 , davon 200 Lehrlinge und Studierende Alnatura Super Natur Märkte: 157 Märkte in 73 Städten in 13 Bundesländern Baden-Württemberg (39), Bayern (24), Hessen ("
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "alnatura-produktions-und-handels-gmbh",
+   "field": "revenue",
+   "value": "1,274 Mrd. € netto (GJ 2024/25, Unternehmensangabe)",
+   "kind": "web",
+   "source": "https://www.alnatura.de/presse/daten-und-fakten",
+   "must": [
+    "Umsatz GJ 2024/25: 1,274 Mrd. Euro netto"
+   ],
+   "scope": "company",
+   "fetched_at": "2026-10-16T20:14:01Z",
+   "url": "https://www.alnatura.de/presse/daten-und-fakten",
+   "quote": [
+    "tsführung : Prof. Dr. Götz E. Rehn (Gründer), Rüdiger Kasch, Kirsten Keller, Lucas Rehn, Petra Schäfer, Jessica Schwarz Umsatz GJ 2024/25: 1,274 Mrd. Euro netto (Geschäftsjahr: 1.10.2024 - 30.09.2025) + 6,6 % zum vorangegangenen Geschäftsjahr Mitarbeiter/ -innen : 3.730 , davon 2"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "biovegan-gmbh",
+   "field": "employees",
+   "value": "über 120 (Unternehmensangabe 2026)",
+   "kind": "web",
+   "source": "https://www.biovegan.de/",
+   "must": [
+    "mit über 120 Mitarbeitenden"
+   ],
+   "scope": "company",
+   "fetched_at": "2026-10-16T20:14:01Z",
+   "url": "https://www.biovegan.de/",
+   "quote": [
+    "ter BIOVEGAN steht ein Team mit Leidenschaft für natürlichen Genuss. Als Pionier der bio-veganen Ernährung arbeiten wir mit über 120 Mitarbeitenden Tag für Tag daran, dir nachhaltige Genussmomente auf den Teller zu bringen. Mehr Über Uns Unsere Rezepte Alle Ansehen B"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "biovegan-gmbh",
+   "field": "founded",
+   "value": "seit 1986 (Unternehmensangabe: „Bio & vegan seit 1986“)",
+   "kind": "web",
+   "source": "https://www.biovegan.de/pages/ueber-uns",
+   "must": [
+    "Seit 1986 stehen wir für Bio-Qualität"
+   ],
+   "scope": "company statement",
+   "fetched_at": "2026-10-16T20:14:02Z",
+   "url": "https://www.biovegan.de/pages/ueber-uns",
+   "quote": [
+    " Land Deutschland (EUR €) Österreich (EUR €) 0 Dein Warenkorb ist leer Weiter einkaufen Zurücksetzen Schließen ÜBER UNS Seit 1986 stehen wir für Bio-Qualität aus Überzeugung. Mit viel Leidenschaft entwickeln wir vegane und glutenfreie Produkte, die Genuss, Natürlichkeit und Ve"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "deflorian-srl",
+   "field": "founded",
+   "value": "1991 (Unternehmensangabe: Gründung als Einzelunternehmen in Gnadenwald; heute Deflorian Tiefkühlspezialitäten GmbH)",
+   "kind": "web",
+   "source": "https://deflorian.tirol/pages/uber-uns",
+   "must": [
+    "Gründung Deflorian Tiefkühlspezialitäten als Einzelunternehmen",
+    "1991 Gründung"
+   ],
+   "scope": "company founding (sole proprietorship), not the GmbH",
+   "fetched_at": "2026-10-16T20:14:04Z",
+   "url": "https://deflorian.tirol/pages/uber-uns",
+   "quote": [
+    "Anschaffung des ersten Tiefkühlfahrzeuges für Privatkundenbelieferung im Raum Innsbruck Land. 1991 Gründung 11 Produkte Gründung Deflorian Tiefkühlspezialitäten als Einzelunternehmen. Im Keller eines Reihenhauses in Gnadenwald wurden die ersten Schlutzkrapfen gefertigt und Knödel gedreht - Vertrieb au",
+    "Lieferservice 30 Produkte Anschaffung des ersten Tiefkühlfahrzeuges für Privatkundenbelieferung im Raum Innsbruck Land. 1991 Gründung 11 Produkte Gründung Deflorian Tiefkühlspezialitäten als Einzelunternehmen. Im Keller eines Reihenhauses in Gnadenwald "
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "deflorian-srl",
+   "field": "employees",
+   "value": "17 (Unternehmensangabe, Stand 2016)",
+   "kind": "web",
+   "source": "https://deflorian.tirol/pages/uber-uns",
+   "must": [
+    "2016 25 Jahre Gnadenwald",
+    "17 Mitarbeiter"
+   ],
+   "scope": "company, 2016 timeline entry",
+   "fetched_at": "2026-10-16T20:14:05Z",
+   "url": "https://deflorian.tirol/pages/uber-uns",
+   "quote": [
+    "tützung unseres \"himmlischen\" Marketingteams, wird aus Deflorian deFlorian. Neue Homepage und Verpackungsdesign folgen. 2016 25 Jahre Gnadenwald Über 70 Produkte 17 Mitarbeiter – 270 Gastronomiekunden – 2000 Privatkunden – 60 Einzelhandelsfilialen – 1.900.000 Schl",
+    "ms, wird aus Deflorian deFlorian. Neue Homepage und Verpackungsdesign folgen. 2016 25 Jahre Gnadenwald Über 70 Produkte 17 Mitarbeiter – 270 Gastronomiekunden – 2000 Privatkunden – 60 Einzelhandelsfilialen – 1.900.000 Schlutzkrapfen. 2010 Einzelhandel 50"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "followfood-gmbh",
+   "field": "employees",
+   "value": "76 (Unternehmensangabe, Steckbrief)",
+   "kind": "web",
+   "source": "https://followfood.de/bewegung",
+   "must": [
+    "followfood Steckbrief",
+    "Mitarbeiter:innen 76"
+   ],
+   "scope": "company",
+   "fetched_at": "2026-10-16T20:14:05Z",
+   "url": "https://followfood.de/bewegung",
+   "quote": [
+    "za bis Snacks, Gemüse und Instant Noodles über 3 Millionen Kund:innen erste Fair Trade-Thunfischprodukte in Deutschland followfood Steckbrief Gründung 2007 Unternehmenssitz Friedrichshafen Weitere Standorte Hamburg, Heilbronn Geschäftsführer Jürg Knoll und Harr",
+    " 2007 Unternehmenssitz Friedrichshafen Weitere Standorte Hamburg, Heilbronn Geschäftsführer Jürg Knoll und Harri Butsch Mitarbeiter:innen 76 Auszeichnungen 2011 & 2012 TOP 3 Deutscher Nachhaltigkeitspreis 2015 Biomarke des Jahres 2017 Nominierung für den Deuts"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "mpreis-warenvertriebs-gmbh",
+   "field": "employees",
+   "value": "über 6.000 (Unternehmensangabe, MPREIS gesamt)",
+   "kind": "web",
+   "source": "https://www.mpreis.at/mpreis/werte",
+   "must": [
+    "über 6.000 Mitarbeitenden"
+   ],
+   "scope": "company (MPREIS)",
+   "fetched_at": "2026-10-16T20:14:07Z",
+   "url": "https://www.mpreis.at/mpreis/werte",
+   "quote": [
+    "ternehmen. Auch im Großen und Ganzen betrachtet bildet Tirols wichtigster Arbeitgeber und Ausbildungsbetrieb mit seinen über 6.000 Mitarbeitenden eine riesige Familie. Dabei sind wir stolz auf einen Frauenanteil von über 70 %, auch in Führungspositionen. Im Sinne d"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "planted-foods-ag",
+   "field": "founded",
+   "value": "2019 (Unternehmensangabe: Firmengründung August 2019)",
+   "kind": "web",
+   "source": "https://planted-foods-de.myshopify.com/pages/about",
+   "must": [
+    "Planted wurde 2019 gegründet",
+    "2019 August Firmengründung"
+   ],
+   "scope": "company founding (Planted, Kemptthal)",
+   "fetched_at": "2026-10-16T20:14:10Z",
+   "url": "https://planted-foods-de.myshopify.com/pages/about",
+   "quote": [
+    "ertes Fleisch wird nur aus natürlichen Zutaten hergestellt, enthält keine Zusatzstoffe und rettet Tierleben. Geschichte Planted wurde 2019 gegründet, nachdem Pascal Bieri 2017 in den USA arbeitete und auf verschiedene Fleischersatzprodukte aufmerksam wurde, sich aber ",
+    " Millionen Franken aus der Finanzierungsrunde und sogleich Startschuss für den Bau der Produktion & Büros in Kemptthal. 2019 August Firmengründung, der eigenen Webshop und die ersten Restaurants mit planted.chicken auf der Karte. 2019 März Schartschuss mit dem ETH P"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "planted-foods-ag",
+   "field": "employees",
+   "value": "über 170 (Unternehmensangabe Juli 2022, Planted gesamt in 6 Ländern)",
+   "kind": "web",
+   "source": "https://planted-foods-de.myshopify.com/pages/about",
+   "must": [
+    "in 6 Ländern mit über 170 Mitarbeitenden"
+   ],
+   "scope": "group (all countries), 2022",
+   "fetched_at": "2026-10-16T20:14:11Z",
+   "url": "https://planted-foods-de.myshopify.com/pages/about",
+   "quote": [
+    "en! 2022 August Neues Gastronomie Produkt: planted.chicken Tenders 2022 Juli Wir haben Grund zu feiern! 3 Jahre Planted in 6 Ländern mit über 170 Mitarbeitenden und massenhaft unvergesslichen Momenten. 2022 Mai Nach einer kurzen und intensiven Umbauphase konnten wir unser Produkt"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "planted-foods-gmbh",
+   "field": "founded",
+   "value": "Gruppe 2019 (Unternehmensangabe: Firmengründung Planted August 2019, Planted Foods AG)",
+   "kind": "web",
+   "source": "https://planted-foods-de.myshopify.com/pages/about",
+   "must": [
+    "Planted wurde 2019 gegründet",
+    "2019 August Firmengründung"
+   ],
+   "scope": "group founding, not the DE GmbH",
+   "fetched_at": "2026-10-16T20:14:11Z",
+   "url": "https://planted-foods-de.myshopify.com/pages/about",
+   "quote": [
+    "ertes Fleisch wird nur aus natürlichen Zutaten hergestellt, enthält keine Zusatzstoffe und rettet Tierleben. Geschichte Planted wurde 2019 gegründet, nachdem Pascal Bieri 2017 in den USA arbeitete und auf verschiedene Fleischersatzprodukte aufmerksam wurde, sich aber ",
+    " Millionen Franken aus der Finanzierungsrunde und sogleich Startschuss für den Bau der Produktion & Büros in Kemptthal. 2019 August Firmengründung, der eigenen Webshop und die ersten Restaurants mit planted.chicken auf der Karte. 2019 März Schartschuss mit dem ETH P"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "planted-foods-gmbh",
+   "field": "employees",
+   "value": "Gruppe über 170 (Unternehmensangabe Juli 2022, Planted gesamt)",
+   "kind": "web",
+   "source": "https://planted-foods-de.myshopify.com/pages/about",
+   "must": [
+    "in 6 Ländern mit über 170 Mitarbeitenden"
+   ],
+   "scope": "group, 2022",
+   "fetched_at": "2026-10-16T20:14:11Z",
+   "url": "https://planted-foods-de.myshopify.com/pages/about",
+   "quote": [
+    "en! 2022 August Neues Gastronomie Produkt: planted.chicken Tenders 2022 Juli Wir haben Grund zu feiern! 3 Jahre Planted in 6 Ländern mit über 170 Mitarbeitenden und massenhaft unvergesslichen Momenten. 2022 Mai Nach einer kurzen und intensiven Umbauphase konnten wir unser Produkt"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "revo-foods",
+   "field": "employees",
+   "value": "21 Team Members (Unternehmensangabe)",
+   "kind": "web",
+   "source": "https://revo-foods.com/team/",
+   "must": [
+    "Team Members 21"
+   ],
+   "scope": "company",
+   "fetched_at": "2026-10-16T20:14:11Z",
+   "url": "https://revo-foods.com/team/",
+   "quote": [
+    "Food Production Worker Samuel Food Production Worker Want to join us? Send us your CV Revo in Numbers Year Founded 2020 Team Members 21 Nationalities 11 Scientists 7 Advisory Board Frederik Hasselkjaer Hazelpond Capital Helge Wieneke Friends2Grow Timo Leh"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "rewe-international-ag",
+   "field": "employees",
+   "value": "rund 47.000 (REWE Group Österreich, Jahresende 2025, Unternehmensangabe)",
+   "kind": "web",
+   "source": "https://rewe-group.at/de/ueber-uns/zahlen-fakten/",
+   "must": [
+    "Das Jahr 2025",
+    "beschäftigte zum Jahresende landesweit rund 47.000 Mitarbeiter:innen"
+   ],
+   "scope": "group (REWE Group Österreich)",
+   "fetched_at": "2026-10-16T20:14:13Z",
+   "url": "https://rewe-group.at/de/ueber-uns/zahlen-fakten/",
+   "quote": [
+    "elles ALPHA – das neue Logistikzentrum in Wiener Neudorf Karriere Kontakt Unternehmenszahlen 2025 REWE GROUP Österreich Das Jahr 2025 war gesamtwirtschaftlich von einer anhaltend hohen Inflation geprägt, die sich auch in einer gedämpften Konsumstimmung ",
+    "lte. Dennoch hat die REWE GROUP Österreich ihren Bruttoumsatz um + 2,2 Prozent auf 11,36 Milliarden Euro gesteigert und beschäftigte zum Jahresende landesweit rund 47.000 Mitarbeiter:innen, was ihre Rolle als einer der größten privaten Arbeitgeber im österreichischen Handel untermauert. Das Geschäftsfeld Le"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "rewe-international-ag",
+   "field": "revenue",
+   "value": "11,36 Mrd. € brutto (2025, REWE Group Österreich, Unternehmensangabe)",
+   "kind": "web",
+   "source": "https://rewe-group.at/de/ueber-uns/zahlen-fakten/",
+   "must": [
+    "Das Jahr 2025",
+    "Bruttoumsatz um + 2,2 Prozent auf 11,36 Milliarden Euro"
+   ],
+   "scope": "group (REWE Group Österreich)",
+   "fetched_at": "2026-10-16T20:14:16Z",
+   "url": "https://rewe-group.at/de/ueber-uns/zahlen-fakten/",
+   "quote": [
+    "elles ALPHA – das neue Logistikzentrum in Wiener Neudorf Karriere Kontakt Unternehmenszahlen 2025 REWE GROUP Österreich Das Jahr 2025 war gesamtwirtschaftlich von einer anhaltend hohen Inflation geprägt, die sich auch in einer gedämpften Konsumstimmung ",
+    "n geprägt, die sich auch in einer gedämpften Konsumstimmung widerspiegelte. Dennoch hat die REWE GROUP Österreich ihren Bruttoumsatz um + 2,2 Prozent auf 11,36 Milliarden Euro gesteigert und beschäftigte zum Jahresende landesweit rund 47.000 Mitarbeiter:innen, was ihre Rolle als einer der größt"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "penny-gmbh",
+   "field": "employees",
+   "value": "mehr als 2.900 (Unternehmensangabe, PENNY Österreich)",
+   "kind": "web",
+   "source": "https://www.penny.at/ueber-uns",
+   "must": [
+    "Zahlen & Fakten",
+    "Mehr als 2.900 MitarbeiterInnen"
+   ],
+   "scope": "company (PENNY Österreich)",
+   "fetched_at": "2026-10-16T20:14:16Z",
+   "url": "https://www.penny.at/ueber-uns",
+   "quote": [
+    ", den richtigen Preisen, der richtigen Qualität und dem richtigen Service – und all das am richtigen Ort. MEHR ERFAHREN Zahlen & Fakten Unsere Filialen Mehr als 300 Filialen Unsere Arbeitnehmer Mehr als 2.900 MitarbeiterInnen Unsere Lehrlinge ca. 150 Lehr",
+    "– und all das am richtigen Ort. MEHR ERFAHREN Zahlen & Fakten Unsere Filialen Mehr als 300 Filialen Unsere Arbeitnehmer Mehr als 2.900 MitarbeiterInnen Unsere Lehrlinge ca. 150 Lehrlinge REWE Group - Seit mehr als 90 Jahren erfolgreich in Europa Die 1927 in Köln am Rhein"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "dr-schaer-spa",
+   "field": "employees",
+   "value": "über 1.400 weltweit (Dr. Schär Gruppe, Unternehmensangabe)",
+   "kind": "web",
+   "source": "https://www.schaer.com/en-us/company-dr-schar",
+   "must": [
+    "more than 1,400 employees worldwide"
+   ],
+   "scope": "group (worldwide)",
+   "fetched_at": "2026-10-16T20:14:18Z",
+   "url": "https://www.schaer.com/en-us/company-dr-schar",
+   "quote": [
+    "ve us our stability and reliability. We are a family-run company with a global reach, with 18 sites in 11 countries and more than 1,400 employees worldwide. Our products are available in more than 100 countries. Our core values Responsibility is the precondition of meaningfu"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "spar-oesterreichische-warenhandels-aktiengesellschaft",
+   "field": "employees",
+   "value": "über 93.000 (SPAR Österreich-Gruppe, davon 51.000 in Österreich; Unternehmensangabe)",
+   "kind": "web",
+   "source": "https://www.spar.at/unternehmen",
+   "must": [
+    "Die SPAR Österreich-Gruppe beschäftigt in Summe über 93.000 Mitarbeiter:innen, 51.000 davon in Österreich"
+   ],
+   "scope": "group",
+   "fetched_at": "2026-10-16T20:14:19Z",
+   "url": "https://www.spar.at/unternehmen",
+   "quote": [
+    "amit wuchs SPAR stärker als die Branche (laut NielsenIQ +3,4 %) und konnte damit die Marktführerschaft erneut ausbauen. Die SPAR Österreich-Gruppe beschäftigt in Summe über 93.000 Mitarbeiter:innen, 51.000 davon in Österreich. Auch in vielen anderen Bereichen – zum Beispiel bei der Ladenarchitektur, der Sortimentsgestaltung, in der Logistik so"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "spar-oesterreichische-warenhandels-aktiengesellschaft",
+   "field": "revenue",
+   "value": "10,82 Mrd. € Brutto-Verkaufsumsatz SPAR Österreich (2025); Gruppe 22,3 Mrd. €",
+   "kind": "web",
+   "source": "https://www.spar.at/unternehmen",
+   "must": [
+    "2025 in Österreich auf 10,82 Mrd. Euro",
+    "wuchs 2025 um insgesamt +4 % auf 22,3 Milliarden Euro"
+   ],
+   "scope": "Austria + group, gross sales",
+   "fetched_at": "2026-10-16T20:14:21Z",
+   "url": "https://www.spar.at/unternehmen",
+   "quote": [
+    " auf 22,3 Milliarden Euro. Besonders erfolgreich war SPAR in Österreich. Der Brutto-Verkaufsumsatz von SPAR belief sich 2025 in Österreich auf 10,82 Mrd. Euro, was ein Umsatzwachstum von +4,2 % bedeutet. Damit wuchs SPAR stärker als die Branche (laut NielsenIQ +3,4 %) und konnt",
+    "häftsfeldern – Lebensmittelhandel und im Bereich Shopping-Center – tätig. Der Brutto-Verkaufsumsatz der gesamten Gruppe wuchs 2025 um insgesamt +4 % auf 22,3 Milliarden Euro. Besonders erfolgreich war SPAR in Österreich. Der Brutto-Verkaufsumsatz von SPAR belief sich 2025 in Österreich auf 10"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "tress-lebensmittel-gmbh-co-kg",
+   "field": "employees",
+   "value": "100+ (Unternehmensangabe, TressBrüder gesamt)",
+   "kind": "web",
+   "source": "https://tressbrueder.de/ueber-uns",
+   "must": [
+    "100+ Menschen im Team"
+   ],
+   "scope": "family business overall (TressBrüder)",
+   "fetched_at": "2026-10-16T20:14:21Z",
+   "url": "https://tressbrueder.de/ueber-uns",
+   "quote": [
+    "n Tress Nachhaltigkeit Karriere Eventkalender Gutscheine 1950 BIO seit ★ Michelin-Stern 4 Brüder BIO in allen Betrieben 100+ Menschen im Team Familie Tress Eine Familie, 1 Vision Wir sind ein Familienunternehmen auf der Schwäbischen Alb — mit Wurzeln im biologi"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "weinbergmaier-gmbh",
+   "field": "employees",
+   "value": "250 (Unternehmensangabe)",
+   "kind": "web",
+   "source": "https://www.weinbergmaier.at/ueber-uns/das-sind-wir",
+   "must": [
+    "250 Mitarbeiter"
+   ],
+   "scope": "company",
+   "fetched_at": "2026-10-16T20:14:22Z",
+   "url": "https://www.weinbergmaier.at/ueber-uns/das-sind-wir",
+   "quote": [
+    "g | Flyer Werksverkauf Jobs Kontakt Lieferantenempfehlungen Über uns 3 Produktionsstandorte 300 Zulieferer 600 Produkte 250 Mitarbeiter 1000e Zufriedene Kunden So produzieren wir REGIONALITÄT & ROHSTOFFE UNSERE MISSION PRESSE Impressum Vivatis Konzern AGB"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "weinbergmaier-gmbh",
+   "field": "revenue",
+   "value": "75,2 Mio. € (2024, Unternehmensangabe)",
+   "kind": "web",
+   "source": "https://www.weinbergmaier.at/ueber-uns/presse",
+   "must": [
+    "Geschäftsjahr 2024",
+    "auf 75,2 Millionen Euro steigern"
+   ],
+   "scope": "company",
+   "fetched_at": "2026-10-16T20:14:24Z",
+   "url": "https://www.weinbergmaier.at/ueber-uns/presse",
+   "quote": [
+    "r wächst weiter und setzt auf innovative Produkte Österreichs führender Tiefkühl-Produzent blickt auf ein erfolgreiches Geschäftsjahr 2024 zurück und konnte seinen Umsatz, trotz herausfordernder Rahmenbedingungen, auf 75,2 Millionen Euro steigern. MEHR DAZU ",
+    "ckt auf ein erfolgreiches Geschäftsjahr 2024 zurück und konnte seinen Umsatz, trotz herausfordernder Rahmenbedingungen, auf 75,2 Millionen Euro steigern. MEHR DAZU PRESSE 18.10.2024 Knödel-Klassiker im neuen Look Mit der Kombination aus Tradition und Innovation bringt die"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "ager-gesmbh",
+   "field": "employees",
+   "value": "rund 100 (Unternehmensangabe)",
+   "kind": "web",
+   "source": "https://www.ager.cc/unternehmen/ueber-uns",
+   "must": [
+    "mit rund 100 Mitarbeitern geführt"
+   ],
+   "scope": "company",
+   "fetched_at": "2026-10-16T20:14:26Z",
+   "url": "https://www.ager.cc/unternehmen/ueber-uns",
+   "quote": [
+    "hwertige Wildfleischprodukte, Speck, Räucherwaren und Fertiggerichte und wird in zweiter Generation von Josef Ager jun. mit rund 100 Mitarbeitern geführt. Die erstklassige Qualität spiegelt sich in langjährigen, erfolgreichen Geschäftsbeziehungen wider. Ager Speck- und Wil"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "bauck-gmbh",
+   "field": "employees",
+   "value": "rund 280 in Rosche (Unternehmensangabe)",
+   "kind": "web",
+   "source": "https://www.bauck.de/ueber-uns/fakten-und-zahlen/",
+   "must": [
+    "Bei uns in Rosche arbeiten inzwischen rund 280 Kolleginnen und Kollegen"
+   ],
+   "scope": "company (Rosche site = HQ)",
+   "fetched_at": "2026-10-16T20:14:28Z",
+   "url": "https://www.bauck.de/ueber-uns/fakten-und-zahlen/",
+   "quote": [
+    "tenfrei-Mühle, Produktion und Lager. Im Nachbarort betreiben wir eine zweite Mühle. 280 Mitarbeitende 280 Mitarbeitende Bei uns in Rosche arbeiten inzwischen rund 280 Kolleginnen und Kollegen. Darunter zahlreiche Auszubildende in sechs Ausbildungsberufen. 16 Gesellschaftende 16 Gesellschaftende Die Bauck Mühle"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "bauck-gmbh",
+   "field": "revenue",
+   "value": "rund 73 Mio. € pro Geschäftsjahr (Unternehmensangabe, „73400000 € Jahresumsatz“; Jahr nicht genannt)",
+   "kind": "web",
+   "source": "https://www.bauck.de/ueber-uns/fakten-und-zahlen/",
+   "must": [
+    "73400000 € Jahresumsatz",
+    "rund 73 Millionen Euro pro Geschäftsjahr"
+   ],
+   "scope": "company, year not stated",
+   "fetched_at": "2026-10-16T20:14:30Z",
+   "url": "https://www.bauck.de/ueber-uns/fakten-und-zahlen/",
+   "quote": [
+    "n Bio und Demeter in die Welt hinaus. Inzwischen sind die Artikel aus der Bauck Mühle in 33 Ländern weltweit verfügbar. 73400000 € Jahresumsatz Wir erwirtschaften einen Umsatz in Höhe von rund 73 Millionen Euro pro Geschäftsjahr. 154000 Packungen pro Tag Jeden Ta",
+    "s der Bauck Mühle in 33 Ländern weltweit verfügbar. 73400000 € Jahresumsatz Wir erwirtschaften einen Umsatz in Höhe von rund 73 Millionen Euro pro Geschäftsjahr. 154000 Packungen pro Tag Jeden Tag laufen bei uns in Rosche rund 154.000 Packungen mit besten Bio-Backmischungen, Bio-"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "a-darbo-ag",
+   "field": "founded",
+   "value": "seit 1879 (Unternehmensangabe: Familie Darbo)",
+   "kind": "web",
+   "source": "https://darbo.com/at/",
+   "must": [
+    "Seit 1879 kreiert die Familie Darbo"
+   ],
+   "scope": "company/family statement",
+   "fetched_at": "2026-10-16T20:14:30Z",
+   "url": "https://darbo.com/at/",
+   "quote": [
+    "UNSERER NATUR. Ganzen Spot ansehen Konfitüren Kompotte & Fruchtdesserts Honig Fruchtikus Sirup Haselkuss Besonderheiten Seit 1879 kreiert die Familie Darbo kleine Köstlichkeiten mit ganz viel Liebe und Hingabe. Was auch immer man sucht, hier findet man es auf magische Weise "
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "a-darbo-ag",
+   "field": "employees",
+   "value": "über 400 (Unternehmensangabe, 4 Tiroler Standorte)",
+   "kind": "web",
+   "source": "https://darbo.com/at/karriere/",
+   "must": [
+    "Mit über 400 Mitarbeiterinnen und Mitarbeitern veredelt Darbo"
+   ],
+   "scope": "company",
+   "fetched_at": "2026-10-16T20:14:33Z",
+   "url": "https://darbo.com/at/karriere/",
+   "quote": [
+    "amilienunternehmen, das an den vier Tiroler Standorten Vomp, Stans Hauptwerk, Stans Werk am Rain, St. Johann tätig ist. Mit über 400 Mitarbeiterinnen und Mitarbeitern veredelt Darbo die feinsten Früchte zu hochwertigen Konfitüren, Marmeladen und Fruchtsirupen und füllt ausgewählte Honige ab. Darbo st"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "ehrmann-gmbh",
+   "field": "employees",
+   "value": "Gruppe: über 3.450 (Ehrmann SE, 2024, Unternehmensangabe)",
+   "kind": "web",
+   "source": "https://www.ehrmann.de/unternehmen/ehrmann-die-familien-molkerei-aus-dem-allgaeu/",
+   "must": [
+    "Mit über 3450 Mitarbeitern hat die Ehrmann SE im Jahr 2024"
+   ],
+   "scope": "group (Ehrmann SE), row website = group site",
+   "fetched_at": "2026-10-16T20:14:35Z",
+   "url": "https://www.ehrmann.de/unternehmen/ehrmann-die-familien-molkerei-aus-dem-allgaeu/",
+   "quote": [
+    " Ehrmann Stupino, zur Unternehmensgruppe. Unter der Marke Ehrmann werden Produkte in über 75 Ländern der Welt verkauft. Mit über 3450 Mitarbeitern hat die Ehrmann SE im Jahr 2024 circa 1.1 Milliarden Euro erwirtschaftet. Bei allen nationalen und internationalen Aktivitäten ist und bleibt Ehrmann e"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "ehrmann-gmbh",
+   "field": "revenue",
+   "value": "Gruppe: ca. 1,1 Mrd. € (Ehrmann SE, 2024, Unternehmensangabe)",
+   "kind": "web",
+   "source": "https://www.ehrmann.de/unternehmen/ehrmann-die-familien-molkerei-aus-dem-allgaeu/",
+   "must": [
+    "hat die Ehrmann SE im Jahr 2024 circa 1.1 Milliarden Euro"
+   ],
+   "scope": "group (Ehrmann SE)",
+   "fetched_at": "2026-10-16T20:14:38Z",
+   "url": "https://www.ehrmann.de/unternehmen/ehrmann-die-familien-molkerei-aus-dem-allgaeu/",
+   "quote": [
+    "nehmensgruppe. Unter der Marke Ehrmann werden Produkte in über 75 Ländern der Welt verkauft. Mit über 3450 Mitarbeitern hat die Ehrmann SE im Jahr 2024 circa 1.1 Milliarden Euro erwirtschaftet. Bei allen nationalen und internationalen Aktivitäten ist und bleibt Ehrmann ein unabhängiges und divers"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "frosta-ag",
+   "field": "employees",
+   "value": "1.849 Ø (2025, Kennzahlen der FRoSTA AG)",
+   "kind": "web",
+   "source": "https://www.frosta-ag.com/investor-relations/kennzahlen/",
+   "must": [
+    "Kennzahlen der AG",
+    "re:Mitarbeiter \\(Durchschnitt\\)\\s*Anzahl\\s*1\\.760\\s*1\\.849"
+   ],
+   "scope": "company (investor-relations key figures)",
+   "fetched_at": "2026-10-16T20:14:38Z",
+   "url": "https://www.frosta-ag.com/investor-relations/kennzahlen/",
+   "quote": [
+    "enschutz Sitemap Impressum FRoSTA.de Search Webseite durchsuchen … Start >> Investor Relations >> Kennzahlen Kennzahlen Kennzahlen der AG Geschäftsjahr 2024 2025 Mitarbeiter (Durchschnitt) Anzahl 1.760 1.849 Umsatz (mEUR) 638 682 EBITDA (mEUR) 79,3 70,7 Abs",
+    "h Webseite durchsuchen … Start >> Investor Relations >> Kennzahlen Kennzahlen Kennzahlen der AG Geschäftsjahr 2024 2025 Mitarbeiter (Durchschnitt) Anzahl 1.760 1.849 Umsatz (mEUR) 638 682 EBITDA (mEUR) 79,3 70,7 Abschreibungen (mEUR) 20,4 20,4 EBIT (mEUR) 58,9 50,3 Ergebnis der gewöhn"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "frosta-ag",
+   "field": "revenue",
+   "value": "682 Mio. € (2025, Kennzahlen der FRoSTA AG)",
+   "kind": "web",
+   "source": "https://www.frosta-ag.com/investor-relations/kennzahlen/",
+   "must": [
+    "Kennzahlen der AG",
+    "re:Umsatz \\(mEUR\\)\\s*638\\s*682"
+   ],
+   "scope": "company",
+   "fetched_at": "2026-10-16T20:14:41Z",
+   "url": "https://www.frosta-ag.com/investor-relations/kennzahlen/",
+   "quote": [
+    "enschutz Sitemap Impressum FRoSTA.de Search Webseite durchsuchen … Start >> Investor Relations >> Kennzahlen Kennzahlen Kennzahlen der AG Geschäftsjahr 2024 2025 Mitarbeiter (Durchschnitt) Anzahl 1.760 1.849 Umsatz (mEUR) 638 682 EBITDA (mEUR) 79,3 70,7 Abs",
+    "ations >> Kennzahlen Kennzahlen Kennzahlen der AG Geschäftsjahr 2024 2025 Mitarbeiter (Durchschnitt) Anzahl 1.760 1.849 Umsatz (mEUR) 638 682 EBITDA (mEUR) 79,3 70,7 Abschreibungen (mEUR) 20,4 20,4 EBIT (mEUR) 58,9 50,3 Ergebnis der gewöhnlichen Geschäftstätigk"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "frosta-ag",
+   "field": "founded",
+   "value": "1961 (Unternehmensangabe: Gründung von FRoSTA)",
+   "kind": "web",
+   "source": "https://www.frosta-ag.com/unternehmen/firmengeschichte/",
+   "must": [
+    "1961 Gründung von FRoSTA"
+   ],
+   "scope": "company founding",
+   "fetched_at": "2026-10-16T20:14:41Z",
+   "url": "https://www.frosta-ag.com/unternehmen/firmengeschichte/",
+   "quote": [
+    "90 % aus Kabeljau. Die Qualität des Fisches war hervorragend, aber es gab noch kaum Vertriebswege für Tiefkühlprodukte. 1961 Gründung von FRoSTA FRoSTA wird gegründet Gründung der FRoSTA Handelsgesellschaft mbH durch den Geschäftsführer Dirk Ahlers. 1963 Übernahme"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "hammermuehle-gmbh",
+   "field": "founded",
+   "value": "seit 1967 (Unternehmensangabe: „Bereits seit 1967 stehen wir für handwerkliche deutsche Backkunst“)",
+   "kind": "web",
+   "source": "https://www.hammermuehle-shop.de/ueber-uns/",
+   "must": [
+    "Bereits seit 1967 stehen wir für handwerkliche deutsche Backkunst"
+   ],
+   "scope": "company statement",
+   "fetched_at": "2026-10-16T20:14:42Z",
+   "url": "https://www.hammermuehle-shop.de/ueber-uns/",
+   "quote": [
+    "t, Sicherheit und Glutenfreiheit zu garantieren – und dir gleichzeitig den besten Geschmack zu liefern. Pionierhandwerk Bereits seit 1967 stehen wir für handwerkliche deutsche Backkunst. Als erster Hersteller in Deutschland und somit als Glutenfrei-Pionier weisen wir ein umfassendes Fachwissen in der Ent"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "ja-natuerlich-naturprodukte-gesellschaft-mbh",
+   "field": "founded",
+   "value": "Marke 1994 (Unternehmensangabe: erste österreichische Bio-Marke gegründet)",
+   "kind": "web",
+   "source": "https://www.janatuerlich.at/wir-sind-bio/wofuer-wir-stehen/unsere-meilensteine/",
+   "must": [
+    "als erste österreichische Bio-Marke im Jahr 1994 gegründet"
+   ],
+   "scope": "brand founding",
+   "fetched_at": "2026-10-16T20:14:45Z",
+   "url": "https://www.janatuerlich.at/wir-sind-bio/wofuer-wir-stehen/unsere-meilensteine/",
+   "quote": [
+    " Kontrast erhöhen Standardkontrast Suche... Saisonkalender Meilensteine Jede Reise hat ihren Anfang Ja! Natürlich wurde als erste österreichische Bio-Marke im Jahr 1994 gegründet. Seitdem hat sich die Marke unentwegt und mutig weiterentwickelt. Neue Wege zu beschreiten, ist ein wesentlicher Teil u"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "kikkoman-trading-europe-gmbh",
+   "field": "employees",
+   "value": "Gruppe: ca. 7.000 weltweit (Kikkoman, Unternehmensangabe)",
+   "kind": "web",
+   "source": "https://www.kikkoman.de/ueber-kikkoman/unternehmen/kikkoman-gruppe",
+   "must": [
+    "Kikkoman in Zahlen",
+    "Ca. 7.000 Mitarbeiter weltweit"
+   ],
+   "scope": "group (worldwide)",
+   "fetched_at": "2026-10-16T20:14:46Z",
+   "url": "https://www.kikkoman.de/ueber-kikkoman/unternehmen/kikkoman-gruppe",
+   "quote": [
+    "chen Lebensmittel-Großhandelsunternehmen, ist ebenfalls eine hundertprozentige Tochtergesellschaft der Kikkoman Gruppe. Kikkoman in Zahlen Ca. 7.000 Mitarbeiter weltweit 8 Standorte: Japan, Singapur, Taiwan, China, Australien, Kanada, USA und Europa 11 Produ",
+    "roßhandelsunternehmen, ist ebenfalls eine hundertprozentige Tochtergesellschaft der Kikkoman Gruppe. Kikkoman in Zahlen Ca. 7.000 Mitarbeiter weltweit 8 Standorte: Japan, Singapur, Taiwan, China, Australien, Kanada, USA und Europa 11 Produktionsstätten in Japan, USA, Si"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "kikkoman-trading-europe-gmbh",
+   "field": "founded",
+   "value": "Gruppe 1917 (Noda Shoyu Co., heute Kikkoman Corporation; Unternehmensangabe)",
+   "kind": "web",
+   "source": "https://www.kikkoman.de/ueber-kikkoman/unternehmen/kikkoman-geschichte",
+   "must": [
+    "Im Jahr 1917 gründeten die japanischen Familien Mogi und Takanashi die Noda Shoyu"
+   ],
+   "scope": "group founding, not the European trading GmbH",
+   "fetched_at": "2026-10-16T20:14:49Z",
+   "url": "https://www.kikkoman.de/ueber-kikkoman/unternehmen/kikkoman-geschichte",
+   "quote": [
+    "Markt und erhielt wichtige Auszeichnungen auf der Expo Wien 1873 und der Expo Amsterdam 1883. Die Gründung von Kikkoman Im Jahr 1917 gründeten die japanischen Familien Mogi und Takanashi die Noda Shoyu Co. Ltd. Der Firmenname wurde 1964 in Kikkoman Shoyu Co Ltd. und 1980 in Kikkoman Corporation geändert. Der Name Kikkom"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "lidl-oesterreich-gmbh",
+   "field": "employees",
+   "value": "> 5.800 in Österreich (Unternehmensangabe)",
+   "kind": "web",
+   "source": "https://corporate.lidl.at",
+   "must": [
+    "Lidl Österreich in Zahlen",
+    "5.800 Mitarbeiter:innen in Österreich"
+   ],
+   "scope": "company (Lidl Österreich)",
+   "fetched_at": "2026-10-16T20:14:50Z",
+   "url": "https://corporate.lidl.at",
+   "quote": [
+    "en Tag überzeugt. Und mit starken Partnerschaften, die dazu beitragen, gemeinsam eine lebenswerte Zukunft zu gestalten. Lidl Österreich in Zahlen > 5.800 Mitarbeiter:innen in Österreich Über 255 Filialen in ganz Österreich > 2 Mrd. Euro Umsatz im Geschäftsjahr 2025",
+    "arken Partnerschaften, die dazu beitragen, gemeinsam eine lebenswerte Zukunft zu gestalten. Lidl Österreich in Zahlen > 5.800 Mitarbeiter:innen in Österreich Über 255 Filialen in ganz Österreich > 2 Mrd. Euro Umsatz im Geschäftsjahr 2025 > 1,2 Mrd. Wertschöpfung für heimische "
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "lidl-oesterreich-gmbh",
+   "field": "revenue",
+   "value": "> 2 Mrd. € (GJ 2025, Unternehmensangabe)",
+   "kind": "web",
+   "source": "https://corporate.lidl.at",
+   "must": [
+    "2 Mrd. Euro Umsatz im Geschäftsjahr 2025"
+   ],
+   "scope": "company",
+   "fetched_at": "2026-10-16T20:14:52Z",
+   "url": "https://corporate.lidl.at",
+   "quote": [
+    " zu gestalten. Lidl Österreich in Zahlen > 5.800 Mitarbeiter:innen in Österreich Über 255 Filialen in ganz Österreich > 2 Mrd. Euro Umsatz im Geschäftsjahr 2025 > 1,2 Mrd. Wertschöpfung für heimische Lieferant:innen Unser Versprechen Dafür stehen wir. Qualität, Preisführerschaft,"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "lidl-oesterreich-gmbh",
+   "field": "founded",
+   "value": "1998 (Wikidata Q57018091 P571 / de.wikipedia Gründungsdatum; Lidl Österreich)",
+   "kind": "wikipedia",
+   "source": [
+    "de",
+    "Lidl Österreich"
+   ],
+   "must": [
+    "re:Gründungsdatum\\s*=\\s*1998"
+   ],
+   "scope": "company (Wikidata item matched by P856 = lidl.at); legal entity FN 131556s may be older",
+   "fetched_at": "2026-10-16T20:14:52Z",
+   "url": "https://de.wikipedia.org/w/index.php?oldid=269924984",
+   "quote": [
+    "GmbH | Logo = Lidl-Logo.svg | Unternehmensform = [[Gesellschaft mit beschränkter Haftung (Österreich)|GmbH]] | ISIN = | Gründungsdatum = 1998 | Auflösungsdatum = | Auflösungsgrund = | Sitz = [[Salzburg]], {{AUT}} | Leitung = Michael Kunz (CEO) | Mitarbeiterzahl"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "meica-gmbh",
+   "field": "founded",
+   "value": "seit 1908 (Unternehmensangabe; 2008 100-jähriges Jubiläum)",
+   "kind": "web",
+   "source": "https://www.meica.de/ueber-uns",
+   "must": [
+    "Meica feiert sein 100jähriges Jubiläum",
+    "Seit 1908 steht Meica"
+   ],
+   "scope": "company statement",
+   "fetched_at": "2026-10-16T20:14:52Z",
+   "url": "https://www.meica.de/ueber-uns",
+   "quote": [
+    "etzt gibt es den King of Currywurst auch in einer 400 g Packung - Curry King XXL, die Nr. 1 für den großen Hunger! 2008 Meica feiert sein 100jähriges Jubiläum. Seit 1908 steht Meica für beste Würstchenqualität, Innovation, Handwerks-Tradition und einfach leckere, knackfrische W",
+    " in einer 400 g Packung - Curry King XXL, die Nr. 1 für den großen Hunger! 2008 Meica feiert sein 100jähriges Jubiläum. Seit 1908 steht Meica für beste Würstchenqualität, Innovation, Handwerks-Tradition und einfach leckere, knackfrische Würstchen. 2005 2005 wir"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "noem-ag",
+   "field": "employees",
+   "value": "über 1.000 (Unternehmensangabe, Karriereseite)",
+   "kind": "web",
+   "source": "https://www.noem.at/karriere",
+   "must": [
+    "+1.000 Mitarbeiter"
+   ],
+   "scope": "company (scope not stated: AG or group)",
+   "fetched_at": "2026-10-16T20:14:55Z",
+   "url": "https://www.noem.at/karriere",
+   "quote": [
+    "onales Umfeld zum Beispiel. Wenn diese Gründe auch für Dich gut klingen, dann bewirb Dich gleich hier. 62 % Exportquote +1.000 Mitarbeiter 645 Mio Umsatz im Jahr 2023 Mitarbeiter sind Markenbotschafter Bei NÖM schätzen wir das Engagement und die Zusammenarbe"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "noem-ag",
+   "field": "revenue",
+   "value": "645 Mio. € (2023, Unternehmensangabe); NÖM AG Jahresabschluss 2023: 534 Mio. € (lt. de.wikipedia)",
+   "kind": "web",
+   "source": "https://www.noem.at/karriere",
+   "must": [
+    "645 Mio Umsatz im Jahr 2023"
+   ],
+   "scope": "company statement + differing annual-accounts figure (both recorded)",
+   "fetched_at": "2026-10-16T20:14:57Z",
+   "url": "https://www.noem.at/karriere",
+   "quote": [
+    "eispiel. Wenn diese Gründe auch für Dich gut klingen, dann bewirb Dich gleich hier. 62 % Exportquote +1.000 Mitarbeiter 645 Mio Umsatz im Jahr 2023 Mitarbeiter sind Markenbotschafter Bei NÖM schätzen wir das Engagement und die Zusammenarbeit unserer Mitarbeiterinnen "
+   ],
+   "extra_evidence": {
+    "source": [
+     "de",
+     "NÖM"
+    ],
+    "url": "https://de.wikipedia.org/w/index.php?oldid=263441284",
+    "quote": [
+     "-NA-37-NA-NA.html |wayback=20140116202923 |text=NÖM AG}} auf Raiffeisen abgerufen am 30. Dezember 2013</ref> | Umsatz = 534 Millionen <small>(2023)</small><ref>{{Internetquelle |url=https://www.evi.gv.at/b/pi/bl5-dtn|titel=NÖM AG Jahresabschluss 2023 |t",
+     " Umsatz = 534 Millionen <small>(2023)</small><ref>{{Internetquelle |url=https://www.evi.gv.at/b/pi/bl5-dtn|titel=NÖM AG Jahresabschluss 2023 |titelerg=Veröffentlicht auf EVI |werk=evi.gv.at |hrsg=Eektronische Verlautbarungs- und Informationsplattform – EVI (Di"
+    ],
+    "ok": true,
+    "error": null
+   },
+   "decision": "accepted"
+  },
+  {
+   "slug": "recheis-teigwaren-gmbh",
+   "field": "founded",
+   "value": "1889 (Unternehmensangabe: Gründung der ersten Teigwarenmanufaktur Österreichs)",
+   "kind": "web",
+   "source": "https://www.recheis.com/ueber-uns/geschichte/",
+   "must": [
+    "re:1889\\s*\\W\\s*Gründung der ersten Teigwarenmanufaktur Österreichs"
+   ],
+   "scope": "company founding",
+   "fetched_at": "2026-10-16T20:14:58Z",
+   "url": "https://www.recheis.com/ueber-uns/geschichte/",
+   "quote": [
+    "arriere bei Recheis Aktuelles Kontakt Kontaktübersicht Ansprechpartner Vertrieb Presse Die Geschichte vom Erfolgsrezept 1889 – Gründung der ersten Teigwarenmanufaktur Österreichs Im Jahre 1889 legte Josef Recheis in Hall – im Herzen Tirols – mit der Gründung der ersten Teigwarenmanufaktur Österrei"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "recheis-teigwaren-gmbh",
+   "field": "employees",
+   "value": "rund 100 in Hall in Tirol; Recheis Gruppe fast 200 (Unternehmensangabe)",
+   "kind": "web",
+   "source": "https://www.recheis.com/ueber-uns/geschichte/",
+   "must": [
+    "An unserem modernen Firmenstandort in Hall in Tirol sind rund 100"
+   ],
+   "scope": "company site; group figure from press page",
+   "fetched_at": "2026-10-16T20:15:00Z",
+   "url": "https://www.recheis.com/ueber-uns/geschichte/",
+   "quote": [
+    " unkompliziert zuzubereiten sind. Unsere Produktvielfalt macht eine täglich neue, abwechslungsreiche Ernährung möglich. An unserem modernen Firmenstandort in Hall in Tirol sind rund 100 Mitarbeiter*innen täglich damit beschäftigt, sorgfältig beste Recheis Nudelprodukte herzustellen. Wir garantieren für a"
+   ],
+   "extra_evidence": {
+    "source": "https://www.recheis.com/presse-oeffentlichkeit/",
+    "url": "https://www.recheis.com/presse-oeffentlichkeit/",
+    "quote": [
+     "betrieb hat sich in den letzten Jahren stark weiterentwickelt und weitere Unternehmen im Lebensmittelbereich gegründet. Die gesamte Recheis Gruppe beschäftigt derzeit fast 200 Mitarbeitende an mehreren Standorten in Tirol, Vorarlberg, Nieder- und Oberösterreich. % mehr als 30 % Marktanteil bei Teigwaren in Ö"
+    ],
+    "ok": true,
+    "error": null
+   },
+   "decision": "accepted"
+  },
+  {
+   "slug": "rila-die-genussentdecker",
+   "field": "founded",
+   "value": "seit 1969 (Unternehmensangabe: „Seit 1969 der Partner für den LEH“)",
+   "kind": "web",
+   "source": "https://rila.de/ueber-uns/",
+   "must": [
+    "Seit 1969 der Partner für den LEH"
+   ],
+   "scope": "company statement",
+   "fetched_at": "2026-10-16T20:15:02Z",
+   "url": "https://rila.de/ueber-uns/",
+   "quote": [
+    " Rila Feinkost-Importe - Seit 1969 der Partner für den LEH Zum Hauptinhalt springen Zur Suche springen Zur Hauptnavigation springen Fragen beantworten wir dir gerne! Sende eine M"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "ruegenwalder-muehle-carl-mueller-gmbh-co-kg",
+   "field": "employees",
+   "value": "892 (2023, Konzern; lt. de.wikipedia, Quelle Konzernabschluss 2023)",
+   "kind": "wikipedia",
+   "source": [
+    "de",
+    "Rügenwalder Mühle"
+   ],
+   "must": [
+    "re:Mitarbeiterzahl\\s*=\\s*892 \\(2023\\)",
+    "Konzernabschluss zum Geschäftsjahr vom 01.01.2023"
+   ],
+   "scope": "group accounts via Wikipedia (item matched by LEI)",
+   "fetched_at": "2026-10-16T20:15:03Z",
+   "url": "https://de.wikipedia.org/w/index.php?oldid=268642203",
+   "quote": [
+    "Auflösungsgrund = | Sitz = [[Bad Zwischenahn]]<br />{{DEU}} | Leitung = * Jörg Pfirrmann (Vorsitz) * Mathias Schlüter | Mitarbeiterzahl = 892 (2023)<ref name=\"JA-23\"/> | Umsatz = 266,5 Mio. Euro (2023)<ref name=\"JA-23\"> [[Unternehmensregister]]: ''Konzernabschluss zum",
+    "terzahl = 892 (2023)<ref name=\"JA-23\"/> | Umsatz = 266,5 Mio. Euro (2023)<ref name=\"JA-23\"> [[Unternehmensregister]]: ''Konzernabschluss zum Geschäftsjahr vom 01.01.2023 bis zum 31.12.2023''.</ref> | Stand = 2023-12-31 | Branche = Fleischverarbeitung (10.13.0) | Homepage = [https://www.ru"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "ruegenwalder-muehle-carl-mueller-gmbh-co-kg",
+   "field": "revenue",
+   "value": "266,5 Mio. € (2023, Konzern; lt. de.wikipedia, Quelle Konzernabschluss/Unternehmensregister)",
+   "kind": "wikipedia",
+   "source": [
+    "de",
+    "Rügenwalder Mühle"
+   ],
+   "must": [
+    "re:Umsatz\\s*=\\s*266,5 Mio\\. Euro \\(2023\\)",
+    "Konzernabschluss zum Geschäftsjahr vom 01.01.2023"
+   ],
+   "scope": "group accounts via Wikipedia",
+   "fetched_at": "2026-10-16T20:15:03Z",
+   "url": "https://de.wikipedia.org/w/index.php?oldid=268642203",
+   "quote": [
+    "/>{{DEU}} | Leitung = * Jörg Pfirrmann (Vorsitz) * Mathias Schlüter | Mitarbeiterzahl = 892 (2023)<ref name=\"JA-23\"/> | Umsatz = 266,5 Mio. Euro (2023)<ref name=\"JA-23\"> [[Unternehmensregister]]: ''Konzernabschluss zum Geschäftsjahr vom 01.01.2023 bis zum 31.12.2023''.</",
+    "terzahl = 892 (2023)<ref name=\"JA-23\"/> | Umsatz = 266,5 Mio. Euro (2023)<ref name=\"JA-23\"> [[Unternehmensregister]]: ''Konzernabschluss zum Geschäftsjahr vom 01.01.2023 bis zum 31.12.2023''.</ref> | Stand = 2023-12-31 | Branche = Fleischverarbeitung (10.13.0) | Homepage = [https://www.ru"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "zum-dorfkrug-produktions-und-handelsgesellschaft-mbh-co-kg",
+   "field": "employees",
+   "value": "rund 200 (Unternehmensangabe, Jobseite)",
+   "kind": "web",
+   "source": "https://www.zum-dorfkrug.de/jobs",
+   "must": [
+    "Rund 200 Mitarbeitende bilden"
+   ],
+   "scope": "company",
+   "fetched_at": "2026-10-16T20:15:03Z",
+   "url": "https://www.zum-dorfkrug.de/jobs",
+   "quote": [
+    "r als 25 Produkte umfasst das Zum Dorfkrug Sortiment im Kühlregal. Von der Sylter Salatfrische bis zum Karamell-Pudding Rund 200 Mitarbeitende bilden mit Wissen, Wertschätzung und Kreativität den Kern des Unternehmens 0 Konservierungsstoffe findest du in unseren Produk"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "aia-spa",
+   "field": "founded",
+   "value": "1968 (Wikidata Q3606861 P571, Agricola Italiana Alimentare)",
+   "kind": "wikidata",
+   "source": "Q3606861",
+   "must": [
+    "P571:1968",
+    "P856:aiafood.com"
+   ],
+   "scope": "company (item matched by P856 = aiafood.com)",
+   "fetched_at": "2026-10-16T20:15:06Z",
+   "url": "https://www.wikidata.org/wiki/Q3606861",
+   "quote": [
+    "P571:1968 | P856:aiafood.com",
+    "P571:1968 | P856:aiafood.com"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "hamker-vertriebsgesellschaft-mbh",
+   "field": "founded",
+   "value": "Stammhaus 1907 (Heinrich Hamker Lebensmittelwerke; Wikidata Q1510152 / de.wikipedia)",
+   "kind": "wikidata",
+   "source": "Q1510152",
+   "must": [
+    "P571:1907",
+    "P856:hamker.de"
+   ],
+   "scope": "parent/brand company, not the Vertriebsgesellschaft",
+   "fetched_at": "2026-10-16T20:15:06Z",
+   "url": "https://www.wikidata.org/wiki/Q1510152",
+   "quote": [
+    "P571:1907 | P856:hamker.de",
+    "P571:1907 | P856:hamker.de"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "maresi-austria-gmbh",
+   "field": "employees",
+   "value": "71 (2019, lt. de.wikipedia)",
+   "kind": "wikipedia",
+   "source": [
+    "de",
+    "Maresi (Unternehmen)"
+   ],
+   "must": [
+    "re:Mitarbeiterzahl\\s*=\\s*71 \\(2019\\)"
+   ],
+   "scope": "company (item matched by P856 = maresi.at)",
+   "fetched_at": "2026-10-16T20:15:07Z",
+   "url": "https://de.wikipedia.org/w/index.php?oldid=260362715",
+   "quote": [
+    "it beschränkter Haftung (Österreich)]] | ISIN = | Gründungsdatum = 1949 | Sitz = [[Wien]], [[Österreich]] | Leitung = | Mitarbeiterzahl = 71 (2019)<ref name=\"Schellner 2019\" /> | Umsatz = 79 Mio. Euro (2020)<ref name=\"regal.at\">Robert Falkinger: [https://regal.at/new"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "maresi-austria-gmbh",
+   "field": "revenue",
+   "value": "79 Mio. € (2020, lt. regal.at via de.wikipedia)",
+   "kind": "wikipedia",
+   "source": [
+    "de",
+    "Maresi (Unternehmen)"
+   ],
+   "must": [
+    "re:Umsatz\\s*=\\s*79 Mio\\. Euro \\(2020\\)",
+    "regal.at"
+   ],
+   "scope": "company; third-party trade press (REGAL)",
+   "fetched_at": "2026-10-16T20:15:07Z",
+   "url": "https://de.wikipedia.org/w/index.php?oldid=260362715",
+   "quote": [
+    "datum = 1949 | Sitz = [[Wien]], [[Österreich]] | Leitung = | Mitarbeiterzahl = 71 (2019)<ref name=\"Schellner 2019\" /> | Umsatz = 79 Mio. Euro (2020)<ref name=\"regal.at\">Robert Falkinger: [https://regal.at/news/2021/05/der-neue-weg-von-maresi ''Maresi Austria Geschäfts",
+    "reich]] | Leitung = | Mitarbeiterzahl = 71 (2019)<ref name=\"Schellner 2019\" /> | Umsatz = 79 Mio. Euro (2020)<ref name=\"regal.at\">Robert Falkinger: [https://regal.at/news/2021/05/der-neue-weg-von-maresi ''Maresi Austria Geschäftsführer Dr. Andreas "
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "hofer-kg",
+   "field": "employees",
+   "value": "mehr als 12.000 (Unternehmensangabe, Presseaussendung 20.08.2025)",
+   "kind": "web",
+   "source": "https://www.hofer.at/ueber-hofer/presse/alle-presseaussendungen/presseaussendungen-unternehmen/2025/service-value-studie",
+   "must": [
+    "(Sattledt, 20.08.2025; HOFER)",
+    "mehr als 12.000 engagierten Mitarbeiter:innen"
+   ],
+   "scope": "company",
+   "fetched_at": "2026-10-16T20:15:07Z",
+   "url": "https://www.hofer.at/ueber-hofer/presse/alle-presseaussendungen/presseaussendungen-unternehmen/2025/service-value-studie",
+   "quote": [
+    "lue wurde HOFER als attraktivster Arbeitgeber des Landes ausgezeichnet und sicherte sich damit den 1. Platz im Ranking. (Sattledt, 20.08.2025; HOFER) HOFER zählt mit über 540 Filialen und mehr als 12.000 engagierten Mitarbeiter:innen zu den größten Arbeitgebern im öste",
+    "et und sicherte sich damit den 1. Platz im Ranking. (Sattledt, 20.08.2025; HOFER) HOFER zählt mit über 540 Filialen und mehr als 12.000 engagierten Mitarbeiter:innen zu den größten Arbeitgebern im österreichischen Lebensmitteleinzelhandel. Tagtäglich arbeiten Teams im ganzen Land dara"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "hofer-kg",
+   "field": "revenue",
+   "value": "5,4 Mrd. € (2025; Unternehmensangabe in bezahlter Anzeige, Die Presse 2026)",
+   "kind": "web",
+   "source": "https://www.diepresse.com/26002500/das-erlebnis-einkauf-weiter-erfolgreich-umsetzen",
+   "must": [
+    "Anzeige",
+    "2025 ein Rekordjahr hingelegt",
+    "Mit 5,4 Mrd. Euro Umsatz bei 540 Filialen"
+   ],
+   "scope": "company-supplied advertorial in third-party outlet (labelled)",
+   "fetched_at": "2026-10-16T20:15:09Z",
+   "url": "https://www.diepresse.com/26002500/das-erlebnis-einkauf-weiter-erfolgreich-umsetzen",
+   "quote": [
+    " & Leben Ausklappen Am Herd Aufgeschnappt Randerscheinung Ich-Pleite Leserbriefe Rätsel ePaper Player Newsletter Events Anzeige Das „Erlebnis Einkauf“ weiter erfolgreich umsetzen Erfolg. Mit seinem fokussierten Angebot in 540 Filialen und seinen O",
+    "d seine wesentlichen Stärken weiterhin konsequent verfolgt. Und die Zahlen geben diesem Weg recht: So hat der Diskonter 2025 ein Rekordjahr hingelegt. Mit 5,4 Mrd. Euro Umsatz bei 540 Filialen und rund 12.000 Mitarbeitenden erzielte das Unternehmen die beste relative P",
+    "iterhin konsequent verfolgt. Und die Zahlen geben diesem Weg recht: So hat der Diskonter 2025 ein Rekordjahr hingelegt. Mit 5,4 Mrd. Euro Umsatz bei 540 Filialen und rund 12.000 Mitarbeitenden erzielte das Unternehmen die beste relative Performance im gesamten Lebensmitteleinzelha"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "dm-drogerie-markt-gmbh",
+   "field": "employees",
+   "value": "6.844 (dm Österreich, GJ 2024/25, Unternehmensangabe); Ländergruppe dm Österreich + Verbundene Länder 29.120",
+   "kind": "web",
+   "source": [
+    "https://pr.dm.at/news-dm-weiterhin-lieblingsdrogerie-der-oesterreicher?id=225897&l=deutsch&menueid=5306",
+    "https://www.dm.at/unternehmen/zahlen-und-fakten/unternehmenszahlen"
+   ],
+   "must": [
+    "6.844 Mitarbeiter",
+    "29.120"
+   ],
+   "scope": "company (AT) + group",
+   "fetched_at": "2026-10-16T20:15:10Z",
+   "url": "https://pr.dm.at/news-dm-weiterhin-lieblingsdrogerie-der-oesterreicher?id=225897&l=deutsch&menueid=5306",
+   "quote": [
+    "ssabons) haben in den letzten zwölf Monaten bei dm in Österreich eingekauft – um täglich 9.000 mehr als im Vorjahr. Mit 6.844 Mitarbeitern wurde in den aktuell 381 Märkten, im Online-Shop sowie in den 118 Friseur- und 87 Kosmetikstudios ein Umsatz von 1,374",
+    "ielt (+5,6 %), was dm kräftige Marktanteilsgewinne beschert. In der dm Gruppe Österreich und Verbundene Länder arbeiten 29.120 Menschen (plus 767). In den insgesamt 1.971 Märkten (+ 24 Standorte) wurde ein Umsatz von 5,851 Milliarden Euro erzielt"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "dm-drogerie-markt-gmbh",
+   "field": "revenue",
+   "value": "1,374 Mrd. € (dm Österreich, GJ 2024/25); Ländergruppe 5,851 Mrd. €",
+   "kind": "web",
+   "source": [
+    "https://pr.dm.at/news-dm-weiterhin-lieblingsdrogerie-der-oesterreicher?id=225897&l=deutsch&menueid=5306"
+   ],
+   "must": [
+    "ein Umsatz von 1,374 Mrd. Euro erzielt",
+    "5,851 Milliarden Euro"
+   ],
+   "scope": "company (AT) + group",
+   "fetched_at": "2026-10-16T20:15:13Z",
+   "url": "https://pr.dm.at/news-dm-weiterhin-lieblingsdrogerie-der-oesterreicher?id=225897&l=deutsch&menueid=5306",
+   "quote": [
+    "it 6.844 Mitarbeitern wurde in den aktuell 381 Märkten, im Online-Shop sowie in den 118 Friseur- und 87 Kosmetikstudios ein Umsatz von 1,374 Mrd. Euro erzielt (+5,6 %), was dm kräftige Marktanteilsgewinne beschert. In der dm Gruppe Österreich und Verbundene Länder arbeiten 29.1",
+    "undene Länder arbeiten 29.120 Menschen (plus 767). In den insgesamt 1.971 Märkten (+ 24 Standorte) wurde ein Umsatz von 5,851 Milliarden Euro erzielt (+ 11,5 %). Insgesamt wurde in den zwölf Ländern der dm Gruppe Österreich und Verbundene Länder im letzten Gesc"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "dm-drogerie-markt-gmbh",
+   "field": "founded",
+   "value": "1976 (Unternehmensangabe: erste dm Filiale in Österreich)",
+   "kind": "web",
+   "source": [
+    "https://pr.dm.at/news-dm-weiterhin-lieblingsdrogerie-der-oesterreicher?id=225897&l=deutsch&menueid=5306",
+    "https://www.dm.at/unternehmen/zahlen-und-fakten/unternehmenszahlen"
+   ],
+   "must": [
+    "eröffnete im Jahr 1976 die erste Filiale in Österreich"
+   ],
+   "scope": "start of Austrian business (first store), not legal-entity date",
+   "fetched_at": "2026-10-16T20:15:13Z",
+   "url": "https://pr.dm.at/news-dm-weiterhin-lieblingsdrogerie-der-oesterreicher?id=225897&l=deutsch&menueid=5306",
+   "quote": [
+    "Märkten für seine Kundinnen und Kunden da. Seite drucken Link mailen Über dm drogerie markt GmbH dm drogerie markt GmbH eröffnete im Jahr 1976 die erste Filiale in Österreich. Der Firmensitz liegt in Salzburg/Wals und erbringt wichtige Vorleistungen, um die Arbeit in der Ländergruppe dm Österr"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "heiploeg-international-bv",
+   "field": "founded",
+   "value": "Ursprung vor 1900 (Familienbetriebe Heidema und Van der Ploeg, Zoutkamp); Name Heiploeg seit Anfang der 1970er (Unternehmensangabe)",
+   "kind": "web",
+   "source": "https://heiploeg.com/en-us/company",
+   "must": [
+    "goes back to before 1900",
+    "Heiploeg became the name of the company in the early 70s"
+   ],
+   "scope": "company history statement",
+   "fetched_at": "2026-10-16T20:15:13Z",
+   "url": "https://heiploeg.com/en-us/company",
+   "quote": [
+    "partner in seafood enjoyment! The origin of the Heiploeg – one of Europe’s leading shrimp processors and distributors – goes back to before 1900 when the family businesses Heidema and Van der Ploeg were founded in Zoutkamp, the Netherlands. Heiploeg became the nam",
+    "oes back to before 1900 when the family businesses Heidema and Van der Ploeg were founded in Zoutkamp, the Netherlands. Heiploeg became the name of the company in the early 70s which was the result of the cooperation between Heidema and Van der Ploeg. In 1999 Heiploeg's ultra-modern processing p"
+   ],
+   "decision": "accepted"
+  },
+  {
+   "slug": "iglo-austria-gmbh",
+   "field": "employees",
+   "value": "ca. 80 in Österreich (Unternehmensangabe); Nomad Foods Gruppe ca. 4.300",
+   "kind": "web",
+   "source": "https://www.iglo.at/wir-sind-iglo/jobs-und-karriere",
+   "must": [
+    "ca. 80 Mitarbeitern in Österreich",
+    "4.300 in der Nomad Foods Gruppe"
+   ],
+   "scope": "company + group",
+   "fetched_at": "2026-10-16T20:15:15Z",
+   "url": null,
+   "quote": [],
+   "decision": "rejected",
+   "reason": "https://www.iglo.at/wir-sind-iglo/jobs-und-karriere: phrases not found ['ca. 80 Mitarbeitern in Österreich', '4.300 in der Nomad Foods Gruppe']"
+  },
+  {
+   "slug": "iglo-austria-gmbh",
+   "field": "revenue",
+   "value": "knapp 120 Mio. € (2020, Unternehmensangabe, Presseaussendung 04.08.2021)",
+   "kind": "pdf",
+   "source": "https://www.iglo.at/_/media/project/bluesteel/iglo-at/ueberuns/presse/files/210804_pa_jahresrckblick.pdf",
+   "must": [
+    "Umsatz um 20 Prozent auf knapp 120 Mio. Euro",
+    "Iglo Austria GmbH"
+   ],
+   "scope": "company",
+   "fetched_at": "2026-10-16T20:15:16Z",
+   "url": "https://www.iglo.at/_/media/project/bluesteel/iglo-at/ueberuns/presse/files/210804_pa_jahresrckblick.pdf",
+   "quote": [
+    "eich wuchs 2020 um 20 Prozent iglo Österreich blickt auf ein erfolgreiches Jahr 2020 zurück. Das Unternehmen konnte den Umsatz um 20 Prozent auf knapp 120 Mio. Euro steigern. Auch im erste Halbjahr 2021 wuchs der Tiefkühlmarktführer stärker als die Kategorie und setzt den Wachstumsku",
+    "z, FY 2020 ***** https://eatforum.org/eat-lancet-commission/the-planetary-health-diet-and-you/ Über iglo Österreich Die Iglo Austria GmbH mit Sitz in Wien ist bereits seit 1966 in Österreich tätig und ist Teil der Nomad Foods Group, die in derzeit 18 Länder"
+   ],
+   "decision": "accepted"
+  }
+ ],
+ "rejects_and_dead_ends": {
+  "andros-deutschland-gmbh": "andros.de/ueber-uns gives only per-site headcounts (Breuberg ~300, others ~250/~200), no company total → not summed",
+  "landtmann-s-feine-patisserie": "'Die Familie Querfeld: 400 Mitarbeiter:innen. 7 Café-Restaurants' = Querfeld family business (cafés), not the patisserie entity",
+  "lpp-lotao-gmbh": "lotao.com redirects to biozentrale.de ('Seit 1976') = Bio-Zentrale Naturprodukte GmbH, a different entity (see T1835)",
+  "morgentau-biogemuese-gmbh": "'Echt BIO – seit 1986' = organic since 1986, not a founding statement",
+  "tress-lebensmittel-gmbh-co-kg#founded": "'BIO ist bei uns Familiensache. Seit 1950' = organic since 1950, not a founding statement",
+  "followfood-gmbh#founded": "Steckbrief 'Gründung 2007' conflicts with filled legal-entity date 2001-06-06 (GLEIF) → kept, conflict recorded",
+  "revo-foods#founded": "team page 'Year Founded 2020' vs Firmenbuch entry 2021-02-24 (filled) → kept, conflict recorded",
+  "efko-frischfrucht-und-delikatessen-gmbh#founded": "efko.at/geschichte '1976 Gründung der efko Frischfrucht und Delikatessen GmbH' vs filled GLEIF creationDate 1973-07-02 → conflict recorded, not changed",
+  "iss-mich-gmbh#founded": "'Manufaktur seit 2014' vs filled Firmenbuch 2017-05-23 (GmbH) → kept",
+  "frosta-ag#founded-wikidata": "Wikidata Q1470518 P571 1905 = Nordstern AG (bought 1984, per frosta-ag.com history) → company's own 1961 used instead",
+  "billa-aktiengesellschaft#revenue": "rewe-group.at gives only BILLA growth % (+1,4 % 2025), no absolute revenue; billa.at now says 'über 30.000 Mitarbeiter' vs filled 'ca. 20.000 (2021, Wikidata)' → existing value not overwritten (newer figure recorded here)",
+  "mpreis-warenvertriebs-gmbh#revenue": "only de.wikipedia '1 Mrd. Euro (2022)' citing a Jan-2022 wirtschaftszeit.at article → year ambiguous, not taken",
+  "a-darbo-ag#revenue": "only de.wikipedia 'ca. 197 Mio. Euro' (top.tirol, no year) → not taken",
+  "bonne-maman": "row = Andros (LEI): de.wikipedia 'etwa 7.400 / etwa 2 Mrd.' (no year) vs en.wikipedia '10,000 (2021) / €2.4bn (2020)' → conflicting, group, not taken",
+  "aia-spa#employees/revenue": "it.wikipedia 'dipendenti 724' / '3,77 miliardi' (registroaziende.it, year unclear, implausible pair) → not taken",
+  "hamker-vertriebsgesellschaft-mbh#employees": "de.wikipedia 'ca. 900 (2007)' = Heinrich Hamker Lebensmittelwerke 2007 → stale, other entity, not taken",
+  "inzersdorfer-nahrungsmittelwerke#employees": "Wikidata P1128 140 without point in time → not taken",
+  "greenforce-future-food-ag": "own site has no figures; only aggregators (handelsregister.ai/northdata = register scrapes) and PR boilerplate ('rund 100 Mitarbeitende', fabino.de, undated) → not taken",
+  "iglo-austria-gmbh#employees": "iglo.at/wir-sind-iglo/jobs-und-karriere ('ca. 80 Mitarbeitern in Österreich', search-index copy) now redirects to the home page → not re-verifiable, not taken",
+  "iglo-austria-gmbh#revenue-2025": "firmenakte.at shows Umsatzerlöse 2025 ~129 Mio. € (aggregator of filed accounts) → not taken; own 2020 press figure used",
+  "frosta-tiefkuehlkost-gmbh": "FRoSTA AG key figures not transferred to the subsidiary GmbH",
+  "spar.at/unternehmen/daten-fakten": "HTTP 403 → not bypassed (used spar.at/unternehmen, 200)",
+  "unilever-austria-gmbh": "robots.txt disallows the site for our UA → not crawled",
+  "strauss-gmbh": "straussjosef.it TLS error (unexpected EOF) → no data",
+  "hildegard-gruenkraft-naturprodukte": "site timed out",
+  "js-only/no-figures": "amlachernudel.com, andros-fruit.eu, bio-gourmet.com, every-foods.com, feel-food.com, gudesserts.com, harvestmoon.de, kasnudl.at, kernbeisser.at, maresi.at, shoppu.mochi.at, stanglnudeln.at, delidip.com, ehrenwort.at, fratelli-barbaro.at, hamker.de, knoedelwerkstatt.at, lamercantile.com, pastacecchin.it, reis-fit.de, youcook-food.com, xn--brtchen-boutique-nwb.at: no employee/revenue/founding statement in server-rendered HTML"
+ },
+ "probe_files": [
+  "scripts/facts_T1938/crawl_out.json",
+  "scripts/facts_T1938/wikidata_out.json",
+  "scripts/facts_T1938/wikipedia_out.json"
+ ]
+}

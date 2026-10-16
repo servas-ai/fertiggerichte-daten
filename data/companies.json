@@ -136,7 +136,7 @@
   "owners": "Iglo Austria Holding GmbH (Gesellschafter lt. Firmenbuch/evi.gv.at)",
   "management": null,
   "employees": null,
-  "revenue": null,
+  "revenue": "knapp 120 Mio. € (2020, Unternehmensangabe, Presseaussendung 04.08.2021)",
   "website": "https://www.iglo.at",
   "plants": [],
   "approval_codes": null,
@@ -156,7 +156,8 @@
   "sources": [
    "https://www.iglo.at/wir-sind-iglo/impressum",
    "EU VIES ATU62784838",
-   "https://www.evi.gv.at/f/279637g"
+   "https://www.evi.gv.at/f/279637g",
+   "https://www.iglo.at/_/media/project/bluesteel/iglo-at/ueberuns/presse/files/210804_pa_jahresrckblick.pdf"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T10:54:55Z",
@@ -172,7 +173,8 @@
   "owners_source": "https://www.evi.gv.at/f/279637g",
   "share_capital": "EUR 35 000",
   "register_status": "Eingetragen",
-  "register_entry_date": "2006-07-20"
+  "register_entry_date": "2006-07-20",
+  "revenue_source": "https://www.iglo.at/_/media/project/bluesteel/iglo-at/ueberuns/presse/files/210804_pa_jahresrckblick.pdf (own site (PDF); scope: company; T1938)"
  },
  {
   "slug": "maresi-austria-gmbh",
@@ -193,8 +195,8 @@
   "founded": "1997-08-11",
   "owners": "VIVATIS Holding AG; Landgenossenschaft Ennstal eGen (Gesellschafter lt. Firmenbuch/evi.gv.at)",
   "management": null,
-  "employees": null,
-  "revenue": null,
+  "employees": "71 (2019, lt. de.wikipedia)",
+  "revenue": "79 Mio. € (2020, lt. regal.at via de.wikipedia)",
   "website": "https://maresi.at",
   "plants": [],
   "approval_codes": null,
@@ -214,7 +216,8 @@
   "sources": [
    "https://api.gleif.org/api/v1/lei-records/529900JLDYJZIRXRD379",
    "https://maresi.at/de/impressum",
-   "https://www.evi.gv.at/f/161846i"
+   "https://www.evi.gv.at/f/161846i",
+   "https://de.wikipedia.org/w/index.php?oldid=260362715"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T10:55:39Z",
@@ -230,7 +233,9 @@
   "owners_source": "https://www.evi.gv.at/f/161846i",
   "share_capital": "EUR 250 000",
   "register_status": "Eingetragen",
-  "register_entry_date": "1997-08-27"
+  "register_entry_date": "1997-08-27",
+  "employees_source": "https://de.wikipedia.org/w/index.php?oldid=260362715 (Wikipedia; scope: company (item matched by P856 = maresi.at); T1938)",
+  "revenue_source": "https://de.wikipedia.org/w/index.php?oldid=260362715 (Wikipedia; scope: company; third-party trade press (REGAL); T1938)"
  },
  {
   "slug": "fit2go-gmbh",
@@ -563,11 +568,11 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
+  "founded": "1984 (Unternehmensangabe: Gründungsjahr Alnatura; Rechtsträger GmbH lt. GLEIF 1987)",
   "owners": null,
   "management": null,
-  "employees": null,
-  "revenue": null,
+  "employees": "3.730 (Unternehmensangabe GJ 2024/25, Alnatura gesamt; davon 200 Lehrlinge/Studierende)",
+  "revenue": "1,274 Mrd. € netto (GJ 2024/25, Unternehmensangabe)",
   "website": "https://alnatura.de",
   "plants": [],
   "approval_codes": null,
@@ -584,7 +589,8 @@
   "nace": null,
   "sources": [
    "https://api.gleif.org/api/v1/lei-records/96760063YASRHVRSR697",
-   "https://alnatura.de/impressum"
+   "https://alnatura.de/impressum",
+   "https://www.alnatura.de/presse/daten-und-fakten"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T10:54:09Z",
@@ -596,7 +602,10 @@
   "uid_vies_name": "--- (DE VIES returns no name; legal name + register no. printed on the legal notice)",
   "uid_vies_address": "--- (DE VIES returns no address)",
   "uid_checked_at": "2026-10-16T18:59:30.801Z",
-  "uid_source": "own legal notice + EU VIES (T1835)"
+  "uid_source": "own legal notice + EU VIES (T1835)",
+  "employees_source": "https://www.alnatura.de/presse/daten-und-fakten (own site; scope: company (Alnatura, operating entity = Alnatura Produktions- und Handels GmbH per legal notice); T1938)",
+  "revenue_source": "https://www.alnatura.de/presse/daten-und-fakten (own site; scope: company; T1938)",
+  "founded_source": "https://www.alnatura.de/presse/daten-und-fakten (own site; scope: company founding (not legal-entity date); T1938)"
  },
  {
   "slug": "ehrmann-gmbh",
@@ -617,8 +626,8 @@
   "founded": "2015-12-17",
   "owners": null,
   "management": null,
-  "employees": null,
-  "revenue": null,
+  "employees": "Gruppe: über 3.450 (Ehrmann SE, 2024, Unternehmensangabe)",
+  "revenue": "Gruppe: ca. 1,1 Mrd. € (Ehrmann SE, 2024, Unternehmensangabe)",
   "website": "https://www.ehrmann.de",
   "plants": [],
   "approval_codes": null,
@@ -633,14 +642,17 @@
   "median_eur_per_10g_protein": 10.1,
   "nace": null,
   "sources": [
-   "https://api.gleif.org/api/v1/lei-records/529900C76ISEAIYH2E65"
+   "https://api.gleif.org/api/v1/lei-records/529900C76ISEAIYH2E65",
+   "https://www.ehrmann.de/unternehmen/ehrmann-die-familien-molkerei-aus-dem-allgaeu/"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T11:01:48Z",
   "registry_status": "verified_gleif",
   "gleif_match_basis": "GLEIF legal name \"Ehrmann GmbH Oberschönegg im Allgäu\" (GmbH, A.-Ehrmann-Straße 2, Oberschönegg) — the only Ehrmann GmbH; Ehrmann SE (holding) stays rejected",
   "website_basis": "group site: legal notice = EHRMANN SE (HRB 18947 AG Memmingen) at the identical registered address A.-Ehrmann-Straße 2, 87770 Oberschönegg; Ehrmann GmbH itself not named → no UID taken",
-  "founded_source": "GLEIF legal entity creation date (LEI 529900C76ISEAIYH2E65)"
+  "founded_source": "GLEIF legal entity creation date (LEI 529900C76ISEAIYH2E65)",
+  "employees_source": "https://www.ehrmann.de/unternehmen/ehrmann-die-familien-molkerei-aus-dem-allgaeu/ (own site; scope: group (Ehrmann SE), row website = group site; T1938)",
+  "revenue_source": "https://www.ehrmann.de/unternehmen/ehrmann-die-familien-molkerei-aus-dem-allgaeu/ (own site; scope: group (Ehrmann SE); T1938)"
  },
  {
   "slug": "dm-drogerie-markt-gmbh-co-kg",
@@ -703,8 +715,8 @@
   "founded": "1989-04-06",
   "owners": "VIVATIS Capital Invest GmbH; VIVATIS Beteiligungs-GmbH (Gesellschafter lt. Firmenbuch/evi.gv.at)",
   "management": null,
-  "employees": null,
-  "revenue": null,
+  "employees": "250 (Unternehmensangabe)",
+  "revenue": "75,2 Mio. € (2024, Unternehmensangabe)",
   "website": "https://weinbergmaier.at",
   "plants": [],
   "approval_codes": null,
@@ -723,7 +735,9 @@
   "sources": [
    "https://api.gleif.org/api/v1/lei-records/529900PNAKPBLDOF8724",
    "https://weinbergmaier.at/impressum",
-   "https://www.evi.gv.at/f/122164d"
+   "https://www.evi.gv.at/f/122164d",
+   "https://www.weinbergmaier.at/ueber-uns/das-sind-wir",
+   "https://www.weinbergmaier.at/ueber-uns/presse"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T10:55:26Z",
@@ -740,7 +754,9 @@
   "share_capital": "EUR 36 400",
   "business_line": "Herstellung von und Handel mit Lebensmittelprodukten",
   "register_status": "Eingetragen",
-  "register_entry_date": "1994-10-14"
+  "register_entry_date": "1994-10-14",
+  "employees_source": "https://www.weinbergmaier.at/ueber-uns/das-sind-wir (own site; scope: company; T1938)",
+  "revenue_source": "https://www.weinbergmaier.at/ueber-uns/presse (own site; scope: company; T1938)"
  },
  {
   "slug": "allos-hof-manufaktur-gmbh",
@@ -871,11 +887,11 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
+  "founded": "1961 (Unternehmensangabe: Gründung von FRoSTA)",
   "owners": null,
   "management": null,
-  "employees": null,
-  "revenue": null,
+  "employees": "1.849 Ø (2025, Kennzahlen der FRoSTA AG)",
+  "revenue": "682 Mio. € (2025, Kennzahlen der FRoSTA AG)",
   "website": "https://www.frosta-ag.com",
   "plants": [],
   "approval_codes": null,
@@ -891,7 +907,9 @@
   "nace": null,
   "sources": [
    "https://www.frosta-ag.com/service/impressum/",
-   "EU VIES DE114703650"
+   "EU VIES DE114703650",
+   "https://www.frosta-ag.com/investor-relations/kennzahlen/",
+   "https://www.frosta-ag.com/unternehmen/firmengeschichte/"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T11:00:31Z",
@@ -903,7 +921,10 @@
   "imprint_url": "https://www.frosta-ag.com/service/impressum/",
   "register_court": "Bremen",
   "hrb": "HRB 1100 BHV",
-  "address_source": "own legal notice (imprint_url), T1835"
+  "address_source": "own legal notice (imprint_url), T1835",
+  "employees_source": "https://www.frosta-ag.com/investor-relations/kennzahlen/ (own site; scope: company (investor-relations key figures); T1938)",
+  "revenue_source": "https://www.frosta-ag.com/investor-relations/kennzahlen/ (own site; scope: company; T1938)",
+  "founded_source": "https://www.frosta-ag.com/unternehmen/firmengeschichte/ (own site; scope: company founding; T1938)"
  },
  {
   "slug": "youcook-gmbh",
@@ -1164,7 +1185,7 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
+  "founded": "Marke 1994 (Unternehmensangabe: erste österreichische Bio-Marke gegründet)",
   "owners": "Billa Aktiengesellschaft (Gesellschafter lt. Firmenbuch/evi.gv.at)",
   "management": null,
   "employees": null,
@@ -1185,7 +1206,8 @@
   "sources": [
    "https://www.janatuerlich.at/impressum/",
    "EU VIES ATU43248507",
-   "https://www.evi.gv.at/f/113231t"
+   "https://www.evi.gv.at/f/113231t",
+   "https://www.janatuerlich.at/wir-sind-bio/wofuer-wir-stehen/unsere-meilensteine/"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T10:56:25Z",
@@ -1200,7 +1222,8 @@
   "owners_source": "https://www.evi.gv.at/f/113231t",
   "share_capital": "EUR 40 000",
   "register_status": "Eingetragen",
-  "register_entry_date": "1994-08-19"
+  "register_entry_date": "1994-08-19",
+  "founded_source": "https://www.janatuerlich.at/wir-sind-bio/wofuer-wir-stehen/unsere-meilensteine/ (own site; scope: brand founding; T1938)"
  },
  {
   "slug": "mpreis-warenvertriebs-gmbh",
@@ -1221,7 +1244,7 @@
   "founded": "1977-12-09",
   "owners": "TM Privatstiftung; Therese Mölk Holding GmbH (Gesellschafter lt. Firmenbuch/evi.gv.at)",
   "management": null,
-  "employees": null,
+  "employees": "über 6.000 (Unternehmensangabe, MPREIS gesamt)",
   "revenue": null,
   "website": "https://mpreis.at",
   "plants": [],
@@ -1239,7 +1262,8 @@
   "sources": [
    "https://api.gleif.org/api/v1/lei-records/5299007HKZK4RSU17874",
    "https://mpreis.at/sp/impressum",
-   "https://www.evi.gv.at/f/43603y"
+   "https://www.evi.gv.at/f/43603y",
+   "https://www.mpreis.at/mpreis/werte"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T11:00:41Z",
@@ -1257,7 +1281,8 @@
   "share_capital": "EUR 100 000",
   "business_line": "Lebensmittelhandel",
   "register_status": "Eingetragen",
-  "register_entry_date": "1993-08-17"
+  "register_entry_date": "1993-08-17",
+  "employees_source": "https://www.mpreis.at/mpreis/werte (own site; scope: company (MPREIS); T1938)"
  },
  {
   "slug": "mars-austria-og",
@@ -1366,8 +1391,8 @@
   "founded": "1989-09-07",
   "owners": null,
   "management": null,
-  "employees": null,
-  "revenue": null,
+  "employees": "über 1.000 (Unternehmensangabe, Karriereseite)",
+  "revenue": "645 Mio. € (2023, Unternehmensangabe); NÖM AG Jahresabschluss 2023: 534 Mio. € (lt. de.wikipedia)",
   "website": "https://www.noem.at",
   "plants": [],
   "approval_codes": null,
@@ -1384,7 +1409,8 @@
   "sources": [
    "https://api.gleif.org/api/v1/lei-records/529900JOHLZA5944OY29",
    "https://www.noem.at/impressum",
-   "https://www.evi.gv.at/f/114782y"
+   "https://www.evi.gv.at/f/114782y",
+   "https://www.noem.at/karriere"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T11:01:41Z",
@@ -1399,7 +1425,9 @@
   "founded_source": "GLEIF legal entity creation date (LEI 529900JOHLZA5944OY29)",
   "share_capital": "EUR 7 558 638",
   "register_status": "Eingetragen",
-  "register_entry_date": "1994-08-30"
+  "register_entry_date": "1994-08-30",
+  "employees_source": "https://www.noem.at/karriere (own site; scope: company (scope not stated: AG or group); T1938)",
+  "revenue_source": "https://www.noem.at/karriere (own site; scope: company statement + differing annual-accounts figure (both recorded); T1938)"
  },
  {
   "slug": "radatz-feine-wiener-fleischwaren-gesellschaft-mbh",
@@ -1585,10 +1613,10 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
+  "founded": "1991 (Unternehmensangabe: Gründung als Einzelunternehmen in Gnadenwald; heute Deflorian Tiefkühlspezialitäten GmbH)",
   "owners": null,
   "management": null,
-  "employees": null,
+  "employees": "17 (Unternehmensangabe, Stand 2016)",
   "revenue": null,
   "website": "https://deflorian.tirol",
   "plants": [],
@@ -1605,7 +1633,8 @@
   "nace": null,
   "sources": [
    "https://deflorian.tirol/policies/legal-notice",
-   "EU VIES ATU64259769"
+   "EU VIES ATU64259769",
+   "https://deflorian.tirol/pages/uber-uns"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T11:00:17Z",
@@ -1616,7 +1645,9 @@
   "uid_checked_at": "2026-10-13T18:54:19.811Z",
   "imprint_url": "https://deflorian.tirol/policies/legal-notice",
   "register_court": "Landesgericht Innsbruck",
-  "hrb": null
+  "hrb": null,
+  "founded_source": "https://deflorian.tirol/pages/uber-uns (own site; scope: company founding (sole proprietorship), not the GmbH; T1938)",
+  "employees_source": "https://deflorian.tirol/pages/uber-uns (own site; scope: company, 2016 timeline entry; T1938)"
  },
  {
   "slug": "kasnudl-gmbh",
@@ -1823,10 +1854,10 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
+  "founded": "seit 1879 (Unternehmensangabe: Familie Darbo)",
   "owners": null,
   "management": null,
-  "employees": null,
+  "employees": "über 400 (Unternehmensangabe, 4 Tiroler Standorte)",
   "revenue": null,
   "website": "https://www.darbo.at",
   "plants": [],
@@ -1844,7 +1875,9 @@
   "sources": [
    "https://www.darbo.at/impressum",
    "EU VIES ATU31800708",
-   "https://www.evi.gv.at/f/46033x"
+   "https://www.evi.gv.at/f/46033x",
+   "https://darbo.com/at/",
+   "https://darbo.com/at/karriere/"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T11:01:56Z",
@@ -1858,7 +1891,9 @@
   "hrb": null,
   "share_capital": "EUR 4 071 200",
   "register_status": "Eingetragen",
-  "register_entry_date": "1993-08-28"
+  "register_entry_date": "1993-08-28",
+  "founded_source": "https://darbo.com/at/ (own site; scope: company/family statement; T1938)",
+  "employees_source": "https://darbo.com/at/karriere/ (own site; scope: company; T1938)"
  },
  {
   "slug": "alnatura-produktions-und-handels-gmbh",
@@ -1879,8 +1914,8 @@
   "founded": "1987-03-25",
   "owners": null,
   "management": null,
-  "employees": null,
-  "revenue": null,
+  "employees": "3.730 (Unternehmensangabe GJ 2024/25, Alnatura gesamt; davon 200 Lehrlinge/Studierende)",
+  "revenue": "1,274 Mrd. € netto (GJ 2024/25, Unternehmensangabe)",
   "website": "https://alnatura.de",
   "plants": [],
   "approval_codes": null,
@@ -1896,7 +1931,8 @@
   "nace": null,
   "sources": [
    "https://api.gleif.org/api/v1/lei-records/96760063YASRHVRSR697",
-   "https://alnatura.de/impressum"
+   "https://alnatura.de/impressum",
+   "https://www.alnatura.de/presse/daten-und-fakten"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T11:00:07Z",
@@ -1908,7 +1944,9 @@
   "uid_vies_address": "--- (DE VIES returns no address)",
   "uid_checked_at": "2026-10-16T18:59:35.260Z",
   "uid_source": "own legal notice + EU VIES (T1835)",
-  "founded_source": "GLEIF legal entity creation date (LEI 96760063YASRHVRSR697)"
+  "founded_source": "GLEIF legal entity creation date (LEI 96760063YASRHVRSR697)",
+  "employees_source": "https://www.alnatura.de/presse/daten-und-fakten (own site; scope: company; T1938)",
+  "revenue_source": "https://www.alnatura.de/presse/daten-und-fakten (own site; scope: company; T1938)"
  },
  {
   "slug": "andros-austria-gmbh",
@@ -2992,7 +3030,7 @@
   "founded": null,
   "owners": "1 natürliche Person (Gesellschafter lt. Firmenbuch/evi.gv.at)",
   "management": null,
-  "employees": null,
+  "employees": "rund 100 (Unternehmensangabe)",
   "revenue": null,
   "website": "https://www.ager.cc",
   "plants": [],
@@ -3010,7 +3048,8 @@
   "sources": [
    "https://www.ager.cc/unternehmen/kontakt/impressum",
    "EU VIES ATU48672002",
-   "https://www.evi.gv.at/f/43270h"
+   "https://www.evi.gv.at/f/43270h",
+   "https://www.ager.cc/unternehmen/ueber-uns"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T10:53:49Z",
@@ -3025,7 +3064,8 @@
   "owners_source": "https://www.evi.gv.at/f/43270h",
   "share_capital": "EUR 36 336,42",
   "register_status": "Eingetragen",
-  "register_entry_date": "1993-08-13"
+  "register_entry_date": "1993-08-13",
+  "employees_source": "https://www.ager.cc/unternehmen/ueber-uns (own site; scope: company; T1938)"
  },
  {
   "slug": "amlacher-nudeln",
@@ -3134,10 +3174,10 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
+  "founded": "seit 1986 (Unternehmensangabe: „Bio & vegan seit 1986“)",
   "owners": null,
   "management": null,
-  "employees": null,
+  "employees": "über 120 (Unternehmensangabe 2026)",
   "revenue": null,
   "website": "https://biovegan.de",
   "plants": [],
@@ -3154,7 +3194,9 @@
   "nace": null,
   "sources": [
    "https://api.gleif.org/api/v1/lei-records/529900OYBF0IQCUQ4E29",
-   "https://biovegan.de/pages/impressum"
+   "https://biovegan.de/pages/impressum",
+   "https://www.biovegan.de/",
+   "https://www.biovegan.de/pages/ueber-uns"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T10:57:08Z",
@@ -3165,7 +3207,9 @@
   "uid_vies_name": "--- (DE VIES returns no name; legal name + register no. printed on the legal notice)",
   "uid_vies_address": "--- (DE VIES returns no address)",
   "uid_checked_at": "2026-10-16T19:00:18.621Z",
-  "uid_source": "own legal notice + EU VIES (T1835)"
+  "uid_source": "own legal notice + EU VIES (T1835)",
+  "employees_source": "https://www.biovegan.de/ (own site; scope: company; T1938)",
+  "founded_source": "https://www.biovegan.de/pages/ueber-uns (own site; scope: company statement; T1938)"
  },
  {
   "slug": "brajlovic-gmbh",
@@ -3295,7 +3339,7 @@
   "founded": "1979-12-06",
   "owners": null,
   "management": null,
-  "employees": null,
+  "employees": "über 1.400 weltweit (Dr. Schär Gruppe, Unternehmensangabe)",
   "revenue": null,
   "website": "https://schaer.com",
   "plants": [],
@@ -3312,7 +3356,8 @@
   "nace": null,
   "sources": [
    "https://api.gleif.org/api/v1/lei-records/8156007EFCC74E27AB09",
-   "https://schaer.com/imprint"
+   "https://schaer.com/imprint",
+   "https://www.schaer.com/en-us/company-dr-schar"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T10:55:19Z",
@@ -3324,7 +3369,8 @@
   "uid_vies_address": "VIA WINKELAU 9 , 39014 POSTAL .BURGSTALL. BZ, ",
   "uid_checked_at": "2026-10-16T19:00:22.257Z",
   "uid_source": "own legal notice + EU VIES (T1835)",
-  "founded_source": "GLEIF legal entity creation date (LEI 8156007EFCC74E27AB09)"
+  "founded_source": "GLEIF legal entity creation date (LEI 8156007EFCC74E27AB09)",
+  "employees_source": "https://www.schaer.com/en-us/company-dr-schar (own site; scope: group (worldwide); T1938)"
  },
  {
   "slug": "gms-gourmet-gmbh",
@@ -3505,7 +3551,7 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
+  "founded": "Stammhaus 1907 (Heinrich Hamker Lebensmittelwerke; Wikidata Q1510152 / de.wikipedia)",
   "owners": null,
   "management": null,
   "employees": null,
@@ -3525,7 +3571,8 @@
   "nace": null,
   "sources": [
    "https://www.hamker.de/impressum",
-   "EU VIES DE266009267"
+   "EU VIES DE266009267",
+   "https://www.wikidata.org/wiki/Q1510152"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T10:58:41Z",
@@ -3537,7 +3584,8 @@
   "imprint_url": "https://www.hamker.de/impressum",
   "register_court": "Osnabrück",
   "hrb": "HRB 1747",
-  "address_source": "own legal notice (imprint_url), T1835"
+  "address_source": "own legal notice (imprint_url), T1835",
+  "founded_source": "https://www.wikidata.org/wiki/Q1510152 (Wikidata; scope: parent/brand company, not the Vertriebsgesellschaft; T1938)"
  },
  {
   "slug": "hammermuehle-gmbh",
@@ -3555,7 +3603,7 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
+  "founded": "seit 1967 (Unternehmensangabe: „Bereits seit 1967 stehen wir für handwerkliche deutsche Backkunst“)",
   "owners": null,
   "management": null,
   "employees": null,
@@ -3575,7 +3623,8 @@
   "nace": null,
   "sources": [
    "https://www.hammermuehle-shop.de/impressum/",
-   "EU VIES DE815027088"
+   "EU VIES DE815027088",
+   "https://www.hammermuehle-shop.de/ueber-uns/"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T10:55:57Z",
@@ -3587,7 +3636,8 @@
   "imprint_url": "https://www.hammermuehle-shop.de/impressum/",
   "register_court": "Landau",
   "hrb": "HRB 30469",
-  "address_source": "own legal notice (imprint_url), T1835"
+  "address_source": "own legal notice (imprint_url), T1835",
+  "founded_source": "https://www.hammermuehle-shop.de/ueber-uns/ (own site; scope: company statement; T1938)"
  },
  {
   "slug": "hochreiter-quality-meat-factory-gmbh",
@@ -3846,7 +3896,7 @@
   "founded": "2011-06-06",
   "owners": null,
   "management": null,
-  "employees": null,
+  "employees": "100+ (Unternehmensangabe, TressBrüder gesamt)",
   "revenue": null,
   "website": "https://tressbrueder.de",
   "plants": [],
@@ -3863,14 +3913,16 @@
   "nace": null,
   "sources": [
    "https://api.gleif.org/api/v1/lei-records/391200MC0M0SGKVN4318",
-   "https://tressbrueder.de/impressum"
+   "https://tressbrueder.de/impressum",
+   "https://tressbrueder.de/ueber-uns"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T10:57:45Z",
   "registry_status": "verified_gleif",
   "imprint_url": "https://tressbrueder.de/impressum",
   "website_basis": "own legal notice carries register_id=HRA 726441",
-  "founded_source": "GLEIF legal entity creation date (LEI 391200MC0M0SGKVN4318)"
+  "founded_source": "GLEIF legal entity creation date (LEI 391200MC0M0SGKVN4318)",
+  "employees_source": "https://tressbrueder.de/ueber-uns (own site; scope: family business overall (TressBrüder); T1938)"
  },
  {
   "slug": "wilhelm-blasko-convenience-fertiggerichte-gmbh",
@@ -3954,7 +4006,7 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
+  "founded": "1968 (Wikidata Q3606861 P571, Agricola Italiana Alimentare)",
   "owners": null,
   "management": null,
   "employees": null,
@@ -3974,7 +4026,8 @@
   "nace": null,
   "sources": [
    "https://www.aiafood.com/it/",
-   "EU VIES IT00233470236"
+   "EU VIES IT00233470236",
+   "https://www.wikidata.org/wiki/Q3606861"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T11:00:03Z",
@@ -3985,7 +4038,8 @@
   "uid_checked_at": "2026-10-13T17:24:34.518Z",
   "imprint_url": "https://www.aiafood.com/it/",
   "register_court": null,
-  "hrb": null
+  "hrb": null,
+  "founded_source": "https://www.wikidata.org/wiki/Q3606861 (Wikidata; scope: company (item matched by P856 = aiafood.com); T1938)"
  },
  {
   "slug": "andros-deutschland-gmbh",
@@ -4108,8 +4162,8 @@
   "founded": null,
   "owners": null,
   "management": "Jan-Peter Bauck, Friedemann Wecker (Geschäftsführer lt. openregister.de)",
-  "employees": null,
-  "revenue": null,
+  "employees": "rund 280 in Rosche (Unternehmensangabe)",
+  "revenue": "rund 73 Mio. € pro Geschäftsjahr (Unternehmensangabe, „73400000 € Jahresumsatz“; Jahr nicht genannt)",
   "website": "https://www.bauck.de",
   "plants": [],
   "approval_codes": null,
@@ -4125,13 +4179,16 @@
   "nace": null,
   "sources": [
    "https://openregister.de/company/DE-HRB-P2507-205474",
-   "https://www.bauck.de/impressum/"
+   "https://www.bauck.de/impressum/",
+   "https://www.bauck.de/ueber-uns/fakten-und-zahlen/"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-16T18:22:00Z",
   "registry_status": "hrb_public_register (exact name 'Bauck GmbH' (label), HRB 205474 AG Lüneburg, Duhenweitz 4 = address of the Bauck Mühle brand site; no public UID — bauck.de Impressum UID DE313040669 belongs to BauckOnline GmbH HRB 206937; no LEI — not counted)",
   "hrb": "HRB 205474",
-  "register_court": "Amtsgericht Lüneburg"
+  "register_court": "Amtsgericht Lüneburg",
+  "employees_source": "https://www.bauck.de/ueber-uns/fakten-und-zahlen/ (own site; scope: company (Rosche site = HQ); T1938)",
+  "revenue_source": "https://www.bauck.de/ueber-uns/fakten-und-zahlen/ (own site; scope: company, year not stated; T1938)"
  },
  {
   "slug": "biogourmet-gmbh",
@@ -4866,7 +4923,7 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
+  "founded": "Ursprung vor 1900 (Familienbetriebe Heidema und Van der Ploeg, Zoutkamp); Name Heiploeg seit Anfang der 1970er (Unternehmensangabe)",
   "owners": "Parlevliet & Van der Plas B.V. (seit 2014)",
   "management": null,
   "employees": "ca. 2.500 weltweit",
@@ -4908,7 +4965,8 @@
   "uid_checked_at": "2026-10-13T17:24:29.344Z",
   "imprint_url": "https://heiploeg.com/nl-nl/colofon",
   "register_court": null,
-  "hrb": null
+  "hrb": null,
+  "founded_source": "https://heiploeg.com/en-us/company (own site; scope: company history statement; T1938)"
  },
  {
   "slug": "hildegard-gruenkraft-naturprodukte",
@@ -5046,10 +5104,10 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
+  "founded": "Gruppe 1917 (Noda Shoyu Co., heute Kikkoman Corporation; Unternehmensangabe)",
   "owners": null,
   "management": null,
-  "employees": null,
+  "employees": "Gruppe: ca. 7.000 weltweit (Kikkoman, Unternehmensangabe)",
   "revenue": null,
   "website": "https://www.kikkoman.de",
   "plants": [],
@@ -5066,7 +5124,9 @@
   "nace": null,
   "sources": [
    "https://www.kikkoman.de/impressum",
-   "EU VIES DE812404191"
+   "EU VIES DE812404191",
+   "https://www.kikkoman.de/ueber-kikkoman/unternehmen/kikkoman-gruppe",
+   "https://www.kikkoman.de/ueber-kikkoman/unternehmen/kikkoman-geschichte"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T10:55:03Z",
@@ -5077,7 +5137,9 @@
   "uid_checked_at": "2026-10-13T17:23:02.697Z",
   "imprint_url": "https://www.kikkoman.de/impressum",
   "register_court": "Düsseldorf",
-  "hrb": "HRB 35856"
+  "hrb": "HRB 35856",
+  "employees_source": "https://www.kikkoman.de/ueber-kikkoman/unternehmen/kikkoman-gruppe (own site; scope: group (worldwide); T1938)",
+  "founded_source": "https://www.kikkoman.de/ueber-kikkoman/unternehmen/kikkoman-geschichte (own site; scope: group founding, not the European trading GmbH; T1938)"
  },
  {
   "slug": "knoedelwerkstatt-gmbh",
@@ -5340,7 +5402,7 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
+  "founded": "seit 1908 (Unternehmensangabe; 2008 100-jähriges Jubiläum)",
   "owners": null,
   "management": null,
   "employees": null,
@@ -5360,7 +5422,8 @@
   "nace": null,
   "sources": [
    "https://www.meica.de/impressum",
-   "EU VIES DE117832698"
+   "EU VIES DE117832698",
+   "https://www.meica.de/ueber-uns"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T11:00:44Z",
@@ -5372,7 +5435,8 @@
   "imprint_url": "https://www.meica.de/impressum",
   "register_court": "Amtsgericht Oldenburg",
   "hrb": "HRA 120020",
-  "address_source": "own legal notice (imprint_url), T1835"
+  "address_source": "own legal notice (imprint_url), T1835",
+  "founded_source": "https://www.meica.de/ueber-uns (own site; scope: company statement; T1938)"
  },
  {
   "slug": "pastificio-rana-spa-via-pacinotti",
@@ -5433,10 +5497,10 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
+  "founded": "2019 (Unternehmensangabe: Firmengründung August 2019)",
   "owners": null,
   "management": null,
-  "employees": null,
+  "employees": "über 170 (Unternehmensangabe Juli 2022, Planted gesamt in 6 Ländern)",
   "revenue": null,
   "website": null,
   "plants": [],
@@ -5454,11 +5518,14 @@
   "nace": null,
   "sources": [
    "https://www.uid-wse.admin.ch/V5.0/PublicServices.svc (GetByUID CHE398606506)",
-   "https://www.uid.admin.ch/Detail.aspx?uid_id=CHE398606506"
+   "https://www.uid.admin.ch/Detail.aspx?uid_id=CHE398606506",
+   "https://planted-foods-de.myshopify.com/pages/about"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-16T18:10:30Z",
-  "registry_status": "verified_non_eu_register_ch_uid (Swiss UID public web service GetByUID CHE-398.606.506: Planted Foods AG, legal form AG, Kemptpark 32, 8310 Kemptthal; label 'Planted Foods AG' + CH; no LEI, CH outside VIES)"
+  "registry_status": "verified_non_eu_register_ch_uid (Swiss UID public web service GetByUID CHE-398.606.506: Planted Foods AG, legal form AG, Kemptpark 32, 8310 Kemptthal; label 'Planted Foods AG' + CH; no LEI, CH outside VIES)",
+  "founded_source": "https://planted-foods-de.myshopify.com/pages/about (own site; scope: company founding (Planted, Kemptthal); T1938)",
+  "employees_source": "https://planted-foods-de.myshopify.com/pages/about (own site; scope: group (all countries), 2022; T1938)"
  },
  {
   "slug": "planted-foods-gmbh",
@@ -5476,10 +5543,10 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
+  "founded": "Gruppe 2019 (Unternehmensangabe: Firmengründung Planted August 2019, Planted Foods AG)",
   "owners": null,
   "management": null,
-  "employees": null,
+  "employees": "Gruppe über 170 (Unternehmensangabe Juli 2022, Planted gesamt)",
   "revenue": null,
   "website": "https://planted-foods-de.myshopify.com",
   "plants": [],
@@ -5496,7 +5563,8 @@
   "nace": null,
   "sources": [
    "https://planted-foods-de.myshopify.com/policies/legal-notice",
-   "EU VIES DE329702020"
+   "EU VIES DE329702020",
+   "https://planted-foods-de.myshopify.com/pages/about"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T10:58:48Z",
@@ -5508,7 +5576,9 @@
   "imprint_url": "https://planted-foods-de.myshopify.com/policies/legal-notice",
   "register_court": "Freiburg",
   "hrb": "HRB 721853",
-  "address_source": "own legal notice (imprint_url), T1835"
+  "address_source": "own legal notice (imprint_url), T1835",
+  "founded_source": "https://planted-foods-de.myshopify.com/pages/about (own site; scope: group founding, not the DE GmbH; T1938)",
+  "employees_source": "https://planted-foods-de.myshopify.com/pages/about (own site; scope: group, 2022; T1938)"
  },
  {
   "slug": "recheis-teigwaren-gmbh",
@@ -5526,10 +5596,10 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
+  "founded": "1889 (Unternehmensangabe: Gründung der ersten Teigwarenmanufaktur Österreichs)",
   "owners": null,
   "management": null,
-  "employees": null,
+  "employees": "rund 100 in Hall in Tirol; Recheis Gruppe fast 200 (Unternehmensangabe)",
   "revenue": null,
   "website": "https://www.recheis.com",
   "plants": [],
@@ -5546,7 +5616,9 @@
   "nace": null,
   "sources": [
    "https://www.recheis.com/impressum",
-   "EU VIES ATU31064200"
+   "EU VIES ATU31064200",
+   "https://www.recheis.com/ueber-uns/geschichte/",
+   "https://www.recheis.com/presse-oeffentlichkeit/"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T10:55:06Z",
@@ -5557,7 +5629,9 @@
   "uid_checked_at": "2026-10-13T18:50:47.065Z",
   "imprint_url": "https://www.recheis.com/impressum",
   "register_court": null,
-  "hrb": null
+  "hrb": null,
+  "founded_source": "https://www.recheis.com/ueber-uns/geschichte/ (own site; scope: company founding; T1938)",
+  "employees_source": "https://www.recheis.com/ueber-uns/geschichte/ (own site; scope: company site; group figure from press page; T1938)"
  },
  {
   "slug": "revo-foods",
@@ -5578,7 +5652,7 @@
   "founded": "2021-02-24",
   "owners": "friends2grow GmbH; Hazelpond Capital ApS; MKO BeteiligungsgmbH; Sebastian Bartel GmbH; Helge Klein GmbH; Sinnvestment GmbH; Bigemon GmbH; IKAT GmbH; Renz Investments GmbH; Schmidbauer Food Innovation GmbH; anchorion ventures GmbH; PW Sunset Consulting GmbH; Brotinus GmbH; Lagom GmbH; 22 natürliche Personen (Gesellschafter lt. Firmenbuch/evi.gv.at)",
   "management": null,
-  "employees": null,
+  "employees": "21 Team Members (Unternehmensangabe)",
   "revenue": null,
   "website": "https://revo-foods.com",
   "plants": [],
@@ -5596,7 +5670,8 @@
   "sources": [
    "https://revo-foods.com/imprint/",
    "EU VIES ATU76495712",
-   "https://www.evi.gv.at/f/550473w"
+   "https://www.evi.gv.at/f/550473w",
+   "https://revo-foods.com/team/"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T10:58:50Z",
@@ -5613,7 +5688,8 @@
   "share_capital": "EUR 86 839",
   "business_line": "Produktion von Lebensmitteln; Erforschung, Entwicklung und Vertrieb neuer Verfahren zur Lebensmittelproduktion",
   "register_status": "Eingetragen",
-  "register_entry_date": "2021-02-24"
+  "register_entry_date": "2021-02-24",
+  "employees_source": "https://revo-foods.com/team/ (own site; scope: company; T1938)"
  },
  {
   "slug": "rila-die-genussentdecker",
@@ -5631,7 +5707,7 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
+  "founded": "seit 1969 (Unternehmensangabe: „Seit 1969 der Partner für den LEH“)",
   "owners": null,
   "management": null,
   "employees": null,
@@ -5651,7 +5727,8 @@
   "nace": null,
   "sources": [
    "https://rila.de/bequem-einkaufen/impressum/",
-   "EU VIES DE125751033"
+   "EU VIES DE125751033",
+   "https://rila.de/ueber-uns/"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T10:57:31Z",
@@ -5663,7 +5740,8 @@
   "imprint_url": "https://rila.de/bequem-einkaufen/impressum/",
   "register_court": "Bad Oeynhausen",
   "hrb": "HRA 5874",
-  "address_source": "own legal notice (imprint_url), T1835"
+  "address_source": "own legal notice (imprint_url), T1835",
+  "founded_source": "https://rila.de/ueber-uns/ (own site; scope: company statement; T1938)"
  },
  {
   "slug": "riso-gallo-spa",
@@ -5768,8 +5846,8 @@
   "founded": "1834",
   "owners": null,
   "management": null,
-  "employees": null,
-  "revenue": null,
+  "employees": "892 (2023, Konzern; lt. de.wikipedia, Quelle Konzernabschluss 2023)",
+  "revenue": "266,5 Mio. € (2023, Konzern; lt. de.wikipedia, Quelle Konzernabschluss/Unternehmensregister)",
   "website": "https://www.ruegenwalder.de",
   "plants": [],
   "approval_codes": null,
@@ -5786,14 +5864,17 @@
   "sources": [
    "https://api.gleif.org/api/v1/lei-records/5299003YOGW9AD7K4H05",
    "https://www.ruegenwalder.de/de/impressum",
-   "http://www.wikidata.org/entity/Q2203886"
+   "http://www.wikidata.org/entity/Q2203886",
+   "https://de.wikipedia.org/w/index.php?oldid=268642203"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T10:58:44Z",
   "registry_status": "verified_gleif",
   "imprint_url": "https://www.ruegenwalder.de/de/impressum",
   "website_basis": "own legal notice carries register_id=HRA 120467",
-  "founded_source": "Wikidata P571 (Q2203886, matched by P1278)"
+  "founded_source": "Wikidata P571 (Q2203886, matched by P1278)",
+  "employees_source": "https://de.wikipedia.org/w/index.php?oldid=268642203 (Wikipedia; scope: group accounts via Wikipedia (item matched by LEI); T1938)",
+  "revenue_source": "https://de.wikipedia.org/w/index.php?oldid=268642203 (Wikipedia; scope: group accounts via Wikipedia; T1938)"
  },
  {
   "slug": "stadtkueche",
@@ -6168,7 +6249,7 @@
   "founded": null,
   "owners": null,
   "management": null,
-  "employees": null,
+  "employees": "rund 200 (Unternehmensangabe, Jobseite)",
   "revenue": null,
   "website": "https://www.zum-dorfkrug.de",
   "plants": [],
@@ -6185,7 +6266,8 @@
   "nace": null,
   "sources": [
    "https://www.zum-dorfkrug.de/impressum",
-   "EU VIES DE261196812"
+   "EU VIES DE261196812",
+   "https://www.zum-dorfkrug.de/jobs"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T11:01:35Z",
@@ -6197,7 +6279,8 @@
   "imprint_url": "https://www.zum-dorfkrug.de/impressum",
   "register_court": "Tostedt",
   "hrb": "HRA 200878",
-  "address_source": "own legal notice (imprint_url), T1835"
+  "address_source": "own legal notice (imprint_url), T1835",
+  "employees_source": "https://www.zum-dorfkrug.de/jobs (own site; scope: company; T1938)"
  },
  {
   "slug": "deli-gourmet-gmbh",
@@ -6329,7 +6412,7 @@
   "founded": "2001-06-06",
   "owners": null,
   "management": null,
-  "employees": null,
+  "employees": "76 (Unternehmensangabe, Steckbrief)",
   "revenue": null,
   "website": "https://followfood.de",
   "plants": [],
@@ -6346,7 +6429,8 @@
   "nace": null,
   "sources": [
    "https://api.gleif.org/api/v1/lei-records/529900BHG8J8LULWXG88",
-   "https://followfood.de/impressum"
+   "https://followfood.de/impressum",
+   "https://followfood.de/bewegung"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T10:57:51Z",
@@ -6358,7 +6442,8 @@
   "uid_vies_address": "--- (DE VIES returns no address)",
   "uid_checked_at": "2026-10-16T19:00:54.489Z",
   "uid_source": "own legal notice + EU VIES (T1835)",
-  "founded_source": "GLEIF legal entity creation date (LEI 529900BHG8J8LULWXG88)"
+  "founded_source": "GLEIF legal entity creation date (LEI 529900BHG8J8LULWXG88)",
+  "employees_source": "https://followfood.de/bewegung (own site; scope: company; T1938)"
  },
  {
   "slug": "hofer-kg",
@@ -6379,8 +6464,8 @@
   "founded": "1991-12-18",
   "owners": null,
   "management": null,
-  "employees": null,
-  "revenue": null,
+  "employees": "mehr als 12.000 (Unternehmensangabe, Presseaussendung 20.08.2025)",
+  "revenue": "5,4 Mrd. € (2025; Unternehmensangabe in bezahlter Anzeige, Die Presse 2026)",
   "website": "https://www.hofer.at/",
   "plants": [],
   "approval_codes": null,
@@ -6392,7 +6477,9 @@
   "nace": null,
   "sources": [
    "https://api.gleif.org/api/v1/lei-records/529900MNT8H6TLU4WK98",
-   "https://www.evi.gv.at/f/600h"
+   "https://www.evi.gv.at/f/600h",
+   "https://www.hofer.at/ueber-hofer/presse/alle-presseaussendungen/presseaussendungen-unternehmen/2025/service-value-studie",
+   "https://www.diepresse.com/26002500/das-erlebnis-einkauf-weiter-erfolgreich-umsetzen"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T11:02:40Z",
@@ -6400,7 +6487,9 @@
   "registry_status": "verified_gleif",
   "founded_source": "GLEIF legal entity creation date (LEI 529900MNT8H6TLU4WK98)",
   "register_status": "Eingetragen",
-  "register_entry_date": "1991-12-18"
+  "register_entry_date": "1991-12-18",
+  "employees_source": "https://www.hofer.at/ueber-hofer/presse/alle-presseaussendungen/presseaussendungen-unternehmen/2025/service-value-studie (own site; scope: company; T1938)",
+  "revenue_source": "https://www.diepresse.com/26002500/das-erlebnis-einkauf-weiter-erfolgreich-umsetzen (third-party outlet (Die Presse, paid advertorial); scope: company-supplied advertorial in third-party outlet (labelled); T1938)"
  },
  {
   "slug": "inzersdorfer-nahrungsmittelwerke",
@@ -6471,11 +6560,11 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
+  "founded": "1998 (Wikidata Q57018091 P571 / de.wikipedia Gründungsdatum; Lidl Österreich)",
   "owners": null,
   "management": null,
-  "employees": null,
-  "revenue": null,
+  "employees": "> 5.800 in Österreich (Unternehmensangabe)",
+  "revenue": "> 2 Mrd. € (GJ 2025, Unternehmensangabe)",
   "website": "https://www.lidl.at",
   "plants": [],
   "approval_codes": null,
@@ -6488,7 +6577,9 @@
   "sources": [
    "https://www.lidl.at/c/impressum/s10011983",
    "EU VIES ATU37893801",
-   "https://www.evi.gv.at/f/131556s"
+   "https://www.evi.gv.at/f/131556s",
+   "https://corporate.lidl.at",
+   "https://de.wikipedia.org/w/index.php?oldid=269924984"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T11:02:46Z",
@@ -6504,7 +6595,10 @@
   "share_capital": "EUR 26 000",
   "business_line": "Handel mit Waren aller Art",
   "register_status": "Eingetragen",
-  "register_entry_date": "1995-02-23"
+  "register_entry_date": "1995-02-23",
+  "employees_source": "https://corporate.lidl.at (own site; scope: company (Lidl Österreich); T1938)",
+  "revenue_source": "https://corporate.lidl.at (own site; scope: company; T1938)",
+  "founded_source": "https://de.wikipedia.org/w/index.php?oldid=269924984 (Wikipedia; scope: company (Wikidata item matched by P856 = lidl.at); legal entity FN 131556s may be older; T1938)"
  },
  {
   "slug": "penny-gmbh",
@@ -6525,7 +6619,7 @@
   "founded": "1997-07-25",
   "owners": "Billa Aktiengesellschaft (Gesellschafter lt. Firmenbuch/evi.gv.at)",
   "management": null,
-  "employees": null,
+  "employees": "mehr als 2.900 (Unternehmensangabe, PENNY Österreich)",
   "revenue": null,
   "website": "https://www.penny.at/",
   "plants": [],
@@ -6539,7 +6633,8 @@
   "sources": [
    "https://www.penny.at/impressum",
    "EU VIES ATU43203403",
-   "https://www.evi.gv.at/f/160330f"
+   "https://www.evi.gv.at/f/160330f",
+   "https://www.penny.at/ueber-uns"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T11:02:49Z",
@@ -6556,7 +6651,8 @@
   "owners_source": "https://www.evi.gv.at/f/160330f",
   "share_capital": "EUR 40 000",
   "register_status": "Eingetragen",
-  "register_entry_date": "1997-07-25"
+  "register_entry_date": "1997-07-25",
+  "employees_source": "https://www.penny.at/ueber-uns (own site; scope: company (PENNY Österreich); T1938)"
  },
  {
   "slug": "rewe-international-ag",
@@ -6577,8 +6673,8 @@
   "founded": "1926-12-30",
   "owners": null,
   "management": null,
-  "employees": null,
-  "revenue": null,
+  "employees": "rund 47.000 (REWE Group Österreich, Jahresende 2025, Unternehmensangabe)",
+  "revenue": "11,36 Mrd. € brutto (2025, REWE Group Österreich, Unternehmensangabe)",
   "website": "https://rewe-group.at",
   "plants": [],
   "approval_codes": null,
@@ -6591,7 +6687,8 @@
   "sources": [
    "https://api.gleif.org/api/v1/lei-records/529900VPZ1K9QECCLM53",
    "https://rewe-group.at/de/impressum/",
-   "https://www.evi.gv.at/f/82769w"
+   "https://www.evi.gv.at/f/82769w",
+   "https://rewe-group.at/de/ueber-uns/zahlen-fakten/"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T11:02:56Z",
@@ -6607,7 +6704,9 @@
   "founded_source": "GLEIF legal entity creation date (LEI 529900VPZ1K9QECCLM53)",
   "share_capital": "EUR 2 200 000",
   "register_status": "Eingetragen",
-  "register_entry_date": "1994-03-05"
+  "register_entry_date": "1994-03-05",
+  "employees_source": "https://rewe-group.at/de/ueber-uns/zahlen-fakten/ (own site; scope: group (REWE Group Österreich); T1938)",
+  "revenue_source": "https://rewe-group.at/de/ueber-uns/zahlen-fakten/ (own site; scope: group (REWE Group Österreich); T1938)"
  },
  {
   "slug": "spar-oesterreichische-warenhandels-aktiengesellschaft",
@@ -6628,8 +6727,8 @@
   "founded": "1985-08-28",
   "owners": null,
   "management": null,
-  "employees": null,
-  "revenue": null,
+  "employees": "über 93.000 (SPAR Österreich-Gruppe, davon 51.000 in Österreich; Unternehmensangabe)",
+  "revenue": "10,82 Mrd. € Brutto-Verkaufsumsatz SPAR Österreich (2025); Gruppe 22,3 Mrd. €",
   "website": "https://spar.at",
   "plants": [],
   "approval_codes": null,
@@ -6642,7 +6741,8 @@
   "sources": [
    "https://api.gleif.org/api/v1/lei-records/529900Y9ZL3RKKWV4276",
    "https://spar.at/impressum.html",
-   "https://www.evi.gv.at/f/34170a"
+   "https://www.evi.gv.at/f/34170a",
+   "https://www.spar.at/unternehmen"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T11:02:36Z",
@@ -6653,7 +6753,9 @@
   "founded_source": "GLEIF legal entity creation date (LEI 529900Y9ZL3RKKWV4276)",
   "share_capital": "EUR 30 000 000",
   "register_status": "Eingetragen",
-  "register_entry_date": "1993-06-17"
+  "register_entry_date": "1993-06-17",
+  "employees_source": "https://www.spar.at/unternehmen (own site; scope: group; T1938)",
+  "revenue_source": "https://www.spar.at/unternehmen (own site; scope: Austria + group, gross sales; T1938)"
  },
  {
   "slug": "unimarkt-gmbh",
@@ -6713,11 +6815,11 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
+  "founded": "1976 (Unternehmensangabe: erste dm Filiale in Österreich)",
   "owners": null,
   "management": null,
-  "employees": null,
-  "revenue": null,
+  "employees": "6.844 (dm Österreich, GJ 2024/25, Unternehmensangabe); Ländergruppe dm Österreich + Verbundene Länder 29.120",
+  "revenue": "1,374 Mrd. € (dm Österreich, GJ 2024/25); Ländergruppe 5,851 Mrd. €",
   "website": "https://www.dm.at",
   "plants": [],
   "approval_codes": null,
@@ -6729,7 +6831,8 @@
   "nace": null,
   "sources": [
    "https://www.dm.at/impressum-218894",
-   "EU VIES ATU35195908"
+   "EU VIES ATU35195908",
+   "https://pr.dm.at/news-dm-weiterhin-lieblingsdrogerie-der-oesterreicher?id=225897&l=deutsch&menueid=5306"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T11:02:53Z",
@@ -6741,7 +6844,10 @@
   "uid_checked_at": "2026-10-13T17:23:56.471Z",
   "imprint_url": "https://www.dm.at/impressum-218894",
   "register_court": null,
-  "hrb": null
+  "hrb": null,
+  "employees_source": "https://pr.dm.at/news-dm-weiterhin-lieblingsdrogerie-der-oesterreicher?id=225897&l=deutsch&menueid=5306 (own site; scope: company (AT) + group; T1938)",
+  "revenue_source": "https://pr.dm.at/news-dm-weiterhin-lieblingsdrogerie-der-oesterreicher?id=225897&l=deutsch&menueid=5306 (own site; scope: company (AT) + group; T1938)",
+  "founded_source": "https://pr.dm.at/news-dm-weiterhin-lieblingsdrogerie-der-oesterreicher?id=225897&l=deutsch&menueid=5306 (own site; scope: start of Austrian business (first store), not legal-entity date; T1938)"
  },
  {
   "slug": "loewenanteil-gmbh",

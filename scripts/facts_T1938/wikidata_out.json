@@ -1,0 +1,912 @@
+{
+ "bonne-maman": [
+  {
+   "key": "9695006ARZU1PBC9M649",
+   "item": "http://www.wikidata.org/entity/Q2846959",
+   "site": "http://www.andros.fr/",
+   "inception": "1985-01-01T00:00:00Z",
+   "itemLabel": "Andros",
+   "countryLabel": "Frankreich",
+   "typeLabel": "Organisation",
+   "matched_by": "P1278 LEI"
+  },
+  {
+   "key": "9695006ARZU1PBC9M649",
+   "item": "http://www.wikidata.org/entity/Q2846959",
+   "site": "http://www.andros.fr/",
+   "inception": "1999-12-21T00:00:00Z",
+   "itemLabel": "Andros",
+   "countryLabel": "Frankreich",
+   "typeLabel": "Organisation",
+   "matched_by": "P1278 LEI"
+  },
+  {
+   "key": "https://www.bonne-maman.com/",
+   "item": "http://www.wikidata.org/entity/Q54552919",
+   "site": "https://www.bonne-maman.com/",
+   "inception": "1971-01-01T00:00:00Z",
+   "itemLabel": "Bonne Maman",
+   "countryLabel": "Frankreich",
+   "typeLabel": "Markenzeichen",
+   "matched_by": "P856 official website = row website"
+  }
+ ],
+ "marks-and-spencer-services-sro": [
+  {
+   "key": "213800T85Z9RNQFF5W93",
+   "item": "http://www.wikidata.org/entity/Q52853503",
+   "inception": "2008-01-21T00:00:00Z",
+   "itemLabel": "MARKS AND SPENCER SERVICES",
+   "countryLabel": "Tschechien",
+   "typeLabel": "Gewerbebetrieb",
+   "matched_by": "P1278 LEI"
+  },
+  {
+   "key": "213800T85Z9RNQFF5W93",
+   "item": "http://www.wikidata.org/entity/Q52853503",
+   "inception": "2008-01-21T00:00:00Z",
+   "itemLabel": "MARKS AND SPENCER SERVICES",
+   "countryLabel": "Tschechien",
+   "typeLabel": "Unternehmen",
+   "matched_by": "P1278 LEI"
+  }
+ ],
+ "dairy-4-fun-sro": [
+  {
+   "key": "315700X0LM9LA33FCG61",
+   "item": "http://www.wikidata.org/entity/Q54965853",
+   "inception": "2010-06-07T00:00:00Z",
+   "itemLabel": "DAIRY 4 FUN",
+   "countryLabel": "Tschechien",
+   "typeLabel": "Gewerbebetrieb",
+   "matched_by": "P1278 LEI"
+  },
+  {
+   "key": "315700X0LM9LA33FCG61",
+   "item": "http://www.wikidata.org/entity/Q54965853",
+   "inception": "2010-06-07T00:00:00Z",
+   "itemLabel": "DAIRY 4 FUN",
+   "countryLabel": "Tschechien",
+   "typeLabel": "Unternehmen",
+   "matched_by": "P1278 LEI"
+  }
+ ],
+ "delamaris-doo": [
+  {
+   "key": "315700070TKBY0UVE318",
+   "item": "http://www.wikidata.org/entity/Q102336641",
+   "itemLabel": "DELAMARIS konzervna industrija",
+   "countryLabel": "Slowenien",
+   "typeLabel": "Gewerbebetrieb",
+   "matched_by": "P1278 LEI"
+  },
+  {
+   "key": "315700070TKBY0UVE318",
+   "item": "http://www.wikidata.org/entity/Q102336641",
+   "itemLabel": "DELAMARIS konzervna industrija",
+   "countryLabel": "Slowenien",
+   "typeLabel": "Unternehmen",
+   "matched_by": "P1278 LEI"
+  }
+ ],
+ "molkerei-alois-mueller-gmbh-co-kg": [
+  {
+   "key": "529900ASH0JL6PAY8526",
+   "item": "http://www.wikidata.org/entity/Q113464990",
+   "site": "http://www.muellermilch.de/",
+   "itemLabel": "Molkerei Alois Müller GmbH & Co. KG",
+   "countryLabel": "Deutschland",
+   "typeLabel": "Gewerbebetrieb",
+   "matched_by": "P1278 LEI"
+  }
+ ],
+ "molkerei-alois-mueller-gmbh-co-kg-zollerstra-e-7": [
+  {
+   "key": "529900ASH0JL6PAY8526",
+   "item": "http://www.wikidata.org/entity/Q113464990",
+   "site": "http://www.muellermilch.de/",
+   "itemLabel": "Molkerei Alois Müller GmbH & Co. KG",
+   "countryLabel": "Deutschland",
+   "typeLabel": "Gewerbebetrieb",
+   "matched_by": "P1278 LEI"
+  }
+ ],
+ "ruegenwalder-muehle-carl-mueller-gmbh-co-kg": [
+  {
+   "key": "5299003YOGW9AD7K4H05",
+   "item": "http://www.wikidata.org/entity/Q2203886",
+   "site": "http://www.ruegenwalder.de/",
+   "inception": "1834-01-01T00:00:00Z",
+   "itemLabel": "Rügenwalder Mühle",
+   "countryLabel": "Deutschland",
+   "typeLabel": "Lebensmittelhersteller",
+   "matched_by": "P1278 LEI"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q2203886",
+   "key": "http://www.ruegenwalder.de/",
+   "site": "http://www.ruegenwalder.de/",
+   "inception": "1834-01-01T00:00:00Z",
+   "itemLabel": "Rügenwalder Mühle",
+   "countryLabel": "Deutschland",
+   "typeLabel": "Lebensmittelhersteller",
+   "matched_by": "P856 official website = row website"
+  }
+ ],
+ "billa-aktiengesellschaft": [
+  {
+   "item": "http://www.wikidata.org/entity/Q537781",
+   "emp": "20000",
+   "empTime": "2021-01-01T00:00:00Z",
+   "key": "https://www.billa.at/",
+   "site": "https://www.billa.at/",
+   "inception": "1953-01-01T00:00:00Z",
+   "itemLabel": "Billa",
+   "countryLabel": "Österreich",
+   "typeLabel": "Marke",
+   "matched_by": "P856 official website = row website"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q537781",
+   "emp": "20000",
+   "empTime": "2021-01-01T00:00:00Z",
+   "key": "https://www.billa.at/",
+   "site": "https://www.billa.at/",
+   "inception": "1953-01-01T00:00:00Z",
+   "itemLabel": "Billa",
+   "countryLabel": "Österreich",
+   "typeLabel": "Gewerbebetrieb",
+   "matched_by": "P856 official website = row website"
+  }
+ ],
+ "iglo-austria-gmbh": [
+  {
+   "item": "http://www.wikidata.org/entity/Q1657184",
+   "key": "http://www.iglo.at/",
+   "site": "http://www.iglo.at/",
+   "itemLabel": "Iglo (Österreich)",
+   "countryLabel": "Österreich",
+   "typeLabel": "Markenzeichen",
+   "matched_by": "P856 official website = row website"
+  }
+ ],
+ "iglo-gmbh": [
+  {
+   "item": "http://www.wikidata.org/entity/Q1657184",
+   "key": "http://www.iglo.at/",
+   "site": "http://www.iglo.at/",
+   "itemLabel": "Iglo (Österreich)",
+   "countryLabel": "Österreich",
+   "typeLabel": "Markenzeichen",
+   "matched_by": "P856 official website = row website"
+  }
+ ],
+ "maresi-austria-gmbh": [
+  {
+   "item": "http://www.wikidata.org/entity/Q1894730",
+   "key": "http://www.maresi.at/",
+   "site": "http://www.maresi.at/",
+   "inception": "1949-01-01T00:00:00Z",
+   "itemLabel": "Maresi",
+   "countryLabel": "Österreich",
+   "typeLabel": "Markenzeichen",
+   "matched_by": "P856 official website = row website"
+  }
+ ],
+ "alnatura-produktions-und-handels-gmbh": [
+  {
+   "item": "http://www.wikidata.org/entity/Q876811",
+   "key": "https://www.alnatura.de/",
+   "site": "https://www.alnatura.de/",
+   "inception": "1984-01-01T00:00:00Z",
+   "itemLabel": "Alnatura",
+   "countryLabel": "Deutschland",
+   "typeLabel": "Gewerbebetrieb",
+   "matched_by": "P856 official website = row website"
+  }
+ ],
+ "alnatura-gmbh": [
+  {
+   "item": "http://www.wikidata.org/entity/Q876811",
+   "key": "https://www.alnatura.de/",
+   "site": "https://www.alnatura.de/",
+   "inception": "1984-01-01T00:00:00Z",
+   "itemLabel": "Alnatura",
+   "countryLabel": "Deutschland",
+   "typeLabel": "Gewerbebetrieb",
+   "matched_by": "P856 official website = row website"
+  }
+ ],
+ "ehrmann-gmbh": [
+  {
+   "item": "http://www.wikidata.org/entity/Q1300922",
+   "key": "https://www.ehrmann.de/",
+   "site": "https://www.ehrmann.de/",
+   "inception": "1920-01-01T00:00:00Z",
+   "itemLabel": "Ehrmann SE",
+   "countryLabel": "Deutschland",
+   "typeLabel": "Molkerei",
+   "rev": "750000000",
+   "revTime": "2017-01-01T00:00:00Z",
+   "emp": "2400",
+   "empTime": "2018-01-01T00:00:00Z",
+   "revUnitLabel": "Euro",
+   "matched_by": "P856 official website = row website"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q1300922",
+   "key": "https://www.ehrmann.de/",
+   "site": "https://www.ehrmann.de/",
+   "inception": "1920-01-01T00:00:00Z",
+   "itemLabel": "Ehrmann SE",
+   "countryLabel": "Deutschland",
+   "typeLabel": "Gewerbebetrieb",
+   "rev": "750000000",
+   "revTime": "2017-01-01T00:00:00Z",
+   "emp": "2400",
+   "empTime": "2018-01-01T00:00:00Z",
+   "revUnitLabel": "Euro",
+   "matched_by": "P856 official website = row website"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q1300922",
+   "key": "https://www.ehrmann.de/",
+   "site": "https://www.ehrmann.de/",
+   "inception": "1920-01-01T00:00:00Z",
+   "itemLabel": "Ehrmann SE",
+   "countryLabel": "Deutschland",
+   "typeLabel": "Unternehmen",
+   "rev": "750000000",
+   "revTime": "2017-01-01T00:00:00Z",
+   "emp": "2400",
+   "empTime": "2018-01-01T00:00:00Z",
+   "revUnitLabel": "Euro",
+   "matched_by": "P856 official website = row website"
+  }
+ ],
+ "frosta-ag": [
+  {
+   "key": "https://www.frosta-ag.com/",
+   "item": "http://www.wikidata.org/entity/Q1470518",
+   "site": "https://www.frosta-ag.com/",
+   "inception": "1905-01-01T00:00:00Z",
+   "itemLabel": "Frosta",
+   "countryLabel": "Deutschland",
+   "typeLabel": "börsennotiertes Unternehmen",
+   "matched_by": "P856 official website = row website"
+  }
+ ],
+ "mpreis-warenvertriebs-gmbh": [
+  {
+   "key": "https://www.mpreis.at/",
+   "item": "http://www.wikidata.org/entity/Q873491",
+   "site": "https://www.mpreis.at/",
+   "inception": "1920-01-01T00:00:00Z",
+   "itemLabel": "MPreis",
+   "countryLabel": "Österreich",
+   "typeLabel": "Markenzeichen",
+   "matched_by": "P856 official website = row website"
+  },
+  {
+   "key": "https://www.mpreis.at/",
+   "item": "http://www.wikidata.org/entity/Q873491",
+   "site": "https://www.mpreis.at/",
+   "inception": "1920-01-01T00:00:00Z",
+   "itemLabel": "MPreis",
+   "countryLabel": "Österreich",
+   "typeLabel": "Unternehmen",
+   "matched_by": "P856 official website = row website"
+  },
+  {
+   "key": "https://www.mpreis.at/",
+   "item": "http://www.wikidata.org/entity/Q873491",
+   "site": "https://www.mpreis.at/",
+   "inception": "1920-01-01T00:00:00Z",
+   "itemLabel": "MPreis",
+   "countryLabel": "Österreich",
+   "typeLabel": "Supermarktkette",
+   "matched_by": "P856 official website = row website"
+  }
+ ],
+ "noem-ag": [
+  {
+   "key": "http://www.noem.at/",
+   "item": "http://www.wikidata.org/entity/Q1315139",
+   "site": "http://www.noem.at/",
+   "inception": "1898-01-01T00:00:00Z",
+   "itemLabel": "NÖM",
+   "countryLabel": "Österreich",
+   "typeLabel": "Molkerei",
+   "matched_by": "P856 official website = row website"
+  },
+  {
+   "key": "http://www.noem.at/",
+   "item": "http://www.wikidata.org/entity/Q1315139",
+   "site": "http://www.noem.at/",
+   "inception": "1898-01-01T00:00:00Z",
+   "itemLabel": "NÖM",
+   "countryLabel": "Österreich",
+   "typeLabel": "Gewerbebetrieb",
+   "matched_by": "P856 official website = row website"
+  },
+  {
+   "key": "http://www.noem.at/",
+   "item": "http://www.wikidata.org/entity/Q1315139",
+   "site": "http://www.noem.at/",
+   "inception": "1898-01-01T00:00:00Z",
+   "itemLabel": "NÖM",
+   "countryLabel": "Österreich",
+   "typeLabel": "Unternehmen",
+   "matched_by": "P856 official website = row website"
+  }
+ ],
+ "ja-natuerlich-naturprodukte-gesellschaft-mbh": [
+  {
+   "key": "https://www.janatuerlich.at/",
+   "item": "http://www.wikidata.org/entity/Q1676723",
+   "site": "https://www.janatuerlich.at/",
+   "inception": "1994-01-01T00:00:00Z",
+   "itemLabel": "Ja! Natürlich",
+   "typeLabel": "Markenzeichen",
+   "matched_by": "P856 official website = row website"
+  }
+ ],
+ "radatz-feine-wiener-fleischwaren-gesellschaft-mbh": [
+  {
+   "key": "http://www.radatz.at",
+   "item": "http://www.wikidata.org/entity/Q17127033",
+   "site": "http://www.radatz.at",
+   "inception": "1962-01-01T00:00:00Z",
+   "itemLabel": "Radatz",
+   "countryLabel": "Österreich",
+   "typeLabel": "Gewerbebetrieb",
+   "matched_by": "P856 official website = row website"
+  }
+ ],
+ "a-darbo-ag": [
+  {
+   "key": "http://www.darbo.at/",
+   "item": "http://www.wikidata.org/entity/Q361203",
+   "site": "http://www.darbo.at/",
+   "inception": "1879-01-01T00:00:00Z",
+   "itemLabel": "Adolf Darbo AG",
+   "countryLabel": "Österreich",
+   "typeLabel": "Aktiengesellschaft",
+   "matched_by": "P856 official website = row website"
+  },
+  {
+   "key": "http://www.darbo.at/",
+   "item": "http://www.wikidata.org/entity/Q361203",
+   "site": "http://www.darbo.at/",
+   "inception": "1879-01-01T00:00:00Z",
+   "itemLabel": "Adolf Darbo AG",
+   "countryLabel": "Österreich",
+   "typeLabel": "Gewerbebetrieb",
+   "matched_by": "P856 official website = row website"
+  },
+  {
+   "key": "http://www.darbo.at/",
+   "item": "http://www.wikidata.org/entity/Q361203",
+   "site": "http://www.darbo.at/",
+   "inception": "1879-01-01T00:00:00Z",
+   "itemLabel": "Adolf Darbo AG",
+   "countryLabel": "Österreich",
+   "typeLabel": "Unternehmen",
+   "matched_by": "P856 official website = row website"
+  }
+ ],
+ "bertagni-1882-spa": [
+  {
+   "key": "https://www.bertagni1882.it/",
+   "item": "http://www.wikidata.org/entity/Q3638898",
+   "site": "https://www.bertagni1882.it/",
+   "inception": "1882-01-01T00:00:00Z",
+   "itemLabel": "Bertagni",
+   "countryLabel": "Italien",
+   "typeLabel": "Gewerbebetrieb",
+   "matched_by": "P856 official website = row website"
+  },
+  {
+   "key": "https://www.bertagni1882.it/",
+   "item": "http://www.wikidata.org/entity/Q3638898",
+   "site": "https://www.bertagni1882.it/",
+   "inception": "1882-01-01T00:00:00Z",
+   "itemLabel": "Bertagni",
+   "countryLabel": "Italien",
+   "typeLabel": "Unternehmen",
+   "matched_by": "P856 official website = row website"
+  },
+  {
+   "key": "https://www.bertagni1882.it/",
+   "item": "http://www.wikidata.org/entity/Q3638898",
+   "site": "https://www.bertagni1882.it/",
+   "inception": "1882-01-01T00:00:00Z",
+   "itemLabel": "Bertagni",
+   "countryLabel": "Italien",
+   "typeLabel": "Nudelladen",
+   "matched_by": "P856 official website = row website"
+  }
+ ],
+ "landliebe-gmbh": [
+  {
+   "key": "http://www.landliebe.de/",
+   "item": "http://www.wikidata.org/entity/Q1803609",
+   "site": "http://www.landliebe.de/",
+   "itemLabel": "Landliebe",
+   "countryLabel": "Deutschland",
+   "typeLabel": "Markenzeichen",
+   "matched_by": "P856 official website = row website"
+  }
+ ],
+ "hamker-vertriebsgesellschaft-mbh": [
+  {
+   "key": "https://www.hamker.de/",
+   "item": "http://www.wikidata.org/entity/Q1510152",
+   "site": "https://www.hamker.de/",
+   "inception": "1907-01-01T00:00:00Z",
+   "itemLabel": "Heinrich Hamker Lebensmittelwerke",
+   "countryLabel": "Deutschland",
+   "typeLabel": "Gewerbebetrieb",
+   "matched_by": "P856 official website = row website"
+  }
+ ],
+ "dr-schaer-spa": [
+  {
+   "key": "https://www.schaer.com/",
+   "item": "http://www.wikidata.org/entity/Q139769997",
+   "site": "https://www.schaer.com/",
+   "itemLabel": "Q139769997",
+   "typeLabel": "Markenzeichen",
+   "matched_by": "P856 official website = row website"
+  },
+  {
+   "key": "https://www.schaer.com/",
+   "item": "http://www.wikidata.org/entity/Q139769997",
+   "site": "https://www.schaer.com/",
+   "itemLabel": "Q139769997",
+   "typeLabel": "Lebensmittelmarke",
+   "matched_by": "P856 official website = row website"
+  }
+ ],
+ "hochreiter-quality-meat-factory-gmbh": [
+  {
+   "key": "https://www.hochreiter-gruppe.at/",
+   "item": "http://www.wikidata.org/entity/Q61749592",
+   "site": "https://www.hochreiter-gruppe.at/",
+   "itemLabel": "Hochreiter Gruppe",
+   "countryLabel": "Österreich",
+   "typeLabel": "Gewerbebetrieb",
+   "matched_by": "P856 official website = row website"
+  }
+ ],
+ "aia-spa": [
+  {
+   "key": "http://www.aiafood.com",
+   "item": "http://www.wikidata.org/entity/Q3606861",
+   "site": "http://www.aiafood.com",
+   "inception": "1968-01-01T00:00:00Z",
+   "itemLabel": "Agricola Italiana Alimentare",
+   "countryLabel": "Italien",
+   "typeLabel": "Gewerbebetrieb",
+   "matched_by": "P856 official website = row website"
+  },
+  {
+   "key": "http://www.aiafood.com",
+   "item": "http://www.wikidata.org/entity/Q3606861",
+   "site": "http://www.aiafood.com",
+   "inception": "1968-01-01T00:00:00Z",
+   "itemLabel": "Agricola Italiana Alimentare",
+   "countryLabel": "Italien",
+   "typeLabel": "Unternehmen",
+   "matched_by": "P856 official website = row website"
+  }
+ ],
+ "meica-gmbh": [
+  {
+   "key": "http://www.meica.de",
+   "item": "http://www.wikidata.org/entity/Q1917657",
+   "site": "http://www.meica.de",
+   "inception": "1908-01-01T00:00:00Z",
+   "itemLabel": "Meica",
+   "countryLabel": "Deutschland",
+   "typeLabel": "Gewerbebetrieb",
+   "matched_by": "P856 official website = row website"
+  },
+  {
+   "key": "http://www.meica.de",
+   "item": "http://www.wikidata.org/entity/Q1917657",
+   "site": "http://www.meica.de",
+   "inception": "1908-01-01T00:00:00Z",
+   "itemLabel": "Meica",
+   "countryLabel": "Deutschland",
+   "typeLabel": "Unternehmen",
+   "matched_by": "P856 official website = row website"
+  }
+ ],
+ "recheis-teigwaren-gmbh": [
+  {
+   "key": "https://www.recheis.com/",
+   "item": "http://www.wikidata.org/entity/Q108270121",
+   "site": "https://www.recheis.com/",
+   "itemLabel": "Josef Recheis Eierteigwarenfabrik und Walzmühle Gesellschaft m.b.H.",
+   "countryLabel": "Österreich",
+   "typeLabel": "Gewerbebetrieb",
+   "matched_by": "P856 official website = row website"
+  }
+ ],
+ "wiesbauer-oesterreichische-wurstspezialitaeten-gmbh": [
+  {
+   "item": "http://www.wikidata.org/entity/Q1557953",
+   "emp": "700",
+   "key": "http://www.wiesbauer.at",
+   "site": "http://www.wiesbauer.at",
+   "inception": "1931-01-01T00:00:00Z",
+   "itemLabel": "Wiesbauer",
+   "countryLabel": "Österreich",
+   "typeLabel": "Unternehmen",
+   "matched_by": "P856 official website = row website"
+  }
+ ],
+ "hofer-kg": [
+  {
+   "key": "https://www.hofer.at/",
+   "item": "http://www.wikidata.org/entity/Q15815751",
+   "site": "https://www.hofer.at/",
+   "inception": "1962-01-01T00:00:00Z",
+   "itemLabel": "Hofer KG",
+   "countryLabel": "Österreich",
+   "typeLabel": "Markenzeichen",
+   "matched_by": "P856 official website = row website"
+  },
+  {
+   "key": "https://www.hofer.at/",
+   "item": "http://www.wikidata.org/entity/Q15815751",
+   "site": "https://www.hofer.si/sl/domov.html",
+   "inception": "1962-01-01T00:00:00Z",
+   "itemLabel": "Hofer KG",
+   "countryLabel": "Österreich",
+   "typeLabel": "Markenzeichen",
+   "matched_by": "P856 official website = row website"
+  },
+  {
+   "key": "https://www.hofer.at/",
+   "item": "http://www.wikidata.org/entity/Q15815751",
+   "site": "https://www.hofer.at/",
+   "inception": "1962-01-01T00:00:00Z",
+   "itemLabel": "Hofer KG",
+   "countryLabel": "Slowenien",
+   "typeLabel": "Markenzeichen",
+   "matched_by": "P856 official website = row website"
+  },
+  {
+   "key": "https://www.hofer.at/",
+   "item": "http://www.wikidata.org/entity/Q15815751",
+   "site": "https://www.hofer.si/sl/domov.html",
+   "inception": "1962-01-01T00:00:00Z",
+   "itemLabel": "Hofer KG",
+   "countryLabel": "Slowenien",
+   "typeLabel": "Markenzeichen",
+   "matched_by": "P856 official website = row website"
+  },
+  {
+   "key": "https://www.hofer.at/",
+   "item": "http://www.wikidata.org/entity/Q15815751",
+   "site": "https://www.hofer.at/",
+   "inception": "1962-01-01T00:00:00Z",
+   "itemLabel": "Hofer KG",
+   "countryLabel": "Österreich",
+   "typeLabel": "Supermarktkette",
+   "matched_by": "P856 official website = row website"
+  },
+  {
+   "key": "https://www.hofer.at/",
+   "item": "http://www.wikidata.org/entity/Q15815751",
+   "site": "https://www.hofer.si/sl/domov.html",
+   "inception": "1962-01-01T00:00:00Z",
+   "itemLabel": "Hofer KG",
+   "countryLabel": "Österreich",
+   "typeLabel": "Supermarktkette",
+   "matched_by": "P856 official website = row website"
+  },
+  {
+   "key": "https://www.hofer.at/",
+   "item": "http://www.wikidata.org/entity/Q15815751",
+   "site": "https://www.hofer.at/",
+   "inception": "1962-01-01T00:00:00Z",
+   "itemLabel": "Hofer KG",
+   "countryLabel": "Slowenien",
+   "typeLabel": "Supermarktkette",
+   "matched_by": "P856 official website = row website"
+  },
+  {
+   "key": "https://www.hofer.at/",
+   "item": "http://www.wikidata.org/entity/Q15815751",
+   "site": "https://www.hofer.si/sl/domov.html",
+   "inception": "1962-01-01T00:00:00Z",
+   "itemLabel": "Hofer KG",
+   "countryLabel": "Slowenien",
+   "typeLabel": "Supermarktkette",
+   "matched_by": "P856 official website = row website"
+  }
+ ],
+ "penny-gmbh": [
+  {
+   "item": "http://www.wikidata.org/entity/Q284688",
+   "key": "https://www.penny.at/",
+   "site": "https://www.penny.at/",
+   "inception": "1973-01-01T00:00:00Z",
+   "itemLabel": "Penny",
+   "countryLabel": "Deutschland",
+   "typeLabel": "Discounter",
+   "matched_by": "P856 official website = row website"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q284688",
+   "key": "https://www.penny.at/",
+   "site": "https://www.penny.cz/",
+   "inception": "1973-01-01T00:00:00Z",
+   "itemLabel": "Penny",
+   "countryLabel": "Deutschland",
+   "typeLabel": "Discounter",
+   "matched_by": "P856 official website = row website"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q284688",
+   "key": "https://www.penny.at/",
+   "site": "https://www.penny.de",
+   "inception": "1973-01-01T00:00:00Z",
+   "itemLabel": "Penny",
+   "countryLabel": "Deutschland",
+   "typeLabel": "Discounter",
+   "matched_by": "P856 official website = row website"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q284688",
+   "key": "https://www.penny.at/",
+   "site": "https://www.penny.hu/",
+   "inception": "1973-01-01T00:00:00Z",
+   "itemLabel": "Penny",
+   "countryLabel": "Deutschland",
+   "typeLabel": "Discounter",
+   "matched_by": "P856 official website = row website"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q284688",
+   "key": "https://www.penny.at/",
+   "site": "https://www.penny.it/",
+   "inception": "1973-01-01T00:00:00Z",
+   "itemLabel": "Penny",
+   "countryLabel": "Deutschland",
+   "typeLabel": "Discounter",
+   "matched_by": "P856 official website = row website"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q284688",
+   "key": "https://www.penny.at/",
+   "site": "https://www.penny.ro/",
+   "inception": "1973-01-01T00:00:00Z",
+   "itemLabel": "Penny",
+   "countryLabel": "Deutschland",
+   "typeLabel": "Discounter",
+   "matched_by": "P856 official website = row website"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q284688",
+   "key": "https://www.penny.at/",
+   "site": "https://www.penny.at/",
+   "inception": "1973-01-01T00:00:00Z",
+   "itemLabel": "Penny",
+   "countryLabel": "Deutschland",
+   "typeLabel": "Marke",
+   "matched_by": "P856 official website = row website"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q284688",
+   "key": "https://www.penny.at/",
+   "site": "https://www.penny.cz/",
+   "inception": "1973-01-01T00:00:00Z",
+   "itemLabel": "Penny",
+   "countryLabel": "Deutschland",
+   "typeLabel": "Marke",
+   "matched_by": "P856 official website = row website"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q284688",
+   "key": "https://www.penny.at/",
+   "site": "https://www.penny.de",
+   "inception": "1973-01-01T00:00:00Z",
+   "itemLabel": "Penny",
+   "countryLabel": "Deutschland",
+   "typeLabel": "Marke",
+   "matched_by": "P856 official website = row website"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q284688",
+   "key": "https://www.penny.at/",
+   "site": "https://www.penny.hu/",
+   "inception": "1973-01-01T00:00:00Z",
+   "itemLabel": "Penny",
+   "countryLabel": "Deutschland",
+   "typeLabel": "Marke",
+   "matched_by": "P856 official website = row website"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q284688",
+   "key": "https://www.penny.at/",
+   "site": "https://www.penny.it/",
+   "inception": "1973-01-01T00:00:00Z",
+   "itemLabel": "Penny",
+   "countryLabel": "Deutschland",
+   "typeLabel": "Marke",
+   "matched_by": "P856 official website = row website"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q284688",
+   "key": "https://www.penny.at/",
+   "site": "https://www.penny.ro/",
+   "inception": "1973-01-01T00:00:00Z",
+   "itemLabel": "Penny",
+   "countryLabel": "Deutschland",
+   "typeLabel": "Marke",
+   "matched_by": "P856 official website = row website"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q284688",
+   "key": "https://www.penny.at/",
+   "site": "https://www.penny.at/",
+   "inception": "1973-01-01T00:00:00Z",
+   "itemLabel": "Penny",
+   "countryLabel": "Deutschland",
+   "typeLabel": "Gewerbebetrieb",
+   "matched_by": "P856 official website = row website"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q284688",
+   "key": "https://www.penny.at/",
+   "site": "https://www.penny.cz/",
+   "inception": "1973-01-01T00:00:00Z",
+   "itemLabel": "Penny",
+   "countryLabel": "Deutschland",
+   "typeLabel": "Gewerbebetrieb",
+   "matched_by": "P856 official website = row website"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q284688",
+   "key": "https://www.penny.at/",
+   "site": "https://www.penny.de",
+   "inception": "1973-01-01T00:00:00Z",
+   "itemLabel": "Penny",
+   "countryLabel": "Deutschland",
+   "typeLabel": "Gewerbebetrieb",
+   "matched_by": "P856 official website = row website"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q284688",
+   "key": "https://www.penny.at/",
+   "site": "https://www.penny.hu/",
+   "inception": "1973-01-01T00:00:00Z",
+   "itemLabel": "Penny",
+   "countryLabel": "Deutschland",
+   "typeLabel": "Gewerbebetrieb",
+   "matched_by": "P856 official website = row website"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q284688",
+   "key": "https://www.penny.at/",
+   "site": "https://www.penny.it/",
+   "inception": "1973-01-01T00:00:00Z",
+   "itemLabel": "Penny",
+   "countryLabel": "Deutschland",
+   "typeLabel": "Gewerbebetrieb",
+   "matched_by": "P856 official website = row website"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q284688",
+   "key": "https://www.penny.at/",
+   "site": "https://www.penny.ro/",
+   "inception": "1973-01-01T00:00:00Z",
+   "itemLabel": "Penny",
+   "countryLabel": "Deutschland",
+   "typeLabel": "Gewerbebetrieb",
+   "matched_by": "P856 official website = row website"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q284688",
+   "key": "https://www.penny.at/",
+   "site": "https://www.penny.at/",
+   "inception": "1973-01-01T00:00:00Z",
+   "itemLabel": "Penny",
+   "countryLabel": "Deutschland",
+   "typeLabel": "Supermarktkette",
+   "matched_by": "P856 official website = row website"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q284688",
+   "key": "https://www.penny.at/",
+   "site": "https://www.penny.cz/",
+   "inception": "1973-01-01T00:00:00Z",
+   "itemLabel": "Penny",
+   "countryLabel": "Deutschland",
+   "typeLabel": "Supermarktkette",
+   "matched_by": "P856 official website = row website"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q284688",
+   "key": "https://www.penny.at/",
+   "site": "https://www.penny.de",
+   "inception": "1973-01-01T00:00:00Z",
+   "itemLabel": "Penny",
+   "countryLabel": "Deutschland",
+   "typeLabel": "Supermarktkette",
+   "matched_by": "P856 official website = row website"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q284688",
+   "key": "https://www.penny.at/",
+   "site": "https://www.penny.hu/",
+   "inception": "1973-01-01T00:00:00Z",
+   "itemLabel": "Penny",
+   "countryLabel": "Deutschland",
+   "typeLabel": "Supermarktkette",
+   "matched_by": "P856 official website = row website"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q284688",
+   "key": "https://www.penny.at/",
+   "site": "https://www.penny.it/",
+   "inception": "1973-01-01T00:00:00Z",
+   "itemLabel": "Penny",
+   "countryLabel": "Deutschland",
+   "typeLabel": "Supermarktkette",
+   "matched_by": "P856 official website = row website"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q284688",
+   "key": "https://www.penny.at/",
+   "site": "https://www.penny.ro/",
+   "inception": "1973-01-01T00:00:00Z",
+   "itemLabel": "Penny",
+   "countryLabel": "Deutschland",
+   "typeLabel": "Supermarktkette",
+   "matched_by": "P856 official website = row website"
+  }
+ ],
+ "inzersdorfer-nahrungsmittelwerke": [
+  {
+   "item": "http://www.wikidata.org/entity/Q1671851",
+   "key": "http://www.inzersdorfer.at",
+   "site": "http://www.inzersdorfer.at",
+   "inception": "1870-01-01T00:00:00Z",
+   "itemLabel": "Inzersdorfer",
+   "countryLabel": "Österreich",
+   "typeLabel": "Markenzeichen",
+   "emp": "140",
+   "matched_by": "P856 official website = row website"
+  }
+ ],
+ "spar-oesterreichische-warenhandels-aktiengesellschaft": [
+  {
+   "item": "http://www.wikidata.org/entity/Q2307103",
+   "key": "http://www.spar.at/",
+   "site": "http://www.spar.at/",
+   "inception": "1954-01-01T00:00:00Z",
+   "itemLabel": "Spar Österreichische Warenhandels-AG",
+   "countryLabel": "Österreich",
+   "typeLabel": "Gewerbebetrieb",
+   "emp": "74952",
+   "matched_by": "P856 official website = row website"
+  }
+ ],
+ "lidl-oesterreich-gmbh": [
+  {
+   "item": "http://www.wikidata.org/entity/Q57018091",
+   "key": "https://www.lidl.at/",
+   "site": "https://www.lidl.at/",
+   "inception": "1998-01-01T00:00:00Z",
+   "itemLabel": "Lidl Österreich",
+   "countryLabel": "Österreich",
+   "typeLabel": "Unternehmen",
+   "matched_by": "P856 official website = row website"
+  }
+ ]
+}
