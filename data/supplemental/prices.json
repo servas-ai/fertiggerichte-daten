@@ -2806,5 +2806,14 @@
   "price_status": "live 2026",
   "fetched_at": "2026-10-14",
   "price_source": "alfies.at Wien (Warehouse altha) Algolia-Index 2026-10-14 (food-connectors alfies)"
+ },
+ {
+  "product_id": "9c356eb999ab",
+  "chain": "Denn's",
+  "price_eur": 6.29,
+  "price_per_kg_eur": 23.22,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-16",
+  "price_source": "food-connectors/denns 2026-10-16 (denn's BioMarkt AT 'Neu im Sortiment' page-data, isInAustria): Regalpreis 6.29 €; 1 kg = 23,22; Packung 270 g"
  }
 ]
