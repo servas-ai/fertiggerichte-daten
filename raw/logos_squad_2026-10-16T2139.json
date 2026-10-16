@@ -1,0 +1,41 @@
+{
+ "run": "2026-10-16T2139 Daten-Squad",
+ "generated_at": "2026-10-16T21:49:22.443361+00:00",
+ "added": [
+  {
+   "slug": "myproduct",
+   "note": "Vision gate 2026-10-16T2139 (Daten-Squad): visuell geprüft (korrekte Marke, lesbar, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · Offizielles 'myProduct.at'-Logo (grün-pinkes Blatt-Signet, graues 'my' + pinkes 'Product' + '.at' in pinkem Rahmen) von myproduct.at, unverändert 520x162 RGBA; Betreiber myProduct GmbH, Zwettl, FN 431059k",
+   "source": "https://myproduct.at/media/logo/default/myproductatlogo.png (myproduct.at header/cookie-banner <img alt='Logo myProduct.at'>; robots allow /media/)",
+   "sha256": "74c64d6e0ce6f618b748d4d9a176492727c40571cd1153e8c91bbb5d0a2dd64f",
+   "products_impacted": 0,
+   "aliases": [
+    "myProduct",
+    "myProduct.at",
+    "myproduct.at",
+    "myProduct GmbH",
+    "Online: myProduct"
+   ]
+  }
+ ],
+ "updated_fileless": [],
+ "aliases_added": {},
+ "rejected": {
+  "myproduct.at schema.org Organization.logo (theme images/logo.svg)": "renders as the 'MageSuite.io' theme-vendor wordmark (Magento theme placeholder), not the myProduct brand → rejected",
+  "Hartl's Kulinarikum": "site shows only photo header banners (header_web_hartls2), no standalone logo asset → no logo",
+  "BioArt AG": "only 198x45 / 70x92 header rasters on bioart.at → too small, deferred",
+  "Rapunzel": "rapunzel.de header exposes only icon SVGs (no wordmark asset URL in HTML) → deferred"
+ },
+ "vision_gate": {
+  "myproduct": "PASS — myProduct.at wordmark with green leaf mark and pink frame (PNG 520x162 RGBA, readable on white)"
+ },
+ "counts": {
+  "added": 1,
+  "updated_fileless": 0,
+  "total_rows": 299,
+  "with_file": 284,
+  "products_impacted_total": 0
+ },
+ "sha256": {
+  "myproduct": "74c64d6e0ce6f618b748d4d9a176492727c40571cd1153e8c91bbb5d0a2dd64f"
+ }
+}

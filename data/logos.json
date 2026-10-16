@@ -3267,5 +3267,19 @@
    "mamma emma",
    "MAMMA EMMA"
   ]
+ },
+ {
+  "slug": "myproduct",
+  "name": "myProduct",
+  "category": "Handelskette",
+  "file": "logos/myproduct.png",
+  "source_url": "https://myproduct.at/media/logo/default/myproductatlogo.png (myproduct.at header/cookie-banner <img alt='Logo myProduct.at'>; robots allow /media/)",
+  "brands": [
+   "myProduct",
+   "myProduct.at",
+   "myproduct.at",
+   "myProduct GmbH",
+   "Online: myProduct"
+  ]
  }
 ]

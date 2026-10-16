@@ -1,0 +1,350 @@
+[
+ {
+  "brand": "Hartl's Kulinarikum",
+  "name": "Andreas Hartl",
+  "domain": "hartls-kulinarikum.at",
+  "gleif": [],
+  "imp": {
+   "domain": "hartls-kulinarikum.at",
+   "imprint_url": null,
+   "fetched_at": "2026-10-16T21:41:27Z",
+   "uids": [],
+   "fn": [],
+   "hrb": [],
+   "court": null,
+   "best": null,
+   "error": "no imprint page with register/VAT ids found (or robots-disallowed / JS-only)"
+  }
+ },
+ {
+  "brand": "Danke Bauer",
+  "name": "Roman Fenz e.U.",
+  "domain": "dankebauer.com",
+  "gleif": [
+   {
+    "lei": "529900H4WE9MUT4KAE53",
+    "legal_name": "Roman Fenz e.U.",
+    "register_id": "368109m",
+    "register_ra": "RA000017",
+    "legal_form": "ECWU",
+    "status": "ACTIVE",
+    "jurisdiction": "AT",
+    "address": "Bichlweg 6, 9500 Villach, AT",
+    "country": "AT",
+    "creation_date": "2011-09-14T22:00:00Z",
+    "registration_status": "ISSUED",
+    "source": "https://api.gleif.org/api/v1/lei-records/529900H4WE9MUT4KAE53",
+    "fetched_at": "2026-10-16T21:41:29Z"
+   }
+  ],
+  "imp": {
+   "domain": "dankebauer.com",
+   "imprint_url": "https://dankebauer.com/at/impressum",
+   "fetched_at": "2026-10-16T21:42:29Z",
+   "uids": [
+    {
+     "uid": "ATU57151209",
+     "valid": true,
+     "vies_name": "Fenz Roman",
+     "vies_address": "Bichlweg 6\nAT-9500 Villach",
+     "checked_at": "2026-10-16T21:42:29.961Z",
+     "name_match": 0.5
+    }
+   ],
+   "fn": [
+    "FN 368109m"
+   ],
+   "hrb": [],
+   "court": "Landesgericht Klagenfurt",
+   "best": {
+    "uid": "ATU57151209",
+    "valid": true,
+    "vies_name": "Fenz Roman",
+    "vies_address": "Bichlweg 6\nAT-9500 Villach",
+    "checked_at": "2026-10-16T21:42:29.961Z",
+    "name_match": 0.5
+   },
+   "source": "public legal notice + EU VIES"
+  }
+ },
+ {
+  "brand": "Arche",
+  "name": "Arche Naturprodukte GmbH",
+  "domain": "arche-naturkueche.de",
+  "gleif": [
+   {
+    "lei": "529900BMCO2TYYBU4P09",
+    "legal_name": "ARCHE Naturprodukte GmbH",
+    "register_id": "HRB 85754",
+    "register_ra": "RA000234",
+    "legal_form": "2HBR",
+    "status": "ACTIVE",
+    "jurisdiction": "DE",
+    "address": "Liebigstraße 5a, 40721 Hilden, DE",
+    "country": "DE",
+    "creation_date": "2018-12-04T23:00:00Z",
+    "registration_status": "ISSUED",
+    "source": "https://api.gleif.org/api/v1/lei-records/529900BMCO2TYYBU4P09",
+    "fetched_at": "2026-10-16T21:42:31Z"
+   }
+  ],
+  "imp": {
+   "domain": "arche-naturkueche.de",
+   "imprint_url": "https://arche-naturkueche.de/de/impressum.php",
+   "fetched_at": "2026-10-16T21:42:40Z",
+   "uids": [
+    {
+     "uid": "DE322242442",
+     "valid": false,
+     "vies_name": null,
+     "vies_address": null,
+     "checked_at": null
+    }
+   ],
+   "fn": [],
+   "hrb": [
+    "HRB 85754"
+   ],
+   "court": null,
+   "best": null,
+   "source": "public legal notice + EU VIES"
+  }
+ },
+ {
+  "brand": "Bioart",
+  "name": "BIOART AG",
+  "domain": "bioart.at",
+  "gleif": [
+   {
+    "lei": "5299004CIGK3WLRBB426",
+    "legal_name": "BioArt AG",
+    "register_id": "306867a",
+    "register_ra": "RA000017",
+    "legal_form": "EQOV",
+    "status": "ACTIVE",
+    "jurisdiction": "AT",
+    "address": "Biodorfweg 4, 5164 Seeham, AT",
+    "country": "AT",
+    "creation_date": "2007-12-27T23:00:00Z",
+    "registration_status": "LAPSED",
+    "source": "https://api.gleif.org/api/v1/lei-records/5299004CIGK3WLRBB426",
+    "fetched_at": "2026-10-16T21:42:42Z"
+   }
+  ],
+  "imp": {
+   "domain": "bioart.at",
+   "imprint_url": "https://bioart.at/impressum",
+   "fetched_at": "2026-10-16T21:43:18Z",
+   "uids": [
+    {
+     "uid": "ATU64243713",
+     "valid": true,
+     "vies_name": "BioArt AG",
+     "vies_address": "Biodorf-Weg 4\nAT-5164 Seeham",
+     "checked_at": "2026-10-16T21:43:20.127Z",
+     "name_match": 1.0
+    }
+   ],
+   "fn": [],
+   "hrb": [],
+   "court": "Salzburg",
+   "best": {
+    "uid": "ATU64243713",
+    "valid": true,
+    "vies_name": "BioArt AG",
+    "vies_address": "Biodorf-Weg 4\nAT-5164 Seeham",
+    "checked_at": "2026-10-16T21:43:20.127Z",
+    "name_match": 1.0
+   },
+   "source": "public legal notice + EU VIES"
+  }
+ },
+ {
+  "brand": "Ökoland",
+  "name": "Ökoland GmbH Nord",
+  "domain": "oekoland.de",
+  "gleif": [
+   {
+    "lei": "3912002MJDIL66IVKQ44",
+    "legal_name": "Ökoland GmbH Nord Vertriebsgesellschaft für ökologische Erzeugnisse",
+    "register_id": "HRB 201209",
+    "register_ra": "RA000262",
+    "legal_form": "2HBR",
+    "status": "ACTIVE",
+    "jurisdiction": "DE",
+    "address": "Georgstr. 3, 31515 Wunstorf, DE",
+    "country": "DE",
+    "creation_date": "1991-11-07T23:00:00Z",
+    "registration_status": "ISSUED",
+    "source": "https://api.gleif.org/api/v1/lei-records/3912002MJDIL66IVKQ44",
+    "fetched_at": "2026-10-16T21:43:21Z"
+   }
+  ],
+  "imp": {
+   "domain": "oekoland.de",
+   "imprint_url": "https://oekoland.de/impressum/",
+   "fetched_at": "2026-10-16T21:43:30Z",
+   "uids": [
+    {
+     "uid": "DE116156996",
+     "valid": false,
+     "vies_name": null,
+     "vies_address": null,
+     "checked_at": null
+    }
+   ],
+   "fn": [],
+   "hrb": [
+    "HRB 201209"
+   ],
+   "court": "Amtsgericht Hannover",
+   "best": null,
+   "source": "public legal notice + EU VIES"
+  }
+ },
+ {
+  "brand": "Rapunzel",
+  "name": "Rapunzel Naturkost GmbH",
+  "domain": "rapunzel.de",
+  "gleif": [
+   {
+    "lei": "529900Q11GX6NB4F4574",
+    "legal_name": "Rapunzel Naturkost GmbH & Co. KG",
+    "register_id": "HRA 14236",
+    "register_ra": "RA000299",
+    "legal_form": "2HBR",
+    "status": "ACTIVE",
+    "jurisdiction": "DE",
+    "address": "Rapunzelstraße 1, 87764 Legau, DE",
+    "country": "DE",
+    "creation_date": "2011-08-01T22:00:00Z",
+    "registration_status": "ISSUED",
+    "source": "https://api.gleif.org/api/v1/lei-records/529900Q11GX6NB4F4574",
+    "fetched_at": "2026-10-16T21:43:32Z"
+   }
+  ],
+  "imp": {
+   "domain": "rapunzel.de",
+   "imprint_url": "https://rapunzel.de/impressum",
+   "fetched_at": "2026-10-16T21:43:39Z",
+   "uids": [
+    {
+     "uid": "DE129088402",
+     "valid": false,
+     "vies_name": null,
+     "vies_address": null,
+     "checked_at": null
+    }
+   ],
+   "fn": [],
+   "hrb": [
+    "HRA 14236",
+    "HRB 21431"
+   ],
+   "court": "Amtsgericht Memmingen",
+   "best": null,
+   "source": "public legal notice + EU VIES"
+  }
+ },
+ {
+  "brand": "Schenkel",
+  "name": "Schenkel Erich GmbH",
+  "domain": null,
+  "gleif": []
+ },
+ {
+  "brand": "Petersilchen",
+  "name": "Petersilchen GmbH",
+  "domain": "petersilchen.de",
+  "gleif": [],
+  "imp": {
+   "domain": "petersilchen.de",
+   "imprint_url": null,
+   "fetched_at": "2026-10-16T21:44:21Z",
+   "uids": [],
+   "fn": [],
+   "hrb": [],
+   "court": null,
+   "best": null,
+   "error": "no imprint page with register/VAT ids found (or robots-disallowed / JS-only)"
+  }
+ },
+ {
+  "brand": "Egesun",
+  "name": "EGESUN GmbH & Co. KG",
+  "domain": "egesun.de",
+  "gleif": [
+   {
+    "lei": "529900D2TOUXZ7QYGX57",
+    "legal_name": "EgeSun GmbH & Co. KG",
+    "register_id": "HRA 205719",
+    "register_ra": "RA000358",
+    "legal_form": "8Z6G",
+    "status": "ACTIVE",
+    "jurisdiction": "DE",
+    "address": "Lübkemannstraße 7, 28876 Oyten, DE",
+    "country": "DE",
+    "creation_date": "2025-06-26T22:00:00Z",
+    "registration_status": "ISSUED",
+    "source": "https://api.gleif.org/api/v1/lei-records/529900D2TOUXZ7QYGX57",
+    "fetched_at": "2026-10-16T21:44:22Z"
+   }
+  ],
+  "imp": {
+   "domain": "egesun.de",
+   "imprint_url": "https://egesun.de/impressum",
+   "fetched_at": "2026-10-16T21:44:33Z",
+   "uids": [
+    {
+     "uid": "DE455151638",
+     "valid": false,
+     "vies_name": null,
+     "vies_address": null,
+     "checked_at": null
+    }
+   ],
+   "fn": [],
+   "hrb": [
+    "HRA 205719"
+   ],
+   "court": "Amtsgericht Walsrode",
+   "best": null,
+   "source": "public legal notice + EU VIES"
+  }
+ },
+ {
+  "brand": "myProduct",
+  "name": "myProduct GmbH",
+  "domain": "myproduct.at",
+  "gleif": [],
+  "imp": {
+   "domain": "myproduct.at",
+   "imprint_url": "https://myproduct.at/impressum",
+   "fetched_at": "2026-10-16T21:44:41Z",
+   "uids": [
+    {
+     "uid": "ATU69436808",
+     "valid": true,
+     "vies_name": "myProduct GmbH",
+     "vies_address": "Karl Kastner-Straße 1\nAT-3910 Zwettl-NÖ",
+     "checked_at": "2026-10-16T21:44:42.405Z",
+     "name_match": 1.0
+    }
+   ],
+   "fn": [
+    "FN 431059k"
+   ],
+   "hrb": [],
+   "court": "Landesgericht Krems",
+   "best": {
+    "uid": "ATU69436808",
+    "valid": true,
+    "vies_name": "myProduct GmbH",
+    "vies_address": "Karl Kastner-Straße 1\nAT-3910 Zwettl-NÖ",
+    "checked_at": "2026-10-16T21:44:42.405Z",
+    "name_match": 1.0
+   },
+   "source": "public legal notice + EU VIES"
+  }
+ }
+]

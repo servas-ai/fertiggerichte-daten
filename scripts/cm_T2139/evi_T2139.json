@@ -1,0 +1,57 @@
+{
+ "368109m": {
+  "url": "https://www.evi.gv.at/f/368109m",
+  "fetched_at": "2026-10-16T21:46:05Z",
+  "name": "Roman Fenz e.U.",
+  "status": "Eingetragen",
+  "eintragungsdatum": "15.09.2011",
+  "rechtsform": "Einzelunternehmer",
+  "stammkapital": null,
+  "grundkapital": null,
+  "geschaeftszweig": "Handel mit Waren aller Art",
+  "sitz": "Villach",
+  "gesellschafter_count": null,
+  "gesellschafter_links": []
+ },
+ "306867a": {
+  "url": "https://www.evi.gv.at/f/306867a",
+  "fetched_at": "2026-10-16T21:46:07Z",
+  "name": "BioArt AG",
+  "status": "Eingetragen",
+  "eintragungsdatum": "20.03.2008",
+  "rechtsform": "Aktiengesellschaft",
+  "stammkapital": "EUR 278 000",
+  "grundkapital": null,
+  "geschaeftszweig": "Produktion, Handel und Vermittlung von Waren aller Art, insbesondere in Bezug auf biologische Lebensmittel und fair gehandelte Produkte",
+  "sitz": "Seeham",
+  "gesellschafter_count": null,
+  "gesellschafter_links": []
+ },
+ "431059k": {
+  "url": "https://www.evi.gv.at/f/431059k",
+  "fetched_at": "2026-10-16T21:46:10Z",
+  "name": "myProduct GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "28.03.2015",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 36 000",
+  "grundkapital": null,
+  "geschaeftszweig": "Onlinehandel",
+  "sitz": "Zwettl-Niederösterreich",
+  "gesellschafter_count": "3 Personen",
+  "gesellschafter_links": [
+   {
+    "href": null,
+    "name": "Rainer Neuwirth, MA"
+   },
+   {
+    "href": null,
+    "name": "Michael Schruef, MA"
+   },
+   {
+    "href": "/f/44098a",
+    "name": "Kastner Großhandelsgesellschaft m.b.H."
+   }
+  ]
+ }
+}
