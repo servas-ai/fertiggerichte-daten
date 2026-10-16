@@ -1,0 +1,190 @@
+{
+ "run": "2026-10-16T2038 Daten-Squad",
+ "source": "Open Prices REST API https://prices.openfoodfacts.org/api/v1/prices?product_code=<EAN> (public, no key, ODbL 1.0)",
+ "targets": "all dataset rows with an EAN whose price is not live 2026 (Preis 2025 / Preis unbestätigt / no price)",
+ "targets_n": 240,
+ "targets_by_chain": {
+  "Hofer": 48,
+  "Lidl": 5,
+  "Spar": 17,
+  "unbekannt (OFF)": 93,
+  "Penny": 4,
+  "Denn's": 2,
+  "Billa": 15,
+  "MPreis": 2,
+  "Nah&Frisch": 3,
+  "Juit": 50,
+  "dm": 1
+ },
+ "errors": 0,
+ "eans_with_any_observation": 7,
+ "usable_for_dataset": 0,
+ "decision": "No dataset price changed: AT observations are 2024 receipts (Hofer Mödling: Lasagne di semola 1.69 on 2024-06-06, Putenknacker 3.99 on 2024-12-21; Spar Gourmet Mödling Nudel-Kräuter-Salat 2.79 on 2025-01-29) — older than or equal to the existing Preis 2025 provenance; Lidl Big Burrito ×2 are Berlin DE receipts 2026 (not AT); dm Linseneintopf 2026-06-19 1.35 has no shop location (country unknown); Ristorante Vegetar is a 2022 French observation. Recorded as a verified sparse source; connector kept for live per-EAN checks.",
+ "hits": [
+  {
+   "product_id": "a836e3e0ed64",
+   "ean": "4056489706939",
+   "chain": "Lidl",
+   "name": "Big Burrito Curry Chicken",
+   "brand": "Chef Select",
+   "pack": "300.0",
+   "status": "",
+   "observations": [
+    {
+     "date": "2026-07-22",
+     "price": 2.99,
+     "currency": "EUR",
+     "discounted": false,
+     "shop": "Lidl",
+     "city": "Berlin",
+     "country": "DE",
+     "proof_type": "RECEIPT",
+     "open_prices_id": 296023
+    },
+    {
+     "date": "2026-07-13",
+     "price": 2.99,
+     "currency": "EUR",
+     "discounted": false,
+     "shop": "Lidl",
+     "city": "Berlin",
+     "country": "DE",
+     "proof_type": "RECEIPT",
+     "open_prices_id": 293201
+    }
+   ]
+  },
+  {
+   "product_id": "3a82a691eea2",
+   "ean": "4056489886150",
+   "chain": "Lidl",
+   "name": "Big Burrito Chicken Tex-Mex",
+   "brand": "Chef Select",
+   "pack": "300.0",
+   "status": "",
+   "observations": [
+    {
+     "date": "2026-06-10",
+     "price": 2.99,
+     "currency": "EUR",
+     "discounted": false,
+     "shop": "Lidl",
+     "city": "Berlin",
+     "country": "DE",
+     "proof_type": "RECEIPT",
+     "open_prices_id": 282727
+    }
+   ]
+  },
+  {
+   "product_id": "f3b9472027f8",
+   "ean": "4099200013312",
+   "chain": "Hofer",
+   "name": "LASAGNE di semola",
+   "brand": "Cucina Nobile",
+   "pack": "500.0",
+   "status": "",
+   "observations": [
+    {
+     "date": "2024-06-06",
+     "price": 1.69,
+     "currency": "EUR",
+     "discounted": false,
+     "shop": "Hofer",
+     "city": "Mödling",
+     "country": "AT",
+     "proof_type": "RECEIPT",
+     "open_prices_id": 35101
+    }
+   ]
+  },
+  {
+   "product_id": "e3da087b7770",
+   "ean": "4099200043036",
+   "chain": "Hofer",
+   "name": "Putenknacker",
+   "brand": "Greisinger",
+   "pack": "390.0",
+   "status": "",
+   "observations": [
+    {
+     "date": "2024-12-21",
+     "price": 3.99,
+     "currency": "EUR",
+     "discounted": false,
+     "shop": "Hofer",
+     "city": "Mödling",
+     "country": "AT",
+     "proof_type": "RECEIPT",
+     "open_prices_id": 60512
+    }
+   ]
+  },
+  {
+   "product_id": "033a87785e76",
+   "ean": "9100000702797",
+   "chain": "Spar",
+   "name": "Mediterraner Nudel-Kräuter-Salat",
+   "brand": "SPAR enjoy",
+   "pack": "200.0",
+   "status": "",
+   "observations": [
+    {
+     "date": "2025-01-29",
+     "price": 2.79,
+     "currency": "EUR",
+     "discounted": false,
+     "shop": "Spar Gourmet",
+     "city": "Mödling",
+     "country": "AT",
+     "proof_type": "RECEIPT",
+     "open_prices_id": 73618
+    }
+   ]
+  },
+  {
+   "product_id": "f5eac5d72b67",
+   "ean": "4066447892444",
+   "chain": "dm",
+   "name": "Linseneintopf mit Kartoffeln",
+   "brand": "dmBio",
+   "pack": "400.0",
+   "status": "",
+   "observations": [
+    {
+     "date": "2026-06-19",
+     "price": 1.35,
+     "currency": "EUR",
+     "discounted": false,
+     "shop": null,
+     "city": null,
+     "country": null,
+     "proof_type": "RECEIPT",
+     "open_prices_id": 287945
+    }
+   ]
+  },
+  {
+   "product_id": "43263863e490",
+   "ean": "4001724819905",
+   "chain": "unbekannt (OFF)",
+   "name": "Ristorante Pizza Vegetar 370g",
+   "brand": "DR.OETKER RISTORANTE",
+   "pack": "385.0",
+   "status": "",
+   "observations": [
+    {
+     "date": "2022-03-07",
+     "price": 2.0,
+     "currency": "EUR",
+     "discounted": false,
+     "shop": "Intermarché Hyper",
+     "city": "Lunel",
+     "country": "FR",
+     "proof_type": "GDPR_REQUEST",
+     "open_prices_id": 96593
+    }
+   ]
+  }
+ ]
+}
