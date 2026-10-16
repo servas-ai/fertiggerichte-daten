@@ -143,7 +143,9 @@ for r in R:
     #  bofrost excluded on purpose: it also sells components (Knödel, Cevapcici, Schnitzel).
     if r.get('src')=='online_mealprep.json' and r.get('store') in MEALPREP_ONLY and stg in('side','base','veg','prot') and not r.get('dry') and not r.get('nonfood'): stg='meal'
     # T18: TK fruit dumplings (Himbeer-/Heidelbeerknödel) and Milchrahmstrudel are warm desserts
-    sweet=re.search(r'kaiserschmarr|germknödel|topfenstrudel|apfelstrudel|milchreis|marillenknödel|zwetschk|erdbeerknödel|topfenknödel|himbeerknödel|heidelbeerknödel|milchrahmstrudel|mohnnudel|buchtel|palatschink|grießbrei|pudding|nougat|powidl|dessert|mehlspeis|scheiterhaufen|schoko|tiramisu|panna cotta',t)
+    sweet=re.search(r'kaiserschmarr|germknödel|topfenstrudel|apfelstrudel|milchreis|marillenknödel|zwetschk|erdbeerknödel|topfenknödel|himbeerknödel|heidelbeerknödel|waldbeerknödel|nougatknödel|topfennockerl|apfelringe im backteig|strudel-quartett|milchrahmstrudel|mohnnudel|buchtel|palatschink|grießbrei|pudding|nougat|powidl|dessert|mehlspeis|scheiterhaufen|schoko|tiramisu|panna cotta',t)
+    # hourly 2026-10-16T18: savoury filled Palatschinken (Schinken-Käse-Lauch) are a warm starter, not a dessert
+    if sweet and re.search(r'palatschink\w*.*(schinken|käse|lauch|spinat|fleisch)',t): sweet=None
     if sweet and not r.get('nonfood'):
         stg='meal'; r['gang']='dessert'; r['rankable']=False
     elif stg=='stew' and re.search(r'suppe|consommé|ramen|brühe',t): r['gang']='vorspeise'
@@ -179,6 +181,7 @@ for r in R:
     r['meal_check']=_x.get('meal_check')
     if _x.get('gang')=='dessert': r['gang']='dessert'
     if _x.get('gang')=='frühstück': r['gang']='frühstück'; r['rankable']=False
+    if _x.get('gang_hint')=='vorspeise' and r.get('gang') in ('haupt','beilage'): r['gang']='vorspeise'  # hourly 2026-10-16T18: source course (bofrost Vorspeisen/Snacks)
     if _x.get('segment')=='grocery': r['segment']='grocery'
     if _x.get('segment')=='baby_food': r['segment']='baby_food'; r['rankable']=False  # review 13 E
     if r.get('dry') or r.get('nutrition_basis')=='dry' or stg not in ('meal','stew') or r.get('gang')=='dessert' or r.get('segment')=='grocery' or r.get('meal_class')!='meal' or not (_x.get('meal_check') or {}).get('ok'): r['rankable']=False
