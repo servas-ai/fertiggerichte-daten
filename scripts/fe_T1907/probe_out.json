@@ -1,0 +1,439 @@
+{
+ "gleif": {
+  "adriatic-group-gmbh": {
+   "lei": "52990090AITYIP340F59",
+   "creationDate": "2013-10-23T22:00:00Z",
+   "legalName": "ADRIATIC GROUP GmbH",
+   "status": "ACTIVE"
+  },
+  "glatz-gmbh": {
+   "lei": "98450010EDCCFFF5CF87",
+   "creationDate": "2009-03-25T00:00:00Z",
+   "legalName": "Glatz GmbH",
+   "status": "ACTIVE"
+  },
+  "dm-drogerie-markt-gmbh-co-kg": {
+   "lei": "391200BJDTMV65NJ7G34",
+   "creationDate": "1974-11-12T23:00:00Z",
+   "legalName": "dm-drogerie markt GmbH + Co. KG",
+   "status": "ACTIVE"
+  },
+  "franu-espana-sl": {
+   "lei": "959800UR1864J6SPSH33",
+   "creationDate": "2018-05-08T10:00:00Z",
+   "legalName": "FRA NUI ESPAÑA SOCIEDAD LIMITADA",
+   "status": "ACTIVE"
+  },
+  "danone-deutschland-gmbh": {
+   "lei": "2138001ZZP25K3WV7T37",
+   "creationDate": "2018-09-10T00:00:00Z",
+   "legalName": "DANONE DEUTSCHLAND GMBH",
+   "status": "ACTIVE"
+  },
+  "tress-lebensmittel-gmbh-co-kg": {
+   "lei": "391200MC0M0SGKVN4318",
+   "creationDate": "2011-06-05T22:00:00Z",
+   "legalName": "Tress Lebensmittel GmbH & Co. KG",
+   "status": "ACTIVE"
+  },
+  "greenforce-future-food-ag": {
+   "lei": "894500XJAOZKM5ACGD13",
+   "creationDate": "2020-08-27T22:00:00Z",
+   "legalName": "GREENFORCE FUTURE FOOD AG",
+   "status": "ACTIVE"
+  },
+  "staudinger-delikatessen-gmbh": {
+   "lei": "5299007YW7YPUBPNPB21",
+   "creationDate": "2015-02-26T23:00:00Z",
+   "legalName": "Staudinger Delikatessen GmbH",
+   "status": "ACTIVE"
+  },
+  "greisinger-gmbh": {
+   "lei": "5299003WXPQZV0HCD860",
+   "creationDate": "1992-01-22T23:00:00Z",
+   "legalName": "Greisinger GmbH",
+   "status": "ACTIVE"
+  },
+  "la-crepe-de-broceliande-8-rue-pierre-legaultboisgervilly3536": {
+   "lei": "9695008S54YQL1E0KN19",
+   "creationDate": "1988-12-31T23:00:00Z",
+   "legalName": "LA CREPE DE BROCELIANDE",
+   "status": "ACTIVE"
+  },
+  "biovegan-gmbh": {
+   "lei": "529900OYBF0IQCUQ4E29",
+   "creationDate": null,
+   "legalName": "Biovegan GmbH",
+   "status": "ACTIVE"
+  },
+  "riso-scotti-spa": {
+   "lei": "815600FD694EBCF44005",
+   "creationDate": "1963-02-16T23:00:00Z",
+   "legalName": "RISO SCOTTI S.P.A.",
+   "status": "ACTIVE"
+  },
+  "radatz-feine-wiener-fleischwaren-gesellschaft-mbh": {
+   "lei": "529900ZC59O869RH9I95",
+   "creationDate": "1977-03-23T23:00:00Z",
+   "legalName": "Radatz - Feine Wiener Fleischwaren Gesellschaft m.b.H.",
+   "status": "ACTIVE"
+  },
+  "alnatura-produktions-und-handels-gmbh": {
+   "lei": "96760063YASRHVRSR697",
+   "creationDate": "1987-03-25T00:00:00Z",
+   "legalName": "AlnaturA Produktions- und Handels GmbH",
+   "status": "ACTIVE"
+  },
+  "euryza-gmbh": {
+   "lei": "52990035MITUYUCR8F03",
+   "creationDate": "1964-05-11T23:00:00Z",
+   "legalName": "Euryza GmbH",
+   "status": "ACTIVE"
+  },
+  "weinbergmaier-gmbh": {
+   "lei": "529900PNAKPBLDOF8724",
+   "creationDate": "1989-04-05T22:00:00Z",
+   "legalName": "WEINBERGMAIER GmbH",
+   "status": "ACTIVE"
+  },
+  "doppelt-sp-z-oo": {
+   "lei": "2594008R9U26N8O08Z15",
+   "creationDate": "2015-05-04T22:00:00Z",
+   "legalName": "Doppelt Spółka z Ograniczoną Odpowiedzialnością",
+   "status": "ACTIVE"
+  },
+  "mpreis-warenvertriebs-gmbh": {
+   "lei": "5299007HKZK4RSU17874",
+   "creationDate": "1977-12-08T23:00:00Z",
+   "legalName": "MPREIS Warenvertriebs GmbH",
+   "status": "ACTIVE"
+  },
+  "dr-oetker-gmbh": {
+   "lei": "5299002J58F8I9465C12",
+   "creationDate": "1960-04-10T23:00:00Z",
+   "legalName": "Dr. Oetker GmbH",
+   "status": "ACTIVE"
+  },
+  "landgenossenschaft-ennstal-landena-kg": {
+   "lei": "52990014M4S00CNSOO81",
+   "creationDate": "1963-05-30T23:00:00Z",
+   "legalName": "Landgenossenschaft Ennstal LANDENA KG",
+   "status": "ACTIVE"
+  },
+  "billa-aktiengesellschaft": {
+   "lei": "5299003P9WXG9T2P5Y25",
+   "creationDate": null,
+   "legalName": "Billa Aktiengesellschaft",
+   "status": "ACTIVE"
+  },
+  "tops-foods": {
+   "lei": "549300SQTH5OQZJD6B75",
+   "creationDate": "1993-10-10T23:00:00Z",
+   "legalName": "TOPS FOODS",
+   "status": "ACTIVE"
+  },
+  "ehrmann-gmbh": {
+   "lei": "529900C76ISEAIYH2E65",
+   "creationDate": "2015-12-16T23:00:00Z",
+   "legalName": "Ehrmann GmbH Oberschönegg im Allgäu",
+   "status": "ACTIVE"
+  },
+  "dr-schaer-spa": {
+   "lei": "8156007EFCC74E27AB09",
+   "creationDate": "1979-12-05T23:00:00Z",
+   "legalName": "DR. SCHAER SPA",
+   "status": "ACTIVE"
+  },
+  "hofmann-menue-manufaktur-gmbh": {
+   "lei": "529900AQZT30CV86TF72",
+   "creationDate": null,
+   "legalName": "Hofmann Menü-Manufaktur GmbH",
+   "status": "ACTIVE"
+  },
+  "andros-deutschland-gmbh": {
+   "lei": "529900B04CNPB6E7MO40",
+   "creationDate": "1973-06-27T23:00:00Z",
+   "legalName": "Andros Deutschland GmbH",
+   "status": "ACTIVE"
+  },
+  "marks-and-spencer-services-sro": {
+   "lei": "213800T85Z9RNQFF5W93",
+   "creationDate": "2008-01-21T00:00:00Z",
+   "legalName": "MARKS AND SPENCER SERVICES S.R.O.",
+   "status": "ACTIVE"
+  },
+  "galana-nv-beldessert": {
+   "lei": "549300XYU1SL27MVSQ48",
+   "creationDate": null,
+   "legalName": "GALANA NV",
+   "status": "ACTIVE"
+  },
+  "dairy-4-fun-sro": {
+   "lei": "315700X0LM9LA33FCG61",
+   "creationDate": "2010-06-07T23:00:00Z",
+   "legalName": "DAIRY 4 FUN s.r.o.",
+   "status": "ACTIVE"
+  },
+  "karnerta-gmbh": {
+   "lei": "529900ZJN1U2VKYD0T07",
+   "creationDate": "1996-01-10T22:00:00Z",
+   "legalName": "KARNERTA GmbH",
+   "status": "ACTIVE"
+  },
+  "gms-gourmet-gmbh": {
+   "lei": "5299003EXF4GJXGELC41",
+   "creationDate": null,
+   "legalName": "GMS GOURMET GmbH",
+   "status": "NULL"
+  },
+  "pastificio-rana-spa-via-pacinotti": {
+   "lei": "815600530D7A6B12BC38",
+   "creationDate": "1982-01-11T23:00:00Z",
+   "legalName": "PASTIFICIO RANA S.P.A.",
+   "status": "ACTIVE"
+  },
+  "riso-gallo-spa": {
+   "lei": "815600DABDA3F47A6A19",
+   "creationDate": "1986-06-02T22:00:00Z",
+   "legalName": "RISO GALLO S.P.A.",
+   "status": "ACTIVE"
+  },
+  "delamaris-doo": {
+   "lei": "315700070TKBY0UVE318",
+   "creationDate": null,
+   "legalName": "DELAMARIS konzervna industrija d.o.o.",
+   "status": "ACTIVE"
+  },
+  "noem-ag": {
+   "lei": "529900JOHLZA5944OY29",
+   "creationDate": "1989-09-07T00:00:00Z",
+   "legalName": "NÖM AG",
+   "status": "ACTIVE"
+  },
+  "zott-se-co-kg": {
+   "lei": "529900OEMWTCZKJMYE61",
+   "creationDate": "1943-02-17T23:00:00Z",
+   "legalName": "Zott SE & Co. KG",
+   "status": "ACTIVE"
+  },
+  "danone-oesterreich-gmbh": {
+   "lei": "213800KX27RXC7IQBF65",
+   "creationDate": "2014-02-08T00:00:00Z",
+   "legalName": "DANONE ÖSTERREICH GMBH",
+   "status": "ACTIVE"
+  },
+  "estyria-naturprodukte-gmbh": {
+   "lei": "529900TSU1ECVJ0FYL45",
+   "creationDate": "1995-06-06T22:00:00Z",
+   "legalName": "Estyria Naturprodukte GmbH",
+   "status": "ACTIVE"
+  },
+  "berglandmilch-egen": {
+   "lei": "529900IX3JFWBU805S14",
+   "creationDate": "1994-07-20T22:00:00Z",
+   "legalName": "Berglandmilch eGen",
+   "status": "ACTIVE"
+  },
+  "bertagni-1882-spa": {
+   "lei": "815600B5C62307B12E60",
+   "creationDate": "2011-10-09T22:00:00Z",
+   "legalName": "BERTAGNI 1882 S.P.A.",
+   "status": "ACTIVE"
+  },
+  "franz-ablinger-co-fleischhauereibetrieb-gesellschaft-mbh": {
+   "lei": "529900I9B0UN7I6KWB59",
+   "creationDate": "1973-08-16T23:00:00Z",
+   "legalName": "Franz Ablinger & Co. Fleischhauereibetrieb Gesellschaft m.b.H.",
+   "status": "ACTIVE"
+  },
+  "nestle-oesterreich-gmbh": {
+   "lei": "549300GUV737JK7Y5C77",
+   "creationDate": "1913-01-11T00:00:00Z",
+   "legalName": "Nestle Österreich GmbH",
+   "status": "ACTIVE"
+  },
+  "princes-foods-bv": {
+   "lei": "213800S75WRICRU1WM83",
+   "creationDate": "1880-01-01T00:00:08Z",
+   "legalName": "PRINCES FOODS B.V.",
+   "status": "ACTIVE"
+  },
+  "felix-austria-gesellschaft-mbh": {
+   "lei": "549300VS403KYQOOUC10",
+   "creationDate": "1958-12-04T23:00:00Z",
+   "legalName": "FELIX AUSTRIA Gesellschaft m.b.H.",
+   "status": "ACTIVE"
+  },
+  "maresi-austria-gmbh": {
+   "lei": "529900JLDYJZIRXRD379",
+   "creationDate": "1997-08-10T22:00:00Z",
+   "legalName": "MARESI Austria GmbH",
+   "status": "ACTIVE"
+  },
+  "molkerei-alois-mueller-gmbh-co-kg-zollerstra-e-7": {
+   "lei": "529900ASH0JL6PAY8526",
+   "creationDate": "1980-07-29T22:00:00Z",
+   "legalName": "Molkerei Alois Müller GmbH & Co. KG",
+   "status": "ACTIVE"
+  },
+  "barilla-g-e-r-fratelli-societa-per-azioni": {
+   "lei": "529900HWBYCO8M2UN457",
+   "creationDate": "1988-11-09T23:00:00Z",
+   "legalName": "BARILLA G. E R. FRATELLI - SOCIETA' PER AZIONI",
+   "status": "ACTIVE"
+  },
+  "bonne-maman": {
+   "lei": "9695006ARZU1PBC9M649",
+   "creationDate": "1999-12-20T23:00:00Z",
+   "legalName": "ANDROS",
+   "status": "ACTIVE"
+  },
+  "kreyenhop-kluge-gmbh-cokg": {
+   "lei": "529900ZH3GAR1JU6HQ34",
+   "creationDate": "2007-10-17T22:00:00Z",
+   "legalName": "Kreyenhop & Kluge GmbH & Co.KG",
+   "status": "ACTIVE"
+  },
+  "mars-austria-og": {
+   "lei": "5493006K9J3OVPXZW688",
+   "creationDate": "2013-04-21T00:00:00Z",
+   "legalName": "MARS AUSTRIA OG",
+   "status": "ACTIVE"
+  },
+  "alfies-gmbh": {
+   "lei": "984500B8Z9EOKFE27580",
+   "creationDate": "2010-09-17T00:00:00Z",
+   "legalName": "Alfie's GmbH",
+   "status": "ACTIVE"
+  },
+  "hofer-kg": {
+   "lei": "529900MNT8H6TLU4WK98",
+   "creationDate": "1991-12-17T23:00:00Z",
+   "legalName": "Hofer KG.",
+   "status": "ACTIVE"
+  },
+  "winkelbauer-gmbh": {
+   "lei": "529900YH6DT4UAGNHL65",
+   "creationDate": "1976-12-20T23:00:00Z",
+   "legalName": "Winkelbauer GmbH",
+   "status": "ACTIVE"
+  },
+  "ruegenwalder-muehle-carl-mueller-gmbh-co-kg": {
+   "lei": "5299003YOGW9AD7K4H05",
+   "creationDate": null,
+   "legalName": "Rügenwalder Mühle Carl Müller GmbH & Co. KG",
+   "status": "ACTIVE"
+  },
+  "efko-frischfrucht-und-delikatessen-gmbh": {
+   "lei": "52990092YPC9C4JYBN76",
+   "creationDate": "1973-07-01T23:00:00Z",
+   "legalName": "efko Frischfrucht und Delikatessen GmbH",
+   "status": "ACTIVE"
+  },
+  "rewe-international-ag": {
+   "lei": "529900VPZ1K9QECCLM53",
+   "creationDate": "1926-12-29T23:00:00Z",
+   "legalName": "REWE International AG",
+   "status": "ACTIVE"
+  },
+  "unimarkt-gmbh": {
+   "lei": "529900X5GBP4KNVUYQ35",
+   "creationDate": null,
+   "legalName": "UNIMARKT Handelsgesellschaft m.b.H. & Co. Kommanditgesellschaft",
+   "status": "ACTIVE"
+  },
+  "wiesbauer-oesterreichische-wurstspezialitaeten-gmbh": {
+   "lei": "529900HY3M5ZWDH7S465",
+   "creationDate": null,
+   "legalName": "Wiesbauer österreichische Wurstspezialitäten GmbH",
+   "status": "ACTIVE"
+  },
+  "spar-oesterreichische-warenhandels-aktiengesellschaft": {
+   "lei": "529900Y9ZL3RKKWV4276",
+   "creationDate": "1985-08-27T22:00:00Z",
+   "legalName": "SPAR Österreichische Warenhandels-Aktiengesellschaft",
+   "status": "ACTIVE"
+  },
+  "followfood-gmbh": {
+   "lei": "529900BHG8J8LULWXG88",
+   "creationDate": "2001-06-05T22:00:00Z",
+   "legalName": "followfood GmbH",
+   "status": "ACTIVE"
+  }
+ },
+ "wikidata": {
+  "bonne-maman": [
+   {
+    "v": "9695006ARZU1PBC9M649",
+    "item": "http://www.wikidata.org/entity/Q2846959",
+    "inception": "1985-01-01T00:00:00Z",
+    "site": "http://www.andros.fr/",
+    "itemLabel": "Andros",
+    "matched_by": "P1278"
+   },
+   {
+    "v": "9695006ARZU1PBC9M649",
+    "item": "http://www.wikidata.org/entity/Q2846959",
+    "inception": "1999-12-21T00:00:00Z",
+    "site": "http://www.andros.fr/",
+    "itemLabel": "Andros",
+    "matched_by": "P1278"
+   }
+  ],
+  "marks-and-spencer-services-sro": [
+   {
+    "v": "213800T85Z9RNQFF5W93",
+    "item": "http://www.wikidata.org/entity/Q52853503",
+    "inception": "2008-01-21T00:00:00Z",
+    "itemLabel": "MARKS AND SPENCER SERVICES",
+    "matched_by": "P1278"
+   }
+  ],
+  "dairy-4-fun-sro": [
+   {
+    "v": "315700X0LM9LA33FCG61",
+    "item": "http://www.wikidata.org/entity/Q54965853",
+    "inception": "2010-06-07T00:00:00Z",
+    "itemLabel": "DAIRY 4 FUN",
+    "matched_by": "P1278"
+   }
+  ],
+  "delamaris-doo": [
+   {
+    "v": "315700070TKBY0UVE318",
+    "item": "http://www.wikidata.org/entity/Q102336641",
+    "itemLabel": "DELAMARIS konzervna industrija",
+    "matched_by": "P1278"
+   }
+  ],
+  "molkerei-alois-mueller-gmbh-co-kg-zollerstra-e-7": [
+   {
+    "v": "529900ASH0JL6PAY8526",
+    "item": "http://www.wikidata.org/entity/Q113464990",
+    "site": "http://www.muellermilch.de/",
+    "itemLabel": "Molkerei Alois Müller GmbH & Co. KG",
+    "matched_by": "P1278"
+   }
+  ],
+  "ruegenwalder-muehle-carl-mueller-gmbh-co-kg": [
+   {
+    "v": "5299003YOGW9AD7K4H05",
+    "item": "http://www.wikidata.org/entity/Q2203886",
+    "inception": "1834-01-01T00:00:00Z",
+    "site": "http://www.ruegenwalder.de/",
+    "itemLabel": "Rügenwalder Mühle",
+    "matched_by": "P1278"
+   }
+  ],
+  "noem-ag": [
+   {
+    "v": "ATU23264205",
+    "item": "http://www.wikidata.org/entity/Q1315139",
+    "inception": "1898-01-01T00:00:00Z",
+    "site": "http://www.noem.at/",
+    "itemLabel": "NÖM",
+    "matched_by": "P3608"
+   }
+  ]
+ }
+}

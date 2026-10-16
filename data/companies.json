@@ -15,10 +15,10 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
+  "founded": "1953",
   "owners": null,
   "management": null,
-  "employees": null,
+  "employees": "ca. 20.000 (2021, Wikidata Q537781)",
   "revenue": null,
   "website": "https://www.billa.at/",
   "plants": [],
@@ -44,12 +44,18 @@
   "median_eur_per_10g_protein": 6.6,
   "nace": null,
   "sources": [
-   "https://api.gleif.org/api/v1/lei-records/5299003P9WXG9T2P5Y25"
+   "https://api.gleif.org/api/v1/lei-records/5299003P9WXG9T2P5Y25",
+   "https://www.evi.gv.at/f/118556y",
+   "http://www.wikidata.org/entity/Q537781"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T10:54:30Z",
   "chain_product_count": 632,
-  "registry_status": "verified_gleif"
+  "registry_status": "verified_gleif",
+  "founded_source": "Wikidata P571 (Q537781, matched by P5285)",
+  "share_capital": "EUR 14 540 000",
+  "register_status": "Eingetragen",
+  "register_entry_date": "1994-09-22"
  },
  {
   "slug": "unilever-austria-gmbh",
@@ -67,8 +73,8 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
-  "owners": null,
+  "founded": "2000-08-01",
+  "owners": "Lipoma B.V. (Gesellschafter lt. Firmenbuch/evi.gv.at)",
   "management": null,
   "employees": null,
   "revenue": null,
@@ -91,7 +97,8 @@
   "nace": null,
   "sources": [
    "https://www.unilever.at/rechtliche-ressourcen/impressum/",
-   "EU VIES ATU49997507"
+   "EU VIES ATU49997507",
+   "https://www.evi.gv.at/f/197801i"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T10:55:43Z",
@@ -102,7 +109,12 @@
   "uid_checked_at": "2026-10-13T17:22:54.944Z",
   "imprint_url": "https://www.unilever.at/rechtliche-ressourcen/impressum/",
   "register_court": "Handelsgericht Wien",
-  "hrb": null
+  "hrb": null,
+  "founded_source": "Firmenbuch Eintragungsdatum, evi.gv.at/f/197801i",
+  "owners_source": "https://www.evi.gv.at/f/197801i",
+  "share_capital": "EUR 10 000 000",
+  "register_status": "Eingetragen",
+  "register_entry_date": "2000-08-01"
  },
  {
   "slug": "iglo-austria-gmbh",
@@ -120,8 +132,8 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
-  "owners": null,
+  "founded": "2006-07-20",
+  "owners": "Iglo Austria Holding GmbH (Gesellschafter lt. Firmenbuch/evi.gv.at)",
   "management": null,
   "employees": null,
   "revenue": null,
@@ -143,7 +155,8 @@
   "nace": null,
   "sources": [
    "https://www.iglo.at/wir-sind-iglo/impressum",
-   "EU VIES ATU62784838"
+   "EU VIES ATU62784838",
+   "https://www.evi.gv.at/f/279637g"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T10:54:55Z",
@@ -154,7 +167,12 @@
   "uid_checked_at": "2026-10-13T17:22:56.062Z",
   "imprint_url": "https://www.iglo.at/wir-sind-iglo/impressum",
   "register_court": "Handelsgericht Wien",
-  "hrb": null
+  "hrb": null,
+  "founded_source": "Firmenbuch Eintragungsdatum, evi.gv.at/f/279637g",
+  "owners_source": "https://www.evi.gv.at/f/279637g",
+  "share_capital": "EUR 35 000",
+  "register_status": "Eingetragen",
+  "register_entry_date": "2006-07-20"
  },
  {
   "slug": "maresi-austria-gmbh",
@@ -172,8 +190,8 @@
   "parent_direct": "Raiffeisenbankengruppe OÖ Verbund eGen",
   "parent_ultimate": "Raiffeisenbankengruppe OÖ Verbund eGen",
   "parent_ultimate_lei": "529900XSTAE561178282",
-  "founded": null,
-  "owners": null,
+  "founded": "1997-08-11",
+  "owners": "VIVATIS Holding AG; Landgenossenschaft Ennstal eGen (Gesellschafter lt. Firmenbuch/evi.gv.at)",
   "management": null,
   "employees": null,
   "revenue": null,
@@ -195,7 +213,8 @@
   "nace": null,
   "sources": [
    "https://api.gleif.org/api/v1/lei-records/529900JLDYJZIRXRD379",
-   "https://maresi.at/de/impressum"
+   "https://maresi.at/de/impressum",
+   "https://www.evi.gv.at/f/161846i"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T10:55:39Z",
@@ -206,7 +225,12 @@
   "uid_vies_name": "MARESI Austria GmbH",
   "uid_vies_address": "Hietzinger Hauptstraße 119 - 121, AT-1130 Wien",
   "uid_checked_at": "2026-10-16T18:59:25.124Z",
-  "uid_source": "own legal notice + EU VIES (T1835)"
+  "uid_source": "own legal notice + EU VIES (T1835)",
+  "founded_source": "GLEIF legal entity creation date (LEI 529900JLDYJZIRXRD379)",
+  "owners_source": "https://www.evi.gv.at/f/161846i",
+  "share_capital": "EUR 250 000",
+  "register_status": "Eingetragen",
+  "register_entry_date": "1997-08-27"
  },
  {
   "slug": "fit2go-gmbh",
@@ -224,8 +248,8 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
-  "owners": null,
+  "founded": "2023-11-15",
+  "owners": "Foxyflo GmbH; Gatsby Ventures GmbH; AKapital Beteiligungs GmbH; KPLA GmbH; 2 natürliche Personen (Gesellschafter lt. Firmenbuch/evi.gv.at)",
   "management": null,
   "employees": null,
   "revenue": null,
@@ -244,7 +268,8 @@
   "nace": null,
   "sources": [
    "https://fittogo.at/pages/impressum",
-   "EU VIES ATU80022878"
+   "EU VIES ATU80022878",
+   "https://www.evi.gv.at/f/615822x"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T10:58:57Z",
@@ -255,7 +280,13 @@
   "uid_checked_at": "2026-10-13T17:14:14.715Z",
   "imprint_url": "https://fittogo.at/pages/impressum",
   "register_court": null,
-  "hrb": null
+  "hrb": null,
+  "founded_source": "Firmenbuch Eintragungsdatum, evi.gv.at/f/615822x",
+  "owners_source": "https://www.evi.gv.at/f/615822x",
+  "share_capital": "EUR 53 030,30",
+  "business_line": "Handel mit Tiefkühlprodukten",
+  "register_status": "Eingetragen",
+  "register_entry_date": "2023-11-15"
  },
  {
   "slug": "pastificio-rana-spa",
@@ -316,8 +347,8 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
-  "owners": null,
+  "founded": "1913-01-11",
+  "owners": "Société des Produits Nestlé S.A. (Gesellschafter lt. Firmenbuch/evi.gv.at)",
   "management": null,
   "employees": null,
   "revenue": null,
@@ -337,11 +368,17 @@
   "median_eur_per_10g_protein": 1.25,
   "nace": null,
   "sources": [
-   "https://api.gleif.org/api/v1/lei-records/549300GUV737JK7Y5C77"
+   "https://api.gleif.org/api/v1/lei-records/549300GUV737JK7Y5C77",
+   "https://www.evi.gv.at/f/105870t"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T10:57:12Z",
-  "registry_status": "verified_gleif"
+  "registry_status": "verified_gleif",
+  "founded_source": "GLEIF legal entity creation date (LEI 549300GUV737JK7Y5C77)",
+  "owners_source": "https://www.evi.gv.at/f/105870t",
+  "share_capital": "EUR 7 270 000",
+  "register_status": "Eingetragen",
+  "register_entry_date": "1994-06-30"
  },
  {
   "slug": "landgenossenschaft-ennstal-landena-kg",
@@ -399,11 +436,14 @@
    "https://www.landena.at/de/",
    "https://www.landena.at/de/jobs/",
    "https://www.rvstmk.at/news__Landgenossenschaft-Ennstal-freut-sich-ueber-Rekordjahr__001deo.php",
-   "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf"
+   "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf",
+   "https://www.evi.gv.at/f/15581p"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T10:55:36Z",
-  "registry_status": "verified_gleif"
+  "registry_status": "verified_gleif",
+  "register_status": "Eingetragen",
+  "register_entry_date": "1992-04-02"
  },
  {
   "slug": "frosta-tiefkuehlkost-gmbh",
@@ -473,8 +513,8 @@
   "parent_direct": "ORKLA ASA",
   "parent_ultimate": "ORKLA ASA",
   "parent_ultimate_lei": "549300PZS8G8RG6RVZ52",
-  "founded": null,
-  "owners": null,
+  "founded": "1958-12-05",
+  "owners": "ORKLA FOODS SVERIGE AB; Provendor Aktiebolag (Gesellschafter lt. Firmenbuch/evi.gv.at)",
   "management": null,
   "employees": null,
   "revenue": null,
@@ -495,11 +535,17 @@
   "median_eur_per_10g_protein": 4.2,
   "nace": null,
   "sources": [
-   "https://api.gleif.org/api/v1/lei-records/549300VS403KYQOOUC10"
+   "https://api.gleif.org/api/v1/lei-records/549300VS403KYQOOUC10",
+   "https://www.evi.gv.at/f/110213d"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T10:55:32Z",
-  "registry_status": "verified_gleif"
+  "registry_status": "verified_gleif",
+  "founded_source": "GLEIF legal entity creation date (LEI 549300VS403KYQOOUC10)",
+  "owners_source": "https://www.evi.gv.at/f/110213d",
+  "share_capital": "EUR 6 540 555",
+  "register_status": "Eingetragen",
+  "register_entry_date": "1994-07-27"
  },
  {
   "slug": "alnatura-gmbh",
@@ -568,7 +614,7 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
+  "founded": "2015-12-17",
   "owners": null,
   "management": null,
   "employees": null,
@@ -593,7 +639,8 @@
   "fetched_at": "2026-10-13T11:01:48Z",
   "registry_status": "verified_gleif",
   "gleif_match_basis": "GLEIF legal name \"Ehrmann GmbH Oberschönegg im Allgäu\" (GmbH, A.-Ehrmann-Straße 2, Oberschönegg) — the only Ehrmann GmbH; Ehrmann SE (holding) stays rejected",
-  "website_basis": "group site: legal notice = EHRMANN SE (HRB 18947 AG Memmingen) at the identical registered address A.-Ehrmann-Straße 2, 87770 Oberschönegg; Ehrmann GmbH itself not named → no UID taken"
+  "website_basis": "group site: legal notice = EHRMANN SE (HRB 18947 AG Memmingen) at the identical registered address A.-Ehrmann-Straße 2, 87770 Oberschönegg; Ehrmann GmbH itself not named → no UID taken",
+  "founded_source": "GLEIF legal entity creation date (LEI 529900C76ISEAIYH2E65)"
  },
  {
   "slug": "dm-drogerie-markt-gmbh-co-kg",
@@ -611,7 +658,7 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
+  "founded": "1974-11-13",
   "owners": null,
   "management": null,
   "employees": null,
@@ -634,7 +681,8 @@
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T10:57:41Z",
-  "registry_status": "verified_gleif"
+  "registry_status": "verified_gleif",
+  "founded_source": "GLEIF legal entity creation date (LEI 391200BJDTMV65NJ7G34)"
  },
  {
   "slug": "weinbergmaier-gmbh",
@@ -652,8 +700,8 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
-  "owners": null,
+  "founded": "1989-04-06",
+  "owners": "VIVATIS Capital Invest GmbH; VIVATIS Beteiligungs-GmbH (Gesellschafter lt. Firmenbuch/evi.gv.at)",
   "management": null,
   "employees": null,
   "revenue": null,
@@ -674,7 +722,8 @@
   "nace": null,
   "sources": [
    "https://api.gleif.org/api/v1/lei-records/529900PNAKPBLDOF8724",
-   "https://weinbergmaier.at/impressum"
+   "https://weinbergmaier.at/impressum",
+   "https://www.evi.gv.at/f/122164d"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T10:55:26Z",
@@ -685,7 +734,13 @@
   "uid_vies_name": "WEINBERGMAIER GmbH",
   "uid_vies_address": "Leopold-Werndl-Straße 1, AT-4493 Wolfern",
   "uid_checked_at": "2026-10-16T18:59:40.766Z",
-  "uid_source": "own legal notice + EU VIES (T1835)"
+  "uid_source": "own legal notice + EU VIES (T1835)",
+  "founded_source": "GLEIF legal entity creation date (LEI 529900PNAKPBLDOF8724)",
+  "owners_source": "https://www.evi.gv.at/f/122164d",
+  "share_capital": "EUR 36 400",
+  "business_line": "Herstellung von und Handel mit Lebensmittelprodukten",
+  "register_status": "Eingetragen",
+  "register_entry_date": "1994-10-14"
  },
  {
   "slug": "allos-hof-manufaktur-gmbh",
@@ -790,11 +845,15 @@
    "https://frischteigwaren.at/",
    "https://firmenakte.at/business/143123a-karnerta-gmbh",
    "https://www.karnerta.at/impressum/",
-   "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf"
+   "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf",
+   "https://www.evi.gv.at/f/143123a"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T10:56:04Z",
-  "registry_status": "verified_gleif"
+  "registry_status": "verified_gleif",
+  "share_capital": "EUR 1 816 820,85",
+  "register_status": "Eingetragen",
+  "register_entry_date": "1996-03-29"
  },
  {
   "slug": "frosta-ag",
@@ -985,7 +1044,11 @@
   "uid": "ATU76763147",
   "uid_vies_name": "Mochi Production GmbH",
   "uid_vies_address": "Ferdinandstraße 13/1, AT-1020 Wien",
-  "uid_checked_at": "2026-10-16T18:11:15Z"
+  "uid_checked_at": "2026-10-16T18:11:15Z",
+  "share_capital": "EUR 35 000",
+  "business_line": "Entwicklung und Produktion von Speisen für den Lebensmittelhandel",
+  "register_status": "Eingetragen",
+  "register_entry_date": "2021-04-10"
  },
  {
   "slug": "berglandmilch-egen",
@@ -1003,7 +1066,7 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
+  "founded": "1994-07-21",
   "owners": null,
   "management": null,
   "employees": null,
@@ -1023,11 +1086,16 @@
   "median_eur_per_10g_protein": 5.8,
   "nace": null,
   "sources": [
-   "https://api.gleif.org/api/v1/lei-records/529900IX3JFWBU805S14"
+   "https://api.gleif.org/api/v1/lei-records/529900IX3JFWBU805S14",
+   "https://www.evi.gv.at/f/116533y"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T11:01:15Z",
-  "registry_status": "verified_gleif"
+  "registry_status": "verified_gleif",
+  "founded_source": "GLEIF legal entity creation date (LEI 529900IX3JFWBU805S14)",
+  "share_capital": "EUR 100",
+  "register_status": "Eingetragen",
+  "register_entry_date": "1994-09-10"
  },
  {
   "slug": "everygmbh",
@@ -1097,7 +1165,7 @@
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
   "founded": null,
-  "owners": null,
+  "owners": "Billa Aktiengesellschaft (Gesellschafter lt. Firmenbuch/evi.gv.at)",
   "management": null,
   "employees": null,
   "revenue": null,
@@ -1116,7 +1184,8 @@
   "nace": null,
   "sources": [
    "https://www.janatuerlich.at/impressum/",
-   "EU VIES ATU43248507"
+   "EU VIES ATU43248507",
+   "https://www.evi.gv.at/f/113231t"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T10:56:25Z",
@@ -1127,7 +1196,11 @@
   "uid_checked_at": "2026-10-13T11:15:05.064Z",
   "imprint_url": "https://www.janatuerlich.at/impressum/",
   "register_court": "Wiener Neustadt",
-  "hrb": null
+  "hrb": null,
+  "owners_source": "https://www.evi.gv.at/f/113231t",
+  "share_capital": "EUR 40 000",
+  "register_status": "Eingetragen",
+  "register_entry_date": "1994-08-19"
  },
  {
   "slug": "mpreis-warenvertriebs-gmbh",
@@ -1145,8 +1218,8 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
-  "owners": null,
+  "founded": "1977-12-09",
+  "owners": "TM Privatstiftung; Therese Mölk Holding GmbH (Gesellschafter lt. Firmenbuch/evi.gv.at)",
   "management": null,
   "employees": null,
   "revenue": null,
@@ -1165,7 +1238,8 @@
   "nace": null,
   "sources": [
    "https://api.gleif.org/api/v1/lei-records/5299007HKZK4RSU17874",
-   "https://mpreis.at/sp/impressum"
+   "https://mpreis.at/sp/impressum",
+   "https://www.evi.gv.at/f/43603y"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T11:00:41Z",
@@ -1177,7 +1251,13 @@
   "uid_vies_name": "MPREIS Warenvertriebs GmbH",
   "uid_vies_address": "Landesstraße 16, AT-6176 Völs",
   "uid_checked_at": "2026-10-16T18:59:45.946Z",
-  "uid_source": "own legal notice + EU VIES (T1835)"
+  "uid_source": "own legal notice + EU VIES (T1835)",
+  "founded_source": "GLEIF legal entity creation date (LEI 5299007HKZK4RSU17874)",
+  "owners_source": "https://www.evi.gv.at/f/43603y",
+  "share_capital": "EUR 100 000",
+  "business_line": "Lebensmittelhandel",
+  "register_status": "Eingetragen",
+  "register_entry_date": "1993-08-17"
  },
  {
   "slug": "mars-austria-og",
@@ -1195,7 +1275,7 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
+  "founded": "2001-09-08",
   "owners": null,
   "management": null,
   "employees": null,
@@ -1215,11 +1295,15 @@
   "median_eur_per_10g_protein": 2.5,
   "nace": null,
   "sources": [
-   "https://api.gleif.org/api/v1/lei-records/5493006K9J3OVPXZW688"
+   "https://api.gleif.org/api/v1/lei-records/5493006K9J3OVPXZW688",
+   "https://www.evi.gv.at/f/213022v"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T10:54:37Z",
-  "registry_status": "verified_gleif"
+  "registry_status": "verified_gleif",
+  "founded_source": "Firmenbuch Eintragungsdatum, evi.gv.at/f/213022v",
+  "register_status": "Eingetragen",
+  "register_entry_date": "2001-09-08"
  },
  {
   "slug": "molkerei-alois-mueller-gmbh-co-kg",
@@ -1279,7 +1363,7 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
+  "founded": "1989-09-07",
   "owners": null,
   "management": null,
   "employees": null,
@@ -1299,7 +1383,8 @@
   "nace": null,
   "sources": [
    "https://api.gleif.org/api/v1/lei-records/529900JOHLZA5944OY29",
-   "https://www.noem.at/impressum"
+   "https://www.noem.at/impressum",
+   "https://www.evi.gv.at/f/114782y"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T11:01:41Z",
@@ -1310,7 +1395,11 @@
   "uid_vies_name": "NÖM AG",
   "uid_vies_address": "Vöslauer Straße 109, AT-2500 Baden",
   "uid_checked_at": "2026-10-16T18:59:49.698Z",
-  "uid_source": "own legal notice + EU VIES (T1835)"
+  "uid_source": "own legal notice + EU VIES (T1835)",
+  "founded_source": "GLEIF legal entity creation date (LEI 529900JOHLZA5944OY29)",
+  "share_capital": "EUR 7 558 638",
+  "register_status": "Eingetragen",
+  "register_entry_date": "1994-08-30"
  },
  {
   "slug": "radatz-feine-wiener-fleischwaren-gesellschaft-mbh",
@@ -1360,11 +1449,15 @@
    "https://www.radatz.at/medien/presse",
    "https://www.wirtschaft.at/u/109045k",
    "https://www.leadersnet.at/news/98831,so-behauptet-sich-die-fleischbranche-in-einem-schwierigen.html",
-   "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf"
+   "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf",
+   "https://www.evi.gv.at/f/109045k"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T10:56:47Z",
-  "registry_status": "verified_gleif"
+  "registry_status": "verified_gleif",
+  "share_capital": "EUR 73 000",
+  "register_status": "Eingetragen",
+  "register_entry_date": "1994-07-19"
  },
  {
   "slug": "dr-oetker-gmbh",
@@ -1382,8 +1475,8 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
-  "owners": null,
+  "founded": "1960-04-11",
+  "owners": "Dr.Oetker International Beteiligungs GmbH (Gesellschafter lt. Firmenbuch/evi.gv.at)",
   "management": null,
   "employees": null,
   "revenue": null,
@@ -1402,7 +1495,8 @@
   "nace": null,
   "sources": [
    "https://api.gleif.org/api/v1/lei-records/5299002J58F8I9465C12",
-   "https://www.oetker.at/impressum"
+   "https://www.oetker.at/impressum",
+   "https://www.evi.gv.at/f/115931m"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T11:01:59Z",
@@ -1413,7 +1507,12 @@
   "uid_vies_name": "Dr. Oetker GmbH",
   "uid_vies_address": "Ringmauergasse 9/1, AT-9500 Villach",
   "uid_checked_at": "2026-10-16T18:59:57.099Z",
-  "uid_source": "own legal notice + EU VIES (T1835)"
+  "uid_source": "own legal notice + EU VIES (T1835)",
+  "founded_source": "GLEIF legal entity creation date (LEI 5299002J58F8I9465C12)",
+  "owners_source": "https://www.evi.gv.at/f/115931m",
+  "share_capital": "EUR 3 000 000",
+  "register_status": "Eingetragen",
+  "register_entry_date": "1994-09-07"
  },
  {
   "slug": "danone-oesterreich-gmbh",
@@ -1432,7 +1531,7 @@
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
   "founded": null,
-  "owners": null,
+  "owners": "Nutricia International B.V.; Danone Deutschland GmbH (Gesellschafter lt. Firmenbuch/evi.gv.at)",
   "management": null,
   "employees": null,
   "revenue": null,
@@ -1452,7 +1551,8 @@
   "sources": [
    "https://api.gleif.org/api/v1/lei-records/213800KX27RXC7IQBF65",
    "https://www.activia.at/impressum/",
-   "EU VIES ATU34705405"
+   "EU VIES ATU34705405",
+   "https://www.evi.gv.at/f/61045y"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T11:02:06Z",
@@ -1463,7 +1563,11 @@
   "uid_checked_at": "2026-10-13T18:55:02.627Z",
   "imprint_url": "https://www.activia.at/impressum/",
   "register_court": null,
-  "hrb": null
+  "hrb": null,
+  "owners_source": "https://www.evi.gv.at/f/61045y",
+  "share_capital": "EUR 4 723 734,22",
+  "register_status": "Eingetragen",
+  "register_entry_date": "1993-11-16"
  },
  {
   "slug": "deflorian-srl",
@@ -1556,7 +1660,10 @@
   "gleif_match_score": null,
   "fetched_at": "2026-10-16T18:20:00Z",
   "registry_status": "fn_public_register (pack label 'Stadtküche (Kasnudl GmbH)' = FN 425910p, renamed Invaro GmbH 2026-06-03 (name history firmenatlas.com, Justiz data; evi.gv.at: FN, address, Namensänderung 06/2026); Stadtküche brand now run by Knödelhütte GmbH (row stadtkueche); firmenatlas shows UID ATU83103945, but VIES returns that UID for Knödelhütte GmbH — not used; no LEI/verified UID, not counted)",
-  "register_court": "Handelsgericht Wien"
+  "register_court": "Handelsgericht Wien",
+  "share_capital": "EUR 35 000",
+  "register_status": "Eingetragen",
+  "register_entry_date": "2014-12-04"
  },
  {
   "slug": "kreyenhop-kluge-gmbh-cokg",
@@ -1574,7 +1681,7 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
+  "founded": "2007-10-18",
   "owners": null,
   "management": null,
   "employees": null,
@@ -1598,7 +1705,8 @@
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T10:59:30Z",
-  "registry_status": "verified_gleif"
+  "registry_status": "verified_gleif",
+  "founded_source": "GLEIF legal entity creation date (LEI 529900ZH3GAR1JU6HQ34)"
  },
  {
   "slug": "laboratorio-alimentare-cecchin-andrea-e-carlo-srl",
@@ -1735,7 +1843,8 @@
   "nace": null,
   "sources": [
    "https://www.darbo.at/impressum",
-   "EU VIES ATU31800708"
+   "EU VIES ATU31800708",
+   "https://www.evi.gv.at/f/46033x"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T11:01:56Z",
@@ -1746,7 +1855,10 @@
   "uid_checked_at": "2026-10-13T11:15:22.228Z",
   "imprint_url": "https://www.darbo.at/impressum",
   "register_court": "Innsbruck",
-  "hrb": null
+  "hrb": null,
+  "share_capital": "EUR 4 071 200",
+  "register_status": "Eingetragen",
+  "register_entry_date": "1993-08-28"
  },
  {
   "slug": "alnatura-produktions-und-handels-gmbh",
@@ -1764,7 +1876,7 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
+  "founded": "1987-03-25",
   "owners": null,
   "management": null,
   "employees": null,
@@ -1795,7 +1907,8 @@
   "uid_vies_name": "--- (DE VIES returns no name; legal name + register no. printed on the legal notice)",
   "uid_vies_address": "--- (DE VIES returns no address)",
   "uid_checked_at": "2026-10-16T18:59:35.260Z",
-  "uid_source": "own legal notice + EU VIES (T1835)"
+  "uid_source": "own legal notice + EU VIES (T1835)",
+  "founded_source": "GLEIF legal entity creation date (LEI 96760063YASRHVRSR697)"
  },
  {
   "slug": "andros-austria-gmbh",
@@ -1813,8 +1926,8 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
-  "owners": null,
+  "founded": "2014-10-10",
+  "owners": "ANDROS ET CIE Societe par actions simplifiee (Gesellschafter lt. Firmenbuch/evi.gv.at)",
   "management": null,
   "employees": null,
   "revenue": null,
@@ -1835,7 +1948,8 @@
   "nace": null,
   "sources": [
    "https://andros-fruit.eu/impressum/",
-   "EU VIES ATU69012506"
+   "EU VIES ATU69012506",
+   "https://www.evi.gv.at/f/423232a"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T11:01:38Z",
@@ -1846,7 +1960,13 @@
   "uid_checked_at": "2026-10-13T17:20:33.502Z",
   "imprint_url": "https://andros-fruit.eu/impressum/",
   "register_court": null,
-  "hrb": null
+  "hrb": null,
+  "founded_source": "Firmenbuch Eintragungsdatum, evi.gv.at/f/423232a",
+  "owners_source": "https://www.evi.gv.at/f/423232a",
+  "share_capital": "EUR 35 000",
+  "business_line": "Nationaler und internationaler Handel mit Lebensmitteln aller Art, insbesondere Fruchterzeugnissen und/oder Milchprodukten",
+  "register_status": "Eingetragen",
+  "register_entry_date": "2014-10-10"
  },
  {
   "slug": "bs-gastro-event-services-gmbh",
@@ -1957,7 +2077,10 @@
   "uid_checked_at": "2026-10-13T11:15:27.735Z",
   "imprint_url": "https://hink.wien/policies/legal-notice",
   "register_court": null,
-  "hrb": null
+  "hrb": null,
+  "share_capital": "EUR 35 000",
+  "register_status": "Eingetragen",
+  "register_entry_date": "2007-03-13"
  },
  {
   "slug": "marks-and-spencer-services-sro",
@@ -1975,7 +2098,7 @@
   "parent_direct": "MARKS AND SPENCER CZECH REPUBLIC, A.S.",
   "parent_ultimate": "MARKS AND SPENCER P.L.C.",
   "parent_ultimate_lei": "213800CN1RI3UCIZWB95",
-  "founded": null,
+  "founded": "2008-01-21",
   "owners": null,
   "management": null,
   "employees": null,
@@ -1998,7 +2121,8 @@
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T10:59:18Z",
-  "registry_status": "verified_gleif"
+  "registry_status": "verified_gleif",
+  "founded_source": "GLEIF legal entity creation date (LEI 213800T85Z9RNQFF5W93)"
  },
  {
   "slug": "molkerei-alois-mueller-gmbh-co-kg-zollerstra-e-7",
@@ -2016,7 +2140,7 @@
   "parent_direct": "Unternehmensgruppe Theo Müller S.e.c.s.",
   "parent_ultimate": "Unternehmensgruppe Theo Müller S.e.c.s.",
   "parent_ultimate_lei": "529900DQ8JP1LS3K2A47",
-  "founded": null,
+  "founded": "1980-07-30",
   "owners": null,
   "management": null,
   "employees": null,
@@ -2040,7 +2164,8 @@
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T11:01:30Z",
   "registry_status": "verified_gleif",
-  "gleif_match_basis": "exact legal name + label street Zollerstraße 7 (D-86850 Aretsried = Fischach) = GLEIF legal address"
+  "gleif_match_basis": "exact legal name + label street Zollerstraße 7 (D-86850 Aretsried = Fischach) = GLEIF legal address",
+  "founded_source": "GLEIF legal entity creation date (LEI 529900ASH0JL6PAY8526)"
  },
  {
   "slug": "rewe-austria-fleischwaren-gmbh",
@@ -2089,7 +2214,8 @@
    "https://firmenakte.at/business/65329y-rewe-austria-fleischwaren-gmbh",
    "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf",
    "https://www.firmenabc.at/rewe-austria-fleischwaren-gmbh_OrLq",
-   "EU VIES ATU36273108"
+   "EU VIES ATU36273108",
+   "https://www.evi.gv.at/f/65329y"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T10:58:16Z",
@@ -2100,7 +2226,10 @@
   "uid_checked_at": "2026-10-13T18:52:26.837Z",
   "imprint_url": "https://www.firmenabc.at/rewe-austria-fleischwaren-gmbh_OrLq",
   "register_court": null,
-  "hrb": null
+  "hrb": null,
+  "share_capital": "EUR 1 200 000",
+  "register_status": "Eingetragen",
+  "register_entry_date": "1993-12-02"
  },
  {
   "slug": "stangl-teigwaren-gmbh",
@@ -2118,8 +2247,8 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
-  "owners": null,
+  "founded": "2013-08-23",
+  "owners": "1 natürliche Person (Gesellschafter lt. Firmenbuch/evi.gv.at)",
   "management": null,
   "employees": null,
   "revenue": null,
@@ -2138,7 +2267,8 @@
   "nace": null,
   "sources": [
    "https://stanglnudeln.at/pages/impressum",
-   "EU VIES ATU68093234"
+   "EU VIES ATU68093234",
+   "https://www.evi.gv.at/f/400694g"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T10:55:23Z",
@@ -2149,7 +2279,13 @@
   "uid_checked_at": "2026-10-13T17:14:14.607Z",
   "imprint_url": "https://stanglnudeln.at/pages/impressum",
   "register_court": null,
-  "hrb": null
+  "hrb": null,
+  "founded_source": "Firmenbuch Eintragungsdatum, evi.gv.at/f/400694g",
+  "owners_source": "https://www.evi.gv.at/f/400694g",
+  "share_capital": "EUR 35 000",
+  "business_line": "Produktion und Handel mit Teigwaren, Handel mit Waren aller Art",
+  "register_status": "Eingetragen",
+  "register_entry_date": "2013-08-23"
  },
  {
   "slug": "strauss-gmbh",
@@ -2251,7 +2387,8 @@
    "https://firmenakte.at/business/98447a-wiesbauer-gourmet-gastro-gmbh",
    "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf",
    "https://www.wiesbauer-gourmet.at/impressum",
-   "EU VIES ATU20162703"
+   "EU VIES ATU20162703",
+   "https://www.evi.gv.at/f/98447a"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T10:56:28Z",
@@ -2262,7 +2399,10 @@
   "uid_checked_at": "2026-10-13T11:16:19.859Z",
   "imprint_url": "https://www.wiesbauer-gourmet.at/impressum",
   "register_court": "Wien",
-  "hrb": null
+  "hrb": null,
+  "share_capital": "EUR 37 000",
+  "register_status": "Eingetragen",
+  "register_entry_date": "1994-05-25"
  },
  {
   "slug": "zott-se-co-kg",
@@ -2280,7 +2420,7 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
+  "founded": "1943-02-18",
   "owners": null,
   "management": null,
   "employees": null,
@@ -2303,7 +2443,8 @@
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T11:01:45Z",
-  "registry_status": "verified_gleif"
+  "registry_status": "verified_gleif",
+  "founded_source": "GLEIF legal entity creation date (LEI 529900OEMWTCZKJMYE61)"
  },
  {
   "slug": "alimentastic-food-innovation-gmbh",
@@ -2322,7 +2463,7 @@
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
   "founded": "2023-12-12",
-  "owners": null,
+  "owners": "Good Vibes Invest GmbH; Schmidbauer Management Holding GmbH; PK emotions GmbH; 2 natürliche Personen (Gesellschafter lt. Firmenbuch/evi.gv.at)",
   "management": "Mag. (FH) Laurenz Hoffmann (Geschäftsführer lt. Firmenbuch)",
   "employees": null,
   "revenue": null,
@@ -2352,7 +2493,12 @@
   "fetched_at": "2026-10-16T18:19:00Z",
   "registry_status": "fn_public_register (label entity 'Alimentastic Food Innovation GmbH' = FN 615538d per evi.gv.at + wirtschaft.at name history, renamed Schmidbauer Food Innovation GmbH 2026-02-11; T1706 had mapped the brand successor Alimentastic GmbH FN 673845z (founded 2026-02-27, ATU83105925 VIES-valid per biogenamoments.com Impressum) — corrected to the label entity; no LEI/verified UID for FN 615538d, not counted)",
   "imprint_url": "https://alimentastic.com/impressum",
-  "register_court": "Landesgericht Salzburg"
+  "register_court": "Landesgericht Salzburg",
+  "owners_source": "https://www.evi.gv.at/f/615538d",
+  "share_capital": "EUR 35 000",
+  "business_line": "Entwicklung, Herstellung und Vertrieb von Produkten im Lebensmittelbereich",
+  "register_status": "Eingetragen",
+  "register_entry_date": "2023-12-12"
  },
  {
   "slug": "bertagni-1882-spa",
@@ -2370,7 +2516,7 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
+  "founded": "2011-10-10",
   "owners": null,
   "management": null,
   "employees": null,
@@ -2401,7 +2547,8 @@
   "uid_vies_name": "BERTAGNI 1882 S.P.A.",
   "uid_vies_address": "LOCALITA' CAMPAGNOLE 1 , 38063 AVIO TN, ",
   "uid_checked_at": "2026-10-16T18:59:53.847Z",
-  "uid_source": "own legal notice + EU VIES (T1835)"
+  "uid_source": "own legal notice + EU VIES (T1835)",
+  "founded_source": "GLEIF legal entity creation date (LEI 815600B5C62307B12E60)"
  },
  {
   "slug": "caro-fratello-gmbh",
@@ -2660,7 +2807,7 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
+  "founded": "1880-01-01",
   "owners": null,
   "management": null,
   "employees": null,
@@ -2683,7 +2830,8 @@
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T10:57:18Z",
-  "registry_status": "verified_gleif"
+  "registry_status": "verified_gleif",
+  "founded_source": "GLEIF legal entity creation date (LEI 213800S75WRICRU1WM83)"
  },
  {
   "slug": "staudinger-delikatessen-gmbh",
@@ -2701,8 +2849,8 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
-  "owners": null,
+  "founded": "2015-02-27",
+  "owners": "SJV GmbH (Gesellschafter lt. Firmenbuch/evi.gv.at)",
   "management": null,
   "employees": null,
   "revenue": null,
@@ -2720,11 +2868,18 @@
   "median_eur_per_10g_protein": 4.6,
   "nace": null,
   "sources": [
-   "https://api.gleif.org/api/v1/lei-records/5299007YW7YPUBPNPB21"
+   "https://api.gleif.org/api/v1/lei-records/5299007YW7YPUBPNPB21",
+   "https://www.evi.gv.at/f/430917b"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T10:58:26Z",
-  "registry_status": "verified_gleif"
+  "registry_status": "verified_gleif",
+  "founded_source": "GLEIF legal entity creation date (LEI 5299007YW7YPUBPNPB21)",
+  "owners_source": "https://www.evi.gv.at/f/430917b",
+  "share_capital": "EUR 100 000",
+  "business_line": "Erzeugung von Fleisch- und Wurstwaren, insbesondere delikate Sorten Handel mit Delikatessen, Fleisch- und Wurstwaren",
+  "register_status": "Eingetragen",
+  "register_entry_date": "2015-03-13"
  },
  {
   "slug": "tops-foods",
@@ -2742,7 +2897,7 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
+  "founded": "1993-10-11",
   "owners": null,
   "management": null,
   "employees": null,
@@ -2765,7 +2920,8 @@
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T10:56:37Z",
-  "registry_status": "verified_gleif"
+  "registry_status": "verified_gleif",
+  "founded_source": "GLEIF legal entity creation date (LEI 549300SQTH5OQZJD6B75)"
  },
  {
   "slug": "adriatic-group-gmbh",
@@ -2783,8 +2939,8 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
-  "owners": null,
+  "founded": "2013-10-24",
+  "owners": "Plivit Trade AB; 4 natürliche Personen (Gesellschafter lt. Firmenbuch/evi.gv.at)",
   "management": null,
   "employees": null,
   "revenue": null,
@@ -2803,13 +2959,19 @@
   "nace": null,
   "sources": [
    "https://api.gleif.org/api/v1/lei-records/52990090AITYIP340F59",
-   "https://adriaticgroup.at/de/impressum"
+   "https://adriaticgroup.at/de/impressum",
+   "https://www.evi.gv.at/f/406462p"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T10:54:59Z",
   "registry_status": "verified_gleif",
   "imprint_url": "https://adriaticgroup.at/de/impressum",
-  "website_basis": "probe: FN + legal name on page (verify re-fetch timed out)"
+  "website_basis": "probe: FN + legal name on page (verify re-fetch timed out)",
+  "founded_source": "GLEIF legal entity creation date (LEI 52990090AITYIP340F59)",
+  "owners_source": "https://www.evi.gv.at/f/406462p",
+  "share_capital": "EUR 10 000",
+  "register_status": "Eingetragen",
+  "register_entry_date": "2013-12-11"
  },
  {
   "slug": "ager-gesmbh",
@@ -2828,7 +2990,7 @@
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
   "founded": null,
-  "owners": null,
+  "owners": "1 natürliche Person (Gesellschafter lt. Firmenbuch/evi.gv.at)",
   "management": null,
   "employees": null,
   "revenue": null,
@@ -2847,7 +3009,8 @@
   "nace": null,
   "sources": [
    "https://www.ager.cc/unternehmen/kontakt/impressum",
-   "EU VIES ATU48672002"
+   "EU VIES ATU48672002",
+   "https://www.evi.gv.at/f/43270h"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T10:53:49Z",
@@ -2858,7 +3021,11 @@
   "uid_checked_at": "2026-10-13T17:20:25.189Z",
   "imprint_url": "https://www.ager.cc/unternehmen/kontakt/impressum",
   "register_court": "Innsbruck",
-  "hrb": null
+  "hrb": null,
+  "owners_source": "https://www.evi.gv.at/f/43270h",
+  "share_capital": "EUR 36 336,42",
+  "register_status": "Eingetragen",
+  "register_entry_date": "1993-08-13"
  },
  {
   "slug": "amlacher-nudeln",
@@ -2925,7 +3092,7 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
+  "founded": "1988-11-10",
   "owners": null,
   "management": null,
   "employees": null,
@@ -2948,7 +3115,8 @@
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T10:54:34Z",
-  "registry_status": "verified_gleif"
+  "registry_status": "verified_gleif",
+  "founded_source": "GLEIF legal entity creation date (LEI 529900HWBYCO8M2UN457)"
  },
  {
   "slug": "biovegan-gmbh",
@@ -3015,8 +3183,8 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
-  "owners": null,
+  "founded": "2002-10-30",
+  "owners": "ADRIATIC GROUP GmbH (Gesellschafter lt. Firmenbuch/evi.gv.at)",
   "management": null,
   "employees": null,
   "revenue": null,
@@ -3035,7 +3203,8 @@
   "nace": null,
   "sources": [
    "https://www.brajlovic.at/imprint",
-   "EU VIES ATU57005537"
+   "EU VIES ATU57005537",
+   "https://www.evi.gv.at/f/227894p"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T11:00:13Z",
@@ -3046,7 +3215,12 @@
   "uid_checked_at": "2026-10-13T11:16:13.100Z",
   "imprint_url": "https://www.brajlovic.at/imprint",
   "register_court": null,
-  "hrb": null
+  "hrb": null,
+  "founded_source": "Firmenbuch Eintragungsdatum, evi.gv.at/f/227894p",
+  "owners_source": "https://www.evi.gv.at/f/227894p",
+  "share_capital": "EUR 35 000",
+  "register_status": "Eingetragen",
+  "register_entry_date": "2002-10-30"
  },
  {
   "slug": "danone-gmbh",
@@ -3065,7 +3239,7 @@
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
   "founded": null,
-  "owners": null,
+  "owners": "Nutricia International B.V.; Danone Deutschland GmbH (Gesellschafter lt. Firmenbuch/evi.gv.at)",
   "management": null,
   "employees": null,
   "revenue": null,
@@ -3084,7 +3258,8 @@
   "nace": null,
   "sources": [
    "https://www.activia.at/impressum/",
-   "EU VIES ATU34705405"
+   "EU VIES ATU34705405",
+   "https://www.evi.gv.at/f/61045y"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T11:01:50Z",
@@ -3095,7 +3270,11 @@
   "uid_checked_at": "2026-10-13T18:55:02.627Z",
   "imprint_url": "https://www.activia.at/impressum/",
   "register_court": null,
-  "hrb": null
+  "hrb": null,
+  "owners_source": "https://www.evi.gv.at/f/61045y",
+  "share_capital": "EUR 4 723 734,22",
+  "register_status": "Eingetragen",
+  "register_entry_date": "1993-11-16"
  },
  {
   "slug": "dr-schaer-spa",
@@ -3113,7 +3292,7 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
+  "founded": "1979-12-06",
   "owners": null,
   "management": null,
   "employees": null,
@@ -3144,7 +3323,8 @@
   "uid_vies_name": "DR. SCHAER AG",
   "uid_vies_address": "VIA WINKELAU 9 , 39014 POSTAL .BURGSTALL. BZ, ",
   "uid_checked_at": "2026-10-16T19:00:22.257Z",
-  "uid_source": "own legal notice + EU VIES (T1835)"
+  "uid_source": "own legal notice + EU VIES (T1835)",
+  "founded_source": "GLEIF legal entity creation date (LEI 8156007EFCC74E27AB09)"
  },
  {
   "slug": "gms-gourmet-gmbh",
@@ -3195,11 +3375,15 @@
    "https://www.diepresse.com/19563868/gastronomie-und-cateringfirma-gms-gourmet-plant-expansion-in-deutschland",
    "https://kurier.at/wirtschaft/catering-oesterreich-tschechien-gourmet-maresi-knabbernossi/403030837",
    "https://www.firmenatlas.com/firma/104525p",
-   "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf"
+   "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf",
+   "https://www.evi.gv.at/f/104525p"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T10:57:37Z",
-  "registry_status": "verified_gleif"
+  "registry_status": "verified_gleif",
+  "share_capital": "EUR 40 000",
+  "register_status": "Eingetragen",
+  "register_entry_date": "1994-06-23"
  },
  {
   "slug": "glatz-gmbh",
@@ -3217,8 +3401,8 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
-  "owners": null,
+  "founded": "2009-03-25",
+  "owners": "2 natürliche Personen (Gesellschafter lt. Firmenbuch/evi.gv.at)",
   "management": null,
   "employees": null,
   "revenue": null,
@@ -3236,11 +3420,17 @@
   "median_eur_per_10g_protein": 4.6,
   "nace": null,
   "sources": [
-   "https://api.gleif.org/api/v1/lei-records/98450010EDCCFFF5CF87"
+   "https://api.gleif.org/api/v1/lei-records/98450010EDCCFFF5CF87",
+   "https://www.evi.gv.at/f/325174y"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T10:57:22Z",
-  "registry_status": "verified_gleif"
+  "registry_status": "verified_gleif",
+  "founded_source": "GLEIF legal entity creation date (LEI 98450010EDCCFFF5CF87)",
+  "owners_source": "https://www.evi.gv.at/f/325174y",
+  "share_capital": "EUR 35 000",
+  "register_status": "Eingetragen",
+  "register_entry_date": "2009-04-04"
  },
  {
   "slug": "greisinger-gmbh",
@@ -3288,11 +3478,16 @@
    "https://api.gleif.org/api/v1/lei-records/5299003WXPQZV0HCD860",
    "https://www.greisinger.com/fuer-unsere-partner/betriebsdaten/",
    "https://www.greisinger.com/ueber-uns/geschichte-vision/",
-   "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf"
+   "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf",
+   "https://www.evi.gv.at/f/91770g"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T10:58:53Z",
-  "registry_status": "verified_gleif"
+  "registry_status": "verified_gleif",
+  "share_capital": "EUR 40 000",
+  "business_line": "Fleischhandel, -verwertung",
+  "register_status": "Eingetragen",
+  "register_entry_date": "1994-04-21"
  },
  {
   "slug": "hamker-vertriebsgesellschaft-mbh",
@@ -3410,7 +3605,7 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
+  "founded": "1999-05-12",
   "owners": "Wolfgang Hochreiter (Familienunternehmen)",
   "management": null,
   "employees": "75 (Unternehmensangabe) bzw. 90 (JA 2025); Condeli 190",
@@ -3443,7 +3638,8 @@
    "https://firmenakte.at/business/505367m-hochreiter-quality-meat-factory-gmbh",
    "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf",
    "https://www.hochreiter-gruppe.at/impressum/",
-   "EU VIES ATU58071589"
+   "EU VIES ATU58071589",
+   "https://www.evi.gv.at/f/182215p"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T10:55:46Z",
@@ -3454,7 +3650,12 @@
   "uid_checked_at": "2026-10-13T18:50:50.628Z",
   "imprint_url": "https://www.hochreiter-gruppe.at/impressum/",
   "register_court": null,
-  "hrb": null
+  "hrb": null,
+  "founded_source": "Firmenbuch Eintragungsdatum, evi.gv.at/f/182215p",
+  "share_capital": "EUR 280 000",
+  "business_line": "Produktion und Verkauf von Fleischwaren",
+  "register_status": "Eingetragen",
+  "register_entry_date": "1999-05-12"
  },
  {
   "slug": "landtmann-s-feine-patisserie",
@@ -3472,8 +3673,8 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
-  "owners": null,
+  "founded": "2005-08-26",
+  "owners": "Querfeld's Wiener Kaffeehaus Ges.m.b.H; Kaffee-Restaurant \"Mozart\" bei der Oper Gesellschaft m.b.H.; 1 natürliche Person (Gesellschafter lt. Firmenbuch/evi.gv.at)",
   "management": null,
   "employees": null,
   "revenue": null,
@@ -3492,7 +3693,8 @@
   "nace": null,
   "sources": [
    "https://landtmanns-original.at/policies/legal-notice",
-   "EU VIES ATU61901400"
+   "EU VIES ATU61901400",
+   "https://www.evi.gv.at/f/266335w"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T10:59:14Z",
@@ -3503,7 +3705,12 @@
   "uid_checked_at": "2026-10-13T18:51:49.361Z",
   "imprint_url": "https://landtmanns-original.at/policies/legal-notice",
   "register_court": "Handelsgericht Wien",
-  "hrb": null
+  "hrb": null,
+  "founded_source": "Firmenbuch Eintragungsdatum, evi.gv.at/f/266335w",
+  "owners_source": "https://www.evi.gv.at/f/266335w",
+  "share_capital": "EUR 40 000",
+  "register_status": "Eingetragen",
+  "register_entry_date": "2005-08-26"
  },
  {
   "slug": "plant-based-power-gmbh",
@@ -3614,7 +3821,11 @@
   "uid_checked_at": "2026-10-13T18:53:56.268Z",
   "imprint_url": "https://www.firmenabc.at/rewe-austria-genusskueche-gmbh_KNYO",
   "register_court": null,
-  "hrb": null
+  "hrb": null,
+  "share_capital": "EUR 50 000",
+  "business_line": "Lebensmittelproduktion, Handel",
+  "register_status": "Eingetragen",
+  "register_entry_date": "2001-02-06"
  },
  {
   "slug": "tress-lebensmittel-gmbh-co-kg",
@@ -3632,7 +3843,7 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
+  "founded": "2011-06-06",
   "owners": null,
   "management": null,
   "employees": null,
@@ -3658,7 +3869,8 @@
   "fetched_at": "2026-10-13T10:57:45Z",
   "registry_status": "verified_gleif",
   "imprint_url": "https://tressbrueder.de/impressum",
-  "website_basis": "own legal notice carries register_id=HRA 726441"
+  "website_basis": "own legal notice carries register_id=HRA 726441",
+  "founded_source": "GLEIF legal entity creation date (LEI 391200MC0M0SGKVN4318)"
  },
  {
   "slug": "wilhelm-blasko-convenience-fertiggerichte-gmbh",
@@ -3721,7 +3933,10 @@
   "uid_vies_name": "Wilhelm Blasko CONVENIENCE- Fertiggerichte GmbH",
   "uid_vies_address": "Leobner Straße 78, AT-8600 Bruck/Mur",
   "uid_checked_at": "2026-10-13T17:23:57.559Z",
-  "hrb": null
+  "hrb": null,
+  "share_capital": "EUR 363 000",
+  "register_status": "Eingetragen",
+  "register_entry_date": "1994-01-20"
  },
  {
   "slug": "aia-spa",
@@ -3788,7 +4003,7 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
+  "founded": "1973-06-28",
   "owners": null,
   "management": null,
   "employees": null,
@@ -3819,7 +4034,8 @@
   "uid_vies_name": "--- (DE VIES returns no name; legal name + register no. printed on the legal notice)",
   "uid_vies_address": "--- (DE VIES returns no address)",
   "uid_checked_at": "2026-10-16T19:00:34.507Z",
-  "uid_source": "own legal notice + EU VIES (T1835)"
+  "uid_source": "own legal notice + EU VIES (T1835)",
+  "founded_source": "GLEIF legal entity creation date (LEI 529900B04CNPB6E7MO40)"
  },
  {
   "slug": "bonne-maman",
@@ -3837,7 +4053,7 @@
   "parent_direct": "ANDROS ET CIE",
   "parent_ultimate": "ANDROS ET CIE",
   "parent_ultimate_lei": "969500UZO6890KVVXC24",
-  "founded": null,
+  "founded": "1999-12-21",
   "owners": null,
   "management": null,
   "employees": null,
@@ -3870,7 +4086,8 @@
   "imprint_url": "https://www.bonne-maman.com/pages/mentions-legales",
   "register_court": null,
   "hrb": null,
-  "gleif_match_basis": "Bonne Maman mentions légales name ANDROS SNC + RCS 428.682.447 + Biars-sur-Cère = GLEIF legal name ANDROS / registeredAs 428682447 / address ZONE INDUSTRIELLE BIARS-SUR-CERE; brand Bonne Maman is ANDROS's commercial name"
+  "gleif_match_basis": "Bonne Maman mentions légales name ANDROS SNC + RCS 428.682.447 + Biars-sur-Cère = GLEIF legal name ANDROS / registeredAs 428682447 / address ZONE INDUSTRIELLE BIARS-SUR-CERE; brand Bonne Maman is ANDROS's commercial name",
+  "founded_source": "GLEIF legal entity creation date (LEI 9695006ARZU1PBC9M649)"
  },
  {
   "slug": "bauck-gmbh",
@@ -3982,7 +4199,7 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
+  "founded": "2010-06-08",
   "owners": null,
   "management": null,
   "employees": null,
@@ -4006,7 +4223,8 @@
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T11:02:13Z",
   "registry_status": "verified_gleif",
-  "gleif_match_basis": "exact legal name DAIRY 4 FUN s.r.o.; only match in GLEIF"
+  "gleif_match_basis": "exact legal name DAIRY 4 FUN s.r.o.; only match in GLEIF",
+  "founded_source": "GLEIF legal entity creation date (LEI 315700X0LM9LA33FCG61)"
  },
  {
   "slug": "danone-deutschland-gmbh",
@@ -4024,7 +4242,7 @@
   "parent_direct": "DANONE",
   "parent_ultimate": "DANONE",
   "parent_ultimate_lei": "969500KMUQ2B6CBAF162",
-  "founded": null,
+  "founded": "2018-09-10",
   "owners": null,
   "management": null,
   "employees": null,
@@ -4047,7 +4265,8 @@
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T11:02:22Z",
-  "registry_status": "verified_gleif"
+  "registry_status": "verified_gleif",
+  "founded_source": "GLEIF legal entity creation date (LEI 2138001ZZP25K3WV7T37)"
  },
  {
   "slug": "delamaris-doo",
@@ -4148,7 +4367,7 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
+  "founded": "2015-05-05",
   "owners": null,
   "management": null,
   "employees": null,
@@ -4172,7 +4391,8 @@
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T10:57:04Z",
   "registry_status": "verified_gleif",
-  "gleif_match_basis": "exact legal name (Sp. z o.o. = Spółka z ograniczoną odpowiedzialnością); only Doppelt entity in GLEIF"
+  "gleif_match_basis": "exact legal name (Sp. z o.o. = Spółka z ograniczoną odpowiedzialnością); only Doppelt entity in GLEIF",
+  "founded_source": "GLEIF legal entity creation date (LEI 2594008R9U26N8O08Z15)"
  },
  {
   "slug": "ehrenwort-gmbh",
@@ -4190,8 +4410,8 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
-  "owners": null,
+  "founded": "2017-02-07",
+  "owners": "1 natürliche Person (Gesellschafter lt. Firmenbuch/evi.gv.at)",
   "management": null,
   "employees": null,
   "revenue": null,
@@ -4210,7 +4430,8 @@
   "nace": null,
   "sources": [
    "https://www.ehrenwort.at/pages/impressum",
-   "EU VIES ATU71918856"
+   "EU VIES ATU71918856",
+   "https://www.evi.gv.at/f/466066t"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T10:55:50Z",
@@ -4221,7 +4442,13 @@
   "uid_checked_at": "2026-10-13T11:18:16.077Z",
   "imprint_url": "https://www.ehrenwort.at/pages/impressum",
   "register_court": null,
-  "hrb": null
+  "hrb": null,
+  "founded_source": "Firmenbuch Eintragungsdatum, evi.gv.at/f/466066t",
+  "owners_source": "https://www.evi.gv.at/f/466066t",
+  "share_capital": "EUR 35 000",
+  "business_line": "Handel mit Waren aller Art",
+  "register_status": "Eingetragen",
+  "register_entry_date": "2017-02-07"
  },
  {
   "slug": "estyria-naturprodukte-gmbh",
@@ -4239,8 +4466,8 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
-  "owners": null,
+  "founded": "1995-06-07",
+  "owners": "ALWERA AG (Gesellschafter lt. Firmenbuch/evi.gv.at)",
   "management": null,
   "employees": null,
   "revenue": null,
@@ -4258,11 +4485,18 @@
   "median_eur_per_10g_protein": 3.5,
   "nace": null,
   "sources": [
-   "https://api.gleif.org/api/v1/lei-records/529900TSU1ECVJ0FYL45"
+   "https://api.gleif.org/api/v1/lei-records/529900TSU1ECVJ0FYL45",
+   "https://www.evi.gv.at/f/135831b"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T10:57:28Z",
-  "registry_status": "verified_gleif"
+  "registry_status": "verified_gleif",
+  "founded_source": "GLEIF legal entity creation date (LEI 529900TSU1ECVJ0FYL45)",
+  "owners_source": "https://www.evi.gv.at/f/135831b",
+  "share_capital": "ATS 500 000",
+  "business_line": "Handel mit Naturprodukten",
+  "register_status": "Eingetragen",
+  "register_entry_date": "1995-08-02"
  },
  {
   "slug": "euryza-gmbh",
@@ -4280,7 +4514,7 @@
   "parent_direct": "EBRO FOODS, S.A.",
   "parent_ultimate": "EBRO FOODS, S.A.",
   "parent_ultimate_lei": "959800NW6DLQT89M3240",
-  "founded": null,
+  "founded": "1964-05-12",
   "owners": null,
   "management": null,
   "employees": null,
@@ -4311,7 +4545,8 @@
   "uid_vies_name": "--- (DE VIES returns no name; legal name + register no. printed on the legal notice)",
   "uid_vies_address": "--- (DE VIES returns no address)",
   "uid_checked_at": "2026-10-16T19:00:38.975Z",
-  "uid_source": "own legal notice + EU VIES (T1835)"
+  "uid_source": "own legal notice + EU VIES (T1835)",
+  "founded_source": "GLEIF legal entity creation date (LEI 52990035MITUYUCR8F03)"
  },
  {
   "slug": "franu-espana-sl",
@@ -4329,7 +4564,7 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
+  "founded": "2018-05-08",
   "owners": null,
   "management": null,
   "employees": null,
@@ -4359,7 +4594,8 @@
   "uid": "ESB40502403",
   "uid_vies_name": "--- (ES returns no name; approximate match traderName 'FRANUI ESPANA SL' = VALID)",
   "uid_vies_address": "--- (ES; traderPostalCode 46290 = VALID, traderCity ALCASSER = VALID)",
-  "uid_checked_at": "2026-10-16T18:13:55Z"
+  "uid_checked_at": "2026-10-16T18:13:55Z",
+  "founded_source": "GLEIF legal entity creation date (LEI 959800UR1864J6SPSH33)"
  },
  {
   "slug": "franz-ablinger-co-fleischhauereibetrieb-gesellschaft-mbh",
@@ -4377,8 +4613,8 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
-  "owners": null,
+  "founded": "1973-08-17",
+  "owners": "Ablinger Familien-Privatstiftung (Gesellschafter lt. Firmenbuch/evi.gv.at)",
   "management": null,
   "employees": null,
   "revenue": null,
@@ -4396,11 +4632,17 @@
   "median_eur_per_10g_protein": 7.7,
   "nace": null,
   "sources": [
-   "https://api.gleif.org/api/v1/lei-records/529900I9B0UN7I6KWB59"
+   "https://api.gleif.org/api/v1/lei-records/529900I9B0UN7I6KWB59",
+   "https://www.evi.gv.at/f/67371a"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T10:58:09Z",
-  "registry_status": "verified_gleif"
+  "registry_status": "verified_gleif",
+  "founded_source": "GLEIF legal entity creation date (LEI 529900I9B0UN7I6KWB59)",
+  "owners_source": "https://www.evi.gv.at/f/67371a",
+  "share_capital": "ATS 2 800 000",
+  "register_status": "Eingetragen",
+  "register_entry_date": "1993-12-14"
  },
  {
   "slug": "greenforce-future-food-ag",
@@ -4418,7 +4660,7 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
+  "founded": "2020-08-28",
   "owners": null,
   "management": null,
   "employees": null,
@@ -4449,7 +4691,8 @@
   "uid_vies_name": "--- (DE VIES returns no name; legal name + register no. printed on the legal notice)",
   "uid_vies_address": "--- (DE VIES returns no address)",
   "uid_checked_at": "2026-10-16T19:00:42.030Z",
-  "uid_source": "own legal notice + EU VIES (T1835)"
+  "uid_source": "own legal notice + EU VIES (T1835)",
+  "founded_source": "GLEIF legal entity creation date (LEI 894500XJAOZKM5ACGD13)"
  },
  {
   "slug": "galana-nv-beldessert",
@@ -4589,7 +4832,8 @@
    "https://www.sutterluety.at/aus-der-region/graninger-tiefku%CC%88hl/",
    "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf",
    "https://graninger-lebensmittel.at/impressum",
-   "EU VIES ATU76281514"
+   "EU VIES ATU76281514",
+   "https://www.evi.gv.at/f/546112g"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T10:58:12Z",
@@ -4600,7 +4844,11 @@
   "uid_checked_at": "2026-10-13T18:50:45.871Z",
   "imprint_url": "https://graninger-lebensmittel.at/impressum",
   "register_court": "Landesgericht Feldkirch",
-  "hrb": null
+  "hrb": null,
+  "share_capital": "EUR 35 000",
+  "business_line": "Nahrungsmittelproduktion",
+  "register_status": "Eingetragen",
+  "register_entry_date": "2020-12-17"
  },
  {
   "slug": "heiploeg-international-bv",
@@ -4679,7 +4927,7 @@
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
   "founded": "2005-09-06",
-  "owners": null,
+  "owners": "Posch GmbH (Gesellschafter lt. Firmenbuch/evi.gv.at)",
   "management": "Nikolaj Posch, Mag. pharm. Patrick Posch (Geschäftsführer lt. Impressum)",
   "employees": null,
   "revenue": null,
@@ -4709,7 +4957,12 @@
   "uid": "ATU61930557",
   "uid_vies_name": "St. Hildegard-Posch GmbH",
   "uid_vies_address": "Thern 40, AT-4880 St.Georgen/Attergau",
-  "uid_checked_at": "2026-10-16T18:12:03Z"
+  "uid_checked_at": "2026-10-16T18:12:03Z",
+  "owners_source": "https://www.evi.gv.at/f/266429h",
+  "share_capital": "EUR 35 000",
+  "business_line": "Vertrieb von Naturprodukten",
+  "register_status": "Eingetragen",
+  "register_entry_date": "2005-09-06"
  },
  {
   "slug": "hubers-landhendl-gmbh",
@@ -4759,7 +5012,8 @@
    "https://gentechnikfrei.at/mitglieder/hubers-landhendl-gmbh/",
    "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf",
    "https://huberslandhendl.at/impressum",
-   "EU VIES ATU64592934"
+   "EU VIES ATU64592934",
+   "https://www.evi.gv.at/f/320698s"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T10:57:34Z",
@@ -4770,7 +5024,11 @@
   "uid_checked_at": "2026-10-13T11:18:09.510Z",
   "imprint_url": "https://huberslandhendl.at/impressum",
   "register_court": "Ried im Innkreis",
-  "hrb": null
+  "hrb": null,
+  "share_capital": "EUR 100 000",
+  "business_line": "Tierzucht",
+  "register_status": "Eingetragen",
+  "register_entry_date": "2008-12-19"
  },
  {
   "slug": "kikkoman-trading-europe-gmbh",
@@ -4863,7 +5121,11 @@
   "gleif_match_score": null,
   "fetched_at": "2026-10-16T18:09:40Z",
   "registry_status": "fn_public_register (evi.gv.at FN 508483w name+address = pack label 'Knödelwerkstatt G.m.b.H, Hauptstraße 12, 4581 Rosenau am Hengstpass'; Impressum UID truncated 'ATU', directory UID ATU56237548 VIES-invalid 2026-10-16T18:09Z — no LEI/verified UID, not counted as legal entity identified)",
-  "imprint_url": "https://www.knoedelwerkstatt.at/impressum/"
+  "imprint_url": "https://www.knoedelwerkstatt.at/impressum/",
+  "share_capital": "EUR 46 729",
+  "business_line": "Lebensmittelproduktion",
+  "register_status": "Eingetragen",
+  "register_entry_date": "2019-03-08"
  },
  {
   "slug": "kontakt-everygmbh",
@@ -4931,7 +5193,7 @@
   "parent_direct": "FINANCIERE RT",
   "parent_ultimate": "FINANCIERE RT",
   "parent_ultimate_lei": "969500UQT1DQ236LGB34",
-  "founded": null,
+  "founded": "1989-01-01",
   "owners": null,
   "management": null,
   "employees": null,
@@ -4955,7 +5217,8 @@
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T11:01:24Z",
   "registry_status": "verified_gleif",
-  "gleif_match_basis": "exact legal name + label address 8 rue Pierre Legault, 35360 Boisgervilly = GLEIF legal address (8B)"
+  "gleif_match_basis": "exact legal name + label address 8 rue Pierre Legault, 35360 Boisgervilly = GLEIF legal address (8B)",
+  "founded_source": "GLEIF legal entity creation date (LEI 9695008S54YQL1E0KN19)"
  },
  {
   "slug": "lpp-lotao-gmbh",
@@ -5022,8 +5285,8 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
-  "owners": null,
+  "founded": "2000-02-03",
+  "owners": "FINDORADO GmbH (Gesellschafter lt. Firmenbuch/evi.gv.at)",
   "management": null,
   "employees": null,
   "revenue": null,
@@ -5042,7 +5305,8 @@
   "nace": null,
   "sources": [
    "https://www.lamercantile.com/impressum/",
-   "EU VIES ATU48041202"
+   "EU VIES ATU48041202",
+   "https://www.evi.gv.at/f/187561a"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T10:59:52Z",
@@ -5053,7 +5317,12 @@
   "uid_checked_at": "2026-10-13T17:22:58.066Z",
   "imprint_url": "https://www.lamercantile.com/impressum/",
   "register_court": "HG Wien",
-  "hrb": null
+  "hrb": null,
+  "founded_source": "Firmenbuch Eintragungsdatum, evi.gv.at/f/187561a",
+  "owners_source": "https://www.evi.gv.at/f/187561a",
+  "share_capital": "EUR 100 000",
+  "register_status": "Eingetragen",
+  "register_entry_date": "2000-02-03"
  },
  {
   "slug": "meica-gmbh",
@@ -5121,7 +5390,7 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
+  "founded": "1982-01-12",
   "owners": null,
   "management": null,
   "employees": null,
@@ -5145,7 +5414,8 @@
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T10:59:33Z",
   "registry_status": "verified_gleif",
-  "gleif_match_basis": "exact legal name + label address Via Pacinotti 25, 37057 San Giovanni Lupatoto = GLEIF legal address"
+  "gleif_match_basis": "exact legal name + label address Via Pacinotti 25, 37057 San Giovanni Lupatoto = GLEIF legal address",
+  "founded_source": "GLEIF legal entity creation date (LEI 815600530D7A6B12BC38)"
  },
  {
   "slug": "planted-foods-ag",
@@ -5305,8 +5575,8 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
-  "owners": null,
+  "founded": "2021-02-24",
+  "owners": "friends2grow GmbH; Hazelpond Capital ApS; MKO BeteiligungsgmbH; Sebastian Bartel GmbH; Helge Klein GmbH; Sinnvestment GmbH; Bigemon GmbH; IKAT GmbH; Renz Investments GmbH; Schmidbauer Food Innovation GmbH; anchorion ventures GmbH; PW Sunset Consulting GmbH; Brotinus GmbH; Lagom GmbH; 22 natürliche Personen (Gesellschafter lt. Firmenbuch/evi.gv.at)",
   "management": null,
   "employees": null,
   "revenue": null,
@@ -5325,7 +5595,8 @@
   "nace": null,
   "sources": [
    "https://revo-foods.com/imprint/",
-   "EU VIES ATU76495712"
+   "EU VIES ATU76495712",
+   "https://www.evi.gv.at/f/550473w"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T10:58:50Z",
@@ -5336,7 +5607,13 @@
   "uid_checked_at": "2026-10-13T11:19:38.236Z",
   "imprint_url": "https://revo-foods.com/imprint/",
   "register_court": null,
-  "hrb": null
+  "hrb": null,
+  "founded_source": "Firmenbuch Eintragungsdatum, evi.gv.at/f/550473w",
+  "owners_source": "https://www.evi.gv.at/f/550473w",
+  "share_capital": "EUR 86 839",
+  "business_line": "Produktion von Lebensmitteln; Erforschung, Entwicklung und Vertrieb neuer Verfahren zur Lebensmittelproduktion",
+  "register_status": "Eingetragen",
+  "register_entry_date": "2021-02-24"
  },
  {
   "slug": "rila-die-genussentdecker",
@@ -5404,7 +5681,7 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
+  "founded": "1986-06-03",
   "owners": null,
   "management": null,
   "employees": null,
@@ -5427,7 +5704,8 @@
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T10:56:08Z",
-  "registry_status": "verified_gleif"
+  "registry_status": "verified_gleif",
+  "founded_source": "GLEIF legal entity creation date (LEI 815600DABDA3F47A6A19)"
  },
  {
   "slug": "riso-scotti-spa",
@@ -5445,7 +5723,7 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
+  "founded": "1963-02-17",
   "owners": null,
   "management": null,
   "employees": null,
@@ -5468,7 +5746,8 @@
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T11:00:54Z",
-  "registry_status": "verified_gleif"
+  "registry_status": "verified_gleif",
+  "founded_source": "GLEIF legal entity creation date (LEI 815600FD694EBCF44005)"
  },
  {
   "slug": "ruegenwalder-muehle-carl-mueller-gmbh-co-kg",
@@ -5486,7 +5765,7 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
+  "founded": "1834",
   "owners": null,
   "management": null,
   "employees": null,
@@ -5506,13 +5785,15 @@
   "nace": null,
   "sources": [
    "https://api.gleif.org/api/v1/lei-records/5299003YOGW9AD7K4H05",
-   "https://www.ruegenwalder.de/de/impressum"
+   "https://www.ruegenwalder.de/de/impressum",
+   "http://www.wikidata.org/entity/Q2203886"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T10:58:44Z",
   "registry_status": "verified_gleif",
   "imprint_url": "https://www.ruegenwalder.de/de/impressum",
-  "website_basis": "own legal notice carries register_id=HRA 120467"
+  "website_basis": "own legal notice carries register_id=HRA 120467",
+  "founded_source": "Wikidata P571 (Q2203886, matched by P1278)"
  },
  {
   "slug": "stadtkueche",
@@ -5530,8 +5811,8 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
-  "owners": null,
+  "founded": "2026-03-19",
+  "owners": "Stix Beteiligungs GmbH; 1 natürliche Person (Gesellschafter lt. Firmenbuch/evi.gv.at)",
   "management": "Daniel Pichler (Geschäftsführer lt. Impressum)",
   "employees": null,
   "revenue": null,
@@ -5550,7 +5831,8 @@
   "nace": "Lebensmittelproduktion (Unternehmensgegenstand lt. Impressum)",
   "sources": [
    "https://kasnudl.at/impressum",
-   "https://ec.europa.eu/taxation_customs/vies/"
+   "https://ec.europa.eu/taxation_customs/vies/",
+   "https://www.evi.gv.at/f/675365i"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-16T17:10:34Z",
@@ -5560,7 +5842,13 @@
   "uid": "ATU83103945",
   "uid_vies_name": "Knödelhütte GmbH",
   "uid_vies_address": "Barbara-Prammer-Allee 15/1/1A, AT-1220 Wien",
-  "uid_checked_at": "2026-10-16T17:10:34Z"
+  "uid_checked_at": "2026-10-16T17:10:34Z",
+  "founded_source": "Firmenbuch Eintragungsdatum, evi.gv.at/f/675365i",
+  "owners_source": "https://www.evi.gv.at/f/675365i",
+  "share_capital": "EUR 10 000",
+  "business_line": "Herstellung und Vertrieb von Tiefkühlprodukten",
+  "register_status": "Eingetragen",
+  "register_entry_date": "2026-03-19"
  },
  {
   "slug": "vegetarische-feinkost-produktion-peter-hiel",
@@ -5804,11 +6092,15 @@
    "https://www.wiesbauer.at/geschichte/",
    "https://www.wiesbauer.at/wiesbauer-holding/",
    "https://presse.wiesbauer.at/news-wiesbauer-mit-solider-geschaeftsentwicklung?id=229428&l=deutsch&menueid=34285",
-   "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf"
+   "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf",
+   "https://www.evi.gv.at/f/53963h"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T10:56:11Z",
-  "registry_status": "verified_gleif"
+  "registry_status": "verified_gleif",
+  "share_capital": "ATS 100 000 000",
+  "register_status": "Eingetragen",
+  "register_entry_date": "1993-10-07"
  },
  {
   "slug": "winkelbauer-gmbh",
@@ -5826,8 +6118,8 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
-  "owners": null,
+  "founded": "1976-12-21",
+  "owners": "2 natürliche Personen (Gesellschafter lt. Firmenbuch/evi.gv.at)",
   "management": null,
   "employees": null,
   "revenue": null,
@@ -5845,11 +6137,17 @@
   "median_eur_per_10g_protein": null,
   "nace": null,
   "sources": [
-   "https://api.gleif.org/api/v1/lei-records/529900YH6DT4UAGNHL65"
+   "https://api.gleif.org/api/v1/lei-records/529900YH6DT4UAGNHL65",
+   "https://www.evi.gv.at/f/65695k"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T10:54:41Z",
-  "registry_status": "verified_gleif"
+  "registry_status": "verified_gleif",
+  "founded_source": "GLEIF legal entity creation date (LEI 529900YH6DT4UAGNHL65)",
+  "owners_source": "https://www.evi.gv.at/f/65695k",
+  "share_capital": "EUR 200 000",
+  "register_status": "Eingetragen",
+  "register_entry_date": "1993-12-03"
  },
  {
   "slug": "zum-dorfkrug-produktions-und-handelsgesellschaft-mbh-co-kg",
@@ -5917,8 +6215,8 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
-  "owners": null,
+  "founded": "2013-06-06",
+  "owners": "2 natürliche Personen (Gesellschafter lt. Firmenbuch/evi.gv.at)",
   "management": null,
   "employees": null,
   "revenue": null,
@@ -5937,7 +6235,8 @@
   "nace": null,
   "sources": [
    "https://www.delidip.com/impressum",
-   "EU VIES ATU68013179"
+   "EU VIES ATU68013179",
+   "https://www.evi.gv.at/f/396515k"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T11:01:08Z",
@@ -5948,7 +6247,13 @@
   "uid_checked_at": "2026-10-13T17:05:55.428Z",
   "imprint_url": "https://www.delidip.com/impressum",
   "register_court": "Handelsgericht Wien",
-  "hrb": null
+  "hrb": null,
+  "founded_source": "Firmenbuch Eintragungsdatum, evi.gv.at/f/396515k",
+  "owners_source": "https://www.evi.gv.at/f/396515k",
+  "share_capital": "EUR 36 000",
+  "business_line": "Herstellung und Vertrieb von Lebensmitteln, sowie von gastronomischen Produkten und sämtlicher damit in Zusammenhang stehender Dienstleistungen; Beteiligung an anderen Unternehmen",
+  "register_status": "Eingetragen",
+  "register_entry_date": "2013-06-06"
  },
  {
   "slug": "efko-frischfrucht-und-delikatessen-gmbh",
@@ -5966,8 +6271,8 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
-  "owners": null,
+  "founded": "1973-07-02",
+  "owners": "OÖ. Obst- und Gemüseverwertungsgenossenschaft (efko) eGen; Raiffeisen Beteiligungsholding GmbH (Gesellschafter lt. Firmenbuch/evi.gv.at)",
   "management": null,
   "employees": null,
   "revenue": null,
@@ -5986,7 +6291,8 @@
   "nace": null,
   "sources": [
    "https://api.gleif.org/api/v1/lei-records/52990092YPC9C4JYBN76",
-   "https://www.efko.at/impressum/"
+   "https://www.efko.at/impressum/",
+   "https://www.evi.gv.at/f/101672v"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T10:58:23Z",
@@ -5997,7 +6303,12 @@
   "uid_vies_name": "efko Frischfrucht und Delikatessen GmbH",
   "uid_vies_address": "Hinzenbach 38, AT-4070 Hinzenbach",
   "uid_checked_at": "2026-10-16T19:00:51.117Z",
-  "uid_source": "own legal notice + EU VIES (T1835)"
+  "uid_source": "own legal notice + EU VIES (T1835)",
+  "founded_source": "GLEIF legal entity creation date (LEI 52990092YPC9C4JYBN76)",
+  "owners_source": "https://www.evi.gv.at/f/101672v",
+  "share_capital": "EUR 1 510 000",
+  "register_status": "Eingetragen",
+  "register_entry_date": "1994-06-10"
  },
  {
   "slug": "followfood-gmbh",
@@ -6015,7 +6326,7 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
+  "founded": "2001-06-06",
   "owners": null,
   "management": null,
   "employees": null,
@@ -6046,7 +6357,8 @@
   "uid_vies_name": "--- (DE VIES returns no name; legal name + register no. printed on the legal notice)",
   "uid_vies_address": "--- (DE VIES returns no address)",
   "uid_checked_at": "2026-10-16T19:00:54.489Z",
-  "uid_source": "own legal notice + EU VIES (T1835)"
+  "uid_source": "own legal notice + EU VIES (T1835)",
+  "founded_source": "GLEIF legal entity creation date (LEI 529900BHG8J8LULWXG88)"
  },
  {
   "slug": "hofer-kg",
@@ -6064,7 +6376,7 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
+  "founded": "1991-12-18",
   "owners": null,
   "management": null,
   "employees": null,
@@ -6079,12 +6391,16 @@
   "median_eur_per_10g_protein": null,
   "nace": null,
   "sources": [
-   "https://api.gleif.org/api/v1/lei-records/529900MNT8H6TLU4WK98"
+   "https://api.gleif.org/api/v1/lei-records/529900MNT8H6TLU4WK98",
+   "https://www.evi.gv.at/f/600h"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T11:02:40Z",
   "chain_product_count": 224,
-  "registry_status": "verified_gleif"
+  "registry_status": "verified_gleif",
+  "founded_source": "GLEIF legal entity creation date (LEI 529900MNT8H6TLU4WK98)",
+  "register_status": "Eingetragen",
+  "register_entry_date": "1991-12-18"
  },
  {
   "slug": "inzersdorfer-nahrungsmittelwerke",
@@ -6102,8 +6418,8 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
-  "owners": null,
+  "founded": "1997-08-27",
+  "owners": "VIVATIS Holding AG; Landgenossenschaft Ennstal eGen (Gesellschafter lt. Firmenbuch/evi.gv.at)",
   "management": null,
   "employees": null,
   "revenue": null,
@@ -6120,7 +6436,8 @@
   "nace": null,
   "sources": [
    "https://www.inzersdorfer.at/impressum/",
-   "EU VIES ATU61613203"
+   "EU VIES ATU61613203",
+   "https://www.evi.gv.at/f/161846i"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T11:03:02Z",
@@ -6131,7 +6448,12 @@
   "uid_checked_at": "2026-10-13T18:52:01.703Z",
   "imprint_url": "https://www.inzersdorfer.at/impressum/",
   "register_court": "Handelsgericht Wien",
-  "hrb": null
+  "hrb": null,
+  "founded_source": "Firmenbuch Eintragungsdatum, evi.gv.at/f/161846i",
+  "owners_source": "https://www.evi.gv.at/f/161846i",
+  "share_capital": "EUR 250 000",
+  "register_status": "Eingetragen",
+  "register_entry_date": "1997-08-27"
  },
  {
   "slug": "lidl-oesterreich-gmbh",
@@ -6165,7 +6487,8 @@
   "nace": null,
   "sources": [
    "https://www.lidl.at/c/impressum/s10011983",
-   "EU VIES ATU37893801"
+   "EU VIES ATU37893801",
+   "https://www.evi.gv.at/f/131556s"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T11:02:46Z",
@@ -6177,7 +6500,11 @@
   "uid_checked_at": "2026-10-13T11:20:02.939Z",
   "imprint_url": "https://www.lidl.at/c/impressum/s10011983",
   "register_court": null,
-  "hrb": null
+  "hrb": null,
+  "share_capital": "EUR 26 000",
+  "business_line": "Handel mit Waren aller Art",
+  "register_status": "Eingetragen",
+  "register_entry_date": "1995-02-23"
  },
  {
   "slug": "penny-gmbh",
@@ -6195,8 +6522,8 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
-  "owners": null,
+  "founded": "1997-07-25",
+  "owners": "Billa Aktiengesellschaft (Gesellschafter lt. Firmenbuch/evi.gv.at)",
   "management": null,
   "employees": null,
   "revenue": null,
@@ -6211,7 +6538,8 @@
   "nace": null,
   "sources": [
    "https://www.penny.at/impressum",
-   "EU VIES ATU43203403"
+   "EU VIES ATU43203403",
+   "https://www.evi.gv.at/f/160330f"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T11:02:49Z",
@@ -6223,7 +6551,12 @@
   "uid_vies_name": "Penny GmbH",
   "uid_vies_address": "Iz Noe-Süd Str 3 Obj 16, AT-2355 Wiener Neudorf",
   "uid_checked_at": "2026-10-13T17:23:37.431Z",
-  "hrb": null
+  "hrb": null,
+  "founded_source": "Firmenbuch Eintragungsdatum, evi.gv.at/f/160330f",
+  "owners_source": "https://www.evi.gv.at/f/160330f",
+  "share_capital": "EUR 40 000",
+  "register_status": "Eingetragen",
+  "register_entry_date": "1997-07-25"
  },
  {
   "slug": "rewe-international-ag",
@@ -6241,7 +6574,7 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
+  "founded": "1926-12-30",
   "owners": null,
   "management": null,
   "employees": null,
@@ -6257,7 +6590,8 @@
   "nace": null,
   "sources": [
    "https://api.gleif.org/api/v1/lei-records/529900VPZ1K9QECCLM53",
-   "https://rewe-group.at/de/impressum/"
+   "https://rewe-group.at/de/impressum/",
+   "https://www.evi.gv.at/f/82769w"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T11:02:56Z",
@@ -6269,7 +6603,11 @@
   "uid_vies_name": "REWE International AG",
   "uid_vies_address": "Industriezentrum NÖ-Süd,Str 3, AT-2355 Wiener Neudorf",
   "uid_checked_at": "2026-10-16T19:00:58.825Z",
-  "uid_source": "own legal notice + EU VIES (T1835)"
+  "uid_source": "own legal notice + EU VIES (T1835)",
+  "founded_source": "GLEIF legal entity creation date (LEI 529900VPZ1K9QECCLM53)",
+  "share_capital": "EUR 2 200 000",
+  "register_status": "Eingetragen",
+  "register_entry_date": "1994-03-05"
  },
  {
   "slug": "spar-oesterreichische-warenhandels-aktiengesellschaft",
@@ -6287,7 +6625,7 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
+  "founded": "1985-08-28",
   "owners": null,
   "management": null,
   "employees": null,
@@ -6303,14 +6641,19 @@
   "nace": null,
   "sources": [
    "https://api.gleif.org/api/v1/lei-records/529900Y9ZL3RKKWV4276",
-   "https://spar.at/impressum.html"
+   "https://spar.at/impressum.html",
+   "https://www.evi.gv.at/f/34170a"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T11:02:36Z",
   "chain_product_count": 596,
   "registry_status": "verified_gleif",
   "imprint_url": "https://spar.at/impressum.html",
-  "website_basis": "probe: FN on page (verify re-fetch timed out)"
+  "website_basis": "probe: FN on page (verify re-fetch timed out)",
+  "founded_source": "GLEIF legal entity creation date (LEI 529900Y9ZL3RKKWV4276)",
+  "share_capital": "EUR 30 000 000",
+  "register_status": "Eingetragen",
+  "register_entry_date": "1993-06-17"
  },
  {
   "slug": "unimarkt-gmbh",
@@ -6343,12 +6686,16 @@
   "median_eur_per_10g_protein": null,
   "nace": null,
   "sources": [
-   "https://api.gleif.org/api/v1/lei-records/529900X5GBP4KNVUYQ35"
+   "https://api.gleif.org/api/v1/lei-records/529900X5GBP4KNVUYQ35",
+   "https://www.evi.gv.at/f/25076b"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-16T17:20:00Z",
   "chain_product_count": 0,
-  "registry_status": "verified_gleif"
+  "registry_status": "verified_gleif",
+  "business_line": "Lebensmittelhandel",
+  "register_status": "Eingetragen",
+  "register_entry_date": "1992-07-07"
  },
  {
   "slug": "dm-drogerie-markt-gmbh",
@@ -6463,7 +6810,7 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
+  "founded": "2024-03-29",
   "owners": null,
   "management": "Polina Polynova (Geschäftsführerin lt. Impressum)",
   "employees": null,
@@ -6483,7 +6830,8 @@
   "nace": null,
   "sources": [
    "https://kernbeisser.at/impressum/",
-   "https://ec.europa.eu/taxation_customs/vies/"
+   "https://ec.europa.eu/taxation_customs/vies/",
+   "https://www.evi.gv.at/f/622470y"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-14T05:07:01Z",
@@ -6495,7 +6843,11 @@
   "uid_checked_at": "2026-10-14T05:07:01Z",
   "imprint_url": "https://kernbeisser.at/impressum/",
   "register_court": "Handelsgericht Wien",
-  "hrb": null
+  "hrb": null,
+  "founded_source": "Firmenbuch Eintragungsdatum, evi.gv.at/f/622470y",
+  "business_line": "Nahrungs- und Genussmitttelgewerbe",
+  "register_status": "Eingetragen",
+  "register_entry_date": "2024-03-29"
  },
  {
   "slug": "golden-veggies-gmbh",
@@ -6513,8 +6865,8 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
-  "owners": null,
+  "founded": "2021-02-23",
+  "owners": "3 natürliche Personen (Gesellschafter lt. Firmenbuch/evi.gv.at)",
   "management": "Matthias Wiesenhofer, MSc. (Geschäftsführer lt. Impressum)",
   "employees": null,
   "revenue": null,
@@ -6533,7 +6885,8 @@
   "nace": null,
   "sources": [
    "https://goldblatt.at/policies/legal-notice",
-   "https://ec.europa.eu/taxation_customs/vies/"
+   "https://ec.europa.eu/taxation_customs/vies/",
+   "https://www.evi.gv.at/f/550344f"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-14T05:41:28Z",
@@ -6545,7 +6898,13 @@
   "uid_checked_at": "2026-10-14T05:41:28Z",
   "imprint_url": "https://goldblatt.at/policies/legal-notice",
   "register_court": "Landesgericht Graz",
-  "hrb": null
+  "hrb": null,
+  "founded_source": "Firmenbuch Eintragungsdatum, evi.gv.at/f/550344f",
+  "owners_source": "https://www.evi.gv.at/f/550344f",
+  "share_capital": "EUR 35 000",
+  "business_line": "Herstellung und Vertrieb veganer Lebensmittel und Erbringung von Dienstleistungen im Bereich Verpflegung mit veganen Lebensmittel",
+  "register_status": "Eingetragen",
+  "register_entry_date": "2021-02-23"
  },
  {
   "slug": "iss-mich-gmbh",
@@ -6598,7 +6957,11 @@
   "uid_checked_at": "2026-10-14T06:52:31Z",
   "imprint_url": "https://www.issmich.at/impressum",
   "register_court": "Handelsgericht Wien",
-  "hrb": null
+  "hrb": null,
+  "share_capital": "EUR 35 000",
+  "business_line": "Handel mit Biolebensmittel",
+  "register_status": "Eingetragen",
+  "register_entry_date": "2017-05-23"
  },
  {
   "slug": "alfies-gmbh",
@@ -6616,8 +6979,8 @@
   "parent_direct": null,
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
-  "founded": null,
-  "owners": null,
+  "founded": "2010-09-17",
+  "owners": "CC Beverages Holdings II B.V.; 4 natürliche Personen (Gesellschafter lt. Firmenbuch/evi.gv.at)",
   "management": null,
   "employees": null,
   "revenue": null,
@@ -6637,7 +7000,8 @@
   "sources": [
    "https://www.alfies.at/impressum",
    "https://ec.europa.eu/taxation_customs/vies/",
-   "https://api.gleif.org/api/v1/lei-records/984500B8Z9EOKFE27580"
+   "https://api.gleif.org/api/v1/lei-records/984500B8Z9EOKFE27580",
+   "https://www.evi.gv.at/f/352065v"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-14T07:16:18Z",
@@ -6650,6 +7014,12 @@
   "imprint_url": "https://www.alfies.at/impressum",
   "register_court": "Handelsgericht Wien",
   "hrb": null,
-  "gleif_ultimate_parent_exception": "NO_KNOWN_PERSON"
+  "gleif_ultimate_parent_exception": "NO_KNOWN_PERSON",
+  "founded_source": "GLEIF legal entity creation date (LEI 984500B8Z9EOKFE27580)",
+  "owners_source": "https://www.evi.gv.at/f/352065v",
+  "share_capital": "EUR 52 867,88",
+  "business_line": "Handel mit Waren aller Art",
+  "register_status": "Eingetragen",
+  "register_entry_date": "2010-10-13"
  }
 ]

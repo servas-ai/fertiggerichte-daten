@@ -1,0 +1,24 @@
+{
+ "billa-aktiengesellschaft": [
+  {
+   "item": "http://www.wikidata.org/entity/Q537781",
+   "emp": "20000",
+   "empTime": "2021-01-01T00:00:00Z",
+   "v": "118556y",
+   "inception": "1953-01-01T00:00:00Z",
+   "site": "https://www.billa.at/",
+   "itemLabel": "Billa",
+   "matched_by": "P5285"
+  }
+ ],
+ "noem-ag": [
+  {
+   "item": "http://www.wikidata.org/entity/Q1315139",
+   "v": "114782y",
+   "inception": "1898-01-01T00:00:00Z",
+   "site": "http://www.noem.at/",
+   "itemLabel": "NÖM",
+   "matched_by": "P5285"
+  }
+ ]
+}

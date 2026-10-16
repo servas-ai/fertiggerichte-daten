@@ -21,8 +21,8 @@ Rechtsträger aus GLEIF/Firmenbuch inkl. Konzernmutter; ergänzt um FN/UID aus �
 | entity_status | string |  |
 | parent_direct | string |  |
 | parent_ultimate | string | Oberste Konzernmutter laut GLEIF Level 2 |
-| founded | string |  |
-| owners | string |  |
+| founded | string | Gründung: ISO-Datum des Rechtsträgers (GLEIF creationDate bzw. Firmenbuch-Eintragung ab 1996) oder Jahr/Freitext; Basis in JSON `founded_source` |
+| owners | string | Gesellschafter: Rechtsträger namentlich, natürliche Personen nur gezählt (evi.gv.at/Firmenbuch; JSON `owners_source`) |
 | employees | string |  |
 | revenue | string |  |
 | website | string |  |
@@ -41,6 +41,12 @@ Rechtsträger aus GLEIF/Firmenbuch inkl. Konzernmutter; ergänzt um FN/UID aus �
 | register_court | string | Firmenbuch-/Registergericht laut Impressum |
 | hrb | string | Deutsche Handelsregisternummer laut Impressum |
 | registry_status | string | verified_gleif | verified_gleif+vies | verified_vies_imprint | fn_from_imprint | not_found_in_gleif |
+| founded_source (JSON) | string | Quelle für `founded` (GLEIF LEI, evi.gv.at/f/<FN> oder Wikidata-QID mit Identifier-Match) |
+| owners_source (JSON) | string | evi.gv.at-Seite der Gesellschafter-Angabe |
+| share_capital (JSON) | string | Stammkapital/Grundkapital lt. Firmenbuch (evi.gv.at) |
+| business_line (JSON) | string | Geschäftszweig lt. Firmenbuch (evi.gv.at) |
+| register_status (JSON) | string | Firmenbuch-Status lt. evi.gv.at (z. B. Eingetragen) |
+| register_entry_date (JSON) | string | Eintragungsdatum lt. evi.gv.at (vor 1996 = FBG-1991-Übernahme, kein Gründungsdatum) |
 
 ## establishments
 Statistik Austria / ÖVIS Liste zugelassener Betriebe

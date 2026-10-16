@@ -1,0 +1,1458 @@
+{
+ "billa-aktiengesellschaft": {
+  "url": "https://www.evi.gv.at/f/118556y",
+  "fetched_at": "2026-10-16T19:14:43Z",
+  "name": "Billa Aktiengesellschaft",
+  "status": "Eingetragen",
+  "eintragungsdatum": "22.09.1994",
+  "rechtsform": "Aktiengesellschaft",
+  "stammkapital": "EUR 14 540 000",
+  "geschaeftszweig": null,
+  "sitz": "Wiener Neudorf",
+  "gesellschafter_count": null,
+  "gesellschafter_links": [],
+  "row_legal_name": "Billa Aktiengesellschaft"
+ },
+ "unilever-austria-gmbh": {
+  "url": "https://www.evi.gv.at/f/197801i",
+  "fetched_at": "2026-10-16T19:14:45Z",
+  "name": "Unilever Austria GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "01.08.2000",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 10 000 000",
+  "geschaeftszweig": null,
+  "sitz": "Wien",
+  "gesellschafter_count": "1 Person",
+  "gesellschafter_links": [
+   {
+    "href": null,
+    "name": "Lipoma B.V."
+   }
+  ],
+  "row_legal_name": "Unilever Austria GmbH"
+ },
+ "iglo-austria-gmbh": {
+  "url": "https://www.evi.gv.at/f/279637g",
+  "fetched_at": "2026-10-16T19:14:47Z",
+  "name": "Iglo Austria GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "20.07.2006",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 35 000",
+  "geschaeftszweig": null,
+  "sitz": "Wien",
+  "gesellschafter_count": "1 Person",
+  "gesellschafter_links": [
+   {
+    "href": "/f/269838x",
+    "name": "Iglo Austria Holding GmbH"
+   }
+  ],
+  "row_legal_name": "Iglo Austria GmbH"
+ },
+ "maresi-austria-gmbh": {
+  "url": "https://www.evi.gv.at/f/161846i",
+  "fetched_at": "2026-10-16T19:14:49Z",
+  "name": "MARESI Austria GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "27.08.1997",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 250 000",
+  "geschaeftszweig": null,
+  "sitz": "Wien",
+  "gesellschafter_count": "2 Personen",
+  "gesellschafter_links": [
+   {
+    "href": "/f/119190f",
+    "name": "VIVATIS Holding AG"
+   },
+   {
+    "href": "/f/85831y",
+    "name": "Landgenossenschaft Ennstal eGen"
+   }
+  ],
+  "row_legal_name": "MARESI Austria GmbH"
+ },
+ "fit2go-gmbh": {
+  "url": "https://www.evi.gv.at/f/615822x",
+  "fetched_at": "2026-10-16T19:14:52Z",
+  "name": "Fit2go GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "15.11.2023",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 53 030,30",
+  "geschaeftszweig": "Handel mit Tiefkühlprodukten",
+  "sitz": "Pucking",
+  "gesellschafter_count": "6 Personen",
+  "gesellschafter_links": [
+   {
+    "href": null,
+    "name": "Julian Kolar"
+   },
+   {
+    "href": "/f/512761k",
+    "name": "Foxyflo GmbH"
+   },
+   {
+    "href": "/f/615573f",
+    "name": "Gatsby Ventures GmbH"
+   },
+   {
+    "href": "/f/605875v",
+    "name": "AKapital Beteiligungs GmbH"
+   },
+   {
+    "href": "/f/581136m",
+    "name": "KPLA GmbH"
+   },
+   {
+    "href": null,
+    "name": "Sebastian Winklhamer"
+   }
+  ],
+  "row_legal_name": "Fit2go GmbH"
+ },
+ "nestle-oesterreich-gmbh": {
+  "url": "https://www.evi.gv.at/f/105870t",
+  "fetched_at": "2026-10-16T19:14:54Z",
+  "name": "Nestle Österreich GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "30.06.1994",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 7 270 000",
+  "geschaeftszweig": null,
+  "sitz": "Wien",
+  "gesellschafter_count": "1 Person",
+  "gesellschafter_links": [
+   {
+    "href": null,
+    "name": "Société des Produits Nestlé S.A."
+   }
+  ],
+  "row_legal_name": "Nestle Österreich GmbH"
+ },
+ "landgenossenschaft-ennstal-landena-kg": {
+  "url": "https://www.evi.gv.at/f/15581p",
+  "fetched_at": "2026-10-16T19:14:56Z",
+  "name": "Landgenossenschaft Ennstal LANDENA KG",
+  "status": "Eingetragen",
+  "eintragungsdatum": "02.04.1992",
+  "rechtsform": "Kommanditgesellschaft",
+  "stammkapital": null,
+  "geschaeftszweig": null,
+  "sitz": "Stainach",
+  "gesellschafter_count": null,
+  "gesellschafter_links": [],
+  "row_legal_name": "Landgenossenschaft Ennstal LANDENA KG"
+ },
+ "felix-austria-gesellschaft-mbh": {
+  "url": "https://www.evi.gv.at/f/110213d",
+  "fetched_at": "2026-10-16T19:14:58Z",
+  "name": "FELIX AUSTRIA GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "27.07.1994",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 6 540 555",
+  "geschaeftszweig": null,
+  "sitz": "Mattersburg",
+  "gesellschafter_count": "2 Personen",
+  "gesellschafter_links": [
+   {
+    "href": null,
+    "name": "ORKLA FOODS SVERIGE AB"
+   },
+   {
+    "href": null,
+    "name": "Provendor Aktiebolag"
+   }
+  ],
+  "row_legal_name": "FELIX AUSTRIA Gesellschaft m.b.H."
+ },
+ "weinbergmaier-gmbh": {
+  "url": "https://www.evi.gv.at/f/122164d",
+  "fetched_at": "2026-10-16T19:15:01Z",
+  "name": "WEINBERGMAIER GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "14.10.1994",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 36 400",
+  "geschaeftszweig": "Herstellung von und Handel mit Lebensmittelprodukten",
+  "sitz": "Wolfern",
+  "gesellschafter_count": "2 Personen",
+  "gesellschafter_links": [
+   {
+    "href": "/f/78344m",
+    "name": "VIVATIS Capital Invest GmbH"
+   },
+   {
+    "href": "/f/153464h",
+    "name": "VIVATIS Beteiligungs-GmbH"
+   }
+  ],
+  "row_legal_name": "WEINBERGMAIER GmbH"
+ },
+ "karnerta-gmbh": {
+  "url": "https://www.evi.gv.at/f/143123a",
+  "fetched_at": "2026-10-16T19:15:03Z",
+  "name": "KARNERTA GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "29.03.1996",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 1 816 820,85",
+  "geschaeftszweig": null,
+  "sitz": "Klagenfurt",
+  "gesellschafter_count": "1 Person",
+  "gesellschafter_links": [
+   {
+    "href": "/f/161966k",
+    "name": "VIVATIS Vermögensverwaltungs GmbH & Co KG"
+   }
+  ],
+  "row_legal_name": "KARNERTA GmbH"
+ },
+ "mochi-production-gmbh": {
+  "url": "https://www.evi.gv.at/f/554188h",
+  "fetched_at": "2026-10-16T19:15:05Z",
+  "name": "Mochi Production GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "10.04.2021",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 35 000",
+  "geschaeftszweig": "Entwicklung und Produktion von Speisen für den Lebensmittelhandel",
+  "sitz": "Wien",
+  "gesellschafter_count": "1 Person",
+  "gesellschafter_links": [
+   {
+    "href": "/f/546127d",
+    "name": "Mochi Holding GmbH"
+   }
+  ],
+  "row_legal_name": "Mochi Production GmbH"
+ },
+ "berglandmilch-egen": {
+  "url": "https://www.evi.gv.at/f/116533y",
+  "fetched_at": "2026-10-16T19:15:08Z",
+  "name": "Berglandmilch eGen",
+  "status": "Eingetragen",
+  "eintragungsdatum": "10.09.1994",
+  "rechtsform": "Erwerbs- und Wirtschaftsgenossenschaft",
+  "stammkapital": "EUR 100",
+  "geschaeftszweig": null,
+  "sitz": "Wels",
+  "gesellschafter_count": null,
+  "gesellschafter_links": [],
+  "row_legal_name": "Berglandmilch eGen"
+ },
+ "ja-natuerlich-naturprodukte-gesellschaft-mbh": {
+  "url": "https://www.evi.gv.at/f/113231t",
+  "fetched_at": "2026-10-16T19:15:10Z",
+  "name": "\"JA! NATÜRLICH\" Naturprodukte Gesellschaft m.b.H.",
+  "status": "Eingetragen",
+  "eintragungsdatum": "19.08.1994",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 40 000",
+  "geschaeftszweig": null,
+  "sitz": "Wiener Neudorf",
+  "gesellschafter_count": "1 Person",
+  "gesellschafter_links": [
+   {
+    "href": "/f/118556y",
+    "name": "Billa Aktiengesellschaft"
+   }
+  ],
+  "row_legal_name": "\"JA! NATÜRLICH\" Naturprodukte Gesellschaft m.b.H."
+ },
+ "mpreis-warenvertriebs-gmbh": {
+  "url": "https://www.evi.gv.at/f/43603y",
+  "fetched_at": "2026-10-16T19:15:13Z",
+  "name": "MPREIS Warenvertriebs GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "17.08.1993",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 100 000",
+  "geschaeftszweig": "Lebensmittelhandel",
+  "sitz": "Völs",
+  "gesellschafter_count": "2 Personen",
+  "gesellschafter_links": [
+   {
+    "href": "/f/241056w",
+    "name": "TM Privatstiftung"
+   },
+   {
+    "href": "/f/238617h",
+    "name": "Therese Mölk Holding GmbH"
+   }
+  ],
+  "row_legal_name": "MPREIS Warenvertriebs GmbH"
+ },
+ "mars-austria-og": {
+  "url": "https://www.evi.gv.at/f/213022v",
+  "fetched_at": "2026-10-16T19:15:15Z",
+  "name": "Mars Austria GmbH & Co OG",
+  "status": "Eingetragen",
+  "eintragungsdatum": "08.09.2001",
+  "rechtsform": "Offene Gesellschaft",
+  "stammkapital": null,
+  "geschaeftszweig": null,
+  "sitz": "Bruck an der Leitha",
+  "gesellschafter_count": null,
+  "gesellschafter_links": [],
+  "row_legal_name": "MARS AUSTRIA OG"
+ },
+ "noem-ag": {
+  "url": "https://www.evi.gv.at/f/114782y",
+  "fetched_at": "2026-10-16T19:15:17Z",
+  "name": "NÖM AG",
+  "status": "Eingetragen",
+  "eintragungsdatum": "30.08.1994",
+  "rechtsform": "Aktiengesellschaft",
+  "stammkapital": "EUR 7 558 638",
+  "geschaeftszweig": null,
+  "sitz": "Baden",
+  "gesellschafter_count": null,
+  "gesellschafter_links": [],
+  "row_legal_name": "NÖM AG"
+ },
+ "radatz-feine-wiener-fleischwaren-gesellschaft-mbh": {
+  "url": "https://www.evi.gv.at/f/109045k",
+  "fetched_at": "2026-10-16T19:15:19Z",
+  "name": "Radatz - Feine Wiener Fleischwaren Gesellschaft m.b.H.",
+  "status": "Eingetragen",
+  "eintragungsdatum": "19.07.1994",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 73 000",
+  "geschaeftszweig": null,
+  "sitz": "Wien",
+  "gesellschafter_count": "2 Personen",
+  "gesellschafter_links": [
+   {
+    "href": "/f/135007s",
+    "name": "Radatz Privatstiftung"
+   },
+   {
+    "href": "/f/213620y",
+    "name": "Radatz Anteilsverwaltung GmbH"
+   }
+  ],
+  "row_legal_name": "Radatz - Feine Wiener Fleischwaren Gesellschaft m.b.H."
+ },
+ "dr-oetker-gmbh": {
+  "url": "https://www.evi.gv.at/f/115931m",
+  "fetched_at": "2026-10-16T19:15:22Z",
+  "name": "Dr. Oetker GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "07.09.1994",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 3 000 000",
+  "geschaeftszweig": null,
+  "sitz": "Villach",
+  "gesellschafter_count": "1 Person",
+  "gesellschafter_links": [
+   {
+    "href": null,
+    "name": "Dr.Oetker International Beteiligungs GmbH"
+   }
+  ],
+  "row_legal_name": "Dr. Oetker GmbH"
+ },
+ "danone-oesterreich-gmbh": {
+  "url": "https://www.evi.gv.at/f/61045y",
+  "fetched_at": "2026-10-16T19:15:24Z",
+  "name": "Danone Österreich GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "16.11.1993",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 4 723 734,22",
+  "geschaeftszweig": null,
+  "sitz": "Wien",
+  "gesellschafter_count": "2 Personen",
+  "gesellschafter_links": [
+   {
+    "href": null,
+    "name": "Nutricia International B.V."
+   },
+   {
+    "href": null,
+    "name": "Danone Deutschland GmbH"
+   }
+  ],
+  "row_legal_name": "DANONE ÖSTERREICH GMBH"
+ },
+ "kasnudl-gmbh": {
+  "url": "https://www.evi.gv.at/f/425910p",
+  "fetched_at": "2026-10-16T19:15:26Z",
+  "name": "Invaro GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "04.12.2014",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 35 000",
+  "geschaeftszweig": null,
+  "sitz": "Wien",
+  "gesellschafter_count": "2 Personen",
+  "gesellschafter_links": [
+   {
+    "href": null,
+    "name": "Andreas Schrittesser"
+   },
+   {
+    "href": "/f/615538d",
+    "name": "Schmidbauer Food Innovation GmbH"
+   }
+  ],
+  "row_legal_name": "Invaro GmbH (Firmenwortlaut 2019-03-20–2026-06-03: Kasnudl GmbH)"
+ },
+ "a-darbo-ag": {
+  "url": "https://www.evi.gv.at/f/46033x",
+  "fetched_at": "2026-10-16T19:15:29Z",
+  "name": "Adolf Darbo Aktiengesellschaft",
+  "status": "Eingetragen",
+  "eintragungsdatum": "28.08.1993",
+  "rechtsform": "Aktiengesellschaft",
+  "stammkapital": "EUR 4 071 200",
+  "geschaeftszweig": null,
+  "sitz": "Stans",
+  "gesellschafter_count": null,
+  "gesellschafter_links": [],
+  "row_legal_name": "Adolf Darbo Aktiengesellschaft"
+ },
+ "andros-austria-gmbh": {
+  "url": "https://www.evi.gv.at/f/423232a",
+  "fetched_at": "2026-10-16T19:15:31Z",
+  "name": "Andros Austria GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "10.10.2014",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 35 000",
+  "geschaeftszweig": "Nationaler und internationaler Handel mit Lebensmitteln aller Art, insbesondere Fruchterzeugnissen und/oder Milchprodukten",
+  "sitz": "Wien",
+  "gesellschafter_count": "1 Person",
+  "gesellschafter_links": [
+   {
+    "href": null,
+    "name": "ANDROS ET CIE Societe par actions simplifiee"
+   }
+  ],
+  "row_legal_name": "Andros Austria GmbH"
+ },
+ "hink-gmbh": {
+  "url": "https://www.evi.gv.at/f/290492w",
+  "fetched_at": "2026-10-16T19:15:33Z",
+  "name": "Hink GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "13.03.2007",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 35 000",
+  "geschaeftszweig": null,
+  "sitz": "Wien",
+  "gesellschafter_count": "1 Person",
+  "gesellschafter_links": [
+   {
+    "href": "/f/277697d",
+    "name": "HPS Beteiligungs- und Liegenschaftsverwaltungs GmbH"
+   }
+  ],
+  "row_legal_name": "Hink GmbH"
+ },
+ "rewe-austria-fleischwaren-gmbh": {
+  "url": "https://www.evi.gv.at/f/65329y",
+  "fetched_at": "2026-10-16T19:15:36Z",
+  "name": "Rewe Austria Fleischwaren GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "02.12.1993",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 1 200 000",
+  "geschaeftszweig": null,
+  "sitz": "Wiener Neudorf",
+  "gesellschafter_count": "2 Personen",
+  "gesellschafter_links": [
+   {
+    "href": "/f/112587w",
+    "name": "REWE International Dienstleistungsgesellschaft m.b.H."
+   },
+   {
+    "href": "/f/252566x",
+    "name": "MAREAL Immobilienverwaltungs GmbH"
+   }
+  ],
+  "row_legal_name": "Rewe Austria Fleischwaren GmbH"
+ },
+ "stangl-teigwaren-gmbh": {
+  "url": "https://www.evi.gv.at/f/400694g",
+  "fetched_at": "2026-10-16T19:15:38Z",
+  "name": "Stangl Teigwaren GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "23.08.2013",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 35 000",
+  "geschaeftszweig": "Produktion und Handel mit Teigwaren, Handel mit Waren aller Art",
+  "sitz": "Lebring-Sankt Margarethen",
+  "gesellschafter_count": "1 Person",
+  "gesellschafter_links": [
+   {
+    "href": null,
+    "name": "Patrick Stangl"
+   }
+  ],
+  "row_legal_name": "Stangl Teigwaren GmbH"
+ },
+ "wiesbauer-gourmet-gastro-gmbh": {
+  "url": "https://www.evi.gv.at/f/98447a",
+  "fetched_at": "2026-10-16T19:15:40Z",
+  "name": "Wiesbauer Gourmet Gastro GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "25.05.1994",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 37 000",
+  "geschaeftszweig": null,
+  "sitz": "Sitzenberg - Reidling",
+  "gesellschafter_count": "2 Personen",
+  "gesellschafter_links": [
+   {
+    "href": "/f/346991g",
+    "name": "Wiesbauer Holding AG"
+   },
+   {
+    "href": "/f/142010p",
+    "name": "Franz und Maria Wiesbauer Privatstiftung"
+   }
+  ],
+  "row_legal_name": "Wiesbauer Gourmet Gastro GmbH"
+ },
+ "alimentastic-food-innovation-gmbh": {
+  "url": "https://www.evi.gv.at/f/615538d",
+  "fetched_at": "2026-10-16T19:15:42Z",
+  "name": "Schmidbauer Food Innovation GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "12.12.2023",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 35 000",
+  "geschaeftszweig": "Entwicklung, Herstellung und Vertrieb von Produkten im Lebensmittelbereich",
+  "sitz": "Salzburg",
+  "gesellschafter_count": "5 Personen",
+  "gesellschafter_links": [
+   {
+    "href": "/f/588929y",
+    "name": "Good Vibes Invest GmbH"
+   },
+   {
+    "href": null,
+    "name": "Mag. Johannes Frank"
+   },
+   {
+    "href": "/f/425923h",
+    "name": "Schmidbauer Management Holding GmbH"
+   },
+   {
+    "href": null,
+    "name": "Mag. (FH) Laurenz Hoffmann"
+   },
+   {
+    "href": "/f/541950k",
+    "name": "PK emotions GmbH"
+   }
+  ],
+  "row_legal_name": "Schmidbauer Food Innovation GmbH (Firmenwortlaut 2023-12-12–2026-02-11: Alimentastic Food Innovation GmbH)"
+ },
+ "staudinger-delikatessen-gmbh": {
+  "url": "https://www.evi.gv.at/f/430917b",
+  "fetched_at": "2026-10-16T19:15:45Z",
+  "name": "Staudinger Delikatessen GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "13.03.2015",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 100 000",
+  "geschaeftszweig": "Erzeugung von Fleisch- und Wurstwaren, insbesondere delikate Sorten Handel mit Delikatessen, Fleisch- und Wurstwaren",
+  "sitz": "Nußbach",
+  "gesellschafter_count": "1 Person",
+  "gesellschafter_links": [
+   {
+    "href": "/f/66226t",
+    "name": "SJV GmbH"
+   }
+  ],
+  "row_legal_name": "Staudinger Delikatessen GmbH"
+ },
+ "adriatic-group-gmbh": {
+  "url": "https://www.evi.gv.at/f/406462p",
+  "fetched_at": "2026-10-16T19:15:48Z",
+  "name": "ADRIATIC GROUP GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "11.12.2013",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 10 000",
+  "geschaeftszweig": null,
+  "sitz": "Wien",
+  "gesellschafter_count": "5 Personen",
+  "gesellschafter_links": [
+   {
+    "href": null,
+    "name": "Amir Bekic"
+   },
+   {
+    "href": null,
+    "name": "Anel Cerimagic"
+   },
+   {
+    "href": null,
+    "name": "Mag. Mirza Haracic"
+   },
+   {
+    "href": null,
+    "name": "Josef Qteishat"
+   },
+   {
+    "href": null,
+    "name": "Plivit Trade AB"
+   }
+  ],
+  "row_legal_name": "ADRIATIC GROUP GmbH"
+ },
+ "ager-gesmbh": {
+  "url": "https://www.evi.gv.at/f/43270h",
+  "fetched_at": "2026-10-16T19:15:50Z",
+  "name": "Ager Gesellschaft m.b.H.",
+  "status": "Eingetragen",
+  "eintragungsdatum": "13.08.1993",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 36 336,42",
+  "geschaeftszweig": null,
+  "sitz": "Söll",
+  "gesellschafter_count": "1 Person",
+  "gesellschafter_links": [
+   {
+    "href": null,
+    "name": "Josef Ager"
+   }
+  ],
+  "row_legal_name": "Ager Gesellschaft m.b.H."
+ },
+ "brajlovic-gmbh": {
+  "url": "https://www.evi.gv.at/f/227894p",
+  "fetched_at": "2026-10-16T19:15:52Z",
+  "name": "BRAJLOVIC GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "30.10.2002",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 35 000",
+  "geschaeftszweig": null,
+  "sitz": "Wien",
+  "gesellschafter_count": "1 Person",
+  "gesellschafter_links": [
+   {
+    "href": "/f/406462p",
+    "name": "ADRIATIC GROUP GmbH"
+   }
+  ],
+  "row_legal_name": "BRAJLOVIC GmbH"
+ },
+ "danone-gmbh": {
+  "url": "https://www.evi.gv.at/f/61045y",
+  "fetched_at": "2026-10-16T19:15:55Z",
+  "name": "Danone Österreich GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "16.11.1993",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 4 723 734,22",
+  "geschaeftszweig": null,
+  "sitz": "Wien",
+  "gesellschafter_count": "2 Personen",
+  "gesellschafter_links": [
+   {
+    "href": null,
+    "name": "Nutricia International B.V."
+   },
+   {
+    "href": null,
+    "name": "Danone Deutschland GmbH"
+   }
+  ],
+  "row_legal_name": "Danone Österreich GmbH"
+ },
+ "gms-gourmet-gmbh": {
+  "url": "https://www.evi.gv.at/f/104525p",
+  "fetched_at": "2026-10-16T19:15:57Z",
+  "name": "GMS GOURMET GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "23.06.1994",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 40 000",
+  "geschaeftszweig": null,
+  "sitz": "Wien",
+  "gesellschafter_count": "1 Person",
+  "gesellschafter_links": [
+   {
+    "href": "/f/173544m",
+    "name": "GOURMET Beteiligungs GmbH"
+   }
+  ],
+  "row_legal_name": "GMS GOURMET GmbH"
+ },
+ "glatz-gmbh": {
+  "url": "https://www.evi.gv.at/f/325174y",
+  "fetched_at": "2026-10-16T19:15:59Z",
+  "name": "Glatz GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "04.04.2009",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 35 000",
+  "geschaeftszweig": null,
+  "sitz": "Neckenmarkt",
+  "gesellschafter_count": "2 Personen",
+  "gesellschafter_links": [
+   {
+    "href": null,
+    "name": "Anna Glatz"
+   },
+   {
+    "href": null,
+    "name": "Karina Glatz"
+   }
+  ],
+  "row_legal_name": "Glatz GmbH"
+ },
+ "greisinger-gmbh": {
+  "url": "https://www.evi.gv.at/f/91770g",
+  "fetched_at": "2026-10-16T19:16:01Z",
+  "name": "Greisinger GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "21.04.1994",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 40 000",
+  "geschaeftszweig": "Fleischhandel, -verwertung",
+  "sitz": "Münzbach",
+  "gesellschafter_count": "1 Person",
+  "gesellschafter_links": [
+   {
+    "href": null,
+    "name": "Franz Greisinger"
+   }
+  ],
+  "row_legal_name": "Greisinger GmbH"
+ },
+ "hochreiter-quality-meat-factory-gmbh": {
+  "url": "https://www.evi.gv.at/f/182215p",
+  "fetched_at": "2026-10-16T19:16:04Z",
+  "name": "Hochreiter Lebensmittelbetriebe GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "12.05.1999",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 280 000",
+  "geschaeftszweig": "Produktion und Verkauf von Fleischwaren",
+  "sitz": "Bad Leonfelden",
+  "gesellschafter_count": "2 Personen",
+  "gesellschafter_links": [
+   {
+    "href": "/f/445545p",
+    "name": "WH Beteiligungs GmbH"
+   },
+   {
+    "href": "/f/445546s",
+    "name": "GH Beteiligungs GmbH"
+   }
+  ],
+  "row_legal_name": "Hochreiter Lebensmittelbetriebe GmbH"
+ },
+ "landtmann-s-feine-patisserie": {
+  "url": "https://www.evi.gv.at/f/266335w",
+  "fetched_at": "2026-10-16T19:16:06Z",
+  "name": "Querfeld's Wiener Konditorei GesmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "26.08.2005",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 40 000",
+  "geschaeftszweig": null,
+  "sitz": "Wien",
+  "gesellschafter_count": "3 Personen",
+  "gesellschafter_links": [
+   {
+    "href": null,
+    "name": "Berndt Querfeld"
+   },
+   {
+    "href": "/f/111709d",
+    "name": "Querfeld's Wiener Kaffeehaus Ges.m.b.H"
+   },
+   {
+    "href": "/f/101262s",
+    "name": "Kaffee-Restaurant \"Mozart\" bei der Oper Gesellschaft m.b.H."
+   }
+  ],
+  "row_legal_name": "Querfeld's Wiener Konditorei GesmbH"
+ },
+ "rewe-austria-genusskueche-gmbh": {
+  "url": "https://www.evi.gv.at/f/204764z",
+  "fetched_at": "2026-10-16T19:16:09Z",
+  "name": "Rewe Austria Genussküche GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "06.02.2001",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 50 000",
+  "geschaeftszweig": "Lebensmittelproduktion, Handel",
+  "sitz": "Wiener Neudorf",
+  "gesellschafter_count": "1 Person",
+  "gesellschafter_links": [
+   {
+    "href": "/f/118556y",
+    "name": "Billa Aktiengesellschaft"
+   }
+  ],
+  "row_legal_name": "Rewe Austria Genussküche GmbH"
+ },
+ "wilhelm-blasko-convenience-fertiggerichte-gmbh": {
+  "url": "https://www.evi.gv.at/f/74665b",
+  "fetched_at": "2026-10-16T19:16:11Z",
+  "name": "Wilhelm Blasko CONVENIENCE- Fertiggerichte GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "20.01.1994",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 363 000",
+  "geschaeftszweig": null,
+  "sitz": "Bruck an der Mur",
+  "gesellschafter_count": "2 Personen",
+  "gesellschafter_links": [
+   {
+    "href": "/f/424789s",
+    "name": "Marcher Beteiligungsverwaltung GmbH"
+   },
+   {
+    "href": "/f/114951x",
+    "name": "Norbert Marcher Gesellschaft m.b.H."
+   }
+  ],
+  "row_legal_name": "Wilhelm Blasko CONVENIENCE-Fertiggerichte GmbH"
+ },
+ "ehrenwort-gmbh": {
+  "url": "https://www.evi.gv.at/f/466066t",
+  "fetched_at": "2026-10-16T19:16:13Z",
+  "name": "Ehrenwort GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "07.02.2017",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 35 000",
+  "geschaeftszweig": "Handel mit Waren aller Art",
+  "sitz": "Wien",
+  "gesellschafter_count": "1 Person",
+  "gesellschafter_links": [
+   {
+    "href": null,
+    "name": "Thomas Gigl"
+   }
+  ],
+  "row_legal_name": "Ehrenwort GmbH"
+ },
+ "estyria-naturprodukte-gmbh": {
+  "url": "https://www.evi.gv.at/f/135831b",
+  "fetched_at": "2026-10-16T19:16:16Z",
+  "name": "Estyria Naturprodukte GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "02.08.1995",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "ATS 500 000",
+  "geschaeftszweig": "Handel mit Naturprodukten",
+  "sitz": "Sankt Ruprecht an der Raab",
+  "gesellschafter_count": "1 Person",
+  "gesellschafter_links": [
+   {
+    "href": "/f/323306a",
+    "name": "ALWERA AG"
+   }
+  ],
+  "row_legal_name": "Estyria Naturprodukte GmbH"
+ },
+ "franz-ablinger-co-fleischhauereibetrieb-gesellschaft-mbh": {
+  "url": "https://www.evi.gv.at/f/67371a",
+  "fetched_at": "2026-10-16T19:16:18Z",
+  "name": "Franz Ablinger & Co. Fleischhauereibetrieb Gesellschaft m.b.H.",
+  "status": "Eingetragen",
+  "eintragungsdatum": "14.12.1993",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "ATS 2 800 000",
+  "geschaeftszweig": null,
+  "sitz": "Oberndorf bei Salzburg",
+  "gesellschafter_count": "1 Person",
+  "gesellschafter_links": [
+   {
+    "href": "/f/163373f",
+    "name": "Ablinger Familien-Privatstiftung"
+   }
+  ],
+  "row_legal_name": "Franz Ablinger & Co. Fleischhauereibetrieb Gesellschaft m.b.H."
+ },
+ "graninger-holding-gmbh": {
+  "url": "https://www.evi.gv.at/f/546112g",
+  "fetched_at": "2026-10-16T19:16:20Z",
+  "name": "Graninger GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "17.12.2020",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 35 000",
+  "geschaeftszweig": "Nahrungsmittelproduktion",
+  "sitz": "Frastanz",
+  "gesellschafter_count": "1 Person",
+  "gesellschafter_links": [
+   {
+    "href": "/f/287885k",
+    "name": "Graninger Tiefkühl GmbH"
+   }
+  ],
+  "row_legal_name": "Graninger GmbH"
+ },
+ "hildegard-gruenkraft-naturprodukte": {
+  "url": "https://www.evi.gv.at/f/266429h",
+  "fetched_at": "2026-10-16T19:16:23Z",
+  "name": "St. Hildegard-Posch GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "06.09.2005",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 35 000",
+  "geschaeftszweig": "Vertrieb von Naturprodukten",
+  "sitz": "St. Georgen im Attergau",
+  "gesellschafter_count": "1 Person",
+  "gesellschafter_links": [
+   {
+    "href": "/f/107488x",
+    "name": "Posch GmbH"
+   }
+  ],
+  "row_legal_name": "St. Hildegard-Posch GmbH"
+ },
+ "hubers-landhendl-gmbh": {
+  "url": "https://www.evi.gv.at/f/320698s",
+  "fetched_at": "2026-10-16T19:16:25Z",
+  "name": "Hubers Landhendl GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "19.12.2008",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 100 000",
+  "geschaeftszweig": "Tierzucht",
+  "sitz": "Pfaffstätt",
+  "gesellschafter_count": "1 Person",
+  "gesellschafter_links": [
+   {
+    "href": "/f/112333x",
+    "name": "H.L.Verwaltungs-GmbH"
+   }
+  ],
+  "row_legal_name": "Hubers Landhendl GmbH"
+ },
+ "knoedelwerkstatt-gmbh": {
+  "url": "https://www.evi.gv.at/f/508483w",
+  "fetched_at": "2026-10-16T19:16:28Z",
+  "name": "Knödelwerkstatt GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "08.03.2019",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 46 729",
+  "geschaeftszweig": "Lebensmittelproduktion",
+  "sitz": "Rosenau am Hengstpaß",
+  "gesellschafter_count": "2 Personen",
+  "gesellschafter_links": [
+   {
+    "href": null,
+    "name": "Werner Dilly"
+   },
+   {
+    "href": "/f/176847w",
+    "name": "Pernsteiner Entwicklungs GmbH"
+   }
+  ],
+  "row_legal_name": "Knödelwerkstatt GmbH"
+ },
+ "lamercantile-scardovi-gmbh": {
+  "url": "https://www.evi.gv.at/f/187561a",
+  "fetched_at": "2026-10-16T19:16:30Z",
+  "name": "La Mercantile Scardovi GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "03.02.2000",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 100 000",
+  "geschaeftszweig": null,
+  "sitz": "Wien",
+  "gesellschafter_count": "1 Person",
+  "gesellschafter_links": [
+   {
+    "href": "/f/454678w",
+    "name": "FINDORADO GmbH"
+   }
+  ],
+  "row_legal_name": "La Mercantile Scardovi GmbH"
+ },
+ "revo-foods": {
+  "url": "https://www.evi.gv.at/f/550473w",
+  "fetched_at": "2026-10-16T19:16:32Z",
+  "name": "Revo Foods GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "24.02.2021",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 86 839",
+  "geschaeftszweig": "Produktion von Lebensmitteln; Erforschung, Entwicklung und Vertrieb neuer Verfahren zur Lebensmittelproduktion",
+  "sitz": "Wien",
+  "gesellschafter_count": "36 Personen",
+  "gesellschafter_links": [
+   {
+    "href": null,
+    "name": "Robin Simsa"
+   },
+   {
+    "href": null,
+    "name": "Theresa Rothenbücher"
+   },
+   {
+    "href": null,
+    "name": "Manuel Lachmayr"
+   },
+   {
+    "href": null,
+    "name": "friends2grow GmbH"
+   },
+   {
+    "href": null,
+    "name": "Hazelpond Capital ApS"
+   },
+   {
+    "href": null,
+    "name": "Eva Sommer"
+   },
+   {
+    "href": "/f/414957g",
+    "name": "MKO BeteiligungsgmbH"
+   },
+   {
+    "href": null,
+    "name": "Jens Schumann"
+   },
+   {
+    "href": null,
+    "name": "Daan Luining"
+   },
+   {
+    "href": null,
+    "name": "Sebastian Bartel GmbH"
+   },
+   {
+    "href": null,
+    "name": "Helge Klein GmbH"
+   },
+   {
+    "href": null,
+    "name": "Sinnvestment GmbH"
+   },
+   {
+    "href": null,
+    "name": "Walter Trummer"
+   },
+   {
+    "href": null,
+    "name": "Jan Tegtmeier"
+   },
+   {
+    "href": null,
+    "name": "Bigemon GmbH"
+   },
+   {
+    "href": null,
+    "name": "IKAT GmbH"
+   },
+   {
+    "href": "/f/542250b",
+    "name": "Renz Investments GmbH"
+   },
+   {
+    "href": null,
+    "name": "Jörg Soppa"
+   },
+   {
+    "href": "/f/615538d",
+    "name": "Schmidbauer Food Innovation GmbH"
+   },
+   {
+    "href": null,
+    "name": "Ralph Matthias Ewald Anstoetz"
+   },
+   {
+    "href": null,
+    "name": "Raphael Fiegler"
+   },
+   {
+    "href": null,
+    "name": "Jochen Tüting"
+   },
+   {
+    "href": null,
+    "name": "anchorion ventures GmbH"
+   },
+   {
+    "href": null,
+    "name": "PW Sunset Consulting GmbH"
+   },
+   {
+    "href": null,
+    "name": "Brotinus GmbH"
+   },
+   {
+    "href": null,
+    "name": "Joerg Philipp Weihing"
+   },
+   {
+    "href": null,
+    "name": "Frank Mörsch"
+   },
+   {
+    "href": null,
+    "name": "MS Xcellerator Beteiligungsgesellschaft mbH"
+   },
+   {
+    "href": null,
+    "name": "Manfred Wittenwiller"
+   },
+   {
+    "href": null,
+    "name": "Julius Horst Michael Grimminger"
+   },
+   {
+    "href": null,
+    "name": "Lagom GmbH"
+   },
+   {
+    "href": null,
+    "name": "Dirk Breitbach"
+   },
+   {
+    "href": null,
+    "name": "Bert Volker Wibel"
+   },
+   {
+    "href": null,
+    "name": "Syed Jawad Mohsin"
+   },
+   {
+    "href": null,
+    "name": "Tarik Gerard El-Sahy"
+   },
+   {
+    "href": null,
+    "name": "Companisto Trust Service L UG (haftungsbeschränkt)"
+   }
+  ],
+  "row_legal_name": "Revo Foods GmbH"
+ },
+ "stadtkueche": {
+  "url": "https://www.evi.gv.at/f/675365i",
+  "fetched_at": "2026-10-16T19:16:35Z",
+  "name": "Knödelhütte GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "19.03.2026",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 10 000",
+  "geschaeftszweig": "Herstellung und Vertrieb von Tiefkühlprodukten",
+  "sitz": "Wien",
+  "gesellschafter_count": "2 Personen",
+  "gesellschafter_links": [
+   {
+    "href": null,
+    "name": "Daniel Pichler"
+   },
+   {
+    "href": "/f/656125s",
+    "name": "Stix Beteiligungs GmbH"
+   }
+  ],
+  "row_legal_name": "Knödelhütte GmbH"
+ },
+ "wiesbauer-oesterreichische-wurstspezialitaeten-gmbh": {
+  "url": "https://www.evi.gv.at/f/53963h",
+  "fetched_at": "2026-10-16T19:16:37Z",
+  "name": "Wiesbauer österreichische Wurstspezialitäten GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "07.10.1993",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "ATS 100 000 000",
+  "geschaeftszweig": null,
+  "sitz": "Wien",
+  "gesellschafter_count": "1 Person",
+  "gesellschafter_links": [
+   {
+    "href": "/f/346991g",
+    "name": "Wiesbauer Holding AG"
+   }
+  ],
+  "row_legal_name": "Wiesbauer österreichische Wurstspezialitäten GmbH"
+ },
+ "winkelbauer-gmbh": {
+  "url": "https://www.evi.gv.at/f/65695k",
+  "fetched_at": "2026-10-16T19:16:39Z",
+  "name": "Winkelbauer GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "03.12.1993",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 200 000",
+  "geschaeftszweig": null,
+  "sitz": "Viertelfeistritz bei Anger",
+  "gesellschafter_count": "2 Personen",
+  "gesellschafter_links": [
+   {
+    "href": null,
+    "name": "Franz Winkelbauer"
+   },
+   {
+    "href": null,
+    "name": "Ing. Michael Winkelbauer"
+   }
+  ],
+  "row_legal_name": "Winkelbauer GmbH"
+ },
+ "deli-gourmet-gmbh": {
+  "url": "https://www.evi.gv.at/f/396515k",
+  "fetched_at": "2026-10-16T19:16:41Z",
+  "name": "deli gourmet GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "06.06.2013",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 36 000",
+  "geschaeftszweig": "Herstellung und Vertrieb von Lebensmitteln, sowie von gastronomischen Produkten und sämtlicher damit in Zusammenhang stehender Dienstleistungen; Beteiligung an anderen Unternehmen",
+  "sitz": "Wien",
+  "gesellschafter_count": "2 Personen",
+  "gesellschafter_links": [
+   {
+    "href": null,
+    "name": "Fanny Ribeyro Schreiber"
+   },
+   {
+    "href": null,
+    "name": "Johannes Winkelbauer"
+   }
+  ],
+  "row_legal_name": "deli gourmet GmbH"
+ },
+ "efko-frischfrucht-und-delikatessen-gmbh": {
+  "url": "https://www.evi.gv.at/f/101672v",
+  "fetched_at": "2026-10-16T19:16:44Z",
+  "name": "efko Frischfrucht und Delikatessen GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "10.06.1994",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 1 510 000",
+  "geschaeftszweig": null,
+  "sitz": "Hinzenbach",
+  "gesellschafter_count": "2 Personen",
+  "gesellschafter_links": [
+   {
+    "href": "/f/93582x",
+    "name": "OÖ. Obst- und Gemüseverwertungsgenossenschaft (efko) eGen"
+   },
+   {
+    "href": "/f/91035a",
+    "name": "Raiffeisen Beteiligungsholding GmbH"
+   }
+  ],
+  "row_legal_name": "efko Frischfrucht und Delikatessen GmbH"
+ },
+ "hofer-kg": {
+  "url": "https://www.evi.gv.at/f/600h",
+  "fetched_at": "2026-10-16T19:16:46Z",
+  "name": "Hofer KG.",
+  "status": "Eingetragen",
+  "eintragungsdatum": "18.12.1991",
+  "rechtsform": "Kommanditgesellschaft",
+  "stammkapital": null,
+  "geschaeftszweig": null,
+  "sitz": "Haslach an der Mühl",
+  "gesellschafter_count": null,
+  "gesellschafter_links": [],
+  "row_legal_name": "Hofer KG."
+ },
+ "inzersdorfer-nahrungsmittelwerke": {
+  "url": "https://www.evi.gv.at/f/161846i",
+  "fetched_at": "2026-10-16T19:16:48Z",
+  "name": "MARESI Austria GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "27.08.1997",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 250 000",
+  "geschaeftszweig": null,
+  "sitz": "Wien",
+  "gesellschafter_count": "2 Personen",
+  "gesellschafter_links": [
+   {
+    "href": "/f/119190f",
+    "name": "VIVATIS Holding AG"
+   },
+   {
+    "href": "/f/85831y",
+    "name": "Landgenossenschaft Ennstal eGen"
+   }
+  ],
+  "row_legal_name": "MARESI Austria GmbH"
+ },
+ "lidl-oesterreich-gmbh": {
+  "url": "https://www.evi.gv.at/f/131556s",
+  "fetched_at": "2026-10-16T19:16:51Z",
+  "name": "Lidl Österreich GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "23.02.1995",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 26 000",
+  "geschaeftszweig": "Handel mit Waren aller Art",
+  "sitz": "Neckarsulm",
+  "gesellschafter_count": null,
+  "gesellschafter_links": [],
+  "row_legal_name": "Lidl Österreich GmbH"
+ },
+ "penny-gmbh": {
+  "url": "https://www.evi.gv.at/f/160330f",
+  "fetched_at": "2026-10-16T19:16:53Z",
+  "name": "Penny GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "25.07.1997",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 40 000",
+  "geschaeftszweig": null,
+  "sitz": "Wiener Neudorf",
+  "gesellschafter_count": "1 Person",
+  "gesellschafter_links": [
+   {
+    "href": "/f/118556y",
+    "name": "Billa Aktiengesellschaft"
+   }
+  ],
+  "row_legal_name": "PENNY GmbH"
+ },
+ "rewe-international-ag": {
+  "url": "https://www.evi.gv.at/f/82769w",
+  "fetched_at": "2026-10-16T19:16:55Z",
+  "name": "REWE International AG",
+  "status": "Eingetragen",
+  "eintragungsdatum": "05.03.1994",
+  "rechtsform": "Aktiengesellschaft",
+  "stammkapital": "EUR 2 200 000",
+  "geschaeftszweig": null,
+  "sitz": "Wiener Neudorf",
+  "gesellschafter_count": null,
+  "gesellschafter_links": [],
+  "row_legal_name": "REWE International AG"
+ },
+ "spar-oesterreichische-warenhandels-aktiengesellschaft": {
+  "url": "https://www.evi.gv.at/f/34170a",
+  "fetched_at": "2026-10-16T19:16:58Z",
+  "name": "SPAR Österreichische Warenhandels-Aktiengesellschaft",
+  "status": "Eingetragen",
+  "eintragungsdatum": "17.06.1993",
+  "rechtsform": "Aktiengesellschaft",
+  "stammkapital": "EUR 30 000 000",
+  "geschaeftszweig": null,
+  "sitz": "Salzburg",
+  "gesellschafter_count": null,
+  "gesellschafter_links": [],
+  "row_legal_name": "SPAR Österreichische Warenhandels-Aktiengesellschaft"
+ },
+ "unimarkt-gmbh": {
+  "url": "https://www.evi.gv.at/f/25076b",
+  "fetched_at": "2026-10-16T19:17:00Z",
+  "name": "UNIMARKT Handelsgesellschaft m.b.H. & Co. Kommanditgesellschaft",
+  "status": "Eingetragen",
+  "eintragungsdatum": "07.07.1992",
+  "rechtsform": "Kommanditgesellschaft",
+  "stammkapital": null,
+  "geschaeftszweig": "Lebensmittelhandel",
+  "sitz": "Traun",
+  "gesellschafter_count": null,
+  "gesellschafter_links": [],
+  "row_legal_name": "UNIMARKT Handelsgesellschaft m.b.H. & Co. Kommanditgesellschaft"
+ },
+ "kernbeisser-og": {
+  "url": "https://www.evi.gv.at/f/622470y",
+  "fetched_at": "2026-10-16T19:17:02Z",
+  "name": "Kernbeißer OG",
+  "status": "Eingetragen",
+  "eintragungsdatum": "29.03.2024",
+  "rechtsform": "Offene Gesellschaft",
+  "stammkapital": null,
+  "geschaeftszweig": "Nahrungs- und Genussmitttelgewerbe",
+  "sitz": "Wien",
+  "gesellschafter_count": null,
+  "gesellschafter_links": [],
+  "row_legal_name": "Kernbeißer OG"
+ },
+ "golden-veggies-gmbh": {
+  "url": "https://www.evi.gv.at/f/550344f",
+  "fetched_at": "2026-10-16T19:17:04Z",
+  "name": "Golden Veggies GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "23.02.2021",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 35 000",
+  "geschaeftszweig": "Herstellung und Vertrieb veganer Lebensmittel und Erbringung von Dienstleistungen im Bereich Verpflegung mit veganen Lebensmittel",
+  "sitz": "Bad Waltersdorf",
+  "gesellschafter_count": "3 Personen",
+  "gesellschafter_links": [
+   {
+    "href": null,
+    "name": "Matthias Wiesenhofer, MSc"
+   },
+   {
+    "href": null,
+    "name": "Dipl.-Ing. (FH) Stephan Wiesenhofer"
+   },
+   {
+    "href": null,
+    "name": "Melanie Zanter, LL.M."
+   }
+  ],
+  "row_legal_name": "Golden Veggies GmbH"
+ },
+ "iss-mich-gmbh": {
+  "url": "https://www.evi.gv.at/f/471722i",
+  "fetched_at": "2026-10-16T19:17:06Z",
+  "name": "iss mich! GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "23.05.2017",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 35 000",
+  "geschaeftszweig": "Handel mit Biolebensmittel",
+  "sitz": "Wien",
+  "gesellschafter_count": "1 Person",
+  "gesellschafter_links": [
+   {
+    "href": null,
+    "name": "Tobias Judmaier, MSc"
+   }
+  ],
+  "row_legal_name": "iss mich! GmbH"
+ },
+ "alfies-gmbh": {
+  "url": "https://www.evi.gv.at/f/352065v",
+  "fetched_at": "2026-10-16T19:17:08Z",
+  "name": "Alfie's GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "13.10.2010",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 52 867,88",
+  "geschaeftszweig": "Handel mit Waren aller Art",
+  "sitz": "Wien",
+  "gesellschafter_count": "5 Personen",
+  "gesellschafter_links": [
+   {
+    "href": null,
+    "name": "Dr. Gerald Josef Michl"
+   },
+   {
+    "href": null,
+    "name": "Mag. Gunther Wilhelm Michl"
+   },
+   {
+    "href": null,
+    "name": "Thomas Christian Ecker"
+   },
+   {
+    "href": null,
+    "name": "CC Beverages Holdings II B.V."
+   },
+   {
+    "href": null,
+    "name": "Mag. Jan Posch"
+   }
+  ],
+  "row_legal_name": "Alfie's GmbH"
+ }
+}
