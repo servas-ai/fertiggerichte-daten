@@ -3281,5 +3281,68 @@
    "myProduct GmbH",
    "Online: myProduct"
   ]
+ },
+ {
+  "slug": "rapunzel",
+  "name": "Rapunzel",
+  "category": "Markenhersteller",
+  "file": "logos/rapunzel.svg",
+  "source_url": "https://commons.wikimedia.org/wiki/File:Rapunzel_Naturkost.svg (upload.wikimedia.org/wikipedia/commons/b/b2/Rapunzel_Naturkost.svg; Commons: Public domain, source rapunzel.de warenkunde PDF)",
+  "brands": [
+   "Rapunzel",
+   "RAPUNZEL",
+   "Rapunzel Naturkost",
+   "Rapunzel Naturkost GmbH & Co. KG"
+  ]
+ },
+ {
+  "slug": "arche",
+  "name": "ARCHE Naturküche",
+  "category": "Markenhersteller",
+  "file": "logos/arche.png",
+  "source_url": "https://www.arche-naturkueche.de/_img/arche-logo.png (header <img> on arche-naturkueche.de, robots allow)",
+  "brands": [
+   "Arche",
+   "ARCHE",
+   "Arche Naturküche",
+   "ARCHE Naturküche",
+   "Arche Naturprodukte GmbH",
+   "ARCHE Naturprodukte GmbH"
+  ]
+ },
+ {
+  "slug": "egesun",
+  "name": "EgeSun",
+  "category": "Markenhersteller",
+  "file": "logos/egesun.png",
+  "source_url": "https://www.egesun.de/wp-content/uploads/2025/09/egesun-logo-s.png (header <img alt=logo> on egesun.de, robots allow)",
+  "brands": [
+   "EgeSun",
+   "EGESUN",
+   "EgeSun GmbH & Co. KG"
+  ]
+ },
+ {
+  "slug": "sanchon",
+  "name": "Sanchon",
+  "category": "Marke",
+  "file": "logos/sanchon.png",
+  "source_url": "https://petersilchen.de/wp-content/uploads/2017/02/sanchon-logo-200px.png (petersilchen.de brand section <img>, robots allow)",
+  "brands": [
+   "Sanchon",
+   "SANCHON"
+  ]
+ },
+ {
+  "slug": "petersilchen",
+  "name": "Petersilchen",
+  "category": "Markenhersteller",
+  "file": "logos/petersilchen.png",
+  "source_url": "https://petersilchen.de/wp-content/uploads/2021/08/petersilchen_logo_rgb-1.png (petersilchen.de header logo, robots allow)",
+  "brands": [
+   "Petersilchen",
+   "PETERSILCHEN",
+   "Petersilchen GmbH"
+  ]
  }
 ]

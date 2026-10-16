@@ -1,0 +1,100 @@
+{
+ "run": "2026-10-16T2238 Daten-Squad",
+ "generated_at": "2026-10-16T22:46:29.337135+00:00",
+ "added": [
+  {
+   "slug": "rapunzel",
+   "note": "Vision gate 2026-10-16T2238 (Daten-Squad): visuell geprüft (korrekte Marke, lesbar, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · Offizielles RAPUNZEL-Wortbild (grüne Schrift auf gelbem Oval, grüner Rahmen), Commons-SVG unverändert 516x173; Rapunzel Naturkost GmbH & Co. KG, Legau (LEI, HRA 14236)",
+   "source": "https://commons.wikimedia.org/wiki/File:Rapunzel_Naturkost.svg (upload.wikimedia.org/wikipedia/commons/b/b2/Rapunzel_Naturkost.svg; Commons: Public domain, source rapunzel.de warenkunde PDF)",
+   "sha256": "228dfedc29eb5756926a87029d4fc4c745a6e85d1f82690350b0a9d2128253e8",
+   "products_impacted": 0,
+   "aliases": [
+    "Rapunzel",
+    "RAPUNZEL",
+    "Rapunzel Naturkost",
+    "Rapunzel Naturkost GmbH & Co. KG"
+   ]
+  },
+  {
+   "slug": "arche",
+   "note": "Vision gate 2026-10-16T2238 (Daten-Squad): visuell geprüft (korrekte Marke, lesbar, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · Offizielles 'ARCHE NATURKÜCHE'-Logo (rote Sonne über Bogen, schwarzer Schriftzug), unverändert 140x115 RGB (klein, einzige Header-Datei); ARCHE Naturprodukte GmbH, Hilden (LEI, HRB 85754)",
+   "source": "https://www.arche-naturkueche.de/_img/arche-logo.png (header <img> on arche-naturkueche.de, robots allow)",
+   "sha256": "e07c0b9b3f421a707206a9488741e401eca7c044300ffd584b76fdef3e4ae849",
+   "products_impacted": 0,
+   "aliases": [
+    "Arche",
+    "ARCHE",
+    "Arche Naturküche",
+    "ARCHE Naturküche",
+    "Arche Naturprodukte GmbH",
+    "ARCHE Naturprodukte GmbH"
+   ]
+  },
+  {
+   "slug": "egesun",
+   "note": "Vision gate 2026-10-16T2238 (Daten-Squad): visuell geprüft (korrekte Marke, lesbar, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · Offizielles 'EgeSun – ORGANIC SINCE 1979'-Wortbild (dunkelbraun, Sonnenstrahlen), unverändert 399x142 RGBA; Firmenlogo der EgeSun GmbH & Co. KG, Oyten (Marke Vegan Pete hat eigenes Logo, hier NICHT zugeordnet)",
+   "source": "https://www.egesun.de/wp-content/uploads/2025/09/egesun-logo-s.png (header <img alt=logo> on egesun.de, robots allow)",
+   "sha256": "64dc592b045b5acd68b95ea72abee021f7ccb792c6e4b420d59afc1fbdf77090",
+   "products_impacted": 0,
+   "aliases": [
+    "EgeSun",
+    "EGESUN",
+    "EgeSun GmbH & Co. KG"
+   ]
+  },
+  {
+   "slug": "sanchon",
+   "note": "Vision gate 2026-10-16T2238 (Daten-Squad): visuell geprüft (korrekte Marke, lesbar, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · Offizielles SANCHON-Markenlogo (schwarzer Eselkopf + Serifen-Schriftzug), unverändert 200x137 RGB; Marke der Petersilchen GmbH, Steinheim",
+   "source": "https://petersilchen.de/wp-content/uploads/2017/02/sanchon-logo-200px.png (petersilchen.de brand section <img>, robots allow)",
+   "sha256": "206e94cbe29f08a4777a91805f6544cb8f1558d545875c30f4efcd0c144a7427",
+   "products_impacted": 0,
+   "aliases": [
+    "Sanchon",
+    "SANCHON"
+   ]
+  },
+  {
+   "slug": "petersilchen",
+   "note": "Vision gate 2026-10-16T2238 (Daten-Squad): visuell geprüft (korrekte Marke, lesbar, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · Offizielles 'PETERSILCHEN Biologische Feinkost'-Firmenlogo (grün-gelber Bogen, graue Schrift), unverändert 210x75 RGBA; Petersilchen GmbH, Steinheim (HRB 11924)",
+   "source": "https://petersilchen.de/wp-content/uploads/2021/08/petersilchen_logo_rgb-1.png (petersilchen.de header logo, robots allow)",
+   "sha256": "8276b220077e213d1309ae0a0a5dea9d1be2d5227e3d7bac49a90021dc891e66",
+   "products_impacted": 0,
+   "aliases": [
+    "Petersilchen",
+    "PETERSILCHEN",
+    "Petersilchen GmbH"
+   ]
+  }
+ ],
+ "updated_fileless": [],
+ "aliases_added": {},
+ "rejected": {
+  "rettergut.de": "robots.txt disallows our UA for the homepage → not fetched, no logo",
+  "Zwergenwiese (Rapunzel brand)": "zwergenwiese.de HTML exposes no logo <img>/schema logo; no Commons file → no logo (Rapunzel parent logo NOT reused for the sub-brand)",
+  "Vegan Pete (EgeSun brand)": "veganpete.de 404; EgeSun company logo NOT reused as the Vegan Pete brand logo",
+  "De Rit / BioArt / Perfect Earth": "derit.nl, bioart.at, perfectearth.eu robots.txt unreachable (TLS EOF) → treated as disallow, not fetched",
+  "Hartl's Kulinarikum": "hartls-kulinarikum.at shows only photo banners, no logo asset (re-checked T2238)",
+  "petersilchen.de partner badges (Patentabfrage, COMPANY BALANCED)": "third-party certification badges, not the brand → rejected"
+ },
+ "vision_gate": {
+  "rapunzel": "PASS — RAPUNZEL green wordmark on yellow rounded badge (SVG rendered 600 px via rsvg-convert, legible)",
+  "arche": "PASS — ARCHE NATURKÜCHE wordmark with red sun (140x115, small but legible on white)",
+  "egesun": "PASS — EgeSun wordmark 'ORGANIC SINCE 1979' (399x142, transparent, legible on white)",
+  "sanchon": "PASS — SANCHON donkey head + serif wordmark (200x137, legible)",
+  "petersilchen": "PASS — PETERSILCHEN 'Biologische Feinkost' wordmark with green/yellow arc (210x75, legible)"
+ },
+ "counts": {
+  "added": 5,
+  "updated_fileless": 0,
+  "total_rows": 304,
+  "with_file": 289,
+  "products_impacted_total": 0
+ },
+ "sha256": {
+  "rapunzel": "228dfedc29eb5756926a87029d4fc4c745a6e85d1f82690350b0a9d2128253e8",
+  "arche": "e07c0b9b3f421a707206a9488741e401eca7c044300ffd584b76fdef3e4ae849",
+  "egesun": "64dc592b045b5acd68b95ea72abee021f7ccb792c6e4b420d59afc1fbdf77090",
+  "sanchon": "206e94cbe29f08a4777a91805f6544cb8f1558d545875c30f4efcd0c144a7427",
+  "petersilchen": "8276b220077e213d1309ae0a0a5dea9d1be2d5227e3d7bac49a90021dc891e66"
+ }
+}
