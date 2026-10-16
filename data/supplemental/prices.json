@@ -2770,5 +2770,41 @@
   "price_status": "live 2026",
   "fetched_at": "2026-10-14",
   "price_source": "alfies.at Wien (Warehouse altha) Algolia-Index 2026-10-14 (food-connectors alfies)"
+ },
+ {
+  "product_id": "cbf630276516",
+  "chain": "Alfies",
+  "price_eur": 1.19,
+  "price_per_kg_eur": 19.83,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-14",
+  "price_source": "alfies.at Wien (Warehouse altha) Algolia-Index 2026-10-14 (food-connectors alfies)"
+ },
+ {
+  "product_id": "a9f1d733f101",
+  "chain": "Alfies",
+  "price_eur": 3.99,
+  "price_per_kg_eur": 46.94,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-14",
+  "price_source": "alfies.at Wien (Warehouse altha) Algolia-Index 2026-10-14 (food-connectors alfies)"
+ },
+ {
+  "product_id": "d52be89e938f",
+  "chain": "Alfies",
+  "price_eur": 6.99,
+  "price_per_kg_eur": 13.19,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-14",
+  "price_source": "alfies.at Wien (Warehouse altha) Algolia-Index 2026-10-14 (food-connectors alfies)"
+ },
+ {
+  "product_id": "60801a725517",
+  "chain": "Alfies",
+  "price_eur": 6.79,
+  "price_per_kg_eur": 10.45,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-14",
+  "price_source": "alfies.at Wien (Warehouse altha) Algolia-Index 2026-10-14 (food-connectors alfies)"
  }
 ]
