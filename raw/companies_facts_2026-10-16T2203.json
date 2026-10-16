@@ -1,0 +1,39 @@
+{
+ "run": "Daten-Squad T2203",
+ "generated_at": "2026-10-16T22:14:09Z",
+ "rules": "same as T1938: only verified public statements on the row's own verified website (rapunzel.de = website column, legal notice/GLEIF-matched at T2139); scope/year in value; robots allowed (only /_assets/, typo3temp disallowed)",
+ "before": {
+  "employees": 46,
+  "revenue": 31
+ },
+ "after": {
+  "employees": 47,
+  "revenue": 32
+ },
+ "evidence": [
+  {
+   "slug": "rapunzel-naturkost-gmbh-co-kg",
+   "field": "employees",
+   "value": "ca. 530 (Unternehmensangabe, Rapunzel Naturkost, Stand Presseseite 2026)",
+   "url": "https://www.rapunzel.de/ueber-uns/presse",
+   "quote": "Mitarbeitende: ca. 530"
+  },
+  {
+   "slug": "rapunzel-naturkost-gmbh-co-kg",
+   "field": "revenue",
+   "value": "232 Mio. € netto (2024, Unternehmensangabe)",
+   "url": "https://www.rapunzel.de/ueber-uns/presse",
+   "quote": "Umsatz 2024: 232 Mio. € netto"
+  }
+ ],
+ "probed_no_figure": [
+  "https://oekoland.de",
+  "https://arche-naturkueche.de",
+  "https://egesun.de",
+  "https://petersilchen.de",
+  "https://bioart.at",
+  "https://dankebauer.com",
+  "https://myproduct.at"
+ ],
+ "note": "homepage + same-domain about/unternehmen/zahlen/karriere links (≤8 each) scanned for employee/revenue figures; none published on the 7 other T2139 company sites"
+}
