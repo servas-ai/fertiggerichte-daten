@@ -66,3 +66,24 @@ def test_G_steinofenpizza():
     assert r and r[0]['size']==710 and r[0]['portion']==355 and r[0].get('price_condition')=='NUR MIT APP'
     for x in _rows():
         if x.get('badge'): assert x['score']<50 and x['rankable']
+
+def test_D_roast_with_side_is_dish():
+    for n in ['bofrost Surbraten mit Sauerkraut','Schweinsbraten mit Rotkraut','Rinderbraten mit Gemüse','Braten mit Bohnen','Zwiebelrostbraten mit Spätzle','Schweinsbraten mit Püree']:
+        assert not V.meat_piece(n), n
+    for n in ['bofrost Faschierter Braten mit Pfefferrahmsauce','Rindswangerln in Rotweinsauce','bofrost Jägerrostbraten']:
+        assert V.meat_piece(n), n
+
+def test_D_dish_still_needs_meal_check():
+    for r in _rows():
+        if r.get('rankable'):
+            mc=r.get('meal_check') or {}
+            assert 400<=(mc.get('kcal') or 0)<=900 and (mc.get('protein') or 0)>=20, r['name']
+
+def test_G_price_condition_info():
+    r=[r for r in _rows() if r['store']=='MPreis' and r['name']=='Jeden Tag Steinofenpizza Thunfisch 2er-Packung'][0]
+    i=r['price_condition_info']
+    assert i['text']=='NUR MIT APP' and i['source_url']==r['url'] and i['checked']>='2026-10-16'
+
+def test_store_known_for_heisse_preise_matched_off_rows():
+    st={r['name']:r['store'] for r in _rows()}
+    assert st.get('Thai Red Chicken Curry')=='Billa' and st.get('Kräftige Hühnersuppe')=='Spar'

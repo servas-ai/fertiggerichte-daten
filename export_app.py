@@ -31,6 +31,15 @@ if os.path.exists('analysis/logos.json'):
         if not v.get('file'): continue
         LK.setdefault(k.replace('-',' ').replace('ja natuerlich','ja! natürlich').replace('ben s original',"ben's original"),'analysis/'+v['file'])
         for _b in v.get('brands') or []: LK.setdefault(_b.lower(),'analysis/'+v['file'])
+# 6c11fb6 regression fix: store-less OFF rows get their shop from gaps_overlay.json (heisse-preise exact-name match,
+#  normally applied after export by `gaps_overlay.py --apply`); applying it here keeps the known store even if that step is skipped.
+_GO=json.load(open('gaps_overlay.json')) if os.path.exists('gaps_overlay.json') else {}
+_n_go=0
+for r in R:
+    if str(r.get('store') or '').startswith('unbekannt'):
+        _o=_GO.get(str(r['store'])+'|'+r['name']) or {}
+        if _o.get('shop_status')=='filled' and _o.get('store'): r['store']=_o['store']; r['stores_seen']=_o.get('stores_seen'); r['shop_src']=_o.get('shop_src'); _n_go+=1
+print('gaps_overlay store restored',_n_go)
 for r in R:
     b=(r['brand'] or '').split(',')[0].strip()
     for pat,nm in NORM:
@@ -70,7 +79,12 @@ DISH=[('Gulasch','🥘',r'gulasch|goulash|paprikash|letscho'),('Curry','🍛',r'
 PLAIN_PASTA=re.compile(r"\b(tagliatelle|tagliolini|pappardelle|linguine|fettuccine|bandnudeln|eiernudeln|spaghetti|spaghettini|rigatoni|tortiglioni|penne|fusilli|farfalle|orecchiette|trofie|strozzapreti|paccheri|bucatini|maccheroni|makkaroni)(\s+(all.?uovo|fresche?|frisch|nester|nidi))?\s*(\((frische )?pasta\)|\(frisch\))?\s*$",re.I)
 # review 13 G: verified pack corrections (mpreis.at 16.10.: Nettofüllmenge 710 g = 2 × 355 g) and app-only price labels
 SIZE_FIX={('MPreis','Jeden Tag Steinofenpizza Thunfisch 2er-Packung'):(700,710)}
-PRICE_COND={('MPreis','Jeden Tag Steinofenpizza Thunfisch 2er-Packung'):'NUR MIT APP'}
+import os
+# review 13 G: app-only price notes, re-checked by price_condition_check.py (robots.txt, ≥1 s/host); inactive → dropped
+PRICE_COND={}
+if os.path.exists('price_conditions.json'):
+    for _c in json.load(open('price_conditions.json')).get('conditions',[]):
+        if _c.get('active'): PRICE_COND[(_c['store'],_c['name'])]=_c
 for r in R:
     _k=(r.get('store'),r.get('name'))
     if _k in SIZE_FIX and r.get('size')==SIZE_FIX[_k][0]:
@@ -79,7 +93,9 @@ for r in R:
         if r.get('kcal') is not None: r['kcalpack']=round(r['kcal']*r['size']/100)
         if r.get('price'): r['ppk']=round(r['price']/r['size']*1000,2); r['ppe']=round(r['protpack']/r['price'],1) if r.get('protpack') else r.get('ppe')
     _txt=' '.join([str(r.get('name') or ''),str(r.get('price_kind') or '')]+[str(f) for f in (r.get('flags') or [])])
-    if _k in PRICE_COND or re.search(r'nur mit (der )?app',_txt,re.I): r['price_condition']=PRICE_COND.get(_k,'NUR MIT APP')
+    if _k in PRICE_COND:
+        _c=PRICE_COND[_k]; r['price_condition']=_c['text']; r['price_condition_info']=dict(text=_c['text'],source_url=_c['source_url'],checked=_c['checked'])
+    elif re.search(r'nur mit (der )?app',_txt,re.I): r['price_condition']='NUR MIT APP'; r['price_condition_info']=dict(text='NUR MIT APP',source_url=r.get('url'),checked=None)
 # review 13 F(b): delivery services → shipping per box of 6 dishes on top of the portion price (online_mealprep.json shipping_eur)
 SHIP_BOX=6
 SHIP={}

@@ -234,7 +234,7 @@ def meat_sub_piece(nm, brand='', size=None):
 # Sensecheck 13 review (D/A): plain meat/fish pieces without own carb word are components ('Zum Kombinieren'), also as word part
 #  ('Rindsbackerl Sous Vide', 'Schweinsbraten', 'Spareripperl'); Iglo Goldschatz = overbaked fish fillet line.
 MEAT_PIECE = re.compile(r'sous.?vide|braten(?!wurst|sauce|soße|saft)|backerl|wangerl|ripperl|stelze|filet|steak|medaillon|goldschatz',re.I)
-MEAT_PIECE_DISH = re.compile(r'gulasch|curry|chili|ragout|ragù|eintopf|geschnetzel|frikassee|tajine|stroganoff|teriyaki|süß.?sauer|tikka|masala|pfanne|knödel|semmel|nudel|reis|kartoffel|erdäpfel|tarhonya|spiralen|\bdazu\b',re.I)
+MEAT_PIECE_DISH = re.compile(r'gulasch|curry|chili|ragout|ragù|eintopf|geschnetzel|frikassee|tajine|stroganoff|teriyaki|süß.?sauer|tikka|masala|pfanne|knödel|semmel|nudel|reis|kartoffel|erdäpfel|tarhonya|spiralen|\bdazu\b|sauerkraut|rotkraut|blaukraut|bohnen|fisolen|spätzle|püree',re.I)
 def meat_piece(nm):
     nm=nm or ''
     if not MEAT_PIECE.search(nm) or re.search(r'\bgebraten',nm,re.I) and not re.search(r'braten\b',nm,re.I): return False
