@@ -1,0 +1,20 @@
+{
+ "run": "2026-10-16T1706 Daten-Squad",
+ "method": "food-connectors `food company NAME --impressum DOMAIN` (public legal notice, robots respected, UIDs checked via EU VIES) + GLEIF API lei-records filter[entity.legalName] / filter[fulltext]",
+ "resolved": {
+  "stadtkueche": {"legal_name": "Knödelhütte GmbH", "imprint_url": "https://kasnudl.at/impressum", "page_title": "Impressum | Stadtküche (Knödelhütte GmbH)", "fn": "FN 675365i", "court": "Handelsgericht Wien", "uid": "ATU83103945", "vies": {"valid": true, "name": "Knödelhütte GmbH", "address": "Barbara-Prammer-Allee 15/1/1A, AT-1220 Wien", "checked_at": "2026-10-16T17:10:34.630Z"}, "management": "Daniel Pichler", "object": "Lebensmittelproduktion"},
+  "unimarkt-gmbh": {"lei": "529900X5GBP4KNVUYQ35", "legal_name": "UNIMARKT Handelsgesellschaft m.b.H. & Co. Kommanditgesellschaft", "address": "Egger-Lienz-Straße 14, 4050 Traun", "registeredAs": "25076b", "entity_status": "ACTIVE", "registration_status": "LAPSED", "next_renewal": "2017-02-25", "ultimate_parent": "none reported (404)"}
+ },
+ "partial": {
+  "kasnudl-gmbh": "pack label says 'Stadtküche (Kasnudl GmbH)'; brand site Impressum names Knödelhütte GmbH (FN 675365i, a 2025 register number, so not a rename of an older Kasnudl GmbH) — kept as separate unverified label entity, not merged",
+  "alimentastic-food-innovation-gmbh": "Impressum alimentastic.com: Alimentastic GmbH, Strubergasse 24, 5020 Salzburg, FN 673845z, Landesgericht Salzburg, UID ATU70319525 — VIES returned valid=false at 2026-10-16T17:10:39Z, so UID not written as verified"
+ },
+ "rejected_matches": {
+  "mochi-production-gmbh": "mochi.at Impressum = Mochi GmbH FN 400338h ATU68127902 (VIES valid) — different legal name from the label entity 'Mochi Production GmbH', not mapped",
+  "bauck-gmbh": "bauck.de Impressum = BauckOnline GmbH HRB 206937 (shop operator), bauckhof.de = Gemeinnützige Landbau-Forschungsgesellschaft Sottorf GmbH — neither is 'Bauck GmbH', not mapped",
+  "knoedelwerkstatt-gmbh": "knoedelwerkstatt.com = Knödelwerkstatt GmbH & Co. KG München (HRA 112721, DE332487710) but pack label says 'Knödelwerkstatt G.m.b.H, Hauptstraße 12, Österreich' — different entity, not mapped",
+  "gastrotech": "pack label 'Gastrotech, s.r.o.' (SK/CZ); GLEIF exact-name hit 'Gastrotech UG (haftungsbeschränkt)' DE is a different entity, not mapped",
+  "gleif_no_hit": ["Mochi Production", "Kasnudl", "Alimentastic", "Bauck", "Franuí", "Planted Foods", "Knödelhütte", "Noble Desserts/Gü", "Peter Hiel"],
+  "no_imprint_found": ["franui.com", "eatplanted.com", "eatplanted.ch", "hiel.at", "hiel.co.at", "sushitime.at", "gruenkraft.at", "unimarkt.at (chain exited retail)"]
+ }
+}
