@@ -1,0 +1,604 @@
+[
+ {
+  "slug": "maresi-austria-gmbh",
+  "legal_name": "MARESI Austria GmbH",
+  "tries": [
+   {
+    "domain": "maresi.at",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "pastificio-rana-spa",
+  "legal_name": "PASTIFICIO RANA S.P.A.",
+  "tries": [
+   {
+    "domain": "giovannirana.it",
+    "error": "'function' object has no attribute 'find_imprint'"
+   },
+   {
+    "domain": "rana.it",
+    "error": "'function' object has no attribute 'find_imprint'"
+   },
+   {
+    "domain": "giovannirana.de",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "nestle-oesterreich-gmbh",
+  "legal_name": "Nestle Österreich GmbH",
+  "tries": [
+   {
+    "domain": "nestle.at",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "felix-austria-gesellschaft-mbh",
+  "legal_name": "FELIX AUSTRIA Gesellschaft m.b.H.",
+  "tries": [
+   {
+    "domain": "felix.at",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "alnatura-gmbh",
+  "legal_name": "AlnaturA Produktions- und Handels GmbH",
+  "tries": [
+   {
+    "domain": "alnatura.de",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "ehrmann-gmbh",
+  "legal_name": "Ehrmann GmbH Oberschönegg im Allgäu",
+  "tries": [
+   {
+    "domain": "ehrmann.de",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "dm-drogerie-markt-gmbh-co-kg",
+  "legal_name": "dm-drogerie markt GmbH + Co. KG",
+  "tries": [
+   {
+    "domain": "dm.de",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "weinbergmaier-gmbh",
+  "legal_name": "WEINBERGMAIER GmbH",
+  "tries": [
+   {
+    "domain": "weinbergmaier.at",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "hofmann-menue-manufaktur-gmbh",
+  "legal_name": "Hofmann Menü-Manufaktur GmbH",
+  "tries": [
+   {
+    "domain": "hofmann-menue.de",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "berglandmilch-egen",
+  "legal_name": "Berglandmilch eGen",
+  "tries": [
+   {
+    "domain": "berglandmilch.at",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "mpreis-warenvertriebs-gmbh",
+  "legal_name": "MPREIS Warenvertriebs GmbH",
+  "tries": [
+   {
+    "domain": "mpreis.at",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "mars-austria-og",
+  "legal_name": "MARS AUSTRIA OG",
+  "tries": [
+   {
+    "domain": "mars.com",
+    "error": "'function' object has no attribute 'find_imprint'"
+   },
+   {
+    "domain": "bensoriginal.at",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "molkerei-alois-mueller-gmbh-co-kg",
+  "legal_name": "Molkerei Alois Müller GmbH & Co. KG",
+  "tries": [
+   {
+    "domain": "muellermilch.de",
+    "error": "'function' object has no attribute 'find_imprint'"
+   },
+   {
+    "domain": "landliebe.de",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "noem-ag",
+  "legal_name": "NÖM AG",
+  "tries": [
+   {
+    "domain": "noem.at",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "dr-oetker-gmbh",
+  "legal_name": "Dr. Oetker GmbH",
+  "tries": [
+   {
+    "domain": "oetker.at",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "kreyenhop-kluge-gmbh-cokg",
+  "legal_name": "Kreyenhop & Kluge GmbH & Co.KG",
+  "tries": [
+   {
+    "domain": "kreyenhopkluge.de",
+    "error": "'function' object has no attribute 'find_imprint'"
+   },
+   {
+    "domain": "kreyenhop-kluge.de",
+    "error": "'function' object has no attribute 'find_imprint'"
+   },
+   {
+    "domain": "kk-asia.de",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "marks-and-spencer-services-sro",
+  "legal_name": "MARKS AND SPENCER SERVICES S.R.O.",
+  "tries": [
+   {
+    "domain": "marksandspencer.cz",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "zott-se-co-kg",
+  "legal_name": "Zott SE & Co. KG",
+  "tries": [
+   {
+    "domain": "zott.de",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "bertagni-1882-spa",
+  "legal_name": "BERTAGNI 1882 S.P.A.",
+  "tries": [
+   {
+    "domain": "bertagni.it",
+    "error": "'function' object has no attribute 'find_imprint'"
+   },
+   {
+    "domain": "bertagni1882.it",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "princes-foods-bv",
+  "legal_name": "PRINCES FOODS B.V.",
+  "tries": [
+   {
+    "domain": "princes.nl",
+    "error": "'function' object has no attribute 'find_imprint'"
+   },
+   {
+    "domain": "princesfoods.nl",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "staudinger-delikatessen-gmbh",
+  "legal_name": "Staudinger Delikatessen GmbH",
+  "tries": [
+   {
+    "domain": "staudinger.at",
+    "error": "'function' object has no attribute 'find_imprint'"
+   },
+   {
+    "domain": "staudinger-delikatessen.at",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "tops-foods",
+  "legal_name": "TOPS FOODS",
+  "tries": [
+   {
+    "domain": "topsfoods.be",
+    "error": "'function' object has no attribute 'find_imprint'"
+   },
+   {
+    "domain": "tops-foods.com",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "adriatic-group-gmbh",
+  "legal_name": "ADRIATIC GROUP GmbH",
+  "tries": [
+   {
+    "domain": "adriatic-group.at",
+    "error": "'function' object has no attribute 'find_imprint'"
+   },
+   {
+    "domain": "adriaticgroup.at",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "barilla-g-e-r-fratelli-societa-per-azioni",
+  "legal_name": "BARILLA G. E R. FRATELLI - SOCIETA' PER AZIONI",
+  "tries": [
+   {
+    "domain": "barilla.com",
+    "error": "'function' object has no attribute 'find_imprint'"
+   },
+   {
+    "domain": "barillagroup.com",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "biovegan-gmbh",
+  "legal_name": "Biovegan GmbH",
+  "tries": [
+   {
+    "domain": "biovegan.de",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "dr-schaer-spa",
+  "legal_name": "DR. SCHAER SPA",
+  "tries": [
+   {
+    "domain": "schaer.com",
+    "error": "'function' object has no attribute 'find_imprint'"
+   },
+   {
+    "domain": "drschaer.com",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "glatz-gmbh",
+  "legal_name": "Glatz GmbH",
+  "tries": [
+   {
+    "domain": "glatz.at",
+    "error": "'function' object has no attribute 'find_imprint'"
+   },
+   {
+    "domain": "njami.at",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "tress-lebensmittel-gmbh-co-kg",
+  "legal_name": "Tress Lebensmittel GmbH & Co. KG",
+  "tries": [
+   {
+    "domain": "tressbrueder.de",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "andros-deutschland-gmbh",
+  "legal_name": "Andros Deutschland GmbH",
+  "tries": [
+   {
+    "domain": "andros.de",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "dairy-4-fun-sro",
+  "legal_name": "DAIRY 4 FUN s.r.o.",
+  "tries": [
+   {
+    "domain": "dairy4fun.cz",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "danone-deutschland-gmbh",
+  "legal_name": "DANONE DEUTSCHLAND GMBH",
+  "tries": [
+   {
+    "domain": "danone.de",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "delamaris-doo",
+  "legal_name": "DELAMARIS konzervna industrija d.o.o.",
+  "tries": [
+   {
+    "domain": "delamaris.si",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "doppelt-sp-z-oo",
+  "legal_name": "Doppelt Spółka z Ograniczoną Odpowiedzialnością",
+  "tries": [
+   {
+    "domain": "doppelt.pl",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "estyria-naturprodukte-gmbh",
+  "legal_name": "Estyria Naturprodukte GmbH",
+  "tries": [
+   {
+    "domain": "estyria.at",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "euryza-gmbh",
+  "legal_name": "Euryza GmbH",
+  "tries": [
+   {
+    "domain": "euryza.de",
+    "error": "'function' object has no attribute 'find_imprint'"
+   },
+   {
+    "domain": "reis-fit.de",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "franu-espana-sl",
+  "legal_name": "FRA NUI ESPAÑA SOCIEDAD LIMITADA",
+  "tries": [
+   {
+    "domain": "franui.com",
+    "error": "'function' object has no attribute 'find_imprint'"
+   },
+   {
+    "domain": "franui.es",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "franz-ablinger-co-fleischhauereibetrieb-gesellschaft-mbh",
+  "legal_name": "Franz Ablinger & Co. Fleischhauereibetrieb Gesellschaft m.b.H.",
+  "tries": [
+   {
+    "domain": "ablinger.at",
+    "error": "'function' object has no attribute 'find_imprint'"
+   },
+   {
+    "domain": "ablinger-fleisch.at",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "greenforce-future-food-ag",
+  "legal_name": "GREENFORCE FUTURE FOOD AG",
+  "tries": [
+   {
+    "domain": "greenforce.com",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "galana-nv-beldessert",
+  "legal_name": "GALANA NV",
+  "tries": [
+   {
+    "domain": "galana.be",
+    "error": "'function' object has no attribute 'find_imprint'"
+   },
+   {
+    "domain": "galana.com",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "la-crepe-de-broceliande-8-rue-pierre-legaultboisgervilly3536",
+  "legal_name": "LA CREPE DE BROCELIANDE",
+  "tries": [
+   {
+    "domain": "lacrepedebroceliande.fr",
+    "error": "'function' object has no attribute 'find_imprint'"
+   },
+   {
+    "domain": "crepe-broceliande.fr",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "planted-foods-ag",
+  "legal_name": "Planted Foods AG",
+  "tries": [
+   {
+    "domain": "eatplanted.com",
+    "error": "'function' object has no attribute 'find_imprint'"
+   },
+   {
+    "domain": "planted.ch",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "riso-gallo-spa",
+  "legal_name": "RISO GALLO S.P.A.",
+  "tries": [
+   {
+    "domain": "risogallo.it",
+    "error": "'function' object has no attribute 'find_imprint'"
+   },
+   {
+    "domain": "risogallo.com",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "riso-scotti-spa",
+  "legal_name": "RISO SCOTTI S.P.A.",
+  "tries": [
+   {
+    "domain": "risoscotti.it",
+    "error": "'function' object has no attribute 'find_imprint'"
+   },
+   {
+    "domain": "risoscotti.com",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "ruegenwalder-muehle-carl-mueller-gmbh-co-kg",
+  "legal_name": "Rügenwalder Mühle Carl Müller GmbH & Co. KG",
+  "tries": [
+   {
+    "domain": "ruegenwalder.de",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "winkelbauer-gmbh",
+  "legal_name": "Winkelbauer GmbH",
+  "tries": [
+   {
+    "domain": "winkelbauer.at",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "efko-frischfrucht-und-delikatessen-gmbh",
+  "legal_name": "efko Frischfrucht und Delikatessen GmbH",
+  "tries": [
+   {
+    "domain": "efko.at",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "followfood-gmbh",
+  "legal_name": "followfood GmbH",
+  "tries": [
+   {
+    "domain": "followfood.de",
+    "error": "'function' object has no attribute 'find_imprint'"
+   },
+   {
+    "domain": "followfood.com",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "rewe-international-ag",
+  "legal_name": "REWE International AG",
+  "tries": [
+   {
+    "domain": "rewe-group.at",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "spar-oesterreichische-warenhandels-aktiengesellschaft",
+  "legal_name": "SPAR Österreichische Warenhandels-Aktiengesellschaft",
+  "tries": [
+   {
+    "domain": "spar.at",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "unimarkt-gmbh",
+  "legal_name": "UNIMARKT Handelsgesellschaft m.b.H. & Co. Kommanditgesellschaft",
+  "tries": [
+   {
+    "domain": "unimarkt.at",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ },
+ {
+  "slug": "gastrotech",
+  "legal_name": "GASTROTECH, s.r.o.",
+  "tries": [
+   {
+    "domain": "gastrotech.cz",
+    "error": "'function' object has no attribute 'find_imprint'"
+   }
+  ]
+ }
+]

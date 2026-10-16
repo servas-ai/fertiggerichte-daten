@@ -1,0 +1,20 @@
+maresi-austria-gmbh -> ('https://maresi.at/de/impressum', ['fn', 'register_id'], True)
+pastificio-rana-spa -> ['no imprint with ids', 'no imprint with ids', 'no imprint with ids']
+nestle-oesterreich-gmbh -> ['no imprint with ids']
+felix-austria-gesellschaft-mbh -> ['no imprint with ids']
+alnatura-gmbh -> ('https://alnatura.de/impressum', ['register_id'], True)
+ehrmann-gmbh -> [('ids?', ['DE811249984'])]
+dm-drogerie-markt-gmbh-co-kg -> ['no imprint with ids']
+weinbergmaier-gmbh -> ('https://weinbergmaier.at/impressum', ['fn', 'register_id'], True)
+hofmann-menue-manufaktur-gmbh -> ['no imprint with ids']
+berglandmilch-egen -> ['no imprint with ids']
+mpreis-warenvertriebs-gmbh -> ('https://mpreis.at/sp/impressum', ['fn', 'register_id'], True)
+mars-austria-og -> ['no imprint with ids', 'no imprint with ids']
+molkerei-alois-mueller-gmbh-co-kg -> ['no imprint with ids', 'no imprint with ids']
+noem-ag -> ('https://www.noem.at/impressum', ['fn', 'register_id'], False)
+dr-oetker-gmbh -> ['no imprint with ids']
+kreyenhop-kluge-gmbh-cokg -> ['no imprint with ids', 'no imprint with ids', 'no imprint with ids']
+marks-and-spencer-services-sro -> ['no imprint with ids']
+zott-se-co-kg -> ['no imprint with ids']
+bertagni-1882-spa -> ('https://bertagni1882.it/', ['register_id'], True)
+princes-foods-bv -> ['no imprint with ids', 'no imprint with ids']

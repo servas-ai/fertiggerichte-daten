@@ -1,0 +1,646 @@
+[
+ {
+  "slug": "staudinger-delikatessen-gmbh",
+  "legal_name": "Staudinger Delikatessen GmbH",
+  "tries": [
+   {
+    "domain": "staudinger.at",
+    "error": "no imprint with ids"
+   },
+   {
+    "domain": "staudinger-delikatessen.at",
+    "error": "no imprint with ids"
+   }
+  ]
+ },
+ {
+  "slug": "tops-foods",
+  "legal_name": "TOPS FOODS",
+  "tries": [
+   {
+    "domain": "topsfoods.be",
+    "error": "no imprint with ids"
+   },
+   {
+    "domain": "tops-foods.com",
+    "error": "no imprint with ids"
+   }
+  ]
+ },
+ {
+  "slug": "adriatic-group-gmbh",
+  "legal_name": "ADRIATIC GROUP GmbH",
+  "tries": [
+   {
+    "domain": "adriatic-group.at",
+    "error": "no imprint with ids"
+   },
+   {
+    "domain": "adriaticgroup.at",
+    "imprint_url": "https://adriaticgroup.at/de/impressum",
+    "id_hits": [
+     "fn",
+     "register_id"
+    ],
+    "name_on_page": true,
+    "vats_on_page": [
+     "ATU69190546"
+    ],
+    "fn_on_page": [
+     "FN 406462p"
+    ]
+   }
+  ],
+  "accepted": {
+   "domain": "adriaticgroup.at",
+   "imprint_url": "https://adriaticgroup.at/de/impressum",
+   "id_hits": [
+    "fn",
+    "register_id"
+   ],
+   "name_on_page": true,
+   "vats_on_page": [
+    "ATU69190546"
+   ],
+   "fn_on_page": [
+    "FN 406462p"
+   ]
+  }
+ },
+ {
+  "slug": "barilla-g-e-r-fratelli-societa-per-azioni",
+  "legal_name": "BARILLA G. E R. FRATELLI - SOCIETA' PER AZIONI",
+  "tries": [
+   {
+    "domain": "barilla.com",
+    "error": "no imprint with ids"
+   },
+   {
+    "domain": "barillagroup.com",
+    "error": "no imprint with ids"
+   }
+  ]
+ },
+ {
+  "slug": "biovegan-gmbh",
+  "legal_name": "Biovegan GmbH",
+  "tries": [
+   {
+    "domain": "biovegan.de",
+    "imprint_url": "https://biovegan.de/pages/impressum",
+    "id_hits": [
+     "register_id"
+    ],
+    "name_on_page": true,
+    "vats_on_page": [
+     "DE189692892"
+    ],
+    "fn_on_page": []
+   }
+  ],
+  "accepted": {
+   "domain": "biovegan.de",
+   "imprint_url": "https://biovegan.de/pages/impressum",
+   "id_hits": [
+    "register_id"
+   ],
+   "name_on_page": true,
+   "vats_on_page": [
+    "DE189692892"
+   ],
+   "fn_on_page": []
+  }
+ },
+ {
+  "slug": "dr-schaer-spa",
+  "legal_name": "DR. SCHAER SPA",
+  "tries": [
+   {
+    "domain": "schaer.com",
+    "imprint_url": "https://schaer.com/imprint",
+    "id_hits": [
+     "lei",
+     "register_id"
+    ],
+    "name_on_page": false,
+    "vats_on_page": [
+     "IT00605750215"
+    ],
+    "fn_on_page": []
+   }
+  ],
+  "accepted": {
+   "domain": "schaer.com",
+   "imprint_url": "https://schaer.com/imprint",
+   "id_hits": [
+    "lei",
+    "register_id"
+   ],
+   "name_on_page": false,
+   "vats_on_page": [
+    "IT00605750215"
+   ],
+   "fn_on_page": []
+  }
+ },
+ {
+  "slug": "glatz-gmbh",
+  "legal_name": "Glatz GmbH",
+  "tries": [
+   {
+    "domain": "glatz.at",
+    "imprint_url": "https://glatz.at/impressum-gruppe",
+    "id_hits": [],
+    "name_on_page": true,
+    "vats_on_page": [
+     "ATU39297505"
+    ],
+    "fn_on_page": [
+     "FN 68705m"
+    ]
+   }
+  ],
+  "accepted": {
+   "domain": "glatz.at",
+   "imprint_url": "https://glatz.at/impressum-gruppe",
+   "id_hits": [],
+   "name_on_page": true,
+   "vats_on_page": [
+    "ATU39297505"
+   ],
+   "fn_on_page": [
+    "FN 68705m"
+   ]
+  }
+ },
+ {
+  "slug": "tress-lebensmittel-gmbh-co-kg",
+  "legal_name": "Tress Lebensmittel GmbH & Co. KG",
+  "tries": [
+   {
+    "domain": "tressbrueder.de",
+    "imprint_url": "https://tressbrueder.de/impressum",
+    "id_hits": [
+     "register_id"
+    ],
+    "name_on_page": false,
+    "vats_on_page": [
+     "DE815327525"
+    ],
+    "fn_on_page": []
+   }
+  ],
+  "accepted": {
+   "domain": "tressbrueder.de",
+   "imprint_url": "https://tressbrueder.de/impressum",
+   "id_hits": [
+    "register_id"
+   ],
+   "name_on_page": false,
+   "vats_on_page": [
+    "DE815327525"
+   ],
+   "fn_on_page": []
+  }
+ },
+ {
+  "slug": "andros-deutschland-gmbh",
+  "legal_name": "Andros Deutschland GmbH",
+  "tries": [
+   {
+    "domain": "andros.de",
+    "imprint_url": "https://andros.de/impressum/",
+    "id_hits": [
+     "register_id"
+    ],
+    "name_on_page": true,
+    "vats_on_page": [
+     "DE111651973"
+    ],
+    "fn_on_page": []
+   }
+  ],
+  "accepted": {
+   "domain": "andros.de",
+   "imprint_url": "https://andros.de/impressum/",
+   "id_hits": [
+    "register_id"
+   ],
+   "name_on_page": true,
+   "vats_on_page": [
+    "DE111651973"
+   ],
+   "fn_on_page": []
+  }
+ },
+ {
+  "slug": "dairy-4-fun-sro",
+  "legal_name": "DAIRY 4 FUN s.r.o.",
+  "tries": [
+   {
+    "domain": "dairy4fun.cz",
+    "error": "no imprint with ids"
+   }
+  ]
+ },
+ {
+  "slug": "danone-deutschland-gmbh",
+  "legal_name": "DANONE DEUTSCHLAND GMBH",
+  "tries": [
+   {
+    "domain": "danone.de",
+    "error": "no imprint with ids"
+   }
+  ]
+ },
+ {
+  "slug": "delamaris-doo",
+  "legal_name": "DELAMARIS konzervna industrija d.o.o.",
+  "tries": [
+   {
+    "domain": "delamaris.si",
+    "error": "no imprint with ids"
+   }
+  ]
+ },
+ {
+  "slug": "doppelt-sp-z-oo",
+  "legal_name": "Doppelt Spółka z Ograniczoną Odpowiedzialnością",
+  "tries": [
+   {
+    "domain": "doppelt.pl",
+    "error": "no imprint with ids"
+   }
+  ]
+ },
+ {
+  "slug": "estyria-naturprodukte-gmbh",
+  "legal_name": "Estyria Naturprodukte GmbH",
+  "tries": [
+   {
+    "domain": "estyria.at",
+    "error": "no imprint with ids"
+   }
+  ]
+ },
+ {
+  "slug": "euryza-gmbh",
+  "legal_name": "Euryza GmbH",
+  "tries": [
+   {
+    "domain": "euryza.de",
+    "error": "no imprint with ids"
+   },
+   {
+    "domain": "reis-fit.de",
+    "imprint_url": "https://www.reis-fit.de/impressum/",
+    "id_hits": [
+     "register_id"
+    ],
+    "name_on_page": true,
+    "vats_on_page": [
+     "DE118617157"
+    ],
+    "fn_on_page": []
+   }
+  ],
+  "accepted": {
+   "domain": "reis-fit.de",
+   "imprint_url": "https://www.reis-fit.de/impressum/",
+   "id_hits": [
+    "register_id"
+   ],
+   "name_on_page": true,
+   "vats_on_page": [
+    "DE118617157"
+   ],
+   "fn_on_page": []
+  }
+ },
+ {
+  "slug": "franu-espana-sl",
+  "legal_name": "FRA NUI ESPAÑA SOCIEDAD LIMITADA",
+  "tries": [
+   {
+    "domain": "franui.com",
+    "error": "no imprint with ids"
+   },
+   {
+    "domain": "franui.es",
+    "error": "no imprint with ids"
+   }
+  ]
+ },
+ {
+  "slug": "franz-ablinger-co-fleischhauereibetrieb-gesellschaft-mbh",
+  "legal_name": "Franz Ablinger & Co. Fleischhauereibetrieb Gesellschaft m.b.H.",
+  "tries": [
+   {
+    "domain": "ablinger.at",
+    "error": "no imprint with ids"
+   },
+   {
+    "domain": "ablinger-fleisch.at",
+    "error": "no imprint with ids"
+   }
+  ]
+ },
+ {
+  "slug": "greenforce-future-food-ag",
+  "legal_name": "GREENFORCE FUTURE FOOD AG",
+  "tries": [
+   {
+    "domain": "greenforce.com",
+    "imprint_url": "https://greenforce.com/policies/legal-notice",
+    "id_hits": [
+     "register_id"
+    ],
+    "name_on_page": true,
+    "vats_on_page": [
+     "DE347178952"
+    ],
+    "fn_on_page": []
+   }
+  ],
+  "accepted": {
+   "domain": "greenforce.com",
+   "imprint_url": "https://greenforce.com/policies/legal-notice",
+   "id_hits": [
+    "register_id"
+   ],
+   "name_on_page": true,
+   "vats_on_page": [
+    "DE347178952"
+   ],
+   "fn_on_page": []
+  }
+ },
+ {
+  "slug": "galana-nv-beldessert",
+  "legal_name": "GALANA NV",
+  "tries": [
+   {
+    "domain": "galana.be",
+    "error": "no imprint with ids"
+   },
+   {
+    "domain": "galana.com",
+    "error": "no imprint with ids"
+   }
+  ]
+ },
+ {
+  "slug": "la-crepe-de-broceliande-8-rue-pierre-legaultboisgervilly3536",
+  "legal_name": "LA CREPE DE BROCELIANDE",
+  "tries": [
+   {
+    "domain": "lacrepedebroceliande.fr",
+    "error": "no imprint with ids"
+   },
+   {
+    "domain": "crepe-broceliande.fr",
+    "error": "no imprint with ids"
+   }
+  ]
+ },
+ {
+  "slug": "planted-foods-ag",
+  "legal_name": "Planted Foods AG",
+  "tries": [
+   {
+    "domain": "eatplanted.com",
+    "error": "no imprint with ids"
+   },
+   {
+    "domain": "planted.ch",
+    "error": "no imprint with ids"
+   }
+  ]
+ },
+ {
+  "slug": "riso-gallo-spa",
+  "legal_name": "RISO GALLO S.P.A.",
+  "tries": [
+   {
+    "domain": "risogallo.it",
+    "error": "no imprint with ids"
+   },
+   {
+    "domain": "risogallo.com",
+    "error": "no imprint with ids"
+   }
+  ]
+ },
+ {
+  "slug": "riso-scotti-spa",
+  "legal_name": "RISO SCOTTI S.P.A.",
+  "tries": [
+   {
+    "domain": "risoscotti.it",
+    "error": "no imprint with ids"
+   },
+   {
+    "domain": "risoscotti.com",
+    "error": "no imprint with ids"
+   }
+  ]
+ },
+ {
+  "slug": "ruegenwalder-muehle-carl-mueller-gmbh-co-kg",
+  "legal_name": "Rügenwalder Mühle Carl Müller GmbH & Co. KG",
+  "tries": [
+   {
+    "domain": "ruegenwalder.de",
+    "imprint_url": "https://www.ruegenwalder.de/de/impressum ",
+    "id_hits": [
+     "register_id"
+    ],
+    "name_on_page": false,
+    "vats_on_page": [
+     "DE813090002"
+    ],
+    "fn_on_page": []
+   }
+  ],
+  "accepted": {
+   "domain": "ruegenwalder.de",
+   "imprint_url": "https://www.ruegenwalder.de/de/impressum ",
+   "id_hits": [
+    "register_id"
+   ],
+   "name_on_page": false,
+   "vats_on_page": [
+    "DE813090002"
+   ],
+   "fn_on_page": []
+  }
+ },
+ {
+  "slug": "winkelbauer-gmbh",
+  "legal_name": "Winkelbauer GmbH",
+  "tries": [
+   {
+    "domain": "winkelbauer.at",
+    "error": "no imprint with ids"
+   }
+  ]
+ },
+ {
+  "slug": "efko-frischfrucht-und-delikatessen-gmbh",
+  "legal_name": "efko Frischfrucht und Delikatessen GmbH",
+  "tries": [
+   {
+    "domain": "efko.at",
+    "imprint_url": "https://www.efko.at/impressum/",
+    "id_hits": [
+     "fn",
+     "register_id"
+    ],
+    "name_on_page": true,
+    "vats_on_page": [
+     "ATU22195005"
+    ],
+    "fn_on_page": [
+     "FN 101672v"
+    ]
+   }
+  ],
+  "accepted": {
+   "domain": "efko.at",
+   "imprint_url": "https://www.efko.at/impressum/",
+   "id_hits": [
+    "fn",
+    "register_id"
+   ],
+   "name_on_page": true,
+   "vats_on_page": [
+    "ATU22195005"
+   ],
+   "fn_on_page": [
+    "FN 101672v"
+   ]
+  }
+ },
+ {
+  "slug": "followfood-gmbh",
+  "legal_name": "followfood GmbH",
+  "tries": [
+   {
+    "domain": "followfood.de",
+    "imprint_url": "https://followfood.de/impressum",
+    "id_hits": [
+     "register_id"
+    ],
+    "name_on_page": true,
+    "vats_on_page": [
+     "DE812883948"
+    ],
+    "fn_on_page": []
+   }
+  ],
+  "accepted": {
+   "domain": "followfood.de",
+   "imprint_url": "https://followfood.de/impressum",
+   "id_hits": [
+    "register_id"
+   ],
+   "name_on_page": true,
+   "vats_on_page": [
+    "DE812883948"
+   ],
+   "fn_on_page": []
+  }
+ },
+ {
+  "slug": "rewe-international-ag",
+  "legal_name": "REWE International AG",
+  "tries": [
+   {
+    "domain": "rewe-group.at",
+    "imprint_url": "https://rewe-group.at/de/impressum/",
+    "id_hits": [
+     "fn",
+     "register_id"
+    ],
+    "name_on_page": true,
+    "vats_on_page": [
+     "ATU41898906"
+    ],
+    "fn_on_page": [
+     "FN 82769w"
+    ]
+   }
+  ],
+  "accepted": {
+   "domain": "rewe-group.at",
+   "imprint_url": "https://rewe-group.at/de/impressum/",
+   "id_hits": [
+    "fn",
+    "register_id"
+   ],
+   "name_on_page": true,
+   "vats_on_page": [
+    "ATU41898906"
+   ],
+   "fn_on_page": [
+    "FN 82769w"
+   ]
+  }
+ },
+ {
+  "slug": "spar-oesterreichische-warenhandels-aktiengesellschaft",
+  "legal_name": "SPAR Österreichische Warenhandels-Aktiengesellschaft",
+  "tries": [
+   {
+    "domain": "spar.at",
+    "imprint_url": "https://spar.at/impressum.html",
+    "id_hits": [
+     "fn",
+     "register_id"
+    ],
+    "name_on_page": false,
+    "vats_on_page": [
+     "ATU33803701"
+    ],
+    "fn_on_page": [
+     "FN 34170a"
+    ]
+   }
+  ],
+  "accepted": {
+   "domain": "spar.at",
+   "imprint_url": "https://spar.at/impressum.html",
+   "id_hits": [
+    "fn",
+    "register_id"
+   ],
+   "name_on_page": false,
+   "vats_on_page": [
+    "ATU33803701"
+   ],
+   "fn_on_page": [
+    "FN 34170a"
+   ]
+  }
+ },
+ {
+  "slug": "unimarkt-gmbh",
+  "legal_name": "UNIMARKT Handelsgesellschaft m.b.H. & Co. Kommanditgesellschaft",
+  "tries": [
+   {
+    "domain": "unimarkt.at",
+    "error": "no imprint with ids"
+   }
+  ]
+ },
+ {
+  "slug": "gastrotech",
+  "legal_name": "GASTROTECH, s.r.o.",
+  "tries": [
+   {
+    "domain": "gastrotech.cz",
+    "error": "no imprint with ids"
+   }
+  ]
+ }
+]

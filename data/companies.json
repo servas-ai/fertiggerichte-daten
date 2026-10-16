@@ -177,7 +177,7 @@
   "management": null,
   "employees": null,
   "revenue": null,
-  "website": null,
+  "website": "https://maresi.at",
   "plants": [],
   "approval_codes": null,
   "brands": [
@@ -194,11 +194,19 @@
   "median_eur_per_10g_protein": 4.3,
   "nace": null,
   "sources": [
-   "https://api.gleif.org/api/v1/lei-records/529900JLDYJZIRXRD379"
+   "https://api.gleif.org/api/v1/lei-records/529900JLDYJZIRXRD379",
+   "https://maresi.at/de/impressum"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T10:55:39Z",
-  "registry_status": "verified_gleif"
+  "registry_status": "verified_gleif",
+  "imprint_url": "https://maresi.at/de/impressum",
+  "website_basis": "own legal notice carries fn=FN 161846i, register_id=161846i",
+  "uid": "ATU61613203",
+  "uid_vies_name": "MARESI Austria GmbH",
+  "uid_vies_address": "Hietzinger Hauptstraße 119 - 121, AT-1130 Wien",
+  "uid_checked_at": "2026-10-16T18:59:25.124Z",
+  "uid_source": "own legal notice + EU VIES (T1835)"
  },
  {
   "slug": "fit2go-gmbh",
@@ -408,7 +416,7 @@
   "fn": null,
   "legal_form_code": null,
   "country": "DE",
-  "address": null,
+  "address": "Am Lunedeich 116, 27572 Bremerhaven, DE",
   "entity_status": null,
   "parent_direct": null,
   "parent_ultimate": null,
@@ -446,7 +454,8 @@
   "uid_checked_at": "2026-10-13T11:14:26.427Z",
   "imprint_url": "https://www.frosta.de/impressum/",
   "register_court": "Bremen",
-  "hrb": "HRB 1845 BHV"
+  "hrb": "HRB 1845 BHV",
+  "address_source": "own legal notice (imprint_url), T1835"
  },
  {
   "slug": "felix-austria-gesellschaft-mbh",
@@ -513,7 +522,7 @@
   "management": null,
   "employees": null,
   "revenue": null,
-  "website": null,
+  "website": "https://alnatura.de",
   "plants": [],
   "approval_codes": null,
   "brands": [
@@ -528,12 +537,20 @@
   "median_eur_per_10g_protein": 3.55,
   "nace": null,
   "sources": [
-   "https://api.gleif.org/api/v1/lei-records/96760063YASRHVRSR697"
+   "https://api.gleif.org/api/v1/lei-records/96760063YASRHVRSR697",
+   "https://alnatura.de/impressum"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T10:54:09Z",
   "registry_status": "verified_gleif",
-  "gleif_match_basis": "label address \"Mahatma-Gandhi-Straße 7, 64295 Darmstadt\" = GLEIF legal address; app labels also print \"Alnatura Produktions- und Handels GmbH\""
+  "gleif_match_basis": "label address \"Mahatma-Gandhi-Straße 7, 64295 Darmstadt\" = GLEIF legal address; app labels also print \"Alnatura Produktions- und Handels GmbH\"",
+  "imprint_url": "https://alnatura.de/impressum",
+  "website_basis": "own legal notice carries register_id=HRB 4407",
+  "uid": "DE111615161",
+  "uid_vies_name": "--- (DE VIES returns no name; legal name + register no. printed on the legal notice)",
+  "uid_vies_address": "--- (DE VIES returns no address)",
+  "uid_checked_at": "2026-10-16T18:59:30.801Z",
+  "uid_source": "own legal notice + EU VIES (T1835)"
  },
  {
   "slug": "ehrmann-gmbh",
@@ -556,7 +573,7 @@
   "management": null,
   "employees": null,
   "revenue": null,
-  "website": null,
+  "website": "https://www.ehrmann.de",
   "plants": [],
   "approval_codes": null,
   "brands": [
@@ -575,7 +592,8 @@
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T11:01:48Z",
   "registry_status": "verified_gleif",
-  "gleif_match_basis": "GLEIF legal name \"Ehrmann GmbH Oberschönegg im Allgäu\" (GmbH, A.-Ehrmann-Straße 2, Oberschönegg) — the only Ehrmann GmbH; Ehrmann SE (holding) stays rejected"
+  "gleif_match_basis": "GLEIF legal name \"Ehrmann GmbH Oberschönegg im Allgäu\" (GmbH, A.-Ehrmann-Straße 2, Oberschönegg) — the only Ehrmann GmbH; Ehrmann SE (holding) stays rejected",
+  "website_basis": "group site: legal notice = EHRMANN SE (HRB 18947 AG Memmingen) at the identical registered address A.-Ehrmann-Straße 2, 87770 Oberschönegg; Ehrmann GmbH itself not named → no UID taken"
  },
  {
   "slug": "dm-drogerie-markt-gmbh-co-kg",
@@ -639,7 +657,7 @@
   "management": null,
   "employees": null,
   "revenue": null,
-  "website": null,
+  "website": "https://weinbergmaier.at",
   "plants": [],
   "approval_codes": null,
   "brands": [
@@ -655,11 +673,19 @@
   "median_eur_per_10g_protein": 6.15,
   "nace": null,
   "sources": [
-   "https://api.gleif.org/api/v1/lei-records/529900PNAKPBLDOF8724"
+   "https://api.gleif.org/api/v1/lei-records/529900PNAKPBLDOF8724",
+   "https://weinbergmaier.at/impressum"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T10:55:26Z",
-  "registry_status": "verified_gleif"
+  "registry_status": "verified_gleif",
+  "imprint_url": "https://weinbergmaier.at/impressum",
+  "website_basis": "own legal notice carries fn=FN 122164d, register_id=122164d",
+  "uid": "ATU24137903",
+  "uid_vies_name": "WEINBERGMAIER GmbH",
+  "uid_vies_address": "Leopold-Werndl-Straße 1, AT-4493 Wolfern",
+  "uid_checked_at": "2026-10-16T18:59:40.766Z",
+  "uid_source": "own legal notice + EU VIES (T1835)"
  },
  {
   "slug": "allos-hof-manufaktur-gmbh",
@@ -672,7 +698,7 @@
   "fn": null,
   "legal_form_code": null,
   "country": "DE",
-  "address": null,
+  "address": "Hoerneckestraße 39, 28217 Bremen, DE",
   "entity_status": null,
   "parent_direct": null,
   "parent_ultimate": null,
@@ -709,7 +735,8 @@
   "uid_checked_at": "2026-10-13T11:14:38.868Z",
   "imprint_url": "https://www.allos.de/impressum/",
   "register_court": "Bremen",
-  "hrb": "HRB 27982 HB"
+  "hrb": "HRB 27982 HB",
+  "address_source": "own legal notice (imprint_url), T1835"
  },
  {
   "slug": "karnerta-gmbh",
@@ -780,7 +807,7 @@
   "fn": null,
   "legal_form_code": null,
   "country": "DE",
-  "address": null,
+  "address": "Am Lunedeich 116, 27572 Bremerhaven, DE",
   "entity_status": null,
   "parent_direct": null,
   "parent_ultimate": null,
@@ -816,7 +843,8 @@
   "uid_checked_at": "2026-10-13T11:14:35.176Z",
   "imprint_url": "https://www.frosta-ag.com/service/impressum/",
   "register_court": "Bremen",
-  "hrb": "HRB 1100 BHV"
+  "hrb": "HRB 1100 BHV",
+  "address_source": "own legal notice (imprint_url), T1835"
  },
  {
   "slug": "youcook-gmbh",
@@ -829,7 +857,7 @@
   "fn": null,
   "legal_form_code": null,
   "country": "DE",
-  "address": null,
+  "address": "Statthalterhofweg 71, 50858 Köln, DE",
   "entity_status": null,
   "parent_direct": null,
   "parent_ultimate": null,
@@ -866,7 +894,8 @@
   "uid_checked_at": "2026-10-13T17:21:18.348Z",
   "imprint_url": "https://www.youcook-food.com/impressum/",
   "register_court": "Köln",
-  "hrb": "HRB 111731"
+  "hrb": "HRB 111731",
+  "address_source": "own legal notice (imprint_url), T1835"
  },
  {
   "slug": "hofmann-menue-manufaktur-gmbh",
@@ -1121,7 +1150,7 @@
   "management": null,
   "employees": null,
   "revenue": null,
-  "website": null,
+  "website": "https://mpreis.at",
   "plants": [],
   "approval_codes": null,
   "brands": [
@@ -1135,12 +1164,20 @@
   "median_eur_per_10g_protein": null,
   "nace": null,
   "sources": [
-   "https://api.gleif.org/api/v1/lei-records/5299007HKZK4RSU17874"
+   "https://api.gleif.org/api/v1/lei-records/5299007HKZK4RSU17874",
+   "https://mpreis.at/sp/impressum"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T11:00:41Z",
   "chain_product_count": 82,
-  "registry_status": "verified_gleif"
+  "registry_status": "verified_gleif",
+  "imprint_url": "https://mpreis.at/sp/impressum",
+  "website_basis": "own legal notice carries fn=FN 43603y, register_id=43603y",
+  "uid": "ATU30961901",
+  "uid_vies_name": "MPREIS Warenvertriebs GmbH",
+  "uid_vies_address": "Landesstraße 16, AT-6176 Völs",
+  "uid_checked_at": "2026-10-16T18:59:45.946Z",
+  "uid_source": "own legal notice + EU VIES (T1835)"
  },
  {
   "slug": "mars-austria-og",
@@ -1247,7 +1284,7 @@
   "management": null,
   "employees": null,
   "revenue": null,
-  "website": null,
+  "website": "https://www.noem.at",
   "plants": [],
   "approval_codes": null,
   "brands": [
@@ -1261,11 +1298,19 @@
   "median_eur_per_10g_protein": 11.0,
   "nace": null,
   "sources": [
-   "https://api.gleif.org/api/v1/lei-records/529900JOHLZA5944OY29"
+   "https://api.gleif.org/api/v1/lei-records/529900JOHLZA5944OY29",
+   "https://www.noem.at/impressum"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T11:01:41Z",
-  "registry_status": "verified_gleif"
+  "registry_status": "verified_gleif",
+  "imprint_url": "https://www.noem.at/impressum",
+  "website_basis": "own legal notice carries fn=FN 114782y, register_id=114782y",
+  "uid": "ATU23264205",
+  "uid_vies_name": "NÖM AG",
+  "uid_vies_address": "Vöslauer Straße 109, AT-2500 Baden",
+  "uid_checked_at": "2026-10-16T18:59:49.698Z",
+  "uid_source": "own legal notice + EU VIES (T1835)"
  },
  {
   "slug": "radatz-feine-wiener-fleischwaren-gesellschaft-mbh",
@@ -1342,7 +1387,7 @@
   "management": null,
   "employees": null,
   "revenue": null,
-  "website": null,
+  "website": "https://www.oetker.at",
   "plants": [],
   "approval_codes": null,
   "brands": [
@@ -1356,11 +1401,19 @@
   "median_eur_per_10g_protein": 2.4,
   "nace": null,
   "sources": [
-   "https://api.gleif.org/api/v1/lei-records/5299002J58F8I9465C12"
+   "https://api.gleif.org/api/v1/lei-records/5299002J58F8I9465C12",
+   "https://www.oetker.at/impressum"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T11:01:59Z",
-  "registry_status": "verified_gleif"
+  "registry_status": "verified_gleif",
+  "imprint_url": "https://www.oetker.at/impressum",
+  "website_basis": "own legal notice carries fn=FN 115931m, register_id=115931m",
+  "uid": "ATU26533105",
+  "uid_vies_name": "Dr. Oetker GmbH",
+  "uid_vies_address": "Ringmauergasse 9/1, AT-9500 Villach",
+  "uid_checked_at": "2026-10-16T18:59:57.099Z",
+  "uid_source": "own legal notice + EU VIES (T1835)"
  },
  {
   "slug": "danone-oesterreich-gmbh",
@@ -1607,7 +1660,7 @@
   "fn": null,
   "legal_form_code": null,
   "country": "DE",
-  "address": null,
+  "address": "Osterbekstraße 90c, 22083 Hamburg, DE",
   "entity_status": null,
   "parent_direct": null,
   "parent_ultimate": null,
@@ -1643,7 +1696,8 @@
   "uid_checked_at": "2026-10-13T11:15:39.771Z",
   "imprint_url": "https://www.iglo.de/impressum/index.html",
   "register_court": null,
-  "hrb": "HRB 97746"
+  "hrb": "HRB 97746",
+  "address_source": "own legal notice (imprint_url), T1835"
  },
  {
   "slug": "a-darbo-ag",
@@ -1715,7 +1769,7 @@
   "management": null,
   "employees": null,
   "revenue": null,
-  "website": null,
+  "website": "https://alnatura.de",
   "plants": [],
   "approval_codes": null,
   "brands": [
@@ -1729,11 +1783,19 @@
   "median_eur_per_10g_protein": 4.0,
   "nace": null,
   "sources": [
-   "https://api.gleif.org/api/v1/lei-records/96760063YASRHVRSR697"
+   "https://api.gleif.org/api/v1/lei-records/96760063YASRHVRSR697",
+   "https://alnatura.de/impressum"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T11:00:07Z",
-  "registry_status": "verified_gleif"
+  "registry_status": "verified_gleif",
+  "imprint_url": "https://alnatura.de/impressum",
+  "website_basis": "own legal notice carries register_id=HRB 4407",
+  "uid": "DE111615161",
+  "uid_vies_name": "--- (DE VIES returns no name; legal name + register no. printed on the legal notice)",
+  "uid_vies_address": "--- (DE VIES returns no address)",
+  "uid_checked_at": "2026-10-16T18:59:35.260Z",
+  "uid_source": "own legal notice + EU VIES (T1835)"
  },
  {
   "slug": "andros-austria-gmbh",
@@ -2313,7 +2375,7 @@
   "management": null,
   "employees": null,
   "revenue": null,
-  "website": null,
+  "website": "https://bertagni1882.it",
   "plants": [],
   "approval_codes": null,
   "brands": [
@@ -2327,11 +2389,19 @@
   "median_eur_per_10g_protein": 6.6,
   "nace": null,
   "sources": [
-   "https://api.gleif.org/api/v1/lei-records/815600B5C62307B12E60"
+   "https://api.gleif.org/api/v1/lei-records/815600B5C62307B12E60",
+   "https://bertagni1882.it/"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T11:00:10Z",
-  "registry_status": "verified_gleif"
+  "registry_status": "verified_gleif",
+  "imprint_url": "https://bertagni1882.it/",
+  "website_basis": "own legal notice carries register_id=03719720249",
+  "uid": "IT03719720249",
+  "uid_vies_name": "BERTAGNI 1882 S.P.A.",
+  "uid_vies_address": "LOCALITA' CAMPAGNOLE 1 , 38063 AVIO TN, ",
+  "uid_checked_at": "2026-10-16T18:59:53.847Z",
+  "uid_source": "own legal notice + EU VIES (T1835)"
  },
  {
   "slug": "caro-fratello-gmbh",
@@ -2436,7 +2506,7 @@
   "fn": null,
   "legal_form_code": null,
   "country": "DE",
-  "address": null,
+  "address": "Gewerbering 4, 82140 Olching, DE",
   "entity_status": null,
   "parent_direct": null,
   "parent_ultimate": null,
@@ -2472,7 +2542,8 @@
   "uid_checked_at": "2026-10-13T11:20:37.129Z",
   "imprint_url": "https://www.heiderbeck.de/impressum",
   "register_court": "München",
-  "hrb": "HRB 49425"
+  "hrb": "HRB 49425",
+  "address_source": "own legal notice (imprint_url), T1835"
  },
  {
   "slug": "landliebe-gmbh",
@@ -2485,7 +2556,7 @@
   "fn": null,
   "legal_form_code": null,
   "country": "DE",
-  "address": null,
+  "address": "Zollerstraße 7, 86850 Fischach, DE",
   "entity_status": null,
   "parent_direct": null,
   "parent_ultimate": null,
@@ -2521,7 +2592,8 @@
   "uid_checked_at": "2026-10-13T11:16:28.824Z",
   "imprint_url": "https://www.landliebe.de/impressum/",
   "register_court": "Augsburg",
-  "hrb": "HRB 37578"
+  "hrb": "HRB 37578",
+  "address_source": "own legal notice (imprint_url), T1835"
  },
  {
   "slug": "morgentau-biogemuese-gmbh",
@@ -2716,7 +2788,7 @@
   "management": null,
   "employees": null,
   "revenue": null,
-  "website": null,
+  "website": "https://adriaticgroup.at",
   "plants": [],
   "approval_codes": null,
   "brands": [
@@ -2730,11 +2802,14 @@
   "median_eur_per_10g_protein": 12.7,
   "nace": null,
   "sources": [
-   "https://api.gleif.org/api/v1/lei-records/52990090AITYIP340F59"
+   "https://api.gleif.org/api/v1/lei-records/52990090AITYIP340F59",
+   "https://adriaticgroup.at/de/impressum"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T10:54:59Z",
-  "registry_status": "verified_gleif"
+  "registry_status": "verified_gleif",
+  "imprint_url": "https://adriaticgroup.at/de/impressum",
+  "website_basis": "probe: FN + legal name on page (verify re-fetch timed out)"
  },
  {
   "slug": "ager-gesmbh",
@@ -2896,7 +2971,7 @@
   "management": null,
   "employees": null,
   "revenue": null,
-  "website": null,
+  "website": "https://biovegan.de",
   "plants": [],
   "approval_codes": null,
   "brands": [
@@ -2910,11 +2985,19 @@
   "median_eur_per_10g_protein": 3.9,
   "nace": null,
   "sources": [
-   "https://api.gleif.org/api/v1/lei-records/529900OYBF0IQCUQ4E29"
+   "https://api.gleif.org/api/v1/lei-records/529900OYBF0IQCUQ4E29",
+   "https://biovegan.de/pages/impressum"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T10:57:08Z",
-  "registry_status": "verified_gleif"
+  "registry_status": "verified_gleif",
+  "imprint_url": "https://biovegan.de/pages/impressum",
+  "website_basis": "own legal notice carries register_id=HRB 5692",
+  "uid": "DE189692892",
+  "uid_vies_name": "--- (DE VIES returns no name; legal name + register no. printed on the legal notice)",
+  "uid_vies_address": "--- (DE VIES returns no address)",
+  "uid_checked_at": "2026-10-16T19:00:18.621Z",
+  "uid_source": "own legal notice + EU VIES (T1835)"
  },
  {
   "slug": "brajlovic-gmbh",
@@ -3035,7 +3118,7 @@
   "management": null,
   "employees": null,
   "revenue": null,
-  "website": null,
+  "website": "https://schaer.com",
   "plants": [],
   "approval_codes": null,
   "brands": [
@@ -3049,11 +3132,19 @@
   "median_eur_per_10g_protein": 4.1,
   "nace": null,
   "sources": [
-   "https://api.gleif.org/api/v1/lei-records/8156007EFCC74E27AB09"
+   "https://api.gleif.org/api/v1/lei-records/8156007EFCC74E27AB09",
+   "https://schaer.com/imprint"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T10:55:19Z",
-  "registry_status": "verified_gleif"
+  "registry_status": "verified_gleif",
+  "imprint_url": "https://schaer.com/imprint",
+  "website_basis": "own legal notice carries lei=8156007EFCC74E27AB09, register_id=00605750215",
+  "uid": "IT00605750215",
+  "uid_vies_name": "DR. SCHAER AG",
+  "uid_vies_address": "VIA WINKELAU 9 , 39014 POSTAL .BURGSTALL. BZ, ",
+  "uid_checked_at": "2026-10-16T19:00:22.257Z",
+  "uid_source": "own legal notice + EU VIES (T1835)"
  },
  {
   "slug": "gms-gourmet-gmbh",
@@ -3214,7 +3305,7 @@
   "fn": null,
   "legal_form_code": null,
   "country": "DE",
-  "address": null,
+  "address": "Heinrich-Hamker-Straße 20, 49152 Bad Essen, DE",
   "entity_status": null,
   "parent_direct": null,
   "parent_ultimate": null,
@@ -3250,7 +3341,8 @@
   "uid_checked_at": "2026-10-13T11:17:30.248Z",
   "imprint_url": "https://www.hamker.de/impressum",
   "register_court": "Osnabrück",
-  "hrb": "HRB 1747"
+  "hrb": "HRB 1747",
+  "address_source": "own legal notice (imprint_url), T1835"
  },
  {
   "slug": "hammermuehle-gmbh",
@@ -3263,7 +3355,7 @@
   "fn": null,
   "legal_form_code": null,
   "country": "DE",
-  "address": null,
+  "address": "Hauptstrasse 181, 67489 Kirrweiler, DE",
   "entity_status": null,
   "parent_direct": null,
   "parent_ultimate": null,
@@ -3299,7 +3391,8 @@
   "uid_checked_at": "2026-10-13T17:00:45.027Z",
   "imprint_url": "https://www.hammermuehle-shop.de/impressum/",
   "register_court": "Landau",
-  "hrb": "HRB 30469"
+  "hrb": "HRB 30469",
+  "address_source": "own legal notice (imprint_url), T1835"
  },
  {
   "slug": "hochreiter-quality-meat-factory-gmbh",
@@ -3423,7 +3516,7 @@
   "fn": null,
   "legal_form_code": null,
   "country": "DE",
-  "address": null,
+  "address": "Hauptstraße 41, 83395 Freilassing, DE",
   "entity_status": null,
   "parent_direct": null,
   "parent_ultimate": null,
@@ -3459,7 +3552,8 @@
   "uid_checked_at": "2026-10-13T17:20:42.644Z",
   "imprint_url": "https://feel-food.com/de-de/policies/legal-notice",
   "register_court": "Traunstein",
-  "hrb": "HRB 33283"
+  "hrb": "HRB 33283",
+  "address_source": "own legal notice (imprint_url), T1835"
  },
  {
   "slug": "rewe-austria-genusskueche-gmbh",
@@ -3543,7 +3637,7 @@
   "management": null,
   "employees": null,
   "revenue": null,
-  "website": null,
+  "website": "https://tressbrueder.de",
   "plants": [],
   "approval_codes": null,
   "brands": [
@@ -3557,11 +3651,14 @@
   "median_eur_per_10g_protein": 5.65,
   "nace": null,
   "sources": [
-   "https://api.gleif.org/api/v1/lei-records/391200MC0M0SGKVN4318"
+   "https://api.gleif.org/api/v1/lei-records/391200MC0M0SGKVN4318",
+   "https://tressbrueder.de/impressum"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T10:57:45Z",
-  "registry_status": "verified_gleif"
+  "registry_status": "verified_gleif",
+  "imprint_url": "https://tressbrueder.de/impressum",
+  "website_basis": "own legal notice carries register_id=HRA 726441"
  },
  {
   "slug": "wilhelm-blasko-convenience-fertiggerichte-gmbh",
@@ -3696,7 +3793,7 @@
   "management": null,
   "employees": null,
   "revenue": null,
-  "website": null,
+  "website": "https://andros.de",
   "plants": [],
   "approval_codes": null,
   "brands": [
@@ -3710,11 +3807,19 @@
   "median_eur_per_10g_protein": 1.4,
   "nace": null,
   "sources": [
-   "https://api.gleif.org/api/v1/lei-records/529900B04CNPB6E7MO40"
+   "https://api.gleif.org/api/v1/lei-records/529900B04CNPB6E7MO40",
+   "https://andros.de/impressum/"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T10:59:43Z",
-  "registry_status": "verified_gleif"
+  "registry_status": "verified_gleif",
+  "imprint_url": "https://andros.de/impressum/",
+  "website_basis": "own legal notice carries register_id=HRB 70104",
+  "uid": "DE111651973",
+  "uid_vies_name": "--- (DE VIES returns no name; legal name + register no. printed on the legal notice)",
+  "uid_vies_address": "--- (DE VIES returns no address)",
+  "uid_checked_at": "2026-10-16T19:00:34.507Z",
+  "uid_source": "own legal notice + EU VIES (T1835)"
  },
  {
   "slug": "bonne-maman",
@@ -3822,7 +3927,7 @@
   "fn": null,
   "legal_form_code": null,
   "country": "DE",
-  "address": null,
+  "address": "Ochsenweg 1, 71729 Erdmannhausen, DE",
   "entity_status": null,
   "parent_direct": null,
   "parent_ultimate": null,
@@ -3858,7 +3963,8 @@
   "uid_checked_at": "2026-10-13T17:01:20.161Z",
   "imprint_url": "https://bio-gourmet.com/impressum/",
   "register_court": "Stuttgart",
-  "hrb": "HRB 736632"
+  "hrb": "HRB 736632",
+  "address_source": "own legal notice (imprint_url), T1835"
  },
  {
   "slug": "dairy-4-fun-sro",
@@ -4179,7 +4285,7 @@
   "management": null,
   "employees": null,
   "revenue": null,
-  "website": null,
+  "website": "https://www.reis-fit.de",
   "plants": [],
   "approval_codes": null,
   "brands": [
@@ -4193,11 +4299,19 @@
   "median_eur_per_10g_protein": 3.7,
   "nace": null,
   "sources": [
-   "https://api.gleif.org/api/v1/lei-records/52990035MITUYUCR8F03"
+   "https://api.gleif.org/api/v1/lei-records/52990035MITUYUCR8F03",
+   "https://www.reis-fit.de/impressum/"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T10:55:10Z",
-  "registry_status": "verified_gleif"
+  "registry_status": "verified_gleif",
+  "imprint_url": "https://www.reis-fit.de/impressum/",
+  "website_basis": "own legal notice carries register_id=HRB 1854",
+  "uid": "DE118617157",
+  "uid_vies_name": "--- (DE VIES returns no name; legal name + register no. printed on the legal notice)",
+  "uid_vies_address": "--- (DE VIES returns no address)",
+  "uid_checked_at": "2026-10-16T19:00:38.975Z",
+  "uid_source": "own legal notice + EU VIES (T1835)"
  },
  {
   "slug": "franu-espana-sl",
@@ -4309,7 +4423,7 @@
   "management": null,
   "employees": null,
   "revenue": null,
-  "website": null,
+  "website": "https://greenforce.com",
   "plants": [],
   "approval_codes": null,
   "brands": [
@@ -4323,11 +4437,19 @@
   "median_eur_per_10g_protein": 8.0,
   "nace": null,
   "sources": [
-   "https://api.gleif.org/api/v1/lei-records/894500XJAOZKM5ACGD13"
+   "https://api.gleif.org/api/v1/lei-records/894500XJAOZKM5ACGD13",
+   "https://greenforce.com/policies/legal-notice"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T11:01:05Z",
-  "registry_status": "verified_gleif"
+  "registry_status": "verified_gleif",
+  "imprint_url": "https://greenforce.com/policies/legal-notice",
+  "website_basis": "own legal notice carries register_id=HRB 269298",
+  "uid": "DE347178952",
+  "uid_vies_name": "--- (DE VIES returns no name; legal name + register no. printed on the legal notice)",
+  "uid_vies_address": "--- (DE VIES returns no address)",
+  "uid_checked_at": "2026-10-16T19:00:42.030Z",
+  "uid_source": "own legal notice + EU VIES (T1835)"
  },
  {
   "slug": "galana-nv-beldessert",
@@ -4754,7 +4876,7 @@
   "fn": null,
   "legal_form_code": null,
   "country": "DE",
-  "address": null,
+  "address": "Ritterstraße 9–10, 10969 Berlin, DE",
   "entity_status": null,
   "parent_direct": null,
   "parent_ultimate": null,
@@ -4790,7 +4912,8 @@
   "uid_checked_at": "2026-10-13T17:06:28.820Z",
   "imprint_url": "https://every-foods.com/de/impressum",
   "register_court": "Amtsgericht Charlottenburg",
-  "hrb": "HRB 221768 B"
+  "hrb": "HRB 221768 B",
+  "address_source": "own legal notice (imprint_url), T1835"
  },
  {
   "slug": "la-crepe-de-broceliande-8-rue-pierre-legaultboisgervilly3536",
@@ -4943,7 +5066,7 @@
   "fn": null,
   "legal_form_code": null,
   "country": "DE",
-  "address": null,
+  "address": "Meicastraße 6, 26188 Edewecht, DE",
   "entity_status": null,
   "parent_direct": null,
   "parent_ultimate": null,
@@ -4979,7 +5102,8 @@
   "uid_checked_at": "2026-10-13T18:51:12.570Z",
   "imprint_url": "https://www.meica.de/impressum",
   "register_court": "Amtsgericht Oldenburg",
-  "hrb": "HRA 120020"
+  "hrb": "HRA 120020",
+  "address_source": "own legal notice (imprint_url), T1835"
  },
  {
   "slug": "pastificio-rana-spa-via-pacinotti",
@@ -5077,7 +5201,7 @@
   "fn": null,
   "legal_form_code": null,
   "country": "DE",
-  "address": null,
+  "address": "Birkenstr. 22, 10559 Berlin, DE",
   "entity_status": null,
   "parent_direct": null,
   "parent_ultimate": null,
@@ -5113,7 +5237,8 @@
   "uid_checked_at": "2026-10-13T17:23:33.791Z",
   "imprint_url": "https://planted-foods-de.myshopify.com/policies/legal-notice",
   "register_court": "Freiburg",
-  "hrb": "HRB 721853"
+  "hrb": "HRB 721853",
+  "address_source": "own legal notice (imprint_url), T1835"
  },
  {
   "slug": "recheis-teigwaren-gmbh",
@@ -5224,7 +5349,7 @@
   "fn": null,
   "legal_form_code": null,
   "country": "DE",
-  "address": null,
+  "address": "Hinterm Teich 5, 32351 Stemwede-Levern, DE",
   "entity_status": null,
   "parent_direct": null,
   "parent_ultimate": null,
@@ -5260,7 +5385,8 @@
   "uid_checked_at": "2026-10-13T11:18:44.643Z",
   "imprint_url": "https://rila.de/bequem-einkaufen/impressum/",
   "register_court": "Bad Oeynhausen",
-  "hrb": "HRA 5874"
+  "hrb": "HRA 5874",
+  "address_source": "own legal notice (imprint_url), T1835"
  },
  {
   "slug": "riso-gallo-spa",
@@ -5365,7 +5491,7 @@
   "management": null,
   "employees": null,
   "revenue": null,
-  "website": null,
+  "website": "https://www.ruegenwalder.de",
   "plants": [],
   "approval_codes": null,
   "brands": [
@@ -5379,11 +5505,14 @@
   "median_eur_per_10g_protein": 8.0,
   "nace": null,
   "sources": [
-   "https://api.gleif.org/api/v1/lei-records/5299003YOGW9AD7K4H05"
+   "https://api.gleif.org/api/v1/lei-records/5299003YOGW9AD7K4H05",
+   "https://www.ruegenwalder.de/de/impressum"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T10:58:44Z",
-  "registry_status": "verified_gleif"
+  "registry_status": "verified_gleif",
+  "imprint_url": "https://www.ruegenwalder.de/de/impressum",
+  "website_basis": "own legal notice carries register_id=HRA 120467"
  },
  {
   "slug": "stadtkueche",
@@ -5589,7 +5718,7 @@
   "fn": null,
   "legal_form_code": null,
   "country": "DE",
-  "address": null,
+  "address": "Lippmannstr. 8, 22769 Hamburg, DE",
   "entity_status": null,
   "parent_direct": null,
   "parent_ultimate": null,
@@ -5625,7 +5754,8 @@
   "uid_checked_at": "2026-10-13T17:14:22.483Z",
   "imprint_url": "https://harvestmoon.de/de/credits",
   "register_court": "Hamburg",
-  "hrb": "HRB 117168"
+  "hrb": "HRB 117168",
+  "address_source": "own legal notice (imprint_url), T1835"
  },
  {
   "slug": "wiesbauer-oesterreichische-wurstspezialitaeten-gmbh",
@@ -5732,7 +5862,7 @@
   "fn": null,
   "legal_form_code": null,
   "country": "DE",
-  "address": null,
+  "address": "Rudolf-Diesel-Str. 6-10, 21629 Neu Wulmstorf, DE",
   "entity_status": null,
   "parent_direct": null,
   "parent_ultimate": null,
@@ -5768,7 +5898,8 @@
   "uid_checked_at": "2026-10-13T17:05:53.996Z",
   "imprint_url": "https://www.zum-dorfkrug.de/impressum",
   "register_court": "Tostedt",
-  "hrb": "HRA 200878"
+  "hrb": "HRA 200878",
+  "address_source": "own legal notice (imprint_url), T1835"
  },
  {
   "slug": "deli-gourmet-gmbh",
@@ -5840,7 +5971,7 @@
   "management": null,
   "employees": null,
   "revenue": null,
-  "website": null,
+  "website": "https://www.efko.at",
   "plants": [],
   "approval_codes": null,
   "brands": [
@@ -5854,11 +5985,19 @@
   "median_eur_per_10g_protein": 0.9,
   "nace": null,
   "sources": [
-   "https://api.gleif.org/api/v1/lei-records/52990092YPC9C4JYBN76"
+   "https://api.gleif.org/api/v1/lei-records/52990092YPC9C4JYBN76",
+   "https://www.efko.at/impressum/"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T10:58:23Z",
-  "registry_status": "verified_gleif"
+  "registry_status": "verified_gleif",
+  "imprint_url": "https://www.efko.at/impressum/",
+  "website_basis": "own legal notice carries fn=FN 101672v, register_id=101672v",
+  "uid": "ATU22195005",
+  "uid_vies_name": "efko Frischfrucht und Delikatessen GmbH",
+  "uid_vies_address": "Hinzenbach 38, AT-4070 Hinzenbach",
+  "uid_checked_at": "2026-10-16T19:00:51.117Z",
+  "uid_source": "own legal notice + EU VIES (T1835)"
  },
  {
   "slug": "followfood-gmbh",
@@ -5881,7 +6020,7 @@
   "management": null,
   "employees": null,
   "revenue": null,
-  "website": null,
+  "website": "https://followfood.de",
   "plants": [],
   "approval_codes": null,
   "brands": [
@@ -5895,11 +6034,19 @@
   "median_eur_per_10g_protein": 1.9,
   "nace": null,
   "sources": [
-   "https://api.gleif.org/api/v1/lei-records/529900BHG8J8LULWXG88"
+   "https://api.gleif.org/api/v1/lei-records/529900BHG8J8LULWXG88",
+   "https://followfood.de/impressum"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T10:57:51Z",
-  "registry_status": "verified_gleif"
+  "registry_status": "verified_gleif",
+  "imprint_url": "https://followfood.de/impressum",
+  "website_basis": "own legal notice carries register_id=HRB 631854",
+  "uid": "DE812883948",
+  "uid_vies_name": "--- (DE VIES returns no name; legal name + register no. printed on the legal notice)",
+  "uid_vies_address": "--- (DE VIES returns no address)",
+  "uid_checked_at": "2026-10-16T19:00:54.489Z",
+  "uid_source": "own legal notice + EU VIES (T1835)"
  },
  {
   "slug": "hofer-kg",
@@ -6099,7 +6246,7 @@
   "management": null,
   "employees": null,
   "revenue": null,
-  "website": null,
+  "website": "https://rewe-group.at",
   "plants": [],
   "approval_codes": null,
   "brands": [],
@@ -6109,12 +6256,20 @@
   "median_eur_per_10g_protein": null,
   "nace": null,
   "sources": [
-   "https://api.gleif.org/api/v1/lei-records/529900VPZ1K9QECCLM53"
+   "https://api.gleif.org/api/v1/lei-records/529900VPZ1K9QECCLM53",
+   "https://rewe-group.at/de/impressum/"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T11:02:56Z",
   "chain_product_count": 0,
-  "registry_status": "verified_gleif"
+  "registry_status": "verified_gleif",
+  "imprint_url": "https://rewe-group.at/de/impressum/",
+  "website_basis": "own legal notice carries fn=FN 82769w, register_id=82769w",
+  "uid": "ATU41898906",
+  "uid_vies_name": "REWE International AG",
+  "uid_vies_address": "Industriezentrum NÖ-Süd,Str 3, AT-2355 Wiener Neudorf",
+  "uid_checked_at": "2026-10-16T19:00:58.825Z",
+  "uid_source": "own legal notice + EU VIES (T1835)"
  },
  {
   "slug": "spar-oesterreichische-warenhandels-aktiengesellschaft",
@@ -6137,7 +6292,7 @@
   "management": null,
   "employees": null,
   "revenue": null,
-  "website": null,
+  "website": "https://spar.at",
   "plants": [],
   "approval_codes": null,
   "brands": [],
@@ -6147,12 +6302,15 @@
   "median_eur_per_10g_protein": null,
   "nace": null,
   "sources": [
-   "https://api.gleif.org/api/v1/lei-records/529900Y9ZL3RKKWV4276"
+   "https://api.gleif.org/api/v1/lei-records/529900Y9ZL3RKKWV4276",
+   "https://spar.at/impressum.html"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T11:02:36Z",
   "chain_product_count": 596,
-  "registry_status": "verified_gleif"
+  "registry_status": "verified_gleif",
+  "imprint_url": "https://spar.at/impressum.html",
+  "website_basis": "probe: FN on page (verify re-fetch timed out)"
  },
  {
   "slug": "unimarkt-gmbh",

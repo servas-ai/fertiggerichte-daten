@@ -1,0 +1,976 @@
+{
+ "run": "Daten-Squad T1835",
+ "generated_at": "2026-10-16T18:58:00Z",
+ "rules": "Daten-Squad 2026-10-16T1835: company master data — official website, legal-notice URL, registered address (DE rows)\nand VAT ids printed on the company's own legal notice.\nSources: the companies' public legal notices (food-connectors impressum.find_imprint: robots.txt respected, no cookies/JS/login,\n<=1 req/s), EU VIES REST. Evidence: raw/companies_web_2026-10-16T1835.json (probe + verify passes).\nAcceptance rules (nothing inferred):\n * website/imprint_url: the legal-notice page on that domain carries one of the identifiers ALREADY verified for the row\n   (LEI, FN, HRB/HRA, national register no.) — Ehrmann is the one group case (page = Ehrmann SE at the identical registered\n   street address; website set with website_basis, no UID taken).\n * uid: printed on that page AND VIES valid AND (VIES name match 1.0 for AT/IT, or — DE VIES returns no name — the full\n   legal name is printed on the page).\n * address (DE rows with UID but no address; DE VIES returns none): first postal address under the legal name on the\n   row's own imprint_url page. Lotao skipped (legal notice now names Bio-Zentrale Naturprodukte GmbH), Kikkoman fetch failed.",
+ "applied": {
+  "maresi-austria-gmbh": {
+   "website": "https://maresi.at",
+   "imprint_url": "https://maresi.at/de/impressum",
+   "website_basis": "own legal notice carries fn=FN 161846i, register_id=161846i",
+   "uid": "ATU61613203",
+   "uid_vies_name": "MARESI Austria GmbH",
+   "uid_vies_address": "Hietzinger Hauptstraße 119 - 121, AT-1130 Wien",
+   "uid_checked_at": "2026-10-16T18:59:25.124Z",
+   "uid_source": "own legal notice + EU VIES (T1835)"
+  },
+  "alnatura-gmbh": {
+   "website": "https://alnatura.de",
+   "imprint_url": "https://alnatura.de/impressum",
+   "website_basis": "own legal notice carries register_id=HRB 4407",
+   "uid": "DE111615161",
+   "uid_vies_name": "--- (DE VIES returns no name; legal name + register no. printed on the legal notice)",
+   "uid_vies_address": "--- (DE VIES returns no address)",
+   "uid_checked_at": "2026-10-16T18:59:30.801Z",
+   "uid_source": "own legal notice + EU VIES (T1835)"
+  },
+  "alnatura-produktions-und-handels-gmbh": {
+   "website": "https://alnatura.de",
+   "imprint_url": "https://alnatura.de/impressum",
+   "website_basis": "own legal notice carries register_id=HRB 4407",
+   "uid": "DE111615161",
+   "uid_vies_name": "--- (DE VIES returns no name; legal name + register no. printed on the legal notice)",
+   "uid_vies_address": "--- (DE VIES returns no address)",
+   "uid_checked_at": "2026-10-16T18:59:35.260Z",
+   "uid_source": "own legal notice + EU VIES (T1835)"
+  },
+  "weinbergmaier-gmbh": {
+   "website": "https://weinbergmaier.at",
+   "imprint_url": "https://weinbergmaier.at/impressum",
+   "website_basis": "own legal notice carries fn=FN 122164d, register_id=122164d",
+   "uid": "ATU24137903",
+   "uid_vies_name": "WEINBERGMAIER GmbH",
+   "uid_vies_address": "Leopold-Werndl-Straße 1, AT-4493 Wolfern",
+   "uid_checked_at": "2026-10-16T18:59:40.766Z",
+   "uid_source": "own legal notice + EU VIES (T1835)"
+  },
+  "mpreis-warenvertriebs-gmbh": {
+   "website": "https://mpreis.at",
+   "imprint_url": "https://mpreis.at/sp/impressum",
+   "website_basis": "own legal notice carries fn=FN 43603y, register_id=43603y",
+   "uid": "ATU30961901",
+   "uid_vies_name": "MPREIS Warenvertriebs GmbH",
+   "uid_vies_address": "Landesstraße 16, AT-6176 Völs",
+   "uid_checked_at": "2026-10-16T18:59:45.946Z",
+   "uid_source": "own legal notice + EU VIES (T1835)"
+  },
+  "noem-ag": {
+   "website": "https://www.noem.at",
+   "imprint_url": "https://www.noem.at/impressum",
+   "website_basis": "own legal notice carries fn=FN 114782y, register_id=114782y",
+   "uid": "ATU23264205",
+   "uid_vies_name": "NÖM AG",
+   "uid_vies_address": "Vöslauer Straße 109, AT-2500 Baden",
+   "uid_checked_at": "2026-10-16T18:59:49.698Z",
+   "uid_source": "own legal notice + EU VIES (T1835)"
+  },
+  "bertagni-1882-spa": {
+   "website": "https://bertagni1882.it",
+   "imprint_url": "https://bertagni1882.it/",
+   "website_basis": "own legal notice carries register_id=03719720249",
+   "uid": "IT03719720249",
+   "uid_vies_name": "BERTAGNI 1882 S.P.A.",
+   "uid_vies_address": "LOCALITA' CAMPAGNOLE 1 , 38063 AVIO TN, ",
+   "uid_checked_at": "2026-10-16T18:59:53.847Z",
+   "uid_source": "own legal notice + EU VIES (T1835)"
+  },
+  "dr-oetker-gmbh": {
+   "website": "https://www.oetker.at",
+   "imprint_url": "https://www.oetker.at/impressum",
+   "website_basis": "own legal notice carries fn=FN 115931m, register_id=115931m",
+   "uid": "ATU26533105",
+   "uid_vies_name": "Dr. Oetker GmbH",
+   "uid_vies_address": "Ringmauergasse 9/1, AT-9500 Villach",
+   "uid_checked_at": "2026-10-16T18:59:57.099Z",
+   "uid_source": "own legal notice + EU VIES (T1835)"
+  },
+  "ehrmann-gmbh": {
+   "website": "https://www.ehrmann.de",
+   "website_basis": "group site: legal notice = EHRMANN SE (HRB 18947 AG Memmingen) at the identical registered address A.-Ehrmann-Straße 2, 87770 Oberschönegg; Ehrmann GmbH itself not named → no UID taken"
+  },
+  "biovegan-gmbh": {
+   "website": "https://biovegan.de",
+   "imprint_url": "https://biovegan.de/pages/impressum",
+   "website_basis": "own legal notice carries register_id=HRB 5692",
+   "uid": "DE189692892",
+   "uid_vies_name": "--- (DE VIES returns no name; legal name + register no. printed on the legal notice)",
+   "uid_vies_address": "--- (DE VIES returns no address)",
+   "uid_checked_at": "2026-10-16T19:00:18.621Z",
+   "uid_source": "own legal notice + EU VIES (T1835)"
+  },
+  "dr-schaer-spa": {
+   "website": "https://schaer.com",
+   "imprint_url": "https://schaer.com/imprint",
+   "website_basis": "own legal notice carries lei=8156007EFCC74E27AB09, register_id=00605750215",
+   "uid": "IT00605750215",
+   "uid_vies_name": "DR. SCHAER AG",
+   "uid_vies_address": "VIA WINKELAU 9 , 39014 POSTAL .BURGSTALL. BZ, ",
+   "uid_checked_at": "2026-10-16T19:00:22.257Z",
+   "uid_source": "own legal notice + EU VIES (T1835)"
+  },
+  "tress-lebensmittel-gmbh-co-kg": {
+   "website": "https://tressbrueder.de",
+   "imprint_url": "https://tressbrueder.de/impressum",
+   "website_basis": "own legal notice carries register_id=HRA 726441"
+  },
+  "andros-deutschland-gmbh": {
+   "website": "https://andros.de",
+   "imprint_url": "https://andros.de/impressum/",
+   "website_basis": "own legal notice carries register_id=HRB 70104",
+   "uid": "DE111651973",
+   "uid_vies_name": "--- (DE VIES returns no name; legal name + register no. printed on the legal notice)",
+   "uid_vies_address": "--- (DE VIES returns no address)",
+   "uid_checked_at": "2026-10-16T19:00:34.507Z",
+   "uid_source": "own legal notice + EU VIES (T1835)"
+  },
+  "euryza-gmbh": {
+   "website": "https://www.reis-fit.de",
+   "imprint_url": "https://www.reis-fit.de/impressum/",
+   "website_basis": "own legal notice carries register_id=HRB 1854",
+   "uid": "DE118617157",
+   "uid_vies_name": "--- (DE VIES returns no name; legal name + register no. printed on the legal notice)",
+   "uid_vies_address": "--- (DE VIES returns no address)",
+   "uid_checked_at": "2026-10-16T19:00:38.975Z",
+   "uid_source": "own legal notice + EU VIES (T1835)"
+  },
+  "greenforce-future-food-ag": {
+   "website": "https://greenforce.com",
+   "imprint_url": "https://greenforce.com/policies/legal-notice",
+   "website_basis": "own legal notice carries register_id=HRB 269298",
+   "uid": "DE347178952",
+   "uid_vies_name": "--- (DE VIES returns no name; legal name + register no. printed on the legal notice)",
+   "uid_vies_address": "--- (DE VIES returns no address)",
+   "uid_checked_at": "2026-10-16T19:00:42.030Z",
+   "uid_source": "own legal notice + EU VIES (T1835)"
+  },
+  "ruegenwalder-muehle-carl-mueller-gmbh-co-kg": {
+   "website": "https://www.ruegenwalder.de",
+   "imprint_url": "https://www.ruegenwalder.de/de/impressum",
+   "website_basis": "own legal notice carries register_id=HRA 120467"
+  },
+  "efko-frischfrucht-und-delikatessen-gmbh": {
+   "website": "https://www.efko.at",
+   "imprint_url": "https://www.efko.at/impressum/",
+   "website_basis": "own legal notice carries fn=FN 101672v, register_id=101672v",
+   "uid": "ATU22195005",
+   "uid_vies_name": "efko Frischfrucht und Delikatessen GmbH",
+   "uid_vies_address": "Hinzenbach 38, AT-4070 Hinzenbach",
+   "uid_checked_at": "2026-10-16T19:00:51.117Z",
+   "uid_source": "own legal notice + EU VIES (T1835)"
+  },
+  "followfood-gmbh": {
+   "website": "https://followfood.de",
+   "imprint_url": "https://followfood.de/impressum",
+   "website_basis": "own legal notice carries register_id=HRB 631854",
+   "uid": "DE812883948",
+   "uid_vies_name": "--- (DE VIES returns no name; legal name + register no. printed on the legal notice)",
+   "uid_vies_address": "--- (DE VIES returns no address)",
+   "uid_checked_at": "2026-10-16T19:00:54.489Z",
+   "uid_source": "own legal notice + EU VIES (T1835)"
+  },
+  "rewe-international-ag": {
+   "website": "https://rewe-group.at",
+   "imprint_url": "https://rewe-group.at/de/impressum/",
+   "website_basis": "own legal notice carries fn=FN 82769w, register_id=82769w",
+   "uid": "ATU41898906",
+   "uid_vies_name": "REWE International AG",
+   "uid_vies_address": "Industriezentrum NÖ-Süd,Str 3, AT-2355 Wiener Neudorf",
+   "uid_checked_at": "2026-10-16T19:00:58.825Z",
+   "uid_source": "own legal notice + EU VIES (T1835)"
+  },
+  "adriatic-group-gmbh": {
+   "website": "https://adriaticgroup.at",
+   "imprint_url": "https://adriaticgroup.at/de/impressum",
+   "website_basis": "probe: FN + legal name on page (verify re-fetch timed out)"
+  },
+  "spar-oesterreichische-warenhandels-aktiengesellschaft": {
+   "website": "https://spar.at",
+   "imprint_url": "https://spar.at/impressum.html",
+   "website_basis": "probe: FN on page (verify re-fetch timed out)"
+  },
+  "frosta-tiefkuehlkost-gmbh": {
+   "address": "Am Lunedeich 116, 27572 Bremerhaven, DE",
+   "address_source": "own legal notice (imprint_url), T1835"
+  },
+  "allos-hof-manufaktur-gmbh": {
+   "address": "Hoerneckestraße 39, 28217 Bremen, DE",
+   "address_source": "own legal notice (imprint_url), T1835"
+  },
+  "frosta-ag": {
+   "address": "Am Lunedeich 116, 27572 Bremerhaven, DE",
+   "address_source": "own legal notice (imprint_url), T1835"
+  },
+  "youcook-gmbh": {
+   "address": "Statthalterhofweg 71, 50858 Köln, DE",
+   "address_source": "own legal notice (imprint_url), T1835"
+  },
+  "iglo-gmbh": {
+   "address": "Osterbekstraße 90c, 22083 Hamburg, DE",
+   "address_source": "own legal notice (imprint_url), T1835"
+  },
+  "heiderbeck": {
+   "address": "Gewerbering 4, 82140 Olching, DE",
+   "address_source": "own legal notice (imprint_url), T1835"
+  },
+  "landliebe-gmbh": {
+   "address": "Zollerstraße 7, 86850 Fischach, DE",
+   "address_source": "own legal notice (imprint_url), T1835"
+  },
+  "hamker-vertriebsgesellschaft-mbh": {
+   "address": "Heinrich-Hamker-Straße 20, 49152 Bad Essen, DE",
+   "address_source": "own legal notice (imprint_url), T1835"
+  },
+  "hammermuehle-gmbh": {
+   "address": "Hauptstrasse 181, 67489 Kirrweiler, DE",
+   "address_source": "own legal notice (imprint_url), T1835"
+  },
+  "plant-based-power-gmbh": {
+   "address": "Hauptstraße 41, 83395 Freilassing, DE",
+   "address_source": "own legal notice (imprint_url), T1835"
+  },
+  "biogourmet-gmbh": {
+   "address": "Ochsenweg 1, 71729 Erdmannhausen, DE",
+   "address_source": "own legal notice (imprint_url), T1835"
+  },
+  "kontakt-everygmbh": {
+   "address": "Ritterstraße 9–10, 10969 Berlin, DE",
+   "address_source": "own legal notice (imprint_url), T1835"
+  },
+  "meica-gmbh": {
+   "address": "Meicastraße 6, 26188 Edewecht, DE",
+   "address_source": "own legal notice (imprint_url), T1835"
+  },
+  "planted-foods-gmbh": {
+   "address": "Birkenstr. 22, 10559 Berlin, DE",
+   "address_source": "own legal notice (imprint_url), T1835"
+  },
+  "rila-die-genussentdecker": {
+   "address": "Hinterm Teich 5, 32351 Stemwede-Levern, DE",
+   "address_source": "own legal notice (imprint_url), T1835"
+  },
+  "whollees-gmbh": {
+   "address": "Lippmannstr. 8, 22769 Hamburg, DE",
+   "address_source": "own legal notice (imprint_url), T1835"
+  },
+  "zum-dorfkrug-produktions-und-handelsgesellschaft-mbh-co-kg": {
+   "address": "Rudolf-Diesel-Str. 6-10, 21629 Neu Wulmstorf, DE",
+   "address_source": "own legal notice (imprint_url), T1835"
+  }
+ },
+ "rejected": {
+  "glatz-gmbh": "glatz.at/impressum-gruppe names Glatz Unternehmensgruppe GmbH (VIES ATU39297505, name match 0.5), no Glatz GmbH identifier/address → not taken"
+ },
+ "verify": {
+  "maresi-austria-gmbh": {
+   "imprint_url": "https://maresi.at/de/impressum",
+   "website": "https://maresi.at",
+   "robots_ok": true,
+   "id_hits": {
+    "fn": "FN 161846i",
+    "register_id": "161846i"
+   },
+   "name_on_page": true,
+   "postcode_on_page": true,
+   "street_on_page": true,
+   "vats_on_page": [
+    "ATU61613203"
+   ],
+   "vies": [
+    {
+     "uid": "ATU61613203",
+     "valid": true,
+     "vies_name": "MARESI Austria GmbH",
+     "vies_address": "Hietzinger Hauptstraße 119 - 121\nAT-1130 Wien",
+     "checked_at": "2026-10-16T18:59:25.124Z",
+     "name_match": 1.0
+    }
+   ]
+  },
+  "alnatura-gmbh": {
+   "imprint_url": "https://alnatura.de/impressum",
+   "website": "https://alnatura.de",
+   "robots_ok": true,
+   "id_hits": {
+    "register_id": "HRB 4407"
+   },
+   "name_on_page": true,
+   "postcode_on_page": true,
+   "street_on_page": true,
+   "vats_on_page": [
+    "DE111615161"
+   ],
+   "vies": [
+    {
+     "uid": "DE111615161",
+     "valid": true,
+     "vies_name": null,
+     "vies_address": null,
+     "checked_at": "2026-10-16T18:59:30.801Z",
+     "name_match": null
+    }
+   ]
+  },
+  "alnatura-produktions-und-handels-gmbh": {
+   "imprint_url": "https://alnatura.de/impressum",
+   "website": "https://alnatura.de",
+   "robots_ok": true,
+   "id_hits": {
+    "register_id": "HRB 4407"
+   },
+   "name_on_page": true,
+   "postcode_on_page": true,
+   "street_on_page": true,
+   "vats_on_page": [
+    "DE111615161"
+   ],
+   "vies": [
+    {
+     "uid": "DE111615161",
+     "valid": true,
+     "vies_name": null,
+     "vies_address": null,
+     "checked_at": "2026-10-16T18:59:35.260Z",
+     "name_match": null
+    }
+   ]
+  },
+  "weinbergmaier-gmbh": {
+   "imprint_url": "https://weinbergmaier.at/impressum",
+   "website": "https://weinbergmaier.at",
+   "robots_ok": true,
+   "id_hits": {
+    "fn": "FN 122164d",
+    "register_id": "122164d"
+   },
+   "name_on_page": true,
+   "postcode_on_page": true,
+   "street_on_page": true,
+   "vats_on_page": [
+    "ATU24137903"
+   ],
+   "vies": [
+    {
+     "uid": "ATU24137903",
+     "valid": true,
+     "vies_name": "WEINBERGMAIER GmbH",
+     "vies_address": "Leopold-Werndl-Straße 1\nAT-4493 Wolfern",
+     "checked_at": "2026-10-16T18:59:40.766Z",
+     "name_match": 1.0
+    }
+   ]
+  },
+  "mpreis-warenvertriebs-gmbh": {
+   "imprint_url": "https://mpreis.at/sp/impressum",
+   "website": "https://mpreis.at",
+   "robots_ok": true,
+   "id_hits": {
+    "fn": "FN 43603y",
+    "register_id": "43603y"
+   },
+   "name_on_page": true,
+   "postcode_on_page": true,
+   "street_on_page": true,
+   "vats_on_page": [
+    "ATU30961901"
+   ],
+   "vies": [
+    {
+     "uid": "ATU30961901",
+     "valid": true,
+     "vies_name": "MPREIS Warenvertriebs GmbH",
+     "vies_address": "Landesstraße 16\nAT-6176 Völs",
+     "checked_at": "2026-10-16T18:59:45.946Z",
+     "name_match": 1.0
+    }
+   ]
+  },
+  "noem-ag": {
+   "imprint_url": "https://www.noem.at/impressum",
+   "website": "https://www.noem.at",
+   "robots_ok": true,
+   "id_hits": {
+    "fn": "FN 114782y",
+    "register_id": "114782y"
+   },
+   "name_on_page": false,
+   "postcode_on_page": true,
+   "street_on_page": true,
+   "vats_on_page": [
+    "ATU23264205"
+   ],
+   "vies": [
+    {
+     "uid": "ATU23264205",
+     "valid": true,
+     "vies_name": "NÖM AG",
+     "vies_address": "Vöslauer Straße 109\nAT-2500 Baden",
+     "checked_at": "2026-10-16T18:59:49.698Z",
+     "name_match": 1.0
+    }
+   ]
+  },
+  "bertagni-1882-spa": {
+   "imprint_url": "https://bertagni1882.it/",
+   "website": "https://bertagni1882.it",
+   "robots_ok": true,
+   "id_hits": {
+    "register_id": "03719720249"
+   },
+   "name_on_page": true,
+   "postcode_on_page": false,
+   "street_on_page": false,
+   "vats_on_page": [
+    "IT03719720249"
+   ],
+   "vies": [
+    {
+     "uid": "IT03719720249",
+     "valid": true,
+     "vies_name": "BERTAGNI 1882 S.P.A.",
+     "vies_address": "LOCALITA' CAMPAGNOLE 1 \n38063 AVIO TN\n",
+     "checked_at": "2026-10-16T18:59:53.847Z",
+     "name_match": 1.0
+    }
+   ]
+  },
+  "dr-oetker-gmbh": {
+   "imprint_url": "https://www.oetker.at/impressum",
+   "website": "https://www.oetker.at",
+   "robots_ok": true,
+   "id_hits": {
+    "fn": "FN 115931m",
+    "register_id": "115931m"
+   },
+   "name_on_page": true,
+   "postcode_on_page": true,
+   "street_on_page": true,
+   "vats_on_page": [
+    "ATU26533105"
+   ],
+   "vies": [
+    {
+     "uid": "ATU26533105",
+     "valid": true,
+     "vies_name": "Dr. Oetker GmbH",
+     "vies_address": "Ringmauergasse 9/1\nAT-9500 Villach",
+     "checked_at": "2026-10-16T18:59:57.099Z",
+     "name_match": 1.0
+    }
+   ]
+  },
+  "ehrmann-gmbh": {
+   "imprint_url": "https://www.ehrmann.de/impressum",
+   "website": "https://www.ehrmann.de",
+   "robots_ok": true,
+   "id_hits": {},
+   "name_on_page": false,
+   "postcode_on_page": true,
+   "street_on_page": true,
+   "vats_on_page": [
+    "DE811249984"
+   ],
+   "vies": [
+    {
+     "uid": "DE811249984",
+     "valid": true,
+     "vies_name": null,
+     "vies_address": null,
+     "checked_at": "2026-10-16T19:00:02.899Z",
+     "name_match": null
+    }
+   ]
+  },
+  "adriatic-group-gmbh": {
+   "imprint_url": "https://adriaticgroup.at/de/impressum",
+   "website": "https://adriaticgroup.at",
+   "robots_ok": true,
+   "error": "fetch failed"
+  },
+  "biovegan-gmbh": {
+   "imprint_url": "https://biovegan.de/pages/impressum",
+   "website": "https://biovegan.de",
+   "robots_ok": true,
+   "id_hits": {
+    "register_id": "HRB 5692"
+   },
+   "name_on_page": true,
+   "postcode_on_page": true,
+   "street_on_page": true,
+   "vats_on_page": [
+    "DE189692892"
+   ],
+   "vies": [
+    {
+     "uid": "DE189692892",
+     "valid": true,
+     "vies_name": null,
+     "vies_address": null,
+     "checked_at": "2026-10-16T19:00:18.621Z",
+     "name_match": null
+    }
+   ]
+  },
+  "dr-schaer-spa": {
+   "imprint_url": "https://schaer.com/imprint",
+   "website": "https://schaer.com",
+   "robots_ok": true,
+   "id_hits": {
+    "lei": "8156007EFCC74E27AB09",
+    "register_id": "00605750215"
+   },
+   "name_on_page": false,
+   "postcode_on_page": true,
+   "street_on_page": true,
+   "vats_on_page": [
+    "IT00605750215"
+   ],
+   "vies": [
+    {
+     "uid": "IT00605750215",
+     "valid": true,
+     "vies_name": "DR. SCHAER AG",
+     "vies_address": "VIA WINKELAU 9 \n39014 POSTAL .BURGSTALL. BZ\n",
+     "checked_at": "2026-10-16T19:00:22.257Z",
+     "name_match": 1.0
+    }
+   ]
+  },
+  "glatz-gmbh": {
+   "imprint_url": "https://glatz.at/impressum-gruppe",
+   "website": "https://glatz.at",
+   "robots_ok": true,
+   "id_hits": {},
+   "name_on_page": true,
+   "postcode_on_page": false,
+   "street_on_page": false,
+   "vats_on_page": [
+    "ATU39297505"
+   ],
+   "vies": [
+    {
+     "uid": "ATU39297505",
+     "valid": true,
+     "vies_name": "Glatz Unternehmensgruppe GmbH",
+     "vies_address": "Arlbergstraße 104\nAT-6900 Bregenz",
+     "checked_at": "2026-10-16T19:00:27.791Z",
+     "name_match": 0.5
+    }
+   ]
+  },
+  "tress-lebensmittel-gmbh-co-kg": {
+   "imprint_url": "https://tressbrueder.de/impressum",
+   "website": "https://tressbrueder.de",
+   "robots_ok": true,
+   "id_hits": {
+    "register_id": "HRA 726441"
+   },
+   "name_on_page": false,
+   "postcode_on_page": true,
+   "street_on_page": true,
+   "vats_on_page": [
+    "DE815327525"
+   ],
+   "vies": [
+    {
+     "uid": "DE815327525",
+     "valid": true,
+     "vies_name": null,
+     "vies_address": null,
+     "checked_at": "2026-10-16T19:00:31.454Z",
+     "name_match": null
+    }
+   ]
+  },
+  "andros-deutschland-gmbh": {
+   "imprint_url": "https://andros.de/impressum/",
+   "website": "https://andros.de",
+   "robots_ok": true,
+   "id_hits": {
+    "register_id": "HRB 70104"
+   },
+   "name_on_page": true,
+   "postcode_on_page": true,
+   "street_on_page": true,
+   "vats_on_page": [
+    "DE111651973"
+   ],
+   "vies": [
+    {
+     "uid": "DE111651973",
+     "valid": true,
+     "vies_name": null,
+     "vies_address": null,
+     "checked_at": "2026-10-16T19:00:34.507Z",
+     "name_match": null
+    }
+   ]
+  },
+  "euryza-gmbh": {
+   "imprint_url": "https://www.reis-fit.de/impressum/",
+   "website": "https://www.reis-fit.de",
+   "robots_ok": true,
+   "id_hits": {
+    "register_id": "HRB 1854"
+   },
+   "name_on_page": true,
+   "postcode_on_page": true,
+   "street_on_page": true,
+   "vats_on_page": [
+    "DE118617157"
+   ],
+   "vies": [
+    {
+     "uid": "DE118617157",
+     "valid": true,
+     "vies_name": null,
+     "vies_address": null,
+     "checked_at": "2026-10-16T19:00:38.975Z",
+     "name_match": null
+    }
+   ]
+  },
+  "greenforce-future-food-ag": {
+   "imprint_url": "https://greenforce.com/policies/legal-notice",
+   "website": "https://greenforce.com",
+   "robots_ok": true,
+   "id_hits": {
+    "register_id": "HRB 269298"
+   },
+   "name_on_page": true,
+   "postcode_on_page": true,
+   "street_on_page": true,
+   "vats_on_page": [
+    "DE347178952"
+   ],
+   "vies": [
+    {
+     "uid": "DE347178952",
+     "valid": true,
+     "vies_name": null,
+     "vies_address": null,
+     "checked_at": "2026-10-16T19:00:42.030Z",
+     "name_match": null
+    }
+   ]
+  },
+  "ruegenwalder-muehle-carl-mueller-gmbh-co-kg": {
+   "imprint_url": "https://www.ruegenwalder.de/de/impressum",
+   "website": "https://www.ruegenwalder.de",
+   "robots_ok": true,
+   "id_hits": {
+    "register_id": "HRA 120467"
+   },
+   "name_on_page": false,
+   "postcode_on_page": true,
+   "street_on_page": false,
+   "vats_on_page": [
+    "DE813090002"
+   ],
+   "vies": [
+    {
+     "uid": "DE813090002",
+     "valid": true,
+     "vies_name": null,
+     "vies_address": null,
+     "checked_at": "2026-10-16T19:00:45.867Z",
+     "name_match": null
+    }
+   ]
+  },
+  "efko-frischfrucht-und-delikatessen-gmbh": {
+   "imprint_url": "https://www.efko.at/impressum/",
+   "website": "https://www.efko.at",
+   "robots_ok": true,
+   "id_hits": {
+    "fn": "FN 101672v",
+    "register_id": "101672v"
+   },
+   "name_on_page": true,
+   "postcode_on_page": true,
+   "street_on_page": true,
+   "vats_on_page": [
+    "ATU22195005"
+   ],
+   "vies": [
+    {
+     "uid": "ATU22195005",
+     "valid": true,
+     "vies_name": "efko Frischfrucht und Delikatessen GmbH",
+     "vies_address": "Hinzenbach 38\nAT-4070 Hinzenbach",
+     "checked_at": "2026-10-16T19:00:51.117Z",
+     "name_match": 1.0
+    }
+   ]
+  },
+  "followfood-gmbh": {
+   "imprint_url": "https://followfood.de/impressum",
+   "website": "https://followfood.de",
+   "robots_ok": true,
+   "id_hits": {
+    "register_id": "HRB 631854"
+   },
+   "name_on_page": true,
+   "postcode_on_page": true,
+   "street_on_page": false,
+   "vats_on_page": [
+    "DE812883948"
+   ],
+   "vies": [
+    {
+     "uid": "DE812883948",
+     "valid": true,
+     "vies_name": null,
+     "vies_address": null,
+     "checked_at": "2026-10-16T19:00:54.489Z",
+     "name_match": null
+    }
+   ]
+  },
+  "rewe-international-ag": {
+   "imprint_url": "https://rewe-group.at/de/impressum/",
+   "website": "https://rewe-group.at",
+   "robots_ok": true,
+   "id_hits": {
+    "fn": "FN 82769w",
+    "register_id": "82769w"
+   },
+   "name_on_page": true,
+   "postcode_on_page": true,
+   "street_on_page": true,
+   "vats_on_page": [
+    "ATU41898906"
+   ],
+   "vies": [
+    {
+     "uid": "ATU41898906",
+     "valid": true,
+     "vies_name": "REWE International AG",
+     "vies_address": "Industriezentrum NÖ-Süd,Str 3\nAT-2355 Wiener Neudorf",
+     "checked_at": "2026-10-16T19:00:58.825Z",
+     "name_match": 1.0
+    }
+   ]
+  },
+  "spar-oesterreichische-warenhandels-aktiengesellschaft": {
+   "imprint_url": "https://spar.at/impressum.html",
+   "website": "https://spar.at",
+   "robots_ok": true,
+   "error": "fetch failed"
+  }
+ },
+ "probe_log_part1": [
+  "maresi-austria-gmbh -> ('https://maresi.at/de/impressum', ['fn', 'register_id'], True)",
+  "pastificio-rana-spa -> ['no imprint with ids', 'no imprint with ids', 'no imprint with ids']",
+  "nestle-oesterreich-gmbh -> ['no imprint with ids']",
+  "felix-austria-gesellschaft-mbh -> ['no imprint with ids']",
+  "alnatura-gmbh -> ('https://alnatura.de/impressum', ['register_id'], True)",
+  "ehrmann-gmbh -> [('ids?', ['DE811249984'])]",
+  "dm-drogerie-markt-gmbh-co-kg -> ['no imprint with ids']",
+  "weinbergmaier-gmbh -> ('https://weinbergmaier.at/impressum', ['fn', 'register_id'], True)",
+  "hofmann-menue-manufaktur-gmbh -> ['no imprint with ids']",
+  "berglandmilch-egen -> ['no imprint with ids']",
+  "mpreis-warenvertriebs-gmbh -> ('https://mpreis.at/sp/impressum', ['fn', 'register_id'], True)",
+  "mars-austria-og -> ['no imprint with ids', 'no imprint with ids']",
+  "molkerei-alois-mueller-gmbh-co-kg -> ['no imprint with ids', 'no imprint with ids']",
+  "noem-ag -> ('https://www.noem.at/impressum', ['fn', 'register_id'], False)",
+  "dr-oetker-gmbh -> ['no imprint with ids']",
+  "kreyenhop-kluge-gmbh-cokg -> ['no imprint with ids', 'no imprint with ids', 'no imprint with ids']",
+  "marks-and-spencer-services-sro -> ['no imprint with ids']",
+  "zott-se-co-kg -> ['no imprint with ids']",
+  "bertagni-1882-spa -> ('https://bertagni1882.it/', ['register_id'], True)",
+  "princes-foods-bv -> ['no imprint with ids', 'no imprint with ids']"
+ ],
+ "probe_log_part2": [
+  "staudinger-delikatessen-gmbh -> ['no imprint with ids', 'no imprint with ids']",
+  "tops-foods -> ['no imprint with ids', 'no imprint with ids']",
+  "adriatic-group-gmbh -> ('https://adriaticgroup.at/de/impressum', ['fn', 'register_id'], True)",
+  "barilla-g-e-r-fratelli-societa-per-azioni -> ['no imprint with ids', 'no imprint with ids']",
+  "biovegan-gmbh -> ('https://biovegan.de/pages/impressum', ['register_id'], True)",
+  "dr-schaer-spa -> ('https://schaer.com/imprint', ['lei', 'register_id'], False)",
+  "glatz-gmbh -> ('https://glatz.at/impressum-gruppe', [], True)",
+  "tress-lebensmittel-gmbh-co-kg -> ('https://tressbrueder.de/impressum', ['register_id'], False)",
+  "andros-deutschland-gmbh -> ('https://andros.de/impressum/', ['register_id'], True)",
+  "dairy-4-fun-sro -> ['no imprint with ids']",
+  "danone-deutschland-gmbh -> ['no imprint with ids']",
+  "delamaris-doo -> ['no imprint with ids']",
+  "doppelt-sp-z-oo -> ['no imprint with ids']",
+  "estyria-naturprodukte-gmbh -> ['no imprint with ids']",
+  "euryza-gmbh -> ('https://www.reis-fit.de/impressum/', ['register_id'], True)",
+  "franu-espana-sl -> ['no imprint with ids', 'no imprint with ids']",
+  "franz-ablinger-co-fleischhauereibetrieb-gesellschaft-mbh -> ['no imprint with ids', 'no imprint with ids']",
+  "greenforce-future-food-ag -> ('https://greenforce.com/policies/legal-notice', ['register_id'], True)",
+  "galana-nv-beldessert -> ['no imprint with ids', 'no imprint with ids']",
+  "la-crepe-de-broceliande-8-rue-pierre-legaultboisgervilly3536 -> ['no imprint with ids', 'no imprint with ids']",
+  "planted-foods-ag -> ['no imprint with ids', 'no imprint with ids']",
+  "riso-gallo-spa -> ['no imprint with ids', 'no imprint with ids']",
+  "riso-scotti-spa -> ['no imprint with ids', 'no imprint with ids']",
+  "ruegenwalder-muehle-carl-mueller-gmbh-co-kg -> ('https://www.ruegenwalder.de/de/impressum ', ['register_id'], False)",
+  "winkelbauer-gmbh -> ['no imprint with ids']",
+  "efko-frischfrucht-und-delikatessen-gmbh -> ('https://www.efko.at/impressum/', ['fn', 'register_id'], True)",
+  "followfood-gmbh -> ('https://followfood.de/impressum', ['register_id'], True)",
+  "rewe-international-ag -> ('https://rewe-group.at/de/impressum/', ['fn', 'register_id'], True)",
+  "spar-oesterreichische-warenhandels-aktiengesellschaft -> ('https://spar.at/impressum.html', ['fn', 'register_id'], False)",
+  "unimarkt-gmbh -> ['no imprint with ids']",
+  "gastrotech -> ['no imprint with ids']"
+ ],
+ "address_candidates": {
+  "frosta-tiefkuehlkost-gmbh": {
+   "url": "https://www.frosta.de/impressum/",
+   "legal_name": "FRoSTA Tiefkühlkost GmbH",
+   "cands": [
+    "Angaben gemäß § 5 DDG | FRoSTA Tiefkühlkost GmbH | Am Lunedeich 116 | D-27572 Bremerhaven",
+    "Tiefkühlgerichte mit dem Reinheitsgebot. | FRoSTA Tiefkühlkost GmbH | Am Lunedeich 116 | D-27572 Bremerhaven",
+    "Büro Hamburg: | FRoSTA Tiefkühlkost GmbH | Friesenweg 4 | D-22763 Hamburg"
+   ]
+  },
+  "allos-hof-manufaktur-gmbh": {
+   "url": "https://www.allos.de/impressum/",
+   "legal_name": "Allos Hof-Manufaktur GmbH",
+   "cands": [
+    "Impressum | Allos Hof-Manufaktur GmbH | Hoerneckestraße 39 | 28217 Bremen",
+    "Geschäftsführung: | Eike Mehlhop | Registergericht: Bremen | Registernummer: HRB 27982 HB",
+    "Datenschutzerklärung | Impressum | Karriere | Allos Hofmanufaktur GmbH, Hoerneckestraße 39, 28217 Bremen"
+   ]
+  },
+  "frosta-ag": {
+   "url": "https://www.frosta-ag.com/service/impressum/",
+   "legal_name": "FRoSTA AG",
+   "cands": [
+    "Angaben gemäß § 5 DDG: | FRoSTA AG | Am Lunedeich 116 | 27572 Bremerhaven",
+    "Friederike Ahlers | FRoSTA Tiefkühlkost GmbH | Friesenweg 4 | D-22763 Hamburg",
+    "Anfahrt | Datenschutz | Impressum | © 2025 | FRoSTA AG - Am Lunedeich 116 - 27572 Bremerhaven"
+   ]
+  },
+  "youcook-gmbh": {
+   "url": "https://www.youcook-food.com/impressum/",
+   "legal_name": "YOUCOOK GmbH",
+   "cands": [
+    "Impressum | YOUCOOK GmbH | Statthalterhofweg 71 | 50858 Köln",
+    "Diese Webseite wurde von Marschfahrt gestaltet und technisch umgesetzt. | +49 (0)152 059 732 86 | hallo@youcook-food.com | YOUCOOK GmbH • Statthalterhofweg 71 • DE-50858 Köln"
+   ]
+  },
+  "iglo-gmbh": {
+   "url": "https://www.iglo.de/impressum/index.html",
+   "legal_name": "iglo GmbH",
+   "cands": [
+    "Firma/Anschrift: | iglo GmbH | Osterbekstraße 90c | 22083 Hamburg",
+    "Unternehmensinformationen | Iglo GmbH, Amtsgericht Hamburg, HRB 000000 | Sitz der Gesellschaft | Iglo GmbH, Beispielstraße 1, 20095 Hamburg"
+   ]
+  },
+  "heiderbeck": {
+   "url": "https://www.heiderbeck.de/impressum",
+   "legal_name": "Heiderbeck GmbH",
+   "cands": [
+    "Impressum | Heiderbeck GmbH | Gewerbering 4 | 82140 Olching (bei München)",
+    "Feinkost Outlet | Heiderbeck Outlet | Gewerbering 4 | 82140 Olching",
+    "Kontakt | Heiderbeck GmbH | Gewerbering 4 | 82140 Olching"
+   ]
+  },
+  "landliebe-gmbh": {
+   "url": "https://www.landliebe.de/impressum/",
+   "legal_name": "Landliebe GmbH",
+   "cands": [
+    "Verantwortlich für den Inhalt: | Landliebe GmbH | Zollerstraße 7 | 86850 Fischach"
+   ]
+  },
+  "hamker-vertriebsgesellschaft-mbh": {
+   "url": "https://www.hamker.de/impressum",
+   "legal_name": "Hamker Vertriebsgesellschaft mbH",
+   "cands": [
+    "Firma / Anschrift: | Hamker Vertriebsgesellschaft mbH | Heinrich-Hamker-Straße 20 | 49152 Bad Essen",
+    "Technische Umsetzung: | F7 Media GmbH | Humboldtstr. 67a | 22083 Hamburg",
+    "Die Hamker Vertriebsgesellschaft mbH ist für den Inhalt von Seiten, die mit einem solchen Link erreicht werden, nicht verantwortlich. | Angaben zum Streitschlichtungsverfahren: | Gemäß § 36 VSBG weisen wir darauf hin, dass wir nicht an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilnehmen. | Hamker Vertriebsgesellschaft mbH | Heinrich-Hamker-Straße 20 | 49152 Bad Essen"
+   ]
+  },
+  "hammermuehle-gmbh": {
+   "url": "https://www.hammermuehle-shop.de/impressum/",
+   "legal_name": "Hammermühle GmbH",
+   "cands": [
+    "Hammermühle GmbH | Geschäftsführer: Lucas Fischer | Hauptstrasse 181 | 67489 Kirrweiler"
+   ]
+  },
+  "plant-based-power-gmbh": {
+   "url": "https://feel-food.com/de-de/policies/legal-notice",
+   "legal_name": "PLANT BASED POWER GmbH",
+   "cands": [
+    "Impressum | PLANT BASED POWER GmbH | Hauptstraße 41 | 83395 Freilassing",
+    "Kontakt | PLANT BASED POWER GmbH | Hauptstraße 41 | 83395 Freilassing"
+   ]
+  },
+  "biogourmet-gmbh": {
+   "url": "https://bio-gourmet.com/impressum/",
+   "legal_name": "BioGourmet GmbH",
+   "cands": [
+    "Impressum | BioGourmet GmbH | Ochsenweg 1 | D-71729 Erdmannhausen",
+    "Bei Anlieferung mit der Spedition sind Rollwägen und Paletten Eigentum des Spediteurs. Alle Rollwägen bestehen aus einem Plastikboden und können nur gleichwertig bei der Anlieferung getauscht werden. Jedoch spätestens nach der nächsten Anlieferung oder bei vorheriger Mahnung vom Spediteur muss der Rollwagen zur Abholung bereitgestellt werden. Bei der Nichteinhaltung der Regelung kann vom Spediteur der Rollwagen zu je 50,00 € direkt an den Laden berechnet werden, eine spätere Rückgabe ist damit nicht mehr möglich. | – Reklamationsabwicklung | Die zu beanstandende Ware muss telefonisch, per Email oder Fax bei BioGourmet reklamiert werden. Unbedingt Rechnungs-Nummer, Rechnungsdatum und MHD (Mindesthaltbarkeitsdatum) oder Chargennummer angeben. | BioGourmet GmbH, Ochsenweg 1, D – 71729 Erdmannhausen, Stand 10.03.2011"
+   ]
+  },
+  "kikkoman-trading-europe-gmbh": {
+   "url": "https://www.kikkoman.de/impressum",
+   "error": "fetch failed"
+  },
+  "kontakt-everygmbh": {
+   "url": "https://every-foods.com/de/impressum",
+   "legal_name": "Every. GmbH",
+   "cands": [
+    "Impressum | Every. GmbH | Ritterstraße 9–10 | 10969 Berlin"
+   ]
+  },
+  "lpp-lotao-gmbh": {
+   "url": "https://lotao.com/policies/legal-notice",
+   "legal_name": "LPP Lotao Pack- und Produktions GmbH",
+   "cands": [
+    "Impressum | Bio-Zentrale Naturprodukte GmbH | Holzmühlenweg 4 | 84384 Wittibreut – Ulbering",
+    "Codenummer: DE-ÖKO-001 | Kiwa BCS Öko-Garantie GmbH | Marientorgraben 3-5 | 90402 Nürnberg"
+   ]
+  },
+  "meica-gmbh": {
+   "url": "https://www.meica.de/impressum",
+   "legal_name": "Meica Ammerländische Fleischwarenfabrik Fritz Meinen GmbH & Co. KG",
+   "cands": [
+    "Impressum | Impressum | Meica Ammerländische Fleischwarenfabrik Fritz Meinen GmbH & Co. KG | Meicastraße 6, 26188 Edewecht"
+   ]
+  },
+  "planted-foods-gmbh": {
+   "url": "https://planted-foods-de.myshopify.com/policies/legal-notice",
+   "legal_name": "Planted Foods GmbH",
+   "cands": [
+    "Impressum | Planted Foods GmbH | Birkenstr. 22 | 10559 Berlin",
+    "Verantwortlich gemäß § 55 RStV: | Pascal Bieri | Birkenstr . 22 | 10559 Berlin",
+    "Datenschutzerklärung | | | Impressum | © 2025 Planted Foods GmbH. Birkenstrasse 22, 10559 Berlin Deutschland"
+   ]
+  },
+  "rila-die-genussentdecker": {
+   "url": "https://rila.de/bequem-einkaufen/impressum/",
+   "legal_name": "RILA Feinkost-Importe GmbH & Co. KG",
+   "cands": [
+    "Angaben gemäß § 5 TMG: | RILA Feinkost-Importe GmbH & Co. KG | Hinterm Teich 5 | D-32351 Stemwede-Levern",
+    "Persönlich haftende Gesellschafterin: | RILA Feinkost-Importe GmbH | Hinterm Teich 5 | D-32351 Stemwede-Levern"
+   ]
+  },
+  "whollees-gmbh": {
+   "url": "https://harvestmoon.de/de/credits",
+   "legal_name": "Whollees GmbH",
+   "cands": [
+    "Impressum | Whollees GmbH | Lippmannstr. 8 | 22769 Hamburg (Germany)",
+    "Impressum | Whollees GmbH | Lippmannstr. 8 | 22769 Hamburg (Germany)"
+   ]
+  },
+  "zum-dorfkrug-produktions-und-handelsgesellschaft-mbh-co-kg": {
+   "url": "https://www.zum-dorfkrug.de/impressum",
+   "legal_name": "Zum Dorfkrug Produktions- und Handelsgesellschaft mbH & Co. KG",
+   "cands": [
+    "Zum Dorfkrug Produktions- und | Handelsgesellschaft mbH & Co. KG | Rudolf-Diesel-Str. 6-10 | 21629 Neu Wulmstorf",
+    "Zum Dorfkrug Restaurant | Neu Wulmstorf GmbH & Co. KG | Grenzweg 1 | 21629 Neu Wulmstorf",
+    "Zum Dorfkrug | Landhof GmbH & Co. KG | Grenzweg 1a | 21629 Neu Wulmstorf",
+    "Zum Dorfkrug Produktions- und | Handelsgesellschaft mbH & Co. KG | Rudolf-Diesel-Str. 6-10 | 21629 Neu Wulmstorf"
+   ]
+  }
+ },
+ "manual_checks": {
+  "oetker.at/impressum": "curl: ATU 26533105 + FN 115931 m on page (= row FN)",
+  "felix.at / berglandmilch.at / dm.de impressum": "client-side rendered, no ids in HTML → not taken",
+  "nestle.at": "HTTP 403 (bot protection, not bypassed)",
+  "hofmann-menue.de": "HTTP 500 / timeout",
+  "lotao.com legal notice": "names Bio-Zentrale Naturprodukte GmbH, not LPP Lotao → address not taken"
+ }
+}

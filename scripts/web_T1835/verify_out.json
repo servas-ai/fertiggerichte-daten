@@ -1,0 +1,498 @@
+{
+ "maresi-austria-gmbh": {
+  "imprint_url": "https://maresi.at/de/impressum",
+  "website": "https://maresi.at",
+  "robots_ok": true,
+  "id_hits": {
+   "fn": "FN 161846i",
+   "register_id": "161846i"
+  },
+  "name_on_page": true,
+  "postcode_on_page": true,
+  "street_on_page": true,
+  "vats_on_page": [
+   "ATU61613203"
+  ],
+  "vies": [
+   {
+    "uid": "ATU61613203",
+    "valid": true,
+    "vies_name": "MARESI Austria GmbH",
+    "vies_address": "Hietzinger Hauptstraße 119 - 121\nAT-1130 Wien",
+    "checked_at": "2026-10-16T18:59:25.124Z",
+    "name_match": 1.0
+   }
+  ]
+ },
+ "alnatura-gmbh": {
+  "imprint_url": "https://alnatura.de/impressum",
+  "website": "https://alnatura.de",
+  "robots_ok": true,
+  "id_hits": {
+   "register_id": "HRB 4407"
+  },
+  "name_on_page": true,
+  "postcode_on_page": true,
+  "street_on_page": true,
+  "vats_on_page": [
+   "DE111615161"
+  ],
+  "vies": [
+   {
+    "uid": "DE111615161",
+    "valid": true,
+    "vies_name": null,
+    "vies_address": null,
+    "checked_at": "2026-10-16T18:59:30.801Z",
+    "name_match": null
+   }
+  ]
+ },
+ "alnatura-produktions-und-handels-gmbh": {
+  "imprint_url": "https://alnatura.de/impressum",
+  "website": "https://alnatura.de",
+  "robots_ok": true,
+  "id_hits": {
+   "register_id": "HRB 4407"
+  },
+  "name_on_page": true,
+  "postcode_on_page": true,
+  "street_on_page": true,
+  "vats_on_page": [
+   "DE111615161"
+  ],
+  "vies": [
+   {
+    "uid": "DE111615161",
+    "valid": true,
+    "vies_name": null,
+    "vies_address": null,
+    "checked_at": "2026-10-16T18:59:35.260Z",
+    "name_match": null
+   }
+  ]
+ },
+ "weinbergmaier-gmbh": {
+  "imprint_url": "https://weinbergmaier.at/impressum",
+  "website": "https://weinbergmaier.at",
+  "robots_ok": true,
+  "id_hits": {
+   "fn": "FN 122164d",
+   "register_id": "122164d"
+  },
+  "name_on_page": true,
+  "postcode_on_page": true,
+  "street_on_page": true,
+  "vats_on_page": [
+   "ATU24137903"
+  ],
+  "vies": [
+   {
+    "uid": "ATU24137903",
+    "valid": true,
+    "vies_name": "WEINBERGMAIER GmbH",
+    "vies_address": "Leopold-Werndl-Straße 1\nAT-4493 Wolfern",
+    "checked_at": "2026-10-16T18:59:40.766Z",
+    "name_match": 1.0
+   }
+  ]
+ },
+ "mpreis-warenvertriebs-gmbh": {
+  "imprint_url": "https://mpreis.at/sp/impressum",
+  "website": "https://mpreis.at",
+  "robots_ok": true,
+  "id_hits": {
+   "fn": "FN 43603y",
+   "register_id": "43603y"
+  },
+  "name_on_page": true,
+  "postcode_on_page": true,
+  "street_on_page": true,
+  "vats_on_page": [
+   "ATU30961901"
+  ],
+  "vies": [
+   {
+    "uid": "ATU30961901",
+    "valid": true,
+    "vies_name": "MPREIS Warenvertriebs GmbH",
+    "vies_address": "Landesstraße 16\nAT-6176 Völs",
+    "checked_at": "2026-10-16T18:59:45.946Z",
+    "name_match": 1.0
+   }
+  ]
+ },
+ "noem-ag": {
+  "imprint_url": "https://www.noem.at/impressum",
+  "website": "https://www.noem.at",
+  "robots_ok": true,
+  "id_hits": {
+   "fn": "FN 114782y",
+   "register_id": "114782y"
+  },
+  "name_on_page": false,
+  "postcode_on_page": true,
+  "street_on_page": true,
+  "vats_on_page": [
+   "ATU23264205"
+  ],
+  "vies": [
+   {
+    "uid": "ATU23264205",
+    "valid": true,
+    "vies_name": "NÖM AG",
+    "vies_address": "Vöslauer Straße 109\nAT-2500 Baden",
+    "checked_at": "2026-10-16T18:59:49.698Z",
+    "name_match": 1.0
+   }
+  ]
+ },
+ "bertagni-1882-spa": {
+  "imprint_url": "https://bertagni1882.it/",
+  "website": "https://bertagni1882.it",
+  "robots_ok": true,
+  "id_hits": {
+   "register_id": "03719720249"
+  },
+  "name_on_page": true,
+  "postcode_on_page": false,
+  "street_on_page": false,
+  "vats_on_page": [
+   "IT03719720249"
+  ],
+  "vies": [
+   {
+    "uid": "IT03719720249",
+    "valid": true,
+    "vies_name": "BERTAGNI 1882 S.P.A.",
+    "vies_address": "LOCALITA' CAMPAGNOLE 1 \n38063 AVIO TN\n",
+    "checked_at": "2026-10-16T18:59:53.847Z",
+    "name_match": 1.0
+   }
+  ]
+ },
+ "dr-oetker-gmbh": {
+  "imprint_url": "https://www.oetker.at/impressum",
+  "website": "https://www.oetker.at",
+  "robots_ok": true,
+  "id_hits": {
+   "fn": "FN 115931m",
+   "register_id": "115931m"
+  },
+  "name_on_page": true,
+  "postcode_on_page": true,
+  "street_on_page": true,
+  "vats_on_page": [
+   "ATU26533105"
+  ],
+  "vies": [
+   {
+    "uid": "ATU26533105",
+    "valid": true,
+    "vies_name": "Dr. Oetker GmbH",
+    "vies_address": "Ringmauergasse 9/1\nAT-9500 Villach",
+    "checked_at": "2026-10-16T18:59:57.099Z",
+    "name_match": 1.0
+   }
+  ]
+ },
+ "ehrmann-gmbh": {
+  "imprint_url": "https://www.ehrmann.de/impressum",
+  "website": "https://www.ehrmann.de",
+  "robots_ok": true,
+  "id_hits": {},
+  "name_on_page": false,
+  "postcode_on_page": true,
+  "street_on_page": true,
+  "vats_on_page": [
+   "DE811249984"
+  ],
+  "vies": [
+   {
+    "uid": "DE811249984",
+    "valid": true,
+    "vies_name": null,
+    "vies_address": null,
+    "checked_at": "2026-10-16T19:00:02.899Z",
+    "name_match": null
+   }
+  ]
+ },
+ "adriatic-group-gmbh": {
+  "imprint_url": "https://adriaticgroup.at/de/impressum",
+  "website": "https://adriaticgroup.at",
+  "robots_ok": true,
+  "error": "fetch failed"
+ },
+ "biovegan-gmbh": {
+  "imprint_url": "https://biovegan.de/pages/impressum",
+  "website": "https://biovegan.de",
+  "robots_ok": true,
+  "id_hits": {
+   "register_id": "HRB 5692"
+  },
+  "name_on_page": true,
+  "postcode_on_page": true,
+  "street_on_page": true,
+  "vats_on_page": [
+   "DE189692892"
+  ],
+  "vies": [
+   {
+    "uid": "DE189692892",
+    "valid": true,
+    "vies_name": null,
+    "vies_address": null,
+    "checked_at": "2026-10-16T19:00:18.621Z",
+    "name_match": null
+   }
+  ]
+ },
+ "dr-schaer-spa": {
+  "imprint_url": "https://schaer.com/imprint",
+  "website": "https://schaer.com",
+  "robots_ok": true,
+  "id_hits": {
+   "lei": "8156007EFCC74E27AB09",
+   "register_id": "00605750215"
+  },
+  "name_on_page": false,
+  "postcode_on_page": true,
+  "street_on_page": true,
+  "vats_on_page": [
+   "IT00605750215"
+  ],
+  "vies": [
+   {
+    "uid": "IT00605750215",
+    "valid": true,
+    "vies_name": "DR. SCHAER AG",
+    "vies_address": "VIA WINKELAU 9 \n39014 POSTAL .BURGSTALL. BZ\n",
+    "checked_at": "2026-10-16T19:00:22.257Z",
+    "name_match": 1.0
+   }
+  ]
+ },
+ "glatz-gmbh": {
+  "imprint_url": "https://glatz.at/impressum-gruppe",
+  "website": "https://glatz.at",
+  "robots_ok": true,
+  "id_hits": {},
+  "name_on_page": true,
+  "postcode_on_page": false,
+  "street_on_page": false,
+  "vats_on_page": [
+   "ATU39297505"
+  ],
+  "vies": [
+   {
+    "uid": "ATU39297505",
+    "valid": true,
+    "vies_name": "Glatz Unternehmensgruppe GmbH",
+    "vies_address": "Arlbergstraße 104\nAT-6900 Bregenz",
+    "checked_at": "2026-10-16T19:00:27.791Z",
+    "name_match": 0.5
+   }
+  ]
+ },
+ "tress-lebensmittel-gmbh-co-kg": {
+  "imprint_url": "https://tressbrueder.de/impressum",
+  "website": "https://tressbrueder.de",
+  "robots_ok": true,
+  "id_hits": {
+   "register_id": "HRA 726441"
+  },
+  "name_on_page": false,
+  "postcode_on_page": true,
+  "street_on_page": true,
+  "vats_on_page": [
+   "DE815327525"
+  ],
+  "vies": [
+   {
+    "uid": "DE815327525",
+    "valid": true,
+    "vies_name": null,
+    "vies_address": null,
+    "checked_at": "2026-10-16T19:00:31.454Z",
+    "name_match": null
+   }
+  ]
+ },
+ "andros-deutschland-gmbh": {
+  "imprint_url": "https://andros.de/impressum/",
+  "website": "https://andros.de",
+  "robots_ok": true,
+  "id_hits": {
+   "register_id": "HRB 70104"
+  },
+  "name_on_page": true,
+  "postcode_on_page": true,
+  "street_on_page": true,
+  "vats_on_page": [
+   "DE111651973"
+  ],
+  "vies": [
+   {
+    "uid": "DE111651973",
+    "valid": true,
+    "vies_name": null,
+    "vies_address": null,
+    "checked_at": "2026-10-16T19:00:34.507Z",
+    "name_match": null
+   }
+  ]
+ },
+ "euryza-gmbh": {
+  "imprint_url": "https://www.reis-fit.de/impressum/",
+  "website": "https://www.reis-fit.de",
+  "robots_ok": true,
+  "id_hits": {
+   "register_id": "HRB 1854"
+  },
+  "name_on_page": true,
+  "postcode_on_page": true,
+  "street_on_page": true,
+  "vats_on_page": [
+   "DE118617157"
+  ],
+  "vies": [
+   {
+    "uid": "DE118617157",
+    "valid": true,
+    "vies_name": null,
+    "vies_address": null,
+    "checked_at": "2026-10-16T19:00:38.975Z",
+    "name_match": null
+   }
+  ]
+ },
+ "greenforce-future-food-ag": {
+  "imprint_url": "https://greenforce.com/policies/legal-notice",
+  "website": "https://greenforce.com",
+  "robots_ok": true,
+  "id_hits": {
+   "register_id": "HRB 269298"
+  },
+  "name_on_page": true,
+  "postcode_on_page": true,
+  "street_on_page": true,
+  "vats_on_page": [
+   "DE347178952"
+  ],
+  "vies": [
+   {
+    "uid": "DE347178952",
+    "valid": true,
+    "vies_name": null,
+    "vies_address": null,
+    "checked_at": "2026-10-16T19:00:42.030Z",
+    "name_match": null
+   }
+  ]
+ },
+ "ruegenwalder-muehle-carl-mueller-gmbh-co-kg": {
+  "imprint_url": "https://www.ruegenwalder.de/de/impressum",
+  "website": "https://www.ruegenwalder.de",
+  "robots_ok": true,
+  "id_hits": {
+   "register_id": "HRA 120467"
+  },
+  "name_on_page": false,
+  "postcode_on_page": true,
+  "street_on_page": false,
+  "vats_on_page": [
+   "DE813090002"
+  ],
+  "vies": [
+   {
+    "uid": "DE813090002",
+    "valid": true,
+    "vies_name": null,
+    "vies_address": null,
+    "checked_at": "2026-10-16T19:00:45.867Z",
+    "name_match": null
+   }
+  ]
+ },
+ "efko-frischfrucht-und-delikatessen-gmbh": {
+  "imprint_url": "https://www.efko.at/impressum/",
+  "website": "https://www.efko.at",
+  "robots_ok": true,
+  "id_hits": {
+   "fn": "FN 101672v",
+   "register_id": "101672v"
+  },
+  "name_on_page": true,
+  "postcode_on_page": true,
+  "street_on_page": true,
+  "vats_on_page": [
+   "ATU22195005"
+  ],
+  "vies": [
+   {
+    "uid": "ATU22195005",
+    "valid": true,
+    "vies_name": "efko Frischfrucht und Delikatessen GmbH",
+    "vies_address": "Hinzenbach 38\nAT-4070 Hinzenbach",
+    "checked_at": "2026-10-16T19:00:51.117Z",
+    "name_match": 1.0
+   }
+  ]
+ },
+ "followfood-gmbh": {
+  "imprint_url": "https://followfood.de/impressum",
+  "website": "https://followfood.de",
+  "robots_ok": true,
+  "id_hits": {
+   "register_id": "HRB 631854"
+  },
+  "name_on_page": true,
+  "postcode_on_page": true,
+  "street_on_page": false,
+  "vats_on_page": [
+   "DE812883948"
+  ],
+  "vies": [
+   {
+    "uid": "DE812883948",
+    "valid": true,
+    "vies_name": null,
+    "vies_address": null,
+    "checked_at": "2026-10-16T19:00:54.489Z",
+    "name_match": null
+   }
+  ]
+ },
+ "rewe-international-ag": {
+  "imprint_url": "https://rewe-group.at/de/impressum/",
+  "website": "https://rewe-group.at",
+  "robots_ok": true,
+  "id_hits": {
+   "fn": "FN 82769w",
+   "register_id": "82769w"
+  },
+  "name_on_page": true,
+  "postcode_on_page": true,
+  "street_on_page": true,
+  "vats_on_page": [
+   "ATU41898906"
+  ],
+  "vies": [
+   {
+    "uid": "ATU41898906",
+    "valid": true,
+    "vies_name": "REWE International AG",
+    "vies_address": "Industriezentrum NÖ-Süd,Str 3\nAT-2355 Wiener Neudorf",
+    "checked_at": "2026-10-16T19:00:58.825Z",
+    "name_match": 1.0
+   }
+  ]
+ },
+ "spar-oesterreichische-warenhandels-aktiengesellschaft": {
+  "imprint_url": "https://spar.at/impressum.html",
+  "website": "https://spar.at",
+  "robots_ok": true,
+  "error": "fetch failed"
+ }
+}

@@ -1,0 +1,31 @@
+staudinger-delikatessen-gmbh -> ['no imprint with ids', 'no imprint with ids']
+tops-foods -> ['no imprint with ids', 'no imprint with ids']
+adriatic-group-gmbh -> ('https://adriaticgroup.at/de/impressum', ['fn', 'register_id'], True)
+barilla-g-e-r-fratelli-societa-per-azioni -> ['no imprint with ids', 'no imprint with ids']
+biovegan-gmbh -> ('https://biovegan.de/pages/impressum', ['register_id'], True)
+dr-schaer-spa -> ('https://schaer.com/imprint', ['lei', 'register_id'], False)
+glatz-gmbh -> ('https://glatz.at/impressum-gruppe', [], True)
+tress-lebensmittel-gmbh-co-kg -> ('https://tressbrueder.de/impressum', ['register_id'], False)
+andros-deutschland-gmbh -> ('https://andros.de/impressum/', ['register_id'], True)
+dairy-4-fun-sro -> ['no imprint with ids']
+danone-deutschland-gmbh -> ['no imprint with ids']
+delamaris-doo -> ['no imprint with ids']
+doppelt-sp-z-oo -> ['no imprint with ids']
+estyria-naturprodukte-gmbh -> ['no imprint with ids']
+euryza-gmbh -> ('https://www.reis-fit.de/impressum/', ['register_id'], True)
+franu-espana-sl -> ['no imprint with ids', 'no imprint with ids']
+franz-ablinger-co-fleischhauereibetrieb-gesellschaft-mbh -> ['no imprint with ids', 'no imprint with ids']
+greenforce-future-food-ag -> ('https://greenforce.com/policies/legal-notice', ['register_id'], True)
+galana-nv-beldessert -> ['no imprint with ids', 'no imprint with ids']
+la-crepe-de-broceliande-8-rue-pierre-legaultboisgervilly3536 -> ['no imprint with ids', 'no imprint with ids']
+planted-foods-ag -> ['no imprint with ids', 'no imprint with ids']
+riso-gallo-spa -> ['no imprint with ids', 'no imprint with ids']
+riso-scotti-spa -> ['no imprint with ids', 'no imprint with ids']
+ruegenwalder-muehle-carl-mueller-gmbh-co-kg -> ('https://www.ruegenwalder.de/de/impressum ', ['register_id'], False)
+winkelbauer-gmbh -> ['no imprint with ids']
+efko-frischfrucht-und-delikatessen-gmbh -> ('https://www.efko.at/impressum/', ['fn', 'register_id'], True)
+followfood-gmbh -> ('https://followfood.de/impressum', ['register_id'], True)
+rewe-international-ag -> ('https://rewe-group.at/de/impressum/', ['fn', 'register_id'], True)
+spar-oesterreichische-warenhandels-aktiengesellschaft -> ('https://spar.at/impressum.html', ['fn', 'register_id'], False)
+unimarkt-gmbh -> ['no imprint with ids']
+gastrotech -> ['no imprint with ids']
