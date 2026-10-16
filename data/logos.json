@@ -843,7 +843,10 @@
   "file": "logos/knoedelwerkstatt.png",
   "source_url": "https://www.knoedelwerkstatt.at/wp-content/uploads/2023/02/KnoedelwerkstattLogo100px-e1676362466120.png",
   "brands": [
-   "Knödelwerkstatt"
+   "Knödelwerkstatt",
+   "Die Knödelwerkstatt",
+   "Knödelwerkstatt Ges.m.b.H.",
+   "Knödelwerkstatt GmbH"
   ]
  },
  {
@@ -873,9 +876,7 @@
   "file": "logos/goldblatt.svg",
   "source_url": "https://goldblatt.at/cdn/shop/files/goldblatt-logo-2026_fuer-Shop.svg?v=1790321040",
   "brands": [
-   "Goldblatt",
-   "Online: Goldblatt",
-   "Golden Veggies"
+   "Goldblatt"
   ]
  },
  {
@@ -910,10 +911,7 @@
   "file": "logos/iss-mich.png",
   "source_url": "https://www.issmich.at/media/6a/g0/4e/1706898229/logo_issich_132x132_nobg.png",
   "brands": [
-   "Iss mich!",
-   "iss mich!",
-   "Online: iss mich!",
-   "iss mich! GmbH"
+   "Iss mich!"
   ]
  },
  {
@@ -1485,7 +1483,9 @@
   "file": "logos/followfood.svg",
   "source_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Followfood_Logo.svg",
   "brands": [
-   "followfood"
+   "followfood",
+   "Followfood",
+   "followfood GmbH"
   ]
  },
  {
@@ -2414,7 +2414,9 @@
   "brands": [
    "Frank Soup",
    "frank",
-   "frank juice"
+   "frank juice",
+   "Frank Juice",
+   "FrankJuice GmbH"
   ]
  },
  {
@@ -3217,6 +3219,54 @@
    "Alfie's",
    "alfies.at",
    "Alfie's GmbH"
+  ]
+ },
+ {
+  "slug": "elfer",
+  "name": "11er (elfer)",
+  "category": "Markenhersteller",
+  "file": "logos/elfer-11er.svg",
+  "source_url": "https://www.11er.at/fileadmin/files/images/user_upload/01_Startseite/logo-11er-2.svg (11er.at robots: Allow /, Disallow only /typo3/)",
+  "brands": [
+   "11er",
+   "elfer",
+   "11er Nahrungsmittel GmbH"
+  ]
+ },
+ {
+  "slug": "ajinomoto",
+  "name": "Ajinomoto",
+  "category": "Markenhersteller",
+  "file": "logos/ajinomoto.svg",
+  "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Ajinomoto_logo.svg (Wikimedia Commons File:Ajinomoto logo.svg, Public domain / textlogo)",
+  "brands": [
+   "Ajinomoto",
+   "AJINOMOTO",
+   "Ajinomoto Oyakata"
+  ]
+ },
+ {
+  "slug": "getvoila",
+  "name": "getvoila",
+  "category": "Markenhersteller",
+  "file": "logos/getvoila.svg",
+  "source_url": "https://cdn.shopify.com/s/files/1/0568/3173/8034/files/Logo.svg?v=1713430514 (Header von getvoila.com; robots Disallow nur cart/checkout/search)",
+  "brands": [
+   "Getvoila",
+   "getvoila",
+   "GETVOILA"
+  ]
+ },
+ {
+  "slug": "mamma-emma",
+  "name": "Mamma Emma",
+  "category": "Markenhersteller",
+  "file": "logos/mamma-emma.svg",
+  "source_url": "https://www.mammaemma.it/wp-content/uploads/2019/11/logo-brown.svg (mammaemma.it robots: Disallow only cfdb7_uploads)",
+  "brands": [
+   "Mamma Emma",
+   "mamma emma",
+   "MAMMA EMMA"
   ]
  }
 ]

@@ -1,0 +1,104 @@
+{
+ "run": "2026-10-16T1736 Daten-Squad",
+ "generated_at": "2026-10-16T17:40:53.409176+00:00",
+ "added": [
+  {
+   "slug": "elfer",
+   "note": "Vision gate 2026-10-16T1736 (Daten-Squad): visuell geprüft (korrekte Marke, lesbar, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · Offizielles Oval-Logo '11er elfer AUSTRIA' von 11er.at, unverändert; Betreiber laut Website Galinastraße 34, 6820 Frastanz (Kartoffelprodukte/Rösti = Alfies/MPreis 11er-Rösti-Zeilen)",
+   "source": "https://www.11er.at/fileadmin/files/images/user_upload/01_Startseite/logo-11er-2.svg (11er.at robots: Allow /, Disallow only /typo3/)",
+   "sha256": "02d36361fa35d49bbf6ce013595934bccbf633ce65e5208d5d79062cebf00916",
+   "products_impacted": 6,
+   "aliases": [
+    "11er",
+    "elfer",
+    "11er Nahrungsmittel GmbH"
+   ]
+  },
+  {
+   "slug": "ajinomoto",
+   "note": "Vision gate 2026-10-16T1736 (Daten-Squad): visuell geprüft (korrekte Marke, lesbar, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · Rotes AJINOMOTO-Wordmark (Konzernmarke) von Wikimedia Commons, unverändert; auch für 'Ajinomoto Oyakata'-Zeilen, deren Markenname die Konzernmarke enthält (Oyakata = Ajinomoto-Untermarke; kein eigenes Oyakata-Logo verwendet)",
+   "source": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Ajinomoto_logo.svg (Wikimedia Commons File:Ajinomoto logo.svg, Public domain / textlogo)",
+   "sha256": "1424782c8d97d49a0e2f1cc15820e93da02feffc46c21491f0d0fa9392a86ebb",
+   "products_impacted": 10,
+   "aliases": [
+    "Ajinomoto",
+    "AJINOMOTO",
+    "Ajinomoto Oyakata"
+   ]
+  },
+  {
+   "slug": "getvoila",
+   "note": "Vision gate 2026-10-16T1736 (Daten-Squad): visuell geprüft (korrekte Marke, lesbar, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · Offizielles 'getvoila'-Wordmark von getvoila.com; Original #FAF7F4 (hell auf dunkel) → Füllfarbe #1f1f1f für helle UI, Pfade unverändert; Marke bestätigt über getvoila.com Produkt-Sitemap (neapolitanische-pizza-bufalina/diavola/quattro-formaggi = Alfies 'getvoila … Neapolitanisches Kochkollektiv')",
+   "source": "https://cdn.shopify.com/s/files/1/0568/3173/8034/files/Logo.svg?v=1713430514 (Header von getvoila.com; robots Disallow nur cart/checkout/search)",
+   "sha256": "8a433ac9fa4a13100bc51a7a932c2e2045d38d3e77f133c5107dda0e29e38314",
+   "products_impacted": 4,
+   "aliases": [
+    "Getvoila",
+    "getvoila",
+    "GETVOILA"
+   ]
+  },
+  {
+   "slug": "mamma-emma",
+   "note": "Vision gate 2026-10-16T1736 (Daten-Squad): visuell geprüft (korrekte Marke, lesbar, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · Offizielles braunes 'mamma emma'-Wordmark von mammaemma.it (Gnocchi di patate), unverändert; = Alfies 'Mamma Emma Kartoffel Gnocchi'-Zeilen",
+   "source": "https://www.mammaemma.it/wp-content/uploads/2019/11/logo-brown.svg (mammaemma.it robots: Disallow only cfdb7_uploads)",
+   "sha256": "73d40d3106192e497f7a95a6503dcb1f4fa0acf636a2e19e8ffa242fad970fce",
+   "products_impacted": 3,
+   "aliases": [
+    "Mamma Emma",
+    "mamma emma",
+    "MAMMA EMMA"
+   ]
+  }
+ ],
+ "updated_fileless": [],
+ "aliases_added": {
+  "followfood": {
+   "aliases": [
+    "Followfood",
+    "followfood GmbH"
+   ],
+   "products_impacted": 2
+  },
+  "frank-juice": {
+   "aliases": [
+    "Frank Juice",
+    "FrankJuice GmbH"
+   ],
+   "products_impacted": 3
+  },
+  "knoedelwerkstatt": {
+   "aliases": [
+    "Die Knödelwerkstatt",
+    "Knödelwerkstatt Ges.m.b.H.",
+    "Knödelwerkstatt GmbH"
+   ],
+   "products_impacted": 3
+  }
+ },
+ "rejected": {
+  "Followfish (2 Alfies rows)": "packshot shows the old 'followfish' wordmark; the existing followfood logo has a different wordmark → not aliased (no followfish logo asset on Commons/followfood.de)",
+  "followfood.de followfood-logo-2025 SVG": "not needed — existing Commons followfood row kept, only case alias 'Followfood' added",
+  "Knödelwerkstatt round logo (Logo_knödelwerkstatt-transparent-web.png)": "existing row already has the official knoedelwerkstatt.at header logo; alias only (Alfies brand 'Knödelwerkstatt Ges.m.b.H.' origin AT = Knödelwerkstatt GmbH, Hauptstraße 12, 4581 Rosenau am Hengstpaß per Impressum; Impressum UID truncated 'ATU' → company not VIES-verified)",
+  "The Green Garden / Wiener Virtshaus / Pasta Box / Elsässer": "known rejects from earlier runs — not re-probed"
+ },
+ "vision_gate": {
+  "elfer": "PASS — yellow oval, red '11er' + black 'elfer' + AUSTRIA (SVG)",
+  "ajinomoto": "PASS — red AJINOMOTO wordmark (SVG 1000x139)",
+  "getvoila": "PASS — dark 'getvoila' wordmark after recolour (SVG 123x36 viewBox)",
+  "mamma-emma": "PASS — brown 'mamma emma' wordmark (SVG)"
+ },
+ "counts": {
+  "added": 4,
+  "updated_fileless": 0,
+  "total_rows": 298,
+  "with_file": 283,
+  "products_impacted_total": 23
+ },
+ "sha256": {
+  "elfer": "02d36361fa35d49bbf6ce013595934bccbf633ce65e5208d5d79062cebf00916",
+  "ajinomoto": "1424782c8d97d49a0e2f1cc15820e93da02feffc46c21491f0d0fa9392a86ebb",
+  "getvoila": "8a433ac9fa4a13100bc51a7a932c2e2045d38d3e77f133c5107dda0e29e38314",
+  "mamma-emma": "73d40d3106192e497f7a95a6503dcb1f4fa0acf636a2e19e8ffa242fad970fce"
+ }
+}
