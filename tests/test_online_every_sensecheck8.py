@@ -1,7 +1,7 @@
 """Sensecheck 8: every. (every-foods.com) online provider is in the app; online frozen providers are packed as TK;
 pure finished-meal providers never show up as Beilage/Zutat/Protein component."""
 import json
-P='/workspace/fertig-app/public/data.json'
+import os as _os; P=_os.environ.get('GOOD_CHOICE_DATA','/workspace/fertig-app/public/data.json')
 MEALPREP_ONLY={'PrepMyMeal','Juit','every.','LiveFresh','FitTaste'}
 
 def _rows(): return json.load(open(P))['rows']

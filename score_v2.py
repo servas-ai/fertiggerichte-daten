@@ -202,3 +202,29 @@ SOUSVIDE_PIECE = re.compile(r'^(?!.*\b(gulasch|curry|asia|mit|und|dazu|auf)\b).*
 def plain_component(nm): return bool(SOUSVIDE_PIECE.search(nm or ''))
 BREAKFAST = re.compile(r'frühstück|porridge|overnight ?oats|\bmüsli|\bmuesli|haferbrei|\bbrei\b',re.I)
 COMPONENT = re.compile(r'suppenfleisch|lachsfilet|backhendl|keulen?\b|falafel|laibchen|fischstäbchen|nuggets?\b|cordon bleu|schnitzel(?!.*(mit|püree|reis|erdäpfel|kartoffel|pommes))|filet(?!.*(mit|reis|püree|gemüse))|tofu(?!.*(mit|curry|bowl))|tempeh|bratwurst|grillwurst|cevapcici|frikadell',re.I)
+# Sensecheck 13: a component word ('Hühnerfilet', 'Laibchen', 'Lachsfilet') next to a separate carb word is a dish, not a component:
+#  Iglo 'Französische Art Penne, Gemüse & Hühnerfilet', 'Faschierte Laibchen mit Kartoffelpüree', HelloFresh 'Miso-Lachsfilet auf … Reis'.
+#  Whole words only, so 'Erdäpfellaibchen' / 'Kartoffelrösti' style compounds keep their component status.
+CARB_WORD = re.compile(r'\b(penne|spaghetti\w*|pasta|nudeln?|tagliatelle|fusilli|rigatoni|makkaroni|reis|basmati(?:reis)?|risotto|kartoffeln?|kartoffelpüree|kartoffelspalten|erdäpfeln?|erdäpfelpüree|püree|pueree|gnocchi|spätzle|nockerl|couscous|bulgur|quinoa|pommes|rösti|knödeln?|polenta|tarhonya)\b',re.I)
+def component_name(nm):
+    nm=nm or ''; m=COMPONENT.search(nm)
+    if not m: return False
+    ws=m.start()
+    while ws>0 and nm[ws-1].isalnum(): ws-=1
+    we=m.end()
+    while we<len(nm) and nm[we].isalnum(): we+=1
+    return not any(c.end()<=ws or c.start()>=we for c in CARB_WORD.finditer(nm))
+# Sensecheck 13: oven fish with sauce/topping but no side (Iglo Polar-Dorsch Mediterrane/Serbische Art/Müllerin, Schlemmerfilet,
+#  Filegro, Ofenfisch) is a protein component ('Zum Kombinieren'), like breaded fish (sc11) — not a complete ready meal.
+TOPPED_FISH = re.compile(r'schlemmerfilet|ofenfisch|filegro|\b(polar.?dorsch|seelachs\w*|alaska.?seelachs\w*|kabeljau|dorsch|lachsfilet|fischfilet|pangasius\w*|zander\w*)\b.*\b(art|müllerin|bordelaise|mexicana|toscana|kräuter\w*|gratin|champignon|broccoli|brokkoli|provence|italiana|limone|zitrone|rotes curry)\b',re.I)
+NOT_COMPONENT_DISH = re.compile(r'pizza|burger|wrap|sandwich|baguette|bowl|salat|salad|suppe|menü|teller|eintopf|lasagne|bolognese|pfanne|gemüse',re.I)
+def topped_fish(nm): return bool(TOPPED_FISH.search(nm or '')) and not CARB_WORD.search(nm or '') and not NOT_COMPONENT_DISH.search(nm or '')
+# Sensecheck 13: pure Planted meat-substitute pieces ('Chicken Kräuter & Zitrone' 160 g, Steak, Kebab) are components; Planted inside
+#  a dish (Juit 'Planted Chicken BBQ' 500 g, PrepMyMeal 'Planted Grünes Curry', BILLA 'Wrap Gyros Planted') stays a meal.
+def meat_sub_piece(nm, brand='', size=None):
+    t=(nm or '')+' '+(brand or '')
+    if not re.search(r'\bplanted\b',t,re.I): return False
+    if CARB_WORD.search(nm or '') or NOT_COMPONENT_DISH.search(nm or '') or re.search(r'curry|kebab-style|gyros|chili|risotto|ragout|tajine',nm or '',re.I): return False
+    try: sz=float(size) if size not in (None,'') else None
+    except (TypeError,ValueError): sz=None
+    return sz is None or sz<=300

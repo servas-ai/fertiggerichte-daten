@@ -1,6 +1,6 @@
 """Sensecheck 6: Thunfisch wraps are stage meal (not prot/component); plain thunfisch cans may stay prot."""
 import json,re
-P='/workspace/fertig-app/public/data.json'
+import os as _os; P=_os.environ.get('GOOD_CHOICE_DATA','/workspace/fertig-app/public/data.json')
 
 def test_thunfisch_wraps_are_meal_not_prot():
     R=json.load(open(P))['rows']

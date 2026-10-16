@@ -1,13 +1,13 @@
 """Gaps overlay: fills missing price/shop only from exact-name matches in heisse-preise raw dump
 (heisse_preise_raw.json, fetched 2026-10-12); otherwise flags price_status/shop_status='unknown' with reason.
 Never invents. Usage: python3 gaps_overlay.py [--apply public/data.json]"""
-import json,re,sys,fcntl,unicodedata
+import json,re,sys,fcntl,unicodedata,os
 def N(s):
     s=unicodedata.normalize('NFKD',(s or '').lower()).encode('ascii','ignore').decode()
     return re.sub(r'[^a-z0-9]+',' ',s).strip()
 SM={'Billa':'billa','Spar':'spar','Hofer':'hofer','MPreis':'mpreis','dm':'dm','Unimarkt':'unimarkt'}
 NICE={v:k for k,v in SM.items()}
-raw=json.load(open('/workspace/fertig/heisse_preise_raw.json'))
+raw=json.load(open(os.environ.get('GAPS_RAW','/workspace/fertig/heisse_preise_raw.json')))
 idx={}
 for x in raw:
     if x.get('store') not in NICE: continue
@@ -39,7 +39,7 @@ for r in R:
         else: o.update(shop_status='unknown',shop_reason='Open Food Facts ohne Händlerangabe; kein exakter Namenstreffer in AT-Händlerdaten')
     o.setdefault('availability_level','chain')
     ov[r['store']+'|'+r['name']]=o
-json.dump(ov,open('/workspace/fertig/gaps_overlay.json','w'),ensure_ascii=False)
+json.dump(ov,open(os.environ.get('GAPS_OVERLAY_OUT','/workspace/fertig/gaps_overlay.json'),'w'),ensure_ascii=False)  # orch 1710: env override so worktrees don't write into /workspace/fertig
 import collections as C
 print('price filled',sum(1 for o in ov.values() if o.get('price_status')=='filled'),'price unknown',sum(1 for o in ov.values() if o.get('price_status')=='unknown'),
  C.Counter(o.get('price_reason') for o in ov.values() if o.get('price_reason')),

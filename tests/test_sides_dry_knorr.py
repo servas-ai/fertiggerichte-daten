@@ -1,6 +1,6 @@
 """Sensecheck 6b: no dry Knorr/Maggi Kochbeutel/instant mixes in sides; Spaghetteria never in tops."""
 import json,os,re,pytest
-P='/workspace/fertig-app/public/data.json'
+import os as _os; P=_os.environ.get('GOOD_CHOICE_DATA','/workspace/fertig-app/public/data.json')
 DRY_SIDE=re.compile(
     r'\b(knorr|maggi)\b.*(kochbeutel|semmelknödel|knödel halb|spaghetteria|pasta snack|cup[- ]?a[- ]?soup|asia noodles|bitte zu tisch|quick soup|hüttensnack|instant)|'
     r'kochbeutel.*\b(knorr|maggi)\b',

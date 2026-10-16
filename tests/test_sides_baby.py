@@ -1,6 +1,6 @@
 """Sensecheck 6: no baby/infant food (HiPP etc.) in the sides list; plain veg named 'Babykarotten' may stay."""
 import json,os,re,pytest
-P='/workspace/fertig-app/public/data.json'
+import os as _os; P=_os.environ.get('GOOD_CHOICE_DATA','/workspace/fertig-app/public/data.json')
 BABY=re.compile(r'\b(hipp|alete|bebivita|beba|aptamil|babylove|freche freunde)\b|babynahrung|beikost|gläschen|kleinkind|säugling|\bbaby\b',re.I)
 @pytest.mark.skipif(not os.path.exists(P),reason='no app data.json')
 def test_no_baby_food_in_sides():

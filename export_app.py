@@ -2,8 +2,13 @@ import json,re
 exec(open('build.py').read().split('E=html.escape')[0])
 src={(x.get('name') or '').strip():x for x in d}
 SRCU={x.get('url'):x for x in d if x.get('url')}
+# sensecheck 13: several scored rows can share one shop URL (heisse-preise canonical keeps old pack sizes, e.g. BILLA Lasagne
+#  Bolognese 700 g + 400 g on …-00697017). A URL-only lookup gave every twin the attributes (price_date, meal_check, component…)
+#  of whichever row came last, so look up by (url, name, size) first and only then fall back to url / name.
+SRCUNS={(x.get('url'),(x.get('name') or '').strip(),f(x.get('size_g'))):x for x in d if x.get('url') and x.get('is_meal')}
+def _srcx(r): return SRCUNS.get((r.get('url'),r.get('name'),r.get('size'))) or SRCU.get(r.get('url')) or src.get(r['name'],{})
 for i,r in enumerate(R):
-    x=SRCU.get(r.get('url')) or src.get(r['name'],{}); r['id']=i
+    x=_srcx(r); r['id']=i
     r['bio']=bool(x.get('bio')) or bool(re.search(r'\bbio\b',r['name']+' '+r['brand'],re.I))
     r['vegan']=bool(re.search(r'vegan',r['name']+' '+str(x.get('veg') or ''),re.I))
     r['sugar']=f(x.get('sugar_100')); r['fat']=f(x.get('fat_100')); r['carbs']=f(x.get('carbs_100')); r['ns']=x.get('nutriscore'); r['ns_st']=x.get('nutriscore_status'); r['nova']=x.get('nova'); r['additives']=x.get('additives'); r['eco']=x.get('ecoscore')
@@ -123,7 +128,7 @@ for r in R:
     r['saltPor']=round(r['salt']*por/100,2) if por and r.get('salt') is not None else None
     r['saltPct']=round(r['saltPor']/6*100) if r['saltPor'] is not None else None
     # --- score v2 fields (analysis/score_v2.md); portion=100 placeholder -> unknown ---
-    _x=SRCU.get(r.get('url')) or src.get(r['name'],{})
+    _x=_srcx(r)
     for _k in ('nutrition_basis','nova','nova_source','veg_pct','veg_source','portion_g','portion_source','kcal_meal','meal_class','day_pct','score_parts','health_score_v1'): r[_k]=_x.get(_k)
     r['scoreV1']=r.pop('health_score_v1')
     if r['portion_g'] is None and r.get('portion')==100: r['portion']=None; r['portion_source']='unknown'
@@ -138,7 +143,7 @@ for r in R:
     if _x.get('gang')=='frühstück': r['gang']='frühstück'; r['rankable']=False
     if _x.get('segment')=='grocery': r['segment']='grocery'
     if r.get('dry') or r.get('nutrition_basis')=='dry' or stg not in ('meal','stew') or r.get('gang')=='dessert' or r.get('segment')=='grocery' or r.get('meal_class')!='meal' or not (_x.get('meal_check') or {}).get('ok'): r['rankable']=False
-    if _x.get('component_kind')=='breaded': stg='prot'; r['stage']='prot'  # sensecheck 11: 'Zum Kombinieren'
+    if _x.get('component_kind') in ('breaded','topped_fish','meat_sub'): stg='prot'; r['stage']='prot'  # sensecheck 11/13: 'Zum Kombinieren'
     r['component']=bool(_x.get('component')) or stg=='prot'
     if r.get('segment')=='meal_kit':
         if not r.get('store') or str(r['store']).startswith('unbekannt'):
@@ -379,10 +384,55 @@ for _vs in _ss.values():
         if _r.get('dupOf') is None:
             _r['dupOf']=_vs[0]['id']; _r['rankable']=False; _r['pli']=None; _r['pliLight']=None; _n_samestore+=1
 print('same-store GTIN twins hidden',_n_samestore)
+# sensecheck 13: same shop + same product URL + same product name but different pack size/price (29 groups, e.g. BILLA Lasagne
+#  Bolognese 700 g/4,99 € + 400 g/3,19 € on one URL; live shop shows only 400 g). heisse-preise 'canonical' keeps retired sizes.
+#  Keep ONE row per (store, url, core name): a row with a real pack size first, then the most recent price date (live-verified size), then a row whose own name/URL
+#  states its size ('Felix Chili con Carne 400 G'), then the usual preference. Twins get dupOf → hidden + not ranked.
+#  Different products on one listing URL (wokostswas.at/k54/…) have different core names and are left alone.
+_SZ_RE=re.compile(r'\b\d+[.,]?\d*\s*(g|kg|ml|l)\b|\b\d+\s*(portionen|portion|stück|stk)\b|\(\s*xl[^)]*\)',re.I)
+def _url_core(r):
+    n=(r.get('name') or '').lower(); n=_SZ_RE.sub(' ',n)
+    return re.sub(r'[^a-z0-9äöüß]+','',n)
+def _same_core(a,b):
+    if a==b: return True
+    s,l=sorted((a,b),key=len)
+    return len(s)>=5 and l.endswith(s)  # 'goodchoicehotdog' vs 'hotdog', 'suppenwurfelklarerindsuppe' vs 'klarerindsuppe'
+def _size_stated(r):
+    sz=r.get('size')
+    if not sz: return False
+    t=((r.get('name') or '')+' '+(r.get('url') or '')).lower()
+    return bool(re.search(r'(?<![\d.,])%d\s*-?\s*g\b'%int(sz),t))
+def _url_pref(r):
+    return (0 if (r.get('size') or 0)>=50 else 1, -(int(str(r.get('price_date') or '0000-00-00').replace('-','')[:8] or 0)), 0 if _size_stated(r) else 1, 0 if r.get('pstat') in ('live 2026','aktuell') else 1)+_pref(r)
+_n_sameurl=0; _su={}
+for _r in R:
+    _u=_r.get('url')
+    if _u and not _is_off(_r): _su.setdefault(((_r.get('store') or '').lower(),_u),[]).append(_r)
+SAMEURL_GROUPS=[]
+for _vs in _su.values():
+    if len(_vs)<2: continue
+    _cl=[]
+    for _r in _vs:
+        _c=_url_core(_r)
+        for g in _cl:
+            if _same_core(_c,g[0]): g[1].append(_r); break
+        else: _cl.append((_c,[_r]))
+    for _c,_g in _cl:
+        if len(_g)<2: continue
+        _g=sorted(_g,key=_url_pref); _keep=_g[0]
+        if _keep.get('dupOf') is not None:  # keeper already hidden as GTIN twin → point at its master
+            _keep=next((x for x in R if x['id']==_keep['dupOf']),_keep)
+        SAMEURL_GROUPS.append([x['id'] for x in _g])
+        for _r in _g[1:]:
+            if _r is _keep or _r.get('dupOf') is not None: continue
+            _r['dupOf']=_keep['id']; _r['rankable']=False; _r['pli']=None; _r['pliLight']=None
+            _r['flags']=(_r.get('flags') or [])+[f"Duplikat (gleiche Shop-URL, andere Größe/Preis – {int(_keep['size']) if _keep.get('size') else '?'} g behalten)"]
+            _n_sameurl+=1
+print('same-store same-URL twins hidden',_n_sameurl,'groups',len(SAMEURL_GROUPS))
 _light=[]
 for _r in R:
     if _r.get('meal_class') in ('baby','dessert','dry','snack_side'): continue
-    if _r.get('segment')=='baby_food' or _r.get('nonfood'): continue
+    if _r.get('segment')=='baby_food' or _r.get('nonfood') or _r.get('dupOf') is not None: continue  # sensecheck 13: hidden twins never enter topLight
     if _r.get('meal_class')!='light_meal': continue
     _mc=_r.get('meal_check') or {}; _k,_p=_mc.get('kcal'),_mc.get('protein')
     if not (_k and 300<=_k<400): continue
@@ -487,6 +537,6 @@ try:
         for _c in [(_r.get('brandN') or '').lower(),(_r.get('brand') or '').split(',')[0].strip().lower()]:
             if _c in _BM: _r['logo']=_BM[_c]; break
 except Exception as _e: print('logo override failed',_e)
-json.dump(out,open('/workspace/fertig-app/public/data.json','w'),ensure_ascii=False,separators=(',',':'))
+json.dump(out,open(os.environ.get('GOOD_CHOICE_OUT','/workspace/fertig-app/public/data.json'),'w'),ensure_ascii=False,separators=(',',':'))  # orch 1710: GOOD_CHOICE_OUT lets a worktree export without touching /workspace/fertig-app
 print(len(R),len(sides),len(combos),len(veg),len(sal),len(sd))
 for c in combos[:6]: print(R[c['main']]['name'],'|',sides[c['veg']]['name'] if False else [s['name'] for s in sides if s['id']==c['veg']],'|',[s['name'] for s in sides if s['id']==c['side']],c)

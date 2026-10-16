@@ -1,6 +1,6 @@
 """Sensecheck 7: sides are ready-to-combine Beilagen only — no desserts, mains/soup inserts, dry staples, duplicates."""
 import json,os,re,pytest
-P='/workspace/fertig-app/public/data.json'
+import os as _os; P=_os.environ.get('GOOD_CHOICE_DATA','/workspace/fertig-app/public/data.json')
 DESSERT=re.compile(r'milchreis|germknödel|kaiserschmarrn|marillen|zwetschk|topfenknödel|nougat|schoko|palatschink|strudel',re.I)
 MAIN=re.compile(r'(wurst|fleisch|selchfleisch|grammel|kaspress|leber|käse)[- ]?knödel|kasnudl|pizza|suprema|ristorante|feine küche|simply good\b.*\bbowl\b',re.I)
 DRY=re.compile(r'knödelbrot|backerbsen|gnocchi n\.? ?\d|gnocchi sardi|my risotto|erdäpfelteig',re.I)

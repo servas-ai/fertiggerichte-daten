@@ -2,7 +2,7 @@
 Values must equal the OFF evidence snapshot; same-store twins collapse via dupOf; low-protein
 light meals stay unranked (no invented ranking)."""
 import json,re
-P='/workspace/fertig-app/public/data.json'
+import os as _os; P=_os.environ.get('GOOD_CHOICE_DATA','/workspace/fertig-app/public/data.json')
 EV=json.load(open('/workspace/fertig/qa/hofer_gtin_off_2026-10-14.json'))['products']
 EXP={'4099200075556':(266,11,1.6),'4099200075570':(220,5.4,1.5),'4061463022950':(113,3.3,0.84),'4061463023018':(119,4.0,1.02)}
 
