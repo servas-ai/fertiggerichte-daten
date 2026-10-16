@@ -1,0 +1,44 @@
+{
+ "run": "2026-10-16T2203",
+ "method": "VIES public REST API ms/DE/vat/<n>, first pass 22:05Z, second pass 22:10Z + /check-status",
+ "first_pass": [
+  {
+   "vat": "DE116156996",
+   "isValid": false,
+   "userError": "MS_UNAVAILABLE",
+   "requestDate": "2026-10-16T22:05:26.654Z",
+   "url": "https://ec.europa.eu/taxation_customs/vies/rest-api/ms/DE/vat/116156996"
+  },
+  {
+   "vat": "DE124612378",
+   "isValid": false,
+   "userError": "MS_UNAVAILABLE",
+   "requestDate": "2026-10-16T22:05:29.107Z",
+   "url": "https://ec.europa.eu/taxation_customs/vies/rest-api/ms/DE/vat/124612378"
+  },
+  {
+   "vat": "DE129088402",
+   "isValid": false,
+   "userError": "MS_UNAVAILABLE",
+   "requestDate": "2026-10-16T22:05:27.616Z",
+   "url": "https://ec.europa.eu/taxation_customs/vies/rest-api/ms/DE/vat/129088402"
+  },
+  {
+   "vat": "DE322242442",
+   "isValid": false,
+   "userError": "MS_UNAVAILABLE",
+   "requestDate": "2026-10-16T22:05:25.818Z",
+   "url": "https://ec.europa.eu/taxation_customs/vies/rest-api/ms/DE/vat/322242442"
+  },
+  {
+   "vat": "DE455151638",
+   "isValid": false,
+   "userError": "MS_UNAVAILABLE",
+   "requestDate": "2026-10-16T22:05:28.271Z",
+   "url": "https://ec.europa.eu/taxation_customs/vies/rest-api/ms/DE/vat/455151638"
+  }
+ ],
+ "second_pass": "all 5 MS_UNAVAILABLE again at 22:10:46\u201322:10:58Z",
+ "check_status_DE": "Unavailable",
+ "result": "none verified; UIDs stay as printed on legal notices, not counted as VIES-verified; legal entity count unchanged 136/148"
+}

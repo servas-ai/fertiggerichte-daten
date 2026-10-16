@@ -20565,7 +20565,7 @@
   "bio": false,
   "vegan": false,
   "url": "https://wokostswas.at/k54/fertigprodukte#good-choice-burger-chicken-300g",
-  "image_url": null,
+  "image_url": "https://images.openfoodfacts.org/images/products/409/920/005/1932/front_hu.8.400.jpg",
   "source": "hofer_goodchoice.json",
   "ean": "4099200051932"
  },
@@ -22775,7 +22775,7 @@
   "bio": false,
   "vegan": false,
   "url": "https://world.openfoodfacts.org/product/4099200146263",
-  "image_url": null,
+  "image_url": "https://images.openfoodfacts.org/images/products/409/920/014/6263/1.400.jpg",
   "source": "frozen_quick.json",
   "ean": null
  },
@@ -22809,7 +22809,7 @@
   "bio": false,
   "vegan": false,
   "url": "https://world.openfoodfacts.org/product/4099200043012",
-  "image_url": null,
+  "image_url": "https://images.openfoodfacts.org/images/products/409/920/004/3012/1.400.jpg",
   "source": "other.json",
   "ean": "4099200043012"
  },
