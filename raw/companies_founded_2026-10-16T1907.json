@@ -2528,5 +2528,15 @@
    ],
    "row_legal_name": "Alfie's GmbH"
   }
+ },
+ "breakdown": {
+  "founded_before": 23,
+  "founded_after": 88,
+  "gleif_creationDate": 45,
+  "firmenbuch_eintragungsdatum_ge_1996": 18,
+  "wikidata_p571": 2,
+  "owners_before": 20,
+  "owners_after": 55,
+  "note": "commit 200c17d message said GLEIF 47 / Firmenbuch 16; the correct split is 45 / 18 (total 65 unchanged)"
  }
 }
