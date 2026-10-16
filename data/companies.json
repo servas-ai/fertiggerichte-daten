@@ -778,7 +778,7 @@
   "owners": null,
   "management": null,
   "employees": null,
-  "revenue": null,
+  "revenue": "101 Mio. € (GJ 2025, Einzelgesellschaft Allos Hof-Manufaktur GmbH; Jahresabschluss zum Geschäftsjahr vom 01.01.2025 bis zum 31.12.2025, veröffentlicht 2026-08-12, lt. North Data)",
   "website": "https://www.allos.de",
   "plants": [],
   "approval_codes": null,
@@ -795,7 +795,8 @@
   "nace": null,
   "sources": [
    "https://www.allos.de/impressum/",
-   "EU VIES DE284733525"
+   "EU VIES DE284733525",
+   "https://www.northdata.de/Allos+Hof-Manufaktur+GmbH%2C+Bremen"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T10:56:14Z",
@@ -2462,7 +2463,7 @@
   "owners": null,
   "management": null,
   "employees": null,
-  "revenue": null,
+  "revenue": "Konzern: 1,28 Mrd. € (GJ 2025, Konzern, konsolidiert; Konzernabschluss zum Geschäftsjahr vom 01.01.2025 bis zum 31.12.2025, veröffentlicht 2026-10-06, lt. North Data); Zott SE & Co. KG publiziert keinen eigenen JA, konsolidiert im Konzernabschluss der Zott Beteiligungs-GmbH (HRB 15884) lt. North Data",
   "website": null,
   "plants": [],
   "approval_codes": null,
@@ -2477,7 +2478,8 @@
   "median_eur_per_10g_protein": 3.7,
   "nace": null,
   "sources": [
-   "https://api.gleif.org/api/v1/lei-records/529900OEMWTCZKJMYE61"
+   "https://api.gleif.org/api/v1/lei-records/529900OEMWTCZKJMYE61",
+   "https://www.northdata.de/Zott+SE+%26+Co.+KG%2C+Mertingen"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T11:01:45Z",
@@ -4575,7 +4577,7 @@
   "owners": null,
   "management": null,
   "employees": null,
-  "revenue": null,
+  "revenue": "50,2 Mio. € (GJ 2024, Einzelgesellschaft Euryza GmbH; Jahresabschluss zum Geschäftsjahr vom 01.01.2024 bis zum 31.12.2024, veröffentlicht 2026-01-29, lt. North Data)",
   "website": "https://www.reis-fit.de",
   "plants": [],
   "approval_codes": null,
@@ -4591,7 +4593,8 @@
   "nace": null,
   "sources": [
    "https://api.gleif.org/api/v1/lei-records/52990035MITUYUCR8F03",
-   "https://www.reis-fit.de/impressum/"
+   "https://www.reis-fit.de/impressum/",
+   "https://www.northdata.de/Euryza+GmbH%2C+Hamburg"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T10:55:10Z",
@@ -5108,7 +5111,7 @@
   "owners": null,
   "management": null,
   "employees": "Gruppe: ca. 7.000 weltweit (Kikkoman, Unternehmensangabe)",
-  "revenue": null,
+  "revenue": "188,7 Mio. € (GJ 2024/25 (01.04.2024–31.03.2025), Einzelgesellschaft Kikkoman Trading Europe GmbH; Jahresabschluss zum Geschäftsjahr vom 01.04.2024 bis zum 31.03.2025, veröffentlicht 2025-09-02, lt. North Data)",
   "website": "https://www.kikkoman.de",
   "plants": [],
   "approval_codes": null,
@@ -5126,7 +5129,8 @@
    "https://www.kikkoman.de/impressum",
    "EU VIES DE812404191",
    "https://www.kikkoman.de/ueber-kikkoman/unternehmen/kikkoman-gruppe",
-   "https://www.kikkoman.de/ueber-kikkoman/unternehmen/kikkoman-geschichte"
+   "https://www.kikkoman.de/ueber-kikkoman/unternehmen/kikkoman-geschichte",
+   "https://www.northdata.de/Kikkoman%20Trading%20Europe%20GmbH,%20D%C3%BCsseldorf/HRB%2035856"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T10:55:03Z",
@@ -6413,7 +6417,7 @@
   "owners": null,
   "management": null,
   "employees": "76 (Unternehmensangabe, Steckbrief)",
-  "revenue": null,
+  "revenue": "67,4 Mio. € (GJ 2025, Einzelgesellschaft followfood GmbH; Jahresabschluss zum Geschäftsjahr vom 01.01.2025 bis zum 31.12.2025, veröffentlicht 2026-04-09, lt. North Data)",
   "website": "https://followfood.de",
   "plants": [],
   "approval_codes": null,
@@ -6430,7 +6434,8 @@
   "sources": [
    "https://api.gleif.org/api/v1/lei-records/529900BHG8J8LULWXG88",
    "https://followfood.de/impressum",
-   "https://followfood.de/bewegung"
+   "https://followfood.de/bewegung",
+   "https://www.northdata.de/followfood+GmbH%2C+Friedrichshafen"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T10:57:51Z",

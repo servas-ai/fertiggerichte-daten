@@ -1,0 +1,1415 @@
+{
+ "run": "Daten-Squad T2307",
+ "generated_at": "2026-10-16T23:35:00Z",
+ "rules": "North Data public company pages only (no login/API key); robots.txt www.northdata.de/robots.txt -> /ui/v1-513-11/robots.txt has only named-crawler Disallow groups, no * group; food_connectors.polite gate; >=10 s between requests; 40 requests max; stop on first 429/403/captcha. Accept only uncensored estimate=false revenue points from a published Jahres-/Konzernabschluss, latest fiscal year, when page title = row register court+number and (if the row has one) LEI on page = row LEI. Censored/premium indicators never taken. Never estimated or rescaled.",
+ "requests": {
+  "northdata_pages": 40,
+  "http_status": [
+   200
+  ],
+  "http_429_403": 0,
+  "captcha": 0,
+  "stopped_early": false
+ },
+ "before": {
+  "employees": 47,
+  "revenue": 32,
+  "revenue_real_figure": 24
+ },
+ "after": {
+  "employees": 47,
+  "revenue": 37,
+  "revenue_real_figure": 29
+ },
+ "accepted_revenue": [
+  {
+   "slug": "zott-se-co-kg",
+   "legal_name": "Zott SE & Co. KG",
+   "field": "revenue",
+   "value": "Konzern: 1,28 Mrd. € (GJ 2025, Konzern, konsolidiert; Konzernabschluss zum Geschäftsjahr vom 01.01.2025 bis zum 31.12.2025, veröffentlicht 2026-10-06, lt. North Data); Zott SE & Co. KG publiziert keinen eigenen JA, konsolidiert im Konzernabschluss der Zott Beteiligungs-GmbH (HRB 15884) lt. North Data",
+   "amount_eur": 1281939234.97,
+   "north_data_year": "2025",
+   "fiscal_period": "GJ 2025",
+   "scope": "group",
+   "consolidated": true,
+   "estimate": false,
+   "publication": {
+    "publicationTitle": "Konzernabschluss zum Geschäftsjahr vom 01.01.2025 bis zum 31.12.2025",
+    "publicationDate": "2026-10-06",
+    "auditorName": "HLB Augsburg Schwaben GmbH & Co. KG"
+   },
+   "source_url": "https://www.northdata.de/Zott+SE+%26+Co.+KG%2C+Mertingen",
+   "identity_check": {
+    "page_title": "Zott SE & Co. KG, Mertingen, Amtsgericht Augsburg HRA 1376: Netzwerk, Wirtschaftsinfos",
+    "row_register": "HRA 1376",
+    "row_lei": "529900OEMWTCZKJMYE61",
+    "lei_on_page": true
+   },
+   "series_public": [
+    [
+     "2017",
+     "1,00 Mrd. €",
+     "Konzernabschluss zum Geschäftsjahr vom 01.01.2017 bis zum 31.12.2017"
+    ],
+    [
+     "2018",
+     "996,8 Mio. €",
+     "Konzernabschluss zum Geschäftsjahr vom 01.01.2018 bis zum 31.12.2018"
+    ],
+    [
+     "2019",
+     "999,8 Mio. €",
+     "Konzernabschluss zum Geschäftsjahr vom 01.01.2019 bis zum 31.12.2019"
+    ],
+    [
+     "2020",
+     "934,5 Mio. €",
+     "Konzernabschluss zum Geschäftsjahr vom 01.01.2021 bis zum 31.12.2021"
+    ],
+    [
+     "2021",
+     "917,3 Mio. €",
+     "Konzernabschluss zum Geschäftsjahr vom 01.01.2022 bis zum 31.12.2022"
+    ],
+    [
+     "2022",
+     "1,04 Mrd. €",
+     "Konzernabschluss zum Geschäftsjahr vom 01.01.2023 bis zum 31.12.2023"
+    ],
+    [
+     "2023",
+     "1,19 Mrd. €",
+     "Konzernabschluss zum Geschäftsjahr vom 01.01.2023 bis zum 31.12.2023"
+    ],
+    [
+     "2024",
+     "1,22 Mrd. €",
+     "Konzernabschluss zum Geschäftsjahr vom 01.01.2025 bis zum 31.12.2025"
+    ],
+    [
+     "2025",
+     "1,28 Mrd. €",
+     "Konzernabschluss zum Geschäftsjahr vom 01.01.2025 bis zum 31.12.2025"
+    ]
+   ]
+  },
+  {
+   "slug": "euryza-gmbh",
+   "legal_name": "Euryza GmbH",
+   "field": "revenue",
+   "value": "50,2 Mio. € (GJ 2024, Einzelgesellschaft Euryza GmbH; Jahresabschluss zum Geschäftsjahr vom 01.01.2024 bis zum 31.12.2024, veröffentlicht 2026-01-29, lt. North Data)",
+   "amount_eur": 50158963.67,
+   "north_data_year": "2024",
+   "fiscal_period": "GJ 2024",
+   "scope": "entity",
+   "consolidated": false,
+   "estimate": false,
+   "publication": {
+    "publicationTitle": "Jahresabschluss zum Geschäftsjahr vom 01.01.2024 bis zum 31.12.2024",
+    "publicationDate": "2026-01-29",
+    "auditorName": "EY GmbH & Co. KG"
+   },
+   "source_url": "https://www.northdata.de/Euryza+GmbH%2C+Hamburg",
+   "identity_check": {
+    "page_title": "Euryza GmbH, Hamburg, Amtsgericht Hamburg HRB 1854: Netzwerk, Wirtschaftsinfos",
+    "row_register": "HRB 1854",
+    "row_lei": "52990035MITUYUCR8F03",
+    "lei_on_page": true
+   },
+   "series_public": [
+    [
+     "2016",
+     "45,1 Mio. €",
+     "Jahresabschluss zum Geschäftsjahr vom 01.01.2017 bis zum 31.12.2017"
+    ],
+    [
+     "2017",
+     "25,4 Mio. €",
+     "Jahresabschluss zum Geschäftsjahr vom 01.01.2018 bis zum 31.12.2018"
+    ],
+    [
+     "2018",
+     "24,8 Mio. €",
+     "Jahresabschluss zum Geschäftsjahr vom 01.01.2018 bis zum 31.12.2018"
+    ],
+    [
+     "2019",
+     "25,3 Mio. €",
+     "Jahresabschluss zum Geschäftsjahr vom 01.01.2020 bis zum 31.12.2020"
+    ],
+    [
+     "2020",
+     "38,7 Mio. €",
+     "Jahresabschluss zum Geschäftsjahr vom 01.01.2021 bis zum 31.12.2021"
+    ],
+    [
+     "2021",
+     "39,7 Mio. €",
+     "Jahresabschluss zum Geschäftsjahr vom 01.01.2022 bis zum 31.12.2022"
+    ],
+    [
+     "2022",
+     "50,4 Mio. €",
+     "Jahresabschluss zum Geschäftsjahr vom 01.01.2023 bis zum 31.12.2023"
+    ],
+    [
+     "2023",
+     "57 Mio. €",
+     "Jahresabschluss zum Geschäftsjahr vom 01.01.2023 bis zum 31.12.2023"
+    ],
+    [
+     "2024",
+     "50,2 Mio. €",
+     "Jahresabschluss zum Geschäftsjahr vom 01.01.2024 bis zum 31.12.2024"
+    ]
+   ]
+  },
+  {
+   "slug": "allos-hof-manufaktur-gmbh",
+   "legal_name": "Allos Hof-Manufaktur GmbH",
+   "field": "revenue",
+   "value": "101 Mio. € (GJ 2025, Einzelgesellschaft Allos Hof-Manufaktur GmbH; Jahresabschluss zum Geschäftsjahr vom 01.01.2025 bis zum 31.12.2025, veröffentlicht 2026-08-12, lt. North Data)",
+   "amount_eur": 101011364.91,
+   "north_data_year": "2025",
+   "fiscal_period": "GJ 2025",
+   "scope": "entity",
+   "consolidated": false,
+   "estimate": false,
+   "publication": {
+    "publicationTitle": "Jahresabschluss zum Geschäftsjahr vom 01.01.2025 bis zum 31.12.2025",
+    "publicationDate": "2026-08-12",
+    "auditorName": "Deloitte GmbH Wirtschaftsprüfungsgesellschaft"
+   },
+   "source_url": "https://www.northdata.de/Allos+Hof-Manufaktur+GmbH%2C+Bremen",
+   "identity_check": {
+    "page_title": "Allos Hof-Manufaktur GmbH, Bremen, Amtsgericht Bremen HRB 27982: Netzwerk, Wirtschaftsinfos",
+    "row_register": "HRB 27982",
+    "row_lei": null,
+    "lei_on_page": false
+   },
+   "series_public": [
+    [
+     "2017",
+     "53,7 Mio. €",
+     "Jahresabschluss zum Geschäftsjahr vom 01.01.2017 bis zum 31.12.2017"
+    ],
+    [
+     "2018",
+     "60,1 Mio. €",
+     "Jahresabschluss zum Geschäftsjahr vom 01.01.2018 bis zum 31.12.2018"
+    ],
+    [
+     "2019",
+     "64,8 Mio. €",
+     "Jahresabschluss zum Geschäftsjahr vom 01.01.2019 bis zum 31.12.2019"
+    ],
+    [
+     "2020",
+     "85 Mio. €",
+     "Jahresabschluss zum Geschäftsjahr vom 01.01.2021 bis zum 31.12.2021"
+    ],
+    [
+     "2021",
+     "92,8 Mio. €",
+     "Jahresabschluss zum Geschäftsjahr vom 01.01.2022 bis zum 31.12.2022"
+    ],
+    [
+     "2022",
+     "97,1 Mio. €",
+     "Jahresabschluss zum Geschäftsjahr vom 01.01.2022 bis zum 31.12.2022"
+    ],
+    [
+     "2023",
+     "97,7 Mio. €",
+     "Jahresabschluss zum Geschäftsjahr vom 01.01.2024 bis zum 31.12.2024"
+    ],
+    [
+     "2024",
+     "101,6 Mio. €",
+     "Jahresabschluss zum Geschäftsjahr vom 01.01.2025 bis zum 31.12.2025"
+    ],
+    [
+     "2025",
+     "101 Mio. €",
+     "Jahresabschluss zum Geschäftsjahr vom 01.01.2025 bis zum 31.12.2025"
+    ]
+   ]
+  },
+  {
+   "slug": "followfood-gmbh",
+   "legal_name": "followfood GmbH",
+   "field": "revenue",
+   "value": "67,4 Mio. € (GJ 2025, Einzelgesellschaft followfood GmbH; Jahresabschluss zum Geschäftsjahr vom 01.01.2025 bis zum 31.12.2025, veröffentlicht 2026-04-09, lt. North Data)",
+   "amount_eur": 67429791.0,
+   "north_data_year": "2025",
+   "fiscal_period": "GJ 2025",
+   "scope": "entity",
+   "consolidated": false,
+   "estimate": false,
+   "publication": {
+    "publicationTitle": "Jahresabschluss zum Geschäftsjahr vom 01.01.2025 bis zum 31.12.2025",
+    "publicationDate": "2026-04-09",
+    "auditorName": "Koch & Eicken GmbH"
+   },
+   "source_url": "https://www.northdata.de/followfood+GmbH%2C+Friedrichshafen",
+   "identity_check": {
+    "page_title": "followfood GmbH, Friedrichshafen, Amtsgericht Ulm HRB 631854: Netzwerk, Wirtschaftsinfos",
+    "row_register": "HRB 631854",
+    "row_lei": "529900BHG8J8LULWXG88",
+    "lei_on_page": true
+   },
+   "series_public": [
+    [
+     "2019",
+     "55 Mio. €",
+     "Jahresabschluss zum Geschäftsjahr vom 01.01.2020 bis zum 31.12.2020"
+    ],
+    [
+     "2020",
+     "72,6 Mio. €",
+     "Jahresabschluss zum Geschäftsjahr vom 01.01.2021 bis zum 31.12.2021"
+    ],
+    [
+     "2021",
+     "66,7 Mio. €",
+     "Jahresabschluss zum Geschäftsjahr vom 01.01.2022 bis zum 31.12.2022"
+    ],
+    [
+     "2022",
+     "55,1 Mio. €",
+     "Jahresabschluss zum Geschäftsjahr vom 01.01.2023 bis zum 31.12.2023"
+    ],
+    [
+     "2023",
+     "57,6 Mio. €",
+     "Jahresabschluss zum Geschäftsjahr vom 01.01.2024 bis zum 31.12.2024"
+    ],
+    [
+     "2024",
+     "68,6 Mio. €",
+     "Jahresabschluss zum Geschäftsjahr vom 01.01.2024 bis zum 31.12.2024"
+    ],
+    [
+     "2025",
+     "67,4 Mio. €",
+     "Jahresabschluss zum Geschäftsjahr vom 01.01.2025 bis zum 31.12.2025"
+    ]
+   ]
+  },
+  {
+   "slug": "kikkoman-trading-europe-gmbh",
+   "legal_name": "Kikkoman Trading Europe GmbH",
+   "field": "revenue",
+   "value": "188,7 Mio. € (GJ 2024/25 (01.04.2024–31.03.2025), Einzelgesellschaft Kikkoman Trading Europe GmbH; Jahresabschluss zum Geschäftsjahr vom 01.04.2024 bis zum 31.03.2025, veröffentlicht 2025-09-02, lt. North Data)",
+   "amount_eur": 188694915.8,
+   "north_data_year": "2025",
+   "fiscal_period": "GJ 2024/25 (01.04.2024–31.03.2025)",
+   "scope": "entity",
+   "consolidated": false,
+   "estimate": false,
+   "publication": {
+    "publicationTitle": "Jahresabschluss zum Geschäftsjahr vom 01.04.2024 bis zum 31.03.2025",
+    "publicationDate": "2025-09-02",
+    "auditorName": "EY GmbH & Co. KG Wirtschaftsprüfungsgesellschaft"
+   },
+   "source_url": "https://www.northdata.de/Kikkoman%20Trading%20Europe%20GmbH,%20D%C3%BCsseldorf/HRB%2035856",
+   "identity_check": {
+    "page_title": "Kikkoman Trading Europe GmbH, Düsseldorf, Amtsgericht Düsseldorf HRB 35856: Netzwerk, Wirtschaftsinfos",
+    "row_register": "HRB 35856",
+    "row_lei": null,
+    "lei_on_page": false
+   },
+   "series_public": [
+    [
+     "2015",
+     "79,5 Mio. €",
+     "Jahresabschluss zum Geschäftsjahr vom 01.04.2016 bis zum 31.03.2017"
+    ],
+    [
+     "2016",
+     "85,7 Mio. €",
+     "Jahresabschluss zum Geschäftsjahr vom 01.04.2017 bis zum 31.03.2018"
+    ],
+    [
+     "2019",
+     "101,9 Mio. €",
+     "Jahresabschluss zum Geschäftsjahr vom 01.04.2019 bis zum 31.03.2020"
+    ],
+    [
+     "2020",
+     "109 Mio. €",
+     "Jahresabschluss zum Geschäftsjahr vom 01.04.2019 bis zum 31.03.2020"
+    ],
+    [
+     "2021",
+     "138,5 Mio. €",
+     "Jahresabschluss zum Geschäftsjahr vom 01.04.2021 bis zum 31.03.2022"
+    ],
+    [
+     "2022",
+     "162,2 Mio. €",
+     "Jahresabschluss zum Geschäftsjahr vom 01.04.2022 bis zum 31.03.2023"
+    ],
+    [
+     "2023",
+     "152,9 Mio. €",
+     "Jahresabschluss zum Geschäftsjahr vom 01.04.2023 bis zum 31.03.2024"
+    ],
+    [
+     "2024",
+     "170,4 Mio. €",
+     "Jahresabschluss zum Geschäftsjahr vom 01.04.2023 bis zum 31.03.2024"
+    ],
+    [
+     "2025",
+     "188,7 Mio. €",
+     "Jahresabschluss zum Geschäftsjahr vom 01.04.2024 bis zum 31.03.2025"
+    ]
+   ]
+  }
+ ],
+ "rejected": [
+  {
+   "slug": "iglo-gmbh",
+   "page": "iglo",
+   "reason": "revenue series is unit-inconsistent on North Data (2016 288.902 €, 2017–2020 341–461 Mio. €, 2021–2024 461.299–474.370 €) — apparent T€/€ parsing mix; not taken, no rescaling (never estimate)",
+   "series_public": [
+    [
+     "2016",
+     "288.902 €"
+    ],
+    [
+     "2017",
+     "341 Mio. €"
+    ],
+    [
+     "2018",
+     "375,3 Mio. €"
+    ],
+    [
+     "2019",
+     "399,2 Mio. €"
+    ],
+    [
+     "2020",
+     "461 Mio. €"
+    ],
+    [
+     "2021",
+     "465.299 €"
+    ],
+    [
+     "2022",
+     "461.501 €"
+    ],
+    [
+     "2023",
+     "474.370 €"
+    ],
+    [
+     "2024",
+     "461.355 €"
+    ]
+   ]
+  },
+  {
+   "slug": "kikkoman-trading-europe-gmbh",
+   "note": "accepted only the latest point (GJ 2024/25 = own publication of 2025-09-02); prior-year points mix current/comparative columns (2022 162,2 vs 2023 152,9 from different publications) — recorded, not used"
+  },
+  {
+   "slug": "planted-foods-gmbh",
+   "note": "North Data page found for Planted Foods GmbH, Berlin = AG Charlottenburg HRB 223305 B, row has Freiburg HRB 721853 → register conflict recorded, nothing taken (Umsatz censored anyway)"
+  },
+  {
+   "field": "employees",
+   "reason": "'Mitarbeiter' is a censored premium tab on every fetched page that has a finance block (no data points shipped) → employees +0"
+  }
+ ],
+ "pages": [
+  {
+   "tag": "frosta",
+   "slug": "frosta-tiefkuehlkost-gmbh",
+   "url": "https://www.northdata.de/FRoSTA+Tiefk%C3%BChlkost+GmbH,+Bremerhaven",
+   "at": "2026-10-16T23:10:06Z",
+   "http": 200,
+   "captcha": false,
+   "page_title": "Frosta Tiefkühlkost GmbH, Bremerhaven, Amtsgericht Bremen HRB 1845 BHV: Netzwerk, Wirtschaftsinfos",
+   "search_page": false,
+   "censored_tabs (premium, no data shipped)": [],
+   "indicators_with_public_data": [],
+   "revenue_points_public": 0,
+   "leis_on_page": [],
+   "north_data_note": null
+  },
+  {
+   "tag": "dm",
+   "slug": "dm-drogerie-markt-gmbh-co-kg",
+   "url": "https://www.northdata.de/dm-drogerie+markt+GmbH+%2B+Co.+KG%2C+Karlsruhe",
+   "at": "2026-10-16T23:10:54Z",
+   "http": 200,
+   "captcha": false,
+   "page_title": "dm-drogerie markt GmbH & Co. KG, Karlsruhe, Amtsgericht Mannheim HRA 102711: Netzwerk, Wirtschaftsinfos",
+   "search_page": false,
+   "censored_tabs (premium, no data shipped)": [],
+   "indicators_with_public_data": [],
+   "revenue_points_public": 0,
+   "leis_on_page": [
+    "391200BJDTMV65NJ7G34"
+   ],
+   "north_data_note": null
+  },
+  {
+   "tag": "zott",
+   "slug": "zott-se-co-kg",
+   "url": "https://www.northdata.de/Zott+SE+%26+Co.+KG%2C+Mertingen",
+   "at": "2026-10-16T23:11:07Z",
+   "http": 200,
+   "captcha": false,
+   "page_title": "Zott SE & Co. KG, Mertingen, Amtsgericht Augsburg HRA 1376: Netzwerk, Wirtschaftsinfos",
+   "search_page": false,
+   "censored_tabs (premium, no data shipped)": [
+    "Mitarbeiter"
+   ],
+   "indicators_with_public_data": [
+    "Earnings",
+    "FundingAmount",
+    "Revenue"
+   ],
+   "revenue_points_public": 9,
+   "leis_on_page": [
+    "529900OEMWTCZKJMYE61"
+   ],
+   "north_data_note": "Die Firma veröffentlichte keinen eigenen Jahresabschluss mehr, sondern wurde konsolidiert im Konzernabschluss der Firma Zott Beteiligungs-GmbH."
+  },
+  {
+   "tag": "mueller",
+   "slug": "molkerei-alois-mueller-gmbh-co-kg",
+   "url": "https://www.northdata.de/Molkerei+Alois+M%C3%BCller+GmbH+%26+Co.+KG%2C+Fischach",
+   "at": "2026-10-16T23:11:19Z",
+   "http": 200,
+   "captcha": false,
+   "page_title": "Molkerei Alois Müller GmbH & Co. KG, Fischach, Amtsgericht Augsburg HRA 10968: Netzwerk, Wirtschaftsinfos",
+   "search_page": false,
+   "censored_tabs (premium, no data shipped)": [],
+   "indicators_with_public_data": [],
+   "revenue_points_public": 0,
+   "leis_on_page": [
+    "529900ASH0JL6PAY8526"
+   ],
+   "north_data_note": null
+  },
+  {
+   "tag": "meica",
+   "slug": "meica-gmbh",
+   "url": "https://www.northdata.de/Meica+Ammerl%C3%A4ndische+Fleischwarenfabrik+Fritz+Meinen+GmbH+%26+Co.+KG%2C+Edewecht",
+   "at": "2026-10-16T23:11:35Z",
+   "http": 200,
+   "captcha": false,
+   "page_title": "Meica Ammerländische Fleischwarenfabrik Fritz Meinen GmbH & Co. KG, Edewecht, Amtsgericht Oldenburg HRA 120020: Netzwerk, Wirtschaftsinfos",
+   "search_page": false,
+   "censored_tabs (premium, no data shipped)": [],
+   "indicators_with_public_data": [],
+   "revenue_points_public": 0,
+   "leis_on_page": [],
+   "north_data_note": null
+  },
+  {
+   "tag": "iglo",
+   "slug": "iglo-gmbh",
+   "url": "https://www.northdata.de/iglo+GmbH%2C+Hamburg",
+   "at": "2026-10-16T23:11:47Z",
+   "http": 200,
+   "captcha": false,
+   "page_title": "iglo GmbH, Hamburg, Amtsgericht Hamburg HRB 97746: Netzwerk, Wirtschaftsinfos",
+   "search_page": false,
+   "censored_tabs (premium, no data shipped)": [
+    "Mitarbeiter"
+   ],
+   "indicators_with_public_data": [
+    "Earnings",
+    "Patents",
+    "Revenue"
+   ],
+   "revenue_points_public": 9,
+   "leis_on_page": [],
+   "north_data_note": "Die Firma hat einen Gewinnabführungsvertrag mit der Firma iglo Holding GmbH abgeschlossen."
+  },
+  {
+   "tag": "danone",
+   "slug": "danone-deutschland-gmbh",
+   "url": "https://www.northdata.de/Danone+Deutschland+GmbH%2C+Frankfurt+am+Main",
+   "at": "2026-10-16T23:12:00Z",
+   "http": 200,
+   "captcha": false,
+   "page_title": "Suche nach \"Danone Deutschland GmbH, Frankfurt am Main\"",
+   "search_page": true,
+   "censored_tabs (premium, no data shipped)": [],
+   "indicators_with_public_data": [],
+   "revenue_points_public": 0,
+   "leis_on_page": [],
+   "north_data_note": null
+  },
+  {
+   "tag": "andros",
+   "slug": "andros-deutschland-gmbh",
+   "url": "https://www.northdata.de/Andros+Deutschland+GmbH%2C+Breuberg",
+   "at": "2026-10-16T23:12:12Z",
+   "http": 200,
+   "captcha": false,
+   "page_title": "Suche nach \"Andros Deutschland GmbH, Breuberg, Deutschland\"",
+   "search_page": true,
+   "censored_tabs (premium, no data shipped)": [],
+   "indicators_with_public_data": [],
+   "revenue_points_public": 0,
+   "leis_on_page": [],
+   "north_data_note": null
+  },
+  {
+   "tag": "euryza",
+   "slug": "euryza-gmbh",
+   "url": "https://www.northdata.de/Euryza+GmbH%2C+Hamburg",
+   "at": "2026-10-16T23:12:23Z",
+   "http": 200,
+   "captcha": false,
+   "page_title": "Euryza GmbH, Hamburg, Amtsgericht Hamburg HRB 1854: Netzwerk, Wirtschaftsinfos",
+   "search_page": false,
+   "censored_tabs (premium, no data shipped)": [
+    "Mitarbeiter"
+   ],
+   "indicators_with_public_data": [
+    "BalanceTotal",
+    "Earnings",
+    "Revenue"
+   ],
+   "revenue_points_public": 9,
+   "leis_on_page": [
+    "52990035MITUYUCR8F03"
+   ],
+   "north_data_note": "Die Firma hat einen Gewinnabführungsvertrag mit der Firma Ebro Foods GmbH abgeschlossen."
+  },
+  {
+   "tag": "kreyenhop",
+   "slug": "kreyenhop-kluge-gmbh-cokg",
+   "url": "https://www.northdata.de/Kreyenhop+%26+Kluge+GmbH+%26+Co.+KG%2C+Oyten",
+   "at": "2026-10-16T23:12:35Z",
+   "http": 200,
+   "captcha": false,
+   "page_title": "Kreyenhop & Kluge GmbH & Co.KG, Oyten, Amtsgericht Walsrode HRA 120220: Netzwerk, Wirtschaftsinfos",
+   "search_page": false,
+   "censored_tabs (premium, no data shipped)": [],
+   "indicators_with_public_data": [],
+   "revenue_points_public": 0,
+   "leis_on_page": [
+    "529900ZH3GAR1JU6HQ34"
+   ],
+   "north_data_note": null
+  },
+  {
+   "tag": "hamker",
+   "slug": "hamker-vertriebsgesellschaft-mbh",
+   "url": "https://www.northdata.de/Hamker+Vertriebsgesellschaft+mbH%2C+Bad+Essen",
+   "at": "2026-10-16T23:12:48Z",
+   "http": 200,
+   "captcha": false,
+   "page_title": "Hamker Vertriebsgesellschaft mbH, Bad Essen, Amtsgericht Osnabrück HRB 1747: Netzwerk, Wirtschaftsinfos",
+   "search_page": false,
+   "censored_tabs (premium, no data shipped)": [],
+   "indicators_with_public_data": [],
+   "revenue_points_public": 0,
+   "leis_on_page": [],
+   "north_data_note": null
+  },
+  {
+   "tag": "heiderbeck",
+   "slug": "heiderbeck",
+   "url": "https://www.northdata.de/Heiderbeck+GmbH%2C+Olching",
+   "at": "2026-10-16T23:13:00Z",
+   "http": 200,
+   "captcha": false,
+   "page_title": "Heiderbeck GmbH, Olching, Amtsgericht München HRB 49425: Netzwerk, Wirtschaftsinfos",
+   "search_page": false,
+   "censored_tabs (premium, no data shipped)": [
+    "Umsatz",
+    "Mitarbeiter"
+   ],
+   "indicators_with_public_data": [
+    "BalanceTotal",
+    "Earnings"
+   ],
+   "revenue_points_public": 0,
+   "leis_on_page": [],
+   "north_data_note": null
+  },
+  {
+   "tag": "landliebe",
+   "slug": "landliebe-gmbh",
+   "url": "https://www.northdata.de/Landliebe+GmbH%2C+Fischach",
+   "at": "2026-10-16T23:13:12Z",
+   "http": 200,
+   "captcha": false,
+   "page_title": "Landliebe GmbH, Fischach, Amtsgericht Augsburg HRB 37578: Netzwerk, Wirtschaftsinfos",
+   "search_page": false,
+   "censored_tabs (premium, no data shipped)": [],
+   "indicators_with_public_data": [],
+   "revenue_points_public": 0,
+   "leis_on_page": [],
+   "north_data_note": null
+  },
+  {
+   "tag": "allos",
+   "slug": "allos-hof-manufaktur-gmbh",
+   "url": "https://www.northdata.de/Allos+Hof-Manufaktur+GmbH%2C+Bremen",
+   "at": "2026-10-16T23:13:24Z",
+   "http": 200,
+   "captcha": false,
+   "page_title": "Allos Hof-Manufaktur GmbH, Bremen, Amtsgericht Bremen HRB 27982: Netzwerk, Wirtschaftsinfos",
+   "search_page": false,
+   "censored_tabs (premium, no data shipped)": [
+    "Mitarbeiter"
+   ],
+   "indicators_with_public_data": [
+    "BalanceTotal",
+    "Earnings",
+    "Revenue"
+   ],
+   "revenue_points_public": 9,
+   "leis_on_page": [],
+   "north_data_note": "Die Firma hat einen Gewinnabführungsvertrag mit der Firma Wessanen Beteiligungs GmbH abgeschlossen."
+  },
+  {
+   "tag": "hofmann",
+   "slug": "hofmann-menue-manufaktur-gmbh",
+   "url": "https://www.northdata.de/Hofmann+Men%C3%BC-Manufaktur+GmbH%2C+Boxberg",
+   "at": "2026-10-16T23:13:36Z",
+   "http": 200,
+   "captcha": false,
+   "page_title": "Suche nach \"Hofmann Menü-Manufaktur GmbH, Boxberg, Deutschland\"",
+   "search_page": true,
+   "censored_tabs (premium, no data shipped)": [],
+   "indicators_with_public_data": [],
+   "revenue_points_public": 0,
+   "leis_on_page": [],
+   "north_data_note": null
+  },
+  {
+   "tag": "greenforce",
+   "slug": "greenforce-future-food-ag",
+   "url": "https://www.northdata.de/GREENFORCE+FUTURE+FOOD+AG%2C+M%C3%BCnchen",
+   "at": "2026-10-16T23:13:48Z",
+   "http": 200,
+   "captcha": false,
+   "page_title": "GREENFORCE FUTURE FOOD AG, München, Amtsgericht München HRB 269298: Netzwerk, Wirtschaftsinfos",
+   "search_page": false,
+   "censored_tabs (premium, no data shipped)": [
+    "Umsatz",
+    "Mitarbeiter"
+   ],
+   "indicators_with_public_data": [
+    "Earnings",
+    "FundingAmount"
+   ],
+   "revenue_points_public": 0,
+   "leis_on_page": [
+    "894500XJAOZKM5ACGD13"
+   ],
+   "north_data_note": null
+  },
+  {
+   "tag": "every",
+   "slug": "everygmbh",
+   "url": "https://www.northdata.de/Every.+GmbH%2C+Berlin",
+   "at": "2026-10-16T23:14:00Z",
+   "http": 200,
+   "captcha": false,
+   "page_title": "Every. GmbH, Berlin, Amtsgericht Charlottenburg (Berlin) HRB 221768 B: Netzwerk, Wirtschaftsinfos",
+   "search_page": false,
+   "censored_tabs (premium, no data shipped)": [
+    "Umsatz",
+    "Mitarbeiter"
+   ],
+   "indicators_with_public_data": [
+    "BalanceTotal",
+    "Earnings"
+   ],
+   "revenue_points_public": 0,
+   "leis_on_page": [],
+   "north_data_note": null
+  },
+  {
+   "tag": "youcook",
+   "slug": "youcook-gmbh",
+   "url": "https://www.northdata.de/YOUCOOK+GmbH%2C+K%C3%B6ln",
+   "at": "2026-10-16T23:14:13Z",
+   "http": 200,
+   "captcha": false,
+   "page_title": "Suche nach \"Youcook GmbH, Köln, Deutschland\"",
+   "search_page": true,
+   "censored_tabs (premium, no data shipped)": [],
+   "indicators_with_public_data": [],
+   "revenue_points_public": 0,
+   "leis_on_page": [],
+   "north_data_note": null
+  },
+  {
+   "tag": "rila",
+   "slug": "rila-die-genussentdecker",
+   "url": "https://www.northdata.de/RILA+Feinkost-Importe+GmbH+%26+Co.+KG%2C+Stemwede",
+   "at": "2026-10-16T23:14:25Z",
+   "http": 200,
+   "captcha": false,
+   "page_title": "Rila Feinkost-Importe GmbH & Co. KG, Stemwede, Amtsgericht Bad Oeynhausen HRA 5874: Netzwerk, Wirtschaftsinfos",
+   "search_page": false,
+   "censored_tabs (premium, no data shipped)": [
+    "Gewinn",
+    "Umsatz",
+    "Mitarbeiter",
+    "Bilanzsumme"
+   ],
+   "indicators_with_public_data": [],
+   "revenue_points_public": 0,
+   "leis_on_page": [
+    "5299000VHHR381UIY486"
+   ],
+   "north_data_note": null
+  },
+  {
+   "tag": "whollees",
+   "slug": "whollees-gmbh",
+   "url": "https://www.northdata.de/Whollees+GmbH%2C+Hamburg",
+   "at": "2026-10-16T23:14:37Z",
+   "http": 200,
+   "captcha": false,
+   "page_title": "Whollees GmbH, Hamburg, Amtsgericht Hamburg HRB 117168: Netzwerk, Wirtschaftsinfos",
+   "search_page": false,
+   "censored_tabs (premium, no data shipped)": [
+    "Umsatz",
+    "Mitarbeiter"
+   ],
+   "indicators_with_public_data": [
+    "BalanceTotal",
+    "Earnings"
+   ],
+   "revenue_points_public": 0,
+   "leis_on_page": [],
+   "north_data_note": null
+  },
+  {
+   "tag": "pbp",
+   "slug": "plant-based-power-gmbh",
+   "url": "https://www.northdata.de/PLANT+BASED+POWER+GmbH%2C+Freilassing",
+   "at": "2026-10-16T23:14:50Z",
+   "http": 200,
+   "captcha": false,
+   "page_title": "PLANT BASED POWER GmbH, Freilassing, Amtsgericht Traunstein HRB 33283: Netzwerk, Wirtschaftsinfos",
+   "search_page": false,
+   "censored_tabs (premium, no data shipped)": [],
+   "indicators_with_public_data": [],
+   "revenue_points_public": 0,
+   "leis_on_page": [],
+   "north_data_note": null
+  },
+  {
+   "tag": "biogourmet",
+   "slug": "biogourmet-gmbh",
+   "url": "https://www.northdata.de/BioGourmet+GmbH%2C+Erdmannhausen",
+   "at": "2026-10-16T23:15:02Z",
+   "http": 200,
+   "captcha": false,
+   "page_title": "BioGourmet GmbH, Erdmannhausen, Amtsgericht Stuttgart HRB 736632: Netzwerk, Wirtschaftsinfos",
+   "search_page": false,
+   "censored_tabs (premium, no data shipped)": [
+    "Gewinn",
+    "Umsatz"
+   ],
+   "indicators_with_public_data": [
+    "BalanceTotal"
+   ],
+   "revenue_points_public": 0,
+   "leis_on_page": [],
+   "north_data_note": null
+  },
+  {
+   "tag": "hammermuehle",
+   "slug": "hammermuehle-gmbh",
+   "url": "https://www.northdata.de/Hammerm%C3%BChle+GmbH%2C+Kirrweiler",
+   "at": "2026-10-16T23:15:14Z",
+   "http": 200,
+   "captcha": false,
+   "page_title": "Hammermühle GmbH, Kirrweiler (Pfalz), Amtsgericht Landau HRB 30469: Netzwerk, Wirtschaftsinfos",
+   "search_page": false,
+   "censored_tabs (premium, no data shipped)": [
+    "Umsatz",
+    "Mitarbeiter"
+   ],
+   "indicators_with_public_data": [
+    "BalanceTotal",
+    "Earnings"
+   ],
+   "revenue_points_public": 0,
+   "leis_on_page": [],
+   "north_data_note": null
+  },
+  {
+   "tag": "lotao",
+   "slug": "lpp-lotao-gmbh",
+   "url": "https://www.northdata.de/LPP+Lotao+Pack-+und+Produktions+GmbH%2C+Berlin",
+   "at": "2026-10-16T23:15:26Z",
+   "http": 200,
+   "captcha": false,
+   "page_title": "Suche nach \"LPP Lotao Pack- und Produktions GmbH, Berlin, Deutschland\"",
+   "search_page": true,
+   "censored_tabs (premium, no data shipped)": [],
+   "indicators_with_public_data": [],
+   "revenue_points_public": 0,
+   "leis_on_page": [],
+   "north_data_note": null
+  },
+  {
+   "tag": "biovegan",
+   "slug": "biovegan-gmbh",
+   "url": "https://www.northdata.de/Biovegan+GmbH%2C+Bonefeld",
+   "at": "2026-10-16T23:15:37Z",
+   "http": 200,
+   "captcha": false,
+   "page_title": "Biovegan GmbH, Bonefeld, Amtsgericht Montabaur HRB 5692: Netzwerk, Wirtschaftsinfos",
+   "search_page": false,
+   "censored_tabs (premium, no data shipped)": [
+    "Umsatz",
+    "Mitarbeiter"
+   ],
+   "indicators_with_public_data": [
+    "BalanceTotal",
+    "Earnings"
+   ],
+   "revenue_points_public": 0,
+   "leis_on_page": [
+    "529900OYBF0IQCUQ4E29"
+   ],
+   "north_data_note": "Die Firma hatte einen Gewinnabführungsvertrag mit der Firma Biovegan Holding GmbH abgeschlossen, und wurde ggf. in deren Abschluss einbezogen."
+  },
+  {
+   "tag": "tress",
+   "slug": "tress-lebensmittel-gmbh-co-kg",
+   "url": "https://www.northdata.de/Tress+Lebensmittel+GmbH+%26+Co.+KG%2C+Hayingen",
+   "at": "2026-10-16T23:15:49Z",
+   "http": 200,
+   "captcha": false,
+   "page_title": "Tress Lebensmittel GmbH & Co. KG, Hayingen, Amtsgericht Stuttgart HRA 726441: Netzwerk, Wirtschaftsinfos",
+   "search_page": false,
+   "censored_tabs (premium, no data shipped)": [
+    "Umsatz",
+    "Mitarbeiter"
+   ],
+   "indicators_with_public_data": [
+    "Earnings",
+    "FundingAmount"
+   ],
+   "revenue_points_public": 0,
+   "leis_on_page": [
+    "391200MC0M0SGKVN4318"
+   ],
+   "north_data_note": null
+  },
+  {
+   "tag": "followfood",
+   "slug": "followfood-gmbh",
+   "url": "https://www.northdata.de/followfood+GmbH%2C+Friedrichshafen",
+   "at": "2026-10-16T23:16:02Z",
+   "http": 200,
+   "captcha": false,
+   "page_title": "followfood GmbH, Friedrichshafen, Amtsgericht Ulm HRB 631854: Netzwerk, Wirtschaftsinfos",
+   "search_page": false,
+   "censored_tabs (premium, no data shipped)": [
+    "Mitarbeiter"
+   ],
+   "indicators_with_public_data": [
+    "BalanceTotal",
+    "Earnings",
+    "Revenue"
+   ],
+   "revenue_points_public": 7,
+   "leis_on_page": [
+    "529900BHG8J8LULWXG88"
+   ],
+   "north_data_note": null
+  },
+  {
+   "tag": "kikkoman",
+   "slug": "kikkoman-trading-europe-gmbh",
+   "url": "https://www.northdata.de/Kikkoman+Trading+Europe+GmbH%2C+D%C3%BCsseldorf",
+   "at": "2026-10-16T23:16:14Z",
+   "http": 200,
+   "captcha": false,
+   "page_title": "Suche nach \"Kikkoman Trading Europe GmbH, Düsseldorf, Deutschland\"",
+   "search_page": true,
+   "censored_tabs (premium, no data shipped)": [],
+   "indicators_with_public_data": [],
+   "revenue_points_public": 0,
+   "leis_on_page": [],
+   "north_data_note": null
+  },
+  {
+   "tag": "planted",
+   "slug": "planted-foods-gmbh",
+   "url": "https://www.northdata.de/Planted+Foods+GmbH%2C+Berlin",
+   "at": "2026-10-16T23:16:26Z",
+   "http": 200,
+   "captcha": false,
+   "page_title": "Planted Foods GmbH, Berlin, Amtsgericht Charlottenburg (Berlin) HRB 223305 B: Netzwerk, Wirtschaftsinfos",
+   "search_page": false,
+   "censored_tabs (premium, no data shipped)": [
+    "Umsatz",
+    "Mitarbeiter"
+   ],
+   "indicators_with_public_data": [
+    "BalanceTotal",
+    "Earnings"
+   ],
+   "revenue_points_public": 0,
+   "leis_on_page": [],
+   "north_data_note": null
+  },
+  {
+   "tag": "dorfkrug",
+   "slug": "zum-dorfkrug-produktions-und-handelsgesellschaft-mbh-co-kg",
+   "url": "https://www.northdata.de/Zum+Dorfkrug+Produktions-+und+Handelsgesellschaft+mbH%2C+Neu+Wulmstorf",
+   "at": "2026-10-16T23:16:38Z",
+   "http": 200,
+   "captcha": false,
+   "page_title": "Suche nach \"Zum Dorfkrug Produktions- und Handelsgesellschaft mbH, Neu Wulmstorf, Deutschland\"",
+   "search_page": true,
+   "censored_tabs (premium, no data shipped)": [],
+   "indicators_with_public_data": [],
+   "revenue_points_public": 0,
+   "leis_on_page": [],
+   "north_data_note": null
+  },
+  {
+   "tag": "loewenanteil",
+   "slug": "loewenanteil-gmbh",
+   "url": "https://www.northdata.de/L%C3%B6wenanteil+GmbH%2C+Oldenburg",
+   "at": "2026-10-16T23:16:50Z",
+   "http": 200,
+   "captcha": false,
+   "page_title": "Löwenanteil GmbH, Oldenburg, Amtsgericht Oldenburg HRB 212808: Netzwerk, Wirtschaftsinfos",
+   "search_page": false,
+   "censored_tabs (premium, no data shipped)": [
+    "Umsatz",
+    "Mitarbeiter"
+   ],
+   "indicators_with_public_data": [
+    "BalanceTotal",
+    "Earnings"
+   ],
+   "revenue_points_public": 0,
+   "leis_on_page": [],
+   "north_data_note": null
+  },
+  {
+   "tag": "arche",
+   "slug": "arche-naturprodukte-gmbh",
+   "url": "https://www.northdata.de/ARCHE+Naturprodukte+GmbH%2C+Hilden",
+   "at": "2026-10-16T23:17:02Z",
+   "http": 200,
+   "captcha": false,
+   "page_title": "Suche nach \"Arche Naturprodukte GmbH, Hilden, Deutschland\"",
+   "search_page": true,
+   "censored_tabs (premium, no data shipped)": [],
+   "indicators_with_public_data": [],
+   "revenue_points_public": 0,
+   "leis_on_page": [],
+   "north_data_note": null
+  },
+  {
+   "tag": "oekoland",
+   "slug": "oekoland-gmbh-nord",
+   "url": "https://www.northdata.de/%C3%96koland+GmbH+Nord%2C+Wunstorf",
+   "at": "2026-10-16T23:17:14Z",
+   "http": 200,
+   "captcha": false,
+   "page_title": "Ökoland GmbH Nord Vertriebsgesellschaft für ökologische Erzeugnisse, Wunstorf, Amtsgericht Hannover HRB 201209: Netzwerk, Wirtschaftsinfos",
+   "search_page": false,
+   "censored_tabs (premium, no data shipped)": [
+    "Gewinn",
+    "Umsatz",
+    "Mitarbeiter"
+   ],
+   "indicators_with_public_data": [
+    "BalanceTotal"
+   ],
+   "revenue_points_public": 0,
+   "leis_on_page": [
+    "3912002MJDIL66IVKQ44"
+   ],
+   "north_data_note": null
+  },
+  {
+   "tag": "petersilchen",
+   "slug": "petersilchen-gmbh",
+   "url": "https://www.northdata.de/Petersilchen+GmbH%2C+Steinheim",
+   "at": "2026-10-16T23:17:25Z",
+   "http": 200,
+   "captcha": false,
+   "page_title": "Petersilchen GmbH, Steinheim, Amtsgericht Paderborn HRB 11924: Netzwerk, Wirtschaftsinfos",
+   "search_page": false,
+   "censored_tabs (premium, no data shipped)": [
+    "Umsatz",
+    "Mitarbeiter"
+   ],
+   "indicators_with_public_data": [
+    "BalanceTotal",
+    "Earnings"
+   ],
+   "revenue_points_public": 0,
+   "leis_on_page": [],
+   "north_data_note": null
+  },
+  {
+   "tag": "egesun",
+   "slug": "egesun-gmbh-co-kg",
+   "url": "https://www.northdata.de/EgeSun+GmbH+%26+Co.+KG%2C+Oyten",
+   "at": "2026-10-16T23:17:37Z",
+   "http": 200,
+   "captcha": false,
+   "page_title": "EgeSun GmbH & Co. KG, Achim, Amtsgericht Walsrode HRA 205719: Netzwerk, Wirtschaftsinfos",
+   "search_page": false,
+   "censored_tabs (premium, no data shipped)": [],
+   "indicators_with_public_data": [],
+   "revenue_points_public": 0,
+   "leis_on_page": [
+    "529900D2TOUXZ7QYGX57"
+   ],
+   "north_data_note": null
+  },
+  {
+   "tag": "andros2",
+   "slug": "andros-deutschland-gmbh",
+   "url": "https://www.northdata.de/Andros%20Deutschland%20GmbH,%20Breuberg/Amtsgericht%20Darmstadt%20HRB%2070104",
+   "at": "2026-10-16T23:19:15Z",
+   "http": 200,
+   "captcha": false,
+   "page_title": "Andros Deutschland GmbH, Breuberg, Amtsgericht Darmstadt HRB 70104: Netzwerk, Wirtschaftsinfos",
+   "search_page": false,
+   "censored_tabs (premium, no data shipped)": [],
+   "indicators_with_public_data": [],
+   "revenue_points_public": 0,
+   "leis_on_page": [
+    "529900B04CNPB6E7MO40"
+   ],
+   "north_data_note": null
+  },
+  {
+   "tag": "kikkoman2",
+   "slug": "kikkoman-trading-europe-gmbh",
+   "url": "https://www.northdata.de/Kikkoman%20Trading%20Europe%20GmbH,%20D%C3%BCsseldorf/HRB%2035856",
+   "at": "2026-10-16T23:19:27Z",
+   "http": 200,
+   "captcha": false,
+   "page_title": "Kikkoman Trading Europe GmbH, Düsseldorf, Amtsgericht Düsseldorf HRB 35856: Netzwerk, Wirtschaftsinfos",
+   "search_page": false,
+   "censored_tabs (premium, no data shipped)": [
+    "Mitarbeiter"
+   ],
+   "indicators_with_public_data": [
+    "BalanceTotal",
+    "Earnings",
+    "Revenue"
+   ],
+   "revenue_points_public": 9,
+   "leis_on_page": [],
+   "north_data_note": null
+  },
+  {
+   "tag": "dorfkrug2",
+   "slug": "zum-dorfkrug-produktions-und-handelsgesellschaft-mbh-co-kg",
+   "url": "https://www.northdata.de/Zum%20Dorfkrug%20Produktions-%20und%20Handelsgesellschaft%20mbH%20%26%20Co%C2%B7%20KG,%20Neu%20Wulmstorf/Amtsgericht%20Tostedt%20HRA%20200878",
+   "at": "2026-10-16T23:19:39Z",
+   "http": 200,
+   "captcha": false,
+   "page_title": "Zum Dorfkrug Produktions- und Handelsgesellschaft mbH & Co. KG, Neu Wulmstorf, Amtsgericht Tostedt HRA 200878: Netzwerk, Wirtschaftsinfos",
+   "search_page": false,
+   "censored_tabs (premium, no data shipped)": [
+    "Umsatz",
+    "Mitarbeiter"
+   ],
+   "indicators_with_public_data": [
+    "BalanceTotal",
+    "Earnings"
+   ],
+   "revenue_points_public": 0,
+   "leis_on_page": [],
+   "north_data_note": null
+  },
+  {
+   "tag": "arche2",
+   "slug": "arche-naturprodukte-gmbh",
+   "url": "https://www.northdata.de/ARCHE%20Naturprodukte%20GmbH,%20Hilden/Amtsgericht%20D%C3%BCsseldorf%20HRB%2085754",
+   "at": "2026-10-16T23:19:51Z",
+   "http": 200,
+   "captcha": false,
+   "page_title": "ARCHE Naturprodukte GmbH, Hilden, Amtsgericht Düsseldorf HRB 85754: Netzwerk, Wirtschaftsinfos",
+   "search_page": false,
+   "censored_tabs (premium, no data shipped)": [
+    "Gewinn",
+    "Umsatz",
+    "Mitarbeiter"
+   ],
+   "indicators_with_public_data": [
+    "BalanceTotal"
+   ],
+   "revenue_points_public": 0,
+   "leis_on_page": [
+    "529900BMCO2TYYBU4P09"
+   ],
+   "north_data_note": null
+  },
+  {
+   "tag": "youcook2",
+   "slug": "youcook-gmbh",
+   "url": "https://www.northdata.de/YOUCOOK%20GmbH,%20K%C3%B6ln/HRB%20111731",
+   "at": "2026-10-16T23:20:03Z",
+   "http": 200,
+   "captcha": false,
+   "page_title": "YOUCOOK GmbH, Köln, Amtsgericht Köln HRB 111731: Netzwerk, Wirtschaftsinfos",
+   "search_page": false,
+   "censored_tabs (premium, no data shipped)": [],
+   "indicators_with_public_data": [],
+   "revenue_points_public": 0,
+   "leis_on_page": [],
+   "north_data_note": null
+  }
+ ],
+ "vies_de": {
+  "checked_at": "2026-10-16T23:09Z",
+  "url": "https://ec.europa.eu/taxation_customs/vies/rest-api/check-status",
+  "DE": "Unavailable",
+  "vow_available": true,
+  "uids_not_verified": [
+   "ARCHE DE322242442",
+   "Ökoland Nord DE116156996",
+   "Rapunzel DE129088402",
+   "EgeSun DE455151638",
+   "Petersilchen DE124612378"
+  ],
+  "effect": "legal entity stays 136/148, UID verified unchanged"
+ },
+ "photos_before": {
+  "MPreis": 374,
+  "Billa": 804,
+  "total": 3411
+ },
+ "photos_after": {
+  "MPreis": 377,
+  "Billa": 807,
+  "total": 3417
+ },
+ "photos_accepted": [
+  {
+   "product_id": "d92725c65baa",
+   "chain": "Billa",
+   "name": "Miso Suppe",
+   "ean": "9010437032810",
+   "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-745086-1763278357-_wDoN78-.jpg",
+   "head": "200 image/jpeg",
+   "source": "billa connector (shop.billa.at product-discovery API)",
+   "match": "BILLA term search for the exact EAN 9010437032810 returns exactly 1 article 00-745086 'BILLA Miso Ramen Suppe' (170 g); BILLA detail JSON exposes no GTIN, so EAN tie = single exact-EAN search hit + name/brand match",
+   "shop_url": "https://shop.billa.at/produkte/billa-miso-ramen-suppe-00745086",
+   "vision": "PASS: front packshot glass jar, label \"BILLA immer gut MISO SUPPE mit Tofu\" (OFF name \"Miso Suppe\", brand Billa)",
+   "note": "row is an OFF-sourced twin of the existing BILLA shop row for 00-745086 (same article, EAN-less shop row); not merged here"
+  },
+  {
+   "product_id": "fd3486723016",
+   "chain": "Billa",
+   "name": "Tom kha suppe",
+   "ean": "9010437032803",
+   "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-745099-0206197936-DfXLdcFL.jpg",
+   "head": "200 image/jpeg",
+   "source": "billa connector (shop.billa.at product-discovery API)",
+   "match": "BILLA term search for the exact EAN 9010437032803 returns exactly 1 article 00-745099 'BILLA Tom Kha Gai Tofu Suppe' (210 g); BILLA detail JSON exposes no GTIN, so EAN tie = single exact-EAN search hit + name/brand match",
+   "shop_url": "https://shop.billa.at/produkte/billa-tom-kha-gai-tofu-suppe-00745099",
+   "vision": "PASS: front packshot glass jar, label \"BILLA immer gut TOM KHA GAI SUPPE mit Tofu\" (OFF name \"Tom kha suppe\", brand Billa)",
+   "note": "row is an OFF-sourced twin of the existing BILLA shop row for 00-745099 (same article, EAN-less shop row); not merged here"
+  },
+  {
+   "product_id": "0c4ec0de9d1b",
+   "chain": "Billa",
+   "name": "Tom Kha Gai Suppe mit Huhn",
+   "ean": "9010437032797",
+   "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-745101-610088599-PVuFaEK9.jpg",
+   "head": "200 image/jpeg",
+   "source": "billa connector (shop.billa.at product-discovery API)",
+   "match": "BILLA term search for the exact EAN 9010437032797 returns exactly 1 article 00-745101 'BILLA Tom Kha Gai mit Huhn' (210 g); BILLA detail JSON exposes no GTIN, so EAN tie = single exact-EAN search hit + name/brand match",
+   "shop_url": "https://shop.billa.at/produkte/billa-tom-kha-gai-mit-huhn-00745101",
+   "vision": "PASS: front packshot glass jar, label \"BILLA immer gut TOM KHA GAI SUPPE mit Huhn\", 210 g = row size",
+   "note": "row is an OFF-sourced twin of the existing BILLA shop row for 00-745101 (same article, EAN-less shop row); not merged here"
+  },
+  {
+   "product_id": "5db638d0e772",
+   "chain": "MPreis",
+   "name": "Chicken Bowl Curry",
+   "ean": "3838929620064",
+   "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-885826-0363356578-MKU1eUl8.jpg",
+   "head": "200 image/jpeg",
+   "source": "billa connector (BILLA official packshot, same EAN sold at BILLA)",
+   "match": "MPreis product page (mpreis-shop JSON-LD) gtin 3838929620064 has only the shop placeholder; BILLA term search for exact EAN 3838929620064 returns exactly 1 article 00-885826 'Njami Chicken Bowl Curry' 160 g = MPreis name/brand/size 160.0 g",
+   "shop_url": "https://shop.billa.at/produkte/njami-chicken-bowl-curry-00885826",
+   "vision": "PASS: front packshot bowl, \"NJAMI by Delamaris CHICKEN BOWL CURRY\""
+  },
+  {
+   "product_id": "e3a393a0a6f2",
+   "chain": "MPreis",
+   "name": "Delamaris Njami Chicken Bowl Mexicana",
+   "ean": "3838929620071",
+   "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-885825-438096192-9NY20Ilx.jpg",
+   "head": "200 image/jpeg",
+   "source": "billa connector (BILLA official packshot, same EAN sold at BILLA)",
+   "match": "MPreis product page (mpreis-shop JSON-LD) gtin 3838929620071 has only the shop placeholder; BILLA term search for exact EAN 3838929620071 returns exactly 1 article 00-885825 'Njami Chicken Bowl Mexicana' 160 g = MPreis name/brand/size 160.0 g",
+   "shop_url": "https://shop.billa.at/produkte/njami-chicken-bowl-mexicana-00885825",
+   "vision": "PASS: front packshot bowl, \"NJAMI by Delamaris CHICKEN BOWL MEXICANA\""
+  },
+  {
+   "product_id": "4f9b9e4df130",
+   "chain": "MPreis",
+   "name": "Wagner Big Sensation Salami & BBQ",
+   "ean": "4009233000838",
+   "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-774595-1305678203-JgoR8lXx.jpg",
+   "head": "200 image/jpeg",
+   "source": "billa connector (BILLA official packshot, same EAN sold at BILLA)",
+   "match": "MPreis product page (mpreis-shop JSON-LD) gtin 4009233000838 has only the shop placeholder; BILLA term search for exact EAN 4009233000838 returns exactly 1 article 00-774595 'Wagner Big Sensation Salami & BBQ' 450 g = MPreis name/brand/size 450.0 g",
+   "shop_url": "https://shop.billa.at/produkte/wagner-big-sensation-salami-und-bbq-00774595",
+   "vision": "PASS: front packshot box, \"Original Wagner BIG Sensation SALAMI & BBQ\""
+  }
+ ],
+ "photos_still_missing_mpreis": [
+  {
+   "product_id": "d8b7c514afa1",
+   "name": "Rinds Gulasch",
+   "ean": "9001426068576",
+   "mpreis_page": "https://world.openfoodfacts.org/product/9001426068576",
+   "mpreis_status": "row sourced from OFF (no mpreis.at URL); OFF page has no front image",
+   "billa_exact_ean": "no hit",
+   "gurkerl": "no article with this EAN among name-search hits",
+   "off_product_page": 200,
+   "off_front_candidate": null
+  },
+  {
+   "product_id": "161f4956cc7d",
+   "name": "Hähnchen Kebab",
+   "ean": null,
+   "mpreis_page": "https://www.mpreis.at/shop/p/aia-haehnchen-kebab-673853",
+   "mpreis_status": "InStock, JSON-LD image = shop placeholder (noImage) → no official photo on mpreis.at",
+   "billa_exact_ean": "no EAN on row/page",
+   "gurkerl": "not tried (no EAN)",
+   "off_product_page": null,
+   "off_front_candidate": null
+  },
+  {
+   "product_id": "69d08ffa2348",
+   "name": "Cevapcici Banja Luka",
+   "ean": null,
+   "mpreis_page": "https://www.mpreis.at/shop/p/brajlovic-cevapcici-banja-luka-817105",
+   "mpreis_status": "InStock, JSON-LD image = shop placeholder (noImage) → no official photo on mpreis.at",
+   "billa_exact_ean": "no EAN on row/page",
+   "gurkerl": "not tried (no EAN)",
+   "off_product_page": null,
+   "off_front_candidate": null
+  },
+  {
+   "product_id": "dfb8bc60a13a",
+   "name": "Kaspressknödel 4er-Packung",
+   "ean": "9120035592651",
+   "mpreis_page": "https://www.mpreis.at/shop/p/deflorian-kaspressknoedel-4er-packung-611637",
+   "mpreis_status": "InStock, JSON-LD image = shop placeholder (noImage) → no official photo on mpreis.at",
+   "billa_exact_ean": "no hit",
+   "gurkerl": "no article with this EAN among name-search hits",
+   "off_product_page": 404,
+   "off_front_candidate": null
+  },
+  {
+   "product_id": "142b52e0cf74",
+   "name": "Exotic Food Tom Kha Suppe",
+   "ean": "8853662002026",
+   "mpreis_page": "https://www.mpreis.at/shop/p/exotic-food-tom-kha-suppe-186168",
+   "mpreis_status": "InStock, JSON-LD image = shop placeholder (noImage) → no official photo on mpreis.at",
+   "billa_exact_ean": "no hit",
+   "gurkerl": "no article with this EAN among name-search hits",
+   "off_product_page": 200,
+   "off_front_candidate": "https://images.openfoodfacts.org/images/products/885/366/200/2026/front_de.3.full.jpg",
+   "off_candidate_decision": "OFF front_de.3 = hand-held user photo of the exact can (Exotic Food Tom Kha Suppe 400 ml), CC BY-SA, not an official packshot → not taken (task: official packshots only)"
+  },
+  {
+   "product_id": "7933ba6ac115",
+   "name": "Alnatura Chili Sin Carne",
+   "ean": "4104420252073",
+   "mpreis_page": "https://www.mpreis.at/shop/p/alnatura-chili-sin-carne-365893",
+   "mpreis_status": "InStock, JSON-LD image = shop placeholder (noImage) → no official photo on mpreis.at",
+   "billa_exact_ean": "no hit",
+   "gurkerl": "no article with this EAN among name-search hits",
+   "off_product_page": 200,
+   "off_front_candidate": "https://images.openfoodfacts.org/images/products/410/442/025/2073/front_de.8.full.jpg",
+   "off_candidate_decision": "OFF front_de.8 = hand-held user photo of the exact can (Alnatura Chili sin Carne 400 g), CC BY-SA, not official → not taken"
+  },
+  {
+   "product_id": "3669d3819ef7",
+   "name": "Fine Schlutzkrapfen mit Speckfüllung",
+   "ean": "8052400955840",
+   "mpreis_page": "https://www.mpreis.at/shop/p/fine-schlutzkrapfen-mit-speckfuellung-233128",
+   "mpreis_status": "InStock, JSON-LD image = shop placeholder (noImage) → no official photo on mpreis.at",
+   "billa_exact_ean": "no hit",
+   "gurkerl": "no article with this EAN among name-search hits",
+   "off_product_page": 404,
+   "off_front_candidate": null
+  },
+  {
+   "product_id": "533f2fcf28c9",
+   "name": "Fine Schlutzkrapfen mit Spinatfüllung",
+   "ean": "8052400954164",
+   "mpreis_page": "https://www.mpreis.at/shop/p/fine-schlutzkrapfen-mit-spinatfuellung-233127",
+   "mpreis_status": "InStock, JSON-LD image = shop placeholder (noImage) → no official photo on mpreis.at",
+   "billa_exact_ean": "no hit",
+   "gurkerl": "no article with this EAN among name-search hits",
+   "off_product_page": 404,
+   "off_front_candidate": null
+  },
+  {
+   "product_id": "4a03dd25bf08",
+   "name": "Costa Ofenfisch Bordelaise MSC",
+   "ean": "4008467018664",
+   "mpreis_page": "https://www.mpreis.at/shop/p/costa-ofenfisch-bordelaise-msc-813759",
+   "mpreis_status": "InStock, JSON-LD image = shop placeholder (noImage) → no official photo on mpreis.at",
+   "billa_exact_ean": "no hit",
+   "gurkerl": "no article with this EAN among name-search hits",
+   "off_product_page": 200,
+   "off_front_candidate": "https://images.openfoodfacts.org/images/products/400/846/701/8664/front_en.3.full.jpg",
+   "off_candidate_decision": "OFF front_en.3 = user photo of the exact box (Costa Ofenfisch à la Bordelaise 400 g) with a promo cashback sticker, cut-off edge, not official → not taken"
+  },
+  {
+   "product_id": "7a2742f07ea0",
+   "name": "Garlic flavour instant soup",
+   "ean": "5901882944596",
+   "mpreis_page": "https://www.mpreis.at/shop/p/vifon-garlic-flavour-instant-soup-222104",
+   "mpreis_status": "InStock, JSON-LD image = shop placeholder (noImage) → no official photo on mpreis.at",
+   "billa_exact_ean": "no hit",
+   "gurkerl": "no article with this EAN among name-search hits",
+   "off_product_page": 404,
+   "off_front_candidate": null
+  },
+  {
+   "product_id": "3c8c8f87247f",
+   "name": "Shrimp and chilli flavour instant",
+   "ean": "5901882944565",
+   "mpreis_page": "https://www.mpreis.at/shop/p/vifon-shrimp-and-chilli-flavour-instant-222103",
+   "mpreis_status": "InStock, JSON-LD image = shop placeholder (noImage) → no official photo on mpreis.at",
+   "billa_exact_ean": "no hit",
+   "gurkerl": "no article with this EAN among name-search hits",
+   "off_product_page": 404,
+   "off_front_candidate": null
+  }
+ ],
+ "photos_dead_ends": [
+  "mpreis.at: all 13 photo-less MPreis rows with a shop URL are InStock but the shop serves its noImage placeholder (no official photo exists there)",
+  "AIA Hähnchen Kebab (673853) and Brajlovic Cevapcici Banja Luka (817105): no EAN on row or MPreis page → no exact-id cross-retailer match possible",
+  "Gurkerl name search + composition EAN: 0 exact-EAN matches for the 12 EAN rows",
+  "OFF product pages: 5 EANs 404 (Deflorian Kaspressknödel, 2× Fine Schlutzkrapfen, 2× Vifon), Radatz Rinds Gulasch without image"
+ ]
+}

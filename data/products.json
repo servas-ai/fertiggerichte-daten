@@ -23387,7 +23387,7 @@
   "bio": false,
   "vegan": false,
   "url": "https://world.openfoodfacts.org/product/9010437032810",
-  "image_url": null,
+  "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-745086-1763278357-_wDoN78-.jpg",
   "source": "other.json",
   "ean": "9010437032810"
  },
@@ -23421,7 +23421,7 @@
   "bio": false,
   "vegan": false,
   "url": "https://world.openfoodfacts.org/product/9010437032803",
-  "image_url": null,
+  "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-745099-0206197936-DfXLdcFL.jpg",
   "source": "other.json",
   "ean": "9010437032803"
  },
@@ -23438,7 +23438,7 @@
   "bio": false,
   "vegan": false,
   "url": "https://world.openfoodfacts.org/product/9010437032797",
-  "image_url": null,
+  "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-745101-610088599-PVuFaEK9.jpg",
   "source": "other.json",
   "ean": "9010437032797"
  },
@@ -29932,7 +29932,7 @@
   "bio": false,
   "vegan": false,
   "url": "https://www.mpreis.at/shop/p/delamaris-chicken-bowl-curry-268407",
-  "image_url": null,
+  "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-885826-0363356578-MKU1eUl8.jpg",
   "source": "connectors_new.json",
   "ean": "3838929620064"
  },
@@ -32414,7 +32414,7 @@
   "bio": false,
   "vegan": false,
   "url": "https://www.mpreis.at/shop/p/wagner-big-sensation-salami-bbq-815197",
-  "image_url": null,
+  "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-774595-1305678203-JgoR8lXx.jpg",
   "source": "connectors_new.json",
   "ean": "4009233000838"
  },
@@ -37072,7 +37072,7 @@
   "bio": false,
   "vegan": false,
   "url": "https://www.mpreis.at/shop/p/delamaris-njami-chicken-bowl-mexicana-268406",
-  "image_url": null,
+  "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-885825-438096192-9NY20Ilx.jpg",
   "source": "connectors_new.json",
   "ean": "3838929620071"
  },
