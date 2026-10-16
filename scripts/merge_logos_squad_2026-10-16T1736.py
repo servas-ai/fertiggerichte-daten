@@ -12,7 +12,7 @@ P = "/workspace/fertig/analysis/logos.json"
 DATEN = "/workspace/fertiggerichte-daten"
 
 NEW = [
-    ("elfer", "11er (elfer)", ["11er", "elfer", "11er Nahrungsmittel GmbH"], "elfer-11er.svg",
+    ("elfer", "11er (elfer)", ["11er", "elfer"], "elfer-11er.svg",
      "https://www.11er.at/fileadmin/files/images/user_upload/01_Startseite/logo-11er-2.svg (11er.at robots: Allow /, Disallow only /typo3/)",
      "Offizielles Oval-Logo '11er elfer AUSTRIA' von 11er.at, unverändert; Betreiber laut Website Galinastraße 34, 6820 Frastanz (Kartoffelprodukte/Rösti = Alfies/MPreis 11er-Rösti-Zeilen)", True, "Markenhersteller"),
     ("ajinomoto", "Ajinomoto", ["Ajinomoto", "AJINOMOTO", "Ajinomoto Oyakata"], "ajinomoto.svg",
