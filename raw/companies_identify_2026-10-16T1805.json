@@ -1,0 +1,551 @@
+{
+ "run": "2026-10-16T1805 Daten-Squad",
+ "metric": "legal entity identified = LEI or VIES-verified EU UID (unchanged). Non-EU register IDs (CH UID CHE-…, UK company number) are written to register_id with registry_status 'verified_non_eu_register_*' and reported as a separate, clearly labelled count. FN/HRB-only rows stay outside the metric.",
+ "method": "GLEIF API lei-records filter[fulltext] + filter[entity.registeredAs] (1.1 s spacing); EU VIES REST check-vat-number (ES with approximate traderName/postcode/city match); brand-site Impressum/legal notices (food-connectors `food company --impressum`, WebFetch where the box had no route); evi.gv.at /f/<FN> pages (official Firmenbuch publication platform, robots allows /f/, search /s is disallowed and was not used); CZ ARES REST; SK RPO API; Swiss UID public web service uid-wse.admin.ch GetByUID; UK Companies House public company page (no robots.txt); openregister.de. North Data returned HTTP 429 (rate-limited) for all names — not retried.",
+ "robots_note": "One POST to www.zefix.ch/ZefixREST firm search ('Planted Foods') was sent before robots.txt was read; zefix.ch robots.txt disallows '/' — the response was discarded and not used as a source; identification uses the Swiss UID register web service instead. shab.ch also disallows '/' and was not fetched (only seen in web-search snippets, not used).",
+ "identified": {
+  "mochi-production-gmbh": {
+   "id_type": "UID (VIES)",
+   "uid": "ATU76763147",
+   "fn": "FN 554188h",
+   "legal_name": "Mochi Production GmbH",
+   "address": "Ferdinandstraße 13/1, 1020 Wien",
+   "label": "Mochi Production GmbH, Ferdinandstraße 13, 1020 Wien",
+   "imprint_url": "https://shoppu.mochi.at/impressum",
+   "vies": {
+    "valid": true,
+    "name": "Mochi Production GmbH",
+    "address": "Ferdinandstraße 13/1, AT-1020 Wien",
+    "checked_at": "2026-10-16T18:11:15.528Z"
+   },
+   "register": {
+    "url": "https://www.evi.gv.at/f/554188h",
+    "fetched_at": "2026-10-16T18:10:05Z",
+    "status": "Eingetragen",
+    "since": "2021-04-10",
+    "gesellschafter": "Mochi Holding GmbH",
+    "gf": "Gerhard Summer"
+   },
+   "gleif": "no record (fulltext 'Mochi Production' empty; 'Mochi' only hit Mochi GmbH 391200XRB8WKVGZ3DQ31 FN 400338h = different entity)",
+   "match": "name + address = label"
+  },
+  "hildegard-gruenkraft-naturprodukte": {
+   "id_type": "UID (VIES)",
+   "uid": "ATU61930557",
+   "fn": "FN 266429h",
+   "legal_name": "St. Hildegard-Posch GmbH",
+   "imprint_url": "http://www.xn--hildegard-grnkraft-x6b.at/impressum.html",
+   "imprint": "St. Hildegard-Posch GmbH, Am Weinberg 23, 4880 St. Georgen im Attergau; GF Nikolaj Posch, Mag. pharm. Patrick Posch; UID ATU61930557; FN 266429h LG Wels",
+   "imprint_fetched_at": "2026-10-16T18:11:40Z (WebFetch; box curl timed out, TLS issue known since T13)",
+   "vies": {
+    "valid": true,
+    "name": "St. Hildegard-Posch GmbH",
+    "address": "Thern 40, AT-4880 St.Georgen/Attergau",
+    "checked_at": "2026-10-16T18:12:03.793Z"
+   },
+   "register": {
+    "url": "https://www.evi.gv.at/f/266429h",
+    "status": "Eingetragen",
+    "address": "Thern 40, 4880 St. Georgen im Attergau",
+    "since": "2005-09-06",
+    "geschaeftszweig": "Vertrieb von Naturprodukten"
+   },
+   "match": "brand-site Impressum of the label brand names the entity; Impressum UID + FN = VIES/Firmenbuch name; street differs (Impressum Am Weinberg 23 vs register Thern 40), same town"
+  },
+  "franu-espana-sl": {
+   "id_type": "LEI + UID (VIES)",
+   "lei": "959800UR1864J6SPSH33",
+   "uid": "ESB40502403",
+   "legal_name": "FRA NUI ESPAÑA SOCIEDAD LIMITADA",
+   "gleif": {
+    "url": "https://api.gleif.org/api/v1/lei-records/959800UR1864J6SPSH33",
+    "address": "DELS GREMIS 8, 46290 Alcàsser, ES",
+    "legal_form": "DP3Q",
+    "registeredAs": "1000172035445",
+    "registeredAt": "RA000533",
+    "entity_status": "ACTIVE",
+    "registration_status": "ISSUED",
+    "next_renewal": "2027-04-10",
+    "ultimate_parent": "reporting exception NON_CONSOLIDATING",
+    "fetched_at": "2026-10-16T18:16:30Z"
+   },
+   "uid_source": "directory (infoempresa.com CIF B40502403), accepted only because VIES approximate match confirmed it",
+   "vies": {
+    "valid": true,
+    "name": "---",
+    "traderName": "FRANUI ESPANA SL",
+    "traderNameMatch": "VALID",
+    "traderPostalCodeMatch": "VALID (46290)",
+    "traderCityMatch": "VALID (ALCASSER)",
+    "checked_at": "2026-10-16T18:13:55.865Z"
+   },
+   "match": "label 'Franuí Espana SL.' = GLEIF legal name (Fra Nui = Franuí brand) + VIES name/postcode/city match"
+  },
+  "gastrotech": {
+   "id_type": "UID (VIES)",
+   "uid": "CZ06661645",
+   "ico": "06661645",
+   "legal_name": "GASTROTECH, s.r.o.",
+   "label": "Gastrotech, s.r.o. (BILLA AT 'Lachs Picknick', brand Sushitime)",
+   "ares": {
+    "url": "https://ares.gov.cz/ekonomicke-subjekty-v-be/rest/ekonomicke-subjekty/06661645",
+    "name": "GASTROTECH, s.r.o.",
+    "seat": "Zděbradská 74, Jažlovice, 25101 Říčany (since 2026-04-30; before: Štúrova 1701/55, Krč, 14200 Praha 4)",
+    "founded": "2017-12-06",
+    "register": "Městský soud v Praze C 286534",
+    "fetched_at": "2026-10-16T18:14:40Z"
+   },
+   "ares_name_search": "only 2 CZ hits for 'Gastrotech': GASTROTECH, s.r.o. 06661645 and MARCCRAB GastroTech s.r.o.",
+   "sk_rpo": "api.statistics.sk RPO: SK 'Gastrotech, s.r.o.' 45394903 terminated 2022-04-08 (v likvidácii); all other SK hits differ in name",
+   "vies": {
+    "valid": true,
+    "name": "GASTROTECH, s.r.o.",
+    "address": "Zděbradská 74, JAŽLOVICE, 251 01 ŘÍČANY",
+    "checked_at": "2026-10-16T18:14:00.921Z"
+   },
+   "brand_link": "https://www.sushitime.cz/cz/kontakt/ — Sushitime operated by Optiform s.r.o., Zděbradská 74, Jažlovice, 251 01 Říčany (= Gastrotech seat); ferpotravina.cz lists 'Sushi California', Výrobce Gastrotech, s.r.o., Země výroby CZ",
+   "match": "exact legal name, sole active entity of that name in CZ+SK registers, VIES valid, brand operator at the same seat"
+  }
+ },
+ "identified_non_eu_register": {
+  "planted-foods-ag": {
+   "id_type": "CH UID (non-EU register ID)",
+   "ch_uid": "CHE-398.606.506",
+   "hr": "CH-020.3.047.536-5",
+   "legal_name": "Planted Foods AG (Planted Foods SA) (Planted Foods Ltd)",
+   "address": "Kemptpark 32, 8310 Kemptthal",
+   "legal_form": "0106 AG",
+   "seat": "Lindau ZH",
+   "source": "Swiss UID public web service https://www.uid-wse.admin.ch/V5.0/PublicServices.svc GetByUID CHE398606506 (uid.admin.ch has no robots.txt; public service, no login)",
+   "fetched_at": "2026-10-16T18:10:30Z",
+   "gleif": "no record (fulltext 'Planted Foods' / 'Planted Foods AG' and registeredAs CHE-398.606.506 empty)",
+   "match": "label 'Planted Foods AG' + country CH = register name + legal form"
+  },
+  "gue-puds": {
+   "id_type": "UK company number (non-EU register ID)",
+   "company_number": "07104090",
+   "legal_name": "GU INDULGENT FOODS LIMITED",
+   "previous_name": "NOBLE DESSERTS HOLDINGS LIMITED (2009-12-14 – 2021-06-25)",
+   "registered_office": "Head Office, Dunmow Road, Bishop's Stortford, Hertfordshire, England, CM23 5PA",
+   "status": "Active",
+   "sic": "10890",
+   "source": "https://find-and-update.company-information.service.gov.uk/company/07104090",
+   "fetched_at": "2026-10-16T18:13:00Z",
+   "brand_link": "gupuds.com → 301 gudesserts.com footer '© 2026 Gü Indulgent Foods Limited'; https://gudesserts.com/pages/privacy-policy 'Gü Indulgent Foods Ltd, Dunmow Road, Bishops Stortford CM23 5PA'",
+   "gleif": "no record ('Gu Indulgent Foods', 'Noble Desserts', registeredAs 07104090 empty)",
+   "match": "brand-site legal name + address = Companies House registered office"
+  }
+ },
+ "register_id_only_not_counted": {
+  "knoedelwerkstatt-gmbh": {
+   "fn": "FN 508483w",
+   "source": "https://www.evi.gv.at/f/508483w",
+   "register": "Knödelwerkstatt GmbH, Hauptstraße 12, 4581 Rosenau am Hengstpaß, eingetragen 2019-03-08, GF Werner Dilly",
+   "label": "Knödelwerkstatt G.m.b.H, Hauptstraße 12, 4581 Rosenau am Hengstpass",
+   "uid": "directory UID ATU56237548 (firmenabc.at) → VIES valid=false 2026-10-16T18:09:24Z; Impressum shows only 'ATU' (truncated)",
+   "gleif": "no record"
+  },
+  "kasnudl-gmbh": {
+   "fn": "FN 425910p",
+   "current_name": "Invaro GmbH (since 2026-06-03)",
+   "former_name": "Kasnudl GmbH (2019-03-20 – 2026-06-03), earlier Fabrik Hirn GmbH",
+   "address": "Schumanngasse 16/16, 1180 Wien",
+   "sources": [
+    "https://www.evi.gv.at/f/425910p (FN, address, Namensänderung 06/2026, Insolvenz-Mitteilungen 11/2024, 02/2025)",
+    "https://www.firmenatlas.com/firma/425910p (name history, Justiz data)"
+   ],
+   "uid": "firmenatlas lists ATU83103945, but VIES returns that UID for Knödelhütte GmbH (T1706) — not used",
+   "note": "row stays separate from 'stadtkueche' (Knödelhütte GmbH, current Stadtküche operator); label entity is the older Kasnudl GmbH"
+  },
+  "alimentastic-food-innovation-gmbh": {
+   "fn": "FN 615538d",
+   "current_name": "Schmidbauer Food Innovation GmbH (since 2026-02-11)",
+   "label_name_period": "Alimentastic Food Innovation GmbH 2023-12-12 – 2026-02-11",
+   "address": "Strubergasse 24, 5020 Salzburg",
+   "sources": [
+    "https://www.evi.gv.at/f/615538d",
+    "https://www.wirtschaft.at/u/615538d"
+   ],
+   "correction": "T1706 had written FN 673845z (Alimentastic GmbH, founded 2026-02-27) = brand successor, not the label entity; corrected. Successor Alimentastic GmbH ATU83105925 is VIES-valid (Alimentastic GmbH, Strubergasse 24, AT-5020 Salzburg, 2026-10-16T18:18:32Z; source https://www.biogenamoments.com/policies/legal-notice) — recorded here only; the alimentastic.com UID ATU70319525 remains VIES-invalid"
+  },
+  "bauck-gmbh": {
+   "hrb": "HRB 205474 Amtsgericht Lüneburg",
+   "address": "Duhenweitz 4, 29571 Rosche",
+   "source": "https://openregister.de/company/DE-HRB-P2507-205474",
+   "brand_link": "https://www.bauck.de/impressum/ (BauckOnline GmbH, same address Duhenweitz 4; its UID DE313040669 / HRB 206937 is the shop operator, not Bauck GmbH)",
+   "uid": "none public",
+   "gleif": "no record"
+  }
+ },
+ "dead_ends": {
+  "delikatessa-gmbh": "candidate '\"Delikatessa\" Lebensmittel-Handels- und Erzeugungs-Gesellschaft m.b.H.' FN 125012t Wiener Neudorf — evi.gv.at: gelöscht 2020-08-14 (Verschmelzung), absorbing entity not shown; label short form not exact; not mapped. Billa product 00736914 delisted (API 404).",
+  "vegetarische-feinkost-produktion-peter-hiel": "sole trader (Einzelunternehmen) without published FN/UID; successor Hiel & Co GmbH FN 626704z ATU80621089 (VIES valid 2026-10-16T18:18:13Z: Hiel & Co GmbH, Industriestraße 1/Halle N/23-25, AT-2100 Korneuburg; https://www.hiel.at/impressum) is a different legal entity — not mapped",
+  "verband-der-mpreis-partner-jeden-tag": "no registered entity 'Verband der MPREIS-Partner' found; Jeden Tag brand-site Impressum (https://www.jeden-tag.at/de/impressum) = Zentrale Handelsgesellschaft - ZHG - mbH FN 105041y, Radingerstraße 2a, 1020 Wien (evi.gv.at/f/105041y confirms name) — brand owner, not the label producer; no LEI (GLEIF fulltext + registeredAs empty), no UID published — not mapped",
+  "northdata": "HTTP 429 'Seite nicht verfügbar' for every name at 18:08Z — not retried",
+  "kontakt-everygmbh": "not merged: products/companies are regenerated from the fertig app build (export.py / companies_enrich.py read the app rows), so a daten-only patch of the producer string 'Kontakt: Every.GmbH, Paul-Lincke-Ufer 7C, 10999 Berlin' (1 Gurkerl product) would be reverted on the next export; needs a producer-string normalisation in the fertig export"
+ },
+ "gleif_queries": {
+  "fulltext_names": {
+   "Mochi Production": [],
+   "Mochi": [
+    [
+     "81560053CB77B3A80D81",
+     "RISTORANTE DANIELE E RICCARDO DI CASINI DANIELE",
+     "IT",
+     "MONTEVARCHI",
+     "CSNDNL74L18F656G"
+    ],
+    [
+     "8945009XCYM4VEUVLI68",
+     "VRAJ JEWELLERS",
+     "IN",
+     "UMRETH, KHEDA",
+     "24AJOPS2852D1Z4"
+    ],
+    [
+     "335800M38QJISGIQZM02",
+     "THE LUNAWADA NAGRIK SAHAKARI BANK LTD",
+     "IN",
+     "LUNAWADA",
+     "24AAAAT3095P1Z1"
+    ],
+    [
+     "984500A5F0C7A1DD6580",
+     "AMG JOB WORK AND CYBER SOCIETY",
+     "IN",
+     "DUNGARPUR",
+     "RJ/2017/0158298"
+    ],
+    [
+     "335800215U2FXBA7FT05",
+     "SHREE TIRUMALLA PRESSING FACTORY LLP",
+     "IN",
+     "BEED",
+     "AAA-5617"
+    ],
+    [
+     "335800GDZPMH53KWJD49",
+     "SANKALP GINNING INDUSTRIES LLP",
+     "IN",
+     "BEED",
+     "AAA-5614"
+    ],
+    [
+     "335800LYRHKT1GG1DY57",
+     "SHREE TIRUMALLA OIL CAKE INDUSTRIES LLP",
+     "IN",
+     "BEED",
+     "AAA-4877"
+    ],
+    [
+     "9845006D7N0B9B7GC884",
+     "VIPULKUMAR SEVANTILAL SHAH",
+     "IN",
+     "AHEMDABAD",
+     "24ACVPS5679Q1Z6"
+    ],
+    [
+     "9845006F3F57D2EB0862",
+     "KUBER BUILDCON",
+     "IN",
+     "Ahmedabad",
+     "24ABAFK1697E1ZH"
+    ],
+    [
+     "33580048ELMXVB5DOT48",
+     "SAI RAJENDRA GOLD PALACE PRIVATE LIMITED",
+     "IN",
+     "VIJAYAWADA",
+     "U36912AP2011PTC096071"
+    ],
+    [
+     "648826JTSFS336F9T114",
+     "AVINASH KUMAR SINGH",
+     "IN",
+     "Madhepura",
+     "10BKKPS4090R2ZI"
+    ],
+    [
+     "8945005KMGTKU0HT2U23",
+     "Ricon Jewellery",
+     "IN",
+     "Ahmedabad",
+     "24AIMPS2654L1ZR"
+    ],
+    [
+     "64882272Y71ZMLG0PR31",
+     "NAKODA CHAIN PRIVATE LIMITED",
+     "IN",
+     "Ahmedabad",
+     "U32111GJ2023PTC138911"
+    ],
+    [
+     "9845000B67DF154B0156",
+     "S. O. GOLD PRIVATE LIMITED",
+     "IN",
+     "AHMEDABAD",
+     "U74900GJ2013PTC074108"
+    ],
+    [
+     "391200XRB8WKVGZ3DQ31",
+     "Mochi GmbH",
+     "AT",
+     "Wien",
+     "400338h"
+    ]
+   ],
+   "Kasnudl": [],
+   "Gu Puds": [],
+   "Gü Puds": [],
+   "Noble Desserts": [],
+   "Bauck": [],
+   "Delikatessa": [],
+   "Franui": [],
+   "Franuí": [],
+   "Gastrotech": [
+    [
+     "9845009DEDDEAI7C6108",
+     "Gastrotech UG (haftungsbeschränkt)",
+     "DE",
+     "Bönen",
+     "HRB 11564"
+    ]
+   ],
+   "Hildegard": [
+    [
+     "391200ZITFPJEZPBI604",
+     "Vereinigung der Benediktinerinnen (Kloster St. Hildegard Benediktinerinnenabtei St. Hildegard) zu St. Hildegard eingetragener Verein",
+     "DE",
+     "Rüdesheim am Rhein",
+     "VR 5353"
+    ],
+    [
+     "529900NL4C5192PSCH34",
+     "HILDEGARD AS",
+     "NO",
+     "Bremanger",
+     "815979222"
+    ],
+    [
+     "9676000XRBK8XO62SG80",
+     "Hospiz-Stiftung-St.-Hildegard Bochum",
+     "DE",
+     "Bochum",
+     null
+    ],
+    [
+     "724500GIZV220QIYDL41",
+     "S4 NL Fin B.V.",
+     "NL",
+     "Amsterdam",
+     "99811677"
+    ],
+    [
+     "7245000O2ZU41I3WUM34",
+     "BlockCentral B.V.",
+     "NL",
+     "Amsterdam",
+     "92011276"
+    ],
+    [
+     "724500CNYNYOSVCMCO91",
+     "Da Vinci Investments B.V.",
+     "NL",
+     "Amsterdam",
+     "63794926"
+    ],
+    [
+     "7245000JYO8DCGFYTP30",
+     "Melzi Trading B.V.",
+     "NL",
+     "Amsterdam",
+     "83681442"
+    ],
+    [
+     "984500744EA72EDDSC60",
+     "NXT Capital B.V.",
+     "NL",
+     "Amsterdam",
+     "75312026"
+    ],
+    [
+     "724500602T7B825I2509",
+     "707 Brand Consultancy B.V.",
+     "NL",
+     "Almere",
+     "34165693"
+    ],
+    [
+     "549300FJO6CXTZ4V1248",
+     "MakeSense Derivatives B.V.",
+     "NL",
+     "Amsterdam",
+     "51997665"
+    ],
+    [
+     "724500OE4LU895PQPY73",
+     "ONE-Dyas B.V.",
+     "NL",
+     "Amsterdam",
+     "33211110"
+    ],
+    [
+     "724500QKEG5H3RBIOO46",
+     "Alea Iacta Est B.V.",
+     "NL",
+     "Amsterdam",
+     "09125595"
+    ],
+    [
+     "724500XSO8IH4SMO3L14",
+     "Moqueca B.V.",
+     "NL",
+     "Amsterdam",
+     "86803638"
+    ],
+    [
+     "724500GKFGSZGCKAG767",
+     "Moonah B.V.",
+     "NL",
+     "Amsterdam",
+     "92251641"
+    ],
+    [
+     "724500063L4D6TA3ZM35",
+     "Gelukkigerwijs B.V.",
+     "NL",
+     "Amsterdam",
+     "66517575"
+    ]
+   ],
+   "Grünkraft": [],
+   "Knödelwerkstatt": [],
+   "Knoedelwerkstatt": [],
+   "Planted Foods": [],
+   "Peter Hiel": [],
+   "Hiel": [
+    [
+     "894500C74TPCLNKMMK43",
+     "Päiperleck S.àr.l",
+     "LU",
+     "Wormeldange",
+     "B146722"
+    ],
+    [
+     "9845001B8M73B1B00449",
+     "ACASA",
+     "LU",
+     "Wormeldange-Haut",
+     "B273403"
+    ],
+    [
+     "529900WQGP2BBGM38445",
+     "SenConcept S.àr.l.",
+     "LU",
+     "Wormeldange-Haut",
+     "B147558"
+    ],
+    [
+     "967600GNN7IOIR6CLN91",
+     "Dokter Hiel Danny",
+     "BE",
+     "Balen",
+     "0827.813.440"
+    ]
+   ],
+   "MPREIS": [
+    [
+     "5299007HKZK4RSU17874",
+     "MPREIS Warenvertriebs GmbH",
+     "AT",
+     "Völs",
+     "43603y"
+    ]
+   ],
+   "Alimentastic": []
+  },
+  "followup": {
+   "fulltext:Gu Indulgent Foods": [],
+   "fulltext:St. Hildegard-Posch": [],
+   "fulltext:Fra Nui": [
+    [
+     "959800UR1864J6SPSH33",
+     "FRA NUI ESPAÑA SOCIEDAD LIMITADA",
+     "ES",
+     "1000172035445"
+    ]
+   ],
+   "fulltext:Franui Espana": [],
+   "fulltext:Hiel & Co": [],
+   "fulltext:Optiform": [
+    [
+     "7437005CNN18XEJJ4U13",
+     "Optiform Oy",
+     "FI",
+     "0691620-4"
+    ]
+   ],
+   "fulltext:Bauck GmbH": [],
+   "fulltext:Knödelwerkstatt GmbH": [],
+   "fulltext:Planted Foods AG": [],
+   "registeredAs:07104090": [],
+   "registeredAs:554188h": [],
+   "registeredAs:508483w": [],
+   "registeredAs:266429h": [],
+   "registeredAs:CHE-398.606.506": [],
+   "registeredAs:CHE398606506": [],
+   "registeredAs:B40502403": [],
+   "registeredAs:06661645": [],
+   "registeredAs:HRB 205474": [
+    [
+     "894500FXECIT9FBD6Y28",
+     "Kreiskrankenhaus Greiz-Ronneburg GmbH",
+     "DE",
+     "HRB 205474"
+    ]
+   ],
+   "registeredAs:205474": [
+    [
+     "894500FXECIT9FBD6Y28",
+     "Kreiskrankenhaus Greiz-Ronneburg GmbH",
+     "DE",
+     "HRB 205474"
+    ],
+    [
+     "529900Z7U4I4C6HI2I42",
+     "ENOVA Windpark Breddenberg Ohe GmbH & Co. KG",
+     "DE",
+     "HRA 205474"
+    ]
+   ]
+  }
+ },
+ "counts": {
+  "before": {
+   "legal_entity": 125,
+   "lei": 62,
+   "uid": 66,
+   "fn": 60,
+   "hrb": 21
+  },
+  "after": {
+   "legal_entity": 129,
+   "legal_entity_incl_non_eu_register": 131,
+   "lei": 63,
+   "uid": 70,
+   "fn": 64,
+   "hrb": 22,
+   "non_eu_register": 2,
+   "total": 138
+  },
+  "uid_by_country": {
+   "AT": 42,
+   "DE": 21,
+   "IT": 3,
+   "FR": 1,
+   "ES": 1,
+   "CZ": 1,
+   "NL": 1
+  }
+ }
+}
