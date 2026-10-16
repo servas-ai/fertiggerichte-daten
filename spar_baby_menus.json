@@ -1,0 +1,160 @@
+{
+ "source": "search-spar.spar-ics.com fact-finder products_lmos_at (public JSON search index of interspar.at; no robots.txt; ≥1.2 s/request)",
+ "fetched": "2026-10-16T17:55Z",
+ "query": [
+  "natur pur bio",
+  "natur pur risotto",
+  "natur pur bio menü"
+ ],
+ "category": "Produkte|Babynahrung & Getränke|Baby|Menüs",
+ "note": "SPAR Natur*pur baby jars (Menüs). Review 13 E: interspar.at Bolognese 190 g ab 5 Monate, 220 g ab 8 Monate. Bio-Steinpilz-/Tomaten-Risotto 2,49 € are in Reis|Rundkornreis, NOT baby.",
+ "items": [
+  {
+   "name": "Bio-Dinkel-Nudeln mit Brokkoli",
+   "pack": "220 G",
+   "price": 1.39,
+   "category": "Produkte|Babynahrung & Getränke|Baby|Menüs",
+   "url": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-bio-dinkel-nudeln-mit-brokkoli/p/2020003844089"
+  },
+  {
+   "name": "Bio-Dinkel-Spaghetti mit Lachs & Gemüse",
+   "pack": "220 G",
+   "price": 1.39,
+   "category": "Produkte|Babynahrung & Getränke|Baby|Menüs",
+   "url": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-bio-dinkel-spaghetti-mit-lachs-gemuese/p/2020003844621"
+  },
+  {
+   "name": "Bio-Gemüse mit Huhn & Reis",
+   "pack": "190 G",
+   "price": 0.95,
+   "category": "Produkte|Babynahrung & Getränke|Baby|Menüs",
+   "url": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-bio-gemuese-mit-huhn-reis/p/2020004830166"
+  },
+  {
+   "name": "Bio-Gemüse-Allerlei mit Huhn",
+   "pack": "190 G",
+   "price": 1.29,
+   "category": "Produkte|Babynahrung & Getränke|Baby|Menüs",
+   "url": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-bio-gemuese-allerlei-mit-huhn/p/2020003844102"
+  },
+  {
+   "name": "Bio-Gemüse-Allerlei mit Linsen & Couscous",
+   "pack": "220 G",
+   "price": 1.39,
+   "category": "Produkte|Babynahrung & Getränke|Baby|Menüs",
+   "url": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-bio-gemuese-allerlei-mit-linsen-couscous/p/2020003844553"
+  },
+  {
+   "name": "Bio-Gemüse-Lasagne",
+   "pack": "250 G",
+   "price": 1.35,
+   "category": "Produkte|Babynahrung & Getränke|Baby|Menüs",
+   "url": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-bio-gemuese-lasagne/p/2020005324398"
+  },
+  {
+   "name": "Bio-Gemüse-Risotto",
+   "pack": "250 G",
+   "price": 1.35,
+   "category": "Produkte|Babynahrung & Getränke|Baby|Menüs",
+   "url": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-bio-gemuese-risotto/p/2020005500181"
+  },
+  {
+   "name": "Bio-Gemüsereis mit Pute",
+   "pack": "220 G",
+   "price": 1.39,
+   "category": "Produkte|Babynahrung & Getränke|Baby|Menüs",
+   "url": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-bio-gemuesereis-mit-pute/p/2020003844126"
+  },
+  {
+   "name": "Bio-Karotte & Kartoffel mit Huhn",
+   "pack": "190 G",
+   "price": 0.95,
+   "category": "Produkte|Babynahrung & Getränke|Baby|Menüs",
+   "url": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-bio-karotte-kartoffel-mit-huhn/p/2020005649965"
+  },
+  {
+   "name": "Bio-Karotte & Kartoffel mit Rind",
+   "pack": "220 G",
+   "price": 1.19,
+   "category": "Produkte|Babynahrung & Getränke|Baby|Menüs",
+   "url": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-bio-karotte-kartoffel-mit-rind/p/2020004830173"
+  },
+  {
+   "name": "Bio-Karotte & Süßkartoffel mit Rind",
+   "pack": "190 G",
+   "price": 0.95,
+   "category": "Produkte|Babynahrung & Getränke|Baby|Menüs",
+   "url": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-bio-karotte-suesskartoffel-mit-rind/p/2020005649996"
+  },
+  {
+   "name": "Bio-Kartoffel-Gemüse mit Rind",
+   "pack": "190 G",
+   "price": 0.95,
+   "category": "Produkte|Babynahrung & Getränke|Baby|Menüs",
+   "url": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-bio-kartoffel-gemuese-mit-rind/p/2020005650022"
+  },
+  {
+   "name": "Bio-Makkaroni in Rahmgemüse",
+   "pack": "250 G",
+   "price": 1.35,
+   "category": "Produkte|Babynahrung & Getränke|Baby|Menüs",
+   "url": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-bio-makkaroni-in-rahmgemuese/p/2020005324411"
+  },
+  {
+   "name": "Bio-Makkaroni mit Huhn & Gemüse",
+   "pack": "220 G",
+   "price": 1.19,
+   "category": "Produkte|Babynahrung & Getränke|Baby|Menüs",
+   "url": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-bio-makkaroni-mit-huhn-gemuese/p/2020005981324"
+  },
+  {
+   "name": "Bio-Pastinaken mit Kartoffeln & Rind",
+   "pack": "190 G",
+   "price": 0.95,
+   "category": "Produkte|Babynahrung & Getränke|Baby|Menüs",
+   "url": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-bio-pastinaken-mit-kartoffeln-rind/p/2020005014305"
+  },
+  {
+   "name": "Bio-Rigatoni Napoli",
+   "pack": "250 G",
+   "price": 1.35,
+   "category": "Produkte|Babynahrung & Getränke|Baby|Menüs",
+   "url": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-bio-rigatoni-napoli/p/2020005324404"
+  },
+  {
+   "name": "Bio-Schinkennudeln mit Gemüse",
+   "pack": "220 G",
+   "price": 1.19,
+   "category": "Produkte|Babynahrung & Getränke|Baby|Menüs",
+   "url": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-bio-schinkennudeln-mit-gemuese/p/2020005981270"
+  },
+  {
+   "name": "Bio-Spaghetti Bolognese",
+   "pack": "190 G",
+   "price": 0.95,
+   "category": "Produkte|Babynahrung & Getränke|Baby|Menüs",
+   "url": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-bio-spaghetti-bolognese/p/2020004894687"
+  },
+  {
+   "name": "Bio-Spaghetti Bolognese",
+   "pack": "220 G",
+   "price": 1.19,
+   "category": "Produkte|Babynahrung & Getränke|Baby|Menüs",
+   "url": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-bio-spaghetti-bolognese/p/2020004830203"
+  },
+  {
+   "name": "Bio-Spaghetti Bolognese",
+   "pack": "250 G",
+   "price": 1.35,
+   "category": "Produkte|Babynahrung & Getränke|Baby|Menüs",
+   "url": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-bio-spaghetti-bolognese/p/2020004830210"
+  },
+  {
+   "name": "Mediterrane Bio-Kartoffelpfanne",
+   "pack": "220 G",
+   "price": 1.19,
+   "category": "Produkte|Babynahrung & Getränke|Baby|Menüs",
+   "url": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-mediterrane-bio-kartoffelpfanne/p/2020004830180"
+  }
+ ]
+}

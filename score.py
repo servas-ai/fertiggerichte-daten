@@ -367,7 +367,7 @@ for x in out:
     _offc=str((_OFF.get(_e) or {}).get('categories_tags') or (_OFF.get(_e) or {}).get('categories') or '')
     if _V2.baby_age(_nm+' '+str(x.get('description') or ''),_offc): x['meal_class']='baby'; x['segment']='baby_food'; _mc['ok']=False; _mc['reason']='Kindernahrung (Altersangabe/OFF)'  # review 13 E
     _bb,_bv=_V2.naturpur_baby(_nm,x.get('size_g'),x.get('price_eur'))
-    if _bb: x['meal_class']='baby'; x['segment']='baby_food'; _mc['ok']=False; _mc['reason']='Kindernahrung'; x['flags'].append('Babynahrung (SPAR Natur*pur Gläschen, interspar.at ab 5/8 Monate)' if _bv else 'Babynahrung (Verdacht: Natur*pur Gläschen ≤250 g/≤1,50 €)')
+    if _bb: x['meal_class']='baby'; x['segment']='baby_food'; _mc['ok']=False; _mc['reason']='Kindernahrung'; x['flags'].append('Babynahrung (SPAR Natur*pur Gläschen, SPAR-Kategorie Baby/Menüs, Bolognese laut interspar.at ab 5/8 Monate)' if _bv else 'Babynahrung (Verdacht: Natur*pur Gläschen ≤250 g/≤1,50 €)')
     if not _des and _V2.SNACK.search(_nm): x['meal_class']='snack_side'; _mc['ok']=False; _mc['reason']='Brot/Snack/Instant – keine Mahlzeit'
     x['component']=_V2.component_name(_nm) and not _des  # sensecheck 13: carb word next to 'filet'/'laibchen' → dish
     if not _des and _V2.breaded_component(_nm): x['component']=True; x['component_kind']='breaded'  # sensecheck 11

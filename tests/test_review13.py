@@ -45,10 +45,11 @@ def test_E_baby_food():
     assert V.baby_age('Bio-Gemüse ab 5 Monaten') and V.baby_age('ab dem 8. Monat') and V.baby_age('x','en:baby-foods')
     assert not V.baby_age('Rindsgulasch 400 g')
     assert V.naturpur_baby('SPAR Natur*pur Bio-Spaghetti Bolognese',190,0.95)==(True,True)
-    assert V.naturpur_baby('SPAR Natur*pur Bio-Gemüse-Risotto',250,1.35)==(False,False)
+    assert V.naturpur_baby('SPAR Natur*pur Bio-Gemüse-Risotto',250,1.35)==(True,True)  # review 14: SPAR-Kategorie Baby/Menüs
+    assert V.naturpur_baby('SPAR Natur*pur Bio-Steinpilz-Risotto',250,2.49)==(False,False)
     for r in _rows():
         if r['store']=='Spar' and re.search(r'natur\*pur bio-spaghetti bolognese',r['name'],re.I) and (r.get('size') or 999)<=250: assert r['segment']=='baby_food'
-        if r['store']=='Spar' and 'Risotto' in r['name'] and 'Natur*pur' in r['name']: assert r.get('segment')!='baby_food', r['name']
+        if r['store']=='Spar' and re.search(r'steinpilz-risotto|tomaten-risotto',r['name'],re.I) and 'Natur*pur' in r['name']: assert r.get('segment')!='baby_food', r['name']
 
 def test_AB_goldschatz_component_and_piece_portion():
     g=[r for r in _rows() if 'goldschatz' in r['name'].lower()]

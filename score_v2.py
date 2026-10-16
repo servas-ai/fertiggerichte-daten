@@ -252,12 +252,31 @@ def piece_portion(nm, sz):
 AGE = re.compile(r'\bab\s+(dem\s+)?\d{1,2}\.?\s*(monat|monate|monaten)\b|altersstufe',re.I)
 def baby_age(text, off_cats=''):
     return bool(AGE.search(text or '')) or 'en:baby-food' in (off_cats or '')
+def _npkey(nm, sz=None):
+    k=re.sub(r'^.*?natur\*?\s?pur\s*','',(nm or '').lower()); k=re.sub(r'\s*\d+\s*g\b','',k); k=re.sub(r'[^a-z0-9äöüß]+','',k)
+    try: return (k, int(round(float(sz)))) if sz is not None else k
+    except (TypeError,ValueError): return k
+def _load_spar_baby():
+    try:
+        J=json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)),'spar_baby_menus.json')))
+    except Exception: return set(), set()
+    full=set(); names=set()
+    for it in J.get('items',[]):
+        m=re.search(r'(\d+)\s*G',str(it.get('pack') or ''),re.I)
+        names.add(_npkey(it['name']))
+        if m: full.add(_npkey(it['name'],m.group(1)))
+    return full, names
+SPAR_BABY, SPAR_BABY_NAMES = _load_spar_baby()
 def naturpur_baby(nm, sz, price):
-    """(is_baby, verified). Bolognese 190/220/250 g verified on interspar.at (ab 5/8 Monate); other ≤250 g / ≤1.50 € jars = suspect.
-    Risotto excluded (orch 17:41)."""
+    """(is_baby, verified). Verified = listed in SPAR category 'Babynahrung & Getränke|Baby|Menüs' (spar_baby_menus.json,
+    search-spar API 16.10.; Bolognese 190/220 g also 'ab 5/8 Monate' on interspar.at). Otherwise heuristic: Natur*pur Bio-
+    jar ≤250 g and ≤1.50 € = suspect (flag 'Verdacht'). Review 14: the blanket risotto exclusion (orch 17:41) dropped the
+    verified baby jar Bio-Gemüse-Risotto 250 g/1,35 €; Steinpilz-/Tomaten-Risotto 2,49 € (SPAR: Reis|Rundkornreis) fail the price rule anyway."""
     nm=nm or ''
-    if not re.search(r'natur\*?\s?pur bio-',nm,re.I) or re.search(r'risotto',nm,re.I): return (False,False)
+    if not re.search(r'natur\*?\s?pur\b.*\bbio-',nm,re.I): return (False,False)
+    if _npkey(nm,sz) in SPAR_BABY: return (True,True)
+    if re.search(r'steinpilz-risotto|tomaten-risotto',nm,re.I): return (False,False)
     try: sz=float(sz); price=float(price)
     except (TypeError,ValueError): return (False,False)
     if not (sz<=250 and price<=1.50): return (False,False)
-    return (True, bool(re.search(r'spaghetti bolognese',nm,re.I)))
+    return (True, _npkey(nm) in SPAR_BABY_NAMES)
