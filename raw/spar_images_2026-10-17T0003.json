@@ -1,0 +1,39 @@
+{
+ "run": "2026-10-17T0003",
+ "source_api": "https://search-spar.spar-ics.com/fact-finder/rest/v4/search/products_lmos_at",
+ "photos_accepted": [
+  {
+   "product_id": "a9b616eed13b",
+   "name": "Inzersdorfer Rindsgulasch 800 G",
+   "spar_article": "145930",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/145930/dt_main.jpg",
+   "match": "article id from row url interspar.at/p/145930; SPAR name 'Inzersdorfer Rindsgulasch 2 Portionen', 800 G",
+   "http": "200 image/jpeg 180x180",
+   "vision_gate": "PASS (front pack, brand + dish legible)"
+  },
+  {
+   "product_id": "cbd993bd22f9",
+   "name": "Inzersdorfer Speckknödelsuppe",
+   "spar_article": "2020005546097",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005546097/dt_main.jpg",
+   "match": "SPAR search exact name 'Inzersdorfer Speckknödelsuppe'",
+   "http": "200 image/jpeg 180x180",
+   "vision_gate": "PASS (front pack, brand + dish legible)"
+  },
+  {
+   "product_id": "324edcafd8b5",
+   "name": "ehrenwort BIO Bangkok rotes Thai Curry 35g",
+   "spar_article": "2020003503993",
+   "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003503993/dt_main.jpg",
+   "match": "SPAR search exact name 'ehrenwort BIO Bangkok rotes Thai Curry 35g'",
+   "http": "200 image/jpeg 180x180",
+   "vision_gate": "PASS (front pack, brand + dish legible)"
+  }
+ ],
+ "rejected": [
+  "Knorr Bitte zu Tisch Sternchensuppe",
+  "Knorr Meister Kessel XL Leberknödel Suppe",
+  "Knorr Meister Kessel XL Serbische Bohnensuppe"
+ ],
+ "note": "3 Knorr rows: SPAR index names differ (no XL/Bitte-zu-Tisch variant) -> no photo, no guessing"
+}

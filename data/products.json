@@ -1644,7 +1644,7 @@
   "bio": false,
   "vegan": false,
   "url": null,
-  "image_url": null,
+  "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005546097/dt_main.jpg",
   "source": "classics.json",
   "ean": null
  },
@@ -4619,7 +4619,7 @@
   "bio": true,
   "vegan": false,
   "url": null,
-  "image_url": null,
+  "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020003503993/dt_main.jpg",
   "source": "expand.json",
   "ean": null
  },
@@ -19460,7 +19460,7 @@
   "bio": false,
   "vegan": false,
   "url": "https://www.interspar.at/p/145930",
-  "image_url": null,
+  "image_url": "https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/145930/dt_main.jpg",
   "source": "spar_live.json",
   "ean": null
  },
