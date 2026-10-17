@@ -1,0 +1,66 @@
+{
+ "deflorian-srl": {
+  "url": "https://deflorian.tirol/policies/legal-notice",
+  "len": 255898,
+  "fn_candidates": [],
+  "ctx": [
+   "b, Tirol Kontaktdaten: Telefon: +43 676 40 23 265 Email: office@deflorian.tirol Firmenbuchnummer: AT70258EG Firmenbuchgericht: Landesgericht Innsbruck UID-Nr: ATU64259769",
+   "on: +43 676 40 23 265 Email: office@deflorian.tirol Firmenbuchnummer: AT70258EG Firmenbuchgericht: Landesgericht Innsbruck UID-Nr: ATU64259769 Gewerbeaufsichtbehörde: Bez"
+  ]
+ },
+ "bs-gastro-event-services-gmbh": {
+  "url": "https://xn--brtchen-boutique-nwb.at/policies/legal-notice",
+  "len": 104379,
+  "fn_candidates": [],
+  "ctx": []
+ },
+ "caro-fratello-gmbh": {
+  "url": "https://www.fratelli-barbaro.at/impressum",
+  "error": "<HTTPError 404: 'Not Found'>"
+ },
+ "morgentau-biogemuese-gmbh": {
+  "url": "https://morgentau.at/impressum",
+  "len": 53746,
+  "fn_candidates": [],
+  "ctx": []
+ },
+ "amlacher-nudeln": {
+  "url": "https://amlachernudel.com/impressum/",
+  "len": 95219,
+  "fn_candidates": [],
+  "ctx": []
+ },
+ "recheis-teigwaren-gmbh": {
+  "url": "https://www.recheis.com/impressum",
+  "len": 93338,
+  "fn_candidates": [
+   "47864p"
+  ],
+  "ctx": [
+   " 33 info@recheis.com Eingetragen beim Handelsregister Landesgericht Innsbruck – Firmenbuch-Nr. 47864p UID-NUMMER: ATU31064200 Kammerzugehörigkeit: Industriellenvereinigun"
+  ]
+ },
+ "wech-gefluegel-gmbh": {
+  "url": "https://www.wech.at/impressum",
+  "len": 44978,
+  "fn_candidates": [],
+  "ctx": [
+   "x: +43(0)4358-3122 orders@wech.at www.wech.at Rechtliches UID-Nr.: ATU 47685303 Firmenbuchnummer: FN 118 996 w Firmenbuchgericht: Klagenfurt Gerichtsstand: Wolfsberg Aufs",
+   " orders@wech.at www.wech.at Rechtliches UID-Nr.: ATU 47685303 Firmenbuchnummer: FN 118 996 w Firmenbuchgericht: Klagenfurt Gerichtsstand: Wolfsberg Aufsichtsbehör",
+   "at www.wech.at Rechtliches UID-Nr.: ATU 47685303 Firmenbuchnummer: FN 118 996 w Firmenbuchgericht: Klagenfurt Gerichtsstand: Wolfsberg Aufsichtsbehörde: Fleischergewerbe ",
+   "1 Fax: +43(0)4277-2853 orders@wech.at www.wech.at Rechtliches UID: ATU 39786102 Firmenbuch: FN 140 183 b Firmenbuchgericht: Klagenfurt Gerichtsstand: Klagenfurt Aufsichts"
+  ]
+ },
+ "dm-drogerie-markt-gmbh": {
+  "url": "https://www.dm.at/impressum-218894",
+  "len": 11382,
+  "fn_candidates": [],
+  "ctx": []
+ },
+ "hartls-kulinarikum": {
+  "url": "https://www.hartls-kulinarikum.at/impressum",
+  "len": 123544,
+  "fn_candidates": [],
+  "ctx": []
+ }
+}

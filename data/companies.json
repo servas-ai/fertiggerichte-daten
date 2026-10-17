@@ -1302,7 +1302,7 @@
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
   "founded": "2001-09-08",
-  "owners": null,
+  "owners": "Mars Beteiligungs-GmbH (FN 212371k); Mars Holding GmbH (FN 212370i) (Gesellschafter lt. Firmenbuch/evi.gv.at: 2× Unbeschränkt haftende/r Gesellschafter/in)",
   "management": null,
   "employees": null,
   "revenue": null,
@@ -1329,7 +1329,8 @@
   "registry_status": "verified_gleif",
   "founded_source": "Firmenbuch Eintragungsdatum, evi.gv.at/f/213022v",
   "register_status": "Eingetragen",
-  "register_entry_date": "2001-09-08"
+  "register_entry_date": "2001-09-08",
+  "owners_source": "https://www.evi.gv.at/f/213022v"
  },
  {
   "slug": "molkerei-alois-mueller-gmbh-co-kg",
@@ -5592,7 +5593,7 @@
   "lei": null,
   "register_id": null,
   "register_authority": null,
-  "fn": null,
+  "fn": "FN 47864p",
   "legal_form_code": null,
   "country": "AT",
   "address": "Fassergasse 8/-10, AT-6060 Hall in Tirol",
@@ -5601,7 +5602,7 @@
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
   "founded": "1889 (Unternehmensangabe: Gründung der ersten Teigwarenmanufaktur Österreichs)",
-  "owners": null,
+  "owners": "Recheis Holding Gesellschaft m.b.H. (FN 47854z) (Gesellschafter lt. Firmenbuch/evi.gv.at: 1× Gesellschafter/in)",
   "management": null,
   "employees": "rund 100 in Hall in Tirol; Recheis Gruppe fast 200 (Unternehmensangabe)",
   "revenue": null,
@@ -5622,7 +5623,8 @@
    "https://www.recheis.com/impressum",
    "EU VIES ATU31064200",
    "https://www.recheis.com/ueber-uns/geschichte/",
-   "https://www.recheis.com/presse-oeffentlichkeit/"
+   "https://www.recheis.com/presse-oeffentlichkeit/",
+   "https://www.evi.gv.at/f/47864p"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-13T10:55:06Z",
@@ -5632,10 +5634,13 @@
   "uid_vies_address": "Fassergasse 8/-10, AT-6060 Hall in Tirol",
   "uid_checked_at": "2026-10-13T18:50:47.065Z",
   "imprint_url": "https://www.recheis.com/impressum",
-  "register_court": null,
+  "register_court": "Landesgericht Innsbruck",
   "hrb": null,
   "founded_source": "https://www.recheis.com/ueber-uns/geschichte/ (own site; scope: company founding; T1938)",
-  "employees_source": "https://www.recheis.com/ueber-uns/geschichte/ (own site; scope: company site; group figure from press page; T1938)"
+  "employees_source": "https://www.recheis.com/ueber-uns/geschichte/ (own site; scope: company site; group figure from press page; T1938)",
+  "owners_source": "https://www.evi.gv.at/f/47864p",
+  "share_capital": "ATS 500 000",
+  "register_status": "Eingetragen"
  },
  {
   "slug": "revo-foods",
@@ -6027,7 +6032,7 @@
   "lei": null,
   "register_id": null,
   "register_authority": null,
-  "fn": null,
+  "fn": "FN 118996w",
   "legal_form_code": null,
   "country": "AT",
   "address": "Kollegg 8, AT-9433 St.Andrä",
@@ -6036,7 +6041,7 @@
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
   "founded": "1958",
-  "owners": "Wech-Gruppe (Leitung Mag. Jakob Sintschnig)",
+  "owners": "Wech Beteiligungsverwaltung GmbH (FN 284145k); Hermine Wech Privatstiftung (FN 235135m) (Gesellschafter lt. Firmenbuch/evi.gv.at: 2× Gesellschafter/in)",
   "management": "DI Dr. Karl Feichtinger, DI Paul Pötz (lt. Suchergebnis)",
   "employees": "ca. 800 (Website); ca. 370 am Standort St. Andrä",
   "revenue": "nicht öffentlich gefunden",
@@ -6077,8 +6082,11 @@
   "uid_vies_address": "Kollegg 8, AT-9433 St.Andrä",
   "uid_checked_at": "2026-10-13T11:19:45.845Z",
   "imprint_url": "https://www.wech.at/impressum",
-  "register_court": "Klagenfurt",
-  "hrb": null
+  "register_court": "Landesgericht Klagenfurt",
+  "hrb": null,
+  "owners_source": "https://www.evi.gv.at/f/118996w",
+  "share_capital": "EUR 1 000 000",
+  "register_status": "Eingetragen"
  },
  {
   "slug": "whollees-gmbh",
@@ -6467,7 +6475,7 @@
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
   "founded": "1991-12-18",
-  "owners": null,
+  "owners": "2 natürliche Personen (Gesellschafter lt. Firmenbuch/evi.gv.at: 1× Unbeschränkt haftende/r Gesellschafter/in; 1× Kommanditist/in)",
   "management": null,
   "employees": "mehr als 12.000 (Unternehmensangabe, Presseaussendung 20.08.2025)",
   "revenue": "5,4 Mrd. € (2025; Unternehmensangabe in bezahlter Anzeige, Die Presse 2026)",
@@ -6494,7 +6502,8 @@
   "register_status": "Eingetragen",
   "register_entry_date": "1991-12-18",
   "employees_source": "https://www.hofer.at/ueber-hofer/presse/alle-presseaussendungen/presseaussendungen-unternehmen/2025/service-value-studie (own site; scope: company; T1938)",
-  "revenue_source": "https://www.diepresse.com/26002500/das-erlebnis-einkauf-weiter-erfolgreich-umsetzen (third-party outlet (Die Presse, paid advertorial); scope: company-supplied advertorial in third-party outlet (labelled); T1938)"
+  "revenue_source": "https://www.diepresse.com/26002500/das-erlebnis-einkauf-weiter-erfolgreich-umsetzen (third-party outlet (Die Presse, paid advertorial); scope: company-supplied advertorial in third-party outlet (labelled); T1938)",
+  "owners_source": "https://www.evi.gv.at/f/600h"
  },
  {
   "slug": "inzersdorfer-nahrungsmittelwerke",
@@ -6922,7 +6931,7 @@
   "parent_ultimate": null,
   "parent_ultimate_lei": null,
   "founded": "2024-03-29",
-  "owners": null,
+  "owners": "2 natürliche Personen (Gesellschafter lt. Firmenbuch/evi.gv.at: 2× Unbeschränkt haftende/r Gesellschafter/in)",
   "management": "Polina Polynova (Geschäftsführerin lt. Impressum)",
   "employees": null,
   "revenue": null,
@@ -6958,7 +6967,8 @@
   "founded_source": "Firmenbuch Eintragungsdatum, evi.gv.at/f/622470y",
   "business_line": "Nahrungs- und Genussmitttelgewerbe",
   "register_status": "Eingetragen",
-  "register_entry_date": "2024-03-29"
+  "register_entry_date": "2024-03-29",
+  "owners_source": "https://www.evi.gv.at/f/622470y"
  },
  {
   "slug": "golden-veggies-gmbh",

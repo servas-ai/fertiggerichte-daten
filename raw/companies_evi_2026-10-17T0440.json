@@ -1,0 +1,374 @@
+{
+ "run": "2026-10-17T0440",
+ "method": "Daten-Squad T0440 (2026-10-17): owners for partnerships + 2 FN from legal notices.\n\nT1907 parsed only the evi.gv.at 'Gesellschafter/in' section (GmbH), so KG/OG partners\n('Unbeschränkt haftende/r Gesellschafter/in', 'Kommanditist/in') were missed. Re-fetched evi.gv.at /f/<FN>\n(official Firmenbuch publication platform, robots allows /f/, food-connectors polite gate, 1 req/s).\nFN for Recheis and Wech taken from the company's own legal notice and confirmed on evi.gv.at (name = row legal name).\nNatural persons are counted, not named (T1907 rule). Eintragungsdatum 1991-1995 = FBG-1991 bulk transfer → not a founding date.\nEvidence: raw/companies_evi_2026-10-17T0440.json; probe scripts in scripts/evi_T0440/.\n",
+ "updates": {
+  "mars-austria-og": {
+   "owners": "Mars Beteiligungs-GmbH (FN 212371k); Mars Holding GmbH (FN 212370i) (Gesellschafter lt. Firmenbuch/evi.gv.at: 2× Unbeschränkt haftende/r Gesellschafter/in)",
+   "owners_source": "https://www.evi.gv.at/f/213022v",
+   "register_status": "Eingetragen"
+  },
+  "recheis-teigwaren-gmbh": {
+   "fn": "FN 47864p",
+   "register_court": "Landesgericht Innsbruck",
+   "owners": "Recheis Holding Gesellschaft m.b.H. (FN 47854z) (Gesellschafter lt. Firmenbuch/evi.gv.at: 1× Gesellschafter/in)",
+   "owners_source": "https://www.evi.gv.at/f/47864p",
+   "share_capital": "ATS 500 000",
+   "register_status": "Eingetragen"
+  },
+  "wech-gefluegel-gmbh": {
+   "fn": "FN 118996w",
+   "register_court": "Landesgericht Klagenfurt",
+   "owners": "Wech Beteiligungsverwaltung GmbH (FN 284145k); Hermine Wech Privatstiftung (FN 235135m) (Gesellschafter lt. Firmenbuch/evi.gv.at: 2× Gesellschafter/in)",
+   "owners_source": "https://www.evi.gv.at/f/118996w",
+   "share_capital": "EUR 1 000 000",
+   "register_status": "Eingetragen"
+  },
+  "hofer-kg": {
+   "owners": "2 natürliche Personen (Gesellschafter lt. Firmenbuch/evi.gv.at: 1× Unbeschränkt haftende/r Gesellschafter/in; 1× Kommanditist/in)",
+   "owners_source": "https://www.evi.gv.at/f/600h",
+   "register_status": "Eingetragen"
+  },
+  "kernbeisser-og": {
+   "owners": "2 natürliche Personen (Gesellschafter lt. Firmenbuch/evi.gv.at: 2× Unbeschränkt haftende/r Gesellschafter/in)",
+   "owners_source": "https://www.evi.gv.at/f/622470y",
+   "register_status": "Eingetragen"
+  }
+ },
+ "previous": {
+  "mars-austria-og": {
+   "owners": null,
+   "owners_source": null,
+   "register_status": "Eingetragen"
+  },
+  "recheis-teigwaren-gmbh": {
+   "fn": null,
+   "register_court": null,
+   "owners": null,
+   "owners_source": null,
+   "share_capital": null,
+   "register_status": null
+  },
+  "wech-gefluegel-gmbh": {
+   "fn": null,
+   "register_court": "Klagenfurt",
+   "owners": "Wech-Gruppe (Leitung Mag. Jakob Sintschnig)",
+   "owners_source": null,
+   "share_capital": null,
+   "register_status": null
+  },
+  "hofer-kg": {
+   "owners": null,
+   "owners_source": null,
+   "register_status": "Eingetragen"
+  },
+  "kernbeisser-og": {
+   "owners": null,
+   "owners_source": null,
+   "register_status": "Eingetragen"
+  }
+ },
+ "evi": {
+  "hofer-kg": {
+   "url": "https://www.evi.gv.at/f/600h",
+   "fetched_at": "2026-10-17T04:43:00Z",
+   "name": "Hofer KG.",
+   "status": "Eingetragen",
+   "eintragungsdatum": "18.12.1991",
+   "rechtsform": "Kommanditgesellschaft",
+   "stammkapital": null,
+   "geschaeftszweig": null,
+   "sitz": "Haslach an der Mühl",
+   "sections": {
+    "Unbeschränkt haftende/r Gesellschafter/in": {
+     "count": "1 Person",
+     "items": [
+      {
+       "href": null,
+       "name": "Christian Hofer",
+       "eingetragen": "27.02.2002"
+      }
+     ]
+    },
+    "Kommanditist/in": {
+     "count": "1 Person",
+     "items": [
+      {
+       "href": null,
+       "name": "Daniela Hofer",
+       "eingetragen": "19.03.2015"
+      }
+     ]
+    }
+   }
+  },
+  "mars-austria-og": {
+   "url": "https://www.evi.gv.at/f/213022v",
+   "fetched_at": "2026-10-17T04:43:01Z",
+   "name": "Mars Austria GmbH & Co OG",
+   "status": "Eingetragen",
+   "eintragungsdatum": "08.09.2001",
+   "rechtsform": "Offene Gesellschaft",
+   "stammkapital": null,
+   "geschaeftszweig": null,
+   "sitz": "Bruck an der Leitha",
+   "sections": {
+    "Prokurist/in": {
+     "count": "4 Personen",
+     "items": [
+      {
+       "href": null,
+       "name": "Gerald Knöbl",
+       "eingetragen": null
+      },
+      {
+       "href": null,
+       "name": "Ralph Thoma",
+       "eingetragen": null
+      },
+      {
+       "href": null,
+       "name": "Bogusz Piotr Radziemski",
+       "eingetragen": null
+      },
+      {
+       "href": null,
+       "name": "DI Markus Gogg",
+       "eingetragen": null
+      }
+     ]
+    },
+    "Unbeschränkt haftende/r Gesellschafter/in": {
+     "count": "2 Personen",
+     "items": [
+      {
+       "href": "/f/212371k",
+       "name": "Mars Beteiligungs-GmbH",
+       "eingetragen": "08.09.2001"
+      },
+      {
+       "href": "/f/212370i",
+       "name": "Mars Holding GmbH",
+       "eingetragen": "08.09.2001"
+      }
+     ]
+    }
+   }
+  },
+  "kernbeisser-og": {
+   "url": "https://www.evi.gv.at/f/622470y",
+   "fetched_at": "2026-10-17T04:43:03Z",
+   "name": "Kernbeißer OG",
+   "status": "Eingetragen",
+   "eintragungsdatum": "29.03.2024",
+   "rechtsform": "Offene Gesellschaft",
+   "stammkapital": null,
+   "geschaeftszweig": "Nahrungs- und Genussmitttelgewerbe",
+   "sitz": "Wien",
+   "sections": {
+    "Unbeschränkt haftende/r Gesellschafter/in": {
+     "count": "2 Personen",
+     "items": [
+      {
+       "href": null,
+       "name": "Polina Polynova",
+       "eingetragen": "29.03.2024"
+      },
+      {
+       "href": null,
+       "name": "David Ludwig",
+       "eingetragen": "29.03.2024"
+      }
+     ]
+    }
+   }
+  },
+  "recheis-teigwaren-gmbh": {
+   "url": "https://www.evi.gv.at/f/47864p",
+   "fetched_at": "2026-10-17T04:43:04Z",
+   "name": "Josef Recheis Eierteigwarenfabrik und Walzmühle Gesellschaft m.b.H.",
+   "status": "Eingetragen",
+   "eintragungsdatum": "08.09.1993",
+   "rechtsform": "Gesellschaft mit beschränkter Haftung",
+   "stammkapital": "ATS 500 000",
+   "geschaeftszweig": null,
+   "sitz": "Hall in Tirol",
+   "sections": {
+    "Geschäftsführer/in": {
+     "count": "1 Person",
+     "items": [
+      {
+       "href": null,
+       "name": "Stefan Recheis",
+       "eingetragen": null
+      }
+     ]
+    },
+    "Gesellschafter/in": {
+     "count": "1 Person",
+     "items": [
+      {
+       "href": "/f/47854z",
+       "name": "Recheis Holding Gesellschaft m.b.H.",
+       "eingetragen": "08.09.1993"
+      }
+     ]
+    },
+    "Prokurist/in": {
+     "count": "1 Person",
+     "items": [
+      {
+       "href": null,
+       "name": "Klemens Gratzel, BA",
+       "eingetragen": null
+      }
+     ]
+    }
+   }
+  },
+  "wech-gefluegel-gmbh": {
+   "url": "https://www.evi.gv.at/f/118996w",
+   "fetched_at": "2026-10-17T04:43:05Z",
+   "name": "Wech-Geflügel Gesellschaft m.b.H.",
+   "status": "Eingetragen",
+   "eintragungsdatum": "23.09.1994",
+   "rechtsform": "Gesellschaft mit beschränkter Haftung",
+   "stammkapital": "EUR 1 000 000",
+   "geschaeftszweig": null,
+   "sitz": "St. Andrä",
+   "sections": {
+    "Geschäftsführer/in": {
+     "count": "2 Personen",
+     "items": [
+      {
+       "href": null,
+       "name": "Dipl-Ing-Dr Karl Feichtinger",
+       "eingetragen": null
+      },
+      {
+       "href": null,
+       "name": "Dipl.-Ing. Paul Pötz",
+       "eingetragen": null
+      }
+     ]
+    },
+    "Gesellschafter/in": {
+     "count": "2 Personen",
+     "items": [
+      {
+       "href": "/f/284145k",
+       "name": "Wech Beteiligungsverwaltung GmbH",
+       "eingetragen": "09.11.2006"
+      },
+      {
+       "href": "/f/235135m",
+       "name": "Hermine Wech Privatstiftung",
+       "eingetragen": "06.10.2009"
+      }
+     ]
+    },
+    "Prokurist/in": {
+     "count": "5 Personen",
+     "items": [
+      {
+       "href": null,
+       "name": "Franz Peter Rutrecht",
+       "eingetragen": null
+      },
+      {
+       "href": null,
+       "name": "Mag. Martin Gutschi",
+       "eingetragen": null
+      },
+      {
+       "href": null,
+       "name": "Christopher Knauder",
+       "eingetragen": null
+      },
+      {
+       "href": null,
+       "name": "Mag. Gerhard Kraxner",
+       "eingetragen": null
+      },
+      {
+       "href": null,
+       "name": "Stefan Zechner",
+       "eingetragen": null
+      }
+     ]
+    }
+   }
+  }
+ },
+ "imprint_probe": {
+  "deflorian-srl": {
+   "url": "https://deflorian.tirol/policies/legal-notice",
+   "len": 255898,
+   "fn_candidates": [],
+   "ctx": [
+    "b, Tirol Kontaktdaten: Telefon: +43 676 40 23 265 Email: office@deflorian.tirol Firmenbuchnummer: AT70258EG Firmenbuchgericht: Landesgericht Innsbruck UID-Nr: ATU64259769",
+    "on: +43 676 40 23 265 Email: office@deflorian.tirol Firmenbuchnummer: AT70258EG Firmenbuchgericht: Landesgericht Innsbruck UID-Nr: ATU64259769 Gewerbeaufsichtbehörde: Bez"
+   ]
+  },
+  "bs-gastro-event-services-gmbh": {
+   "url": "https://xn--brtchen-boutique-nwb.at/policies/legal-notice",
+   "len": 104379,
+   "fn_candidates": [],
+   "ctx": []
+  },
+  "caro-fratello-gmbh": {
+   "url": "https://www.fratelli-barbaro.at/impressum",
+   "error": "<HTTPError 404: 'Not Found'>"
+  },
+  "morgentau-biogemuese-gmbh": {
+   "url": "https://morgentau.at/impressum",
+   "len": 53746,
+   "fn_candidates": [],
+   "ctx": []
+  },
+  "amlacher-nudeln": {
+   "url": "https://amlachernudel.com/impressum/",
+   "len": 95219,
+   "fn_candidates": [],
+   "ctx": []
+  },
+  "recheis-teigwaren-gmbh": {
+   "url": "https://www.recheis.com/impressum",
+   "len": 93338,
+   "fn_candidates": [
+    "47864p"
+   ],
+   "ctx": [
+    " 33 info@recheis.com Eingetragen beim Handelsregister Landesgericht Innsbruck – Firmenbuch-Nr. 47864p UID-NUMMER: ATU31064200 Kammerzugehörigkeit: Industriellenvereinigun"
+   ]
+  },
+  "wech-gefluegel-gmbh": {
+   "url": "https://www.wech.at/impressum",
+   "len": 44978,
+   "fn_candidates": [],
+   "ctx": [
+    "x: +43(0)4358-3122 orders@wech.at www.wech.at Rechtliches UID-Nr.: ATU 47685303 Firmenbuchnummer: FN 118 996 w Firmenbuchgericht: Klagenfurt Gerichtsstand: Wolfsberg Aufs",
+    " orders@wech.at www.wech.at Rechtliches UID-Nr.: ATU 47685303 Firmenbuchnummer: FN 118 996 w Firmenbuchgericht: Klagenfurt Gerichtsstand: Wolfsberg Aufsichtsbehör",
+    "at www.wech.at Rechtliches UID-Nr.: ATU 47685303 Firmenbuchnummer: FN 118 996 w Firmenbuchgericht: Klagenfurt Gerichtsstand: Wolfsberg Aufsichtsbehörde: Fleischergewerbe ",
+    "1 Fax: +43(0)4277-2853 orders@wech.at www.wech.at Rechtliches UID: ATU 39786102 Firmenbuch: FN 140 183 b Firmenbuchgericht: Klagenfurt Gerichtsstand: Klagenfurt Aufsichts"
+   ]
+  },
+  "dm-drogerie-markt-gmbh": {
+   "url": "https://www.dm.at/impressum-218894",
+   "len": 11382,
+   "fn_candidates": [],
+   "ctx": []
+  },
+  "hartls-kulinarikum": {
+   "url": "https://www.hartls-kulinarikum.at/impressum",
+   "len": 123544,
+   "fn_candidates": [],
+   "ctx": []
+  }
+ },
+ "not_taken": {
+  "recheis/wech Eintragungsdatum": "1993-09-08 / 1994-09-23 = FBG-1991 bulk transfer window, not a founding date (rows keep company statements 1889 / 1958)",
+  "deflorian-srl": "legal notice prints 'Firmenbuchnummer: AT70258EG' — not an Austrian FN format, not taken",
+  "dm, morgentau, amlacher, bs-gastro, hartls": "no FN printed on the fetched legal notice (dm imprint is JS-rendered); Hartl is a sole trader",
+  "caro-fratello-gmbh": "imprint URL 404"
+ }
+}

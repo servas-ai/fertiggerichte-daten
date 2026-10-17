@@ -1,0 +1,232 @@
+{
+ "hofer-kg": {
+  "url": "https://www.evi.gv.at/f/600h",
+  "fetched_at": "2026-10-17T04:43:00Z",
+  "name": "Hofer KG.",
+  "status": "Eingetragen",
+  "eintragungsdatum": "18.12.1991",
+  "rechtsform": "Kommanditgesellschaft",
+  "stammkapital": null,
+  "geschaeftszweig": null,
+  "sitz": "Haslach an der Mühl",
+  "sections": {
+   "Unbeschränkt haftende/r Gesellschafter/in": {
+    "count": "1 Person",
+    "items": [
+     {
+      "href": null,
+      "name": "Christian Hofer",
+      "eingetragen": "27.02.2002"
+     }
+    ]
+   },
+   "Kommanditist/in": {
+    "count": "1 Person",
+    "items": [
+     {
+      "href": null,
+      "name": "Daniela Hofer",
+      "eingetragen": "19.03.2015"
+     }
+    ]
+   }
+  }
+ },
+ "mars-austria-og": {
+  "url": "https://www.evi.gv.at/f/213022v",
+  "fetched_at": "2026-10-17T04:43:01Z",
+  "name": "Mars Austria GmbH & Co OG",
+  "status": "Eingetragen",
+  "eintragungsdatum": "08.09.2001",
+  "rechtsform": "Offene Gesellschaft",
+  "stammkapital": null,
+  "geschaeftszweig": null,
+  "sitz": "Bruck an der Leitha",
+  "sections": {
+   "Prokurist/in": {
+    "count": "4 Personen",
+    "items": [
+     {
+      "href": null,
+      "name": "Gerald Knöbl",
+      "eingetragen": null
+     },
+     {
+      "href": null,
+      "name": "Ralph Thoma",
+      "eingetragen": null
+     },
+     {
+      "href": null,
+      "name": "Bogusz Piotr Radziemski",
+      "eingetragen": null
+     },
+     {
+      "href": null,
+      "name": "DI Markus Gogg",
+      "eingetragen": null
+     }
+    ]
+   },
+   "Unbeschränkt haftende/r Gesellschafter/in": {
+    "count": "2 Personen",
+    "items": [
+     {
+      "href": "/f/212371k",
+      "name": "Mars Beteiligungs-GmbH",
+      "eingetragen": "08.09.2001"
+     },
+     {
+      "href": "/f/212370i",
+      "name": "Mars Holding GmbH",
+      "eingetragen": "08.09.2001"
+     }
+    ]
+   }
+  }
+ },
+ "kernbeisser-og": {
+  "url": "https://www.evi.gv.at/f/622470y",
+  "fetched_at": "2026-10-17T04:43:03Z",
+  "name": "Kernbeißer OG",
+  "status": "Eingetragen",
+  "eintragungsdatum": "29.03.2024",
+  "rechtsform": "Offene Gesellschaft",
+  "stammkapital": null,
+  "geschaeftszweig": "Nahrungs- und Genussmitttelgewerbe",
+  "sitz": "Wien",
+  "sections": {
+   "Unbeschränkt haftende/r Gesellschafter/in": {
+    "count": "2 Personen",
+    "items": [
+     {
+      "href": null,
+      "name": "Polina Polynova",
+      "eingetragen": "29.03.2024"
+     },
+     {
+      "href": null,
+      "name": "David Ludwig",
+      "eingetragen": "29.03.2024"
+     }
+    ]
+   }
+  }
+ },
+ "recheis-teigwaren-gmbh": {
+  "url": "https://www.evi.gv.at/f/47864p",
+  "fetched_at": "2026-10-17T04:43:04Z",
+  "name": "Josef Recheis Eierteigwarenfabrik und Walzmühle Gesellschaft m.b.H.",
+  "status": "Eingetragen",
+  "eintragungsdatum": "08.09.1993",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "ATS 500 000",
+  "geschaeftszweig": null,
+  "sitz": "Hall in Tirol",
+  "sections": {
+   "Geschäftsführer/in": {
+    "count": "1 Person",
+    "items": [
+     {
+      "href": null,
+      "name": "Stefan Recheis",
+      "eingetragen": null
+     }
+    ]
+   },
+   "Gesellschafter/in": {
+    "count": "1 Person",
+    "items": [
+     {
+      "href": "/f/47854z",
+      "name": "Recheis Holding Gesellschaft m.b.H.",
+      "eingetragen": "08.09.1993"
+     }
+    ]
+   },
+   "Prokurist/in": {
+    "count": "1 Person",
+    "items": [
+     {
+      "href": null,
+      "name": "Klemens Gratzel, BA",
+      "eingetragen": null
+     }
+    ]
+   }
+  }
+ },
+ "wech-gefluegel-gmbh": {
+  "url": "https://www.evi.gv.at/f/118996w",
+  "fetched_at": "2026-10-17T04:43:05Z",
+  "name": "Wech-Geflügel Gesellschaft m.b.H.",
+  "status": "Eingetragen",
+  "eintragungsdatum": "23.09.1994",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 1 000 000",
+  "geschaeftszweig": null,
+  "sitz": "St. Andrä",
+  "sections": {
+   "Geschäftsführer/in": {
+    "count": "2 Personen",
+    "items": [
+     {
+      "href": null,
+      "name": "Dipl-Ing-Dr Karl Feichtinger",
+      "eingetragen": null
+     },
+     {
+      "href": null,
+      "name": "Dipl.-Ing. Paul Pötz",
+      "eingetragen": null
+     }
+    ]
+   },
+   "Gesellschafter/in": {
+    "count": "2 Personen",
+    "items": [
+     {
+      "href": "/f/284145k",
+      "name": "Wech Beteiligungsverwaltung GmbH",
+      "eingetragen": "09.11.2006"
+     },
+     {
+      "href": "/f/235135m",
+      "name": "Hermine Wech Privatstiftung",
+      "eingetragen": "06.10.2009"
+     }
+    ]
+   },
+   "Prokurist/in": {
+    "count": "5 Personen",
+    "items": [
+     {
+      "href": null,
+      "name": "Franz Peter Rutrecht",
+      "eingetragen": null
+     },
+     {
+      "href": null,
+      "name": "Mag. Martin Gutschi",
+      "eingetragen": null
+     },
+     {
+      "href": null,
+      "name": "Christopher Knauder",
+      "eingetragen": null
+     },
+     {
+      "href": null,
+      "name": "Mag. Gerhard Kraxner",
+      "eingetragen": null
+     },
+     {
+      "href": null,
+      "name": "Stefan Zechner",
+      "eingetragen": null
+     }
+    ]
+   }
+  }
+ }
+}

@@ -551,7 +551,7 @@
      },
      {
       "name": "veg",
-      "type": "boolean"
+      "type": "string"
      },
      {
       "name": "prep",
@@ -611,7 +611,7 @@
      },
      {
       "name": "portions",
-      "type": "number"
+      "type": "string"
      }
     ]
    }
