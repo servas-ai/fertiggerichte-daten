@@ -7271,7 +7271,8 @@
   "nace": null,
   "sources": [
    "https://api.gleif.org/api/v1/lei-records/529900BMCO2TYYBU4P09",
-   "https://arche-naturkueche.de/de/impressum.php"
+   "https://arche-naturkueche.de/de/impressum.php",
+   "https://ec.europa.eu/taxation_customs/vies/rest-api/ms/DE/vat/322242442"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-16T21:46:10Z",
@@ -7284,7 +7285,9 @@
   "hrb": "HRB 85754",
   "imprint_url": "https://arche-naturkueche.de/de/impressum.php",
   "uid": "DE322242442",
-  "uid_vies_name": "not checked (DE VIES MS_UNAVAILABLE 2026-10-16T21:44Z; re-run T2203 22:05Z+22:10Z still MS_UNAVAILABLE, VIES check-status DE=Unavailable)"
+  "uid_vies_name": "VIES valid (DE; name/address not disclosed by DE — identity from legal notice) 2026-10-17T01:04:05.560Z",
+  "uid_vies_address": "--- (not disclosed by DE VIES)",
+  "uid_checked_at": "2026-10-17T01:04:05.560Z"
  },
  {
   "slug": "bioart-ag",
@@ -7377,7 +7380,8 @@
   "nace": null,
   "sources": [
    "https://api.gleif.org/api/v1/lei-records/3912002MJDIL66IVKQ44",
-   "https://oekoland.de/impressum/"
+   "https://oekoland.de/impressum/",
+   "https://ec.europa.eu/taxation_customs/vies/rest-api/ms/DE/vat/116156996"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-16T21:46:10Z",
@@ -7391,7 +7395,9 @@
   "register_court": "Amtsgericht Hannover",
   "imprint_url": "https://oekoland.de/impressum/",
   "uid": "DE116156996",
-  "uid_vies_name": "not checked (DE VIES MS_UNAVAILABLE 2026-10-16T21:44Z; re-run T2203 22:05Z+22:10Z still MS_UNAVAILABLE, VIES check-status DE=Unavailable)"
+  "uid_vies_name": "VIES valid (DE; name/address not disclosed by DE — identity from legal notice) 2026-10-17T01:04:09.930Z",
+  "uid_vies_address": "--- (not disclosed by DE VIES)",
+  "uid_checked_at": "2026-10-17T01:04:09.930Z"
  },
  {
   "slug": "rapunzel-naturkost-gmbh-co-kg",
@@ -7430,7 +7436,8 @@
   "nace": null,
   "sources": [
    "https://api.gleif.org/api/v1/lei-records/529900Q11GX6NB4F4574",
-   "https://rapunzel.de/impressum"
+   "https://rapunzel.de/impressum",
+   "https://ec.europa.eu/taxation_customs/vies/rest-api/ms/DE/vat/129088402"
   ],
   "gleif_match_score": 0.9,
   "fetched_at": "2026-10-16T21:46:10Z",
@@ -7444,7 +7451,9 @@
   "register_court": "Amtsgericht Memmingen",
   "imprint_url": "https://rapunzel.de/impressum",
   "uid": "DE129088402",
-  "uid_vies_name": "not checked (DE VIES MS_UNAVAILABLE 2026-10-16T21:44Z; re-run T2203 22:05Z+22:10Z still MS_UNAVAILABLE, VIES check-status DE=Unavailable)"
+  "uid_vies_name": "VIES valid (DE; name/address not disclosed by DE — identity from legal notice) 2026-10-17T01:04:14.406Z",
+  "uid_vies_address": "--- (not disclosed by DE VIES)",
+  "uid_checked_at": "2026-10-17T01:04:14.406Z"
  },
  {
   "slug": "schenkel-erich-gmbh",
@@ -7527,12 +7536,13 @@
   "median_eur_per_10g_protein": null,
   "nace": "Bio-Hersteller (EG-Kontroll-Nr. DE-ÖKO-013, IFS Progress Food lt. Website)",
   "sources": [
-   "https://petersilchen.de/impressum"
+   "https://petersilchen.de/impressum",
+   "https://ec.europa.eu/taxation_customs/vies/rest-api/ms/DE/vat/124612378"
   ],
   "gleif_match_score": null,
   "fetched_at": "2026-10-16T21:46:10Z",
   "chain_product_count": null,
-  "registry_status": "register_no_from_impressum (HRB 11924 AG Paderborn + UID printed on the legal notice; no GLEIF record; DE VIES unavailable at check time → not counted as identified)",
+  "registry_status": "verified_vies_impressum (HRB 11924 AG Paderborn + UID DE124612378 on the legal notice; UID VIES-valid 2026-10-17T01:04Z; no GLEIF record)",
   "founded_source": null,
   "share_capital": null,
   "register_status": null,
@@ -7541,7 +7551,9 @@
   "register_court": "Amtsgericht Paderborn",
   "imprint_url": "https://petersilchen.de/impressum",
   "uid": "DE124612378",
-  "uid_vies_name": "not checked (DE VIES MS_UNAVAILABLE 2026-10-16T21:44Z; re-run T2203 22:05Z+22:10Z still MS_UNAVAILABLE, VIES check-status DE=Unavailable)"
+  "uid_vies_name": "VIES valid (DE; name/address not disclosed by DE — identity from legal notice) 2026-10-17T01:04:22.466Z",
+  "uid_vies_address": "--- (not disclosed by DE VIES)",
+  "uid_checked_at": "2026-10-17T01:04:22.466Z"
  },
  {
   "slug": "egesun-gmbh-co-kg",
@@ -7579,7 +7591,8 @@
   "nace": null,
   "sources": [
    "https://api.gleif.org/api/v1/lei-records/529900D2TOUXZ7QYGX57",
-   "https://egesun.de/impressum"
+   "https://egesun.de/impressum",
+   "https://ec.europa.eu/taxation_customs/vies/rest-api/ms/DE/vat/455151638"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-16T21:46:10Z",
@@ -7593,7 +7606,9 @@
   "register_court": "Amtsgericht Walsrode",
   "imprint_url": "https://egesun.de/impressum",
   "uid": "DE455151638",
-  "uid_vies_name": "not checked (DE VIES MS_UNAVAILABLE 2026-10-16T21:44Z; re-run T2203 22:05Z+22:10Z still MS_UNAVAILABLE, VIES check-status DE=Unavailable)"
+  "uid_vies_name": "VIES valid (DE; name/address not disclosed by DE — identity from legal notice) 2026-10-17T01:04:18.495Z",
+  "uid_vies_address": "--- (not disclosed by DE VIES)",
+  "uid_checked_at": "2026-10-17T01:04:18.495Z"
  },
  {
   "slug": "myproduct-gmbh",

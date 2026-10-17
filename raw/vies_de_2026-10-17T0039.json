@@ -1,0 +1,122 @@
+[
+ {
+  "isValid": true,
+  "requestDate": "2026-10-17T01:04:05.560Z",
+  "userError": "VALID",
+  "name": "---",
+  "address": "---",
+  "requestIdentifier": "",
+  "originalVatNumber": "322242442",
+  "vatNumber": "322242442",
+  "viesApproximate": {
+   "name": "---",
+   "street": "---",
+   "postalCode": "---",
+   "city": "---",
+   "companyType": "---",
+   "matchName": 3,
+   "matchStreet": 3,
+   "matchPostalCode": 3,
+   "matchCity": 3,
+   "matchCompanyType": 3
+  },
+  "url": "https://ec.europa.eu/taxation_customs/vies/rest-api/ms/DE/vat/322242442",
+  "vat": "DE322242442"
+ },
+ {
+  "isValid": true,
+  "requestDate": "2026-10-17T01:04:09.930Z",
+  "userError": "VALID",
+  "name": "---",
+  "address": "---",
+  "requestIdentifier": "",
+  "originalVatNumber": "116156996",
+  "vatNumber": "116156996",
+  "viesApproximate": {
+   "name": "---",
+   "street": "---",
+   "postalCode": "---",
+   "city": "---",
+   "companyType": "---",
+   "matchName": 3,
+   "matchStreet": 3,
+   "matchPostalCode": 3,
+   "matchCity": 3,
+   "matchCompanyType": 3
+  },
+  "url": "https://ec.europa.eu/taxation_customs/vies/rest-api/ms/DE/vat/116156996",
+  "vat": "DE116156996"
+ },
+ {
+  "isValid": true,
+  "requestDate": "2026-10-17T01:04:14.406Z",
+  "userError": "VALID",
+  "name": "---",
+  "address": "---",
+  "requestIdentifier": "",
+  "originalVatNumber": "129088402",
+  "vatNumber": "129088402",
+  "viesApproximate": {
+   "name": "---",
+   "street": "---",
+   "postalCode": "---",
+   "city": "---",
+   "companyType": "---",
+   "matchName": 3,
+   "matchStreet": 3,
+   "matchPostalCode": 3,
+   "matchCity": 3,
+   "matchCompanyType": 3
+  },
+  "url": "https://ec.europa.eu/taxation_customs/vies/rest-api/ms/DE/vat/129088402",
+  "vat": "DE129088402"
+ },
+ {
+  "isValid": true,
+  "requestDate": "2026-10-17T01:04:18.495Z",
+  "userError": "VALID",
+  "name": "---",
+  "address": "---",
+  "requestIdentifier": "",
+  "originalVatNumber": "455151638",
+  "vatNumber": "455151638",
+  "viesApproximate": {
+   "name": "---",
+   "street": "---",
+   "postalCode": "---",
+   "city": "---",
+   "companyType": "---",
+   "matchName": 3,
+   "matchStreet": 3,
+   "matchPostalCode": 3,
+   "matchCity": 3,
+   "matchCompanyType": 3
+  },
+  "url": "https://ec.europa.eu/taxation_customs/vies/rest-api/ms/DE/vat/455151638",
+  "vat": "DE455151638"
+ },
+ {
+  "isValid": true,
+  "requestDate": "2026-10-17T01:04:22.466Z",
+  "userError": "VALID",
+  "name": "---",
+  "address": "---",
+  "requestIdentifier": "",
+  "originalVatNumber": "124612378",
+  "vatNumber": "124612378",
+  "viesApproximate": {
+   "name": "---",
+   "street": "---",
+   "postalCode": "---",
+   "city": "---",
+   "companyType": "---",
+   "matchName": 3,
+   "matchStreet": 3,
+   "matchPostalCode": 3,
+   "matchCity": 3,
+   "matchCompanyType": 3
+  },
+  "url": "https://ec.europa.eu/taxation_customs/vies/rest-api/ms/DE/vat/124612378",
+  "vat": "DE124612378"
+ }
+]
