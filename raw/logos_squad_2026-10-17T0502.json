@@ -1,0 +1,40 @@
+{
+ "run": "2026-10-17T0502 Daten-Squad",
+ "generated_at": "2026-10-17T05:13:40.329555+00:00",
+ "added": [
+  {
+   "slug": "biohof-achleitner",
+   "note": "Vision gate 2026-10-17T0502 (Daten-Squad): visuell geprüft (korrekte Marke, lesbar, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · Offizielles 'BIOHOF Achleitner'-Logo (dunkelgrüne Wortmarke mit Blatt-A auf cremefarbenem Stoff-Etikett) von biohof.at, unverändert 389x161 RGBA; Betreiber Achleitner Biohof GmbH, Eferding, FN 154057f",
+   "source": "https://www.biohof.at/images/logo.png (biohof.at header <img alt='Biohof Achleitner Logo'>; robots Allow: /)",
+   "sha256": "159a7d79e508528d7778ace3003ad107338eb9f0c09da0c35273f0dabc68bad9",
+   "products_impacted": 0,
+   "aliases": [
+    "Biohof Achleitner",
+    "Online: Biohof Achleitner",
+    "Achleitner Biohof GmbH",
+    "Bio-Kulinarium Achleitner",
+    "Biohof Achleitner (Achleitner Biohof GmbH)",
+    "biohof.at"
+   ]
+  }
+ ],
+ "updated_fileless": [],
+ "aliases_added": {},
+ "rejected": {
+  "Hausg'mocht sticker (product photos)": "only visible as a ~120 px sticker inside the 'Symbolfoto' dish photos — no standalone asset → not cropped",
+  "/images/logoEnkeltauglichesOesterreich.png": "initiative badge, not the company/store logo"
+ },
+ "vision_gate": {
+  "biohof-achleitner": "PASS — BIOHOF Achleitner wordmark (dark green, leaf in the A) on a cream fabric label, legible on white (PNG 389x161 RGBA; label background is part of the official asset → hq=False)"
+ },
+ "counts": {
+  "added": 1,
+  "updated_fileless": 0,
+  "total_rows": 305,
+  "with_file": 290,
+  "products_impacted_total": 0
+ },
+ "sha256": {
+  "biohof-achleitner": "159a7d79e508528d7778ace3003ad107338eb9f0c09da0c35273f0dabc68bad9"
+ }
+}

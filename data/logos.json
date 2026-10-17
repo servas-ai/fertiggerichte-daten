@@ -3344,5 +3344,20 @@
    "PETERSILCHEN",
    "Petersilchen GmbH"
   ]
+ },
+ {
+  "slug": "biohof-achleitner",
+  "name": "Biohof Achleitner",
+  "category": "Handelskette",
+  "file": "logos/biohof-achleitner.png",
+  "source_url": "https://www.biohof.at/images/logo.png (biohof.at header <img alt='Biohof Achleitner Logo'>; robots Allow: /)",
+  "brands": [
+   "Biohof Achleitner",
+   "Online: Biohof Achleitner",
+   "Achleitner Biohof GmbH",
+   "Bio-Kulinarium Achleitner",
+   "Biohof Achleitner (Achleitner Biohof GmbH)",
+   "biohof.at"
+  ]
  }
 ]

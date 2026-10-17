@@ -7671,5 +7671,63 @@
   "uid_vies_name": "myProduct GmbH",
   "uid_vies_address": "Karl Kastner-Straße 1, AT-3910 Zwettl-NÖ",
   "uid_checked_at": "2026-10-16T21:44:42Z"
+ },
+ {
+  "slug": "achleitner-biohof-gmbh",
+  "name": "Biohof Achleitner (Achleitner Biohof GmbH)",
+  "role": "producer",
+  "legal_name": "Achleitner Biohof GmbH",
+  "lei": "529900GY1B6OGAMV9D95",
+  "register_id": "154057f",
+  "register_authority": "RA000017",
+  "fn": "FN 154057f",
+  "legal_form_code": null,
+  "country": "AT",
+  "address": "Unterm Regenbogen 1, 4070 Eferding, AT",
+  "entity_status": "ACTIVE (GLEIF; LEI ISSUED; Firmenbuch eingetragen)",
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": "1996-12-23",
+  "owners": "1 natürliche Person (Gesellschafter/in lt. Firmenbuch/evi.gv.at, eingetragen 29.12.2023)",
+  "management": "Andreas Achleitner (Geschäftsführer lt. Impressum und Firmenbuch)",
+  "employees": null,
+  "revenue": null,
+  "website": "https://www.biohof.at",
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Biohof Achleitner",
+   "Hausg'mocht",
+   "Bio-Kulinarium Achleitner"
+  ],
+  "chains": [
+   "Biohof Achleitner"
+  ],
+  "product_count": 13,
+  "median_price_eur": 6.8,
+  "median_eur_per_10g_protein": null,
+  "nace": "Handelsgewerbe (Geschäftszweig lt. Firmenbuch); Biokiste-Lieferdienst, Bio-Frischmarkt, Bio-Kulinarium (Küche), Bio-Großhandel, Landwirtschaft (Unternehmensangaben biohof.at)",
+  "sources": [
+   "https://www.biohof.at/impressum",
+   "https://ec.europa.eu/taxation_customs/vies/",
+   "https://api.gleif.org/api/v1/lei-records/529900GY1B6OGAMV9D95",
+   "https://www.evi.gv.at/f/154057f"
+  ],
+  "gleif_match_score": 1.0,
+  "fetched_at": "2026-10-17T05:10:00Z",
+  "chain_product_count": 13,
+  "registry_status": "verified_gleif+vies+impressum (Impressum FN 154057f = GLEIF registeredAs; VIES name+address match)",
+  "founded_source": "GLEIF legal-entity creationDate 1996-12-22T23:00Z (= 23.12.1996 MEZ); Firmenbuch Eintragungsdatum 15.01.1997 (evi.gv.at/f/154057f)",
+  "share_capital": "EUR 40 000 (lt. evi.gv.at)",
+  "register_status": "Eingetragen",
+  "register_entry_date": "1997-01-15",
+  "register_court": "Landesgericht Wels",
+  "imprint_url": "https://www.biohof.at/impressum",
+  "uid": "ATU41942706",
+  "uid_vies_name": "Achleitner Biohof GmbH",
+  "uid_vies_address": "Unterm Regenbogen 1, AT-4070 Eferding",
+  "uid_checked_at": "2026-10-17T05:09:50Z",
+  "gleif_ultimate_parent_exception": "NO_KNOWN_PERSON"
  }
 ]
