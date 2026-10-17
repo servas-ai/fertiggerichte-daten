@@ -3374,5 +3374,17 @@
    "ADAMAH",
    "adamah.at"
   ]
+ },
+ {
+  "slug": "vifon",
+  "name": "Vifon",
+  "category": "Markenhersteller",
+  "file": "logos/vifon.png",
+  "source_url": "https://vifon.pl/wp-content/themes/vifon2025b/img/logo/logo-vifon-footer-pl.svg (vifon.pl footer logo; robots Disallow only /wp-admin/; white wordmark+slogan recoloured #1f1f1f for light backgrounds, emblem unchanged; vision gate PASS)",
+  "brands": [
+   "Vifon",
+   "VIFON",
+   "Vifon S.A."
+  ]
  }
 ]

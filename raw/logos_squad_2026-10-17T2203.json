@@ -1,0 +1,31 @@
+{
+ "run": "2026-10-17T2203 Daten-Squad",
+ "generated_at": "2026-10-17T22:35:35.231601+00:00",
+ "added": [
+  {
+   "slug": "vifon",
+   "name": "Vifon",
+   "category": "Markenhersteller",
+   "file": "logos/vifon.png",
+   "source_url": "https://vifon.pl/wp-content/themes/vifon2025b/img/logo/logo-vifon-footer-pl.svg (vifon.pl footer logo; robots Disallow only /wp-admin/; white wordmark+slogan recoloured #1f1f1f for light backgrounds, emblem unchanged; vision gate PASS)",
+   "brands": [
+    "Vifon",
+    "VIFON",
+    "Vifon S.A."
+   ],
+   "sha256": "6112d73f856d23dddb5e08bbb46c2df420203c9016c577edae19a90861d5f8db",
+   "size_px": "800x215 RGBA",
+   "products_impacted": 2,
+   "entity_check": "MPreis rows EAN 5901882944596/5901882944565 (GS1 590 = Poland); Vifon is the Polish instant-noodle brand (vifon.pl, Kraków)",
+   "vision": "PASS — red circular emblem with white tureen and gold ring + VIFON wordmark + 'To Dzisiaj Od 1963', legible on white after recolouring only the wordmark/slogan"
+  }
+ ],
+ "rejected": {
+  "Pierre Baguette": "pierrebaguette.com (robots allow) only ships an animated loader chef figure SVG cropped to viewBox 20 0 50 80, no standalone logo asset → not taken",
+  "Pasta Box": "pastabox.cz is a parked Gransy domain; robots.txt HTTP 500 → treated as disallow-all",
+  "The Green Garden": "thegreengarden.cz unreachable (no HTTP response)",
+  "SPAR Asia": "spar.at/eigenmarken* HTTP 403 (Cloudflare) → not bypassed",
+  "Wiener Virtshaus": "BS Gastro has no website (known dead end)"
+ },
+ "staging": "file only in scripts/logo_work_T2203 until the fertig uid freeze lifts (same as T2102 adamah)"
+}
