@@ -1,0 +1,114 @@
+[
+ {
+  "product_id": "304804baaa16",
+  "price": 2.99,
+  "ppk": 11.96,
+  "pstat": "live 2026",
+  "psrc": "shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-687225)"
+ },
+ {
+  "product_id": "3963fe22725e",
+  "price": 3.49,
+  "ppk": 8.73,
+  "pstat": "live 2026",
+  "psrc": "shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-2558)"
+ },
+ {
+  "product_id": "3a5a7ce405ed",
+  "price": 10.49,
+  "ppk": 13.11,
+  "pstat": "live 2026",
+  "psrc": "shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-11369)"
+ },
+ {
+  "product_id": "a254eb94a709",
+  "price": 2.59,
+  "ppk": 25.9,
+  "pstat": "live 2026",
+  "psrc": "shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-570454)"
+ },
+ {
+  "product_id": "9ea01933b209",
+  "price": 4.99,
+  "ppk": null,
+  "pstat": "live 2026",
+  "psrc": "shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-352300)"
+ },
+ {
+  "product_id": "196dd1fda1cc",
+  "price": 7.89,
+  "ppk": 7.89,
+  "pstat": "live 2026",
+  "psrc": "shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-745583)"
+ },
+ {
+  "product_id": "62fb42a65ba4",
+  "price": 8.99,
+  "ppk": 8.99,
+  "pstat": "live 2026",
+  "psrc": "shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-727864)"
+ },
+ {
+  "product_id": "61eb6df6f83f",
+  "price": 7.89,
+  "ppk": 7.89,
+  "pstat": "live 2026",
+  "psrc": "shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-745596)"
+ },
+ {
+  "product_id": "7a09a982158c",
+  "price": 9.99,
+  "ppk": 9.99,
+  "pstat": "live 2026",
+  "psrc": "shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-724508)"
+ },
+ {
+  "product_id": "870d1c79be9c",
+  "price": 11.99,
+  "ppk": 11.99,
+  "pstat": "live 2026",
+  "psrc": "shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-392364)"
+ },
+ {
+  "product_id": "fd306cd5c292",
+  "price": 12.79,
+  "ppk": 12.79,
+  "pstat": "live 2026",
+  "psrc": "shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-700821)"
+ },
+ {
+  "product_id": "83809d233798",
+  "price": 20.9,
+  "ppk": 20.9,
+  "pstat": "live 2026",
+  "psrc": "shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-281768)"
+ },
+ {
+  "product_id": "d839d4629ade",
+  "price": 15.99,
+  "ppk": 15.99,
+  "pstat": "live 2026",
+  "psrc": "shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-257781)"
+ },
+ {
+  "product_id": "5997a4a4a76a",
+  "price": 20.9,
+  "ppk": 20.9,
+  "pstat": "live 2026",
+  "psrc": "shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-19687)"
+ },
+ {
+  "product_id": "36b19349359a",
+  "price": 2.69,
+  "ppk": 16.81,
+  "pstat": "live 2026",
+  "psrc": "shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-595811)"
+ },
+ {
+  "product_id": "d142be122c0a",
+  "price": 0.59,
+  "ppk": null,
+  "pstat": "live 2026",
+  "psrc": "shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-736499)"
+ }
+]

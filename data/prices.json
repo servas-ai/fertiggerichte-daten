@@ -3478,9 +3478,9 @@
   "chain": "Billa",
   "price_eur": 2.99,
   "price_per_kg_eur": 11.96,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-17",
+  "price_source": "shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-687225)"
  },
  {
   "product_id": "fb47d8e08ea6",
@@ -3594,19 +3594,19 @@
   "product_id": "3963fe22725e",
   "chain": "Billa",
   "price_eur": 3.49,
-  "price_per_kg_eur": 8.72,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_per_kg_eur": 8.73,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-17",
+  "price_source": "shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-2558)"
  },
  {
   "product_id": "3a5a7ce405ed",
   "chain": "Billa",
   "price_eur": 10.49,
   "price_per_kg_eur": 13.11,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-17",
+  "price_source": "shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-11369)"
  },
  {
   "product_id": "cddde2bb4b5f",
@@ -3658,18 +3658,18 @@
   "chain": "Billa",
   "price_eur": 2.59,
   "price_per_kg_eur": 25.9,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-17",
+  "price_source": "shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-570454)"
  },
  {
   "product_id": "9ea01933b209",
   "chain": "Billa",
   "price_eur": 4.99,
-  "price_per_kg_eur": 142.57,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_per_kg_eur": null,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-17",
+  "price_source": "shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-352300)"
  },
  {
   "product_id": "034d3201321c",
@@ -10867,27 +10867,27 @@
   "chain": "Billa",
   "price_eur": 7.89,
   "price_per_kg_eur": 7.89,
-  "price_status": null,
-  "fetched_at": "2026-07-13",
-  "price_source": "heisse-preise raw exact-name match Billa 2026-07-13"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-17",
+  "price_source": "shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-745583)"
  },
  {
   "product_id": "62fb42a65ba4",
   "chain": "Billa",
   "price_eur": 8.99,
   "price_per_kg_eur": 8.99,
-  "price_status": null,
-  "fetched_at": "2026-08-08",
-  "price_source": "heisse-preise raw exact-name match Billa 2026-08-08"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-17",
+  "price_source": "shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-727864)"
  },
  {
   "product_id": "61eb6df6f83f",
   "chain": "Billa",
   "price_eur": 7.89,
   "price_per_kg_eur": 7.89,
-  "price_status": null,
-  "fetched_at": "2026-07-13",
-  "price_source": "heisse-preise raw exact-name match Billa 2026-07-13"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-17",
+  "price_source": "shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-745596)"
  },
  {
   "product_id": "c3dfa8ae7718",
@@ -10903,9 +10903,9 @@
   "chain": "Billa",
   "price_eur": 9.99,
   "price_per_kg_eur": 9.99,
-  "price_status": null,
-  "fetched_at": "2026-09-17",
-  "price_source": "heisse-preise raw exact-name match Billa 2026-09-17"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-17",
+  "price_source": "shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-724508)"
  },
  {
   "product_id": "495de183396e",
@@ -10930,9 +10930,9 @@
   "chain": "Billa",
   "price_eur": 11.99,
   "price_per_kg_eur": 11.99,
-  "price_status": null,
-  "fetched_at": "2026-09-24",
-  "price_source": "heisse-preise raw exact-name match Billa 2026-09-24"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-17",
+  "price_source": "shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-392364)"
  },
  {
   "product_id": "76f95d538b90",
@@ -10975,18 +10975,18 @@
   "chain": "Billa",
   "price_eur": 12.79,
   "price_per_kg_eur": 12.79,
-  "price_status": null,
-  "fetched_at": "2026-09-23",
-  "price_source": "heisse-preise raw exact-name match Billa 2026-09-23"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-17",
+  "price_source": "shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-700821)"
  },
  {
   "product_id": "83809d233798",
   "chain": "Billa",
   "price_eur": 20.9,
   "price_per_kg_eur": 20.9,
-  "price_status": null,
-  "fetched_at": "2026-09-24",
-  "price_source": "heisse-preise raw exact-name match Billa 2026-09-24"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-17",
+  "price_source": "shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-281768)"
  },
  {
   "product_id": "92efa2359f8f",
@@ -11092,9 +11092,9 @@
   "chain": "Billa",
   "price_eur": 15.99,
   "price_per_kg_eur": 15.99,
-  "price_status": null,
-  "fetched_at": "2026-09-23",
-  "price_source": "heisse-preise raw exact-name match Billa 2026-09-23"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-17",
+  "price_source": "shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-257781)"
  },
  {
   "product_id": "bba5c8fdf36a",
@@ -11209,9 +11209,9 @@
   "chain": "Billa",
   "price_eur": 20.9,
   "price_per_kg_eur": 20.9,
-  "price_status": null,
-  "fetched_at": "2026-09-24",
-  "price_source": "heisse-preise raw exact-name match Billa 2026-09-24"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-17",
+  "price_source": "shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-19687)"
  },
  {
   "product_id": "7469b8c5899a",
@@ -24195,10 +24195,10 @@
   "product_id": "36b19349359a",
   "chain": "Billa",
   "price_eur": 2.69,
-  "price_per_kg_eur": null,
-  "price_status": null,
-  "fetched_at": "2026-09-24",
-  "price_source": "heisse-preise raw exact-name match Billa 2026-09-24"
+  "price_per_kg_eur": 16.81,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-17",
+  "price_source": "shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-595811)"
  },
  {
   "product_id": "7c534dab449d",
@@ -24214,9 +24214,9 @@
   "chain": "Billa",
   "price_eur": 0.59,
   "price_per_kg_eur": null,
-  "price_status": null,
-  "fetched_at": "2026-04-12",
-  "price_source": "heisse-preise raw exact-name match Billa 2026-04-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-17",
+  "price_source": "shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-736499)"
  },
  {
   "product_id": "c711d249433d",

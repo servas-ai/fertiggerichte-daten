@@ -1,0 +1,358 @@
+{
+ "run": "Daten-Squad 2026-10-17T2304",
+ "source": "https://shop.billa.at/api/product-discovery/products/<sku>",
+ "robots": "shop.billa.at public JSON used by the web shop; no login, cookies or cart; polite ~1 req/s",
+ "updated": [
+  {
+   "product_id": "304804baaa16",
+   "sku": "00-687225",
+   "matched_by": "article no. from row URL",
+   "api_name": "Ben's Original Risotto Hühnchen & Pilze",
+   "brand": "Ben's Original",
+   "amount": "250 g",
+   "price_eur": 2.99,
+   "price_per_kg_eur": 11.96,
+   "regular_raw": {
+    "perStandardizedQuantity": 1196,
+    "tags": [],
+    "value": 299
+   },
+   "standard_raw": {},
+   "multi_buy_skipped": false,
+   "published": true,
+   "url": "https://shop.billa.at/produkte/bens-original-risotto-huehnchen-und-pilze-00687225",
+   "fetched_at": "2026-10-17"
+  },
+  {
+   "product_id": "3963fe22725e",
+   "sku": "00-2558",
+   "matched_by": "exact name + 400 g via search (row URL article no. 002558 = 00-2558)",
+   "api_name": "Inzersdorfer Erdäpfelgulasch",
+   "brand": "Inzersdorfer",
+   "amount": "400 g",
+   "price_eur": 3.49,
+   "price_per_kg_eur": 8.73,
+   "regular_raw": {
+    "perStandardizedQuantity": 873,
+    "tags": [],
+    "value": 349
+   },
+   "standard_raw": {},
+   "multi_buy_skipped": false,
+   "published": true,
+   "url": "https://shop.billa.at/produkte/inzersdorfer-erdaepfelgulasch-002558",
+   "fetched_at": "2026-10-17"
+  },
+  {
+   "product_id": "3a5a7ce405ed",
+   "sku": "00-11369",
+   "matched_by": "exact name + 800 g via search; row URL points to 00-2154 = 400 g variant (conflict noted, pack size + old price match 800 g)",
+   "api_name": "Inzersdorfer Rindsgulasch",
+   "brand": "Inzersdorfer",
+   "amount": "800 g",
+   "price_eur": 10.49,
+   "price_per_kg_eur": 13.11,
+   "regular_raw": {
+    "perStandardizedQuantity": 1311,
+    "tags": [],
+    "value": 1049
+   },
+   "standard_raw": {},
+   "multi_buy_skipped": false,
+   "published": true,
+   "url": "https://shop.billa.at/produkte/inzersdorfer-rindsgulasch-0011369",
+   "fetched_at": "2026-10-17"
+  },
+  {
+   "product_id": "a254eb94a709",
+   "sku": "00-570454",
+   "matched_by": "article no. from row URL",
+   "api_name": "Wiesbauer Prater Stelze geschnitten",
+   "brand": "Wiesbauer",
+   "amount": "100 g",
+   "price_eur": 2.59,
+   "price_per_kg_eur": 25.9,
+   "regular_raw": {
+    "perStandardizedQuantity": 229,
+    "promotionQuantity": 2.0,
+    "standardizedPromotionQuantity": 2,
+    "promotionText": "ab 2 Packungen",
+    "promotionType": "FROM",
+    "promotionBasePrice": 259,
+    "promotionValue": 259,
+    "tags": [
+     "pt-multi"
+    ],
+    "value": 229
+   },
+   "standard_raw": {
+    "perStandardizedQuantity": 259,
+    "value": 259
+   },
+   "multi_buy_skipped": true,
+   "published": true,
+   "url": "https://shop.billa.at/produkte/wiesbauer-prater-stelze-geschnitten-00570454",
+   "fetched_at": "2026-10-17"
+  },
+  {
+   "product_id": "9ea01933b209",
+   "sku": "00-352300",
+   "matched_by": "article no. from row URL",
+   "api_name": "ehrenwort Bio Bangkok Rotes Thai Curry",
+   "brand": "Ehrenwort",
+   "amount": "35 g",
+   "price_eur": 4.99,
+   "price_per_kg_eur": null,
+   "regular_raw": {
+    "perStandardizedQuantity": 499,
+    "tags": [],
+    "value": 499
+   },
+   "standard_raw": {},
+   "multi_buy_skipped": false,
+   "published": true,
+   "url": "https://shop.billa.at/produkte/ehrenwort-bio-bangkok-rotes-thai-curry-00352300",
+   "fetched_at": "2026-10-17",
+   "note": "BILLA API states perStandardizedQuantity 4,99 €/kg for a 35 g pack (inconsistent) -> price_per_kg left empty"
+  },
+  {
+   "product_id": "196dd1fda1cc",
+   "sku": "00-745583",
+   "matched_by": "article no. from row URL",
+   "api_name": "Clever Schwein-Karreesteak mariniert",
+   "brand": "CLEVER",
+   "amount": "1 kg",
+   "price_eur": 7.89,
+   "price_per_kg_eur": 7.89,
+   "regular_raw": {
+    "perStandardizedQuantity": 789,
+    "tags": [
+     "pt-tiefpreis"
+    ],
+    "value": 789
+   },
+   "standard_raw": {},
+   "multi_buy_skipped": false,
+   "published": true,
+   "url": "https://shop.billa.at/produkte/clever-schweinkarreesteak-mariniert-00745583",
+   "fetched_at": "2026-10-17"
+  },
+  {
+   "product_id": "62fb42a65ba4",
+   "sku": "00-727864",
+   "matched_by": "article no. from row URL",
+   "api_name": "Clever Schweinebauchstreifen mariniert",
+   "brand": "CLEVER",
+   "amount": "1 kg",
+   "price_eur": 8.99,
+   "price_per_kg_eur": 8.99,
+   "regular_raw": {
+    "perStandardizedQuantity": 899,
+    "tags": [
+     "pt-tiefpreis"
+    ],
+    "value": 899
+   },
+   "standard_raw": {},
+   "multi_buy_skipped": false,
+   "published": true,
+   "url": "https://shop.billa.at/produkte/clever-schweinebauchstreifen-mariniert-00727864",
+   "fetched_at": "2026-10-17"
+  },
+  {
+   "product_id": "61eb6df6f83f",
+   "sku": "00-745596",
+   "matched_by": "article no. from row URL",
+   "api_name": "Clever Schweinsschopfsteak mariniert",
+   "brand": "CLEVER",
+   "amount": "1 kg",
+   "price_eur": 7.89,
+   "price_per_kg_eur": 7.89,
+   "regular_raw": {
+    "perStandardizedQuantity": 789,
+    "tags": [
+     "pt-tiefpreis"
+    ],
+    "value": 789
+   },
+   "standard_raw": {},
+   "multi_buy_skipped": false,
+   "published": true,
+   "url": "https://shop.billa.at/produkte/clever-schweinsschopfsteak-mariniert-00745596",
+   "fetched_at": "2026-10-17"
+  },
+  {
+   "product_id": "7a09a982158c",
+   "sku": "00-724508",
+   "matched_by": "article no. from row URL",
+   "api_name": "Clever Spareribs",
+   "brand": "CLEVER",
+   "amount": "1 kg",
+   "price_eur": 9.99,
+   "price_per_kg_eur": 9.99,
+   "regular_raw": {
+    "perStandardizedQuantity": 999,
+    "tags": [
+     "pt-tiefpreis"
+    ],
+    "value": 999
+   },
+   "standard_raw": {},
+   "multi_buy_skipped": false,
+   "published": true,
+   "url": "https://shop.billa.at/produkte/clever-spareribs-00724508",
+   "fetched_at": "2026-10-17"
+  },
+  {
+   "product_id": "870d1c79be9c",
+   "sku": "00-392364",
+   "matched_by": "article no. from row URL",
+   "api_name": "Die Grillerei Spareribs Sous-Vide BBQ",
+   "brand": "Die Grillerei",
+   "amount": "1 kg",
+   "price_eur": 11.99,
+   "price_per_kg_eur": 11.99,
+   "regular_raw": {
+    "perStandardizedQuantity": 1199,
+    "tags": [
+     "pt-tiefpreis"
+    ],
+    "value": 1199
+   },
+   "standard_raw": {},
+   "multi_buy_skipped": false,
+   "published": true,
+   "url": "https://shop.billa.at/produkte/die-grillerei-spareribs-sousvide-bbq-00392364",
+   "fetched_at": "2026-10-17"
+  },
+  {
+   "product_id": "fd306cd5c292",
+   "sku": "00-700821",
+   "matched_by": "article no. from row URL",
+   "api_name": "Hofstädter Schopfsteak mariniert",
+   "brand": "Hofstädter",
+   "amount": "1 kg",
+   "price_eur": 12.79,
+   "price_per_kg_eur": 12.79,
+   "regular_raw": {
+    "perStandardizedQuantity": 1279,
+    "tags": [
+     "pt-tiefpreis"
+    ],
+    "value": 1279
+   },
+   "standard_raw": {},
+   "multi_buy_skipped": false,
+   "published": true,
+   "url": "https://shop.billa.at/produkte/hofstaedter-schopfsteak-mariniert-00700821",
+   "fetched_at": "2026-10-17"
+  },
+  {
+   "product_id": "83809d233798",
+   "sku": "00-281768",
+   "matched_by": "article no. from row URL",
+   "api_name": "Holzofen Chili Leberkäse",
+   "brand": null,
+   "amount": "1000 g",
+   "price_eur": 20.9,
+   "price_per_kg_eur": 20.9,
+   "regular_raw": {
+    "perStandardizedQuantity": 209,
+    "tags": [],
+    "value": 2090
+   },
+   "standard_raw": {},
+   "multi_buy_skipped": false,
+   "published": true,
+   "url": "https://shop.billa.at/produkte/holzofen-chili-leberkaese-00281768",
+   "fetched_at": "2026-10-17"
+  },
+  {
+   "product_id": "d839d4629ade",
+   "sku": "00-257781",
+   "matched_by": "article no. from row URL",
+   "api_name": "Ja! Natürlich Backhendlteller",
+   "brand": "Ja! Natürlich",
+   "amount": "1 kg",
+   "price_eur": 15.99,
+   "price_per_kg_eur": 15.99,
+   "regular_raw": {
+    "perStandardizedQuantity": 1599,
+    "tags": [
+     "pt-tiefpreis"
+    ],
+    "value": 1599
+   },
+   "standard_raw": {},
+   "multi_buy_skipped": false,
+   "published": true,
+   "url": "https://shop.billa.at/produkte/ja-natuerlich-backhendlteller-00257781",
+   "fetched_at": "2026-10-17"
+  },
+  {
+   "product_id": "5997a4a4a76a",
+   "sku": "00-19687",
+   "matched_by": "exact name + 1000 g via search (row URL article no. 0019687 = 00-19687)",
+   "api_name": "Staudinger Holzofen Leberkäse",
+   "brand": "Staudinger",
+   "amount": "1000 g",
+   "price_eur": 20.9,
+   "price_per_kg_eur": 20.9,
+   "regular_raw": {
+    "perStandardizedQuantity": 209,
+    "tags": [],
+    "value": 2090
+   },
+   "standard_raw": {},
+   "multi_buy_skipped": false,
+   "published": true,
+   "url": "https://shop.billa.at/produkte/staudinger-holzofen-leberkaese-0019687",
+   "fetched_at": "2026-10-17"
+  },
+  {
+   "product_id": "36b19349359a",
+   "sku": "00-595811",
+   "matched_by": "exact-EAN search 9010437013901, single hit 'BILLA Thunfischsalat Toskana Art' 160 g = row",
+   "api_name": "BILLA Thunfischsalat Toskana Art",
+   "brand": "BILLA Immer gut",
+   "amount": "160 g",
+   "price_eur": 2.69,
+   "price_per_kg_eur": 16.81,
+   "regular_raw": {
+    "perStandardizedQuantity": 1681,
+    "tags": [],
+    "value": 269
+   },
+   "standard_raw": {},
+   "multi_buy_skipped": false,
+   "published": true,
+   "url": "https://shop.billa.at/produkte/billa-thunfischsalat-toskana-art-00595811",
+   "fetched_at": "2026-10-17"
+  },
+  {
+   "product_id": "d142be122c0a",
+   "sku": "00-736499",
+   "matched_by": "exact-EAN search 9010437028196, single hit 'Clever Buchstabensuppe' = row brand Clever",
+   "api_name": "Clever Buchstabensuppe",
+   "brand": "CLEVER",
+   "amount": "1 stk",
+   "price_eur": 0.59,
+   "price_per_kg_eur": null,
+   "regular_raw": {
+    "perStandardizedQuantity": 59,
+    "tags": [
+     "pt-tiefpreis"
+    ],
+    "value": 59
+   },
+   "standard_raw": {},
+   "multi_buy_skipped": false,
+   "published": true,
+   "url": "https://shop.billa.at/produkte/clever-buchstabensuppe-00736499",
+   "fetched_at": "2026-10-17"
+  }
+ ],
+ "not_found": {
+  "c9be2b4c468b": "Simply good Rigatoni caprese (EAN 9010437028486): EAN search 0 hits, name search no match -> not on shop.billa.at today, price left as is"
+ }
+}

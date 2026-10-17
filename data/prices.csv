@@ -385,7 +385,7 @@ ace03698a2b5,Spar,2.89,5.78,live 2026,2026-10-12,heisse-preise.io latest-canonic
 79dbbd98e833,Spar,1.89,1.89,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 89164da80e7c,Spar,1.51,6.04,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 055bf9cd8f96,Billa,1.99,5.69,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-304804baaa16,Billa,2.99,11.96,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+304804baaa16,Billa,2.99,11.96,live 2026,2026-10-17,"shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-687225)"
 fb47d8e08ea6,Billa,2.99,11.96,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 67f67c864c17,Billa,3.49,11.63,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 595ae2efd82d,Billa,0.99,3.96,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
@@ -398,15 +398,15 @@ a90edd17950b,Billa,4.79,19.16,live 2026,2026-10-12,heisse-preise.io latest-canon
 c028900aefb7,Billa,7.19,20.54,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 dc85aa86aa95,Billa,5.99,17.11,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 cd0d8b2e5042,Billa,2.66,6.65,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-3963fe22725e,Billa,3.49,8.72,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-3a5a7ce405ed,Billa,10.49,13.11,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+3963fe22725e,Billa,3.49,8.73,live 2026,2026-10-17,"shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-2558)"
+3a5a7ce405ed,Billa,10.49,13.11,live 2026,2026-10-17,"shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-11369)"
 cddde2bb4b5f,Billa,3.19,7.97,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 9c5ccf1570c3,Billa,3.19,7.97,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 ed87eda20c7a,Billa,3.79,15.16,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 c8ace5991e27,Billa,5.99,7.49,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 565664210d1b,Billa,2.19,12.51,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-a254eb94a709,Billa,2.59,25.9,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
-9ea01933b209,Billa,4.99,142.57,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+a254eb94a709,Billa,2.59,25.9,live 2026,2026-10-17,"shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-570454)"
+9ea01933b209,Billa,4.99,,live 2026,2026-10-17,"shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-352300)"
 034d3201321c,Spar,3.99,22.17,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 12e8714a2769,Spar,3.99,12.47,live 2026,2026-10-13,SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)
 5e89536afcc8,Spar,4.99,10.4,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
@@ -1206,20 +1206,20 @@ a062f2e0ee37,Billa,3.99,3.99,live 2026,,frozen_quick.json (live 2026)
 9d5543d9a0e3,Billa,3.99,5.7,live 2026,,frozen_quick.json (live 2026)
 10df19f94c63,Billa,3.29,8.22,live 2026,,frozen_quick.json (live 2026)
 f562d11f8f1b,Billa,3.29,8.22,live 2026,,frozen_quick.json (live 2026)
-196dd1fda1cc,Billa,7.89,7.89,,2026-07-13,heisse-preise raw exact-name match Billa 2026-07-13
-62fb42a65ba4,Billa,8.99,8.99,,2026-08-08,heisse-preise raw exact-name match Billa 2026-08-08
-61eb6df6f83f,Billa,7.89,7.89,,2026-07-13,heisse-preise raw exact-name match Billa 2026-07-13
+196dd1fda1cc,Billa,7.89,7.89,live 2026,2026-10-17,"shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-745583)"
+62fb42a65ba4,Billa,8.99,8.99,live 2026,2026-10-17,"shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-727864)"
+61eb6df6f83f,Billa,7.89,7.89,live 2026,2026-10-17,"shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-745596)"
 c3dfa8ae7718,Billa,3.99,3.99,live 2026,,frozen_quick.json (live 2026)
-7a09a982158c,Billa,9.99,9.99,,2026-09-17,heisse-preise raw exact-name match Billa 2026-09-17
+7a09a982158c,Billa,9.99,9.99,live 2026,2026-10-17,"shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-724508)"
 495de183396e,Billa,4.49,17.96,live 2026,,frozen_quick.json (live 2026)
 1e9cf7a3ebfb,Billa,3.99,3.99,live 2026,,frozen_quick.json (live 2026)
-870d1c79be9c,Billa,11.99,11.99,,2026-09-24,heisse-preise raw exact-name match Billa 2026-09-24
+870d1c79be9c,Billa,11.99,11.99,live 2026,2026-10-17,"shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-392364)"
 76f95d538b90,Billa,3.99,39.9,live 2026,,frozen_quick.json (live 2026)
 221edaddd726,Billa,4.29,13.0,live 2026,,frozen_quick.json (live 2026)
 05199f3cb798,Billa,4.79,12.77,live 2026,,frozen_quick.json (live 2026)
 6fc3f8caf6b1,Billa,7.59,16.87,live 2026,,frozen_quick.json (live 2026)
-fd306cd5c292,Billa,12.79,12.79,,2026-09-23,heisse-preise raw exact-name match Billa 2026-09-23
-83809d233798,Billa,20.9,20.9,,2026-09-24,heisse-preise raw exact-name match Billa 2026-09-24
+fd306cd5c292,Billa,12.79,12.79,live 2026,2026-10-17,"shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-700821)"
+83809d233798,Billa,20.9,20.9,live 2026,2026-10-17,"shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-281768)"
 92efa2359f8f,Billa,5.99,14.97,live 2026,,frozen_quick.json (live 2026)
 f1e6dc8e7f99,Billa,5.99,14.97,live 2026,,frozen_quick.json (live 2026)
 d3886c4f4faf,Billa,9.59,38.36,live 2026,,frozen_quick.json (live 2026)
@@ -1231,7 +1231,7 @@ f78e8efd6ff1,Billa,5.99,14.97,live 2026,,frozen_quick.json (live 2026)
 90627ebf7b9d,Billa,5.99,14.97,live 2026,,frozen_quick.json (live 2026)
 0c0a0382b0ab,Billa,5.99,14.97,live 2026,,frozen_quick.json (live 2026)
 2eadef67cc49,Billa,7.19,20.54,live 2026,,frozen_quick.json (live 2026)
-d839d4629ade,Billa,15.99,15.99,,2026-09-23,heisse-preise raw exact-name match Billa 2026-09-23
+d839d4629ade,Billa,15.99,15.99,live 2026,2026-10-17,"shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-257781)"
 bba5c8fdf36a,Billa,1.49,14.9,live 2026,,frozen_quick.json (live 2026)
 008e515aed15,Billa,3.99,9.98,live 2026,,frozen_quick.json (live 2026)
 ee8c8f99736d,Billa,3.99,9.98,live 2026,,frozen_quick.json (live 2026)
@@ -1244,7 +1244,7 @@ abc696b7344c,Billa,3.29,32.9,live 2026,,frozen_quick.json (live 2026)
 c77f045e5c11,Billa,4.99,24.95,live 2026,,frozen_quick.json (live 2026)
 06db487d0e29,Billa,4.19,41.9,live 2026,,frozen_quick.json (live 2026)
 19107236bd06,Billa,3.29,26.32,live 2026,,frozen_quick.json (live 2026)
-5997a4a4a76a,Billa,20.9,20.9,,2026-09-24,heisse-preise raw exact-name match Billa 2026-09-24
+5997a4a4a76a,Billa,20.9,20.9,live 2026,2026-10-17,"shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-19687)"
 7469b8c5899a,Billa,3.59,17.95,live 2026,,frozen_quick.json (live 2026)
 408f70ef2874,Billa,3.49,21.81,live 2026,,frozen_quick.json (live 2026)
 b2e5a2acac9f,Billa,2.39,15.93,live 2026,,frozen_quick.json (live 2026)
@@ -2687,9 +2687,9 @@ e92598dc0d9f,Gurkerl,1.79,14.92,live 2026,2026-10-13,"Gurkerl.at live 2026-10-13
 16d8d0cac119,MPreis,1.39,34.75,live 2026,2026-10-13,"MPreis live 2026-10-13 (food-connectors, GTIN 9000275487712)"
 a5f7d0a0a190,Gurkerl,7.59,17.25,live 2026,2026-10-13,"Gurkerl.at live 2026-10-13 (food-connectors, GTIN 9002890019071)"
 2229d87a3a24,Spar,4.99,,,2026-02-10,heisse-preise raw exact-name match Spar 2026-02-10
-36b19349359a,Billa,2.69,,,2026-09-24,heisse-preise raw exact-name match Billa 2026-09-24
+36b19349359a,Billa,2.69,16.81,live 2026,2026-10-17,"shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-595811)"
 7c534dab449d,Spar,2.99,,,2025-10-07,heisse-preise raw exact-name match Spar 2025-10-07
-d142be122c0a,Billa,0.59,,,2026-04-12,heisse-preise raw exact-name match Billa 2026-04-12
+d142be122c0a,Billa,0.59,,live 2026,2026-10-17,"shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-736499)"
 c711d249433d,MPreis,4.79,9.98,live 2026,2026-10-13,"MPreis live 2026-10-13 (food-connectors, GTIN 4008366007011)"
 23cc5df800e1,MPreis,1.19,19.83,live 2026,2026-10-13,"MPreis live 2026-10-13 (food-connectors, GTIN 4000521464400)"
 d7161fa09f25,MPreis,1.19,16.08,live 2026,2026-10-13,"MPreis live 2026-10-13 (food-connectors, GTIN 4000521465407)"
