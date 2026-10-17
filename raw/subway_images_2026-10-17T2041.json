@@ -1,0 +1,234 @@
+{
+ "run": "2026-10-17T2041",
+ "source": "subway.com/de-AT menu category pages (server-rendered tiles)",
+ "robots": "https://www.subway.com/robots.txt: '*' Disallow /sitecore/ + non-AT deliverylocator only",
+ "photos_accepted": [
+  {
+   "product_id": "e522305cec35",
+   "name": "Chicken Teriyaki (Sub 15 cm)",
+   "at_product_id": "5254",
+   "at_tile_name": "Chicken Teriyaki",
+   "category_page": "https://www.subway.com/de-AT/MenuNutrition/Menu/Sandwiches",
+   "image_url": "https://www.subway.com/de-at/ns/images/menu/AST/GER/Subway_Produktbilder_Subs_234x140_SUB_Chicken-Teriyaki.jpeg",
+   "http": "GET 200",
+   "vision_gate": "PASS (sandwich/panini matches the named dish)"
+  },
+  {
+   "product_id": "81463246cd77",
+   "name": "Plant-based Chicken Teriyaki (Sub 15 cm)",
+   "at_product_id": "9223",
+   "at_tile_name": "Plant-based Chicken Teriyaki",
+   "category_page": "https://www.subway.com/de-AT/MenuNutrition/Menu/Sandwiches",
+   "image_url": "https://www.subway.com/de-at/ns/images/menu/AST/GER/Plant_based_Chick_Teriy_SdT_234x140.png",
+   "http": "GET 200",
+   "vision_gate": "PASS (sandwich/panini matches the named dish); Sub des Tages badge MITTWOCH"
+  },
+  {
+   "product_id": "6b2c3c5c9737",
+   "name": "Chicken Fajita (Sub 15 cm)",
+   "at_product_id": "5253",
+   "at_tile_name": "Chicken Fajita",
+   "category_page": "https://www.subway.com/de-AT/MenuNutrition/Menu/Sandwiches",
+   "image_url": "https://www.subway.com/de-at/ns/images/menu/AST/GER/Chicken_Fajita_SdT_234x140.png",
+   "http": "GET 200",
+   "vision_gate": "PASS (sandwich/panini matches the named dish); Sub des Tages badge DONNERSTAG"
+  },
+  {
+   "product_id": "664b7313df8b",
+   "name": "Rotisserie-Style Chicken (Sub 15 cm)",
+   "at_product_id": "12166",
+   "at_tile_name": "Rotisserie-Style Chicken",
+   "category_page": "https://www.subway.com/de-AT/MenuNutrition/Menu/Sandwiches",
+   "image_url": "https://www.subway.com/de-at/ns/images/menu/AST/GER/Produktbilder_15cm_Rotisserie_Style_Chicken_234x140.png",
+   "http": "GET 200",
+   "vision_gate": "PASS (sandwich/panini matches the named dish)"
+  },
+  {
+   "product_id": "0de049bcc763",
+   "name": "Chicken Tandoori (Sub 15 cm)",
+   "at_product_id": "11878",
+   "at_tile_name": "Chicken Tandoori",
+   "category_page": "https://www.subway.com/de-AT/MenuNutrition/Menu/Sandwiches",
+   "image_url": "https://www.subway.com/de-at/ns/images/menu/AST/GER/Chicken_Tandoori_SdT_234x140.png",
+   "http": "GET 200",
+   "vision_gate": "PASS (sandwich/panini matches the named dish); Sub des Tages badge SAMSTAG"
+  },
+  {
+   "product_id": "e2c993b48ae0",
+   "name": "Tuna (Sub 15 cm)",
+   "at_product_id": "5261",
+   "at_tile_name": "Tuna",
+   "category_page": "https://www.subway.com/de-AT/MenuNutrition/Menu/Sandwiches",
+   "image_url": "https://www.subway.com/de-at/ns/images/menu/AST/GER/Tuna_SdT_234x140.png",
+   "http": "GET 200",
+   "vision_gate": "PASS (sandwich/panini matches the named dish); Sub des Tages badge FREITAG"
+  },
+  {
+   "product_id": "99c5791f33d2",
+   "name": "Italian B.M.T. (Sub 15 cm)",
+   "at_product_id": "5257",
+   "at_tile_name": "Italian B.M.T.®",
+   "category_page": "https://www.subway.com/de-AT/MenuNutrition/Menu/Sandwiches",
+   "image_url": "https://www.subway.com/de-at/ns/images/menu/AST/GER/Italian_BMT_SdT_234x140.png",
+   "http": "GET 200",
+   "vision_gate": "PASS (sandwich/panini matches the named dish); Sub des Tages badge MONTAG"
+  },
+  {
+   "product_id": "a722749297df",
+   "name": "BBQ Rib (Sub 15 cm)",
+   "at_product_id": "5250",
+   "at_tile_name": "BBQ Rib",
+   "category_page": "https://www.subway.com/de-AT/MenuNutrition/Menu/Sandwiches",
+   "image_url": "https://www.subway.com/de-at/ns/images/menu/AST/GER/BBQ_Rib_SdT_Product_thumbnails_234x140.png",
+   "http": "GET 200",
+   "vision_gate": "PASS (sandwich/panini matches the named dish); Sub des Tages badge SONNTAG"
+  },
+  {
+   "product_id": "bfd5fb6bccaf",
+   "name": "Nacho Chicken (Sub 15 cm)",
+   "at_product_id": "12942",
+   "at_tile_name": "Nacho Chicken",
+   "category_page": "https://www.subway.com/de-AT/MenuNutrition/Menu/Sandwiches",
+   "image_url": "https://www.subway.com/de-at/ns/images/menu/AST/GER/Nacho_Chicken_SdT_234x140.png",
+   "http": "GET 200",
+   "vision_gate": "PASS (sandwich/panini matches the named dish); Sub des Tages badge DIENSTAG"
+  },
+  {
+   "product_id": "3a9764aa25ce",
+   "name": "Philly Beef & Cheese (Sub 15 cm)",
+   "at_product_id": "5260",
+   "at_tile_name": "Philly Beef & Cheese",
+   "category_page": "https://www.subway.com/de-AT/MenuNutrition/Menu/Sandwiches",
+   "image_url": "https://www.subway.com/de-at/ns/images/menu/AST/GER/Subway_Produktbilder_Subs_234x140_Sub-Philly-Beef-Cheese.jpeg",
+   "http": "GET 200",
+   "vision_gate": "PASS (sandwich/panini matches the named dish)"
+  },
+  {
+   "product_id": "3e9db9195923",
+   "name": "Salami (Sub 15 cm)",
+   "at_product_id": "5258",
+   "at_tile_name": "Salami",
+   "category_page": "https://www.subway.com/de-AT/MenuNutrition/Menu/Sandwiches",
+   "image_url": "https://www.subway.com/de-at/ns/images/menu/AST/GER/Produktbilder_Salami_234x140.png",
+   "http": "GET 200",
+   "vision_gate": "PASS (sandwich/panini matches the named dish)"
+  },
+  {
+   "product_id": "3385f73378f8",
+   "name": "Ham (Sub 15 cm)",
+   "at_product_id": "5255",
+   "at_tile_name": "Ham",
+   "category_page": "https://www.subway.com/de-AT/MenuNutrition/Menu/Sandwiches",
+   "image_url": "https://www.subway.com/de-at/ns/images/menu/AST/GER/Produktbilder_Ham_234x140.png",
+   "http": "GET 200",
+   "vision_gate": "PASS (sandwich/panini matches the named dish)"
+  },
+  {
+   "product_id": "d5776e00ddd4",
+   "name": "Spicy Vegan Patty (Sub 15 cm)",
+   "at_product_id": "7591",
+   "at_tile_name": "Spicy Vegan Patty",
+   "category_page": "https://www.subway.com/de-AT/MenuNutrition/Menu/Sandwiches",
+   "image_url": "https://www.subway.com/de-at/ns/images/menu/AST/GER/Produktbilder_Spicy_Vegan_Patty_234x140.png",
+   "http": "GET 200",
+   "vision_gate": "PASS (sandwich/panini matches the named dish)"
+  },
+  {
+   "product_id": "f83d250f246a",
+   "name": "Veggie Delite (Sub 15 cm)",
+   "at_product_id": "5247",
+   "at_tile_name": "Veggie Delite®",
+   "category_page": "https://www.subway.com/de-AT/MenuNutrition/Menu/Sandwiches",
+   "image_url": "https://www.subway.com/de-at/ns/images/menu/AST/GER/594x334Veggie_Delite.jpg",
+   "http": "GET 200",
+   "vision_gate": "PASS (sandwich/panini matches the named dish); 594x334"
+  },
+  {
+   "product_id": "1933422f0631",
+   "name": "Chick'n'Garlic (Panini)",
+   "at_product_id": "12593",
+   "at_tile_name": "Chick 'N' Garlic",
+   "category_page": "https://www.subway.com/de-AT/MenuNutrition/Menu/SubMelts",
+   "image_url": "https://www.subway.com/de-at/ns/images/menu/AST/GER/Produktbilder_Series-melt_234x140_ChicknGarlic.jpg",
+   "http": "GET 200",
+   "vision_gate": "PASS (sandwich/panini matches the named dish)"
+  },
+  {
+   "product_id": "e3fb0e0ac3d0",
+   "name": "Philly Supreme (Panini)",
+   "at_product_id": "12130",
+   "at_tile_name": "Philly Supreme",
+   "category_page": "https://www.subway.com/de-AT/MenuNutrition/Menu/SubMelts",
+   "image_url": "https://www.subway.com/de-at/ns/images/menu/AST/GER/Produktbilder_Series-melt_234x140_Philly-Supreme.jpg",
+   "http": "GET 200",
+   "vision_gate": "PASS (sandwich/panini matches the named dish)"
+  },
+  {
+   "product_id": "8120d3f14d39",
+   "name": "Smoky Beast (Panini)",
+   "at_product_id": "12124",
+   "at_tile_name": "Smokey Beast",
+   "category_page": "https://www.subway.com/de-AT/MenuNutrition/Menu/SubMelts",
+   "image_url": "https://www.subway.com/de-at/ns/images/menu/AST/GER/Produktbilder_Series-melt_234x140_Smokey-Beast.jpg",
+   "http": "GET 200",
+   "vision_gate": "PASS (sandwich/panini matches the named dish); AT site spells 'Smokey', PDF 'Smoky'"
+  },
+  {
+   "product_id": "19c6d72bb932",
+   "name": "Furious Chicken (Sub 15 cm (Kreation))",
+   "at_product_id": "12120",
+   "at_tile_name": "Furious Chicken",
+   "category_page": "https://www.subway.com/de-AT/MenuNutrition/Menu/SubwaySeries",
+   "image_url": "https://www.subway.com/de-at/ns/images/menu/AST/GER/Furious_Chicken_UnsKreat_234x140.png",
+   "http": "GET 200",
+   "vision_gate": "PASS (sandwich/panini matches the named dish); photo shows a longer sub than 15 cm"
+  },
+  {
+   "product_id": "02ccdcb85c6c",
+   "name": "Fiesta Fajita (Sub 15 cm (Kreation))",
+   "at_product_id": "12107",
+   "at_tile_name": "Fiesta Fajita",
+   "category_page": "https://www.subway.com/de-AT/MenuNutrition/Menu/SubwaySeries",
+   "image_url": "https://www.subway.com/de-at/ns/images/menu/AST/GER/Fiesta_Fajita_UnsKreat_234x140.png",
+   "http": "GET 200",
+   "vision_gate": "PASS (sandwich/panini matches the named dish); photo shows a longer sub than 15 cm"
+  },
+  {
+   "product_id": "670841592447",
+   "name": "Tasty Tandoori (Sub 15 cm (Kreation))",
+   "at_product_id": "13247",
+   "at_tile_name": "Tasty Tandoori",
+   "category_page": "https://www.subway.com/de-AT/MenuNutrition/Menu/SubwaySeries",
+   "image_url": "https://www.subway.com/de-at/ns/images/menu/AST/GER/Tasty_Tandoori_UnsKreat_234x140.png",
+   "http": "GET 200",
+   "vision_gate": "PASS (sandwich/panini matches the named dish); photo shows a longer sub than 15 cm"
+  },
+  {
+   "product_id": "5d13fae4a13c",
+   "name": "Beef Texicana (Sub 15 cm (Kreation))",
+   "at_product_id": "13246",
+   "at_tile_name": "Beef Texicana",
+   "category_page": "https://www.subway.com/de-AT/MenuNutrition/Menu/SubwaySeries",
+   "image_url": "https://www.subway.com/de-at/ns/images/menu/AST/GER/Beef_Texicana_UnsKreat_234x140.png",
+   "http": "GET 200",
+   "vision_gate": "PASS (sandwich/panini matches the named dish); photo shows a longer sub than 15 cm"
+  }
+ ],
+ "rejected": {
+  "wrap_and_salad_rows": "34 rows (17 Wrap, 17 Salat): AT site shows only one generic 'Wraps' tile (ProductId 7083) and one generic 'Salate' tile (5249) -> not product-specific, not taken",
+  "not_on_at_site": [
+   "Dölicious Chicken (Sub 15 cm)",
+   "Plant-based Dölicious Chicken (Sub 15 cm)",
+   "Smashed Falafel (Sub 15 cm)",
+   "The BBQ Master (Sub 15 cm (Kreation))"
+  ],
+  "at_tiles_without_row": [
+   "Great Caesar (12118)",
+   "The Philly Boss (12116)",
+   "Kids' Pak Ham/Veggie Delite/Salami",
+   "Breakfast subs",
+   "Nacho Chicken Bites",
+   "Waffle Fries"
+  ]
+ }
+}

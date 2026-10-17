@@ -54395,7 +54395,7 @@
   "bio": false,
   "vegan": false,
   "url": "https://www.subway.com/v1v2/assets/de-at/nutrition/documents/germany-nutritional-information-full-menu-c2-march-2026-german.pdf#chicken-teriyaki-sub-15-cm",
-  "image_url": null,
+  "image_url": "https://www.subway.com/de-at/ns/images/menu/AST/GER/Subway_Produktbilder_Subs_234x140_SUB_Chicken-Teriyaki.jpeg",
   "source": "linz_providers_src.json",
   "ean": null
  },
@@ -54412,7 +54412,7 @@
   "bio": false,
   "vegan": false,
   "url": "https://www.subway.com/v1v2/assets/de-at/nutrition/documents/germany-nutritional-information-full-menu-c2-march-2026-german.pdf#plant-based-chicken-teriyaki-sub-15-cm",
-  "image_url": null,
+  "image_url": "https://www.subway.com/de-at/ns/images/menu/AST/GER/Plant_based_Chick_Teriy_SdT_234x140.png",
   "source": "linz_providers_src.json",
   "ean": null
  },
@@ -54429,7 +54429,7 @@
   "bio": false,
   "vegan": false,
   "url": "https://www.subway.com/v1v2/assets/de-at/nutrition/documents/germany-nutritional-information-full-menu-c2-march-2026-german.pdf#chicken-fajita-sub-15-cm",
-  "image_url": null,
+  "image_url": "https://www.subway.com/de-at/ns/images/menu/AST/GER/Chicken_Fajita_SdT_234x140.png",
   "source": "linz_providers_src.json",
   "ean": null
  },
@@ -54446,7 +54446,7 @@
   "bio": false,
   "vegan": false,
   "url": "https://www.subway.com/v1v2/assets/de-at/nutrition/documents/germany-nutritional-information-full-menu-c2-march-2026-german.pdf#rotisserie-style-chicken-sub-15-cm",
-  "image_url": null,
+  "image_url": "https://www.subway.com/de-at/ns/images/menu/AST/GER/Produktbilder_15cm_Rotisserie_Style_Chicken_234x140.png",
   "source": "linz_providers_src.json",
   "ean": null
  },
@@ -54463,7 +54463,7 @@
   "bio": false,
   "vegan": false,
   "url": "https://www.subway.com/v1v2/assets/de-at/nutrition/documents/germany-nutritional-information-full-menu-c2-march-2026-german.pdf#chicken-tandoori-sub-15-cm",
-  "image_url": null,
+  "image_url": "https://www.subway.com/de-at/ns/images/menu/AST/GER/Chicken_Tandoori_SdT_234x140.png",
   "source": "linz_providers_src.json",
   "ean": null
  },
@@ -54497,7 +54497,7 @@
   "bio": false,
   "vegan": false,
   "url": "https://www.subway.com/v1v2/assets/de-at/nutrition/documents/germany-nutritional-information-full-menu-c2-march-2026-german.pdf#tuna-sub-15-cm",
-  "image_url": null,
+  "image_url": "https://www.subway.com/de-at/ns/images/menu/AST/GER/Tuna_SdT_234x140.png",
   "source": "linz_providers_src.json",
   "ean": null
  },
@@ -54514,7 +54514,7 @@
   "bio": false,
   "vegan": false,
   "url": "https://www.subway.com/v1v2/assets/de-at/nutrition/documents/germany-nutritional-information-full-menu-c2-march-2026-german.pdf#italian-b-m-t-sub-15-cm",
-  "image_url": null,
+  "image_url": "https://www.subway.com/de-at/ns/images/menu/AST/GER/Italian_BMT_SdT_234x140.png",
   "source": "linz_providers_src.json",
   "ean": null
  },
@@ -54531,7 +54531,7 @@
   "bio": false,
   "vegan": false,
   "url": "https://www.subway.com/v1v2/assets/de-at/nutrition/documents/germany-nutritional-information-full-menu-c2-march-2026-german.pdf#bbq-rib-sub-15-cm",
-  "image_url": null,
+  "image_url": "https://www.subway.com/de-at/ns/images/menu/AST/GER/BBQ_Rib_SdT_Product_thumbnails_234x140.png",
   "source": "linz_providers_src.json",
   "ean": null
  },
@@ -54548,7 +54548,7 @@
   "bio": false,
   "vegan": false,
   "url": "https://www.subway.com/v1v2/assets/de-at/nutrition/documents/germany-nutritional-information-full-menu-c2-march-2026-german.pdf#nacho-chicken-sub-15-cm",
-  "image_url": null,
+  "image_url": "https://www.subway.com/de-at/ns/images/menu/AST/GER/Nacho_Chicken_SdT_234x140.png",
   "source": "linz_providers_src.json",
   "ean": null
  },
@@ -54565,7 +54565,7 @@
   "bio": false,
   "vegan": false,
   "url": "https://www.subway.com/v1v2/assets/de-at/nutrition/documents/germany-nutritional-information-full-menu-c2-march-2026-german.pdf#philly-beef-cheese-sub-15-cm",
-  "image_url": null,
+  "image_url": "https://www.subway.com/de-at/ns/images/menu/AST/GER/Subway_Produktbilder_Subs_234x140_Sub-Philly-Beef-Cheese.jpeg",
   "source": "linz_providers_src.json",
   "ean": null
  },
@@ -54582,7 +54582,7 @@
   "bio": false,
   "vegan": false,
   "url": "https://www.subway.com/v1v2/assets/de-at/nutrition/documents/germany-nutritional-information-full-menu-c2-march-2026-german.pdf#salami-sub-15-cm",
-  "image_url": null,
+  "image_url": "https://www.subway.com/de-at/ns/images/menu/AST/GER/Produktbilder_Salami_234x140.png",
   "source": "linz_providers_src.json",
   "ean": null
  },
@@ -54599,7 +54599,7 @@
   "bio": false,
   "vegan": false,
   "url": "https://www.subway.com/v1v2/assets/de-at/nutrition/documents/germany-nutritional-information-full-menu-c2-march-2026-german.pdf#ham-sub-15-cm",
-  "image_url": null,
+  "image_url": "https://www.subway.com/de-at/ns/images/menu/AST/GER/Produktbilder_Ham_234x140.png",
   "source": "linz_providers_src.json",
   "ean": null
  },
@@ -54616,7 +54616,7 @@
   "bio": false,
   "vegan": true,
   "url": "https://www.subway.com/v1v2/assets/de-at/nutrition/documents/germany-nutritional-information-full-menu-c2-march-2026-german.pdf#spicy-vegan-patty-sub-15-cm",
-  "image_url": null,
+  "image_url": "https://www.subway.com/de-at/ns/images/menu/AST/GER/Produktbilder_Spicy_Vegan_Patty_234x140.png",
   "source": "linz_providers_src.json",
   "ean": null
  },
@@ -54650,7 +54650,7 @@
   "bio": false,
   "vegan": false,
   "url": "https://www.subway.com/v1v2/assets/de-at/nutrition/documents/germany-nutritional-information-full-menu-c2-march-2026-german.pdf#veggie-delite-sub-15-cm",
-  "image_url": null,
+  "image_url": "https://www.subway.com/de-at/ns/images/menu/AST/GER/594x334Veggie_Delite.jpg",
   "source": "linz_providers_src.json",
   "ean": null
  },
@@ -55279,7 +55279,7 @@
   "bio": false,
   "vegan": false,
   "url": "https://www.subway.com/v1v2/assets/de-at/nutrition/documents/germany-nutritional-information-full-menu-c2-march-2026-german.pdf#furious-chicken-sub-15-cm-kreation",
-  "image_url": null,
+  "image_url": "https://www.subway.com/de-at/ns/images/menu/AST/GER/Furious_Chicken_UnsKreat_234x140.png",
   "source": "linz_providers_src.json",
   "ean": null
  },
@@ -55296,7 +55296,7 @@
   "bio": false,
   "vegan": false,
   "url": "https://www.subway.com/v1v2/assets/de-at/nutrition/documents/germany-nutritional-information-full-menu-c2-march-2026-german.pdf#fiesta-fajita-sub-15-cm-kreation",
-  "image_url": null,
+  "image_url": "https://www.subway.com/de-at/ns/images/menu/AST/GER/Fiesta_Fajita_UnsKreat_234x140.png",
   "source": "linz_providers_src.json",
   "ean": null
  },
@@ -55313,7 +55313,7 @@
   "bio": false,
   "vegan": false,
   "url": "https://www.subway.com/v1v2/assets/de-at/nutrition/documents/germany-nutritional-information-full-menu-c2-march-2026-german.pdf#tasty-tandoori-sub-15-cm-kreation",
-  "image_url": null,
+  "image_url": "https://www.subway.com/de-at/ns/images/menu/AST/GER/Tasty_Tandoori_UnsKreat_234x140.png",
   "source": "linz_providers_src.json",
   "ean": null
  },
@@ -55330,7 +55330,7 @@
   "bio": false,
   "vegan": false,
   "url": "https://www.subway.com/v1v2/assets/de-at/nutrition/documents/germany-nutritional-information-full-menu-c2-march-2026-german.pdf#beef-texicana-sub-15-cm-kreation",
-  "image_url": null,
+  "image_url": "https://www.subway.com/de-at/ns/images/menu/AST/GER/Beef_Texicana_UnsKreat_234x140.png",
   "source": "linz_providers_src.json",
   "ean": null
  },
@@ -55347,7 +55347,7 @@
   "bio": false,
   "vegan": false,
   "url": "https://www.subway.com/v1v2/assets/de-at/nutrition/documents/germany-nutritional-information-full-menu-c2-march-2026-german.pdf#chick-n-garlic-panini",
-  "image_url": null,
+  "image_url": "https://www.subway.com/de-at/ns/images/menu/AST/GER/Produktbilder_Series-melt_234x140_ChicknGarlic.jpg",
   "source": "linz_providers_src.json",
   "ean": null
  },
@@ -55364,7 +55364,7 @@
   "bio": false,
   "vegan": false,
   "url": "https://www.subway.com/v1v2/assets/de-at/nutrition/documents/germany-nutritional-information-full-menu-c2-march-2026-german.pdf#philly-supreme-panini",
-  "image_url": null,
+  "image_url": "https://www.subway.com/de-at/ns/images/menu/AST/GER/Produktbilder_Series-melt_234x140_Philly-Supreme.jpg",
   "source": "linz_providers_src.json",
   "ean": null
  },
@@ -55381,7 +55381,7 @@
   "bio": false,
   "vegan": false,
   "url": "https://www.subway.com/v1v2/assets/de-at/nutrition/documents/germany-nutritional-information-full-menu-c2-march-2026-german.pdf#smoky-beast-panini",
-  "image_url": null,
+  "image_url": "https://www.subway.com/de-at/ns/images/menu/AST/GER/Produktbilder_Series-melt_234x140_Smokey-Beast.jpg",
   "source": "linz_providers_src.json",
   "ean": null
  },
