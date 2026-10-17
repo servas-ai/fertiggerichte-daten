@@ -1,0 +1,143 @@
+{
+ "run": "Daten-Squad 2026-10-17T2340",
+ "source": "https://search-spar.spar-ics.com/fact-finder/rest/v4/search/products_lmos_at",
+ "probe": "raw/spar_reprice_probe_2026-10-17T2340.json",
+ "robots": "search host has no robots.txt (404); no login/cookies; interspar.at HTML never requested; ~1 req/s",
+ "updated": [
+  {
+   "product_id": "938f807a366e",
+   "spar_article": "2020003995446",
+   "matched_by": "name search: 'SPAR PREMIUM Ratatouille Gemüse-Eintopf Vegan' 400 g (row = 'SPAR PREMIUM Edition Johanna Maier …', same line; old price + €/kg 9,98 = 400 g)",
+   "api_name": "SPAR PREMIUM Ratatouille Gemüse-Eintopf Vegan",
+   "pack": "400 G",
+   "price_eur": 3.99,
+   "price_per_kg_eur": 9.98,
+   "regular_price_eur": 3.99,
+   "on_promotion": false,
+   "stock_status": "inStock",
+   "url": "https://www.interspar.at/shop/lebensmittel/spar-premium-edition-johanna-maier-ratatouille-gemuese-eintopf-vegan/p/2020003995446",
+   "fetched_at": "2026-10-17"
+  },
+  {
+   "product_id": "833307a71a84",
+   "spar_article": "2020003995460",
+   "matched_by": "name search: 'SPAR PREMIUM Süsskartoffel- Eintopf Vegan' 400 g (row = Johanna Maier edition; old €/kg 12,47 = 400 g)",
+   "api_name": "SPAR PREMIUM Süsskartoffel- Eintopf Vegan",
+   "pack": "400 G",
+   "price_eur": 4.99,
+   "price_per_kg_eur": 12.48,
+   "regular_price_eur": 4.99,
+   "on_promotion": false,
+   "stock_status": "inStock",
+   "url": "https://www.interspar.at/shop/lebensmittel/spar-premium-edition-johanna-maier-suesskartoffel-eintopf-vegan/p/2020003995460",
+   "fetched_at": "2026-10-17"
+  },
+  {
+   "product_id": "26a676865192",
+   "spar_article": "2020005643550",
+   "matched_by": "exact name search 'S-BUDGET Mini-Hühner-Schnitzel' 700 g (old €/kg 9,27 = 700 g)",
+   "api_name": "S-BUDGET Mini-Hühner-Schnitzel",
+   "pack": "700 G",
+   "price_eur": 6.49,
+   "price_per_kg_eur": 9.27,
+   "regular_price_eur": 6.49,
+   "on_promotion": false,
+   "stock_status": "inStock",
+   "url": "https://www.interspar.at/shop/lebensmittel/s-budget-mini-huehner-schnitzel/p/2020005643550",
+   "fetched_at": "2026-10-17"
+  },
+  {
+   "product_id": "0efddae4c91a",
+   "spar_article": "2020005857414",
+   "matched_by": "name search: 'SPAR Natur*pur Bio-Tomaten-Risotto' 200 g; old price 2,49 + €/kg 12,45 identical; row EAN 4099200013428 not verifiable (SPAR code-internal is not a GTIN)",
+   "api_name": "SPAR Natur*pur Bio-Tomaten-Risotto",
+   "pack": "200 G",
+   "price_eur": 2.49,
+   "price_per_kg_eur": 12.45,
+   "regular_price_eur": 2.49,
+   "on_promotion": false,
+   "stock_status": "inStock",
+   "url": "https://www.interspar.at/shop/lebensmittel/spar-naturpur-bio-tomaten-risotto/p/2020005857414",
+   "fetched_at": "2026-10-17"
+  },
+  {
+   "product_id": "5aa873963beb",
+   "spar_article": "6426149",
+   "matched_by": "name search: 'Iglo Backhendlstreifen Klassik' 250 g, old price 8,99 identical; row EAN 8722700143956 not verifiable on this index",
+   "api_name": "Iglo Backhendlstreifen Klassik",
+   "pack": "250 G",
+   "price_eur": 8.99,
+   "price_per_kg_eur": 35.96,
+   "regular_price_eur": 8.99,
+   "on_promotion": false,
+   "stock_status": "inStock",
+   "url": "https://www.interspar.at/shop/lebensmittel/iglo-backhendlstreifen-klassik/p/6426149",
+   "fetched_at": "2026-10-17"
+  },
+  {
+   "product_id": "2229d87a3a24",
+   "spar_article": "2020004633187",
+   "matched_by": "name search: 'SPAR Feine Küche Paprika-Huhn mit Eierspätzle' 400 g, old price 4,99 identical; row EAN 9100000992167 = SPAR AT own-brand prefix",
+   "api_name": "SPAR Feine Küche Paprika-Huhn mit Eierspätzle",
+   "pack": "400 G",
+   "price_eur": 4.99,
+   "price_per_kg_eur": 12.48,
+   "regular_price_eur": 4.99,
+   "on_promotion": false,
+   "stock_status": "inStock",
+   "url": "https://www.interspar.at/shop/lebensmittel/spar-feine-kueche-paprika-huhn-mit-eierspaetzle/p/2020004633187",
+   "fetched_at": "2026-10-17"
+  },
+  {
+   "product_id": "7c534dab449d",
+   "spar_article": "2020002311964",
+   "matched_by": "name search: 'Inzersdorfer Kräftige Hühnersuppe' 400 g, old price 2,99 identical; row EAN 9002600645118",
+   "api_name": "Inzersdorfer Kräftige Hühnersuppe",
+   "pack": "400 G",
+   "price_eur": 2.99,
+   "price_per_kg_eur": 7.48,
+   "regular_price_eur": 2.99,
+   "on_promotion": false,
+   "stock_status": "inStock",
+   "url": "https://www.interspar.at/shop/lebensmittel/inzersdorfer-kraeftige-huehnersuppe/p/2020002311964",
+   "fetched_at": "2026-10-17"
+  }
+ ],
+ "not_taken": {
+  "WeightProduct (counter/weight item, API price is per kg or per 100 g, not per pack)": [
+   "1050c737afbf",
+   "57c9ab798052",
+   "9927e9b4dc2e",
+   "2a7bd95a743d",
+   "4ae4622fd27c",
+   "622399661bcb",
+   "4c5c1664ef35",
+   "de56729e5912"
+  ],
+  "pack-size mismatch (article 577052 is 700 g at 7,49 €, row is 350 g at 4,99 €; also outOfStock)": [
+   "3a490fb14acf"
+  ],
+  "article number no longer in SPAR's index (delisted, re-checked 2026-10-17)": [
+   "04a13d204e17",
+   "cc0f749998aa",
+   "58970cc9f0a9",
+   "bb3d95f44397",
+   "af60759b9f29",
+   "50750912a500",
+   "062c59051a72",
+   "e51f8dba71f3",
+   "35111e7e8b73",
+   "a4f2839087c2",
+   "5e6e153b6076",
+   "3f74c1a8b5e2",
+   "48b51eb19d5b",
+   "a52b60d2e451",
+   "c553f0b91b72",
+   "7075c99a8b56"
+  ],
+  "no search hit": [
+   "049e52ea3f12",
+   "febef23813dd"
+  ]
+ }
+}

@@ -2101,9 +2101,9 @@
   "chain": "Spar",
   "price_eur": 3.99,
   "price_per_kg_eur": 9.98,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-17",
+  "price_source": "SPAR Such-API live 2026-10-17 (search-spar.spar-ics.com, food-connectors spar-shop, 2020003995446)"
  },
  {
   "product_id": "ff91ebd8a470",
@@ -2127,10 +2127,10 @@
   "product_id": "833307a71a84",
   "chain": "Spar",
   "price_eur": 4.99,
-  "price_per_kg_eur": 12.47,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical 2026-10-12"
+  "price_per_kg_eur": 12.48,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-17",
+  "price_source": "SPAR Such-API live 2026-10-17 (search-spar.spar-ics.com, food-connectors spar-shop, 2020003995460)"
  },
  {
   "product_id": "863c23d24d69",
@@ -6421,9 +6421,9 @@
   "chain": "Spar",
   "price_eur": 6.49,
   "price_per_kg_eur": 9.27,
-  "price_status": "Preis 2025",
-  "fetched_at": null,
-  "price_source": "heisse-preise.io latest-canonical"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-17",
+  "price_source": "SPAR Such-API live 2026-10-17 (search-spar.spar-ics.com, food-connectors spar-shop, 2020005643550)"
  },
  {
   "product_id": "8b21013c42a7",
@@ -11335,9 +11335,9 @@
   "chain": "Spar",
   "price_eur": 2.49,
   "price_per_kg_eur": 12.45,
-  "price_status": "Preis 2025",
-  "fetched_at": "2026-10-12",
-  "price_source": "heisse-preise.io latest-canonical (abgerufen 2026-10-12), spar: 'SPAR Natur*pur Bio-Tomaten-Risotto' 200g, letzte Preisänderung 2025-08-29, Name-Match 1.00 (bitte prüfen)"
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-17",
+  "price_source": "SPAR Such-API live 2026-10-17 (search-spar.spar-ics.com, food-connectors spar-shop, 2020005857414)"
  },
  {
   "product_id": "63a92215ed7e",
@@ -24150,10 +24150,10 @@
   "product_id": "5aa873963beb",
   "chain": "Spar",
   "price_eur": 8.99,
-  "price_per_kg_eur": null,
-  "price_status": null,
-  "fetched_at": "2026-01-08",
-  "price_source": "heisse-preise raw exact-name match Spar 2026-01-08"
+  "price_per_kg_eur": 35.96,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-17",
+  "price_source": "SPAR Such-API live 2026-10-17 (search-spar.spar-ics.com, food-connectors spar-shop, 6426149)"
  },
  {
   "product_id": "e92598dc0d9f",
@@ -24186,10 +24186,10 @@
   "product_id": "2229d87a3a24",
   "chain": "Spar",
   "price_eur": 4.99,
-  "price_per_kg_eur": null,
-  "price_status": null,
-  "fetched_at": "2026-02-10",
-  "price_source": "heisse-preise raw exact-name match Spar 2026-02-10"
+  "price_per_kg_eur": 12.48,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-17",
+  "price_source": "SPAR Such-API live 2026-10-17 (search-spar.spar-ics.com, food-connectors spar-shop, 2020004633187)"
  },
  {
   "product_id": "36b19349359a",
@@ -24204,10 +24204,10 @@
   "product_id": "7c534dab449d",
   "chain": "Spar",
   "price_eur": 2.99,
-  "price_per_kg_eur": null,
-  "price_status": null,
-  "fetched_at": "2025-10-07",
-  "price_source": "heisse-preise raw exact-name match Spar 2025-10-07"
+  "price_per_kg_eur": 7.48,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-17",
+  "price_source": "SPAR Such-API live 2026-10-17 (search-spar.spar-ics.com, food-connectors spar-shop, 2020002311964)"
  },
  {
   "product_id": "d142be122c0a",

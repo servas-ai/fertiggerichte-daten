@@ -232,10 +232,10 @@ ec29bd59fabf,Spar,3.99,9.98,live 2026,2026-10-13,SPAR Such-API live 2026-10-13 (
 e291c2ea3608,Spar,4.99,12.47,live 2026,2026-10-13,SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)
 62f258517878,Spar,3.99,9.98,live 2026,2026-10-13,SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)
 01715fd3f6c8,Spar,3.99,9.98,live 2026,2026-10-13,SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)
-938f807a366e,Spar,3.99,9.98,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+938f807a366e,Spar,3.99,9.98,live 2026,2026-10-17,"SPAR Such-API live 2026-10-17 (search-spar.spar-ics.com, food-connectors spar-shop, 2020003995446)"
 ff91ebd8a470,Spar,3.49,13.96,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 67233c63d509,Spar,3.99,9.98,live 2026,2026-10-13,SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)
-833307a71a84,Spar,4.99,12.47,Preis 2025,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
+833307a71a84,Spar,4.99,12.48,live 2026,2026-10-17,"SPAR Such-API live 2026-10-17 (search-spar.spar-ics.com, food-connectors spar-shop, 2020003995460)"
 863c23d24d69,Spar,3.49,13.96,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 1aa1ddfa21cc,Spar,6.99,15.53,live 2026,2026-10-12,heisse-preise.io latest-canonical 2026-10-12
 7c0367466923,Spar,9.99,21.72,live 2026,2026-10-13,SPAR Such-API live 2026-10-13 (search-spar.spar-ics.com)
@@ -712,7 +712,7 @@ b001ff01aa31,Spar,1.99,3.98,live 2026,,heisse-preise.io latest-canonical
 1874c97011b0,Spar,2.99,4.98,live 2026,,heisse-preise.io latest-canonical
 1f2aa178eb43,Spar,1.35,,live 2026,,heisse-preise.io latest-canonical
 0368ffd20c2e,Spar,1.35,,live 2026,,heisse-preise.io latest-canonical
-26a676865192,Spar,6.49,9.27,Preis 2025,,heisse-preise.io latest-canonical
+26a676865192,Spar,6.49,9.27,live 2026,2026-10-17,"SPAR Such-API live 2026-10-17 (search-spar.spar-ics.com, food-connectors spar-shop, 2020005643550)"
 8b21013c42a7,Spar,5.99,8.56,live 2026,,heisse-preise.io latest-canonical
 e44114c64f72,Spar,1.65,,live 2026,,heisse-preise.io latest-canonical
 6df06386a7d6,Spar,2.39,9.56,live 2026,,heisse-preise.io latest-canonical
@@ -1258,7 +1258,7 @@ b5a717f699fe,Spar,4.99,13.31,live 2026,2026-10-12,"heisse-preise.io latest-canon
 0c4ec0de9d1b,Billa,5.99,28.52,live 2026,2026-10-12,"heisse-preise.io latest-canonical (abgerufen 2026-10-12), billa: 'BILLA Tom Kha Gai mit Huhn' 210g, letzte Preisänderung 2026-04-07, Name-Match 1.21 (bitte prüfen)"
 8b282b38bcaf,MPreis,1.59,,live 2026,2026-10-13,"MPreis live 2026-10-13 (food-connectors, GTIN 8720182937070)"
 a127901c3055,Billa,1.12,13.33,live 2026,2026-10-12,"heisse-preise.io latest-canonical (abgerufen 2026-10-12), billa: 'Knorr Keiserteller Gemüsecreme Suppe' 1stk, letzte Preisänderung 2026-10-08, Name-Match 0.80 (bitte prüfen)"
-0efddae4c91a,Spar,2.49,12.45,Preis 2025,2026-10-12,"heisse-preise.io latest-canonical (abgerufen 2026-10-12), spar: 'SPAR Natur*pur Bio-Tomaten-Risotto' 200g, letzte Preisänderung 2025-08-29, Name-Match 1.00 (bitte prüfen)"
+0efddae4c91a,Spar,2.49,12.45,live 2026,2026-10-17,"SPAR Such-API live 2026-10-17 (search-spar.spar-ics.com, food-connectors spar-shop, 2020005857414)"
 63a92215ed7e,dm,1.75,7.0,live 2026,2026-10-13,"dm live 2026-10-13 (food-connectors, GTIN 4062300463196)"
 d74b45d239fc,Fit to Go,9.99,24.98,live 2026,2026-10-14,"fittogo.at/collections/12er-box, abgerufen 2026-10-14: 10,49 €/Meal (6er), 9,99 € (12er), 9,49 € (18er); Einzel-SKU im Shop 0,00 €"
 6c22e6b13c27,Fit to Go,9.99,24.98,live 2026,2026-10-14,"fittogo.at/collections/12er-box, abgerufen 2026-10-14: 10,49 €/Meal (6er), 9,99 € (12er), 9,49 € (18er); Einzel-SKU im Shop 0,00 €"
@@ -2682,13 +2682,13 @@ a4afe718388f,Billa,2.39,7.24,live 2026,2026-10-13,food-connectors/billa 2026-10-
 1c5897a603bf,Billa,2.79,6.98,live 2026,2026-10-13,food-connectors/billa 2026-10-13
 f952ca57a764,Billa,0.99,14.14,live 2026,2026-10-13,food-connectors/billa 2026-10-13
 c9be2b4c468b,Billa,6.99,,,2026-04-16,heisse-preise raw exact-name match Billa 2026-04-16
-5aa873963beb,Spar,8.99,,,2026-01-08,heisse-preise raw exact-name match Spar 2026-01-08
+5aa873963beb,Spar,8.99,35.96,live 2026,2026-10-17,"SPAR Such-API live 2026-10-17 (search-spar.spar-ics.com, food-connectors spar-shop, 6426149)"
 e92598dc0d9f,Gurkerl,1.79,14.92,live 2026,2026-10-13,"Gurkerl.at live 2026-10-13 (food-connectors, GTIN 9002100056735)"
 16d8d0cac119,MPreis,1.39,34.75,live 2026,2026-10-13,"MPreis live 2026-10-13 (food-connectors, GTIN 9000275487712)"
 a5f7d0a0a190,Gurkerl,7.59,17.25,live 2026,2026-10-13,"Gurkerl.at live 2026-10-13 (food-connectors, GTIN 9002890019071)"
-2229d87a3a24,Spar,4.99,,,2026-02-10,heisse-preise raw exact-name match Spar 2026-02-10
+2229d87a3a24,Spar,4.99,12.48,live 2026,2026-10-17,"SPAR Such-API live 2026-10-17 (search-spar.spar-ics.com, food-connectors spar-shop, 2020004633187)"
 36b19349359a,Billa,2.69,16.81,live 2026,2026-10-17,"shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-595811)"
-7c534dab449d,Spar,2.99,,,2025-10-07,heisse-preise raw exact-name match Spar 2025-10-07
+7c534dab449d,Spar,2.99,7.48,live 2026,2026-10-17,"SPAR Such-API live 2026-10-17 (search-spar.spar-ics.com, food-connectors spar-shop, 2020002311964)"
 d142be122c0a,Billa,0.59,,live 2026,2026-10-17,"shop.billa.at product-discovery API 2026-10-17 (food-connectors billa, 00-736499)"
 c711d249433d,MPreis,4.79,9.98,live 2026,2026-10-13,"MPreis live 2026-10-13 (food-connectors, GTIN 4008366007011)"
 23cc5df800e1,MPreis,1.19,19.83,live 2026,2026-10-13,"MPreis live 2026-10-13 (food-connectors, GTIN 4000521464400)"
