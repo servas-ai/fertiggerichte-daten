@@ -1,0 +1,103 @@
+{
+ "run": "2026-10-17T2102 Daten-Squad",
+ "company": {
+  "slug": "adamah-vertriebs-gmbh",
+  "name": "ADAMAH BioHof (ADAMAH Vertriebs GmbH)",
+  "role": "retailer",
+  "legal_name": "ADAMAH Vertriebs GmbH",
+  "lei": null,
+  "register_id": "554551t",
+  "register_authority": "RA000017",
+  "fn": "FN 554551t",
+  "legal_form_code": null,
+  "country": "AT",
+  "address": "Sonnenweg 11, 2280 Glinzendorf, AT",
+  "entity_status": "Firmenbuch eingetragen (evi.gv.at); no GLEIF record",
+  "parent_direct": "Zoubek Beteiligungs GmbH (Gesellschafter/in lt. evi.gv.at)",
+  "parent_ultimate": null,
+  "founded": "2021-05-15",
+  "owners": "Zoubek Beteiligungs GmbH (1 Gesellschafter/in lt. Firmenbuch/evi.gv.at, eingetragen 15.05.2021)",
+  "management": "Elisabeth Zoubek (Geschäftsführerin lt. Firmenbuch, vertritt seit 27.07.2021)",
+  "employees": null,
+  "revenue": null,
+  "website": "https://www.adamah.at",
+  "brands": [
+   "ADAMAH BioHof",
+   "ADAMAH"
+  ],
+  "chains": [
+   "ADAMAH BioHof"
+  ],
+  "product_count": 27,
+  "median_price_eur": 10.6,
+  "median_eur_per_10g_protein": null,
+  "fetched_at": "2026-10-17T21:31:30Z",
+  "registry_status": "verified_vies_firmenbuch (VIES name+address match; FN on AGB/Impressum = evi.gv.at; no GLEIF record)",
+  "uid": "ATU76911656",
+  "uid_vies_name": "ADAMAH Vertriebs GmbH",
+  "uid_vies_address": "Sonnenweg 11, AT-2280 Glinzendorf",
+  "uid_checked_at": "2026-10-17T21:31:25Z",
+  "imprint_url": "https://www.adamah.at/Impressum",
+  "register_court": "Landesgericht Korneuburg",
+  "founded_source": "Firmenbuch Eintragungsdatum 15.05.2021 (evi.gv.at/f/554551t) — legal entity; the farm brand ADAMAH BioHof exists since 1997 (Unternehmensangabe)",
+  "share_capital": "EUR 35 000 (lt. evi.gv.at)",
+  "nace": "Einzel- und Großhandel mit biologischen Lebensmitteln (Geschäftszweig lt. Firmenbuch)",
+  "sources": [
+   "https://www.evi.gv.at/f/554551t",
+   "https://ec.europa.eu/taxation_customs/vies/rest-api/ms/AT/vat/U76911656",
+   "https://www.adamah.at/AGB"
+  ]
+ },
+ "logo": {
+  "slug": "adamah",
+  "name": "ADAMAH BioHof",
+  "category": "Handelskette",
+  "file": "logos/adamah.png",
+  "source_url": "https://www.adamah.at/assets/icon/app_logo-192x192.png (official shop icon/wordmark; robots Allow: /; vision gate PASS)",
+  "brands": [
+   "ADAMAH BioHof",
+   "Online: ADAMAH BioHof",
+   "ADAMAH Vertriebs GmbH",
+   "ADAMAH BioHof (ADAMAH Vertriebs GmbH)",
+   "ADAMAH",
+   "adamah.at"
+  ]
+ },
+ "vies": {
+  "isValid": true,
+  "requestDate": "2026-10-17T21:38:12.525Z",
+  "userError": "VALID",
+  "name": "ADAMAH Vertriebs GmbH",
+  "address": "Sonnenweg 11\nAT-2280 Glinzendorf",
+  "requestIdentifier": "",
+  "originalVatNumber": "U76911656",
+  "vatNumber": "U76911656",
+  "viesApproximate": {
+   "name": "---",
+   "street": "---",
+   "postalCode": "---",
+   "city": "---",
+   "companyType": "---",
+   "matchName": 3,
+   "matchStreet": 3,
+   "matchPostalCode": 3,
+   "matchCity": 3,
+   "matchCompanyType": 3
+  }
+ },
+ "gleif_fulltext_query": "adamah",
+ "gleif_hits": [
+  "894500V454VHD7KV3P06 ADAMAH, Grenoble FR (unrelated)"
+ ],
+ "evi_extract": {
+  "Firmenbuchnummer": "554551t",
+  "Adresse": "Sonnenweg 11, 2280 Glinzendorf",
+  "Eintragungsdatum": "15.05.2021",
+  "Rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "Stammkapital": "EUR 35 000",
+  "Stichtag Jahresabschluss": "30.6.",
+  "Geschäftszweig": "Einzel- und Großhandel mit biologischen Lebensmitteln",
+  "Geschäftsführer/in": "1 Person (Elisabeth Zoubek, seit 27.07.2021)",
+  "Gesellschafter/in": "1 Person (Zoubek Beteiligungs GmbH, eingetragen 15.05.2021)"
+ }
+}
