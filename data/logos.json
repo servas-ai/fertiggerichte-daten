@@ -993,7 +993,8 @@
   "file": "logos/gms-gourmet.png",
   "source_url": "https://www.gourmet.at/typo3temp/assets/_processed_/2/0/csm_Gourmet-Dachmarke-Logo-x2_6143c033c9.webp",
   "brands": [
-   "GMS Gourmet"
+   "GMS Gourmet",
+   "GMS GOURMET GmbH"
   ]
  },
  {
@@ -3385,6 +3386,33 @@
    "Vifon",
    "VIFON",
    "Vifon S.A."
+  ]
+ },
+ {
+  "slug": "gourmet-daheim",
+  "name": "GOURMET Daheim",
+  "category": "Handelskette",
+  "file": "logos/gourmet-daheim.png",
+  "source_url": "https://www.gourmet-daheim.at/_assets/5e439985603ece5f8b37fa61dd03305a/Logos/gourmet-daheim-logo-vector.svg (gourmet-daheim.at header logo; robots Allow: /; official grey vector, rendered 800 px with rsvg-convert, unmodified; vision gate PASS)",
+  "brands": [
+   "GOURMET Daheim",
+   "Gourmet Daheim",
+   "Online: GOURMET Daheim (Mahlzeit Linz)",
+   "Online: GOURMET Daheim"
+  ]
+ },
+ {
+  "slug": "mahlzeit",
+  "name": "Mahlzeit Linz",
+  "category": "Handelskette",
+  "file": "logos/mahlzeit.png",
+  "source_url": "https://www.mahlzeit.co.at/wp-content/uploads/2021/01/icon.png (mahlzeit.co.at homepage hero logo wp-image-1367, 428x225 RGBA; robots Disallow: empty; unmodified; vision gate PASS)",
+  "brands": [
+   "Mahlzeit",
+   "Mahlzeit Linz",
+   "Mahlzeit Linz (Mahlzeit Vertriebsges.m.b.H.)",
+   "Mahlzeit Vertriebsges.m.b.H.",
+   "MAHLZEIT Vertriebsgesellschaft m.b.H."
   ]
  }
 ]

@@ -1,0 +1,112 @@
+{
+ "run": "2026-10-18T0102 Daten-Squad",
+ "generated_at": "2026-10-18T01:15:27.281938+00:00",
+ "logos_added": [
+  {
+   "slug": "gourmet-daheim",
+   "name": "GOURMET Daheim",
+   "category": "Handelskette",
+   "file": "logos/gourmet-daheim.png",
+   "source_url": "https://www.gourmet-daheim.at/_assets/5e439985603ece5f8b37fa61dd03305a/Logos/gourmet-daheim-logo-vector.svg (gourmet-daheim.at header logo; robots Allow: /; official grey vector, rendered 800 px with rsvg-convert, unmodified; vision gate PASS)",
+   "brands": [
+    "GOURMET Daheim",
+    "Gourmet Daheim",
+    "Online: GOURMET Daheim (Mahlzeit Linz)",
+    "Online: GOURMET Daheim"
+   ],
+   "sha256": "fabdb35c375b6eeefc0d490e5c6294f1153a9c81deefda008b54bde578d3e450",
+   "online_mealprep_rows_impacted": 141
+  },
+  {
+   "slug": "mahlzeit",
+   "name": "Mahlzeit Linz",
+   "category": "Handelskette",
+   "file": "logos/mahlzeit.png",
+   "source_url": "https://www.mahlzeit.co.at/wp-content/uploads/2021/01/icon.png (mahlzeit.co.at homepage hero logo wp-image-1367, 428x225 RGBA; robots Disallow: empty; unmodified; vision gate PASS)",
+   "brands": [
+    "Mahlzeit",
+    "Mahlzeit Linz",
+    "Mahlzeit Linz (Mahlzeit Vertriebsges.m.b.H.)",
+    "Mahlzeit Vertriebsges.m.b.H.",
+    "MAHLZEIT Vertriebsgesellschaft m.b.H."
+   ],
+   "sha256": "371d90cf8d8d1e6dca4da07552fcb609c4d316c0bb1c297826e7c5e99b3e5087",
+   "online_mealprep_rows_impacted": 0
+  }
+ ],
+ "logo_vision": {
+  "gourmet-daheim": "PASS — three chef's-hat outline + GOURMET wordmark + DAHEIM, grey #6b6b6b-ish on transparent, legible on white",
+  "mahlzeit": "PASS — 'mahlzeit' wordmark (mahl red, zeit grey) in grey swoosh ellipse, slogan 'Das Menü das zu Ihnen kommt', partner line Rotes Kreuz | Volkshilfe | Samariterbund"
+ },
+ "aliases_added": [
+  "GMS GOURMET GmbH → gms-gourmet"
+ ],
+ "photos": [
+  {
+   "art": "2302564",
+   "name": "Ausgelöstes Backhenderl mit Risipisi",
+   "image_url": "https://www.mahlzeit.co.at/wp-content/uploads/2021/01/2302564_Ausgeloestes_Backhenderl_web.jpg",
+   "match": "article no. in file name",
+   "vision": "breaded chicken with Risipisi — PASS"
+  },
+  {
+   "art": "2313494",
+   "name": "Salbeihuhn - Hühnerragout mit Reis",
+   "image_url": "https://www.mahlzeit.co.at/wp-content/uploads/2025/01/Salbeihuhn_2023_quer_wb-scaled.jpeg",
+   "match": "unique dish name 'Salbeihuhn' (1 of 141 rows)",
+   "vision": "chicken ragout in sauce with rice — PASS"
+  },
+  {
+   "art": "2310057",
+   "name": "Rindsgulasch mit Spätzle",
+   "image_url": "https://www.mahlzeit.co.at/wp-content/uploads/2021/01/2310057_Rindsgulasch_Spaetzle_web-1.jpg",
+   "match": "article no. in file name",
+   "vision": "Rindsgulasch with Spätzle — PASS"
+  },
+  {
+   "art": "2302188",
+   "name": "Zwiebelrostbraten mit Bratkartoffeln",
+   "image_url": "https://www.mahlzeit.co.at/wp-content/uploads/2025/01/Zwiebelrostbraten_2023_quer_36203_wb-scaled.jpeg",
+   "match": "unique dish name 'Zwiebelrostbraten' (1 of 141 rows)",
+   "vision": "Rostbraten with fried onions and Bratkartoffeln — PASS"
+  },
+  {
+   "art": "2302287",
+   "name": "Schweinsbraten mit Serviettenknödel & warmem Krautsalat",
+   "image_url": "https://www.mahlzeit.co.at/wp-content/uploads/2021/01/2302287_Schweinsbraten_Serviettenknoedel_web.jpg",
+   "match": "article no. in file name",
+   "vision": "Schweinsbraten, Serviettenknödel, warmer Krautsalat — PASS"
+  },
+  {
+   "art": "2311070",
+   "name": "Schweinsmedaillons mit Rosmarinkartoffeln und buntem Gemüse",
+   "image_url": "https://www.mahlzeit.co.at/wp-content/uploads/2021/01/2311070_Schweinsmedaillons_web.jpg",
+   "match": "article no. in file name",
+   "vision": "pork medallions, rosemary potatoes, mixed vegetables — PASS"
+  },
+  {
+   "art": "2310182",
+   "name": "Krautfleckerl",
+   "image_url": "https://www.mahlzeit.co.at/wp-content/uploads/2025/01/Krautfleckerl_2023_quer_wb-scaled.jpeg",
+   "match": "unique dish name 'Krautfleckerl' (1 of 141 rows)",
+   "vision": "Krautfleckerl (pasta squares with cabbage) — PASS"
+  },
+  {
+   "art": "2301928",
+   "name": "Flaumige Topfenknödel mit Erdbeermus",
+   "image_url": "https://www.mahlzeit.co.at/wp-content/uploads/2021/01/2301928_Topfenknoedel_Erdbeermus_web.jpg",
+   "match": "article no. in file name",
+   "vision": "4 Topfenknödel in Bröseln on Erdbeermus — PASS"
+  }
+ ],
+ "photo_source": "Mahlzeit WordPress media library via public REST /wp-json/wp/v2/media (452 items, 5 pages; robots: Yoast Disallow empty); food-connectors 4dab3a4 maps the article-number files live",
+ "photos_rejected": {
+  "Huehnerschnitzel_Kartoffelpueree_2023_Panorama-quer_sRGB_36257_wb-scaled.jpeg": "pureed (Breikost) dish; probably 2310273 'Hühnerschnitzel in Zwiebelsauce mit Püree' but the file name omits the sauce and 2301562 'Gebackenes Hühnerschnitzel mit Kartoffeln' also fits the words → ambiguous, not taken",
+  "2313512.jpg / 2313521.jpg / 2313159.jpg / 2313251.jpg": "7-digit names without a matching article in the 2026 price list → not mapped",
+  "Schweinsbraten_-Serviettenknoedel_Krautsalat_2023_...": "duplicate subject of 2302287 (article-number file preferred)",
+  "Breikost-Potpourri_web.jpg, medailloons-scaled.jpg, 2.jpg, 3.jpg": "generic/collage or no unique dish → not mapped",
+  "shopmahlzeit.gourmet.at": "registration webshop; TLS reset from the box (T0006) → not used"
+ },
+ "gourmet_daheim_photos": "8/141",
+ "staging": "logo files only in scripts/logo_work_T0102 until the fertig uid freeze lifts; online_mealprep.csv updated in daten only"
+}
