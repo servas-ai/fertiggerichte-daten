@@ -3380,17 +3380,17 @@
   "name": "GMS GOURMET GmbH",
   "role": "producer",
   "legal_name": "GMS GOURMET GmbH",
-  "lei": "5299003EXF4GJXGELC41",
+  "lei": "529900TDG5CX25LX8H86",
   "register_id": "FN 104525p",
   "register_authority": "RA000017",
   "fn": "FN 104525p",
   "legal_form_code": "AXSB",
   "country": "AT",
   "address": "Oberlaaer Straße 298, 1230 Wien, AT",
-  "entity_status": "NULL",
+  "entity_status": "ACTIVE (GLEIF ISSUED)",
   "parent_direct": null,
-  "parent_ultimate": null,
-  "parent_ultimate_lei": null,
+  "parent_ultimate": "Raiffeisenbankengruppe OÖ Verbund eGen",
+  "parent_ultimate_lei": "529900XSTAE561178282",
   "founded": "1975 (Gourmet Menü-Service); 2014 Fusion zur GMS GOURMET GmbH",
   "owners": "VIVATIS Holding AG, Linz (Tochter der Raiffeisenlandesbank OÖ)",
   "management": null,
@@ -3409,12 +3409,14 @@
   "approval_codes": "AT 30733 EG",
   "brands": [
    "Good Choice",
-   "Good Choice (Hofer Eigenmarke)"
+   "Good Choice (Hofer Eigenmarke)",
+   "GOURMET Daheim"
   ],
   "chains": [
-   "Hofer"
+   "Hofer",
+   "Online: GOURMET Daheim (Mahlzeit Linz)"
   ],
-  "product_count": 2,
+  "product_count": 143,
   "median_price_eur": 3.39,
   "median_eur_per_10g_protein": 2.6,
   "nace": null,
@@ -3425,14 +3427,18 @@
    "https://kurier.at/wirtschaft/catering-oesterreich-tschechien-gourmet-maresi-knabbernossi/403030837",
    "https://www.firmenatlas.com/firma/104525p",
    "https://vis.statistik.at/fileadmin/ovis/pdf/VI26.pdf",
-   "https://www.evi.gv.at/f/104525p"
+   "https://www.evi.gv.at/f/104525p",
+   "https://api.gleif.org/api/v1/lei-records/529900TDG5CX25LX8H86",
+   "https://api.gleif.org/api/v1/lei-records/529900TDG5CX25LX8H86/ultimate-parent",
+   "https://www.gourmet-daheim.at/downloads (Nährwert-PDF: 'GMS GOURMET GmbH')"
   ],
   "gleif_match_score": 1.0,
   "fetched_at": "2026-10-13T10:57:37Z",
   "registry_status": "verified_gleif",
   "share_capital": "EUR 40 000",
   "register_status": "Eingetragen",
-  "register_entry_date": "1994-06-23"
+  "register_entry_date": "1994-06-23",
+  "lei_note": "GLEIF: 529900TDG5CX25LX8H86 ISSUED (last update 2025-10-30); the earlier stored 5299003EXF4GJXGELC41 is registration status DUPLICATE"
  },
  {
   "slug": "glatz-gmbh",
@@ -7777,5 +7783,42 @@
    "https://ec.europa.eu/taxation_customs/vies/rest-api/ms/AT/vat/U76911656",
    "https://www.adamah.at/AGB"
   ]
+ },
+ {
+  "slug": "mahlzeit-vertriebs-gmbh",
+  "name": "Mahlzeit Linz (Mahlzeit Vertriebsges.m.b.H.)",
+  "role": "retailer",
+  "legal_name": "MAHLZEIT Vertriebsgesellschaft m.b.H.",
+  "lei": null,
+  "fn": "FN 169033d",
+  "register_id": "169033d",
+  "register_authority": "RA000017",
+  "country": "AT",
+  "address": "Melissenweg 34, 4020 Linz, AT",
+  "entity_status": "Firmenbuch (legal notice: FN169033d, Landesgericht Linz); no GLEIF record",
+  "website": "https://www.mahlzeit.co.at",
+  "brands": [
+   "Mahlzeit",
+   "Online: GOURMET Daheim (Mahlzeit Linz)"
+  ],
+  "chains": [
+   "Online: GOURMET Daheim (Mahlzeit Linz)"
+  ],
+  "uid": "ATU44675909",
+  "uid_vies_name": "MAHLZEIT Vertriebsgesellschaft m.b.H.",
+  "uid_vies_address": "Melissenweg 34, AT-4020 Linz",
+  "imprint_url": "https://www.mahlzeit.co.at/impressum/",
+  "register_court": "Landesgericht Linz",
+  "management": "Markus Baumann (Geschäftsführer lt. Impressum)",
+  "registry_status": "verified_vies_imprint (VIES valid, name+address match; FN as printed on the legal notice; GLEIF fulltext 'Mahlzeit Vertrieb' no AT hit)",
+  "sources": [
+   "https://www.mahlzeit.co.at/impressum/",
+   "https://ec.europa.eu/taxation_customs/vies/rest-api/ms/AT/vat/U44675909"
+  ],
+  "product_count": 141,
+  "median_price_eur": 10.4,
+  "median_eur_per_10g_protein": 4.34,
+  "fetched_at": "2026-10-18T00:27:00Z",
+  "uid_checked_at": "2026-10-18T00:27:00Z"
  }
 ]
