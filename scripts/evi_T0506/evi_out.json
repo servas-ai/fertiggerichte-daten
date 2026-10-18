@@ -1,0 +1,162 @@
+{
+ "fairkocht-gmbh": {
+  "url": "https://www.evi.gv.at/f/531976v",
+  "fetched_at": "2026-10-18T05:09:22Z",
+  "name": "fairkocht gmbh",
+  "status": "Eingetragen",
+  "eintragungsdatum": "06.05.2020",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 35 000",
+  "geschaeftszweig": "Lebensmittelerzeugung",
+  "sitz": "Andelsbuch",
+  "sections": {
+   "Geschäftsführer/in": {
+    "count": "1 Person",
+    "items": [
+     {
+      "href": null,
+      "name": "Wolfgang Mätzler",
+      "eingetragen": null
+     }
+    ]
+   },
+   "Gesellschafter/in": {
+    "count": "1 Person",
+    "items": [
+     {
+      "href": null,
+      "name": "Wolfgang Mätzler",
+      "eingetragen": "06.05.2020"
+     }
+    ]
+   }
+  }
+ },
+ "christoephl-manufaktur-gmbh": {
+  "url": "https://www.evi.gv.at/f/414202x",
+  "fetched_at": "2026-10-18T05:09:23Z",
+  "name": "Christöphl Manufaktur GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "09.04.2014",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 25 000",
+  "geschaeftszweig": "Herstellung, Haltbarmachung und Vertrieb regionaler Spezialitäten, von Hand gemacht nach traditionellen Rezepten, Verarbeitung naturnaher, regionaler Rohstoffe",
+  "sitz": "Raaba-Grambach",
+  "sections": {
+   "Geschäftsführer/in": {
+    "count": "2 Personen",
+    "items": [
+     {
+      "href": null,
+      "name": "Mag. Christian Scherr, Bakk.",
+      "eingetragen": null
+     },
+     {
+      "href": null,
+      "name": "Mathias Schweiger",
+      "eingetragen": null
+     }
+    ]
+   },
+   "Gesellschafter/in": {
+    "count": "1 Person",
+    "items": [
+     {
+      "href": "/f/568278d",
+      "name": "MACH Genussprodukte GmbH",
+      "eingetragen": "19.03.2025"
+     }
+    ]
+   }
+  }
+ },
+ "genusss-manufaktur-bruckner-kg": {
+  "url": "https://www.evi.gv.at/f/428315a",
+  "fetched_at": "2026-10-18T05:09:24Z",
+  "name": "\"GENUSSS-MANUFAKTUR\" Bruckner KG",
+  "status": "Eingetragen",
+  "eintragungsdatum": "24.01.2015",
+  "rechtsform": "Kommanditgesellschaft",
+  "stammkapital": null,
+  "geschaeftszweig": "Erzeugung von und Handel mit Teigwaren",
+  "sitz": "Wien",
+  "sections": {
+   "Unbeschränkt haftende/r Gesellschafter/in": {
+    "count": "1 Person",
+    "items": [
+     {
+      "href": null,
+      "name": "Dagmar Brandtner",
+      "eingetragen": "16.03.2023"
+     }
+    ]
+   },
+   "Kommanditist/in": {
+    "count": "1 Person",
+    "items": [
+     {
+      "href": null,
+      "name": "Franz Bruckner",
+      "eingetragen": "25.03.2023"
+     }
+    ]
+   }
+  }
+ },
+ "roman-fenz-eu-danke-bauer": {
+  "url": "https://www.evi.gv.at/f/368109m",
+  "fetched_at": "2026-10-18T05:09:25Z",
+  "name": "Roman Fenz e.U.",
+  "status": "Eingetragen",
+  "eintragungsdatum": "15.09.2011",
+  "rechtsform": "Einzelunternehmer",
+  "stammkapital": null,
+  "geschaeftszweig": "Handel mit Waren aller Art",
+  "sitz": "Villach",
+  "sections": {
+   "Inhaber/in": {
+    "count": "1 Person",
+    "items": [
+     {
+      "href": null,
+      "name": "Roman Fenz",
+      "eingetragen": "15.09.2011"
+     }
+    ]
+   }
+  }
+ },
+ "hackls-happy-turkey-gmbh": {
+  "url": "https://www.evi.gv.at/f/550716b",
+  "fetched_at": "2026-10-18T05:09:26Z",
+  "name": "Hackls Happy Turkey GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "24.02.2021",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 35 000",
+  "geschaeftszweig": "Landwirtschaftliche Nutztierhaltung",
+  "sitz": "Gaweinstal",
+  "sections": {
+   "Geschäftsführer/in": {
+    "count": "1 Person",
+    "items": [
+     {
+      "href": null,
+      "name": "Ing. Wolfgang Hackl",
+      "eingetragen": null
+     }
+    ]
+   },
+   "Gesellschafter/in": {
+    "count": "1 Person",
+    "items": [
+     {
+      "href": null,
+      "name": "Ing. Wolfgang Hackl",
+      "eingetragen": "24.02.2021"
+     }
+    ]
+   }
+  }
+ }
+}

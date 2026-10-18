@@ -1,0 +1,45 @@
+{
+ "mach-genussprodukte-gmbh": {
+  "url": "https://www.evi.gv.at/f/568278d",
+  "fetched_at": "2026-10-18T05:09:35Z",
+  "name": "MACH Genussprodukte GmbH",
+  "status": "Eingetragen",
+  "eintragungsdatum": "09.11.2021",
+  "rechtsform": "Gesellschaft mit beschränkter Haftung",
+  "stammkapital": "EUR 10 000",
+  "geschaeftszweig": "Vertrieb von landwirtschaftlichen Produkten",
+  "sitz": "Graz",
+  "sections": {
+   "Geschäftsführer/in": {
+    "count": "2 Personen",
+    "items": [
+     {
+      "href": null,
+      "name": "Mag. Christian Scherr, Bakk.",
+      "eingetragen": null
+     },
+     {
+      "href": null,
+      "name": "Mathias Schweiger",
+      "eingetragen": null
+     }
+    ]
+   },
+   "Gesellschafter/in": {
+    "count": "2 Personen",
+    "items": [
+     {
+      "href": null,
+      "name": "Mag. Christian Scherr, Bakk.",
+      "eingetragen": "18.03.2025"
+     },
+     {
+      "href": null,
+      "name": "Mathias Schweiger",
+      "eingetragen": "18.03.2025"
+     }
+    ]
+   }
+  }
+ }
+}
