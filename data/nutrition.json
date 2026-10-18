@@ -39520,5 +39520,33 @@
   "nutri_score": null,
   "health_score": null,
   "eur_per_10g_protein": null
+ },
+ {
+  "product_id": "5c8b2f98ac98",
+  "kcal_100g": 137.3,
+  "protein_100g": 6.6,
+  "fat_100g": 5.5,
+  "saturated_fat_100g": null,
+  "carbs_100g": 13.0,
+  "sugar_100g": null,
+  "fiber_100g": null,
+  "salt_100g": null,
+  "nutri_score": null,
+  "health_score": null,
+  "eur_per_10g_protein": null
+ },
+ {
+  "product_id": "a68fd0b74009",
+  "kcal_100g": 138.0,
+  "protein_100g": 5.3,
+  "fat_100g": 3.7,
+  "saturated_fat_100g": null,
+  "carbs_100g": 20.0,
+  "sugar_100g": null,
+  "fiber_100g": null,
+  "salt_100g": null,
+  "nutri_score": null,
+  "health_score": null,
+  "eur_per_10g_protein": null
  }
 ]

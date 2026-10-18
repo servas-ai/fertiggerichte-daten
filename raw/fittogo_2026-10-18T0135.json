@@ -1,0 +1,98 @@
+{
+ "run": "Daten-Squad 2026-10-18T0135",
+ "source": "food-connectors fittogo adapter (fittogo.at sitemap + product pages)",
+ "sitemap_meals": 32,
+ "indexed_before": 30,
+ "added": [
+  {
+   "product_id": "5c8b2f98ac98",
+   "name": "Cheesy Taco Bowl",
+   "brand": "fit2go.meals (Fit2go GmbH)",
+   "chain": "Fit to Go",
+   "dish": null,
+   "storage": "Tiefkühl (TK)",
+   "pack_size_g": 440.0,
+   "producer": "Fit2go GmbH, Piccoloweg 4, 4055 Pucking (FN 615822x)",
+   "origin": "Österreich (lt. Hersteller)",
+   "bio": false,
+   "vegan": false,
+   "url": "https://fittogo.at/products/cheesy-taco-bowl",
+   "image_url": "https://cdn.shopify.com/s/files/1/0580/7777/3988/files/bild_2_shopify_675x540_ca359ca6-219d-471e-8626-233f834148b8.jpg?v=1791209439",
+   "source": "food-connectors/fittogo 2026-10-18: fittogo.at product page (hero packshot, pack nutrition, Gesamt-Einwaage)",
+   "ean": null
+  },
+  {
+   "product_id": "a68fd0b74009",
+   "name": "Topfennockerl mit Erdbeersauce",
+   "brand": "fit2go.meals (Fit2go GmbH)",
+   "chain": "Fit to Go",
+   "dish": null,
+   "storage": "Tiefkühl (TK)",
+   "pack_size_g": 300.0,
+   "producer": "Fit2go GmbH, Piccoloweg 4, 4055 Pucking (FN 615822x)",
+   "origin": "Österreich (lt. Hersteller)",
+   "bio": false,
+   "vegan": false,
+   "url": "https://fittogo.at/products/topfennockerl-mit-erdbeersauce",
+   "image_url": "https://cdn.shopify.com/s/files/1/0580/7777/3988/files/bild_1_shopify_675x540_22d8ae92-cefe-4704-84ed-3c8e6d5f6db6.jpg?v=1791209414",
+   "source": "food-connectors/fittogo 2026-10-18: fittogo.at product page (hero packshot, pack nutrition, Gesamt-Einwaage)",
+   "ean": null
+  }
+ ],
+ "prices": [
+  {
+   "product_id": "5c8b2f98ac98",
+   "chain": "Fit to Go",
+   "price_eur": 9.99,
+   "price_per_kg_eur": 22.7,
+   "price_status": "live 2026",
+   "fetched_at": "2026-10-18",
+   "price_source": "fittogo.at/collections/12er-box, abgerufen 2026-10-18: 10,49 €/Meal (6er), 9,99 € (12er), 9,49 € (18er); Einzel-SKU im Shop 0,00 €"
+  },
+  {
+   "product_id": "a68fd0b74009",
+   "chain": "Fit to Go",
+   "price_eur": 9.99,
+   "price_per_kg_eur": 33.3,
+   "price_status": "live 2026",
+   "fetched_at": "2026-10-18",
+   "price_source": "fittogo.at/collections/12er-box, abgerufen 2026-10-18: 10,49 €/Meal (6er), 9,99 € (12er), 9,49 € (18er); Einzel-SKU im Shop 0,00 €"
+  }
+ ],
+ "nutrition": [
+  {
+   "product_id": "5c8b2f98ac98",
+   "kcal_100g": 137.3,
+   "protein_100g": 6.6,
+   "fat_100g": 5.5,
+   "saturated_fat_100g": null,
+   "carbs_100g": 13.0,
+   "sugar_100g": null,
+   "fiber_100g": null,
+   "salt_100g": null,
+   "nutri_score": null,
+   "health_score": null,
+   "eur_per_10g_protein": null
+  },
+  {
+   "product_id": "a68fd0b74009",
+   "kcal_100g": 138.0,
+   "protein_100g": 5.3,
+   "fat_100g": 3.7,
+   "saturated_fat_100g": null,
+   "carbs_100g": 20.0,
+   "sugar_100g": null,
+   "fiber_100g": null,
+   "salt_100g": null,
+   "nutri_score": null,
+   "health_score": null,
+   "eur_per_10g_protein": null
+  }
+ ],
+ "vision_gate": {
+  "cheesy-taco-bowl": "PASS rice + kidney beans/corn/peppers + cheese sauce bowl",
+  "topfennockerl-mit-erdbeersauce": "PASS Topfennockerl on strawberry sauce with crumbs"
+ },
+ "adapter_fix": "hero <img> in the --photo frame preferred; old png fallback returned the cross-sell grid photo (30.png = Thai Red Curry) for both new pages; all 30 existing rows re-checked live: image unchanged",
+ "dead_end": "shopbio.at Fertiggerichte (epages, robots OK): 6 Bio-Gläser je 6er-Karton 59,90 € (19,97 €/kg) — all 'Nicht auf Lager' on 2026-10-18, no nutrition, no producer named → not added"
+}

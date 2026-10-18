@@ -5563,5 +5563,39 @@
   "image_url": "https://www.nahundfrisch.at/media/cache/resize_w500/Angebote_der_Woche/KW4344/ONLINE_KW4344_26_355x455px26.png",
   "source": "food-connectors/nah-frisch 2026-10-17: Nah&Frisch 'Angebote der Woche' KW43 (gültig 2026-10-21–2026-10-27), Kachel ONLINE_KW4344_26_355x455px26 'Knorr Bitte zu Tisch Suppen', versch. Sorten; Angebot nur als Mehrkaufpreis 'Günstiger! Ab 3 Beutel je 1,09 €' (Einzelpreis nicht angegeben → kein Preis); nur in teilnehmenden Märkten; EAN/Packung/Nährwerte vom identischen Produkt Gurkerl 'Knorr Bitte zu Tisch Grießnockerlsuppe' (https://www.gurkerl.at/9384-knorr-bitte-zu-tisch-griessnockerlsuppe)",
   "ean": "8711200430000"
+ },
+ {
+  "product_id": "5c8b2f98ac98",
+  "name": "Cheesy Taco Bowl",
+  "brand": "fit2go.meals (Fit2go GmbH)",
+  "chain": "Fit to Go",
+  "dish": null,
+  "storage": "Tiefkühl (TK)",
+  "pack_size_g": 440.0,
+  "producer": "Fit2go GmbH, Piccoloweg 4, 4055 Pucking (FN 615822x)",
+  "origin": "Österreich (lt. Hersteller)",
+  "bio": false,
+  "vegan": false,
+  "url": "https://fittogo.at/products/cheesy-taco-bowl",
+  "image_url": "https://cdn.shopify.com/s/files/1/0580/7777/3988/files/bild_2_shopify_675x540_ca359ca6-219d-471e-8626-233f834148b8.jpg?v=1791209439",
+  "source": "food-connectors/fittogo 2026-10-18: fittogo.at product page (hero packshot, pack nutrition, Gesamt-Einwaage)",
+  "ean": null
+ },
+ {
+  "product_id": "a68fd0b74009",
+  "name": "Topfennockerl mit Erdbeersauce",
+  "brand": "fit2go.meals (Fit2go GmbH)",
+  "chain": "Fit to Go",
+  "dish": null,
+  "storage": "Tiefkühl (TK)",
+  "pack_size_g": 300.0,
+  "producer": "Fit2go GmbH, Piccoloweg 4, 4055 Pucking (FN 615822x)",
+  "origin": "Österreich (lt. Hersteller)",
+  "bio": false,
+  "vegan": false,
+  "url": "https://fittogo.at/products/topfennockerl-mit-erdbeersauce",
+  "image_url": "https://cdn.shopify.com/s/files/1/0580/7777/3988/files/bild_1_shopify_675x540_22d8ae92-cefe-4704-84ed-3c8e6d5f6db6.jpg?v=1791209414",
+  "source": "food-connectors/fittogo 2026-10-18: fittogo.at product page (hero packshot, pack nutrition, Gesamt-Einwaage)",
+  "ean": null
  }
 ]

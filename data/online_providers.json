@@ -218,7 +218,7 @@
    "packaging": "plastikfreie Bio-Pap-Schalen",
    "price_from": "9,49 €/Meal (18er) – 10,49 € (6er), bis 65 g Protein",
    "products_in_app": true,
-   "products_note": "30 Fertiggerichte live via food-connectors `fittogo` (public sitemap + product HTML; /products.json 404 on Hydrogen). price_eur = 12er-Box 9,99 €/Meal; Einzel-SKU 0,00 €. Evidence fertiggerichte-daten/raw/fittogo_2026-10-14T0307.json",
+   "products_note": "32 Fertiggerichte live (T0135 +2: Cheesy Taco Bowl, Topfennockerl mit Erdbeersauce; raw/fittogo_2026-10-18T0135.json) via food-connectors `fittogo` (public sitemap + product HTML; /products.json 404 on Hydrogen). price_eur = 12er-Box 9,99 €/Meal; Einzel-SKU 0,00 €. Evidence fertiggerichte-daten/raw/fittogo_2026-10-14T0307.json",
    "store": "Online: Fit to Go",
    "sources": [
     "https://fittogo.at/",
@@ -340,5 +340,5 @@
    }
   }
  ],
- "not_found_de": "VERIFIED dead ends 2026-10-14T0307: Foodist (foodist.de 301 → morenutrition.de/collections/foodist, snack/Abo-Boxen no ready meals); Kochzauber (kochzauber.de / www DNS fail / NXDOMAIN); Mealprep.at (mealprep.at + www → parked /lander); eismann.at 301 → eismann.de (DE only, not AT); Gourmetfein = Fleisch-/Grillwurst only (75 Shopify products, 0 ready meals). Marianne's Mealprep Aspach = 5 km radius only (not Linz). Marley Spoon Ready-to-heat = login wall for prices/nutrition. Frischepost/Alnatura unchecked. T0441: Foodpunk = PDF meal plans only (no ready meals). Kernbeißer now live (T0504, 6 meals)."
+ "not_found_de": "VERIFIED dead ends 2026-10-14T0307: Foodist (foodist.de 301 → morenutrition.de/collections/foodist, snack/Abo-Boxen no ready meals); Kochzauber (kochzauber.de / www DNS fail / NXDOMAIN); Mealprep.at (mealprep.at + www → parked /lander); eismann.at 301 → eismann.de (DE only, not AT); Gourmetfein = Fleisch-/Grillwurst only (75 Shopify products, 0 ready meals). Marianne's Mealprep Aspach = 5 km radius only (not Linz). Marley Spoon Ready-to-heat = login wall for prices/nutrition. Frischepost/Alnatura unchecked. T0441: Foodpunk = PDF meal plans only (no ready meals). Kernbeißer now live (T0504, 6 meals). T0135: shopbio.at Fertiggerichte = 6 Bio-Gläser im 6er-Karton 59,90 € (19,97 €/kg), all 'Nicht auf Lager' 2026-10-18, no nutrition/producer → not added."
 }

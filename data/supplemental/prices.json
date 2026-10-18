@@ -2905,5 +2905,23 @@
   "price_status": "live 2026",
   "fetched_at": "2026-10-17",
   "price_source": "food-connectors hofer-shop 2026-10-17 (hofer.at Produktseite __NUXT_DATA__, sitemap_products.xml): Regalpreis 2.49 €; € 3,00/100 g; Verfügbar seit 16.10.2026"
+ },
+ {
+  "product_id": "5c8b2f98ac98",
+  "chain": "Fit to Go",
+  "price_eur": 9.99,
+  "price_per_kg_eur": 22.7,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-18",
+  "price_source": "fittogo.at/collections/12er-box, abgerufen 2026-10-18: 10,49 €/Meal (6er), 9,99 € (12er), 9,49 € (18er); Einzel-SKU im Shop 0,00 €"
+ },
+ {
+  "product_id": "a68fd0b74009",
+  "chain": "Fit to Go",
+  "price_eur": 9.99,
+  "price_per_kg_eur": 33.3,
+  "price_status": "live 2026",
+  "fetched_at": "2026-10-18",
+  "price_source": "fittogo.at/collections/12er-box, abgerufen 2026-10-18: 10,49 €/Meal (6er), 9,99 € (12er), 9,49 € (18er); Einzel-SKU im Shop 0,00 €"
  }
 ]
