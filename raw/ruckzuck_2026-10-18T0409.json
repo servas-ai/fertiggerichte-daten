@@ -1,0 +1,531 @@
+{
+ "source": "ruckzuck-laden.at WP store sitemap + public Ecwid storefront JSON (food-connectors ruckzuck adapter)",
+ "fetched": "2026-10-18T0409",
+ "robots": "www.ruckzuck-laden.at: User-agent * Disallow /wp-admin/ only; eu-fra4-storefront-api.ecwid.com: no robots.txt (404 → allow)",
+ "operator": {
+  "name": "Schimpl OG",
+  "seat": "Guttenbrunn 18, 4242 Hirschbach im Mühlkreis (AT, OÖ; ~25 km nördlich von Linz)",
+  "register": "FN 306047w (Landesgericht Linz) — evi.gv.at: Eingetragen, Offene Gesellschaft, Eintragungsdatum 08.03.2008, Geschäftszweig 'Betrieb eines Gasthauses'",
+  "vat": "ATU64017307 (VIES valid 2026-10-18, name 'Schimpl OG' + address 'Guttenbrunn 18, AT-4242 Hirschbach/Mühlkreis')",
+  "lei": null,
+  "partners": "2 unbeschränkt haftende Gesellschafter lt. evi.gv.at (Gerald Schimpl, Carolin Schimpl, eingetragen 31.10.2014)",
+  "trade_names": "Ruck Zuck Laden, Dunzinger's Ruck Zuck Glasl; Kontakt-E-Mail @kraeuterwirt.at",
+  "source": "https://www.ruckzuck-laden.at/impressum/"
+ },
+ "shipping_at": {
+  "source": "https://www.ruckzuck-laden.at/ (Startseite 'Direkt zu DIR nach Hause')",
+  "quote": "Wir liefern unsere Gläser direkt zu dir nach Hause Österreich ab 100 Euro in Deutschland ab 150 Euro ohne Versandkosten ansonsten 15 Euro",
+  "fee_eur": 15.0,
+  "free_from_eur_at": 100.0,
+  "area": "Österreich und Deutschland",
+  "delivers_linz": true,
+  "delivers_linz_basis": "Lieferung nach ganz Österreich lt. Startseite"
+ },
+ "vision_gate": {
+  "rule": "jar packshot of that article shows the Dunzinger's Ruck Zuck jar whose printed label names the dish",
+  "pass": "7/7 (Gemüse-Linsen-Eintopf, Rindsgulasch, Erdäpfel-Gulasch, Curry mit Huhn, Chili con carne, würziges Curry, 'Ragout Mühlviertler Rindvieh' = Rinder-Ragout)",
+  "rejected_as_product_photo": "main serving images (6/7 photorealistic illustrations without pack; Gulasch vom Rind main = real plated photo but no pack) → kept as serving_image_url only"
+ },
+ "sitemap_products": 17,
+ "kept": 7,
+ "with_nutrition": 0,
+ "with_gtin": 0,
+ "excluded": [
+  {
+   "id": "731601505",
+   "name": "Apfel-Rotkraut",
+   "price_eur": 6.6,
+   "reason": "kein Fertiggericht (Suppe ohne Einlage/Soße/Beilage/Kekse/Baby-Box)"
+  },
+  {
+   "id": "731601508",
+   "name": "Gulaschsaft",
+   "price_eur": 6.4,
+   "reason": "kein Fertiggericht (Suppe ohne Einlage/Soße/Beilage/Kekse/Baby-Box)"
+  },
+  {
+   "id": "654306506",
+   "name": "Sugo Bolognese Rind und Schwein",
+   "price_eur": 8.4,
+   "reason": "kein Fertiggericht (Suppe ohne Einlage/Soße/Beilage/Kekse/Baby-Box)"
+  },
+  {
+   "id": "730954842",
+   "name": "Pastasoße VEGAN",
+   "price_eur": 8.4,
+   "reason": "kein Fertiggericht (Suppe ohne Einlage/Soße/Beilage/Kekse/Baby-Box)"
+  },
+  {
+   "id": "650938161",
+   "name": "kräftige Hühnersuppe",
+   "price_eur": 10.3,
+   "reason": "kein Fertiggericht (Suppe ohne Einlage/Soße/Beilage/Kekse/Baby-Box)"
+  },
+  {
+   "id": "650938070",
+   "name": "kräftige Rindsuppe",
+   "price_eur": 10.3,
+   "reason": "kein Fertiggericht (Suppe ohne Einlage/Soße/Beilage/Kekse/Baby-Box)"
+  },
+  {
+   "id": "847320655",
+   "name": "Hallo Baby Box",
+   "price_eur": 129.8,
+   "reason": "kein Fertiggericht (Suppe ohne Einlage/Soße/Beilage/Kekse/Baby-Box)"
+  },
+  {
+   "id": "731598774",
+   "name": "Kekse mit Sinn - Flotter Hase Bio",
+   "price_eur": 4.6,
+   "reason": "kein Fertiggericht (Suppe ohne Einlage/Soße/Beilage/Kekse/Baby-Box)"
+  },
+  {
+   "id": "731598772",
+   "name": "Kekse mit Sinn - Schöne Stunden Bio",
+   "price_eur": 4.6,
+   "reason": "kein Fertiggericht (Suppe ohne Einlage/Soße/Beilage/Kekse/Baby-Box)"
+  },
+  {
+   "id": "731598768",
+   "name": "Kekse mit Sinn - Gute Laune Bio",
+   "price_eur": 4.6,
+   "reason": "kein Fertiggericht (Suppe ohne Einlage/Soße/Beilage/Kekse/Baby-Box)"
+  }
+ ],
+ "products": [
+  {
+   "source": "ruckzuck",
+   "store": "Online: Ruck Zuck Laden (Dunzinger's)",
+   "name": "Curry mit Huhn",
+   "brand": "Dunzinger's Ruck Zuck",
+   "price_eur": 9.7,
+   "unit_price_eur": null,
+   "unit": "Stk",
+   "size_g": null,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://d2j6dbq0eux0bg.cloudfront.net/images/102929329/products/730940883/5743514756.jpg",
+   "producer": "Schimpl OG",
+   "producer_id": null,
+   "origin": "AT (Hirschbach im Mühlkreis, OÖ)",
+   "category": "Fertiggerichte im Glas",
+   "source_url": "https://www.ruckzuck-laden.at/shop/Curry-mit-Huhn-p730940883",
+   "source_id": "730940883",
+   "fetched_at": "2026-10-18T04:18:00+00:00",
+   "extra": {
+    "ingredients": "Wasser, Kokosmilch, Tomaten, Karotten, Zwiebel, Kartoffel, Kichererbsen, Rapsöl, SELLERIE, Ingwer, Chili, Knoblauch, Currypulver, Salz, Kurkuma, Koriander, Kreuzkümmel, GaramMasala, Paprikapulver, Curryblatt",
+    "allergens_marked": [
+     "SELLERIE"
+    ],
+    "volume_ml": null,
+    "description": "mit Huhn aus Österreich \n\n\n Zutaten Soße: Wasser, Kokosmilch, Tomaten, Karotten, Zwiebel, Kartoffel, Kichererbsen, Rapsöl, SELLERIE, Ingwer, Chili, Knoblauch, Currypulver, Salz, Kurkuma, Koriander, Kreuzkümmel, GaramMasala, Paprikapulver, Curryblatt",
+    "categories": [
+     "alles Fleisch",
+     "Glutenfrei",
+     "Laktosefrei",
+     "Alle Gerichte"
+    ],
+    "ribbon": "glutenfrei",
+    "vegan": null,
+    "sold_out": false,
+    "vat_percent": 10.0,
+    "lowest_30d": "Niedrigster Preis in 30 Tagen: 8.70€",
+    "serving_image_url": "https://d2j6dbq0eux0bg.cloudfront.net/images/102929329/products/730940883/6016505362.jpg",
+    "image_kind": "jar packshot (printed dish label)",
+    "storage": "ungekühlt haltbar (im Glas eingekocht, lt. Shop)",
+    "nutrition_note": "ruckzuck-laden.at veröffentlicht keine Nährwerte/GTIN — nicht geschätzt",
+    "price_basis": "Preis je Glas inkl. MwSt. lt. Ecwid-Storefront; Versand AT 15 € bzw. frei ab 100 €",
+    "shipping": {
+     "area": "Österreich und Deutschland",
+     "free_from_eur_at": 100.0,
+     "free_from_eur_de": 150.0,
+     "fee_eur": 15.0,
+     "source": "https://www.ruckzuck-laden.at/ (Startseite 'Direkt zu DIR nach Hause')"
+    },
+    "image_get": 200,
+    "vision_gate": "PASS (jar packshot, label matches)"
+   }
+  },
+  {
+   "source": "ruckzuck",
+   "store": "Online: Ruck Zuck Laden (Dunzinger's)",
+   "name": "Rinder-Ragout",
+   "brand": "Dunzinger's Ruck Zuck",
+   "price_eur": 9.7,
+   "unit_price_eur": null,
+   "unit": "Stk",
+   "size_g": null,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://d2j6dbq0eux0bg.cloudfront.net/images/102929329/products/730954847/5742487035.jpg",
+   "producer": "Schimpl OG",
+   "producer_id": null,
+   "origin": "AT (Hirschbach im Mühlkreis, OÖ)",
+   "category": "Fertiggerichte im Glas",
+   "source_url": "https://www.ruckzuck-laden.at/shop/Rinder-Ragout-p730954847",
+   "source_id": "730954847",
+   "fetched_at": "2026-10-18T04:18:03+00:00",
+   "extra": {
+    "ingredients": "Rindfleisch (140 g), Rinderfonds (Wasser, Knochen, Zwiebel, Karotte, Tomate, SELLERIE, Porree, Petersilwurzel, WEINBRAND, Knoblauch, Sternanis, Salz, Pfeffer, Thymian, Salbei, Lorbeerblatt), SCHLAGOBERS, Karotte, SELLERIE, Lauch, SCHWEINESPECK (Schweinefleisch, Speisesalz, Gewürze, Dextrose, Antioxidationsmittel:E301, Konservierungsstoffe: E250, E252.), Zwiebel, Paprikapulver, Salz, Pfeffer, Majoran",
+    "allergens_marked": [
+     "SCHLAGOBERS",
+     "SCHWEINESPECK",
+     "SELLERIE",
+     "WEINBRAND"
+    ],
+    "volume_ml": null,
+    "description": "Rindfleisch aus Österreich \n\n \n Zutaten: Rindfleisch (140 g), Rinderfonds (Wasser, Knochen, Zwiebel, Karotte, Tomate, SELLERIE, Porree, Petersilwurzel, WEINBRAND, Knoblauch, Sternanis, Salz, Pfeffer, Thymian, Salbei, Lorbeerblatt), SCHLAGOBERS, Karotte, SELLERIE, Lauch, SCHWEINESPECK (Schweinefleisch, Speisesalz, Gewürze, Dextrose, Antioxidationsmittel:E301, Konservierungsstoffe: E250, E252.), Zwiebel, Paprikapulver, Salz, Pfeffer, Majoran",
+    "categories": [
+     "alles Fleisch",
+     "Glutenfrei",
+     "Alle Gerichte"
+    ],
+    "ribbon": "glutenfrei",
+    "vegan": null,
+    "sold_out": false,
+    "vat_percent": 10.0,
+    "lowest_30d": "Niedrigster Preis in 30 Tagen: 8.70€",
+    "serving_image_url": "https://d2j6dbq0eux0bg.cloudfront.net/images/102929329/products/730954847/6016379088.jpg",
+    "image_kind": "jar packshot (printed dish label)",
+    "storage": "ungekühlt haltbar (im Glas eingekocht, lt. Shop)",
+    "nutrition_note": "ruckzuck-laden.at veröffentlicht keine Nährwerte/GTIN — nicht geschätzt",
+    "price_basis": "Preis je Glas inkl. MwSt. lt. Ecwid-Storefront; Versand AT 15 € bzw. frei ab 100 €",
+    "shipping": {
+     "area": "Österreich und Deutschland",
+     "free_from_eur_at": 100.0,
+     "free_from_eur_de": 150.0,
+     "fee_eur": 15.0,
+     "source": "https://www.ruckzuck-laden.at/ (Startseite 'Direkt zu DIR nach Hause')"
+    },
+    "image_get": 200,
+    "vision_gate": "PASS (jar packshot, label matches)"
+   }
+  },
+  {
+   "source": "ruckzuck",
+   "store": "Online: Ruck Zuck Laden (Dunzinger's)",
+   "name": "Gulasch vom Rind",
+   "brand": "Dunzinger's Ruck Zuck",
+   "price_eur": 8.9,
+   "unit_price_eur": null,
+   "unit": "Stk",
+   "size_g": null,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://d2j6dbq0eux0bg.cloudfront.net/images/102929329/products/654304502/5742476878.jpg",
+   "producer": "Schimpl OG",
+   "producer_id": null,
+   "origin": "AT (Hirschbach im Mühlkreis, OÖ)",
+   "category": "Fertiggerichte im Glas",
+   "source_url": "https://www.ruckzuck-laden.at/shop/Gulasch-vom-Rind-p654304502",
+   "source_id": "654304502",
+   "fetched_at": "2026-10-18T04:18:05+00:00",
+   "extra": {
+    "ingredients": "Rindfleisch 140 g (Brustkern), Rindsuppe (Wasser, Rindknochen, Rindfleisch, Karotten, SELLERIE, Lauch, Petersilwurzel, Salz, Pfeffer, SENFKÖRNER, Sternanis, Korianer), Schweineschmalz, Zwiebel, Knoblauch, Paprika, Majoran, Salz, Pfeffer, Kümmel, WEISSWEIN, WEISSWEINESSIG",
+    "allergens_marked": [
+     "SELLERIE",
+     "SENFKÖRNER",
+     "WEISSWEIN",
+     "WEISSWEINESSIG"
+    ],
+    "volume_ml": null,
+    "description": "Ein Gulasch wie von der Oma. Rindfleisch ausschließlich aus Österreich!\n\n Zutaten: Rindfleisch 140 g (Brustkern), Rindsuppe (Wasser, Rindknochen, Rindfleisch, Karotten, SELLERIE, Lauch, Petersilwurzel, Salz, Pfeffer, SENFKÖRNER, Sternanis, Korianer), Schweineschmalz, Zwiebel, Knoblauch, Paprika, Majoran, Salz, Pfeffer, Kümmel, WEISSWEIN, WEISSWEINESSIG",
+    "categories": [
+     "alles Fleisch",
+     "Glutenfrei",
+     "Laktosefrei",
+     "Alle Gerichte"
+    ],
+    "ribbon": "glutenfrei",
+    "vegan": null,
+    "sold_out": false,
+    "vat_percent": 10.0,
+    "lowest_30d": "Niedrigster Preis in 30 Tagen: 8.70€",
+    "serving_image_url": "https://d2j6dbq0eux0bg.cloudfront.net/images/102929329/products/654304502/4307035831.jpg",
+    "image_kind": "jar packshot (printed dish label)",
+    "storage": "ungekühlt haltbar (im Glas eingekocht, lt. Shop)",
+    "nutrition_note": "ruckzuck-laden.at veröffentlicht keine Nährwerte/GTIN — nicht geschätzt",
+    "price_basis": "Preis je Glas inkl. MwSt. lt. Ecwid-Storefront; Versand AT 15 € bzw. frei ab 100 €",
+    "shipping": {
+     "area": "Österreich und Deutschland",
+     "free_from_eur_at": 100.0,
+     "free_from_eur_de": 150.0,
+     "fee_eur": 15.0,
+     "source": "https://www.ruckzuck-laden.at/ (Startseite 'Direkt zu DIR nach Hause')"
+    },
+    "image_get": 200,
+    "vision_gate": "PASS (jar packshot, label matches)"
+   }
+  },
+  {
+   "source": "ruckzuck",
+   "store": "Online: Ruck Zuck Laden (Dunzinger's)",
+   "name": "Gemüse-Linsen-Eintopf",
+   "brand": "Dunzinger's Ruck Zuck",
+   "price_eur": 8.4,
+   "unit_price_eur": null,
+   "unit": "Stk",
+   "size_g": null,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://d2j6dbq0eux0bg.cloudfront.net/images/102929329/products/654285967/5742340567.jpg",
+   "producer": "Schimpl OG",
+   "producer_id": null,
+   "origin": "AT (Hirschbach im Mühlkreis, OÖ)",
+   "category": "Fertiggerichte im Glas",
+   "source_url": "https://www.ruckzuck-laden.at/shop/Gemuse-Linsen-Eintopf-p654285967",
+   "source_id": "654285967",
+   "fetched_at": "2026-10-18T04:18:07+00:00",
+   "extra": {
+    "ingredients": "Tomaten, Wasser, Karotten, SELLERIE, Zwiebel, Erdäpfel, Kichererbsen, Bohnen, LINSEN, Lauch, Knoblauch, Paprika, WEISSWEIN, Zucker, Salz, Pfeffer, Olivenöl, WEISSWEINESSIG, Liebstöckl, Basilikum, Chili, Petersilie, Bohnenkraut, Lorbeerblatt",
+    "allergens_marked": [
+     "LINSEN",
+     "SELLERIE",
+     "WEISSWEIN",
+     "WEISSWEINESSIG"
+    ],
+    "volume_ml": null,
+    "description": "Unser veganer Eintopf mit fein abgeschmeckter Tomatensoße, Kichererbsen, Bohnen uns Linsen. Natürlich auch extra viel Gemüse.\n \n\n \n\n Zutaten: Tomaten, Wasser, Karotten, SELLERIE, Zwiebel, Erdäpfel, Kichererbsen, Bohnen, LINSEN, Lauch, Knoblauch, Paprika, WEISSWEIN, Zucker, Salz, Pfeffer, Olivenöl, WEISSWEINESSIG, Liebstöckl, Basilikum, Chili, Petersilie, Bohnenkraut, Lorbeerblatt",
+    "categories": [
+     "",
+     "Vegan oder Vegetarisch",
+     "Glutenfrei",
+     "Laktosefrei",
+     "Alle Gerichte"
+    ],
+    "ribbon": "vegan",
+    "vegan": true,
+    "sold_out": false,
+    "vat_percent": 10.0,
+    "lowest_30d": "Niedrigster Preis in 30 Tagen: 8.10€",
+    "serving_image_url": "https://d2j6dbq0eux0bg.cloudfront.net/images/102929329/products/654285967/6016161927.jpg",
+    "image_kind": "jar packshot (printed dish label)",
+    "storage": "ungekühlt haltbar (im Glas eingekocht, lt. Shop)",
+    "nutrition_note": "ruckzuck-laden.at veröffentlicht keine Nährwerte/GTIN — nicht geschätzt",
+    "price_basis": "Preis je Glas inkl. MwSt. lt. Ecwid-Storefront; Versand AT 15 € bzw. frei ab 100 €",
+    "shipping": {
+     "area": "Österreich und Deutschland",
+     "free_from_eur_at": 100.0,
+     "free_from_eur_de": 150.0,
+     "fee_eur": 15.0,
+     "source": "https://www.ruckzuck-laden.at/ (Startseite 'Direkt zu DIR nach Hause')"
+    },
+    "image_get": 200,
+    "vision_gate": "PASS (jar packshot, label matches)"
+   }
+  },
+  {
+   "source": "ruckzuck",
+   "store": "Online: Ruck Zuck Laden (Dunzinger's)",
+   "name": "Chili con Carne",
+   "brand": "Dunzinger's Ruck Zuck",
+   "price_eur": 8.4,
+   "unit_price_eur": null,
+   "unit": "Stk",
+   "size_g": null,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://d2j6dbq0eux0bg.cloudfront.net/images/102929329/products/730952118/5743504494.jpg",
+   "producer": "Schimpl OG",
+   "producer_id": null,
+   "origin": "AT (Hirschbach im Mühlkreis, OÖ)",
+   "category": "Fertiggerichte im Glas",
+   "source_url": "https://www.ruckzuck-laden.at/shop/Chili-con-Carne-p730952118",
+   "source_id": "730952118",
+   "fetched_at": "2026-10-18T04:18:08+00:00",
+   "extra": {
+    "ingredients": "Rind- und Schweinefleisch, Tomaten, Zwiebel, Bohnen, Mais, Erdäpfelwürfel, Knoblauch, Paprika, SELLERIE, Karotten, Lauch, Petersilienwurzel, Olivenöl, Chilipulver, Salz, Pfeffer",
+    "allergens_marked": [
+     "SELLERIE"
+    ],
+    "volume_ml": null,
+    "description": "leichte Schärfe!\n\n Zutaten: Rind- und Schweinefleisch, Tomaten, Zwiebel, Bohnen, Mais, Erdäpfelwürfel, Knoblauch, Paprika, SELLERIE, Karotten, Lauch, Petersilienwurzel, Olivenöl, Chilipulver, Salz, Pfeffer",
+    "categories": [
+     "alles Fleisch",
+     "Glutenfrei",
+     "Laktosefrei",
+     "Alle Gerichte"
+    ],
+    "ribbon": "glutenfrei",
+    "vegan": null,
+    "sold_out": false,
+    "vat_percent": 10.0,
+    "lowest_30d": "Niedrigster Preis in 30 Tagen: 8.10€",
+    "serving_image_url": "https://d2j6dbq0eux0bg.cloudfront.net/images/102929329/products/730952118/6016505334.jpg",
+    "image_kind": "jar packshot (printed dish label)",
+    "storage": "ungekühlt haltbar (im Glas eingekocht, lt. Shop)",
+    "nutrition_note": "ruckzuck-laden.at veröffentlicht keine Nährwerte/GTIN — nicht geschätzt",
+    "price_basis": "Preis je Glas inkl. MwSt. lt. Ecwid-Storefront; Versand AT 15 € bzw. frei ab 100 €",
+    "shipping": {
+     "area": "Österreich und Deutschland",
+     "free_from_eur_at": 100.0,
+     "free_from_eur_de": 150.0,
+     "fee_eur": 15.0,
+     "source": "https://www.ruckzuck-laden.at/ (Startseite 'Direkt zu DIR nach Hause')"
+    },
+    "image_get": 200,
+    "vision_gate": "PASS (jar packshot, label matches)"
+   }
+  },
+  {
+   "source": "ruckzuck",
+   "store": "Online: Ruck Zuck Laden (Dunzinger's)",
+   "name": "würziges Curry",
+   "brand": "Dunzinger's Ruck Zuck",
+   "price_eur": 8.4,
+   "unit_price_eur": null,
+   "unit": "Stk",
+   "size_g": null,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://d2j6dbq0eux0bg.cloudfront.net/images/102929329/products/730954845/5742354022.jpg",
+   "producer": "Schimpl OG",
+   "producer_id": null,
+   "origin": "AT (Hirschbach im Mühlkreis, OÖ)",
+   "category": "Fertiggerichte im Glas",
+   "source_url": "https://www.ruckzuck-laden.at/shop/wurziges-Curry-p730954845",
+   "source_id": "730954845",
+   "fetched_at": "2026-10-18T04:18:10+00:00",
+   "extra": {
+    "ingredients": "Wasser, Kokosmilch, Tomaten, Karotten, Zwiebel, Kartoffel, Karotten, Kichererbsen, Rapsöl, SELLERIE, Ingwer, Chili, Knoblauch, Currypulver, Salz, Kurkuma, Koriander, Kreuzkümmel, Garam Masala, Paprikapulver, Curryblatt, Sesamöl",
+    "allergens_marked": [
+     "SELLERIE"
+    ],
+    "volume_ml": null,
+    "description": "Ruck Zuck fertig am Teller oder als Basis für weitere Gerichte! \n\n Zutaten: Wasser, Kokosmilch, Tomaten, Karotten, Zwiebel, Kartoffel, Karotten, Kichererbsen, Rapsöl, SELLERIE, Ingwer, Chili, Knoblauch, Currypulver, Salz, Kurkuma, Koriander, Kreuzkümmel, Garam Masala, Paprikapulver, Curryblatt, Sesamöl",
+    "categories": [
+     "",
+     "Vegan oder Vegetarisch",
+     "Glutenfrei",
+     "Laktosefrei",
+     "Alle Gerichte"
+    ],
+    "ribbon": "vegan",
+    "vegan": true,
+    "sold_out": false,
+    "vat_percent": 10.0,
+    "lowest_30d": "Niedrigster Preis in 30 Tagen: 8.10€",
+    "serving_image_url": "https://d2j6dbq0eux0bg.cloudfront.net/images/102929329/products/730954845/6016379072.jpg",
+    "image_kind": "jar packshot (printed dish label)",
+    "storage": "ungekühlt haltbar (im Glas eingekocht, lt. Shop)",
+    "nutrition_note": "ruckzuck-laden.at veröffentlicht keine Nährwerte/GTIN — nicht geschätzt",
+    "price_basis": "Preis je Glas inkl. MwSt. lt. Ecwid-Storefront; Versand AT 15 € bzw. frei ab 100 €",
+    "shipping": {
+     "area": "Österreich und Deutschland",
+     "free_from_eur_at": 100.0,
+     "free_from_eur_de": 150.0,
+     "fee_eur": 15.0,
+     "source": "https://www.ruckzuck-laden.at/ (Startseite 'Direkt zu DIR nach Hause')"
+    },
+    "image_get": 200,
+    "vision_gate": "PASS (jar packshot, label matches)"
+   }
+  },
+  {
+   "source": "ruckzuck",
+   "store": "Online: Ruck Zuck Laden (Dunzinger's)",
+   "name": "Erdäpfelgulasch (Kartoffelgulasch) VEGAN",
+   "brand": "Dunzinger's Ruck Zuck",
+   "price_eur": 7.4,
+   "unit_price_eur": null,
+   "unit": "Stk",
+   "size_g": null,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://d2j6dbq0eux0bg.cloudfront.net/images/102929329/products/730894447/5873086097.jpg",
+   "producer": "Schimpl OG",
+   "producer_id": null,
+   "origin": "AT (Hirschbach im Mühlkreis, OÖ)",
+   "category": "Fertiggerichte im Glas",
+   "source_url": "https://www.ruckzuck-laden.at/shop/Erdapfelgulasch-Kartoffelgulasch-VEGAN-p730894447",
+   "source_id": "730894447",
+   "fetched_at": "2026-10-18T04:18:15+00:00",
+   "extra": {
+    "ingredients": "Soße: Wasser, Zwiebel, Karotten, Lauch, Petersilwurzel, SELLERIE, Rapsöl, Tomaten, Knofi, Paprika, Majoran, Salz, Pfeffer, Chili, Kümmel, WEISSWEIN, WEISSWEINESSIG, Wachholderbeere, SENFKÖRNER, Sojasoße, Korianderkörner, Lorbeerblätter Einlage: Erdäpfel, Karotte, Kümmel",
+    "allergens_marked": [
+     "SELLERIE",
+     "SENFKÖRNER",
+     "WEISSWEIN",
+     "WEISSWEINESSIG"
+    ],
+    "volume_ml": 315.0,
+    "description": "Erdäpfelgulasch - würzig und gschmackig \n\n \n Zutaten:\n \n\n Soße: Wasser, Zwiebel, Karotten, Lauch, Petersilwurzel, SELLERIE, Rapsöl, Tomaten, Knofi, Paprika, Majoran, Salz, Pfeffer, Chili, Kümmel, WEISSWEIN, WEISSWEINESSIG, Wachholderbeere, SENFKÖRNER, Sojasoße, Korianderkörner, Lorbeerblätter\n \n\n Einlage: Erdäpfel, Karotte, Kümmel",
+    "categories": [
+     "",
+     "Vegan oder Vegetarisch",
+     "Glutenfrei",
+     "Laktosefrei",
+     "Alle Gerichte"
+    ],
+    "ribbon": "vegan",
+    "vegan": true,
+    "sold_out": false,
+    "vat_percent": 10.0,
+    "lowest_30d": "Niedrigster Preis in 30 Tagen: 5.90€",
+    "serving_image_url": "https://d2j6dbq0eux0bg.cloudfront.net/images/102929329/products/730894447/6016358514.jpg",
+    "image_kind": "jar packshot (printed dish label)",
+    "storage": "ungekühlt haltbar (im Glas eingekocht, lt. Shop)",
+    "nutrition_note": "ruckzuck-laden.at veröffentlicht keine Nährwerte/GTIN — nicht geschätzt",
+    "price_basis": "Preis je Glas inkl. MwSt. lt. Ecwid-Storefront; Versand AT 15 € bzw. frei ab 100 €",
+    "shipping": {
+     "area": "Österreich und Deutschland",
+     "free_from_eur_at": 100.0,
+     "free_from_eur_de": 150.0,
+     "fee_eur": 15.0,
+     "source": "https://www.ruckzuck-laden.at/ (Startseite 'Direkt zu DIR nach Hause')"
+    },
+    "image_get": 200,
+    "vision_gate": "PASS (jar packshot, label matches)"
+   }
+  }
+ ],
+ "logo": {
+  "slug": "ruckzuck",
+  "name": "Dunzinger's Ruck Zuck",
+  "category": "Handelskette",
+  "file": "logos/ruckzuck.png",
+  "source_url": "https://www.ruckzuck-laden.at/wp-content/uploads/go-x/u/9d9942be-6306-4f5a-92d7-89655b8772a7/image.png (ruckzuck-laden.at header logo 455x448 RGBA, robots allow; cropped to 455x411 to drop a cut-off fragment below the pot; same emblem as on the jar labels; vision gate PASS; file staged in fertiggerichte-daten scripts/logo_work_T0409 for the Orchestrator merge)",
+  "brands": [
+   "Dunzinger's",
+   "Dunzinger's Ruck Zuck",
+   "Ruck Zuck Laden",
+   "Online: Ruck Zuck Laden (Dunzinger's)",
+   "Schimpl OG"
+  ]
+ },
+ "company_evidence": {
+  "vies": {
+   "isValid": true,
+   "requestDate": "2026-10-18T04:17:06.843Z",
+   "userError": "VALID",
+   "name": "Schimpl OG",
+   "address": "Guttenbrunn 18\nAT-4242 Hirschbach/Mühlkreis",
+   "requestIdentifier": "",
+   "originalVatNumber": "U64017307",
+   "vatNumber": "U64017307",
+   "viesApproximate": {
+    "name": "---",
+    "street": "---",
+    "postalCode": "---",
+    "city": "---",
+    "companyType": "---",
+    "matchName": 3,
+    "matchStreet": 3,
+    "matchPostalCode": 3,
+    "matchCity": 3,
+    "matchCompanyType": 3
+   }
+  },
+  "gleif_fulltext_query": "Schimpl OG",
+  "gleif_hits": 0,
+  "evi_extract": {
+   "Status": "Eingetragen",
+   "Firmenbuchnummer": "306047w",
+   "Adresse": "Guttenbrunn 18, 4242 Hirschbach im Mühlkreis",
+   "Eintragungsdatum": "08.03.2008",
+   "Rechtsform": "Offene Gesellschaft",
+   "Geschäftszweig": "Betrieb eines Gasthauses",
+   "Unbeschränkt haftende Gesellschafter/in": "2 Personen (Gerald Schimpl, Carolin Schimpl; eingetragen 31.10.2014)"
+  }
+ }
+}

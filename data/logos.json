@@ -3428,5 +3428,19 @@
    "Fleischhauerei Gerbl",
    "Fleischhauerei Gerbl GmbH"
   ]
+ },
+ {
+  "slug": "ruckzuck",
+  "name": "Dunzinger's Ruck Zuck",
+  "category": "Handelskette",
+  "file": "logos/ruckzuck.png",
+  "source_url": "https://www.ruckzuck-laden.at/wp-content/uploads/go-x/u/9d9942be-6306-4f5a-92d7-89655b8772a7/image.png (ruckzuck-laden.at header logo 455x448 RGBA, robots allow; cropped to 455x411 to drop a cut-off fragment below the pot; same emblem as on the jar labels; vision gate PASS; file staged in fertiggerichte-daten scripts/logo_work_T0409 for the Orchestrator merge)",
+  "brands": [
+   "Dunzinger's",
+   "Dunzinger's Ruck Zuck",
+   "Ruck Zuck Laden",
+   "Online: Ruck Zuck Laden (Dunzinger's)",
+   "Schimpl OG"
+  ]
  }
 ]

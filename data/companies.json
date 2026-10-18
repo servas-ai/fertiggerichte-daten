@@ -7877,5 +7877,62 @@
   "uid_vies_name": "Fleischhauerei Gerbl GmbH",
   "uid_vies_address": "Hauptstraße 14, AT-4870 Vöcklamarkt",
   "uid_checked_at": "2026-10-18T02:38:33Z"
+ },
+ {
+  "slug": "schimpl-og",
+  "name": "Dunzinger's Ruck Zuck (Schimpl OG)",
+  "role": "producer",
+  "legal_name": "Schimpl OG",
+  "lei": null,
+  "register_id": "306047w",
+  "register_authority": null,
+  "fn": "FN 306047w",
+  "legal_form_code": null,
+  "country": "AT",
+  "address": "Guttenbrunn 18, 4242 Hirschbach im Mühlkreis, AT",
+  "entity_status": "Eingetragen (Firmenbuch, evi.gv.at)",
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": "2008-03-08",
+  "owners": "2 unbeschränkt haftende Gesellschafter (natürliche Personen: Gerald Schimpl, Carolin Schimpl lt. evi.gv.at)",
+  "management": "Gerald Schimpl, Carolin Schimpl (unbeschränkt haftende Gesellschafter lt. evi.gv.at)",
+  "employees": null,
+  "revenue": null,
+  "website": "https://www.ruckzuck-laden.at",
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Dunzinger's",
+   "Dunzinger's Ruck Zuck",
+   "Ruck Zuck Glasl"
+  ],
+  "chains": [
+   "Ruck Zuck Laden"
+  ],
+  "product_count": 7,
+  "median_price_eur": 8.4,
+  "median_eur_per_10g_protein": null,
+  "nace": "Betrieb eines Gasthauses (Geschäftszweig lt. Firmenbuch)",
+  "sources": [
+   "https://www.ruckzuck-laden.at/impressum/",
+   "https://ec.europa.eu/taxation_customs/vies/",
+   "https://www.evi.gv.at/f/306047w",
+   "https://api.gleif.org/api/v1/lei-records?filter[fulltext]=Schimpl OG (0 hits)"
+  ],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-18T0409",
+  "chain_product_count": 7,
+  "registry_status": "verified_vies+impressum+firmenbuch (Impressum FN 306047w = evi.gv.at; VIES name+address match)",
+  "founded_source": "Firmenbuch Eintragungsdatum 08.03.2008 (evi.gv.at/f/306047w) — legal entity (Gasthaus operator), not the jar brand",
+  "share_capital": null,
+  "register_status": "Eingetragen",
+  "register_entry_date": "2008-03-08",
+  "register_court": "Landesgericht Linz",
+  "imprint_url": "https://www.ruckzuck-laden.at/impressum/",
+  "uid": "ATU64017307",
+  "uid_vies_name": "Schimpl OG",
+  "uid_vies_address": "Guttenbrunn 18, AT-4242 Hirschbach/Mühlkreis",
+  "uid_checked_at": "2026-10-18T04:11:38Z"
  }
 ]
