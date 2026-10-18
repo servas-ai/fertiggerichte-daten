@@ -7820,5 +7820,62 @@
   "median_eur_per_10g_protein": 4.34,
   "fetched_at": "2026-10-18T00:27:00Z",
   "uid_checked_at": "2026-10-18T00:27:00Z"
+ },
+ {
+  "slug": "fleischhauerei-gerbl-gmbh",
+  "name": "Gerbl (Fleischhauerei Gerbl GmbH)",
+  "role": "producer",
+  "legal_name": "Fleischhauerei Gerbl GmbH",
+  "lei": null,
+  "register_id": "612319w",
+  "register_authority": null,
+  "fn": "FN 612319w",
+  "legal_form_code": null,
+  "country": "AT",
+  "address": "Hauptstraße 14, 4870 Vöcklamarkt, AT",
+  "entity_status": "Eingetragen (Firmenbuch, evi.gv.at)",
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": "2023-09-19",
+  "owners": "1 natürliche Person (Alleingesellschafter lt. Firmenbuch/evi.gv.at, eingetragen 19.09.2023)",
+  "management": "Wilhelm Franz Gerbl (Geschäftsführer lt. Firmenbuch/evi.gv.at)",
+  "employees": null,
+  "revenue": null,
+  "website": "https://www.gerbl.at",
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Gerbl",
+   "Gerbl im Glas",
+   "beefMax"
+  ],
+  "chains": [
+   "Gerbl im Glas"
+  ],
+  "product_count": 19,
+  "median_price_eur": 9.0,
+  "median_eur_per_10g_protein": null,
+  "nace": "Fleischergewerbe und Viehhandelsgewerbe (Geschäftszweig lt. Firmenbuch)",
+  "sources": [
+   "https://shop.gerbl.at/gerbl-shop/shop/info/impressum",
+   "https://ec.europa.eu/taxation_customs/vies/",
+   "https://www.evi.gv.at/f/612319w",
+   "https://api.gleif.org/api/v1/lei-records?filter[fulltext]=Gerbl (0 hits)"
+  ],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-18T0236",
+  "chain_product_count": 19,
+  "registry_status": "verified_vies+impressum+firmenbuch (Impressum FN 612319w = evi.gv.at; VIES name+address match)",
+  "founded_source": "Firmenbuch Eintragungsdatum 19.09.2023 (Neueintragung; evi.gv.at/f/612319w) — legal entity, the butcher's shop itself is older",
+  "share_capital": "EUR 35 000 (lt. evi.gv.at)",
+  "register_status": "Eingetragen",
+  "register_entry_date": "2023-09-19",
+  "register_court": "Landesgericht Wels",
+  "imprint_url": "https://shop.gerbl.at/gerbl-shop/shop/info/impressum",
+  "uid": "ATU79858539",
+  "uid_vies_name": "Fleischhauerei Gerbl GmbH",
+  "uid_vies_address": "Hauptstraße 14, AT-4870 Vöcklamarkt",
+  "uid_checked_at": "2026-10-18T02:38:33Z"
  }
 ]

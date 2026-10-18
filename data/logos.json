@@ -3414,5 +3414,19 @@
    "Mahlzeit Vertriebsges.m.b.H.",
    "MAHLZEIT Vertriebsgesellschaft m.b.H."
   ]
+ },
+ {
+  "slug": "gerbl",
+  "name": "Gerbl Fleischhauerei",
+  "category": "Handelskette",
+  "file": "logos/gerbl.png",
+  "source_url": "https://shop.gerbl.at/cu/gerbl-shop/images/logo_gerbl-shop.png (shop.gerbl.at header logo, 140x135 RGBA, robots allow; unmodified, low-res; emblem matches the jar labels; vision gate PASS; file staged in fertiggerichte-daten scripts/logo_work_T0236 until the fertig uid freeze lifts)",
+  "brands": [
+   "Gerbl",
+   "Gerbl im Glas",
+   "Online: Gerbl im Glas",
+   "Fleischhauerei Gerbl",
+   "Fleischhauerei Gerbl GmbH"
+  ]
  }
 ]
