@@ -7934,5 +7934,59 @@
   "uid_vies_name": "Schimpl OG",
   "uid_vies_address": "Guttenbrunn 18, AT-4242 Hirschbach/Mühlkreis",
   "uid_checked_at": "2026-10-18T04:11:38Z"
+ },
+ {
+  "slug": "fundula-medien-bauernladen",
+  "name": "Bauernladen.at (Fundula Medien GmbH)",
+  "role": "retailer",
+  "legal_name": "Fundula Medien GmbH",
+  "lei": null,
+  "fn": "FN 304617t",
+  "register_id": "304617t",
+  "register_authority": null,
+  "legal_form_code": null,
+  "country": "AT",
+  "address": "Brehmstraße 10/4.OG, 1110 Wien, AT",
+  "entity_status": "Eingetragen (Firmenbuch, evi.gv.at)",
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "founded": "2008-01-12",
+  "owners": "1 Gesellschafter (natürliche Person: Markus Bauer, eingetragen 17.10.2026 lt. evi.gv.at)",
+  "employees": null,
+  "revenue": null,
+  "website": "https://bauernladen.at",
+  "product_count": 40,
+  "median_price_eur": 9.9,
+  "median_eur_per_10g_protein": null,
+  "fetched_at": "2026-10-18T0439",
+  "brands": [
+   "Bauernladen",
+   "Bauernladen.at"
+  ],
+  "chains": [
+   "Bauernladen.at"
+  ],
+  "plants_count": 0,
+  "uid": "ATU64133538",
+  "uid_vies_name": "MN Anzeigenservice GmbH",
+  "uid_vies_address": "Brehmstraße 10/OG 4, AT-1110 Wien",
+  "uid_checked_at": "2026-10-18T04:56:24.266Z",
+  "imprint_url": "https://bauernladen.at/seite/impressum",
+  "register_court": "Handelsgericht Wien",
+  "hrb": null,
+  "registry_status": "verified_vies+impressum+firmenbuch (Impressum 'MN Anzeigenservice GmbH, FN 304617t, ATU64133538' = VIES name+address; evi.gv.at FN 304617t now 'Fundula Medien GmbH' after Namensänderung eingetragen 17.10.2026)",
+  "former_names": [
+   "MN Anzeigenservice GmbH"
+  ],
+  "share_capital": "EUR 35 000",
+  "register_status": "Eingetragen",
+  "register_entry_date": "2008-01-12",
+  "management": "Markus Bauer (Geschäftsführer seit 25.05.2009)",
+  "nace": "Betrieb einer digitalen Informationsplattform (Marktplatz für Direktvermarkter) lt. Impressum",
+  "sources": [
+   "https://bauernladen.at/seite/impressum",
+   "https://ec.europa.eu/taxation_customs/vies/",
+   "https://www.evi.gv.at/f/304617t"
+  ]
  }
 ]

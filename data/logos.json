@@ -3442,5 +3442,19 @@
    "Online: Ruck Zuck Laden (Dunzinger's)",
    "Schimpl OG"
   ]
+ },
+ {
+  "slug": "bauernladen",
+  "name": "Bauernladen.at",
+  "category": "Handelskette",
+  "file": "logos/bauernladen.png",
+  "source_url": "https://s0.bauernladen.at/themes/modern_1/images/BauernladenLogo_20200625.png (bauernladen.at header 'main-logo' 350x220 palette PNG, robots allow; transparency flattened on white, otherwise unmodified; vision gate PASS: chalkboard wordmark 'Bauernladen — Vom Produzenten direkt zu Dir'; file staged in fertiggerichte-daten scripts/logo_work_T0439 for the Orchestrator merge)",
+  "brands": [
+   "Bauernladen",
+   "Bauernladen.at",
+   "Online: Bauernladen.at",
+   "Fundula Medien GmbH",
+   "MN Anzeigenservice GmbH"
+  ]
  }
 ]
