@@ -14,3 +14,12 @@ __pycache__/
 /heisse_preise_raw.json
 /hourly/billa_all.json
 /hp.json
+/=
+/companies.json
+/grocery_ownbrands.json
+/analysis/_brands_tmp.json
+/analysis/logos/*utm_campaign*
+/hofer_full/extra.txt
+/hofer_full/off_ean_refresh.json
+/hofer_full/off_name_match.json
+/hourly/connectors_new.before_*.json

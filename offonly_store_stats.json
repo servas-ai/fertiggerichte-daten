@@ -1,0 +1,26 @@
+{
+ "applied": 13,
+ "dup_dropped": [
+  "Suppe Kürbiscreme",
+  "Nudel suppe",
+  "Klare Suppe ",
+  "Knoblauchcreme Suppe",
+  "Thai Curry",
+  "Bio Rote-Rüben Kokos Curry",
+  "Risotto mit Steinpilze (=store url)",
+  "Wiener Schwammerl Gulasch (=store url)",
+  "Bohnen Gulasch Xxl",
+  "Natur Compagnie Feine Suppe Kürbiscreme",
+  "veggie Chili sin Carne (=store url)",
+  "Kartoffelsuppe mit Pilzen",
+  "High Protein Vanille Pudding (=store url)",
+  "Danone Dany Sahne Schoko 190g (=store url)"
+ ],
+ "size_mismatch": [
+  {
+   "name": "Vanille Pudding",
+   "size_g": 37.0,
+   "store_size": 111.0
+  }
+ ]
+}

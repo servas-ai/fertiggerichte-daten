@@ -1,0 +1,85 @@
+{
+ "run": "2026-10-13T15 Daten-Squad (non-Eigenmarke brand logos)",
+ "added": [
+  {
+   "podravka": "Vision gate 2026-10-13T15 (Daten-Squad): visuell geprüft (korrekte Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · Wikimedia Commons File:Podravka logo 2024.svg (Public domain; Podravka d.d., Koprivnica – Hersteller lt. Brand-Tree)",
+   "source": "https://commons.wikimedia.org/wiki/File:Podravka_logo_2024.svg"
+  },
+  {
+   "heura": "Vision gate 2026-10-13T15 (Daten-Squad): visuell geprüft (korrekte Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · Wikimedia Commons File:Logo Heura by Foods for Tomorrow.png (Public domain); weißer BG freigestellt (Schwarz auf transparent)",
+   "source": "https://commons.wikimedia.org/wiki/File:Logo_Heura_by_Foods_for_Tomorrow.png"
+  },
+  {
+   "nordsee": "Vision gate 2026-10-13T15 (Daten-Squad): visuell geprüft (korrekte Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · Wikimedia Commons File:Nordsee Logo 2024.svg (Public domain); LEH-Lizenzmarke von HOMANN Feinkost (Produzent lt. BILLA)",
+   "source": "https://commons.wikimedia.org/wiki/File:Nordsee_Logo_2024.svg"
+  },
+  {
+   "mama": "Vision gate 2026-10-13T15 (Daten-Squad): visuell geprüft (korrekte Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · offizielles rotes MAMA-Wortmarken-Logo von mama.co.th (Thai President Foods PCL; robots.txt erlaubt /en/images); transparentes PNG 270×97 – NICHT das TF-Konzernlogo",
+   "source": "https://www.mama.co.th/en/images/logo-mama.png"
+  },
+  {
+   "maza": "Vision gate 2026-10-13T15 (Daten-Squad): visuell geprüft (korrekte Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · offizielles Logo maza.at (Maza Mediterranean Delicacies, Sluispolderweg 46, Zaandam NL – Kontakt/Impressum geprüft); petrol auf weißem Badge",
+   "source": "https://maza.at/wp-content/uploads/2024/07/logo.svg"
+  },
+  {
+   "englert": "Vision gate 2026-10-13T15 (Daten-Squad): visuell geprüft (korrekte Marke, scharf, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · offizielles Header-Logo feinkost-englert.de (Englert Feinkostspezialitäten GmbH & Co. KG, Lohr a. Main – Impressum geprüft); einfarbig weiß im Original → Füllfarbe auf #1f1f1f umgefärbt (Form unverändert) für helles UI",
+   "source": "https://feinkost-englert.de/_astro/responsive-logo-header.DtxL4qem_Z2mh27R.png"
+  }
+ ],
+ "updated_fileless": [],
+ "aliases_producer_fallback": [
+  [
+   "omis-schmankerl",
+   [
+    "Omis"
+   ]
+  ],
+  [
+   "danone",
+   [
+    "Danny"
+   ]
+  ],
+  [
+   "spar",
+   [
+    "Spar Linguine"
+   ]
+  ]
+ ],
+ "rejected": {
+  "Yopokki / Young Poong (ypfoods.co.kr, yopokki-us.com)": "ypfoods.co.kr: Box-Verbindung Timeout (40 s), WebFetch liefert nur Text ohne Bild-URLs; yopokki-us.com: TLS handshake failure (Box) bzw. HTTP 500 (WebFetch) – nicht umgangen; Commons ohne Yopokki-Logo",
+  "Windisch (windisch-wurst.at)": "Website hat kein Bild-Logo (Text/Webfont); einziges Asset android-icon-192 = nur 'W'-Monogramm → reines Icon, abgelehnt",
+  "innocent (innocentdrinks.de)": "einziges statisches Asset innocent_logo_RGB_cloud_solo.png = nur Engel-Icon in Creme (#fffbe9) – auf hellem UI unsichtbar, keine Wortmarke; Commons ohne innocent-Logo",
+  "Findus": "en.wikipedia File:Findus logo.svg ist lokal 'Fair use' (nicht Commons); findus.it nur favicon.svg (Birds Eye) – abgelehnt",
+  "Feinkost Leitinger (Marke 'Feinkost')": "feinkost-leitinger.at (Wix) nur weiße Logo-PNGs; zudem ist Markenstring 'Feinkost' generisch → kein sicherer Alias",
+  "Thai Delight (NR Instant Produce)": "nrinstant.com zeigt Thai Delight nur als Produkt-Cover-Foto, kein Marken-Logo-Asset",
+  "La Cocina de Lola": "lacocinadelola.com = Madrider Catering-'Quinta Gama'; Zuordnung zum Gazpacho (Importeur Antonio Viani) nicht verifiziert",
+  "Mama / Thai President Foods TF-Logo": "weiterhin nicht verwendet; stattdessen echte rote MAMA-Wortmarke von mama.co.th übernommen",
+  "Namdong / The Green Garden / Wiener Virtshaus / Pasta Box / Elsässer / Holzbauer / Just Veg! / IDS (La Crêpe TLS) / Harvest (Whollees TLS) / Galana (406)": "bekannte Sackgassen aus T13b/T14 – nicht erneut forciert",
+  "Eigenmarken (Good Choice, Pappudia, dmBio, Chef Select, SPAR enjoy, Chef Menü, Vemondo, M, GOOD, Kania, Nature's Gold, PIZZ'AH, Leibspeis', MCENNEDY, Asia, Go, TANN, FK, Wild, GOLDEN, Pik., Le Gourmet, Lorado, El Tequito, Ocean Sea, Taste Of Asia, Penny Ready, Diamond, SELECT&GO, …)": "per Policy übersprungen"
+ },
+ "alias_reasons": {
+  "Omis→omis-schmankerl": "OFF 9010437050456 (Gulasch vom Almo Rind): GS1-Präfix 9010437 = REWE International (BILLA/PENNY/Clever) und Omis Schmankerl ist die BILLA-Fertiggerichtlinie inkl. Rindsgulasch",
+  "Danny→danone": "OFF 9035000007293 heißt 'Danone Dany Sahne Schoko' – Marke falsch geschrieben (Dany), Hersteller Danone; Produzenten-Logo-Fallback",
+  "Spar Linguine→spar": "OFF 9100000987408: GS1-Präfix 9100000 = SPAR Österreich Eigenmarke; Markenstring enthält 'Spar'"
+ },
+ "counts": {
+  "added": 6,
+  "updated_fileless": 0,
+  "aliased": 3,
+  "total_rows": 248,
+  "strict_logo_less_before": {
+   "brands": 98,
+   "products": 273
+  },
+  "strict_logo_less_after": {
+   "brands": 89,
+   "products": 262
+  },
+  "file_backed_rows_before": 203,
+  "file_backed_rows_after": 209
+ },
+ "generated": "2026-10-13T15:34:34+00:00",
+ "vision_gate": "Each final file rendered on white/near-white and inspected via Read (vision): podravka.svg, heura.png, nordsee.svg, mama.png, maza.svg, englert.png — all correct brand, sharp, no product photo/placeholder, usable on light bg"
+}

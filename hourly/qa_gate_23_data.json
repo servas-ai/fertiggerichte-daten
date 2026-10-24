@@ -1,0 +1,198 @@
+{
+ "mine": {
+  "n": 24,
+  "nonfood": 0,
+  "nonfood_ranked": 0,
+  "raw_in_meal_rank": [],
+  "ppk_out": [],
+  "kcal_out": [],
+  "p100_gt_kcal": [],
+  "price_out": [],
+  "dups": 0,
+  "dup_keys": []
+ },
+ "all": {
+  "n": 3045,
+  "nonfood": 17,
+  "nonfood_ranked": 0,
+  "raw_in_meal_rank": [],
+  "ppk_out": [
+   [
+    "Kikkoman Tofu Miso Suppe",
+    133.0
+   ],
+   [
+    "Kiano Curryblätter",
+    299.0
+   ],
+   [
+    "Kikkoman Instant Tofu Misosuppe 3 x 10g",
+    399.0
+   ],
+   [
+    "Puro Mundo Curry Englisch 27g",
+    147.78
+   ],
+   [
+    "ehrenwort BIO Bangkok rotes Thai Curry 35g",
+    142.57
+   ],
+   [
+    "ehrenwort BIO Scharfes Madras Curry 40g",
+    124.75
+   ],
+   [
+    "ehrenwort Bio Bangkok Rotes Thai Curry",
+    142.57
+   ],
+   [
+    "Clever Grießnockerlsuppe",
+    0.59
+   ],
+   [
+    "Clever Eiermuschelsuppe",
+    0.59
+   ],
+   [
+    "Clever Kürbiscremesuppe",
+    0.49
+   ],
+   [
+    "Clever Nudelsuppe",
+    0.59
+   ],
+   [
+    "Clever Knoblauchcremesuppe",
+    0.59
+   ],
+   [
+    "Clever Buchstabensuppe",
+    0.59
+   ],
+   [
+    "Clever Grießnockerlsuppe",
+    0.59
+   ],
+   [
+    "Clever Eiermuschelsuppe",
+    0.59
+   ],
+   [
+    "Clever Kürbiscremesuppe",
+    0.49
+   ],
+   [
+    "Clever Nudelsuppe",
+    0.59
+   ],
+   [
+    "Clever Knoblauchcremesuppe",
+    0.59
+   ],
+   [
+    "Clever Buchstabensuppe",
+    0.59
+   ],
+   [
+    "Clever Basis Fix Chili Con Carne",
+    0.79
+   ],
+   [
+    "Clever Basis Fix Gulasch",
+    0.79
+   ],
+   [
+    "Clever Basis Fix Spagetti Carbonara",
+    0.79
+   ]
+  ],
+  "kcal_out": [
+   [
+    "SPAR Hühner Suppe",
+    5.0
+   ],
+   [
+    "BILLA Bio Gemüsebrühe im Glas",
+    2.0
+   ],
+   [
+    "Klare Gemüsesuppe",
+    3.0
+   ],
+   [
+    "Suppenwurfel Klare Rindsuppe",
+    0.0
+   ],
+   [
+    "Klare Suppe",
+    8.5
+   ],
+   [
+    "Radatz Rindssuppe",
+    13.0
+   ],
+   [
+    "Jürgen Langbein Gemüse Fond",
+    7.0
+   ],
+   [
+    "klare Rindsuppe",
+    0.0
+   ],
+   [
+    "Hildegard Grünkraft Suppe Bio Fasten",
+    10.4
+   ],
+   [
+    "Klare Suppe Mit Rind",
+    4.0
+   ],
+   [
+    "Gemüsesuppe",
+    3.0
+   ]
+  ],
+  "p100_gt_kcal": [
+   [
+    "Maishendl Ministeaks",
+    23.0,
+    36.0714285714286
+   ],
+   [
+    "NENI Kichererbsen-Tahina-Salat",
+    85.0,
+    223.0
+   ]
+  ],
+  "price_out": [
+   [
+    "SPAR Kochbeutel Langkorn Reis 8 Beutel à 125g",
+    0.24
+   ]
+  ],
+  "dups": 1,
+  "dup_keys": [
+   [
+    "Hofer",
+    "krntnerkasnudeln",
+    370.0
+   ]
+  ]
+ },
+ "stages_new": {
+  "meal": 13,
+  "base": 8,
+  "veg": 1,
+  "prot": 1,
+  "side": 1
+ },
+ "stores_new": {
+  "MPreis": 14,
+  "Gurkerl": 3,
+  "Billa": 7
+ },
+ "rows_before": 3021,
+ "rows_after": 3045,
+ "drop_pct": -0.79,
+ "PASS": true
+}
