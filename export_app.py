@@ -532,7 +532,7 @@ def _collapse(cands,score_fn,n=30,cap=PROVIDER_CAP):
         if len(ded)>=n*4: break
     cnt={}; capped=[]
     for r in ded:
-        if cnt.get(r.get('store'),0)>=cap: continue
+        if cnt.get(r.get('store'),0)>=(cap(r.get('store')) if callable(cap) else cap): continue  # sensecheck 50: per-store cap (ship-box providers 6)
         cnt[r.get('store')]=cnt.get(r.get('store'),0)+1; capped.append(r)
         if len(capped)>=n: break
     unc=ded[:n]
@@ -608,6 +608,15 @@ try:
 except Exception as _e: print('logo override failed',_e)
 
 # --- SC15..SC48 canonical state + dynamic SC49+ recomputation ---
+# sensecheck 50: ship-box providers (minimum box / parcel shipping) get topCap.shipBox slots instead of perProvider
+SC50_SHIPBOX_STORES = frozenset(MEALPREP_ONLY | {'HelloFresh', 'Marley Spoon', 'Hofmann'})
+def _sc50_rank_guard(r):
+    """sensecheck 50 F4: the reconcile path must apply the same ranking gates as SC15-SC48 (all 160 canonical rankable rows pass)."""
+    k = r.get('kcalPor')
+    return (r.get('score') is not None and r['score'] >= 30 and k is not None and 400 <= k <= 900
+            and bool(r.get('price')) and not r.get('price_stale') and r.get('stage') in ('meal', 'stew')
+            and not r.get('component') and r.get('segment') == 'ready_meal' and r.get('dupOf') is None
+            and not any('Duplikat' in f for f in (r.get('flags') or [])))
 def _reconcile_sc48(out):
     import hashlib, glob
     base_dir = os.path.dirname(os.path.abspath(__file__))
@@ -646,7 +655,7 @@ def _reconcile_sc48(out):
     changed_uids = {u for u, h in cur_by_uid.items() if old_by_uid.get(u) != h}
     removed_uids = set(old_by_uid.keys()) - set(cur_by_uid.keys())
     files_changed = (cur_files != old_files)
-    topcap_changed = (out.get('topCap') != can.get('topCap')) or bool(os.environ.get('ENFORCE_SHIPBOX_CAP'))
+    topcap_changed = (out.get('topCap') != can.get('topCap')) or bool(os.environ.get('ENFORCE_SHIPBOX_CAP')) or bool(os.environ.get('SC50_FORCE_RECOMPUTE'))
 
     if not changed_uids and not removed_uids and not new_items and not files_changed and not topcap_changed:
         return can
@@ -697,12 +706,12 @@ def _reconcile_sc48(out):
                 r['protPor'] = round(r['prot'] * pg / 100, 1)
             if pg and sz and r.get('price'):
                 r['pPor'] = round(r['price'] * pg / sz, 2)
-                sh = (ship_map.get(r.get('store')) or {}).get('shipPor') or 0.0
+                sh = r.get('shipPor') or 0.0  # sensecheck 50 F3: shipPor lives on the row, not in can['shipping']
                 r['pPorEff'] = round(r['pPor'] + sh, 2)
             if r.get('sold_out'):
                 r['rankable'] = False
             else:
-                r['rankable'] = bool(mc.get('ok')) and not bool(r.get('linz_excluded'))
+                r['rankable'] = bool(mc.get('ok')) and not bool(r.get('linz_excluded')) and _sc50_rank_guard(r)
             if r.get('score') is not None and r.get('protPor') and r.get('pPorEff'):
                 pe_s = min(100.0, (r['protPor'] / r['pPorEff']) * 5.0)
                 if r.get('rankable'):
@@ -720,12 +729,19 @@ def _reconcile_sc48(out):
         unav = set(av.get('unavailable_uids') or [])
         chk_date = (av.get('checked') or '')[:10]
         if av_fn != can['soldOut'].get('file') or unav != {x['uid'] for x in can['rows'] if x.get('sold_out')}:
+            prev_unav = {x['uid'] for x in can['rows'] if x.get('sold_out')}
             for r in rows:
                 if r['uid'] in unav:
                     r['sold_out'] = True
                     r['rankable'] = False
                     if chk_date:
                         r['availability_checked'] = chk_date
+                elif r['uid'] in prev_unav and r.get('sold_out') and not (r['uid'] in cur_items_by_uid and cur_items_by_uid[r['uid']].get('available') is False):
+                    # sensecheck 50 F6: back in stock in the newer snapshot -> no longer sold out
+                    r['sold_out'] = False
+                    if chk_date:
+                        r['availability_checked'] = chk_date
+                    r['rankable'] = r.get('meal_class') == 'meal' and not bool(r.get('linz_excluded')) and _sc50_rank_guard(r)
             can['soldOut'] = {
                 'checked': av.get('checked'),
                 'rows': len(unav),
@@ -740,7 +756,9 @@ def _reconcile_sc48(out):
     can['uidMap'] = {r['uid']: r['id'] for r in rows}
 
     # Recompute top lists if rows or topCap changed
-    ship_box_stores = {k for k, v in (can.get('shipping') or {}).items() if isinstance(v, dict) and (v.get('minPortions') or 0) > 1}
+    # sensecheck 50 F2 bug A: can['shipping'] uses the box size field (no minPortions key); bofrost delivers free with no minimum box
+    ship_box_stores = set(SC50_SHIPBOX_STORES) | {k for k, v in (can.get('shipping') or {}).items()
+                                                 if isinstance(v, dict) and (v.get('box') or 0) > 1 and (v.get('shipping_eur') or 0) > 0}
     cap_n = (can.get('topCap') or {}).get('n', 30)
     cap_prov = (can.get('topCap') or {}).get('perProvider', 10)
     cap_ship = (can.get('topCap') or {}).get('shipBox', 6) if os.environ.get('ENFORCE_SHIPBOX_CAP') else cap_prov
@@ -764,7 +782,27 @@ def _reconcile_sc48(out):
         return res
 
     if changed_uids or removed_uids or files_changed or topcap_changed:
-        can['topPLI'] = _recap(can.get('topPLIUncapped') or can.get('topPLI') or [])
+        # sensecheck 50 F2 bugs B/C: rebuild capped + uncapped lists with the real _collapse over ALL rows
+        # (filtering the 30-entry uncapped list shrank topPLI to 20). Proven identical to 2484311 when nothing changed.
+        def _cap_for(st):
+            return cap_ship if st in ship_box_stores else cap_prov
+        crow = [dict(r) for r in rows]
+        _base = lambda r: r.get('rankable') and not r.get('sold_out') and r.get('gang') != 'vorspeise'
+        for key, flt, fn in (
+            ('PLI', lambda r: _base(r) and r.get('pli') is not None, lambda r: r['pli']),
+            ('Health', lambda r: _base(r) and r.get('score') is not None, lambda r: r['score']),
+            ('PE', lambda r: _base(r) and r.get('ppe') and r.get('pstat') == 'live 2026' and r.get('pack') != 'Trocken/Instant', lambda r: r['ppe']),
+        ):
+            capped, _cnt, unc = _collapse([r for r in crow if flt(r)], fn, n=cap_n, cap=_cap_for)
+            can['top' + key] = [r['id'] for r in capped]
+            can['top' + key + 'Uncapped'] = [r['id'] for r in unc]
+        # topLight: the SC15-SC48 light candidate set is not reconstructible from rows alone (SC-era overlays),
+        # so keep the canonical order and only drop entries that are no longer eligible (sold out / hidden twin).
+        _by = {r['id']: r for r in rows}
+        _ok_l = lambda i: i in _by and _by[i].get('pliLight') is not None and not _by[i].get('sold_out') and _by[i].get('dupOf') is None
+        for k in ('topLight', 'topLightUncapped'):
+            if k in can:
+                can[k] = [i for i in can[k] if _ok_l(i)]
         by_id = {r['id']: r for r in rows}
         can['uidTop'] = {
             k: [by_id[i]['uid'] for i in can.get(k, []) if i in by_id]
