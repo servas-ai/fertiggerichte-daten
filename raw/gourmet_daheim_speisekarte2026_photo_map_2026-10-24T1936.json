@@ -1,0 +1,1324 @@
+{
+ "run": "2026-10-24T1936",
+ "source": {
+  "viewer": "https://epaper.gourmet.at (page2flip, scope gms)",
+  "item": "GOURMET_daheim_SPK_26_Mahlzeit_web.pdf (content 3992174, asset 3991841, prettyURL daheim_speisekarte_2026_mahlzeit)",
+  "pdf": "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/source",
+  "pdf_bytes": 25846723,
+  "pdf_pages": 76,
+  "robots": "no robots.txt (SPA fallback HTML), nothing disallowed",
+  "showDownload": false
+ },
+ "findings": {
+  "csv_articles": 141,
+  "articles_found_in_pdf": 141,
+  "articles_with_dish_page": 127,
+  "articles_only_on_index_pages": [
+   "2310273",
+   "2310274",
+   "2310277",
+   "2310279",
+   "2310345",
+   "2310346",
+   "2310348",
+   "2313231",
+   "2313235",
+   "2313253",
+   "2313501",
+   "2313617",
+   "2313618",
+   "2313624"
+  ],
+  "embedded_dish_jpegs_ge800px": 215,
+  "extra_numbers_not_in_csv": "15 (2310257 Pfirsichkompott diabetic dessert, 14x 2390xxx Wochenkartons; plus 98xxxxx dessert range) - no price in Preisliste, not added",
+  "per_dish_linkable_photo": false,
+  "reason": "page2flip only serves whole-page renders (pages.json: pdf/250/1000/2000 px per page, 3-4 dishes per page); dish photos exist only as embedded JPEGs inside the PDF. DATA_GUIDELINES: retailer photos are linked, not relicensed, so no crops were rehosted and image_url stays empty."
+ },
+ "decision_needed": "Orchestrator/Martin: allow either (a) page-level PNG as image_url with page reference, or (b) hosting extracted embedded dish JPEGs; until then GOURMET photos stay 8/141.",
+ "mapping": {
+  "2301258": {
+   "name": "Champignonrahmschnitzel mit Kräuterreis",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    40
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/005502f1-6f62-4ce0-82e4-ec9678a992ff.png"
+   ]
+  },
+  "2301309": {
+   "name": "Tafelspitz mit Erdäpfelschmarren und Semmelkren",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    35
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/8e246457-b6ff-4644-8599-c1a8c57ad712.png"
+   ]
+  },
+  "2301524": {
+   "name": "Gebratene Putenbrust mit Reis und Babykarotten",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    31
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/7fc46f5a-973e-4565-9808-e5037b597aed.png"
+   ]
+  },
+  "2301562": {
+   "name": "Gebackenes Hühnerschnitzel mit Kartoffeln und Gemüse",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    31
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/7fc46f5a-973e-4565-9808-e5037b597aed.png"
+   ]
+  },
+  "2301573": {
+   "name": "Paprikahendlragout mit Spätzle",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    31
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/7fc46f5a-973e-4565-9808-e5037b597aed.png"
+   ]
+  },
+  "2301663": {
+   "name": "Gebratener ASC- Lachs, Taglierini, Limonensauce & Broccoli",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    42
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/9c823f30-e533-42dc-beb7-e750e73bc342.png"
+   ]
+  },
+  "2301698": {
+   "name": "MSC-Alaska-Seelachsfilet im Backteig, Gemüse und Reis",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    42
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/9c823f30-e533-42dc-beb7-e750e73bc342.png"
+   ]
+  },
+  "2301907": {
+   "name": "Gschupfte Mohnnudeln mit Apfelmus",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    53
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/80a8e91c-1983-47d0-910b-f5d3d9401c75.png"
+   ]
+  },
+  "2301908": {
+   "name": "Pfirsichpalatschinken mit Topfenfülle (mit Süßungsmittel)",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    56
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/788a24ea-6972-4bc3-8a36-a6dfc5467dee.png"
+   ]
+  },
+  "2301928": {
+   "name": "Flaumige Topfenknödel mit Erdbeermus",
+   "has_image_url": true,
+   "dish_pages_pdf": [
+    53
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/80a8e91c-1983-47d0-910b-f5d3d9401c75.png"
+   ]
+  },
+  "2301940": {
+   "name": "Marillenpalatschinken",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    53
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/80a8e91c-1983-47d0-910b-f5d3d9401c75.png"
+   ]
+  },
+  "2301959": {
+   "name": "Reisauflauf mit Apfelkompott (mit Süßungsmittel)",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    55
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/dcbcd7fb-c833-4e63-8889-fd01d4e6370b.png"
+   ]
+  },
+  "2302009": {
+   "name": "Nudelsuppe",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    20
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/b5234c87-6319-46d1-8b15-80bb6f20e741.png"
+   ]
+  },
+  "2302017": {
+   "name": "Grießnockerlsuppe",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    20
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/b5234c87-6319-46d1-8b15-80bb6f20e741.png"
+   ]
+  },
+  "2302019": {
+   "name": "Frittatensuppe",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    22
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/50e75013-3804-4da4-99fa-006cf6c8d9c3.png"
+   ]
+  },
+  "2302034": {
+   "name": "Gebundene Gemüsesuppe",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    21
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/9d184098-4044-43b6-be76-362b52eec528.png"
+   ]
+  },
+  "2302070": {
+   "name": "Gemüsesuppe mit Kräutertropfteig",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    23
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/51245bf6-ad03-4d58-8053-a87e2e8c5039.png"
+   ]
+  },
+  "2302083": {
+   "name": "Erdäpfelrahmsuppe nach Mühlviertler Art",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    21
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/9d184098-4044-43b6-be76-362b52eec528.png"
+   ]
+  },
+  "2302096": {
+   "name": "Legierte Grießsuppe",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    23
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/51245bf6-ad03-4d58-8053-a87e2e8c5039.png"
+   ]
+  },
+  "2302188": {
+   "name": "Zwiebelrostbraten mit Bratkartoffeln",
+   "has_image_url": true,
+   "dish_pages_pdf": [
+    36
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/ac762b1b-26fa-428a-8d5b-9a31885d3157.png"
+   ]
+  },
+  "2302246": {
+   "name": "Pariser Schnitzel mit Risipisi",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    39
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/d8674f83-8c4f-4d3e-acb4-149fc76e4072.png"
+   ]
+  },
+  "2302287": {
+   "name": "Schweinsbraten mit Serviettenknödel & warmem Krautsalat",
+   "has_image_url": true,
+   "dish_pages_pdf": [
+    41
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/a04094d5-2552-4b25-b0e8-ec698932cc77.png"
+   ]
+  },
+  "2302315": {
+   "name": "Kalbsrahmgulasch mit Spätzle",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    38
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/ff952839-b6b8-421e-be8a-5592d7c450f0.png"
+   ]
+  },
+  "2302418": {
+   "name": "Frischkäse-Kartoffellaibchen mit Rotkraut",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    50
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/a53feae7-1626-40ae-b88d-e6bcc48010ad.png"
+   ]
+  },
+  "2302457": {
+   "name": "Champignonsauce mit Serviettenknödeln",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    51
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/ee49bf24-0647-49ba-a39f-e587a72c431d.png"
+   ]
+  },
+  "2302479": {
+   "name": "Faschierte Laibchen mit Salzkartoffeln und Rahmfisolen",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    26
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/5c1f9238-0922-44de-8a89-a16c3c7ca420.png"
+   ]
+  },
+  "2302481": {
+   "name": "Ennstaler Bauernknödel auf Speck-Sauerkraut",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    28
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/af8f9528-2f76-4eaa-b5c1-bb980a5ee137.png"
+   ]
+  },
+  "2302491": {
+   "name": "Schinkenfleckerl",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    45
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/16aa2249-6af6-4b38-a5ba-25a5731d0575.png"
+   ]
+  },
+  "2302537": {
+   "name": "Hühnercurry mit Basmatireis",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    32
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/a667d7fe-63dc-4618-a96f-52ca90472250.png"
+   ]
+  },
+  "2302561": {
+   "name": "Nudeln „Florentiner Art“ mit Hühnerstücken & Blattspinat",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    46
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/1eaad9ee-b003-4842-975e-a38a0bb7b52c.png"
+   ]
+  },
+  "2302564": {
+   "name": "Ausgelöstes Backhenderl mit Risipisi",
+   "has_image_url": true,
+   "dish_pages_pdf": [
+    33
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/d75f621d-8ee3-4bc8-a834-08ab91d8b6e7.png"
+   ]
+  },
+  "2302976": {
+   "name": "Topfenschmarren mit Marillenröster (mit Süßungsmittel)",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    54
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/7a4fe4d4-329c-4cbe-9270-c21323db6d17.png"
+   ]
+  },
+  "2310038": {
+   "name": "Teigmuschelsuppe",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    24
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/a0ff5a3d-d64d-4689-87b6-2d4bbda2e286.png"
+   ]
+  },
+  "2310043": {
+   "name": "Karottencremesuppe",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    22
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/50e75013-3804-4da4-99fa-006cf6c8d9c3.png"
+   ]
+  },
+  "2310049": {
+   "name": "Esterhàzy Rindsgeschnetzeltes mit Hörnchen",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    35
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/8e246457-b6ff-4644-8599-c1a8c57ad712.png"
+   ]
+  },
+  "2310057": {
+   "name": "Rindsgulasch mit Spätzle",
+   "has_image_url": true,
+   "dish_pages_pdf": [
+    35
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/8e246457-b6ff-4644-8599-c1a8c57ad712.png"
+   ]
+  },
+  "2310072": {
+   "name": "Surbraten mit Kartoffelknödel und schlampigem Kraut",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    40
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/005502f1-6f62-4ce0-82e4-ec9678a992ff.png"
+   ]
+  },
+  "2310073": {
+   "name": "Steirisches Wurzelfleisch mit Kümmelkartoffeln",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    39
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/d8674f83-8c4f-4d3e-acb4-149fc76e4072.png"
+   ]
+  },
+  "2310081": {
+   "name": "Kalbsbraten mit Reis und Babykarotten",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    37
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/866f031e-d837-4250-96fb-2c62cdcab9e5.png"
+   ]
+  },
+  "2310082": {
+   "name": "Gefüllte Kalbsbrust mit Kräuterreis",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    38
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/ff952839-b6b8-421e-be8a-5592d7c450f0.png"
+   ]
+  },
+  "2310090": {
+   "name": "Gebratene Hühnerkeule im Natursaft mit Reis",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    33
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/d75f621d-8ee3-4bc8-a834-08ab91d8b6e7.png"
+   ]
+  },
+  "2310098": {
+   "name": "Hühner-Cordon-bleu mit Petersilkartoffeln",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    28
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/af8f9528-2f76-4eaa-b5c1-bb980a5ee137.png"
+   ]
+  },
+  "2310108": {
+   "name": "MSC-Alaska-Seelachs gebacken mit Petersilkartoffeln",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    43
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/0248c9e8-deef-49d9-8a23-9817c8ad7ffb.png"
+   ]
+  },
+  "2310123": {
+   "name": "Gemüserahmlinsen mit Serviettenknödeln",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    50
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/a53feae7-1626-40ae-b88d-e6bcc48010ad.png"
+   ]
+  },
+  "2310134": {
+   "name": "Rahmfisolen mit Röstinchen",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    51
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/ee49bf24-0647-49ba-a39f-e587a72c431d.png"
+   ]
+  },
+  "2310147": {
+   "name": "Cevapcici mit Letscho und Reis",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    30
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/41312e58-b5e6-437c-a0e6-65fc54ce2ff1.png"
+   ]
+  },
+  "2310156": {
+   "name": "Grammelknödel mit Gabelkraut",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    27
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/a3f1e3cd-1a7c-4b3f-9858-47594384b781.png"
+   ]
+  },
+  "2310160": {
+   "name": "Kartoffelgulasch mit Waldviertler Wurst",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    28
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/af8f9528-2f76-4eaa-b5c1-bb980a5ee137.png"
+   ]
+  },
+  "2310161": {
+   "name": "Szegediner Krautfleisch mit Kümmelkartoffeln",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    10,
+    26
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/bf86f76d-b135-4f2f-85ee-6842fc4b870c.png",
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/5c1f9238-0922-44de-8a89-a16c3c7ca420.png"
+   ]
+  },
+  "2310167": {
+   "name": "Gefüllte Paprika in Tomatensauce mit Salzkartoffeln",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    27
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/a3f1e3cd-1a7c-4b3f-9858-47594384b781.png"
+   ]
+  },
+  "2310168": {
+   "name": "Fleischbällchen in Tomatensauce mit Reis",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    29
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/be269703-fa27-444a-9389-e6aed2cd9e90.png"
+   ]
+  },
+  "2310174": {
+   "name": "Reisfleisch serbischer Art",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    28
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/af8f9528-2f76-4eaa-b5c1-bb980a5ee137.png"
+   ]
+  },
+  "2310182": {
+   "name": "Krautfleckerl",
+   "has_image_url": true,
+   "dish_pages_pdf": [
+    47
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/10028f4e-6696-4353-83ca-a1647af504c2.png"
+   ]
+  },
+  "2310191": {
+   "name": "Rindfleischlasagne mit Tomatenragout",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    46
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/1eaad9ee-b003-4842-975e-a38a0bb7b52c.png"
+   ]
+  },
+  "2310200": {
+   "name": "Tagliatelle mit Zucchiniragout",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    48
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/35fb5f8e-e934-4464-b39f-f4a6b807b15c.png"
+   ]
+  },
+  "2310201": {
+   "name": "Fleischspiralen",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    47
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/10028f4e-6696-4353-83ca-a1647af504c2.png"
+   ]
+  },
+  "2310203": {
+   "name": "Kasnock‘n nach Pinzgauer Art",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    12,
+    47
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/bc5a7ff6-205a-45a6-ae3b-f6b07a353ad1.png",
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/10028f4e-6696-4353-83ca-a1647af504c2.png"
+   ]
+  },
+  "2310204": {
+   "name": "Fleischpalatschinken in Paprikarahmsauce",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    26
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/5c1f9238-0922-44de-8a89-a16c3c7ca420.png"
+   ]
+  },
+  "2310207": {
+   "name": "Apfelstrudel mit Vanillesauce",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    55
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/dcbcd7fb-c833-4e63-8889-fd01d4e6370b.png"
+   ]
+  },
+  "2310213": {
+   "name": "Grießflammerienockerl mit Beerenröster",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    54
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/7a4fe4d4-329c-4cbe-9270-c21323db6d17.png"
+   ]
+  },
+  "2310235": {
+   "name": "Kaiserschmarren mit Zwetschkenröster",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    52,
+    55
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/c1450322-028d-48af-b03c-231ae6d5293e.png",
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/dcbcd7fb-c833-4e63-8889-fd01d4e6370b.png"
+   ]
+  },
+  "2311047": {
+   "name": "Eiernockerl",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    46
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/1eaad9ee-b003-4842-975e-a38a0bb7b52c.png"
+   ]
+  },
+  "2311049": {
+   "name": "Faschierte Kalbsbutterschnitzel mit Püree und Gemüse",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    25,
+    37
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/7b7209c4-6ad8-45da-98d3-0361cf56ce1b.png",
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/866f031e-d837-4250-96fb-2c62cdcab9e5.png"
+   ]
+  },
+  "2311050": {
+   "name": "Faschierter Braten mit Kartoffelpüree und Erbsen",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    27
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/a3f1e3cd-1a7c-4b3f-9858-47594384b781.png"
+   ]
+  },
+  "2311053": {
+   "name": "Gebratene Hühnerbrust mit Spätzle und Mischgemüse",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    32
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/a667d7fe-63dc-4618-a96f-52ca90472250.png"
+   ]
+  },
+  "2311059": {
+   "name": "Spaghetti Bolognese",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    47
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/10028f4e-6696-4353-83ca-a1647af504c2.png"
+   ]
+  },
+  "2311063": {
+   "name": "Burgunder Rindsbraten mit Kroketten (enthält Alkohol)",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    36
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/ac762b1b-26fa-428a-8d5b-9a31885d3157.png"
+   ]
+  },
+  "2311066": {
+   "name": "Überbackene Hühnerbrust mit Kartoffelpüree",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    34
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/a6cf199f-654a-4d05-b204-6790c7ce5c95.png"
+   ]
+  },
+  "2311070": {
+   "name": "Schweinsmedaillons mit Rosmarinkartoffeln und buntem Gemüse",
+   "has_image_url": true,
+   "dish_pages_pdf": [
+    40
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/005502f1-6f62-4ce0-82e4-ec9678a992ff.png"
+   ]
+  },
+  "2313113": {
+   "name": "Gemüsestrudel mit Petersilkartoffeln und Kräutersauce",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    50
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/a53feae7-1626-40ae-b88d-e6bcc48010ad.png"
+   ]
+  },
+  "2313118": {
+   "name": "Broccoli-Kartoffel-Pfanne mit Käse überbacken",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    30
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/41312e58-b5e6-437c-a0e6-65fc54ce2ff1.png"
+   ]
+  },
+  "2313122": {
+   "name": "Alt-Wiener Suppentopf",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    21
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/9d184098-4044-43b6-be76-362b52eec528.png"
+   ]
+  },
+  "2313127": {
+   "name": "MSC-Alaska-Seelachs Müllerin mit Mischgemüse und Reis",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    43
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/0248c9e8-deef-49d9-8a23-9817c8ad7ffb.png"
+   ]
+  },
+  "2313128": {
+   "name": "Omelette mit Erdäpfelschmarren und Cremespinat",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    14,
+    49
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/34c86376-171f-47df-b1c7-3fb257d11537.png",
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/88f7b2fa-f6cf-4a61-a814-42f72f2159e9.png"
+   ]
+  },
+  "2313129": {
+   "name": "Einmachhuhn mit Semmelknödeln",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    29
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/be269703-fa27-444a-9389-e6aed2cd9e90.png"
+   ]
+  },
+  "2313134": {
+   "name": "Pastinakencremesuppe",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    23
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/51245bf6-ad03-4d58-8053-a87e2e8c5039.png"
+   ]
+  },
+  "2313135": {
+   "name": "Leberknödelsuppe",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    20
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/b5234c87-6319-46d1-8b15-80bb6f20e741.png"
+   ]
+  },
+  "2313136": {
+   "name": "Bunte Nudelpfanne mit Gartengemüse",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    45
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/16aa2249-6af6-4b38-a5ba-25a5731d0575.png"
+   ]
+  },
+  "2313140": {
+   "name": "Rindersaftschnitzel mit Spiralen",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    37
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/866f031e-d837-4250-96fb-2c62cdcab9e5.png"
+   ]
+  },
+  "2313142": {
+   "name": "Gebackenes Schweinsschnitzerl mit Petersilkartoffeln",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    40
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/005502f1-6f62-4ce0-82e4-ec9678a992ff.png"
+   ]
+  },
+  "2313172": {
+   "name": "Mostbratl mit Erdäpfelknödeln (enthält Alkohol)",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    39
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/d8674f83-8c4f-4d3e-acb4-149fc76e4072.png"
+   ]
+  },
+  "2313220": {
+   "name": "Gemüsesuppe mit Grießdukaten",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    22
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/50e75013-3804-4da4-99fa-006cf6c8d9c3.png"
+   ]
+  },
+  "2313223": {
+   "name": "Kräutercremesuppe",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    22
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/50e75013-3804-4da4-99fa-006cf6c8d9c3.png"
+   ]
+  },
+  "2313225": {
+   "name": "Topfenpalatschinken mit Vanillesauce (mit Süßungsmittel)",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    55
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/dcbcd7fb-c833-4e63-8889-fd01d4e6370b.png"
+   ]
+  },
+  "2313226": {
+   "name": "MSC-Alaska-Seelachs in Tomaten-Basilikumsauce m. Bandnudeln",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    43
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/0248c9e8-deef-49d9-8a23-9817c8ad7ffb.png"
+   ]
+  },
+  "2313230": {
+   "name": "Kalbfleischbällchen mit Kartoffelpüree",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    38
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/ff952839-b6b8-421e-be8a-5592d7c450f0.png"
+   ]
+  },
+  "2313233": {
+   "name": "Scheiterhaufen mit Vanillesauce (mit Süßungsmittel)",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    54
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/7a4fe4d4-329c-4cbe-9270-c21323db6d17.png"
+   ]
+  },
+  "2313240": {
+   "name": "Asia Nudeln mit Hühnerfleisch und Wokgemüse",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    48
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/35fb5f8e-e934-4464-b39f-f4a6b807b15c.png"
+   ]
+  },
+  "2313252": {
+   "name": "MSC-Pazifische Scholle gebacken mit Petersilkartoffeln",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    42
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/9c823f30-e533-42dc-beb7-e750e73bc342.png"
+   ]
+  },
+  "2313343": {
+   "name": "Hühnereinmachsuppe mit Semmelknöderln",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    21
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/9d184098-4044-43b6-be76-362b52eec528.png"
+   ]
+  },
+  "2313345": {
+   "name": "Geselchtes mit Linsen und Serviettenknödel",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    27
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/a3f1e3cd-1a7c-4b3f-9858-47594384b781.png"
+   ]
+  },
+  "2313347": {
+   "name": "Acht Schätze mit Basmatireis",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    33
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/d75f621d-8ee3-4bc8-a834-08ab91d8b6e7.png"
+   ]
+  },
+  "2313348": {
+   "name": "Esterhàzy Rindsbraten mit Mini-Kartoffelknödeln",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    16,
+    36
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/0dac95cb-0070-48aa-b3d6-ad94adbc22fc.png",
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/ac762b1b-26fa-428a-8d5b-9a31885d3157.png"
+   ]
+  },
+  "2313349": {
+   "name": "Faschierte Laibchen vom Huhn mit Kräuterpüree",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    32
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/a667d7fe-63dc-4618-a96f-52ca90472250.png"
+   ]
+  },
+  "2313357": {
+   "name": "Gebackene Apfelringe mit Zimtzucker und Vanillesauce",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    56
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/788a24ea-6972-4bc3-8a36-a6dfc5467dee.png"
+   ]
+  },
+  "2313364": {
+   "name": "Milchreis mit Beerenröster (mit Süßungsmittel)",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    54
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/7a4fe4d4-329c-4cbe-9270-c21323db6d17.png"
+   ]
+  },
+  "2313366": {
+   "name": "Cremige Schinkenfleckerl",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    48
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/35fb5f8e-e934-4464-b39f-f4a6b807b15c.png"
+   ]
+  },
+  "2313368": {
+   "name": "Gemüsecurry mit Basmatireis",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    49
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/88f7b2fa-f6cf-4a61-a814-42f72f2159e9.png"
+   ]
+  },
+  "2313374": {
+   "name": "Mediterraner Auflauf mit Faschiertem",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    46
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/1eaad9ee-b003-4842-975e-a38a0bb7b52c.png"
+   ]
+  },
+  "2313379": {
+   "name": "Tagliatelle mit MSC-Räucherlachs",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    44
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/5e070442-47df-4b9c-9f2e-d39df58fe806.png"
+   ]
+  },
+  "2313423": {
+   "name": "Karotten-Topfenlaibchen mit Gemüse in Kräuterrahmsauce",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    51
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/ee49bf24-0647-49ba-a39f-e587a72c431d.png"
+   ]
+  },
+  "2313467": {
+   "name": "Broccolicremesuppe",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    24
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/a0ff5a3d-d64d-4689-87b6-2d4bbda2e286.png"
+   ]
+  },
+  "2313468": {
+   "name": "Frühlingsgemüsesuppe",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    23
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/51245bf6-ad03-4d58-8053-a87e2e8c5039.png"
+   ]
+  },
+  "2313493": {
+   "name": "Hühnerfilet in Kräutersauce mit Broccoli und Spiralen",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    34
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/a6cf199f-654a-4d05-b204-6790c7ce5c95.png"
+   ]
+  },
+  "2313494": {
+   "name": "Salbeihuhn - Hühnerragout mit Reis",
+   "has_image_url": true,
+   "dish_pages_pdf": [
+    34
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/a6cf199f-654a-4d05-b204-6790c7ce5c95.png"
+   ]
+  },
+  "2313498": {
+   "name": "Leberkäse mit Kartoffelpüree und Gustogemüse",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    29
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/be269703-fa27-444a-9389-e6aed2cd9e90.png"
+   ]
+  },
+  "2313502": {
+   "name": "Bratwurst mit Kartoffelschmarren und Sauerkraut",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    29
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/be269703-fa27-444a-9389-e6aed2cd9e90.png"
+   ]
+  },
+  "2313504": {
+   "name": "Kebapteller vom Huhn mit Tomatenreis und Dillsauce",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    33
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/d75f621d-8ee3-4bc8-a834-08ab91d8b6e7.png"
+   ]
+  },
+  "2313506": {
+   "name": "Honigkrustenbraten mit Semmellaibchen und Sauerkraut",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    41
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/a04094d5-2552-4b25-b0e8-ec698932cc77.png"
+   ]
+  },
+  "2313522": {
+   "name": "Powidltaler mit Apfelmus",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    56
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/788a24ea-6972-4bc3-8a36-a6dfc5467dee.png"
+   ]
+  },
+  "2313524": {
+   "name": "MSC-Seehechtfilet, Blattspinat, Salzkartoffeln & Tomatenjus",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    44
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/5e070442-47df-4b9c-9f2e-d39df58fe806.png"
+   ]
+  },
+  "2313552": {
+   "name": "Spaghetti Carbonara",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    45
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/16aa2249-6af6-4b38-a5ba-25a5731d0575.png"
+   ]
+  },
+  "2313607": {
+   "name": "Sesamhühnchen mit Jasminreis",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    34
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/a6cf199f-654a-4d05-b204-6790c7ce5c95.png"
+   ]
+  },
+  "2313608": {
+   "name": "Pastinaken-Kohlrabischnitzel mit Petersilkartoffeln",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    50
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/a53feae7-1626-40ae-b88d-e6bcc48010ad.png"
+   ]
+  },
+  "2313609": {
+   "name": "Schweinsgulasch mit Spätzle",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    30
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/41312e58-b5e6-437c-a0e6-65fc54ce2ff1.png"
+   ]
+  },
+  "2313610": {
+   "name": "Gemüsesuppe Vier Jahreszeiten",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    24
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/a0ff5a3d-d64d-4689-87b6-2d4bbda2e286.png"
+   ]
+  },
+  "2313612": {
+   "name": "Gebackenes Gemüse mit Kräuterdip",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    49
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/88f7b2fa-f6cf-4a61-a814-42f72f2159e9.png"
+   ]
+  },
+  "2313613": {
+   "name": "Gnocchi Primavera",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    48
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/35fb5f8e-e934-4464-b39f-f4a6b807b15c.png"
+   ]
+  },
+  "2313614": {
+   "name": "Kohlgemüse mit Kümmelkartoffeln",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    51
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/ee49bf24-0647-49ba-a39f-e587a72c431d.png"
+   ]
+  },
+  "2313616": {
+   "name": "Gef. Naturschnitzel mit Tomaten-Kartoffelpüree und Gemüse",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    41
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/a04094d5-2552-4b25-b0e8-ec698932cc77.png"
+   ]
+  },
+  "2313619": {
+   "name": "Gefüllte Hühnerbrust mit Tomatenrisotto",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    32
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/a667d7fe-63dc-4618-a96f-52ca90472250.png"
+   ]
+  },
+  "2313622": {
+   "name": "MSC-Goldhirse-Fischli mit Petersilkartoffeln und Kräuterdip",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    44
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/5e070442-47df-4b9c-9f2e-d39df58fe806.png"
+   ]
+  },
+  "2313623": {
+   "name": "Rindfleisch-Bulgur-Laibchen mit Püree und Speckfisolen",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    15,
+    36
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/70dad653-f188-4a19-92ca-8c4461c091a8.png",
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/ac762b1b-26fa-428a-8d5b-9a31885d3157.png"
+   ]
+  },
+  "2313628": {
+   "name": "Schweinefleisch indonesischer Art mit Sesamreis (enthält Alkohol)",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    41
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/a04094d5-2552-4b25-b0e8-ec698932cc77.png"
+   ]
+  },
+  "2313629": {
+   "name": "Topfenauflauf mit Heidelbeerragout",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    56
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/788a24ea-6972-4bc3-8a36-a6dfc5467dee.png"
+   ]
+  },
+  "2313630": {
+   "name": "MSC-Seelachs Bordelaise mit cremiger Polenta und Grillgemüse",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    44
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/5e070442-47df-4b9c-9f2e-d39df58fe806.png"
+   ]
+  },
+  "2313631": {
+   "name": "Rindsroulade mit Kartoffelpüree",
+   "has_image_url": false,
+   "dish_pages_pdf": [
+    37
+   ],
+   "page_png_1000": [
+    "https://epaper.gourmet.at/api/scope/_client/asset/3991841/format/p2fdocument/content/data/866f031e-d837-4250-96fb-2c62cdcab9e5.png"
+   ]
+  }
+ }
+}
