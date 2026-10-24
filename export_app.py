@@ -756,6 +756,15 @@ def _reconcile_sc48(out):
                     if chk_date:
                         r['availability_checked'] = chk_date
                     r['rankable'] = r.get('meal_class') == 'meal' and not bool(r.get('linz_excluded')) and _sc50_rank_guard(r)
+                    # sensecheck 54 P1: back-in-stock rows get their PLI back (baseline carries pli=None for old sold-out rows)
+                    if os.environ.get('SC54_BACKINSTOCK', '1') != '0':
+                        if r.get('score') is not None and r.get('protPor') and r.get('pPorEff'):
+                            _pe = min(100.0, (r['protPor'] / r['pPorEff']) * 5.0)
+                            if r['rankable']:
+                                r['pli'] = round(0.5 * r['score'] + 0.5 * _pe, 1)
+                            elif r.get('meal_class') == 'light_meal':
+                                r['pliLight'] = round(0.5 * r['score'] + 0.5 * _pe, 1)
+                        changed_uids.add(r['uid'])
             can['soldOut'] = {
                 'checked': av.get('checked'),
                 'rows': len(unav),
