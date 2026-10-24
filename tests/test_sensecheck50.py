@@ -7,7 +7,7 @@ TOP = ('topPLI', 'topPLIUncapped', 'topHealth', 'topHealthUncapped', 'topPE', 't
 def _export(tmp_path, name, **env):
     out = tmp_path / f'{name}.json'
     e = dict(os.environ, GOOD_CHOICE_OUT=str(out), **env)
-    e.pop('ENFORCE_SHIPBOX_CAP', None) if 'ENFORCE_SHIPBOX_CAP' not in env else None
+    e.pop('ENFORCE_SHIPBOX_CAP', None) if 'ENFORCE_SHIPBOX_CAP' not in env else None  # unset -> sensecheck 51 default shipBox = 6
     subprocess.run([sys.executable, 'export_app.py'], cwd=ROOT, env=e, check=True, capture_output=True)
     return json.load(open(out))
 
@@ -17,7 +17,7 @@ def canon():
 
 @pytest.mark.skipif(not os.path.exists(os.path.join(ROOT, 'sc48_baseline.json')), reason='baseline missing')
 def test_forced_recompute_reproduces_canonical_top_lists(tmp_path, canon):
-    d = _export(tmp_path, 'force', SC50_FORCE_RECOMPUTE='1')
+    d = _export(tmp_path, 'force', SC50_FORCE_RECOMPUTE='1', ENFORCE_SHIPBOX_CAP='0')
     for k in TOP:
         assert d[k] == canon[k], k
     assert sum(bool(r.get('rankable')) for r in d['rows']) == sum(bool(r.get('rankable')) for r in canon['rows'])
@@ -48,3 +48,22 @@ def test_rank_guard_and_shipbox_set():
                 dict(dupOf=3), dict(flags=['Duplikat (x)'])):
         assert not g({**ok, **bad}), bad
     assert 'bofrost' not in ns['SC50_SHIPBOX_STORES'] and 'PrepMyMeal' in ns['SC50_SHIPBOX_STORES']
+
+@pytest.mark.skipif(not os.path.exists(os.path.join(ROOT, 'sc48_baseline.json')), reason='baseline missing')
+def test_sc51_default_is_shipbox6_and_uidtop_has_8_keys(tmp_path, canon):
+    d = _export(tmp_path, 'default')
+    c = _export(tmp_path, 'cap1', ENFORCE_SHIPBOX_CAP='1')
+    for k in TOP:
+        assert d[k] == c[k], k
+    by = {r['id']: r for r in d['rows']}
+    assert collections.Counter(by[i]['store'] for i in d['topPLI'])['PrepMyMeal'] == 6
+    assert set(d['uidTop']) == set(TOP)
+    for k in TOP:
+        assert d['uidTop'][k] == [by[i]['uid'] for i in d[k]], k
+    # no shared variantIds mutation: rows identical to canonical apart from recompute
+    assert [r.get('variantIds') for r in d['rows']] == [r.get('variantIds') for r in canon['rows']]
+
+def test_sc51_default_off_switch(tmp_path, canon):
+    d = _export(tmp_path, 'off', ENFORCE_SHIPBOX_CAP='0')
+    for k in TOP:
+        assert d[k] == canon[k], k

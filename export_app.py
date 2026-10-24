@@ -655,7 +655,8 @@ def _reconcile_sc48(out):
     changed_uids = {u for u, h in cur_by_uid.items() if old_by_uid.get(u) != h}
     removed_uids = set(old_by_uid.keys()) - set(cur_by_uid.keys())
     files_changed = (cur_files != old_files)
-    topcap_changed = (out.get('topCap') != can.get('topCap')) or bool(os.environ.get('ENFORCE_SHIPBOX_CAP')) or bool(os.environ.get('SC50_FORCE_RECOMPUTE'))
+    shipbox_on = os.environ.get('ENFORCE_SHIPBOX_CAP', '1') != '0'  # sensecheck 51: shipBox = 6 is the default; ENFORCE_SHIPBOX_CAP=0 reproduces 2484311
+    topcap_changed = (out.get('topCap') != can.get('topCap')) or shipbox_on or bool(os.environ.get('SC50_FORCE_RECOMPUTE'))
 
     if not changed_uids and not removed_uids and not new_items and not files_changed and not topcap_changed:
         return can
@@ -761,7 +762,7 @@ def _reconcile_sc48(out):
                                                  if isinstance(v, dict) and (v.get('box') or 0) > 1 and (v.get('shipping_eur') or 0) > 0}
     cap_n = (can.get('topCap') or {}).get('n', 30)
     cap_prov = (can.get('topCap') or {}).get('perProvider', 10)
-    cap_ship = (can.get('topCap') or {}).get('shipBox', 6) if os.environ.get('ENFORCE_SHIPBOX_CAP') else cap_prov
+    cap_ship = (can.get('topCap') or {}).get('shipBox', 6) if shipbox_on else cap_prov
 
     def _recap(cand_ids):
         by_id = {r['id']: r for r in rows}
@@ -786,7 +787,7 @@ def _reconcile_sc48(out):
         # (filtering the 30-entry uncapped list shrank topPLI to 20). Proven identical to 2484311 when nothing changed.
         def _cap_for(st):
             return cap_ship if st in ship_box_stores else cap_prov
-        crow = [dict(r) for r in rows]
+        crow = [{**r, 'variantIds': list(r['variantIds'])} if 'variantIds' in r else dict(r) for r in rows]  # sensecheck 51: no shared variantIds mutation
         _base = lambda r: r.get('rankable') and not r.get('sold_out') and r.get('gang') != 'vorspeise'
         for key, flt, fn in (
             ('PLI', lambda r: _base(r) and r.get('pli') is not None, lambda r: r['pli']),
@@ -806,7 +807,7 @@ def _reconcile_sc48(out):
         by_id = {r['id']: r for r in rows}
         can['uidTop'] = {
             k: [by_id[i]['uid'] for i in can.get(k, []) if i in by_id]
-            for k in ('topPLI', 'topHealth', 'topPE', 'topLight', 'topPLIUncapped')
+            for k in ('topPLI', 'topPLIUncapped', 'topHealth', 'topHealthUncapped', 'topPE', 'topPEUncapped', 'topLight', 'topLightUncapped')  # sensecheck 51: all 8 keys
             if k in can
         }
         can['dataVersion'] = hashlib.sha256(json.dumps(rows, sort_keys=True, ensure_ascii=False).encode()).hexdigest()[:12]
