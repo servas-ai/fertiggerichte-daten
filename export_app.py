@@ -927,6 +927,240 @@ def _reconcile_sc48(out):
                         _rdup['rank_excluded_reason'] = 'Trockensuppe (kein Fertiggericht)'
                         changed_uids.add(_rdup['uid'])
 
+                # sensecheck 59 (SC57 P2 Linzer Lokal-Hebel):
+                # 1. Fit to Go (#1435-#1464, #2749): fix 5 misclassified full meals (#1436, #1437, #1441, #1443, #1455)
+                #    so all 25 verified full meals pass isFullMeal / passesLightScore (fittogo.at publishes only
+                #    KCAL/PROTEIN/CARBS/FETT in meal_nutrients; sat & salt remain None without estimation).
+                # 2. 9 Billa & 17 Hofer fresh-2026 priceOnly rows: backfill verified nutrition & EANs for 7 products
+                #    (#876 Aumaerk Beef Loyal Sous Vide from Billa label photo; #860/#861/#862 Asia Green Garden Udon bowls
+                #    and #1228/#1229/#1235 Hofer chilled items from verified OpenFoodFacts label entries), link #3487 EAN,
+                #    and reclassify non-ready-meal items (#0, #1, #6 raw butcher meat; #3536 dry spice; #3579-#3581/#3583
+                #    cut fruit cups; #859 canned pickled mushrooms) with explicit rank_excluded_reason.
+                if os.environ.get('SC59_LINZ_LOKAL', '1') != '0' and os.environ.get('GOOD_CHOICE_DISABLE_SC59', '0') != '1':
+                    # Part 1: Fit to Go full-meal classification fixes
+                    for _ftg_id, _ftg_port, _ftg_kcal, _ftg_prot in (
+                        (1436, 400, 488, 46.0),
+                        (1437, 360, 537, 38.9),
+                        (1441, 450, 552, 30.1),
+                        (1443, 400, 456, 36.0),
+                        (1455, 420, 483, 29.0),
+                    ):
+                        _rftg = _pmm_by_id.get(_ftg_id)
+                        if _rftg is not None and _rftg.get('store') == 'Fit to Go':
+                            _rftg['stage'] = 'meal'
+                            _rftg['gang'] = 'haupt'
+                            _rftg['meal_class'] = 'meal'
+                            _rftg['component'] = False
+                            _rftg['meal_check'] = {
+                                'portion': _ftg_port,
+                                'kcal': _ftg_kcal,
+                                'protein': _ftg_prot,
+                                'ok': True,
+                                'cls': 'meal',
+                                'reason': None,
+                            }
+                            _rftg['flags'] = [
+                                f for f in (_rftg.get('flags') or [])
+                                if 'Proteinkomponente' not in f and 'Brot/Snack/Instant' not in f
+                            ]
+                            changed_uids.add(_rftg['uid'])
+
+                    # Part 2A: Billa #876 Aumaerk Beef Loyal Sous Vide (350 g, €13.99, verified back-of-pack label)
+                    _r876 = _pmm_by_id.get(876)
+                    if _r876 is not None and _r876.get('store') == 'Billa':
+                        _r876['ean'] = '9120077263045'
+                        _r876['kcal'] = 154.0
+                        _r876['p100'] = 26.6
+                        _r876['fat'] = 5.1
+                        _r876['sat'] = 2.2
+                        _r876['carbs'] = 0.3
+                        _r876['sugar'] = 0.3
+                        _r876['salt'] = 1.53
+                        _r876['kcalPor'] = 539.0
+                        _r876['kcal_meal'] = 539
+                        _r876['kcalpack'] = 539.0
+                        _r876['protPor'] = 93.1
+                        _r876['protpack'] = 93.1
+                        _r876['saltPor'] = 5.36
+                        _r876['saltPct'] = 89
+                        _r876['ppe'] = 6.7
+                        _r876['eur10p'] = 1.5
+                        _r876['eur100k'] = 2.6
+                        _r876['priceOnly'] = False
+                        _r876['incomplete'] = False
+                        _r876['nutrition_source'] = 'https://shop.billa.at/produkte/aumaerk-beef-loyal-sous-vide-00763187'
+                        _x876 = {
+                            'name': _r876.get('name'), 'size_g': 350.0, 'packaging': _r876.get('pack'),
+                            'kcal_100': 154.0, 'protein_100': 26.6, 'fat_100': 5.1,
+                            'satfat_100': 2.2, 'carbs_100': 0.3, 'sugar_100': 0.3,
+                            'fiber_100': None, 'salt_100': 1.53,
+                            'ingredients': 'Rindfleisch 97%, Speisesalz, Gewürze, Zwiebel, Karotte, Pastinake, Karamell, Maltodextrin, Sonnenblumenöl',
+                            'store': 'Billa',
+                        }
+                        _v876 = V2.score_v2(_x876)
+                        _r876['score'] = _v876.get('health_score')
+                        _r876['score_parts'] = _v876.get('score_parts')
+                        _r876['day_pct'] = _v876.get('day_pct')
+                        _r876['nova'] = _v876.get('nova')
+                        _r876['nova_source'] = _v876.get('nova_source')
+                        _r876['veg_pct'] = _v876.get('veg_pct')
+                        _r876['veg_source'] = _v876.get('veg_source')
+                        _r876['stage'] = 'prot'
+                        _r876['gang'] = 'zutat'
+                        _r876['meal_class'] = 'protein_component'
+                        _r876['component'] = True
+                        _r876['meal_check'] = {
+                            'portion': 350, 'kcal': 539, 'protein': 93.1,
+                            'ok': False, 'cls': 'protein_component',
+                            'reason': 'Proteinkomponente ohne Sättigungsbeilage (kein vollständiges Fertiggericht)',
+                        }
+                        _r876['rank_excluded_reason'] = 'Proteinkomponente ohne Sättigungsbeilage (kein vollständiges Fertiggericht)'
+                        _r876['rankable'] = False
+                        _r876['flags'] = [f for f in (_r876.get('flags') or []) if 'Nährwerte fehlen' not in f]
+                        changed_uids.add(_r876['uid'])
+
+                    # Other 8 Billa non-ready-meal rows
+                    for _raw_id in (0, 1, 6):
+                        _rraw = _pmm_by_id.get(_raw_id)
+                        if _rraw is not None and _rraw.get('store') == 'Billa':
+                            _rraw['stage'] = 'prot'
+                            _rraw['gang'] = 'zutat'
+                            _rraw['meal_class'] = 'raw_ingredient'
+                            _rraw['component'] = True
+                            _rraw['meal_check'] = {'ok': False, 'cls': 'raw_ingredient', 'reason': 'Rohes Gulasch-/Ragoutfleisch (kein Fertiggericht)'}
+                            _rraw['rank_excluded_reason'] = 'Rohes Gulasch-/Ragoutfleisch (kein Fertiggericht)'
+                            changed_uids.add(_rraw['uid'])
+
+                    _r3536 = _pmm_by_id.get(3536)
+                    if _r3536 is not None and _r3536.get('store') == 'Billa':
+                        _r3536['stage'] = 'sauce'
+                        _r3536['gang'] = 'zutat'
+                        _r3536['meal_class'] = 'condiment_or_base'
+                        _r3536['dry'] = True
+                        _r3536['ppk'] = 69.53
+                        _r3536['p100g'] = 6.95
+                        _r3536.pop('kiloErr', None)
+                        _r3536['meal_check'] = {'ok': False, 'cls': 'condiment_or_base', 'reason': 'Gewürzmischung (kein Fertiggericht)'}
+                        _r3536['rank_excluded_reason'] = 'Gewürzmischung (kein Fertiggericht)'
+                        _r3536['flags'] = [f for f in (_r3536.get('flags') or []) if '€/kg' not in f]
+                        changed_uids.add(_r3536['uid'])
+
+                    for _fr_id in (3579, 3580, 3581, 3583):
+                        _rfr = _pmm_by_id.get(_fr_id)
+                        if _rfr is not None and _rfr.get('store') == 'Billa':
+                            _rfr['stage'] = 'sweet'
+                            _rfr['gang'] = 'dessert'
+                            _rfr['meal_class'] = 'dessert'
+                            _rfr['meal_check'] = {'ok': False, 'cls': 'dessert', 'reason': 'Frischer Obstbecher (kein Hauptgericht)'}
+                            _rfr['rank_excluded_reason'] = 'Frischer Obstbecher (kein Hauptgericht)'
+                            changed_uids.add(_rfr['uid'])
+
+                    # Part 2B: Hofer verified OpenFoodFacts backfills (#860, #861, #862, #1228, #1229, #1235) + #859 & #3487
+                    for _hid, _ean, _sz, _kcal, _p100, _fat, _sat, _carbs, _sugar, _fib, _salt, _ing_override, _mc_override in (
+                        (860, '4061461867645', 249.0, 141.0, 3.4, 1.2, 0.2, 28.0, 6.3, None, 0.8, None, None),
+                        (861, '4061461867669', 252.0, 171.0, 4.8, 4.7, 0.9, 26.0, 4.5, None, 0.76, None, None),
+                        (862, '4061461867683', 249.0, 145.0, 3.2, 1.3, 0.2, 29.0, 0.5, None, 1.0, None, None),
+                        (1228, '4061458049443', 430.0, 215.0, 9.6, 7.8, 3.3, 25.5, 3.7, 2.1, 1.33,
+                         'Weizenmehl, passierte Tomaten, Edamer, Calabrese-Salami, Peperoni, Rapsöl, Hefe, Speisesalz', None),
+                        (1229, '4061458049436', 430.0, 223.0, 11.0, 8.3, 2.8, 25.0, 3.6, None, 1.4,
+                         'Weizenmehl, passierte Tomaten, Edamer, Kochschinken, Speisesalz, Hefe, Rapsöl', None),
+                        (1235, '4061458041997', 250.0, 252.0, 5.7, 12.0, 5.9, 30.0, 13.0, None, 1.2, None, 'snack_side'),
+                    ):
+                        _rh = _pmm_by_id.get(_hid)
+                        if _rh is not None and _rh.get('store') == 'Hofer':
+                            _rh['ean'] = _ean
+                            _rh['size'] = _sz
+                            _rh['portion'] = int(_sz)
+                            _rh['portion_g'] = int(_sz)
+                            _rh['portion_source'] = 'pack_single'
+                            _rh['kcal'] = _kcal
+                            _rh['p100'] = _p100
+                            _rh['fat'] = _fat
+                            _rh['sat'] = _sat
+                            _rh['carbs'] = _carbs
+                            _rh['sugar'] = _sugar
+                            if _fib is not None:
+                                _rh['fib'] = _fib
+                            _rh['salt'] = _salt
+                            if _ing_override is not None and not _rh.get('ing'):
+                                _rh['ing'] = _ing_override
+                            _rh['priceOnly'] = False
+                            _rh['incomplete'] = False
+                            _rh['nutrition_source'] = f'https://world.openfoodfacts.org/product/{_ean}'
+                            _pr_h = _rh.get('price')
+                            if _pr_h:
+                                _rh['ppk'] = round(_pr_h / (_sz / 1000.0), 2)
+                                _rh['p100g'] = round(_pr_h / (_sz / 100.0), 2)
+                                _rh['pPor'] = _pr_h
+                                _rh['pPorEff'] = _pr_h
+                            _xh = {
+                                'name': _rh.get('name'), 'size_g': _sz, 'packaging': _rh.get('pack'),
+                                'kcal_100': _kcal, 'protein_100': _p100, 'fat_100': _fat,
+                                'satfat_100': _sat, 'carbs_100': _carbs, 'sugar_100': _sugar,
+                                'fiber_100': _rh.get('fib'), 'salt_100': _salt,
+                                'ingredients': _rh.get('ing'), 'store': 'Hofer',
+                            }
+                            _vh = V2.score_v2(_xh)
+                            _mch = V2.meal_check(_xh, _vh)
+                            _rh['score'] = _vh.get('health_score')
+                            _rh['score_parts'] = _vh.get('score_parts')
+                            _rh['day_pct'] = _vh.get('day_pct')
+                            _rh['nova'] = _vh.get('nova')
+                            _rh['nova_source'] = _vh.get('nova_source')
+                            _rh['veg_pct'] = _vh.get('veg_pct')
+                            _rh['veg_source'] = _vh.get('veg_source')
+                            _rh['kcal_meal'] = _vh.get('kcal_meal')
+                            _rh['kcalPor'] = round(_kcal * _sz / 100.0, 1)
+                            _rh['kcalpack'] = round(_kcal * _sz / 100.0, 1)
+                            _rh['protPor'] = round(_p100 * _sz / 100.0, 1)
+                            _rh['protpack'] = round(_p100 * _sz / 100.0, 1)
+                            _rh['saltPor'] = round(_salt * _sz / 100.0, 2)
+                            _rh['saltPct'] = int(round((_rh['saltPor'] / 6.0) * 100.0))
+                            if _pr_h and _rh['protPor'] > 0:
+                                _rh['ppe'] = round(_rh['protPor'] / _pr_h, 1)
+                                _rh['eur10p'] = round(_pr_h / (_rh['protpack'] / 10.0), 2)
+                            if _pr_h and _rh['kcalpack'] > 0:
+                                _rh['eur100k'] = round(_pr_h / (_rh['kcalpack'] / 100.0), 2)
+                            if _mc_override == 'snack_side':
+                                _rh['meal_class'] = 'snack_side'
+                                _rh['meal_check'] = {
+                                    'portion': int(_sz), 'kcal': _vh.get('kcal_meal'), 'protein': _rh['protPor'],
+                                    'ok': False, 'cls': 'snack_side', 'reason': 'Brot/Snack/Instant – keine Mahlzeit',
+                                }
+                            else:
+                                _rh['meal_class'] = _mch.get('cls')
+                                _rh['meal_check'] = _mch
+                            _rh['flags'] = [f for f in (_rh.get('flags') or []) if 'Nährwerte fehlen' not in f]
+                            if not _mch.get('ok') and _mch.get('reason'):
+                                _mflag = f"Mahlzeit-Check: {_mch['reason']}"
+                                if _mflag not in _rh['flags']:
+                                    _rh['flags'].append(_mflag)
+                            if (
+                                _rh.get('meal_class') == 'light_meal'
+                                and 300 <= (_rh.get('kcal_meal') or 0) < 400
+                                and (_rh.get('score') or 0) >= 30
+                                and _rh.get('pstat') == 'live 2026'
+                                and _pr_h
+                            ):
+                                _rh['pliLight'] = round(0.5 * _rh['score'] + 0.5 * min((_rh['protPor'] / _pr_h) / 20.0, 1.0) * 100.0, 1)
+                                _rh['rankableLight'] = True
+                            changed_uids.add(_rh['uid'])
+
+                    _r859 = _pmm_by_id.get(859)
+                    if _r859 is not None and _r859.get('store') == 'Hofer':
+                        _r859['stage'] = 'veg'
+                        _r859['gang'] = 'zutat'
+                        _r859['meal_class'] = 'component'
+                        _r859['component'] = True
+                        _r859['meal_check'] = {'ok': False, 'cls': 'component', 'reason': 'Pilzkonserve (kein Fertiggericht)'}
+                        _r859['rank_excluded_reason'] = 'Pilzkonserve (kein Fertiggericht)'
+                        changed_uids.add(_r859['uid'])
+
+                    _r3487 = _pmm_by_id.get(3487)
+                    if _r3487 is not None and _r3487.get('store') == 'Hofer':
+                        _r3487['ean'] = '4069365963722'
+                        changed_uids.add(_r3487['uid'])
+
     # Check latest online_availability_*.json
     av_files = sorted(glob.glob(os.path.join(base_dir, 'analysis/online_availability_*.json')))
     if os.environ.get('GOOD_CHOICE_AVAILABILITY'):  # sensecheck 52 P1: tests pin the snapshot the canonical baseline was built from
