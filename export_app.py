@@ -804,7 +804,7 @@ def _reconcile_sc48(out):
             r, k = _rb.get(_d), _rb.get(_k)
             if r is None or k is None or r.get('store') != _st or k.get('store') != _st or r.get('dupOf') is not None:
                 continue
-            r['dupOf'] = _k; r['rankable'] = False; r['pli'] = None; r['pliLight'] = None
+            r['dupOf'] = _k; r['dupOfUid'] = k['uid']; r['rankable'] = False; r['pli'] = None; r['pliLight'] = None
             r['flags'] = (r.get('flags') or []) + [_why]
             changed_uids.add(r['uid'])
         _m, _b = _rb.get(1769), _rb.get(455)

@@ -57,6 +57,7 @@ def test_p3_p4_dupof_links(tmp_path):
     by = {r['id']: r for r in d['rows']}
     for dup, keep in ((2859, 2854), (2822, 2821), (1534, 2861), (1535, 2805), (1536, 2863), (1770, 1769)):
         assert by[dup]['dupOf'] == keep and not by[dup]['rankable'], dup
+        assert by[dup]['dupOfUid'] == by[keep]['uid'], dup
         assert by[keep].get('dupOf') is None, keep
         for k in ('topPLI', 'topPLIUncapped', 'topHealth', 'topHealthUncapped', 'topPE', 'topPEUncapped', 'topLight', 'topLightUncapped'):
             assert dup not in d[k], (dup, k)
