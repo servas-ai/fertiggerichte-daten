@@ -3495,5 +3495,18 @@
    "Genusss-Manufaktur Bruckner KG (Nudelmanufaktur Yppenplatz)",
    "\"GENUSSS-MANUFAKTUR\" Bruckner KG"
   ]
+ },
+ {
+  "slug": "sperchenedergut",
+  "name": "Sperchenedergut",
+  "category": "Markenhersteller",
+  "file": "logos/sperchenedergut.png",
+  "source_url": "https://sperchenedergut.at/wp-content/uploads/Spercheneder-Gut-Logo-SCHWARZ.png (homepage logo 1000x500 palette PNG with transparency, robots allow; cropped to the ink bounding box +10 px, otherwise unmodified; vision gate PASS; file staged in fertiggerichte-daten scripts/logo_work_T1734 for the Orchestrator merge)",
+  "brands": [
+   "Sperchenedergut",
+   "Spercheneder Gut",
+   "Online: Sperchenedergut",
+   "Mayer Karl und Mayer Monika"
+  ]
  }
 ]

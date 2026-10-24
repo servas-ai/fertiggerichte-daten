@@ -1,0 +1,436 @@
+{
+ "source": "sperchenedergut.at public WooCommerce Store API (food-connectors sperchenedergut adapter)",
+ "fetched": "2026-10-24T1734",
+ "robots": "User-agent * disallows only wp-admin, WooCommerce upload/log folders and ?add-to-cart= URLs",
+ "operator": {
+  "name": "Sperchenedergut Monika und Karl Mayer",
+  "address": "Wasserdobl 16, 5251 Aspach",
+  "uid": "ATU76061208",
+  "authority": "Bezirkshauptmannschaft Braunau am Inn",
+  "source": "https://sperchenedergut.at/impressum/"
+ },
+ "shipping_at": {
+  "source": "https://sperchenedergut.at/versand-und-lieferzeiten-bio-angusrind/",
+  "quote": "Die Versandkosten werden je Warenkorb berechnet und betragen € 9,90. Ab einem Warenkorb von € 150,– versenden wir kostenlos.",
+  "method": "Kühlversand der Post, Zustellung Di–Fr",
+  "fee_eur": 9.9,
+  "free_from_eur": 150.0,
+  "conflict": "some product pages show 'Versandkostenfrei ab € 120,–' in a service box; the shipping page and site banner say 150 € → 150 € used",
+  "delivers_linz": true,
+  "delivers_linz_basis": "Österreichische Post Kühlversand ab Aspach OÖ; no restricted area named"
+ },
+ "vision_gate": {
+  "photos": "3/3 PASS (real jar packshots, printed label names the dish, BIO seal on lid)",
+  "logo": "PASS (official homepage logo)"
+ },
+ "kept": 3,
+ "with_nutrition": 0,
+ "with_gtin": 0,
+ "excluded": [
+  {
+   "id": 3525,
+   "name": "Gutschein",
+   "categories": [
+    "Gutschein"
+   ],
+   "reason": "kein Fertiggericht der Kategorie 'Fertiggerichte' (Fleisch, Geschenkbox-Duplikat, Gutschein, T-Shirt)"
+  },
+  {
+   "id": 3520,
+   "name": "T-Shirt &#8222;(S)teak it easy&#8220;",
+   "categories": [
+    "T-Shirt"
+   ],
+   "reason": "kein Fertiggericht der Kategorie 'Fertiggerichte' (Fleisch, Geschenkbox-Duplikat, Gutschein, T-Shirt)"
+  },
+  {
+   "id": 3515,
+   "name": "T-Shirt &#8222;Grilling me softly&#8220;",
+   "categories": [
+    "T-Shirt"
+   ],
+   "reason": "kein Fertiggericht der Kategorie 'Fertiggerichte' (Fleisch, Geschenkbox-Duplikat, Gutschein, T-Shirt)"
+  },
+  {
+   "id": 2557,
+   "name": "Beuschel vom Bio-Angusrind (handgeschnitten)",
+   "categories": [],
+   "reason": "kein Fertiggericht der Kategorie 'Fertiggerichte' (Fleisch, Geschenkbox-Duplikat, Gutschein, T-Shirt)"
+  },
+  {
+   "id": 2555,
+   "name": "Gulaschsuppe vom Bio-Angusrind",
+   "categories": [],
+   "reason": "kein Fertiggericht der Kategorie 'Fertiggerichte' (Fleisch, Geschenkbox-Duplikat, Gutschein, T-Shirt)"
+  },
+  {
+   "id": 2553,
+   "name": "Chili con Carne",
+   "categories": [],
+   "reason": "kein Fertiggericht der Kategorie 'Fertiggerichte' (Fleisch, Geschenkbox-Duplikat, Gutschein, T-Shirt)"
+  },
+  {
+   "id": 2552,
+   "name": "Rinderfond vom Bio-Angusrind",
+   "categories": [],
+   "reason": "kein Fertiggericht der Kategorie 'Fertiggerichte' (Fleisch, Geschenkbox-Duplikat, Gutschein, T-Shirt)"
+  },
+  {
+   "id": 2549,
+   "name": "Bolognese vom Bio-Angusrind",
+   "categories": [],
+   "reason": "kein Fertiggericht der Kategorie 'Fertiggerichte' (Fleisch, Geschenkbox-Duplikat, Gutschein, T-Shirt)"
+  },
+  {
+   "id": 1372,
+   "name": "Bratenfleisch vom Bio Angusrind",
+   "categories": [
+    "Einzelne Fleischpakete"
+   ],
+   "reason": "kein Fertiggericht der Kategorie 'Fertiggerichte' (Fleisch, Geschenkbox-Duplikat, Gutschein, T-Shirt)"
+  },
+  {
+   "id": 1366,
+   "name": "Grillspieße vom Bio Angusrind (mariniert)",
+   "categories": [
+    "Grillsortiment"
+   ],
+   "reason": "kein Fertiggericht der Kategorie 'Fertiggerichte' (Fleisch, Geschenkbox-Duplikat, Gutschein, T-Shirt)"
+  },
+  {
+   "id": 1364,
+   "name": "Dry Aged Club Steak vom Bio-Angusrind",
+   "categories": [
+    "Special Cut&#039;s"
+   ],
+   "reason": "kein Fertiggericht der Kategorie 'Fertiggerichte' (Fleisch, Geschenkbox-Duplikat, Gutschein, T-Shirt)"
+  },
+  {
+   "id": 1362,
+   "name": "Dry Aged T-Bone Steak vom Bio-Angusrind",
+   "categories": [
+    "Special Cut&#039;s"
+   ],
+   "reason": "kein Fertiggericht der Kategorie 'Fertiggerichte' (Fleisch, Geschenkbox-Duplikat, Gutschein, T-Shirt)"
+  },
+  {
+   "id": 1356,
+   "name": "Rump Steak vom Bio-Angusrind",
+   "categories": [
+    "Special Cut&#039;s"
+   ],
+   "reason": "kein Fertiggericht der Kategorie 'Fertiggerichte' (Fleisch, Geschenkbox-Duplikat, Gutschein, T-Shirt)"
+  },
+  {
+   "id": 1354,
+   "name": "Ribeye Steak vom Bio-Angusrind",
+   "categories": [
+    "Special Cut&#039;s"
+   ],
+   "reason": "kein Fertiggericht der Kategorie 'Fertiggerichte' (Fleisch, Geschenkbox-Duplikat, Gutschein, T-Shirt)"
+  },
+  {
+   "id": 1350,
+   "name": "Dry Aged Prime Ribeye-Steak vom Bio-Angusrind",
+   "categories": [
+    "Special Cut&#039;s"
+   ],
+   "reason": "kein Fertiggericht der Kategorie 'Fertiggerichte' (Fleisch, Geschenkbox-Duplikat, Gutschein, T-Shirt)"
+  },
+  {
+   "id": 1346,
+   "name": "Dry Aged Porterhouse Steak vom Bio-Angusrind",
+   "categories": [
+    "Special Cut&#039;s"
+   ],
+   "reason": "kein Fertiggericht der Kategorie 'Fertiggerichte' (Fleisch, Geschenkbox-Duplikat, Gutschein, T-Shirt)"
+  },
+  {
+   "id": 1344,
+   "name": "Flank Steak vom Bio-Angusrind",
+   "categories": [
+    "Special Cut&#039;s"
+   ],
+   "reason": "kein Fertiggericht der Kategorie 'Fertiggerichte' (Fleisch, Geschenkbox-Duplikat, Gutschein, T-Shirt)"
+  },
+  {
+   "id": 1331,
+   "name": "Bolognese vom Bio-Angusrind",
+   "categories": [
+    "Fertiggerichte"
+   ],
+   "reason": "Fond/Sauce/Beilage"
+  },
+  {
+   "id": 1319,
+   "name": "Rinderfond vom Bio-Angusrind",
+   "categories": [
+    "Fertiggerichte"
+   ],
+   "reason": "Fond/Sauce/Beilage"
+  },
+  {
+   "id": 1175,
+   "name": "Geschenkbox aus 2 individuellen Fertiggerichten vom Bio-Angusrind",
+   "categories": [
+    "Geschenkbox"
+   ],
+   "reason": "kein Fertiggericht der Kategorie 'Fertiggerichte' (Fleisch, Geschenkbox-Duplikat, Gutschein, T-Shirt)"
+  },
+  {
+   "id": 1168,
+   "name": "Geschenkbox aus 3 individuellen Fertiggerichten vom Bio-Angusrind",
+   "categories": [
+    "Geschenkbox"
+   ],
+   "reason": "kein Fertiggericht der Kategorie 'Fertiggerichte' (Fleisch, Geschenkbox-Duplikat, Gutschein, T-Shirt)"
+  },
+  {
+   "id": 307,
+   "name": "Singlepaket 3,25 kg vom Bio Angusrind",
+   "categories": [
+    "Bio-Angus Paketangebote"
+   ],
+   "reason": "kein Fertiggericht der Kategorie 'Fertiggerichte' (Fleisch, Geschenkbox-Duplikat, Gutschein, T-Shirt)"
+  },
+  {
+   "id": 305,
+   "name": "Mischpaket 5 kg vom Bio-Angusrind",
+   "categories": [
+    "Bio-Angus Paketangebote"
+   ],
+   "reason": "kein Fertiggericht der Kategorie 'Fertiggerichte' (Fleisch, Geschenkbox-Duplikat, Gutschein, T-Shirt)"
+  },
+  {
+   "id": 304,
+   "name": "Leberknödel vom Bio-Angusrind",
+   "categories": [
+    "Fertiggerichte"
+   ],
+   "reason": "Fond/Sauce/Beilage"
+  },
+  {
+   "id": 293,
+   "name": "Burger-Patties vom Bio-Angusrind",
+   "categories": [
+    "Grillsortiment"
+   ],
+   "reason": "kein Fertiggericht der Kategorie 'Fertiggerichte' (Fleisch, Geschenkbox-Duplikat, Gutschein, T-Shirt)"
+  },
+  {
+   "id": 291,
+   "name": "Faschiertes vom Bio-Angusrind",
+   "categories": [
+    "Einzelne Fleischpakete"
+   ],
+   "reason": "kein Fertiggericht der Kategorie 'Fertiggerichte' (Fleisch, Geschenkbox-Duplikat, Gutschein, T-Shirt)"
+  },
+  {
+   "id": 290,
+   "name": "Filet vom Bio Angusrind",
+   "categories": [
+    "Einzelne Fleischpakete",
+    "Special Cut&#039;s"
+   ],
+   "reason": "kein Fertiggericht der Kategorie 'Fertiggerichte' (Fleisch, Geschenkbox-Duplikat, Gutschein, T-Shirt)"
+  },
+  {
+   "id": 254,
+   "name": "Beiried vom Bio Angusrind",
+   "categories": [
+    "Einzelne Fleischpakete"
+   ],
+   "reason": "kein Fertiggericht der Kategorie 'Fertiggerichte' (Fleisch, Geschenkbox-Duplikat, Gutschein, T-Shirt)"
+  },
+  {
+   "id": 253,
+   "name": "Rostbraten vom Bio Angusrind",
+   "categories": [
+    "Einzelne Fleischpakete"
+   ],
+   "reason": "kein Fertiggericht der Kategorie 'Fertiggerichte' (Fleisch, Geschenkbox-Duplikat, Gutschein, T-Shirt)"
+  },
+  {
+   "id": 252,
+   "name": "Hüft Steak vom Bio Angusrind",
+   "categories": [
+    "Special Cut&#039;s"
+   ],
+   "reason": "kein Fertiggericht der Kategorie 'Fertiggerichte' (Fleisch, Geschenkbox-Duplikat, Gutschein, T-Shirt)"
+  },
+  {
+   "id": 251,
+   "name": "Schnitzelfleisch vom Bio-Angusrind",
+   "categories": [
+    "Einzelne Fleischpakete"
+   ],
+   "reason": "kein Fertiggericht der Kategorie 'Fertiggerichte' (Fleisch, Geschenkbox-Duplikat, Gutschein, T-Shirt)"
+  },
+  {
+   "id": 217,
+   "name": "Gulaschfleisch vom Bio-Angusrind",
+   "categories": [
+    "Einzelne Fleischpakete"
+   ],
+   "reason": "kein Fertiggericht der Kategorie 'Fertiggerichte' (Fleisch, Geschenkbox-Duplikat, Gutschein, T-Shirt)"
+  },
+  {
+   "id": 181,
+   "name": "Suppenfleisch mit Knochen vom Bio Angusrind",
+   "categories": [
+    "Einzelne Fleischpakete"
+   ],
+   "reason": "kein Fertiggericht der Kategorie 'Fertiggerichte' (Fleisch, Geschenkbox-Duplikat, Gutschein, T-Shirt)"
+  }
+ ],
+ "products": [
+  {
+   "source": "sperchenedergut",
+   "store": "Online: Sperchenedergut",
+   "name": "Gulaschsuppe vom Bio-Angusrind",
+   "brand": "Sperchenedergut",
+   "price_eur": 9.5,
+   "unit_price_eur": null,
+   "unit": null,
+   "size_g": null,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://sperchenedergut.at/wp-content/uploads/shop-produkte-gulasch-01.jpg",
+   "producer": "Sperchenedergut Monika und Karl Mayer, Wasserdobl 16, 5251 Aspach (UID ATU76061208)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://sperchenedergut.at/produkt/gulaschsuppe-vom-angusrind/",
+   "source_id": "1338",
+   "fetched_at": "2026-10-24T17:39:32+00:00",
+   "extra": {
+    "wc_id": 1338,
+    "slug": "gulaschsuppe-vom-angusrind",
+    "in_stock": true,
+    "volume_ml": 330.0,
+    "portion_g": 300.0,
+    "bio_claim": true,
+    "short_description": "Menge: 330 ml Hausgemachte und hochwertige Gulaschsuppe vom Angusrind, gerade wenn man mal keine Zeit zum Kochen hat und trotzdem gute Lebensmittel am Tisch haben möchte. (300g entspricht einer Portion) Einfach erwärmen und genießen – egal ob zu Hause, unterwegs oder im Büro Es werden ausschließlich von uns persönlich ausgewählte Rohstoffe verarbeitet. Sorgfältig verarbeitet, um den Nährstoffgehalt zu erhalten. Keine Zusatzstoffe. Nur durch Erhitzen haltbar gemacht.",
+    "images": [
+     "https://sperchenedergut.at/wp-content/uploads/shop-produkte-gulasch-01.jpg",
+     "https://sperchenedergut.at/wp-content/uploads/image-gulaschsuppe-02.jpg",
+     "https://sperchenedergut.at/wp-content/uploads/shop-produkte-gulasch-03.jpg",
+     "https://sperchenedergut.at/wp-content/uploads/shop-produkte-gulasch-02.jpg"
+    ],
+    "price_note": "Preis je Glas inkl. MwSt. lt. WooCommerce Store API",
+    "shipping_note": "Post-Kühlversand (Di–Fr), 9,90 € je Warenkorb, versandkostenfrei ab 150 € lt. sperchenedergut.at/versand-und-lieferzeiten-bio-angusrind/"
+   }
+  },
+  {
+   "source": "sperchenedergut",
+   "store": "Online: Sperchenedergut",
+   "name": "Beuschel vom Bio-Angusrind (handgeschnitten)",
+   "brand": "Sperchenedergut",
+   "price_eur": 9.5,
+   "unit_price_eur": null,
+   "unit": null,
+   "size_g": null,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://sperchenedergut.at/wp-content/uploads/shop-produkte-beuschel-01.jpg",
+   "producer": "Sperchenedergut Monika und Karl Mayer, Wasserdobl 16, 5251 Aspach (UID ATU76061208)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://sperchenedergut.at/produkt/beuschel-vom-angusrind/",
+   "source_id": "1336",
+   "fetched_at": "2026-10-24T17:39:32+00:00",
+   "extra": {
+    "wc_id": 1336,
+    "slug": "beuschel-vom-angusrind",
+    "in_stock": true,
+    "volume_ml": 330.0,
+    "portion_g": 300.0,
+    "bio_claim": true,
+    "short_description": "Menge: 330 ml Hausgemachtes und handgeschnittenes Beuschel vom Angusrind, gerade wenn man mal keine Zeit zum Kochen hat und trotzdem gute Lebensmittel am Tisch haben möchte. (300 g entspricht einer Portion) Einfach erwärmen und genießen – egal ob zu Hause, unterwegs oder im Büro Traditionelles österreichisches Gericht mit viel Liebe gekocht Es werden ausschließlich von uns persönlich ausgewählte Rohstoffe verarbeitet. Sorgfältig verarbeitet, um den Nährstoffgehalt zu erhalten. Keine Zusatzstoffe. Nur durch Erhitzen haltbar gemacht.",
+    "images": [
+     "https://sperchenedergut.at/wp-content/uploads/shop-produkte-beuschel-01.jpg",
+     "https://sperchenedergut.at/wp-content/uploads/image-beuschel-01.jpg",
+     "https://sperchenedergut.at/wp-content/uploads/shop-produkte-beuschel-02.jpg",
+     "https://sperchenedergut.at/wp-content/uploads/shop-produkte-beuschel-03.jpg"
+    ],
+    "price_note": "Preis je Glas inkl. MwSt. lt. WooCommerce Store API",
+    "shipping_note": "Post-Kühlversand (Di–Fr), 9,90 € je Warenkorb, versandkostenfrei ab 150 € lt. sperchenedergut.at/versand-und-lieferzeiten-bio-angusrind/"
+   }
+  },
+  {
+   "source": "sperchenedergut",
+   "store": "Online: Sperchenedergut",
+   "name": "Chili con Carne vom Angusrind",
+   "brand": "Sperchenedergut",
+   "price_eur": 9.5,
+   "unit_price_eur": null,
+   "unit": null,
+   "size_g": null,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://sperchenedergut.at/wp-content/uploads/shop-produkte-chili-01.jpg",
+   "producer": "Sperchenedergut Monika und Karl Mayer, Wasserdobl 16, 5251 Aspach (UID ATU76061208)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://sperchenedergut.at/produkt/chiliconcarne-vom-angusrind/",
+   "source_id": "1333",
+   "fetched_at": "2026-10-24T17:39:32+00:00",
+   "extra": {
+    "wc_id": 1333,
+    "slug": "chiliconcarne-vom-angusrind",
+    "in_stock": true,
+    "volume_ml": 330.0,
+    "portion_g": 300.0,
+    "bio_claim": true,
+    "short_description": "Menge: 330 ml Hausgemachtes und hochwertiges Bio Chili con Carne vom Angusrind, gerade wenn man mal keine Zeit zum Kochen hat und trotzdem gute Lebensmittel am Tisch haben möchte. (300 g entspricht einer Portion) Es werden ausschließlich von uns persönlich ausgewählte Rohstoffe verarbeitet. Sorgfältig verarbeitet, um den Nährstoffgehalt zu erhalten. Keine Zusatzstoffe. Nur durch Erhitzen haltbar gemacht.",
+    "images": [
+     "https://sperchenedergut.at/wp-content/uploads/shop-produkte-chili-01.jpg",
+     "https://sperchenedergut.at/wp-content/uploads/image-chili-con-carne-01.jpg",
+     "https://sperchenedergut.at/wp-content/uploads/shop-produkte-chili-02.jpg",
+     "https://sperchenedergut.at/wp-content/uploads/shop-produkte-chili-03.jpg",
+     "https://sperchenedergut.at/wp-content/uploads/shop-produkte-chili-04.jpg"
+    ],
+    "price_note": "Preis je Glas inkl. MwSt. lt. WooCommerce Store API",
+    "shipping_note": "Post-Kühlversand (Di–Fr), 9,90 € je Warenkorb, versandkostenfrei ab 150 € lt. sperchenedergut.at/versand-und-lieferzeiten-bio-angusrind/"
+   }
+  }
+ ],
+ "logo": {
+  "slug": "sperchenedergut",
+  "name": "Sperchenedergut",
+  "category": "Markenhersteller",
+  "file": "logos/sperchenedergut.png",
+  "source_url": "https://sperchenedergut.at/wp-content/uploads/Spercheneder-Gut-Logo-SCHWARZ.png (homepage logo 1000x500 palette PNG with transparency, robots allow; cropped to the ink bounding box +10 px, otherwise unmodified; vision gate PASS; file staged in fertiggerichte-daten scripts/logo_work_T1734 for the Orchestrator merge)",
+  "brands": [
+   "Sperchenedergut",
+   "Spercheneder Gut",
+   "Online: Sperchenedergut",
+   "Mayer Karl und Mayer Monika"
+  ]
+ },
+ "company_evidence": {
+  "vies": {
+   "countryCode": "AT",
+   "vatNumber": "U76061208",
+   "requestDate": "2026-10-24T17:36:51.931Z",
+   "valid": true,
+   "requestIdentifier": "",
+   "name": "Mayer Karl und Mayer Monika",
+   "address": "Wasserdobl 16\nAT-5251 Aspach",
+   "traderName": "---",
+   "traderStreet": "---",
+   "traderPostalCode": "---",
+   "traderCity": "---",
+   "traderCompanyType": "---",
+   "traderNameMatch": "NOT_PROCESSED",
+   "traderStreetMatch": "NOT_PROCESSED",
+   "traderPostalCodeMatch": "NOT_PROCESSED",
+   "traderCityMatch": "NOT_PROCESSED",
+   "traderCompanyTypeMatch": "NOT_PROCESSED"
+  },
+  "gleif_fulltext_query": "Sperchenedergut",
+  "gleif_hits": 0
+ }
+}

@@ -8267,5 +8267,61 @@
    "https://venatio.at/wp/",
    "https://venatio.at/wp/?page_id=24838"
   ]
+ },
+ {
+  "slug": "sperchenedergut",
+  "name": "Sperchenedergut",
+  "role": "producer",
+  "legal_name": "Mayer Karl und Mayer Monika (Sperchenedergut)",
+  "lei": null,
+  "register_id": null,
+  "register_authority": null,
+  "fn": null,
+  "legal_form_code": null,
+  "country": "AT",
+  "address": "Wasserdobl 16, 5251 Aspach, AT",
+  "entity_status": "UID aktiv (VIES valid); kein Firmenbucheintrag veröffentlicht (landwirtschaftlicher Betrieb)",
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": null,
+  "owners": "Monika und Karl Mayer (lt. Impressum)",
+  "management": null,
+  "employees": null,
+  "revenue": null,
+  "website": "https://sperchenedergut.at",
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Sperchenedergut",
+   "Spercheneder Gut"
+  ],
+  "chains": [
+   "Online: Sperchenedergut"
+  ],
+  "product_count": 3,
+  "median_price_eur": 9.5,
+  "median_eur_per_10g_protein": null,
+  "nace": "Landwirtschaftliche Produktion und Direktvermarktung von Bio-Fleisch sowie Fleischprodukten (Unternehmensgegenstand lt. Impressum)",
+  "sources": [
+   "https://sperchenedergut.at/impressum/",
+   "https://ec.europa.eu/taxation_customs/vies/",
+   "https://api.gleif.org/api/v1/lei-records?filter[fulltext]=Sperchenedergut (0 hits)"
+  ],
+  "gleif_match_score": null,
+  "fetched_at": "2026-10-24T1734",
+  "chain_product_count": 3,
+  "hrb": null,
+  "former_names": null,
+  "registry_status": "verified_vies+impressum (UID ATU76061208 VIES valid, name 'Mayer Karl und Mayer Monika' + address Wasserdobl 16, AT-5251 Aspach = Impressum)",
+  "share_capital": null,
+  "register_status": null,
+  "register_entry_date": null,
+  "register_court": null,
+  "imprint_url": "https://sperchenedergut.at/impressum/",
+  "uid": "ATU76061208",
+  "uid_vies_name": "Mayer Karl und Mayer Monika",
+  "uid_vies_address": "Wasserdobl 16, AT-5251 Aspach",
+  "uid_checked_at": "2026-10-24T17:36:51.931Z"
  }
 ]
