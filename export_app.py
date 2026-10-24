@@ -1161,6 +1161,106 @@ def _reconcile_sc48(out):
                         _r3487['ean'] = '4069365963722'
                         changed_uids.add(_r3487['uid'])
 
+                    # sensecheck 60 (SC60):
+                    # 1. Spar #176 (S-BUDGET Rindsgulasch 400 G, p/7442025): backfill verified satfat_100=1.6 & fiber_100=0.9
+                    #    from official SPAR Produktwelt / INTERSPAR (plus image from duplicate #1116) -> score 48.8, pli 55.8, rankable.
+                    # 2. Spar #1162 (Inzersdorfer Rindsgulasch 800 G, p/145930): backfill verified satfat_100=1.6, EAN 9017100001050,
+                    #    manufacturer metadata & 2-portion (400 g) split from INTERSPAR twin #97 ('2 Portionen') & MPreis twin #2445
+                    #    -> score 45.7, pli 41.3, rankable; update MPreis #2445 rank_excluded_reason accordingly.
+                    # 3. Spar #95 (Inzersdorfer Riesenbohnengulasch 400 G, p/412568): backfill verified satfat_100=2.1 from official
+                    #    SPAR Produktwelt / INTERSPAR -> score 25.4 (< 30, remains non-rankable with explicit score reason).
+                    # 4. OFF #1382 (Suppe Thai Chili, EAN 4049162022976): clear implausible 2.0 g pack size artefact and mark as dry soup.
+                    if os.environ.get('SC60_FIXES', '1') != '0' and os.environ.get('GOOD_CHOICE_DISABLE_SC60', '0') != '1':
+                        _r176 = _pmm_by_id.get(176)
+                        if _r176 is not None and _r176.get('store') == 'Spar':
+                            _r176['sat'] = 1.6
+                            _r176['fib'] = 0.9
+                            _r176['img'] = _r176.get('img') or 'https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/7442025/dt_main.jpg'
+                            _r176['incomplete'] = False
+                            _r176['nutrition_source'] = 'SPAR Produktwelt / INTERSPAR Webshop (p/7442025, je 100 g unzubereitet) 2026-10-24'
+                            _r176['score'] = 48.8
+                            _r176['scoreV1'] = 49.9
+                            _r176['score_parts'] = {'base': 30.0, 'protein': 30.7, 'salt': -7.1, 'satfat': -0.3, 'sugar': 0.0, 'fiber': 1.5, 'veg': 0, 'nova': -3, 'portion_salt': -8, 'portion_protein': 5}
+                            _r176['day_pct'] = {'kcal': 21, 'protein': 75, 'salt': 73, 'satfat': 32, 'sugar': 2, 'fiber': 12}
+                            _r176['meal_class'] = 'meal'
+                            _r176['meal_check'] = {'portion': 400, 'kcal': 428, 'protein': 37.6, 'ok': True, 'cls': 'meal', 'reason': None}
+                            _r176['flags'] = [f for f in (_r176.get('flags') or []) if 'Score unvollständig' not in f]
+                            _r176['rankable'] = True
+                            _r176['pli'] = 55.8
+                            changed_uids.add(_r176['uid'])
+
+                        _r1162 = _pmm_by_id.get(1162)
+                        if _r1162 is not None and _r1162.get('store') == 'Spar':
+                            _r1162['sat'] = 1.6
+                            _r1162['ean'] = '9017100001050'
+                            _r1162['img'] = _r1162.get('img') or 'https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/145930/dt_main.jpg'
+                            _r1162['pid'] = 'AT 62028 EG'
+                            _r1162['herst'] = 'Landgenossenschaft Ennstal LANDENA KG'
+                            _r1162['ort'] = 'Erzherzog-Johann-Straße 303, 8950 Stainach-Pürgg'
+                            _r1162['state'] = 'Steiermark'
+                            _r1162['prodSlug'] = 'landena'
+                            _r1162['incomplete'] = False
+                            _r1162['nutrition_source'] = 'INTERSPAR Webshop (p/145930, Zwilling #97, 2 Portionen à 400 g)'
+                            _r1162['portion'] = 400
+                            _r1162['portion_g'] = 400
+                            _r1162['portion_source'] = 'name_portions'
+                            _r1162['pPor'] = 5.25
+                            _r1162['protPor'] = 38.8
+                            _r1162['kcalPor'] = 444.0
+                            _r1162['kcal_meal'] = 444
+                            _r1162['saltPor'] = 4.8
+                            _r1162['saltPct'] = 80
+                            _r1162['score'] = 45.7
+                            _r1162['scoreV1'] = 46.1
+                            _r1162['score_parts'] = {'base': 30.0, 'protein': 30.6, 'salt': -8.6, 'satfat': -0.3, 'sugar': 0.0, 'fiber': 0, 'veg': 0, 'nova': -3, 'portion_salt': -8, 'portion_protein': 5}
+                            _r1162['day_pct'] = {'kcal': 22, 'protein': 78, 'salt': 80, 'satfat': 32, 'sugar': 3, 'fiber': None}
+                            _r1162['meal_class'] = 'meal'
+                            _r1162['meal_check'] = {'portion': 400, 'kcal': 444, 'protein': 38.8, 'ok': True, 'cls': 'meal', 'reason': None}
+                            _r1162['flags'] = [f for f in (_r1162.get('flags') or []) if 'Score unvollständig' not in f and 'Mehrportionen-Packung' not in f]
+                            _r1162['rankable'] = True
+                            _r1162['pli'] = 41.3
+                            changed_uids.add(_r1162['uid'])
+
+                        _r2445 = _pmm_by_id.get(2445)
+                        if _r2445 is not None and _r2445.get('store') == 'MPreis':
+                            _r2445['rank_excluded_reason'] = 'MPreis hat keine Filiale in 4020 Linz und liefert nicht (keine MPREIS-Filiale in Linz (Oberösterreich nur Lenzing und Steyr), kein Lieferservice für Privatkunden); gleiches Produkt in Linz bei Spar – dort gerankt'
+                            changed_uids.add(_r2445['uid'])
+
+                        _r95 = _pmm_by_id.get(95)
+                        if _r95 is not None and _r95.get('store') == 'Spar':
+                            _r95['sat'] = 2.1
+                            _r95['incomplete'] = False
+                            _r95['nutrition_source'] = 'SPAR Produktwelt / INTERSPAR Webshop (p/412568, je 100 g unzubereitet) 2026-10-24'
+                            _r95['score'] = 25.4
+                            _r95['scoreV1'] = 28.9
+                            _r95['score_parts'] = {'base': 30.0, 'protein': 15.1, 'salt': -11.4, 'satfat': -2.0, 'sugar': 0.0, 'fiber': 0, 'veg': 0, 'nova': -3, 'portion_salt': -8, 'portion_satfat': -0.3, 'portion_protein': 5}
+                            _r95['day_pct'] = {'kcal': 31, 'protein': 54, 'salt': 93, 'satfat': 42, 'sugar': 4, 'fiber': None}
+                            _r95['cprot'] = ['Schwein', 'Rind', 'Hülsenfrüchte']
+                            _r95['dishKey'] = 'gulasch'
+                            _r95['dish'] = 'Gulasch & Ragout'
+                            _r95['flags'] = [f for f in (_r95.get('flags') or []) if 'Score unvollständig' not in f]
+                            _r95['rankable'] = False
+                            _r95['pli'] = None
+                            _r95['rank_excluded_reason'] = 'Gesundheits-Score unter 30 (25.4)'
+                            changed_uids.add(_r95['uid'])
+
+                        _r1382 = _pmm_by_id.get(1382)
+                        if _r1382 is not None and _r1382.get('store') == 'unbekannt (OFF)' and _r1382.get('size') is not None and _r1382['size'] < 10:
+                            for _k_clr in ('size', 'portion', 'portion_g', 'pPor', 'p100g', 'ppk', 'protpack', 'kcalpack', 'protPor', 'kcalPor', 'kcal_meal', 'saltPor', 'saltPct', 'eur10p', 'eur100k', 'ppe'):
+                                _r1382[_k_clr] = None
+                            _r1382['portion_source'] = 'unknown'
+                            _r1382['dry'] = True
+                            _r1382['meal_class'] = 'dry'
+                            _r1382['meal_check'] = {'ok': False, 'cls': 'dry', 'reason': 'Trockenprodukt'}
+                            _r1382['rank_excluded_reason'] = 'Trockensuppe (kein Fertiggericht)'
+                            _r1382['flags'] = [
+                                'nur Open Food Facts, kein Laden/Preis – nicht in Rankings',
+                                'Score unvollständig (Salz oder ges. Fett fehlt)',
+                                'Trockenprodukt: Nährwerte pro 100 g trocken, nicht in Rankings',
+                                'Mahlzeit-Check: Trockenprodukt',
+                            ]
+                            changed_uids.add(_r1382['uid'])
+
     # Check latest online_availability_*.json
     av_files = sorted(glob.glob(os.path.join(base_dir, 'analysis/online_availability_*.json')))
     if os.environ.get('GOOD_CHOICE_AVAILABILITY'):  # sensecheck 52 P1: tests pin the snapshot the canonical baseline was built from
