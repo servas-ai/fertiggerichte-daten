@@ -14,3 +14,39 @@ def test_snapshot_2026_10_24_sold_out(tmp_path):
     assert 2783 in d['topPLI'] and 2824 in d['topPE']
     for k in ('topPLI', 'topHealth', 'topPE', 'topLight'):
         assert len(d[k]) == 30, k
+
+
+def _run(tmp_path, name, avail):
+    out = tmp_path / f'{name}.json'
+    e = dict(os.environ, GOOD_CHOICE_OUT=str(out), GOOD_CHOICE_AVAILABILITY=avail)
+    e.pop('ENFORCE_SHIPBOX_CAP', None)
+    subprocess.run([sys.executable, 'export_app.py'], cwd=ROOT, env=e, check=True, capture_output=True)
+    return json.load(open(out))
+
+
+def test_p2_toplight_refills_to_30_when_light_dish_sold_out(tmp_path):
+    """sensecheck 52 P2: topLight is rebuilt with _collapse, so a sold-out light dish is replaced (not shrunk to 29)."""
+    base = _run(tmp_path, 'base', 'online_availability_2026-10-24.json')
+    by_id = {r['id']: r for r in base['rows']}
+    victim = base['topLight'][0]
+    snap = json.load(open(os.path.join(ROOT, 'analysis', 'online_availability_2026-10-24.json')))
+    snap['unavailable_uids'] = snap['unavailable_uids'] + [by_id[victim]['uid']]
+    fn = '_test_sc52p2_availability.json'
+    p = os.path.join(ROOT, 'analysis', fn)
+    json.dump(snap, open(p, 'w'))
+    try:
+        d = _run(tmp_path, 'p2', fn)
+    finally:
+        os.remove(p)
+    assert victim not in d['topLight'] and victim not in d['topLightUncapped']
+    assert len(d['topLight']) == 30 and len(d['topLightUncapped']) == 30
+    assert d['topLight'][:29] == [i for i in base['topLight'] if i != victim][:29]
+
+
+def test_p2_xl_regex_matches_unbracketed_portions():
+    src = open(os.path.join(ROOT, 'export_app.py')).read()
+    import re as _re
+    line = next(l for l in src.splitlines() if l.startswith('_XL=re.compile'))
+    ns = {'re': _re}; exec(line, ns)
+    assert ns['_XL'].search('Inzersdorfer Weinbeuschel 2 Portionen')
+    assert ns['_XL'].search('Hähnchen Bowl Thai (XL, 2 Portionen)')

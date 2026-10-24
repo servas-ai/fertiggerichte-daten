@@ -505,7 +505,7 @@ def _twin_keys(r):
     nm=re.sub(r'[^a-z0-9äöüß]+','',nm); b2=re.sub(r'[^a-z0-9äöüß]+','',b)
     if b2 and len(nm)>=8: ks.add('t:'+b2+':'+nm+':'+(str(int(r['size'])) if r.get('size') else ''))
     return ks
-_XL=re.compile(r'\(\s*xl[^)]*\)|\bxl\b|\(\s*\d+[.,]?\d*\s*(g|kg)\s*\)|\(\s*\d+\s*portion(en)?\s*\)',re.I)
+_XL=re.compile(r'\(\s*xl[^)]*\)|\bxl\b|\(\s*\d+[.,]?\d*\s*(g|kg)\s*\)|\(?\s*\b\d+\s*portion(en)?\b\s*\)?',re.I)  # sensecheck 52 P2: '2 Portionen' also without brackets (#432/#431)
 def _variant_key(r):
     """review 13 F(a): provider + name without '(XL, 2 Portionen)' / '(500 g)' → one slot per dish."""
     return (r.get('store'),re.sub(r'[^a-z0-9äöüß]+','',_XL.sub(' ',(r.get('name') or '').lower())))
@@ -525,6 +525,7 @@ def _collapse(cands,score_fn,n=30,cap=PROVIDER_CAP):
             collapsed+=1; kv=vseen[vk]
             kv['variant_note']='auch als XL' if _XL.search(r.get('name') or '') and 'xl' in (r.get('name') or '').lower() else 'auch als Einzelportion'
             kv.setdefault('variantIds',[]).append(r['id'])
+            for k in ks: seen.setdefault(k,kv)  # sensecheck 52 P2: folded variant's twin keys point at the kept row (#431 -> #960)
             continue
         vseen[vk]=r
         for k in ks: seen[k]=r
@@ -795,6 +796,8 @@ def _reconcile_sc48(out):
             ('PLI', lambda r: _base(r) and r.get('pli') is not None, lambda r: r['pli']),
             ('Health', lambda r: _base(r) and r.get('score') is not None, lambda r: r['score']),
             ('PE', lambda r: _base(r) and r.get('ppe') and r.get('pstat') == 'live 2026' and r.get('pack') != 'Trocken/Instant', lambda r: r['ppe']),
+            # sensecheck 52 P2: topLight rebuilt with the real _collapse too (refills to 30 when a light dish drops out)
+            ('Light', lambda r: r.get('pliLight') is not None and not r.get('sold_out') and r.get('dupOf') is None and not r.get('linz_excluded') and not any('Duplikat' in f for f in (r.get('flags') or [])), lambda r: r['pliLight']),
         ):
             capped, _cnt, unc = _collapse([r for r in crow if flt(r)], fn, n=cap_n, cap=_cap_for)
             can['top' + key] = [r['id'] for r in capped]
