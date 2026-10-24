@@ -738,11 +738,21 @@ def _reconcile_sc48(out):
                 if r['uid'] in unav:
                     r['sold_out'] = True
                     r['rankable'] = False
+                    # sensecheck 53 P1: newly sold-out rows carry the same fields as the old ones (no stale PLI badge)
+                    if os.environ.get('SC53_SOLDOUT', '1') != '0':
+                        r['pli'] = None
+                        r['pliLight'] = None
+                        r['rank_excluded_reason'] = 'ausverkauft (Shop: nicht verfügbar)'
+                        r['variant_note'] = 'ausverkauft'
                     if chk_date:
                         r['availability_checked'] = chk_date
                 elif r['uid'] in prev_unav and r.get('sold_out') and not (r['uid'] in cur_items_by_uid and cur_items_by_uid[r['uid']].get('available') is False):
                     # sensecheck 50 F6: back in stock in the newer snapshot -> no longer sold out
                     r['sold_out'] = False
+                    if r.get('rank_excluded_reason') == 'ausverkauft (Shop: nicht verfügbar)':
+                        r['rank_excluded_reason'] = None
+                    if r.get('variant_note') == 'ausverkauft':
+                        r['variant_note'] = None
                     if chk_date:
                         r['availability_checked'] = chk_date
                     r['rankable'] = r.get('meal_class') == 'meal' and not bool(r.get('linz_excluded')) and _sc50_rank_guard(r)

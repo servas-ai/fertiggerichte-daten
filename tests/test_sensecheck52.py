@@ -68,7 +68,7 @@ def test_p3_p4_dupof_links(tmp_path):
 
 def test_p3_off_switch_restores_pre_p3(tmp_path):
     out = tmp_path / 'off.json'
-    e = dict(os.environ, GOOD_CHOICE_OUT=str(out), GOOD_CHOICE_AVAILABILITY='online_availability_2026-10-24.json', SC52_DUPOF='0')
+    e = dict(os.environ, GOOD_CHOICE_OUT=str(out), GOOD_CHOICE_AVAILABILITY='online_availability_2026-10-24.json', SC52_DUPOF='0', SC53_SOLDOUT='0')
     e.pop('ENFORCE_SHIPBOX_CAP', None)
     subprocess.run([sys.executable, 'export_app.py'], cwd=ROOT, env=e, check=True, capture_output=True)
     d = json.load(open(out))
