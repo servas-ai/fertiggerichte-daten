@@ -3456,5 +3456,44 @@
    "Fundula Medien GmbH",
    "MN Anzeigenservice GmbH"
   ]
+ },
+ {
+  "slug": "fairkocht",
+  "name": "FAIRKOCHT",
+  "category": "Markenhersteller",
+  "file": "logos/fairkocht.png",
+  "source_url": "https://www.fairkocht.at/wp-content/uploads/2023/10/fairkocht_logo_quer.png (fairkocht.at header logo 586x131 RGBA, robots Disallow only /wp-admin/; unmodified; vision gate PASS)",
+  "brands": [
+   "FAIRKOCHT",
+   "Fairkocht",
+   "fairkocht gmbh",
+   "FAIRKOCHT (fairkocht gmbh)"
+  ]
+ },
+ {
+  "slug": "christoephl",
+  "name": "Christöphl Manufaktur",
+  "category": "Markenhersteller",
+  "file": "logos/christoephl.png",
+  "source_url": "https://christoephl.at/cdn/shop/t/5/assets/christoephl-logo.svg (christoephl.at Shopify header logo SVG, /cdn/shop not disallowed in robots.txt; rendered 800 px, unmodified; vision gate PASS)",
+  "brands": [
+   "Christöphl",
+   "Christöphl Manufaktur",
+   "Christöphl Manufaktur GmbH"
+  ]
+ },
+ {
+  "slug": "genusss-manufaktur",
+  "name": "Genusss-Manufaktur Bruckner",
+  "category": "Markenhersteller",
+  "file": "logos/genusss-manufaktur.png",
+  "source_url": "https://nudelmanufaktur.at/images/branding-footer.png (nudelmanufaktur.at footer branding 130x75 RGBA, low resolution; no robots.txt (404 = allow); unmodified; vision gate PASS)",
+  "brands": [
+   "GENUSSS-MANUFAKTUR BRUCKNER KG",
+   "Genusss-Manufaktur",
+   "Nudelmanufaktur Bruckner",
+   "Genusss-Manufaktur Bruckner KG (Nudelmanufaktur Yppenplatz)",
+   "\"GENUSSS-MANUFAKTUR\" Bruckner KG"
+  ]
  }
 ]
