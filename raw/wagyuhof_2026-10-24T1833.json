@@ -1,0 +1,346 @@
+{
+ "source": "wagyuhof.com public Shopify storefront (food-connectors wagyuhof adapter)",
+ "fetched": "2026-10-24T1833",
+ "robots": "User-agent * disallows only cart/checkout/orders/account, sort/filter collection URLs, recommendations",
+ "operator": {
+  "name": "Wagyuhof GmbH",
+  "address": "Porstenberg 17, 3350 Haag",
+  "fn": "478220s",
+  "court": "LG St. Pölten",
+  "uid": "ATU72584759",
+  "lei": "98450053J99E55F43D03",
+  "md": "Florian Irxenmayr",
+  "source": "https://wagyuhof.com/policies/legal-notice"
+ },
+ "shipping": {
+  "source": "https://wagyuhof.com/policies/shipping-policy",
+  "countries": [
+   "AT",
+   "DE"
+  ],
+  "days": "Mittwoch und Freitag",
+  "fees": [
+   {
+    "from": 0,
+    "to": 29.99,
+    "eur": 14.9
+   },
+   {
+    "from": 30,
+    "to": 149.99,
+    "eur": 9.9
+   },
+   {
+    "from": 150,
+    "eur": 0
+   }
+  ],
+  "delivers_linz": true,
+  "delivers_linz_basis": "Lieferung 'nach ganz Österreich' lt. Versandseite"
+ },
+ "vision_gate": {
+  "photos": "4/4 PASS (jar packshots, printed label names the dish, 300 g)",
+  "logo": "PASS (official header logo: bull + WAGYUHOF wordmark)"
+ },
+ "kept": 4,
+ "with_nutrition": 4,
+ "with_gtin": 0,
+ "excluded": [
+  {
+   "id": 10480016130385,
+   "handle": "frischglasbox-lieblings-box",
+   "title": "Frischglas Lieblings-Box",
+   "product_type": "Wagyu Feinkost",
+   "reason": "Geschenk-/Frischglasbox"
+  },
+  {
+   "id": 7060962607299,
+   "handle": "geschenkbox-blackbox",
+   "title": "Frischglas Probier-Box",
+   "product_type": "Wagyu Feinkost",
+   "reason": "Geschenk-/Frischglasbox"
+  },
+  {
+   "id": 7055109095619,
+   "handle": "wagyu-jus",
+   "title": "Wagyu Jus",
+   "product_type": "Wagyu Frischglas",
+   "reason": "Sauce/Jus"
+  },
+  {
+   "id": 10439733018961,
+   "handle": "wagyu-jus-3-1-gratis",
+   "title": "Wagyu Jus 3+1 gratis",
+   "product_type": "Wagyu Frischglas",
+   "reason": "3+1-gratis-Mehrfachpack (Duplikat)"
+  },
+  {
+   "id": 7055109161155,
+   "handle": "wagyu-sugo",
+   "title": "Wagyu Sugo",
+   "product_type": "Wagyu Frischglas",
+   "reason": "Sauce/Jus"
+  },
+  {
+   "id": 8913183998289,
+   "handle": "wagyu-sugo-3-1-gratis",
+   "title": "Wagyu Sugo 3+1 gratis",
+   "product_type": "Wagyu Frischglas",
+   "reason": "3+1-gratis-Mehrfachpack (Duplikat)"
+  },
+  {
+   "id": 11105218724177,
+   "handle": "wagyu-beuschel-3-1-gratis",
+   "title": "Wagyu Beuschel 3+1 gratis",
+   "product_type": "Wagyu Frischglas",
+   "reason": "3+1-gratis-Mehrfachpack (Duplikat)"
+  },
+  {
+   "id": 10439529693521,
+   "handle": "wagyu-gulasch-3-1-gratis",
+   "title": "Wagyu Gulasch 3+1 gratis",
+   "product_type": "Wagyu Frischglas",
+   "reason": "3+1-gratis-Mehrfachpack (Duplikat)"
+  },
+  {
+   "id": 8913184031057,
+   "handle": "wagyu-rouladen-3-1-gratis",
+   "title": "Wagyu Rouladen 3+1 gratis",
+   "product_type": "Wagyu Frischglas",
+   "reason": "3+1-gratis-Mehrfachpack (Duplikat)"
+  },
+  {
+   "id": 10439731118417,
+   "handle": "wagyu-rindsuppe-3-1-gratis",
+   "title": "Wagyu Rindsuppe 3+1 gratis",
+   "product_type": "Wagyu Frischglas",
+   "reason": "3+1-gratis-Mehrfachpack (Duplikat)"
+  },
+  {
+   "id": 7055109128387,
+   "handle": "wagyu-rindsuppe",
+   "title": "Wagyu Rindsuppe",
+   "product_type": "Wagyu Frischglas",
+   "reason": "Rindsuppe (klare Brühe)"
+  },
+  {
+   "id": 10439528448337,
+   "handle": "wagyu-ragout-3-1-gratis",
+   "title": "Wagyu Ragout 3+1 gratis",
+   "product_type": "Wagyu Frischglas",
+   "reason": "3+1-gratis-Mehrfachpack (Duplikat)"
+  }
+ ],
+ "products": [
+  {
+   "source": "wagyuhof",
+   "store": "Online: Wagyuhof",
+   "name": "Wagyu Ragout",
+   "brand": "Wagyuhof Frischglas",
+   "price_eur": 13.2,
+   "unit_price_eur": 44.0,
+   "unit": "kg",
+   "size_g": 300.0,
+   "nutrition_100g": {
+    "kcal": 217.0,
+    "fat": 14.3,
+    "satfat": 6.1,
+    "carbs": 5.2,
+    "sugar": 2.1,
+    "protein": 16.8,
+    "salt": 0.9
+   },
+   "ean": null,
+   "image_url": "https://cdn.shopify.com/s/files/1/0525/4391/4179/files/Wagyu_Frischglas_Ragout.webp?v=1761554498",
+   "producer": "Wagyuhof GmbH, Porstenberg 17, 3350 Haag (FN 478220s, UID ATU72584759)",
+   "producer_id": null,
+   "origin": "AT (eigene Wagyu-Rinder, Haag NÖ lt. Shop)",
+   "category": "Fertiggericht",
+   "source_url": "https://wagyuhof.com/products/wagyu-ragout",
+   "source_id": "10384239133009",
+   "fetched_at": "2026-10-24T18:40:13+00:00",
+   "extra": {
+    "handle": "wagyu-ragout",
+    "sku": "100638",
+    "available": true,
+    "ingredients": "70 % Rindfleisch von Wagyuhof Österreich, Rinderfett, Wurzelgemüse (Karotten, Lauch, SELLERIE), Zwiebeln, Tomatenmark, Rotwein (enthält SULFITE), SCHLAGOBERS, SAUERRAHM, Kartoffelstärke, Gewürze (Salz, Pfeffer, Lorbeerblatt, Wacholder) SENF (Wasser, SENFSAAT , Weingeistessig, Zucker, Salz, Gewürze, natürliches Aroma), Steinpilze",
+    "images": [
+     "https://cdn.shopify.com/s/files/1/0525/4391/4179/files/Wagyu_Frischglas_Ragout.webp?v=1761554498",
+     "https://cdn.shopify.com/s/files/1/0525/4391/4179/files/WagyuFrischglasRagout.webp?v=1761554498",
+     "https://cdn.shopify.com/s/files/1/0525/4391/4179/files/Wagyu_FG_Ragout_3_1.webp?v=1761554498"
+    ],
+    "storage": "Frischglas, haltbar ohne Kühlen lt. Shop",
+    "price_note": "Preis je Glas lt. Shopify-Storefront (Markt AT, EUR)",
+    "shipping_note": "Versand AT + DE (Mi/Fr): 14,90 € unter 30 €, 9,90 € ab 30 €, versandkostenfrei ab 150 € lt. wagyuhof.com/policies/shipping-policy"
+   }
+  },
+  {
+   "source": "wagyuhof",
+   "store": "Online: Wagyuhof",
+   "name": "Wagyu Beuschel",
+   "brand": "Wagyuhof Frischglas",
+   "price_eur": 13.2,
+   "unit_price_eur": 44.0,
+   "unit": "kg",
+   "size_g": 300.0,
+   "nutrition_100g": {
+    "kcal": 142.0,
+    "fat": 9.4,
+    "satfat": 3.8,
+    "carbs": 6.4,
+    "sugar": 2.4,
+    "protein": 7.9,
+    "salt": 1.54
+   },
+   "ean": null,
+   "image_url": "https://cdn.shopify.com/s/files/1/0525/4391/4179/files/WagyuFrischglasBeuschel.webp?v=1788510955",
+   "producer": "Wagyuhof GmbH, Porstenberg 17, 3350 Haag (FN 478220s, UID ATU72584759)",
+   "producer_id": null,
+   "origin": "AT (eigene Wagyu-Rinder, Haag NÖ lt. Shop)",
+   "category": "Fertiggericht",
+   "source_url": "https://wagyuhof.com/products/wagyu-beuschel",
+   "source_id": "11105215938897",
+   "fetched_at": "2026-10-24T18:40:14+00:00",
+   "extra": {
+    "handle": "wagyu-beuschel",
+    "sku": "100678",
+    "available": true,
+    "ingredients": "40 % Rinderherz und Rinderlunge vom Wagyuhof Österreich, Karotten, SELLERIE, Apfelessig, Senf (Wasser, SENFSAMEN, Branntweinessig, Salz, Gewürze), Obers (MILCH), WEIZENMEHL (GLUTEN), Essiggurken (Gurken, Wasser, Weingeistessig, Salz, Zucker, SENFKÖRNER, natürliches Aroma, Süßungsmittel (Saccharin)), Sardellen (FISCH)",
+    "images": [
+     "https://cdn.shopify.com/s/files/1/0525/4391/4179/files/WagyuFrischglasBeuschel.webp?v=1788510955"
+    ],
+    "storage": "Frischglas, haltbar ohne Kühlen lt. Shop",
+    "price_note": "Preis je Glas lt. Shopify-Storefront (Markt AT, EUR)",
+    "shipping_note": "Versand AT + DE (Mi/Fr): 14,90 € unter 30 €, 9,90 € ab 30 €, versandkostenfrei ab 150 € lt. wagyuhof.com/policies/shipping-policy"
+   }
+  },
+  {
+   "source": "wagyuhof",
+   "store": "Online: Wagyuhof",
+   "name": "Wagyu Gulasch",
+   "brand": "Wagyuhof Frischglas",
+   "price_eur": 13.2,
+   "unit_price_eur": 44.0,
+   "unit": "kg",
+   "size_g": 300.0,
+   "nutrition_100g": {
+    "kcal": 203.0,
+    "fat": 13.1,
+    "satfat": 3.8,
+    "carbs": 3.6,
+    "sugar": 1.0,
+    "protein": 17.7,
+    "salt": 1.0
+   },
+   "ean": null,
+   "image_url": "https://cdn.shopify.com/s/files/1/0525/4391/4179/files/Wagyu_Frischglas_Gulasch_db0725e7-bf96-4133-8aa5-dba5c88ac301.webp?v=1761553295",
+   "producer": "Wagyuhof GmbH, Porstenberg 17, 3350 Haag (FN 478220s, UID ATU72584759)",
+   "producer_id": null,
+   "origin": "AT (eigene Wagyu-Rinder, Haag NÖ lt. Shop)",
+   "category": "Fertiggericht",
+   "source_url": "https://wagyuhof.com/products/wagyu-gulasch",
+   "source_id": "10384239296849",
+   "fetched_at": "2026-10-24T18:40:15+00:00",
+   "extra": {
+    "handle": "wagyu-gulasch",
+    "sku": "100639",
+    "available": true,
+    "ingredients": "70 % Rindfleisch von Wagyuhof Österreich, Rinderfett, SELLERIE, Zwiebeln, Tomatenmark, Gewürze (Salz, Majoran, Knoblauch, Kümmel, Paprikapulver), WEIZENMEHL",
+    "images": [
+     "https://cdn.shopify.com/s/files/1/0525/4391/4179/files/Wagyu_Frischglas_Gulasch_db0725e7-bf96-4133-8aa5-dba5c88ac301.webp?v=1761553295",
+     "https://cdn.shopify.com/s/files/1/0525/4391/4179/files/WagyuGulasch.webp?v=1761553295",
+     "https://cdn.shopify.com/s/files/1/0525/4391/4179/files/Wagyu_Frischglas_Gulasch.webp?v=1761553295"
+    ],
+    "storage": "Frischglas, haltbar ohne Kühlen lt. Shop",
+    "price_note": "Preis je Glas lt. Shopify-Storefront (Markt AT, EUR)",
+    "shipping_note": "Versand AT + DE (Mi/Fr): 14,90 € unter 30 €, 9,90 € ab 30 €, versandkostenfrei ab 150 € lt. wagyuhof.com/policies/shipping-policy"
+   }
+  },
+  {
+   "source": "wagyuhof",
+   "store": "Online: Wagyuhof",
+   "name": "Wagyu Rouladen",
+   "brand": "Wagyuhof Frischglas",
+   "price_eur": 14.9,
+   "unit_price_eur": 49.67,
+   "unit": "kg",
+   "size_g": 300.0,
+   "nutrition_100g": {
+    "kcal": 149.0,
+    "fat": 9.0,
+    "satfat": 3.5,
+    "carbs": 6.6,
+    "sugar": 3.3,
+    "protein": 10.5,
+    "salt": 1.41
+   },
+   "ean": null,
+   "image_url": "https://cdn.shopify.com/s/files/1/0525/4391/4179/files/Wagyu_Frischglas_Roulade.webp?v=1761558606",
+   "producer": "Wagyuhof GmbH, Porstenberg 17, 3350 Haag (FN 478220s, UID ATU72584759)",
+   "producer_id": null,
+   "origin": "AT (eigene Wagyu-Rinder, Haag NÖ lt. Shop)",
+   "category": "Fertiggericht",
+   "source_url": "https://wagyuhof.com/products/wagyu-rouladen",
+   "source_id": "7055109062851",
+   "fetched_at": "2026-10-24T18:40:16+00:00",
+   "extra": {
+    "handle": "wagyu-rouladen",
+    "sku": "100365",
+    "available": false,
+    "ingredients": "70 % Wagyu-Rinderschnitzel von Wagyuhof Österreich, 10 % Wagyu-Fond, Wurzelgemüse (Karotten, Lauch, Sellerie, Pastinaken), Wagyu-Rohschinken (Rindfleisch, Salz jodiert, Zucker, Koriander, Wacholder, Pfeffer, Natriumnitrit), Essiggurken, Zwiebeln, Rotwein (Sulfite), Soja-Sauce, Kartoffelstärke",
+    "images": [
+     "https://cdn.shopify.com/s/files/1/0525/4391/4179/files/Wagyu_Frischglas_Roulade.webp?v=1761558606",
+     "https://cdn.shopify.com/s/files/1/0525/4391/4179/files/Wagyu_Frischglas_Roulade2_a2759155-f358-4d75-b7e3-d451dd4d6bf8.webp?v=1761558606",
+     "https://cdn.shopify.com/s/files/1/0525/4391/4179/files/Wagyu_FG_Roulade_3_1.webp?v=1761558606"
+    ],
+    "storage": "Frischglas, haltbar ohne Kühlen lt. Shop",
+    "price_note": "Preis je Glas lt. Shopify-Storefront (Markt AT, EUR)",
+    "shipping_note": "Versand AT + DE (Mi/Fr): 14,90 € unter 30 €, 9,90 € ab 30 €, versandkostenfrei ab 150 € lt. wagyuhof.com/policies/shipping-policy"
+   }
+  }
+ ],
+ "logo": {
+  "slug": "wagyuhof",
+  "name": "Wagyuhof",
+  "category": "Markenhersteller",
+  "file": "logos/wagyuhof.png",
+  "source_url": "https://wagyuhof.com/cdn/shop/files/Wagyu_das_beste_Fleisch_der_Welt.svg (Shopify header logo SVG, robots allow; rendered to PNG 800x344 with cairosvg, transparent background, otherwise unmodified; vision gate PASS; files staged in fertiggerichte-daten scripts/logo_work_T1833 for the Orchestrator merge)",
+  "brands": [
+   "Wagyuhof",
+   "Wagyuhof Frischglas",
+   "Online: Wagyuhof",
+   "Wagyuhof GmbH"
+  ]
+ },
+ "company_evidence": {
+  "vies": {
+   "isValid": true,
+   "requestDate": "2026-10-24T18:40:11.312Z",
+   "userError": "VALID",
+   "name": "Wagyuhof GmbH",
+   "address": "Porstenberg 17\nAT-3350 Haag",
+   "requestIdentifier": "",
+   "originalVatNumber": "U72584759",
+   "vatNumber": "U72584759",
+   "viesApproximate": {
+    "name": "---",
+    "street": "---",
+    "postalCode": "---",
+    "city": "---",
+    "companyType": "---",
+    "matchName": 3,
+    "matchStreet": 3,
+    "matchPostalCode": 3,
+    "matchCity": 3,
+    "matchCompanyType": 3
+   }
+  },
+  "evi": "https://www.evi.gv.at/f/478220s (Status Eingetragen, Eintragungsdatum 07.10.2017, Stammkapital EUR 35 000)",
+  "gleif": {
+   "lei": "98450053J99E55F43D03",
+   "status": "ISSUED",
+   "entity_status": "ACTIVE",
+   "registeredAs": "478220s"
+  }
+ }
+}

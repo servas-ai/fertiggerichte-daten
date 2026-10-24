@@ -3508,5 +3508,18 @@
    "Online: Sperchenedergut",
    "Mayer Karl und Mayer Monika"
   ]
+ },
+ {
+  "slug": "wagyuhof",
+  "name": "Wagyuhof",
+  "category": "Markenhersteller",
+  "file": "logos/wagyuhof.png",
+  "source_url": "https://wagyuhof.com/cdn/shop/files/Wagyu_das_beste_Fleisch_der_Welt.svg (Shopify header logo SVG, robots allow; rendered to PNG 800x344 with cairosvg, transparent background, otherwise unmodified; vision gate PASS; files staged in fertiggerichte-daten scripts/logo_work_T1833 for the Orchestrator merge)",
+  "brands": [
+   "Wagyuhof",
+   "Wagyuhof Frischglas",
+   "Online: Wagyuhof",
+   "Wagyuhof GmbH"
+  ]
  }
 ]

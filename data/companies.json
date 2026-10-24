@@ -8323,5 +8323,63 @@
   "uid_vies_name": "Mayer Karl und Mayer Monika",
   "uid_vies_address": "Wasserdobl 16, AT-5251 Aspach",
   "uid_checked_at": "2026-10-24T17:36:51.931Z"
+ },
+ {
+  "slug": "wagyuhof",
+  "name": "Wagyuhof",
+  "role": "producer",
+  "legal_name": "Wagyuhof GmbH",
+  "lei": "98450053J99E55F43D03",
+  "register_id": "478220s",
+  "register_authority": "Firmenbuch (LG St. Pölten)",
+  "fn": "478220s",
+  "legal_form_code": "GmbH",
+  "country": "AT",
+  "address": "Porstenberg 17, 3350 Haag, AT",
+  "entity_status": "eingetragen (Firmenbuch lt. evi.gv.at); LEI ISSUED/ACTIVE; UID aktiv (VIES valid)",
+  "parent_direct": null,
+  "parent_ultimate": null,
+  "parent_ultimate_lei": null,
+  "founded": "2017-10-07",
+  "owners": "Florian Irxenmayr, Karl Peterseil, Martin Illich-Edlinger (Gesellschafter lt. evi.gv.at)",
+  "management": "Florian Irxenmayr (GF seit 2017-10-07); Prokura Karina Freitag (seit 2026-04-20)",
+  "employees": null,
+  "revenue": null,
+  "website": "https://wagyuhof.com",
+  "plants": [],
+  "approval_codes": null,
+  "brands": [
+   "Wagyuhof",
+   "Wagyuhof Frischglas",
+   "Frischglas by Wagyuhof"
+  ],
+  "chains": [
+   "Online: Wagyuhof"
+  ],
+  "product_count": 4,
+  "median_price_eur": 13.2,
+  "median_eur_per_10g_protein": 4.73,
+  "nace": "Zucht, Verarbeitung und Verkauf von Wagyu-Rindfleisch sowie Herstellung von Fleischprodukten (Unternehmensgegenstand lt. Impressum)",
+  "sources": [
+   "https://wagyuhof.com/policies/legal-notice",
+   "https://www.evi.gv.at/f/478220s",
+   "https://ec.europa.eu/taxation_customs/vies/",
+   "https://api.gleif.org/api/v1/lei-records?filter[fulltext]=Wagyuhof (1 hit, registeredAs 478220s)"
+  ],
+  "gleif_match_score": 1.0,
+  "fetched_at": "2026-10-24T1833",
+  "chain_product_count": 4,
+  "hrb": null,
+  "former_names": null,
+  "registry_status": "verified_firmenbuch+vies+gleif (FN 478220s evi.gv.at eingetragen, Stammkapital 35 000 €; UID ATU72584759 VIES 'Wagyuhof GmbH', Porstenberg 17, AT-3350 Haag = Impressum; LEI 98450053J99E55F43D03 registeredAs 478220s)",
+  "share_capital": 35000,
+  "register_status": "Eingetragen",
+  "register_entry_date": "2017-10-07",
+  "register_court": "Landesgericht St. Pölten",
+  "imprint_url": "https://wagyuhof.com/policies/legal-notice",
+  "uid": "ATU72584759",
+  "uid_vies_name": "Wagyuhof GmbH",
+  "uid_vies_address": "Porstenberg 17, AT-3350 Haag",
+  "uid_checked_at": "2026-10-24T18:40:11.312Z"
  }
 ]
