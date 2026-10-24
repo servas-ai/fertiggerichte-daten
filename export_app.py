@@ -724,6 +724,8 @@ def _reconcile_sc48(out):
 
     # Check latest online_availability_*.json
     av_files = sorted(glob.glob(os.path.join(base_dir, 'analysis/online_availability_*.json')))
+    if os.environ.get('GOOD_CHOICE_AVAILABILITY'):  # sensecheck 52 P1: tests pin the snapshot the canonical baseline was built from
+        av_files = [os.path.join(base_dir, 'analysis', os.environ['GOOD_CHOICE_AVAILABILITY'])]
     if av_files:
         av = json.load(open(av_files[-1]))
         av_fn = os.path.basename(av_files[-1])
