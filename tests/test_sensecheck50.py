@@ -8,6 +8,7 @@ def _export(tmp_path, name, **env):
     out = tmp_path / f'{name}.json'
     e = dict(os.environ, GOOD_CHOICE_OUT=str(out), **env)
     e.setdefault('GOOD_CHOICE_AVAILABILITY', 'online_availability_2026-10-18.json')  # baseline snapshot (sensecheck 52 P1)
+    e.setdefault('SC52_DUPOF', '0')  # baseline rows without sensecheck 52 P3/P4 dupOf links
     e.pop('ENFORCE_SHIPBOX_CAP', None) if 'ENFORCE_SHIPBOX_CAP' not in env else None  # unset -> sensecheck 51 default shipBox = 6
     subprocess.run([sys.executable, 'export_app.py'], cwd=ROOT, env=e, check=True, capture_output=True)
     return json.load(open(out))

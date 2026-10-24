@@ -785,6 +785,37 @@ def _reconcile_sc48(out):
                 break
         return res
 
+    # sensecheck 52 P3: PrepMyMeal lists the same dish twice under different handles/names (live-checked 2026-10-24 via
+    #  prepmymeal.at/products/<handle>.js) and more_meals_norm.json carries size-less legacy rows of current dishes.
+    #  Keep the cheaper/sized row, hide the twin via dupOf (not ranked, hidden in listings).
+    # sensecheck 52 P4: MPreis 'Cevapcici Banja Luka' #1770 (no nutrition) is the same 800 g product as MPreis 'Cevapcici' #1769
+    #  (with photo + 293 kcal/16 g P) and Billa 'Brajlovic Banja Luka Cevapcici' #455 → #1770 dupOf #1769, Billa twin note moves to #1769.
+    #  SC52_DUPOF=0 reproduces the pre-P3/P4 export (baseline tests).
+    if os.environ.get('SC52_DUPOF', '1') != '0':
+        _rb = {r['id']: r for r in rows}
+        for _d, _k, _st, _why in (
+            (2859, 2854, 'PrepMyMeal', "Duplikat (PrepMyMeal, gleiches Gericht wie #2854 'Satay Seelachs' 450 g, günstiger)"),
+            (2822, 2821, 'PrepMyMeal', "Duplikat (PrepMyMeal, gleiches Gericht wie #2821 'Hähnchen Bowl Thai (XL, 2 Portionen)' 1000 g, günstiger)"),
+            (1534, 2861, 'PrepMyMeal', 'Duplikat (PrepMyMeal-Altzeile ohne Grammatur, aktuelle Zeile #2861)'),
+            (1535, 2805, 'PrepMyMeal', 'Duplikat (PrepMyMeal-Altzeile ohne Grammatur, aktuelle Zeile #2805)'),
+            (1536, 2863, 'PrepMyMeal', 'Duplikat (PrepMyMeal-Altzeile ohne Grammatur, aktuelle Zeile #2863)'),
+            (1770, 1769, 'MPreis', 'Duplikat (MPreis, gleiches 800-g-Produkt wie #1769 Cevapcici)'),
+        ):
+            r, k = _rb.get(_d), _rb.get(_k)
+            if r is None or k is None or r.get('store') != _st or k.get('store') != _st or r.get('dupOf') is not None:
+                continue
+            r['dupOf'] = _k; r['rankable'] = False; r['pli'] = None; r['pliLight'] = None
+            r['flags'] = (r.get('flags') or []) + [_why]
+            changed_uids.add(r['uid'])
+        _m, _b = _rb.get(1769), _rb.get(455)
+        if _m is not None and _b is not None and _m.get('store') == 'MPreis' and _rb.get(1770, {}).get('dupOf') == 1769:
+            _m['alsoAt'] = sorted(set((_m.get('alsoAt') or []) + ['Billa']))
+            _rr = _m.get('rank_excluded_reason') or ''
+            if 'gleiches Produkt in keiner Linzer Kette gefunden' in _rr:
+                _m['rank_excluded_reason'] = _rr.replace('gleiches Produkt in keiner Linzer Kette gefunden',
+                    'gleiches Produkt auch in Linz (Billa #455, Nährwerte vorhanden), dort als Fleischkomponente (zum Selbstbraten, kein Fertiggericht) nicht im Mahlzeiten-Ranking')
+            changed_uids.add(_m['uid'])
+
     if changed_uids or removed_uids or files_changed or topcap_changed:
         # sensecheck 50 F2 bugs B/C: rebuild capped + uncapped lists with the real _collapse over ALL rows
         # (filtering the 30-entry uncapped list shrank topPLI to 20). Proven identical to 2484311 when nothing changed.

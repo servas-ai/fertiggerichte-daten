@@ -50,3 +50,25 @@ def test_p2_xl_regex_matches_unbracketed_portions():
     ns = {'re': _re}; exec(line, ns)
     assert ns['_XL'].search('Inzersdorfer Weinbeuschel 2 Portionen')
     assert ns['_XL'].search('Hähnchen Bowl Thai (XL, 2 Portionen)')
+
+
+def test_p3_p4_dupof_links(tmp_path):
+    d = _run(tmp_path, 'p3', 'online_availability_2026-10-24.json')
+    by = {r['id']: r for r in d['rows']}
+    for dup, keep in ((2859, 2854), (2822, 2821), (1534, 2861), (1535, 2805), (1536, 2863), (1770, 1769)):
+        assert by[dup]['dupOf'] == keep and not by[dup]['rankable'], dup
+        assert by[keep].get('dupOf') is None, keep
+        for k in ('topPLI', 'topPLIUncapped', 'topHealth', 'topHealthUncapped', 'topPE', 'topPEUncapped', 'topLight', 'topLightUncapped'):
+            assert dup not in d[k], (dup, k)
+    assert by[2854]['rankable']
+    assert by[1769]['alsoAt'] == ['Billa'] and 'Billa #455' in by[1769]['rank_excluded_reason']
+    assert sum(bool(r.get('rankable')) for r in d['rows']) == 158
+
+
+def test_p3_off_switch_restores_pre_p3(tmp_path):
+    out = tmp_path / 'off.json'
+    e = dict(os.environ, GOOD_CHOICE_OUT=str(out), GOOD_CHOICE_AVAILABILITY='online_availability_2026-10-24.json', SC52_DUPOF='0')
+    e.pop('ENFORCE_SHIPBOX_CAP', None)
+    subprocess.run([sys.executable, 'export_app.py'], cwd=ROOT, env=e, check=True, capture_output=True)
+    d = json.load(open(out))
+    assert d['dataVersion'] == 'ccb1d68ff387' and sum(bool(r.get('rankable')) for r in d['rows']) == 159
