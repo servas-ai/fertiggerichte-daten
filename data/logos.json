@@ -3521,5 +3521,18 @@
    "Online: Wagyuhof",
    "Wagyuhof GmbH"
   ]
+ },
+ {
+  "slug": "draxler-gefluegel-wild",
+  "name": "Draxler Geflügel-Wild",
+  "category": "Markenhersteller",
+  "file": "logos/draxler-gefluegel-wild.png",
+  "source_url": "https://www.xn--geflgel-draxler-2vb.at/wp-content/uploads/2021/10/draxler-logo.svg (site header logo SVG, robots allow; rendered to PNG 800x584 with cairosvg, transparent background, otherwise unmodified; vision gate PASS; files staged in fertiggerichte-daten scripts/logo_work_T1904 for the Orchestrator merge)",
+  "brands": [
+   "Draxler",
+   "Draxler Kulinarik im Glas",
+   "Online: Draxler Geflügel-Wild",
+   "Draxler Geflügel-Wild GmbH"
+  ]
  }
 ]

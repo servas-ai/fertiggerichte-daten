@@ -1,0 +1,462 @@
+{
+ "source": "geflügel-draxler.at public WooCommerce Store API (food-connectors draxler adapter)",
+ "fetched": "2026-10-24T1904",
+ "robots": "User-agent * disallows only wc-logs, WooCommerce transient uploads and ?add-to-cart= URLs",
+ "operator": {
+  "name": "Draxler Geflügel-Wild GmbH",
+  "address": "Kainachstraße 4, 8562 Mooskirchen",
+  "fn": "214255g",
+  "uid": "ATU52668607",
+  "lei": "894500FBIXCSSEWGP628",
+  "md": "Franz Draxler",
+  "source": "https://www.xn--geflgel-draxler-2vb.at/impressum/"
+ },
+ "shipping": {
+  "source": "https://www.xn--geflgel-draxler-2vb.at/agb/ (Stand 01.06.2025) + homepage",
+  "countries": [
+   "AT"
+  ],
+  "carrier": "Österreichische Post NEXT DAY FRESH (Lebensmittelzustellung) österreichweit",
+  "fees": null,
+  "fees_note": "Versandkosten werden im Bestellprozess gesondert ausgewiesen (AGB §3) — not read, no cart/checkout used",
+  "delivers_linz": true,
+  "delivers_linz_basis": "Lieferung an Adressen innerhalb Österreichs (AGB), 'ÖSTERREICHWEIT' (Startseite)"
+ },
+ "vision_gate": {
+  "photos": "9/9 PASS (jar packshots, printed DRAXLER label names the dish)",
+  "logo": "PASS (official header logo: deer + DRAXLER GEFLÜGEL & WILD wordmark)"
+ },
+ "kept": 9,
+ "with_nutrition": 0,
+ "with_gtin": 0,
+ "excluded": [
+  {
+   "id": 6799,
+   "slug": "draxlers-starter-genusspaket-bonus",
+   "name": "Draxler’s Starter Genusspaket + Bonus",
+   "reason": "Bundle (Genusspaket)"
+  },
+  {
+   "id": 6232,
+   "slug": "klare-suppe-vom-maishendl",
+   "name": "Klare Suppe vom Maishendl",
+   "reason": "klare Brühe"
+  },
+  {
+   "id": 6209,
+   "slug": "gutschein",
+   "name": "Gutschein",
+   "reason": "Gutschein"
+  }
+ ],
+ "products": [
+  {
+   "source": "draxler",
+   "store": "Online: Draxler Geflügel-Wild",
+   "name": "Rehragout",
+   "brand": "Draxler Kulinarik im Glas",
+   "price_eur": 10.0,
+   "unit_price_eur": 27.78,
+   "unit": "kg",
+   "size_g": 360.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://www.xn--geflgel-draxler-2vb.at/wp-content/uploads/2025/07/Rehragout_Web.jpg",
+   "producer": "Draxler Geflügel-Wild GmbH, Kainachstraße 4, 8562 Mooskirchen (FN 214255g, UID ATU52668607)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.xn--geflgel-draxler-2vb.at/produkt/rehragout/",
+   "source_id": "6561",
+   "fetched_at": "2026-10-24T19:11:30+00:00",
+   "extra": {
+    "wc_id": 6561,
+    "slug": "rehragout",
+    "sku": "979",
+    "categories": [
+     "gerichte-mit-fleisch"
+    ],
+    "in_stock": true,
+    "vegetarian": false,
+    "vegan": false,
+    "ingredients": "45% Rehfleisch, Karotten, SELLERIE, Zwiebel, Rotwein (Trauben, Zucker, konzentrierter Traubenmost, Stabilisator: E 353, Antioxidationsmittel: SCHWEFELDIOXID), Hühnersuppe (Wasser, Hühnerfleisch, Hühnerknochen, Gemüse (SELLERIE, Karotten, Petersilwurzel, Liebstöckel), Zwiebel, Vollsalz (Speisesalz, Kaliumjodid), Gewürze), Tomatenmark, Rapsöl, Vollsalz (Speisesalz, Kaliumjodid), Wildpreiselbeerkompott (Wildpreiselbeeren, Zucker, Geliermittel: Pektine, Zitronensaftkonzentrat) Wacholderbeeren, Gewürze.",
+    "storage": "gekühlt +4 °C bis +6 °C, durch Erhitzen haltbar gemacht",
+    "description": "Unser hausgemachtes Rehragout bereiten wir mit steirischem Rehfleisch von unserer eigenen Wildübernahmestelle zu. Zutaten : 45% Rehfleisch, Karotten, SELLERIE, Zwiebel, Rotwein (Trauben, Zucker, konzentrierter Traubenmost, Stabilisator: E 353, Antioxidationsmittel: SCHWEFELDIOXID), Hühnersuppe (Wasser, Hühnerfleisch, Hühnerknochen, Gemüse (SELLERIE, Karotten, Petersilwurzel, Liebstöckel), Zwiebel, Vollsalz (Speisesalz, Kaliumjodid), Gewürze), Tomatenmark, Rapsöl, Vollsalz (Speisesalz, Kaliumjodid), Wildpreiselbeerkompott (Wildpreiselbeeren, Zucker, Geliermittel: Pektine, Zitronensaftkonzentrat) Wacholderbeeren, Gewürze. Das Rehragout wird durch Erhitzen haltbar gemacht und sollte gekühlt bei +4°C bis +6°C gelagert werden. Nach dem Öffnen sofort verbrauchen. Gewicht: 360g Zubereitung: Ragout in einen Topf geben und am Herd unter Zugabe von 3 EL Wasser erhitzen. Mehrmals umrühren. Wir wünschen guten Appetit!",
+    "description_source": "product_page",
+    "images": [
+     "https://www.xn--geflgel-draxler-2vb.at/wp-content/uploads/2025/07/Rehragout_Web.jpg",
+     "https://www.xn--geflgel-draxler-2vb.at/wp-content/uploads/2025/07/Rehragout_Web2.jpg"
+    ],
+    "price_note": "Preis je Glas inkl. MwSt. lt. WooCommerce Store API",
+    "shipping_note": "Lieferung innerhalb Österreichs per Paketdienst (Post NEXT DAY FRESH, gekühlt) lt. AGB/Startseite; Versandkosten nur im Bestellprozess ausgewiesen"
+   }
+  },
+  {
+   "source": "draxler",
+   "store": "Online: Draxler Geflügel-Wild",
+   "name": "Suppe vom Maishendl",
+   "brand": "Draxler Kulinarik im Glas",
+   "price_eur": 6.9,
+   "unit_price_eur": 19.17,
+   "unit": "kg",
+   "size_g": 360.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://www.xn--geflgel-draxler-2vb.at/wp-content/uploads/2024/04/DSC_0342b-scaled.jpg",
+   "producer": "Draxler Geflügel-Wild GmbH, Kainachstraße 4, 8562 Mooskirchen (FN 214255g, UID ATU52668607)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.xn--geflgel-draxler-2vb.at/produkt/suppe-vom-maishendl/",
+   "source_id": "6231",
+   "fetched_at": "2026-10-24T19:11:30+00:00",
+   "extra": {
+    "wc_id": 6231,
+    "slug": "suppe-vom-maishendl",
+    "sku": "964",
+    "categories": [
+     "suppen"
+    ],
+    "in_stock": true,
+    "vegetarian": false,
+    "vegan": false,
+    "ingredients": "Hühnersuppe (Wasser, Hühnerfleisch, Hühnerknochen, Gemüse (SELLERIE, Karotten, Peterwurzen, Liebstöckel), Zwiebel, Vollsalz (Speisesalz, Kaliumjodid), Gewürze,15% Hühnerkeulenfleisch ohne Haut, 15% Gemüse (Karotten, Lauch, SELLERIE, Peterwurzen, Petersilie, Zwiebel).",
+    "storage": "gekühlt +4 °C bis +6 °C, durch Erhitzen haltbar gemacht",
+    "description": "Unsere hausgemachte Maishendlsuppe kochen wir aus hochwertigem, steirischem Maishendlkeulenfleisch. Mit frischem Gemüse und Gewürzen verfeinert ist sie eine richtige Kraftsuppe – unsere Maishendlsuppe. Zutaten: Hühnersuppe (Wasser, Hühnerfleisch, Hühnerknochen, Gemüse (SELLERIE, Karotten, Peterwurzen, Liebstöckel), Zwiebel, Vollsalz (Speisesalz, Kaliumjodid), Gewürze,15% Hühnerkeulenfleisch ohne Haut, 15% Gemüse (Karotten, Lauch, SELLERIE, Peterwurzen, Petersilie, Zwiebel). Die Suppe wurde durch Erhitzen haltbar gemacht. Gekühlt bei +4°C bis +6°C lagern. Nach dem Öffnen ist sie sofort zu verbrauchen. Gewicht: 360g Zubereitung: Die Suppe in einen Topf geben und auf dem Herd erhitzen, dabei mehrmals umrühren. Wir wünschen guten Appetit!",
+    "description_source": "store_api",
+    "images": [
+     "https://www.xn--geflgel-draxler-2vb.at/wp-content/uploads/2024/04/DSC_0342b-scaled.jpg",
+     "https://www.xn--geflgel-draxler-2vb.at/wp-content/uploads/2024/04/DSC_0351b2-scaled.jpg"
+    ],
+    "price_note": "Preis je Glas inkl. MwSt. lt. WooCommerce Store API",
+    "shipping_note": "Lieferung innerhalb Österreichs per Paketdienst (Post NEXT DAY FRESH, gekühlt) lt. AGB/Startseite; Versandkosten nur im Bestellprozess ausgewiesen"
+   }
+  },
+  {
+   "source": "draxler",
+   "store": "Online: Draxler Geflügel-Wild",
+   "name": "Curry vom Maishendl",
+   "brand": "Draxler Kulinarik im Glas",
+   "price_eur": 9.0,
+   "unit_price_eur": 25.0,
+   "unit": "kg",
+   "size_g": 360.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://www.xn--geflgel-draxler-2vb.at/wp-content/uploads/2024/04/DSC_0277b-scaled.jpg",
+   "producer": "Draxler Geflügel-Wild GmbH, Kainachstraße 4, 8562 Mooskirchen (FN 214255g, UID ATU52668607)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.xn--geflgel-draxler-2vb.at/produkt/curry-vom-maishendl/",
+   "source_id": "6230",
+   "fetched_at": "2026-10-24T19:11:30+00:00",
+   "extra": {
+    "wc_id": 6230,
+    "slug": "curry-vom-maishendl",
+    "sku": "963",
+    "categories": [
+     "gerichte-mit-fleisch"
+    ],
+    "in_stock": true,
+    "vegetarian": false,
+    "vegan": false,
+    "ingredients": "28% Hühnerkeulenfleisch ohne Haut, 22% Gemüse (Karotten, Lauch, Mais), Wasser, Zwiebel, Rapsöl, WEIZENMEHL, Kokosmilch (75% Kokusnussextrakt, Wasser), 2% Currygewürzzubereitung (Kurkuma, Koriander, Bockshornklee, Speisesalz jodiert (Speisesalz, Kaliumjodid), Kartoffelstärke, Cayennepfeffer, 1% Currypaste (getrocknete rote Chilis, Schalotten, Knoblauch, Zitronengras, Speisesalz, Galgant, Kurkuma, Kreuzkümmel, Koriandersamen, Zimt, Muskatblüte), Sojasauce (Wasser, SOJABOHNEN, WEIZEN, Speisesalz), Vollsalz (Speisesalz, Kaliumjodid), Gewürze Das Curry wurde durch Erhitzen haltbar gemacht.",
+    "storage": "gekühlt +4 °C bis +6 °C, durch Erhitzen haltbar gemacht",
+    "description": "Unser mildes, hausgemachtes Maishendl-Curry bereiten wir mit steirischem Hühnerkeulenfleisch ohne Haut und Gemüse zu. Zutaten: 28% Hühnerkeulenfleisch ohne Haut, 22% Gemüse (Karotten, Lauch, Mais), Wasser, Zwiebel, Rapsöl, WEIZENMEHL, Kokosmilch (75% Kokusnussextrakt, Wasser), 2% Currygewürzzubereitung (Kurkuma, Koriander, Bockshornklee, Speisesalz jodiert (Speisesalz, Kaliumjodid), Kartoffelstärke, Cayennepfeffer, 1% Currypaste (getrocknete rote Chilis, Schalotten, Knoblauch, Zitronengras, Speisesalz, Galgant, Kurkuma, Kreuzkümmel, Koriandersamen, Zimt, Muskatblüte), Sojasauce (Wasser, SOJABOHNEN, WEIZEN, Speisesalz), Vollsalz (Speisesalz, Kaliumjodid), Gewürze Das Curry wurde durch Erhitzen haltbar gemacht. Gekühlt bei +4°C bis +6°C lagern. Nach dem Öffnen ist es sofort zu verbrauchen. Gewicht: 360g Zubereitung: Geben Sie das Curry in einen Topf und erhitzen Sie es auf dem Herd, dabei mehrmals umrühren. Wir wünschen guten Appetit!",
+    "description_source": "store_api",
+    "images": [
+     "https://www.xn--geflgel-draxler-2vb.at/wp-content/uploads/2024/04/DSC_0277b-scaled.jpg",
+     "https://www.xn--geflgel-draxler-2vb.at/wp-content/uploads/2024/04/DSC_0306-3-scaled.jpg"
+    ],
+    "price_note": "Preis je Glas inkl. MwSt. lt. WooCommerce Store API",
+    "shipping_note": "Lieferung innerhalb Österreichs per Paketdienst (Post NEXT DAY FRESH, gekühlt) lt. AGB/Startseite; Versandkosten nur im Bestellprozess ausgewiesen"
+   }
+  },
+  {
+   "source": "draxler",
+   "store": "Online: Draxler Geflügel-Wild",
+   "name": "Wildfleisch Chili",
+   "brand": "Draxler Kulinarik im Glas",
+   "price_eur": 9.8,
+   "unit_price_eur": 27.22,
+   "unit": "kg",
+   "size_g": 360.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://www.xn--geflgel-draxler-2vb.at/wp-content/uploads/2024/06/wildfleisch-chili_web_.jpg",
+   "producer": "Draxler Geflügel-Wild GmbH, Kainachstraße 4, 8562 Mooskirchen (FN 214255g, UID ATU52668607)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.xn--geflgel-draxler-2vb.at/produkt/wildfleisch-chili/",
+   "source_id": "6229",
+   "fetched_at": "2026-10-24T19:11:30+00:00",
+   "extra": {
+    "wc_id": 6229,
+    "slug": "wildfleisch-chili",
+    "sku": "962",
+    "categories": [
+     "gerichte-mit-fleisch"
+    ],
+    "in_stock": true,
+    "vegetarian": false,
+    "vegan": false,
+    "ingredients": "28% Rehfleisch, 14% Kidneybohnen, Mais, geschälten Tomaten, Wasser, WEIZENMEHL, Zwiebel, Rapsöl, Paprikapulver, Vollsalz (Speisesalz, Kaliumjodid), Chili gemahlen, Gewürzen und Maisstärke.",
+    "storage": "gekühlt +4 °C bis +6 °C, durch Erhitzen haltbar gemacht",
+    "description": "Unser hausgemachtes Wildfleischchili bereiten wir mit steirischem Rehfleisch von unserer eigenen Wildübernahmestelle zu. Zutaten: 28% Rehfleisch, 14% Kidneybohnen, Mais, geschälten Tomaten, Wasser, WEIZENMEHL, Zwiebel, Rapsöl, Paprikapulver, Vollsalz (Speisesalz, Kaliumjodid), Chili gemahlen, Gewürzen und Maisstärke. Das Chili wurde durch Erhitzen haltbar gemacht. Gekühlt bei +4°C bis +6°C lagern. Nach dem Öffnen bitte sofort verbrauchen. Gewicht: 360g Zubereitung: Geben Sie das Chili in einen Topf und erhitzen Sie es auf dem Herd unter Zugabe von 3 EL Wasser. Mehrmals umrühren. Wir wünschen guten Appetit!",
+    "description_source": "store_api",
+    "images": [
+     "https://www.xn--geflgel-draxler-2vb.at/wp-content/uploads/2024/06/wildfleisch-chili_web_.jpg"
+    ],
+    "price_note": "Preis je Glas inkl. MwSt. lt. WooCommerce Store API",
+    "shipping_note": "Lieferung innerhalb Österreichs per Paketdienst (Post NEXT DAY FRESH, gekühlt) lt. AGB/Startseite; Versandkosten nur im Bestellprozess ausgewiesen"
+   }
+  },
+  {
+   "source": "draxler",
+   "store": "Online: Draxler Geflügel-Wild",
+   "name": "Gulasch vom Maishendl",
+   "brand": "Draxler Kulinarik im Glas",
+   "price_eur": 8.8,
+   "unit_price_eur": 24.44,
+   "unit": "kg",
+   "size_g": 360.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://www.xn--geflgel-draxler-2vb.at/wp-content/uploads/2023/11/draxlers-hausgemachtes-maishendl-gulasch-im-glas-scaled.jpg",
+   "producer": "Draxler Geflügel-Wild GmbH, Kainachstraße 4, 8562 Mooskirchen (FN 214255g, UID ATU52668607)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.xn--geflgel-draxler-2vb.at/produkt/gulasch-vom-maishendl/",
+   "source_id": "6227",
+   "fetched_at": "2026-10-24T19:11:30+00:00",
+   "extra": {
+    "wc_id": 6227,
+    "slug": "gulasch-vom-maishendl",
+    "sku": "960",
+    "categories": [
+     "gerichte-mit-fleisch"
+    ],
+    "in_stock": true,
+    "vegetarian": false,
+    "vegan": false,
+    "ingredients": "37% Hühnerfleisch, Wasser, Zwiebel, Rapsöl, WEIZENMEHL, Weißwein (enthält SULFITE), Paprikapulver, Vollsalz (Speisesalz, Kaljumjodid), Gewürze.",
+    "storage": "gekühlt +4 °C bis +6 °C, durch Erhitzen haltbar gemacht",
+    "description": "Unser hausgemachtes Maishendlgulasch stellen wir frisch in unserem Familienbetrieb mit Hühnerfleisch von steirischen Maishendln her. Zutaten: 37% Hühnerfleisch, Wasser, Zwiebel, Rapsöl, WEIZENMEHL, Weißwein (enthält SULFITE), Paprikapulver, Vollsalz (Speisesalz, Kaljumjodid), Gewürze. Das Gulasch wurde durch Erhitzen haltbar gemacht. Gekühlt bei +4°C bis +6°C lagern. Nach dem Öffnen ist es sofort zu verbrauchen. Gewicht: 360g Zubereitung: Gulasch in einen Topf geben und am Herd erhitzen. Mehrmals umrühren. Wir wünschen guten Appetit!",
+    "description_source": "store_api",
+    "images": [
+     "https://www.xn--geflgel-draxler-2vb.at/wp-content/uploads/2023/11/draxlers-hausgemachtes-maishendl-gulasch-im-glas-scaled.jpg",
+     "https://www.xn--geflgel-draxler-2vb.at/wp-content/uploads/2024/04/P1100115-scaled-e1712572558865.jpg"
+    ],
+    "price_note": "Preis je Glas inkl. MwSt. lt. WooCommerce Store API",
+    "shipping_note": "Lieferung innerhalb Österreichs per Paketdienst (Post NEXT DAY FRESH, gekühlt) lt. AGB/Startseite; Versandkosten nur im Bestellprozess ausgewiesen"
+   }
+  },
+  {
+   "source": "draxler",
+   "store": "Online: Draxler Geflügel-Wild",
+   "name": "Veganes Chili sin Carne",
+   "brand": "Draxler Kulinarik im Glas",
+   "price_eur": 6.9,
+   "unit_price_eur": 19.17,
+   "unit": "kg",
+   "size_g": 360.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://www.xn--geflgel-draxler-2vb.at/wp-content/uploads/2025/05/DSC_0341-scaled.jpg",
+   "producer": "Draxler Geflügel-Wild GmbH, Kainachstraße 4, 8562 Mooskirchen (FN 214255g, UID ATU52668607)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.xn--geflgel-draxler-2vb.at/produkt/veganes-chili-sin-carne/",
+   "source_id": "6237",
+   "fetched_at": "2026-10-24T19:11:30+00:00",
+   "extra": {
+    "wc_id": 6237,
+    "slug": "veganes-chili-sin-carne",
+    "sku": "968",
+    "categories": [
+     "vegetarische-gerichte"
+    ],
+    "in_stock": true,
+    "vegetarian": true,
+    "vegan": true,
+    "ingredients": "31% Gemüse (Mais, Karotten, Paprika, geschälte Tomaten), 25% Kidneybohnen, Wasser, WEIZENMEHL, Zwiebel, Rapsöl, Tomatenmark, Petersilie, Vollsalz (Speisesalz, Kaliumjodid), Chili gemahlen, Gewürze, Maisstärke.",
+    "storage": "gekühlt +4 °C bis +6 °C, durch Erhitzen haltbar gemacht",
+    "description": "Unser veganes, hausgemachtes Chili Sin Carne kochen wir frisch in unserem Familienbetrieb. Zutaten: 31% Gemüse (Mais, Karotten, Paprika, geschälte Tomaten), 25% Kidneybohnen, Wasser, WEIZENMEHL, Zwiebel, Rapsöl, Tomatenmark, Petersilie, Vollsalz (Speisesalz, Kaliumjodid), Chili gemahlen, Gewürze, Maisstärke. Das Chili wurde durch Erhitzen haltbar gemacht. Gekühlt bei +4°C bis +6°C lagern. Nach dem Öffnen sofort verbrauchen. Gewicht: 360g Zubereitung: Geben Sie das Chili in einen Topf und erhitzen Sie es auf dem Herd unter Zugabe von 3 EL Wasser. Mehrmals umrühren. Wir wünschen guten Appetit!",
+    "description_source": "store_api",
+    "images": [
+     "https://www.xn--geflgel-draxler-2vb.at/wp-content/uploads/2025/05/DSC_0341-scaled.jpg"
+    ],
+    "price_note": "Preis je Glas inkl. MwSt. lt. WooCommerce Store API",
+    "shipping_note": "Lieferung innerhalb Österreichs per Paketdienst (Post NEXT DAY FRESH, gekühlt) lt. AGB/Startseite; Versandkosten nur im Bestellprozess ausgewiesen"
+   }
+  },
+  {
+   "source": "draxler",
+   "store": "Online: Draxler Geflügel-Wild",
+   "name": "Vegetarisches Gulasch",
+   "brand": "Draxler Kulinarik im Glas",
+   "price_eur": 6.9,
+   "unit_price_eur": 19.17,
+   "unit": "kg",
+   "size_g": 360.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://www.xn--geflgel-draxler-2vb.at/wp-content/uploads/2024/04/P1100327-scaled.jpg",
+   "producer": "Draxler Geflügel-Wild GmbH, Kainachstraße 4, 8562 Mooskirchen (FN 214255g, UID ATU52668607)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.xn--geflgel-draxler-2vb.at/produkt/vegetarisches-gulasch/",
+   "source_id": "6234",
+   "fetched_at": "2026-10-24T19:11:30+00:00",
+   "extra": {
+    "wc_id": 6234,
+    "slug": "vegetarisches-gulasch",
+    "sku": "967",
+    "categories": [
+     "vegetarische-gerichte"
+    ],
+    "in_stock": true,
+    "vegetarian": true,
+    "vegan": false,
+    "ingredients": "20 % Kartoffeln, 20 % Käferbohnen, Wasser, Zwiebel, 5 % Gemüse (Paprika, Lauch), WEIZENMEHL, Rapsöl, Tomatenmark, Paprikapulver, Vollsalz (Speisesalz, Kaliumjodid), Gewürze.",
+    "storage": "gekühlt +4 °C bis +6 °C, durch Erhitzen haltbar gemacht",
+    "description": "Unser hausgemachtes, vegetarisches Gulasch ist eine vegetarische Köstlichkeit aus dem Hause Draxler. Zutaten: 20 % Kartoffeln, 20 % Käferbohnen, Wasser, Zwiebel, 5 % Gemüse (Paprika, Lauch), WEIZENMEHL, Rapsöl, Tomatenmark, Paprikapulver, Vollsalz (Speisesalz, Kaliumjodid), Gewürze. Das Gulasch wurde durch Erhitzen haltbar gemacht. Gekühlt bei +4°C – +6°C lagern. Nach dem Öffnen sofort verbrauchen. Gewicht: 360g Zubereitung: Gulasch in einen Topf geben und am Herd erhitzen. Mehrmals umrühren. Wir wünschen guten Appetit!",
+    "description_source": "store_api",
+    "images": [
+     "https://www.xn--geflgel-draxler-2vb.at/wp-content/uploads/2024/04/P1100327-scaled.jpg",
+     "https://www.xn--geflgel-draxler-2vb.at/wp-content/uploads/2024/04/DSC_0301-5-scaled-e1712570432536.jpg"
+    ],
+    "price_note": "Preis je Glas inkl. MwSt. lt. WooCommerce Store API",
+    "shipping_note": "Lieferung innerhalb Österreichs per Paketdienst (Post NEXT DAY FRESH, gekühlt) lt. AGB/Startseite; Versandkosten nur im Bestellprozess ausgewiesen"
+   }
+  },
+  {
+   "source": "draxler",
+   "store": "Online: Draxler Geflügel-Wild",
+   "name": "Einmachsuppe vom Maishendl",
+   "brand": "Draxler Kulinarik im Glas",
+   "price_eur": 7.6,
+   "unit_price_eur": 21.11,
+   "unit": "kg",
+   "size_g": 360.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://www.xn--geflgel-draxler-2vb.at/wp-content/uploads/2024/04/DSC_0331-2-scaled.jpg",
+   "producer": "Draxler Geflügel-Wild GmbH, Kainachstraße 4, 8562 Mooskirchen (FN 214255g, UID ATU52668607)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.xn--geflgel-draxler-2vb.at/produkt/einmachsuppe-vom-maishendl/",
+   "source_id": "6233",
+   "fetched_at": "2026-10-24T19:11:30+00:00",
+   "extra": {
+    "wc_id": 6233,
+    "slug": "einmachsuppe-vom-maishendl",
+    "sku": "966",
+    "categories": [
+     "suppen"
+    ],
+    "in_stock": true,
+    "vegetarian": false,
+    "vegan": false,
+    "ingredients": "klare Hühnersuppe (Wasser, Hühnerfleisch 10 %, Hühnerknochen 10%, Gemüse (SELLERIE, Karotten, Peterwurzen), Zwiebel, Liebstöckel, Vollsalz (Speisesalz, Kaljumjodid), Gewürze), 15% Hühnerkeulenfleisch ohne Haut, 15 % Gemüse (Karotten, Lauch, SELLERIE, Peterwurzen, Petersilie, Zwiebel), WEIZENMEHL.",
+    "storage": "gekühlt +4 °C bis +6 °C, durch Erhitzen haltbar gemacht",
+    "description": "Unsere hausgemachte Einmach-Maishendlsuppe kochen wir mit steirischem Maishendlkeulenfleisch und verfeinern sie mit frischem Gemüse und Gewürzen. Zutaten: klare Hühnersuppe (Wasser, Hühnerfleisch 10 %, Hühnerknochen 10%, Gemüse (SELLERIE, Karotten, Peterwurzen), Zwiebel, Liebstöckel, Vollsalz (Speisesalz, Kaljumjodid), Gewürze), 15% Hühnerkeulenfleisch ohne Haut, 15 % Gemüse (Karotten, Lauch, SELLERIE, Peterwurzen, Petersilie, Zwiebel), WEIZENMEHL. Die Suppe wurde durch Erhitzen haltbar gemacht. Gekühlt bei +4°C bis +6°C lagern. Nach dem Öffnen sollte die Suppe sofort verbraucht werden. Gewicht: 360g Zubereitung: Suppe mit 4 Esslöffel Wasser in einen Topf geben und auf dem Herd erhitzen. Mehrmals umrühren und genießen. Wir wünschen guten Appetit!",
+    "description_source": "store_api",
+    "images": [
+     "https://www.xn--geflgel-draxler-2vb.at/wp-content/uploads/2024/04/DSC_0331-2-scaled.jpg"
+    ],
+    "price_note": "Preis je Glas inkl. MwSt. lt. WooCommerce Store API",
+    "shipping_note": "Lieferung innerhalb Österreichs per Paketdienst (Post NEXT DAY FRESH, gekühlt) lt. AGB/Startseite; Versandkosten nur im Bestellprozess ausgewiesen"
+   }
+  },
+  {
+   "source": "draxler",
+   "store": "Online: Draxler Geflügel-Wild",
+   "name": "Gulasch vom Wild",
+   "brand": "Draxler Kulinarik im Glas",
+   "price_eur": 9.8,
+   "unit_price_eur": 27.22,
+   "unit": "kg",
+   "size_g": 360.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://www.xn--geflgel-draxler-2vb.at/wp-content/uploads/2024/04/P1100081-scaled.jpg",
+   "producer": "Draxler Geflügel-Wild GmbH, Kainachstraße 4, 8562 Mooskirchen (FN 214255g, UID ATU52668607)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.xn--geflgel-draxler-2vb.at/produkt/gulasch-vom-wild/",
+   "source_id": "6225",
+   "fetched_at": "2026-10-24T19:11:30+00:00",
+   "extra": {
+    "wc_id": 6225,
+    "slug": "gulasch-vom-wild",
+    "sku": "958",
+    "categories": [
+     "gerichte-mit-fleisch"
+    ],
+    "in_stock": true,
+    "vegetarian": false,
+    "vegan": false,
+    "ingredients": "37 % Wildfleich (Reh- und Hirsch), Zwiebel, Rapsöl, WEIZENMEHL, Rotwein (enthält SULFITE), Wasser, Paprikapulver, Vollsalz (Speisesalz, Kaliumjodid), Gewürze.",
+    "storage": "gekühlt +4 °C bis +6 °C, durch Erhitzen haltbar gemacht",
+    "description": "Unser köstliches, hausgemachtes Wildgulasch bereiten wir mit steirischem Wildfleisch von unserer eigenen Wildübernahmestelle zu. Zutaten: 37 % Wildfleich (Reh- und Hirsch), Zwiebel, Rapsöl, WEIZENMEHL, Rotwein (enthält SULFITE), Wasser, Paprikapulver, Vollsalz (Speisesalz, Kaliumjodid), Gewürze. Das Gulasch wurde durch Erhitzen haltbar gemacht. Gekühlt bei +4°C bis +6°C lagern. Nach dem Öffnen bitte sofort verbrauchen. Gewicht: 360g Zubereitung: Gulasch in einen Topf geben und auf dem Herd erhitzen. Mehrmals umrühren. Wir wünschen guten Appetit!",
+    "description_source": "store_api",
+    "images": [
+     "https://www.xn--geflgel-draxler-2vb.at/wp-content/uploads/2024/04/P1100081-scaled.jpg",
+     "https://www.xn--geflgel-draxler-2vb.at/wp-content/uploads/2024/04/P1100135-1-scaled.jpg"
+    ],
+    "price_note": "Preis je Glas inkl. MwSt. lt. WooCommerce Store API",
+    "shipping_note": "Lieferung innerhalb Österreichs per Paketdienst (Post NEXT DAY FRESH, gekühlt) lt. AGB/Startseite; Versandkosten nur im Bestellprozess ausgewiesen"
+   }
+  }
+ ],
+ "logo": {
+  "slug": "draxler-gefluegel-wild",
+  "name": "Draxler Geflügel-Wild",
+  "category": "Markenhersteller",
+  "file": "logos/draxler-gefluegel-wild.png",
+  "source_url": "https://www.xn--geflgel-draxler-2vb.at/wp-content/uploads/2021/10/draxler-logo.svg (site header logo SVG, robots allow; rendered to PNG 800x584 with cairosvg, transparent background, otherwise unmodified; vision gate PASS; files staged in fertiggerichte-daten scripts/logo_work_T1904 for the Orchestrator merge)",
+  "brands": [
+   "Draxler",
+   "Draxler Kulinarik im Glas",
+   "Online: Draxler Geflügel-Wild",
+   "Draxler Geflügel-Wild GmbH"
+  ]
+ },
+ "company_evidence": {
+  "vies": {
+   "countryCode": "AT",
+   "vatNumber": "U52668607",
+   "requestDate": "2026-10-24T19:11:25.661Z",
+   "valid": true,
+   "requestIdentifier": "",
+   "name": "Draxler Geflügel-Wild GmbH",
+   "address": "Kainachstraße 4\nAT-8562 Mooskirchen",
+   "traderName": "---",
+   "traderStreet": "---",
+   "traderPostalCode": "---",
+   "traderCity": "---",
+   "traderCompanyType": "---",
+   "traderNameMatch": "NOT_PROCESSED",
+   "traderStreetMatch": "NOT_PROCESSED",
+   "traderPostalCodeMatch": "NOT_PROCESSED",
+   "traderCityMatch": "NOT_PROCESSED",
+   "traderCompanyTypeMatch": "NOT_PROCESSED"
+  },
+  "evi": "https://www.evi.gv.at/f/214255g (Status Eingetragen, Eintragungsdatum 11.10.2001, Stammkapital EUR 100 000, Geschäftszweig Fleischverarbeitung …)",
+  "gleif": {
+   "lei": "894500FBIXCSSEWGP628",
+   "status": "LAPSED",
+   "entity_status": "ACTIVE",
+   "registeredAs": "214255g",
+   "ultimate_parent_exception": "NATURAL_PERSONS"
+  }
+ }
+}
