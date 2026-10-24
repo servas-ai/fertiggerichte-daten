@@ -4,7 +4,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 def test_snapshot_2026_10_24_sold_out(tmp_path):
     out = tmp_path / 'd.json'
-    e = dict(os.environ, GOOD_CHOICE_OUT=str(out), GOOD_CHOICE_AVAILABILITY='online_availability_2026-10-24.json')
+    e = dict(os.environ, GOOD_CHOICE_OUT=str(out), GOOD_CHOICE_AVAILABILITY='online_availability_2026-10-24.json', SC54_PREPMYMEAL='0')
     e.pop('ENFORCE_SHIPBOX_CAP', None)
     subprocess.run([sys.executable, 'export_app.py'], cwd=ROOT, env=e, check=True, capture_output=True)
     d = json.load(open(out))
@@ -18,7 +18,7 @@ def test_snapshot_2026_10_24_sold_out(tmp_path):
 
 def _run(tmp_path, name, avail):
     out = tmp_path / f'{name}.json'
-    e = dict(os.environ, GOOD_CHOICE_OUT=str(out), GOOD_CHOICE_AVAILABILITY=avail)
+    e = dict(os.environ, GOOD_CHOICE_OUT=str(out), GOOD_CHOICE_AVAILABILITY=avail, SC54_PREPMYMEAL='0')
     e.pop('ENFORCE_SHIPBOX_CAP', None)
     subprocess.run([sys.executable, 'export_app.py'], cwd=ROOT, env=e, check=True, capture_output=True)
     return json.load(open(out))

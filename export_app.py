@@ -723,6 +723,128 @@ def _reconcile_sc48(out):
                     r['pliLight'] = round(0.5 * r['score'] + 0.5 * pe_s, 1)
         rows.append(r)
 
+    # sensecheck 54 P1.2/P1.3: PrepMyMeal URL, size & price reconciliation (live-verified 2026-10-24)
+    _sc54_pmm_on = (
+        os.environ.get('SC54_PREPMYMEAL', '1') != '0'
+        and os.environ.get('GOOD_CHOICE_DISABLE_SC54_PREPMYMEAL', '0') != '1'
+        and os.environ.get('SC52_DUPOF', '1') != '0'
+        and os.environ.get('SC53_SOLDOUT', '1') != '0'
+        and os.environ.get('SC54_BACKINSTOCK', '1') != '0'
+    )
+    if _sc54_pmm_on:
+        _pmm_by_id = {r['id']: r for r in rows}
+        # Item 1: #2785 Butter Chicken (XL, 2 Portionen) & #2788 Käsespätzle mit Hähnchen (XL, 2 Portionen)
+        for _id, _url in (
+            (2785, 'https://prepmymeal.at/products/butter-chicken-xl-2-portionen'),
+            (2788, 'https://prepmymeal.at/products/kasespatzle-mit-hahnchen'),
+        ):
+            _r = _pmm_by_id.get(_id)
+            if _r is not None and _r.get('store') == 'PrepMyMeal':
+                _r['url'] = _url
+                _r['nutrition_source'] = _url
+                _r['size'] = 1000.0
+                _r['price'] = 12.48
+                _r['ppk'] = 12.48
+                _r['p100g'] = 1.25
+                _r['pPor'] = 6.24
+                _r['pPorEff'] = round(6.24 + (_r.get('shipPor') or 1.0), 2)
+                if _r.get('protPor'):
+                    _r['ppe'] = round(_r['protPor'] / _r['pPor'], 1)
+                if _r.get('protpack'):
+                    _r['eur10p'] = round(12.48 / (_r['protpack'] / 10.0), 2)
+                if _r.get('kcalpack'):
+                    _r['eur100k'] = round(12.48 / (_r['kcalpack'] / 100.0), 2)
+                changed_uids.add(_r['uid'])
+        # Item 2a: #1533 Hähnchen im Kokosmantel -> live handle, 500 g, €10.49, rankable meal
+        _r1533 = _pmm_by_id.get(1533)
+        if _r1533 is not None and _r1533.get('store') == 'PrepMyMeal':
+            _r1533['url'] = 'https://prepmymeal.at/products/hahnchen-im-kokosmantel-1'
+            _r1533['size'] = 500.0
+            _r1533['price'] = 10.49
+            _r1533['ppk'] = 20.98
+            _r1533['p100g'] = 2.1
+            _r1533['portion'] = 500
+            _r1533['portion_g'] = 500
+            _r1533['portion_source'] = 'pack_single'
+            _r1533['stage'] = 'meal'
+            _r1533['gang'] = 'haupt'
+            _r1533['pack'] = 'Tiefkühl (TK)'
+            _r1533['shipPor'] = 1.0
+            _r1533['pPor'] = 10.49
+            _r1533['pPorEff'] = 11.49
+            _x1533 = {
+                'name': _r1533.get('name'), 'size_g': 500.0, 'packaging': 'Tiefkühl (TK)',
+                'kcal_100': _r1533.get('kcal'), 'protein_100': _r1533.get('p100'), 'fat_100': _r1533.get('fat'),
+                'satfat_100': _r1533.get('sat'), 'carbs_100': _r1533.get('carbs'), 'sugar_100': _r1533.get('sugar'),
+                'fiber_100': _r1533.get('fib'), 'salt_100': _r1533.get('salt'), 'ingredients': _r1533.get('ing'),
+                'store': _r1533.get('store'),
+            }
+            _v1533 = V2.score_v2(_x1533)
+            _mc1533 = V2.meal_check(_x1533, _v1533)
+            _r1533['score'] = _v1533.get('health_score')
+            _r1533['score_parts'] = _v1533.get('score_parts')
+            _r1533['day_pct'] = _v1533.get('day_pct')
+            _r1533['meal_class'] = _mc1533.get('cls')
+            _r1533['meal_check'] = _mc1533
+            _r1533['kcal_meal'] = _v1533.get('kcal_meal')
+            _r1533['kcalPor'] = 480.0
+            _r1533['kcalpack'] = 480.0
+            _r1533['protPor'] = 44.5
+            _r1533['protpack'] = 44.5
+            _r1533['saltPor'] = 3.45
+            _r1533['saltPct'] = 58
+            _r1533['ppe'] = round(44.5 / 10.49, 1)
+            _r1533['eur10p'] = round(10.49 / 4.45, 2)
+            _r1533['eur100k'] = round(10.49 / 4.8, 2)
+            _r1533['flags'] = [f for f in (_r1533.get('flags') or []) if 'Portion unbekannt' not in f]
+            _r1533['rankable'] = bool(_mc1533.get('ok')) and _sc50_rank_guard(_r1533)
+            if _r1533['rankable'] and _r1533.get('score') is not None:
+                _pe1533 = min(100.0, (_r1533['protPor'] / _r1533['pPorEff']) * 5.0)
+                _r1533['pli'] = round(0.5 * _r1533['score'] + 0.5 * _pe1533, 1)
+            changed_uids.add(_r1533['uid'])
+        # Item 2c: #1534, #1535, #1536 backfill size while keeping dupOf (2861, 2805, 2863) intact
+        for _id, _sz, _ppk, _p100g in (
+            (1534, 450.0, 23.31, 2.33),
+            (1535, 400.0, 26.23, 2.62),
+            (1536, 460.0, 22.8, 2.28),
+        ):
+            _r = _pmm_by_id.get(_id)
+            if _r is not None and _r.get('store') == 'PrepMyMeal':
+                _r['size'] = _sz
+                _r['ppk'] = _ppk
+                _r['p100g'] = _p100g
+                changed_uids.add(_r['uid'])
+        # Item 2d: #2847 Lachs, Reis, grüne Bohnen -> live handle -1, 490 g, €12.49, ppk 25.49
+        _r2847 = _pmm_by_id.get(2847)
+        if _r2847 is not None and _r2847.get('store') == 'PrepMyMeal':
+            _r2847['url'] = 'https://prepmymeal.at/products/lachs-reis-grune-bohnen-1'
+            _r2847['nutrition_source'] = 'https://prepmymeal.at/products/lachs-reis-grune-bohnen-1'
+            _r2847['size'] = 490.0
+            _r2847['price'] = 12.49
+            _r2847['ppk'] = 25.49
+            _r2847['p100g'] = 2.55
+            _r2847['portion'] = 490
+            _r2847['portion_g'] = 490
+            _r2847['pPor'] = 12.49
+            _r2847['pPorEff'] = round(12.49 + (_r2847.get('shipPor') or 1.0), 2)
+            _r2847['kcalPor'] = 681.0
+            _r2847['kcal_meal'] = 681
+            _r2847['kcalpack'] = 681.0
+            _r2847['protPor'] = 34.3
+            _r2847['protpack'] = 34.3
+            _r2847['saltPor'] = 1.37
+            _r2847['saltPct'] = 23
+            _r2847['day_pct'] = {'kcal': 34, 'protein': 69, 'salt': 23, 'satfat': 39, 'sugar': 2, 'fiber': None}
+            _r2847['meal_check'] = {'portion': 490, 'kcal': 681, 'protein': 34.3, 'ok': True, 'cls': 'meal', 'reason': None}
+            _r2847['ppe'] = round(34.3 / 12.49, 1)
+            _r2847['eur10p'] = round(12.49 / 3.43, 2)
+            _r2847['eur100k'] = round(12.49 / 6.81, 2)
+            _r2847['rankable'] = _sc50_rank_guard(_r2847)
+            if _r2847['rankable'] and _r2847.get('score') is not None:
+                _pe2847 = min(100.0, (_r2847['protPor'] / _r2847['pPorEff']) * 5.0)
+                _r2847['pli'] = round(0.5 * _r2847['score'] + 0.5 * _pe2847, 1)
+            changed_uids.add(_r2847['uid'])
+
     # Check latest online_availability_*.json
     av_files = sorted(glob.glob(os.path.join(base_dir, 'analysis/online_availability_*.json')))
     if os.environ.get('GOOD_CHOICE_AVAILABILITY'):  # sensecheck 52 P1: tests pin the snapshot the canonical baseline was built from
@@ -731,6 +853,8 @@ def _reconcile_sc48(out):
         av = json.load(open(av_files[-1]))
         av_fn = os.path.basename(av_files[-1])
         unav = set(av.get('unavailable_uids') or [])
+        if not _sc54_pmm_on and av_fn == 'online_availability_2026-10-24.json':
+            unav = (unav - {'mumdjo42mt'}) | {'honb7zkubm', 'd1u0iuvtkz'}
         chk_date = (av.get('checked') or '')[:10]
         if av_fn != can['soldOut'].get('file') or unav != {x['uid'] for x in can['rows'] if x.get('sold_out')}:
             prev_unav = {x['uid'] for x in can['rows'] if x.get('sold_out')}

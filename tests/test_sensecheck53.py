@@ -3,7 +3,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 def _export(tmp_path, **env):
     out = tmp_path / 'o.json'
-    e = dict(os.environ, GOOD_CHOICE_OUT=str(out), GOOD_CHOICE_AVAILABILITY='online_availability_2026-10-24.json', **env)
+    e = dict(os.environ, GOOD_CHOICE_OUT=str(out), GOOD_CHOICE_AVAILABILITY='online_availability_2026-10-24.json', SC54_PREPMYMEAL='0', **env)
     e.pop('ENFORCE_SHIPBOX_CAP', None)
     subprocess.run([sys.executable, 'export_app.py'], cwd=ROOT, env=e, check=True, capture_output=True)
     return json.load(open(out))

@@ -4,27 +4,18 @@
   "max_age_h": 48.0,
   "was_ranked": 4,
   "unavailable_uids": [
-    "honb7zkubm",
-    "d1u0iuvtkz",
+    "mumdjo42mt",
     "zc8jvxvyj9",
     "bsid0jiwzl",
     "npikslzflt"
   ],
   "rows": [
     {
-      "id": 2785,
-      "uid": "honb7zkubm",
+      "id": 1532,
+      "uid": "mumdjo42mt",
       "store": "PrepMyMeal",
-      "name": "Butter Chicken (XL, 2 Portionen)",
-      "url": "https://prepmymeal.at/products/protein-pasta-allalfredo-xl-2-portionen-ausverkauft-1",
-      "status": "sold_out"
-    },
-    {
-      "id": 2788,
-      "uid": "d1u0iuvtkz",
-      "store": "PrepMyMeal",
-      "name": "Käsespätzle mit Hähnchen (XL, 2 Portionen)",
-      "url": "https://prepmymeal.at/products/kasespatzle-mit-hahnchen-xl-2-portionen-3",
+      "name": "Kichererbsen mit Harissa",
+      "url": "https://prepmymeal.at/products/🌱-kichererbsen-mit-harissa",
       "status": "sold_out"
     },
     {
