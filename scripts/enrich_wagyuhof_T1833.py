@@ -52,7 +52,7 @@ def main():
         w.writerows({c: ("" if r.get(c) is None else r.get(c)) for c in cols} for r in rows)
     vies = json.load(open(a.vies))
     row = {"slug": SLUG, "name": "Wagyuhof", "role": "producer", "legal_name": "Wagyuhof GmbH",
-           "lei": "98450053J99E55F43D03", "register_id": "478220s", "register_authority": "Firmenbuch (LG St. Pölten)", "fn": "478220s",
+           "lei": "98450053J99E55F43D03", "register_id": "478220s", "register_authority": "Firmenbuch (LG St. Pölten)", "fn": "FN 478220s",
            "legal_form_code": "GmbH", "country": "AT", "address": "Porstenberg 17, 3350 Haag, AT",
            "entity_status": "eingetragen (Firmenbuch lt. evi.gv.at); LEI ISSUED/ACTIVE; UID aktiv (VIES valid)",
            "parent_direct": None, "parent_ultimate": None, "parent_ultimate_lei": None, "founded": "2017-10-07",
