@@ -7,6 +7,7 @@ def _export(tmp_path, snap=SNAP, **env):
     out = tmp_path / 'o.json'
     e = dict(os.environ, GOOD_CHOICE_OUT=str(out), GOOD_CHOICE_AVAILABILITY=snap, **env)
     e.pop('ENFORCE_SHIPBOX_CAP', None)
+    e.setdefault('SC58_FIXES', '0')
     subprocess.run([sys.executable, 'export_app.py'], cwd=ROOT, env=e, check=True, capture_output=True)
     return json.load(open(out))
 
@@ -103,3 +104,24 @@ def test_p1_3_prepmymeal_legacy_and_lachs_reconciliation(tmp_path):
     # Active 6er-Box URLs (e.g. #2837) remain untouched
     assert by[2837]['url'] == 'https://prepmymeal.at/products/lachs-blumenkohl-grune-bohnen'
     assert sum(bool(r.get('rankable')) for r in d['rows']) == 161
+
+def test_sc55_versandbox_bofrost_canonical_urls_and_offswitch(tmp_path):
+    d = _export(tmp_path, SNAP)
+    by = {r['id']: r for r in d['rows']}
+    assert by[2951]['uid'] == 'fu8wimlzwf'
+    assert by[2951]['url'] == 'https://www.bofrost.at/shop/thai-curry_01283.html'
+    assert 'https://www.bofrost.at/shop/thai-curry_01283.html' in (by[2951].get('nutrition_source') or '')
+    assert by[3068]['uid'] == 'ndwygcgf56'
+    assert by[3068]['url'] == 'https://www.bofrost.at/shop/bauerntopf_20550.html'
+    assert 'https://www.bofrost.at/shop/bauerntopf_20550.html' in (by[3068].get('nutrition_source') or '')
+    assert by[3068]['pliLight'] == 22.2 and by[3068]['rankableLight'] is True
+
+    # Off-switches reproduce exact SC55 PrepMyMeal dataVersion a9e298c0daba
+    d_off1 = _export(tmp_path, SNAP, SC55_VERSANDBOX='0')
+    assert d_off1['dataVersion'] == 'a9e298c0daba'
+    by_off = {r['id']: r for r in d_off1['rows']}
+    assert by_off[2951]['url'] == 'https://www.bofrost.at/shop/neuheiten_48008/thai-curry_01283.html'
+    assert by_off[3068]['url'] == 'https://www.bofrost.at/shop/neuheiten_48008/bauerntopf_20550.html'
+
+    d_off2 = _export(tmp_path, SNAP, GOOD_CHOICE_DISABLE_SC55_VERSANDBOX='1')
+    assert d_off2['dataVersion'] == 'a9e298c0daba'

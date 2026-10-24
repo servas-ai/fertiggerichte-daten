@@ -870,6 +870,62 @@ def _reconcile_sc48(out):
                     _fl2857.append(_dup_reason_2857)
                 _r2857['flags'] = _fl2857
                 changed_uids.add(_r2857['uid'])
+            # SC55 Versand-/Kochbox audit (2026-10-24): Bofrost #2951 (01283) & #3068 (20550) moved from /shop/neuheiten_48008/ to canonical /shop/<slug>.html
+            if os.environ.get('SC55_VERSANDBOX', '1') != '0' and os.environ.get('GOOD_CHOICE_DISABLE_SC55_VERSANDBOX', '0') != '1':
+                for _bf_id, _bf_old, _bf_new in (
+                    (2951, 'https://www.bofrost.at/shop/neuheiten_48008/thai-curry_01283.html', 'https://www.bofrost.at/shop/thai-curry_01283.html'),
+                    (3068, 'https://www.bofrost.at/shop/neuheiten_48008/bauerntopf_20550.html', 'https://www.bofrost.at/shop/bauerntopf_20550.html'),
+                ):
+                    _rbf = _pmm_by_id.get(_bf_id)
+                    if _rbf is not None and _rbf.get('store') == 'bofrost':
+                        _rbf['url'] = _bf_new
+                        if isinstance(_rbf.get('nutrition_source'), str) and _bf_old in _rbf['nutrition_source']:
+                            _rbf['nutrition_source'] = _rbf['nutrition_source'].replace(_bf_old, _bf_new)
+                        changed_uids.add(_rbf['uid'])
+            # SC58 (from Sensecheck 57 P1.2 + P3):
+            # 1) Ungate 6 live available PrepMyMeal full meals (#2828, #2852, #2793, #2849, #2867, #2801) blocked by legacy V1 heuristics
+            # 2) Billa Clever dry soups #534-#539: meal_class='dry', rank_excluded_reason='Trockensuppe (kein Fertiggericht)', remove 1g placeholder
+            if os.environ.get('SC58_FIXES', '1') != '0' and os.environ.get('GOOD_CHOICE_DISABLE_SC58', '0') != '1':
+                for _pmm_id in (2828, 2852, 2793, 2849, 2867, 2801):
+                    _rpm = _pmm_by_id.get(_pmm_id)
+                    if _rpm is None or _rpm.get('store') != 'PrepMyMeal':
+                        continue
+                    if _pmm_id == 2793:
+                        _rpm.pop('kiloErr', None)
+                        _rpm['flags'] = [f for f in (_rpm.get('flags') or []) if 'Preis ist vermutlich €/kg' not in f]
+                    if _pmm_id == 2801:
+                        _rpm['meal_class'] = 'meal'
+                        _rpm['meal_check'] = {
+                            'portion': _rpm.get('portion') or 470,
+                            'kcal': int(_rpm.get('kcalPor') or 555),
+                            'protein': _rpm.get('protPor') or 38.5,
+                            'ok': True,
+                            'cls': 'meal',
+                            'reason': None,
+                        }
+                        _rpm['flags'] = [f for f in (_rpm.get('flags') or []) if 'Brot/Snack/Instant' not in f]
+                    if not _rpm.get('sold_out') and _rpm.get('meal_class') == 'meal' and not _rpm.get('linz_excluded') and _sc50_rank_guard(_rpm):
+                        _rpm['rankable'] = True
+                        if _rpm.get('score') is not None and _rpm.get('protPor') and _rpm.get('pPorEff'):
+                            _pe58 = min(100.0, (_rpm['protPor'] / _rpm['pPorEff']) * 5.0)
+                            _rpm['pli'] = round(0.5 * _rpm['score'] + 0.5 * _pe58, 1)
+                    changed_uids.add(_rpm['uid'])
+                for _ds_id in (534, 535, 536, 537, 538, 539):
+                    _rds = _pmm_by_id.get(_ds_id)
+                    if _rds is not None and _rds.get('store') == 'Billa' and _rds.get('dry'):
+                        _rds['meal_class'] = 'dry'
+                        _rds['meal_check'] = {'ok': False, 'cls': 'dry', 'reason': 'Trockenprodukt'}
+                        _rds['rank_excluded_reason'] = 'Trockensuppe (kein Fertiggericht)'
+                        for _k_clr in ('size', 'portion', 'portion_g', 'pPor', 'p100g', 'ppk', 'protpack', 'kcalpack', 'protPor', 'kcalPor', 'kcal_meal', 'saltPor', 'saltPct', 'eur10p', 'eur100k', 'ppe'):
+                            _rds[_k_clr] = None
+                        changed_uids.add(_rds['uid'])
+                for _dup_ds_id in (994, 995, 996, 997, 998, 999):
+                    _rdup = _pmm_by_id.get(_dup_ds_id)
+                    if _rdup is not None and _rdup.get('store') == 'Billa' and _rdup.get('dry'):
+                        _rdup['meal_class'] = 'dry'
+                        _rdup['meal_check'] = {'ok': False, 'cls': 'dry', 'reason': 'Trockenprodukt'}
+                        _rdup['rank_excluded_reason'] = 'Trockensuppe (kein Fertiggericht)'
+                        changed_uids.add(_rdup['uid'])
 
     # Check latest online_availability_*.json
     av_files = sorted(glob.glob(os.path.join(base_dir, 'analysis/online_availability_*.json')))
