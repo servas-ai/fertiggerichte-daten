@@ -1,0 +1,220 @@
+{
+ "source": "https://lomoalto.at/products.json?limit=250",
+ "fetched": "2026-10-24T2309",
+ "operator": "LOMO ALTO OG, Atzgersdorf 4, 4141 Pfarrkirchen (UID ATU77712619); Etikett: Stressfrei Biofleisch GesbR, gleiche Adresse",
+ "vies": {
+  "uid": "ATU77712619",
+  "valid": true,
+  "name": "Lomo Alto OG",
+  "address": "Atzgersdorf 4, AT-4141 Pfarrkirchen/Mühlkreis",
+  "checked": "2026-10-24T23:10:24Z"
+ },
+ "gleif": "no record for 'Lomo Alto OG' (api.gleif.org 2026-10-24)",
+ "impressum": "https://lomoalto.at/policies/legal-notice (LOMO ALTO OG, Atzgersdorf 4, 4141 Pfarrkirchen; UID ATU77712619; Inhaber Martin Sageder & Josef Wiesinger; Gerichtsstand Rohrbach; kein FN genannt)",
+ "shipping": "Lieferung nur innerhalb Österreichs (AGB §6, bis 14 Werktage); Glasprodukte im Versandkarton, nach Erhalt wieder gekühlt lagern; Versandkosten mengen-/versandartabhängig, erst im Bestellvorgang (AGB §5)",
+ "labels": {
+  "FERTIGP1": {
+   "label": "lomoalto_etikett_gulasch_v4_endversion_1.jpg",
+   "ean": "9120082120050",
+   "ingredients": "Rindfleisch*, Zwiebel*, Sonnenblumenöl*, Paprikapulver*, Steinsalz, Pfeffer*, Lorbeerblätter* (*aus kontrolliert biologischer Landwirtschaft)",
+   "kj": 617.57,
+   "fat": 9.0,
+   "satfat": 3.93,
+   "carbs": 2.84,
+   "sugar": 2.51,
+   "protein": 13.85,
+   "salt": 0.63
+  },
+  "FERTIGP2": {
+   "label": "lomoalto_etikett_rotweinragout_v4_endversion_1.jpg",
+   "ean": "9120082120111",
+   "ingredients": "Rindfleisch*, Zwiebel*, Tomaten*, 9% Rotwein*, Karotten*, SELLERIE*, Sonnenblumenöl*, Petersilie*, Steinsalz, Maisstärke*, Pfeffer* (*aus kontrolliert biologischer Landwirtschaft)",
+   "kj": 659.1,
+   "fat": 9.44,
+   "satfat": 4.16,
+   "carbs": 2.13,
+   "sugar": 1.78,
+   "protein": 14.4,
+   "salt": 0.62
+  },
+  "FERTIGP4": {
+   "label": "lomoalto_etikett_chiliconcarne_v4_endversion_1.jpg",
+   "ean": "9120082120067",
+   "ingredients": "Tomaten*, Rindfleisch*, Zwiebel*, Karotten*, Kidneybohnen*, Zuckermais*, Sonnenblumenöl*, Steinsalz, Paprikapulver*, Pfeffer*, Chilipulver* (*aus kontrolliert biologischer Landwirtschaft)",
+   "kj": 362.15,
+   "fat": 4.34,
+   "satfat": 1.84,
+   "carbs": 4.09,
+   "sugar": 2.56,
+   "protein": 7.29,
+   "salt": 0.59
+  }
+ },
+ "photo_vision_gate": "3/3 PASS (scripts/logo_work_T2309/lomoalto_photo_sheet.png)",
+ "kept": [
+  {
+   "source": "lomoalto",
+   "store": "Online: Lomo Alto",
+   "name": "BIO Chili con Carne im Glas 400g",
+   "brand": "LOMO ALTO",
+   "price_eur": 9.9,
+   "unit_price_eur": 2.48,
+   "unit": "100 g",
+   "size_g": 400.0,
+   "nutrition_100g": {
+    "kcal": 86.6,
+    "kj": 362.15,
+    "fat": 4.34,
+    "satfat": 1.84,
+    "carbs": 4.09,
+    "sugar": 2.56,
+    "protein": 7.29,
+    "salt": 0.59
+   },
+   "ean": "9120082120067",
+   "image_url": "https://cdn.shopify.com/s/files/1/0863/1720/3783/files/chili_con_carne_lomo_alto_fertiggericht_glas.jpg?v=1732790737",
+   "producer": "LOMO ALTO OG, Atzgersdorf 4, 4141 Pfarrkirchen (UID ATU77712619); Etikett: Stressfrei Biofleisch GesbR, gleiche Adresse",
+   "producer_id": null,
+   "origin": "AT (Mühlviertler Bio-Rind, eigener Betrieb Pfarrkirchen OÖ lt. Shop/Etikett)",
+   "category": "Fertiggericht",
+   "source_url": "https://lomoalto.at/products/chili-con-carne-im-glas-400g",
+   "source_id": "9837955154247",
+   "fetched_at": "2026-10-24T23:14:00+00:00",
+   "extra": {
+    "handle": "chili-con-carne-im-glas-400g",
+    "sku": "FERTIGP4",
+    "available": true,
+    "bio_claim": true,
+    "bio_control": "AT-BIO-402 lt. Etikett",
+    "description": "Feuriges Chili mit viel LOMO ALTO – Faschiertem und frischem Chili von Juliberg/Altenfelden. Nur durch Erhitzen haltbar gemacht, frei von jeglichen Konservierungsstoffen! Einfach aufwärmen und genießen! Haltbarkeit ca. 8 Wochen",
+    "ingredients": "Tomaten*, Rindfleisch*, Zwiebel*, Karotten*, Kidneybohnen*, Zuckermais*, Sonnenblumenöl*, Steinsalz, Paprikapulver*, Pfeffer*, Chilipulver* (*aus kontrolliert biologischer Landwirtschaft)",
+    "label_image": "https://cdn.shopify.com/s/files/1/0863/1720/3783/files/lomoalto_etikett_chiliconcarne_v4_endversion_1.jpg?v=1732790738",
+    "nutrition_source": "Etikett-Bild im Shop (von Hand transkribiert 2026-10-24); kcal = kJ/4,184",
+    "storage": "Glas, nur durch Erhitzen haltbar gemacht, ohne Konservierungsstoffe; gekühlt lagern (6–9 °C) lt. Etikett",
+    "shelf_life": "ca. 8 Wochen lt. Shop",
+    "price_note": "Preis je Glas inkl. MwSt. lt. Shopify-Storefront (EUR)",
+    "shipping_note": "Lieferung nur innerhalb Österreichs (AGB §6, bis 14 Werktage); Glasprodukte im Versandkarton, nach Erhalt wieder gekühlt lagern; Versandkosten mengen-/versandartabhängig, erst im Bestellvorgang (AGB §5)"
+   }
+  },
+  {
+   "source": "lomoalto",
+   "store": "Online: Lomo Alto",
+   "name": "BIO Rotweinragout im Glas 400g",
+   "brand": "LOMO ALTO",
+   "price_eur": 11.9,
+   "unit_price_eur": 2.98,
+   "unit": "100 g",
+   "size_g": 400.0,
+   "nutrition_100g": {
+    "kcal": 157.5,
+    "kj": 659.1,
+    "fat": 9.44,
+    "satfat": 4.16,
+    "carbs": 2.13,
+    "sugar": 1.78,
+    "protein": 14.4,
+    "salt": 0.62
+   },
+   "ean": "9120082120111",
+   "image_url": "https://cdn.shopify.com/s/files/1/0863/1720/3783/files/bio_rotweinragout_lomo_alto_fertiggericht_glas.jpg?v=1732790700",
+   "producer": "LOMO ALTO OG, Atzgersdorf 4, 4141 Pfarrkirchen (UID ATU77712619); Etikett: Stressfrei Biofleisch GesbR, gleiche Adresse",
+   "producer_id": null,
+   "origin": "AT (Mühlviertler Bio-Rind, eigener Betrieb Pfarrkirchen OÖ lt. Shop/Etikett)",
+   "category": "Fertiggericht",
+   "source_url": "https://lomoalto.at/products/rotweinragout-im-glas-400g",
+   "source_id": "9837953876295",
+   "fetched_at": "2026-10-24T23:14:00+00:00",
+   "extra": {
+    "handle": "rotweinragout-im-glas-400g",
+    "sku": "FERTIGP2",
+    "available": true,
+    "bio_claim": true,
+    "bio_control": "AT-BIO-402 lt. Etikett",
+    "description": "Feinstes LOMO ALTO – Fleisch lange gegart und mit Gemüse und Rotwein – eine wunderbare Kombination! Nur durch Erhitzen haltbar gemacht, frei von jeglichen Konservierungsstoffen! Einfach aufwärmen und genießen! Haltbarkeit ca. 8 Wochen",
+    "ingredients": "Rindfleisch*, Zwiebel*, Tomaten*, 9% Rotwein*, Karotten*, SELLERIE*, Sonnenblumenöl*, Petersilie*, Steinsalz, Maisstärke*, Pfeffer* (*aus kontrolliert biologischer Landwirtschaft)",
+    "label_image": "https://cdn.shopify.com/s/files/1/0863/1720/3783/files/lomoalto_etikett_rotweinragout_v4_endversion_1.jpg?v=1732790699",
+    "nutrition_source": "Etikett-Bild im Shop (von Hand transkribiert 2026-10-24); kcal = kJ/4,184",
+    "storage": "Glas, nur durch Erhitzen haltbar gemacht, ohne Konservierungsstoffe; gekühlt lagern (6–9 °C) lt. Etikett",
+    "shelf_life": "ca. 8 Wochen lt. Shop",
+    "price_note": "Preis je Glas inkl. MwSt. lt. Shopify-Storefront (EUR)",
+    "shipping_note": "Lieferung nur innerhalb Österreichs (AGB §6, bis 14 Werktage); Glasprodukte im Versandkarton, nach Erhalt wieder gekühlt lagern; Versandkosten mengen-/versandartabhängig, erst im Bestellvorgang (AGB §5)"
+   }
+  },
+  {
+   "source": "lomoalto",
+   "store": "Online: Lomo Alto",
+   "name": "BIO Rindergulasch im Glas 400g",
+   "brand": "LOMO ALTO",
+   "price_eur": 12.4,
+   "unit_price_eur": 3.1,
+   "unit": "100 g",
+   "size_g": 400.0,
+   "nutrition_100g": {
+    "kcal": 147.6,
+    "kj": 617.57,
+    "fat": 9.0,
+    "satfat": 3.93,
+    "carbs": 2.84,
+    "sugar": 2.51,
+    "protein": 13.85,
+    "salt": 0.63
+   },
+   "ean": "9120082120050",
+   "image_url": "https://cdn.shopify.com/s/files/1/0863/1720/3783/files/rindergulasch_von_lomo_alto_als_fertiggericht_glas_biologisch.jpg?v=1732790678",
+   "producer": "LOMO ALTO OG, Atzgersdorf 4, 4141 Pfarrkirchen (UID ATU77712619); Etikett: Stressfrei Biofleisch GesbR, gleiche Adresse",
+   "producer_id": null,
+   "origin": "AT (Mühlviertler Bio-Rind, eigener Betrieb Pfarrkirchen OÖ lt. Shop/Etikett)",
+   "category": "Fertiggericht",
+   "source_url": "https://lomoalto.at/products/rindergulasch-im-glas-400g",
+   "source_id": "9837953253703",
+   "fetched_at": "2026-10-24T23:14:00+00:00",
+   "extra": {
+    "handle": "rindergulasch-im-glas-400g",
+    "sku": "FERTIGP1",
+    "available": true,
+    "bio_claim": true,
+    "bio_control": "AT-BIO-402 lt. Etikett",
+    "description": "Ein Klassiker der österr. Küche – saftig und gehaltvoll, durch besonders lange Garzeiten sehr weiche, mürbe Fleischfasern. Besteht im Wesentlichen aus jeweils gleichen Teilen LOMO ALTO – Fleisch und Bio-Zwiebeln. Nur durch Erhitzen haltbar gemacht, frei von jeglichen Konservierungsstoffen! Einfach aufwärmen und genießen! Haltbarkeit ca. 8 Wochen",
+    "ingredients": "Rindfleisch*, Zwiebel*, Sonnenblumenöl*, Paprikapulver*, Steinsalz, Pfeffer*, Lorbeerblätter* (*aus kontrolliert biologischer Landwirtschaft)",
+    "label_image": "https://cdn.shopify.com/s/files/1/0863/1720/3783/files/lomoalto_etikett_gulasch_v4_endversion_1.jpg?v=1732790678",
+    "nutrition_source": "Etikett-Bild im Shop (von Hand transkribiert 2026-10-24); kcal = kJ/4,184",
+    "storage": "Glas, nur durch Erhitzen haltbar gemacht, ohne Konservierungsstoffe; gekühlt lagern (6–9 °C) lt. Etikett",
+    "shelf_life": "ca. 8 Wochen lt. Shop",
+    "price_note": "Preis je Glas inkl. MwSt. lt. Shopify-Storefront (EUR)",
+    "shipping_note": "Lieferung nur innerhalb Österreichs (AGB §6, bis 14 Werktage); Glasprodukte im Versandkarton, nach Erhalt wieder gekühlt lagern; Versandkosten mengen-/versandartabhängig, erst im Bestellvorgang (AGB §5)"
+   }
+  }
+ ],
+ "excluded": [
+  {
+   "id": 9837970784583,
+   "name": "BIO Leberpastete Rosmarin im Glas 95g",
+   "sku": "FERTIGP10",
+   "reason": "Brühe/Sulz/Fett/Pastete, kein Fertiggericht"
+  },
+  {
+   "id": 9837970227527,
+   "name": "BIO Leberpastete Apfel im Glas 95g",
+   "sku": "FERTIGP9",
+   "reason": "Brühe/Sulz/Fett/Pastete, kein Fertiggericht"
+  },
+  {
+   "id": 9837958693191,
+   "name": "BIO Rindernierenfett im Glas 330g",
+   "sku": "FERTIGP7",
+   "reason": "Brühe/Sulz/Fett/Pastete, kein Fertiggericht"
+  },
+  {
+   "id": 9837958136135,
+   "name": "BIO Rindersulz im Glas 200g",
+   "sku": "FERTIGP6",
+   "reason": "Brühe/Sulz/Fett/Pastete, kein Fertiggericht"
+  },
+  {
+   "id": 9837956694343,
+   "name": "BIO Knochensuppe im Glas 400g",
+   "sku": "FERTIGP5",
+   "reason": "Brühe/Sulz/Fett/Pastete, kein Fertiggericht"
+  }
+ ]
+}
