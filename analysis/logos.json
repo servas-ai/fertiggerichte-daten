@@ -4350,5 +4350,22 @@
   "size": "svg",
   "note": "Vision gate 2026-10-16T1736 (Daten-Squad): visuell geprüft (korrekte Marke, lesbar, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · Offizielles braunes 'mamma emma'-Wordmark von mammaemma.it (Gnocchi di patate), unverändert; = Alfies 'Mamma Emma Kartoffel Gnocchi'-Zeilen",
   "hq": true
+ },
+ "myproduct": {
+  "slug": "myproduct",
+  "name": "myProduct",
+  "brands": [
+   "myProduct",
+   "myProduct.at",
+   "myproduct.at",
+   "myProduct GmbH",
+   "Online: myProduct"
+  ],
+  "logo_category": "Handelskette",
+  "file": "logos/myproduct.png",
+  "source": "https://myproduct.at/media/logo/default/myproductatlogo.png (myproduct.at header/cookie-banner <img alt='Logo myProduct.at'>; robots allow /media/)",
+  "size": "png",
+  "note": "Vision gate 2026-10-16T2139 (Daten-Squad): visuell geprüft (korrekte Marke, lesbar, kein Platzhalter/Produktfoto, auf hellem Hintergrund nutzbar) · Offizielles 'myProduct.at'-Logo (grün-pinkes Blatt-Signet, graues 'my' + pinkes 'Product' + '.at' in pinkem Rahmen) von myproduct.at, unverändert 520x162 RGBA; Betreiber myProduct GmbH, Zwettl, FN 431059k",
+  "hq": true
  }
 }

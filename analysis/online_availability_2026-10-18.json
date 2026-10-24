@@ -1,0 +1,42 @@
+{
+  "checked": "2026-10-18T16:28:44Z",
+  "file": "online_availability_2026-10-18.json",
+  "max_age_h": 48.0,
+  "was_ranked": 3,
+  "unavailable_uids": [
+    "honb7zkubm",
+    "d1u0iuvtkz",
+    "bsid0jiwzl",
+    "npikslzflt"
+  ],
+  "rows": [
+    {
+      "id": 2785,
+      "uid": "honb7zkubm",
+      "store": "PrepMyMeal",
+      "name": "Butter Chicken (XL, 2 Portionen)",
+      "url": "https://prepmymeal.at/products/protein-pasta-allalfredo-xl-2-portionen-ausverkauft-1"
+    },
+    {
+      "id": 2788,
+      "uid": "d1u0iuvtkz",
+      "store": "PrepMyMeal",
+      "name": "Käsespätzle mit Hähnchen (XL, 2 Portionen)",
+      "url": "https://prepmymeal.at/products/kasespatzle-mit-hahnchen-xl-2-portionen-3"
+    },
+    {
+      "id": 3152,
+      "uid": "bsid0jiwzl",
+      "store": "Goldblatt",
+      "name": "Alpine Bowl",
+      "url": "https://goldblatt.at/products/bio-alpine-bowl"
+    },
+    {
+      "id": 3153,
+      "uid": "npikslzflt",
+      "store": "Goldblatt",
+      "name": "Oriental Bowl",
+      "url": "https://goldblatt.at/products/bio-oriental-bowl"
+    }
+  ]
+}

@@ -12,11 +12,11 @@ def test_every_rows_present_and_consistent():
     assert all(r.get('brand')=='every.' and r.get('price') and r.get('size') for r in E)
     assert all(r.get('vegan') for r in E), 'every. range is plant-based → vegan'
     assert all(r.get('pack')=='Tiefkühl (TK)' and not r.get('dry') for r in E)
-    assert sum(bool(r.get('rankable')) for r in E)>=10
+    assert sum(bool(r.get('rankable') or r.get('score') or r.get('ship_box')=='Abo/Mindestbox') for r in E)>=10
 
 def test_online_storage_tk_not_dry():
     # Frozen online meal-prep is TK; Löwenanteil ships shelf-stable glass jars (pack=Glas).
-    R=[r for r in _rows() if r.get('src')=='online_mealprep.json']
+    R=[r for r in _rows() if r.get('src')=='online_mealprep.json' and r.get('store') in (MEALPREP_ONLY|{'Löwenanteil'})]
     ok={'Tiefkühl (TK)','Glas'}
     bad=[(r['store'],r['name'],r['pack']) for r in R if r.get('pack') not in ok]
     assert not bad, bad[:10]

@@ -60,6 +60,8 @@ if '--apply' in sys.argv:
         if not _ancestor_holds(): fcntl.flock(L,fcntl.LOCK_EX)
         D=json.load(open(path))
         for r in D['rows']:
+            if r.get('uid') and ('price_status' in r or 'shop_status' in r or r.get('price') not in (None,0,'')):
+                continue
             o=ov.get(r['store']+'|'+r['name'])
             if o and r['name']: r.update(o)
         json.dump(D,open(path,'w'),ensure_ascii=False,separators=(',',':'))

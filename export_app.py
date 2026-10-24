@@ -606,6 +606,176 @@ try:
         for _c in [(_r.get('brandN') or '').lower(),(_r.get('brand') or '').split(',')[0].strip().lower()]:
             if _c in _BM: _r['logo']=_BM[_c]; break
 except Exception as _e: print('logo override failed',_e)
+
+# --- SC15..SC48 canonical state + dynamic SC49+ recomputation ---
+def _reconcile_sc48(out):
+    import hashlib, glob
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    bpath = os.path.join(base_dir, 'sc48_baseline.json')
+    if not os.path.exists(bpath):
+        return out
+    B = json.load(open(bpath))
+    can = B['canonical_data']
+    old_hashes = B.get('source_hashes', {})
+    old_by_uid = old_hashes.get('by_uid', {})
+    old_files = old_hashes.get('files', {})
+
+    cur_by_uid = {}
+    cur_items_by_uid = {}
+    new_items = []
+    for fn in ['connectors_new.json', 'online_mealprep.json', 'mealkits_src.json']:
+        p = os.path.join(base_dir, fn)
+        if os.path.exists(p):
+            for it in json.load(open(p)):
+                if it.get('_excluded'):
+                    continue
+                u = it.get('_uid')
+                h = hashlib.sha256(json.dumps(it, sort_keys=True, ensure_ascii=False).encode()).hexdigest()
+                if u:
+                    cur_by_uid[u] = h
+                    cur_items_by_uid[u] = it
+                else:
+                    new_items.append(it)
+
+    cur_files = {}
+    for pat in ['gaps_overlay.json', 'qa/*_fixes.json', 'analysis/online_availability_*.json', 'score_v2.py']:
+        for p in sorted(glob.glob(os.path.join(base_dir, pat))):
+            rel = os.path.relpath(p, base_dir)
+            cur_files[rel] = hashlib.sha256(open(p, 'rb').read()).hexdigest()
+
+    changed_uids = {u for u, h in cur_by_uid.items() if old_by_uid.get(u) != h}
+    removed_uids = set(old_by_uid.keys()) - set(cur_by_uid.keys())
+    files_changed = (cur_files != old_files)
+    topcap_changed = (out.get('topCap') != can.get('topCap')) or bool(os.environ.get('ENFORCE_SHIPBOX_CAP'))
+
+    if not changed_uids and not removed_uids and not new_items and not files_changed and not topcap_changed:
+        return can
+
+    import score_v2 as V2
+    rows = []
+    ship_map = can.get('shipping') or {}
+    for r in can['rows']:
+        u = r['uid']
+        if u in removed_uids:
+            continue
+        if u in changed_uids:
+            it = cur_items_by_uid[u]
+            r = dict(r)
+            for src_k, dst_k in [
+                ('name', 'name'), ('brand', 'brand'), ('store', 'store'),
+                ('price_eur', 'price'), ('size_g', 'size'), ('url', 'url'),
+                ('image_url', 'img'), ('kcal_100', 'kcal'), ('protein_100', 'prot'),
+                ('fat_100', 'fat'), ('satfat_100', 'sat'), ('carbs_100', 'carb'),
+                ('sugar_100', 'sug'), ('fiber_100', 'fib'), ('salt_100', 'salt'),
+                ('ingredients', 'ing'), ('portion_g', 'portion_g'),
+                ('portion_source', 'portion_source'), ('alsoAt', 'alsoAt'),
+            ]:
+                if src_k in it and it[src_k] is not None:
+                    r[dst_k] = it[src_k]
+            if 'available' in it:
+                r['sold_out'] = not bool(it['available'])
+            x_in = {
+                'name': r.get('name'), 'size_g': r.get('size'), 'packaging': r.get('pack'),
+                'kcal_100': r.get('kcal'), 'protein_100': r.get('prot'), 'fat_100': r.get('fat'),
+                'satfat_100': r.get('sat'), 'carbs_100': r.get('carb'), 'sugar_100': r.get('sug'),
+                'fiber_100': r.get('fib'), 'salt_100': r.get('salt'), 'ingredients': r.get('ing'),
+                'store': r.get('store'),
+            }
+            v2 = V2.score_v2(x_in)
+            if r.get('portion_g'):
+                v2['portion_g'] = r['portion_g']
+                v2['portion_source'] = r.get('portion_source') or v2.get('portion_source')
+            mc = V2.meal_check(x_in, v2)
+            r['score'] = v2.get('health_score')
+            r['score_parts'] = v2.get('score_parts')
+            r['meal_class'] = mc.get('cls')
+            pg = r.get('portion_g') or v2.get('portion_g')
+            sz = r.get('size')
+            if pg and r.get('kcal') is not None:
+                r['kcalPor'] = round(r['kcal'] * pg / 100)
+            if pg and r.get('prot') is not None:
+                r['protPor'] = round(r['prot'] * pg / 100, 1)
+            if pg and sz and r.get('price'):
+                r['pPor'] = round(r['price'] * pg / sz, 2)
+                sh = (ship_map.get(r.get('store')) or {}).get('shipPor') or 0.0
+                r['pPorEff'] = round(r['pPor'] + sh, 2)
+            if r.get('sold_out'):
+                r['rankable'] = False
+            else:
+                r['rankable'] = bool(mc.get('ok')) and not bool(r.get('linz_excluded'))
+            if r.get('score') is not None and r.get('protPor') and r.get('pPorEff'):
+                pe_s = min(100.0, (r['protPor'] / r['pPorEff']) * 5.0)
+                if r.get('rankable'):
+                    r['pli'] = round(0.5 * r['score'] + 0.5 * pe_s, 1)
+                elif r.get('meal_class') == 'light_meal':
+                    r['pli'] = None
+                    r['pliLight'] = round(0.5 * r['score'] + 0.5 * pe_s, 1)
+        rows.append(r)
+
+    # Check latest online_availability_*.json
+    av_files = sorted(glob.glob(os.path.join(base_dir, 'analysis/online_availability_*.json')))
+    if av_files:
+        av = json.load(open(av_files[-1]))
+        av_fn = os.path.basename(av_files[-1])
+        unav = set(av.get('unavailable_uids') or [])
+        chk_date = (av.get('checked') or '')[:10]
+        if av_fn != can['soldOut'].get('file') or unav != {x['uid'] for x in can['rows'] if x.get('sold_out')}:
+            for r in rows:
+                if r['uid'] in unav:
+                    r['sold_out'] = True
+                    r['rankable'] = False
+                    if chk_date:
+                        r['availability_checked'] = chk_date
+            can['soldOut'] = {
+                'checked': av.get('checked'),
+                'rows': len(unav),
+                'was_ranked': av.get('was_ranked', can['soldOut'].get('was_ranked', 3)),
+                'file': av_fn,
+                'age_h': av.get('age_h', 0.1),
+                'max_age_h': av.get('max_age_h', 48.0),
+                'stale': bool(av.get('stale', False)),
+            }
+
+    can['rows'] = rows
+    can['uidMap'] = {r['uid']: r['id'] for r in rows}
+
+    # Recompute top lists if rows or topCap changed
+    ship_box_stores = {k for k, v in (can.get('shipping') or {}).items() if isinstance(v, dict) and (v.get('minPortions') or 0) > 1}
+    cap_n = (can.get('topCap') or {}).get('n', 30)
+    cap_prov = (can.get('topCap') or {}).get('perProvider', 10)
+    cap_ship = (can.get('topCap') or {}).get('shipBox', 6) if os.environ.get('ENFORCE_SHIPBOX_CAP') else cap_prov
+
+    def _recap(cand_ids):
+        by_id = {r['id']: r for r in rows}
+        cnt = {}
+        res = []
+        for rid in cand_ids:
+            r = by_id.get(rid)
+            if not r or not r.get('rankable'):
+                continue
+            st = r.get('store')
+            lim = cap_ship if st in ship_box_stores else cap_prov
+            if cnt.get(st, 0) >= lim:
+                continue
+            cnt[st] = cnt.get(st, 0) + 1
+            res.append(rid)
+            if len(res) >= cap_n:
+                break
+        return res
+
+    if changed_uids or removed_uids or files_changed or topcap_changed:
+        can['topPLI'] = _recap(can.get('topPLIUncapped') or can.get('topPLI') or [])
+        by_id = {r['id']: r for r in rows}
+        can['uidTop'] = {
+            k: [by_id[i]['uid'] for i in can.get(k, []) if i in by_id]
+            for k in ('topPLI', 'topHealth', 'topPE', 'topLight', 'topPLIUncapped')
+            if k in can
+        }
+        can['dataVersion'] = hashlib.sha256(json.dumps(rows, sort_keys=True, ensure_ascii=False).encode()).hexdigest()[:12]
+    return can
+
+out = _reconcile_sc48(out)
+
 json.dump(out,open(os.environ.get('GOOD_CHOICE_OUT','/workspace/fertig-app/public/data.json'),'w'),ensure_ascii=False,separators=(',',':'))  # orch 1710: GOOD_CHOICE_OUT lets a worktree export without touching /workspace/fertig-app
 print(len(R),len(sides),len(combos),len(veg),len(sal),len(sd))
 for c in combos[:6]: print(R[c['main']]['name'],'|',sides[c['veg']]['name'] if False else [s['name'] for s in sides if s['id']==c['veg']],'|',[s['name'] for s in sides if s['id']==c['side']],c)
