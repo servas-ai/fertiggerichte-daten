@@ -4,20 +4,11 @@
   "max_age_h": 48.0,
   "was_ranked": 4,
   "unavailable_uids": [
-    "mumdjo42mt",
     "zc8jvxvyj9",
     "bsid0jiwzl",
     "npikslzflt"
   ],
   "rows": [
-    {
-      "id": 1532,
-      "uid": "mumdjo42mt",
-      "store": "PrepMyMeal",
-      "name": "Kichererbsen mit Harissa",
-      "url": "https://prepmymeal.at/products/🌱-kichererbsen-mit-harissa",
-      "status": "sold_out"
-    },
     {
       "id": 2851,
       "uid": "zc8jvxvyj9",

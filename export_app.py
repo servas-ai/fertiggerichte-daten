@@ -844,6 +844,32 @@ def _reconcile_sc48(out):
                 _pe2847 = min(100.0, (_r2847['protPor'] / _r2847['pPorEff']) * 5.0)
                 _r2847['pli'] = round(0.5 * _r2847['score'] + 0.5 * _pe2847, 1)
             changed_uids.add(_r2847['uid'])
+        # Item 2b / SC55 P2.2: #1532 Kichererbsen mit Harissa -> delisted 12er-box orphan without weight
+        _r1532 = _pmm_by_id.get(1532)
+        if _r1532 is not None and _r1532.get('store') == 'PrepMyMeal':
+            _r1532['variant_note'] = 'ausgelistet'
+            _r1532['rank_excluded_reason'] = 'nicht mehr im PrepMyMeal-Sortiment (ausgelistet); Gewicht nicht angegeben'
+            _r1532['rankable'] = False
+            _r1532['rankableLight'] = False
+            _r1532['pli'] = None
+            _r1532['pliLight'] = None
+            changed_uids.add(_r1532['uid'])
+        # SC55 P1.2: #2857 Chili con Carne Blumenkohlreis (Copy) -> dupOf #2845 Chili con Carne (500 g)
+        if os.environ.get('SC55_PREPMYMEAL', '1') != '0' and os.environ.get('GOOD_CHOICE_DISABLE_SC55_PREPMYMEAL', '0') != '1':
+            _r2857, _r2845 = _pmm_by_id.get(2857), _pmm_by_id.get(2845)
+            if _r2857 is not None and _r2845 is not None and _r2857.get('store') == 'PrepMyMeal':
+                _r2857['dupOf'] = 2845
+                _r2857['dupOfUid'] = _r2845.get('uid')
+                _r2857['rankable'] = False
+                _r2857['rankableLight'] = False
+                _r2857['pli'] = None
+                _r2857['pliLight'] = None
+                _fl2857 = list(_r2857.get('flags') or [])
+                _dup_reason_2857 = "Duplikat (PrepMyMeal, Copy-Dublette von #2845 'Chili con Carne' 500 g)"
+                if not any(isinstance(x, str) and x.startswith('Duplikat') for x in _fl2857):
+                    _fl2857.append(_dup_reason_2857)
+                _r2857['flags'] = _fl2857
+                changed_uids.add(_r2857['uid'])
 
     # Check latest online_availability_*.json
     av_files = sorted(glob.glob(os.path.join(base_dir, 'analysis/online_availability_*.json')))

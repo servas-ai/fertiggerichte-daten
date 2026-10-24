@@ -69,12 +69,22 @@ def test_p1_3_prepmymeal_legacy_and_lachs_reconciliation(tmp_path):
     assert r1533['size'] == 500.0 and r1533['price'] == 10.49 and r1533['ppk'] == 20.98
     assert r1533['rankable'] is True and r1533['pli'] == 40.5
 
-    # #1532 Kichererbsen mit Harissa -> ausgelistet / sold_out
+    # #1532 Kichererbsen mit Harissa -> ausgelistet (SC55 P2.2)
     r1532 = by[1532]
     assert r1532['uid'] == 'mumdjo42mt'
-    assert r1532['sold_out'] is True and r1532['rankable'] is False
-    assert r1532['pli'] is None and r1532['rank_excluded_reason'] == 'ausverkauft (Shop: nicht verfügbar)'
-    assert r1532['variant_note'] == 'ausverkauft'
+    assert not r1532.get('sold_out') and r1532['rankable'] is False
+    assert r1532['pli'] is None and r1532['pliLight'] is None
+    assert r1532['variant_note'] == 'ausgelistet'
+    assert r1532['rank_excluded_reason'] == 'nicht mehr im PrepMyMeal-Sortiment (ausgelistet); Gewicht nicht angegeben'
+
+    # #2857 Chili con Carne Blumenkohlreis (Copy) -> dupOf #2845 Chili con Carne (SC55 P1.2)
+    r2857, r2845 = by[2857], by[2845]
+    assert r2857['uid'] == 'qiwq3vdvmq' and r2845['uid'] == 'idj4tje0ei'
+    assert r2857['dupOf'] == 2845 and r2857['dupOfUid'] == 'idj4tje0ei'
+    assert r2857['rankable'] is False and r2857['rankableLight'] is False
+    assert r2857['pli'] is None and r2857['pliLight'] is None
+    assert any(isinstance(f, str) and f.startswith('Duplikat') for f in r2857['flags'])
+    assert 2857 not in d['topLight'] and 2857 not in d['topLightUncapped']
 
     # #1534, #1535, #1536 -> size backfilled while keeping dupOf (2861, 2805, 2863) intact
     for rid, sz, keep in ((1534, 450.0, 2861), (1535, 400.0, 2805), (1536, 460.0, 2863)):
