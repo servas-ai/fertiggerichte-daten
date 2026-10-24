@@ -1,0 +1,906 @@
+{
+ "source": "https://www.suppito.at/wp-json/wc/store/v1/products?per_page=100",
+ "fetched": "2026-10-24T2208",
+ "operator": "Dr. Andrea Scholdan GmbH (SUPPITO), Girardigasse 9, 1060 Wien (FN 571100d, UID ATU77606002)",
+ "vies": {
+  "uid": "ATU77606002",
+  "valid": true,
+  "name": "Dr. Andrea Scholdan GmbH",
+  "address": "Girardigasse 9, AT-1060 Wien",
+  "checked": "2026-10-24T22:12:01Z"
+ },
+ "impressum": "https://www.suppito.at/impressum/ (Dr. Andrea Scholdan GmbH, FN 571100d, HG Wien, ATU77606002)",
+ "shipping": "Post-Kühlversand österreichweit 10 € je Box, Mindestbestellwert 70 €, Versand Mittwoch, Zustellung Do/Fr; Wien-Botendienst 10 € (Mo–Do) lt. suppito.at/lieferbedingungen/",
+ "storage": "gekühlt (Glas, eingekocht); 3–15 Wochen gekühlt lt. FAQ",
+ "photo_vision_gate": "9/10 PASS, 51447 rejected (Gigantes photo reused); 8 without photo (scripts/logo_work_T2208/suppito_photo_sheet.png)",
+ "kept": [
+  {
+   "source": "suppito",
+   "store": "Online: SUPPITO",
+   "name": "Butterbeans orientalisch",
+   "brand": "SUPPITO",
+   "price_eur": 11.1,
+   "unit_price_eur": 2.18,
+   "unit": "100 g",
+   "size_g": 510.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": null,
+   "producer": "Dr. Andrea Scholdan GmbH (SUPPITO), Girardigasse 9, 1060 Wien (FN 571100d, UID ATU77606002)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.suppito.at/produkt/butterbeans-orientalisch/",
+   "source_id": "51447",
+   "fetched_at": "2026-10-24T22:13:32+00:00",
+   "extra": {
+    "wc_id": 51447,
+    "slug": "butterbeans-orientalisch",
+    "in_stock": true,
+    "line": "Eintopf",
+    "vegan": false,
+    "vegetarian": true,
+    "gluten_free": true,
+    "bio_claim": false,
+    "ingredients": "23% weiße bohnen, tomaten, kokosmilch (70% kokosnussextrakt, wasser, emulgator: E435), spinat, zwiebel, wasser, reissirup, kokosöl, butterschmalz , natursalz, ingwer, kreuzkümmel, knoblauch, oregano, cayenne pfeffer, asant, bockshornkleesamen, lorbeerblätter, hiziki algen.",
+    "images": [],
+    "storage": "gekühlt (Glas, eingekocht)",
+    "shelf_life": "3–15 Wochen gekühlt lt. FAQ",
+    "price_note": "Preis je Glas inkl. 10 % MwSt. lt. WooCommerce Store API (Germanized Grundpreis je 100 g)",
+    "shipping_note": "Post-Kühlversand österreichweit 10 € je Box, Mindestbestellwert 70 €, Versand Mittwoch, Zustellung Do/Fr; Wien-Botendienst 10 € (Mo–Do) lt. suppito.at/lieferbedingungen/"
+   }
+  },
+  {
+   "source": "suppito",
+   "store": "Online: SUPPITO",
+   "name": "Chili con Soja scharf",
+   "brand": "SUPPITO",
+   "price_eur": 11.1,
+   "unit_price_eur": 2.22,
+   "unit": "100 g",
+   "size_g": 500.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": null,
+   "producer": "Dr. Andrea Scholdan GmbH (SUPPITO), Girardigasse 9, 1060 Wien (FN 571100d, UID ATU77606002)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.suppito.at/produkt/chili-con-soja/",
+   "source_id": "9126",
+   "fetched_at": "2026-10-24T22:13:32+00:00",
+   "extra": {
+    "wc_id": 9126,
+    "slug": "chili-con-soja",
+    "in_stock": true,
+    "line": "Eintopf",
+    "vegan": true,
+    "vegetarian": true,
+    "gluten_free": true,
+    "bio_claim": false,
+    "ingredients": "30% Gemüse (Tomaten, Karotten, grüne Paprika, Zwiebel, rote Paprika), Wasser, Zuckermais, 6% Kidneybohnen, 5% SOJAGRANULAT, Rohrohrzucker, Olivenöl, Natursalz, Tomatenmark, Kümmel, Apfelessig, Knoblauch, Chilipulver, Asant, Bockshornkleesamen, Hiziki Algen.",
+    "images": [],
+    "storage": "gekühlt (Glas, eingekocht)",
+    "shelf_life": "3–15 Wochen gekühlt lt. FAQ",
+    "price_note": "Preis je Glas inkl. 10 % MwSt. lt. WooCommerce Store API (Germanized Grundpreis je 100 g)",
+    "shipping_note": "Post-Kühlversand österreichweit 10 € je Box, Mindestbestellwert 70 €, Versand Mittwoch, Zustellung Do/Fr; Wien-Botendienst 10 € (Mo–Do) lt. suppito.at/lieferbedingungen/"
+   }
+  },
+  {
+   "source": "suppito",
+   "store": "Online: SUPPITO",
+   "name": "Rindsgulasch à la Suppito scharf",
+   "brand": "SUPPITO",
+   "price_eur": 12.1,
+   "unit_price_eur": 2.42,
+   "unit": "100 g",
+   "size_g": 500.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": null,
+   "producer": "Dr. Andrea Scholdan GmbH (SUPPITO), Girardigasse 9, 1060 Wien (FN 571100d, UID ATU77606002)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.suppito.at/produkt/rindsgulasch-a-la-suppito/",
+   "source_id": "4804",
+   "fetched_at": "2026-10-24T22:13:32+00:00",
+   "extra": {
+    "wc_id": 4804,
+    "slug": "rindsgulasch-a-la-suppito",
+    "in_stock": true,
+    "line": "Eintopf",
+    "vegan": false,
+    "vegetarian": false,
+    "gluten_free": true,
+    "bio_claim": false,
+    "ingredients": "38% Rindfleisch, Wasser, Zwiebel, Karotten, Tomatenmark, Olivenöl, scharfer SENF (Wasser, GELBSENFSAAT, Branntweinessig, Steinsalz, BRAUNSENFSAAT, Gewürze), BUTTERSCHMALZ, Natursalz, Kümmel, Paprikapulver edelsüß, Paprika scharf, Kuzuwurzelpulver, Chilipulver.",
+    "images": [],
+    "storage": "gekühlt (Glas, eingekocht)",
+    "shelf_life": "3–15 Wochen gekühlt lt. FAQ",
+    "price_note": "Preis je Glas inkl. 10 % MwSt. lt. WooCommerce Store API (Germanized Grundpreis je 100 g)",
+    "shipping_note": "Post-Kühlversand österreichweit 10 € je Box, Mindestbestellwert 70 €, Versand Mittwoch, Zustellung Do/Fr; Wien-Botendienst 10 € (Mo–Do) lt. suppito.at/lieferbedingungen/"
+   }
+  },
+  {
+   "source": "suppito",
+   "store": "Online: SUPPITO",
+   "name": "Minestrone (italienische Gemüsesuppe)",
+   "brand": "SUPPITO",
+   "price_eur": 9.9,
+   "unit_price_eur": 1.94,
+   "unit": "100 g",
+   "size_g": 510.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": null,
+   "producer": "Dr. Andrea Scholdan GmbH (SUPPITO), Girardigasse 9, 1060 Wien (FN 571100d, UID ATU77606002)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.suppito.at/produkt/gemuesesuppe-italienisch/",
+   "source_id": "2704",
+   "fetched_at": "2026-10-24T22:13:32+00:00",
+   "extra": {
+    "wc_id": 2704,
+    "slug": "gemuesesuppe-italienisch",
+    "in_stock": true,
+    "line": "Suppe",
+    "vegan": true,
+    "vegetarian": true,
+    "gluten_free": true,
+    "bio_claim": false,
+    "ingredients": "Wasser, 50% Gemüse (Tomaten, Zucchini, Kohlrabi, Karotten, speckige Erdäpfel, Kohl), Natursalz, Olivenöl, Rohrohrzucker, Erdäpfelstärke, Basilikum, Liebstöckl, Ingwer, Asant, Bockshornkleesamen, Lorbeerblätter, Pfeffer schwarz, Zitronenschale.",
+    "images": [],
+    "storage": "gekühlt (Glas, eingekocht)",
+    "shelf_life": "3–15 Wochen gekühlt lt. FAQ",
+    "price_note": "Preis je Glas inkl. 10 % MwSt. lt. WooCommerce Store API (Germanized Grundpreis je 100 g)",
+    "shipping_note": "Post-Kühlversand österreichweit 10 € je Box, Mindestbestellwert 70 €, Versand Mittwoch, Zustellung Do/Fr; Wien-Botendienst 10 € (Mo–Do) lt. suppito.at/lieferbedingungen/"
+   }
+  },
+  {
+   "source": "suppito",
+   "store": "Online: SUPPITO",
+   "name": "Dal-ayurvedisches Linsengericht",
+   "brand": "SUPPITO",
+   "price_eur": 11.1,
+   "unit_price_eur": 2.22,
+   "unit": "100 g",
+   "size_g": 500.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": null,
+   "producer": "Dr. Andrea Scholdan GmbH (SUPPITO), Girardigasse 9, 1060 Wien (FN 571100d, UID ATU77606002)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.suppito.at/produkt/dal-ayurvedisches-linsengericht/",
+   "source_id": "2188",
+   "fetched_at": "2026-10-24T22:13:32+00:00",
+   "extra": {
+    "wc_id": 2188,
+    "slug": "dal-ayurvedisches-linsengericht",
+    "in_stock": true,
+    "line": "Eintopf",
+    "vegan": false,
+    "vegetarian": true,
+    "gluten_free": true,
+    "bio_claim": false,
+    "ingredients": "Wasser, 17% Karotten, 17% rote Linsen, BUTTERSCHMALZ, Ingwer, Petersilie, Natursalz, Acerolapulver (Acerola-Kirschpulver, Maniok), Gewürzmischung (Zimt, Kreuzkümmel, Kardamom, Koriandersamen, Nelken, Pfeffer schwarz, Kurkuma), schwarzer SESAM, Asant, Bockshornkleesamen, Lorbeerblätter.",
+    "images": [],
+    "storage": "gekühlt (Glas, eingekocht)",
+    "shelf_life": "3–15 Wochen gekühlt lt. FAQ",
+    "price_note": "Preis je Glas inkl. 10 % MwSt. lt. WooCommerce Store API (Germanized Grundpreis je 100 g)",
+    "shipping_note": "Post-Kühlversand österreichweit 10 € je Box, Mindestbestellwert 70 €, Versand Mittwoch, Zustellung Do/Fr; Wien-Botendienst 10 € (Mo–Do) lt. suppito.at/lieferbedingungen/"
+   }
+  },
+  {
+   "source": "suppito",
+   "store": "Online: SUPPITO",
+   "name": "rotes Linsendal mit Spinat",
+   "brand": "SUPPITO",
+   "price_eur": 11.1,
+   "unit_price_eur": 2.13,
+   "unit": "100 g",
+   "size_g": 520.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": null,
+   "producer": "Dr. Andrea Scholdan GmbH (SUPPITO), Girardigasse 9, 1060 Wien (FN 571100d, UID ATU77606002)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.suppito.at/produkt/rotes-linsendal-mit-spinat/",
+   "source_id": "1269",
+   "fetched_at": "2026-10-24T22:13:32+00:00",
+   "extra": {
+    "wc_id": 1269,
+    "slug": "rotes-linsendal-mit-spinat",
+    "in_stock": true,
+    "line": "Eintopf",
+    "vegan": false,
+    "vegetarian": true,
+    "gluten_free": true,
+    "bio_claim": false,
+    "ingredients": "Wasser, 26% Tomaten, Zwiebel, 15% rote Linsen, 5% Spinat, 2% Tomatenmark, BUTTERSCHMALZ, Natursalz, Kokosblütenzucker, Ingwer, Kreuzkümmel, Zimt, Kardamom, Koriandersamen, Asant, Bockshornkleesamen, Nelken, Pfeffer, Kurkuma, Hiziki Algen.",
+    "images": [],
+    "storage": "gekühlt (Glas, eingekocht)",
+    "shelf_life": "3–15 Wochen gekühlt lt. FAQ",
+    "price_note": "Preis je Glas inkl. 10 % MwSt. lt. WooCommerce Store API (Germanized Grundpreis je 100 g)",
+    "shipping_note": "Post-Kühlversand österreichweit 10 € je Box, Mindestbestellwert 70 €, Versand Mittwoch, Zustellung Do/Fr; Wien-Botendienst 10 € (Mo–Do) lt. suppito.at/lieferbedingungen/"
+   }
+  },
+  {
+   "source": "suppito",
+   "store": "Online: SUPPITO",
+   "name": "Kichererbsen – Spinatcurry",
+   "brand": "SUPPITO",
+   "price_eur": 11.1,
+   "unit_price_eur": 2.22,
+   "unit": "100 g",
+   "size_g": 500.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": null,
+   "producer": "Dr. Andrea Scholdan GmbH (SUPPITO), Girardigasse 9, 1060 Wien (FN 571100d, UID ATU77606002)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.suppito.at/produkt/kichererbsen-spinatcurry/",
+   "source_id": "1267",
+   "fetched_at": "2026-10-24T22:13:32+00:00",
+   "extra": {
+    "wc_id": 1267,
+    "slug": "kichererbsen-spinatcurry",
+    "in_stock": true,
+    "line": "Eintopf",
+    "vegan": true,
+    "vegetarian": true,
+    "gluten_free": true,
+    "bio_claim": false,
+    "ingredients": "Kokosmilch (70% Kokosnussextrakt, Wasser, Emulgator: E435), Süßkartoffel, 9% Kichererbsen, 9% Spinat, Wasser, Mu-Err Pilze, Tomatenmark, Natursalz, Erdäpfelstärke, Kokosblütenzucker, Ingwer, Zitronensaft, Koriander, Kurkuma, getrocknete Hülsenfrüchte, Bockshornkleesamen, Pfeffer, Asant, Chili.",
+    "images": [],
+    "storage": "gekühlt (Glas, eingekocht)",
+    "shelf_life": "3–15 Wochen gekühlt lt. FAQ",
+    "price_note": "Preis je Glas inkl. 10 % MwSt. lt. WooCommerce Store API (Germanized Grundpreis je 100 g)",
+    "shipping_note": "Post-Kühlversand österreichweit 10 € je Box, Mindestbestellwert 70 €, Versand Mittwoch, Zustellung Do/Fr; Wien-Botendienst 10 € (Mo–Do) lt. suppito.at/lieferbedingungen/"
+   }
+  },
+  {
+   "source": "suppito",
+   "store": "Online: SUPPITO",
+   "name": "Kürbiscreme Suppe klassisch",
+   "brand": "SUPPITO",
+   "price_eur": 9.1,
+   "unit_price_eur": 1.82,
+   "unit": "100 g",
+   "size_g": 500.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": null,
+   "producer": "Dr. Andrea Scholdan GmbH (SUPPITO), Girardigasse 9, 1060 Wien (FN 571100d, UID ATU77606002)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.suppito.at/produkt/kuerbiscreme-suppe-klassisch/",
+   "source_id": "557",
+   "fetched_at": "2026-10-24T22:13:32+00:00",
+   "extra": {
+    "wc_id": 557,
+    "slug": "kuerbiscreme-suppe-klassisch",
+    "in_stock": true,
+    "line": "Suppe",
+    "vegan": false,
+    "vegetarian": true,
+    "gluten_free": true,
+    "bio_claim": false,
+    "ingredients": "Wasser, 21% Hokkaidokürbis, Erdäpfel, Zwiebel, Natursalz, Apfelessig, Tomatenmark, BUTTERSCHMALZ, Kümmel, Paprikapulver edelsüss, Kardamom, Knoblauch, Pfeffer schwarz, Wakame Algen.",
+    "images": [],
+    "storage": "gekühlt (Glas, eingekocht)",
+    "shelf_life": "3–15 Wochen gekühlt lt. FAQ",
+    "price_note": "Preis je Glas inkl. 10 % MwSt. lt. WooCommerce Store API (Germanized Grundpreis je 100 g)",
+    "shipping_note": "Post-Kühlversand österreichweit 10 € je Box, Mindestbestellwert 70 €, Versand Mittwoch, Zustellung Do/Fr; Wien-Botendienst 10 € (Mo–Do) lt. suppito.at/lieferbedingungen/"
+   }
+  },
+  {
+   "source": "suppito",
+   "store": "Online: SUPPITO",
+   "name": "Kürbis-Kokos Suppe scharf",
+   "brand": "SUPPITO",
+   "price_eur": 9.1,
+   "unit_price_eur": 1.82,
+   "unit": "100 g",
+   "size_g": 500.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": null,
+   "producer": "Dr. Andrea Scholdan GmbH (SUPPITO), Girardigasse 9, 1060 Wien (FN 571100d, UID ATU77606002)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.suppito.at/produkt/kuerbis-kokos-suppe/",
+   "source_id": "555",
+   "fetched_at": "2026-10-24T22:13:32+00:00",
+   "extra": {
+    "wc_id": 555,
+    "slug": "kuerbis-kokos-suppe",
+    "in_stock": true,
+    "line": "Suppe",
+    "vegan": true,
+    "vegetarian": true,
+    "gluten_free": true,
+    "bio_claim": false,
+    "ingredients": "Wasser, 39% Hokkaidokürbis, 17% Kokosmilch (70% Kokosnussextrakt, Wasser, Emulgator: E435), Zwiebel, SENF scharf ( Wasser, GELBSENFSAAT, Branntweinessig, Meersalz, BRAUNSENFSAAT, Gewürze, Kräuter), Natursalz, Kokosöl, Rohrohrzucker, Ingwer, Zitronensaft, Kardamom gemahlen, Chilipulver, Kreuzkümmel, Hiziki Algen, Zitronenschale.",
+    "images": [],
+    "storage": "gekühlt (Glas, eingekocht)",
+    "shelf_life": "3–15 Wochen gekühlt lt. FAQ",
+    "price_note": "Preis je Glas inkl. 10 % MwSt. lt. WooCommerce Store API (Germanized Grundpreis je 100 g)",
+    "shipping_note": "Post-Kühlversand österreichweit 10 € je Box, Mindestbestellwert 70 €, Versand Mittwoch, Zustellung Do/Fr; Wien-Botendienst 10 € (Mo–Do) lt. suppito.at/lieferbedingungen/"
+   }
+  },
+  {
+   "source": "suppito",
+   "store": "Online: SUPPITO",
+   "name": "Linseneintopf mediterran",
+   "brand": "SUPPITO",
+   "price_eur": 11.1,
+   "unit_price_eur": 2.22,
+   "unit": "100 g",
+   "size_g": 500.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://www.suppito.at/wp-content/uploads/2016/03/Linseneintopf_mediterran-scaled.webp",
+   "producer": "Dr. Andrea Scholdan GmbH (SUPPITO), Girardigasse 9, 1060 Wien (FN 571100d, UID ATU77606002)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.suppito.at/produkt/linseneintopfmediterran/",
+   "source_id": "280",
+   "fetched_at": "2026-10-24T22:13:32+00:00",
+   "extra": {
+    "wc_id": 280,
+    "slug": "linseneintopfmediterran",
+    "in_stock": true,
+    "line": "Eintopf",
+    "vegan": true,
+    "vegetarian": true,
+    "gluten_free": true,
+    "bio_claim": false,
+    "ingredients": "Wasser, 30% Tomaten, 14% Berglinsen, 8% Karotten, 8% Zwiebel, RÄUCHERTOFU (Sojabohnen, Wasser, Nigari, Sojasauce (Wasser, Sojabohnen, Meersalz, Alkohol, A. Oryzae), Holzrauch), Olivenöl, Erdäpfelstärke, Natursalz, Kräuter (Basilikum, Thymian, Oregano), Knoblauch, Apfelessig, Asant, Bockshornkleesamen, Pfeffer schwarz, Wakame Algen, Lorbeerblätter.",
+    "images": [
+     "https://www.suppito.at/wp-content/uploads/2016/03/Linseneintopf_mediterran-scaled.webp"
+    ],
+    "storage": "gekühlt (Glas, eingekocht)",
+    "shelf_life": "3–15 Wochen gekühlt lt. FAQ",
+    "price_note": "Preis je Glas inkl. 10 % MwSt. lt. WooCommerce Store API (Germanized Grundpreis je 100 g)",
+    "shipping_note": "Post-Kühlversand österreichweit 10 € je Box, Mindestbestellwert 70 €, Versand Mittwoch, Zustellung Do/Fr; Wien-Botendienst 10 € (Mo–Do) lt. suppito.at/lieferbedingungen/"
+   }
+  },
+  {
+   "source": "suppito",
+   "store": "Online: SUPPITO",
+   "name": "Kichererbsen-Gemüseeintopf marokkanisch",
+   "brand": "SUPPITO",
+   "price_eur": 11.1,
+   "unit_price_eur": 2.22,
+   "unit": "100 g",
+   "size_g": 500.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://www.suppito.at/wp-content/uploads/2016/03/Kichererbseneintopf-scaled.webp",
+   "producer": "Dr. Andrea Scholdan GmbH (SUPPITO), Girardigasse 9, 1060 Wien (FN 571100d, UID ATU77606002)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.suppito.at/produkt/kichererbsen-gemueseeintopf-marokkanisch/",
+   "source_id": "276",
+   "fetched_at": "2026-10-24T22:13:32+00:00",
+   "extra": {
+    "wc_id": 276,
+    "slug": "kichererbsen-gemueseeintopf-marokkanisch",
+    "in_stock": true,
+    "line": "Eintopf",
+    "vegan": true,
+    "vegetarian": true,
+    "gluten_free": true,
+    "bio_claim": false,
+    "ingredients": "50% Gemüse (Tomaten, Zucchini, Karotten, Melanzani, Lauch, Zwiebel) Wasser, 10% Kichererbsen, rote Linsen, Olivenöl, Natursalz, Rohrohrzucker, Petersilie, Tomatenmark, Zimt, Kreuzkümmel, Kardamom, Koriandersamen, Nelken, Pfeffer schwarz, Kurkuma, Asant, Bockshornkleesamen.",
+    "images": [
+     "https://www.suppito.at/wp-content/uploads/2016/03/Kichererbseneintopf-scaled.webp"
+    ],
+    "storage": "gekühlt (Glas, eingekocht)",
+    "shelf_life": "3–15 Wochen gekühlt lt. FAQ",
+    "price_note": "Preis je Glas inkl. 10 % MwSt. lt. WooCommerce Store API (Germanized Grundpreis je 100 g)",
+    "shipping_note": "Post-Kühlversand österreichweit 10 € je Box, Mindestbestellwert 70 €, Versand Mittwoch, Zustellung Do/Fr; Wien-Botendienst 10 € (Mo–Do) lt. suppito.at/lieferbedingungen/"
+   }
+  },
+  {
+   "source": "suppito",
+   "store": "Online: SUPPITO",
+   "name": "Gigantes – griechischer Riesenbohneneintopf",
+   "brand": "SUPPITO",
+   "price_eur": 11.1,
+   "unit_price_eur": 2.22,
+   "unit": "100 g",
+   "size_g": 500.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://www.suppito.at/wp-content/uploads/2016/03/Gigantes-Kopie-jpg.webp",
+   "producer": "Dr. Andrea Scholdan GmbH (SUPPITO), Girardigasse 9, 1060 Wien (FN 571100d, UID ATU77606002)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.suppito.at/produkt/gigantes-2/",
+   "source_id": "274",
+   "fetched_at": "2026-10-24T22:13:32+00:00",
+   "extra": {
+    "wc_id": 274,
+    "slug": "gigantes-2",
+    "in_stock": true,
+    "line": "Eintopf",
+    "vegan": true,
+    "vegetarian": true,
+    "gluten_free": true,
+    "bio_claim": false,
+    "ingredients": "51% Tomaten, 20% weiße Riesenbohnen, Olivenöl, Zwiebel, Knoblauch, Natursalz, frische Dille, Rohrohrzucker, Asant, Bockshornkleesamen, Lorbeerblätter, Wakame Algen.",
+    "images": [
+     "https://www.suppito.at/wp-content/uploads/2016/03/Gigantes-Kopie-jpg.webp"
+    ],
+    "storage": "gekühlt (Glas, eingekocht)",
+    "shelf_life": "3–15 Wochen gekühlt lt. FAQ",
+    "price_note": "Preis je Glas inkl. 10 % MwSt. lt. WooCommerce Store API (Germanized Grundpreis je 100 g)",
+    "shipping_note": "Post-Kühlversand österreichweit 10 € je Box, Mindestbestellwert 70 €, Versand Mittwoch, Zustellung Do/Fr; Wien-Botendienst 10 € (Mo–Do) lt. suppito.at/lieferbedingungen/"
+   }
+  },
+  {
+   "source": "suppito",
+   "store": "Online: SUPPITO",
+   "name": "Gemüsecurry mit Cashewnüssen scharf",
+   "brand": "SUPPITO",
+   "price_eur": 12.1,
+   "unit_price_eur": 2.37,
+   "unit": "100 g",
+   "size_g": 510.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://www.suppito.at/wp-content/uploads/2016/03/Gemuesecurry_Cashewnuesse-scaled.webp",
+   "producer": "Dr. Andrea Scholdan GmbH (SUPPITO), Girardigasse 9, 1060 Wien (FN 571100d, UID ATU77606002)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.suppito.at/produkt/gemuesecurrymitcashewnuessen/",
+   "source_id": "271",
+   "fetched_at": "2026-10-24T22:13:32+00:00",
+   "extra": {
+    "wc_id": 271,
+    "slug": "gemuesecurrymitcashewnuessen",
+    "in_stock": true,
+    "line": "Eintopf",
+    "vegan": true,
+    "vegetarian": true,
+    "gluten_free": true,
+    "bio_claim": false,
+    "ingredients": "Gemüseeintopf mit 69% Gemüse, Kokosmilch (70% Kokosnussextrakt, Wasser, Emulgator: E435), Tomaten, Zwiebel, Karotten, Süßkartoffel, Brokkoli, Zucchini, rote und grüne Paprika, rote Linsen, Wasser, Spinat, Rohrohrzucker, 0,9% CASHEWNÜSSE, Kokosöl, Natursalz, Ingwer, Erdäpfelstärke, schwarze SENFSAMEN, Apfelessig, Chilipulver, Knoblauch, Zitronengras, Galgant, Kurkuma, Kreuzkümmel-, Kardamom- und Koriandersamen, Asant, Bockshornkleesamen, Zimt, Muskatblüte.",
+    "images": [
+     "https://www.suppito.at/wp-content/uploads/2016/03/Gemuesecurry_Cashewnuesse-scaled.webp"
+    ],
+    "storage": "gekühlt (Glas, eingekocht)",
+    "shelf_life": "3–15 Wochen gekühlt lt. FAQ",
+    "price_note": "Preis je Glas inkl. 10 % MwSt. lt. WooCommerce Store API (Germanized Grundpreis je 100 g)",
+    "shipping_note": "Post-Kühlversand österreichweit 10 € je Box, Mindestbestellwert 70 €, Versand Mittwoch, Zustellung Do/Fr; Wien-Botendienst 10 € (Mo–Do) lt. suppito.at/lieferbedingungen/"
+   }
+  },
+  {
+   "source": "suppito",
+   "store": "Online: SUPPITO",
+   "name": "Erdäpfelgulasch mit Räuchertofu",
+   "brand": "SUPPITO",
+   "price_eur": 11.1,
+   "unit_price_eur": 2.18,
+   "unit": "100 g",
+   "size_g": 510.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://www.suppito.at/wp-content/uploads/2016/03/Erdaepfelgulasch_Raeuchertofu-scaled.webp",
+   "producer": "Dr. Andrea Scholdan GmbH (SUPPITO), Girardigasse 9, 1060 Wien (FN 571100d, UID ATU77606002)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.suppito.at/produkt/erdaepfelgulaschmitgeraeuchertemtofu/",
+   "source_id": "269",
+   "fetched_at": "2026-10-24T22:13:32+00:00",
+   "extra": {
+    "wc_id": 269,
+    "slug": "erdaepfelgulaschmitgeraeuchertemtofu",
+    "in_stock": true,
+    "line": "Eintopf",
+    "vegan": true,
+    "vegetarian": true,
+    "gluten_free": true,
+    "bio_claim": false,
+    "ingredients": "42% Erdäpfel, Wasser, Zwiebel, Salatgurke, 3% RÄUCHERTOFU (Sojabohnen, Wasser, Nigari, Sojasauce (Wasser, Sojabohnen, Meersalz, Alkohol, A. Oryzae), Holzrauch), Olivenöl, Natursalz, Apfelessig, Paprikapulver edelsüß, Tomatenmark, Erdäpfelstärke, Kümmel, Knoblauch, Majoran, Paprikapulver scharf.",
+    "images": [
+     "https://www.suppito.at/wp-content/uploads/2016/03/Erdaepfelgulasch_Raeuchertofu-scaled.webp"
+    ],
+    "storage": "gekühlt (Glas, eingekocht)",
+    "shelf_life": "3–15 Wochen gekühlt lt. FAQ",
+    "price_note": "Preis je Glas inkl. 10 % MwSt. lt. WooCommerce Store API (Germanized Grundpreis je 100 g)",
+    "shipping_note": "Post-Kühlversand österreichweit 10 € je Box, Mindestbestellwert 70 €, Versand Mittwoch, Zustellung Do/Fr; Wien-Botendienst 10 € (Mo–Do) lt. suppito.at/lieferbedingungen/"
+   }
+  },
+  {
+   "source": "suppito",
+   "store": "Online: SUPPITO",
+   "name": "Tomaten-Kokos Suppe scharf",
+   "brand": "SUPPITO",
+   "price_eur": 9.1,
+   "unit_price_eur": 1.78,
+   "unit": "100 g",
+   "size_g": 510.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://www.suppito.at/wp-content/uploads/2016/03/Tomaten-Kokos-Suppe-Kopie-jpg.webp",
+   "producer": "Dr. Andrea Scholdan GmbH (SUPPITO), Girardigasse 9, 1060 Wien (FN 571100d, UID ATU77606002)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.suppito.at/produkt/tomatenkokossuppe/",
+   "source_id": "264",
+   "fetched_at": "2026-10-24T22:13:32+00:00",
+   "extra": {
+    "wc_id": 264,
+    "slug": "tomatenkokossuppe",
+    "in_stock": true,
+    "line": "Suppe",
+    "vegan": true,
+    "vegetarian": true,
+    "gluten_free": true,
+    "bio_claim": false,
+    "ingredients": "Wasser, 34% Tomaten, 16% Kokosmilch (70% Kokosnussextrakt, Wasser, Emulgator: E435), Zwiebel, STANGEN- und KNOLLENSELLERIE, Karotten, Rohrohrzucker, Natursalz, Kokosöl, Apfelessig, Ingwer, Zitronengras, Chilipulver, Kreuzkümmel, Kaffirblätter, Vanillesschote gemahlen, Hiziki Algen, Kardamom, Piment, Zitronenschale.",
+    "images": [
+     "https://www.suppito.at/wp-content/uploads/2016/03/Tomaten-Kokos-Suppe-Kopie-jpg.webp"
+    ],
+    "storage": "gekühlt (Glas, eingekocht)",
+    "shelf_life": "3–15 Wochen gekühlt lt. FAQ",
+    "price_note": "Preis je Glas inkl. 10 % MwSt. lt. WooCommerce Store API (Germanized Grundpreis je 100 g)",
+    "shipping_note": "Post-Kühlversand österreichweit 10 € je Box, Mindestbestellwert 70 €, Versand Mittwoch, Zustellung Do/Fr; Wien-Botendienst 10 € (Mo–Do) lt. suppito.at/lieferbedingungen/"
+   }
+  },
+  {
+   "source": "suppito",
+   "store": "Online: SUPPITO",
+   "name": "Rote Rüben-Apfel-Kren Suppe",
+   "brand": "SUPPITO",
+   "price_eur": 9.9,
+   "unit_price_eur": 1.94,
+   "unit": "100 g",
+   "size_g": 510.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://www.suppito.at/wp-content/uploads/2016/03/RoteRuebe_Apfel_Kren_Suppe-scaled.webp",
+   "producer": "Dr. Andrea Scholdan GmbH (SUPPITO), Girardigasse 9, 1060 Wien (FN 571100d, UID ATU77606002)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.suppito.at/produkt/roteruebenapfelkrensuppe/",
+   "source_id": "260",
+   "fetched_at": "2026-10-24T22:13:32+00:00",
+   "extra": {
+    "wc_id": 260,
+    "slug": "roteruebenapfelkrensuppe",
+    "in_stock": true,
+    "line": "Suppe",
+    "vegan": true,
+    "vegetarian": true,
+    "gluten_free": true,
+    "bio_claim": false,
+    "ingredients": "Wasser, 22% rote Rüben, 8% roter Rübensaft, 6% Apfelsaft, 3% Äpfel, Erdäpfel, Zwiebel, Karotten, KNOLLENSELLERIE, 1% Kren, Natursalz, Apfelessig, Kümmel, Olivenöl, Pfeffer schwarz, Hiziki Algen.",
+    "images": [
+     "https://www.suppito.at/wp-content/uploads/2016/03/RoteRuebe_Apfel_Kren_Suppe-scaled.webp"
+    ],
+    "storage": "gekühlt (Glas, eingekocht)",
+    "shelf_life": "3–15 Wochen gekühlt lt. FAQ",
+    "price_note": "Preis je Glas inkl. 10 % MwSt. lt. WooCommerce Store API (Germanized Grundpreis je 100 g)",
+    "shipping_note": "Post-Kühlversand österreichweit 10 € je Box, Mindestbestellwert 70 €, Versand Mittwoch, Zustellung Do/Fr; Wien-Botendienst 10 € (Mo–Do) lt. suppito.at/lieferbedingungen/"
+   }
+  },
+  {
+   "source": "suppito",
+   "store": "Online: SUPPITO",
+   "name": "Linsensuppe orientalisch",
+   "brand": "SUPPITO",
+   "price_eur": 9.1,
+   "unit_price_eur": 1.77,
+   "unit": "100 g",
+   "size_g": 515.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://www.suppito.at/wp-content/uploads/2016/03/Linsensuppe-Orientalisch-Kopie-jpg.webp",
+   "producer": "Dr. Andrea Scholdan GmbH (SUPPITO), Girardigasse 9, 1060 Wien (FN 571100d, UID ATU77606002)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.suppito.at/produkt/linsensuppeorientalisch/",
+   "source_id": "257",
+   "fetched_at": "2026-10-24T22:13:32+00:00",
+   "extra": {
+    "wc_id": 257,
+    "slug": "linsensuppeorientalisch",
+    "in_stock": true,
+    "line": "Suppe",
+    "vegan": true,
+    "vegetarian": true,
+    "gluten_free": true,
+    "bio_claim": false,
+    "ingredients": "Wasser, Karotten, 10% Linsen, Lauch, WEISSWEIN (enthält SULFIT), STANGENSELLERIE, Natursalz, Olivenöl, Petersilie, Ingwer, Zitronensaft, Knoblauch, Kreuzkümmel, schwarzer SESAM, Zimt, Asant, Bockshornkleesamen, Kardamom, Koriandersamen, Nelken, Pfeffer schwarz, Kurkuma, Lorbeerblätter, Wakame Algen.",
+    "images": [
+     "https://www.suppito.at/wp-content/uploads/2016/03/Linsensuppe-Orientalisch-Kopie-jpg.webp"
+    ],
+    "storage": "gekühlt (Glas, eingekocht)",
+    "shelf_life": "3–15 Wochen gekühlt lt. FAQ",
+    "price_note": "Preis je Glas inkl. 10 % MwSt. lt. WooCommerce Store API (Germanized Grundpreis je 100 g)",
+    "shipping_note": "Post-Kühlversand österreichweit 10 € je Box, Mindestbestellwert 70 €, Versand Mittwoch, Zustellung Do/Fr; Wien-Botendienst 10 € (Mo–Do) lt. suppito.at/lieferbedingungen/"
+   }
+  },
+  {
+   "source": "suppito",
+   "store": "Online: SUPPITO",
+   "name": "Krautsuppe scharf",
+   "brand": "SUPPITO",
+   "price_eur": 9.1,
+   "unit_price_eur": 1.82,
+   "unit": "100 g",
+   "size_g": 500.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://www.suppito.at/wp-content/uploads/2016/03/Krautsuppe-Kopie-jpg.webp",
+   "producer": "Dr. Andrea Scholdan GmbH (SUPPITO), Girardigasse 9, 1060 Wien (FN 571100d, UID ATU77606002)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.suppito.at/produkt/krautsuppe/",
+   "source_id": "255",
+   "fetched_at": "2026-10-24T22:13:32+00:00",
+   "extra": {
+    "wc_id": 255,
+    "slug": "krautsuppe",
+    "in_stock": true,
+    "line": "Suppe",
+    "vegan": true,
+    "vegetarian": true,
+    "gluten_free": true,
+    "bio_claim": false,
+    "ingredients": "Wasser, Tomate, 6% Weißkraut, Jungzwiebeln, Karotten, Zucchini, rote und grüne Paprika, Lauch, Zuckererbsen, Mungbohnensprossen, Champignons, Natursalz, Tomatenmark, STANGENSELLERIE, Ingwer, Rohrohrzucker, Olivenöl, Asant, Bockshornkleesamen, Koriandersamen, Chilipulver.",
+    "images": [
+     "https://www.suppito.at/wp-content/uploads/2016/03/Krautsuppe-Kopie-jpg.webp"
+    ],
+    "storage": "gekühlt (Glas, eingekocht)",
+    "shelf_life": "3–15 Wochen gekühlt lt. FAQ",
+    "price_note": "Preis je Glas inkl. 10 % MwSt. lt. WooCommerce Store API (Germanized Grundpreis je 100 g)",
+    "shipping_note": "Post-Kühlversand österreichweit 10 € je Box, Mindestbestellwert 70 €, Versand Mittwoch, Zustellung Do/Fr; Wien-Botendienst 10 € (Mo–Do) lt. suppito.at/lieferbedingungen/"
+   }
+  }
+ ],
+ "excluded": [
+  {
+   "id": 51562,
+   "slug": "kookie-cat-cookie-mit-chia-und-zitrone",
+   "name": "KOOKIE CAT &#8211; Cookie mit Chia und Zitrone"
+  },
+  {
+   "id": 51561,
+   "slug": "kookie-cat-cookie-mit-kakaonibs-und-walnuss",
+   "name": "KOOKIE CAT &#8211; Cookie mit Kakaonibs und Walnuss"
+  },
+  {
+   "id": 51560,
+   "slug": "kookie-cat-cookie-mit-salzkaramell-und-mandeln",
+   "name": "KOOKIE CAT &#8211; Cookie mit Salzkaramell und Mandeln"
+  },
+  {
+   "id": 51558,
+   "slug": "cookie-mit-vanille-und-sckokochips",
+   "name": "KOOKIE CAT &#8211; Cookie mit Vanille und Sckokochips"
+  },
+  {
+   "id": 51517,
+   "slug": "eva-biologisches-olivenoel-aus-griechenland",
+   "name": "EVA &#8211; biologisches Olivenöl aus Griechenland, 100 ml"
+  },
+  {
+   "id": 51466,
+   "slug": "suppitos-salatdressing",
+   "name": "SUPPITO&#8217;s Salatdressing"
+  },
+  {
+   "id": 25623,
+   "slug": "fairment-kombucha-klassisch-bio",
+   "name": "Voelkel, Bio Kombucha klassisch"
+  },
+  {
+   "id": 12839,
+   "slug": "pona-bio-fruchtsaft-apfel-ingwer",
+   "name": "PONA, Bio-Fruchtsaft: Apfel &#038; Ingwer"
+  },
+  {
+   "id": 8403,
+   "slug": "pona-bio-fruchtsaft-rote-traube-primofiore-zitrone",
+   "name": "PONA, Bio-Fruchtsaft: Rote Traube &#038; Primofiore Zitrone"
+  },
+  {
+   "id": 8402,
+   "slug": "pona-bio-fruchtsaft-primofiore-zitrone",
+   "name": "PONA, Bio-Fruchtsaft: Primofiore Zitrone"
+  },
+  {
+   "id": 8401,
+   "slug": "pona-bio-fruchtsaft-pink-grapefruit",
+   "name": "PONA, Bio-Fruchtsaft: Pink Grapefruit"
+  },
+  {
+   "id": 4195,
+   "slug": "schoko-mandel-tarte-im-ganzen",
+   "name": "Schoko-Mandel-Tarte &#8211; im Ganzen"
+  },
+  {
+   "id": 3726,
+   "slug": "gemuesesugo-herbstlich",
+   "name": "Gemüsesugo herbstlich"
+  },
+  {
+   "id": 2763,
+   "slug": "eva-biologisches-olivenoel-2",
+   "name": "EVA &#8211; biologisches Olivenöl aus Griechenland, 250 ml"
+  },
+  {
+   "id": 2762,
+   "slug": "eva-biologisches-olivenoel",
+   "name": "EVA &#8211; biologisches Olivenöl aus Griechenland, 750 ml"
+  },
+  {
+   "id": 2649,
+   "slug": "brodo-mit-rind-langgekochte-bruehe",
+   "name": "Brodo vom Rind &#8211; langgekochte Knochensuppe"
+  },
+  {
+   "id": 2503,
+   "slug": "hafer-kokos-porridge-mini",
+   "name": "Hafer-Kokos Porridge mini"
+  },
+  {
+   "id": 1246,
+   "slug": "butterschmalz-ghee-hausgemacht",
+   "name": "Butterschmalz (Ghee) hausgemacht"
+  },
+  {
+   "id": 1214,
+   "slug": "hafer-kokos-porridge",
+   "name": "Hafer-Kokos Porridge"
+  },
+  {
+   "id": 701,
+   "slug": "kochbuch-4-suppito-in-a-bowl",
+   "name": "Kochbuch 4 &#8211; Suppito in a bowl"
+  },
+  {
+   "id": 584,
+   "slug": "granola-mit-quinoa",
+   "name": "Granola mit Quinoa, knusprige Getreide &#8211; Nussmischung"
+  },
+  {
+   "id": 580,
+   "slug": "gemuesepulver",
+   "name": "Gemüsepulver"
+  },
+  {
+   "id": 573,
+   "slug": "druidenzauber-wertvolle-nuss-samenmischung",
+   "name": "Druidenzauber &#8211; schnelles Powerfrühstück"
+  },
+  {
+   "id": 386,
+   "slug": "suppito-crackers-2",
+   "name": "SUPPITO Cracker salzig"
+  },
+  {
+   "id": 376,
+   "slug": "umeboshi-paste-2",
+   "name": "Umeboshi-Paste von Arche"
+  },
+  {
+   "id": 373,
+   "slug": "tamari-weizenfreie-sojasosse",
+   "name": "Tamari (weizenfreie Sojasoße) von Arche"
+  },
+  {
+   "id": 367,
+   "slug": "shiitakepilz-pulver-2",
+   "name": "Pilze Shiitake-Pulver"
+  },
+  {
+   "id": 366,
+   "slug": "sesamoel",
+   "name": "Sesamöl geröstet von Arche"
+  },
+  {
+   "id": 364,
+   "slug": "schwarzer-sesam-geroestet-2",
+   "name": "schwarzer Sesam geröstet"
+  },
+  {
+   "id": 353,
+   "slug": "mu-err-pilze-2",
+   "name": "Pilze Mu-Err getrocknet"
+  },
+  {
+   "id": 351,
+   "slug": "kuzuwurzelpulver",
+   "name": "Kuzuwurzelpulver"
+  },
+  {
+   "id": 337,
+   "slug": "hiziki-algen",
+   "name": "Algen Hiziki"
+  },
+  {
+   "id": 335,
+   "slug": "hanfnuesse-geschaelte-hanfsamen",
+   "name": "Hanfnüsse (geschälte Hanfsamen)"
+  },
+  {
+   "id": 326,
+   "slug": "gewuerzmischung-suppitos-masala-2",
+   "name": "Gewürzmischung SUPPITO´s Masala"
+  },
+  {
+   "id": 324,
+   "slug": "gewuerzmischung-smokey-secret-2",
+   "name": "Gewürzmischung Smokey Secret"
+  },
+  {
+   "id": 322,
+   "slug": "gewuerzmischung-singhal-curry-2",
+   "name": "Gewürzmischung Singhal Curry"
+  },
+  {
+   "id": 320,
+   "slug": "gewuerzmischung-schleckermaul-2",
+   "name": "Gewürzmischung Schleckermaul"
+  },
+  {
+   "id": 319,
+   "slug": "gewuerzmischung-nut-it-up-2",
+   "name": "Gewürzmischung Nut it up"
+  },
+  {
+   "id": 317,
+   "slug": "gewuerzmischung-indochine-2",
+   "name": "Gewürzmischung Indochine"
+  },
+  {
+   "id": 308,
+   "slug": "bergkernsalz-fein",
+   "name": "Steinsalz unjodiert und gemahlen"
+  },
+  {
+   "id": 306,
+   "slug": "asafoetida-pulver",
+   "name": "Asafoetida Pulver"
+  },
+  {
+   "id": 295,
+   "slug": "schoko-mandel-tarte",
+   "name": "Schoko-Mandel-Tarte, 1/8"
+  },
+  {
+   "id": 293,
+   "slug": "schokokokosreiscreme",
+   "name": "Schoko-Kokos-Reiscreme"
+  },
+  {
+   "id": 281,
+   "slug": "ragu-alla-bolognese-2",
+   "name": "Ragu alla Bolognese"
+  }
+ ]
+}
