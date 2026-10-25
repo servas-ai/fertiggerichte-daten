@@ -4335,6 +4335,113 @@ def _reconcile_sc48(out):
                                                                     _r1502['multi_portion'] = True
                                                                     changed_uids.add(_r1502['uid'])
 
+                                                                # sensecheck 72 (SC72):
+                                                                # 1. P0.1: #2206 [Denn's] MyDeli Bio-Fleischsuppe (Artikel 564131, 3.99 €) is MyDeli Bio-Hühnersuppe 380 g
+                                                                #    (EAN 4012344902014, 25 kcal/100g, 3.4 g P/100g, 95 kcal & 12.9 g P per jar -> clear broth, snack_side,
+                                                                #    not rankableLight; EAN 4012344902069 is MyDeli Bio Rindergulasch Art. 564164 at 5.29-6.50 €).
+                                                                # 2. P0.2: #2205 [Denn's] SOTO Veganes / Vegetarisches Bio-Fingerfood (SOTO Bio Falafel Traditionell 200 g)
+                                                                #    aligned with all 12 other Falafel packs & #2204 as stage='prot', meal_class='protein_component',
+                                                                #    component=True, rankable=False.
+                                                                # 3. P0.3: Backfill verified product images on #2204 (from GTIN twin #2040), #2205 (OFF 4026584133640),
+                                                                #    and #2206 (OFF 4012344902014).
+                                                                SC72_FIXES = os.environ.get('SC72_FIXES', '1') != '0' and os.environ.get('GOOD_CHOICE_DISABLE_SC72', '0') != '1'
+                                                                if SC72_FIXES:
+                                                                    _r2040 = _pmm_by_id.get(2040)
+                                                                    if _r2204 is not None and _r2040 is not None and _r2040.get('img'):
+                                                                        _r2204['img'] = _r2040['img']
+                                                                        changed_uids.add(_r2204['uid'])
+
+                                                                    if _r2205 is not None:
+                                                                        _r2205.update({
+                                                                            'img': 'https://images.openfoodfacts.org/images/products/402/658/413/3640/front_de.23.400.jpg',
+                                                                            'stage': 'prot',
+                                                                            'meal_class': 'protein_component',
+                                                                            'component': True,
+                                                                            'meal_check': {
+                                                                                'portion': 200,
+                                                                                'kcal': 434,
+                                                                                'protein': 20.0,
+                                                                                'ok': False,
+                                                                                'cls': 'protein_component',
+                                                                                'reason': 'Proteinkomponente (keine vollständige Mahlzeit)',
+                                                                            },
+                                                                            'flags': ['Mahlzeit-Check: Proteinkomponente (keine vollständige Mahlzeit)'],
+                                                                            'rankable': False,
+                                                                            'pli': None,
+                                                                            'rankableLight': False,
+                                                                            'pliLight': None,
+                                                                            'rank_excluded_reason': 'Proteinkomponente (keine vollständige Mahlzeit)',
+                                                                        })
+                                                                        changed_uids.add(_r2205['uid'])
+
+                                                                    if _r2206 is not None:
+                                                                        _r2206.update({
+                                                                            'name': 'MyDeli Bio-Hühnersuppe',
+                                                                            'ean': '4012344902014',
+                                                                            'img': 'https://images.openfoodfacts.org/images/products/401/234/490/2014/front_de.4.400.jpg',
+                                                                            'nutrition_source': 'manufacturer',
+                                                                            'nutrition_basis': 'as_sold',
+                                                                            'kcal': 25.0,
+                                                                            'p100': 3.4,
+                                                                            'fat': 0.4,
+                                                                            'sat': 0.2,
+                                                                            'carbs': 2.1,
+                                                                            'sugar': 1.1,
+                                                                            'fib': None,
+                                                                            'salt': 1.55,
+                                                                            'nova': 3,
+                                                                            'nova_source': 'ingredients_markers',
+                                                                            'veg_pct': 14.0,
+                                                                            'veg_source': 'ingredients_order',
+                                                                            'size': 380.0,
+                                                                            'portion': 380,
+                                                                            'portion_g': 380,
+                                                                            'portion_source': 'pack_single',
+                                                                            'pack': 'Glas',
+                                                                            'kcalpack': 95.0,
+                                                                            'protpack': 12.9,
+                                                                            'kcalPor': 95.0,
+                                                                            'kcal_meal': 95,
+                                                                            'protPor': 12.9,
+                                                                            'saltPor': 5.89,
+                                                                            'saltPct': 98,
+                                                                            'pPor': 3.99,
+                                                                            'pPorEff': None,
+                                                                            'ppk': 10.5,
+                                                                            'p100g': 1.05,
+                                                                            'p100k': 13.6,
+                                                                            'eur10p': 3.09,
+                                                                            'eur100k': 4.2,
+                                                                            'ppe': 3.2,
+                                                                            'score': 46.9,
+                                                                            'scoreV1': 47.5,
+                                                                            'day_pct': {'kcal': 5, 'protein': 26, 'salt': 98, 'satfat': 4, 'sugar': 5, 'fiber': None},
+                                                                            'score_parts': {'base': 30.0, 'protein': 35, 'salt': -13.6, 'satfat': -0.0, 'sugar': 0.0, 'fiber': 0, 'veg': 3.5, 'nova': 0, 'portion_salt': -8},
+                                                                            'cprot': ['Huhn'],
+                                                                            'cdish': ['Suppe'],
+                                                                            'stage': 'stew',
+                                                                            'segment': 'ready_meal',
+                                                                            'meal_class': 'snack_side',
+                                                                            'gang': 'vorspeise',
+                                                                            'component': False,
+                                                                            'meal_check': {
+                                                                                'portion': 380,
+                                                                                'kcal': 95,
+                                                                                'protein': 12.9,
+                                                                                'ok': False,
+                                                                                'cls': 'snack_side',
+                                                                                'reason': '95 kcal/Portion – Snack/Beilage',
+                                                                            },
+                                                                            'flags': ['Mahlzeit-Check: 95 kcal/Portion – Snack/Beilage'],
+                                                                            'rankable': False,
+                                                                            'pli': None,
+                                                                            'rankableLight': False,
+                                                                            'pliLight': None,
+                                                                            'rank_excluded_reason': '95 kcal/Portion – Snack/Beilage',
+                                                                            'variant_note': "Dennree-Art. 564131 (Denn's Aktions-Sammelkachel „MyDeli Bio-Fleischsuppe“, ab 3,49 € / Normalpreis 3,99 €) = MyDeli Bio-Hühnersuppe 380 g (EAN 4012344902014); MyDeli Bio Rindergulasch 380 g ist Dennree-Art. 564164 (EAN 4012344902069, UVP 5,29–6,50 €).",
+                                                                        })
+                                                                        changed_uids.add(_r2206['uid'])
+
     # Check latest online_availability_*.json
     av_files = sorted(glob.glob(os.path.join(base_dir, 'analysis/online_availability_*.json')))
     if os.environ.get('GOOD_CHOICE_AVAILABILITY'):  # sensecheck 52 P1: tests pin the snapshot the canonical baseline was built from
