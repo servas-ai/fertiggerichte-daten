@@ -1,0 +1,1066 @@
+{
+ "run": "T1402",
+ "date": "2026-10-25",
+ "method": "Open Food Facts search-a-licious (search.openfoodfacts.org, q=brands_tags:bofrost, 1466 hits, 15 pages; brands_tags:gms-gourmet/gourmet/gourmet-daheim/mahlzeit; code:9002674* = 36 GMS GOURMET codes) + /api/v2/product/<code> detail for 35 candidates, ~1 req/s. bofrost pack barcodes encode the 5-digit bofrost article no. at positions 8-12 (0PPPP69AAAAAC); a candidate needs that article no. == AT shop article no. (bofrost.at URL _NNNNN.html), GS1 check digit ok, name + net weight equal, kcal/protein/fat/carbs per 100 g within ±5% where both sides publish nutrition.",
+ "bofrost": {
+  "filled": [
+   {
+    "row": "Currywurst",
+    "size_g": "800.0",
+    "at_article": "00415",
+    "code": "0836069004150",
+    "off_name": "Currywurst",
+    "off_quantity": "800g",
+    "off_countries": [
+     "en:france",
+     "en:germany"
+    ],
+    "off_url": "https://world.openfoodfacts.org/product/0836069004150",
+    "row_nut": {
+     "kcal": "197.0",
+     "protein": "7.2",
+     "fat": "13.6",
+     "carbs": "11.1",
+     "sugar": "10.2",
+     "salt": "2.0"
+    },
+    "off_nut": {
+     "kcal": 193,
+     "protein": 7,
+     "fat": 13.1,
+     "carbs": 11.3,
+     "sugar": 9.9,
+     "salt": 2
+    },
+    "evidence": "name+800 g+nutrition within 4%"
+   },
+   {
+    "row": "Röstipfanne",
+    "size_g": "1000.0",
+    "at_article": "00667",
+    "code": "0045469006675",
+    "off_name": "Rostipfanne",
+    "off_quantity": "1.000g",
+    "off_countries": [
+     "en:germany",
+     "en:italy"
+    ],
+    "off_url": "https://world.openfoodfacts.org/product/0045469006675",
+    "row_nut": {
+     "kcal": "129.0",
+     "protein": "5.7",
+     "fat": "5.9",
+     "carbs": "11.9",
+     "sugar": "0.8",
+     "salt": "1.0"
+    },
+    "off_nut": {
+     "kcal": 129,
+     "protein": 5.7,
+     "fat": 5.9,
+     "carbs": 11.9,
+     "sugar": 0.8,
+     "salt": 1
+    },
+    "evidence": "name+1000 g+nutrition per 100 g identical"
+   },
+   {
+    "row": "Chinesische Bratnudeln",
+    "size_g": "1000.0",
+    "at_article": "01270",
+    "code": "0836069012704",
+    "off_name": "Chinesische Bratnudeln",
+    "off_quantity": "1000g",
+    "off_countries": [
+     "en:france",
+     "en:germany",
+     "en:spain"
+    ],
+    "off_url": "https://world.openfoodfacts.org/product/0836069012704",
+    "row_nut": {
+     "kcal": "108.0",
+     "protein": "3.1",
+     "fat": "2.8",
+     "carbs": "16.5",
+     "sugar": "2.1",
+     "salt": "1.0"
+    },
+    "off_nut": {
+     "kcal": 108,
+     "protein": 3.1,
+     "fat": 2.8,
+     "carbs": 16.5,
+     "sugar": 2.1,
+     "salt": 0.98
+    },
+    "evidence": "name+1000 g+nutrition identical"
+   },
+   {
+    "row": "Hühner-Rahmpfanne",
+    "size_g": "1000.0",
+    "at_article": "01279",
+    "code": "0836069012797",
+    "off_name": "Hühnerrahmpfanne",
+    "off_quantity": "1kg",
+    "off_countries": [
+     "en:germany"
+    ],
+    "off_url": "https://world.openfoodfacts.org/product/0836069012797",
+    "row_nut": {
+     "kcal": "134.0",
+     "protein": "6.9",
+     "fat": "5.2",
+     "carbs": "13.3",
+     "sugar": "1.5",
+     "salt": "1.3"
+    },
+    "off_nut": {
+     "kcal": null,
+     "protein": null,
+     "fat": null,
+     "carbs": null,
+     "sugar": null,
+     "salt": null
+    },
+    "evidence": "identical name+1 kg; OFF has no nutrition"
+   },
+   {
+    "row": "s'Pfandl",
+    "size_g": "1000.0",
+    "at_article": "03622",
+    "code": "0836069036229",
+    "off_name": "S’Pfandl",
+    "off_quantity": "1000g",
+    "off_countries": [
+     "en:germany"
+    ],
+    "off_url": "https://world.openfoodfacts.org/product/0836069036229",
+    "row_nut": {
+     "kcal": "111.0",
+     "protein": "7.0",
+     "fat": "4.2",
+     "carbs": "10.8",
+     "sugar": "2.1",
+     "salt": "0.95"
+    },
+    "off_nut": {
+     "kcal": 111,
+     "protein": 7,
+     "fat": 4.2,
+     "carbs": 10.8,
+     "sugar": 2.1,
+     "salt": 0.95
+    },
+    "evidence": "name+1000 g+nutrition identical"
+   },
+   {
+    "row": "Hühner-Schupfnudelpfanne",
+    "size_g": "1000.0",
+    "at_article": "03649",
+    "code": "0836069036496",
+    "off_name": "Hühner schupfnudelpfanne",
+    "off_quantity": "1kg",
+    "off_countries": [
+     "en:germany"
+    ],
+    "off_url": "https://world.openfoodfacts.org/product/0836069036496",
+    "row_nut": {
+     "kcal": "132.0",
+     "protein": "5.7",
+     "fat": "6.1",
+     "carbs": "12.0",
+     "sugar": "3.4",
+     "salt": "1.0"
+    },
+    "off_nut": {
+     "kcal": null,
+     "protein": null,
+     "fat": null,
+     "carbs": null,
+     "sugar": null,
+     "salt": null
+    },
+    "evidence": "identical name+1 kg; OFF has no nutrition"
+   }
+  ],
+  "skipped": [
+   {
+    "row": "Tagliatelle mit Lachs",
+    "size_g": "1000.0",
+    "at_article": "00248",
+    "code": "0281569002487",
+    "off_name": "Tagliatelles mit Lachs",
+    "off_quantity": "1kg",
+    "off_countries": [
+     "en:france",
+     "en:germany"
+    ],
+    "off_url": "https://world.openfoodfacts.org/product/0281569002487",
+    "row_nut": {
+     "kcal": "134.0",
+     "protein": "5.7",
+     "fat": "5.9",
+     "carbs": "13.9",
+     "sugar": "1.2",
+     "salt": "0.74"
+    },
+    "off_nut": {
+     "kcal": 151.3,
+     "protein": 5.6,
+     "fat": 8.2,
+     "carbs": 13.3,
+     "sugar": 1.5,
+     "salt": 0.9
+    },
+    "reason": "nutrition >5% apart and/or net weight differs (OFF 1kg)"
+   },
+   {
+    "row": "Penne 4 Käse und Spinat",
+    "size_g": "1000.0",
+    "at_article": "00295",
+    "code": "0836069002958",
+    "off_name": "Penne Vier-Käse",
+    "off_quantity": "1000g",
+    "off_countries": [
+     "en:belgium",
+     "en:germany"
+    ],
+    "off_url": "https://world.openfoodfacts.org/product/0836069002958",
+    "row_nut": {
+     "kcal": "137.0",
+     "protein": "6.0",
+     "fat": "4.5",
+     "carbs": "17.3",
+     "sugar": "1.0",
+     "salt": "0.76"
+    },
+    "off_nut": {
+     "kcal": 148,
+     "protein": 6.4,
+     "fat": 5.2,
+     "carbs": 18.2,
+     "sugar": 1.4,
+     "salt": 0.9
+    },
+    "reason": "nutrition >5% apart and/or net weight differs (OFF 1000g)"
+   },
+   {
+    "row": "Fleischlaiberl",
+    "size_g": "750.0",
+    "at_article": "00386",
+    "code": "0866469003866",
+    "off_name": "Party-Frikadellen",
+    "off_quantity": "",
+    "off_countries": [
+     "en:germany"
+    ],
+    "off_url": "https://world.openfoodfacts.org/product/0866469003866",
+    "row_nut": {
+     "kcal": "234.0",
+     "protein": "16.2",
+     "fat": "17.2",
+     "carbs": "3.5",
+     "sugar": "0.9",
+     "salt": "1.4"
+    },
+    "off_nut": {
+     "kcal": 217,
+     "protein": 17.2,
+     "fat": 14.8,
+     "carbs": 3.5,
+     "sugar": 1,
+     "salt": 1.4
+    },
+    "reason": "nutrition >5% apart and/or net weight differs (OFF )"
+   },
+   {
+    "row": "Mini-Bifteki",
+    "size_g": "750.0",
+    "at_article": "00388",
+    "code": "0015869003888",
+    "off_name": "Mini-bifteki",
+    "off_quantity": "",
+    "off_countries": [
+     "en:france",
+     "en:germany"
+    ],
+    "off_url": "https://world.openfoodfacts.org/product/0015869003888",
+    "row_nut": {
+     "kcal": "263.0",
+     "protein": "13.8",
+     "fat": "18.5",
+     "carbs": "9.7",
+     "sugar": "0.9",
+     "salt": "1.7"
+    },
+    "off_nut": {
+     "kcal": 304,
+     "protein": 14,
+     "fat": 21,
+     "carbs": 14.2,
+     "sugar": 1.8,
+     "salt": 1.9
+    },
+    "reason": "nutrition >5% apart and/or net weight differs (OFF )"
+   },
+   {
+    "row": "Asia-Pfanne Süß-Sauer",
+    "size_g": "1000.0",
+    "at_article": "01277",
+    "code": "0836069012773",
+    "off_name": "Asia-Pfanne",
+    "off_quantity": "1kg",
+    "off_countries": [
+     "en:belgium",
+     "en:germany"
+    ],
+    "off_url": "https://world.openfoodfacts.org/product/0836069012773",
+    "row_nut": {
+     "kcal": "112.0",
+     "protein": "6.1",
+     "fat": "3.5",
+     "carbs": "13.2",
+     "sugar": "6.1",
+     "salt": "1.2"
+    },
+    "off_nut": {
+     "kcal": 118,
+     "protein": 5.4,
+     "fat": 4.4,
+     "carbs": 13.4,
+     "sugar": 6.8,
+     "salt": 1.1
+    },
+    "reason": "nutrition >5% apart and/or net weight differs (OFF 1kg)"
+   },
+   {
+    "row": "Faschierte Laibchen mit Zwiebeln",
+    "size_g": "700.0",
+    "at_article": "01428",
+    "code": "0996969014281",
+    "off_name": "Frikadellen",
+    "off_quantity": null,
+    "off_countries": [
+     "en:spain"
+    ],
+    "off_url": "https://world.openfoodfacts.org/product/0996969014281",
+    "row_nut": {
+     "kcal": "246.0",
+     "protein": "13.5",
+     "fat": "17.9",
+     "carbs": "7.1",
+     "sugar": "1.1",
+     "salt": "1.5"
+    },
+    "off_nut": {
+     "kcal": 246,
+     "protein": 14,
+     "fat": 17.9,
+     "carbs": 71,
+     "sugar": 11,
+     "salt": 15
+    },
+    "reason": "nutrition >5% apart and/or net weight differs (OFF None)"
+   },
+   {
+    "row": "Bami Goreng",
+    "size_g": "1000.0",
+    "at_article": "01601",
+    "code": "0281569016019",
+    "off_name": "Bami goreng",
+    "off_quantity": "1000 g",
+    "off_countries": [
+     "en:france",
+     "en:germany"
+    ],
+    "off_url": "https://world.openfoodfacts.org/product/0281569016019",
+    "row_nut": {
+     "kcal": "114.0",
+     "protein": "7.5",
+     "fat": "3.3",
+     "carbs": "12.6",
+     "sugar": "2.4",
+     "salt": "0.93"
+    },
+    "off_nut": {
+     "kcal": 111,
+     "protein": 7.2,
+     "fat": 3.2,
+     "carbs": 11.6,
+     "sugar": 2.1,
+     "salt": 0.9
+    },
+    "reason": "nutrition >5% apart and/or net weight differs (OFF 1000 g)"
+   },
+   {
+    "row": "Hühner-Kartoffel-Pfanne",
+    "size_g": "1000.0",
+    "at_article": "01606",
+    "code": "0281569016064",
+    "off_name": "Sartén de pollo con verduras",
+    "off_quantity": "",
+    "off_countries": [
+     "en:spain"
+    ],
+    "off_url": "https://world.openfoodfacts.org/product/0281569016064",
+    "row_nut": {
+     "kcal": "93.0",
+     "protein": "5.6",
+     "fat": "3.8",
+     "carbs": "8.2",
+     "sugar": "3.0",
+     "salt": "0.73"
+    },
+    "off_nut": {
+     "kcal": 99,
+     "protein": 6.1,
+     "fat": 4.1,
+     "carbs": 8.3,
+     "sugar": 3,
+     "salt": 0.7
+    },
+    "reason": "nutrition >5% apart and/or net weight differs (OFF )"
+   },
+   {
+    "row": "Hühner-Paella",
+    "size_g": "1000.0",
+    "at_article": "01613",
+    "code": "0281569016132",
+    "off_name": "Hühnchen Paella",
+    "off_quantity": null,
+    "off_countries": [
+     "en:france",
+     "en:germany"
+    ],
+    "off_url": "https://world.openfoodfacts.org/product/0281569016132",
+    "row_nut": {
+     "kcal": "114.0",
+     "protein": "5.8",
+     "fat": "4.4",
+     "carbs": "12.0",
+     "sugar": "2.3",
+     "salt": "1.1"
+    },
+    "off_nut": {
+     "kcal": 118,
+     "protein": 6.3,
+     "fat": 4.7,
+     "carbs": 11.8,
+     "sugar": 2.2,
+     "salt": 1.2
+    },
+    "reason": "nutrition >5% apart and/or net weight differs (OFF None)"
+   },
+   {
+    "row": "Rindergeschnetzeltes in Rahmsauce",
+    "size_g": "400.0",
+    "at_article": "01681",
+    "code": "0808769016818",
+    "off_name": "Rindergeschnetzeltes in Rahmsoße",
+    "off_quantity": "400 g",
+    "off_countries": [
+     "en:germany"
+    ],
+    "off_url": "https://world.openfoodfacts.org/product/0808769016818",
+    "row_nut": {
+     "kcal": "93.0",
+     "protein": "6.1",
+     "fat": "4.2",
+     "carbs": "7.3",
+     "sugar": "1.7",
+     "salt": "1.1"
+    },
+    "off_nut": {
+     "kcal": 107,
+     "protein": 6.7,
+     "fat": 4.2,
+     "carbs": 10.2,
+     "sugar": 2,
+     "salt": 1.1
+    },
+    "reason": "nutrition >5% apart and/or net weight differs (OFF 400 g)"
+   },
+   {
+    "row": "Sauerteigpizza Provolone-Mozzarella",
+    "size_g": "720.0",
+    "at_article": "01771",
+    "code": "0978469017719",
+    "off_name": "Pizza Provolone-Mozzarella",
+    "off_quantity": "720g",
+    "off_countries": [
+     "en:belgium",
+     "en:germany"
+    ],
+    "off_url": "https://world.openfoodfacts.org/product/0978469017719",
+    "row_nut": {
+     "kcal": "220.0",
+     "protein": "10.0",
+     "fat": "7.9",
+     "carbs": "26.4",
+     "sugar": "3.6",
+     "salt": "1.2"
+    },
+    "off_nut": {
+     "kcal": 222,
+     "protein": 10.7,
+     "fat": 8.2,
+     "carbs": 25.2,
+     "sugar": 3.1,
+     "salt": 1.4
+    },
+    "reason": "nutrition >5% apart and/or net weight differs (OFF 720g)"
+   },
+   {
+    "row": "Sauerteigpizza Spinat-Frischkäse",
+    "size_g": "720.0",
+    "at_article": "01773",
+    "code": "0978469017733",
+    "off_name": "Pizza de espinacas y queso frescos",
+    "off_quantity": "",
+    "off_countries": [
+     "en:germany",
+     "en:spain"
+    ],
+    "off_url": "https://world.openfoodfacts.org/product/0978469017733",
+    "row_nut": {
+     "kcal": "206.0",
+     "protein": "9.0",
+     "fat": "6.7",
+     "carbs": "26.4",
+     "sugar": "3.6",
+     "salt": "1.2"
+    },
+    "off_nut": {
+     "kcal": 206,
+     "protein": 9.7,
+     "fat": 6.8,
+     "carbs": 25.3,
+     "sugar": 3.3,
+     "salt": 1.4
+    },
+    "reason": "nutrition >5% apart and/or net weight differs (OFF )"
+   },
+   {
+    "row": "LA PIZZA con Salame",
+    "size_g": "766.0",
+    "at_article": "01781",
+    "code": "0121969017813",
+    "off_name": "Pizza con salame",
+    "off_quantity": "",
+    "off_countries": [
+     "en:france",
+     "en:germany"
+    ],
+    "off_url": "https://world.openfoodfacts.org/product/0121969017813",
+    "row_nut": {
+     "kcal": "235.0",
+     "protein": "11.8",
+     "fat": "9.1",
+     "carbs": "25.6",
+     "sugar": "2.2",
+     "salt": "1.2"
+    },
+    "off_nut": {
+     "kcal": 234,
+     "protein": 11,
+     "fat": 10,
+     "carbs": 24,
+     "sugar": 2.9,
+     "salt": 1.8
+    },
+    "reason": "nutrition >5% apart and/or net weight differs (OFF )"
+   },
+   {
+    "row": "LA PIZZA Speciale",
+    "size_g": "838.0",
+    "at_article": "01782",
+    "code": "0121969017820",
+    "off_name": "La Pizza &quot;Speciale&quot;",
+    "off_quantity": "425 g",
+    "off_countries": [
+     "en:france",
+     "en:germany"
+    ],
+    "off_url": "https://world.openfoodfacts.org/product/0121969017820",
+    "row_nut": {
+     "kcal": "211.0",
+     "protein": "11.0",
+     "fat": "7.7",
+     "carbs": "23.3",
+     "sugar": "2.5",
+     "salt": "1.2"
+    },
+    "off_nut": {
+     "kcal": 217,
+     "protein": 10,
+     "fat": 8.7,
+     "carbs": 24,
+     "sugar": 1.8,
+     "salt": 1.7
+    },
+    "reason": "nutrition >5% apart and/or net weight differs (OFF 425 g)"
+   },
+   {
+    "row": "LA PIZZA Diavola",
+    "size_g": "832.0",
+    "at_article": "01783",
+    "code": "0121969017837",
+    "off_name": "Pizza Diavola",
+    "off_quantity": "",
+    "off_countries": [
+     "en:france",
+     "en:germany"
+    ],
+    "off_url": "https://world.openfoodfacts.org/product/0121969017837",
+    "row_nut": {
+     "kcal": "203.0",
+     "protein": "9.6",
+     "fat": "7.3",
+     "carbs": "23.7",
+     "sugar": "2.7",
+     "salt": "1.1"
+    },
+    "off_nut": {
+     "kcal": 206,
+     "protein": 9.3,
+     "fat": 7.2,
+     "carbs": 25,
+     "sugar": 3.7,
+     "salt": 1.6
+    },
+    "reason": "nutrition >5% apart and/or net weight differs (OFF )"
+   },
+   {
+    "row": "LA PIZZA Mini-Margherita",
+    "size_g": "606.0",
+    "at_article": "01794",
+    "code": "0121969017943",
+    "off_name": "Pizza Mini Margherita",
+    "off_quantity": "3pcs",
+    "off_countries": [
+     "en:germany",
+     "en:spain"
+    ],
+    "off_url": "https://world.openfoodfacts.org/product/0121969017943",
+    "row_nut": {
+     "kcal": "246.0",
+     "protein": "9.9",
+     "fat": "7.4",
+     "carbs": "34.0",
+     "sugar": "2.6",
+     "salt": "1.1"
+    },
+    "off_nut": {
+     "kcal": 246,
+     "protein": 9.9,
+     "fat": 7.4,
+     "carbs": 34,
+     "sugar": 2.6,
+     "salt": 1.1
+    },
+    "reason": "strong candidate, NOT filled (net weight unverifiable): nutrition identical; OFF quantity \"3pcs\" only"
+   },
+   {
+    "row": "Tagliatelle mit Steinpilzen",
+    "size_g": "600.0",
+    "at_article": "05220",
+    "code": "0093569052207",
+    "off_name": "Tagliatelle ai funghi porcini",
+    "off_quantity": "600 g",
+    "off_countries": [
+     "en:italy"
+    ],
+    "off_url": "https://world.openfoodfacts.org/product/0093569052207",
+    "row_nut": {
+     "kcal": "129.0",
+     "protein": "3.5",
+     "fat": "3.5",
+     "carbs": "20.0",
+     "sugar": "1.5",
+     "salt": "0.8"
+    },
+    "off_nut": {
+     "kcal": 130,
+     "protein": 3.5,
+     "fat": 5,
+     "carbs": 17,
+     "sugar": 1.1,
+     "salt": 1.875
+    },
+    "reason": "nutrition >5% apart and/or net weight differs (OFF 600 g)"
+   },
+   {
+    "row": "Tondelle Ricotta Spinaci",
+    "size_g": "600.0",
+    "at_article": "05286",
+    "code": "0194369052869",
+    "off_name": "Tondelle Ricotta e spinaci",
+    "off_quantity": "",
+    "off_countries": [
+     "en:france"
+    ],
+    "off_url": "https://world.openfoodfacts.org/product/0194369052869",
+    "row_nut": {
+     "kcal": "164.0",
+     "protein": "7.0",
+     "fat": "9.0",
+     "carbs": "13.0",
+     "sugar": "2.5",
+     "salt": "0.8"
+    },
+    "off_nut": {
+     "kcal": 164,
+     "protein": 7,
+     "fat": 9,
+     "carbs": 13,
+     "sugar": 2.5,
+     "salt": 0.80000001192093
+    },
+    "reason": "strong candidate, NOT filled (net weight unverifiable): pack photo shows bofrost art. 5286, nutrition identical; OFF has no net weight (photo cut off)"
+   },
+   {
+    "row": "Fischsuppe Cacciucco",
+    "size_g": "750.0",
+    "at_article": "05508",
+    "code": "0959269055088",
+    "off_name": "Cacciucco",
+    "off_quantity": null,
+    "off_countries": [
+     "en:france"
+    ],
+    "off_url": "https://world.openfoodfacts.org/product/0959269055088",
+    "row_nut": {
+     "kcal": "72.0",
+     "protein": "9.3",
+     "fat": "2.7",
+     "carbs": "2.2",
+     "sugar": "0.9",
+     "salt": "0.46"
+    },
+    "off_nut": {
+     "kcal": 71,
+     "protein": 9.7,
+     "fat": 2.6,
+     "carbs": 1.9,
+     "sugar": 0.9,
+     "salt": 0.6
+    },
+    "reason": "nutrition >5% apart and/or net weight differs (OFF None)"
+   },
+   {
+    "row": "Pizza Focaccia Schinken-Käse",
+    "size_g": "380.0",
+    "at_article": "08299",
+    "code": "0121969082996",
+    "off_name": "Pizza Focaccia",
+    "off_quantity": "380 g",
+    "off_countries": [
+     "en:belgium"
+    ],
+    "off_url": "https://world.openfoodfacts.org/product/0121969082996",
+    "row_nut": {
+     "kcal": "260.0",
+     "protein": "13.2",
+     "fat": "8.5",
+     "carbs": "31.8",
+     "sugar": "5.1",
+     "salt": "1.8"
+    },
+    "off_nut": {
+     "kcal": 256,
+     "protein": 11,
+     "fat": 8.8,
+     "carbs": 32,
+     "sugar": 3.2,
+     "salt": 1.7
+    },
+    "reason": "nutrition >5% apart and/or net weight differs (OFF 380 g)"
+   },
+   {
+    "row": "free Lasagne Bolognese",
+    "size_g": "400.0",
+    "at_article": "10035",
+    "code": "0321069100358",
+    "off_name": "Lasagne bolognese",
+    "off_quantity": null,
+    "off_countries": [
+     "en:france",
+     "en:germany"
+    ],
+    "off_url": "https://world.openfoodfacts.org/product/0321069100358",
+    "row_nut": {
+     "kcal": "159.0",
+     "protein": "6.5",
+     "fat": "9.1",
+     "carbs": "12.0",
+     "sugar": "2.5",
+     "salt": "0.95"
+    },
+    "off_nut": {
+     "kcal": 136,
+     "protein": 6,
+     "fat": 6.8,
+     "carbs": 12,
+     "sugar": 3,
+     "salt": 0.8
+    },
+    "reason": "nutrition >5% apart and/or net weight differs (OFF None)"
+   },
+   {
+    "row": "free Gemüse-Lasagne",
+    "size_g": "400.0",
+    "at_article": "10036",
+    "code": "0321069100365",
+    "off_name": "Freeb Gemüse-Lasagne, Lasaña de Verduras",
+    "off_quantity": "400 g",
+    "off_countries": [
+     "en:spain"
+    ],
+    "off_url": "https://world.openfoodfacts.org/product/0321069100365",
+    "row_nut": {
+     "kcal": "120.0",
+     "protein": "3.6",
+     "fat": "6.4",
+     "carbs": "11.0",
+     "sugar": "2.5",
+     "salt": "0.88"
+    },
+    "off_nut": {
+     "kcal": 120,
+     "protein": 3.6,
+     "fat": 6.1,
+     "carbs": 11.8,
+     "sugar": 2.6,
+     "salt": 0.95
+    },
+    "reason": "nutrition >5% apart and/or net weight differs (OFF 400 g)"
+   },
+   {
+    "row": "free Hühner-Gemüse-Pfanne",
+    "size_g": "800.0",
+    "at_article": "10039",
+    "code": "0250669100393",
+    "off_name": "Hähnchen Gemüsepfanne",
+    "off_quantity": "1pcs",
+    "off_countries": [
+     "en:germany"
+    ],
+    "off_url": "https://world.openfoodfacts.org/product/0250669100393",
+    "row_nut": {
+     "kcal": "122.0",
+     "protein": "5.8",
+     "fat": "5.4",
+     "carbs": "11.7",
+     "sugar": "1.5",
+     "salt": "0.94"
+    },
+    "off_nut": {
+     "kcal": null,
+     "protein": null,
+     "fat": null,
+     "carbs": null,
+     "sugar": null,
+     "salt": null
+    },
+    "reason": "nutrition >5% apart and/or net weight differs (OFF 1pcs)"
+   },
+   {
+    "row": "free Pizza Margherita",
+    "size_g": "330.0",
+    "at_article": "10056",
+    "code": "0121969100560",
+    "off_name": "Free Margherita Pizza gluten free",
+    "off_quantity": null,
+    "off_countries": [
+     "en:france"
+    ],
+    "off_url": "https://world.openfoodfacts.org/product/0121969100560",
+    "row_nut": {
+     "kcal": "273.0",
+     "protein": "6.7",
+     "fat": "11.9",
+     "carbs": "33.6",
+     "sugar": "3.0",
+     "salt": "1.3"
+    },
+    "off_nut": {
+     "kcal": 273,
+     "protein": 6.7,
+     "fat": 11.9,
+     "carbs": 33.6,
+     "sugar": 3,
+     "salt": 1.5
+    },
+    "reason": "strong candidate, NOT filled (net weight unverifiable): pack photo shows art. 10056, nutrition identical; OFF has no net weight"
+   },
+   {
+    "row": "Tandoori Chicken mit Basmati-Reis",
+    "size_g": "400.0",
+    "at_article": "11292",
+    "code": "0999769112928",
+    "off_name": "Tandoori Chicken",
+    "off_quantity": null,
+    "off_countries": [
+     "en:germany"
+    ],
+    "off_url": "https://world.openfoodfacts.org/product/0999769112928",
+    "row_nut": {
+     "kcal": "181.0",
+     "protein": "8.1",
+     "fat": "8.7",
+     "carbs": "17.0",
+     "sugar": "1.4",
+     "salt": "1.1"
+    },
+    "off_nut": {
+     "kcal": 181,
+     "protein": 8.1000003814697,
+     "fat": 8.6999998092651,
+     "carbs": 17,
+     "sugar": 1.3999999761581,
+     "salt": 1.1
+    },
+    "reason": "strong candidate, NOT filled (net weight unverifiable): pack photo shows art. 11292, nutrition identical; OFF has no net weight"
+   },
+   {
+    "row": "Pizza Capricciosa",
+    "size_g": "794.0",
+    "at_article": "15165",
+    "code": "0121969151654",
+    "off_name": "La Pizza capricciosa",
+    "off_quantity": "",
+    "off_countries": [
+     "en:italy"
+    ],
+    "off_url": "https://world.openfoodfacts.org/product/0121969151654",
+    "row_nut": {
+     "kcal": "195.0",
+     "protein": "8.4",
+     "fat": "6.2",
+     "carbs": "25.2",
+     "sugar": "4.2",
+     "salt": "1.3"
+    },
+    "off_nut": {
+     "kcal": 195,
+     "protein": 8.4,
+     "fat": 6.2,
+     "carbs": 25,
+     "sugar": 4.2,
+     "salt": 1.3
+    },
+    "reason": "strong candidate, NOT filled (net weight unverifiable): pack photo shows art. 15165 \"2 Pizze\", nutrition identical; OFF has no net weight"
+   },
+   {
+    "row": "LA PIZZA Pizza Tonno e Cipolla",
+    "size_g": "910.0",
+    "at_article": "15196",
+    "code": "0121969151968",
+    "off_name": "La Pizza Tonno e Cipolla",
+    "off_quantity": "455g",
+    "off_countries": [
+     "en:france",
+     "en:germany"
+    ],
+    "off_url": "https://world.openfoodfacts.org/product/0121969151968",
+    "row_nut": {
+     "kcal": "217.0",
+     "protein": "10.1",
+     "fat": "7.4",
+     "carbs": "26.8",
+     "sugar": "1.7",
+     "salt": "1.3"
+    },
+    "off_nut": {
+     "kcal": 205,
+     "protein": 10.8,
+     "fat": 6.2,
+     "carbs": 25.7,
+     "sugar": 3.1,
+     "salt": 1.4
+    },
+    "reason": "nutrition >5% apart and/or net weight differs (OFF 455g)"
+   },
+   {
+    "row": "Lasagne Bolognese",
+    "size_g": "1000.0",
+    "at_article": "19166",
+    "code": "0462269191668",
+    "off_name": "Lasagnes à la bolognaise",
+    "off_quantity": "2 x 500 g",
+    "off_countries": [
+     "en:france"
+    ],
+    "off_url": "https://world.openfoodfacts.org/product/0462269191668",
+    "row_nut": {
+     "kcal": "138.0",
+     "protein": "6.7",
+     "fat": "6.9",
+     "carbs": "12.0",
+     "sugar": "2.3",
+     "salt": "0.9"
+    },
+    "off_nut": {
+     "kcal": 151,
+     "protein": 8.1,
+     "fat": 8,
+     "carbs": 11.1,
+     "sugar": 2,
+     "salt": 0.88
+    },
+    "reason": "nutrition >5% apart and/or net weight differs (OFF 2 x 500 g)"
+   },
+   {
+    "row": "Asia-Wok-Pfanne",
+    "size_g": "750.0",
+    "at_article": "20528",
+    "code": "0122969205286",
+    "off_name": "Asia-Wok-Pfanne",
+    "off_quantity": null,
+    "off_countries": [
+     "en:germany"
+    ],
+    "off_url": "https://world.openfoodfacts.org/product/0122969205286",
+    "row_nut": {
+     "kcal": "107.0",
+     "protein": "5.9",
+     "fat": "3.4",
+     "carbs": "12.0",
+     "sugar": "3.3",
+     "salt": "0.73"
+    },
+    "off_nut": {
+     "kcal": 107,
+     "protein": 5.9,
+     "fat": 3.4,
+     "carbs": 12,
+     "sugar": 3.3,
+     "salt": 0.7175
+    },
+    "reason": "strong candidate, NOT filled (net weight unverifiable): nutrition identical; OFF no weight, no photo"
+   }
+  ],
+  "other": "All other bofrost* OFF hits either use short internal codes (5/8-digit article nos., e.g. 10738, 00020047 — not GTINs), carry an article no. not sold in AT, or differ in nutrition. Name-only matches never filled."
+ },
+ "gourmet_daheim": {
+  "filled": [],
+  "skipped": [
+   {
+    "row": "Rindsgulasch mit Spätzle 410 g",
+    "code": "9002674011482",
+    "reason": "GMS GOURMET retail pack, OFF no weight, carbs 11.6 vs 10.5 (>5%)"
+   },
+   {
+    "row": "Krautfleckerl 300 g",
+    "code": "9002674229788",
+    "reason": "retail Gourmet Krautfleckerl, kcal 161 vs 123 → different recipe/product"
+   },
+   {
+    "row": "Gefüllte Hühnerbrust mit Tomatenrisotto / Gschupfte Mohnnudeln mit Apfelmus",
+    "code": "9002674015107 / 9002674019723",
+    "reason": "different dish composition, nutrition differs >30%"
+   }
+  ],
+  "note": "GOURMET Daheim is a home-delivery line (order nos. 23xxxxx); OFF holds 36 GMS GOURMET retail codes (prefix 9002674) and 0 GOURMET Daheim/Mahlzeit products; no name+weight+nutrition match → 0 filled."
+ }
+}
