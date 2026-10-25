@@ -1,0 +1,325 @@
+{
+ "fetched": "2026-10-25T13:45Z",
+ "wiesbauer": {
+  "method": "product-page JSON-LD Product.gtin on wiesbauer-gourmet.at (WooCommerce/Rank Math), robots.txt allows /produkt/, 1 req/s; GS1 check digit validated, 19/19 unique, no collision with existing EANs",
+  "rows": [
+   {
+    "name": "Easy Kitchen Putengeschnetzeltes mit Gemüse 1200g",
+    "url": "https://www.wiesbauer-gourmet.at/produkt/easy-kitchen-putengeschnetzeltes-mit-gemuese",
+    "ean_before": "",
+    "jsonld": [
+     [
+      "Easy Kitchen Putengeschnetzeltes mit Gemüse 1200g",
+      "9006450925314",
+      "92531"
+     ]
+    ]
+   },
+   {
+    "name": "Feines Hirschgulasch aus Österreich 300 g",
+    "url": "https://www.wiesbauer-gourmet.at/produkt/feines-hirschgulasch-300-g",
+    "ean_before": "",
+    "jsonld": [
+     [
+      "Feines Hirschgulasch aus Österreich 300 g",
+      null,
+      "92105"
+     ]
+    ]
+   },
+   {
+    "name": "Rindergulasch aus Österreich 280 g",
+    "url": "https://www.wiesbauer-gourmet.at/produkt/rindergulasch-aus-oesterreich-280-g",
+    "ean_before": "",
+    "jsonld": [
+     [
+      "Rindergulasch aus Österreich 280 g",
+      "9006450926410",
+      "92103"
+     ]
+    ]
+   },
+   {
+    "name": "Kalbsrahmbeuschel 500 g",
+    "url": "https://www.wiesbauer-gourmet.at/produkt/kalbsrahmbeuschel-500-g",
+    "ean_before": "",
+    "jsonld": [
+     [
+      "Kalbsrahmbeuschel 500 g",
+      "9006450926434",
+      "92104"
+     ]
+    ]
+   },
+   {
+    "name": "Wiener Knusperbraten sous vide 1.800 g",
+    "url": "https://www.wiesbauer-gourmet.at/produkt/wiener-knusperbraten",
+    "ean_before": "",
+    "jsonld": [
+     [
+      "Wiener Knusperbraten sous vide 1.800 g",
+      "9006450926793",
+      "92679"
+     ]
+    ]
+   },
+   {
+    "name": "Entenbrust, sous vide vorgegart 200g = 1Stk.",
+    "url": "https://www.wiesbauer-gourmet.at/produkt/entenbrust-sous-vide-vorgegart",
+    "ean_before": "",
+    "jsonld": [
+     [
+      "Entenbrust, sous vide vorgegart 200g = 1Stk.",
+      "9006450926724",
+      "92672"
+     ]
+    ]
+   },
+   {
+    "name": "Gänsebrust mit Knochen sous vide 1.000 g",
+    "url": "https://www.wiesbauer-gourmet.at/produkt/gaensebrust-sous-vide-1-000-g",
+    "ean_before": "",
+    "jsonld": [
+     [
+      "Gänsebrust mit Knochen sous vide 1.000 g",
+      "9006450990633",
+      "92711"
+     ]
+    ]
+   },
+   {
+    "name": "Ente aus Österreich halbiert, sous vide vorgegart = 1Stk.",
+    "url": "https://www.wiesbauer-gourmet.at/produkt/ente-aus-oesterreich-halbiert-sous-vide-vorgegart-1stk",
+    "ean_before": "",
+    "jsonld": [
+     [
+      "Ente aus Österreich halbiert, sous vide vorgegart = 1Stk.",
+      "9006450926342",
+      "92634"
+     ]
+    ]
+   },
+   {
+    "name": "Weidegans aus Österreich halbiert sous vide 1.300g",
+    "url": "https://www.wiesbauer-gourmet.at/produkt/weidegans-aus-oesterreich-1-500g",
+    "ean_before": "",
+    "jsonld": [
+     [
+      "Weidegans aus Österreich halbiert sous vide 1.300g",
+      "9006450926861",
+      "92686"
+     ]
+    ]
+   },
+   {
+    "name": "Spareribs sous vide vorgegart 590g = 1Stk.",
+    "url": "https://www.wiesbauer-gourmet.at/produkt/spareribs-sous-vide-vorgegart",
+    "ean_before": "",
+    "jsonld": [
+     [
+      "Spareribs sous vide vorgegart 590g = 1Stk.",
+      "9006450926755",
+      "92675"
+     ]
+    ]
+   },
+   {
+    "name": "Gans halbiert sous vide 1500g",
+    "url": "https://www.wiesbauer-gourmet.at/produkt/gans-sous-vide-vorgegart",
+    "ean_before": "",
+    "jsonld": [
+     [
+      "Gans halbiert sous vide 1500g",
+      "9006450926786",
+      "92678"
+     ]
+    ]
+   },
+   {
+    "name": "Ente halbiert, sous vide vorgegart 800g = 1Stk.",
+    "url": "https://www.wiesbauer-gourmet.at/produkt/ente-halbiert-sous-vide-800g",
+    "ean_before": "",
+    "jsonld": [
+     [
+      "Ente halbiert, sous vide vorgegart 800g = 1Stk.",
+      "9006450926717",
+      "92671"
+     ]
+    ]
+   },
+   {
+    "name": "XL Wiesn Stelze, sous vide vorgegart 1,8 kg = 1 Stk.",
+    "url": "https://www.wiesbauer-gourmet.at/produkt/wiesn-stelze-gross-sous-vide",
+    "ean_before": "",
+    "jsonld": [
+     [
+      "XL Wiesn Stelze, sous vide vorgegart 1,8 kg = 1 Stk.",
+      "9006450926311",
+      "92631"
+     ]
+    ]
+   },
+   {
+    "name": "Wiesn Stelze, sous vide vorgegart ca. 900g = 1 Stk.",
+    "url": "https://www.wiesbauer-gourmet.at/produkt/wiesn-stelze-sous-vide-vorgegart-ca-900g-1-stk",
+    "ean_before": "",
+    "jsonld": [
+     [
+      "Wiesn Stelze, sous vide vorgegart ca. 900g = 1 Stk.",
+      "9006450926304",
+      "92630"
+     ]
+    ]
+   },
+   {
+    "name": "Pork Drumsticks sous vide vorgegart 640g = 2Stk.",
+    "url": "https://www.wiesbauer-gourmet.at/produkt/pork-drumsticks-sous-vide-vorgegart-640g",
+    "ean_before": "",
+    "jsonld": [
+     [
+      "Pork Drumsticks sous vide vorgegart 640g = 2Stk.",
+      "9006450926762",
+      "92676"
+     ]
+    ]
+   },
+   {
+    "name": "Saftige Rinderbacken 280 g",
+    "url": "https://www.wiesbauer-gourmet.at/produkt/saftige-rinderbacken",
+    "ean_before": "",
+    "jsonld": [
+     [
+      "Saftige Rinderbacken 280 g",
+      "9006450926854",
+      "92685"
+     ]
+    ]
+   },
+   {
+    "name": "Kalbs Tafelspitz sous vide vorgegart 750g = 1Stk.",
+    "url": "https://www.wiesbauer-gourmet.at/produkt/kalbs-tafelspitz-sous-vide-vorgegart",
+    "ean_before": "",
+    "jsonld": [
+     [
+      "Kalbs Tafelspitz sous vide vorgegart 750g = 1Stk.",
+      "9006450926731",
+      "92673"
+     ]
+    ]
+   },
+   {
+    "name": "Lammstelze, sous vide vorgegart 400 g",
+    "url": "https://www.wiesbauer-gourmet.at/produkt/lammstelze-sous-vide-vorgegart-400-g",
+    "ean_before": "",
+    "jsonld": [
+     [
+      "Lammstelze, sous vide vorgegart 400 g",
+      "9006450926779",
+      "92677"
+     ]
+    ]
+   },
+   {
+    "name": "Rinder Shortribs USA, sous vide vorgegart 900g = 1 Stk.",
+    "url": "https://www.wiesbauer-gourmet.at/produkt/r-shortribs-usa-sous-vide",
+    "ean_before": "",
+    "jsonld": [
+     [
+      "Rinder Shortribs USA, sous vide vorgegart 900g = 1 Stk.",
+      "9006450926748",
+      "92674"
+     ]
+    ]
+   },
+   {
+    "name": "Wiener Praterstelze 1,50 kg",
+    "url": "https://www.wiesbauer-gourmet.at/produkt/wiener-praterstelze",
+    "ean_before": "",
+    "jsonld": [
+     [
+      "Wiener Praterstelze 1,50 kg",
+      "9006450921231",
+      "92123"
+     ]
+    ]
+   }
+  ],
+  "off_lookup": "all 19 GTINs looked up on OFF product API: 0 entries → no nutrition backfill"
+ },
+ "egle": {
+  "method": "egleshop.at (Shopware) publishes no GTIN (itemprop sku/mpn = internal number only). Open Food Facts product API (brand Egle, own GS1 prefix 4262468) per code, matched to the shop row by unique product name within the Egle line; strongest matches confirmed by identical nutrition or OFF front photo",
+  "matches": [
+   {
+    "row": "BIO Chili con Carne, 400 g",
+    "gtin": "4262468280370",
+    "off_name": "Chili con Carne",
+    "off_quantity": "400g",
+    "evidence": "nutrition per 100 g identical (7/7 values) + OFF front photo shows Egle Chili con Carne can"
+   },
+   {
+    "row": "BIO Veganes Gulasch, 400 g",
+    "gtin": "4262468281247",
+    "off_name": "Veganes Gulasch",
+    "off_quantity": null,
+    "evidence": "nutrition per 100 g identical (7/7 values, salt 0.7675 vs 0.78)"
+   },
+   {
+    "row": "Reh-Ragout, 400 g",
+    "gtin": "4262468281520",
+    "off_name": "Reh-Ragout",
+    "off_quantity": null,
+    "evidence": "OFF front photo shows Egle Reh-Ragout can; only Reh-Ragout in Egle line"
+   },
+   {
+    "row": "BIO Rinder-Hackbällchen in Tomatensauce, 400 g",
+    "gtin": "4262468280158",
+    "off_name": "Rinder-Hackbällchen",
+    "off_quantity": "400g",
+    "evidence": "unique name in Egle line, OFF quantity 400 g = shop 400 g"
+   },
+   {
+    "row": "BIO Schaschlik-Topf mit Rindfleisch, 400 g",
+    "gtin": "4262468280165",
+    "off_name": "Schaschlik Topf",
+    "off_quantity": "400g",
+    "evidence": "unique name in Egle line, OFF quantity 400 g = shop 400 g"
+   },
+   {
+    "row": "BIO Erbsen-Eintopf, 400 g",
+    "gtin": "4262468280387",
+    "off_name": "Erbsen-Eintopf",
+    "off_quantity": "400g",
+    "evidence": "unique name in Egle line, OFF quantity 400 g = shop 400 g"
+   },
+   {
+    "row": "BIO Königsberger Klopse, 400 g",
+    "gtin": "4262468280363",
+    "off_name": "Königsberger Klopse",
+    "off_quantity": "1pcs",
+    "evidence": "unique name in Egle line (OFF quantity '1pcs')"
+   },
+   {
+    "row": "BIO Rinder-Gulasch, 400 g",
+    "gtin": "4262468280356",
+    "off_name": "Rinder-Gulasch",
+    "off_quantity": null,
+    "evidence": "unique name in Egle line (OFF quantity not set)"
+   }
+  ],
+  "skipped": {
+   "BIO Rinderbraten in Rotweinsauce / in Meerrettichsauce": "OFF 'Rinderbraten' 4262468281292 ambiguous between two shop variants",
+   "BIO Traditionelle Maultaschen, 400 ml": "OFF 'Schwäbische Maultaschen' 4262468281506 name differs",
+   "Veganes Hack 4262468280318": "not a ready meal / nutrition mismatch"
+  }
+ },
+ "dead_ends": {
+  "Leitgeb kaerntnernudel.co.at": "Store API 38 products, global_unique_id null for all, sku empty; JSON-LD without gtin",
+  "Steira Markt": "Store API 419 products, global_unique_id null for all; JSON-LD sku empty, no gtin",
+  "Draxler": "Store API 12 products, global_unique_id null; JSON-LD sku only",
+  "bofrost.at": "JSON-LD mpn = internal 5-digit article number only, no GTIN in page",
+  "issmich.at": "Shopware productEAN empty",
+  "zoart, Dengg, Gerbl, Flotte Lotte, Biohof Achleitner, ADAMAH, Moakt, Diechtl, Buchberger, NoGlu, Bernos": "product pages carry no gtin/EAN in JSON-LD or HTML",
+  "Bauernladen.at": "JSON-LD Product has sku (internal) only, no gtin",
+  "photos": "remaining 27 non-GOURMET rows without photo re-checked: Bauernladen Venatio/Sandriegel 3 = stock/AI illustrations (re-confirmed reject), Dunzinger Reh/Hirschragout shared wrong-product photo, BBQ Kokos flyer, Galloway generic placeholder, SUPPITO 8 no image in Store API (Butterbeans reuses Gigantes photo), Kumitzberg Spareribs styled serving photo (rejected T0307), Moakt 2 default-image_550.png, Flotte Lotte 2 keinBild.gif, voeslauer 2 category page only, Jenichl 3 Ecwid JS shop"
+ }
+}
