@@ -1,0 +1,1648 @@
+{
+ "source": "https://kaerntnernudel.co.at/wp-json/wc/store/v1/products?per_page=100 + /produkt/<slug>/ pages (1 s)",
+ "fetched": "2026-10-25T0610",
+ "operator": "Leitgeb's Nudelspezialitäten aus dem Metnitztal GmbH, Industriestraße 18, 9360 Friesach, Kärnten (FN 62213v, UID ATU82506478)",
+ "vies": "ATU82506478 valid 2026-10-25T06:08Z; name 'Leitgeb's Nudelspezialitäten aus dem Metnitztal GmbH', address 'Industriestraße 18, AT-9360 Friesach'",
+ "gleif": "fulltext 'Leitgeb's Nudelspezialitäten' / 'Leitgeb Nudel Friesach' → 0 records → no LEI",
+ "impressum": "https://kaerntnernudel.co.at/impressum/ (FN 62213v, Landesgericht Klagenfurt; GF Caroline Leitgeb, Christoph Eder; Aufsicht BH St. Veit a.d.Glan)",
+ "robots": "User-agent: * Disallow only /wp-admin/ and WooCommerce log/upload/transient folders",
+ "shipping": "gekühlter Versand Österreich/Deutschland Mo–Do, Produktion + Versand 2–6 Werktage nach Zahlungseingang (AGB §4); Versandkosten nur im Warenkorb angezeigt → nicht veröffentlicht",
+ "photo_vision_gate": "29/29 PASS",
+ "all_shop_products": [
+  {
+   "id": 7047,
+   "name": "Semmelknödel",
+   "price": 6.8,
+   "meal": false
+  },
+  {
+   "id": 6340,
+   "name": "Käspressknödel",
+   "price": 6.8,
+   "meal": true
+  },
+  {
+   "id": 6339,
+   "name": "Spinat- Schafskäsknödel",
+   "price": 6.8,
+   "meal": true
+  },
+  {
+   "id": 6338,
+   "name": "Tiroler Knödel",
+   "price": 6.8,
+   "meal": true
+  },
+  {
+   "id": 3284,
+   "name": "Süßer Nudelteller",
+   "price": 11.2,
+   "meal": false
+  },
+  {
+   "id": 3283,
+   "name": "Italienischer Nudelteller",
+   "price": 11.2,
+   "meal": true
+  },
+  {
+   "id": 3253,
+   "name": "Eierschwammerlnudel",
+   "price": 13.5,
+   "meal": true
+  },
+  {
+   "id": 3249,
+   "name": "Kartoffelnudel Vegan",
+   "price": 10.7,
+   "meal": true
+  },
+  {
+   "id": 3240,
+   "name": "Kürbisnudel Vegan",
+   "price": 13.4,
+   "meal": true
+  },
+  {
+   "id": 3239,
+   "name": "Kürbisnudel",
+   "price": 11.2,
+   "meal": true
+  },
+  {
+   "id": 3236,
+   "name": "Kärntner Käsnudel Vegan",
+   "price": 13.4,
+   "meal": true
+  },
+  {
+   "id": 3233,
+   "name": "Bio Kärntner Nudel",
+   "price": 13.4,
+   "meal": true
+  },
+  {
+   "id": 3232,
+   "name": "Gemischter Nudelteller",
+   "price": 11.2,
+   "meal": true
+  },
+  {
+   "id": 3231,
+   "name": "Knoblauchnudel",
+   "price": 10.7,
+   "meal": true
+  },
+  {
+   "id": 3228,
+   "name": "Parmesannudel",
+   "price": 10.7,
+   "meal": true
+  },
+  {
+   "id": 3227,
+   "name": "Spinatnudel",
+   "price": 10.7,
+   "meal": true
+  },
+  {
+   "id": 3226,
+   "name": "Kartoffelnudel",
+   "price": 10.7,
+   "meal": true
+  },
+  {
+   "id": 3225,
+   "name": "Lasagnenudel",
+   "price": 10.7,
+   "meal": true
+  },
+  {
+   "id": 3224,
+   "name": "Tomaten-Mozzarella-Nudel",
+   "price": 10.7,
+   "meal": true
+  },
+  {
+   "id": 3223,
+   "name": "Kärntner Fleischnudel",
+   "price": 11.2,
+   "meal": true
+  },
+  {
+   "id": 3222,
+   "name": "Metnitztaler Specknudel",
+   "price": 11.2,
+   "meal": true
+  },
+  {
+   "id": 3221,
+   "name": "Kärntner Specknudel",
+   "price": 10.7,
+   "meal": true
+  },
+  {
+   "id": 3218,
+   "name": "Rucolanudel",
+   "price": 10.7,
+   "meal": true
+  },
+  {
+   "id": 3217,
+   "name": "Kaspressnudel",
+   "price": 10.7,
+   "meal": true
+  },
+  {
+   "id": 3213,
+   "name": "Kletzennudel",
+   "price": 11.2,
+   "meal": false
+  },
+  {
+   "id": 3212,
+   "name": "Apfel-Zimt Nudel",
+   "price": 10.7,
+   "meal": false
+  },
+  {
+   "id": 3208,
+   "name": "Mohnnudel",
+   "price": 10.7,
+   "meal": false
+  },
+  {
+   "id": 3207,
+   "name": "Himbeernudel",
+   "price": 10.7,
+   "meal": false
+  },
+  {
+   "id": 3206,
+   "name": "Heidelbeernudel",
+   "price": 10.7,
+   "meal": false
+  },
+  {
+   "id": 3203,
+   "name": "Bio Lauchnudel",
+   "price": 13.4,
+   "meal": true
+  },
+  {
+   "id": 3202,
+   "name": "Bio Spinatnudel",
+   "price": 14.5,
+   "meal": true
+  },
+  {
+   "id": 3201,
+   "name": "Bio Tomaten-Mozzarella-Nudel",
+   "price": 14.5,
+   "meal": true
+  },
+  {
+   "id": 3200,
+   "name": "Bio Specknudel",
+   "price": 14.5,
+   "meal": true
+  },
+  {
+   "id": 3199,
+   "name": "Bio Apfel-Zimt Nudel",
+   "price": 14.5,
+   "meal": false
+  },
+  {
+   "id": 3198,
+   "name": "Bio Knoblauchnudel",
+   "price": 13.4,
+   "meal": true
+  },
+  {
+   "id": 3197,
+   "name": "Schlickkrapferl",
+   "price": 9.0,
+   "meal": false
+  },
+  {
+   "id": 3195,
+   "name": "Bio Kartoffelnudel",
+   "price": 13.4,
+   "meal": true
+  },
+  {
+   "id": 3193,
+   "name": "Kärntner Käsnudel",
+   "price": 10.7,
+   "meal": true
+  }
+ ],
+ "excluded": [
+  "Semmelknödel",
+  "Süßer Nudelteller",
+  "Kletzennudel",
+  "Apfel-Zimt Nudel",
+  "Mohnnudel",
+  "Himbeernudel",
+  "Heidelbeernudel",
+  "Bio Apfel-Zimt Nudel",
+  "Schlickkrapferl"
+ ],
+ "kept": [
+  {
+   "source": "leitgeb",
+   "store": "Online: Leitgeb's Kärntnernudel",
+   "name": "Käspressknödel",
+   "brand": "Leitgeb's Nudelspezialitäten",
+   "price_eur": 6.8,
+   "unit_price_eur": 17.0,
+   "unit": "kg",
+   "size_g": 400.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://kaerntnernudel.co.at/wp-content/uploads/2023/02/webshop-leitgeb-2023-7.jpg",
+   "producer": "Leitgeb's Nudelspezialitäten aus dem Metnitztal GmbH, Industriestraße 18, 9360 Friesach, Kärnten (FN 62213v, UID ATU82506478)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://kaerntnernudel.co.at/produkt/kaespressknoedel/",
+   "source_id": "6340",
+   "fetched_at": "2026-10-25T06:11:12+00:00",
+   "extra": {
+    "wc_id": 6340,
+    "slug": "kaespressknoedel",
+    "in_stock": true,
+    "categories": [],
+    "ingredients": "Semmelwürfel (Weizenmehl, Hefe, Weizenmalzmehl, Dextrose), Bergkäse, Emmentaler, Rauchkäse, Weizenmehl, Wasser, Eier, Pflanzliche Öle (Sonnenblumenöl und Rapsöl in veränderlichen Gewichtsanteilen), Speisesalz jodiert, Zwiebel, Pfeffer",
+    "allergens": "Gluten, Eier, Milch",
+    "pieces": 4,
+    "piece_g_approx": 100,
+    "size_note": "Packungsgewicht = Stück × ca.-Stückgewicht lt. Shop",
+    "shelf_life": "Frisch und gekühlt mind. 9 Tage Tiefgekühlt mind. 4 Monate Nach dem Öffnen gegühlt lagern und innerhalb von 2-3 Tagen verbrauchen.",
+    "images": [
+     "https://kaerntnernudel.co.at/wp-content/uploads/2023/02/webshop-leitgeb-2023-7.jpg"
+    ],
+    "price_note": "Preis je Packung inkl. 10 % MwSt. lt. WooCommerce Store API, zzgl. Versand",
+    "shipping_note": "gekühlter Versand Österreich/Deutschland Mo–Do, Produktion + Versand 2–6 Werktage nach Zahlungseingang (AGB §4); Versandkosten nur im Warenkorb angezeigt → nicht veröffentlicht"
+   }
+  },
+  {
+   "source": "leitgeb",
+   "store": "Online: Leitgeb's Kärntnernudel",
+   "name": "Spinat- Schafskäsknödel",
+   "brand": "Leitgeb's Nudelspezialitäten",
+   "price_eur": 6.8,
+   "unit_price_eur": 17.0,
+   "unit": "kg",
+   "size_g": 400.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://kaerntnernudel.co.at/wp-content/uploads/2023/02/webshop-leitgeb-2023-8.jpg",
+   "producer": "Leitgeb's Nudelspezialitäten aus dem Metnitztal GmbH, Industriestraße 18, 9360 Friesach, Kärnten (FN 62213v, UID ATU82506478)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://kaerntnernudel.co.at/produkt/spinat-schafskaesknoedel/",
+   "source_id": "6339",
+   "fetched_at": "2026-10-25T06:11:14+00:00",
+   "extra": {
+    "wc_id": 6339,
+    "slug": "spinat-schafskaesknoedel",
+    "in_stock": true,
+    "categories": [],
+    "ingredients": "Spinat, 30% Schafskäse, Eier, Speisesalz jodiert, Wasser, Semmelwürfel (Weizenmehl, Backhefe, Backmittel, Dextrose)",
+    "allergens": "Gluten, Eier, Milch",
+    "pieces": 4,
+    "piece_g_approx": 100,
+    "size_note": "Packungsgewicht = Stück × ca.-Stückgewicht lt. Shop",
+    "shelf_life": "Frisch und gekühlt mind. 9 Tage Tiefgekühlt mind. 4 Monate Nach dem Öffnen gegühlt lagern und innerhalb von 2-3 Tagen verbrauchen.",
+    "images": [
+     "https://kaerntnernudel.co.at/wp-content/uploads/2023/02/webshop-leitgeb-2023-8.jpg"
+    ],
+    "price_note": "Preis je Packung inkl. 10 % MwSt. lt. WooCommerce Store API, zzgl. Versand",
+    "shipping_note": "gekühlter Versand Österreich/Deutschland Mo–Do, Produktion + Versand 2–6 Werktage nach Zahlungseingang (AGB §4); Versandkosten nur im Warenkorb angezeigt → nicht veröffentlicht"
+   }
+  },
+  {
+   "source": "leitgeb",
+   "store": "Online: Leitgeb's Kärntnernudel",
+   "name": "Tiroler Knödel",
+   "brand": "Leitgeb's Nudelspezialitäten",
+   "price_eur": 6.8,
+   "unit_price_eur": 17.0,
+   "unit": "kg",
+   "size_g": 400.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://kaerntnernudel.co.at/wp-content/uploads/2023/02/webshop-leitgeb-2023-6.jpg",
+   "producer": "Leitgeb's Nudelspezialitäten aus dem Metnitztal GmbH, Industriestraße 18, 9360 Friesach, Kärnten (FN 62213v, UID ATU82506478)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://kaerntnernudel.co.at/produkt/tiroler-knoedel/",
+   "source_id": "6338",
+   "fetched_at": "2026-10-25T06:11:16+00:00",
+   "extra": {
+    "wc_id": 6338,
+    "slug": "tiroler-knoedel",
+    "in_stock": true,
+    "categories": [],
+    "ingredients": "Semmelwürfel (Weizenmehl, Backhefe, Backmittel, Dextrose), Selchfleisch, Wasser, Eier, Speisesalz jodiert",
+    "allergens": "Gluten, Eier",
+    "pieces": 4,
+    "piece_g_approx": 100,
+    "size_note": "Packungsgewicht = Stück × ca.-Stückgewicht lt. Shop",
+    "shelf_life": "Frisch und gekühlt mind. 9 Tage Tiefgekühlt mind. 4 Monate Nach dem Öffnen gegühlt lagern und innerhalb von 2-3 Tagen verbrauchen.",
+    "images": [
+     "https://kaerntnernudel.co.at/wp-content/uploads/2023/02/webshop-leitgeb-2023-6.jpg"
+    ],
+    "price_note": "Preis je Packung inkl. 10 % MwSt. lt. WooCommerce Store API, zzgl. Versand",
+    "shipping_note": "gekühlter Versand Österreich/Deutschland Mo–Do, Produktion + Versand 2–6 Werktage nach Zahlungseingang (AGB §4); Versandkosten nur im Warenkorb angezeigt → nicht veröffentlicht"
+   }
+  },
+  {
+   "source": "leitgeb",
+   "store": "Online: Leitgeb's Kärntnernudel",
+   "name": "Italienischer Nudelteller",
+   "brand": "Leitgeb's Nudelspezialitäten",
+   "price_eur": 11.2,
+   "unit_price_eur": 24.89,
+   "unit": "kg",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "kj": 829.0,
+    "kcal": 197.0,
+    "fat": 6.8,
+    "saturated_fat": 3.2,
+    "carbs": 24.0,
+    "sugar": 1.5,
+    "protein": 8.7,
+    "salt": 1.6
+   },
+   "ean": null,
+   "image_url": "https://kaerntnernudel.co.at/wp-content/uploads/2022/01/italienischer-nudelteller.jpg",
+   "producer": "Leitgeb's Nudelspezialitäten aus dem Metnitztal GmbH, Industriestraße 18, 9360 Friesach, Kärnten (FN 62213v, UID ATU82506478)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://kaerntnernudel.co.at/produkt/italienischer-nudelteller/",
+   "source_id": "3283",
+   "fetched_at": "2026-10-25T06:11:17+00:00",
+   "extra": {
+    "wc_id": 3283,
+    "slug": "italienischer-nudelteller",
+    "in_stock": true,
+    "categories": [
+     "Original",
+     "Mix"
+    ],
+    "ingredients": "Weizenmehl, Eier, Speisesalz jodiert, Wasser, Pflanzenöl (Sonnenblumenöl und Rapsöl in veränderlichen Gewichtsanteilen), Spinat Nudel: 40% Kartoffel, Bröseltopfen, Spinat, Knoblauch, Gewürze Tomaten Mozzarella Nudel: 40% Kartoffel, Tomaten, Mozzarella, Pizzagewürz Parmesannudel: 40% Kartoffel, Bröseltopfen, Parmesan, Sauerrahm, Gewürze Rucolanudel: 40% Bröseltopfen, Kartoffel, Sauerrahm, Rucola, Parmesan, Salz Lasagnenudel: 30% Putenfaschiertes, Tomatensauce (Tomaten, Karotten, Sellerie, Zwiebel, Knoblauch), Bechamelsauce (Milch, Weizenmehl, Sellerie), Teigblätter (Hartweizengriess), Parmesan, Gewürze",
+    "allergens": "Eier, Gluten, Milch, Sellerie",
+    "pieces": 10,
+    "piece_g_approx": 45,
+    "size_note": "Packungsgewicht = Stück × ca.-Stückgewicht lt. Shop",
+    "shelf_life": "Frisch und gekühlt mind. 9 Tage Tiefgekühlt mind. 4 Monate",
+    "images": [
+     "https://kaerntnernudel.co.at/wp-content/uploads/2022/01/italienischer-nudelteller.jpg"
+    ],
+    "price_note": "Preis je Packung inkl. 10 % MwSt. lt. WooCommerce Store API, zzgl. Versand",
+    "shipping_note": "gekühlter Versand Österreich/Deutschland Mo–Do, Produktion + Versand 2–6 Werktage nach Zahlungseingang (AGB §4); Versandkosten nur im Warenkorb angezeigt → nicht veröffentlicht"
+   }
+  },
+  {
+   "source": "leitgeb",
+   "store": "Online: Leitgeb's Kärntnernudel",
+   "name": "Eierschwammerlnudel",
+   "brand": "Leitgeb's Nudelspezialitäten",
+   "price_eur": 13.5,
+   "unit_price_eur": 30.0,
+   "unit": "kg",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "kj": 915.0,
+    "kcal": 218.0,
+    "fat": 8.1,
+    "saturated_fat": 3.1,
+    "carbs": 29.0,
+    "sugar": 1.9,
+    "protein": 5.7,
+    "salt": 1.8
+   },
+   "ean": null,
+   "image_url": "https://kaerntnernudel.co.at/wp-content/uploads/2022/01/eierschwammerlnudel.jpg",
+   "producer": "Leitgeb's Nudelspezialitäten aus dem Metnitztal GmbH, Industriestraße 18, 9360 Friesach, Kärnten (FN 62213v, UID ATU82506478)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://kaerntnernudel.co.at/produkt/eierschwammerlnudel/",
+   "source_id": "3253",
+   "fetched_at": "2026-10-25T06:11:19+00:00",
+   "extra": {
+    "wc_id": 3253,
+    "slug": "eierschwammerlnudel",
+    "in_stock": true,
+    "categories": [
+     "Vegetarisch",
+     "Saisonal"
+    ],
+    "ingredients": "Weizenmehl, Eier, Speisesalz jodiert, Wasser, pflanzliche Öle (Sonnenblumenöl, Rapsöl in veränderlichen Gewichtsanteilen), 40% Kartoffel, Eierschwammerl, Zwiebel, Petersilie, Gewürze",
+    "allergens": "Eier, Gluten",
+    "pieces": 10,
+    "piece_g_approx": 45,
+    "size_note": "Packungsgewicht = Stück × ca.-Stückgewicht lt. Shop",
+    "shelf_life": "Frisch und gekühlt mind. 9 Tage Tiefgekühlt mind. 4 Monate",
+    "images": [
+     "https://kaerntnernudel.co.at/wp-content/uploads/2022/01/eierschwammerlnudel.jpg"
+    ],
+    "price_note": "Preis je Packung inkl. 10 % MwSt. lt. WooCommerce Store API, zzgl. Versand",
+    "shipping_note": "gekühlter Versand Österreich/Deutschland Mo–Do, Produktion + Versand 2–6 Werktage nach Zahlungseingang (AGB §4); Versandkosten nur im Warenkorb angezeigt → nicht veröffentlicht"
+   }
+  },
+  {
+   "source": "leitgeb",
+   "store": "Online: Leitgeb's Kärntnernudel",
+   "name": "Kartoffelnudel Vegan",
+   "brand": "Leitgeb's Nudelspezialitäten",
+   "price_eur": 10.7,
+   "unit_price_eur": 23.78,
+   "unit": "kg",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "kj": 747.0,
+    "kcal": 177.0,
+    "fat": 1.7,
+    "saturated_fat": 0.3,
+    "carbs": 34.0,
+    "sugar": 1.4,
+    "protein": 5.2,
+    "salt": 0.8
+   },
+   "ean": null,
+   "image_url": "https://kaerntnernudel.co.at/wp-content/uploads/2022/01/kartoffelnudel-vegan.jpg",
+   "producer": "Leitgeb's Nudelspezialitäten aus dem Metnitztal GmbH, Industriestraße 18, 9360 Friesach, Kärnten (FN 62213v, UID ATU82506478)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://kaerntnernudel.co.at/produkt/kartoffelnudel-vegan/",
+   "source_id": "3249",
+   "fetched_at": "2026-10-25T06:11:21+00:00",
+   "extra": {
+    "wc_id": 3249,
+    "slug": "kartoffelnudel-vegan",
+    "in_stock": true,
+    "categories": [
+     "Vegan"
+    ],
+    "ingredients": "Weizenmehl, Speisesalz jodiert, Wasser, pflanzliche Öle (Sonnenblumenöl, Rapsöl in veränderlichen Gewichtsanteilen), 70% Kartoffel, Lauch, Schnittlauch, Petersilie, Gewürze",
+    "allergens": "Gluten",
+    "pieces": 10,
+    "piece_g_approx": 45,
+    "size_note": "Packungsgewicht = Stück × ca.-Stückgewicht lt. Shop",
+    "shelf_life": "Frisch und gekühlt mind. 9 Tage Tiefgekühlt mind. 4 Monate",
+    "images": [
+     "https://kaerntnernudel.co.at/wp-content/uploads/2022/01/kartoffelnudel-vegan.jpg"
+    ],
+    "price_note": "Preis je Packung inkl. 10 % MwSt. lt. WooCommerce Store API, zzgl. Versand",
+    "shipping_note": "gekühlter Versand Österreich/Deutschland Mo–Do, Produktion + Versand 2–6 Werktage nach Zahlungseingang (AGB §4); Versandkosten nur im Warenkorb angezeigt → nicht veröffentlicht"
+   }
+  },
+  {
+   "source": "leitgeb",
+   "store": "Online: Leitgeb's Kärntnernudel",
+   "name": "Kürbisnudel Vegan",
+   "brand": "Leitgeb's Nudelspezialitäten",
+   "price_eur": 13.4,
+   "unit_price_eur": 29.78,
+   "unit": "kg",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "kj": 675.0,
+    "kcal": 160.0,
+    "fat": 4.0,
+    "saturated_fat": 0.5,
+    "carbs": 25.0,
+    "sugar": 1.6,
+    "protein": 4.5,
+    "salt": 1.7
+   },
+   "ean": null,
+   "image_url": "https://kaerntnernudel.co.at/wp-content/uploads/2022/01/kuerbisnudel-vegan.jpg",
+   "producer": "Leitgeb's Nudelspezialitäten aus dem Metnitztal GmbH, Industriestraße 18, 9360 Friesach, Kärnten (FN 62213v, UID ATU82506478)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://kaerntnernudel.co.at/produkt/kuerbisnudel-vegan/",
+   "source_id": "3240",
+   "fetched_at": "2026-10-25T06:11:23+00:00",
+   "extra": {
+    "wc_id": 3240,
+    "slug": "kuerbisnudel-vegan",
+    "in_stock": true,
+    "categories": [
+     "Gemüse",
+     "Käse",
+     "Vegetarisch",
+     "Vegan",
+     "Saisonal"
+    ],
+    "ingredients": "Weizenmehl, Speisesalz jodiert, Wasser, pflanzliche Öle (Sonnenblumenöl, Rapsöl in veränderlichen Gewichtsanteilen), 40% Kartoffel, Kürbis, Knoblauch, Kürbiskernöl, Gewürze",
+    "allergens": "Gluten",
+    "pieces": 10,
+    "piece_g_approx": 45,
+    "size_note": "Packungsgewicht = Stück × ca.-Stückgewicht lt. Shop",
+    "shelf_life": "Frisch und gekühlt mind. 9 Tage Tiefgekühlt mind. 4 Monate",
+    "images": [
+     "https://kaerntnernudel.co.at/wp-content/uploads/2022/01/kuerbisnudel-vegan.jpg"
+    ],
+    "price_note": "Preis je Packung inkl. 10 % MwSt. lt. WooCommerce Store API, zzgl. Versand",
+    "shipping_note": "gekühlter Versand Österreich/Deutschland Mo–Do, Produktion + Versand 2–6 Werktage nach Zahlungseingang (AGB §4); Versandkosten nur im Warenkorb angezeigt → nicht veröffentlicht"
+   }
+  },
+  {
+   "source": "leitgeb",
+   "store": "Online: Leitgeb's Kärntnernudel",
+   "name": "Kürbisnudel",
+   "brand": "Leitgeb's Nudelspezialitäten",
+   "price_eur": 11.2,
+   "unit_price_eur": 24.89,
+   "unit": "kg",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "kj": 675.0,
+    "kcal": 160.0,
+    "fat": 4.0,
+    "saturated_fat": 0.5,
+    "carbs": 25.0,
+    "sugar": 1.6,
+    "protein": 4.5,
+    "salt": 1.7
+   },
+   "ean": null,
+   "image_url": "https://kaerntnernudel.co.at/wp-content/uploads/2022/01/kuerbisnudel2.jpg",
+   "producer": "Leitgeb's Nudelspezialitäten aus dem Metnitztal GmbH, Industriestraße 18, 9360 Friesach, Kärnten (FN 62213v, UID ATU82506478)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://kaerntnernudel.co.at/produkt/kuerbisnudel/",
+   "source_id": "3239",
+   "fetched_at": "2026-10-25T06:11:25+00:00",
+   "extra": {
+    "wc_id": 3239,
+    "slug": "kuerbisnudel",
+    "in_stock": true,
+    "categories": [
+     "Gemüse",
+     "Käse",
+     "Vegetarisch",
+     "Saisonal"
+    ],
+    "ingredients": "Weizenmehl, Eier, Speisesalz jodiert, Wasser, pflanzliche Öle (Sonnenblumenöl, Rapsöl in veränderlichen Gewichtsanteilen), 40% Kartoffel, Kürbis, Knoblauch, Kürbiskernöl, Gewürze",
+    "allergens": "Eier, Gluten",
+    "pieces": 10,
+    "piece_g_approx": 45,
+    "size_note": "Packungsgewicht = Stück × ca.-Stückgewicht lt. Shop",
+    "shelf_life": "Frisch und gekühlt mind. 9 Tage Tiefgekühlt mind. 4 Monate",
+    "images": [
+     "https://kaerntnernudel.co.at/wp-content/uploads/2022/01/kuerbisnudel2.jpg"
+    ],
+    "price_note": "Preis je Packung inkl. 10 % MwSt. lt. WooCommerce Store API, zzgl. Versand",
+    "shipping_note": "gekühlter Versand Österreich/Deutschland Mo–Do, Produktion + Versand 2–6 Werktage nach Zahlungseingang (AGB §4); Versandkosten nur im Warenkorb angezeigt → nicht veröffentlicht"
+   }
+  },
+  {
+   "source": "leitgeb",
+   "store": "Online: Leitgeb's Kärntnernudel",
+   "name": "Kärntner Käsnudel Vegan",
+   "brand": "Leitgeb's Nudelspezialitäten",
+   "price_eur": 13.4,
+   "unit_price_eur": 29.78,
+   "unit": "kg",
+   "size_g": 450.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://kaerntnernudel.co.at/wp-content/uploads/2021/12/kaerntner-kaesnudel-vegan.jpg",
+   "producer": "Leitgeb's Nudelspezialitäten aus dem Metnitztal GmbH, Industriestraße 18, 9360 Friesach, Kärnten (FN 62213v, UID ATU82506478)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://kaerntnernudel.co.at/produkt/kaerntner-kaesnudel-vegan/",
+   "source_id": "3236",
+   "fetched_at": "2026-10-25T06:11:27+00:00",
+   "extra": {
+    "wc_id": 3236,
+    "slug": "kaerntner-kaesnudel-vegan",
+    "in_stock": true,
+    "categories": [
+     "Vegan",
+     "Original"
+    ],
+    "ingredients": "Weizenmehl, Speisesalz jodiert, Wasser, pflanzliche Öle (Sonnenblumenöl, Rapsöl, in veränderlichen Gewichtsanteilen), 40% Tofu, Kartoffel, Minze, Zwiebel, Gewürze",
+    "allergens": "Gluten",
+    "pieces": 10,
+    "piece_g_approx": 45,
+    "size_note": "Packungsgewicht = Stück × ca.-Stückgewicht lt. Shop",
+    "shelf_life": "Frisch und gekühlt mind. 9 Tage Tiefgekühlt mind. 4 Monate",
+    "images": [
+     "https://kaerntnernudel.co.at/wp-content/uploads/2021/12/kaerntner-kaesnudel-vegan.jpg"
+    ],
+    "price_note": "Preis je Packung inkl. 10 % MwSt. lt. WooCommerce Store API, zzgl. Versand",
+    "shipping_note": "gekühlter Versand Österreich/Deutschland Mo–Do, Produktion + Versand 2–6 Werktage nach Zahlungseingang (AGB §4); Versandkosten nur im Warenkorb angezeigt → nicht veröffentlicht"
+   }
+  },
+  {
+   "source": "leitgeb",
+   "store": "Online: Leitgeb's Kärntnernudel",
+   "name": "Bio Kärntner Nudel",
+   "brand": "Leitgeb's Nudelspezialitäten",
+   "price_eur": 13.4,
+   "unit_price_eur": 29.78,
+   "unit": "kg",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "kj": 825.0,
+    "kcal": 195.0,
+    "fat": 4.9,
+    "saturated_fat": 2.2,
+    "carbs": 29.0,
+    "sugar": 2.1,
+    "protein": 7.4,
+    "salt": 1.6
+   },
+   "ean": null,
+   "image_url": "https://kaerntnernudel.co.at/wp-content/uploads/2021/12/leitgeb-webshop-21.jpg",
+   "producer": "Leitgeb's Nudelspezialitäten aus dem Metnitztal GmbH, Industriestraße 18, 9360 Friesach, Kärnten (FN 62213v, UID ATU82506478)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://kaerntnernudel.co.at/produkt/bio-kaerntner-nudel/",
+   "source_id": "3233",
+   "fetched_at": "2026-10-25T06:11:28+00:00",
+   "extra": {
+    "wc_id": 3233,
+    "slug": "bio-kaerntner-nudel",
+    "in_stock": true,
+    "categories": [
+     "Vegetarisch",
+     "Bio",
+     "Original"
+    ],
+    "ingredients": "40 % Bröseltopfen*, Kartoffel*, Minze*, Eier*, Speisesalz jodiert, Wasser, Pflanzenöl*, Weizenmehl*, Gewürze* *Aus biologischer Landwirtschaft",
+    "allergens": "Eier, Gluten, Milch",
+    "pieces": 10,
+    "piece_g_approx": 45,
+    "size_note": "Packungsgewicht = Stück × ca.-Stückgewicht lt. Shop",
+    "shelf_life": "Frisch und gekühlt mind. 9 Tage Tiefgekühlt mind. 4 Monate",
+    "images": [
+     "https://kaerntnernudel.co.at/wp-content/uploads/2021/12/leitgeb-webshop-21.jpg"
+    ],
+    "price_note": "Preis je Packung inkl. 10 % MwSt. lt. WooCommerce Store API, zzgl. Versand",
+    "shipping_note": "gekühlter Versand Österreich/Deutschland Mo–Do, Produktion + Versand 2–6 Werktage nach Zahlungseingang (AGB §4); Versandkosten nur im Warenkorb angezeigt → nicht veröffentlicht"
+   }
+  },
+  {
+   "source": "leitgeb",
+   "store": "Online: Leitgeb's Kärntnernudel",
+   "name": "Gemischter Nudelteller",
+   "brand": "Leitgeb's Nudelspezialitäten",
+   "price_eur": 11.2,
+   "unit_price_eur": 24.89,
+   "unit": "kg",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "kj": 782.0,
+    "kcal": 186.0,
+    "fat": 5.6,
+    "saturated_fat": 1.9,
+    "carbs": 25.0,
+    "sugar": 1.9,
+    "protein": 7.4,
+    "salt": 1.6
+   },
+   "ean": null,
+   "image_url": "https://kaerntnernudel.co.at/wp-content/uploads/2022/01/webshop-jan-9.jpg",
+   "producer": "Leitgeb's Nudelspezialitäten aus dem Metnitztal GmbH, Industriestraße 18, 9360 Friesach, Kärnten (FN 62213v, UID ATU82506478)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://kaerntnernudel.co.at/produkt/gemischter-nudelteller/",
+   "source_id": "3232",
+   "fetched_at": "2026-10-25T06:11:30+00:00",
+   "extra": {
+    "wc_id": 3232,
+    "slug": "gemischter-nudelteller",
+    "in_stock": true,
+    "categories": [
+     "Original",
+     "Mix"
+    ],
+    "ingredients": "Kärntner Käsnudel: 40 % Bröseltopfen, Kartoffel, Minze, Eier, Speisesalz jodiert, Wasser, Pflanzenöl (Sonnenblumenöl und Rapsöl in veränderlichen Gewichtsanteilen), Weizenmehl, Gewürze Spinat Nudel: 40% Kartoffel, Bröseltopfen, Spinat, Knoblauch, Gewürze Tomaten Mozzarella Nudel: 40% Kartoffel, Tomaten, Mozzarella, Pizzagewürz Fleischnudel: 90% Schweineschulter (Nitritpökelsalz, Kochsalz, Konservierungsmittel, Citronensäure, Antioxidationsmittel), Semmelwürfel (Backmittel, Backhefe), Petersilie, Majoran, Zwiebel, Gewürze Specknudel: 60% Kartoffel, Speck /Schweinefleisch, Nitritpökelsalz, Saccharose, Dextrose, Antioxidationsmittel, Konservierungsmittel), Pfeffer, Zwiebel",
+    "allergens": "Eier, Gluten, Milch",
+    "pieces": 10,
+    "piece_g_approx": 45,
+    "size_note": "Packungsgewicht = Stück × ca.-Stückgewicht lt. Shop",
+    "shelf_life": "Frisch und gekühlt mind. 9 Tage Tiefgekühlt mind. 4 Monate",
+    "images": [
+     "https://kaerntnernudel.co.at/wp-content/uploads/2022/01/webshop-jan-9.jpg"
+    ],
+    "price_note": "Preis je Packung inkl. 10 % MwSt. lt. WooCommerce Store API, zzgl. Versand",
+    "shipping_note": "gekühlter Versand Österreich/Deutschland Mo–Do, Produktion + Versand 2–6 Werktage nach Zahlungseingang (AGB §4); Versandkosten nur im Warenkorb angezeigt → nicht veröffentlicht"
+   }
+  },
+  {
+   "source": "leitgeb",
+   "store": "Online: Leitgeb's Kärntnernudel",
+   "name": "Knoblauchnudel",
+   "brand": "Leitgeb's Nudelspezialitäten",
+   "price_eur": 10.7,
+   "unit_price_eur": 23.78,
+   "unit": "kg",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "kj": 669.0,
+    "kcal": 158.0,
+    "fat": 2.0,
+    "saturated_fat": 0.2,
+    "carbs": 29.0,
+    "sugar": 1.2,
+    "protein": 4.8,
+    "salt": 1.6
+   },
+   "ean": null,
+   "image_url": "https://kaerntnernudel.co.at/wp-content/uploads/2021/12/leitgeb-webshop-13.jpg",
+   "producer": "Leitgeb's Nudelspezialitäten aus dem Metnitztal GmbH, Industriestraße 18, 9360 Friesach, Kärnten (FN 62213v, UID ATU82506478)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://kaerntnernudel.co.at/produkt/knoblauchnudel/",
+   "source_id": "3231",
+   "fetched_at": "2026-10-25T06:11:32+00:00",
+   "extra": {
+    "wc_id": 3231,
+    "slug": "knoblauchnudel",
+    "in_stock": true,
+    "categories": [
+     "Gemüse",
+     "Vegetarisch"
+    ],
+    "ingredients": "70% Kartoffel, Weizenmehl, Wasser, Eier, pflanzliche Öle (Sonnenblumenöl, Rapsöl, in veränderlichen Gewichtsanteilen), Speisesalz jodiert (Speisesalz, Kaliumjodid), Knoblauch, Lauch, Schnittlauch, Pfeffer",
+    "allergens": "Eier, Gluten",
+    "pieces": 10,
+    "piece_g_approx": 45,
+    "size_note": "Packungsgewicht = Stück × ca.-Stückgewicht lt. Shop",
+    "shelf_life": "Frisch und gekühlt mind. 9 Tage Tiefgekühlt mind. 4 Monate",
+    "images": [
+     "https://kaerntnernudel.co.at/wp-content/uploads/2021/12/leitgeb-webshop-13.jpg"
+    ],
+    "price_note": "Preis je Packung inkl. 10 % MwSt. lt. WooCommerce Store API, zzgl. Versand",
+    "shipping_note": "gekühlter Versand Österreich/Deutschland Mo–Do, Produktion + Versand 2–6 Werktage nach Zahlungseingang (AGB §4); Versandkosten nur im Warenkorb angezeigt → nicht veröffentlicht"
+   }
+  },
+  {
+   "source": "leitgeb",
+   "store": "Online: Leitgeb's Kärntnernudel",
+   "name": "Parmesannudel",
+   "brand": "Leitgeb's Nudelspezialitäten",
+   "price_eur": 10.7,
+   "unit_price_eur": 23.78,
+   "unit": "kg",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "kj": 926.0,
+    "kcal": 221.0,
+    "fat": 9.0,
+    "saturated_fat": 4.7,
+    "carbs": 23.0,
+    "sugar": 1.3,
+    "protein": 11.0,
+    "salt": 1.9
+   },
+   "ean": null,
+   "image_url": "https://kaerntnernudel.co.at/wp-content/uploads/2021/12/leitgeb-webshop-4.jpg",
+   "producer": "Leitgeb's Nudelspezialitäten aus dem Metnitztal GmbH, Industriestraße 18, 9360 Friesach, Kärnten (FN 62213v, UID ATU82506478)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://kaerntnernudel.co.at/produkt/parmesannudel/",
+   "source_id": "3228",
+   "fetched_at": "2026-10-25T06:11:34+00:00",
+   "extra": {
+    "wc_id": 3228,
+    "slug": "parmesannudel",
+    "in_stock": true,
+    "categories": [
+     "Käse",
+     "Vegetarisch"
+    ],
+    "ingredients": "40% Kartoffel, Bröseltopfen, Parmesan, Sauerrahm, Wasser, Eier, pflanzliche Öle (Sonnenblumenöl, Rapsöl, in veränderlichen Gewichtsanteilen), Speisesalz jodiert (Speisesalz, Kaliumjodid), Pfeffer",
+    "allergens": "Eier, Gluten, Milch",
+    "pieces": 10,
+    "piece_g_approx": 45,
+    "size_note": "Packungsgewicht = Stück × ca.-Stückgewicht lt. Shop",
+    "shelf_life": "Frisch und gekühlt mind. 9 Tage Tiefgekühlt mind. 4 Monate",
+    "images": [
+     "https://kaerntnernudel.co.at/wp-content/uploads/2021/12/leitgeb-webshop-4.jpg"
+    ],
+    "price_note": "Preis je Packung inkl. 10 % MwSt. lt. WooCommerce Store API, zzgl. Versand",
+    "shipping_note": "gekühlter Versand Österreich/Deutschland Mo–Do, Produktion + Versand 2–6 Werktage nach Zahlungseingang (AGB §4); Versandkosten nur im Warenkorb angezeigt → nicht veröffentlicht"
+   }
+  },
+  {
+   "source": "leitgeb",
+   "store": "Online: Leitgeb's Kärntnernudel",
+   "name": "Spinatnudel",
+   "brand": "Leitgeb's Nudelspezialitäten",
+   "price_eur": 10.7,
+   "unit_price_eur": 23.78,
+   "unit": "kg",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "kj": 765.0,
+    "kcal": 181.0,
+    "fat": 4.0,
+    "saturated_fat": 1.7,
+    "carbs": 28.0,
+    "sugar": 1.8,
+    "protein": 6.9,
+    "salt": 2.0
+   },
+   "ean": null,
+   "image_url": "https://kaerntnernudel.co.at/wp-content/uploads/2021/12/leitgeb-webshop-2.jpg",
+   "producer": "Leitgeb's Nudelspezialitäten aus dem Metnitztal GmbH, Industriestraße 18, 9360 Friesach, Kärnten (FN 62213v, UID ATU82506478)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://kaerntnernudel.co.at/produkt/spinatnudel/",
+   "source_id": "3227",
+   "fetched_at": "2026-10-25T06:11:36+00:00",
+   "extra": {
+    "wc_id": 3227,
+    "slug": "spinatnudel",
+    "in_stock": true,
+    "categories": [
+     "Spinat",
+     "Vegetarisch",
+     "Original"
+    ],
+    "ingredients": "40% Kartoffel, Bröseltopfen, Spinat, Weizenmehl, Wasser, Eier, pflanzliche Öle (Sonnenblumenöl, Rapsöl, in veränderlichen Gewichtsanteilen), Speisesalz jodiert (Speisesalz, Kaliumjodid), Knoblauch, Pfeffer",
+    "allergens": "Eier, Gluten, Milch",
+    "pieces": 10,
+    "piece_g_approx": 45,
+    "size_note": "Packungsgewicht = Stück × ca.-Stückgewicht lt. Shop",
+    "shelf_life": "Frisch und gekühlt mind. 9 Tage Tiefgekühlt mind. 4 Monate",
+    "images": [
+     "https://kaerntnernudel.co.at/wp-content/uploads/2021/12/leitgeb-webshop-2.jpg"
+    ],
+    "price_note": "Preis je Packung inkl. 10 % MwSt. lt. WooCommerce Store API, zzgl. Versand",
+    "shipping_note": "gekühlter Versand Österreich/Deutschland Mo–Do, Produktion + Versand 2–6 Werktage nach Zahlungseingang (AGB §4); Versandkosten nur im Warenkorb angezeigt → nicht veröffentlicht"
+   }
+  },
+  {
+   "source": "leitgeb",
+   "store": "Online: Leitgeb's Kärntnernudel",
+   "name": "Kartoffelnudel",
+   "brand": "Leitgeb's Nudelspezialitäten",
+   "price_eur": 10.7,
+   "unit_price_eur": 23.78,
+   "unit": "kg",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "kj": 747.0,
+    "kcal": 177.0,
+    "fat": 1.7,
+    "saturated_fat": 0.3,
+    "carbs": 34.0,
+    "sugar": 1.4,
+    "protein": 5.2,
+    "salt": 0.76
+   },
+   "ean": null,
+   "image_url": "https://kaerntnernudel.co.at/wp-content/uploads/2021/12/leitgeb-webshop-12.jpg",
+   "producer": "Leitgeb's Nudelspezialitäten aus dem Metnitztal GmbH, Industriestraße 18, 9360 Friesach, Kärnten (FN 62213v, UID ATU82506478)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://kaerntnernudel.co.at/produkt/kartoffelnudel/",
+   "source_id": "3226",
+   "fetched_at": "2026-10-25T06:11:38+00:00",
+   "extra": {
+    "wc_id": 3226,
+    "slug": "kartoffelnudel",
+    "in_stock": true,
+    "categories": [
+     "Gemüse",
+     "Vegetarisch"
+    ],
+    "ingredients": "70% Kartoffel, Weizenmehl, Wasser, Eier, pflanzliche Öle (Sonnenblumenöl, Rapsöl, in veränderlichen Gewichtsanteilen), Speisesalz jodiert (Speisesalz, Kaliumjodid), Lauch, Schnittlauch, Petersilie, Pfeffer",
+    "allergens": "Eier, Gluten, Milch",
+    "pieces": 10,
+    "piece_g_approx": 45,
+    "size_note": "Packungsgewicht = Stück × ca.-Stückgewicht lt. Shop",
+    "shelf_life": "Frisch und gekühlt mind. 9 Tage Tiefgekühlt mind. 4 Monate",
+    "images": [
+     "https://kaerntnernudel.co.at/wp-content/uploads/2021/12/leitgeb-webshop-12.jpg"
+    ],
+    "price_note": "Preis je Packung inkl. 10 % MwSt. lt. WooCommerce Store API, zzgl. Versand",
+    "shipping_note": "gekühlter Versand Österreich/Deutschland Mo–Do, Produktion + Versand 2–6 Werktage nach Zahlungseingang (AGB §4); Versandkosten nur im Warenkorb angezeigt → nicht veröffentlicht"
+   }
+  },
+  {
+   "source": "leitgeb",
+   "store": "Online: Leitgeb's Kärntnernudel",
+   "name": "Lasagnenudel",
+   "brand": "Leitgeb's Nudelspezialitäten",
+   "price_eur": 10.7,
+   "unit_price_eur": 23.78,
+   "unit": "kg",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "kj": 912.0,
+    "kcal": 217.0,
+    "fat": 8.0,
+    "saturated_fat": 3.5,
+    "carbs": 27.0,
+    "sugar": 1.9,
+    "protein": 8.7,
+    "salt": 0.96
+   },
+   "ean": null,
+   "image_url": "https://kaerntnernudel.co.at/wp-content/uploads/2021/12/leitgeb-webshop-7.jpg",
+   "producer": "Leitgeb's Nudelspezialitäten aus dem Metnitztal GmbH, Industriestraße 18, 9360 Friesach, Kärnten (FN 62213v, UID ATU82506478)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://kaerntnernudel.co.at/produkt/lasagnenudel/",
+   "source_id": "3225",
+   "fetched_at": "2026-10-25T06:11:40+00:00",
+   "extra": {
+    "wc_id": 3225,
+    "slug": "lasagnenudel",
+    "in_stock": true,
+    "categories": [
+     "Herzhaft",
+     "Mit Fleisch"
+    ],
+    "ingredients": "30% Putenfaschiertes, Tomatensauce (Tomaten, Sellerie, Zwiebel, Knoblauch), Bechamelsauce (Milch, Weizenmehl, Sellerie), Teigblätter (Hartweizengrieß), Parmesan, Weizenmehl, Wasser, Eier, pflanzliche Öle (Sonnenblumenöl, Rapsöl, in veränderlichen Gewichtsanteilen), Speisesalz jodiert (Speisesalz, Kaliumjodid), Pfeffer",
+    "allergens": "Eier, Gluten, Milch",
+    "pieces": 10,
+    "piece_g_approx": 45,
+    "size_note": "Packungsgewicht = Stück × ca.-Stückgewicht lt. Shop",
+    "shelf_life": "Frisch und gekühlt mind. 9 Tage Tiefgekühlt mind. 4 Monate",
+    "images": [
+     "https://kaerntnernudel.co.at/wp-content/uploads/2021/12/leitgeb-webshop-7.jpg"
+    ],
+    "price_note": "Preis je Packung inkl. 10 % MwSt. lt. WooCommerce Store API, zzgl. Versand",
+    "shipping_note": "gekühlter Versand Österreich/Deutschland Mo–Do, Produktion + Versand 2–6 Werktage nach Zahlungseingang (AGB §4); Versandkosten nur im Warenkorb angezeigt → nicht veröffentlicht"
+   }
+  },
+  {
+   "source": "leitgeb",
+   "store": "Online: Leitgeb's Kärntnernudel",
+   "name": "Tomaten-Mozzarella-Nudel",
+   "brand": "Leitgeb's Nudelspezialitäten",
+   "price_eur": 10.7,
+   "unit_price_eur": 23.78,
+   "unit": "kg",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "kj": 863.0,
+    "kcal": 205.0,
+    "fat": 5.7,
+    "saturated_fat": 2.9,
+    "carbs": 29.0,
+    "sugar": 2.1,
+    "protein": 8.5,
+    "salt": 2.0
+   },
+   "ean": null,
+   "image_url": "https://kaerntnernudel.co.at/wp-content/uploads/2021/12/leitgeb-webshop-3.jpg",
+   "producer": "Leitgeb's Nudelspezialitäten aus dem Metnitztal GmbH, Industriestraße 18, 9360 Friesach, Kärnten (FN 62213v, UID ATU82506478)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://kaerntnernudel.co.at/produkt/tomaten-mozzarella-nudel/",
+   "source_id": "3224",
+   "fetched_at": "2026-10-25T06:11:42+00:00",
+   "extra": {
+    "wc_id": 3224,
+    "slug": "tomaten-mozzarella-nudel",
+    "in_stock": true,
+    "categories": [
+     "Käse",
+     "Vegetarisch"
+    ],
+    "ingredients": "40% Kartoffel, Tomaten, Mozzarella, Weizenmehl, Wasser, Eier, pflanzliche Öle (Sonnenblumenöl, Rapsöl, in veränderlichen Gewichtsanteilen,), Speisesalz jodiert (Speisesalz, Kaliumjodid), Pizzagewürz (Oregano, Zwiebel, Knoblauch, Pfeffer, Basilikum, Rosmarin, Salbei)",
+    "allergens": "Eier, Gluten, Milch",
+    "pieces": 10,
+    "piece_g_approx": 45,
+    "size_note": "Packungsgewicht = Stück × ca.-Stückgewicht lt. Shop",
+    "shelf_life": "Frisch und gekühlt mind. 9 Tage Tiefgekühlt mind. 4 Monate",
+    "images": [
+     "https://kaerntnernudel.co.at/wp-content/uploads/2021/12/leitgeb-webshop-3.jpg"
+    ],
+    "price_note": "Preis je Packung inkl. 10 % MwSt. lt. WooCommerce Store API, zzgl. Versand",
+    "shipping_note": "gekühlter Versand Österreich/Deutschland Mo–Do, Produktion + Versand 2–6 Werktage nach Zahlungseingang (AGB §4); Versandkosten nur im Warenkorb angezeigt → nicht veröffentlicht"
+   }
+  },
+  {
+   "source": "leitgeb",
+   "store": "Online: Leitgeb's Kärntnernudel",
+   "name": "Kärntner Fleischnudel",
+   "brand": "Leitgeb's Nudelspezialitäten",
+   "price_eur": 11.2,
+   "unit_price_eur": 12.44,
+   "unit": "kg",
+   "size_g": 900.0,
+   "nutrition_100g": {
+    "kj": 1239.0,
+    "kcal": 295.0,
+    "fat": 11.0,
+    "saturated_fat": 3.8,
+    "carbs": 31.0,
+    "sugar": 1.0,
+    "protein": 17.0,
+    "salt": 1.1
+   },
+   "ean": null,
+   "image_url": "https://kaerntnernudel.co.at/wp-content/uploads/2021/12/leitgeb-webshop-28.jpg",
+   "producer": "Leitgeb's Nudelspezialitäten aus dem Metnitztal GmbH, Industriestraße 18, 9360 Friesach, Kärnten (FN 62213v, UID ATU82506478)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://kaerntnernudel.co.at/produkt/kaerntner-fleischnudel/",
+   "source_id": "3223",
+   "fetched_at": "2026-10-25T06:11:43+00:00",
+   "extra": {
+    "wc_id": 3223,
+    "slug": "kaerntner-fleischnudel",
+    "in_stock": true,
+    "categories": [
+     "Herzhaft",
+     "Mit Fleisch",
+     "Original"
+    ],
+    "ingredients": "70% Schweineschulter gekocht und geräuchert (Schweineschulter, Speisesalz, Konservierungsstoff Natriumnitrit, Trockenglucosesirup, Gewürzextrakte, Stabilisator Di- und Triphosphate, Antioxidationsmittel, Natriumascorbat, Rauch), Weizenmehl, Wasser, Eier, Semmelwürfel (Weizenmehl, Hefe, Weizenmalzmehl, Dextose), Pflanzliche Öle (Sonnenblumenöl, Rapsöl in veränderlichen Gewichtsanteilen), Speisesalz jodiert (Speisesalz, Kaliumjodid), Petersilie, Majoran, Zwiebel, Pfeffer",
+    "allergens": "Eier, Gluten",
+    "pieces": 10,
+    "piece_g_approx": 90,
+    "size_note": "Packungsgewicht = Stück × ca.-Stückgewicht lt. Shop",
+    "shelf_life": "Frisch und gekühlt mind. 7 Tage Tiefgekühlt mind. 4 Monate",
+    "images": [
+     "https://kaerntnernudel.co.at/wp-content/uploads/2021/12/leitgeb-webshop-28.jpg"
+    ],
+    "price_note": "Preis je Packung inkl. 10 % MwSt. lt. WooCommerce Store API, zzgl. Versand",
+    "shipping_note": "gekühlter Versand Österreich/Deutschland Mo–Do, Produktion + Versand 2–6 Werktage nach Zahlungseingang (AGB §4); Versandkosten nur im Warenkorb angezeigt → nicht veröffentlicht"
+   }
+  },
+  {
+   "source": "leitgeb",
+   "store": "Online: Leitgeb's Kärntnernudel",
+   "name": "Metnitztaler Specknudel",
+   "brand": "Leitgeb's Nudelspezialitäten",
+   "price_eur": 11.2,
+   "unit_price_eur": 24.89,
+   "unit": "kg",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "kj": 873.0,
+    "kcal": 208.0,
+    "fat": 8.3,
+    "saturated_fat": 2.5,
+    "carbs": 25.0,
+    "sugar": 1.9,
+    "protein": 7.8,
+    "salt": 1.7
+   },
+   "ean": null,
+   "image_url": "https://kaerntnernudel.co.at/wp-content/uploads/2021/12/leitgeb-webshop-22.jpg",
+   "producer": "Leitgeb's Nudelspezialitäten aus dem Metnitztal GmbH, Industriestraße 18, 9360 Friesach, Kärnten (FN 62213v, UID ATU82506478)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://kaerntnernudel.co.at/produkt/metnitztaler-specknudel/",
+   "source_id": "3222",
+   "fetched_at": "2026-10-25T06:11:45+00:00",
+   "extra": {
+    "wc_id": 3222,
+    "slug": "metnitztaler-specknudel",
+    "in_stock": true,
+    "categories": [
+     "Herzhaft",
+     "Mit Fleisch"
+    ],
+    "ingredients": "50% Schweineschulter gekocht und geräuchert (Schweineschulter, Speisesalz, Konservierungsstoff Natriumnitrit, Trockenglucosesirup, Gewürzextrakte, Stabilisator Di- und Triphosphate, Antioxidationsmittel, Natriumascorbat, Rauch), Weizenmehl, Wasser, Eier, Krapfen (Hefe, Milch, Butter), Pflanzliche Öle (Sonnenblumenöl, Rapsöl in veränderlichen Gewichtsanteilen), Speisesalz jodiert (Speisesalz, Kaliumjodid), Lauch, Pfeffer",
+    "allergens": "Eier, Gluten, Milch",
+    "pieces": 10,
+    "piece_g_approx": 45,
+    "size_note": "Packungsgewicht = Stück × ca.-Stückgewicht lt. Shop",
+    "shelf_life": "Frisch und gekühlt mind. 9 Tage Tiefgekühlt mind. 4 Monate",
+    "images": [
+     "https://kaerntnernudel.co.at/wp-content/uploads/2021/12/leitgeb-webshop-22.jpg"
+    ],
+    "price_note": "Preis je Packung inkl. 10 % MwSt. lt. WooCommerce Store API, zzgl. Versand",
+    "shipping_note": "gekühlter Versand Österreich/Deutschland Mo–Do, Produktion + Versand 2–6 Werktage nach Zahlungseingang (AGB §4); Versandkosten nur im Warenkorb angezeigt → nicht veröffentlicht"
+   }
+  },
+  {
+   "source": "leitgeb",
+   "store": "Online: Leitgeb's Kärntnernudel",
+   "name": "Kärntner Specknudel",
+   "brand": "Leitgeb's Nudelspezialitäten",
+   "price_eur": 10.7,
+   "unit_price_eur": 23.78,
+   "unit": "kg",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "kj": 873.0,
+    "kcal": 208.0,
+    "fat": 8.3,
+    "saturated_fat": 2.5,
+    "carbs": 25.0,
+    "sugar": 1.9,
+    "protein": 7.8,
+    "salt": 1.7
+   },
+   "ean": null,
+   "image_url": "https://kaerntnernudel.co.at/wp-content/uploads/2021/12/leitgeb-webshop-9-1.jpg",
+   "producer": "Leitgeb's Nudelspezialitäten aus dem Metnitztal GmbH, Industriestraße 18, 9360 Friesach, Kärnten (FN 62213v, UID ATU82506478)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://kaerntnernudel.co.at/produkt/kaerntner-specknudel/",
+   "source_id": "3221",
+   "fetched_at": "2026-10-25T06:11:47+00:00",
+   "extra": {
+    "wc_id": 3221,
+    "slug": "kaerntner-specknudel",
+    "in_stock": true,
+    "categories": [
+     "Herzhaft",
+     "Mit Fleisch",
+     "Original"
+    ],
+    "ingredients": "60% Kartoffel, Speck (Schweinefleisch, Nitritpökelsalz, Saccharose, Dextrose, Antioxidationsmittel, Konservierungsmittel), Zwiebel, Weizenmehl, Wasser, Eier, Pflanzliche Öle (Sonnenblumenöl, Rapsöl in veränderlichen Gewichtsanteilen), Speisesalz jodiert (Speisesalz, Kaliumjodid), Pfeffer",
+    "allergens": "Eier, Gluten",
+    "pieces": 10,
+    "piece_g_approx": 45,
+    "size_note": "Packungsgewicht = Stück × ca.-Stückgewicht lt. Shop",
+    "shelf_life": "Frisch und gekühlt mind. 9 Tage Tiefgekühlt mind. 4 Monate",
+    "images": [
+     "https://kaerntnernudel.co.at/wp-content/uploads/2021/12/leitgeb-webshop-9-1.jpg"
+    ],
+    "price_note": "Preis je Packung inkl. 10 % MwSt. lt. WooCommerce Store API, zzgl. Versand",
+    "shipping_note": "gekühlter Versand Österreich/Deutschland Mo–Do, Produktion + Versand 2–6 Werktage nach Zahlungseingang (AGB §4); Versandkosten nur im Warenkorb angezeigt → nicht veröffentlicht"
+   }
+  },
+  {
+   "source": "leitgeb",
+   "store": "Online: Leitgeb's Kärntnernudel",
+   "name": "Rucolanudel",
+   "brand": "Leitgeb's Nudelspezialitäten",
+   "price_eur": 10.7,
+   "unit_price_eur": 23.78,
+   "unit": "kg",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "kj": 883.0,
+    "kcal": 210.0,
+    "fat": 8.2,
+    "saturated_fat": 1.4,
+    "carbs": 23.0,
+    "sugar": 1.4,
+    "protein": 10.0,
+    "salt": 1.9
+   },
+   "ean": null,
+   "image_url": "https://kaerntnernudel.co.at/wp-content/uploads/2021/12/leitgeb-webshop-6-1.jpg",
+   "producer": "Leitgeb's Nudelspezialitäten aus dem Metnitztal GmbH, Industriestraße 18, 9360 Friesach, Kärnten (FN 62213v, UID ATU82506478)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://kaerntnernudel.co.at/produkt/rucolanudel/",
+   "source_id": "3218",
+   "fetched_at": "2026-10-25T06:11:49+00:00",
+   "extra": {
+    "wc_id": 3218,
+    "slug": "rucolanudel",
+    "in_stock": true,
+    "categories": [
+     "Käse",
+     "Vegetarisch"
+    ],
+    "ingredients": "40% Bröseltopfen, Kartoffel, Sauerrahm, Rucola, Parmesan, Wasser, Eier, pflanzliche Öle (Sonnenblumenöl, Rapsöl, in veränderlichen Gewichtsanteilen), Speisesalz jodiert (Speisesalz, Kaliumjodid)",
+    "allergens": "Eier, Gluten, Milch",
+    "pieces": 10,
+    "piece_g_approx": 45,
+    "size_note": "Packungsgewicht = Stück × ca.-Stückgewicht lt. Shop",
+    "shelf_life": "Frisch und gekühlt mind. 9 Tage Tiefgekühlt mind. 4 Monate",
+    "images": [
+     "https://kaerntnernudel.co.at/wp-content/uploads/2021/12/leitgeb-webshop-6-1.jpg"
+    ],
+    "price_note": "Preis je Packung inkl. 10 % MwSt. lt. WooCommerce Store API, zzgl. Versand",
+    "shipping_note": "gekühlter Versand Österreich/Deutschland Mo–Do, Produktion + Versand 2–6 Werktage nach Zahlungseingang (AGB §4); Versandkosten nur im Warenkorb angezeigt → nicht veröffentlicht"
+   }
+  },
+  {
+   "source": "leitgeb",
+   "store": "Online: Leitgeb's Kärntnernudel",
+   "name": "Kaspressnudel",
+   "brand": "Leitgeb's Nudelspezialitäten",
+   "price_eur": 10.7,
+   "unit_price_eur": 23.78,
+   "unit": "kg",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "kj": 1002.0,
+    "kcal": 238.0,
+    "fat": 8.5,
+    "saturated_fat": 4.2,
+    "carbs": 29.0,
+    "sugar": 1.9,
+    "protein": 11.0,
+    "salt": 1.8
+   },
+   "ean": null,
+   "image_url": "https://kaerntnernudel.co.at/wp-content/uploads/2021/12/leitgeb-webshop-26.jpg",
+   "producer": "Leitgeb's Nudelspezialitäten aus dem Metnitztal GmbH, Industriestraße 18, 9360 Friesach, Kärnten (FN 62213v, UID ATU82506478)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://kaerntnernudel.co.at/produkt/kaspressnudel/",
+   "source_id": "3217",
+   "fetched_at": "2026-10-25T06:11:50+00:00",
+   "extra": {
+    "wc_id": 3217,
+    "slug": "kaspressnudel",
+    "in_stock": true,
+    "categories": [
+     "Käse",
+     "Vegetarisch"
+    ],
+    "ingredients": "40% Bröseltopfen, Semmelwürfel (Weizenmehl, Hefe, Weizenmalzmehl, Dextrose), Bergkäse, Emmentaler, Rauchkäse, Weizenmehl, Wasser, Eier, pflanzliche Öle (Sonnenblumenöl, Rapsöl, in veränderlichen Gewichtsanteilen), Speisesalz jodiert (Speisesalz, Kaliumjodid), Zwiebel, Pfeffer",
+    "allergens": "Eier, Gluten, Milch",
+    "pieces": 10,
+    "piece_g_approx": 45,
+    "size_note": "Packungsgewicht = Stück × ca.-Stückgewicht lt. Shop",
+    "shelf_life": "Frisch und gekühlt mind. 9 Tage Tiefgekühlt mind. 4 Monate",
+    "images": [
+     "https://kaerntnernudel.co.at/wp-content/uploads/2021/12/leitgeb-webshop-26.jpg"
+    ],
+    "price_note": "Preis je Packung inkl. 10 % MwSt. lt. WooCommerce Store API, zzgl. Versand",
+    "shipping_note": "gekühlter Versand Österreich/Deutschland Mo–Do, Produktion + Versand 2–6 Werktage nach Zahlungseingang (AGB §4); Versandkosten nur im Warenkorb angezeigt → nicht veröffentlicht"
+   }
+  },
+  {
+   "source": "leitgeb",
+   "store": "Online: Leitgeb's Kärntnernudel",
+   "name": "Bio Lauchnudel",
+   "brand": "Leitgeb's Nudelspezialitäten",
+   "price_eur": 13.4,
+   "unit_price_eur": 29.78,
+   "unit": "kg",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "kj": 697.0,
+    "kcal": 166.0,
+    "fat": 4.3,
+    "saturated_fat": 1.6,
+    "carbs": 24.0,
+    "sugar": 1.6,
+    "protein": 6.3,
+    "salt": 1.7
+   },
+   "ean": null,
+   "image_url": "https://kaerntnernudel.co.at/wp-content/uploads/2021/12/leitgeb-webshop-11-1.jpg",
+   "producer": "Leitgeb's Nudelspezialitäten aus dem Metnitztal GmbH, Industriestraße 18, 9360 Friesach, Kärnten (FN 62213v, UID ATU82506478)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://kaerntnernudel.co.at/produkt/bio-lauchnudel/",
+   "source_id": "3203",
+   "fetched_at": "2026-10-25T06:11:52+00:00",
+   "extra": {
+    "wc_id": 3203,
+    "slug": "bio-lauchnudel",
+    "in_stock": true,
+    "categories": [
+     "Gemüse",
+     "Vegetarisch",
+     "Bio"
+    ],
+    "ingredients": "40% Kartoffel, Bröseltopfen, Weizenmehl, Wasser, Eier, pflanzliche Öle (Sonnenblumenöl, Rapsöl, in veränderlichen Gewichtsanteilen), Speisesalz jodiert (Speisesalz, Kaliumjodid), Lauch, Pfeffer",
+    "allergens": "Eier, Gluten, Milch",
+    "pieces": 10,
+    "piece_g_approx": 45,
+    "size_note": "Packungsgewicht = Stück × ca.-Stückgewicht lt. Shop",
+    "shelf_life": "Frisch und gekühlt mind. 9 Tage Tiefgekühlt mind. 4 Monate",
+    "images": [
+     "https://kaerntnernudel.co.at/wp-content/uploads/2021/12/leitgeb-webshop-11-1.jpg"
+    ],
+    "price_note": "Preis je Packung inkl. 10 % MwSt. lt. WooCommerce Store API, zzgl. Versand",
+    "shipping_note": "gekühlter Versand Österreich/Deutschland Mo–Do, Produktion + Versand 2–6 Werktage nach Zahlungseingang (AGB §4); Versandkosten nur im Warenkorb angezeigt → nicht veröffentlicht"
+   }
+  },
+  {
+   "source": "leitgeb",
+   "store": "Online: Leitgeb's Kärntnernudel",
+   "name": "Bio Spinatnudel",
+   "brand": "Leitgeb's Nudelspezialitäten",
+   "price_eur": 14.5,
+   "unit_price_eur": 32.22,
+   "unit": "kg",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "kj": 765.0,
+    "kcal": 181.0,
+    "fat": 4.0,
+    "saturated_fat": 1.7,
+    "carbs": 28.0,
+    "sugar": 1.8,
+    "protein": 6.9,
+    "salt": 2.0
+   },
+   "ean": null,
+   "image_url": "https://kaerntnernudel.co.at/wp-content/uploads/2021/12/leitgeb-webshop-2.jpg",
+   "producer": "Leitgeb's Nudelspezialitäten aus dem Metnitztal GmbH, Industriestraße 18, 9360 Friesach, Kärnten (FN 62213v, UID ATU82506478)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://kaerntnernudel.co.at/produkt/bio-spinatnudel/",
+   "source_id": "3202",
+   "fetched_at": "2026-10-25T06:11:54+00:00",
+   "extra": {
+    "wc_id": 3202,
+    "slug": "bio-spinatnudel",
+    "in_stock": true,
+    "categories": [
+     "Gemüse",
+     "Spinat",
+     "Vegetarisch",
+     "Bio",
+     "Original"
+    ],
+    "ingredients": "40% Kartoffel*, Bröseltopfen*, Spinat*, Weizenmehl*, Wasser, Eier*, Pflanzenöl* Speisesalz jodiert (Speisesalz, Kaliumjodid), Knoblauch*, Pfeffer* *Aus biologischer Landwirtschaft",
+    "allergens": "Eier, Gluten, Milch",
+    "pieces": 10,
+    "piece_g_approx": 45,
+    "size_note": "Packungsgewicht = Stück × ca.-Stückgewicht lt. Shop",
+    "shelf_life": "Frisch und gekühlt mind. 9 Tage Tiefgekühlt mind. 4 Monate",
+    "images": [
+     "https://kaerntnernudel.co.at/wp-content/uploads/2021/12/leitgeb-webshop-2.jpg"
+    ],
+    "price_note": "Preis je Packung inkl. 10 % MwSt. lt. WooCommerce Store API, zzgl. Versand",
+    "shipping_note": "gekühlter Versand Österreich/Deutschland Mo–Do, Produktion + Versand 2–6 Werktage nach Zahlungseingang (AGB §4); Versandkosten nur im Warenkorb angezeigt → nicht veröffentlicht"
+   }
+  },
+  {
+   "source": "leitgeb",
+   "store": "Online: Leitgeb's Kärntnernudel",
+   "name": "Bio Tomaten-Mozzarella-Nudel",
+   "brand": "Leitgeb's Nudelspezialitäten",
+   "price_eur": 14.5,
+   "unit_price_eur": 32.22,
+   "unit": "kg",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "kj": 863.0,
+    "kcal": 205.0,
+    "fat": 5.7,
+    "saturated_fat": 2.9,
+    "carbs": 29.0,
+    "sugar": 2.1,
+    "protein": 8.5,
+    "salt": 2.0
+   },
+   "ean": null,
+   "image_url": "https://kaerntnernudel.co.at/wp-content/uploads/2021/12/leitgeb-webshop-3.jpg",
+   "producer": "Leitgeb's Nudelspezialitäten aus dem Metnitztal GmbH, Industriestraße 18, 9360 Friesach, Kärnten (FN 62213v, UID ATU82506478)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://kaerntnernudel.co.at/produkt/bio-tomaten-mozzarella-nudel/",
+   "source_id": "3201",
+   "fetched_at": "2026-10-25T06:11:56+00:00",
+   "extra": {
+    "wc_id": 3201,
+    "slug": "bio-tomaten-mozzarella-nudel",
+    "in_stock": true,
+    "categories": [
+     "Gemüse",
+     "Käse",
+     "Vegetarisch",
+     "Bio"
+    ],
+    "ingredients": "40% Kartoffel*, Tomaten*, Mozzarella*, Weizenmehl*, Wasser, Eier*, Pflanzenöl*, Speisesalz jodiert (Speisesalz, Kaliumjodid), Pizzagewürz* (Oregano, Zwiebel, Knoblauch, Pfeffer, Basilikum, Rosmarin, Salbei) *Aus biologischer Landwirtschaft",
+    "allergens": "Eier, Gluten, Milch",
+    "pieces": 10,
+    "piece_g_approx": 45,
+    "size_note": "Packungsgewicht = Stück × ca.-Stückgewicht lt. Shop",
+    "shelf_life": "Frisch und gekühlt mind. 9 Tage Tiefgekühlt mind. 4 Monate",
+    "images": [
+     "https://kaerntnernudel.co.at/wp-content/uploads/2021/12/leitgeb-webshop-3.jpg"
+    ],
+    "price_note": "Preis je Packung inkl. 10 % MwSt. lt. WooCommerce Store API, zzgl. Versand",
+    "shipping_note": "gekühlter Versand Österreich/Deutschland Mo–Do, Produktion + Versand 2–6 Werktage nach Zahlungseingang (AGB §4); Versandkosten nur im Warenkorb angezeigt → nicht veröffentlicht"
+   }
+  },
+  {
+   "source": "leitgeb",
+   "store": "Online: Leitgeb's Kärntnernudel",
+   "name": "Bio Specknudel",
+   "brand": "Leitgeb's Nudelspezialitäten",
+   "price_eur": 14.5,
+   "unit_price_eur": 32.22,
+   "unit": "kg",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "kj": 873.0,
+    "kcal": 208.0,
+    "fat": 8.3,
+    "saturated_fat": 2.5,
+    "carbs": 25.0,
+    "sugar": 1.9,
+    "protein": 7.8,
+    "salt": 1.7
+   },
+   "ean": null,
+   "image_url": "https://kaerntnernudel.co.at/wp-content/uploads/2021/12/leitgeb-webshop-9-1.jpg",
+   "producer": "Leitgeb's Nudelspezialitäten aus dem Metnitztal GmbH, Industriestraße 18, 9360 Friesach, Kärnten (FN 62213v, UID ATU82506478)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://kaerntnernudel.co.at/produkt/bio-specknudel/",
+   "source_id": "3200",
+   "fetched_at": "2026-10-25T06:11:58+00:00",
+   "extra": {
+    "wc_id": 3200,
+    "slug": "bio-specknudel",
+    "in_stock": true,
+    "categories": [
+     "Herzhaft",
+     "Mit Fleisch",
+     "Bio",
+     "Original"
+    ],
+    "ingredients": "60% Kartoffel*, Speck* (Schweinefleisch, Nitritpökelsalz, Saccharose, Dextrose, Antioxidationsmittel, Konservierungsmittel), Zwiebel*, Weizenmehl*, Wasser, Eier*, Pflanzenöl*, Speisesalz jodiert (Speisesalz, Kaliumjodid), Pfeffer* *Aus biologischer Landwirtschaft",
+    "allergens": "Eier, Gluten",
+    "pieces": 10,
+    "piece_g_approx": 45,
+    "size_note": "Packungsgewicht = Stück × ca.-Stückgewicht lt. Shop",
+    "shelf_life": "Frisch und gekühlt mind. 9 Tage Tiefgekühlt mind. 4 Monate",
+    "images": [
+     "https://kaerntnernudel.co.at/wp-content/uploads/2021/12/leitgeb-webshop-9-1.jpg"
+    ],
+    "price_note": "Preis je Packung inkl. 10 % MwSt. lt. WooCommerce Store API, zzgl. Versand",
+    "shipping_note": "gekühlter Versand Österreich/Deutschland Mo–Do, Produktion + Versand 2–6 Werktage nach Zahlungseingang (AGB §4); Versandkosten nur im Warenkorb angezeigt → nicht veröffentlicht"
+   }
+  },
+  {
+   "source": "leitgeb",
+   "store": "Online: Leitgeb's Kärntnernudel",
+   "name": "Bio Knoblauchnudel",
+   "brand": "Leitgeb's Nudelspezialitäten",
+   "price_eur": 13.4,
+   "unit_price_eur": 29.78,
+   "unit": "kg",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "kj": 669.0,
+    "kcal": 158.0,
+    "fat": 2.0,
+    "saturated_fat": 0.2,
+    "carbs": 29.0,
+    "sugar": 1.2,
+    "protein": 4.8,
+    "salt": 1.6
+   },
+   "ean": null,
+   "image_url": "https://kaerntnernudel.co.at/wp-content/uploads/2021/12/leitgeb-webshop-13.jpg",
+   "producer": "Leitgeb's Nudelspezialitäten aus dem Metnitztal GmbH, Industriestraße 18, 9360 Friesach, Kärnten (FN 62213v, UID ATU82506478)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://kaerntnernudel.co.at/produkt/bio-knoblauchnudel/",
+   "source_id": "3198",
+   "fetched_at": "2026-10-25T06:12:00+00:00",
+   "extra": {
+    "wc_id": 3198,
+    "slug": "bio-knoblauchnudel",
+    "in_stock": true,
+    "categories": [
+     "Gemüse",
+     "Vegetarisch",
+     "Bio"
+    ],
+    "ingredients": "70% Kartoffel*, Weizenmehl*, Wasser, Eier*, Pflanzenöl*, Speisesalz jodiert (Speisesalz, Kaliumjodid), Knoblauch*, Lauch*, Schnittlauch*, Pfeffer* *Aus biologischer Landwirtschaft",
+    "allergens": "Eier, Gluten",
+    "pieces": 10,
+    "piece_g_approx": 45,
+    "size_note": "Packungsgewicht = Stück × ca.-Stückgewicht lt. Shop",
+    "shelf_life": "Frisch und gekühlt mind. 9 Tage Tiefgekühlt mind. 4 Monate",
+    "images": [
+     "https://kaerntnernudel.co.at/wp-content/uploads/2021/12/leitgeb-webshop-13.jpg"
+    ],
+    "price_note": "Preis je Packung inkl. 10 % MwSt. lt. WooCommerce Store API, zzgl. Versand",
+    "shipping_note": "gekühlter Versand Österreich/Deutschland Mo–Do, Produktion + Versand 2–6 Werktage nach Zahlungseingang (AGB §4); Versandkosten nur im Warenkorb angezeigt → nicht veröffentlicht"
+   }
+  },
+  {
+   "source": "leitgeb",
+   "store": "Online: Leitgeb's Kärntnernudel",
+   "name": "Bio Kartoffelnudel",
+   "brand": "Leitgeb's Nudelspezialitäten",
+   "price_eur": 13.4,
+   "unit_price_eur": 29.78,
+   "unit": "kg",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "kj": 747.0,
+    "kcal": 177.0,
+    "fat": 1.7,
+    "saturated_fat": 0.3,
+    "carbs": 34.0,
+    "sugar": 1.4,
+    "protein": 5.2,
+    "salt": 0.76
+   },
+   "ean": null,
+   "image_url": "https://kaerntnernudel.co.at/wp-content/uploads/2021/12/leitgeb-webshop-12.jpg",
+   "producer": "Leitgeb's Nudelspezialitäten aus dem Metnitztal GmbH, Industriestraße 18, 9360 Friesach, Kärnten (FN 62213v, UID ATU82506478)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://kaerntnernudel.co.at/produkt/bio-kartoffelnudel/",
+   "source_id": "3195",
+   "fetched_at": "2026-10-25T06:12:02+00:00",
+   "extra": {
+    "wc_id": 3195,
+    "slug": "bio-kartoffelnudel",
+    "in_stock": true,
+    "categories": [
+     "Gemüse",
+     "Vegetarisch",
+     "Bio"
+    ],
+    "ingredients": "70% Kartoffel*, Weizenmehl*, Wasser, Eier*, Pflanzenöl*, Speisesalz jodiert (Speisesalz, Kaliumjodid), Lauch*, Schnittlauch*, Petersilie*, Pfeffer* *Aus biologischer Landwirtschaft",
+    "allergens": "Eier, Gluten, Milch",
+    "pieces": 10,
+    "piece_g_approx": 45,
+    "size_note": "Packungsgewicht = Stück × ca.-Stückgewicht lt. Shop",
+    "shelf_life": "Frisch und gekühlt mind. 9 Tage Tiefgekühlt mind. 4 Monate",
+    "images": [
+     "https://kaerntnernudel.co.at/wp-content/uploads/2021/12/leitgeb-webshop-12.jpg"
+    ],
+    "price_note": "Preis je Packung inkl. 10 % MwSt. lt. WooCommerce Store API, zzgl. Versand",
+    "shipping_note": "gekühlter Versand Österreich/Deutschland Mo–Do, Produktion + Versand 2–6 Werktage nach Zahlungseingang (AGB §4); Versandkosten nur im Warenkorb angezeigt → nicht veröffentlicht"
+   }
+  },
+  {
+   "source": "leitgeb",
+   "store": "Online: Leitgeb's Kärntnernudel",
+   "name": "Kärntner Käsnudel",
+   "brand": "Leitgeb's Nudelspezialitäten",
+   "price_eur": 10.7,
+   "unit_price_eur": 23.78,
+   "unit": "kg",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "kj": 825.0,
+    "kcal": 196.0,
+    "fat": 4.9,
+    "saturated_fat": 2.2,
+    "carbs": 29.0,
+    "sugar": 2.1,
+    "protein": 7.4,
+    "salt": 1.6
+   },
+   "ean": null,
+   "image_url": "https://kaerntnernudel.co.at/wp-content/uploads/2021/12/leitgeb-webshop-21.jpg",
+   "producer": "Leitgeb's Nudelspezialitäten aus dem Metnitztal GmbH, Industriestraße 18, 9360 Friesach, Kärnten (FN 62213v, UID ATU82506478)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://kaerntnernudel.co.at/produkt/kaerntner-kaesnudel/",
+   "source_id": "3193",
+   "fetched_at": "2026-10-25T06:12:04+00:00",
+   "extra": {
+    "wc_id": 3193,
+    "slug": "kaerntner-kaesnudel",
+    "in_stock": true,
+    "categories": [
+     "Vegetarisch",
+     "Original"
+    ],
+    "ingredients": "40 % Bröseltopfen, Kartoffel, Minze, Eier, Speisesalz jodiert, Wasser, Pflanzenöl (Sonnenblumenöl und Rapsöl in veränderlichen Gewichtsanteilen), Weizenmehl, Gewürze",
+    "allergens": "Eier, Gluten, Milch",
+    "pieces": 10,
+    "piece_g_approx": 45,
+    "size_note": "Packungsgewicht = Stück × ca.-Stückgewicht lt. Shop",
+    "shelf_life": "Frisch und gekühlt mind. 9 Tage Tiefgekühlt mind. 4 Monate",
+    "images": [
+     "https://kaerntnernudel.co.at/wp-content/uploads/2021/12/leitgeb-webshop-21.jpg"
+    ],
+    "price_note": "Preis je Packung inkl. 10 % MwSt. lt. WooCommerce Store API, zzgl. Versand",
+    "shipping_note": "gekühlter Versand Österreich/Deutschland Mo–Do, Produktion + Versand 2–6 Werktage nach Zahlungseingang (AGB §4); Versandkosten nur im Warenkorb angezeigt → nicht veröffentlicht"
+   }
+  }
+ ]
+}
