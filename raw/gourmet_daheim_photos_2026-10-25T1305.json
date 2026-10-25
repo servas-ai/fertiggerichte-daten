@@ -1,0 +1,1235 @@
+{
+ "source_pdf": "https://www.mahlzeit.co.at/wp-content/uploads/2026/03/GOURMET_daheim_SPK_26_Mahlzeit_web.pdf",
+ "retrieved": "2026-10-25",
+ "method": "Daten-Squad 2026-10-25T1305: official dish photos for 'Online: GOURMET Daheim (Mahlzeit Linz)' rows.\n\nSource: the official GOURMET Daheim menu PDF 'Speisekarte 2026' published by Mahlzeit Linz\n(https://www.mahlzeit.co.at/wp-content/uploads/2026/03/GOURMET_daheim_SPK_26_Mahlzeit_web.pdf, pages 20-56).\nEach dish is printed as name, 7-digit order number ('23 02034') and the dish photo directly beneath it.\n`pdftohtml -xml` gives text and image boxes; a photo is assigned to an order number only when exactly one\nimage (>120 px) starts 0-40 pt below the number and spans its horizontal centre (127/127 unique, 0 ambiguous).\nAll 127 pairs were checked on contact sheets against the row name (vision gate passed, 0 rejected).\nPhotos are downscaled to max 480x700 JPEG and stored under images/gourmet_daheim/<art>.jpg; existing\nmahlzeit.co.at web photos (8 rows) are kept, only empty image_url cells are filled.\nUsage: python3 scripts/enrich_gourmet_photos_T1305.py /tmp/gdimg/match.json",
+ "filled": 119,
+ "rows": [
+  {
+   "art": "2313122",
+   "name": "Alt-Wiener Suppentopf",
+   "pdf_page": 21,
+   "file": "images/gourmet_daheim/2313122.jpg",
+   "sha256": "7b7bda5c2580dbbde9a35c96acf4a61b8855b585d3b37dc362d3a79e2453c686",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313467",
+   "name": "Broccolicremesuppe",
+   "pdf_page": 24,
+   "file": "images/gourmet_daheim/2313467.jpg",
+   "sha256": "c80bd8e661ed1cd923ff6736e9669a3455dc2b2eb28ca20e212b9e4063d57d71",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2302083",
+   "name": "Erdäpfelrahmsuppe nach Mühlviertler Art",
+   "pdf_page": 21,
+   "file": "images/gourmet_daheim/2302083.jpg",
+   "sha256": "0cecad53c81718b989f8fbd5270aeb24a3cb876fa1e7f10f1efd853d4a507369",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2302019",
+   "name": "Frittatensuppe",
+   "pdf_page": 22,
+   "file": "images/gourmet_daheim/2302019.jpg",
+   "sha256": "b1b442965c84dd1236c47b6d0fa465e62a62be26869c58fdeed4a2524c98f551",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313468",
+   "name": "Frühlingsgemüsesuppe",
+   "pdf_page": 23,
+   "file": "images/gourmet_daheim/2313468.jpg",
+   "sha256": "561d08fa026d2882ef1f5e07c7c8ae1ce4973f86707bee8ab8ea441b11c83926",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2302034",
+   "name": "Gebundene Gemüsesuppe",
+   "pdf_page": 21,
+   "file": "images/gourmet_daheim/2302034.jpg",
+   "sha256": "989a4411bb634c6a2615d20334b8ace4441dac086d40db1daab1078d191e5a35",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313220",
+   "name": "Gemüsesuppe mit Grießdukaten",
+   "pdf_page": 22,
+   "file": "images/gourmet_daheim/2313220.jpg",
+   "sha256": "76aa803619353bbefb7c4a440f7c3dd9f61e0d229f0a29a3c47c8018e3df05c2",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2302070",
+   "name": "Gemüsesuppe mit Kräutertropfteig",
+   "pdf_page": 23,
+   "file": "images/gourmet_daheim/2302070.jpg",
+   "sha256": "2d4f81b9025636b5dc9e19a849d7a0b627f40b0e4271bd2e222424388d1427f0",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313610",
+   "name": "Gemüsesuppe Vier Jahreszeiten",
+   "pdf_page": 24,
+   "file": "images/gourmet_daheim/2313610.jpg",
+   "sha256": "72ee2f896c6b30f6a978e850eab1d5f2a2d0584573a12a60b2b8e1cf68baa7e5",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2302017",
+   "name": "Grießnockerlsuppe",
+   "pdf_page": 20,
+   "file": "images/gourmet_daheim/2302017.jpg",
+   "sha256": "7b91bb09f74a03e7b1fcc0ae0ced47f64be21c294908329455b3e1fe0179401c",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313343",
+   "name": "Hühnereinmachsuppe mit Semmelknöderln",
+   "pdf_page": 21,
+   "file": "images/gourmet_daheim/2313343.jpg",
+   "sha256": "f0160273e5fca928f3cb9ef32efcbc3f4ab8682fb1954b5d663aed7c99004f73",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2310043",
+   "name": "Karottencremesuppe",
+   "pdf_page": 22,
+   "file": "images/gourmet_daheim/2310043.jpg",
+   "sha256": "26d9dca19982ba72ecbe2ce42906a1570a8ee5108928d02ffc90a35c5141e3ef",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313223",
+   "name": "Kräutercremesuppe",
+   "pdf_page": 22,
+   "file": "images/gourmet_daheim/2313223.jpg",
+   "sha256": "b81c872df0ffecae7d05609dd1af0463923e31ee1402e0c226177e4b419ba307",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313135",
+   "name": "Leberknödelsuppe",
+   "pdf_page": 20,
+   "file": "images/gourmet_daheim/2313135.jpg",
+   "sha256": "2a1663569d499afdcca49958f7fb0ebf983d068e9237e5090e89ae1130f5f404",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2302096",
+   "name": "Legierte Grießsuppe",
+   "pdf_page": 23,
+   "file": "images/gourmet_daheim/2302096.jpg",
+   "sha256": "c41d9251eb250fd19f89370eadc910b2276903d9998fee233d6412484bb40b6f",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2302009",
+   "name": "Nudelsuppe",
+   "pdf_page": 20,
+   "file": "images/gourmet_daheim/2302009.jpg",
+   "sha256": "e54ef10c1a2f9c76b5513e81074ca7735c0bef3d6b975f1ac5f7e3bf7f1bd388",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313134",
+   "name": "Pastinakencremesuppe",
+   "pdf_page": 23,
+   "file": "images/gourmet_daheim/2313134.jpg",
+   "sha256": "5216df000abdeea4c0ad216185f503c2d5d785c672dbd442121dbced7bc0abbf",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2310038",
+   "name": "Teigmuschelsuppe",
+   "pdf_page": 24,
+   "file": "images/gourmet_daheim/2310038.jpg",
+   "sha256": "a954d8c1d4ac54c996bc1b6cfb140d476c5fdff05f347a0c25a2322386355adb",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313502",
+   "name": "Bratwurst mit Kartoffelschmarren und Sauerkraut",
+   "pdf_page": 29,
+   "file": "images/gourmet_daheim/2313502.jpg",
+   "sha256": "d1e0315127beb2bcfe4566ce5be2ba15c949fb98e1e3194846a5f701cfe62f57",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313118",
+   "name": "Broccoli-Kartoffel-Pfanne mit Käse überbacken",
+   "pdf_page": 30,
+   "file": "images/gourmet_daheim/2313118.jpg",
+   "sha256": "3d776ae958914052b60ec3b2eb4349622ef522817992a34a1676bf2cc8489806",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2310147",
+   "name": "Cevapcici mit Letscho und Reis",
+   "pdf_page": 30,
+   "file": "images/gourmet_daheim/2310147.jpg",
+   "sha256": "439647958532788477b1560eebdc419167386eadd142541f17494ba6a6e6abf1",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313129",
+   "name": "Einmachhuhn mit Semmelknödeln",
+   "pdf_page": 29,
+   "file": "images/gourmet_daheim/2313129.jpg",
+   "sha256": "b5a21441550b70b42790c48e96fde1a64286b6411390248b213b50077f7ea744",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2302481",
+   "name": "Ennstaler Bauernknödel auf Speck-Sauerkraut",
+   "pdf_page": 28,
+   "file": "images/gourmet_daheim/2302481.jpg",
+   "sha256": "c570c784e9625caa6a2def0712e1fb92e3d9b2d57d88c7972c788635c3c54661",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2302479",
+   "name": "Faschierte Laibchen mit Salzkartoffeln und Rahmfisolen",
+   "pdf_page": 26,
+   "file": "images/gourmet_daheim/2302479.jpg",
+   "sha256": "b3fe3971a757e6f76ddf06ecc6e2d1cd3071e141e0e3c53127ceeefc657ba1f3",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2311050",
+   "name": "Faschierter Braten mit Kartoffelpüree und Erbsen",
+   "pdf_page": 27,
+   "file": "images/gourmet_daheim/2311050.jpg",
+   "sha256": "df5ae9eaca60baec1a5391aee9a02faed11a4e6cdd963e4448e1a83f1c1ec38c",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2310168",
+   "name": "Fleischbällchen in Tomatensauce mit Reis",
+   "pdf_page": 29,
+   "file": "images/gourmet_daheim/2310168.jpg",
+   "sha256": "22baa77110f9aa2b3c6d97200a268f70ef337989b4eb278e2ecf9fba7634590b",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2310204",
+   "name": "Fleischpalatschinken in Paprikarahmsauce",
+   "pdf_page": 26,
+   "file": "images/gourmet_daheim/2310204.jpg",
+   "sha256": "ed6aff3a85eecdcc1cd6cac0bd3c394f03579cecfe0d810c05fc6422adcbfb4b",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2310167",
+   "name": "Gefüllte Paprika in Tomatensauce mit Salzkartoffeln",
+   "pdf_page": 27,
+   "file": "images/gourmet_daheim/2310167.jpg",
+   "sha256": "7fdf88416bcc6bbfe5e4087df9f9778a350fe5ba131ade912f9d7e4cde5a0550",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313345",
+   "name": "Geselchtes mit Linsen und Serviettenknödel",
+   "pdf_page": 27,
+   "file": "images/gourmet_daheim/2313345.jpg",
+   "sha256": "e0113199e4f02e13bb1263cdc92adea626cb08b775d7ad9c0e948ab1b96e3069",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2310156",
+   "name": "Grammelknödel mit Gabelkraut",
+   "pdf_page": 27,
+   "file": "images/gourmet_daheim/2310156.jpg",
+   "sha256": "5d534dc1dab858db41ba3039eb973e639669a53a565fa7d5bf216fefcb1b51d4",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2310098",
+   "name": "Hühner-Cordon-bleu mit Petersilkartoffeln",
+   "pdf_page": 28,
+   "file": "images/gourmet_daheim/2310098.jpg",
+   "sha256": "5db9ed373638f85f3b7cecf25605bf39b0f40546a277fb5aab6a489a13d0745a",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2310160",
+   "name": "Kartoffelgulasch mit Waldviertler Wurst",
+   "pdf_page": 28,
+   "file": "images/gourmet_daheim/2310160.jpg",
+   "sha256": "fa692e52092e4fde593df0f929a0b667f95566daa1253020293ea27660d7c0ee",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313498",
+   "name": "Leberkäse mit Kartoffelpüree und Gustogemüse",
+   "pdf_page": 29,
+   "file": "images/gourmet_daheim/2313498.jpg",
+   "sha256": "07e09250e4caa09f0611f26c0c7c2b7168f936a434e1b11d518140f1b229e4a3",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2310174",
+   "name": "Reisfleisch serbischer Art",
+   "pdf_page": 28,
+   "file": "images/gourmet_daheim/2310174.jpg",
+   "sha256": "c3602ee610a70a2edcce8140a40d281a643403ca187e66b1cf2b5e0273bb2a8b",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313609",
+   "name": "Schweinsgulasch mit Spätzle",
+   "pdf_page": 30,
+   "file": "images/gourmet_daheim/2313609.jpg",
+   "sha256": "9d8834c5655a88c86c6e1c154b8048b7c9f0398f3be91beb90c1951fb7d49100",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2310161",
+   "name": "Szegediner Krautfleisch mit Kümmelkartoffeln",
+   "pdf_page": 26,
+   "file": "images/gourmet_daheim/2310161.jpg",
+   "sha256": "1d5470da3f2dd690f2c416973cdd6309ca104f66e44f145217e8fd75a82610f8",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313347",
+   "name": "Acht Schätze mit Basmatireis",
+   "pdf_page": 33,
+   "file": "images/gourmet_daheim/2313347.jpg",
+   "sha256": "c9d59fed7534e42f91fc207629bee5ea2d3434f8c40aa1f5e9e5c4b0c7e4161c",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2302564",
+   "name": "Ausgelöstes Backhenderl mit Risipisi",
+   "pdf_page": 33,
+   "file": "images/gourmet_daheim/2302564.jpg",
+   "sha256": "465a046580f1d033cd967086e17b79cc753adadc3eeb5b1f28eff35a7c08dc4c",
+   "vision_gate": "pass",
+   "kept_existing": true
+  },
+  {
+   "art": "2313349",
+   "name": "Faschierte Laibchen vom Huhn mit Kräuterpüree",
+   "pdf_page": 32,
+   "file": "images/gourmet_daheim/2313349.jpg",
+   "sha256": "463285f4aab0c75bd6374fc71de83c0d569cece8f04b9325decdd2f0a912cc3f",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2301562",
+   "name": "Gebackenes Hühnerschnitzel mit Kartoffeln und Gemüse",
+   "pdf_page": 31,
+   "file": "images/gourmet_daheim/2301562.jpg",
+   "sha256": "adcae0626aef5d82b9e9aaf788326c6781011750161e2365f2dc57031940a678",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2311053",
+   "name": "Gebratene Hühnerbrust mit Spätzle und Mischgemüse",
+   "pdf_page": 32,
+   "file": "images/gourmet_daheim/2311053.jpg",
+   "sha256": "91c501f74b1afd1cef031714901d66260d791f4dffd63d3ddfd4ad1dbe8e0f4d",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2310090",
+   "name": "Gebratene Hühnerkeule im Natursaft mit Reis",
+   "pdf_page": 33,
+   "file": "images/gourmet_daheim/2310090.jpg",
+   "sha256": "6a61175461aa11dcf011d250bd0b11af46537a265f373b1b8872375f31052843",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2301524",
+   "name": "Gebratene Putenbrust mit Reis und Babykarotten",
+   "pdf_page": 31,
+   "file": "images/gourmet_daheim/2301524.jpg",
+   "sha256": "78f01de05d9012828017c16ea1ece7820d82dfd9aa6a3af5998019ae0af31723",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313619",
+   "name": "Gefüllte Hühnerbrust mit Tomatenrisotto",
+   "pdf_page": 32,
+   "file": "images/gourmet_daheim/2313619.jpg",
+   "sha256": "69a21a851fc04dd5ea1cf7ac917e4c9cf57b948709289d6b62e260b1c9490411",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2302537",
+   "name": "Hühnercurry mit Basmatireis",
+   "pdf_page": 32,
+   "file": "images/gourmet_daheim/2302537.jpg",
+   "sha256": "4402f32b34e4ba2b2121719a846868f000966b53f7118c1355a1e017f83d746b",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313493",
+   "name": "Hühnerfilet in Kräutersauce mit Broccoli und Spiralen",
+   "pdf_page": 34,
+   "file": "images/gourmet_daheim/2313493.jpg",
+   "sha256": "4e86fbe5242e784ec0ab5d9268c373dd208dcbe5ce34c156013b05c5ea718c01",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313504",
+   "name": "Kebapteller vom Huhn mit Tomatenreis und Dillsauce",
+   "pdf_page": 33,
+   "file": "images/gourmet_daheim/2313504.jpg",
+   "sha256": "a02eda70e5c6cd27e9f13c37c6708af0fd4066eea7fc47e6172b0d559bcff6ad",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2301573",
+   "name": "Paprikahendlragout mit Spätzle",
+   "pdf_page": 31,
+   "file": "images/gourmet_daheim/2301573.jpg",
+   "sha256": "771ac22db8121e75513774110bd6613fd9b3ddd891e290c7ba90691a6aeebc4e",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313494",
+   "name": "Salbeihuhn - Hühnerragout mit Reis",
+   "pdf_page": 34,
+   "file": "images/gourmet_daheim/2313494.jpg",
+   "sha256": "431f79816d6db8e4bc481eca7d9bf7a463d6fb6dcf70d0eb61209d6481fc99c0",
+   "vision_gate": "pass",
+   "kept_existing": true
+  },
+  {
+   "art": "2313607",
+   "name": "Sesamhühnchen mit Jasminreis",
+   "pdf_page": 34,
+   "file": "images/gourmet_daheim/2313607.jpg",
+   "sha256": "7b1653e2b9662a59d184ae3d34939ecd4f1162b597aa8e0e750b4a08c8aef1c5",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2311066",
+   "name": "Überbackene Hühnerbrust mit Kartoffelpüree",
+   "pdf_page": 34,
+   "file": "images/gourmet_daheim/2311066.jpg",
+   "sha256": "84c66b4545ac157fc84c943163dd77a70015f25dfd529c680207d196694ac32b",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2311063",
+   "name": "Burgunder Rindsbraten mit Kroketten (enthält Alkohol)",
+   "pdf_page": 36,
+   "file": "images/gourmet_daheim/2311063.jpg",
+   "sha256": "db24d71f443bb5324d6dbd84582a7b8918b2aa215ec09bcb922e7f3fb9e9ab6a",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313348",
+   "name": "Esterhàzy Rindsbraten mit Mini-Kartoffelknödeln",
+   "pdf_page": 36,
+   "file": "images/gourmet_daheim/2313348.jpg",
+   "sha256": "72d3c2f6bbac6ebdede74a930aa8c6f4c14eb5614a90369a633de1d0494f3750",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2310049",
+   "name": "Esterhàzy Rindsgeschnetzeltes mit Hörnchen",
+   "pdf_page": 35,
+   "file": "images/gourmet_daheim/2310049.jpg",
+   "sha256": "f67ad177fbafafdf3b2e7c93c49b800d8eda693124845583030b889b08b25953",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2311049",
+   "name": "Faschierte Kalbsbutterschnitzel mit Püree und Gemüse",
+   "pdf_page": 37,
+   "file": "images/gourmet_daheim/2311049.jpg",
+   "sha256": "72bf6a749b75e19e037962642568a2f58cfc3b7b917b3c48876af4dbb77d5897",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2310082",
+   "name": "Gefüllte Kalbsbrust mit Kräuterreis",
+   "pdf_page": 38,
+   "file": "images/gourmet_daheim/2310082.jpg",
+   "sha256": "5406f48caab6b641ad3307a71be87da452ad70d0f19dec447257acbd127c9db7",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313230",
+   "name": "Kalbfleischbällchen mit Kartoffelpüree",
+   "pdf_page": 38,
+   "file": "images/gourmet_daheim/2313230.jpg",
+   "sha256": "ae4990e48fa616e89ed65532e2a26e50ab91b4649abf7281b22d3a94777f5d1a",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2310081",
+   "name": "Kalbsbraten mit Reis und Babykarotten",
+   "pdf_page": 37,
+   "file": "images/gourmet_daheim/2310081.jpg",
+   "sha256": "e1636657d54a127aeab9d6d1a31a37b3af6fbe0b76bd20ea6250e734585258e3",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2302315",
+   "name": "Kalbsrahmgulasch mit Spätzle",
+   "pdf_page": 38,
+   "file": "images/gourmet_daheim/2302315.jpg",
+   "sha256": "1334cec43304a9230520d6430c15574ebebcb189184adc551d7c78c278aec64a",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313140",
+   "name": "Rindersaftschnitzel mit Spiralen",
+   "pdf_page": 37,
+   "file": "images/gourmet_daheim/2313140.jpg",
+   "sha256": "3f7ff0473f0555bbf8714507daabf9b6a725ad67068127953170cfc028b12bc0",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313623",
+   "name": "Rindfleisch-Bulgur-Laibchen mit Püree und Speckfisolen",
+   "pdf_page": 36,
+   "file": "images/gourmet_daheim/2313623.jpg",
+   "sha256": "62fbf2e629f17240bfbce0294336660a366bb68edf3b73af01e9b4dcfb6fc7f3",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2310057",
+   "name": "Rindsgulasch mit Spätzle",
+   "pdf_page": 35,
+   "file": "images/gourmet_daheim/2310057.jpg",
+   "sha256": "63bcfc8f6e6fe9a5c442840ea7018b0cca5a5da94994c28388b0e45fbb868746",
+   "vision_gate": "pass",
+   "kept_existing": true
+  },
+  {
+   "art": "2313631",
+   "name": "Rindsroulade mit Kartoffelpüree",
+   "pdf_page": 37,
+   "file": "images/gourmet_daheim/2313631.jpg",
+   "sha256": "ad31b0a0372d9cd1e8686eb9840c376d1d4a976b86ce28ac39d04cb6afe7bdf3",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2301309",
+   "name": "Tafelspitz mit Erdäpfelschmarren und Semmelkren",
+   "pdf_page": 35,
+   "file": "images/gourmet_daheim/2301309.jpg",
+   "sha256": "bcba830d37b58b8dfc0fcb743f0024e8ea6c5cb9cb6192ee3553fad261ea4e11",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2302188",
+   "name": "Zwiebelrostbraten mit Bratkartoffeln",
+   "pdf_page": 36,
+   "file": "images/gourmet_daheim/2302188.jpg",
+   "sha256": "82dca27d001154174c2d4464d772a973e8d8c931dfde4011e1050aa036273bce",
+   "vision_gate": "pass",
+   "kept_existing": true
+  },
+  {
+   "art": "2301258",
+   "name": "Champignonrahmschnitzel mit Kräuterreis",
+   "pdf_page": 40,
+   "file": "images/gourmet_daheim/2301258.jpg",
+   "sha256": "9defe409f38e72bee419d79643d00467157c6e7a6c1b6b8860b24aac26d57b91",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313142",
+   "name": "Gebackenes Schweinsschnitzerl mit Petersilkartoffeln",
+   "pdf_page": 40,
+   "file": "images/gourmet_daheim/2313142.jpg",
+   "sha256": "b4bc69b25d014d1c948794d5752888daf4c90fe0371fd97e06c7d36db50230ca",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313616",
+   "name": "Gef. Naturschnitzel mit Tomaten-Kartoffelpüree und Gemüse",
+   "pdf_page": 41,
+   "file": "images/gourmet_daheim/2313616.jpg",
+   "sha256": "c59a94a1ee015b39ba0788c8a2cee852a54591646467a10ddabe850fd15a0da0",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313506",
+   "name": "Honigkrustenbraten mit Semmellaibchen und Sauerkraut",
+   "pdf_page": 41,
+   "file": "images/gourmet_daheim/2313506.jpg",
+   "sha256": "e7744f4b5f258552bf5451b07c9e4f0fb67866db315495cee0920d6f709fce83",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313172",
+   "name": "Mostbratl mit Erdäpfelknödeln (enthält Alkohol)",
+   "pdf_page": 39,
+   "file": "images/gourmet_daheim/2313172.jpg",
+   "sha256": "57184a5ee1ebfdb3350ea610535fb0c88600c481697254a4b93e76caddf73753",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2302246",
+   "name": "Pariser Schnitzel mit Risipisi",
+   "pdf_page": 39,
+   "file": "images/gourmet_daheim/2302246.jpg",
+   "sha256": "f2f1a73e6fa027da0ce4fcd790bb0995c109b1467ab6c799c23e9ea28d57e3ad",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313628",
+   "name": "Schweinefleisch indonesischer Art mit Sesamreis (enthält Alkohol)",
+   "pdf_page": 41,
+   "file": "images/gourmet_daheim/2313628.jpg",
+   "sha256": "f81dd07af7aac59674d418dfc91e451b97482256eae0f5ff5d9ce7da84e79fd9",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2302287",
+   "name": "Schweinsbraten mit Serviettenknödel & warmem Krautsalat",
+   "pdf_page": 41,
+   "file": "images/gourmet_daheim/2302287.jpg",
+   "sha256": "0d52137610b077a39bb7bba3e168a313a2bf827b6fada93d2e92c7a42c5c995a",
+   "vision_gate": "pass",
+   "kept_existing": true
+  },
+  {
+   "art": "2311070",
+   "name": "Schweinsmedaillons mit Rosmarinkartoffeln und buntem Gemüse",
+   "pdf_page": 40,
+   "file": "images/gourmet_daheim/2311070.jpg",
+   "sha256": "c28c06bab92087a192618f24aee9b1b61b2b552e72288378e5a208f2718d2f58",
+   "vision_gate": "pass",
+   "kept_existing": true
+  },
+  {
+   "art": "2310073",
+   "name": "Steirisches Wurzelfleisch mit Kümmelkartoffeln",
+   "pdf_page": 39,
+   "file": "images/gourmet_daheim/2310073.jpg",
+   "sha256": "e2369bfae5d0f232c80307c7d42d9a13f84b7e23b6a9a147eede53da7c8200dd",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2310072",
+   "name": "Surbraten mit Kartoffelknödel und schlampigem Kraut",
+   "pdf_page": 40,
+   "file": "images/gourmet_daheim/2310072.jpg",
+   "sha256": "71a205d0274387b051f0c1d80e8e5d495e94bdc786bc0ab4495e9bb0e1da76c9",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2301663",
+   "name": "Gebratener ASC- Lachs, Taglierini, Limonensauce & Broccoli",
+   "pdf_page": 42,
+   "file": "images/gourmet_daheim/2301663.jpg",
+   "sha256": "0cc6ad8e15fac328eff6f848ddd0aa70dada88cdc7454c576ef1d3f461bcb31c",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313127",
+   "name": "MSC-Alaska-Seelachs Müllerin mit Mischgemüse und Reis",
+   "pdf_page": 43,
+   "file": "images/gourmet_daheim/2313127.jpg",
+   "sha256": "b2eb60b62b44a6d35395f7c3a1507f81a36dab4465d9f18c0212f83d92463f91",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2310108",
+   "name": "MSC-Alaska-Seelachs gebacken mit Petersilkartoffeln",
+   "pdf_page": 43,
+   "file": "images/gourmet_daheim/2310108.jpg",
+   "sha256": "d18f7d5306e671c6e887ba4d686d8027e9d544c9d2a4830ee4e592c4433f8faf",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313226",
+   "name": "MSC-Alaska-Seelachs in Tomaten-Basilikumsauce m. Bandnudeln",
+   "pdf_page": 43,
+   "file": "images/gourmet_daheim/2313226.jpg",
+   "sha256": "1ea77f5551046761d658a09e21a7894ed7d7f9f4379864d8ed9ac0f0f150d897",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2301698",
+   "name": "MSC-Alaska-Seelachsfilet im Backteig, Gemüse und Reis",
+   "pdf_page": 42,
+   "file": "images/gourmet_daheim/2301698.jpg",
+   "sha256": "ac5252e60b66107ec5dac0cc3486c219d208f6d357ae5593377b019c26e7b22a",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313622",
+   "name": "MSC-Goldhirse-Fischli mit Petersilkartoffeln und Kräuterdip",
+   "pdf_page": 44,
+   "file": "images/gourmet_daheim/2313622.jpg",
+   "sha256": "d9bb012431d2427db60da51c5e219e4e2837795ed1814c9d0e11316029505cf1",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313252",
+   "name": "MSC-Pazifische Scholle gebacken mit Petersilkartoffeln",
+   "pdf_page": 42,
+   "file": "images/gourmet_daheim/2313252.jpg",
+   "sha256": "f1c562f613e8bdc21e9aca66aa0ee6b67a9d7596bf70abda5f2f32f764243c7e",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313524",
+   "name": "MSC-Seehechtfilet, Blattspinat, Salzkartoffeln & Tomatenjus",
+   "pdf_page": 44,
+   "file": "images/gourmet_daheim/2313524.jpg",
+   "sha256": "b9b8bda94283789d4eec08176e3a8721ef7bad22818476c5d55f1fc13a57d106",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313630",
+   "name": "MSC-Seelachs Bordelaise mit cremiger Polenta und Grillgemüse",
+   "pdf_page": 44,
+   "file": "images/gourmet_daheim/2313630.jpg",
+   "sha256": "c0a4b6796e31e79e3db5516d821ce1461785c4c75d25b30e687d89711e62d669",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313379",
+   "name": "Tagliatelle mit MSC-Räucherlachs",
+   "pdf_page": 44,
+   "file": "images/gourmet_daheim/2313379.jpg",
+   "sha256": "cae9ad190240916bd44eedaf96d0eb44a58b1a5e6074783bd2340409130d3b55",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313240",
+   "name": "Asia Nudeln mit Hühnerfleisch und Wokgemüse",
+   "pdf_page": 48,
+   "file": "images/gourmet_daheim/2313240.jpg",
+   "sha256": "8f3f3a2eb28c2f9cb9ce9947eb342e864cdf181df178e2a3c5114ccf77639c71",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313136",
+   "name": "Bunte Nudelpfanne mit Gartengemüse",
+   "pdf_page": 45,
+   "file": "images/gourmet_daheim/2313136.jpg",
+   "sha256": "14b7474bf070c5c6471431859ea1af73aa256b4c0882fb78a1ac66dc3de49324",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313366",
+   "name": "Cremige Schinkenfleckerl",
+   "pdf_page": 48,
+   "file": "images/gourmet_daheim/2313366.jpg",
+   "sha256": "6f840ba5bea4c8e3e9b05ad457fd4b35e8fe86ab231d4e5dbc29dac4bd790cdf",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2311047",
+   "name": "Eiernockerl",
+   "pdf_page": 46,
+   "file": "images/gourmet_daheim/2311047.jpg",
+   "sha256": "251d12906fc7de86a07812fc088c6c7d6f4777e9904ceb4c72cb20f3934166f1",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2310201",
+   "name": "Fleischspiralen",
+   "pdf_page": 47,
+   "file": "images/gourmet_daheim/2310201.jpg",
+   "sha256": "47a974eb876d9b5771046262f08f06d2f729b4e180dbdb21f2fcb44d6f230747",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313613",
+   "name": "Gnocchi Primavera",
+   "pdf_page": 48,
+   "file": "images/gourmet_daheim/2313613.jpg",
+   "sha256": "e92c92bc77ba830029f9388cf6da6e1adbe9d293b2148d12a4a50f9a9e0c99ac",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2310203",
+   "name": "Kasnock‘n nach Pinzgauer Art",
+   "pdf_page": 47,
+   "file": "images/gourmet_daheim/2310203.jpg",
+   "sha256": "6c26d7d74037faf91f1b7fb6df72bc37010147a7294884f0312da276c6c7a34d",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2310182",
+   "name": "Krautfleckerl",
+   "pdf_page": 47,
+   "file": "images/gourmet_daheim/2310182.jpg",
+   "sha256": "5eec60322c701ce08b2949838c6948494427b007dc392fbc64aa5fb2f933e757",
+   "vision_gate": "pass",
+   "kept_existing": true
+  },
+  {
+   "art": "2313374",
+   "name": "Mediterraner Auflauf mit Faschiertem",
+   "pdf_page": 46,
+   "file": "images/gourmet_daheim/2313374.jpg",
+   "sha256": "913054cf26221a4a692d07e8d9d4089fa5f46fdafb3d19d343dae24a8047b19d",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2302561",
+   "name": "Nudeln „Florentiner Art“ mit Hühnerstücken & Blattspinat",
+   "pdf_page": 46,
+   "file": "images/gourmet_daheim/2302561.jpg",
+   "sha256": "03d1a8e326068e3aee9a6ffc260252a6ece4f80c643294febfad6faadab61006",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2310191",
+   "name": "Rindfleischlasagne mit Tomatenragout",
+   "pdf_page": 46,
+   "file": "images/gourmet_daheim/2310191.jpg",
+   "sha256": "9225f35f8d4afbf0451ee5664f8ea576b92c60f929cba6e8fd634727aa64fe8b",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2302491",
+   "name": "Schinkenfleckerl",
+   "pdf_page": 45,
+   "file": "images/gourmet_daheim/2302491.jpg",
+   "sha256": "7b75f9c232ca70026e49e09657b452b7102016f77cb07843153ab1ac3f0b36ec",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2311059",
+   "name": "Spaghetti Bolognese",
+   "pdf_page": 47,
+   "file": "images/gourmet_daheim/2311059.jpg",
+   "sha256": "09bc48c4259e13c3b034677a66bbf02e159212a311d84d183d7599aeda83d6c3",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313552",
+   "name": "Spaghetti Carbonara",
+   "pdf_page": 45,
+   "file": "images/gourmet_daheim/2313552.jpg",
+   "sha256": "dcb737dab9e356c7f6449ea26e4013be40046fd66531837ad5ebf71953a7fe48",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2310200",
+   "name": "Tagliatelle mit Zucchiniragout",
+   "pdf_page": 48,
+   "file": "images/gourmet_daheim/2310200.jpg",
+   "sha256": "cb6bc9542f52122a82c4f6faa21e9bbdfe7cacb58088d6f8e6556bdcbc489e89",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2302457",
+   "name": "Champignonsauce mit Serviettenknödeln",
+   "pdf_page": 51,
+   "file": "images/gourmet_daheim/2302457.jpg",
+   "sha256": "ceb9f5648a40b2bbf19d81c0733a27efebb999517d30eb10d9a1752252a234a9",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2302418",
+   "name": "Frischkäse-Kartoffellaibchen mit Rotkraut",
+   "pdf_page": 50,
+   "file": "images/gourmet_daheim/2302418.jpg",
+   "sha256": "a0cf4b92086fc0ca2dad79ed1aba25da5b1829b6688337dcecd2bd37b9c96ff1",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313612",
+   "name": "Gebackenes Gemüse mit Kräuterdip",
+   "pdf_page": 49,
+   "file": "images/gourmet_daheim/2313612.jpg",
+   "sha256": "05ebfda482d892823f3e48d53330797fb245ca6d35c703ba43e9ee42968d4161",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313368",
+   "name": "Gemüsecurry mit Basmatireis",
+   "pdf_page": 49,
+   "file": "images/gourmet_daheim/2313368.jpg",
+   "sha256": "32f09d691b5f7d181fd841cc46754e627087d85559b9f858eb117ed9fe718ebf",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2310123",
+   "name": "Gemüserahmlinsen mit Serviettenknödeln",
+   "pdf_page": 50,
+   "file": "images/gourmet_daheim/2310123.jpg",
+   "sha256": "f4dea892bbb0ac6220c070a398caa2c73598724cbe12fd3532a36130d268698d",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313113",
+   "name": "Gemüsestrudel mit Petersilkartoffeln und Kräutersauce",
+   "pdf_page": 50,
+   "file": "images/gourmet_daheim/2313113.jpg",
+   "sha256": "94f9b587a327b00162136c0ea6fed86cc31559a8ee0ab8f36ada0d0d8c716283",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313423",
+   "name": "Karotten-Topfenlaibchen mit Gemüse in Kräuterrahmsauce",
+   "pdf_page": 51,
+   "file": "images/gourmet_daheim/2313423.jpg",
+   "sha256": "c58d7e7387311da44ee8fdc6ea0a549d1f08137e4ffc835535a2fd69741843be",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313614",
+   "name": "Kohlgemüse mit Kümmelkartoffeln",
+   "pdf_page": 51,
+   "file": "images/gourmet_daheim/2313614.jpg",
+   "sha256": "fbd467f5e9a19039e1a32caa4d06f89bc3f5690be3704f25189c499dbbe4c948",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313128",
+   "name": "Omelette mit Erdäpfelschmarren und Cremespinat",
+   "pdf_page": 49,
+   "file": "images/gourmet_daheim/2313128.jpg",
+   "sha256": "b6cec725f65f250b6fce011ce4876081fb5e6f3ec7ac89528e6476ee0cdea6aa",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313608",
+   "name": "Pastinaken-Kohlrabischnitzel mit Petersilkartoffeln",
+   "pdf_page": 50,
+   "file": "images/gourmet_daheim/2313608.jpg",
+   "sha256": "662aca9aec0449b73478a8987adcd679a3f33291a46310a66d9c8e3827bfce53",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2310134",
+   "name": "Rahmfisolen mit Röstinchen",
+   "pdf_page": 51,
+   "file": "images/gourmet_daheim/2310134.jpg",
+   "sha256": "882b6596f8b67c1041f86c78ddbd2cffa18462635aab60264441774c2ed1bbca",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2310207",
+   "name": "Apfelstrudel mit Vanillesauce",
+   "pdf_page": 55,
+   "file": "images/gourmet_daheim/2310207.jpg",
+   "sha256": "4ce3750987db1bebf57badfdb397bae4005b5c25159c1423e28858d620e18589",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2301928",
+   "name": "Flaumige Topfenknödel mit Erdbeermus",
+   "pdf_page": 53,
+   "file": "images/gourmet_daheim/2301928.jpg",
+   "sha256": "594179dff0928523e29cff0826cc9cb9c3d1c5ddde1134e64515965203e0cf04",
+   "vision_gate": "pass",
+   "kept_existing": true
+  },
+  {
+   "art": "2313357",
+   "name": "Gebackene Apfelringe mit Zimtzucker und Vanillesauce",
+   "pdf_page": 56,
+   "file": "images/gourmet_daheim/2313357.jpg",
+   "sha256": "f53f1a421219c6ec00c593fb2a331f437b48e69387f967156cfd792be565f18b",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2310213",
+   "name": "Grießflammerienockerl mit Beerenröster",
+   "pdf_page": 54,
+   "file": "images/gourmet_daheim/2310213.jpg",
+   "sha256": "a9aa56a139801f9b89a54eac20a5914652fabf61a8fd4536dcb122d29f5e62f2",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2301907",
+   "name": "Gschupfte Mohnnudeln mit Apfelmus",
+   "pdf_page": 53,
+   "file": "images/gourmet_daheim/2301907.jpg",
+   "sha256": "6c93e10d7cbdbb45c6e0e00aaaf1b4c70308d7d3c958602f4152c09aaa78b473",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2310235",
+   "name": "Kaiserschmarren mit Zwetschkenröster",
+   "pdf_page": 55,
+   "file": "images/gourmet_daheim/2310235.jpg",
+   "sha256": "35059f68d7c10b42b73b905f4c719258b8739669dc29be43bb54fd39767f0f63",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2301940",
+   "name": "Marillenpalatschinken",
+   "pdf_page": 53,
+   "file": "images/gourmet_daheim/2301940.jpg",
+   "sha256": "7e124242d2e0018033de401ecd5dc14a9ac25237065f96c26233d448d7f36b6b",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313364",
+   "name": "Milchreis mit Beerenröster (mit Süßungsmittel)",
+   "pdf_page": 54,
+   "file": "images/gourmet_daheim/2313364.jpg",
+   "sha256": "5d722538d1547b91975aef3fe99f36972ffc8035490fa21bfac2239e90dffc3a",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2301908",
+   "name": "Pfirsichpalatschinken mit Topfenfülle (mit Süßungsmittel)",
+   "pdf_page": 56,
+   "file": "images/gourmet_daheim/2301908.jpg",
+   "sha256": "976fa2863d020e82f8a0efe2ff5ee72db050a8dcd3bfd31920d62c3c96594f2f",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313522",
+   "name": "Powidltaler mit Apfelmus",
+   "pdf_page": 56,
+   "file": "images/gourmet_daheim/2313522.jpg",
+   "sha256": "8950bead1c52f279923e785bfdf6b617706105d95a7098f1b4765681b0272f7b",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2301959",
+   "name": "Reisauflauf mit Apfelkompott (mit Süßungsmittel)",
+   "pdf_page": 55,
+   "file": "images/gourmet_daheim/2301959.jpg",
+   "sha256": "e5b410fc044956bb6de8739095428b29841494bcc85464073074e525845a6ddb",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313233",
+   "name": "Scheiterhaufen mit Vanillesauce (mit Süßungsmittel)",
+   "pdf_page": 54,
+   "file": "images/gourmet_daheim/2313233.jpg",
+   "sha256": "00a9cbe721706548596eafaef39aea9ae62a5dcf4ada7eef34f685b0fb557bcd",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2313629",
+   "name": "Topfenauflauf mit Heidelbeerragout",
+   "pdf_page": 56,
+   "file": "images/gourmet_daheim/2313629.jpg",
+   "sha256": "695d62f2ca93d9406e4c0038f2403159875a88d098fb371b0f961b6584c03d0b",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2310348",
+   "name": "Apfelstrudel mit Vanillesauce",
+   "photo": null,
+   "reason": "dish not shown with a photo in the Speisekarte PDF"
+  },
+  {
+   "art": "2313501",
+   "name": "Brathuhn mit Pommes",
+   "photo": null,
+   "reason": "dish not shown with a photo in the Speisekarte PDF"
+  },
+  {
+   "art": "2313624",
+   "name": "Champignonrahmschnitzel mit Risipisi",
+   "photo": null,
+   "reason": "dish not shown with a photo in the Speisekarte PDF"
+  },
+  {
+   "art": "2313617",
+   "name": "Cremespinat mit Kartoffelschmarren",
+   "photo": null,
+   "reason": "dish not shown with a photo in the Speisekarte PDF"
+  },
+  {
+   "art": "2310346",
+   "name": "Faschierte Laibchen mit Kartoffel-Erbsen-Püree",
+   "photo": null,
+   "reason": "dish not shown with a photo in the Speisekarte PDF"
+  },
+  {
+   "art": "2310345",
+   "name": "Hühnerbrustfilet in Tomatensauce mit Püree",
+   "photo": null,
+   "reason": "dish not shown with a photo in the Speisekarte PDF"
+  },
+  {
+   "art": "2310273",
+   "name": "Hühnerschnitzel in Zwiebelsauce mit Püree",
+   "photo": null,
+   "reason": "dish not shown with a photo in the Speisekarte PDF"
+  },
+  {
+   "art": "2313235",
+   "name": "Kaiserschmarren mit Zwetschkenröster",
+   "photo": null,
+   "reason": "dish not shown with a photo in the Speisekarte PDF"
+  },
+  {
+   "art": "2313231",
+   "name": "Kalbsbutterschnitzel, Broccoli, Tomaten-Kartoffelpüree",
+   "photo": null,
+   "reason": "dish not shown with a photo in the Speisekarte PDF"
+  },
+  {
+   "art": "2313618",
+   "name": "Krautfleisch mit Kümmelkartoffeln",
+   "photo": null,
+   "reason": "dish not shown with a photo in the Speisekarte PDF"
+  },
+  {
+   "art": "2310279",
+   "name": "Matrosenfleisch mit Wurzelgemüse und Püree",
+   "photo": null,
+   "reason": "dish not shown with a photo in the Speisekarte PDF"
+  },
+  {
+   "art": "2310274",
+   "name": "Rahmfisolen mit Kartoffelpüree",
+   "photo": null,
+   "reason": "dish not shown with a photo in the Speisekarte PDF"
+  },
+  {
+   "art": "2310277",
+   "name": "Rindsgeschnetzeltes mit Gemüse und Püree",
+   "photo": null,
+   "reason": "dish not shown with a photo in the Speisekarte PDF"
+  },
+  {
+   "art": "2313253",
+   "name": "Schweinsbraten mit Sauerkraut und Semmelknödel",
+   "photo": null,
+   "reason": "dish not shown with a photo in the Speisekarte PDF"
+  },
+  {
+   "art": "2313225",
+   "name": "Topfenpalatschinken mit Vanillesauce (mit Süßungsmittel)",
+   "pdf_page": 55,
+   "file": "images/gourmet_daheim/2313225.jpg",
+   "sha256": "10e4de936638a457805bfaaf885a281222de30c89aaef5f983ddbf0fb9de82aa",
+   "vision_gate": "pass",
+   "kept_existing": false
+  },
+  {
+   "art": "2302976",
+   "name": "Topfenschmarren mit Marillenröster (mit Süßungsmittel)",
+   "pdf_page": 54,
+   "file": "images/gourmet_daheim/2302976.jpg",
+   "sha256": "660f0f8ff32eee6b51ebae2904fa29a196d5d36f4b9b64b7ab90811845f8ce46",
+   "vision_gate": "pass",
+   "kept_existing": false
+  }
+ ]
+}
