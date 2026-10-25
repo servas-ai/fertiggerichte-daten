@@ -74,3 +74,15 @@ No file staged (0 new rows). Fresh fetches of billa, dm, mpreis-shop, juit, loew
 - Deduped against data.json (EAN, URL, normalized name and SPAR article id in raw JSON), all staged_*.json and fertiggerichte-daten online_mealprep.csv. Most SPAR "new" names were renamed duplicates of existing rows (Inzersdorfer soups, Johanna Maier Tomatensuppe/Topfen-Spätzle, Asia Noodles).
 - Skipped: SPAR PREMIUM Ravioli Bufala (fresh pasta, raw), hummus, baguettes, Blätterteig, Eierspätzle, Kokosflocken; Gurkerl 8 (sides, sauces, meat components, all rejected before); bofrost Putenrolle, Rotkrautknödel, chocolates. Lidl returned 0 products; myproduct timed out again after 300 s at --limit 80.
 - Goal of 20 not reached: live connector sources stay exhausted; new rows come from new stores (Daten-Squad).
+
+### hourly 2026-10-25T00
+
+| file | source | rows | tags | status |
+|---|---|---|---|---|
+| staged_2026-10-25T00.json | Alfies (food-connectors `alfies`, --limit 30) | 4 | meal 2, soup 2 | open |
+
+- Rows: Iglo Paprikahuhn mit Spiralen 350 g 5,99 € (TK), Iglo Risibisi mit Huhn 330 g 3,99 € (TK; BILLA has it as "Iglo Tagesteller Risibisi mit Huhn"), Knorr Bitte zu Tisch Nudelsuppe 1,19 € (BILLA has the same product), Knorr Kaiser Teller Frittatensuppe 1,69 €. All store-specific Alfies rows with shop photo and nutrition per 100 g as published by alfies.at; no GTIN; size_g null for the two Knorr soups.
+- Deduped against data.json, all staged_*.json and fertiggerichte-daten online_mealprep.csv by EAN, URL and store+normalized name.
+- Skipped: Land Leben Frittaten (soup insert, component); Nah&Frisch weekly offers iglo Mehlspeistraum Süße Knödel and Knorr Bitte zu Tisch Suppen (multi-variety offer tiles, no size; price OCR partly unreadable) and Goldaugen Suppenwürfel (soup base); PrepMyMeal 32 "new" are bundles, sets, Body-Challenge passes, Müsli and Whey, plus a renamed URL of the existing Hähnchen im Kokosmantel.
+- 0 new from biohof-achleitner (13), steiramarkt (22), livefresh (10); heisse-preise returned 0; myproduct --limit 30 finished but had 0 new; alfies and myproduct time out at --limit 300 (240 s), so keep small limits.
+- Goal of 20 not reached: live connector sources stay exhausted; new rows keep coming from new online stores (Daten-Squad, e.g. Deflorian 27 rows added directly to online_mealprep.csv at 2026-10-25T0006).
