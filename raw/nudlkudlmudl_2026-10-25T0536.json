@@ -1,0 +1,284 @@
+{
+ "source": "https://www.nudlkudlmudl.com/onlineshop/ (Jimdo, schema.org Product microdata; 1 request)",
+ "fetched": "2026-10-25T0536",
+ "operator": "Martina's Nudlkudlmudl (Martina Hinteregger, Radenthein Ktn)",
+ "vies": "no UID published → not checkable",
+ "gleif": "legalName 'Hinteregger' → 18 records (e.g. Hinteregger Handelsges.m.b.H. Wernberg, Abschleppdienst Hinteregger GmbH Krumpendorf), none in Radenthein / for Martina Hinteregger; fuzzy 'Nudlkudlmudl' → 0 → no LEI",
+ "impressum": "https://www.nudlkudlmudl.com/about/ (Anbieter: Martina Hinteregger, Hauptstrasse 28, 9545 Radenthein, Tel. 0699 11929024; no FN, no UID)",
+ "ama": "footer: 'Seit August 2022 sind wir nun eine AMA Zertifizierte Nudelmanufaktur'",
+ "robots": "User-agent: * Disallow: /app/ /j/ (Allow /app/module/webproduct/goto/), Crawl-Delay 5 → /onlineshop/ allowed, /j/shop/info not read",
+ "shipping": "Post Frischeversand nur innerhalb Österreichs, Thermokarton mit Kühlpads, 7–10 Tage nach Zahlungseingang; versandkostenfrei ab 100 €; Versandkosten = Post-Tarif 1:1 (lt. Shop seit 1.1.2026 19,90 € je Paket inkl. Box-Rückversand); Betrag im Shop-Checkout",
+ "photo_vision_gate": "7/7 PASS",
+ "all_shop_products": [
+  {
+   "name": "BAERLAUCHNUDELN Frühlingsboten SAISONALES SCHMANKERL",
+   "price": 12.9,
+   "in_stock": false,
+   "size_g": 600.0
+  },
+  {
+   "name": "Kärntner Kasnudel",
+   "price": 12.9,
+   "in_stock": true,
+   "size_g": 600.0
+  },
+  {
+   "name": "Kärntner Fleischnudel ( Schweinsbratennudel )",
+   "price": 13.9,
+   "in_stock": true,
+   "size_g": 600.0
+  },
+  {
+   "name": "Kärntner Erdäpfelnudel",
+   "price": 12.9,
+   "in_stock": true,
+   "size_g": 600.0
+  },
+  {
+   "name": "Tomate-Mozzarella Nudel",
+   "price": 12.9,
+   "in_stock": true,
+   "size_g": 600.0
+  },
+  {
+   "name": "Spinatnudel",
+   "price": 12.9,
+   "in_stock": true,
+   "size_g": 600.0
+  },
+  {
+   "name": "Kärntner Kletzennudel",
+   "price": 12.9,
+   "in_stock": true,
+   "size_g": 600.0
+  },
+  {
+   "name": "Kärntner Schweinsbraten (Bauch und Schopf) Essfertig",
+   "price": 6.0,
+   "in_stock": true,
+   "size_g": 250.0
+  },
+  {
+   "name": "Bratlfett Hausgemacht",
+   "price": 5.0,
+   "in_stock": true,
+   "size_g": null
+  },
+  {
+   "name": "Oma`s Glasl Kuchl Sugo Bolognese",
+   "price": 10.0,
+   "in_stock": true,
+   "size_g": 500.0
+  }
+ ],
+ "excluded": [
+  "Kärntner Kletzennudel (sweet, Dörrbirne/Honig/Rum)",
+  "Bratlfett Hausgemacht (spread)",
+  "Oma`s Glasl Kuchl Sugo Bolognese (pasta sauce)"
+ ],
+ "kept": [
+  {
+   "source": "nudlkudlmudl",
+   "store": "Online: Martina's Nudlkudlmudl",
+   "name": "BAERLAUCHNUDELN Frühlingsboten SAISONALES SCHMANKERL",
+   "brand": "Martina's Nudlkudlmudl",
+   "price_eur": 12.9,
+   "unit_price_eur": 21.5,
+   "unit": "kg",
+   "size_g": 600.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s12cc18a820d0bc1d/image/ib23066b1094c74dc/version/1741614638/image.jpg",
+   "producer": "Martina's Nudlkudlmudl (Martina Hinteregger), Hauptstrasse 28, 9545 Radenthein, Kärnten",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.nudlkudlmudl.com/onlineshop/",
+   "source_id": "baerlauchnudeln-fruehlingsboten-saisonales-schmankerl",
+   "fetched_at": "2026-10-25T05:39:05+00:00",
+   "extra": {
+    "jimdo_module": "8554517663",
+    "product_url": "https://www.nudlkudlmudl.com/app/module/webproduct/goto/m/mf96c3772c2ba0302",
+    "in_stock": false,
+    "menge": "1 Packung=5 Stk. handgekrendelte Faustnudeln, 600 Gramm",
+    "ingredients": "Kärntner Erdäpfel, frischer Bärlauch, Röstzwiebel und Gewürze TEIG: Weizenmehl , Ei , Pflanzenöl, Wasser, Salz",
+    "price_note": "Preis je Packung inkl. MwSt lt. Onlineshop (schema.org Offer)",
+    "shipping_note": "Post Frischeversand nur innerhalb Österreichs, Thermokarton mit Kühlpads, 7–10 Tage nach Zahlungseingang; versandkostenfrei ab 100 €; Versandkosten = Post-Tarif 1:1 (lt. Shop seit 1.1.2026 19,90 € je Paket inkl. Box-Rückversand); Betrag im Shop-Checkout"
+   }
+  },
+  {
+   "source": "nudlkudlmudl",
+   "store": "Online: Martina's Nudlkudlmudl",
+   "name": "Kärntner Kasnudel",
+   "brand": "Martina's Nudlkudlmudl",
+   "price_eur": 12.9,
+   "unit_price_eur": 21.5,
+   "unit": "kg",
+   "size_g": 600.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s12cc18a820d0bc1d/image/i0fbf0e60f81f6f65/version/1715791862/image.jpg",
+   "producer": "Martina's Nudlkudlmudl (Martina Hinteregger), Hauptstrasse 28, 9545 Radenthein, Kärnten",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.nudlkudlmudl.com/onlineshop/",
+   "source_id": "kaerntner-kasnudel",
+   "fetched_at": "2026-10-25T05:39:05+00:00",
+   "extra": {
+    "jimdo_module": "8458015763",
+    "product_url": "https://www.nudlkudlmudl.com/app/module/webproduct/goto/m/m8bf09f4e4607eaa3",
+    "in_stock": true,
+    "menge": "1 Packung= 5 stk. handgekrendelte Faustnudel, 600 Gramm",
+    "ingredients": "Bio Heumilchtopfen , Kärntner Erdäpfel, Röstzwiebel, Gewürze, Teig: Weizenmehl , Ei, Öl, Wasser, Salz",
+    "price_note": "Preis je Packung inkl. MwSt lt. Onlineshop (schema.org Offer)",
+    "shipping_note": "Post Frischeversand nur innerhalb Österreichs, Thermokarton mit Kühlpads, 7–10 Tage nach Zahlungseingang; versandkostenfrei ab 100 €; Versandkosten = Post-Tarif 1:1 (lt. Shop seit 1.1.2026 19,90 € je Paket inkl. Box-Rückversand); Betrag im Shop-Checkout"
+   }
+  },
+  {
+   "source": "nudlkudlmudl",
+   "store": "Online: Martina's Nudlkudlmudl",
+   "name": "Kärntner Fleischnudel ( Schweinsbratennudel )",
+   "brand": "Martina's Nudlkudlmudl",
+   "price_eur": 13.9,
+   "unit_price_eur": 23.17,
+   "unit": "kg",
+   "size_g": 600.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://image.jimcdn.com/app/cms/image/transf/dimension=1820x1280:format=jpg/path/s12cc18a820d0bc1d/image/id392d4e4d3337a6a/version/1683908181/image.jpg",
+   "producer": "Martina's Nudlkudlmudl (Martina Hinteregger), Hauptstrasse 28, 9545 Radenthein, Kärnten",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.nudlkudlmudl.com/onlineshop/",
+   "source_id": "kaerntner-fleischnudel-schweinsbratennudel",
+   "fetched_at": "2026-10-25T05:39:05+00:00",
+   "extra": {
+    "jimdo_module": "8458020563",
+    "product_url": "https://www.nudlkudlmudl.com/app/module/webproduct/goto/m/md723915ae0d21261",
+    "in_stock": true,
+    "menge": "1 Packung= 5 Stk. handgekrendelte Faustnudel, 600 Gramm",
+    "ingredients": "Schweinebauch, Schweineschopf, Selchroller, Zwiebel, Senf , Gewürze Teig: Wasser, Weizenmehl, Ei , Öl, Salz",
+    "price_note": "Preis je Packung inkl. MwSt lt. Onlineshop (schema.org Offer)",
+    "shipping_note": "Post Frischeversand nur innerhalb Österreichs, Thermokarton mit Kühlpads, 7–10 Tage nach Zahlungseingang; versandkostenfrei ab 100 €; Versandkosten = Post-Tarif 1:1 (lt. Shop seit 1.1.2026 19,90 € je Paket inkl. Box-Rückversand); Betrag im Shop-Checkout"
+   }
+  },
+  {
+   "source": "nudlkudlmudl",
+   "store": "Online: Martina's Nudlkudlmudl",
+   "name": "Kärntner Erdäpfelnudel",
+   "brand": "Martina's Nudlkudlmudl",
+   "price_eur": 12.9,
+   "unit_price_eur": 21.5,
+   "unit": "kg",
+   "size_g": 600.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://image.jimcdn.com/app/cms/image/transf/dimension=1820x1280:format=jpg/path/s12cc18a820d0bc1d/image/ia49fc50940602843/version/1683908403/image.jpg",
+   "producer": "Martina's Nudlkudlmudl (Martina Hinteregger), Hauptstrasse 28, 9545 Radenthein, Kärnten",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.nudlkudlmudl.com/onlineshop/",
+   "source_id": "kaerntner-erdaepfelnudel",
+   "fetched_at": "2026-10-25T05:39:05+00:00",
+   "extra": {
+    "jimdo_module": "8458024563",
+    "product_url": "https://www.nudlkudlmudl.com/app/module/webproduct/goto/m/m3f10643160bba969",
+    "in_stock": true,
+    "menge": "1 Packung = 5 stk. Handgekrendelte Faustnudel, 600 Gramm",
+    "ingredients": "Teig : Wasser , Weizenmehl , Ei , Öl , Salz Fülle : Kärntner Erdäpfel, Röstzwiebel, Gewürze und Kräuter",
+    "price_note": "Preis je Packung inkl. MwSt lt. Onlineshop (schema.org Offer)",
+    "shipping_note": "Post Frischeversand nur innerhalb Österreichs, Thermokarton mit Kühlpads, 7–10 Tage nach Zahlungseingang; versandkostenfrei ab 100 €; Versandkosten = Post-Tarif 1:1 (lt. Shop seit 1.1.2026 19,90 € je Paket inkl. Box-Rückversand); Betrag im Shop-Checkout"
+   }
+  },
+  {
+   "source": "nudlkudlmudl",
+   "store": "Online: Martina's Nudlkudlmudl",
+   "name": "Tomate-Mozzarella Nudel",
+   "brand": "Martina's Nudlkudlmudl",
+   "price_eur": 12.9,
+   "unit_price_eur": 21.5,
+   "unit": "kg",
+   "size_g": 600.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://image.jimcdn.com/app/cms/image/transf/dimension=1820x1280:format=jpg/path/s12cc18a820d0bc1d/image/i0e097edb6a42aca0/version/1684159771/image.jpg",
+   "producer": "Martina's Nudlkudlmudl (Martina Hinteregger), Hauptstrasse 28, 9545 Radenthein, Kärnten",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.nudlkudlmudl.com/onlineshop/",
+   "source_id": "tomate-mozzarella-nudel",
+   "fetched_at": "2026-10-25T05:39:05+00:00",
+   "extra": {
+    "jimdo_module": "8458379763",
+    "product_url": "https://www.nudlkudlmudl.com/app/module/webproduct/goto/m/mcd57b275e8b076c0",
+    "in_stock": true,
+    "menge": "1 Packung = 5 Stk. handgekrendelte Faustnudel, 600 Gramm",
+    "ingredients": "Teig: Wasser, Weizenmehl, Ei , Öl, Fülle: Bioheumilchtopfen , Kärntner Erdäpfel, Mozzarella , frische Tomaten, Olivenöl, Knoblauch, Kräuter und Gewürze",
+    "price_note": "Preis je Packung inkl. MwSt lt. Onlineshop (schema.org Offer)",
+    "shipping_note": "Post Frischeversand nur innerhalb Österreichs, Thermokarton mit Kühlpads, 7–10 Tage nach Zahlungseingang; versandkostenfrei ab 100 €; Versandkosten = Post-Tarif 1:1 (lt. Shop seit 1.1.2026 19,90 € je Paket inkl. Box-Rückversand); Betrag im Shop-Checkout"
+   }
+  },
+  {
+   "source": "nudlkudlmudl",
+   "store": "Online: Martina's Nudlkudlmudl",
+   "name": "Spinatnudel",
+   "brand": "Martina's Nudlkudlmudl",
+   "price_eur": 12.9,
+   "unit_price_eur": 21.5,
+   "unit": "kg",
+   "size_g": 600.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://image.jimcdn.com/app/cms/image/transf/dimension=1820x1280:format=jpg/path/s12cc18a820d0bc1d/image/i2a06a20c62ecb6fb/version/1684160176/image.jpg",
+   "producer": "Martina's Nudlkudlmudl (Martina Hinteregger), Hauptstrasse 28, 9545 Radenthein, Kärnten",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.nudlkudlmudl.com/onlineshop/",
+   "source_id": "spinatnudel",
+   "fetched_at": "2026-10-25T05:39:05+00:00",
+   "extra": {
+    "jimdo_module": "8458381563",
+    "product_url": "https://www.nudlkudlmudl.com/app/module/webproduct/goto/m/m9109fa23bc10c0c2",
+    "in_stock": true,
+    "menge": "1 Packung = 5 Stk. handgekrendelte Faustnudel, 600 Gramm",
+    "ingredients": "Bio Heumilchtopfen , Kartoffel, Blattspinat, Mozzarella, Österkron , Röstzwiebel, Gewürze, Knoblauch Teig: Wasser, Weizenmehl, Ei , Öl, Salz",
+    "price_note": "Preis je Packung inkl. MwSt lt. Onlineshop (schema.org Offer)",
+    "shipping_note": "Post Frischeversand nur innerhalb Österreichs, Thermokarton mit Kühlpads, 7–10 Tage nach Zahlungseingang; versandkostenfrei ab 100 €; Versandkosten = Post-Tarif 1:1 (lt. Shop seit 1.1.2026 19,90 € je Paket inkl. Box-Rückversand); Betrag im Shop-Checkout"
+   }
+  },
+  {
+   "source": "nudlkudlmudl",
+   "store": "Online: Martina's Nudlkudlmudl",
+   "name": "Kärntner Schweinsbraten (Bauch und Schopf) Essfertig",
+   "brand": "Martina's Nudlkudlmudl",
+   "price_eur": 6.0,
+   "unit_price_eur": 24.0,
+   "unit": "kg",
+   "size_g": 250.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://image.jimcdn.com/app/cms/image/transf/none/path/s12cc18a820d0bc1d/image/ic77f133bf80706c9/version/1716533846/image.jpg",
+   "producer": "Martina's Nudlkudlmudl (Martina Hinteregger), Hauptstrasse 28, 9545 Radenthein, Kärnten",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.nudlkudlmudl.com/onlineshop/",
+   "source_id": "kaerntner-schweinsbraten-bauch-und-schopf-essfertig",
+   "fetched_at": "2026-10-25T05:39:05+00:00",
+   "extra": {
+    "jimdo_module": "8514473963",
+    "product_url": "https://www.nudlkudlmudl.com/app/module/webproduct/goto/m/m7beb92c9ac7b1e4a",
+    "in_stock": true,
+    "menge": null,
+    "ingredients": "Schweinefleisch, Gewürze, Schweinefett, Senf",
+    "price_note": "Preis je Packung inkl. MwSt lt. Onlineshop (schema.org Offer)",
+    "shipping_note": "Post Frischeversand nur innerhalb Österreichs, Thermokarton mit Kühlpads, 7–10 Tage nach Zahlungseingang; versandkostenfrei ab 100 €; Versandkosten = Post-Tarif 1:1 (lt. Shop seit 1.1.2026 19,90 € je Paket inkl. Box-Rückversand); Betrag im Shop-Checkout"
+   }
+  }
+ ]
+}
