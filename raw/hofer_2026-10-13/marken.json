@@ -1,0 +1,332 @@
+{
+ "https://www.hofer.at/marken/almare": {
+  "total": 8,
+  "urls": [
+   "/produkt/almare-seafood-asc-stremellachs-natur-000000000114157003",
+   "/produkt/almare-seafood-asc-stremellachs-pfeffer-000000000114157002",
+   "/produkt/almare-seafood-garnelen-sortiment-eismeergarnelen-000000000580827001",
+   "/produkt/almare-seafood-garnelen-sortiment-party-crevetten-000000000580827002",
+   "/produkt/almare-seafood-garnelen-sortiment-party-garnelen-000000000580827003",
+   "/produkt/almare-seafood-lachsforelle-geraeuchert-000000000000106870",
+   "/produkt/almare-seafood-regenbogen-forellenfilet-natur-000000000113828003",
+   "/produkt/almare-seafood-regenbogen-forellenfilet-pfeffer-000000000113828002"
+  ]
+ },
+ "https://www.hofer.at/marken/backbox": {
+  "total": 35,
+  "urls": [
+   "/produkt/backbox-butter-croissant-000000000000187441",
+   "/produkt/backbox-butter-topfengolatsche-000000000000100835",
+   "/produkt/backbox-fitness-aehre-000000000000177329",
+   "/produkt/backbox-gipfelstuermerbrot-000000000000294696",
+   "/produkt/backbox-hausbrot-000000000000101696",
+   "/produkt/backbox-helles-dinkelkrusterl-000000000000307328",
+   "/produkt/backbox-jumbo-baguette-000000000000101635",
+   "/produkt/backbox-kaese-laugenzopf-000000000000101793",
+   "/produkt/backbox-kaesekrainer-im-wurzelbrotteig-000000000000101503",
+   "/produkt/backbox-kaesestangerl-000000000000555607",
+   "/produkt/backbox-kaisersemmel-000000000000100932",
+   "/produkt/backbox-karottenbrot-000000000000775859",
+   "/produkt/backbox-kartoffelweckerl-000000000000524007",
+   "/produkt/backbox-krustenbrot-000000000000100955",
+   "/produkt/backbox-laugenbrezel-000000000000100792",
+   "/produkt/backbox-laugenstangerl-000000000000100781",
+   "/produkt/backbox-marillenkrapfen-000000000000101094",
+   "/produkt/backbox-mohnflesserl-000000000000757594",
+   "/produkt/backbox-nussbaguette-000000000000101659",
+   "/produkt/backbox-panino-al-formaggio-000000000000740659",
+   "/produkt/backbox-pizza-salami-000000000000769087",
+   "/produkt/backbox-pizzaschnecke-000000000000101691",
+   "/produkt/backbox-proteinweckerl-000000000000101603",
+   "/produkt/backbox-rettenswert-kartoffelbrot-000000000000762100",
+   "/produkt/backbox-rustikales-landbaguette-000000000000712760",
+   "/produkt/backbox-salz-knusperstangerl-000000000000101009",
+   "/produkt/backbox-schinken-kaese-stangerl-000000000000101180",
+   "/produkt/backbox-schokoladen-donut-000000000000634519",
+   "/produkt/backbox-sonnenblumenbrot-000000000000100879",
+   "/produkt/backbox-topfenkornweckerl-000000000000571565",
+   "/produkt/backbox-toskanabrot-000000000000101698",
+   "/produkt/backbox-vanille-donut-000000000000632677",
+   "/produkt/backbox-vanille-nougat-hoernchen-000000000000751736",
+   "/produkt/backbox-vegetarisches-pizzaweckerl-000000000000100930",
+   "/produkt/backbox-zuckerreinkerl-000000000000100844"
+  ]
+ },
+ "https://www.hofer.at/marken/barissimo": {
+  "total": 1,
+  "urls": [
+   "/produkt/barissimo-pumpkin-spice-latte-000000000000568473"
+  ]
+ },
+ "https://www.hofer.at/marken/bio": {
+  "total": 13,
+  "urls": [
+   "/produkt/bio-backartikel-backpulver-mit-reinweinstein-000000000512799003",
+   "/produkt/bio-bio-agavendicksaft-000000000000683202",
+   "/produkt/bio-bio-knusperriegel-erdnuss-000000000623805001",
+   "/produkt/bio-bio-knusperriegel-kirsch-mandel-000000000623805002",
+   "/produkt/bio-bio-knusperriegel-sesam-000000000623805004",
+   "/produkt/bio-frisches-bio-lachsfilet-000000000000635479",
+   "/produkt/bio-griechische-oliven-gefuellt-knoblauch-000000000307965001",
+   "/produkt/bio-griechische-oliven-gefuellt-mandel-000000000307965002",
+   "/produkt/bio-griechische-oliven-gefuellt-paprika-000000000307965003",
+   "/produkt/bio-raeucherlachs-000000000000634004",
+   "/produkt/bio-vollkorn-lebkuchen-apfel-zimt-000000000112961002",
+   "/produkt/bio-vollkorn-lebkuchen-dinkel-000000000112961001",
+   "/produkt/bio-wildpreiselbeeren-000000000000505659"
+  ]
+ },
+ "https://www.hofer.at/marken/cachet": {
+  "total": 2,
+  "urls": [
+   "/produkt/cachet-halloween-katzenkratzhaus-000000000000735564",
+   "/produkt/cachet-xxl-basic-katzenfutter-000000000000728946"
+  ]
+ },
+ "https://www.hofer.at/marken/choceur": {
+  "total": 5,
+  "urls": [
+   "/produkt/choceur-gefriergetrocknete-fruechte-erdbeere-in-milchschokolade-000000000749600001",
+   "/produkt/choceur-gefriergetrocknete-fruechte-himbeere-in-milch-weisse-schokolade-000000000749600003",
+   "/produkt/choceur-winterriegel-apfel-000000000113579003",
+   "/produkt/choceur-winterriegel-kipferl-000000000113579002",
+   "/produkt/choceur-winterriegel-spekulatius-000000000113579004"
+  ]
+ },
+ "https://www.hofer.at/marken/cucina": {
+  "total": 4,
+  "urls": [
+   "/produkt/cucina-mascarpone-000000000000667546",
+   "/produkt/cucina-minis-000000000277841002",
+   "/produkt/cucina-prociutto-crudo-edelschinken-000000000490856002",
+   "/produkt/cucina-prociutto-crudo-prociutto-crudo-000000000490856001"
+  ]
+ },
+ "https://www.hofer.at/marken/fairhof": {
+  "total": 20,
+  "urls": [
+   "/produkt/fairhof-beinschinken-000000000169124001",
+   "/produkt/fairhof-chicken-wings-000000000000174857",
+   "/produkt/fairhof-faschiertes-gemischt-000000000000538979",
+   "/produkt/fairhof-kaiserschnitzel-000000000464185002",
+   "/produkt/fairhof-karreeschnitzel-000000000464185001",
+   "/produkt/fairhof-laenger-frisch-vollmilch-000000000000109155",
+   "/produkt/fairhof-maishendl-filetschnitzel-000000000500270001",
+   "/produkt/fairhof-maishendl-geschnetzeltes-000000000500264001",
+   "/produkt/fairhof-maishendl-innenfilets-000000000000702413",
+   "/produkt/fairhof-maishendl-ministeaks-000000000500270002",
+   "/produkt/fairhof-maishendl-mit-innereien-000000000000174767",
+   "/produkt/fairhof-maishendl-oberkeulen-000000000000594221",
+   "/produkt/fairhof-maishendl-oberkeulenschnitzel-000000000500264002",
+   "/produkt/fairhof-maishendl-unterkeulen-gewuerzt-000000000595022002",
+   "/produkt/fairhof-maishendl-unterkeulen-natur-000000000595022001",
+   "/produkt/fairhof-maishendlfilet-000000000000261586",
+   "/produkt/fairhof-putenbrustfilet-000000000000172861",
+   "/produkt/fairhof-schweinesteaks-karree-000000000534078002",
+   "/produkt/fairhof-schweinesteaks-schopf-000000000534078001",
+   "/produkt/fairhof-spareribs-sous-vide-mariniert-000000000000654633"
+  ]
+ },
+ "https://www.hofer.at/marken/ferrex": {
+  "total": 0,
+  "urls": []
+ },
+ "https://www.hofer.at/marken/flat-lake": {
+  "total": 2,
+  "urls": [
+   "/produkt/flat-lake-bio-zweigelt-000000000000559916",
+   "/produkt/flat-lake-zweigelt-000000000000154958"
+  ]
+ },
+ "https://www.hofer.at/marken/flying-power": {
+  "total": 0,
+  "urls": []
+ },
+ "https://www.hofer.at/marken/gourmet": {
+  "total": 2,
+  "urls": [
+   "/produkt/gourmet-matcha-schokolade-milch-erdbeere-000000000764427002",
+   "/produkt/gourmet-matcha-schokolade-weisse-himbeere-000000000764427001"
+  ]
+ },
+ "https://www.hofer.at/marken/lacura": {
+  "total": 1,
+  "urls": [
+   "/produkt/lacura-haarbuerste-000000000000539995"
+  ]
+ },
+ "https://www.hofer.at/marken/le-gusto": {
+  "total": 2,
+  "urls": [
+   "/produkt/le-gusto-xxl-suppenbruehe-gemuese-000000000752549002",
+   "/produkt/le-gusto-xxl-suppenbruehe-rind-000000000752549001"
+  ]
+ },
+ "https://www.hofer.at/marken/lyttos": {
+  "total": 0,
+  "urls": []
+ },
+ "https://www.hofer.at/marken/mamia": {
+  "total": 0,
+  "urls": []
+ },
+ "https://www.hofer.at/marken/milsani": {
+  "total": 45,
+  "urls": [
+   "/produkt/milsani-back-kaese-nacho-cheese-triangles-000000000773344002",
+   "/produkt/milsani-blauer-pirol-000000000110622001",
+   "/produkt/milsani-butter-laktosefrei-000000000000107104",
+   "/produkt/milsani-butter-standard-000000000110597001",
+   "/produkt/milsani-butterkaese-000000000000107081",
+   "/produkt/milsani-buttermilch-standard-000000000110591001",
+   "/produkt/milsani-butterschmalz-000000000000107011",
+   "/produkt/milsani-cheddar-gerieben-000000000000276659",
+   "/produkt/milsani-cottage-cheese-natur-0-5-000000000569452003",
+   "/produkt/milsani-emmentaler-aus-rohmilch-000000000000472113",
+   "/produkt/milsani-emmentaler-gerieben-000000000000107122",
+   "/produkt/milsani-emmentaler-scheiben-000000000000106972",
+   "/produkt/milsani-emmentaler-scheiben-000000000000542236",
+   "/produkt/milsani-frische-vollmilch-3-5-fett-000000000000106872",
+   "/produkt/milsani-fruchtjoghurt-quetschi-erdbeer-banane-000000000541924002",
+   "/produkt/milsani-fruchtjoghurt-quetschi-mango-000000000541924001",
+   "/produkt/milsani-gouda-000000000000472048",
+   "/produkt/milsani-gouda-scheiben-geraeuchert-000000000483272002",
+   "/produkt/milsani-gouda-scheiben-standard-000000000483272001",
+   "/produkt/milsani-high-protein-mousse-schoko-000000000453180002",
+   "/produkt/milsani-high-protein-mousse-vanille-000000000453180001",
+   "/produkt/milsani-high-protein-naturjoghurt-000000000000517851",
+   "/produkt/milsani-hollaendischer-gouda-000000000000106896",
+   "/produkt/milsani-kaeseaufschnitt-000000000000107118",
+   "/produkt/milsani-laenger-frisch-schlagobers-laktosefrei-000000000000261623",
+   "/produkt/milsani-mozzarella-gerieben-000000000000467760",
+   "/produkt/milsani-mozzarella-gerieben-000000000000541074",
+   "/produkt/milsani-naturjoghurt-1-8-fett-000000000112360001",
+   "/produkt/milsani-naturjoghurt-3-6-fett-000000000112360002",
+   "/produkt/milsani-pizzakaese-000000000000108256",
+   "/produkt/milsani-rahm-camembert-000000000000106932",
+   "/produkt/milsani-schlagobers-000000000000107020",
+   "/produkt/milsani-schmelzkaeseecken-000000000000106974",
+   "/produkt/milsani-schokomilch-000000000000632339",
+   "/produkt/milsani-tilsiter-000000000000671683",
+   "/produkt/milsani-tilsiter-scheiben-000000000000510855",
+   "/produkt/milsani-topfencreme-erdbeere-000000000267691001",
+   "/produkt/milsani-topfencreme-pfirsich-000000000267691004",
+   "/produkt/milsani-topfencreme-stracciatella-000000000267691003",
+   "/produkt/milsani-topfencreme-vanille-000000000267691002",
+   "/produkt/milsani-vollmilch-laenger-frisch-000000000000106876",
+   "/produkt/milsani-weiss-blauer-pirol-000000000110622002",
+   "/produkt/milsani-xxl-active-drink-erdbeer-banane-000000000614010002",
+   "/produkt/milsani-xxl-active-drink-granatapfel-000000000614010001",
+   "/produkt/milsani-xxl-gouda-scheiben-000000000000553252"
+  ]
+ },
+ "https://www.hofer.at/marken/moser-roth": {
+  "total": 4,
+  "urls": [
+   "/produkt/moser-roth-schokoladekugeln-edel-nougat-000000000743499002",
+   "/produkt/moser-roth-schokoladekugeln-knusper-nougat-000000000743499003",
+   "/produkt/moser-roth-schokoladekugeln-nuss-mandel-000000000743499004",
+   "/produkt/moser-roth-schokoladekugeln-praline-000000000743499001"
+  ]
+ },
+ "https://www.hofer.at/marken/my-vay-": {
+  "total": 0,
+  "urls": []
+ },
+ "https://www.hofer.at/marken/snack-fun": {
+  "total": 2,
+  "urls": [
+   "/produkt/snack-fun-jumbo-pistazien-000000000267468001",
+   "/produkt/snack-fun-xxl-pufuleti-000000000000154201"
+  ]
+ },
+ "https://www.hofer.at/marken/sodastar": {
+  "total": 0,
+  "urls": []
+ },
+ "https://www.hofer.at/marken/sonnhof": {
+  "total": 42,
+  "urls": [
+   "/produkt/sonnhof-chicken-wings-vorgegart-000000000000718471",
+   "/produkt/sonnhof-delikatessen-im-speckmantel-karree-000000000726752001",
+   "/produkt/sonnhof-faschiertes-gemischt-000000000000106958",
+   "/produkt/sonnhof-faschiertes-gemischt-000000000000174748",
+   "/produkt/sonnhof-gefluegel-grillspiesse-huhn-000000000559117001",
+   "/produkt/sonnhof-gefluegel-grillspiesse-pute-000000000559117002",
+   "/produkt/sonnhof-gefluegel-steakies-huhn-000000000575021001",
+   "/produkt/sonnhof-gefluegel-steakies-pute-000000000575021002",
+   "/produkt/sonnhof-kaiserschnitzel-000000000000106957",
+   "/produkt/sonnhof-karreeschnitzerl-000000000000585172",
+   "/produkt/sonnhof-karreesteaks-000000000000107113",
+   "/produkt/sonnhof-leichte-steaks-huehner-minutensteaks-000000000111260004",
+   "/produkt/sonnhof-leichte-steaks-schwein-000000000111260002",
+   "/produkt/sonnhof-maishendl-backhendlteller-000000000000607125",
+   "/produkt/sonnhof-maishendl-filetschnitzel-000000000000107061",
+   "/produkt/sonnhof-maishendl-filetsteaks-gewuerzt-000000000000734511",
+   "/produkt/sonnhof-maishendl-geschnetzeltes-000000000000696879",
+   "/produkt/sonnhof-maishendl-innenfilets-000000000000702265",
+   "/produkt/sonnhof-maishendl-kombipack-000000000000488939",
+   "/produkt/sonnhof-maishendlfilet-im-speckmantel-000000000000553824",
+   "/produkt/sonnhof-poularden-keulenviertel-000000000000107063",
+   "/produkt/sonnhof-putenbrustfilet-natur-000000000000713188",
+   "/produkt/sonnhof-putenschnitzel-natur-000000000000574973",
+   "/produkt/sonnhof-ribeyesteak-000000000463153002",
+   "/produkt/sonnhof-rinder-hueftsteaks-000000000000672906",
+   "/produkt/sonnhof-rinder-pfeffersteaks-per-kg-000000000000672934",
+   "/produkt/sonnhof-rinderfaschiertes-000000000000108494",
+   "/produkt/sonnhof-rinderfaschiertes-000000000000657777",
+   "/produkt/sonnhof-rinderfilet-spitzen-000000000112017001",
+   "/produkt/sonnhof-rinderfilet-steaks-000000000112017002",
+   "/produkt/sonnhof-rindsgulasch-000000000000510738",
+   "/produkt/sonnhof-rindsschnitzel-000000000000526641",
+   "/produkt/sonnhof-rumpsteak-000000000463153001",
+   "/produkt/sonnhof-salat-wok-streifen-per-kg-huhn-000000000697530001",
+   "/produkt/sonnhof-salat-wok-streifen-per-kg-rind-000000000697530002",
+   "/produkt/sonnhof-schopfsteaks-000000000000458548",
+   "/produkt/sonnhof-schweinefaschiertes-000000000000657520",
+   "/produkt/sonnhof-schweinefilet-000000000000106909",
+   "/produkt/sonnhof-schweinefleisch-wuerfel-gulaschfleisch-000000000653872001",
+   "/produkt/sonnhof-schweinefleisch-wuerfel-reisfleisch-000000000653872002",
+   "/produkt/sonnhof-siedefleisch-000000000000510810",
+   "/produkt/sonnhof-xxl-maishendlfilet-000000000000107060"
+  ]
+ },
+ "https://www.hofer.at/marken/tandil": {
+  "total": 0,
+  "urls": []
+ },
+ "https://www.hofer.at/marken/zurueck-zum-ursprung": {
+  "total": 29,
+  "urls": [
+   "/produkt/zurueck-zum-ursprung-bio-apfelsaft-000000000000570638",
+   "/produkt/zurueck-zum-ursprung-bio-dinkelbrot-mit-buchweizen-000000000000101295",
+   "/produkt/zurueck-zum-ursprung-bio-dinkelweckerl-000000000000777913",
+   "/produkt/zurueck-zum-ursprung-bio-faschiertes-gemischt-000000000000459645",
+   "/produkt/zurueck-zum-ursprung-bio-haferdrink-000000000000513472",
+   "/produkt/zurueck-zum-ursprung-bio-huehnerfilet-natur-000000000111575001",
+   "/produkt/zurueck-zum-ursprung-bio-huehnerteile-fluegerl-000000000201708001",
+   "/produkt/zurueck-zum-ursprung-bio-huehnerteile-oberkeulen-000000000201708002",
+   "/produkt/zurueck-zum-ursprung-bio-huehnerteile-unterkeulen-000000000201708003",
+   "/produkt/zurueck-zum-ursprung-bio-huelsenfruchtvariation-kichererbsen-000000000114424005",
+   "/produkt/zurueck-zum-ursprung-bio-huelsenfruchtvariation-pinto-bohnen-000000000114424003",
+   "/produkt/zurueck-zum-ursprung-bio-huelsenfruchtvariation-weisse-bohnen-000000000114424002",
+   "/produkt/zurueck-zum-ursprung-bio-huelsenfruechte-kichererbsen-000000000531563003",
+   "/produkt/zurueck-zum-ursprung-bio-huelsenfruechte-wachtelbohnen-000000000531563004",
+   "/produkt/zurueck-zum-ursprung-bio-huelsenfruechte-weisse-bohnen-000000000531563002",
+   "/produkt/zurueck-zum-ursprung-bio-kaeferbohnen-000000000000676551",
+   "/produkt/zurueck-zum-ursprung-bio-kornspitz-000000000000100956",
+   "/produkt/zurueck-zum-ursprung-bio-loeffelkefir-000000000000770669",
+   "/produkt/zurueck-zum-ursprung-bio-rindersteaks-ribeyesteak-000000000114923008",
+   "/produkt/zurueck-zum-ursprung-bio-rindersteaks-rumpsteak-000000000114923001",
+   "/produkt/zurueck-zum-ursprung-bio-roggenloab-000000000000489373",
+   "/produkt/zurueck-zum-ursprung-bio-roggenvollkornbrot-000000000000100765",
+   "/produkt/zurueck-zum-ursprung-bio-selchkarree-im-ganzen-000000000000540398",
+   "/produkt/zurueck-zum-ursprung-bio-ursprungswurzel-000000000000579919",
+   "/produkt/zurueck-zum-ursprung-toast-vegan-vollkorn-000000000537331001",
+   "/produkt/zurueck-zum-ursprung-zurueck-zum-ursprung-bio-wuerstel-sortiment-bratwuerstel-000000000112307001",
+   "/produkt/zurueck-zum-ursprung-zurueck-zum-ursprung-bio-wuerstel-sortiment-frankfurter-000000000112307004",
+   "/produkt/zurueck-zum-ursprung-zurueck-zum-ursprung-bio-wuerstel-sortiment-kaesekrainer-000000000112307006",
+   "/produkt/zurueck-zum-ursprung-zurueck-zum-ursprung-bio-wuerstel-sortiment-knacker-000000000112307005"
+  ]
+ }
+}
