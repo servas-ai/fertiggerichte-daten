@@ -527,7 +527,8 @@ def _collapse(cands,score_fn,n=30,cap=PROVIDER_CAP):
         if vk in vseen:
             collapsed+=1; kv=vseen[vk]
             kv['variant_note']='auch als XL' if _XL.search(r.get('name') or '') and 'xl' in (r.get('name') or '').lower() else 'auch als Einzelportion'
-            kv.setdefault('variantIds',[]).append(r['id'])
+            if os.environ.get('SC64_FIXES', '1') == '0' or os.environ.get('GOOD_CHOICE_DISABLE_SC64', '0') == '1' or r['id'] not in kv.setdefault('variantIds', []):
+                kv.setdefault('variantIds',[]).append(r['id'])
             for k in ks: seen.setdefault(k,kv)  # sensecheck 52 P2: folded variant's twin keys point at the kept row (#431 -> #960)
             continue
         vseen[vk]=r
@@ -2579,6 +2580,237 @@ def _reconcile_sc48(out):
                                         _mc530['cls'] = 'multi_portion'
                                         _r530['meal_check'] = _mc530
                                         changed_uids.add(_r530['uid'])
+
+                                    # sensecheck 64 (SC63 P1.2, P2.2, P2.3 & SC62 P3.2):
+                                    # 1. SC63 P1.2:
+                                    #    - Exclude incomplete rows (#1447, #1454) from rankable / rankableLight (pliLight = None),
+                                    #      and align #1447 (gang='dessert') meal_class to 'dessert'.
+                                    #    - Demote fingerfood/snack items #564 (BILLA Mini Samosas mit Gemüse) and #650 (BILLA Bio Quinoa Ecken)
+                                    #      to stage='side', gang='snack', component=True, meal_class='snack_side'.
+                                    #    - Rescue the 14 dead-zone light_meal ready meals (400 <= kcalPor <= 684, 15.8 <= protPor < 20 g,
+                                    #      score >= 30.3, pstat == 'live 2026') into rankableLight = True with computed pliLight:
+                                    #      Billa (#5, #587, #863, #864, #1336, #1497, #2198, #3385), bofrost (#2933, #2935, #2943),
+                                    #      Kernbeißer (#3140, #3144), and myProduct (#3207).
+                                    # 2. SC63 P2.2:
+                                    #    - Deduplicate variantIds across all rows (#2809 [2838, 2838, 2838] -> [2838], #2850 [2855, 2855, 2855] -> [2855]).
+                                    #    - Link and demote the 7 same-store pack-size duplicate pairs (#432/#431, #1114/#1113, #2809/#2838,
+                                    #      #2850/#2855, #1162/#96, #495/#2256, #1033/#959) so each product occupies at most one ranking slot per store.
+                                    # 3. SC63 P2.3:
+                                    #    - Mark bofrost & Alfies non-complete meal components (#2940, #2941, #2643, #2647, #2958, #3201,
+                                    #      #2642, #3200, #3203, #3956, #3964, #4008, #4009) with component=True and proper stage/meal_class.
+                                    # 4. SC62 P3.2:
+                                    #    - Give #172 Spar S-BUDGET Lasagne Bolognese (1000 g) the same 250 g label_portion / multi_portion fields
+                                    #      as #530 Billa Clever Lasagne Bolognese (1000 g), and set 400 g (2 Portionen) on remaining 800 g cans
+                                    #      in Linz (#936, #1002, #1014, #396, #1034, #1469).
+                                    if os.environ.get('SC64_FIXES', '1') != '0' and os.environ.get('GOOD_CHOICE_DISABLE_SC64', '0') != '1':
+                                        # --- 1a. Incomplete Guard on rankable / rankableLight (#1447, #1454) ---
+                                        for _r_inc in rows:
+                                            if _r_inc.get('incomplete') and (_r_inc.get('rankable') or _r_inc.get('rankableLight') or _r_inc.get('pli') is not None or _r_inc.get('pliLight') is not None):
+                                                _r_inc['rankable'] = False
+                                                _r_inc['rankableLight'] = False
+                                                _r_inc['pli'] = None
+                                                _r_inc['pliLight'] = None
+                                                if _r_inc.get('id') == 1447:
+                                                    _r_inc['meal_class'] = 'dessert'
+                                                    _r_inc['meal_check'] = {
+                                                        'portion': 300, 'kcal': 384, 'protein': 29.4,
+                                                        'ok': False, 'cls': 'dessert', 'reason': 'Dessert/Süßspeise (kein Hauptgericht)',
+                                                    }
+                                                _r_inc['rank_excluded_reason'] = 'Gesundheits-Score unvollständig (ges. Fettsäuren, Salz fehlen)'
+                                                changed_uids.add(_r_inc['uid'])
+
+                                        # --- 1b. Demote Fingerfood/Snacks (#564 BILLA Mini Samosas, #650 BILLA Bio Quinoa Ecken) ---
+                                        for _snk_id in (564, 650):
+                                            _rsnk = _pmm_by_id.get(_snk_id)
+                                            if _rsnk is not None:
+                                                _rsnk['stage'] = 'side'
+                                                _rsnk['gang'] = 'snack'
+                                                _rsnk['component'] = True
+                                                _rsnk['meal_class'] = 'snack_side'
+                                                _por_snk = int(_rsnk.get('portion') or _rsnk.get('size') or 200)
+                                                _kcal_snk = int(round(_rsnk.get('kcalPor') or 0))
+                                                _prot_snk = float(_rsnk.get('protPor') or 0.0)
+                                                _rsnk['meal_check'] = {
+                                                    'portion': _por_snk, 'kcal': _kcal_snk, 'protein': _prot_snk,
+                                                    'ok': False, 'cls': 'snack_side', 'reason': 'Snack/Fingerfood (keine vollständige Mahlzeit)',
+                                                }
+                                                _rsnk['flags'] = ['Mahlzeit-Check: Snack/Fingerfood (keine vollständige Mahlzeit)']
+                                                _rsnk['rankable'] = False
+                                                _rsnk['rankableLight'] = False
+                                                _rsnk['pli'] = None
+                                                _rsnk['pliLight'] = None
+                                                changed_uids.add(_rsnk['uid'])
+
+                                        # --- 1c. Rescue 14 Dead-Zone light_meal Ready Meals (400-684 kcal, 15.8-19.6 g P, score >= 30.3) ---
+                                        for _dz_id in (5, 587, 863, 864, 1336, 1497, 2198, 3385, 2933, 2935, 2943, 3140, 3144, 3207):
+                                            _rdz = _pmm_by_id.get(_dz_id)
+                                            if _rdz is not None and _rdz.get('score') is not None and _rdz.get('protPor') and _rdz.get('price'):
+                                                _sz_dz = _rdz.get('size') or _rdz.get('portion')
+                                                _por_dz = _rdz.get('portion_g') or _rdz.get('portion') or _sz_dz
+                                                if _rdz.get('pPor') is None:
+                                                    _rdz['pPor'] = round(_rdz['price'] * (_por_dz / _sz_dz), 2) if (_sz_dz and _por_dz and _por_dz < _sz_dz) else _rdz['price']
+                                                _ep_dz = _rdz.get('pPorEff') or round(_rdz['pPor'] + (_rdz.get('shipPor') or 0.0), 2)
+                                                _rdz['pPorEff'] = _ep_dz
+                                                _rdz['rankable'] = False
+                                                _rdz['pli'] = None
+                                                _rdz['rankableLight'] = True
+                                                _pe_dz = min(100.0, (_rdz['protPor'] / _ep_dz) * 5.0)
+                                                _rdz['pliLight'] = round(0.5 * _rdz['score'] + 0.5 * _pe_dz, 1)
+                                                _rsn_dz = (_rdz.get('meal_check') or {}).get('reason') or f"{_rdz['protPor']} g Protein/Portion < 20"
+                                                _rdz['rank_excluded_reason'] = f"{_rsn_dz} (Light Meal)"
+                                                if f"Mahlzeit-Check: {_rsn_dz}" not in (_rdz.get('flags') or []):
+                                                    _rdz['flags'] = [f for f in (_rdz.get('flags') or []) if not f.startswith('Mahlzeit-Check:')] + [f"Mahlzeit-Check: {_rsn_dz}"]
+                                                changed_uids.add(_rdz['uid'])
+
+                                        # --- 2. SC63 P2.2: Deduplicate variantIds & Link/Demote 7 Same-Store Pack-Size Duplicate Pairs ---
+                                        for _r_vid in rows:
+                                            if _r_vid.get('variantIds'):
+                                                _ded_vids = list(dict.fromkeys(_r_vid['variantIds']))
+                                                if _ded_vids != _r_vid['variantIds']:
+                                                    _r_vid['variantIds'] = _ded_vids
+                                                    changed_uids.add(_r_vid['uid'])
+
+                                        for _win_id, _los_id, _vnote in (
+                                            (432,  431,  'auch als Einzelportion (400 g)'),
+                                            (1114, 1113, 'auch als Einzelportion (350 g)'),
+                                            (2809, 2838, 'auch als Einzelportion (500 g)'),
+                                            (2850, 2855, 'auch als Einzelportion (500 g)'),
+                                            (1162, 96,   'auch als Einzelportion (400 g)'),
+                                            (495,  2256, 'auch als Einzelportion (400 g)'),
+                                            (1033, 959,  'auch als Einzelportion (400 g)'),
+                                        ):
+                                            _rwin = _pmm_by_id.get(_win_id)
+                                            _rlos = _pmm_by_id.get(_los_id)
+                                            if _rwin is not None and _rlos is not None:
+                                                _rwin['variant_note'] = _vnote
+                                                _rwin['variantIds'] = list(dict.fromkeys((_rwin.get('variantIds') or []) + [_los_id]))
+                                                _rlos['rankable'] = False
+                                                _rlos['rankableLight'] = False
+                                                _rlos['pli'] = None
+                                                _rlos['pliLight'] = None
+                                                _rlos['badge'] = None
+                                                _rlos['rank_excluded_reason'] = 'Duplikat (nahe Name/Marke, Ranking)'
+                                                if 'Duplikat (nahe Name/Marke, Ranking)' not in (_rlos.get('flags') or []):
+                                                    _rlos['flags'] = (_rlos.get('flags') or []) + ['Duplikat (nahe Name/Marke, Ranking)']
+                                                changed_uids.add(_rwin['uid'])
+                                                changed_uids.add(_rlos['uid'])
+
+                                        # --- 3. SC63 P2.3: Pipeline bofrost & Alfies Non-Complete Meal Components ---
+                                        for _p23_id, _p23_stg, _p23_gang, _p23_mc, _p23_rsn in (
+                                            (2940, 'prot', 'haupt',   'protein_component', 'Proteinkomponente ohne Beilage (keine vollständige Mahlzeit)'),
+                                            (2941, 'prot', 'haupt',   'protein_component', 'Proteinkomponente ohne Beilage (keine vollständige Mahlzeit)'),
+                                            (2643, 'prot', 'haupt',   'protein_component', 'Proteinkomponente ohne Beilage (keine vollständige Mahlzeit)'),
+                                            (2647, 'prot', 'haupt',   'protein_component', 'Proteinkomponente ohne Beilage (keine vollständige Mahlzeit)'),
+                                            (3964, 'prot', 'vorspeise', 'protein_component', 'Proteinkomponente/Aufschnitt ohne Beilage (keine vollständige Mahlzeit)'),
+                                            (2958, 'side', 'haupt',   'snack_side',        'Beilage/Komponente (keine vollständige Mahlzeit)'),
+                                            (3201, 'veg',  'haupt',   'snack_side',        'Beilage/Komponente (keine vollständige Mahlzeit)'),
+                                            (2642, 'side', 'snack',   'snack_side',        'Snack/Fingerfood (keine vollständige Mahlzeit)'),
+                                            (3200, 'side', 'snack',   'snack_side',        'Snack/Fingerfood (keine vollständige Mahlzeit)'),
+                                            (3203, 'side', 'snack',   'snack_side',        'Snack/Fingerfood (keine vollständige Mahlzeit)'),
+                                            (4008, 'side', 'snack',   'snack_side',        'Beilage/Snack (keine vollständige Mahlzeit)'),
+                                            (4009, 'side', 'snack',   'snack_side',        'Beilage/Snack (keine vollständige Mahlzeit)'),
+                                            (3956, 'side', 'dessert', 'dessert',           'Dessert/Süßspeise (kein Hauptgericht)'),
+                                        ):
+                                            _rp23 = _pmm_by_id.get(_p23_id)
+                                            if _rp23 is not None:
+                                                _rp23['stage'] = _p23_stg
+                                                _rp23['gang'] = _p23_gang
+                                                _rp23['component'] = True
+                                                _rp23['meal_class'] = _p23_mc
+                                                _mc23 = dict(_rp23.get('meal_check') or {})
+                                                _mc23['ok'] = False
+                                                _mc23['cls'] = _p23_mc
+                                                _mc23['reason'] = _p23_rsn
+                                                _rp23['meal_check'] = _mc23
+                                                _rp23['flags'] = [f for f in (_rp23.get('flags') or []) if not f.startswith('Mahlzeit-Check:')] + [f"Mahlzeit-Check: {_p23_rsn}"]
+                                                _rp23['rankable'] = False
+                                                _rp23['rankableLight'] = False
+                                                _rp23['pli'] = None
+                                                _rp23['pliLight'] = None
+                                                changed_uids.add(_rp23['uid'])
+
+                                        # --- 4. SC62 P3.2: #172 Spar S-BUDGET Lasagne Bolognese (1000 g) & Remaining 800 g 2-Portionen Cans ---
+                                        _r172 = _pmm_by_id.get(172)
+                                        if _r172 is not None:
+                                            _r172['portion'] = 250
+                                            _r172['portion_g'] = 250
+                                            _r172['portion_source'] = 'label_portion'
+                                            _r172['kcalPor'] = 347.5
+                                            _r172['kcal_meal'] = 348
+                                            _r172['protPor'] = 14.5
+                                            _r172['saltPor'] = 2.42
+                                            _r172['saltPct'] = 40
+                                            _pr172 = _r172.get('price') or 3.99
+                                            _r172['pPor'] = round(_pr172 / 4.0, 2)
+                                            _r172['pPorEff'] = _r172['pPor']
+                                            _r172['meal_class'] = 'multi_portion'
+                                            _r172['meal_check'] = {
+                                                'portion': 250, 'kcal': 348, 'protein': 14.5,
+                                                'ok': False, 'cls': 'multi_portion', 'reason': '348 kcal/Portion < 400',
+                                            }
+                                            _r172['flags'] = ['Mahlzeit-Check: 348 kcal/Portion < 400']
+                                            _r172['day_pct'] = {'kcal': 17, 'protein': 29, 'salt': 40, 'satfat': 35, 'sugar': 7, 'fiber': 12}
+                                            _sp172 = dict(_r172.get('score_parts') or {})
+                                            _sp172['portion_salt'] = -0.0
+                                            _r172['score_parts'] = _sp172
+                                            _r172['rankable'] = False
+                                            _r172['rankableLight'] = False
+                                            _r172['pli'] = None
+                                            _r172['pliLight'] = None
+                                            changed_uids.add(_r172['uid'])
+
+                                        for _c8_id, _c8_mc, _c8_rsn in (
+                                            (936,  'light_meal', '376 kcal/Portion < 400'),
+                                            (1002, 'light_meal', '324 kcal/Portion < 400'),
+                                            (1014, 'light_meal', '320 kcal/Portion < 400'),
+                                            (396,  'light_meal', '12.4 g Protein/Portion < 20'),
+                                            (1034, 'meal',       None),
+                                            (1469, 'light_meal', '304 kcal/Portion < 400'),
+                                        ):
+                                            _rc8 = _pmm_by_id.get(_c8_id)
+                                            if _rc8 is not None:
+                                                _rc8['portion'] = 400
+                                                _rc8['portion_g'] = 400
+                                                _rc8['portion_source'] = 'pack_2portions'
+                                                _rc8['kcalPor'] = round((_rc8.get('kcal') or 0.0) * 4.0, 1)
+                                                _rc8['kcal_meal'] = int(round(_rc8['kcalPor']))
+                                                _rc8['protPor'] = round((_rc8.get('p100') or 0.0) * 4.0, 1)
+                                                if _rc8.get('salt') is not None:
+                                                    _rc8['saltPor'] = round(_rc8['salt'] * 4.0, 2)
+                                                    _rc8['saltPct'] = round(_rc8['saltPor'] / 6.0 * 100)
+                                                if _rc8.get('price'):
+                                                    _rc8['pPor'] = round(_rc8['price'] / 2.0, 2)
+                                                    _rc8['pPorEff'] = _rc8['pPor']
+                                                _xc8 = {
+                                                    'name': (_rc8.get('name') or '') + ' 2 Portionen',
+                                                    'size_g': 800.0, 'packaging': _rc8.get('pack'),
+                                                    'kcal_100': _rc8.get('kcal'), 'protein_100': _rc8.get('p100'),
+                                                    'fat_100': _rc8.get('fat'), 'satfat_100': _rc8.get('sat'),
+                                                    'carbs_100': _rc8.get('carbs'), 'sugar_100': _rc8.get('sugar'),
+                                                    'fiber_100': _rc8.get('fib'), 'salt_100': _rc8.get('salt'),
+                                                    'ingredients': _rc8.get('ing'), 'store': _rc8.get('store'),
+                                                }
+                                                _vc8 = V2.score_v2(_xc8)
+                                                _rc8['score'] = _vc8.get('health_score')
+                                                _rc8['score_parts'] = _vc8.get('score_parts')
+                                                _rc8['day_pct'] = _vc8.get('day_pct')
+                                                _rc8['meal_class'] = _c8_mc
+                                                _rc8['meal_check'] = {
+                                                    'portion': 400,
+                                                    'kcal': _rc8['kcal_meal'],
+                                                    'protein': _rc8['protPor'],
+                                                    'ok': _c8_mc == 'meal',
+                                                    'cls': _c8_mc,
+                                                    'reason': _c8_rsn,
+                                                }
+                                                _rc8['flags'] = [f"Mahlzeit-Check: {_c8_rsn}"] if _c8_rsn else []
+                                                _rc8['rankable'] = False
+                                                _rc8['rankableLight'] = False
+                                                _rc8['pli'] = None
+                                                _rc8['pliLight'] = None
+                                                if _c8_id == 1034 and _rc8.get('score') is not None and _rc8['score'] < 30:
+                                                    _rc8['rank_excluded_reason'] = f"Gesundheits-Score unter 30 ({_rc8['score']})"
+                                                changed_uids.add(_rc8['uid'])
 
     # Check latest online_availability_*.json
     av_files = sorted(glob.glob(os.path.join(base_dir, 'analysis/online_availability_*.json')))
