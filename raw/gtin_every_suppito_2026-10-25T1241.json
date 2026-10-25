@@ -1,0 +1,373 @@
+{
+ "fetched": "2026-10-25T12:45Z",
+ "method": "public Shopify per-product JSON eat.every-foods.com/products/<handle>.json, first variant barcode, GS1 check digit validated, 1 req/s",
+ "every": {
+  "pumpkin-zucchini-risotto": {
+   "title": "Pumpkin Zucchini Risotto",
+   "barcode": "4260753371253",
+   "nvar": 1,
+   "sku": "F4023Z",
+   "name": "Pumpkin Zucchini Risotto"
+  },
+  "pumpkin-rigatoni": {
+   "title": "Pumpkin Rigatoni",
+   "barcode": "4260753371192",
+   "nvar": 1,
+   "sku": "F4007Z",
+   "name": "Pumpkin Rigatoni"
+  },
+  "balsamic-tomato-pan": {
+   "title": "Balsamic Tomato Pan",
+   "barcode": "4260753372953",
+   "nvar": 1,
+   "sku": "F4130Z",
+   "name": "Balsamic Tomato Pan"
+  },
+  "clean-green-bowl": {
+   "title": "Clean Green Bowl",
+   "barcode": "4260753372915",
+   "nvar": 1,
+   "sku": "F4128Z",
+   "name": "Clean Green Bowl"
+  },
+  "creamy-peanut-curry": {
+   "title": "Creamy Peanut Curry",
+   "barcode": "4260753372991",
+   "nvar": 1,
+   "sku": "F5001Z",
+   "name": "Creamy Peanut Curry"
+  },
+  "lemon-cashew-pasta": {
+   "title": "Lemon Cashew Pasta",
+   "barcode": "4260753373035",
+   "nvar": 1,
+   "sku": "F5003Z",
+   "name": "Lemon Cashew Pasta"
+  },
+  "chimichurri-glow": {
+   "title": "Chimichurri Glow",
+   "barcode": "4260753373059",
+   "nvar": 1,
+   "sku": "F5007Z",
+   "name": "Chimichurri Glow"
+  },
+  "spiced-peanut-couscous": {
+   "title": "Spiced Peanut Couscous",
+   "barcode": "4260753373011",
+   "nvar": 1,
+   "sku": "F5002Z",
+   "name": "Spiced Peanut Couscous"
+  },
+  "korean-fried-rice": {
+   "title": "Korean Fried Rice",
+   "barcode": "4260753372823",
+   "nvar": 1,
+   "sku": "F4126Z",
+   "name": "Korean Fried Rice"
+  },
+  "pearl-pasta-salad": {
+   "title": "Pearl Pasta Salad",
+   "barcode": "4260753372472",
+   "nvar": 1,
+   "sku": "F6002Z",
+   "name": "Pearl Pasta Salad"
+  },
+  "sesame-quinoa-salad": {
+   "title": "Sesame Quinoa Salad",
+   "barcode": "4260753372878",
+   "nvar": 1,
+   "sku": "F6003Z",
+   "name": "Sesame Quinoa Salad"
+  },
+  "crunchy-beetroot-salad": {
+   "title": "Crunchy Beetroot Salad",
+   "barcode": "4260753372892",
+   "nvar": 1,
+   "sku": "F6005Z",
+   "name": "Crunchy Beetroot Salad"
+  },
+  "red-pesto-gnocchi": {
+   "title": "Red Pesto Gnocchi",
+   "barcode": "4260753372465",
+   "nvar": 1,
+   "sku": "F6001Z",
+   "name": "Red Pesto Gnocchi"
+  },
+  "sesame-fried-rice": {
+   "title": "Sesame Fried Rice",
+   "barcode": "4260753372441",
+   "nvar": 1,
+   "sku": "F6000Z",
+   "name": "Sesame Fried Rice"
+  },
+  "creamy-fricassee": {
+   "title": "Creamy Fricassée",
+   "barcode": "4260753372847",
+   "nvar": 1,
+   "sku": "F4125Z",
+   "name": "Creamy Fricassée"
+  },
+  "creamy-paprika-pasta": {
+   "title": "Creamy Paprika Pasta",
+   "barcode": "4260753372809",
+   "nvar": 1,
+   "sku": "F4123Z",
+   "name": "Creamy Paprika Pasta"
+  },
+  "lemon-zucchini-gnocchi": {
+   "title": "Lemon Zucchini Gnocchi",
+   "barcode": "4260753372762",
+   "nvar": 1,
+   "sku": "F4124Z",
+   "name": "Lemon Zucchini Gnocchi"
+  },
+  "smoky-lentil-stew": {
+   "title": "Smoky Lentil Stew",
+   "barcode": "4260753372670",
+   "nvar": 1,
+   "sku": "F5006Z",
+   "name": "Smoky Lentil Stew"
+  },
+  "lemongrass-thai-ragout": {
+   "title": "Lemongrass Thai Ragout",
+   "barcode": "4260753372663",
+   "nvar": 1,
+   "sku": "F5005Z",
+   "name": "Lemongrass Thai Ragout"
+  },
+  "peanut-noodles": {
+   "title": "Peanut Noodles",
+   "barcode": "4260753372533",
+   "nvar": 1,
+   "sku": "F5000Z",
+   "name": "Peanut Noodles"
+  },
+  "paprika-thai-ragout": {
+   "title": "Paprika Thai Ragout",
+   "barcode": "4260753372656",
+   "nvar": 1,
+   "sku": "F5004Z",
+   "name": "Paprika Thai Ragout"
+  },
+  "japanese-sweet-curry": {
+   "title": "Japanese Sweet Curry",
+   "barcode": "4260753372328",
+   "nvar": 1,
+   "sku": "F4119Z",
+   "name": "Japanese Sweet Curry"
+  },
+  "pasta-rustica": {
+   "title": "Pasta Rustica",
+   "barcode": "4260753372311",
+   "nvar": 1,
+   "sku": "F4118Z",
+   "name": "Pasta Rustica"
+  },
+  "spatzle-goulash": {
+   "title": "Spätzle Goulash",
+   "barcode": "4260753372281",
+   "nvar": 1,
+   "sku": "F4116Z",
+   "name": "Spätzle Goulash"
+  },
+  "creamy-mango-curry": {
+   "title": "Creamy Mango Curry",
+   "barcode": "4260753372205",
+   "nvar": 1,
+   "sku": "F4120Z",
+   "name": "Creamy Mango Curry"
+  },
+  "farmhouse-ratatouille": {
+   "title": "Farmhouse Ratatouille",
+   "barcode": "4260753372236",
+   "nvar": 1,
+   "sku": "F4028Z",
+   "name": "Farmhouse Ratatouille"
+  },
+  "edamame-zen": {
+   "title": "Edamame Zen",
+   "barcode": "4260753372175",
+   "nvar": 1,
+   "sku": "F4114Z",
+   "name": "Edamame Zen"
+  },
+  "nasi-goreng": {
+   "title": "Nasi Goreng",
+   "barcode": "4260753372144",
+   "nvar": 1,
+   "sku": "F4113Z",
+   "name": "Nasi Goreng"
+  },
+  "umami-rice": {
+   "title": "Umami Rice",
+   "barcode": "4260753372120",
+   "nvar": 1,
+   "sku": "F4112Z",
+   "name": "Umami Rice"
+  },
+  "paella-del-sol": {
+   "title": "Paella Del Sol",
+   "barcode": "4260753372083",
+   "nvar": 1,
+   "sku": "F4110Z",
+   "name": "Paella Del Sol"
+  },
+  "teriyaki-wok": {
+   "title": "Teriyaki Wok",
+   "barcode": "4260753372090",
+   "nvar": 1,
+   "sku": "F4111Z",
+   "name": "Teriyaki Wok"
+  },
+  "better-butter-chicken": {
+   "title": "Better Butter Chicken",
+   "barcode": "4260753372007",
+   "nvar": 1,
+   "sku": "F4017Z",
+   "name": "Better Butter Chicken"
+  },
+  "golden-glow-bowl": {
+   "title": "Golden Glow Bowl",
+   "barcode": "4260753372038",
+   "nvar": 1,
+   "sku": "F4018Z",
+   "name": "Golden Glow Bowl"
+  },
+  "chili-sin-carne": {
+   "title": "Chili sin Carne",
+   "barcode": "4260753371895",
+   "nvar": 1,
+   "sku": "F4104Z",
+   "name": "Chili sin Carne"
+  },
+  "mushroom-spatzle": {
+   "title": "Mushroom Spätzle",
+   "barcode": "4260753371857",
+   "nvar": 1,
+   "sku": "F4103Z",
+   "name": "Mushroom Spätzle"
+  },
+  "coco-curry-pasta": {
+   "title": "Coco Curry Pasta",
+   "barcode": "4260753371970",
+   "nvar": 1,
+   "sku": "F4099Z",
+   "name": "Coco Curry Pasta"
+  },
+  "potato-panorama": {
+   "title": "Potato Panorama",
+   "barcode": "4260753371437",
+   "nvar": 1,
+   "sku": "F4098Z",
+   "name": "Potato Panorama"
+  },
+  "ramen-noodles": {
+   "title": "Ramen Noodles",
+   "barcode": "4260753371420",
+   "nvar": 1,
+   "sku": "F4097Z",
+   "name": "Ramen Noodles"
+  },
+  "pasta-arrabbiata": {
+   "title": "Pasta Arrabbiata",
+   "barcode": "4260753371352",
+   "nvar": 1,
+   "sku": "F4068Z",
+   "name": "Pasta Arrabbiata"
+  },
+  "green-curry-noodles": {
+   "title": "Green Curry Noodles",
+   "barcode": "4260753371406",
+   "nvar": 1,
+   "sku": "F4092Z",
+   "name": "Green Curry Noodles"
+  },
+  "brilliant-bolognese": {
+   "title": "Brilliant Bolognese",
+   "barcode": "4260753371260",
+   "nvar": 1,
+   "sku": "F4027Z",
+   "name": "Brilliant Bolognese"
+  },
+  "bami-goreng-bowl": {
+   "title": "Bami Goreng",
+   "barcode": "4260753371239",
+   "nvar": 1,
+   "sku": "F4015Z",
+   "name": "Bami Goreng"
+  },
+  "golden-curry-bowl": {
+   "title": "Golden Curry",
+   "barcode": "4260753371215",
+   "nvar": 1,
+   "sku": "F4011Z",
+   "name": "Golden Curry"
+  },
+  "tikka-masala-bowl": {
+   "title": "Tikka Masala",
+   "barcode": "4260753371246",
+   "nvar": 1,
+   "sku": "F4016Z",
+   "name": "Tikka Masala"
+  },
+  "red-curry": {
+   "title": "Red Curry",
+   "barcode": "4260753371390",
+   "nvar": 1,
+   "sku": "F4088Z",
+   "name": "Red Curry"
+  },
+  "garden-gnocchi": {
+   "title": "Garden Gnocchi",
+   "barcode": "4260753371383",
+   "nvar": 1,
+   "sku": "F4076Z",
+   "name": "Garden Gnocchi"
+  },
+  "naked-taco": {
+   "title": "Naked Taco",
+   "barcode": "4260753371284",
+   "nvar": 1,
+   "sku": "F4044Z",
+   "name": "Naked Taco"
+  },
+  "peas-love": {
+   "title": "Peas & Love",
+   "barcode": "4260753371277",
+   "nvar": 1,
+   "sku": "F4043Z",
+   "name": "Peas & Love"
+  },
+  "dal-delight-bowl": {
+   "title": "Dal Delight",
+   "barcode": "4260753371208",
+   "nvar": 1,
+   "sku": "F4010Z",
+   "name": "Dal Delight"
+  },
+  "forest-green-bowl": {
+   "title": "Green Forest Bowl",
+   "barcode": "4260753371185",
+   "nvar": 1,
+   "sku": "F4005Z",
+   "name": "Green Forest Bowl"
+  }
+ },
+ "suppito": {
+  "method": "identical product + identical net weight in data/products.csv Gurkerl rows (Gurkerl search-metadata, live re-checked 2026-10-25; Gurkerl publishes no nutrition for SUPPITO)",
+  "filled": {
+   "Chili con Soja scharf": "9002235023077",
+   "Minestrone (italienische Gemüsesuppe)": "9002235921359",
+   "Linseneintopf mediterran": "9002235925272",
+   "Gigantes – griechischer Riesenbohneneintopf": "9002235921274",
+   "Gemüsecurry mit Cashewnüssen scharf": "9002235934106",
+   "Erdäpfelgulasch mit Räuchertofu": "9002235924404",
+   "Tomaten-Kokos Suppe scharf": "9002235921397"
+  },
+  "skipped": {
+   "Kürbiscreme Suppe klassisch": "shop 500 g vs Gurkerl 510 g (9002235921311)",
+   "Kürbis-Kokos Suppe scharf": "shop 500 g vs Gurkerl 510 g (9002235921328)",
+   "Rote Rüben-Apfel-Kren Suppe": "no Gurkerl GTIN"
+  }
+ }
+}
