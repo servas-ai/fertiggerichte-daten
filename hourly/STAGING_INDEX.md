@@ -173,3 +173,18 @@ No file staged (0 new rows). Fresh fetches of billa, dm, mpreis-shop, juit, loew
 - Connector issues: `spar` fetch now fails with RobotsDisallowed on heisse-preise.io/data/latest-canonical.json (the robots check blocks the dump); `myproduct` at --limit 600 did not finish within 10 min (use --limit 30 as before).
 - Goal of 20 not reached (1). The live connector sources are exhausted for ready meals; new rows now come almost only from new online stores (Daten-Squad).
 - No export, commit, push or deploy from fertig or fertig-app.
+
+### hourly 2026-10-25T08
+
+| file | source | rows | tags | status |
+|---|---|---|---|---|
+| staged_2026-10-25T08.json | billa 5, spar-shop 18, mpreis-shop 6 | 29 | dessert 4, dessert-chilled 23, main 1, side 1 | staged, not merged |
+
+- Billa (BILLA own brand Omis Schmankerl, nutrition, photo, price from the shop): Milchrahmstrudel 300 g 3,99 €, Mini Germknödel 295 g 3,99 €, Mohnnudel mit Apfelmus 330 g 3,99 €, Nuss-Nougat Palatschinken 300 g 3,79 € (heat-up desserts), and Kaspressknödel 360 g 4,99 € (tagged side, because the other Kaspressknödel in data.json are gang=beilage). The other 41 Omis Schmankerl rows are already in data.json.
+- SPAR: SPAR enjoy Tajine Huhn & Couscous 350 g 4,49 € (main; the SPAR search API publishes no nutrition or GTIN). Plus 17 chilled Milchreis desserts (Müller Original/Zimt/Vanille/Schoko and 4 vegan varieties, Dr. Oetker High Protein natur/Zimt and Löffelglück natur/Zimt, S-BUDGET natur/Schoko/Zimt, Zum Dorfkrug, Andros Kokosmilchreis 4×100 g). Precedent: Andros and Dr. Oetker Milchreis at Billa are already in data.json as dessert (not ranked). Nutrition for 6 of them is copied from the identical product with its source noted per row (5 from the MPREIS shop by EAN, Dr. Oetker HP from data.json #3378); the other 11 stay null.
+- MPREIS (EAN + nutrition; MPREIS does not deliver to 4020, so unrankable): Dr. Oetker High Protein Milchreis natur/Zimt and Müller Milchreis Original/Schoko/Zimt/Vanille.
+- Orchestrator decision needed: the 23 rows tagged dessert-chilled are cold desserts, not heat-up meals. Drop the whole tag if chilled desserts should stay out of Good Choice.
+- Found through a new search sweep over 24 dish stems (Moussaka, Dal, Ramen, Risotto, Shakshuka, Paella, Couscous, Tajine, Bigos, Kohlroulade, Krautfleckerl, Szegediner, Linseneintopf, Erbsensuppe, Ochsenschwanz, Borschtsch, Minestrone, Pasta-Pfanne, Kaiserschmarrn, Germknödel, Palatschinken, Topfenknödel, Milchreis, Grießbrei) on billa, spar-shop and mpreis-shop, plus a full "Omis Schmankerl" brand search on billa. Deduped by store plus name against data.json, earlier staged files and the URL; Iglo Krautfleckerl at SPAR is already there as "Iglo Genießer Schmankerl Krautfleckerl".
+- Skipped: raw rice, couscous, ramen noodles, dry mixes (Knorr Kaiserschmarrn and Milchreis, Kaiser Teller, Buldak and Lunch Box cup noodles), dips and bases (Deli Dip Shakshuka, Neni Shakshuka Basis), cold salads, all baby food (HiPP, Freche Freunde, SPAR Natur*pur breakfast porridges, MPREIS baby food), and non-food items.
+- Connector note: `fetch` for moakt, biohof_achleitner, steiramarkt, bauernladen and nah-frisch exits 2 because they are not valid fetch ids; check `food sources` for the correct ids.
+- Goal of 20 reached (29). No export, commit, push or deploy from fertig or fertig-app.
