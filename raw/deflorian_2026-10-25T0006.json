@@ -1,0 +1,1391 @@
+{
+ "source": "https://deflorian.tirol/products.json?limit=250 + /products/<handle> (ZUTATEN)",
+ "fetched": "2026-10-25T0006",
+ "operator": "Deflorian Tiefkühlspezialitäten GmbH, Hnr. 35b, 6069 Gnadenwald, Tirol (UID ATU64259769, LG Innsbruck)",
+ "vies": {
+  "uid": "ATU64259769",
+  "valid": true,
+  "name": "Deflorian Tiefkühlspezialitäten GmbH",
+  "address": "Hnr 35b, AT-6069 Gnadenwald",
+  "checked": "2026-10-25T00:09:51Z"
+ },
+ "impressum": "https://deflorian.tirol/policies/legal-notice (Deflorian Tiefkühlspezialitäten GmbH, Hnr. 35b, 6069 Gnadenwald; UID ATU64259769; Firmenbuchgericht LG Innsbruck; 'Firmenbuchnummer AT70258EG' as printed — looks like an approval number, not an FN, so not used)",
+ "shipping": "Versand nur innerhalb Österreichs, tiefgekühlt im Isolierkarton mit Trockeneis, Zustellung donnerstags; 14,99 € unter 40 € Warenkorb, ab 40 € versandkostenfrei (policies/shipping-policy)",
+ "photo_vision_gate": "27/27 PASS (contact sheet of first product images)",
+ "kept": [
+  {
+   "source": "deflorian",
+   "store": "Online: Deflorian",
+   "name": "Erdbeerknödel",
+   "brand": "Deflorian",
+   "price_eur": 9.5,
+   "unit_price_eur": 1.73,
+   "unit": "100 g",
+   "size_g": 550.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.shopify.com/s/files/1/1021/4555/6810/files/dfl_erdbeerknoedel.jpg?v=1775807841",
+   "producer": "Deflorian Tiefkühlspezialitäten GmbH, Hnr. 35b, 6069 Gnadenwald, Tirol (UID ATU64259769, LG Innsbruck)",
+   "producer_id": null,
+   "origin": "AT (handgemacht in Gnadenwald, Tirol lt. Shop)",
+   "category": "Fertiggericht",
+   "source_url": "https://deflorian.tirol/products/erdbeerknodel",
+   "source_id": "15729680023882",
+   "fetched_at": "2026-10-25T00:13:20+00:00",
+   "extra": {
+    "handle": "erdbeerknodel",
+    "pack": "550g",
+    "variants": [
+     {
+      "title": "550g",
+      "price": "9.50",
+      "grams": 550,
+      "available": true
+     }
+    ],
+    "available": true,
+    "kind": "süße Hauptspeise",
+    "tags": [
+     "Nachspeisen"
+    ],
+    "description": "Gefüllt mit sorgfältig ausgewählten Tiroler Erdbeeren und umhüllt von feinem Topfenteig. Die fruchtige Fülle und die zarte Teighülle sorgen für einen harmonischen Geschmack und machen diese traditionelle österreichische Süßspeise zu einem besonderen Genuss. Ein beliebter Klassiker für alle, die regionale Zutaten und ehrliche Qualität schätzen.",
+    "ingredients": "TOPFEN,12% Erdbeeren, BUTTER, Brösel (WEIZENMEHL, Hefe, Salz, Wasser), Staubzucker, VOLLEI, WEIZENMEHL, EIGELB (Säureregulator: Citronensäure), Vanillezucker (Zucker, Vanilleextrakt, Bourbon-Vanillesamen), Zitronensaft, Salz. Kann Spuren von SOJABOHNEN, LUPINEN und SCHALENFRÜCHTEN enthalten.",
+    "storage": "tiefgekühlt (−18 °C)",
+    "price_note": "Preis der kleinsten Packung inkl. MwSt. lt. Shopify-Storefront (EUR); Gewicht = Shopify-Variantengewicht",
+    "shipping_note": "Versand nur innerhalb Österreichs, tiefgekühlt im Isolierkarton mit Trockeneis, Zustellung donnerstags; 14,99 € unter 40 € Warenkorb, ab 40 € versandkostenfrei (policies/shipping-policy)"
+   }
+  },
+  {
+   "source": "deflorian",
+   "store": "Online: Deflorian",
+   "name": "Zwetschkenknödel mit Kern",
+   "brand": "Deflorian",
+   "price_eur": 10.5,
+   "unit_price_eur": 1.4,
+   "unit": "100 g",
+   "size_g": 750.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.shopify.com/s/files/1/1021/4555/6810/files/dfl_zwetschkenknoedel.jpg?v=1775807843",
+   "producer": "Deflorian Tiefkühlspezialitäten GmbH, Hnr. 35b, 6069 Gnadenwald, Tirol (UID ATU64259769, LG Innsbruck)",
+   "producer_id": null,
+   "origin": "AT (handgemacht in Gnadenwald, Tirol lt. Shop)",
+   "category": "Fertiggericht",
+   "source_url": "https://deflorian.tirol/products/zwetschkenknodel-mit-kern",
+   "source_id": "15579455324490",
+   "fetched_at": "2026-10-25T00:13:21+00:00",
+   "extra": {
+    "handle": "zwetschkenknodel-mit-kern",
+    "pack": "750 g",
+    "variants": [
+     {
+      "title": "750 g",
+      "price": "10.50",
+      "grams": 750,
+      "available": true
+     }
+    ],
+    "available": true,
+    "kind": "süße Hauptspeise",
+    "tags": [
+     "Nachspeisen"
+    ],
+    "description": "Saftige Zwetschkenknödel aus feinem Kartoffelteig. Innen saftig und aromatisch, gefüllt mit fruchtiger Stanzer Zwetschke. Eine klassische österreichische Süßspeise mit ausgewogenem Geschmack.",
+    "ingredients": "38% Zwetschken, Wasser, WEIZENMEHL, Kartoffel, HARTWEIZENGRIESS, WEIZENGRIESS, EIGELB (Säureregulator: Citronensäure), BUTTER, Salz. Kann Spuren von SOJABOHNEN, LUPINEN und SCHALENFRÜCHTEN enthalten.",
+    "storage": "tiefgekühlt (−18 °C)",
+    "price_note": "Preis der kleinsten Packung inkl. MwSt. lt. Shopify-Storefront (EUR); Gewicht = Shopify-Variantengewicht",
+    "shipping_note": "Versand nur innerhalb Österreichs, tiefgekühlt im Isolierkarton mit Trockeneis, Zustellung donnerstags; 14,99 € unter 40 € Warenkorb, ab 40 € versandkostenfrei (policies/shipping-policy)"
+   }
+  },
+  {
+   "source": "deflorian",
+   "store": "Online: Deflorian",
+   "name": "Marillenknödel mit Kern",
+   "brand": "Deflorian",
+   "price_eur": 10.5,
+   "unit_price_eur": 1.4,
+   "unit": "100 g",
+   "size_g": 750.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.shopify.com/s/files/1/1021/4555/6810/files/dfl_marillenknodel.jpg?v=1775807842",
+   "producer": "Deflorian Tiefkühlspezialitäten GmbH, Hnr. 35b, 6069 Gnadenwald, Tirol (UID ATU64259769, LG Innsbruck)",
+   "producer_id": null,
+   "origin": "AT (handgemacht in Gnadenwald, Tirol lt. Shop)",
+   "category": "Fertiggericht",
+   "source_url": "https://deflorian.tirol/products/marillenknodel-mit-kern",
+   "source_id": "15579450540362",
+   "fetched_at": "2026-10-25T00:13:22+00:00",
+   "extra": {
+    "handle": "marillenknodel-mit-kern",
+    "pack": "750g",
+    "variants": [
+     {
+      "title": "750g",
+      "price": "10.50",
+      "grams": 750,
+      "available": true
+     }
+    ],
+    "available": true,
+    "kind": "süße Hauptspeise",
+    "tags": [
+     "Nachspeisen"
+    ],
+    "description": "Saftige Marillenknödel aus feinem Kartoffelteig. Innen saftig und aromatisch, gefüllt mit fruchtiger, ganzer Marille. Eine klassische Österreichische Süßspeise mit ausgewogenem süß-säuerlichen Geschmack.",
+    "ingredients": "39% Marille, Wasser, WEIZENMEHL, Kartoffel, HARTWEIZENGRIESS, WEIZENGRIESS, EIGELB (Säureregulator: Citronensäure), BUTTER, Salz. Kann Spuren von SOJABOHNEN, LUPINEN und SCHALENFRÜCHTEN enthalten.",
+    "storage": "tiefgekühlt (−18 °C)",
+    "price_note": "Preis der kleinsten Packung inkl. MwSt. lt. Shopify-Storefront (EUR); Gewicht = Shopify-Variantengewicht",
+    "shipping_note": "Versand nur innerhalb Österreichs, tiefgekühlt im Isolierkarton mit Trockeneis, Zustellung donnerstags; 14,99 € unter 40 € Warenkorb, ab 40 € versandkostenfrei (policies/shipping-policy)"
+   }
+  },
+  {
+   "source": "deflorian",
+   "store": "Online: Deflorian",
+   "name": "Hühnercurry",
+   "brand": "Deflorian",
+   "price_eur": 14.8,
+   "unit_price_eur": 2.96,
+   "unit": "100 g",
+   "size_g": 500.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.shopify.com/s/files/1/1021/4555/6810/files/dfl_hendlcurry-02.png?v=1780323060",
+   "producer": "Deflorian Tiefkühlspezialitäten GmbH, Hnr. 35b, 6069 Gnadenwald, Tirol (UID ATU64259769, LG Innsbruck)",
+   "producer_id": null,
+   "origin": "AT (handgemacht in Gnadenwald, Tirol lt. Shop)",
+   "category": "Fertiggericht",
+   "source_url": "https://deflorian.tirol/products/hendlcurry",
+   "source_id": "15579434844490",
+   "fetched_at": "2026-10-25T00:13:22+00:00",
+   "extra": {
+    "handle": "hendlcurry",
+    "pack": "1 Tasse zu 500g",
+    "variants": [
+     {
+      "title": "1 Tasse zu 500g",
+      "price": "14.80",
+      "grams": 500,
+      "available": true
+     }
+    ],
+    "available": true,
+    "kind": "Fleischgericht",
+    "tags": [
+     "Fleischgerichte"
+    ],
+    "description": "Zartes Hühnercurry mit österreichischer Hühnerbrust, verfeinert mit Kokosmilch, Ananassaft und aromatischem Curry – mild exotisch und harmonisch im Geschmack.",
+    "ingredients": "50% Hühnerbrust, Wasser, Ananassaft, Zwiebel, Kokosmilch (Kokoskonzentrat, Wasser, Verdickungsmittel: Xanthan, Guakernmehl, Emulgator E 435), Weißwein, Maisstärke, SAHNE, Sonnenblumenöl, Salz, 1% Curry, Ingwer, Koriander, Pfeffer Keine Farbstoffe, keine Geschmacksstoffe, keine Konservierungsstoffe; mit Emulgator: E 432 in der Kokosmilch.",
+    "storage": "tiefgekühlt (−18 °C)",
+    "price_note": "Preis der kleinsten Packung inkl. MwSt. lt. Shopify-Storefront (EUR); Gewicht = Shopify-Variantengewicht",
+    "shipping_note": "Versand nur innerhalb Österreichs, tiefgekühlt im Isolierkarton mit Trockeneis, Zustellung donnerstags; 14,99 € unter 40 € Warenkorb, ab 40 € versandkostenfrei (policies/shipping-policy)"
+   }
+  },
+  {
+   "source": "deflorian",
+   "store": "Online: Deflorian",
+   "name": "Rindsgulasch",
+   "brand": "Deflorian",
+   "price_eur": 13.1,
+   "unit_price_eur": 2.18,
+   "unit": "100 g",
+   "size_g": 600.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.shopify.com/s/files/1/1021/4555/6810/files/dfl_gulasch.jpg?v=1775807841",
+   "producer": "Deflorian Tiefkühlspezialitäten GmbH, Hnr. 35b, 6069 Gnadenwald, Tirol (UID ATU64259769, LG Innsbruck)",
+   "producer_id": null,
+   "origin": "AT (handgemacht in Gnadenwald, Tirol lt. Shop)",
+   "category": "Fertiggericht",
+   "source_url": "https://deflorian.tirol/products/rindsgulasch",
+   "source_id": "15579428979018",
+   "fetched_at": "2026-10-25T00:13:24+00:00",
+   "extra": {
+    "handle": "rindsgulasch",
+    "pack": "1 Tasse zu 600g",
+    "variants": [
+     {
+      "title": "1 Tasse zu 600g",
+      "price": "13.10",
+      "grams": 600,
+      "available": true
+     }
+    ],
+    "available": true,
+    "kind": "Fleischgericht",
+    "tags": [
+     "Fleischgerichte"
+    ],
+    "description": "Köstliches Rindsgulasch aus österreichischem Wadschinken, geschmort mit Zwiebeln und kräftigem Gulaschsaft – intensiv im Geschmack und wunderbar sämig.",
+    "ingredients": "47% Rindfleisch (Wadschinken), Wasser, Zwiebel geröstet (Zwiebel, Rapsöl), Tomatenmark, Paprika edelsüss, Sonnenblumenöl, Salz, Knoblauch, Pfeffer, Kümmel, Lorbeer, Apfelessig, Majoran.",
+    "storage": "tiefgekühlt (−18 °C)",
+    "price_note": "Preis der kleinsten Packung inkl. MwSt. lt. Shopify-Storefront (EUR); Gewicht = Shopify-Variantengewicht",
+    "shipping_note": "Versand nur innerhalb Österreichs, tiefgekühlt im Isolierkarton mit Trockeneis, Zustellung donnerstags; 14,99 € unter 40 € Warenkorb, ab 40 € versandkostenfrei (policies/shipping-policy)"
+   }
+  },
+  {
+   "source": "deflorian",
+   "store": "Online: Deflorian",
+   "name": "Gerstlsuppe",
+   "brand": "Deflorian",
+   "price_eur": 3.7,
+   "unit_price_eur": 0.74,
+   "unit": "100 g",
+   "size_g": 500.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.shopify.com/s/files/1/1021/4555/6810/files/dfl_gerstlsuppe.jpg?v=1775807843",
+   "producer": "Deflorian Tiefkühlspezialitäten GmbH, Hnr. 35b, 6069 Gnadenwald, Tirol (UID ATU64259769, LG Innsbruck)",
+   "producer_id": null,
+   "origin": "AT (handgemacht in Gnadenwald, Tirol lt. Shop)",
+   "category": "Fertiggericht",
+   "source_url": "https://deflorian.tirol/products/gerstlsuppe",
+   "source_id": "15579425767754",
+   "fetched_at": "2026-10-25T00:13:24+00:00",
+   "extra": {
+    "handle": "gerstlsuppe",
+    "pack": "1 Tasse zu 500g",
+    "variants": [
+     {
+      "title": "1 Tasse zu 500g",
+      "price": "3.70",
+      "grams": 500,
+      "available": true
+     }
+    ],
+    "available": true,
+    "kind": "Suppe",
+    "tags": [
+     "Suppen"
+    ],
+    "description": "Kräftige Gerstlsuppe mit zarter Rollgerste, saftigem Selchschopf und würzigen Speckwürfeln, gekocht mit Karotten, Sellerie und Lauch. Herzhaft, leicht sämig und vollmundig im Geschmack – ein traditioneller Klassiker.",
+    "ingredients": "Wasser, Selchfleischwürfel ((Schweinefleisch, Trinkwasser, Nitritpökelsalz (Kochsalz unjodiert, Konservierungsmittel: Natriumnitrit), Stabilisator E451, E450, Gewürzextrakte, Glucose, Geschmacksverstärker: E621, Antioxidationsmittel: E301, Aroma, Würze), 8% ROLLGERSTE, Karotten, Lauch, SELLERIE, Salz, Pfeffer, Lorbeer.",
+    "storage": "tiefgekühlt (−18 °C)",
+    "price_note": "Preis der kleinsten Packung inkl. MwSt. lt. Shopify-Storefront (EUR); Gewicht = Shopify-Variantengewicht",
+    "shipping_note": "Versand nur innerhalb Österreichs, tiefgekühlt im Isolierkarton mit Trockeneis, Zustellung donnerstags; 14,99 € unter 40 € Warenkorb, ab 40 € versandkostenfrei (policies/shipping-policy)"
+   }
+  },
+  {
+   "source": "deflorian",
+   "store": "Online: Deflorian",
+   "name": "Gulaschsuppe",
+   "brand": "Deflorian",
+   "price_eur": 3.9,
+   "unit_price_eur": 0.78,
+   "unit": "100 g",
+   "size_g": 500.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.shopify.com/s/files/1/1021/4555/6810/files/dfl_gulaschsuppe.jpg?v=1775807842",
+   "producer": "Deflorian Tiefkühlspezialitäten GmbH, Hnr. 35b, 6069 Gnadenwald, Tirol (UID ATU64259769, LG Innsbruck)",
+   "producer_id": null,
+   "origin": "AT (handgemacht in Gnadenwald, Tirol lt. Shop)",
+   "category": "Fertiggericht",
+   "source_url": "https://deflorian.tirol/products/gulaschsuppe",
+   "source_id": "15579423244618",
+   "fetched_at": "2026-10-25T00:13:25+00:00",
+   "extra": {
+    "handle": "gulaschsuppe",
+    "pack": "1 Tasse zu 500g",
+    "variants": [
+     {
+      "title": "1 Tasse zu 500g",
+      "price": "3.90",
+      "grams": 500,
+      "available": true
+     }
+    ],
+    "available": true,
+    "kind": "Suppe",
+    "tags": [
+     "Suppen"
+    ],
+    "description": "Herzhafte Gulaschsuppe zubereitet mit österreichischer Rinderschulter, würzigem Gulaschsaft und Kartoffelwürfel – kräftig, sättigend und aromatisch.",
+    "ingredients": "Wasser, Kartoffel, 18% Rindfleisch, Zwiebel, Tomatenmark, Paprika, Salz, Knoblauch, Kümmel, Pfeffer, Lorbeer.",
+    "storage": "tiefgekühlt (−18 °C)",
+    "price_note": "Preis der kleinsten Packung inkl. MwSt. lt. Shopify-Storefront (EUR); Gewicht = Shopify-Variantengewicht",
+    "shipping_note": "Versand nur innerhalb Österreichs, tiefgekühlt im Isolierkarton mit Trockeneis, Zustellung donnerstags; 14,99 € unter 40 € Warenkorb, ab 40 € versandkostenfrei (policies/shipping-policy)"
+   }
+  },
+  {
+   "source": "deflorian",
+   "store": "Online: Deflorian",
+   "name": "Rindsbraten mit Gemüse",
+   "brand": "Deflorian",
+   "price_eur": 19.8,
+   "unit_price_eur": 3.6,
+   "unit": "100 g",
+   "size_g": 550.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.shopify.com/s/files/1/1021/4555/6810/files/dfl_rindsbraten_mit_gemuese.jpg?v=1775807841",
+   "producer": "Deflorian Tiefkühlspezialitäten GmbH, Hnr. 35b, 6069 Gnadenwald, Tirol (UID ATU64259769, LG Innsbruck)",
+   "producer_id": null,
+   "origin": "AT (handgemacht in Gnadenwald, Tirol lt. Shop)",
+   "category": "Fertiggericht",
+   "source_url": "https://deflorian.tirol/products/rindsbraten-mit-gemuse",
+   "source_id": "15579420131658",
+   "fetched_at": "2026-10-25T00:13:27+00:00",
+   "extra": {
+    "handle": "rindsbraten-mit-gemuse",
+    "pack": "1 Tasse zu 550g",
+    "variants": [
+     {
+      "title": "1 Tasse zu 550g",
+      "price": "19.80",
+      "grams": 550,
+      "available": true
+     }
+    ],
+    "available": true,
+    "kind": "Fleischgericht",
+    "tags": [
+     "Fleischgerichte"
+    ],
+    "description": "Rindsbraten in Scheiben geschnitten, zubereitet mit österreichischem Rindfleisch, langsam im kräftigen Jus geschmort und mit feinen Gemüsestreifen verfeinert – zart, saftig und vollmundig im Geschmack.",
+    "ingredients": "62% Rindfleisch, Wasser, 9% Gemüse (Karotten, SELLERIE, Lauch), Sonnenblumenöl, Salz, Maisstärke, Rotwein, Gewürze. KEINE FARBSTOFFE, KEINE GESCHMACKSTOFFE, KEINE EMULGATOREN, KEINE KONSERVIERUNGSSTOFFE;",
+    "storage": "tiefgekühlt (−18 °C)",
+    "price_note": "Preis der kleinsten Packung inkl. MwSt. lt. Shopify-Storefront (EUR); Gewicht = Shopify-Variantengewicht",
+    "shipping_note": "Versand nur innerhalb Österreichs, tiefgekühlt im Isolierkarton mit Trockeneis, Zustellung donnerstags; 14,99 € unter 40 € Warenkorb, ab 40 € versandkostenfrei (policies/shipping-policy)"
+   }
+  },
+  {
+   "source": "deflorian",
+   "store": "Online: Deflorian",
+   "name": "Zillertaler Kaskrapfen vorgebacken",
+   "brand": "Deflorian",
+   "price_eur": 6.0,
+   "unit_price_eur": 2.5,
+   "unit": "100 g",
+   "size_g": 240.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.shopify.com/s/files/1/1021/4555/6810/files/def_zillertaler-kaskrapfen.png?v=1775807589",
+   "producer": "Deflorian Tiefkühlspezialitäten GmbH, Hnr. 35b, 6069 Gnadenwald, Tirol (UID ATU64259769, LG Innsbruck)",
+   "producer_id": null,
+   "origin": "AT (handgemacht in Gnadenwald, Tirol lt. Shop)",
+   "category": "Fertiggericht",
+   "source_url": "https://deflorian.tirol/products/zillertaler-kaskrapfen-vorgebacken",
+   "source_id": "15579368030538",
+   "fetched_at": "2026-10-25T00:13:27+00:00",
+   "extra": {
+    "handle": "zillertaler-kaskrapfen-vorgebacken",
+    "pack": "4 Stück",
+    "variants": [
+     {
+      "title": "4 Stück",
+      "price": "6.00",
+      "grams": 240,
+      "available": true
+     }
+    ],
+    "available": true,
+    "kind": "Teigware/Knödel",
+    "tags": [
+     "Krapfen"
+    ],
+    "description": "Vorgebackene Zillertaler Kaskrapfen mit herzhafter Füllung aus Graukäse und Ziger, Kartoffeln und Schnittlauch, umhüllt von goldgelb gebackenem Teig – kräftig im Geschmack und angenehm würzig.",
+    "ingredients": "Wasser, WEIZENMEHL, ROGGENMEHL, 11% KÄSE, Sonnenblumenöl, TOPFEN, MILCH, Kartoffelflocken, Salz, Schnittlauch, Pfeffer. Kann Spuren von Ei, Sojabohnen, Lupinen und Schalenfrüchten enthalten.",
+    "storage": "tiefgekühlt (−18 °C)",
+    "price_note": "Preis der kleinsten Packung inkl. MwSt. lt. Shopify-Storefront (EUR); Gewicht = Shopify-Variantengewicht",
+    "shipping_note": "Versand nur innerhalb Österreichs, tiefgekühlt im Isolierkarton mit Trockeneis, Zustellung donnerstags; 14,99 € unter 40 € Warenkorb, ab 40 € versandkostenfrei (policies/shipping-policy)"
+   }
+  },
+  {
+   "source": "deflorian",
+   "store": "Online: Deflorian",
+   "name": "Zillertaler Kaskrapfen mini",
+   "brand": "Deflorian",
+   "price_eur": 8.5,
+   "unit_price_eur": 2.58,
+   "unit": "100 g",
+   "size_g": 330.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.shopify.com/s/files/1/1021/4555/6810/files/def_zillertalermini.png?v=1775807695",
+   "producer": "Deflorian Tiefkühlspezialitäten GmbH, Hnr. 35b, 6069 Gnadenwald, Tirol (UID ATU64259769, LG Innsbruck)",
+   "producer_id": null,
+   "origin": "AT (handgemacht in Gnadenwald, Tirol lt. Shop)",
+   "category": "Fertiggericht",
+   "source_url": "https://deflorian.tirol/products/zillertaler-mini",
+   "source_id": "15579360395594",
+   "fetched_at": "2026-10-25T00:13:29+00:00",
+   "extra": {
+    "handle": "zillertaler-mini",
+    "pack": "15 Stück",
+    "variants": [
+     {
+      "title": "15 Stück",
+      "price": "8.50",
+      "grams": 330,
+      "available": true
+     }
+    ],
+    "available": true,
+    "kind": "Teigware/Knödel",
+    "tags": [
+     "Krapfen"
+    ],
+    "description": "Kleine, rohe Zillertaler Kaskrapfen mit würziger Füllung aus Graukäse, Ziger, Kartoffeln und Schnittlauch – traditionelle Zillertaler Spezialität.",
+    "ingredients": "Wasser, WEIZENMEHL, ROGGENMEHL, TOPFEN, 8% KÄSE, MILCH, Kartoffel, Sonnenblumenöl, Salz, Schnittlauch, Pfeffer. KANN SPUREN VON SOJABOHNEN, LUPINEN UND SCHALENFRÜCHTE ENTHALTEN.",
+    "storage": "tiefgekühlt (−18 °C)",
+    "price_note": "Preis der kleinsten Packung inkl. MwSt. lt. Shopify-Storefront (EUR); Gewicht = Shopify-Variantengewicht",
+    "shipping_note": "Versand nur innerhalb Österreichs, tiefgekühlt im Isolierkarton mit Trockeneis, Zustellung donnerstags; 14,99 € unter 40 € Warenkorb, ab 40 € versandkostenfrei (policies/shipping-policy)"
+   }
+  },
+  {
+   "source": "deflorian",
+   "store": "Online: Deflorian",
+   "name": "Bärlauchknödel",
+   "brand": "Deflorian",
+   "price_eur": 8.9,
+   "unit_price_eur": 1.48,
+   "unit": "100 g",
+   "size_g": 600.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.shopify.com/s/files/1/1021/4555/6810/files/def_baerlauchknoedel.png?v=1775807695",
+   "producer": "Deflorian Tiefkühlspezialitäten GmbH, Hnr. 35b, 6069 Gnadenwald, Tirol (UID ATU64259769, LG Innsbruck)",
+   "producer_id": null,
+   "origin": "AT (handgemacht in Gnadenwald, Tirol lt. Shop)",
+   "category": "Fertiggericht",
+   "source_url": "https://deflorian.tirol/products/barlauchknodel",
+   "source_id": "15579338211658",
+   "fetched_at": "2026-10-25T00:13:29+00:00",
+   "extra": {
+    "handle": "barlauchknodel",
+    "pack": "6 Stück",
+    "variants": [
+     {
+      "title": "6 Stück",
+      "price": "8.90",
+      "grams": 600,
+      "available": true
+     },
+     {
+      "title": "16 Stück ( 22% günstiger )",
+      "price": "18.80",
+      "grams": 1600,
+      "available": true
+     }
+    ],
+    "available": true,
+    "kind": "Teigware/Knödel",
+    "tags": [
+     "Knödel"
+    ],
+    "description": "Lockere Bärlauchknödel aus klassischer Knödelmasse mit Knödelbrot, Milch und Zwiebeln, verfeinert mit aromatischem Bärlauch – würzig, saftig und fein abgestimmt im Geschmack.",
+    "ingredients": "KNÖDELBROT (WEIZENMEHL, HEFE, SALZ, WASSER), VOLLMILCH, WASSER, VOLLEI, 7 % BÄRLAUCH, WEIZENMEHL, ZWIEBEL, SALZ, PFEFFER, MUSKAT. Kann Spuren von Sojabohnen, Sesam, Lupinen und Schalenfrüchten enthalten.",
+    "storage": "tiefgekühlt (−18 °C)",
+    "price_note": "Preis der kleinsten Packung inkl. MwSt. lt. Shopify-Storefront (EUR); Gewicht = Shopify-Variantengewicht",
+    "shipping_note": "Versand nur innerhalb Österreichs, tiefgekühlt im Isolierkarton mit Trockeneis, Zustellung donnerstags; 14,99 € unter 40 € Warenkorb, ab 40 € versandkostenfrei (policies/shipping-policy)"
+   }
+  },
+  {
+   "source": "deflorian",
+   "store": "Online: Deflorian",
+   "name": "Rohnenknödel",
+   "brand": "Deflorian",
+   "price_eur": 8.6,
+   "unit_price_eur": 1.43,
+   "unit": "100 g",
+   "size_g": 600.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.shopify.com/s/files/1/1021/4555/6810/files/def_rohnenknoedel.png?v=1775807696",
+   "producer": "Deflorian Tiefkühlspezialitäten GmbH, Hnr. 35b, 6069 Gnadenwald, Tirol (UID ATU64259769, LG Innsbruck)",
+   "producer_id": null,
+   "origin": "AT (handgemacht in Gnadenwald, Tirol lt. Shop)",
+   "category": "Fertiggericht",
+   "source_url": "https://deflorian.tirol/products/rohnenknodel",
+   "source_id": "15579322515786",
+   "fetched_at": "2026-10-25T00:13:30+00:00",
+   "extra": {
+    "handle": "rohnenknodel",
+    "pack": "6 Stück",
+    "variants": [
+     {
+      "title": "6 Stück",
+      "price": "8.60",
+      "grams": 600,
+      "available": true
+     },
+     {
+      "title": "16 Stück ( 16% günstiger )",
+      "price": "19.36",
+      "grams": 1600,
+      "available": true
+     }
+    ],
+    "available": true,
+    "kind": "Teigware/Knödel",
+    "tags": [
+     "Knödel"
+    ],
+    "description": "Lockere, farbenfrohe Rohnenknödel, feine Knödelmasse mit kräftigem Rohnengeschmack und mit dezenter Krennote – aromatisch, leicht würzig und farblich ein Hingucker.",
+    "ingredients": "Knödelbrot (WEIZENMEHL, Hefe, Salz, Wasser), 20% Rote Beete, Wasser, VOLLEI, Zwiebel, WEIZENMEHL, Salz, Sonnenblumenöl, Kren, Kümmel, Koriander, Pfeffer. Kann Spuren von Sojabohnen, Sesam, Schalenfrüchten und Lupinen enthalten.",
+    "storage": "tiefgekühlt (−18 °C)",
+    "price_note": "Preis der kleinsten Packung inkl. MwSt. lt. Shopify-Storefront (EUR); Gewicht = Shopify-Variantengewicht",
+    "shipping_note": "Versand nur innerhalb Österreichs, tiefgekühlt im Isolierkarton mit Trockeneis, Zustellung donnerstags; 14,99 € unter 40 € Warenkorb, ab 40 € versandkostenfrei (policies/shipping-policy)"
+   }
+  },
+  {
+   "source": "deflorian",
+   "store": "Online: Deflorian",
+   "name": "Kasnocken",
+   "brand": "Deflorian",
+   "price_eur": 7.8,
+   "unit_price_eur": 1.86,
+   "unit": "100 g",
+   "size_g": 420.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.shopify.com/s/files/1/1021/4555/6810/files/def_kasnocken.png?v=1775807696",
+   "producer": "Deflorian Tiefkühlspezialitäten GmbH, Hnr. 35b, 6069 Gnadenwald, Tirol (UID ATU64259769, LG Innsbruck)",
+   "producer_id": null,
+   "origin": "AT (handgemacht in Gnadenwald, Tirol lt. Shop)",
+   "category": "Fertiggericht",
+   "source_url": "https://deflorian.tirol/products/kasnocken",
+   "source_id": "15579245805898",
+   "fetched_at": "2026-10-25T00:13:31+00:00",
+   "extra": {
+    "handle": "kasnocken",
+    "pack": "6 Stück",
+    "variants": [
+     {
+      "title": "6 Stück",
+      "price": "7.80",
+      "grams": 420,
+      "available": true
+     },
+     {
+      "title": "20 Stück ( 12% günstiger )",
+      "price": "22.88",
+      "grams": 1400,
+      "available": true
+     }
+    ],
+    "available": true,
+    "kind": "Teigware/Knödel",
+    "tags": [
+     "Knödel"
+    ],
+    "description": "Herzhafte, Kasnocken mit kräftigem Graukäse, würzigem Bergkäse und feinem Ziger – cremig geschmolzen und intensiv im Geschmack.",
+    "ingredients": "Knödelbrot (WEIZENMEHL, Hefe, Salz, Wasser), 19% KÄSE, MILCH, Wasser, VOLLEI, WEIZENMEHL, Zwiebel, Salz, Petersilie, Pfeffer, Muskatnuss. Kann Spuren von Sojabohnen, Sesam, Lupinen und Schalenfrüchten enthalten.",
+    "storage": "tiefgekühlt (−18 °C)",
+    "price_note": "Preis der kleinsten Packung inkl. MwSt. lt. Shopify-Storefront (EUR); Gewicht = Shopify-Variantengewicht",
+    "shipping_note": "Versand nur innerhalb Österreichs, tiefgekühlt im Isolierkarton mit Trockeneis, Zustellung donnerstags; 14,99 € unter 40 € Warenkorb, ab 40 € versandkostenfrei (policies/shipping-policy)"
+   }
+  },
+  {
+   "source": "deflorian",
+   "store": "Online: Deflorian",
+   "name": "Kaspressknödel vorgebacken",
+   "brand": "Deflorian",
+   "price_eur": 8.2,
+   "unit_price_eur": 2.05,
+   "unit": "100 g",
+   "size_g": 400.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.shopify.com/s/files/1/1021/4555/6810/files/def_kaspressknoedel.png?v=1775807696",
+   "producer": "Deflorian Tiefkühlspezialitäten GmbH, Hnr. 35b, 6069 Gnadenwald, Tirol (UID ATU64259769, LG Innsbruck)",
+   "producer_id": null,
+   "origin": "AT (handgemacht in Gnadenwald, Tirol lt. Shop)",
+   "category": "Fertiggericht",
+   "source_url": "https://deflorian.tirol/products/kaspressknodel-vorgebacken",
+   "source_id": "15578057965898",
+   "fetched_at": "2026-10-25T00:13:32+00:00",
+   "extra": {
+    "handle": "kaspressknodel-vorgebacken",
+    "pack": "4 Stück",
+    "variants": [
+     {
+      "title": "4 Stück",
+      "price": "8.20",
+      "grams": 400,
+      "available": true
+     },
+     {
+      "title": "10 Stück ( 17% günstiger )",
+      "price": "17.05",
+      "grams": 1000,
+      "available": true
+     }
+    ],
+    "available": true,
+    "kind": "Teigware/Knödel",
+    "tags": [
+     "Knödel"
+    ],
+    "description": "Goldbraun gebackene Kaspressknödel mit würzigem Graukäse, Bergkäse und Ziger, verfeinert mit Kartoffeln und Topfen – außen knusprig, innen herzhaft und ideal als Suppeneinlage, zu Salat oder Sauerkraut.",
+    "ingredients": "Knödelbrot (WEIZENMEHL, Hefe, Salz, Wasser), MILCH, VOLLEI, 9% Graukäse (MAGERMILCH, Salz, Pfeffer, Mikroorganismenkulturen), 9% Bergkäse (MILCH, Käserei Kulturen, Salz, tierisches Lab), Sonnenblumenöl, Wasser, TOPFEN, Kartoffelflocken, 3% Ziger (MILCH, Salz, Pfeffer, Milchsäurebakterienkulturen, Hefekulturen), Zwiebel, WEIZENMEHL, Salz, Petersilie, Pfeffer. Kann Spuren von Sojabohnen, Sesam, Lupinen und Schalenfrüchten enthalten.",
+    "storage": "tiefgekühlt (−18 °C)",
+    "price_note": "Preis der kleinsten Packung inkl. MwSt. lt. Shopify-Storefront (EUR); Gewicht = Shopify-Variantengewicht",
+    "shipping_note": "Versand nur innerhalb Österreichs, tiefgekühlt im Isolierkarton mit Trockeneis, Zustellung donnerstags; 14,99 € unter 40 € Warenkorb, ab 40 € versandkostenfrei (policies/shipping-policy)"
+   }
+  },
+  {
+   "source": "deflorian",
+   "store": "Online: Deflorian",
+   "name": "Speckknödel",
+   "brand": "Deflorian",
+   "price_eur": 9.3,
+   "unit_price_eur": 1.55,
+   "unit": "100 g",
+   "size_g": 600.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.shopify.com/s/files/1/1021/4555/6810/files/def_speckknoedel.png?v=1775807695",
+   "producer": "Deflorian Tiefkühlspezialitäten GmbH, Hnr. 35b, 6069 Gnadenwald, Tirol (UID ATU64259769, LG Innsbruck)",
+   "producer_id": null,
+   "origin": "AT (handgemacht in Gnadenwald, Tirol lt. Shop)",
+   "category": "Fertiggericht",
+   "source_url": "https://deflorian.tirol/products/speckknodel",
+   "source_id": "15578054230346",
+   "fetched_at": "2026-10-25T00:13:34+00:00",
+   "extra": {
+    "handle": "speckknodel",
+    "pack": "6 Stück",
+    "variants": [
+     {
+      "title": "6 Stück",
+      "price": "9.30",
+      "grams": 600,
+      "available": true
+     },
+     {
+      "title": "16 Stück ( 4% günstiger )",
+      "price": "23.76",
+      "grams": 1600,
+      "available": true
+     }
+    ],
+    "available": true,
+    "kind": "Teigware/Knödel",
+    "tags": [
+     "Knödel"
+    ],
+    "description": "Herzhafte Speckknödel mit Tiroler Speck und goldbraun gerösteten Zwiebeln – locker in der Konsistenz, würzig und kräftig im Geschmack, ideal als Suppeneinlage oder Hauptgericht.",
+    "ingredients": "Knödelbrot (WEIZENMEHL, Hefe, Salz, Wasser), MILCH, 19% Speckwürfel (Schweinefleisch, Meersalz, Gewürze, Dextrose, Konservierungsstoffe: (Natriumnitrit, Kaliumnitrat), Buchenholzrauch), Wasser, VOLLEI, Zwiebel, Salz, Sonnenblumenöl, Petersilie, Muskatnuss, Pfeffer. Kann Spuren von Sojabohnen, Sesam, Lupinen und Schalenfrüchten enthalten.",
+    "storage": "tiefgekühlt (−18 °C)",
+    "price_note": "Preis der kleinsten Packung inkl. MwSt. lt. Shopify-Storefront (EUR); Gewicht = Shopify-Variantengewicht",
+    "shipping_note": "Versand nur innerhalb Österreichs, tiefgekühlt im Isolierkarton mit Trockeneis, Zustellung donnerstags; 14,99 € unter 40 € Warenkorb, ab 40 € versandkostenfrei (policies/shipping-policy)"
+   }
+  },
+  {
+   "source": "deflorian",
+   "store": "Online: Deflorian",
+   "name": "Spinatknödel",
+   "brand": "Deflorian",
+   "price_eur": 7.8,
+   "unit_price_eur": 1.3,
+   "unit": "100 g",
+   "size_g": 600.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.shopify.com/s/files/1/1021/4555/6810/files/def_spinatknoedel.png?v=1775807695",
+   "producer": "Deflorian Tiefkühlspezialitäten GmbH, Hnr. 35b, 6069 Gnadenwald, Tirol (UID ATU64259769, LG Innsbruck)",
+   "producer_id": null,
+   "origin": "AT (handgemacht in Gnadenwald, Tirol lt. Shop)",
+   "category": "Fertiggericht",
+   "source_url": "https://deflorian.tirol/products/spinatknodel",
+   "source_id": "15578010648906",
+   "fetched_at": "2026-10-25T00:13:35+00:00",
+   "extra": {
+    "handle": "spinatknodel",
+    "pack": "6 Stück",
+    "variants": [
+     {
+      "title": "6 Stück",
+      "price": "7.80",
+      "grams": 600,
+      "available": true
+     },
+     {
+      "title": "16 Stück ( 15% günstiger )",
+      "price": "17.60",
+      "grams": 1600,
+      "available": true
+     }
+    ],
+    "available": true,
+    "kind": "Teigware/Knödel",
+    "tags": [
+     "Knödel"
+    ],
+    "description": "Spinatknödel mit Blattspinat und Cremespinat, verfeinert mit Zwiebeln und Knoblauch. Locker in der Konsistenz, aromatisch und angenehm würzig im Geschmack, unser meistverkaufter Knödel :)",
+    "ingredients": "46% Spinat, Knödelbrot (WEIZENMEHL, Hefe, Salz, Wasser), VOLLEI, WEIZENMEHL, Zwiebel, Wasser, Knoblauch, Salz, Muskatnuss, Pfeffer. Kann Spuren von Sojabohnen, Sesam, Lupinen und Schalenfrüchten enthalten.",
+    "storage": "tiefgekühlt (−18 °C)",
+    "price_note": "Preis der kleinsten Packung inkl. MwSt. lt. Shopify-Storefront (EUR); Gewicht = Shopify-Variantengewicht",
+    "shipping_note": "Versand nur innerhalb Österreichs, tiefgekühlt im Isolierkarton mit Trockeneis, Zustellung donnerstags; 14,99 € unter 40 € Warenkorb, ab 40 € versandkostenfrei (policies/shipping-policy)"
+   }
+  },
+  {
+   "source": "deflorian",
+   "store": "Online: Deflorian",
+   "name": "Schlutzkrapfen mit Bärlauchfülle",
+   "brand": "Deflorian",
+   "price_eur": 8.7,
+   "unit_price_eur": 1.93,
+   "unit": "100 g",
+   "size_g": 450.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.shopify.com/s/files/1/1021/4555/6810/files/def_schlutz-baerlauch.png?v=1775807696",
+   "producer": "Deflorian Tiefkühlspezialitäten GmbH, Hnr. 35b, 6069 Gnadenwald, Tirol (UID ATU64259769, LG Innsbruck)",
+   "producer_id": null,
+   "origin": "AT (handgemacht in Gnadenwald, Tirol lt. Shop)",
+   "category": "Fertiggericht",
+   "source_url": "https://deflorian.tirol/products/schlutzkrapfen-mit-barlauchfulle",
+   "source_id": "15577999376714",
+   "fetched_at": "2026-10-25T00:13:35+00:00",
+   "extra": {
+    "handle": "schlutzkrapfen-mit-barlauchfulle",
+    "pack": "15 Stück",
+    "variants": [
+     {
+      "title": "15 Stück",
+      "price": "8.70",
+      "grams": 450,
+      "available": true
+     },
+     {
+      "title": "40 Stück ( 11% günstiger )",
+      "price": "20.70",
+      "grams": 1200,
+      "available": true
+     }
+    ],
+    "available": true,
+    "kind": "Teigware/Knödel",
+    "tags": [
+     "Schlutzkrapfen"
+    ],
+    "description": "Teigtaschen mit herzhafter Fülle aus Kartoffeln, Südtiroler Ricotta, Topfen aus der Region, Bärlauch und Zwiebeln, umhüllt von dünnem Teig – mit feiner Knoblauchnote und angenehm rundem Charakter.",
+    "ingredients": "WEIZENMEHL, Wasser, Ricotta (MOLKE, RAHM, MAGERLMILCH, Salz, Säuerungsmittel: Citronensäure), TOPFEN, Kartoffelflocken, VOLLEI, 3% Bärlauch, Zwiebel, Sonnenblumenöl, Salz, Pfeffer, Muskatnuss. KANN SPUREN VON SOJABOHNEN, LUPINEN UND SCHALENFRÜCHTE ENTHALTEN.",
+    "storage": "tiefgekühlt (−18 °C)",
+    "price_note": "Preis der kleinsten Packung inkl. MwSt. lt. Shopify-Storefront (EUR); Gewicht = Shopify-Variantengewicht",
+    "shipping_note": "Versand nur innerhalb Österreichs, tiefgekühlt im Isolierkarton mit Trockeneis, Zustellung donnerstags; 14,99 € unter 40 € Warenkorb, ab 40 € versandkostenfrei (policies/shipping-policy)"
+   }
+  },
+  {
+   "source": "deflorian",
+   "store": "Online: Deflorian",
+   "name": "Schlutzkrapfen mit Kürbisfülle",
+   "brand": "Deflorian",
+   "price_eur": 8.7,
+   "unit_price_eur": 1.93,
+   "unit": "100 g",
+   "size_g": 450.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.shopify.com/s/files/1/1021/4555/6810/files/def_schlutz-kuerbis.png?v=1775807695",
+   "producer": "Deflorian Tiefkühlspezialitäten GmbH, Hnr. 35b, 6069 Gnadenwald, Tirol (UID ATU64259769, LG Innsbruck)",
+   "producer_id": null,
+   "origin": "AT (handgemacht in Gnadenwald, Tirol lt. Shop)",
+   "category": "Fertiggericht",
+   "source_url": "https://deflorian.tirol/products/schlutzkrapfen-mit-kurbisfulle",
+   "source_id": "15577994690890",
+   "fetched_at": "2026-10-25T00:13:36+00:00",
+   "extra": {
+    "handle": "schlutzkrapfen-mit-kurbisfulle",
+    "pack": "15 Stück",
+    "variants": [
+     {
+      "title": "15 Stück",
+      "price": "8.70",
+      "grams": 450,
+      "available": true
+     },
+     {
+      "title": "40 Stück ( 11% günstiger )",
+      "price": "20.70",
+      "grams": 1200,
+      "available": true
+     }
+    ],
+    "available": true,
+    "kind": "Teigware/Knödel",
+    "tags": [
+     "Schlutzkrapfen"
+    ],
+    "description": "Teigtaschen mit herzhafter Kürbisfülle aus Tiroler Muskatkürbis, verfeinert mit Kartoffeln und Zwiebeln sowie Kürbiskernen und Kürbiskernöl aus der Steiermark, umhüllt dünnem Teig – nussig, ausgewogen und angenehm würzig.",
+    "ingredients": "WEIZENMEHL, Wasser, 20% Kürbis, Kartoffel, VOLLEI, Zwiebel, 2% Kürbiskernöl, 2% Kürbiskerne, Salz, Pfeffer. Kann Spuren von Sojabohnen, Lupinen und Schalenfrüchten enthalten.",
+    "storage": "tiefgekühlt (−18 °C)",
+    "price_note": "Preis der kleinsten Packung inkl. MwSt. lt. Shopify-Storefront (EUR); Gewicht = Shopify-Variantengewicht",
+    "shipping_note": "Versand nur innerhalb Österreichs, tiefgekühlt im Isolierkarton mit Trockeneis, Zustellung donnerstags; 14,99 € unter 40 € Warenkorb, ab 40 € versandkostenfrei (policies/shipping-policy)"
+   }
+  },
+  {
+   "source": "deflorian",
+   "store": "Online: Deflorian",
+   "name": "Schlutzkrapfen mit Pfifferlingsfülle",
+   "brand": "Deflorian",
+   "price_eur": 11.5,
+   "unit_price_eur": 2.84,
+   "unit": "100 g",
+   "size_g": 405.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.shopify.com/s/files/1/1021/4555/6810/files/def_schlutz-pfifferling.png?v=1775807696",
+   "producer": "Deflorian Tiefkühlspezialitäten GmbH, Hnr. 35b, 6069 Gnadenwald, Tirol (UID ATU64259769, LG Innsbruck)",
+   "producer_id": null,
+   "origin": "AT (handgemacht in Gnadenwald, Tirol lt. Shop)",
+   "category": "Fertiggericht",
+   "source_url": "https://deflorian.tirol/products/schlutzkrapfen-mit-pfifferlingsfulle",
+   "source_id": "15577989349706",
+   "fetched_at": "2026-10-25T00:13:38+00:00",
+   "extra": {
+    "handle": "schlutzkrapfen-mit-pfifferlingsfulle",
+    "pack": "15 Stück",
+    "variants": [
+     {
+      "title": "15 Stück",
+      "price": "11.50",
+      "grams": 405,
+      "available": true
+     },
+     {
+      "title": "40 Stück ( 11% günstiger )",
+      "price": "27.30",
+      "grams": 1080,
+      "available": true
+     }
+    ],
+    "available": true,
+    "kind": "Teigware/Knödel",
+    "tags": [
+     "Schlutzkrapfen"
+    ],
+    "description": "Teigtaschen mit aromatischer Pfifferlingfülle, verfeinert mit frischer Petersilie, Schnittlauch und Zwiebeln, umhüllt von dünnem Teig – fein pilzig, kräuterbetont und harmonisch im Geschmack.",
+    "ingredients": "WEIZENMEHL, 40% Pfifferlinge, Brösel (WEIZENMEHL, Hefe, Salz, Wasser), VOLLEI, Zwiebel, Sonnenblumenöl, Salz, Schnittlauch, Petersilie, Pfeffer. KANN SPUREN VON SOJABOHNEN, LUPINEN UND SCHALENFRÜCHTE ENTHALTEN.",
+    "storage": "tiefgekühlt (−18 °C)",
+    "price_note": "Preis der kleinsten Packung inkl. MwSt. lt. Shopify-Storefront (EUR); Gewicht = Shopify-Variantengewicht",
+    "shipping_note": "Versand nur innerhalb Österreichs, tiefgekühlt im Isolierkarton mit Trockeneis, Zustellung donnerstags; 14,99 € unter 40 € Warenkorb, ab 40 € versandkostenfrei (policies/shipping-policy)"
+   }
+  },
+  {
+   "source": "deflorian",
+   "store": "Online: Deflorian",
+   "name": "Schlutzkrapfen mit Steinpilzfülle",
+   "brand": "Deflorian",
+   "price_eur": 11.5,
+   "unit_price_eur": 3.07,
+   "unit": "100 g",
+   "size_g": 375.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.shopify.com/s/files/1/1021/4555/6810/files/def_schlutz-steinpilz.png?v=1775807696",
+   "producer": "Deflorian Tiefkühlspezialitäten GmbH, Hnr. 35b, 6069 Gnadenwald, Tirol (UID ATU64259769, LG Innsbruck)",
+   "producer_id": null,
+   "origin": "AT (handgemacht in Gnadenwald, Tirol lt. Shop)",
+   "category": "Fertiggericht",
+   "source_url": "https://deflorian.tirol/products/schlutzkrapfen-mit-steinpilzfulle",
+   "source_id": "15577982599498",
+   "fetched_at": "2026-10-25T00:13:38+00:00",
+   "extra": {
+    "handle": "schlutzkrapfen-mit-steinpilzfulle",
+    "pack": "15 Stück",
+    "variants": [
+     {
+      "title": "15 Stück",
+      "price": "11.50",
+      "grams": 375,
+      "available": true
+     },
+     {
+      "title": "40 Stück ( 11% günstiger )",
+      "price": "27.30",
+      "grams": 1000,
+      "available": true
+     }
+    ],
+    "available": true,
+    "kind": "Teigware/Knödel",
+    "tags": [
+     "Schlutzkrapfen"
+    ],
+    "description": "Teigtaschen mit intensiver Steinpilzfülle, verfeinert mit aromatischem Steinpilzfond, Zwiebeln und Schnittlauch, umhüllt von dünnem Teig – kräftig, rund und voll im Geschmack.",
+    "ingredients": "WEIZENMEHL, 29% Steinpilze, Wasser, Brösel (WEIZENMEHL, Hefe, Salz, Wasser), VOLLEI, Sonnenblumenöl, Salz, Zwiebel, Schnittlauch, Pfeffer. OHNE FARBSTOFFE, OHNE GESCHMACKSVERSTÄRKER, OHNE EMULGATOREN, OHNE KONSERVIERUNGSSTOFFE. KANN SPUREN VON SOJABOHNEN, SESAM, LUPINEN UND SCHALENFRÜCHTE ENTHALTEN.",
+    "storage": "tiefgekühlt (−18 °C)",
+    "price_note": "Preis der kleinsten Packung inkl. MwSt. lt. Shopify-Storefront (EUR); Gewicht = Shopify-Variantengewicht",
+    "shipping_note": "Versand nur innerhalb Österreichs, tiefgekühlt im Isolierkarton mit Trockeneis, Zustellung donnerstags; 14,99 € unter 40 € Warenkorb, ab 40 € versandkostenfrei (policies/shipping-policy)"
+   }
+  },
+  {
+   "source": "deflorian",
+   "store": "Online: Deflorian",
+   "name": "Osttiroler Schlipfkrapfen",
+   "brand": "Deflorian",
+   "price_eur": 8.5,
+   "unit_price_eur": 1.89,
+   "unit": "100 g",
+   "size_g": 450.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.shopify.com/s/files/1/1021/4555/6810/files/def_osttiroler-schlipfkrapfen.png?v=1775807696",
+   "producer": "Deflorian Tiefkühlspezialitäten GmbH, Hnr. 35b, 6069 Gnadenwald, Tirol (UID ATU64259769, LG Innsbruck)",
+   "producer_id": null,
+   "origin": "AT (handgemacht in Gnadenwald, Tirol lt. Shop)",
+   "category": "Fertiggericht",
+   "source_url": "https://deflorian.tirol/products/osttiroler-schlipfkrapfen",
+   "source_id": "15577976439114",
+   "fetched_at": "2026-10-25T00:13:40+00:00",
+   "extra": {
+    "handle": "osttiroler-schlipfkrapfen",
+    "pack": "15 Stück",
+    "variants": [
+     {
+      "title": "15 Stück",
+      "price": "8.50",
+      "grams": 450,
+      "available": true
+     },
+     {
+      "title": "40 Stück ( 27% günstiger )",
+      "price": "16.60",
+      "grams": 1200,
+      "available": true
+     }
+    ],
+    "available": true,
+    "kind": "Teigware/Knödel",
+    "tags": [
+     "Schlutzkrapfen"
+    ],
+    "description": "Teigtaschen mit herzhafter Fülle aus Kartoffeln, verfeinert mit Butterzwiebeln, Sauerrahm und einer leichten Knoblauchnote, umhüllt von zartem Teig – mild, rund und angenehm würzig.",
+    "ingredients": "Wasser, WEIZENMEHL, 7% SAUERRAHM, 6% Kartoffel, VOLLEI, Zwiebel, BUTTER, Sonnenblumenöl, Salz, Schnittlauch, Knoblauch. Kann Spuren von Sojabohnen, Lupinen und Schalenfrüchten enthalten.",
+    "storage": "tiefgekühlt (−18 °C)",
+    "price_note": "Preis der kleinsten Packung inkl. MwSt. lt. Shopify-Storefront (EUR); Gewicht = Shopify-Variantengewicht",
+    "shipping_note": "Versand nur innerhalb Österreichs, tiefgekühlt im Isolierkarton mit Trockeneis, Zustellung donnerstags; 14,99 € unter 40 € Warenkorb, ab 40 € versandkostenfrei (policies/shipping-policy)"
+   }
+  },
+  {
+   "source": "deflorian",
+   "store": "Online: Deflorian",
+   "name": "Schlutzkrapfen mit Topfenfülle",
+   "brand": "Deflorian",
+   "price_eur": 8.5,
+   "unit_price_eur": 1.89,
+   "unit": "100 g",
+   "size_g": 450.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.shopify.com/s/files/1/1021/4555/6810/files/def_packaging_schlutz-topfen.png?v=1775807695",
+   "producer": "Deflorian Tiefkühlspezialitäten GmbH, Hnr. 35b, 6069 Gnadenwald, Tirol (UID ATU64259769, LG Innsbruck)",
+   "producer_id": null,
+   "origin": "AT (handgemacht in Gnadenwald, Tirol lt. Shop)",
+   "category": "Fertiggericht",
+   "source_url": "https://deflorian.tirol/products/schlutzkrapfen-mit-topfenfulle",
+   "source_id": "15577868829002",
+   "fetched_at": "2026-10-25T00:13:40+00:00",
+   "extra": {
+    "handle": "schlutzkrapfen-mit-topfenfulle",
+    "pack": "15 Stück",
+    "variants": [
+     {
+      "title": "15 Stück",
+      "price": "8.50",
+      "grams": 450,
+      "available": true
+     },
+     {
+      "title": "40 Stück ( 27% günstiger )",
+      "price": "16.60",
+      "grams": 1200,
+      "available": true
+     }
+    ],
+    "available": true,
+    "kind": "Teigware/Knödel",
+    "tags": [
+     "Schlutzkrapfen"
+    ],
+    "description": "Teigtaschen mit milder Topfenfülle aus Tiroler Topfen, Südtiroler Ricotta und Kartoffeln, verfeinert mit Schnittlauch, umhüllt von hellgrünen, dünn ausgerolltem Teig – fein abgestimmt und angenehm leichte Säure im Geschmack.",
+    "ingredients": "WEIZENMEHL, Wasser, 12% TOPFEN, MILCH, Kartoffelflocken, Ricotta (MOLKE, RAHM, MAGERMILCH, Säuerungsmittel: Citronensäure), VOLLEI, Spinat, Sonnenblumenöl, Salz, Schnittlauch, Pfeffer. KANN SPUREN VON SOJABOHNEN, LUPINEN, SCHALENFRÜCHTE UND SELLERIE ENTHALTEN.",
+    "storage": "tiefgekühlt (−18 °C)",
+    "price_note": "Preis der kleinsten Packung inkl. MwSt. lt. Shopify-Storefront (EUR); Gewicht = Shopify-Variantengewicht",
+    "shipping_note": "Versand nur innerhalb Österreichs, tiefgekühlt im Isolierkarton mit Trockeneis, Zustellung donnerstags; 14,99 € unter 40 € Warenkorb, ab 40 € versandkostenfrei (policies/shipping-policy)"
+   }
+  },
+  {
+   "source": "deflorian",
+   "store": "Online: Deflorian",
+   "name": "Tiroler Tris",
+   "brand": "Deflorian",
+   "price_eur": 8.9,
+   "unit_price_eur": 1.53,
+   "unit": "100 g",
+   "size_g": 580.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.shopify.com/s/files/1/1021/4555/6810/files/def_tris.png?v=1775807697",
+   "producer": "Deflorian Tiefkühlspezialitäten GmbH, Hnr. 35b, 6069 Gnadenwald, Tirol (UID ATU64259769, LG Innsbruck)",
+   "producer_id": null,
+   "origin": "AT (handgemacht in Gnadenwald, Tirol lt. Shop)",
+   "category": "Fertiggericht",
+   "source_url": "https://deflorian.tirol/products/tiroler-tris",
+   "source_id": "15577850642762",
+   "fetched_at": "2026-10-25T00:13:41+00:00",
+   "extra": {
+    "handle": "tiroler-tris",
+    "pack": "2 Portionen",
+    "variants": [
+     {
+      "title": "2 Portionen",
+      "price": "8.90",
+      "grams": 580,
+      "available": true
+     }
+    ],
+    "available": true,
+    "kind": "Teigware/Knödel",
+    "tags": [
+     "Schlutzkrapfen"
+    ],
+    "description": "Unser Tiroler Tris mit 4 Schlutzkrapfen mit Graukäsefülle, 4 Schlutzkrapfen mit Spinatfülle, 2 Spinatknödeln und 2 Käseknödeln – eine abwechslungsreiche Auswahl unserer beliebtesten Spezialitäten. Ideal für alle, die sich nicht entscheiden möchten – hier ist für jeden Geschmack etwas dabei.",
+    "ingredients": "20% Spinat, WEIZENMEHL, Wasser, Knödelbrot (WEIZENMEHL, Hefe, Salz, Wasser), VOLLEI, MILCH, 6% Käse (Graukäse (MAGERMILCH, Salz, Pfeffer, Mikroorganismenkulturen), Bergkäse (MILCH, Käsereikulturen, Salz, tierisches Lab), Ziger (MILCH, Salz, Pfeffer, Milchsäurebakterienkulturen, Hefekulturen)), TOPFEN, Kartoffelflocken, Zwiebel, Salz, Sonnenblumenöl, Knoblauch, Schnittlauch, Petersilie, Pfeffer, Muskatnuss. Kann Spuren von Sellerie, Sesam, Sojabohnen, Lupinen und Schalenfrüchten enthalten.",
+    "storage": "tiefgekühlt (−18 °C)",
+    "price_note": "Preis der kleinsten Packung inkl. MwSt. lt. Shopify-Storefront (EUR); Gewicht = Shopify-Variantengewicht",
+    "shipping_note": "Versand nur innerhalb Österreichs, tiefgekühlt im Isolierkarton mit Trockeneis, Zustellung donnerstags; 14,99 € unter 40 € Warenkorb, ab 40 € versandkostenfrei (policies/shipping-policy)"
+   }
+  },
+  {
+   "source": "deflorian",
+   "store": "Online: Deflorian",
+   "name": "Schlutzkrapfen mit Graukäsefüllung",
+   "brand": "Deflorian",
+   "price_eur": 8.5,
+   "unit_price_eur": 1.89,
+   "unit": "100 g",
+   "size_g": 450.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.shopify.com/s/files/1/1021/4555/6810/files/def_schlutz-graukas.png?v=1775807695",
+   "producer": "Deflorian Tiefkühlspezialitäten GmbH, Hnr. 35b, 6069 Gnadenwald, Tirol (UID ATU64259769, LG Innsbruck)",
+   "producer_id": null,
+   "origin": "AT (handgemacht in Gnadenwald, Tirol lt. Shop)",
+   "category": "Fertiggericht",
+   "source_url": "https://deflorian.tirol/products/schlutzkrapfen-mit-graukasefullung",
+   "source_id": "15575203709258",
+   "fetched_at": "2026-10-25T00:13:42+00:00",
+   "extra": {
+    "handle": "schlutzkrapfen-mit-graukasefullung",
+    "pack": "15 Stück",
+    "variants": [
+     {
+      "title": "15 Stück",
+      "price": "8.50",
+      "grams": 450,
+      "available": true
+     },
+     {
+      "title": "40 Stück ( 27% günstiger )",
+      "price": "16.60",
+      "grams": 1200,
+      "available": true
+     }
+    ],
+    "available": true,
+    "kind": "Teigware/Knödel",
+    "tags": [
+     "Schlutzkrapfen"
+    ],
+    "description": "Teigtaschen mit würziger Käsefülle, mit Graukäse, Ziger, Kartoffeln und Topfen, verfeinert mit frischem Schnittlauch, umhüllt von feinem, grünem Teig – kräftig im Geschmack mit fein abgestimmter, herzhafter Note.",
+    "ingredients": "WEIZENMEHL, Wasser, MILCH, Spinat, TOPFEN, 6% Graukäse (MAGERMILCH, Salz, Pfeffer, Mikroorganismenkulturen), Kartoffelflocken, VOLLEI, Sonnenblumenöl, Salz, Ziger (MILCH, Salz, Pfeffer, Milchsäurebakterienkulturen, Hefekulturen), Schnittlauch, Pfeffer. Kann Spuren von Sojabohnen, Lupinen, Schalenfrüchten und Sellerie enthalten.",
+    "storage": "tiefgekühlt (−18 °C)",
+    "price_note": "Preis der kleinsten Packung inkl. MwSt. lt. Shopify-Storefront (EUR); Gewicht = Shopify-Variantengewicht",
+    "shipping_note": "Versand nur innerhalb Österreichs, tiefgekühlt im Isolierkarton mit Trockeneis, Zustellung donnerstags; 14,99 € unter 40 € Warenkorb, ab 40 € versandkostenfrei (policies/shipping-policy)"
+   }
+  },
+  {
+   "source": "deflorian",
+   "store": "Online: Deflorian",
+   "name": "Schlutzkrapfen mit Spinatfülle",
+   "brand": "Deflorian",
+   "price_eur": 8.5,
+   "unit_price_eur": 1.89,
+   "unit": "100 g",
+   "size_g": 450.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.shopify.com/s/files/1/1021/4555/6810/files/def_schlutz-spinat.png?v=1775807696",
+   "producer": "Deflorian Tiefkühlspezialitäten GmbH, Hnr. 35b, 6069 Gnadenwald, Tirol (UID ATU64259769, LG Innsbruck)",
+   "producer_id": null,
+   "origin": "AT (handgemacht in Gnadenwald, Tirol lt. Shop)",
+   "category": "Fertiggericht",
+   "source_url": "https://deflorian.tirol/products/schlutzkrapfen-mit-spinatfulle",
+   "source_id": "15546468761930",
+   "fetched_at": "2026-10-25T00:13:43+00:00",
+   "extra": {
+    "handle": "schlutzkrapfen-mit-spinatfulle",
+    "pack": "15 Stück",
+    "variants": [
+     {
+      "title": "15 Stück",
+      "price": "8.50",
+      "grams": 450,
+      "available": true
+     },
+     {
+      "title": "40 Stück ( 27% günstiger )",
+      "price": "16.60",
+      "grams": 1200,
+      "available": true
+     }
+    ],
+    "available": true,
+    "kind": "Teigware/Knödel",
+    "tags": [
+     "Schlutzkrapfen"
+    ],
+    "description": "Teigtaschen mit herzhafter Spinatfülle aus Blattspinat, Kartoffeln und Tiroler Topfen, verfeinert mit Knoblauch, umhüllt von feinem, dünnem Teig – ausgewogen, würzig und angenehm aromatisch.",
+    "ingredients": "WEIZENMEHL, Wasser, 22 % Blattspinat, TOPFEN, VOLLEI, Kartoffel, Sonnenblumenöl, Salz, Zwiebel, Knoblauch, Muskatnuss, Pfeffer. Kann Spuren von Sojabohnen, Lupinen und Schalenfrüchte enthalten.",
+    "storage": "tiefgekühlt (−18 °C)",
+    "price_note": "Preis der kleinsten Packung inkl. MwSt. lt. Shopify-Storefront (EUR); Gewicht = Shopify-Variantengewicht",
+    "shipping_note": "Versand nur innerhalb Österreichs, tiefgekühlt im Isolierkarton mit Trockeneis, Zustellung donnerstags; 14,99 € unter 40 € Warenkorb, ab 40 € versandkostenfrei (policies/shipping-policy)"
+   }
+  },
+  {
+   "source": "deflorian",
+   "store": "Online: Deflorian",
+   "name": "Schlutzkrapfen mit Schafkäsefülle",
+   "brand": "Deflorian",
+   "price_eur": 8.5,
+   "unit_price_eur": 2.27,
+   "unit": "100 g",
+   "size_g": 375.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.shopify.com/s/files/1/1021/4555/6810/files/def_schlutz-schafkaese.png?v=1775807696",
+   "producer": "Deflorian Tiefkühlspezialitäten GmbH, Hnr. 35b, 6069 Gnadenwald, Tirol (UID ATU64259769, LG Innsbruck)",
+   "producer_id": null,
+   "origin": "AT (handgemacht in Gnadenwald, Tirol lt. Shop)",
+   "category": "Fertiggericht",
+   "source_url": "https://deflorian.tirol/products/schlutzkrapfen-mit-schafkaesefuelle",
+   "source_id": "15546468106570",
+   "fetched_at": "2026-10-25T00:13:44+00:00",
+   "extra": {
+    "handle": "schlutzkrapfen-mit-schafkaesefuelle",
+    "pack": "15 Stück",
+    "variants": [
+     {
+      "title": "15 Stück",
+      "price": "8.50",
+      "grams": 375,
+      "available": true
+     },
+     {
+      "title": "40 Stück ( 16% günstiger )",
+      "price": "19.06",
+      "grams": 1200,
+      "available": true
+     }
+    ],
+    "available": true,
+    "kind": "Teigware/Knödel",
+    "tags": [
+     "Schlutzkrapfen"
+    ],
+    "description": "Teigtaschen mit aromatischer Schafkäsefülle mit Schafkäse und Südtiroler Ricotta, verfeinert mit Paprika, Zucchini und Zwiebelwürfeln, umhüllt von dünnem, rotem Rohnenteig – würzig, leicht mediterran und ausgewogen im Geschmack.",
+    "ingredients": "WEIZENMEHL, Wasser, 11% SCHAFKÄSE, Zucchini, Ricotta (MOLKE, RAHM, MAGERLMILCH, Säuerungsmittel: Citronensäure), VOLLEI, Paprikawürfel, Sonnenblumenöl, Kartoffelflocken, Rote Beete Saftkonzentrat, Zwiebel, Salz, Pfeffer. Kann Spuren von Sojabohnen, Lupinen und Schalenfrüchten enthalten.",
+    "storage": "tiefgekühlt (−18 °C)",
+    "price_note": "Preis der kleinsten Packung inkl. MwSt. lt. Shopify-Storefront (EUR); Gewicht = Shopify-Variantengewicht",
+    "shipping_note": "Versand nur innerhalb Österreichs, tiefgekühlt im Isolierkarton mit Trockeneis, Zustellung donnerstags; 14,99 € unter 40 € Warenkorb, ab 40 € versandkostenfrei (policies/shipping-policy)"
+   }
+  },
+  {
+   "source": "deflorian",
+   "store": "Online: Deflorian",
+   "name": "Schlutzkrapfen mit Speckfülle",
+   "brand": "Deflorian",
+   "price_eur": 8.7,
+   "unit_price_eur": 1.93,
+   "unit": "100 g",
+   "size_g": 450.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://cdn.shopify.com/s/files/1/1021/4555/6810/files/def_schlutz-speck.png?v=1775807696",
+   "producer": "Deflorian Tiefkühlspezialitäten GmbH, Hnr. 35b, 6069 Gnadenwald, Tirol (UID ATU64259769, LG Innsbruck)",
+   "producer_id": null,
+   "origin": "AT (handgemacht in Gnadenwald, Tirol lt. Shop)",
+   "category": "Fertiggericht",
+   "source_url": "https://deflorian.tirol/products/schlutzkrapfen-mit-speckfulle",
+   "source_id": "15538523701578",
+   "fetched_at": "2026-10-25T00:13:46+00:00",
+   "extra": {
+    "handle": "schlutzkrapfen-mit-speckfulle",
+    "pack": "15 Stück",
+    "variants": [
+     {
+      "title": "15 Stück",
+      "price": "8.70",
+      "grams": 450,
+      "available": true
+     },
+     {
+      "title": "40 Stück ( 11% günstiger )",
+      "price": "20.70",
+      "grams": 1200,
+      "available": true
+     }
+    ],
+    "available": true,
+    "kind": "Teigware/Knödel",
+    "tags": [
+     "Schlutzkrapfen"
+    ],
+    "description": "Schlutzkrapfen mit herzhafter Speckfülle aus Tiroler Speck, gerösteten Zwiebeln und Sauerrahm, umhüllt von feinem Teig – kräftig, rund und angenehm würzig im Geschmack.",
+    "ingredients": "Wasser, WEIZENMEHL, 9% Speckwürfel (Schweinefleisch, Meersalz Gewürze, Dextrose, Konservierungsstoffe: (Natriumnitrit, Kaliumnitrat), Buchenholzrauch), SAUERRAHM, Kartoffelflocken, VOLLEI, Zwiebel, Sonnenblumenöl, Schnittlauch, Salz, Knoblauch. Ohne Geschmacksverstärker. Kann Spuren von Sojabohnen, Lupinen und Schalenfrüchten enthalten.",
+    "storage": "tiefgekühlt (−18 °C)",
+    "price_note": "Preis der kleinsten Packung inkl. MwSt. lt. Shopify-Storefront (EUR); Gewicht = Shopify-Variantengewicht",
+    "shipping_note": "Versand nur innerhalb Österreichs, tiefgekühlt im Isolierkarton mit Trockeneis, Zustellung donnerstags; 14,99 € unter 40 € Warenkorb, ab 40 € versandkostenfrei (policies/shipping-policy)"
+   }
+  }
+ ],
+ "excluded": [
+  {
+   "id": 16040542536010,
+   "name": "Kastanienkrapfen gebacken",
+   "tags": [
+    "Krapfen"
+   ],
+   "reason": "Sauce/Beilage/Suppeneinlage/Gebäck/Paket/Gutschein, kein Fertiggericht"
+  },
+  {
+   "id": 16040537129290,
+   "name": "Mohnkrapfen gebacken",
+   "tags": [],
+   "reason": "Sauce/Beilage/Suppeneinlage/Gebäck/Paket/Gutschein, kein Fertiggericht"
+  },
+  {
+   "id": 15720550564170,
+   "name": "Probierpaket \"Vegetarische Klassiker\"",
+   "tags": [
+    "Knödel",
+    "Schlutzkrapfen"
+   ],
+   "reason": "Sauce/Beilage/Suppeneinlage/Gebäck/Paket/Gutschein, kein Fertiggericht"
+  },
+  {
+   "id": 15716166730058,
+   "name": "Probierpaket „Kulinarische Kreationen“",
+   "tags": [
+    "Knödel",
+    "Schlutzkrapfen"
+   ],
+   "reason": "Sauce/Beilage/Suppeneinlage/Gebäck/Paket/Gutschein, kein Fertiggericht"
+  },
+  {
+   "id": 15628400263498,
+   "name": "Deflorian Gutschein",
+   "tags": [],
+   "reason": "Sauce/Beilage/Suppeneinlage/Gebäck/Paket/Gutschein, kein Fertiggericht"
+  },
+  {
+   "id": 15579482915146,
+   "name": "Schokoladen Gugelhupf",
+   "tags": [
+    "Nachspeisen"
+   ],
+   "reason": "Sauce/Beilage/Suppeneinlage/Gebäck/Paket/Gutschein, kein Fertiggericht"
+  },
+  {
+   "id": 15579473183050,
+   "name": "Wuchteln / Buchteln vorgebacken",
+   "tags": [
+    "Nachspeisen"
+   ],
+   "reason": "Sauce/Beilage/Suppeneinlage/Gebäck/Paket/Gutschein, kein Fertiggericht"
+  },
+  {
+   "id": 15579461091658,
+   "name": "Butterbrösel",
+   "tags": [
+    "Nachspeisen"
+   ],
+   "reason": "Sauce/Beilage/Suppeneinlage/Gebäck/Paket/Gutschein, kein Fertiggericht"
+  },
+  {
+   "id": 15579446935882,
+   "name": "Sauerkraut",
+   "tags": [
+    "Beilage"
+   ],
+   "reason": "Sauce/Beilage/Suppeneinlage/Gebäck/Paket/Gutschein, kein Fertiggericht"
+  },
+  {
+   "id": 15579442708810,
+   "name": "Parmesan gerieben",
+   "tags": [
+    "Beilage"
+   ],
+   "reason": "Sauce/Beilage/Suppeneinlage/Gebäck/Paket/Gutschein, kein Fertiggericht"
+  },
+  {
+   "id": 15579439137098,
+   "name": "Eierspatzln",
+   "tags": [
+    "Beilage"
+   ],
+   "reason": "Sauce/Beilage/Suppeneinlage/Gebäck/Paket/Gutschein, kein Fertiggericht"
+  },
+  {
+   "id": 15579431862602,
+   "name": "Fleischsugo",
+   "tags": [
+    "Fleischgerichte"
+   ],
+   "reason": "Sauce/Beilage/Suppeneinlage/Gebäck/Paket/Gutschein, kein Fertiggericht"
+  },
+  {
+   "id": 15579415347530,
+   "name": "Erdäpfelpaunzen",
+   "tags": [
+    "Beilage"
+   ],
+   "reason": "Sauce/Beilage/Suppeneinlage/Gebäck/Paket/Gutschein, kein Fertiggericht"
+  },
+  {
+   "id": 15579401322826,
+   "name": "Erdäpfelblattln",
+   "tags": [
+    "Krapfen"
+   ],
+   "reason": "Sauce/Beilage/Suppeneinlage/Gebäck/Paket/Gutschein, kein Fertiggericht"
+  },
+  {
+   "id": 15579391066442,
+   "name": "Kiachl gebacken",
+   "tags": [
+    "Krapfen"
+   ],
+   "reason": "Sauce/Beilage/Suppeneinlage/Gebäck/Paket/Gutschein, kein Fertiggericht"
+  },
+  {
+   "id": 15579349844298,
+   "name": "Milzschnitten",
+   "tags": [
+    "Suppen"
+   ],
+   "reason": "Sauce/Beilage/Suppeneinlage/Gebäck/Paket/Gutschein, kein Fertiggericht"
+  },
+  {
+   "id": 15579304493386,
+   "name": "Leberknödel",
+   "tags": [
+    "Knödel"
+   ],
+   "reason": "Sauce/Beilage/Suppeneinlage/Gebäck/Paket/Gutschein, kein Fertiggericht"
+  },
+  {
+   "id": 15579223294282,
+   "name": "Semmelknödel",
+   "tags": [
+    "Knödel"
+   ],
+   "reason": "Sauce/Beilage/Suppeneinlage/Gebäck/Paket/Gutschein, kein Fertiggericht"
+  }
+ ]
+}
