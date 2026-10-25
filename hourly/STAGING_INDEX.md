@@ -148,3 +148,15 @@ No file staged (0 new rows). Fresh fetches of billa, dm, mpreis-shop, juit, loew
 - Skipped from the Alfies tail: dry/instant products (Knorr Spaghetteria, Kaiser Teller, Cup a Soup, Pho, Miso, Maggi Quick Snack and Asia Beutel, Feel Food 85 g packs, Ashoka), sides and components (Spätzle, Schupfnudeln, Gnocchi, Lasagneblätter, Pommes, Kochsalat, Baked Beanz, Fleischlaibchen, Wings, Nuggets, Patties, Fischstäbchen), cold wraps, Aumaerk sous-vide meat cuts (meat only, 13,90–39,90 €), smoothies, Blinis, aperitif bites, Camembert, Rana fresh ravioli.
 - Rotated --limit 60 batch (adamah, dm, gerbl, scheffknecht, suppito, loewenanteil, goldblatt, ruckzuck, kernbeisser, gourmet-daheim, juit, issmich; 4 parallel, ~4.5 min, all exit 0) gave 0 new. Note: online stores (ADAMAH, Gerbl, Suppito, Ruck Zuck, Scheffknecht, GOURMET Daheim) live in fertiggerichte-daten/data/online_mealprep.csv, not data.json, so dedupe against both or they all look new.
 - Goal of 20 reached this hour (28), all from the Alfies tail; next idea: fetch other connectors with a high limit too (gurkerl, billa, spar-shop) in small batches when the box is idle.
+
+### hourly 2026-10-25T06
+
+| file | source | rows | tags | status |
+|---|---|---|---|---|
+| staged_2026-10-25T06.json | gurkerl | 5 | main-component 5 | staged, not merged |
+
+- Rows: Wegschaider Haschee Knödel, Grammel Knödel and Speck Knödel (400 g, 4,59 €, GTIN, ingredients; nutrition for Grammel and Speck; the Haschee values published by the shop are implausible (carbs 1 g, saturated fat equal to fat 6 g), so they are kept only in extra.published_nutrition_suspect); Gissinger Grammelknödel 210 g 4,49 € and Wurstknödel 210 g 3,69 € (ingredients, no nutrition published; the Wurstknödel code 211… is an in-store code, not a GTIN, so ean is null). All are pre-cooked filled Knödel from Kühlregal > Schnelle Küche > Knödel, Spätzle & Co, which the Hourly Fertiggerichte sweep had never walked.
+- Fetches with 0 new meals: gurkerl all meal categories (553 rows at --limit 1000), billa 135, spar-shop 202, mpreis-shop 155, hofer-shop 21, bofrost 60, leitgeb 29, nudlkudlmudl 7, Gurkerl search sweep over 43 stems (958 rows). Everything was a duplicate, a side, a sauce, raw food, baby food or an item rejected in earlier hours. Store ids are mpreis-shop and hofer-shop (mpreis and hofer are invalid).
+- Skipped: Spätzle, Schupfnudeln, Nockerl, Knödel and potato doughs, Polentarolle, plain Gissinger Waldviertler Knödel (sides); Gurkerl sous-vide meat cuts (Wech chicken wings, duck fillet and legs, goose legs, Nemetz Surstelze, Wiesbauer Beef Ribs, Windisch Porchetta 2,3 kg), meat only, as in T05; Wiesbauer Mediterrane Schweinebacken sous vide (no ingredients or nutrition published, unclear whether sauced).
+- Goal of 20 not reached (5). Next idea: walk the remaining Gurkerl Kühlregal > Schnelle Küche subcategories (Kochboxen 137493 are kits, Salate & Bowls 989 are cold) and Tiefkühl Knödel 606 for filled varieties not yet in data.json.
+- No export, commit, push or deploy from fertig or fertig-app.

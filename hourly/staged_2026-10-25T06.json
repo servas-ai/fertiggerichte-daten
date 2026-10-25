@@ -1,0 +1,153 @@
+[
+ {
+  "source": "gurkerl",
+  "store": "Gurkerl.at",
+  "name": "Wegschaider Haschee Knödel",
+  "brand": "Wegschaider",
+  "price_eur": 4.59,
+  "unit_price_eur": 11.48,
+  "unit": "kg",
+  "size_g": 400.0,
+  "nutrition_100g": {},
+  "ean": "9002562017480",
+  "image_url": "https://cdn.gurkerl.at/images/grocery/products/49927/49927-1792474083540228265.jpg",
+  "producer": null,
+  "producer_id": null,
+  "origin": "Österreich",
+  "category": "Kühlregal > Schnelle Küche > Frische Pasta, Spätzle & Knödel > Knödel, Spätzle & Co",
+  "source_url": "https://www.gurkerl.at/49927-wegschaider-haschee-knoedel",
+  "source_id": "49927",
+  "fetched_at": "2026-10-25T06:35:24+00:00",
+  "extra": {
+   "hourly_tag": "main-component",
+   "ingredients": "Teig (Trinkwasser, WEIZENMEHL, Kartoffelflocken, VOLLEI, Rapsöl, Kochsalz), 30% Haschee (Rind- und Schweinefleisch, Stärke, Gewürze (u.a. SENF, SELLERIE) und Aromen, Stabilisator: E450, Geschmacksverstärker: E621, Konservierungsmittel: E250, geräuchert). Vorgekocht. 100 g Knödel enthalten 25 g Rind- und Schweinefleisch.",
+   "qa_note": "vorgekochter gefüllter Knödel aus dem Kühlregal, zum Erhitzen; wie bestehende Grammel-/Speck-/Wurstknödel-Zeilen behandelt; Shop-Nährwerte unplausibel (Kohlenhydrate 1 g, gesättigte Fettsäuren = Fett 6 g), daher nicht übernommen; keine Nährwerte veröffentlicht",
+   "published_nutrition_suspect": {
+    "kcal": 239.0,
+    "fat": 6.0,
+    "satfat": 6.0,
+    "carbs": 1.0,
+    "sugar": 0.1,
+    "protein": 4.5,
+    "salt": 2.0
+   }
+  }
+ },
+ {
+  "source": "gurkerl",
+  "store": "Gurkerl.at",
+  "name": "Wegschaider Grammel Knödel",
+  "brand": "Wegschaider",
+  "price_eur": 4.59,
+  "unit_price_eur": 11.48,
+  "unit": "kg",
+  "size_g": 400.0,
+  "nutrition_100g": {
+   "kcal": 317.0,
+   "fat": 19.0,
+   "satfat": 9.0,
+   "carbs": 27.0,
+   "sugar": 1.0,
+   "protein": 9.0,
+   "salt": 2.0
+  },
+  "ean": "9002562017626",
+  "image_url": "https://cdn.gurkerl.at/images/grocery/products/49926/49926-1792474082925156652.jpg",
+  "producer": null,
+  "producer_id": null,
+  "origin": "Österreich",
+  "category": "Kühlregal > Schnelle Küche > Frische Pasta, Spätzle & Knödel > Knödel, Spätzle & Co",
+  "source_url": "https://www.gurkerl.at/49926-wegschaider-grammel-knoedel",
+  "source_id": "49926",
+  "fetched_at": "2026-10-25T06:35:28+00:00",
+  "extra": {
+   "hourly_tag": "main-component",
+   "ingredients": "Teig (Trinkwasser, WEIZENMEHL, Kartoffelflocken, VOLLEI, Rapsöl, Kochsalz), 30% Grammeln (100% Schweinefleisch), Petersilienblätter.",
+   "qa_note": "vorgekochter gefüllter Knödel aus dem Kühlregal, zum Erhitzen; wie bestehende Grammel-/Speck-/Wurstknödel-Zeilen behandelt"
+  }
+ },
+ {
+  "source": "gurkerl",
+  "store": "Gurkerl.at",
+  "name": "Wegschaider Speck Knödel",
+  "brand": "Wegschaider",
+  "price_eur": 4.59,
+  "unit_price_eur": 11.48,
+  "unit": "kg",
+  "size_g": 400.0,
+  "nutrition_100g": {
+   "kcal": 239.0,
+   "fat": 11.2,
+   "satfat": 4.9,
+   "carbs": 27.0,
+   "sugar": 1.4,
+   "protein": 7.6,
+   "salt": 2.0
+  },
+  "ean": "9002562017558",
+  "image_url": "https://cdn.gurkerl.at/images/grocery/products/49928/49928-1792474083774784562.jpg",
+  "producer": null,
+  "producer_id": null,
+  "origin": "Österreich",
+  "category": "Kühlregal > Schnelle Küche > Frische Pasta, Spätzle & Knödel > Knödel, Spätzle & Co",
+  "source_url": "https://www.gurkerl.at/49928-wegschaider-speck-knoedel",
+  "source_id": "49928",
+  "fetched_at": "2026-10-25T06:35:32+00:00",
+  "extra": {
+   "hourly_tag": "main-component",
+   "ingredients": "Teig (Trinkwasser, WEIZENMEHL, Kartoffelflocken, VOLLEI, Rapsöl, Kochsalz), 30% Speck (Schweinefleisch, Konservierungsstoff: E250, Gewürze (u.a. SENF), Aroma, geräuchert), Petersilienblätter, Zwiebel.",
+   "qa_note": "vorgekochter gefüllter Knödel aus dem Kühlregal, zum Erhitzen; wie bestehende Grammel-/Speck-/Wurstknödel-Zeilen behandelt"
+  }
+ },
+ {
+  "source": "gurkerl",
+  "store": "Gurkerl.at",
+  "name": "Gissinger Grammelknödel",
+  "brand": "Gissinger",
+  "price_eur": 4.49,
+  "unit_price_eur": 21.38,
+  "unit": "kg",
+  "size_g": 210.0,
+  "nutrition_100g": {},
+  "ean": "9048130046162",
+  "image_url": "https://cdn.gurkerl.at/images/grocery/products/22185/22185-1634028506947.jpg",
+  "producer": null,
+  "producer_id": null,
+  "origin": "Österreich",
+  "category": "Kühlregal > Schnelle Küche > Frische Pasta, Spätzle & Knödel > Knödel, Spätzle & Co",
+  "source_url": "https://www.gurkerl.at/22185-gissinger-grammelknoedel",
+  "source_id": "22185",
+  "fetched_at": "2026-10-25T06:35:36+00:00",
+  "extra": {
+   "hourly_tag": "main-component",
+   "ingredients": "Zutaten: Kartoffeln, WEIZENMEHL, Grammeln, EI, Zwiebel, Petersilie, Gewürze, Salz",
+   "qa_note": "vorgekochter gefüllter Knödel aus dem Kühlregal, zum Erhitzen; wie bestehende Grammel-/Speck-/Wurstknödel-Zeilen behandelt; keine Nährwerte veröffentlicht"
+  }
+ },
+ {
+  "source": "gurkerl",
+  "store": "Gurkerl.at",
+  "name": "Gissinger Wurstknödel",
+  "brand": "Gissinger",
+  "price_eur": 3.69,
+  "unit_price_eur": 17.57,
+  "unit": "kg",
+  "size_g": 210.0,
+  "nutrition_100g": {},
+  "ean": null,
+  "image_url": "https://cdn.gurkerl.at/images/grocery/products/22186/22186-1634028887521.jpg",
+  "producer": null,
+  "producer_id": null,
+  "origin": "Österreich",
+  "category": "Kühlregal > Schnelle Küche > Frische Pasta, Spätzle & Knödel > Knödel, Spätzle & Co",
+  "source_url": "https://www.gurkerl.at/22186-gissinger-wurstknoedel",
+  "source_id": "22186",
+  "fetched_at": "2026-10-25T06:35:40+00:00",
+  "extra": {
+   "hourly_tag": "main-component",
+   "ingredients": "Zutaten: Zutaten: Kartoffelteig (Kartoffel, Stärke (WEIZEN), WEIZENMEHL, Salz), Dürre (Rind- und Schweinefleisch, Trinkwasser, Kochsalz (Konservierungsstoff: Natriumnitrit), Geschmacksverstärker: Mononatriumglutamat, Kartoffelstärke, Gewürze), Speck (Bauchfleisch, Kochsalz (Konservierungsstoff: Natriumnitrit)), Zwiebel, Gewürze",
+   "qa_note": "vorgekochter gefüllter Knödel aus dem Kühlregal, zum Erhitzen; wie bestehende Grammel-/Speck-/Wurstknödel-Zeilen behandelt; Code 211… ist ein interner Waagen-/Filialcode, keine GTIN; keine Nährwerte veröffentlicht",
+   "shop_code": "2114010002324"
+  }
+ }
+]
