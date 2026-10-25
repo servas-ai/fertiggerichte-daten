@@ -1,0 +1,86 @@
+{
+ "run": "T0133",
+ "checked_at": "2026-10-25T01:45Z",
+ "topic": "Format chains without own product feed: Billa Plus, Eurospar, Interspar, ADEG",
+ "decision": {
+  "Billa Plus": {
+   "status": "covered-via-parent",
+   "parent": "Billa",
+   "rows": 807,
+   "evidence": [
+    {
+     "url": "https://rewe-group.at/de/newsroom/2021/04/ein-plus-fuer-alle-merkur-ist-ab-heute-billa-plus",
+     "quote": "Der BILLA Online Shop wird um die Sortimente von BILLA PLUS erweitert."
+    },
+    {
+     "url": "https://shop.billa.at/",
+     "quote": "holen Sie mit Click & Collect Ihren Einkauf flexibel in einem BILLA oder BILLA Plus Markt in der Nähe ab",
+     "fetched": "2026-10-25 curl 200"
+    }
+   ],
+   "data": "790/807 Billa rows have a shop.billa.at URL (the one shared BILLA/BILLA PLUS online assortment)",
+   "not_covered": "BILLA PLUS in-store counters (Marktküche take-away boxes, Feinkost) are not in any online feed — not indexable"
+  },
+  "Interspar": {
+   "status": "covered-via-parent",
+   "parent": "Spar",
+   "rows": 735,
+   "evidence": [
+    {
+     "source": "food-connectors spar-shop",
+     "fact": "search-spar.spar-ics.com fact-finder index products_lmos_at = the interspar.at shop index; live 2026-10-25: 'Fertiggericht' totalHits 599, shop-source FOS, URLs interspar.at/shop/lebensmittel/.../p/<id>"
+    },
+    {
+     "url": "https://www.5min.at/oesterreich/5202512111432/interspar-stellt-diesen-service-komplett-ein-was-das-fuer-dich-bedeutet/",
+     "fact": "INTERSPAR food ordering/pick-up ended 14.12.2025; product catalogue with prices remains on interspar.at (Cloudflare, not requested) and in the search index"
+    }
+   ],
+   "data": "515/735 Spar rows carry an interspar.at product URL"
+  },
+  "Eurospar": {
+   "status": "covered-via-parent",
+   "parent": "Spar",
+   "evidence": [
+    {
+     "url": "https://www.spar.at/service/produktwelt-faq",
+     "quote": "SPAR-Produktwelt ... über 35.000 Produkten aus dem SPAR-Sortiment ... in welchen SPAR-, EUROSPAR- oder INTERSPAR-Märkten sie aktuell verfügbar sind",
+     "note": "single shared SPAR catalogue; per-market availability lives on spar.at which answers 403 (Cloudflare) to the box — not bypassed"
+    },
+    {
+     "url": "https://www.spar.at/unternehmen/geschaeftstypen",
+     "quote": "EUROSPAR-Märkte bieten auf 1.000 bis 2.000 m² ... INTERSPAR ... bis zu 50.000 ... Produkte"
+    }
+   ],
+   "per_product_format_flag": "impossible: search index field pos-visible holds 1–13 numeric POS ids (e.g. 8757, 8427 …) with no public mapping to EUROSPAR/INTERSPAR formats; not guessed"
+  },
+  "ADEG": {
+   "status": "impossible (no product source)",
+   "evidence": [
+    {
+     "url": "https://www.adeg.at/unternehmen/faqs",
+     "quote": "Seit Oktober 2022 firmiert die Marke ADEG unter dem Dach der REWE Großhandel GmbH ... Eigenmarken: clever, Ja! Natürlich, efef, Billa immer gut, Billa Bio, Simply Good, ... Chef Menü"
+    },
+    {
+     "url": "https://www.adeg.at/sortiment-marken/eigenmarken",
+     "quote": "... Omis Schmankerl von BILLA"
+    },
+    {
+     "source": "COVERAGE adeg dead end 2026-10-13T20b",
+     "fact": "adeg.at has no shop/product API; per-market Issuu flipbooks only"
+    }
+   ],
+   "data": "REWE private-label ready meals ADEG can carry are already indexed under Billa: 322 Billa rows (Billa immer gut, CLEVER, Omis Schmankerl, Simply Good, BILLA Bio, Ja! Natürlich, Vegavita …); ADEG per-market assortment is chosen by independent merchants and not published"
+  }
+ },
+ "bergmann": {
+  "store": "Fleischerei Bergmann, fleischerei-bergmann.at (Impressum: Bergmann GmbH, Klaus Bergmann, Wiener Strasse 2, 3701 Großweikersdorf, FN 170 260 h LG St. Pölten, UID ATU55671605)",
+  "recheck": "2026-10-25T01:40Z: robots allows; sitemap pages = home, shop, datenschutz, konto, checkout, warenkorb, impressum, catering only; /agb /versand /versandkosten /lieferung /liefer-und-zahlungsbedingungen all 404; shop/warenkorb/checkout text has no Versand/Liefer/Zustell terms; WC store API cart shows total_shipping null; no shipping not attempted via add-to-cart (robots disallows ?add-to-cart, and it would be a side effect)",
+  "decision": "closed — no published shipping terms, delivery to Linz cannot be established; shop reads as pickup in Großweikersdorf/markets (Langenzersdorf, Korneuburg, Krems)",
+  "vies": {
+   "checked": "2026-10-25T00:36:47Z",
+   "valid": true,
+   "name": "Bergmann Gesellschaft m.b.H.",
+   "address": "Wiener Straße 2, AT-3701 Großweikersdorf"
+  }
+ }
+}
