@@ -10,7 +10,7 @@ SUPERMARKETS = {'Billa', 'Spar', 'Hofer', 'Lidl', 'dm', 'Penny'}
 def _export(tmp_path, snap=SNAP, **env):
     os.makedirs(tmp_path, exist_ok=True)
     out = tmp_path / 'o.json'
-    e = dict(os.environ, GOOD_CHOICE_OUT=str(out), GOOD_CHOICE_AVAILABILITY=snap, **env)
+    e = dict(os.environ, GOOD_CHOICE_OUT=str(out), GOOD_CHOICE_AVAILABILITY=snap, SC79_FIXES='0', **env)
     e.pop('ENFORCE_SHIPBOX_CAP', None)
     subprocess.run([sys.executable, 'export_app.py'], cwd=ROOT, env=e, check=True, capture_output=True)
     return json.load(open(out))

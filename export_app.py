@@ -75,7 +75,11 @@ for r in R:
     r['eur100k']=round(r['price']/r['kcalpack']*100,2) if r.get('price') and r.get('kcalpack') else None
     r['ppe']=round(r['protpack']/r['price'],1) if r.get('price') and r.get('protpack') else r.get('ppe')
     r['pli']=round(0.5*r['score']+0.5*min((r['ppe'] or 0)/20,1)*100,1) if r.get('score') is not None and r.get('ppe') and r['pstat'] in('live 2026','aktuell') and r['rankable'] else None
-PROT=[('Ripperl/Spareribs','🍖',r'ripperl|spare ?ribs|rippchen'),('Huhn','🐔',r'huhn|hühn|hähn|chicken|hendl|pollo|geflügel'),('Pute','🦃',r'pute|truthahn|turkey'),('Rind','🐄',r'rind|beef|kalb|tafelspitz|roastbeef'),('Schwein','🐖',r'schwein|schinken|speck|leberk|wurst|würst|knacker|cevapcici|grammel|kassler|selch|bratwurst|carne|bolognese|faschiert|fleischlaib|frankfurter|hot dog|leber'),('Lamm','🐑',r'lamm'),('Wild','🦌',r'wild|hirsch|reh'),('Fisch','🐟',r'fisch|lachs|seelachs|thunfisch|forelle|kabeljau|dorsch|schlemmerfilet|hering|makrele|pangasius|zander|tuna'),('Meeresfrüchte','🦐',r'garnele|shrimp|scampi|meeresfr|muschel|tintenfisch|calamar'),('Ei','🥚',r'\bei\b|eier(?!spätzle|nudel)|omelett|frittata'),('Käse/Milch','🧀',r'käse|kas|mozzarella|ricotta|topfen|feta|parmesan|cheese|gorgonzola|rahm'),('Tofu/Soja','🫘',r'tofu|soja|tempeh|edamame'),('Hülsenfrüchte','🥜',r'linsen|kichererb|bohnen|erbsen|dal\b|falafel|hummus'),('Seitan/Fleischersatz','🌱',r'seitan|vegavita|planted|like meat|veggie|fleischersatz|vegan.*(burger|nugget|schnitzel|cordon|wurst)|beyond')]
+_sc79_top_on = os.environ.get('SC79_FIXES', '1') != '0' and os.environ.get('GOOD_CHOICE_DISABLE_SC79', '0') != '1'
+if _sc79_top_on:
+    PROT=[('Ripperl/Spareribs','🍖',r'ripperl|spare ?ribs|rippchen'),('Huhn','🐔',r'huhn|hühn|hähn|(?<!no-)chicken|hendl|pollo|geflügel'),('Pute','🦃',r'pute|truthahn|turkey'),('Rind','🐄',r'rind|beef|kalb|tafelspitz|roastbeef'),('Schwein','🐖',r'schwein|schinken|speck|leberk|wurst|würst|knacker|cevapcici|grammel|kassler|selch|bratwurst|(?<!sin\s)carne|bolognese|faschiert|fleischlaib|frankfurter|hot dog|leber'),('Lamm','🐑',r'lamm'),('Wild','🦌',r'wild(?!lachs|preiselbeer|pilz|reis|kräuter|knoblauch|fang|\s+bill)|hirsch|reh\b|rehragout|rehbraten'),('Fisch','🐟',r'fisch|lachs|seelachs|thunfisch|forelle|kabeljau|dorsch|schlemmerfilet|hering|makrele|pangasius|zander|tuna'),('Meeresfrüchte','🦐',r'garnele|shrimp|scampi|meeresfr|muschel(?!nudel|hörnchen)|tintenfisch|calamar'),('Ei','🥚',r'\bei\b|eier(?!spätzle|nudel)|omelett|frittata'),('Käse/Milch','🧀',r'käse|kas|mozzarella|ricotta|topfen|feta|parmesan|cheese|gorgonzola|rahm'),('Tofu/Soja','🫘',r'tofu|soja|tempeh|edamame'),('Hülsenfrüchte','🥜',r'linsen|kichererb|bohnen|erbsen|dal\b|dhal\b|falafel|hummus|sin\s+carne'),('Seitan/Fleischersatz','🌱',r'seitan|vegavita|planted|like ?meat|veggie|fleischersatz|no-?chicken|vivera|greenforce|billie green|garden gourmet|green cuisine|die pflanzerei|the vegetarian butcher|vegan.*(burger|nugget|schnitzel|cordon|wurst)|beyond')]
+else:
+    PROT=[('Ripperl/Spareribs','🍖',r'ripperl|spare ?ribs|rippchen'),('Huhn','🐔',r'huhn|hühn|hähn|chicken|hendl|pollo|geflügel'),('Pute','🦃',r'pute|truthahn|turkey'),('Rind','🐄',r'rind|beef|kalb|tafelspitz|roastbeef'),('Schwein','🐖',r'schwein|schinken|speck|leberk|wurst|würst|knacker|cevapcici|grammel|kassler|selch|bratwurst|carne|bolognese|faschiert|fleischlaib|frankfurter|hot dog|leber'),('Lamm','🐑',r'lamm'),('Wild','🦌',r'wild|hirsch|reh'),('Fisch','🐟',r'fisch|lachs|seelachs|thunfisch|forelle|kabeljau|dorsch|schlemmerfilet|hering|makrele|pangasius|zander|tuna'),('Meeresfrüchte','🦐',r'garnele|shrimp|scampi|meeresfr|muschel|tintenfisch|calamar'),('Ei','🥚',r'\bei\b|eier(?!spätzle|nudel)|omelett|frittata'),('Käse/Milch','🧀',r'käse|kas|mozzarella|ricotta|topfen|feta|parmesan|cheese|gorgonzola|rahm'),('Tofu/Soja','🫘',r'tofu|soja|tempeh|edamame'),('Hülsenfrüchte','🥜',r'linsen|kichererb|bohnen|erbsen|dal\b|falafel|hummus'),('Seitan/Fleischersatz','🌱',r'seitan|vegavita|planted|like meat|veggie|fleischersatz|vegan.*(burger|nugget|schnitzel|cordon|wurst)|beyond')]
 DISH=[('Gulasch','🥘',r'gulasch|goulash|paprikash|letscho'),('Curry','🍛',r'curry|tikka|masala|korma|dal\b'),('Lasagne','🍝',r'lasagne'),('Pasta','🍝',r'pasta|nudel|spaghetti|penne|tortell|ravioli|maccaroni|makkaroni|linguin|gnocchi|cappellet|fusilli|tagliatelle|spätzle|spirelli|hörnli|fleckerl|kasnudel'),('Risotto','🍚',r'risotto'),('Knödel','🥟',r'knödel|nockerl|dumpling'),('Suppe','🍲',r'suppe|soup|bouillon|brühe|consommé|ramen|pho\b'),('Eintopf','🫕',r'eintopf|topf|ragout|chili|stew|schmorr|geschnetzel'),('Bowl','🥗',r'bowl|salat'),('Asia','🥢',r'asia|teriyaki|thai|wok|süß ?sauer|sweet|nasi|bami|noodle|sushi|gyoza|pad\b|chinese|japan|korea|indisch|ente'),('Mexikanisch','🌮',r'mexi|burrito|tortilla|wrap|chili con|enchilada|taco|quesadilla'),('Österreichisch','🇦🇹',r'schmankerl|omis|wiener|tiroler|kärntner|steir|pinzgauer|schwammerl|kaiserschmarr|grammel|beuschel|tafelspitz|leberkäs|eiernockerl|krautfleckerl|serviettenknödel|alt.?wiener|backhendl|schweinsbraten|stelze|bauernschmaus|erdäpfel'),('Paniert','🍗',r'panier|cordon|schnitzel|nugget|backhendl|backfisch|knusper|crispy|bordelaise|stäbchen|sticks'),('Grill/mariniert','🔥',r'grill|marinier|bbq|spieß|spiess|steak|ripperl|spare|pulled|sous ?vide'),('Pizza/Snack','🍕',r'pizza|flammkuchen|burger|hot dog|sandwich|toast|strudel|baguette')]
 PLAIN_PASTA=re.compile(r"\b(tagliatelle|tagliolini|pappardelle|linguine|fettuccine|bandnudeln|eiernudeln|spaghetti|spaghettini|rigatoni|tortiglioni|penne|fusilli|farfalle|orecchiette|trofie|strozzapreti|paccheri|bucatini|maccheroni|makkaroni)(\s+(all.?uovo|fresche?|frisch|nester|nidi))?\s*(\((frische )?pasta\)|\(frisch\))?\s*$",re.I)
 # review 13 G: verified pack corrections (mpreis.at 16.10.: Nettofüllmenge 710 g = 2 × 355 g) and app-only price labels
@@ -110,9 +114,15 @@ _NOSHIP=set()
 MEALPREP_ONLY={'PrepMyMeal','Juit','every.','LiveFresh','FitTaste','Fit to Go','Löwenanteil','Kernbeißer','Goldblatt','iss mich!'}
 _sc62_top_on = os.environ.get('SC62_FIXES', '1') != '0' and os.environ.get('GOOD_CHOICE_DISABLE_SC62', '0') != '1'
 _sc63_top_on = os.environ.get('SC63_FIXES', '1') != '0' and os.environ.get('GOOD_CHOICE_DISABLE_SC63', '0') != '1'
+_PLANT_TOP_RX79 = re.compile(r'\bsin\s+carne\b|no-?chicken|\bplanted\b|\bvegan\w*|\bveggie\b|\bvegetarisch\w*|\bpflanzlich\w*|\bvivera\b|\bbeyond\s+meat\b|\bgarden\s+gourmet\b|\bgreenforce\b|\bbillie\s+green\b|\blike\s*meat\b|\bvegavita\b|\bvega\s+vita\b|\bgreen\s+cuisine\b|\bdie\s+pflanzerei\b|\bthe\s+vegetarian\s+butcher\b|\bfood\s+for\s+future\b|\bplaneo\b|\bimmer\s+grün\b|\brevo\b|\bevery\.', re.I)
 for r in R:
     t=(r['name']+' '+r['brand']).lower()
     ps=[n for n,i,p in PROT if re.search(p,t)]
+    if _sc79_top_on and (r['vegan'] or _PLANT_TOP_RX79.search(t)):
+        ps=[x for x in ps if x not in ('Ripperl/Spareribs','Huhn','Pute','Rind','Schwein','Lamm','Wild','Fisch','Meeresfrüchte')]
+        if re.search(r'\bsin\s+carne\b', t):
+            r['vegan'] = True
+            if 'Hülsenfrüchte' not in ps: ps.insert(0, 'Hülsenfrüchte')
     if r['vegan'] or 'vegan' in t: ps.append('vegan')
     elif not any(p in ps for p in ['Ripperl/Spareribs','Huhn','Pute','Rind','Schwein','Lamm','Wild','Fisch','Meeresfrüchte']) and (ps or re.search(r'veget|gemüse|spinat|pilz|schwammerl',t)): ps.append('vegetarisch')
     ds=[n for n,i,p in DISH if re.search(p,t)]
@@ -5339,6 +5349,254 @@ def _reconcile_sc48(out):
                                                                                                 if len(_combos78) >= 24:
                                                                                                     break
                                                                                             can['combos'] = _combos78
+                                                                                        # sensecheck 79 P3.1 + P1.1: guarded by SC79_FIXES
+                                                                                        _sc79_fixes_on = _sc78_fixes_on and os.environ.get('SC79_FIXES', '1') != '0' and os.environ.get('GOOD_CHOICE_DISABLE_SC79', '0') != '1'
+                                                                                        if _sc79_fixes_on:
+                                                                                            # --- SC79 P3.1: Assign remaining Ohne Marke products & normalize Linz own-brands ---
+                                                                                            _SPAR_PFX_79 = [
+                                                                                                (r'^Bergkräuter\b', 'Bergkräuter', None, None, False),
+                                                                                                (r'^Freche Freunde\b', 'Freche Freunde', None, None, False),
+                                                                                                (r'^Gusto Naturale\b', 'Gusto Naturale', None, None, False),
+                                                                                                (r'^Heinrich Kühlmann\b', 'Heinrich Kühlmann', None, None, False),
+                                                                                                (r'^Johanna Maier\b', 'Johanna Maier', None, None, False),
+                                                                                                (r'^Kelomat\b', 'Kelomat', None, None, False),
+                                                                                                (r'^Kiano\b', 'Kiano', None, None, False),
+                                                                                                (r'^La Nova\b', 'La Nova', None, None, False),
+                                                                                                (r'^Montafoner\b', 'Montafoner', None, None, False),
+                                                                                                (r'^Nussyy\b', 'Nussyy', None, None, False),
+                                                                                                (r'^Puro Mundo\b', 'Puro Mundo', None, None, False),
+                                                                                                (r'^Recheis\b', 'Recheis', 'analysis/logos/recheis.svg', None, False),
+                                                                                                (r'^Stangl\b', 'Stangl', 'analysis/logos/stangl.png', None, False),
+                                                                                                (r'^Tupperware\b', 'Tupperware', None, None, False),
+                                                                                                (r'^Wiberg\b', 'Wiberg', None, None, False),
+                                                                                                (r'^Wolf Eigold\b', 'Wolf', None, None, False),
+                                                                                                (r'^yebo\.', 'yebo.', None, None, False),
+                                                                                                (r'^Arroz Cebolla\b', 'Arroz Cebolla', None, None, False),
+                                                                                                (r'^Di Martino\b', 'Di Martino', None, None, False),
+                                                                                                (r'^Fackelmann\b', 'Fackelmann', None, None, False),
+                                                                                                (r'^Fischer Knödelbrot\b', 'Fischer', None, None, False),
+                                                                                                (r'^GEFU\b', 'GEFU', None, None, False),
+                                                                                                (r'^Garden Gourmet\b', 'Garden Gourmet', None, None, False),
+                                                                                                (r'^Grand Marnier\b', 'Grand Marnier', None, None, False),
+                                                                                                (r"^Kelly's\b", "Kelly's", None, None, False),
+                                                                                                (r'^Miraplast\b', 'Miraplast', None, None, False),
+                                                                                                (r'^Riess\b', 'Riess', None, None, False),
+                                                                                                (r'^Rummo\b', 'Rummo', None, None, False),
+                                                                                                (r'^Schärdinger\b', 'Schärdinger', 'analysis/logos/schaerdinger.png', None, False),
+                                                                                                (r'^Suntat\b', 'Suntat', None, None, False),
+                                                                                                (r'^Südobst\b', 'Südobst', None, None, False),
+                                                                                                (r'^Vorarlberger Mehl\b', 'Vorarlberger Mehl', None, None, False),
+                                                                                                (r'^Billie Green\b', 'Billie Green', None, None, False),
+                                                                                                (r'^Capricci\b', 'Capricci', None, None, False),
+                                                                                            ]
+                                                                                            _OWNBRAND_META_79 = {
+                                                                                                ('Hofer', 'GOURMET'): ('GOURMET FINEST CUISINE', 'analysis/logos/hofer-gourmet.png', 'Hofer', True),
+                                                                                                ('Hofer', 'GOURMET FINEST CUISINE'): ('GOURMET FINEST CUISINE', 'analysis/logos/hofer-gourmet.png', 'Hofer', True),
+                                                                                                ('Hofer', 'Good Choice'): ('Good Choice', 'analysis/logos/good-choice.png', 'Hofer', True),
+                                                                                                ('Hofer', 'BBQ'): ('BBQ', 'analysis/logos/hofer.svg', 'Hofer', True),
+                                                                                                ('Hofer', 'ALMARE SEAFOOD'): ('Almare', 'analysis/logos/almare.png', 'Hofer', True),
+                                                                                                ('Hofer', 'Almare'): ('Almare', 'analysis/logos/almare.png', 'Hofer', True),
+                                                                                                ('Hofer', 'BON MALheur'): ('BON MALheur', 'analysis/logos/hofer.svg', 'Hofer', True),
+                                                                                                ('Hofer', 'Zurück zum Ursprung'): ('Zurück zum Ursprung', 'analysis/logos/zurueck-zum-ursprung.svg', 'Hofer', True),
+                                                                                                ('Hofer', 'Natur aktiv'): ('Natur aktiv', 'analysis/logos/hofer.svg', 'Hofer', True),
+                                                                                                ('Hofer', 'Natur Aktiv'): ('Natur aktiv', 'analysis/logos/hofer.svg', 'Hofer', True),
+                                                                                                ('Hofer', 'Cucina Nobile'): ('Cucina Nobile', 'analysis/logos/cucina.png', 'Hofer', True),
+                                                                                                ('Hofer', 'CUCINA NOBILE'): ('Cucina Nobile', 'analysis/logos/cucina.png', 'Hofer', True),
+                                                                                                ('Hofer', 'Cucina'): ('Cucina', 'analysis/logos/cucina.png', 'Hofer', True),
+                                                                                                ('Hofer', "Nature's Gold"): ("Nature's Gold", 'analysis/logos/natures-gold.png', 'Hofer', True),
+                                                                                                ('Hofer', 'ASIA GREEN GARDEN'): ('Asia Green Garden', 'analysis/logos/asia-green-garden.png', 'Hofer', True),
+                                                                                                ('Hofer', 'Asia Green Garden'): ('Asia Green Garden', 'analysis/logos/asia-green-garden.png', 'Hofer', True),
+                                                                                                ('Lidl', 'Kania'): ('Kania', 'analysis/logos/kania.png', 'Lidl', True),
+                                                                                                ('Lidl', 'Kania (Lidl)'): ('Kania', 'analysis/logos/kania.png', 'Lidl', True),
+                                                                                                ('Lidl', 'Vemondo'): ('Vemondo', 'analysis/logos/vemondo.png', 'Lidl', True),
+                                                                                                ('Lidl', 'Chef Select'): ('Chef Select', 'analysis/logos/chef-select.png', 'Lidl', True),
+                                                                                                ('Lidl', 'CHEF SELECT'): ('Chef Select', 'analysis/logos/chef-select.png', 'Lidl', True),
+                                                                                                ('Spar', 'SPAR Feine Küche'): ('SPAR Feine Küche', 'analysis/logos/spar-feine-kueche.png', 'Spar', True),
+                                                                                                ('Spar', 'Spar Feine Küche'): ('SPAR Feine Küche', 'analysis/logos/spar-feine-kueche.png', 'Spar', True),
+                                                                                                ('Spar', 'DESPAR'): ('DESPAR', 'analysis/logos/despar.png', 'Spar', True),
+                                                                                                ('Spar', 'SPAR BBQ'): ('SPAR BBQ', 'analysis/logos/spar-bbq.png', 'Spar', True),
+                                                                                                ('Penny', 'Brizza'): ('Brizza', 'analysis/logos/penny-ready.png', 'Penny', False),
+                                                                                                ('Penny', 'BRIZZA'): ('Brizza', 'analysis/logos/penny-ready.png', 'Penny', False),
+                                                                                                ('Penny', 'Penny Ready'): ('Penny Ready', 'analysis/logos/penny-ready.png', 'Penny', True),
+                                                                                                ('Penny', 'Chef Menü'): ('Chef Menü', 'analysis/logos/penny-ready.png', 'Penny', True),
+                                                                                            }
+                                                                                            for _r79 in rows:
+                                                                                                _st79 = _r79.get('store') or ''
+                                                                                                _nm79 = _r79.get('name') or ''
+                                                                                                _rid79 = _r79.get('id')
+                                                                                                _b79 = (_r79.get('brand') or '').strip()
+                                                                                                _bn79 = (_r79.get('brandN') or '').strip()
+                                                                                                _is_unb79 = bool(_r79.get('noBrand')) or not _b79 or _bn79 in ('(ohne Marke)', 'Ohne Marke', '')
+                                                                                                _asgn79 = None
+                                                                                                if _is_unb79:
+                                                                                                    if _st79 == 'Hofer':
+                                                                                                        if _rid79 == 1170 or 'Rohkost-Salatmix' in _nm79:
+                                                                                                            _asgn79 = ('Good Choice', 'Good Choice', 'analysis/logos/good-choice.png', 'Hofer', True)
+                                                                                                        elif re.search(r'^(BIO\s+MAMIA|MAMIA\s+BIO)\b', _nm79, re.I):
+                                                                                                            _asgn79 = ('Mamia', 'Mamia', 'analysis/logos/hofer.svg', 'Hofer', True)
+                                                                                                        elif re.search(r'^BIO\s+(Ravioli|Steinpliz|Steinpilz|Tomaten\s+Risotto|Tortellini)', _nm79, re.I):
+                                                                                                            _asgn79 = ('Natur aktiv', 'Natur aktiv', 'analysis/logos/hofer.svg', 'Hofer', True)
+                                                                                                        elif re.search(r'^GENUSS\s+100%\s+AUS\s+ÖSTERREICH', _nm79, re.I):
+                                                                                                            _asgn79 = ('Genuss aus Österreich', 'Genuss aus Österreich', 'analysis/logos/hofer.svg', 'Hofer', True)
+                                                                                                        elif re.search(r'^HÜTTHALER\b', _nm79, re.I):
+                                                                                                            _asgn79 = ('Hütthaler', 'Hütthaler', 'analysis/logos/hofer.svg', None, False)
+                                                                                                        elif re.search(r'^LANDGUT\b', _nm79, re.I):
+                                                                                                            _asgn79 = ('Landgut', 'Landgut', 'analysis/logos/hofer.svg', 'Hofer', True)
+                                                                                                        elif re.search(r'^WONNEMEYER\b', _nm79, re.I):
+                                                                                                            _asgn79 = ('Wonnemeyer', 'Wonnemeyer', 'analysis/logos/hofer.svg', 'Hofer', True)
+                                                                                                    elif _st79 == 'Billa':
+                                                                                                        if _rid79 == 1325 or 'Holzofen Chili Leberkäse' in _nm79:
+                                                                                                            _asgn79 = ('BILLA', 'BILLA', 'analysis/logos/billa.svg', 'Billa', True)
+                                                                                                        elif _rid79 == 2559 or 'Pulled Chicken sous vide' in _nm79:
+                                                                                                            _asgn79 = ('Die Grillerei', 'Die Grillerei', 'analysis/logos/billa.svg', 'Billa', True)
+                                                                                                    elif _st79 == 'Penny':
+                                                                                                        if _rid79 == 3465 or 'Bami Goreng' in _nm79:
+                                                                                                            _asgn79 = ('Penny Ready', 'Penny Ready', 'analysis/logos/penny-ready.png', 'Penny', True)
+                                                                                                    elif _st79 == 'Spar':
+                                                                                                        for _rx79, _br79, _lg79, _bp79, _ob79 in _SPAR_PFX_79:
+                                                                                                            if re.search(_rx79, _nm79, re.I):
+                                                                                                                _asgn79 = (_br79, _br79, _lg79, _bp79, _ob79)
+                                                                                                                break
+                                                                                                    elif _st79 in ('Gurkerl', 'MPreis', 'Alfies'):
+                                                                                                        if re.search(r'^VIFON\b', _nm79, re.I):
+                                                                                                            _asgn79 = ('Vifon', 'Vifon', None, None, False)
+                                                                                                        elif re.search(r'^Stefri\b', _nm79, re.I):
+                                                                                                            _asgn79 = ('Stefri', 'Stefri', None, None, False)
+                                                                                                        elif _rid79 == 1781 or 'Fleischravioli' in _nm79:
+                                                                                                            _asgn79 = ('Felix', 'Felix', 'analysis/logos/felix.svg', None, False)
+                                                                                                        elif re.search(r'^Fine\s+Schlutzkrapfen', _nm79, re.I):
+                                                                                                            _asgn79 = ('Fine', 'Fine', None, None, False)
+                                                                                                        elif re.search(r'^Chapagetti\b', _nm79, re.I):
+                                                                                                            _asgn79 = ('Nongshim', 'Nongshim', None, None, False)
+                                                                                                if _asgn79 is not None:
+                                                                                                    _b_new, _bn_new, _lg_new, _bp_new, _ob_new = _asgn79
+                                                                                                    _r79['brand'] = _b_new
+                                                                                                    _r79['brandN'] = _bn_new
+                                                                                                    _r79['noBrand'] = False
+                                                                                                    if _lg_new:
+                                                                                                        _r79['logo'] = _lg_new
+                                                                                                    if _bp_new:
+                                                                                                        _r79['brandParent'] = _bp_new
+                                                                                                    if _ob_new:
+                                                                                                        _r79['ownbrand'] = True
+                                                                                                    changed_uids.add(_r79['uid'])
+                                                                                                else:
+                                                                                                    _mk79 = _OWNBRAND_META_79.get((_st79, _b79)) or _OWNBRAND_META_79.get((_st79, _bn79))
+                                                                                                    if _mk79:
+                                                                                                        _bn_m, _lg_m, _bp_m, _ob_m = _mk79
+                                                                                                        _chg79 = False
+                                                                                                        if _r79.get('noBrand'):
+                                                                                                            _r79['noBrand'] = False; _chg79 = True
+                                                                                                        if not _r79.get('brandN') or _r79.get('brandN') in ('(ohne Marke)', 'Ohne Marke'):
+                                                                                                            _r79['brandN'] = _bn_m; _chg79 = True
+                                                                                                        if _lg_m and not _r79.get('logo'):
+                                                                                                            _r79['logo'] = _lg_m; _chg79 = True
+                                                                                                        if _bp_m and not _r79.get('brandParent'):
+                                                                                                            _r79['brandParent'] = _bp_m; _chg79 = True
+                                                                                                        if _ob_m and not _r79.get('ownbrand'):
+                                                                                                            _r79['ownbrand'] = True; _chg79 = True
+                                                                                                        if _chg79:
+                                                                                                            changed_uids.add(_r79['uid'])
+
+                                                                                            # --- SC79 P1.1: Protect plant-based dishes from meat/seafood tagging + tag Chili sin Carne as vegan/Hülsenfrüchte ---
+                                                                                            _MEAT_PROT_79 = {'Ripperl/Spareribs', 'Huhn', 'Pute', 'Rind', 'Schwein', 'Lamm', 'Wild', 'Fisch', 'Meeresfrüchte', 'Ente'}
+                                                                                            _PLANT_PROT_79 = {'Tofu/Soja', 'Hülsenfrüchte', 'Seitan/Fleischersatz', 'Käse/Milch', 'Ei'}
+                                                                                            _PLANT_RX_79 = re.compile(
+                                                                                                r'\bsin\s+carne\b|no-?chicken|\bplanted\b|\bvegan\w*|\bveggie\b|\bvegetarisch\w*|\bpflanzlich\w*|'
+                                                                                                r'\bvivera\b|\bbeyond\s+meat\b|\bgarden\s+gourmet\b|\bgreenforce\b|\bbillie\s+green\b|\blike\s*meat\b|'
+                                                                                                r'\bvegavita\b|\bvega\s+vita\b|\bgreen\s+cuisine\b|\bdie\s+pflanzerei\b|\bthe\s+vegetarian\s+butcher\b|'
+                                                                                                r'\bfood\s+for\s+future\b|\bplaneo\b|\bimmer\s+grün\b|\brügenwalder\s+mühle\s+vegan|\bvegamo\b|\brevo\b|\bendori\b|\bvaless\b|\bquorn\b|\bevery\.',
+                                                                                                re.I
+                                                                                            )
+                                                                                            _VEGAN_RX_79 = re.compile(
+                                                                                                r'\bsin\s+carne\b|no-?chicken|\bplanted\b|\bvegan\w*|\bpflanzlich\w*|\bbeyond\s+meat\b|\bgreenforce\b|'
+                                                                                                r'\bbillie\s+green\b|\blike\s*meat\b|\bvegavita\b|\bvega\s+vita\b|\bgreen\s+cuisine\b|\bdie\s+pflanzerei\b|'
+                                                                                                r'\bfood\s+for\s+future\b|\bplaneo\b|\bimmer\s+grün\b|\bvegamo\b|\brevo\b|\bendori\b|\bevery\.',
+                                                                                                re.I
+                                                                                            )
+                                                                                            _NON_GAME_WILD_RX_79 = re.compile(r'wildlachs|wildpreiselbeer|wildpilz|wildreis|wildkräuter|wildknoblauch|wildfang|wild\s+bill', re.I)
+                                                                                            _TRUE_GAME_RX_79 = re.compile(r'hirsch|reh\b|rehragout|rehbraten|wildschwein|wildragout|wildgulasch|wildbraten', re.I)
+
+                                                                                            for _r79 in rows:
+                                                                                                _rid79 = _r79.get('id')
+                                                                                                _nm79 = _r79.get('name') or ''
+                                                                                                _br79 = (_r79.get('brandN') or _r79.get('brand') or '')
+                                                                                                _txt79 = f'{_nm79} {_br79}'.lower()
+                                                                                                _cp79 = list(_r79.get('cprot') or [])
+                                                                                                _orig_cp79 = list(_cp79)
+                                                                                                _orig_vg79 = bool(_r79.get('vegan'))
+
+                                                                                                # 1. Fix real meat dishes falsely tagged vegan/vegetarisch
+                                                                                                if _rid79 == 3240:  # Bio Chili con Carne Little Lunch
+                                                                                                    _r79['vegan'] = False
+                                                                                                    _cp79 = ['Rind', 'Hülsenfrüchte']
+                                                                                                elif _rid79 == 3157:  # iss mich! Tex-Mex Bio Chili con Carne
+                                                                                                    _r79['vegan'] = False
+                                                                                                    _cp79 = ['Rind', 'Hülsenfrüchte']
+                                                                                                elif _rid79 == 2663:  # Inzersdorfer Bohnensuppe mit Würstel
+                                                                                                    _r79['vegan'] = False
+                                                                                                    _cp79 = ['Rind', 'Schwein', 'Hülsenfrüchte']
+                                                                                                elif _rid79 in (794, 919, 1457, 3856, 3858):  # Real pork/schnitzel/pulled-pork dishes
+                                                                                                    _r79['vegan'] = False
+                                                                                                    _cp79 = [x for x in _cp79 if x not in ('vegan', 'vegetarisch')]
+                                                                                                    if not (_MEAT_PROT_79 & set(_cp79)):
+                                                                                                        _cp79.insert(0, 'Schwein')
+                                                                                                else:
+                                                                                                    # 2. Strip Meeresfrüchte from Muschelnudeln / Suppenmuscherl
+                                                                                                    if 'Meeresfrüchte' in _cp79 and re.search(r'muschelnudel|suppenmuscherl|muschelhörnchen', _txt79):
+                                                                                                        _cp79 = [x for x in _cp79 if x != 'Meeresfrüchte']
+                                                                                                        if not _cp79 and ('veggie' in _txt79 or 'vegetarisch' in _txt79):
+                                                                                                            _cp79 = ['vegetarisch']
+
+                                                                                                    # 3. Strip false Wild from Wildlachs / Wildpreiselbeeren / Wildpilz / Wildreis / Wild Bill
+                                                                                                    if 'Wild' in _cp79 and (_NON_GAME_WILD_RX_79.search(_txt79) or _rid79 == 3094) and not _TRUE_GAME_RX_79.search(_txt79):
+                                                                                                        _cp79 = [x for x in _cp79 if x != 'Wild']
+                                                                                                        if _rid79 == 525 and 'Hülsenfrüchte' not in _cp79:
+                                                                                                            _cp79.append('Hülsenfrüchte')
+                                                                                                        elif _rid79 in (2053, 3623, 3624, 3625):
+                                                                                                            for _t_add in ('Käse/Milch', 'vegetarisch'):
+                                                                                                                if _t_add not in _cp79:
+                                                                                                                    _cp79.append(_t_add)
+                                                                                                        elif _rid79 in (3829, 3832) and 'Rind' not in _cp79:
+                                                                                                            _cp79.append('Rind')
+
+                                                                                                    # 4. Protect plant-based products from meat/seafood tags + Chili sin Carne -> vegan + Hülsenfrüchte
+                                                                                                    _is_sin_carne = bool(re.search(r'\bsin\s+carne\b', _txt79))
+                                                                                                    _is_plant = (
+                                                                                                        _is_sin_carne
+                                                                                                        or bool(_PLANT_RX_79.search(_txt79))
+                                                                                                        or bool(_r79.get('vegan'))
+                                                                                                        or ('vegan' in _cp79)
+                                                                                                        or ('vegetarisch' in _cp79)
+                                                                                                    )
+                                                                                                    if _is_plant:
+                                                                                                        _cp79 = [x for x in _cp79 if x not in _MEAT_PROT_79]
+                                                                                                        if _is_sin_carne:
+                                                                                                            _r79['vegan'] = True
+                                                                                                            if 'Hülsenfrüchte' not in _cp79:
+                                                                                                                _cp79.insert(0, 'Hülsenfrüchte')
+                                                                                                        if not (_PLANT_PROT_79 & set(_cp79)):
+                                                                                                            if re.search(r'linsen|kichererb|bohnen|erbsen|\bdal\b|\bdhal\b|falafel|hummus|chili\s+sin\s+carne', _txt79):
+                                                                                                                _cp79.insert(0, 'Hülsenfrüchte')
+                                                                                                            elif re.search(r'tofu|soja|tempeh|edamame', _txt79):
+                                                                                                                _cp79.insert(0, 'Tofu/Soja')
+                                                                                                            elif re.search(r'seitan|no-?chicken|planted|vivera|beyond|greenforce|billie\s+green|like\s*meat|garden\s+gourmet|green\s+cuisine|die\s+pflanzerei|vegetarian\s+butcher|vegavita|vega\s+vita|revo|fleischersatz|schnitzel|nugget|burger|cordon|wurst|würst|leberkäs|hendl|chicken|gyros|kebab|bolognese|ceviche|lachs|thunfisch|fisch|filet|streifen|chunks|hack|faschiert|gulasch', _txt79):
+                                                                                                                _cp79.insert(0, 'Seitan/Fleischersatz')
+                                                                                                        if _r79.get('vegan') or _VEGAN_RX_79.search(_txt79):
+                                                                                                            if not re.search(r'käse|mozzarella|feta|gouda|cheddar|parmesan|ricotta|halloumi|topfen|rahm|\bei\b|eier', _txt79) or re.search(r'\bvegan|\bsin\s+carne\b|no-?chicken|\bplanted\b', _txt79):
+                                                                                                                _r79['vegan'] = True
+                                                                                                            if _r79.get('vegan') and 'vegan' not in _cp79:
+                                                                                                                _cp79.append('vegan')
+                                                                                                            elif not _r79.get('vegan') and 'vegetarisch' not in _cp79 and 'vegan' not in _cp79:
+                                                                                                                _cp79.append('vegetarisch')
+                                                                                                        else:
+                                                                                                            if 'vegetarisch' not in _cp79 and 'vegan' not in _cp79:
+                                                                                                                _cp79.append('vegetarisch')
+
+                                                                                                _cp79 = list(dict.fromkeys(_cp79))
+                                                                                                if _cp79 != _orig_cp79 or bool(_r79.get('vegan')) != _orig_vg79:
+                                                                                                    _r79['cprot'] = _cp79
+                                                                                                    changed_uids.add(_r79['uid'])
 
     # Check latest online_availability_*.json
     av_files = sorted(glob.glob(os.path.join(base_dir, 'analysis/online_availability_*.json')))
@@ -5491,6 +5749,10 @@ def _reconcile_sc48(out):
             if k in can
         }
         can['dataVersion'] = hashlib.sha256(json.dumps(rows, sort_keys=True, ensure_ascii=False).encode()).hexdigest()[:12]
+    if _sc54_pmm_on and os.environ.get('SC78_FIXES', '1') != '0' and os.environ.get('GOOD_CHOICE_DISABLE_SC78', '0') != '1' and os.environ.get('SC79_FIXES', '1') != '0' and os.environ.get('GOOD_CHOICE_DISABLE_SC79', '0') != '1':
+        if not os.environ.get('GOOD_CHOICE_OUT') or os.environ.get('GOOD_CHOICE_REGEN_ANALYSIS') == '1':
+            import sc79_analysis
+            sc79_analysis.regenerate_all(can, base_dir)
     return can
 
 out = _reconcile_sc48(out)
