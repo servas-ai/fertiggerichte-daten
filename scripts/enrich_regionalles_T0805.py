@@ -1,4 +1,4 @@
-"""RegionAlles Joglland webshop (regionalles.com; RegionALLES WB OG, Arzberg 51, 8253 Waldbach-Mönichwald, Stmk; FN 537480 m per
+"""RegionAlles Joglland webshop (regionalles.com; RegionALLES WB OG, Arzberg 51, 8253 Waldbach-Mönichwald, Stmk; FN 537480m per
 Impressum; UID ATU75793759 VIES valid 2026-10-25 same name/address; GLEIF no LEI) — 6 jar ready meals from regional producers
 (Gastwirtschaft Hold, Biohof Krautgartner, Jobi Forellengasthof). Source: food-connectors `regionalles` (Shopify products.json).
 No nutrition/GTIN published → empty. Photos vision-checked 5/6 (Chili sin Carne reuses the con-Carne packshot → no photo).
@@ -37,8 +37,8 @@ def main():
         w.writerows({c: ("" if r.get(c) is None else r.get(c)) for c in cols} for r in rows)
     out = {"source": "https://www.regionalles.com/products.json?limit=250 (Shopify, 1 request)", "fetched": stamp,
            "robots": "Shopify default: Allow / incl. products; no disallow for /products.json",
-           "operator": "RegionALLES WB OG", "fn": "FN 537480 m",
-           "impressum": {"https://www.regionalles.com/pages/impressum": "RegionALLES WB OG, Arzberg 51, 8253 Waldbach; Tel. +43 676 9276528; info@regionalles.com; FN 537480 m; UID ATU 75793759"},
+           "operator": "RegionALLES WB OG", "fn": "FN 537480m",
+           "impressum": {"https://www.regionalles.com/pages/impressum": "RegionALLES WB OG, Arzberg 51, 8253 Waldbach; Tel. +43 676 9276528; info@regionalles.com; FN 537480m; UID ATU 75793759"},
            "vies": {"uid": "ATU75793759", "valid": True, "checked": "2026-10-25T08:09:00Z", "name": "RegionALLES WB OG", "address": "Arzberg 51/1, AT-8253 Waldbach-Mönichwald"},
            "gleif": "fulltext 'RegionALLES' 0 hits → no LEI",
            "shipping": {"https://www.regionalles.com/pages/faq": "RegionAlles liefert österreichweit mit unserem Partner der Post AG aus ... Kühlversand möglich (zusätzliche Versandkosten); kein Mindestbestellwert; header 'Versandkostenfrei ab 79 EUR!'"},
@@ -50,7 +50,7 @@ def main():
     comp = [r for r in comp if r["slug"] != "regionalles"]
     ap = sorted(r["price_eur"] for r in rows)
     comp.append({c: "" for c in ccols} | {"slug": "regionalles", "name": "RegionAlles Joglland", "role": "retailer",
-        "legal_name": "RegionALLES WB OG", "fn": "FN 537480 m", "register_id": "FN 537480 m", "register_authority": "Firmenbuch",
+        "legal_name": "RegionALLES WB OG", "fn": "FN 537480m", "register_id": "FN 537480m", "register_authority": "Firmenbuch",
         "legal_form_code": "OG", "country": "AT", "address": "Arzberg 51/1, AT-8253 Waldbach-Mönichwald", "entity_status": "UID VIES gültig; kein LEI",
         "website": "https://www.regionalles.com", "product_count": len(rows), "median_price_eur": ap[len(ap) // 2], "fetched_at": stamp,
         "brands": "Gastwirtschaft Hold|Biohof Krautgartner|Jobi", "chains": M.STORE, "uid": "ATU75793759", "uid_vies_name": "RegionALLES WB OG",
