@@ -1,0 +1,281 @@
+{
+ "source": "https://www.purer-genuss.at/wp-json/wc/store/v1/products?per_page=100 (WooCommerce Store API, 1 request)",
+ "fetched": "2026-10-25T0715",
+ "robots": "allows shop/product pages and wp-json; disallows only wp-admin, WooCommerce upload/log folders, add-to-cart",
+ "operator": "Szemes GmbH",
+ "fn": "FN 660812 h",
+ "court": "Landesgericht Eisenstadt",
+ "impressum": {
+  "purer-genuss.at": "Weinstube Familienbetrieb Szemes, Inhaber Philipp Szemes (no FN/UID printed)",
+  "szemes.net": "Szemes GmbH, Hauptstraße 33, 7423 Pinkafeld; FN 660812 h LG Eisenstadt; UID ATU82450358; GF + 50/50 Gesellschafter Philipp Szemes, Tina Posch; gasthaus@szemes.net, +43 3357 42305"
+ },
+ "vies": {
+  "uid": "ATU82450358",
+  "valid": true,
+  "checked": "2026-10-25T07:12:30Z",
+  "name": "Szemes GmbH",
+  "address": "Hauptstraße 33, AT-7423 Pinkafeld"
+ },
+ "gleif": "fulltext 'Szemes' / fuzzycompletions → 0 records → no LEI",
+ "hatwagner": "hatwagner.at TLS connect error (not retried/bypassed) → FN/UID not collected",
+ "shipping": "Versandkosten/Liefergebiet nicht veröffentlicht (nur im Warenkorb) → leer; Abholung in Pinkafeld nach telefonischer Vereinbarung lt. szemes.net",
+ "photo_vision_gate": "7/7 PASS (HEAD 200, jar packshots with matching label)",
+ "excluded": [
+  "sauces: Wild Jus (Saucenbasis, 5,99 €), Wildsugo (8,50 €)",
+  "non-food: GINeins gin products"
+ ],
+ "kept": [
+  {
+   "source": "purergenuss",
+   "store": "Online: Purer Genuss (Schüsseltrieb)",
+   "name": "Wildbeuschel",
+   "brand": "Schüsseltrieb Manufaktur",
+   "price_eur": 9.99,
+   "unit_price_eur": null,
+   "unit": null,
+   "size_g": null,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://www.purer-genuss.at/wp-content/uploads/2021/04/PhotoRoom_20210425_140156.jpg",
+   "producer": "Schüsseltrieb Manufaktur — Szemes GmbH (Weinstube Szemes), Hauptstraße 33, 7423 Pinkafeld, Burgenland (FN 660812 h, UID ATU82450358) mit Fleischerei Hatwagner, Oberpullendorf",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.purer-genuss.at/product/wildbeuschel/",
+   "source_id": "192",
+   "fetched_at": "2026-10-25T07:16:15+00:00",
+   "extra": {
+    "wc_id": 192,
+    "slug": "wildbeuschel",
+    "in_stock": true,
+    "purchasable": true,
+    "categories": [
+     "Schüsseltrieb"
+    ],
+    "vegetarian": false,
+    "images": [
+     "https://www.purer-genuss.at/wp-content/uploads/2021/04/PhotoRoom_20210425_140156.jpg"
+    ],
+    "price_note": "Preis je Glas inkl. MwSt. lt. WooCommerce Store API, zzgl. Versand",
+    "size_note": "keine Füllmenge veröffentlicht (Produktseite nennt nur Versandgewicht 0,4 kg) → leer",
+    "shipping_note": "Versandkosten/Liefergebiet nicht veröffentlicht (nur im Warenkorb) → leer; Abholung in Pinkafeld nach telefonischer Vereinbarung lt. szemes.net"
+   }
+  },
+  {
+   "source": "purergenuss",
+   "store": "Online: Purer Genuss (Schüsseltrieb)",
+   "name": "Chilli Con Wild",
+   "brand": "Schüsseltrieb Manufaktur",
+   "price_eur": 9.99,
+   "unit_price_eur": null,
+   "unit": null,
+   "size_g": null,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://www.purer-genuss.at/wp-content/uploads/2021/04/PhotoRoom_20210425_140233.jpg",
+   "producer": "Schüsseltrieb Manufaktur — Szemes GmbH (Weinstube Szemes), Hauptstraße 33, 7423 Pinkafeld, Burgenland (FN 660812 h, UID ATU82450358) mit Fleischerei Hatwagner, Oberpullendorf",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.purer-genuss.at/product/chilli-con-wild/",
+   "source_id": "190",
+   "fetched_at": "2026-10-25T07:16:15+00:00",
+   "extra": {
+    "wc_id": 190,
+    "slug": "chilli-con-wild",
+    "in_stock": true,
+    "purchasable": true,
+    "categories": [
+     "Schüsseltrieb"
+    ],
+    "vegetarian": false,
+    "images": [
+     "https://www.purer-genuss.at/wp-content/uploads/2021/04/PhotoRoom_20210425_140233.jpg"
+    ],
+    "price_note": "Preis je Glas inkl. MwSt. lt. WooCommerce Store API, zzgl. Versand",
+    "size_note": "keine Füllmenge veröffentlicht (Produktseite nennt nur Versandgewicht 0,4 kg) → leer",
+    "shipping_note": "Versandkosten/Liefergebiet nicht veröffentlicht (nur im Warenkorb) → leer; Abholung in Pinkafeld nach telefonischer Vereinbarung lt. szemes.net"
+   }
+  },
+  {
+   "source": "purergenuss",
+   "store": "Online: Purer Genuss (Schüsseltrieb)",
+   "name": "Reh Ragout",
+   "brand": "Schüsseltrieb Manufaktur",
+   "price_eur": 14.99,
+   "unit_price_eur": null,
+   "unit": null,
+   "size_g": null,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://www.purer-genuss.at/wp-content/uploads/2021/04/PhotoRoom_20210425_140344.jpg",
+   "producer": "Schüsseltrieb Manufaktur — Szemes GmbH (Weinstube Szemes), Hauptstraße 33, 7423 Pinkafeld, Burgenland (FN 660812 h, UID ATU82450358) mit Fleischerei Hatwagner, Oberpullendorf",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.purer-genuss.at/product/reh-ragout/",
+   "source_id": "188",
+   "fetched_at": "2026-10-25T07:16:15+00:00",
+   "extra": {
+    "wc_id": 188,
+    "slug": "reh-ragout",
+    "in_stock": true,
+    "purchasable": true,
+    "categories": [
+     "Schüsseltrieb"
+    ],
+    "vegetarian": false,
+    "images": [
+     "https://www.purer-genuss.at/wp-content/uploads/2021/04/PhotoRoom_20210425_140344.jpg"
+    ],
+    "price_note": "Preis je Glas inkl. MwSt. lt. WooCommerce Store API, zzgl. Versand",
+    "size_note": "keine Füllmenge veröffentlicht (Produktseite nennt nur Versandgewicht 0,4 kg) → leer",
+    "shipping_note": "Versandkosten/Liefergebiet nicht veröffentlicht (nur im Warenkorb) → leer; Abholung in Pinkafeld nach telefonischer Vereinbarung lt. szemes.net"
+   }
+  },
+  {
+   "source": "purergenuss",
+   "store": "Online: Purer Genuss (Schüsseltrieb)",
+   "name": "Wildsuppe mit Fleisch und Gemüse",
+   "brand": "Schüsseltrieb Manufaktur",
+   "price_eur": 6.99,
+   "unit_price_eur": null,
+   "unit": null,
+   "size_g": null,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://www.purer-genuss.at/wp-content/uploads/2021/04/PhotoRoom_20210425_140327.jpg",
+   "producer": "Schüsseltrieb Manufaktur — Szemes GmbH (Weinstube Szemes), Hauptstraße 33, 7423 Pinkafeld, Burgenland (FN 660812 h, UID ATU82450358) mit Fleischerei Hatwagner, Oberpullendorf",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.purer-genuss.at/product/wildsuppe-mit-fleisch-und-gemuese/",
+   "source_id": "156",
+   "fetched_at": "2026-10-25T07:16:15+00:00",
+   "extra": {
+    "wc_id": 156,
+    "slug": "wildsuppe-mit-fleisch-und-gemuese",
+    "in_stock": true,
+    "purchasable": true,
+    "categories": [
+     "Schüsseltrieb"
+    ],
+    "vegetarian": false,
+    "images": [
+     "https://www.purer-genuss.at/wp-content/uploads/2021/04/PhotoRoom_20210425_140327.jpg"
+    ],
+    "price_note": "Preis je Glas inkl. MwSt. lt. WooCommerce Store API, zzgl. Versand",
+    "size_note": "keine Füllmenge veröffentlicht (Produktseite nennt nur Versandgewicht 0,4 kg) → leer",
+    "shipping_note": "Versandkosten/Liefergebiet nicht veröffentlicht (nur im Warenkorb) → leer; Abholung in Pinkafeld nach telefonischer Vereinbarung lt. szemes.net"
+   }
+  },
+  {
+   "source": "purergenuss",
+   "store": "Online: Purer Genuss (Schüsseltrieb)",
+   "name": "Wildschweinbraten",
+   "brand": "Schüsseltrieb Manufaktur",
+   "price_eur": 12.99,
+   "unit_price_eur": null,
+   "unit": null,
+   "size_g": null,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://www.purer-genuss.at/wp-content/uploads/2021/04/PhotoRoom_20210425_140108.jpg",
+   "producer": "Schüsseltrieb Manufaktur — Szemes GmbH (Weinstube Szemes), Hauptstraße 33, 7423 Pinkafeld, Burgenland (FN 660812 h, UID ATU82450358) mit Fleischerei Hatwagner, Oberpullendorf",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.purer-genuss.at/product/wildschweinbraten/",
+   "source_id": "152",
+   "fetched_at": "2026-10-25T07:16:15+00:00",
+   "extra": {
+    "wc_id": 152,
+    "slug": "wildschweinbraten",
+    "in_stock": true,
+    "purchasable": true,
+    "categories": [
+     "Schüsseltrieb"
+    ],
+    "vegetarian": false,
+    "images": [
+     "https://www.purer-genuss.at/wp-content/uploads/2021/04/PhotoRoom_20210425_140108.jpg"
+    ],
+    "price_note": "Preis je Glas inkl. MwSt. lt. WooCommerce Store API, zzgl. Versand",
+    "size_note": "keine Füllmenge veröffentlicht (Produktseite nennt nur Versandgewicht 0,4 kg) → leer",
+    "shipping_note": "Versandkosten/Liefergebiet nicht veröffentlicht (nur im Warenkorb) → leer; Abholung in Pinkafeld nach telefonischer Vereinbarung lt. szemes.net"
+   }
+  },
+  {
+   "source": "purergenuss",
+   "store": "Online: Purer Genuss (Schüsseltrieb)",
+   "name": "Hirschbraten",
+   "brand": "Schüsseltrieb Manufaktur",
+   "price_eur": 12.99,
+   "unit_price_eur": null,
+   "unit": null,
+   "size_g": null,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://www.purer-genuss.at/wp-content/uploads/2021/04/PhotoRoom_20210425_140122.jpg",
+   "producer": "Schüsseltrieb Manufaktur — Szemes GmbH (Weinstube Szemes), Hauptstraße 33, 7423 Pinkafeld, Burgenland (FN 660812 h, UID ATU82450358) mit Fleischerei Hatwagner, Oberpullendorf",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.purer-genuss.at/product/hirschbraten/",
+   "source_id": "150",
+   "fetched_at": "2026-10-25T07:16:15+00:00",
+   "extra": {
+    "wc_id": 150,
+    "slug": "hirschbraten",
+    "in_stock": true,
+    "purchasable": true,
+    "categories": [
+     "Schüsseltrieb"
+    ],
+    "vegetarian": false,
+    "images": [
+     "https://www.purer-genuss.at/wp-content/uploads/2021/04/PhotoRoom_20210425_140122.jpg"
+    ],
+    "price_note": "Preis je Glas inkl. MwSt. lt. WooCommerce Store API, zzgl. Versand",
+    "size_note": "keine Füllmenge veröffentlicht (Produktseite nennt nur Versandgewicht 0,4 kg) → leer",
+    "shipping_note": "Versandkosten/Liefergebiet nicht veröffentlicht (nur im Warenkorb) → leer; Abholung in Pinkafeld nach telefonischer Vereinbarung lt. szemes.net"
+   }
+  },
+  {
+   "source": "purergenuss",
+   "store": "Online: Purer Genuss (Schüsseltrieb)",
+   "name": "Hirschragout",
+   "brand": "Schüsseltrieb Manufaktur",
+   "price_eur": 12.99,
+   "unit_price_eur": null,
+   "unit": null,
+   "size_g": null,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://www.purer-genuss.at/wp-content/uploads/2021/04/PhotoRoom_20210425_140404.jpg",
+   "producer": "Schüsseltrieb Manufaktur — Szemes GmbH (Weinstube Szemes), Hauptstraße 33, 7423 Pinkafeld, Burgenland (FN 660812 h, UID ATU82450358) mit Fleischerei Hatwagner, Oberpullendorf",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.purer-genuss.at/product/hirschragout/",
+   "source_id": "69",
+   "fetched_at": "2026-10-25T07:16:15+00:00",
+   "extra": {
+    "wc_id": 69,
+    "slug": "hirschragout",
+    "in_stock": true,
+    "purchasable": true,
+    "categories": [
+     "Schüsseltrieb"
+    ],
+    "vegetarian": false,
+    "images": [
+     "https://www.purer-genuss.at/wp-content/uploads/2021/04/PhotoRoom_20210425_140404.jpg"
+    ],
+    "price_note": "Preis je Glas inkl. MwSt. lt. WooCommerce Store API, zzgl. Versand",
+    "size_note": "keine Füllmenge veröffentlicht (Produktseite nennt nur Versandgewicht 0,4 kg) → leer",
+    "shipping_note": "Versandkosten/Liefergebiet nicht veröffentlicht (nur im Warenkorb) → leer; Abholung in Pinkafeld nach telefonischer Vereinbarung lt. szemes.net"
+   }
+  }
+ ]
+}
