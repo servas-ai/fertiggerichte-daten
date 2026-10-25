@@ -1,0 +1,60 @@
+{
+ "source": "https://www.diechtl-shop.at/feinkost-im-glas/ + product pages",
+ "fetched": "2026-10-25T0103",
+ "operator": "Fleischerei Diechtl Erich Ernst e.U., Hauptstraße 31, 8983 Bad Mitterndorf, Steiermark (FN 338325m, LG Leoben; UID ATU41616104)",
+ "vies": {
+  "uid": "ATU41616104",
+  "valid": true,
+  "name": "Diechtl Erich jun",
+  "address": "Bad Mitterndorf 31, AT-8983 Bad Mitterndorf",
+  "checked": "2026-10-25T00:07:21.646Z"
+ },
+ "gleif": "GLEIF fulltext 'Diechtl' → 0 records (2026-10-25), no LEI",
+ "impressum": "https://www.diechtl-shop.at/Impressum/ (Fleischerei Diechtl Erich Ernst e.U., Inh. Erich Ernst Diechtl, Hauptstraße 31, A-8983 Bad Mitterndorf; FN 338325m; LG Leoben; UID ATU41616104; Aufsicht BH Liezen; WKÖ Lebensmittelgewerbe)",
+ "robots": "User-agent * Allow / ; Disallow /*? /account/ /checkout/ /widgets/ ; only query-free pages and /media/*?ts= images fetched",
+ "shipping": "Kühlpaket innerhalb Österreichs, 1–3 Werktage; Versandpauschale 6,90 € unter 70 €, ab 70 € versandkostenfrei (Service-Informationen/Lieferung-Zahlung); Abholung in Bad Mitterndorf Mi/Fr möglich",
+ "photo_vision_gate": "1/1 PASS (single jar packshot, label 'DIECHTL Rindergulasch im GLAS'; label shows an older price 7,99 €, live price 8,99 €)",
+ "label_transcription": "ingredients/allergens/storage read from the label on the shop packshot 5awdk5t8.png (crop scripts/logo_work_T0103/diechtl_rindsgulasch_etikett.jpg)",
+ "excluded": [
+  "Gulaschsaft im Glas 390 g 4,50 € (Sauce)",
+  "Bolognese im Glas 390 g 7,99 € (Sauce)",
+  "Rinderbrühe im Glas 390 g 4,49 € (klare Brühe/Kochbasis)",
+  "9 /detail/ variant pages: Raclette/Fondue/Bratwurst/Bratl-Box (rohes Fleisch, kein Fertiggericht)"
+ ],
+ "kept": [
+  {
+   "source": "diechtl",
+   "store": "Online: Fleischerei Diechtl",
+   "name": "Rindsgulasch im Glas",
+   "brand": "Fleischerei Diechtl",
+   "price_eur": 8.99,
+   "unit_price_eur": 23.05,
+   "unit": "kg",
+   "size_g": 390.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://www.diechtl-shop.at/media/3f/f4/c2/1750782384/5awdk5t8.png?ts=1750782384",
+   "producer": "Fleischerei Diechtl Erich Ernst e.U., Hauptstraße 31, 8983 Bad Mitterndorf, Steiermark (FN 338325m, LG Leoben; UID ATU41616104)",
+   "producer_id": null,
+   "origin": "AT (Rindfleisch aus Österreich; gekocht in der Fleischerei Diechtl, Bad Mitterndorf lt. Shop)",
+   "category": "Fertiggericht",
+   "source_url": "https://www.diechtl-shop.at/rindsgulasch-im-glas",
+   "source_id": "DI-GL-001",
+   "fetched_at": "2026-10-25T01:09:55+00:00",
+   "extra": {
+    "sku": "DI-GL-001",
+    "product_id": "0196d01f44817e64bad92feea93e7ed3",
+    "pack": "Glas 390 g",
+    "availability": "InStock",
+    "ingredients": "50% Rind, Wasser, Zwiebel, Tomatenmark, WEIZENMEHL, Kochsalz, Rapsöl, Gewürze: Paprika, SELLERIE, Majoran, Kümmel, Knoblauch, weißer Pfeffer",
+    "allergens": "A (Weizen), L (Sellerie) lt. Großschreibung auf dem Etikett",
+    "ingredients_source": "Etikett auf dem Shop-Produktfoto (transkribiert 2026-10-25)",
+    "label_storage": "Gekühlt lagern bei +2 °C bis +4 °C; nach dem Öffnen im Kühlschrank lagern und innerhalb von 2–3 Tagen verbrauchen",
+    "storage": "kühl und trocken, nach dem Öffnen im Kühlschrank und rasch verbrauchen",
+    "shelf_life": "ungeöffnet mehrere Wochen, das genaue Datum steht auf dem Glas",
+    "price_note": "Preis je Glas inkl. MwSt. lt. Produktseite (JSON-LD); Etikett auf dem Foto zeigt einen älteren Preis",
+    "shipping_note": "Kühlpaket innerhalb Österreichs, 1–3 Werktage; Versandpauschale 6,90 € unter 70 €, ab 70 € versandkostenfrei (Service-Informationen/Lieferung-Zahlung); Abholung in Bad Mitterndorf Mi/Fr möglich"
+   }
+  }
+ ]
+}
