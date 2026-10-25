@@ -4828,6 +4828,334 @@ def _reconcile_sc48(out):
                                                                                         _los75['flags'] = _fl_los75
                                                                                         changed_uids.add(_los75['uid'])
 
+                                                                                # sensecheck 76 (SC76 P3.1 & P3.2 under SC76_FIXES):
+                                                                                if os.environ.get('SC76_FIXES', '1') != '0' and os.environ.get('GOOD_CHOICE_DISABLE_SC76', '0') != '1':
+                                                                                    from health_off import load_merged_off_by_ean
+                                                                                    _sc76_off = load_merged_off_by_ean(base_dir)
+
+                                                                                    # SC76 P3.1: Offline deterministic merge of off_v2_cache.json & nutri_off_cache.json
+                                                                                    # into r['additives'] and r['ns'] across all EAN-matched rows
+                                                                                    for _r76 in rows:
+                                                                                        _ean76 = str(_r76.get('ean') or '').strip()
+                                                                                        if _ean76 and _ean76 in _sc76_off:
+                                                                                            _m76 = _sc76_off[_ean76]
+                                                                                            if _r76.get('additives') is None and _m76.get('has_additives_list'):
+                                                                                                _r76['additives'] = list(_m76.get('additives') or [])
+                                                                                                changed_uids.add(_r76['uid'])
+                                                                                            if _r76.get('ns') is None and _m76.get('ns_letter') in ('A', 'B', 'C', 'D', 'E'):
+                                                                                                _r76['ns'] = _m76['ns_letter']
+                                                                                                changed_uids.add(_r76['uid'])
+
+                                                                                    # SC76 P3.2: Verified NOVA, ingredients, veg_pct, additives & Nutri-Score enrichment
+                                                                                    # for all 19 ranked EAN meals with nova=None + their EAN twins
+                                                                                    def _sc76_recompute_score_and_pli(_row):
+                                                                                        _p = _row.get('p100')
+                                                                                        _k = _row.get('kcal')
+                                                                                        _s = _row.get('salt')
+                                                                                        _sf = _row.get('sat')
+                                                                                        _fi = _row.get('fib')
+                                                                                        _su = _row.get('sugar')
+                                                                                        if _p is None or not _k or _k <= 0:
+                                                                                            return
+                                                                                        _vp = _row.get('veg_pct')
+                                                                                        _nv = _row.get('nova')
+                                                                                        _pd = _p / _k * 100.0
+                                                                                        _sp = V2.sugar_points(_su)
+                                                                                        _parts = {
+                                                                                            'base': 30.0,
+                                                                                            'protein': min(_pd / 10.0, 1.0) * 35.0 * (0.5 if _sp >= 3 else 1.0),
+                                                                                            'salt': 0 if _s is None else -min(max(_s - 0.6, 0.0) / 1.4, 1.0) * 20.0,
+                                                                                            'satfat': 0 if _sf is None else -min(max(_sf - 1.5, 0.0) / 4.5, 1.0) * 15.0,
+                                                                                            'sugar': -min(_sp, 10) * 2.0,
+                                                                                            'fiber': 0 if _fi is None else min(_fi / 6.0, 1.0) * 10.0,
+                                                                                            'veg': 0 if _vp is None else min(_vp / 40.0, 1.0) * 10.0,
+                                                                                            'nova': {4: -10, 3: 0, 2: 3, 1: 5}.get(_nv, -3),
+                                                                                        }
+                                                                                        _old_sp = _row.get('score_parts') or {}
+                                                                                        _dp = _row.get('day_pct') or {}
+                                                                                        if 'portion_salt' in _old_sp:
+                                                                                            _parts['portion_salt'] = -min((_dp['salt'] - 40) / 30.0, 1.0) * 8.0 if (_dp.get('salt') and _dp['salt'] > 40) else _old_sp['portion_salt']
+                                                                                        if 'portion_satfat' in _old_sp:
+                                                                                            _parts['portion_satfat'] = -min((_dp['satfat'] - 40) / 30.0, 1.0) * 5.0 if (_dp.get('satfat') and _dp['satfat'] > 40) else _old_sp['portion_satfat']
+                                                                                        if 'portion_protein' in _old_sp:
+                                                                                            _parts['portion_protein'] = 5 if (_dp.get('protein') and _dp['protein'] >= 40 and _sp < 3) else _old_sp['portion_protein']
+                                                                                        _row['score_parts'] = {_kk: round(_vv, 1) for _kk, _vv in _parts.items()}
+                                                                                        _row['score'] = round(max(0.0, min(100.0, sum(_parts.values()))), 1)
+                                                                                        _pp_eur = _row.get('pPorEff') or _row.get('pPor') or _row.get('price')
+                                                                                        if _row.get('protPor') and _pp_eur:
+                                                                                            _pe = min(100.0, (_row['protPor'] / _pp_eur) * 5.0)
+                                                                                            if _row.get('rankable'):
+                                                                                                _row['pli'] = round(0.5 * _row['score'] + 0.5 * _pe, 1)
+                                                                                            elif _row.get('rankableLight'):
+                                                                                                _row['pliLight'] = round(0.5 * _row['score'] + 0.5 * _pe, 1)
+
+                                                                                    _sc76_p32_specs = {
+                                                                                        861: {
+                                                                                            'ing': 'Nudeln nach asiatischer Art: Wasser, Weizenmehl, Salz, modifizierte Tapiokastärke, Weizengluten, Säureregulator: Milchsäure; Verdickungsmittel: Natriumalginat. Sauce: Wasser, 25 % Erdnusspaste, Zucker, Sesampaste, Sojasauce (Wasser, Sojabohnen, Weizen, Salz), Sojaöl, brauner Zucker, 2 % gehackte Erdnüsse, Chiliöl (Sonnenblumenöl, Chili), Sesamöl, Sonnenblumenöl, Gewürze, Säuerungsmittel: Glucono-delta-lacton; Säureregulator: Zitronensäure; Verdickungsmittel: Xanthangummi. Belag: Erdnusskerne. Getrocknete Gemüsemischung: getrocknete Karotten, getrocknete Schalotten.',
+                                                                                            'nova': 4, 'nova_source': 'off',
+                                                                                            'veg_pct': 3.0, 'veg_source': 'ingredients_order',
+                                                                                            'fib': 2.5, 'ns': 'C',
+                                                                                            'additives': ['E14XX', 'E270', 'E330', 'E401', 'E415', 'E575'],
+                                                                                            'twins': [],
+                                                                                        },
+                                                                                        880: {
+                                                                                            'ing': 'Bestandteile: Nudeln aus Weichweizenmehl 36% (Weichweizenmehl, Wasser, Hartweizengrieß, Salz), Teriyaki-Sauce 33% (Wasser, Sojasauce 24% (Wasser, Sojabohnen, Weizen, Salz), Zucker, Mirin (Glukosesirup, Wasser, fermentierter Reisextrakt (Wasser, Reis, Alkohol, Salz, Säureregulator: Citronensäure), Zucker, Branntweinessig, Säureregulator: Phosphorsäure, Melasse), Maisstärke, Knoblauchpüree, Ingwerpüree, Reisessig, Sonnenblumenöl, Karamellzuckersirup), Gemüse in veränderlichen Gewichtsanteilen 20% (Karotten, Weißkohl, Lauch), gegartes Hühnerfleischzubereitung 11% (Hühnerfleisch 89%, Wasser, Stärke, Salz).',
+                                                                                            'nova': 4, 'nova_source': 'ingredients_markers',
+                                                                                            'veg_pct': 20.0, 'veg_source': 'ingredients_order',
+                                                                                            'ns': 'C',
+                                                                                            'additives': ['E330', 'E338'],
+                                                                                            'twins': [3290, 3989],
+                                                                                        },
+                                                                                        1162: {
+                                                                                            'ing': 'Wasser, 31% Rindfleisch, Zwiebeln, Weizenmehl, Rapsöl, Tomatenmark, Gewürze, Speisesalz, modifizierte Maisstärke, Zucker, Knoblauch, Kräuter, Branntweinessig.',
+                                                                                            'nova': 4, 'nova_source': 'ingredients_markers',
+                                                                                            'veg_pct': 18.0, 'veg_source': 'ingredients_order',
+                                                                                            'additives': ['E14XX'],
+                                                                                            'twins': [2445],
+                                                                                        },
+                                                                                        1947: {
+                                                                                            'ing': 'WEIZENMEHL, 14% passierte Tomaten, 12% THUNFISCH, 7,5% schnittfester MOZZARELLA, 7,5% EDAMER, Wasser, 5,6% konzentrierte Tomaten, Rapsöl, 4,2% gedünstete Zwiebeln, Backhefe, Salz, Zucker, Kapern, Olivenöl nativ extra, Oregano, Basilikum, Pfeffer, modifizierte Stärke, Knoblauch, Petersilie, Zitronensaft.',
+                                                                                            'nova': 3, 'nova_source': 'off',
+                                                                                            'veg_pct': 19.5, 'veg_source': 'off_percent',
+                                                                                            'ns': 'C',
+                                                                                            'additives': [],
+                                                                                            'twins': [1863, 1912, 2416, 3884],
+                                                                                        },
+                                                                                        2257: {
+                                                                                            'ing': 'Wasser, 21% Linsen, 4% Selchspeck (Schweinefleisch, Nitritpökelsalz (Speisesalz, Konservierungsstoff: Natriumnitrit), Dextrose, Stabilisatoren: Diphosphate, Triphosphate, Polyphosphate; Antioxidationsmittel: Natriumascorbat, Rauch), Weizenmehl, Zwiebeln, Tomatenmark, Rapsöl, Speisesalz, Zucker, Branntweinessig, Gewürze, Festigungsmittel: Calciumchlorid.',
+                                                                                            'nova': 4, 'nova_source': 'ingredients_markers',
+                                                                                            'veg_pct': 32.0, 'veg_source': 'ingredients_order',
+                                                                                            'additives': ['E250', 'E301', 'E450', 'E451', 'E452', 'E509'],
+                                                                                            'twins': [1779],
+                                                                                        },
+                                                                                        2335: {
+                                                                                            'ing': 'Garnelen geschält (Litopenaeus vannamei) 67%, Wasser, Rapsöl, Butter, Weißwein, Knoblauch 2%, Schalotten, Kräuter 1,2% (Petersilie, Schnittlauch, Thymian), Salz, modifizierte Stärke, Zucker, Gewürze, Zitronensaftkonzentrat, Verdickungsmittel: Xanthan.',
+                                                                                            'nova': 4, 'nova_source': 'ingredients_markers',
+                                                                                            'veg_pct': 0.0, 'veg_source': 'ingredients_order',
+                                                                                            'additives': ['E14XX', 'E415'],
+                                                                                            'twins': [2345],
+                                                                                        },
+                                                                                        2336: {
+                                                                                            'ing': 'Garnelen (Litopenaeus vannamei), Wasser, Tomaten, Tomatenmark, Zwiebeln, Olivenöl, Weißwein, Knoblauch, Zucker, Salz, modifizierte Stärke, Kräuter der Provence, Gewürze, Säuerungsmittel: Citronensäure; Verdickungsmittel: Xanthan.',
+                                                                                            'nova': 4, 'nova_source': 'ingredients_markers',
+                                                                                            'veg_pct': 0.0, 'veg_source': 'ingredients_order',
+                                                                                            'additives': ['E14XX', 'E330', 'E415'],
+                                                                                            'twins': [2346],
+                                                                                        },
+                                                                                        2417: {
+                                                                                            'ing': 'WEIZENMEHL, 25% passierte Tomaten, Wasser, 14% KÄSE (schnittfester MOZZARELLA, EDAMER), Rapsöl, Backhefe, Salz, Zucker, Olivenöl nativ extra, Basilikum, modifizierte Stärke, Oregano, Petersilie, Knoblauch, Pfeffer.',
+                                                                                            'nova': 3, 'nova_source': 'ingredients_markers',
+                                                                                            'veg_pct': 14.0, 'veg_source': 'ingredients_order',
+                                                                                            'ns': 'C',
+                                                                                            'additives': [],
+                                                                                            'twins': [1879, 2340, 3879],
+                                                                                        },
+                                                                                        2450: {
+                                                                                            'ing': 'Wasser, 22% gekochter Reis (Wasser, Reis), 18% Hühnerbrustfleisch, 14% Gemüse in veränderlichen Gewichtsanteilen (Karotten, Erbsen, Mais, Paprika), Schlagobers, Rapsöl, modifizierte Maisstärke, Speisesalz, Zucker, Gewürze, Kräuter, Verdickungsmittel: Guarkernmehl, Johannisbrotkernmehl; Säuerungsmittel: Citronensäure; Stabilisator: Natriumcitrate.',
+                                                                                            'nova': 4, 'nova_source': 'ingredients_markers',
+                                                                                            'veg_pct': 23.0, 'veg_source': 'ingredients_order',
+                                                                                            'additives': ['E14XX', 'E330', 'E331', 'E410', 'E412'],
+                                                                                            'twins': [2007],
+                                                                                        },
+                                                                                        2663: {
+                                                                                            'ing': 'Wasser, 25% weiße Bohnen, 6% Würstel (Schweine- und Rindfleisch, Speck, Wasser, Nitritpökelsalz (Speisesalz, Konservierungsstoff: Natriumnitrit), Gewürze, Stabilisator: Diphosphate; Dextrose, Antioxidationsmittel: Natriumascorbat, Natriumisoascorbat; Rauch), Karotten, Zwiebeln, Weizenmehl, Rapsöl, Speisesalz, Tomatenmark, modifizierte Stärke, Gewürze, Zucker, Kräuter, Verdickungsmittel: Carrageen, Xanthan; Stabilisator: Natriumcitrate.',
+                                                                                            'nova': 4, 'nova_source': 'ingredients_markers',
+                                                                                            'veg_pct': 28.0, 'veg_source': 'ingredients_order',
+                                                                                            'additives': ['E14XX', 'E250', 'E301', 'E316', 'E331', 'E407', 'E415', 'E450'],
+                                                                                            'twins': [],
+                                                                                        },
+                                                                                        3140: {
+                                                                                            'ing': 'Wasser, Hirse* (18%), Artischocken* (12%), Kichererbsen* (10%), Tomaten*, Zwiebeln*, Karotten*, Olivenöl*, Meersalz, Gewürze* (Kreuzkümmel*, Koriander*, Zimt*, Chili*), Zitronensaft*, Knoblauch*, Kräuter*. *aus kontrolliert biologischem Anbau.',
+                                                                                            'nova': 3, 'nova_source': 'ingredients_markers',
+                                                                                            'veg_pct': 48.0, 'veg_source': 'ingredients_order',
+                                                                                            'additives': [],
+                                                                                            'twins': [],
+                                                                                        },
+                                                                                        3143: {
+                                                                                            'ing': 'Wasser, Nackthafer* (20%), Kräuterseitlinge* & Champignons* (16%), Linsen* (12%), Zwiebeln*, Karotten*, Sellerie*, Lauch*, Sonnenblumenöl*, Meersalz, Petersilie*, Thymian*, Majoran*, schwarzer Pfeffer*, Knoblauch*. *aus kontrolliert biologischem Anbau.',
+                                                                                            'nova': 3, 'nova_source': 'ingredients_markers',
+                                                                                            'veg_pct': 72.0, 'veg_source': 'ingredients_order',
+                                                                                            'additives': [],
+                                                                                            'twins': [],
+                                                                                        },
+                                                                                        3144: {
+                                                                                            'ing': 'Wasser, Vollkornreis* (19%), Kokosmilch* (14%), Kichererbsen* (11%), Karotten*, Paprika*, Bambussprossen*, Zwiebeln*, Sonnenblumenöl*, Meersalz, Ingwer*, Zitronengras*, Koriander*, Currygewürz*, Chili*, Limettensaft*. *aus kontrolliert biologischem Anbau.',
+                                                                                            'nova': 3, 'nova_source': 'ingredients_markers',
+                                                                                            'veg_pct': 28.0, 'veg_source': 'ingredients_order',
+                                                                                            'additives': [],
+                                                                                            'twins': [],
+                                                                                        },
+                                                                                        3145: {
+                                                                                            'ing': 'Wasser, Roggen* (18%), weiße Bohnen* & Kidneybohnen* (16%), Tomaten* (15%), Zucchini*, Paprika*, Zwiebeln*, Olivenöl*, Meersalz, Basilikum*, Oregano*, Rosmarin*, Thymian*, Knoblauch*, schwarzer Pfeffer*. *aus kontrolliert biologischem Anbau.',
+                                                                                            'nova': 3, 'nova_source': 'ingredients_markers',
+                                                                                            'veg_pct': 62.0, 'veg_source': 'ingredients_order',
+                                                                                            'additives': [],
+                                                                                            'twins': [],
+                                                                                        },
+                                                                                        3157: {
+                                                                                            'ing': 'Tomaten*, Rindfleisch* (20%), rote Bohnen* (16%), Mais* (8%), Paprika*, Zwiebeln*, Wasser, Rindsuppe* (Wasser, Rindfleisch*, Wurzelgemüse*, Meersalz), Sonnenblumenöl*, Maisstärke*, Meersalz, Rohrzucker*, Knoblauch*, Gewürze* (Chili*, Kreuzkümmel*, Paprika*, Oregano*, Koriander*). *aus kontrolliert biologischem Anbau.',
+                                                                                            'nova': 4, 'nova_source': 'ingredients_markers',
+                                                                                            'veg_pct': 28.0, 'veg_source': 'ingredients_order',
+                                                                                            'additives': [],
+                                                                                            'twins': [],
+                                                                                        },
+                                                                                        3206: {
+                                                                                            'ing': 'Wasser, Rind-, Schweine- und Hühnerfleisch (21%), Schlagobers, Wurzelgemüse (Karotten, Sellerie, Lauch), Zwiebeln, Weizenmehl, Sauerrahm, Speisesalz, Gewürze, Safran, Kräuter, Verdickungsmittel: Guarkernmehl, Xanthan, Carrageen; Emulgator: Mono- und Diglyceride von Speisefettsäuren; Geschmacksverstärker: Mononatriumglutamat, Dinatriuminosinat, Dinatriumguanylat; Farbstoff: Carotin.',
+                                                                                            'nova': 4, 'nova_source': 'ingredients_markers',
+                                                                                            'veg_pct': 18.0, 'veg_source': 'ingredients_order',
+                                                                                            'additives': ['E160A', 'E407', 'E412', 'E415', 'E471', 'E621', 'E627', 'E631'],
+                                                                                            'twins': [1574],
+                                                                                        },
+                                                                                        3207: {
+                                                                                            'ing': 'Wasser, Kartoffeln (22%), Schweinefleisch & Selchfleisch (18%), Sauerkraut & Wurzelgemüse (Karotten, Sellerie, Zwiebeln), Bohnen, Tomatenmark, Weizenmehl, Rapsöl, Speisesalz, Gewürze, Konservierungsstoff: Natriumnitrit; Stabilisatoren: Diphosphate, Triphosphate; Antioxidationsmittel: Natriumisoascorbat; Rauch.',
+                                                                                            'nova': 4, 'nova_source': 'ingredients_markers',
+                                                                                            'veg_pct': 51.0, 'veg_source': 'ingredients_order',
+                                                                                            'additives': ['E250', 'E316', 'E450', 'E451'],
+                                                                                            'twins': [],
+                                                                                        },
+                                                                                        3208: {
+                                                                                            'ing': 'Weißkraut (32%), Tomatensauce (Wasser, Tomatenmark, Zucker, Weizenmehl, Rapsöl, Speisesalz, Säuerungsmittel: Citronensäure; Konservierungsstoff: Kaliumsorbat), Fülle (Schweine- und Rindfleisch (20%), Reis, Zwiebeln, Vollei, Speisesalz, Gewürze, Kräuter, Geschmacksverstärker: Mononatriumglutamat, Dinatriuminosinat, Dinatriumguanylat; Antioxidationsmittel: Extrakt aus Rosmarin).',
+                                                                                            'nova': 4, 'nova_source': 'ingredients_markers',
+                                                                                            'veg_pct': 45.0, 'veg_source': 'ingredients_order',
+                                                                                            'additives': ['E202', 'E330', 'E392', 'E621', 'E627', 'E631'],
+                                                                                            'twins': [],
+                                                                                        },
+                                                                                        3240: {
+                                                                                            'ing': 'Tomaten* (34%), Wasser, Rindfleisch* (12%), rote Kidneybohnen* (11%), Mais* (7%), Paprika* (6%), Zwiebeln*, Tomatenmark* (4%), Karotten*, Agavendicksaft*, Sonnenblumenöl*, Maisstärke*, Meersalz, Knoblauch*, Gewürze* (Kreuzkümmel*, Chili*, Koriander*, Paprika*, Pfeffer*), Kräuter*. *aus kontrolliert biologischer Landwirtschaft.',
+                                                                                            'nova': 3, 'nova_source': 'off',
+                                                                                            'veg_pct': 84.0, 'veg_source': 'ingredients_order',
+                                                                                            'ns': 'C',
+                                                                                            'additives': [],
+                                                                                            'twins': [],
+                                                                                        },
+                                                                                    }
+
+                                                                                    for _pid76, _spec76 in _sc76_p32_specs.items():
+                                                                                        for _tid76 in [_pid76] + _spec76['twins']:
+                                                                                            _rt76 = _pmm_by_id.get(_tid76)
+                                                                                            if _rt76 is None:
+                                                                                                continue
+                                                                                            _was_null_nova = _rt76.get('nova') is None
+                                                                                            if not _rt76.get('ing'):
+                                                                                                _rt76['ing'] = _spec76['ing']
+                                                                                            if _rt76.get('additives') is None and 'additives' in _spec76:
+                                                                                                _rt76['additives'] = list(_spec76['additives'])
+                                                                                            if _rt76.get('ns') is None and _spec76.get('ns'):
+                                                                                                _rt76['ns'] = _spec76['ns']
+                                                                                            if _tid76 == 861 and _spec76.get('fib') is not None:
+                                                                                                _rt76['fib'] = _spec76['fib']
+                                                                                                if isinstance(_rt76.get('day_pct'), dict) and _rt76.get('portion'):
+                                                                                                    _rt76['day_pct']['fiber'] = round(_spec76['fib'] * (_rt76['portion'] / 100.0) / 30.0 * 100.0)
+                                                                                            if _was_null_nova:
+                                                                                                _rt76['nova'] = _spec76['nova']
+                                                                                                _rt76['nova_source'] = _spec76['nova_source']
+                                                                                                _rt76['veg_pct'] = _spec76['veg_pct']
+                                                                                                _rt76['veg_source'] = _spec76['veg_source']
+                                                                                                _sc76_recompute_score_and_pli(_rt76)
+                                                                                            changed_uids.add(_rt76['uid'])
+
+                                                                                    # SC76 P3.2: Format Health-Score <int> < 30 in rank_excluded_reason to 1 decimal place with comma (e.g. #2363 'Health-Score 29,9 < 30')
+                                                                                    _sc76_linz_stores = {'Billa', 'Spar', 'Hofer', 'Lidl', 'Penny', 'Unimarkt', 'dm', 'Maximarkt', "Denn's"}
+                                                                                    _sc76_by_ean = {}
+                                                                                    for _r76 in rows:
+                                                                                        if _r76.get('dupOf') is None and _r76.get('store') in _sc76_linz_stores and _r76.get('ean') and _r76.get('score') is not None:
+                                                                                            _sc76_by_ean[(_r76['store'], str(_r76['ean']).strip())] = _r76['score']
+                                                                                    for _r76 in rows:
+                                                                                        _rer76 = _r76.get('rank_excluded_reason') or ''
+                                                                                        if not re.search(r'Health-Score \d+ < 30', _rer76):
+                                                                                            continue
+                                                                                        _ean76 = str(_r76.get('ean') or '').strip()
+                                                                                        def _sc76_fmt_hs(_m76_hs, _row76=_r76, _e76=_ean76):
+                                                                                            _st_pref = _m76_hs.group(1) or ''
+                                                                                            _old_int = int(_m76_hs.group(2))
+                                                                                            _sc_val = None
+                                                                                            if _st_pref:
+                                                                                                _st_nm = _st_pref.rstrip(': ').strip()
+                                                                                                _sc_val = _sc76_by_ean.get((_st_nm, _e76))
+                                                                                            if _sc_val is None and _e76:
+                                                                                                _cands = [_v for (_st_nm, _ee), _v in _sc76_by_ean.items() if _ee == _e76 and round(_v) == _old_int]
+                                                                                                if _cands:
+                                                                                                    _sc_val = _cands[0]
+                                                                                            if _sc_val is None and _row76.get('score') is not None and _row76['score'] < 30:
+                                                                                                _sc_val = _row76['score']
+                                                                                            if _sc_val is not None and _sc_val < 30:
+                                                                                                return f"{_st_pref}Health-Score {_sc_val:.1f}".replace('.', ',') + " < 30"
+                                                                                            return f"{_st_pref}Health-Score {_old_int},0 < 30"
+                                                                                        _new_rer76 = re.sub(r'((?:Billa|Spar|Hofer|Lidl|Penny|Unimarkt|dm|Maximarkt):\s*)?Health-Score (\d+) < 30', _sc76_fmt_hs, _rer76)
+                                                                                        if _new_rer76 != _rer76:
+                                                                                            _r76['rank_excluded_reason'] = _new_rer76
+                                                                                            changed_uids.add(_r76['uid'])
+
+                                                                                    # Sensecheck 77 P3.1:
+                                                                                    # 1) Consistently recompute derived KPIs (p100k, protpack, kcalpack, ppe, eur10p, eur100k)
+                                                                                    #    after all price/nutrition patches across all rows.
+                                                                                    # 2) Clean stale 'nur Open Food Facts, kein Laden/Preis' flag/reason on priced store rows,
+                                                                                    #    rescuing #3425 [Billa] Thunfischsalat Toskana Art (160 g, 2.69 €, 243 kcal, 17.6 g P)
+                                                                                    #    into rankableLight=True (156 Light Meals, pliLight=39.8).
+                                                                                    # 3) Fix typo 'Noodels' -> 'Noodles' on #880 / #3290.
+                                                                                    _sc77_fixes_on = os.environ.get('SC77_FIXES', '1') != '0' and os.environ.get('GOOD_CHOICE_DISABLE_SC77', '0') != '1'
+                                                                                    if _sc77_fixes_on:
+                                                                                        for _r77 in rows:
+                                                                                            _ch77 = False
+                                                                                            if _r77.get('p100') is not None and (_r77.get('kcal') or 0) > 0 and _r77.get('p100k') is None:
+                                                                                                _r77['p100k'] = round(_r77['p100'] * 100.0 / _r77['kcal'], 1)
+                                                                                                _ch77 = True
+                                                                                            if (_r77.get('size') or 0) > 0:
+                                                                                                if _r77.get('p100') is not None and _r77.get('protpack') is None:
+                                                                                                    _r77['protpack'] = round(_r77['p100'] * _r77['size'] / 100.0, 1)
+                                                                                                    _ch77 = True
+                                                                                                if _r77.get('kcal') is not None and _r77.get('kcalpack') is None:
+                                                                                                    _r77['kcalpack'] = round(_r77['kcal'] * _r77['size'] / 100.0)
+                                                                                                    _ch77 = True
+                                                                                            if (_r77.get('price') or 0) > 0 and (_r77.get('protpack') or 0) > 0:
+                                                                                                if _r77.get('ppe') is None:
+                                                                                                    _r77['ppe'] = round(_r77['protpack'] / _r77['price'], 1)
+                                                                                                    _ch77 = True
+                                                                                                if _r77.get('eur10p') is None:
+                                                                                                    _r77['eur10p'] = round(_r77['price'] * 10.0 / _r77['protpack'], 2)
+                                                                                                    _ch77 = True
+                                                                                            if (_r77.get('price') or 0) > 0 and (_r77.get('kcalpack') or 0) > 0 and _r77.get('eur100k') is None:
+                                                                                                _r77['eur100k'] = round(_r77['price'] * 100.0 / _r77['kcalpack'], 2)
+                                                                                                _ch77 = True
+                                                                                            if (_r77.get('price') or 0) > 0 and _r77.get('store') and not str(_r77.get('store')).startswith('unbekannt'):
+                                                                                                _fl77 = _r77.get('flags') or []
+                                                                                                if 'nur Open Food Facts, kein Laden/Preis – nicht in Rankings' in _fl77:
+                                                                                                    _r77['flags'] = [_f for _f in _fl77 if _f != 'nur Open Food Facts, kein Laden/Preis – nicht in Rankings']
+                                                                                                    _ch77 = True
+                                                                                            if 'Noodels' in (_r77.get('name') or ''):
+                                                                                                _r77['name'] = _r77['name'].replace('Noodels', 'Noodles')
+                                                                                                _ch77 = True
+                                                                                            if _ch77:
+                                                                                                changed_uids.add(_r77['uid'])
+                                                                                        _r3425 = _pmm_by_id.get(3425)
+                                                                                        if _r3425 is not None:
+                                                                                            _r3425['stage'] = 'meal'
+                                                                                            _r3425['gang'] = 'haupt'
+                                                                                            _r3425['segment'] = 'ready_meal'
+                                                                                            _r3425['component'] = False
+                                                                                            _r3425['meal_class'] = 'light_meal'
+                                                                                            _r3425['pPor'] = 2.69
+                                                                                            _r3425['pPorEff'] = 2.69
+                                                                                            _r3425['p100g'] = 1.68
+                                                                                            _r3425['ppe'] = 6.5
+                                                                                            _r3425['eur10p'] = 1.53
+                                                                                            _r3425['eur100k'] = 1.11
+                                                                                            _r3425['meal_check'] = {
+                                                                                                'portion': 160,
+                                                                                                'kcal': 243,
+                                                                                                'protein': 17.6,
+                                                                                                'ok': False,
+                                                                                                'cls': 'light_meal',
+                                                                                                'reason': '243 kcal/Portion < 400',
+                                                                                            }
+                                                                                            _r3425['flags'] = ['Mahlzeit-Check: 243 kcal/Portion < 400']
+                                                                                            _r3425['rankable'] = False
+                                                                                            _r3425['pli'] = None
+                                                                                            _r3425['rankableLight'] = True
+                                                                                            _r3425['pliLight'] = 39.8
+                                                                                            _r3425['rank_excluded_reason'] = '243 kcal/Portion < 400 (Light Meal)'
+                                                                                            changed_uids.add(_r3425['uid'])
+
     # Check latest online_availability_*.json
     av_files = sorted(glob.glob(os.path.join(base_dir, 'analysis/online_availability_*.json')))
     if os.environ.get('GOOD_CHOICE_AVAILABILITY'):  # sensecheck 52 P1: tests pin the snapshot the canonical baseline was built from
