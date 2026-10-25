@@ -1,0 +1,642 @@
+{
+ "fetched": "2026-10-25T12:07Z",
+ "method": "Shopify public /products/<handle>.json variant.barcode (GS1 check digit validated); nutrition only where published for the identical GTIN (MPreis / Open Food Facts)",
+ "skipped": {
+  "wagyuhof": "Ragout/Beuschel/Gulasch share barcode 0660357208391 and Rouladen 0660357208360 – placeholder pattern, not filled",
+  "deflorian_erdbeer_zwetschken": "both variants share 9120035592446 – ambiguous, not filled"
+ },
+ "gtin": [
+  {
+   "row_name": "Chili con carne (XL, 2 Portionen)",
+   "store": "Online: PrepMyMeal",
+   "url": "https://prepmymeal.at/products/chili-con-carne-xl-2-portionen",
+   "variant": "Default Title",
+   "gtin": "4006624066046"
+  },
+  {
+   "row_name": "Hähnchen, Reis, Brokkoli (XL, 2 Portionen)",
+   "store": "Online: PrepMyMeal",
+   "url": "https://prepmymeal.at/products/hahnchen-reis-borkkoli-xl-2-portionen",
+   "variant": "Default Title",
+   "gtin": "4006624066039"
+  },
+  {
+   "row_name": "Protein Pasta Bolognese (XL, 2 Portionen)",
+   "store": "Online: PrepMyMeal",
+   "url": "https://prepmymeal.at/products/protein-pasta-bolognese-xl-2-portionen",
+   "variant": "Default Title",
+   "gtin": "4006624066022"
+  },
+  {
+   "row_name": "Pizza Tonno & Cipolla",
+   "store": "Online: PrepMyMeal",
+   "url": "https://prepmymeal.at/products/protein-pizza-tonno-cipolla",
+   "variant": "Default Title",
+   "gtin": "8034077227666"
+  },
+  {
+   "row_name": "Protein Pizza Chicken & Peppers",
+   "store": "Online: PrepMyMeal",
+   "url": "https://prepmymeal.at/products/protein-pizza-chicken-peppers",
+   "variant": "Default Title",
+   "gtin": "8034077227673"
+  },
+  {
+   "row_name": "Hähnchen Bowl Thai (XL, 2 Portionen)",
+   "store": "Online: PrepMyMeal",
+   "url": "https://prepmymeal.at/products/hahnchen-bowl-thai-style-1000g-2-portionen",
+   "variant": "Default Title",
+   "gtin": "4006624066350"
+  },
+  {
+   "row_name": "Seelachs, Reis & Gemüse (XL, 2 Portionen)",
+   "store": "Online: PrepMyMeal",
+   "url": "https://prepmymeal.at/products/alaska-seelachs-mit-reis-und-gemusemix",
+   "variant": "Default Title",
+   "gtin": "4006624066398"
+  },
+  {
+   "row_name": "Protein Pasta al Salmone (XL, 2 Portionen)",
+   "store": "Online: PrepMyMeal",
+   "url": "https://prepmymeal.at/products/protein-pasta-al-salmone-xl-2-portionen",
+   "variant": "Default Title",
+   "gtin": "4006624066053"
+  },
+  {
+   "row_name": "Red Thai Curry (XL, 2 Portionen)",
+   "store": "Online: PrepMyMeal",
+   "url": "https://prepmymeal.at/products/red-thai-curry",
+   "variant": "Default Title",
+   "gtin": "4006624066329"
+  },
+  {
+   "row_name": "Protein Pasta mit Frischkäsesoße (XL, 2 Portionen)",
+   "store": "Online: PrepMyMeal",
+   "url": "https://prepmymeal.at/products/protein-pasta-mit-paprika-frischkasesauce",
+   "variant": "Default Title",
+   "gtin": "4006624066336"
+  },
+  {
+   "row_name": "Süßkartoffel Hähnchen Bowl (XL, 2 Portionen)",
+   "store": "Online: PrepMyMeal",
+   "url": "https://prepmymeal.at/products/susskartoffel-hahnchen-bowl-xl-2-portionen",
+   "variant": "Default Title",
+   "gtin": "4006624066374"
+  },
+  {
+   "row_name": "Noodles Asian Style (XL, 2 Portionen)",
+   "store": "Online: PrepMyMeal",
+   "url": "https://prepmymeal.at/products/noodles-asian-style",
+   "variant": "Default Title",
+   "gtin": "4006624066015"
+  },
+  {
+   "row_name": "Hähnchen Fajita Bowl (XL, 2 Portionen)",
+   "store": "Online: PrepMyMeal",
+   "url": "https://prepmymeal.at/products/hahnchen-fajita-bowl-1000g",
+   "variant": "Default Title",
+   "gtin": "4006624066343"
+  },
+  {
+   "row_name": "Ras El Hanout – Vegane Bowl",
+   "store": "Online: LiveFresh",
+   "url": "https://livefresh.at/products/ras-el-hanout-vegane-bowl-400g",
+   "variant": "Default Title",
+   "gtin": "4260596132776"
+  },
+  {
+   "row_name": "Fajita Mexican – Vegane Bowl",
+   "store": "Online: LiveFresh",
+   "url": "https://livefresh.at/products/la-fajita-vegane-bowl-400g",
+   "variant": "Default Title",
+   "gtin": "4260596132738"
+  },
+  {
+   "row_name": "Exotic Style Curry – Vegane Bowl",
+   "store": "Online: LiveFresh",
+   "url": "https://livefresh.at/products/exotic-curry-vegane-bowl-400g",
+   "variant": "Default Title",
+   "gtin": "4260596132752"
+  },
+  {
+   "row_name": "Kurkuma Curry – Vegane Bowl",
+   "store": "Online: LiveFresh",
+   "url": "https://livefresh.at/products/kurkuma-curry-vegane-bowl-400g",
+   "variant": "Default Title",
+   "gtin": "4260596132745"
+  },
+  {
+   "row_name": "Fusilli Toskana – Vegane Bowl",
+   "store": "Online: LiveFresh",
+   "url": "https://livefresh.at/products/fussili-pasta-vegane-bowl-400g",
+   "variant": "Default Title",
+   "gtin": "4260596132783"
+  },
+  {
+   "row_name": "Gemüse Chili – Vegane Bowl",
+   "store": "Online: LiveFresh",
+   "url": "https://livefresh.at/products/chili-sin-carne-vegane-bowl-400g",
+   "variant": "Default Title",
+   "gtin": "4260596132790"
+  },
+  {
+   "row_name": "Tikka Masala – Vegane Bowl",
+   "store": "Online: LiveFresh",
+   "url": "https://livefresh.at/products/tikka-masala-vegane-bowl-400g",
+   "variant": "Default Title",
+   "gtin": "4260596132769"
+  },
+  {
+   "row_name": "Letscho Bowl",
+   "store": "Online: Goldblatt",
+   "url": "https://goldblatt.at/products/bio-letscho-bowl",
+   "variant": "Default Title",
+   "gtin": "9120118928872"
+  },
+  {
+   "row_name": "Erdäpfel Gulasch",
+   "store": "Online: Goldblatt",
+   "url": "https://goldblatt.at/products/bio-erdapfel-gulasch",
+   "variant": "Default Title",
+   "gtin": "9120118928865"
+  },
+  {
+   "row_name": "Edelpilz Gulasch",
+   "store": "Online: Goldblatt",
+   "url": "https://goldblatt.at/products/bio-edelpilz-gulasch",
+   "variant": "Default Title",
+   "gtin": "9120118928834"
+  },
+  {
+   "row_name": "Kichererbsen Curry",
+   "store": "Online: Goldblatt",
+   "url": "https://goldblatt.at/products/bio-kichererbsen-curry",
+   "variant": "Default Title",
+   "gtin": "9120118928827"
+  },
+  {
+   "row_name": "Bolo Amore",
+   "store": "Online: Goldblatt",
+   "url": "https://goldblatt.at/products/bio-bolognese",
+   "variant": "Default Title",
+   "gtin": "9120118928810"
+  },
+  {
+   "row_name": "Chili con Tempeh",
+   "store": "Online: Goldblatt",
+   "url": "https://goldblatt.at/products/chili-con-tempeh",
+   "variant": "Default Title",
+   "gtin": "9120118928803"
+  },
+  {
+   "row_name": "Alpine Bowl",
+   "store": "Online: Goldblatt",
+   "url": "https://goldblatt.at/products/bio-alpine-bowl",
+   "variant": "Default Title",
+   "gtin": "9120118928858"
+  },
+  {
+   "row_name": "Oriental Bowl",
+   "store": "Online: Goldblatt",
+   "url": "https://goldblatt.at/products/bio-oriental-bowl",
+   "variant": "Default Title",
+   "gtin": "9120118928841"
+  },
+  {
+   "row_name": "Marillenknödel mit Kern",
+   "store": "Online: Deflorian",
+   "url": "https://deflorian.tirol/products/marillenknodel-mit-kern",
+   "variant": "750g",
+   "gtin": "9120035592422"
+  },
+  {
+   "row_name": "Hühnercurry",
+   "store": "Online: Deflorian",
+   "url": "https://deflorian.tirol/products/hendlcurry",
+   "variant": "1 Tasse zu 500g",
+   "gtin": "9120035592385"
+  },
+  {
+   "row_name": "Rindsgulasch",
+   "store": "Online: Deflorian",
+   "url": "https://deflorian.tirol/products/rindsgulasch",
+   "variant": "1 Tasse zu 600g",
+   "gtin": "9120035591807"
+  },
+  {
+   "row_name": "Gerstlsuppe",
+   "store": "Online: Deflorian",
+   "url": "https://deflorian.tirol/products/gerstlsuppe",
+   "variant": "1 Tasse zu 500g",
+   "gtin": "9120035591159"
+  },
+  {
+   "row_name": "Gulaschsuppe",
+   "store": "Online: Deflorian",
+   "url": "https://deflorian.tirol/products/gulaschsuppe",
+   "variant": "1 Tasse zu 500g",
+   "gtin": "9120035591173"
+  },
+  {
+   "row_name": "Rindsbraten mit Gemüse",
+   "store": "Online: Deflorian",
+   "url": "https://deflorian.tirol/products/rindsbraten-mit-gemuse",
+   "variant": "1 Tasse zu 550g",
+   "gtin": "9120035591845"
+  },
+  {
+   "row_name": "Zillertaler Kaskrapfen vorgebacken",
+   "store": "Online: Deflorian",
+   "url": "https://deflorian.tirol/products/zillertaler-kaskrapfen-vorgebacken",
+   "variant": "4 Stück",
+   "gtin": "9120035591135"
+  },
+  {
+   "row_name": "Zillertaler Kaskrapfen mini",
+   "store": "Online: Deflorian",
+   "url": "https://deflorian.tirol/products/zillertaler-mini",
+   "variant": "15 Stück",
+   "gtin": "9120035591029"
+  },
+  {
+   "row_name": "Bärlauchknödel",
+   "store": "Online: Deflorian",
+   "url": "https://deflorian.tirol/products/barlauchknodel",
+   "variant": "6 Stück",
+   "gtin": "9120035590558"
+  },
+  {
+   "row_name": "Rohnenknödel",
+   "store": "Online: Deflorian",
+   "url": "https://deflorian.tirol/products/rohnenknodel",
+   "variant": "6 Stück",
+   "gtin": "9120035592729"
+  },
+  {
+   "row_name": "Kasnocken",
+   "store": "Online: Deflorian",
+   "url": "https://deflorian.tirol/products/kasnocken",
+   "variant": "6 Stück",
+   "gtin": "9120035590527"
+  },
+  {
+   "row_name": "Kaspressknödel vorgebacken",
+   "store": "Online: Deflorian",
+   "url": "https://deflorian.tirol/products/kaspressknodel-vorgebacken",
+   "variant": "4 Stück",
+   "gtin": "9120035592651"
+  },
+  {
+   "row_name": "Speckknödel",
+   "store": "Online: Deflorian",
+   "url": "https://deflorian.tirol/products/speckknodel",
+   "variant": "6 Stück",
+   "gtin": "9120035590497"
+  },
+  {
+   "row_name": "Spinatknödel",
+   "store": "Online: Deflorian",
+   "url": "https://deflorian.tirol/products/spinatknodel",
+   "variant": "6 Stück",
+   "gtin": "9120035590473"
+  },
+  {
+   "row_name": "Schlutzkrapfen mit Bärlauchfülle",
+   "store": "Online: Deflorian",
+   "url": "https://deflorian.tirol/products/schlutzkrapfen-mit-barlauchfulle",
+   "variant": "15 Stück",
+   "gtin": "9120035590152"
+  },
+  {
+   "row_name": "Schlutzkrapfen mit Kürbisfülle",
+   "store": "Online: Deflorian",
+   "url": "https://deflorian.tirol/products/schlutzkrapfen-mit-kurbisfulle",
+   "variant": "15 Stück",
+   "gtin": "9120035590251"
+  },
+  {
+   "row_name": "Schlutzkrapfen mit Pfifferlingsfülle",
+   "store": "Online: Deflorian",
+   "url": "https://deflorian.tirol/products/schlutzkrapfen-mit-pfifferlingsfulle",
+   "variant": "15 Stück",
+   "gtin": "9120035590190"
+  },
+  {
+   "row_name": "Schlutzkrapfen mit Steinpilzfülle",
+   "store": "Online: Deflorian",
+   "url": "https://deflorian.tirol/products/schlutzkrapfen-mit-steinpilzfulle",
+   "variant": "15 Stück",
+   "gtin": "9120035590039"
+  },
+  {
+   "row_name": "Osttiroler Schlipfkrapfen",
+   "store": "Online: Deflorian",
+   "url": "https://deflorian.tirol/products/osttiroler-schlipfkrapfen",
+   "variant": "15 Stück",
+   "gtin": "9120035590329"
+  },
+  {
+   "row_name": "Schlutzkrapfen mit Topfenfülle",
+   "store": "Online: Deflorian",
+   "url": "https://deflorian.tirol/products/schlutzkrapfen-mit-topfenfulle",
+   "variant": "15 Stück",
+   "gtin": "9120035590084"
+  },
+  {
+   "row_name": "Tiroler Tris",
+   "store": "Online: Deflorian",
+   "url": "https://deflorian.tirol/products/tiroler-tris",
+   "variant": "2 Portionen",
+   "gtin": "9120035591395"
+  },
+  {
+   "row_name": "Schlutzkrapfen mit Graukäsefüllung",
+   "store": "Online: Deflorian",
+   "url": "https://deflorian.tirol/products/schlutzkrapfen-mit-graukasefullung",
+   "variant": "15 Stück",
+   "gtin": "9120035590022"
+  },
+  {
+   "row_name": "Schlutzkrapfen mit Spinatfülle",
+   "store": "Online: Deflorian",
+   "url": "https://deflorian.tirol/products/schlutzkrapfen-mit-spinatfulle",
+   "variant": "15 Stück",
+   "gtin": "9120035590015"
+  },
+  {
+   "row_name": "Schlutzkrapfen mit Schafkäsefülle",
+   "store": "Online: Deflorian",
+   "url": "https://deflorian.tirol/products/schlutzkrapfen-mit-schafkaesefuelle",
+   "variant": "15 Stück",
+   "gtin": "9120035593580"
+  },
+  {
+   "row_name": "Schlutzkrapfen mit Speckfülle",
+   "store": "Online: Deflorian",
+   "url": "https://deflorian.tirol/products/schlutzkrapfen-mit-speckfulle",
+   "variant": "15 Stück",
+   "gtin": "9120035593603"
+  },
+  {
+   "row_name": "Rehragout im Glas",
+   "store": "Online: Kumitzberg",
+   "url": "https://kumitzberg.at/products/rehragout-im-glas-380g",
+   "variant": "Default Title",
+   "gtin": "9120117352722"
+  },
+  {
+   "row_name": "Sous-Vide Spareribs „Mamasita“",
+   "store": "Online: Kumitzberg",
+   "url": "https://kumitzberg.at/products/sous-vide-spareribs",
+   "variant": "Default Title",
+   "gtin": "9120117353408"
+  },
+  {
+   "row_name": "Tirolerknödel",
+   "store": "Online: Kumitzberg",
+   "url": "https://kumitzberg.at/products/tirolerknodel",
+   "variant": "Default Title",
+   "gtin": "9120117352869"
+  },
+  {
+   "row_name": "Kaspressknödel",
+   "store": "Online: Kumitzberg",
+   "url": "https://kumitzberg.at/products/kaspressknoedel",
+   "variant": "Default Title",
+   "gtin": "9120117352852"
+  },
+  {
+   "row_name": "Schweinsbraten vom Schopf, fertig gebraten",
+   "store": "Online: Kumitzberg",
+   "url": "https://kumitzberg.at/products/schweinebraten-fertig-gebraten",
+   "variant": "Default Title",
+   "gtin": "9120117351947"
+  },
+  {
+   "row_name": "Gelbes Thai Curry",
+   "store": "Online: Löwenanteil",
+   "url": "https://www.loewenanteil.com/products/gelbes-thai-curry",
+   "variant": "Einzeln",
+   "gtin": "4262398292221"
+  },
+  {
+   "row_name": "Linsen à la Provence",
+   "store": "Online: Löwenanteil",
+   "url": "https://www.loewenanteil.com/products/linsen-a-la-provence-vegan",
+   "variant": "Einzeln",
+   "gtin": "4262398291699"
+  },
+  {
+   "row_name": "Hühner Frikassee",
+   "store": "Online: Löwenanteil",
+   "url": "https://www.loewenanteil.com/products/huhner-frikassee",
+   "variant": "Einzeln",
+   "gtin": "4262398291774"
+  },
+  {
+   "row_name": "Paprika Hähnchen",
+   "store": "Online: Löwenanteil",
+   "url": "https://www.loewenanteil.com/products/paprika-hahnchen",
+   "variant": "Einzeln",
+   "gtin": "4262398291767"
+  },
+  {
+   "row_name": "Butter Chicken",
+   "store": "Online: Löwenanteil",
+   "url": "https://www.loewenanteil.com/products/butter-chicken",
+   "variant": "Einzeln",
+   "gtin": "4262398291781"
+  },
+  {
+   "row_name": "Veganes Gulasch",
+   "store": "Online: Löwenanteil",
+   "url": "https://www.loewenanteil.com/products/veganes-gulasch",
+   "variant": "Einzeln",
+   "gtin": "4262398290760"
+  },
+  {
+   "row_name": "Classic Bolognese",
+   "store": "Online: Löwenanteil",
+   "url": "https://www.loewenanteil.com/products/classic-bolognese",
+   "variant": "Einzeln",
+   "gtin": "4262398291255"
+  },
+  {
+   "row_name": "Chipotle Chili",
+   "store": "Online: Löwenanteil",
+   "url": "https://www.loewenanteil.com/products/chipotle-chili",
+   "variant": "Einzeln",
+   "gtin": "4262398291682"
+  },
+  {
+   "row_name": "Linsen Dal",
+   "store": "Online: Löwenanteil",
+   "url": "https://www.loewenanteil.com/products/linsen-dal",
+   "variant": "Einzeln",
+   "gtin": "4262398290753"
+  },
+  {
+   "row_name": "Erdnuss Curry",
+   "store": "Online: Löwenanteil",
+   "url": "https://www.loewenanteil.com/products/erdnuss-curry",
+   "variant": "Einzeln",
+   "gtin": "4262398290746"
+  },
+  {
+   "row_name": "Piri Piri Stew",
+   "store": "Online: Löwenanteil",
+   "url": "https://www.loewenanteil.com/products/piri-piri-stew",
+   "variant": "Einzeln",
+   "gtin": "0724754246902"
+  },
+  {
+   "row_name": "Sweet Chili",
+   "store": "Online: Löwenanteil",
+   "url": "https://www.loewenanteil.com/products/sweet-chili",
+   "variant": "Einzeln",
+   "gtin": "0724754246797"
+  },
+  {
+   "row_name": "African Bowl",
+   "store": "Online: Löwenanteil",
+   "url": "https://www.loewenanteil.com/products/african-bowl",
+   "variant": "Einzeln",
+   "gtin": "0724754246964"
+  },
+  {
+   "row_name": "Mediterranes Hühnchen",
+   "store": "Online: Löwenanteil",
+   "url": "https://www.loewenanteil.com/products/mediterranes-huhnchen",
+   "variant": "Einzeln",
+   "gtin": "4262398291705"
+  },
+  {
+   "row_name": "Chili Sin Carne",
+   "store": "Online: Löwenanteil",
+   "url": "https://www.loewenanteil.com/products/chili-sin-carne",
+   "variant": "Einzeln",
+   "gtin": "0724754246841"
+  },
+  {
+   "row_name": "Kichererbsen Curry",
+   "store": "Online: Löwenanteil",
+   "url": "https://www.loewenanteil.com/products/kichererbsen-curry-vegan",
+   "variant": "Einzeln",
+   "gtin": "0724754246780"
+  },
+  {
+   "row_name": "Berglinseneintopf",
+   "store": "Online: Löwenanteil",
+   "url": "https://www.loewenanteil.com/products/berglinseneintopf",
+   "variant": "Einzeln",
+   "gtin": "0724754246773"
+  }
+ ],
+ "nutrition": [
+  {
+   "row_name": "Deflorian Kaspressknödel vorgebacken",
+   "store": "Online: Deflorian",
+   "gtin": "9120035592651",
+   "kcal": 288,
+   "protein": 14.0,
+   "fat": 15.0,
+   "satfat": 3.8,
+   "carbs": 25.0,
+   "sugar": 3.6,
+   "salt": 1.6,
+   "src": "MPreis-Produktseite (gleiche GTIN 9120035592651, 400 g) via data/nutrition.csv dfb8bc60a13a",
+   "atwater_kcal": 291.0,
+   "atwater_dev_pct": -1.0
+  },
+  {
+   "row_name": "Deflorian Schlutzkrapfen mit Graukäsefüllung",
+   "store": "Online: Deflorian",
+   "gtin": "9120035590022",
+   "kcal": 182,
+   "protein": 9.4,
+   "fat": 3.2,
+   "satfat": 1.0,
+   "carbs": 29.0,
+   "sugar": 2.0,
+   "salt": 1.6,
+   "src": "MPreis-Produktseite (gleiche GTIN 9120035590022, 450 g) via data/nutrition.csv addd7e937e7a",
+   "atwater_kcal": 182.4,
+   "atwater_dev_pct": -0.2
+  },
+  {
+   "row_name": "Deflorian Schlutzkrapfen mit Spinatfülle",
+   "store": "Online: Deflorian",
+   "gtin": "9120035590015",
+   "kcal": 157,
+   "protein": 6.9,
+   "fat": 2.7,
+   "satfat": 0.6,
+   "carbs": 26.0,
+   "sugar": 1.5,
+   "salt": 1.3,
+   "src": "MPreis-Produktseite (gleiche GTIN 9120035590015, 450 g) via data/nutrition.csv 206c23576966",
+   "atwater_kcal": 155.9,
+   "atwater_dev_pct": 0.7
+  },
+  {
+   "row_name": "Deflorian Schlutzkrapfen mit Topfenfülle",
+   "store": "Online: Deflorian",
+   "gtin": "9120035590084",
+   "kcal": 184,
+   "protein": 8.0,
+   "fat": 3.8,
+   "satfat": 1.4,
+   "carbs": 30.0,
+   "sugar": 2.3,
+   "salt": 1.4,
+   "src": "MPreis-Produktseite (gleiche GTIN 9120035590084, 450 g) via data/nutrition.csv fb6bc6548b59",
+   "atwater_kcal": 186.2,
+   "atwater_dev_pct": -1.2
+  },
+  {
+   "row_name": "Deflorian Tiroler Tris",
+   "store": "Online: Deflorian",
+   "gtin": "9120035591395",
+   "kcal": 169,
+   "protein": 8.5,
+   "fat": 3.2,
+   "satfat": 1.1,
+   "carbs": 26.0,
+   "sugar": 1.6,
+   "salt": 1.4,
+   "src": "MPreis-Produktseite (gleiche GTIN 9120035591395; MPreis 550 g vs. Shop 580 g) via data/nutrition.csv 9526725ee974",
+   "atwater_kcal": 166.8,
+   "atwater_dev_pct": 1.3
+  },
+  {
+   "row_name": "Deflorian Zillertaler Kaskrapfen mini",
+   "store": "Online: Deflorian",
+   "gtin": "9120035591029",
+   "kcal": 197,
+   "protein": 8.5,
+   "fat": 2.6,
+   "satfat": 0.9,
+   "carbs": 34.0,
+   "sugar": 1.5,
+   "salt": 1.28,
+   "src": "Open Food Facts 9120035591029 (Zillertaler Mini), Salz 1,2775 g gerundet",
+   "atwater_kcal": 193.4,
+   "atwater_dev_pct": 1.8
+  },
+  {
+   "row_name": "Gulaschsuppe",
+   "store": "Online: Schmankerl Österreich",
+   "gtin": "9000295831168",
+   "kcal": 80,
+   "protein": 3.4,
+   "fat": 4.4,
+   "satfat": 0.8,
+   "carbs": 6.2,
+   "sugar": 2.0,
+   "salt": 1.3,
+   "src": "FELIX Gulaschsuppe 400 g (Packshot im Shop = FELIX-Dose, Marke Felix, Zutaten deckungsgleich); Nährwerte lt. MPreis 6e0c7f1908c8 + Open Food Facts 9000295831168 übereinstimmend",
+   "atwater_kcal": 78.0,
+   "atwater_dev_pct": 2.5
+  }
+ ]
+}
