@@ -3094,6 +3094,213 @@ def _reconcile_sc48(out):
                                                             if _r67f.get('rank_excluded_reason'):
                                                                 changed_uids.add(_r67f['uid'])
 
+                                                # sensecheck 68 (SC68):
+                                                # 1. P1.1: Rescue 2 Billa meals in Linz (#1067 Omis Schmankerl Eiernockerl 330 g -> pli=31.6,
+                                                #    #1478 Amlacher Kärntner Käsnudeln 600 g -> 2 portions à 300 g, pli=28.7) + bidirectional
+                                                #    sameStore size alsoPack between #431 (400 g) and #432 (800 g) Spar Inzersdorfer Weinbeuschel.
+                                                # 2. P2.1: Resolve stage='meal' vs component=True contradiction on 25 active live 2026 rows:
+                                                #    - 13 pure meat/fish/veggie components -> stage='prot', meal_class='protein_component'
+                                                #    - 7 complete meals/bowls + 5 snack/baguette/dumpling rows -> component=False & strip false
+                                                #      'Proteinkomponente (keine vollständige Mahlzeit)' suffix.
+                                                # 3. P2.2: Normalize 5 bofrost twin-pack pizzas (740-838 g = 2 Pizzen) to 1 pizza per portion
+                                                #    (#2968 -> pli=34.1, #2966 -> pli=33.9, #2967 -> pli=30.8, #2970 -> pli=30.7, #3052 -> pli=27.8).
+                                                # 4. P3.1: Whitespace trim/collapse in rank_excluded_reason, flags, and meal_check['reason'],
+                                                #    and check stage in ('side', 'veg') or meal_class == 'snack_side' before component=True
+                                                #    for #44, #660, #1282, #1284, #1339, #3159, #3379, #3669.
+                                                if os.environ.get('SC68_FIXES', '1') != '0' and os.environ.get('GOOD_CHOICE_DISABLE_SC68', '0') != '1':
+                                                    # P1.1(a): Rescue #1067 [Billa] Omis Schmankerl Eiernockerl (330 g, €3.49, 492 kcal, 21.4 g P, Score 32.5)
+                                                    _r1067 = _pmm_by_id.get(1067)
+                                                    if _r1067 is not None:
+                                                        _r1067['stage'] = 'meal'
+                                                        _r1067['segment'] = 'ready_meal'
+                                                        _r1067['meal_class'] = 'meal'
+                                                        _r1067['gang'] = 'haupt'
+                                                        _r1067['component'] = False
+                                                        _r1067['pPorEff'] = 3.49
+                                                        _r1067['meal_check'] = {
+                                                            'portion': 330,
+                                                            'kcal': 492,
+                                                            'protein': 21.4,
+                                                            'ok': True,
+                                                            'cls': 'meal',
+                                                            'reason': None,
+                                                        }
+                                                        _r1067['flags'] = []
+                                                        _r1067['rankable'] = True
+                                                        _r1067['rankableLight'] = False
+                                                        _r1067['pli'] = 31.6
+                                                        _r1067['pliLight'] = None
+                                                        _r1067['rank_excluded_reason'] = None
+                                                        changed_uids.add(_r1067['uid'])
+
+                                                    # P1.1(b): Normalize #1478 [Billa] Amlacher Kärntner Käsnudeln (600 g, €8.49, Score 30.3) to 2 portions à 300 g
+                                                    _r1478 = _pmm_by_id.get(1478)
+                                                    if _r1478 is not None:
+                                                        _r1478['portion'] = 300
+                                                        _r1478['portion_g'] = 300
+                                                        _r1478['portion_source'] = 'pack_2portions'
+                                                        _r1478['kcalPor'] = 456.0
+                                                        _r1478['kcal_meal'] = 456
+                                                        _r1478['protPor'] = 23.1
+                                                        _r1478['saltPor'] = 4.2
+                                                        _r1478['saltPct'] = 70
+                                                        _r1478['pPor'] = 4.25
+                                                        _r1478['pPorEff'] = 4.25
+                                                        _r1478['ppe'] = 5.4
+                                                        _r1478['stage'] = 'meal'
+                                                        _r1478['segment'] = 'ready_meal'
+                                                        _r1478['meal_class'] = 'meal'
+                                                        _r1478['gang'] = 'haupt'
+                                                        _r1478['component'] = False
+                                                        _r1478['meal_check'] = {
+                                                            'portion': 300,
+                                                            'kcal': 456,
+                                                            'protein': 23.1,
+                                                            'ok': True,
+                                                            'cls': 'meal',
+                                                            'reason': None,
+                                                        }
+                                                        _r1478['flags'] = []
+                                                        _r1478['rankable'] = True
+                                                        _r1478['rankableLight'] = False
+                                                        _r1478['pli'] = 28.7
+                                                        _r1478['pliLight'] = None
+                                                        _r1478['rank_excluded_reason'] = None
+                                                        changed_uids.add(_r1478['uid'])
+
+                                                    # P1.1(c): Bidirectional sameStore size alsoPack on #431 (400 g) <-> #432 (800 g) [Spar] Inzersdorfer Weinbeuschel
+                                                    _r431 = _pmm_by_id.get(431)
+                                                    _r432 = _pmm_by_id.get(432)
+                                                    if _r431 is not None and _r432 is not None:
+                                                        _r431['alsoPack'] = [{
+                                                            'store': 'Spar', 'kind': 'size', 'n': None,
+                                                            'size': 800.0, 'label': '800 g', 'id': 432,
+                                                            'sameStore': True, 'uid': _r432['uid'],
+                                                        }]
+                                                        _r432['alsoPack'] = [{
+                                                            'store': 'Spar', 'kind': 'size', 'n': None,
+                                                            'size': 400.0, 'label': '400 g', 'id': 431,
+                                                            'sameStore': True, 'uid': _r431['uid'],
+                                                        }]
+                                                        changed_uids.add(_r431['uid'])
+                                                        changed_uids.add(_r432['uid'])
+
+                                                    # P2.1(a): Reclassify 13 pure meat/fish/veggie components from stage='meal' to stage='prot', meal_class='protein_component'
+                                                    for _p21_prot_id in (662, 867, 1288, 1332, 2082, 2440, 2503, 2504, 2506, 2535, 2952, 3387, 3896):
+                                                        _rp21p = _pmm_by_id.get(_p21_prot_id)
+                                                        if _rp21p is not None:
+                                                            _rp21p['stage'] = 'prot'
+                                                            _rp21p['meal_class'] = 'protein_component'
+                                                            _rp21p['component'] = True
+                                                            changed_uids.add(_rp21p['uid'])
+
+                                                    # P2.1(b): Clean component=False and strip false 'Proteinkomponente (keine vollständige Mahlzeit)' suffix
+                                                    # on 7 complete meals/bowls (#438, #1337, #1517, #1546, #1676, #1807, #3251) and 5 snack/baguette/dumpling rows (#594, #1279, #1748, #2502, #3540)
+                                                    for _p21_clean_id in (438, 1337, 1517, 1546, 1676, 1807, 3251, 594, 1279, 1748, 2502, 3540):
+                                                        _rp21c = _pmm_by_id.get(_p21_clean_id)
+                                                        if _rp21c is not None:
+                                                            _rp21c['component'] = False
+                                                            _mc21c = dict(_rp21c.get('meal_check') or {})
+                                                            if isinstance(_mc21c.get('reason'), str):
+                                                                _mc21c['reason'] = _mc21c['reason'].replace(' Proteinkomponente (keine vollständige Mahlzeit)', '').replace('Proteinkomponente (keine vollständige Mahlzeit)', '').strip() or None
+                                                                _rp21c['meal_check'] = _mc21c
+                                                            if _rp21c.get('flags'):
+                                                                _rp21c['flags'] = [
+                                                                    f.replace(' Proteinkomponente (keine vollständige Mahlzeit)', '').replace('Proteinkomponente (keine vollständige Mahlzeit)', '').strip()
+                                                                    for f in _rp21c['flags']
+                                                                ]
+                                                            if isinstance(_rp21c.get('rank_excluded_reason'), str):
+                                                                _rp21c['rank_excluded_reason'] = _rp21c['rank_excluded_reason'].replace(' Proteinkomponente (keine vollständige Mahlzeit)', '').replace('Proteinkomponente (keine vollständige Mahlzeit)', '').strip()
+                                                            changed_uids.add(_rp21c['uid'])
+
+                                                    # P2.2: Normalize 5 bofrost twin-pack pizzas (740-838 g = 2 Pizzen) to 1 pizza per portion (2 portions)
+                                                    for _pz_id, _pz_por, _pz_kpor, _pz_kmeal, _pz_ppor, _pz_spor, _pz_spct, _pz_prpor, _pz_ppe, _pz_pli in (
+                                                        (2968, 376, 778.5, 778, 39.5, 3.76, 63, 6.75, 5.9, 34.1),
+                                                        (2966, 419, 884.0, 884, 46.1, 5.03, 84, 6.75, 6.8, 33.9),
+                                                        (2967, 416, 844.5, 844, 40.0, 4.58, 76, 6.75, 5.9, 30.8),
+                                                        (2970, 370, 766.0, 766, 37.8, 4.44, 74, 6.5,  5.8, 30.7),
+                                                        (3052, 397, 774.0, 774, 33.4, 5.16, 86, 6.75, 4.9, 27.8),
+                                                    ):
+                                                        _rpz = _pmm_by_id.get(_pz_id)
+                                                        if _rpz is not None:
+                                                            _rpz['portion'] = _pz_por
+                                                            _rpz['portion_g'] = _pz_por
+                                                            _rpz['portion_source'] = 'pack_2portions'
+                                                            _rpz['kcalPor'] = _pz_kpor
+                                                            _rpz['kcal_meal'] = _pz_kmeal
+                                                            _rpz['protPor'] = _pz_ppor
+                                                            _rpz['saltPor'] = _pz_spor
+                                                            _rpz['saltPct'] = _pz_spct
+                                                            _rpz['pPor'] = _pz_prpor
+                                                            _rpz['pPorEff'] = _pz_prpor
+                                                            _rpz['ppe'] = _pz_ppe
+                                                            _rpz['meal_class'] = 'meal'
+                                                            _rpz['gang'] = 'haupt'
+                                                            _rpz['component'] = False
+                                                            _rpz['meal_check'] = {
+                                                                'portion': _pz_por,
+                                                                'kcal': _pz_kmeal,
+                                                                'protein': _pz_ppor,
+                                                                'ok': True,
+                                                                'cls': 'meal',
+                                                                'reason': None,
+                                                            }
+                                                            _rpz['flags'] = [f for f in (_rpz.get('flags') or []) if 'Mehrportionen-Packung' not in f]
+                                                            _rpz['rankable'] = True
+                                                            _rpz['rankableLight'] = False
+                                                            _rpz['pli'] = _pz_pli
+                                                            _rpz['pliLight'] = None
+                                                            _rpz['rank_excluded_reason'] = None
+                                                            changed_uids.add(_rpz['uid'])
+
+                                                    # P3.1: Check stage in ('side', 'veg') or meal_class == 'snack_side' before component=True
+                                                    # (including #44, #660, #1282, #1284, #1339, #3159, #3379, #3669) and trim/collapse whitespace
+                                                    for _s68_id in (3159, 3669):
+                                                        _rs68 = _pmm_by_id.get(_s68_id)
+                                                        if _rs68 is not None:
+                                                            _mcs68 = dict(_rs68.get('meal_check') or {})
+                                                            if isinstance(_mcs68.get('reason'), str):
+                                                                _mcs68['reason'] = _mcs68['reason'].replace(' Proteinkomponente (keine vollständige Mahlzeit)', '').strip()
+                                                                _rs68['meal_check'] = _mcs68
+                                                            if _rs68.get('flags'):
+                                                                _rs68['flags'] = [f.replace(' Proteinkomponente (keine vollständige Mahlzeit)', '').strip() for f in _rs68['flags']]
+                                                            _rs68['rank_excluded_reason'] = 'Snack / Beilage (keine Hauptmahlzeit)'
+                                                            changed_uids.add(_rs68['uid'])
+
+                                                    for _r68w in rows:
+                                                        if (
+                                                            not _r68w.get('rankable')
+                                                            and not _r68w.get('rankableLight')
+                                                            and _r68w.get('dupOf') is None
+                                                            and not _r68w.get('rank_excluded_reason')
+                                                            and (_r68w.get('live') is None or _r68w.get('price') is None)
+                                                        ):
+                                                            _r68w['rank_excluded_reason'] = 'Kein aktueller Preis 2026'
+                                                            changed_uids.add(_r68w['uid'])
+                                                        if (
+                                                            (_r68w.get('stage') in ('side', 'veg') or _r68w.get('meal_class') == 'snack_side')
+                                                            and _r68w.get('rank_excluded_reason') == 'Proteinkomponente (keine vollständige Mahlzeit)'
+                                                        ):
+                                                            _r68w['rank_excluded_reason'] = 'Snack / Beilage (keine Hauptmahlzeit)'
+                                                            changed_uids.add(_r68w['uid'])
+                                                        if isinstance(_r68w.get('rank_excluded_reason'), str):
+                                                            _clean_rer = re.sub(r'\s{2,}', ' ', _r68w['rank_excluded_reason']).strip()
+                                                            if _clean_rer != _r68w['rank_excluded_reason']:
+                                                                _r68w['rank_excluded_reason'] = _clean_rer
+                                                                changed_uids.add(_r68w['uid'])
+                                                        if _r68w.get('flags'):
+                                                            _clean_flgs = [re.sub(r'\s{2,}', ' ', f).strip() if isinstance(f, str) else f for f in _r68w['flags']]
+                                                            if _clean_flgs != _r68w['flags']:
+                                                                _r68w['flags'] = _clean_flgs
+                                                                changed_uids.add(_r68w['uid'])
+                                                        if isinstance((_r68w.get('meal_check') or {}).get('reason'), str):
+                                                            _clean_mck = re.sub(r'\s{2,}', ' ', _r68w['meal_check']['reason']).strip()
+                                                            if _clean_mck != _r68w['meal_check']['reason']:
+                                                                _mc_w = dict(_r68w['meal_check'])
+                                                                _mc_w['reason'] = _clean_mck
+                                                                _r68w['meal_check'] = _mc_w
+                                                                changed_uids.add(_r68w['uid'])
+
     # Check latest online_availability_*.json
     av_files = sorted(glob.glob(os.path.join(base_dir, 'analysis/online_availability_*.json')))
     if os.environ.get('GOOD_CHOICE_AVAILABILITY'):  # sensecheck 52 P1: tests pin the snapshot the canonical baseline was built from
