@@ -123,3 +123,15 @@ No file staged (0 new rows). Fresh fetches of billa, dm, mpreis-shop, juit, loew
 - Skipped: BILLA 23 (Gulaschsaft and soup cubes, dry lasagne sheets, curry spices, spreads and salads), Alfies Land Leben Frittaten (soup insert) and Wiesbauer Nockerl spezial (side), every. 5 (no AT delivery, unrankable per Orchestrator).
 - 0 new from fittogo 32, livefresh 10, buchberger 5, kumitzberg 5, wagyuhof 4, fichtenbauer 3, diechtl 1, thaller 1 (fetched at --limit 60, 4 parallel, ~3 min, all exit 0).
 - Goal of 20 not reached: live connector sources stay exhausted; new rows keep coming from new online stores (Daten-Squad).
+
+### hourly 2026-10-25T04
+
+| file | source | rows | tags | status |
+|---|---|---|---|---|
+| (none) | 12 rotated connectors | 0 | – | – |
+
+- No staged file this hour: every candidate was a duplicate, a multi-variety offer, raw meat, a side or a non-meal.
+- Fetched (4 parallel, ~5 min, all exit 0; myproduct at --limit 30, rest at --limit 60): billa 60, bauernladen 51, penny 31, subway-at 29, penny-shop 27, steiramarkt 22, biohof-achleitner 13, jenichl 11, myproduct 11, bernos 4, nah-frisch 3, lidl 0 (known upstream 401/HTTPError).
+- Skipped: BILLA 23 again (Gulaschsaft and soup cubes, dry/fresh lasagne sheets, curry spices, spreads and salads); PENNY Gustavo Gusto Amore Pizza 320 g 3,29 € (multi-variety "Salame od. Mozzarella" offer valid 2026-11-02 to 11-04; Amore Napoli Salame/Mozzarella already in data.json via Billa/Gurkerl/MPreis), Gustoria Snack-Sortiment and Pfannengerichte, Knorr Snackbecher, Bitte zu Tisch, Kaiserteller (multi-variety), Mini-Fleischlaibchen mit Käse 400 g (Fleisch category, not verifiable as cooked; no nutrition), raw meat, Onion Rings (side), pans and kitchen tools; Nah&Frisch offer tiles (multi-variety, no size); Subway (restaurant, not staged).
+- 0 new from bauernladen, steiramarkt, biohof-achleitner, jenichl, myproduct, bernos.
+- Goal of 20 not reached: live connector sources stay exhausted; new rows keep coming from new online stores (Daten-Squad).
