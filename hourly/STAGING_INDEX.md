@@ -98,3 +98,16 @@ No file staged (0 new rows). Fresh fetches of billa, dm, mpreis-shop, juit, loew
 - Skipped: dry lasagne sheets, Gulaschsaft/soup cubes, curry spices and spreads (BILLA search hits); Gourmetfein 60 (sausages, Leberkäse, ham, no meals); MPreis "Fertigmenüs" hits (tofu, vegan cold cuts, Cordon Bleu component, Eierspätzle, pudding powder); HOFER (bird feed, pan, Flammkuchen without price); PENNY multi-variety offers (Bitte zu Tisch Suppen, Kaiserteller od. Schnelle Feine, Meisterkessel Suppen, Pfannengerichte, Cevapcici od. Pljeskavica), raw meat, sides.
 - 0 new from juit, issmich, adamah, dm, gerbl, suppito, loewenanteil, goldblatt, ruckzuck, kernbeisser, gourmet-daheim (all fetched fine at --limit 60, 4 in parallel, ~4 min total).
 - Goal of 20 not reached: live connector sources stay exhausted; new rows keep coming from new online stores (Daten-Squad).
+
+### hourly 2026-10-25T02
+
+| file | source | rows | tags | status |
+|---|---|---|---|---|
+| (none) | 12 rotated connectors | 0 | – | – |
+
+- No staged file this hour: every candidate was a duplicate or not a heat-up meal.
+- Fetched at --limit 60 (4 parallel, ~2.5 min, all exit 0): gurkerl 60, mpreis-shop 60, spar-shop 60, bofrost 60, prepmymeal 60, deflorian 27, hofer-shop 21, wiesbauer_gourmet 20, voeslauermanufaktur 13, draxler 9, denns 5, lomoalto 3.
+- The 22 "new" spar-shop rows were all already in data.json as store "Spar": the connector writes store "SPAR/INTERSPAR" and URLs like interspar.at/shop/lebensmittel/<slug>/p/<id>, while data.json has interspar.at/p/<id>. Dedupe SPAR by the trailing article id, not by store name or full URL (Reisfleisch, Schinkenfleckerl, Fleischbällchen mit Kartoffelpürree, S-BUDGET Gefüllte Paprika, Kärntner Kasnudeln, Johanna Maier Tomatensuppe/Topfen-Spätzle, Asia Noodles Gemüse all present).
+- Skipped again: Gurkerl 7 (Speckkraut, Gabelkraut, Rotkraut, Sauerkraut, Rahmfisolen, Frittaten, Bedford Hähnchenbrust; sides and components), bofrost 3 (Putenrolle, Rotkrautknödel, Feine Trüffel), MPreis 8 (tofu, vegan cold cuts, Cordon Bleu, Eierspätzle, pudding powder), HOFER 4 (bird feed, pan, Käsekrainer, Flammkuchen without price), PrepMyMeal 4 (bundles, renamed Hähnchen im Kokosmantel), SPAR non-meals (hummus, baguettes, Blätterteig, Eierspätzle, Kokosflocken, Bruschetta, raw fresh pasta).
+- 0 new from deflorian, wiesbauer_gourmet, voeslauermanufaktur, draxler, denns, lomoalto.
+- Goal of 20 not reached: live connector sources stay exhausted; new rows keep coming from new online stores (Daten-Squad).

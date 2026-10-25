@@ -2812,6 +2812,102 @@ def _reconcile_sc48(out):
                                                     _rc8['rank_excluded_reason'] = f"Gesundheits-Score unter 30 ({_rc8['score']})"
                                                 changed_uids.add(_rc8['uid'])
 
+                                        # SC66 (from Sensecheck 65 P1.1 + P1.2 + P3.1):
+                                        # - P1.1: Rescue second light_meal dead-zone (250 <= kcalPor < 300, protPor >= 15 g)
+                                        #         + 5 Linz/Online hearty soups (308-440 kcal, >= 15 g P) -> +32 rankableLight ready meals.
+                                        # - P1.2: 100% sync rankableLight === passesLightRank (demote 5 legacy < 11 g P rows #51, #52, #860, #1091, #2948)
+                                        #         and rescue 2 false-positive _NOISE duplicate rows (#2820 PrepMyMeal Veggie Bolognese, #877 BILLA Lasagne Rind)
+                                        #         plus clean stale self-twin Duplikat flag on keepers #212, #222, #1087.
+                                        # - P3.1: Populate rank_excluded_reason on HelloFresh meal-kit rows and unranked light_meal rows (< 15 g P / Score < 30).
+                                        if os.environ.get('SC66_FIXES', '1') != '0' and os.environ.get('GOOD_CHOICE_DISABLE_SC66', '0') != '1':
+                                            # P1.1: Promote all eligible light_meal ready meals & stews (250 <= kcalPor < 685, protPor >= 15, score >= 30, live 2026, delivers_4020)
+                                            for _r66a in rows:
+                                                if (
+                                                    _r66a.get('meal_class') == 'light_meal'
+                                                    and not _r66a.get('rankableLight')
+                                                    and 250 <= (_r66a.get('kcalPor') or 0) < 685
+                                                    and (_r66a.get('protPor') or 0) >= 15
+                                                    and (_r66a.get('score') or 0) >= 30
+                                                    and bool(_r66a.get('price'))
+                                                    and not _r66a.get('price_stale')
+                                                    and _r66a.get('stage') in ('meal', 'stew')
+                                                    and _r66a.get('segment') == 'ready_meal'
+                                                    and _r66a.get('pstat') == 'live 2026'
+                                                    and _r66a.get('delivers_4020') is True
+                                                    and not _r66a.get('component')
+                                                    and not _r66a.get('incomplete')
+                                                    and not _r66a.get('sold_out')
+                                                    and _r66a.get('dupOf') is None
+                                                    and not any('Duplikat' in f for f in (_r66a.get('flags') or []))
+                                                    and _r66a.get('store') != 'HelloFresh'
+                                                ):
+                                                    if _r66a.get('stage') == 'stew' and _r66a.get('gang') == 'vorspeise':
+                                                        _r66a['gang'] = 'haupt'
+                                                    _r66a['rankable'] = False
+                                                    _r66a['pli'] = None
+                                                    _r66a['rankableLight'] = True
+                                                    _eff66a = _r66a.get('pPorEff') or (
+                                                        round((_r66a.get('pPor') or 0) + (_r66a.get('shipPor') or 0), 2)
+                                                        if _r66a.get('pPor') else None
+                                                    )
+                                                    if _eff66a:
+                                                        _r66a['pPorEff'] = _eff66a
+                                                        _pe66a = min(100.0, (_r66a['protPor'] / _eff66a) * 5.0)
+                                                        _r66a['pliLight'] = round(0.5 * _r66a['score'] + 0.5 * _pe66a, 1)
+                                                    _r66a['rank_excluded_reason'] = None
+                                                    changed_uids.add(_r66a['uid'])
+
+                                            # P1.2(a): Demote 5 legacy < 11 g P rows (#51, #52, #860, #1091, #2948) so rankableLight === passesLightRank (148 === 148)
+                                            for _r66b in rows:
+                                                if _r66b.get('rankableLight') and (_r66b.get('protPor') or 0) < 11:
+                                                    _r66b['rankableLight'] = False
+                                                    _r66b['pliLight'] = None
+                                                    _r66b['rank_excluded_reason'] = '< 11 g Protein/Portion'
+                                                    changed_uids.add(_r66b['uid'])
+
+                                            # P1.2(b): Clean stale self-twin Duplikat flag on keepers #212, #222, #1087 and rescue #2820 & #877 into rankable=True
+                                            for _clean_id in (212, 222, 1087, 2820, 877):
+                                                _rc = _pmm_by_id.get(_clean_id)
+                                                if _rc is not None:
+                                                    _rc['flags'] = [f for f in (_rc.get('flags') or []) if f != 'Duplikat (nahe Name/Marke, Ranking)']
+                                                    changed_uids.add(_rc['uid'])
+
+                                            for _rescue_id in (2820, 877):
+                                                _rr = _pmm_by_id.get(_rescue_id)
+                                                if _rr is not None and _sc50_rank_guard(_rr):
+                                                    _eff66r = _rr.get('pPorEff') or (
+                                                        round((_rr.get('pPor') or 0) + (_rr.get('shipPor') or 0), 2)
+                                                        if _rr.get('pPor') else None
+                                                    )
+                                                    if _eff66r:
+                                                        _rr['pPorEff'] = _eff66r
+                                                        _pe66r = min(100.0, (_rr['protPor'] / _eff66r) * 5.0)
+                                                        _rr['pli'] = round(0.5 * _rr['score'] + 0.5 * _pe66r, 1)
+                                                    _rr['rankable'] = True
+                                                    _rr['rankableLight'] = False
+                                                    _rr['pliLight'] = None
+                                                    _rr['rank_excluded_reason'] = None
+                                                    changed_uids.add(_rr['uid'])
+
+                                            # P3.1: Populate rank_excluded_reason on HelloFresh meal kits and unranked light_meal rows (< 15 g P / Score < 30)
+                                            for _r66c in rows:
+                                                if _r66c.get('store') == 'HelloFresh' and not _r66c.get('rank_excluded_reason'):
+                                                    _r66c['rank_excluded_reason'] = 'Kochbox zum Selbstkochen (30–45 Min.) – nicht im Fertiggericht-Ranking'
+                                                    changed_uids.add(_r66c['uid'])
+                                                elif (
+                                                    _r66c.get('meal_class') == 'light_meal'
+                                                    and not _r66c.get('rankable')
+                                                    and not _r66c.get('rankableLight')
+                                                    and not _r66c.get('rank_excluded_reason')
+                                                    and _r66c.get('dupOf') is None
+                                                ):
+                                                    if _r66c.get('score') is not None and _r66c['score'] < 30:
+                                                        _r66c['rank_excluded_reason'] = 'Health-Score < 30'
+                                                        changed_uids.add(_r66c['uid'])
+                                                    elif _r66c.get('protPor') is not None and _r66c['protPor'] < 15:
+                                                        _r66c['rank_excluded_reason'] = '< 15 g Protein/Portion'
+                                                        changed_uids.add(_r66c['uid'])
+
     # Check latest online_availability_*.json
     av_files = sorted(glob.glob(os.path.join(base_dir, 'analysis/online_availability_*.json')))
     if os.environ.get('GOOD_CHOICE_AVAILABILITY'):  # sensecheck 52 P1: tests pin the snapshot the canonical baseline was built from
