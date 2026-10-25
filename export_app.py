@@ -4692,6 +4692,142 @@ def _reconcile_sc48(out):
                                                                                     _rg74['flags'] = _fl74
                                                                                     changed_uids.add(_rg74['uid'])
 
+                                                                            # sensecheck 75 (SC75 P3.1, P3.2 & P3.3 under SC75_FIXES):
+                                                                            if os.environ.get('SC75_FIXES', '1') != '0' and os.environ.get('GOOD_CHOICE_DISABLE_SC75', '0') != '1':
+                                                                                # SC75 P3.1: #1180 [Hofer] Kärntner Kasnudeln (370 g, 3.09 €, EAN 4099200227733)
+                                                                                # Fix OFF 10x decimal-comma typo sugar: 12.0 -> 1.2 g/100g (verified by sibling #801 4061461370534 & ingredients list where dextrose follows 1.0% salt)
+                                                                                # and portion: 185 -> 370 (pack_single, consistent with #801, #621, #774, #1802, #3951).
+                                                                                _r1180 = _pmm_by_id.get(1180)
+                                                                                if _r1180 is not None:
+                                                                                    _r1180.update({
+                                                                                        'sugar': 1.2,
+                                                                                        'ing': 'Weizenmehl, Wasser, 20% Topfen, 6% Kartoffeln, 4% Eier, Hartweizengrieß, Butter, Speisesalz, Kräuter, Rapsöl, Zwiebeln, Gewürze, Weizenprotein, Dextrose, Antioxidationsmittel: Ascorbinsäure.',
+                                                                                        'portion': 370,
+                                                                                        'portion_g': 370,
+                                                                                        'portion_source': 'pack_single',
+                                                                                        'multi_portion': False,
+                                                                                        'kcalPor': 570,
+                                                                                        'kcal_meal': 570,
+                                                                                        'protPor': 24.4,
+                                                                                        'saltPor': 3.7,
+                                                                                        'saltPct': 62,
+                                                                                        'pPor': 3.09,
+                                                                                        'pPorEff': 3.09,
+                                                                                        'eur10p': 1.27,
+                                                                                        'eur100k': 0.54,
+                                                                                        'ppe': 7.9,
+                                                                                        'veg_pct': 9.0,
+                                                                                        'veg_source': 'ingredients_order',
+                                                                                        'nova': 4,
+                                                                                        'nova_source': 'ingredients_markers',
+                                                                                        'score': 30.7,
+                                                                                        'scoreV1': 36.4,
+                                                                                        'score_parts': {'base': 30.0, 'protein': 15.0, 'salt': -5.7, 'satfat': -0.0, 'sugar': 0.0, 'fiber': 0, 'veg': 2.2, 'nova': -10, 'portion_salt': -5.9, 'portion_protein': 5},
+                                                                                        'day_pct': {'kcal': 28, 'protein': 49, 'salt': 62, 'satfat': 17, 'sugar': 5, 'fiber': None},
+                                                                                        'meal_class': 'meal',
+                                                                                        'meal_check': {'portion': 370, 'kcal': 570, 'protein': 24.4, 'ok': True, 'cls': 'meal', 'reason': None},
+                                                                                        'hofer_listed': True,
+                                                                                        'price_note': None,
+                                                                                        'variant_note': None,
+                                                                                        'rank_excluded_reason': None,
+                                                                                        'flags': [f for f in (_r1180.get('flags') or []) if 'Mahlzeit-Check:' not in f],
+                                                                                        'rankable': True,
+                                                                                        'rankableLight': False,
+                                                                                        'pli': 35.1,
+                                                                                        'pliLight': None,
+                                                                                        'nutrition_source': 'Open Food Facts 4099200227733 / Hofer-Zwilling #801 (4061461370534): 1,2 g Zucker/100g statt OFF-10×-Tippfehler 12,0 g; 1 Portion = 370 g Packung',
+                                                                                    })
+                                                                                    changed_uids.add(_r1180['uid'])
+                                                                                    _r801 = _pmm_by_id.get(801)
+                                                                                    if _r801 is not None:
+                                                                                        _r801['dupOf'] = 1180
+                                                                                        _r801['dupOfUid'] = _r1180['uid']
+                                                                                        _r801['rankable'] = False
+                                                                                        _r801['rankableLight'] = False
+                                                                                        _r801['pli'] = None
+                                                                                        _r801['pliLight'] = None
+                                                                                        _fl801 = list(_r801.get('flags') or [])
+                                                                                        if not any('Duplikat' in f for f in _fl801):
+                                                                                            _fl801.append('Duplikat (Hofer Kärntner Kasnudeln 370 g, aktuelle Zeile #1180)')
+                                                                                        _r801['flags'] = _fl801
+                                                                                        changed_uids.add(_r801['uid'])
+
+                                                                                # SC75 P3.2: Consistent ppk = round(price / (size / 1000), 2) (#635 Billa Omis Schmankerl Hühnerpfandl 13.61 -> 12.83)
+                                                                                # and collapsed internal whitespace in name across all rows (#635 + 21 other rows).
+                                                                                for _r75 in rows:
+                                                                                    if _r75.get('name'):
+                                                                                        _nm75 = re.sub(r'\s{2,}', ' ', _r75['name']).strip()
+                                                                                        if _nm75 != _r75['name']:
+                                                                                            _r75['name'] = _nm75
+                                                                                            changed_uids.add(_r75['uid'])
+                                                                                    if _r75.get('price') is not None and _r75.get('size'):
+                                                                                        _ppk75 = round(_r75['price'] / (_r75['size'] / 1000.0), 2)
+                                                                                        if _r75.get('ppk') != _ppk75:
+                                                                                            _r75['ppk'] = _ppk75
+                                                                                            changed_uids.add(_r75['uid'])
+
+                                                                                # SC75 P3.3: (store, GTIN) deduplication across r.ean, r.psrc, r.url, r.nutrition_source
+                                                                                def _sc75_gtin(row_obj):
+                                                                                    _e75 = str(row_obj.get('ean') or '').strip()
+                                                                                    if re.fullmatch(r'\d{8,14}', _e75):
+                                                                                        return _e75
+                                                                                    for _k75 in ('psrc', 'url', 'nutrition_source'):
+                                                                                        _s75 = str(row_obj.get(_k75) or '')
+                                                                                        _m75 = re.search(r'(?:/product/|\b)(\d{8,14})\b', _s75)
+                                                                                        if _m75:
+                                                                                            return _m75.group(1)
+                                                                                    return None
+
+                                                                                _sc75_groups = {}
+                                                                                for _r75 in rows:
+                                                                                    _st75 = _r75.get('store') or ''
+                                                                                    if not _st75 or _st75.startswith('unbekannt'):
+                                                                                        continue
+                                                                                    _g75 = _sc75_gtin(_r75)
+                                                                                    if _g75:
+                                                                                        _sc75_groups.setdefault((_st75, _g75), []).append(_r75)
+
+                                                                                for (_st75, _g75), _grp75 in _sc75_groups.items():
+                                                                                    if len(_grp75) <= 1:
+                                                                                        continue
+                                                                                    _act75 = [_x75 for _x75 in _grp75 if _x75.get('dupOf') is None]
+                                                                                    if len(_act75) <= 1:
+                                                                                        continue
+                                                                                    _win75 = max(
+                                                                                        _act75,
+                                                                                        key=lambda _x75: (
+                                                                                            bool(_x75.get('rankable')),
+                                                                                            bool(_x75.get('rankableLight')),
+                                                                                            _x75.get('pstat') == 'live 2026',
+                                                                                            _x75.get('price') is not None,
+                                                                                            bool(_x75.get('ean')),
+                                                                                            bool(_x75.get('url')),
+                                                                                            -(_x75.get('size') or 999999),
+                                                                                            -_x75['id'],
+                                                                                        ),
+                                                                                    )
+                                                                                    if not _win75.get('ean'):
+                                                                                        _win75['ean'] = _g75
+                                                                                        changed_uids.add(_win75['uid'])
+                                                                                    for _los75 in _act75:
+                                                                                        if _los75['id'] == _win75['id']:
+                                                                                            continue
+                                                                                        if not _los75.get('ean'):
+                                                                                            _los75['ean'] = _g75
+                                                                                        _los75['dupOf'] = _win75['id']
+                                                                                        _los75['dupOfUid'] = _win75['uid']
+                                                                                        _los75['rankable'] = False
+                                                                                        _los75['rankableLight'] = False
+                                                                                        _los75['pli'] = None
+                                                                                        _los75['pliLight'] = None
+                                                                                        if not _los75.get('rank_excluded_reason'):
+                                                                                            _los75['rank_excluded_reason'] = f"Duplikat von #{_win75['id']}"
+                                                                                        _fl_los75 = list(_los75.get('flags') or [])
+                                                                                        if not any('Duplikat' in f for f in _fl_los75):
+                                                                                            _fl_los75.append(f"Duplikat (gleiche GTIN {_g75} wie #{_win75['id']})")
+                                                                                        _los75['flags'] = _fl_los75
+                                                                                        changed_uids.add(_los75['uid'])
+
     # Check latest online_availability_*.json
     av_files = sorted(glob.glob(os.path.join(base_dir, 'analysis/online_availability_*.json')))
     if os.environ.get('GOOD_CHOICE_AVAILABILITY'):  # sensecheck 52 P1: tests pin the snapshot the canonical baseline was built from
