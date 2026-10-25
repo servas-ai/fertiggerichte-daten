@@ -2996,7 +2996,7 @@ def _reconcile_sc48(out):
                                                 if _r1266 is not None:
                                                     _r1266['pack'] = 'Trocken/Instant'
                                                     changed_uids.add(_r1266['uid'])
-                                                _jar_re = re.compile(r'im glas|glas|dmbio|nabio|alnatura|tressbr[üu]der', re.I)
+                                                _jar_re = re.compile(r'im glas|\bglas\b|dmbio|nabio|alnatura|tressbr[üu]der', re.I)
                                                 for _r67p in rows:
                                                     if (
                                                         _r67p['id'] != 1266
@@ -5155,6 +5155,190 @@ def _reconcile_sc48(out):
                                                                                             _r3425['pliLight'] = 39.8
                                                                                             _r3425['rank_excluded_reason'] = '243 kcal/Portion < 400 (Light Meal)'
                                                                                             changed_uids.add(_r3425['uid'])
+                                                                                        _sc78_fixes_on = _sc77_fixes_on and os.environ.get('SC78_FIXES', '1') != '0' and os.environ.get('GOOD_CHOICE_DISABLE_SC78', '0') != '1'
+                                                                                        if _sc78_fixes_on:
+                                                                                            # SC78 P1.2: Remove non-4020 stores from alsoAt & alsoPack on Linz rows (delivers_4020 is not False)
+                                                                                            _NON_LINZ_78 = {'Gurkerl', 'MPreis', 'Alfies', 'every.'}
+                                                                                            for _r78 in rows:
+                                                                                                if _r78.get('delivers_4020') is not False:
+                                                                                                    _ch78 = False
+                                                                                                    _aa78 = _r78.get('alsoAt')
+                                                                                                    if _aa78:
+                                                                                                        _new_aa78 = [_s for _s in _aa78 if _s not in _NON_LINZ_78]
+                                                                                                        if _new_aa78 != _aa78:
+                                                                                                            if _new_aa78:
+                                                                                                                _r78['alsoAt'] = _new_aa78
+                                                                                                            else:
+                                                                                                                _r78.pop('alsoAt', None)
+                                                                                                            _ch78 = True
+                                                                                                    _ap78 = _r78.get('alsoPack')
+                                                                                                    if _ap78:
+                                                                                                        _new_ap78 = [
+                                                                                                            _p for _p in _ap78
+                                                                                                            if _p.get('sameStore') or (
+                                                                                                                _p.get('store') not in _NON_LINZ_78
+                                                                                                                and (_pmm_by_id.get(_p.get('id')) or {}).get('delivers_4020') is not False
+                                                                                                            )
+                                                                                                        ]
+                                                                                                        if _new_ap78 != _ap78:
+                                                                                                            if _new_ap78:
+                                                                                                                _r78['alsoPack'] = _new_ap78
+                                                                                                            else:
+                                                                                                                _r78.pop('alsoPack', None)
+                                                                                                            _ch78 = True
+                                                                                                    if _ch78:
+                                                                                                        changed_uids.add(_r78['uid'])
+                                                                                            # SC78 P3.1: Prefix brand backfill for noBrand: True / empty brand rows starting with a known catalog brand
+                                                                                            _PREFIX_BRANDS_78 = (
+                                                                                                (r'^SPAR\s+Natur\*?pur\b', 'SPAR Natur*pur', 'SPAR Natur*pur', 'analysis/logos/spar-natur-pur.png', None),
+                                                                                                (r'^SPAR\s+Feine\s+Küche\b', 'SPAR Feine Küche', 'SPAR Feine Küche', 'analysis/logos/spar-feine-kueche.png', None),
+                                                                                                (r'^SPAR\s+PREMIUM\b', 'SPAR PREMIUM', 'SPAR PREMIUM', 'analysis/logos/spar-premium.png', None),
+                                                                                                (r'^SPAR\s+Vital\b', 'SPAR Vital', 'SPAR Vital', 'analysis/logos/spar-vital.png', None),
+                                                                                                (r'^SPAR\s+enjoy\b', 'SPAR enjoy', 'SPAR enjoy', 'analysis/logos/spar-enjoy.png', None),
+                                                                                                (r'^SPAR\s+Veggie\b', 'SPAR Veggie', 'SPAR Veggie', 'analysis/logos/spar-veggie.png', None),
+                                                                                                (r'^SPAR\s+ASIA\b', 'SPAR Asia', 'SPAR Asia', 'logos/spar.png', 'Spar'),
+                                                                                                (r'^SPAR\s+free\s+from\b', 'SPAR Free From', 'SPAR Free From', 'logos/spar.png', 'Spar'),
+                                                                                                (r'^SPAR\b', 'SPAR', 'SPAR', 'analysis/logos/spar.svg', None),
+                                                                                                (r'^S-BUDGET\b', 'S-BUDGET', 'S-Budget', 'analysis/logos/s-budget.png', None),
+                                                                                                (r'^DESPAR\b', 'DESPAR', 'DESPAR', 'analysis/logos/despar.png', None),
+                                                                                                (r'^TANN\b', 'TANN', 'TANN', 'analysis/logos/tann.png', None),
+                                                                                                (r'^Youcook\b', 'Youcook', 'Youcook', 'analysis/logos/youcook.png', None),
+                                                                                                (r'^Inzersdorfer\b', 'Inzersdorfer', 'Inzersdorfer', 'analysis/logos/inzersdorfer.png', None),
+                                                                                                (r'^Iglo\b', 'Iglo', 'iglo', 'analysis/logos/iglo.png', None),
+                                                                                                (r'^Knorr\b', 'Knorr', 'Knorr', 'analysis/logos/knorr.svg', None),
+                                                                                                (r'^Hilcona\b', 'Hilcona', 'Hilcona', 'analysis/logos/hilcona.svg', None),
+                                                                                                (r'^Maggi\b', 'Maggi', 'Maggi', 'analysis/logos/maggi.svg', None),
+                                                                                                (r'^Felix\b', 'Felix', 'Felix', 'analysis/logos/felix.svg', None),
+                                                                                                (r'^Chef\s+Select\b', 'Chef Select', 'Chef Select', 'analysis/logos/chef-select.png', None),
+                                                                                                (r'^Rio\s+Mare\b', 'Rio Mare', 'Rio Mare', None, None),
+                                                                                                (r'^Barilla\b', 'Barilla', 'Barilla', 'analysis/logos/barilla.svg', None),
+                                                                                                (r'^Dr\.?\s*Oetker\b', 'Dr. Oetker', 'Dr. Oetker', 'analysis/logos/dr-oetker.svg', None),
+                                                                                                (r'^BILLA\s+Genusswelt\b', 'BILLA Genusswelt', 'BILLA Genusswelt', 'analysis/logos/billa-genusswelt.png', None),
+                                                                                                (r'^BILLA\s+Bio\b', 'BILLA Bio', 'BILLA Bio', 'analysis/logos/billa-bio.png', None),
+                                                                                                (r'^BILLA\s+Immer\s+Gut\b', 'BILLA Immer Gut', 'BILLA Immer Gut', 'analysis/logos/immer-gut.png', None),
+                                                                                                (r'^BILLA\b', 'BILLA', 'BILLA', 'analysis/logos/billa.svg', None),
+                                                                                                (r'^Clever\b', 'Clever', 'Clever', 'analysis/logos/clever.png', None),
+                                                                                                (r'^Ja!\s*Natürlich\b', 'Ja! Natürlich', 'Ja! Natürlich', 'analysis/logos/ja-natuerlich.svg', None),
+                                                                                                (r'^dmBio\b', 'dmBio', 'dmBio', 'analysis/logos/dmbio.png', None),
+                                                                                                (r'^Alnatura\b', 'Alnatura', 'Alnatura', 'analysis/logos/alnatura.svg', None),
+                                                                                                (r'^Little\s+Lunch\b', 'Little Lunch', 'Little Lunch', 'analysis/logos/little-lunch.svg', None),
+                                                                                                (r'^Löwenanteil\b', 'Löwenanteil', 'Löwenanteil', 'analysis/logos/loewenanteil.png', None),
+                                                                                                (r"^BEN['’]s\s+ORIGINAL\b", "Ben's Original", "Ben's Original", 'analysis/logos/ben-s-original.svg', None),
+                                                                                                (r'^GOOD\s+CHOICE\b', 'Good Choice', 'Good Choice', 'analysis/logos/good-choice.png', None),
+                                                                                                (r'^Rana\b', 'Rana', 'Rana', 'analysis/logos/rana.png', None),
+                                                                                                (r'^Hipp\b', 'Hipp', 'Hipp', 'analysis/logos/hipp.svg', None),
+                                                                                                (r'^Schenkel\b', 'Schenkel', 'Schenkel', 'analysis/logos/schenkel.png', None),
+                                                                                                (r'^Basenbox\b', 'Basenbox', 'Basenbox', 'analysis/logos/basenbox.png', None),
+                                                                                                (r'^Meica\b', 'Meica', 'Meica', 'analysis/logos/meica.png', None),
+                                                                                                (r'^Ackerl\b', 'Ackerl', 'Ackerl', 'analysis/logos/ackerl.png', None),
+                                                                                                (r'^Küchenbrüder\b', 'Küchenbrüder', 'Küchenbrüder', 'analysis/logos/tress-brueder.svg', None),
+                                                                                                (r'^Tressbrüder\b', 'Tressbrüder', 'Tressbrüder', 'analysis/logos/tress-brueder.svg', None),
+                                                                                                (r'^Podravka\b', 'Podravka', 'Podravka', 'analysis/logos/podravka.svg', None),
+                                                                                                (r'^ehrenwort\b', 'ehrenwort', 'ehrenwort', 'analysis/logos/ehrenwort.png', None),
+                                                                                                (r'^Brunner\b', 'Brunner', 'Brunner', None, None),
+                                                                                                (r'^PRIMANA\b', 'PRIMANA', 'PRIMANA', 'analysis/logos/primana.png', None),
+                                                                                                (r'^Ablinger\b', 'Ablinger', 'Ablinger', 'analysis/logos/ablinger.png', None),
+                                                                                                (r'^Holle\b', 'Holle', 'Holle', 'analysis/logos/holle.svg', None),
+                                                                                                (r'^Hubers\s+Landhendl\b', 'Hubers Landhendl', 'Hubers Landhendl', 'analysis/logos/hubers-landhendl.png', None),
+                                                                                                (r'^Kikkoman\b', 'Kikkoman', 'Kikkoman', 'analysis/logos/kikkoman.svg', None),
+                                                                                                (r'^Nabio\b', 'Nabio', 'Nabio', 'analysis/logos/nabio.svg', None),
+                                                                                                (r"^Shan['’]shi\b", "Shan'shi", "Shan'shi", 'analysis/logos/shanshi.png', None),
+                                                                                                (r'^Efko\b', 'Efko', 'Efko', 'analysis/logos/efko.png', None),
+                                                                                                (r'^Frey\b', 'Frey', 'Frey', None, None),
+                                                                                                (r'^Greisinger\b', 'Greisinger', 'Greisinger', 'analysis/logos/greisinger.png', None),
+                                                                                                (r'^Machland\b', 'Machland', 'Machland', None, None),
+                                                                                                (r'^Wiesbauer\b', 'Wiesbauer', 'Wiesbauer', 'analysis/logos/wiesbauer.png', None),
+                                                                                                (r'^RETTENSWERT\b', 'Rettenswert', 'Rettenswert', 'analysis/logos/rettenswert.png', None),
+                                                                                                (r'^Condeli\b', 'Condeli', 'Condeli', None, None),
+                                                                                            )
+                                                                                            for _r78 in rows:
+                                                                                                if _r78.get('noBrand') or not (_r78.get('brand') or '').strip():
+                                                                                                    _nm78 = (_r78.get('name') or '').strip()
+                                                                                                    for _pat78, _b78, _bn78, _lg78, _bp78 in _PREFIX_BRANDS_78:
+                                                                                                        if re.search(_pat78, _nm78, re.I):
+                                                                                                            _r78['brand'] = _b78
+                                                                                                            _r78['brandN'] = _bn78
+                                                                                                            _r78['noBrand'] = False
+                                                                                                            if _lg78 and not _r78.get('logo'):
+                                                                                                                _r78['logo'] = _lg78
+                                                                                                            if _bp78 and not _r78.get('brandParent'):
+                                                                                                                _r78['brandParent'] = _bp78
+                                                                                                            changed_uids.add(_r78['uid'])
+                                                                                                            break
+                                                                                            # SC78 P2.1: Rebuild can['combos'] from active Linz rows with current prices and genuine Linz supermarket mains
+                                                                                            _SUPER_78 = {'Billa', 'Spar', 'Hofer', 'Lidl', 'dm', 'Penny'}
+                                                                                            _sides78 = [
+                                                                                                _s for _s in (can.get('sides') or [])
+                                                                                                if (_s.get('cost') or 0) > 0 and (_s.get('price') or 0) > 0
+                                                                                            ]
+                                                                                            _veg78 = [_s for _s in _sides78 if _s.get('role') == 'veg' and (_s.get('k100') or (_s['kcal'] * 100.0 / _s['portion'] if _s.get('portion') else 999)) < 130]
+                                                                                            _sal78 = [_s for _s in _sides78 if _s.get('role') == 'salad']
+                                                                                            _sd78 = [_s for _s in _sides78 if _s.get('role') == 'side']
+                                                                                            _cand_mains78 = [
+                                                                                                _r for _r in rows
+                                                                                                if _r.get('dupOf') is None
+                                                                                                and _r.get('delivers_4020') is not False
+                                                                                                and not _r.get('price_stale')
+                                                                                                and _r.get('pstat') != 'Preis veraltet'
+                                                                                                and (_r.get('price') or 0) > 0
+                                                                                                and (_r.get('rankable') or _r.get('rankableLight'))
+                                                                                                and (_r.get('protpack') or 0) >= 20
+                                                                                                and (_r.get('protpack') or 0) <= 80
+                                                                                                and (_r.get('kcalpack') or 0) > 0
+                                                                                                and (_r.get('kcalpack') or 0) <= 750
+                                                                                                and (_r.get('score') or 0) > 0
+                                                                                            ]
+                                                                                            _sup_mains78 = sorted([_r for _r in _cand_mains78 if _r.get('store') in _SUPER_78], key=lambda _r: -_r['score'])
+                                                                                            _oth_mains78 = sorted([_r for _r in _cand_mains78 if _r.get('store') not in _SUPER_78], key=lambda _r: -_r['score'])
+                                                                                            _picked_mains78 = []
+                                                                                            _st_cnt78 = {}
+                                                                                            for _st78 in ('Hofer', 'Penny', 'Lidl'):
+                                                                                                for _r in _sup_mains78:
+                                                                                                    if _r.get('store') == _st78 and _st_cnt78.get(_st78, 0) < 2:
+                                                                                                        _picked_mains78.append(_r)
+                                                                                                        _st_cnt78[_st78] = _st_cnt78.get(_st78, 0) + 1
+                                                                                            for _r in _sup_mains78:
+                                                                                                _st78 = _r.get('store')
+                                                                                                if _r not in _picked_mains78 and _st_cnt78.get(_st78, 0) < 6 and len(_picked_mains78) < 18:
+                                                                                                    _picked_mains78.append(_r)
+                                                                                                    _st_cnt78[_st78] = _st_cnt78.get(_st78, 0) + 1
+                                                                                            for _r in _oth_mains78:
+                                                                                                _st78 = _r.get('store')
+                                                                                                if _st_cnt78.get(_st78, 0) < 4 and len(_picked_mains78) < 30:
+                                                                                                    _picked_mains78.append(_r)
+                                                                                                    _st_cnt78[_st78] = _st_cnt78.get(_st78, 0) + 1
+                                                                                            _combos78 = []
+                                                                                            _used78 = {}
+                                                                                            for _m78 in _picked_mains78:
+                                                                                                _hascarb78 = bool(re.search(r'reis|kartoffel|erdäpfel|püree|nudel|pasta|spätzle|knödel|gnocchi|lasagne|tortell|bowl|penne|fusilli|tagliatelle|hörnchen|kasnudl', _m78.get('name') or '', re.I))
+                                                                                                _best78 = None
+                                                                                                for _v78 in _veg78 + _sal78:
+                                                                                                    for _s78 in ([None] if _hascarb78 else _sd78):
+                                                                                                        _kc78 = _m78['kcalpack'] + _v78['kcal'] + (_s78['kcal'] if _s78 else 0)
+                                                                                                        if not 500 <= _kc78 <= 900:
+                                                                                                            continue
+                                                                                                        _pr78 = _m78['protpack'] + _v78['prot'] + (_s78['prot'] if _s78 else 0)
+                                                                                                        _cost78 = _m78['price'] + _v78['cost'] + (_s78['cost'] if _s78 else 0)
+                                                                                                        _sc78 = _pr78 / _kc78 * 100.0 * 3.0 + _v78['fib'] * 2.0 - _cost78 * 0.5 - 3.0 * _used78.get(_v78['id'], 0) - (3.0 * _used78.get(_s78['id'], 0) if _s78 else 0.0)
+                                                                                                        if not _best78 or _sc78 > _best78[0]:
+                                                                                                            _best78 = (_sc78, _v78, _s78, _kc78, _pr78, _cost78)
+                                                                                                if _best78:
+                                                                                                    _, _v78, _s78, _kc78, _pr78, _cost78 = _best78
+                                                                                                    _used78[_v78['id']] = _used78.get(_v78['id'], 0) + 1
+                                                                                                    if _s78:
+                                                                                                        _used78[_s78['id']] = _used78.get(_s78['id'], 0) + 1
+                                                                                                    _combos78.append(dict(
+                                                                                                        main=_m78['id'],
+                                                                                                        veg=_v78['id'],
+                                                                                                        side=_s78['id'] if _s78 else None,
+                                                                                                        kcal=round(_kc78),
+                                                                                                        prot=round(_pr78),
+                                                                                                        price=round(_cost78, 2),
+                                                                                                        fib=round(_v78['fib'] + (_s78['fib'] if _s78 else 0), 1),
+                                                                                                    ))
+                                                                                                if len(_combos78) >= 24:
+                                                                                                    break
+                                                                                            can['combos'] = _combos78
 
     # Check latest online_availability_*.json
     av_files = sorted(glob.glob(os.path.join(base_dir, 'analysis/online_availability_*.json')))
