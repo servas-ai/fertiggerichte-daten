@@ -1,0 +1,206 @@
+{
+ "source": "https://www.buchberger.shophttps://www.buchberger.shop/essen-im-glas + product pages",
+ "fetched": "2026-10-25T0035",
+ "operator": "Buchberger GmbH & Co KG, Mittelgasse 39, 8225 Pöllau, Steiermark (FN 14170p, LG für ZRS Graz; UID ATU29190201)",
+ "vies": {
+  "uid": "ATU29190201",
+  "valid": true,
+  "name": "Buchberger GmbH & Co KG",
+  "address": "Poellau 39 A, AT-8225 Pöllau",
+  "checked": "2026-10-25T00:39:34Z"
+ },
+ "gleif": "no LEI found for 'Buchberger GmbH & Co KG' (2026-10-25)",
+ "impressum": "https://www.buchberger.shop/impressum (Buchberger GmbH & Co KG, Mittelgasse 39, 8225 Pöllau; FN 14170p; LG für ZRS Graz; UID ATU29190201)",
+ "shipping": "Kühlversand; versandkostenfrei ab 120 € (Shop-Fußzeile); Liefergebiet und Versandkosten unter 120 € nicht veröffentlicht (AGB §6 verweist auf den Shop)",
+ "photo_vision_gate": "5/5 PASS (single-jar packshots labelled with the dish name)",
+ "excluded": [
+  "Gulaschsaft",
+  "Sugo",
+  "Sojabolognese (Sauce; Nährwerte identisch mit Sugo kopiert)"
+ ],
+ "kept": [
+  {
+   "source": "buchberger",
+   "store": "Online: Fleischerei Buchberger",
+   "name": "Hausgemachte Gulasch-Suppe im Glas 450 ml",
+   "brand": "Buchberger",
+   "price_eur": 7.5,
+   "unit_price_eur": 1.67,
+   "unit": "100 ml",
+   "size_g": 450.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://public.jolioo.com/generated/h1000w1000m1/static/files/614/382/6cb/247/c65/bef/372/eea/4b5d548014bf7fa587f14d05cd5c30c168336fd4.jpg",
+   "producer": "Buchberger GmbH & Co KG, Mittelgasse 39, 8225 Pöllau, Steiermark (FN 14170p, LG für ZRS Graz; UID ATU29190201)",
+   "producer_id": null,
+   "origin": "AT (gekocht in der Buchberger-Küche Pöllau, Steiermark lt. Shop)",
+   "category": "Suppe",
+   "source_url": "https://www.buchberger.shop/buchberger-hausgemachte-gulasch-suppe-im-glas-450-ml",
+   "source_id": "buchberger-hausgemachte-gulasch-suppe-im-glas-450-ml",
+   "fetched_at": "2026-10-25T00:40:26+00:00",
+   "extra": {
+    "title": "BUCHBERGER HAUSGEMACHTE GULASCH-SUPPE IM GLAS 450 ML",
+    "pack": "Glas 450 ml",
+    "ingredients": "Rindfleisch 70 %, Wasser, Gewürze mit SENF, Paprika, Gemüsemischung (Petersilie, Pastinaken, Zwiebel, Kartoffel, Karotten), WEIZENMEHL, unjodiertes Speisesalz.",
+    "allergens": "enthält A und L",
+    "mhd": "60 TAGE",
+    "storage": "Im Kühlschrank bei +2 bis +4 Grad lagern.",
+    "atwater": null,
+    "price_note": "Preis je Glas (Stück) inkl. MwSt. lt. Produktseite; Größe = 450 ml lt. Titel",
+    "shipping_note": "Kühlversand; versandkostenfrei ab 120 € (Shop-Fußzeile); Liefergebiet und Versandkosten unter 120 € nicht veröffentlicht (AGB §6 verweist auf den Shop)"
+   }
+  },
+  {
+   "source": "buchberger",
+   "store": "Online: Fleischerei Buchberger",
+   "name": "Hausgemachtes Hirschragout im Glas 450 ml",
+   "brand": "Buchberger",
+   "price_eur": 13.5,
+   "unit_price_eur": 3.0,
+   "unit": "100 ml",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "energy_kj": 578.0,
+    "energy_kcal": 138.0,
+    "protein_g": 9.3,
+    "carbs_g": 11.0,
+    "fat_g": 1.0
+   },
+   "ean": null,
+   "image_url": "https://public.jolioo.com/generated/h1000w1000m1/static/files/2da/d83/abf/f3b/080/78f/e52/b5b/50d9ad259741b5444e2ae158e2334dccedc185f6.jpg",
+   "producer": "Buchberger GmbH & Co KG, Mittelgasse 39, 8225 Pöllau, Steiermark (FN 14170p, LG für ZRS Graz; UID ATU29190201)",
+   "producer_id": null,
+   "origin": "AT (gekocht in der Buchberger-Küche Pöllau, Steiermark lt. Shop)",
+   "category": "Fertiggericht",
+   "source_url": "https://www.buchberger.shop/buchberger-hausgemachtes-hirschragout-im-glas-450-ml",
+   "source_id": "buchberger-hausgemachtes-hirschragout-im-glas-450-ml",
+   "fetched_at": "2026-10-25T00:40:28+00:00",
+   "extra": {
+    "title": "BUCHBERGER HAUSGEMACHTES HIRSCHRAGOUT IM GLAS 450 ML",
+    "pack": "Glas 450 ml",
+    "ingredients": "Hirschfleisch, Zwiebel, Karotten, SELLERIE, ROTWEIN, Tomatenmark, Tomaten, Preiselbeeren, SOJASOSSE, Salz, Gewürze",
+    "allergens": null,
+    "mhd": "6 MONATE",
+    "storage": null,
+    "atwater": {
+     "calc_kcal": 90.2,
+     "ok": false
+    },
+    "price_note": "Preis je Glas (Stück) inkl. MwSt. lt. Produktseite; Größe = 450 ml lt. Titel",
+    "shipping_note": "Kühlversand; versandkostenfrei ab 120 € (Shop-Fußzeile); Liefergebiet und Versandkosten unter 120 € nicht veröffentlicht (AGB §6 verweist auf den Shop)"
+   }
+  },
+  {
+   "source": "buchberger",
+   "store": "Online: Fleischerei Buchberger",
+   "name": "Hausgemachtes Kalbsragout im Glas 450 ml",
+   "brand": "Buchberger",
+   "price_eur": 12.9,
+   "unit_price_eur": 2.87,
+   "unit": "100 ml",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "energy_kj": 827.0,
+    "energy_kcal": 202.0,
+    "protein_g": 21.0,
+    "carbs_g": 0.5,
+    "fat_g": 6.0
+   },
+   "ean": null,
+   "image_url": "https://public.jolioo.com/generated/h1000w1000m1/static/files/43a/8e4/1f2/067/494/1e5/8df/38e/918ef33b55be018f60ab64aa21e4b3b194547056.jpg",
+   "producer": "Buchberger GmbH & Co KG, Mittelgasse 39, 8225 Pöllau, Steiermark (FN 14170p, LG für ZRS Graz; UID ATU29190201)",
+   "producer_id": null,
+   "origin": "AT (gekocht in der Buchberger-Küche Pöllau, Steiermark lt. Shop)",
+   "category": "Fertiggericht",
+   "source_url": "https://www.buchberger.shop/buchberger-hausgemachtes-kalbsragout-im-glas-450-ml",
+   "source_id": "buchberger-hausgemachtes-kalbsragout-im-glas-450-ml",
+   "fetched_at": "2026-10-25T00:40:30+00:00",
+   "extra": {
+    "title": "BUCHBERGER HAUSGEMACHTES KALBSRAGOUT IM GLAS 450 ML",
+    "pack": "Glas 450 ml",
+    "ingredients": "Kalbfleisch, SAHNE, Zwiebel, WEISSWEIN, Tomatenmark, Gewürze, Maizena",
+    "allergens": null,
+    "mhd": "6 MONATE",
+    "storage": null,
+    "atwater": {
+     "calc_kcal": 140.0,
+     "ok": false
+    },
+    "price_note": "Preis je Glas (Stück) inkl. MwSt. lt. Produktseite; Größe = 450 ml lt. Titel",
+    "shipping_note": "Kühlversand; versandkostenfrei ab 120 € (Shop-Fußzeile); Liefergebiet und Versandkosten unter 120 € nicht veröffentlicht (AGB §6 verweist auf den Shop)"
+   }
+  },
+  {
+   "source": "buchberger",
+   "store": "Online: Fleischerei Buchberger",
+   "name": "Hausgemachtes Putencurry im Glas 450 ml",
+   "brand": "Buchberger",
+   "price_eur": 10.5,
+   "unit_price_eur": 2.33,
+   "unit": "100 ml",
+   "size_g": 450.0,
+   "nutrition_100g": {
+    "energy_kj": 1738.0,
+    "energy_kcal": 415.0,
+    "protein_g": 43.0,
+    "carbs_g": 31.0,
+    "sugar_g": 2.0,
+    "fat_g": 12.0
+   },
+   "ean": null,
+   "image_url": "https://public.jolioo.com/generated/h1000w1000m1/static/files/cc3/f65/af2/83b/ced/b89/f95/016/c14ef505b364ee87b01630a1e18a14d96aeed8fa.jpg",
+   "producer": "Buchberger GmbH & Co KG, Mittelgasse 39, 8225 Pöllau, Steiermark (FN 14170p, LG für ZRS Graz; UID ATU29190201)",
+   "producer_id": null,
+   "origin": "AT (gekocht in der Buchberger-Küche Pöllau, Steiermark lt. Shop)",
+   "category": "Fertiggericht",
+   "source_url": "https://www.buchberger.shop/buchberger-hausgemachtes-putencurry-im-glas-450-ml",
+   "source_id": "buchberger-hausgemachtes-putencurry-im-glas-450-ml",
+   "fetched_at": "2026-10-25T00:40:33+00:00",
+   "extra": {
+    "title": "BUCHBERGER HAUSGEMACHTES PUTENCURRY IM GLAS 450 ML",
+    "pack": "Glas 450 ml",
+    "ingredients": "Putenbrust, Kokosmilch, Zwiebel, WEISSWEIN, Orangen, Karotten, Curry, Gewürze",
+    "allergens": null,
+    "mhd": "6 MONATE",
+    "storage": null,
+    "atwater": {
+     "calc_kcal": 404.0,
+     "ok": true
+    },
+    "price_note": "Preis je Glas (Stück) inkl. MwSt. lt. Produktseite; Größe = 450 ml lt. Titel",
+    "shipping_note": "Kühlversand; versandkostenfrei ab 120 € (Shop-Fußzeile); Liefergebiet und Versandkosten unter 120 € nicht veröffentlicht (AGB §6 verweist auf den Shop)"
+   }
+  },
+  {
+   "source": "buchberger",
+   "store": "Online: Fleischerei Buchberger",
+   "name": "Hausgemachtes Rindsgulasch im Glas 450 ml",
+   "brand": "Buchberger",
+   "price_eur": 8.3,
+   "unit_price_eur": 1.84,
+   "unit": "100 ml",
+   "size_g": 450.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://public.jolioo.com/generated/h1000w1000m1/static/files/c93/8ea/cad/a04/22f/33c/23c/738/a5f1fd398e426a334cc4484fe55f5138fd00c9a8.jpg",
+   "producer": "Buchberger GmbH & Co KG, Mittelgasse 39, 8225 Pöllau, Steiermark (FN 14170p, LG für ZRS Graz; UID ATU29190201)",
+   "producer_id": null,
+   "origin": "AT (gekocht in der Buchberger-Küche Pöllau, Steiermark lt. Shop)",
+   "category": "Fertiggericht",
+   "source_url": "https://www.buchberger.shop/buchberger-hausgemachtes-rindsgulasch-im-glas-450-ml",
+   "source_id": "buchberger-hausgemachtes-rindsgulasch-im-glas-450-ml",
+   "fetched_at": "2026-10-25T00:40:35+00:00",
+   "extra": {
+    "title": "BUCHBERGER HAUSGEMACHTES RINDSGULASCH IM GLAS 450 ML",
+    "pack": "Glas 450 ml",
+    "ingredients": "Rindfleisch 70 %, Wasser, Gewürze mit SENF, Paprika, Gemüsemischung (Petersilie, Pastinaken, Zwiebel, Kartoffel, Karotten), WEIZENMEHL, unjodiertes Speisesalz.",
+    "allergens": "enthält A und L",
+    "mhd": "60 TAGE",
+    "storage": "Im Kühlschrank bei +2 bis +4 Grad lagern.",
+    "atwater": null,
+    "price_note": "Preis je Glas (Stück) inkl. MwSt. lt. Produktseite; Größe = 450 ml lt. Titel",
+    "shipping_note": "Kühlversand; versandkostenfrei ab 120 € (Shop-Fußzeile); Liefergebiet und Versandkosten unter 120 € nicht veröffentlicht (AGB §6 verweist auf den Shop)"
+   }
+  }
+ ]
+}
