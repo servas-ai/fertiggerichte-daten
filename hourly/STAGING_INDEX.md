@@ -188,3 +188,15 @@ No file staged (0 new rows). Fresh fetches of billa, dm, mpreis-shop, juit, loew
 - Skipped: raw rice, couscous, ramen noodles, dry mixes (Knorr Kaiserschmarrn and Milchreis, Kaiser Teller, Buldak and Lunch Box cup noodles), dips and bases (Deli Dip Shakshuka, Neni Shakshuka Basis), cold salads, all baby food (HiPP, Freche Freunde, SPAR Natur*pur breakfast porridges, MPREIS baby food), and non-food items.
 - Connector note: `fetch` for moakt, biohof_achleitner, steiramarkt, bauernladen and nah-frisch exits 2 because they are not valid fetch ids; check `food sources` for the correct ids.
 - Goal of 20 reached (29). No export, commit, push or deploy from fertig or fertig-app.
+
+### hourly 2026-10-25T09
+
+| file | source | rows | tags | status |
+|---|---|---|---|---|
+| staged_2026-10-25T09.json | billa 1, gurkerl 1 | 2 | dessert 1, main 1 | staged, not merged |
+
+- Rows: BILLA Marillenknödel (BILLA own brand "immer gut", frozen, 380 g, 3,59 €, nutrition 229 kcal/100 g and producer from the BILLA shop detail; only the Iglo Marillenknödel 530 g is in data.json at Billa) and Iglo Lasagne al Forno 350 g at Gurkerl (5,19 €, GTIN 9000143050628, nutrition and ingredients from Gurkerl; Gurkerl in data.json only has the 700 g pack 6075, this GTIN exists only as the MPreis row).
+- Found through a new 66-stem search sweep (Austrian classics like Schinkenfleckerl, Beuschel, Rindsroulade, Kasnocken, Marillenknödel, Powidltascherl, Buchteln, soups like Frittaten-, Leberknödel-, Gulasch-, Kürbis-, Hühnersuppe, and international dishes like Pad Thai, Nasi/Bami Goreng, Butter Chicken, Tikka Masala, Biryani, Enchilada, Burrito, Quiche, Flammkuchen, Lasagne, Cannelloni, Gyros, Kebab) on billa, spar-shop and gurkerl at --limit 60, 885 raw new rows. Dedup must use the product id in the URL, not the name: the SPAR shop names differ from data.json (for example "Inzersdorfer Gulaschsuppe" vs "Inzersdorfer Suppentopf Gulaschsuppe"), so name-only dedup reports false new rows.
+- Skipped: SPAR enjoy by NENI Hummus-Paprika-Ragout 200 g (chilled hummus dip, like the Neni Shakshuka Basis in T08), Knorr Pasta Snack Bolognese, MAGGI Saucy Noodles Pad Thai, Yum Yum, Knorr Kaiserteller Frittatensuppe (dry or instant mixes), Apfel- and Topfenstrudel from Ölz, Aida, Der Mann, Ulreich and INTERSPAR Backstube (bakery cakes), ice-cream Knödel and Strudel, Tante Fanny doughs, lasagne sheets, gnocchi, fresh ravioli and Cevapcici (raw), Iglo Backhendlstreifen, followfood Kabeljau in Panade, Green Kebab, Hühner Kebap Pfanne (meat or fish only), BILLA sandwiches (cold), baby food and pet food.
+- Goal of 20 not reached (2). The search sources are exhausted for ready meals; new volume now comes from new online stores (Daten-Squad).
+- No export, commit, push or deploy from fertig or fertig-app.

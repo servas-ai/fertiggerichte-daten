@@ -1,0 +1,70 @@
+[
+ {
+  "source": "billa",
+  "store": "BILLA",
+  "name": "BILLA Marillenknödel",
+  "brand": "Billa immer gut",
+  "price_eur": 3.59,
+  "unit_price_eur": 9.45,
+  "unit": "kg",
+  "size_g": 380.0,
+  "nutrition_100g": {
+   "kcal": 229.0,
+   "fat": 5.2,
+   "satfat": 1.3,
+   "carbs": 38.0,
+   "sugar": 17.0,
+   "protein": 7.3,
+   "salt": 0.4
+  },
+  "ean": null,
+  "image_url": "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-404144-0171999824-EKs6tsyz.jpg",
+  "producer": "BILLA AG, IZ NÖ Süd, Straße 3, Objekt 16, 2355 Wr. Neudorf",
+  "producer_id": null,
+  "origin": "Griechenland",
+  "category": "Tiefkühl > Tiefkühlgerichte > Knödel & Suppeneinlagen > Pikante & Süße Knödel",
+  "source_url": "https://shop.billa.at/produkte/billa-marillenknoedel-00404144",
+  "source_id": "00-404144",
+  "fetched_at": "2026-10-25T09:27:06+00:00",
+  "extra": {
+   "storage": "frozen",
+   "hourly_tag": "dessert",
+   "qa_note": "BILLA Eigenmarke TK-Marillenknödel 380 g; Nährwerte aus BILLA-Shop-Detail; Iglo Marillenknödel 530 g bei Billa schon in data.json, diese Eigenmarke nicht"
+  }
+ },
+ {
+  "source": "gurkerl",
+  "store": "Gurkerl.at",
+  "name": "Iglo Lasagne al Forno (tiefgekühlt)",
+  "brand": "Iglo",
+  "price_eur": 5.19,
+  "unit_price_eur": 14.83,
+  "unit": "kg",
+  "size_g": 350.0,
+  "nutrition_100g": {
+   "kcal": 124.0,
+   "fat": 5.1,
+   "satfat": 1.7,
+   "carbs": 13.0,
+   "sugar": 2.7,
+   "protein": 5.7,
+   "salt": 1.2,
+   "fiber": 1.6
+  },
+  "ean": "9000143050628",
+  "image_url": "https://cdn.gurkerl.at/images/grocery/products/6076/6076-1678984536555.jpg",
+  "producer": "Iglo Austria GmbH, Clemens-Holzmeister-Straße 6, 1100 Wien",
+  "producer_id": null,
+  "origin": "Italien",
+  "category": "Tiefkühlprodukte > Fertiggerichte > Internationales",
+  "source_url": "https://www.gurkerl.at/6076-iglo-lasagne-al-forno-tiefgekuehlt",
+  "source_id": "6076",
+  "fetched_at": "2026-10-25T09:27:08+00:00",
+  "extra": {
+   "storage": "frozen",
+   "hourly_tag": "main",
+   "ingredients": "Wasser, HARTWEIZENGRIEß, MAGERMILCH, Tomatenmark 9,9%, Rindfleisch faschiert 7,5%, KÄSE 5,7% (mit EI), EIER, Karotten, Sonnenblumenöl, WEIZENMEHL, Zwiebeln, SELLERIE, Speisesalz jodiert (Salz, Kaliumjodid), OBERS, Gewürze, Knoblauch, WEIZENSTÄRKE, Muskatnuss.",
+   "qa_note": "350-g-Packung bei Gurkerl (gurkerl/6076); in data.json gibt es Gurkerl nur die 700-g-Packung (gurkerl/6075), dieselbe EAN 9000143050628 nur bei MPreis"
+  }
+ }
+]
