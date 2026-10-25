@@ -4442,6 +4442,166 @@ def _reconcile_sc48(out):
                                                                         })
                                                                         changed_uids.add(_r2206['uid'])
 
+                                                                    SC73_FIXES = os.environ.get('SC73_FIXES', '1') != '0' and os.environ.get('GOOD_CHOICE_DISABLE_SC73', '0') != '1'
+                                                                    if SC73_FIXES:
+                                                                        # SC73 P0.1 & P0.2: #1212 [Lidl] CHEF SELECT Lasagne Bolognese (1000 g):
+                                                                        # lidl.at has no online price (hofer_lidl.json: price_eur=None) and OFF 4056489412359 has fib=None.
+                                                                        if _r1212 is not None:
+                                                                            _r1212.update({
+                                                                                'price': None,
+                                                                                'pstat': None,
+                                                                                'price_date': None,
+                                                                                'psrc': 'lidl.at (kein Online-Preis)',
+                                                                                'price_status': 'unknown',
+                                                                                'price_reason': 'Kette ohne offene Preisquelle (Lidl 401 / kein Penny-Feed)',
+                                                                                'ppk': None,
+                                                                                'p100g': None,
+                                                                                'pPor': None,
+                                                                                'pPorEff': None,
+                                                                                'ppe': None,
+                                                                                'eur10p': None,
+                                                                                'eur100k': None,
+                                                                                'fib': None,
+                                                                                'veg_pct': None,
+                                                                                'veg_source': 'unknown',
+                                                                                'score': 29.9,
+                                                                                'scoreV1': 21.5,
+                                                                                'day_pct': {'kcal': 34, 'protein': 72, 'salt': 67, 'satfat': 80, 'sugar': 10, 'fiber': None},
+                                                                                'score_parts': {'base': 30.0, 'protein': 18.4, 'salt': -2.9, 'satfat': -5.7, 'sugar': 0.0, 'fiber': 0, 'veg': 0, 'nova': -10, 'portion_salt': -5.4, 'portion_satfat': -7.9, 'portion_protein': 5},
+                                                                                'flags': ['Kein Preis hinterlegt'],
+                                                                                'rankable': False,
+                                                                                'pli': None,
+                                                                                'rankableLight': False,
+                                                                                'pliLight': None,
+                                                                                'rank_excluded_reason': 'Kein Preis hinterlegt',
+                                                                            })
+                                                                            changed_uids.add(_r1212['uid'])
+
+                                                                        # SC73 P0.1 & P0.2: #1537 [Penny] Condeli Lasagne* (800 g, 4.99 €):
+                                                                        # Remove wrong mapping to German 400 g EAN 4337256372008 (Penny Ready, 25.2% Atwater error) and nova_source='estimate'.
+                                                                        if _r1537 is not None:
+                                                                            _r1537.update({
+                                                                                'ean': None,
+                                                                                'kcal': None,
+                                                                                'p100': None,
+                                                                                'p100k': None,
+                                                                                'fat': None,
+                                                                                'sat': None,
+                                                                                'carbs': None,
+                                                                                'sugar': None,
+                                                                                'fib': None,
+                                                                                'salt': None,
+                                                                                'nova': None,
+                                                                                'nova_source': 'unknown',
+                                                                                'veg_pct': None,
+                                                                                'veg_source': 'unknown',
+                                                                                'nutrition_source': None,
+                                                                                'kcalPor': None,
+                                                                                'kcal_meal': None,
+                                                                                'protPor': None,
+                                                                                'protpack': None,
+                                                                                'kcalpack': None,
+                                                                                'saltPor': None,
+                                                                                'saltPct': None,
+                                                                                'ppe': None,
+                                                                                'eur10p': None,
+                                                                                'eur100k': None,
+                                                                                'score': None,
+                                                                                'scoreV1': None,
+                                                                                'day_pct': {'kcal': None, 'protein': None, 'salt': None, 'satfat': None, 'sugar': None, 'fiber': None},
+                                                                                'score_parts': None,
+                                                                                'incomplete': True,
+                                                                                'priceOnly': True,
+                                                                                'component': False,
+                                                                                'meal_class': 'unknown',
+                                                                                'meal_check': {'ok': False, 'cls': 'unknown', 'reason': 'Nährwerte fehlen', 'portion': 400},
+                                                                                'flags': ['Score unvollständig (Salz oder ges. Fett fehlt)', 'Mahlzeit-Check: Nährwerte fehlen'],
+                                                                                'rankable': False,
+                                                                                'pli': None,
+                                                                                'rankableLight': False,
+                                                                                'pliLight': None,
+                                                                                'rank_excluded_reason': 'Score unvollständig (Salz oder ges. Fett fehlt)',
+                                                                            })
+                                                                            changed_uids.add(_r1537['uid'])
+
+                                                                        # SC73 P0.1 & P0.2: #1504 [Lidl] McEnnedy Crispy Chicken Burger (500 g, 4.99 €):
+                                                                        # Remove non-existent GTIN 4056489149491 and unverified sat=1.5; classify chicken patties without buns as stage='prot', component=True.
+                                                                        if _r1504 is not None:
+                                                                            _r1504.update({
+                                                                                'ean': None,
+                                                                                'kcal': None,
+                                                                                'p100': None,
+                                                                                'p100k': None,
+                                                                                'fat': None,
+                                                                                'sat': None,
+                                                                                'carbs': None,
+                                                                                'sugar': None,
+                                                                                'fib': None,
+                                                                                'salt': None,
+                                                                                'nova': None,
+                                                                                'nova_source': 'unknown',
+                                                                                'veg_pct': None,
+                                                                                'veg_source': 'unknown',
+                                                                                'nutrition_source': None,
+                                                                                'kcalPor': None,
+                                                                                'kcal_meal': None,
+                                                                                'protPor': None,
+                                                                                'protpack': None,
+                                                                                'kcalpack': None,
+                                                                                'saltPor': None,
+                                                                                'saltPct': None,
+                                                                                'ppe': None,
+                                                                                'eur10p': None,
+                                                                                'eur100k': None,
+                                                                                'score': None,
+                                                                                'scoreV1': None,
+                                                                                'day_pct': {'kcal': None, 'protein': None, 'salt': None, 'satfat': None, 'sugar': None, 'fiber': None},
+                                                                                'score_parts': None,
+                                                                                'stage': 'prot',
+                                                                                'meal_class': 'protein_component',
+                                                                                'component': True,
+                                                                                'incomplete': True,
+                                                                                'priceOnly': True,
+                                                                                'meal_check': {'ok': False, 'cls': 'protein_component', 'reason': 'Proteinkomponente (keine vollständige Mahlzeit)', 'portion': 250},
+                                                                                'flags': ['Score unvollständig (Salz oder ges. Fett fehlt)', 'Mahlzeit-Check: Proteinkomponente (keine vollständige Mahlzeit)'],
+                                                                                'rankable': False,
+                                                                                'pli': None,
+                                                                                'rankableLight': False,
+                                                                                'pliLight': None,
+                                                                                'rank_excluded_reason': 'Proteinkomponente (keine vollständige Mahlzeit)',
+                                                                            })
+                                                                            changed_uids.add(_r1504['uid'])
+
+                                                                        # SC73 P0.2: #1211 [Lidl] MCENNEDY Nudelauflauf Mac & Cheese (1000 g, 3.79 €):
+                                                                        # Remove sat/sugar/fib/salt that are None in OFF 4056489149507 -> incomplete=True, rankable=False.
+                                                                        if _r1211 is not None:
+                                                                            _r1211.update({
+                                                                                'sat': None,
+                                                                                'sugar': None,
+                                                                                'fib': None,
+                                                                                'salt': None,
+                                                                                'saltPor': None,
+                                                                                'saltPct': None,
+                                                                                'score': None,
+                                                                                'scoreV1': None,
+                                                                                'day_pct': {'kcal': 34, 'protein': 48, 'salt': None, 'satfat': None, 'sugar': None, 'fiber': None},
+                                                                                'score_parts': None,
+                                                                                'incomplete': True,
+                                                                                'priceOnly': False,
+                                                                                'flags': ['Score unvollständig (Salz oder ges. Fett fehlt)'],
+                                                                                'rankable': False,
+                                                                                'pli': None,
+                                                                                'rankableLight': False,
+                                                                                'pliLight': None,
+                                                                                'rank_excluded_reason': 'Score unvollständig (Salz oder ges. Fett fehlt)',
+                                                                            })
+                                                                            changed_uids.add(_r1211['uid'])
+
+                                                                        # SC73 P3.1: #2236 [Penny] Podravka Rindergulasch 400 g -> stage='stew' (consistent with #88, #551, #956)
+                                                                        if _r2236 is not None:
+                                                                            _r2236['stage'] = 'stew'
+                                                                            changed_uids.add(_r2236['uid'])
+
     # Check latest online_availability_*.json
     av_files = sorted(glob.glob(os.path.join(base_dir, 'analysis/online_availability_*.json')))
     if os.environ.get('GOOD_CHOICE_AVAILABILITY'):  # sensecheck 52 P1: tests pin the snapshot the canonical baseline was built from
