@@ -2908,6 +2908,192 @@ def _reconcile_sc48(out):
                                                         _r66c['rank_excluded_reason'] = '< 15 g Protein/Portion'
                                                         changed_uids.add(_r66c['uid'])
 
+                                            # SC67 (from Sensecheck 66/67 P1.1 + P2.1 + P2.2 + P3.1):
+                                            # - P1.1: Rescue 3 real meals in Linz (#1277 dmBio Chili con Tofu High Protein -> rankableLight=True, pliLight=53.5;
+                                            #         #1031 Billa Felix Linsen mit Speck 800 g -> rankable=True, pli=37.4;
+                                            #         #496 Spar Inzersdorfer Paprikahendl 400 g -> rankableLight=True, pliLight=31.7)
+                                            #         and clean false Tofu Proteinkomponente flag on #568 and #3168.
+                                            # - P2.1: Reclassify 36 screw-jar meals (dmBio, Nabio, Alnatura, Tressbrüder, etc.) from pack='Dose/Konserve' to pack='Glas'
+                                            #         and #1266 dmBio Nudel-Tasse 68 g to pack='Trocken/Instant'.
+                                            # - P2.2: Normalize multi-portion packs to 2 portions: #1020 Billa Felix Gefüllte Paprika 800 g (portion=400 g, light_meal)
+                                            #         and 4 bofrost multi-portion bags (#3020 Fischsuppe Cacciucco 750 g -> 375 g light_meal, #2956 Broccoli-Nudelauflauf 800 g -> 400 g light_meal,
+                                            #         #2980 Kärntner Kasnudeln 770 g -> 385 g meal, #3071 Krautrouladen 1000 g -> 500 g meal).
+                                            # - P3.1: Generic rank_excluded_reason fallback from flags (and score/class for remaining unranked live 2026 rows).
+                                            if os.environ.get('SC67_FIXES', '1') != '0' and os.environ.get('GOOD_CHOICE_DISABLE_SC67', '0') != '1':
+                                                # P1.1(a): Clean false Tofu Proteinkomponente flag on #1277, #568, #3168 and promote #1277 to rankableLight=True (pliLight=53.5)
+                                                for _tf_id in (1277, 568, 3168):
+                                                    _rtf = _pmm_by_id.get(_tf_id)
+                                                    if _rtf is not None:
+                                                        _rtf['component'] = False
+                                                        if _rtf.get('pPorEff') is None and _rtf.get('pPor') is not None:
+                                                            _rtf['pPorEff'] = round(_rtf['pPor'] + (_rtf.get('shipPor') or 0.0), 2)
+                                                        if isinstance(_rtf.get('meal_check'), dict) and _rtf['meal_check'].get('reason'):
+                                                            _rtf['meal_check'] = dict(_rtf['meal_check'])
+                                                            _rtf['meal_check']['reason'] = _rtf['meal_check']['reason'].replace(' Proteinkomponente (keine vollständige Mahlzeit)', '').strip()
+                                                        _rtf['flags'] = [
+                                                            f.replace(' Proteinkomponente (keine vollständige Mahlzeit)', '').strip()
+                                                            for f in (_rtf.get('flags') or [])
+                                                            if f != 'Mahlzeit-Check: Proteinkomponente (keine vollständige Mahlzeit)'
+                                                        ]
+                                                        changed_uids.add(_rtf['uid'])
+
+                                                _r1277 = _pmm_by_id.get(1277)
+                                                if _r1277 is not None:
+                                                    _r1277['stage'] = 'meal'
+                                                    _r1277['segment'] = 'ready_meal'
+                                                    _r1277['meal_class'] = 'light_meal'
+                                                    _r1277['gang'] = 'haupt'
+                                                    _r1277['component'] = False
+                                                    _r1277['pPorEff'] = 2.75
+                                                    _r1277['rankable'] = False
+                                                    _r1277['pli'] = None
+                                                    _r1277['rankableLight'] = True
+                                                    _r1277['pliLight'] = 53.5
+                                                    _r1277['rank_excluded_reason'] = None
+                                                    changed_uids.add(_r1277['uid'])
+
+                                                # P1.1(b): Rescue #1031 [Billa] Felix Linsen mit Speck 800 g from false _NOISE collision
+                                                _r1031 = _pmm_by_id.get(1031)
+                                                if _r1031 is not None:
+                                                    _r1031['flags'] = [f for f in (_r1031.get('flags') or []) if f != 'Duplikat (nahe Name/Marke, Ranking)']
+                                                    _r1031['pPorEff'] = 3.25
+                                                    _r1031['rankable'] = True
+                                                    _r1031['rankableLight'] = False
+                                                    _r1031['pliLight'] = None
+                                                    _r1031['pli'] = 37.4
+                                                    _r1031['rank_excluded_reason'] = None
+                                                    changed_uids.add(_r1031['uid'])
+
+                                                # P1.1(c): Rescue #496 [Spar] Inzersdorfer Paprikahendl 400 g to light_meal / rankableLight=True (pliLight=31.7)
+                                                _r496 = _pmm_by_id.get(496)
+                                                if _r496 is not None:
+                                                    _r496['stage'] = 'meal'
+                                                    _r496['segment'] = 'ready_meal'
+                                                    _r496['meal_class'] = 'light_meal'
+                                                    _r496['gang'] = 'haupt'
+                                                    _r496['component'] = False
+                                                    _r496['pPorEff'] = 5.29
+                                                    _r496['meal_check'] = {
+                                                        'portion': 400,
+                                                        'kcal': 372,
+                                                        'protein': 30.0,
+                                                        'ok': False,
+                                                        'cls': 'light_meal',
+                                                        'reason': '372 kcal/Portion < 400',
+                                                    }
+                                                    _r496['flags'] = ['Mahlzeit-Check: 372 kcal/Portion < 400']
+                                                    _r496['rankable'] = False
+                                                    _r496['pli'] = None
+                                                    _r496['rankableLight'] = True
+                                                    _r496['pliLight'] = 31.7
+                                                    _r496['rank_excluded_reason'] = None
+                                                    changed_uids.add(_r496['uid'])
+
+                                                # P2.1: Reclassify 36 screw-jar meals (plus hidden twin #3448) from pack='Dose/Konserve' to pack='Glas'
+                                                # and #1266 [dm] dmBio Fertiggericht Nudel-Tasse Tomatensauce 68 g to pack='Trocken/Instant'
+                                                _r1266 = _pmm_by_id.get(1266)
+                                                if _r1266 is not None:
+                                                    _r1266['pack'] = 'Trocken/Instant'
+                                                    changed_uids.add(_r1266['uid'])
+                                                _jar_re = re.compile(r'im glas|glas|dmbio|nabio|alnatura|tressbr[üu]der', re.I)
+                                                for _r67p in rows:
+                                                    if (
+                                                        _r67p['id'] != 1266
+                                                        and _r67p.get('pack') == 'Dose/Konserve'
+                                                        and (_r67p.get('store') == 'dm' or _jar_re.search((_r67p.get('name') or '') + ' ' + (_r67p.get('brand') or '')))
+                                                    ):
+                                                        _r67p['pack'] = 'Glas'
+                                                        changed_uids.add(_r67p['uid'])
+
+                                                # P2.2: Normalize multi-portion packs (#1020 Billa Felix Gefüllte Paprika 800 g + 4 bofrost multi-portion bags) to 2 portions
+                                                _r1020 = _pmm_by_id.get(1020)
+                                                if _r1020 is not None:
+                                                    _r1020['portion'] = 400
+                                                    _r1020['portion_g'] = 400
+                                                    _r1020['portion_source'] = 'pack_2portions'
+                                                    _r1020['kcalPor'] = 352.0
+                                                    _r1020['kcal_meal'] = 352
+                                                    _r1020['protPor'] = 10.4
+                                                    _r1020['saltPor'] = 4.0
+                                                    _r1020['saltPct'] = 67
+                                                    _r1020['pPor'] = 3.25
+                                                    _r1020['pPorEff'] = 3.25
+                                                    _r1020['ppe'] = 3.2
+                                                    _r1020['meal_class'] = 'light_meal'
+                                                    _r1020['meal_check'] = {
+                                                        'portion': 400,
+                                                        'kcal': 352,
+                                                        'protein': 10.4,
+                                                        'ok': False,
+                                                        'cls': 'light_meal',
+                                                        'reason': '352 kcal/Portion < 400',
+                                                    }
+                                                    _r1020['flags'] = ['Mahlzeit-Check: 352 kcal/Portion < 400']
+                                                    _r1020['rankable'] = False
+                                                    _r1020['rankableLight'] = False
+                                                    _r1020['pli'] = None
+                                                    _r1020['pliLight'] = None
+                                                    _r1020['rank_excluded_reason'] = '< 15 g Protein/Portion'
+                                                    changed_uids.add(_r1020['uid'])
+
+                                                for _bf_id, _bf_por, _bf_kpor, _bf_kmeal, _bf_ppor, _bf_spor, _bf_spct, _bf_prpor, _bf_ppe, _bf_mcls, _bf_ok, _bf_rsn, _bf_rk, _bf_rkl, _bf_pli, _bf_plil in (
+                                                    (3020, 375, 270.0, 270, 34.9, 1.73, 29, 9.24, 3.8, 'light_meal', False, '270 kcal/Portion < 400', False, True, None, 41.3),
+                                                    (2956, 400, 496.0, 496, 19.6, 3.12, 52, 6.25, 3.1, 'light_meal', False, '19.6 g Protein/Portion < 20', False, True, None, 27.3),
+                                                    (2980, 385, 604.5, 605, 28.9, 5.78, 96, 7.89, 3.7, 'meal', True, None, True, False, 26.9, None),
+                                                    (3071, 500, 470.0, 470, 30.5, 5.0, 83, 11.89, 2.6, 'meal', True, None, True, False, 28.4, None),
+                                                ):
+                                                    _rbf = _pmm_by_id.get(_bf_id)
+                                                    if _rbf is not None:
+                                                        _rbf['portion'] = _bf_por
+                                                        _rbf['portion_g'] = _bf_por
+                                                        _rbf['portion_source'] = 'pack_2portions'
+                                                        _rbf['kcalPor'] = _bf_kpor
+                                                        _rbf['kcal_meal'] = _bf_kmeal
+                                                        _rbf['protPor'] = _bf_ppor
+                                                        _rbf['saltPor'] = _bf_spor
+                                                        _rbf['saltPct'] = _bf_spct
+                                                        _rbf['pPor'] = _bf_prpor
+                                                        _rbf['pPorEff'] = _bf_prpor
+                                                        _rbf['ppe'] = _bf_ppe
+                                                        _rbf['meal_class'] = _bf_mcls
+                                                        _rbf['gang'] = 'haupt'
+                                                        _rbf['meal_check'] = {
+                                                            'portion': _bf_por,
+                                                            'kcal': _bf_kmeal,
+                                                            'protein': _bf_ppor,
+                                                            'ok': _bf_ok,
+                                                            'cls': _bf_mcls,
+                                                            'reason': _bf_rsn,
+                                                        }
+                                                        if _bf_rsn:
+                                                            _rbf['flags'] = [f'Mahlzeit-Check: {_bf_rsn}']
+                                                        else:
+                                                            _rbf['flags'] = [f for f in (_rbf.get('flags') or []) if 'Mehrportionen-Packung' not in f]
+                                                        _rbf['rankable'] = _bf_rk
+                                                        _rbf['rankableLight'] = _bf_rkl
+                                                        _rbf['pli'] = _bf_pli
+                                                        _rbf['pliLight'] = _bf_plil
+                                                        _rbf['rank_excluded_reason'] = None
+                                                        changed_uids.add(_rbf['uid'])
+
+                                                # P3.1: Generic rank_excluded_reason fallback from flags (and score/class for remaining unranked live 2026 rows)
+                                                for _r67f in rows:
+                                                    if not _r67f.get('rankable') and not _r67f.get('rankableLight') and not _r67f.get('rank_excluded_reason'):
+                                                        if _r67f.get('flags'):
+                                                            _r67f['rank_excluded_reason'] = _r67f['flags'][0].replace('Mahlzeit-Check: ', '')
+                                                            changed_uids.add(_r67f['uid'])
+                                                        elif _r67f.get('pstat') == 'live 2026' and _r67f.get('dupOf') is None:
+                                                            if _r67f.get('meal_class') == 'raw_ingredient' or _r67f.get('stage') == 'base':
+                                                                _r67f['rank_excluded_reason'] = 'Rohzutat / Basiskomponente'
+                                                            elif _r67f.get('meal_class') == 'protein_component' or _r67f.get('component'):
+                                                                _r67f['rank_excluded_reason'] = 'Proteinkomponente (keine vollständige Mahlzeit)'
+                                                            elif _r67f.get('meal_class') == 'snack_side':
+                                                                _r67f['rank_excluded_reason'] = 'Snack / Beilage (keine Hauptmahlzeit)'
+                                                            elif _r67f.get('score') is not None and _r67f['score'] < 30:
+                                                                _r67f['rank_excluded_reason'] = 'Health-Score < 30'
+                                                            if _r67f.get('rank_excluded_reason'):
+                                                                changed_uids.add(_r67f['uid'])
+
     # Check latest online_availability_*.json
     av_files = sorted(glob.glob(os.path.join(base_dir, 'analysis/online_availability_*.json')))
     if os.environ.get('GOOD_CHOICE_AVAILABILITY'):  # sensecheck 52 P1: tests pin the snapshot the canonical baseline was built from
