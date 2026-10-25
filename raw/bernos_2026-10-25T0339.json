@@ -1,0 +1,161 @@
+{
+ "source": "https://www.bernos.at/wp-json/wc/store/v1/products?per_page=100",
+ "fetched": "2026-10-25T0339",
+ "operator": "Bernos Wildkammer – Berno Mühlburger, Oberdrum 20, 9903 Oberlienz, Osttirol (UID ATU68061919)",
+ "vies": {
+  "uid": "ATU68061919",
+  "valid": true,
+  "name": "Mühlburger Berno Alois",
+  "address": "Oberdrum 20, AT-9903 Oberlienz",
+  "checked": "2026-10-25T03:43:05.855Z"
+ },
+ "gleif": "GLEIF fulltext 'Mühlburger' → 1 record (Autohaus Zschernitz GmbH, Karlsruhe DE, unrelated) (2026-10-25), no LEI",
+ "impressum": "https://www.bernos.at/impressum/ (Bernos Wildkammer, Inhaber Berno Mühlburger, A-9903 Oberdrum 20, Tel 0664/5419954, info@bernos.at, UID ATU 68061919)",
+ "robots": "Yoast: User-agent * Disallow: (empty) → all allowed; Store API once per call",
+ "shipping": "Versandkosten Österreich 5,60 €, Italien und Deutschland 8,50 € lt. bernos.at/versandarten/",
+ "photo_vision_gate": "4/4 PASS (jar packshots, labels match product names)",
+ "logo": "/wp-content/uploads/2016/08/logo.png (alt 'bernos-logo'; white 'berno's TAUERNWILD' wordmark + origami eagle on transparent, for dark backgrounds) → cropped PNG, vision gate PASS",
+ "excluded": [
+  "Wildsugo 290 g (pasta sauce)",
+  "Gams-/Hirsch-Henkele 170 g (air-dried meat)",
+  "Die Kleine Rote / Rote / Schwarze Taurer (Dauerwürste)"
+ ],
+ "kept": [
+  {
+   "source": "bernos",
+   "store": "Online: Bernos Tauernwild",
+   "name": "Rehragout",
+   "brand": "Bernos Tauernwild",
+   "price_eur": 9.5,
+   "unit_price_eur": 32.76,
+   "unit": "kg",
+   "size_g": 290.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://www.bernos.at/wp-content/uploads/2016/08/rehragout_small.png",
+   "producer": "Bernos Wildkammer – Berno Mühlburger, Oberdrum 20, 9903 Oberlienz, Osttirol (UID ATU68061919)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.bernos.at/produkt/rehragout/",
+   "source_id": "67",
+   "fetched_at": "2026-10-25T03:45:38+00:00",
+   "extra": {
+    "wc_id": 67,
+    "slug": "rehragout",
+    "in_stock": true,
+    "ingredients": "Rehfleisch, Wasser, Zwiebel, Rotwein, Karotte-, Selleriewürfel, Tomatenmark, Rapsöl, Sojasoße (Sojabohnen, Alkohol, Salz), Preiselbeeren, Salz, Gewürzmischung",
+    "meat_share": "Rehfleischanteil: 40%",
+    "free_from": "keine Geschmacksverstärker, Konservierungsstoffe, Farbstoffe, Verdickungsmittel; glutenfrei",
+    "preparation": "Das Ragout im Topf unter ständigem Rühren erhitzen. Beilagen: Nudel, Semmelknödel, Weißbrot",
+    "images": [
+     "https://www.bernos.at/wp-content/uploads/2016/08/rehragout_small.png"
+    ],
+    "price_note": "Preis je Glas inkl. MwSt. lt. WooCommerce Store API",
+    "shipping_note": "Versandkosten Österreich 5,60 €, Italien und Deutschland 8,50 € lt. bernos.at/versandarten/"
+   }
+  },
+  {
+   "source": "bernos",
+   "store": "Online: Bernos Tauernwild",
+   "name": "Hirschgulasch",
+   "brand": "Bernos Tauernwild",
+   "price_eur": 9.0,
+   "unit_price_eur": 31.03,
+   "unit": "kg",
+   "size_g": 290.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://www.bernos.at/wp-content/uploads/2016/08/hirschgulasch_small.png",
+   "producer": "Bernos Wildkammer – Berno Mühlburger, Oberdrum 20, 9903 Oberlienz, Osttirol (UID ATU68061919)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.bernos.at/produkt/hirschgulasch/",
+   "source_id": "66",
+   "fetched_at": "2026-10-25T03:45:38+00:00",
+   "extra": {
+    "wc_id": 66,
+    "slug": "hirschgulasch",
+    "in_stock": true,
+    "ingredients": "Hirschfleisch, Wasser, Zwiebel, Rotwein, Tomatenmark, Preiselbeeren, Rapsöl, Sojasoße (Sojabohnen, Alkohol, Salz), Paprikapulver, Salz, Gewürzmischung",
+    "meat_share": "Hirschfleischanteil: 40%",
+    "free_from": "keine Geschmacksverstärker, Konservierungsstoffe, Farbstoffe, Verdickungsmittel; glutenfrei",
+    "preparation": "Das Gulasch im Topf erhitzen. Als Beilage: Nudeln, Semmelknödel, Weißbrot",
+    "images": [
+     "https://www.bernos.at/wp-content/uploads/2016/08/hirschgulasch_small.png"
+    ],
+    "price_note": "Preis je Glas inkl. MwSt. lt. WooCommerce Store API",
+    "shipping_note": "Versandkosten Österreich 5,60 €, Italien und Deutschland 8,50 € lt. bernos.at/versandarten/"
+   }
+  },
+  {
+   "source": "bernos",
+   "store": "Online: Bernos Tauernwild",
+   "name": "Gulaschsuppe vom Wild",
+   "brand": "Bernos Tauernwild",
+   "price_eur": 6.5,
+   "unit_price_eur": 22.41,
+   "unit": "kg",
+   "size_g": 290.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://www.bernos.at/wp-content/uploads/2016/08/gulaschsuppe_small_0.png",
+   "producer": "Bernos Wildkammer – Berno Mühlburger, Oberdrum 20, 9903 Oberlienz, Osttirol (UID ATU68061919)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.bernos.at/produkt/gulaschsuppe-vom-wild/",
+   "source_id": "64",
+   "fetched_at": "2026-10-25T03:45:38+00:00",
+   "extra": {
+    "wc_id": 64,
+    "slug": "gulaschsuppe-vom-wild",
+    "in_stock": true,
+    "ingredients": "Hirsch- oder Rehfleisch, Wasser, Kartoffel, Karotte, Sellerie, Tomatenmark, Rotwein, Paprikapulver, Rapsöl, Sojasoße (Sojabohnen, Alkohol, Salz), Maisstärke, Salz, Knoblauch, Gewürzmischung",
+    "meat_share": "Reh, Hirschfleischanteil: 20%",
+    "free_from": "keine Geschmacksverstärker, Konservierungsstoffe, Farbstoffe, Verdickungsmittel; glutenfrei",
+    "preparation": "Die Gulaschsuppe im Topf unter ständigem Rühren erhitzen. Beilagen: Weißbrot",
+    "images": [
+     "https://www.bernos.at/wp-content/uploads/2016/08/gulaschsuppe_small_0.png"
+    ],
+    "price_note": "Preis je Glas inkl. MwSt. lt. WooCommerce Store API",
+    "shipping_note": "Versandkosten Österreich 5,60 €, Italien und Deutschland 8,50 € lt. bernos.at/versandarten/"
+   }
+  },
+  {
+   "source": "bernos",
+   "store": "Online: Bernos Tauernwild",
+   "name": "Gamseintopf",
+   "brand": "Bernos Tauernwild",
+   "price_eur": 9.0,
+   "unit_price_eur": 31.03,
+   "unit": "kg",
+   "size_g": 290.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://www.bernos.at/wp-content/uploads/2020/11/gamseintopf_small_2020.png",
+   "producer": "Bernos Wildkammer – Berno Mühlburger, Oberdrum 20, 9903 Oberlienz, Osttirol (UID ATU68061919)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.bernos.at/produkt/gamseintopf/",
+   "source_id": "62",
+   "fetched_at": "2026-10-25T03:45:38+00:00",
+   "extra": {
+    "wc_id": 62,
+    "slug": "gamseintopf",
+    "in_stock": true,
+    "ingredients": "Gamsfleisch, Wasser, Zwiebel, Kartoffel, Karotte, Sellerie, Rapsöl, Sojasauce (Sojabohnen, Alkohol, Salz), Salz, Knoblauch, Curry, Preiselbeeren, Gewürzmischung",
+    "meat_share": "Gamsfleischanteil: 30%",
+    "free_from": "keine Geschmacksverstärker, Konservierungsstoffe, Farbstoffe, Verdickungsmittel; glutenfrei",
+    "preparation": "Das Gamscurry im Topf erhitzen. Beilagen: Bauernbrot, Weißbrot",
+    "images": [
+     "https://www.bernos.at/wp-content/uploads/2020/11/gamseintopf_small_2020.png"
+    ],
+    "price_note": "Preis je Glas inkl. MwSt. lt. WooCommerce Store API",
+    "shipping_note": "Versandkosten Österreich 5,60 €, Italien und Deutschland 8,50 € lt. bernos.at/versandarten/"
+   }
+  }
+ ]
+}
