@@ -1,0 +1,281 @@
+{
+ "source": "https://www.ariane-scheffknecht.at/store-products-sitemap.xml + /product-page/<slug> schema.org Product JSON-LD",
+ "fetched": "2026-10-25T0510",
+ "operator": "Ariane Scheffknecht (Einzelunternehmen, Lustenau Vbg)",
+ "vies": "no UID published → not checkable",
+ "gleif": "GLEIF legalName 'Scheffknecht' → 5 records (Scheffknecht Transporte GmbH, KLÜCKAR Scheffknecht e.U., Scheffknecht Transport AG, INSOMNIA Scheffknecht, Peitler OG, Wilhelm Scheffknecht Stickerei …), none for Ariane Scheffknecht; fuzzy 'Ariane Scheffknecht' → 0 → no LEI",
+ "impressum": "https://www.ariane-scheffknecht.at/datenschutz (ARIANE SCHEFFKNECHT, Lorettoweg 14, A-6890 LUSTENAU, office@ariane-scheffknecht.at, +43 699 190 05 266; no FN, no UID)",
+ "firmenabc": "Ariane Maria Scheffknecht, Einzelunternehmen seit 16.03.2017, Einzelhandel mit Nahrungs- und Genussmitteln",
+ "robots": "User-agent: * Allow: / ; Disallow: *?lightbox= (product pages allowed)",
+ "shipping": "zzgl. Versand (Betrag nicht veröffentlicht); ab 12 Gläsern versandkostenfrei lt. ariane-scheffknecht.at",
+ "photo_vision_gate": "8/8 PASS",
+ "excluded": [
+  "Ragù alla Bolognese (sugo-bolognese; pasta sauce, '3 Portionen (mit Pasta)')"
+ ],
+ "kept": [
+  {
+   "source": "scheffknecht",
+   "store": "Online: Ariane Scheffknecht",
+   "name": "Gerstensuppe mit Selchfleisch",
+   "brand": "Ariane Scheffknecht",
+   "price_eur": 13.5,
+   "unit_price_eur": 28.12,
+   "unit": "kg",
+   "size_g": 480.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://static.wixstatic.com/media/8944fc_fa1adb937d824e45b2c8ee57d16116c9~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+   "producer": "Ariane Scheffknecht, Lorettoweg 14, 6890 Lustenau, Vorarlberg",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.ariane-scheffknecht.at/product-page/gerstensuppe",
+   "source_id": "gerstensuppe",
+   "fetched_at": "2026-10-25T05:15:07+00:00",
+   "extra": {
+    "slug": "gerstensuppe",
+    "in_stock": true,
+    "ingredients": "Gerste, Roten Bohnen, Weiße Bohnen, Selchfleisch, Karotten, Lauch, Zwiebel, Sellerie",
+    "portions": 2,
+    "portions_note": "2 Portionen",
+    "images": [
+     "https://static.wixstatic.com/media/8944fc_fa1adb937d824e45b2c8ee57d16116c9~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+     "https://static.wixstatic.com/media/8944fc_960e40b9a5bb41fbb0487b83917e6ca3~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg"
+    ],
+    "price_note": "Preis je Glas inkl. USt lt. Produktseite (schema.org Offer)",
+    "shipping_note": "zzgl. Versand (Betrag nicht veröffentlicht); ab 12 Gläsern versandkostenfrei lt. ariane-scheffknecht.at"
+   }
+  },
+  {
+   "source": "scheffknecht",
+   "store": "Online: Ariane Scheffknecht",
+   "name": "Chili con Carne",
+   "brand": "Ariane Scheffknecht",
+   "price_eur": 13.5,
+   "unit_price_eur": 28.12,
+   "unit": "kg",
+   "size_g": 480.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://static.wixstatic.com/media/8944fc_68eeabbf315c4586a4c9258a57f9f1d5~mv2_d_2375_2375_s_2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+   "producer": "Ariane Scheffknecht, Lorettoweg 14, 6890 Lustenau, Vorarlberg",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.ariane-scheffknecht.at/product-page/chili-con-carne",
+   "source_id": "chili-con-carne",
+   "fetched_at": "2026-10-25T05:15:08+00:00",
+   "extra": {
+    "slug": "chili-con-carne",
+    "in_stock": true,
+    "ingredients": "Hackfleisch (Rind und Schwein), Tomaten, rote Bohnen, Mais, Zwiebeln, rote Paprika, Knoblauch, Chili, Paprikagewürz, Koriander, brauner Zucker, Cayennepfeffer, Kreuzkümmel, Salz, Zitronensaft",
+    "portions": 2,
+    "portions_note": "2 Portionen",
+    "images": [
+     "https://static.wixstatic.com/media/8944fc_68eeabbf315c4586a4c9258a57f9f1d5~mv2_d_2375_2375_s_2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+     "https://static.wixstatic.com/media/8944fc_d9bb06cf1475499fa788d7189fd7fe86~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg"
+    ],
+    "price_note": "Preis je Glas inkl. USt lt. Produktseite (schema.org Offer)",
+    "shipping_note": "zzgl. Versand (Betrag nicht veröffentlicht); ab 12 Gläsern versandkostenfrei lt. ariane-scheffknecht.at"
+   }
+  },
+  {
+   "source": "scheffknecht",
+   "store": "Online: Ariane Scheffknecht",
+   "name": "Gelbes Zitronengras Linsen Dal",
+   "brand": "Ariane Scheffknecht",
+   "price_eur": 13.5,
+   "unit_price_eur": 28.12,
+   "unit": "kg",
+   "size_g": 480.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://static.wixstatic.com/media/8944fc_0290c0b38a5a4d26aadf47d3e095c594~mv2_d_2375_2375_s_2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+   "producer": "Ariane Scheffknecht, Lorettoweg 14, 6890 Lustenau, Vorarlberg",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.ariane-scheffknecht.at/product-page/gelbes-zitronengras-linsen-dal",
+   "source_id": "gelbes-zitronengras-linsen-dal",
+   "fetched_at": "2026-10-25T05:15:09+00:00",
+   "extra": {
+    "slug": "gelbes-zitronengras-linsen-dal",
+    "in_stock": true,
+    "ingredients": "Tomaten, gelbe Linsen, Zwiebel, Knoblauch, Ingwer, Paprikagewürz, Kreuzkümmel, Kurkuma, Koriander, Garam Masala, Gewürznelken, Zimt, Muskatnuss, Zitronengras",
+    "portions": 2,
+    "portions_note": "2 Portionen",
+    "images": [
+     "https://static.wixstatic.com/media/8944fc_0290c0b38a5a4d26aadf47d3e095c594~mv2_d_2375_2375_s_2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+     "https://static.wixstatic.com/media/8944fc_a6f3bcce98d347d9928c9607fd93afb0~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg"
+    ],
+    "price_note": "Preis je Glas inkl. USt lt. Produktseite (schema.org Offer)",
+    "shipping_note": "zzgl. Versand (Betrag nicht veröffentlicht); ab 12 Gläsern versandkostenfrei lt. ariane-scheffknecht.at"
+   }
+  },
+  {
+   "source": "scheffknecht",
+   "store": "Online: Ariane Scheffknecht",
+   "name": "Süßkartoffel Kichererbsen Chili",
+   "brand": "Ariane Scheffknecht",
+   "price_eur": 13.5,
+   "unit_price_eur": 28.72,
+   "unit": "kg",
+   "size_g": 470.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://static.wixstatic.com/media/8944fc_cdfba4516ef24985ade371ee798612be~mv2_d_2375_2375_s_2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+   "producer": "Ariane Scheffknecht, Lorettoweg 14, 6890 Lustenau, Vorarlberg",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.ariane-scheffknecht.at/product-page/süßkartoffel-kichererbsen-chili",
+   "source_id": "süßkartoffel-kichererbsen-chili",
+   "fetched_at": "2026-10-25T05:15:10+00:00",
+   "extra": {
+    "slug": "süßkartoffel-kichererbsen-chili",
+    "in_stock": true,
+    "ingredients": "Süßkartoffel, Kichererbsen, Paprika, Agavendicksaft, Balsamicoessig, Zwiebeln, Knoblauch, Curry, Kreuzkümmel, Tomaten, Paprikagewürz, Zimt, Ingwer",
+    "portions": 2,
+    "portions_note": "2 Portionen",
+    "images": [
+     "https://static.wixstatic.com/media/8944fc_cdfba4516ef24985ade371ee798612be~mv2_d_2375_2375_s_2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+     "https://static.wixstatic.com/media/8944fc_b6c889c1aa644454b8576ad3278fcdbb~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg"
+    ],
+    "price_note": "Preis je Glas inkl. USt lt. Produktseite (schema.org Offer)",
+    "shipping_note": "zzgl. Versand (Betrag nicht veröffentlicht); ab 12 Gläsern versandkostenfrei lt. ariane-scheffknecht.at"
+   }
+  },
+  {
+   "source": "scheffknecht",
+   "store": "Online: Ariane Scheffknecht",
+   "name": "Chili Vegan",
+   "brand": "Ariane Scheffknecht",
+   "price_eur": 13.5,
+   "unit_price_eur": 28.12,
+   "unit": "kg",
+   "size_g": 480.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://static.wixstatic.com/media/8944fc_ea0c827f2a364cadb27e9ba90fa50151~mv2_d_2375_2375_s_2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+   "producer": "Ariane Scheffknecht, Lorettoweg 14, 6890 Lustenau, Vorarlberg",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.ariane-scheffknecht.at/product-page/chili-vegan",
+   "source_id": "chili-vegan",
+   "fetched_at": "2026-10-25T05:15:11+00:00",
+   "extra": {
+    "slug": "chili-vegan",
+    "in_stock": true,
+    "ingredients": "Tomaten, roten Bohnen, Mais, rote Paprika, Wasser, Kichererbsen, weiße Bohnen, Tomatenmark, jodiertes Speisesalz, Paprikapulver, Kreuzkümmel, Curry Paste, Rapsöl",
+    "portions": 2,
+    "portions_note": "2 Portionen",
+    "images": [
+     "https://static.wixstatic.com/media/8944fc_ea0c827f2a364cadb27e9ba90fa50151~mv2_d_2375_2375_s_2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+     "https://static.wixstatic.com/media/8944fc_c3158cf19eda4b079ed85e93c748a6df~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg"
+    ],
+    "price_note": "Preis je Glas inkl. USt lt. Produktseite (schema.org Offer)",
+    "shipping_note": "zzgl. Versand (Betrag nicht veröffentlicht); ab 12 Gläsern versandkostenfrei lt. ariane-scheffknecht.at"
+   }
+  },
+  {
+   "source": "scheffknecht",
+   "store": "Online: Ariane Scheffknecht",
+   "name": "Rotes Thai Curry mit Hühnerfilet",
+   "brand": "Ariane Scheffknecht",
+   "price_eur": 14.0,
+   "unit_price_eur": 29.79,
+   "unit": "kg",
+   "size_g": 470.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://static.wixstatic.com/media/8944fc_26cf2670e30b4218aa820073f3992143~mv2_d_2375_2375_s_2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+   "producer": "Ariane Scheffknecht, Lorettoweg 14, 6890 Lustenau, Vorarlberg",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.ariane-scheffknecht.at/product-page/rotes-thai-curry",
+   "source_id": "rotes-thai-curry",
+   "fetched_at": "2026-10-25T05:15:12+00:00",
+   "extra": {
+    "slug": "rotes-thai-curry",
+    "in_stock": true,
+    "ingredients": "Hühnerfleisch, Kokosmilch, Tomaten, Karotten, rote Paprika, Zuckerschoten, Zwiebel, Knoblauch, Paprikapulver, Weizenmehl, brauner Zucker, Curry, Paprikagewürz, Sternanis, Zimt, Ingwer, Zitronengras",
+    "portions": 2,
+    "portions_note": "2 Portionen",
+    "images": [
+     "https://static.wixstatic.com/media/8944fc_26cf2670e30b4218aa820073f3992143~mv2_d_2375_2375_s_2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+     "https://static.wixstatic.com/media/8944fc_ff758d9054d74e6997564d16942489a0~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg"
+    ],
+    "price_note": "Preis je Glas inkl. USt lt. Produktseite (schema.org Offer)",
+    "shipping_note": "zzgl. Versand (Betrag nicht veröffentlicht); ab 12 Gläsern versandkostenfrei lt. ariane-scheffknecht.at"
+   }
+  },
+  {
+   "source": "scheffknecht",
+   "store": "Online: Ariane Scheffknecht",
+   "name": "Gerstensuppe mit Käferbohnen",
+   "brand": "Ariane Scheffknecht",
+   "price_eur": 13.5,
+   "unit_price_eur": null,
+   "unit": null,
+   "size_g": null,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://static.wixstatic.com/media/8944fc_59302035f2ff454f84510590fb91ab3c~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+   "producer": "Ariane Scheffknecht, Lorettoweg 14, 6890 Lustenau, Vorarlberg",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.ariane-scheffknecht.at/product-page/gerstensuppe-vegan",
+   "source_id": "gerstensuppe-vegan",
+   "fetched_at": "2026-10-25T05:15:13+00:00",
+   "extra": {
+    "slug": "gerstensuppe-vegan",
+    "in_stock": true,
+    "ingredients": null,
+    "portions": null,
+    "portions_note": null,
+    "images": [
+     "https://static.wixstatic.com/media/8944fc_59302035f2ff454f84510590fb91ab3c~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+     "https://static.wixstatic.com/media/8944fc_687da1bf7d6d4045bd9ea9e421e352fe~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg"
+    ],
+    "price_note": "Preis je Glas inkl. USt lt. Produktseite (schema.org Offer)",
+    "shipping_note": "zzgl. Versand (Betrag nicht veröffentlicht); ab 12 Gläsern versandkostenfrei lt. ariane-scheffknecht.at"
+   }
+  },
+  {
+   "source": "scheffknecht",
+   "store": "Online: Ariane Scheffknecht",
+   "name": "Indisches Hühner-Curry",
+   "brand": "Ariane Scheffknecht",
+   "price_eur": 14.0,
+   "unit_price_eur": 29.79,
+   "unit": "kg",
+   "size_g": 470.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://static.wixstatic.com/media/8944fc_8a1d5c0a67064cf8a3c0f522fa129995~mv2_d_2375_2375_s_2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+   "producer": "Ariane Scheffknecht, Lorettoweg 14, 6890 Lustenau, Vorarlberg",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://www.ariane-scheffknecht.at/product-page/indisches-hühner-curry",
+   "source_id": "indisches-hühner-curry",
+   "fetched_at": "2026-10-25T05:15:14+00:00",
+   "extra": {
+    "slug": "indisches-hühner-curry",
+    "in_stock": true,
+    "ingredients": "Hühnerfleisch, Tomaten, Buttermilch, Crème Fraîche, Garam Masala, Gewürznelken, Koriander, Paprikagewürz, Kurkuma, Kreuzkümmel, Limettensaft",
+    "portions": 2,
+    "portions_note": "2 Portionen",
+    "images": [
+     "https://static.wixstatic.com/media/8944fc_8a1d5c0a67064cf8a3c0f522fa129995~mv2_d_2375_2375_s_2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+     "https://static.wixstatic.com/media/8944fc_312fd78ca55d462394dce8606b2b01ad~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg"
+    ],
+    "price_note": "Preis je Glas inkl. USt lt. Produktseite (schema.org Offer)",
+    "shipping_note": "zzgl. Versand (Betrag nicht veröffentlicht); ab 12 Gläsern versandkostenfrei lt. ariane-scheffknecht.at"
+   }
+  }
+ ]
+}
