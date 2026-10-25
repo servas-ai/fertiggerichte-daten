@@ -111,3 +111,15 @@ No file staged (0 new rows). Fresh fetches of billa, dm, mpreis-shop, juit, loew
 - Skipped again: Gurkerl 7 (Speckkraut, Gabelkraut, Rotkraut, Sauerkraut, Rahmfisolen, Frittaten, Bedford Hähnchenbrust; sides and components), bofrost 3 (Putenrolle, Rotkrautknödel, Feine Trüffel), MPreis 8 (tofu, vegan cold cuts, Cordon Bleu, Eierspätzle, pudding powder), HOFER 4 (bird feed, pan, Käsekrainer, Flammkuchen without price), PrepMyMeal 4 (bundles, renamed Hähnchen im Kokosmantel), SPAR non-meals (hummus, baguettes, Blätterteig, Eierspätzle, Kokosflocken, Bruschetta, raw fresh pasta).
 - 0 new from deflorian, wiesbauer_gourmet, voeslauermanufaktur, draxler, denns, lomoalto.
 - Goal of 20 not reached: live connector sources stay exhausted; new rows keep coming from new online stores (Daten-Squad).
+
+### hourly 2026-10-25T03
+
+| file | source | rows | tags | status |
+|---|---|---|---|---|
+| staged_2026-10-25T03.json | Alfies (6), Bauernladen.at (1) | 7 | main 2, dessert 1, snack 3, main-component 1 | open |
+
+- Rows: Alfies Mama Lucia Lasagne Bolognese 1 kg 5,49 € (TK; first Mama Lucia row), Followfood Pizza Gamberi Bio 293 g 5,89 € (TK), Iglo Powidltascherl 410 g 5,39 € (TK dessert; no Powidltascherl in data.json yet), Iglo Hühner Flügerl 580 g 8,99 €, Iglo Green Cuisine Gemüse Stangerl 360 g 5,19 € and Süßkartoffel Laibchen 270 g 4,79 € (snack); Bauernladen.at Danke Bauer Schweinsbraten 2 Scheiben 190 g 7,90 € (meat without side, tagged main-component for the Orchestrator to decide). Shop photos for all; Alfies nutrition per 100 g as published, no GTIN.
+- QA: Alfies Hühner Flügerl kcal 862 looks like kJ (macros give about 205 kcal), so kcal is null; Mama Lucia salt 0.0 is implausible, so salt is null. Notes are in extra.qa_note.
+- Skipped: BILLA 23 (Gulaschsaft and soup cubes, dry lasagne sheets, curry spices, spreads and salads), Alfies Land Leben Frittaten (soup insert) and Wiesbauer Nockerl spezial (side), every. 5 (no AT delivery, unrankable per Orchestrator).
+- 0 new from fittogo 32, livefresh 10, buchberger 5, kumitzberg 5, wagyuhof 4, fichtenbauer 3, diechtl 1, thaller 1 (fetched at --limit 60, 4 parallel, ~3 min, all exit 0).
+- Goal of 20 not reached: live connector sources stay exhausted; new rows keep coming from new online stores (Daten-Squad).
