@@ -3510,6 +3510,345 @@ def _reconcile_sc48(out):
                                                             _r1987['rank_excluded_reason'] = 'Online-Duplikat (gleiches Produkt in Linz bei Billa – dort gerankt)'
                                                             changed_uids.add(_r1987['uid'])
 
+                                                        # sensecheck 70: P1 (Denn's Linz assortment), P2 (1000g lasagnas, 800g Inzersdorfer Paprika, bofrost & myProduct multipacks), P3 (portion=None cleanup)
+                                                        SC70_FIXES = os.environ.get('SC70_FIXES', '1') != '0' and os.environ.get('GOOD_CHOICE_DISABLE_SC70', '0') != '1'
+                                                        if SC70_FIXES:
+                                                            # --- P1.1: Complete Denn's rows with verified manufacturer / OFF data ---
+                                                            # #2204 [Denn's] followfood Airfryer Fish Nuggets (200 g, 5.49 €, live 2026) -> GTIN twin of #2040 [Gurkerl] & #4018 [Alfies] (EAN 4250073460614)
+                                                            _r2204 = _pmm_by_id.get(2204)
+                                                            if _r2204 is not None:
+                                                                _r2204.update({
+                                                                    'ean': '4250073460614',
+                                                                    'nutrition_source': 'off',
+                                                                    'nutrition_basis': 'as_sold',
+                                                                    'kcal': 226.0,
+                                                                    'p100': 13.0,
+                                                                    'fat': 10.0,
+                                                                    'sat': 0.9,
+                                                                    'carbs': 20.0,
+                                                                    'sugar': 0.85,
+                                                                    'salt': 0.97,
+                                                                    'fib': None,
+                                                                    'nova': 3,
+                                                                    'nova_source': 'off',
+                                                                    'veg_pct': 0.0,
+                                                                    'veg_source': 'off_percent',
+                                                                    'size': 200.0,
+                                                                    'portion': 200,
+                                                                    'portion_g': 200,
+                                                                    'portion_source': 'pack_single',
+                                                                    'kcalpack': 452.0,
+                                                                    'protpack': 26.0,
+                                                                    'kcalPor': 452.0,
+                                                                    'kcal_meal': 452,
+                                                                    'protPor': 26.0,
+                                                                    'saltPor': 1.94,
+                                                                    'saltPct': 32,
+                                                                    'pPor': 5.49,
+                                                                    'pPorEff': 5.49,
+                                                                    'ppk': 27.45,
+                                                                    'p100g': 2.75,
+                                                                    'p100k': 5.75,
+                                                                    'eur10p': 2.11,
+                                                                    'eur100k': 1.21,
+                                                                    'ppe': 4.7,
+                                                                    'score': 49.8,
+                                                                    'scoreV1': 42.7,
+                                                                    'priceOnly': False,
+                                                                    'incomplete': False,
+                                                                    'day_pct': {'kcal': 23, 'protein': 52, 'salt': 32, 'satfat': 9, 'sugar': 2, 'fiber': None},
+                                                                    'score_parts': {'base': 30.0, 'protein': 20.1, 'salt': -5.3, 'satfat': -0.0, 'sugar': 0.0, 'fiber': 0, 'veg': 0.0, 'nova': 0, 'portion_protein': 5},
+                                                                    'stage': 'prot',
+                                                                    'meal_class': 'protein_component',
+                                                                    'component': True,
+                                                                    'meal_check': {'portion': 200, 'kcal': 452, 'protein': 26.0, 'ok': False, 'cls': 'protein_component', 'reason': 'Proteinkomponente (keine vollständige Mahlzeit)'},
+                                                                    'flags': ['Proteinkomponente (keine vollständige Mahlzeit)'],
+                                                                    'rankable': False,
+                                                                    'rankableLight': False,
+                                                                    'pli': None,
+                                                                    'pliLight': None,
+                                                                    'rank_excluded_reason': 'Proteinkomponente (keine vollständige Mahlzeit)',
+                                                                    'alsoAt': ['Alfies', 'Gurkerl'],
+                                                                })
+                                                                changed_uids.add(_r2204['uid'])
+                                                            for _twin_id in (2040, 4018):
+                                                                _rtwin = _pmm_by_id.get(_twin_id)
+                                                                if _rtwin is not None:
+                                                                    _rtwin['alsoAt'] = sorted(set(_rtwin.get('alsoAt') or []) | {"Denn's"})
+                                                                    changed_uids.add(_rtwin['uid'])
+
+                                                            # #2205 [Denn's] SOTO Veganes / Vegetarisches Bio-Fingerfood (3.99 €, live 2026, Artikel 004476 = SOTO Bio Falafel Traditionell 200 g, EAN 4026584133640)
+                                                            # Verified manufacturer nutrition from soto.de/de/products/falafel/321397
+                                                            _r2205 = _pmm_by_id.get(2205)
+                                                            if _r2205 is not None:
+                                                                _r2205.update({
+                                                                    'ean': '4026584133640',
+                                                                    'nutrition_source': 'manufacturer',
+                                                                    'nutrition_basis': 'as_sold',
+                                                                    'kcal': 217.0,
+                                                                    'p100': 10.0,
+                                                                    'fat': 8.4,
+                                                                    'sat': 1.4,
+                                                                    'carbs': 21.0,
+                                                                    'sugar': 2.8,
+                                                                    'fib': 8.5,
+                                                                    'salt': 1.1,
+                                                                    'nova': 3,
+                                                                    'nova_source': 'ingredients_markers',
+                                                                    'veg_pct': 81.0,
+                                                                    'veg_source': 'ingredients_order',
+                                                                    'vegan': True,
+                                                                    'size': 200.0,
+                                                                    'portion': 200,
+                                                                    'portion_g': 200,
+                                                                    'portion_source': 'pack_single',
+                                                                    'pack': 'Kühlregal (Menüschale/frisch)',
+                                                                    'kcalpack': 434.0,
+                                                                    'protpack': 20.0,
+                                                                    'kcalPor': 434.0,
+                                                                    'kcal_meal': 434,
+                                                                    'protPor': 20.0,
+                                                                    'saltPor': 2.2,
+                                                                    'saltPct': 37,
+                                                                    'pPor': 3.99,
+                                                                    'pPorEff': 3.99,
+                                                                    'ppk': 19.95,
+                                                                    'p100g': 2.0,
+                                                                    'p100k': 4.61,
+                                                                    'eur10p': 2.0,
+                                                                    'eur100k': 0.92,
+                                                                    'ppe': 5.0,
+                                                                    'score': 64.0,
+                                                                    'scoreV1': 54.3,
+                                                                    'priceOnly': False,
+                                                                    'incomplete': False,
+                                                                    'day_pct': {'kcal': 22, 'protein': 40, 'salt': 37, 'satfat': 14, 'sugar': 6, 'fiber': 57},
+                                                                    'score_parts': {'base': 30.0, 'protein': 16.1, 'salt': -7.1, 'satfat': -0.0, 'sugar': 0.0, 'fiber': 10, 'veg': 10, 'nova': 0, 'portion_protein': 5},
+                                                                    'stage': 'meal',
+                                                                    'segment': 'ready_meal',
+                                                                    'meal_class': 'meal',
+                                                                    'gang': 'haupt',
+                                                                    'component': False,
+                                                                    'meal_check': {'portion': 200, 'kcal': 434, 'protein': 20.0, 'ok': True, 'cls': 'meal', 'reason': None},
+                                                                    'flags': [],
+                                                                    'rankable': True,
+                                                                    'pli': 44.5,
+                                                                    'rankableLight': False,
+                                                                    'pliLight': None,
+                                                                    'rank_excluded_reason': None,
+                                                                })
+                                                                changed_uids.add(_r2205['uid'])
+
+                                                            # #2206 [Denn's] MyDeli Bio-Fleischsuppe (3.99 €, live 2026, Artikel 564131 = MyDeli Bio Rindergulasch 380 g, EAN 4012344902069)
+                                                            # Verified manufacturer nutrition from Trend MEAL Food Service GmbH
+                                                            _r2206 = _pmm_by_id.get(2206)
+                                                            if _r2206 is not None:
+                                                                _r2206.update({
+                                                                    'ean': '4012344902069',
+                                                                    'nutrition_source': 'manufacturer',
+                                                                    'nutrition_basis': 'as_sold',
+                                                                    'kcal': 94.0,
+                                                                    'p100': 13.0,
+                                                                    'fat': 3.4,
+                                                                    'sat': 1.2,
+                                                                    'carbs': 2.8,
+                                                                    'sugar': 1.4,
+                                                                    'fib': None,
+                                                                    'salt': 1.1,
+                                                                    'nova': 4,
+                                                                    'nova_source': 'ingredients_markers',
+                                                                    'veg_pct': 54.0,
+                                                                    'veg_source': 'ingredients_order',
+                                                                    'size': 380.0,
+                                                                    'portion': 380,
+                                                                    'portion_g': 380,
+                                                                    'portion_source': 'pack_single',
+                                                                    'pack': 'Glas',
+                                                                    'kcalpack': 357.2,
+                                                                    'protpack': 49.4,
+                                                                    'kcalPor': 357.2,
+                                                                    'kcal_meal': 357,
+                                                                    'protPor': 49.4,
+                                                                    'saltPor': 4.18,
+                                                                    'saltPct': 70,
+                                                                    'pPor': 3.99,
+                                                                    'pPorEff': 3.99,
+                                                                    'ppk': 10.5,
+                                                                    'p100g': 1.05,
+                                                                    'p100k': 13.83,
+                                                                    'eur10p': 0.81,
+                                                                    'eur100k': 1.12,
+                                                                    'ppe': 12.4,
+                                                                    'score': 54.9,
+                                                                    'scoreV1': 52.3,
+                                                                    'priceOnly': False,
+                                                                    'incomplete': False,
+                                                                    'day_pct': {'kcal': 18, 'protein': 99, 'salt': 70, 'satfat': 23, 'sugar': 6, 'fiber': None},
+                                                                    'score_parts': {'base': 30.0, 'protein': 35, 'salt': -7.1, 'satfat': -0.0, 'sugar': 0.0, 'fiber': 0, 'veg': 10, 'nova': -10, 'portion_salt': -8.0, 'portion_protein': 5},
+                                                                    'stage': 'stew',
+                                                                    'segment': 'ready_meal',
+                                                                    'meal_class': 'light_meal',
+                                                                    'gang': 'haupt',
+                                                                    'component': False,
+                                                                    'meal_check': {'portion': 380, 'kcal': 357, 'protein': 49.4, 'ok': False, 'cls': 'light_meal', 'reason': '357 kcal/Portion < 400'},
+                                                                    'flags': ['Mahlzeit-Check: 357 kcal/Portion < 400'],
+                                                                    'rankable': False,
+                                                                    'pli': None,
+                                                                    'rankableLight': True,
+                                                                    'pliLight': 58.4,
+                                                                    'rank_excluded_reason': None,
+                                                                })
+                                                                changed_uids.add(_r2206['uid'])
+
+                                                            # --- P2.1: 1000 g Lasagne Bolognese family trays (#172 Spar S-BUDGET, #530 Billa Clever, #3057 bofrost) -> 2 portions à 500 g ---
+                                                            for _las_id, _kcal_p, _kcal_m, _prot_p, _salt_p, _salt_pct, _p_por, _ppe, _pli in (
+                                                                (172, 695.0, 695, 29.0, 5.5, 92, 2.0, 14.5, 53.4),
+                                                                (530, 710.0, 710, 28.0, 5.5, 92, 2.0, 14.0, 50.3),
+                                                                (3057, 690.0, 690, 33.5, 5.5, 92, 6.75, 5.0, 31.3),
+                                                            ):
+                                                                _rlas = _pmm_by_id.get(_las_id)
+                                                                if _rlas is not None:
+                                                                    _rlas['portion'] = 500
+                                                                    _rlas['portion_g'] = 500
+                                                                    _rlas['portion_source'] = 'pack_2portions'
+                                                                    _rlas['multi_portion'] = True
+                                                                    _rlas['kcalPor'] = _kcal_p
+                                                                    _rlas['kcal_meal'] = _kcal_m
+                                                                    _rlas['protPor'] = _prot_p
+                                                                    _rlas['saltPor'] = _salt_p
+                                                                    _rlas['saltPct'] = _salt_pct
+                                                                    _rlas['pPor'] = _p_por
+                                                                    _rlas['pPorEff'] = _p_por
+                                                                    _rlas['ppe'] = _ppe
+                                                                    _rlas['meal_class'] = 'meal'
+                                                                    _rlas['component'] = False
+                                                                    _rlas['meal_check'] = {'portion': 500, 'kcal': _kcal_m, 'protein': _prot_p, 'ok': True, 'cls': 'meal', 'reason': None}
+                                                                    _rlas['flags'] = []
+                                                                    _rlas['rankable'] = True
+                                                                    _rlas['pli'] = _pli
+                                                                    _rlas['rankableLight'] = False
+                                                                    _rlas['pliLight'] = None
+                                                                    _rlas['rank_excluded_reason'] = None
+                                                                    changed_uids.add(_rlas['uid'])
+
+                                                            # --- P2.2: 800 g Inzersdorfer Gefüllte Paprika (#428 Spar & #923 Billa) -> 2 portions à 400 g ---
+                                                            for _pap_id, _p_por in ((428, 3.15), (923, 3.2)):
+                                                                _rpap = _pmm_by_id.get(_pap_id)
+                                                                if _rpap is not None:
+                                                                    _rpap['portion'] = 400
+                                                                    _rpap['portion_g'] = 400
+                                                                    _rpap['portion_source'] = 'pack_2portions'
+                                                                    _rpap['multi_portion'] = True
+                                                                    _rpap['kcalPor'] = 456.0
+                                                                    _rpap['kcal_meal'] = 456
+                                                                    _rpap['protPor'] = 14.0
+                                                                    _rpap['saltPor'] = 4.8
+                                                                    _rpap['saltPct'] = 80
+                                                                    _rpap['pPor'] = _p_por
+                                                                    _rpap['pPorEff'] = None
+                                                                    _rpap['ppe'] = 4.4
+                                                                    _rpap['meal_class'] = 'light_meal'
+                                                                    _rpap['component'] = False
+                                                                    _rpap['meal_check'] = {'portion': 400, 'kcal': 456, 'protein': 14.0, 'ok': False, 'cls': 'light_meal', 'reason': '14.0 g Protein/Portion < 20'}
+                                                                    _rpap['flags'] = ['Mahlzeit-Check: 14.0 g Protein/Portion < 20']
+                                                                    _rpap['rankable'] = False
+                                                                    _rpap['pli'] = None
+                                                                    _rpap['rankableLight'] = False
+                                                                    _rpap['pliLight'] = None
+                                                                    _rpap['rank_excluded_reason'] = 'Health-Score < 30'
+                                                                    changed_uids.add(_rpap['uid'])
+
+                                                            # --- P2.3a: 7 remaining bofrost multi-portion items -> pack_2portions ---
+                                                            for _bf_id, _por, _kcal_p, _kcal_m, _prot_p, _salt_p, _salt_pct, _p_por, _ppe, _mc in (
+                                                                (2621, 320, 752.0, 752, 18.6, 3.52, 59, 7.25, 2.6, 'light_meal'),
+                                                                (2624, 245, 531.6, 532, 20.1, 3.19, 53, 6.75, 3.0, 'meal'),
+                                                                (2636, 270, 723.6, 724, 31.3, 3.78, 63, 6.39, 4.9, 'meal'),
+                                                                (2637, 270, 796.5, 796, 33.8, 3.24, 54, 6.39, 5.3, 'meal'),
+                                                                (2939, 260, 720.2, 720, 32.5, 2.86, 48, 7.75, 4.2, 'meal'),
+                                                                (2969, 303, 745.4, 745, 30.0, 3.33, 56, 5.75, 5.2, 'meal'),
+                                                                (2982, 338, 662.5, 662, 30.1, 4.73, 79, 6.39, 4.7, 'meal'),
+                                                            ):
+                                                                _rbf = _pmm_by_id.get(_bf_id)
+                                                                if _rbf is not None:
+                                                                    _rbf['portion'] = _por
+                                                                    _rbf['portion_g'] = _por
+                                                                    _rbf['portion_source'] = 'pack_2portions'
+                                                                    _rbf['multi_portion'] = True
+                                                                    _rbf['kcalPor'] = _kcal_p
+                                                                    _rbf['kcal_meal'] = _kcal_m
+                                                                    _rbf['protPor'] = _prot_p
+                                                                    _rbf['saltPor'] = _salt_p
+                                                                    _rbf['saltPct'] = _salt_pct
+                                                                    _rbf['pPor'] = _p_por
+                                                                    _rbf['pPorEff'] = _p_por
+                                                                    _rbf['ppe'] = _ppe
+                                                                    _rbf['meal_class'] = _mc
+                                                                    if _mc == 'light_meal':
+                                                                        _rbf['meal_check'] = {'portion': _por, 'kcal': _kcal_m, 'protein': _prot_p, 'ok': False, 'cls': 'light_meal', 'reason': f'{_prot_p} g Protein/Portion < 20'}
+                                                                        _rbf['flags'] = [f'Mahlzeit-Check: {_prot_p} g Protein/Portion < 20']
+                                                                    else:
+                                                                        _rbf['meal_check'] = {'portion': _por, 'kcal': _kcal_m, 'protein': _prot_p, 'ok': True, 'cls': 'meal', 'reason': None}
+                                                                        _rbf['flags'] = []
+                                                                    _rbf['rankable'] = False
+                                                                    _rbf['rankableLight'] = False
+                                                                    _rbf['pli'] = None
+                                                                    _rbf['pliLight'] = None
+                                                                    _rbf['rank_excluded_reason'] = 'Health-Score < 30'
+                                                                    changed_uids.add(_rbf['uid'])
+
+                                                            # --- P2.3b: 4 remaining myProduct value packs (#3218 6x108g -> 108g, #3224-#3226 12x85g -> 85g) -> multipack_unit ---
+                                                            _r3218 = _pmm_by_id.get(3218)
+                                                            if _r3218 is not None:
+                                                                _r3218['portion'] = 108
+                                                                _r3218['portion_g'] = 108
+                                                                _r3218['portion_source'] = 'multipack_unit'
+                                                                _r3218['multi_portion'] = True
+                                                                _r3218['pPor'] = 3.79
+                                                                _r3218['pPorEff'] = 5.11
+                                                                _r3218['kcalPor'] = 331.6
+                                                                _r3218['kcal_meal'] = 332
+                                                                _r3218['protPor'] = 17.5
+                                                                _r3218['saltPor'] = 4.05
+                                                                _r3218['saltPct'] = 68
+                                                                _r3218['ppe'] = 4.6
+                                                                _r3218['flags'] = [f for f in (_r3218.get('flags') or []) if 'Großpackung' not in f]
+                                                                _r3218['rank_excluded_reason'] = 'Trockenprodukt: Trockensuppe/Konzentrat zum Zubereiten, kein Fertiggericht – nicht in Rankings (307 kcal/100 g (Werte des Pulvers))'
+                                                                changed_uids.add(_r3218['uid'])
+                                                            for _mp_id, _kcal_p, _kcal_m, _prot_p, _salt_p, _salt_pct, _ppe in (
+                                                                (3224, 298.4, 298, 6.0, 2.81, 47, 2.5),
+                                                                (3225, 295.8, 296, 6.5, 2.64, 44, 2.7),
+                                                                (3226, 300.1, 300, 6.3, 2.72, 45, 2.6),
+                                                            ):
+                                                                _rmp = _pmm_by_id.get(_mp_id)
+                                                                if _rmp is not None:
+                                                                    _rmp['portion'] = 85
+                                                                    _rmp['portion_g'] = 85
+                                                                    _rmp['portion_source'] = 'multipack_unit'
+                                                                    _rmp['multi_portion'] = True
+                                                                    _rmp['pPor'] = 2.39
+                                                                    _rmp['pPorEff'] = 3.71
+                                                                    _rmp['kcalPor'] = _kcal_p
+                                                                    _rmp['kcal_meal'] = _kcal_m
+                                                                    _rmp['protPor'] = _prot_p
+                                                                    _rmp['saltPor'] = _salt_p
+                                                                    _rmp['saltPct'] = _salt_pct
+                                                                    _rmp['ppe'] = _ppe
+                                                                    changed_uids.add(_rmp['uid'])
+
+                                                            # --- P3.2: Rows with portion is None must not carry 100g values in per-portion fields ---
+                                                            for _rnone in rows:
+                                                                if _rnone.get('portion') is None:
+                                                                    _dirty = any(_rnone.get(_k) is not None for _k in ('pPor', 'pPorEff', 'protPor', 'kcalPor', 'kcal_meal', 'saltPor', 'saltPct'))
+                                                                    if _dirty:
+                                                                        _rnone['pPor'] = None
+                                                                        _rnone['pPorEff'] = None
+                                                                        _rnone['protPor'] = None
+                                                                        _rnone['kcalPor'] = None
+                                                                        _rnone['kcal_meal'] = None
+                                                                        _rnone['saltPor'] = None
+                                                                        _rnone['saltPct'] = None
+                                                                        changed_uids.add(_rnone['uid'])
+
     # Check latest online_availability_*.json
     av_files = sorted(glob.glob(os.path.join(base_dir, 'analysis/online_availability_*.json')))
     if os.environ.get('GOOD_CHOICE_AVAILABILITY'):  # sensecheck 52 P1: tests pin the snapshot the canonical baseline was built from
