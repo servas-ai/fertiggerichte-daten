@@ -108,6 +108,7 @@ SHIP.setdefault('PrepMyMeal',5.99)
 _NOSHIP=set()
 MEALPREP_ONLY={'PrepMyMeal','Juit','every.','LiveFresh','FitTaste','Fit to Go','Löwenanteil','Kernbeißer','Goldblatt','iss mich!'}
 _sc62_top_on = os.environ.get('SC62_FIXES', '1') != '0' and os.environ.get('GOOD_CHOICE_DISABLE_SC62', '0') != '1'
+_sc63_top_on = os.environ.get('SC63_FIXES', '1') != '0' and os.environ.get('GOOD_CHOICE_DISABLE_SC63', '0') != '1'
 for r in R:
     t=(r['name']+' '+r['brand']).lower()
     ps=[n for n,i,p in PROT if re.search(p,t)]
@@ -122,7 +123,7 @@ for r in R:
     raw=re.search(r'faschiert|hackfleisch|\bhack\b|filet|brust|keule|unterkeul|oberkeul|flügel|wings|steak|schnitzel|leber|gulaschfleisch|geschnetzeltes|würfel|minute|ganzes|ganzer|hendl\b|hähnchen|kotelett|karree|schopf|bauch|lachs|forelle|garnelen|shrimps|kabeljau|seelachs|zander|saibling|thunfisch.*steak',t) and not re.search(_raw_not_re,t) and not r['pack'].startswith('Dose')
     if raw or ((r.get('kcal') or 0)>=300 and re.search(r'suppe|nudel|pulver|teigwar|einlage|abc|sternderl|gerstl|hörnchen|fadennudel|buchstaben|instant|terrine|cup|reis\b|couscous|bulgur|polenta|grieß',t) and (r.get('fat') or 0)<15) or re.search(r'barilla lasagne|collezione lasagne|recheis lasagne|lasagne hartweizen|glutenfreie lasagne|lasagneblätter|lasagne-?platten',t) or ('lasagne' in t and (r.get('kcal') or 0)>=300): stg='base'
     elif re.search(r'erdbeer|marillen|zwetschk|nougat|germknödel|topfenknödel|mehlspeis|kaiserschmarr|powidl|mohn|vanille|schoko',t): stg='base'
-    elif r.get('dry') or re.search(r'sauce|soße|fix\b|fix |pesto|gewürz|würfel|pulver|bouillon|fond|dressing|mehl|paniermehl|brühe(?!.*einlage)',t) and not re.search(r'suppe|topf|\bin \w*(sauce|soße)|mit \w*(sauce|soße)|\bpizza\b|ristorante|intermezzo|tradizionale|ravioli|tortell|nudel|spaghetti|cannelloni|gnocchi|reis|fleisch|würstel|huhn|hendl|rind',t): stg='base'
+    elif r.get('dry') or re.search(r'sauce|soße|fix\b|fix |pesto|gewürz|würfel|pulver|bouillon|fond|dressing|mehl|paniermehl|brühe(?!.*einlage)',t) and not re.search(r'suppe|topf|\bin \w*(sauce|soße)|mit \w*(sauce|soße)|\bpizza\b|ristorante|intermezzo|tradizionale|ravioli|tortell|nudel|spaghetti|cannelloni|gnocchi|reis|fleisch|würstel|huhn|hendl|rind' + (r'|\b(in|mit)\s+[\wäöüß-]+\s+(sauce|soße)|hühner|garnelen|shrimps' if _sc63_top_on else ''),t): stg='base'
     elif re.search(r'suppe|eintopf|\\btopf|topf\\b|chili con|gulasch.*dose|linsen|bohnen.*eintopf|ragout|consommé|ramen',t): stg='stew'
     elif not hasMit and re.search(r'lachs|thunfisch|huhn|hühn|hähn|chicken|garnel|shrimp|scampi|rind|schinken|speck|lamm|pute',t) and re.search(r'\b(spaghetti\w*|penne|tagliatelle|pappardelle|linguine|fusilli|rigatoni|makkaroni|pasta)\b|nudeln?\b',t) and not re.search(r'salat',t): stg='meal'  # sensecheck 12-verify: protein + pasta in one name is a dish (Frosta Tagliatelle Wildlachs), not a raw cut/component
     elif not hasMit and re.search(r'ripperl|spare ?rib|spie(ß|ss)|schnitzel|cordon|nugget|stäbchen|sticks|filet|laibchen|cevap|burger|frikadell|fleischlaibchen|leberkäs|steak|hendl(?!.*mit)|chicken wings|drumstick|keule|grillwurst|bratwurst|kebab|gyros|pulled|tofu|tempeh|falafel|fischburger|backfisch|lachs',t): stg='prot'
@@ -135,15 +136,15 @@ for r in R:
     #  ready pasta dishes are 90-200 kcal/100 g, so the kcal floor keeps 'Pumpkin Rigatoni' / 'Wildlachs Spaghetti' as meals
     elif PLAIN_PASTA.search(r['name']) and (r.get('kcal') or 0)>=230 and stg in('side','veg','meal'): stg='base'
     elif re.search(r'\b(fusilli|makkaroni|penne|spaghetti|farfalle)\b',t) and not re.search(r'sauce|bolognese|carbonara|mit|fertig',t) and stg in('side','veg','meal') and (r.get('kcal') or 300)>=300: stg='base'
-    elif stg in('veg','side','prot') and re.search(r'strudel|pinsa|pizza|brot\b|pastasalat|nudelsalat|eiersalat|bbq salat|wrap|burger|pasta fertig|fertiggericht|gebratene nudeln|magic asia|kasnudel|käsnudel|tomaten-mozzarella-nudeln|kürbis-nudeln|meeresküche|airfryer snack|goldschatz|cashew taschen|baguette|piccolini|big sensation|steinofen|ofenfrische|backfrische|flammkuchen|intermezzo',t): stg='meal'  # T18: Dr. Oetker Intermezzo (TK Baguette-Snack, Thunfisch/Pesto variants) → meal; T16: TK snack pizzas/baguettes & Goldschatz fillets are meals; T17: Wagner Piccolinis/Big Sensation/Steinofen, Dr. Oetker Ofenfrische, Backfrische, Flammkuchen (pizza products without the word 'Pizza' in the name), not veg/prot
-    elif re.search(r'(leber|wurst|grammel|selchfleisch|fleisch|speck|haschee|heurigen)knödel|currywurst|curry king|thunfisch',t) and not re.search(r'mit (sauerkraut|kraut|salat|gemüse|püree)|suppe|salat|pasta|nudel|sauce|menü|pizza|piccolini|big sensation|steinofen|ristorante|bistro|baguette|intermezzo|wrap',t): stg='prot'  # sensecheck 6: Thunfisch-Wrap is a meal/snack, not a protein component
+    elif stg in('veg','side','prot') and re.search(r'strudel|pinsa|pizza|brot\b|pastasalat|nudelsalat|eiersalat|bbq salat|wrap|burger|pasta fertig|fertiggericht|gebratene nudeln|magic asia|kasnudel|käsnudel|tomaten-mozzarella-nudeln|kürbis-nudeln|meeresküche|airfryer snack|goldschatz|cashew taschen|baguette|piccolini|big sensation|steinofen|ofenfrische|backfrische|flammkuchen|intermezzo' + (r'|bratnudeln|pop-up sushi|lachs picknick|kichererbsen-tahina-salat|smashed falafel' if _sc63_top_on else ''),t): stg='meal'  # T18: Dr. Oetker Intermezzo (TK Baguette-Snack, Thunfisch/Pesto variants) → meal; T16: TK snack pizzas/baguettes & Goldschatz fillets are meals; T17: Wagner Piccolinis/Big Sensation/Steinofen, Dr. Oetker Ofenfrische, Backfrische, Flammkuchen (pizza products without the word 'Pizza' in the name), not veg/prot
+    elif re.search(r'(leber|wurst|grammel|selchfleisch|fleisch|speck|haschee|heurigen)knödel|currywurst|curry king|thunfisch',t) and not re.search(r'mit (sauerkraut|kraut|salat|gemüse|püree)|suppe|salat|pasta|nudel|sauce|menü|pizza|piccolini|big sensation|steinofen|ristorante|bistro|baguette|intermezzo|wrap' + (r'|fusilli|spaghetti|penne|tagliatelle|rigatoni|makkaroni' if _sc63_top_on else ''),t): stg='prot'  # sensecheck 6: Thunfisch-Wrap is a meal/snack, not a protein component
     elif re.search(r'knödel|kaspress',t) and not re.search(r'mit |suppe|menü|sauce',t): stg='side'
     # T20: Kärntner Kas-/Käsnudel(n) are a complete traditional dish (meal, like the rule above) — no longer demoted to 'side' when the name lacks 'Nudeln';
     #  raw-cut guard: 'gebacken' (pre-fried Putenschnitzel) and Schlemmerfilet/Bordelaise/Backfisch (oven-ready fish with topping/batter) are not raw ingredients → prot instead of base
-    elif re.search(r'ravioli|tortell|fagottini|girasoli|cappellet|gnocchi',t) and not re.search(r'pfanne|sauce|soße|carbonara|bolognese|gratin|al forno|menü|mit .*(sauce|soße)|teller|bowl',t): stg='side'
+    elif re.search(r'ravioli|tortell|fagottini|girasoli|cappellet|gnocchi',t) and not (r['pack'].startswith('Dose') if _sc63_top_on else False) and not re.search(r'pfanne|sauce|soße|carbonara|bolognese|gratin|al forno|menü|mit .*(sauce|soße)|teller|bowl' + (r'|veggie love meals|every foods|garden gnocchi|gnocchi mit (blattspinat|lachs|spargel)' if _sc63_top_on else ''),t): stg='side'
     # sensecheck 8: pure finished-meal providers (no components) — 450 g 'Spätzle Goulash'/'Garden Gnocchi'/'Peanut Noodles' are meals, not Beilage/Zutat.
     #  bofrost excluded on purpose: it also sells components (Knödel, Cevapcici, Schnitzel).
-    if (r.get('src') in ('online_mealprep.json', 'linz_providers_src.json') if _sc62_top_on else r.get('src')=='online_mealprep.json') and r.get('store') in MEALPREP_ONLY and stg in('side','base','veg','prot') and not r.get('dry') and not r.get('nonfood'): stg='meal'
+    if (r.get('src') in ('online_mealprep.json', 'linz_providers_src.json') if _sc62_top_on else r.get('src')=='online_mealprep.json') and (r.get('store') in MEALPREP_ONLY or (_sc63_top_on and (r.get('brand') or '').lower() == 'every foods')) and stg in('side','base','veg','prot') and not r.get('dry') and not r.get('nonfood'): stg='meal'
     # T18: TK fruit dumplings (Himbeer-/Heidelbeerknödel) and Milchrahmstrudel are warm desserts
     sweet=re.search(r'kaiserschmarr|germknödel|topfenstrudel|apfelstrudel|milchreis|marillenknödel|zwetschk|erdbeerknödel|topfenknödel|himbeerknödel|heidelbeerknödel|waldbeerknödel|nougatknödel|topfennockerl|apfelringe im backteig|strudel-quartett|milchrahmstrudel|mohnnudel|buchtel|palatschink|grießbrei|pudding|nougat|powidl|dessert|mehlspeis|scheiterhaufen|schoko|tiramisu|panna cotta',t)
     # hourly 2026-10-16T18: savoury filled Palatschinken (Schinken-Käse-Lauch) are a warm starter, not a dessert
@@ -507,7 +508,7 @@ def _twin_keys(r):
     nm=re.sub(r'[^a-z0-9äöüß]+','',nm); b2=re.sub(r'[^a-z0-9äöüß]+','',b)
     if b2 and len(nm)>=8: ks.add('t:'+b2+':'+nm+':'+(str(int(r['size'])) if r.get('size') else ''))
     return ks
-_XL=re.compile(r'\(\s*xl[^)]*\)|\bxl\b|\(\s*\d+[.,]?\d*\s*(g|kg)\s*\)|\(?\s*\b\d+\s*portion(en)?\b\s*\)?',re.I)  # sensecheck 52 P2: '2 Portionen' also without brackets (#432/#431)
+_XL=re.compile(r'\(\s*xl[^)]*\)|\bxl\b|\(\s*\d+[.,]?\d*\s*(g|kg)\s*\)|\(?\s*\b\d+\s*portion(en)?\b\s*\)?|\b\d+\s*(stück|stk)\b|\b\d+er[- ]?(packung|pack)\b',re.I)  # sensecheck 52 P2 / SC63 P2c: '2 Portionen' and '2 Stück' (#2670/#2416)
 def _variant_key(r):
     """review 13 F(a): provider + name without '(XL, 2 Portionen)' / '(500 g)' → one slot per dish."""
     return (r.get('store'),re.sub(r'[^a-z0-9äöüß]+','',_XL.sub(' ',(r.get('name') or '').lower())))
@@ -2215,6 +2216,370 @@ def _reconcile_sc48(out):
                                             _rltb['flags'] = (_rltb.get('flags') or []) + [f"Mahlzeit-Check: {_rsn_ltb}"]
                                         changed_uids.add(_rltb['uid'])
 
+                                # sensecheck 63 (P1b, P2b, P2c, P3.2):
+                                # 1. P1b: Rescue 29 real ready meals that were misclassified into stage in ('base', 'side', 'veg', 'prot')
+                                #    (Gnocchi & Spätzle ready meals #1489/#3054/#3015/#4005/#4025, dishes in sauce #2931/#2335/#2336/#2345/#2346,
+                                #    bofrost Chinesische Bratnudeln #2948, sushi boxes #887/#873, Bonduelle Kichererbsentopf #3356,
+                                #    NENI Kichererbsen-Tahina-Salat #3317, Ben's Original Street Food Noodle pouches #2327/#2572/#2573,
+                                #    canned Ravioli #61/#902/#958/#1586/#1763/#1781/#1823/#2005, and #3467/#3728/#3763).
+                                # 2. P2b.1: Demote 33 non-meal items with stage in ('meal', 'stew') (nonfood #321, curry spices/pastes
+                                #    #162/#207/#272/#275/#276/#277/#412, soup greens/bones #179/#250/#198/#73/#18, broth/tahina #3178/#3960,
+                                #    popcorn #316/#317/#318, Back-Camembert/Brie/Mozzarella #3923/#3623-#3626, milk desserts #3258/#3329/#3365/#3366/#3381/#3395/#3396/#3399-#3401).
+                                # 3. P2b.2: Sync all remaining stage == 'prot' rows to meal_class = 'protein_component'.
+                                # 4. P2c: Fold single-pack duplicate #2416 into 2-pack #2670 (Spar Dr. Oetker Ristorante Pizza Tonno).
+                                # 5. P3.2: Align #530 Billa Clever Lasagne Bolognese (1000 g) meal_class to 'multi_portion'.
+                                if os.environ.get('SC63_FIXES', '1') != '0' and os.environ.get('GOOD_CHOICE_DISABLE_SC63', '0') != '1':
+                                    # --- P1b.1: Gnocchi & Spätzle Ready Meals (#1489, #3054, #3015, #4005, #4025) ---
+                                    for _gn_id, _gn_por, _gn_kcal, _gn_prot, _gn_rsn in (
+                                        (1489, 450, 662, 19.8, '19.8 g Protein/Portion < 20'),
+                                        (3054, 300, 474, 12.6, '12.6 g Protein/Portion < 20'),
+                                        (3015, 300, 435, 17.1, '17.1 g Protein/Portion < 20'),
+                                        (4005, 450, 468, 15.8, '15.8 g Protein/Portion < 20'),
+                                        (4025, 500, 430, 11.0, '11.0 g Protein/Portion < 20'),
+                                    ):
+                                        _rgn = _pmm_by_id.get(_gn_id)
+                                        if _rgn is not None:
+                                            _rgn['stage'] = 'meal'
+                                            _rgn['gang'] = 'haupt'
+                                            _rgn['component'] = False
+                                            _rgn['meal_class'] = 'light_meal'
+                                            _rgn['meal_check'] = {
+                                                'portion': _gn_por, 'kcal': _gn_kcal, 'protein': _gn_prot,
+                                                'ok': False, 'cls': 'light_meal', 'reason': _gn_rsn,
+                                            }
+                                            if _gn_id == 1489:
+                                                _ep1489 = _rgn.get('pPorEff') or _rgn.get('pPor') or _rgn.get('price') or 4.99
+                                                _rgn['pPorEff'] = _ep1489
+                                                _rgn['rankable'] = False
+                                                _rgn['pli'] = None
+                                                _rgn['rankableLight'] = True
+                                                _pe1489 = min(100.0, (_gn_prot / _ep1489) * 5.0)
+                                                _rgn['pliLight'] = round(0.5 * _rgn['score'] + 0.5 * _pe1489, 1)
+                                                _rgn['rank_excluded_reason'] = f"{_gn_rsn} (Light Meal)"
+                                            changed_uids.add(_rgn['uid'])
+
+                                    # --- P1b.2: Dishes in Sauce & Bratnudeln (#2931, #2335, #2336, #2345, #2346, #2948) ---
+                                    _r2931 = _pmm_by_id.get(2931)
+                                    if _r2931 is not None:
+                                        _r2931['stage'] = 'meal'
+                                        _r2931['gang'] = 'haupt'
+                                        _r2931['component'] = False
+                                        _r2931['meal_class'] = 'light_meal'
+                                        _r2931['meal_check'] = {
+                                            'portion': 300, 'kcal': 279, 'protein': 27.3,
+                                            'ok': False, 'cls': 'light_meal', 'reason': '279 kcal/Portion < 400',
+                                        }
+                                        _r2931['flags'] = [
+                                            'Mahlzeit-Check: 279 kcal/Portion < 400' if 'Proteinkomponente' in f else f
+                                            for f in (_r2931.get('flags') or [])
+                                        ]
+                                        changed_uids.add(_r2931['uid'])
+
+                                    for _ym_billa, _ym_gurkerl, _ym_ean, _ym_kcal, _ym_prot, _ym_rsn in (
+                                        (2335, 2345, '9008615514241', 393, 33.0, '393 kcal/Portion < 400'),
+                                        (2336, 2346, '9008615514234', 360, 33.0, '360 kcal/Portion < 400'),
+                                    ):
+                                        _rb_ym = _pmm_by_id.get(_ym_billa)
+                                        _rg_ym = _pmm_by_id.get(_ym_gurkerl)
+                                        if _rb_ym is not None and _rg_ym is not None:
+                                            for _k_ym in ('sat', 'salt', 'sugar', 'fat', 'carbs', 'score', 'score_parts', 'day_pct', 'scoreV1'):
+                                                if _rb_ym.get(_k_ym) is None and _rg_ym.get(_k_ym) is not None:
+                                                    _rb_ym[_k_ym] = _rg_ym[_k_ym]
+                                            _rb_ym['ean'] = _rb_ym.get('ean') or _ym_ean
+                                            _rb_ym['incomplete'] = False
+                                            _rb_ym['alsoAt'] = sorted(list(set((_rb_ym.get('alsoAt') or []) + ['Gurkerl'])))
+                                            _rg_ym['alsoAt'] = sorted(list(set((_rg_ym.get('alsoAt') or []) + ['Billa'])))
+                                            for _rym in (_rb_ym, _rg_ym):
+                                                _rym['stage'] = 'meal'
+                                                _rym['gang'] = 'haupt'
+                                                _rym['component'] = False
+                                                _rym['meal_class'] = 'light_meal'
+                                                _rym['meal_check'] = {
+                                                    'portion': 330, 'kcal': _ym_kcal, 'protein': _ym_prot,
+                                                    'ok': False, 'cls': 'light_meal', 'reason': _ym_rsn,
+                                                }
+                                                changed_uids.add(_rym['uid'])
+                                            _ep_ym = _rb_ym.get('pPorEff') or _rb_ym.get('pPor') or _rb_ym.get('price') or 12.99
+                                            _rb_ym['pPorEff'] = _ep_ym
+                                            _rb_ym['rankable'] = False
+                                            _rb_ym['pli'] = None
+                                            _rb_ym['rankableLight'] = True
+                                            _pe_ym = min(100.0, (_ym_prot / _ep_ym) * 5.0)
+                                            _rb_ym['pliLight'] = round(0.5 * _rb_ym['score'] + 0.5 * _pe_ym, 1)
+                                            _rb_ym['rank_excluded_reason'] = f"{_ym_rsn} (Light Meal)"
+
+                                    _r2948 = _pmm_by_id.get(2948)
+                                    if _r2948 is not None:
+                                        _r2948['stage'] = 'meal'
+                                        _r2948['gang'] = 'haupt'
+                                        _r2948['component'] = False
+                                        _r2948['meal_class'] = 'light_meal'
+                                        _r2948['meal_check'] = {
+                                            'portion': 333, 'kcal': 360, 'protein': 10.3,
+                                            'ok': False, 'cls': 'light_meal', 'reason': '360 kcal/Portion < 400',
+                                        }
+                                        _ep2948 = _r2948.get('pPorEff') or _r2948.get('pPor') or 3.99
+                                        _r2948['pPorEff'] = _ep2948
+                                        _r2948['rankable'] = False
+                                        _r2948['pli'] = None
+                                        _r2948['rankableLight'] = True
+                                        _pe2948 = min(100.0, (10.3 / _ep2948) * 5.0)
+                                        _r2948['pliLight'] = round(0.5 * _r2948['score'] + 0.5 * _pe2948, 1)
+                                        _r2948['rank_excluded_reason'] = '360 kcal/Portion < 400 (Light Meal)'
+                                        changed_uids.add(_r2948['uid'])
+
+                                    # --- P1b.3: Sushi Boxes, Stews, Salads, Pouches & Canned Ravioli ---
+                                    _r887 = _pmm_by_id.get(887)
+                                    if _r887 is not None:
+                                        _r887['stage'] = 'meal'
+                                        _r887['gang'] = 'haupt'
+                                        _r887['component'] = False
+                                        _r887['meal_class'] = 'light_meal'
+                                        _r887['meal_check'] = {
+                                            'portion': 245, 'kcal': 375, 'protein': 15.2,
+                                            'ok': False, 'cls': 'light_meal', 'reason': '375 kcal/Portion < 400',
+                                        }
+                                        _ep887 = _r887.get('pPorEff') or _r887.get('pPor') or _r887.get('price') or 8.99
+                                        _r887['pPorEff'] = _ep887
+                                        _r887['rankable'] = False
+                                        _r887['pli'] = None
+                                        _r887['rankableLight'] = True
+                                        _pe887 = min(100.0, (15.2 / _ep887) * 5.0)
+                                        _r887['pliLight'] = round(0.5 * _r887['score'] + 0.5 * _pe887, 1)
+                                        _r887['rank_excluded_reason'] = '375 kcal/Portion < 400 (Light Meal)'
+                                        changed_uids.add(_r887['uid'])
+
+                                    _r873 = _pmm_by_id.get(873)
+                                    if _r873 is not None:
+                                        _r873['stage'] = 'meal'
+                                        _r873['gang'] = 'haupt'
+                                        _r873['component'] = False
+                                        _r873['meal_class'] = 'meal'
+                                        _r873['meal_check'] = {
+                                            'portion': 330, 'kcal': 502, 'protein': 24.1,
+                                            'ok': True, 'cls': 'meal', 'reason': None,
+                                        }
+                                        _r873['rankable'] = False
+                                        _r873['rankableLight'] = False
+                                        _r873['rank_excluded_reason'] = 'Gesundheits-Score unter 30 (26.0)'
+                                        changed_uids.add(_r873['uid'])
+
+                                    _r3356 = _pmm_by_id.get(3356)
+                                    if _r3356 is not None:
+                                        _r3356['stage'] = 'stew'
+                                        _r3356['gang'] = 'haupt'
+                                        _r3356['component'] = False
+                                        _r3356['meal_class'] = 'light_meal'
+                                        _r3356['meal_check'] = {
+                                            'portion': 400, 'kcal': 312, 'protein': 16.8,
+                                            'ok': False, 'cls': 'light_meal', 'reason': '312 kcal/Portion < 400',
+                                        }
+                                        changed_uids.add(_r3356['uid'])
+
+                                    _r3317 = _pmm_by_id.get(3317)
+                                    if _r3317 is not None:
+                                        _r3317['stage'] = 'meal'
+                                        _r3317['gang'] = 'haupt'
+                                        _r3317['component'] = False
+                                        _r3317['meal_class'] = 'light_meal'
+                                        _r3317['meal_check'] = {
+                                            'portion': 200, 'kcal': 446, 'protein': 17.0,
+                                            'ok': False, 'cls': 'light_meal', 'reason': '17.0 g Protein/Portion < 20',
+                                        }
+                                        changed_uids.add(_r3317['uid'])
+
+                                    for _bens_id in (2327, 2572, 2573):
+                                        _rbens = _pmm_by_id.get(_bens_id)
+                                        if _rbens is not None:
+                                            _rbens['stage'] = 'meal'
+                                            _rbens['gang'] = 'haupt'
+                                            _rbens['component'] = False
+                                            _rbens['dry'] = False
+                                            _rbens['pack'] = 'Beutel/Standbeutel'
+                                            _rbens['meal_class'] = 'light_meal'
+                                            _k_b = int(round(_rbens.get('kcalPor') or 0))
+                                            _p_b = float(_rbens.get('protPor') or 0)
+                                            _rsn_b = f"{_k_b} kcal/Portion < 400" if _k_b < 400 else f"{_p_b} g Protein/Portion < 20"
+                                            _rbens['meal_check'] = {
+                                                'portion': int(_rbens.get('portion') or 250),
+                                                'kcal': _k_b, 'protein': _p_b,
+                                                'ok': False, 'cls': 'light_meal', 'reason': _rsn_b,
+                                            }
+                                            _rbens['flags'] = [
+                                                f for f in (_rbens.get('flags') or [])
+                                                if 'Trockenprodukt' not in f
+                                            ]
+                                            changed_uids.add(_rbens['uid'])
+
+                                    for _rav_id in (61, 902, 958, 1586, 1763, 1781, 1823, 2005):
+                                        _rrav = _pmm_by_id.get(_rav_id)
+                                        if _rrav is not None:
+                                            _rrav['stage'] = 'meal'
+                                            _rrav['gang'] = 'haupt'
+                                            _rrav['component'] = False
+                                            _rrav['meal_class'] = 'light_meal'
+                                            _mc_rav = dict(_rrav.get('meal_check') or {})
+                                            _mc_rav['ok'] = False
+                                            _mc_rav['cls'] = 'light_meal'
+                                            if _rav_id == 958:
+                                                _mc_rav['reason'] = '15.2 g Protein/Portion < 20'
+                                            elif not _mc_rav.get('reason') or 'Beilage/Komponente' in str(_mc_rav.get('reason')):
+                                                _k_r = int(round(_rrav.get('kcalPor') or 0))
+                                                _p_r = float(_rrav.get('protPor') or 0)
+                                                _mc_rav['reason'] = f"{_k_r} kcal/Portion < 400" if _k_r < 400 else f"{_p_r} g Protein/Portion < 20"
+                                            _rrav['meal_check'] = _mc_rav
+                                            changed_uids.add(_rrav['uid'])
+
+                                    for _prot_meal_id, _pm_mc in ((3467, 'meal'), (3728, 'light_meal'), (3763, 'light_meal')):
+                                        _rpm = _pmm_by_id.get(_prot_meal_id)
+                                        if _rpm is not None:
+                                            _rpm['stage'] = 'meal'
+                                            _rpm['gang'] = 'haupt'
+                                            _rpm['component'] = False
+                                            _rpm['meal_class'] = _pm_mc
+                                            _mc_pm = dict(_rpm.get('meal_check') or {})
+                                            _mc_pm['cls'] = _pm_mc
+                                            if _mc_pm.get('reason'):
+                                                _mc_pm['reason'] = str(_mc_pm['reason']).replace(' Proteinkomponente (keine vollständige Mahlzeit)', '').strip() or None
+                                            _rpm['meal_check'] = _mc_pm
+                                            _rpm['flags'] = [
+                                                f.replace(' Proteinkomponente (keine vollständige Mahlzeit)', '')
+                                                for f in (_rpm.get('flags') or [])
+                                            ]
+                                            changed_uids.add(_rpm['uid'])
+
+                                    # --- P2b.1: Demote Non-Food, Curry Spices, Soup Greens/Bones, Popcorn, Tahina, Back-Camembert & Desserts ---
+                                    _r321 = _pmm_by_id.get(321)
+                                    if _r321 is not None:
+                                        _r321['nonfood'] = True
+                                        _r321['stage'] = 'base'
+                                        _r321['gang'] = 'zutat'
+                                        _r321['component'] = True
+                                        _r321['meal_class'] = 'raw_ingredient'
+                                        _r321['meal_check'] = {'ok': False, 'cls': 'raw_ingredient', 'reason': 'Kein Lebensmittel (Non-Food)'}
+                                        changed_uids.add(_r321['uid'])
+
+                                    for _sp_id in (162, 207, 272, 275, 276, 277, 412):
+                                        _rsp = _pmm_by_id.get(_sp_id)
+                                        if _rsp is not None:
+                                            _rsp['stage'] = 'base'
+                                            _rsp['gang'] = 'zutat'
+                                            _rsp['component'] = True
+                                            _rsp['dry'] = True
+                                            _rsp['meal_class'] = 'dry'
+                                            _rsp['meal_check'] = {'ok': False, 'cls': 'dry', 'reason': 'Gewürz/Currypaste (kein Fertiggericht)'}
+                                            changed_uids.add(_rsp['uid'])
+
+                                    for _sg_id in (179, 250, 198, 73, 18):
+                                        _rsg = _pmm_by_id.get(_sg_id)
+                                        if _rsg is not None:
+                                            _rsg['stage'] = 'base'
+                                            _rsg['gang'] = 'zutat'
+                                            _rsg['component'] = True
+                                            _rsg['meal_class'] = 'raw_ingredient'
+                                            _rsg['meal_check'] = {'ok': False, 'cls': 'raw_ingredient', 'reason': 'Rohzutat / Suppengemüse / Suppenfleisch (kein Fertiggericht)'}
+                                            changed_uids.add(_rsg['uid'])
+
+                                    for _cb_id in (3178, 3960):
+                                        _rcb = _pmm_by_id.get(_cb_id)
+                                        if _rcb is not None:
+                                            _rcb['stage'] = 'base'
+                                            _rcb['gang'] = 'zutat'
+                                            _rcb['component'] = True
+                                            _rcb['meal_class'] = 'condiment_or_base'
+                                            _rcb['meal_check'] = {'ok': False, 'cls': 'condiment_or_base', 'reason': 'Basis/Zutat (kein Fertiggericht)'}
+                                            changed_uids.add(_rcb['uid'])
+
+                                    for _pop_id in (316, 317, 318):
+                                        _rpop = _pmm_by_id.get(_pop_id)
+                                        if _rpop is not None:
+                                            _rpop['stage'] = 'side'
+                                            _rpop['gang'] = 'snack'
+                                            _rpop['component'] = True
+                                            _rpop['meal_class'] = 'snack_side'
+                                            _rpop['meal_check'] = {'ok': False, 'cls': 'snack_side', 'reason': 'Snack (kein Hauptgericht)'}
+                                            changed_uids.add(_rpop['uid'])
+
+                                    for _bc_id in (3923, 3623, 3624, 3625, 3626):
+                                        _rbc = _pmm_by_id.get(_bc_id)
+                                        if _rbc is not None:
+                                            _rbc['stage'] = 'prot'
+                                            _rbc['gang'] = 'haupt'
+                                            _rbc['component'] = True
+                                            _rbc['meal_class'] = 'protein_component'
+                                            _rbc['meal_check'] = {'ok': False, 'cls': 'protein_component', 'reason': 'Proteinkomponente/Snack ohne Beilage'}
+                                            changed_uids.add(_rbc['uid'])
+
+                                    for _des_id in (3258, 3329, 3399, 3400, 3401, 3365, 3366, 3381, 3395, 3396):
+                                        _rdes = _pmm_by_id.get(_des_id)
+                                        if _rdes is not None:
+                                            _rdes['gang'] = 'dessert'
+                                            _rdes['meal_class'] = 'dessert'
+                                            _rdes['component'] = False
+                                            _rdes['rankable'] = False
+                                            _rdes['rankableLight'] = False
+                                            _rdes['pli'] = None
+                                            _rdes['pliLight'] = None
+                                            _mc_des = dict(_rdes.get('meal_check') or {})
+                                            _mc_des['ok'] = False
+                                            _mc_des['cls'] = 'dessert'
+                                            _mc_des['reason'] = 'Dessert/Süßspeise (kein Hauptgericht)'
+                                            _rdes['meal_check'] = _mc_des
+                                            changed_uids.add(_rdes['uid'])
+
+                                    # --- P2b.2: Sync all remaining stage == 'prot' rows with meal_class = 'protein_component' ---
+                                    for _r_prot in rows:
+                                        if _r_prot.get('stage') == 'prot':
+                                            _mod_prot = False
+                                            if not _r_prot.get('component'):
+                                                _r_prot['component'] = True
+                                                _mod_prot = True
+                                            if _r_prot.get('meal_class') not in ('raw_ingredient', 'dry', 'baby', 'dessert', 'protein_component'):
+                                                _r_prot['meal_class'] = 'protein_component'
+                                                _mod_prot = True
+                                            _mc_p = dict(_r_prot.get('meal_check') or {})
+                                            _tgt_p_cls = _r_prot.get('meal_class')
+                                            _tgt_p_rsn = _mc_p.get('reason') or 'Proteinkomponente (keine vollständige Mahlzeit)'
+                                            if _mc_p.get('ok') is not False or _mc_p.get('cls') != _tgt_p_cls or _mc_p.get('reason') != _tgt_p_rsn:
+                                                _mc_p['ok'] = False
+                                                _mc_p['cls'] = _tgt_p_cls
+                                                _mc_p['reason'] = _tgt_p_rsn
+                                                _r_prot['meal_check'] = _mc_p
+                                                _mod_prot = True
+                                            if _r_prot.get('rankable') or _r_prot.get('rankableLight') or _r_prot.get('pli') is not None or _r_prot.get('pliLight') is not None:
+                                                _r_prot['rankable'] = False
+                                                _r_prot['rankableLight'] = False
+                                                _r_prot['pli'] = None
+                                                _r_prot['pliLight'] = None
+                                                _mod_prot = True
+                                            if _mod_prot:
+                                                changed_uids.add(_r_prot['uid'])
+
+                                    # --- P2c: Multi-Pack vs Single-Pack Duplicate (#2670 vs #2416 Spar Dr. Oetker Ristorante Pizza Tonno) ---
+                                    _r2670 = _pmm_by_id.get(2670)
+                                    _r2416 = _pmm_by_id.get(2416)
+                                    if _r2670 is not None and _r2416 is not None:
+                                        _r2670['variant_note'] = 'auch als Einzelpackung (355 g)'
+                                        _r2670['variantIds'] = [2416]
+                                        _r2416['rankable'] = False
+                                        _r2416['pli'] = None
+                                        _r2416['badge'] = None
+                                        _r2416['rank_excluded_reason'] = 'Duplikat (nahe Name/Marke, Ranking)'
+                                        if 'Duplikat (nahe Name/Marke, Ranking)' not in (_r2416.get('flags') or []):
+                                            _r2416['flags'] = (_r2416.get('flags') or []) + ['Duplikat (nahe Name/Marke, Ranking)']
+                                        changed_uids.add(_r2670['uid'])
+                                        changed_uids.add(_r2416['uid'])
+
+                                    # --- P3.2: #530 Billa Clever Lasagne Bolognese (1000 g) -> meal_class = 'multi_portion' ---
+                                    _r530 = _pmm_by_id.get(530)
+                                    if _r530 is not None:
+                                        _r530['meal_class'] = 'multi_portion'
+                                        _mc530 = dict(_r530.get('meal_check') or {})
+                                        _mc530['ok'] = False
+                                        _mc530['cls'] = 'multi_portion'
+                                        _r530['meal_check'] = _mc530
+                                        changed_uids.add(_r530['uid'])
+
     # Check latest online_availability_*.json
     av_files = sorted(glob.glob(os.path.join(base_dir, 'analysis/online_availability_*.json')))
     if os.environ.get('GOOD_CHOICE_AVAILABILITY'):  # sensecheck 52 P1: tests pin the snapshot the canonical baseline was built from
@@ -2334,6 +2699,12 @@ def _reconcile_sc48(out):
         # (filtering the 30-entry uncapped list shrank topPLI to 20). Proven identical to 2484311 when nothing changed.
         def _cap_for(st):
             return cap_ship if st in ship_box_stores else cap_prov
+        global _XL
+        _sc63_xl_on = _sc54_pmm_on and os.environ.get('SC63_FIXES', '1') != '0' and os.environ.get('GOOD_CHOICE_DISABLE_SC63', '0') != '1'
+        if _sc63_xl_on:
+            _XL = re.compile(r'\(\s*xl[^)]*\)|\bxl\b|\(\s*\d+[.,]?\d*\s*(g|kg)\s*\)|\(?\s*\b\d+\s*portion(en)?\b\s*\)?|\b\d+\s*(stück|stk)\b|\b\d+er[- ]?(packung|pack)\b', re.I)
+        else:
+            _XL = re.compile(r'\(\s*xl[^)]*\)|\bxl\b|\(\s*\d+[.,]?\d*\s*(g|kg)\s*\)|\(?\s*\b\d+\s*portion(en)?\b\s*\)?', re.I)
         crow = [{**r, 'variantIds': list(r['variantIds'])} if 'variantIds' in r else dict(r) for r in rows]  # sensecheck 51: no shared variantIds mutation
         _base = lambda r: r.get('rankable') and not r.get('sold_out') and r.get('gang') != 'vorspeise'
         for key, flt, fn in (
