@@ -107,6 +107,7 @@ except Exception as _e: print('shipping load failed',_e)
 SHIP.setdefault('PrepMyMeal',5.99)
 _NOSHIP=set()
 MEALPREP_ONLY={'PrepMyMeal','Juit','every.','LiveFresh','FitTaste','Fit to Go','Löwenanteil','Kernbeißer','Goldblatt','iss mich!'}
+_sc62_top_on = os.environ.get('SC62_FIXES', '1') != '0' and os.environ.get('GOOD_CHOICE_DISABLE_SC62', '0') != '1'
 for r in R:
     t=(r['name']+' '+r['brand']).lower()
     ps=[n for n,i,p in PROT if re.search(p,t)]
@@ -117,7 +118,8 @@ for r in R:
     r['cprot']=list(dict.fromkeys(ps)); r['cdish']=list(dict.fromkeys(ds))
     hasMit=re.search(r'\bmit\b|&| und |menü|teller|pfanne|bowl|lasagne|curry|gulasch|risotto',t)
     t=re.sub(r'mit haut|ohne haut|mit knochen|ohne knochen','',t)
-    raw=re.search(r'faschiert|hackfleisch|\bhack\b|filet|brust|keule|unterkeul|oberkeul|flügel|wings|steak|schnitzel|leber|gulaschfleisch|geschnetzeltes|würfel|minute|ganzes|ganzer|hendl\b|hähnchen|kotelett|karree|schopf|bauch|lachs|forelle|garnelen|shrimps|kabeljau|seelachs|zander|saibling|thunfisch.*steak',t) and not re.search(r'gegart|gebraten|gebacken|schlemmerfilet|bordelaise|backfisch|backteig|paniert|gegrillt|mariniert|sous|knusper|nugget|backhendl|cordon|fertig|gekocht|geräuchert|räucher|mit |sauce|soße|in |menü|curry|gulasch\b|suppe|topf|salat|knödel|reis|bowl|wrap|sandwich|pizza|burger|stäbchen|sticks|chili|bbq|grill|pulled|rahm|natur\*pur bio hendl mini|pasta|spaghetti|penne|tagliatelle|pappardelle|linguine|fusilli|rigatoni|makkaroni|nudel|gnocchi|tortell|ravioli',t) and not r['pack'].startswith('Dose')
+    _raw_not_re = r'gegart|gebraten|gebacken|schlemmerfilet|bordelaise|backfisch|backteig|paniert|gegrillt|mariniert|sous|knusper|nugget|backhendl|cordon|fertig|gekocht|geräuchert|räucher|mit |sauce|soße|in |menü|curry|gulasch\b|suppe|topf|salat|knödel|reis|bowl|wrap|sandwich|pizza|burger|stäbchen|sticks|chili|bbq|grill|pulled|rahm|natur\*pur bio hendl mini|pasta|spaghetti|penne|tagliatelle|pappardelle|linguine|fusilli|rigatoni|makkaroni|nudel|gnocchi|tortell|ravioli' + (r'|lasagne|auflauf|gratin|tikka|mediterran' if _sc62_top_on else '')
+    raw=re.search(r'faschiert|hackfleisch|\bhack\b|filet|brust|keule|unterkeul|oberkeul|flügel|wings|steak|schnitzel|leber|gulaschfleisch|geschnetzeltes|würfel|minute|ganzes|ganzer|hendl\b|hähnchen|kotelett|karree|schopf|bauch|lachs|forelle|garnelen|shrimps|kabeljau|seelachs|zander|saibling|thunfisch.*steak',t) and not re.search(_raw_not_re,t) and not r['pack'].startswith('Dose')
     if raw or ((r.get('kcal') or 0)>=300 and re.search(r'suppe|nudel|pulver|teigwar|einlage|abc|sternderl|gerstl|hörnchen|fadennudel|buchstaben|instant|terrine|cup|reis\b|couscous|bulgur|polenta|grieß',t) and (r.get('fat') or 0)<15) or re.search(r'barilla lasagne|collezione lasagne|recheis lasagne|lasagne hartweizen|glutenfreie lasagne|lasagneblätter|lasagne-?platten',t) or ('lasagne' in t and (r.get('kcal') or 0)>=300): stg='base'
     elif re.search(r'erdbeer|marillen|zwetschk|nougat|germknödel|topfenknödel|mehlspeis|kaiserschmarr|powidl|mohn|vanille|schoko',t): stg='base'
     elif r.get('dry') or re.search(r'sauce|soße|fix\b|fix |pesto|gewürz|würfel|pulver|bouillon|fond|dressing|mehl|paniermehl|brühe(?!.*einlage)',t) and not re.search(r'suppe|topf|\bin \w*(sauce|soße)|mit \w*(sauce|soße)|\bpizza\b|ristorante|intermezzo|tradizionale|ravioli|tortell|nudel|spaghetti|cannelloni|gnocchi|reis|fleisch|würstel|huhn|hendl|rind',t): stg='base'
@@ -141,7 +143,7 @@ for r in R:
     elif re.search(r'ravioli|tortell|fagottini|girasoli|cappellet|gnocchi',t) and not re.search(r'pfanne|sauce|soße|carbonara|bolognese|gratin|al forno|menü|mit .*(sauce|soße)|teller|bowl',t): stg='side'
     # sensecheck 8: pure finished-meal providers (no components) — 450 g 'Spätzle Goulash'/'Garden Gnocchi'/'Peanut Noodles' are meals, not Beilage/Zutat.
     #  bofrost excluded on purpose: it also sells components (Knödel, Cevapcici, Schnitzel).
-    if r.get('src')=='online_mealprep.json' and r.get('store') in MEALPREP_ONLY and stg in('side','base','veg','prot') and not r.get('dry') and not r.get('nonfood'): stg='meal'
+    if (r.get('src') in ('online_mealprep.json', 'linz_providers_src.json') if _sc62_top_on else r.get('src')=='online_mealprep.json') and r.get('store') in MEALPREP_ONLY and stg in('side','base','veg','prot') and not r.get('dry') and not r.get('nonfood'): stg='meal'
     # T18: TK fruit dumplings (Himbeer-/Heidelbeerknödel) and Milchrahmstrudel are warm desserts
     sweet=re.search(r'kaiserschmarr|germknödel|topfenstrudel|apfelstrudel|milchreis|marillenknödel|zwetschk|erdbeerknödel|topfenknödel|himbeerknödel|heidelbeerknödel|waldbeerknödel|nougatknödel|topfennockerl|apfelringe im backteig|strudel-quartett|milchrahmstrudel|mohnnudel|buchtel|palatschink|grießbrei|pudding|nougat|powidl|dessert|mehlspeis|scheiterhaufen|schoko|tiramisu|panna cotta',t)
     # hourly 2026-10-16T18: savoury filled Palatschinken (Schinken-Käse-Lauch) are a warm starter, not a dessert
@@ -1650,6 +1652,568 @@ def _reconcile_sc48(out):
                                 if 'Mahlzeit-Check: 376 kcal/Portion < 400' not in _r2727['flags']:
                                     _r2727['flags'].append('Mahlzeit-Check: 376 kcal/Portion < 400')
                                 changed_uids.add(_r2727['uid'])
+
+                            # sensecheck 62: P1 (P1b + P1a), P2 (P2a + P2b), P3 data hygiene & verified supermarket nutrition backfills
+                            if os.environ.get('SC62_FIXES', '1') != '0' and os.environ.get('GOOD_CHOICE_DISABLE_SC62', '0') != '1':
+                                # --- Step A: P1b – Rescue real complete meals misclassified in stage in ('base', 'side', 'veg') BEFORE P1a ---
+                                # 1. Upgrade non-ranked or already-scored real meals in ('base', 'side', 'veg') to stage='meal', gang='haupt', component=False
+                                for _p1b_id in (
+                                    23, 35, 561, 1484, 1723, 1755, 1783, 1788, 1797, 1847, 1891, 2119, 2314, 2317,
+                                    2404, 2585, 2586, 3037, 3050, 3062, 3313, 3660, 3662, 3668, 3672,
+                                    3752, 3753, 3756, 3757, 3764, 3952, 3973,
+                                ):
+                                    _rp1b = _pmm_by_id.get(_p1b_id)
+                                    if _rp1b is not None:
+                                        _rp1b['stage'] = 'meal'
+                                        _rp1b['gang'] = 'haupt'
+                                        _rp1b['component'] = False
+                                        changed_uids.add(_rp1b['uid'])
+
+                                # 2. Full meals rescued by P1b that now qualify for rankable=True:
+                                # #23 [Billa] Iglo Lachs-Spinat-Lasagne (330 g, 4.99 €, 521 kcal, 23.8 g P, score 41.1)
+                                # #3050 [bofrost] Lachs-Lasagne (800 g, por 400 g, pPorEff 8.0 €, 620 kcal, 31.6 g P, score 33.0)
+                                # #3668 [FitTaste] hähnchen tikka masala (380 g, 8.99 €, pPorEff 10.49 €, 414 kcal, 38.0 g P, score 52.0)
+                                # #3037 [bofrost] Moussaka Kartoffelauflauf (800 g, por 400 g, pPorEff 8.24 €, 432 kcal, 23.6 g P, score 46.1)
+                                for _p1b_rk_id in (23, 1484, 3050, 3668, 3037):
+                                    _rk = _pmm_by_id.get(_p1b_rk_id)
+                                    if _rk is not None:
+                                        _ep_rk = _rk.get('pPorEff') or _rk.get('pPor') or _rk.get('price')
+                                        _rk['pPorEff'] = _ep_rk
+                                        _rk['rankable'] = True
+                                        _rk['rankableLight'] = False
+                                        _rk['rank_excluded_reason'] = None
+                                        _pe_rk = min(100.0, (_rk['protPor'] / _ep_rk) * 5.0)
+                                        _rk['pli'] = round(0.5 * _rk['score'] + 0.5 * _pe_rk, 1)
+                                        changed_uids.add(_rk['uid'])
+
+                                # 3. Light meals rescued by P1b that qualify for rankableLight=True:
+                                # #3660 [FitTaste] hähnchen mediterran (342 kcal, 28.9 g P, score 43.7, pPorEff 10.49)
+                                # #3662 [FitTaste] hähnchengeschnetzeltes (289 kcal, 31.5 g P, score 50.2, pPorEff 10.49)
+                                # #3672 [FitTaste] hähnchen kürbis-erdnuss (342 kcal, 28.1 g P, score 52.3, pPorEff 10.49)
+                                # #35 [Billa] Schär glutenfreie Lasagne (384 kcal, 15.6 g P, score 38.8, pPor 5.19)
+                                # #2119 [Billa] Iglo Fisch'n"Rösti (322 kcal, 16.5 g P, score 41.6, pPor 3.25)
+                                for _p1b_lt_id in (3660, 3662, 3672, 35, 2119):
+                                    _rlt = _pmm_by_id.get(_p1b_lt_id)
+                                    if _rlt is not None:
+                                        _ep_lt = _rlt.get('pPorEff') or _rlt.get('pPor') or _rlt.get('price')
+                                        _rlt['pPorEff'] = _ep_lt
+                                        _rlt['rankable'] = False
+                                        _rlt['pli'] = None
+                                        _rlt['rankableLight'] = True
+                                        _pe_lt = min(100.0, (_rlt['protPor'] / _ep_lt) * 5.0)
+                                        _rlt['pliLight'] = round(0.5 * _rlt['score'] + 0.5 * _pe_lt, 1)
+                                        _mc_rsn = (_rlt.get('meal_check') or {}).get('reason') or f"{int(_rlt['kcalPor'])} kcal/Portion < 400"
+                                        _rlt['rank_excluded_reason'] = f"{_mc_rsn} (Light Meal)"
+                                        changed_uids.add(_rlt['uid'])
+
+                                # #561 [Billa] BILLA Spinat Cannelloni (400 g, 3.19 €, 708 kcal, 23.6 g P, score 22.6 < 30)
+                                _r561 = _pmm_by_id.get(561)
+                                if _r561 is not None:
+                                    _r561['rankable'] = False
+                                    _r561['pli'] = None
+                                    _r561['rank_excluded_reason'] = 'Gesundheits-Score unter 30 (22.6)'
+                                    changed_uids.add(_r561['uid'])
+
+                                # --- Step B: P2a & P2b – Linz complete meals falsely blocked as component=True or multi_portion (SC61 §3.2) ---
+                                # P2a-1: #922 Billa & #2777 Spar Inzersdorfer Champignonschnitzerl mit Gemüsereis (380 g, 5.99 €)
+                                _r922 = _pmm_by_id.get(922)
+                                _r2777 = _pmm_by_id.get(2777)
+                                if _r2777 is not None and _r922 is not None:
+                                    for _k2777 in ('kcal', 'p100', 'fat', 'sat', 'carbs', 'sugar', 'fib', 'salt', 'p100k', 'kcalpack', 'protpack', 'kcalPor', 'protPor', 'saltPor', 'saltPct', 'kcal_meal', 'score', 'score_parts', 'day_pct', 'scoreV1'):
+                                        _r2777[_k2777] = _r922.get(_k2777)
+                                    _r2777['priceOnly'] = False
+                                    _r2777['incomplete'] = False
+                                    _r2777['nutrition_source'] = 'https://www.inzersdorfer.at/produkte/champignonschnitzerl-mit-gemuesereis/ & Billa-Zwilling #922 (380 g)'
+                                    _pr2777_c = _r2777.get('price') or 5.99
+                                    _r2777['pPor'] = _pr2777_c
+                                    _r2777['pPorEff'] = _pr2777_c
+                                    _r2777['ppe'] = round(20.9 / _pr2777_c, 1)
+                                    _r2777['eur10p'] = round(_pr2777_c / 2.09, 2)
+                                    _r2777['eur100k'] = round(_pr2777_c / 4.18, 2)
+                                    _r922['alsoAt'] = sorted(list(set((_r922.get('alsoAt') or []) + ['Spar'])))
+                                    _r2777['alsoAt'] = sorted(list(set((_r2777.get('alsoAt') or []) + ['Billa'])))
+                                    changed_uids.add(_r2777['uid'])
+
+                                # P2a-2: Full complete meals upgraded from component=True -> rankable=True
+                                # #626 [Billa] Omis Schmankerl Kalbsbutterschnitzel mit Erdäpfelpüree (330 g, 3.79 €, 412 kcal, 31.4 g P, score 45.8, pli 43.6)
+                                # #938 [Billa] Inzersdorfer Zwiebelrindsbraten mit Hörnchen (380 g, 5.99 €, 452 kcal, 24.7 g P, score 34.5, pli 27.6)
+                                # #922 [Billa] & #2777 [Spar] Inzersdorfer Champignonschnitzel mit Gemüsereis (380 g, 5.99 €, 418 kcal, 20.9 g P, score 30.1, pli 23.8)
+                                # #400 [Billa] Iglo Faschierte Laibchen mit Erdäpfelpüree (350 g, 7.19 €, 448 kcal, 26.2 g P, score 42.5, pli 30.4)
+                                # #598 [Billa] BILLA Backhendl Bowl (340 g, 7.99 €, 493 kcal, 34.0 g P, score 36.7, pli 29.0)
+                                # #3151 [Goldblatt] Chili con Tempeh (500 g, 11.99 €, pPorEff 12.99 €, 485 kcal, 35.0 g P, score 58.4, pli 35.9)
+                                for _p2a_id, _p2a_stg in (
+                                    (626, 'meal'), (938, 'meal'), (922, 'meal'), (2777, 'meal'),
+                                    (400, 'meal'), (598, 'meal'), (3151, 'stew'),
+                                ):
+                                    _rp2a = _pmm_by_id.get(_p2a_id)
+                                    if _rp2a is not None:
+                                        _rp2a['stage'] = _p2a_stg
+                                        _rp2a['gang'] = 'haupt'
+                                        _rp2a['component'] = False
+                                        _rp2a['meal_class'] = 'meal'
+                                        _por_p2a = int(_rp2a.get('portion') or _rp2a.get('size') or 400)
+                                        _rp2a['portion'] = _por_p2a
+                                        _rp2a['portion_g'] = _por_p2a
+                                        _rp2a['meal_check'] = {
+                                            'portion': _por_p2a,
+                                            'kcal': int(round(_rp2a['kcalPor'])),
+                                            'protein': float(_rp2a['protPor']),
+                                            'ok': True,
+                                            'cls': 'meal',
+                                            'reason': None,
+                                        }
+                                        _rp2a['flags'] = [
+                                            f for f in (_rp2a.get('flags') or [])
+                                            if 'Proteinkomponente' not in f and 'Score unvollständig' not in f and 'Nährwerte fehlen' not in f
+                                        ]
+                                        _ep_p2a = _rp2a.get('pPorEff') or _rp2a.get('pPor') or _rp2a.get('price')
+                                        _rp2a['pPorEff'] = _ep_p2a
+                                        _rp2a['rankable'] = True
+                                        _rp2a['rankableLight'] = False
+                                        _rp2a['rank_excluded_reason'] = None
+                                        _pe_p2a = min(100.0, (_rp2a['protPor'] / _ep_p2a) * 5.0)
+                                        _rp2a['pli'] = round(0.5 * _rp2a['score'] + 0.5 * _pe_p2a, 1)
+                                        changed_uids.add(_rp2a['uid'])
+
+                                # P2a-3: Light complete meals upgraded from component=True -> rankableLight=True
+                                # #612 [Billa] Omis Schmankerl Cevapcici Letscho (360 g, 2.69 €, 446 kcal, 19.8 g P, score 35.1, pliLight 36.0)
+                                # #614 [Billa] Omis Schmankerl Surbraten mit Knödel (330 g, 5.29 €, 396 kcal, 25.1 g P, score 32.3, pliLight 28.0)
+                                # #605 [Billa] Simply Good Kichererbsencurry mit Tofu (370 g, 6.99 €, 485 kcal, 18.1 g P, score 35.0, pliLight 24.0)
+                                for _p2l_id, _p2l_rsn in (
+                                    (612, '19.8 g Protein/Portion < 20'),
+                                    (614, '396 kcal/Portion < 400'),
+                                    (605, '18.1 g Protein/Portion < 20'),
+                                ):
+                                    _rp2l = _pmm_by_id.get(_p2l_id)
+                                    if _rp2l is not None:
+                                        _rp2l['stage'] = 'meal'
+                                        _rp2l['gang'] = 'haupt'
+                                        _rp2l['component'] = False
+                                        _rp2l['meal_class'] = 'light_meal'
+                                        _por_p2l = int(_rp2l.get('portion') or _rp2l.get('size') or 350)
+                                        _rp2l['portion'] = _por_p2l
+                                        _rp2l['portion_g'] = _por_p2l
+                                        _rp2l['meal_check'] = {
+                                            'portion': _por_p2l,
+                                            'kcal': int(round(_rp2l['kcalPor'])),
+                                            'protein': float(_rp2l['protPor']),
+                                            'ok': False,
+                                            'cls': 'light_meal',
+                                            'reason': _p2l_rsn,
+                                        }
+                                        _rp2l['flags'] = [f"Mahlzeit-Check: {_p2l_rsn}"]
+                                        _ep_p2l = _rp2l.get('pPorEff') or _rp2l.get('pPor') or _rp2l.get('price')
+                                        _rp2l['pPorEff'] = _ep_p2l
+                                        _rp2l['rankable'] = False
+                                        _rp2l['pli'] = None
+                                        _rp2l['rankableLight'] = True
+                                        _pe_p2l = min(100.0, (_rp2l['protPor'] / _ep_p2l) * 5.0)
+                                        _rp2l['pliLight'] = round(0.5 * _rp2l['score'] + 0.5 * _pe_p2l, 1)
+                                        _rp2l['rank_excluded_reason'] = f"{_p2l_rsn} (Light Meal)"
+                                        changed_uids.add(_rp2l['uid'])
+
+                                # P2b-1: #495 Spar & #1033 Billa Inzersdorfer Linsen mit Speck (800 g, 2 Portionen à 400 g)
+                                _r1033 = _pmm_by_id.get(1033)
+                                _r495 = _pmm_by_id.get(495)
+                                if _r495 is not None and _r1033 is not None:
+                                    for _k495 in ('kcal', 'p100', 'fat', 'sat', 'carbs', 'sugar', 'fib', 'salt', 'p100k', 'kcalpack', 'protpack', 'kcalPor', 'protPor', 'saltPor', 'saltPct', 'score', 'score_parts', 'day_pct', 'scoreV1'):
+                                        _r495[_k495] = _r1033.get(_k495)
+                                    _r495['priceOnly'] = False
+                                    _r495['incomplete'] = False
+                                    _r495['nutrition_source'] = 'https://www.inzersdorfer.at/produkte/linsen-mit-speck-800g/ & Billa-800g-Zwilling #1033'
+                                    _pr495 = _r495.get('price') or 5.49
+                                    _r495['ppe'] = round(44.0 / _pr495, 1)
+                                    _r495['eur10p'] = round(_pr495 / 4.4, 2)
+                                    _r495['eur100k'] = round(_pr495 / 10.56, 2)
+                                    _r1033['alsoAt'] = sorted(list(set((_r1033.get('alsoAt') or []) + ['Spar'])))
+                                    _r495['alsoAt'] = sorted(list(set((_r495.get('alsoAt') or []) + ['Billa'])))
+                                    changed_uids.add(_r495['uid'])
+
+                                # P2b-2: Set 400 g portion (2 Portionen) on #1033, #495, #2257, #1031, #395, #397
+                                for _p2b_id, _p2b_psrc in (
+                                    (1033, 'name_portions'), (495, 'name_portions'),
+                                    (2257, 'pack_2portions'), (1031, 'pack_2portions'),
+                                    (395, 'pack_2portions'), (397, 'pack_2portions'),
+                                ):
+                                    _rp2b = _pmm_by_id.get(_p2b_id)
+                                    if _rp2b is not None:
+                                        _rp2b['stage'] = 'stew'
+                                        _rp2b['gang'] = 'haupt'
+                                        _rp2b['component'] = False
+                                        _rp2b['portion'] = 400
+                                        _rp2b['portion_g'] = 400
+                                        _rp2b['portion_source'] = _p2b_psrc
+                                        _pr_p2b = _rp2b.get('price') or 6.49
+                                        _rp2b['pPor'] = round(_pr_p2b / 2.0, 2)
+                                        _rp2b['pPorEff'] = _rp2b['pPor']
+                                        _rp2b['kcal_meal'] = int(round(_rp2b['kcalPor']))
+                                        _rp2b['meal_class'] = 'meal'
+                                        _rp2b['meal_check'] = {
+                                            'portion': 400,
+                                            'kcal': int(round(_rp2b['kcalPor'])),
+                                            'protein': float(_rp2b['protPor']),
+                                            'ok': True,
+                                            'cls': 'meal',
+                                            'reason': None,
+                                        }
+                                        _rp2b['flags'] = [
+                                            f for f in (_rp2b.get('flags') or [])
+                                            if 'Mehrportionen-Packung' not in f and 'Score unvollständig' not in f and 'Nährwerte fehlen' not in f
+                                        ]
+                                        _rp2b['rankable'] = True
+                                        _rp2b['rankableLight'] = False
+                                        _rp2b['rank_excluded_reason'] = None
+                                        _pe_p2b = min(100.0, (_rp2b['protPor'] / _rp2b['pPorEff']) * 5.0)
+                                        _rp2b['pli'] = round(0.5 * _rp2b['score'] + 0.5 * _pe_p2b, 1)
+                                        changed_uids.add(_rp2b['uid'])
+
+                                # Cross-store duplicate demotion on Billa #1031 (twin of Spar #2257, same price 6.49 €, same score 38.5; Spar #2257 has EAN 9000295832349)
+                                _r2257_c = _pmm_by_id.get(2257)
+                                _r1031_c = _pmm_by_id.get(1031)
+                                if _r2257_c is not None and _r1031_c is not None:
+                                    _r1031_c['rankable'] = False
+                                    _r1031_c['pli'] = None
+                                    _r1031_c['rank_excluded_reason'] = 'Duplikat (nahe Name/Marke, Ranking)'
+                                    if 'Duplikat (nahe Name/Marke, Ranking)' not in (_r1031_c.get('flags') or []):
+                                        _r1031_c['flags'] = (_r1031_c.get('flags') or []) + ['Duplikat (nahe Name/Marke, Ranking)']
+                                    changed_uids.add(_r1031_c['uid'])
+
+                                # --- Step C: P1a – Sync all remaining stage in ('base', 'side', 'veg') rows ---
+                                for _r_p1a in rows:
+                                    _stg_p1a = _r_p1a.get('stage')
+                                    if _stg_p1a in ('base', 'side', 'veg'):
+                                        _mod_p1a = False
+                                        if not _r_p1a.get('component'):
+                                            _r_p1a['component'] = True
+                                            _mod_p1a = True
+                                        _cur_mc = _r_p1a.get('meal_class')
+                                        if _cur_mc not in ('dry', 'baby', 'drink', 'dessert'):
+                                            _tgt_mc = 'raw_ingredient' if _stg_p1a == 'base' else 'snack_side'
+                                            if _cur_mc != _tgt_mc:
+                                                _r_p1a['meal_class'] = _tgt_mc
+                                                _mod_p1a = True
+                                        _mc_dict = dict(_r_p1a.get('meal_check') or {})
+                                        _tgt_cls = _r_p1a.get('meal_class')
+                                        _tgt_rsn = _mc_dict.get('reason') or ('Rohzutat (kein Fertiggericht)' if _stg_p1a == 'base' else 'Beilage/Komponente (keine vollständige Mahlzeit)')
+                                        if _mc_dict.get('ok') is not False or _mc_dict.get('cls') != _tgt_cls or _mc_dict.get('reason') != _tgt_rsn:
+                                            _mc_dict['ok'] = False
+                                            _mc_dict['cls'] = _tgt_cls
+                                            _mc_dict['reason'] = _tgt_rsn
+                                            _r_p1a['meal_check'] = _mc_dict
+                                            _mod_p1a = True
+                                        if _r_p1a.get('rankable') or _r_p1a.get('rankableLight') or _r_p1a.get('pli') is not None or _r_p1a.get('pliLight') is not None:
+                                            _r_p1a['rankable'] = False
+                                            _r_p1a['rankableLight'] = False
+                                            _r_p1a['pli'] = None
+                                            _r_p1a['pliLight'] = None
+                                            _mod_p1a = True
+                                        if _mod_p1a:
+                                            changed_uids.add(_r_p1a['uid'])
+
+                                # --- Step D: P3 Data Hygiene & Verified Supermarket Nutrition Backfills ---
+                                # P3-1: #2878 [LiveFresh] Tikka Masala – Vegane Bowl (400 g) fat: 0.5 -> 5.0 (Atwater 4*7.5 + 9*5.0 + 4*12.0 = 123 kcal ~ 128 kcal, sat=1.1 <= 5.0)
+                                _r2878 = _pmm_by_id.get(2878)
+                                if _r2878 is not None:
+                                    _r2878['fat'] = 5.0
+                                    if 'nut_flag' in _r2878:
+                                        _r2878['nut_flag'] = None
+                                    changed_uids.add(_r2878['uid'])
+
+                                # P3-2: Gurkerl / OFF 10x decimal-shift fixes (#3265, #3282, #3317, #3357, #810, #833, #3470, #1426)
+                                for _d10_id, _d10_upd in (
+                                    (3265, {'p100': 4.4, 'fat': 8.6, 'sat': 0.7, 'sugar': 1.0, 'fib': 2.4, 'salt': 1.0, 'p100k': 2.44}),
+                                    (3282, {'p100': 4.1, 'fat': 7.7, 'sat': 0.7, 'sugar': 5.8, 'fib': 1.5, 'salt': 1.5, 'p100k': 2.61}),
+                                    (3317, {'p100': 8.5, 'sat': 2.6, 'carbs': 7.9, 'sugar': 0.5, 'fib': 5.3, 'salt': 0.97, 'p100k': 3.81}),
+                                    (3357, {'sugar': 1.19, 'salt': 1.45}),
+                                    (810,  {'salt': 1.07}),
+                                    (833,  {'salt': 1.28}),
+                                    (3470, {'salt': 1.28}),
+                                    (1426, {'salt': 1.3}),
+                                ):
+                                    _rd10 = _pmm_by_id.get(_d10_id)
+                                    if _rd10 is not None:
+                                        for _k10, _v10 in _d10_upd.items():
+                                            _rd10[_k10] = _v10
+                                        _sz10 = _rd10.get('size')
+                                        _por10 = _rd10.get('portion') or _sz10
+                                        if _sz10 and _rd10.get('p100') is not None:
+                                            _rd10['protpack'] = round(_rd10['p100'] * _sz10 / 100.0, 1)
+                                        if _por10 and _rd10.get('p100') is not None:
+                                            _rd10['protPor'] = round(_rd10['p100'] * _por10 / 100.0, 1)
+                                        if _por10 and _rd10.get('salt') is not None:
+                                            _rd10['saltPor'] = round(_rd10['salt'] * _por10 / 100.0, 2)
+                                            _rd10['saltPct'] = round(_rd10['saltPor'] / 6.0 * 100)
+                                        if _rd10.get('price') and _rd10.get('protpack'):
+                                            _rd10['ppe'] = round(_rd10['protpack'] / _rd10['price'], 1)
+                                            _rd10['eur10p'] = round(_rd10['price'] / (_rd10['protpack'] / 10.0), 2)
+                                        _xd10 = {
+                                            'name': _rd10.get('name'), 'size_g': _sz10, 'packaging': _rd10.get('pack'),
+                                            'kcal_100': _rd10.get('kcal'), 'protein_100': _rd10.get('p100'), 'fat_100': _rd10.get('fat'),
+                                            'satfat_100': _rd10.get('sat'), 'carbs_100': _rd10.get('carbs'), 'sugar_100': _rd10.get('sugar'),
+                                            'fiber_100': _rd10.get('fib'), 'salt_100': _rd10.get('salt'), 'ingredients': _rd10.get('ing'),
+                                            'store': _rd10.get('store'),
+                                        }
+                                        _vd10 = V2.score_v2(_xd10)
+                                        _rd10['score'] = _vd10.get('health_score')
+                                        _rd10['score_parts'] = _vd10.get('score_parts')
+                                        _rd10['day_pct'] = _vd10.get('day_pct')
+                                        _rd10['flags'] = [f for f in (_rd10.get('flags') or []) if 'Großpackung (>100 g Protein/Pkg)' not in f]
+                                        if _d10_id in (3265, 3282, 3317) and _por10:
+                                            _k_d10 = int(round(_rd10['kcalPor']))
+                                            _p_d10 = float(_rd10['protPor'])
+                                            _rsn_d10 = f"{_k_d10} kcal/Portion < 400" if _k_d10 >= 300 else f"{_k_d10} kcal/Portion – Snack/Beilage"
+                                            _rd10['meal_check'] = {'portion': int(_por10), 'kcal': _k_d10, 'protein': _p_d10, 'ok': False, 'cls': 'snack_side', 'reason': _rsn_d10}
+                                        changed_uids.add(_rd10['uid'])
+
+                                # P3-3: Dry soup cubes (#199, #246, #1379) -> meal_class='dry'
+                                for _dry_id in (199, 246, 1379):
+                                    _rdry = _pmm_by_id.get(_dry_id)
+                                    if _rdry is not None:
+                                        _rdry['meal_class'] = 'dry'
+                                        _mcdry = dict(_rdry.get('meal_check') or {})
+                                        _mcdry['ok'] = False
+                                        _mcdry['cls'] = 'dry'
+                                        _mcdry['reason'] = 'Trockenprodukt/Pulver (Nährwerte unzubereitet)'
+                                        _rdry['meal_check'] = _mcdry
+                                        changed_uids.add(_rdry['uid'])
+
+                                # P3-4: Verified Supermarket Nutrition Backfills
+                                # (a) #453 Spar Youcook Tikka Huhn India Style (420 g, 4.99 €) from #1830 MPreis / #3322 Gurkerl (EAN 4260334165042)
+                                _r453 = _pmm_by_id.get(453)
+                                _r1830 = _pmm_by_id.get(1830)
+                                _r3322 = _pmm_by_id.get(3322)
+                                if _r453 is not None and _r1830 is not None:
+                                    for _k453 in ('ean', 'kcal', 'p100', 'fat', 'sat', 'carbs', 'sugar', 'fib', 'salt', 'p100k', 'kcalpack', 'protpack', 'kcalPor', 'protPor', 'saltPor', 'saltPct', 'kcal_meal', 'veg_pct', 'veg_source', 'nova', 'nova_source', 'score', 'score_parts', 'day_pct', 'scoreV1'):
+                                        if _r1830.get(_k453) is not None:
+                                            _r453[_k453] = _r1830[_k453]
+                                    _r453['priceOnly'] = False
+                                    _r453['incomplete'] = False
+                                    _r453['nutrition_source'] = 'Youcook Indian Style Chicken Tikka (EAN 4260334165042, Zwilling #1830/#3322)'
+                                    _pr453 = _r453.get('price') or 4.99
+                                    _r453['pPor'] = _pr453
+                                    _r453['pPorEff'] = _pr453
+                                    _r453['ppe'] = round(29.0 / _pr453, 1)
+                                    _r453['eur10p'] = round(_pr453 / 2.9, 2)
+                                    _r453['eur100k'] = round(_pr453 / 5.42, 2)
+                                    _r453['stage'] = 'meal'
+                                    _r453['gang'] = 'haupt'
+                                    _r453['component'] = False
+                                    _r453['meal_class'] = 'meal'
+                                    _r453['meal_check'] = {'portion': 420, 'kcal': 542, 'protein': 29.0, 'ok': True, 'cls': 'meal', 'reason': None}
+                                    _r453['flags'] = []
+                                    _r453['rankable'] = True
+                                    _r453['rankableLight'] = False
+                                    _r453['rank_excluded_reason'] = None
+                                    _pe453 = min(100.0, (29.0 / _pr453) * 5.0)
+                                    _r453['pli'] = round(0.5 * _r453['score'] + 0.5 * _pe453, 1)
+                                    _r453['alsoAt'] = ['Gurkerl', 'MPreis']
+                                    if _r1830 is not None:
+                                        _r1830['alsoAt'] = sorted(list(set((_r1830.get('alsoAt') or []) + ['Spar'])))
+                                    if _r3322 is not None:
+                                        _r3322['alsoAt'] = sorted(list(set((_r3322.get('alsoAt') or []) + ['Spar'])))
+                                    changed_uids.add(_r453['uid'])
+
+                                # (b) #2663 Spar Inzersdorfer Bohnensuppe (400 g, 2.99 €) sat/salt from #101 (800 g twin) & inzersdorfer.at
+                                _r2663 = _pmm_by_id.get(2663)
+                                _r101 = _pmm_by_id.get(101)
+                                if _r2663 is not None and _r101 is not None:
+                                    _r2663['sat'] = 1.4
+                                    _r2663['salt'] = 1.2
+                                    _r2663['saltPor'] = 4.8
+                                    _r2663['saltPct'] = 80
+                                    _r2663['incomplete'] = False
+                                    _r2663['score'] = _r101.get('score')  # 32.7
+                                    _r2663['score_parts'] = dict(_r101.get('score_parts') or {})
+                                    _r2663['day_pct'] = {'kcal': 22, 'protein': 36, 'salt': 80, 'satfat': 28, 'sugar': 5, 'fiber': None}
+                                    _r2663['flags'] = [f for f in (_r2663.get('flags') or []) if 'Score unvollständig' not in f]
+                                    _r2663['nutrition_source'] = 'https://www.inzersdorfer.at/produkte/bohnensuppe/ & Billa-Zwilling #101'
+                                    changed_uids.add(_r2663['uid'])
+
+                                # (c) #496 Spar Inzersdorfer Paprikahendl (400 g, 5.29 €) sat/salt from inzersdorfer.at
+                                _r496 = _pmm_by_id.get(496)
+                                if _r496 is not None:
+                                    _r496['sat'] = 1.3
+                                    _r496['salt'] = 1.8
+                                    _r496['saltPor'] = 7.2
+                                    _r496['saltPct'] = 120
+                                    _r496['incomplete'] = False
+                                    _x496 = {
+                                        'name': _r496.get('name'), 'size_g': 400.0, 'packaging': _r496.get('pack'),
+                                        'kcal_100': 93.0, 'protein_100': 7.5, 'fat_100': 4.9,
+                                        'satfat_100': 1.3, 'carbs_100': 4.4, 'sugar_100': 2.0,
+                                        'fiber_100': None, 'salt_100': 1.8, 'store': 'Spar',
+                                    }
+                                    _v496 = V2.score_v2(_x496)
+                                    _r496['score'] = _v496.get('health_score')
+                                    _r496['score_parts'] = _v496.get('score_parts')
+                                    _r496['day_pct'] = _v496.get('day_pct')
+                                    _r496['flags'] = [f for f in (_r496.get('flags') or []) if 'Score unvollständig' not in f]
+                                    _r496['nutrition_source'] = 'https://www.inzersdorfer.at/produkte/paprikahendl/ (EAN 9002600632699)'
+                                    changed_uids.add(_r496['uid'])
+
+                                # (d) #102 Spar Inzersdorfer Suppentopf Bohnensuppe 12 Portionen (2900 g, 14.99 €) from inzersdorfer.at
+                                _r102 = _pmm_by_id.get(102)
+                                if _r102 is not None:
+                                    _r102['kcal'] = 122.0
+                                    _r102['p100'] = 4.4
+                                    _r102['fat'] = 6.8
+                                    _r102['sat'] = 2.3
+                                    _r102['carbs'] = 9.2
+                                    _r102['sugar'] = 1.1
+                                    _r102['salt'] = 1.1
+                                    _r102['p100k'] = round(4.4 / 122.0 * 100, 2)
+                                    _r102['kcalpack'] = 3538.0
+                                    _r102['protpack'] = 127.6
+                                    _r102['portion'] = 242
+                                    _r102['portion_g'] = 242
+                                    _r102['portion_source'] = 'name_portions'
+                                    _r102['kcalPor'] = 295.0
+                                    _r102['kcal_meal'] = 295
+                                    _r102['protPor'] = 10.6
+                                    _r102['saltPor'] = 2.66
+                                    _r102['saltPct'] = 44
+                                    _pr102 = _r102.get('price') or 14.99
+                                    _r102['pPor'] = round(_pr102 / 12.0, 2)
+                                    _r102['pPorEff'] = _r102['pPor']
+                                    _r102['ppe'] = round(127.6 / _pr102, 1)
+                                    _r102['eur10p'] = round(_pr102 / 12.76, 2)
+                                    _r102['eur100k'] = round(_pr102 / 35.38, 2)
+                                    _r102['priceOnly'] = False
+                                    _r102['incomplete'] = False
+                                    _r102['nutrition_source'] = 'https://www.inzersdorfer.at/produkte/bohnensuppe-2900g/'
+                                    _x102 = {
+                                        'name': _r102.get('name'), 'size_g': 2900.0, 'packaging': _r102.get('pack'),
+                                        'kcal_100': 122.0, 'protein_100': 4.4, 'fat_100': 6.8,
+                                        'satfat_100': 2.3, 'carbs_100': 9.2, 'sugar_100': 1.1,
+                                        'fiber_100': None, 'salt_100': 1.1, 'store': 'Spar',
+                                    }
+                                    _v102 = V2.score_v2(_x102)
+                                    _r102['score'] = _v102.get('health_score')
+                                    _r102['score_parts'] = _v102.get('score_parts')
+                                    _r102['day_pct'] = _v102.get('day_pct')
+                                    _r102['meal_class'] = 'snack_side'
+                                    _r102['meal_check'] = {'portion': 242, 'kcal': 295, 'protein': 10.6, 'ok': False, 'cls': 'snack_side', 'reason': '295 kcal/Portion – Snack/Beilage'}
+                                    _r102['flags'] = ['Mahlzeit-Check: 295 kcal/Portion – Snack/Beilage']
+                                    changed_uids.add(_r102['uid'])
+
+                                # (e) Cross-store & same-store twin nutrition backfills
+                                # Format: (target_id, donor_id, hide_donor_dupOf)
+                                for _bf_tid, _bf_did, _bf_hide_donor in (
+                                    (212, 1471, True),
+                                    (1087, 185, True),
+                                    (1091, 240, True),
+                                    (1092, 237, True),
+                                    (235, 3411, True),
+                                    (236, 3439, True),
+                                    (1125, 1370, True),
+                                    (51, 390, False),
+                                    (52, 391, False),
+                                    (2660, 1979, False),
+                                    (2765, 2418, False),
+                                    (502, 1995, False),
+                                    (2750, 925, False),
+                                    (2761, 940, False),
+                                    (121, 1003, False),
+                                    (2762, 1658, False),
+                                    (3492, 1982, False),
+                                    (3493, 1981, False),
+                                    (3494, 1983, False),
+                                ):
+                                    _rt = _pmm_by_id.get(_bf_tid)
+                                    _rd = _pmm_by_id.get(_bf_did)
+                                    if _rt is not None and _rd is not None:
+                                        for _kbf in ('kcal', 'p100', 'fat', 'sat', 'carbs', 'sugar', 'fib', 'salt', 'p100k', 'score', 'score_parts', 'day_pct', 'scoreV1', 'dry', 'nutrition_basis'):
+                                            if _rd.get(_kbf) is not None:
+                                                _rt[_kbf] = _rd[_kbf]
+                                        if not _rt.get('size') and _rd.get('size'):
+                                            _rt['size'] = _rd['size']
+                                            if _rt.get('price') and _rt['size']:
+                                                _rt['ppk'] = round(_rt['price'] / _rt['size'] * 1000.0, 2)
+                                                _rt['p100g'] = round(_rt['price'] / _rt['size'] * 100.0, 2)
+                                        _szt = _rt.get('size')
+                                        _port = _rt.get('portion') or _rd.get('portion') or _szt
+                                        _rt['portion'] = _port
+                                        _rt['portion_g'] = _rd.get('portion_g') or _port
+                                        if _szt and _rt.get('kcal') is not None:
+                                            _rt['kcalpack'] = round(_rt['kcal'] * _szt / 100.0, 1)
+                                        if _szt and _rt.get('p100') is not None:
+                                            _rt['protpack'] = round(_rt['p100'] * _szt / 100.0, 1)
+                                        if _port and _rt.get('kcal') is not None:
+                                            _rt['kcalPor'] = round(_rt['kcal'] * _port / 100.0, 1)
+                                            _rt['kcal_meal'] = int(round(_rt['kcalPor']))
+                                        if _port and _rt.get('p100') is not None:
+                                            _rt['protPor'] = round(_rt['p100'] * _port / 100.0, 1)
+                                        if _port and _rt.get('salt') is not None:
+                                            _rt['saltPor'] = round(_rt['salt'] * _port / 100.0, 2)
+                                            _rt['saltPct'] = round(_rt['saltPor'] / 6.0 * 100)
+                                        if _rt.get('price') and _rt.get('protpack'):
+                                            _rt['ppe'] = round(_rt['protpack'] / _rt['price'], 1)
+                                            _rt['eur10p'] = round(_rt['price'] / (_rt['protpack'] / 10.0), 2)
+                                        if _rt.get('price') and _rt.get('kcalpack'):
+                                            _rt['eur100k'] = round(_rt['price'] / (_rt['kcalpack'] / 100.0), 2)
+                                        _rt['priceOnly'] = False
+                                        _rt['incomplete'] = False
+                                        _rt['nutrition_source'] = _rd.get('nutrition_source') or f"Zwilling #{_bf_did} ({_rd.get('store')})"
+                                        if _rt.get('stage') not in ('base', 'side', 'veg'):
+                                            _rt['meal_class'] = _rd.get('meal_class')
+                                            _rt['meal_check'] = dict(_rd.get('meal_check') or {})
+                                        else:
+                                            # Keep P1a invariants on stage='base' rows (#502, #2750, #2761, #121, #2762, #3492-3494)
+                                            if _rt.get('dry'):
+                                                _rt['meal_class'] = 'dry'
+                                                _rt['meal_check'] = {'portion': _port, 'kcal': _rt.get('kcal_meal'), 'protein': _rt.get('protPor'), 'ok': False, 'cls': 'dry', 'reason': 'Trockenprodukt/Pulver (Nährwerte unzubereitet)'}
+                                            else:
+                                                _rt['meal_class'] = 'raw_ingredient'
+                                                _rt['meal_check'] = {'portion': _port, 'kcal': _rt.get('kcal_meal'), 'protein': _rt.get('protPor'), 'ok': False, 'cls': 'raw_ingredient', 'reason': 'Rohzutat (kein Fertiggericht)'}
+                                        _rt['flags'] = [
+                                            f for f in (_rt.get('flags') or [])
+                                            if 'Score unvollständig' not in f and 'Nährwerte fehlen' not in f
+                                        ]
+                                        if _bf_hide_donor:
+                                            _rd['dupOf'] = _bf_tid
+                                            _rd['dupOfUid'] = _rt.get('uid')
+                                            _rd['rankable'] = False
+                                            _rd['rankableLight'] = False
+                                            _rd['pli'] = None
+                                            _rd['pliLight'] = None
+                                            changed_uids.add(_rd['uid'])
+                                        else:
+                                            if _rt.get('store') != _rd.get('store'):
+                                                _rt['alsoAt'] = sorted(list(set((_rt.get('alsoAt') or []) + [_rd['store']])))
+                                                _rd['alsoAt'] = sorted(list(set((_rd.get('alsoAt') or []) + [_rt['store']])))
+                                                changed_uids.add(_rd['uid'])
+                                        changed_uids.add(_rt['uid'])
+
+                                # #1399 Billa Gemüsecreme Suppe (duplicate of #1005 Billa Knorr Keiserteller Gemüsecreme Suppe)
+                                _r1399 = _pmm_by_id.get(1399)
+                                _r1005 = _pmm_by_id.get(1005)
+                                if _r1399 is not None and _r1005 is not None:
+                                    for _k1399 in ('kcal', 'p100', 'fat', 'sat', 'carbs', 'sugar', 'fib', 'salt', 'p100k', 'kcalpack', 'protpack', 'kcalPor', 'protPor', 'saltPor', 'saltPct', 'kcal_meal', 'score', 'score_parts', 'day_pct', 'scoreV1'):
+                                        if _r1005.get(_k1399) is not None:
+                                            _r1399[_k1399] = _r1005[_k1399]
+                                    _r1399['priceOnly'] = False
+                                    _r1399['incomplete'] = False
+                                    _r1399['dupOf'] = 1005
+                                    _r1399['dupOfUid'] = _r1005.get('uid')
+                                    _r1399['flags'] = [f for f in (_r1399.get('flags') or []) if 'Score unvollständig' not in f and 'Nährwerte fehlen' not in f]
+                                    changed_uids.add(_r1399['uid'])
+
+                                # Light meals unlocked by twin nutrition backfill (#1091, #51, #52)
+                                for _lt_bf_id in (1091, 51, 52):
+                                    _rltb = _pmm_by_id.get(_lt_bf_id)
+                                    if _rltb is not None and _rltb.get('score') is not None and _rltb.get('protPor') and _rltb.get('price'):
+                                        _ep_ltb = _rltb.get('pPorEff') or _rltb.get('pPor') or _rltb.get('price')
+                                        _rltb['pPorEff'] = _ep_ltb
+                                        _rltb['rankable'] = False
+                                        _rltb['pli'] = None
+                                        _rltb['rankableLight'] = True
+                                        _pe_ltb = min(100.0, (_rltb['protPor'] / _ep_ltb) * 5.0)
+                                        _rltb['pliLight'] = round(0.5 * _rltb['score'] + 0.5 * _pe_ltb, 1)
+                                        _rsn_ltb = (_rltb.get('meal_check') or {}).get('reason') or f"{int(_rltb['kcalPor'])} kcal/Portion < 400"
+                                        _rltb['rank_excluded_reason'] = f"{_rsn_ltb} (Light Meal)"
+                                        if f"Mahlzeit-Check: {_rsn_ltb}" not in (_rltb.get('flags') or []):
+                                            _rltb['flags'] = (_rltb.get('flags') or []) + [f"Mahlzeit-Check: {_rsn_ltb}"]
+                                        changed_uids.add(_rltb['uid'])
 
     # Check latest online_availability_*.json
     av_files = sorted(glob.glob(os.path.join(base_dir, 'analysis/online_availability_*.json')))

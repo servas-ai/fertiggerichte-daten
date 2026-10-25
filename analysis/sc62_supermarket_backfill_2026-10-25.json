@@ -1,0 +1,243 @@
+{
+  "sensecheck": 62,
+  "date": "2026-10-25",
+  "baseline_dataVersion": "b5508366fdef",
+  "sc62_dataVersion": "4644adb26ffa",
+  "rankable_before": 169,
+  "rankable_after": 187,
+  "rankableLight_before": 94,
+  "rankableLight_after": 105,
+  "records": [
+    {
+      "id": 23,
+      "store": "Billa",
+      "name": "Iglo Lachs-Spinat-Lasagne",
+      "category": "P1b",
+      "action": "stage: base -> meal, rankable: True, pli: 32.5"
+    },
+    {
+      "id": 3050,
+      "store": "bofrost",
+      "name": "Lachs-Lasagne",
+      "category": "P1b",
+      "action": "stage: base -> meal, rankable: True, pli: 26.4"
+    },
+    {
+      "id": 3668,
+      "store": "FitTaste",
+      "name": "hähnchen tikka masala",
+      "category": "P1b",
+      "action": "stage: base -> meal, rankable: True, pli: 35.1"
+    },
+    {
+      "id": 3037,
+      "store": "bofrost",
+      "name": "Moussaka Kartoffelauflauf",
+      "category": "P1b",
+      "action": "stage: side -> meal, rankable: True, pli: 30.2"
+    },
+    {
+      "id": 3660,
+      "store": "FitTaste",
+      "name": "hähnchen mediterran",
+      "category": "P1b",
+      "action": "stage: base -> meal, rankableLight: True, pliLight: 28.7"
+    },
+    {
+      "id": 3662,
+      "store": "FitTaste",
+      "name": "hähnchengeschnetzeltes",
+      "category": "P1b",
+      "action": "stage: base -> meal, rankableLight: True, pliLight: 32.6"
+    },
+    {
+      "id": 3672,
+      "store": "FitTaste",
+      "name": "hähnchen kürbis-erdnuss",
+      "category": "P1b",
+      "action": "stage: base -> meal, rankableLight: True, pliLight: 32.8"
+    },
+    {
+      "id": 35,
+      "store": "Billa",
+      "name": "Schär glutenfreie Lasagne",
+      "category": "P1b",
+      "action": "stage: base -> meal, rankableLight: True, pliLight: 26.9"
+    },
+    {
+      "id": 2119,
+      "store": "Billa",
+      "name": "Iglo Fisch'n\"Rösti",
+      "category": "P1b",
+      "action": "stage: side -> meal, rankableLight: True, pliLight: 33.5"
+    },
+    {
+      "id": 561,
+      "store": "Billa",
+      "name": "BILLA Spinat Cannelloni",
+      "category": "P1b",
+      "action": "stage: veg -> meal, score 22.6 < 30"
+    },
+    {
+      "id": 626,
+      "store": "Billa",
+      "name": "Omis Schmankerl Kalbsbutterschnitzel",
+      "category": "P2a",
+      "action": "component: False, stage: meal, rankable: True, pli: 43.6"
+    },
+    {
+      "id": 938,
+      "store": "Billa",
+      "name": "Inzersdorfer Zwiebelrindsbraten",
+      "category": "P2a",
+      "action": "component: False, stage: meal, rankable: True, pli: 27.6"
+    },
+    {
+      "id": 922,
+      "store": "Billa",
+      "name": "Inzersdorfer Champignonschnitzel",
+      "category": "P2a",
+      "action": "component: False, stage: meal, rankable: True, pli: 23.8"
+    },
+    {
+      "id": 2777,
+      "store": "Spar",
+      "name": "Inzersdorfer Champignonschnitzerl mit Gemüsereis",
+      "category": "P2a",
+      "action": "backfilled from #922, component: False, stage: meal, rankable: True, pli: 23.8"
+    },
+    {
+      "id": 400,
+      "store": "Billa",
+      "name": "Iglo Faschierte Laibchen",
+      "category": "P2a",
+      "action": "component: False, stage: meal, rankable: True, pli: 30.4"
+    },
+    {
+      "id": 598,
+      "store": "Billa",
+      "name": "BILLA Backhendl Bowl",
+      "category": "P2a",
+      "action": "component: False, stage: meal, rankable: True, pli: 29.0"
+    },
+    {
+      "id": 3151,
+      "store": "Goldblatt",
+      "name": "Chili con Tempeh",
+      "category": "P2a",
+      "action": "component: False, stage: stew, rankable: True, pli: 35.9"
+    },
+    {
+      "id": 612,
+      "store": "Billa",
+      "name": "Omis Schmankerl Cevapcici Letscho",
+      "category": "P2a",
+      "action": "component: False, stage: meal, rankableLight: True, pliLight: 36.0"
+    },
+    {
+      "id": 614,
+      "store": "Billa",
+      "name": "Omis Schmankerl Surbraten",
+      "category": "P2a",
+      "action": "component: False, stage: meal, rankableLight: True, pliLight: 28.0"
+    },
+    {
+      "id": 605,
+      "store": "Billa",
+      "name": "Simply Good Kichererbsencurry mit Tofu",
+      "category": "P2a",
+      "action": "component: False, stage: meal, rankableLight: True, pliLight: 24.0"
+    },
+    {
+      "id": 495,
+      "store": "Spar",
+      "name": "Inzersdorfer Linsen mit Speck 2 Portionen",
+      "category": "P2b",
+      "action": "backfilled from #1033, portion: 400, rankable: True, pli: 37.0"
+    },
+    {
+      "id": 1033,
+      "store": "Billa",
+      "name": "Inzersdorfer Linsen mit Speck",
+      "category": "P2b",
+      "action": "portion: 400, rankable: True, pli: 35.3"
+    },
+    {
+      "id": 2257,
+      "store": "Spar",
+      "name": "Felix Linsen im Speck",
+      "category": "P2b",
+      "action": "portion: 400, rankable: True, pli: 37.4"
+    },
+    {
+      "id": 1031,
+      "store": "Billa",
+      "name": "Felix Linsen mit Speck",
+      "category": "P2b",
+      "action": "portion: 400, meal_class: meal, cross-store dup of #2257"
+    },
+    {
+      "id": 395,
+      "store": "Billa",
+      "name": "Felix Chili Con Carne",
+      "category": "P2b",
+      "action": "portion: 400, rankable: True, pli: 34.4"
+    },
+    {
+      "id": 397,
+      "store": "Billa",
+      "name": "Felix Höllenfeuer Chili Con Carne",
+      "category": "P2b",
+      "action": "portion: 400, rankable: True, pli: 36.1"
+    },
+    {
+      "id": 453,
+      "store": "Spar",
+      "name": "Youcook Tikka Huhn India Style",
+      "category": "Backfill",
+      "action": "backfilled from #1830/#3322 (EAN 4260334165042), rankable: True, pli: 31.9"
+    },
+    {
+      "id": 2663,
+      "store": "Spar",
+      "name": "Inzersdorfer Bohnensuppe",
+      "category": "Backfill",
+      "action": "sat: 1.4, salt: 1.2 from #101 & inzersdorfer.at, score: 32.7"
+    },
+    {
+      "id": 496,
+      "store": "Spar",
+      "name": "Inzersdorfer Paprikahendl",
+      "category": "Backfill",
+      "action": "sat: 1.3, salt: 1.8 from inzersdorfer.at, score: 35.1"
+    },
+    {
+      "id": 102,
+      "store": "Spar",
+      "name": "Inzersdorfer Suppentopf Bohnensuppe 12 Portionen",
+      "category": "Backfill",
+      "action": "nutrition from inzersdorfer.at, score: 28.7"
+    },
+    {
+      "id": 1091,
+      "store": "Spar",
+      "name": "Süsskartoffel- Eintopf Vegan",
+      "category": "Backfill",
+      "action": "backfilled from #240, rankableLight: True, pliLight: 18.9"
+    },
+    {
+      "id": 51,
+      "store": "Spar",
+      "name": "BEN’s ORIGINAL Express Risotto Hühnchen Pilze",
+      "category": "Backfill",
+      "action": "backfilled from #390, rankableLight: True, pliLight: 25.5"
+    },
+    {
+      "id": 52,
+      "store": "Spar",
+      "name": "BEN’s ORIGINAL Express Risotto Tomaten & italienische Kräuter",
+      "category": "Backfill",
+      "action": "backfilled from #391, rankableLight: True, pliLight: 23.3"
+    }
+  ]
+}

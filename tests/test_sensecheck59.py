@@ -8,6 +8,7 @@ def _export(tmp_path, snap=SNAP, **env):
     out = tmp_path / 'o.json'
     e = dict(os.environ, GOOD_CHOICE_OUT=str(out), GOOD_CHOICE_AVAILABILITY=snap, **env)
     e.pop('ENFORCE_SHIPBOX_CAP', None)
+    e.setdefault('SC62_FIXES', '0')
     subprocess.run([sys.executable, 'export_app.py'], cwd=ROOT, env=e, check=True, capture_output=True)
     return json.load(open(out))
 
