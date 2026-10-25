@@ -1,0 +1,45 @@
+[
+ {
+  "source": "dm",
+  "store": "dm",
+  "name": "followfood Suppe Bio Kartoffel & Petersilie",
+  "brand": "followfood",
+  "price_eur": 2.95,
+  "unit_price_eur": 7.87,
+  "unit": "kg",
+  "size_g": 375.0,
+  "nutrition_100g": {
+   "kcal": 50.0,
+   "fat": 1.4,
+   "satfat": 0.2,
+   "carbs": 7.4,
+   "sugar": 1.5,
+   "fiber": 0.9,
+   "protein": 1.0,
+   "salt": 1.0
+  },
+  "ean": "4260655551180",
+  "image_url": "https://products.dm-static.com/images/f_auto,q_auto,c_fit,h_440,w_500/v1747493948/assets/pas/images/e48392b8-26cf-4096-a3dc-b82a4accc590/followfood-suppe-bio-kartoffel-und-petersilie",
+  "producer": "followfood GmbH",
+  "producer_id": null,
+  "origin": null,
+  "category": "Ernährung > Fertiggerichte & Konserven > Suppen & Eintöpfe",
+  "source_url": "https://www.dm.at/p/d/1493495/followfood-suppe-bio-kartoffel-und-petersilie",
+  "source_id": "1493495",
+  "fetched_at": "2026-10-25T07:28:51+00:00",
+  "extra": {
+   "api": "https://products.dm.de/product/products/detail/AT/dan/1493495",
+   "nutrition_basis": "pro 100 ml",
+   "breadcrumbs": [
+    "Ernährung",
+    "Fertiggerichte & Konserven",
+    "Suppen & Eintöpfe"
+   ],
+   "ingredients": "Genaue Produktbezeichnung: \nBio-Kartoffelsuppe mit Petersielie\n\nZutaten: Wasser, Kartoffeln* 29%, Süßkartoffeln*, Karotten*, Zwiebeln*, Sonnenblumenöl*, Gemüsebrühe* (Meersalz, Zwiebeln*, Karotten*, Lauch*, Pastinaken*, Petersilie*, Kurkuma*, Knoblauch*, Muskatnuss*, Liebstockblatt*, Pfeffer*), Stärke*, Petersilie* 0, 35%, Meersalz, Kurkuma*, weißer Pfeffer*.  *Aus kontrolliert biologischer Landwirtschaft. Kann Spuren von Gluten enthalten.\n\nBitte beachten Sie die Hinweise zu Allergenen.",
+   "prep": "Inhalt in einen Topf geben und bei gelegentlichem Umrühren bei mittlerer Hitze erwärmen. Glas (ohne Deckel) ist mikrowellengeeignet.",
+   "price_note": "nicht erhöht seit 15.09.2021",
+   "hourly_tag": "soup",
+   "qa_note": "Bio-Suppe im Glas zum Erwärmen (Topf/Mikrowelle); Nährwerte laut dm pro 100 ml, Füllmenge 375 ml (size_g = ml); Schwesterprodukt Gemüse marokkanisch bereits in data.json"
+  }
+ }
+]

@@ -160,3 +160,16 @@ No file staged (0 new rows). Fresh fetches of billa, dm, mpreis-shop, juit, loew
 - Skipped: Spätzle, Schupfnudeln, Nockerl, Knödel and potato doughs, Polentarolle, plain Gissinger Waldviertler Knödel (sides); Gurkerl sous-vide meat cuts (Wech chicken wings, duck fillet and legs, goose legs, Nemetz Surstelze, Wiesbauer Beef Ribs, Windisch Porchetta 2,3 kg), meat only, as in T05; Wiesbauer Mediterrane Schweinebacken sous vide (no ingredients or nutrition published, unclear whether sauced).
 - Goal of 20 not reached (5). Next idea: walk the remaining Gurkerl Kühlregal > Schnelle Küche subcategories (Kochboxen 137493 are kits, Salate & Bowls 989 are cold) and Tiefkühl Knödel 606 for filled varieties not yet in data.json.
 - No export, commit, push or deploy from fertig or fertig-app.
+
+### hourly 2026-10-25T07
+
+| file | source | rows | tags | status |
+|---|---|---|---|---|
+| staged_2026-10-25T07.json | dm | 1 | soup 1 | staged, not merged |
+
+- Row: followfood Suppe Bio Kartoffel & Petersilie, 375 ml glass, 2,95 € (GTIN 4260655551180, per-100 ml nutrition 50 kcal, ingredients, dm photo, producer followfood GmbH). Its sister soup Gemüse marokkanisch is already in data.json.
+- Fetches and walks with 0 new meals: Gurkerl Tiefkühl > Knödel 606 (5 Iglo rows, all duplicates), Baguettes & Flammkuchen 621 (all duplicates), Mehlspeisen 626 (21 duplicates; the 19 new rows are cakes, tortes, Schofrulade, Eisknödel, eclairs and cookie dough, not heat-up meals); dm full sitemap meal scan (26 via fetch plus 20 hand-picked meal slugs: dmBio Eintöpfe, Tressbrüder, Little Lunch, Lotao, dmBio Chili/Curry/Gulasch, all duplicates); denns 5, penny-shop 27 (raw meat, multi-variety offers, sides as before), bofrost 154 at --limit 600 (6 new, all rejected in earlier hours), wiesbauer_gourmet 20.
+- Skipped: every. 4 (Turkish Lentil Soup, Levantine Chickpea Stew, Rustic Miso Stew, Green Thai Curry; no AT delivery, unrankable per Orchestrator), Ginger Ritual Cubes (not a meal).
+- Connector issues: `spar` fetch now fails with RobotsDisallowed on heisse-preise.io/data/latest-canonical.json (the robots check blocks the dump); `myproduct` at --limit 600 did not finish within 10 min (use --limit 30 as before).
+- Goal of 20 not reached (1). The live connector sources are exhausted for ready meals; new rows now come almost only from new online stores (Daten-Squad).
+- No export, commit, push or deploy from fertig or fertig-app.
