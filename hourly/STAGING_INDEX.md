@@ -200,3 +200,15 @@ No file staged (0 new rows). Fresh fetches of billa, dm, mpreis-shop, juit, loew
 - Skipped: SPAR enjoy by NENI Hummus-Paprika-Ragout 200 g (chilled hummus dip, like the Neni Shakshuka Basis in T08), Knorr Pasta Snack Bolognese, MAGGI Saucy Noodles Pad Thai, Yum Yum, Knorr Kaiserteller Frittatensuppe (dry or instant mixes), Apfel- and Topfenstrudel from Ölz, Aida, Der Mann, Ulreich and INTERSPAR Backstube (bakery cakes), ice-cream Knödel and Strudel, Tante Fanny doughs, lasagne sheets, gnocchi, fresh ravioli and Cevapcici (raw), Iglo Backhendlstreifen, followfood Kabeljau in Panade, Green Kebab, Hühner Kebap Pfanne (meat or fish only), BILLA sandwiches (cold), baby food and pet food.
 - Goal of 20 not reached (2). The search sources are exhausted for ready meals; new volume now comes from new online stores (Daten-Squad).
 - No export, commit, push or deploy from fertig or fertig-app.
+
+### hourly 2026-10-25T10
+
+| file | source | rows | tags | status |
+|---|---|---|---|---|
+| staged_2026-10-25T10.json | gurkerl 9 | 9 | side 9 | staged, not merged |
+
+- Rows (all Gurkerl, delivers to Linz; GTIN, ingredients, origin and image from the Gurkerl composition/details API): Radatz Gabelkraut 330 g 2,89 € (nutrition), Wegschaider Mühlviertler Speckkraut 330 g 2,79 € (Gurkerl nutrition rejected as inconsistent: 76 kcal against 11,2 g fat and 27 g carbs, kept in extra.nutrition_rejected), Gissinger Sauerkraut mit Speck 530 g 8,09 €, Gissinger Rahmfisolen 400 g 10,29 €, Gissinger Rotkraut 400 g 8,99 € (no nutrition published), Marks & Spencer Rice & Vegetables frozen 800 g 4,99 € (nutrition), and Ben's Original Express Mexikanisch, Risi Bisi and Mediterran 220 g at 2,79 € each (nutrition; precedent Ben's Express Curryreis already in data.json).
+- Found through a full category fetch of gurkerl (553 rows, 55 new by URL id/GTIN/name), penny-shop (27, 22 new but none a ready meal), bofrost (154, 0 new) and hofer-shop (21, 0 new), plus a 26-stem dm sweep (207 unique, 175 new by id, but all baby food, raw legumes/pasta, tofu, snacks or non-food). Lidl search still returns 401.
+- Skipped: Gissinger Gansl gebraten, PICARD Hühner Cordon Bleu, Wiesbauer Schweinebacken sous vide, Bedford Hähnchenbrust (meat only), Radatz Bolognese and Esterhazy Wild Sugo (sauces), Frittaten and Grießnockerl (soup garnish), fonds and soup bases, Knorr instant products, plain Ben's Basmati/Langkorn rice, dough sheets, ice-cream Knödel, Penny "Pfannengerichte*" (no product name to verify) and meat cuts.
+- Goal of 20 not reached (9, all sides). Retail sources are exhausted for new mains; new volume comes from new online stores (Daten-Squad).
+- No export, commit, push or deploy from fertig or fertig-app.
