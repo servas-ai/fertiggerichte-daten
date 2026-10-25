@@ -1,0 +1,107 @@
+{
+ "source": "https://www.fleischerei-fichtenbauer.at/shop + product pages",
+ "fetched": "2026-10-25T0205",
+ "operator": "Land-Fleischerei Fichtenbauer GmbH, Hauptstraße 12, 3872 Amaliendorf / Stadtplatz 33, 3950 Gmünd, Niederösterreich (FN 523618b, LG Krems an der Donau; UID ATU74965969)",
+ "vies": {
+  "uid": "ATU74965969",
+  "valid": true,
+  "name": "Landfleischerei Fichtenbauer GmbH",
+  "address": "Hauptstraße 12, AT-3872 Amaliendorf",
+  "checked": "2026-10-25T02:07:14.723Z"
+ },
+ "gleif": "GLEIF fulltext 'Fichtenbauer' → 0 records (2026-10-25), no LEI",
+ "impressum": "https://www.fleischerei-fichtenbauer.at/impressum (Land-Fleischerei Fichtenbauer GmbH, Stadtplatz 33, 3950 Gmünd; Firmensitz Hauptstraße 12, 3872 Amaliendorf; UID ATU74965969; FN 523618b; LG Krems an der Donau; Behörde BH Gmünd; GF Hannes Mario Fichtenbauer, Jürgen Markus Fichtenbauer)",
+ "robots": "User-agent * Disallow /contao/ /_contao/ only; shop listing and product pages fetched 3 s apart; request-verification page hit twice on images → waited and re-requested, never scripted",
+ "shipping": "Webshop auf Österreich ausgerichtet (AGB); Versand-Pauschale 10 € unter 99 €, ab 99 € versandkostenfrei (Versand & Zahlung); Zahlung online (Kreditkarte, Apple/Google Pay, eps)",
+ "photo_vision_gate": "3/3 PASS (jar packshots, lid labels Beuschel / Rinds-Gulasch / Wildragout)",
+ "excluded": [
+  "Bolognese Sauce essfertig (Sauce)",
+  "Hauswurzen Bauchfleisch 900 g 15,30 € (geräucherte Aufschnittware)",
+  "Karreeroller 700 g 14,70 € (geräucherte Aufschnittware)",
+  "Zigeunerspeck 500 g 10,20 € (Speck)",
+  "Salami, Würstel, Pastete, Blunzen etc. (Wurstwaren, kein Fertiggericht)"
+ ],
+ "kept": [
+  {
+   "source": "fichtenbauer",
+   "store": "Online: Fleischerei Fichtenbauer",
+   "name": "Beuschel essfertig",
+   "brand": "Fichtenbauer",
+   "price_eur": 6.5,
+   "unit_price_eur": 16.25,
+   "unit": "kg",
+   "size_g": 400.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://www.fleischerei-fichtenbauer.at/assets/images/3/beuschel-30849ee4-d1e53952.jpg",
+   "producer": "Land-Fleischerei Fichtenbauer GmbH, Hauptstraße 12, 3872 Amaliendorf / Stadtplatz 33, 3950 Gmünd, Niederösterreich (FN 523618b, LG Krems an der Donau; UID ATU74965969)",
+   "producer_id": null,
+   "origin": "AT (hergestellt in der Land-Fleischerei Fichtenbauer, Waldviertel lt. Shop)",
+   "category": "Fertiggericht",
+   "source_url": "https://www.fleischerei-fichtenbauer.at/shop/beuschel-essfertig",
+   "source_id": "beuschel-essfertig",
+   "fetched_at": "2026-10-25T02:10:09+00:00",
+   "extra": {
+    "pack": "im 400g Glas",
+    "ingredients": "Schweins-Innereien, Zwiebel, Karotten, Sellerie, Essiggurken, Mehl, Salz, Pfeffer, Gewürze",
+    "unit_price_eur_100g_shop": 1.63,
+    "price_note": "Preis je Glas inkl. MwSt. lt. Produktseite (schema.org Offer)",
+    "shipping_note": "Webshop auf Österreich ausgerichtet (AGB); Versand-Pauschale 10 € unter 99 €, ab 99 € versandkostenfrei (Versand & Zahlung); Zahlung online (Kreditkarte, Apple/Google Pay, eps)"
+   }
+  },
+  {
+   "source": "fichtenbauer",
+   "store": "Online: Fleischerei Fichtenbauer",
+   "name": "Rindsgulasch essfertig",
+   "brand": "Fichtenbauer",
+   "price_eur": 6.9,
+   "unit_price_eur": 17.25,
+   "unit": "kg",
+   "size_g": 400.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://www.fleischerei-fichtenbauer.at/assets/images/3/gulasch-a85db27b-d8b30e7f.jpg",
+   "producer": "Land-Fleischerei Fichtenbauer GmbH, Hauptstraße 12, 3872 Amaliendorf / Stadtplatz 33, 3950 Gmünd, Niederösterreich (FN 523618b, LG Krems an der Donau; UID ATU74965969)",
+   "producer_id": null,
+   "origin": "AT (hergestellt in der Land-Fleischerei Fichtenbauer, Waldviertel lt. Shop)",
+   "category": "Fertiggericht",
+   "source_url": "https://www.fleischerei-fichtenbauer.at/shop/rindsgulasch-essfertig",
+   "source_id": "rindsgulasch-essfertig",
+   "fetched_at": "2026-10-25T02:10:13+00:00",
+   "extra": {
+    "pack": "im 400g Glas",
+    "ingredients": "Rindfleisch, Zwiebel, Salz, Paprikapulver, Tomatenmark, Majoran, Knoblauch, Gewürze",
+    "unit_price_eur_100g_shop": 1.73,
+    "price_note": "Preis je Glas inkl. MwSt. lt. Produktseite (schema.org Offer)",
+    "shipping_note": "Webshop auf Österreich ausgerichtet (AGB); Versand-Pauschale 10 € unter 99 €, ab 99 € versandkostenfrei (Versand & Zahlung); Zahlung online (Kreditkarte, Apple/Google Pay, eps)"
+   }
+  },
+  {
+   "source": "fichtenbauer",
+   "store": "Online: Fleischerei Fichtenbauer",
+   "name": "Wildragout essfertig",
+   "brand": "Fichtenbauer",
+   "price_eur": 9.9,
+   "unit_price_eur": 24.75,
+   "unit": "kg",
+   "size_g": 400.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://www.fleischerei-fichtenbauer.at/assets/images/3/wildragout-4ba1cc2b.jpg",
+   "producer": "Land-Fleischerei Fichtenbauer GmbH, Hauptstraße 12, 3872 Amaliendorf / Stadtplatz 33, 3950 Gmünd, Niederösterreich (FN 523618b, LG Krems an der Donau; UID ATU74965969)",
+   "producer_id": null,
+   "origin": "AT (hergestellt in der Land-Fleischerei Fichtenbauer, Waldviertel lt. Shop)",
+   "category": "Fertiggericht",
+   "source_url": "https://www.fleischerei-fichtenbauer.at/shop/wildragout-essfertig",
+   "source_id": "wildragout-essfertig",
+   "fetched_at": "2026-10-25T02:10:18+00:00",
+   "extra": {
+    "pack": "im 400g Glas",
+    "ingredients": "Wildfleisch aus dem Waldviertler, Zwiebel, Karotten, Sellerie, Essiggurkerl, Mehl, Salz, Pfeffer, Gewürze",
+    "unit_price_eur_100g_shop": 2.48,
+    "price_note": "Preis je Glas inkl. MwSt. lt. Produktseite (schema.org Offer)",
+    "shipping_note": "Webshop auf Österreich ausgerichtet (AGB); Versand-Pauschale 10 € unter 99 €, ab 99 € versandkostenfrei (Versand & Zahlung); Zahlung online (Kreditkarte, Apple/Google Pay, eps)"
+   }
+  }
+ ]
+}
