@@ -4602,6 +4602,96 @@ def _reconcile_sc48(out):
                                                                             _r2236['stage'] = 'stew'
                                                                             changed_uids.add(_r2236['uid'])
 
+                                                                        # sensecheck 74 (SC74 P1.1, P1.2 & P3 under SC74_FIXES):
+                                                                        if os.environ.get('SC74_FIXES', '1') != '0' and os.environ.get('GOOD_CHOICE_DISABLE_SC74', '0') != '1':
+                                                                            # SC74 P1.1: #880 [Billa] Rana Teriyaki Style Noodels Hühnchen (407 g, 5.49 €) + twins #3290 [Gurkerl] & #3989 [Alfies]
+                                                                            # Fix Billa PIM typo carbs: 25.0 -> 14.0 (EAN 8001665728218 trade sheet / 300 g Sauce + 100 g Teigwaren + 7 g Sesam, Atwater 111.1 vs 113 kcal = 98.3%)
+                                                                            for _rid880 in (880, 3290, 3989):
+                                                                                _r880 = _pmm_by_id.get(_rid880)
+                                                                                if _r880 is not None:
+                                                                                    _r880['carbs'] = 14.0
+                                                                                    _r880['ean'] = '8001665728218'
+                                                                                    _r880['nutrition_source'] = 'EAN 8001665728218 / Herstelleretikett Giovanni Rana: 14,0 g KH/100g statt Billa-PIM-Tippfehler 25,0 g'
+                                                                                    changed_uids.add(_r880['uid'])
+
+                                                                            # SC74 P1.2: #887 [Billa] Pop-Up Sushi Lachs mild (245 g, 8.99 €)
+                                                                            # Fix Billa PIM typo kcal: 153.0 -> 201.0 (from Billa det.json 00-897874 kj: 839.0 / 4.184 = 200.53 kcal, 97% Atwater match with 206.4 kcal)
+                                                                            _r887 = _pmm_by_id.get(887)
+                                                                            if _r887 is not None:
+                                                                                _r887.update({
+                                                                                    'kcal': 201.0,
+                                                                                    'kcalpack': 492.5,
+                                                                                    'kcalPor': 492.5,
+                                                                                    'kcal_meal': 492,
+                                                                                    'p100k': 3.08,
+                                                                                    'eur100k': 1.83,
+                                                                                    'score': 34.4,
+                                                                                    'scoreV1': 35.8,
+                                                                                    'score_parts': {'base': 30.0, 'protein': 10.8, 'salt': -1.4, 'satfat': -0.0, 'sugar': -2.0, 'fiber': 0, 'veg': 0, 'nova': -3},
+                                                                                    'day_pct': {'kcal': 25, 'protein': 30, 'salt': 29, 'satfat': 10, 'sugar': 12, 'fiber': None},
+                                                                                    'meal_class': 'light_meal',
+                                                                                    'rankable': False,
+                                                                                    'pli': None,
+                                                                                    'rankableLight': True,
+                                                                                    'pliLight': 21.4,
+                                                                                    'meal_check': {'portion': 245, 'kcal': 492, 'protein': 15.2, 'ok': False, 'cls': 'light_meal', 'reason': '15.2 g Protein/Portion < 20'},
+                                                                                    'flags': ['Mahlzeit-Check: 15.2 g Protein/Portion < 20'],
+                                                                                    'rank_excluded_reason': '15.2 g Protein/Portion < 20 (Light Meal)',
+                                                                                    'nutrition_source': 'Billa det.json (00-897874): 839 kJ / 4,184 = 201 kcal/100g statt Billa-PIM-Tippfehler 153 kcal',
+                                                                                })
+                                                                                changed_uids.add(_r887['uid'])
+
+                                                                            # SC74 P3.1: #1177 [Hofer] Maishendl Ministeaks (280 g, 4.99 €)
+                                                                            # Fix kcal erroneously divided by 2.8 (36.0714 -> 101.0 kcal/100g, kcalPor = 282.8, p100k = 22.8)
+                                                                            _r1177 = _pmm_by_id.get(1177)
+                                                                            if _r1177 is not None:
+                                                                                _r1177.update({
+                                                                                    'kcal': 101.0,
+                                                                                    'kcalpack': 282.8,
+                                                                                    'kcalPor': 282.8,
+                                                                                    'kcal_meal': 283,
+                                                                                    'p100k': 22.8,
+                                                                                    'eur100k': 1.76,
+                                                                                    'day_pct': {'kcal': 14, 'protein': 129, 'salt': 9, 'satfat': 4, 'sugar': 0, 'fiber': None},
+                                                                                    'meal_check': {'portion': 280, 'kcal': 283, 'protein': 64.4, 'ok': False, 'cls': 'protein_component', 'reason': '283 kcal/Portion < 400 Proteinkomponente (keine vollständige Mahlzeit)'},
+                                                                                    'flags': ['Mahlzeit-Check: 283 kcal/Portion < 400 Proteinkomponente (keine vollständige Mahlzeit)'],
+                                                                                    'rank_excluded_reason': '283 kcal/Portion < 400 Proteinkomponente (keine vollständige Mahlzeit)',
+                                                                                })
+                                                                                changed_uids.add(_r1177['uid'])
+
+                                                                            # SC74 P3.2 & P3.3: #3309 [Gurkerl] Itineraire des Saveurs Crepes (carbs: 0.0 < sugar: 60.96 -> carbs=None)
+                                                                            # & generic pipeline gate for macro/Atwater inconsistencies (p100k > 25, sugar > carbs + 0.5, sat > fat + 0.5, or Atwater deviation > 25% for kcal >= 50)
+                                                                            for _rg74 in rows:
+                                                                                _p100k_74 = _rg74.get('p100k') or 0.0
+                                                                                _sug_74, _carb_74 = _rg74.get('sugar'), _rg74.get('carbs')
+                                                                                _sat_74, _fat_74 = _rg74.get('sat'), _rg74.get('fat')
+                                                                                _kcal_74, _p100_74 = _rg74.get('kcal'), _rg74.get('p100')
+                                                                                _fib_74 = _rg74.get('fib') or 0.0
+                                                                                _sug_gt_carb = (_sug_74 is not None and _carb_74 is not None and _sug_74 > _carb_74 + 0.5)
+                                                                                _sat_gt_fat = (_sat_74 is not None and _fat_74 is not None and _sat_74 > _fat_74 + 0.5)
+                                                                                _atw_bad = False
+                                                                                if _kcal_74 is not None and _kcal_74 >= 50.0 and _p100_74 is not None and _fat_74 is not None and _carb_74 is not None:
+                                                                                    _atw_74 = 4.0 * _p100_74 + 9.0 * _fat_74 + 4.0 * _carb_74 + 2.0 * _fib_74
+                                                                                    if abs(_atw_74 - _kcal_74) / _kcal_74 > 0.25:
+                                                                                        _atw_bad = True
+                                                                                if _p100k_74 > 25.0 or _sug_gt_carb or _sat_gt_fat or _atw_bad:
+                                                                                    if _sug_gt_carb and _carb_74 == 0.0:
+                                                                                        _rg74['carbs'] = None
+                                                                                    _rg74['incomplete'] = True
+                                                                                    _rg74['score'] = None
+                                                                                    _rg74['scoreV1'] = None
+                                                                                    _rg74['score_parts'] = None
+                                                                                    _rg74['rankable'] = False
+                                                                                    _rg74['rankableLight'] = False
+                                                                                    _rg74['pli'] = None
+                                                                                    _rg74['pliLight'] = None
+                                                                                    _rg74['rank_excluded_reason'] = 'Nährwert-Inkonsistenz (Atwater/Makro-Prüfung)'
+                                                                                    _fl74 = list(_rg74.get('flags') or [])
+                                                                                    if 'Nährwert-Inkonsistenz (Atwater/Makro-Prüfung)' not in _fl74:
+                                                                                        _fl74.append('Nährwert-Inkonsistenz (Atwater/Makro-Prüfung)')
+                                                                                    _rg74['flags'] = _fl74
+                                                                                    changed_uids.add(_rg74['uid'])
+
     # Check latest online_availability_*.json
     av_files = sorted(glob.glob(os.path.join(base_dir, 'analysis/online_availability_*.json')))
     if os.environ.get('GOOD_CHOICE_AVAILABILITY'):  # sensecheck 52 P1: tests pin the snapshot the canonical baseline was built from
