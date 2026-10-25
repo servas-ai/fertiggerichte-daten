@@ -25,6 +25,9 @@ for src in ("fit2go", "fittaste", "nordsee", "subway", "prepmymeal", "livefresh"
 stores = json.load(open(sorted(glob.glob(f"{D}/stores_osm_*.json"))[-1]))
 f2g = json.load(open(sorted(glob.glob(f"{D}/fit2go_*.json"))[-1]))[0]["extra"]["stores"]
 stores += [dict(s, chain="fit2go", segment="ready_meal", provider_type="meal-prep", source="fittogo.at Impressum") for s in f2g]
+for _st in stores:
+    if _st.get("chain") == "Nordsee":
+        _st["chain"] = "NORDSEE"
 meta = {"generated_at": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"), "reference": deliv["address"],
         "ref_latlon": [deliv["lat"], deliv["lon"]], "delivery": deliv["providers"],
         "counts": {"rows": len(rows), "ready_meal": sum(r["segment"] == "ready_meal" for r in rows), "stores": len(stores)}}

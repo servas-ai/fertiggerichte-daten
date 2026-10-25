@@ -26,6 +26,7 @@ NORM=[(r'good choice','Good Choice'),(r'fit2go|fit to go','Fit to Go'),(r'^cleve
 PARENT=[(r'billa|clever|ja! nat|vegavita|omis schmankerl|simply good|pure\b','Billa'),(r'spar|s-budget|despar','Spar'),(r'good choice|primana|cucina nobile|le gusto|hofer','Hofer'),(r'lidl|chef select|vemondo|combino|kania','Lidl'),(r'dmbio|^dm','dm')]
 LK={k.lower():v for k,v in LOGO.items()}
 import os
+SC69_FIXES = os.environ.get("SC69_FIXES", "1") != "0" and os.environ.get("GOOD_CHOICE_DISABLE_SC69", "0") != "1"
 if os.path.exists('analysis/logos.json'):
     for k,v in json.load(open('analysis/logos.json')).items():
         if not v.get('file'): continue
@@ -3300,6 +3301,214 @@ def _reconcile_sc48(out):
                                                                 _mc_w['reason'] = _clean_mck
                                                                 _r68w['meal_check'] = _mc_w
                                                                 changed_uids.add(_r68w['uid'])
+
+                                                    # sensecheck 69 (SC69):
+                                                    # 1. P2.1: Normalize 4 dm jars/pouches with off_serving artefacts (#1256 dmBio Chili sin Carne 400 g ->
+                                                    #    rankableLight=True, pliLight=50.5; #1258 Tressbrüder Butter Chicken Curry 375 g -> rankableLight=True,
+                                                    #    pliLight=34.0; #1269 Little Lunch Tomatensuppe 350 g -> snack_side; #2087 dmBio Gemüsepfanne 250 g -> light_meal).
+                                                    # 2. P2.2: Normalize 6 Billa portion sizes (#1018 Knorr Meisterkessel Rindsgulasch 500 g -> pli=38.2;
+                                                    #    #1016 Knorr Meisterkessel Chili Con Carne 500 g -> pli=29.9; #563 BILLA Gyoza Huhn 400 g -> 2x200 g,
+                                                    #    rankableLight=True, pliLight=45.2; #562 BILLA Gyoza Gemüse 400 g -> 2x200 g; #870 Radatz Rindsgulasch 1000 g ->
+                                                    #    2x500 g, pli=32.1; #871 Radatz Szegediner Krautfleisch 1000 g -> 2x500 g, pli=35.1).
+                                                    # 3. P2.3: Normalize remaining 5 bofrost twin-pack pizzas (#2963, #2964, #2965, #3053, #3055) to 2 portions (pack_2portions).
+                                                    # 4. P3.1: Reclassify 3 pure burger patties without bun at Billa (#2386, #2387, #3584) to stage='prot', meal_class='protein_component'.
+                                                    # 5. P3.2: Resolve final 2 stage='meal' & component=True contradictions on archived Juit Lachsfilet (#2887, #2903 -> component=False).
+                                                    # 6. P3.3: Update cross-store duplicate hint strings on #2001/#3882/#1806, #2002/#3892/#1805, and #1987.
+                                                    if os.environ.get('SC69_FIXES', '1') != '0' and os.environ.get('GOOD_CHOICE_DISABLE_SC69', '0') != '1':
+                                                        # P2.1: 4 dm jars/pouches with off_serving artefacts -> portion = size, portion_source = 'pack_single'
+                                                        _sc69_dm_specs = (
+                                                            (1256, 400, 280.0, 280, 20.4, 3.72, 62, 2.35, 2.35, 8.7, 'light_meal', False, '280 kcal/Portion < 400', False, None, True, 50.5, None),
+                                                            (1258, 375, 442.5, 442, 17.25, 4.5, 75, 2.95, 2.95, 5.8, 'light_meal', False, '17.2 g Protein/Portion < 20', False, None, True, 34.0, None),
+                                                            (1269, 350, 175.0, 175, 3.9, 2.8, 47, 3.55, None, 1.1, 'snack_side', False, '175 kcal/Portion – Snack/Beilage', False, None, False, None, '175 kcal/Portion – Snack/Beilage'),
+                                                            (2087, 250, 282.5, 282, 7.0, 2.5, 42, 2.75, None, 2.5, 'light_meal', False, '282 kcal/Portion < 400', False, None, False, None, '< 15 g Protein/Portion'),
+                                                        )
+                                                        for (_id69, _por69, _kp69, _km69, _pp69, _sp69, _spct69, _pPor69, _pEff69, _ppe69, _mc69, _ok69, _rsn69, _rk69, _pli69, _rkl69, _plil69, _rer69) in _sc69_dm_specs:
+                                                            _r69 = _pmm_by_id.get(_id69)
+                                                            if _r69 is not None:
+                                                                _r69['portion'] = _por69
+                                                                _r69['portion_g'] = _por69
+                                                                _r69['portion_source'] = 'pack_single'
+                                                                _r69['kcalPor'] = _kp69
+                                                                _r69['kcal_meal'] = _km69
+                                                                _r69['protPor'] = _pp69
+                                                                _r69['saltPor'] = _sp69
+                                                                _r69['saltPct'] = _spct69
+                                                                _r69['pPor'] = _pPor69
+                                                                _r69['pPorEff'] = _pEff69
+                                                                _r69['ppe'] = _ppe69
+                                                                _r69['meal_class'] = _mc69
+                                                                _r69['component'] = False
+                                                                _r69['meal_check'] = {
+                                                                    'portion': _por69,
+                                                                    'kcal': _km69,
+                                                                    'protein': _pp69,
+                                                                    'ok': _ok69,
+                                                                    'cls': _mc69,
+                                                                    'reason': _rsn69,
+                                                                }
+                                                                _r69['flags'] = [f'Mahlzeit-Check: {_rsn69}'] if _rsn69 else []
+                                                                _r69['rankable'] = _rk69
+                                                                _r69['pli'] = _pli69
+                                                                _r69['rankableLight'] = _rkl69
+                                                                _r69['pliLight'] = _plil69
+                                                                _r69['rank_excluded_reason'] = _rer69
+                                                                changed_uids.add(_r69['uid'])
+
+                                                        # P2.2: 6 Billa portion normalizations (#1018, #1016, #563, #562, #870, #871)
+                                                        _sc69_billa_specs = (
+                                                            (1018, 500, 'pack_single', 459.0, 459, 30.5, 4.15, 69, 5.49, 5.49, 5.6, 'meal', True, None, True, 38.2, False, None, None),
+                                                            (1016, 500, 'pack_single', 510.0, 510, 27.0, 6.0, 100, 5.49, 5.49, 4.9, 'meal', True, None, True, 29.9, False, None, None),
+                                                            (563, 200, 'pack_2portions', 312.0, 312, 18.4, 1.66, 28, 2.0, 2.0, 9.2, 'light_meal', False, '312 kcal/Portion < 400', False, None, True, 45.2, None),
+                                                            (562, 200, 'pack_2portions', 292.0, 292, 10.2, 2.4, 40, 2.0, None, 5.1, 'light_meal', False, '292 kcal/Portion < 400', False, None, False, None, '< 15 g Protein/Portion'),
+                                                            (870, 500, 'pack_2portions', 585.0, 585, 40.0, 5.5, 92, 9.0, 9.0, 4.4, 'meal', True, None, True, 32.1, False, None, None),
+                                                            (871, 500, 'pack_2portions', 415.0, 415, 35.0, 7.5, 125, 6.5, 6.5, 5.4, 'meal', True, None, True, 35.1, False, None, None),
+                                                        )
+                                                        for (_id69, _por69, _psrc69, _kp69, _km69, _pp69, _sp69, _spct69, _pPor69, _pEff69, _ppe69, _mc69, _ok69, _rsn69, _rk69, _pli69, _rkl69, _plil69, _rer69) in _sc69_billa_specs:
+                                                            _r69 = _pmm_by_id.get(_id69)
+                                                            if _r69 is not None:
+                                                                _r69['portion'] = _por69
+                                                                _r69['portion_g'] = _por69
+                                                                _r69['portion_source'] = _psrc69
+                                                                _r69['kcalPor'] = _kp69
+                                                                _r69['kcal_meal'] = _km69
+                                                                _r69['protPor'] = _pp69
+                                                                _r69['saltPor'] = _sp69
+                                                                _r69['saltPct'] = _spct69
+                                                                _r69['pPor'] = _pPor69
+                                                                _r69['pPorEff'] = _pEff69
+                                                                _r69['ppe'] = _ppe69
+                                                                _r69['meal_class'] = _mc69
+                                                                _r69['component'] = False
+                                                                _r69['meal_check'] = {
+                                                                    'portion': _por69,
+                                                                    'kcal': _km69,
+                                                                    'protein': _pp69,
+                                                                    'ok': _ok69,
+                                                                    'cls': _mc69,
+                                                                    'reason': _rsn69,
+                                                                }
+                                                                _r69['flags'] = [f'Mahlzeit-Check: {_rsn69}'] if _rsn69 else []
+                                                                _r69['rankable'] = _rk69
+                                                                _r69['pli'] = _pli69
+                                                                _r69['rankableLight'] = _rkl69
+                                                                _r69['pliLight'] = _plil69
+                                                                _r69['rank_excluded_reason'] = _rer69
+                                                                changed_uids.add(_r69['uid'])
+
+                                                        # P2.3: Remaining 5 bofrost twin-pack pizzas (#2963, #2964, #2965, #3053, #3055) -> 2 portions (pack_2portions)
+                                                        _sc69_bof_pizza_specs = (
+                                                            (2963, 360, 792.0, 792, 36.0, 4.32, 72, 6.5, 5.5, 'meal', True, None, 'Health-Score < 30'),
+                                                            (2964, 360, 741.5, 742, 32.4, 4.32, 72, 6.5, 5.0, 'meal', True, None, 'Health-Score < 30'),
+                                                            (2965, 383, 900.0, 900, 45.2, 4.6, 77, 6.75, 6.7, 'meal', True, None, 'Health-Score < 30'),
+                                                            (3053, 455, 987.5, 988, 46.0, 5.92, 99, 6.75, 6.8, 'multi_portion', False, '988 kcal/Portion > 900', '988 kcal/Portion > 900'),
+                                                            (3055, 480, 1027.0, 1027, 34.1, 5.28, 88, 6.0, 5.7, 'multi_portion', False, '1027 kcal/Portion > 900', '1027 kcal/Portion > 900'),
+                                                        )
+                                                        for (_id69, _por69, _kp69, _km69, _pp69, _sp69, _spct69, _pPor69, _ppe69, _mc69, _ok69, _rsn69, _rer69) in _sc69_bof_pizza_specs:
+                                                            _r69 = _pmm_by_id.get(_id69)
+                                                            if _r69 is not None:
+                                                                _r69['portion'] = _por69
+                                                                _r69['portion_g'] = _por69
+                                                                _r69['portion_source'] = 'pack_2portions'
+                                                                _r69['kcalPor'] = _kp69
+                                                                _r69['kcal_meal'] = _km69
+                                                                _r69['protPor'] = _pp69
+                                                                _r69['saltPor'] = _sp69
+                                                                _r69['saltPct'] = _spct69
+                                                                _r69['pPor'] = _pPor69
+                                                                _r69['pPorEff'] = None
+                                                                _r69['ppe'] = _ppe69
+                                                                _r69['meal_class'] = _mc69
+                                                                _r69['meal_check'] = {
+                                                                    'portion': _por69,
+                                                                    'kcal': _km69,
+                                                                    'protein': _pp69,
+                                                                    'ok': _ok69,
+                                                                    'cls': _mc69,
+                                                                    'reason': _rsn69,
+                                                                }
+                                                                _r69['flags'] = [f'Mahlzeit-Check: {_rsn69}'] if _rsn69 else []
+                                                                _r69['rankable'] = False
+                                                                _r69['rankableLight'] = False
+                                                                _r69['pli'] = None
+                                                                _r69['pliLight'] = None
+                                                                _r69['rank_excluded_reason'] = _rer69
+                                                                changed_uids.add(_r69['uid'])
+
+                                                        # P3.1: 3 pure burger patties without bun at Billa (#2386, #2387, #3584) -> stage='prot', meal_class='protein_component'
+                                                        for _pid69 in (2386, 2387, 3584):
+                                                            _r69p = _pmm_by_id.get(_pid69)
+                                                            if _r69p is not None:
+                                                                _r69p['stage'] = 'prot'
+                                                                _r69p['meal_class'] = 'protein_component'
+                                                                _r69p['component'] = True
+                                                                _r69p['rankable'] = False
+                                                                _r69p['rankableLight'] = False
+                                                                _r69p['pli'] = None
+                                                                _r69p['pliLight'] = None
+                                                                if isinstance(_r69p.get('meal_check'), dict):
+                                                                    _mc69p = dict(_r69p['meal_check'])
+                                                                    _mc69p['ok'] = False
+                                                                    _mc69p['cls'] = 'protein_component'
+                                                                    _mc69p['reason'] = 'Proteinkomponente (keine vollständige Mahlzeit)'
+                                                                    _r69p['meal_check'] = _mc69p
+                                                                _r69p['flags'] = ['Mahlzeit-Check: Proteinkomponente (keine vollständige Mahlzeit)']
+                                                                _r69p['rank_excluded_reason'] = 'Proteinkomponente (ohne Beilage) – nicht als Vollmahlzeit gerankt'
+                                                                changed_uids.add(_r69p['uid'])
+
+                                                        # P3.2: Resolve final stage='meal' & component=True contradictions (#2887, #2903 Juit Lachsfilet + 7 stale/OFF/dup rows -> 0/4049)
+                                                        for _jid69 in (2887, 2903):
+                                                            _r69j = _pmm_by_id.get(_jid69)
+                                                            if _r69j is not None:
+                                                                _r69j['component'] = False
+                                                                if isinstance(_r69j.get('meal_check'), dict):
+                                                                    _mc69j = dict(_r69j['meal_check'])
+                                                                    _mc69j['ok'] = True
+                                                                    _mc69j['cls'] = 'meal'
+                                                                    _mc69j['reason'] = None
+                                                                    _r69j['meal_check'] = _mc69j
+                                                                _r69j['flags'] = []
+                                                                _r69j['rank_excluded_reason'] = 'Kein aktueller Preis 2026'
+                                                                changed_uids.add(_r69j['uid'])
+                                                        for _pid69_st in (255, 3462):
+                                                            _r69st = _pmm_by_id.get(_pid69_st)
+                                                            if _r69st is not None:
+                                                                _r69st['stage'] = 'prot'
+                                                                _r69st['meal_class'] = 'protein_component'
+                                                                _r69st['component'] = True
+                                                                changed_uids.add(_r69st['uid'])
+                                                        for _cid69_st in (691, 806, 3700, 3746, 1106):
+                                                            _r69c = _pmm_by_id.get(_cid69_st)
+                                                            if _r69c is not None:
+                                                                _r69c['component'] = False
+                                                                if isinstance((_r69c.get('meal_check') or {}).get('reason'), str):
+                                                                    _mc69c = dict(_r69c['meal_check'])
+                                                                    _mc69c['reason'] = _mc69c['reason'].replace(' Proteinkomponente (keine vollständige Mahlzeit)', '').strip() or None
+                                                                    _r69c['meal_check'] = _mc69c
+                                                                if _r69c.get('flags'):
+                                                                    _r69c['flags'] = [
+                                                                        f.replace(' Proteinkomponente (keine vollständige Mahlzeit)', '').strip()
+                                                                        for f in _r69c['flags']
+                                                                        if f != 'Mahlzeit-Check: Proteinkomponente (keine vollständige Mahlzeit)'
+                                                                    ]
+                                                                if isinstance(_r69c.get('rank_excluded_reason'), str):
+                                                                    _r69c['rank_excluded_reason'] = _r69c['rank_excluded_reason'].replace(' Proteinkomponente (keine vollständige Mahlzeit)', '').strip()
+                                                                changed_uids.add(_r69c['uid'])
+
+                                                        # P3.3: Update cross-store duplicate hint strings on #2001/#3882/#1806, #2002/#3892/#1805, and #1987
+                                                        for _did69 in (2001, 3882, 1806):
+                                                            _r69d = _pmm_by_id.get(_did69)
+                                                            if _r69d is not None:
+                                                                _r69d['rank_excluded_reason'] = 'Online-Duplikat: Produkt auch in Linz (Billa), dort aber nicht rankbar (Health-Score 21,0 < 30)'
+                                                                changed_uids.add(_r69d['uid'])
+                                                        for _did69 in (2002, 3892, 1805):
+                                                            _r69d = _pmm_by_id.get(_did69)
+                                                            if _r69d is not None:
+                                                                _r69d['rank_excluded_reason'] = 'Online-Duplikat: Produkt auch in Linz (Billa), dort aber nicht rankbar (Health-Score 29,6 < 30)'
+                                                                changed_uids.add(_r69d['uid'])
+                                                        _r1987 = _pmm_by_id.get(1987)
+                                                        if _r1987 is not None:
+                                                            _r1987['rank_excluded_reason'] = 'Online-Duplikat (gleiches Produkt in Linz bei Billa – dort gerankt)'
+                                                            changed_uids.add(_r1987['uid'])
 
     # Check latest online_availability_*.json
     av_files = sorted(glob.glob(os.path.join(base_dir, 'analysis/online_availability_*.json')))

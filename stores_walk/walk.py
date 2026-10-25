@@ -34,7 +34,7 @@ for s in S:
         s['walk_m']=round(s['dist_m']*1.3);s['walk_min']=math.ceil(s['walk_m']/80);s['walk_method']='haversine*1.3 @4.8km/h (fallback)'
     s['walk_band']='5' if s['walk_min']<=5 else '10' if s['walk_min']<=10 else '15' if s['walk_min']<=15 else '20+'
     b=(s['brand'] or s['name']).lower()
-    s['chain']=next((c for c in ['Billa','Spar','Hofer','Lidl','Penny','MPreis','Unimarkt','dm','Bipa','Nah&Frisch','ADEG'] if c.lower().replace('&',' & ') in b.replace('&',' & ') or c.lower() in b),None)
+    s['chain']=("Denn's" if 'denns' in b or "denn's" in b else 'Nah&Frisch' if 'nah & frisch' in b or 'nah&frisch' in b else next((c for c in ['Billa','Spar','Hofer','Lidl','Penny','MPreis','Unimarkt','dm','Bipa','ADEG'] if c.lower() in b),None))
     s['type']='chain' if s['chain'] else ('ethnic/local' if s['shop'] in('supermarket','convenience','general','food') else s['shop'])
     s['availability_level']='chain' if s['chain'] else 'none (no product source)'
 S.sort(key=lambda s:s['walk_min'])
