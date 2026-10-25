@@ -1261,6 +1261,396 @@ def _reconcile_sc48(out):
                             ]
                             changed_uids.add(_r1382['uid'])
 
+                        # sensecheck 61 (SC61 — P3 follow-up from SC59):
+                        # 1. Hofer #861 (Asia Green Garden Udon Nudelschüssel, Erdnuss-Satay, 252 g, 430.9 kcal, 12.1 g P,
+                        #    score 32.5, meal_class='light_meal'): include cup-noodle light_meal with 400 <= kcal_meal <= 450
+                        #    and 12 <= protPor < 20 in rankableLight (pliLight=31.5, matching meal.ts passesLightRank), set
+                        #    explicit rank_excluded_reason on #860/#861/#862, and strip stale 'Score unvollständig' flags
+                        #    from SC59-backfilled rows (#860, #861, #862, #876, #1228, #1229, #1235).
+                        # 2. Linz Spar live-2026 priceOnly dishes (#69 Hilcona Tortellini Bolognese, #79 Iglo Lasagne al Forno,
+                        #    #89/#90 Inzersdorfer Erdäpfelgulasch 400 g & 800 g 2 Portionen, #93 Inzersdorfer Paprikahendlragout
+                        #    mit Nockerln, #145/#1163 Little Lunch Thai Curry Eintopf 350 g, #493 Inzersdorfer Bohnen mit Speck
+                        #    2 Portionen 800 g, #2727 Inzersdorfer Bauernschmaus 400 g): backfill verified manufacturer /
+                        #    SPAR Produktwelt / OpenFoodFacts / exact-twin per-100g nutrition.
+                        if os.environ.get('SC61_FIXES', '1') != '0' and os.environ.get('GOOD_CHOICE_DISABLE_SC61', '0') != '1':
+                            for _sc59_id in (860, 861, 862, 876, 1228, 1229, 1235):
+                                _rsc59 = _pmm_by_id.get(_sc59_id)
+                                if _rsc59 is not None and _rsc59.get('salt') is not None and _rsc59.get('sat') is not None:
+                                    _rsc59['flags'] = [f for f in (_rsc59.get('flags') or []) if 'Score unvollständig' not in f]
+                                    changed_uids.add(_rsc59['uid'])
+
+                            _r860 = _pmm_by_id.get(860)
+                            if _r860 is not None and _r860.get('store') == 'Hofer':
+                                _r860['cprot'] = ['vegetarisch']
+                                _r860['rank_excluded_reason'] = '351 kcal/Portion < 400 (Light Meal)'
+                                changed_uids.add(_r860['uid'])
+
+                            _r861 = _pmm_by_id.get(861)
+                            if _r861 is not None and _r861.get('store') == 'Hofer':
+                                _pr861 = _r861.get('price') or 1.99
+                                _r861['cprot'] = ['vegetarisch']
+                                _r861['pliLight'] = round(0.5 * _r861['score'] + 0.5 * min((_r861['protPor'] / _pr861) / 20.0, 1.0) * 100.0, 1)
+                                _r861['rankableLight'] = True
+                                _r861['rank_excluded_reason'] = '12.1 g Protein/Portion < 20 (Light Meal)'
+                                changed_uids.add(_r861['uid'])
+
+                            _r862 = _pmm_by_id.get(862)
+                            if _r862 is not None and _r862.get('store') == 'Hofer':
+                                _r862['cprot'] = ['vegetarisch']
+                                _r862['pliLight'] = None
+                                _r862['rankableLight'] = False
+                                _r862['rank_excluded_reason'] = '361 kcal/Portion < 400, Score 28.5 < 30 (Light Meal)'
+                                changed_uids.add(_r862['uid'])
+
+                            # #69 Spar | Hilcona Tortellini Bolognese (250 g, p/2020005979116, EAN 7610227954746)
+                            _r69 = _pmm_by_id.get(69)
+                            if _r69 is not None and _r69.get('store') == 'Spar':
+                                _r69['ean'] = '7610227954746'
+                                _r69['url'] = 'https://www.interspar.at/shop/lebensmittel/hilcona-tortellini-bolognese/p/2020005979116'
+                                _r69['img'] = _r69.get('img') or 'https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005979116/dt_main.jpg'
+                                _r69['kcal'] = 252.0
+                                _r69['p100'] = 9.7
+                                _r69['fat'] = 5.4
+                                _r69['sat'] = 1.9
+                                _r69['carbs'] = 40.0
+                                _r69['sugar'] = 2.7
+                                _r69['fib'] = 2.3
+                                _r69['salt'] = 1.5
+                                _r69['ing'] = 'WEIZENMEHL, Wasser, Rindfleisch 12 %, HARTWEIZENGRIESS, EIER, Tomatenmarkkonzentrat 5 %, Reisgriess, Zwiebeln 2 %, Karotten 2 %, Speisesalz, Rapsöl, Knoblauch, Zucker, Petersilie, Gewürze, Zwiebeln geröstet (Zwiebeln, Rapsöl), Zitronensaftkonzentrat, Hefe.'
+                                _r69['priceOnly'] = False
+                                _r69['incomplete'] = False
+                                _r69['nutrition_source'] = 'https://de.hilcona.com/sortiment/detail/tortellini-bolognese/ & SPAR Produktwelt (p/2020005979116, EAN 7610227954746)'
+                                _x69 = {
+                                    'name': _r69.get('name'), 'size_g': 250.0, 'packaging': _r69.get('pack'),
+                                    'kcal_100': 252.0, 'protein_100': 9.7, 'fat_100': 5.4,
+                                    'satfat_100': 1.9, 'carbs_100': 40.0, 'sugar_100': 2.7,
+                                    'fiber_100': 2.3, 'salt_100': 1.5, 'ingredients': _r69['ing'], 'store': 'Spar',
+                                }
+                                _v69 = V2.score_v2(_x69)
+                                _r69['score'] = _v69.get('health_score')
+                                _r69['score_parts'] = _v69.get('score_parts')
+                                _r69['day_pct'] = _v69.get('day_pct')
+                                _r69['nova'] = _v69.get('nova')
+                                _r69['nova_source'] = _v69.get('nova_source')
+                                _r69['veg_pct'] = _v69.get('veg_pct')
+                                _r69['veg_source'] = _v69.get('veg_source')
+                                _r69['kcal_meal'] = 630
+                                _r69['kcalPor'] = 630.0
+                                _r69['kcalpack'] = 630.0
+                                _r69['protPor'] = 24.2
+                                _r69['protpack'] = 24.2
+                                _r69['saltPor'] = 3.75
+                                _r69['saltPct'] = 62
+                                _pr69 = _r69.get('price') or 3.59
+                                _r69['ppe'] = round(24.2 / _pr69, 1)
+                                _r69['eur10p'] = round(_pr69 / 2.42, 2)
+                                _r69['eur100k'] = round(_pr69 / 6.3, 2)
+                                _r69['meal_class'] = 'snack_side'
+                                _r69['meal_check'] = {
+                                    'portion': 250, 'kcal': 630, 'protein': 24.2,
+                                    'ok': False, 'cls': 'snack_side',
+                                    'reason': 'Frische gefüllte Pasta (braucht Sauce) – Zutat/Beilage',
+                                }
+                                _r69['rank_excluded_reason'] = 'Frische gefüllte Pasta (braucht Sauce) – Zutat/Beilage'
+                                _r69['flags'] = [
+                                    f for f in (_r69.get('flags') or [])
+                                    if 'Score unvollständig' not in f and 'Nährwerte fehlen' not in f
+                                ]
+                                changed_uids.add(_r69['uid'])
+
+                            # #79 Spar | Iglo Lasagne al Forno (700 g, por 350 g, p/577052, dupOf #1114)
+                            _r79 = _pmm_by_id.get(79)
+                            _r1114 = _pmm_by_id.get(1114)
+                            if _r79 is not None and _r1114 is not None and _r79.get('store') == 'Spar':
+                                for _k79 in ('kcal', 'p100', 'fat', 'sat', 'carbs', 'sugar', 'fib', 'salt', 'ing', 'ean',
+                                             'score', 'scoreV1', 'score_parts', 'day_pct', 'nova', 'nova_source', 'veg_pct', 'veg_source',
+                                             'kcal_meal', 'kcalPor', 'kcalpack', 'protPor', 'protpack', 'saltPor', 'saltPct',
+                                             'ppe', 'eur10p', 'eur100k', 'meal_class', 'meal_check'):
+                                    if _r1114.get(_k79) is not None:
+                                        _r79[_k79] = _r1114[_k79]
+                                _r79['img'] = _r79.get('img') or _r1114.get('img')
+                                _r79['priceOnly'] = False
+                                _r79['incomplete'] = False
+                                _r79['nutrition_source'] = 'INTERSPAR Webshop (p/577052, Zwilling #1114)'
+                                _r79['rankable'] = False
+                                _r79['pli'] = None
+                                _r79['rank_excluded_reason'] = 'Duplikat von #1114 (gleiche Shop-URL, gleiche Größe/Preis)'
+                                _r79['flags'] = [
+                                    f for f in (_r79.get('flags') or [])
+                                    if 'Score unvollständig' not in f and 'Nährwerte fehlen' not in f
+                                ]
+                                changed_uids.add(_r79['uid'])
+
+                            # #89 Spar | Inzersdorfer Erdäpfelgulasch 400 G (p/786140, EAN 9017100003061): backfill sat=1.4 from Alfies twin #3928
+                            _r89 = _pmm_by_id.get(89)
+                            if _r89 is not None and _r89.get('store') == 'Spar':
+                                _r89['sat'] = 1.4
+                                _r89['ean'] = _r89.get('ean') or '9017100003061'
+                                _r89['img'] = _r89.get('img') or 'https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/786140/dt_main.jpg'
+                                _r89['incomplete'] = False
+                                _r89['nutrition_source'] = 'https://www.inzersdorfer.at/produkte/erdaepfelgulasch/ & Zwilling #3928 (400 g, EAN 9017100003061)'
+                                _x89 = {
+                                    'name': _r89.get('name'), 'size_g': 400.0, 'packaging': _r89.get('pack'),
+                                    'kcal_100': _r89['kcal'], 'protein_100': _r89['p100'], 'fat_100': _r89['fat'],
+                                    'satfat_100': 1.4, 'carbs_100': _r89['carbs'], 'sugar_100': _r89['sugar'],
+                                    'fiber_100': _r89.get('fib'), 'salt_100': _r89['salt'],
+                                    'ingredients': _r89.get('ing'), 'store': 'Spar',
+                                }
+                                _v89 = V2.score_v2(_x89)
+                                _r89['score'] = _v89.get('health_score')
+                                _r89['score_parts'] = _v89.get('score_parts')
+                                _r89['day_pct'] = _v89.get('day_pct')
+                                _r89['meal_class'] = 'light_meal'
+                                _r89['rank_excluded_reason'] = '368 kcal/Portion < 400, 10.0 g Protein/Portion < 12'
+                                _r89['flags'] = [f for f in (_r89.get('flags') or []) if 'Score unvollständig' not in f]
+                                changed_uids.add(_r89['uid'])
+
+                            # #90 Spar | Inzersdorfer Erdäpfelgulasch 2 Portionen (800 g, por 400 g, p/4092506, EAN 9017100004778)
+                            _r90 = _pmm_by_id.get(90)
+                            _r2174 = _pmm_by_id.get(2174)
+                            if _r90 is not None and _r90.get('store') == 'Spar':
+                                _r90['ean'] = '9017100004778'
+                                _r90['img'] = _r90.get('img') or 'https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/4092506/dt_main.jpg'
+                                _r90['kcal'] = 94.0
+                                _r90['p100'] = 2.2
+                                _r90['fat'] = 5.8
+                                _r90['sat'] = 1.9
+                                _r90['carbs'] = 7.7
+                                _r90['sugar'] = 1.2
+                                _r90['salt'] = 1.2
+                                if _r2174 is not None:
+                                    for _k90 in ('ing', 'allerg', 'nova', 'nova_source', 'veg_pct', 'veg_source', 'score', 'score_parts', 'day_pct', 'herst', 'ort', 'state', 'pid', 'prodSlug'):
+                                        if _r2174.get(_k90) is not None and not _r90.get(_k90):
+                                            _r90[_k90] = _r2174[_k90]
+                                _r90['priceOnly'] = False
+                                _r90['incomplete'] = False
+                                _r90['nutrition_source'] = 'https://www.inzersdorfer.at/produkte/erdaepfelgulasch/ & 800-g-Zwilling #2174 (EAN 9017100004778)'
+                                _r90['portion'] = 400
+                                _r90['portion_g'] = 400
+                                _r90['portion_source'] = 'name_portions'
+                                _pr90 = _r90.get('price') or 5.49
+                                _r90['pPor'] = round(_pr90 / 2.0, 2)
+                                _r90['pPorEff'] = _r90['pPor']
+                                _r90['kcal_meal'] = 376
+                                _r90['kcalPor'] = 376.0
+                                _r90['kcalpack'] = 752.0
+                                _r90['protPor'] = 8.8
+                                _r90['protpack'] = 17.6
+                                _r90['saltPor'] = 4.8
+                                _r90['saltPct'] = 80
+                                _r90['ppe'] = round(17.6 / _pr90, 1)
+                                _r90['eur10p'] = round(_pr90 / 1.76, 2)
+                                _r90['eur100k'] = round(_pr90 / 7.52, 2)
+                                _r90['meal_class'] = 'light_meal'
+                                _r90['meal_check'] = {'portion': 400, 'kcal': 376, 'protein': 8.8, 'ok': False, 'cls': 'light_meal', 'reason': '376 kcal/Portion < 400'}
+                                _r90['rankable'] = False
+                                _r90['rankableLight'] = False
+                                _r90['rank_excluded_reason'] = '376 kcal/Portion < 400, 8.8 g Protein/Portion < 12'
+                                _r90['flags'] = [
+                                    f for f in (_r90.get('flags') or [])
+                                    if 'Score unvollständig' not in f and 'Nährwerte fehlen' not in f
+                                ]
+                                if 'Mahlzeit-Check: 376 kcal/Portion < 400' not in _r90['flags']:
+                                    _r90['flags'].append('Mahlzeit-Check: 376 kcal/Portion < 400')
+                                changed_uids.add(_r90['uid'])
+
+                            # #93 Spar | Inzersdorfer Paprikahendlragout mit Nockerln (300 g, p/5442348)
+                            _r93 = _pmm_by_id.get(93)
+                            _r955 = _pmm_by_id.get(955)
+                            if _r93 is not None and _r93.get('store') == 'Spar':
+                                _r93['img'] = _r93.get('img') or 'https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/5442348/dt_main.jpg'
+                                _r93['kcal'] = 158.0
+                                _r93['p100'] = 7.9
+                                _r93['fat'] = 7.6
+                                _r93['sat'] = 2.7
+                                _r93['carbs'] = 14.0
+                                _r93['sugar'] = 2.3
+                                _r93['salt'] = 1.5
+                                if _r955 is not None:
+                                    for _k93 in ('ing', 'allerg', 'score', 'scoreV1', 'score_parts', 'day_pct', 'herst', 'ort', 'state', 'pid', 'prodSlug'):
+                                        if _r955.get(_k93) is not None and not _r93.get(_k93):
+                                            _r93[_k93] = _r955[_k93]
+                                _r93['priceOnly'] = False
+                                _r93['incomplete'] = False
+                                _r93['nutrition_source'] = 'https://www.inzersdorfer.at/produkte/paprikahendlragout/ & Billa-Zwilling #955 (300 g)'
+                                _r93['kcal_meal'] = 474
+                                _r93['kcalPor'] = 474.0
+                                _r93['kcalpack'] = 474.0
+                                _r93['protPor'] = 23.7
+                                _r93['protpack'] = 23.7
+                                _r93['saltPor'] = 4.5
+                                _r93['saltPct'] = 75
+                                _pr93 = _r93.get('price') or 5.99
+                                _r93['ppe'] = round(23.7 / _pr93, 1)
+                                _r93['eur10p'] = round(_pr93 / 2.37, 2)
+                                _r93['eur100k'] = round(_pr93 / 4.74, 2)
+                                _r93['meal_class'] = 'meal'
+                                _r93['meal_check'] = {'portion': 300, 'kcal': 474, 'protein': 23.7, 'ok': True, 'cls': 'meal', 'reason': None}
+                                _r93['rankable'] = False
+                                _r93['pli'] = None
+                                _r93['rank_excluded_reason'] = 'Gesundheits-Score unter 30 (24.6)'
+                                _r93['flags'] = [
+                                    f for f in (_r93.get('flags') or [])
+                                    if 'Score unvollständig' not in f and 'Nährwerte fehlen' not in f
+                                ]
+                                changed_uids.add(_r93['uid'])
+
+                            # #145 & #1163 Spar | Little Lunch Thai Curry Eintopf (350 g, p/2020005794535, EAN 4280000878946)
+                            _r456 = _pmm_by_id.get(456)
+                            for _ll_id in (145, 1163):
+                                _rll = _pmm_by_id.get(_ll_id)
+                                if _rll is not None and _rll.get('store') == 'Spar':
+                                    _rll['ean'] = '4280000878946'
+                                    _rll['img'] = _rll.get('img') or 'https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005794535/dt_main.jpg'
+                                    _rll['kcal'] = 60.0
+                                    _rll['p100'] = 1.6
+                                    _rll['fat'] = 1.9
+                                    _rll['sat'] = 0.4
+                                    _rll['carbs'] = 8.0
+                                    _rll['sugar'] = 3.1
+                                    _rll['salt'] = 1.1
+                                    if _r456 is not None:
+                                        for _kll in ('ing', 'allerg', 'nova', 'nova_source', 'veg_pct', 'veg_source', 'score', 'score_parts', 'day_pct'):
+                                            if _r456.get(_kll) is not None and not _rll.get(_kll):
+                                                _rll[_kll] = _r456[_kll]
+                                    _rll['priceOnly'] = False
+                                    _rll['incomplete'] = False
+                                    _rll['nutrition_source'] = 'https://world.openfoodfacts.org/product/4280000878946 & dm-Zwilling #456 (350 g)'
+                                    _rll['kcal_meal'] = 210
+                                    _rll['kcalPor'] = 210.0
+                                    _rll['kcalpack'] = 210.0
+                                    _rll['protPor'] = 5.6
+                                    _rll['protpack'] = 5.6
+                                    _rll['saltPor'] = 3.85
+                                    _rll['saltPct'] = 64
+                                    _prll = _rll.get('price') or 3.49
+                                    _rll['ppe'] = round(5.6 / _prll, 1)
+                                    _rll['eur10p'] = round(_prll / 0.56, 2)
+                                    _rll['eur100k'] = round(_prll / 2.1, 2)
+                                    _rll['meal_class'] = 'snack_side'
+                                    _rll['meal_check'] = {'portion': 350, 'kcal': 210, 'protein': 5.6, 'ok': False, 'cls': 'snack_side', 'reason': '210 kcal/Portion – Snack/Beilage'}
+                                    _rll['rankable'] = False
+                                    _rll['rankableLight'] = False
+                                    _rll['rank_excluded_reason'] = '210 kcal/Portion – Snack/Beilage' if _ll_id == 1163 else 'Duplikat von #1163 (210 kcal/Portion – Snack/Beilage)'
+                                    _rll['flags'] = [
+                                        f for f in (_rll.get('flags') or [])
+                                        if 'Score unvollständig' not in f and 'Nährwerte fehlen' not in f
+                                    ]
+                                    if 'Mahlzeit-Check: 210 kcal/Portion – Snack/Beilage' not in _rll['flags']:
+                                        _rll['flags'].append('Mahlzeit-Check: 210 kcal/Portion – Snack/Beilage')
+                                    changed_uids.add(_rll['uid'])
+
+                            # #493 Spar | Inzersdorfer Bohnen mit Speck 2 Portionen (800 g, por 400 g, p/6115227)
+                            _r493 = _pmm_by_id.get(493)
+                            _r1034 = _pmm_by_id.get(1034)
+                            if _r493 is not None and _r493.get('store') == 'Spar':
+                                _r493['img'] = _r493.get('img') or 'https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/6115227/dt_main.jpg'
+                                _r493['kcal'] = 172.0
+                                _r493['p100'] = 6.3
+                                _r493['fat'] = 9.3
+                                _r493['sat'] = 3.1
+                                _r493['carbs'] = 13.0
+                                _r493['sugar'] = 1.3
+                                _r493['salt'] = 1.1
+                                if _r1034 is not None:
+                                    for _k493 in ('ing', 'allerg', 'herst', 'ort', 'state', 'pid', 'prodSlug'):
+                                        if _r1034.get(_k493) is not None and not _r493.get(_k493):
+                                            _r493[_k493] = _r1034[_k493]
+                                _r493['priceOnly'] = False
+                                _r493['incomplete'] = False
+                                _r493['nutrition_source'] = 'https://www.inzersdorfer.at/produkte/bohnen-mit-speck/ & Billa-800g-Zwilling #1034'
+                                _x493 = {
+                                    'name': _r493.get('name'), 'size_g': 800.0, 'packaging': _r493.get('pack'),
+                                    'kcal_100': 172.0, 'protein_100': 6.3, 'fat_100': 9.3,
+                                    'satfat_100': 3.1, 'carbs_100': 13.0, 'sugar_100': 1.3,
+                                    'fiber_100': None, 'salt_100': 1.1,
+                                    'ingredients': _r493.get('ing'), 'store': 'Spar',
+                                }
+                                _v493 = V2.score_v2(_x493)
+                                _r493['score'] = _v493.get('health_score')
+                                _r493['score_parts'] = _v493.get('score_parts')
+                                _r493['day_pct'] = _v493.get('day_pct')
+                                _r493['portion'] = 400
+                                _r493['portion_g'] = 400
+                                _r493['portion_source'] = 'name_portions'
+                                _pr493 = _r493.get('price') or 5.49
+                                _r493['pPor'] = round(_pr493 / 2.0, 2)
+                                _r493['pPorEff'] = _r493['pPor']
+                                _r493['kcal_meal'] = 688
+                                _r493['kcalPor'] = 688.0
+                                _r493['kcalpack'] = 1376.0
+                                _r493['protPor'] = 25.2
+                                _r493['protpack'] = 50.4
+                                _r493['saltPor'] = 4.4
+                                _r493['saltPct'] = 73
+                                _r493['ppe'] = round(50.4 / _pr493, 1)
+                                _r493['eur10p'] = round(_pr493 / 5.04, 2)
+                                _r493['eur100k'] = round(_pr493 / 13.76, 2)
+                                _r493['meal_class'] = 'meal'
+                                _r493['meal_check'] = {'portion': 400, 'kcal': 688, 'protein': 25.2, 'ok': True, 'cls': 'meal', 'reason': None}
+                                _r493['rankable'] = False
+                                _r493['pli'] = None
+                                _r493['rank_excluded_reason'] = 'Gesundheits-Score unter 30 (20.7)'
+                                _r493['flags'] = [
+                                    f for f in (_r493.get('flags') or [])
+                                    if 'Score unvollständig' not in f and 'Nährwerte fehlen' not in f
+                                ]
+                                changed_uids.add(_r493['uid'])
+
+                            # #2727 Spar | Inzersdorfer Bauernschmaus (400 g, p/2020005819511)
+                            _r2727 = _pmm_by_id.get(2727)
+                            _r958 = _pmm_by_id.get(958)
+                            if _r2727 is not None and _r2727.get('store') == 'Spar':
+                                _r2727['img'] = _r2727.get('img') or 'https://cdn1.interspar.at/cachableservlets/articleImage.dam/at/2020005819511/dt_main.jpg'
+                                _r2727['kcal'] = 94.0
+                                _r2727['p100'] = 2.1
+                                _r2727['fat'] = 5.5
+                                _r2727['sat'] = 2.0
+                                _r2727['carbs'] = 8.3
+                                _r2727['sugar'] = 1.7
+                                _r2727['salt'] = 1.2
+                                if _r958 is not None:
+                                    for _k2727 in ('ing', 'allerg', 'herst', 'ort', 'state', 'pid', 'prodSlug'):
+                                        if _r958.get(_k2727) is not None and not _r2727.get(_k2727):
+                                            _r2727[_k2727] = _r958[_k2727]
+                                _r2727['priceOnly'] = False
+                                _r2727['incomplete'] = False
+                                _r2727['nutrition_source'] = 'https://www.inzersdorfer.at/produkte/bauernschmaus/ & Billa-Zwilling #958 (400 g)'
+                                _x2727 = {
+                                    'name': _r2727.get('name'), 'size_g': 400.0, 'packaging': _r2727.get('pack'),
+                                    'kcal_100': 94.0, 'protein_100': 2.1, 'fat_100': 5.5,
+                                    'satfat_100': 2.0, 'carbs_100': 8.3, 'sugar_100': 1.7,
+                                    'fiber_100': None, 'salt_100': 1.2,
+                                    'ingredients': _r2727.get('ing'), 'store': 'Spar',
+                                }
+                                _v2727 = V2.score_v2(_x2727)
+                                _r2727['score'] = _v2727.get('health_score')
+                                _r2727['score_parts'] = _v2727.get('score_parts')
+                                _r2727['day_pct'] = _v2727.get('day_pct')
+                                _r2727['kcal_meal'] = 376
+                                _r2727['kcalPor'] = 376.0
+                                _r2727['kcalpack'] = 376.0
+                                _r2727['protPor'] = 8.4
+                                _r2727['protpack'] = 8.4
+                                _r2727['saltPor'] = 4.8
+                                _r2727['saltPct'] = 80
+                                _pr2727 = _r2727.get('price') or 4.99
+                                _r2727['ppe'] = round(8.4 / _pr2727, 1)
+                                _r2727['eur10p'] = round(_pr2727 / 0.84, 2)
+                                _r2727['eur100k'] = round(_pr2727 / 3.76, 2)
+                                _r2727['meal_class'] = 'light_meal'
+                                _r2727['meal_check'] = {'portion': 400, 'kcal': 376, 'protein': 8.4, 'ok': False, 'cls': 'light_meal', 'reason': '376 kcal/Portion < 400'}
+                                _r2727['rankable'] = False
+                                _r2727['rankableLight'] = False
+                                _r2727['rank_excluded_reason'] = '376 kcal/Portion < 400, 8.4 g Protein/Portion < 12'
+                                _r2727['flags'] = [
+                                    f for f in (_r2727.get('flags') or [])
+                                    if 'Score unvollständig' not in f and 'Nährwerte fehlen' not in f
+                                ]
+                                if 'Mahlzeit-Check: 376 kcal/Portion < 400' not in _r2727['flags']:
+                                    _r2727['flags'].append('Mahlzeit-Check: 376 kcal/Portion < 400')
+                                changed_uids.add(_r2727['uid'])
+
     # Check latest online_availability_*.json
     av_files = sorted(glob.glob(os.path.join(base_dir, 'analysis/online_availability_*.json')))
     if os.environ.get('GOOD_CHOICE_AVAILABILITY'):  # sensecheck 52 P1: tests pin the snapshot the canonical baseline was built from
