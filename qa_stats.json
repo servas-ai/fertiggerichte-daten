@@ -1,7 +1,7 @@
 {
  "files": 6,
  "fixes": 1501,
- "applied": 1490,
+ "applied": 1491,
  "by_field": {
   "price_date": 162,
   "price_status": 162,
@@ -22,7 +22,7 @@
   "salt_100": 78,
   "image_url": 145,
   "exclude": 38,
-  "store": 128
+  "store": 129
  },
  "by_file": {
   "billa_fixes.json": {
@@ -47,7 +47,7 @@
   },
   "other_fixes.json": {
    "fixes": 189,
-   "applied": 179
+   "applied": 180
   }
  }
 }

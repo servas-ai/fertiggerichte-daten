@@ -63,3 +63,14 @@ No file staged (0 new rows). Fresh fetches of billa, dm, mpreis-shop, juit, loew
 - Skipped: Danke Bauer Schweinsbraten 2 Scheiben (meat component without side), denn's Currysauce/Antipasti/Strudelteig (not meals), NaBio "Eintopf oder Suppe" (multi-variety offer, no size).
 - 0 new from fittogo, draxler, sperchenedergut, wagyuhof, wiesbauer_gourmet; myproduct and bofrost timed out after 240 s (retry next run with a smaller limit).
 - Goal of 20 not reached: existing connectors stay exhausted; new rows need new stores (Daten-Squad).
+
+### hourly 2026-10-24T23
+
+| file | source | rows | tags | status |
+|---|---|---|---|---|
+| staged_2026-10-24T23.json | SPAR/INTERSPAR (food-connectors `spar-shop`) | 5 | meal 4, stew 1 | open |
+
+- Rows: SPAR Feine Küche Paprika-Huhn mit Eierspätzle 400 g 4,99 € (chilled); S-BUDGET Fusilli mit Käsesauce 1,39 €, S-BUDGET Fusilli mit Tomatensauce 1,39 €, S-BUDGET Penne mit Pilzsauce 1,39 € (dry pasta-in-sauce packs); Knorr Kaiser Teller Kartoffeltopf mit Bohnen und Speck 1,59 € (store-specific row, BILLA has the same product). Shop photos for all; no nutrition, no GTIN; size_g null for the 4 dry packs because the SPAR API gives no pack size.
+- Deduped against data.json (EAN, URL, normalized name and SPAR article id in raw JSON), all staged_*.json and fertiggerichte-daten online_mealprep.csv. Most SPAR "new" names were renamed duplicates of existing rows (Inzersdorfer soups, Johanna Maier Tomatensuppe/Topfen-Spätzle, Asia Noodles).
+- Skipped: SPAR PREMIUM Ravioli Bufala (fresh pasta, raw), hummus, baguettes, Blätterteig, Eierspätzle, Kokosflocken; Gurkerl 8 (sides, sauces, meat components, all rejected before); bofrost Putenrolle, Rotkrautknödel, chocolates. Lidl returned 0 products; myproduct timed out again after 300 s at --limit 80.
+- Goal of 20 not reached: live connector sources stay exhausted; new rows come from new stores (Daten-Squad).
