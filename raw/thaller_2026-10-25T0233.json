@@ -1,0 +1,62 @@
+{
+ "source": "https://fleischhauerei-thaller.at/wp-json/wc/store/v1/products?per_page=100",
+ "fetched": "2026-10-25T0233",
+ "operator": "Fleischhauerei Thaller – Eduard Thaller, Hauptstraße 34, 8311 Markt Hartmannsdorf (UID ATU74028946)",
+ "vies": {
+  "uid": "ATU74028946",
+  "valid": true,
+  "name": "Thaller Eduard Franz",
+  "address": "Hauptstraße 34/2, AT-8311 Markt Hartmannsdorf",
+  "checked": "2026-10-25T02:35:17.355Z"
+ },
+ "gleif": "GLEIF fulltext 'Thaller Hartmannsdorf' and legalName 'Thaller Eduard' → 0 records (2026-10-25), no LEI",
+ "impressum": "https://fleischhauerei-thaller.at/impressum/ (Fleischhauerei Thaller - Eduard Thaller, Hauptstraße 34, 8311 Markt Hartmannsdorf; UID ATU74028946; no FN)",
+ "robots": "User-agent * disallows only wp-admin, WC upload/log folders and ?add-to-cart=; Store API fetched once",
+ "shipping": "Versand nur innerhalb Österreichs mit der Österreichischen Post (Next Day für Frischware, Versand Di/Mi); 18,90 € bis 150 €, 10,90 € bis 250 €, versandkostenfrei ab 250 € lt. fleischhauerei-thaller.at/versandarten/",
+ "photo_vision_gate": "1/1 PASS (IMG_7305 jar packshot; Gulasch-bea-kw-15-1 = serving photo, second image)",
+ "excluded": [
+  "Rindssuppe im Glas 1000 ml 8,00 € (klare Suppe/Brühe)",
+  "Leberkäse im Glas 350 g 6,00 € (roher Leberkäse zum Backen, Wurstware)",
+  "Käseleberkäse im Glas 350 g 6,60 € (roher Leberkäse zum Backen, Wurstware)",
+  "Leberstreichwurst, Verhackert, Grammelschmalz im Glas (Aufstriche)"
+ ],
+ "leads_closed": {
+  "Fleischerei Metzker Wien": "fleischerei-metzker.at/online-shop: Hauszustellung nur 1160/1170/1180 Wien (7 €, frei ab 50 €) bzw. Abholung – kein Versand nach Linz/AT → nicht aufgenommen"
+ },
+ "kept": [
+  {
+   "source": "thaller",
+   "store": "Online: Fleischhauerei Thaller",
+   "name": "Rindsgulasch im Glas",
+   "brand": "Fleischhauerei Thaller",
+   "price_eur": 7.5,
+   "unit_price_eur": 21.43,
+   "unit": "kg",
+   "size_g": 350.0,
+   "nutrition_100g": {},
+   "ean": null,
+   "image_url": "https://fleischhauerei-thaller.at/wp-content/uploads/2025/08/Gulasch-bea-kw-15-1.jpg",
+   "producer": "Fleischhauerei Thaller – Eduard Thaller, Hauptstraße 34, 8311 Markt Hartmannsdorf (UID ATU74028946)",
+   "producer_id": null,
+   "origin": null,
+   "category": "Fertiggericht",
+   "source_url": "https://fleischhauerei-thaller.at/produkt/rindsgulasch-im-glas/",
+   "source_id": "4102",
+   "fetched_at": "2026-10-25T02:37:30+00:00",
+   "extra": {
+    "wc_id": 4102,
+    "slug": "rindsgulasch-im-glas",
+    "in_stock": true,
+    "ingredients": "45% Rindfleisch,Wasser,Zwiebel,Tomatenmark,Salz,Gewürze, WEIZENMEHL",
+    "storage": "gekühlt 2 °C – 4 °C, 60 Tage haltbar",
+    "preparation": "Deckel abschrauben. In die Mikrowelle oder in einen Kochtopf geben und auf die gewünschte Temperatur erhitzen.",
+    "images": [
+     "https://fleischhauerei-thaller.at/wp-content/uploads/2025/08/Gulasch-bea-kw-15-1.jpg",
+     "https://fleischhauerei-thaller.at/wp-content/uploads/2025/08/IMG_7305.jpg"
+    ],
+    "price_note": "Preis je Glas inkl. 10 % MwSt. lt. WooCommerce Store API",
+    "shipping_note": "Versand nur innerhalb Österreichs mit der Österreichischen Post (Next Day für Frischware, Versand Di/Mi); 18,90 € bis 150 €, 10,90 € bis 250 €, versandkostenfrei ab 250 € lt. fleischhauerei-thaller.at/versandarten/"
+   }
+  }
+ ]
+}
