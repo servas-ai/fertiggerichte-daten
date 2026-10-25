@@ -86,3 +86,15 @@ No file staged (0 new rows). Fresh fetches of billa, dm, mpreis-shop, juit, loew
 - Skipped: Land Leben Frittaten (soup insert, component); Nah&Frisch weekly offers iglo Mehlspeistraum Süße Knödel and Knorr Bitte zu Tisch Suppen (multi-variety offer tiles, no size; price OCR partly unreadable) and Goldaugen Suppenwürfel (soup base); PrepMyMeal 32 "new" are bundles, sets, Body-Challenge passes, Müsli and Whey, plus a renamed URL of the existing Hähnchen im Kokosmantel.
 - 0 new from biohof-achleitner (13), steiramarkt (22), livefresh (10); heisse-preise returned 0; myproduct --limit 30 finished but had 0 new; alfies and myproduct time out at --limit 300 (240 s), so keep small limits.
 - Goal of 20 not reached: live connector sources stay exhausted; new rows keep coming from new online stores (Daten-Squad, e.g. Deflorian 27 rows added directly to online_mealprep.csv at 2026-10-25T0006).
+
+### hourly 2026-10-25T01
+
+| file | source | rows | tags | status |
+|---|---|---|---|---|
+| staged_2026-10-25T01.json | PENNY (food-connectors `penny` / `penny-shop` weekly offers) | 2 | dessert 1, snack 1 | open |
+
+- Rows: BÄCKERKRÖNUNG Mohnnudeln 500 g TK 1,99 € (offer 2026-10-22 to 10-28, standard price 2,49 €; other stores carry Iglo/Toni Kaiser Mohnnudeln, this is a different product); PENNY READY Chicken Cheese Burger 320 g 1,99 € (chilled heat-up burger, offer valid 2026-10-29 to 11-04, origin Deutschland; tagged snack, the Orchestrator may decide whether it belongs in meal rankings). Shop photos for both; no nutrition, no GTIN.
+- Deduped against data.json (case-insensitive store + normalized name, EAN, URL), all staged_*.json and fertiggerichte-daten online_mealprep.csv. BILLA Inzersdorfer Rindsgulasch 800 g, BILLA Lasagne Bolognese and Iglo Lasagne al Forno were already in data.json as store "Billa" (the connector writes "BILLA", so a case-sensitive store match gives false positives).
+- Skipped: dry lasagne sheets, Gulaschsaft/soup cubes, curry spices and spreads (BILLA search hits); Gourmetfein 60 (sausages, Leberkäse, ham, no meals); MPreis "Fertigmenüs" hits (tofu, vegan cold cuts, Cordon Bleu component, Eierspätzle, pudding powder); HOFER (bird feed, pan, Flammkuchen without price); PENNY multi-variety offers (Bitte zu Tisch Suppen, Kaiserteller od. Schnelle Feine, Meisterkessel Suppen, Pfannengerichte, Cevapcici od. Pljeskavica), raw meat, sides.
+- 0 new from juit, issmich, adamah, dm, gerbl, suppito, loewenanteil, goldblatt, ruckzuck, kernbeisser, gourmet-daheim (all fetched fine at --limit 60, 4 in parallel, ~4 min total).
+- Goal of 20 not reached: live connector sources stay exhausted; new rows keep coming from new online stores (Daten-Squad).
